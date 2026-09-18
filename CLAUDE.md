@@ -2,8 +2,8 @@
 
 Project: Australian AI Data Centre Observatory (working title)
 Purpose: single source of truth for AI coding agents working in this repo.
-Last reviewed: [DATE]
-Next review: [DATE]
+Last reviewed: 2026-09-18
+Next review: 2026-10-01
 
 ## Project summary
 Public data observatory tracking Australian AI data centres, plus a separate
@@ -24,11 +24,14 @@ versus research data.
 ## Tech stack
 - Frontend: Next.js App Router, TypeScript, Tailwind.
 - Backend and data: Supabase (Postgres, Auth, Storage). Public read via Row Level Security.
-- Maps: Leaflet or MapLibre GL, single point layer for v1.
+- Maps: Leaflet, single point layer for v1. Rationale in docs/UI.md.
 - Video: YouTube embeds. Essays stored as records with metadata.
 - Ingestion: scheduled jobs (Supabase Edge Functions or GitHub Actions) for approved sources only.
 
 ## Repo layout
+Note: only /docs exists today. The directories below are the agreed target
+layout for the scaffold pass, not the current state of the repo.
+
 /app        public pages
 /components UI components
 /lib        typed data access and domain logic
@@ -45,6 +48,7 @@ versus research data.
 
 ## Key documents
 docs/SPEC.md        product scope and data model
+docs/COUNCIL_CANDIDATES.md  unapproved council candidates, pending sign-off
 docs/UI.md          design system and page specs
 docs/REVIEW.md      editorial and code review checklists
 docs/SUBAGENTS.md   agent roles and boundaries

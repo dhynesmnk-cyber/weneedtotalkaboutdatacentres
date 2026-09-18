@@ -1,11 +1,13 @@
 # DEPLOYMENT.md
 
 ## Environments
-- preview: per pull request, isolated Supabase branch.
-- production: main branch, primary Supabase project.
+- preview: per pull request, Netlify deploy preview paired with an isolated
+  Supabase branch.
+- production: main branch, Netlify production deploy against the primary
+  Supabase project.
 
 ## Hosting
-- Frontend on Vercel.
+- Frontend on Netlify. Configuration lives in netlify.toml at the repo root.
 - Backend and database on Supabase.
 - Scheduled ingestion via Supabase Edge Functions or GitHub Actions cron.
 
@@ -14,8 +16,10 @@
 - On merge to main: run supabase migrations, then deploy frontend.
 
 ## Secrets
-- All secrets in platform environment variables.
+- All secrets in Netlify environment variables and Supabase project settings.
 - Never commit keys, tokens or connection strings.
+- Only the anon key is exposed to the browser. The service role key is used
+  exclusively by ingestion jobs and edge functions, never in frontend code.
 
 ## Backups and recovery
 - Supabase point in time recovery enabled.

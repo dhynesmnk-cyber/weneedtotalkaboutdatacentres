@@ -1,4 +1,26 @@
-```
-# Documentation files
-docs/*.md
-```
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Test output
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Platform
+.netlify/
+.vercel/
+.supabase/
+
+# Logs and OS files
+*.log
+npm-debug.log*
+.DS_Store
