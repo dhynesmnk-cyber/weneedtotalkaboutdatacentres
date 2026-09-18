@@ -11,8 +11,21 @@
 - Backend and database on Supabase.
 - Scheduled ingestion via Supabase Edge Functions or GitHub Actions cron.
 
+## Supabase project setup
+- Apply supabase/migrations in order. They create the facts and editorial
+  schemas, not public.
+- Both schemas must be added under "Exposed schemas" in the project's API
+  settings. Neither is reachable through PostgREST otherwise, and every query
+  will fail with a schema error rather than an empty result.
+- Row Level Security is enabled on every table by migration 0004. Do not disable
+  it to debug a query: an unfiltered read is the failure mode the policies exist
+  to prevent.
+
 ## CI pipeline
 - lint, typecheck, unit tests, build on every pull request.
+- The build runs with no Supabase credentials on purpose. Every page that reads
+  data is dynamic, so the build never touches the database, and a build that
+  only passes with credentials present would be hiding that.
 - On merge to main: run supabase migrations, then deploy frontend.
 
 ## Secrets

@@ -28,6 +28,17 @@
   record_id cannot be enforced by a foreign key.
 - Tests assert that unconfirmed links are not publicly readable.
 
+## Outstanding: live Row Level Security tests
+tests/schema.test.ts reads supabase/migrations as text and asserts that the
+policies and constraints are declared. That catches a policy deleted or loosened
+in a diff, which is worth having, but it proves nothing about behaviour: a
+policy can be declared and still not do what it says.
+
+Real RLS tests need a Postgres instance, an anon-role connection, and assertions
+that an unconfirmed link and an unapproved essay are genuinely invisible. Until
+those exist, a passing test run is not evidence that the database is secure, and
+the static checks should not be cited as though it were.
+
 ## Audits
 - Monthly sample audit: pick ten published claims, verify against sources.
 - Record audit results and fix gaps found.

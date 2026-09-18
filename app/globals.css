@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased;
+  }
+
+  /* Visible focus everywhere. The timeline and list are keyboard-first. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-offset-2 ring-fact-ink;
+  }
+}
+
+@layer utilities {
+  /* Skip link, visible only once focused. */
+  .skip-link {
+    @apply absolute left-2 top-2 z-50 -translate-y-20 rounded bg-fact-ink px-3 py-2
+           text-white transition-transform focus:translate-y-0;
+  }
+}
+
+/* docs/UI.md: respect reduced motion preferences. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

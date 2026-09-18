@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Deploy previews are built per pull request against an isolated Supabase
+# branch. See docs/DEPLOYMENT.md.
+[context.deploy-preview]
+  command = "npm run build"
+
+[context.production]
+  command = "npm run build"

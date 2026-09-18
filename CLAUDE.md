@@ -29,15 +29,13 @@ versus research data.
 - Ingestion: scheduled jobs (Supabase Edge Functions or GitHub Actions) for approved sources only.
 
 ## Repo layout
-Note: only /docs exists today. The directories below are the agreed target
-layout for the scaffold pass, not the current state of the repo.
-
 /app        public pages
 /components UI components
 /lib        typed data access and domain logic
 /supabase   migrations and edge functions
 /scripts    ingestion jobs
 /docs       specs and process documents
+/tests      unit tests (vitest)
 
 ## Conventions
 - TypeScript strict mode.
