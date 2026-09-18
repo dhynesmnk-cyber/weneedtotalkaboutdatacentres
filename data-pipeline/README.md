@@ -307,6 +307,21 @@ Both scrapers are single-threaded with a fixed delay, send a descriptive User-Ag
 project, and are designed to stop when asked. Public planning registers are a service, not a data
 vendor.
 
+### Credentials in archived pages
+
+Archived HTML is a snapshot of someone else's page, and those pages can embed their own API keys.
+The NSW Planning Portal ships a Google Maps browser key in its `drupal-settings-json` block, so it
+appeared in `glendenning.html`, `kemps_creek.html` and `mamre_road.html`. It is the Portal's key, not
+ours, and it was already public on their site — but committing it here republishes another party's
+credential and trips secret scanners, so it is redacted to
+`REDACTED-THIRD-PARTY-GOOGLE-MAPS-API-KEY`.
+
+Recording the edit rather than making it quietly: only that one JSON string changed, no curation
+script reads these three files, and no SHA-256 manifest covers them, so nothing downstream moves.
+Where a redaction would touch a hash-verified document, redact nothing — leave the archive intact and
+raise it instead. `ingest_nsw_planning.py` now applies the same redaction at archive time, so future
+scrapes never write the key to disk.
+
 ## Scope decisions worth knowing about
 
 - **Australia, not the NEM.** Every site carries `market` ∈ {NEM, WEM, NT}. WA and the NT are inside

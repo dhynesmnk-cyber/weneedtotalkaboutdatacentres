@@ -54,17 +54,51 @@ def _get(url: str, timeout: int = 60) -> bytes:
         return resp.read()
 
 
+# The portal embeds its own Google Maps browser key in the page's drupal-settings-json
+# block. It is their credential, already public on their site, but archiving it here would
+# republish it and trip secret scanners, so it never reaches disk.
+_REDACTIONS: tuple[tuple[bytes, bytes], ...] = (
+    (re.compile(rb"AIzaSy[A-Za-z0-9_-]{33}"), b"REDACTED-THIRD-PARTY-GOOGLE-MAPS-API-KEY"),
+)
+
+
+def _redact(body: bytes) -> tuple[bytes, list[str]]:
+    """Strip third-party credentials from a fetched page before it is archived.
+
+    Returns the body to store and the labels of what was removed, so the manifest can
+    record that the stored bytes are not byte-identical to what the server sent.
+    """
+    applied: list[str] = []
+    for pattern, replacement in _REDACTIONS:
+        body, count = pattern.subn(replacement, body)
+        if count:
+            applied.append(f"{replacement.decode()} x{count}")
+    return body, applied
+
+
 def _archive(kind: str, key: str, body: bytes, url: str) -> str:
     os.makedirs(RAW, exist_ok=True)
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    digest = hashlib.sha256(body).hexdigest()[:12]
+    upstream_sha256 = hashlib.sha256(body).hexdigest()
+    body, redactions = _redact(body)
+    # Hash what is actually stored, so --offline verification of this file still passes.
+    # The upstream digest is kept alongside it: with the redaction rule above, the fetch
+    # remains reproducible from the original response.
+    stored_sha256 = hashlib.sha256(body).hexdigest()
+    digest = stored_sha256[:12]
     safe = re.sub(r"[^A-Za-z0-9_.-]+", "_", key)[:80]
     path = os.path.join(RAW, f"{kind}__{safe}__{stamp}__{digest}.html")
     with open(path, "wb") as fh:
         fh.write(body)
+    meta = {"url": url, "fetched_utc": stamp, "sha256": stored_sha256,
+            "bytes": len(body), "user_agent": UA}
+    if redactions:
+        meta["redacted"] = redactions
+        meta["upstream_sha256"] = upstream_sha256
     with open(path + ".meta.json", "w", encoding="utf-8") as fh:
-        json.dump({"url": url, "fetched_utc": stamp, "sha256": hashlib.sha256(body).hexdigest(),
-                   "bytes": len(body), "user_agent": UA}, fh, indent=2)
+        json.dump(meta, fh, indent=2)
+    if redactions:
+        print(f"[redacted] {', '.join(redactions)}")
     return path
 
 
