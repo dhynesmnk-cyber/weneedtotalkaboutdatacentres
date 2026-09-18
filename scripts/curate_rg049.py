@@ -1,0 +1,548 @@
+#!/usr/bin/env python3
+"""
+Curate the RG-049 pack: the Western Downs Digital Park development application, read from the
+primary lodged document, plus the ABR-resolved Zerra corporate stack.
+
+Source document (344 MB, ~870 pages, downloaded and archived 2026-09-18 with a SHA-256 manifest):
+    https://wdrcdevelopmenti.blob.core.windows.net/devdocs/6393206_1.pdf
+
+Only the opening streams were decoded - the Town Planning Report by Urbis - because the document
+embeds survey imagery that decompresses to gigabytes. scripts/pdf_text.py was hardened for this:
+incremental inflation with a 16 MB text ceiling, oversized streams skipped, and a
+`_head_for_streams` truncation so a 344 MB file is not fully scanned for 250 streams.
+
+Run:
+    python3 scripts/curate_rg049.py
+    python3 scripts/load_pack.py data/packs/rg049_western_downs.json --dry-run --allow-missing-source
+"""
+from __future__ import annotations
+
+import json
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "data", "packs", "rg049_western_downs.json")
+TODAY = "2026-09-18"
+
+SOURCES = [
+    dict(id="SRC_WDDP_TPR",
+         title="Western Downs Digital Park - Town Planning Report (lodged development application)",
+         publisher="Urbis, for WDDP Pty Ltd; lodged with Western Downs Regional Council",
+         url="https://wdrcdevelopmenti.blob.core.windows.net/devdocs/6393206_1.pdf",
+         doc_type="primary_planning_portal", published="2026-08-14", credibility="A", accessed=TODAY,
+         notes="Report Number V4, Project Code P00 67336, dated 14 August 2026, prepared for WDDP Pty Ltd. "
+               "Urbis staff responsible: Partner Cameron Stanley, Associate Director Matthew Brown, Senior "
+               "Consultants Dan Wilson and Karan Rao, Consultant Ella Middleton. Lodged by email to Western "
+               "Downs Regional Council on 18-19 August 2026 with a revised report substituting the earlier "
+               "version. Other consultants named in the document: Environmental Resources Management Australia "
+               "Pty Ltd and HDR Pty Ltd. Archived locally at 343,666,719 bytes with SHA-256 manifest; the PDF is "
+               "approximately 870 pages and includes Appendices B (title search), D (architectural drawings), N "
+               "(external lighting assessment), O (waste management plan) and P (economic benefit assessment)."),
+    dict(id="SRC_ABR_ZERRA",
+         title="ABN Lookup - Zerra and WDDP entity group",
+         publisher="Australian Business Register (ABR)",
+         url="https://abr.business.gov.au/Search/ResultsActive?SearchText=ZERRA",
+         doc_type="primary_government", published=None, credibility="A", accessed=TODAY,
+         notes="Records extracted 18 September 2026, all main business location NSW 2000 (Sydney CBD): "
+               "ZERRA WDDP MANAGER AUSTRALIA PTY LTD, ABN 98 684 250 584, ACN 684 250 584, active from 5 February "
+               "2025, not GST registered. ZERRA INVESTMENTS AUSTRALIA PTY LTD, ABN 82 686 366 254, ACN 686 366 "
+               "254, active from 17 April 2025, GST from 16 July 2025. ZERRA DC OPERATOR (AUSTRALIA) PTY LTD, "
+               "ABN 37 693 178 157, active from 25 November 2025, GST from 1 May 2026; the same ABN carries the "
+               "business name ZERRA DC. ZERRA OPERATOR FINCO PTY LTD, ABN 50 701 082 082, ACN 701 082 082, "
+               "active from 5 August 2026, GST from the same day. ZERRA WDDP ASSET MANAGER PTY LTD, ABN 35 701 "
+               "249 765, ACN 701 249 765, active from 10 August 2026, NOT GST registered. ZERRA WDDP "
+               "INVESTMENTS AU PTY LTD, ABN 76 701 246 693, ACN 701 246 693, active from 10 August 2026, NOT GST "
+               "registered. ABR publishes no director or shareholder data."),
+]
+
+ENTITIES = [
+    dict(id="ENT_WDDP", name="WDDP Pty Ltd", legal_name="WDDP PTY LTD", entity_type="developer",
+         domicile="Unknown - not resolvable from public registers", hq_country=None,
+         notes="The instructing party and proponent named on the Western Downs Digital Park Town Planning "
+               "Report (Urbis, 14 August 2026, Report V4). Not returned as an exact match in an ABR name search "
+               "for 'WDDP PTY', which instead returns the ZERRA WDDP entities: Zerra WDDP Manager Australia Pty "
+               "Ltd (active 5 February 2025), Zerra WDDP Asset Manager Pty Ltd and Zerra WDDP Investments AU Pty "
+               "Ltd (both active 10 August 2026 - four days before the report date and eight or nine days before "
+               "lodgement, and neither registered for GST). The bridge between WDDP Pty Ltd and the Zerra group "
+               "is therefore the ABR naming convention plus the project acronym, not a statement in the "
+               "application: the words 'Zerra' and 'AGP' appear NOWHERE in the lodged document. Beneficial "
+               "ownership requires a paid ASIC extract - research gap RG-052.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(id="ENT_URBIS", name="Urbis", legal_name="URBIS LTD", entity_type="other", domicile="Australia",
+         hq_country="AU", website="urbis.com.au",
+         notes="Town planning consultancy, Level 32, 300 George Street, Brisbane. Author of the Western Downs "
+               "Digital Park Town Planning Report V4 (14 August 2026) and the lodging agent for the application. "
+               "The fourth consultancy identified as the named or effective front for a major Australian data "
+               "centre application, after Lehr Consultants International (Glendenning Road), ADW Johnson (Kurri "
+               "Kurri) and Willowtree Planning (Mamre Road).",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(id="ENT_WAMBO", name="Wambo Cattle Company Pty Limited", entity_type="other", domicile="Australia",
+         hq_country="AU",
+         notes="A.C.N. 058 718 326. Registered owner of Lot 125 on DY516, the 725.5 hectare freehold site of the "
+               "Western Downs Digital Park, currently partially used for rural purposes and containing the "
+               "approved Wambo Feedlot. Written consent to lodge the development application is provided at "
+               "Appendix B of the Town Planning Report together with a title search.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+]
+
+ENTITY_UPDATES = [
+    dict(match=dict(id="ENT_ZERRA"),
+         set=dict(legal_name="Zerra DC Operator (Australia) Pty Ltd and related entities",
+                  domicile="Unknown; the Australian group is registered in NSW 2000 (Sydney CBD). Secondary "
+                           "reporting describes the developer as Singapore-based and owned by investment firm "
+                           "AGP; neither appears in the lodged application or on the ABR.",
+                  hq_country=None, website=None,
+                  fact_status="VERIFIED", confidence="medium", as_of_date=TODAY,
+                  notes="Australian corporate stack resolved from the ABR on 18 September 2026, all NSW 2000: "
+                        "Zerra WDDP Manager Australia Pty Ltd (5 Feb 2025, no GST); Zerra Investments Australia "
+                        "Pty Ltd (17 Apr 2025, GST 16 Jul 2025); Zerra DC Operator (Australia) Pty Ltd (25 Nov "
+                        "2025, GST 1 May 2026, business name 'Zerra DC' on the same ABN); Zerra Operator FinCo "
+                        "Pty Ltd (5 Aug 2026, GST same day); Zerra WDDP Asset Manager Pty Ltd (10 Aug 2026, no "
+                        "GST); Zerra WDDP Investments AU Pty Ltd (10 Aug 2026, no GST). The FinCo and the two "
+                        "project SPVs were incorporated within nine days of each other in August 2026, "
+                        "immediately before the application was dated and lodged. 'Zerra' and 'AGP' appear "
+                        "nowhere in the lodged Town Planning Report, whose named instructing party is WDDP Pty "
+                        "Ltd. Ownership by AGP and the 'Singapore-based' characterisation rest on trade press "
+                        "only and remain unverified - research gap RG-050.",
+                  source_id="SRC_ABR_ZERRA"),
+         add_sources=["SRC_ABR_ZERRA", "SRC_WDDP_TPR"]),
+]
+
+SITE_UPDATES = [
+    dict(match=dict(id="SITE_WESTERN_DOWNS"),
+         set=dict(name="Western Downs Digital Park",
+                  operator_id=None, owner_id="ENT_WAMBO",
+                  proponent="WDDP Pty Ltd (instructing party named on the lodged application); Zerra WDDP "
+                            "entity group per ABR naming",
+                  suburb="37 km north-west of Dalby", lga="Western Downs Regional Council",
+                  address="Lot 125 on DY516, Dalby-Kogan Road and Grahams Road, 37 km north-west of Dalby "
+                          "town centre",
+                  campus_area_ha=725.5, gfa_sqm=144000.0,
+                  it_capacity_mw=2160.0, total_capacity_mw=3240.0, max_capacity_mw=2160.0,
+                  construction_jobs=1500,
+                  status="lodged",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+                  source_id="SRC_WDDP_TPR",
+                  notes="READ FROM THE LODGED APPLICATION (Urbis Town Planning Report V4, 14 August 2026; "
+                        "lodged 18-19 August 2026). Site: approximately 725.5 ha of freehold land, Lot 125 on "
+                        "DY516, irregular in shape, with frontages to Dalby-Kogan Road (north) and Grahams Road "
+                        "(east), a single consolidated lot with a single land owner, held under private tenure, "
+                        "currently partially used for rural purposes and containing the approved Wambo Feedlot; "
+                        "subject to two easements including Easement C on SP118043 for electrical transmission "
+                        "and Easement A on RP119876. CAPACITY: 'The ultimate campus has been designed to support "
+                        "approximately 2,160MW of IT load (approximately 3,240MVA total facility demand) across "
+                        "six data buildings. Each stage incorporates three 540MVA transformers, providing "
+                        "continuous N+1 redundancy throughout the network.' Delivered across four stages "
+                        "(1A, 1B, 2A, 2B), each stage's data hall comprising 36,000 sqm of data centre floor "
+                        "space - 144,000 sqm across the four. NOTE the internal tension the document itself "
+                        "creates: the description of the development says 'four large Research and Technology "
+                        "Industry buildings delivered across four stages' while the capacity paragraph says 'six "
+                        "data buildings'. Secondary reporting said up to four buildings of 360 MW each totalling "
+                        "1.44 GW of IT capacity, which does not match either. ELECTRICAL: Stage 1A connects to "
+                        "the existing network; substations step transmission voltage down to 33 kV; a battery "
+                        "storage system is integrated IN SERIES between each 33 kV incomer bus and the data "
+                        "building load through a dual power conversion arrangement, described as multi-purpose "
+                        "and supporting energy arbitrage with the network. The report states the batteries are "
+                        "'an ancillary component of the development and are proposed only for the operation of "
+                        "the development'. CONTEXT: the site sits beside the Braemar generation hub - Braemar 1 "
+                        "(~504 MW) and Braemar 2 (~450 MW), fuelled by natural gas and coal seam gas - the "
+                        "Daandine CGPF operated by APA Group (~27.4 MW), Darling Downs Solar Farm, and is "
+                        "described as within one of the largest renewable energy hubs with many solar, wind and "
+                        "battery projects exporting to the grid. WORKFORCE: temporary workforce accommodation "
+                        "for up to 1,500 construction workers, a temporary hub, and a concrete batching plant "
+                        "operational for the duration of construction of all stages. PATHWAY: assessed under the "
+                        "Planning Act 2016 (Qld) as Research and Technology Industry, Workforce Accommodation and "
+                        "High Impact Industry, all subject to Impact Assessment; the proponent is IN PARALLEL "
+                        "pursuing declaration as a Prescribed Project under the State Development and Public "
+                        "Works Organisation Act 1971 (Qld), which would let the Coordinator-General work with "
+                        "local government and regulators 'to ensure that there are no unreasonable delays'. "
+                        "Anthropic and Zerra do not appear anywhere in the lodged document."),
+         add_sources=["SRC_WDDP_TPR", "SRC_ABR_ZERRA"]),
+]
+
+POWER = [
+    dict(site_id="SITE_WESTERN_DOWNS", connection_type="hybrid", max_demand_mw=2160.0,
+         battery_mw=None, battery_mwh=None,
+         grid_services_role="The application states the series battery system is 'multi-purpose: it supports "
+                            "energy arbitrage with the network' and that a battery storage system co-located with "
+                            "the data centre 'will be provided to minimise impact on the network'. It also states "
+                            "the batteries are ancillary and proposed only for the operation of the development. "
+                            "No capacity, duration, registration as a market participant or contracted demand "
+                            "flexibility is disclosed.",
+         notes="FROM THE LODGED APPLICATION. 2,160 MW of IT load with approximately 3,240 MVA of total facility "
+               "demand. DERIVED, and it must be labelled as such: the ratio of total facility demand to IT load "
+               "is 1.50, so the implied design PUE is approximately 1.50 on an apparent-power basis, or higher "
+               "once power factor is accounted for. That is materially above the NSW Guidelines' dPUE ceiling of "
+               "1.25 or 1.3 and above the 1.15-1.4 range of recent NSW EISs, and it is consistent with the "
+               "energy penalty of choosing air cooling over evaporative cooling in a hot inland climate. "
+               "Electrical architecture: substations stepping transmission voltage to 33 kV, three 540 MVA "
+               "transformers per stage with continuous N+1 redundancy, and a battery storage system integrated "
+               "in series between each 33 kV incomer bus and the data building load via dual power conversion. "
+               "Stage 1A connects to the existing network. The site adjoins the Braemar generation hub (Braemar "
+               "1 ~504 MW and Braemar 2 ~450 MW, gas and coal seam gas) and the APA-operated Daandine CGPF "
+               "(~27.4 MW), and the report acknowledges supply 'via the gas power stations and generators'. "
+               "Back-up generation is not described in the opening sections; the document refers instead to "
+               "'fire safety and containment measures for battery and fuel infrastructure'. Queensland dissented "
+               "from the July 2026 ECMC agreement mandating renewable offsetting, so none of the NSW consent "
+               "conditions found at Glendenning Road - all-times additional firmed renewables, generator hour "
+               "caps, NOx mass caps - has any equivalent here.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+]
+
+WATER = [
+    dict(site_id="SITE_WESTERN_DOWNS", cooling_technology="air_cooled", water_source="mixed",
+         potable_dependency=1, supply_agreement_status="none",
+         drought_response="Primary supply is potable water delivered to site by road tanker and held in on-site "
+                          "storage tanks; because it arrives treated to drinking-water standard no on-site "
+                          "treatment is required. Rainwater harvesting and treated wastewater reuse are "
+                          "incorporated as supplementary non-potable sources. The report states the final supply "
+                          "strategy will be confirmed during detailed design, including the mix of primary and "
+                          "supplementary sources, treatment, storage and any associated water entitlements.",
+         notes="FROM THE LODGED APPLICATION, AND IT CORRECTS THE SECONDARY REPORTING. The report states the "
+               "development 'will utilise primarily air-cooled technology', which 'eliminates the need for "
+               "water-based evaporative cooling, significantly reducing water consumption compared to "
+               "traditional data centres' - so the widely repeated '100 percent air-cooled' claim is a slight "
+               "overstatement of 'primarily'. Cooling water demand is limited to the ONE-TIME commissioning "
+               "flush and fill of the cooling systems. But the site has NO reticulated town water: 'There is no "
+               "reticulated (town) water network in the vicinity of the site, the nearest reticulated water "
+               "infrastructure being approximately 1...' - and the primary supply for the three identified "
+               "demand categories (domestic potable, domestic non-potable, and mechanical commissioning) is "
+               "DRINKING-WATER-STANDARD WATER TRUCKED IN BY ROAD TANKER. So this is not a water-neutral design; "
+               "it is a design with no cooling-water demand and a road-tanker potable supply for everything "
+               "else, in a region with no town water. That is a materially different proposition from the one in "
+               "public reporting, and it raises construction and operational logistics, road wear and drought "
+               "resilience questions the application defers to detailed design. Demand is stated to be highest "
+               "during construction, when up to 1,500 workers will be accommodated on site.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+]
+
+INSTRUMENTS = [
+    dict(id="LAW_QLD_SDPWO", name="State Development and Public Works Organisation Act 1971 (Qld) - Prescribed "
+                                  "Project declaration and Coordinator-General powers",
+         jurisdiction="QLD", instrument_type="act", status="in_force", binding=1,
+         url="https://www.legislation.qld.gov.au/view/html/inforce/current/act-1971-051",
+         source_id="SRC_WDDP_TPR", fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+         summary="Allows a project of significant economic and social importance to Queensland or the region to "
+                 "be declared a Prescribed Project, which enables the Coordinator-General to work with local "
+                 "government, regulators and the proponent through the approvals process 'to ensure that there "
+                 "are no unreasonable delays'. Application processes under the Planning Act remain unchanged "
+                 "unless the Coordinator-General issues a notice under the Act.",
+         relevance="The Western Downs Digital Park proponent is pursuing this declaration IN PARALLEL with the "
+                   "council application. It is Queensland's equivalent of the NSW Investment Delivery Authority "
+                   "and the Victorian Development Facilitation Program, but with an important difference: on the "
+                   "face of the application it coordinates and expedites without removing the assessment manager "
+                   "or appeal rights, whereas the Victorian DFP removes both. Whether a notice is ultimately "
+                   "issued is the thing to watch, because that is where coordination becomes override."),
+    dict(id="LAW_QLD_PLANNING", name="Planning Act 2016 (Qld) - Impact Assessment for Research and Technology "
+                                     "Industry, Workforce Accommodation and High Impact Industry",
+         jurisdiction="QLD", instrument_type="act", status="in_force", binding=1,
+         source_id="SRC_WDDP_TPR", fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+         summary="The Western Downs Digital Park application is assessed under the Planning Act 2016 (Qld) "
+                 "against the Western Downs Regional Planning Scheme. The proposed Research and Technology "
+                 "Industry, Workforce Accommodation and High Impact Industry uses are all subject to Impact "
+                 "Assessment, which carries notification and submission rights. Referral is required under "
+                 "Schedule 10 of the Planning Regulation, and the State Planning Policy (3 July 2017) state "
+                 "interest matters are engaged. Western Downs Regional Council is the assessment manager.",
+         relevance="Queensland has no data-centre-specific classification - Gadens records that data centres are "
+                   "assessed by analogy to 'industry' or 'research and technology' uses, which is why this "
+                   "application is framed as Research and Technology Industry plus High Impact Industry plus "
+                   "Workforce Accommodation. That definitional absence matters: it means no Queensland instrument "
+                   "currently attaches data-centre-specific performance measures to a 2,160 MW facility, and "
+                   "Queensland dissented from the July 2026 ECMC renewable-offsetting agreement."),
+]
+
+METRICS = [
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_it_load", value=2160.0, unit="MW", basis="pipeline",
+         notes="From the lodged Town Planning Report: the ultimate campus is designed to support approximately "
+               "2,160 MW of IT load across six data buildings, delivered in four stages.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_total_facility_demand", value=3240.0, unit="MVA",
+         basis="pipeline",
+         notes="From the lodged Town Planning Report: approximately 3,240 MVA total facility demand against "
+               "2,160 MW of IT load. Three 540 MVA transformers per stage with continuous N+1 redundancy.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_implied_design_pue", value=1.50, unit="ratio",
+         basis="estimate",
+         notes="DERIVED by the Observatory, not stated in the application: 3,240 MVA total facility demand "
+               "divided by 2,160 MW IT load = 1.50 on an apparent-power basis, and higher once power factor is "
+               "accounted for. For comparison the NSW Guidelines set dPUE ceilings of 1.25 or 1.3, recent NSW "
+               "EISs range 1.15-1.4 averaging 1.3, and the most recent NSW application requirements specify 1.3. "
+               "A design PUE of 1.5 means roughly 1,080 MW of the facility's demand is non-IT overhead - more "
+               "than the entire IT load of the 612 MW NEXTDC S7 project. Consistent with choosing air cooling "
+               "over evaporative cooling in a hot inland climate, which is the trade the S7 design change also "
+               "made.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_data_hall_floor_space", value=144000, unit="sqm",
+         basis="pipeline",
+         notes="Four stages each with a 36,000 sqm data hall. The report describes 'four large Research and "
+               "Technology Industry buildings delivered across four stages' while the capacity paragraph says "
+               "'six data buildings' - an unresolved internal inconsistency in the lodged document.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_construction_workforce", value=1500, unit="workers",
+         basis="pipeline",
+         notes="Temporary workforce accommodation for up to 1,500 construction workers during construction of all "
+               "stages, with a temporary hub and an on-site concrete batching plant operational for the duration.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_nearest_town_water_km", value=1.0, unit="km",
+         basis="estimate",
+         notes="The report states there is no reticulated town water network in the vicinity of the site, the "
+               "nearest reticulated water infrastructure being approximately this distance - the sentence is "
+               "truncated in the decoded extract and the figure must be re-read from the source PDF before "
+               "publication. Primary potable supply is by road tanker to on-site storage tanks.",
+         fact_status="VERIFIED", confidence="low", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="QLD", metric_name="wddp_adjacent_gas_capacity", value=981.4, unit="MW",
+         basis="actual",
+         notes="Existing fossil generation adjacent to the site as described in the application: Braemar 1 "
+               "(~504 MW) and Braemar 2 (~450 MW), fuelled by natural gas and coal seam gas, plus the "
+               "APA-operated Daandine CGPF (~27.4 MW). The report acknowledges supply 'via the gas power stations "
+               "and generators' while also describing the locality as one of the largest renewable energy hubs. "
+               "Snowy Hydro's 660 MW Kurri Kurri station is NOT here - that is the separate NSW project.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(as_of="2026-08", scope="NSW", metric_name="fresh_spv_days_before_lodgement_wddp", value=4, unit="days",
+         basis="actual",
+         notes="Zerra WDDP Asset Manager Pty Ltd and Zerra WDDP Investments AU Pty Ltd were both registered on "
+               "10 August 2026, four days before the Town Planning Report was dated (14 August) and eight or nine "
+               "days before lodgement (18-19 August). Zerra Operator FinCo Pty Ltd followed on 5 August 2026. "
+               "Neither project SPV is registered for GST. Compare the Mamre Road proponent stack: KNBDC AU "
+               "Financing Holdco (3 April 2025), KNBDC AU Development (15 May 2025), and the SYD4 Land, Hold and "
+               "Intermediate Hold Trusts (all 19 June 2025). Two of Australia's three largest data centre "
+               "proposals are fronted by purpose-built SPVs incorporated days or weeks before lodgement, with no "
+               "operating history and no publicly disclosed ownership.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_ZERRA"),
+]
+
+GAPS = [
+    dict(id=52, pillar="B", priority=5, retrieval_method="asic_search", status="open", opened=TODAY,
+         question="Obtain ASIC company extracts for WDDP Pty Ltd and the six Zerra Australian entities, and "
+                  "establish the directors, shareholders and ultimate parent of the proponent of Australia's "
+                  "largest data centre proposal.",
+         why_it_matters="The lodged application names WDDP Pty Ltd and never mentions Zerra or AGP. The ABR "
+                        "resolves a six-entity Zerra stack in Sydney CBD, two of which were incorporated four "
+                        "days before the report was dated. Between the application and the ABR there is no public "
+                        "document that states who owns the proponent of a 2,160 MW, A$31bn project. Secondary "
+                        "reporting says Singapore-based AGP; that is currently unevidenced.",
+         target_source="ASIC Connect company extracts for WDDP Pty Ltd, Zerra WDDP Manager Australia (ACN 684 250 "
+                       "584), Zerra Investments Australia (ACN 686 366 254), Zerra DC Operator (Australia), "
+                       "Zerra Operator FinCo (ACN 701 082 082), Zerra WDDP Asset Manager (ACN 701 249 765) and "
+                       "Zerra WDDP Investments AU (ACN 701 246 693); registered charges searches",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_ZERRA"),
+    dict(id=53, pillar="A", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Extract the remaining appendices of the Western Downs application: Appendix B title search "
+                  "and easements, Appendix D architectural drawings, the water supply and demand assessment, the "
+                  "acoustic and air quality assessments, the traffic assessment, Appendix N external lighting, "
+                  "Appendix O waste management and Appendix P economic benefit assessment.",
+         why_it_matters="Only the Town Planning Report's opening streams were decoded. Back-up generation "
+                        "capacity, diesel or gas storage quantities, noise limits, the actual distance to the "
+                        "nearest reticulated water, traffic movements from road-tanker water delivery and "
+                        "1,500-worker accommodation, and the employment claims all sit in the appendices. The "
+                        "economic benefit assessment in particular is the document to test against Blacktown "
+                        "Council's demand that displaced existing employment be netted off.",
+         target_source="The archived 344 MB PDF at data/raw/qld_western_downs/wdrc_6393206_1.pdf - use "
+                       "scripts/pdf_text.py in --stream mode with a high --stream-limit, or fetch the individual "
+                       "appendix files from the Western Downs Regional Council development register",
+         notes="The document is ~870 pages and embeds survey imagery whose streams decompress to gigabytes, so "
+               "extraction must stay in streaming mode with the oversized-stream skip enabled.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(id=54, pillar="C", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Track whether the Western Downs Digital Park is declared a Prescribed Project under the State "
+                  "Development and Public Works Organisation Act 1971 (Qld), and whether the Coordinator-General "
+                  "issues a notice that changes the assessment pathway.",
+         why_it_matters="The application says the proponent is pursuing declaration in parallel with the council "
+                        "assessment. On its face the SDPWO route coordinates and expedites without removing the "
+                        "assessment manager or submission rights - unlike Victoria's DFP. If a notice is issued, "
+                        "Queensland moves from the most participatory of the three eastern pathways to the least, "
+                        "for the largest project in the country, in a state that has already dissented from the "
+                        "national renewable-offsetting agreement.",
+         target_source="Queensland Coordinator-General declared and prescribed project registers; Western Downs "
+                       "Regional Council development register status updates",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+    dict(id=55, pillar="B", priority=4, retrieval_method="asic_search", status="open", opened=TODAY,
+         question="Test whether fresh single-purpose SPV incorporation immediately before lodgement is the "
+                  "general Australian pattern rather than two coincidences, by pulling ASIC incorporation dates "
+                  "for the proponents of every consented data centre in the NSW register.",
+         why_it_matters="Two of Australia's three largest proposals are fronted by SPVs incorporated days or "
+                        "weeks before lodgement: the Zerra WDDP entities (10 August 2026, four days before the "
+                        "report) and the KNBDC SYD4 trusts (19 June 2025). The NSW register now supplies 46 case "
+                        "ids whose proponents can be read from each consent's Schedule 1, so the pattern is "
+                        "testable across the whole pipeline. If it is general, then the practical consequence is "
+                        "that the entity with legal responsibility for a data centre's conditions is routinely a "
+                        "company with no operating history, no assets and no public ownership - which is a "
+                        "compliance-enforcement problem, not merely a transparency one.",
+         target_source="Signed consents' Schedule 1 applicant field for all 24 determined NSW data centre SSDs; "
+                       "ASIC incorporation dates; ABR",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_ZERRA"),
+    dict(id=56, pillar="C", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Obtain the Minister for Planning's determination and permit conditions for the NEXTDC M3 "
+                  "expansion at West Footscray under Victoria's Development Facilitation Program, and the "
+                  "conditions Maribyrnong City Council imposed on the original 2021 permit.",
+         why_it_matters="This is the Victorian equivalent of the "
+                        "Glendenning consent test and arguably more consequential, because the DFP removes VCAT "
+                        "merits review and any review of permit conditions. If ministerial permits carry weaker "
+                        "noise, generator and water conditions than the council permit they supersede, the "
+                        "Victorian fast track is not merely faster but materially less protective, with no appeal "
+                        "route by which to test it. Victoria has no single searchable register equivalent to the "
+                        "NSW Planning Portal, so the route is the Department of Transport and Planning, "
+                        "Maribyrnong City Council planning records, and any published Part 9A decision.",
+         target_source="Victorian Minister for Planning Part 9A decisions; Maribyrnong City Council planning "
+                       "register; DTP planning permit search",
+         notes="Supersedes RG-047, which is closed to avoid two open gaps tracking the same task.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+]
+
+GAP_UPDATES = [
+    dict(match=dict(id=49),
+         set=dict(status="resolved", resolved_date=TODAY,
+                  notes="RESOLVED 2026-09-18 from the primary document. Downloaded the lodged Western Downs "
+                        "Digital Park development application (343,666,719 bytes, ~870 pages) from the Western "
+                        "Downs Regional Council development register and decoded the Town Planning Report (Urbis "
+                        "V4, 14 August 2026, prepared for WDDP Pty Ltd, lodged 18-19 August 2026). Key primary "
+                        "facts now in the database: 725.5 ha freehold Lot 125 on DY516; landowner Wambo Cattle "
+                        "Company Pty Limited (ACN 058 718 326) with written consent at Appendix B; two easements; "
+                        "2,160 MW IT load and approximately 3,240 MVA total facility demand across six data "
+                        "buildings delivered in four stages of 36,000 sqm each; three 540 MVA transformers per "
+                        "stage with N+1 redundancy; series battery between each 33 kV incomer bus and the load "
+                        "supporting energy arbitrage; up to 1,500 construction workers accommodated on site; "
+                        "primarily air-cooled with no evaporative cooling and only one-time commissioning water "
+                        "demand; NO reticulated town water so primary potable supply is by ROAD TANKER to "
+                        "on-site tanks, with rainwater harvesting and treated wastewater reuse supplementary and "
+                        "the final strategy deferred to detailed design; adjacent to Braemar 1 (~504 MW) and "
+                        "Braemar 2 (~450 MW) gas and CSG stations and the APA Daandine CGPF (~27.4 MW); "
+                        "Impact Assessment under the Planning Act 2016 as Research and Technology Industry, "
+                        "Workforce Accommodation and High Impact Industry; and parallel pursuit of Prescribed "
+                        "Project status under the SDPWO Act. RESIDUAL: the appendices were not decoded (RG-053), "
+                        "the proponent's ownership is unresolved (RG-052), and the four-versus-six building "
+                        "inconsistency inside the lodged document is unresolved.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+         add_sources=["SRC_WDDP_TPR", "SRC_ABR_ZERRA"]),
+    dict(match=dict(id=47),
+         set=dict(status="resolved", resolved_date=TODAY,
+                  notes="SUPERSEDED by RG-056 on 2026-09-18, which carries the full question and target "
+                        "sources. Closed to avoid two open gaps tracking the same task.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+         add_sources=["SRC_GADENS_VIC"]),
+    dict(match=dict(id=12),
+         set=dict(notes="Still short of a primary source, and now demonstrably so. The lodged Western Downs "
+                        "development application - the authoritative planning document for this project, read on "
+                        "18 September 2026 - does not mention Anthropic anywhere, and does not mention Zerra or "
+                        "AGP either; its named instructing party is WDDP Pty Ltd. The Anthropic link therefore "
+                        "rests entirely on trade press and metropolitan reporting of a commercial agreement that "
+                        "is not in the planning record. Record as REPORTED at best; do not publish as fact. The "
+                        "route to verification is the commercial agreement, not the planning system.",
+                  fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+         add_sources=["SRC_WDDP_TPR"]),
+    dict(match=dict(id=50),
+         set=dict(status="in_progress",
+                  notes="Advanced 2026-09-18. The ABR resolves six Zerra entities, all NSW 2000: Zerra WDDP "
+                        "Manager Australia (5 Feb 2025), Zerra Investments Australia (17 Apr 2025), Zerra DC "
+                        "Operator (Australia) (25 Nov 2025, business name 'Zerra DC'), Zerra Operator FinCo "
+                        "(5 Aug 2026), Zerra WDDP Asset Manager and Zerra WDDP Investments AU (both 10 Aug "
+                        "2026, neither GST registered). The lodged application names WDDP Pty Ltd and never "
+                        "mentions Zerra or AGP, so the link rests on the ABR naming convention plus the project "
+                        "acronym. The 'Singapore-based' characterisation and AGP ownership remain trade-press "
+                        "only. Ultimate ownership now sits in RG-052 with the KNBDC extracts as a single ASIC "
+                        "task.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_ZERRA"),
+         add_sources=["SRC_ABR_ZERRA"]),
+    dict(match=dict(id=12),
+         set=dict(notes="Still short of a primary source, and now demonstrably so. The lodged Western Downs "
+                        "development application - the authoritative document for this project - does not "
+                        "mention Anthropic anywhere, and does not mention Zerra or AGP either. The Anthropic "
+                        "link rests on trade press and metropolitan reporting of a signed agreement that is not "
+                        "in the planning record. Record it as REPORTED at best and do not publish it as fact. "
+                        "The route to verification is the commercial agreement, not the planning system.",
+                  fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
+         add_sources=["SRC_WDDP_TPR"]),
+]
+
+ENGINEERING_UPDATES = [
+    dict(match=dict(claim_label="Evaporative cooling on potable water is the standard Australian design and "
+                                "must be banned"),
+         set=dict(australia_reality="The premise is now testable against a primary document, and it partly "
+                                    "inverts. Australia's largest proposed facility - Western Downs Digital "
+                                    "Park, 2,160 MW IT load - states in its lodged application that it 'will "
+                                    "utilise primarily air-cooled technology', which 'eliminates the need for "
+                                    "water-based evaporative cooling', with mechanical water demand limited to "
+                                    "the one-time commissioning flush and fill. NEXTDC's S7 (612 MW) likewise "
+                                    "abandoned recycled water for waterless direct-to-chip cooling. So the "
+                                    "largest new designs are already leaving evaporative cooling behind without "
+                                    "being required to. But two things survive the correction. First, the water "
+                                    "problem does not disappear: Western Downs has NO reticulated town water and "
+                                    "its primary potable supply is drinking-water-standard water trucked in by "
+                                    "road tanker to on-site tanks, with rainwater harvesting and treated "
+                                    "wastewater reuse supplementary and the final strategy deferred to detailed "
+                                    "design. Second, the energy penalty is real and large: 3,240 MVA of total "
+                                    "facility demand against 2,160 MW of IT load implies a design PUE of about "
+                                    "1.50, against NSW ceilings of 1.25-1.3, so roughly 1,080 MW of the "
+                                    "facility's demand is non-IT overhead - more than the entire IT load of "
+                                    "S7. Trading water for energy at that scale, beside a 981 MW gas generation "
+                                    "hub, in a state that dissented from the national renewable-offsetting "
+                                    "agreement, is not obviously the better outcome.",
+                  replacement_spec="Keep the water-neutrality objective but stop treating air cooling as the "
+                                   "answer, because it converts a water problem into an energy problem at a "
+                                   "measured ratio of about 1.5. Require instead: (1) a joint PUE-and-WUE "
+                                   "ceiling, so a design cannot satisfy one by breaching the other - the NSW "
+                                   "Guidelines already do this with their paired dPUE/dWUE bands and should be "
+                                   "extended nationally; (2) disclosed total facility demand alongside IT load "
+                                   "in every application, since the ratio is the whole story and the Western "
+                                   "Downs figures only yield it by division; (3) for sites with no reticulated "
+                                   "water, a potable supply plan that does not depend on road tankers at scale, "
+                                   "with the traffic, road-wear and drought-resilience consequences assessed "
+                                   "rather than deferred to detailed design; (4) recycled water trunk "
+                                   "infrastructure funded and fast-tracked as a condition of precinct rezoning, "
+                                   "BEFORE approvals, so waterless cooling is a choice rather than the only "
+                                   "option - which is exactly what failed at S7; and (5) a hard energy-side "
+                                   "consequence for choosing the waterless path next to fossil generation, "
+                                   "which at present attracts no obligation in Queensland at all.",
+                  as_of_date=TODAY,
+                  source_ids="SRC_REUTERS_S7,SRC_NSWGUIDE26,SRC_ABC_WATER,SRC_GREENPEACE_SUB,SRC_WSAA,"
+                             "SRC_WDDP_TPR,SRC_DCD_ZERRA"),
+         add_sources=["SRC_WDDP_TPR"]),
+    dict(match=dict(claim_label="Phantom demand makes the pipeline a reliable measure of future load"),
+         set=dict(residual_gap="Two hard filters now exist and should be reported alongside every pipeline "
+                               "figure. Transgrid's Executive General Manager told the Legislative Council on "
+                               "22 May 2026 that against 10 GW of inquiries and 6 GW of formal applications, "
+                               "'we haven't had a data centre actually commit yet - we're on the eve of that "
+                               "now', and that Transgrid will not invest without full commitment and proponent "
+                               "funding. The NSW Investment Delivery Authority declined to endorse $40.7bn of "
+                               "proposals as premature or overly speculative against $51.9bn endorsed, and three "
+                               "NSW applications have been withdrawn. Sydney Water's Managing Director offered "
+                               "the necessary counterweight: water applications are less likely to be phantom "
+                               "than energy applications, because by the time a proponent applies for water it "
+                               "has typically already secured its energy connection. So the discount rate is not "
+                               "uniform across resource types, and a single blanket haircut is wrong in both "
+                               "directions.",
+                  as_of_date=TODAY,
+                  source_ids="SRC_NSWGUIDE26,SRC_TRANSGRID26,SRC_TRANSGRIDCAP,SRC_AEMO26,SRC_NSW_IDA,"
+                             "SRC_INQ_T_0522"),
+         add_sources=["SRC_INQ_T_0522", "SRC_NSW_IDA"]),
+]
+
+
+def main() -> int:
+    pack = {
+        "pack_id": "rg049-western-downs-application-2026-09",
+        "prepared_by": "scripts/curate_rg049.py (curated from the lodged application and ABR records read "
+                       "2026-09-18)",
+        "prepared_on": TODAY,
+        "sources": SOURCES,
+        "rows": {
+            "entities": ENTITIES + ENTITY_UPDATES,
+            "sites": SITE_UPDATES,
+            "power_profile": POWER,
+            "water_profile": WATER,
+            "legal_instruments": INSTRUMENTS,
+            "metrics": METRICS,
+            "research_gaps": GAPS + GAP_UPDATES,
+            "engineering_claims": ENGINEERING_UPDATES,
+        },
+    }
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as fh:
+        json.dump(pack, fh, indent=1)
+    print(f"wrote {OUT}")
+    print("  sources=%d rows=%s" % (len(SOURCES), {k: len(v) for k, v in pack["rows"].items()}))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

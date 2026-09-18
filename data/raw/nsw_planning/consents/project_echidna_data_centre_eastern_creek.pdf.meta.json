@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-47320208%2120240404T234404.985+GMT",
+ "attachment_slug": "signed-ssd-determination-instrument-3",
+ "title": "Signed SSD Determination Instrument",
+ "folder": "Determination",
+ "label": "Signed SSD Determination Instrument - Project Echidna Data Centre.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:38:02+00:00",
+ "sha256": "3310aec0d29446132da0028b04b8212b00a23aafd8436ee686b29c4d02bb660d",
+ "bytes": 949370,
+ "extraction": {
+  "chars": 108211,
+  "kb": 927,
+  "chars_per_kb": 116.7,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:15+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-33781208%2120221216T065822.321+GMT",
+ "attachment_slug": "development-consent-692",
+ "title": "Development Consent",
+ "folder": "Determination",
+ "label": "Development Consent.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:38:17+00:00",
+ "sha256": "dfb25d3e106b0fd2125a4bc12d11c4c9774dab1a814905f43d4ce3a3e7f6dba4",
+ "bytes": 1195781,
+ "extraction": {
+  "chars": 79513,
+  "kb": 1167,
+  "chars_per_kb": 68.1,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:19+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

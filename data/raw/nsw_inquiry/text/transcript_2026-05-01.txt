@@ -1,0 +1,3288 @@
+REPORT ON PROCEEDINGS BEFORE
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+INQUIRY INTO
+DATA CENTRES
+
+C
+
+O
+
+RRECTED
+
+At Jubilee Room, Parliament House, Sydney, on Friday 1 May 2026
+
+The Committee met at10:00.
+
+PRESENT
+
+Ms Abigail Boyd(Chair)
+
+The Hon. Mark Buttigieg
+
+The Hon. Scott Farlow
+
+(Deputy Chair)
+
+The Hon. Jacqui Munro
+
+The Hon. Peter Primrose
+
+The Hon. Emily Suvaal
+Friday 1 May 2026
+
+Legislative Council
+
+Page1
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The CHAIR:
+
+Welcome to thefirst
+
+hearing of the Committee'sinquiry
+
+into data centres
+. I acknowledgethe Gadigal people of the Eora nation, the traditional custodians of the
+lands on which we are meeting today
+. Ipaymyrespects
+
+to Elders
+
+past
+
+andpresent, and celebrate the diversity of Aboriginal peoples and their ongoing cultures
+and connections to the lands and waters of New South Wales. I also acknowledge and pay my respects to
+any
+Aboriginaland Torres Strait Islanderpeoplejoining us today or online. My name is Abigail Boyd
+,
+
+and I am the
+Chair of this Committee.
+
+I ask everyone in the room to please turn their mobile phones to silent.
+Parliamentary privilege applies towitnessesin relation to the
+evidencethey givetoday
+. However, it does not apply to what witnesses say outside of
+the
+
+hearing. I urge witnesses to be careful aboutmakingcomments to the media or to others after complet
+ing theirevidence
+. In addition, the Legislative Council has adopted rules to provide procedural fairness for inquiry
+participants. I encourage Committee members and witnesses to be mi
+ndful of these procedures.
+Friday 1 May 2026
+
+Legislative Council
+
+Page2
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Ms BELINDA DENNETT, Chief Executive Officer
+, Data Centres Australia
+, affirmed and examined
+
+The CHAIR:
+I now welcome our first witness. Thank you very much for making the time to give evidence.
+Would you like to make a short opening statement?
+
+BELINDA DENNETT:
+Thank you, Chair and Committee, for the opportunity to appear today. My name
+is Belinda Dennett
+,
+
+and I am the chief executive officer of Data Centres Australia, the peak body for the data
+centre sector. Our members represent 86 per cent of operational data centre capacity across the country. I wish to
+make a short opening statement that touches on five points. Firstly, data centres underpin a modern economy.
+They run everything from banking, transport systems, air traffic control, emergency management systems, visa
+processing, hospital systems, business applications and the like. They are critical inf
+rastructure.
+
+Secondly, the growth in data centre capacity is being driven by three things: the ongoing shift from
+on
+-
+premise compute to the cloud, which brings with it a 67 per cent energy efficiency; the continued uptake of
+new digital services; and the rapid adoptionby consumers and businesses of artificial intelligence. If Australia's
+compute processing requirements to 2030 were met by hosting servers in the basements of buildings, or what we
+call "on
+-
+premises" instead of data centres, electricity consumption would
+be 22 terawatt hours more. Data centresare an efficient way to run a digital economy.
+
+Thirdly, the situation in Australia is very different to the US. The scale is significantly smaller, and the
+regulatory environment is vastly different. Data centre operators pay their way. The national electricity rules
+require all large load users, including data centres, to pay 100 per cent connection costs and augmentations to the
+network. Data centre operators will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is
+excess capacity available for public use. Data centre operators do not receive subsidies or tax incentives. Fourth,
+there is significant misinformation around water use in the public debate. The ABS water accounts show that data
+centre water use is 0.04 per cent of Australia's water use, and less than 1 per cent o
+f Sydney's water use. The25
+
+per cent of Sydney's water by 2035 that has been widely repeated in the media and in submissions to this
+inquiry is not based in fact. It was dismissed by IPART
+the independent pricing regulator
+as beingunverifiable, and it should be dismissed.
+
+My fifth point is that the opportunity to attract AI infrastructure investment to Australia is not just an
+opportunity for foreign investment. The countries that build the infrastructure that supports the greatest
+technological shift we have seen will capture the jobs, the economic value, national competitiveness and the ability
+to influence how AI reflects their own values, culture and laws. Those that don't will become a consumer of
+someone else's technology under someone else's rules.
+
+Data centres are not a problem to be managed. They areessential infrastructure, generating the highest gross value added per unit of energy of any industrial sector. We
+welcome this inquiry and I'm happy to take your questions.
+
+The CHAIR:
+
+Thank you very much, Ms Dennett, and thank you to Data Centres Australia for making
+their submission. Effectively, it seems that you are an advocacy body for the data centre industry across Australia.
+
+BELINDA DENNETT:
+
+That's right.
+
+The CHAIR:
+
+How did that come about? How long has Data Centres Australia been a thing, and who are
+your constituents or your members?
+
+BELINDA DENNETT:
+
+We launched on 28 November last year, so we're five months and two days old.
+We came out of five data centre operators who came together around 2½ years ago to talk about how we could
+get some more interest in the sector, which is a little ironic now, beca
+use the interest is obviously very high. A lotof the rules that govern infrastructure were written long before data centres existed. Some of those are not fit for
+purpose. Those five companies came together, really, to educate and advocate for settings that would help us
+ensure that we could build the infrastructure here in Australia more quickly. Those five companies worked
+together in an informal alliance for two years
+
+The CHAIR:
+
+Sorry, so we're talking about AirTrunk, AWS, CDC, Microsoft and NEXTDC?
+
+BELINDA DENNETT:
+
+That's correct, yes
+three Australian pure
+-
+play co
+-
+location operators and twowhat we call "hyperscalers", so they build their own data centres.
+
+The CHAIR:
+
+In terms of your entity, Data Centres Australia, other than representing the interests of those
+data centres, does it have, for instance, a policy function? When you're coming to us here today, is there any
+independent or separate backing of knowledge or experience, or is it simply "Here's what these companies are
+saying, and I'm taking all of that and putting it forward"?
+Friday 1 May 2026
+
+Legislative Council
+
+Page3
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+BELINDA DENNETT:
+
+We are a membership
+-
+driven organisation. All our funding comes frommembers. We have two tiers of membership: our principal members, who must be operating a data centre in
+Australia or have firm, committed plans to operate a data centre in Australia; and t
+hen we have affiliate members,
+who are anyone who might be part of that supply chain. That is the Schneiders and Siemens, who make parts of
+the componentry that go into the supply chain of data centres; energy distributors, who are very focused on how
+they connect in with data centres. But our core focus is on those principal members in terms of policy advocacy.
+We say we have two driving agendas. One is that Australia doesn't miss this opportunityso we say we are
+advocates for Australia's interests hereand then advocating to be able to build and operate data centres in
+Australia.
+
+The CHAIR:
+That second tier of membership, you say it includes those suppliers into the build. Does it
+also include consulting firms or people who are on the outside of that, as well?
+
+BELINDA DENNETT:
+
+Yes.
+
+The CHAIR:
+
+Which consulting firms does it include?
+
+BELINDA DENNETT:
+
+Mandala Partners, because they've done a lot of work for us in helping us develop
+research. They are an in
+-
+kind partner, so they don't pay to be a member, but they support work for us.
+
+The CHAIR:
+
+Who else?
+
+BELINDA DENNETT:
+
+DC Byte, who we just did a collaboration with on producing forecasting data. Is
+there someone you're particularly
+
+
+The CHAIR:
+
+Well, I'm just curious as to whether EY is part of that, or PwC, or any of those.
+
+BELINDA DENNETT:
+
+No.
+
+The CHAIR:
+Again, I'm really grateful for your submission. The Government didn't make a submission.
+But also there was a bunch of data centre operators that were going to make a submission but then withdrew, and
+also witnesses that we invited here today from variousdata centre companies that withdrew on the basis that you
+were coming and that you had made a submission, and that that was all that they had to say.
+
+In
+
+your submission,
+you talk about how all of these data centres are very different. Do you think it's s
+ufficient that this inquiry onlyhear from yourself in relation to that entire industry sector?
+
+BELINDA DENNETT:
+I think that's a decision for operators. We certainly didn't mandate that. We were
+happy to put in a submission on behalf of our membership. That's what peak bodies tend to do. We don't stop
+operators or members from having their own say.
+
+The CHAIR:
+So there wasn't an agreement within that they were all going to not participate in this inquiry,
+because
+
+BELINDA DENNETT:
+
+No. I actually wasn't aware if they were asked to
+whether they were. I have nothad
+
+
+The CHAIR:
+
+Can I get your assurance, then, that Data Centres Australia will be encouraging its members
+to participate in this inquiry?
+
+BELINDA DENNETT:
+
+Well, we would leave that to their own
+
+
+The CHAIR:
+
+But you are them.
+
+BELINDA DENNETT:
+
+Members make their own decisions. But we're pretty new, and it's the first time,
+I guess, many companies have had a peak body to represent them.
+
+The CHAIR:
+
+Previously, you were the lobbyist for AirTrunk, correct?
+
+BELINDA DENNETT:
+
+I was the head of government relations.
+
+The CHAIR:
+We would call that a lobbyist. I guess it looks to me now that, instead of having all of these
+data centre operators turning up to answer our very specific questions about their operations, we have a lobbyist
+for the sector appearing instead. What would you say to that? How is your organisation anything other than a
+lobbyist group?
+
+BELINDA DENNETT:
+
+We say we're here to educate and advocate. We don't come and ask for
+incentives, for preferential treatment. Most of what I do is myth
+-
+busting and laying out the facts about the industry.
+
+The CHAIR:
+On that, one of the things that's often said about the industry is that it is an incredibly
+secretive one with very cosy relationships with government and with other industry sectors
+that it's very hard
+Friday 1 May 2026
+
+Legislative Council
+
+Page4
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+for the public to get any real understanding about. Your appearance here today, in the context of all of the industry
+players not wanting to participate
+how does that bust that so-
+called myth? What do you say to that?
+
+BELINDA DENNETT:
+That's an interesting framing that I haven't heard before. Certainly the industry
+is highly competitive. When you think about data centres competing for customers, for land, for energy, for water
+connections, it does tend to be quite
+
+I wouldn't use the word "secretive", but certainly highly competitive. That
+means there's a real focus on not sharing certain information. I think we can do a better job of that, and certainly
+that's what Data Centres Australia has been trying to do, putting out that forecast
+ing data this week.
+
+The CHAIR:
+
+Let's talk, then, about your submission. There's a bunch of parts of your submission and
+also in your opening statement that are contested by pretty much everyone who is not industry, so I'd like to talk
+about that. One of the arguments that gets made is that there's this phantom demand, which seems to be quite
+convenient because, on the hand, you're talking about data centres being this enormous economic opportunity that
+will bring
+and then you go to the best possible case of all of these data centres ar
+e going to get built and this isthe huge amount of money that is apparently going to be pumped into the economy. But on the other hand, when
+we're looking at the energy and the water use, we're supposed to assume only some of them get built. Which is it,
+and why is the industry so intent on trying to downplay the water and energy burden?
+
+BELINDA DENNETT:
+
+I don't think we're trying to downplay anything. My role here is to put the facts
+on the table. The data that we released
+and I did send it to the Committee; we only put it out this week. The
+Australian Data Centre Forecast Report
+
+is independent data that is trying to show what is real, compared with
+this concept of phantom demand.
+
+The CHAIR:
+
+Who was the report writer for that? Who did that?
+
+BELINDA DENNETT:
+
+It was Data Centres Australia in conjunction with data from DC Byte, which is
+an independent global analyst on the data centre market. What they do is map data centre development across all
+countries
+8,300 data centres they're mapping. They have a number of data points. They know the industry really
+well. They know the difference between a press release announcement and what is actually getting built. They
+have on
+-
+the
+-
+ground analysts that go out to sites and see, "Is this site actually being built? How mu
+ch of it has beenbuilt? What's the phased build-
+out of that?" which enables them to have far more granular data than we're finding
+has been put out by property developer companies, by investment bankers, by desk research that looks at press
+releases and announcements, and grounds that in reality. Some of the things
+
+The CHAIR:
+Just to clarify, sorry, because your submission was very much based on two
+industry
+-
+commissioned reports, which were commissioned by the data centres. There was no citing of independent
+academic research. This particular data that you've now
+this is also industry
+-
+commissioned data?
+BELINDA DENNETT:
+
+DC Byte is an independent global company.
+
+The CHAIR:
+
+Is it commissioned by industry?
+
+BELINDA DENNETT:
+
+It was done as a partnership. We didn't commission it. It's data they have
+available that anyone can subscribe to and purchase.
+
+The CHAIR:
+
+Can we look, then, at AEMO data. You did cite this, but it showed that existing data centres
+consumed 3.9 terawatt
+-
+hours in the '25 financial year but have capacity to consume 13 at maturity, which would
+be a more than threefold increase from the current facilities alone with some ramping up through to financial year
+'41. That's before any new approvals. Do you dispute that that's the impact on our energy network?
+
+BELINDA DENNETT:
+
+I think if you talk to AEMO
+and AEMO were briefed by the analysts and foundthis data extremely helpful. We can just take a step back
+
+The CHAIR:
+
+Do you have any evidence of that response?
+
+BELINDA DENNETT:
+
+and talk about
+
+The CHAIR:
+
+Are you saying AEMO found it helpful?
+
+BELINDA DENNETT:
+
+That was their feedback directly after we'd briefed them.
+
+The CHAIR:
+
+To you?
+
+BELINDA DENNETT:
+
+Yes.
+
+The CHAIR:
+
+But there's no document to evidence that?
+
+BELINDA DENNETT:
+
+No.
+
+The CHAIR:
+
+No. Okay. Sorry.
+Friday 1 May 2026
+
+Legislative Council
+
+Page5
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+BELINDA DENNETT:
+
+But I did just swear an affirmation.
+
+The CHAIR:
+
+That's fine. I'm just
+
+
+The Hon. MARK BUTTIGIEG:
+
+Are we having AEMO, Chair?
+
+The CHAIR:
+
+We will. It will be very helpful.
+
+BELINDA DENNETT:
+
+I believe they put out a new forecast in May.
+
+The CHAIR:
+
+Yes.
+
+BELINDA DENNETT:
+
+What AEMO, what the distributors, what companies
+sorry, what governmentsand what utilities have been telling us is that forecasting data is really difficult. What has traditionally been used
+to forecast energy useand this was the situation with that Sydn
+ey Water figure
+is they use applications:
+applications for energy connection, applications for water connection, applications for approval. Anyone can put
+in an application for an energy connection. I can assure you, since I started this role, every property developer
+with a piece of land rings me to tell me they've got a great deal and this piece of land has energy available. So it's
+a speculative process. Phantom demand is trying to sift through what is real and what is not real.
+
+The CHAIR:
+
+On the water, though, because that one in particular
+obviously, Sydney Water needs towork out what the absolute capacity would need to be should all those applications be approved. That makes
+perfect sense to me. If you're a utility, you need to make sure
+
+that you've got sufficient water and you
+
+BELINDA DENNETT:
+
+If all those applications were to proceed.
+
+The CHAIR:
+
+That's right.
+
+BELINDA DENNETT:
+
+But they're never going to proceed.
+
+The CHAIR:
+
+How does their figure of 25 per cent by 2035
+because your figure is 1.9 per cent.
+
+BELINDA DENNETT:
+
+Yes.
+
+The CHAIR:
+
+How is it so different? You're saying that, what, a twenty
+-
+fifth of these things would beapproved?
+
+BELINDA DENNETT:
+
+I think you have to ask Sydney Water how they've calculated that 25 per cent
+figure because there is no methodology put to that whatsoever.
+
+The CHAIR:
+
+We will ask Sydney Water when they come in.
+
+BELINDA DENNETT:
+What we imagine they have done is used every application in the system.
+AEMO's own modelling suggests six out of seven megawatts of request for connection never get built.
+
+The CHAIR:
+
+Where's your methodology for the water claim?
+BELINDA DENNETT:
+
+It's from the ABS water accounts
+metered water use, backed up by CSIRO.
+
+The CHAIR:
+
+Sorry, but your forecast? Where is your 1.9 per cent?
+
+BELINDA DENNETT:
+
+Thats from the Mandala report, modelled on the ABS water figures.
+
+The CHAIR:
+
+The industry-
+commissioned report.
+
+BELINDA DENNETT:
+
+Independent economic consultants, yes, paid for by industry.
+
+The CHAIR:
+
+They're not independent if they're also members of DCA.
+
+BELINDA DENNETT:
+
+Yes, but they have to put their name to a credible methodology, which they have
+outlined.
+
+The Hon. SCOTT FARLOW:
+By way of clarification, in terms of your members, I take it that they have
+been members of other industry groups as well, like perhaps the Australian Computer Society or the Property
+Council. Would that be the case?
+
+BELINDA DENNETT:
+Some members have been and continue to be members of a range of different
+industry associations, yes.
+
+The Hon. SCOTT FARLOW:
+But those industry associations didn't necessarily advocate purely on data
+centres. Is that correct?
+BELINDA DENNETT:
+
+Correct.
+Friday 1 May 2026
+
+Legislative Council
+
+Page6
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. SCOTT FARLOW:
+
+So not necessarily something which is bizarre in terms of the
+establishment of a specific data centre advocacy group.
+
+BELINDA DENNETT:
+
+I don't think so. When you think of the interest in this sector, when you think of
+the economic round table in Federal Parliament last year, it was the hottest issue of discussion and there wasn't
+one data centre company around that table. That was the feeling
+that we needed a peak body to represent theinterests of the operators who are on the ground. If you look at the submissions to this inquiry, there's a lot of
+people giving their advice on what data centres should do that is not grounded in what is real about how the
+industry operates. That's what we're here for.
+
+The Hon. SCOTT FARLOW:
+
+With that being said, you outlined that your members, and in fact the
+whole industry, are competing for land, water and energy. When we're looking at scarce resources for all of those
+factors, why is it in our best interest in New South Wales to have data
+centres occupying that land and using thatwater and energy? What's the economic benefit for the State?
+BELINDA DENNETT:
+
+Data centres and the associated tech industry that they underpin produce
+$12.6billion per terawatt hour of energy use in gross value added. That's higher than mining; it's higher than
+manufacturing; it's higher than any other sector. So from a pure econom
+ic perspective, it has a very high return ofinterest. The other thing to think about data centres
+
+
+The Hon. MARK BUTTIGIEG:
+
+Can you just outline that economic benefit, because I'm not quite sure
+how increased use of energy translates into economic activity. Can you just articulate in terms of employment,
+for example, something tangible?
+
+BELINDA DENNETT:
+
+Data centres underpin every industry. If you go to a factory these days, you'll
+find there aren't many people working in them. They are a lot of robotics and automated machines. Those machines
+are run through data centres. Data centres automate all of that
+.
+
+The CHAIR:
+
+Some of the data centres, though. Not all data centres are for that.
+
+The Hon. MARK BUTTIGIEG:
+This is not a rhetorical question; I just genuinely want to know. The
+position is that it gives New South Wales
+and, more broadly, Australia
+a comparative advantage if we havedomiciled data centres here. I genuinely don't understand this. Is there an offs
+hore market where, when we use
+Copilot with Microsoft, are they all resident servers or is some of it overseas?
+
+BELINDA DENNETT:
+
+It will depend on the service. When I started working at Microsoft 14 years ago,
+the view was there would only ever be data centres in North America and that's where services would run from.
+A couple of things have changed. Firstly, governments actually wa
+nt data hosted onshore. We see a lot of that,
+whether it's legislated or not. There is a preference for that.
+
+The Hon. MARK BUTTIGIEG:
+
+And why is that, Ms Dennett? What is the big comparative advantage
+of having it domestic? Presumably you have stronger signal strength and broader bandwidth.
+
+BELINDA DENNETT:
+Latency is very important and that was my second point. The way we're using
+digital services now
+and increasingly with AI, where you're back and forward
+you need really low latency.
+Think about some of the things that are done out of data centres. Air traf
+fic control needs super low latency sothere is no delay.
+
+Having data centres onshore reduces that latency
+, but it also gives you a whole lot of things.
+When you think about health data, there is a preference from governments and from consumers that they
+knowthat data is held onshore. Some of that is just perception that it's somehow safer
+, but I think there's also a viewthat we want it under Australian laws, not hosted in another country where the laws are different.
+And that's oneof the reasons why Australia is such an
+
+attractive market for data centre investment, because we're a strong,
+politically stable, law
+-
+abiding country where people feel safe about data and applications
+
+being hosted.
+
+The Hon. MARK BUTTIGIEG:
+
+I'm a bit dubious about this thesis
+,
+
+because you think about the worldfinancial system and our banking
+we'redoing this stuff across borders all the time, every microsecond
+. So I don'treally get that whole
+
+sort of security
+
+
+BELINDA DENNETT:
+
+There'sdata in transit
+
+and the whole point of digital economy is that data canflow freely. Data is encrypted in transit
+
+and then you have data at rest. A lot of people
+andthis is why I say it'snot necessarily factually based, but it is how people feel
+. People feel their data is safe
+
+if they think it's on theirshore.
+
+The Hon. MARK BUTTIGIEG:
+
+So the nub of the economic advantage is the latency and the speed with
+which you can process by having these things domiciled here. That's really the economic benefit.
+
+BELINDA DENNETT:
+
+No, I think there
+
+aremany others in terms of the value
+. Adata centreis over abilliondollarsin cost to build
+, so there is a lot of economic value in building data centres. There's pull
+-
+through of
+Friday 1 May 2026
+
+Legislative Council
+
+Page7
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+the value chain, the suppliers, the concrete manufacturers
+those sorts of things that we build an industry aroundin building data centres here
+and then AI changes the whole system again. People really are talking about
+, youknow,
+
+AIis changing how you build a data centre. It's changing how a data centre operates.
+
+The Hon. MARK BUTTIGIEG:
+
+There's obviouslythe lead
+-
+in construction economic uplift and activity.
+What about ongoing employment and maintenance
+?
+
+It's at a
+
+pretty low level
+, is it
+?
+
+BELINDA DENNETT:
+
+Data centres
+
+run 24/7
+,
+365 days a year
+, so there are operational staff working indata centres
+
+every single day. You have around,
+
+per megawatt, one full
+-
+time employee per megawatt. You nowhave data centres at 100
+,
+200, 300
+
+megawatts, so that's the sort ofemployment numbers you're talking about. But
+we also have some of the world's best data centre companies built and headquartered here in Australia that employ
+all the business services that support companies when they're
+
+headquartered here as well. We also
+
+think that
+,
+
+interms of building AI
+,
+
+we're starting to see
+
+what I say about infrastructure
+: You lower the barrier to entry. We'restarting to see Australian
+,
+
+homegrown AI companies, AI factories, firms of the world. We're seeing Sharon AI,
+
+companies like that
+,
+
+that are building a new part of the tech stack, if you like, based here in Australia.
+
+The CHAIR:
+
+Does DCA support mandatinglocal content requirements
+?
+
+BELINDA DENNETT:
+
+I think that gets difficult. We would need to work with the construction teams.
+What we would say about construction is that certainly there's lower cost in building locally. Part of having more
+of the industry here is you do create those flow
+-
+on companies that have more business here. We need to separate
+the building of the shell and core, as we call it, and the compute. T
+he compute is very much imported and that'sowned by the customers
+. The hyperscalers, the customers
+,
+
+bring that equipment in. That's not a data centre
+
+operator.
+
+The CHAIR:
+I understand that, but how then does that benefit the local economy? I
+f we're bringingeverything in from
+
+
+BELINDA DENNETT:
+
+Not everything, but the compute.
+
+The CHAIR:
+But if we bring a lot of things in from overseas
+again just on this economic benefit point
+,
+
+because in my view
+
+andinthe view of most of the other submissions
+
+it's quite inflated
+how do you calculatewhat you think is the local benefit or the benefit to Australia in any real terms?
+
+BELINDA DENNETT:
+I think there are a number of parts, and we haven't talked about the part of
+Australia being an exporter of intelligence. When we get to AI, it produces intelligence.
+
+The CHAIR:
+Again, in terms of the actual figures, though, there's a lot of figures being bandied about by
+the industry.
+
+BELINDA DENNETT:
+
+Yes, and they are calculating a number of different parts of this, from the
+construction and building of a data centre to the operation of a data centre, and then the opportunity to export
+intelligence and tokens.
+
+The Hon. SCOTT FARLOW:
+
+Just to that point and the sovereignty argument, effectively, why is it
+important for Australia to have a data centre industry, and why is it important for New South Wales, in particular,
+to have one?
+
+BELINDA DENNETT:
+
+If you don't look at what you lose, there's a conflation of "If you stop data centres,
+you'll stop AI." We get that. There is a real concern in the community about artificial intelligence and what that
+means for society. But we won't stop AI
+;
+
+that is coming. So we either become an importer of someone else's
+technology that has no Australian culture, values or laws built into that, or we build that here and we have some
+say and control over what that looks like.
+
+The Hon. SCOTT FARLOW:
+
+What is that say and control? What does the Australian values AI look
+like? What can we do to govern how the systems operate?
+
+BELINDA DENNETT:
+
+I think if you are operating here, and if you think about some of the companies
+who have talked about setting up a major base here in Australia, employing Australian researchers that
+then modelon Australian conditions and Australian language, using Australian language to make sure AI thinks and speaks
+and reflects our stories
+,
+
+our laws
+if you're operating here, you're governed by Australian laws
+
+
+The CHAIR:
+Sorry, this is one of those points around sovereignty that I'd love you to clarify. Physically,
+the data centre is in Australia, but it is OpenAI, Microsoft, Amazon and Google who are actually using the data
+centres. None of those are a sovereign Australian company.
+
+BELINDA DENNETT:
+But they're still governed by Australian law. They're still required to meet
+ifyou are based here and operating here, there are a whole lot of requirements on you as a company.
+Friday 1 May 2026
+
+Legislative Council
+
+Page8
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The CHAIR:
+
+So you think we can influence their use of technology, AI and their use of data, simply
+because they
+
+
+BELINDA DENNETT:
+
+Operate here. Absolutely.
+
+The CHAIR:
+
+operate here, because they happen to use, for part of their global data storage, a location
+in Australia.
+
+BELINDA DENNETT:
+
+It's more than storage. I think understanding
+
+
+The CHAIR:
+
+And processing.
+
+BELINDA DENNETT:
+
+Processing and building models and employing local people and having the
+headquarters here and being bound by Australian laws.
+
+The CHAIR:
+
+There's no data borders where we say, "Well that can't be accessed"
+
+BELINDA DENNETT:
+
+No, but if you're going to be doing that, you tend to come and have a base here.
+Microsoft has been in Australia for 40
+-
+plus years. It has people here. It employs people. It has a headquarters.
+
+The CHAIR:
+
+Sure, but it's not Australian, from a sovereign
+
+
+BELINDA DENNETT:
+
+No, but it very much is bound by Australian laws. It is required to be bound by
+Australian laws if it's operating here.
+
+The CHAIR:
+
+But not in relation to its entire global operations.
+
+The Hon. MARK BUTTIGIEG:
+
+It's a good question. When I'm typing into Copilot, "I want you to
+analyse this document," my understanding is the document goes onto their server and they have custody over it.
+They say they delete it after a while, but we don't really know. That's a func
+tion of what the Chair is talking about,
+isn't it? Because then
+,
+
+if it was subject to domestic laws, we might say you have to make that the custody of the
+user and delete it after 10 seconds, or whatever. That's a practical example of what I think the Ch
+air is talkingabout.
+
+BELINDA DENNETT:
+
+I think you would need to talk to Microsoft about exactly what happens in those
+operations.
+
+The Hon. MARK BUTTIGIEG:
+
+Exactly. That's our point, right?
+
+BELINDA DENNETT:
+
+My point is also that's not something
+a data centre operator doesn't touch thedata or the compute.
+
+The CHAIR:
+
+That's the point, though, isn't it? Firstly
+,
+
+there's no transparency over who actually are thecustomers and users of these centres a lot of the time. We know who the proponent is, who the operator of the
+data centre is
+.
+
+But when it comes to this idea that somehow then we have data that is in Australia only, that's just
+not true, is it?
+
+BELINDA DENNETT:
+
+Well, we were just talking about data in transit. The whole premise of a digital
+economy is that data can move.
+
+The CHAIR:
+
+Exactly. It's part of global capacity for data centres. So how, again
+
+
+BELINDA DENNETT:
+
+But you still have data processed and stored and transmitted. Data centres are
+heavily regulated by Australian legislation. The Security of Critical Infrastructure Act, the Hosting Certification
+Framework
+these are things that have real bearings on operators and also on the people that own the compute
+the processors.
+
+The CHAIR:
+
+We can talk about how strong the regulations are but, just coming back to Mr Buttigieg's
+original questioning, part of our terms of reference is that there are different types of data centres that are doing
+different things and there are different uses forthem. I think no-
+one on this Committee doesn't think we shouldhave some data centres, and we need them for certain things. The question is how many do we need and what is
+actually beneficial, on balance, for the State and for Australia. We can accept t
+hat we want to have, for example,
+Australia's security information securely stored somewhere. But when we're talking about the broader ecosystem
+for data centres, where you've got AI and other applications, sell to us why we should be trying to get as much
+ofthat business as possible in Australia. What's the economic benefit to us of that?
+
+BELINDA DENNETT:
+
+As I've been trying to explain, AI is the big driver of growth in capacity. At the
+moment, if you look at the rate of both AI uptake in Australia
+Australia is the fourth largest global user of
+Anthropic's Claude, an enterprise
+-
+grade AI, so Australian businesses are adopting AI in record numbers.
+Friday 1 May 2026
+
+Legislative Council
+
+Page9
+
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The CHAIR:
+We could have no data centres and still have access to that, so what's the benefit of the data
+centres?
+
+BELINDA DENNETT:
+
+Well, it's going
+
+The Hon. EMILY SUVAAL:
+
+Just hypothetically, to flip that around another way, what would happen if
+we had no data centres here?
+
+BELINDA DENNETT:
+
+We would just import that from overseas, probably from Malaysia, probably
+from Singapore
+somewhere close enough that there isn't incredibly poor latency.
+
+The Hon. EMILY SUVAAL:
+
+So
+
+the concept that we could at least not introduce some new data centres
+in New South Wales is perhaps a fallacy. What I'm trying to get at is, there seems to be a level of resistance to the
+concept of having data centres here in New South Wales but, conver
+sely, we can't not have them. Is that right?
+
+BELINDA DENNETT:
+
+If I can cast your mind back a couple of years ago when there was the
+CrowdStrike outage, that was not a data centre, but it was a piece of the tech stack. That crippled the economy. It
+was on a Friday afternoon here. It was midnight wherever that incident
+
+happened. It took out people's travel plans.
+People couldn't access their money. The economy runs on digital, and that is underpinned by data centres operating
+24/7.
+
+The Hon. MARK BUTTIGIEG:
+Just from a practical point of view, with that Malaysian example, what's
+the comms infrastructure? Is it submarine cables or wireless or both?
+
+BELINDA DENNETT:
+
+Subsea cables.
+
+The CHAIR:
+
+But, again, how many do we need? To Ms Suvaal's point, maybe we need one, maybe we
+need two.
+
+BELINDA DENNETT:
+
+We talk about data centres in megawatt capacity as opposed to number of data
+centres. Ten years ago data centres were one to five megawatts, and we've got a lot of very small data centres
+here. What we're now starting to see is much larger data centres, so
+
+capacity is probably a better way to talk aboutit than talking about numbers of data centres.
+
+The Hon. MARK BUTTIGIEG:
+
+Back to my question, that means you're actually physically limited by
+submarine cables, in effect.
+
+BELINDA DENNETT:
+
+You could be. There are submarine cables being laid all the time. Google,
+SUBCO
+there are a number of Australian companies and global companies building connections both to Asia
+and to the US, so there are increasing numbers of submarine cables. You need l
+anding stations, so you need asmall data centre at the point where they come in, to make sure you're processing that data, and then that's fed into
+the capital cities.
+
+The Hon. MARK BUTTIGIEG:
+
+Presumably it's cheaper to build data centres than lay massive
+submarine cables every 10 minutes, or whatever?
+
+BELINDA DENNETT:
+
+Yes.
+
+The Hon. SCOTT FARLOW:
+This is not some isolated phenomenon that's happening in Australia. This
+is happening all around the world. To that discussion about what we've seen, we have seen different iterations in
+terms of the data centre development
+we've seen cloud computing, we've seen more onshoring as you were
+talking about in terms of regulations and Australian governments wanting to onshore data. Now, we're getting to
+this global proliferation in terms of data centres, because of the processing needs of AI. To that point, wh
+at arethe advantages for Australia and for New South Wales in being able to harness and attract data centre development
+here instead of offshoring into Malaysia, having Asia feed in to Australia?
+
+BELINDA DENNETT:
+
+You're absolutely right. It's a global race and countries all around the world are
+trying to attract this investment. The big change was the US said, "We want to win the AI race
+,
+" and the way youdo that is build infrastructure. There is a lot of competition. If you look at the global companies, they are spending
+around $800 billion this year alone in building infrastructure. A lot of that is forecasting the demand that's going
+to
+
+be needed. We're right at the start of the AI transition. It will play a role in every part of the economy. Every
+industry will be transformed by AI. AI produces new data, it produces new code, it compounds on itself. You
+have AI producing data.
+
+That is part of the reason why we need more capacity. It's the reason why countries are competing so
+fiercely to attract this investment. I said in my opening statement, Australia doesn't offer tax incentives. We're not
+asking for tax incentives. But many countries are offering enormous incentives for people to build in those
+markets. A number of our Australian companies are building in Malaysia, in India, because there is huge demand
+Friday 1 May 2026
+
+Legislative Council
+
+Page10
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+for that. So New South Wales and Australia are competing globally for this investment. This investment brings
+$142 billion per year
+think of what that can do in terms of Medicare, hospital services, the like. It's not very
+often a country gets an opportunity to find an investment source like this.
+
+The CHAIR:
+
+Sorry, how does the $142 million in construction costs allow us to fund Medicare?
+
+BELINDA DENNETT:
+
+Investment costs into the country. If you think about how do governments get
+revenue, it's either through taxpayers paying tax or it's businesses paying tax.
+
+The CHAIR:
+
+So $142 million in tax revenue?
+
+BELINDA DENNETT:
+
+Economic value.
+
+The CHAIR:
+
+Goldman Sachs has found there is no meaningful relationship between AI and productivity
+
+or data centres and productivity at the economy level. Again, perhaps on notice, rather than me taking up more
+
+time, you could just give us exactly how you've calculated the $142 million
+.
+
+BELINDA DENNETT:
+
+Well I didn't, but I can certainly share the report where that's calculated and all
+
+the methodology is there. I can break it down for you. It was $118 billion in productivity value of AI being adopted
+
+across every industry. There is an export value there of around $12 billion, exporting intelligence, exporting
+
+tokens. Then there's creating new Australian AI and what that does creating new businesses.
+
+The CHAIR:
+
+The tech companies are famously resistant to being taxed. Google threatened a capital strike
+if it got less favourable tax treatment.
+
+BELINDA DENNETT:
+
+I think the tax is quite important to Australian accounts.
+
+The Hon. JACQUI MUNRO:
+Can I pick up on that please from a State level? Personally, I think we
+need more data centres and I think they're a fabulous way for us to enliven our economy. Part of the problem has
+been a lack of coordination between government and data centre operator
+s and the community to explain howdata centres are going to be strategically located, how they will utilise public infrastructure, water and energy, and
+how they will be able to contribute back.
+
+In that, you've got planning considerations related to land tax. I
+
+wascurious about what interaction you've had with the Investment Delivery Authority in relation to data
+
+centre
+
+applications.
+
+BELINDA DENNETT:
+
+We have been working with the agencies that make up the IDA around what this
+actually means, so how does this IDA process
+it was announced to speed up the process of planning applications,
+which in New South Wales are notoriously slow, two
+-
+plus years, so we're still working through how that actually
+delivers. They had a process. They called for applications and they announced which ones were in the IDA. We're
+not quite sure now what happens, or we now just go through the same planning process. I
+t's not clear to me howthat is sped up. There are lots of conversations happening around these new data centre principles. Again, we
+probably share your questions about how the
+IDAis going to deliver on what it was stated to do.
+
+The Hon. JACQUI MUNRO:
+When you sayyou'rein touch with the different authorities, are you
+separately speaking to Treasury
+,
+
+separately speaking to Investment
+
+NSW andseparately speaking to D
+CCEEW?
+
+BELINDA DENNETT:
+
+There have been some meetings where those parties are coming together, which
+I think is really helpful
+,
+
+along with the utilities, along with operators
+.
+
+We've found that is probably what needs tohappen more because
+,
+
+when you talk about how utilities think about planning
+,
+
+those one
+-
+on
+-
+one conversationsaren't getting us to where we need to be.
+So this idea of more informationsharing as we all plan
+early days, butstarting to show some fruit.
+
+The Hon. JACQUI MUNRO:
+
+How were those projects selected that have been given some ID
+A
+
+tick ofapproval? What is that? Is there anyrhyme or reason to why those particular projects have been chosen
+,
+
+to your
+
+knowledge?
+
+BELINDA DENNETT:
+
+I think you would have to ask them.
+
+The Hon. JACQUI MUNRO:
+
+Are there conversations around how land tax might relate to developments
+either being
+
+drawn into particular areas or that there would be land tax treatment over the longer term
+
+that wouldbe different to what already exists in
+
+legislation?
+
+BELINDA DENNETT:
+
+I haven't had any of those conversations. We certainly are not lobbying for any
+changes. Our position has been that data centres have a number of requirements about where they locate.
+Government dictating where a data centre builds is not ideal. There's already planning and urban design,
+
+and areaswhere we can apply to build
+,
+
+and we think that's appropriate.
+Friday 1 May 2026
+
+Legislative Council
+
+Page11
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. JACQUI MUNRO:
+
+On
+
+the idea of something like innovation precincts, do you or do your
+members think that there is a benefit to being in an area that might be designated something like an innovation
+precinct, or is it not front of mind for operators?
+
+BELINDA DENNETT:
+
+I think what could be looked at isthatdata centres tend to cluster. They cluster
+around where there is energy availability, land availability. There's also a requirement that data centres are quite
+close to each other
+,
+
+because they use resiliency and backup if something was to happen.
+They tend to cluster
+, and
+I think there is great opportunity to think about how you build where they already are going into more of a precinct
+,
+what else could be around those areas
+
+and how could you connect the land between
+. That hasn't been done
+
+andthat probably goes to the competitiveness of the industry. They work very much on their own,
+
+but perhaps that'sa role
+
+now with Data Centres Australia
+. We can lookatmoreofthat precinct planning.
+
+The Hon. JACQUI MUNRO:
+
+Have you been asked to contribute to or engage in any process related to
+a data centre strategy?
+
+BELINDA DENNETT:
+
+No. We hear a lot of comments about a data centre strategy, whether it's Sydney
+Water
+
+or
+
+whether it's someone else, but they have not come to us
+, no.
+
+The Hon. JACQUI MUNRO:
+In terms of data centre operators either being required to or proactively
+generating their own energy, for example, or at least energy to put back into the grid, could you outline if that's
+happening, what's happening,
+
+and the potential future pathways to essentially generate better social licence around
+energy usage in particular
+,
+
+and generation?
+
+BELINDA DENNETT:
+
+It's really important to understand what the sector already does. Data centre
+operators, in conjunction with their customers, sign power purchase agreements, which are long
+-
+term offtakeagreements with renewable energy projects. They underwrite those proje
+cts. They make those projects viable. Wecalculate on PPAs, those particular financial instruments, and large generation certificates, that around 70 per cent
+of data centre energy is offset by renewables, bringing 1.5 terawatt hours of new renewable ene
+rgy to the grid.
+AWS just announced two weeks ago nine new projects they're backing, including battery storage, to offset energy
+use across their portfolio. Most of our operators and their customers have net zero by 2030 targets. Data centres,
+as I said in
+
+my opening, are 67 per cent more energy efficient. Data centres came out of a need to be more energy
+efficient by sharing resources.
+
+It is a forward
+-
+leaning industry. Many of them have sustainability-
+linked loans that require them to meetcertain targets. I think there is a desire to get to 100 per cent, but we need more viable renewable energy projects
+that currently are also stuck in planning. It's not a lack of desire to do that. Trying to match a renewable energy
+project timing and a data centre timing is difficult. Then the other thing we would say is that when you think about
+the energy use of a data centre, around 80 per cent of that energy use is for the compute and the processing;
+20
+
+per
+
+cent is operating the data centre or the infrastructure load. That's why they're done in conjunction. When
+people are like, "Data centre operators should go,
+"
+
+or
+,
+
+"They only pay for the 20 per cent
+,
+" that
+'s why they're donetogether.
+
+The Hon. JACQUI MUNRO:
+
+On the specifics of using renewables for backup power, are there ways
+that the industry is exploring how that can occur? Do you need to have, essentially, a non
+-
+renewable source ofenergy connected to the site for backup purposes, or are there other ways
+,
+
+potentially internationally
+I don'tknow, geothermal or hydro
+that you can connect?
+
+BELINDA DENNETT:
+
+Data centres are connected to the grid, and then they will purchase renewable
+energy to come into the grid. Data centres require a very stable energy load, 24/7, which is why firming becomes
+so important. Battery storage becomes really important. If you ta
+lk to the AEMO, the distributors, data centres arevery good for stability on the grid because they're that steady offtaker on those days when we have too much solar
+coming in. Data centres don't rest on public holidays; they soak up the excess, so they'r
+e actually very good forthe grid. Backup
+because a data centre can't go down, if there's a grid interruption, data centres have generators
+on site as their backup.
+
+They're essentially an insurance policy, just as hospitals have backup generators, just as our banks have
+backup generators. They're used very sparingly. Battery storage may get to the point where that's the alternative,
+but at the moment it's not long enough duration. If you had an outage for eight hours, that would be a problem.
+That's what people are starting to look at. Geothermal, gas backupthey're options that are looked at around the
+world. I think what we're seeing is so much innovation in this spa
+ce, and at pace, that things will change and theywill change quickly.
+
+The Hon. SCOTT FARLOW:
+Sitting in your seat a few months ago, the Treasurer was there, and the
+Treasurer said that he didn't see us in competition with Victoria and that New South Wales was a premier
+destination when it came to data centres. Just interested in your thoughts betw
+een New South Wales and Victoria
+Friday 1 May 2026
+
+Legislative Council
+
+Page12
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+and the arrangements between both States, and whether New South Wales is seen as a premier data centre
+destination and, if so, why?
+
+BELINDA DENNETT:
+
+Let's start with the data. The data tells us that 96 per cent of Australia's data
+centre capacity is in Victoria and New South Wales. New South Wales has around 60 per cent of that capacity,
+maybe a little bit more, so New South Wales has been the leader. I think Victoria is becoming far more attractive,
+partly because of their ability to approve processes quickly
+land availability, there is more energy availability in
+Victoria
+but the thing I will keep saying is I love Australia and its State of Origin w
+ars but it's not where theglobal race is. You are competing with Malaysia, with Singapore, with Japan, with India to attract these big
+workloads. If we focus too much on Victoria versus New South Wales, we're missing the real game.
+
+The Hon. SCOTT FARLOW:
+But in terms of the arrangements between the States
+and I think youmentioned the planning processes available in Victoria compared to New South Wales
+in order to be globallycompetitive, what needs to be done here to change that equation?
+
+BELINDA DENNETT:
+
+We think New South Wales could look at what Victoria is doing in terms of their
+investment team, facilitation team. They have people who know data centre. Within Invest Victoria there's a team
+of people that our operators will work with daily that know the
+ir business, that know their operations, and theyact as a concierge to fast
+-
+track. The process is no less rigorous than what it is here in New South Wales, it's just
+not stuck in people's inboxes, it's not paused for several weeks. They keep the process
+
+moving, and that allowsour operators to get through that process quickly. Why that matters: A big global company will not sign a contract
+with a data centre operator unless they've got approval, energy connection and water connection. The longer those
+things take, the operator is looking at India and
+sorry, the customer is looking elsewhere and that's where they'll
+go because, right now, speed to market. Customers used to want a data centre capacity in two years; they now
+want it in six months because the
+
+demand for AI is so high that they need capacity more quickly. We need our
+processes to move more quickly.
+
+The Hon. EMILY SUVAAL:
+
+Just in terms of where you're looking at locating data centres. I'm just
+wondering what specifically goes into informing that, and whether there are other areas in New South Wales that
+perhaps could be
+what would encourage you to do so, for example?
+
+BELINDA DENNETT:
+
+I think there's a couple of things. Firstly, different data centre types that do
+different workloads are suited to different locations. At the moment in Australia, the data centres mostly are cloud
+and they're being built for AI inferencing. What they needis low latency. What they need is proximity to their
+users, proximity to a skilled workforce, energy connection, water connection. The customers
+so those anchortenants that provide the underwriting to make a data centre project viable
+tend to dictate where they want to be.
+I talked before about clustering. Often they want to be close to where their backup resiliency is so they'll draw a
+circle on a map and say, "We need you to find us somewhere within this circle." That's why we see the western
+suburbsof Sydney and the western suburbs of Melbourne are really where the global companies have built their
+networking infrastructure. That's where they want to be.
+
+Now, if we were to attract some of those global AI training facilities that we talked about earlier that can
+have less reliance on latency, they could go further out. Certainly, we're seeing Perth as a destination where now
+data centres are starting to build, or there's a specialised workload so we're supporting mining, you might get a
+smaller data centre to support that. Different workloads will go to different places and have different needs. But
+at the moment, where the focus is, is Western Sydney and western Melbourne because that's where the availability
+zones of the cloud providers is, where they've built their networking and where the natural attributes that we've
+talked about have been identified.
+
+The Hon. MARK BUTTIGIEG:
+
+We're almost out of time, I know. With the actual hardware, the chips
+and all that sort of stuff that's coming in from Nvidia and all these American companies, I understand the future
+for us is digging it up and selling it to them and then bringing it back
+, right? That's kind of where we're at at themoment. But is there a view about our capacity to do this all domestically and get into that market?
+
+BELINDA DENNETT:
+I think it would be difficult, not impossible. We obviously have the critical
+minerals. Whether we could create a chip fabrication plant, I don't know. That's probably outside my
+specialisation.
+
+The Hon. MARK BUTTIGIEG:
+
+Why is that? We've got a well
+-
+educated workforce; we're very capableat everything we turn our hand to. Why isn't this a growing market?
+
+BELINDA DENNETT:
+Some years ago
+
+we stopped doing manufacturing here, and that's essentiallywhat chip fabrication would be.
+Friday 1 May 2026
+
+Legislative Council
+
+Page13
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. MARK BUTTIGIEG:
+
+Is chip fabrication a function of your ability to systematise an
+automation with robotics and things like that, or is it still physical labour?
+
+BELINDA DENNETT:
+
+I'm not sure. That's probably outside my expertise.
+
+The Hon. JACQUI MUNRO:
+
+It's a scale issue.
+
+The CHAIR:
+
+That does bring us to the end of this session. It was unfortunate that you had to go first,
+because I think a lot of the detail and information around what are data centres and things like that would have
+been useful beforehand, but that's on us. Apologies
+
+for that. We are very grateful for your attendance. If there are
+any supplementary questions or questions taken on notice, the Committee secretariat will be in touch in relation
+to that.
+
+BELINDA DENNETT:
+
+Thank you for your interest.
+
+(The witness withdrew.)
+
+(Luncheon adjournment)
+Friday 1 May 2026
+
+Legislative Council
+
+Page14
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Ms CLAIRE PULLEN
+,
+Group Chief
+Executive
+Officer
+, Australian Writers' Guild and Australian Writers' Guild
+Authorship Collecting Society
+, affirmed and examined
+
+The CHAIR:
+
+I
+
+now welcome our next witness. Happy May Day.
+
+CLAIRE PULLEN
+:
+
+Thank you, comrade.
+
+The CHAIR:
+
+Would you like to start with a short opening statement?
+
+CLAIRE PULLEN
+:
+
+Warami, everyone. Thank you, Committee members, for this opportunity to give
+evidence today. I note at the beginning that I'm a member of the Writing Australia Council and also an adviser for
+one of the interested consortia applying to be the successful applicant to run the second New South Wales film
+studio. So, for the Committee's clarity, I make my remarks today in my capacity as the CEO of the Writers' Guild
+and our associated group. The Australian Writers' Guild is the professional and industrial bod
+y for Australia'sperformance writers working in screen, theatre, comedy, podcasting, audio drama and game narrative design. We
+have members in every State and Territory in Australia, but our largest membership group is based in New
+
+South
+Wales.
+
+The Australian Writers' Guild Authorship Collecting Society
+one of our group
+was founded 30yearsago this year by screenwriters to collect and distribute screen royalties to screen authors in Australia and Aotearoa,
+New
+
+Zealand. We have collected over $35
+
+million, because every time someone watches anything Australian
+anywhere in the world, if it's
+
+Bluey
+, if it's
+
+Homicide
+, if it's
+
+Happy Feet
+
+or if it's
+
+The Lord of the Rings
+, screenauthors are paid a royalty that we collect and distribute. The creative eco
+nomy that we're very proud to be part ofis growing, and contributes $67 billion a year to Australia's economy. Creative employment is growing at a rate
+more than 50 per cent higher than the rest of the workforce, despite some sectors being hit very hard b
+y COVID.
+New South Wales benefits from a great deal of this activity.
+
+The use of generative AI, particularly the use of large language models like ChatGPT or Claude, put all
+this at risk. As litigation overseas has demonstrated, these LLMs are built on stolen works. Creators whose books,
+plays, screenplays, songs, music, TV and film works make up the foundation of these models had those works
+taken without consent, compensation or credit. These models do not work without the copyrighted works of my
+members and other creators. We are not aware that any creator or rights
+-
+holder
+
+group in Australia has been askedfor a licence by an AI or tech company to use these works, licensing being a very standard form of operation in
+our industryindeed, what we do every single day.
+
+AI data centres will be used to host these models and this data made from my members' stolen work, and
+citizens of New South Wales will be using these models, likely completely unaware that they are being asked to
+expose themselves to the risks of copyright infringement by doing so. These models then produce outputs that
+compete directly with my members for their jobs, and create alternative, royalty
+-
+free products. The New
+South
+Wales cultural policy,
+
+Creative Communities
+, outlined a positive vision for our
+
+creative and night
+-
+time economies.
+The New South Wales Government has been a leader on regulating the harms of AI
+,
+
+and can be here,
+
+too.
+
+As the
+Committee is no doubt aware, competition for land use, particularly in Sydney, is intense. Creative workers are
+no different to anyone else facing a cost
+-
+of
+-
+living and housing crisis, and are increasingly priced out of any of the
+metropolitan areasnear where they work. Expanding housing areas are already under
+-
+served by things that needland, like schools or emergency services and health services. Data centres will simply make this problem worse.
+
+New South Wales is also in dire need of a second film studio and, noting my earlier declaration, wherever
+this film studio is located, this is a preferable use of land, from our point of view, over a data centre. A film studio
+generates tangible economic benefits, unlike the mostly speculative benefits of artificial intelligence. I end like a
+good arts practitioner with a provocation. Please put the proponents of these data centres to as much scrutiny and
+as much microscopic examination as my members are put to when they are seeking a $5,000 grant to write their
+screenplay or translate their play into another language or apply for studio time to make something that will be
+shown all over the world, returning both economic and cultural benefits to New South W
+ales.
+
+The CHAIR:
+We had the Data Centres Australia witness here this morning talking about the supposed
+benefits of data centres. I think we can all agree that some data centres are useful and necessary and we could
+perhaps get behind that. But there is a lot of confusionand lack of clarity as to what each of these data centres is
+for. In order to then determine what the overall economic benefit or societal benefit would be, it is hard for us to
+work that out. In that context, one of the comments that was made was that t
+here's a need to have sovereignty overdata in Australia and this idea that, if we have data being housed here, we can regulate the way in which that data
+is treated. What would be your reflections on the ability of government, whether it's Federal or Stat
+e, to adequatelyregulate what happens to our data with those global companies?
+Friday 1 May 2026
+
+Legislative Council
+
+Page15
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+CLAIRE PULLEN
+:
+
+I have a couple of thoughts on that. Obviously, there are physical capacity constraints
+around the transfer of data through things like submarine cables, so there is a surface argument to be made that
+housing data centres here is more useful because we'llbe physically closer to the data. One of the things I have
+observed that we don't hear a lot from the big tech proponents of data centres and AI more generally is a
+meaningful commitment to the concept of sovereignty, if I can be a bit provocative about that. They're a bit half
+pregnant about it. This is not government building data centres. It's not owned by Australians or New South Wales
+taxpayers because the government is not building or owning any of these. It's only sovereign to the extent that it
+exists within our territorial boundaries. That's the first part. If this was truly a benevolent position from the big
+tech companies, these would be built and then donated to the people of New South Wales or Australia, frankly.
+
+There's an argument, I think, that AI is a general
+-
+purpose technology, like electricity or the internet. Ourgovernments used to build power stations and coalmines. I'm not going to get into whether or not the sale of those
+assets is a useful thing to do, further down the life of those, but I would say that I think it's worthwhile being
+sceptical about the concept of sovereignty when it's a foreign big tech company saying this is sovereign in some
+way when there's no meaningful ownership. Certainly I don'tunderstand there was any offer this morning to allow
+an equity stake from the New South Wales Government in any of these companies that will either build the thing
+or house data here. The second part of that is, just because you could regulate something, I
+
+don't think any of thesecompanies are arguing that they would enjoy that or would advocate for that. I spend a bit of time in Canberra,
+because copyright law is mostly a Federal issue. They are working very hard and spending quite a lot of money
+to try and weaken Australia's copyright laws. So I think it's, on the surface, correct to say that you could regulate
+here, but I
+
+don't think it's what any of the big tech companies actually want.
+
+The CHAIR:
+
+It's proved difficult in practice when it comes to things like, as you say, copyright.
+
+CLAIRE PULLEN
+:
+
+Yes, it has proved difficult. The Federal Government has done what we think is the
+correct thing, the thing that ensures there is a future for Australia's creative economy, which is affirming that our
+copyright laws will not be weakened. It's something that other governments around the world are following. As
+an example, the UK have actually relooked at their views on AI because of Australia. I was in Canada earlier in
+the year, specifically to talk about the Australian Government's role in affirming the
+importance of copyright. So
+I would say, yes, it's disingenuous to suggest, just because it could be regulated here, that tech companies have a
+neutral position on what the regulation would actually be.
+
+The CHAIR:
+
+You mentioned that data centre proponents and advocates are putting out the idea that it's
+just like another utility; they're saying that we need water, we need energy and, clearly, we need data centres.
+When it comes to looking
+and this is why it keeps coming back to how important this is
+at what these datacentres are being used for, I think there is a broader acceptance of data centres that are used for data storage versus
+data centres that are used to replace workers or even to train large language mo
+dels and those kinds of things. Inthat way, it's not all just water
+some of it is water but some of it is perhaps a bit of Fanta or beer. Maybe some
+of it is necessary and critical; others aren't. What is your view on the secrecy around how much of it is to go to
+something other than data storage? What are the broader societal impacts of allowing a proliferation of those sorts
+of "Fanta" data centres?
+
+CLAIRE PULLEN
+:
+
+It is a symptom, I think, of the broader problem that you've identified: It's so much
+in the commercial interests of the big tech companies to keep as much of this secret as possible about what the
+models are doing, how they're doing it, what they're built
+
+on and where the information comes from. One of thekey asks for our members
+and we regularly speak to our members about AI
+is that they would like their worksremoved from the models. That is the point when I think we could have a more meaningful conve
+rsation aboutlicensing, because at the moment there are two issues. One is that the works were taken and so there needs to be
+some restitution in some form for that, and then there's the ongoing use piece. Without any transparency around
+what they're planning to do with the data that's already been gathered, it's hard to have the second, more fruitful
+and probably more economically beneficial to everyone conversation about licensing and ongoing payments.
+
+I suspect it's a similar sort of thing that you'll get pushback around
+that it's all a seamless cloth. It comesin and it goes out, and there are commercial arrangements in place, all of which goes to the social licence question.
+Australians are among themost sceptical people about AI in the world, which I think is a good thing. That speaks
+highly of our national character, frankly. There is a lot that the big tech companies could do to resolve that anxiety,
+to fix those questions that Australians have.
+
+A
+
+relatively low
+-
+effort piece for government, frankly
+, is just to say,
+"Until you have made these disclosures or quarantined these particular models or types of data, your
+
+planningapproval won't go ahead for the data centre,
+"
+
+for example.
+
+One of the things that is in our submission that we're concerned about is
+,
+
+if you citedata or
+
+models in
+Australia that don't comply with Australian copyright law, anyone who uses ChatGPT or Claude is potentially
+opening themselves up as an individual to action around copyright infringement.
+
+I would say most people don't
+Friday 1 May 2026
+
+Legislative Council
+
+Page16
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+know that. I say this as a copyright law nerd:
+
+Normal people shouldn't know more about copyright because it's
+not interesting in a lot of ways
+,
+
+everyone's busy and it's not an area of law that I think a normal person should be
+interested in. It's a deeply abnormal area of law.
+
+So I think the expectation from some proponents of AI as an entirely beneficial technology is that it puts
+the responsibility on the consumer or the user at the very end to make a discernment about it
+, whereas we couldgo slightly further back in the process and say,
+"Can you tell me thatthe data that's going to be stored here in this
+data centre complies with Australian law
+?"which would cover things beyond copyright
+child sexual abusematerial
+, for example
+. "Are you hosting a data server for a dark web drug
+-
+dealing operation or the illegal armstrade?"
+
+If you're going to make the argument that AI is a general
+-
+purpose technology like electricity or the internet,
+it doesn't necessarily follow that you can't regulate any harms coming from them. The illegal arms trade is
+facilitated by the internet and electricity. No
+-
+one's suggesting that you turn off electricity or the internet, but you
+do regulate the harm
+, and I think it's a similar argument here. If it's a general
+-
+purpose technology and it will begenerally useful, then you can mitigate the harms
+. The New South Wales Government has done some of that
+, and
+
+I think that
+
+approach is
+
+a good place to start. Sorry for the very long answer.
+
+The CHAIR:
+
+No, it's very good. We're appreciative.
+
+The Hon. MARK BUTTIGIEG:
+
+You expressed the view that New South Wales has taken a lead in
+managing the fallout of the harm from AI. Can you elaborate on that a little bit?
+
+CLAIRE PULLEN
+:
+
+Yes
+,
+
+I'm referring specifically here to the law against image
+-
+based abuse.
+
+The Hon. JACQUI MUNRO:
+
+That was a Coalition bill.
+
+CLAIRE PULLEN
+:
+
+New South Wales Government
+look at us go
+!
+
+The Hon. JACQUI MUNRO:
+
+Well, New South Wales
+Opposition.
+
+The Hon. MARK BUTTIGIEG:
+
+I didn't actually say NSW Labor
+, but anyway.
+
+CLAIRE PULLEN
+:
+
+Ithink I did
+,
+
+from memory, but we can check the script on that one
+.
+
+But it is a reallygood example of how
+AI allowed for the generation of a particular type of abusive material that was not available
+before, and you can legislate against the harm. That's a really straightforward example of that
+
+in a New South
+Wales context. At a Federal level, we've worked really closely with Screen Australia, who is the main funding
+body for a lot of my members and for the industry generally,
+
+around artificial intelligence.
+
+There's a set ofdeclarations you're required to make when you're applying for funding from Screen Australia about your use of
+artificial intelligence. It's a really simple weeding
+-
+out tool to say taxpayer money won't be funding something that
+could put a bunch of creators out of work and also might not comply with our law.
+
+So there actually are practicalthings you can do. If you form a list of the harms
+, you can work backwards to what the solution might be.
+That'san example of things that you can actually do at a meaningful level.
+
+The Hon. MARK BUTTIGIEG:
+
+In terms of the copyright law you outlined, which is largely the purview
+of the
+Feds
+, what other things can we as a Statejurisdiction do to fill in the gaps and stop that IP theft that you've
+articulated?
+
+CLAIRE PULLEN
+:
+
+I think one of the things that came out of an earlier inquiry
+which
+,
+
+from memory
+,
+
+was around education but did have terms relating to artificial intelligence
+was an undertaking from the
+New
+
+South Wales Government to engage with their Federal counterparts around copyright. That is actually really
+useful, as New South Wales is the largest economy in Australia
+. We are a powerhouse of economic activity, someof which goes back to intellectual property. In terms of what New South Wales State
+Government could do,
+include terms about the data and the models in the planning requirements for approvals for the data centres
+so,
+"To the best of your knowledge
+
+as the builder of a data centre, do you know that what's going to be in there
+complies with copyright law and other Australian and New South Wales law?
+"
+
+The example I gave about Screen Australia
+New South Wales has creative funding bodies as wellin
+Create
+NSW.
+There's a similar, I think
+,
+
+quite straightforward option to say funding should only go to projects
+where we know or can be reasonably certain that taxpayers aren't funding something that's been built off AI that's
+built on stolen work. I'm not an expert in planning law. I want to be
+
+clear that my nerdery does not extend that far.
+But in terms of planning, I suspect there would be a way to give prefer
+ential treatment around planning andprocurement to tech companies that are prepared to certify that all the data in their centres is ethical and that
+models that they're running in their centres are free of stolen work and that they're able to give some s
+ort ofreasonable assurance around that.
+Friday 1 May 2026
+
+Legislative Council
+
+Page17
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+This is an
+
+easy one, but use land to build a second film studio. I don't want this to be like our second airport
+where we just complain about it for 30 years before we actually do it.
+
+We are in dire need of more studio spacesomewhere in New South Wales. As I said, I'm an adviser for the Central Coast b
+id. I would love to have it locatednear me, but
+
+
+The CHAIR:
+
+Hear, hear!
+
+CLAIRE PULLEN
+:
+I'm in the right room for that particular position. Genuinely, we need a second
+bigstudioand
+,
+
+if it was a choice between a data centre and the film studio, I'd say film studio, please. The other thing
+I've been talking about a lot with the Federal
+Government is building more capacity at a government level around
+how you can share ideas, share insights around the problems that AI is going to present. One of the issues we talk
+about a lot at the ACTU, for example, is the rise of the self
+-
+represented litigant who is using AI to formulatepleadings for unfair dismissals. I am not someone who will ever
+argue that you should make proceedings in anyof our industrial relations commissions more legalistic. I think there's a lot to be said for our lay jurisdictions
+,
+
+like
+N
+CAT
+
+and the commission
+,
+
+where someone can go and represent yourself. There's a purpose to that
+. But it isgenuinely clogging up our system that there are so many people who now tap out an answer in ChatGPT and then
+file that.
+
+I was talking with one of my colleagues who works in this area and I said, "W
+ell, why don't you just dowhat Screen Australia did and require declarations that 'M
+y pleadings didn't use any AI
+'and perhaps run themthrough a reader
+?"
+That kind of information sharing doesn't seem to be happening across government. There is a
+consultative process, as I understand it, happening in the Department of Customer Service, which is Minister Jihad
+Dib
+'sportfolio, if I'm not mistaken
+. But I suspect there is a way to have a whole
+-
+of
+-
+government informationsharing, tripartite model where everyone's able to benefit from everyone's expertise
+, because AI is becoming sucha generalist technology
+. There'll be things that
+Health are learning that I will never hear about unless there's some
+way of sharing across portfolios.
+That's the short list
+, but I think if we were able to sit down and write out a list of
+the harms it actually wouldn't be that difficult to reverse
+-
+engineer solutions for each of them.
+
+The Hon. MARK BUTTIGIEG:
+
+Before I get into a broader question about the implications of the
+tripartite model in dealing with it, those
+
+large language modelsthatare affecting your members in the sense that
+people can plug into the way language is used, even
+
+in a creative way
+,
+obviouslythensupplanting your members
+'jobs
+can you just tease thatout for us
+
+about howubiquitousthat'sbeen?
+
+CLAIRE PULLEN
+:
+
+It's a really huge problem and it's emerging in some of the research, particularly out
+of the US, about just how easy it is to reproduce copyrighted work. T
+here's a particular team in the US that justreleased a study
+that hasshown
+
+that
+,
+
+without mentioning the author name or any of the characters, just using
+semantic descriptions, you can get 90
+
+per cent of a copyrighted work spat out verbatim from a large language
+model. That is then a competing product that is cheaper than buying the actual book or the
+
+actual screenplay orthe score or the piece of music from the original creator.
+
+In terms of my royalty collection work, it means that there's no creator in there being paid any royalty for
+that work. Royalties usually aren't huge amounts of money. There are some notable exceptions to that, but for
+every time someone watches an episode of TV, if you've been writing TV for 30 years, those little amounts add
+up over time
+. We do distribution once a year just before Christmas and t
+he regular feedback from members is
+
+"This isperfectly timed
+
+because now I can go and buy the Christmas gifts.
+"
+
+If there's a competing product, whichwill necessarily be cheaper because there are no royalties paid
+
+and
+
+there are no creators involved, people willchoose that. Again
+,
+
+I
+
+don't think regulating consumer behaviour is actually the solution here. It is a rational
+economic decision to pick the cheaper option.
+
+The Hon. MARK BUTTIGIEG:
+By way of example, if there's a successful series on Netflix
+
+I can'tremember some of them now; I know I've watched them
+and there's the formula, so let's use one of these modelsto generate something similar which has got a known success, how do you unpic
+k that? How do you work outthat it's done that, and then how do you protect against it?
+
+CLAIRE PULLEN
+:
+Look, we're reasonably confident that it's happened, and I'm happy to take you
+through how we're very confident that our members' works are in the large language models. One of the ways that
+I've tested this is you can actually go onto ChatGPT or Claude or
+
+one of the large language models and go, "Canyou please write me the first scene of a Van Badham play that's about this character, that character and this one?",
+and you get one of Van's works. You can do this for Leah Purcell and you can do it for David
+Williamson. If youcan name the Australian author or playwright, it can do it. It knows their voice well enough. Like I said, I'm happy
+to take you through the explanation of how we know the works are in there. One of the things that came out during
+the Federal inquiry into the safe and responsible use of AI in 2024
+the big tech companies were using phraseslike "publicly available", which is not a term at copyright law.
+Friday 1 May 2026
+
+Legislative Council
+
+Page18
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+What was revealed is they have programs that listen to things like YouTube or the ABC or SBS that are
+publicly available. That transcript then gets fed into the model to teach it the relationship between words, some of
+the scene breakdowns
+that kind of work. "Publicly available" doesn't mean it's free and that someone doesn't
+own it. We all pay for the ABC, for example. YouTube has an entire business model structured around how
+advertisers are paid and the engagement with creators. There is no way for any c
+reative
+not just a writer, but adirector, an editor, a composer or a set designer
+to compete with a product that is essentially free, because you
+can have the most junior person in a production company going, "I would like to see a high school drama set i
+n
+Australia, based on this existing property." There's no way that the entire team of creatives that Netflix spent a lot
+of money investing in, which paid off as an investment because it's one of the most watched television shows that
+Australia has ever producedyou just can't compete. There's no way to do it.
+
+The Hon. MARK BUTTIGIEG:
+That leads to a broader question, and I've raised this in Parliament
+before and I know it's been the subject of an article in
+The
+
+Australian Financial Reviewtoday. This is a classicexample of, I suppose, the coalface effect of what could happen right across the economy. That's a clear case of
+jobs being displaced as a result of not pre
+-
+empting what was obviously going to happen. What should be our
+institutional response to forestall that
+not in a bad way that tries to restrict it
+,
+
+but bringing
+
+everyoneon board soyou get the benefits and the job security.
+
+CLAIRE PULLEN
+:
+I think there are a couple of different ways to approach it. One is that there are clear
+frameworks for workers to bargain around what happens in their workplace, both at a Federal and a State level,
+for public service employees. Turning some attention to how those work to protect those people who are lucky
+enough to have those protections in place is useful. My members don't have those. We're not employees; we're
+contractors, for the most part. A large part of this is copyright and the Federal Government
+
+needing to do somework there, which is underway
+it's not happening speedily, but it is underwayaround addressing that original
+harm of the works being taken.
+
+My members have quite a poor view of the initial theft. I think that informs their view that they don't want
+their works to be licensed. They're aware that is a potential option, but they're not super keen at the moment.
+I
+
+suspect some of that view might change if there was some way of dealing with the original theft
+that we weredealing on even ground. I think that's a large part of it, but also, when I speak to my members, writing can be a
+profoundly isolating and internal process.
+
+It's just you and yourlaptop and a lot of feelings a lot of the time, and
+out of that we get beautiful plays and screenplays and audio dramas.
+
+They talk to me about the isolation being worse when they're faced with a relentless propaganda campaign
+about the benefits of AI: It's going to make medicine safer, it's going to come up with all these new, exciting ways
+to exist in the world and the job replacement will all be fine, it's all going to come out in the wash. Some indication
+that they're being listened to by their governments I think would be incredibly useful to share the things that
+they've already learned. My members are not Luddites. Some
+
+of them are using AI. They're really clear aboutwhat they use it for and how they use it because writers tend to be early adopters of technology, so it's just about
+governments having those structures in place to balance the might of big tech, frankly.
+
+The Hon. MARK BUTTIGIEG:
+
+I have got more but I'm conscious of not wanting to monopolise.
+
+The Hon. JACQUI MUNRO:
+
+Thank you so much for coming. Yes, definitely, I think we have a strong
+alignment on a number of things. Definitely the Central Coast film studio. I don't think it has to be a one or the
+other situation. I think we can have both and I think we should. That
+'s what good government is all about. I wascurious about this idea of what you've spoken about in terms of data centres having responsibility for the data
+that's being held. I guess it's an idea like a tech supply chain assurance system, something like
+that. Can you tellme more about where that has operated overseas? I believe Norway has a pretty interesting system, but I'll let
+you
+
+
+CLAIRE PULLEN
+:
+
+I'm not familiar, except at a very surface level. Like with many things, the
+Scandinavians are doing this properly and well and taking a sovereign approach. Like I alluded to, if this is worth
+doing, we're going to get behind it in a fulsome way. It's not that unusual I would just say, just as a matter of
+principle, to require supply chain clarity in a lot of things, particularly around compliance with the law. Just
+because a house was built compliant with the planning laws at the time, it doesn't mean yo
+u won't address it whenit later becomes a meth lab if that's the use that someone puts it to. I would say it's incumbent on governments to
+think about the entire life of a data centre. I think you're right
+no doubt we could have both. I suspect the landthat I would like to see a film studio on is not particularly as useful for a data centre as the other sites for it.
+
+The Hon. JACQUI MUNRO:
+
+Yes. Exactly.
+
+CLAIRE PULLEN
+:
+
+But I do have to ask the question: Why are we building a film studio to make very
+expensive films and TV here in Australia when
+
+Friday 1 May 2026
+
+Legislative Council
+
+Page19
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. JACQUI MUNRO:
+
+Also supported by an international company as well.
+
+CLAIRE PULLEN
+:
+
+That's right. We could
+and perhaps shouldat some later date litigate the question
+of the tax incentives.
+
+The Hon. JACQUI MUNRO:
+
+Indeed.
+
+CLAIRE PULLEN
+:
+
+But leaving all that aside, down the road there's a data centre that is actively listening
+to films and videos lawfully and unlawfully and then creating a competing product where someone, again, sitting
+in office can go, "Can I please have a competing movie?"
+
+The Hon. JACQUI MUNRO:
+Obviously, APRA AMCOS is doing work in their field of expertise as
+well. Is there a kind of broad creative industry copyright effort that is engaging with data centre operators or peak
+body
+well, now there is a peak body
+or even operators like it might be
+Anthropic or Google directly? You saidthat they haven't reached out to you but are you reaching out to them?
+
+CLAIRE PULLEN
+:
+Yes. We have been and did after the Senate inquiry that I referred to, in 2024. There
+is a broader group. I'm actually missing our regular meeting to appear here today. I gave my apologies via APRA
+AMCOS like, "Nick, can you please let them know that I'll be late?" We are working very closely together, not
+just with creator groups, but with rights
+-
+holder groups. Our ecology is complex. In the way that journalists work
+with news media organisations, we work with production companies who then work with a moti
+on pictureassociation and the streamers, the broadcasters like the ABC, but also the commercial broadcasters. It has been a
+really heartening time of agreement from everyone about the idea that we do need to maintain the integrity of our
+intellectual property framework so that everyone can continue to benefit from that work.
+
+Yes, we're working very closely together. We meet very regularly. APRA AMCOS are an incredible part
+of that work that we are doing, and we are regularly seeking contact with the big AI companies and the big tech
+companies. Unfortunately, I
+
+suspect that the litigation that's going on in the United States precludes them from
+reaching deals here in Australia in case it prejudices the proceedings overseas. That is just a suspicion, but that
+would be my view about what might be happening.
+
+The Hon. JACQUI MUNRO:
+
+Do you know if that extends to data centre operators that are Australian,
+like NEXTDC or CDC?
+
+CLAIRE PULLEN
+:
+I am not aware. As I suspect you know better than me, the idea of a peak body or
+one representative for the data centres is relatively new. I haven't initiated contact with them yet.
+
+The CHAIR:
+
+The ICIP, which I know you've mentioned in the submission in passing, can you explain to
+us what that is?
+
+CLAIRE PULLEN
+:
+
+Indigenous cultural and intellectual property. It is an area of copyright law that is
+changing. Copyright law is based on the idea of an individual owner of an individual property. That doesn't
+necessarily account for collectively owned or collectively tra
+nsmitted works, like a lot of First Nations works,
+where a community or a moiety or a clan as a whole may own a story or a dreaming or a songline, rather than
+individuals owning it. There is some work happening at a Federal level around how we might inco
+rporate this intothe copyright system. It particularly comes up around the issue of fake Aboriginal art, which I'm sure everyone is
+aware has been a real issue in the last couple of years.
+
+I hate to be able to say this, but you can actually use ChatGPT or Claude to create fake dreamings and
+
+New
+
+Zealand members, which indicates quite strongly that there are works in there that have been taken without
+permission and consent. I think about how hard, particularly, our broadcasters and our news organisations work
+to make sure that when you refer to Elders who have passed or First N
+ations people who have died, about howthey're referred to by name
+that their names are given correctly
+about warnings before you show photos of
+Elders who have died and members of community.
+
+AI has no guardrails around any of that. You can just type in someone's name before they died, get a photo
+of them and incorporate them into a story. You could have someone who is on the other side of the world going,
+"I'd like a minor Aboriginal Australian storyline in this TV drama. Can you just plot out some lines for me in the
+voice of someone who lives in this part of Australia and is from this particular community?" I don't see how the
+models, as they are currently operating, can be appropriately resp
+ectful of First Nations storytelling and collectiveownership without data transparency and, frankly, some prevention of use in certain ways.
+
+One of the things we talked about in other fora
+you can use writers' names as a prompt. You can get ona large language model and go, "Can you please give me the next David Williamson play? Can I please have a
+Hans Zimmer score for this particular item?" You could say, just to choose a recent example, "The Presets
+Friday 1 May 2026
+
+Legislative Council
+
+Page20
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+covering Midnight Oil, where Peter Garrett joins at the end of the set." It's the same problem turned up to 11,
+I
+
+think, is the short answer. There are no protections in any of these models for First Nations traditions of
+storytelling that don't fit neatly
+
+within copyright frameworks, because the companies are ignoring those
+frameworks anyway.
+
+The Hon. MARK BUTTIGIEG:
+
+It's interesting
+you've got all this demand for unlimited desires.
+Whatever is happening in my head, I'll ask it and it can do it. It would be theoretically possible to turn that on its
+head, wouldn't it, and say to government, "Why don't we just write algorithms that say whenever someone's
+stealing IP, there's a flag that comes up and prevents you doing it"?
+
+You alluded to the legal thing before about
+"You're a citizen of New South Wales
+,
+" but if I jump onto Copilot and say, "Write me a thesis on creativ
+edestruction and AI," and it's basically borrowing from someone else's paper, then theoretically there could be an
+algorithm to say, "You're actually stealing someone else's work, mate. You can't do it."
+CLAIRE PULLEN
+:
+
+I think the issue we're all grappling with is that everyone's playing catch
+-
+up with thetech companies on this work. As part of the ACTU working group, we're working closely with the NTEU.
+Obviously how our work is cited and referred to is critical to an a
+cademic's career. Being correctly understood,
+referenced and prominent is really important to academics both in their work teaching and their work in developing
+research. I'm reluctant to suggest that we do anything that looks like regulating the consume
+r or the worker, forexample, in the New South Wales public service, or working in New South Wales on the other end, and preventing
+what they can or can't type into something.
+
+I think if you're regulating at that stage, it's probably too late, and the onus should be put on the companies
+to do it. Whether or not that's through an algorithm that detects and prevents, or they take the works out of the
+models, I can't say which of those would be easier or simpler, but I think the obligation should be placed on the
+company to do it
+rather than prevent. There may be legitimate reasons, particularly around the educational use
+of works. There is a licence for government use of copyrighte
+d works. There's news, there's commentary and thereare parodies. There are exceptions at copyright law to using copyrighted works. Like I said, I don't expect normal
+people to get across the nuance of those details, but we could ask these giant internatio
+nal companies to do somework on it, I suspect.
+
+The Hon. MARK BUTTIGIEG:
+
+The ACTU's position is quite strong on this, and they're quite conscious
+of it and publicly active. Do you think there's a sense that it's all too big and moving too fast, and we're just going
+to have to see what happens? It's sometimes the feeling I get.
+
+CLAIRE PULLEN
+:
+
+Yes, I think that's right. When I talked earlier about AI being a general
+-
+purposetechnology, and when people talk about how big it is, how it's going to change everything, how it's on everyone's
+computer, how it's on everyone's phone, the conclusion you'r
+e meant to draw is that it's too big to regulate andthere's nothing that can be done. I just don't accept that that's the case. If you can articulate specific harms or likely
+harms
+and I think that's why a tripartite approach is really good, because wor
+kers know their workplaces betterthan anyone else and can say to you, "This is the best way to look at what might happen out of this"
+if you canarticulate those harms, you just address the harms and then you are left with only the beneficial uses which,
+in anideal world, is what happens with other general
+-
+purpose technologies, like cars, electricity and the internet. I
+
+don'taccept the proposition that it's too big and therefore you shouldn't regulate. It's that second part that people don't
+say
+the "Therefore you shouldn't regulate it". It may be big, but I have no doubt electricity felt the same.
+
+The CHAIR: And it's powerful. If we take a step back then and we look at the extent to which data centres
+or the so
+-
+called data centre boom is perhaps not something that's critical infrastructure for us as people but
+certainly is critical infrastructure for AI as a technology and all of the companies that benefit from that, and if you
+were to redesign that, looking at what we have now and thinking about how you could do it better
+if we acceptthat there's no stopping it
+how do we get some of that benefit to come backto those who are actually the original
+labourers for that content?
+
+CLAIRE PULLEN
+:
+
+I'll only talk about the sort of models that my members' works are in, because I'm
+certainly not going to stray into how it's being used in the medical field
+not an area of expertise I have. Licensingis a really simple and straightforward system we alread
+y use. That's how we collect royalties and distribute thoseroyalties to my members as income. There are movements, particularly in Europe, around the disgorgement of
+works from models and transparency regimes, so that creators can see what works are in models and what's not
+in there. There's a professor working out of South Australia who has been able to demonstrate that the use of AI
+in the creative industries is actually not going to be that prominent
+he thinks.
+
+Or certainly that's what I've takenfrom his research. Because while it can meet an average person's creativity level
+from my example, it's not thatmuch better or worse than my writing, but it's way worse than one of my members, because they are professionally
+creative and that is their skill set.
+Friday 1 May 2026
+
+Legislative Council
+
+Page21
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+It's worth thinking about whether we actually need to use it for everything. There's that meme that is going
+around: "I really wanted the robots to do my washing so that I had time to write. Instead, the robots are doing the
+writing and now I'm doing all the chores." It's worth just being thoughtful, particularly at a government level. But
+every workplace is going to have to grapple with if this thing is actually going to do something that's beneficial.
+A lot of the research that's coming out is showing that the net outcome is actually lower productivity, particularly
+in the law, which is an area I pay attention to. If you replace your articled clerks and your interns with AI, yes,
+you're not paying those people's wages and they're gone, but then the senior lawyers and the partners spend, on
+average, a certain percentage more time checking the work to make sure it's not making up cases or citing the
+wrong precedent or misunderstanding the legal issue, and so the net cost is actually higher. Particularly from
+government, I would like to see less starry
+-
+eyed buy
+-
+in around the propaganda, because there are people whobelieve the hype and think, "Just build it everywhere and see what happens."
+
+The CHAIR:
+
+We are out of time. That was really very useful and incredibly interesting. To the extent
+there are questions taken on notice or supplementary questions, the secretariat will be in touch. That concludes
+our time with you. Thank you.
+
+(The witness withdrew.)
+Friday 1 May 2026
+
+Legislative Council
+
+Page22
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Miss ANNA JORDAN
+, Director, Protocol Policy Lab, affirmed and examined
+
+Mr DEVJEET MATTA
+, Research Officer, Protocol Policy Lab, affirmed and examined
+
+The CHAIR:
+
+Would you like to begin by making a short opening statement?
+
+ANNA JORDAN:
+We would like to thank you, first of all, for inviting us to be here. Protocol is a
+youth
+-
+led technology and AI policy research lab, with the purpose to give young Australians the opportunity to
+join the national conversation on tech policy. Dev and I, along with a group of recent university graduates and
+university students, started Protocol because we saw a real necessity for youth
+-
+led and youth-
+informed tech policy.
+Technology, as I'm sure the panel is aware, has a huge impact on our lives. Its effects
+
+can be seen in many aspectssuch as education, work and daily life. That will continue to evolve.
+
+Young people are among the most affected by tech policy decisions that are made today, which is why
+young Australian voices in tech policy matter. As young people with a long
+-
+term future in New South Wales, wecare about long
+-
+term planning and sustainability.
+
+In our submission we compared approaches by jurisdictions in
+Australia and also overseas. In comparing their policies, we identified three key takeaways in their policy
+responses to data centre development. We think this inquiry presents a really signi
+ficant opportunity for the
+New
+
+South Wales Government to implement a proactive policy response that prioritises sustainability without
+compromising innovation.
+
+The CHAIR:
+
+I'll start with a few questions. My apologies: You are, as you said, a youth-
+led organisation,
+and I don't want to just ask questions of you as a young person; however, I'm going to start with just that. For
+some people over a certain age, you can be told that you're somehow anti
+-
+technology or that you just want thingsto be as they've always been. From your perspective as people who are completing university education and
+coming out the other side to see a world that is changing quickly because of AI, in terms of what is potentially a
+viable job, what is your view on AI and its displacement of jobs? How does that impact people who are just
+coming into the workforce?
+
+ANNA JORDAN
+:
+
+Speaking from my experience and the experiences of the peers that I personally know,
+we are not anti
+-
+AI or anti
+-
+innovation but I think we see AI as an inevitable aspect of our lives. You're right: We're
+coming of age and entering the workforce and tertiaryeducation at a time when AI is being adopted very quickly
+into these areas. Did you mention graduate
+
+The CHAIR:
+Yes. Where I'm coming from is, I speak with my own children, who had very clear ideas
+about the sorts of university degrees they wanted to do, but they are now saying to me, "I don't know if I can go
+into that field, because jobs will probably be all automated by then in that field, even creative fields." I'm just
+watching the speed at which they have to change where they think they might be employable, based on the speed
+of technological change, and I wonder if that's something you're seeing. Are people coming out of university with
+a degree now that they think is maybe not as useful as when they first went in?
+
+ANNA JORDAN:
+I'm not sure I can fully answer that, because I am just speaking from my experience.
+I
+
+think there is for myself and my peers an acceptance that we need to understand AI and its impact on the
+industries that we've chosen. Dev and I are both law students/la
+w graduates, so we've seen AI come into our livesin terms of more research
+-
+based applications. For us, it's been really important to be aware of those harms, but
+I
+
+personally haven't felt a sense of doom and gloom about my prospects. I can't really spe
+ak to the creativeindustries.
+
+The CHAIR:
+
+One of the things I liked about your submission was the way you compared different
+jurisdictions; that's always incredibly useful. Can you tell us about your research, particularly of lessons learnt
+from other jurisdictions where they have had to jump in now to make fundamental changes to the way they do
+things? Can you talk a bit about that part of your submission?
+
+DEVJEET MATTA
+:
+Just looking at other jurisdictions, we've found that a lot of other jurisdictions have
+projected that data centres are going to take a huge amount of additional energy from the grid, usually in five or
+10 more years. What we've really seen is an assessment about which areas have that availability, in terms of
+renewable or hydrothermal energy
+that kind of stuff. A lot of jurisdictions have made that assessment, and what
+they've tried to do is allocate areas where data centre providers can construct data centres.
+
+We've seen that in the
+UK, for instance.
+
+There has been some policy where they've given incentives to data centres to build in areas which have
+access to, for example, wind energy. That's a big change that has been made. I would also say another large change
+is that some jurisdictions have also really had to assess the impact of job creation from data centres. I believe
+Victoria, for instance, has made a plan for that. The United Kingdom has sort of attempted to assess how major
+Friday 1 May 2026
+
+Legislative Council
+
+Page23
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+investments can help create jobs
+jobs related to AI and tech, for instance. To sum up, there's been a real push
+for how renewable energy generation can help in constructing data centres and providing the often megawatts or
+gigawatts required to construct data centres.
+
+The Hon. MARK BUTTIGIEG:
+On the job destruction piece, there are mixed signals. Intuitively, you
+get how there could be pretty economy-
+wide job destruction. But the actual study data coming back at this stage
+seems to be saying it's probably not as bad as we think at this stage. D
+o you have a view on that in terms ofanything you've seen that might indicate the trajectory we're on? You hear these anecdotal stories that Atlassian
+sacked a thousand people or X companies got rid of so many admin jobs. There was actually an article i
+n the Fin
+Review today that suggested that it's a bit more benign than people think at this stage, but it's one of those things
+where you would imagine the exponential trajectory could hit like a sledgehammer at some point. I just don't have
+a sense for how accurate the view is on that, in terms of whether there has been any modelling done on it. Is there
+a view on it?
+
+ANNA JORDAN:
+
+Protocol hasn't done a comprehensive review, although I do know which conversation
+you're talking about. We would be very happy in the future to do research or collect data on that if the panel would
+be interested. Although I agree there is
+I guess there are competing stories about layoffs or whether AI is really
+taking away jobs. We can't conclusively say.
+
+DEVJEET MATTA
+:
+
+I agree. I think most of these figures tend to be projections. From the UK, for
+instance, I think it's 5,000
+-
+plus jobs are projected to be created in the near future. I think it's, in Ireland, 75,000
+
+newjobs
+and that's just from their strategies. But I think most of the data that we have does just tend to be estimations,
+and there's nothing concrete as to that.
+
+The Hon. MARK BUTTIGIEG:
+
+Are you aware of any other jurisdictions where the job destruction has
+been more pronounced based on a greater uptake?
+
+ANNA JORDAN
+:
+
+I couldn't say.
+
+The Hon. SCOTT FARLOW:
+
+In terms of your report, your recommendations and your assessment in
+terms of other jurisdictions, what seems to be a key theme is that you need a strategy when it comes to data centre
+development. In terms of those key learnings you've got from all of those jurisdictions, what would you advocate
+as hallmarks of those strategies that New South Wales should be putting front and centre?
+
+DEVJEET MATTA
+:
+From some of our recommendations, I think we suggested that there should be a
+strategy that balances, obviously, sustainability with speed. One thing I find interesting, looking at all the other
+jurisdictions, is some have allowed data centre providers to
+bypass local council regulations and planning lawsand apply directly to either the State or Federal government for approval. So I think there's a real urgency in trying
+to get these data centres approved and sort of ride the AI wave.
+
+But at the same time I think it's important to keepin mind the sustainability metrics that are important.
+For example, Singapore
+,
+
+giventhevery constrained land sizeand given the obvious burdens on energy, ha
+sonly approved data centre applications to providers who can meet
+certain quality benchmarks.
+
+In terms of recommendations for New South Wales, I think providing approval for applications is important
+
+and ensuring that we do get a lot of data centre approvals in the next 10
+
+or20 years is definitely important. But
+I
+
+think that should be done while taking into account sustainability,
+
+making sure that sound acousticsisfine anddoesn't impact the local community, ensuring that the centres can be appropriately cooled b
+ecause obviously heatproduction is a huge issue
+, and
+
+ensuring we have the best IT equipment, the most sustainable IT equipment
+,
+
+isdefinitely important
+.
+I would say the biggest thing is striking a balance between those two things.
+
+The Hon. SCOTT FARLOW:
+
+You used
+
+Singapore as an example
+
+and I think you outlined that it's got54
+
+per centof the data centre load in Southeast Asia
+, so even with those standards in place it's not like people are
+saying,
+"Well, sorry, we're going to go to Malaysia instead
+,
+"
+
+or
+,
+
+"We're going to go to Indonesia to operate.
+"
+
+I
+
+takeit that thereareprobably more international corporations that have their regional headquarter bases in Singapore
+than in surrounding areas
+, but are there other reasons for the viability or the interest in Singapore as a data centre
+hub?
+
+DEVJEET MATTA
+:
+Yes
+.
+
+I think one of the reasons is
+,
+
+like you mentioned, it's a huge hub for AI andtech. I think another key thing is concentration. Singapore obviously has a small land size
+
+and that's not exactlycomparable to New South Wales or Australia, which is quite large. But I think a real concern is clustering
+, and
+
+not just Singapore but other jurisdictions we've mentioned have obviously
+also granted approval in certain clustersof the city where they have access to the grid. So Singapore, along with other juris
+dictions, potentially has thatissue of clustering. I knowin
+New South Wales we have a lot of data centres that are concentrated in certain areas
+of Sydney.
+
+I think that's an issue just generally to watch out for
+. Heat production is also a very big thing.
+Friday 1 May 2026
+
+Legislative Council
+
+Page24
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Obviously, Singapore has a tropical climate and we get pretty hot summers here in Sydney and New South Wales
+,
+so that's another point of comparison.
+
+The Hon. SCOTT FARLOW:
+
+In terms of that clustering, it's something that the industry wants and it's
+somethingthatthe industry sees advantage in, as you say
+,
+
+in terms of energy availability being there
+, but thereare, of course, by
+-
+products and consequences of that.
+One of the areas in Sydney where thereare
+
+a lot of datacentres is Macquarie Park. Macquarie Park has had a metro line constructed to it. There are a lot of competing
+land uses there
+. Arguably
+,
+
+with such transport infrastructure around, data centres may not be the ul
+timate land usein that area. I think you mentioned the UK examples
+,
+
+particularly in terms of targeting centres
+. What were thecharacteristics of those centres that they targeted in the UK
+
+and is that something thatcanbe applied in Australiapotentially
+?
+
+DEVJEET MATTA
+:
+
+Just give me a moment
+
+and I'll get my notes.
+The UK had similar, I think
+,
+
+metricsof approval to Singapore.
+We found that the
+
+approval was granted for
+
+areas they call AI growth zones.
+Theseareessentially areas in which there's priority access to grid connections. There
+are
+
+certain incentives for building
+
+there; there are fast
+-
+track planning approvals. So it was
+,
+
+in terms of location
+,
+
+areas where there would be improvedwind generation capacity, areas that would help with the efficiency of the grid
+, anddata centre providers whowere happy to build in areas that would be more sustainable and more environmentally friendly.
+
+The Hon. SCOTT FARLOW:
+Looking at those locations
+Oxfordshire, Blythe, Cobalt Park,
+North
+
+Walesand South Wales
+they're not typically the sort of population hubs of the United Kingdom as well.
+That potentially may be one of the challenges with data centres here, that they are competing in an area that we
+would want for housing or job opportunities, and of course noting the much smaller footprint of the UK compared
+to Australia
+, how would we be able to encourage, do you think, location of data centres perhaps in renewable
+energy
+
+zones, or perhaps closer to energy generation,
+
+rather than population centres?
+
+DEVJEET MATTA
+:
+
+It's a difficult question. I wouldn't have all the answers to that. I think really there
+should be a focus on areas where renewable energy is sufficient. We have
+,
+
+obviously,
+
+in New South Walesparticularly a lot of areas where we get a lot of sun
+; we get a lot of solar energy. I think at this stage we have
+something like 90 data centres in New South Wales. It's a bit hard to tell. Obviously most of them would be in
+Sydney. I think it's just a question for policymakers. What I can say is that I think in other jurisdictions they've
+been able to avoid the broader ramifications of building it in population
+-
+dense areas through things like soundcontrols, things like regulations around heating and cooling, and I think disincentivising providers who go outsi
+deof certain benchmarks. It's a difficult question, but I think that's all we can say based on that research.
+
+The Hon. MARK BUTTIGIEG:
+
+Further to Scott's point, the market is going to take some of this, isn't
+it, in the absence ofgovernment intervention
+?
+
+Because there must be some sort of economic trade
+-
+off between
+if
+
+you build them in renewable energy zones, for example, because you want cheap, affordable, clean power, is
+there a cost then of the latency, the speed with which you can transmit the data, because you're too far away from
+where the demand is? Then the closer you get to where the demand is, the more expensive the electricit
+y becomesand theless
+
+renewables. Is there a view on that,
+is that
+
+that trade
+-
+off?
+
+DEVJEET MATTA
+:
+
+Yes,
+Iguess we would just reiterate that it is all about balance. I would point to the
+example of the US, where they haven't really been able to strike that balance as well. For instance, in our opinion,
+or through our research, they've let the policy happen on a very decentralised level, on the level of local states
+.
+What you've had is this issue of energy gentrification, which you also see in Ireland
+. As you mentioned, what youend up seeing is the price gets passed on to consumers and these data centr
+es which are concentrated in thesepopulation
+-
+dense areas
+energy becomes more expensive. That's one of the byproducts of providing very heavy
+tax incentives to data centre developers. Yes, I think it's really just about striking that balance. That comes out of
+our research, I'd say.
+
+The Hon. MARK BUTTIGIEG:
+
+By contrast, the Nordic model
+just tease that out for us a bit vis
+-
+a
+-
+vis
+America, where it's just decentralised and you end up clustering around population centres. What's happened in
+the Nordic countries?
+
+DEVJEET MATTA
+:
+
+I think one of the benefits of Nordic countries is,
+I believe, in contrast to the US,
+they're all a hundred per cent renewable
+. They use 100
+
+per cent renewables for their energy grid. You can correctme if I'm wrong on that. I believe their model is a lot more f
+ederal rather than the decentralised model used inthe
+
+US. Just some examples, they have something called the Norwegian Energy Act, and they use that to set
+certain grid connection planning requirements. I think another really important thing is ge
+tting transparentinformation from these data centres. One of the benefits
+,
+
+obviously,
+
+of having a central regulation or policy tomanage data centres is you can very easily get information from all these data centres on how much power they're
+using. So they have mandatory registration for all data centres which use an electrical capacity m
+ore than0.5
+
+megawatts.
+
+They have certain supervision powers. They have a disclosure requirement for how much
+Friday 1 May 2026
+
+Legislative Council
+
+Page25
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+cryptocurrency mining that certain data centres are doing. I
+
+would say, quite similar to New
+
+South Wales, they'vealso prescribed it as critical national digital infrastructure. I know in New
+
+South Wales we have SSDs
+I
+
+think
+State significant developments
+so there's that focus on achieving net zero, just like we have in New South Wales.
+
+The Hon. JACQUI MUNRO:
+
+Thank you so much for the information and for coming today. It's really,
+
+really helpful. I was curious about the Norwegian model, in particular, and that data processing infrastructure that
+
+meets European standards. If you could elaborate on that a little,
+
+because what you were referring to just then with
+
+cryptoare there examples of what we were talking about in the session earlier around a kind of data supply
+
+chain, essentially, where you put in rules throughout the use of data, whether it's storage or collection or even
+
+analysis, and how that relates to the regulation of data centres in Europe?
+
+DEVJEET MATTA
+:
+
+I think that's a little bit outside the scope of our research. Is it possible for us to
+
+maybe take that on notice?
+
+The Hon. JACQUI MUNRO:
+Yes, for sure. That would be really helpful. I think Europe is an interesting
+
+example because you've obviously got individual countries that are responding to EU standards as a whole, and
+
+countries that have done that effectively. The EU is obviously known
+for its more stringent requirements, but if
+
+you've got countries that demonstrate that they're able to maximise investment, despite or potentially because of
+
+those requirements, that would be awesome to hear more about.
+
+ANNA JORDAN
+:
+
+We'd be more than happy to give you that.
+
+The Hon. JACQUI MUNRO:
+
+Just to be clear, it's helpful for the Committee and for the report to really
+understand your position around AI as an inevitability, and your view that it's really a management exercise rather
+than a kind of "stemming the tide" situation. Could you elabor
+ate a little more on your views on that?
+
+ANNA JORDAN
+:
+
+As Dev said before, just taking New South Wales as our context, there are already data
+centres in Sydney, so creating a proactive policy response would be addressing current development, not future
+development. In terms of
+
+I know I used that word "inevitability" before, we are already in the stage of developing
+data centres so, yes, I think
+
+
+The Hon. JACQUI MUNRO:
+
+What are your concerns if we don't manage this effectively?
+ANNA JORDAN
+:
+Keeping in mind Protocol's interest in policy development with data centres is to
+promote sustainability without compromising innovation, there's a concern that sustainability might not be
+protected or be prioritised with data centre development. Like Dev
+was saying before, it's all about balancing thatpriority of sustainability with interest in economic growth. Just speaking generally here, AI investment has
+happened very quickly. Just from observing the world around us, I don't think it's really a ques
+tion of whetherdata centre investment would happen or not. Do you have anything to add?
+
+DEVJEET MATTA
+:
+
+Yes, I'll pretty much just reiterate what Anna said. One of the major issues that we
+can foresee is the adequate use of space and making sure that there isn't that sort of clustering going on.
+
+I thinkthat's one of the big issues. I would say we can all understand AI is inevitable, and the use of AI in schools,
+universities, workplaces
+that's important. It's really key to appreciate balancing certain environmental
+standards
+we think Norway has done a good job and, to a certain extent, Singapore
+with job creation, with theappropriate use of AI. That's really the balance that we're looking for.
+
+The Hon. JACQUI MUNRO:
+On that point about Norway and Singapore
+and maybe more particularly
+Norway
+doing a good job or a better job on that sustainability piece, do you think that is actually attractive to
+investors and data centre operators?
+
+DEVJEET MATTA
+:
+
+I would say it's attractive to the extent that there needs to be a firm stance on which
+operators are given that energy to use. Certain jurisdictions have taken the approach where they're very lax in
+providing energy and approval for data centres to be created. Victoria is one of them.
+
+The Hon. JACQUI MUNRO:
+
+As in Victoria's standards are lax?
+
+DEVJEET MATTA
+:
+
+Yes, they are somewhat lax, from the research we have done. Norway and
+Singapore, both of them have set certain benchmarks. I think what's important is government takes a firm stance
+on which data centre providers are able to meet those benchmarks. If thes
+e standards aren't set and providingapproval based on these standards, I think it is something that we will see
+I think it is something that data centreproviders will be happy to take on.
+
+The Hon. JACQUI MUNRO:
+
+So it's a clarity issue?
+
+DEVJEET MATTA
+:
+
+Clarity. Yes.
+Friday 1 May 2026
+
+Legislative Council
+
+Page26
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+ANNA JORDAN
+:
+
+I might add on. I'm not sure if the panel has seen the national expectations on data
+centre development, which is something that the Federal Government put out last month. Those, on the whole,
+articulate what standards the Government will be looking at whe
+n they're looking to approve future data centreapprovals. I think that document similarly goes towards clarifying what the Government wants to see from future
+providers.
+
+The Hon. JACQUI MUNRO:
+One of the criticisms when that came out was that it was potentially off
+-
+putting for some operators, but kind of also impotent in that there was no actual regulation, no penalty, for not
+complying with these standards. It goes to that lack of clarity piece
+. Is one data centre actually going to beapproved over another if it doesn't comply or does comply with these standards? It was still fairly unclear as to
+what it would mean if a data centre operator didn't comply with those ideas.
+
+ANNA JORDAN:
+
+It goes to what I was saying before with this being a good window for policy
+intervention in New South Wales and taking that proactive response.
+
+The Hon. EMILY SUVAAL:
+You mentioned earlier, Mr Matta, in your remarks that the Victorian
+regulation was quite lacking, I can't remember your exact words. I'd just invite you to expand on that given the
+research that you've done.
+
+DEVJEET MATTA
+:
+I think what I said was it was somewhat lax in terms of their approval. I will just
+refer to page 16:
+
+CEO of CDC Data Centres, Greg Boorer, has described it as easier to get approvals for huge data centres in Victoria than elsewhere
+in Australia
+
+a NEXTDC facility in Port Melbourne was reportedly approved in 75 days, and a smaller facility in Geelong was
+approved in 62 days.
+
+Whereas in New South Wales obviously the process for approval does seem to be quite slower. One was
+19
+
+months
+a data centre by Goodman Group
+while the next DC project approval took 26months.
+
+The Hon. EMILY SUVAAL:
+
+In terms of saying it's lax, I think what you're meaning is that the Victorian
+system is faster.
+
+DEVJEET MATTA
+:
+
+Yes, that's what I meant to say.
+
+The Hon. JACQUI MUNRO:
+Can I just clarify? So it's not necessarily that the restrictions are greater;
+it's just that the process is faster
+sorry, the restrictions are less. Or the restrictions relating to environmental
+standards aren't necessarily lax or less stringent than New
+South Wales; it's just that the process is slower.
+
+DEVJEET MATTA
+:
+
+Yes, I believe that's correct.
+
+The CHAIR:
+
+I think it was in Singapore that they did a moratorium in 2019 and then followed that with
+actually having a strategy in place and then putting all of the guardrails on. In New South Wales I think a lot of
+people have gone, "Hang on a minute. We've got over 90 data centres already." It seems that there are no plans
+and structures; that has sort of just happened to us. Some submissions have recommended putting a moratorium
+on new data centre developments in New South Wales until we have that broader strate
+gy in place. Do you supportthat?
+
+DEVJEET MATTA
+:
+
+We have had some discussion about this, and that's not one of the recommendations
+we put forward. It's not to say that we don't necessarily recommend it, but we would suggest it's not as necessary
+for New South Wales as it is for Singapore. As a bit of context for Singapore, obviously their energy and
+sustainability concerns do tend to be greater than ours in terms of their spacing and heat. There are a lot of
+environmental issues regarding that. They have, I believe, nine more data centres than we do cur
+rently. But that'squite a lot given their small land size.
+
+I think in Singapore's context the moratorium does make a bit more sense. I think for New South Wales
+it's feasible to develop a data centre plan alongside the construction of new data centres, so I'm not sure if that's
+something specifically we would suggest. Although, at the same time, the moratorium did allow Singapore to
+make what they call
+
+The Green Data Centre Technology Roadmap
+
+in which they would condition approval if theymet certain parameters on sustainability and economic value and things like t
+hat. So, again, that's not somethingwe would necessarily suggest, but it is something that they've pursued.
+
+The Hon. MARK BUTTIGIEG:
+
+I just want to ask about
+it's a related subject matter
+the energy useand the competing claims. Obviously you've got this situation where, depending on who you talk tothe evidence
+we heard this morning is that it's not as dramatic as it's being made out.
+But let's say we're going to use a lot moreelectricity and water, whichever way you slice it, that means the appetite or the demand could get to the point
+where, if the market dictates that it wants a thousand data centres in two years or whatever, your
+
+electricityconsumption goes through the roof. Renewables aren't enough to satisfy it at this point in time. Therefore it affects
+Friday 1 May 2026
+
+Legislative Council
+
+Page27
+CORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+our net zero target. Have you got a view on those competing claims and whether or not those other jurisdictions
+are dealing with it better or worse, or where we are at? I'm just interested in if anyone's grappling with this.
+
+DEVJEET MATTA
+:
+
+I think a good example of that might be the UK, which has come up with some
+regulations regarding that. Of course, at the same time, they have certain net zero commitments that they have to
+meet as well. I think one thing that they have done is they have organised local planning authorities.
+
+This is todesignate certain locational requirements for data centres. If this is left to purely just the free market, obviously
+what would happen is you would have, as you said, potentially many more data centres being
+constructed at thecost of risks to the environment. Certain regulations where planning is taken into account
+locationalrequirements are taken into account
+for data centres is something that they've considered. Also considering them
+as essential infrastructure for flood risk purposes is something that they've done. I
+
+think I
+
+mentioned before AIgrowth zones as something that they've considered.
+
+Certain other jurisdictions have also provided tax incentives but, again, this comes at a certain risk: like
+I
+
+mentioned, the problem of energy gentrification, where you have large clusters of data centres taking up large
+amounts of energy. That's some ofthe policies
+the UK has done some important policies regarding that. I
+
+believe
+Ireland has also put in some regulations. I mentioned the tax incentives. I would also mention, from the data centre
+consultation plan of New South Wales, I believe one of the policy recommendations is that data centre developers
+fund their own infrastructure requirements. I think Ireland has actually done quite a lot on this. They have
+introduced a regulation which requires new data centres to install onsite dispatchable generat
+ion or battery storage.
+This essentially allows them to participate in the electricity market as a whole and requires them to take 80
+
+per
+
+centof their energy from renewable sources, so getting data centres to contribute to new renewable generation. That
+also helps to reduce some of the strain on the grid during times of high demand.
+
+The CHAIR:
+That was excellent, thank you. To the extent there are questions taken on notice or
+supplementary questions, the Committee secretariat will be in touch. That concludes our time with you.
+
+(The witnesses withdrew.)
+
+The Committee adjourned at 14:30.

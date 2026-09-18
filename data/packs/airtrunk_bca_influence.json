@@ -1,0 +1,728 @@
+{
+ "pack_id": "airtrunk-bca-influence-2026-09",
+ "prepared_by": "scripts/curate_airtrunk_bca.py (curated from primary sources read 2026-09-18)",
+ "prepared_on": "2026-09-18",
+ "sources": [
+  {
+   "id": "SRC_BCA_ABOUT",
+   "title": "About the Business Council of Australia - board, executive and membership",
+   "publisher": "Business Council of Australia",
+   "url": "https://www.bca.com.au/about/",
+   "doc_type": "primary_company",
+   "published": null,
+   "credibility": "A",
+   "accessed": "2026-09-18",
+   "notes": "The BCA describes itself as 'the nation's pre-eminent voice for business' representing 'Australia's largest employers' and states that it represents more than 120 chief executives from leading companies across a wide range of sectors. BOARD as published: Geoff Culbert (President); Bran Black (Chief Executive, BCA); Vicki Brady (CEO and Managing Director, Telstra); Matt Comyn (CEO, Commonwealth Bank of Australia); Danny Gilbert AM (Chairman, Gilbert + Tobin); Robin Khuda (Founder and CEO, AirTrunk); Rob Scott (Managing Director, Wesfarmers); Mel Silva (Managing Director and VP, Google Australia and New Zealand); Geraldine Slattery (President Australia, BHP). EXECUTIVE: Ian Anderson (Executive Director Finance and Operations, Company Secretary); Wendy Black (Executive Director Policy); Natalie Stirling (Executive Director Strategy, Membership and Engagement); Pero Stojanovski (Chief Economist); Ben Wicks (Executive Director Public Affairs and Advocacy). Membership logos on the page include Accenture, AGL Energy, AirTrunk, Allens, Amazon, Amcor, Ampol, ANZ, APA Group, Apple, Ashurst Perkins Coie, ATCO, Atlassian and the Australian Securities Exchange among more than 120 members. Robin Khuda's and Vicki Brady's board headshots are filed under a 2025/07 upload path, consistent with a June-July 2025 appointment; Geraldine Slattery's under 2026/01."
+  },
+  {
+   "id": "SRC_AIRTRUNK_BCA",
+   "title": "Robin Khuda appointed to the Board of the Business Council of Australia",
+   "publisher": "AirTrunk",
+   "url": "https://airtrunk.com/robin-khuda-appointed-to-the-board-of-the-business-council-of-australia/",
+   "doc_type": "primary_company",
+   "published": "2025-06-27",
+   "credibility": "A",
+   "accessed": "2026-09-18",
+   "notes": "AirTrunk's own announcement: 'AirTrunk's Founder & CEO, Robin Khuda, has been appointed to the Board of the Business Council of Australia (BCA), alongside Vicki Brady, CEO and Managing Director of Telstra.' Khuda is quoted saying it is 'an honour to join the Board of the Business Council and contribute to public policy advocacy that shapes a stronger, more resilient and forward-looking economy.' BCA President Geoff Culbert is quoted welcoming him and saying his 'track record as an entrepreneur in hyperscale data centres is second to none and significantly strengthens our Board's existing expertise in innovation and the digital economy.' Note the timing: this is six months after Blackstone completed its A$24bn acquisition of AirTrunk on 23 December 2024, so the board seat is held by the founder-CEO of a now foreign-controlled company."
+  },
+  {
+   "id": "SRC_BCA_SUB116",
+   "title": "Submission No 116 - Inquiry into Data Centres (Business Council of Australia), received 2 April 2026",
+   "publisher": "NSW Legislative Council / Business Council of Australia",
+   "url": "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Flcdocs%2Fsubmissions%2F95078%2F0116%20Business%20Council%20of%20Australia.pdf",
+   "doc_type": "primary_government",
+   "published": "2026-04-02",
+   "credibility": "A",
+   "accessed": "2026-09-18",
+   "notes": "Downloaded 18 September 2026, 1,120,166 bytes, SHA-256 archived, 59,431 characters extracted at 54.4 chars/KB - above the reliability floor, so absences below are meaningful after ligature repair. Self-describes as representing 'Australia's largest employers across all sectors'. Four recommendations. Section 3.7 names 'AirTrunk, Telstra, AWS, Microsoft, Google, and Goodman' as the companies that build and operate facilities across the country, listing AirTrunk first. States that 'datacentre operators in Australia pay full taxes with no concessions'. Key quantified claims: AEMO received around 44 GW of connection requests linked to data centre proposals in 2025, about 6 GW of project capacity is expected to proceed and only 2.8 GW of actual electricity draw at maturity, '15 times lower than what is sometimes reported' (citing Oxford Economics, Surging Data Centre Connection Requests Drive Phantom Demand, 21 November 2025); data centres consume around 5.5 gigalitres of water a year, approximately 0.04 per cent of national potable water use, and about 0.7 per cent of total Sydney water consumption, with industry projections that use remains below two per cent of total potable supply through 2030; projected industry investment in recycled water infrastructure of $500 million to $1.1 billion by 2030; 'recycled water now supplies 55 per cent of AirTrunk's total use, and its Singapore site runs entirely on reclaimed water'; since 2020 Amazon, Microsoft and Equinix have contracted close to 1 GW of renewable electricity capacity in Australia; and 'around 70 per cent of electricity used by data centres is already offset by renewable energy, through a mix of on-site solar generation and long-term renewable power purchase agreements'. Cites the BCA's own 2025 Regulation Rumble ranking NSW last for planning system performance as at June 2025, and its own Building Australia's Tomorrow (2025). Uses two case studies - 'Amy's homework' (a Year 10 student in Parramatta) and 'Margaret's health monitor' (a 78-year-old living alone with a heart condition) - to frame the human benefit. WORDS THAT DO NOT APPEAR ANYWHERE IN THE SUBMISSION, verified after repairing the ff/ffi ligatures the text extractor drops: subsid*, payroll, land tax, diesel, generator, back-up, NOx, nitrogen, noise, air quality, 200 hours, community benefit, local content."
+  },
+  {
+   "id": "SRC_SENATE_AI_DC",
+   "title": "Senate Environment and Communications References Committee - Artificial intelligence and data centres",
+   "publisher": "Parliament of Australia",
+   "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P",
+   "doc_type": "primary_government",
+   "published": "2026-05-13",
+   "credibility": "A",
+   "accessed": "2026-09-18",
+   "notes": "Referred 13 May 2026; submissions closed 1 September 2026; reporting date 16 November 2026. Terms of reference: (1) the effectiveness of existing regulatory frameworks in managing the growth of data centres in Australia, INCLUDING IN RELATION TO EXISTING AND FUTURE DEALS BETWEEN THE GOVERNMENT AND GLOBAL ARTIFICIAL INTELLIGENCE COMPANIES; (2) the potential impacts of AI and data centres on Australian communities, industries and the environment, water and energy; (3) any other related matters. 116 submissions received. The submissions list is rendered client-side with a JavaScript postback pager, so only the first 20 are retrievable without a browser session - see research gap RG-066."
+  },
+  {
+   "id": "SRC_WMEDIA_BCA",
+   "title": "AirTrunk Founder and CEO Robin Khuda and Telstra CEO Vicki Brady join BCA board",
+   "publisher": "w.media",
+   "url": "https://w.media/airtrunk-founder-and-ceo-robin-khuda-and-telstra-ceo-vicki-brady-join-bca-board/",
+   "doc_type": "news",
+   "published": "2025-06-28",
+   "credibility": "B",
+   "accessed": "2026-09-18",
+   "notes": "Corroborates the board appointments and their date."
+  },
+  {
+   "id": "SRC_AFR_BCA",
+   "title": "Tech giants plan blitz on laws that could block AI investment / Albanese hits data centres with grid mandate in major AI pivot",
+   "publisher": "Australian Financial Review",
+   "url": "https://www.afr.com/technology/industry-giants-target-roadblocks-to-ai-investment-20251127-p5niu1",
+   "doc_type": "news",
+   "published": "2025-11-27",
+   "credibility": "B",
+   "accessed": "2026-09-18",
+   "notes": "Reports that the campaign involves US giant Equinix and Australian data centre operators, and that the Business Council of Australia 'counts AirTrunk but not NextDC among its membership' - so the ASX-listed Australian operator is outside the peak body while the Blackstone-controlled one is inside it and on its board. Companion AFR reporting of 15 July 2026 on the Commonwealth grid mandate quotes BCA chief executive Bran Black 'sounding a note of caution given the global competition to attract investment'."
+  },
+  {
+   "id": "SRC_BCA_AIREPORT",
+   "title": "Business Council unveils Australian AI report to secure leadership by 2028",
+   "publisher": "Business Council of Australia",
+   "url": "https://www.bca.com.au/our-insights/media-releases/business-council-unveils-australian-ai-report-to-secure-leadership-by-2028/",
+   "doc_type": "primary_company",
+   "published": "2025-06-02",
+   "credibility": "A",
+   "accessed": "2026-09-18",
+   "notes": "BCA media release for a landmark AI report whose recommendations include 'Simplify data centre approvals to speed up infrastructure build'. Predates the NSW Data Centre Consultation Paper (March 2026), the Commonwealth Expectations (23 March 2026) and the NSW Data Centre Guidelines (17 August 2026)."
+  }
+ ],
+ "rows": {
+  "entities": [
+   {
+    "id": "ENT_BCA",
+    "name": "Business Council of Australia",
+    "entity_type": "industry_body",
+    "domicile": "Australia",
+    "hq_country": "AU",
+    "website": "bca.com.au",
+    "notes": "Peak body describing itself as 'the nation's pre-eminent voice for business' and representing 'Australia's largest employers'. More than 120 member chief executives. The board as published comprises the CEOs of Telstra, Commonwealth Bank, Wesfarmers, Google Australia and New Zealand and BHP Australia, the chairman of Gilbert + Tobin, the founder and CEO of AirTrunk, plus BCA President Geoff Culbert and Chief Executive Bran Black. Members include Amazon, Apple, Google, AirTrunk, AGL Energy, Ampol, ANZ, APA Group, Atlassian, Accenture, ASX, ATCO, Allens and Ashurst Perkins Coie. Executive Director Policy Wendy Black gave evidence to the NSW Legislative Council data centres inquiry on 29 May 2026. Not a lobby of data centre operators specifically: it is the general peak body for large Australian employers, which is what makes a data centre operator's board seat consequential.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "id": "ENT_KHUDA",
+    "name": "Robin Khuda",
+    "entity_type": "other",
+    "domicile": "Australia",
+    "hq_country": "AU",
+    "notes": "Founder and Chief Executive Officer of AirTrunk, retained in the role after Blackstone's A$24bn acquisition completed on 23 December 2024. Appointed to the Board of the Business Council of Australia alongside Telstra CEO Vicki Brady, announced 27 June 2025. BCA President Geoff Culbert said his 'track record as an entrepreneur in hyperscale data centres is second to none and significantly strengthens our Board's existing expertise in innovation and the digital economy'. Also a public advocate for the sector: reported as saying Australia could become a data centre capital of the world, and quoted in BBC coverage of the sector.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_AIRTRUNK_BCA"
+   },
+   {
+    "id": "ENT_BCA_PRES",
+    "name": "Geoff Culbert",
+    "entity_type": "other",
+    "domicile": "Australia",
+    "hq_country": "AU",
+    "notes": "President of the Business Council of Australia.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "id": "ENT_BCA_CE",
+    "name": "Bran Black",
+    "entity_type": "other",
+    "domicile": "Australia",
+    "hq_country": "AU",
+    "notes": "Chief Executive of the Business Council of Australia. Quoted on 15 July 2026 'sounding a note of caution given the global competition to attract investment' in response to the Commonwealth's grid mandate for data centres.",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_AFR_BCA"
+   },
+   {
+    "id": "ENT_WENDY_BLACK",
+    "name": "Wendy Black (Business Council of Australia)",
+    "entity_type": "other",
+    "domicile": "Australia",
+    "hq_country": "AU",
+    "notes": "Executive Director Policy, Business Council of Australia. Gave evidence to the NSW Legislative Council Inquiry into Data Centres on 29 May 2026, in the same session as Endeavour Energy, Ausgrid, the Clean Energy Council, the UNSW AI Institute, the Australian Information Industry Association, Sydmec and Sweltering Cities.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_INQ_T_0529"
+   },
+   {
+    "match": {
+     "id": "ENT_AIRTRUNK"
+    },
+    "set": {
+     "notes": "Founded in Australia; acquired for A$24bn by a Blackstone-led consortium with CPP Investments (12%), completed 23 December 2024 after FIRB process. Hyperscale campuses in Sydney, Melbourne and Perth; three HCF Certified Strategic facilities (SYD1 Huntingwood, SYD2 Lane Cove, MEL1 Derrimut). Reported prospective buyer of the 1-1.2 GW Mamre Road campus, whose named proponent is the KNBDC SYD4 trust stack. INFLUENCE POSITION: joined the Business Council of Australia in or around May 2025 and its founder-CEO Robin Khuda was appointed to the BCA Board on 27 June 2025, alongside Telstra CEO Vicki Brady - so a company majority-owned by a US private equity firm has a seat on the board of Australia's most powerful general business peak body, whose board also carries the CEOs of Telstra, CBA, Wesfarmers, Google Australia and BHP Australia. The BCA's submission to the NSW data centres inquiry lists AirTrunk FIRST among the companies that build and operate facilities in Australia, and uses AirTrunk as its only named example of recycled water use. EMISSIONS POSITION: AirTrunk Australia Holding Pty Ltd reported location-based scope 2 of 553,344 t CO2-e in 2024-25, up 485% from 94,528 t in 2019-20, with scope 1 up from 132 t to 4,165 t; it does not appear in the CER's market-based scope 2 table in either published year and holds no account in the REC Registry LGC holdings snapshot. Its '100% renewable energy by 2025' claim is recorded as CONTRADICTED as a statement about Australian operations.",
+     "fact_status": "VERIFIED",
+     "confidence": "high",
+     "as_of_date": "2026-09-18",
+     "source_id": "SRC_AIRTRUNK_BCA"
+    },
+    "add_sources": [
+     "SRC_AIRTRUNK_BCA",
+     "SRC_BCA_ABOUT",
+     "SRC_BCA_SUB116",
+     "SRC_AFR_BCA"
+    ]
+   },
+   {
+    "match": {
+     "id": "ENT_DATA_CENTRES_AU"
+    },
+    "set": {
+     "notes": "Sector-specific peak body. Launched on 28 November 2025 and grew out of five data centre operators that began meeting about two and a half years earlier; its members represent 86 per cent of operational data centre capacity in Australia. CEO Belinda Dennett gave evidence to the NSW Legislative Council inquiry on 1 May 2026. DISTINCT FROM AND PARALLEL TO the Business Council of Australia: DCA is the data-centre-only voice while the BCA is the general large-employer peak body whose board includes AirTrunk's founder-CEO. Per AFR reporting the BCA counts AirTrunk but NOT NEXTDC among its members, and Equinix joined the industry campaign in November 2025. The two bodies made near-identical quantified claims to the same inquiry - no subsidies or tax incentives, and low water use - which is worth noting because they are separately constituted and separately funded.",
+     "fact_status": "VERIFIED",
+     "confidence": "high",
+     "as_of_date": "2026-09-18",
+     "source_id": "SRC_INQ_T_0501"
+    },
+    "add_sources": [
+     "SRC_AFR_BCA"
+    ]
+   }
+  ],
+  "ownership": [
+   {
+    "holder_id": "ENT_KHUDA",
+    "target_id": "ENT_BCA",
+    "stake_pct": null,
+    "instrument": "board_seat",
+    "effective_from": "2025-06-27",
+    "event": "board appointment",
+    "notes": "Not an equity relationship. Recorded in the ownership table because that table is the database's control-and-influence chain and there is no better place for a board seat: Robin Khuda sits on the BCA Board as founder and CEO of AirTrunk, alongside the chief executives of Telstra, Commonwealth Bank, Wesfarmers, Google Australia and New Zealand and BHP Australia. Read the instrument field before treating any row here as a shareholding.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_AIRTRUNK_BCA"
+   }
+  ],
+  "lobbying": [
+   {
+    "actor_id": "ENT_AIRTRUNK",
+    "person": "Robin Khuda, Founder and CEO",
+    "channel": "peak_body_board",
+    "recipient": "Business Council of Australia",
+    "event_date": "2025-06-27",
+    "instrument": "BCA Board appointment, announced jointly with Telstra CEO Vicki Brady",
+    "position": "Access to the governance of Australia's principal general business peak body, whose board carries the CEOs of Telstra, Commonwealth Bank, Wesfarmers, Google Australia and New Zealand and BHP Australia, and the chairman of Gilbert + Tobin. BCA President Geoff Culbert framed the appointment as strengthening the board's 'expertise in innovation and the digital economy'.",
+    "outcome": "Sitting. AirTrunk joined the BCA in or around May 2025, six months before the NSW Data Centre Consultation Paper and eleven months before the NSW Data Centre Guidelines.",
+    "disclosed": 1,
+    "notes": "The significance is structural rather than evidentiary. A board seat is not a lobbying record and no improper conduct is alleged or implied. What it establishes is that the operator most closely associated with Australia's largest data centre proposal holds governance-level access to the body that sets the cross-sector business policy agenda, at the same time as that body was submitting to a parliamentary inquiry into the sector and as its own members' projects were being assessed. The board is composed of serving chief executives of member companies, so this is the normal mechanism - which is precisely why it belongs in a database of influence rather than being left implicit.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_AIRTRUNK_BCA"
+   },
+   {
+    "actor_id": "ENT_AIRTRUNK",
+    "person": null,
+    "channel": "peak_body_membership",
+    "recipient": "Business Council of Australia",
+    "event_date": "2025-05",
+    "instrument": "BCA membership (member logo published with a 2025/05 asset path)",
+    "position": "Membership of the peak body representing more than 120 chief executives of Australia's largest employers.",
+    "outcome": "Current. Per AFR reporting of 27 November 2025 the BCA counts AirTrunk but not NEXTDC among its members, so the ASX-listed Australian-listed operator is outside the peak body while the Blackstone-controlled one is inside it and on its board.",
+    "disclosed": 1,
+    "notes": "Membership date inferred from the BCA website's asset path for the AirTrunk logo, which is a weak date signal and is graded accordingly.",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "actor_id": "ENT_BCA",
+    "person": null,
+    "channel": "peak_body_submission",
+    "recipient": "NSW Legislative Council Public Accountability and Works Committee, Inquiry into Data Centres",
+    "event_date": "2026-04-02",
+    "instrument": "Submission No 116",
+    "position": "Four recommendations: (1) 'Recognise data centres as a strategic economic opportunity for NSW and recalibrate policy settings, regulatory approaches and community narratives to enable and attract investment at scale'; (2) align the NSW approach with the Commonwealth Expectations to create a national and consistent approach so Australia can compete for investment; (3) give the new Investment Delivery Authority the ability to rapidly assess and recommend public infrastructure investments that support major private sector projects; (4) monitor planning reforms to ensure they deliver better performance, 'focusing on efficiency, consistency, and certainty in the planning system'. The submission states that 'the BCA has consistently called for a reduction in regulatory burden, and we do not support introducing additional regulation where it is unnecessary', and cites the BCA's own 2025 Regulation Rumble ranking NSW last for planning system performance as at June 2025.",
+    "outcome": "The NSW Data Centre Guidelines of 17 August 2026 adopted the alignment-with-Commonwealth position (the Guidelines state they are 'consistent with the Australian Government's Expectations ... published in March 2026') and the IDA was already operating, with Round 1 endorsed on 27 March 2026 - five days before this submission was received. Recommendations 3 and 4 concern the IDA and planning performance, both of which remained live policy through 2026. No recommendation sought an environmental, emissions, water, noise, community-benefit, local-content or domestic-compute measure.",
+    "aligned_with_outcome": 1,
+    "disclosed": 1,
+    "notes": "ANALYSIS, clearly labelled. The submission's silences are as informative as its recommendations and were verified by keyword search after repairing the ff and ffi ligatures the text extractor drops. Against an inquiry whose terms of reference expressly cover (c)(ii) 'the role of on-site backup generation, including diesel and gas, and associated emissions and health impacts', (d) water usage and cooling, (e) local environmental and community impacts 'including noise, air quality and heat', and (g)(iii) 'the extent of public subsidies, concessions or state directed facilitation provided to the sector', the words that appear NOWHERE in 59,431 characters are: diesel, generator, back-up, NOx, nitrogen, noise, air quality, subsidy, payroll and land tax. It does address the subsidy question, in the negative and in one sentence: 'datacentre operators in Australia pay full taxes with no concessions'. It does address water, at length, with quantified figures. Recommendation 1 asks government to recalibrate 'community narratives', which is a request to change public discourse rather than to change an environmental standard - and the submission is explicit that the sector's problem is partly that 'the public debate can sometimes reduce them to symbols of trivial internet content'. The framing devices are two case studies: 'Amy's homework', a Year 10 student in Parramatta uploading a maths assignment, and 'Margaret's health monitor', a 78-year-old living alone with a heart condition whose wrist monitor alerts her doctor. Both are effective and both are true of some data centre traffic; neither bears on the marginal emissions, water or amenity impact of a new hyperscale campus, which is what the inquiry was asked about.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "actor_id": "ENT_BCA",
+    "person": "Wendy Black, Executive Director Policy",
+    "channel": "parliamentary_evidence",
+    "recipient": "NSW Legislative Council Public Accountability and Works Committee",
+    "event_date": "2026-05-29",
+    "instrument": "Public hearing, Macquarie Room, Parliament House",
+    "position": "Oral evidence in the same session as Endeavour Energy, Ausgrid, the Clean Energy Council, the Business Council's own peer bodies, the UNSW AI Institute, the Australian Information Industry Association, Sydmec and Sweltering Cities.",
+    "outcome": "Recorded in the corrected transcript. In the same hearing a witness stated that cross-subsidisation of industrial use by other customers 'is inconsistent with the framework that we have adopted'.",
+    "disclosed": 1,
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_INQ_T_0529"
+   },
+   {
+    "actor_id": "ENT_DATA_CENTRES_AU",
+    "person": "Belinda Dennett, Chief Executive Officer",
+    "channel": "parliamentary_evidence",
+    "recipient": "NSW Legislative Council Public Accountability and Works Committee",
+    "event_date": "2026-05-01",
+    "instrument": "Public hearing, Jubilee Room, Parliament House - first witness",
+    "position": "Under parliamentary privilege: data centre operators pay their way; the national electricity rules require all large load users including data centres to pay 100 per cent of connection costs and augmentations; operators will pay $10.3 billion in energy infrastructure to 2030 with $1.1 billion of that excess capacity available for public use; operators 'do not receive subsidies or tax incentives'; ABS water accounts show data centre water use is 0.04 per cent of Australia's and less than 1 per cent of Sydney's; and the widely repeated 25 per cent of Sydney's water by 2035 'is not based in fact' and 'was dismissed by IPART as being unverifiable, and it should be dismissed'. Also that data centres generate 'the highest gross value added per unit of energy of any industrial sector'.",
+    "outcome": "Sydney Water's Managing Director Darren Cleary was asked on 22 May 2026 whether he stood by the 25 per cent forecast and answered 'We do, and we acknowledge the uncertainty'. The IPART characterisation remains unverified - research gap RG-042.",
+    "disclosed": 1,
+    "notes": "DCA launched on 28 November 2025 and grew out of five operators; its members represent 86 per cent of national operational capacity. Note that DCA and the BCA - separately constituted, separately funded, with overlapping but not identical membership - made near-identical quantified claims to the same inquiry on the two questions most adverse to the sector: no subsidies, and low water use. Coordinated or not, the effect is that the committee heard the same two numbers from two independent-looking sources.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_INQ_T_0501"
+   },
+   {
+    "actor_id": "ENT_BCA",
+    "person": null,
+    "channel": "commissioned_research",
+    "recipient": "Public policy debate; cited in Submission No 116",
+    "event_date": "2025-11-21",
+    "instrument": "Oxford Economics, 'Surging Data Centre Connection Requests Drive Phantom Demand', 21 November 2025",
+    "position": "That of roughly 44 GW of connection requests linked to data centre proposals received by AEMO in 2025, only about 6 GW of project capacity is expected to proceed and only 2.8 GW of actual electricity draw at maturity - '15 times lower than what is sometimes reported'.",
+    "outcome": "Cited by the BCA to the NSW inquiry and, per the Chair's questioning on 22 May 2026, by Data Centres Australia as well. The NSW Data Centre Guidelines separately cite Oxford Economics work prepared for AEMO estimating that 6 in every 7 MW of connection requests are phantom. The two are consistent: 6 of 7 not proceeding is a 14 per cent conversion rate.",
+    "disclosed": 1,
+    "notes": "IMPORTANT AND UNDER-USED. This is industry-funded research arguing that the pipeline OVERSTATES real demand by an order of magnitude. It cuts against the sector's own interest in a large headline pipeline and should be credited. It also means the Observatory must not treat either 44 GW or 20 GW as demand: on the industry's own commissioned figures the realised draw is about 2.8 GW. The same logic does not, however, answer the local-impact question, because a facility that is built still sits next to the houses it sits next to regardless of how many proposed facilities were never built.",
+    "fact_status": "REPORTED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "actor_id": "ENT_BCA",
+    "person": null,
+    "channel": "commissioned_research",
+    "recipient": "Public policy debate",
+    "event_date": "2025-06",
+    "instrument": "BCA Regulation Rumble 2025",
+    "position": "That NSW ranked last of the Australian jurisdictions for planning system performance as at June 2025, performing well on transparency but lagging on efficiency, consistency and certainty for proponents.",
+    "outcome": "Cited in Submission No 116 to support Recommendation 4. The ranking is the BCA's own publication, so it is a self-assessed benchmark offered to a parliamentary inquiry as evidence about the state's performance.",
+    "disclosed": 1,
+    "notes": "Recorded because a peak body's own index, used as evidence in a submission about whether that state should regulate a sector less, is a conflict of method worth naming - not a conflict of interest in any legal sense, but the arbiter and the interested party are the same organisation.",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "actor_id": "ENT_BCA",
+    "person": null,
+    "channel": "media_campaign",
+    "recipient": "Commonwealth Government / public debate",
+    "event_date": "2025-06-02",
+    "instrument": "BCA Australian AI report, media release 'Business Council unveils Australian AI report to secure leadership by 2028'",
+    "position": "Recommendations include 'Simplify data centre approvals to speed up infrastructure build'.",
+    "outcome": "Published nine months before the NSW Data Centre Consultation Paper (March 2026) and eleven months before the Commonwealth Expectations (23 March 2026).",
+    "disclosed": 1,
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_AIREPORT"
+   },
+   {
+    "actor_id": "ENT_BCA",
+    "person": "Bran Black, Chief Executive",
+    "channel": "media_campaign",
+    "recipient": "Commonwealth Government / public debate",
+    "event_date": "2026-07-15",
+    "instrument": "AFR coverage of the Commonwealth grid mandate for data centres",
+    "position": "'Sounded a note of caution given the global competition to attract investment' in response to the Albanese Government's move to require data centres to generate more power than they use.",
+    "outcome": "The Commonwealth proceeded: on 5 August 2026 the AEMC published advice to the ECMC on mandatory demand offsetting, the Energy Minister lodged rule change requests ERC0448 and ERC0456 on network cost recovery, and NSW introduced the Electricity Infrastructure Investment Amendment Bill 2026.",
+    "disclosed": 1,
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_AFR_BCA"
+   },
+   {
+    "actor_id": "ENT_AIRTRUNK",
+    "person": null,
+    "channel": "political_donation",
+    "recipient": "Unknown",
+    "event_date": null,
+    "instrument": "Political donation disclosure filed on SSD-10330 Roberts Road Data Centre",
+    "position": "A political donation disclosure is filed on the Roberts Road Data Centre project record, whose Schedule 1 applicant is Canberra Data Centres Pty Ltd - a CDC facility, not an AirTrunk one. It is recorded here because it is the only political donation document located anywhere in the 63-project NSW data centre register.",
+    "outcome": "Unread. The document is publicly listed but is a scanned image with no extractable text, so the donor, recipient and amount are unknown.",
+    "disclosed": 1,
+    "notes": "Directly relevant to the NSW inquiry's terms of reference (h)(iv), 'the impact of lobbying and donations on government policy setting surrounding data centre developments'. A donation disclosure is a statutory document; that it is published only as an unsearchable image is itself a transparency finding. Research gap RG-069. AirTrunk is recorded as the actor here only because this pack is the AirTrunk deep dive; the document relates to a CDC site and must not be attributed to AirTrunk.",
+    "fact_status": "GAP",
+    "confidence": "low",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_SSD10330_CONSENT"
+   }
+  ],
+  "metrics": [
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "bca_member_ceos",
+    "value": 120,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "The BCA states it represents more than 120 chief executives from leading companies across a wide range of sectors, and describes itself as representing Australia's largest employers.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "bca_board_data_centre_seats",
+    "value": 1,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "One of nine published BCA board seats is held by a data centre operator: Robin Khuda, founder and CEO of AirTrunk. The other non-executive seats carry Telstra, Commonwealth Bank, Wesfarmers, Google Australia and New Zealand, BHP Australia and Gilbert + Tobin.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "bca_board_hyperscaler_members",
+    "value": 4,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Amazon, Apple, Google and AirTrunk are all BCA members per the published membership logos, and Google Australia and New Zealand's managing director sits on the board. So all four hyperscalers that are absent from every NSW planning record the Observatory harvested have coordinated policy representation through the BCA - which is the most likely answer to RG-023's puzzle about where hyperscaler influence is exercised, if not where their buildings are.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "as_of": "2025",
+    "scope": "Australia",
+    "metric_name": "aem_dc_connection_requests_gw",
+    "value": 44.0,
+    "unit": "GW",
+    "basis": "enquiry",
+    "notes": "Oxford Economics for the BCA: AEMO received around 44 GW of connection requests linked to data centre proposals in 2025. Compare Transgrid alone reporting 20 GW of large-load enquiries and 10 GW within a 12 km radius of Sydney West since late 2024.",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2025",
+    "scope": "Australia",
+    "metric_name": "dc_expected_to_proceed_gw",
+    "value": 6.0,
+    "unit": "GW",
+    "basis": "estimate",
+    "notes": "Oxford Economics for the BCA: of the 44 GW of requests, about 6 GW of project capacity is expected to proceed.",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2025",
+    "scope": "Australia",
+    "metric_name": "dc_actual_draw_at_maturity_gw",
+    "value": 2.8,
+    "unit": "GW",
+    "basis": "estimate",
+    "notes": "Oxford Economics for the BCA: only 2.8 GW of actual electricity draw once facilities reach maturity, described as '15 times lower than what is sometimes reported'. This is the most important single number in the whole pipeline debate and it comes from industry-commissioned research: it means neither 44 GW nor 20 GW should be reported as demand. It is also consistent with AEMO's own position and with the 20 per cent proceeds-likelihood that NSW utilities gave the government.",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "dc_water_use_gl_per_year",
+    "value": 5.5,
+    "unit": "GL/yr",
+    "basis": "estimate",
+    "notes": "BCA Submission No 116: data centres consume around 5.5 gigalitres of water a year nationally, approximately 0.04 per cent of national potable water use and about 0.7 per cent of total Sydney water consumption, with industry projections that use remains below two per cent of total potable supply through 2030. THIS IS THE SOURCE of the 0.04 per cent figure that Data Centres Australia gave orally to the inquiry on 1 May 2026 - the two peak bodies are using the same numbers. Compare Sydney Water's projection of demand equivalent to about 25 per cent of Greater Sydney drinking water by 2035, built on applications actually received. For scale: the Mamre Road EIS alone claims 22.4 ML a year, so 5.5 GL is roughly 245 such facilities.",
+    "fact_status": "CLAIMED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2030",
+    "scope": "Australia",
+    "metric_name": "dc_recycled_water_investment",
+    "value": 0.8,
+    "unit": "AUD bn",
+    "basis": "forecast_central",
+    "notes": "BCA: projected industry investment in recycled water infrastructure of $500 million to $1.1 billion by 2030; midpoint shown. The submission argues this benefits the broader community and that in NSW 'access remains constrained', so policy should support broader availability of recycled water for industrial users 'where demand and funding are already place'. That is the same infrastructure-sequencing failure the Observatory identified independently at NEXTDC S7, where recycled water was abandoned because pipeline planning permission was unavailable - and here the industry is asking government to fix it, which is a point of agreement rather than conflict.",
+    "fact_status": "CLAIMED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "airtrunk_recycled_water_share_pct",
+    "value": 55.0,
+    "unit": "%",
+    "basis": "actual",
+    "notes": "BCA Submission No 116, footnote 23: 'recycled water now supplies 55 per cent of AirTrunk's total use, and its Singapore site runs entirely on reclaimed water.' This is a specific, checkable claim made about a named operator by a peak body to a parliamentary inquiry, and it is the strongest water credential claimed for AirTrunk anywhere in the record. It is recorded as CLAIMED because no site-level water data has been verified: the Observatory holds no metered water figures for SYD1 Huntingwood, SYD2 Lane Cove or MEL1 Derrimut, and Sydney Water agreements are not public (RG-017). If true it materially weakens the potable-water critique as applied to AirTrunk specifically.",
+    "fact_status": "CLAIMED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "dc_electricity_offset_by_renewables_pct",
+    "value": 70.0,
+    "unit": "%",
+    "basis": "estimate",
+    "notes": "BCA Submission No 116: 'around 70 per cent of electricity used by data centres is already offset by renewable energy, through a mix of on-site solar generation and long-term renewable power purchase agreements'. This is a market-based accounting claim about the sector as a whole.",
+    "fact_status": "CLAIMED",
+    "confidence": "low",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2026",
+    "scope": "Australia",
+    "metric_name": "hyperscaler_contracted_renewables_gw",
+    "value": 1.0,
+    "unit": "GW",
+    "basis": "actual",
+    "notes": "BCA: since 2020 Amazon, Microsoft and Equinix have contracted close to 1 GW of renewable electricity capacity from wind and solar projects in Australia. Checkable against the CER's LRET supply data and the NSW renewable approvals pipeline (49 projects, 10.2 GW approved between March 2023 and May 2026).",
+    "fact_status": "CLAIMED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "Australia",
+    "metric_name": "senate_inquiry_submissions",
+    "value": 116,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Submissions received by the Senate Environment and Communications References Committee inquiry into artificial intelligence and data centres, referred 13 May 2026, closed 1 September 2026, reporting 16 November 2026. Only the first 20 are retrievable without a browser session because the list is a JavaScript-postback pager (RG-066); those 20 include the Climate Council of Australia, the Canterbury Bankstown Climate Action Network, the Conservation Council of Western Australia, the Australian Writers' Guild, Ethica Labs, Cetus AI, AQ Intelligence, the Australasian Society for Computers and Law, the Australasian Institute of Digital Health, Soroptimist International Australia and Voices of Bennelong.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_SENATE_AI_DC"
+   }
+  ],
+  "renewable_claims": [
+   {
+    "claimant_id": "ENT_BCA",
+    "claim_date": "2026-04-02",
+    "claim_scope": "national",
+    "claim_type": "percentage_renewable",
+    "claim_text": "Around 70 per cent of electricity used by data centres is already offset by renewable energy, through a mix of on-site solar generation and long-term renewable power purchase agreements with renewable energy developers to secure electricity supply. Data centre operators committing to long-term contracts 'underpin the financing of new wind and solar capacity that might otherwise struggle to proceed'.",
+    "instrument_relied_on": "on-site solar and long-term PPAs; no certificate type or surrender data specified",
+    "lgc_surrender_evidence": "Clean Energy Regulator data checked: no data centre operator appears as an LGC-liable entity in the shortfall register (0 of 143 entries, 2001-2025); only two of eight operators reported market-based scope 2 in 2024-25 and none in 2023-24; NEXTDC's market-based figure is 3.6% below its location-based figure; REC Registry holdings are CDC 233,209, Amazon Energy LLC 226,073 and NEXTDC 500, with AirTrunk, Equinix and Global Switch holding none.",
+    "verification_status": "CONTRADICTED",
+    "verification_note": "Contradicted as a sector-wide statement by the primary regulator data. Location-based scope 2 ROSE for every hyperscale operator across 2019-20 to 2024-25: AirTrunk +485% to 553,344 t, Amazon +202% to 405,217 t, CDC +111% to 317,465 t since 2020-21, NEXTDC +64% to 358,353 t. The additionality limb - that operator contracts cause new wind and solar that would otherwise not proceed - is the specific claim Greenpeace Australia Pacific found unproven for every operator analysed in May 2026, and the NSW Government separately records that PPAs to date 'largely skew to solar projects, not the new wind, storage and other firming assets needed for grid stability in NSW'. The 70 per cent figure is not reconcilable with any published dataset: it is not a location-based figure, and the market-based data that could test it is reported by two operators only. Note this is a claim about the whole sector made by a peak body whose board includes an operator whose own 100 per cent claim is separately recorded as CONTRADICTED.",
+    "fact_status": "CLAIMED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "claimant_id": "ENT_BCA",
+    "claim_date": "2026-04-02",
+    "claim_scope": "national",
+    "claim_type": "other",
+    "claim_text": "Datacentre operators in Australia pay full taxes with no concessions. These companies employ thousands of Australians, pay local taxes and reinvest heavily in new infrastructure.",
+    "instrument_relied_on": "assertion; no revenue-office record cited",
+    "verification_status": "UNVERIFIED",
+    "verification_note": "This is the second independent industry denial on the record, and it is the closest any primary document comes to answering the NSW inquiry's terms of reference (g)(iii) on 'the extent of public subsidies, concessions or state directed facilitation provided to the sector'. Data Centres Australia made the equivalent claim orally under parliamentary privilege on 1 May 2026 and in its public materials. No revenue-office record either way has been located, which is why RG-007 remains open and why the FOI strategy at reports/RG007_foi_strategy.md is framed to seek policy instruments and aggregate counts rather than named taxpayer assessments. The claim is also narrower than the question asked: it addresses tax concessions and is silent on 'state directed facilitation', which is documented and substantial - the NSW 75-day pathway with a DPHI concierge function and pre-assessment support beginning before site selection, IDA endorsement, and Victoria's Development Facilitation Program. Notably the word 'subsidy' does not appear anywhere in the submission.",
+    "fact_status": "CLAIMED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "claimant_id": "ENT_AIRTRUNK",
+    "claim_date": "2026-04-02",
+    "claim_scope": "national",
+    "claim_type": "other",
+    "claim_text": "Recycled water now supplies 55 per cent of AirTrunk's total use, and its Singapore site runs entirely on reclaimed water. (Asserted by the Business Council of Australia in Submission No 116, footnote 23.)",
+    "instrument_relied_on": "recycled water supply",
+    "verification_status": "UNVERIFIED",
+    "verification_note": "A specific, checkable, operator-level water claim made by a peak body to a parliamentary inquiry, and the most favourable water credential claimed for AirTrunk anywhere in the record. Not verified: the Observatory holds no metered water data for any Australian data centre, Sydney Water supply agreements are not public (RG-017), and NSW planning requirements do not yet specify WUE. If it holds it materially weakens the potable-water critique as applied to AirTrunk, and it would also sit awkwardly with the NEXTDC S7 experience, where recycled water was abandoned because the pipeline planning permission was unavailable - the same infrastructure constraint cannot have bound one operator and not the other without explanation. Highest-value single verification target in the water pillar.",
+    "fact_status": "CLAIMED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   }
+  ],
+  "legal_instruments": [
+   {
+    "id": "LAW_SENATE_AI_DC",
+    "name": "Senate Environment and Communications References Committee inquiry into Artificial intelligence and data centres",
+    "jurisdiction": "Commonwealth",
+    "instrument_type": "inquiry",
+    "status": "in_force",
+    "binding": 0,
+    "made": "2026-05-13",
+    "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P",
+    "source_id": "SRC_SENATE_AI_DC",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "summary": "Referred 13 May 2026; submissions closed 1 September 2026; 116 received; reporting date 16 November 2026. Terms of reference: (1) the effectiveness of existing regulatory frameworks in managing the growth of data centres in Australia, including in relation to existing and future deals between the Government and global Artificial Intelligence companies; (2) the potential impacts of AI and data centres on Australian communities, industries and the environment, water and energy; (3) any other related matters.",
+    "relevance": "The national-level counterpart to the NSW inquiry, and the only Australian process whose terms expressly reach the commercial deals between the Government and global AI companies - which is where the OpenAI/NEXTDC S7 and reported Anthropic/Western Downs arrangements sit. Reports 16 November 2026, thirteen days after the NSW committee's 3 November deadline, so the two together are the near-term endpoint of the Australian policy cycle this database tracks."
+   }
+  ],
+  "regulatory_events": [
+   {
+    "event_date": "2026-04-02",
+    "regulator_id": "ENT_PAWC",
+    "instrument_id": "LAW_NSW_INQUIRY",
+    "event_type": "submission_deadline",
+    "entity_id": "ENT_BCA",
+    "summary": "Business Council of Australia lodged Submission No 116 to the NSW Legislative Council Inquiry into Data Centres, seeking recalibration of policy settings, regulatory approaches and community narratives, alignment with the Commonwealth Expectations, expanded powers for the Investment Delivery Authority, and continued planning reform focused on efficiency, consistency and certainty.",
+    "notes": "Received five days after the IDA's Round 1 endorsements were announced on 27 March 2026 and twenty-five days before the hearing at which the BCA's Executive Director Policy appeared.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "event_date": "2026-05-13",
+    "regulator_id": null,
+    "instrument_id": "LAW_SENATE_AI_DC",
+    "event_type": "inquiry_opened",
+    "summary": "The Senate Environment and Communications References Committee was referred an inquiry into artificial intelligence and data centres, covering the effectiveness of existing regulatory frameworks including existing and future deals between the Government and global AI companies, and the impacts of AI and data centres on communities, industries, the environment, water and energy. Submissions closed 1 September 2026 with 116 received; the committee reports on 16 November 2026.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_SENATE_AI_DC"
+   }
+  ],
+  "research_gaps": [
+   {
+    "id": 66,
+    "pillar": "C",
+    "priority": 5,
+    "retrieval_method": "scrape_portal",
+    "status": "open",
+    "opened": "2026-09-18",
+    "question": "Harvest all 116 submissions to the Senate Environment and Communications References Committee inquiry into Artificial intelligence and data centres, and identify which were lodged by AirTrunk, the Business Council of Australia, Data Centres Australia, NEXTDC, Equinix, CDC, Amazon, Microsoft, Google, Meta and the hyperscalers' landlords.",
+    "why_it_matters": "This is the NATIONAL inquiry and its terms of reference expressly cover 'existing and future deals between the Government and global Artificial Intelligence companies' - the only Australian process that reaches the OpenAI/NEXTDC S7 and reported Anthropic/Western Downs commercial arrangements. It reports 16 November 2026. The submission list is the single best available map of who is lobbying at Commonwealth level, and the first 20 already retrieved show it includes community groups, climate bodies, AI companies and professional associations as well as industry. The list is a JavaScript-postback pager, so the remaining 96 need a browser session or the ParlInfo DocStore identifiers, each of which is published alongside the submitter name.",
+    "target_source": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P/Submissions (pages 2-6); each submission has a DocStoreId of the form <guid>~<id> which resolves through the aph.gov.au document store",
+    "notes": "First 20 indexed at data/raw/senate_inquiry/submissions_index.json with their DocStoreIds. The Climate Council of Australia has published its own submission publicly, which is an alternative route for at least that one.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_SENATE_AI_DC"
+   },
+   {
+    "id": 67,
+    "pillar": "B",
+    "priority": 5,
+    "retrieval_method": "scrape_portal",
+    "status": "open",
+    "opened": "2026-09-18",
+    "question": "Build the complete Business Council of Australia membership roster and cross-reference it against every entity in this database that holds, operates, finances or supplies an Australian data centre.",
+    "why_it_matters": "The BCA is the channel through which Amazon, Apple and Google - none of which appears in any NSW planning record the Observatory harvested - exercise coordinated policy representation in Australia. Membership is published as logos on bca.com.au and is scrapeable; the roster is the missing link between the hyperscalers' invisible physical footprint and their visible policy footprint. It would also establish whether the landlords and financiers in this database (Goodman, Stockland, Dexus, ESR, IFM, Blackstone's other vehicles) are members, which determines whether the BCA's data centre positions are member-driven or board-driven.",
+    "target_source": "https://www.bca.com.au/membership/ and /about/ - note that bca.com.au returns a 3,036-byte challenge page to non-browser clients, so this needs the rendering fetcher rather than urllib",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_ABOUT"
+   },
+   {
+    "id": 68,
+    "pillar": "C",
+    "priority": 4,
+    "retrieval_method": "manual_review",
+    "status": "open",
+    "opened": "2026-09-18",
+    "question": "Test whether AirTrunk's and the BCA's recycled water claims can be verified: does any Australian AirTrunk site hold a recycled water supply agreement, and with which utility?",
+    "why_it_matters": "'Recycled water now supplies 55 per cent of AirTrunk's total use' is a specific, checkable claim made to a parliamentary inquiry, and it is the strongest water credential claimed for the operator behind Australia's largest proposal. It also sits in tension with the NEXTDC S7 outcome, where recycled water was abandoned because pipeline planning permission was unavailable in Western Sydney. Either AirTrunk has solved an infrastructure problem NEXTDC could not, or the two claims are measuring different things - for example group-wide including Singapore, where the submission itself says the site runs entirely on reclaimed water. Distinguishing those is the whole question.",
+    "target_source": "Sydney Water and Melbourne Water recycled water supply agreements (FOI, RG-017); AirTrunk sustainability reports; the SYD1, SYD2 and MEL1 consents and their Sustainability Management Plans; footnote 23 of BCA Submission No 116",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_BCA_SUB116"
+   },
+   {
+    "id": 69,
+    "pillar": "C",
+    "priority": 4,
+    "retrieval_method": "foi_request",
+    "status": "open",
+    "opened": "2026-09-18",
+    "question": "Read the political donation disclosure filed on SSD-10330 (Roberts Road Data Centre, applicant Canberra Data Centres Pty Ltd), and survey every political donation disclosure across the 46 NSW data centre SSD records.",
+    "why_it_matters": "The NSW inquiry's terms of reference (h)(iv) expressly covers 'the impact of lobbying and donations on government policy setting surrounding data centre developments'. This is the only donation document located in the entire 63-project register, and it is published only as a scanned image with no extractable text - so a statutory disclosure is effectively unsearchable. If disclosures exist across the register, OCR plus the NSW Electoral Commission's donation register would produce the first dataset on money and data centre policy in Australia.",
+    "target_source": "The SSD-10330 attachment (public but image-only); the NSW Planning Portal attachment index at exports/nsw_planning/nsw_dc_attachment_index.csv, searchable for 'political-donation'; the NSW Electoral Commission donations register; FOI to DPHI for a machine-readable version",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_SSD10330_CONSENT"
+   },
+   {
+    "id": 70,
+    "pillar": "B",
+    "priority": 4,
+    "retrieval_method": "manual_review",
+    "status": "open",
+    "opened": "2026-09-18",
+    "question": "Check the NSW and Commonwealth lobbyist registers and ministerial diaries for meetings between AirTrunk, the BCA, Data Centres Australia, NEXTDC, Equinix and CDC and the NSW Treasurer, the Minister for Planning, the Minister for Climate Change and Energy, and DPHI and Infrastructure NSW executives, from January 2025 to date.",
+    "why_it_matters": "Board seats and submissions are the disclosed layer. The NSW package includes a DPHI concierge function and pre-assessment support that begins BEFORE a site has been selected, so the substantive influence on siting happens in meetings that leave no public trace unless a register captures them. Ministerial diary disclosures in NSW would show whether the same proponents who received concierge support also met the ministers who set the framework.",
+    "target_source": "NSW lobbyist register; NSW ministerial diaries (published quarterly); the Commonwealth register of lobbyists; DPHI and Infrastructure NSW disclosure logs",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWGUIDE_S3"
+   },
+   {
+    "id": 71,
+    "pillar": "A",
+    "priority": 3,
+    "retrieval_method": "manual_review",
+    "status": "open",
+    "opened": "2026-09-18",
+    "question": "Map AirTrunk's MEL2 campus, announced December 2025 as a site acquisition in Melbourne's north-west for a second Melbourne campus.",
+    "why_it_matters": "AirTrunk's Victorian footprint is currently represented in this database only by MEL1 Derrimut. MEL2 would be a second Victorian campus and its location determines whether it is in the same corridor as NEXTDC M4 Fishermans Bend, CDC Laverton, the Melton Syncline proposal or the Plumpton Victorian AI Hub - all of which are in Melbourne's west or north-west and all of which face the same recycled-water and grid constraints.",
+    "target_source": "AirTrunk's December 2025 announcement; the Victorian planning register (RG-003 residual)",
+    "fact_status": "REPORTED",
+    "confidence": "medium",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_AIRTRUNK_BCA"
+   }
+  ],
+  "engineering_claims": [
+   {
+    "match": {
+     "claim_label": "Phantom demand makes the pipeline a reliable measure of future load"
+    },
+    "set": {
+     "premise_check": "False, and the industry has now quantified it more sharply than any regulator. Oxford Economics research commissioned by the Business Council of Australia and cited in its submission to the NSW inquiry found that of around 44 GW of connection requests linked to data centre proposals received by AEMO in 2025, only about 6 GW of project capacity is expected to proceed and only 2.8 GW of actual electricity draw at maturity - described as '15 times lower than what is sometimes reported'. That is consistent with the 6-in-7 phantom figure the NSW Guidelines cite, with utilities' 20 per cent proceeds-likelihood, and with Transgrid's evidence that against 10 GW of enquiries and 6 GW of formal applications no data centre had committed as at 22 May 2026.",
+     "australia_reality": "The correction runs against the sector's own interest and should be credited: industry-commissioned research is the source of the most deflating number in the debate. The practical consequence for this database is that NO pipeline figure - not 44 GW, not Transgrid's 20 GW of enquiries, not NSW's $50.3bn SSD pipeline, not Victoria's $25-51.9bn - may be reported as demand. On the industry's own numbers the realised national draw is about 2.8 GW at maturity. But the deflation does not answer the local-impact question, and it is important not to let it: a facility that IS built still sits 100 m from the houses at Marsden Park and 350 m from the houses at Lane Cove, still installs 267.45 MW of diesel generation against a 235 MW load, and still draws the water it draws, regardless of how many competing proposals were never built. Phantom demand is a reason to discount aggregate forecasts, not a reason to relax site-level conditions.",
+     "as_of_date": "2026-09-18",
+     "source_ids": "SRC_BCA_SUB116,SRC_NSWGUIDE26,SRC_TRANSGRID26,SRC_TRANSGRIDCAP,SRC_AEMO26,SRC_INQ_T_0522,SRC_NSW_IDA"
+    },
+    "add_sources": [
+     "SRC_BCA_SUB116"
+    ]
+   },
+   {
+    "match": {
+     "claim_label": "Unconditional subsidies for foreign hyperscalers"
+    },
+    "set": {
+     "premise_check": "Still not established for Australia, and now denied twice on the record by two separately constituted peak bodies. The Business Council of Australia's Submission No 116 to the NSW inquiry states that 'datacentre operators in Australia pay full taxes with no concessions'; Data Centres Australia's CEO said under parliamentary privilege on 1 May 2026 that operators 'do not receive subsidies or tax incentives'. The word 'subsidy' does not appear anywhere in the BCA's 59,431-character submission. No revenue-office record either way has been located, which is why RG-007 remains open with an FOI strategy drafted.",
+     "australia_reality": "The claim is narrower than the question the inquiry actually asked. Terms of reference (g)(iii) covers 'the extent of public subsidies, concessions OR STATE DIRECTED FACILITATION provided to the sector'. Tax concessions are denied; state directed facilitation is documented and substantial, and the BCA itself asks for more of it. Its Recommendation 3 seeks expanded powers for the Investment Delivery Authority to 'rapidly assess and recommend public infrastructure investments that support major private sector projects' - that is a request for public infrastructure to be directed at private projects. The NSW package already includes a DPHI concierge function, pre-assessment support that begins BEFORE a site has been selected, SEARs within two months, 75-day assessment and dedicated post-consent staff; Victoria's Development Facilitation Program offers ministerial determination with no VCAT appeal and no review of conditions above a $10m/$20m threshold. None of that is a tax concession and all of it is state directed facilitation. Recommendation 1 also asks government to 'recalibrate ... community narratives', which is a request to shape public discourse rather than to change an environmental standard.",
+     "as_of_date": "2026-09-18",
+     "source_ids": "SRC_NSWGUIDE26,SRC_BIRD,SRC_DCA_TAX,SRC_MS2026,SRC_PINSENT,SRC_VICPLAN,SRC_BCA_SUB116,SRC_INQ_T_0501,SRC_GADENS_VIC,SRC_NSWGUIDE_S3"
+    },
+    "add_sources": [
+     "SRC_BCA_SUB116",
+     "SRC_NSWGUIDE_S3"
+    ]
+   }
+  ]
+ }
+}

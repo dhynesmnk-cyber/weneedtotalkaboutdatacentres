@@ -1,0 +1,2 @@
+site_id,lat,lon,method,source_id
+# example - delete before use,SITE_MSFT_KEMPS,-33.72,150.80,geocoded_address,SRC_NSWPORTAL_KC

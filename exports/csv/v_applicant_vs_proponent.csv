@@ -1,0 +1,14 @@
+project_slug,case_id,named_applicant,firm_type,true_proponent,proponent_known,fact_status,source_id
+43-61-turner-road-data-centre,SSD-68013714,ARUP Pty Ltd,engineering,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+51-huntingwood-drive-data-centre,SSD-41589232,EMKC Cubed Management Pty Ltd,,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+apollo-place-data-centre,SSD-67407231,EMKC Cubed Management Pty Ltd,,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+davis-rd-data-centre-mod-1-tree-removal-corr,,Cundall Johnston and Partners Pty Ltd,engineering,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+davis-road-data-centre-cundall,SSD-59416728,Cundall Johnston and Partners Pty Ltd,engineering,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+dci-poplars-data-centre-project-0,,The Trustee for NineZero DC Sub Trust I,,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+digico-syd1-data-centre-expansion,SSD-69637456,HDI SYD1 Property Holdings Limited,,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+glendenning-road-data-centre,SSD-73761707,Lehr Consultants International (Australia) Pty Ltd,planning_consultant,,0,VERIFIED,SRC_CONSENT_APPLICANTS
+grand-avenue-data-centre-expansion-rosehill,,Equinix Hyperscale 2 (SY10) Pty Limited,,Equinix,1,VERIFIED,SRC_CONSENT_APPLICANTS
+nextdc-s4-data-centre-horsley-park,,NEXTDC,,NEXTDC,1,VERIFIED,SRC_CONSENT_APPLICANTS
+project-apollo-data-centre-macquarie-park,,Goodman Property Services (Aust) Pty Ltd,,Goodman,1,VERIFIED,SRC_CONSENT_APPLICANTS
+roberts-road-data-centre,SSD-10330,CDC Data Centres,,CDC,1,VERIFIED,SRC_CONSENT_APPLICANTS
+talavera-road-data-centre-campus-expansion,,Macquarie Data Centres Pty Ltd,,Macquarie Data Centres,1,VERIFIED,SRC_CONSENT_APPLICANTS

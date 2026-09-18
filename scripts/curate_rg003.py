@@ -1,0 +1,547 @@
+#!/usr/bin/env python3
+"""
+Curate the RG-003 pack: Victorian and Queensland pathways and projects.
+
+The Victorian material is the most important regulatory finding since RG-026. Victoria does not
+merely "fast-track" data centres — the Development Facilitation Program under Part 9A of the
+Planning and Environment Act 1987 removes the local council as decision maker, removes VCAT merits
+review for both applicants and objectors, and removes review rights over permit conditions. The
+NEXTDC M3 expansion at West Footscray is the worked example: the original permit drew over 80
+objections through the council pathway; the expansion drawn through the DFP drew 5, one of them from
+the council that no longer decides.
+
+Run:
+    python3 scripts/curate_rg003.py
+    python3 scripts/load_pack.py data/packs/rg003_vic_qld.json --dry-run --allow-missing-source
+"""
+from __future__ import annotations
+
+import json
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "data", "packs", "rg003_vic_qld.json")
+TODAY = "2026-09-18"
+
+SOURCES = [
+    dict(id="SRC_GADENS_VIC",
+         title="Data centre planning approvals in Victoria: DFP pathways and approval risks",
+         publisher="Gadens (Andrea Towson, Gerard Timbs, Angus Halligan, Laura Kilpatrick) via Lexology",
+         url="https://www.lexology.com/library/detail.aspx?g=1da6e183-74b4-46a5-adb2-687397182dab",
+         doc_type="law_firm_analysis", published="2026-08-25", credibility="B", accessed=TODAY,
+         notes="The authoritative practitioner account of the Victorian pathway. Establishes: data centres are "
+               "expressly classified as 'Utility Installation' at cl.73.03 of the Victorian Planning Provisions "
+               "(definitional certainty absent in Queensland and, to a lesser extent, NSW); the Development "
+               "Facilitation Program under Part 9A of the Planning and Environment Act 1987 (Vic) is available "
+               "where construction cost exceeds $10m in regional Victoria or $20m in metropolitan Melbourne, so "
+               "it is 'effectively available for all significant proposals'; under the DFP the application is "
+               "lodged directly with the Minister for Planning bypassing council as responsible authority, the "
+               "Minister may waive or vary planning scheme requirements, decisions cannot be appealed to VCAT "
+               "by applicant or objector, and there are no review rights over conditions in Ministerial permits; "
+               "only judicial review on jurisdictional error, procedural unfairness or legal unreasonableness "
+               "remains. Advises developers to 'pursue the DFP' as the default pathway. Also records the federal "
+               "'net generators, not net users' policy direction, that data centres consume approximately 2-5% of "
+               "Australian electricity forecast to triple by 2030-31 to approximately 15.6 TWh (about 6% of "
+               "national demand), and that the Commonwealth has reserved the right to override inconsistent "
+               "state approaches with no clarity on how that would operate."),
+    dict(id="SRC_DCD_ZERRA",
+         title="Zerra DC files plans for large data center campus in Queensland, Australia",
+         publisher="Data Center Dynamics (Dan Swinhoe)",
+         url="https://www.datacenterdynamics.com/en/news/zerra-dc-files-plans-for-large-data-center-campus-in-queensland-australia/",
+         doc_type="news", published="2026-08-24", credibility="B", accessed=TODAY,
+         notes="Western Downs Digital Park filed with Western Downs Regional Council. 725.5 ha at 1933 "
+               "Dalby-Kogan Road, 37 km north-west of Dalby and roughly 250 km north-west of Brisbane; more than "
+               "AU$31bn at full build-out. Up to four phases of AI-ready data centres; Phase 1 comprises "
+               "building 1A with 36,000 sqm of data centre floor space, an on-site battery-backed power "
+               "conditioning system and a 540 MVA substation, with buildings 1B, 2A and 2B also 36,000 sqm each. "
+               "The site is 'in proximity' to the Braemar substation, the Darling Downs Gas Power Station, "
+               "Darling Downs Solar Farm, Braemar 2 Gas Power Station, the Alinta Energy Braemar Power Station "
+               "and the Daandine CGPF. The project page states the data centres will 'utilize 100 percent "
+               "air-cooled technology, removing the need for water-based evaporative cooling'. The site is "
+               "currently a 24,000-head cattle feedlot owned by the Wambo Cattle Company. Zerra DC is owned by "
+               "investment firm AGP, was previously known as AGP DC, AGP was founded in 2018, has 920 MW of "
+               "secured capacity across the US, India, Japan and Australia, invested in a Mumbai data centre "
+               "alongside Digital Edge and raised $127m from Tata Capital for Navi Mumbai. Zerra is also eyeing "
+               "a former automotive plant site in Melbourne for a six-building campus. The filed application is "
+               "publicly downloadable from the Western Downs Regional Council development register."),
+    dict(id="SRC_DCD_KURRI",
+         title="Aluminum smelter site in Australia targeted for 540MW data center development",
+         publisher="Data Center Dynamics (Dan Swinhoe)",
+         url="https://www.datacenterdynamics.com/en/news/aluminum-smelter-site-in-australia-targeted-for-540mw-data-center-development/",
+         doc_type="news", published="2026-06-26", credibility="B", accessed=TODAY,
+         notes="A SEARs application to the NSW Government for a 540 MW data centre on Hart Road, Loxford, on the "
+               "former Hydro Aluminium Kurri Kurri Smelter site in the Hunter Region. Applicant listed as project "
+               "management firm ADW Johnson Pty Ltd; the intended end user is unclear. Site is 21 ha. A large "
+               "two-storey facility with two substations connecting to the existing 132 kV Ausgrid transmission "
+               "line. Loxford is in the City of Cessnock LGA, about 167 km north of Sydney and 37 km from "
+               "Newcastle, adjacent to the Kurri Kurri Power Station. The smelter opened around 1969 (Alcan), "
+               "ceased production in 2012 and was closed by Norsk Hydro in 2014; remediation is substantially "
+               "complete and the site is largely vacant. In 2020 it was sold to Stevens Group and McCloy Group, "
+               "which planned a 2,000-hectare suburb called Loxford Waters with 2,000 new homes plus industrial "
+               "estates and a business park. Snowy Hydro's 660 MW Kurri Kurri natural gas power station launched "
+               "the year before. The application describes the project as 'a significant and strategically "
+               "justified reinvestment in a comprehensively remediated former heavy industrial site' that "
+               "'directly supports the economic diversification and regeneration of the Hunter Region'."),
+    dict(id="SRC_WD_COUNCIL_DA",
+         title="Western Downs Digital Park development application (filed document)",
+         publisher="Western Downs Regional Council development register",
+         url="https://wdrcdevelopmenti.blob.core.windows.net/devdocs/6393206_1.pdf",
+         doc_type="primary_planning_portal", published="2026-08", credibility="A", accessed=TODAY,
+         notes="The lodged application itself, publicly downloadable from the council's development register "
+               "blob storage. Not yet read in full - it is the primary document that should replace the "
+               "secondary reporting on capacity, phasing, water and back-up generation. Research gap RG-049."),
+]
+
+ENTITIES = [
+    dict(id="ENT_ZERRA_PARENT", name="AGP (owner of Zerra DC)", entity_type="investor",
+         domicile="Unknown - not established", hq_country=None,
+         notes="Investment firm that owns Zerra DC, formerly AGP DC. Founded 2018. Claims 920 MW of secured "
+               "capacity across the US, India, Japan and Australia; invested in a Mumbai data centre alongside "
+               "Digital Edge; raised $127m from Tata Capital for a Navi Mumbai project. Domicile and ultimate "
+               "ownership not established - the proponent of Australia's largest data centre proposal is "
+               "described in secondary reporting only as 'Singapore-based'. Research gap RG-050.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(id="ENT_ADW_JOHNSON", name="ADW Johnson Pty Ltd", entity_type="other", domicile="Australia",
+         hq_country="AU",
+         notes="Project management firm listed as the applicant for the 540 MW Kurri Kurri Data Centre "
+               "(SSD-128819490) on the former aluminium smelter site at Loxford. The intended end user is "
+               "unclear. This is the third instance in this database of a consultancy or project manager being "
+               "the named applicant for a large data centre, after Lehr Consultants at Glendenning Road and "
+               "Willowtree Planning on the Mamre Road pre-application documents.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_KURRI"),
+    dict(id="ENT_MARBLYRNONG", name="Maribyrnong City Council", entity_type="council", domicile="Australia",
+         hq_country="AU",
+         notes="Approved the original NEXTDC M3 permit in 2021 after receiving over 80 objections. Lodged one of "
+               "only five objections to the M3 expansion, which is being determined by the Minister for Planning "
+               "under the Development Facilitation Program rather than by the council.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(id="ENT_SNOWY", name="Snowy Hydro", entity_type="utility", domicile="Australia", hq_country="AU",
+         notes="Operator of the 660 MW Kurri Kurri natural gas power station, which launched in 2025 and is "
+               "adjacent to the proposed 540 MW Kurri Kurri data centre at Loxford.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_KURRI"),
+]
+
+ENTITY_UPDATES = [
+    dict(match=dict(id="ENT_ZERRA"),
+         set=dict(domicile="Unknown - reported as Singapore-based; parent AGP, formerly AGP DC",
+                  legal_name="Zerra DC (formerly AGP DC)", website="westernsdownsdigitalpark.com.au",
+                  fact_status="REPORTED", confidence="medium", as_of_date=TODAY,
+                  notes="Developer and operator of hyperscale data centre campuses across Australia and "
+                        "Asia-Pacific, owned by investment firm AGP and previously known as AGP DC. Proponent of "
+                        "Western Downs Digital Park (725.5 ha at 1933 Dalby-Kogan Road, >AU$31bn at full "
+                        "build-out, up to four phases). Also reported to be eyeing a former automotive plant "
+                        "site in Melbourne for a six-building campus. Anthropic reported to have signed its "
+                        "first Australian data centre agreement for part of Western Downs. Ultimate ownership and "
+                        "domicile not established from a primary source - research gap RG-050.",
+                  source_id="SRC_DCD_ZERRA"),
+         add_sources=["SRC_DCD_ZERRA", "SRC_WD_COUNCIL_DA"]),
+]
+
+SITES = [
+    dict(id="SITE_ZERRA_MELB", name="Zerra DC Melbourne campus (former automotive plant site, reported)",
+         operator_id="ENT_ZERRA", proponent="Zerra DC", suburb="Melbourne (site not identified)", state="VIC",
+         market="NEM", status="rumoured",
+         notes="Reported as a potential six-building data centre campus on a former automotive plant site in "
+               "Melbourne. No address, capacity or application reference located. Former automotive plant sites "
+               "in Melbourne are large, industrially zoned, grid-connected brownfields, which is exactly the "
+               "siting the NSW Data Centre Guidelines recommends, so this is worth resolving. Recorded as "
+               "rumoured on a single secondary headline.",
+         fact_status="CLAIMED", confidence="low", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(id="SITE_IPSWICH_10ST", name="Ten-storey data centre outside Brisbane (Ipswich, reported)",
+         suburb="Ipswich area", lga="Ipswich City Council", state="QLD", market="NEM", status="rumoured",
+         notes="Plans reported filed on 19 August 2026 for a ten-storey data centre outside Brisbane. A "
+               "ten-storey data centre is unusual in Australia, where the largest consented buildings are the "
+               "five-storey structures at Glendenning Road and the four-storey buildings at Mamre Road. Not "
+               "verified against the council register - research gap RG-051.",
+         fact_status="CLAIMED", confidence="low", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+]
+
+SITE_UPDATES = [
+    dict(match=dict(id="SITE_KURRI_KURRI"),
+         set=dict(name="Kurri Kurri Data Centre (Loxford, former aluminium smelter site)",
+                  operator_id=None, proponent="ADW Johnson Pty Ltd (applicant; end user unclear)",
+                  suburb="Loxford (Hart Road)", lga="Cessnock City Council",
+                  it_capacity_mw=540.0, max_capacity_mw=540.0, campus_area_ha=21.0,
+                  address="Hart Road, Loxford - former Hydro Aluminium Kurri Kurri Smelter site",
+                  status="pre_lodgement",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+                  source_id="SRC_DCD_KURRI",
+                  notes="SSD-128819490, portal stage Prepare EIS as at 18 September 2026. A SEARs application "
+                        "seeks a 540 MW data centre on a 21 ha remediated former heavy industrial site: a large "
+                        "two-storey facility plus two substations connecting to the existing 132 kV Ausgrid "
+                        "transmission line. Adjacent to Snowy Hydro's 660 MW Kurri Kurri gas power station, which "
+                        "launched in 2025. THREE FINDINGS IN ONE SITE. (1) It is the clearest Australian example "
+                        "of what the NSW Guidelines actually want: brownfield, remediated, adjacent to existing "
+                        "generation and transmission, outside the constrained Sydney basin, where the Guidelines "
+                        "say consumer bills can fall because new demand pays for assets running below potential "
+                        "output. (2) It displaces housing. The site was sold in 2020 to Stevens Group and McCloy "
+                        "Group to develop 'Loxford Waters', a 2,000-hectare suburb with 2,000 new homes plus "
+                        "industrial estates and a business park. That is the opportunity-cost question in the "
+                        "inquiry's terms of reference (f) realised on a specific parcel. (3) The applicant is a "
+                        "project management firm and the end user is unclear, so the facility's actual operator "
+                        "and tenant are undisclosed."),
+         add_sources=["SRC_DCD_KURRI"]),
+    dict(match=dict(id="SITE_WESTERN_DOWNS"),
+         set=dict(proponent="Zerra DC (owned by AGP, formerly AGP DC)",
+                  address="1933 Dalby-Kogan Road, 37 km north-west of Dalby",
+                  campus_area_ha=725.5,
+                  gfa_sqm=144000.0,
+                  fact_status="REPORTED", confidence="high", as_of_date=TODAY,
+                  source_id="SRC_DCD_ZERRA",
+                  notes="Filed with Western Downs Regional Council; the lodged application is publicly "
+                        "downloadable from the council's development register. 725.5 ha at 1933 Dalby-Kogan Road, "
+                        "37 km north-west of Dalby, roughly 250 km north-west of Brisbane; more than AU$31bn at "
+                        "full build-out. Up to four phases of AI-ready data centres; Phase 1 is building 1A with "
+                        "36,000 sqm of data centre floor space, an on-site battery-backed power conditioning "
+                        "system and a 540 MVA substation, with buildings 1B, 2A and 2B also 36,000 sqm each "
+                        "(144,000 sqm across the four). Sited 'in proximity' to the Braemar substation, Darling "
+                        "Downs Gas Power Station, Darling Downs Solar Farm, Braemar 2 Gas Power Station, Alinta "
+                        "Energy Braemar Power Station and the Daandine CGPF - i.e. co-located with both fossil "
+                        "and renewable generation. The project page states the data centres will use 100 per "
+                        "cent air-cooled technology, removing the need for water-based evaporative cooling. The "
+                        "site is currently a 24,000-head cattle feedlot owned by the Wambo Cattle Company. "
+                        "Anthropic reported to have signed its first Australian data centre agreement for part of "
+                        "the campus. Queensland dissented from the July 2026 ECMC agreement on mandatory "
+                        "renewable offsetting."),
+         add_sources=["SRC_DCD_ZERRA", "SRC_WD_COUNCIL_DA"]),
+    dict(match=dict(id="SITE_NEXTDC_M123"),
+         set=dict(notes="M2 and M3 are 20-100 MW HCF Certified Strategic enclaves. M3 IS AT WEST FOOTSCRAY AND "
+                        "IS THE WORKED EXAMPLE OF THE VICTORIAN PATHWAY PROBLEM. The original M3 permit was "
+                        "assessed through the standard pathway, received OVER 80 OBJECTIONS on grounds of noise "
+                        "(the continuous hum of air conditioning systems), light pollution, health and wellbeing "
+                        "impacts and loss of industrial land that might otherwise support diverse employment, "
+                        "and was nonetheless approved by Maribyrnong City Council in 2021. NEXTDC then lodged the "
+                        "EXPANSION through the Development Facilitation Program, which bypasses council and "
+                        "excludes VCAT appeal: that application has received 5 objections, one of them from "
+                        "Maribyrnong City Council, and is under review by the Minister for Planning. Objections "
+                        "fell from more than 80 to 5 when the decision maker changed from a council to a "
+                        "minister and the appeal right was removed.",
+                  fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+         add_sources=["SRC_GADENS_VIC"]),
+]
+
+POWER = [
+    dict(site_id="SITE_KURRI_KURRI", connection_type="transmission", network_business_id=None,
+         max_demand_mw=540.0,
+         notes="Two substations connecting to the existing 132 kV Ausgrid transmission line. Adjacent to Snowy "
+               "Hydro's 660 MW Kurri Kurri gas power station. The NSW Data Centre Guidelines observe that data "
+               "centres located close to generation, such as in Renewable Energy Zones, are likely to require "
+               "fewer infrastructure upgrades, and that development where the network has spare capacity can "
+               "reduce consumer bills - this site is the test case for that proposition, and also the test case "
+               "for whether co-location with a new gas peaker is 'close to generation' in the sense the "
+               "Guidelines intend.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_DCD_KURRI"),
+    dict(site_id="SITE_WESTERN_DOWNS", connection_type="hybrid", max_demand_mw=2160.0,
+         battery_mw=None,
+         notes="Phase 1 includes an on-site battery-backed power conditioning system and a 540 MVA substation. "
+               "The campus is sited in proximity to the Braemar substation and to both gas (Darling Downs, "
+               "Braemar 2, Alinta Braemar, Daandine CGPF) and solar (Darling Downs Solar Farm) generation. "
+               "Project materials state 100 per cent air-cooled technology with no water-based evaporative "
+               "cooling. Queensland is in the NEM but dissented from the July 2026 ECMC agreement mandating "
+               "renewable offsetting, so the co-location with gas generation carries no offset obligation that "
+               "NSW would impose.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+]
+
+WATER = [
+    dict(site_id="SITE_WESTERN_DOWNS", cooling_technology="air_cooled",
+         water_source="closed_loop_no_makeup", potable_dependency=0,
+         supply_agreement_status="not_required",
+         notes="The dedicated project page states the data centres will 'utilize 100 percent air-cooled "
+               "technology, removing the need for water-based evaporative cooling'. If that holds at 2.16 GW peak "
+               "it is by far the largest waterless design in Australia, and it is the direct answer to the "
+               "evaporative-cooling critique - at the cost of the energy penalty the S7 experience illustrates. "
+               "Proponent statement, not a consent condition: verify against the lodged application (RG-049).",
+         fact_status="CLAIMED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+]
+
+INSTRUMENTS = [
+    dict(id="LAW_VIC_DFP", name="Development Facilitation Program, Part 9A of the Planning and Environment Act "
+                                "1987 (Vic)",
+         jurisdiction="VIC", instrument_type="act", status="in_force", binding=1,
+         source_id="SRC_GADENS_VIC", fact_status="REPORTED", confidence="high", as_of_date=TODAY,
+         summary="Victoria's mechanism for expediting state significant and strategically important development, "
+                 "including data centres. Available where construction cost exceeds $10m in regional Victoria or "
+                 "$20m in metropolitan Melbourne - thresholds that modern data centres routinely exceed, so the "
+                 "DFP is effectively available for all significant proposals. Under the DFP the application is "
+                 "lodged directly with the Minister for Planning, bypassing the local council as responsible "
+                 "authority; the Minister may waive or vary planning scheme requirements; decisions cannot be "
+                 "appealed to VCAT by either applicant or objector; and there are no review rights over "
+                 "conditions in Ministerial permits. Only judicial review on jurisdictional error, procedural "
+                 "unfairness or legal unreasonableness remains. Victoria's Sustainable Data Centre Action Plan "
+                 "expressly supports data centre access to the DFP.",
+         relevance="THE STRONGEST FAST-TRACK IN AUSTRALIA, AND THE ONE WITH THE FEWEST CHECKS. Compare: the NSW "
+                   "75-day pathway attaches 17 performance measures and the consent still issues through a "
+                   "publicly exhibited SSD process with submissions and an EPA advice; the NSW IDA endorsement "
+                   "is coordination, not determination. The Victorian DFP removes the decision maker with local "
+                   "knowledge, removes third-party objection as a determinant, removes merits appeal and removes "
+                   "conditions review. This is the concrete, documented answer to the brief's 'unconditional "
+                   "subsidies' concern: the subsidy is jurisdictional, and it is paid for in accountability. "
+                   "Practitioner advice to developers is to treat the DFP as the default pathway."),
+    dict(id="LAW_VIC_EPA2017", name="Environment Protection Act 2017 (Vic) and Environment Protection "
+                                    "Regulations 2021 (Vic)",
+         jurisdiction="VIC", instrument_type="regulation", status="in_force", binding=1,
+         source_id="SRC_GADENS_VIC", fact_status="REPORTED", confidence="high", as_of_date=TODAY,
+         summary="Prescribe when environmental permissions, permits and licences are required for commercial, "
+                 "industrial and trade premises. The Regulations do NOT specifically identify a data centre as a "
+                 "prescribed activity requiring an EPA permission, permit or licence, but activities associated "
+                 "with data centre operation may trigger requirements - noise emissions, contamination risks, "
+                 "waste management, diesel fuel storage and back-up generation systems. There is no standard EPA "
+                 "permission that applies to every data centre development; planning permit applications commonly "
+                 "include a site-specific EPA assessment or environmental management component.",
+         relevance="Explains why Victoria can require US EPA Tier 4 generators, prohibit non-emergency use and "
+                   "require monitoring through guidance and permit conditions rather than through a licence "
+                   "regime - and why the obligation varies site by site. It also means there is no single "
+                   "Victorian register of data centre environmental permissions to harvest, which is why RG-008 "
+                   "is harder in Victoria than in NSW."),
+]
+
+INCENTIVES = [
+    dict(jurisdiction="VIC", granting_body="Minister for Planning (Victoria)", recipient_id=None,
+         incentive_type="fast_track_approval",
+         instrument="Development Facilitation Program, Part 9A Planning and Environment Act 1987 (Vic)",
+         amount_aud=None,
+         conditions="None. Eligibility is a construction-cost threshold only: above $10m in regional Victoria or "
+                    "$20m in metropolitan Melbourne. There is no performance measure, no efficiency standard, no "
+                    "water standard, no renewable procurement requirement, no community benefit requirement and "
+                    "no local content or training requirement attached to access.",
+         conditionality_score=0, domestic_compute_allocation=0, disclosed=1,
+         notes="RECORD THIS AS THE LOWEST-CONDITIONALITY FAST TRACK IN AUSTRALIA, conditionality score 0 of 5, "
+               "against 5 of 5 for the NSW Guidelines pathway. What the proponent gets: ministerial "
+               "determination, council bypassed, the Minister able to waive or vary planning scheme "
+               "requirements, no VCAT merits appeal for anyone, and no review rights over permit conditions. "
+               "What the community keeps: judicial review on jurisdictional error, procedural fairness or legal "
+               "unreasonableness only. The measured effect at NEXTDC M3 West Footscray is objections falling "
+               "from more than 80 to 5 when the pathway changed. Victoria's Sustainable Data Centre Action Plan "
+               "expressly supports data centre access to the DFP, so this is deliberate policy rather than "
+               "incidental.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+]
+
+INSTRUMENT_APPLICATION = [
+    dict(instrument_id="LAW_VIC_DFP", site_id="SITE_NEXTDC_M123", applies_from="2026",
+         obligation="The NEXTDC M3 expansion application at West Footscray is being determined by the Minister "
+                    "for Planning under the DFP rather than by Maribyrnong City Council, with no VCAT appeal "
+                    "available to objectors and no review of conditions.",
+         compliance_status="not_assessed",
+         evidence="Gadens, 25 August 2026: the original permit drew over 80 objections and was approved by "
+                  "Maribyrnong City Council in 2021; the DFP expansion application has drawn 5 objections "
+                  "including one from the council, and is under review by the Minister for Planning.",
+         notes="This is the empirical case that the Victorian fast track suppresses recorded opposition rather "
+               "than resolving it. The underlying concerns - continuous low-frequency hum from cooling plant, "
+               "light pollution, health and wellbeing, and loss of industrial land that might support diverse "
+               "employment - are unchanged; only the forum changed.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+]
+
+COMMUNITY_EVENTS = [
+    dict(event_date="2021", site_id="SITE_NEXTDC_M123", locality="West Footscray", state="VIC",
+         event_type="objection_submission", actor="West Footscray residents", severity=4,
+         summary="More than 80 objections to the original NEXTDC M3 permit application, on grounds of noise (the "
+                 "continuous hum of air conditioning systems), light pollution, health and wellbeing impacts, "
+                 "and loss of industrial land that might otherwise support diverse employment. Maribyrnong City "
+                 "Council approved the permit in 2021 despite the objections.",
+         notes="The objections were effective in the sense that they 'create delay, impose conditions and "
+               "generate reputational risk' - Gadens' own characterisation of the risk profile.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(event_date="2026-08", site_id="SITE_NEXTDC_M123", locality="West Footscray", state="VIC",
+         event_type="objection_submission", actor="Maribyrnong City Council and residents", severity=4,
+         summary="The NEXTDC M3 EXPANSION, lodged through the Development Facilitation Program, has received 5 "
+                 "objections - one of them from Maribyrnong City Council, which no longer decides the "
+                 "application. It is under review by the Minister for Planning with no VCAT appeal available to "
+                 "any party.",
+         notes="Objections fell by more than 90 per cent between the original application and the expansion, "
+               "with no change in the underlying amenity concerns. Two readings are possible and both matter: "
+               "either the DFP suppresses participation because objectors know it cannot change the outcome, or "
+               "the expansion is genuinely less impactful. Nothing in the public record distinguishes them, "
+               "which is itself the accountability problem.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+]
+
+COMMUNITY_GROUPS = [
+    dict(id="GRP_WEST_FOOTSCRAY", name="West Footscray residents opposing NEXTDC M3 expansion",
+         locality="West Footscray", state="VIC",
+         focus="Continuous low-frequency noise from cooling plant, light pollution, health and wellbeing, and "
+               "loss of industrial land that might otherwise support diverse employment.",
+         notes="Identified from the planning record described by Gadens rather than from a named campaign "
+               "organisation. More than 80 objectors on the original permit; 5 on the DFP expansion.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+]
+
+METRICS = [
+    dict(as_of="2026", scope="VIC", metric_name="dfp_threshold_regional", value=10e6, unit="AUD",
+         basis="actual", notes="Construction cost above which a data centre may access the Development "
+                               "Facilitation Program in regional Victoria.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(as_of="2026", scope="VIC", metric_name="dfp_threshold_metro", value=20e6, unit="AUD", basis="actual",
+         notes="Construction cost above which a data centre may access the DFP in metropolitan Melbourne. Modern "
+               "facilities routinely exceed both thresholds, so the DFP is effectively available to all "
+               "significant proposals.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(as_of="2021", scope="VIC", metric_name="nextdc_m3_original_objections", value=80, unit="count",
+         basis="actual", notes="Objections to the original NEXTDC M3 permit at West Footscray, assessed through "
+                               "the standard council pathway. Approved by Maribyrnong City Council in 2021.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(as_of="2026-08", scope="VIC", metric_name="nextdc_m3_expansion_objections_dfp", value=5, unit="count",
+         basis="actual", notes="Objections to the NEXTDC M3 EXPANSION lodged through the DFP, including one from "
+                               "Maribyrnong City Council. Determined by the Minister for Planning with no VCAT "
+                               "appeal available.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(as_of="2026", scope="Australia", metric_name="dc_share_of_electricity_gadens", value=3.5, unit="%",
+         basis="estimate", notes="Gadens: data centres currently consume approximately 2-5% of Australia's "
+                                 "electricity, forecast to triple by 2030-31 to approximately 15.6 TWh, about 6% "
+                                 "of national demand. Midpoint of the stated range shown. Compare AEMO's own "
+                                 "figure of about 2% today rising to about 6% by 2030 - the endpoints agree even "
+                                 "though the framing differs.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(as_of="2031", scope="Australia", metric_name="dc_energy_forecast_gadens", value=15.6, unit="TWh/yr",
+         basis="forecast_central", notes="Gadens forecast for 2030-31, about 6% of national demand.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(as_of="2026-08", scope="QLD", metric_name="zerra_secured_capacity_global", value=920, unit="MW",
+         basis="estimate", notes="AGP, which owns Zerra DC, claims 920 MW of secured capacity across the US, "
+                                 "India, Japan and Australia. Proponent claim.",
+         fact_status="CLAIMED", confidence="low", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(as_of="2026-08", scope="QLD", metric_name="western_downs_phase1_substation", value=540, unit="MVA",
+         basis="pipeline", notes="Phase 1 of Western Downs Digital Park includes a 540 MVA substation and an "
+                                 "on-site battery-backed power conditioning system.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(as_of="2026-08", scope="QLD", metric_name="western_downs_feedlot_head", value=24000, unit="head",
+         basis="actual", notes="The 725.5 ha site is currently a 24,000-head cattle feedlot owned by the Wambo "
+                               "Cattle Company. Relevant to the inquiry's terms of reference (f) on the "
+                               "opportunity cost of land conversion, and to agricultural land use conflict.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(as_of="2026-06", scope="NSW", metric_name="kurri_kurri_dc_capacity", value=540, unit="MW",
+         basis="pipeline", notes="SEARs application for a 540 MW data centre on 21 ha at Loxford, connecting via "
+                                 "two substations to the existing 132 kV Ausgrid line, adjacent to Snowy Hydro's "
+                                 "660 MW Kurri Kurri gas power station.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_DCD_KURRI"),
+    dict(as_of="2020", scope="NSW", metric_name="loxford_waters_homes_displaced", value=2000, unit="dwellings",
+         basis="estimate", notes="The former Kurri Kurri smelter site was sold in 2020 to Stevens Group and "
+                                 "McCloy Group to develop 'Loxford Waters', a 2,000-hectare suburb with 2,000 new "
+                                 "homes plus industrial estates and a business park. The 540 MW data centre is "
+                                 "now proposed on 21 ha of that site. Direct evidence for the inquiry's terms of "
+                                 "reference (f)(iii)-(iv) on whether data centre resource demands impinge on new "
+                                 "housing supply.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_KURRI"),
+]
+
+GAPS = [
+    dict(id=47, pillar="C", priority=5, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Obtain the Minister for Planning's determination and permit conditions for the NEXTDC M3 "
+                  "expansion at West Footscray under the Development Facilitation Program, and compare them "
+                  "against the conditions Maribyrnong City Council imposed on the original 2021 permit.",
+         why_it_matters="This is the Victorian equivalent of RG-038 and arguably more important, because the DFP "
+                        "removes VCAT appeal and conditions review. If ministerial permits carry weaker noise, "
+                        "generator and water conditions than the council permit they supersede, then the Victorian "
+                        "fast track is not merely faster but materially less protective - and there is no appeal "
+                        "route by which to test it. The comparison is available because both decisions are on "
+                        "the public record.",
+         target_source="Victorian planning permit registers; Minister for Planning determinations under Part 9A; "
+                       "Maribyrnong City Council planning records; any published DFP decision",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(id=48, pillar="C", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Enumerate every Victorian data centre permit issued through the Development Facilitation "
+                  "Program since 2020, with objection counts and conditions, and compare against permits issued "
+                  "through the standard council pathway.",
+         why_it_matters="One case study (M3) is suggestive; a census is evidence. If objection counts fall "
+                        "systematically when the pathway changes, the DFP is suppressing recorded participation "
+                        "across the state. Victoria's fast track is reported to reduce approvals to about three "
+                        "months and the Clean Energy Council records $51.9bn being fast-tracked as priority "
+                        "projects, so the population is large enough to measure.",
+         target_source="Victorian Government planning decisions published under Part 9A; DJSIR's priority "
+                       "projects list under the Victorian Data Centre Strategy; council planning registers for "
+                       "the comparison group",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+    dict(id=49, pillar="A", priority=4, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Read the lodged Western Downs Digital Park development application and quantify capacity, "
+                  "phasing, back-up generation, diesel storage, water source and grid connection from the primary "
+                  "document rather than secondary reporting.",
+         why_it_matters="This is Australia's largest proposed data centre at 2.16 GW peak and A$31bn, and "
+                        "everything currently in the database about it is secondary. The application is freely "
+                        "downloadable from the Western Downs Regional Council development register, so there is "
+                        "no barrier except file size. The 100 per cent air-cooled claim in particular should be "
+                        "verified against the application, because if it holds at this scale it is the single "
+                        "strongest counter-example to the evaporative-cooling critique.",
+         target_source="https://wdrcdevelopmenti.blob.core.windows.net/devdocs/6393206_1.pdf",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_WD_COUNCIL_DA"),
+    dict(id=50, pillar="B", priority=4, retrieval_method="asic_search", status="open", opened=TODAY,
+         question="Establish the domicile and ultimate ownership of AGP, the investment firm that owns Zerra DC, "
+                  "and of Zerra DC's Australian operating entity.",
+         why_it_matters="The proponent of Australia's largest proposed data centre is described in secondary "
+                        "reporting only as 'Singapore-based', with Anthropic reported as its anchor. A foreign "
+                        "investment firm owning the shell and a foreign AI laboratory anchoring the compute is "
+                        "the exact structure the brief's Pillar B and Pillar C questions are aimed at, and it is "
+                        "currently evidenced only by trade press. Queensland dissented from the July 2026 ECMC "
+                        "agreement on mandatory renewable offsetting, so the national policy floor does not apply "
+                        "here either.",
+         target_source="ASIC and ABR searches for Zerra DC and AGP; the lodged development application's "
+                       "proponent and landowner details; Queensland land title records",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(id=51, pillar="A", priority=3, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Verify and map the reported ten-storey data centre outside Brisbane (Ipswich, plans reported "
+                  "filed 19 August 2026) and the reported six-building Zerra DC campus on a former automotive "
+                  "plant site in Melbourne.",
+         why_it_matters="Both are currently CLAIMED/low on single secondary headlines. A ten-storey data centre "
+                        "would be an outlier in Australia, where the tallest consented structures are five storeys "
+                        "at Glendenning Road and four at Mamre Road, so it is either a notable design departure "
+                        "or a reporting error.",
+         target_source="Ipswich City Council development register; Victorian planning permit applications; "
+                       "proponent announcements",
+         fact_status="CLAIMED", confidence="low", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+    dict(match=dict(id=3),
+         set=dict(status="in_progress",
+                  notes="Advanced 2026-09-18. The Victorian PATHWAY is now properly documented - the Development "
+                        "Facilitation Program under Part 9A of the Planning and Environment Act 1987, its $10m "
+                        "regional and $20m metropolitan thresholds, ministerial determination, council bypass, "
+                        "VCAT appeal exclusion and absence of conditions review - together with the 'Utility "
+                        "Installation' classification at cl.73.03 of the Victorian Planning Provisions and the "
+                        "Environment Protection Act 2017 / Regulations 2021 position. Queensland's Western Downs "
+                        "Digital Park is now sourced to its lodged application and its proponent's ownership "
+                        "chain. RESIDUAL: neither state has an equivalent of the NSW Planning Portal's "
+                        "searchable major-projects register, so a site-by-site census for VIC and QLD still "
+                        "requires council-by-council searching. See RG-047 and RG-048 for the Victorian work.",
+                  fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GADENS_VIC"),
+         add_sources=["SRC_GADENS_VIC", "SRC_DCD_ZERRA", "SRC_DCD_KURRI"]),
+    dict(match=dict(id=12),
+         set=dict(status="in_progress",
+                  notes="Advanced 2026-09-18. Anthropic's involvement is now reported by multiple outlets "
+                        "including the Brisbane Times, and DCD reports that Anthropic has signed its first "
+                        "Australian data centre agreement for part of Zerra DC's Western Downs Digital Park. "
+                        "Still short of a primary source: neither Anthropic nor Zerra has published the "
+                        "agreement, and the proponent's ownership chain is unresolved (RG-050). Do not publish "
+                        "the Anthropic link as fact yet.",
+                  fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_DCD_ZERRA"),
+         add_sources=["SRC_DCD_ZERRA"]),
+]
+
+
+def main() -> int:
+    pack = {
+        "pack_id": "rg003-vic-qld-2026-09",
+        "prepared_by": "scripts/curate_rg003.py (curated from sources read 2026-09-18)",
+        "prepared_on": TODAY,
+        "sources": SOURCES,
+        "rows": {
+            "entities": ENTITIES + ENTITY_UPDATES,
+            "sites": SITES + SITE_UPDATES,
+            "power_profile": POWER,
+            "water_profile": WATER,
+            "legal_instruments": INSTRUMENTS,
+            "instrument_application": INSTRUMENT_APPLICATION,
+            "incentives": INCENTIVES,
+            "community_groups": COMMUNITY_GROUPS,
+            "community_events": COMMUNITY_EVENTS,
+            "metrics": METRICS,
+            "research_gaps": GAPS,
+        },
+    }
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as fh:
+        json.dump(pack, fh, indent=1)
+    print(f"wrote {OUT}")
+    print("  sources=%d rows=%s" % (len(SOURCES), {k: len(v) for k, v in pack["rows"].items()}))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

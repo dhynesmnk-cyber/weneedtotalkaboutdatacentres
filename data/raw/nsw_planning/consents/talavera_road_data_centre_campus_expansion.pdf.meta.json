@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120231127T020927.902+GMT",
+ "attachment_slug": "ssd-recommended-instrument-consent-talavera-rd-dc-13",
+ "title": "SSD Recommended Instrument of Consent Talavera Rd DC",
+ "folder": "Recommendation",
+ "label": "SSD Instrument of Consent Recommended Talavera Rd DC.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:38:23+00:00",
+ "sha256": "b4d44e1e4ad20061a9f05c8c9114d6a1c7b8cb33fa6cbc826a6e9138538b0cc3",
+ "bytes": 1551472,
+ "extraction": {
+  "chars": 94999,
+  "kb": 1515,
+  "chars_per_kb": 62.7,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:21+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

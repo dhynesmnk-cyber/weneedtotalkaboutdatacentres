@@ -1,0 +1,127 @@
+{
+ "pack_id": "rg060-consent-conditions",
+ "prepared_by": "scripts/consent_condition_audit.py",
+ "prepared_on": "2026-09-18",
+ "sources": [
+  {
+   "id": "SRC_NSWPORTAL_CONSENTS",
+   "title": "Signed development consents for determined NSW data centre State Significant Developments (bulk harvest)",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure",
+   "url": "https://www.planningportal.nsw.gov.au/major-projects/search?field_case_type_value=State+Significant+Development&combine=Data+Centre",
+   "doc_type": "primary_planning_portal",
+   "published": null,
+   "credibility": "A",
+   "accessed": "2026-09-18",
+   "notes": "20 consent documents downloaded from the portal's public attachment endpoints and archived under data/raw/nsw_planning/consents/ with SHA-256 manifests and per-document extraction yield statistics. 18 extracted above the 20 chars/KB reliability floor and support negative findings; 2 fell below it and are recorded as extraction-limited, NOT as evidence of absence: lane-cove-west-data-centre, macquarie-park-data-centre. 0 projects were skipped (restricted, oversized or unresolvable). Condition battery and Schedule 1 applicant parsed per document; matrix at exports/nsw_planning/nsw_dc_consent_conditions.csv."
+  }
+ ],
+ "rows": {
+  "metrics": [
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_analysed_reliably",
+    "value": 18.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Signed consents extracted above the reliability floor, so their negative findings are safe to rely on.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_extraction_limited",
+    "value": 2.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Consents whose text extraction fell below the reliability floor. Recorded so that nobody treats a keyword miss in them as evidence of absence.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_with_renewable_ppa_additionality",
+    "value": 4.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Of 18 reliably-extracted signed consents for determined NSW data centre SSDs, 4 contain a renewable ppa additionality provision.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_with_pue",
+    "value": 5.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Of 18 reliably-extracted signed consents for determined NSW data centre SSDs, 5 contain a pue provision.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_with_nox_mass_cap",
+    "value": 2.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Of 18 reliably-extracted signed consents for determined NSW data centre SSDs, 2 contain a nox mass cap provision.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_with_generator_hours_cap",
+    "value": 14.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Of 18 reliably-extracted signed consents for determined NSW data centre SSDs, 14 contain a generator hours cap provision.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_with_website_disclosure",
+    "value": 16.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Of 18 reliably-extracted signed consents for determined NSW data centre SSDs, 16 contain a website disclosure provision.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "as_of": "2026-09",
+    "scope": "NSW",
+    "metric_name": "consents_with_guidelines_cited",
+    "value": 0.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "Of 18 reliably-extracted signed consents for determined NSW data centre SSDs, 0 contain a guidelines cited provision.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   }
+  ],
+  "research_gaps": []
+ }
+}

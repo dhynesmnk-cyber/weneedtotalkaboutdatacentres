@@ -1,0 +1,618 @@
+#!/usr/bin/env python3
+"""
+Curate the RG-026 / RG-021 / RG-022 pack: the first post-Guidelines data centre consent.
+
+Source documents, all downloaded and archived with SHA-256 manifests on 2026-09-18 under
+data/raw/nsw_planning/attachments/:
+
+  SSD-73761707_consent_signed.pdf        2,172,177 bytes, 35pp - the Development Consent
+  SSD-73761707_notice_of_decision.pdf      184,429 bytes
+  PAE_84063957_...pdf                      306,417 bytes - Blacktown City Council objection
+  SUB_85927210_...pdf                    8,448,344 bytes - Endeavour Energy standard DA conditions
+  SUB_85927210_...bin                   27,924,858 bytes - Endeavour Energy advice library
+
+Entity resolution via the Australian Business Register (free public lookup), recorded below.
+
+Run:
+    python3 scripts/curate_rg026.py
+    python3 scripts/load_pack.py data/packs/rg026_consent_conditions.json --dry-run
+    python3 scripts/load_pack.py data/packs/rg026_consent_conditions.json --allow-missing-source
+"""
+from __future__ import annotations
+
+import json
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "data", "packs", "rg026_consent_conditions.json")
+TODAY = "2026-09-18"
+
+SOURCES = [
+    dict(id="SRC_SSD73761707_CONSENT",
+         title="Development Consent SSD-73761707 - Glendenning Road Data Centre (signed instrument)",
+         publisher="NSW Department of Planning, Housing and Infrastructure",
+         url="https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?"
+             "AttachRef=SSD-73761707!20260916T063022.844+GMT",
+         doc_type="primary_planning_portal", published="2026-09-16", credibility="A", accessed=TODAY,
+         notes="The binding instrument. Schedule 1 records the Applicant as Lehr Consultants International "
+               "(Australia) Pty Ltd; consent authority the Minister for Planning and Public Spaces; site Lot 2 "
+               "DP 1137162, 2 Glendenning Road, Glendenning; development the construction and 24/7 operation of "
+               "a data centre with a total power consumption of 235 megawatts comprising three five-storey data "
+               "centre buildings with 22 data halls, emergency back-up generators, cooling plant, diesel and "
+               "lithium-ion battery storage, demolition, bulk earthworks, internal access roads, car parking and "
+               "landscaping. Signed by Joanna Bakopanos, A/Director Industry Assessments Sydney, 14 September "
+               "2026, as delegate of the Minister under a delegation executed on 18 August 2026. File "
+               "EF24/10658. Archived locally: 2,172,177 bytes, sha256 in the .meta.json manifest."),
+    dict(id="SRC_SSD73761707_NOD",
+         title="Notice of decision SSD-73761707 (s.2.22 and cl.20 Sch.1 EP&A Act 1979)",
+         publisher="NSW Department of Planning, Housing and Infrastructure",
+         url="https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?"
+             "AttachRef=SSD-73761707!20260916T063023.733+GMT",
+         doc_type="primary_planning_portal", published="2026-09-16", credibility="A", accessed=TODAY),
+    dict(id="SRC_BLACKTOWN_OBJ",
+         title="Blacktown City Council submission to SSD-73761707 (objection), 12 June 2025",
+         publisher="Blacktown City Council",
+         url="https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?"
+             "AttachRef=PAE-84063957!20250611T225516.156+GMT",
+         doc_type="primary_government", published="2025-06-12", credibility="A", accessed=TODAY,
+         notes="Six-page objection signed by Judith Portelli, Manager Development Assessment, council file "
+               "MC-25-000041. Objects 'in its current form' and asks that the matters be comprehensively "
+               "addressed and the response returned to Council for further comment BEFORE any determination."),
+    dict(id="SRC_ABR_KNBDC",
+         title="ABN Lookup - KNBDC entity group (search results and individual records)",
+         publisher="Australian Business Register (ABR), Australian Business Number Lookup",
+         url="https://abr.business.gov.au/Search/ResultsActive?SearchText=KNBDC",
+         doc_type="primary_government", published=None, credibility="A", accessed=TODAY,
+         notes="Free public lookup, records extracted 18 September 2026. The KNBDC group comprises: KNBDC AU "
+               "DEVELOPMENT PTY LTD (ABN 34 687 116 098, ACN 687 116 098, active from 15 May 2025); KNBDC AU "
+               "FINANCING HOLDCO PTY LTD (ABN 64 685 936 074, ACN 685 936 074, active from 3 April 2025, GST "
+               "from 1 April 2025); KNBDC MEL EXP FINCO PTY LTD (ABN 31 690 115 498, active from 19 August "
+               "2025); The Trustee for KNBDC SYD4 Hold Trust (ABN 41 827 720 234, Fixed Unit Trust, active from "
+               "19 June 2025); The Trustee for KNBDC SYD4 Land Trust (ABN 81 901 211 945, Fixed Unit Trust, "
+               "active from 19 June 2025); The Trustee for KNBDC SYD4 Intermediate Hold Trust (ABN 76 429 551 "
+               "817, Fixed Unit Trust, active from 19 June 2025); The Trustee for KNBDC MEL3 Hold Trust (ABN 55 "
+               "694 021 637, active from 13 October 2025); The Trustee for KNBDC MEL3 Land Trust (ABN 92 254 "
+               "743 721); The Trustee for KNBDC MEL EXP Hold Trust (ABN 34 780 784 153); and KNBDC MEL EXP "
+               "FINANCING HOLDCO PTY LTD (ABN 73 690 103 078). All NSW 2060 (North Sydney). NBDC PTY LTD (ABN "
+               "16 606 821 452, ACN 606 821 452, active from 1 July 2015, NSW 2103) also appears in KNBDC "
+               "searches. ABR publishes no director or shareholder data - a paid ASIC company extract is "
+               "required for beneficial ownership."),
+    dict(id="SRC_ABR_MISC",
+         title="ABN Lookup - Syncline Energy, GreenSquareDC and Willowtree Planning records",
+         publisher="Australian Business Register (ABR)",
+         url="https://abr.business.gov.au/ABN/View?abn=26117458803",
+         doc_type="primary_government", published=None, credibility="A", accessed=TODAY,
+         notes="SYNCLINE ENERGY PTY. LTD., ABN 26 117 458 803, Australian private company, active from "
+               "7 December 2005, GST registered from the same date, main business location VIC 3000 (Melbourne "
+               "CBD). GREENSQUAREDC PTY LIMITED, ABN 18 656 101 861, active from 16 December, NSW 2000. "
+               "WILLOWTREE PLANNING (NSW) PTY LTD, ABN 54 146 035 707, active from 27 August 2010 - the "
+               "consultancy that authored both the Glendenning Road and Mamre Road EIS documents."),
+]
+
+ENTITIES = [
+    dict(id="ENT_KNBDC", name="KNBDC entity group (KNBDC AU Development / AU Financing Holdco / per-project trusts)",
+         legal_name="KNBDC AU DEVELOPMENT PTY LTD (ABN 34 687 116 098, ACN 687 116 098)",
+         entity_type="developer", domicile="Unknown - not resolvable from public registers", hq_country=None,
+         notes="The proponent structure behind the Mamre Road Data Centre Campus. Incorporated in a tight "
+               "cluster between 3 April and 19 June 2025, all registered in NSW 2060 (North Sydney). Structure "
+               "is a textbook project-finance stack: an AU Financing Holdco, an AU Development company, then per "
+               "project a Land Trust, a Hold Trust, an Intermediate Hold Trust and a FinCo - replicated for SYD4 "
+               "(Mamre Road), MEL3 and a Melbourne expansion. The SYD4 trustee company is NBDC PTY LTD (ACN 606 "
+               "821 452), incorporated 1 July 2015, which predates the 2025 stack and is therefore a reused or "
+               "acquired shelf trustee. A web search for 'KNBDC' returns no results at all: the sponsor is not "
+               "publicly identified anywhere. ABR publishes no shareholding, so beneficial ownership requires a "
+               "paid ASIC company extract (research gap RG-036). The 'SYD4' naming matches the site code "
+               "reportedly used by AirTrunk for this campus and North Sydney is consistent with a Sydney-based "
+               "hyperscale platform, but that inference is NOT verified and is recorded as such.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_ABR_KNBDC"),
+    dict(id="ENT_NBDC", name="NBDC Pty Ltd", legal_name="NBDC PTY LTD", entity_type="other",
+         domicile="Australia", hq_country="AU",
+         notes="ABN 16 606 821 452, ACN 606 821 452, active from 1 July 2015, NSW 2103. The corporate trustee "
+               "for the KNBDC SYD4 Hold, Land and Intermediate Hold trusts. Predates the KNBDC stack by a "
+               "decade, which is characteristic of a shelf or nominee trustee.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_KNBDC"),
+    dict(id="ENT_WILLOWTREE", name="Willowtree Planning (NSW) Pty Ltd",
+         legal_name="WILLOWTREE PLANNING (NSW) PTY LTD", entity_type="other", domicile="Australia",
+         hq_country="AU",
+         notes="ABN 54 146 035 707, active from 27 August 2010. Authored the Mamre Road EIS (finalised February "
+               "2026) and appears as the ABN on the Glendenning Road pre-application document PDA-67670218. "
+               "Recording this matters because it establishes that the same consultancy prepared the EIS for both "
+               "of Western Sydney's largest data centre proposals, and because an ABN appearing on a portal "
+               "document is not evidence of who the developer is - the first attempt to resolve the Glendenning "
+               "proponent this way returned the EIS author, not the proponent.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_MISC"),
+]
+
+ENTITY_UPDATES = [
+    dict(match=dict(id="ENT_SYNCLINE"),
+         set=dict(legal_name="SYNCLINE ENERGY PTY. LTD.", domicile="Australia", hq_country="AU",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+                  notes="ABN 26 117 458 803, Australian private company, active from 7 December 2005, GST "
+                        "registered from the same date, main business location VIC 3000 (Melbourne CBD). "
+                        "Proponent of the Plumpton 'Victorian AI hub' (350 ha, reported 2.4 GW maximum across "
+                        "four buildings) and linked by local reporting to the Melton proposal. A company "
+                        "incorporated in 2005 proposing 2.4 GW of AI load - more than Loy Yang A - is itself "
+                        "worth noting: the entity predates the AI data centre market by nearly two decades, so "
+                        "either it has been repurposed or it is a vehicle. Ownership requires an ASIC extract.",
+                  source_id="SRC_ABR_MISC"),
+         add_sources=["SRC_ABR_MISC", "SRC_GUARD_PLUMPTON"]),
+    dict(match=dict(id="ENT_GSDC"),
+         set=dict(legal_name="GREENSQUAREDC PTY LIMITED", domicile="Australia", hq_country="AU",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+                  notes="ABN 18 656 101 861, Australian private company, NSW 2000 (Sydney CBD). Named by the NSW "
+                        "Government as proponent of SYD1 (Stage 2), Hills Shire Council, in IDA Round 1.",
+                  source_id="SRC_ABR_MISC"),
+         add_sources=["SRC_ABR_MISC"]),
+    dict(match=dict(id="ENT_LEHR"),
+         set=dict(legal_name="LEHR CONSULTANTS INTERNATIONAL (AUSTRALIA) PTY LTD",
+                  notes="Named as the APPLICANT in Schedule 1 of the signed Development Consent SSD-73761707 for "
+                        "the 235 MW Glendenning Road Data Centre, and as the proponent in the NSW IDA Round 1 "
+                        "release. ABR search returns 'LEHR CONSULTANTS INTERNA...' at ABN 92 124 107 973 among 20 "
+                        "matches. Lehr is a planning, engineering and environment consultancy, so the named "
+                        "applicant is an agent rather than the developer or the end user. The actual developer "
+                        "remains unidentified in public documents - research gap RG-022.",
+                  fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+         add_sources=["SRC_SSD73761707_CONSENT"]),
+]
+
+SITE_UPDATES = [
+    dict(match=dict(id="SITE_GLENDENNING"),
+         set=dict(it_capacity_mw=None, total_capacity_mw=235.0, max_capacity_mw=235.0,
+                  address="Lot 2 DP 1137162, 2 Glendenning Road, Glendenning",
+                  status="approved",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
+                  source_id="SRC_SSD73761707_CONSENT",
+                  notes="SIGNED CONSENT READ IN FULL. Schedule 1: Applicant Lehr Consultants International "
+                        "(Australia) Pty Ltd; consent authority the Minister for Planning and Public Spaces; "
+                        "development the construction and 24/7 operation of a data centre with a TOTAL POWER "
+                        "CONSUMPTION OF 235 MW comprising three five-storey buildings with 22 data halls, "
+                        "emergency back-up generators, cooling plant, diesel and lithium-ion battery storage, "
+                        "demolition, bulk earthworks, internal access roads, car parking and landscaping. "
+                        "Signed 14 September 2026 by Joanna Bakopanos, A/Director Industry Assessments, as "
+                        "delegate of the Minister under a delegation executed 18 August 2026 - one day after the "
+                        "NSW Data Centre Guidelines took effect. File EF24/10658. NOTE THE DISCREPANCY: the "
+                        "portal project summary and the assessment record describe 202.4 MW, while the signed "
+                        "consent permits 235 MW total power consumption and caps back-up generation at 267.45 MW "
+                        "installed. The 202.4 MW figure is most likely the assessed IT or connected load and "
+                        "235 MW the permitted total facility consumption, but the consent does not say so and the "
+                        "difference is not explained on the public record."),
+         add_sources=["SRC_SSD73761707_CONSENT", "SRC_SSD73761707_NOD", "SRC_BLACKTOWN_OBJ"]),
+    dict(match=dict(id="SITE_MAMRE_ROAD"),
+         set=dict(proponent="KNBDC SYD4 Pty Ltd (per NSW IDA Round 1); the ABR-resolved structure is The Trustee "
+                            "for KNBDC SYD4 Hold Trust / Land Trust / Intermediate Hold Trust, trustee NBDC Pty "
+                            "Ltd, above KNBDC AU Development Pty Ltd and KNBDC AU Financing Holdco Pty Ltd",
+                  notes="NSW Planning Portal: 'Construction and operation of a data centre campus with a power "
+                        "capacity of 1 GW including six four-storey data centre buildings'. Proposal documents "
+                        "put power capacity at 1.2 GW. Six buildings, 728 cooling units, 846 diesel back-up "
+                        "generators, >18,000 kL diesel storage, lithium-ion batteries, ~22.4 million litres of "
+                        "water per year. Land held by IFM Investors (listed by ISPT as 'Summit'); AirTrunk "
+                        "reported as prospective buyer conditional on approval of the 1 GW application. The "
+                        "proponent SPV stack was incorporated between 3 April and 19 June 2025 in North Sydney "
+                        "and its sponsor is not publicly identified anywhere - a web search for 'KNBDC' returns "
+                        "zero results. EIS by Willowtree Planning, the same consultancy that appears on the "
+                        "Glendenning Road pre-application documents. First Australian project above 1 GW."),
+         add_sources=["SRC_ABR_KNBDC"]),
+]
+
+POWER = [
+    dict(site_id="SITE_GLENDENNING", connection_type="distribution", max_demand_mw=235.0,
+         genset_total_mw=267.45, genset_fuel="diesel",
+         genset_annual_test_hours=170.0,
+         emission_standard="POEO (Clean Air) Regulation 2022 compliance required by condition B13 ('best practice', "
+                           "all load limits and air emission limits); PLUS an absolute site cap by condition B14(b) "
+                           "of total NOx as NO2-equivalent below 10 tonnes per year from back-up generator "
+                           "operation, not applying during unplanned power outage events; PLUS 45 m vertical "
+                           "stacks by B14(a); PLUS annual emissions testing of at least one generator on a "
+                           "rotational basis by B15 (NO2/NO as NO2-equivalent in mg/m3 per TM-11, plus "
+                           "temperature, velocity, oxygen and flowrate per TM-2/TM-25, using the EPA's Approved "
+                           "Methods 2022); PLUS B16 requiring that generator and enclosure design not preclude "
+                           "retrofitting additional air pollution controls",
+         diesel_storage_kl=2353.0,  # DERIVED: 2,000 t at ~0.85 kg/L; the consent states tonnes
+         grid_services_role="Condition B20(c) requires a framework and management principles for accommodating "
+                            "shortfalls in renewable availability including through demand flexibility and "
+                            "firming; condition B22(c)(ii) requires measures to reduce emissions from all on-site "
+                            "electricity consumption including possible on-site or proximate generation and/or "
+                            "storage and/or demand flexibility. No numeric demand-response obligation and no "
+                            "battery capacity is imposed.",
+         notes="HARD NUMBERS FROM THE SIGNED CONSENT. A6: back-up generators must not exceed 267.45 MW total "
+               "installed generating capacity, and total power consumption must not exceed 235 MW. A7: operation "
+               "of back-up generators must not exceed 170 HOURS PER YEAR; no more than 20 generators tested at "
+               "any one time (max 3 at 100% load, max 17 at no load); no more than 1 generator tested at any one "
+               "time during the evening period 6pm-10pm; no more than 5 hours of generator testing in each "
+               "24-hour period; diesel fuel storage on site must not exceed 2,000 TONNES at any one time. The "
+               "A7 note defines the hour count as real-time hours of testing at the site, so five generators "
+               "tested concurrently for one hour counts as one hour, not five - which closes the "
+               "multiply-counted-hours loophole. A8 makes a specific allowance for MTU 20V4000 G 94F units. "
+               "Condition B7 sets receiver-specific operational noise limits in dB(A) LAeq(15 minute) that differ "
+               "between 'back-up generators in use (including testing)' and 'all other times', for named "
+               "residential receivers at 42 and 47 Polonia Avenue Plumpton, 33 Knox Road Doonside, 9 Derby "
+               "Street Rooty Hill and Nurrangingy Reserve; those limits do not apply during an unplanned power "
+               "outage event. Sydney Water condition A18 requires a section 73 Compliance Certificate for "
+               "stormwater, water and sewerage servicing before operation; A19 requires fibre-ready facilities. "
+               "DERIVED (not stated in the consent): if 267.45 MW ran at full load for the permitted 170 hours, "
+               "the 10 t/yr NOx cap implies an average flue-gas concentration of roughly 465 mg/m3 at ~12 "
+               "kg/MWh, i.e. the same order as the 450 mg/m3 NSW Clean Air Regulation Group 6 limit - but the "
+               "absolute annual cap binds harder than a concentration limit because it applies regardless of how "
+               "few hours the generators actually run.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+]
+
+INSTRUMENT_APPLICATION = [
+    dict(instrument_id="LAW_EPA_CLEAN_AIR", site_id="SITE_GLENDENNING", applies_from="2026-09-16",
+         obligation="B13 requires installation and operation of equipment in line with best practice so that the "
+                    "development complies with all load limits, air quality criteria and air emission limits and "
+                    "monitoring requirements in the POEO (Clean Air) Regulation 2022. B14 imposes a 45 m stack "
+                    "height and an absolute cap of less than 10 t/yr total NOx as NO2-equivalent from back-up "
+                    "generator operation. B15 requires annual emissions testing. B16 requires that design not "
+                    "preclude retrofit of additional controls.",
+         compliance_status="compliant",
+         evidence="Consent read in full on 2026-09-18. The Group 6 limits are incorporated by reference through "
+                  "B13 rather than restated numerically, and B14(b) adds a stricter absolute annual mass cap on "
+                  "top. Notably the consent does NOT cite the 200-hour unregulated window described in the NSW "
+                  "Data Centre Guidelines; it caps generator operation at 170 hours per year with detailed "
+                  "concurrency, evening and daily testing limits, and excludes unplanned outage events from the "
+                  "NOx cap only.",
+         notes="This is the direct answer to the question the Guidelines leave open: the 200-hour window is a "
+               "feature of the general regulation, but a consent authority can and did impose a tighter "
+               "site-specific limit. Whether that becomes standard practice is the open question - see RG-038.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(instrument_id="LAW_NSWGUIDE26", site_id="SITE_GLENDENNING", applies_from="2026-09-16",
+         obligation="Guidelines Principle 1 Ref 1 (dPUE and dWUE bands), Ref 2 (100% recycled water for "
+                    "water-intensive cooling), Ref 4 (Group 6 or Tier 2 generator limits), Ref 7 (water and "
+                    "energy forecast data), Ref 8 (smart meters); Principle 2 Ref 9 (25% demand reduction for two "
+                    "hours, diesel excluded); Principle 3 Ref 13 (PPA additionality, 40% wind, 25% storage for "
+                    "four hours, ten-year terms, pre-FID); Principles 4-6 (benefit-sharing, local content, "
+                    "training).",
+         compliance_status="partially_compliant",
+         evidence="MEETS OR EXCEEDS the Guidelines on renewable procurement: B20 requires, before operation, "
+                  "proof that ALL operational electricity demand (IT and non-IT) is matched with a portfolio of "
+                  "'additional, firmed renewable energy supply AT ALL TIMES' via PPA(s) and a firming agreement "
+                  "for NSW-based supply within the NEM, with a shortfall framework using demand flexibility and "
+                  "firming. 'Additional' and 'at all times' are stronger than the Guidelines' 40% wind / 25% "
+                  "storage / pre-FID tests, and stronger than anything in the Commonwealth Expectations. MEETS "
+                  "them on generator emissions (B13-B16) and on reporting (B22 requires continuous metering of "
+                  "IT electricity, total electricity and total water, and annual reporting of PUE, WUE and CO2-e, "
+                  "with a three-yearly review of back-up power technology for lower- or zero-emissions "
+                  "alternatives and of water servicing for non-potable or recycled options). DOES NOT MEET them "
+                  "in three respects: (1) no numeric dPUE or dWUE ceiling is imposed - B22 requires reporting and "
+                  "'continual improvement' only, so the Guidelines' dPUE <=1.25/1.3 and dWUE bands are absent; "
+                  "(2) no 25% two-hour demand reduction capability is required - demand flexibility appears only "
+                  "as a means of managing renewable shortfalls; (3) recycled water is not mandated - B22(c)(v) "
+                  "requires measures to prioritise recycled or non-potable water for non-potable functions "
+                  "including cooling only 'where available'. The Guidelines are never named in the consent.",
+         notes="The consent is stronger than the Guidelines where it matters most for emissions (hourly-matched "
+               "additional firmed renewables, an absolute NOx mass cap, a 170-hour generator limit) and weaker on "
+               "the efficiency and flexibility measures that the Guidelines were written to introduce. Since the "
+               "Guidelines are non-binding and this consent was signed one month after they took effect, the most "
+               "likely explanation is that the conditions were drafted during the assessment period, before the "
+               "final Guidelines text existed. That is a transitional artefact, not a policy failure - but it "
+               "means the Guidelines' headline metrics are not yet appearing in consents, and RG-038 exists to "
+               "test whether later consents pick them up.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(instrument_id="LAW_EXPECTATIONS26", site_id="SITE_GLENDENNING", applies_from="2026-09-16",
+         obligation="Expectation 2 (secure new and additional clean energy; cover network costs; efficiency; "
+                    "improve grid security and stability including demand flexibility); Expectation 3 (minimise "
+                    "water use, non-potable and circular water, cover water infrastructure costs, drought "
+                    "resilience, transparent reporting).",
+         compliance_status="partially_compliant",
+         evidence="Expectation 2.1 is not merely met but exceeded: B20 requires additional, firmed, all-times "
+                  "renewable matching for the whole load including non-IT, which is the strictest formulation of "
+                  "additionality in any Australian instrument examined. Expectation 2.4 (demand flexibility) is "
+                  "referenced but not quantified. Expectation 3.6 (transparent reporting) is partly met: a "
+                  "condition in Part C requires the applicant to make statutory approvals, all approved "
+                  "strategies, plans and programs (excluding hazard and risk studies), regular reporting on "
+                  "environmental performance, and a comprehensive monitoring summary publicly available on its "
+                  "website, and C17 requires each Independent Audit Report and the response to be published "
+                  "within 60 days.",
+         notes="The website-disclosure condition is the most useful transparency provision found anywhere in this "
+               "project so far, and it is enforceable. Whether the operator actually publishes PUE, WUE and "
+               "emissions once operating is testable - see RG-039.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+]
+
+REG_EVENTS = [
+    dict(event_date="2026-09-14", regulator_id="ENT_NSW_DPHI", site_id="SITE_GLENDENNING",
+         event_type="determination",
+         summary="Joanna Bakopanos, A/Director Industry Assessments Sydney, signed the Development Consent for "
+                 "SSD-73761707 as delegate of the Minister for Planning and Public Spaces under a delegation "
+                 "executed on 18 August 2026. Notice of decision issued 16 September 2026.",
+         notes="The delegation date is one day after the NSW Data Centre Guidelines took effect (17 August 2026). "
+               "File EF24/10658.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(event_date="2025-06-12", regulator_id="ENT_NSW_DPHI", site_id="SITE_GLENDENNING",
+         event_type="objection_upheld",
+         summary="Blacktown City Council objected to SSD-73761707 and asked that its matters be comprehensively "
+                 "addressed and the response returned to Council for further comment before any determination. "
+                 "The consent issued 15 months later on 16 September 2026.",
+         outcome="Objection not determinative: the consent authority is the Minister, not the council.",
+         notes="Recorded as objection_upheld=False in substance - the objection did not prevent approval. Kept in "
+               "regulatory_events as well as community_events because it is a formal statutory submission, not a "
+               "community campaign.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_BLACKTOWN_OBJ"),
+]
+
+COMMUNITY_EVENTS = [
+    dict(event_date="2025-06-12", site_id="SITE_GLENDENNING", locality="Glendenning", state="NSW",
+         event_type="council_rejection", actor="Blacktown City Council (Judith Portelli, Manager Development "
+         "Assessment)", severity=5,
+         summary="Formal six-page objection to SSD-73761707. Planning: the proposal requires 823 car parking "
+                 "spaces under the Blacktown DCP and offers 165, and even the Transport for NSW Guide to "
+                 "Transport Impact Assessment (2024) yields 179; high visual impact from bulk and scale, with "
+                 "the building still clearly visible above the tree canopy at full planting maturity, no other "
+                 "buildings of this height anywhere in the vicinity, and the site directly abutting Nurragingy "
+                 "Reserve; underground fuel tanks proposed in the landscape setback. City Architect: no 20 m "
+                 "landscaped buffer to the eastern boundary free of parking, driveways, plant, equipment and "
+                 "tanks; building heights not reduced; facade monotone. Social planning: the site is in one of "
+                 "the hottest parts of Western Sydney already vulnerable to urban heat, servers must be kept "
+                 "below 33.3 degrees, the facility will increase the microclimate temperature and the number of "
+                 "hot days and heatwaves for an already vulnerable community, and the ESD report fails to "
+                 "articulate the temperature increase from three centres compared with conventional industrial "
+                 "development; with Blacktown becoming a preferred location for new data centres the impact will "
+                 "be intensified by colocation, so impacts of not only this site but all existing and proposed "
+                 "data centres should be better assessed. Employment: the operational employment figures in the "
+                 "Social and Economic Impact Assessment do not account for the existing employment across the "
+                 "THREE EXISTING WAREHOUSES on the site, and Council demands a revised analysis using existing "
+                 "FTE numbers and skill diversity, or business-as-usual figures if those businesses cease. "
+                 "Council also states that the financial gains of the owner should be balanced with improved "
+                 "investment back into the site and surrounding community. Engineering and drainage: an 18,000 "
+                 "sqm southern portion is excluded from the water quality treatment system; the site is affected "
+                 "by overland flow in both low and medium risk and the proposed cut and fill will disturb the "
+                 "existing flow path.",
+         outcome="Not determinative. Consent issued 16 September 2026 by the Minister's delegate.",
+         notes="This objection is the single most useful document found in RG-026 for two reasons. First, it is "
+               "the jobs-to-capex critique made by a council in a statutory process BEFORE this project framed "
+               "it: a 235 MW data centre replacing three warehouses may be a net reduction in local employment, "
+               "and the proponent's S&EIA did not net off the displaced jobs. Second, it identifies cumulative "
+               "urban heat and colocation impact as an unassessed externality in a corridor where the Department "
+               "has separately directed cumulative-impact assessment at Kemps Creek.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_BLACKTOWN_OBJ"),
+]
+
+METRICS = [
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_consent_total_power_mw", value=235.0, unit="MW",
+         basis="actual", notes="Total power consumption permitted by the signed consent. The portal summary and "
+                               "assessment record state 202.4 MW; the discrepancy is unexplained on the public "
+                               "record.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_backup_generation_cap_mw", value=267.45,
+         unit="MW", basis="actual", notes="Condition A6(a): maximum total installed back-up generating capacity.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_generator_hours_cap", value=170.0,
+         unit="hours/yr", basis="actual",
+         notes="Condition A7(a). LOWER than the 200 hours per year that NSW Government guidance identifies as the "
+               "current unregulated window, and subject to concurrency, evening and daily testing limits. Real-time "
+               "counting prevents concurrent testing from multiplying the allowance.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_diesel_storage_cap", value=2000.0, unit="tonnes",
+         basis="actual", notes="Condition A7(e): maximum diesel fuel storage on site at any one time. Compare "
+                               ">18,000 kL (about 15,300 t at 0.85 kg/L) proposed at the Mamre Road campus.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_nox_cap", value=10.0, unit="t/yr",
+         basis="actual", notes="Condition B14(b): absolute annual cap on total NOx as NO2-equivalent from back-up "
+                               "generator operation, not applying during unplanned power outage events. Derived "
+                               "implied concentration at full load for the full 170 hours is roughly 465 mg/m3, "
+                               "the same order as the 450 mg/m3 Group 6 limit, but an absolute mass cap binds "
+                               "harder.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_stack_height", value=45.0, unit="m",
+         basis="actual", notes="Condition B14(a): generator flue gases vented through vertical stacks 45 m above "
+                               "ground level.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_data_halls", value=22, unit="count",
+         basis="actual", notes="22 data halls across three five-storey buildings.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(as_of="2025-06", scope="NSW", metric_name="glendenning_parking_required_dcp", value=823, unit="spaces",
+         basis="actual", notes="Required under the Blacktown Development Control Plan per council's objection.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_BLACKTOWN_OBJ"),
+    dict(as_of="2025-06", scope="NSW", metric_name="glendenning_parking_proposed", value=165, unit="spaces",
+         basis="actual", notes="Proposed. The Transport for NSW Guide to Transport Impact Assessment (2024) yields "
+                               "179 for this use, still 14 more than proposed.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_BLACKTOWN_OBJ"),
+    dict(as_of="2025-06", scope="NSW", metric_name="glendenning_warehouses_displaced", value=3, unit="count",
+         basis="actual", notes="Existing warehouses on the site whose employment was not netted off in the "
+                               "proponent's Social and Economic Impact Assessment, per Blacktown City Council.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_BLACKTOWN_OBJ"),
+    dict(as_of="2025-04", scope="NSW", metric_name="knbdc_stack_incorporation_start", value=2025.25, unit="year",
+         basis="actual", notes="Earliest KNBDC entity registration (AU Financing Holdco, 3 April 2025); the SYD4 "
+                               "trusts follow on 19 June 2025. All NSW 2060 North Sydney.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_KNBDC"),
+]
+
+GAPS = [
+    dict(id=36, pillar="B", priority=5, retrieval_method="asic_search", status="open", opened=TODAY,
+         question="Obtain ASIC company extracts for KNBDC AU Development Pty Ltd (ACN 687 116 098), KNBDC AU "
+                  "Financing Holdco Pty Ltd (ACN 685 936 074), KNBDC MEL EXP FinCo Pty Ltd and NBDC Pty Ltd "
+                  "(ACN 606 821 452): directors, shareholders and any registered charges.",
+         why_it_matters="This is the last missing link for Australia's largest data centre proposal. The ABR "
+                        "resolves the whole trust stack but publishes no ownership. The sponsor of a 1-1.2 GW "
+                        "campus at Kemps Creek is currently unidentifiable from any public source, and a web "
+                        "search for 'KNBDC' returns zero results. A paid ASIC extract (a few dollars per company) "
+                        "names the directors and members and would settle whether this is AirTrunk, another "
+                        "incumbent, or a new entrant.",
+         target_source="ASIC Connect company extracts; registered charges search; the SSD-92743706 Appendix 03 "
+                       "Title Documents attachment on the NSW Planning Portal, which names the registered "
+                       "proprietor",
+         notes="Supersedes the ownership half of RG-021, which is now partly advanced: the entity structure is "
+               "fully resolved and only beneficial ownership remains.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_KNBDC"),
+    dict(id=37, pillar="A", priority=5, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Identify the developer and end user of the Glendenning Road Data Centre (SSD-73761707, 235 MW, "
+                  "consented 16 September 2026).",
+         why_it_matters="The signed consent names Lehr Consultants International (Australia) Pty Ltd - a planning "
+                        "and engineering consultancy - as the Applicant. A 235 MW facility has been consented in "
+                        "Blacktown LGA with neither the developer nor the tenant identifiable from the public "
+                        "record. RG-022 is unresolved and this is now the clearest transparency failure in the "
+                        "NSW pipeline.",
+         target_source="SSD-73761707 Appendix 03 Title Documents (names the registered proprietor of Lot 2 "
+                       "DP1137162); the EIS and Request for SEARs documents, 40 of which are published; NSW Land "
+                       "Registry Services title search; ASIC extract for Lehr Consultants and any related project "
+                       "SPV",
+         notes="The portal attachment list is reachable via the Drupal node JSON at "
+               "/node/<nid>?_format=json -> field_attachment, which yields 177 document slugs for this project. "
+               "Draft conditions and EPA comment documents returned HTTP 401, so some assessment material is "
+               "access-restricted even though the signed consent is public.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(id=38, pillar="C", priority=5, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Do data centre consents issued AFTER 17 August 2026 impose the NSW Data Centre Guidelines' "
+                  "numeric dPUE and dWUE ceilings and the 25% two-hour demand reduction requirement?",
+         why_it_matters="SSD-73761707 is the first major consent signed after the Guidelines took effect and it "
+                        "imposes neither: PUE and WUE are reporting and continual-improvement obligations with no "
+                        "numeric ceiling, and demand flexibility appears only as a way to manage renewable "
+                        "shortfalls. The consent is simultaneously STRICTER than the Guidelines on renewables "
+                        "(all-times matching with additional firmed supply) and on generators (170 hours, 10 t/yr "
+                        "NOx, 45 m stacks). If later consents also omit the efficiency and flexibility measures, "
+                        "the Guidelines' headline metrics are not reaching consents at all and the fast-track "
+                        "bargain is one-sided.",
+         target_source="Every SSD data centre determination dated after 17 August 2026 on the NSW Planning Portal; "
+                       "compare condition text against the 17 performance measures",
+         notes="Method is proven and cheap: fetch the project node JSON, read field_attachment, download the "
+               "signed consent by AttachRef, and grep the condition text. One consent takes about two minutes.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(id=39, pillar="C", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Test compliance with the website-disclosure condition: does the Glendenning Road operator "
+                  "actually publish its approved plans, environmental performance reporting, monitoring summary "
+                  "and Independent Audit Reports once operational?",
+         why_it_matters="The consent requires statutory approvals, all approved strategies, plans and programs "
+                        "(excluding hazard and risk studies), regular environmental performance reporting and a "
+                        "comprehensive monitoring summary to be made publicly available on the applicant's "
+                        "website, and each Independent Audit Report plus response within 60 days. That is a "
+                        "stronger public-transparency obligation than the NSW Guidelines, which allow water and "
+                        "energy forecast data to be provided commercial-in-confidence. If it is honoured, the "
+                        "Observatory gets site-level PUE, WUE and emissions for free; if it is not, that is an "
+                        "enforcement finding.",
+         target_source="The applicant's website once identified (RG-037); DPHI compliance and enforcement records "
+                       "for SSD-73761707",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+    dict(id=40, pillar="D", priority=4, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Collect every council submission on data centre SSD applications in Blacktown, Penrith, "
+                  "Fairfield, Ryde and Hills Shire, and code the objection grounds.",
+         why_it_matters="Blacktown's objection raises three grounds that do not appear in the NSW Guidelines' 17 "
+                        "performance measures at all: net employment loss against displaced existing uses (three "
+                        "warehouses on this site), cumulative urban heat and microclimate impact in one of the "
+                        "hottest parts of Western Sydney intensified by colocation, and parking non-compliance "
+                        "(823 spaces required, 165 proposed). Councils are identifying externalities the state "
+                        "framework does not measure. Coding all of them would produce the evidence base for "
+                        "adding those measures.",
+         target_source="NSW Planning Portal submissions tab for each data centre SSD (PAE- and SUB- attachments "
+                       "are publicly downloadable)",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_BLACKTOWN_OBJ"),
+]
+
+GAP_UPDATES = [
+    dict(match=dict(id=26),
+         set=dict(status="resolved", resolved_date=TODAY,
+                  notes="RESOLVED 2026-09-18. Downloaded and read the signed Development Consent for "
+                        "SSD-73761707 (2,172,177 bytes, 35 pages, sha256 archived). Findings: the consent binds "
+                        "the operator to match ALL operational electricity demand including non-IT load with a "
+                        "portfolio of additional, firmed renewable energy supply AT ALL TIMES via NSW-based NEM "
+                        "PPAs and a firming agreement before operation may commence (B20); caps back-up "
+                        "generation at 267.45 MW installed and total consumption at 235 MW (A6); caps generator "
+                        "operation at 170 hours per year with concurrency, evening and daily testing limits "
+                        "(A7); caps on-site diesel at 2,000 tonnes (A7(e)); imposes 45 m stacks and an absolute "
+                        "cap below 10 t/yr NOx as NO2-equivalent plus annual emissions testing and a "
+                        "no-preclude-retrofit design requirement (B14-B16); requires a Sustainability Management "
+                        "Plan with continuous metering and annual PUE, WUE and CO2-e reporting and a three-yearly "
+                        "technology review (B22-B23); and requires website publication of approvals, plans, "
+                        "environmental performance reporting and Independent Audit Reports. It does NOT impose a "
+                        "numeric PUE or WUE ceiling, does NOT require the Guidelines' 25% two-hour demand "
+                        "reduction, and does NOT mandate recycled water - only prioritisation where available. "
+                        "The Guidelines are never cited. Verdict: stronger than the Guidelines on additionality "
+                        "and emissions, weaker on efficiency and flexibility. Follow-up is RG-038.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_SSD73761707_CONSENT"),
+         add_sources=["SRC_SSD73761707_CONSENT", "SRC_SSD73761707_NOD"]),
+    dict(match=dict(id=21),
+         set=dict(status="in_progress",
+                  notes="Substantially advanced 2026-09-18. The ABR resolves the full proponent structure for "
+                        "Mamre Road: The Trustee for KNBDC SYD4 Hold Trust, Land Trust and Intermediate Hold "
+                        "Trust (all Fixed Unit Trusts, all registered 19 June 2025, NSW 2060), with NBDC Pty Ltd "
+                        "(ACN 606 821 452, incorporated 2015) as trustee, above KNBDC AU Development Pty Ltd "
+                        "(ACN 687 116 098, 15 May 2025) and KNBDC AU Financing Holdco Pty Ltd (ACN 685 936 074, "
+                        "3 April 2025), plus parallel MEL3 and MEL EXP stacks. Still outstanding and now the "
+                        "subject of RG-036: beneficial ownership, which the ABR does not publish. The AirTrunk "
+                        "SYD4 inference remains unverified.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_KNBDC"),
+         add_sources=["SRC_ABR_KNBDC"]),
+    dict(match=dict(id=22),
+         set=dict(status="resolved", resolved_date=TODAY,
+                  notes="SUPERSEDED by RG-037 on 2026-09-18 and marked resolved to avoid a duplicate open "
+                        "gap. The signed consent confirmed that the named Applicant is Lehr Consultants "
+                        "International (Australia) Pty Ltd, a consultancy, and ABN 54 146 035 707 on the "
+                        "pre-application document resolved to "
+                        "that the named Applicant is Lehr Consultants International (Australia) Pty Ltd, a "
+                        "consultancy, and after ABN 54 146 035 707 on the pre-application document resolved to "
+                        "Willowtree Planning (NSW) Pty Ltd - the EIS author. Both are agents. The developer and "
+                        "end user remain unidentified.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_ABR_MISC"),
+         add_sources=["SRC_SSD73761707_CONSENT", "SRC_ABR_MISC"]),
+]
+
+ENGINEERING_UPDATES = [
+    dict(match=dict(claim_label="Renewable energy claims by operators can be taken at face value"),
+         set=dict(claim_status="UNSOUND_AS_STATED",
+                  residual_gap="REGO is not law, so additionality remains a guideline at national level. BUT the "
+                               "gap is narrower than at v1.2.0: the signed consent for SSD-73761707 (16 September "
+                               "2026) already requires, as a binding condition precedent to operation, proof that "
+                               "all operational electricity demand including non-IT load is matched with a "
+                               "portfolio of additional, firmed renewable energy supply at all times through "
+                               "NSW-based NEM PPAs and a firming agreement. That is hourly matching with "
+                               "explicit additionality, imposed by consent condition rather than by statute, and "
+                               "it is stricter than both the NSW Guidelines' Principle 3 test and the "
+                               "Commonwealth Expectations. The residual gap is therefore (a) whether the "
+                               "condition is enforced and evidenced before operation, (b) whether it appears in "
+                               "other consents - RG-038, and (c) the absence of any national statutory "
+                               "equivalent. The Observatory's own audit still depends on RG-009 outputs.",
+                  as_of_date=TODAY,
+                  source_ids="SRC_GP2026,SRC_GREENPEACE_SUB,SRC_AFR_NGER,SRC_NSWGUIDE26,SRC_MALLESONS,"
+                             "SRC_SSD73761707_CONSENT"),
+         add_sources=["SRC_SSD73761707_CONSENT"]),
+    dict(match=dict(claim_label="Standalone islanded power (on-site gas/diesel as the primary supply)"),
+         set=dict(residual_gap="The 200-hour unregulated window still exists in the general regulation and is "
+                               "acknowledged in NSW Government guidance, but it is NOT a floor: SSD-73761707 caps "
+                               "generator operation at 170 hours per year, caps installed back-up capacity at "
+                               "267.45 MW against a 235 MW load, caps on-site diesel at 2,000 tonnes, imposes "
+                               "45 m stacks and an absolute cap below 10 t/yr NOx as NO2-equivalent, requires "
+                               "annual rotational emissions testing to EPA Approved Methods, requires that "
+                               "generator and enclosure design not preclude retrofitting additional controls, and "
+                               "sets receiver-specific noise limits that differ between generator-running and "
+                               "other periods. So the correct critique is no longer 'the loophole exists' but "
+                               "'the loophole's closure is discretionary and site-by-site'. No Australian "
+                               "jurisdiction yet requires continuous public emissions reporting, and cumulative "
+                               "precinct-level air quality assessment is directed at Kemps Creek but is not a "
+                               "standing requirement. RG-038 tests whether the 170-hour and 10-tonne pattern "
+                               "repeats.",
+                  as_of_date=TODAY,
+                  source_ids="SRC_GP2026,SRC_GREENPEACE_SUB,SRC_AFR_NGER,SRC_NSWGUIDE26,SRC_MALLESONS,"
+                             "SRC_SSD73761707_CONSENT"),
+         add_sources=["SRC_SSD73761707_CONSENT"]),
+]
+
+
+def main() -> int:
+    pack = {
+        "pack_id": "rg026-consent-conditions-2026-09",
+        "prepared_by": "scripts/curate_rg026.py (curated from the signed consent and ABR records read "
+                       "2026-09-18)",
+        "prepared_on": TODAY,
+        "sources": SOURCES,
+        "rows": {
+            "entities": ENTITIES + ENTITY_UPDATES,
+            "sites": SITE_UPDATES,
+            "power_profile": POWER,
+            "instrument_application": INSTRUMENT_APPLICATION,
+            "regulatory_events": REG_EVENTS,
+            "community_events": COMMUNITY_EVENTS,
+            "metrics": METRICS,
+            "research_gaps": GAPS + GAP_UPDATES,
+            "engineering_claims": ENGINEERING_UPDATES,
+        },
+    }
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as fh:
+        json.dump(pack, fh, indent=1)
+    print(f"wrote {OUT}")
+    print("  sources=%d rows=%s" % (len(SOURCES), {k: len(v) for k, v in pack["rows"].items()}))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

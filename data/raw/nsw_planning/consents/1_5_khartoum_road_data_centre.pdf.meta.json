@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63235720%2120260310T235854.472+GMT",
+ "attachment_slug": "signed-ssd-determination-instrument-4",
+ "title": "Signed - SSD Determination Instrument",
+ "folder": "Determination",
+ "label": "Signed - SSD Determination Instrument.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:36:29+00:00",
+ "sha256": "5f0c6003fbafc54c1019489aab5e61dc8842ab12550fd5cd00bdb50fa7f622c5",
+ "bytes": 1559124,
+ "extraction": {
+  "chars": 117984,
+  "kb": 1522,
+  "chars_per_kb": 77.5,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:35:52+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

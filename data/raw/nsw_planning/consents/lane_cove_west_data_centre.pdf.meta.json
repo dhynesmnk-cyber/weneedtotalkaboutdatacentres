@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741%2120191204T031444.343+GMT",
+ "attachment_slug": "ssd-9741-development-consent-signeds-3",
+ "title": "SSD-9741 - Development Consent - Signed_s",
+ "folder": "Determination",
+ "label": "SSD-9741 - Development Consent - Signed_s.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:37:37+00:00",
+ "sha256": "2b8492033027d459dc403d369abf49151a6c7e91b2a3842c60d57c7fc89c090f",
+ "bytes": 1381225,
+ "extraction": {
+  "chars": 89589,
+  "kb": 1348,
+  "chars_per_kb": 66.5,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:08+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

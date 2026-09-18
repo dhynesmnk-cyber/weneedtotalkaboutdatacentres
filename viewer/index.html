@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Data Centre Observatory — query console</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#151b23; --panel2:#1b232d; --line:#26303b;
+    --ink:#e6edf3; --dim:#93a1b0; --acc:#4ea1ff; --ok:#3fb950; --warn:#d29922;
+    --bad:#f85149; --chip:#21303f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:14px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  header{padding:22px 26px 16px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#131a23,#0d1117)}
+  h1{margin:0 0 4px;font-size:20px;letter-spacing:.2px}
+  .sub{color:var(--dim);font-size:13px}
+  nav{display:flex;flex-wrap:wrap;gap:6px;padding:12px 26px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#0d1117ee;z-index:9;backdrop-filter:blur(6px)}
+  nav button{background:var(--panel);color:var(--dim);border:1px solid var(--line);border-radius:999px;
+             padding:6px 13px;font-size:12.5px;cursor:pointer}
+  nav button:hover{color:var(--ink);border-color:#3a4a5c}
+  nav button.on{background:#12314f;color:#cfe6ff;border-color:#2b5c8a}
+  main{padding:20px 26px 70px;max-width:1500px}
+  section{display:none} section.on{display:block}
+  h2{font-size:16px;margin:4px 0 12px}
+  h3{font-size:13.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin:26px 0 8px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:13px 14px}
+  .card .n{font-size:24px;font-weight:650;letter-spacing:-.5px}
+  .card .l{color:var(--dim);font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;margin-top:2px}
+  .card .f{color:#7f8c9a;font-size:11px;margin-top:6px}
+  table{border-collapse:collapse;width:100%;font-size:12.8px;background:var(--panel);
+        border:1px solid var(--line);border-radius:8px;overflow:hidden}
+  th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{background:var(--panel2);color:var(--dim);font-weight:600;font-size:11.5px;text-transform:uppercase;
+     letter-spacing:.05em;position:sticky;top:52px;cursor:pointer;white-space:nowrap}
+  tr:hover td{background:#18212c}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .tw{max-height:70vh;overflow:auto;border:1px solid var(--line);border-radius:8px}
+  .chip{display:inline-block;padding:1px 7px;border-radius:999px;font-size:10.5px;background:var(--chip);
+        border:1px solid #2d3d4e;white-space:nowrap;font-weight:600}
+  .V{color:#8ce0a0;border-color:#2c5c3a;background:#12281a}
+  .R{color:#9fd0ff;border-color:#28486b;background:#101d2b}
+  .C{color:#f2d28a;border-color:#5c4a1e;background:#251f10}
+  .G{color:#f0a3a3;border-color:#5c2b2b;background:#2a1515}
+  .hi{color:var(--ok)} .med{color:var(--warn)} .lo{color:var(--bad)}
+  input[type=search],select,textarea{background:#0f151d;color:var(--ink);border:1px solid var(--line);
+        border-radius:7px;padding:7px 10px;font-size:13px;font-family:inherit}
+  input[type=search]{min-width:280px}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+  .note{color:var(--dim);font-size:12px;margin:8px 0 0}
+  .claim{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--acc);
+         border-radius:8px;padding:14px 16px;margin-bottom:12px}
+  .claim h4{margin:0 0 6px;font-size:14.5px}
+  .claim .st{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  .st.PARTLY_SOUND{color:var(--warn)} .st.FACTUALLY_WRONG_PREMISE{color:var(--bad)}
+  .st.UNSOUND_AS_STATED{color:var(--bad)} .st.SOUND{color:var(--ok)} .st.ALREADY_MANDATED{color:var(--acc)}
+  .kv{margin:10px 0 0;display:grid;grid-template-columns:170px 1fr;gap:6px 14px;font-size:12.8px}
+  .kv dt{color:var(--dim);font-weight:600}
+  .kv dd{margin:0}
+  a{color:var(--acc);text-decoration:none} a:hover{text-decoration:underline}
+  code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  pre{background:#0f151d;border:1px solid var(--line);border-radius:8px;padding:12px;overflow:auto;font-size:12.3px;color:#c9d6e3}
+  .warnbox{background:#2a1f10;border:1px solid #5c4a1e;border-radius:8px;padding:12px 14px;color:#f2d28a;font-size:12.8px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:900px){.grid2{grid-template-columns:1fr}}
+  footer{color:#67748280;font-size:11.5px;padding:0 26px 40px;color:#677482}
+</style>
+</head>
+<body>
+<header>
+  <h1>Australian Data Centre Observatory</h1>
+  <div class="sub">
+    Verified database of the Australian data centre build-out &middot; data as at <strong>18 September 2026</strong>
+    &middot; schema v1.0.0 &middot; <span id="srcCount"></span> catalogued sources
+  </div>
+</header>
+
+<nav id="nav"></nav>
+<main>
+  <div id="loadError" class="warnbox" style="display:none">
+    <strong>This viewer could not load <code>db.json</code>.</strong><br>
+    It reads the data file with <code>fetch()</code>, which browsers block on the <code>file://</code> protocol and
+    inside sandboxed previews. Either (a) serve the folder locally — <code>cd au-dc-observatory/viewer &amp;&amp;
+    python3 -m http.server 8000</code> — then open <code>http://localhost:8000</code>, or (b) work directly from
+    <code>exports/australian_data_centre_observatory.db</code> (SQLite) or <code>exports/csv/*.csv</code>.
+    The embedded fallback below is a static snapshot of the headline tables.
+  </div>
+  <div id="app"></div>
+</main>
+<footer>
+  Every row in this database carries a source id, a fact status (VERIFIED / REPORTED / CLAIMED / GAP) and a confidence
+  grade. CLAIMED and GAP rows are unverified and must not be published as fact. See <code>reports/build_report.md</code>.
+</footer>
+
+<script id="fallback" type="application/json">{"__fallback__":true}</script>
+<script>
+const TABS = [
+  ["dash","Dashboard"],["sites","Sites & pipeline"],["entities","Entities & ownership"],
+  ["money","Capital & incentives"],["law","Law & regulation"],["community","Community friction"],
+  ["audit","Renewable claim audit"],["eng","Engineering critique"],["gaps","Research gaps"],
+  ["sources","Sources"],["tables","All tables"]
+];
+
+const S = (t,cl)=>`<span class="chip ${cl||''}">${t??''}</span>`;
+const fsChip = v=>S(v,{VERIFIED:'V',REPORTED:'R',CLAIMED:'C',GAP:'G'}[v]||'');
+const confChip = v=>v?`<span class="${v==='high'?'hi':v==='medium'?'med':'lo'}">${v}</span>`:'—';
+const mw = v=>v==null?'—':v.toLocaleString(undefined,{maximumFractionDigits:0});
+const aud = v=>v==null?'—':'A$'+(v>=1e9?(v/1e9).toFixed(v>=1e10?0:1)+'bn':(v/1e6).toFixed(0)+'m');
+const esc = s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+let DB = null;
+
+function nav(){
+  const n=document.getElementById('nav');
+  n.innerHTML = TABS.map(([id,l])=>`<button data-t="${id}">${l}</button>`).join('');
+  n.querySelectorAll('button').forEach(b=>b.onclick=()=>show(b.dataset.t));
+}
+function show(id){
+  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===id));
+  document.getElementById('app').innerHTML='';
+  ({dash,sites,entities,money,law,community,audit,eng,gaps,sources,tables})[id](document.getElementById('app'));
+}
+
+/* ---------------------------------------------------------------- dash */
+function dash(el){
+  const sites=DB.sites, mets=DB.metrics, flows=DB.financial_flows;
+  const cap = (st)=>sites.filter(s=>st.includes(s.status))
+        .reduce((a,s)=>a+(s.max_capacity_mw||s.total_capacity_mw||s.it_capacity_mw||0),0);
+  const cards=[
+    [sites.length,"Sites mapped","of ~162 operational nationally (AEMO)"],
+    [mw(cap(['lodged','approved','under_construction','rumoured','pre_lodgement']))+" MW","Pipeline capacity","lodged / approved / building / rumoured"],
+    [mw(cap(['operational']))+" MW","Operational capacity mapped","mostly enclave-level, capacities undisclosed"],
+    [aud(flows.filter(f=>f.flow_type==='capex_commitment').reduce((a,f)=>a+(f.amount_aud||0),0)),"Public capex commitments","Microsoft, AWS, NEXTDC S7, CDC Laverton"],
+    [DB.sources.length,"Sources catalogued",DB.sources.filter(s=>s.doc_type.startsWith('primary')).length+" primary documents"],
+    [DB.legal_instruments.length,"Legal instruments tracked",DB.legal_instruments.filter(i=>i.binding===0).length+" non-binding"],
+    [DB.community_events.length,"Community friction events",DB.community_events.filter(c=>c.severity>=4).length+" at severity 4-5"],
+    [DB.research_gaps.filter(g=>g.status==='open').length,"Open research gaps",DB.research_gaps.filter(g=>g.priority>=5).length+" at priority 5"],
+    [DB.renewable_claims.filter(c=>c.verification_status==='VERIFIED').length+"/"+DB.renewable_claims.length,"Renewable claims verified","the rest are unverified or contradicted"],
+  ];
+  el.innerHTML=`<section class="on"><h2>Headline position</h2><div class="cards">
+      ${cards.map(c=>`<div class="card"><div class="n">${c[0]}</div><div class="l">${c[1]}</div><div class="f">${c[2]}</div></div>`).join('')}
+    </div>
+    <h3>Where the physical build-out stands</h3><div class="tw"><table id="t_state"></table></div>
+    <h3>System metrics with the widest gap between claim and evidence</h3><div class="tw"><table id="t_mets"></table></div>
+    <h3>Verification posture</h3><div class="tw"><table id="t_ver"></table></div>
+    <p class="note">Read the verification posture before citing anything. VERIFIED means the underlying primary
+    document was read; REPORTED means credible secondary reporting; CLAIMED is an untested proponent or industry
+    assertion; GAP is a known unknown carried in the research backlog.</p></section>`;
+  render(el,"t_state",DB.v_pipeline_by_state,{sort:'mw_sum',desc:true});
+  render(el,"t_mets",mets.filter(m=>['phantom_share_of_connection_requests','applications_likely_to_proceed',
+      'transmission_connection_queue_mw','signed_data_centre_connection_capacity','large_load_connection_enquiries',
+      'diesel_generator_unregulated_hours','data_centre_share_of_drinking_water','wholesale_price_impact_without_new_supply',
+      'ssd_pipeline_value','data_centre_pipeline_investment','grid_share_of_energy']
+      .includes(m.metric_name)),{cols:['as_of','scope','metric_name','value','unit','basis','confidence','fact_status']});
+  render(el,"t_ver",DB.v_verification_ledger,{});
+}
+
+/* --------------------------------------------------------------- sites */
+function sites(el){
+  el.innerHTML=`<section class="on"><h2>Sites, campuses and proposals</h2>
+   <div class="bar"><input type="search" id="q" placeholder="Search name, suburb, LGA, operator, notes…">
+   <select id="st"></select><select id="sa"></select>
+   <span class="note" id="cnt"></span></div>
+   <div class="tw"><table id="t"></table></div></section>`;
+  const states=[...new Set(DB.sites.map(s=>s.state))].sort();
+  const stats=[...new Set(DB.sites.map(s=>s.status))].sort();
+  el.querySelector('#sa').innerHTML=`<option value="">all states</option>`+states.map(s=>`<option>${s}</option>`).join('');
+  el.querySelector('#st').innerHTML=`<option value="">all statuses</option>`+stats.map(s=>`<option>${s}</option>`).join('');
+  const name=id=>(DB.entities.find(e=>e.id===id)||{}).name||'';
+  const draw=()=>{
+    const q=el.querySelector('#q').value.toLowerCase(), f=el.querySelector('#st').value, a=el.querySelector('#sa').value;
+    const rows=DB.sites.filter(s=>(!f||s.status===f)&&(!a||s.state===a)&&(!q||JSON.stringify(s).toLowerCase().includes(q)||
+        (name(s.operator_id)+name(s.owner_id)+name(s.anchor_tenant_id)).toLowerCase().includes(q)))
+      .sort((x,y)=>(y.max_capacity_mw||y.total_capacity_mw||y.it_capacity_mw||0)-(x.max_capacity_mw||x.total_capacity_mw||x.it_capacity_mw||0));
+    el.querySelector('#cnt').textContent=`${rows.length} of ${DB.sites.length} sites`;
+    render(el,"t",rows.map(s=>({name:s.name,state:s.state,market:s.market,status:s.status,
+      operator:name(s.operator_id),owner:name(s.owner_id),tenant:name(s.anchor_tenant_id),
+      mw:s.max_capacity_mw||s.total_capacity_mw||s.it_capacity_mw,it_mw:s.it_capacity_mw,
+      capex:s.capital_cost_aud,hcf:s.hcf_certified,confidence:s.confidence,fact_status:s.fact_status,
+      as_of:s.as_of_date,notes:s.notes})),
+      {fmt:{mw:mw,it_mw:mw,capex:aud}});
+  };
+  ['q','st','sa'].forEach(id=>el.querySelector('#'+id).addEventListener('input',draw));
+  draw();
+}
+
+/* ------------------------------------------------------------ entities */
+function entities(el){
+  el.innerHTML=`<section class="on"><h2>Entities and the control chain</h2>
+   <div class="bar"><input type="search" id="q" placeholder="Search entities…">
+   <select id="ty"></select><span class="note">Ownership rows show who ultimately controls Australian compute.</span></div>
+   <div class="grid2"><div><h3>Entities</h3><div class="tw"><table id="t1"></table></div></div>
+   <div><h3>Ownership &amp; control</h3><div class="tw"><table id="t2"></table></div>
+   <h3>Foreign control test</h3><div class="tw"><table id="t3"></table></div></div></div></section>`;
+  const types=[...new Set(DB.entities.map(e=>e.entity_type))].sort();
+  el.querySelector('#ty').innerHTML=`<option value="">all types</option>`+types.map(t=>`<option>${t}</option>`).join('');
+  const nm=id=>(DB.entities.find(e=>e.id===id)||{}).name||id||'';
+  const draw=()=>{
+    const q=el.querySelector('#q').value.toLowerCase(), t=el.querySelector('#ty').value;
+    render(el,"t1",DB.entities.filter(e=>(!t||e.entity_type===t)&&(!q||JSON.stringify(e).toLowerCase().includes(q)))
+      .map(e=>({name:e.name,type:e.entity_type,domicile:e.domicile,ticker:e.asx_ticker||'',
+                confidence:e.confidence,fact_status:e.fact_status,notes:e.notes})),{});
+    render(el,"t2",DB.ownership.map(o=>({holder:nm(o.holder_id),target:nm(o.target_id),stake_pct:o.stake_pct,
+      instrument:o.instrument||'',from:o.effective_from||'',to:o.effective_to||'',value:aud(o.transaction_value_aud),
+      firb:o.firb_reviewed?'yes':'—',event:o.event||'',fact_status:o.fact_status})),{});
+    render(el,"t3",DB.v_foreign_control.filter(r=>r.stake_pct!=null).map(r=>({entity:r.name,type:r.entity_type,
+      holder:r.holder,holder_domicile:r.holder_domicile,stake_pct:r.stake_pct,firb:r.firb_reviewed?'yes':'no',
+      outcome:r.firb_outcome||''})),{});
+  };
+  ['q','ty'].forEach(id=>el.querySelector('#'+id).addEventListener('input',draw)); draw();
+}
+
+/* --------------------------------------------------------------- money */
+function money(el){
+  el.innerHTML=`<section class="on"><h2>Capital flows, land and incentives</h2>
+   <div class="tw"><table id="t1"></table></div>
+   <h3>Land events</h3><div class="tw"><table id="t2"></table></div>
+   <h3>Incentive &amp; subsidy register</h3><div class="tw"><table id="t3"></table></div>
+   <div class="warnbox" style="margin-top:14px">The subsidy register is deliberately incomplete. No primary
+   evidence of payroll tax waivers, land tax exemptions or concessional leasehold land granted to a data centre
+   proponent in Australia has been located — and the industry body asserts none exist. That assertion is recorded
+   as a GAP and is the subject of research gap RG-007 (FOI to state revenue offices). Do not publish a subsidy
+   thesis on this evidence base.</div></section>`;
+  const nm=id=>(DB.entities.find(e=>e.id===id)||{}).name||'';
+  const sn=id=>(DB.sites.find(s=>s.id===id)||{}).name||'';
+  render(el,"t1",DB.financial_flows.map(f=>({date:f.flow_date,type:f.flow_type,from:nm(f.from_entity_id),
+    to:nm(f.to_entity_id),site:sn(f.site_id),amount:f.amount_aud,vehicle:f.vehicle||'',
+    foreign:f.foreign_control==null?'':(f.foreign_control?'foreign':'domestic'),
+    confidence:f.confidence,fact_status:f.fact_status,notes:f.notes})),
+    {fmt:{amount:aud},sort:'date',desc:true});
+  render(el,"t2",DB.land_events.map(l=>({date:l.event_date,type:l.event_type,seller:nm(l.seller_id),
+    buyer:nm(l.buyer_id),site:sn(l.site_id),ha:l.area_ha,value:aud(l.value_aud),
+    conditionality:l.conditionality||'',fact_status:l.fact_status,notes:l.notes})),{});
+  render(el,"t3",DB.v_incentive_register.map(i=>({jurisdiction:i.jurisdiction,body:i.granting_body,
+    recipient:i.recipient||'(sector-wide)',type:i.incentive_type,instrument:i.instrument,amount:i.amount_aud,
+    conditions:i.conditions,conditionality:i.conditionality_score,domestic_compute:i.domestic_compute_allocation?'yes':'no',
+    disclosed:i.disclosed?'yes':'no',fact_status:i.fact_status})),{fmt:{amount:aud}});
+}
+
+/* ----------------------------------------------------------------- law */
+function law(el){
+  el.innerHTML=`<section class="on"><h2>Legislative and regulatory framework</h2>
+   <div class="bar"><input type="search" id="q" placeholder="Search instruments…">
+   <select id="ju"></select><span class="note">Binding vs non-binding is the field that matters most here.</span></div>
+   <div class="tw"><table id="t1"></table></div>
+   <h3>How instruments bite on named sites and entities</h3><div class="tw"><table id="t2"></table></div>
+   <h3>Regulatory events, in date order</h3><div class="tw"><table id="t3"></table></div></section>`;
+  const jus=[...new Set(DB.legal_instruments.map(i=>i.jurisdiction))].sort();
+  el.querySelector('#ju').innerHTML=`<option value="">all jurisdictions</option>`+jus.map(j=>`<option>${j}</option>`).join('');
+  const nm=id=>(DB.entities.find(e=>e.id===id)||{}).name||'';
+  const sn=id=>(DB.sites.find(s=>s.id===id)||{}).name||'';
+  const ln=id=>(DB.legal_instruments.find(i=>i.id===id)||{}).name||'';
+  const draw=()=>{
+    const q=el.querySelector('#q').value.toLowerCase(), j=el.querySelector('#ju').value;
+    render(el,"t1",DB.legal_instruments.filter(i=>(!j||i.jurisdiction===j)&&(!q||JSON.stringify(i).toLowerCase().includes(q)))
+      .map(i=>({name:i.name,jurisdiction:i.jurisdiction,type:i.instrument_type,status:i.status,
+        binding:i.binding?'binding':'non-binding',made:i.made||'',commenced:i.commenced||'',
+        summary:i.summary,relevance:i.relevance,confidence:i.confidence,fact_status:i.fact_status,url:i.url||''})),{});
+    render(el,"t2",DB.instrument_application.map(a=>({instrument:ln(a.instrument_id),site:sn(a.site_id),
+      entity:nm(a.entity_id),from:a.applies_from||'',obligation:a.obligation,compliance:a.compliance_status,
+      evidence:a.evidence,fact_status:a.fact_status})),{});
+    render(el,"t3",DB.regulatory_events.map(r=>({date:r.event_date,regulator:nm(r.regulator_id),
+      type:r.event_type,instrument:ln(r.instrument_id),site:sn(r.site_id),summary:r.summary,
+      confidence:r.confidence,fact_status:r.fact_status})),{sort:'date',desc:true});
+  };
+  ['q','ju'].forEach(id=>el.querySelector('#'+id).addEventListener('input',draw)); draw();
+}
+
+/* ----------------------------------------------------------- community */
+function community(el){
+  el.innerHTML=`<section class="on"><h2>Community impact and externalities</h2>
+   <div class="bar"><select id="st"></select><select id="ty"></select><span class="note">Severity 5 = formal council objection.</span></div>
+   <div class="tw"><table id="t1"></table></div>
+   <h3>Community groups register</h3><div class="tw"><table id="t2"></table></div></section>`;
+  const sts=[...new Set(DB.community_events.map(c=>c.state))].sort();
+  const tys=[...new Set(DB.community_events.map(c=>c.event_type))].sort();
+  el.querySelector('#st').innerHTML=`<option value="">all states</option>`+sts.map(s=>`<option>${s}</option>`).join('');
+  el.querySelector('#ty').innerHTML=`<option value="">all event types</option>`+tys.map(t=>`<option>${t}</option>`).join('');
+  const sn=id=>(DB.sites.find(s=>s.id===id)||{}).name||'';
+  const gn=id=>(DB.community_groups.find(g=>g.id===id)||{}).name||'';
+  const draw=()=>{
+    const s=el.querySelector('#st').value,t=el.querySelector('#ty').value;
+    render(el,"t1",DB.v_community_friction.filter(c=>(!s||c.state===s)&&(!t||c.event_type===t))
+      .map(c=>({date:c.event_date,state:c.state,locality:c.locality,type:c.event_type,actor:c.actor,
+        group:c.community_group||'',site:c.site||'',severity:c.severity,summary:c.summary,
+        outcome:c.outcome||'',fact_status:c.fact_status})),{sort:'date',desc:true});
+    render(el,"t2",DB.community_groups.map(g=>({name:g.name,locality:g.locality,state:g.state,formed:g.formed||'',
+      focus:g.focus,fact_status:g.fact_status})),{});
+  };
+  ['st','ty'].forEach(id=>el.querySelector('#'+id).addEventListener('change',draw)); draw();
+}
+
+/* --------------------------------------------------------------- audit */
+function audit(el){
+  el.innerHTML=`<section class="on"><h2>Renewable claim audit</h2>
+   <p class="note">The Observatory's verification standard: a renewable claim is VERIFIED only when contracted
+   instruments satisfy an additionality test <em>and</em> reconcile to Clean Energy Regulator certificate surrender
+   and NGERS emissions data. Nothing in this table currently meets that bar, because the CER dataset ingestion
+   (research gap RG-009) has not been run.</p>
+   <div class="tw"><table id="t1"></table></div>
+   <h3>Disclosed energy and water agreements</h3><div class="tw"><table id="t2"></table></div>
+   <h3>The additionality test now written into NSW policy (Principle 3, Ref 13)</h3>
+   <pre>a) minimum 40% wind generation component (MWh)
+b) storage capacity of at least 25% of generation capacity (MW) for a four hour duration
+c) from the fourth year of operation, contracted supply equals annual average energy and rises with the ramp
+d) agreement duration of at least ten years
+e) the project had NOT reached Final Investment Decision at the time of contracting
+f) portfolios are permitted provided data centre demand is met
+g) co-location providers may combine operator and major tenant commitments
+Interim shortfalls may be bridged with REGO certificates or equivalent — which must themselves meet the
+wind, storage and location components above.</pre>
+   <div class="warnbox">Counter-evidence on the record: Greenpeace Australia Pacific (May 2026) found that
+   <strong>no data centre operator analysed adequately proved its claim of driving Australia's renewable energy
+   growth</strong>. Clean Energy Regulator NGERS data reported by the AFR (March 2026) shows emissions of the top
+   three operators — AirTrunk, CDC and Amazon — doubled over five years and rose 20% in 2024-25.</div></section>`;
+  const nm=id=>(DB.entities.find(e=>e.id===id)||{}).name||'';
+  const sn=id=>(DB.sites.find(s=>s.id===id)||{}).name||'';
+  render(el,"t1",DB.v_renewable_audit.map(c=>({claimant:c.claimant,site:c.site||'',date:c.claim_date,
+    scope:c.claim_scope,type:c.claim_type,target_year:c.target_year||'',claim:c.claim_text,
+    instrument:c.instrument_relied_on||'',lgc_evidence:c.lgc_surrender_evidence||'',
+    status:c.verification_status,note:c.verification_note})),{});
+  render(el,"t2",DB.energy_agreements.map(a=>({buyer:nm(a.buyer_id),seller:nm(a.seller_id),site:sn(a.site_id),
+    type:a.agreement_type,technology:a.technology||'',mw:a.capacity_mw,gwh:a.annual_volume_gwh,
+    term:a.term_years,signed:a.signed||'',additionality:a.additionality,wind_pct:a.wind_share_pct,
+    storage_pct:a.storage_share_pct,disclosed:a.disclosed?'yes':'no',fact_status:a.fact_status,notes:a.notes})),{});
+}
+
+/* ----------------------------------------------------------------- eng */
+function eng(el){
+  const order={FACTUALLY_WRONG_PREMISE:0,UNSOUND_AS_STATED:1,PARTLY_SOUND:2,ALREADY_MANDATED:3,SOUND:4};
+  const rows=[...DB.engineering_claims].sort((a,b)=>(order[a.claim_status]??9)-(order[b.claim_status]??9));
+  el.innerHTML=`<section class="on"><h2>Engineering critique register</h2>
+   <p class="note">Each proposition from the project brief is tested against Australian evidence and, where it
+   fails, replaced with a specification that existing policy instruments can actually carry.</p>
+   ${rows.map(c=>`<div class="claim">
+     <div class="st ${c.claim_status}">${c.claim_status.replace(/_/g,' ')}</div>
+     <h4>${esc(c.claim_label)}</h4>
+     <dl class="kv">
+       <dt>Premise check</dt><dd>${esc(c.premise_check)}</dd>
+       <dt>Australian reality</dt><dd>${esc(c.australia_reality)}</dd>
+       <dt>Replacement spec</dt><dd>${esc(c.replacement_spec)}</dd>
+       <dt>Policy hook that already exists</dt><dd>${esc(c.existing_policy_hook)}</dd>
+       <dt>Residual gap</dt><dd>${esc(c.residual_gap)}</dd>
+       <dt>Evidence</dt><dd>${esc(c.evidence_site_ids||'n/a')} · sources: ${esc(c.source_ids||'')}</dd>
+     </dl></div>`).join('')}</section>`;
+}
+
+/* --------------------------------------------------------------- gaps */
+function gaps(el){
+  el.innerHTML=`<section class="on"><h2>Research gaps and ingestion backlog</h2>
+   <div class="bar"><select id="p"></select><span class="note">Priority 5 = blocks publication of a headline finding.</span></div>
+   <div class="tw"><table id="t"></table></div></section>`;
+  const ps=[...new Set(DB.research_gaps.map(g=>g.pillar))].sort();
+  el.querySelector('#p').innerHTML=`<option value="">all pillars</option>`+ps.map(p=>`<option>Pillar ${p}</option>`).join('');
+  const draw=()=>{const p=el.querySelector('#p').value.replace('Pillar ','');
+    render(el,"t",DB.research_gaps.filter(g=>!p||g.pillar===p)
+      .sort((a,b)=>b.priority-a.priority)
+      .map(g=>({id:'RG-'+String(g.id).padStart(3,'0'),pillar:g.pillar,priority:g.priority,method:g.retrieval_method,
+        question:g.question,why:g.why_it_matters,target:g.target_source,status:g.status})),{});};
+  el.querySelector('#p').addEventListener('change',draw); draw();
+}
+
+/* ------------------------------------------------------------ sources */
+function sources(el){
+  el.innerHTML=`<section class="on"><h2>Source catalogue</h2>
+   <div class="bar"><input type="search" id="q" placeholder="Search sources…"><select id="d"></select>
+   <select id="c"></select></div><div class="tw"><table id="t"></table></div>
+   <p class="note">Credibility: A = primary government, regulator, legislation, portal or first-party company
+   document, or a major broadcaster/wire. B = established trade press, law firm analysis, think tank, market
+   research. C = single-source, social, community or aggregator. D = unusable.</p></section>`;
+  const ds=[...new Set(DB.sources.map(s=>s.doc_type))].sort();
+  el.querySelector('#d').innerHTML=`<option value="">all document types</option>`+ds.map(d=>`<option>${d}</option>`).join('');
+  el.querySelector('#c').innerHTML=`<option value="">all credibility</option>`+['A','B','C','D'].map(c=>`<option>${c}</option>`).join('');
+  const draw=()=>{const q=el.querySelector('#q').value.toLowerCase(),d=el.querySelector('#d').value,c=el.querySelector('#c').value;
+    render(el,"t",DB.sources.filter(s=>(!d||s.doc_type===d)&&(!c||s.credibility===c)&&(!q||JSON.stringify(s).toLowerCase().includes(q)))
+      .map(s=>({id:s.id,title:s.title,publisher:s.publisher,type:s.doc_type,published:s.published||'',
+        credibility:s.credibility,url:s.url,notes:s.notes})),
+      {fmt:{url:u=>u?`<a href="${esc(u)}" target="_blank" rel="noopener">open ↗</a>`:''}});};
+  ['q','d','c'].forEach(id=>el.querySelector('#'+id).addEventListener('input',draw)); draw();
+}
+
+/* -------------------------------------------------------------- tables */
+function tables(el){
+  const skip=new Set(['v_verification_ledger']);
+  const names=Object.keys(DB).filter(k=>Array.isArray(DB[k])&&!skip.has(k));
+  el.innerHTML=`<section class="on"><h2>Raw tables and views</h2>
+   <div class="bar"><select id="t"></select><input type="search" id="q" placeholder="Filter rows…">
+   <span class="note" id="cnt"></span></div><div class="tw"><table id="tb"></table></div>
+   <h3>Query the database directly</h3>
+   <pre>sqlite3 exports/australian_data_centre_observatory.db \\
+  "SELECT s.name, s.state, s.status, COALESCE(s.max_capacity_mw,s.it_capacity_mw) AS mw,
+          p.genset_count, p.diesel_storage_kl, w.cooling_technology, w.water_source
+     FROM sites s
+     LEFT JOIN power_profile p ON p.site_id=s.id
+     LEFT JOIN water_profile w ON w.site_id=s.id
+    WHERE s.state='NSW'
+    ORDER BY mw DESC;"</pre></section>`;
+  el.querySelector('#t').innerHTML=names.map(n=>`<option>${n} (${DB[n].length})</option>`).join('');
+  const draw=()=>{const n=el.querySelector('#t').value.replace(/\s*\(\d+\)$/,'');
+    const q=el.querySelector('#q').value.toLowerCase();
+    let rows=DB[n]; if(!Array.isArray(rows))return;
+    if(q)rows=rows.filter(r=>JSON.stringify(r).toLowerCase().includes(q));
+    el.querySelector('#cnt').textContent=`${rows.length} rows`;
+    render(el,"tb",rows,{});};
+  ['t','q'].forEach(id=>el.querySelector('#'+id).addEventListener('input',draw)); draw();
+}
+
+/* -------------------------------------------------------------- render */
+function render(root,id,rows,opts={}){
+  const t=root.querySelector('#'+id); if(!t||!rows||!rows.length){if(t)t.innerHTML='<tr><td>no rows</td></tr>';return;}
+  let cols=opts.cols||Object.keys(rows[0]);
+  const fmt=Object.assign({fact_status:fsChip,confidence:confChip},opts.fmt||{});
+  let state={col:opts.sort||null,desc:!!opts.desc};
+  const draw=()=>{
+    let r=[...rows];
+    if(state.col){r.sort((a,b)=>{const x=a[state.col],y=b[state.col];
+      const v=(x==null)-(y==null)|| (typeof x==='number'&&typeof y==='number'? x-y : String(x??'').localeCompare(String(y??'')));
+      return state.desc?-v:v;});}
+    t.innerHTML='<thead><tr>'+cols.map(c=>`<th data-c="${c}">${c.replace(/_/g,' ')}${state.col===c?(state.desc?' ↓':' ↑'):''}</th>`).join('')+'</tr></thead><tbody>'+
+      r.map(row=>'<tr>'+cols.map(c=>{
+        let v=row[c]; v=(fmt[c]?fmt[c](v,row):v)??'—';
+        const num=typeof row[c]==='number';
+        return `<td class="${num?'num':''}">${typeof v==='string'&&v.startsWith('<')?v:esc(v)}</td>`;}).join('')+'</tr>').join('')+'</tbody>';
+    t.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+      const c=th.dataset.c; state.desc = state.col===c? !state.desc : false; state.col=c; draw();});
+  };
+  draw();
+}
+
+/* ---------------------------------------------------------------- boot */
+const FALLBACK_SNIPPET = {
+  sites:[{name:"Western Downs Digital Park",state:"QLD",market:"NEM",status:"lodged",mw:2160,fact_status:"REPORTED",confidence:"medium",
+          notes:"A$31.9bn; up to four 360 MW AI-ready buildings = 1.44 GW IT; 2.16 GW peak ≈ a quarter of Queensland peak demand."},
+         {name:"Mamre Road Data Centre Campus ('Summit', AirTrunk SYD4)",state:"NSW",market:"NEM",status:"lodged",mw:1200,
+          fact_status:"VERIFIED",confidence:"high",
+          notes:"Kemps Creek, 52 ha, six four-storey buildings, 728 cooling units, 846 diesel generators, >18,000 kL diesel storage, ~500+500 jobs. Land held by IFM Investors; AirTrunk buyer subject to 1 GW approval. Penrith Council objected; NSW EPA found the EIS incomplete on 10 April 2026."},
+         {name:"CDC Marsden Park campus",state:"NSW",market:"NEM",status:"under_construction",mw:1000,fact_status:"REPORTED",confidence:"high",
+          notes:"504 MW scaling to ~1 GW; largest campus in the Southern Hemisphere; BBC reports construction ~100 m from a community."},
+         {name:"Cloud Carrier Southern Highlands Data Campus",state:"NSW",market:"NEM",status:"lodged",mw:700,fact_status:"REPORTED",confidence:"high",
+          notes:"Moss Vale, 67 ha, served by a proposed 673 MW fossil gas power station. Greenpeace estimates ~2.4 Mt CO2-e/yr."},
+         {name:"NEXTDC S7 Sydney (Eastern Creek)",state:"NSW",market:"NEM",status:"lodged",mw:650,fact_status:"REPORTED",confidence:"high",
+          notes:"612 MW with OpenAI as anchor under OpenAI for Countries; A$7.6bn. Abandoned recycled-water cooling because pipeline planning permission was unavailable; switched to direct-to-chip liquid cooling."}],
+  sources:[],metrics:[],financial_flows:[],community_events:[],engineering_claims:[],research_gaps:[],
+  renewable_claims:[],legal_instruments:[],ownership:[],entities:[],land_events:[],energy_agreements:[],
+  incentives:[],regulatory_events:[],community_groups:[],security_records:[],v_pipeline_by_state:[],
+  v_foreign_control:[],v_incentive_register:[],v_renewable_audit:[],v_community_friction:[],v_verification_ledger:[],
+  instrument_application:[],applications:[],power_profile:[],water_profile:[]
+};
+
+async function boot(){
+  nav();
+  try{
+    const r = await fetch('db.json',{cache:'no-store'});
+    if(!r.ok) throw new Error(r.status);
+    DB = await r.json();
+  }catch(e){
+    document.getElementById('loadError').style.display='block';
+    DB = FALLBACK_SNIPPET;
+  }
+  document.getElementById('srcCount').textContent = DB.sources.length ? DB.sources.length : '60';
+  show('dash');
+}
+boot();
+</script>
+</body>
+</html>

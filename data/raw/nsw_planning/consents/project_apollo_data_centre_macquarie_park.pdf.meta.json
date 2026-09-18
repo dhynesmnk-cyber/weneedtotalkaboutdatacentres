@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-74069708%2120260903T232907.821+GMT",
+ "attachment_slug": "project-apollo-dc-development-consent",
+ "title": "Project Apollo DC - Development Consent",
+ "folder": "Determination",
+ "label": "Project Apollo DC - Development Consent.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:37:56+00:00",
+ "sha256": "2176ca5b88e7568ed8f5e1248ae1dfe71b15eb263b452f38909e5cf911b52f92",
+ "bytes": 1769443,
+ "extraction": {
+  "chars": 106584,
+  "kb": 1727,
+  "chars_per_kb": 61.7,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:13+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}
