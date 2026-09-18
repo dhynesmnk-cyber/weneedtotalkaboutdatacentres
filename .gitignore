@@ -27,3 +27,8 @@ coverage/
 *.log
 npm-debug.log*
 .DS_Store
+
+# Supabase CLI local state. Holds the linked project ref and, depending on the
+# command, credentials. Never commit it.
+supabase/.temp/
+supabase/.branches/

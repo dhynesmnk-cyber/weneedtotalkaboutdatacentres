@@ -13,6 +13,45 @@ No Supabase project exists yet. Nothing in the app depends on one: every page
 renders an explicit "no database connected" state, and `npm run build` succeeds
 without credentials.
 
+The migrations were verified locally against **Postgres 16**, which is what was
+available. Supabase runs **Postgres 17**, and `supabase/config.toml` declares 17
+(the CLI rejects 16 outright). CI runs the behavioural tests against both, so
+the version that actually matters is covered on every pull request rather than
+assumed. Nothing in the schema is version sensitive, but the difference is
+recorded rather than glossed.
+
+The Supabase CLI is a devDependency, so `npx supabase ...` works without a
+global install.
+
+## Doing this from a Claude Code session
+
+An agent session can only reach Supabase if the environment's network policy
+allows it. By default `supabase.com` and `api.supabase.com` are blocked, and the
+block is enforced by the proxy, so it cannot be worked around from inside a
+session. Two things are needed, both set on the environment at
+https://claude.ai/code and neither of which takes effect until a **new session**
+starts, because the proxy configuration is fixed when the container boots:
+
+1. **Network policy**: allow `api.supabase.com` (the Management API and what the
+   CLI calls) and `supabase.com`. See
+   https://code.claude.com/docs/en/claude-code-on-the-web for how policies are
+   configured.
+2. **Access token**: set `SUPABASE_ACCESS_TOKEN` as an environment variable on
+   the environment, generated at
+   https://supabase.com/dashboard/account/tokens.
+
+On that token, one caution worth reading before you create it. A Supabase
+personal access token is **account wide**: it can create, modify and delete
+projects across every organisation you belong to, and Supabase does not offer a
+scoped-down variant. Set it as an environment secret rather than pasting it into
+a conversation, so it does not end up in a transcript. If you only want the
+project created once, revoke the token afterwards — nothing in this repository
+needs it at runtime, only the anon and service role keys do.
+
+If you would rather not grant that, creating the project by hand and supplying
+just the project URL and anon key achieves the same result with far less
+exposure.
+
 ## 1. Create the project
 
 At https://supabase.com/dashboard, create a project.
@@ -27,10 +66,9 @@ At https://supabase.com/dashboard, create a project.
 ## 2. Apply the migrations
 
 ```bash
-npm install -g supabase          # or brew install supabase/tap/supabase
-supabase login
-supabase link --project-ref <your-project-ref>
-supabase db push
+npx supabase login
+npx supabase link --project-ref <your-project-ref>
+npx supabase db push
 ```
 
 `supabase db push` applies `supabase/migrations` in order. It should report four

@@ -40,9 +40,18 @@ jobs:
   rls:
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        # 17 is what Supabase runs, so that is the one that must pass. 16 is
+        # covered because local development and scripts/test-rls.sh run against
+        # whatever Postgres is to hand, and version drift between the two should
+        # surface here rather than on a developer's machine.
+        postgres: ['17', '16']
+
     services:
       postgres:
-        image: postgres:16
+        image: postgres:${{ matrix.postgres }}
         env:
           POSTGRES_PASSWORD: postgres
         ports:
