@@ -1,0 +1,42 @@
+# Supabase CLI configuration.
+#
+# project_id names the local stack only. Linking to a hosted project is done
+# with `supabase link --project-ref <ref>`, which writes the ref to
+# supabase/.temp and is not stored here.
+
+project_id = "au-datacentre-observatory"
+
+[api]
+enabled = true
+port = 54321
+
+# The schemas PostgREST exposes. Neither is `public`, so without this the API
+# returns a schema error for every query rather than an empty result. This is
+# the single most common way to get a working database and a broken app.
+#
+# A hosted project needs the same two schemas listed under
+# Settings > API > Exposed schemas. See docs/DEPLOYMENT.md.
+schemas = ["facts", "editorial"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+# v1 has no public sign-in. All public access is anonymous and read-only,
+# governed by the policies in supabase/migrations/0004_rls.sql.
+enable_signup = false
+
+[storage]
+enabled = true
+
+[analytics]
+enabled = false

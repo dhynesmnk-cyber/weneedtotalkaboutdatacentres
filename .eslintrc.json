@@ -1,0 +1,22 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["@supabase/supabase-js", "@supabase/ssr"],
+            "message": "Import Supabase clients only inside lib/supabase. Components and pages must use the typed functions in lib/. See CLAUDE.md conventions."
+          }
+        ]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["lib/supabase/*.ts"],
+      "rules": { "no-restricted-imports": "off" }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests
+        run: npm test
+
+      # Deliberately built with no Supabase credentials. Every page that reads
+      # data is dynamic, so the build never touches the database, and a build
+      # that only succeeds with credentials present would be hiding that.
+      - name: Build
+        run: npm run build
+
+  # Applies the migrations to a real Postgres and asserts what the anon role can
+  # actually see. The unit suite only reads the migration SQL as text, which
+  # cannot tell a declared policy from a working one.
+  rls:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # 17 is what Supabase runs, so that is the one that must pass. 16 is
+        # covered because local development and scripts/test-rls.sh run against
+        # whatever Postgres is to hand, and version drift between the two should
+        # surface here rather than on a developer's machine.
+        postgres: ['17', '16']
+
+    services:
+      postgres:
+        image: postgres:${{ matrix.postgres }}
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run RLS and constraint tests
+        run: ./scripts/test-rls.sh
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGUSER: postgres
+          PGPASSWORD: postgres
