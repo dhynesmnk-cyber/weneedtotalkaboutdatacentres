@@ -1,0 +1,2 @@
+id,site_id,event_date,event_type,seller_id,buyer_id,area_ha,value_aud,conditionality,notes,fact_status,source_id,confidence,as_of_date
+1,SITE_MAMRE_ROAD,2025-11-11,option,ENT_IFM,ENT_AIRTRUNK,52.0,,Sale of the land is conditional on approval of the 1 GW data centre application,"ISPT lists the property as 'Summit', masterplanned for 245,000 sqm. Reported value of the wider AirTrunk commitment exceeds A$5bn. Reconcile ISPT/IFM ownership - see research_gaps RG-005.",REPORTED,SRC_WMEDIA_ISPT,medium,2025-11-11

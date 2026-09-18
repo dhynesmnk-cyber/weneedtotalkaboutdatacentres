@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120241220T045540.251+GMT",
+ "attachment_slug": "signed-determination-instrument-davis-road-data-centre-1",
+ "title": "SIGNED Determination Instrument - Davis Road Data Centre",
+ "folder": "Determination",
+ "label": "SIGNED Determination Instrument - Davis Road Data Centre_SSD-59416728.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:36:59+00:00",
+ "sha256": "ab42764b6f449847dce5c71f6cf1ec69c7db04e518152dce0b1574d3cf70df69",
+ "bytes": 1326772,
+ "extraction": {
+  "chars": 96588,
+  "kb": 1295,
+  "chars_per_kb": 74.6,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:35:59+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

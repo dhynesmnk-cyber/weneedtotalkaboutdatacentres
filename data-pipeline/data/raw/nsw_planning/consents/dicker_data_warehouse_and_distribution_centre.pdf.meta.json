@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-8662%2120190429T020625.992+GMT",
+ "attachment_slug": "ssd-8662-development-consent",
+ "title": "SSD 8662 - Development Consent",
+ "folder": null,
+ "label": "SSD 8662 - Development Consent.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:37:15+00:00",
+ "sha256": "e235c04104fe2afdb7dc95619e02049e995eabfba93a8c00c85029b971409db6",
+ "bytes": 2469705,
+ "extraction": {
+  "chars": 67262,
+  "kb": 2411,
+  "chars_per_kb": 27.9,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:01+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

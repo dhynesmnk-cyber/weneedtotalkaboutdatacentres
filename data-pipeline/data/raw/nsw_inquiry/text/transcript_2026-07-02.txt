@@ -1,0 +1,3503 @@
+REPORT ON PROCEEDINGS BEFORE
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+INQUIRY INTO DATA CENTRES
+
+UNCORRECTED
+
+At Macquarie Room, Parliament House, Sydney, on Thursday 2 July 2026
+
+The Committee met at12:45.
+
+PRESENT
+
+Ms Abigail Boyd (Chair)
+
+The Hon. Mark Buttigieg
+
+The Hon. Scott Farlow
+
+(Deputy Chair)
+
+The Hon. Taylor Martin
+
+The Hon. Jacqui Munro
+
+The Hon. Peter Primrose
+
+PRESENT VIA VIDEOCONFERENCE
+
+The Hon. Emily Suvaal
+Thursday 2 July 2026
+
+Legislative Council
+Page1
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The CHAIR:
+Welcome to the fifth
+
+hearing of the Committee's
+
+inquiryinto data centres
+. I acknowledgethe Gadigal people of the Eora nation, the traditional custodians of the
+lands on which we are meeting today. I
+
+paymyrespects
+
+to Elders
+
+past
+
+andpresent, and celebrate the diversity of Aboriginal peoples and their ongoing cultures
+and connections to the lands and waters of New South Wales. I also acknowledge and pay my respects to
+any
+Aboriginaland Torres Strait Islander peoplejoining us today or watching us online. My name is Abigail Boyd.
+I
+
+am the Chair of the Committee.
+I ask everyone in the room to please turn their mobile phones to silent. Parliamentary privilege applies to
+witnessesin relation to the evidencethey give today
+. However, it does not apply to what witnesses say outsidethe hearing. I urge witnesses to be careful about making
+comments to the media or to others after completing theirevidence. In addition, the Legislative Council has adopted rules to provide procedural fairness for inquiry
+participants. I
+
+encourage Committee members and witnesses to be mindful of these procedures.
+Thursday 2 July 2026
+
+Legislative Council
+Page2
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Professor DAVID REILLY
+,
+
+Professor, School of Physics, University of Sydney, sworn and examined
+
+Professor THOMAS OHKI
+,
+
+Professor
+
+of Practiceof Quantum Technologies
+, School of Physics, University of
+Sydney, affirmed and examined
+
+The CHAIR:
+I welcome our first witnesses
+. Would you like to start with an opening statement?
+
+DAVID REILLY:
+Just an introduction to who we are. I am the Chief Executive Officer
+
+of
+
+Emergence
+Quantum
+.
+
+THOMAS OHKI
+:
+I am the Chief Technology Officer and Chief Strategic Officer
+
+of
+
+Emergence
+Quantum
+.
+
+DAVID REILLY:
+We're physicists, both of us, and have been in the area of advanced computing,
+quantum computing, new computing paradigms, hardware
+both of us
+for the last 30 years or so. We are mostlyin the research space as academics and members of large corporations, both here and in the United States
+in thedefence sector, in the case of Tom, for instance. In the context of our new startup company, Emergence Quantum,
+we are here in Australia building out, I think, new capabilities that are already bridging to many other companies
+that are doing computingadvanced cryogenic computing, quantum computing systems
+that will become thehardware of data centres in the coming years. Our company from Australia is pioneering a lot of the hardware
+technology that we see on the horizon. I'm delighted to tell you a little bit about that and how we see the world
+evolving over the coming years.
+
+There are really two messages that I'd really like to get across. The first is that data centres and the
+technology that underpins them is very much in a state of flux. It is not business as usual. It is not a steady-
+statesituation at the moment. But the rapid growth driven by AI, driven by cloud applications through the pandemic,
+has created a situation where we're kind of living in a brute
+-
+force era. We believe that, in the coming years, thatbrute
+-
+force era will give way to a very different paradigm where a lot of the challenges and a lot of the issues that
+we face today are likely to give over to new challenges. Aspects of power density, of water usage, of geographical
+location, I think, will quickly evaporate and be replaced by new challenges. But I think it's very important that, as
+we look to make policy decisions and inform government, we're doing so with a perspective and context that it's
+a rapidly changing aspect.
+
+The second point is that I think we live in a very special time where the last 70 years of computing and
+how computers work is in some ways coming to an end. It's coming to at least the end of chapter 1. We stand at a
+place today where chapter 2 is starting. Australia, traditionally, if you go back to the '60s, was in fact leading in
+computing at that time and built some of the world's first and largest computers in the world. But, over the decades,
+we effectively removed ourselves from the development of that hardware. But we have a second chance here, and
+I think that the State of New South Wales is uniquely placed in the world to seize this opportunity. I'm happy to
+tell you why I have that perspective and why I think New South Wales is the epicentre of t
+his technology goingforward, and happy to provide further details as to what that means.
+
+THOMAS OHKI
+:
+I don't have any further comments.
+
+The CHAIR:
+When we talk about
+
+this
+"brute force"
+
+era,
+
+my threshold question is a lot of people I'veheard say that they believe that
+,
+
+given the pace of change in all technologyand in computingin particular
+alot of these data centres won't be required
+,
+
+or the extent of them will be massively reduced,
+
+because we'll havemore efficient chips or
+
+whatever. What is your view on that? Is that realistic?
+
+DAVID REILLY:
+My perspectiveand we obviously align on this, but it would be helpful to get both
+of our opinions
+is yes, absolutely. I think we see totally different technologies in the coming years as becom
+ing
+
+critically important in a data centre environment,
+
+and redefining what a data centre is
+, whether that's thefundamental material systems that transistors are built from
+,
+the architectures, the communication systems
+but
+
+can include infrastructure like power distribution, energy storage, the thermal management and
+the coolinginfrastructure.
+
+I think a world is coming that's not too far in the future where it's possible to build a data centre in
+a desert environment
+
+with no cooling waterandclose to renewable energy sources
+,
+and be able to leverage that.
+We're living in an era where it's brute force
+,
+driven bythe opportunity of A
+I
+that whoever can build out a datacentre today
+
+and seizethat lead in that field
+
+is going to be well placed and positioned to build out the data centres
+of tomorrow
+. But likely those willbe vastly different technologies than what we're seeing today.
+
+THOMAS OHKI
+:
+I would agree. In general, though, I'm not sure that the appetite for building larger and
+larger compute platforms is going to start to wane at any point
+. I have not seen any evidence of that so far in thedecades that have gone by. I think,
+
+in general, the compute technology is going to change. It's going to become
+more efficient and have to adapt. Therearea few things in particular that
+we might talk about today that are
+Thursday 2 July 2026
+
+Legislative Council
+Page3
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+actually going in that direction, but that will probably only increase the appetite to build larger and larger data
+centres, because the optimisation of performance per watt per dollar is something that I think,
+
+in general
+,
+will bethe thing that people really try to optimise in this case. O
+nce one of those things improves, whether it's performanceand
+
+efficiency, then it's really just going to be about maximising that function.
+
+I don't know whether the appetitewill ever really decrease just because efficiency has become better and chips become more efficient.
+
+The Hon. MARK BUTTIGIEG:
+My questionfollows on from that. I want to get a feel for the physics,
+if you like, of how that future world might look. If we get a chip that's a lot smaller, a lot quicker
+
+and
+
+requires alot less heating, do you still need the storage capacity regardless? Or do we live in a world where the chip just
+goes out into the ether and grabs things off the
+
+internet?
+I suppose I'm trying to grapple withwhether
+
+thereisalways going to be a need for mass storage of data in some shape or form, regardless of the s
+ize and the efficiencyof the processing.
+
+DAVID REILLY:
+Yes,
+I think the nature of computing will require memory for sure. In fact, i
+f you wereto look at the underlying architecture of a machine in a data centre
+,
+just like the machine in your pocket
+,
+it's thereading and writing of memory that is probably driving a lot of the power dissipation.
+
+The Hon. MARK BUTTIGIEG:
+That's an important point, Professor.
+Essentially those data centres arejust really big banks of computable memory?
+
+DAVID REILLY
+:
+In some ways. They're obviously processing that data. But that memory is absolutely
+critical to the storage, the retrieval, the reading and writing of that data
+
+as you're computing
+whether it's a
+
+videosignal, whether it's information that's part of a database for a hospital, whether it's a
+
+government department thatis retrieving information. It could also be designing new chemicals
+new pharmaceuticals. It's a vast
+
+applicationspace.
+
+THOMAS OHKI
+:
+Actually
+,
+
+the trend might be the opposite
+. Accessing memory is, as David pointed out,
+a bottleneck. Typically
+,
+
+some of the largest data centres or usage of datathe compute ability to actually access
+and analyse it is minimal. They're looking at a very small subset. T
+hat's a challenge because there's an energyrequirement to actually retrieve
+,
+fetch and process data. As computing in general and data access improves and
+advances, you actually will be able to analyse more data. I think probably an
+even bigger trend is moving in thatdirection
+. Right now
+
+you're limited
+,
+
+in some sense
+,
+
+based on conventional architectures.
+
+The Hon. MARK BUTTIGIEG:
+Given the thirst for knowledge
+which is infinite
+andthe more wecan store and process
+, does it
+
+lead to the conclusionor prediction that,
+
+notwithstanding the improvements intechnology in terms of size and efficiency, there's
+probably going to be an exponential growth in data centres
+?
+
+DAVID REILLY:
+Certainly an exponential growth inas you say,
+the hunger for compute in general isgrowing. I think the hardware, the data centre platforms
+
+and
+
+the software layer are going to grow in proportion tothat hunger. I
+f we can do more and that can lead to a change in the quality of life of people, then that's going to
+happen. The drive is there to make that happen.
+
+The Hon. SCOTT FARLOW:
+Professor Reilly, I want to take you up on your offer before and ask
+
+whyis New South Wales strategically placed to be at the heart of this revolution
+.
+
+DAVID REILLY:
+It's a bold statement. There are a number of things. Obviously the first is
+you couldstep back and say
+,
+
+"What makes Australia and New South Wales special to build any technology?"
+It's obviouslythe stable regulatory environment. You can know what to expect
+;
+
+it's not going to change overnight
+. Whetherthat's tariffs
+
+orwhether that's export control
+, there's stability here
+,
+and predictability
+. That's essential. Its place inthe regiongeographically, t
+he connections are important. But I think,
+when you come down to the technologyand
+,
+
+in fact, the physics
+there's abundant potential for renewable energy. There are a lot of photons in Australia.
+There's potential for solar, for windandother forms of renewable. There's abundant potential land that could be
+used in future data centres.
+
+But then I think what's actually particularly interesting
+and this is very much yet to happenare twothings
+.
+One is Australia
+and
+,
+
+indeed,
+
+New South Wales
+
+and
+
+the city of Sydneyleads
+,
+
+in many ways
+,
+
+the worldaround certain types of quantum computers that eventually will also become part of data centre environments.
+We're building and designing that technology. There's a number of startup companies here
+
+and thereareefforts inuniversities
+. Those quantum computing machines ultimately end up in data centres. Y
+ou can imagine buildingthem out
+,
+
+only eventually to not have a place to house them or hone them
+,
+
+where they can really be put to use
+,
+where those applications can run.
+
+The other aspect that we really see is a world where some of the cooling issues and the performance of
+computing can be dramatically impacted by pivoting to an approach to
+,
+
+effectively
+,
+
+cooling computers using whatyou would call cryogenic liquids
+: liquid air
+. If you liquefy the atmosphere, which is done routinely for various
+Thursday 2 July 2026
+
+Legislative Council
+Page4
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+applications
+things like liquid nitrogenthatcan be used to also cool a computer.
+
+Computers would run fasterif they could be cooled
+. We're artificially throttling them
+limiting the speed at which they can runbecause theyget too hot.
+Cooling them down, removing the heat, but then increasing the clock speed, the performance
+there'sa whole spectrum of technologies that then are enabled by low
+-
+temperature cryogenics
+.
+
+Materials like superconductors
+these are efforts that for decades
+,
+particularly in the context of USgovernment programs
+,
+have been bubbling away and have now foundutility in an era where data centre scale
+motivates their application. If you were to ask, though, "That seems like a dramatic shift in terms of technology.
+Are you really imagining cooling a data centre and cooling computers at scale using cryogenic technologyl
+iquidair?
+",
+I think we would argue that that's inevitable. It's almost the last par
+ameter to adjust to dramatically improvecompute performance.
+
+It's going to happen. What kind of skills, what know
+-
+how, what infrastructure is needed tobuild out cryogenics
+?
+
+It just so happens that that coincides with exactly the infrastructure that you need to do gas mining. I
+f youcan imagine the gas fields across New South Wales
+the infrastructure, the capability, the know
+-
+how forcryogenics
+. When I'm taking gas out of a well, the first stage is to actually liquefy that
+,
+
+store
+
+that liquid andtransport that liquid. This is at minus200 degrees. W
+ithin the State, there is
+
+already substantial capabilityinfrastructureandknow
+-
+how in the liquefaction
+,
+
+at scale,
+
+of cryogens
+. Whether it's natural gas, whether it's liquidair
+
+or
+
+whether it's liquid helium
+, we have that capability hereand, because of the mining industry, we've actually
+been able to build that out at scale. There's an opportunity there where you can imagine gas miningthe energy
+could power a data centre.
+
+Equivalently, the fact that it's cold
+that the gas is liquefied
+. If you've ever experienced a gas bottle of abarbeque, it feels cold because it's at minus 200 degrees under pressure. That technology deployed now for a data
+centre means that you could build a data centre in a regional area,
+
+untethered from major water use, where there'sabundant solar energy and wind energy. I
+t opens up a totally different paradigm
+. When you're looking at theintersection of quantum computing and our unique capabilities her
+e in Sydneyand
+
+in New South Wales
+gasmining infrastructure
+
+know
+-
+how
+;
+the ecosystem and supply chains of that cryogenic infrastructure within that
+stable regulatory environment
+;
+
+and with companies like ourselves that are building,
+out here in Sydney,
+relationships and customers with Microsoft
+
+and
+
+with many other big-
+tech players to actually develop thiscryogenic computing infrastructure and technologyt
+hat's all happening and coming together in the next coupleof years right here in Sydney.
+
+The Hon. SCOTT FARLOW:
+There seem to be a lot of different balls in the air that need to be
+coordinatedhere. At the moment, are you seeing any coordination to try to
+derive that benefit for New South
+Wales?
+
+DAVID REILLY:
+It's an ongoing discussion. Again, to my first point, things are moving so quickly
+thatour experiences,
+
+for many years
+,
+
+have been part of government programs
+
+and
+
+have been part of efforts inlarge corporations where
+,
+
+if you were to look at the physics
+
+andif you write down the equations of computing,
+those equations have a parameter there. That is the temperature. I
+t's well known
+andhas been for decades
+that
+,
+
+if you lower the temperature, there's a big opportunity
+. But that hasn't been done to date becauseit costs energyto lower the temperature. Y
+ou would only do that if you couldn't do something else. We've now, in just the last
+few years, crossed into a regime wherenow
+
+the appetite is there
+, now the business case is there
+
+and now theapplication in AI and cloud is there.
+
+I think we stand at a point right now where those conversations are beginning
+,
+
+but it's moving very rapidly.
+
+I think whoever seizes that opportunity to gather those aspects together in the way
+that I've described is really going to lead the world in this next frontier.
+
+THOMAS OHKI
+:
+Just adding to that
+,
+
+historically
+I'm from the US
+there
+
+have
+
+been multiplegovernment initiatives to really look at next
+-
+generation computing technology to address some of thesechallenges. It
+
+has been happening for decades, actually. But I haven't seen the same level of coordination in
+Australia that tries to mobilise an effort. To David's point, there's a nexus right now of a lot of things happening.
+The potential boom of data centres here, the vigourin
+
+the tech sector for looking at new AI
+
+energy
+-
+efficienthardware and other modalities like quantum
+you can take advantage of that all happening here at this point in
+time and start to build the data centres with the mindset of looking at that next-
+generation hardware
+,
+
+rather thanjust building more of the same. That's an opportunity in time that you're not going to have too many swings at
+, sothis is really the optimal time to start to put together a coordinated strategic effort to understand
+
+how to be at thefront.
+
+The Hon. SCOTT FARLOW:
+Astrategy
+, perhaps
+.
+
+THOMAS OHKI
+:
+Possibly
+, yes.
+Thursday 2 July 2026
+
+Legislative Council
+Page5
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. SCOTT FARLOW:
+Who would have thought?
+
+I'm always reticent to have government
+,
+
+particularly
+,
+
+insert itself in an area where you've got leading technology and people such as yourselves, who
+I
+
+would suspect know much more than anyone in government knows about the development of this technology.
+What do you see the role of government being to be able to facilitate the growth of this sector and not, in a sense,
+throttle it or get in the way?
+
+DAVID REILLY:
+One concrete suggestion there would be, when you look at the data centre providers,
+the infrastructure builders
+companies like AirTrunk, NextDC and CDC
+there's a cluster of those here. We havecompanies that are doing gas mining or related industries whose
+
+supply chains have been developed over manyyears. They're very efficient at building out this kind of technology. There are quantum companies that are
+building quantum chips and designs, and then there are companies like ours that are building a lot of
+
+theinfrastructure and a lot what we call the connective tissue that brings all these different compute platforms
+together, united by this vision of cryogenic operation. I think the role of government there across that ecosystem
+is how do you get these to
+
+come together and actually coordinate and develop a vision for what could be. Our
+experience as a startup is that there's appetite there, but there are also so many incentives. A data centre company
+is making good money doing what they're doing. They'll keep doing that until they can't do that anymore. What
+we'd love to do is somehow get in front of that.
+
+Traditionally, if you look at the role of government in defining that road map that is above or beyond that
+immediate short term, that's where the opportunity is
+whether that's incentivising all of those players collectively
+to come together or whether that's incentivising data centre companies to say that, while you're pouring concrete
+and thinking about today's challenges around power and water, we want to see and will incentivise you to actually
+start to do research and development to show that you're trying to develop new ways of solving today's challenges
+and build out around these. How do we incentivise that? How do we incentivise the gas industry to start to pivot
+the significant expertise and supply chain for these types of applications? That's a har
+d conversation for startupsthat are trying to stay alive and trying to find their feet, to be able to build out those bigger relationships into these
+larger ecosystems. That is a role of government to not just coordinate but incentivise the coming togethe
+r of thesetypes of consortiums.
+
+The Hon. MARK BUTTIGIEG:
+Can I ask a follow
+-
+up on that. Despite this view that if you just letthings happen organically, it'll all work out
+any casual observer of history understands that's not how things
+work
+government is in the business of trying to coordinate the best outcome
+
+for its population. To your pointbefore, where do you think the value
+-
+add for the State would be? For example, is it in us getting into manufacturing
+the processing chips as opposed to just building data centres? Is it getting into the energy efficienc
+y to provide thecooling for the data centres? Governments need to make a decision about where to direct tax dollars to their most
+efficient use. Where do you see the big value
+-
+add is going forward?
+
+THOMAS OHKI
+:
+I have some specific thoughts on that one and a very particular aspect of it.
+Historically, governments' grand challenges have usually driven some of the biggest technological changes in
+society, whether it's the internet or other things of that ilk. That type of push from the government towards a
+mission is a good thing to instil because it drives an economy, but you need to have a workforce and an industry
+that is innovating in that space. One of the gaps that I've seen coming to Australia is that there
+'s education, andthen there are companies making product, but that professional R&D ecosystem that can drive the whole country's
+expertise level and to be world leaders
+that needs the development.
+
+In other countries, you'll have a large enough budget such that it is a competitive area where you breed the
+best. Iron sharpens iron in that case. You've got the most competitive research in that area driving innovation in
+that sector. That's a good way of actually staying ahead of the curve, where the dollars could go in that type of
+investment, and having competitive R&D
+not just productisation of things
+
+but really building
+
+up that innovativeecosystem
+. That will make a huge
+,
+
+long
+-
+lasting change. There's an opportunity right now around this to do that.
+As
+
+David has mentioned, there area whole bunch of different technological areas
+,
+
+and even connecting dotsbetween industries that don't even know they could be force multipliers. H
+ow do you actually go through therigour of understanding whether it's an
+engineering possibilityif,
+like
+,
+
+you're defying physics
+and then whereis that money to actually create and drive that work?
+
+It's not going to be just driven by the companies
+, too.
+
+I thinkgovernmenthas a critical role there.
+
+The CHAIR:
+
+Can I clarify
+,
+
+for my own understanding, that the connectionbetween quantum and data
+centres is that the development of quantum technology is also reliant on cooling. S
+o
+,
+
+if we have data centres usingcryogenic cooling and getting that whole sector developed in New South Wales, that would then have a beneficial
+effect for the development of quantum as well
+. Is that correct?
+
+DAVID REILLY:
+
+Yes
+. Therearea few aspects. The first is that obviously nobodyapart from the
+physicists
+really cares exactly how it all works in a data centre. They care about what the application is. I'm
+Thursday 2 July 2026
+
+Legislative Council
+Page6
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+going to use a computer to solve a problem
+, whether that's in health
+
+care, in building new pharmaceuticals, insolving transport problems
+
+or
+
+whatever it is
+. They care about the applicationandcare about the outcome
+.
+Underneath it
+, therearecertain types of processors and certain physics that are
+better suited and more efficient atsolving certain types of problems. As a
+n example today,
+you see GPUs, which originated as graphics processingunits
+
+but are now very much the backbone of AI. Then thereare
+CPUscentral processing units
+that are adifferent computer architecture. In a data centre
+, both of these types of chips work together and the application is
+divided between them.
+
+You can imagine extending that
+what we would call heterogeneous computingto include now a
+quantum accelerator
+. Certain types of problems that involve quantum mechanics or can be projected onto quantum
+mechanical descriptions are going to be efficiently solved with a quantum computer. But
+,
+
+as you point out, all ofthe approaches today that people are pursuing in order to build out quantum computers have, at their core,
+substantial cryogenic infrastructure. What we see is an opportunity where it's not just t
+hatdata centres have CPUs
+
+and
+
+GPUs that are handling that workload,
+
+with a quantum processor in the data centre
+
+andhigh bandwidthconnections between those worlds
+,
+butthatthere's
+
+a common backplane
+,
+
+almost
+,
+
+of cryogenics that accelerateswhat you might call today's conventional computing infrastructure, as well as starts to build out the foundation
+infrastructure that you absolutely need when quantum starts to get on its feet.
+
+The CHAIR:
+What are the current workloads that a data centre would be running that a quantum chip
+would do instead, and would it make it more efficient?
+
+THOMAS OHKI
+:
+The technology as it stands
+, having a quantum system
+they're not at scale to actuallymore efficiently run any batch of problem or any subset at the moment. The vision is that they will. T
+here's a veryspecific subset of problems that it will improve the time to solution
+, and that's the biggest metric. There
+
+arecertainproblems that just take a very long time on conventional computing technology
+,
+
+so you're reducing the time ofcompute.
+You make it a problem that's, in principle, solvable in a real
+-
+world scenario, so it's useful computing
+.
+
+Right now
+and it spans a whole bunch of different application areas
+a huge area of research for quantumcomputingis
+
+finding the right type of application where there is this speed-
+up.
+
+Sometimes it really depends on who you are. If you're an industry that cares about a 2 per cent
+
+to 5
+
+percent
+
+increase in efficiency of some optimisation problem of distributing product or something like this, and it's a
+logistics issue
+, if that 2
+
+per cent
+
+is equivalent to a large increase in gross revenue, then it's worth it
+.
+
+But
+,
+
+for otherapplications, a 2
+
+per cent
+
+increase in efficiency of solving something doesn't help you.
+If a problem is hard enoughthat it takes several years on a conventional compu
+ter to solve and you only shave off 2per cent
+
+of that
+,
+
+thatdoesn't buy you anything. The current state is really finding out those killer applications where the system sizes
+are going to be able to provide that type of speed-
+up,
+
+and match to the type of customer that would want toimplement that.
+
+So there's an application aspect and a reward aspect for putting the amount of money to invest
+into that.
+
+The CHAIR:
+Butquantum chips aren't going to be used for AI inference and things.
+
+THOMAS OHKI
+:
+Conventional computing, AI and quantum all work in concert together. It's not as if
+quantum computing will replace a lot of the function of conventional and AI. It'll solve a subset of problems
+
+that,
+
+like I mentioned, aren't efficiently solved on conventional computing systems. I
+t's a subset of problems. The bigthing, though, is that we
+David was mentioning that there's an approach to actually improving computational
+efficiency now by doing some of the things we're talking about, like cooling computing plat
+forms.
+There's almosta win
+-
+win story here where you're building towards this future that is quantum
+it's a necessity
+but
+,
+at the sametime, what you're doing is not waiting for that problem to be able to be solved by that larger scale quantum system
+;
+you're actually improving computational resources and power along the way.
+
+If that future never materialises, you haven't actually done the wrong thing. You've actually moved down
+the technological path that is progressing your computational efficiency and power. T
+hat's why we pretty stronglyagree on having this position where it's not just focused on what is your quantum computer going to do for you
+today. That's almost always the question. I totally appreciate your question there, but I think our focus is the other
+direction. We don't quite know
+
+that answer yet
+what part it's actually going to be best at
+and it would bepresumptuous to actually state that we know exactly what that problem is. You may hear a lot of answers to that,
+but I think our position is not that.
+
+DAVID REILLY
+:
+We're
+
+perhaps a little unique and have some battle scars of 30 years doing quantum
+computing. The elephant in the room
+to be blunt about it
+with quantum computingis that,
+
+on one hand, theunderlying physics is remarkable and suggests an incredibly powerful technology and computational technology
+that could find new chemicals
+
+and
+
+materials
+, whether that's in medicine
+
+or
+
+whether that's in manufacturing. Thepotential is there. But when you start to ask specific questions as to
+
+what do you really mean
+, theanswer is we
+Thursday 2 July 2026
+
+Legislative Council
+Page7
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+don't know.
+It's equivalent to
+
+asking in 1955 what computers are going to be good for
+
+and can you imagine whatwe're using them to do today
+.
+
+We've been
+
+in this era for a reasonable amount of time. Our perspective
+
+is thatyou want to continue tobuild out quantum
+. There is real potential there
+. But if we can do that in a way that we're, as Tom says, let's say
+,
+even incrementally but still improving the incumbent mainstream technologies of computingwe're making them
+more efficient, we're making them faster
+and,
+
+as we're doing that, those technologies are laying that foundation
+for quantum
+,
+then that's a much easier story. As quantum matures, we figure out what the killer applications really
+are. We're also building out all of the necessary infrastructure. That's very much our strategy.
+
+The Hon. JACQUI MUNRO:
+We heard from Dr
+
+Sue Keay about a generallack of compute power in
+Australia
+that we really suffer from that
+,
+currently. I wonder if you could speak about the relationship that
+datacentres and quantum have with sovereign capability and national security, and
+
+expand a bit on just how uniquethat opportunity in New South Wales really is and why our local infrastructure in Sydney,
+
+in particular, is sounique worldwide
+something that we have to not only protect but actually enhance if we're going to make the
+
+most of what we've got and not damage
+,
+destroyorwaste the opportunity that has been created over the last three
+decades.
+
+THOMAS OHKI
+:
+If I understand the first question correctly, currently there's a gap in our compute
+power. Why is it so necessary to actually rectify that? Why can't we rely on global resources, other compute power
+in the US
+
+orother data centres within Asia
+?
+
+Thereareobviously national security aspects
+. For a long time in the
+US
+,
+I was working for the intelligence community. There was a huge push to have that sovereign capability for
+secure compute data analysis
+
+and
+
+other aspects of national security, which in this day and age is critical to have.
+
+If that driver is not there for your country, I would be surprised. T
+hat would be one of the major reasons I wouldsay that you would want to have those resources
+,
+
+and why other governments were investing so heavily in it.
+
+Having control locally over that capability
+
+and
+
+those facilities
+the security aspects of those facilitiesphysically but also from an IT
+
+and cyber perspectiveis core. From an economic standpoint, as the world grows
+and its compute power or desire for compute grows with it, where does that resource lie now is another question.
+If this is the next boom for growthof not manufacturing capability but compute as a commodity,
+are you beingleft behind if you don't compete there? There's an economic and
+,
+
+I would say
+,
+
+really strong geopolitical reason tohave to fill that gap. T
+hat would be my answer for the first one.
+
+DAVID REILLY:
+Just to add to that, obviously you'd be deeply aware of the recent situation with
+Anthropic pausing
+
+global access to those models. Ultimately, Australia and the people of Australia want to benefit
+from the applications that emerge from advanced computing, whether we call that a data centre
+or
+
+whether wecall itthe surrounding technologies that cluster
+
+because we've got that data centre strategy
+
+right
+.
+It's
+
+reallyimportant
+
+that, if you say it's cooling technologies
+,
+it's companies building and designing chips
+
+and
+
+AIaccelerators
+, they're clustering around where those technologies end up in that data centre environment.
+
+We wantto be able to, from a sovereign capability point of view, see those applications return to Australia. If we want to
+export them, that's great as well
+, but we do want to be in a position where we're able to independently stand on
+our own two feet in terms of this critical technology.
+
+Today it may still feel that this is
+to some people, it's maybenot so apparent how much of our everyday life is critical and depends on these technologies. But
+,
+over the comingyears, we're going to see
+
+an exponential growth in that dependence.
+
+THOMAS OHKI
+:
+There's one extra point related to what David
+
+was saying
+. The nexus of being able toreally ride on the wave of data centre growth in Australia
+, if we are not actually building, say, hardware
+I don'tmean manufacturing capability or capacity, but really the knowledge and the ability to build hardware that will be
+used in those systems
+there's an opportunity to do that now in Australia. That means that IP sits here
+thatknowledgeandthat know
+-
+how. That's really quite a big shift
+
+if you can say that's now here domestically
+,
+
+and it'ssitting in data centres not only in Australia but now it's being sought after globally.
+
+The Hon. JACQUI MUNRO:
+We need to learn the lesson of solar.
+
+DAVID REILLY
+:
+Yes, absolutely.
+
+To your second question"What's the opportunity for New South
+Wales and what is it that makes it unique?
+"
+from the perspective of data centres
+,
+what we're talking about in alot of ways is somehow broader than that and really involves this larger research and development opportunity to
+develop technologies that will have application in many other areas. It could be medicine and sensing, or
+
+it couldbe defence, but they're built around that investment and driver that is currently data cent
+res. There are three keyingredients that you need for a data centre. One is power, one is the communication fibre or backbone
+proximityto thatand the third is security. We've seen major efforts to build out large
+-
+scale data centres in the Middle East.
+I think that the world has changed.
+
+Again, these are data centres that contain enormous amounts of sovereign data,
+as well as are underpinning critical infrastructure in our way of life. Those need to be in environments that are
+protected, that are safeand
+
+that are stable geopolitically. Increasingly, Australia is a destination for that.
+Thursday 2 July 2026
+
+Legislative Council
+Page8
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+In terms of the communication proximitythat proximity to Singapore and the broader Asia countries
+both in terms of supply chain that's building the hardware as well as the actual physical movement of data, there's
+a huge opportunity there. Then, in termsof the power, I think the story at the moment is, again, that brute
+-
+forceepoch. We see a world where you can build out a very large data centre in the middle of Australia or in the middle
+of the State where it's an arid desert area, but the opportunity fo
+r renewable energy and enormous amounts ofenergy storage that, again, come from cryogenics changes the equation dramatically.
+
+They're the general aspects. Then you layer on top of that these other things that we're saying
+technologies like quantum computing and many of the technologies that need to be developed to make quantum
+a reality. An example of that is materials that are superconductors that are able to transport electricity without
+dissipation. Those materials and that technology have increasing important use in quantum computing but could
+equally change the way in which we build and operate very energy-
+efficient data centres. We're building anddeveloping a lot of those types of technologies right here as well.
+
+The Hon. JACQUI MUNRO:
+Can you tell me a bit more about the really unique place that Sydney has
+at the moment in that technological space and R&D? How unique is it that we're in this place that has a
+proliferation of this knowledge and work?
+
+DAVID REILLY:
+Yes, it's pretty unique. I wouldn't, by any means, suggest that we're the only game in
+town. It's a highly competitive space internationally, but I do think that we have here a critical mass, particularly
+in the Sydney area. You can look across the countryat other efforts but, within that Sydney area, there is really
+substantial investment from government over many years that has built a highly educated, skilled workforce here,
+and you're seeing many startup companies that are now trying to leverage that. Without blowing our own trumpet
+too much, as an example, we're a startup company that, effectively, was founded a year ago. Our business model
+is building the technologies. We're not building a quantum computer, but we're building out many of the other
+layers that we think are needed
+the other infrastructure systems, the control systems and so on.
+
+We're a company that has been able to effectively support itself and feed itself from revenue that we get
+from customer interactions, where our customers are the worldwide ecosystems interested in quantum computing.
+The biggest companies building the biggest quantum computers are employing us to develop that technology
+I
+
+can give you many examples of who those are
+as well as companies that are not doing quantum but are doing
+advanced computing, sensing and so on. I think that's, in some ways, an example of what's happening right here
+in Sydneya company that's standing up and able to really pull in significant revenue and develop that critical IP
+and develop the know
+-
+how and train the people right here. That's one example. There are others around the city.
+
+The Hon. MARK BUTTIGIEG:
+Can I go back to your earlier point about R&D. I think the point you
+were making was that we're actually maybe better off pulling back and looking at where the base level of
+knowledge is to secure our future, because it's just such a vast unknown quantity,
+
+in terms of quantum computingand all the rest. If there was one take-
+out, then, do you think governments should be perhaps thinking about
+fostering R&D? It's a bit of a rhetorical question for you guys, but maybe people should be doing physics and
+engineering degrees instead of computer coding degrees, for example.
+
+DAVID REILLY:
+You could take a very cynical view of AI and data centres, and simply say, "Look,
+we're living in an era where there is enormous investment. There is enormous investment opportunity, and
+whoever is well placed to receive that investment and turn that into R&D is going to benefit." Maybe that R&D
+has some impact on the future of data centres. Maybe that R&D is lifting the broad base of technologies in our
+economy.
+
+I think that opportunity is ours in this State at the moment. The biggest AI companies, the biggest data
+centre companies, want to build out here. The more that we start to, as you say, build out that R&D base of
+know
+-
+how, of capability, that just makes it all the more enticing, along with all the many other physical reasons
+that we articulated.
+
+THOMAS OHKI
+:
+Maybe one way to look at it is
+and partly what I was saying was
+sometimes it'sgood, I
+
+think, to really look at solving a problem rather than, say, the Government goes out and says, "Well, give
+me your best ideas in this very broad space and we'll see how to commercialise it." More like, "We want to advance
+computing. We see this from a deep analysis." I understand that takes work, but say there's a problem that you
+want to solve in computing. Put your energy towards that and have competitive applications
+
+for research and buildthat R&D core around solving that problem. I'm used to that world where there's a problem you're solving. You
+bring your best ideas to the table to solve that. It's been different here where you don't have that approach
+whether it's
+
+that people don't want to disclose what that problem is, or people don't know what the problem is. It
+could be one of those two or another reason.
+
+The point is that you can approach it and the Government could approach it in that way, where they want
+to enter into a sector. They see a core problem that could be gathered by lots of information gathering, talking to
+companies like us
+identify that, and
+
+then really push to make sure that Australia, New South Wales or whomever
+Thursday 2 July 2026
+
+Legislative Council
+Page9
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+is leading in that area. Then what you're going to do is have a competitive push towards that, and that's going to
+spawn whatever it is, if it's engineers or physicists or computer architects or whatever skill is needed to actually
+make that happen. That is actually more important than saying, "You should do physics," or, "You should stay in
+programming."
+
+The Hon. MARK BUTTIGIEG:
+That is helpful.
+
+The CHAIR:
+Unfortunately, we have run out of time. To the extent that there were questions taken on
+notice or there are supplementary questions coming from the Committee members, the Committee secretariat will
+be in touch. Thank you very much. That concludes our time
+
+with you.
+
+(The witnesses withdrew.)
+Thursday 2 July 2026
+
+Legislative Council
+Page10
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Mr DOUGLAS McCLOSKEY
+, Program Director, Energy and Water Justice, the Justice and Equity Centre,
+affirmed and examined
+
+The CHAIR:
+We now welcome our next witness. Would you like to commence with a short opening
+statement?
+
+DOUGLAS McCLOSKEY
+:
+
+A very short one, yes, just to provide a bit of context. The Justice and Equity
+Centre works to represent and advocate for the interests of New South Wales households in their equitable access
+to affordable and sustainable energy and water services. This i
+s the focus of our interest in data centres and this
+Committee's consideration of appropriate frameworks to govern their development and operation. As noted in our
+submission to this process, frameworks governing the development and operation of data centr
+es must be capableof preventing and mitigating risks and impacts on the community and ensuring strong net benefit to the community
+from the development of data centres.
+
+This means moving beyond narrow assessments of potential dollars, investment or jobs created. It means
+assessing impact on energy and water system efficiency and security, the community and the environment. It
+means having robust frameworks in place to ensure data centres only proceed where they are designed to operate
+to high standards of efficiency; support and are powered by renewable energy and utilise recycled water; avoid or
+minimise additional demand on constrained essential systems; don't involve increased costs and risk to the
+community; and respond to and meet the needs and interests of the community in which they are located. This
+also requires recognition that good outcomes and genuinely valuable data centre opportunities will not eventuate
+without these robust frameworks.
+
+The CHAIR:
+I know just from speaking with people around Ryde and Lane Cove and places like that,
+which have already had a few data centres built and have some more in the works, that there is a concern around
+a lack of transparency about what that means for not just the consistency of their water and energy access but also
+what it's doing to their bills. Do you have any reflections on that? Do you have any experience with that sort of
+concern?
+
+DOUGLAS McCLOSKEY
+:
+
+I can't speak to the specifics of those circumstances, but I can say that while
+data centres in some form are not new, the new attention on them and the rapid rise of their prevalence and the
+kind of significant uptick in the development proposals have cer
+tainly drawn attention to them for the community,
+and that has, I think, very reasonably raised valid concerns and also, as often occurs in this case, drawn a lot of
+attention to concerns that may be less warranted. But I think what that does do is highl
+ight the need for there tobe real clarity around how data centres are considered and how their development and operation is assessed and
+approved, so that the community can have confidence that the potential impacts have been understood and that
+they have
+
+an opportunity to understand what it does and doesn't mean for their community.
+
+I think it's fair to say that while there are potential impacts on water and energy systems at large and on a
+regional basis, particularly in water, that's unlikely to be on a localised level, so those immediate concerns are
+potentially not well founded. But I think rather than blame people for their valid concerns, it's much more about
+putting attention on what we do need to do to ensure that people have the transparency and the confidence required
+to have trust that these sorts of developments are in their interest.
+
+The CHAIR:
+It's difficult to blame people for getting the wrong end of the stick sometimes when they
+don't actually have a view of what the stick looks like.
+
+DOUGLAS McCLOSKEY
+:
+
+Exactly.
+
+The CHAIR:
+Things are very secretive around data centres. One of the recommendations that you make
+is in relation to acknowledging that data centres aren't a homogenous class of infrastructure and require this
+differentiated assessment based on their function and purpose. That's something that we've been trying to grapple
+with as a Committee as well. In terms of the consumer aspect of that, do you think that there is an ability to
+meaningfully consult with community when they don't know what the particular use of th
+e centre is for?
+
+DOUGLAS McCLOSKEY
+:
+
+At the outset, we aren't deep experts in data centres. The degree to which
+we understand the nature of data centres and their variabilities and their impact is really, as I noted, focused on
+energy and water systems. At the outset, I would say if we expect
+
+the community to be able to engage and policedata centres themselves, I think that's probably unreasonable. I think they are going to rely on there being
+consistent and transparent systems to undertake that. That will include appropriate consultation up
+-
+front tounderstand the nature of the community and what their particular needs might be. But I think if we expect
+communities to be able to police proposals in detail, that's unfair on the community and unreasonable.
+Thursday 2 July 2026
+
+Legislative Council
+Page11
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+But, again, I would come back to what we think when we say that there needs to be a recognition that there
+is a wide variability in data centre typologies and applications and setups. It's about having the frameworks for
+guiding their development really focused on what outcomes we do and don't want them to deliver for the
+community. If we set the terms of the impacts that we don't want to have, and that being set by communities'
+concerns and needs, then there is an ability for the data centre sector as a wh
+ole to be able to know what parametersthey must meet to develop into. I close my statement to say we can't assume that cost or other broad determinants
+of investment will be enough to police the development of data centres. The amount of money being throw
+naround in that domain so far outweighs the cost of energy or the cost of water that there isn't necessarily a really
+strong driver to efficiency.
+
+We need regulatory and other guidance frameworks to do that for the community.
+
+The Hon. JACQUI MUNRO:
+Thank you so much for your submission. It seems pretty sensible to me.
+I
+
+was wondering if you were aware of any community benefit sharing type schemes in New South Wales or any
+examples of where data centre operators have somehow invested in local communit
+ies as part of gaining sociallicence.
+
+DOUGLAS McCLOSKEY
+:
+
+Not specifically for data centres, but I do think there are good examples of
+similar types, whether those would be in the community energy space or the renewable energy space. We
+understand that social licence is not a thing that you can measure. It's some
+thing that you often only know aboutonce you've lost it, which really requires the investment to understand it up-
+front. So I think there are probablydata centres that are really good examples, where proponents understand the views and the needs of the
+
+communityup-
+front, and do some meaningful engagement with them to see what their preferences are. One can help guide
+the development of the infrastructure but can also say, "We understand that the needs of the community are such
+that we have a potential role to play to demonstrate our good faith."
+
+While we don't necessarily recommend onsite renewables as a requirement for data centres, it may be a
+sense of saying, "We have assets and infrastructure onsite. We can potentially share the benefits of our storage
+that's done for backup or our onsite renewable that is, relatively, a rounding error for our own needs, but we can
+support the local community as a sign of that good faith to maintain that social licence." The one takeaway I have
+is that we would very much encourage, again, frameworks
+if there's not a strong incentive put for data centreproponents, particularly at the upper end of the potential impacts on local communities, that they either be required
+or encouraged to do that kind of engagement to share benefits with the local community.
+
+The Hon. JACQUI MUNRO:
+The sum total of your recommendations seems to suggest that you would
+like a data centre strategy, which is something that we've been concerned isn't forthcoming.
+
+DOUGLAS McCLOSKEY
+:
+
+Absolutely. We understand this is such a fast
+-
+moving area that it is difficult.
+There are not necessarily easy things to take off the shelf to say, "This is what we should do." There are good
+examples internationally of avoiding the worst impacts and the t
+ype of focus on value that we're talking about.
+We know that in Singapore and other land-
+constrained areas, there's been a real focus on "We don't want all data
+centres. We want the highest value applications." That's a version of the type of thing that we're talking about.
+What we've noted is Australia has a fairly poor record of setting really durable terms up-
+front. We chase themoney and set pretty low standards for what value we realise with that.
+
+I think it's well understood that we've got a history of digging up stuff and selling it overseas when we
+could process and manufacture it, and sell it for much higher value. There's an analogy there for data centres. It
+may very well be that setting really clear terms for what we want data centres not to deliver, and also having a
+framework which can show what we do want them to deliver, means that we realise the highest value opportunities
+of the types of things that you've been having people talk to the Committee about.
+
+The Hon. JACQUI MUNRO:
+Yes, definitely. Are you aware of any other specific organised groups
+operating statewide that are protesting against data centres specifically? Is that culture emerging?
+
+DOUGLAS McCLOSKEY
+:
+
+To go to the earlier point, very reasonably, in the type of environment we
+have where the frameworks for approving and building them
+particularly where we have attention drawn tosomething which is not new. It is certainly newly significant, but it is not new. There is often surprise in some
+communities to know that there is a data centre in the community. They hear all of the stories, all of the valid
+concerns and the wash of other issues in there, and I think that very reasonably drives concern and anxi
+ety in thecommunity.
+
+I go back to saying that while I think some of those involve concerns that are not particularly
+productive or potentially not founded in the real concerns, we don't think that's the fault of the communities at
+play. That's, I
+
+think, the very nature of the way these things are developed.
+
+In answer to your question, I don't know of well
+-
+organised campaigns or groups across the State or thecountry, but there are certainly many local groups that are organising around their own issues and their own
+concerns. I sit on a number of advisory committees for energy and water businesses, and we know that obviously
+Thursday 2 July 2026
+
+Legislative Council
+Page12
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+they are noticing a lot of the concern and working to try to present those concerns in forums such as this. Again,
+I would go back to saying that I think we are still at the point where clear, decisive action to build trust with the
+communitythat we're taking this on board and we are building a framework to make sure that data centres are
+developed in line with community values and in the community interest
+still has the opportunity to arrest someof that development of anxiety in the community.
+
+The CHAIR:
+The point you made
+I don't know if it was in your opening statement or in one of the
+answers that you gave
+in relation to this kind of abundance mindset brings us back to something we were talking
+about right at the beginning, on day one of our hearings. There's so much money sloshing around in the AI field
+in particular that we then seem to have a lot of people wanting to just come along and throw their money at a data
+centre. Because the growth has happened so rapidly or unexpectedly, for those of us that maybe weren't paying
+enough attention, we then have not enough regulation to drive a scarcity and innovation mindset. Would you agree
+with that? Have I put that the right way?
+
+DOUGLAS McCLOSKEY
+:
+Broadly, I think that generally the way that we, as a community, tend to
+approach regulation is we tend to wait for problems to arise and then tend to try to reverse regulation to undo or
+mitigate those problems, which is generally pretty poor practice. Bu
+t I think in this case it's quite problematicbecause things have happened so quickly, and internationally the large sums of moneymostly debt
+that areinvolved in this question mean that things can change so quickly that, by the time regulation catches up, it may
+already be too late to mitigate some of the impacts.
+
+The wash of these discussions about the huge sense of opportunity of investment and sums of money which
+are, on an Australian scale, enormous can, I think, hide some of the risks that come with that opportunity, not least
+of which is that, while we see a trajectory of AI expanding unchecked exponentially into the future, there are very
+strong possibilities of corrections, which means that there are quite large risks to investments that are made. Where
+those investments that have been made have connections to the essential energy and water infrastructure, that is a
+risk to the community. I think that again highlights the need for regulation to go in advance of the opportunity and
+to help shape that opportunity.
+
+Again, we come back to, as previous speakers have no doubt said and some of the Committee's members
+have noted, the fact that there are unique opportunities in Australia or great values to be realised in Australia.
+We
+
+should have confidence that setting terms to investment and ensuring it meets our needs will not scare it off.
+It'll just ensure that that investment will meet the needs of the community and won't increase risks to the
+community of long-
+term costs or long-
+term security risks to energy and water.
+
+I think what we would cautionagain
+it was in my opening statement. We've heard these arguments that these are competitive businesses and
+they have an incentive to be efficient and to minimise costs.
+
+What we note, with our expertise in energy, is that even if they were constantly paying the absolute peak
+price of energy costs, which nobody does, that would still be a rounding error compared to the sums of money
+that are being invested. We cannot rely on efficiency to drive outcomes and to drive the innovation. We think that
+there is, as there always is, an important role for regulatory frameworks to guide where we want innovation to go.
+We want that innovation to go to the most efficient data centres
+to
+
+data centres which deliver the highest valueuses and provide the best co-
+benefits to the community, including things that we cited around energy system
+flexibility, which can actually support a faster transition to renewables, rather than be a huge risk to it.
+
+The CHAIR:
+I think the way you framed that when you said effectively to structure around that
+opportunity or toI can't remember the words that you used. It made me reflect on
+a lot of what we've heardfrom community groups is that they don't know what the particular
+
+data centre being proposed in their area is for.
+It's all very different in terms of what the energy source is going to be, how much energy and what the water
+efficiency is. It's all just so different, depending on each proposal, that I guess if you had
+this
+as Ms Munro keepssayingstrategy and an actual framework, then you would get, presumably, a benefit for the industry as well, and
+that people would know what they're getting and expecting.
+
+DOUGLAS McCLOSKEY
+:
+Absolutely. Without wanting to speak for other people who may have
+testified, our observation is that the industry itself wants clear standards and regulations so that they can be assisted
+to fulfil the role that they believe they have and the opportunitie
+s that they can see. We would concur with that.
+I
+
+think to some degree there is an assumption that a regulatory framework is an anathema to investment, and it's
+just not true. We see in the energy and water space that regulation aids investment. It provi
+des certainty that guidesinvestment and innovation. I think we should think of the type of strategic and regulatory guidelines that a lot of
+people are talking about as a way to maximise our opportunity, not to curtail it.
+
+The CHAIR:
+I've got a couple more questions. One of them is in relation to the "use it or lose it"
+suggestion and milestones for data centres to address phantom demand and protect against land banking. The
+Committee has heard quite a bit about the amount of stress that people go through trying to get their heads around
+Thursday 2 July 2026
+
+Legislative Council
+Page13
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+a development in their particular area and either oppose it or try to get better parameters for it, only to find that it
+was never going to go ahead, and also how that then clogs up the planning system for those more certain projects.
+Would we end up with a situation, perversely
+if we had a use it or lose it policy
+where we're forcing datacentres to be developed that maybe we wouldn't end up actually needing?
+
+DOUGLAS McCLOSKEY
+:
+I think there's a difference between trying to mitigate the risk to the
+community of things in the data centre and the technology development industry impacting on key infrastructure
+and community needs and trying to have our data centre policy manage all risks in the international technology
+and AI sector, which is, quite frankly, not going to happen when we are a small to middling power at best. I think
+what we can do is say that an appropriately robust gateway for developments, one, helps shake out the
+
+speculativeinvestments and helps ensure that whatever makes it through the first gateway is robust enough that it is unlikely
+to fall over, that it is unlikely to be ill considered or that it is unlikely to be the result of more speculative terms.
+
+Then we raised the ideas of "use it or lose it" or other provisions as examples for what's required. It's fair
+to say
+and we're happy to ownthat these aren't developed proposals and really practical, implementable things.
+But there are analogies for those
+
+sorts of provisions in some resource stakes, where you have time to explore,
+prove and develop up a proposal and use it, or else you lose the opportunity. Those sorts of examples are
+reasonable to say that, in conjunction with robust gateways, if a propos
+al starts, we have reasonable faith that itwill be genuine and will proceed, and that, if it doesn't within that period, that capacity or that scope is then
+provided back to others to utilise. What we recognise is that, while it's not our focus, there is an opportunity in
+data centres. Our focus is obviously on the community and households. We're not talking about preventing data
+centres or limiting them. We're talking about ensuring that they can optimise their opportunities in a way that also
+optimises opportunities for the community.
+
+The CHAIR:
+I guess the other way to do that, then, would be to require more of an up-
+front cost to theproponents. There are a couple of things that leap out in your submission about this
+the idea of bidding forcapacity, which I think is similar to what they had in Singapore, with this kind of allocating of capacity. But I like
+that bidding for capacity, particularly if you then had to put a chunk of that money into the Government's coffers
+early on, which perhaps would be good. Then the other issue that keeps comi
+ng up is the cost to consumers downthe track of network augmentation, whether it's energy or water, for proponents who then don't end up going
+ahead, and then that cost being socialised through consumers.
+DOUGLAS McCLOSKEY
+:
+
+There are a number of things in there. Again, the idea around bidding for
+capacity was an example for us of things that could be considered, particularly for areas of highest value. We were
+noting that data centre operators have particular parameters that are most valuable to them. I think the previous
+speakers spoke about them
+proximity to international connections and potentially workforces or development
+et cetera. There is scope to map those areas and have that mapped against the capacity for both energy and water,
+and to have, potentially, schemes which allow people to bid for that. Again, this is not intended as a specifically
+well-
+developed proposal, but something that has reasonable analogies elsewhere and that could be considered as
+a way of trying to optimise value, particularly in high-
+value areas.
+
+I think the secondand it's related but distinctissue is that for the process of any data centre, they should
+be, like any large connecting user, paying for their full connection costs up-
+front. We noted that that should beboth deep and shallow connection costs. For a lot of connection agreements, the what they call shallow costs
+just the immediate, direct impacts on either the energy or water network
+are paid for by that proponent. Thatmight be to the nearest substation or others. Some of the scale of t
+he data centre proposals that are currently intrain or being talked about, and also their cumulative scale, has much deeper impacts that run right up the
+transmission system line. We want to make sure that whatever scheme is put in place, and whatever req
+uirementsare put in place, can also recognise those further upstream impacts at the point of connection.
+
+We think there's probably good recognition at both a New South Wales level and an Australian g
+overnmentand regulatory level that initial connection costs should be borne by the proponents. W
+hat's not well recognisedis that that's only part of the picture
+. That manages some of the immediate cost risks of these developments
+imposing costs on consumers straightaway and imposing risks that they require upgrades and then they're not
+there to deliver them. What we're left with is a white elephant,
+
+or assets that consumers have to pay for. That'sobviously one problem.
+
+But the second issue is to deal with their ongoing needs. This is where we highlighted the need to
+build ineither requirements or incentives for both renewable contracting but also flexibility services
+, noting that somedata centres have a reasonable degree of flexibility, which is incredibly valuable at the type of scale that they have,
+either to help the system balance itself
+so help maintain elements of system securitybut also, potentially, to
+mitigate wholesale prices, which have large-
+scale impacts on energy costs more broadly. It's important to
+Thursday 2 July 2026
+
+Legislative Council
+Page14
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+recognise that whole picture
+that it's about capacity generally, it's about up-
+front costs and it's about ongoinguse as well.
+
+The CHAIR:
+That does bring us to time. Thank you so much for your attendance and for your submission.
+To the extent that there were questions taken on notice or any supplementary questions, the Committee secretariat
+will be in touch. That concludes our time with you.
+
+(The witness withdrew.)
+
+(Short adjournment)
+Thursday 2 July 2026
+
+Legislative Council
+Page15
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Ms KYLIE HARGREAVES
+,
+
+Deputy Chair, Regional Development Australia Sydney, affirmed and examined
+
+The CHAIR:
+We now welcome our next witness.
+
+Would you like to start with a short opening statement?
+
+KYLIE HARGREAVES
+:
+Chair
+
+and
+
+members of the Committee, thank you for the opportunity to speak
+on behalf of Regional Development Australia NSW. While I am the deputy chair of RDA Sydney, I am appearing
+today on behalf of the full network of RDA NSWcommittees and the communities
+thatwe represent acrossregional and rural New South Wales, both within and outside the renewable energy zones. Regional communities
+understand that data centres are now critical national infrastructure. They support essential government services,
+A
+I
+, defence capability and the digital economy. But their arrival in regional areas does
+bring unique, often-
+overlooked challenges that require deliberate policy settings if we are to secure long
+-
+term regional benefit andminimise local impacts.
+
+Beyond the well
+-
+known issues of water, energy and land
+
+use conflict, communities are increasinglyconcerned about digital load concentration, where a single hyperscale facility could
+draw more electricity,
+telecommunications backhaul and emergency response capacity than an entire regional town. If one operator
+becomes the dominant user of local infrastructure, it can crowd out other businesses and leave councils exposed
+to costly rectification, maintenance or upgrades if thoseoperators later relocate or co
+nsolidate. There are alsoemerging thermal and microclimate effects from large-
+scale heat rejection, which can affect agriculture,
+viticulture and sensitive ecosystems, yet may not be adequately modelled or considered in approvals.
+
+Data centres introduce new fire, battery storage and hazardous materials risks that many regional brigades
+are not yet trained or equipped to manage. These challenges do not argue against data centres; they argue for
+getting planning, sequencing and governance right.
+
+When policy settings are right, the opportunities aresignificant. International experience from rural Ireland, Scandinavia and the American M
+idwest show theimportance of early community engagement, circular
+-
+economy planning and transparent long
+-
+term infrastructureagreements. Regional New South Wales
+
+can learn from these lessons and avoid the pitfalls thatothers have faced.
+
+A major opportunity lies in attracting non
+-
+latency
+-
+sensitive compute, A
+I
+
+model training, scientificsimulations, bulk data processing and archival storage. Locating this capacity in regional
+New South Wales
+
+canstrengthen Australia's digital sovereignty
+;
+
+reduce pressure on metropolitan grids
+;
+
+and support sectors such asagritech, defence analytics and space technology.
+
+Data centres can also catalyse long
+-
+term workforce developmentin regional New South Wales
+. With early partnerships between operators, TAFEs
+
+and universities, they can createtraining pathways in electrical trades, cybersecurity, HVAC, digital operations and critical infrastructure
+management. These are high
+-
+value, future
+-
+focused skills that support not only data centres but also defence,
+advanced manufacturing
+,
+clean
+-
+tech industries
+
+and others
+.
+
+When planned well, data centres can help build the skilled regional workforce that New South Wales
+
+willneed to rely on for decades. Importantly, regional New South Wales
+
+is home to five renewable energy zones,
+providing a unique opportunity for data centres to co-
+locate near new renewable generation and firming assets.
+This aligns strongly with the NSW Electricity Infrastructure Roadmap
+, which seeks to coordinate generation,
+storage and transmission investment. With the right incentives, data centres c
+ould
+
+act as flexible electricity usersthatcouldhelp stabilise the grid and support renewable integration.
+
+But toensurethat this development strengthens rather than strains regional communities, RDA NSW
+recommends a regional impact test for hyperscale proposals. This could be c
+onducted within the New South Walesplanning system or independently
+by a body such as the New South Wales productivity commission or
+Infrastructure
+
+NSW, in partnership with local communities,
+councils and RDAs. An independent test wouldensurethatcumulative impacts on housing, workforce, infrastructure and emergency services are asses
+sedconsistently and transparently.
+
+We also recommend mandatory circular
+-
+economy planning,
+
+coordinatedinfrastructure sequencing
+, localbenefit agreements, and a whole-
+of
+-
+government regional data infrastructure strategy that canensure data centres
+complement
+rather than compete with
+agriculture, manufacturing and emerging clean tech industries.
+
+Inclosing, regional
+New South Walesis ready to play its part in Australia's digital future. With thoughtful policy,
+data centres can become anchors of new regional industries, not isolated enclaves of global infrastructure.
+RDA
+
+NSW looks forward to working with the Government, industry and local communities to ensure the benefits
+of the digital economy are shared widely across regional New South Wales.
+
+The Hon. SCOTT FARLOW:
+In terms of data centres and what we've known so far, we've largely known
+them to be in metropolitan areas and around the Sydney CBD. I know there have been a number of proposals that
+have now started to emerge
+and we've heard about them in the inquiry as wellin regional New South Wales.
+Thursday 2 July 2026
+
+Legislative Council
+Page16
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+At the moment, do you have any appreciation for how many data centres are proposed in regional New South
+Wales?
+
+KYLIE HARGREAVES
+:
+No, I don't. I'm assuming the major portal, the NSW Planning Portal, would
+be able to give us some visibility on that. It does tend to be long conversations, so I'm not entirely clear as to how
+many of those are actually in the planning pipeline at the mom
+ent.
+
+The Hon. SCOTT FARLOW:
+Are there any hotspots, so to speakwe know in Sydney around the
+Artarmon to Macquarie Park band, we're seeing around Western Sydney now as well. In regional New South
+Wales, are there any areas where we're starting to see a concentration of data centres emerge or proposals?
+
+KYLIE HARGREAVES
+:
+It's a really good question. We did ask our committees. I think it's early days
+for a lot of them. The fear is more around inside or outside a renewable energy zone. That seems to be a hotspot
+in the sense that there is concern that the areas outside 2 a r
+enewable energy zone will already have problems withenergy. Most regional areas have concerns around water and land use competition. There's a sense that there's
+more land out there, but obviously the land is competing for agricultural and other regiona
+l uses. It's more a waitand see. We're cautiously optimistic. We're not currently seeing any immediate pressures outside of what you're
+seeing already from some of the regional areas and from water
+-
+stressed areas already.
+
+The Hon. SCOTT FARLOW:
+Is there more support for them in the REZs and being co-
+locatedeffectively, along those transmission lines?
+
+KYLIE HARGREAVES
+:
+The sense from the communities is that being co-
+located in a REZ means thatyou have more government coordination, more focus and more access to solutions, particularly for energy,
+obviously, but not just for energy. There is a sense that, particularly whe
+n you're outside of the REZs, when you'relooking at some of the things like the telecommunications backhaul, in the renewable zones you actually have a
+focus on that because a number of the renewable energy companies have to upgrade some of the
+telecommunications anyway for their own benefit. Obviously, if you're outside of that area, that co-
+investment ininfrastructure is not happening. There is growing concern that, again, even things like the telecommunications
+backhaul is going to be a real pressure
+
+point for regional areas outside of REZs.
+
+The Hon. SCOTT FARLOW:
+I know there are some live proposals in the Hunter as well
+I think there'sone at Muswellbrook, and there's one at Kurri Kurri as well, I think in the old smelter site
+looking at potentiallytaking over some of those former industrial uses that are no longer in operation. Is that something that the RDA
+sees as a potential benefit or a positive step forward?
+
+KYLIE HARGREAVES
+:
+Absolutely. Again, a lot of those industrial sites are also setting themselves up
+as energy hubs. They have BESSs co-
+located there as well, which is also seen as a benefit because, obviously, the
+data centres have to run 24/7. If you can actually co
+-
+locate
+
+with BESSs and other industrial land where there'salready a sense of appropriate land use, then that is definitely seen as a good option.
+
+They also tend to havebuffers
+not always, but they often have buffers already around those industrial zones so that, again, the
+residential areas are even a bit further away from that. Not always
+but, again, that's another reason why thatindustrial area is a potential benefit.
+
+The Hon. SCOTT FARLOW:
+One of the other questions that has been debated in the inquiry to date has
+been around the skills required. I guess there are two levels of skills. There are the skills in the constructionand
+we've heard some pretty compelling evidence from a range of st
+akeholders in terms of what we need to do to trainup our construction workforce, but that we might even have some of those skills already existing here. I
+
+think oneof our previous witnesses said that, in terms of the gas industry, for instance, that could lower the use of water
+that we would have for the facilities. In terms of the IT, which is the next part, once they're constructedis that
+IT skilled workforce something that you see that regional New South Wales has the capability to deliver as well?
+
+KYLIE HARGREAVES
+:
+Certainly we'd say that the workforce has capability there, and it obviously
+needs to be trained. The challenge with the data centres is that it's not necessarily always a lot of jobs, so it's really
+about the multiplier effect of that data centre. This is
+
+where we were talking about, where they can actually havean alignment with local or regional universities or TAFE. That sort of alignment is probably more beneficial,
+where they can actually work on data and analytics and processes that aren't so laten
+cy dependent. That's also anopportunity for sourcing some of that more scientific and health-
+related work out there, which would actually,
+again, be very beneficial for the regions in attracting appropriate skills. I think it's less about data centres
+themselves, if I can say that, and it's more about the multiplier effect of how they could actually add to skills and
+new industries in those areas that, in turn, could also add new skills. That is the quite interesting part for us. I hope
+that makes sense.
+
+The Hon. JACQUI MUNRO:
+When you're talking about the coordination of groups in regional areas to
+ensure that there's benefit from the data centres and they're setting up in regional areas, how do you envisage that
+Thursday 2 July 2026
+
+Legislative Council
+Page17
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+body? Should there be a separate organisation created that would coordinate that for different parts of benefit
+sharing, or does it go through a council? How do you see that operating?
+
+KYLIE HARGREAVES
+:
+
+There are two elements to it. In terms of the community benefit side
+specifically, I think there's a lot to be learned from the renewable energy industry. I think mechanisms that are
+similar to that, given that this is essentially
+a lot of people will talk
+
+about it as being the next mining boom interms of quantum. So I think taking the best out of the renewable energy, where it's worked well, is a really good
+
+The Hon. JACQUI MUNRO:
+What does that look like?
+
+KYLIE HARGREAVES
+:
+Not necessarily the VPAs that come through the standard New
+
+South Walesplanning process, but some of the REZ
+-
+level requirements for participation in the zones, and some of the benefit
+agreements that are done by high-
+performing operators
+they're often in the case studies of the infrastructurecommissioner and stuff like that, which are well worth it
+and the guidelines that have actually been issued forcommunity benefit sharing. All those three pieces from the renewable energy, I think, are quite pertine
+nt to thedata industry and could be easily replicated.
+
+The Hon. JACQUI MUNRO:
+What would you say about something like EnergyCo being replicated? Or
+would there be specific functions, perhaps, that you would see a body undertaking?
+
+KYLIE HARGREAVES
+:
+There's always a concern about creating more institutions. If they have a very
+clear mandate, they're resourced properly and they can actually make decisions, then, of course, that's great. That
+sort of an EnergyCo-
+type model does work for that second part
+, which I was talking about, where we were tryingto say that we really need to be thinking about major infrastructure going into these regions and all the things that
+all of the major infrastructure needs. If it's Infrastructure NSW, if it's an EnergyCo-
+plus
+-
+plus, what they need tobe doing is going, "Okay, we're building big transport infrastructure, big renewable infrastructure. We're building
+big data centre infrastructure. What is required in terms of managing that cumulative effect? What is required
+
+interms of scheduling of things like energy, water, telecommunications, and how can we sequence that so that all
+of those big infrastructure pieces can actually be delivered efficiently without just stressing the local community?"
+
+I was about to say something a bit more colourful, but, yes, without stressing the community.
+
+The CHAIR:
+We hear about the benefits of having data centres out near renewable energy zones and
+being close to the source of energy, but on the flip side we've heard that people like to have their data centres
+where there is really good telecommunications. This is an area I admit I am not very familiar with, but when it
+comes to NBN and the rural parts of the network, is there more work we need to do first to prepare that
+infrastructure to enable data centres to want to be out in the regions?
+
+KYLIE HARGREAVES
+:
+Definitely. In the first instance, you can look at what we were talking about
+before, which was those that are less latency dependent. You can actually put some quantum computing out there,
+for example, and say
+and, again, this is not my subject matter expertise
+"Go and think deeply for whatever itis
+four hours." It's not something where real
+-
+time latency is required. You can actually locate that as long as you
+can get through the telecommunications lines. Where you need real
+-
+time latency, the telecommunications in a lotof the regional areas is not going to be able to support that without investment in upgrading it and making it able
+to support data centres that are more in that real
+-
+time space. The short answer is there are definitely areas where
+the telecommunications would need to be upgraded to be able to support data centres.
+
+The CHAIR:
+I guess we could do it the other way around as well. We keep talking about the benefit to
+community. If the data centre operator paid for an upgrade to the telecommunications, then it would benefit the
+surrounding community.
+
+KYLIE HARGREAVES
+:
+Absolutely. Again, in the US, a lot of the trends are "bring your own energy,
+bring your own water, bring your own telecommunications" type of philosophies. Essentially that boils down to:
+Can we actually get to a net
+-
+positive benefit to the community? I think that sort of philosophy is, again, something
+that the regions are not exclusively asking of data centres. They would like to see that same sort of net
+-
+positivecoming from renewable and other major infrastructure. It's not a data centre specific thi
+ng, but it is a fundamentalphilosophy change to the way that proponents go into a region so that they think less about what they need to take
+to operate and more about "How clever can we be with our cooling technologies, or whatever it might be, that we
+can actually end up with a net
+-
+positive outcome for the community?"
+
+The CHAIR:
+One of the ideas that we've heard a lot about is this idea of allocating capacity. At the
+moment, we have this system where you effectively apply and if you tick all the boxes, then you can get your
+approval for a data centre. Previously, we've not reallyhad much of an overarching strategy or a plan, but what
+we've heard is that in some other jurisdictions, they have a more regulated way of doing things where they are
+allocating out not just the capacity but the capacity during a period of time. It strik
+es me that we could also dothat here in terms of capacity within a particular area.
+Thursday 2 July 2026
+
+Legislative Council
+Page18
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Would there be synergies, do you think, between particularly these areas that have renewable energy
+projects, the sequencing
+we hear a lot from regional communities about workers coming and going. They come
+for a period of time, they build the renewable energy and, a bit like data centres, they don't leave behind many
+jobs, and then all of the services and facilities that were put in place to support those workers have to close down.
+
+Perhaps if we did have that allocating way of doing things, we could alloc
+ate in sequence with renewable energyprojects at the same time. Do you think that would allow us to have more of a positive impact with these things?
+
+KYLIE HARGREAVES
+:
+
+Definitely. The question is how do you do it, whether it's an
+EnergyCo-
+plus
+-
+plus sort of question that we had before, but absolutely. The ability to schedule big infrastructure
+in regional areas and therefore potentially help move construction workforces around or encourage cooperation
+between clusters of companies
+water is another classic. If we've got a strategic activation precinct at Parkes and
+we've got a whole bunch of industrial people out there, is there a way that we could sequence the activities
+
+in thatprecinct, for example, so that two proponents are co-
+investing into upgrading the recycled water facilities that are
+required to the benefit of two or three of them. So, yes, anything you can doessentially, the regional
+communities just want a little bit of that planned sequencing and transparency, so they can see what's coming,
+where the stress points are and they can plan their futures and their communities around that visibility.
+
+The CHAIR:
+Which seems very reasonable.
+
+KYLIE HARGREAVES
+:
+Which seems entirely reasonable, exactly.
+
+The CHAIR:
+It's what we all want.
+
+The Hon. JACQUI MUNRO:
+On that, going back to Dr Ohki's point in the previous session, the question
+should be what problems are we trying to solve. If a data centre proponent comes in and says, "We think this is a
+really good area, but what problems can we help you solve as a re
+gional community?" is it a matter of thatproponent holding a town hall meeting? We've spoken about the more formal mechanisms that might be available,
+but are there ways that data centre proponents should be using existing pathways like the activation precinct
+model? I don't really know how those precinct models work, but is there any
+The Hon. SCOTT FARLOW:
+They've scrapped half of them.
+
+The Hon. JACQUI MUNRO:
+Yes.
+
+KYLIE HARGREAVES
+:
+If I understand correctly, the question is around how can the proponents
+actually understand what the communities need?
+
+The Hon. JACQUI MUNRO:
+Yes.
+
+KYLIE HARGREAVES
+:
+
+Again, it's very similar to the renewables, where some of the challenge is
+around thinking about it's proponent onlythat's actually the challenge. So, yes, you want best
+-
+in
+-
+classproponents to be consulting with the community. Proponents like CWP Renewabl
+es
+who I think are now
+Squadron Energywould do that. It's in the guidelines that best in class will go out to the community, genuinely
+listen to understand what it is they're trying to solve, be creative about it and then they upgrade the satellite phone
+so that the farmers can check the water in their tanks from the satellite phone rather than from having to walk up
+to see it, saving them a day's work, for example. That's a given. If you want to be best in class, you need to be
+talking and listening to the communities about what's important to them. That's clearly also identified in the
+guidelines and expected in the planning process.
+
+The challenge is how can you do that in an efficient way so that you're looking at the schedule or the
+process a bit more to avoid the proponent
+-
+by-
+proponent consultation model. Again, I know you've heard that in
+renewable energy, because the communities have been complaining about that for a while as well
+that is, weneed to have this visible pipeline of things so that we can talk to the whole pipeline about what is needed over
+35years and start programming the benefits to the community that way as well, and different proponents doing
+different infrastructure have to pick up different parts of what the community needs, then you have a
+systems
+-
+thinking approach to what the communities need. If we could crack that, I reckon that would be a really
+impressivestep forward.
+
+The CHAIR:
+Sorry, I'm just spitballing, but imagine that you had that sort of allocation model but you
+could effectively say to a particular community, "Your renewable energy projects are coming to completion.
+There's capacity for you to have a data centre of X size.
+
+Here's your allocation, community," and then thecommunity runs the bidding process where the proponents say, "If you take us, we'll upgrade your NBN." Imagine
+that!
+
+"You have to be environmentally friendly and you have to do all these things."
+
+KYLIE HARGREAVES
+:
+That is interesting.
+Thursday 2 July 2026
+
+Legislative Council
+Page19
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. MARK BUTTIGIEG:
+Stemming from that previous line of questioning, where I think the
+Chair was asking you about this trade
+-
+off between latency and renewable energy and getting the infrastructure out
+there, what if data centres were to be asked to contribute to a fund which would then allow the Government to
+maybe provide the infrastructure? For example, if we want them to set up in the regions, you need a whole bunch
+of fibre optics to go out there, and then NBN or whoever could use that money to fund that. Then that spill
+-
+overeffect into those towns and regions would be great because you're getting the beneficial infrastructure.
+
+KYLIE HARGREAVES
+:
+
+Again, I think that's very similar to what's in existence around some of the
+REZ zone participation requirements. The proponents need to put into a fund that in turn can help EnergyCo and
+others deliver some of that required infrastructure. I'm sure the da
+ta industry is probably not going to love me forsaying it, but of course the communities are going to sit there, going, "If there's a way that we can upgrade what
+we need for our own infrastructure and liveability in the regions, then fantastic, right?"
+
+Particularly, in thetelecommunications example before, if it actually pays for the telecommunication upgrades and they can make
+emergency calls, well great
+they're going to be very happy with that. So I do think all those sorts of mechanisms
+need to be looked at.
+
+The Hon. MARK BUTTIGIEG:
+So that REZ model is functional, from your perspective? That would
+work?
+
+KYLIE HARGREAVES
+:
+I don't want to speak for every single one of my communities, but from what
+I understand, yes, that model is working and people are happy with it. It is a bit more legislated, from what
+I
+
+understand. It's actually mandatory, so it's not in that voluntary s
+pace of good proponents. You're paying to play,
+essentially, is my understanding of the system.
+
+The CHAIR:
+Thank you very much for your time. It has been incredibly useful. To the extent that there
+are any supplementary questions, the Committee secretariat will be in touch. That concludes our time with you.
+Thank you.
+
+(The witness withdrew.)
+Thursday 2 July 2026
+
+Legislative Council
+Page20
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. PENNY SHARPE, MLC
+, Minister for Climate Change, Minister for Energy, Minister for the
+Environment, and Minister for Heritage, before the Committee
+
+The CHAIR:
+Minister, would you like to start with a short opening statement?
+
+The Hon. PENNY SHARPE:
+No, I am good.
+
+The CHAIR:
+Excellent. Thank you very much for coming along. This is day five of our inquiry. We have
+had a very interesting time of it, working out different potential policy parameters and recommendations. You are
+obviously tapped into what's happening in other jurisdictions and federally. Is there anything you can share with
+us in terms of what is going to be happening at a Federal level and how that's likely to impact us here in New
+
+South
+Wales?
+
+The Hon. PENNY SHARPE:
+Yes, I can. There are probably two things in particular you need to be
+aware of. The first is that earlier this year the Commonwealth put out their principles, which are in their
+
+document
+"
+Expectations of data centres and AI infrastructure developers
+".
+
+That sets out broad issues. There are five pointsin that. The first one is "prioritising Australia's national interest", then "supporting the energy transition",
+"sustainable and efficient water use"I know the Committee has been traversing all of these i
+ssues
+"investmentin skills and workforce" and "research, innovation and local capability". That is setting out broad parameters about
+how the Commonwealth would like to coordinate across the different States. There's actually a separate piece of
+work that's happening with energy Ministers. I'm not sure how much the Committee is across that, but it's probably
+more useful to you. I'm happy to take you through it.
+
+The Energy and Climate Change Ministerial Council
+which, of course, is all of the energy and climatechange Ministers, with the Commonwealth
+has been dealing specifically in examining the issues around energy
+use and data centres. At our last meeting in May we asked our officials to develop more recommendations to
+consider at our next meeting, which are about, again, broad principles that States and other planning systems could
+deal with when it comes to energy. The first is to "invest in additional renewab
+le generation and firming in their
+State of operation to fully offset their electricity demand"
+I'll just read them out and then provide some othercomment
+"and provide demand flexibility services to avoid additional costs being borne by other energy users
+"and "provide transparent reporting on energy use and emissions". We've also asked for advice from the AEMC
+which is the Australian Energy Market Commission and which makes the rules
+on their pathways and regulatorydesign options, including any changes t
+o the national electricity laws and rules, which is what they are responsible
+for.
+
+We've also asked the Australian Energy Regulator to progress its review on the connection charge
+guidelines for distribution and to progress a rule change to ensure distribution
+-
+connected data centres cover thecost of the necessary network upgrades. We've
+
+agreed to progress rule changes to improve operational integration
+and visibility of data centres. That sounds pretty technical but it's pretty straightforward. It's very similar to where
+New South Wales is thinking in terms of our discussion paper and th
+ose things, which is that consumers shouldn'thave to pay more and that if you want to have a data centre, you've got to basically pay for it, not just connection
+charges and slight augmentations. Overall, it is so that consumers ultimately are not having
+to bear increased costs.
+That's one of the principles that's in our consultation paper as well.
+I know that there's been some discussion about how often they're on, how much they use and those kinds
+of things. I was at an energy forum earlier today, where the other rule changes that are getting progressed via
+Transgrid are about dealing with that issue. Basically, you've got to pay for
+the suggestion is that the networkupgrade is on the basis of 100 per cent running all the time, not this up and down. That would then cover the cost
+so that consumers are protected. That's, again, proceeding through a discussion and getting looked at through
+AEMC.
+
+The CHAIR:
+So that's the concept that
+so at the moment
+
+The Hon. PENNY SHARPE:
+I think it's gets called phantom load, and all of that sort of stuff.
+
+The CHAIR:
+So we are building the infrastructure to basically get us to them being able to use
+100per
+
+cent, but then they don't use 100 per cent so the cost recovery is not obviously the right amount.
+
+The Hon. PENNY SHARPE:
+Correct, so it doesn't go to the consumer. I think that's where the whole
+discussion is up to. It's like, "Okay, can we do this with opportunities that are there?" But under what
+circumstances would you do it? There's a very strong view, I think. To be cle
+ar, though, at the energy Ministers'council, Queensland weren't keen, but everyone else was fine on progressing those principles. It's pretty basic.
+One, we prefer it to be renewable energy to actually deal with helping the build out of renewables, and then there's
+who pays and how.
+Thursday 2 July 2026
+
+Legislative Council
+Page21
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The CHAIR:
+In one of the SO 52s
+it might've been the lobbyist one; apologies, I don't know if it's the
+first or second tranche that I read this inthe
+
+NSW Data Centre Consultation Paper
+
+was scheduled to be turnedinto guidelines by June.
+
+Obviously, that date has now passed, only by two days, but can you tell us what the
+current status is there?
+
+The Hon. PENNY SHARPE:
+Obviously, there has been the consultation, which is important. To be
+honest, this inquiry has also helped. It helps flush out some of those issues. It's with government. We need to
+consider finalising that. I, of course, would hope that, like with everything pretty much
+would like everythingdone yesterday. It's working its way through our processes, and hopefully we'll have something soon, but I don't
+know what the time frame is. I'm not in control of when it's coming through.
+
+The CHAIR:
+Is there a reason why it's guidelines rather than mandatory rules? I guess that's the same at
+the Federal level as well, and that's caused some consternation.
+
+The Hon. PENNY SHARPE:
+It's funny, actually, because this guideline issue happens a lot in the EPA
+space. They issue guidelines around a whole lot of things, and there's a bit of toing and froing about whether
+they're mandatory or whether they have to be dealt with. The way that
+
+guidelines operate, though, in New South
+Wales, I would argue, is the guidelines tell proponents what they have to address through the planning system.
+The idea that you have guidelines up-
+front is so that people can hopefully prepare through that. That
+'s the sort ofthing that's tested through the EIS and the planning system. Depending on who you talk to, people have differing
+views about when a guideline is a guideline and when it's mandatory and all those sort of things. My experience
+in the EPA context is that the guidelines really tell people what they need to provide. This is the sort of stuff that
+gets considered through the planning system, so it's much better if they're prepared earlier, because, at the end of
+the day, everyone in the planning system wants the quickest process possible. If you meet the guidelines, it will
+be quicker.
+
+The CHAIR:
+Apologies for not knowing the answer to this, because my knowledge of planning law is
+not
+
+The Hon. PENNY SHARPE:
+I'm not the planning Minister either, but I'll give it a go.
+
+The CHAIR:
+So presumably then, you've got your guidelines and they would then make their way into
+conditions of consent in some way. Is that how it then becomes a rule?
+
+The Hon. PENNY SHARPE:
+It's a good question. I'll give you an answer, but I'll come back on notice
+if what I've said is not strictly correct. The idea of the guidelines is what the Government's expectations are. It's
+the sort of thing that probably would inform development conse
+nt things, but I would need to just absolutelyconfirm that because, as I said, I'm not the planning Minister and the way in which the guidelines are translated
+into conditions of consent I probably just don't know enough about. But I'll find out and com
+e back to you.
+
+The CHAIR:
+One that's caused a lot of concern, which I know I've spoken with you about before, is the
+Southern Highlands proposal and the gas
+-
+powered component to that. Would that meet the guidelines?
+
+The Hon. PENNY SHARPE:
+
+It's a tricky one. I know there's a lot of community concern about it. There
+are three data centres. One data centre is currently operational, but the other two that would make it the really
+big
+if I'm understanding it correctly, the other two are in the pre
+-
+planning stage, so there are a whole lot of thingsthat they would have to address. I understand the community concern, but I'm probably not in a position to say
+whether they wouldbecause the guidelines aren't finalised. I'm probably not in a position
+to really provide muchmore comment, other than this will have to be dealt with. There are also obviously some issues with the Land and
+Environment Court and the council as well, which I'm reluctant to make comment about.
+
+The CHAIR:
+Would the guidelines be retrospective or not?
+The Hon. PENNY SHARPE:
+Good question. I couldn't tell you because we just haven't decided. We've
+already obviously got quite a lot of data centres that are already there. Retrospectivity is a bit
+I'm just not in aposition to tell you.
+
+The CHAIR:
+I mean for ones that are not built yet but have begun the planning.
+
+The Hon. JACQUI MUNRO:
+Thank you very much for coming, Minister. It's really helpful to have you
+and the work that you've done. We've spoken a lot about a data centre strategy. A lot of witnesses have given
+evidence, and we've got a lot of submissions that call for a data centre
+
+strategy. Simon Draper said that there willbe no data centre strategy, and I just wanted to clarify that that is indeed the case.
+
+The Hon. PENNY SHARPE:
+Isn't there a discussion about whether it's guidelines versus a strategy? Is
+that right?
+Thursday 2 July 2026
+
+Legislative Council
+Page22
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. JACQUI MUNRO:
+I think there is a distinction between a strategy and guidelines. Witnesses
+have also made that clear. Guidelines might relate to a requirement or suggestion for proponents, but a strategy
+actually looks at the broader New South Wales spatial perspective, where you've got an understanding of how
+many gigawatts are available over the long term and where data centres should be placedlike whether there
+should be particular zones or whether they should be in particular industrial areas
+so that we can actually givethe public confidence that this rollout is going to be beneficial and not a massive white elephant or hugely
+disadvantageous to communities.
+
+The Hon. PENNY SHARPE:
+There are a few things to unpack there. As Government is considering all
+of the issues, there are guidelines, but there's also other policy work that's occurring. In my area, the energy work
+is extremely important. It sits adjacent to and will necessarily have to be integrated into guidelines. If you think
+about it, the guidelines are partly for dealing with the planning process. There's also a whole lot of other policy
+work that needs to occur
+I know you spoke to Minister Jackson about water
+and how that
+
+comes together.
+
+The Hon. JACQUI MUNRO:
+That's what a strategy would ideally do. It would bring all of that together.
+
+The Hon. PENNY SHARPE:
+I hear what you're saying. The final format of that, I'm not in a position
+to
+it hasn't been decided in government. All of those things are being considered.
+
+The Hon. JACQUI MUNRO:
+You mentioned before that the guidelines don't fall within your portfolio
+responsibilities. Whose portfolio responsibilities do they fall within?
+
+The Hon. PENNY SHARPE:
+They'd mostly be with Planning.
+
+The Hon. JACQUI MUNRO:
+So Minister Scully would be responsible for the ultimate form of those
+guidelines, or whatever it is.
+
+The Hon. PENNY SHARPE:
+It's a fair question. We've gone out and consulted. My agencies have been
+involved with that, as has Planning and those kinds of things. Ultimately, how do we manage data centres? What
+I'm really saying is there's a number of different levers within the pl
+anning system, and I think the guidelinesaddress part of that, but it also could be broader than that. The fact is that the Government has not made a final
+decision. Again, I'd say that the kind of issues that you've raised in this inquiry will help infor
+m that, to be honest.
+That's good.
+
+The Hon. JACQUI MUNRO:
+So there might be a strategy.
+
+The Hon. PENNY SHARPE:
+The final form, whether you call it a strategy, whether you call it guidelines,
+and what's also other policy work that comes out of my agency
+The Hon. JACQUI MUNRO:
+But you see the difference between guidelines for proponents and a broader
+strategic document that people can point to?
+
+The Hon. PENNY SHARPE:
+If you're arguing that you need it all in one document, that's one thing. If
+you're saying whether there's other work and the way in which that's implemented and communicatedI suppose
+what I'm saying is that these can all be the same thing. I'm just not i
+n a position to say to youI don't know whatthe document's going to look like. What form it will take, I cannot tell you. What I can give you confidence in is
+that all of the issues you've been raising over a long period of time are all part of the cons
+ideration of the
+Government, because we have to address them.
+
+The Hon. SCOTT FARLOW:
+Just on that point
+and I'll let Ms Munro continue
+if we look at the24-
+hour economy, for instance, we have a 24-
+Hour Economy Strategy. Then below that, we have the certainprinciples which are applied through Planning as to how the 24-
+hour economy operates
+, and then what we've seenthrough Parliament. Don't you think there's the need for both, effectivelyboth the strategy and also the guidelines
+and what underpins it?
+
+The Hon. PENNY SHARPE:
+What I'm saying is that all of the elements of the work that are being done
+are there. What it's finally called and what sits alongside it, I'm not in a position to tell you, because there hasn't
+been a final decision. I note that you think we should have a document that says "strategy".
+
+The Hon. MARK BUTTIGIEG:
+Strategy
+you've got to say it again. Make sure you say it again.
+
+The Hon. JACQUI MUNRO:
+This is not a semantic argument; this is actually how the public has
+confidence that there is an overarching plan and a vision for how this is rolled out. I think that is severely lacking,
+not just with the community but in industry, with Greenpeace and the UDIA. It really spans a huge gamut of
+witnesses. I'm really not being semantic in this. It's a real concern.
+
+The Hon. PENNY SHARPE:
+We'll take it on board.
+Thursday 2 July 2026
+
+Legislative Council
+Page23
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. JACQUI MUNRO:
+Do you think that there is a real risk of youlosing social licence for data
+centres
+, which puts economic growthat risk?
+
+The Hon. PENNY SHARPE:
+No
+, other than the same issues that all large development proponents need
+to deal with, which is how they are dealing with communityand how they are dealing with issues in terms of
+impact, in the same way that they have to do with everything else
+.
+
+The
+Government
+
+will say, "These are theprinciples
+." We've been clear about what some of those are.
+They do help with social licence
+. Whether we call ita strategy in the way that you're suggestingI note your comments.
+
+The Hon. JACQUI MUNRO:
+It's not just me suggesting it
+, just to be very clear.
+
+The Hon. PENNY SHARPE:
+I
+
+go back to the fact that this inquiry will make recommendations
+. It's
+
+helpful. I'm not trying to have a go at you;
+
+I'm trying to say this is actually fine.
+
+You're asking me for an answer
+
+The Hon. JACQUI MUNRO:
+So everything is fine.
+
+The Hon. PENNY SHARPE:
+No, what you're trying to do is to try and trap me into some
+
+gotcha
+
+moment
+.
+
+The Hon. JACQUI MUNRO:
+No
+,
+
+I'm not.
+
+I'm trying to understand what's going on in Government thatcan give everyone confidence that
+
+there is a plan.
+
+The Hon. PENNY SHARPE:
+I just told you. There is a consultation
+
+paper that's out. There are principlesthat are set out in that. There is the development of guidelines and the consideration of other policy areas across
+Government, because it's not just one Minister. That will come together and that will be communicated. What I'm
+saying to you is
+
+I cannot tell you what the final form of that looks like
+
+because it's still under consideration
+. But
+I
+
+welcome your input.
+
+The Hon. JACQUI MUNRO:
+Is there a timeline for when that will be released?
+The Hon. PENNY SHARPE:
+As I just said to Ms Boyd, it's a consideration of Government. I'm not the
+lead Minister on it. I'm not able to tell you what the time
+
+frame is. But
+,
+as with everything, which is my standardanswer, I always want everything done yesterdayas soon as possible.
+
+The Hon. JACQUI MUNRO:
+
+In terms of power prices and the risks to electricity prices, there have been
+some suggestions
+
+that wholesale prices could go up by 26per cent
+. What work areyou doing at the moment toaddress those concerns?
+
+The Hon. PENNY SHARPE:
+
+That's everything that we're looking at
+. The whole principles and the ideaabout who pays and under what conditions
+,
+and the rule changes that we need to make
+,
+
+is all about consumers andother energy users not having to pick up the cost
+,
+
+and how we actually manage that. The work that the
+Commonwealthis doing but alsothe work that we're doingthe work through the A
+EMC in terms of rule changesis occurringis really trying to do that. The principle is very clear
+:
+
+Data centres need to pay their own way.
+
+The Hon. SCOTT FARLOW:
+We've heard a few different things in terms of the grid and data centres
+'
+
+contribution to it, both good and bad. One of the arguments is that it will reduce the variability in the grid
+, and
+
+therefore could actually reduce some of those price spikes. I
+s that something that you or your modelling is seeing
+?
+
+Or is that something you'd contest
+?
+
+The Hon. PENNY SHARPE:
+As I'm sure the inquiry's aware
+,
+
+there's a fair amount of contestation aboutsome of these issues. For us a
+t the end of the day, we're guided by the AEMO projections, which are
+
+no doubtabout increased demand
+. Depending on which model you use
+, it's quite significant. How do we actually managethat? I think there are opportunities. This is not all downside at all. There are real opportunities. One of the
+challenges we have in terms of renewable energy, and
+
+particularly the large renewable energy projects, isthat,
+while we've had quite a few approved,
+
+actually getting them to financial close is proving to be a bit challenging
+because costs have risen over a period of time. There is the opportunity for offtake
+. We also want data centres tobasically be investing in the renewable energy that we need.
+
+There is a sweet spot here. I'm not saying that we've found it, but I think there is a sweet spot here, which
+is, if you can actually
+PPAs
+
+with projects would actually, I think, help get them over the line for a lot of the
+financial close. As the energy Minister trying to convert the entire energy grid, t
+hat
+,
+
+for me
+,
+
+is the interesting partof how we can make that work. I think there are also some opportunities for data centres in terms of minimum
+demand.
+As we know, solar
+gangbusters in the day. We've got real challenges with the way in which coal
+-
+firedpower stations work. They're not designed to go up and down in the middle of the day. The
+
+challengeis aroundthe market model that allows them to operate
+. Data centres providing some kind of minimum load is
+again, I'mnot pretending we've got the regulation or the way in which all of that could work, but I
+alsosee that as anopportunity to help us manage as we build out as much renewable as we can.
+Thursday 2 July 2026
+
+Legislative Council
+Page24
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. SCOTT FARLOW:
+That's a good segue, in a sense, in terms of the financial close argument.
+We've heard some debate in the inquiry, with some advocating that any data centre proposal should be
+underpinned by new energy generation and new renewable energy generation; others
+
+have said that, because ofsome of the issues around financial close in terms of existing renewable energy and approved energy projects,
+that we need to be a bit more flexible on that. I'm just interested in your thoughts or the Government's thinking
+about how to approach that as well into the future.
+
+The Hon. PENNY SHARPE:
+It's a fair question, and it is something we'll have to weigh up. My general
+view is that if it's going to increase demand beyond what we've currently got, we are going to need to build out
+more and that there needs to be a contribution in relation to that
+. Where you draw the line around the timing andhow that would work with PPAs and those kinds of things, we'd need to give that some more careful thought. It's
+a bit chicken
+-
+and
+-
+egg, which is that we need stuff that's built right now
+PPAs would help us get over the line interms of those existing projects
+but then how you would then have to do the extra build-
+out to deal withincreasing demand. I think that's probably one of the questions that we need to answer, but my general view is
+that they should bebringing the energy.
+
+The Hon. JACQUI MUNRO:
+Is that a question that will be answered through the Government's public
+information about this?
+
+The Hon. PENNY SHARPE:
+It's definitely part of the considerations, yes.
+
+The Hon. JACQUI MUNRO:
+Is it something that data centre proponents can expect?
+
+The Hon. PENNY SHARPE:
+No. People just need to be a little bit patient as government goes through
+its process and provides the information. I've given an outline of the types of things that we're considering. In a
+variety of ways, as I said, to go back to the previous conversati
+on, what the document finally looks like and what'sin versus what sits with it across government is to be considered. What you can say to proponents is that you've
+got to pay your own way; you've got to not impact on consumers. Ideally, we need you to help build out renewable
+energy because we're trying to totally change the grid to renewables. It's looking pretty good, but increased
+demand means that we have to build more, and we need contribution for that.
+
+The CHAIR:
+Can I ask about diesel generators? I think this is one of the things that I didn't know anything
+about until it was pointed out during this inquiry. There are diesel generators backing up these data centres. Again,
+this was from the SO 52. There was some information in there around EPA modelling showing that if all eight
+large data centres in the Sydney Basin ran their generators at the same time, the one-
+hour NOx load would be fiveto six times that of all electricity generation in New South Wales and five to six times greater than motor vehicles
+in New South Wales. I understand that the idea is that they're not used unless they absolutely have to be, and we
+wouldn't expect them to be used.
+
+The Hon. PENNY SHARPE:
+Correct. Again, our preference is that they have battery backup.
+
+The CHAIR:
+Yes, but I understand the EPA is currently considering a rule change that the regulatory
+framework should consider the number of sets and the pollutant load, not just the operation hours. Is that
+something that has made its way into your discussions?
+
+The Hon. PENNY SHARPE:
+
+The EPA are awesome. Particularly around the air
+-
+quality issue, it hasreally been cool because we've got some excellent people there who are technical experts as well as understanding
+the health impacts of all of that. All of that information is feeding into our considerations. I can't say exactly what
+they'll do or where they'll ideally land. There are some sort of differences between Government policy and
+independent regulator work. What I would say to you is, yes, I'm aware that they're thinking about
+
+these things.
+They're all feeding into the conversations. All of it will need to be considered, ultimately, through the planning
+process. Again, the EPA has a pretty important role around providing advice as things are going through the EIS
+stage, and I would expect that, at the very minimum, that's where those things are considered. That also includes
+things like greenhouse gas emissions, which are also included.
+
+The Hon. SCOTT FARLOW:
+Minister, I'm interested
+do you receive notifications when the dieselgenerators are actually in use? Is that something that the EPA tracks or is there any disclosure requirement?
+
+The Hon. PENNY SHARPE:
+It's a good question. I don't know. Let me take it on notice. I personally
+have not received that. It's probably in terms of where data centres are now and the number of
+it's probably quitesmall, so it probably wouldn't be there. But let me take it on not
+ice in terms of what the notification situation is,
+because I just don't know. It has not come to me before.
+
+The CHAIR:
+Obviously, if we can have battery backup, that's better. But I understand that, with some of
+the current limitations, some of these proponents are saying that they have to have diesel as being the most reliable
+for them at this point.
+
+I'm thinking about places like Muswellbrook, where they have air pollution monitoring and
+Thursday 2 July 2026
+
+Legislative Council
+Page25
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+then alarms. This came up in the context of the one in Lane Cove, where it's right near a school. They were saying,
+"We don't expect it to have to use those diesel generators." But if they did, and it was a school day and you had
+all the kids outside, it would be nice to have some sort of warning system or something. Is that something that
+you've
+
+The Hon. PENNY SHARPE:
+It's not something that's
+thatsort of level of specificity, I haven't had, but
+I'm happy to take it on notice and just see what is being considered. That's fine.
+
+The Hon. PETER PRIMROSE:
+Maybe I could just ask one question, Minister. This follows on from an
+inspection we did this morning.
+
+The Hon. PENNY SHARPE:
+Where did you go?
+
+The CHAIR:
+I don't think we're allowed to say.
+
+The Hon. SCOTT FARLOW:
+We're not allowed to say.
+
+The Hon. PETER PRIMROSE:
+I went somewhere this morning
+
+The Hon. PENNY SHARPE:
+I hope it was fun.
+
+The Hon. PETER PRIMROSE:
+and we had a look at a data centre that had been operating for a period
+of time. They have battery backup and they had a diesel backup to that, which they said, other than for testing,
+they'd never used over a number of years.
+
+The Hon. PENNY SHARPE:
+That's good.
+
+The Hon. PETER PRIMROSE:
+The other thing that struck me was they have no water discharge. I
+
+mean,
+they have a recycling mechanism. At what point do we identify things that are the gold standard? This was one
+inspection of the imaginary place we went to
+The CHAIR:
+Which we may or may not have gone to.
+
+The Hon. PETER PRIMROSE:
+which we may or may not have been to, but it seemed to me that
+there seemed to be some gold standards there that we need to
+
+The Hon. PENNY SHARPE:
+Again, I think that's part of the principles. Is our preference that you bring
+your own energy? Do you have to pay for your own connections to cover it off? How are you having less of an
+impact on things like water? I know there's the recycled water, and m
+y understanding is there are other ones thatuse coolant. I think that's probably the big unknown in all of this. It's happening so quickly, and our regulation
+and planning systems have never really contemplated the speed with which we need to be making these decisions
+in real time. The reason I say that is that there's then the issue around technology and change. Even three years
+
+I
+
+mean, batteries in the last three years have halved in price. We now have opened our first eight
+-
+hour battery, justa couple of weeks ago. I think that the change in time is there.
+
+To go specifically to your question, the idea is that you want the least water use, you want renewable
+energy use and you want coverage for
+I think that's the gold standard. I think what government will need to
+work through is what are the mechanisms that we have to deal with those things through the planning system, but
+also through the energy system. There's a bunch of stuff
+how we deal with capacity and queues in the capacityand those kinds of things is also something we'll have to tackle.
+
+The Hon. JACQUI MUNRO:
+
+Are you or is the Government concerned about losing investment to
+Victoria and South Australia? South Australia has just announced a data centre strategy, even though they haven't
+released the actual strategy.
+
+The Hon. PENNY SHARPE:
+Have you seen it? Is it really a strategy?
+
+The Hon. JACQUI MUNRO:
+I don't know.
+
+The Hon. PENNY SHARPE:
+Is it a series of documents? I don't know.
+
+The Hon. JACQUI MUNRO:
+I don't know. I really don't know. I don't really rate Victoria's principles
+highly, either, but they're generating a lot of investment for their State. Are you concerned that New South Wales
+is losing investment to other States, particularly Victoria and South Australia?
+
+The Hon. PENNY SHARPE:
+
+No. My view is this: Of course we don't like losing to other States in terms
+of investment, but my observation has been that there is a lot of interest in investing in New South Wales. Given
+the amount of interest, that's not really a big concern for me. The concern for me is how do we actually manage
+this. How do we deal with it?
+Thursday 2 July 2026
+
+Legislative Council
+Page26
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. JACQUI MUNRO:
+That's our concern, too.
+
+The Hon. PENNY SHARPE:
+Exactly. The investment part of it
+I want more people to invest inrenewable energy in New South Wales. That's probably my higher priority, to be honest. But, no, I'm not really
+concerned about it. I think we've got a highly desirable location. I think we'
+ve got very smart people here who areworking on it. The thing that works against us, particularly within the Sydney area, is just that land prices are so
+expensive. It's just more expensive to build here.
+
+The Hon. JACQUI MUNRO:
+I don't think that works against us, really, given the proponents that are
+already laying out
+
+
+The Hon. PENNY SHARPE:
+Yes, this is what I mean.
+
+The Hon. JACQUI MUNRO:
+There are like 15 that have been approved through the IDA so far.
+
+The Hon. PENNY SHARPE:
+Exactly. We have a system through the IDA. We're working through those
+issues. That was a long way of saying, no, I'm not really concerned about it.
+
+The CHAIR:
+Thank you so much. The Committee secretariat will be in touch.
+
+The Hon. PENNY SHARPE:
+When do you guys wrap up? When will we have your report?
+
+The CHAIR:
+We don't know yet. We'll have a chat after this and we'll work it out.
+
+The Hon. PETER PRIMROSE:
+Is that a guideline or a strategy?
+
+The CHAIR:
+It's neither.
+
+The Hon. PENNY SHARPE:
+Will you have findings or recommendations?
+
+The Hon. JACQUI MUNRO:
+Both.
+
+(Thewitness
+
+withdrew.)
+Thursday 2 July 2026
+
+Legislative Council
+Page27
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+Professor PENELOPE CROSSLEY
+,
+Professor of Law, The University of Sydney, affirmed and examined
+
+The CHAIR:
+We now have our final witness for today. Did you want to make a short opening statement
+at all?
+
+PENELOPE CROSSLEY
+:
+I will make a very brief opening statement. I just want to recognise that data
+centres are obviously an increasingly important part of our digital infrastructure. But, as an energy lawyer, they're
+also very large, continuous systems shaping electricity loads. A core legal question is not whether New South
+Wales should have them; it's rather whether the planning, electricity, water and transparency frameworks are
+adequate to ensure that the costs, the risks and the benefits are fairly allocated and don't u
+ndermine things like ourlegislated emissions targets, and that they're located and operated in ways that support rather than disorder our
+energy transition. I was trying to think about where I could add value to this Committee, and I think I can probably
+provide a little bit of assistance around the legal and governance frameworks
+
+particularly.
+
+I've never worked for a data centre operator. I've never worked for a network business. I'm not a water
+utility or consumer advocate in this space, but rather my experience is in energy law, electricity market governance
+and also climate
+-
+aligned regulatorydesign. In that sense, I kind of think about data centres as an interesting test
+case for the energy transition governance. We're talking about bringing on very large new electricity demand,
+questions of network cost allocation, firming flexibility, emiss
+ions reductions obligations, as well as importantquestions of planning law
+which, full disclosure, I am not an expert inwater infrastructure, community
+impacts and social licence. The challenge for us, and the challenge particularly for you all, is that you can't solve
+these on a project
+-
+by
+-
+project basis. It needs to be solved as an integrated governance framework.
+
+The CHAIR:
+A strategy.
+
+PENELOPE CROSSLEY
+:
+
+A strategy. Exactly.
+
+An enforceable strategy.
+
+The Hon. SCOTT FARLOW:
+What about a guideline?
+
+The CHAIR:
+Very good. Thank you.
+
+The Hon. JACQUI MUNRO:
+Do you think that there are international governance models that offer
+good solutions in this space? Do you think that the renewable energy rollout offers any guidance on how we
+should deal with data centres as well?
+
+PENELOPE CROSSLEY
+:
+
+I can tell you where not to look for good governance, and that would be
+Virginia. Apparently, one of the Virginia school districts this morning instructed their teachers not to use the lights
+because they were concerned about not having sufficient electric
+ity. The EU is obviously doing a lot of work inthis space. We're expecting a new energy efficiency directive out of the EU; we're waiting for that at the moment.
+We're also looking at places like Ireland where there has been a fair amount of litigation
+around data centres. Oneof the things I did before coming here is I actually went and looked through some of the current data centre
+litigation occurring around the world to see the kinds of issues that are cropping up consistently because they are
+things
+
+that I think you might want to have on your radar.
+
+They're things that this Committee is already addressing, like cumulative assessment, like how do you
+ensure that your backup generators don't completely undermine your legislated emissions targets, which has been
+a common source of litigation in Ireland. How do you deal with challenges aroundin the UK, they've had lots
+of process
+-
+based litigation where they feel like the proper process hasn't been followed and people haven't been
+heard. In the EU space, we're seeing increasing calls for greater transparen
+cy. They're the kinds of things where
+particularly in the EU, they're the transparent reporting of the water usage and electricity usage. If you can do that
+in a way that doesn't undermine commercial sensitivity, that may be something you might want to have a look at
+and be quite instructive.
+
+In terms of the second question about renewables, I think the challenge with renewables is that you've got
+to be careful that not allwhen we're talking about using renewable generation in a data centre, you need to
+distinguish between using a power purchase agreement to purchase existing renewable generation versus new
+additional generation and what that looks like, and whether you're going to aggregate it on an annualised basis or
+on an hour
+-
+by-
+hour basis. There are some important questions there around l
+egislative design or guideline designor standards designwhatever you want to call it
+but you need to be quite careful about what your intention is
+versus what the outcome is going to be.
+
+The Hon. JACQUI MUNRO:
+
+Does that have to be pretty uniform across the State, or is it on a
+project
+-
+by
+-
+project basis?
+Thursday 2 July 2026
+
+Legislative Council
+Page28
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+PENELOPE CROSSLEY
+:
+
+If I were designing it, I would make it uniform, just because it's easier to
+comply with and then it's very clear as to what everyone needs to achieve. Yes, I would just impose an additionality
+requirement on renewable generation, whether that is through i
+nvestment or through co-
+location and having onsitegeneration.
+
+The Hon. JACQUI MUNRO:
+Do you see an investment impact with certain types of legislative
+requirements? Are there trends or patterns where legislation becomes too onerous and then investment doesn't
+flow through or that it's too complex? Could you talk us through any experience t
+hat you've come across?
+
+PENELOPE CROSSLEY
+:
+
+There is a great article, which I can send to the Committee, about the impact
+of moratoria in this space. It's on the impacts of having really sudden moratoria, even on a localised basis, and
+what it's done to investment across the country. Part of the cha
+llenge is you're being asked to legislate in an areathat is evolving very rapidly, and we're trying to play catch up. But, at the same time, if you freeze the whole
+sector, that's been shown to have far greater impacts on an ongoing basis. The case stud
+ies that people have lookedat include the Netherlands and Singapore. There is a great article on it that I'm happy to share.
+
+The CHAIR:
+Having heard the experiences in some overseas jurisdictions, what is the risk for us if we
+get this wrong? If people do find themselves without sufficient energy or water
+whatever
+is there a litigationrisk? How does that work?
+
+PENELOPE CROSSLEY
+:
+There's absolutely a litigation risk. There is absolutely a risk that you
+undermine social licence. I think with social licence in the energy space, we've seen some challenges in the
+renewable energy zones. This is an area that you need to really closely m
+anage, because even if you don't get asuccessful litigation, the fact that you can get a threatened piece of litigation can be enough to be disruptive or
+could slow down the process or could attract political attention that may undermine a project. In t
+erms of thisspace, the real risk in New South Wales that no
+-
+one I've heard talk about is around private nuisance.
+
+With the
+High Court decision in Hunt Leather, you potentially have the ability for neighbours who are impacted by a
+neighbour's use of their land in a way that causes a substantial impact to neighbouring landholders to bring a
+claim. The threshold after the recent High Court decision has probably been lowered, and it has become easier for
+plaintiffs to bring those kinds of claims. I
+
+would suggest that if I
+
+was investing in a billion
+-
+dollar data centre in
+New South Wales, I'd probably be looking for statutory authorisation rather than just a planning consent, because
+I
+
+would be nervous.
+
+The CHAIR:
+Are we talking things like noise and heat?
+
+PENELOPE CROSSLEY
+:
+
+Yes. If it's a perfectly closed system, you don't need to worry about things
+like pollutants escaping. But it could be the noise. It could even be construction works. If construction of your
+data centre takes too long and is deemed to be not conveniently done, which means done in an unreasonable way
+or not done in the most efficient way, and it causes unreasonable and ongoing loss or damage to a neighbour,
+that's potentially going to be subject to a claim.
+
+The Hon. SCOTT FARLOW:
+Isn't that potentially an issue for any business across New South Wales?
+
+PENELOPE CROSSLEY
+:
+Yes. After the recent High Court decision, absolutely. My background is
+I
+
+used to be a project finance lawyer. If I was investing a lot of money in a large piece of infrastructure, I would
+be nervous
+and that would be anywhere across Australia, so you don't need to worry that the Victorians have an
+advantage here.
+
+The Hon. JACQUI MUNRO:
+So why did that change? What in that case actually shifted the test?
+
+PENELOPE CROSSLEY
+:
+
+Some judges believe that they have stated the law as it always was. Many
+legal academics believe that we've had a sudden shift in the law. Matters of interpretation. But certainly, as
+somebody who used to work a lot in this space, I think the fundamental t
+est has shifted. The onus is now muchmore on the project developer to show that they have done it in a manner that is conveniently done. It's just that
+the onus has shifted a bit.
+
+The Hon. JACQUI MUNRO:
+Have you seen any impacts of that on projects so far?
+
+PENELOPE CROSSLEY
+:
+
+Not yet.
+
+The Hon. JACQUI MUNRO:
+When was the decision?
+
+PENELOPE CROSSLEY
+:
+
+February, from memory.
+
+The CHAIR:
+Would it help in terms of a defence against that if there'd been better consultation? Is there
+any kind of interaction with consultation?
+Thursday 2 July 2026
+
+Legislative Council
+Page29
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+PENELOPE CROSSLEY
+:
+
+The only defence that's really available to that is statutory authorisation.
+Planning permission has repeatedly been found by the courts not to be a statutory authorisation. It requires a
+specific Act of Parliament.
+
+The Hon. JACQUI MUNRO:
+Wow.
+
+PENELOPE CROSSLEY
+:
+
+Yes. The potential impacts for infrastructure development are huge. We used
+to talk about private nuisance being threatened a lot around wind developments. If you think a wind development
+can cause a private nuisance claim, there's no reason to believe that a data centre wouldn't also.
+
+The CHAIR:
+Sorry, it might sound like a silly question, but when you were explaining this, you started
+off with "your neighbour" or whatever. But presumably it could be two companies, where one company is
+interfering with the other company's use of their land.
+
+PENELOPE CROSSLEY
+:
+
+The principle is basically you have to have neighbouring landholders. It's a
+property-
+based tort. But yes.
+
+The CHAIR:
+Then they could claim damages to their business, not just their
+
+PENELOPE CROSSLEY
+:
+Well, quite commonly what you go for is an injunction as the primary
+remedy.
+
+The CHAIR:
+
+So then they have to stop. So you've got your billion-
+dollar data centre but you then haveto
+
+PENELOPE CROSSLEY
+:
+That has received full planning permission, full consent and complies with
+all of the requirements set down. You can be in full compliance and it can still be a private nuisance.
+
+The Hon. JACQUI MUNRO:
+Going back to your opening statement around whether our governance
+systems are adequate, how do you rate our governance systems? Are they adequate for data centre rollout to be of
+benefit to the community but also driving investment?
+
+PENELOPE CROSSLEY
+:
+The one thing that I would change, if it were me who had the power that you
+all have, is I would move from the power megawatt trigger into State significant development into a multifactor,
+performance-
+based framework looking at power usage efficiency, water usage efficiency, water source emissions,
+and also a cumulative test.
+
+You can't evaluate projects like this on a project
+-
+by
+-
+project basis when you can havecumulative impacts. It's very hard to say to proponent number 15 that actually you're the person
+
+who tips all ofthis over the edge rather than proponent number 2. That's consistent with both the Government consultation paper
+on point but also the EU's shift. They're moving to a much more performance
+-
+based framework.
+
+I think the other challenge in this space is that obviously New South Wales law in this space is very much
+focused on the development, rather than as an infrastructure allocation tool. Then you've also got layered on top
+the complexity that is the National
+Electricity Law and the National Electricity Rules, which New South Wales
+has considerably less control over. You've almost got a bit of a mismatch, where you could have a beautiful
+project, but actually some of the things around, say, connections and acc
+ess aren't actually within the controlsolely of the New South Wales Government. They sit under the National Electricity Rules. I was reading this
+morning that the State Government and Transgrid are proposing a rule change. That mismatch is hard, and it's
+hard to manage, and there is a risk that stuff will fall between the cracks. I don't know how you fix that.
+
+The Hon. SCOTT FARLOW:
+Great.
+
+PENELOPE CROSSLEY
+:
+
+Sorry. You're very smart people. I'm sure you'll come up with something.
+
+The Hon. SCOTT FARLOW:
+To that point, are there any examples that you see at the moment where
+things have fallen through the cracks already?
+
+PENELOPE CROSSLEY
+:
+
+This will be a bit of a strange one, and it's not one that is within your purview
+to fix, but say a data centre requires deep augmentation of the grid. The submissions have said to you, "We've
+actually engaged in some of that deep augmentation work, and we
+'ve funded it. We've funded it up to"
+I can'tremember the exact percentage"85 per cent and the other 15 per cent of the cost is socialised." The challenge
+there is that payment to the network service provider is treated as income at the moment. Even though they're
+paying 85per
+
+cent of the cost of that deep augmentation, that's then an income for the network service provider
+that gets taxed. Who pays the tax on the income from the network service provider? That's socialised cost across
+the community. So, in fact, even though it looks like they're paying 85 per cent of the deep augmentation cost,
+when you factor in the additional tax burden that gets socialised
+The Hon. JACQUI MUNRO:
+It's like 50 per cent.
+Thursday 2 July 2026
+
+Legislative Council
+Page30
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+PENELOPE CROSSLEY
+:
+About 65, apparently. So the Australian Energy Regulator is having to have
+conversations with the ATO about the fact that these things need to be fixed. It's things like that that you wouldn't
+necessarily consider. Data centres will come in and say, "We ar
+e paying all of these deep augmentation costs." Infairness, they are paying a substantial proportion of them, but then we've got these rules that undermine some of
+that and end up with consumers paying more. You don't want that. I think there is broad a
+greement that the costsof data centres need to be borne by data centres, rather than by households or small businesses or even other large
+commercial and industrial users.
+The Hon. JACQUI MUNRO:
+Are there groups of experts who are working together to identify these
+gaps on any ongoing basis? Or, at the moment, is it just disparate elements of industry and perhaps some
+academics? Is there any coordination that you're aware of that looks at these regulatory gaps?
+
+PENELOPE CROSSLEY
+:
+
+Not that I'm aware of. I think the challenge is that energy sector regulation
+evolves so quickly generally anyway that layering in the complexity of a data centre, which also has water
+regulatory complexity and land regulatory complexity, is just
+the pace is so rapid that nobody's on top of any ofit.
+
+The Hon. SCOTT FARLOW:
+To that point, is there anything that has preceded this, which has been like
+it where we have been able to catch up quickly in terms of the regulatory landscape, that we should be looking at?
+
+PENELOPE CROSSLEY
+:
+
+Where we haven't been able to catch up? Or we have caught up?
+
+The Hon. SCOTT FARLOW:
+Where we have. Let's go glass half full rather than half empty.
+
+PENELOPE CROSSLEY
+:
+
+I think when batteries were first introduced, we weren't very good at
+regulating batteries. We tried to fit them into an existing category, rather than actually regulating them properly.
+
+I think the opportunity that is presented here is if you came up with something that was really considered, really
+looking at the cumulative impacts, just one document
+
+The Hon. JACQUI MUNRO:
+Like a strategy.
+
+PENELOPE CROSSLEY
+:
+Like a strategy, all in one
+but also it needs to be enforceable because oneof the challenges is that you assess these projects and they say, "Well, we're going to reduce our electricity
+consumption, or we'll have all of our electricity consumption as addi
+tional," and then that goes into the bottomdrawer. Because those metrics aren't publicly available, nobody can actually hold that proponent to account when,
+in 12 months time, they say, "Actually that technology we were going to put into that data centre is now obsolete.
+We're going to rip that out. We're going to put something else in." If you're going to rely on something to get
+planning permission, that should also be something that you should be held accountable for down the track. We
+should be able tomeasure it and it should be public. We're not very good at transparency in the energy sector.
+
+The Hon. JACQUI MUNRO:
+Is the EU, with that transparency push, expecting pushback or is that then
+a standard that we can take up and not expect to be sidelined for if there are other more lax regions or legislative
+jurisdictions?
+
+PENELOPE CROSSLEY
+:
+I think New South Wales in particular is attractive because we are politically
+stable and fairly geologically stable. There's a lot going for us in terms of attracting investment. The EU has had
+transparency and reporting requirements in place since 2024. They've been very successful, from what
+I
+
+understand, and they're about to expand those out. I was trying to find out what they're about to expand them out
+to. I wasn't able to find that yet, but certainly if they've had it in place for almost two years, there's no reason to
+believe that we shouldn't have something similar in place.
+
+The Hon. MARK BUTTIGIEG:
+I think in your opening statement, you mentioned about the litigation
+in Ireland with regard to backup generators and emissions. What was the threshold? The previous discussion we
+had today was about them mainly being used in fairly rare circumstances, and
+therefore it was fairly benign. Butthis would indicate that it was somewhat significant, I would have thought, if there was successful litigation.
+PENELOPE CROSSLEY
+:
+
+The cases
+and I can send you the citations. The most interesting one for
+your purposes is probably going to be
+there are three cases from Ireland that have all referenced climate and
+about whether there was due regard given to climate policy and whether there were challenges around using gas.
+In Ireland, there has been a big push to make any kind of backup generation battery and also all additional
+renewables
+the challenge with the backup generation, particularly the backup diesel generation, is you don't
+
+build 50-
+
+or 60
+-
+odd backup diesel generators unless you think you might need them. Some of the litigation coming
+out of the US, in particular, is suggesting that, rather than treating those as an ancillary emergency backup power
+system, you actually need to look at how often it is being used and think about what that means in terms of,
+particularly, nitrous oxide emissions and various other emissions. I'm not sure if that helps.
+Thursday 2 July 2026
+
+Legislative Council
+Page31
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The Hon. MARK BUTTIGIEG:
+Was the pretext for the litigation then the fact that you went to the cost
+of having it means it is going to be used to a certain extent, therefore it's a problem, or is it based on actual
+emissions data coming out of the generators?
+
+PENELOPE CROSSLEY
+:
+
+The concern there is whether, in looking at things like on-
+site, gas
+-
+poweredbackup generation, there was sufficient regard to both indirect and cumulative CO2 emissions. That's what they're
+focused on.
+
+The fact that it's being built means thatdoes it need to be addressed or does it not need to be
+addressed?
+The Hon. MARK BUTTIGIEG:
+That's quite handy to inform our direction. We heard from the Minister
+before, who said she prefers battery back
+-
+up. Maybe you need to do something more to ensure that preference
+manifests itself in reality.
+
+PENELOPE CROSSLEY
+:
+I think the challenge with some of the Irish litigation is that not all the claims
+were successful. That's important to note. "Having regard to" doesn't mean that it has to be determinative of.
+Where we're seeing it more is in the US cases, where they're s
+aying, "If you're putting in lots and lots of dieselgenerators and you're actually running those diesel generators, that's no longer ancillary. That's no longer an
+emergency provision." What you've got to be careful about is the emissions around off
+-
+road diesel and about howwell regulated they are.
+
+The Hon. MARK BUTTIGIEG:
+The proponents would say that just because they're embedded assets
+and they're there all the time, it doesn't mean that they're not emergency. We can't afford to have any downtime
+and, therefore, we have to have them there all the time, but it doesn't mean
+
+they get used a lot.
+
+PENELOPE CROSSLEY
+:
+I think you need to distinguish between testing and maintenance versus how
+often they're actually being run. That question will also depend on where your data centre is being located and are
+there power shortfall issues. What does that mean?
+
+The Hon. JACQUI MUNRO:
+And if there are other ways to offset that, potentially. It's not ideal,
+obviously, but if there are ways to offset.
+
+PENELOPE CROSSLEY
+:
+The other thing to think about is
+I saw in the terms of reference there wasa reference made to circular economy. It's far easier to recycle a large lithium battery at end of life than it is many
+other technologies. It's much more economical to do so as we
+ll.
+
+The Hon. JACQUI MUNRO:
+Do you want to go into any more detail about that performance
+-
+based,
+multifactor State significant development, if there's anything further you wanted to expand on?
+
+The Hon. SCOTT FARLOW:
+Also, in thinking about that, but it was something that when you
+proposedis it any different for data centres compared to any other State significant development, effectively?
+I
+
+understand in terms of the megawatt assessment but, when you're looking at the cumulative impacts and the like,
+this would largely apply to many State significant developments similarly, wouldn't it?
+
+PENELOPE CROSSLEY
+:
+
+I think the difference is the load. The difference is that this is a large
+inverter
+-
+based load. It's asynchronous. The problem with this is if you get the electricity side of it wrongthe
+power side of it wrongand they don't have the ride
+-
+through, which is that current Australian Energy Market
+Commission rule change where they're trying to improve the ability to ride through. There was some horrific
+number of data centres that all simultaneously went offline in Virginia and knocked 1.6 gigawatts of power
+
+offthe grid, because they had a cascading fault and they respond in seconds, and they knocked them all off. That is
+not what you want. That's how you differentiate these types of developments from other State significant
+developments. Other State significant developments are unlikely to cause a blackout if you get it wrong. There's
+potentially also the land impacts as well, I suspect, and the regions and the clusteringthe fact that we know that
+we're going to cluster them.
+
+The only other point I'd make that I haven't made yet is around the phantom demand issue and some ideas
+that you might want to think about. You might want to think about, in order to put somebody into the connection
+queue, might you require them to have a PPA or might you require them to have some feasibility studies. Could
+that then be shared with AEMO? I'm aware that of the 44 gigawatts that was in the connection queue last year,
+16gigawatts have apparently fallen off the queue, but an additional
+I think
+
+it's 53 have gone into the queue. Thequeue, at the moment, is sitting at around 67. It's just an area that is evolving really rapidly. It's really hard to get
+hard numbers. People are so worried about getting access to the queue that you're kind of doing
+these speculativebids that fall off. You see it quite commonly in the energy sector. This is where you do see this kind of behaviour.
+We saw it with early wind farms, where people would bid into the queue and then not actually build. It's hard. But
+I look forward to reading your final report.
+Thursday 2 July 2026
+
+Legislative Council
+Page32
+
+UNCORRECTED
+
+PUBLIC ACCOUNTABILITY AND WORKS COMMITTEE
+
+The CHAIR:
+Thank you very much. That was very useful. To the extent that there are any supplementary
+questions or questions taken on notice, the Committee secretariat will be in touch. That concludes our time with
+you and also concludes our hearing for the day.
+
+(The witness withdrew.)
+
+The Committee adjourned at 16:15.

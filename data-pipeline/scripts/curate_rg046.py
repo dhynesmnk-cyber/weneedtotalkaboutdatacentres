@@ -1,0 +1,195 @@
+#!/usr/bin/env python3
+"""
+Curate the RG-046 pack: the NSW Data Centre Guidelines' own scope and mechanism, resolved from the
+instrument's text, plus the Section 3 concessions the critique should use honestly.
+
+Closes RG-046 (do the Guidelines reach modifications?) and records the Section 3 service commitments,
+which are the part of the NSW package that is neither a performance measure nor a fast track.
+
+Run:
+    python3 scripts/curate_rg046.py
+    python3 scripts/load_pack.py data/packs/rg046_guidelines_scope.json --dry-run --allow-missing-source
+"""
+from __future__ import annotations
+
+import json
+import os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "data", "packs", "rg046_guidelines_scope.json")
+TODAY = "2026-09-18"
+
+SOURCES = [
+    dict(id="SRC_NSWGUIDE_S3",
+         title="NSW Data Centre Guidelines - Section 3, Speed to market and efficient planning outcomes for "
+               "data centre investors, and Principle 1 narrative",
+         publisher="NSW Government (Infrastructure NSW / Department of Planning, Housing and Infrastructure)",
+         url="https://www.infrastructure.nsw.gov.au/media/4jlictae/id0073_nsw-data-centre_guidelines.pdf",
+         doc_type="primary_government", published="2026-08-17", credibility="A", accessed=TODAY,
+         notes="Read in full on 18 September 2026. Section 3 records five service commitments and the "
+               "compliance mechanism; Principle 1 records the water-energy trade-off and the definition of "
+               "recycled water. Cited separately from SRC_NSWGUIDE26 because the specific text relied on here "
+               "is Section 3 and the Principle 1 narrative rather than the performance measure tables."),
+]
+
+INSTRUMENT_UPDATES = [
+    dict(match=dict(id="LAW_NSWGUIDE26"),
+         set=dict(summary="Six principles and 17 performance measures, plus a package of five service "
+                          "commitments in Section 3: a concierge function within DPHI working with the planning "
+                          "assessment team that understands data centre technologies and proactively engages "
+                          "proponents to troubleshoot the assessment process; pre-assessment proponent support "
+                          "that commences BEFORE a site has been selected and before the request for SEARs, "
+                          "advising on site selection and what to expect; SEARs provided within two months and "
+                          "proportional to the assessment rather than a generalised list; development "
+                          "application assessment in no longer than 75 days in state government hands, "
+                          "calculated in accordance with DPHI key performance indicators; and dedicated "
+                          "post-consent staff specifically for data centres within the established dedicated "
+                          "assessment team. THE COMPLIANCE MECHANISM IS THE LOAD-BEARING DETAIL: 'Applicants "
+                          "submitting data centre applications will need to demonstrate whether they comply with "
+                          "the Guidelines in their assessments. Conditions will then require applicants to meet "
+                          "obligations, mitigation measures and commitments outlined in their Environmental "
+                          "Impact Statement. Compliance will be monitored in line with existing DPHI compliance "
+                          "practices and programs.' A footnote adds that further conditions require applicants "
+                          "to monitor compliance against approvals as part of annual reviews, Independent Audits "
+                          "and other periodic reporting. Principle 1 states that 'typically, data centres that "
+                          "use less water use more energy and vice versa', and defines recycled water to include "
+                          "on-site water treatment 'such as from captured stormwater'.",
+                  relevance="The Guidelines do not impose fixed numeric ceilings. They require the proponent to "
+                            "demonstrate compliance and then CONVERT THE PROPONENT'S OWN EIS COMMITMENTS INTO "
+                            "CONSENT CONDITIONS. That is why Glendenning Road carries an all-times additional "
+                            "firmed renewable matching requirement and a 10 t/yr NOx cap while three earlier "
+                            "consents carry neither, and why no consent in the sample carries a dPUE ceiling: a "
+                            "ceiling can only appear if the proponent offered one. It also settles RG-046 - the "
+                            "Guidelines are addressed to applicants submitting applications with an EIS, so a "
+                            "s.4.55 modification, which varies an existing consent and has no EIS, is outside "
+                            "their reach by construction. Post-consent activity is touched only by annual "
+                            "reviews, Independent Audits and periodic reporting, which monitor against the "
+                            "ORIGINAL commitments rather than re-testing against current standards. The "
+                            "framework therefore has no ratchet.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+         add_sources=["SRC_NSWGUIDE_S3"]),
+]
+
+INCENTIVES = [
+    dict(jurisdiction="NSW", granting_body="NSW Department of Planning, Housing and Infrastructure",
+         incentive_type="other", instrument="NSW Data Centre Guidelines Section 3 service commitments",
+         amount_aud=None, start_date="2026-08-17",
+         conditions="Available to projects that address the six principles. No fee, no cash, no tax relief. The "
+                    "benefit is departmental labour: a concierge function, pre-assessment support beginning "
+                    "before site selection, SEARs within two months, DA assessment within 75 days, and "
+                    "dedicated post-consent staff.",
+         conditionality_score=5, domestic_compute_allocation=0, disclosed=1,
+         notes="Recorded separately from the 75-day fast track because it is a distinct and larger in-kind "
+               "transfer: dedicated public servants assigned to a single sector, available BEFORE the proponent "
+               "has chosen a site. Pre-assessment support that begins before site selection is the most "
+               "consequential element, because site selection is where every downstream environmental and "
+               "community outcome is determined, and the Guidelines themselves say fewer complexities arise on "
+               "brownfield sites away from sensitive receivers. A concierge function shaping site selection is "
+               "influence at the only point where it is decisive. It is also entirely invisible in any subsidy "
+               "register that counts only cash, which is why this database counts in-kind support.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+]
+
+METRICS = [
+    dict(as_of="2026-08", scope="NSW", metric_name="guidelines_sears_commitment_months", value=2, unit="months",
+         basis="actual", notes="Section 3 commitment to provide Secretary's Environmental Assessment "
+                               "Requirements within two months, proportional to the assessment rather than a "
+                               "generalised list.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+    dict(as_of="2026-08", scope="NSW", metric_name="guidelines_da_assessment_commitment_days", value=75,
+         unit="days", basis="actual",
+         notes="Section 3 commitment that development application assessment takes no longer than 75 days in "
+               "state government hands, calculated per DPHI key performance indicators.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+]
+
+GAPS = [
+    dict(id=61, pillar="C", priority=5, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Test whether the 'no ratchet' finding holds: for each of the 24 determined NSW data centre "
+                  "consents, compare the conditions against what the proponent's own EIS committed to, and "
+                  "identify any case where a condition is MORE demanding than the EIS commitment.",
+         why_it_matters="The Guidelines' mechanism converts EIS commitments into conditions. If conditions never "
+                        "exceed what the proponent offered, then the entire NSW performance standard is set by "
+                        "the proponent, and the 17 performance measures function as a negotiation floor rather "
+                        "than a ceiling. Glendenning's all-times renewable matching and 10 t/yr NOx cap could "
+                        "then be either a proponent concession or an assessment imposition, and the difference "
+                        "determines whether the regime can deliver outcomes a proponent would not volunteer.",
+         target_source="Each determined SSD's EIS plus its signed consent, both publicly downloadable by the "
+                       "method proven in RG-038; the Assessment Report where public, which records what the "
+                       "Department recommended adding",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+    dict(id=62, pillar="C", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Establish whether any consent or modification has relied on the Guidelines' definition of "
+                  "recycled water as including on-site treatment 'such as from captured stormwater' to satisfy "
+                  "the recycled-water expectation.",
+         why_it_matters="Principle 1 Ref 2 requires data centres using water-intensive cooling to use recycled "
+                        "water for 100 per cent of cooling operations. The Guidelines define recycled water to "
+                        "include on-site water treatment such as captured stormwater. A facility could therefore "
+                        "satisfy the measure with its own roof runoff while drawing no recycled water from any "
+                        "utility network - which would not reduce demand on potable supply or on the ocean "
+                        "outfall network, the two stated purposes of the measure. Whether this has happened is "
+                        "testable from consent conditions and Sustainability Management Plans.",
+         target_source="Consent conditions and approved Sustainability Management Plans for determined data "
+                       "centre SSDs; Sydney Water and utility recycled water scheme records",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+    dict(id=63, pillar="B", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Quantify the DPHI concierge function and dedicated data centre assessment team: headcount, "
+                  "cost, and whether the pre-assessment support that begins before site selection is available "
+                  "to community groups and councils on the same terms.",
+         why_it_matters="This is the largest in-kind transfer identified anywhere in the project and it is not "
+                        "in any budget paper as a data centre subsidy. Pre-assessment support that starts before "
+                        "site selection operates at the only point where environmental and community outcomes "
+                        "are decisive. If no equivalent capability is funded for objectors, the assessment "
+                        "process is asymmetrically resourced before it begins, which is a governance finding "
+                        "under the inquiry's terms of reference (h)(ii)-(iii) rather than a fiscal one.",
+         target_source="DPHI annual reports and budget papers; the NSW Data Centre Consultation Paper and its "
+                       "submissions; estimates hearings; the Legislative Council inquiry record",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+]
+
+GAP_UPDATES = [
+    dict(match=dict(id=46),
+         set=dict(status="resolved", resolved_date=TODAY,
+                  notes="RESOLVED 2026-09-18 from the instrument's own text. The Guidelines' compliance "
+                        "mechanism is: applicants submitting data centre applications must demonstrate whether "
+                        "they comply in their assessments, and conditions then require applicants to meet "
+                        "obligations, mitigation measures and COMMITMENTS OUTLINED IN THEIR ENVIRONMENTAL IMPACT "
+                        "STATEMENT. A s.4.55 modification varies an existing consent and has no EIS, so the "
+                        "Guidelines have no instrument by which to attach to it. Post-consent activity is reached "
+                        "only through annual reviews, Independent Audits and periodic reporting, which monitor "
+                        "against the original commitments rather than re-testing against current standards. The "
+                        "Commonwealth Expectations do say they apply to 'new or expanded' facilities, so "
+                        "expansion may be captured at national level, but the Expectations are non-binding and "
+                        "the NSW Guidelines are the operative instrument in the largest market. CONCLUSION: the "
+                        "framework has no ratchet. Confirmed empirically by RG-034, which found 15 of 17 "
+                        "modifications approved including added generators and diesel at Roberts Road and a power "
+                        "consumption increase at Eastern Creek, four of them either side of 17 August 2026. "
+                        "Follow-up on whether conditions ever exceed EIS commitments is RG-061.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWGUIDE_S3"),
+         add_sources=["SRC_NSWGUIDE_S3"]),
+]
+
+
+def main() -> int:
+    pack = {
+        "pack_id": "rg046-guidelines-scope-2026-09",
+        "prepared_by": "scripts/curate_rg046.py (curated from the Guidelines text read 2026-09-18)",
+        "prepared_on": TODAY,
+        "sources": SOURCES,
+        "rows": {
+            "legal_instruments": INSTRUMENT_UPDATES,
+            "incentives": INCENTIVES,
+            "metrics": METRICS,
+            "research_gaps": GAPS + GAP_UPDATES,
+        },
+    }
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as fh:
+        json.dump(pack, fh, indent=1)
+    print(f"wrote {OUT}")
+    print("  sources=%d rows=%s" % (len(SOURCES), {k: len(v) for k, v in pack["rows"].items()}))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

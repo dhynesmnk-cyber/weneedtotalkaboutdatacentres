@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10467%2120210528T080124.602+GMT",
+ "attachment_slug": "development-consent-signed",
+ "title": "Development Consent - Signed",
+ "folder": null,
+ "label": "Development Consent - Signed.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:37:43+00:00",
+ "sha256": "0bec48f4eb0527a7e79b34b41b060ad50c196eb364cdfc4e5b3c02d350fb93ad",
+ "bytes": 1268543,
+ "extraction": {
+  "chars": 112203,
+  "kb": 1238,
+  "chars_per_kb": 90.6,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:10+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

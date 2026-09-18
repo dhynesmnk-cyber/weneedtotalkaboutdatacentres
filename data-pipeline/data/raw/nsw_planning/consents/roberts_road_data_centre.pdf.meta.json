@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231208.980+GMT",
+ "attachment_slug": "ssd-10330-development-consent-0",
+ "title": "SSD-10330 - Development Consent",
+ "folder": "Determination",
+ "label": "SSD-10330 - Development Consent.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:38:12+00:00",
+ "sha256": "856162aaa20c5e2cdf5263b246dcbbfda3d2688fe9d0e2e5d14b1190b1e36727",
+ "bytes": 1020791,
+ "extraction": {
+  "chars": 80263,
+  "kb": 996,
+  "chars_per_kb": 80.6,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:18+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

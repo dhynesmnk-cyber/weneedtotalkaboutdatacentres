@@ -1,0 +1,747 @@
+#!/usr/bin/env python3
+"""
+Curate the RG-013 pack: hyperscaler and SPV resolution from primary NSW Government sources.
+
+Run:
+    python3 scripts/curate_rg013.py            # writes data/packs/rg013_hyperscaler_sites.json
+    python3 scripts/load_pack.py data/packs/rg013_hyperscaler_sites.json --dry-run
+    python3 scripts/load_pack.py data/packs/rg013_hyperscaler_sites.json
+
+Everything in this pack was read directly from a primary or grade-A source on 2026-09-18.
+Nothing here is inferred from emissions signatures - see the METHOD NOTE below for why that
+matters.
+
+METHOD NOTE (recorded in the pack and in research_gaps):
+  The first attempt at RG-013 screened the CER NGER corporate table for anonymous ACN-named
+  special purpose vehicles with a data-centre emissions signature (very high scope 2, near-zero
+  scope 1). Two candidates emerged. Resolved through the Australian Business Register, they are:
+      A.C.N. 085 239 998 PTY LTD  ->  KFC Australia / Kentucky Fried Chicken Pty Ltd
+      A.C.N. 166 119 133 PTY LTD  ->  Saputo Dairy Australia (holding company)
+  Neither is a data centre. Emissions signature alone is not an identification method: any
+  electricity-intensive, low-combustion business looks like a data centre in NGER data. Entity
+  resolution must go through ASIC/ABR and the planning portals, which name the proponent.
+"""
+from __future__ import annotations
+
+import json
+import os
+from datetime import date
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "data", "packs", "rg013_hyperscaler_sites.json")
+TODAY = "2026-09-18"
+
+SOURCES = [
+    dict(id="SRC_NSW_IDA",
+         title="NSW Government backs data centre investment, sets course for sustainable development "
+               "(ministerial media release, 27 March 2026)",
+         publisher="NSW Government - Treasurer, Minister for Industry and Trade, Minister for Planning "
+                   "and Public Spaces",
+         url="https://www.nsw.gov.au/ministerial-releases/data-centre-investment-sustainable-development",
+         doc_type="primary_government", published="2026-03-27", credibility="A", accessed=TODAY,
+         notes="Names the proponent, project and local government area for all 15 data centre projects "
+               "endorsed in Round 1 of the Investment Delivery Authority (IDA), collectively worth "
+               "$51.9bn. Also records that the IDA did NOT endorse around $40.7bn of data centre and "
+               "technology proposals considered premature or overly speculative; that 90 data centres are "
+               "operating in NSW; that data centre investment has grown 65% per year on average over three "
+               "years; that data centres are 12% of all non-residential building investment in NSW; that "
+               "eight data centre projects worth more than $10bn were approved in the past year including "
+               "the biggest in the Southern Hemisphere; and that one further endorsed project is withheld "
+               "for commercial sensitivity. This is the authoritative proponent list for the NSW pipeline."),
+    dict(id="SRC_NSWPORTAL_KC",
+         title="Kemps Creek Data Centre (SSD-10101987) - NSW Planning Portal major project record",
+         publisher="NSW Department of Planning, Housing and Infrastructure",
+         url="https://www.planningportal.nsw.gov.au/major-projects/projects/kemps-creek-data-centre",
+         doc_type="primary_planning_portal", published="2023-07-13", credibility="A", accessed=TODAY,
+         notes="Approved 13 July 2023 by the Director. Scope per the portal: construction and operation of "
+               "a data centre including two data storage buildings, 61 generators, substation, high voltage "
+               "switch yard, 30 diesel storage tanks, office, internal access roads and landscaping. LGA "
+               "Penrith. One submission on record (Penrith City Council, comment). No enforcements recorded."),
+    dict(id="SRC_MSFT_STAGING",
+         title="Staging Plan submitted under Condition A11 of SSD-10101987, Kemps Creek Data Centre",
+         publisher="Willowtree Planning on behalf of Microsoft Datacentre (Australia) Pty Ltd",
+         url="https://awedwards.com.au/wp-content/uploads/2023/10/Staging-Plan.pdf",
+         doc_type="primary_planning_portal", published="2023-10", credibility="A", accessed=TODAY,
+         notes="Establishes the proponent as Microsoft Datacentre (Australia) Pty Ltd ('MSFT') and the site "
+               "as 707-769 Mamre Road, Kemps Creek. Willowtree Planning is also the author of the Mamre Road "
+               "Data Centre Campus EIS."),
+    dict(id="SRC_DCMAP_MSFT",
+         title="Microsoft Kemps Creek Campus Data Center, Sydney (190 MW)",
+         publisher="Datacentermap.com",
+         url="https://www.datacentermap.com/australia/sydney/microsoft-kemps-creek/",
+         doc_type="market_research", published="2026", credibility="C", accessed=TODAY,
+         notes="Third-party tracker: campus at 769 Mamre Road within the Mamre Road Precinct; facilities "
+               "SYD05, SYD06 and SYD07; total operational capacity 190 MW; GFA 60,943 sqm across 14.43 ha. "
+               "Grade C - capacity and GFA must be confirmed against the consent or Microsoft's own project "
+               "page before publication (see research gap RG-024)."),
+    dict(id="SRC_NSWPORTAL_GLEN",
+         title="Glendenning Road Data Centre (SSD-73761707) - NSW Planning Portal major project record",
+         publisher="NSW Department of Planning, Housing and Infrastructure",
+         url="https://www.planningportal.nsw.gov.au/major-projects/projects/glendenning-road-data-centre",
+         doc_type="primary_planning_portal", published="2026-09-16", credibility="A", accessed=TODAY,
+         notes="Approved 16 September 2026 by the Director - one month after the NSW Data Centre Guidelines "
+               "took effect on 17 August 2026. Scope: power consumption of 202.4 MW comprising three "
+               "five-storey data centre buildings with a maximum height of 43.2 m, electrical substation, "
+               "bulk earthworks, car parking and site infrastructure. LGA Blacktown. Two submissions: "
+               "Endeavour Energy (comment) and Blacktown City Council (OBJECT). No enforcements recorded. "
+               "The portal does not publish the proponent name; the NSW IDA release of 27 March 2026 lists "
+               "'Lehr Consultants International (Australia) Pty Ltd' as the proponent of the Glendenning "
+               "Road Data Centre, which is a planning consultancy rather than an operator."),
+    dict(id="SRC_PENRITH_VPA",
+         title="Voluntary Planning Agreement - Microsoft Datacenter (Your Say Penrith)",
+         publisher="Penrith City Council",
+         url="https://yoursaypenrith.com.au/vpa-microsoft-datacenter",
+         doc_type="primary_government", published="2023-06-07", credibility="A", accessed=TODAY,
+         notes="Voluntary Planning Agreement between Penrith City Council and Microsoft Datacenter "
+               "(Australia) Pty Ltd for Lot 2 DP 1271142, 769 Mamre Road, Kemps Creek, within the approved "
+               "industrial estate 'The Yards' at 657-769 Mamre Road. Publicly notified 9 March to 6 April "
+               "2023; endorsed by Council at its Ordinary Meeting of 29 May 2023; executed 7 June 2023. "
+               "Purpose: to collect monetary contributions for the future development of a data centre, to "
+               "support delivery of infrastructure including open space and landscaping embellishment within "
+               "the Mamre Road Precinct. The contribution amount is in the executed VPA and explanatory note, "
+               "which are published on the council's consultation site."),
+    dict(id="SRC_GUARD_PLUMPTON",
+         title="Mega datacentre planned for outer Melbourne will be six times bigger than a large shopping "
+               "centre",
+         publisher="The Guardian Australia",
+         url="https://www.theguardian.com/australia-news/2026/jul/26/mega-datacentre-planned-for-outer-melbourne-will-be-almost-six-times-the-size-of-chadstone-shopping-centre",
+         doc_type="news", published="2026-07-26", credibility="A", accessed=TODAY,
+         notes="Proponent is Syncline Energy, which sent residents a letter headed 'a friendly introduction "
+               "from the team behind the Victorian AI hub' stating that construction will not start for at "
+               "least two years while planning and environmental approvals are completed. Site is 350 ha of "
+               "farmland at Plumpton, about 30 km north-west of the Melbourne CBD, an empty paddock next to "
+               "Melbourne's renewable energy hub just off the Calder Freeway, near transmission lines and "
+               "Tullamarine flight paths. More than 3,600 people signed a petition for careful assessment; "
+               "the site is described as a flashpoint for the national debate. Article also reports Victoria's "
+               "fast-track process getting approvals down to three months, and cites ABS building-approval "
+               "data showing a spike to about A$5bn in commercial building approvals not elsewhere classified "
+               "which the ABS attributes directly to data centres. Separately states there are 285 data "
+               "centres currently operating in Australia - which conflicts with AEMO's count of 162."),
+    dict(id="SRC_NSWPORTAL_ECHIDNA",
+         title="Project Echidna Data Centre Eastern Creek - NSW Planning Portal major project record",
+         publisher="NSW Department of Planning, Housing and Infrastructure",
+         url="https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-eastern-creek",
+         doc_type="primary_planning_portal", published="2024-04-05", credibility="A", accessed=TODAY,
+         notes="Construction and operation of a data centre with an operational capacity of 35 MW including "
+               "data hall fitout and associated emergency back-up generation. Illustrates the codename "
+               "convention used by NSW proponents, which is one of the reasons hyperscaler sites are hard to "
+               "attribute."),
+    dict(id="SRC_NSWPORTAL_TURNER",
+         title="52 Turner Road Data Centre - NSW Planning Portal major project record",
+         publisher="NSW Department of Planning, Housing and Infrastructure",
+         url="https://www.planningportal.nsw.gov.au/major-projects/projects/52-turner-road-data-centre",
+         doc_type="primary_planning_portal", published="2026", credibility="A", accessed=TODAY,
+         notes="Construction and operation of a data centre with a capacity of 40 MW including emergency "
+               "back-up generators, cooling plant, and diesel and lithium-ion battery storage."),
+]
+
+ENTITIES = [
+    dict(id="ENT_MSFT_DC_AU", name="Microsoft Datacentre (Australia) Pty Ltd",
+         legal_name="Microsoft Datacentre (Australia) Pty Ltd", entity_type="developer",
+         domicile="United States", hq_country="US",
+         notes="The NSW proponent entity for Microsoft's Kemps Creek data centre (SSD-10101987) and the "
+               "counterparty to the Penrith City Council Voluntary Planning Agreement executed 7 June 2023. "
+               "Registered address on planning documents: Level 27, 1 Denison Street, Macquarie Park. "
+               "Microsoft's Australian footprint is reported at 29 sites across three Azure regions.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_MSFT_STAGING"),
+    dict(id="ENT_AMAZON_COMM", name="Amazon Commercial Services Pty Ltd",
+         legal_name="Amazon Commercial Services Pty Ltd", entity_type="developer",
+         domicile="United States", hq_country="US",
+         notes="Amazon's Australian operating entity; the 'Global Realty' function within it acquires and "
+               "develops data centre sites. Distinct from Amazon Corporate Services Pty Ltd, which is the "
+               "NGER controlling corporation reporting 405,217 t of location-based scope 2 in 2024-25. No "
+               "Australian data centre planning consent has yet been attributed to it in this database "
+               "(research gap RG-023).",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_KNBDC", name="KNBDC SYD4 Pty Ltd", entity_type="developer", domicile="Unknown",
+         hq_country=None,
+         notes="Named by the NSW Government as the proponent of the Mamre Road Data Centre Campus (Penrith "
+               "City Council LGA) in Round 1 of the Investment Delivery Authority. The 'SYD4' element matches "
+               "AirTrunk's reported internal site code for the campus, but the ownership of this SPV is NOT "
+               "established and must not be assumed. Resolve via ASIC/ABR - research gap RG-021.",
+         fact_status="VERIFIED", confidence="low", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_STACK_AU", name="STACK Infrastructure Australia Pty Ltd",
+         legal_name="STACK Infrastructure Australia Pty Ltd", entity_type="developer",
+         domicile="United States", hq_country="US", website="stackinfra.com",
+         notes="Named by the NSW Government as proponent of the 78 Lockwood Road Data Centre, Penrith City "
+               "Council LGA, endorsed in IDA Round 1.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_GOODMAN", name="Goodman Property Services (Aust) Pty Ltd",
+         legal_name="Goodman Property Services (Aust) Pty Ltd", entity_type="developer",
+         domicile="Australia", hq_country="AU", website="goodman.com",
+         notes="Named by the NSW Government as proponent of 'Project Atlas Data Centre', Blacktown City "
+               "Council LGA, endorsed in IDA Round 1. An industrial property group rather than a data centre "
+               "operator, which is characteristic of the shell-and-tenant structure the sector runs on.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_AIMS", name="AIMS Capital Management Ltd", entity_type="investor",
+         domicile="Australia", hq_country="AU",
+         notes="Named by the NSW Government as proponent of the Bella Vista Data Centre Campus, Hills Shire "
+               "Council LGA, endorsed in IDA Round 1.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_GSDC", name="GreenSquare DC Pty Ltd", entity_type="developer", domicile="Australia",
+         hq_country="AU",
+         notes="Named by the NSW Government as proponent of SYD1 (Stage 2), Hills Shire Council LGA, endorsed "
+               "in IDA Round 1.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_STOCKLAND", name="Stockland", entity_type="developer", domicile="Australia", hq_country="AU",
+         asx_ticker="SGP", website="stockland.com.au",
+         notes="Named by the NSW Government as proponent for three endorsed projects: 2 Davis Road "
+               "Wetherill Park (Fairfield), Kemps Creek via 'Stockland Fife Kemps Creek' (Penrith), and "
+               "'Project A' (City of Ryde). A listed property group, again consistent with the "
+               "shell-and-tenant structure.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_LEHR", name="Lehr Consultants International (Australia) Pty Ltd", entity_type="other",
+         domicile="Australia", hq_country="AU",
+         notes="Named by the NSW Government as the proponent of the Glendenning Road Data Centre (202.4 MW, "
+               "SSD-73761707, approved 16 September 2026). This is a planning and engineering consultancy, "
+               "not an operator - the actual developer and end user are not disclosed on the planning portal. "
+               "Research gap RG-021.",
+         fact_status="VERIFIED", confidence="low", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_LANE_COVE_ALLIANCE", name="Lane Cove DC Alliance", entity_type="developer",
+         domicile="Australia", hq_country="AU",
+         notes="Named by the NSW Government as proponent of the Lane Cove Data Centre Development Project at "
+               "16-20 Mars Road, Lane Cove West, endorsed in IDA Round 1. This is the industrial park where "
+               "residents report an operating data centre 350 m from homes with four further facilities in "
+               "the pipeline.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="ENT_SYNCLINE", name="Syncline Energy", entity_type="developer", domicile="Unknown",
+         hq_country=None,
+         notes="Proponent of the 'Victorian AI hub' at Plumpton (350 ha, reported maximum capacity 2.4 GW, "
+               "four data centre buildings) and linked by local reporting to the Melton proposal. Sent "
+               "residents door-knocking letters stating construction will not begin for at least two years "
+               "while planning and environmental approvals are completed. Ownership and corporate structure "
+               "not established - research gap RG-022.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+]
+
+SITES = [
+    # --- Microsoft -------------------------------------------------------
+    dict(id="SITE_MSFT_KEMPS", name="Microsoft Kemps Creek Data Centre Campus",
+         operator_id="ENT_MICROSOFT", owner_id=None, proponent="Microsoft Datacentre (Australia) Pty Ltd",
+         suburb="Kemps Creek", lga="Penrith City Council", state="NSW", market="NEM",
+         status="operational", it_capacity_mw=190.0, campus_area_ha=14.43, gfa_sqm=60943.0,
+         capital_cost_aud=1.3e9,
+         address="707-769 Mamre Road, Kemps Creek (VPA site: Lot 2 DP 1271142, 769 Mamre Road)",
+         hcf_certified="unknown",
+         notes="SSD-10101987, approved 13 July 2023 by the Director. Consent scope: two data storage "
+               "buildings, 61 generators, substation, high voltage switch yard, 30 diesel storage tanks, "
+               "office, internal access roads and landscaping. Third-party trackers describe a campus of "
+               "facilities SYD05, SYD06 and SYD07 with 190 MW of operational IT load, 60,943 sqm GFA on "
+               "14.43 ha and a A$1.3bn investment; capacity and GFA are grade-C and need confirmation. "
+               "Sits inside the Mamre Road Precinct immediately adjacent to the proposed 1 GW Mamre Road "
+               "campus, so the two share cumulative-impact assessment. A Voluntary Planning Agreement with "
+               "Penrith City Council was executed on 7 June 2023 to fund open space and landscaping in the "
+               "precinct.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_KC"),
+    dict(id="SITE_MSFT_HONEMAN", name="Microsoft Honeman Close Data Centre",
+         operator_id="ENT_MICROSOFT", proponent="Microsoft Datacentre (Australia) Pty Ltd",
+         suburb="Honeman Close (Western Sydney)", lga="Blacktown City Council", state="NSW", market="NEM",
+         status="lodged", hcf_certified="unknown",
+         notes="Endorsed in Round 1 of the NSW Investment Delivery Authority (announced 27 March 2026, part "
+               "of the $51.9bn endorsed cohort). Capacity, application reference and determination status "
+               "not yet retrieved from the planning portal - research gap RG-002.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    # --- IDA-endorsed NSW cohort ----------------------------------------
+    dict(id="SITE_GLENDENNING", name="Glendenning Road Data Centre",
+         proponent="Lehr Consultants International (Australia) Pty Ltd (per NSW IDA release)",
+         suburb="Glendenning", lga="Blacktown City Council", state="NSW", market="NEM",
+         status="approved", it_capacity_mw=202.4,
+         address="2 Glendenning Road, Glendenning (Lot 2 DP1137162)", hcf_certified="unknown",
+         notes="SSD-73761707, approved 16 September 2026 by the Director - one month after the NSW Data "
+               "Centre Guidelines took effect. Consent scope: power consumption of 202.4 MW comprising "
+               "three five-storey data centre buildings with a maximum height of 43.2 m, electrical "
+               "substation, bulk earthworks, car parking and site infrastructure. Blacktown City Council "
+               "OBJECTED and the approval proceeded anyway, which makes this the clearest available test "
+               "case of council objection versus state consent authority. The planning portal does not "
+               "publish the proponent; the NSW IDA release names a planning consultancy, so the developer "
+               "and end user remain unidentified.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+    dict(id="SITE_NEXTDC_S4", name="NEXTDC S4 Data Centre", operator_id="ENT_NEXTDC",
+         proponent="NEXTDC Limited", suburb="Fairfield LGA", lga="Fairfield City Council", state="NSW",
+         market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1. Capacity not published in the release.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_NEXTDC_S5", name="NEXTDC S5 Data Centre and Innovation Hub", operator_id="ENT_NEXTDC",
+         proponent="NEXTDC Limited", suburb="Macquarie Park area", lga="City of Ryde", state="NSW",
+         market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1. Note this is a second Ryde LGA project alongside the operating "
+               "Macquarie IC3 'Super West' certified facility.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_STACK_LOCKWOOD", name="STACK 78 Lockwood Road Data Centre", operator_id="ENT_STACK_AU",
+         proponent="STACK Infrastructure Australia Pty Ltd", suburb="78 Lockwood Road (Eastern Creek "
+         "corridor)", lga="Penrith City Council", state="NSW", market="NEM", status="lodged",
+         hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1. STACK is a US-headquartered hyperscale developer; this is its "
+               "first named Australian project in this database.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_STOCKLAND_DAVIS", name="Stockland 2 Davis Road Data Centre", operator_id="ENT_STOCKLAND",
+         proponent="Stockland", suburb="Wetherill Park", lga="Fairfield City Council", state="NSW",
+         market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1.", fact_status="VERIFIED", confidence="medium",
+         as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_STOCKLAND_FIFE", name="Stockland Fife Kemps Creek Data Centre", operator_id="ENT_STOCKLAND",
+         proponent="Stockland Fife Kemps Creek", suburb="Kemps Creek", lga="Penrith City Council",
+         state="NSW", market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1. A third Kemps Creek project alongside Microsoft's operating "
+               "campus and the proposed 1 GW Mamre Road campus - the cumulative-impact question the "
+               "Department directed assessment of.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_STOCKLAND_PROJA", name="Stockland 'Project A' Data Centre", operator_id="ENT_STOCKLAND",
+         proponent="Stockland", suburb="City of Ryde LGA", lga="City of Ryde", state="NSW", market="NEM",
+         status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1 under a codename; location given only to LGA level.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_AIMS_BELLA", name="AIMS Bella Vista Data Centre Campus", operator_id="ENT_AIMS",
+         proponent="AIMS Capital Management Ltd", suburb="Bella Vista", lga="Hills Shire Council",
+         state="NSW", market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1.", fact_status="VERIFIED", confidence="medium",
+         as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_GOODMAN_ATLAS", name="Goodman 'Project Atlas' Data Centre", operator_id="ENT_GOODMAN",
+         proponent="Goodman Property Services (Aust) Pty Ltd", suburb="Blacktown LGA",
+         lga="Blacktown City Council", state="NSW", market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1 under a codename.", fact_status="VERIFIED", confidence="medium",
+         as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_GSDC_SYD1S2", name="GreenSquare DC SYD1 (Stage 2)", operator_id="ENT_GSDC",
+         proponent="GreenSquare DC Pty Ltd", suburb="Hills Shire LGA", lga="Hills Shire Council",
+         state="NSW", market="NEM", status="lodged", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1.", fact_status="VERIFIED", confidence="medium",
+         as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_LANE_COVE_MARS", name="Lane Cove Data Centre Development Project (16-20 Mars Road)",
+         operator_id="ENT_LANE_COVE_ALLIANCE", proponent="Lane Cove DC Alliance",
+         suburb="Lane Cove West", lga="Lane Cove Council", state="NSW", market="NEM", status="lodged",
+         address="16-20 Mars Road, Lane Cove West", hcf_certified="unknown",
+         notes="Endorsed in NSW IDA Round 1. This is the lower north shore industrial park where the BBC "
+               "reports residents living 350 m from an operating data centre and four more in the pipeline; "
+               "ABC's August 2026 reporting used a Lane Cove facility as its illustration of community "
+               "backlash. An IDA endorsement for a project in this corridor, against that background, is "
+               "itself a finding.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id="SITE_ECHIDNA", name="Project Echidna Data Centre (Eastern Creek)", suburb="Eastern Creek",
+         lga="Blacktown City Council", state="NSW", market="NEM", status="lodged", it_capacity_mw=35.0,
+         hcf_certified="unknown",
+         notes="NSW Planning Portal: construction and operation of a data centre with an operational "
+               "capacity of 35 MW including data hall fitout and associated emergency back-up generation. "
+               "Proponent not retrieved. Codenamed, which is typical.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSWPORTAL_ECHIDNA"),
+    dict(id="SITE_TURNER_RD", name="52 Turner Road Data Centre", suburb="52 Turner Road",
+         lga=None, state="NSW", market="NEM", status="lodged", it_capacity_mw=40.0,
+         hcf_certified="unknown",
+         notes="NSW Planning Portal: capacity of 40 MW including emergency back-up generators, cooling "
+               "plant, and diesel and lithium-ion battery storage. Proponent and LGA not retrieved.",
+         fact_status="VERIFIED", confidence="medium", as_of_date=TODAY, source_id="SRC_NSWPORTAL_TURNER"),
+    # --- Victoria --------------------------------------------------------
+    dict(id="SITE_PLUMPTON_HUB", name="Victorian AI Hub (Plumpton)", operator_id="ENT_SYNCLINE",
+         proponent="Syncline Energy", suburb="Plumpton", lga="City of Melton", state="VIC", market="NEM",
+         status="pre_lodgement", max_capacity_mw=2400.0, campus_area_ha=350.0, hcf_certified="unknown",
+         notes="350 ha of farmland about 30 km north-west of the Melbourne CBD, an empty paddock adjacent "
+               "to Melbourne's renewable energy hub just off the Calder Freeway, near transmission lines and "
+               "under Tullamarine flight paths. Reported maximum capacity 2.4 GW across four data centre "
+               "buildings, which would exceed Loy Yang A. Proponent Syncline Energy has told residents in "
+               "writing that construction will not start for at least two years while planning and "
+               "environmental approvals are completed. More than 3,600 people have signed a petition for "
+               "careful assessment. Capacity figure is from secondary reporting and community sources and is "
+               "recorded as such.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+]
+
+SITE_UPDATES = [
+    # Mamre Road: record the NSW Government's named proponent SPV alongside the reported buyer
+    dict(match=dict(id="SITE_MAMRE_ROAD"),
+         set=dict(proponent="KNBDC SYD4 Pty Ltd (named by NSW Government, IDA Round 1, 27 March 2026)",
+                  source_id="SRC_NSW_IDA", as_of_date=TODAY, confidence="high"),
+         add_sources=["SRC_NSW_IDA"]),
+    # Melton: proponent now identified by the Guardian
+    dict(match=dict(id="SITE_MELTON_SYNCLINE"),
+         set=dict(operator_id="ENT_SYNCLINE", proponent="Syncline Energy",
+                  fact_status="REPORTED", confidence="medium", as_of_date=TODAY,
+                  notes="Residents rallied against this proposal and a council meeting on 27 July 2026 was "
+                        "used to organise opposition; concerns include Green Wedge land use, cooling water, "
+                        "grid capacity and diesel/gas back-up generation. The Guardian identifies Syncline "
+                        "Energy as the proponent of the Plumpton 'Victorian AI hub' and local reporting links "
+                        "the same developer to Melton. Capacity and application reference still unverified."),
+         add_sources=["SRC_GUARD_PLUMPTON"]),
+    # Stockland Macquarie Park: was CLAIMED/low from a single third-party source
+    dict(match=dict(id="SITE_STOCKLAND_MP"),
+         set=dict(proponent="Stockland",
+                  notes="Five-storey data centre at Macquarie Park, A$264m; third-party reporting suggests it "
+                        "is for AWS with a north-zone start in September 2026. Stockland is confirmed as an "
+                        "active NSW data centre proponent by the NSW IDA release (three endorsed projects in "
+                        "Fairfield, Penrith and Ryde), but this specific Macquarie Park project is not among "
+                        "them and the AWS attribution remains unconfirmed - research gap RG-023."),
+         add_sources=["SRC_NSW_IDA"]),
+]
+
+APPLICATIONS = [
+    dict(site_id="SITE_MSFT_KEMPS", jurisdiction="NSW Department of Planning, Housing and Infrastructure",
+         pathway="state_significant_development", reference="SSD-10101987", decided="2023-07-13",
+         outcome="approved_with_conditions", decision_maker="Director (NSW DPHI)",
+         capacity_mw_in_app=None,
+         conditions_summary="Condition A11 required a Staging Plan, which Willowtree Planning submitted on "
+                            "behalf of Microsoft Datacentre (Australia) Pty Ltd in October 2023. 27 approved "
+                            "management plans and strategies, 4 reports and 1 notification are published "
+                            "against the consent.",
+         notes="Consent scope: two data storage buildings, 61 generators, substation, high voltage switch "
+               "yard, 30 diesel storage tanks, office, internal access roads and landscaping. One submission "
+               "on the public record (Penrith City Council, comment). No enforcements recorded.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_KC"),
+    dict(site_id="SITE_GLENDENNING", jurisdiction="NSW Department of Planning, Housing and Infrastructure",
+         pathway="state_significant_development", reference="SSD-73761707", decided="2026-09-16",
+         outcome="approved", decision_maker="Director (NSW DPHI)", capacity_mw_in_app=202.4,
+         conditions_summary="Determination published 16 September 2026; no post-approval documents published "
+                            "yet. Assessment occurred after the NSW Data Centre Guidelines took effect on "
+                            "17 August 2026.",
+         notes="Two submissions on the record: Endeavour Energy (comment, with standard DA conditions and "
+               "advice library attached) and Blacktown City Council (OBJECT). The approval proceeded despite "
+               "the council objection. 40 EIS documents, 31 responses to submissions and 25 agency advices "
+               "are published against the application, making this one of the best-documented data centre "
+               "assessments in the state.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+]
+
+POWER = [
+    dict(site_id="SITE_MSFT_KEMPS", connection_type="transmission", network_business_id="ENT_TRANSGRID",
+         genset_count=61, genset_fuel="diesel",
+         emission_standard="not recorded on the portal project summary; consent conditions and any "
+                           "environment protection licence to be retrieved (research gap RG-008)",
+         grid_services_role="load only; substation and high voltage switch yard on site",
+         notes="Consent includes 61 generators, 30 diesel storage tanks, a substation and a high voltage "
+               "switch yard. For comparison, the proposed 1 GW Mamre Road campus immediately adjacent "
+               "specifies 846 generators and more than 18,000 kL of diesel storage. Cumulative diesel "
+               "generation across the Mamre Road Precinct is therefore a single air-quality question split "
+               "across at least three consents, which is exactly what the Department's cumulative-impact "
+               "direction was meant to capture.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_KC"),
+    dict(site_id="SITE_GLENDENNING", connection_type="distribution", network_business_id=None,
+         max_demand_mw=202.4,
+         notes="Consent records power consumption of 202.4 MW and an electrical substation. Endeavour Energy "
+               "is the distribution network service provider for this part of Blacktown LGA and submitted "
+               "standard DA conditions.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+]
+
+INCENTIVES = [
+    dict(jurisdiction="NSW", granting_body="Investment Delivery Authority (Investment NSW)",
+         incentive_type="fast_track_approval", instrument="IDA Round 1 endorsement (27 March 2026)",
+         start_date="2026-03-27", amount_aud=None,
+         conditions="Endorsement is a gateway to coordinated government support, not a cash grant. Round 1 "
+                    "endorsed 15 data centre projects worth $51.9bn and 14 energy projects worth $34bn. The "
+                    "IDA declined to endorse around $40.7bn of data centre and technology proposals it "
+                    "considered premature or overly speculative. One endorsed data centre project is withheld "
+                    "from publication for commercial sensitivity.",
+         conditionality_score=2, domestic_compute_allocation=0, disclosed=1,
+         notes="THIS IS THE SUBSIDY THAT IS ACTUALLY DOCUMENTED IN AUSTRALIA: state-facilitated coordination "
+               "and endorsement, publicly named, with a published rejection rate. It is not a tax concession. "
+               "It should be read together with the NSW Data Centre Guidelines' 75-day assessment pathway "
+               "(17 August 2026), which attaches 17 performance measures, and with the Penrith VPA below, "
+               "which runs money the other way - from the developer to the council.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(jurisdiction="NSW", granting_body="Penrith City Council", recipient_id="ENT_MSFT_DC_AU",
+         site_id="SITE_MSFT_KEMPS", incentive_type="other",
+         instrument="Voluntary Planning Agreement under the Environmental Planning and Assessment Act 1979, "
+                    "executed 7 June 2023",
+         amount_aud=None, start_date="2023-06-07",
+         conditions="Monetary contributions from Microsoft Datacenter (Australia) Pty Ltd to Penrith City "
+                    "Council to support delivery of infrastructure including open space and landscaping "
+                    "embellishment within the Mamre Road Precinct, in connection with the future development "
+                    "of a data centre at Lot 2 DP 1271142, 769 Mamre Road, Kemps Creek.",
+         conditionality_score=4, domestic_compute_allocation=0, disclosed=1,
+         notes="RECORD THIS AS A CONTRIBUTION, NOT A SUBSIDY - money flows from the developer to the council. "
+               "It is the mechanism by which a hyperscaler pays for local public infrastructure in NSW, and "
+               "it is separate from both state tax concessions and from EP&A Act local and state infrastructure "
+               "contributions. The executed agreement and explanatory note are published by the council; the "
+               "contribution amount must be read from them (research gap RG-025). The NSW Data Centre "
+               "Guidelines separately encourage benefit-sharing with host communities as Principle 4, and "
+               "state that such arrangements sit outside the development assessment process.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_PENRITH_VPA"),
+]
+
+REG_EVENTS = [
+    dict(event_date="2026-03-27", regulator_id="ENT_NSW_TREASURY", event_type="determination",
+         summary="The NSW Investment Delivery Authority announced Round 1 endorsements: 15 data centre "
+                 "projects worth $51.9bn and 14 energy projects worth $34bn. It also declined to endorse "
+                 "around $40.7bn of data centre and technology proposals, describing them as premature or "
+                 "overly speculative. The same release announced the NSW Data Centre Consultation Paper with "
+                 "six weeks for written feedback.",
+         notes="The $40.7bn rejection is the first hard government-side quantification of phantom demand in "
+               "Australia, and it corroborates the Oxford Economics finding carried in the NSW Data Centre "
+               "Guidelines that 6 in every 7 MW of connection requests are speculative. Rejected value "
+               "($40.7bn) exceeds endorsed value ($51.9bn) by a factor of 0.78.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(event_date="2026-09-16", regulator_id="ENT_NSW_DPHI", site_id="SITE_GLENDENNING",
+         event_type="determination",
+         summary="SSD-73761707 (Glendenning Road Data Centre) was determined on 16 September 2026 - signed "
+                 "14 September 2026 by Joanna Bakopanos, A/Director Industry Assessments, as delegate of the "
+                 "Minister under a delegation executed 18 August 2026 - over the formal objection of "
+                 "Blacktown City Council. The signed consent permits a TOTAL POWER CONSUMPTION OF 235 MW "
+                 "(the portal project description says 202.4 MW; the discrepancy is unexplained on the "
+                 "public record) and caps installed back-up generation at 267.45 MW.",
+         notes="Determined one month after the NSW Data Centre Guidelines took effect on 17 August 2026. "
+               "RG-026 RESOLVED by reading the signed consent in full: the conditions carry a 170-hour "
+               "generator cap (below the 200-hour template), a NOx mass cap of 10 t/yr as NO2-equivalent "
+               "excluding unplanned outage events, 45 m stacks, annual rotational emissions testing, PUE, "
+               "WUE, renewable supply and recycled/non-potable water provisions - but the template "
+               "PROHIBITS diesel load curtailment (no demand-flexibility requirement) and the consent does "
+               "NOT cite the NSW Data Centre Guidelines at all. Determination date and signatory verified "
+               "against the instrument cover page, the Notice of Decision ('Date of decision 14 September "
+               "2026') and portal node metadata (field_date_of_determination_mp 2026-09-16).",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+]
+
+COMMUNITY_EVENTS = [
+    dict(event_date="2025-06", site_id="SITE_GLENDENNING", locality="Glendenning", state="NSW",
+         event_type="council_rejection", actor="Blacktown City Council", severity=5,
+         summary="Blacktown City Council lodged a formal OBJECTION to the EIS for the Glendenning Road "
+                 "Data Centre (SSD-73761707, exhibited at 202.4 MW; the signed consent permits 235 MW). "
+                 "The project was determined on 16 September 2026 regardless.",
+         notes="The second formal council objection to a Western Sydney data centre in this database, after "
+               "Penrith City Council's objection to the Mamre Road campus. Both were overridden or remain "
+               "unresolved, because the consent authority is the state, not the council.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+    dict(event_date="2026-07", site_id="SITE_PLUMPTON_HUB", locality="Plumpton", state="VIC",
+         event_type="petition", actor="Plumpton and Melton residents", severity=4,
+         summary="More than 3,600 people signed a petition calling for careful assessment of the proposed "
+                 "Victorian AI hub at Plumpton. The Guardian describes the site as a microcosm of growing "
+                 "community resentment to data centres and a flashpoint for the national debate.",
+         notes="Residents received door-knocking letters from Syncline Energy before the project had been "
+               "publicly announced; for others news spread through social media first. A Victorian Greens "
+               "campaign against new data centres was circulating at the same time.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+]
+
+METRICS = [
+    dict(as_of="2026-03", scope="NSW", metric_name="ida_endorsed_data_centre_investment", value=51.9,
+         unit="AUD bn", basis="pipeline",
+         notes="15 projects endorsed in Round 1 of the NSW Investment Delivery Authority, announced with "
+               "proponent names and local government areas.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(as_of="2026-03", scope="NSW", metric_name="ida_rejected_data_centre_investment", value=40.7,
+         unit="AUD bn", basis="pipeline",
+         notes="Proposals the IDA declined to endorse as premature or overly speculative. The single best "
+               "government-side measure of phantom demand in Australia.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(as_of="2026-03", scope="NSW", metric_name="ida_endorsed_energy_projects", value=34.0,
+         unit="AUD bn", basis="pipeline", notes="14 renewable energy and energy security projects endorsed "
+         "earlier in March 2026.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(as_of="2026-03", scope="NSW", metric_name="operational_data_centres_nsw_release", value=90,
+         unit="count", basis="actual",
+         notes="Figure used in the 27 March 2026 ministerial release. CONFLICTS with the ~60 figure in the "
+               "NSW Data Centre Guidelines of 17 August 2026, which says ~60 'once double counting "
+               "associated with projects developed through multiple stages is accounted for'. Both are NSW "
+               "Government numbers five months apart; the Guidelines figure is the methodologically "
+               "qualified one and should be preferred.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(as_of="2026-03", scope="NSW", metric_name="dc_share_of_nonresidential_building_investment",
+         value=12.0, unit="%", basis="actual",
+         notes="Data centres are 12% of all non-residential building investment in NSW; investment value has "
+               "grown 65% per year on average over three years.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(as_of="2026-03", scope="NSW", metric_name="dc_projects_approved_past_year", value=8,
+         unit="count", basis="actual",
+         notes="Eight data centre projects worth more than $10bn approved in the preceding year, including "
+               "the biggest data centre in the Southern Hemisphere (CDC Marsden Park, separately reported at "
+               "A$3.1bn).",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(as_of="2026-07", scope="Australia", metric_name="operational_data_centres_guardian_abs", value=285,
+         unit="count", basis="actual",
+         notes="Guardian Australia, July 2026. CONFLICTS with AEMO's 162 (June 2026, citing DCByte) and with "
+               "the NSW release's 90 for NSW alone. Almost certainly a different definition of 'data centre' "
+               "- likely counting all colocation and enterprise rooms rather than facilities above a "
+               "capacity threshold. Recorded as a conflict, not resolved.",
+         fact_status="REPORTED", confidence="low", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+    dict(as_of="2026-01", scope="Australia", metric_name="commercial_building_approvals_dc_spike", value=5.0,
+         unit="AUD bn", basis="actual",
+         notes="ABS building approvals for commercial buildings not elsewhere classified, a series the ABS "
+               "states is spiking because of data centres.",
+         fact_status="REPORTED", confidence="medium", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+    dict(as_of="2023-07", scope="NSW", metric_name="msft_kemps_creek_generators", value=61,
+         unit="count", basis="actual",
+         notes="Generators in the SSD-10101987 consent for Microsoft's Kemps Creek campus, alongside 30 "
+               "diesel storage tanks. Compare 846 generators and >18,000 kL of diesel storage in the "
+               "adjacent proposed 1 GW Mamre Road campus.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_KC"),
+    dict(as_of="2026-09", scope="NSW", metric_name="glendenning_road_approved_mw", value=202.4,
+         unit="MW", basis="actual",
+         notes="Approved 16 September 2026, one month after the NSW Data Centre Guidelines took effect, over "
+               "Blacktown City Council's objection.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+    dict(as_of="2026-07", scope="VIC", metric_name="plumpton_ai_hub_max_capacity", value=2400.0,
+         unit="MW", basis="pipeline",
+         notes="Reported maximum capacity across four buildings on 350 ha at Plumpton; would exceed Loy Yang "
+               "A. From secondary and community reporting, not from a lodged application - no application "
+               "reference located yet.",
+         fact_status="REPORTED", confidence="low", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+    dict(as_of="2026-07", scope="VIC", metric_name="plumpton_petition_signatures", value=3600,
+         unit="count", basis="actual", notes="Signatures on the petition for careful assessment.",
+         fact_status="REPORTED", confidence="high", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+]
+
+GAPS = [
+    dict(id=21, pillar="A", priority=5, retrieval_method="asic_search", status="open", opened=TODAY,
+         question="Resolve KNBDC SYD4 Pty Ltd: shareholders, directors, ultimate parent, and its "
+                  "relationship to AirTrunk and to IFM Investors / ISPT as landowner.",
+         why_it_matters="This SPV is the named proponent of Australia's largest data centre proposal "
+                        "(1-1.2 GW, Mamre Road). Two credible sources already conflict on who owns the land. "
+                        "Without ASIC resolution the ownership chain for the single most important site in "
+                        "the database is unproven, and the 'SYD4' match to AirTrunk's site code is only "
+                        "circumstantial.",
+         target_source="ASIC company register (paid extract) and the Australian Business Register "
+                       "(https://abr.business.gov.au); NSW Land Registry Services title search for "
+                       "706-752 Mamre Road",
+         notes="Supersedes and extends RG-005. The ABR lookup is free and immediate; the ASIC extract costs "
+               "a few dollars and gives shareholding.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id=22, pillar="A", priority=5, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Identify the actual developer and end user behind the Glendenning Road Data Centre "
+                  "(SSD-73761707, 202.4 MW, approved 16 September 2026).",
+         why_it_matters="The NSW Government's own IDA release names 'Lehr Consultants International "
+                        "(Australia) Pty Ltd' - a planning and engineering consultancy - as the proponent. "
+                        "A 202 MW facility in Blacktown LGA has been approved with its developer and tenant "
+                        "effectively undisclosed in public documents. This is the clearest instance yet of "
+                        "the anonymisation problem RG-013 exists to solve, and it is a transparency finding "
+                        "in its own right.",
+         target_source="SSD-73761707 EIS (40 documents published on the portal), Request for SEARs, and the "
+                       "Determination; the PDA-67670218 document carries ABN 54 146 035 707 which resolves "
+                       "via the ABR",
+         notes="The portal publishes the full assessment record, so the proponent's identity is in there even "
+               "though the summary page omits it.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+    dict(id=23, pillar="A", priority=5, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Map AWS and Google Australian data centre sites: planning consents, proponent entities, "
+                  "capacities and grid connection points.",
+         why_it_matters="Microsoft is now resolved to a named consent (SSD-10101987, Kemps Creek, 61 "
+                        "generators, 30 diesel tanks, reported 190 MW). Neither AWS nor Google has produced a "
+                        "single attributable Australian consent in this database despite A$20bn and reported "
+                        "multi-billion commitments. Amazon Commercial Services Pty Ltd runs a 'Global Realty' "
+                        "function that acquires sites, and Amazon Corporate Services Pty Ltd reports 405,217 t "
+                        "of scope 2 to the CER, so the facilities exist and are material - they are simply "
+                        "not publicly attributable.",
+         target_source="NSW Planning Portal SSD/SSI search by proponent; Victorian planning register; "
+                       "council DA registers; ASIC/ABR for Amazon and Google SPVs; the withheld IDA project "
+                       "(one of 15 is not published 'due to commercial sensitivities')",
+         notes="Note the NSW IDA Round 1 list contains no AWS, Google or Meta project at all. Either they are "
+               "outside the IDA process, in the withheld slot, or in another state.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+    dict(id=24, pillar="A", priority=3, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Confirm Microsoft Kemps Creek's operational IT capacity, GFA and campus area from a "
+                  "primary source rather than the grade-C tracker currently cited.",
+         why_it_matters="190 MW / 60,943 sqm / 14.43 ha currently rests on datacentermap.com. It should rest "
+                        "on the consent, the staging plan, or Microsoft's own project page.",
+         target_source="SSD-10101987 Determination and Condition A11 Staging Plan (both published); "
+                       "Microsoft's Australian project communications",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_DCMAP_MSFT"),
+    dict(id=25, pillar="B", priority=4, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Extract the contribution amount and schedule from the executed Microsoft / Penrith City "
+                  "Council Voluntary Planning Agreement, and then survey VPAs and s7.11/s7.12 contributions "
+                  "across every data centre consent in Blacktown, Penrith, Fairfield, Ryde and Hills Shire.",
+         why_it_matters="This is the documented mechanism by which hyperscalers pay for local public "
+                        "infrastructure in NSW. Quantifying it turns the subsidy debate around: it is the one "
+                        "place where money demonstrably flows FROM developers TO communities, and it is "
+                        "publishable, comparable, and already in the public record.",
+         target_source="yoursaypenrith.com.au (executed VPA and explanatory note); council planning "
+                       "agreement registers; NSW Planning Portal Voluntary Planning Agreements list",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_PENRITH_VPA"),
+    dict(id=26, pillar="C", priority=5, retrieval_method="scrape_portal", status="open", opened=TODAY,
+         question="Retrieve the determination and consent conditions for SSD-73761707 (Glendenning Road, "
+                  "approved 16 September 2026) and test them against the NSW Data Centre Guidelines' 17 "
+                  "performance measures.",
+         why_it_matters="This is the first major data centre consent issued after the Guidelines took effect "
+                        "on 17 August 2026. Whether it imposes dPUE <=1.25 / dWUE bands, Group 6 generator "
+                        "limits, the 25% two-hour demand reduction capability, and the Principle 3 PPA "
+                        "additionality tests is the empirical test of whether the new regime binds at all. "
+                        "If a 202 MW approval one month after the Guidelines omits them, the Guidelines are "
+                        "advisory in practice as well as in law.",
+         target_source="NSW Planning Portal SSD-73761707 Determination (3 documents published) and the "
+                       "27 approved management plans",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSWPORTAL_GLEN"),
+    dict(id=27, pillar="A", priority=3, retrieval_method="manual_review", status="open", opened=TODAY,
+         question="Verify and map the non-NEM and outer-metro proposals surfaced during RG-013: Wesley Vale "
+                  "AI data centre (Tasmania), the Beetaloo Digital energy and data centre development at "
+                  "Berry (NSW south coast), and the Frederick Street Artarmon proposal (Willoughby LGA).",
+         why_it_matters="All three surfaced only through local and social reporting and none is in the "
+                        "database. Tasmania is outside the NEM entirely, which matters given the "
+                        "jurisdictional scoping correction already recorded in the engineering register.",
+         target_source="Tasmanian planning authority; Shoalhaven City Council; Willoughby City Council; "
+                       "primary proponent announcements",
+         fact_status="REPORTED", confidence="low", as_of_date=TODAY, source_id="SRC_GUARD_PLUMPTON"),
+]
+
+GAP_UPDATES = [
+    dict(match=dict(id=11),
+         set=dict(status="in_progress",
+                  notes="Partly advanced 2026-09-18. The Guardian (26 July 2026) identifies Syncline Energy "
+                        "as the proponent of the Plumpton 'Victorian AI hub' (350 ha, reported 2.4 GW max), "
+                        "and local reporting links the same developer to the Melton proposal; SITE_MELTON_"
+                        "SYNCLINE is now attributed and lifted from CLAIMED/low to REPORTED/medium. Still "
+                        "outstanding: the Melton application reference and capacity, and any verification of "
+                        "the South Morang ~A$1bn approval, which remains CLAIMED/low on a single local source.",
+                  fact_status="REPORTED", confidence="medium", as_of_date=TODAY,
+                  source_id="SRC_GUARD_PLUMPTON"),
+         add_sources=["SRC_GUARD_PLUMPTON"]),
+    dict(match=dict(id=13),
+         set=dict(status="in_progress",
+                  notes="Substantially advanced 2026-09-18. Microsoft is resolved: proponent Microsoft "
+                        "Datacentre (Australia) Pty Ltd, consent SSD-10101987 at 707-769 Mamre Road Kemps "
+                        "Creek, approved 13 July 2023, scope including 61 generators and 30 diesel storage "
+                        "tanks, reported 190 MW / 60,943 sqm / 14.43 ha / A$1.3bn, plus an executed Penrith "
+                        "VPA. The full NSW IDA Round 1 proponent list is now in the database (15 projects, "
+                        "$51.9bn), adding STACK, Goodman, Stockland x3, AIMS, GreenSquare DC, Lane Cove DC "
+                        "Alliance, NEXTDC S4/S5 and KNBDC SYD4. AWS and Google remain UNRESOLVED - no "
+                        "attributable Australian consent found; see RG-023. The proponent-naming problem is "
+                        "worse than expected: Glendenning Road (202.4 MW, approved) is publicly attributed to "
+                        "a planning consultancy; see RG-022. Also closed out the emissions-signature approach "
+                        "as invalid - see RG-028.",
+                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_NSW_IDA"),
+         add_sources=["SRC_NSW_IDA", "SRC_NSWPORTAL_KC", "SRC_NSWPORTAL_GLEN", "SRC_PENRITH_VPA"]),
+]
+
+METHOD_GAP = [
+    dict(id=28, pillar="B", priority=4, retrieval_method="manual_review", status="resolved",
+         opened=TODAY, resolved_date=TODAY,
+         question="Can data centre operators be identified by screening NGER corporate data for anonymous "
+                  "SPVs with a high-scope-2 / near-zero-scope-1 emissions signature?",
+         why_it_matters="If it worked it would be a cheap, repeatable way to find hyperscaler entities "
+                        "without ASIC searches. It does not work.",
+         target_source="Australian Business Register (https://abr.business.gov.au) used to resolve the two "
+                       "candidates",
+         notes="NO. The two strongest candidates in the 2024-25 NGER corporate table resolved via the ABR to "
+               "A.C.N. 085 239 998 Pty Ltd = KFC Australia / Kentucky Fried Chicken Pty Ltd (scope 2 "
+               "156,819 t, scope 1 1,623 t) and A.C.N. 166 119 133 Pty Ltd = Saputo Dairy Australia holding "
+               "company (scope 1 127,086 t, scope 2 124,002 t, market-based scope 2 122,112 t reported as "
+               "covering all facilities). Any electricity-intensive, low-combustion business presents the same "
+               "signature as a data centre. Entity resolution must go through ASIC/ABR and planning-portal "
+               "proponent names. Recorded so the mistake is not repeated.",
+         fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_CER_NGERS"),
+]
+
+
+def main() -> int:
+    pack = {
+        "pack_id": "rg013-hyperscaler-sites-2026-09",
+        "prepared_by": "scripts/curate_rg013.py (curated from primary sources read 2026-09-18)",
+        "prepared_on": TODAY,
+        "_method_note": __doc__.split("METHOD NOTE")[1].strip() if "METHOD NOTE" in __doc__ else "",
+        "sources": SOURCES,
+        "rows": {
+            "entities": ENTITIES,
+            "sites": SITES + SITE_UPDATES,
+            "applications": APPLICATIONS,
+            "power_profile": POWER,
+            "incentives": INCENTIVES,
+            "regulatory_events": REG_EVENTS,
+            "community_events": COMMUNITY_EVENTS,
+            "metrics": METRICS,
+            "research_gaps": GAPS + METHOD_GAP + GAP_UPDATES,
+        },
+    }
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with open(OUT, "w", encoding="utf-8") as fh:
+        json.dump(pack, fh, indent=1)
+    counts = {k: len(v) for k, v in pack["rows"].items()}
+    print(f"wrote {OUT}")
+    print(f"  sources={len(SOURCES)} rows={counts}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

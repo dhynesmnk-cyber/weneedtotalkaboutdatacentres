@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-64287712%2120251208T042654.119+GMT",
+ "attachment_slug": "dci-poplars-instrument-consent-2",
+ "title": "DCI Poplars - Instrument of Consent",
+ "folder": "Determination",
+ "label": "DCI Poplars - Instrument of Consent.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:37:06+00:00",
+ "sha256": "c4170839e376113d13f65f7e12fbdce9b5615b7496641096c407eb6631f2ea2c",
+ "bytes": 1568567,
+ "extraction": {
+  "chars": 76914,
+  "kb": 1531,
+  "chars_per_kb": 50.2,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:00+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

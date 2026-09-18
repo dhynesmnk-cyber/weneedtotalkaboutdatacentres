@@ -1,0 +1,20 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-73761707%2120260916T063022.844+GMT",
+ "attachment_slug": "signed-ssd-instrument-consent-2",
+ "title": "Signed - SSD Instrument of Consent",
+ "folder": "Determination",
+ "label": "Signed - SSD Instrument of Consent.pdf",
+ "is_public": true,
+ "fetched_utc": "2026-09-18T13:37:26+00:00",
+ "sha256": "8a75632592b90e9e8efeeabdcd4c90444ee95ce0c39d4e5f58544c5894aeecc3",
+ "bytes": 2172177,
+ "extraction": {
+  "chars": 94547,
+  "kb": 2121,
+  "chars_per_kb": 44.6,
+  "reliable": true
+ },
+ "reextracted_utc": "2026-09-18T18:36:05+00:00",
+ "extractor": "pypdf-6.19.0",
+ "extraction_note": "Re-extracted with pypdf after the 2026-09-18 13:36 pdf_text run degraded 18 of 20 texts and yielded 0 chars on 2. PDF sha256 verified against the fetch-time manifest first."
+}

@@ -1,0 +1,446 @@
+{
+ "run_utc": "2026-09-18T18:36:21+00:00",
+ "extractor": "pypdf",
+ "results": [
+  {
+   "project": "1_5_khartoum_road_data_centre",
+   "sha_ok": true,
+   "chars": 117984,
+   "chars_per_kb": 77.5,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2026-03-11",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF23/14121",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "43_61_turner_road_data_centre",
+   "sha_ok": true,
+   "chars": 106765,
+   "chars_per_kb": 68.8,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2025-11-21",
+    "execution_year": "",
+    "execution_date_source": "cover:'Sydney <date>'",
+    "file_ref": "",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "51_huntingwood_drive_data_centre",
+   "sha_ok": true,
+   "chars": 118570,
+   "chars_per_kb": 72.7,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2023-09-15",
+    "execution_year": "",
+    "execution_date_source": "cover:'Sydney <date>'",
+    "file_ref": "",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Chris Ritchie",
+    "title": "Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "apollo_place_data_centre",
+   "sha_ok": true,
+   "chars": 93096,
+   "chars_per_kb": 112.0,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2025-10-09",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF24/1723",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director, Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "davis_rd_data_centre_mod_1_tree_removal_correction",
+   "sha_ok": true,
+   "chars": 4398,
+   "chars_per_kb": 28.2,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2025-08-15",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF25/10654",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Catriona Shirley",
+    "title": "A/Team Leader / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "davis_road_data_centre_cundall",
+   "sha_ok": true,
+   "chars": 96588,
+   "chars_per_kb": 74.6,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2024-12-20",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF23/7568",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "dci_poplars_data_centre_project_0",
+   "sha_ok": true,
+   "chars": 76914,
+   "chars_per_kb": 50.2,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2025-11-06",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF23/15259",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "dicker_data_warehouse_and_distribution_centre",
+   "sha_ok": true,
+   "chars": 67262,
+   "chars_per_kb": 27.9,
+   "reliable": true,
+   "execution": {
+    "execution_date": "",
+    "execution_year": "",
+    "execution_date_source": "cover:'File:' ref only",
+    "file_ref": "DOC18/721211",
+    "delegation_of": "Minister for Planning",
+    "delegation_executed": "2017-10-11",
+    "delegation_section": "",
+    "parse_note": "No machine-readable execution line in the text layer."
+   },
+   "signatory": {
+    "name": "Anthea Sargeant",
+    "title": "Executive Director / Key Sites and Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "digico_syd1_data_centre_expansion",
+   "sha_ok": true,
+   "chars": 109253,
+   "chars_per_kb": 157.0,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2025-12-23",
+    "execution_year": "",
+    "execution_date_source": "cover:'Sydney <date>'",
+    "file_ref": "",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Chris Ritchie",
+    "title": "Executive Director / Energy, Resources and Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "glendenning_road_data_centre",
+   "sha_ok": true,
+   "chars": 94547,
+   "chars_per_kb": 44.6,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2026-09-14",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF24/10658",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2026-08-18",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "grand_avenue_data_centre_expansion_rosehill",
+   "sha_ok": true,
+   "chars": 97075,
+   "chars_per_kb": 74.4,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2024-12-16",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF23/341",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "lane_cove_west_data_centre",
+   "sha_ok": true,
+   "chars": 89589,
+   "chars_per_kb": 66.5,
+   "reliable": true,
+   "execution": {
+    "execution_date": "",
+    "execution_year": "2019",
+    "execution_date_source": "cover:'Sydney <year> File:' (day/month image-stamped)",
+    "file_ref": "EF19/4251",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2017-10-11",
+    "delegation_section": "",
+    "parse_note": "Day and month are in an image stamp, absent from the text layer; only the year is machine-readable."
+   },
+   "signatory": {
+    "name": "Anthea Sargeant",
+    "title": "Executive Director / Compliance, Industry and Key Sites",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "macquarie_park_data_centre",
+   "sha_ok": true,
+   "chars": 112203,
+   "chars_per_kb": 90.6,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2021-05-28",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF20/22600",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2021-04-26",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Chris Ritchie",
+    "title": "Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "nextdc_s4_data_centre_horsley_park",
+   "sha_ok": true,
+   "chars": 134840,
+   "chars_per_kb": 81.1,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2025-12-24",
+    "execution_year": "",
+    "execution_date_source": "cover:'Sydney <date>'",
+    "file_ref": "",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Chris Ritchie",
+    "title": "Executive Director / Energy, Resources and Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "project_apollo_data_centre_macquarie_park",
+   "sha_ok": true,
+   "chars": 106584,
+   "chars_per_kb": 61.7,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2026-09-02",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF24/11318",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2026-08-18",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "Acting Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "project_echidna_data_centre_eastern_creek",
+   "sha_ok": true,
+   "chars": 108211,
+   "chars_per_kb": 116.7,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2024-04-05",
+    "execution_year": "",
+    "execution_date_source": "cover:'Sydney <date>'",
+    "file_ref": "",
+    "delegation_of": "NSW Independent Planning Commission (the Commission)",
+    "delegation_executed": "2022-06-14",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Chris Ritchie",
+    "title": "A/Executive Director / Energy, Resources and Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "project_pluto_data_centre",
+   "sha_ok": true,
+   "chars": 90155,
+   "chars_per_kb": 142.9,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2026-07-23",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF24/4596",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Joanna Bakopanos",
+    "title": "A/Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "roberts_road_data_centre",
+   "sha_ok": true,
+   "chars": 80263,
+   "chars_per_kb": 80.6,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2020-07-14",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF19/17436",
+    "delegation_of": "Minister for Planning and Public Spaces",
+    "delegation_executed": "2020-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Anthea Sargeant",
+    "title": "Executive Director / Regions, Industry and Key Sites",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "station_road_data_centre_expansion",
+   "sha_ok": true,
+   "chars": 79513,
+   "chars_per_kb": 68.1,
+   "reliable": true,
+   "execution": {
+    "execution_date": "2022-12-16",
+    "execution_year": "",
+    "execution_date_source": "cover:'<date> File:<ref>'",
+    "file_ref": "EF21/18706",
+    "delegation_of": "Minister for Planning",
+    "delegation_executed": "2022-03-09",
+    "delegation_section": "",
+    "parse_note": ""
+   },
+   "signatory": {
+    "name": "Chris Ritchie",
+    "title": "Director / Industry Assessments",
+    "name_source": "cover-block"
+   }
+  },
+  {
+   "project": "talavera_road_data_centre_campus_expansion",
+   "sha_ok": true,
+   "chars": 94999,
+   "chars_per_kb": 62.7,
+   "reliable": true,
+   "execution": {
+    "execution_date": "",
+    "execution_year": "2023",
+    "execution_date_source": "cover:'Sydney <year> File:' (day/month image-stamped)",
+    "file_ref": "EF21/10619",
+    "delegation_of": "Independent Planning Commission - declared consent authority under clause 8A of State \nEnvironmental Planning Policy (State and Region",
+    "delegation_executed": "",
+    "delegation_section": "",
+    "parse_note": "Day and month are in an image stamp, absent from the text layer; only the year is machine-readable."
+   },
+   "signatory": {
+    "name": "[Name of Commissioner]",
+    "title": "",
+    "name_source": "template-placeholder"
+   }
+  }
+ ]
+}
