@@ -12,14 +12,18 @@
 - Scheduled ingestion via Supabase Edge Functions or GitHub Actions cron.
 
 ## Supabase project setup
+Step by step instructions are in docs/SUPABASE_SETUP.md. In summary:
 - Apply supabase/migrations in order. They create the facts and editorial
   schemas, not public.
 - Both schemas must be added under "Exposed schemas" in the project's API
   settings. Neither is reachable through PostgREST otherwise, and every query
-  will fail with a schema error rather than an empty result.
+  will fail with a schema error rather than an empty result. The local stack
+  reads this from supabase/config.toml; a hosted project does not.
 - Row Level Security is enabled on every table by migration 0004. Do not disable
   it to debug a query: an unfiltered read is the failure mode the policies exist
   to prevent.
+- Point in time recovery is a Pro plan feature. The backup policy below assumes
+  it. On the free tier, record the gap rather than assuming it is covered.
 
 ## CI pipeline
 - lint, typecheck, unit tests, build on every pull request.

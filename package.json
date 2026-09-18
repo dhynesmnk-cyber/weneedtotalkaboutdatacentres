@@ -10,7 +10,10 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:rls": "./scripts/test-rls.sh",
+    "db:reset": "supabase db reset",
+    "db:types": "supabase gen types typescript --local --schema facts --schema editorial > lib/database.types.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",

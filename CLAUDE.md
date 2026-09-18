@@ -51,6 +51,7 @@ docs/UI.md          design system and page specs
 docs/REVIEW.md      editorial and code review checklists
 docs/SUBAGENTS.md   agent roles and boundaries
 docs/DEPLOYMENT.md  release, infrastructure, backups
+docs/SUPABASE_SETUP.md  creating and linking the Supabase project
 docs/QUALITY.md     data and content quality assurance
 
 ## Definition of done

@@ -33,3 +33,33 @@ jobs:
       # that only succeeds with credentials present would be hiding that.
       - name: Build
         run: npm run build
+
+  # Applies the migrations to a real Postgres and asserts what the anon role can
+  # actually see. The unit suite only reads the migration SQL as text, which
+  # cannot tell a declared policy from a working one.
+  rls:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run RLS and constraint tests
+        run: ./scripts/test-rls.sh
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGUSER: postgres
+          PGPASSWORD: postgres

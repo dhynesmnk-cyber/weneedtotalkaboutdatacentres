@@ -28,6 +28,8 @@ in an observatory about data centre capacity could be mistaken for findings.
 | `npm run lint` | ESLint |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm test` | Unit tests (vitest) |
+| `npm run test:rls` | Live RLS and constraint tests against a real Postgres |
+| `npm run db:types` | Regenerate database types from the local Supabase stack |
 
 ## Layout
 
