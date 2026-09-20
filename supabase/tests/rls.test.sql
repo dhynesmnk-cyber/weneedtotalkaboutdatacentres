@@ -240,8 +240,33 @@ select public.assert(
   (select array_agg(enumlabel::text order by enumsortorder)
      from pg_enum e join pg_type t on t.oid = e.enumtypid
      where t.typname = 'site_status')
-  = array['proposed','approved','under_construction','operating','stalled','withdrawn'],
+  = array['rumoured','pre_lodgement','proposed','lodged','approved',
+          'under_construction','operating','stalled','refused','withdrawn',
+          'cancelled'],
   'site_status domain matches');
+
+-- Provenance domains added in 0006. fact_status is ordered weakest to
+-- strongest, so a comparison reads the way a reader would expect.
+select public.assert(
+  (select array_agg(enumlabel::text order by enumsortorder)
+     from pg_enum e join pg_type t on t.oid = e.enumtypid
+     where t.typname = 'fact_status')
+  = array['gap','claimed','reported','verified'],
+  'fact_status domain matches');
+
+select public.assert(
+  (select array_agg(enumlabel::text order by enumsortorder)
+     from pg_enum e join pg_type t on t.oid = e.enumtypid
+     where t.typname = 'confidence_level')
+  = array['low','medium','high'],
+  'confidence_level domain matches');
+
+select public.assert(
+  (select array_agg(enumlabel::text order by enumsortorder)
+     from pg_enum e join pg_type t on t.oid = e.enumtypid
+     where t.typname = 'source_credibility')
+  = array['A','B','C','D'],
+  'source_credibility domain matches');
 
 select public.assert(
   (select array_agg(enumlabel::text order by enumsortorder)

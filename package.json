@@ -13,7 +13,9 @@
     "test:watch": "vitest",
     "test:rls": "./scripts/test-rls.sh",
     "db:reset": "supabase db reset",
-    "db:types": "supabase gen types typescript --local --schema facts --schema editorial > lib/database.types.ts"
+    "db:types": "supabase gen types typescript --local --schema facts --schema editorial > lib/database.types.ts",
+    "test:load": "./scripts/test-load.sh",
+    "load:pipeline": "tsx scripts/ingestion/load-pipeline.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",
@@ -36,6 +38,7 @@
     "supabase": "^2.117.0",
     "tailwindcss": "^3.4.13",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.2"
+    "vitest": "^2.1.2",
+    "tsx": "^4.19.1"
   }
 }

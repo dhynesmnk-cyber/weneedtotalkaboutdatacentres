@@ -1,4 +1,10 @@
-import type { EventCategory, GapReason, SiteStatus } from '@/lib/types';
+import type {
+  ConfidenceLevel,
+  EventCategory,
+  FactStatus,
+  GapReason,
+  SiteStatus,
+} from '@/lib/types';
 
 /**
  * Presentation helpers. Australian English throughout, per CLAUDE.md.
@@ -81,13 +87,49 @@ export function formatMegalitres(value: number | null | undefined): string | nul
 }
 
 const SITE_STATUS_LABELS: Record<SiteStatus, string> = {
+  rumoured: 'Rumoured',
+  pre_lodgement: 'Pre-lodgement',
   proposed: 'Proposed',
+  lodged: 'Lodged',
   approved: 'Approved',
   under_construction: 'Under construction',
   operating: 'Operating',
   stalled: 'Stalled',
+  refused: 'Refused',
   withdrawn: 'Withdrawn',
+  cancelled: 'Cancelled',
 };
+
+/**
+ * Reader-facing wording for how well established a claim is.
+ *
+ * A "claimed" figure is a proponent's assertion that nobody has independently
+ * confirmed. Rendering it identically to a figure parsed from a planning
+ * consent is the failure this project exists to correct, so the wording says
+ * who is doing the asserting.
+ */
+const FACT_STATUS_LABELS: Record<FactStatus, string> = {
+  gap: 'No value established',
+  claimed: 'Claimed by proponent',
+  reported: 'Reported by a secondary source',
+  verified: 'Verified against a primary source',
+};
+
+export function formatFactStatus(value: FactStatus | null | undefined): string | null {
+  return value ? FACT_STATUS_LABELS[value] : null;
+}
+
+const CONFIDENCE_LABELS: Record<ConfidenceLevel, string> = {
+  low: 'Low confidence',
+  medium: 'Medium confidence',
+  high: 'High confidence',
+};
+
+export function formatConfidence(
+  value: ConfidenceLevel | null | undefined,
+): string | null {
+  return value ? CONFIDENCE_LABELS[value] : null;
+}
 
 export function formatSiteStatus(value: SiteStatus | null | undefined): string | null {
   return value ? SITE_STATUS_LABELS[value] : null;

@@ -42,15 +42,45 @@ const executableSql = sql
   .replace(/^\s*--.*$/gm, '')
   .replace(/comment on [\s\S]*?';/gi, '');
 
+/**
+ * The values of an enum as the migrations leave it, in sort order.
+ *
+ * This has to account for `alter type ... add value`, not just the original
+ * `create type`. A vocabulary that is extended later (0005 widened
+ * site_status) would otherwise appear to the parity check exactly as it did
+ * before it was extended, and the check would pass while covering nothing.
+ *
+ * Postgres orders enum labels by enumsortorder, which BEFORE and AFTER set at
+ * insertion time, so the positioning is reproduced here rather than appending.
+ */
 function enumValues(name: string): string[] {
-  const match = new RegExp(
+  const created = new RegExp(
     `create type facts\\.${name} as enum \\(([^)]*)\\)`,
     'i',
   ).exec(sql);
 
-  if (!match?.[1]) return [];
+  if (!created?.[1]) return [];
 
-  return [...match[1].matchAll(/'([^']+)'/g)].map((m) => m[1] as string);
+  const values = [...created[1].matchAll(/'([^']+)'/g)].map((m) => m[1] as string);
+
+  const additions = new RegExp(
+    `alter type facts\\.${name} add value(?: if not exists)? '([^']+)'` +
+      `(?:\\s+(before|after)\\s+'([^']+)')?`,
+    'gi',
+  );
+
+  for (const [, value, position, anchor] of sql.matchAll(additions)) {
+    if (!value || values.includes(value)) continue;
+
+    const at = anchor ? values.indexOf(anchor) : -1;
+    if (at === -1) {
+      values.push(value);
+    } else {
+      values.splice(position?.toLowerCase() === 'before' ? at : at + 1, 0, value);
+    }
+  }
+
+  return values;
 }
 
 describe('enum parity between SQL and lib/types.ts', () => {
@@ -64,6 +94,23 @@ describe('enum parity between SQL and lib/types.ts', () => {
 
   it('gap_reason matches', () => {
     expect(enumValues('gap_reason')).toEqual([...GAP_REASONS]);
+  });
+
+  it('fact_status matches, ordered weakest to strongest', () => {
+    expect(enumValues('fact_status')).toEqual([
+      'gap',
+      'claimed',
+      'reported',
+      'verified',
+    ]);
+  });
+
+  it('confidence_level matches', () => {
+    expect(enumValues('confidence_level')).toEqual(['low', 'medium', 'high']);
+  });
+
+  it('source_credibility matches', () => {
+    expect(enumValues('source_credibility')).toEqual(['A', 'B', 'C', 'D']);
   });
 
   it('citable_record covers every table a citation may point at', () => {
@@ -87,6 +134,9 @@ describe('table parity', () => {
     'citations',
     'data_gaps',
     'council_watchlist',
+    'research_agenda',
+    'lga_aliases',
+    'ingest_runs',
   ];
 
   const editorialTables: (keyof Database['editorial']['Tables'])[] = [
@@ -124,6 +174,9 @@ describe('row level security is declared on every table', () => {
     'facts.citations',
     'facts.data_gaps',
     'facts.council_watchlist',
+    'facts.research_agenda',
+    'facts.lga_aliases',
+    'facts.ingest_runs',
     'editorial.case_studies',
     'editorial.essays',
   ];

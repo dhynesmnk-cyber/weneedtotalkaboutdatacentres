@@ -32,6 +32,13 @@ Define product scope, audience and data model for the observatory.
   live_capacity_mw, cooling_type, rack_density_kw, grid_connection,
   water_usage, notes. Every field nullable, with any missing value recorded
   in data_gaps. See Site status values and Gap flags below.
+  Migration 0008 adds the fields the research carries: proponent, suburb,
+  state, market, address, it_capacity_mw, max_capacity_mw, first_phase_mw,
+  campus_area_ha, gfa_sqm, capital_cost_aud, construction_jobs,
+  operational_jobs, operational_from, target_completion, hcf_certified.
+  The four capacity figures measure different things and are never aggregated
+  or substituted for one another; live_capacity_mw is never populated by an
+  import. See docs/PIPELINE_MAPPING.md.
 - entities: id, name, type, role, major_flag, public_actions_summary.
 - events: id, category, date, title, summary, site_id.
 - event_categories: planning, construction, media, political, community, financial.
@@ -46,6 +53,24 @@ Define product scope, audience and data model for the observatory.
   source_id. Records why a value is missing.
 - essays: id, title, publish_date, youtube_id, body, tags, related_ids.
 - council_watchlist: approved councils for targeted ingestion. See Ingestion scope.
+- research_agenda: open research questions, with why each matters and how it is
+  to be answered. NOT the same as data_gaps: a gap is a per-field absence, a
+  research question is an open line of enquiry. Publishing the agenda is
+  deliberate, because an observatory that shows what it has not established is
+  more honest than one that shows only what it has.
+- lga_aliases: human-approved council name equivalences. Empty until a human
+  fills it; no import writes here.
+- ingest_runs: one row per load of the curation pipeline, carrying the SHA-256
+  of the build it read, so a published figure is traceable to its source build.
+
+## Provenance columns
+sites and entities carry fact_status (verified, reported, claimed, gap),
+confidence (low, medium, high) and as_of_date. sources carry credibility (A-D).
+
+These are not a second citation mechanism. citations remains the only path from
+a record to a source; these describe the strength of a claim that is already
+cited. A claimed record is a proponent's assertion nobody has confirmed, and is
+never presented to a reader as verified.
 
 ## Schema separation
 The fact layer and the editorial layer are separate in the database, not only in
@@ -103,12 +128,25 @@ are different from the figure not applying to that site at all.
 - The UI renders the reason, not a bare marker. See GapBadge in UI.md.
 
 ## Site status values
-status is constrained to one of: proposed, approved, under_construction,
-operating, stalled, withdrawn.
+status is constrained to one of: rumoured, pre_lodgement, proposed, lodged,
+approved, under_construction, operating, stalled, refused, withdrawn,
+cancelled.
+
+Five of these (rumoured, pre_lodgement, lodged, refused, cancelled) were added
+in migration 0005 to hold distinctions the curation pipeline records and the
+original six values could not. Two matter especially, and the reasoning is in
+docs/PIPELINE_MAPPING.md:
+
+- refused is not withdrawn. A refusal is an authority stopping a project; a
+  withdrawal is a proponent stopping it. They are opposite claims about who
+  decided.
+- rumoured is not proposed. A rumour is an unverified report; a proposal is a
+  formal act.
 
 stalled is load bearing. The evidence policy permits naming stalled projects
 with citations, so the schema has to be able to represent one rather than
-leaving it implied by an absence of recent events.
+leaving it implied by an absence of recent events. No import produces it: it is
+a human editorial judgement about a project that has gone quiet.
 
 ## Link generation
 links are derived records, and derivation is not publication.

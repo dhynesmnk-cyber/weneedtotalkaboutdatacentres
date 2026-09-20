@@ -1,11 +1,11 @@
 # SUPABASE_SETUP.md
 
-How to create the Supabase project and point the app at it.
+How to create the Supabase project, apply the schema, and load the research.
 
-The migrations in `supabase/migrations` have been applied to a real Postgres 16
-and the behavioural tests in `supabase/tests/rls.test.sql` pass against them, so
-the schema is known to work. What follows is the project creation and linking,
-which needs an account and cannot be done from an agent session.
+The migrations apply cleanly to real Postgres and the behavioural suites pass
+against them, so the schema is known to work. What follows is the project
+creation and linking, which needs an account and cannot be done from an agent
+session.
 
 ## Status
 
@@ -13,12 +13,19 @@ No Supabase project exists yet. Nothing in the app depends on one: every page
 renders an explicit "no database connected" state, and `npm run build` succeeds
 without credentials.
 
-The migrations were verified locally against **Postgres 16**, which is what was
-available. Supabase runs **Postgres 17**, and `supabase/config.toml` declares 17
-(the CLI rejects 16 outright). CI runs the behavioural tests against both, so
-the version that actually matters is covered on every pull request rather than
-assumed. Nothing in the schema is version sensitive, but the difference is
-recorded rather than glossed.
+There are **eleven** migrations. `0001`–`0004` create the two schemas, the ten
+original tables and Row Level Security. `0005`–`0011` widen the schema to hold
+the research in `data-pipeline/`: the extra site status values, the provenance
+columns, the pipeline identity keys, the site fields, the research agenda, and
+RLS for everything added. See `docs/PIPELINE_MAPPING.md` for why each exists.
+
+There is real data waiting. `npm run test:load` already proves end to end, on a
+throwaway Postgres and with no Supabase project, that 93 sites, 125 entities and
+117 sources land in this schema correctly and that re-running the load changes
+nothing.
+
+CI runs both suites against Postgres 17 and 16 on every pull request, so the
+version Supabase actually runs is covered rather than assumed.
 
 The Supabase CLI is a devDependency, so `npx supabase ...` works without a
 global install.
@@ -28,29 +35,40 @@ global install.
 An agent session can only reach Supabase if the environment's network policy
 allows it. By default `supabase.com` and `api.supabase.com` are blocked, and the
 block is enforced by the proxy, so it cannot be worked around from inside a
-session. Two things are needed, both set on the environment at
-https://claude.ai/code and neither of which takes effect until a **new session**
-starts, because the proxy configuration is fixed when the container boots:
+session. Set both of the following on the environment at
+https://claude.ai/code. **Neither takes effect until a new session starts**,
+because the proxy configuration is fixed when the container boots.
 
-1. **Network policy**: allow `api.supabase.com` (the Management API and what the
-   CLI calls) and `supabase.com`. See
-   https://code.claude.com/docs/en/claude-code-on-the-web for how policies are
-   configured.
-2. **Access token**: set `SUPABASE_ACCESS_TOKEN` as an environment variable on
-   the environment, generated at
+1. **Network policy**: allow `api.supabase.com` and `supabase.com`, plus
+   `<ref>.supabase.co` (PostgREST, which is what the app reads),
+   `db.<ref>.supabase.co` and `aws-0-ap-southeast-2.pooler.supabase.com`.
+2. **Access token**: `SUPABASE_ACCESS_TOKEN`, generated at
    https://supabase.com/dashboard/account/tokens.
 
-On that token, one caution worth reading before you create it. A Supabase
-personal access token is **account wide**: it can create, modify and delete
-projects across every organisation you belong to, and Supabase does not offer a
-scoped-down variant. Set it as an environment secret rather than pasting it into
-a conversation, so it does not end up in a transcript. If you only want the
-project created once, revoke the token afterwards — nothing in this repository
-needs it at runtime, only the anon and service role keys do.
+### The constraint that is easy to miss
+
+**The agent proxy carries HTTPS only.** `supabase db push` and `psql` speak the
+Postgres wire protocol on port 5432 (6543 for the pooler), which is not HTTPS,
+so opening the network policy may still not let a session connect to the
+database directly.
+
+The route that should work is the Management API over HTTPS
+(`POST /v1/projects/{ref}/database/query`), which can carry both the migrations
+and the load artefact. If it does not, fall back to running steps 2 and 6 from a
+local clone — they are four commands — and let the session do the verification.
+Do not spend an afternoon fighting the proxy over it.
+
+### On the access token
+
+A Supabase personal access token is **account wide**: it can create, modify and
+delete projects across every organisation you belong to, and Supabase does not
+offer a scoped-down variant. Set it as an environment secret rather than pasting
+it into a conversation, so it does not end up in a transcript. Nothing in this
+repository needs it at runtime — only the anon and service role keys do — so it
+can be revoked once the project is stood up.
 
 If you would rather not grant that, creating the project by hand and supplying
-just the project URL and anon key achieves the same result with far less
-exposure.
+only the project URL and keys achieves the same result with far less exposure.
 
 ## 1. Create the project
 
@@ -58,9 +76,9 @@ At https://supabase.com/dashboard, create a project.
 
 - **Region**: Sydney (`ap-southeast-2`). The audience and the data are
   Australian, and it keeps records onshore.
-- **Plan**: the free tier is enough to start, but note that it has no
-  point-in-time recovery. `docs/DEPLOYMENT.md` requires PITR, which needs Pro.
-  Either upgrade before real data is loaded, or record the gap.
+- **Plan**: the free tier is enough to start, but it has no point-in-time
+  recovery. `docs/DEPLOYMENT.md` requires PITR, which needs Pro. Either upgrade
+  before real data is loaded, or record the gap.
 - Save the database password somewhere durable. It is shown once.
 
 ## 2. Apply the migrations
@@ -71,8 +89,13 @@ npx supabase link --project-ref <your-project-ref>
 npx supabase db push
 ```
 
-`supabase db push` applies `supabase/migrations` in order. It should report four
-migrations applied and no errors.
+`supabase db push` applies `supabase/migrations` in order. It should report
+**eleven** migrations applied and no errors.
+
+One thing not to worry about: `0005` adds values to the `site_status` enum, and
+a new enum value cannot be used in the same transaction that adds it. No later
+migration references those values — only the load artefact in step 6 does, and
+that is a separate transaction — so the push is safe however it wraps them.
 
 ## 3. Expose the schemas
 
@@ -90,8 +113,8 @@ Dashboard → **Settings → API → Exposed schemas**: add `facts` and `editori
 
 ## 4. Confirm the roles
 
-Supabase creates `anon`, `authenticated` and `service_role`. Migration 0004
-grants select to the first two and nothing else. Confirm with:
+Supabase creates `anon`, `authenticated` and `service_role`. Migrations `0004`
+and `0011` grant select to the first two and nothing else. Confirm with:
 
 ```sql
 select grantee, table_schema, table_name, privilege_type
@@ -105,7 +128,7 @@ something outside these migrations granted it.
 
 ## 5. Point the app at it
 
-Copy the URL and anon key from Settings → API into `.env.local`:
+Copy the URL and keys from Settings → API into `.env.local`:
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=https://<ref>.supabase.co
@@ -117,30 +140,80 @@ Only the anon key reaches the browser. The service role key bypasses RLS and
 belongs to ingestion jobs and edge functions alone — never to anything under
 `app/` or `components/`.
 
-Then `npm run dev`. The pages should switch from "no database connected" to
-empty lists, because the database is real and genuinely has nothing in it yet.
+At this point `npm run dev` shows empty lists rather than "no database
+connected", because the database is real and genuinely has nothing in it yet.
+Step 6 fixes that.
 
-## 6. Set the same variables in Netlify
+## 6. Load the research
+
+The migrations create an empty schema. The research lives in `data-pipeline/`
+and reaches Postgres as a reviewed SQL artefact — never by an agent writing
+directly to the database.
+
+```bash
+# The direct connection string, from Settings → Database.
+export DATABASE_URL="postgresql://postgres:<db-password>@db.<ref>.supabase.co:5432/postgres"
+
+npm run load:pipeline                 # writes .artifacts/load-pipeline.sql
+less .artifacts/load-pipeline.sql     # read it; this is the review step
+psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f .artifacts/load-pipeline.sql
+```
+
+If the direct connection is refused, use the pooler details from
+Settings → Database instead.
+
+The artefact is transactional and ends with assertions that roll the whole load
+back if any site arrives uncited, if any row carries a fabricated live capacity,
+or if any link was confirmed without a named human. It is idempotent, so
+applying it twice is safe — which is exactly what `npm run test:load` does to
+prove it.
+
+`npm run dev` should now show 93 sites on `/list`, each with its sources and a
+gap badge stating why every empty field is empty.
+
+### What stays empty on purpose
+
+Three things will look broken and are not. Each is a human act the schema
+deliberately refuses to perform on its own:
+
+- **Linked entities is blank.** Every derived link loads as `proposed`, and the
+  RLS policy in `0004` hides unconfirmed links from the public API. Derivation
+  is not publication.
+- **Entity profiles 404.** No entity carries `major_flag`, so nothing is
+  profiled until someone decides which entities are prominent enough. See
+  `docs/SPEC.md` "Entity profiles".
+- **The map is empty.** No site in the research has coordinates, and the map
+  says how many it could not place. Geocoding is curation work with a source per
+  point, not something an importer may invent.
+
+## 7. Set the same variables in Netlify
 
 Site configuration → Environment variables. Set `NEXT_PUBLIC_SUPABASE_URL` and
 `NEXT_PUBLIC_SUPABASE_ANON_KEY` for all contexts. Set
-`SUPABASE_SERVICE_ROLE_KEY` only if a build-time or function path needs it;
-the frontend does not.
+`SUPABASE_SERVICE_ROLE_KEY` only if a build-time or function path needs it; the
+frontend does not.
 
-## 7. Replace the hand-written types
+## 8. Replace the hand-written types
 
 `lib/types.ts` is maintained by hand and kept honest by the parity checks in
-`tests/schema.test.ts`. Once the project exists, generate them instead:
+`tests/schema.test.ts`, which now understand `alter type ... add value` as well
+as `create type`.
+
+Generating them instead is the goal, but note before trying: `supabase gen
+types --db-url` **requires a running Docker daemon**, which was verified by
+attempting it. Whether `--linked` avoids that is untested. `npm run db:types`
+currently passes `--local`, which needs Docker and a running local stack.
 
 ```bash
-supabase gen types typescript --linked --schema facts --schema editorial \
+npx supabase gen types typescript --linked --schema facts --schema editorial \
   > lib/database.types.ts
 ```
 
-Then re-point `lib/types.ts` at the generated `Database` type and delete the
-parity tests rather than maintaining them alongside a generator. Keep the
-hand-written domain types (`SiteWithEvidence`, `CitationWithSource`,
-`CaseStudyMetrics`) — those are application concepts, not table shapes.
+If that works, re-point `lib/types.ts` at the generated `Database` type and
+delete the parity tests rather than maintaining them alongside a generator. Keep
+the hand-written domain types (`SiteWithEvidence`, `CitationWithSource`,
+`CaseStudyMetrics`) — those are application concepts, not table shapes. If it
+does not work, leave the hand-written types alone; they are tested and correct.
 
 ## Verifying before you trust it
 
@@ -153,12 +226,26 @@ PGHOST=db.<ref>.supabase.co PGPORT=5432 PGUSER=postgres \
 ```
 
 This creates and drops a throwaway database on the instance, so it does not
-touch project data. If the connection is refused, use the pooler details from
-Settings → Database instead.
+touch project data.
+
+Then confirm, as the anon role, that the public view is what it should be:
+
+```sql
+set role anon;
+select count(*) from facts.sites;                          -- 93
+select count(*) from facts.sites where live_capacity_mw is not null;  -- 0
+select count(*) from facts.links;                          -- 0, all proposed
+select count(*) from facts.sites s where not exists (
+  select 1 from facts.citations c
+   where c.record_type = 'sites' and c.record_id = s.id);  -- 0, every site cited
+```
 
 ## What is still missing after this
 
 - **Point-in-time recovery** is a Pro feature. `docs/DEPLOYMENT.md` requires it.
 - **Weekly export of content tables** to object storage is not automated.
-- **The approved council list is still empty**, so no ingestion may run.
+- **The approved council list is still empty**, so no council ingestion may run.
   Candidates are in `docs/COUNCIL_CANDIDATES.md` awaiting sign-off.
+- **Coordinates**, so the map stays empty. A human-curated
+  `data-pipeline/data/inputs/site_coordinates.csv` with a method and source per
+  row is the route; the slot already exists.
