@@ -1,0 +1,264 @@
+{
+  "citations": [
+    {
+      "claim": null,
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "id": "8551bdaf-1ab7-4977-bc2a-9e350269443c",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source": {
+        "created_at": "2026-09-20T15:44:35.551877+00:00",
+        "credibility": "A",
+        "id": "03aca8e2-67ac-5c31-961a-16b58c0227b8",
+        "pipeline_id": "SRC_NSWPORTAL",
+        "publisher": "NSW Department of Planning, Housing and Infrastructure",
+        "retrieved_date": "2026-09-18",
+        "title": "Mamre Road Data Centre Campus - NSW Planning Portal major project page",
+        "type": "primary_planning_portal",
+        "updated_at": "2026-09-20T15:44:35.72955+00:00",
+        "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus"
+      },
+      "source_id": "03aca8e2-67ac-5c31-961a-16b58c0227b8"
+    },
+    {
+      "claim": null,
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "id": "c00a6c85-472c-47ac-b696-2d5febeba216",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source": {
+        "created_at": "2026-09-20T15:44:35.551877+00:00",
+        "credibility": "A",
+        "id": "548884d1-ba5d-5302-bc3b-e30c44c7c50f",
+        "pipeline_id": "SRC_NSW_IDA",
+        "publisher": "NSW Government - Treasurer, Minister for Industry and Trade, Minister for Planning and Public Spaces",
+        "retrieved_date": "2026-09-18",
+        "title": "NSW Government backs data centre investment, sets course for sustainable development (ministerial media release, 27 March 2026)",
+        "type": "primary_government",
+        "updated_at": "2026-09-20T15:44:35.72955+00:00",
+        "url": "https://www.nsw.gov.au/ministerial-releases/data-centre-investment-sustainable-development"
+      },
+      "source_id": "548884d1-ba5d-5302-bc3b-e30c44c7c50f"
+    },
+    {
+      "claim": null,
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "id": "f0943aba-3372-4d84-84c4-9510798b0457",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source": {
+        "created_at": "2026-09-20T15:44:35.551877+00:00",
+        "credibility": "A",
+        "id": "6a788fab-06d3-5204-a8e9-036d929ef019",
+        "pipeline_id": "SRC_NSWPORTAL_REGISTER",
+        "publisher": "NSW Department of Planning, Housing and Infrastructure",
+        "retrieved_date": "2026-09-18",
+        "title": "NSW Planning Portal major projects register - data centre State Significant Development records (46 projects harvested)",
+        "type": "primary_planning_portal",
+        "updated_at": "2026-09-20T15:44:35.72955+00:00",
+        "url": "https://www.planningportal.nsw.gov.au/major-projects/search?field_case_type_value=State+Significant+Development&combine=Data+Centre"
+      },
+      "source_id": "6a788fab-06d3-5204-a8e9-036d929ef019"
+    },
+    {
+      "claim": null,
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "id": "09b4750d-cb25-46f5-928e-9c2e4d4cd11c",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source": {
+        "created_at": "2026-09-20T15:44:35.551877+00:00",
+        "credibility": "A",
+        "id": "9948b903-cc6c-52bb-90f3-ab270a232d32",
+        "pipeline_id": "SRC_ABR_KNBDC",
+        "publisher": "Australian Business Register (ABR), Australian Business Number Lookup",
+        "retrieved_date": "2026-09-18",
+        "title": "ABN Lookup - KNBDC entity group (search results and individual records)",
+        "type": "primary_government",
+        "updated_at": "2026-09-20T15:44:35.72955+00:00",
+        "url": "https://abr.business.gov.au/Search/ResultsActive?SearchText=KNBDC"
+      },
+      "source_id": "9948b903-cc6c-52bb-90f3-ab270a232d32"
+    }
+  ],
+  "claimed": [
+    {
+      "confidence": "high",
+      "fact_status": "claimed",
+      "name": "AWS Australia (Sydney and Melbourne regions, 2025-29 build)",
+      "status": "under_construction"
+    },
+    {
+      "confidence": "high",
+      "fact_status": "claimed",
+      "name": "Microsoft Australia datacentre fleet (29 sites, 3 Azure regions)",
+      "status": "operating"
+    },
+    {
+      "confidence": "low",
+      "fact_status": "claimed",
+      "name": "Proposed ~1 GW WA renewable-powered data centre",
+      "status": "rumoured"
+    }
+  ],
+  "gaps": [
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "lat",
+      "id": "4314a9de-c8f1-45ac-bc4a-359a4cbfa81d",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "lng",
+      "id": "37649ef5-9849-4ff5-a920-7511bb7bb8a4",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "total_capacity_mw",
+      "id": "d5f955d8-b665-47b6-8063-6694c826f90d",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "live_capacity_mw",
+      "id": "357c030f-b739-4ed3-8b66-b4f890b057ec",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "cooling_type",
+      "id": "ae066441-dc79-49f3-95f1-006fbb8f2040",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "rack_density_kw",
+      "id": "b614c9c1-8252-447a-9034-c0909d945b1e",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "grid_connection",
+      "id": "af2c6783-7887-4111-b1be-81ffcd8a7aaf",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "water_usage",
+      "id": "81574d4c-1533-48db-aa2c-a2d3ea27b76b",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "address",
+      "id": "8819aaee-2489-443e-9d7b-62bedc22b49d",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "first_phase_mw",
+      "id": "55b865b0-d6ad-486d-b5cb-256c9c7d383f",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "operational_from",
+      "id": "0113c6e5-2bbc-415d-ac42-d4a8980385a5",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    },
+    {
+      "created_at": "2026-09-20T15:44:35.551877+00:00",
+      "field_name": "target_completion",
+      "id": "8792fa8e-e3e7-4628-93c4-9699d8bc9739",
+      "noted_date": "2026-09-20",
+      "reason": "unknown",
+      "record_id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+      "record_type": "sites",
+      "source_id": null
+    }
+  ],
+  "site": {
+    "address": null,
+    "as_of_date": "2026-09-18",
+    "campus_area_ha": 52,
+    "capital_cost_aud": 5000000000,
+    "confidence": "high",
+    "construction_jobs": 500,
+    "cooling_type": null,
+    "created_at": "2026-09-20T15:44:35.551877+00:00",
+    "fact_status": "verified",
+    "first_phase_mw": null,
+    "gfa_sqm": 245000,
+    "grid_connection": null,
+    "hcf_certified": "unknown",
+    "id": "0691fed7-7cd2-59bf-a3da-9ed8f67c2b7e",
+    "it_capacity_mw": 1000,
+    "lat": null,
+    "lga": "Penrith",
+    "live_capacity_mw": null,
+    "lng": null,
+    "market": "NEM",
+    "max_capacity_mw": 1200,
+    "name": "Mamre Road Data Centre Campus",
+    "notes": "NSW Planning Portal: 'Construction and operation of a data centre campus with a power capacity of 1 GW including six four-storey data centre buildings'. Proposal documents put power capacity at 1.2 GW. Six buildings, 728 cooling units, 846 diesel back-up generators, >18,000 kL diesel storage, lithium-ion batteries, ~22.4 million litres of water per year. Land held by IFM Investors (listed by ISPT as 'Summit'); AirTrunk reported as prospective buyer conditional on approval of the 1 GW application. The proponent SPV stack was incorporated between 3 April and 19 June 2025 in North Sydney and its sponsor is not publicly identified anywhere - a web search for 'KNBDC' returns zero results. EIS by Willowtree Planning, the same consultancy that appears on the Glendenning Road pre-application documents. First Australian project above 1 GW.",
+    "operational_from": null,
+    "operational_jobs": 500,
+    "operator": "KNBDC entity group (KNBDC AU Development / AU Financing Holdco / per-project trusts)",
+    "pipeline_id": "SITE_MAMRE_ROAD",
+    "proponent": "KNBDC SYD4 Pty Ltd (per NSW IDA Round 1); the ABR-resolved structure is The Trustee for KNBDC SYD4 Hold Trust / Land Trust / Intermediate Hold Trust, trustee NBDC Pty Ltd, above KNBDC AU Development Pty Ltd and KNBDC AU Financing Holdco Pty Ltd",
+    "rack_density_kw": null,
+    "state": "NSW",
+    "status": "lodged",
+    "suburb": "Kemps Creek",
+    "target_completion": null,
+    "total_capacity_mw": null,
+    "updated_at": "2026-09-20T15:44:35.72955+00:00",
+    "water_usage": null
+  }
+}

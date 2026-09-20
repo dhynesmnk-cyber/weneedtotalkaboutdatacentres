@@ -2,7 +2,7 @@
 
 Project: Australian AI Data Centre Observatory (working title)
 Purpose: single source of truth for AI coding agents working in this repo.
-Last reviewed: 2026-09-18
+Last reviewed: 2026-09-20
 Next review: 2026-10-01
 
 ## Project summary
@@ -12,12 +12,25 @@ versus research data.
 
 ## Hard rules
 - The database is the source of truth. The frontend never stores business data.
-- Use PostgreSQL via Supabase. Do not introduce a second database.
+- Use PostgreSQL via Supabase. It is the source of truth the website serves, and
+  no second serving database may be introduced.
+  One upstream store exists and is not an exception to this. `data-pipeline/` is
+  a SQLite research database: the curation tool where sources are gathered,
+  graded and checked before anything is loaded. It is the workshop; Postgres is
+  the shopfront. Nothing in `app/`, `components/` or `lib/` may read it, and it
+  reaches Postgres only through the reviewed load artefact described in
+  docs/PIPELINE_MAPPING.md.
 - Do not build scrapers for all Australian councils. Only the approved council
   list in docs/SPEC.md.
 - Do not build GIS overlays in v1. Point map only.
-- Every factual claim in published content must reference a source record.
+- Every factual claim in published content must reference a source record. A
+  record that cannot be cited is rejected, not imported uncited.
 - Mark missing data explicitly with a gap flag. Never infer or fabricate values.
+  A derived gap may only ever say `unknown`. A stronger reason is a claim about
+  the world and needs a human and a source.
+- Never fill a column from a neighbouring one that looks similar. The standing
+  example is `live_capacity_mw`, which is never populated from
+  `it_capacity_mw`: one is what is energised, the other a design rating.
 - Keep the fact layer and the editorial layer separate in data and in UI.
 - No agent publishes content. Humans approve publication.
 
@@ -33,7 +46,8 @@ versus research data.
 /components UI components
 /lib        typed data access and domain logic
 /supabase   migrations and edge functions
-/scripts    ingestion jobs
+/scripts    ingestion jobs and the pipeline loader
+/data-pipeline  upstream curation tool (Python, SQLite). Not read by the app.
 /docs       specs and process documents
 /tests      unit tests (vitest)
 
@@ -46,6 +60,7 @@ versus research data.
 
 ## Key documents
 docs/SPEC.md        product scope and data model
+docs/PIPELINE_MAPPING.md  how data-pipeline maps onto Postgres, and why
 docs/COUNCIL_CANDIDATES.md  unapproved council candidates, pending sign-off
 docs/UI.md          design system and page specs
 docs/REVIEW.md      editorial and code review checklists

@@ -156,6 +156,28 @@ This creates and drops a throwaway database on the instance, so it does not
 touch project data. If the connection is refused, use the pooler details from
 Settings → Database instead.
 
+## 8. Load the research
+
+The migrations create an empty schema. The research lives in `data-pipeline/`
+and is loaded by a reviewed SQL artefact:
+
+```bash
+npm run load:pipeline          # writes .artifacts/load-pipeline.sql
+less .artifacts/load-pipeline.sql   # read it; this is the review step
+psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f .artifacts/load-pipeline.sql
+```
+
+The artefact is transactional and ends with assertions that roll the whole load
+back if any site arrives uncited or any fabricated live capacity appears. It is
+idempotent, so applying it twice is safe and is exactly what `npm run test:load`
+does to prove it.
+
+Two things stay empty on purpose after loading, because both are human acts:
+every derived link is `proposed` and therefore invisible to the public API, so
+"linked entities" stays blank until someone confirms them; and no entity is
+flagged `major_flag`, so entity profiles 404 until someone decides which
+entities are prominent enough to profile.
+
 ## What is still missing after this
 
 - **Point-in-time recovery** is a Pro feature. `docs/DEPLOYMENT.md` requires it.
