@@ -122,6 +122,7 @@ au-dc-observatory/
     ├── cer_analysis.md           generated: the RG-009 verification audit, tests T1–T6
     ├── RG007_foi_strategy.md     five FOI request templates + four free parallel routes
     ├── AIRTRUNK_BCA_influence_audit.md   AirTrunk, the BCA, and Submission No 116 read closely
+    ├── palantir_australia_triage.md  UNVERIFIED LEADS: Palantir AU source triage, not database content
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
     └── build_report.md           generated: row counts, verification ledger, gap list
@@ -333,13 +334,21 @@ date we read the document; registering a source for a page nobody has opened wou
 fabrication the verification discipline exists to prevent. Palantir does not appear anywhere in the
 database and will not until the archive exists and is curated.
 
-Two open questions for whoever runs it first. **Relevance is assumed, not established**: Palantir
-fits the third group in the consultancy layer — systems integrators holding the government's own IT
-contracts, the group Tata Consultancy Services is the worked example of — but whether its
-Commonwealth contracts touch this Observatory's subject matter is the thing the archive would
-answer, not a premise. And the same target serves **RG-072** with `KEYWORD="tata consultancy"`,
-which is the gap that already names AusTender as the portal that must replace the GovMarket
-aggregator behind the $234.4M figure.
+The same target serves **RG-072** with `KEYWORD="tata consultancy"`, which is the gap that already
+names AusTender as the portal that must replace the GovMarket aggregator behind the $234.4M figure.
+
+A first pass at the Palantir leads is triaged in **`reports/palantir_australia_triage.md`** — also
+unverified, and marked as such, because no source in it could be fetched either. Three things in it
+bear on how the archive gets curated. The **relevance hook is hosting, not the customer roster**:
+Palantir Platform Australia is reported to run Foundry and AIP in **Australian AWS regions** after an
+IRAP PROTECTED assessment, which makes Palantir a demand-side tenant of hyperscaler capacity and ties
+to RG-013 and to Amazon's measured scope 2. A **name collision** will contaminate any keyword search:
+`palantirconsulting.com.au` is an unrelated Australian structural and façade engineering firm, so
+curation must disambiguate on ABN, never on the string. And a supplied roster of 13 entities proved
+both over- and under-inclusive — three entries rest only on buyer-intent or technographic vendors,
+while four real Commonwealth relationships (ASD, Veterans' Affairs, ACIC, and a buy.nsw supplier
+profile) were absent. That is the GovMarket failure again, which is the argument for the portal of
+record.
 
 ### Credentials in archived pages
 
