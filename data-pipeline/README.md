@@ -113,6 +113,7 @@ au-dc-observatory/
 ├── scrapers/ingest_nsw_dc.py         NSW Planning Portal register harvester (--harvest, --mods, --attachments)
 ├── scrapers/ingest_nsw_planning.py   NSW Planning Portal single-project archiver (polite, single-threaded)
 ├── scrapers/ingest_cer.py            Clean Energy Regulator NGERS / LGC / Safeguard fetcher
+├── scrapers/ingest_austender.py      AusTender keyword-search archiver — NEVER RUN LIVE, see its docstring
 ├── exports/australian_data_centre_observatory.db
 ├── exports/csv/*.csv             every table and view, one file each
 ├── viewer/index.html             dependency-free query console (reads viewer/db.json)
@@ -295,6 +296,9 @@ python3 scrapers/ingest_nsw_planning.py --project mamre-road-data-centre-campus
 python3 scrapers/ingest_nsw_planning.py --attachment "SSD-92743706!20260119T012428.711 GMT"
 python3 scrapers/ingest_cer.py --check        # is the Clean Energy Regulator reachable?
 python3 scrapers/ingest_cer.py --download     # landing pages + manifest, for human review
+python3 scrapers/ingest_austender.py --check                 # reachability + robots.txt
+python3 scrapers/ingest_austender.py --keyword palantir      # archive the search results
+python3 scrapers/ingest_austender.py --inspect               # offline: list archive, verify hashes
 
 # 2. Curate into a pack (see data/packs/EXAMPLE_pack.json for the exact shape)
 
@@ -303,9 +307,39 @@ python3 scripts/load_pack.py data/packs/my_pack.json --dry-run
 python3 scripts/load_pack.py data/packs/my_pack.json
 ```
 
-Both scrapers are single-threaded with a fixed delay, send a descriptive User-Agent identifying the
+All scrapers are single-threaded with a fixed delay, send a descriptive User-Agent identifying the
 project, and are designed to stop when asked. Public planning registers are a service, not a data
-vendor.
+vendor. `ingest_austender.py` additionally reads `robots.txt` and skips what it disallows, unless
+`--ignore-robots` is passed with a reason the operator can defend.
+
+### AusTender: added as a source, not yet read
+
+`scrapers/ingest_austender.py` was added for the Commonwealth portal of record, entered from the
+keyword search `https://www.tenders.gov.au/Search/KeywordSearch?keyword=palantir`. Two things about
+it are worth stating plainly, because neither is visible from the file listing.
+
+**It has never been run against the live site.** tenders.gov.au was unreachable from the
+environment it was written in (the egress proxy answered 403 to CONNECT), so nothing in it is a
+tested claim about AusTender's markup, pagination or URL shapes — unlike `ingest_cer.py` and
+`ingest_nsw_dc.py`, whose patterns were tested on 2026-09-18. It is built by discovery rather than
+by hard-coded structure: the only asserted URL is the search entry point above, and result and
+pagination links are read out of whatever HTML returns. `make check-austender` runs fixture tests
+over the link-discovery functions; those prove the parser handles the shapes it was written for,
+and prove nothing about whether AusTender uses them. **The first live run is a human review step.**
+
+**No Palantir data is in the database, and none should be inferred to be.** Nothing was fetched, so
+there is no archive, no source record and no fact. `sources.accessed` is `NOT NULL` and means the
+date we read the document; registering a source for a page nobody has opened would be exactly the
+fabrication the verification discipline exists to prevent. Palantir does not appear anywhere in the
+database and will not until the archive exists and is curated.
+
+Two open questions for whoever runs it first. **Relevance is assumed, not established**: Palantir
+fits the third group in the consultancy layer — systems integrators holding the government's own IT
+contracts, the group Tata Consultancy Services is the worked example of — but whether its
+Commonwealth contracts touch this Observatory's subject matter is the thing the archive would
+answer, not a premise. And the same target serves **RG-072** with `KEYWORD="tata consultancy"`,
+which is the gap that already names AusTender as the portal that must replace the GovMarket
+aggregator behind the $234.4M figure.
 
 ### Credentials in archived pages
 

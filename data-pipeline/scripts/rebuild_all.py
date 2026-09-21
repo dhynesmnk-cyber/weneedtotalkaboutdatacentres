@@ -55,11 +55,16 @@ def run(*args: str) -> None:
 def main(argv: list[str]) -> int:
     # Fail fast if a pack or curation script is wired into only one of the two drivers.
     run(PY, "scripts/check_packs.py")
+    # Offline parser fixtures for the AusTender scraper. Mirrors the Makefile's check-austender:
+    # a check only one driver runs is the drift check_packs.py exists to catch.
+    run(PY, "scrapers/ingest_austender.py", "--selftest")
 
     if "--fetch" in argv:
         run(PY, "scrapers/ingest_cer.py", "--check")
         run(PY, "scrapers/ingest_cer.py", "--years", CER_YEARS)
         run(PY, "scrapers/ingest_cer.py", "--registers")
+        # AusTender is NOT in --fetch: it has never been run against the live site, so its first
+        # run is a human review step, not part of an unattended rebuild. See `make fetch-austender`.
 
     run(PY, "scripts/build_db.py")
     run(PY, "scripts/analyse_cer.py")
