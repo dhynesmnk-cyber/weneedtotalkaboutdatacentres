@@ -268,8 +268,13 @@ select count(*) from facts.sites s where not exists (
 
 ## What is still missing after this
 
-- **Point-in-time recovery** is a Pro feature. `docs/DEPLOYMENT.md` requires it.
-- **Weekly export of content tables** to object storage is not automated.
+- **Point-in-time recovery** is a Pro feature and is not enabled, at $100 a
+  month on top of Pro. The gap is recorded in `docs/DEPLOYMENT.md` and
+  mitigated by a weekly export; the recovery point objective is one week.
+- **Weekly export** is automated in `.github/workflows/backup.yml`. It needs
+  `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as repository
+  secrets. It keeps 90 days of artifacts on GitHub rather than object storage,
+  so the backup and the code still share one provider.
 - **The approved council list is still empty**, so no council ingestion may run.
   Candidates are in `docs/COUNCIL_CANDIDATES.md` awaiting sign-off.
 - **Coordinates**, so the map stays empty. A human-curated

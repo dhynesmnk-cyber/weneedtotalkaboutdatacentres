@@ -49,6 +49,9 @@ hides it, and no entity is flagged as major until a human decides it is.
 | `npm run test:load` | Loads the research pipeline into a throwaway Postgres, twice, and asserts what a reader would see |
 | `npm run load:pipeline` | Emits the load artefact from `data-pipeline/` for review |
 | `npm run db:types` | Regenerate database types from the local Supabase stack |
+| `npm run backup:export` | Export both schemas to newline-delimited JSON with a manifest |
+| `npm run backup:verify` | Check an export against its own digests and row counts |
+| `npm run backup:restore` | Emit a reviewable restore artefact from an export |
 
 ## Layout
 
@@ -66,8 +69,12 @@ hides it, and no entity is flagged as major until a human decides it is.
 - `data-pipeline/` — the upstream curation tool (Python, SQLite): 93 sites, 125
   entities and 117 sources, every row graded and sourced. The app never reads
   it; it reaches Postgres through a reviewed SQL artefact.
+- `scripts/backup/` and `lib/backup/` — the weekly export, its manifest, and the
+  restore emitter. `tables.ts` classifies every table as rebuildable from
+  `data-pipeline/` or irreplaceable, which is what makes a free backup
+  defensible in place of point in time recovery. See `docs/DEPLOYMENT.md`.
 - `tests/` — unit tests for the financial calculations, the ingestion parser,
-  formatting, evidence resolution, and migration/type parity.
+  formatting, evidence resolution, migration/type parity, and the backup.
 - `docs/` — specification and process. Start with `docs/SPEC.md`.
 
 ## Before changing anything

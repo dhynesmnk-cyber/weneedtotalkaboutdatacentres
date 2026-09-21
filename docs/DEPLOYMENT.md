@@ -22,8 +22,10 @@ Step by step instructions are in docs/SUPABASE_SETUP.md. In summary:
 - Row Level Security is enabled on every table by migration 0004. Do not disable
   it to debug a query: an unfiltered read is the failure mode the policies exist
   to prevent.
-- Point in time recovery is a Pro plan feature. The backup policy below assumes
-  it. On the free tier, record the gap rather than assuming it is covered.
+- Point in time recovery is a Pro plan feature and is **not enabled**. The gap
+  is recorded under "Backups and recovery" below, along with the weekly export
+  that mitigates it. Do not assume a restore point exists for an arbitrary
+  moment: the most that can be recovered is the last weekly export.
 
 ## CI pipeline
 - lint, typecheck, unit tests, build on every pull request.
@@ -39,9 +41,78 @@ Step by step instructions are in docs/SUPABASE_SETUP.md. In summary:
   exclusively by ingestion jobs and edge functions, never in frontend code.
 
 ## Backups and recovery
-- Supabase point in time recovery enabled.
-- Weekly export of content tables to object storage.
-- Migration down scripts maintained for rollback.
+
+### The gap, stated plainly
+Point in time recovery is **off**. It costs $100 a month for seven days of
+retention on top of Pro, which is not proportionate to this project yet. The
+recovery point objective is therefore **one week**, not one second, and the
+recovery time objective is however long it takes a human to read and apply a
+restore artefact.
+
+Revisit this the moment curation starts in earnest. The calculation below turns
+on the curated tables being nearly empty; it stops holding once they are not.
+
+### What actually needs backing up
+Most of the fact layer is **derived**. `npm run load:pipeline` rebuilds it from
+`data-pipeline/`, which is SQLite committed to git, and the load is idempotent.
+Losing those rows costs one command.
+
+The rest is **curated**: confirmed links, coordinates, approved councils,
+aliases, the research agenda, and everything in `editorial`. Nothing can
+recreate these, because overriding derivation is what they exist to do.
+`lib/backup/tables.ts` classifies every table and says why, and
+`tests/backup/tables.test.ts` fails if a migration adds a table nobody
+classified.
+
+Two curated things hide inside derived tables and are listed in
+`CURATED_COLUMNS`: `facts.sites.lat/lng`, `facts.entities.major_flag`, and the
+confirmation columns on `facts.links`. They are why "just re-run the loader" is
+not a complete recovery.
+
+### The weekly export
+`.github/workflows/backup.yml` runs `npm run backup:export` every Sunday at
+19:00 UTC and uploads the result as a workflow artifact, kept for 90 days —
+about thirteen recovery points. It reads over PostgREST with the service role
+key, which bypasses RLS: a backup taken with the anon key would silently omit
+every proposed link and unapproved essay and still look complete.
+
+It needs two repository secrets, `NEXT_PUBLIC_SUPABASE_URL` and
+`SUPABASE_SERVICE_ROLE_KEY`, and the grant in migration `0012`. Without that
+grant the service role cannot read either schema at all and the export fails
+with `42501`.
+
+The artifact holds the whole database, `editorial` included. Anyone with read
+access to the repository can download it. That is acceptable for a private
+repository and would not be for a public one.
+
+### Restoring
+```bash
+# Unzip the artifact, then:
+npm run backup:verify  -- --out <dir>                    # digests and row counts
+npm run backup:restore -- --in <dir> --curated-only --out .artifacts/restore.sql
+less .artifacts/restore.sql                              # this is the review step
+psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f .artifacts/restore.sql
+```
+
+`--curated-only` is usually right: the derived tables come back faster and more
+trustworthily from `npm run load:pipeline`. Drop the flag to restore everything.
+
+Two properties worth knowing before you need them. The artefact **upserts** — it
+recovers lost or corrupted rows but does not remove rows created after the
+backup, so it does not rewind the database as a whole; restore into an empty
+database if that is what you want. And it is transactional, ending in row count
+assertions that roll the whole thing back if less arrived than the manifest
+promised.
+
+Verified end to end on 2026-09-21: a live export restored into a throwaway
+Postgres 16 reproduced 117 sources, 125 entities, 93 sites, 250 citations and
+1885 data gaps, and applying it twice changed nothing.
+
+### Still missing
+- Migration down scripts for rollback.
+- An off-GitHub copy. Today the backup and the code share one provider, so
+  losing the GitHub account loses both. A monthly manual download to somewhere
+  else closes most of that at no cost.
 
 ## Monitoring
 - Error tracking on frontend and edge functions.

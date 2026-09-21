@@ -15,7 +15,10 @@
     "db:reset": "supabase db reset",
     "db:types": "supabase gen types typescript --local --schema facts --schema editorial > lib/database.types.ts",
     "test:load": "./scripts/test-load.sh",
-    "load:pipeline": "tsx scripts/ingestion/load-pipeline.ts"
+    "load:pipeline": "tsx scripts/ingestion/load-pipeline.ts",
+    "backup:export": "tsx scripts/backup/export-database.ts",
+    "backup:verify": "tsx scripts/backup/export-database.ts --verify",
+    "backup:restore": "tsx scripts/backup/restore-database.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.5.2",
