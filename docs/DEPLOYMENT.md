@@ -104,9 +104,17 @@ database if that is what you want. And it is transactional, ending in row count
 assertions that roll the whole thing back if less arrived than the manifest
 promised.
 
-Verified end to end on 2026-09-21: a live export restored into a throwaway
-Postgres 16 reproduced 117 sources, 125 entities, 93 sites, 250 citations and
-1885 data gaps, and applying it twice changed nothing.
+Verified end to end on 2026-09-21, against the live database with the service
+role key. The export read 2529 rows; a restore into a throwaway Postgres 16
+reproduced 117 sources, 125 entities, 93 sites, 250 citations, 1885 data gaps
+and all 58 links, every one still `proposed`. Applying it twice changed nothing.
+In the restored database `anon` saw 0 links and 93 sites while `service_role`
+saw all 58, so the security model survives a restore rather than being flattened
+by it.
+
+The same export taken with the anon key returned 2471 rows and 0 links. That is
+the 58 row difference migration `0012` exists to close, and it is why a backup
+must not be taken through the public API.
 
 ### Still missing
 - Migration down scripts for rollback.

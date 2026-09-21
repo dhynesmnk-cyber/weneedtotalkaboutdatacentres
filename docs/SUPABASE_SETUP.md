@@ -12,24 +12,28 @@ procedure for rebuilding the project, or standing up a second one.
 
 ## Status
 
-The project exists, all eleven migrations are applied, and the research is
+The project exists, all twelve migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
 Verified as `anon` against the live database on 2026-09-21: 93 sites, 117
 sources, 125 entities, 1885 data gaps, 0 sites with a live capacity, 0 visible
 links, 0 uncited sites, 0 geocoded sites. PostgREST serves `facts` and
-`editorial`, and an anon insert is refused with `42501`.
+`editorial`, and an anon insert is refused with `42501`. As `service_role` the
+same database shows the 58 proposed links that RLS hides from the public API —
+the difference the weekly backup depends on.
 
 Nothing in the app depends on a project existing: every page renders an explicit
 "no database connected" state, and `npm run build` succeeds without
 credentials.
 
-There are **eleven** migrations. `0001`–`0004` create the two schemas, the ten
+There are **twelve** migrations. `0001`–`0004` create the two schemas, the ten
 original tables and Row Level Security. `0005`–`0011` widen the schema to hold
 the research in `data-pipeline/`: the extra site status values, the provenance
 columns, the pipeline identity keys, the site fields, the research agenda, and
-RLS for everything added. See `docs/PIPELINE_MAPPING.md` for why each exists.
+RLS for everything added. `0012` grants the service role select on both schemas,
+without which ingestion jobs, edge functions and the weekly backup cannot read a
+row. See `docs/PIPELINE_MAPPING.md` for why each exists.
 
 `npm run test:load` proves end to end, on a throwaway Postgres and with no
 Supabase project, that 93 sites, 125 entities and 117 sources land in this
@@ -116,7 +120,7 @@ npx supabase db push
 ```
 
 `supabase db push` applies `supabase/migrations` in order. It should report
-**eleven** migrations applied and no errors.
+**twelve** migrations applied and no errors.
 
 One thing not to worry about: `0005` adds values to the `site_status` enum, and
 a new enum value cannot be used in the same transaction that adds it. No later
