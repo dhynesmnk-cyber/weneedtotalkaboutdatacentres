@@ -3,15 +3,27 @@
 How to create the Supabase project, apply the schema, and load the research.
 
 The migrations apply cleanly to real Postgres and the behavioural suites pass
-against them, so the schema is known to work. What follows is the project
-creation and linking, which needs an account and cannot be done from an agent
-session.
+against them, so the schema is known to work. Creating the project needs an
+account and cannot be done from an agent session; applying the migrations and
+loading the research can be, over the Management API, as described below.
+
+This has been done once already — see Status. What follows is kept as the
+procedure for rebuilding the project, or standing up a second one.
 
 ## Status
 
-No Supabase project exists yet. Nothing in the app depends on one: every page
-renders an explicit "no database connected" state, and `npm run build` succeeds
-without credentials.
+The project exists, all eleven migrations are applied, and the research is
+loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
+what remains is listed under "What is still missing after this".
+
+Verified as `anon` against the live database on 2026-09-21: 93 sites, 117
+sources, 125 entities, 1885 data gaps, 0 sites with a live capacity, 0 visible
+links, 0 uncited sites, 0 geocoded sites. PostgREST serves `facts` and
+`editorial`, and an anon insert is refused with `42501`.
+
+Nothing in the app depends on a project existing: every page renders an explicit
+"no database connected" state, and `npm run build` succeeds without
+credentials.
 
 There are **eleven** migrations. `0001`–`0004` create the two schemas, the ten
 original tables and Row Level Security. `0005`–`0011` widen the schema to hold
@@ -19,10 +31,11 @@ the research in `data-pipeline/`: the extra site status values, the provenance
 columns, the pipeline identity keys, the site fields, the research agenda, and
 RLS for everything added. See `docs/PIPELINE_MAPPING.md` for why each exists.
 
-There is real data waiting. `npm run test:load` already proves end to end, on a
-throwaway Postgres and with no Supabase project, that 93 sites, 125 entities and
-117 sources land in this schema correctly and that re-running the load changes
-nothing.
+`npm run test:load` proves end to end, on a throwaway Postgres and with no
+Supabase project, that 93 sites, 125 entities and 117 sources land in this
+schema correctly and that re-running the load changes nothing. That is the
+check to run before loading anything into the hosted project, and it needs no
+credentials.
 
 CI runs both suites against Postgres 17 and 16 on every pull request, so the
 version Supabase actually runs is covered rather than assumed.
@@ -52,11 +65,24 @@ Postgres wire protocol on port 5432 (6543 for the pooler), which is not HTTPS,
 so opening the network policy may still not let a session connect to the
 database directly.
 
-The route that should work is the Management API over HTTPS
-(`POST /v1/projects/{ref}/database/query`), which can carry both the migrations
-and the load artefact. If it does not, fall back to running steps 2 and 6 from a
-local clone — they are four commands — and let the session do the verification.
-Do not spend an afternoon fighting the proxy over it.
+**Confirmed on 2026-09-21, both halves.** `pg_isready` against
+`db.<ref>.supabase.co:5432`, the pooler on `:6543` and the pooler on `:5432` all
+report `no response`, so `psql` and `supabase db push` genuinely cannot run from
+a session. The Management API over HTTPS
+(`POST /v1/projects/{ref}/database/query`) does work, returns `201`, and carried
+both the migrations and the load artefact — the whole 407 KB artefact in a
+single request, in under seven seconds, so its transaction and its rollback
+assertions stayed intact. Send the migrations one file per request, in order, so
+that `0005` adds its enum values in a transaction of its own.
+
+The Management API applies SQL outside the CLI's knowledge, so it leaves
+`supabase_migrations.schema_migrations` empty and a later `supabase db push`
+would try to re-apply everything. Backfill that table when you use this route;
+it has been backfilled with `0001`-`0011`.
+
+If the route ever stops working, fall back to running steps 2 and 6 from a local
+clone — they are four commands — and let the session do the verification. Do not
+spend an afternoon fighting the proxy over it.
 
 ### On the access token
 
