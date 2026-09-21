@@ -120,6 +120,65 @@ Times (Defence limited tender; AUSTRAC $5.06m), ARN ($8.1m AUSTRAC extension), i
 *Information Age* (Coles), InnovationAus (Defence IIC), *The IJF* (Defence licences at a reported
 $7.4m per year), ACS *Information Age* (Victorian COVID data, 2022).
 
+## Assessed source: Iliadis & Acker (2022), read in full
+
+**The first Palantir source in this thread that was actually read**, rather than summarised from a
+search index. Supplied as a PDF, extracted with pypdf: 65 pages, 123,472 characters, **no page
+yielded zero text**, so the extraction is sound and the extraction_audit failure mode does not
+apply here.
+
+> Iliadis, A., & Acker, A. (2022). The seer and the seen: Surveying Palantir's surveillance
+> platform. *The Information Society*, 38(5). SSRN preprint 4129583, authored copy dated
+> 6 June 2022.
+
+Peer-reviewed journal article, so `doc_type` **academic**, credibility **B** — secondary analysis,
+graded by document class, not by quality. It is good work; grade A is for primary documents.
+
+**Method and findings.** A purposive corpus of **155 Palantir patents** containing the word
+"ontology", scraped from Google Patents as at 25 August 2020: 5,197 pages, >2.5 million words.
+Preprocessed, POS-tagged, named-entity-recognised, then Latent Dirichlet Allocation topic
+modelling into 20 topics, which the authors reduced to three themes — preemptive decision making;
+leveraging metadata, ontologies and semantic technologies; and labeling human traces and actions.
+**Only 51 of 155 patents were granted.** Filing jurisdictions: 117 US, 31 EPO, 4 Germany, and one
+each from Australia, the UK and the Netherlands.
+
+### Verdict: out of scope for the fact layer
+
+Checked directly against the extracted text rather than assumed:
+
+| Term | Occurrences |
+|---|---|
+| "data centre" / "data center" | **0** |
+| energy, electricity | **0** |
+| hosting | **0** |
+| cloud | 4 |
+| AWS | 1 |
+| Amazon | 8 |
+| Australia | **1** |
+
+The single Australia mention is a **patent filing-jurisdiction count** — one of 155 patents filed
+via Australia. None of the Amazon mentions concerns hosting: they are Amazon-as-platform-company,
+or citations to Delfanti & Frey on Amazon patents and West on "surveillance as a service".
+
+**One trap worth naming.** "Infrastructure" and "infrastructuring" appear **64 times**, and a
+keyword scan would read that as relevance. It is not. The paper's Discussion uses infrastructuring
+in the Science and Technology Studies sense — metadata standards, ontologies and classification as
+*information* infrastructure, following Karasti and Bloomberg. It is about semantic infrastructure,
+not physical plant. Nothing in it bears on a building, a substation or a cooling system.
+
+So this paper supports **no row in the fact layer**. What it can legitimately do:
+
+1. **Characterise Palantir as an entity**, with a citable peer-reviewed description of what the
+   firm's technology actually is, if Palantir ever enters `entities` — which, per the scope
+   question above, depends on the AWS-region hosting finding, not on this paper.
+2. **Serve the editorial layer**, which CLAUDE.md keeps separate from facts in data and in UI. This
+   is a good editorial source and a poor factual one.
+3. **Offer a transferable method.** "Patents as a data source" is the paper's own framing, and the
+   same approach — corpus, topic model, themes — would apply to the data centre operators this
+   project does track, whose cooling, power-management and water-recovery patents are public and
+   would speak to engineering claims the project currently has to take at face value. That is a
+   research-agenda idea, not a finding, and is recorded here as such.
+
 ## What must happen before any of this is loaded
 
 1. Archive the primary records with `scrapers/ingest_austender.py` — which **has never been run
