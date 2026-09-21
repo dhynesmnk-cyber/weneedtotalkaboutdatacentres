@@ -72,19 +72,61 @@ with derived applicant information, across up to 40 tables. IPGOD has been **sup
 RAPID**, a weekly-updated release of the same product. That is `primary_government`, credibility
 **A**, versus a scrape of a commercial search interface.
 
-One limitation to plan around: IPGOD/IP RAPID is **bibliographic and process data** — who filed
-what, when, and what happened to it. Topic modelling needs the *text* of the specification. So
-acquisition is two-stage:
+**Correction to an earlier draft of this document.** It said IPGOD carries only bibliographic and
+process data, so that specification text would have to come from a second source. That was wrong
+and it changed the plan for the worse. IPGOD's published table list includes:
 
-1. **IP RAPID / IPGOD** (data.gov.au) to resolve the assignee and filing layer — which is also the
-   cheapest way to test the finding above properly, by counting filings per operator against the
-   register rather than against a search engine.
-2. **AusPat** (`ipsearch.ipaustralia.gov.au/patents/`), EPO OPS or USPTO bulk for full specification
-   text, for whichever subset stage 1 says is worth reading.
+| Table | Contents |
+|---|---|
+| IPGOD 101 | Patents summary |
+| IPGOD 102 | Patents **applicant** information |
+| IPGOD 103 | Patents application information |
+| IPGOD 107 | Patents process information |
+| IPGOD 122B | Patents **abstract** information |
 
-No scraper was written for either. There is already one never-run scraper in this repo
-(`ingest_austender.py`); adding a second untested one would be speculative machinery. Acquisition
-should be built by whoever can test it against the live source.
+122B is abstract *text*. Abstracts are a standard and defensible corpus for patent topic
+modelling, so **one primary source covers both stages** — 102 for the filing count, 122B for the
+topic model — and neither requires scraping a commercial search interface. Full specification text
+from AusPat, EPO OPS or USPTO bulk becomes an optional third stage, for whichever subset turns out
+to be worth reading closely, rather than a prerequisite.
+
+Acquisition is still not built, and deliberately: every IP Australia and data.gov.au endpoint is
+blocked from here, so a fetcher could not be tested. There is already one never-run scraper in
+this repo (`ingest_austender.py`) and a second would be speculative machinery. Download the
+extract by hand from data.gov.au; the analysis scripts read local files and never fetch.
+
+## Stage 1 is built, and cannot be run here
+
+`scripts/count_patent_filings.py` takes an IPGOD 102 / IP RAPID applicant extract and counts
+distinct filings per tracked operator. **It has not produced a count, because the extract cannot
+be downloaded from this environment.** No number in this document comes from IP Australia.
+
+The counting is trivial. The real problem is **name matching**, and the project has already
+recorded what failure looks like there: `SRC_GOVMARKET_TCS` is graded C precisely because the
+aggregator "consolidates 14 spelling variants of the TCS name into one master entity", and its
+totals are inflated by a duplicate. Silent consolidation is the defect.
+
+So the script refuses to do it:
+
+- The match table is built **from the database only** — `entities.name`, `entities.legal_name` and
+  the human-curated `entity_aliases`. It invents no names. Against the current database that is 31
+  name forms for the 25 site-holding entities.
+- A row counts only on an **exact match after conservative normalisation** — case, punctuation, and
+  trailing legal-form suffixes, so "NEXTDC Limited" meets "NextDC Ltd."
+- Anything that merely shares a leading word is reported as a **candidate for human review** and
+  counted nowhere. `Nextdc Holdings Pty Ltd` does not become NEXTDC. Promoting a candidate is a
+  human act recorded in `entity_aliases`, exactly as `lga_aliases` works for councils.
+- Consequently **the counts are a floor, not a total**, and the generated report says so on its
+  face.
+
+The IPGOD column names could not be verified either, so rather than hard-code a guess the script
+detects the applicant and application-number columns from the header, prints what it chose, and
+takes `--name-col` / `--id-col` overrides.
+
+`make check-filings` covers this with fixtures, including the load-bearing negative: a near-miss
+name must not be absorbed into a tracked entity. It also asserts that repeated application numbers
+are deduplicated, since an applicant table has one row per applicant per application and a
+two-applicant filing would otherwise count twice.
 
 ## What was built and what it proves
 
@@ -132,6 +174,14 @@ These are the method's actual content, and none has a default worth guessing:
 
 ## Next step
 
-Resolve design decision 1, then acquire stage-1 data from IP RAPID and count filings per operator
-against the register. That single count either confirms or overturns the finding at the top of this
-document, and it is cheap. Everything else depends on it.
+Download IPGOD 102 (or the IP RAPID equivalent) from data.gov.au and run:
+
+```bash
+python3 scripts/count_patent_filings.py --extract <file> --out reports/patent_filings.md
+```
+
+That single count either confirms or overturns the finding at the top of this document. Read the
+review-candidate list before believing the totals: if it is long, the floor is well below the
+truth and the gap is `entity_aliases` work, not a finding about patenting behaviour.
+
+Then resolve design decision 1 and pull IPGOD 122B abstracts for the assignees that survive.

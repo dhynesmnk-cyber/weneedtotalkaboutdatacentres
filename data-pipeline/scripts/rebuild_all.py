@@ -87,6 +87,8 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_status.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
+    # Needs the built database for its match table, so it runs after the packs load.
+    run(PY, "scripts/count_patent_filings.py", "--selftest")
     run(PY, "scripts/extraction_audit.py")
     run(PY, "scripts/gen_dictionary.py")
     # CSV export runs LAST and verifies itself. build_db.py also writes CSVs, but it

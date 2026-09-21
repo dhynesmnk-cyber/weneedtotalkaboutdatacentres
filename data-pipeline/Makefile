@@ -35,9 +35,9 @@ CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs check-export check-packs check-austender check-patents reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
-all: check-packs check-austender check-patents build verify load docs
+all: check-packs check-austender check-patents build verify load check-filings docs
 
 check-packs:
 	$(PY) scripts/check_packs.py
@@ -52,6 +52,11 @@ check-austender:
 # truth, and it fails if the sampler is broken - verified by mutation. See reports/PATENT_METHOD.md.
 check-patents:
 	$(PY) scripts/analyse_patents.py --selftest
+
+# Fixture tests for the filings counter, including the one that matters: a near-miss name is NOT
+# silently absorbed into a tracked entity. Reads the database for the match table; writes nothing.
+check-filings:
+	$(PY) scripts/count_patent_filings.py --selftest
 
 # Re-extract the archived consent PDFs with pypdf (offline; sha256-verified against the fetch manifests)
 reextract-consents:
