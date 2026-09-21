@@ -1,0 +1,81 @@
+name: Weekly backup
+
+# The backup policy in docs/DEPLOYMENT.md asks for point in time recovery, which
+# is a Supabase Pro add-on at $100 a month and is not enabled. This is the
+# recorded mitigation, not a replacement: it captures the state of both schemas
+# once a week, where PITR would let you rewind to any second.
+#
+# What makes that trade acceptable is that most of the fact layer is derived.
+# scripts/ingestion/load-pipeline.ts rebuilds it from data-pipeline/, which is
+# committed to git, so the exposure is limited to the curated rows — confirmed
+# links, coordinates, approved councils, essays — and those change rarely and
+# are small. lib/backup/tables.ts says which is which and why.
+
+on:
+  schedule:
+    # 19:00 UTC Sunday, which is early Monday in Sydney: a week's curation is
+    # captured before anyone starts changing things again.
+    - cron: '0 19 * * 0'
+  workflow_dispatch:
+
+# Never run two exports at once. Two jobs writing the same artifact name is a
+# race whose loser is silently discarded.
+concurrency:
+  group: backup
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    # A backup that hangs is a backup that has failed; fail it loudly instead.
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      # The catalogue in lib/backup/tables.ts is what the export treats as
+      # "everything". If a migration has added a table nobody classified, this
+      # fails here rather than producing a backup with a hole in it.
+      - name: Check the backup catalogue covers every table
+        run: npx vitest run tests/backup
+
+      - name: Export
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          # Bypasses RLS by design: proposed links and unapproved essays are
+          # invisible to the anon key, and they are exactly what must not be
+          # missed. Needs the grant from migration 0012.
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npm run backup:export -- --out backup
+
+      # The export checks itself against its own manifest before it exits, but
+      # re-checking the files that are about to be uploaded catches anything
+      # that went wrong between writing and here.
+      - name: Verify
+        run: npm run backup:verify -- --out backup
+
+      - name: Summary
+        run: |
+          {
+            echo '```'
+            npm run --silent backup:verify -- --out backup
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backup-${{ github.run_id }}
+          path: backup/
+          # The ceiling GitHub allows. A weekly backup kept for 90 days is
+          # about thirteen recovery points; anything older is gone, which is
+          # the main thing this gives up against PITR.
+          retention-days: 90
+          if-no-files-found: error

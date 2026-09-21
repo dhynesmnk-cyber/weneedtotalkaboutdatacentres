@@ -11,7 +11,7 @@ factual claim references a source record, and every gap states why it is a gap.
 
 ```bash
 npm install
-cp .env.example .env.local   # fill in once a Supabase project exists
+cp .env.example .env.local   # keys from Supabase → Settings → API
 npm run dev
 ```
 
@@ -19,14 +19,22 @@ The app runs without a database and says so. Pages render an explicit "no
 database connected" state rather than sample data, because placeholder figures
 in an observatory about data centre capacity could be mistaken for findings.
 
-There is real data to load. `data-pipeline/` holds the research — 93 sites, 117
-sources — and `npm run test:load` proves end to end that it lands in this schema
-correctly, on a throwaway Postgres, with no Supabase project required. What is
-still missing is the hosted project itself; see `docs/SUPABASE_SETUP.md`.
+The hosted database is up. The Supabase project is in Sydney
+(`ap-southeast-2`), all twelve migrations are applied, and the research from
+`data-pipeline/` is loaded: 93 sites, 117 sources, 125 entities, every site
+cited and no site carrying an invented live capacity. Fill in `.env.local` and
+the pages show real records. See `docs/SUPABASE_SETUP.md` for how it was stood
+up and what remains.
+
+`npm run test:load` still proves the same load end to end on a throwaway
+Postgres with no Supabase project required, which is the check to run before
+loading a correction.
 
 No site has coordinates yet, so the map stays empty and says how many sites it
 could not place. Geocoding them is human curation work with a source per point,
-not something an importer may invent.
+not something an importer may invent. Linked entities are blank and entity
+profiles 404 for the same reason: every derived link loads as `proposed` and RLS
+hides it, and no entity is flagged as major until a human decides it is.
 
 ## Commands
 
@@ -41,6 +49,9 @@ not something an importer may invent.
 | `npm run test:load` | Loads the research pipeline into a throwaway Postgres, twice, and asserts what a reader would see |
 | `npm run load:pipeline` | Emits the load artefact from `data-pipeline/` for review |
 | `npm run db:types` | Regenerate database types from the local Supabase stack |
+| `npm run backup:export` | Export both schemas to newline-delimited JSON with a manifest |
+| `npm run backup:verify` | Check an export against its own digests and row counts |
+| `npm run backup:restore` | Emit a reviewable restore artefact from an export |
 
 ## Layout
 
@@ -58,8 +69,12 @@ not something an importer may invent.
 - `data-pipeline/` — the upstream curation tool (Python, SQLite): 93 sites, 125
   entities and 117 sources, every row graded and sourced. The app never reads
   it; it reaches Postgres through a reviewed SQL artefact.
+- `scripts/backup/` and `lib/backup/` — the weekly export, its manifest, and the
+  restore emitter. `tables.ts` classifies every table as rebuildable from
+  `data-pipeline/` or irreplaceable, which is what makes a free backup
+  defensible in place of point in time recovery. See `docs/DEPLOYMENT.md`.
 - `tests/` — unit tests for the financial calculations, the ingestion parser,
-  formatting, evidence resolution, and migration/type parity.
+  formatting, evidence resolution, migration/type parity, and the backup.
 - `docs/` — specification and process. Start with `docs/SPEC.md`.
 
 ## Before changing anything
