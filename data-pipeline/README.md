@@ -107,6 +107,7 @@ au-dc-observatory/
 ├── scripts/reextract_consents.py pypdf re-extraction of the archived consent PDFs (sha256-verified, offline)
 ├── scripts/finalize_docs.py      regenerates build_report.md + viewer/db.json from the LOADED database
 ├── scripts/check_packs.py        fails the build if any pack/curation script is wired into only one driver
+├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
 ├── scripts/load_pack.py          validated loader for curated packs (writes ingest_log)
 ├── scripts/gen_dictionary.py     regenerates reports/DATA_DICTIONARY.md from the live schema
@@ -123,6 +124,7 @@ au-dc-observatory/
     ├── RG007_foi_strategy.md     five FOI request templates + four free parallel routes
     ├── AIRTRUNK_BCA_influence_audit.md   AirTrunk, the BCA, and Submission No 116 read closely
     ├── palantir_australia_triage.md  UNVERIFIED LEADS: Palantir AU source triage, not database content
+    ├── PATENT_METHOD.md          the Iliadis & Acker patent method transplanted: what it can and cannot answer here
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
     └── build_report.md           generated: row counts, verification ledger, gap list
