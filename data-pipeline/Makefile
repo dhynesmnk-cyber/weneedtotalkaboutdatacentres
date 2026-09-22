@@ -4,6 +4,8 @@
 #                   and export + verify exports/csv/
 #   make check-export   verify the committed CSVs match the database (no writes)
 #   make fetch-cer  download Clean Energy Regulator datasets into data/raw/cer/
+#   make fetch-austender  archive an AusTender keyword search into data/raw/austender/
+#                         (KEYWORD=palantir by default; needs network, see the scraper docstring)
 #   make verify     re-run the CER verification analysis and rewrite its pack
 #   make clean      remove generated artefacts (never touches data/raw/ or the packs)
 #
@@ -29,13 +31,32 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/rg079_determinations.json \
                       data/packs/status_updates.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
+# AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
+# same target serves RG-072 with KEYWORD="tata consultancy".
+KEYWORD ?= palantir
 
-.PHONY: all build verify load docs check-export check-packs reextract-consents battery-offline fetch-cer fetch-registers query unverified clean
+.PHONY: all build verify load docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
-all: check-packs build verify load docs
+all: check-packs check-austender check-patents build verify load check-filings docs
 
 check-packs:
 	$(PY) scripts/check_packs.py
+
+# Offline fixture tests for the AusTender link-discovery parser. In `all` on the repo's own
+# lesson from check_packs.py: a check no driver runs is a check that silently rots. Proves the
+# parser handles the shapes it was written for, NOT that those shapes match AusTender.
+check-austender:
+	$(PY) scrapers/ingest_austender.py --selftest
+
+# Planted-topic recovery test for the LDA sampler in scripts/analyse_patents.py. Real ground
+# truth, and it fails if the sampler is broken - verified by mutation. See reports/PATENT_METHOD.md.
+check-patents:
+	$(PY) scripts/analyse_patents.py --selftest
+
+# Fixture tests for the filings counter, including the one that matters: a near-miss name is NOT
+# silently absorbed into a tracked entity. Reads the database for the match table; writes nothing.
+check-filings:
+	$(PY) scripts/count_patent_filings.py --selftest
 
 # Re-extract the archived consent PDFs with pypdf (offline; sha256-verified against the fetch manifests)
 reextract-consents:
@@ -99,6 +120,13 @@ fetch-cer:
 
 fetch-registers:
 	$(PY) scrapers/ingest_cer.py --registers
+
+# AusTender contract notices - the portal of record RG-072 needs in place of the GovMarket
+# aggregator. Never run against the live site (see the scraper docstring): --check first, then
+# read the archived HTML before anything is curated from it.
+fetch-austender:
+	$(PY) scrapers/ingest_austender.py --check
+	$(PY) scrapers/ingest_austender.py --keyword "$(KEYWORD)" --follow
 
 query:
 	$(PY) scripts/query.py --list

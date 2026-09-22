@@ -55,11 +55,19 @@ def run(*args: str) -> None:
 def main(argv: list[str]) -> int:
     # Fail fast if a pack or curation script is wired into only one of the two drivers.
     run(PY, "scripts/check_packs.py")
+    # Offline parser fixtures for the AusTender scraper. Mirrors the Makefile's check-austender:
+    # a check only one driver runs is the drift check_packs.py exists to catch.
+    run(PY, "scrapers/ingest_austender.py", "--selftest")
+    # Planted-topic recovery test for the patent topic model. Same reasoning: both drivers or
+    # neither. Does not touch the database - analyse_patents.py only ever writes a report.
+    run(PY, "scripts/analyse_patents.py", "--selftest")
 
     if "--fetch" in argv:
         run(PY, "scrapers/ingest_cer.py", "--check")
         run(PY, "scrapers/ingest_cer.py", "--years", CER_YEARS)
         run(PY, "scrapers/ingest_cer.py", "--registers")
+        # AusTender is NOT in --fetch: it has never been run against the live site, so its first
+        # run is a human review step, not part of an unattended rebuild. See `make fetch-austender`.
 
     run(PY, "scripts/build_db.py")
     run(PY, "scripts/analyse_cer.py")
@@ -79,6 +87,8 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_status.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
+    # Needs the built database for its match table, so it runs after the packs load.
+    run(PY, "scripts/count_patent_filings.py", "--selftest")
     run(PY, "scripts/extraction_audit.py")
     run(PY, "scripts/gen_dictionary.py")
     # CSV export runs LAST and verifies itself. build_db.py also writes CSVs, but it

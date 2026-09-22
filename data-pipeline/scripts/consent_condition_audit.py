@@ -47,6 +47,12 @@ from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
+sys.path.insert(0, ROOT)
+
+# The date a human read the source, not the date --pack last ran. Pinned for the
+# same reason as in analyse_cer.py: sources.accessed means someone opened the
+# document, so it must not move when only the local archive is reprocessed.
+from data.seed_data import ACCESSED  # noqa: E402
 
 from pdf_text import extract, yield_stats, LowYieldWarning  # noqa: E402
 from reextract_consents import parse_execution, signatory  # noqa: E402
@@ -380,7 +386,7 @@ def main(argv: list[str]) -> int:
         pack = {
             "pack_id": "rg060-consent-conditions",
             "prepared_by": "scripts/consent_condition_audit.py",
-            "prepared_on": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "prepared_on": ACCESSED,
             "sources": [dict(
                 id=SRC,
                 title="Signed development consents for determined NSW data centre State Significant "
@@ -389,7 +395,7 @@ def main(argv: list[str]) -> int:
                 url="https://www.planningportal.nsw.gov.au/major-projects/search?"
                     "field_case_type_value=State+Significant+Development&combine=Data+Centre",
                 doc_type="primary_planning_portal", published=None, credibility="A",
-                accessed=datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                accessed=ACCESSED,
                 notes=f"{len(rows)} consent documents downloaded from the portal's public attachment "
                       f"endpoints and archived under data/raw/nsw_planning/consents/ with SHA-256 manifests and "
                       f"per-document extraction yield statistics. {len(reliable)} extracted above the "
@@ -400,20 +406,20 @@ def main(argv: list[str]) -> int:
                       f"parsed per document; matrix at exports/nsw_planning/nsw_dc_consent_conditions.csv.")],
             "rows": {
                 "metrics": [
-                    dict(as_of=datetime.now(timezone.utc).strftime("%Y-%m"), scope="NSW",
+                    dict(as_of=ACCESSED[:7], scope="NSW",
                          metric_name="consents_analysed_reliably", value=float(len(reliable)), unit="count",
                          basis="actual",
                          notes="Signed consents extracted above the reliability floor, so their negative "
                                "findings are safe to rely on.",
                          fact_status="VERIFIED", confidence="high",
-                         as_of_date=datetime.now(timezone.utc).strftime("%Y-%m-%d"), source_id=SRC),
-                    dict(as_of=datetime.now(timezone.utc).strftime("%Y-%m"), scope="NSW",
+                         as_of_date=ACCESSED, source_id=SRC),
+                    dict(as_of=ACCESSED[:7], scope="NSW",
                          metric_name="consents_extraction_limited", value=float(len(lowyield)), unit="count",
                          basis="actual",
                          notes="Consents whose text extraction fell below the reliability floor. Recorded so "
                                "that nobody treats a keyword miss in them as evidence of absence.",
                          fact_status="VERIFIED", confidence="high",
-                         as_of_date=datetime.now(timezone.utc).strftime("%Y-%m-%d"), source_id=SRC),
+                         as_of_date=ACCESSED, source_id=SRC),
                 ],
                 "research_gaps": [],
             },
@@ -423,12 +429,12 @@ def main(argv: list[str]) -> int:
                   "website_disclosure", "guidelines_cited"):
             n = sum(1 for r in reliable if r.get(k))
             pack["rows"]["metrics"].append(dict(
-                as_of=datetime.now(timezone.utc).strftime("%Y-%m"), scope="NSW",
+                as_of=ACCESSED[:7], scope="NSW",
                 metric_name=f"consents_with_{k}", value=float(n), unit="count", basis="actual",
                 notes=f"Of {len(reliable)} reliably-extracted signed consents for determined NSW data centre "
                       f"SSDs, {n} contain a {k.replace('_', ' ')} provision.",
                 fact_status="VERIFIED", confidence="high",
-                as_of_date=datetime.now(timezone.utc).strftime("%Y-%m-%d"), source_id=SRC))
+                as_of_date=ACCESSED, source_id=SRC))
         os.makedirs(os.path.dirname(OUT_PACK), exist_ok=True)
         with open(OUT_PACK, "w", encoding="utf-8") as fh:
             json.dump(pack, fh, indent=1)

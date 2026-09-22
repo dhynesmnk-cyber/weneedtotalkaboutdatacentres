@@ -107,12 +107,15 @@ au-dc-observatory/
 ├── scripts/reextract_consents.py pypdf re-extraction of the archived consent PDFs (sha256-verified, offline)
 ├── scripts/finalize_docs.py      regenerates build_report.md + viewer/db.json from the LOADED database
 ├── scripts/check_packs.py        fails the build if any pack/curation script is wired into only one driver
+├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
+├── scripts/count_patent_filings.py  filings per tracked operator from an IPGOD 102 / IP RAPID extract
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
 ├── scripts/load_pack.py          validated loader for curated packs (writes ingest_log)
 ├── scripts/gen_dictionary.py     regenerates reports/DATA_DICTIONARY.md from the live schema
 ├── scrapers/ingest_nsw_dc.py         NSW Planning Portal register harvester (--harvest, --mods, --attachments)
 ├── scrapers/ingest_nsw_planning.py   NSW Planning Portal single-project archiver (polite, single-threaded)
 ├── scrapers/ingest_cer.py            Clean Energy Regulator NGERS / LGC / Safeguard fetcher
+├── scrapers/ingest_austender.py      AusTender keyword-search archiver — NEVER RUN LIVE, see its docstring
 ├── exports/australian_data_centre_observatory.db
 ├── exports/csv/*.csv             every table and view, one file each
 ├── viewer/index.html             dependency-free query console (reads viewer/db.json)
@@ -121,6 +124,8 @@ au-dc-observatory/
     ├── cer_analysis.md           generated: the RG-009 verification audit, tests T1–T6
     ├── RG007_foi_strategy.md     five FOI request templates + four free parallel routes
     ├── AIRTRUNK_BCA_influence_audit.md   AirTrunk, the BCA, and Submission No 116 read closely
+    ├── palantir_australia_triage.md  UNVERIFIED LEADS: Palantir AU source triage, not database content
+    ├── PATENT_METHOD.md          the Iliadis & Acker patent method transplanted: what it can and cannot answer here
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
     └── build_report.md           generated: row counts, verification ledger, gap list
@@ -295,6 +300,9 @@ python3 scrapers/ingest_nsw_planning.py --project mamre-road-data-centre-campus
 python3 scrapers/ingest_nsw_planning.py --attachment "SSD-92743706!20260119T012428.711 GMT"
 python3 scrapers/ingest_cer.py --check        # is the Clean Energy Regulator reachable?
 python3 scrapers/ingest_cer.py --download     # landing pages + manifest, for human review
+python3 scrapers/ingest_austender.py --check                 # reachability + robots.txt
+python3 scrapers/ingest_austender.py --keyword palantir      # archive the search results
+python3 scrapers/ingest_austender.py --inspect               # offline: list archive, verify hashes
 
 # 2. Curate into a pack (see data/packs/EXAMPLE_pack.json for the exact shape)
 
@@ -303,9 +311,47 @@ python3 scripts/load_pack.py data/packs/my_pack.json --dry-run
 python3 scripts/load_pack.py data/packs/my_pack.json
 ```
 
-Both scrapers are single-threaded with a fixed delay, send a descriptive User-Agent identifying the
+All scrapers are single-threaded with a fixed delay, send a descriptive User-Agent identifying the
 project, and are designed to stop when asked. Public planning registers are a service, not a data
-vendor.
+vendor. `ingest_austender.py` additionally reads `robots.txt` and skips what it disallows, unless
+`--ignore-robots` is passed with a reason the operator can defend.
+
+### AusTender: added as a source, not yet read
+
+`scrapers/ingest_austender.py` was added for the Commonwealth portal of record, entered from the
+keyword search `https://www.tenders.gov.au/Search/KeywordSearch?keyword=palantir`. Two things about
+it are worth stating plainly, because neither is visible from the file listing.
+
+**It has never been run against the live site.** tenders.gov.au was unreachable from the
+environment it was written in (the egress proxy answered 403 to CONNECT), so nothing in it is a
+tested claim about AusTender's markup, pagination or URL shapes — unlike `ingest_cer.py` and
+`ingest_nsw_dc.py`, whose patterns were tested on 2026-09-18. It is built by discovery rather than
+by hard-coded structure: the only asserted URL is the search entry point above, and result and
+pagination links are read out of whatever HTML returns. `make check-austender` runs fixture tests
+over the link-discovery functions; those prove the parser handles the shapes it was written for,
+and prove nothing about whether AusTender uses them. **The first live run is a human review step.**
+
+**No Palantir data is in the database, and none should be inferred to be.** Nothing was fetched, so
+there is no archive, no source record and no fact. `sources.accessed` is `NOT NULL` and means the
+date we read the document; registering a source for a page nobody has opened would be exactly the
+fabrication the verification discipline exists to prevent. Palantir does not appear anywhere in the
+database and will not until the archive exists and is curated.
+
+The same target serves **RG-072** with `KEYWORD="tata consultancy"`, which is the gap that already
+names AusTender as the portal that must replace the GovMarket aggregator behind the $234.4M figure.
+
+A first pass at the Palantir leads is triaged in **`reports/palantir_australia_triage.md`** — also
+unverified, and marked as such, because no source in it could be fetched either. Three things in it
+bear on how the archive gets curated. The **relevance hook is hosting, not the customer roster**:
+Palantir Platform Australia is reported to run Foundry and AIP in **Australian AWS regions** after an
+IRAP PROTECTED assessment, which makes Palantir a demand-side tenant of hyperscaler capacity and ties
+to RG-013 and to Amazon's measured scope 2. A **name collision** will contaminate any keyword search:
+`palantirconsulting.com.au` is an unrelated Australian structural and façade engineering firm, so
+curation must disambiguate on ABN, never on the string. And a supplied roster of 13 entities proved
+both over- and under-inclusive — three entries rest only on buyer-intent or technographic vendors,
+while four real Commonwealth relationships (ASD, Veterans' Affairs, ACIC, and a buy.nsw supplier
+profile) were absent. That is the GovMarket failure again, which is the argument for the portal of
+record.
 
 ### Credentials in archived pages
 

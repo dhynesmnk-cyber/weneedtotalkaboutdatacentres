@@ -37,6 +37,19 @@ except ImportError:  # pragma: no cover
     openpyxl = None
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+
+# The date a human read these documents, not the date this script last ran.
+#
+# These five source rows used to carry `date.today()`, so every rebuild restamped
+# them and asserted the CER documents had been re-read when only the local archive
+# had been reprocessed. `sources.accessed` is NOT NULL and means the date someone
+# opened the document, so a moving value there is a claim nobody made.
+#
+# Imported rather than redeclared: build_db.py already reads the same constant, and
+# two copies of "when was the corpus read" would drift apart silently.
+from data.seed_data import ACCESSED  # noqa: E402
+
 RAW = os.path.join(ROOT, "data", "raw", "cer")
 OUT_CSV = os.path.join(ROOT, "exports", "cer", "dc_operators_nger_trend.csv")
 OUT_MD = os.path.join(ROOT, "reports", "cer_analysis.md")
@@ -467,7 +480,7 @@ def main() -> int:
             as_of=y, scope="Australia", metric_name=name, value=round(v, 1), unit=unit,
             basis="actual", notes=f"Clean Energy Regulator NGER corporate data, {y}, "
                                   f"published controlling corporation '{by_op[op][y]['published_name']}'.",
-            fact_status="VERIFIED", confidence="high", as_of_date=str(date.today()),
+            fact_status="VERIFIED", confidence="high", as_of_date=ACCESSED,
             source_id="SRC_CER_NGERS")
 
     metrics = []
@@ -488,20 +501,20 @@ def main() -> int:
                                     value=round(v["mb_scope2_t"], 1), unit="t CO2-e", basis="actual",
                                     notes=f"CER market-based scope 2 table {y}; coverage flag: "
                                           f"{v['covers_all_facilities']}.",
-                                    fact_status="VERIFIED", confidence="high", as_of_date=str(date.today()),
+                                    fact_status="VERIFIED", confidence="high", as_of_date=ACCESSED,
                                     source_id="SRC_CER_MARKETS2"))
 
     pack = {
         "pack_id": "cer-verification-rg009",
         "prepared_by": "scripts/analyse_cer.py",
-        "prepared_on": str(date.today()),
+        "prepared_on": ACCESSED,
         "sources": [
             dict(id="SRC_CER_NGERS",
                  title="Corporate emissions and energy data (NGER), 2019-20 to 2024-25",
                  publisher="Clean Energy Regulator",
                  url="https://cer.gov.au/markets/reports-and-data/nger-reporting-data-and-registers",
                  doc_type="primary_regulator", published="2026-02-27", credibility="A",
-                 accessed=str(date.today()),
+                 accessed=ACCESSED,
                  notes="Point-in-time extract of reported scope 1 and scope 2 emissions and net energy "
                        "consumption for each corporation above the publication threshold. Raw CSV/XLSX archived "
                        "under data/raw/cer/corporate/ with SHA-256 manifests."),
@@ -510,7 +523,7 @@ def main() -> int:
                  publisher="Clean Energy Regulator",
                  url="https://cer.gov.au/markets/reports-and-data/nger-reporting-data-and-registers/corporate-emissions-and-energy-data-2024-25",
                  doc_type="primary_regulator", published="2026-02-27", credibility="A",
-                 accessed=str(date.today()),
+                 accessed=ACCESSED,
                  notes="Voluntary market-based scope 2 reporting; first published for 2023-24. 34 corporations "
                        "reported in 2024-25, 21 in 2023-24."),
             dict(id="SRC_CER_SHORTFALL",
@@ -518,7 +531,7 @@ def main() -> int:
                  publisher="Clean Energy Regulator",
                  url="https://cer.gov.au/markets/reports-and-data/certificate-shortfall-register",
                  doc_type="primary_regulator", published="2026-04-14", credibility="A",
-                 accessed=str(date.today()),
+                 accessed=ACCESSED,
                  notes="Liable entities with LGC shortfall, assessment years 2001-2025, including shortfall "
                        "charges issued."),
             dict(id="SRC_CER_SAFEGUARD",
@@ -526,7 +539,7 @@ def main() -> int:
                  publisher="Clean Energy Regulator",
                  url="https://cer.gov.au/markets/reports-and-data/safeguard-data/2024-25-baselines-and-emissions-data",
                  doc_type="primary_regulator", published="2026-08-13", credibility="A",
-                 accessed=str(date.today()),
+                 accessed=ACCESSED,
                  notes="All covered facilities with baseline emissions number, covered emissions, ACCU and SMC "
                        "positions."),
             dict(id="SRC_CER_REC",
@@ -534,7 +547,7 @@ def main() -> int:
                  publisher="Clean Energy Regulator",
                  url="https://cer.gov.au/markets/reports-and-data/large-scale-renewable-energy-data",
                  doc_type="primary_regulator", published="2026-08-13", credibility="A",
-                 accessed=str(date.today()),
+                 accessed=ACCESSED,
                  notes="Snapshot as at 31 July 2026. CER caveat: holdings move between accounts regularly and "
                        "should be treated as a guide only."),
         ],
@@ -550,7 +563,7 @@ def main() -> int:
                    "78,961 t CO2-e in 2023-24 and does not appear in the 2024-25 corporate publication - "
                    "either below the publication threshold or reporting under a different controlling "
                    "corporation. Operates a large facility in the Sydney market.",
-             fact_status="VERIFIED", confidence="high", as_of_date=str(date.today()),
+             fact_status="VERIFIED", confidence="high", as_of_date=ACCESSED,
              source_id="SRC_CER_NGERS"),
         dict(id="ENT_FUJITSU_AU", name="Fujitsu Australia", entity_type="colocation_operator",
              domicile="Japan", hq_country="JP", website="fujitsu.com/au",
@@ -559,7 +572,7 @@ def main() -> int:
                    "55,228 t location-based, a 47.6% reduction, reported as covering all eligible facilities). "
                    "Fujitsu is a broader IT services group, so the figure is not attributable to data centres "
                    "alone.",
-             fact_status="VERIFIED", confidence="high", as_of_date=str(date.today()),
+             fact_status="VERIFIED", confidence="high", as_of_date=ACCESSED,
              source_id="SRC_CER_MARKETS2"),
     ]
 
@@ -589,7 +602,7 @@ def main() -> int:
                     "(31 July 2026). This does not prove the contractual arrangements do not exist - it proves "
                     "they are not visible to, or reported through, the regulator, which is precisely the "
                     "condition the proposed REGO obligation is intended to end.",
-                "fact_status": "VERIFIED", "confidence": "high", "as_of_date": str(date.today()),
+                "fact_status": "VERIFIED", "confidence": "high", "as_of_date": ACCESSED,
             },
             "add_sources": ["SRC_CER_NGERS", "SRC_CER_MARKETS2", "SRC_CER_REC"],
         },
@@ -613,7 +626,7 @@ def main() -> int:
                     "Mechanism covered facility (0 of 228). NEXTDC holds 500 LGCs in the REC Registry snapshot; "
                     "Amazon Energy LLC 226,073; CDC Data Centres Pty Ltd 233,209; AirTrunk, Equinix and Global "
                     "Switch hold none.",
-                "fact_status": "VERIFIED", "confidence": "high", "as_of_date": str(date.today()),
+                "fact_status": "VERIFIED", "confidence": "high", "as_of_date": ACCESSED,
                 "source_id": "SRC_GP2026",
             },
             "add_sources": ["SRC_CER_NGERS", "SRC_CER_MARKETS2", "SRC_CER_SHORTFALL",
@@ -622,8 +635,8 @@ def main() -> int:
     ]
     pack["rows"]["research_gaps"] = [
         {"match": {"id": 9},
-         "set": {"status": "resolved", "resolved_date": str(date.today()),
-                 "fact_status": "VERIFIED", "confidence": "high", "as_of_date": str(date.today()),
+         "set": {"status": "resolved", "resolved_date": ACCESSED,
+                 "fact_status": "VERIFIED", "confidence": "high", "as_of_date": ACCESSED,
                  "source_id": "SRC_CER_NGERS",
                  "notes": "Resolved 2026-09-18. Downloaded and parsed NGER corporate data 2019-20 to 2024-25 "
                           "(398-415 corporations per year), market-based scope 2 tables 2023-24 and 2024-25, the "
