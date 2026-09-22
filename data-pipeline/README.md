@@ -4,7 +4,32 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.1.0 · data as at 18 September 2026 · 1,241 data rows (+376 source refs) · 93 sites · 125 entities · 325 metrics · 117 catalogued sources (70 primary)**
+**Release v2.2.0 · data as at 21 September 2026 · 1,338 data rows (+376 source refs) · 93 sites · 138 entities · 340 metrics · 153 catalogued sources (90 primary)**
+
+v2.2.0 opens **the Palantir–NVIDIA thread** (`data/packs/palantir_nvidia_thread.json`,
+`reports/PALANTIR_NVIDIA_THREAD.md`): defence-AI, sovereign-AI infrastructure and the Australian
+footprint of the NVIDIA–Palantir partnership, in 36 sources and 51 rows. The verified Australian
+record: **five Commonwealth Palantir contract notices** read in full on AusTender (Defence Cyber
+Warfare Division's limited-tender "ICT System Platform" $7.64m → **$10.39m after a +36%
+amendment eight weeks into a one-year contract**; Defence "Data Services" $7.15m — Foundry per
+FOI; ACIC $1.40m reduced from $3.63m; ASD $0.70m contracted with the **US parent** under the
+defence-intelligence exemption); the **Future Fund holding 620,169 Palantir shares worth
+A$165.3m** at 31 Dec 2025 (primary CSV, archived with SHA-256 — a larger stake than its NEXTDC
+holding); **IRAP PROTECTED** (Nov 2025) with Palantir's own statement that Palantir Platform
+Australia runs Foundry/AIP "hosted in Australian AWS regions"; corporate deployments at **Rio
+Tinto** (Pilbara autonomous rail) and **Coles**; the revolving door in writing — the **UK ACOBA
+ethics letter** on the former AUKUS Director General's move to Palantir naming Australia as the
+risk surface, and **Mike Kelly** (former defence materiel minister) as Palantir's Australian
+president 2020–2024; and **NVIDIA's 9 Sep 2026 announcement of an up-to-2 GW DSX AI-factory
+buildout with eight Australian partners** (NEXTDC, AirTrunk, CDC, Firmus, Sharon AI, IREN,
+Megaport, ResetData) landing eight weeks after the PM's mandatory national AI/data-centre
+standards. Five premises of the originating brief were checked and corrected before any row was
+written (Gotham is not positioned as law enforcement; "pre-crime" is a video's characterisation,
+not a product claim; the Huang quote is verified in its full GTC DC form; the WA real-time
+facial-recognition arrests involve **no evidenced Palantir connection**); two source
+discrepancies are recorded unresolved rather than smoothed. Nine gaps opened: **RG-086–RG-094**,
+headed by the complete multi-jurisdiction contract ledger (086) and per-deployment data
+residency (087).
 
 v2.1.0 adds **the determination layer** and repairs a silent data-loss incident. The archived consent
 texts had degraded — the dependency-free extractor cannot open AES-encrypted portal PDFs (2 of 20 yielded
@@ -387,10 +412,10 @@ scrapes never write the key to disk.
 
 | Pillar | State | Blocking gap |
 |---|---|---|
-| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park) |
-| B — Capital and control | Ownership chains verified for AirTrunk and CDC; 10 capital flows; 9 incentive records; **270 VERIFIED metric rows** including the full CER emissions series; consultancy layer: 23 de-duplicated TCS contracts, $234.4M verified spend. | RG-007 (FOI on tax/land concessions), RG-006 (FIRB), RG-004 (super exposure), RG-005 (Mamre title), RG-072 (TCS portals of record), RG-078 (Oxford Economics funder) |
-| C — Regulatory framework | Strongest pillar: 22 instruments, 8 site-level applications, 24 regulatory events, including the 200-hour diesel exemption, the Victorian Tier 4 asymmetry, and the **delegation executed 18 Aug 2026 — one day after the Guidelines** — under which both post-Guidelines consents were signed. RG-079 resolved (template-dominated conditions; no officer effect at n=20). | RG-008 (EP licence conditions per site), RG-074 (consultancy overlap with DPHI/IPC contracts), RG-085 (Talavera IPC placeholder signatures) |
-| D — Community impact | 21 events, 6 groups, institutional objections documented at Mamre Road and Glendenning (Blacktown objection overridden). | RG-016 (group register), RG-011 (verify Melton/South Morang) |
+| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents) |
+| B — Capital and control | Ownership chains verified for AirTrunk and CDC; 10 capital flows; 9 incentive records; **270 VERIFIED metric rows** including the full CER emissions series; consultancy layer: 23 de-duplicated TCS contracts, $234.4M verified spend. v2.2.0: Future Fund → Palantir **A$165.3m** holding (primary CSV, archived); five Palantir Commonwealth contract notices catalogued with a duplicate-safe amendment row. | RG-007 (FOI on tax/land concessions), RG-006 (FIRB), RG-004 (super exposure), RG-005 (Mamre title), RG-072 (TCS portals of record), RG-078 (Oxford Economics funder), RG-086 (complete Palantir contract ledger), RG-088 (corporate customers), RG-094 (public-fund PLTR/NVDA exposure) |
+| C — Regulatory framework | Strongest pillar: 22 instruments, 8 site-level applications, 24 regulatory events, including the 200-hour diesel exemption, the Victorian Tier 4 asymmetry, and the **delegation executed 18 Aug 2026 — one day after the Guidelines** — under which both post-Guidelines consents were signed. RG-079 resolved (template-dominated conditions; no officer effect at n=20). v2.2.0 adds the Palantir IRAP PROTECTED record (PPA on AWS AU regions, per company release), the DTA SON3490955 panel channel, the UK ACOBA revolving-door letter and the July 2026 national AI-standards announcement. | RG-008 (EP licence conditions per site), RG-074 (consultancy overlap with DPHI/IPC contracts), RG-085 (Talavera IPC placeholder signatures), RG-087 (per-deployment data residency), RG-089 (ASD clearance discrepancy), RG-090 (AUKUS position), RG-092 (keynote quote verification) |
+| D — Community impact | 21 events, 6 groups, institutional objections documented at Mamre Road and Glendenning (Blacktown objection overridden). v2.2.0: Shoebridge contract-freeze call and Pocock procurement criticism recorded as political interventions; WA real-time FRT trial baseline logged with no vendor attribution. | RG-016 (group register), RG-011 (verify Melton/South Morang), RG-093 (any Australian law-enforcement Palantir use; WA FRT vendor; ACIC platform purpose) |
 | E — Engineering critique | Complete: 7 propositions tested, verdicts issued, replacement specs written against existing policy hooks. | RG-018/019 (grid services and system strength evidence) |
 
 ## Licence and citation
