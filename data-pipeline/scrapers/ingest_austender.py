@@ -180,6 +180,31 @@ def allowed(rp: urllib.robotparser.RobotFileParser | None, url: str, force: bool
     return False
 
 
+def effective_delay(rp: urllib.robotparser.RobotFileParser | None) -> float:
+    """
+    The pause between requests: ours or robots.txt's, whichever is longer.
+
+    Reading a crawl-delay and then not honouring it is worse than never having
+    looked, because the operator sees it reported in --check and reasonably
+    assumes it is being obeyed.
+
+    It only ever lengthens the pause. A site that permits rapid crawling is not a
+    reason to crawl rapidly: public registers are a service, not a data vendor.
+    """
+    if rp is None:
+        return DELAY
+    try:
+        declared = rp.crawl_delay(UA)
+    except Exception:  # noqa: BLE001 - a malformed directive means "unknown", not "zero"
+        return DELAY
+    if declared is None:
+        return DELAY
+    try:
+        return max(DELAY, float(declared))
+    except (TypeError, ValueError):
+        return DELAY
+
+
 def fetch_note(exc: Exception) -> None:
     print(f"[FAILED] {exc}", file=sys.stderr)
     print("         If this is a CONNECT/403 or TLS failure the host is probably blocked by the\n"
@@ -196,7 +221,8 @@ def do_check() -> int:
         print(f"[robots] can_fetch({SEARCH_PATH}) = {rp.can_fetch(UA, url)}")
         delay = rp.crawl_delay(UA)
         if delay:
-            print(f"[robots] crawl-delay = {delay}s (this scraper uses {DELAY}s)")
+            print(f"[robots] crawl-delay = {delay}s; this scraper will pause "
+                  f"{effective_delay(rp)}s (its own floor is {DELAY}s)")
     try:
         body = get(url)
     except Exception as exc:  # noqa: BLE001
@@ -231,7 +257,7 @@ def do_keyword(keyword: str, follow: bool, force: bool, max_pages: int) -> int:
         for nxt in next_page_links(body, keyword):
             if nxt not in done:
                 pending.append(nxt)
-        time.sleep(DELAY)
+        time.sleep(effective_delay(rp))
 
     found: list[str] = []
     for body in bodies:
@@ -254,13 +280,13 @@ def do_keyword(keyword: str, follow: bool, force: bool, max_pages: int) -> int:
             body = get(url)
         except urllib.error.HTTPError as exc:
             print(f"[miss] {url}: HTTP {exc.code}", file=sys.stderr)
-            time.sleep(DELAY)
+            time.sleep(effective_delay(rp))
             continue
         except Exception as exc:  # noqa: BLE001
             fetch_note(exc)
             return 1
         archive(os.path.join(NOTICE_DIR, notice_id(url) + ".html"), body, url)
-        time.sleep(DELAY)
+        time.sleep(effective_delay(rp))
     return 0
 
 
@@ -349,6 +375,27 @@ def do_selftest() -> int:
           "https://www.tenders.gov.au/Search/KeywordSearch?keyword=palantir")
     check("search_url encodes the keyword", search_url("tata consultancy", 2),
           "https://www.tenders.gov.au/Search/KeywordSearch?keyword=tata+consultancy&page=2")
+
+    # The pause honours robots.txt. A stub stands in for a parser because the real one
+    # would have to read tenders.gov.au, and these tests are offline by construction.
+    class _Robots:
+        def __init__(self, value: object) -> None:
+            self.value = value
+
+        def crawl_delay(self, _ua: str) -> object:
+            if isinstance(self.value, Exception):
+                raise self.value
+            return self.value
+
+    check("a longer crawl-delay wins", effective_delay(_Robots(10)), 10.0)
+    check("a shorter crawl-delay does not speed us up", effective_delay(_Robots(0.5)), DELAY)
+    check("no crawl-delay leaves our own floor", effective_delay(_Robots(None)), DELAY)
+    check("unreadable robots.txt leaves our own floor", effective_delay(None), DELAY)
+    check("a malformed crawl-delay is not treated as zero",
+          effective_delay(_Robots("soon")), DELAY)
+    check("a raising parser is not treated as zero",
+          effective_delay(_Robots(RuntimeError("boom"))), DELAY)
+
     print(f"\n{'FAILED' if failures else 'ok'}: {failures} failure(s)")
     return 1 if failures else 0
 
