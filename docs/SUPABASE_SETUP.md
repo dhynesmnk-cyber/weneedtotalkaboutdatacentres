@@ -82,7 +82,7 @@ that `0005` adds its enum values in a transaction of its own.
 The Management API applies SQL outside the CLI's knowledge, so it leaves
 `supabase_migrations.schema_migrations` empty and a later `supabase db push`
 would try to re-apply everything. Backfill that table when you use this route;
-it has been backfilled with `0001`-`0011`.
+it has been backfilled with `0001`-`0012`.
 
 If the route ever stops working, fall back to running steps 2 and 6 from a local
 clone — they are four commands — and let the session do the verification. Do not
@@ -144,7 +144,9 @@ Dashboard → **Settings → API → Exposed schemas**: add `facts` and `editori
 ## 4. Confirm the roles
 
 Supabase creates `anon`, `authenticated` and `service_role`. Migrations `0004`
-and `0011` grant select to the first two and nothing else. Confirm with:
+and `0011` grant select to the first two and nothing else; `0012` grants select
+to `service_role`, which is what the weekly backup reads with. Confirm the
+public roles with:
 
 ```sql
 select grantee, table_schema, table_name, privilege_type
@@ -154,7 +156,9 @@ order by table_schema, table_name;
 ```
 
 Every row should say `SELECT`. An `INSERT`, `UPDATE` or `DELETE` here means
-something outside these migrations granted it.
+something outside these migrations granted it. The same query with
+`grantee = 'service_role'` should return 13 rows, all `SELECT`: that role
+bypasses RLS, so the grant is the only thing limiting it.
 
 ## 5. Point the app at it
 
@@ -275,12 +279,19 @@ select count(*) from facts.sites s where not exists (
 - **Point-in-time recovery** is a Pro feature and is not enabled, at $100 a
   month on top of Pro. The gap is recorded in `docs/DEPLOYMENT.md` and
   mitigated by a weekly export; the recovery point objective is one week.
-- **Weekly export** is automated in `.github/workflows/backup.yml`. It needs
-  `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` as repository
-  secrets. It keeps 90 days of artifacts on GitHub rather than object storage,
-  so the backup and the code still share one provider.
+- **Weekly export** is automated in `.github/workflows/backup.yml`, with its
+  two repository secrets set and a first run verified on 2026-09-21. It keeps
+  90 days of artifacts on GitHub rather than object storage, so the backup and
+  the code still share one provider.
 - **The approved council list is still empty**, so no council ingestion may run.
   Candidates are in `docs/COUNCIL_CANDIDATES.md` awaiting sign-off.
+- **Council name equivalences are unapproved**, so five councils each hold two
+  spellings and their site counts stay split. Proposals are in
+  `docs/LGA_ALIAS_CANDIDATES.md`; `facts.lga_aliases` needs a named approver per
+  row, which is why no agent can close this one.
 - **Coordinates**, so the map stays empty. A human-curated
   `data-pipeline/data/inputs/site_coordinates.csv` with a method and source per
-  row is the route; the slot already exists.
+  row is the route; the slot exists and its column layout was corrected on
+  2026-09-22. Geocoding itself is curation work with a source per point and
+  cannot be automated away: an invented coordinate is a fabricated fact about
+  where a data centre is.

@@ -75,14 +75,20 @@ def write_templates() -> int:
         with open(p1, "w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh)
             w.writerow(LANDING_HEADERS)
-            w.writerow(["# example - delete before use", "INDIGO-West", "Perth", "WA",
-                        "-31.9", "115.8", "SRC_CABLEMAP"])
+            # The leading "#" is what load_inputs() skips on, so the example never
+            # reaches the computation. It sits on the first real column rather than in
+            # an extra cell of its own, so the example still has one value per header
+            # and shows the true column order.
+            w.writerow(["# example - delete before use: Perth CLS", "INDIGO-West", "Perth",
+                        "WA", "-31.9", "115.8", "SRC_CABLEMAP"])
         print(f"wrote template {p1}")
     if not os.path.exists(p2):
         with open(p2, "w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh)
             w.writerow(SITE_HEADERS)
-            w.writerow(["# example - delete before use", "SITE_MSFT_KEMPS", "-33.72", "150.80",
+            # Same here: "#" on site_id keeps the row inert, and the row carries exactly
+            # five values so the columns line up with the header above it.
+            w.writerow(["# example - delete before use: SITE_MSFT_KEMPS", "-33.72", "150.80",
                         "geocoded_address", "SRC_NSWPORTAL_KC"])
         print(f"wrote template {p2}")
     print("\nPopulate both files from citable sources, then re-run without --template.")
