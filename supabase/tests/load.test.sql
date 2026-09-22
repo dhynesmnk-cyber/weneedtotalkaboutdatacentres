@@ -28,13 +28,22 @@ select public.assert(
   (select count(*) from facts.sites where pipeline_id is not null) = 93,
   '93 sites loaded');
 
+-- Pinned counts track the reviewed contents of the committed pipeline, so a
+-- curated pack that adds rows raises them by an argued amount - the change is
+-- in the diff that raises it, not silent. 2026-09-22: the Palantir-NVIDIA
+-- research thread (data/packs/palantir_nvidia_thread.json) adds 13 entities
+-- and 36 sources; sites stay 93 because the thread adds no site rows (its
+-- infrastructure claims are CLAIMED-grade metrics pending RG-091). The load
+-- run for this change measured entities=138, sources=153, sites=93 on both
+-- Postgres 17 and 16, applied twice, idempotent. The assertions remain
+-- falsifiable: a loader that dropped any thread row fails them.
 select public.assert(
-  (select count(*) from facts.entities where pipeline_id is not null) = 125,
-  '125 entities loaded');
+  (select count(*) from facts.entities where pipeline_id is not null) = 138,
+  '138 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 117,
-  '117 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 153,
+  '153 sources loaded');
 
 -- ---------------------------------------------------------------------------
 -- Nothing was invented.

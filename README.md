@@ -66,8 +66,8 @@ hides it, and no entity is flagged as major until a human decides it is.
 - `lib/ingestion/` — the vocabulary map, the row transforms and the SQL emitter.
   Every reconciliation decision lives here and is argued in
   `docs/PIPELINE_MAPPING.md`.
-- `data-pipeline/` — the upstream curation tool (Python, SQLite): 93 sites, 125
-  entities and 117 sources, every row graded and sourced. The app never reads
+- `data-pipeline/` — the upstream curation tool (Python, SQLite): 93 sites, 138
+  entities and 153 sources, every row graded and sourced. The app never reads
   it; it reaches Postgres through a reviewed SQL artefact.
 - `scripts/backup/` and `lib/backup/` — the weekly export, its manifest, and the
   restore emitter. `tables.ts` classifies every table as rebuildable from
