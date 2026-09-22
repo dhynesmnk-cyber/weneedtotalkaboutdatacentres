@@ -18,6 +18,13 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 
+import {
+  multiLgaValues,
+  renderLgaReview,
+  variantGroups,
+  type LgaSpelling,
+  type LgaVariantGroup,
+} from '@/lib/ingestion/lga';
 import { header, literal, upsert } from '@/lib/ingestion/sql';
 import {
   RowRejected,
@@ -62,7 +69,8 @@ interface Report {
   counts: Record<string, number>;
   rejected: string[];
   skippedRefs: Record<string, number>;
-  unmatchedLgas: string[];
+  lgaVariants: LgaVariantGroup[];
+  multiLgas: LgaSpelling[];
 }
 
 function readTable(db: DatabaseSync, table: string): PipelineRow[] {
@@ -81,7 +89,9 @@ function main(): void {
   const digest = createHash('sha256').update(readFileSync(PIPELINE_DB)).digest('hex');
   const db = new DatabaseSync(PIPELINE_DB, { readOnly: true });
 
-  const report: Report = { counts: {}, rejected: [], skippedRefs: {}, unmatchedLgas: [] };
+  const report: Report = {
+    counts: {}, rejected: [], skippedRefs: {}, lgaVariants: [], multiLgas: [],
+  };
 
   // --- sources -------------------------------------------------------------
   const sources = [];
@@ -164,10 +174,10 @@ function main(): void {
 
   // --- council names that need a human ------------------------------------
   // Reported, never fixed. See facts.lga_aliases.
-  const lgas = [...new Set(sites.map((s) => s.lga).filter((l): l is string => l !== null))];
-  report.unmatchedLgas = lgas
-    .filter((lga) => lgas.some((other) => other !== lga && other.startsWith(lga)))
-    .sort();
+  // Every site's council, duplicates kept: the review needs counts per spelling.
+  const lgas = sites.map((s) => s.lga).filter((l): l is string => l !== null);
+  report.lgaVariants = variantGroups(lgas);
+  report.multiLgas = multiLgaValues(lgas);
 
   db.close();
 
@@ -251,11 +261,8 @@ function main(): void {
     }
   }
 
-  if (report.unmatchedLgas.length > 0) {
-    console.log('\nCouncil names that look like variants of each other.');
-    console.log('These are loaded verbatim. Resolving them is a human decision:');
-    console.log('add rows to facts.lga_aliases. The loader never guesses.');
-    for (const lga of report.unmatchedLgas) console.log(`  ${lga}`);
+  for (const line of renderLgaReview(report.lgaVariants, report.multiLgas)) {
+    console.log(line);
   }
 
   console.log(`\nTables written: ${ALLOWED_TABLES.join(', ')}`);

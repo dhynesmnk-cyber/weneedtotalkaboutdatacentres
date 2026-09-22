@@ -47,9 +47,11 @@ one, because no register was read from this environment.
 
 ---
 
-## Candidates flagged by the loader
+## Candidates
 
-Counts are sites carrying each spelling, from the live database on 2026-09-22.
+All five are reported by `npm run load:pipeline`, with site counts, since the
+detector was rewritten on 2026-09-22. Counts below are from the live database
+on the same date.
 
 | Spelling A | Sites | Spelling B | Sites | Confidence |
 | --- | ---: | --- | ---: | --- |
@@ -57,40 +59,29 @@ Counts are sites carrying each spelling, from the live database on 2026-09-22.
 | `Penrith` | 4 | `Penrith City Council` | 4 | high |
 | `Lane Cove` | 5 | `Lane Cove Council` | 1 | high |
 | `Fairfield City` | 2 | `Fairfield City Council` | 1 | high |
-
-Each pair differs only by the presence of the `City`/`Council` suffix on an
-otherwise identical name, which is the ordinary short-form/legal-name split.
-
----
-
-## Candidate the loader did not flag
-
-| Spelling A | Sites | Spelling B | Sites | Confidence |
-| --- | ---: | --- | ---: | --- |
 | `The Hills Shire` | 1 | `Hills Shire Council` | 2 | high |
 
-**This one is worth a second look, because the detector missed it.**
-`scripts/ingestion/load-pipeline.ts:168` flags an LGA when some other value
-*starts with* it:
+The first four differ only by a `City`/`Council` suffix on an otherwise
+identical name, which is the ordinary short-form/legal-name split.
+
+The fifth is the one that prompted the detector rewrite, and it is worth
+knowing why it was invisible. The old check was a prefix test:
 
 ```ts
 lgas.filter((lga) => lgas.some((other) => other !== lga && other.startsWith(lga)))
 ```
 
-That catches a suffix being added — `Blacktown` against `Blacktown City
-Council` — and it is why the reported list holds only the shorter member of
-each pair. It cannot catch a difference at the front. Neither
-`Hills Shire Council` nor `The Hills Shire` is a prefix of the other, so
-neither is reported.
+That sees a suffix being added — `Blacktown` against `Blacktown City Council` —
+and nothing else. Neither `The Hills Shire` nor `Hills Shire Council` is a
+prefix of the other, so neither was reported, and the list read as a total when
+it was a floor.
 
-The consequence is narrow, but it means the loader's variant list is a floor
-and not a total, in the same way `count_patent_filings.py` reports its counts
-as a floor. Anyone reading that list as exhaustive would be wrong.
-
-Fixable in the loader by normalising a leading article before the comparison.
-Not done here: changing the detector changes what every future load reports,
-which deserves its own review rather than riding along with a documentation
-change.
+`lib/ingestion/lga.ts` replaces it with a comparison key: case, punctuation, a
+leading article and trailing body words (`Council`, `City`, `Shire`,
+`Regional`) are all normalised away, and spellings sharing a key are grouped.
+The key exists only for comparison and is never stored — it deliberately
+discards what distinguishes two councils that genuinely share a stem, which is
+why it may only ever suggest.
 
 ---
 
@@ -112,3 +103,8 @@ third fake council.
 
 Recorded here so the decision is deliberate. The current behaviour — loading the
 string verbatim — is the honest one until the schema supports two.
+
+The loader reports these in a section of their own, under a warning not to
+merge them. The old prefix test had no such separation: `Fairfield City;
+Blacktown` starts with `Fairfield City`, so a cell naming two councils was part
+of why a third name appeared on the variant list.
