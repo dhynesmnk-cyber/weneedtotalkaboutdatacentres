@@ -57,7 +57,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `community_events` (table, 21 rows)
+## `community_events` (table, 24 rows)
 
 Dated friction: objections, protests, petitions, council deferrals and rejections, litigation, political interventions, school and institution objections, benefit agreements. `severity` 1–5, where 5 is a formal council objection.
 
@@ -191,7 +191,7 @@ Pillar E. Each proposition from the brief is tested against Australian evidence,
 | `source_ids` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `entities` (table, 125 rows)
+## `entities` (table, 138 rows)
 
 Companies, funds, agencies, councils, community groups and utilities. `domicile` is the country of ultimate control, which is the field that matters for sovereignty analysis — it is not the same as where the entity trades.
 
@@ -244,7 +244,7 @@ Money moving: equity, acquisitions, debt, capital raises, land purchases and cap
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `gov_contracts` (table, 23 rows)
+## `gov_contracts` (table, 29 rows)
 
 _No description recorded._
 
@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 109 rows)
+## `ingest_log` (table, 119 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -377,7 +377,7 @@ Acts, regulations, rules, determinations, bills, policies, guidelines, strategie
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `lobbying` (table, 13 rows)
+## `lobbying` (table, 15 rows)
 
 _No description recorded._
 
@@ -400,7 +400,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `metrics` (table, 325 rows)
+## `metrics` (table, 340 rows)
 
 Time series of system-level figures. `basis` is mandatory discipline: actual / pipeline / signed / enquiry / forecast. Enquiry and signed figures are never summed.
 
@@ -444,7 +444,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ownership` (table, 11 rows)
+## `ownership` (table, 12 rows)
 
 The control chain. One row per holder per period; `effective_to IS NULL` means current. Carries the FIRB flag and outcome. This is Pillar B's core table.
 
@@ -509,7 +509,7 @@ Engineering and grid reality per site: connection type and point, NCA status, wh
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `regulatory_events` (table, 24 rows)
+## `regulatory_events` (table, 25 rows)
 
 Dated regulator actions: additional information requests, adverse findings, licence conditions, hearings, rule change requests, determinations, fast-track grants.
 
@@ -553,7 +553,7 @@ The audit table. A claim is `VERIFIED` only when contracted instruments satisfy 
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `research_gaps` (table, 79 rows)
+## `research_gaps` (table, 88 rows)
 
 The ingestion backlog and the list of things we do not know. Each row names the target source and the retrieval method. This is the project's work queue.
 
@@ -576,7 +576,7 @@ The ingestion backlog and the list of things we do not know. Each row names the 
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `security_records` (table, 5 rows)
+## `security_records` (table, 6 rows)
 
 FIRB, SOCI Act, Critical Infrastructure Register, CIRMP, Hosting Certification Framework and related regimes, with the ultimate controller and any conditions.
 
@@ -651,7 +651,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 117 rows)
+## `sources` (table, 153 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 
@@ -738,7 +738,7 @@ ORDER BY cases DESC
 
 </details>
 
-## `v_community_friction` (view, 21 rows)
+## `v_community_friction` (view, 24 rows)
 
 Community events joined to site and group, newest first.
 
@@ -802,7 +802,7 @@ ORDER BY cp.au_public_sector_exposure_aud DESC
 
 </details>
 
-## `v_consultant_public_money` (view, 23 rows)
+## `v_consultant_public_money` (view, 29 rows)
 
 _No description recorded._
 
@@ -831,7 +831,7 @@ ORDER BY c.value_aud DESC
 
 </details>
 
-## `v_consultant_spend_totals` (view, 7 rows)
+## `v_consultant_spend_totals` (view, 10 rows)
 
 _No description recorded._
 
@@ -857,7 +857,7 @@ ORDER BY distinct_value_aud DESC
 
 </details>
 
-## `v_contract_reconciliation` (view, 1 rows)
+## `v_contract_reconciliation` (view, 3 rows)
 
 _No description recorded._
 
@@ -886,7 +886,7 @@ WHERE e.id IN (SELECT DISTINCT supplier_entity_id FROM gov_contracts)
 
 </details>
 
-## `v_foreign_control` (view, 42 rows)
+## `v_foreign_control` (view, 45 rows)
 
 Operators and their current holders, with domicile and FIRB flag.
 
@@ -925,7 +925,7 @@ ORDER BY i.jurisdiction, i.incentive_type
 
 </details>
 
-## `v_influence` (view, 13 rows)
+## `v_influence` (view, 15 rows)
 
 _No description recorded._
 

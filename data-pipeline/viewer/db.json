@@ -2818,6 +2818,60 @@
    "source_id": "SRC_GADENS_VIC",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 22,
+   "event_date": "2025-07-07",
+   "site_id": null,
+   "group_id": null,
+   "locality": "Canberra",
+   "state": "ACT",
+   "event_type": "political_intervention",
+   "actor": "Senator David Shoebridge (Greens digital rights spokesperson)",
+   "summary": "Called for a freeze on Australian government contracts with Palantir over its overseas work (ICE deportation support; UN Special Rapporteur report naming Palantir re Israel) and demanded procurement guidelines preventing 'public money being handed to companies actively engaged in genocide and suppressing democracy'; asked whether 'anyone check[ed] these fundamental threats to democracy before signing up with Palantir'. His Bluesky thread cites 'multiple Defence contracts worth over $11 million'.",
+   "severity": null,
+   "outcome": "No freeze; Defence's largest Palantir contract followed in February 2026 (CN4218984).",
+   "notes": "The first federal parliamentary challenge to the Palantir relationship found on the public record during this thread's research.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_CRIKEY_AUS_LINKS_JUL25",
+   "confidence": "high",
+   "as_of_date": "2025-07-08"
+  },
+  {
+   "id": 23,
+   "event_date": "2026-02-17",
+   "site_id": null,
+   "group_id": null,
+   "locality": "Canberra",
+   "state": "ACT",
+   "event_type": "political_intervention",
+   "actor": "Senator David Pocock (independent)",
+   "summary": "Criticised the Cyber Warfare Division's $7.6m limited-tender Palantir contract: 'deeply problematic for millions of Australian taxpayer dollars to be going to a company that is so mired in controversy with huge question marks over its ethics and handling of data ... in the absence of long overdue reforms to Australia's privacy legislation'; called the extension 'terrible procurement process' that 'should be put back out to tender rather than continuing the land and expand practice that doesn't test value for money or retained economic benefit'.",
+   "severity": null,
+   "outcome": "Contract amended upward by $2.75m on 2 April 2026 (CN4218984-A1).",
+   "notes": "Recorded against the reporting date of the Crikey article carrying the quotes.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_CRIKEY_DEF_FEB26",
+   "confidence": "high",
+   "as_of_date": "2026-02-17"
+  },
+  {
+   "id": 24,
+   "event_date": "2025-12",
+   "site_id": null,
+   "group_id": null,
+   "locality": null,
+   "state": null,
+   "event_type": "media_campaign",
+   "actor": "GNCA Investigates (YouTube channel)",
+   "summary": "Published 'We're All So F'd | NVIDIA x Palantir, Global Surveillance, 'Pre-Crime' Arrests, & AI' - the video whose description ('NVIDIA CEO Jensen Huang stated that NVIDIA would \"accelerate everything that Palantir\" does') is the provenance of this research thread's originating brief. Approximately 489k views / 44k likes as at 2026-09-21. A follow-up video reports Palantir's Head of Strategic Communications responding to the channel.",
+   "severity": null,
+   "outcome": "Framing circulated widely (Reddit, Lemmy, forums); Palantir responded on-channel.",
+   "notes": "Date estimated (December 2025) from contemporaneous archive posts; exact publication date not read from YouTube. Recorded as provenance, not endorsement: the pack's premise checks separate the video's characterisations ('pre-crime arrests', 'global surveillance') from what primary sources support.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_GNCA_VIDEO",
+   "confidence": "low",
+   "as_of_date": "2026-09-21"
   }
  ],
  "community_groups": [
@@ -4573,7 +4627,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": "ENT_FUJITSU_AU",
@@ -4588,7 +4642,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_MARKETS2",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": "ENT_MSFT_DC_AU",
@@ -5474,6 +5528,201 @@
    "source_id": "SRC_AUSTRADE_MCKAY",
    "confidence": "medium",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": "ENT_PALANTIR",
+   "name": "Palantir Technologies Inc.",
+   "legal_name": "Palantir Technologies Inc.",
+   "entity_type": "vendor",
+   "domicile": "United States",
+   "hq_country": "US",
+   "asx_ticker": null,
+   "website": "https://www.palantir.com",
+   "notes": "NYSE: PLTR. Denver-headquartered data analytics and AI software company; co-founded by Peter Thiel and others. Platforms: Gotham ('operating system for global decision making' - defence/intelligence positioning), Foundry (enterprise Ontology OS), Apollo (continuous delivery across environments, 'from the back of a humvee to the hull of a submarine'), AIP (AI on private networks). US defense record: Maven Smart System program of record (Mar 2026); $480m IDIQ May 2024 raised to $1.3bn May 2025; Army enterprise agreement up to $10bn (Jul 2025, consolidating 75 contracts); ICE ImmigrationOS/ELITE/ICM. Named in UN Special Rapporteur report A/HRC/59/23. NVIDIA partnership from 28 Oct 2025. Australian subsidiary: Palantir Technologies Australia Pty Ltd.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_PALANTIR_PLATFORMS",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": "ENT_PALANTIR_AU",
+   "name": "Palantir Technologies Australia Pty Ltd",
+   "legal_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+   "entity_type": "vendor",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "ABN 48 144 948 309 (as published on AusTender notices). Registered supplier address Canberra ACT 2601. Named supplier on Defence CN4218984 (ICT System Platform, Cyber Warfare Division), CN4115523 (Software) and CN4104368 (Data Services), and on ACIC CN3996124 as 'Palantir Technologies Australia'. The ASD notice CN3992202 instead names the US parent with ABN 'Exempt'. Mike Kelly (former defence materiel minister) served as Palantir's Australian president 2020-2024 (ABC Four Corners). Paul Rawlins named AU Head of Public Sector in Palantir's Nov 2025 IRAP release.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN4218984",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": "ENT_NVIDIA",
+   "name": "NVIDIA Corporation",
+   "legal_name": "NVIDIA Corporation",
+   "entity_type": "vendor",
+   "domicile": "United States",
+   "hq_country": "US",
+   "asx_ticker": null,
+   "website": "https://www.nvidia.com",
+   "notes": "NASDAQ: NVDA. Accelerated-computing vendor; in this thread, the hardware and platform layer of the partnership: Blackwell-based AI factories, the DSX full-stack AI factory platform, CUDA-X/cuOpt libraries and Nemotron open models integrated into Palantir's Ontology/AIP/Foundry. Announced the up-to-2GW Australian DSX buildout with eight Australian partners on 9 Sep 2026 - the direct link between this thread and the observatory's site register.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": "ENT_ASD",
+   "name": "Australian Signals Directorate",
+   "legal_name": "Australian Signals Directorate",
+   "entity_type": "government_agency",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "Commonwealth signals-intelligence agency and cyber security authority. Buy-side on AusTender CN3992202 ('Software Licencing' from Palantir Technologies Inc., $696,981.39, 2023-24, limited tender under the select-Defence-intelligence-agencies exemption). Sets the requirements under which IRAP assessments (including Palantir's PROTECTED-level assessment announced 20 Nov 2025) are conducted. Crikey reports ASD granted Palantir 'a top security clearance' in November 2024 - unverified against any primary record (RG-089).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN3992202",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": "ENT_ACIC",
+   "name": "Australian Criminal Intelligence Commission",
+   "legal_name": "Australian Criminal Intelligence Commission",
+   "entity_type": "government_agency",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "National criminal intelligence body. Contracted 'Software Maintenance & Support' from Palantir Technologies Australia (CN3996124, original $3.63m reduced to $1,402,122.87, Jun 2023 - Mar 2025) via the DTA Software Marketplace panel. What the platform is used for is not stated on the notice (RG-093).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN3996124",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": "ENT_DOD_AU",
+   "name": "Department of Defence (Commonwealth of Australia)",
+   "legal_name": "Department of Defence",
+   "entity_type": "government_agency",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "Buy-side of the largest Palantir contract population on AusTender: JCG Cyber Warfare Division (CN4218984 +A1, CN4115523) and CASG Commercial Group (CN4104368). Crikey's AusTender analysis puts total Defence spend with Palantir at more than $26m since 2013; the five notices catalogued in this pack do not yet account for that total (RG-086).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_CRIKEY_DEF_FEB26",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": "ENT_RIO_TINTO",
+   "name": "Rio Tinto",
+   "legal_name": "Rio Tinto plc / Rio Tinto Limited",
+   "entity_type": "other",
+   "domicile": "United Kingdom / Australia (dual listed)",
+   "hq_country": "UK",
+   "asx_ticker": "RIO",
+   "website": null,
+   "notes": "Global miner; Palantir commercial customer. Renewed its multi-year Palantir enterprise agreement for a further four years in November 2024 with ongoing AIP access; Foundry Ontology coordinates 53 driverless iron-ore trains across the Pilbara network from the RTIO Operations Centre (WA) and geotechnical risk at Oyu Tolgoi. Entity type 'other' - the vocabulary has no resources-industry type.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_IMMINING_RIO",
+   "confidence": "high",
+   "as_of_date": "2024-11-14"
+  },
+  {
+   "id": "ENT_COLES",
+   "name": "Coles Group",
+   "legal_name": "Coles Group Limited",
+   "entity_type": "other",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": "COL",
+   "website": null,
+   "notes": "Supermarket chain; Palantir commercial customer since 2024 (analytics suite across supermarkets). Investor-day detail (Nov 2024): executive oversight and workforce management; 24,000 process standards measured in 15-minute increments; data-guided store tasking claimed to lift activity effectiveness from 15% to 70%. Entity type 'other' - the vocabulary has no retail type.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_ITNEWS_COLES",
+   "confidence": "high",
+   "as_of_date": "2024-11-18"
+  },
+  {
+   "id": "ENT_FIRMUS",
+   "name": "Firmus Technologies",
+   "legal_name": null,
+   "entity_type": "developer",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "NVIDIA DSX AI-factory partner (NVIDIA release, 9 Sep 2026): expanding Project Southgate, 'developing NVIDIA-powered AI factories designed to support hyperscale and AI-native demand across Australia and Asia-Pacific' (co-CEO Oliver Curtis quoted). Not previously in the observatory register; sites, capacity and locations unverified here (RG-091).",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": "ENT_SHARON_AI",
+   "name": "Sharon AI",
+   "legal_name": null,
+   "entity_type": "vendor",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "NVIDIA DSX AI-factory partner (NVIDIA release, 9 Sep 2026): 'deploying up to 68,000 NVIDIA GPUs' on Quantum InfiniBand and Spectrum-X Ethernet; CEO James Manning frames it as 'gigawatt-scale AI factories' for 'Australian enterprises, researchers, government and AI natives' with security and sovereignty emphasised. GPU count is a company claim inside an NVIDIA release - CLAIMED grade in metrics.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": "ENT_IREN",
+   "name": "IREN Limited",
+   "legal_name": null,
+   "entity_type": "developer",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "NVIDIA DSX AI-factory partner (NVIDIA release, 9 Sep 2026): applying the DSX reference architecture 'across our development portfolio', naming an 800-megawatt Bundey campus in South Australia (co-CEO Daniel Roberts quoted). Bundey is not in the observatory's 93-site register - reconcile (RG-091).",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": "ENT_RESETDATA",
+   "name": "ResetData",
+   "legal_name": null,
+   "entity_type": "vendor",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "NVIDIA DSX AI-factory partner (NVIDIA release, 9 Sep 2026): AI cloud for 'enterprises, government and research customers that require high-performance compute and Australian data residency' (joint CEO Marcel Zalloua quoted); cites 'sovereign, purpose-built infrastructure'. The data-residency positioning is the same market Palantir Platform Australia sells into - whether ResetData and Palantir workloads ever coincide is RG-091.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": "ENT_MEGAPORT",
+   "name": "Megaport",
+   "legal_name": null,
+   "entity_type": "telecom",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "asx_ticker": "MP1",
+   "website": null,
+   "notes": "ASX-listed network-as-a-service provider. NVIDIA DSX partner (9 Sep 2026) via wholly owned subsidiary Latitude.sh, 'to support the inference needs of leading AI enterprises' combined with Megaport's software-defined network (CEO Michael Reid quoted). Connectivity layer under the AI-factory buildout.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
   }
  ],
  "entity_aliases": [
@@ -6290,6 +6539,156 @@
    "source_id": "SRC_GOVMARKET_TCS",
    "confidence": "medium",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 24,
+   "supplier_entity_id": "ENT_PALANTIR_AU",
+   "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+   "agency": "Department of Defence",
+   "agency_entity_id": "ENT_DOD_AU",
+   "contract_title": "ICT System Platform (JCG - Cyber Warfare Division)",
+   "value_aud": 7639894.9,
+   "value_incl_gst": 1,
+   "portal": "AusTender",
+   "portal_id": "CN4218984",
+   "award_published": "2026-02-11",
+   "contract_start": "2026-02-06",
+   "contract_end": "2027-02-01",
+   "method_of_tendering": "Limited tender",
+   "category": "Software",
+   "abn": "48144948309",
+   "is_duplicate_of": null,
+   "duplicate_note": null,
+   "verification_note": "VERIFIED AGAINST THE PRIMARY NOTICE, read in full. Original value $7,639,894.90 recorded here; the notice now shows $10,389,894.90 after amendment CN4218984-A1 (+$2,750,000.00, executed 2 Apr 2026) - see the amendment row (id 25), which is flagged is_duplicate_of this row. Limited tender condition 10.3.e (compatibility/continuation with existing supplier); one supplier invited; executed 6 Feb 2026; agency reference 4610003517. Crikey (17 Feb 2026) reports it as Defence's largest Palantir contract and quotes Senator Pocock calling the procurement 'land and expand'. Value inc GST per AusTender reporting convention.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN4218984",
+   "confidence": "high",
+   "as_of_date": "2026-02-11"
+  },
+  {
+   "id": 25,
+   "supplier_entity_id": "ENT_PALANTIR_AU",
+   "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+   "agency": "Department of Defence",
+   "agency_entity_id": "ENT_DOD_AU",
+   "contract_title": "ICT System Platform (JCG - Cyber Warfare Division) - amendment A1",
+   "value_aud": 10389894.9,
+   "value_incl_gst": 1,
+   "portal": "AusTender",
+   "portal_id": "CN4218984-A1",
+   "award_published": "2026-04-08",
+   "contract_start": "2026-02-06",
+   "contract_end": "2027-02-01",
+   "method_of_tendering": "Limited tender",
+   "category": "Software",
+   "abn": "48144948309",
+   "is_duplicate_of": 24,
+   "duplicate_note": "SAME UNDERLYING CONTRACT as CN4218984 (id 24), second AusTender notice: the 8 Apr 2026 amendment raising the value by $2,750,000.00 (executed 2 Apr 2026) to $10,389,894.90 - a 36% increase eight weeks into a one-year limited-tender contract. Retained as a row so the amendment is auditable; excluded from totals via is_duplicate_of so the contract is never counted at both values.",
+   "verification_note": "VERIFIED AGAINST THE PRIMARY AMENDMENT NOTICE, read in full.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN4218984A1",
+   "confidence": "high",
+   "as_of_date": "2026-04-08"
+  },
+  {
+   "id": 26,
+   "supplier_entity_id": "ENT_PALANTIR_AU",
+   "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+   "agency": "Department of Defence",
+   "agency_entity_id": "ENT_DOD_AU",
+   "contract_title": "Software (JCG - Cyber Warfare Division)",
+   "value_aud": 4135076.99,
+   "value_incl_gst": 1,
+   "portal": "AusTender",
+   "portal_id": "CN4115523",
+   "award_published": "2024-12-12",
+   "contract_start": "2024-12-11",
+   "contract_end": "2025-06-30",
+   "method_of_tendering": "Open tender",
+   "category": "Components for information technology or broadcasting or telecommunications",
+   "abn": "48144948309",
+   "is_duplicate_of": null,
+   "duplicate_note": null,
+   "verification_note": "VERIFIED AGAINST THE PRIMARY NOTICE, read in full. Value $4,135,076.99 (original $4,265,954.66; amendment A1 variation 14 Aug 2025). One extension option; max end date 10 Dec 2025 - Crikey reports it ran until December 2025. Open tender under DTA Software and ERP Marketplace panel SON3490955 (ATM SLS/001 and DTA-ICT-066). This contract is what made Palantir an 'existing supplier' for the Feb 2026 limited tender.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN4115523",
+   "confidence": "high",
+   "as_of_date": "2024-12-12"
+  },
+  {
+   "id": 28,
+   "supplier_entity_id": "ENT_PALANTIR_AU",
+   "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+   "agency": "Department of Defence",
+   "agency_entity_id": "ENT_DOD_AU",
+   "contract_title": "Data Services (CASG - Commercial Group)",
+   "value_aud": 7150000.0,
+   "value_incl_gst": 1,
+   "portal": "AusTender",
+   "portal_id": "CN4104368",
+   "award_published": "2024-10-29",
+   "contract_start": "2024-08-16",
+   "contract_end": "2027-12-13",
+   "method_of_tendering": "Open tender",
+   "category": "Data services",
+   "abn": "48144948309",
+   "is_duplicate_of": null,
+   "duplicate_note": null,
+   "verification_note": "VERIFIED AGAINST THE PRIMARY NOTICE, read in full. $7,150,000.00; executed 16 Aug 2024 per contract period start; open tender via ATM AIC/RFP/38833/1; agency reference 4600081672. Crikey reports FOI-obtained emails show this contract was for Palantir's Foundry platform (the FOI documents themselves were not obtained - RG-086). DISCREPANCY RECORDED: the notice lists CASG Commercial Group as the branch; Crikey attributes the deal to the Cyber Warfare Division. Longest-running current contract (to Dec 2027).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN4104368",
+   "confidence": "high",
+   "as_of_date": "2024-10-29"
+  },
+  {
+   "id": 29,
+   "supplier_entity_id": "ENT_PALANTIR_AU",
+   "supplier_name": "Palantir Technologies Australia",
+   "agency": "Australian Criminal Intelligence Commission",
+   "agency_entity_id": "ENT_ACIC",
+   "contract_title": "Software Maintenance & Support",
+   "value_aud": 1402122.87,
+   "value_incl_gst": 1,
+   "portal": "AusTender",
+   "portal_id": "CN3996124",
+   "award_published": "2023-08-20",
+   "contract_start": "2023-06-01",
+   "contract_end": "2025-03-31",
+   "method_of_tendering": "Open tender",
+   "category": "Software maintenance and support",
+   "abn": "48144948309",
+   "is_duplicate_of": null,
+   "duplicate_note": null,
+   "verification_note": "VERIFIED AGAINST THE PRIMARY NOTICE, read in full. Value $1,402,122.87; ORIGINAL value $3,630,000.00 reduced by amendment A1 (variation 30 Aug 2024) - the reduction is unexplained on the notice. Executed 31 May 2023; open tender under SON3490955 (ATM P22/361). The supplier on the notice is 'Palantir Technologies Australia', ABN 48 144 948 309 (ENT_PALANTIR_AU). What the ACIC runs on Palantir software is not disclosed (RG-093).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN3996124",
+   "confidence": "high",
+   "as_of_date": "2023-08-20"
+  },
+  {
+   "id": 30,
+   "supplier_entity_id": "ENT_PALANTIR",
+   "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+   "agency": "Australian Signals Directorate",
+   "agency_entity_id": "ENT_ASD",
+   "contract_title": "Software Licencing",
+   "value_aud": 696981.39,
+   "value_incl_gst": 1,
+   "portal": "AusTender",
+   "portal_id": "CN3992202",
+   "award_published": "2023-08-04",
+   "contract_start": "2023-07-01",
+   "contract_end": "2024-06-30",
+   "method_of_tendering": "Limited tender",
+   "category": "Software",
+   "abn": null,
+   "is_duplicate_of": null,
+   "duplicate_note": null,
+   "verification_note": "VERIFIED AGAINST THE PRIMARY NOTICE, read in full. $696,981.39; period 1 Jul 2023 - 30 Jun 2024. Limited tender under exemption 'App A: 13. By, or on behalf of select Defence intelligence agencies' - competition and detail are exempted because the buyer is a signals-intelligence agency. SUPPLIER IS THE US PARENT (Denver CO, country UNITED STATES, ABN 'Exempt'), not the Australian subsidiary: which entity carried the licensed workload, and where the data sat, is exactly RG-087. Smallest and earliest of the five catalogued Commonwealth notices.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_AUSTENDER_CN3992202",
+   "confidence": "high",
+   "as_of_date": "2023-08-04"
   }
  ],
  "incentives": [
@@ -6486,7 +6885,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6495,7 +6894,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6504,7 +6903,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6513,7 +6912,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6522,16 +6921,16 @@
   },
   {
    "id": 5,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
-   "detail": "{\"counts\": {\"sources\": 5, \"metrics\": 122, \"entities\": 2, \"renewable_claims\": 2, \"research_gaps\": 1}, \"prepared_by\": \"scripts/analyse_cer.py\", \"prepared_on\": \"2026-09-18\"}"
+   "detail": "{\"counts\": {\"sources\": 5, \"metrics\": 122, \"entities\": 2, \"renewable_claims\": 2, \"research_gaps\": 1}, \"prepared_by\": \"scripts/analyse_cer.py\", \"prepared_on\": \"2026-09-21\"}"
   },
   {
    "id": 6,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6540,7 +6939,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6549,7 +6948,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6558,7 +6957,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6567,7 +6966,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6576,7 +6975,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6585,7 +6984,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6594,7 +6993,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -6603,7 +7002,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6612,7 +7011,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -6621,7 +7020,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6630,7 +7029,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6639,7 +7038,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -6648,7 +7047,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6657,7 +7056,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -6666,7 +7065,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6675,7 +7074,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6684,7 +7083,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6693,7 +7092,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -6702,7 +7101,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6711,7 +7110,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6720,7 +7119,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -6729,7 +7128,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6738,7 +7137,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -6747,7 +7146,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -6756,7 +7155,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6765,7 +7164,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -6774,7 +7173,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6783,7 +7182,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6792,7 +7191,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6801,7 +7200,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6810,7 +7209,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -6819,7 +7218,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -6828,7 +7227,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -6837,7 +7236,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6846,7 +7245,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -6855,7 +7254,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6864,7 +7263,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6873,7 +7272,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6882,7 +7281,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -6891,7 +7290,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -6900,7 +7299,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -6909,7 +7308,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6918,7 +7317,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -6927,7 +7326,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6936,7 +7335,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -6945,7 +7344,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6954,7 +7353,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -6963,7 +7362,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6972,7 +7371,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6981,7 +7380,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6990,7 +7389,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -6999,7 +7398,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7008,7 +7407,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7017,7 +7416,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7026,7 +7425,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7035,7 +7434,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7044,7 +7443,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7053,7 +7452,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7062,7 +7461,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7071,7 +7470,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7080,7 +7479,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7089,7 +7488,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7098,7 +7497,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7107,7 +7506,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7116,7 +7515,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7125,7 +7524,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7134,7 +7533,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7143,7 +7542,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7152,7 +7551,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7161,7 +7560,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7170,7 +7569,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7179,7 +7578,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7188,7 +7587,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7197,7 +7596,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7206,7 +7605,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7215,7 +7614,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7224,7 +7623,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7233,7 +7632,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7242,7 +7641,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7251,7 +7650,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7260,7 +7659,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7269,7 +7668,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7278,7 +7677,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7287,7 +7686,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7296,7 +7695,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7305,7 +7704,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7314,7 +7713,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7323,7 +7722,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7332,7 +7731,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7341,7 +7740,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7350,7 +7749,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7359,7 +7758,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7368,7 +7767,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7377,7 +7776,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7386,7 +7785,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:33Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7395,7 +7794,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7404,7 +7803,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7413,7 +7812,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7422,7 +7821,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7431,7 +7830,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-09-18T22:17:56Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7440,7 +7839,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-09-18T22:17:57Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7449,7 +7848,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-09-18T22:17:57Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7458,12 +7857,102 @@
   },
   {
    "id": 109,
-   "run_at": "2026-09-18T22:17:57Z",
+   "run_at": "2026-09-21T17:45:34Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sources\": 2, \"research_gaps\": 5, \"incentives\": 1}, \"prepared_by\": \"scripts/curate_status.py\", \"prepared_on\": \"2026-09-18\"}"
+  },
+  {
+   "id": 110,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "entities",
+   "action": "insert",
+   "rows_affected": 13,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 111,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "ownership",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 112,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "gov_contracts",
+   "action": "insert",
+   "rows_affected": 6,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 113,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "security_records",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 114,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "lobbying",
+   "action": "insert",
+   "rows_affected": 2,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 115,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "regulatory_events",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 116,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "community_events",
+   "action": "insert",
+   "rows_affected": 3,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 117,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "metrics",
+   "action": "insert",
+   "rows_affected": 15,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 118,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 9,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 119,
+   "run_at": "2026-09-21T17:45:34Z",
+   "pack": "palantir-nvidia-thread-2026-09",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 36, \"entities\": 13, \"ownership\": 1, \"gov_contracts\": 6, \"security_records\": 1, \"lobbying\": 2, \"regulatory_events\": 1, \"community_events\": 3, \"metrics\": 15, \"research_gaps\": 9}, \"prepared_by\": \"scripts/curate_palantir_nvidia.py (curated from sources read 2026-09-21)\", \"prepared_on\": \"2026-09-21\"}"
   }
  ],
  "instrument_application": [
@@ -8216,6 +8705,42 @@
    "source_id": "SRC_TCS_HYPERVAULT",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 14,
+   "actor_id": "ENT_PALANTIR",
+   "person": "Damian Parmenter CBE, former UK Ministry of Defence Director General AUKUS (2023 - 1 Feb 2025); Palantir Technologies UK Ltd 'Senior Counsellor' from July 2025",
+   "channel": "revolving_door",
+   "recipient": "UK MoD and AUKUS trilateral networks (contacts 'especially in the US and Australia')",
+   "event_date": "2025-07",
+   "instrument": "ACOBA business appointment advice letter, June 2025 (published c. Sep 2025)",
+   "position": "Senior advisory role providing 'decision support' to the UK Head of Palantir on international defence and security issues, 'focused on international opportunities within Europe and the Indo-Pacific' (Parmenter's own description to ACOBA)",
+   "outcome": "Appointment permitted subject to conditions: no use of privileged information; two-year bars on lobbying the UK government, on using in-office contacts to advantage Palantir (including 'in other governments and organisations'), and on advising on UK government/MoD bids; must not advise on the UK defence sector. Palantir confirmed adherence.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "ACOBA - a UK government ethics regulator - assessed the risk in writing: Parmenter 'would have amassed a network of contacts while in office especially in the US and Australia by virtue of his role at AUKUS ... a risk these contacts ... may be seen to offer new business development opportunities for Palantir'. As DG AUKUS he made no contractual or capability decisions (ACOBA), and Palantir attended his AUKUS outreach events; as DG Delivery and Strategy he visited Palantir 'to understand its work supporting Ukraine'. Australia has no published equivalent assessment for this or any Palantir appointment - the asymmetry is itself RG-090.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_ACOBA_PARMENTER",
+   "confidence": "high",
+   "as_of_date": "2025-09-05"
+  },
+  {
+   "id": 15,
+   "actor_id": "ENT_PALANTIR_AU",
+   "person": "Mike Kelly, former Labor Minister for Defence Materiel (2013); Australian president of Palantir 2020-2024",
+   "channel": "revolving_door",
+   "recipient": "Australian defence and national-security procurement networks",
+   "event_date": "2020",
+   "instrument": "ABC Four Corners revolving-door analysis, 23 August 2026",
+   "position": "Australian president of 'the controversial US software and intelligence company Palantir' (ABC's description)",
+   "outcome": "Served 2020-2024. Four Corners counts at least 60 former defence ministers, senior officers and officials now in weapons firms or lobbying companies; AUKUS is described by lobbyist Christopher Pyne as '$368 billion' of lifetime spend and by Senator Shoebridge as 'a multi-billion-dollar feast for lobbyists'.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "The Australian mirror of the Parmenter move: a former defence minister leading Palantir's Australian business during the period Defence's Palantir contracts catalogued in this pack were awarded (2023-2026). No impropriety is alleged by ABC or recorded here; post-separation employment conditions for Australian ministers (if any applied) are not published - part of RG-090.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_ABC_REVOLVING",
+   "confidence": "high",
+   "as_of_date": "2026-08-23"
   }
  ],
  "metrics": [
@@ -8847,7 +9372,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 43,
@@ -8862,7 +9387,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 44,
@@ -8877,7 +9402,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 45,
@@ -8892,7 +9417,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 46,
@@ -8907,7 +9432,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 47,
@@ -8922,7 +9447,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 48,
@@ -8937,7 +9462,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 49,
@@ -8952,7 +9477,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 50,
@@ -8967,7 +9492,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 51,
@@ -8982,7 +9507,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 52,
@@ -8997,7 +9522,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 53,
@@ -9012,7 +9537,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 54,
@@ -9027,7 +9552,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 55,
@@ -9042,7 +9567,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 56,
@@ -9057,7 +9582,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 57,
@@ -9072,7 +9597,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 58,
@@ -9087,7 +9612,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 59,
@@ -9102,7 +9627,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 60,
@@ -9117,7 +9642,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 61,
@@ -9132,7 +9657,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 62,
@@ -9147,7 +9672,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 63,
@@ -9162,7 +9687,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 64,
@@ -9177,7 +9702,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 65,
@@ -9192,7 +9717,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 66,
@@ -9207,7 +9732,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 67,
@@ -9222,7 +9747,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 68,
@@ -9237,7 +9762,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 69,
@@ -9252,7 +9777,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 70,
@@ -9267,7 +9792,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 71,
@@ -9282,7 +9807,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 72,
@@ -9297,7 +9822,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 73,
@@ -9312,7 +9837,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 74,
@@ -9327,7 +9852,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 75,
@@ -9342,7 +9867,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 76,
@@ -9357,7 +9882,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 77,
@@ -9372,7 +9897,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 78,
@@ -9387,7 +9912,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 79,
@@ -9402,7 +9927,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 80,
@@ -9417,7 +9942,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 81,
@@ -9432,7 +9957,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 82,
@@ -9447,7 +9972,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 83,
@@ -9462,7 +9987,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 84,
@@ -9477,7 +10002,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 85,
@@ -9492,7 +10017,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 86,
@@ -9507,7 +10032,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 87,
@@ -9522,7 +10047,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 88,
@@ -9537,7 +10062,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 89,
@@ -9552,7 +10077,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 90,
@@ -9567,7 +10092,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 91,
@@ -9582,7 +10107,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 92,
@@ -9597,7 +10122,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 93,
@@ -9612,7 +10137,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 94,
@@ -9627,7 +10152,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 95,
@@ -9642,7 +10167,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 96,
@@ -9657,7 +10182,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 97,
@@ -9672,7 +10197,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 98,
@@ -9687,7 +10212,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 99,
@@ -9702,7 +10227,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 100,
@@ -9717,7 +10242,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 101,
@@ -9732,7 +10257,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 102,
@@ -9747,7 +10272,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 103,
@@ -9762,7 +10287,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 104,
@@ -9777,7 +10302,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 105,
@@ -9792,7 +10317,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 106,
@@ -9807,7 +10332,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 107,
@@ -9822,7 +10347,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 108,
@@ -9837,7 +10362,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 109,
@@ -9852,7 +10377,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 110,
@@ -9867,7 +10392,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 111,
@@ -9882,7 +10407,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 112,
@@ -9897,7 +10422,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 113,
@@ -9912,7 +10437,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 114,
@@ -9927,7 +10452,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 115,
@@ -9942,7 +10467,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 116,
@@ -9957,7 +10482,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 117,
@@ -9972,7 +10497,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 118,
@@ -9987,7 +10512,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 119,
@@ -10002,7 +10527,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 120,
@@ -10017,7 +10542,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 121,
@@ -10032,7 +10557,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 122,
@@ -10047,7 +10572,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 123,
@@ -10062,7 +10587,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 124,
@@ -10077,7 +10602,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 125,
@@ -10092,7 +10617,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 126,
@@ -10107,7 +10632,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 127,
@@ -10122,7 +10647,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 128,
@@ -10137,7 +10662,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 129,
@@ -10152,7 +10677,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 130,
@@ -10167,7 +10692,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 131,
@@ -10182,7 +10707,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 132,
@@ -10197,7 +10722,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 133,
@@ -10212,7 +10737,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 134,
@@ -10227,7 +10752,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 135,
@@ -10242,7 +10767,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 136,
@@ -10257,7 +10782,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 137,
@@ -10272,7 +10797,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 138,
@@ -10287,7 +10812,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 139,
@@ -10302,7 +10827,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 140,
@@ -10317,7 +10842,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 141,
@@ -10332,7 +10857,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 142,
@@ -10347,7 +10872,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 143,
@@ -10362,7 +10887,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 144,
@@ -10377,7 +10902,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 145,
@@ -10392,7 +10917,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 146,
@@ -10407,7 +10932,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 147,
@@ -10422,7 +10947,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 148,
@@ -10437,7 +10962,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 149,
@@ -10452,7 +10977,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 150,
@@ -10467,7 +10992,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 151,
@@ -10482,7 +11007,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 152,
@@ -10497,7 +11022,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 153,
@@ -10512,7 +11037,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 154,
@@ -10527,7 +11052,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 155,
@@ -10542,7 +11067,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 156,
@@ -10557,7 +11082,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 157,
@@ -10572,7 +11097,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 158,
@@ -10587,7 +11112,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 159,
@@ -10602,7 +11127,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 160,
@@ -10617,7 +11142,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 161,
@@ -10632,7 +11157,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 162,
@@ -10647,7 +11172,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_MARKETS2",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 163,
@@ -10662,7 +11187,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_MARKETS2",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 164,
@@ -13093,6 +13618,231 @@
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 326,
+   "as_of": "2026-09",
+   "scope": "Australia",
+   "metric_name": "nvidia_dsx_au_buildout_ceiling",
+   "value": 2000.0,
+   "unit": "MW",
+   "basis": "forecast_high",
+   "scenario": null,
+   "notes": "NVIDIA's 9 Sep 2026 release: 'up to a 2-gigawatt buildout by 2027' of DSX AI factories across eight Australian partners (Firmus, Sharon AI, IREN, ResetData, Megaport/Latitude.sh, CDC, NEXTDC, AirTrunk). A ceiling, not a commitment: no per-partner or per-site allocation is published, and 'land, power and shell capacity designed to host' is not energised IT load. Never sum with the observatory's site capacities.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": 327,
+   "as_of": "2026-09",
+   "scope": "Australia",
+   "metric_name": "sharon_ai_nvidia_gpu_deployment_ceiling",
+   "value": 68000.0,
+   "unit": "GPUs",
+   "basis": "forecast_high",
+   "scenario": null,
+   "notes": "'Up to 68,000 NVIDIA GPUs' - Sharon AI's own figure inside the NVIDIA release; no location, generation split or energised status published.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "low",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": 328,
+   "as_of": "2026-09",
+   "scope": "South Australia",
+   "metric_name": "iren_bundey_campus_capacity",
+   "value": 800.0,
+   "unit": "MW",
+   "basis": "pipeline",
+   "scenario": null,
+   "notes": "IREN's '800-megawatt Bundey campus in South Australia' named in the NVIDIA release as a DSX deployment site. Not in the observatory's 93-site register; reconcile against SA planning records (RG-091).",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": 329,
+   "as_of": "2026-09",
+   "scope": "Australia / New Zealand",
+   "metric_name": "cdc_operating_capacity_claim_nvidia_release",
+   "value": 550.0,
+   "unit": "MW",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "CDC CEO Greg Boorer in the NVIDIA release: 'more than 550 megawatts of capacity across Australia and New Zealand, with a further 800 megawatts under construction'. Company claim at a partner announcement; the observatory's own consent-based CDC rows are the check against it - do not merge (RG-091).",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": 330,
+   "as_of": "2026-09",
+   "scope": "Australia / New Zealand",
+   "metric_name": "cdc_under_construction_claim_nvidia_release",
+   "value": 800.0,
+   "unit": "MW",
+   "basis": "pipeline",
+   "scenario": null,
+   "notes": "Second half of the Boorer claim above. Basis pipeline, not actual.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "medium",
+   "as_of_date": "2026-09-09"
+  },
+  {
+   "id": 331,
+   "as_of": "2026-02",
+   "scope": "Australia",
+   "metric_name": "defence_palantir_spend_since_2013",
+   "value": 26.0,
+   "unit": "AUD m",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Crikey's analysis of AusTender: Defence 'has now spent more than $26 million on Palantir contracts since 2013'. A floor ('more than'), not an exact total. The five notices catalogued in this pack sum to less - the balance sits in older notices not yet pulled (historical AusTender data on data.gov.au); full ledger is RG-086.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_CRIKEY_DEF_FEB26",
+   "confidence": "medium",
+   "as_of_date": "2026-02-17"
+  },
+  {
+   "id": 332,
+   "as_of": "2025-12-31",
+   "scope": "Australia",
+   "metric_name": "futurefund_palantir_holding",
+   "value": 165307100.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "620,169 shares (code BN78DQ4), 0.06% of the Future Fund - read directly from the archived Periodic Investment Report CSV (sha256 5354c9dff...efeab). Trajectory: A$1,616,512.92 (Feb 2023, Crikey citing FF) -> A$103,649,987 / 498,339 shares (30 Jun 2025, Crikey citing FF) -> A$165,307,100 (31 Dec 2025, primary). Share count rose ~24% Jun->Dec 2025; value rose ~60% (price + accumulation - the split is not computed here).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2025-12-31"
+  },
+  {
+   "id": 333,
+   "as_of": "2025-06-30",
+   "scope": "Australia",
+   "metric_name": "futurefund_palantir_holding_jun2025",
+   "value": 103649987.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "498,339 shares as of 30 June 2025 per Crikey citing the Future Fund periodic report. The June-2025 CSV was not re-downloaded (the FF site now serves the December 2025 report); verification against the primary file is RG-094.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_CRIKEY_FF_JAN26",
+   "confidence": "high",
+   "as_of_date": "2026-01-29"
+  },
+  {
+   "id": 334,
+   "as_of": "2025-05",
+   "scope": "United States",
+   "metric_name": "maven_smart_system_idiq_ceiling",
+   "value": 1300.0,
+   "unit": "USD m",
+   "basis": "signed",
+   "scenario": null,
+   "notes": "Maven Smart System IDIQ ceiling raised from US$480m (May 2024) to US$1.3bn (May 2025); Reuters (Mar 2026) and DefenseScoop (May 2025) agree. On 9 Mar 2026 the Deputy SecDef directed Maven become an official program of record. USD, not AUD - never sum with Australian contract rows.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_REUTERS_MAVEN_MAR26",
+   "confidence": "high",
+   "as_of_date": "2026-03-20"
+  },
+  {
+   "id": 335,
+   "as_of": "2025-07",
+   "scope": "United States",
+   "metric_name": "army_palantir_enterprise_agreement_ceiling",
+   "value": 10.0,
+   "unit": "USD bn",
+   "basis": "signed",
+   "scenario": null,
+   "notes": "10-year Army enterprise agreement 'worth up to $10 billion' consolidating 75 contracts (15 prime, 60 related); announced 31 Jul 2025 (army.mil release; DefenseScoop/Breaking Defense/Washington Technology corroborate). A ceiling across a decade, not an award.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_ARMY_EA_JUL25",
+   "confidence": "high",
+   "as_of_date": "2025-07-31"
+  },
+  {
+   "id": 336,
+   "as_of": "2025-09",
+   "scope": "United Kingdom",
+   "metric_name": "uk_palantir_investment_pledge",
+   "value": 1.5,
+   "unit": "GBP bn",
+   "basis": "forecast_high",
+   "scenario": null,
+   "notes": "'Up to \u00a31.5bn' Palantir investment in the UK under the 18 Sep 2025 strategic partnership signed by the Defence Secretary; up to 350 jobs; London as European defence HQ; MoD opportunities 'worth up to \u00a3750 million over the next five years'. A pledge and an opportunity estimate in a government release - not contracted spend.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_GOVUK_PALANTIR_SEP25",
+   "confidence": "medium",
+   "as_of_date": "2025-09-18"
+  },
+  {
+   "id": 337,
+   "as_of": "2026-03",
+   "scope": "United States",
+   "metric_name": "palantir_market_cap",
+   "value": 360.0,
+   "unit": "USD bn",
+   "basis": "estimate",
+   "scenario": null,
+   "notes": "Reuters, 20 Mar 2026: contract wins 'helped double the company's stock price in the past year, lifting its market value to nearly $360 billion'. Approximate and time-varying; context for the scale asymmetry between the vendor and its second-tier-government customers.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_REUTERS_MAVEN_MAR26",
+   "confidence": "medium",
+   "as_of_date": "2026-03-20"
+  },
+  {
+   "id": 338,
+   "as_of": "2026-07",
+   "scope": "Western Australia",
+   "metric_name": "wa_frt_trial_week1_faces_scanned",
+   "value": 130000.0,
+   "unit": "faces scanned",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "WA Police real-time facial recognition trial (from 2 Jul 2026, Perth): one mobile van scanned 130,000+ faces in crowded public spaces in week one; 33 alerts; 19 arrests; two acknowledged false alerts; database ~4,000 people. NOT a Palantir system on any evidence found - vendor undisclosed (RG-093). Recorded because it is the verified Australian baseline against which 'pre-crime' claims must be measured.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_GUARDIAN_WA_FRT",
+   "confidence": "high",
+   "as_of_date": "2026-07-20"
+  },
+  {
+   "id": 339,
+   "as_of": "2026-07",
+   "scope": "Western Australia",
+   "metric_name": "wa_frt_trial_week1_arrests",
+   "value": 19.0,
+   "unit": "arrests",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Week-one arrests from the 33 alerts above, including one executed live during the commissioner's media conference. Two welfare checks; 21 registered sex offenders 'engaged with'.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_GUARDIAN_WA_FRT",
+   "confidence": "high",
+   "as_of_date": "2026-07-20"
+  },
+  {
+   "id": 340,
+   "as_of": "2026",
+   "scope": "Australia",
+   "metric_name": "australians_frt_biggest_privacy_risk",
+   "value": 45.0,
+   "unit": "% of respondents",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "2026 Australian Community Attitudes to Privacy Survey (OAIC, cited via the Guardian): 45% of Australians consider facial recognition the biggest privacy risk they face, up from 27% in 2023; comfort with police biometric use down to 57%. The perception-side datapoint for this thread.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_GUARDIAN_WA_FRT",
+   "confidence": "medium",
+   "as_of_date": "2026-07-20"
   }
  ],
  "modifications": [
@@ -13618,6 +14368,24 @@
    "source_id": "SRC_TCS_HYPERVAULT",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 12,
+   "holder_id": "ENT_FUTUREFUND",
+   "target_id": "ENT_PALANTIR",
+   "stake_pct": 0.06,
+   "instrument": "equity",
+   "effective_from": null,
+   "effective_to": null,
+   "transaction_value_aud": null,
+   "event": null,
+   "firb_reviewed": 0,
+   "firb_outcome": null,
+   "notes": "Future Fund listed-equity holding in Palantir Technologies Inc. (code BN78DQ4): 620,169 shares valued at A$165,307,100 - 0.06% of the fund - read directly from the Periodic Investment Report as at 31 Dec 2025 (archived CSV, sha256 5354c9dff...efeab). Trajectory per Crikey citing FF disclosures: A$1,616,512.92 (Feb 2023) -> 498,339 shares / A$103,649,987 (30 Jun 2025) -> A$165,307,100 (31 Dec 2025); Crikey notes the stake exceeds the fund's holdings in AGL, Seek or NEXTDC. This is a market holding, not control: stake_pct is the fund's share OF ITS OWN PORTFOLIO (0.06%), not of Palantir - recorded here because the table is the database's control-and-influence chain and sovereign-wealth exposure to a defence-AI vendor is influence-adjacent capital. Not a transaction, so transaction_value_aud is NULL rather than the holding value.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2025-12-31"
   }
  ],
  "power_profile": [
@@ -14709,6 +15477,22 @@
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 25,
+   "event_date": "2026-07-15",
+   "regulator_id": null,
+   "instrument_id": null,
+   "site_id": null,
+   "entity_id": null,
+   "event_type": "other",
+   "summary": "Prime Minister announces mandatory 'Australian Standards for AI': a single national framework covering large AI data centres' locations, power and water use, absorbing the March 2026 expectations for large AI data centres; National Cabinet agreement sought for August 2026; legislation planned for early 2027. Next-generation large-scale data centres to be legally obliged to underwrite new power supply, pay their full share of grid connection, be net generators of energy, minimise water use and pay for additional water infrastructure. Speech also names AI 'a critical - and urgent - innovation priority for our defence force and security agencies' and warns against 'subcontracting our sovereignty and security to the control of foreign monopolies'.",
+   "outcome": "Framework announced; National Cabinet and legislation pending as at Sep 2026.",
+   "notes": "event_type 'other' because the vocabulary has no 'framework_announced' value and forcing 'rule_change_request' would misstate a government announcement as a request. Recorded in this thread because it is the policy frame into which NVIDIA's up-to-2GW Australian AI-factory buildout landed eight weeks later (9 Sep 2026), and because its net-generator and water obligations interact directly with the observatory's existing consent-condition findings.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_PM_AI_STANDARDS",
+   "confidence": "high",
+   "as_of_date": "2026-07-15"
   }
  ],
  "renewable_claims": [
@@ -14728,7 +15512,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_AIRTRUNK_PPA",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 2,
@@ -14800,7 +15584,7 @@
    "fact_status": "VERIFIED",
    "source_id": "SRC_GP2026",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 6,
@@ -15067,12 +15851,12 @@
    "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": "2026-09-18",
+   "resolved_date": "2026-09-21",
    "notes": "Resolved 2026-09-18. Downloaded and parsed NGER corporate data 2019-20 to 2024-25 (398-415 corporations per year), market-based scope 2 tables 2023-24 and 2024-25, the LGC certificate shortfall register (143 entries 2001-2025), the 2024-25 Safeguard baselines and emissions table (228 facilities) and the REC Registry LGC holdings snapshot (1,306 accounts). See reports/cer_analysis.md and exports/cer/dc_operators_nger_trend.csv. Residual: facility-level (as opposed to corporate-level) NGER data is not published in this dataset, so emissions cannot yet be attributed to individual sites; and Microsoft, Google and Meta do not appear at all, which is a threshold-or-naming result requiring RG-013.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CER_NGERS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-09-21"
   },
   {
    "id": 10,
@@ -16333,6 +17117,168 @@
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 86,
+   "pillar": "B",
+   "question": "Build the complete Palantir contract ledger for ALL Australian governments: Commonwealth notices back to 2013 (including the pre-2018 records behind Crikey's '>$26m Defence since 2013' and CN1677931, whose amendment names PALANTIR TECHNOLOGIES INC.), state portals (buy.nsw, Buying for Victoria, QTenders, WA/SA/TAS/NT/ACT), and the DTA Software Marketplace panel SON3490955 - confirming Palantir's panel membership, category and every call-off against it.",
+   "why_it_matters": "The originating brief asks what Australia's arrangements cost. Five notices are catalogued (Defence x3 + amendment, ACIC, ASD: A$21.0m at original values, A$23.8m counting CN4218984 at its amended value); Crikey's Defence-only floor is >$26m since 2013, so a material tail is uncaptured. Without the ledger the observatory cannot state the total, its growth rate, or which agencies beyond Defence/ASD/ACIC are buyers.",
+   "target_source": "AusTender historical contract data (data.gov.au dataset), AusTender CN search by supplier name/ABN 48144948309, BuyICT/SON3490955 seller schedule, state tender portals; FOI to Defence for the CN4104368 Foundry emails Crikey cites",
+   "retrieval_method": "dataset_download",
+   "priority": 5,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Opened by the Palantir-NVIDIA thread. The ABN filter on AusTender is exact-match: search both '48 144 948 309' and supplier-name variants ('PALANTIR TECHNOLOGIES INC.', 'Palantir Technologies Australia').",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_CRIKEY_DEF_FEB26",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 87,
+   "pillar": "C",
+   "question": "Establish where Australian data actually sits for each Palantir deployment: which entity (Palantir Technologies Australia Pty Ltd vs the US parent - the ASD notice names the parent, ABN 'Exempt'), which platform (Palantir Platform Australia on AWS Australian regions, per the IRAP release, vs on-premises in Defence facilities vs offshore), and whether any workload leaves Australian jurisdiction. Map any identified hosting facilities against the observatory's site register (starting with SITE_AWS_AU_FLEET).",
+   "why_it_matters": "The brief's central unknown: 'where Australian data is stored under these arrangements'. The company's own release establishes PPA is 'hosted in Australian Amazon Web Services (AWS) regions', but IRAP PROTECTED is a platform-level assessment, not a per-deployment guarantee; the ASD contract's US-parent supplier of record and its intelligence-agency exemption mean the highest-sensitivity deployment is the least documented. Apollo's design (continuous delivery across environments, 'from the back of a humvee to the hull of a submarine') means the same software can run anywhere - which is precisely why the residency question must be answered per deployment, not per vendor.",
+   "target_source": "FOI to Department of Defence (Cyber Warfare Division; CASG) and ASD (scope-limited requests around hosting location and data jurisdiction); IRAP certificate/assessment scope via ASD; AWS Australia region facility disclosures; Palantir Platform Australia documentation",
+   "retrieval_method": "foi_request",
+   "priority": 5,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "RG-007's FOI strategy (reports/RG007_foi_strategy.md) is the template. Note the App A:13 exemption on CN3992202 may block parts of any ASD request; frame requests around hosting and jurisdiction rather than capability.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_PALANTIR_IRAP_NOV25",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 88,
+   "pillar": "B",
+   "question": "Complete the register of Australian companies partnering with or buying Palantir: verify the Westpac relationship (currently evidenced only by a LinkedIn post from a Palantir APAC executive, via Crikey), and test for others (banks, miners, retailers, telcos, airlines) via company disclosures, Palantir customer case studies, AIPCon appearances and ASX announcements.",
+   "why_it_matters": "The brief asks 'which Australian companies partner with Palantir'. Verified so far: Rio Tinto (four-year AIP/Foundry extension, Pilbara autonomous-rail operations centre) and Coles (workforce management and executive oversight analytics). Westpac rests on a single weak source. Commercial deployments matter to this thread because they are the on-ramp: Foundry Ontology deployments inside ASX-50 companies normalise the platform that the NVIDIA partnership now binds to GPU-accelerated, 'sovereign' AI-factory infrastructure.",
+   "target_source": "Rio Tinto and Coles annual reports/sustainability reports (vendor disclosures); Westpac media enquiries; Palantir customer pages and AIPCon agendas; ASX announcements; iTnews/AFR coverage",
+   "retrieval_method": "manual_review",
+   "priority": 4,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Do not create an entity for Westpac on LinkedIn evidence alone - the row stays out until a second source appears.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_CRIKEY_AUS_LINKS_JUL25",
+   "confidence": "medium",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 89,
+   "pillar": "C",
+   "question": "Resolve the ASD clearance discrepancy: Crikey (17 Feb 2026) states ASD granted Palantir 'a top security clearance' in November 2024; Palantir's primary announcement of IRAP PROTECTED is 20 November 2025. What exactly was granted or assessed in November 2024 (if anything), and what is the relationship between any ASD certification, the IRAP PROTECTED assessment, and facility/personnel clearances?",
+   "why_it_matters": "Two sourced claims about the same regulator disagree by twelve months and conflate an assessment regime (IRAP) with a clearance. The observatory's rule is that a discrepancy between sources is a finding: either Crikey's date is wrong, or a separate November 2024 event exists that Palantir has not publicised. Until resolved, the pack records both claims as sourced and neither as fact.",
+   "target_source": "FOI to ASD (existence and type of any Palantir certification or clearance decision, 2024-2025); Crikey right-of-response/clarification; Palantir media enquiries; ASD Certified Cloud Services List and IRAP assessment registers if published",
+   "retrieval_method": "foi_request",
+   "priority": 3,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Also check whether 'Palantir Platform Australia' appears on any ASD-published list - the absence of a public IRAP register is itself part of the answer.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_CRIKEY_DEF_FEB26",
+   "confidence": "medium",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 90,
+   "pillar": "C",
+   "question": "Establish Palantir's and NVIDIA's actual position in AUKUS: whether either company holds AUKUS Pillar II (advanced capabilities, including AI) work, what Damian Parmenter's 'Indo-Pacific' remit at Palantir has involved with Australian counterparts since July 2025, and what post-separation employment conditions (if any) applied to Mike Kelly's 2020 move from defence minister to Palantir Australia president.",
+   "why_it_matters": "The brief connects the partnership to AUKUS. Verified so far: the UK ethics regulator (ACOBA) wrote a primary-source risk assessment of the AUKUS-DG-to-Palantir move naming Australia as the risk surface, with a two-year lobbying bar; ABC documents the Australian mirror (Kelly) inside a 60-person revolving-door population around a $368bn program (Pyne's figure). What is NOT evidenced: any Palantir or NVIDIA AUKUS Pillar II contract. Asserting one would fabricate the very link the thread exists to test.",
+   "target_source": "UK ACOBA compliance follow-ups; Australian Register of Lobbyists (former-government-representative disclosures); Defence/AUKUS taskforce FOI; Pillar II announcements (Advanced Capabilities Initiative); Parmenter and Kelly public appearances; Palantir Australia engagements with DSTG/ASPI events",
+   "retrieval_method": "manual_review",
+   "priority": 4,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Australia has no published ACOBA equivalent - if no post-separation conditions for Kelly exist on the record, that absence is the finding.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_ACOBA_PARMENTER",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 91,
+   "pillar": "A",
+   "question": "Map the NVIDIA DSX Australian buildout onto the physical site register: which of the observatory's 93 sites (NEXTDC S7/M-series, AirTrunk SYD/MEL, CDC campuses, AWS fleet) are or will host NVIDIA DSX 'AI factories'; locate IREN's 800 MW Bundey (SA) and Firmus's Project Southgate against planning records; and reconcile the partner-claimed figures (CDC >550 MW operating / 800 MW under construction; Sharon AI up to 68,000 GPUs) against consent-based capacities.",
+   "why_it_matters": "This is the thread's core mapping question: how a hardware vendor's announcement lands on Australian land, grid and water. The 2 GW ceiling is undifferentiated in NVIDIA's release; the observatory's value is per-site, consent-sourced capacity. Where claims and consents diverge, that divergence is a finding - and the PM's July 2026 standards (net-generator obligations, water rules) attach to exactly these sites. Whether any of these AI factories will host Palantir workloads (AIP 'in NVIDIA AI factories', per the Oct 2025 release) is the open circuit between the two halves of this thread.",
+   "target_source": "SA planning portal (Bundey); Firmus Project Southgate announcements and planning records; NEXTDC/AirTrunk/CDC/Megaport ASX and investor disclosures on NVIDIA DSX deployments; NSW/VIC consent register rows already harvested",
+   "retrieval_method": "scrape_portal",
+   "priority": 4,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Do not populate site rows from the NVIDIA release: partner marketing figures are CLAIMED and site-level capacity must come from consents or operator filings, per the live_capacity rule.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NVIDIA_AU_2GW",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 92,
+   "pillar": "C",
+   "question": "Verify the Jensen Huang 'accelerate everything Palantir does' quote against the GTC Washington DC keynote recording (youtube.com/live/lQHK61IDFH4, t~5114s per Palantir's blog) and archive the transcript segment, so the pack's quote rests on the primary recording rather than the Sherwood transcript alone.",
+   "why_it_matters": "The quote is the thread's headline claim and arrived via a community video's paraphrase. Sherwood News provides a contemporaneous verbatim transcript (graded B); the keynote video is the primary artefact. The gap between the paraphrase ('accelerate everything that Palantir does') and the full sentence (which specifies data processing 'for our government, for national security, and for enterprises around the world') is the difference between a slogan and an evidenced claim - and the observatory exists to hold that line.",
+   "target_source": "NVIDIA GTC DC keynote recording (YouTube lQHK61IDFH4); NVIDIA On-Demand session archive; CNBC's same-day Huang-Karp fireside chat coverage",
+   "retrieval_method": "manual_review",
+   "priority": 2,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Once verified, SRC_SHERWOOD_GTC_QUOTE rows can move REPORTED->VERIFIED and the GNCA paraphrase stays on record as provenance only.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_SHERWOOD_GTC_QUOTE",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 93,
+   "pillar": "D",
+   "question": "Establish whether any Australian law-enforcement or criminal-justice agency runs Palantir software, and for what: what the ACIC's 'Software Maintenance & Support' contract actually supports; whether any state police force, Home Affairs/ABF or AFP holds a Palantir deployment (state portals, not just AusTender); the vendor of the WA Police real-time FRT trial; and the current tooling of the NSW Police Real Time Intelligence Centre post-Cognitec.",
+   "why_it_matters": "The brief asserts 'facial recognition and pre-crime arrest capabilities' as a partnership consequence. The verified Australian picture is different and must stay different until evidenced: live-FRT arrests are happening (WA, from July 2026) with NO vendor named; NSW Police ran a 2011-vintage Cognitec algorithm plus in-house FaceNet-derived NYX; the ACLU-documented Palantir policing tools (NOPD threat scores, ICE ELITE/ICM) are American. If Palantir software ever touches an Australian police watchlist or fusion system, that is a material new fact; the absence of such evidence today is also a fact, and the gap says which.",
+   "target_source": "buy.nsw / Buying for Victoria / QTenders searches (Palantir, ABN 48144948309); WA Police FRT trial disclosures and OIC WA correspondence; ACIC annual reports and FOI; NSW Police FOI on PhotoTrac/SIS successor tooling; AFP and Home Affairs procurement plans",
+   "retrieval_method": "foi_request",
+   "priority": 4,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Strict separation rule for this thread: no row may link Palantir to an Australian policing capability without a primary source. The WA trial row carries no vendor attribution and must not gain one by inference.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_GUARDIAN_WA_FRT",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 94,
+   "pillar": "B",
+   "question": "Extend the public-money exposure check beyond the Future Fund: pull the June-2025 Future Fund PIR CSV to verify the 498,339-share/A$103.6m figure from the primary file; and scan the other Commonwealth funds (MRFF, Future Drought, Disaster Ready, HAFF, DisabilityCare, ATSILS - December-2025 PIRs all published) plus CSC and state funds for PLTR and NVDA holdings.",
+   "why_it_matters": "'Australia's position' in this thread is not only procurement: the Future Fund holds more Palantir stock than NEXTDC stock while NEXTDC is simultaneously an NVIDIA DSX partner and an observatory-tracked operator. If multiple public funds hold PLTR/NVDA, sovereign capital is exposed to both sides of the partnership - a Pillar B fact the brief did not anticipate and the ledger should not miss.",
+   "target_source": "futurefund.gov.au periodic investment report CSVs (June 2025 and the six December-2025 fund reports); CSC annual reports; state fund disclosures",
+   "retrieval_method": "dataset_download",
+   "priority": 3,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-09-21",
+   "resolved_date": null,
+   "notes": "Archive every CSV pulled under data/raw/futurefund/ with SHA-256 manifests, as done for the December-2025 Future Fund PIR.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2026-09-21"
   }
  ],
  "security_records": [
@@ -16420,6 +17366,23 @@
    "source_id": "SRC_REUTERS_S7",
    "confidence": "high",
    "as_of_date": "2026-07-23"
+  },
+  {
+   "id": 6,
+   "subject_entity_id": "ENT_PALANTIR",
+   "site_id": null,
+   "regime": "protective_security",
+   "status": "IRAP PROTECTED level assessment completed (announced by company)",
+   "foreign_control_pct": null,
+   "ultimate_controller": null,
+   "determination_date": "2025-11-20",
+   "conditions": null,
+   "sovereign_data_carriage": null,
+   "notes": "Palantir announced IRAP PROTECTED completion under the Information Security Registered Assessors Program on 20 Nov 2025, assessed by an independent third-party assessor per ASD requirements. Its release states Palantir Platform Australia (PPA) delivers Foundry and AIP 'hosted in Australian Amazon Web Services (AWS) regions' - the company's own primary statement of Australian data residency for PPA. sovereign_data_carriage deliberately NULL: PPA hosting in Australian AWS regions does not establish that any specific Australian deployment (Defence CWD, ASD, ACIC) runs on PPA, and IRAP PROTECTED is an assessment level, not a sovereignty guarantee (RG-087). DISCREPANCY: Crikey (17 Feb 2026) states ASD granted Palantir 'a top security clearance' in November 2024 - no primary record found; IRAP is not a security clearance (RG-089). The certificate itself was not obtained.",
+   "fact_status": "REPORTED",
+   "source_id": "SRC_PALANTIR_IRAP_NOV25",
+   "confidence": "medium",
+   "as_of_date": "2025-11-20"
   }
  ],
  "sites": [
@@ -23074,7 +24037,7 @@
    "url": "https://cer.gov.au/markets/reports-and-data/nger-reporting-data-and-registers",
    "doc_type": "primary_regulator",
    "published": "2026-02-27",
-   "accessed": "2026-09-18",
+   "accessed": "2026-09-21",
    "credibility": "A",
    "notes": "Point-in-time extract of reported scope 1 and scope 2 emissions and net energy consumption for each corporation above the publication threshold. Raw CSV/XLSX archived under data/raw/cer/corporate/ with SHA-256 manifests."
   },
@@ -23085,7 +24048,7 @@
    "url": "https://cer.gov.au/markets/reports-and-data/nger-reporting-data-and-registers/corporate-emissions-and-energy-data-2024-25",
    "doc_type": "primary_regulator",
    "published": "2026-02-27",
-   "accessed": "2026-09-18",
+   "accessed": "2026-09-21",
    "credibility": "A",
    "notes": "Voluntary market-based scope 2 reporting; first published for 2023-24. 34 corporations reported in 2024-25, 21 in 2023-24."
   },
@@ -23096,7 +24059,7 @@
    "url": "https://cer.gov.au/markets/reports-and-data/certificate-shortfall-register",
    "doc_type": "primary_regulator",
    "published": "2026-04-14",
-   "accessed": "2026-09-18",
+   "accessed": "2026-09-21",
    "credibility": "A",
    "notes": "Liable entities with LGC shortfall, assessment years 2001-2025, including shortfall charges issued."
   },
@@ -23107,7 +24070,7 @@
    "url": "https://cer.gov.au/markets/reports-and-data/safeguard-data/2024-25-baselines-and-emissions-data",
    "doc_type": "primary_regulator",
    "published": "2026-08-13",
-   "accessed": "2026-09-18",
+   "accessed": "2026-09-21",
    "credibility": "A",
    "notes": "All covered facilities with baseline emissions number, covered emissions, ACCU and SMC positions."
   },
@@ -23118,7 +24081,7 @@
    "url": "https://cer.gov.au/markets/reports-and-data/large-scale-renewable-energy-data",
    "doc_type": "primary_regulator",
    "published": "2026-08-13",
-   "accessed": "2026-09-18",
+   "accessed": "2026-09-21",
    "credibility": "A",
    "notes": "Snapshot as at 31 July 2026. CER caveat: holdings move between accounts regularly and should be treated as a guide only."
   },
@@ -23693,6 +24656,402 @@
    "accessed": "2026-09-18",
    "credibility": "A",
    "notes": "The FOI Act 1982 (Vic) gives a right to apply for access to documents held by Victorian government agencies and ministers; applications go to the specific agency."
+  },
+  {
+   "id": "SRC_NVIDIA_PALANTIR_OCT25",
+   "title": "Palantir and NVIDIA Team Up to Operationalize AI - Turning Enterprise Data Into Dynamic Decision Intelligence (NVIDIA newsroom release, GTC Washington DC)",
+   "publisher": "NVIDIA",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-palantir-ai-enterprise-data-intelligence",
+   "doc_type": "primary_company",
+   "published": "2025-10-28",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "The partnership's founding release. Palantir integrates NVIDIA accelerated computing, CUDA-X libraries and open Nemotron models into the Ontology at the core of Palantir AIP; NVIDIA Blackwell coming to AIP; 'Enterprises will be able to run AIP in NVIDIA AI factories'; AIP supported in the NVIDIA AI Factory for Government reference design announced the same day; Lowe's first customer for supply-chain optimisation. Huang quote: 'Palantir and NVIDIA share a vision: to put AI into action, turning enterprise data into decision intelligence.' Karp quote on fusing Palantir decision intelligence with 'the world's most advanced AI infrastructure'."
+  },
+  {
+   "id": "SRC_PALANTIR_BLOG_OCT25",
+   "title": "AI Infrastructure and Ontology - Under the Hood of NVIDIA and Palantir (Palantir Blog)",
+   "publisher": "Palantir Technologies",
+   "url": "https://blog.palantir.com/ai-infrastructure-and-ontology-78b86f173ea6",
+   "doc_type": "primary_company",
+   "published": "2025-10-28",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Palantir's own account of the 28 Oct 2025 announcement: Jensen Huang announced the partnership in Washington DC; deliverables listed as Nemotron Super (49B reasoning model) on Palantir secure cloud infrastructure via the Palantir Model Catalog, NeMo Retriever in Foundry Pipeline Builder / Code Workspaces / Ontology Toolchain, and cuOpt optimisation. Links the GTC DC keynote recording (youtube.com/live/lQHK61IDFH4) at t=5114s as the announcement moment - the timestamp cited in RG-092."
+  },
+  {
+   "id": "SRC_SHERWOOD_GTC_QUOTE",
+   "title": "Nvidia CEO Jensen Huang announces new partnerships with Palantir, CrowdStrike, Uber (Sherwood News, markets)",
+   "publisher": "Sherwood News (Luke Kawa)",
+   "url": "https://sherwood.news/markets/nvidia-ceo-jensen-huang-announces-new-partnerships-with-palantir-crowdstrike/",
+   "doc_type": "news",
+   "published": "2025-10-28",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Contemporaneous transcript of Huang's GTC DC remarks. Called Palantir Ontology 'the single fastest enterprise company in the world and probably the single most important enterprise stack in the world today', and: 'We work with Palantir to accelerate everything Palantir does so that we can do data processing at a much much larger scale and more speed - whether it's structured data of the past, human-recorded data, unstructured data - and process that data for our government, for national security, and for enterprises around the world, process that data at speed of light and find insight from it.' This is the verified long form of the quote the originating brief paraphrased."
+  },
+  {
+   "id": "SRC_NVIDIA_AIFG_OCT25",
+   "title": "NVIDIA, US Tech Leaders Unveil AI Factory for Government Reference Design (NVIDIA blog)",
+   "publisher": "NVIDIA",
+   "url": "https://blogs.nvidia.com/blog/us-technology-leaders-ai-factory-design-government/",
+   "doc_type": "primary_company",
+   "published": "2025-10-28",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "The government-facing half of the 28 Oct 2025 announcement: full-stack AI infrastructure reference design for federal agencies and regulated industries, built on Blackwell (RTX PRO Servers, HGX B200), Spectrum-X, BlueField, Nemotron, designed for FedRAMP-authorised clouds and high-assurance environments. Palantir AIP integrates with it; CrowdStrike, ServiceNow, Astris AI (Lockheed Martin) and Northrop Grumman are in the same design. Establishes that the partnership ships as a hardware-software stack for government 'high-assurance' environments, not only enterprise analytics."
+  },
+  {
+   "id": "SRC_PALANTIR_NEMOTRON_JUN26",
+   "title": "Palantir Launches Engine for Deploying NVIDIA Nemotron Open Models in Sovereign Environments (Palantir investor release)",
+   "publisher": "Palantir Technologies Inc.",
+   "url": "https://investors.palantir.com/news-details/2026/Palantir-Launches-Engine-for-Deploying-NVIDIA-Nemotron-Open-Models-in-Sovereign-Environments/",
+   "doc_type": "primary_company",
+   "published": "2026-06-29",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Phase two of the partnership, focused on US government agencies and critical infrastructure: deployment engineering for base and customised Nemotron models in 'classified, air-gapped, and other sensitive environments'; model engineering letting agencies 'change the weights of the models themselves'; telemetry-driven post-training loop ('customers will own self-improving models specific to their mission'); delivered through the joint Palantir Sovereign AI Operating System Reference Architecture (palantir.com/sovereignaios). Karp: many US clients 'already using these models, including multiple supporting critical US infrastructure - both private and public'. Huang: 'Open source AI is foundational to national security, public safety and U.S. technology leadership.'"
+  },
+  {
+   "id": "SRC_NVIDIA_PALANTIR_SOVEREIGN_SEP26",
+   "title": "NVIDIA and Palantir Bring Sovereign Intelligence to Critical Supply Chains (NVIDIA newsroom release)",
+   "publisher": "NVIDIA",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
+   "doc_type": "primary_company",
+   "published": "2026-09-10",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Phase three: NVIDIA deploys Palantir Foundry/AIP + post-trained Nemotron models on its OWN supply chain ('from wafer to first token'; 1.3 million parts per Vera Rubin rack). Runs on the jointly developed Palantir Sovereign AI Operating System Reference Architecture (SAIOS), supported by Dell and Cisco; deployable on-premises, in colo and cloud (Rackspace, Nebius). Huang: 'Supply chains are the operating system of the physical economy, and AI factories are among the most complex systems ever built.' Karp calls the partnership 'cornerstone' of Palantir's 'sovereign AI revolution'. The NVIDIA-Palantir stack is now exportable to any organisation wanting supply-chain AI on infrastructure it controls - the deployment pattern relevant to Australian sovereign-AI buyers."
+  },
+  {
+   "id": "SRC_NVIDIA_AU_2GW",
+   "title": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia's Data Center Ecosystem (NVIDIA newsroom release)",
+   "publisher": "NVIDIA",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
+   "doc_type": "primary_company",
+   "published": "2026-09-09",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "NVIDIA collaborating with Firmus, Sharon AI, IREN, ResetData, Megaport (via Latitude.sh), CDC, NEXTDC and AirTrunk to expand land, power and shell capacity for multiple generations of NVIDIA DSX AI factories - 'up to a 2-gigawatt buildout by 2027'. Sharon AI deploying up to 68,000 NVIDIA GPUs; IREN applying the DSX blueprint to its 800 MW Bundey campus (SA); Firmus expanding Project Southgate; CDC quoting >550 MW operating across AU/NZ with 800 MW under construction and zero-water cooling 'certified for NVIDIA accelerated computing infrastructure'; NEXTDC operating 'AI factories built on NVIDIA DSX'; AirTrunk expanding direct-to-chip liquid-cooled powered shells; ResetData citing Australian data residency for government customers. Named model users: Heidi, Atlassian. Read in full (chunks 0-1); chunk 2 is NVIDIA boilerplate. Announced eight weeks after the PM's national AI standards speech and is the direct hardware-to-Australia mapping the thread exists to track."
+  },
+  {
+   "id": "SRC_PM_AI_STANDARDS",
+   "title": "AI in Australia's interests - speech by the Prime Minister, University of Sydney, 15 July 2026",
+   "publisher": "Prime Minister of Australia",
+   "url": "https://www.pm.gov.au/media/ai-australias-interests-0",
+   "doc_type": "primary_government",
+   "published": "2026-07-15",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Announces mandatory 'Australian Standards for AI': a single national framework absorbing the March 2026 expectations for large AI data centres, covering where they are built and the power and water they use; National Cabinet agreement sought August 2026; legislation to Parliament 'early next year'. Legal obligation on next-generation large-scale data centres to underwrite new power supply, pay their full share of grid connection, and be net generators ('put at least as much energy into our grid as they take out'); minimise water use, maximise energy efficiency, pay for additional water infrastructure. Sovereignty framing: refusing to be 'a data warehouse for AI products made overseas' and warning against 'subcontracting our sovereignty and security to the control of foreign monopolies'; AI named 'a critical - and urgent - innovation priority for our defence force and security agencies'."
+  },
+  {
+   "id": "SRC_AUSTENDER_CN4218984",
+   "title": "AusTender Contract Notice CN4218984 - ICT System Platform (Department of Defence, JCG Cyber Warfare Division; supplier PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Cn/Show/9a5d0c48-70ee-4ddc-b953-845ba4bca87e",
+   "doc_type": "primary_government",
+   "published": "2026-02-11",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Notice read in full. Executed 6 Feb 2026; period 6 Feb 2026 - 1 Feb 2027; original value $7,639,894.90; current value on the notice $10,389,894.90 after amendment CN4218984-A1 (8 Apr 2026). Limited tender, condition 10.3.e (compatibility/continuation with existing supplier); one supplier invited; category Software; agency reference 4610003517. Supplier: PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD, Canberra ACT 2601, ABN 48 144 948 309. Crikey (17 Feb 2026) reports this is Defence's largest Palantir contract to date, for the Cyber Warfare Division."
+  },
+  {
+   "id": "SRC_AUSTENDER_CN4218984A1",
+   "title": "AusTender Contract Notice CN4218984-A1 - ICT System Platform, variation to contract value (Department of Defence)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Cn/Show/6721900a-2253-41a4-9bb9-334fd5f18aec",
+   "doc_type": "primary_government",
+   "published": "2026-04-08",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Amendment read in full. Amendment value $2,750,000.00 executed 2 Apr 2026 - eight weeks after the parent contract was executed - taking the one-year contract to $10,389,894.90, a 36% increase on the original $7,639,894.90."
+  },
+  {
+   "id": "SRC_AUSTENDER_CN4115523",
+   "title": "AusTender Contract Notice CN4115523 - Software (Department of Defence, JCG Cyber Warfare Division; supplier PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Cn/Show/0a592d73-3b04-4bcd-907e-7db4b4761845",
+   "doc_type": "primary_government",
+   "published": "2024-12-12",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Notice read in full. Executed 11 Dec 2024; period 11 Dec 2024 - 30 Jun 2025 with one extension option, max end date 10 Dec 2025; value $4,135,076.99 (original $4,265,954.66; amendment A1 variation 14 Aug 2025). Open tender under DTA Software and ERP Marketplace panel SON3490955 (ATM SLS/001 and DTA-ICT-066). This is the '$4.1m software deal' Crikey reports ran until December 2025, making Palantir an existing supplier for the later limited tender."
+  },
+  {
+   "id": "SRC_AUSTENDER_CN4104368",
+   "title": "AusTender Contract Notice CN4104368 - Data Services (Department of Defence, CASG Commercial Group; supplier PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Cn/Show/abce7d48-265e-4b3c-aa77-7fbc197e84f2",
+   "doc_type": "primary_government",
+   "published": "2024-10-29",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Notice read in full. Period 16 Aug 2024 - 13 Dec 2027; value $7,150,000.00; open tender via approach to market AIC/RFP/38833/1; category Data services; agency reference 4600081672. Crikey reports FOI-obtained emails show this contract was for use of Palantir's Foundry platform. NOTE: the notice lists CASG Commercial Group as the contracting branch, while Crikey attributes the deal to the Cyber Warfare Division - recorded as a discrepancy in the contract row."
+  },
+  {
+   "id": "SRC_AUSTENDER_CN3996124",
+   "title": "AusTender Contract Notice CN3996124 - Software Maintenance & Support (Australian Criminal Intelligence Commission; supplier Palantir Technologies Australia)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Cn/Show/98ad1d3a-2550-4652-8935-3be706dc806d",
+   "doc_type": "primary_government",
+   "published": "2023-08-20",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Notice read in full. Executed 31 May 2023; period 1 Jun 2023 - 31 Mar 2025; value $1,402,122.87 (original $3,630,000.00, reduced by amendment A1 of 30 Aug 2024). Open tender under SON3490955; ATM P22/361. Supplier ABN 48 144 948 309. The ACIC is the national criminal intelligence body - what the platform does there is not stated on the notice (RG-093)."
+  },
+  {
+   "id": "SRC_AUSTENDER_CN3992202",
+   "title": "AusTender Contract Notice CN3992202 - Software Licencing (Australian Signals Directorate; supplier PALANTIR TECHNOLOGIES INC.)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Cn/Show/0cb01a4e-8335-4542-a8e4-2be07b26d576",
+   "doc_type": "primary_government",
+   "published": "2023-08-04",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Notice read in full. Period 1 Jul 2023 - 30 Jun 2024; value $696,981.39; limited tender under exemption 'App A: 13. By, or on behalf of select Defence intelligence agencies' - i.e. the contract details are exempted from normal competition disclosure because the buyer is a signals-intelligence agency. SUPPLIER IS THE US PARENT: PALANTIR TECHNOLOGIES INC., Denver CO 80202-5835, country UNITED STATES, ABN 'Exempt' - not the Australian subsidiary. Which entity carries ASD data and where it sits is RG-087."
+  },
+  {
+   "id": "SRC_AUSTENDER_SON3490955",
+   "title": "AusTender Standing Offer Notice SON3490955 - Software and ERP Marketplace Panel (Digital Transformation Agency)",
+   "publisher": "AusTender (Commonwealth of Australia)",
+   "url": "https://www.tenders.gov.au/Son/Show/90c61f3b-be27-3313-bcd6-93db777921c7",
+   "doc_type": "primary_government",
+   "published": "2018-03-15",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "The panel through which the Defence CN4115523 and ACIC CN3996124 Palantir contracts were issued. Standing offer period 2 Mar 2018 - 30 Apr 2027. Category 2 (Software Marketplace for COTS software and services) is available to Commonwealth entities, other Australian government bodies, STATE AND TERRITORY government agencies and local councils - the procurement channel by which Palantir software is reachable by every level of Australian government without a fresh approach to market. Managed through BuyICT. Read chunk 0 of 9 (framework + amendment history); the full seller schedule was not read - confirming Palantir's panel membership category is part of RG-086."
+  },
+  {
+   "id": "SRC_FF_PIR_DEC25",
+   "title": "Future Fund Periodic Investment Report, 31 December 2025 (Table 1 - Investments other than derivatives)",
+   "publisher": "Future Fund Board of Guardians",
+   "url": "https://www.futurefund.gov.au/-/media/FE8DB40A35A943E69D932EE3555613C0.ashx",
+   "doc_type": "primary_government",
+   "published": "2025-12-31",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "ARCHIVED: data/raw/futurefund/futurefund_pir_2025-12-31.csv with SHA-256 manifest (sha256 5354c9dff...efeab, 232,419 bytes, retrieved 2026-09-21). Row of interest, read directly from the CSV: Listed Equity, 'Palantir Technologies, Inc.', code BN78DQ4, 620,169 units, $165,307,100, 0.06% of the fund. The Future Fund manages ~$252bn of Commonwealth money. Sovereign-wealth exposure to the company at the centre of this thread is a Pillar B fact, not a commentary point."
+  },
+  {
+   "id": "SRC_CRIKEY_FF_JAN26",
+   "title": "Revealed: Australia's $100 million investment in controversial tech giant Palantir (Crikey, 29 January 2026)",
+   "publisher": "Crikey (Cam Wilson)",
+   "url": "https://www.crikey.com.au/2026-01-29/palantir-investment-100-million-future-fund/",
+   "doc_type": "investigation",
+   "published": "2026-01-29",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Future Fund held 498,339 Palantir shares valued at $103,649,987 as of 30 June 2025 (citing the FF periodic report); $1,616,512.92 in February 2023 (citing an FF disclosure PDF); <$25m in December 2024 (citing Deepcut News). The stake is larger than the fund's holdings in AGL, Seek or NEXTDC. Also records: Palantir's US$30m ICE contract for ImmigrationOS; 404 Media's reporting on the ELITE tool using Medicaid data; the 2024 Defence contract (CN4104368) being for Foundry per FOI-obtained emails. The FF December-2025 figures superseded by SRC_FF_PIR_DEC25 (primary)."
+  },
+  {
+   "id": "SRC_CRIKEY_DEF_FEB26",
+   "title": "Defence signs biggest ever contract with Palantir for department's 'Cyber Warfare Division' (Crikey, 17 February 2026)",
+   "publisher": "Crikey (Cam Wilson)",
+   "url": "https://www.crikey.com.au/2026-02-17/australian-defence-department-palantir-biggest-ever-contract/",
+   "doc_type": "investigation",
+   "published": "2026-02-17",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Defence's total Palantir spend 'more than $26 million ... since 2013' per Crikey's analysis of AusTender. Describes CN4218984 as a limited tender ('land and expand'); quotes Senator David Pocock: 'deeply problematic for millions of Australian taxpayer dollars to be going to a company that is so mired in controversy' and 'terrible procurement process'. States the Cyber Warfare Division previously held a one-year $4.1m software deal running until December 2025 and a $7.15m contract in August 2024. Also states: 'In November 2024, the Australian Signals Directorate granted the firm a top security clearance' - the date conflicts with Palantir's own IRAP PROTECTED announcement of 20 Nov 2025 (RG-089); and names Palantir's Australian customers as ASD, ACIC, Coles, Westpac and Rio Tinto. Neither Defence nor Palantir responded to Crikey."
+  },
+  {
+   "id": "SRC_CRIKEY_AUS_LINKS_JUL25",
+   "title": "From ICE to Coles: Controversial US tech company Palantir's links to Australia spark backlash (Crikey, 8 July 2025)",
+   "publisher": "Crikey (Cam Wilson)",
+   "url": "https://www.crikey.com.au/2025-07-08/palantir-tech-artificial-intelligence-coles-westpac-rio-tinto-ice-idf/",
+   "doc_type": "investigation",
+   "published": "2025-07-08",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Australian government clients named with AusTender links: Department of Defence (CN4115523), ACIC (CN3996124), ASD (CN3992202). Corporate clients: Coles (citing iTnews), Rio Tinto (citing International Mining), Westpac (citing a LinkedIn post by a Palantir APAC executive - weak evidence, RG-088). Records Senator David Shoebridge (Greens digital rights spokesperson) calling for a freeze on government contracts with Palantir and quoting his demand for procurement guidelines 'that prevent public money being handed to companies actively engaged in genocide and suppressing democracy'; embeds his 7 Jul 2025 Bluesky thread ('multiple Defence contracts worth over $11 million'). Also records the UN Special Rapporteur report naming Palantir, Palantir's ImmigrationOS work for the Trump administration's deportation agenda (citing Biometric Update), and 12+ former employees protesting (citing NYT, 30 May 2025)."
+  },
+  {
+   "id": "SRC_CRIKEY_AUKUS_SEP25",
+   "title": "As top AUKUS official joins Palantir, ethics watchdog warns of lobbying 'risks' (Crikey, 5 September 2025)",
+   "publisher": "Crikey (Anton Nilsson)",
+   "url": "https://www.crikey.com.au/2025-09-05/aukus-palantir-damian-parmenter-lobbying-risks/",
+   "doc_type": "news",
+   "published": "2025-09-05",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Damian Parmenter CBE, the UK's former Director General for AUKUS (2023 to February 2025), joined Palantir in July 2025 as 'senior counselor' and London-based 'international defence and security adviser'; his own description (via ACOBA) includes 'international opportunities within Europe and the Indo-Pacific'. Palantir says he will comply with ACOBA conditions including a two-year lobbying moratorium. His LinkedIn does not mention the AUKUS role."
+  },
+  {
+   "id": "SRC_ACOBA_PARMENTER",
+   "title": "Business Appointment Application: Damian Parmenter CBE, former Director General, AUKUS, Ministry of Defence. Paid appointment with Palantir Technologies UK, Ltd (ACOBA advice letter, June 2025)",
+   "publisher": "UK Advisory Committee on Business Appointments",
+   "url": "https://assets.publishing.service.gov.uk/media/689f4b65b4b6acd341133a95/Advice_Letter_-_Damian_Parmenter__Senior_Counsellor__Palantir.pdf",
+   "doc_type": "primary_government",
+   "published": "2025-06",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Read in full. ACOBA findings: Parmenter 'stepped back' from DG AUKUS on 1 February [2025]; Palantir attended his AUKUS outreach events; as DG Delivery and Strategy he visited Palantir 'to understand its work supporting Ukraine'; the proposed role provides 'decision support' to the UK Head of Palantir 'focused on international opportunities within Europe and the Indo-Pacific'. The Committee: 'it is likely that Mr Parmenter would have amassed a network of contacts while in office especially in the US and Australia by virtue of his role at AUKUS ... there is a risk these contacts ... may be seen to offer new business development opportunities for Palantir'. Conditions imposed: no use of privileged information; two-year bar on lobbying the UK government, on using in-office contacts to advantage Palantir, on advising Palantir on UK government/MoD bids, and on lobbying contacts made in office 'in other governments and organisations'. A primary-source document of a UK ethics regulator assessing the AUKUS-to-Palantir revolving door, naming Australia as the risk surface."
+  },
+  {
+   "id": "SRC_ABC_REVOLVING",
+   "title": "Dozens of government insiders lobbying for defence industry, analysis shows (ABC News / Four Corners, 23 August 2026)",
+   "publisher": "ABC News (Mark Willacy, Lesley Robinson, Dylan Welch, Samantha Dick)",
+   "url": "https://www.abc.net.au/news/2026-08-24/defence-insiders-now-lobbying-for-industry-analysis-shows/107046326",
+   "doc_type": "investigation",
+   "published": "2026-08-23",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Four Corners analysis identifies at least 60 former defence ministers, senior officers and officials who moved into weapons firms or lobbying companies. Directly relevant: 'Mike Kelly, a Labor defence materiel minister in 2013, served as the Australian president of the controversial US software and intelligence company Palantir from 2020 to 2024.' Christopher Pyne (former defence minister, now lobbyist): his firm is 'number one in defence'; 'there's $368 billion being spent on AUKUS over the lifetime of the agreement'. Senator Shoebridge: 'AUKUS is like a feast. It's this multi-billion-dollar feast for lobbyists ... In a $400 billion program, there are entire careers'. Also records Maj Gen Jeremy King's move to Lockheed Martin ANZ within a week of leaving the ADF, after involvement in the $2.8bn Black Hawk purchase."
+  },
+  {
+   "id": "SRC_REUTERS_MAVEN_MAR26",
+   "title": "EXCLUSIVE: Pentagon to adopt Palantir AI as core US military system, memo says (Reuters, 20 March 2026)",
+   "publisher": "Reuters (David Jeans)",
+   "url": "https://www.reuters.com/technology/pentagon-adopt-palantir-ai-as-core-us-military-system-memo-says-2026-03-20/",
+   "doc_type": "news",
+   "published": "2026-03-20",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Read in full. Deputy SecDef Steve Feinberg's 9 March 2026 letter makes Palantir's Maven Smart System an official program of record - 'locks in long-term use of Palantir's weapons-targeting technology across the U.S. military'; Maven described as already 'the primary AI operating system for the U.S. military, which has carried out thousands of targeted strikes against Iran over the last three weeks'; oversight moves from NGA to the Pentagon CDAO, future contracting via the Army. History: began as a 2017 drone-imagery labelling program; 2024 contract worth up to $480m; May 2025 ceiling raised to $1.3bn; separate Army deal 'worth up to $10 billion' announced the previous summer; market value 'nearly $360 billion'. Records the UN expert warning on AI targeting without human intervention and Palantir's position that humans approve targets. Also notes Maven's use of Anthropic Claude and the Pentagon's supply-chain-risk designation of Anthropic (March 2026)."
+  },
+  {
+   "id": "SRC_ARMY_EA_JUL25",
+   "title": "U.S. Army Awards Enterprise Service Agreement to Enhance Military Readiness and Drive Operational Efficiency (US Army release, 31 July 2025)",
+   "publisher": "United States Army",
+   "url": "https://www.army.mil/article/287506/u_s_army_awards_enterprise_service_agreement_to_enhance_military_readiness_and_drive_operational_efficiency",
+   "doc_type": "primary_government",
+   "published": "2025-07-31",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Primary confirmation (via search abstract; article text not archived) of the Army-Palantir enterprise agreement: consolidates 75 contracts (15 prime, 60 related) into a single agreement. Corroborated by DefenseScoop and Breaking Defense (31 Jul - 1 Aug 2025): 10-year deal worth up to $10bn. Figure used in metrics as REPORTED with the corroborating coverage named here; upgrade to VERIFIED requires reading the army.mil article in full."
+  },
+  {
+   "id": "SRC_DEFENSESCOOP_MAVEN_MAY25",
+   "title": "'Growing demand' sparks DOD to raise Palantir's Maven ceiling above $1B (DefenseScoop, 23 May 2025)",
+   "publisher": "DefenseScoop",
+   "url": "https://defensescoop.com/2025-05-23/dod-palantir-maven-smart-system-contract-increase/",
+   "doc_type": "news",
+   "published": "2025-05-23",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "The initial $480m five-year IDIQ for Maven Smart System was inked May 2024; the ceiling was raised to $1.3bn in May 2025. Corroborates Reuters' contract history; search-abstract level reading (full text not retrieved)."
+  },
+  {
+   "id": "SRC_NYT_MAVEN_2018",
+   "title": "'The Business of War': Google Employees Protest Work for Pentagon (New York Times, 4 April 2018)",
+   "publisher": "The New York Times",
+   "url": "https://www.nytimes.com/2018-04-04/technology/google-letter-ceo-pentagon-project.html",
+   "doc_type": "news",
+   "published": "2018-04-04",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Project Maven's origin event: thousands of Google employees signed a letter asking the CEO to pull out of the project that could improve drone-strike targeting; Google declined to renew and adopted AI principles (corroborated by Arms Control Association, Jul 2018). Palantir became a follow-on Maven integrator. Search-abstract level reading (paywalled full text not retrieved); the fact recorded is the protest and its outcome, both stated in the abstract."
+  },
+  {
+   "id": "SRC_GOVUK_PALANTIR_SEP25",
+   "title": "New strategic partnership to unlock billions and boost military AI and innovation (UK Ministry of Defence release, 18 September 2025)",
+   "publisher": "UK Ministry of Defence / John Healey MP",
+   "url": "https://www.gov.uk/government/news/new-strategic-partnership-to-unlock-billions-and-boost-military-ai-and-innovation",
+   "doc_type": "primary_government",
+   "published": "2025-09-18",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Read in full. Signed by Defence Secretary John Healey. Palantir to invest up to \u00a31.5bn in the UK, make London its European defence HQ, create up to 350 jobs (up to 200 Palantir + 150 wider sector); identifies UK Defence opportunities 'worth up to \u00a3750 million over the next five years'. The release itself describes the work as supporting the 'kill chain' - fusing open-source and military data 'to provide military commanders with faster options for attacking an enemy target' - as an element of the Digital Targeting Web from the Strategic Defence Review, with capabilities 'already being proven on the battlefield in Ukraine' and ensuring 'data remains sovereign'. Karp: up to \u00a3750m 'invested in the most advanced AI-enabled defence technology, honed on the battlefield in Ukraine and used extensively by the US and NATO ... our largest presence outside of the US'. A Five Eyes government's own primary description of Palantir's defence-AI role - the strongest sourcing for the 'weaponisation' premise, and a contrast case for what Australia has NOT published about its own Palantir use."
+  },
+  {
+   "id": "SRC_ALJAZEERA_UN_JUL25",
+   "title": "UN report lists companies complicit in Israel's 'genocide': Who are they? (Al Jazeera, 1 July 2025)",
+   "publisher": "Al Jazeera (Federica Marsi)",
+   "url": "https://www.aljazeera.com/news/2025/7/1/un-report-lists-companies-complicit-in-israels-genocide-who-are-they",
+   "doc_type": "news",
+   "published": "2025-07-01",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Coverage of UN Special Rapporteur Francesca Albanese's report 'From economy of occupation to economy of genocide' (A/HRC/59/23, OHCHR - the underlying primary document was NOT read; this record rests on Al Jazeera's summary). 48 corporate actors named including Microsoft, Alphabet, Amazon, IBM and Palantir. On Palantir: support to the Israeli military expanded since October 2023; 'reasonable grounds' to believe it provided automated predictive policing technology used for automated decision-making in the battlefield, processing data and generating target lists including through AI systems 'Lavender', 'Gospel' and 'Where's Daddy?'. Also: BlackRock is Palantir's second-largest institutional investor (8.6%), Vanguard the largest (9.1%). The 'automated predictive policing' language is the closest a UN document comes to the brief's 'pre-crime' framing - about battlefield targeting, not street policing."
+  },
+  {
+   "id": "SRC_PALANTIR_IRAP_NOV25",
+   "title": "Palantir Achieves Information Security Registered Assessors Program (IRAP) PROTECTED Level, Unlocking New Opportunities in Australia (Palantir investor release, 20 November 2025)",
+   "publisher": "Palantir Technologies Inc.",
+   "url": "https://investors.palantir.com/news-details/2025/Palantir-Achieves-Information-Security-Registered-Assessors-Program-IRAP-PROTECTED-Level-Unlocking-New-Opportunities-in-Australia/",
+   "doc_type": "primary_company",
+   "published": "2025-11-20",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Read in full. IRAP PROTECTED achieved under the Australian Information Security Registered Assessors Program, assessed by an independent third-party IRAP assessor per ASD requirements. KEY RESIDENCY FACT: 'Palantir Platform Australia (PPA) delivers advanced cloud services - including Foundry and AIP - hosted in Australian Amazon Web Services (AWS) regions'. Paul Rawlins quoted as AU Head of Public Sector. This is the company's own primary statement of where its Australian platform data is hosted; whether every Australian deployment (Defence CWD, ASD, ACIC) actually runs on PPA is RG-087."
+  },
+  {
+   "id": "SRC_PALANTIR_PLATFORMS",
+   "title": "Palantir Platforms (official platform descriptions: AIP, Foundry, Gotham, Apollo)",
+   "publisher": "Palantir Technologies",
+   "url": "https://www.palantir.com/platforms/",
+   "doc_type": "primary_company",
+   "published": null,
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Retrieved 2026-09-21 (no publication date on page). Official positioning used for the premise checks: AIP - 'Activate and Control AI on Your Private Network'; Foundry - 'The Ontology-Powered Operating System for the Modern Enterprise'; Gotham - 'The Operating System for Global Decision Making ... a commercially-available, AI-ready operating system that improves and accelerates decisions for operators across roles and all domains'; Apollo - 'The Operating System for Continuous Delivery. From the back of a humvee to the hull of a submarine, Apollo enables continuous deployment across all environments.'"
+  },
+  {
+   "id": "SRC_GUARDIAN_WA_FRT",
+   "title": "WA police facial recognition trial launches with a real-time arrest - and backlash over privacy (The Guardian Australia, 20 July 2026)",
+   "publisher": "The Guardian",
+   "url": "https://www.theguardian.com/australia-news/2026/jul/20/western-australia-police-real-time-facial-recognition-trial-privacy-ntwnfb",
+   "doc_type": "news",
+   "published": "2026-07-20",
+   "accessed": "2026-09-21",
+   "credibility": "A",
+   "notes": "Read chunk 0 of 3. Australia's first law-enforcement REAL-TIME facial recognition trial: five-month mobile trial from 2 Jul 2026 (Perth, Mirrabooka bus station); live van camera scanning hundreds of faces a minute against a database of ~4,000 people (outstanding warrants, registered child sex offenders, missing persons); a live arrest occurred during the launch media conference. Week one: 130,000+ faces scanned, 33 alerts, 19 arrests, two welfare checks, 21 registered sex offenders 'engaged with', two acknowledged false alerts, 'human in the loop'. OIC WA (state privacy regulator) was not consulted and warns of 'collective privacy harms' (statement PDF on wa.gov.au). Commissioner Col Blanch: 'This is not about mass surveillance ... less of an intrusive capability than a standard CCTV camera.' 2026 Australian Community Attitudes to Privacy Survey: 45% of Australians consider facial recognition the biggest privacy risk (up from 27% in 2023). NO vendor named - the technology is NOT attributed to Palantir anywhere in the reporting (RG-093)."
+  },
+  {
+   "id": "SRC_BIOMETRIC_NSW_FRT",
+   "title": "NSW Police face questions on use of facial recognition algorithm from 2011 (Biometric Update, 5 November 2025)",
+   "publisher": "Biometric Update (Chris Burt)",
+   "url": "https://www.biometricupdate.com/202511/nsw-police-face-questions-on-use-of-facial-recognition-algorithm-from-2011",
+   "doc_type": "news",
+   "published": "2025-11-05",
+   "accessed": "2026-09-21",
+   "credibility": "C",
+   "notes": "NSW Police used Cognitec's FRT algorithm from 2011 to early 2025 inside the PhotoTrac Suspect Identification System, operated by State Intelligence Command's Facial Recognition Unit and the Real Time Intelligence Centre; never contracted support or updates; also ran NYX, adapted in-house from Google's open-source FaceNet, from 2018. Discontinuation reportedly cost-driven; media and a Greens MP had linked it to demographic-accuracy concerns. Cognitec supplying algorithms to Australia's major international airports. Grade C: trade press, but its claims are attributed to a Cognitec email and named prior reporting."
+  },
+  {
+   "id": "SRC_IMMINING_RIO",
+   "title": "Rio Tinto to extend use of Palantir Technologies' AI-based solutions (International Mining, 14 November 2024)",
+   "publisher": "International Mining",
+   "url": "https://im-mining.com/2024/11/14/rio-tinto-to-extend-use-of-palantir-technologies-ai-based-solutions/",
+   "doc_type": "news",
+   "published": "2024-11-14",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Read in full. Rio Tinto renewed its multi-year Palantir enterprise agreement for a further four years, securing ongoing access to AIP; early Foundry adopter. Australian operations named: the RTIO Operations Centre in Western Australia coordinates 53 driverless iron-ore trains (240 wagons each) across the Pilbara network through Foundry's Ontology; Oyu Tolgoi (Mongolia) geotechnical risk. Quotes Rio Tinto CCO Bold Bataar and Palantir Head of Commercial Ted Mabrey. The largest Palantir commercial deployment touching Australian industrial operations on the public record."
+  },
+  {
+   "id": "SRC_ITNEWS_COLES",
+   "title": "Coles Group is making big strides with its advanced analytics (iTnews, 18 November 2024)",
+   "publisher": "iTnews (Ry Crozier)",
+   "url": "https://www.itnews.com.au/news/coles-group-is-making-big-strides-with-its-advanced-analytics-613172",
+   "doc_type": "news",
+   "published": "2024-11-18",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Read chunk 0 of 5. At Coles' investor day, COO/supply-chain chief Matt Swindells detailed the Palantir partnership (announced earlier in 2024 as running the Palantir analytics suite across its supermarkets): executive oversight and workforce management; 24,000 process 'standards' used 'to run a Coles shop in a week ... measured to 15-minute increments'; effectiveness of directed in-store activity claimed to rise from 15% to 70% through data-guided tasking. The workforce-management dimension matters for the surveillance question: this is data about 100k+ workers' movements and tasks, not customer facial data."
+  },
+  {
+   "id": "SRC_ACLU_DEPORTATION",
+   "title": "All the Ways Palantir is Assisting Trump's Abusive Removal Campaign (ACLU, 24 March 2026)",
+   "publisher": "American Civil Liberties Union (Sophie Feng, Jay Stanley)",
+   "url": "https://www.aclu.org/news/privacy-technology/palantir-deportation-roundup",
+   "doc_type": "community",
+   "published": "2026-03-24",
+   "accessed": "2026-09-21",
+   "credibility": "B",
+   "notes": "Read chunk 0 of 4. ACLU's consolidated account: ELITE (Enhanced Leads Identification and Targeting for Enforcement) maps deportation targets with 'address confidence scores', draws on HHS, USCIS and Thomson Reuters CLEAR data, and is used to find 'target rich' locations (per 404 Media's obtained user guide and ICE court testimony on 'immigration nexus' counts); the Investigative Case Management platform as ICE's backbone (per The Intercept and DHS's own privacy impact assessment); ACLU's 2018 reporting on Palantir-built New Orleans predictive policing with 'threat scores'; Amnesty International calling for Palantir to cease the work. Advocacy source with documented primary underpinnings; graded B, and the ELITE/ICM specifics are attributed to the named investigations rather than asserted here."
+  },
+  {
+   "id": "SRC_GNCA_VIDEO",
+   "title": "We're All So F'd | NVIDIA x Palantir, Global Surveillance, 'Pre-Crime' Arrests, & AI (GNCA Investigates, YouTube)",
+   "publisher": "GNCA Investigates (YouTube)",
+   "url": "https://www.youtube.com/watch?v=5lYsO4k7OIY",
+   "doc_type": "community",
+   "published": "2025-12",
+   "accessed": "2026-09-21",
+   "credibility": "C",
+   "notes": "The originating framing for this research thread: its description states Jensen Huang said NVIDIA would 'accelerate everything that Palantir does' (a paraphrase of the verified GTC DC keynote quote - see SRC_SHERWOOD_GTC_QUOTE and RG-092). Approximately 489k views and 44k likes as at 2026-09-21; publication date estimated December 2025 from contemporaneous archive posts (Lemmy, 21-22 Dec 2025) - the exact date was not read from YouTube. A follow-up channel video ('Palantir Crashes Out in Response to GN', youtube.com/watch?v=5Idb_D4Tdu8) reports a response from Palantir's Head of Strategic Communications. Recorded because provenance of a premise is itself a finding: the brief's strongest claims trace to a community video, and the pack shows which survived primary verification and which did not."
   }
  ],
  "water_profile": [
@@ -24260,6 +25619,45 @@
    "fact_status": "VERIFIED"
   },
   {
+   "event_date": "2026-02-17",
+   "state": "ACT",
+   "locality": "Canberra",
+   "event_type": "political_intervention",
+   "actor": "Senator David Pocock (independent)",
+   "summary": "Criticised the Cyber Warfare Division's $7.6m limited-tender Palantir contract: 'deeply problematic for millions of Australian taxpayer dollars to be going to a company that is so mired in controversy with huge question marks over its ethics and handling of data ... in the absence of long overdue reforms to Australia's privacy legislation'; called the extension 'terrible procurement process' that 'should be put back out to tender rather than continuing the land and expand practice that doesn't test value for money or retained economic benefit'.",
+   "severity": null,
+   "site": null,
+   "community_group": null,
+   "outcome": "Contract amended upward by $2.75m on 2 April 2026 (CN4218984-A1).",
+   "fact_status": "REPORTED"
+  },
+  {
+   "event_date": "2025-12",
+   "state": null,
+   "locality": null,
+   "event_type": "media_campaign",
+   "actor": "GNCA Investigates (YouTube channel)",
+   "summary": "Published 'We're All So F'd | NVIDIA x Palantir, Global Surveillance, 'Pre-Crime' Arrests, & AI' - the video whose description ('NVIDIA CEO Jensen Huang stated that NVIDIA would \"accelerate everything that Palantir\" does') is the provenance of this research thread's originating brief. Approximately 489k views / 44k likes as at 2026-09-21. A follow-up video reports Palantir's Head of Strategic Communications responding to the channel.",
+   "severity": null,
+   "site": null,
+   "community_group": null,
+   "outcome": "Framing circulated widely (Reddit, Lemmy, forums); Palantir responded on-channel.",
+   "fact_status": "REPORTED"
+  },
+  {
+   "event_date": "2025-07-07",
+   "state": "ACT",
+   "locality": "Canberra",
+   "event_type": "political_intervention",
+   "actor": "Senator David Shoebridge (Greens digital rights spokesperson)",
+   "summary": "Called for a freeze on Australian government contracts with Palantir over its overseas work (ICE deportation support; UN Special Rapporteur report naming Palantir re Israel) and demanded procurement guidelines preventing 'public money being handed to companies actively engaged in genocide and suppressing democracy'; asked whether 'anyone check[ed] these fundamental threats to democracy before signing up with Palantir'. His Bluesky thread cites 'multiple Defence contracts worth over $11 million'.",
+   "severity": null,
+   "site": null,
+   "community_group": null,
+   "outcome": "No freeze; Defence's largest Palantir contract followed in February 2026 (CN4218984).",
+   "fact_status": "REPORTED"
+  },
+  {
    "event_date": "2025-06-12",
    "state": "NSW",
    "locality": "Glendenning",
@@ -24711,6 +26109,66 @@
    "source_url": "https://govmarket.com.au/supplier/tata-consultancy-services"
   },
   {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Department of Defence",
+   "contract_title": "ICT System Platform (JCG - Cyber Warfare Division) - amendment A1",
+   "value_aud": 10389894.9,
+   "portal": "AusTender",
+   "portal_id": "CN4218984-A1",
+   "method_of_tendering": "Limited tender",
+   "contract_start": "2026-02-06",
+   "contract_end": "2027-02-01",
+   "is_duplicate_of": 24,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.tenders.gov.au/Cn/Show/6721900a-2253-41a4-9bb9-334fd5f18aec"
+  },
+  {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Department of Defence",
+   "contract_title": "ICT System Platform (JCG - Cyber Warfare Division)",
+   "value_aud": 7639894.9,
+   "portal": "AusTender",
+   "portal_id": "CN4218984",
+   "method_of_tendering": "Limited tender",
+   "contract_start": "2026-02-06",
+   "contract_end": "2027-02-01",
+   "is_duplicate_of": null,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.tenders.gov.au/Cn/Show/9a5d0c48-70ee-4ddc-b953-845ba4bca87e"
+  },
+  {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Department of Defence",
+   "contract_title": "Data Services (CASG - Commercial Group)",
+   "value_aud": 7150000.0,
+   "portal": "AusTender",
+   "portal_id": "CN4104368",
+   "method_of_tendering": "Open tender",
+   "contract_start": "2024-08-16",
+   "contract_end": "2027-12-13",
+   "is_duplicate_of": null,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.tenders.gov.au/Cn/Show/abce7d48-265e-4b3c-aa77-7fbc197e84f2"
+  },
+  {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Department of Defence",
+   "contract_title": "Software (JCG - Cyber Warfare Division)",
+   "value_aud": 4135076.99,
+   "portal": "AusTender",
+   "portal_id": "CN4115523",
+   "method_of_tendering": "Open tender",
+   "contract_start": "2024-12-11",
+   "contract_end": "2025-06-30",
+   "is_duplicate_of": null,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.tenders.gov.au/Cn/Show/0a592d73-3b04-4bcd-907e-7db4b4761845"
+  },
+  {
    "firm": "Tata Consultancy Services Limited",
    "agency": "Reserve Bank of Australia",
    "contract_title": "Professional Services for Cloud Build Capability",
@@ -24724,6 +26182,21 @@
    "fact_status": "REPORTED",
    "confidence": "medium",
    "source_url": "https://govmarket.com.au/supplier/tata-consultancy-services"
+  },
+  {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Australian Criminal Intelligence Commission",
+   "contract_title": "Software Maintenance & Support",
+   "value_aud": 1402122.87,
+   "portal": "AusTender",
+   "portal_id": "CN3996124",
+   "method_of_tendering": "Open tender",
+   "contract_start": "2023-06-01",
+   "contract_end": "2025-03-31",
+   "is_duplicate_of": null,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.tenders.gov.au/Cn/Show/98ad1d3a-2550-4652-8935-3be706dc806d"
   },
   {
    "firm": "Tata Consultancy Services Limited",
@@ -24784,6 +26257,21 @@
    "fact_status": "REPORTED",
    "confidence": "medium",
    "source_url": "https://govmarket.com.au/supplier/tata-consultancy-services"
+  },
+  {
+   "firm": "Palantir Technologies Inc.",
+   "agency": "Australian Signals Directorate",
+   "contract_title": "Software Licencing",
+   "value_aud": 696981.39,
+   "portal": "AusTender",
+   "portal_id": "CN3992202",
+   "method_of_tendering": "Limited tender",
+   "contract_start": "2023-07-01",
+   "contract_end": "2024-06-30",
+   "is_duplicate_of": null,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.tenders.gov.au/Cn/Show/0cb01a4e-8335-4542-a8e4-2be07b26d576"
   },
   {
    "firm": "Tata Consultancy Services Limited",
@@ -25022,6 +26510,15 @@
    "double_counted_aud": 118312700.0
   },
   {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Department of Defence",
+   "records": 4,
+   "distinct_contracts": 3,
+   "distinct_value_aud": 18924971.89,
+   "gross_value_aud": 29314866.79,
+   "double_counted_aud": 10389894.9
+  },
+  {
    "firm": "Tata Consultancy Services Limited",
    "agency": "Reserve Bank of Australia",
    "records": 2,
@@ -25040,12 +26537,30 @@
    "double_counted_aud": 0.0
   },
   {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "agency": "Australian Criminal Intelligence Commission",
+   "records": 1,
+   "distinct_contracts": 1,
+   "distinct_value_aud": 1402122.87,
+   "gross_value_aud": 1402122.87,
+   "double_counted_aud": 0.0
+  },
+  {
    "firm": "Tata Consultancy Services Limited",
    "agency": "Department of Defence",
    "records": 1,
    "distinct_contracts": 1,
    "distinct_value_aud": 1100000.0,
    "gross_value_aud": 1100000.0,
+   "double_counted_aud": 0.0
+  },
+  {
+   "firm": "Palantir Technologies Inc.",
+   "agency": "Australian Signals Directorate",
+   "records": 1,
+   "distinct_contracts": 1,
+   "distinct_value_aud": 696981.39,
+   "gross_value_aud": 696981.39,
    "double_counted_aud": 0.0
   },
   {
@@ -25083,6 +26598,26 @@
    "enumerated_distinct": 22,
    "enumerated_gross_aud": 260316400.0,
    "enumerated_distinct_aud": 142003700.0,
+   "published_portfolio_aud": 352735957.18,
+   "deduplicated_portfolio_aud": 234423257.18,
+   "deduplicated_contract_count": 64.0
+  },
+  {
+   "firm": "Palantir Technologies Inc.",
+   "enumerated_records": 1,
+   "enumerated_distinct": 1,
+   "enumerated_gross_aud": 696981.39,
+   "enumerated_distinct_aud": 696981.39,
+   "published_portfolio_aud": 352735957.18,
+   "deduplicated_portfolio_aud": 234423257.18,
+   "deduplicated_contract_count": 64.0
+  },
+  {
+   "firm": "Palantir Technologies Australia Pty Ltd",
+   "enumerated_records": 5,
+   "enumerated_distinct": 4,
+   "enumerated_gross_aud": 30716989.66,
+   "enumerated_distinct_aud": 20327094.76,
    "published_portfolio_aud": 352735957.18,
    "deduplicated_portfolio_aud": 234423257.18,
    "deduplicated_contract_count": 64.0
@@ -25630,6 +27165,36 @@
    "firb_outcome": null
   },
   {
+   "id": "ENT_FIRMUS",
+   "name": "Firmus Technologies",
+   "entity_type": "developer",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "holder_id": null,
+   "holder": null,
+   "holder_domicile": null,
+   "stake_pct": null,
+   "instrument": null,
+   "effective_from": null,
+   "firb_reviewed": null,
+   "firb_outcome": null
+  },
+  {
+   "id": "ENT_IREN",
+   "name": "IREN Limited",
+   "entity_type": "developer",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "holder_id": null,
+   "holder": null,
+   "holder_domicile": null,
+   "stake_pct": null,
+   "instrument": null,
+   "effective_from": null,
+   "firb_reviewed": null,
+   "firb_outcome": null
+  },
+  {
    "id": "ENT_MICROSOFT",
    "name": "Microsoft",
    "entity_type": "hyperscaler",
@@ -25707,6 +27272,21 @@
   {
    "id": "ENT_SUBCO",
    "name": "SUBCO Consortium",
+   "entity_type": "telecom",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "holder_id": null,
+   "holder": null,
+   "holder_domicile": null,
+   "stake_pct": null,
+   "instrument": null,
+   "effective_from": null,
+   "firb_reviewed": null,
+   "firb_outcome": null
+  },
+  {
+   "id": "ENT_MEGAPORT",
+   "name": "Megaport",
    "entity_type": "telecom",
    "domicile": "Australia",
    "hq_country": "AU",
@@ -25957,6 +27537,20 @@
    "source_url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-secures-1bn-investment-from-tpg-accelerate-ai-data-center-business-hypervault"
   },
   {
+   "actor": "Palantir Technologies Inc.",
+   "person": "Damian Parmenter CBE, former UK Ministry of Defence Director General AUKUS (2023 - 1 Feb 2025); Palantir Technologies UK Ltd 'Senior Counsellor' from July 2025",
+   "channel": "revolving_door",
+   "recipient": "UK MoD and AUKUS trilateral networks (contacts 'especially in the US and Australia')",
+   "event_date": "2025-07",
+   "instrument": "ACOBA business appointment advice letter, June 2025 (published c. Sep 2025)",
+   "position": "Senior advisory role providing 'decision support' to the UK Head of Palantir on international defence and security issues, 'focused on international opportunities within Europe and the Indo-Pacific' (Parmenter's own description to ACOBA)",
+   "outcome": "Appointment permitted subject to conditions: no use of privileged information; two-year bars on lobbying the UK government, on using in-office contacts to advantage Palantir (including 'in other governments and organisations'), and on advising on UK government/MoD bids; must not advise on the UK defence sector. Palantir confirmed adherence.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://assets.publishing.service.gov.uk/media/689f4b65b4b6acd341133a95/Advice_Letter_-_Damian_Parmenter__Senior_Counsellor__Palantir.pdf"
+  },
+  {
    "actor": "AirTrunk",
    "person": "Robin Khuda, Founder and CEO",
    "channel": "peak_body_board",
@@ -26025,6 +27619,20 @@
    "fact_status": "REPORTED",
    "confidence": "medium",
    "source_url": "https://en.wikipedia.org/wiki/Business_Council_of_Australia"
+  },
+  {
+   "actor": "Palantir Technologies Australia Pty Ltd",
+   "person": "Mike Kelly, former Labor Minister for Defence Materiel (2013); Australian president of Palantir 2020-2024",
+   "channel": "revolving_door",
+   "recipient": "Australian defence and national-security procurement networks",
+   "event_date": "2020",
+   "instrument": "ABC Four Corners revolving-door analysis, 23 August 2026",
+   "position": "Australian president of 'the controversial US software and intelligence company Palantir' (ABC's description)",
+   "outcome": "Served 2020-2024. Four Corners counts at least 60 former defence ministers, senior officers and officials now in weapons firms or lobbying companies; AUKUS is described by lobbyist Christopher Pyne as '$368 billion' of lifetime spend and by Senator Shoebridge as 'a multi-billion-dollar feast for lobbyists'.",
+   "disclosed": 1,
+   "fact_status": "REPORTED",
+   "confidence": "high",
+   "source_url": "https://www.abc.net.au/news/2026-08-24/defence-insiders-now-lobbying-for-industry-analysis-shows/107046326"
   },
   {
    "actor": "AirTrunk",
@@ -31932,13 +33540,13 @@
    "tbl": "community_events",
    "fact_status": "REPORTED",
    "confidence": "high",
-   "n": 10
+   "n": 12
   },
   {
    "tbl": "community_events",
    "fact_status": "REPORTED",
    "confidence": "low",
-   "n": 2
+   "n": 3
   },
   {
    "tbl": "community_events",
@@ -31968,25 +33576,25 @@
    "tbl": "regulatory_events",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 19
+   "n": 20
   },
   {
    "tbl": "metrics",
    "fact_status": "CLAIMED",
    "confidence": "low",
-   "n": 3
+   "n": 4
   },
   {
    "tbl": "metrics",
    "fact_status": "CLAIMED",
    "confidence": "medium",
-   "n": 7
+   "n": 12
   },
   {
    "tbl": "metrics",
    "fact_status": "REPORTED",
    "confidence": "high",
-   "n": 9
+   "n": 14
   },
   {
    "tbl": "metrics",
@@ -31998,13 +33606,13 @@
    "tbl": "metrics",
    "fact_status": "REPORTED",
    "confidence": "medium",
-   "n": 31
+   "n": 34
   },
   {
    "tbl": "metrics",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 268
+   "n": 269
   },
   {
    "tbl": "metrics",

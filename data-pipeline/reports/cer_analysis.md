@@ -1,6 +1,6 @@
 # Clean Energy Regulator verification — RG-009
 
-Generated 2026-09-18 by `scripts/analyse_cer.py` from files archived under `data/raw/cer/` (each with a SHA-256 manifest).
+Generated 2026-09-21 by `scripts/analyse_cer.py` from files archived under `data/raw/cer/` (each with a SHA-256 manifest).
 
 NGER years parsed: 2019-20, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25
 Corporations published per year: 2019-20=415, 2020-21=409, 2021-22=417, 2022-23=402, 2023-24=392, 2024-25=398

@@ -41,6 +41,7 @@ PACKS = [
     ("data/packs/consultants_layer.json", ["--allow-missing-source"]),
     ("data/packs/rg079_determinations.json", ["--allow-missing-source"]),
     ("data/packs/status_updates.json", ["--allow-missing-source"]),
+    ("data/packs/palantir_nvidia_thread.json", ["--allow-missing-source"]),
 ]
 
 
@@ -77,6 +78,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_airtrunk_bca.py")
     run(PY, "scripts/curate_consultants.py")
     run(PY, "scripts/curate_status.py")
+    run(PY, "scripts/curate_palantir_nvidia.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     run(PY, "scripts/extraction_audit.py")
