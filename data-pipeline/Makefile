@@ -30,6 +30,7 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/consultants_layer.json \
                       data/packs/rg079_determinations.json \
                       data/packs/status_updates.json \
+                      data/packs/palantir_nvidia_thread.json \
                       data/packs/site_coordinates.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
@@ -87,6 +88,7 @@ verify:
 	$(PY) scripts/curate_airtrunk_bca.py
 	$(PY) scripts/curate_consultants.py
 	$(PY) scripts/curate_status.py
+	$(PY) scripts/curate_palantir_nvidia.py
 	$(PY) scripts/curate_site_coordinates.py
 
 load: build verify
