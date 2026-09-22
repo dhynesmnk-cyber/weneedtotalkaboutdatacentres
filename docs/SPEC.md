@@ -179,6 +179,30 @@ stabilised_cap_rate_pct, power_cost_per_kw. Gaps flagged, never estimated.
 - AEMO Generation Information parsed manually each quarter.
 - ASX and company announcement feeds automated.
 - Mainstream news feeds automated for perception events.
+- Commonwealth procurement (AusTender) archived on demand, never on a schedule.
+  See "Commonwealth procurement" below.
+
+## Commonwealth procurement
+`data-pipeline/scrapers/ingest_austender.py` archives keyword searches on
+tenders.gov.au. It is the portal of record wanted in place of the GovMarket
+aggregator, which is graded C because it silently merges spelling variants of
+the same entity.
+
+The scraper exists; the source is not yet approved for unattended use, and the
+two are deliberately not the same thing.
+
+**Status: manual only. It is excluded from `rebuild_all.py --fetch`, so no
+scheduled job runs it, and it has never been run against the live site.** Its
+first live run is a human review step: read the archived HTML before writing any
+curation against it, because none of its parsing has been tested on real
+AusTender markup.
+
+Approving it for scheduled ingestion is a human decision and belongs in the
+table below, alongside a note on what the archive is to be used for.
+
+| Source | Approved for scheduled use | Approved on | Approved by |
+| --- | --- | --- | --- |
+| tenders.gov.au keyword search | no — manual only | | |
 
 ## Approved council list
 The hard rule in CLAUDE.md permits council ingestion only for councils approved
@@ -189,6 +213,11 @@ here. That approval is a human decision.
 Candidates are drafted, with a source for each, in docs/COUNCIL_CANDIDATES.md.
 They are proposals only and carry no authority until a human moves them into the
 table below. Entries land in the council_watchlist table once approved.
+
+Council names appear in the data under more than one spelling. Proposed
+equivalences are in docs/LGA_ALIAS_CANDIDATES.md and are likewise proposals
+only: `facts.lga_aliases` requires a named approver per row and no import
+writes to it.
 
 | LGA | State | Approved on | Approved by |
 | --- | --- | --- | --- |
