@@ -285,10 +285,11 @@ select count(*) from facts.sites s where not exists (
   the code still share one provider.
 - **The approved council list is still empty**, so no council ingestion may run.
   Candidates are in `docs/COUNCIL_CANDIDATES.md` awaiting sign-off.
-- **Council name equivalences are unapproved**, so five councils each hold two
-  spellings and their site counts stay split. Proposals are in
-  `docs/LGA_ALIAS_CANDIDATES.md`; `facts.lga_aliases` needs a named approver per
-  row, which is why no agent can close this one.
+- **Council name equivalences are approved** — five rows in
+  `facts.lga_aliases` as of 2026-09-23, recorded in
+  `docs/LGA_ALIAS_CANDIDATES.md`. Nothing resolves through the table yet:
+  wiring the site list and any council join to it is separate work, and until
+  then the two spellings of each council still count separately on screen.
 - **Coordinates**, so the map stays empty. A human-curated
   `data-pipeline/data/inputs/site_coordinates.csv` with a method and source per
   row is the route; the slot exists and its column layout was corrected on

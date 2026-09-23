@@ -214,10 +214,10 @@ Candidates are drafted, with a source for each, in docs/COUNCIL_CANDIDATES.md.
 They are proposals only and carry no authority until a human moves them into the
 table below. Entries land in the council_watchlist table once approved.
 
-Council names appear in the data under more than one spelling. Proposed
-equivalences are in docs/LGA_ALIAS_CANDIDATES.md and are likewise proposals
-only: `facts.lga_aliases` requires a named approver per row and no import
-writes to it.
+Council names appear in the data under more than one spelling. Five
+equivalences were approved on 2026-09-23 and are rows in `facts.lga_aliases`;
+docs/LGA_ALIAS_CANDIDATES.md records each one and the reasoning. The table
+still requires a named approver per row and no import writes to it.
 
 | LGA | State | Approved on | Approved by |
 | --- | --- | --- | --- |

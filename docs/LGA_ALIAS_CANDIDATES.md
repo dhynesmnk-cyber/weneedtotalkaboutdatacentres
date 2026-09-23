@@ -1,15 +1,18 @@
 # LGA_ALIAS_CANDIDATES.md
 
-## Status: UNAPPROVED — PENDING HUMAN SIGN-OFF
+## Status: APPROVED — all five, by David on 2026-09-23
 
-Nothing in this file changes any data. These are candidate equivalences for the
-`facts.lga_aliases` table, drafted under the `researcher` role in
-docs/SUBAGENTS.md, which proposes and never approves.
+These five equivalences are now rows in `facts.lga_aliases`, each carrying
+`approved_by = 'David'`. They were drafted under the `researcher` role in
+docs/SUBAGENTS.md, which proposes and never approves, and approved on David's
+explicit instruction.
 
-CLAUDE.md and migration `0010` both state that `lga_aliases` is human-approved
-and that no import writes to it. Every row carries `approved_by`, and an agent
-cannot supply a name for that column without inventing one. **So this file stops
-at the proposal.**
+The table remains human-approved: CLAUDE.md and migration `0010` both state that
+no import writes to it, and that is unchanged. A sixth pair would follow the
+same route — proposed here, approved by a person, then inserted.
+
+This file is kept as the record of what was decided and why, not as a pending
+worklist.
 
 ### Why the table matters
 `docs/QUALITY.md` grades the GovMarket aggregator C precisely because it merges
@@ -18,40 +21,44 @@ project does the same job honestly: the merge is recorded, attributed and
 publishable, and RLS exposes it so a reader can check which names were treated
 as equivalent and who decided.
 
-Until a row exists, the pipeline loads both spellings verbatim and the site
-counts below stay split across them. That is the intended behaviour, not a bug:
-a split count is visibly wrong, whereas a wrong merge is invisible.
+The pipeline still loads both spellings verbatim; the alias table records the
+equivalence rather than rewriting the data, so the counts below remain as
+loaded. Nothing in `app/`, `components/` or `lib/` resolves through the table
+yet — wiring the site list and any council join to it is separate work.
 
-### How to approve
-For each pair you accept, decide which spelling is canonical, then insert a row:
+### How a further pair would be approved
+Decide which spelling is canonical, then insert a row:
 
 ```sql
 insert into facts.lga_aliases (alias, canonical, approved_by, note)
-values ('Blacktown', 'Blacktown City Council', '<your name>', '<why>');
+values ('<alias>', '<canonical>', '<your name>', '<why>');
 ```
 
-Approval is per pair, not per batch. Strike any you do not want.
+Approval is per pair, not per batch.
 
-### The direction is a real decision, not a formality
-`canonical` is what the site list and any future council join will display, so
-it is worth settling deliberately:
+### The direction chosen, and what it does not claim
+`canonical` is the **fuller council form** in every pair — one rule applied
+consistently. The short form is ambiguous outside context (`Blacktown` is also
+a suburb) while `Blacktown City Council` can only be the council. The short
+form does hold the larger share of sites in three of the five pairs, so this
+was a choice against the majority spelling, made for unambiguity.
 
-- **Official-name form** (`Blacktown City Council`) matches the councils'
-  own legal names and the approved-council table in docs/SPEC.md, which will
-  eventually need to join to these values.
-- **Short form** (`Blacktown`) is what most planning-portal records use and
-  what currently holds the larger share of sites in four of the five pairs.
+**No canonical value is asserted to be a council's legal name.** No register was
+read, so no such claim is made, and each row's `note` records the site counts at
+approval rather than a source for the name.
 
-A source for the official name belongs in the `note` column. I have not asserted
-one, because no register was read from this environment.
+`The Hills Shire` is where that distinction bites, and its note says so: the
+legal name is believed to carry a leading article that the canonical value
+(`Hills Shire Council`) does not. Revisit that one with a register as source
+before any canonical value is published as an official name.
 
 ---
 
-## Candidates
+## The five, as approved
 
 All five are reported by `npm run load:pipeline`, with site counts, since the
 detector was rewritten on 2026-09-22. Counts below are from the live database
-on the same date.
+on that date; `canonical` is the right-hand column.
 
 | Spelling A | Sites | Spelling B | Sites | Confidence |
 | --- | ---: | --- | ---: | --- |
