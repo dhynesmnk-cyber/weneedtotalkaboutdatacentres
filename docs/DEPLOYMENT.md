@@ -34,6 +34,31 @@ Step by step instructions are in docs/SUPABASE_SETUP.md. In summary:
   only passes with credentials present would be hiding that.
 - On merge to main: run supabase migrations, then deploy frontend.
 
+## Caching
+Database reads are cached for five minutes (`RECORD_CACHE_SECONDS`, default
+300). That bounds how stale a page can be and lets a burst of readers share one
+set of queries. Before this was set explicitly, Next.js cached every read for a
+year, so a load or a retraction reached readers only on the next deploy.
+
+A change should not wait out the cache. After applying a pipeline load, and
+after approving or retracting an essay or case study, clear it:
+
+```
+curl -X POST -H "Authorization: Bearer $REVALIDATE_SECRET" \
+  https://<site>/api/revalidate
+```
+
+The endpoint exists only when `REVALIDATE_SECRET` is set in Netlify. It clears
+a cache and can change nothing else. Without it, changes appear within
+`RECORD_CACHE_SECONDS`.
+
+## Map tiles
+The map uses OpenStreetMap's own tile servers unless `MAP_TILE_URL` and
+`MAP_TILE_ATTRIBUTION` are set. Those servers are for light use under the OSM
+tile usage policy and are not a production service: choose a provider before
+launch and set both. They are read at request time, so changing provider needs
+no rebuild. The map is only drawn once some site has coordinates.
+
 ## Secrets
 - All secrets in Netlify environment variables and Supabase project settings.
 - Never commit keys, tokens or connection strings.

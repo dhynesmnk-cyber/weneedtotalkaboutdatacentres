@@ -1,5 +1,6 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '@/lib/types';
+import { recordCacheSeconds, recordFetchPolicy } from '@/lib/supabase/cachePolicy';
 
 /**
  * The only place a Supabase client is constructed.
@@ -39,6 +40,11 @@ function readEnv(name: string): string {
   return value;
 }
 
+function recordFetch(): typeof fetch {
+  const policy = recordFetchPolicy(recordCacheSeconds(readOptionalEnv('RECORD_CACHE_SECONDS')));
+  return (input, init) => fetch(input, { ...init, ...policy });
+}
+
 export function getClient(): SupabaseClient<Database, 'facts'> {
   if (cached) return cached;
 
@@ -48,6 +54,9 @@ export function getClient(): SupabaseClient<Database, 'facts'> {
     {
       db: { schema: 'facts' },
       auth: { persistSession: false },
+      // Every read carries an explicit cache policy; see cachePolicy.ts for
+      // why the default was a year.
+      global: { fetch: recordFetch() },
     },
   );
 

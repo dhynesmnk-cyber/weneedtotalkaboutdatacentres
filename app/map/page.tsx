@@ -1,23 +1,15 @@
-import dynamicImport from 'next/dynamic';
 import Link from 'next/link';
-import { listMappableSites, listSites } from '@/lib/sites';
+import { SiteMapLoader } from '@/components/SiteMapLoader';
+import { isMappable, listSites } from '@/lib/sites';
 import { listLgaAliases } from '@/lib/councils';
+import { gapsByRecord, listGaps } from '@/lib/evidence';
+import { mapTiles } from '@/lib/mapTiles';
+import type { PopupGaps } from '@/components/MapPointPopup';
 import { isConfigured } from '@/lib/supabase/server';
 import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { formatMw, formatSiteStatus } from '@/lib/format';
 
 export const dynamic = 'force-dynamic';
-
-// Leaflet touches window on import, so the map is client-only.
-const SiteMap = dynamicImport(
-  () => import('@/components/SiteMap').then((m) => m.SiteMap),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="h-[28rem] w-full rounded-lg border border-fact-edge bg-fact-wash" />
-    ),
-  },
-);
 
 export const metadata = { title: 'Map' };
 
@@ -30,11 +22,15 @@ export const metadata = { title: 'Map' };
  * from the record.
  */
 export default async function MapPage() {
-  const [mappable, all, aliases] = await Promise.all([
-    listMappableSites(),
+  const [all, aliases, gaps] = await Promise.all([
     listSites(),
     listLgaAliases(),
+    listGaps('sites'),
   ]);
+  // One read, split here: the mappable sites are a subset of the list the
+  // page shows anyway.
+  const mappable = all.filter(isMappable);
+  const popupGaps = popupGapsFor(mappable, gapsByRecord(gaps));
   const withoutCoords = all.length - mappable.length;
 
   return (
@@ -52,9 +48,32 @@ export default async function MapPage() {
         <NothingRecorded what="sites" />
       ) : (
         <>
-          <SiteMap sites={mappable} aliases={aliases} />
+          {mappable.length === 0 ? (
+            // No map to draw, so none is loaded: no Leaflet code and no tiles
+            // for an empty frame. The gap is stated instead.
+            <p className="rounded border border-gap-edge bg-gap-wash px-4 py-3 text-gap-ink">
+              No site has recorded coordinates yet, so there is nothing to
+              plot. Every site is listed below.
+            </p>
+          ) : (
+            <section aria-labelledby="map-heading">
+              <h2 id="map-heading" className="sr-only">
+                Map of sites with recorded coordinates
+              </h2>
+              <p className="sr-only">
+                The map&rsquo;s points cannot be reached by keyboard. The list of all
+                sites below holds the same records.
+              </p>
+              <SiteMapLoader
+                sites={mappable}
+                aliases={aliases}
+                gaps={popupGaps}
+                tiles={mapTiles()}
+              />
+            </section>
+          )}
 
-          {withoutCoords > 0 && (
+          {withoutCoords > 0 && mappable.length > 0 && (
             <p className="rounded border border-gap-edge bg-gap-wash px-3 py-2 text-sm text-gap-ink">
               {withoutCoords} {withoutCoords === 1 ? 'site is' : 'sites are'} not
               shown because no coordinates have been recorded. They appear in the
@@ -68,8 +87,12 @@ export default async function MapPage() {
 
           <section aria-labelledby="map-list-heading">
             <h2 id="map-list-heading" className="text-lg font-semibold text-slate-900">
-              Sites on this map
+              All sites
             </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Every recorded site, including those not on the map. {mappable.length}{' '}
+              of {all.length} {all.length === 1 ? 'has' : 'have'} coordinates.
+            </p>
             <ul className="mt-3 divide-y divide-slate-200 rounded-lg border border-slate-200">
               {all.map((site) => (
                 <li key={site.id} className="px-4 py-3">
@@ -97,4 +120,28 @@ export default async function MapPage() {
       )}
     </div>
   );
+}
+
+/**
+ * The gaps a popup shows, for the sites that can be drawn. Only those cross
+ * to the browser: the map has no use for the rest, and every gap sent is
+ * page weight.
+ */
+function popupGapsFor(
+  sites: { id: string }[],
+  bySite: ReturnType<typeof gapsByRecord>,
+): Record<string, PopupGaps> {
+  const fields = ['operator', 'status', 'total_capacity_mw', 'lga'] as const;
+  const out: Record<string, PopupGaps> = {};
+  for (const site of sites) {
+    const recorded = bySite.get(site.id);
+    if (!recorded) continue;
+    const entry: PopupGaps = {};
+    for (const field of fields) {
+      const gap = recorded.get(field);
+      if (gap) entry[field] = gap.reason;
+    }
+    out[site.id] = entry;
+  }
+  return out;
 }

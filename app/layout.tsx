@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { PrimaryNav } from '@/components/PrimaryNav';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -11,13 +12,6 @@ export const metadata: Metadata = {
     'A public record of Australian AI data centre sites, the entities behind '
     + 'them, and what is known and not known about each.',
 };
-
-const NAV = [
-  { href: '/', label: 'Timeline' },
-  { href: '/essays', label: 'Essays' },
-  { href: '/map', label: 'Map' },
-  { href: '/list', label: 'Sites and entities' },
-] as const;
 
 export default function RootLayout({
   children,
@@ -37,20 +31,7 @@ export default function RootLayout({
               Australian AI Data Centre Observatory
             </Link>
 
-            <nav aria-label="Primary" className="mt-3">
-              <ul className="flex flex-wrap gap-x-5 gap-y-1 text-sm">
-                {NAV.map((item) => (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      className="rounded text-slate-700 underline-offset-4 hover:underline"
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
+            <PrimaryNav />
           </div>
         </header>
 

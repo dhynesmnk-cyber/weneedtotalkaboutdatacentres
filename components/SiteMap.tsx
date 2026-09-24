@@ -2,9 +2,10 @@
 
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import { MapPointPopup } from '@/components/MapPointPopup';
+import { MapPointPopup, type PopupGaps } from '@/components/MapPointPopup';
 import { aliasMap, resolveLga } from '@/lib/councils';
 import type { LgaAliasRow, SiteRow } from '@/lib/types';
+import { OSM_TILES, type MapTiles } from '@/lib/mapTiles';
 
 /**
  * Single point layer over Australia.
@@ -15,8 +16,14 @@ import type { LgaAliasRow, SiteRow } from '@/lib/types';
  * docs/SPEC.md, and this component deliberately has no layer control to grow
  * one into.
  *
- * The map is not the only way to reach this data. The map page renders a
- * keyboard-navigable list of the same sites alongside it.
+ * The map is not the only way to reach this data. Its points are SVG paths
+ * that cannot take keyboard focus, so the map page renders a list of the
+ * same sites alongside it as the accessible path. The map is deliberately
+ * not hidden from assistive technology: its zoom controls are focusable, and
+ * hiding focusable controls is itself an accessibility failure.
+ *
+ * Browser only. Import it through SiteMapLoader, never directly from a server
+ * component.
  */
 
 // Continental Australia, including Tasmania.
@@ -26,6 +33,8 @@ const DEFAULT_ZOOM = 4;
 export function SiteMap({
   sites,
   aliases = [],
+  gaps = {},
+  tiles = OSM_TILES,
 }: {
   sites: SiteRow[];
   /**
@@ -33,6 +42,10 @@ export function SiteMap({
    * this is a client component and the props cross a serialisation boundary.
    */
   aliases?: LgaAliasRow[];
+  /** Recorded gaps by site id. Plain objects, for the same reason. */
+  gaps?: Record<string, PopupGaps>;
+  /** Tile source, resolved on the server (lib/mapTiles.ts). */
+  tiles?: MapTiles;
 }) {
   const councils = aliasMap(aliases);
 
@@ -42,14 +55,8 @@ export function SiteMap({
       zoom={DEFAULT_ZOOM}
       scrollWheelZoom={false}
       className="h-[28rem] w-full rounded-lg border border-fact-edge"
-      // The map is decorative relative to the list beside it; the list is the
-      // accessible path to the same records.
-      aria-hidden="true"
     >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+      <TileLayer attribution={tiles.attribution} url={tiles.url} />
 
       {sites.map((site) =>
         site.lat !== null && site.lng !== null ? (
@@ -65,7 +72,11 @@ export function SiteMap({
             }}
           >
             <Popup>
-              <MapPointPopup site={site} council={resolveLga(site.lga, councils)?.display ?? null} />
+              <MapPointPopup
+                site={site}
+                council={resolveLga(site.lga, councils)?.display ?? null}
+                gaps={gaps[site.id]}
+              />
             </Popup>
           </CircleMarker>
         ) : null,

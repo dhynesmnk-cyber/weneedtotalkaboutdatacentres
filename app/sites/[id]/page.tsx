@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { cache } from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getSiteWithEvidence } from '@/lib/sites';
 import { aliasMap, listLgaAliases, resolveLga } from '@/lib/councils';
@@ -22,10 +24,23 @@ import type { SiteRow } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 
+// One fetch per request, shared by the page and its metadata.
+const loadSite = cache(getSiteWithEvidence);
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  if (!isConfigured()) return {};
+  const record = await loadSite(params.id);
+  return record ? { title: record.site.name } : {};
+}
+
 /**
  * Site profile: every field, with a gap badge wherever a value is missing.
  *
- * The page renders all thirteen fields whether or not they hold values, because
+ * The page renders every field whether or not it holds a value, because
  * which fields are unknown for a given site is itself a finding. A profile that
  * silently omits water usage tells the reader nothing; one that shows "Water
  * usage — Not disclosed" tells them something worth knowing.
@@ -35,7 +50,7 @@ export default async function SitePage({ params }: { params: { id: string } }) {
     return <NotConnected what="site records" />;
   }
 
-  const record = await getSiteWithEvidence(params.id);
+  const record = await loadSite(params.id);
   if (!record) notFound();
 
   const { site, gaps, citations } = record;

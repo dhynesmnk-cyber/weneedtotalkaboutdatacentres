@@ -56,6 +56,15 @@ no site holding a fabricated live capacity, every derived link still a proposal,
 and no entity flagged major. Applying twice is what proves idempotence, which
 cannot be tested any other way.
 
+scripts/ui/smoke.ts is the fourth layer, run by `npm run test:ui`. It serves
+that same load to the production build as the anon role and opens every public
+page in a browser, at desktop and phone widths, asserting the status code (a
+malformed record id is a 404, never a 500), no uncaught browser error, no axe
+WCAG 2.2 A or AA violation, and that an entity without the major flag is not
+named even in its page title. The build check in CI runs with no data, so this
+is the only layer that sees the pages as a reader does. It uses no test data:
+everything on screen came from the pipeline load.
+
 Both suites are mutation tested. Loosening the links policy to `using (true)`,
 granting anon an insert, or dropping the paired-coordinates constraint each make
 the RLS suite fail. Populating live_capacity_mw from it_capacity_mw, confirming

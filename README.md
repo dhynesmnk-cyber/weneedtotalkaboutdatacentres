@@ -47,6 +47,7 @@ hides it, and no entity is flagged as major until a human decides it is.
 | `npm test` | Unit tests (vitest) |
 | `npm run test:rls` | Live RLS and constraint tests against a real Postgres |
 | `npm run test:load` | Loads the research pipeline into a throwaway Postgres, twice, and asserts what a reader would see |
+| `npm run test:ui` | Serves that load through PostgREST, runs the production build against it, and checks every page in a browser: status codes, errors, WCAG 2.2 AA. Needs Docker |
 | `npm run load:pipeline` | Emits the load artefact from `data-pipeline/` for review |
 | `npm run db:types` | Regenerate database types from the local Supabase stack |
 | `npm run backup:export` | Export both schemas to newline-delimited JSON with a manifest |
@@ -55,8 +56,8 @@ hides it, and no entity is flagged as major until a human decides it is.
 
 ## Layout
 
-- `app/` — pages. Timeline, essay hub, map, list, and the four record pages.
-- `components/` — the six components specified in `docs/UI.md`, plus empty states.
+- `app/` — pages. Overview and timeline, essay hub, map, list, coverage, and the four record pages.
+- `components/` — the six components specified in `docs/UI.md`, plus navigation, stat tiles, the status breakdown, the map loader and empty states.
 - `lib/` — typed data access. Components never query Supabase directly; an
   ESLint rule enforces it.
 - `supabase/migrations/` — schema. Two Postgres schemas, `facts` and

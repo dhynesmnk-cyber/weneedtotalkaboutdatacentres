@@ -1,16 +1,22 @@
 import Link from 'next/link';
+import { GapBadge, UnexplainedBadge } from '@/components/GapBadge';
 import { formatMw, formatSiteStatus } from '@/lib/format';
-import type { SiteRow } from '@/lib/types';
+import type { GapReason, SiteRow } from '@/lib/types';
+
+/** The fields a popup shows, by the name their gaps are recorded under. */
+export type PopupGaps = Partial<Record<'operator' | 'status' | 'total_capacity_mw' | 'lga', GapReason>>;
 
 /**
  * Popup contents for a map point: name, operator, status, capacity.
  *
- * Missing values are named rather than blanked. A popup that silently omits
- * capacity reads as though the site has none.
+ * Missing values are named rather than blanked, with the same gap badge the
+ * site record uses. A popup that silently omits capacity reads as though the
+ * site has none.
  */
 export function MapPointPopup({
   site,
   council = site.lga,
+  gaps = {},
 }: {
   site: SiteRow;
   /**
@@ -19,6 +25,7 @@ export function MapPointPopup({
    * rather than nothing.
    */
   council?: string | null;
+  gaps?: PopupGaps;
 }) {
   const status = formatSiteStatus(site.status);
   const capacity = formatMw(site.total_capacity_mw);
@@ -28,10 +35,10 @@ export function MapPointPopup({
       <h3 className="text-base font-semibold text-fact-ink">{site.name}</h3>
 
       <dl className="mt-2 space-y-1">
-        <Row label="Operator" value={site.operator} />
-        <Row label="Status" value={status} />
-        <Row label="Capacity" value={capacity} />
-        <Row label="Council" value={council} />
+        <Row label="Operator" value={site.operator} gap={gaps.operator} />
+        <Row label="Status" value={status} gap={gaps.status} />
+        <Row label="Capacity" value={capacity} gap={gaps.total_capacity_mw} />
+        <Row label="Council" value={council} gap={gaps.lga} />
       </dl>
 
       <Link
@@ -44,12 +51,20 @@ export function MapPointPopup({
   );
 }
 
-function Row({ label, value }: { label: string; value: string | null }) {
+function Row({
+  label,
+  value,
+  gap,
+}: {
+  label: string;
+  value: string | null;
+  gap: GapReason | undefined;
+}) {
   return (
-    <div className="flex gap-2">
+    <div className="flex items-baseline gap-2">
       <dt className="shrink-0 text-slate-600">{label}</dt>
-      <dd className={value ? 'font-medium' : 'italic text-slate-500'}>
-        {value ?? 'Not recorded'}
+      <dd className="font-medium">
+        {value ?? (gap ? <GapBadge reason={gap} /> : <UnexplainedBadge />)}
       </dd>
     </div>
   );

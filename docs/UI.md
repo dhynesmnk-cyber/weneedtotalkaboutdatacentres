@@ -7,11 +7,23 @@
 - Gaps are visible. A gap badge is better than a blank or a guess.
 
 ## Pages
-- Home and Timeline: track selector for planning, construction, media,
-  political, community and financial events. Combine tracks as needed.
+- Home: leads with the record summary, then the timeline. The summary counts
+  what the record holds (sites tracked; how many have an operator, a council,
+  a total capacity and coordinates; sites by status) and is dated with the
+  last pipeline load. It leads because the state of the record is the first
+  finding a reader needs, and the timeline is empty until events are loaded.
+- Timeline: track selector for planning, construction, media, political,
+  community and financial events. Combine tracks as needed; at least one track
+  is always selected. The selection lives in the URL.
+- Coverage: for every site field, how many sites hold a value, how many carry
+  a gap and why, and how many have neither. A table first. A stored value that
+  itself says "unknown" is counted as an `unknown` gap, never as recorded.
 - Essay hub: date ordered list of video essays with embeds and written analysis.
 - Map: single Leaflet point layer, popup shows name, operator, status, capacity.
-- List: sortable index of sites and entities with status and capacity.
+- List: index of sites and entities with status and capacity. Sortable by
+  name, status, capacity and council; filterable by status and council. Sort
+  and filters live in the URL, and the filter is a plain GET form, so it works
+  without JavaScript. Sites missing the sort value always sort last.
 - Site profile: all site fields with gap badges, linked events, linked entities.
 - Entity profile: major entities only, with auto linked sites and events.
 - Case study: dated financial narrative with metric cards and source panel.
@@ -25,6 +37,11 @@
 - DateStamp (publish and data as of dates)
 - MapPointPopup
 
+## Navigation
+Overview, Essays, Map, Sites and entities, Coverage: SPEC.md's entry-point
+order, then the coverage view. The current section is marked with
+`aria-current`.
+
 ## Gap presentation
 A gap badge always states why a value is missing, never just that it is. The four
 reasons in SPEC.md map to reader facing wording:
@@ -36,6 +53,10 @@ reasons in SPEC.md map to reader facing wording:
 
 Where a gap cites a source, the badge links into the SourcePanel like any other
 claim. A gap is a finding and is presented as one.
+
+The badge is the same everywhere a missing value is shown: the site record,
+the index, and the map popup. A blank with no gap record shows the "No value
+recorded" defect badge instead.
 
 ## Map
 Leaflet, not MapLibre GL. v1 is a single point layer with popups, which needs no

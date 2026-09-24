@@ -7,8 +7,9 @@ out/
 build/
 dist/
 
-# Test output
-coverage/
+# Test output. Anchored to the root: unanchored, it also matched app/coverage/
+# and kept the coverage page out of the repository.
+/coverage/
 
 # TypeScript incremental build state
 *.tsbuildinfo

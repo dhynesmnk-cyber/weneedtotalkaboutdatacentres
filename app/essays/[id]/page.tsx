@@ -1,3 +1,5 @@
+import { cache } from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getEssay, youtubeEmbedUrl } from '@/lib/editorial';
 import { citationsFor } from '@/lib/evidence';
@@ -12,6 +14,19 @@ import { NotConnected } from '@/components/NotConnected';
 
 export const dynamic = 'force-dynamic';
 
+// One fetch per request, shared by the page and its metadata.
+const loadEssay = cache(getEssay);
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  if (!isConfigured()) return {};
+  const essay = await loadEssay(params.id);
+  return essay ? { title: essay.title } : {};
+}
+
 /**
  * Essay page: embed, body, sources.
  *
@@ -24,7 +39,7 @@ export default async function EssayPage({ params }: { params: { id: string } }) 
     return <NotConnected what="essays" />;
   }
 
-  const essay = await getEssay(params.id);
+  const essay = await loadEssay(params.id);
   if (!essay) notFound();
 
   const citations = await citationsFor('essays', essay.id);

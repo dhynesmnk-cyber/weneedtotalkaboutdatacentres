@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { cache } from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getCaseStudy } from '@/lib/editorial';
 import { getSite } from '@/lib/sites';
@@ -24,6 +26,19 @@ import type { CaseStudyMetrics, DataGapRow } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 
+// One fetch per request, shared by the page and its metadata.
+const loadCaseStudy = cache(getCaseStudy);
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  if (!isConfigured()) return {};
+  const study = await loadCaseStudy(params.id);
+  return study ? { title: study.title } : {};
+}
+
 /**
  * Case study: metric cards, then narrative, then sources.
  *
@@ -43,7 +58,7 @@ export default async function CaseStudyPage({
     return <NotConnected what="case studies" />;
   }
 
-  const study = await getCaseStudy(params.id);
+  const study = await loadCaseStudy(params.id);
   if (!study) notFound();
 
   const [citations, gaps, site] = await Promise.all([

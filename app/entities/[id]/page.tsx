@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { cache } from 'react';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getEntity, linkedRecordsForEntity } from '@/lib/entities';
 import { citationsFor } from '@/lib/evidence';
@@ -14,6 +16,20 @@ import {
 
 export const dynamic = 'force-dynamic';
 
+// One fetch per request, shared by the page and its metadata.
+const loadEntity = cache(getEntity);
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  if (!isConfigured()) return {};
+  const entity = await loadEntity(params.id);
+  // Only a published profile may name its entity, in the title as anywhere.
+  return entity?.major_flag ? { title: entity.name } : {};
+}
+
 /**
  * Entity profile. Published only for entities flagged major by public
  * prominence, per docs/SPEC.md: the project tracks organisations and public
@@ -27,7 +43,7 @@ export default async function EntityPage({ params }: { params: { id: string } })
     return <NotConnected what="entity records" />;
   }
 
-  const entity = await getEntity(params.id);
+  const entity = await loadEntity(params.id);
   if (!entity) notFound();
 
   // A profile exists only for major entities. Anything else is a record in the

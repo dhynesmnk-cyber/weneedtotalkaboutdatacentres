@@ -116,3 +116,48 @@ jobs:
           PGPORT: '5432'
           PGUSER: postgres
           PGPASSWORD: postgres
+
+  # Runs the production build against the pipeline load and checks every public
+  # page in a real browser: status codes, uncaught errors, and axe WCAG 2.2 AA.
+  # The build job above has no data, so every page it renders is the "not
+  # connected" state; this is the job that exercises the pages as readers see
+  # them. It exists because the map returned a 500 for every visitor once sites
+  # were loaded, and nothing else in CI could see it.
+  ui:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        # One version is enough here: the load job covers version drift.
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run UI smoke tests
+        run: ./scripts/test-ui.sh
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: '5432'
+          PGUSER: postgres
+          PGPASSWORD: postgres

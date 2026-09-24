@@ -1,0 +1,146 @@
+#!/usr/bin/env bash
+#
+# Browser smoke test of the public site against the real pipeline load.
+#
+# Loads data-pipeline/ into a throwaway database (via test-load.sh), serves it
+# through PostgREST as the anon role, builds and starts the site against it,
+# then runs scripts/ui/smoke.ts: status codes, uncaught browser errors, and
+# axe WCAG 2.2 AA checks on every public page at desktop and phone widths.
+#
+# Needs a reachable Postgres 14 or later, Docker (for PostgREST), and a
+# Playwright Chromium (`npx playwright install chromium`, or CHROMIUM_PATH):
+#
+#   PGHOST=127.0.0.1 PGPORT=5432 PGUSER=postgres PGPASSWORD=postgres \
+#     ./scripts/test-ui.sh
+#
+# No Supabase project and no secrets. Nothing here is test data: every record
+# on screen is one the pipeline load put there.
+
+set -euo pipefail
+
+PGHOST="${PGHOST:-127.0.0.1}"
+PGPORT="${PGPORT:-5432}"
+PGUSER="${PGUSER:-postgres}"
+TEST_DB="${TEST_DB:-observatory_ui_test}"
+POSTGREST_IMAGE="${POSTGREST_IMAGE:-postgrest/postgrest:v12.2.3}"
+POSTGREST_PORT="${POSTGREST_PORT:-3100}"
+PROXY_PORT="${PROXY_PORT:-3200}"
+APP_PORT="${APP_PORT:-3000}"
+
+export PGHOST PGPORT PGUSER
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "${repo_root}"
+
+container="observatory-ui-postgrest-$$"
+pids=()
+log_dir="${LOG_DIR:-$(mktemp -d)}"
+mkdir -p "${log_dir}"
+
+# Job control puts each background job in its own process group, so cleanup
+# can stop the whole group: npx and tsx each start a child process, and
+# killing only the parent would leave a server holding its port.
+set -m
+
+cleanup() {
+  local status=$?
+  # On failure, show what the servers were doing: the smoke test sees only
+  # the browser's side, and a slow or failing render is logged here.
+  if [ "${status}" -ne 0 ]; then
+    echo "--- site log (last 60 lines) ---"
+    tail -n 60 "${log_dir}/next.log" 2>/dev/null || true
+    echo "--- PostgREST log (last 30 lines) ---"
+    docker logs --tail 30 "${container}" 2>&1 || true
+  fi
+  for pid in "${pids[@]:-}"; do
+    [ -n "${pid}" ] && kill -- "-${pid}" 2>/dev/null || true
+  done
+  docker rm -f "${container}" >/dev/null 2>&1 || true
+  if [ "${KEEP_TEST_DB:-}" != "1" ]; then
+    psql -q -d postgres -c "drop database if exists ${TEST_DB};" || true
+  fi
+}
+trap cleanup EXIT
+
+wait_for() {
+  local url="$1" name="$2"
+  for _ in $(seq 1 60); do
+    if curl -s -o /dev/null "${url}"; then return 0; fi
+    sleep 1
+  done
+  echo "${name} did not come up at ${url}" >&2
+  return 1
+}
+
+echo "Loading the pipeline into ${TEST_DB}"
+TEST_DB="${TEST_DB}" KEEP_TEST_DB=1 ./scripts/test-load.sh >/dev/null
+
+# Max rows matches Supabase's default, which truncates a response at 1000
+# rows without an error. Without it a read that forgets to page would pass
+# here and undercount in production.
+echo "Starting PostgREST on ${POSTGREST_PORT}"
+docker run -d --name "${container}" --network host \
+  -e PGRST_DB_URI="postgres://${PGUSER}:${PGPASSWORD:-}@${PGHOST}:${PGPORT}/${TEST_DB}" \
+  -e PGRST_DB_SCHEMAS="facts,editorial" \
+  -e PGRST_DB_ANON_ROLE=anon \
+  -e PGRST_SERVER_PORT="${POSTGREST_PORT}" \
+  -e PGRST_DB_MAX_ROWS=1000 \
+  "${POSTGREST_IMAGE}" >/dev/null
+wait_for "http://127.0.0.1:${POSTGREST_PORT}/" "PostgREST"
+
+npx tsx scripts/ui/rest-proxy.ts "${PROXY_PORT}" "${POSTGREST_PORT}" &
+pids+=("$!")
+
+if [ "${SKIP_BUILD:-}" != "1" ]; then
+  echo "Building"
+  npm run build >/dev/null
+fi
+
+echo "Starting the site on ${APP_PORT}"
+# The anon key is a placeholder: the proxy drops it, and the database role is
+# fixed by PostgREST. The site only needs both variables set to connect.
+revalidate_secret="ui-test-$(date +%s)-$$"
+NEXT_PUBLIC_SUPABASE_URL="http://127.0.0.1:${PROXY_PORT}" \
+NEXT_PUBLIC_SUPABASE_ANON_KEY="ui-smoke-test" \
+REVALIDATE_SECRET="${revalidate_secret}" \
+  npx next start -p "${APP_PORT}" -H 127.0.0.1 >"${log_dir}/next.log" 2>&1 &
+pids+=("$!")
+wait_for "http://127.0.0.1:${APP_PORT}/" "The site"
+
+APP_URL="http://127.0.0.1:${APP_PORT}" \
+REST_URL="http://127.0.0.1:${PROXY_PORT}/rest/v1" \
+  npx tsx scripts/ui/smoke.ts
+
+# Freshness. Reads are cached (lib/supabase/cachePolicy.ts), and before that
+# was explicit Next.js cached them for a year: a change in the database never
+# reached a reader. This proves both halves on a real page: a change is held
+# by the cache, and /api/revalidate releases it. The rename happens in the
+# throwaway database only, which is dropped on exit.
+echo
+echo "Freshness"
+app="http://127.0.0.1:${APP_PORT}"
+site_id="$(psql -tA -d "${TEST_DB}" -c "select id from facts.sites order by name limit 1;")"
+marker="freshness check $$"
+page_has() { curl -s "${app}/sites/${site_id}" | grep -c "${marker}" || true; }
+
+curl -s -o /dev/null "${app}/sites/${site_id}"
+psql -q -d "${TEST_DB}" -c "update facts.sites set name = name || ' (${marker})' where id = '${site_id}';"
+if [ "$(page_has)" != "0" ]; then
+  echo "FAIL a database change showed before the cache was cleared: reads are not cached" >&2
+  exit 1
+fi
+echo "ok   a change is held by the cache"
+
+status="$(curl -s -o /dev/null -w '%{http_code}' -X POST -H 'Authorization: Bearer wrong' "${app}/api/revalidate")"
+if [ "${status}" != "401" ]; then
+  echo "FAIL /api/revalidate with a wrong secret returned ${status}, not 401" >&2
+  exit 1
+fi
+echo "ok   /api/revalidate refuses a wrong secret"
+
+status="$(curl -s -o /dev/null -w '%{http_code}' -X POST -H "Authorization: Bearer ${revalidate_secret}" "${app}/api/revalidate")"
+if [ "${status}" != "200" ] || [ "$(page_has)" = "0" ]; then
+  echo "FAIL /api/revalidate returned ${status} and the change did not reach the page" >&2
+  exit 1
+fi
+echo "ok   /api/revalidate makes the change visible"
