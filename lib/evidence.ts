@@ -48,6 +48,51 @@ export async function gapsFor(
   return data ?? [];
 }
 
+/**
+ * PostgREST returns at most this many rows per request. Supabase's default
+ * "Max rows" setting is 1000, and a request past it is truncated without an
+ * error, so anything that can exceed it has to page.
+ */
+const PAGE_SIZE = 1000;
+
+/**
+ * Every recorded gap for one kind of record.
+ *
+ * Paged, because the site gaps alone already number more than one response
+ * can carry: an unpaged read would return the first 1000 and every count
+ * built on it would be quietly wrong.
+ */
+export async function listGaps(recordType: CitableRecord): Promise<DataGapRow[]> {
+  if (!isConfigured()) return [];
+
+  const rows: DataGapRow[] = [];
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await facts()
+      .from('data_gaps')
+      .select('*')
+      .eq('record_type', recordType)
+      .order('id')
+      .range(from, from + PAGE_SIZE - 1);
+
+    if (error) throw new Error(`Failed to load gaps: ${error.message}`);
+    rows.push(...(data ?? []));
+    if (!data || data.length < PAGE_SIZE) return rows;
+  }
+}
+
+/** Gaps grouped by record, then by field, for rendering many records at once. */
+export function gapsByRecord(
+  gaps: DataGapRow[],
+): Map<string, Map<string, DataGapRow>> {
+  const byRecord = new Map<string, DataGapRow[]>();
+  for (const gap of gaps) {
+    const list = byRecord.get(gap.record_id);
+    if (list) list.push(gap);
+    else byRecord.set(gap.record_id, [gap]);
+  }
+  return new Map([...byRecord].map(([id, list]) => [id, gapsByField(list)]));
+}
+
 /** Gaps keyed by field name, for rendering a badge beside the field it concerns. */
 export function gapsByField(gaps: DataGapRow[]): Map<string, DataGapRow> {
   const byField = new Map<string, DataGapRow>();

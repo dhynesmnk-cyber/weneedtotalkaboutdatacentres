@@ -2,7 +2,7 @@
 
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import { MapPointPopup } from '@/components/MapPointPopup';
+import { MapPointPopup, type PopupGaps } from '@/components/MapPointPopup';
 import { aliasMap, resolveLga } from '@/lib/councils';
 import type { LgaAliasRow, SiteRow } from '@/lib/types';
 
@@ -32,6 +32,7 @@ const DEFAULT_ZOOM = 4;
 export function SiteMap({
   sites,
   aliases = [],
+  gaps = {},
 }: {
   sites: SiteRow[];
   /**
@@ -39,6 +40,8 @@ export function SiteMap({
    * this is a client component and the props cross a serialisation boundary.
    */
   aliases?: LgaAliasRow[];
+  /** Recorded gaps by site id. Plain objects, for the same reason. */
+  gaps?: Record<string, PopupGaps>;
 }) {
   const councils = aliasMap(aliases);
 
@@ -68,7 +71,11 @@ export function SiteMap({
             }}
           >
             <Popup>
-              <MapPointPopup site={site} council={resolveLga(site.lga, councils)?.display ?? null} />
+              <MapPointPopup
+                site={site}
+                council={resolveLga(site.lga, councils)?.display ?? null}
+                gaps={gaps[site.id]}
+              />
             </Popup>
           </CircleMarker>
         ) : null,

@@ -64,12 +64,16 @@ wait_for() {
 echo "Loading the pipeline into ${TEST_DB}"
 TEST_DB="${TEST_DB}" KEEP_TEST_DB=1 ./scripts/test-load.sh >/dev/null
 
+# Max rows matches Supabase's default, which truncates a response at 1000
+# rows without an error. Without it a read that forgets to page would pass
+# here and undercount in production.
 echo "Starting PostgREST on ${POSTGREST_PORT}"
 docker run -d --name "${container}" --network host \
   -e PGRST_DB_URI="postgres://${PGUSER}:${PGPASSWORD:-}@${PGHOST}:${PGPORT}/${TEST_DB}" \
   -e PGRST_DB_SCHEMAS="facts,editorial" \
   -e PGRST_DB_ANON_ROLE=anon \
   -e PGRST_SERVER_PORT="${POSTGREST_PORT}" \
+  -e PGRST_DB_MAX_ROWS=1000 \
   "${POSTGREST_IMAGE}" >/dev/null
 wait_for "http://127.0.0.1:${POSTGREST_PORT}/" "PostgREST"
 

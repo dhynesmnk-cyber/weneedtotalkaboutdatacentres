@@ -56,8 +56,8 @@ hides it, and no entity is flagged as major until a human decides it is.
 
 ## Layout
 
-- `app/` — pages. Timeline, essay hub, map, list, and the four record pages.
-- `components/` — the six components specified in `docs/UI.md`, plus empty states.
+- `app/` — pages. Overview and timeline, essay hub, map, list, coverage, and the four record pages.
+- `components/` — the six components specified in `docs/UI.md`, plus navigation, stat tiles, the status breakdown, the map loader and empty states.
 - `lib/` — typed data access. Components never query Supabase directly; an
   ESLint rule enforces it.
 - `supabase/migrations/` — schema. Two Postgres schemas, `facts` and

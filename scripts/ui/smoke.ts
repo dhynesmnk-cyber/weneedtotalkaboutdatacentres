@@ -37,6 +37,8 @@ type Check = {
   titleExcludes?: string;
   /** An element that must be on the page once it has settled. */
   selector?: string;
+  /** An element that must not be on the page. */
+  absent?: string;
 };
 
 const failures: string[] = [];
@@ -57,13 +59,23 @@ async function checks(): Promise<Check[]> {
   );
   if (!site) throw new Error('No sites loaded. Run scripts/test-load.sh first.');
 
+  // The load asserts that every blank carries a gap record, so a page showing
+  // an unexplained blank has lost gaps on the way, most likely to an unpaged
+  // read truncated at the 1000-row limit.
+  const UNEXPLAINED = '[data-unexplained]';
+
   const list: Check[] = [
     { path: '/', status: 200 },
+    { path: '/coverage', status: 200, absent: UNEXPLAINED },
+    { path: '/list?sort=capacity&dir=desc', status: 200, absent: UNEXPLAINED },
+    { path: '/list?status=approved&sort=council', status: 200 },
+    // A stale or hand-edited link still shows the index rather than failing.
+    { path: '/list?sort=price&status=imagined&council=Nowhere', status: 200 },
     { path: '/essays', status: 200 },
     // The map is drawn in the browser, so a 200 alone does not show it worked.
     { path: '/map', status: 200, selector: '.leaflet-container' },
-    { path: '/list', status: 200 },
-    { path: `/sites/${site.id}`, status: 200, title: site.name },
+    { path: '/list', status: 200, absent: UNEXPLAINED },
+    { path: `/sites/${site.id}`, status: 200, title: site.name, absent: UNEXPLAINED },
 
     // Malformed ids used to reach Postgres and come back as a 500.
     { path: '/sites/not-an-id', status: 404 },
@@ -111,6 +123,9 @@ async function run(page: Page, check: Check): Promise<void> {
   if (check.selector && (await page.locator(check.selector).count()) === 0) {
     fail(`nothing matches ${check.selector}`);
   }
+  if (check.absent && (await page.locator(check.absent).count()) > 0) {
+    fail(`found ${check.absent}, which should not be there`);
+  }
 
   for (const message of errors) fail(`uncaught error in the browser: ${message}`);
   page.off('pageerror', onError);
@@ -122,6 +137,42 @@ async function run(page: Page, check: Check): Promise<void> {
   }
 
   console.log(`${failures.length > before ? 'FAIL' : 'ok  '} ${status} ${check.path}`);
+}
+
+/**
+ * The timeline's track boxes: a press shows at once, the URL follows, and the
+ * last selected track cannot be unticked (which used to re-select all six).
+ */
+async function timelineTracks(page: Page): Promise<void> {
+  const fail = (what: string) => failures.push(`/ timeline tracks: ${what}`);
+  await page.goto(`${APP_URL}/`, { waitUntil: 'networkidle' });
+
+  const boxes = page.getByRole('group', { name: 'Event tracks' }).getByRole('checkbox');
+  const names = await boxes.evaluateAll((els) =>
+    els.map((el) => el.parentElement?.textContent?.trim() ?? ''),
+  );
+  if (names.length < 2) {
+    fail(`expected the track checkboxes, found ${names.length}`);
+    return;
+  }
+
+  const first = page.getByLabel(names[0]!, { exact: true });
+  await first.click();
+  if (await first.isChecked()) fail('a press did not change the box until the server answered');
+  await page.waitForURL(/tracks=/);
+
+  for (const name of names.slice(1, -1)) {
+    await page.getByLabel(name, { exact: true }).click();
+    await page.waitForFunction(
+      (n) => !new URLSearchParams(location.search).get('tracks')?.includes(n.toLowerCase()),
+      name,
+    );
+  }
+  const last = page.getByLabel(names.at(-1)!, { exact: true });
+  if (!(await last.isChecked())) fail('the last track should still be selected');
+  if (!(await last.isDisabled())) fail('the last selected track can be unticked');
+
+  console.log(`${failures.some((f) => f.startsWith('/ timeline')) ? 'FAIL' : 'ok  '} timeline tracks`);
 }
 
 async function main(): Promise<void> {
@@ -137,6 +188,7 @@ async function main(): Promise<void> {
       // not what is under test. Refusing them keeps CI off OpenStreetMap.
       await context.route('**/tile.openstreetmap.org/**', (route) => route.abort());
       const page = await context.newPage();
+      if (width === 1280) await timelineTracks(page);
       for (const check of await checks()) {
         await run(page, check);
         if (process.env.SCREENSHOT_DIR && check.status === 200) {

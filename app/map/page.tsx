@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { SiteMapLoader } from '@/components/SiteMapLoader';
 import { listMappableSites, listSites } from '@/lib/sites';
 import { listLgaAliases } from '@/lib/councils';
+import { gapsByRecord, listGaps } from '@/lib/evidence';
+import type { PopupGaps } from '@/components/MapPointPopup';
 import { isConfigured } from '@/lib/supabase/server';
 import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { formatMw, formatSiteStatus } from '@/lib/format';
@@ -19,11 +21,13 @@ export const metadata = { title: 'Map' };
  * from the record.
  */
 export default async function MapPage() {
-  const [mappable, all, aliases] = await Promise.all([
+  const [mappable, all, aliases, gaps] = await Promise.all([
     listMappableSites(),
     listSites(),
     listLgaAliases(),
+    listGaps('sites'),
   ]);
+  const popupGaps = popupGapsFor(mappable, gapsByRecord(gaps));
   const withoutCoords = all.length - mappable.length;
 
   return (
@@ -49,7 +53,7 @@ export default async function MapPage() {
               The map&rsquo;s points cannot be reached by keyboard. The list of all
               sites below holds the same records.
             </p>
-            <SiteMapLoader sites={mappable} aliases={aliases} />
+            <SiteMapLoader sites={mappable} aliases={aliases} gaps={popupGaps} />
           </section>
 
           {withoutCoords > 0 && (
@@ -99,4 +103,28 @@ export default async function MapPage() {
       )}
     </div>
   );
+}
+
+/**
+ * The gaps a popup shows, for the sites that can be drawn. Only those cross
+ * to the browser: the map has no use for the rest, and every gap sent is
+ * page weight.
+ */
+function popupGapsFor(
+  sites: { id: string }[],
+  bySite: ReturnType<typeof gapsByRecord>,
+): Record<string, PopupGaps> {
+  const fields = ['operator', 'status', 'total_capacity_mw', 'lga'] as const;
+  const out: Record<string, PopupGaps> = {};
+  for (const site of sites) {
+    const recorded = bySite.get(site.id);
+    if (!recorded) continue;
+    const entry: PopupGaps = {};
+    for (const field of fields) {
+      const gap = recorded.get(field);
+      if (gap) entry[field] = gap.reason;
+    }
+    out[site.id] = entry;
+  }
+  return out;
 }

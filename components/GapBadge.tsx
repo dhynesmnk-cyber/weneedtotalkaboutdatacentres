@@ -50,6 +50,7 @@ export function GapBadge({
 export function UnexplainedBadge() {
   return (
     <span
+      data-unexplained
       className="inline-flex items-center gap-1 rounded border border-red-300
                  bg-red-50 px-2 py-0.5 text-sm font-medium text-red-800"
       title="No value and no recorded gap. This is a data quality defect."
