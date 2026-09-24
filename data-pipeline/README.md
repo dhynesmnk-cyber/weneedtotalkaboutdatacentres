@@ -381,7 +381,18 @@ scrapes never write the key to disk.
   agreements; those are different numbers and must never be summed.
 - **Money is AUD REAL, power is MW, water is kL/yr.** No unit drift.
 - **Unverified proximity fields are left empty.** `nearest_cable_ls_km` awaits RG-001. A blank is
-  more useful than a guess.
+  more useful than a guess. Its site half is now in: see "Site coordinates" below. The landing-station
+  half (`data/inputs/cable_landing_stations.csv`) is still empty.
+- **Site coordinates come from the planning record, not a geocoder.** 46 sites, every NSW State
+  Significant Development project, carry the location point the NSW Planning Portal records for the
+  project (`field_coordinates` on the archived node JSON). `scripts/curate_site_coordinates.py`
+  verifies each node against its SHA-256 manifest, joins it to its site by SSD number, cites the
+  project's own portal page, and writes `data/packs/site_coordinates.json` and
+  `data/inputs/site_coordinates.csv` (method `planning_portal_point`). It refuses to write if a hash
+  fails, a reference maps to two sites, or a point falls outside NSW. The point is the planning
+  record's location for the project, not a surveyed building footprint. The other 47 sites (22 NSW
+  sites outside the SSD register, and every site in other states) have no coordinates and carry a gap
+  saying so.
 
 ## Status of the four pillars
 

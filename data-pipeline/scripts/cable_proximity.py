@@ -17,7 +17,10 @@ INPUTS
 
   data/inputs/site_coordinates.csv
       site_id,lat,lon,method,source_id
-      method ∈ {geocoded_address, lga_centroid, suburb_centroid, proponent_map, precise}
+      method ∈ {planning_portal_point, geocoded_address, lga_centroid, suburb_centroid,
+                proponent_map, precise}
+      planning_portal_point rows are written by scripts/curate_site_coordinates.py from the NSW
+      Planning Portal's own project records; do not edit those by hand, re-run the script.
       Populate by geocoding the `address` column where present, else falling back to suburb.
       Record the method on every row: an LGA centroid is not a site coordinate and must not be
       presented as one.

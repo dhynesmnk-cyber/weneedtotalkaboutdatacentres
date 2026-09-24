@@ -41,9 +41,11 @@ export function MapPointPopup({
         <Row label="Council" value={council} gap={gaps.lga} />
       </dl>
 
+      {/* `!` because leaflet.css colours every `.leaflet-container a`, which
+          outranks a single utility class and turned this link Leaflet blue. */}
       <Link
         href={`/sites/${site.id}`}
-        className="mt-3 inline-block font-medium text-fact-ink underline underline-offset-2"
+        className="mt-3 inline-block font-medium !text-fact-ink underline underline-offset-2"
       >
         Full site record
       </Link>

@@ -33,8 +33,8 @@ select public.assert(
   '125 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 117,
-  '117 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 157,
+  '157 sources loaded');
 
 -- ---------------------------------------------------------------------------
 -- Nothing was invented.
@@ -140,6 +140,43 @@ select public.assert(
            and g.field_name = 'lga'
       )) = 0,
   'every null council is explained by a gap record');
+
+-- Coordinates. 46 NSW SSD sites carry the point the NSW Planning Portal
+-- records for the project (data-pipeline/scripts/curate_site_coordinates.py).
+-- Each must cite a primary planning-portal record, the rest must say why they
+-- have none, and no site may both have coordinates and a gap claiming it has
+-- none.
+select public.assert(
+  (select count(*) from facts.sites where lat is not null and lng is not null) = 46,
+  '46 sites have coordinates');
+
+select public.assert(
+  (select count(*) from facts.sites s
+    where s.lat is not null
+      and not exists (
+        select 1 from facts.citations c
+          join facts.sources src on src.id = c.source_id
+         where c.record_type = 'sites' and c.record_id = s.id
+           and src.type = 'primary_planning_portal' and src.credibility = 'A'
+      )) = 0,
+  'every located site cites a primary planning-portal record');
+
+select public.assert(
+  (select count(*) from facts.sites s
+    where s.lat is null
+      and not exists (
+        select 1 from facts.data_gaps g
+         where g.record_type = 'sites' and g.record_id = s.id
+           and g.field_name = 'lat'
+      )) = 0,
+  'every site without coordinates is explained by a gap record');
+
+select public.assert(
+  (select count(*) from facts.sites s
+     join facts.data_gaps g
+       on g.record_type = 'sites' and g.record_id = s.id and g.field_name in ('lat', 'lng')
+    where s.lat is not null) = 0,
+  'no located site also carries a gap saying it has no coordinates');
 
 -- Derivation is not publication: proposed links have no public standing.
 select public.assert(

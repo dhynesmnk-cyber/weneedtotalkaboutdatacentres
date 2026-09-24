@@ -268,6 +268,58 @@ async function timelineTracks(page: Page): Promise<void> {
   console.log(`${failures.some((f) => f.startsWith('/ timeline')) ? 'FAIL' : 'ok  '} timeline tracks`);
 }
 
+/**
+ * A map point opens its popup, which names the site, states each field or its
+ * gap, and links to the full record. Runs only once some site has coordinates;
+ * axe runs again with the popup open, since it is not in the page until then.
+ */
+async function mapPopup(page: Page): Promise<void> {
+  const fail = (what: string) => failures.push(`/map popup: ${what}`);
+  const mappable = await firstRow<{ id: string }>(
+    'facts',
+    'sites?select=id&lat=not.is.null&lng=not.is.null&limit=1',
+  );
+  if (!mappable) return;
+  if (!(await open(page, '/map', fail))) return;
+
+  const point = page.locator('.leaflet-interactive').first();
+  const drawn = await point
+    .waitFor({ timeout: 15_000 })
+    .then(() => true)
+    .catch(() => false);
+  if (!drawn) {
+    fail('no map point was drawn');
+  } else {
+    await point.click({ force: true });
+    const popup = page.locator('.leaflet-popup');
+    const opened = await popup
+      .waitFor({ timeout: 5_000 })
+      .then(() => true)
+      .catch(() => false);
+    if (!opened) {
+      fail('clicking a point opened no popup');
+    } else {
+      // Leaflet fades the popup in. Checked mid-fade, its text is part
+      // transparent and axe reports contrast failures that no reader sees, so
+      // the check waits for the popup's final state.
+      await page.waitForFunction(
+        () => getComputedStyle(document.querySelector('.leaflet-popup')!).opacity === '1',
+        undefined,
+        { timeout: 5_000 },
+      );
+      if ((await popup.getByRole('link', { name: 'Full site record' }).count()) === 0) {
+        fail('the popup has no link to the site record');
+      }
+      const { violations } = await new AxeBuilder({ page }).withTags(WCAG_TAGS).analyze();
+      for (const v of violations) {
+        const where = v.nodes.map((n) => n.target.join(' ')).slice(0, 3).join(', ');
+        fail(`axe ${v.impact ?? ''} ${v.id} with the popup open, on ${v.nodes.length} node(s): ${where}`);
+      }
+    }
+  }
+  console.log(`${failures.some((f) => f.startsWith('/map popup')) ? 'FAIL' : 'ok  '} map popup`);
+}
+
 async function main(): Promise<void> {
   const browser = await chromium.launch({
     executablePath: process.env.CHROMIUM_PATH || undefined,
@@ -282,7 +334,10 @@ async function main(): Promise<void> {
       // not what is under test. Refusing them keeps CI off OpenStreetMap.
       await context.route('**/tile.openstreetmap.org/**', (route) => route.abort());
       const page = await context.newPage();
-      if (width === 1280) await timelineTracks(page);
+      if (width === 1280) {
+        await timelineTracks(page);
+        await mapPopup(page);
+      }
       for (const check of await checks()) {
         await run(page, check);
         if (process.env.SCREENSHOT_DIR && check.status === 200) {
