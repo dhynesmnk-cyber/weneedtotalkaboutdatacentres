@@ -34,6 +34,8 @@ cd "${repo_root}"
 
 container="observatory-ui-postgrest-$$"
 pids=()
+log_dir="${LOG_DIR:-$(mktemp -d)}"
+mkdir -p "${log_dir}"
 
 # Job control puts each background job in its own process group, so cleanup
 # can stop the whole group: npx and tsx each start a child process, and
@@ -41,6 +43,15 @@ pids=()
 set -m
 
 cleanup() {
+  local status=$?
+  # On failure, show what the servers were doing: the smoke test sees only
+  # the browser's side, and a slow or failing render is logged here.
+  if [ "${status}" -ne 0 ]; then
+    echo "--- site log (last 60 lines) ---"
+    tail -n 60 "${log_dir}/next.log" 2>/dev/null || true
+    echo "--- PostgREST log (last 30 lines) ---"
+    docker logs --tail 30 "${container}" 2>&1 || true
+  fi
   for pid in "${pids[@]:-}"; do
     [ -n "${pid}" ] && kill -- "-${pid}" 2>/dev/null || true
   done
@@ -90,7 +101,7 @@ echo "Starting the site on ${APP_PORT}"
 # fixed by PostgREST. The site only needs both variables set to connect.
 NEXT_PUBLIC_SUPABASE_URL="http://127.0.0.1:${PROXY_PORT}" \
 NEXT_PUBLIC_SUPABASE_ANON_KEY="ui-smoke-test" \
-  npx next start -p "${APP_PORT}" -H 127.0.0.1 >/dev/null &
+  npx next start -p "${APP_PORT}" -H 127.0.0.1 >"${log_dir}/next.log" 2>&1 &
 pids+=("$!")
 wait_for "http://127.0.0.1:${APP_PORT}/" "The site"
 

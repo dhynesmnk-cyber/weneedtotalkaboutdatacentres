@@ -21,7 +21,7 @@
  * screenshot of every page that loads.
  */
 import AxeBuilder from '@axe-core/playwright';
-import { chromium, type Page } from 'playwright';
+import { chromium, type BrowserContext, type Page, type Request } from 'playwright';
 
 const APP_URL = process.env.APP_URL ?? 'http://127.0.0.1:3000';
 const REST_URL = process.env.REST_URL ?? 'http://127.0.0.1:3200/rest/v1';
@@ -42,6 +42,53 @@ type Check = {
 };
 
 const failures: string[] = [];
+
+/**
+ * How long a page gets to go quiet after `load`, and what counts as slow.
+ *
+ * Pages are not awaited with Playwright's `networkidle`. In a production
+ * build Next.js prefetches every link in view, and each prefetch of a dynamic
+ * page is a server render, so whether the network ever idles depends on the
+ * browser and the machine: it did on this repository's runners for Phase 1
+ * and timed out at 30 s for Phase 2, whose home page links to eleven dynamic
+ * pages. Instead each page waits for its own requests to settle, up to a cap,
+ * and anything still pending or slow is printed by URL, so a stuck render is
+ * named rather than surfacing as a bare timeout.
+ */
+const SETTLE_MS = 10_000;
+const SLOW_MS = 3_000;
+const inFlight = new Map<Request, number>();
+const slow: string[] = [];
+
+function trackRequests(context: BrowserContext): void {
+  context.on('request', (request) => inFlight.set(request, Date.now()));
+  const done = (request: Request) => {
+    const started = inFlight.get(request);
+    if (started === undefined) return;
+    inFlight.delete(request);
+    const ms = Date.now() - started;
+    if (ms > SLOW_MS) slow.push(`${ms} ms  ${request.method()} ${request.url()}`);
+  };
+  context.on('requestfinished', done);
+  context.on('requestfailed', done);
+}
+
+/** Load a page, then let its requests settle. Null if it would not load. */
+async function open(page: Page, path: string, fail: (what: string) => void) {
+  try {
+    const response = await page.goto(`${APP_URL}${path}`, { waitUntil: 'load' });
+    const deadline = Date.now() + SETTLE_MS;
+    while (inFlight.size > 0 && Date.now() < deadline) await page.waitForTimeout(100);
+    if (inFlight.size > 0) {
+      console.warn(`  still in flight ${SETTLE_MS} ms after loading ${path}:`);
+      for (const request of inFlight.keys()) console.warn(`    ${request.method()} ${request.url()}`);
+    }
+    return response;
+  } catch (error) {
+    fail(`did not load: ${error instanceof Error ? error.message.split('\n')[0] : error}`);
+    return null;
+  }
+}
 
 async function firstRow<T>(schema: string, query: string): Promise<T | null> {
   const res = await fetch(`${REST_URL}/${query}`, {
@@ -106,10 +153,13 @@ async function run(page: Page, check: Check): Promise<void> {
   const onError = (error: Error) => errors.push(error.message);
   page.on('pageerror', onError);
 
-  const response = await page.goto(`${APP_URL}${check.path}`, {
-    waitUntil: 'networkidle',
-  });
-  const status = response?.status();
+  const response = await open(page, check.path, fail);
+  if (!response) {
+    page.off('pageerror', onError);
+    console.log(`FAIL ${check.path}`);
+    return;
+  }
+  const status = response.status();
   if (status !== check.status) fail(`expected ${check.status}, got ${status}`);
 
   const title = await page.title();
@@ -120,8 +170,16 @@ async function run(page: Page, check: Check): Promise<void> {
     fail(`title "${title}" names an unpublished record`);
   }
 
-  if (check.selector && (await page.locator(check.selector).count()) === 0) {
-    fail(`nothing matches ${check.selector}`);
+  // Waited for, not counted: a client-rendered element such as the map
+  // arrives after `load`, once its code has been fetched and run.
+  if (check.selector) {
+    const found = await page
+      .locator(check.selector)
+      .first()
+      .waitFor({ timeout: 15_000 })
+      .then(() => true)
+      .catch(() => false);
+    if (!found) fail(`nothing matches ${check.selector}`);
   }
   if (check.absent && (await page.locator(check.absent).count()) > 0) {
     fail(`found ${check.absent}, which should not be there`);
@@ -145,7 +203,25 @@ async function run(page: Page, check: Check): Promise<void> {
  */
 async function timelineTracks(page: Page): Promise<void> {
   const fail = (what: string) => failures.push(`/ timeline tracks: ${what}`);
-  await page.goto(`${APP_URL}/`, { waitUntil: 'networkidle' });
+  if (!(await open(page, '/', fail))) return;
+
+  // The press has to land after hydration: before it, the box is plain HTML
+  // and toggles without React, which is not what is under test.
+  const hydrated = await page
+    .waitForFunction(
+      () => {
+        const box = document.querySelector('fieldset input[type=checkbox]');
+        return box !== null && Object.keys(box).some((k) => k.startsWith('__reactFiber'));
+      },
+      undefined,
+      { timeout: 15_000 },
+    )
+    .then(() => true)
+    .catch(() => false);
+  if (!hydrated) {
+    fail('the track checkboxes never hydrated');
+    return;
+  }
 
   const boxes = page.getByRole('group', { name: 'Event tracks' }).getByRole('checkbox');
   const names = await boxes.evaluateAll((els) =>
@@ -184,6 +260,7 @@ async function main(): Promise<void> {
     for (const width of [1280, 390]) {
       console.log(`\nViewport ${width}px`);
       const context = await browser.newContext({ viewport: { width, height: 900 } });
+      trackRequests(context);
       // Map tiles are a third-party service with a usage policy, and they are
       // not what is under test. Refusing them keeps CI off OpenStreetMap.
       await context.route('**/tile.openstreetmap.org/**', (route) => route.abort());
@@ -203,6 +280,11 @@ async function main(): Promise<void> {
     }
   } finally {
     await browser.close();
+  }
+
+  if (slow.length > 0) {
+    console.warn(`\n${slow.length} request(s) took longer than ${SLOW_MS} ms:`);
+    for (const line of slow) console.warn(`  ${line}`);
   }
 
   if (failures.length > 0) {
