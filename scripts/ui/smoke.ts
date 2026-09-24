@@ -47,13 +47,13 @@ const failures: string[] = [];
  * How long a page gets to go quiet after `load`, and what counts as slow.
  *
  * Pages are not awaited with Playwright's `networkidle`. In a production
- * build Next.js prefetches every link in view, and each prefetch of a dynamic
- * page is a server render, so whether the network ever idles depends on the
- * browser and the machine: it did on this repository's runners for Phase 1
- * and timed out at 30 s for Phase 2, whose home page links to eleven dynamic
- * pages. Instead each page waits for its own requests to settle, up to a cap,
- * and anything still pending or slow is printed by URL, so a stuck render is
- * named rather than surfacing as a bare timeout.
+ * build Next.js prefetches every link in view, so one prefetch that never
+ * settles holds the network open and fails the page with a bare 30 s
+ * timeout that names nothing. That happened once: .gitignore kept
+ * app/coverage/ out of the repository, the nav's prefetch of /coverage never
+ * completed in CI, and the home page timed out. Instead each page waits for
+ * its own requests to settle, up to a cap, and anything still pending or slow
+ * is printed by URL, which is how that cause was found.
  */
 const SETTLE_MS = 10_000;
 const SLOW_MS = 3_000;
@@ -105,6 +105,19 @@ async function checks(): Promise<Check[]> {
     'sites?select=id,name&order=name&limit=1',
   );
   if (!site) throw new Error('No sites loaded. Run scripts/test-load.sh first.');
+  const mappable = await firstRow<{ id: string }>(
+    'facts',
+    'sites?select=id&lat=not.is.null&lng=not.is.null&limit=1',
+  );
+  if (!mappable) {
+    // Said on every run, not buried in a comment: the map component is where
+    // the Phase 1 crash lived, and it is only drawn once a site has
+    // coordinates. No coordinates are invented to force it.
+    console.warn(
+      'Note: no site has coordinates, so the map itself is not drawn or tested. ' +
+        'It will be once the pipeline loads coordinates.',
+    );
+  }
 
   // The load asserts that every blank carries a gap record, so a page showing
   // an unexplained blank has lost gaps on the way, most likely to an unpaged
@@ -119,8 +132,12 @@ async function checks(): Promise<Check[]> {
     // A stale or hand-edited link still shows the index rather than failing.
     { path: '/list?sort=price&status=imagined&council=Nowhere', status: 200 },
     { path: '/essays', status: 200 },
-    // The map is drawn in the browser, so a 200 alone does not show it worked.
-    { path: '/map', status: 200, selector: '.leaflet-container' },
+    // The map is drawn in the browser, so a 200 alone does not show it
+    // worked. With no coordinates recorded there is nothing to plot, and the
+    // page must say so without loading a map at all.
+    mappable
+      ? { path: '/map', status: 200, selector: '.leaflet-container' }
+      : { path: '/map', status: 200, selector: 'text=nothing to plot', absent: '.leaflet-container' },
     { path: '/list', status: 200, absent: UNEXPLAINED },
     { path: `/sites/${site.id}`, status: 200, title: site.name, absent: UNEXPLAINED },
 

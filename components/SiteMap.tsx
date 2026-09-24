@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import { MapPointPopup, type PopupGaps } from '@/components/MapPointPopup';
 import { aliasMap, resolveLga } from '@/lib/councils';
 import type { LgaAliasRow, SiteRow } from '@/lib/types';
+import { OSM_TILES, type MapTiles } from '@/lib/mapTiles';
 
 /**
  * Single point layer over Australia.
@@ -33,6 +34,7 @@ export function SiteMap({
   sites,
   aliases = [],
   gaps = {},
+  tiles = OSM_TILES,
 }: {
   sites: SiteRow[];
   /**
@@ -42,6 +44,8 @@ export function SiteMap({
   aliases?: LgaAliasRow[];
   /** Recorded gaps by site id. Plain objects, for the same reason. */
   gaps?: Record<string, PopupGaps>;
+  /** Tile source, resolved on the server (lib/mapTiles.ts). */
+  tiles?: MapTiles;
 }) {
   const councils = aliasMap(aliases);
 
@@ -52,10 +56,7 @@ export function SiteMap({
       scrollWheelZoom={false}
       className="h-[28rem] w-full rounded-lg border border-fact-edge"
     >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+      <TileLayer attribution={tiles.attribution} url={tiles.url} />
 
       {sites.map((site) =>
         site.lat !== null && site.lng !== null ? (

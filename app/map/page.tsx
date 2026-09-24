@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { SiteMapLoader } from '@/components/SiteMapLoader';
-import { listMappableSites, listSites } from '@/lib/sites';
+import { isMappable, listSites } from '@/lib/sites';
 import { listLgaAliases } from '@/lib/councils';
 import { gapsByRecord, listGaps } from '@/lib/evidence';
+import { mapTiles } from '@/lib/mapTiles';
 import type { PopupGaps } from '@/components/MapPointPopup';
 import { isConfigured } from '@/lib/supabase/server';
 import { NotConnected, NothingRecorded } from '@/components/NotConnected';
@@ -21,12 +22,14 @@ export const metadata = { title: 'Map' };
  * from the record.
  */
 export default async function MapPage() {
-  const [mappable, all, aliases, gaps] = await Promise.all([
-    listMappableSites(),
+  const [all, aliases, gaps] = await Promise.all([
     listSites(),
     listLgaAliases(),
     listGaps('sites'),
   ]);
+  // One read, split here: the mappable sites are a subset of the list the
+  // page shows anyway.
+  const mappable = all.filter(isMappable);
   const popupGaps = popupGapsFor(mappable, gapsByRecord(gaps));
   const withoutCoords = all.length - mappable.length;
 
@@ -45,18 +48,32 @@ export default async function MapPage() {
         <NothingRecorded what="sites" />
       ) : (
         <>
-          <section aria-labelledby="map-heading">
-            <h2 id="map-heading" className="sr-only">
-              Map of sites with recorded coordinates
-            </h2>
-            <p className="sr-only">
-              The map&rsquo;s points cannot be reached by keyboard. The list of all
-              sites below holds the same records.
+          {mappable.length === 0 ? (
+            // No map to draw, so none is loaded: no Leaflet code and no tiles
+            // for an empty frame. The gap is stated instead.
+            <p className="rounded border border-gap-edge bg-gap-wash px-4 py-3 text-gap-ink">
+              No site has recorded coordinates yet, so there is nothing to
+              plot. Every site is listed below.
             </p>
-            <SiteMapLoader sites={mappable} aliases={aliases} gaps={popupGaps} />
-          </section>
+          ) : (
+            <section aria-labelledby="map-heading">
+              <h2 id="map-heading" className="sr-only">
+                Map of sites with recorded coordinates
+              </h2>
+              <p className="sr-only">
+                The map&rsquo;s points cannot be reached by keyboard. The list of all
+                sites below holds the same records.
+              </p>
+              <SiteMapLoader
+                sites={mappable}
+                aliases={aliases}
+                gaps={popupGaps}
+                tiles={mapTiles()}
+              />
+            </section>
+          )}
 
-          {withoutCoords > 0 && (
+          {withoutCoords > 0 && mappable.length > 0 && (
             <p className="rounded border border-gap-edge bg-gap-wash px-3 py-2 text-sm text-gap-ink">
               {withoutCoords} {withoutCoords === 1 ? 'site is' : 'sites are'} not
               shown because no coordinates have been recorded. They appear in the

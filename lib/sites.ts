@@ -30,23 +30,15 @@ export async function listSites(options?: {
 }
 
 /**
- * Sites that can be placed on the map.
+ * Whether a site can be placed on the map.
  *
- * Coordinates are constrained to be supplied together, so filtering on lat
- * alone is sufficient. A site without coordinates is not absent from the
- * project, only from the map, and the map page says how many.
+ * Coordinates are constrained to be supplied together, but both are checked:
+ * the map needs both, and this costs nothing. A site without coordinates is
+ * not absent from the project, only from the map, and the map page says how
+ * many.
  */
-export async function listMappableSites(): Promise<SiteRow[]> {
-  if (!isConfigured()) return [];
-
-  const { data, error } = await facts()
-    .from('sites')
-    .select('*')
-    .not('lat', 'is', null)
-    .order('name');
-
-  if (error) throw new Error(`Failed to load mappable sites: ${error.message}`);
-  return data ?? [];
+export function isMappable(site: SiteRow): boolean {
+  return site.lat !== null && site.lng !== null;
 }
 
 export async function getSite(id: string): Promise<SiteRow | null> {

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { aliasMap, distinctLgas, listLgaAliases, resolveLga } from '@/lib/councils';
 import { listSites } from '@/lib/sites';
 import { listEntities } from '@/lib/entities';
-import { gapsByRecord, listGaps } from '@/lib/evidence';
+import { gapsByRecord, listGaps, type GapRef } from '@/lib/evidence';
 import { statusCounts } from '@/lib/coverage';
 import {
   applyIndexQuery,
@@ -17,7 +17,6 @@ import { isConfigured } from '@/lib/supabase/server';
 import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { GapBadge, UnexplainedBadge } from '@/components/GapBadge';
 import { formatMw, formatSiteStatus } from '@/lib/format';
-import type { DataGapRow } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'Sites and entities' };
@@ -298,7 +297,7 @@ function Cell({
   last = false,
 }: {
   value: string | null;
-  gap: DataGapRow | undefined;
+  gap: GapRef | undefined;
   last?: boolean;
 }) {
   return (

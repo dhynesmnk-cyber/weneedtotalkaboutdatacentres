@@ -99,8 +99,10 @@ fi
 echo "Starting the site on ${APP_PORT}"
 # The anon key is a placeholder: the proxy drops it, and the database role is
 # fixed by PostgREST. The site only needs both variables set to connect.
+revalidate_secret="ui-test-$(date +%s)-$$"
 NEXT_PUBLIC_SUPABASE_URL="http://127.0.0.1:${PROXY_PORT}" \
 NEXT_PUBLIC_SUPABASE_ANON_KEY="ui-smoke-test" \
+REVALIDATE_SECRET="${revalidate_secret}" \
   npx next start -p "${APP_PORT}" -H 127.0.0.1 >"${log_dir}/next.log" 2>&1 &
 pids+=("$!")
 wait_for "http://127.0.0.1:${APP_PORT}/" "The site"
@@ -108,3 +110,37 @@ wait_for "http://127.0.0.1:${APP_PORT}/" "The site"
 APP_URL="http://127.0.0.1:${APP_PORT}" \
 REST_URL="http://127.0.0.1:${PROXY_PORT}/rest/v1" \
   npx tsx scripts/ui/smoke.ts
+
+# Freshness. Reads are cached (lib/supabase/cachePolicy.ts), and before that
+# was explicit Next.js cached them for a year: a change in the database never
+# reached a reader. This proves both halves on a real page: a change is held
+# by the cache, and /api/revalidate releases it. The rename happens in the
+# throwaway database only, which is dropped on exit.
+echo
+echo "Freshness"
+app="http://127.0.0.1:${APP_PORT}"
+site_id="$(psql -tA -d "${TEST_DB}" -c "select id from facts.sites order by name limit 1;")"
+marker="freshness check $$"
+page_has() { curl -s "${app}/sites/${site_id}" | grep -c "${marker}" || true; }
+
+curl -s -o /dev/null "${app}/sites/${site_id}"
+psql -q -d "${TEST_DB}" -c "update facts.sites set name = name || ' (${marker})' where id = '${site_id}';"
+if [ "$(page_has)" != "0" ]; then
+  echo "FAIL a database change showed before the cache was cleared: reads are not cached" >&2
+  exit 1
+fi
+echo "ok   a change is held by the cache"
+
+status="$(curl -s -o /dev/null -w '%{http_code}' -X POST -H 'Authorization: Bearer wrong' "${app}/api/revalidate")"
+if [ "${status}" != "401" ]; then
+  echo "FAIL /api/revalidate with a wrong secret returned ${status}, not 401" >&2
+  exit 1
+fi
+echo "ok   /api/revalidate refuses a wrong secret"
+
+status="$(curl -s -o /dev/null -w '%{http_code}' -X POST -H "Authorization: Bearer ${revalidate_secret}" "${app}/api/revalidate")"
+if [ "${status}" != "200" ] || [ "$(page_has)" = "0" ]; then
+  echo "FAIL /api/revalidate returned ${status} and the change did not reach the page" >&2
+  exit 1
+fi
+echo "ok   /api/revalidate makes the change visible"

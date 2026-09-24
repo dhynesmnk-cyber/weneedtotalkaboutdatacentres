@@ -56,35 +56,44 @@ export async function gapsFor(
 const PAGE_SIZE = 1000;
 
 /**
+ * The part of a gap that pages listing many records use: which record, which
+ * field, and why. A full row is more than twice the size, and the site gaps
+ * alone are 1885 rows.
+ */
+export type GapRef = Pick<DataGapRow, 'record_id' | 'field_name' | 'reason'>;
+
+/**
  * Every recorded gap for one kind of record.
  *
  * Paged, because the site gaps alone already number more than one response
  * can carry: an unpaged read would return the first 1000 and every count
  * built on it would be quietly wrong.
  */
-export async function listGaps(recordType: CitableRecord): Promise<DataGapRow[]> {
+export async function listGaps(recordType: CitableRecord): Promise<GapRef[]> {
   if (!isConfigured()) return [];
 
-  const rows: DataGapRow[] = [];
+  const rows: GapRef[] = [];
   for (let from = 0; ; from += PAGE_SIZE) {
     const { data, error } = await facts()
       .from('data_gaps')
-      .select('*')
+      .select('record_id, field_name, reason')
       .eq('record_type', recordType)
       .order('id')
       .range(from, from + PAGE_SIZE - 1);
 
     if (error) throw new Error(`Failed to load gaps: ${error.message}`);
+    // Ordered by id so the pages are stable; PostgREST orders by a column
+    // it does not return, so the id costs nothing on the wire.
     rows.push(...(data ?? []));
     if (!data || data.length < PAGE_SIZE) return rows;
   }
 }
 
 /** Gaps grouped by record, then by field, for rendering many records at once. */
-export function gapsByRecord(
-  gaps: DataGapRow[],
-): Map<string, Map<string, DataGapRow>> {
-  const byRecord = new Map<string, DataGapRow[]>();
+export function gapsByRecord<G extends GapRef>(
+  gaps: readonly G[],
+): Map<string, Map<string, G>> {
+  const byRecord = new Map<string, G[]>();
   for (const gap of gaps) {
     const list = byRecord.get(gap.record_id);
     if (list) list.push(gap);
@@ -94,8 +103,10 @@ export function gapsByRecord(
 }
 
 /** Gaps keyed by field name, for rendering a badge beside the field it concerns. */
-export function gapsByField(gaps: DataGapRow[]): Map<string, DataGapRow> {
-  const byField = new Map<string, DataGapRow>();
+export function gapsByField<G extends Pick<DataGapRow, 'field_name'>>(
+  gaps: readonly G[],
+): Map<string, G> {
+  const byField = new Map<string, G>();
   for (const gap of gaps) {
     byField.set(gap.field_name, gap);
   }
@@ -123,7 +134,7 @@ export interface FieldEvidence<T> {
 export function resolveField<T>(
   field: string,
   value: T | null | undefined,
-  gaps: Map<string, DataGapRow>,
+  gaps: Map<string, Pick<DataGapRow, 'reason'>>,
 ): FieldEvidence<T> {
   const present = value !== null && value !== undefined && value !== '';
   const gap = gaps.get(field);

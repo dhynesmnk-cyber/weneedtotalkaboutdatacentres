@@ -1,8 +1,8 @@
 import { facts, isConfigured } from '@/lib/supabase/server';
+import type { GapRef } from '@/lib/evidence';
 import {
   GAP_REASONS,
   SITE_STATUSES,
-  type DataGapRow,
   type GapReason,
   type SiteRow,
   type SiteStatus,
@@ -109,7 +109,7 @@ export interface FieldCoverage {
  */
 export function siteCoverage(
   sites: readonly SiteRow[],
-  gaps: readonly DataGapRow[],
+  gaps: readonly GapRef[],
   fields: readonly CoverageField[] = SITE_COVERAGE_FIELDS,
 ): FieldCoverage[] {
   const gapFor = new Map<string, GapReason>();
