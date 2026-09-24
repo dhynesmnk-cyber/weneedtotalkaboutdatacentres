@@ -1,4 +1,5 @@
 import { facts, isConfigured } from '@/lib/supabase/server';
+import { aliasMap, distinctLgas, listLgaAliases, spellingsOf } from '@/lib/councils';
 import { citationsFor, gapsFor } from '@/lib/evidence';
 import type { SiteRow, SiteStatus, SiteWithEvidence } from '@/lib/types';
 
@@ -13,7 +14,14 @@ export async function listSites(options?: {
   let query = facts().from('sites').select('*').order('name');
 
   if (options?.status) query = query.eq('status', options.status);
-  if (options?.lga) query = query.eq('lga', options.lga);
+
+  // Filtering on a council has to match every approved spelling of it, not the
+  // one the caller happened to name. Asked for `Blacktown City Council` and
+  // matching only that, the filter would return 4 sites of 15 and look right.
+  if (options?.lga) {
+    const spellings = spellingsOf(options.lga, await listLgaAliases());
+    query = spellings.length === 1 ? query.eq('lga', options.lga) : query.in('lga', spellings);
+  }
 
   const { data, error } = await query;
   if (error) throw new Error(`Failed to load sites: ${error.message}`);
@@ -68,11 +76,13 @@ export async function getSiteWithEvidence(
   return { site, gaps, citations };
 }
 
-/** The distinct local government areas represented, for the list page filter. */
+/**
+ * The distinct councils represented, for the list page filter.
+ *
+ * Resolved through the approved aliases, so one council appears once however
+ * many ways the source records spell it.
+ */
 export async function listSiteLgas(): Promise<string[]> {
-  const sites = await listSites();
-  const lgas = new Set(
-    sites.map((s) => s.lga).filter((l): l is string => Boolean(l)),
-  );
-  return [...lgas].sort((a, b) => a.localeCompare(b, 'en-AU'));
+  const [sites, aliases] = await Promise.all([listSites(), listLgaAliases()]);
+  return distinctLgas(sites.map((s) => s.lga), aliasMap(aliases));
 }

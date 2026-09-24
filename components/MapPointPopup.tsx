@@ -8,7 +8,18 @@ import type { SiteRow } from '@/lib/types';
  * Missing values are named rather than blanked. A popup that silently omits
  * capacity reads as though the site has none.
  */
-export function MapPointPopup({ site }: { site: SiteRow }) {
+export function MapPointPopup({
+  site,
+  council = site.lga,
+}: {
+  site: SiteRow;
+  /**
+   * The council in its approved spelling, resolved by the caller. Defaults to
+   * the recorded value, so a popup rendered without it shows what is stored
+   * rather than nothing.
+   */
+  council?: string | null;
+}) {
   const status = formatSiteStatus(site.status);
   const capacity = formatMw(site.total_capacity_mw);
 
@@ -20,7 +31,7 @@ export function MapPointPopup({ site }: { site: SiteRow }) {
         <Row label="Operator" value={site.operator} />
         <Row label="Status" value={status} />
         <Row label="Capacity" value={capacity} />
-        <Row label="Council" value={site.lga} />
+        <Row label="Council" value={council} />
       </dl>
 
       <Link

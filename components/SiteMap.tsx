@@ -3,7 +3,8 @@
 import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { MapPointPopup } from '@/components/MapPointPopup';
-import type { SiteRow } from '@/lib/types';
+import { aliasMap, resolveLga } from '@/lib/councils';
+import type { LgaAliasRow, SiteRow } from '@/lib/types';
 
 /**
  * Single point layer over Australia.
@@ -22,7 +23,19 @@ import type { SiteRow } from '@/lib/types';
 const AUSTRALIA_CENTRE: [number, number] = [-27.5, 134];
 const DEFAULT_ZOOM = 4;
 
-export function SiteMap({ sites }: { sites: SiteRow[] }) {
+export function SiteMap({
+  sites,
+  aliases = [],
+}: {
+  sites: SiteRow[];
+  /**
+   * Approved council equivalences. Passed as rows rather than a Map because
+   * this is a client component and the props cross a serialisation boundary.
+   */
+  aliases?: LgaAliasRow[];
+}) {
+  const councils = aliasMap(aliases);
+
   return (
     <MapContainer
       center={AUSTRALIA_CENTRE}
@@ -52,7 +65,7 @@ export function SiteMap({ sites }: { sites: SiteRow[] }) {
             }}
           >
             <Popup>
-              <MapPointPopup site={site} />
+              <MapPointPopup site={site} council={resolveLga(site.lga, councils)?.display ?? null} />
             </Popup>
           </CircleMarker>
         ) : null,

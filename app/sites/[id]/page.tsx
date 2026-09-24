@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getSiteWithEvidence } from '@/lib/sites';
+import { aliasMap, listLgaAliases, resolveLga } from '@/lib/councils';
 import { listEventsForSite } from '@/lib/events';
 import { linkedEntitiesForSite } from '@/lib/entities';
 import { listCaseStudies } from '@/lib/editorial';
@@ -40,16 +41,22 @@ export default async function SitePage({ params }: { params: { id: string } }) {
   const { site, gaps, citations } = record;
   const byField = gapsByField(gaps);
 
-  const [events, entities, caseStudies] = await Promise.all([
+  const [events, entities, caseStudies, aliases] = await Promise.all([
     listEventsForSite(site.id),
     linkedEntitiesForSite(site.id),
     listCaseStudies({ siteId: site.id }),
+    listLgaAliases(),
   ]);
+
+  // Shown in the approved spelling, as everywhere else, but this is the record
+  // page: where an alias applied, it also says what the source actually said.
+  // The merge is a decision a human made and a reader is entitled to see it.
+  const council = resolveLga(site.lga, aliasMap(aliases));
 
   const fields: FieldEvidence<string>[] = [
     resolveField('operator', site.operator, byField),
     resolveField('status', formatSiteStatus(site.status), byField),
-    resolveField('lga', site.lga, byField),
+    resolveField('lga', council?.display ?? null, byField),
     resolveField('total_capacity_mw', formatMw(site.total_capacity_mw), byField),
     resolveField('live_capacity_mw', formatMw(site.live_capacity_mw), byField),
     resolveField('cooling_type', site.cooling_type, byField),
@@ -93,6 +100,12 @@ export default async function SitePage({ params }: { params: { id: string } }) {
                 ) : (
                   <UnexplainedBadge />
                 )}
+                {field.field === 'lga' && council?.normalised ? (
+                  <p className="mt-1 text-sm text-slate-600">
+                    Recorded as &ldquo;{council.recorded}&rdquo;. Shown in the
+                    approved spelling for this council.
+                  </p>
+                ) : null}
               </dd>
             </div>
           ))}
