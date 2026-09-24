@@ -299,11 +299,22 @@ async function mapPopup(page: Page): Promise<void> {
     if (!opened) {
       fail('clicking a point opened no popup');
     } else {
+      // Leaflet fades the popup in. Checked mid-fade, its text is part
+      // transparent and axe reports contrast failures that no reader sees, so
+      // the check waits for the popup's final state.
+      await page.waitForFunction(
+        () => getComputedStyle(document.querySelector('.leaflet-popup')!).opacity === '1',
+        undefined,
+        { timeout: 5_000 },
+      );
       if ((await popup.getByRole('link', { name: 'Full site record' }).count()) === 0) {
         fail('the popup has no link to the site record');
       }
       const { violations } = await new AxeBuilder({ page }).withTags(WCAG_TAGS).analyze();
-      for (const v of violations) fail(`axe ${v.impact ?? ''} ${v.id} with the popup open`);
+      for (const v of violations) {
+        const where = v.nodes.map((n) => n.target.join(' ')).slice(0, 3).join(', ');
+        fail(`axe ${v.impact ?? ''} ${v.id} with the popup open, on ${v.nodes.length} node(s): ${where}`);
+      }
     }
   }
   console.log(`${failures.some((f) => f.startsWith('/map popup')) ? 'FAIL' : 'ok  '} map popup`);
