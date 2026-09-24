@@ -216,9 +216,12 @@ deliberately refuses to perform on its own:
 - **Entity profiles 404.** No entity carries `major_flag`, so nothing is
   profiled until someone decides which entities are prominent enough. See
   `docs/SPEC.md` "Entity profiles".
-- **The map is empty.** No site in the research has coordinates, and the map
-  says how many it could not place. Geocoding is curation work with a source per
-  point, not something an importer may invent.
+- **The map shows 46 of 93 sites.** Only the NSW State Significant Development
+  projects have coordinates: the point the NSW Planning Portal records for each
+  project, cited to its portal page (see data-pipeline/README.md, "Site
+  coordinates"). The map says how many sites it could not place. The rest need
+  a sourced location; geocoding is curation work with a source per point, not
+  something an importer may invent.
 
 ## 7. Set the same variables in Netlify
 
@@ -291,9 +294,11 @@ select count(*) from facts.sites s where not exists (
   The list, the site record and the map popup all show the approved spelling;
   the record page also says what the source recorded. Stored values are
   unchanged.
-- **Coordinates**, so the map stays empty. A human-curated
-  `data-pipeline/data/inputs/site_coordinates.csv` with a method and source per
-  row is the route; the slot exists and its column layout was corrected on
-  2026-09-22. Geocoding itself is curation work with a source per point and
-  cannot be automated away: an invented coordinate is a fabricated fact about
-  where a data centre is.
+- **Coordinates for 47 sites.** The 46 NSW SSD projects are located from the
+  portal's own project records (data-pipeline/scripts/curate_site_coordinates.py).
+  The remaining 22 NSW sites outside the SSD register, and every site in other
+  states, need a sourced location: a state register that records one, a
+  proponent's published site plan, or a geocoded address with its source and
+  method recorded. That is curation work with a source per point and cannot be
+  automated away: an invented coordinate is a fabricated fact about where a
+  data centre is.
