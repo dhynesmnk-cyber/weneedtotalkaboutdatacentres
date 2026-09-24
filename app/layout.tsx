@@ -45,6 +45,11 @@ export default function RootLayout({
               Every factual claim on this site references a source record.
               Missing values are marked as gaps, never estimated.
             </p>
+            <p className="mt-2">
+              <Link href="/how-to-read" className="text-fact-ink underline underline-offset-2">
+                How to read this site
+              </Link>
+            </p>
           </div>
         </footer>
       </body>

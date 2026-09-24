@@ -7,15 +7,27 @@
 - Gaps are visible. A gap badge is better than a blank or a guess.
 
 ## Pages
-- Home: leads with the record summary, then the timeline. The summary counts
-  what the record holds (sites tracked; how many have an operator, a council,
-  a total capacity and coordinates; sites by status) and is dated with the
-  last pipeline load. It leads because the state of the record is the first
-  finding a reader needs, and the timeline is empty until events are loaded.
+- Home: the front door. A premise that says what the site does (not claims
+  about the industry, which would need sources), then two cards for the two
+  ways to read it (the record, the analysis), then findings read straight off
+  the record and each linked to where it can be checked, then how complete the
+  record is, then the timeline. The timeline's controls are hidden until an
+  event exists.
+- How to read this site (/how-to-read): the two layers, what each evidence
+  level, gap reason and source grade means, and what each date means. Uses the
+  real badge components, so the key cannot drift. Linked from the home page,
+  every site page and the footer.
+- Evidence: every site record shows how well it is established (verified,
+  reported, claimed), with the meaning in words. The index can filter on it.
+  Claimed is dashed and quoted, never styled like verified.
+- "How complete the record is" (home): counts what the record holds (sites
+  tracked; how many have an operator, a council, a total capacity and
+  coordinates; sites by status), framed as a finding: an unpublished figure is
+  a gap, never an estimate.
 - Timeline: track selector for planning, construction, media, political,
   community and financial events. Combine tracks as needed; at least one track
   is always selected. The selection lives in the URL.
-- Coverage: for every site field, how many sites hold a value, how many carry
+- What's known (/coverage): for every site field, how many sites hold a value, how many carry
   a gap and why, and how many have neither. A table first. A stored value that
   itself says "unknown" is counted as an `unknown` gap, never as recorded.
 - Essay hub: date ordered list of video essays with embeds and written analysis.
@@ -38,7 +50,7 @@
 - MapPointPopup
 
 ## Navigation
-Overview, Essays, Map, Sites and entities, Coverage: SPEC.md's entry-point
+Overview, Essays, Map, Sites and entities, What's known: SPEC.md's entry-point
 order, then the coverage view. The current section is marked with
 `aria-current`.
 

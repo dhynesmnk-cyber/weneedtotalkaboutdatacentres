@@ -81,6 +81,18 @@ function SourceLine({ citation }: { citation: CitationWithSource }) {
       {retrieved && (
         <span className="text-slate-600"> (retrieved {retrieved})</span>
       )}
+      {source.credibility && (
+        <>
+          {' '}
+          <a
+            href="/how-to-read#sources-heading"
+            className="whitespace-nowrap rounded border border-fact-edge bg-white px-1.5 text-xs font-medium text-fact-ink no-underline"
+            title="Sources are graded A to D by the kind of document they are"
+          >
+            Grade {source.credibility}
+          </a>
+        </>
+      )}
     </span>
   );
 }

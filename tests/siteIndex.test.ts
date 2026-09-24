@@ -18,13 +18,23 @@ describe('parseIndexQuery', () => {
   it('reads a valid query', () => {
     expect(
       parseIndexQuery({ sort: 'capacity', dir: 'desc', status: 'approved', council: 'Penrith' }),
-    ).toEqual({ sort: 'capacity', dir: 'desc', status: 'approved', council: 'Penrith' });
+    ).toEqual({
+      sort: 'capacity',
+      dir: 'desc',
+      status: 'approved',
+      council: 'Penrith',
+      evidence: null,
+    });
   });
 
   it('falls back on anything unrecognised rather than failing', () => {
-    expect(parseIndexQuery({ sort: 'price', dir: 'sideways', status: 'imagined' })).toEqual(
-      DEFAULT_QUERY,
-    );
+    expect(
+      parseIndexQuery({ sort: 'price', dir: 'sideways', status: 'imagined', evidence: 'rumour' }),
+    ).toEqual(DEFAULT_QUERY);
+  });
+
+  it('reads an evidence filter', () => {
+    expect(parseIndexQuery({ evidence: 'claimed' }).evidence).toBe('claimed');
   });
 
   it('takes the first of a repeated param and ignores blanks', () => {
@@ -82,6 +92,16 @@ describe('applyIndexQuery', () => {
   it('sorts status by lifecycle, not alphabetically', () => {
     const rows = applyIndexQuery(sites, { ...DEFAULT_QUERY, sort: 'status' }, none);
     expect(names(rows)).toEqual(['alpha', 'Bravo', 'Charlie', 'Delta']);
+  });
+
+  it('filters on evidence, and keeps it in the URL', () => {
+    const claimed = [
+      site('1', { name: 'A', fact_status: 'claimed' }),
+      site('2', { name: 'B', fact_status: 'verified' }),
+    ];
+    const query = { ...DEFAULT_QUERY, evidence: 'claimed' as const };
+    expect(names(applyIndexQuery(claimed, query, none))).toEqual(['A']);
+    expect(indexHref(query)).toBe('/list?evidence=claimed');
   });
 
   it('filters on status', () => {

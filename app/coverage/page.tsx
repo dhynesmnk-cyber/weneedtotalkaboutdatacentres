@@ -9,7 +9,7 @@ import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { DateStamp } from '@/components/DateStamp';
 
 export const dynamic = 'force-dynamic';
-export const metadata = { title: 'Coverage' };
+export const metadata = { title: 'What’s known' };
 
 /**
  * What is known for every site field.
@@ -36,7 +36,7 @@ export default async function CoveragePage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">Coverage</h1>
+        <h1 className="text-2xl font-bold text-slate-900">What&rsquo;s known</h1>
         <p className="mt-2 max-w-2xl text-slate-700">
           For every field the observatory records about a site: how many sites
           hold a sourced value, how many carry a gap and why, and how many have
@@ -57,7 +57,7 @@ export default async function CoveragePage() {
           className="overflow-x-auto"
           tabIndex={0}
           role="region"
-          aria-label="Coverage by field"
+          aria-label="What’s known, by field"
         >
           <table className="w-full border-collapse text-sm">
             <caption className="mb-3 text-left text-slate-700">

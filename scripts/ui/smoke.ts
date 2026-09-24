@@ -129,6 +129,8 @@ async function checks(): Promise<Check[]> {
     { path: '/coverage', status: 200, absent: UNEXPLAINED },
     { path: '/list?sort=capacity&dir=desc', status: 200, absent: UNEXPLAINED },
     { path: '/list?status=approved&sort=council', status: 200 },
+    { path: '/list?evidence=claimed', status: 200, absent: UNEXPLAINED },
+    { path: '/how-to-read', status: 200 },
     // A stale or hand-edited link still shows the index rather than failing.
     { path: '/list?sort=price&status=imagined&council=Nowhere', status: 200 },
     { path: '/essays', status: 200 },
@@ -221,6 +223,22 @@ async function run(page: Page, check: Check): Promise<void> {
 async function timelineTracks(page: Page): Promise<void> {
   const fail = (what: string) => failures.push(`/ timeline tracks: ${what}`);
   if (!(await open(page, '/', fail))) return;
+
+  // With no events the track controls are deliberately not drawn (six working
+  // checkboxes over an empty list read as a broken page). Check that state
+  // instead, and say the interaction is untested until events exist.
+  const anyEvent = await firstRow<{ id: string }>('facts', 'events?select=id&limit=1');
+  if (!anyEvent) {
+    if ((await page.getByRole('group', { name: 'Event tracks' }).count()) > 0) {
+      fail('track controls are shown although there are no events');
+    }
+    if ((await page.getByText('No events have been recorded yet').count()) === 0) {
+      fail('no message says the timeline is empty');
+    }
+    console.warn('Note: no events are recorded, so the track controls are not tested.');
+    console.log(`${failures.some((f) => f.startsWith('/ timeline')) ? 'FAIL' : 'ok  '} timeline (empty)`);
+    return;
+  }
 
   // The press has to land after hydration: before it, the box is plain HTML
   // and toggles without React, which is not what is under test.
