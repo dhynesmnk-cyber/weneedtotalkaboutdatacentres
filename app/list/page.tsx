@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { aliasMap, listLgaAliases, resolveLga } from '@/lib/councils';
 import { listSites } from '@/lib/sites';
 import { listEntities } from '@/lib/entities';
 import { isConfigured } from '@/lib/supabase/server';
@@ -10,10 +11,16 @@ export const metadata = { title: 'Sites and entities' };
 
 /** Sortable index of sites and entities. Fourth entry point in docs/SPEC.md. */
 export default async function ListPage() {
-  const [sites, entities] = await Promise.all([
+  const [sites, entities, aliases] = await Promise.all([
     listSites(),
     listEntities({ majorOnly: true }),
+    listLgaAliases(),
   ]);
+  // Council names are shown in the spelling a human approved, so one council
+  // reads as one council. The stored value is untouched; the site record page
+  // shows it, and facts.lga_aliases is published so a reader can check every
+  // equivalence and who approved it.
+  const councils = aliasMap(aliases);
 
   return (
     <div className="space-y-10">
@@ -43,6 +50,8 @@ export default async function ListPage() {
                 <table className="w-full border-collapse text-sm">
                   <caption className="sr-only">
                     Data centre sites with operator, status, capacity and council.
+                    Council names are shown in their approved spelling; each
+                    site&rsquo;s record page shows the spelling as recorded.
                   </caption>
                   <thead>
                     <tr className="border-b border-slate-300 text-left">
@@ -67,7 +76,7 @@ export default async function ListPage() {
                         <Cell value={site.operator} />
                         <Cell value={formatSiteStatus(site.status)} />
                         <Cell value={formatMw(site.total_capacity_mw)} />
-                        <Cell value={site.lga} last />
+                        <Cell value={resolveLga(site.lga, councils)?.display ?? null} last />
                       </tr>
                     ))}
                   </tbody>

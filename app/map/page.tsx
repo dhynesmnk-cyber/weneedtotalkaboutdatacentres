@@ -1,6 +1,7 @@
 import dynamicImport from 'next/dynamic';
 import Link from 'next/link';
 import { listMappableSites, listSites } from '@/lib/sites';
+import { listLgaAliases } from '@/lib/councils';
 import { isConfigured } from '@/lib/supabase/server';
 import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { formatMw, formatSiteStatus } from '@/lib/format';
@@ -29,7 +30,11 @@ export const metadata = { title: 'Map' };
  * from the record.
  */
 export default async function MapPage() {
-  const [mappable, all] = await Promise.all([listMappableSites(), listSites()]);
+  const [mappable, all, aliases] = await Promise.all([
+    listMappableSites(),
+    listSites(),
+    listLgaAliases(),
+  ]);
   const withoutCoords = all.length - mappable.length;
 
   return (
@@ -47,7 +52,7 @@ export default async function MapPage() {
         <NothingRecorded what="sites" />
       ) : (
         <>
-          <SiteMap sites={mappable} />
+          <SiteMap sites={mappable} aliases={aliases} />
 
           {withoutCoords > 0 && (
             <p className="rounded border border-gap-edge bg-gap-wash px-3 py-2 text-sm text-gap-ink">

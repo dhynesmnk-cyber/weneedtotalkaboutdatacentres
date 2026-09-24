@@ -23,8 +23,13 @@ as equivalent and who decided.
 
 The pipeline still loads both spellings verbatim; the alias table records the
 equivalence rather than rewriting the data, so the counts below remain as
-loaded. Nothing in `app/`, `components/` or `lib/` resolves through the table
-yet — wiring the site list and any council join to it is separate work.
+loaded and `facts.sites` is untouched.
+
+`lib/councils.ts` resolves them for display. The site list, the site record and
+the map popup show the approved spelling, and a filter on one council matches
+every approved spelling of it. Resolution is an exact match on an approved
+alias and never a guess: the normalising key in `lib/ingestion/lga.ts` suggests
+pairs to a human and is deliberately not used by the app.
 
 ### How a further pair would be approved
 Decide which spelling is canonical, then insert a row:
