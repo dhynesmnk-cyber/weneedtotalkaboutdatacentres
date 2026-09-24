@@ -163,8 +163,20 @@ export function formatGapReason(value: GapReason): string {
   return GAP_REASON_LABELS[value];
 }
 
+/**
+ * Fields whose reader-facing name is not their column name. `lga` is a
+ * planning term most readers do not know, and title-casing it gives "Lga";
+ * the rest of the site already calls it the council.
+ */
+const FIELD_LABELS: Record<string, string> = {
+  lga: 'Council',
+};
+
 /** "total_capacity_mw" becomes "Total capacity". Units live in the value. */
 export function formatFieldName(field: string): string {
+  const label = FIELD_LABELS[field];
+  if (label) return label;
+
   const withoutUnit = field
     .replace(/_mw$/, '')
     .replace(/_kw$/, '')

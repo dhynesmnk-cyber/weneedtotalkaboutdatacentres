@@ -113,6 +113,10 @@ describe('formatFieldName', () => {
     expect(formatFieldName('development_yield_pct')).toBe('Development yield');
   });
 
+  it('uses the reader-facing name where the column name is jargon', () => {
+    expect(formatFieldName('lga')).toBe('Council');
+  });
+
   it('handles single-word fields', () => {
     expect(formatFieldName('operator')).toBe('Operator');
   });

@@ -1,5 +1,5 @@
-import dynamicImport from 'next/dynamic';
 import Link from 'next/link';
+import { SiteMapLoader } from '@/components/SiteMapLoader';
 import { listMappableSites, listSites } from '@/lib/sites';
 import { listLgaAliases } from '@/lib/councils';
 import { isConfigured } from '@/lib/supabase/server';
@@ -7,17 +7,6 @@ import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { formatMw, formatSiteStatus } from '@/lib/format';
 
 export const dynamic = 'force-dynamic';
-
-// Leaflet touches window on import, so the map is client-only.
-const SiteMap = dynamicImport(
-  () => import('@/components/SiteMap').then((m) => m.SiteMap),
-  {
-    ssr: false,
-    loading: () => (
-      <div className="h-[28rem] w-full rounded-lg border border-fact-edge bg-fact-wash" />
-    ),
-  },
-);
 
 export const metadata = { title: 'Map' };
 
@@ -52,7 +41,16 @@ export default async function MapPage() {
         <NothingRecorded what="sites" />
       ) : (
         <>
-          <SiteMap sites={mappable} aliases={aliases} />
+          <section aria-labelledby="map-heading">
+            <h2 id="map-heading" className="sr-only">
+              Map of sites with recorded coordinates
+            </h2>
+            <p className="sr-only">
+              The map&rsquo;s points cannot be reached by keyboard. The list of all
+              sites below holds the same records.
+            </p>
+            <SiteMapLoader sites={mappable} aliases={aliases} />
+          </section>
 
           {withoutCoords > 0 && (
             <p className="rounded border border-gap-edge bg-gap-wash px-3 py-2 text-sm text-gap-ink">
@@ -68,8 +66,12 @@ export default async function MapPage() {
 
           <section aria-labelledby="map-list-heading">
             <h2 id="map-list-heading" className="text-lg font-semibold text-slate-900">
-              Sites on this map
+              All sites
             </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Every recorded site, including those not on the map. {mappable.length}{' '}
+              of {all.length} {all.length === 1 ? 'has' : 'have'} coordinates.
+            </p>
             <ul className="mt-3 divide-y divide-slate-200 rounded-lg border border-slate-200">
               {all.map((site) => (
                 <li key={site.id} className="px-4 py-3">

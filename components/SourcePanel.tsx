@@ -37,7 +37,7 @@ export function SourcePanel({
         <ol className="mt-3 space-y-3">
           {citations.map((citation, index) => (
             <li key={citation.id} className="text-sm">
-              <span className="mr-1 font-mono text-xs text-slate-500">
+              <span className="mr-1 font-mono text-xs text-slate-600">
                 [{index + 1}]
               </span>
               <SourceLine citation={citation} />

@@ -1,3 +1,4 @@
+import { isRecordId } from '@/lib/ids';
 import { facts, isConfigured } from '@/lib/supabase/server';
 import { aliasMap, distinctLgas, listLgaAliases, spellingsOf } from '@/lib/councils';
 import { citationsFor, gapsFor } from '@/lib/evidence';
@@ -50,6 +51,7 @@ export async function listMappableSites(): Promise<SiteRow[]> {
 
 export async function getSite(id: string): Promise<SiteRow | null> {
   if (!isConfigured()) return null;
+  if (!isRecordId(id)) return null;
 
   const { data, error } = await facts()
     .from('sites')

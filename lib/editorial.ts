@@ -1,3 +1,4 @@
+import { isRecordId } from '@/lib/ids';
 import { editorial, isConfigured } from '@/lib/supabase/server';
 import type { CaseStudyRow, EssayRow } from '@/lib/types';
 
@@ -26,6 +27,7 @@ export async function listEssays(options?: { limit?: number }): Promise<EssayRow
 
 export async function getEssay(id: string): Promise<EssayRow | null> {
   if (!isConfigured()) return null;
+  if (!isRecordId(id)) return null;
 
   const { data, error } = await editorial()
     .from('essays')
@@ -56,6 +58,7 @@ export async function listCaseStudies(options?: {
 
 export async function getCaseStudy(id: string): Promise<CaseStudyRow | null> {
   if (!isConfigured()) return null;
+  if (!isRecordId(id)) return null;
 
   const { data, error } = await editorial()
     .from('case_studies')

@@ -1,3 +1,4 @@
+import { isRecordId } from '@/lib/ids';
 import { facts, isConfigured } from '@/lib/supabase/server';
 import type { EntityRow, EventRow, SiteRow } from '@/lib/types';
 
@@ -18,6 +19,7 @@ export async function listEntities(options?: {
 
 export async function getEntity(id: string): Promise<EntityRow | null> {
   if (!isConfigured()) return null;
+  if (!isRecordId(id)) return null;
 
   const { data, error } = await facts()
     .from('entities')

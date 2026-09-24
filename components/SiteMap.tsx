@@ -15,8 +15,14 @@ import type { LgaAliasRow, SiteRow } from '@/lib/types';
  * docs/SPEC.md, and this component deliberately has no layer control to grow
  * one into.
  *
- * The map is not the only way to reach this data. The map page renders a
- * keyboard-navigable list of the same sites alongside it.
+ * The map is not the only way to reach this data. Its points are SVG paths
+ * that cannot take keyboard focus, so the map page renders a list of the
+ * same sites alongside it as the accessible path. The map is deliberately
+ * not hidden from assistive technology: its zoom controls are focusable, and
+ * hiding focusable controls is itself an accessibility failure.
+ *
+ * Browser only. Import it through SiteMapLoader, never directly from a server
+ * component.
  */
 
 // Continental Australia, including Tasmania.
@@ -42,9 +48,6 @@ export function SiteMap({
       zoom={DEFAULT_ZOOM}
       scrollWheelZoom={false}
       className="h-[28rem] w-full rounded-lg border border-fact-edge"
-      // The map is decorative relative to the list beside it; the list is the
-      // accessible path to the same records.
-      aria-hidden="true"
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
