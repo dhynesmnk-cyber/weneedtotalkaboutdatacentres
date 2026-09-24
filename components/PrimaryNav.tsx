@@ -9,7 +9,7 @@ const NAV = [
   { href: '/essays', label: 'Essays' },
   { href: '/map', label: 'Map' },
   { href: '/list', label: 'Sites and entities' },
-  { href: '/coverage', label: 'Coverage' },
+  { href: '/coverage', label: 'What’s known' },
 ] as const;
 
 /** A section is current on its own page and on the records beneath it. */

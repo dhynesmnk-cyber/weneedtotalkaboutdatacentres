@@ -1,5 +1,11 @@
 import { resolveLga } from '@/lib/councils';
-import { SITE_STATUSES, type SiteRow, type SiteStatus } from '@/lib/types';
+import {
+  FACT_STATUSES,
+  SITE_STATUSES,
+  type FactStatus,
+  type SiteRow,
+  type SiteStatus,
+} from '@/lib/types';
 
 /**
  * Sorting and filtering for the site index.
@@ -19,6 +25,8 @@ export interface IndexQuery {
   readonly status: SiteStatus | null;
   /** A council's displayed name, as `distinctLgas` lists it. */
   readonly council: string | null;
+  /** How well the site's record is established. */
+  readonly evidence: FactStatus | null;
 }
 
 export const DEFAULT_QUERY: IndexQuery = {
@@ -26,6 +34,7 @@ export const DEFAULT_QUERY: IndexQuery = {
   dir: 'asc',
   status: null,
   council: null,
+  evidence: null,
 };
 
 type Params = Record<string, string | string[] | undefined>;
@@ -44,6 +53,7 @@ export function parseIndexQuery(params: Params): IndexQuery {
   const sort = one(params.sort);
   const dir = one(params.dir);
   const status = one(params.status);
+  const evidence = one(params.evidence);
 
   return {
     sort: (SORT_KEYS as readonly string[]).includes(sort ?? '')
@@ -54,6 +64,9 @@ export function parseIndexQuery(params: Params): IndexQuery {
       ? (status as SiteStatus)
       : null,
     council: one(params.council),
+    evidence: (FACT_STATUSES as readonly string[]).includes(evidence ?? '')
+      ? (evidence as FactStatus)
+      : null,
   };
 }
 
@@ -64,6 +77,7 @@ export function indexHref(query: IndexQuery): string {
   if (query.dir !== DEFAULT_QUERY.dir) params.set('dir', query.dir);
   if (query.status) params.set('status', query.status);
   if (query.council) params.set('council', query.council);
+  if (query.evidence) params.set('evidence', query.evidence);
   const search = params.toString();
   return search ? `/list?${search}` : '/list';
 }
@@ -118,7 +132,8 @@ export function applyIndexQuery(
     (site) =>
       (query.status === null || site.status === query.status) &&
       (query.council === null ||
-        resolveLga(site.lga, councils)?.display === query.council),
+        resolveLga(site.lga, councils)?.display === query.council) &&
+      (query.evidence === null || site.fact_status === query.evidence),
   );
 
   const sign = query.dir === 'asc' ? 1 : -1;

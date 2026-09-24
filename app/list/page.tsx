@@ -16,7 +16,9 @@ import {
 import { isConfigured } from '@/lib/supabase/server';
 import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { GapBadge, UnexplainedBadge } from '@/components/GapBadge';
-import { formatMw, formatSiteStatus } from '@/lib/format';
+import { EvidenceBadge } from '@/components/EvidenceBadge';
+import { formatFactStatus, formatMw, formatSiteStatus } from '@/lib/format';
+import { FACT_STATUSES } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'Sites and entities' };
@@ -55,7 +57,7 @@ export default async function ListPage({
   const councils = aliasMap(aliases);
   const gapsBySite = gapsByRecord(gaps);
   const rows = applyIndexQuery(sites, query, councils);
-  const filtered = query.status !== null || query.council !== null;
+  const filtered = query.status !== null || query.council !== null || query.evidence !== null;
 
   return (
     <div className="space-y-10">
@@ -112,8 +114,8 @@ export default async function ListPage({
                   >
                     <table className="w-full border-collapse text-sm">
                       <caption className="sr-only">
-                        Data centre sites with operator, status, capacity and
-                        council. Sortable by the column headings. Council names
+                        Data centre sites with operator, status, capacity,
+                        council and how well each record is established. Sortable by the column headings. Council names
                         are shown in their approved spelling; each site&rsquo;s
                         record page shows the spelling as recorded.
                       </caption>
@@ -126,6 +128,14 @@ export default async function ListPage({
                           {COLUMNS.slice(1).map((column) => (
                             <SortHeader key={column.key} column={column} query={query} />
                           ))}
+                          <th scope="col" className="py-2 pl-4 font-semibold">
+                            <Link
+                              href="/how-to-read#evidence-heading"
+                              className="underline-offset-4 hover:underline"
+                            >
+                              Evidence
+                            </Link>
+                          </th>
                         </tr>
                       </thead>
                       <tbody>
@@ -153,8 +163,14 @@ export default async function ListPage({
                               <Cell
                                 value={resolveLga(site.lga, councils)?.display ?? null}
                                 gap={siteGaps?.get('lga')}
-                                last
                               />
+                              <td className="py-2 pl-4">
+                                {site.fact_status ? (
+                                  <EvidenceBadge status={site.fact_status} size="sm" />
+                                ) : (
+                                  <UnexplainedBadge />
+                                )}
+                              </td>
                             </tr>
                           );
                         })}
@@ -246,6 +262,18 @@ function FilterForm({
           {councils.map((council) => (
             <option key={council} value={council}>
               {council}
+            </option>
+          ))}
+        </select>
+      </label>
+
+      <label className="text-sm font-medium text-fact-ink">
+        Evidence
+        <select name="evidence" defaultValue={query.evidence ?? ''} className={select}>
+          <option value="">Any evidence</option>
+          {FACT_STATUSES.map((status) => (
+            <option key={status} value={status}>
+              {formatFactStatus(status)}
             </option>
           ))}
         </select>

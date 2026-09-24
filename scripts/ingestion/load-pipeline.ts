@@ -25,7 +25,7 @@ import {
   type LgaSpelling,
   type LgaVariantGroup,
 } from '@/lib/ingestion/lga';
-import { header, literal, upsert } from '@/lib/ingestion/sql';
+import { header, insertRows, literal, upsert } from '@/lib/ingestion/sql';
 import {
   RowRejected,
   transformEntity,
@@ -195,7 +195,13 @@ function main(): void {
       cast: { credibility: 'facts.source_credibility' },
     }),
     '\n',
+    // major_flag is inserted but never updated: whether an entity is major is
+    // a human decision (docs/SPEC.md), and the pipeline's value can only ever
+    // clear one a person has made.
     upsert('facts.entities', entities, '(pipeline_id) where pipeline_id is not null', {
+      updateColumns: Object.keys(entities[0] ?? {}).filter(
+        (c) => c !== 'id' && c !== 'major_flag',
+      ),
       cast: { fact_status: 'facts.fact_status', confidence: 'facts.confidence_level' },
     }),
     '\n',
@@ -215,10 +221,11 @@ function main(): void {
       cast: { record_type: 'facts.citable_record' },
     }),
     '\n',
-    upsert('facts.data_gaps', gaps, '(record_type, record_id, field_name)', {
-      updateColumns: ['reason', 'source_id'],
+    GAPS_STAGE,
+    insertRows('pg_temp.incoming_gaps', gaps, {
       cast: { record_type: 'facts.citable_record', reason: 'facts.gap_reason' },
     }),
+    GAPS_RECONCILE,
     '\n',
     '-- Derived links are proposals. Only a human sets confirmed, and until one\n',
     '-- does these are invisible to the public API by policy (0004).\n',
@@ -230,7 +237,9 @@ function main(): void {
       "(coalesce(site_id, '00000000-0000-0000-0000-000000000000'::uuid), " +
         "coalesce(entity_id, '00000000-0000-0000-0000-000000000000'::uuid), " +
         "coalesce(event_id, '00000000-0000-0000-0000-000000000000'::uuid))",
-      { updateColumns: ['state'], cast: { state: 'facts.link_state' } },
+      // Do nothing on conflict: a derived link is always proposed, so an
+      // update could only ever reset a link a human has since confirmed.
+      { doNothing: true, cast: { state: 'facts.link_state' } },
     ),
     '\n',
     `insert into facts.ingest_runs (source_system, source_digest, loader_version, rows_by_table, notes)\nvalues (${literal(SOURCE_SYSTEM)}, ${literal(digest)}, ${literal(LOADER_VERSION)}, ${literal(report.counts)}, ${literal(
@@ -282,12 +291,60 @@ function main(): void {
  * Assertions that run inside the load transaction, so a violation rolls the
  * whole thing back rather than leaving a half-loaded database.
  */
+/**
+ * Gaps are staged, then reconciled, rather than upserted.
+ *
+ * Every gap this loader writes is derived, and a derived gap may only say
+ * `unknown` with no source (CLAUDE.md). So an update on conflict could only
+ * ever downgrade a gap a human has since given a stronger, sourced reason:
+ * existing gaps are left alone.
+ *
+ * And a gap must go when its field is filled. Without this, a re-load after
+ * the research found a value kept the old gap beside it, which is how the
+ * first coordinates load would have left 92 "no coordinates" gaps on 46
+ * located sites. The delete is narrow: derived gaps only (unknown, no
+ * source), on records this pipeline owns, that the incoming load no longer
+ * contains. A gap a human recorded is never touched.
+ */
+const GAPS_STAGE = `-- Gaps: stage, add the new ones, then remove derived gaps the research has filled.
+create temporary table incoming_gaps (
+  record_type facts.citable_record not null,
+  record_id uuid not null,
+  field_name text not null,
+  reason facts.gap_reason not null,
+  source_id uuid
+) on commit drop;
+`;
+
+const GAPS_RECONCILE = `
+insert into facts.data_gaps (record_type, record_id, field_name, reason, source_id)
+select record_type, record_id, field_name, reason, source_id from pg_temp.incoming_gaps
+on conflict (record_type, record_id, field_name) do nothing;
+
+delete from facts.data_gaps g
+ where g.reason = 'unknown'
+   and g.source_id is null
+   and (
+     (g.record_type = 'sites' and exists (
+        select 1 from facts.sites r where r.id = g.record_id and r.pipeline_id is not null))
+     or (g.record_type = 'entities' and exists (
+        select 1 from facts.entities r where r.id = g.record_id and r.pipeline_id is not null))
+   )
+   and not exists (
+     select 1 from pg_temp.incoming_gaps i
+      where i.record_type = g.record_type
+        and i.record_id = g.record_id
+        and i.field_name = g.field_name
+   );
+`;
+
 const POST_LOAD_ASSERTIONS = `-- Invariants, checked inside the transaction.
 do $$
 declare
   uncited integer;
   live_set integer;
   published integer;
+  contradicted integer;
 begin
   select count(*) into uncited
     from facts.sites s
@@ -312,6 +369,15 @@ begin
    where state = 'confirmed' and confirmed_by is null;
   if published > 0 then
     raise exception 'ROLLED BACK: % links confirmed without a named human', published;
+  end if;
+
+  select count(*) into contradicted
+    from facts.sites s
+    join facts.data_gaps g
+      on g.record_type = 'sites' and g.record_id = s.id and g.field_name in ('lat', 'lng')
+   where s.lat is not null;
+  if contradicted > 0 then
+    raise exception 'ROLLED BACK: % located sites still carry a gap saying they have no coordinates', contradicted;
   end if;
 end;
 $$;

@@ -106,6 +106,34 @@ export function upsert(
   return `${insert}on conflict ${conflictTarget} do update set\n${updates};\n`;
 }
 
+/**
+ * A plain multi-row INSERT, for a table with nothing to conflict with: the
+ * temporary staging tables the load reconciles against.
+ */
+export function insertRows(
+  table: string,
+  rows: Record<string, unknown>[],
+  options: { cast?: Record<string, string> } = {},
+): string {
+  if (rows.length === 0) return `-- no rows for ${table}\n`;
+  const columns = Object.keys(rows[0] as Record<string, unknown>);
+  const cast = options.cast ?? {};
+  const values = rows
+    .map(
+      (row) =>
+        '  (' +
+        columns
+          .map((c) => {
+            const lit = literal(row[c]);
+            return cast[c] && lit !== 'null' ? `${lit}::${cast[c]}` : lit;
+          })
+          .join(', ') +
+        ')',
+    )
+    .join(',\n');
+  return `insert into ${table} (${columns.join(', ')})\nvalues\n${values};\n`;
+}
+
 /** A header stating what produced this artefact and from what. */
 export function header(meta: {
   loaderVersion: string;

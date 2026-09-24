@@ -95,6 +95,14 @@ echo "  unchanged: the load is idempotent"
 echo "Running assertions"
 psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${repo_root}/supabase/tests/load.test.sql"
 
+# Production is never a fresh database. Set up what lives there between loads
+# (human decisions, and gaps an earlier load left for fields since filled),
+# load again, and check the load removed the one and kept the others.
+echo "Re-loading over curated state"
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${repo_root}/supabase/tests/reload.setup.sql"
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${artefact}"
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${repo_root}/supabase/tests/reload.test.sql"
+
 if [ "${KEEP_TEST_DB:-}" != "1" ]; then
   psql -q -d postgres -c "drop database if exists ${TEST_DB};"
   rm -f "${artefact}"

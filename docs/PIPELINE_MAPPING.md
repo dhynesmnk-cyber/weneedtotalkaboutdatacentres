@@ -198,6 +198,28 @@ standing as publishing one.
 destination table. Their `source_refs` are **reported as skipped**, not dropped
 silently, so the count of what is not yet served is visible on every run.
 
+## Re-loading over a live database
+
+Production is never a fresh database, so a load must be safe to apply over one
+that people have worked on. It inserts new rows and updates pipeline-owned
+fields, and it leaves human decisions alone:
+
+- **Links** are inserted as `proposed` and never updated. A derived link is
+  always a proposal, so an update could only reset one a person confirmed.
+- **Major flags** are inserted but never updated. Whether an entity is major
+  is a human decision (SPEC.md).
+- **Gaps** are never updated either: a derived gap only says `unknown`, so an
+  update could only downgrade a sourced reason a person recorded. Gaps the
+  research has since filled are **removed**: derived gaps (`unknown`, no
+  source) on pipeline records that the incoming load no longer contains. That
+  is how "no coordinates" gaps disappear once a site has coordinates. A gap a
+  person recorded is never touched.
+
+`scripts/test-load.sh` proves this on every run: after the fresh-load checks it
+sets up that state (`supabase/tests/reload.setup.sql`), loads again, and asserts
+the stale gap went and the decisions stayed (`reload.test.sql`). The load also
+rolls itself back if any located site is still left with a coordinates gap.
+
 ## Running it
 
 ```bash

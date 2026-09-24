@@ -351,6 +351,14 @@ export const EVENT_CATEGORIES: readonly EventCategory[] = [
   'financial',
 ] as const;
 
+/** Strongest first: the order a reader should meet them in. */
+export const FACT_STATUSES: readonly FactStatus[] = [
+  'verified',
+  'reported',
+  'claimed',
+  'gap',
+] as const;
+
 export const GAP_REASONS: readonly GapReason[] = [
   'unknown',
   'not_disclosed',
