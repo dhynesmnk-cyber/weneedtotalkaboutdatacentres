@@ -220,9 +220,10 @@ Pipeline:
 ---
 
 ## Success measures
-- Five-minute comprehension: new visitors reach a site profile from home in
+- Five-minute comprehension (usability tests): new visitors reach a site profile from home in
   two or fewer taps (instrument the click path).
-- Return rate: subscribers to LGA alerts; monthly digest open rate.
+- Return rate: subscribers to LGA alerts, and how many stay subscribed (no
+  open tracking).
 - Depth: median session includes one essay and one data record (the core
   narrative loop working).
 - Trust: one hundred percent citation coverage sustained; correction log
@@ -230,9 +231,11 @@ Pipeline:
 - Production health: essays shipped per quarter vs target; PSA triggers acted
   on within five working days of detection.
 
-## Open questions for the team
-- Is email the right v1 notification channel, or SMS given residents on-site?
-- Who owns the monthly editorial calendar: single editor or rotating?
-- Does the explainer content live in the database (as records) or as static
-  pages? Recommendation: static pages for evergreen explainers, database for
-  anything with a data-as-of date.
+## Settled questions
+Settled on 2026-09-30; the decisions and their consequences are in
+docs/UX-PLAN.md under "Scope decisions".
+- Notification channel: email only in v1.
+- Editorial calendar: David, as single editor.
+- Explainer: a static page for evergreen prose, with every dated figure read
+  from the database with its citation.
+- Analytics: Netlify Analytics, so behaviour is measured in usability tests.
