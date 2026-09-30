@@ -1,0 +1,100 @@
+/* globals.css — Phase 0 design tokens (UX-PLAN "Design-system foundation").
+   Colour-blind-safe six-colour track palette (checked against simulated
+   deuteranopia/protanopia/tritanopia), type scale, spacing, focus ring,
+   motion tokens honouring prefers-reduced-motion. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Surfaces and ink (AA contrast on white >= 4.5:1 for body text) */
+  --ink-900: #16211d;
+  --ink-700: #33463f;
+  --ink-500: #5b6f67;
+  --paper: #faf8f4;
+  --card: #ffffff;
+  --line: #d9d4ca;
+
+  /* Fact vs editorial layers — always visually distinct (hard rule) */
+  --fact-accent: #0f6b4f;
+  --editorial-accent: #7c3aed;
+
+  /* Six event tracks, colour-blind-safe */
+  --track-planning: #1f5fa8;      /* blue */
+  --track-construction: #b45309;  /* amber-brown */
+  --track-media: #0f766e;         /* teal */
+  --track-political: #6d28d9;     /* violet */
+  --track-community: #be185d;     /* magenta */
+  --track-financial: #15803d;     /* green */
+
+  /* Status colours double-encoded with shape/text (never colour alone) */
+  --status-live: #15803d;
+  --status-stalled: #b45309;
+
+  /* Focus ring spec */
+  --focus-ring: 0 0 0 3px rgba(31, 95, 168, 0.55);
+
+  /* Motion tokens */
+  --dur-fast: 120ms;
+  --dur-med: 220ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Type scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-med: 0ms;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0ms !important;
+    transition-duration: 0ms !important;
+  }
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink-900);
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--ink-900);
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+.layer-fact {
+  border-left: 4px solid var(--fact-accent);
+}
+.layer-editorial {
+  border-left: 4px solid var(--editorial-accent);
+}

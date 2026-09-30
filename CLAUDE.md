@@ -46,6 +46,8 @@ versus research data.
 ## Key documents
 docs/SPEC.md        product scope and data model
 docs/UI.md          design system and page specs
+docs/UX.md          current UX assessment, improvement plan, essay and PSA production processes
+docs/UX-PLAN.md     execution plan for UX optimisation: epics, metrics, migrations, sequencing
 docs/REVIEW.md      editorial and code review checklists
 docs/SUBAGENTS.md   agent roles and boundaries
 docs/DEPLOYMENT.md  release, infrastructure, backups
