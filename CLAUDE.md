@@ -64,6 +64,8 @@ docs/PIPELINE_MAPPING.md  how data-pipeline maps onto Postgres, and why
 docs/COUNCIL_CANDIDATES.md  unapproved council candidates, pending sign-off
 docs/LGA_ALIAS_CANDIDATES.md  approved council name equivalences, and why
 docs/UI.md          design system and page specs
+docs/UX.md          user experience assessment and rationale
+docs/UX-PLAN.md     UX execution plan, phases and status against main
 docs/REVIEW.md      editorial and code review checklists
 docs/SUBAGENTS.md   agent roles and boundaries
 docs/DEPLOYMENT.md  release, infrastructure, backups
