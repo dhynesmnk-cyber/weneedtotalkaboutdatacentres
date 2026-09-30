@@ -40,30 +40,38 @@ connected" state rather than placeholder figures, and its components duplicate
 ones already on `main`. `AreaSearch` and `ClaimVsRecord` may be read for
 ideas when Epics B and D start.
 
-## Scope decisions (confirm before Phase 0 exit)
-1. Notification channel for v1: email via Supabase Auth + Edge Function.
-   SMS deferred (cost, privacy surface). Decision owner: product lead.
-2. Explainer content: static pages for evergreen material; anything with a
-   data-as-of date lives in the database. No new CMS.
+## Scope decisions (settled 2026-09-30 by David)
+1. Notification channel for v1: **email only**, via Supabase Auth + Edge
+   Function. SMS is out of v1. M4 still does not ship until the privacy review
+   is signed off.
+2. Explainer content: **static page for evergreen prose; every figure with an
+   as-of date is read from the database with its citation**. No new CMS. A
+   number never appears in the static prose itself.
 3. Digest generation: derived from the events table by a scheduled job outputting
    a draft that a human approves before it is published or emailed.
-4. Analytics: privacy-respecting, cookieless, self-hosted where possible
-   (e.g. Plausible-class tooling); no third-party advertising trackers. Any
-   analytics addition requires a privacy note update.
+4. Analytics: **Netlify Analytics** (server-log based, no script, no cookies,
+   nothing added to the page). It reports page views, top pages and referrers
+   only. It cannot follow a visitor between pages, so the click-path and
+   session metrics below are measured in the fortnightly usability tests
+   instead. Adding any script-based analytics later needs a privacy note
+   update and a new decision here.
+5. Editorial owner: **David, single editor**. Approves every essay, digest and
+   PSA, and owns the monthly editorial calendar.
 
 ---
 
 ## Success metrics (defined before building)
-Baseline at launch, reviewed monthly. All instrumentation is first-party only.
+Baseline at launch, reviewed monthly. No tracking script: page-level counts
+come from Netlify Analytics, behaviour from moderated usability tests.
 
 | Metric | Target (6 months post-launch) | Instrument |
 |---|---|---|
-| Time-to-first-site-profile | ≤ 2 taps from home; median < 90 s | click-path events |
-| Five-minute comprehension | ≥ 40% of sessions view explainer + one record | session cohort |
+| Time-to-first-site-profile | ≤ 2 taps from home; median < 90 s | usability test task timing |
+| Five-minute comprehension | ≥ 4 of 5 test participants explain what a site record shows after reading the explainer | usability test; explainer page views (Netlify) |
 | Citation coverage | 100% of published claims linked to source records | REVIEW checklist gate |
 | Gap-flag discipline | 0 blank numeric fields rendered without GapBadge | component test suite |
-| Return rate | ≥ 25% of subscribers open two consecutive digests | digest stats |
-| Narrative loop | median session includes ≥ 1 essay AND ≥ 1 data record | session cohort |
+| Return rate | ≥ 75% of subscribers still subscribed after three digests | subscription table (no open tracking pixels) |
+| Narrative loop | test participants move from an essay to a record and back unprompted | usability test; referrer counts between essay and record pages (Netlify) |
 | Correction SLA | 100% resolved within 7 days | correction log |
 | Essay cadence | ≥ 1/month shipped through full pipeline | editorial calendar |
 | PSA latency | published ≤ 5 working days after trigger detection | PSA pipeline log |
@@ -131,11 +139,11 @@ Owner: front-end. Depends on: Phase 0 palette.
 - C2 Per-month sparkline density control so sparse and surge months both read.
 - C3 Keyboard-operable timeline with accessible list fallback (already required
   by UI.md; now specified and tested per breakpoint).
-- C4 Monthly digest page generated from events table; human-approved payload.
+- C4 Monthly digest page generated from events table; approved by the editor.
 - C5 LGA/site/entity alert subscriptions (Supabase Auth + Edge Function;
   explicit consent, AU privacy statement, one-click unsubscribe).
 Acceptance: timeline usable at 360px width; subscription flow passes privacy
-review; digest open-rate metric instrumented from first send.
+review; subscription retention counted from first send.
 
 ### Epic D — Cross-linking the narrative (fact ↔ editorial loop)
 Owner: full-stack. Depends on: existing links/citations tables (SPEC.md).
@@ -224,7 +232,7 @@ KPI: trigger→publish ≤ 5 working days; 0 undated triggers published.
 
 | Stage | Contents | Exit gate |
 |---|---|---|
-| Phase 0 (weeks 1–2) | Scope decisions, success metrics instrumented (privacy-reviewed), design tokens + primitive library | Primitives pass contrast/keyboard specs; analytics decision signed off |
+| Phase 0 (weeks 1–2) | Netlify Analytics enabled, usability test protocol written, design tokens + primitive library | Primitives pass contrast/keyboard specs |
 | Phase 1 (weeks 3–8) | Epics A, B, F; migrations M1, M3 | New-visitor task test passes; AA audit green on shipped templates; suburb search accuracy check |
 | Phase 2 (weeks 9–14) | Epics C, D; migrations M2, M4, M5 | Timeline usable on mobile; first digest sent; zero orphan essays; essay citation rule enforced |
 | Phase 3 (weeks 15–18) | Epic E | Rollups reconcile in CI; CSV export tests pass; comparison view gap-badge complete |
@@ -235,7 +243,7 @@ the current build (moderated, 5 participants, mixed resident/journalist) and a
 metrics review. Features that fail their acceptance task are fixed or cut —
 they do not roll forward untested.
 
-Team assumption: 1 front-end, 1 full-stack/data, 1 editor/content (part-time),
+Team assumption: 1 front-end, 1 full-stack/data, David as sole editor (part-time),
 agents used within SUBAGENTS.md limits (drafts and checks only).
 
 ## Risks and mitigations
@@ -255,7 +263,7 @@ agents used within SUBAGENTS.md limits (drafts and checks only).
 
 ## Governance
 - This plan is reviewed at each phase exit gate and updated in place; changes
-  to metrics or scope require sign-off from the product lead and editor.
+  to metrics or scope require sign-off from the editor (David).
 - UX.md remains the rationale document; UX-PLAN.md is the execution tracker.
 - Definition of done for any item: acceptance criteria met, AA checks green,
   metrics instrumented, docs/UI.md and docs/SPEC.md updated if surfaces changed.
