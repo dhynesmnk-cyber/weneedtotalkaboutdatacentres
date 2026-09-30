@@ -41,6 +41,7 @@ PACKS = [
     ("data/packs/consultants_layer.json", ["--allow-missing-source"]),
     ("data/packs/rg079_determinations.json", ["--allow-missing-source"]),
     ("data/packs/status_updates.json", ["--allow-missing-source"]),
+    ("data/packs/palantir_nvidia_thread.json", ["--allow-missing-source"]),
     # Last: it updates sites created by rg002 and cites portal sources registered there.
     ("data/packs/site_coordinates.json", ["--allow-missing-source"]),
 ]
@@ -87,6 +88,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_airtrunk_bca.py")
     run(PY, "scripts/curate_consultants.py")
     run(PY, "scripts/curate_status.py")
+    run(PY, "scripts/curate_palantir_nvidia.py")
     run(PY, "scripts/curate_site_coordinates.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
