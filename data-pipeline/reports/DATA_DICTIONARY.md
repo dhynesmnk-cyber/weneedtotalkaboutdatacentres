@@ -553,7 +553,7 @@ The audit table. A claim is `VERIFIED` only when contracted instruments satisfy 
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `research_gaps` (table, 88 rows)
+## `research_gaps` (table, 89 rows)
 
 The ingestion backlog and the list of things we do not know. Each row names the target source and the retrieval method. This is the project's work queue.
 

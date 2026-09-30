@@ -1276,7 +1276,7 @@ METRICS = [
 ]
 
 # ---------------------------------------------------------------------------
-# RESEARCH GAPS - RG-086 to RG-094 (max existing id at curation time: 85)
+# RESEARCH GAPS - RG-086 to RG-095 (max existing id at curation time: 85)
 # ---------------------------------------------------------------------------
 GAPS = [
     dict(id=86, pillar="B",
@@ -1497,6 +1497,31 @@ GAPS = [
                "as done for the December-2025 Future Fund PIR.",
          fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
          source_id="SRC_FF_PIR_DEC25"),
+    dict(id=95, pillar="B",
+         question="Is Coles' Palantir arrangement still current? Establish from a primary "
+                  "source whether Coles announced in early September 2026 that it will not "
+                  "extend the arrangement beyond 2027, when the current term ends, and what "
+                  "reason Coles itself gave.",
+         why_it_matters="ENT_COLES is dated 2024-11-18 and describes Coles as a Palantir "
+                        "customer. reports/palantir_australia_triage.md records a September "
+                        "2026 announcement that Coles will not renew beyond 2027, and that the "
+                        "public campaign over Palantir's ICE and military work was the reported "
+                        "cause - but only from search-engine summaries, below grade D and "
+                        "quarantined. If true, the customer register overstates a relationship "
+                        "that is ending; if the stated cause is Coles' own, it is the first "
+                        "Australian commercial exit tied to Palantir's defence and immigration "
+                        "work.",
+         target_source="Coles Group ASX announcements and media releases (September 2026); "
+                       "Coles FY2026 annual report; Information Age and iTnews coverage, read "
+                       "in full",
+         retrieval_method="manual_review", priority=4, status="open", opened="2026-09-30",
+         notes="Opened on rebase onto main, reconciling this thread with "
+               "reports/palantir_australia_triage.md. The triage also found a supplied "
+               "roster wrong on the store count (840+, not 850+) and on 'concluded'. Do not "
+               "write the non-renewal or its cause into ENT_COLES until a primary source "
+               "has been read.",
+         fact_status="REPORTED", confidence="low", as_of_date="2026-09-30",
+         source_id="SRC_ITNEWS_COLES"),
 ]
 
 

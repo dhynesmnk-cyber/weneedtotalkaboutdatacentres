@@ -1,6 +1,6 @@
 # The Palantir–NVIDIA thread: defence-AI, sovereign infrastructure and the Australian footprint
 
-**Opened 2026-09-21 · pack `data/packs/palantir_nvidia_thread.json` · 36 sources, 51 rows, gaps RG-086…RG-094 · curation script `scripts/curate_palantir_nvidia.py`**
+**Opened 2026-09-21 · pack `data/packs/palantir_nvidia_thread.json` · 36 sources, 51 rows, gaps RG-086…RG-095 · curation script `scripts/curate_palantir_nvidia.py`**
 
 This thread tracks one question the observatory did not previously ask: **when the hardware
 layer of AI (NVIDIA) and the decision layer of AI (Palantir) merge into a single stack sold to
@@ -139,7 +139,7 @@ Commonwealth funds and CSC: **RG-094**.
 (verified — four-year Foundry/AIP extension, Nov 2024; the Ontology coordinates **53 driverless
 iron-ore trains across the Pilbara** from the RTIO Operations Centre in WA); **Coles** (reported
 — Palantir analytics across supermarkets since 2024; workforce management against 24,000
-process standards "measured to 15-minute increments"); **Westpac** (single weak source — a
+process standards "measured to 15-minute increments"; whether Coles is ending the arrangement after 2027, reported in September 2026 only via search summaries, is **RG-095**); **Westpac** (single weak source — a
 LinkedIn post via Crikey; no entity row created until corroborated, RG-088).
 
 **The revolving door, in writing.** The UK's Advisory Committee on Business Appointments —
@@ -254,7 +254,7 @@ found**, and the pack keeps it that way:
 - It does not say the NVIDIA–Palantir partnership has an Australian defence deployment. The
   Australian record is: five Commonwealth contract notices, one platform-hosting statement
   (PPA on AWS AU regions), one IRAP assessment, and an ethics letter about a UK official's
-  move. Everything beyond that is RG-086…RG-094.
+  move. Everything beyond that is RG-086…RG-095.
 - It does not treat "sovereign AI" as sovereignty. The pack records who says the word, about
   what, in which primary document — the PM's speech, NVIDIA's release, Palantir's IRAP
   announcement, Sharon AI's quote — and leaves the distance between the word and the
