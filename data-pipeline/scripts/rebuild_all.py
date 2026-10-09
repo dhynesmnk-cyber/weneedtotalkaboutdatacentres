@@ -103,6 +103,8 @@ def main(argv: list[str]) -> int:
     # Post-load documentation: build_db.py wrote build_report.md and viewer/db.json at SEED
     # stage; finalize regenerates both from the loaded database. Must run after every pack.
     run(PY, "scripts/finalize_docs.py")
+    # The gap worklist reads the loaded database, so it follows finalize.
+    run(PY, "scripts/gap_worklist.py")
     run(PY, "scripts/query.py", "unverified")
     print("\npipeline complete.")
     return 0

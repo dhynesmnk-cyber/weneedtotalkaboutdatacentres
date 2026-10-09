@@ -7,6 +7,8 @@
 #   make fetch-austender  archive an AusTender keyword search into data/raw/austender/
 #                         (KEYWORD=palantir by default; needs network, see the scraper docstring)
 #   make verify     re-run the CER verification analysis and rewrite its pack
+#   make worklist   rewrite reports/gap_worklist.{csv,md}: every field the site shows as a gap,
+#                   sorted by the source most likely to answer it (read-only on the database)
 #   make clean      remove generated artefacts (never touches data/raw/ or the packs)
 #
 # No third-party dependencies beyond the standard library and openpyxl (for CER XLSX files).
@@ -37,7 +39,7 @@ CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs worklist check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
 all: check-packs check-austender check-patents build verify load check-filings docs
 
@@ -112,6 +114,12 @@ docs:
 	# Post-load documentation: build_db.py wrote build_report.md and viewer/db.json at SEED
 	# stage; finalize regenerates both from the loaded database. Must run after every pack.
 	$(PY) scripts/finalize_docs.py
+	$(PY) scripts/gap_worklist.py
+
+# Every site field the public record shows as "Not yet researched", one row per site x field,
+# routed to the batch of sources most likely to answer it. Reads the database; writes reports/.
+worklist:
+	$(PY) scripts/gap_worklist.py
 
 # Verify the committed CSVs match the database without rewriting anything.
 check-export:
