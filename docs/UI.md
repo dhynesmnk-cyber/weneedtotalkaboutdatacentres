@@ -30,6 +30,14 @@
 - What's known (/coverage): for every site field, how many sites hold a value, how many carry
   a gap and why, and how many have neither. A table first. A stored value that
   itself says "unknown" is counted as an `unknown` gap, never as recorded.
+- Open questions (/research): the research agenda, part of the record layer.
+  Every question the load accepted, grouped by status in lifecycle order (in
+  progress, open, blocked, resolved, closed without an answer), most urgent
+  first. Each shows its RG label, line of enquiry, priority in words, opened
+  and resolved dates, why it matters, how it is to be answered, and, collapsed,
+  its research notes and sources. Filterable by line of enquiry through the
+  URL. Says how a question differs from a gap and links to What's known. Never
+  shows who is working a question.
 - Essay hub: date ordered list of video essays with embeds and written analysis.
 - Map: single Leaflet point layer, popup shows name, operator, status, capacity.
 - List: index of sites and entities with status and capacity. Sortable by
@@ -50,8 +58,8 @@
 - MapPointPopup
 
 ## Navigation
-Overview, Essays, Map, Sites and entities, What's known: SPEC.md's entry-point
-order, then the coverage view. The current section is marked with
+Overview, Essays, Map, Sites and entities, What's known, Open questions:
+SPEC.md's entry-point order, then what the record does and does not yet hold. The current section is marked with
 `aria-current`.
 
 ## Gap presentation

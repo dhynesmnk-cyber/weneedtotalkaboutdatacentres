@@ -121,14 +121,16 @@ def main() -> int:
     lines += [f"- {p}" for p in problems] if problems else ["None."]
     if gaps_nosrc:
         lines.append(f"- note: {gaps_nosrc} research gaps carry no source_id (seed-stage "
-                     "methodology questions - gaps are questions, not claims; informational only)")
+                     "methodology questions). The site publishes only cited questions, so these "
+                     "stay off /research until each records a source")
 
     lines += ["", f"## Research-gap register ({n_res} resolved)", "",
+              "Within each status, most urgent first: priority 5 is the most urgent (migration 0009).", "",
               "| ID | Pillar | Pri | Status | Method | Question |", "|---|---|---|---|---|---|"]
     for gid, pillar, prio, status, method, q in conn.execute(
             "SELECT id,pillar,priority,status,retrieval_method,question FROM research_gaps "
             "ORDER BY CASE status WHEN 'open' THEN 0 WHEN 'in_progress' THEN 1 WHEN 'blocked' THEN 2 "
-            "ELSE 3 END, priority, id"):
+            "ELSE 3 END, priority DESC, id"):
         lines.append(f"| RG-{gid:03d} | {pillar} | {prio} | {status} | {method} | {q[:150]} |")
 
     with open(REPORT, "w", encoding="utf-8") as fh:

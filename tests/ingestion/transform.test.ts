@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
   deriveDataGaps,
+  researchPipelineId,
   RowRejected,
   SITE_FACTUAL_FIELDS,
   transformEntity,
+  transformResearchGap,
   transformSite,
   transformSourceRefs,
   transformSource,
@@ -238,6 +240,20 @@ describe('transformSourceRefs', () => {
     expect(skipped.lobbying).toBe(1);
   });
 
+  it('cites a research gap as the agenda question it becomes', () => {
+    // source_refs keys a research gap by its integer id; the agenda keys the
+    // same question by the RG label it is cited by everywhere else.
+    const { citations, skipped } = transformSourceRefs([
+      { id: 1, entity_table: 'research_gaps', entity_rowid: '26', source_id: 'SRC_TEST', quote: null },
+    ]);
+    expect(skipped).toEqual({});
+    expect(citations[0]).toMatchObject({
+      record_type: 'research_agenda',
+      record_id: pipelineUuid('research_agenda', 'RG-026'),
+      source_id: pipelineUuid('sources', 'SRC_TEST'),
+    });
+  });
+
   it('does not pass a verbatim quote off as a field-level claim', () => {
     // citations.claim names the specific assertion a source supports, and
     // citationCoverage() matches it against field names. A quote is not that,
@@ -252,5 +268,105 @@ describe('transformSourceRefs', () => {
       },
     ]);
     expect(citations[0]?.claim).toBeNull();
+  });
+});
+
+describe('researchPipelineId', () => {
+  it('labels a question as the research cites it', () => {
+    expect(researchPipelineId(26)).toBe('RG-026');
+    expect(researchPipelineId('7')).toBe('RG-007');
+    expect(researchPipelineId(123)).toBe('RG-123');
+  });
+
+  it('refuses an id that is not a positive integer', () => {
+    for (const bad of [null, '', 0, -1, 2.5, 'RG-001']) {
+      expect(() => researchPipelineId(bad)).toThrow(RowRejected);
+    }
+  });
+});
+
+describe('transformResearchGap', () => {
+  /** A research_gaps row shaped like the pipeline's, with the minimum to be valid. */
+  function gapRow(overrides: PipelineRow = {}): PipelineRow {
+    return {
+      id: 26,
+      pillar: 'C',
+      question: 'Which consent conditions bind the operator?',
+      why_it_matters: 'Conditions are the enforceable part of a consent.',
+      target_source: 'NSW Planning Portal',
+      retrieval_method: 'scrape_portal',
+      priority: 4,
+      status: 'open',
+      owner: 'someone@example.com',
+      opened: '2026-09-18',
+      resolved_date: null,
+      notes: null,
+      fact_status: 'GAP',
+      source_id: 'SRC_TEST',
+      confidence: 'medium',
+      as_of_date: '2026-09-18',
+      ...overrides,
+    };
+  }
+
+  it('renames the row onto the agenda and nothing more', () => {
+    const { question } = transformResearchGap(gapRow());
+    expect(question).toMatchObject({
+      id: pipelineUuid('research_agenda', 'RG-026'),
+      pipeline_id: 'RG-026',
+      pillar: 'C',
+      priority: 4,
+      status: 'open',
+      fact_status: 'gap',
+      confidence: 'medium',
+    });
+  });
+
+  it('does not publish who is working the question', () => {
+    // Assignment is workflow, not a finding, and the table is public (0009).
+    expect(Object.keys(transformResearchGap(gapRow()).question)).not.toContain('owner');
+  });
+
+  it('cites the question from its row-level source', () => {
+    expect(transformResearchGap(gapRow()).citations).toEqual([
+      {
+        record_type: 'research_agenda',
+        record_id: pipelineUuid('research_agenda', 'RG-026'),
+        source_id: pipelineUuid('sources', 'SRC_TEST'),
+        claim: null,
+      },
+    ]);
+  });
+
+  it('leaves the citation decision to the loader when the row has no source_id', () => {
+    // Its source_refs may still cite it; only the loader sees both.
+    expect(transformResearchGap(gapRow({ source_id: null })).citations).toEqual([]);
+  });
+
+  it('carries blocked and wont_fix across rather than flattening them', () => {
+    expect(transformResearchGap(gapRow({ status: 'blocked' })).question.status).toBe('blocked');
+    expect(
+      transformResearchGap(gapRow({ status: 'wont_fix', resolved_date: '2026-10-01' })).question
+        .status,
+    ).toBe('wont_fix');
+  });
+
+  it('rejects rows the table would refuse, with the reason', () => {
+    const cases: [PipelineRow, RegExp][] = [
+      [{ question: '' }, /no question/],
+      [{ status: 'parked' }, /status "parked"/],
+      [{ status: 'resolved', resolved_date: null }, /no resolved_date/],
+      [{ status: 'open', resolved_date: '2026-10-01' }, /records a resolved_date/],
+      [{ priority: 9 }, /priority 9/],
+    ];
+    for (const [overrides, reason] of cases) {
+      expect(() => transformResearchGap(gapRow(overrides))).toThrow(reason);
+    }
+  });
+
+  it('refuses an unmapped fact status rather than guessing one', () => {
+    expect(() => transformResearchGap(gapRow({ fact_status: 'PROBABLE' }))).toThrow(
+      UnmappedValueError,
+    );
   });
 });

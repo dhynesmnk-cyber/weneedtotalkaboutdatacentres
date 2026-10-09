@@ -134,7 +134,12 @@ export default function HowToReadPage() {
           <Link href="/coverage" className="text-fact-ink underline underline-offset-2">
             What&rsquo;s known
           </Link>{' '}
-          counts every value and every gap, field by field.
+          counts every value and every gap, field by field.{' '}
+          <Link href="/research" className="text-fact-ink underline underline-offset-2">
+            Open questions
+          </Link>{' '}
+          lists what the research has not yet established, and how each question
+          is to be answered.
         </p>
       </section>
 
