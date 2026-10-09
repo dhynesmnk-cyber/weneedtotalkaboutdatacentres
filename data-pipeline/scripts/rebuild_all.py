@@ -44,6 +44,8 @@ PACKS = [
     ("data/packs/palantir_nvidia_thread.json", ["--allow-missing-source"]),
     # Last: it updates sites created by rg002 and cites portal sources registered there.
     ("data/packs/site_coordinates.json", ["--allow-missing-source"]),
+    # After the coordinates pack: it cites the portal pages registered there, and fills only.
+    ("data/packs/site_portal_fields.json", ["--allow-missing-source"]),
 ]
 
 
@@ -90,6 +92,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_status.py")
     run(PY, "scripts/curate_palantir_nvidia.py")
     run(PY, "scripts/curate_site_coordinates.py")
+    run(PY, "scripts/curate_site_portal_fields.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.
