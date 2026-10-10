@@ -1,0 +1,321 @@
+{
+  "pack_id": "operator-sources-2026-10",
+  "prepared_by": "scripts/curate_operator_sources.py from data/raw/operators/",
+  "prepared_on": "2026-10-10",
+  "_comment": [
+    "Fills site facts from operators' own pages (batch S4, first pass: NEXTDC and AirTrunk).",
+    "Every value was read by a person and is checked against its passage. Uses fill, so no",
+    "existing value is overwritten. What the pages say about other records is put to a human",
+    "as RG-098, not filled."
+  ],
+  "sources": [
+    {
+      "id": "SRC_OP_AIRTRUNK_MEL1_MELBOURNE",
+      "title": "AirTrunk - mel1 melbourne (web page)",
+      "publisher": "AirTrunk",
+      "url": "https://airtrunk.com/location/mel1-melbourne/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 da56c19ab0a3b94198816f6091e40feb1497c998d74a7cde216b4d94e3c84790, archived at data/raw/operators/airtrunk/mel1-melbourne.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_AIRTRUNK_SYD1_SYDNEY_WEST",
+      "title": "AirTrunk - syd1 sydney west (web page)",
+      "publisher": "AirTrunk",
+      "url": "https://airtrunk.com/location/syd1-sydney-west/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 abeac4eb47971ba2255c87ae6cdfed8b7a0361e1d33b432755ee98724d35c5b0, archived at data/raw/operators/airtrunk/syd1-sydney-west.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH",
+      "title": "AirTrunk - syd2 sydney north (web page)",
+      "publisher": "AirTrunk",
+      "url": "https://airtrunk.com/location/syd2-sydney-north/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 170707f9a9770deefad4d3b1e8c3745c49756feaccc4ee6d08d5e73ee19cce1d, archived at data/raw/operators/airtrunk/syd2-sydney-north.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_AIRTRUNK_SYD3_SYDNEY_WEST",
+      "title": "AirTrunk - syd3 sydney west (web page)",
+      "publisher": "AirTrunk",
+      "url": "https://airtrunk.com/location/syd3-sydney-west/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 b169ebdd2c26a2bf8ca8623a449750f66be2d47df392ec758cb4fd09803aafb7, archived at data/raw/operators/airtrunk/syd3-sydney-west.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_A1_ADELAIDE",
+      "title": "NEXTDC Limited - a1 adelaide (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/adelaide-data-centre/a1-adelaide",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 f85433eaf0b9050b15c931cb8701ff426671ce0984bc7d830ac74210f474f058, archived at data/raw/operators/nextdc/a1-adelaide.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_C1_CANBERRA",
+      "title": "NEXTDC Limited - c1 canberra (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/canberra-data-centres/c1-canberra",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 a1b73a0776a3ffc1be0ac906ea704229d4daae9d71d45969e282863ba81809d9, archived at data/raw/operators/nextdc/c1-canberra.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_CONTACT",
+      "title": "NEXTDC Limited - contact (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/contact",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 5362fc9ac235244306e20fb7d3717d11ef46bb1982b289c6ed09831feac04417, archived at data/raw/operators/nextdc/contact.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_M4_MELBOURNE",
+      "title": "NEXTDC Limited - m4 melbourne (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/melbourne-data-centres/m4-melbourne",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 53e0f630a16758d99d12dd71f3760cee3dbd8148829529305b365b65e0aefe3c, archived at data/raw/operators/nextdc/m4-melbourne.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_S1_SYDNEY",
+      "title": "NEXTDC Limited - s1 sydney (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s1-sydney",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 f86f0dc1140a6ed510485a4f22a6441e13b385583bbcafef96ebf9bc18f112c4, archived at data/raw/operators/nextdc/s1-sydney.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_S2_SYDNEY",
+      "title": "NEXTDC Limited - s2 sydney (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s2-sydney",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 1cfe90711d9f0d7b5fb1202ca764e26479551adfdd8f211c5ad961b0ddfdbbae, archived at data/raw/operators/nextdc/s2-sydney.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_S3_SYDNEY",
+      "title": "NEXTDC Limited - s3 sydney (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s3-sydney",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The operator's own page, read 2026-10-10, SHA-256 b100304e42fef707fb6f0854256fcc4c59837958c42e83e9d186236b9571e178, archived at data/raw/operators/nextdc/s3-sydney.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    }
+  ],
+  "rows": {
+    "sites": [
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_MEL1"
+        },
+        "fill": {
+          "campus_area_ha": 8.8
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_AIRTRUNK_MEL1_MELBOURNE",
+            "quote": "(campus_area_ha): Set on 8.8ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_SYD1"
+        },
+        "fill": {
+          "campus_area_ha": 7.4
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_AIRTRUNK_SYD1_SYDNEY_WEST",
+            "quote": "(campus_area_ha): Set on 7.4ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_SYD2"
+        },
+        "fill": {
+          "campus_area_ha": 4.2,
+          "address": "1 Sirius Road"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH",
+            "quote": "(campus_area_ha): Set on 4.2ha | (address): adjacent to AirTrunk’s existing facility at 1 Sirius Road"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_SYD3"
+        },
+        "fill": {
+          "campus_area_ha": 8.3
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_AIRTRUNK_SYD3_SYDNEY_WEST",
+            "quote": "(campus_area_ha): Set on 8.3ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_A1"
+        },
+        "fill": {
+          "it_capacity_mw": 5
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_A1_ADELAIDE",
+            "quote": "(it_capacity_mw): 5MW IT Capacity"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_C1"
+        },
+        "fill": {
+          "it_capacity_mw": 4.4,
+          "address": "19 Battye Street, Bruce, ACT, 2617",
+          "suburb": "Bruce"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_C1_CANBERRA",
+            "quote": "(it_capacity_mw): 4.4MW IT Load | (suburb): Located in Bruce,"
+          },
+          {
+            "id": "SRC_OP_NEXTDC_CONTACT",
+            "quote": "(address): C1 Canberra 19 Battye Street Bruce, ACT, 2617"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_M4"
+        },
+        "fill": {
+          "it_capacity_mw": 150
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_M4_MELBOURNE",
+            "quote": "(it_capacity_mw): 150MW IT Capacity"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S1"
+        },
+        "fill": {
+          "it_capacity_mw": 16,
+          "address": "4 Eden Park Drive, Macquarie Park, NSW, 2113",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_S1_SYDNEY",
+            "quote": "(it_capacity_mw): 16MW IT Capacity | (suburb): Located in Macquarie Park,"
+          },
+          {
+            "id": "SRC_OP_NEXTDC_CONTACT",
+            "quote": "(address): S1 Sydney 4 Eden Park Drive Macquarie Park, NSW, 2113"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S2"
+        },
+        "fill": {
+          "it_capacity_mw": 30,
+          "address": "6-8 Giffnock Avenue, Macquarie Park, NSW, 2113",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_S2_SYDNEY",
+            "quote": "(it_capacity_mw): 30MW IT Capacity | (suburb): Located in Macquarie Park,"
+          },
+          {
+            "id": "SRC_OP_NEXTDC_CONTACT",
+            "quote": "(address): S2 Sydney 6-8 Giffnock Avenue Macquarie Park, NSW, 2113"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S3"
+        },
+        "fill": {
+          "it_capacity_mw": 80,
+          "address": "2 Broadcast Way, Artarmon NSW 2064",
+          "suburb": "Artarmon"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_S3_SYDNEY",
+            "quote": "(it_capacity_mw): 80MW IT Capacity | (suburb): Located in Artarmon,"
+          },
+          {
+            "id": "SRC_OP_NEXTDC_CONTACT",
+            "quote": "(address): S3 Sydney 2 Broadcast Way Artarmon NSW 2064"
+          }
+        ]
+      }
+    ],
+    "research_gaps": [
+      {
+        "id": 98,
+        "pillar": "A",
+        "priority": 4,
+        "status": "open",
+        "opened": "2026-10-10",
+        "question": "Is AirTrunk SYD2 the same facility as the Lane Cove West Data Centre (SSD-9741, 1 Sirius Road), and is the Apollo Place Data Centre (SSD-67407231) AirTrunk's?",
+        "why_it_matters": "If SYD2 and Lane Cove West are one facility, the record counts it twice; and Apollo Place's applicant, EMKC Cubed Management Pty Ltd, is one of the entities RG-064 asks to resolve.",
+        "target_source": "AirTrunk's SYD2 page; the NSW Planning Portal records for SSD-9741 and SSD-67407231",
+        "retrieval_method": "manual_review",
+        "notes": "OPENED 2026-10-10 from AirTrunk's own SYD2 page (archived at data/raw/operators/airtrunk/syd2-sydney-north.txt). It places SYD2 at 1 Sirius Road, which is the site of SSD-9741, whose applicant was Greenbox Architecture, and it says Greenbox Architecture 'delivered' SYD2 in collaboration with AirTrunk. Under 'Apollo Place Data Centre' it says the development 'has been located adjacent to AirTrunk's existing facility at 1 Sirius Road', that the two 'will form an integrated data centre campus', and that 'The project is Phase 5 of AirTrunk's investment within the precinct'. Neither record is merged and no operator is filled: merging records and naming an operator are for a human.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH",
+        "confidence": "medium",
+        "as_of_date": "2026-10-10"
+      }
+    ]
+  }
+}
