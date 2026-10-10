@@ -151,6 +151,23 @@ would come from. It is named differently here on purpose
 imported: who is assigned a task is workflow, not a finding, and the table is
 publicly readable.
 
+How a research question loads (`transformResearchGap`, migration `0013`):
+
+- **Label.** The pipeline's integer id becomes `pipeline_id` `RG-nnn`, the label
+  every report, commit and note already cites it by. Seed questions take their
+  id from their own `RG-nnn` code, not their list position (`build_db.py`), so a
+  reordered seed list cannot renumber, and so overwrite, a published question.
+- **Status.** Carried across unrenamed: `open`, `in_progress`, `blocked`,
+  `resolved`, `wont_fix`. Mapping `blocked` onto `open`, or `wont_fix` onto
+  `resolved`, would reinterpret rather than rename.
+- **Citations.** From the row's `source_id` and from `source_refs` rows on
+  `research_gaps`, as `record_type = 'research_agenda'`. A question is published
+  content, so one with no citation from either is **rejected**, not imported
+  uncited. Ten seed questions (RG-001, 004, 005, 006, 008, 014, 016, 017, 018,
+  019) carry no source today and are held back until one is recorded.
+- **Never deleted.** Upserted on `pipeline_id`; a question that leaves the
+  pipeline is reported by a human, not removed by a load.
+
 The pipeline has nulls, not gap records, so `data_gaps` rows are **derived** at
 load: one per null factual field, with reason `unknown` and no stronger reason.
 `docs/SPEC.md` defines `unknown` as "not yet researched, or researched without

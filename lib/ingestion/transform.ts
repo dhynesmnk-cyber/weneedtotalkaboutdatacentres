@@ -6,7 +6,15 @@
  * tested. The loader that calls it only moves bytes.
  */
 
-import type { DataGapRow, EntityRow, SiteRow, SourceRow } from '@/lib/types';
+import {
+  RESEARCH_STATUSES,
+  type DataGapRow,
+  type EntityRow,
+  type ResearchAgendaRow,
+  type ResearchStatus,
+  type SiteRow,
+  type SourceRow,
+} from '@/lib/types';
 import { pipelineUuid } from '@/lib/ingestion/identity';
 import {
   mapConfidence,
@@ -27,7 +35,7 @@ export interface TransformedSite {
 }
 
 export type DerivedCitation = {
-  record_type: 'sites' | 'entities';
+  record_type: 'sites' | 'entities' | 'research_agenda';
   record_id: string;
   source_id: string;
   claim: string | null;
@@ -316,6 +324,91 @@ export function deriveDataGaps(
 }
 
 /**
+ * The label a research question is cited by: the pipeline's integer id 26 is
+ * RG-026 in every report, commit and note, so it is RG-026 here too.
+ */
+export function researchPipelineId(id: string | number | null | undefined): string {
+  const n = Number(id);
+  if (id === null || id === undefined || id === '' || !Number.isInteger(n) || n < 1) {
+    throw new RowRejected('research_gaps', String(id ?? ''), 'id is not a positive integer');
+  }
+  return `RG-${String(n).padStart(3, '0')}`;
+}
+
+export interface TransformedResearchQuestion {
+  question: Omit<ResearchAgendaRow, 'created_at' | 'updated_at'>;
+  /** From the row's own source_id. Its source_refs arrive through transformSourceRefs. */
+  citations: DerivedCitation[];
+}
+
+/**
+ * A research question, renamed onto facts.research_agenda and nothing more.
+ *
+ * Rows the table's constraints would refuse are rejected here instead, with a
+ * reason, so one bad row is reported rather than rolling back the whole load.
+ * `owner` is not carried across: who is working a question is workflow, not a
+ * finding, and the table is public (0009).
+ *
+ * Whether the question can be cited at all is decided by the loader, which is
+ * the only place that sees its source_refs alongside its source_id.
+ */
+export function transformResearchGap(row: PipelineRow): TransformedResearchQuestion {
+  const pipelineId = researchPipelineId(row.id);
+  const reject = (reason: string): never => {
+    throw new RowRejected('research_agenda', pipelineId, reason);
+  };
+
+  const question = text(row.question);
+  if (!question) reject('no question');
+
+  const status = text(row.status);
+  if (!status || !(RESEARCH_STATUSES as readonly string[]).includes(status)) {
+    reject(`status ${JSON.stringify(status)} is not one of ${RESEARCH_STATUSES.join(', ')}`);
+  }
+  const resolved = text(row.resolved_date);
+  if (status === 'resolved' && !resolved) reject('resolved, but no resolved_date');
+  if (resolved && status !== 'resolved' && status !== 'wont_fix') {
+    reject(`${status}, but it records a resolved_date`);
+  }
+
+  const priority = int(row.priority);
+  if (priority !== null && (priority < 1 || priority > 5)) reject(`priority ${priority} is not 1 to 5`);
+
+  const id = pipelineUuid('research_agenda', pipelineId);
+  const sourceId = text(row.source_id);
+
+  return {
+    question: {
+      id,
+      pipeline_id: pipelineId,
+      pillar: text(row.pillar),
+      question: question as string,
+      why_it_matters: text(row.why_it_matters),
+      target_source: text(row.target_source),
+      retrieval_method: text(row.retrieval_method),
+      priority,
+      status: status as ResearchStatus,
+      opened: text(row.opened),
+      resolved_date: resolved,
+      notes: text(row.notes),
+      fact_status: mapFactStatus(text(row.fact_status)),
+      confidence: mapConfidence(text(row.confidence)),
+      as_of_date: text(row.as_of_date),
+    },
+    citations: sourceId
+      ? [
+          {
+            record_type: 'research_agenda',
+            record_id: id,
+            source_id: pipelineUuid('sources', sourceId),
+            claim: null,
+          },
+        ]
+      : [],
+  };
+}
+
+/**
  * Citations from the pipeline's source_refs table.
  *
  * Only refs pointing at tables that exist here are mapped. The rest are
@@ -334,6 +427,17 @@ export function transformSourceRefs(rows: PipelineRow[]): {
     const rowId = text(row.entity_rowid);
     const sourceId = text(row.source_id);
     if (!table || !rowId || !sourceId) continue;
+
+    if (table === 'research_gaps') {
+      // source_refs keys a research gap by its integer id; the agenda by its label.
+      citations.push({
+        record_type: 'research_agenda',
+        record_id: pipelineUuid('research_agenda', researchPipelineId(rowId)),
+        source_id: pipelineUuid('sources', sourceId),
+        claim: null,
+      });
+      continue;
+    }
 
     if (table !== 'sites' && table !== 'entities') {
       skipped[table] = (skipped[table] ?? 0) + 1;

@@ -10,6 +10,7 @@ Idempotent: deletes and rebuilds the SQLite file from schema + seed each run.
 import csv
 import json
 import os
+import re
 import sqlite3
 import sys
 from datetime import date
@@ -109,8 +110,16 @@ def build():
                 problems.append(f"{table}: {exc} :: {json.dumps({k: str(v)[:80] for k, v in data.items()})[:400]}")
         inserted[table] = n
 
-    # research_gaps has a different shape (tuples)
-    for i, (pillar, code, question, why, target, method, priority) in enumerate(GAPS, start=1):
+    # research_gaps has a different shape (tuples). The id is the tuple's own "RG-0xx" code, not
+    # its position in the list: the site publishes these numbers (facts.research_agenda), so a
+    # reordered or deleted seed entry must not renumber, and thereby overwrite, another question.
+    seen: set[int] = set()
+    for pillar, code, question, why, target, method, priority in GAPS:
+        m = re.fullmatch(r"RG-(\d{3})", code)
+        if not m or int(m.group(1)) in seen:
+            raise SystemExit(f"seed research gap code {code!r} is malformed or repeated")
+        i = int(m.group(1))
+        seen.add(i)
         conn.execute(
             "INSERT INTO research_gaps (id, pillar, question, why_it_matters, target_source, "
             "retrieval_method, priority, status, opened) VALUES (?,?,?,?,?,?,?,?,?)",

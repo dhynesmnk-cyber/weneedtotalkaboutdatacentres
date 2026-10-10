@@ -44,6 +44,32 @@ select public.assert(
   (select count(*) from facts.sources where pipeline_id is not null) = 193,
   '193 sources loaded');
 
+-- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
+-- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
+-- the seed) carry no source, so the loader rejects them rather than publish a
+-- question uncited. Sourcing one raises this by one, in the same diff.
+select public.assert(
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 79,
+  '79 research questions loaded');
+
+select public.assert(
+  (select count(*) from facts.research_agenda q
+    where not exists (
+      select 1 from facts.citations c
+       where c.record_type = 'research_agenda' and c.record_id = q.id)) = 0,
+  'every research question cites a source');
+
+select public.assert(
+  (select count(*) from facts.research_agenda
+    where pipeline_id in ('RG-001', 'RG-004', 'RG-005', 'RG-006', 'RG-008',
+                          'RG-014', 'RG-016', 'RG-017', 'RG-018', 'RG-019')) = 0,
+  'no uncited question was published');
+
+-- A question keeps the label the research cites it by.
+select public.assert(
+  (select count(*) from facts.research_agenda where pipeline_id !~ '^RG-[0-9]{3}$') = 0,
+  'every research question is labelled RG-nnn');
+
 -- ---------------------------------------------------------------------------
 -- Nothing was invented.
 -- ---------------------------------------------------------------------------
@@ -126,6 +152,19 @@ select public.assert(
        where c.record_type = 'sites' and c.record_id = s.id
     )) = 0,
   'every site anon can see carries at least one citation');
+
+-- The research agenda is published, and each question's sources with it.
+select public.assert(
+  (select count(*) from facts.research_agenda) = 79,
+  'anon can read all 79 research questions');
+
+select public.assert(
+  (select count(*) from facts.research_agenda q
+    where not exists (
+      select 1 from facts.citations c
+       where c.record_type = 'research_agenda' and c.record_id = q.id
+    )) = 0,
+  'every research question anon can see carries at least one citation');
 
 -- No site can render an UnexplainedBadge: every empty factual field on every
 -- visible site has a gap record explaining it.

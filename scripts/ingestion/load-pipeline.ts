@@ -29,12 +29,14 @@ import { header, insertRows, literal, upsert } from '@/lib/ingestion/sql';
 import {
   RowRejected,
   transformEntity,
+  transformResearchGap,
   transformSite,
   transformSource,
   transformSourceRefs,
   type DerivedCitation,
   type KnownEntity,
   type PipelineRow,
+  type TransformedResearchQuestion,
 } from '@/lib/ingestion/transform';
 
 const LOADER_VERSION = 'load-pipeline/1.0.0';
@@ -59,6 +61,7 @@ const ALLOWED_TABLES = [
   'facts.sources',
   'facts.entities',
   'facts.sites',
+  'facts.research_agenda',
   'facts.citations',
   'facts.data_gaps',
   'facts.links',
@@ -149,6 +152,19 @@ function main(): void {
   report.counts['facts.data_gaps'] = gaps.length;
   report.counts['facts.links'] = links.length;
 
+  // --- research questions -------------------------------------------------
+  const candidates: TransformedResearchQuestion['question'][] = [];
+  for (const row of readTable(db, 'research_gaps')) {
+    try {
+      const transformed = transformResearchGap(row);
+      candidates.push(transformed.question);
+      citations.push(...transformed.citations);
+    } catch (error) {
+      if (!(error instanceof RowRejected)) throw error;
+      report.rejected.push(error.message);
+    }
+  }
+
   // --- citations from source_refs -----------------------------------------
   const refs = transformSourceRefs(readTable(db, 'source_refs'));
   citations.push(...refs.citations);
@@ -158,8 +174,29 @@ function main(): void {
   // rejected source would violate the foreign key, and silently dropping the
   // citation instead would hide the rejection.
   const loadedSourceIds = new Set(sources.map((s) => s.id));
-  const usable = citations.filter((c) => loadedSourceIds.has(c.source_id));
-  const orphaned = citations.length - usable.length;
+  const sourced = citations.filter((c) => loadedSourceIds.has(c.source_id));
+  const orphaned = citations.length - sourced.length;
+
+  // A question is published content, and published content must cite a
+  // source (CLAUDE.md). One with no citation from either its source_id or its
+  // source_refs is rejected, not imported uncited.
+  const citedQuestions = new Set(
+    sourced.filter((c) => c.record_type === 'research_agenda').map((c) => c.record_id),
+  );
+  const agenda = candidates.filter((q) => {
+    if (citedQuestions.has(q.id)) return true;
+    report.rejected.push(
+      `research_agenda ${q.pipeline_id} rejected: no source; an uncited question cannot be published`,
+    );
+    return false;
+  });
+  report.counts['facts.research_agenda'] = agenda.length;
+
+  // And no citation may point at a question that was not loaded.
+  const loadedQuestions = new Set(agenda.map((q) => q.id));
+  const usable = sourced.filter(
+    (c) => c.record_type !== 'research_agenda' || loadedQuestions.has(c.record_id),
+  );
 
   // Deduplicate on the same key as citations_unique_record_source, so a single
   // statement cannot conflict with itself.
@@ -211,6 +248,12 @@ function main(): void {
         fact_status: 'facts.fact_status',
         confidence: 'facts.confidence_level',
       },
+    }),
+    '\n',
+    // Questions are upserted on their RG label and never deleted: a question
+    // that leaves the pipeline is reported by a human, not removed by a load.
+    upsert('facts.research_agenda', agenda, '(pipeline_id) where pipeline_id is not null', {
+      cast: { fact_status: 'facts.fact_status', confidence: 'facts.confidence_level' },
     }),
     '\n',
     // A citation is fully described by the record, source and claim it joins,
@@ -343,6 +386,7 @@ do $$
 declare
   uncited integer;
   live_set integer;
+  uncited_questions integer;
   published integer;
   contradicted integer;
 begin
@@ -362,6 +406,17 @@ begin
    where pipeline_id is not null and live_capacity_mw is not null;
   if live_set > 0 then
     raise exception 'ROLLED BACK: % loaded sites have a fabricated live capacity', live_set;
+  end if;
+
+  select count(*) into uncited_questions
+    from facts.research_agenda q
+   where q.pipeline_id is not null
+     and not exists (
+       select 1 from facts.citations c
+        where c.record_type = 'research_agenda' and c.record_id = q.id
+     );
+  if uncited_questions > 0 then
+    raise exception 'ROLLED BACK: % loaded research questions have no citation', uncited_questions;
   end if;
 
   select count(*) into published

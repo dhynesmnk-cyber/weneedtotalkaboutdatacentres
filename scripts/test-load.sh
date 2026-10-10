@@ -68,6 +68,7 @@ counts_before="$(psql -tA -d "${TEST_DB}" -c "
     union all select 'citations', count(*) from facts.citations
     union all select 'data_gaps', count(*) from facts.data_gaps
     union all select 'links', count(*) from facts.links
+    union all select 'research_agenda', count(*) from facts.research_agenda
   ) x;")"
 echo "  ${counts_before}"
 
@@ -82,6 +83,7 @@ counts_after="$(psql -tA -d "${TEST_DB}" -c "
     union all select 'citations', count(*) from facts.citations
     union all select 'data_gaps', count(*) from facts.data_gaps
     union all select 'links', count(*) from facts.links
+    union all select 'research_agenda', count(*) from facts.research_agenda
   ) x;")"
 
 if [ "${counts_before}" != "${counts_after}" ]; then

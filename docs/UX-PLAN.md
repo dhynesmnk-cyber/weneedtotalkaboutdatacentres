@@ -28,7 +28,7 @@ against `main` at `ed5dd2f`:
 | A1 home briefing | Partly done: home shows sites tracked, how complete the record is, and status counts. |
 | A2 explainer | Not started. /how-to-read covers how to read the record, not what a data centre consumes. |
 | B3 map popup | Done apart from the related-essay link. |
-| F3 missing data | Largely done by /how-to-read and /coverage. |
+| F3 missing data | Largely done by /how-to-read and /coverage. /research (Open questions) publishes the research agenda alongside them: what is not yet established, and how it is to be answered. |
 | G3 empty states | Done for "no database connected" and the unplaced map points. |
 | G5 axe in CI | Done: `npm run test:ui` checks every page for WCAG 2.2 AA at desktop and phone widths. Manual screen-reader pass still to do. |
 | Everything else | Not started. |
