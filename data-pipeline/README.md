@@ -133,6 +133,8 @@ au-dc-observatory/
 ├── scripts/finalize_docs.py      regenerates build_report.md + viewer/db.json from the LOADED database
 ├── scripts/check_packs.py        fails the build if any pack/curation script is wired into only one driver
 ├── scripts/gap_worklist.py       every field the site shows as a gap, routed to the source likely to answer it (read-only)
+├── scripts/propose_gap_reasons.py drafts 'not applicable' proposals for a human from each site's status (read-only)
+├── scripts/curate_hcf_register.py batch S3: HCF certification against the Commonwealth register (RG-096)
 ├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
 ├── scripts/count_patent_filings.py  filings per tracked operator from an IPGOD 102 / IP RAPID extract
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
@@ -155,6 +157,7 @@ au-dc-observatory/
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
     ├── gap_worklist.md           generated: the site's "Not yet researched" fields by field, batch and site (+ .csv)
+    ├── gap_reason_proposals.csv  generated: proposals for stronger gap reasons, for a human (docs/QUALITY.md)
     └── build_report.md           generated: row counts, verification ledger, gap list
 ```
 

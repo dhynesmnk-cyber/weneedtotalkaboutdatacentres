@@ -29,6 +29,9 @@ Rules enforced here:
   * Every row must carry fact_status, confidence and as_of_date.
   * Rows keyed by a text primary key are upserted; rows in autoincrement tables are appended
     unless an "id" is supplied, in which case they are upserted.
+  * "add_sources" lists extra sources for a row, each a source id or {"id": ..., "quote": ...}:
+    the quote is the verbatim extract the source gives for the row, kept in source_refs.quote.
+    A quote never replaces one already recorded.
   * {"match": {...}, "set": {...}} updates matched rows. {"match": {...}, "fill": {...}} writes
     only columns that are empty, and never overwrites: where a matched row already holds a
     different value, that value is kept, a warning printed, and the disagreement recorded in
@@ -114,6 +117,24 @@ ALLOWED_TABLES = {
 }
 
 
+def source_ref(entry) -> tuple[str | None, str | None]:
+    """(source id, quote) from an add_sources entry: an id, or {"id": ..., "quote": ...}."""
+    if isinstance(entry, dict):
+        return entry.get("id"), entry.get("quote")
+    return entry, None
+
+
+def add_source_ref(conn, table: str, rowid, entry, known_sources, errors) -> None:
+    sid, quote = source_ref(entry)
+    if sid not in known_sources:
+        errors.append(f"{table}: add_sources references unknown source {sid}")
+        return
+    conn.execute("INSERT INTO source_refs (entity_table, entity_rowid, source_id, quote) VALUES (?,?,?,?) "
+                 "ON CONFLICT (entity_table, entity_rowid, source_id) "
+                 "DO UPDATE SET quote = COALESCE(source_refs.quote, excluded.quote)",
+                 (table, str(rowid), sid, quote))
+
+
 def apply_update(conn, table, row, known_sources, dry_run, errors, kept) -> int:
     """Targeted update of existing rows:
     {"match": {...}, "set": {...}, "fill": {...}, "add_sources": [...]}
@@ -148,15 +169,14 @@ def apply_update(conn, table, row, known_sources, dry_run, errors, kept) -> int:
         if not dry_run:
             conn.execute(f'UPDATE {table} SET "{col}"=? WHERE {where} AND ("{col}" IS NULL OR "{col}"=\'\')',
                          (value, *match.values()))
-    for sid in row.get("add_sources", []):
-        if sid not in known_sources:
-            errors.append(f"{table}: add_sources references unknown source {sid}")
+    for entry in row.get("add_sources", []):
+        if source_ref(entry)[0] not in known_sources:
+            errors.append(f"{table}: add_sources references unknown source {source_ref(entry)[0]}")
             continue
         if not dry_run:
             ids = [r[0] for r in conn.execute(f'SELECT "id" FROM {table} WHERE {where}', tuple(match.values()))]
             for rid in ids:
-                conn.execute("INSERT OR IGNORE INTO source_refs (entity_table, entity_rowid, source_id) "
-                             "VALUES (?,?,?)", (table, str(rid), sid))
+                add_source_ref(conn, table, rid, entry, known_sources, errors)
     return sel
 
 
@@ -405,13 +425,8 @@ def load(pack_path: str, dry_run: bool = False, allow_missing_source: bool = Fal
                     cur = conn.execute(
                         f"INSERT INTO {table} ({','.join(data)}) VALUES ({','.join('?'*len(data))})",
                         tuple(data.values()))
-                    for sid in extra_sources:
-                        if sid not in known_sources:
-                            errors.append(f"{table}: add_sources references unknown source {sid}")
-                            continue
-                        conn.execute("INSERT OR IGNORE INTO source_refs "
-                                     "(entity_table, entity_rowid, source_id) VALUES (?,?,?)",
-                                     (table, str(cur.lastrowid), sid))
+                    for entry in extra_sources:
+                        add_source_ref(conn, table, cur.lastrowid, entry, known_sources, errors)
                 n_ins += 1
 
         counts[table] = counts.get(table, 0) + n_ins + n_upd

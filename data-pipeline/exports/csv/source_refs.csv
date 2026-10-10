@@ -419,3 +419,29 @@ id,entity_table,entity_rowid,source_id,quote
 418,sites,SITE_TALAVERA,SRC_NSWPORTAL_SSD24299707,
 419,sites,SITE_TURNER_RD,SRC_NSWPORTAL_TURNER,
 420,sites,SITE_WATERLOO_ESR,SRC_NSWPORTAL_SSD59516710,
+421,sites,SITE_AIRTRUNK_MEL1,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+422,sites,SITE_AIRTRUNK_SYD1,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+423,sites,SITE_AIRTRUNK_SYD2,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+424,sites,SITE_CDC_BROOKLYN,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Facility: Canberra Data Centres – H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+425,sites,SITE_CDC_CANBERRA,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Facility: Canberra Data Centres – H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+426,sites,SITE_CDC_EC,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Facility: Canberra Data Centres – H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+427,sites,SITE_DCI_SYD01,SRC_HCF_REGISTER,Service Provider and Certified Strategic Enclave: DCI Data Centers – SYD-01
+428,sites,SITE_DR_ERSKINE,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Digital Realty - SYD10, SYD11, SYD14 and MEL11"
+429,sites,SITE_DR_MEL11,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Digital Realty - SYD10, SYD11, SYD14 and MEL11"
+430,sites,SITE_EQUINIX_CA1,SRC_HCF_REGISTER,Service Provider and Certified Strategic Facility: Equinix Australia – CA1
+431,sites,SITE_EQUINIX_MEL,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Equinix Australia – SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+432,sites,SITE_EQUINIX_PER,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Equinix Australia – SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+433,sites,SITE_EQUINIX_SYD,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Equinix Australia – SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+434,sites,SITE_MACQ_FAIRBAIRN,SRC_HCF_REGISTER,Service Provider and Certified Strategic Facility: Macquarie Technology Group – IC4 and IC5
+435,sites,SITE_MACQ_IC12,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Macquarie Technology Group – IC1, IC2, IC3 and IC3e"
+436,sites,SITE_MACQ_IC3,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: Macquarie Technology Group – IC1, IC2, IC3 and IC3e"
+437,sites,SITE_NEXTDC_A1,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+438,sites,SITE_NEXTDC_C1,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+439,sites,SITE_NEXTDC_D1,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+440,sites,SITE_NEXTDC_M123,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+441,sites,SITE_NEXTDC_P12,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+442,sites,SITE_NEXTDC_S1,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+443,sites,SITE_NEXTDC_S2,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+444,sites,SITE_NEXTDC_S3,SRC_HCF_REGISTER,"Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+445,sites,SITE_TELSTRA_DEAKIN,SRC_HCF_REGISTER,Service Provider and Certified Strategic Enclave: Telstra – Deakin and St Leonards
+446,sites,SITE_TELSTRA_STLEON,SRC_HCF_REGISTER,Service Provider and Certified Strategic Enclave: Telstra – Deakin and St Leonards

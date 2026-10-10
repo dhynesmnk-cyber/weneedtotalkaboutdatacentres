@@ -1,0 +1,9 @@
+{
+ "url": "https://web.archive.org/web/20260928125530id_/https://www.hostingcertification.gov.au/certified-service-providers",
+ "original_url": "https://www.hostingcertification.gov.au/certified-service-providers",
+ "capture_utc": "2026-09-28T12:55:30+00:00",
+ "fetched_utc": "2026-10-10T14:30:29+00:00",
+ "sha256": "6bde974c52754bb59bae16215d4c224f7e69535c30746ebdfac858482b70c00d",
+ "bytes": 15210,
+ "method": "Internet Archive capture, original HTML (id_), gzip-decoded. The live site refused automated clients on 2026-10-10 (HTTP/2 INTERNAL_ERROR to curl; ERR_HTTP2_PROTOCOL_ERROR to headless Chromium), and its robots.txt could not be read for the same reason; no attempt was made to get around that."
+}
