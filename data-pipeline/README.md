@@ -135,6 +135,7 @@ au-dc-observatory/
 ├── scripts/gap_worklist.py       every field the site shows as a gap, routed to the source likely to answer it (read-only)
 ├── scripts/propose_gap_reasons.py drafts 'not applicable' proposals for a human from each site's status (read-only)
 ├── scripts/curate_hcf_register.py batch S3: HCF certification against the Commonwealth register (RG-096)
+├── scripts/curate_ssd_documents.py batch S2: figures from each NSW SSD project's own planning document, each checked against its page and quote (RG-097)
 ├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
 ├── scripts/count_patent_filings.py  filings per tracked operator from an IPGOD 102 / IP RAPID extract
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
@@ -142,6 +143,7 @@ au-dc-observatory/
 ├── scripts/gen_dictionary.py     regenerates reports/DATA_DICTIONARY.md from the live schema
 ├── scrapers/ingest_nsw_dc.py         NSW Planning Portal register harvester (--harvest, --mods, --attachments)
 ├── scrapers/ingest_nsw_planning.py   NSW Planning Portal single-project archiver (polite, single-threaded)
+├── scrapers/fetch_ssd_documents.py   archives each SSD project's assessment report, EIS, scoping report or SEARs request (make fetch-ssd-docs)
 ├── scrapers/ingest_cer.py            Clean Energy Regulator NGERS / LGC / Safeguard fetcher
 ├── scrapers/ingest_austender.py      AusTender keyword-search archiver — NEVER RUN LIVE, see its docstring
 ├── exports/australian_data_centre_observatory.db

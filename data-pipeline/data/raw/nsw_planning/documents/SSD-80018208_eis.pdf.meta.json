@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-80018208%2120250624T053649.263+GMT",
+ "project_slug": "julius-avenue-data-centre",
+ "attachment_slug": "eis-julius-avenue-data-centre-240625-28",
+ "kind": "eis",
+ "label": "Environmental Impact Statement - Julius Avenue Data Centre 240625.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-10T14:48:10+00:00",
+ "sha256": "d9e5d1853d74867a0dcf84a6df11ab36cd3af7c7f6f05e3d743a30e3bdbc837b",
+ "bytes": 20881293,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 542573,
+ "pages": 256,
+ "pdf_committed": false,
+ "text_redactions": 5
+}

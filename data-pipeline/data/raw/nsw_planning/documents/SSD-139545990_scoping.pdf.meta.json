@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-137556738%2120260806T061124.974+GMT",
+ "project_slug": "frederick-street-data-centre",
+ "attachment_slug": "scoping-reportfrederick-street-data-centre",
+ "kind": "scoping",
+ "label": "Scoping Report_Frederick Street Data Centre.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:43:08+00:00",
+ "sha256": "1304b6e3323153276b5885854a48ae2aafc77fc5e0856c54e7620cd66c632505",
+ "bytes": 3210634,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 76531,
+ "pages": 39,
+ "pdf_committed": false,
+ "text_redactions": 2
+}

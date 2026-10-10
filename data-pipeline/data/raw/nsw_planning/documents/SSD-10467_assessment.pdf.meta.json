@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10467%2120210528T080125.151+GMT",
+ "project_slug": "macquarie-park-data-centre",
+ "attachment_slug": "assessment-report-signed-4",
+ "kind": "assessment",
+ "label": "Assessment Report - Signed.pdf",
+ "folder": null,
+ "fetched_utc": "2026-10-10T14:41:33+00:00",
+ "sha256": "55c8fe54a096413c347b324aa0bfbbfdbedc72f6071fe5e6566fedca4c066c9f",
+ "bytes": 9781875,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 130009,
+ "pages": 60,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

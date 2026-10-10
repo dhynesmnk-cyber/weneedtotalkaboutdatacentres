@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260623T233326.415+GMT",
+ "project_slug": "brookhollow-avenue-data-centre-expansion-norwest",
+ "attachment_slug": "eis-3-brookhollow-avenue-norwest",
+ "kind": "eis",
+ "label": "Environmental Impact Statement - 3 Brookhollow Avenue$2c Norwest.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-10T14:48:40+00:00",
+ "sha256": "8734219068375acf09817655509ba6549b8e4e0f5ae8338a9267bfc849dca4c1",
+ "bytes": 8562643,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 395103,
+ "pages": 179,
+ "pdf_committed": false,
+ "text_redactions": 356
+}

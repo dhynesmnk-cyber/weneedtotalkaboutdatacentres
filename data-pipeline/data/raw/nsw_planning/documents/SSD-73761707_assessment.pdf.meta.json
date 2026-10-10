@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-73761707%2120260916T063023.112+GMT",
+ "project_slug": "glendenning-road-data-centre",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-21",
+ "kind": "assessment",
+ "label": "Signed - SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:47:26+00:00",
+ "sha256": "801090e50f47c8dcce5eac07ef3007fd8684c5d145c519582e42f52287f4777c",
+ "bytes": 16198189,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 152658,
+ "pages": 79,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

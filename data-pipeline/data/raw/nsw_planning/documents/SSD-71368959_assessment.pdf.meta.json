@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-71368959%2120251222T223948.276+GMT",
+ "project_slug": "project-duke-data-centre",
+ "attachment_slug": "assessment-report-4731",
+ "kind": "assessment",
+ "label": "SSD-SSI Assessment Report 1.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:47:12+00:00",
+ "sha256": "adf74f8a72ea5f2a7e1e1fbef40d91bd1daa868f55a655869883d94976a867d4",
+ "bytes": 15231151,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 156138,
+ "pages": 76,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

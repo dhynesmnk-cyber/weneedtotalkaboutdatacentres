@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-92743706%2120260204T015908.828+GMT",
+ "project_slug": "mamre-road-data-centre-campus",
+ "attachment_slug": "eis-706-752-mamre-road",
+ "kind": "eis",
+ "label": "EIS - 706-752 Mamre Road$2c Kemps Creek.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-10T14:50:20+00:00",
+ "sha256": "74d20a6da046102e9728260b2f91bf3548783331a2f516cccece4cb9f6e89f87",
+ "bytes": 17788558,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 671650,
+ "pages": 276,
+ "pdf_committed": false,
+ "text_redactions": 2
+}

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-58601963%2120231115T044515.165+GMT",
+ "project_slug": "honeman-close-data-centre",
+ "attachment_slug": "environmental-impact-statement-14662",
+ "kind": "eis",
+ "label": "EIS - 6 Honeman Close$2c Huntingwood.PDF",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-10T14:44:32+00:00",
+ "sha256": "7cb298d727916de0bac411956fbb6b846fd8d55f2d40a2ba356f8ef707802ed2",
+ "bytes": 11785095,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 289616,
+ "pages": 133,
+ "pdf_committed": false,
+ "text_redactions": 3
+}

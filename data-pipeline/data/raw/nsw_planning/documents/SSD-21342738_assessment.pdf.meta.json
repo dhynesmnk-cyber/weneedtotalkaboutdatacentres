@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-21342738%2120230901T061348.447+GMT",
+ "project_slug": "eastern-creek-data-centre-expansion-project",
+ "attachment_slug": "ssd-21342738-assessment-report-6",
+ "kind": "assessment",
+ "label": "SSD-21342738 - Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:43:20+00:00",
+ "sha256": "90a94dfc3d694f2c949772da69159582a7c85a96d295c049c93234a8b011c0ad",
+ "bytes": 1239886,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 125239,
+ "pages": 59,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

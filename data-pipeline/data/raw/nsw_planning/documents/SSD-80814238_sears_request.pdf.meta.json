@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-79810956%2120250309T233707.993+GMT",
+ "project_slug": "road-1-data-centre",
+ "attachment_slug": "request-sears20250309233635-28",
+ "kind": "sears_request",
+ "label": "Request for SEARs_20250309233635.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:51:58+00:00",
+ "sha256": "a642948becc0d813182d38213b41ec9acc76ac7239d153a80ade01f2c7282436",
+ "bytes": 309134,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 7406,
+ "pages": 4,
+ "pdf_committed": false,
+ "text_redactions": 6
+}

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-41589232%2120230915T074128.135+GMT",
+ "project_slug": "51-huntingwood-drive-data-centre",
+ "attachment_slug": "ssd-assessment-report-51-huntingwood-4",
+ "kind": "assessment",
+ "label": "SSD-SSI Assessment Report-51 Huntingwood.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:43:56+00:00",
+ "sha256": "d5da70a657418f33a8f64a87e62a4f6884fe64095a31bba5a6fceca0462806bf",
+ "bytes": 2272958,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 136897,
+ "pages": 60,
+ "pdf_committed": false,
+ "text_redactions": 0
+}
