@@ -32,6 +32,15 @@ const entities = new Map<string, KnownEntity>([
 ]);
 
 describe('transformSite', () => {
+  it("loads a stored 'unknown' certification as a gap, not a value", () => {
+    const { site, gaps } = transformSite(siteRow({ hcf_certified: 'unknown' }));
+    expect(site.hcf_certified).toBeNull();
+    expect(gaps.find((g) => g.field_name === 'hcf_certified')?.reason).toBe('unknown');
+    expect(transformSite(siteRow({ hcf_certified: 'certified_strategic' })).site.hcf_certified).toBe(
+      'certified_strategic',
+    );
+  });
+
   it('renames lon to lng', () => {
     const { site } = transformSite(siteRow({ lat: -33.72, lon: 150.8 }));
     expect(site.lng).toBe(150.8);

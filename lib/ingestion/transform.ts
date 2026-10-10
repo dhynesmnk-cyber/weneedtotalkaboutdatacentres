@@ -264,7 +264,10 @@ export function transformSite(
     operational_jobs: int(row.operational_jobs),
     operational_from: text(row.operational_from),
     target_completion: text(row.target_completion),
-    hcf_certified: text(row.hcf_certified),
+    // The pipeline stores "not known" for this one field as the value 'unknown'.
+    // It is loaded as what it means, a null with a derived `unknown` gap, so the
+    // gap is a data_gaps row a person can later give a stronger, sourced reason.
+    hcf_certified: text(row.hcf_certified) === 'unknown' ? null : text(row.hcf_certified),
 
     fact_status: mapFactStatus(text(row.fact_status)),
     confidence: mapConfidence(text(row.confidence)),
