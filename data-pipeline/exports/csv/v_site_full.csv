@@ -4,9 +4,9 @@ SITE_AIRTRUNK_SYD2,AirTrunk SYD2 (Lane Cove),NSW,NEM,operational,AirTrunk,,,,,,,
 SITE_AIRTRUNK_SYD3,AirTrunk SYD3 (Sydney West),NSW,NEM,operational,AirTrunk,,,,,,,,,,,,,,,,,,,,,,,,,,GAP,low,2026-09-18
 SITE_MAMRE_ROAD,Mamre Road Data Centre Campus,NSW,NEM,lodged,KNBDC entity group (KNBDC AU Development / AU Financing Holdco / per-project trusts),IFM Investors,,1200.0,1200.0,1000.0,5000000000.0,500,500,tbd,,ENT_TRANSGRID,,,,846,,18000.0,to be assessed against NSW Clean Air Regulation Group 6 limits under the 2026 Guidelines,,hybrid,mixed,22400.0,,,,VERIFIED,high,2026-09-18
 SITE_NEXTDC_S7,"NEXTDC S7 Data Centre, Eastern Creek",NSW,NEM,lodged,NEXTDC,,OpenAI,612.0,,612.0,7600000000.0,2000,425,tbd,,ENT_TRANSGRID,,,,,,,,,direct_to_chip_liquid,closed_loop_no_makeup,,,,,VERIFIED,high,2026-09-18
-SITE_NEXTDC_S1,NEXTDC S1 Sydney,NSW,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
-SITE_NEXTDC_S2,NEXTDC S2 Sydney,NSW,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
-SITE_NEXTDC_S3,NEXTDC S3 Sydney,NSW,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
+SITE_NEXTDC_S1,NEXTDC S1 Sydney,NSW,NEM,operational,NEXTDC,,,,,16.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
+SITE_NEXTDC_S2,NEXTDC S2 Sydney,NSW,NEM,operational,NEXTDC,,,,,30.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
+SITE_NEXTDC_S3,NEXTDC S3 Sydney,NSW,NEM,operational,NEXTDC,,,,,80.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_CDC_EC,CDC Eastern Creek campus (EC1-EC4),NSW,NEM,operational,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_CDC_MARSDEN,Marsden Park Data Centre,NSW,NEM,approved,CDC Data Centres,,,,720.0,720.0,3113226273.0,220,265,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_CDC_KEMPS,CDC Kemps Creek (new filing),NSW,NEM,lodged,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-08-05
@@ -30,13 +30,13 @@ SITE_SOUTH_MORANG,"South Morang data centre (approved, ~A$1bn)",VIC,NEM,approved
 SITE_WESTERN_DOWNS,Western Downs Digital Park,QLD,NEM,lodged,,Wambo Cattle Company Pty Limited,Anthropic,2160.0,3240.0,2160.0,31900000000.0,1500,,hybrid,,,,,,,,,,,air_cooled,mixed,,,,,VERIFIED,high,2026-09-18
 SITE_CDC_CANBERRA,"CDC Canberra (Fyshwick F1-F2, Hume H1-H5)",ACT,NEM,operational,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_MACQ_FAIRBAIRN,Macquarie IC4 / IC5 Fairbairn (ACT),ACT,NEM,operational,Macquarie Technology Group,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
-SITE_NEXTDC_C1,NEXTDC C1 Canberra,ACT,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
+SITE_NEXTDC_C1,NEXTDC C1 Canberra,ACT,NEM,operational,NEXTDC,,,,,4.4,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_EQUINIX_CA1,Equinix CA1 Canberra,ACT,NEM,operational,Equinix,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_TELSTRA_DEAKIN,Telstra Deakin Strategic Enclave (ACT),ACT,NEM,operational,Telstra,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_NEXTDC_P12,NEXTDC P1 / P2 Perth,WA,WEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_EQUINIX_PER,"Equinix Perth (PE2, PE3)",WA,WEM,operational,Equinix,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_WA_1GW,Proposed ~1 GW WA renewable-powered data centre,WA,WEM,rumoured,,,,1000.0,,,,,,,,,,,,,,,,,,,,,,,CLAIMED,low,2026-09-01
-SITE_NEXTDC_A1,NEXTDC A1 Adelaide,SA,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
+SITE_NEXTDC_A1,NEXTDC A1 Adelaide,SA,NEM,operational,NEXTDC,,,,,5.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_NEXTDC_D1,NEXTDC D1 Darwin,NT,NT,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_MS_AU_FLEET,"Microsoft Australia datacentre fleet (29 sites, 3 Azure regions)",Multi,Multi,operational,Microsoft,,,,,,,,,,,,,,,,,,,,,,,,,,CLAIMED,high,2026-04-23
 SITE_AWS_AU_FLEET,"AWS Australia (Sydney and Melbourne regions, 2025-29 build)",Multi,Multi,under_construction,Amazon Web Services,,,,,,,,,,,,,,,,,,,,,,,,,,CLAIMED,high,2025-06-14

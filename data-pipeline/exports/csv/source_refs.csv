@@ -486,3 +486,17 @@ id,entity_table,entity_rowid,source_id,quote
 485,sites,SITE_23_25_WATERLOO,SRC_SSD91297457_SEARS_REQUEST,"p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD700,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 3,400 | p1 (construction_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 3,400 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 23,375 | p2 (campus_area_ha, sqm to ha): Site Area sqm 11,200"
 486,sites,SITE_MAMRE_ROAD,SRC_SSD92743706_EIS,"p120 (it_capacity_mw, gw to mw): The IT load for the proposal is 1.04-GW and the total power consumption for the proposal is 1.2-GW. | p120 (total_capacity_mw, gw to mw): The IT load for the proposal is 1.04-GW and the total power consumption for the proposal is 1.2-GW. | p120 (operational_jobs): the operational jobs for the proposal is 800 | p56 (capital_cost_aud): EDC $8,999,802,659.81 | p40 (campus_area_ha): Site Area 52 hectares"
 487,sites,SITE_LANE_COVE_WEST,SRC_SSD9741_ASSESSMENT,"p16 (capital_cost_aud): Capital investment value (CIV) $196,852,378 | p16 (construction_jobs): Employment 320 construction jobs and 100 operational jobs | p16 (operational_jobs): Employment 320 construction jobs and 100 operational jobs | p14 (campus_area_ha): Site area 3.59 ha | p15 (gfa_sqm): The data centre would have a total GFA of 32,429 m 2"
+488,sites,SITE_AIRTRUNK_MEL1,SRC_OP_AIRTRUNK_MEL1_MELBOURNE,(campus_area_ha): Set on 8.8ha
+489,sites,SITE_AIRTRUNK_SYD1,SRC_OP_AIRTRUNK_SYD1_SYDNEY_WEST,(campus_area_ha): Set on 7.4ha
+490,sites,SITE_AIRTRUNK_SYD2,SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH,(campus_area_ha): Set on 4.2ha | (address): adjacent to AirTrunk’s existing facility at 1 Sirius Road
+491,sites,SITE_AIRTRUNK_SYD3,SRC_OP_AIRTRUNK_SYD3_SYDNEY_WEST,(campus_area_ha): Set on 8.3ha
+492,sites,SITE_NEXTDC_A1,SRC_OP_NEXTDC_A1_ADELAIDE,(it_capacity_mw): 5MW IT Capacity
+493,sites,SITE_NEXTDC_C1,SRC_OP_NEXTDC_C1_CANBERRA,"(it_capacity_mw): 4.4MW IT Load | (suburb): Located in Bruce,"
+494,sites,SITE_NEXTDC_C1,SRC_OP_NEXTDC_CONTACT,"(address): C1 Canberra 19 Battye Street Bruce, ACT, 2617"
+495,sites,SITE_NEXTDC_M4,SRC_OP_NEXTDC_M4_MELBOURNE,(it_capacity_mw): 150MW IT Capacity
+496,sites,SITE_NEXTDC_S1,SRC_OP_NEXTDC_S1_SYDNEY,"(it_capacity_mw): 16MW IT Capacity | (suburb): Located in Macquarie Park,"
+497,sites,SITE_NEXTDC_S1,SRC_OP_NEXTDC_CONTACT,"(address): S1 Sydney 4 Eden Park Drive Macquarie Park, NSW, 2113"
+498,sites,SITE_NEXTDC_S2,SRC_OP_NEXTDC_S2_SYDNEY,"(it_capacity_mw): 30MW IT Capacity | (suburb): Located in Macquarie Park,"
+499,sites,SITE_NEXTDC_S2,SRC_OP_NEXTDC_CONTACT,"(address): S2 Sydney 6-8 Giffnock Avenue Macquarie Park, NSW, 2113"
+500,sites,SITE_NEXTDC_S3,SRC_OP_NEXTDC_S3_SYDNEY,"(it_capacity_mw): 80MW IT Capacity | (suburb): Located in Artarmon,"
+501,sites,SITE_NEXTDC_S3,SRC_OP_NEXTDC_CONTACT,(address): S3 Sydney 2 Broadcast Way Artarmon NSW 2064
