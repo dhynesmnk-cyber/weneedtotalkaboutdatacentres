@@ -155,3 +155,84 @@ Recorded rather than filled, per the hard rule against inferring values.
   above is as reported by the cited source. None has been cross-checked against
   a primary planning document, and none should be loaded into `sites` without
   one.
+
+---
+
+## Proposed for approval, ranked by what the records would close
+
+Drafted 2026-10-09 under the `researcher` role. It proposes and approves
+nothing: the approved table in docs/SPEC.md is unchanged, and stays empty until
+a human fills it.
+
+### Why these, in this order
+The ranking is by how many of the public record's "Not yet researched" values
+a council's development application records could plausibly answer, from
+`data-pipeline/reports/gap_worklist.csv`. Only sites without an NSW State
+Significant Development record are counted, because the planning portal
+already holds those. "Plausible" means fields a DA and its documents can state:
+address, suburb, proponent, coordinates (through the address), capacity, campus
+and floor area, capital cost, jobs, cooling, water use and target completion.
+HCF certification, live capacity, rack density, grid connection and opening
+date are left out. These are ceilings, not promises: a record may not exist
+online, may predate the tracker, or may show the site was assessed by the state.
+
+| Rank | Council | Sites it would serve | Gaps on them | DA-plausible | Tracker | robots.txt (checked 2026-10-09) |
+|---:|---|---|---:|---:|---|---|
+| 1 | Blacktown City Council (NSW) | AirTrunk SYD1, AirTrunk SYD3, CDC Eastern Creek, DCI SYD-01 | 77 | 60 | blacktown-web.t1cloud.com (eTrack) | `Disallow: /` |
+| 2 | Penrith City Council (NSW) | CDC Kemps Creek, Digital Realty Erskine Park, STACK 78 Lockwood Road, Stockland Fife Kemps Creek | 77 | 58 | datracker.penrithcity.nsw.gov.au | none published (404) |
+| 3 | City of Ryde (NSW) | Macquarie IC3, Stockland 'Project A', Stockland Macquarie Park Stage 1 | 57 | 42 | ryde-web.t1cloud.com (eTrack) | `Disallow: /` |
+| 4 | Melton City Council (VIC) | Syncline Energy Melton hub, Victorian AI Hub (Plumpton) | 36 | 26 | Online Planning Register on melton.vic.gov.au | does not disallow it |
+| 5 | Ipswich City Council (QLD) | Ten-storey data centre outside Brisbane | 21 | 15 | developmenti.ipswich.qld.gov.au | none published (404) |
+| 6 | Wyndham City Council (VIC) | CDC Laverton | 18 | 13 | not found | — |
+| 7 | Western Downs Regional Council (QLD) | Western Downs Digital Park | 12 | 6 | not checked | — |
+
+Latrobe, Moorabool, Hume, Goyder and Gosnells would close nothing today: no
+site in the record sits in them without a state planning record.
+
+### Recommendation
+Approve **Blacktown, Penrith and Ryde** first: NSW, named sites in each, about
+160 plausible values between them, and the qualification basis is the stronger
+one (a named site in the LGA, not a council position).
+
+Hold Melton, Ipswich, Wyndham and Western Downs. Each serves one or two sites,
+and for the Victorian ones the state's Development Facilitation Program or the
+ministerial permits register may be the record of decision rather than the
+council (batch S6 in the plan looks there first).
+
+### What approval would and would not permit
+- **Manual retrieval only, this round.** No scraper and no scheduled job. A
+  person, or an agent at a person's direction, finds the record for a named
+  site, downloads its documents, and archives each under
+  `data-pipeline/data/raw/councils/<council>/` with a `.meta.json` manifest
+  (url, retrieved date, SHA-256), as the portal archive does.
+- **Blacktown and Ryde disallow automated access** to their eTrack hosts in
+  robots.txt. Their documents must be downloaded by a person in a browser, not
+  fetched by a script, even after approval. Penrith and Ipswich publish no
+  robots.txt; fetch politely (one request at a time, a pause between) and stop
+  if asked.
+- **Terms of use were not checked.** Read each tracker's terms before the first
+  retrieval and record the outcome here.
+- **Council is still never derived.** A DA names the council that determined
+  it; that document, not the site's address, is what the council field cites.
+
+### To approve (for the approver to complete)
+For each council kept, add a row to the approved table in docs/SPEC.md:
+
+```
+| Blacktown City Council | NSW | YYYY-MM-DD | <your name> |
+| Penrith City Council   | NSW | YYYY-MM-DD | <your name> |
+| City of Ryde           | NSW | YYYY-MM-DD | <your name> |
+```
+
+and the matching `council_watchlist` rows, applied by hand (no import writes
+to this table). The names follow the approved spellings in `facts.lga_aliases`:
+
+```sql
+insert into facts.council_watchlist (lga, state, approved_by, approved_at, notes) values
+  ('Blacktown City Council', 'NSW', '<your name>', '<YYYY-MM-DD>',
+   'Manual retrieval only; eTrack disallows automated access (robots.txt).'),
+  ('Penrith City Council',   'NSW', '<your name>', '<YYYY-MM-DD>',
+   'Manual retrieval only, one request at a time.'),
+  ('City of Ryde',           'NSW', '<your name>', '<YYYY-MM-DD>',
+   'Manual retrieval only; eTrack disallows automated access (robots.txt).');
+```
