@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-90331213%2120250819T005846.034+GMT",
+ "project_slug": "23-25-waterloo-road-data-centre",
+ "attachment_slug": "request-sears20250819005815-14",
+ "kind": "sears_request",
+ "label": "Request for SEARs_20250819005815.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:49:53+00:00",
+ "sha256": "35ef5071edc99bb3d71c23abf4915116f3a0a8fcd05dc658d93ee6dd689abd7f",
+ "bytes": 405552,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 6447,
+ "pages": 3,
+ "pdf_committed": false,
+ "text_redactions": 6
+}

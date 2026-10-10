@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-47320208%2120240404T234404.561+GMT",
+ "project_slug": "project-echidna-data-centre-eastern-creek",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-7",
+ "kind": "assessment",
+ "label": "Signed SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:44:07+00:00",
+ "sha256": "7efa3034040f086115be975408870d4942476ebbfc7db6f909c295bb5753beb3",
+ "bytes": 2000371,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 125639,
+ "pages": 69,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

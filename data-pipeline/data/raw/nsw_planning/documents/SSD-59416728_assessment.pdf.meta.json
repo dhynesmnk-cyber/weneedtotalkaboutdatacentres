@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120241220T045539.893+GMT",
+ "project_slug": "davis-road-data-centre-cundall",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-12",
+ "kind": "assessment",
+ "label": "Signed SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:44:45+00:00",
+ "sha256": "12e269fef30359a2a8c36a37112ab1cccf65368fb9e36b3d28e07360a641da3b",
+ "bytes": 3209019,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 136238,
+ "pages": 70,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

@@ -37,14 +37,15 @@ select public.assert(
 -- claims are CLAIMED-grade metrics pending RG-091). The assertions remain
 -- falsifiable: a loader that dropped any thread row fails them.
 -- 2026-10-10: batch S3 (data/packs/hcf_register.json) adds one source, the
--- Commonwealth HCF register, giving 194.
+-- Commonwealth HCF register, giving 194. Batch S2 (data/packs/ssd_documents.json)
+-- adds 41, one planning document per NSW SSD project it reads, giving 235.
 select public.assert(
   (select count(*) from facts.entities where pipeline_id is not null) = 138,
   '138 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 194,
-  '194 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 235,
+  '235 sources loaded');
 
 -- ---------------------------------------------------------------------------
 -- Nothing was invented.

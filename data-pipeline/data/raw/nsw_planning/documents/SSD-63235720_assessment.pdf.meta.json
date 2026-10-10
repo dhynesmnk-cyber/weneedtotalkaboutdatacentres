@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63235720%2120260611T061649.742+GMT",
+ "project_slug": "1-5-khartoum-road-data-centre",
+ "attachment_slug": "ssd-assessment-report-168",
+ "kind": "assessment",
+ "label": "SSD Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:45:24+00:00",
+ "sha256": "885ef8e5af3a9fac1035657e968a39c7e4133008326ad6807479fe943340d996",
+ "bytes": 16362840,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 156381,
+ "pages": 82,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

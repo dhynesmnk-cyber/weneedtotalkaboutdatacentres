@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-33781208%2120221216T065822.611+GMT",
+ "project_slug": "station-road-data-centre-expansion",
+ "attachment_slug": "assessment-report-3106",
+ "kind": "assessment",
+ "label": "Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:43:44+00:00",
+ "sha256": "6351499ac168424302b5612a42e3f623a510238b9f2742090bbad79d0ba4aec7",
+ "bytes": 2454498,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 138988,
+ "pages": 62,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

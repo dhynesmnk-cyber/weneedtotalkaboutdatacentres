@@ -35,13 +35,14 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/palantir_nvidia_thread.json \
                       data/packs/site_coordinates.json \
                       data/packs/site_portal_fields.json \
-                      data/packs/hcf_register.json
+                      data/packs/hcf_register.json \
+                      data/packs/ssd_documents.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs worklist check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
 all: check-packs check-austender check-patents build verify load check-filings docs
 
@@ -96,6 +97,7 @@ verify:
 	$(PY) scripts/curate_site_coordinates.py
 	$(PY) scripts/curate_site_portal_fields.py
 	$(PY) scripts/curate_hcf_register.py
+	$(PY) scripts/curate_ssd_documents.py
 
 load: build verify
 	@for p in $(PACKS); do \
@@ -136,6 +138,11 @@ check-export:
 fetch-cer:
 	$(PY) scrapers/ingest_cer.py --check
 	$(PY) scrapers/ingest_cer.py --years $(CER_YEARS)
+
+# Batch S2: archive each NSW SSD data centre project's assessment report, EIS, scoping report or
+# SEARs request (needs pypdf and cryptography). Polite, single-threaded; offline for what is archived.
+fetch-ssd-docs:
+	$(PY) scrapers/fetch_ssd_documents.py
 
 fetch-registers:
 	$(PY) scrapers/ingest_cer.py --registers

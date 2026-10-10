@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69223466%2120260724T063200.298+GMT",
+ "project_slug": "project-pluto-data-centre",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-20",
+ "kind": "assessment",
+ "label": "Signed - SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:46:28+00:00",
+ "sha256": "de1de0c4adf794a4443addea89596f783dad72c1de9a76acfba9185381af2b70",
+ "bytes": 3460833,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 126138,
+ "pages": 71,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

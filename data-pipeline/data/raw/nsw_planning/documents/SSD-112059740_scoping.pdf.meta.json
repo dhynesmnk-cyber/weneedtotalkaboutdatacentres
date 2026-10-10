@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-112059740%2120260820T022208.882+GMT",
+ "project_slug": "aldington-road-data-centre",
+ "attachment_slug": "aldington-road-data-centrescoping-report",
+ "kind": "scoping",
+ "label": "Aldington Road Data Centre_Scoping Report.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:42:13+00:00",
+ "sha256": "b773dfad7a5a4268c1bff1b467e6a40b49c2d222f1f943f44a7547124586ce55",
+ "bytes": 3911116,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 112712,
+ "pages": 57,
+ "pdf_committed": false,
+ "text_redactions": 1
+}

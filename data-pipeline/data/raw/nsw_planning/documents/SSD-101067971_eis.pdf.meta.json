@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-101067971%2120260528T060715.082+GMT",
+ "project_slug": "project-atlas-data-centre-eastern-creek",
+ "attachment_slug": "eis-10-roberts-road-eastern-creek-0",
+ "kind": "eis",
+ "label": "Environmental Impact Statement - 10 Roberts Road$2c Eastern Creek.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-10T14:40:11+00:00",
+ "sha256": "c84731e2f61b9151c6b4a588630c55c6abfae543d27893329987a83db4f49e5c",
+ "bytes": 10993231,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 352033,
+ "pages": 168,
+ "pdf_committed": false,
+ "text_redactions": 169
+}

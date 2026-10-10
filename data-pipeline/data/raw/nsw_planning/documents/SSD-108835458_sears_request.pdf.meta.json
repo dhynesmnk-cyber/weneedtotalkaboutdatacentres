@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-105602456%2120260311T222222.859+GMT",
+ "project_slug": "mars-road-data-centre",
+ "attachment_slug": "request-sears20260311222156",
+ "kind": "sears_request",
+ "label": "Request for SEARs_20260311222156.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:41:50+00:00",
+ "sha256": "db355e992e183bceb0c8be14c465dc7b5d57da731cf8f46bdda06d0a12e769a1",
+ "bytes": 439163,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 7223,
+ "pages": 4,
+ "pdf_committed": false,
+ "text_redactions": 6
+}

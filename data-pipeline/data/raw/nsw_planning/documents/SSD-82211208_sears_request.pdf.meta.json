@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-81060957%2120250407T234740.526+GMT",
+ "project_slug": "stack-syd01-data-centre-erskine-park",
+ "attachment_slug": "request-sears20250407234709-12",
+ "kind": "sears_request",
+ "label": "Request for SEARs_20250407234709.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:52:31+00:00",
+ "sha256": "c483bc29287749e276f664f5538fe7cef4d0e46d4e186d1e414649b4b1b8be63",
+ "bytes": 302831,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 6907,
+ "pages": 4,
+ "pdf_committed": false,
+ "text_redactions": 6
+}

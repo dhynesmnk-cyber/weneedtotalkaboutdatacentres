@@ -1,0 +1,2174 @@
+[[page 1]]
+Department of Planning, Housing and Infrastructure 
+dphi.nsw.gov.au 
+Project Echidna Data Centre  
+State Significant Development Assessment Report (SSD -47320208 ) 
+April 2024 
+ 
+ 
+
+[[page 2]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report 
+Acknowledgement of Country  
+The Department of Planning, Housing and Infrastructure acknowledges 
+that it stands on Aboriginal land. We acknowledge the Traditional 
+Custodians of the land and show our respect for Elders past, present and 
+emerging through thoughtful and collaborative approaches to our work, 
+seeking to demonstrate our ongoing commitment to providing places in 
+which Aboriginal people are included socially, culturally and economically. 
+Published by NSW Department of Planning, Housing and Infrastructure 
+dphi.nsw.gov.au 
+Project Echidna Data Centre (SSD-47320208) Assessment Report 
+Published: April 2024 
+Copyright and disclaimer 
+©  State of New South Wales through Department of Planning, Housing 
+and Infrastructure 2024. Information contained in this publication is based 
+on knowledge and understanding at the time of writing, April 2024, and is 
+subject to change. For more information, please visit nsw.gov.au/copyright 
+[[page 3]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | i 
+Preface 
+This assessment report provides a record of the Department of Planning, Housing and Infrastructure’s 
+(the Department) assessment and evaluation of the State significant development (SSD) application 
+for the Project Echidna Data Centre located at 10 Eastern Creek Drive, Eastern Creek lodged by ARUP 
+Australia Pty Ltd. The report includes: 
+• an explanation of why the project is considered SSD and who the consent authority is 
+• an assessment of the project against government policy and statutory requirements, including 
+mandatory considerations  
+• a demonstration of how matters raised by the community and other stakeholders have been 
+considered 
+• an explanation of any changes made to the project during the assessment process  
+• an assessment of the likely environmental, social and economic impacts of the project  
+• an evaluation which weighs up the likely impacts and benef its of the project, having regard to 
+the proposed mitigations, offsets, community views and expert advice; and provides a view on 
+whether the impacts are on balance, acceptable 
+• a recommendation to the decision -maker, along with the reasons for the recommendation, to 
+assist them in making an informed decision about whether development consent for the project 
+should be granted and any conditions that should be imposed. 
+  
+[[page 4]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | ii 
+Executive Summary  
+This report details the Department  of Planning, Housing and Infrastructure ’s (the Department)  
+assessment of the State significant development (SSD) application submitted by ARUP Australia Pty 
+Ltd (the Applicant) for the construction and operation o f a data centre at 10 Eastern Creek Drive, 
+Eastern Creek (SSD-47320208) in the Blacktown local government area (LGA).  
+Project 
+The SSD application seeks the construction and operation of a data centre with an operational 
+capacity of 35.2 Megawatts (MW) inc luding back-up power and cooling systems, di esel and lithium-
+ion battery storage, car parking and landscaping. Site establishment works and broader site 
+infrastructure including internal roads and access have been granted on the site under various 
+approvals. The approvals include a data centre facility with concept approval and stage 1 building 
+works and a supporting substation.  
+The proposed development (the development) would operate 24 hours a day, seven days a week. The 
+primary purpose of the de velopment is for the collection, storage, processing and distribution of 
+electronic data by cloud and content providers or government entities.  
+The development would be cooled using a system of evaporative cooling, air handling units (AHUs), 
+chillers and cooling towers located on each floor of the data centre. The cooling system has been 
+designed to maintain a constant temperature within the data halls throughout the year. Data centres 
+also require sophisticated energy back -up systems to ensure the data ce ntre operator’s customers 
+are always able to access their data. To this end, the development includes a system of lithium -ion 
+batteries and diesel back-up generators designed to minimise downtime during a power outage event.  
+The project has a capital inve stment value of $ 380,267,448 and is expected to generate 100 
+construction jobs and 50 operational jobs. If approved, construction of the project is proposed to 
+commence in 2024 and be completed by 2026.  
+Statutory context  
+The project is classified as Stat e significant development (SSD) under section 4.36 of the 
+Environmental Planning and Assessment Act 1979 (EP&A Act) because it involves the construction and 
+operation of a data storage premises with a total power consumption of more than 1 5 MW, which 
+meets the criteria in Clause 25 of Schedule 1 in the State Environmental Planning Policy (Planning 
+Systems) 2021 (Planning Systems SEPP). The Independent Planning Commission (the Commission) is 
+the consent authority for the project under section 4.5 (1) of the E P&A Act  and section 2.7 of the 
+Planning Systems SEPP as Blacktown City Council duly made a submission by way of objection. 
+[[page 5]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | iii 
+Engagement  
+The Department exhibited the development application (DA) and accompanying environmental 
+impact statement (EIS) from 8 June 2023 until 5 July 2023. During the exhibition period, the 
+Department received:  
+• no submissions from the public, however received comment from a utility provider 
+• a submission from the local council, Blacktown City Council (Council), objecting to the project 
+• advice from the following government agencies and State owned corporations: 
+– NSW Environment and Protection Authority (EPA) 
+– Biodiversity and Conservation Division of the then Department of Planning and Environment 
+(now Biodiversity, Conservation and Science Division of the Department of Climate Change, 
+Energy, the Environment and Water (DCCEEW) 
+– Transport for NSW 
+– Fire and Rescue NSW 
+– Sydney Water 
+No issues were raised by government agencies in their advice, how ever key issues were raised by 
+Council relating to the consistency of the development with the existing concept approval, visual 
+screening of the development from Old Wallgrove Road, car parking numbers, total site landscaping 
+and stormwater quality. The Department requested the Applicant address the matters raised during 
+the exhibition period in a Response to Submissions (RtS) report.  
+The Applicant submitted a n RtS report to the Department on 19 September 2023. The submissions 
+report was accompanied by an updated Acoustic Design Report, staff car parking calculations, 
+updated architectural and design plans, stormwater modelling and technical note. The RtS was 
+referred to Council and relevant government agencies for their consideration. Following further 
+feedback and advice from Council, the Applicant provided an addendum response on 6 March 2024 
+seeking to close out remaining concerns. The package included, carparking layout and indicative 
+staffing roster, landscape screening and façade treatment design and changes to landscaping for 
+consistency with the concept approval.  
+Council reviewed the addendum response and subsequently advised the Department on 19 March 
+2024 that Council’s issues had been sufficiently addressed and that Council withdraws its objection 
+on the development. Council additionally provided recommended conditions of consent.  
+[[page 6]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | iv 
+Assessment  
+The Department’s assessment of the application has fully considered all relevant matters under 
+section 4.15 of the EP&A Act, the objects of the EP&A Act and the principles of ecologically 
+sustainable development. The Department has identified the key issues for assessment as air quality, 
+noise and visual impacts . The Department has also assessed other relevant matters, including air 
+quality, hazards and risks, bushfire and traffic impacts.  
+Air Quality 
+Pollutant emissions from the operation of emergency back- up generators during testing or critical 
+power failure scenarios may impact on sensitive receivers if not carefully controlled. The Applicant 
+provided an air quality impact assessment (AQIA) that predicted the pollutant emissions of the 
+development under both a standard operating scenario and a worst -case crit ical power failure 
+scenario.  
+The EPA advised it had no comments on the development as the development does not constitute a 
+scheduled activity under Schedule 1 of the Protection of the Environment Operations Act 1997  (POEO 
+Act). The Department requested the Applicant update the AQIA to be prepared in accordance with 
+the EPA’s latest Approved Methods (being 2022) and assess the cumulative pollution emissions from 
+the approved Stage 1 Building 1 and 1A, against standard and worst-case operating scenarios.  
+The Applicant subsequently provided an updated AQIA which modelled the predicted emission 
+concentrations from key pollutants such as nitrogen dioxide (NO 2) and particulate matter (PM 2.5 and 
+PM10), for both operating scenarios. The AQIA predicted the pollutant emission concentrations to be 
+well below the impact assessment criteria of the EPA’s Approved Methods for the Modelling and 
+Assessment of Air Pollutants in NSW during standard operating scenarios but noted exceedances in 
+cumulative particulat e matter concentrations due to existing elevated background levels. The 
+predicted emission concentrations during the worst -case scenario were predicted to significantly 
+exceed the relevant impact assessment criteria however, the AQIA justified that any cri tical power 
+failure event is deemed to be highly unlikely and would have minimal duration.  
+The Department’s assessment considered the Applicant has sufficiently demonstrated that proposed 
+standard operations of the development will have an acceptable incr emental and cumulative impact 
+on air quality, and that the likelihood of a critical power outage event is highly unlikely.  
+The Department recommended conditions of consent requiring annual emissions testing and 
+reporting, the reporting of emergency back-up generators operation subsequent to any power outage 
+event and the preparation and implementation of a power outage notification protocol. The 
+Department’s assessment concluded the development would not result in unacceptable air quality 
+impacts on surrounding receivers subject to the implementation of the recommended conditions and 
+management measures.  
+[[page 7]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | v 
+Noise 
+Noise from the operation of the data centre, including air handling units (AHU), transformers and 
+emergency back -up generators, may impact on surrou nding sensitive receivers if not carefully 
+controlled through design and mitigation measures. The Applicant provided a noise and vibration 
+impact assessment (NVIA) that predicted noise levels from the proposed development, comparing 
+against the Project Noi se Trigger Levels (PNTL) derived from background noise monitoring in 
+accordance with the EPA’s Noise Policy for Industry (NPfI).  
+The NVIA predicted the noise levels of two operating scenarios being a standard operating scenario 
+and a worst-case critical power failure scenario. The NVIA demonstrated compliance with the PNTL 
+at all receiver locations assessed including residential, education, commercial and industrial 
+receivers, during all assessed time periods.  
+The Department has considered the Applicant’s  assessment and is satisfied the operation of the 
+development will comply with the relevant project amenity noise criteria established in accordance 
+with the NPfI. Further, the Department considers the mitigation measures identified in the acoustic 
+report to be adequate in reducing the potential noise emissions of the development’s operations.  
+The Department has recommended conditions of consent limiting noise emissions of the development 
+at receiver locations and requiring the Applicant to prepare and sub mit a noise verification report. 
+With these conditions in place, the Department’s assessment concludes the development would not 
+have adverse impacts on sensitive receivers.  
+Visual  
+The site is located within the Eastern Creek industrial precinct at the i ntersection of Old Wallgrove 
+Road and Eastern Creek Drive.  The site is immediately surrounded by warehouse and distribution 
+centres and other light industries. 
+The development consists of a two-storey building with a maximum building height of 21.2 m and an 
+overall length of approximately 135  m. The bulk and scale of the development presents potential 
+visual impacts on local view corridors. The Applicant prepared a landscaping and visual impact 
+assessment (LVIA) and design report to support the development application.  
+The Applicant met with Council and the Department to discuss recommendations for screening and 
+design treatment options  for generator exhaust flues  in response to advice raised during t he 
+exhibition period. Architectural plans, the LVIA and design report were updated to incorporate the 
+recommendations and advice provided by Council and the Department on the development. This 
+included updates to the colour palette to reduce the bulk and scale of the development and additional 
+landscape screening along the Old Wallgrove Road frontage. 
+[[page 8]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | vi 
+The Department’s assessment considered  the development would have an acceptable impact on 
+visual amenity on the streetscape taking into consideration the  façade and design treatment 
+measures incorporated and the existing industrial and commercial character of the area.   
+The Department has recommended a condition of consent be imposed requiring the Applicant to 
+prepare and implement a Landscape Management Plan (LMP) for the life of the development to 
+ensure adequate vegetation screening of the development is maintained. The Department’s 
+assessment concludes the development would have an acceptable impact on visual amenity subject 
+to the recommended conditions of consent. 
+Conclusion  
+The Department’s assessment concluded the impacts of the development can be mitigated and/or 
+managed to ensure an acceptable level of environmental performance, subject to the recommended 
+conditions of consent. 
+The development is not e xpected to have adverse noise or air quality impacts on the locality and 
+sensitive receivers in relation to the construction and operation of the development and impacts on 
+visual amenity are considered to be acceptable given the industrial nature of the s ite, subject to the 
+implementation of the proposed mitigation measures and the recommended conditions of consent.  
+Consequently, the Department considers the development is in the public interest and is 
+recommended for approval, subject to conditions. 
+ 
+ 
+[[page 9]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | vii 
+Contents  
+Project Echidna Data Centre ........................................................................................................................ 1 
+Preface ..............................................................................................................................................................i 
+1 Introduction .......................................................................................................................................... 1 
+1.1 The proposal ............................................................................................................................................................................. 1 
+1.2 Project location ....................................................................................................................................................................... 1 
+1.3 Project background ............................................................................................................................................................. 4 
+1.4 Related projects and works ............................................................................................................................................. 4 
+2 Project .................................................................................................................................................. 6 
+2.1 Project overview .................................................................................................................................................................... 6 
+2.2 Physical layout and design .............................................................................................................................................. 7 
+2.3 Uses and activities .............................................................................................................................................................. 10 
+2.4 Applicant’s Need and Justification for the Development ................................................................................ 11 
+3 Strategic context .............................................................................................................................. 12 
+3.1 Key strategic issues........................................................................................................................................................... 12 
+4 Statutory context ............................................................................................................................. 13 
+4.1 Permissibility and assessment pathway ................................................................................................................. 13 
+4.2 Other approvals and authorisations .......................................................................................................................... 14 
+4.3 Mandatory matters for consideration ...................................................................................................................... 14 
+4.4 Matters of National Environmental Significance ............................................................................................... 16 
+5 Engagement ....................................................................................................................................... 17 
+5.1 Exhibition of the EIS .......................................................................................................................................................... 17 
+5.2 Response to submissions ................................................................................................................................................ 18 
+5.3 Request for further information .................................................................................................................................. 19 
+6 Assessment ....................................................................................................................................... 20 
+6.1 Air Quality .............................................................................................................................................................................. 20 
+6.2 Noise Impacts ...................................................................................................................................................................... 24 
+6.3 Design and Visual Impacts ............................................................................................................................................ 28 
+[[page 10]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | viii 
+6.4 Other issues .......................................................................................................................................................................... 34 
+7 Evaluation .......................................................................................................................................... 42 
+8 Recommendation ............................................................................................................................. 44 
+9 Determination ................................................................................................................................... 45 
+Glossary ........................................................................................................................................................ 46 
+Appendices ................................................................................................................................................... 48 
+Appendix A – List of referenced documents .................................................................................................................... 48 
+Appendix B – Submissions and government agency advice .................................................................................... 49 
+Appendix C – Statutory considerations .............................................................................................................................. 50 
+Appendix D – Recommended instrument of consent .................................................................................................. 59 
+ 
+[[page 11]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 1 
+1 Introduction  
+1.1 The proposal  
+This report details the Department of Planning , Housing  and Infrastructure’s (the Department) 
+assessment of the State significant development (SSD -47320208) for the Project Echidna Data 
+Centre. The development involves construction and operation of a data centre with an operational 
+capacity of 35.2 megawatts (MW) at 10 Eastern Creek Drive, Eastern Creek within the Blacktown local 
+government area (LGA). 
+The Department’s assessment considers all documentation submitted by the Applicant, including the 
+Environmental Impact Statement (EIS) and Response to Submissions (RTS), submissions received 
+from the public and advice from government agencies. The Department’s assessment also considers 
+the legislation and planning instruments relevant to the site and the development. 
+This report describes the proposed development, surrounding environment, relevant strategic and 
+statutory planning provisions and the issues raised in submissions. The report evaluates the key issues 
+associated with the development and provides recommendations for managing any impacts during 
+construction and operation.  
+1.2 Project location  
+The subject site comprises of 56,800 square metres (m 2) of IN1 – Generial Industrial zoned land  
+located at 10 Eastern Creek Drive, Eastern Creek  in the Blacktown LGA (see Figure 1 and Figure 2). 
+The site is legally described as Lot 4001 DP 1243178 and is located approximately 40 kilometres (km) 
+west of the Sydney central business district (CBD), 15 km west of the Parramatta CBD and 8 km south-
+west of the Blacktown CBD. The site is located in close proximity to the M7 Motorway to the east and 
+the M4 Motorway to the North, including the Light Horse Interchange located approximately 2  km 
+north-east of the site.  
+The site currently contains an existing data centre building and supporting substation. The 
+development is proposed to be located on the 9,22 5 m2 of vacant land on the south -western portion 
+of the site. Preliminary earthworks and site establishment works are currently being undertaken under 
+a separate Council approval (see section 1.4 below).  
+The site is immediately surrounded by warehouse and distribution centres, and other light industries  
+including operators and companies such as DHL, Coles, Fujitsu, Jaycar Elctronics and Downer Group 
+(see Figure 3).  
+[[page 12]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 2 
+ 
+Figure 1 | Regional context map  
+ 
+The Site  
+[[page 13]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 3 
+ 
+Figure 2 | The site 
+ 
+Figure 3 | Local context map 
+
+[[page 14]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 4 
+1.3 Project background  
+Data centres are places which are used by organisations to store their electronic computer 
+applications and data. This could include personal data (such as a Facebook account or Instagram 
+photos), corporate data (suc h as a business’s payroll system) or sensitive government data (such as 
+tax and Medicare records).  
+In recent years, there has been an increased need for new large and small -scale date centres across 
+the State. As new technologies (such as driverless cars,  faster mobile data networks and artificial 
+intelligence) become commonplace, a significant number of new data centres will be required to store 
+the volume of electronic data accessed and created by Australians.  
+The Applicant is a property development con sulting firm which specialises in facilitating estate 
+development and management for private and corporate clients across Asia Pacific. It acts on behalf 
+of a multinational data centre operation which is seeking to expand its operations within the Sydney 
+region. If approved, the development would be constructed and managed by the data centre operator.  
+Stage 1 building works for a data centre  and concept approval for a stage 2 building and associated 
+substation on the site was approved by the Sydney Central City Planning Panel in May 2020.  
+1.4 Related projects and works  
+The development is proposed to be co -located with an existing data centre development and 
+associated substation on site. Other development approvals relevant to the site are as follows: 
+DA-18-00196 
+Development consent was granted by Blacktown City Council (Council) on 13 June 2018 for the ‘Torens 
+Title subdivision of one lot into one industrial lot and one residue lot ’, creating the subject Lot 4001 
+DP  243178.  
+DA-18-00938 
+On 6 December 2018, Council granted development consent for ‘Bulk earthworks entailing cut and fill 
+across the site to facilitate suitable levels for a future built form ’. The approved earthworks have been 
+completed onsite to accommodate the subject proposed development.  
+DA-20-01387 
+On 23 December 2020, Council granted development consent for the ‘ Installation of 4 temporary 
+electricity kiosks for interim power supply for an approved data centre’.  
+[[page 15]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 5 
+DA-22-01312 
+On 14 March 2023, Council granted development consent for the ‘Construction of a substation and 
+associated works in line with the Concept Approval issued for the site under SPP-19-00013, for the use 
+by the approved data centre on the site’.  
+SPP-19-00013 
+On 6 May 2020, the Sydney Central City Planning Panel approved the Stage 1 construction of a data 
+centre building with carpark and a concept approval under section 4.22 of the Environmental Planning 
+and Assessment Act 1979  (EP&A Act) for a stage 2 expansion of the date centre into Building 2 and 
+associated substation.  
+The concept approval has been modified on one occasion.  
+MOD-21-00447 
+On 30 December 2021 , Council approved a modification to SPP-19-00013 for the inclusion of a 
+microscale data centre, development staging, reduction in the size of the future substation building 
+and additional car parking spaces.  
+ 
+ 
+ 
+  
+[[page 16]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 6 
+2 Project 
+2.1 Project overview  
+The key aspects of the project are provided in detail in the Project Description chapter of the EIS 
+and are outlined in Table 1. 
+Table 1 | Key aspects of the project  
+Aspect Description 
+Development 
+Summary 
+Construction and operation of a Data Centre with an operational capacity of 
+35.2  MW, including data hall fitout, associated plant and equipment, office space 
+and car parking  
+Project area 56,800 m2 
+Gross Floor Area (GFA) 9,225 m2 
+Building height 21.2 m data centre building (two floors) and 25 m generator exhaust flues 
+Power Consumption 35.2 MW 
+Water Consumption 18.9 mega litres per annum 
+Earthworks and civil 
+works 
+2,200 m3 of cut and 18,900 m3 of fill for final building levels 
+Ancillary 
+Infrastructure 
+The operation of the development would be supported by: 
+• Two feedlines to separate on-site substation 
+• 19 diesel emergency back-up generators 
+• 19 above-ground diesel fuel tanks for emerngency back-up generators with 
+a capacity of 18.24 kilolitre (kl), 1 above-ground diesel fuel tank for vehicle 
+fueling with a capacity of 40 kl and a total storage of 388.1 kl diesel fuel  
+• 19 dry-type transformers 
+• 68 evaporative cooling air handling units 
+• 100 exhaust air fan units 
+• 139,542 kilograms (kg) of lithium-ion batteries 
+[[page 17]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 7 
+Aspect Description 
+Parking and 
+manoeuvrability 
+6 car parking spaces, with a total of 70 site car parking spaces (stage 1 ) (including 
+4 disability parking spaces) and 6 shared bicycle parking spaces 
+Hours of operation 24 hours, 7 days 
+Construction 
+timeframe 
+The development would be constructed across the following stages: 
+• Phase 1 – Initial construction and preliminary fit-out (18 months) 
+• Phase 2 – Final fit-out (6 months) 
+Capital Investment 
+Value 
+$380,267,448 
+Employment 100 full-time equivalent construction jobs and 50 full-time operational jobs 
+2.2 Physical layout and design  
+The physical layout and design of the development is shown in Figure 4 to Figure 6. The data centre 
+presents as a two-storey structure. The building is surrounded by internal access roads and 
+landscaped areas, existing data centre buildings 1 and 1A, and existing approved site infrastructure.  
+The data centre floors comprise of a total of eight data halls and 27 mechanical plant rooms which 
+support the operation of the development. Office spaces are provided on each floor along the northern 
+element of the building. External plant including emergency back -up generators and diesel fuel 
+storage are located in self contained units  (generator yard) attached to the eastern fa çades of the 
+building. In addition, a loading dock is feature d on the ground floor level on the north-east corner of 
+the building.  
+The development is to be constructed primarily of pre -cast concrete panels and metallic fins and 
+louvres with a painted finish consisting of varying shades of grey. The external plant and equipment 
+in the generator yard are to be constructed of steel and pewter grey pre-finished metals.  
+All heavy and light vehicles accessing the site would enter via the existing entry and exit access points 
+located on Eastern Creek Drive adjacent to the stage 1 building including the existing car parking area. 
+An additional two-way access driveway has been provided to the north of the development on Eastern 
+Creek Drive to allow access for emergency vehicles, services vehicles and delivery vehicles . The 
+development additionally includ es an internal road providing circulation around the data centre 
+building.  
+[[page 18]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 8 
+ 
+Figure 4 | Site layout  
+ 
+
+[[page 19]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 9 
+ 
+Figure 5 | Ground Floor Plan  
+ 
+ 
+Figure 6 | Axonometric View  
+ 
+
+[[page 20]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 10 
+2.3 Uses and activities  
+The primary purpose of the development is for the collection, storage, processing and distribution of 
+electronic data in associated IT hardware by cloud and content providers or government entities (the 
+tenant/s).  
+The data centre opera tor will fit out the development’s data halls with its own computer systems, 
+server systems and networking equipment. This IT hardware would be stored in racks designed to 
+maximise the efficiency of the space. The data centre operator will then lease stora ge space within 
+these systems to its tenant/s.  
+The development would be cooled using a air free -cooling systems during colder months and 
+evaporative cooling air handling units (AH Us) located on each floor of the data centre. The cooling 
+system has been de signed to maintain a constant temperature within the data halls throughout the 
+year. The ancillary office space would be primarily used by on -site technicians, who would provide IT 
+support to external users and undertake regular maintenance as necessary.  
+Data centres also require sophisticated energy back-up systems to ensure the data centre operator’s 
+customers are always able to access their data. To this end, the development includes a system of 
+lithium-ion batteries and diesel back -up generators designed to minimise downtime during a power 
+outage event. The Applicant may also be directed to operate the back -up generator system by the 
+Australian Energy Market Operator (AEMO) to help prevent major blackouts from occurring across 
+the State’s electricity network.  
+The site is to be serviced by a 132 kilovolt (kV) transmission line to be connected to the future on-site 
+substation to the east of the development, subject to a separate development application. In the event 
+of a full power outage (both feeders ar e taken offline), lithium-ion batteries located in the data halls 
+would provide an uninterrupted power supply until the back-up generator system reaches load. Once 
+they have reached full load, diesel back-up generators would be used to provide continuous power to 
+the development until power has been restored by Endeavour Energy.  
+To ensure the development can function during a power outage event, the Applicant would also 
+undertake regular testing of each back-up generator. During certain tests, an artificial load would be 
+applied to the generators using an electrical switching devi ce. The test scenarios proposed are 
+detailed in Table 2  below. The generators are proposed to be tested during standard day time 
+operations, seven days a week. 
+  
+[[page 21]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 11 
+Table 2 | Generator Testing Regime  
+Total 
+generators 
+Test Loading Generators tested 
+simultaneously  
+Testing 
+frequency 
+Test duration 
+(minutes) 
+Test hours per year 
+19 
+No load 3 Fortnightly 2-5  
+162 70% 1 Quarterly 30  
+100%  1 Annually 60 -120 
+2.4 Applicant’s Need and Justification for the Development  
+The Applicant has justified the need for the development by highlighting the growing demand for 
+cloud-based data storage within Greater Sydney.  
+The data centre operator requires a number of sites throughout Sydney that are well -connected to 
+existing utility infrastructure, including power and optic fibre cabling. The development would help 
+the data centre operator to expand its presence within Greater Sydney, while also supporting the 
+ongoing demand for internet usage and data storage across the state.  
+In addition, the Applicant has advised the development would:  
+• be consistent with the site’s industrial zoning 
+• promote industry diversification and retention of existing industrial land 
+• generate additional employment opportunities in western Sydney, comprising approximately 100 
+full-time equivalent construction jobs and 50 knowledge-intensive operational jobs. 
+ 
+ 
+  
+[[page 22]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 12 
+3 Strategic context  
+3.1 Key strategic issues  
+The project is consistent with the strategies, plans and policies outlined in Table 3 below, and 
+therefore the Department considers it appropriate for the site. 
+Table 3 | Summary of government strategies, plans and policies  
+Strategy, plan or policy Consistency Comments 
+Greater Sydney Region 
+Plan 
+Consistent Objective 3 of the Region Plan notes that the city’s infrastructure 
+needs to be designed to adapt and transition in conjunction with 
+future technological changes and megatrends, such as 
+autonomous vehicles, faster internet connections and artificial 
+intelligence. By providing additional, flexible data storage 
+capacity within western Sydney, the development will support 
+this objective of the Region Plan.  
+Objective 22 highlights that attracting investment, business 
+activity and jobs in strategic centres acro ss Greater Sydney is 
+essential to improve access to a wide range of jobs, goods and 
+services close to people’s homes as part of the 30 -minute city. 
+As Strategy 22.1 separately notes, attracting new, diverse 
+business activities to future urban renewal precincts will support 
+the creation of additional job opportunities close to residential 
+areas. By providing new jobs within close proximity to the 
+Blacktown CBD, the development will support this objective and 
+its associated strategies.  
+Central City District 
+Plan 
+Consistent The development would assist in meeting Planning Priority C11 as 
+it would retain and improve the efficiency of industrial -zoned 
+land within western Sydney.  
+Blacktown Local 
+Strategic Planning 
+Statement 2020 
+Consistent The development would align with Local Planning Priority 9 of 
+the LSPS, as it would help to ensure existing industrial -zoned 
+land within the Eastern Creek area is retained and provided with 
+new, knowledge-intensive jobs.  
+  
+[[page 23]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 13 
+4 Statutory context 
+4.1 Permissibility and assessment pathway  
+Details of the assessment pathway under which consent is sought is provided in Table 4 below. 
+Table 4 | Permissibility and assessment pathway  
+Consideration Description 
+Permissibility Permissible with consent  
+• The site is zoned IN 1 – General Industrial (now known as E4 – General Industrial) 
+under the State Environmental Planning Policy (Industry and Employment)  2021 
+(Industry and Employment SEPP) . Under clause 2.31 of the State Environmental 
+Planning Policy (Transport and Infrastructure) 2021, development for the purpose of 
+a data storage premises may be carried out by any person with consent on the land 
+in an IN1 zone.  
+Assessment 
+pathway 
+State significant development  
+• The development is State significant development pursuant to section 4.36 of the 
+Environmental Planning and Assessment Act 1979 (EP&A Act) because it involves the 
+construction and operation of a data centre with a total power consumption of more 
+than 1 5 MW, which meets the criteria in Clause 25 of Schedule 1 in State 
+Environmental Planning Policy (Planning Systems) 2021 (Planning Systems SEPP).  
+Consent authority Independent Planning Commission  
+• The Independent Planning Commission (the Commission)  is the declared consent 
+authority under section 4.5(a) of the EP&A Act and section 2.7(1) of the Planning 
+Systems SEPP. 
+• The Commission is designated as the consent authority for the development under 
+section 4.5 of the EP&A Act and section 2.7 of the Planning Systems SEPP because 
+Council had duly made an objection in accordance with the EP&A Act. 
+• No public submissions were received on the development and no reportable political 
+donations were made by the Applicant in the last two years. 
+ 
+[[page 24]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 14 
+Consideration Description 
+Decision Maker  Executive Director  
+• On 14 June 2022, the Chair of the Commission delegated the functions to determine 
+SSD applications to the  Executive Director, Energy, Resources and Industry 
+Assessments where:  
+- the application has not already been referred by the Planning Secretary to the 
+Comission for the determination as at the date of the delegation; 
+- the application is for SSD for which the Commission is declared to be the consent 
+authority only by operation of  Section 2.7(1)(a) of the Planning Systems SEPP ; 
+and 
+- Council has advised in writing to the Department that i ts objection has been 
+resolved.  
+• While Council originally objected to the SSD application, Council advised the 
+Department in writing on 19 March 2024 that it has  withdrawn its objection to the 
+development. 
+• Accordingly, the application can be determined by the Executive Director, Energy, 
+Resources and Industry Assessments, under delegation. 
+4.2 Other approvals and authorisations  
+Should development consent be granted, other approvals may be required to carry out the 
+development. Section 4.42 of the EP&A Act lists a number of approvals that cannot be refused if 
+required to carry out the development and that must be given in a manner  that is substantially 
+consistent with any development consent. 
+In the case of the proposed development, there are no additional approvals required. However, t he 
+Department has consulted with and considered the advice of the relevant public authorities in its 
+assessment of the development and included suitable conditions in the recommended consent. 
+4.3 Mandatory matters for consideration  
+4.3.1 Matters of consideration required by the EP&A Act 
+Section 4.15 of the EP&A Act sets out matters to be consider ed by a consent authority when 
+determining a development application. The Department’s consideration of these matters is shown in 
+Table 5 below. 
+[[page 25]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 15 
+Table 5 | Matters  for consideration  
+Matter for consideration Department’s assessment 
+Environmental planning 
+instruments, proposed 
+instruments, development 
+control plans & planning 
+agreements 
+Appendix C  
+EP&A Regulation Appendix C  
+Likely impacts Section 6 - Assessment 
+Suitability of the site Section 1.3 - Project background, Section 3 - Strategic Context and 
+Section 6 - Assessment 
+Public submissions Section 5 - Engagement & Section 6 - Assessment 
+Public interest Section 5 - Engagement, Section 6 - Assessment & Section 7 - Evaluation 
+4.3.2 Objects of the EP&A Act  
+In determining the application, the consent authority should consider whether the project is consistent 
+with the relevant objects of the EP&A Act (s 1.3) including the principles of ecologically sustainable 
+development. Consideration of those factors is described in Appendix C . 
+As a result of the analyses in  Appendix C , the Department is satisfied  that the development is 
+consistent with the object s of the EP&A Act and the principles of ecologically sustainable 
+development (ESD). 
+4.3.3 Biodiversity development assessment report  
+Section 7.9(2) of the Biodiversity Conservation Act 2016  (BC Act) requires all SSD applications to be 
+accompanied by a Biodiversity Development Assessment Report (BDAR) unless the Planning Agency 
+Head and the Environment Agency Head determine that the project is not likely to have any significant 
+impact on biodiversity values (as identified in the BC Act and in the Biodiversity Conservation Regulation 
+2017). 
+A BDAR waiver request was submitted to the Department on July 2022. The Environment Agency Head 
+and the Director , Industry Assessments as delegate of the Planning Secretary, determined that the 
+development is not likely to have any significant impact on biodiversity values. A BDAR waiver was 
+granted on 29 February 2024.  
+[[page 26]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 16 
+4.4 Matters of Nation al Environmental Significance  
+Under the Environment Protection and Biodiversity Conservation Act 1999  (EPBC Act), assessment and 
+approval is required from the Commonwealth Government if a development is likely to impact on a 
+matter of national environmenta l significance (MNES), as it is considered to be a ‘controlled action’. 
+The EIS for the development included a preliminary assessment of the MNES in relation to the 
+development and concluded the development would not impact on any of these matters and is 
+therefore not a ‘controlled action’. As such, the Applicant determined a referral to the Commonwealth 
+Government was not required.  
+  
+[[page 27]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 17 
+5 Engagement  
+5.1 Exhibition of the EIS  
+The Applicant, as required by the Planning Secretary’s Environmental Assessment Requirements 
+(SEARs), undertook consultation with relevant local and State authorities as well as the community 
+and affected landowners. The Department undertook further consultation with these stakeholders 
+during the exhibition of the EIS and throughout the assessment of the application. These consultation 
+activities are described in detail in the following sections. 
+5.1.1 Public exhibition of the EIS 
+After accepting the development application and EIS, the Department: 
+• publicly exhibited the project from 8 June 2023 until 5 July 2023 on the Major Projects portal 
+• notified occupiers and landowners in the vicinity of the site about the public exhibition by letter 
+• notified and invited comment from relevant government agencies and council name. 
+During the exhibition p eriod, the Department received a submission from Blacktown City Council 
+(Council) and advice from five government agencies . No public submissions from individuals and/or 
+special interests groups were received by the Department during the exhibition period.  
+5.1.2 Summary of advice received from government agencies 
+The Department received advice from five government agencies on the EIS.  
+A summary of the agency advice is provided in Table 6. A link to the full copy of the advice is provided 
+in Appendix C . 
+Table 6 | Summary of agency advice  
+Agency Advice summary 
+NSW 
+Environment 
+Protection 
+Authority 
+(EPA) 
+EPA reviewed the EIS and advised it has no comment on the SSDA as the development does 
+not constitute a Scheduled Activity under Schedule 1 of the Protection of the Environment 
+Operations Act 1997  ( P O E O  A c t ) ,  i s  n o t  b e i n g  u n d e r t a k e n  b y  o r  o n  b e h a l f  o f  a  N S W Public 
+Authority, and the site is not regulated by the EPA under the Contaminated Land Management 
+Act 1997 (CLM Act). 
+[[page 28]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 18 
+Agency Advice summary 
+Transport for 
+NSW 
+(TfNSW) 
+TfNSW raised no objections to the development  subject to recommended conditions of 
+consent. TfNSW provided recommended conditions of consent relat ing to the preparation of 
+a Construction Traffic Management Plan (CTMP), Green Travel Plan (GTP) , and obtaining a 
+Road Occupancy Licence (ROL) for any construction works that may impact on Old Wallgrove 
+Road traffic flows.  
+The then 
+Biodiversity 
+and 
+Conservation 
+Division 
+(BCD) 
+The then BCD (now the Biodivesity, Conservation and Science group of the Department of 
+Climate Change, the Environment, Energy and Water)  reviewed the EIS and raised no 
+objections to the development. However, BCD provided advice requesting the flood risk 
+assessment to assess overland flow for events larger than the 1% AEP up to and including the 
+probable maximum event.  
+Fire and 
+Rescue NSW 
+(FRNSW) 
+FRNSW raised no objections to the development in its advice. FRNSW provided 
+recommendations including the preparation of a Fire Safety Study (FSS) , Emergency Plan 
+based on the findings of the FSS and an Emergency Services Information Package (ESIP).  
+Sydney 
+Water 
+Sydney Water raised no objections to the development and provided standard 
+recommendations regarding Compliance Certificates, building plan approval, water servicing 
+and wastewater servicing.  
+5.1.3 Summary of council submissions 
+Blacktown Cit y Council  initially objected to the development , raising concern regarding the 
+consistency of the building design with the concept approval including building height and fill. Council 
+additionally raised concern for  visual screening  from Old Wallgrove Road , cumulative car parking 
+numbers, total site landscaping and insufficient drainage and water quality information.  
+5.2 Response to submissions  
+Following the public exhibition period, the Department requested the Applicant to respond to the 
+issues raised in submissions and the advice received from government agencies. The  Applicant 
+provided a Response to S ubmissions (RTS) report to the Department on 19 Sept ember 2023  (see 
+Appendix A ). The submissions report was accompanied by an updated Acoustic Design Report, staff 
+car parking calculations, updated architectural and design plans, stormwater modelling and technical 
+note.  
+The Department published the submissions report on the NSW planning portal and forwarded the RTS 
+to relevant government agencies and local council(s) for comment.  
+[[page 29]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 19 
+5.2.1 Summary of agency advice on submissions report 
+Further advice was provided from BCD and Blacktown City Council on the submission report. A 
+summary of the advice is provided in Table 7 . A link to the full copy of the advice is provided in 
+Appendix C . 
+Table 7 | Advice on submissions report  
+Agency Advice summary 
+Council Council reviewed the submissions report and retained its objection requesting 
+further clarification on total site car parking numbers, revised setbacks, site 
+landscaping and visual screening.  
+BCD BCD reviewed the submissions report and advised it is satisfied the Applicant has 
+adequately addressed its previous comments relating to flood assessment issues.  
+5.3 Request for further information  
+On 29 September 2023 , the Department requested the Applicant to provide further information to 
+provide an updated Air Quality Impact Assessment  (AQIA) which addresses applicable limits, 
+performance criteria and methods of the EPA’s ‘Approved methods for the modelling and assessment 
+of air pollutants’ 2022 (EPA Approved Methods). 
+Additional information was also requested on 17 October 2023, in relation to visual impacts including 
+the consideration for redesign or additional screening of the proposed generator flues and plant on 
+the eastern façade of the development.  
+On 30 October 2023, the Applicant submitted an updated AQIA prepared in accordance with the EPA 
+Approved Methods 2022.  
+On 12 December 2023, the Applicant submitted additional information which included additional 3D 
+visual renders of the generator flues  featuring additional visual mitigation, additional vegetation 
+screening, car park layout with supporting staff numbers and demonstration of total site landscaping.  
+Council reviewed the additional information and advised it was satisfied with the additional 
+information in respesct to additional visual mitigation and vegetation screening of the generator flues. 
+However, Council maintained its objection in respect to total site landscaping and consistency with 
+the concept approval.  
+On 6 March 2024, the Applicant provided an addendum response which provided median strip 
+planting on-site to demonstrate consistency with the concept approval.  
+Council reviewed the addendum response and on 19 March 2024 confirmed that Council’s issues had 
+now been satisfied and formally withdrew its objection on the development.  
+[[page 30]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 20 
+6 Assessment  
+The Department has considered the EIS, the issues raised in the submissions, the Applicant’s 
+submission report  and supplementary information in its assessment of the development. The 
+Department considers the key assessment issues are air quality, noise, and design and visual impacts.  
+A number of other issues have also been considered. These issues are considered to be relatively 
+minor and are assessed in Table 6  under Section 6.5. 
+6.1 Air Quality  
+The construction and operation  of the development ha s the potential to result in air quality impacts 
+to surrounding sensitive receivers. The development is anticipated to generate the following 
+emissions: 
+• particulate matter and dust emissions generated during demolition and construction works 
+• exhaust emissi ons associated with the testing and operation of the development’s back- up 
+generator system.  
+The Applicant provided an AQIA which was prepared in accordance with the EPA Approved Methods 
+2017. The Department requested the AQIA to be updated to be prepared  in accordance with the EPA 
+Approved Methods 2022. In addition, the Department requested the AQIA to assess the cumulative 
+pollution emissions from the already approved Stage 1 Building 1 and 1A, against standard and worst-
+case operating scenarios.  
+The Applicant subsequently provided an updated  AQIA to address the Department’s comments. The 
+updated AQIA  provides an assessment of potential air quality impacts at representative sensitive 
+receivers surrounding the site (see Figure 7), including a mix of residential, industrial and commercial 
+receivers. 
+[[page 31]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 21 
+ 
+Figure 7 | Receiver Locations  
+6.1.1 Construction Impacts 
+Construction of the development would be carried out across a period of 24-months, over two phases.  
+The updated AQIA found that the sensitivity of the surrounding area to dust and particulate emissions 
+impacts during construction would be low, further noting the closest residential receivers to be 1.6 
+km south of the site boundary . The updated AQIA concluded that subject to the implementation of 
+standard construction mitigation measures as part of a Construction Environmental Management 
+Plan (CEMP) such as dust suppression, sediment and erosion f encing and cover and containment of 
+stockpiles and trucks, the development would have negligible construction air quality impacts.  
+The Department has reviewed the updated AQIA and is satisfied air emissions associated with the 
+construction of the developm ent, including demolition, would be minimal subject to the preparation 
+and implementation of a CEMP containing standard construction mitigation measures.  
+
+[[page 32]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 22 
+The Department has recommended conditions of consent requiring the Applicant to prepare and 
+implement a CEMP for the duration of construction and to take all reasonable steps to minimise the 
+generation of dust.  
+6.1.2 Operation Impacts 
+The updated AQIA identified key pollutants associated with the operation of the development to be 
+nitrogen dioxide (NO 2) and particulate matter (PM 2.5 and PM 10). Other pollutants assessed include 
+carbon monoxide (CO), sul fur dioxide (SO 2), Benzene and Polycyclic Aromatic Hydrocarbon (PAH). 
+These pollutant emissions are associated with the combustion of diesel fuel by the back -up 
+generators.  
+The updated AQIA considered the development’s potential air quality impacts against two operating 
+scenarios being: 
+• Scenario 1 – ‘Worst case’ operating scenario – All back-up generators (19) operating concurrently 
+under a 100% load during a critical power outage event  
+• Scenario 2 – Standard testing operations – Three generators operating concurrently at no load 
+(conservatively assumed 10% load) for 15 minutes, and one generator operating under a 100% load.  
+The updated AQIA noted the likelihood of a worst case scenario occurring is highly unlikely and would 
+only occur for a short period of time. Therefore, the updated AQIA deemed it only necessary to assess 
+the scenario 1 pollutants against short-term criterion, being averaging periods of 24 hours or less.  
+The updated AQIA’s modelling of scenario 1 indicated cumulative exceedances of the NO 2 pollutant 
+criterion over a 1-hour averaging period at all but four receiver locations (R1, R2, R3 & R5) assessed , 
+exceeding the criterion of 164 micrograms per cubic meter ( µg/m3) at one commercial receiver (C5) 
+with a predicted cumulative concentration of 589.5 µg/m 3 (259% exceedance), a concentration of 
+382.1 µg/m3 (133%) at one industrial receiver ( I2) and a concentration of  204.8 µg/m3 (25%) at one 
+residential receiver (R8). The updated AQIA additionally identified the development would comply 
+with the PM2.5 and PM10 criterion at all but two commercial receivers (C4 & C5) for PM2.5 over a 24-hour 
+averaging period.  
+All other pollutants assessed against the worst case operating scenario demonstrated compliance 
+with the relevant pollutant criteria, with the exception of minor exc eedances of the SO 2 criteria at 
+three commercial receivers (C2, C3 and C5).  
+The modelling of scenario 2 predicted no exceedances of the relevant assessment criterion for NO2, 
+PM2.5 and PM10, CO, SO2, Benzene and PAH pollutants at all assessed receiver locations. The updated 
+[[page 33]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 23 
+AQIA concluded that the development including, generator maintenance testing would not 
+significantly impact on air quality.  
+The Department notes the development under standard operations described as scenar io 2, is 
+predicted to comply with the relevant pollutant emissions criterion at all receivers for all pollutants.  
+The Department considers the development could potentially present significant air quality impacts 
+under the conservative worst case operating scenario defined as scenario 1. However, the Department 
+accepts that the likelihood of a critical power outage event requiring the simultaneous operation of 
+all 19 emergency back-up generators for a period greater than the 1 hour averaging period assessed, 
+would be highly unlikely.  
+Nonetheless, the Department recommends conditions of consent requiring annual emissions testing 
+and reporting, and the reporting of emergency back -up generators operation subsequent to  any 
+power outage event in which they are operational. The Department considers that emissions testing 
+and reporting will ensure th at maintenance and monitoring of the emergency back -up generator s 
+performance are adequate and capable of managing pollutant emissions. Furthermore, reporting will 
+allow for opportunity to identify any  further mitigation measures to be implemented to reduce 
+emissions.  
+In addition, the Department has recommended a condition of consent requiring the Applicant to 
+prepare and implement an emissions monitoring procedure which describes the procedure for 
+monitoring emissions in accordance with the EPA’s Approved Methods 2022, measures to be 
+implemented to minimise the duration of power outage events and actions to be undertaken in the 
+event of any exceedances to the pollutant emissions criterion. A condition has also been 
+recommended for the preparation and implementation of a  power outage notification protocol 
+describing the steps that will be taken to notify neighbouring properties in the event of a power 
+outage event exceeding 30 minutes in duration.  
+6.1.3 Conclusion  
+The Department’s assessment concludes the air emissions associ ated with the construction of the 
+development would be minimal and will be appropriately managed through the preparation of a CEMP 
+and the implementation of reasonable steps to minimise dust generation.  
+In addition, the Department’s assessment concludes the Applicant has sufficiently demonstrated that 
+proposed standard operations of the development will have an acceptable cumulative impact on air 
+quality and is in compliance with the relevant emissions pollutant criterion. 
+Furthermore, the Department accep ts the likelihood of a critical power outage event to be highly 
+unlikely and the potential impacts of such an event can be appropriately managed through the 
+recommended conditions of consent including the testing of emissions performance, pollutant 
+[[page 34]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 24 
+monitoring and the continual implementation of management and mitigation measures to further 
+reduce pollutant emissions throughout the life of the development.  
+Therefore, the Department is satisfied that subject to the implementation of the recommended 
+conditions and management measures, the construction and operation of the development would not 
+result in unacceptable air quality impacts on surrounding receivers.  
+6.2 Noise Impacts  
+The construction and 24 -hour operation of the development has the potential to emit n oise and 
+vibration, which could impact on the acoustic amenity of the surrounding area.  
+The development would involve the construction of a two -storey data centre building with ancillary 
+office space across a 24-month period. Working hours are proposed be tween 7:00am and 6:00pm 
+Monday to Friday, between 8:00am and 1:00pm on Saturday and no works on Sundays or public 
+holidays in line with the standard construction hours in the EPA’s Interim Construction Noise Guideline 
+(ICNG) (DECC, 2009).  
+The development’ s main operational noise sources include the water cooled chillers, hybrid dry 
+coolers and emergency back -up generators. Other sources of operational noise include vehicle 
+movements to and from the site and manoeuvring around the site.  
+The EIS included a Noise and Vibration Impact Assessment (NVIA)  prepared by the Applicant, which 
+considered both construction and operational noise impacts . During consultation on the EIS, no 
+comments were made regarding noise impacts by Council in its advice.  
+The Department requested the Applicant provide further information including  the cumulative 
+assessment of approved Buildings 1, 1A and substation on-site. In addition, the Department requested 
+that assessment of generator testing during the night-time period be provided.  
+The Applicant subsequently provided a separate Acoustic Report to assess cumulative and night-time 
+operational impacts at the receiver locations identified in Figure 8.  
+[[page 35]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 25 
+ 
+Figure 8 | Assessed Receiver Locations  
+6.2.1 Construction Impacts 
+The NVIA noted the primary construction activities of the development include site establishment and 
+excavation, foundations, pavement and road works , building construction  and plant installation and 
+connection.  
+Major plant and equipment to be used during the construction of the development would include 20 
+tonne (t) trucks, 30 t excavators, jack hammer, grader, concrete pumps and power hand tools.  
+The acoustic report modelled the predicted noise generation for each construction stage and 
+compared it against the standard construction hours Noise Management Levels (NMLs) for sensitive 
+receivers applied in accordance with the ICNG. The acoustic report predicted that construction noise 
+would be below the NML criteria at all residential receivers assessed , however there would be 
+exceedances to the NMLs at adjacent commercial and industrial receivers  of up to 10 dB if 
+unmitigated. The NIA noted the predictions were conservative and do not represent constant noise 
+emissions that would be experienced on a daily basis but during site establishment, foundation and 
+pavement works only. 
+The NVIA concluded that noise management measures should be implemented for the construction 
+of the development and detailed in a Construction Noise Management Plan (CNMP) . Recommended 
+noise management measures to reduce construction noise include location of plant and equipment 
+
+[[page 36]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 26 
+away from boundaries, use of site sheds and temporary noise enclosure structures, use of low- noise 
+construction equipment and the undertaking of consultation with adjacent landowners and occupiers 
+to notify of scheduled works.  
+The EPA and Council raised no concerns regarding construction noise impacts in its advice during the 
+exhibition period. 
+The Department has considered the information supplied by the Applicant and is satisfied 
+construction noise impacts of the development would be minimal on residential receivers. The 
+Department is additionally satisfied that the implementation of mitigation and management measures 
+to reduce construction noise impacts will have an acceptable impact on surrounding commercial and 
+industrial receivers.  
+To ensure construction noise  is appropriately managed in accordance with the ICNG and the 
+Applicant’s predictions, the Department has recommended conditions requiring the preparation and 
+implementation of a CNVMP. 
+6.2.2 Operation Impacts 
+The NVIA provided a quantitative assessment of operational noise impacts, including noise associated 
+with the proposed cooling system and the testing of back- up generators. The acoustic report 
+modelled the development’s operations under two standard operational scenarios and one worst case 
+emergency scenario as follows:  
+• Standard Full Load Operational Scenario: all hybrid dry coolers, water cooled chillers operating at 
+100% load, and one generators operating at 100% load; 
+• Standard No Load Operational Scenario: all hybrid dry coolers and water cooled chillers operating 
+at 100% load, and three generators operating at no load; and 
+• Emergency Scenario: all hybrid dry coolers, water cooled chillers and generators operating at 
+100% load during a critical power failure event.  
+The acoustic report applied an amenity noise criterion to identified receiver types including 
+residential, commerical and industrial receivers in accordance with the NPfI for day, evening and night 
+periods.  
+The acoustic report modelled the predicted noise emissions of the development’s standard operations 
+during noise-enhancing meteorological conditions against the relevant amenity noise criterion . The 
+modelling included the cumulative noise from previously approved Building 1, Building 1A and the site 
+substation. The modelling  assessed the development against the night -time noise criterion , to 
+demonstrate that total site operations would achieve compliance at all receivers assessed during 
+each time period. The Acoustic Report justified that compliance with the night-time criteria assumed 
+[[page 37]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 27 
+the development’s compliance with the day and evening noise criteria as the night-time criteria is the 
+most stringent. The highest predicted noise impacts at any one receiver for each receiver typology is 
+outlined in Table 8.  
+Table 8 | Standard Operations – Predicted Noise Levels  (Night-time) 
+Receiver Type 
+Criterion (dBA) Predicted Noise levels (dBA) 
+Night-time Full Load  No Load  
+Residential  38 38 38 
+Commercial  63 61 61 
+Industrial  68 68 60 
+The Acoustic Report additionally modelled the worst -case emergency scenario against the project 
+amenity noise criterion to simulate a critical power -failure event. The acoustic report predicted the 
+development would maintain compliance with the relevant project amenity noise criterion at all 
+receiver locations assessed over a 15-minute averaging period. As previously noted by the Applicant, 
+the likelihood of a critical power outage event requiring 100% load of all supporting plant and 
+equipment is highly unlikely to occur and, in any event, of limited duration.  
+The Acoustic Report recommended the implementation of acoustic attenuators on the air handling 
+unit plant room, building envelope minimum concrete thickness, sealing of louvres, attenuators , duct 
+apertures and pen etrations. The Acoustic Report concluded the broader site can comply with the 
+relevant noise criterion at all receiver locations during all assessed operating scenarios.  
+The EPA raised no concerns regarding operational noise impacts in its advice during t he exhibition 
+period. The Department has considered the Applicant’s assessment and is satisfied the operation of 
+the development will comply with the relevant project amenity noise criteria established in 
+accordance with the NPfI. Further, the Department considers the mitigation measures identified in the 
+acoustic report to be adequate in reducing the potential noise emissions of the development’s 
+operations.  
+To ensure potential noise and air quality impacts associated with the back -up generator system are  
+appropriately managed (refer to relevant air quality section), the Department has recommended 
+conditions of consent be imposed to ensure generators are only tested in accordance with the 
+proposed testing regime.  
+The Department notes that night-time generator testing can achieve compliance with the night -time 
+noise criteria at residential receive rs. However, to ensure the development is operated in a manner 
+that is compliant with the noise limits  during all periods and given the Applicant has only assessed  
+[[page 38]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 28 
+the predicted compliance of the development during the night -time period , the Department has 
+recommended a condition requiring the Applicant to submit an operational noise verification report 
+within three months of the commencement of operation of the dat a centre for each stage and once 
+fully operational, to verify the predicted noise impacts and confirm the developments compliance with 
+the prescribed noise limits . Should any unforeseen noise impacts be identified during the noise 
+verification study, the Applicant would be required to implement additional noise management and 
+mitigation measures to address exceedances of the noise limits including the restriction of generator 
+testing during the night-time period.  
+6.2.3 Conclusion  
+The Department’s assessment concludes noise impacts associated with the construction of the 
+development are acceptable and can be appropriately managed through the preparation and 
+implementation of a CNVMP in conjunction with standard construction hours.  
+In addition, the Departmen t also considers the Applicant’s updated acoustic report is conservative 
+and that operational noise generated by the development will comply with the relevant requirements 
+of the NPfI. The Department has recommended a number of conditions to ensure the dev elopment is 
+operated in accordance with the assumptions made in the acoustic report and the Applicant’s 
+mitigation measures.  
+Subject to the implementation of these conditions, the Department is satisfied the construction and 
+operation of the development would not result in unacceptable noise impacts to surrounding sensitive 
+receivers.  
+6.3 Design and Visual Impacts  
+6.3.1 Background 
+The bulk and scale of the development has the potential to have significant impacts on the visual 
+amenity and urban character of the loc ality. The  development site is located within an expanding 
+industrial area of  Eastern Creek, consisting primarily of warehousing and distribution centres, and 
+light industries. The development site is subject to a Stage 1 data centre building approval (Bui lding 
+1) and concept approval for the Stage 2 data centre building (Building 2)  and substation. The 
+development has been designed to be consistent with the Stage 2 concept approval for Building 2 
+and is similar in bulk and scale to the approved Building 1 (see Figure 9).  
+The development is orientated towards the intersection of Old Wallgrove Road, being an arterial road 
+and Eastern Creek Drive, presenting key viewpoints from the immediate vicinity of the i ntersection 
+and Old Wallgrove Road. Nearest residential receivers are located 1.6 km south in Horsley Park, 1.7 
+[[page 39]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 29 
+km north in Minchinbury and 2.5 km west in Erskine Park, which feature no vantage points or sightlines 
+to the development.  
+ 
+ 
+Figure 9 | Bulk and Scale Comparison  
+During the exhibition of the EIS, Council and the Department raised concerns with the bulk, design 
+and presentation of the generator yard and exhaust flues onto Old Wallgrove Road . The Applicant 
+met with Council and the Department to discuss redesign and vegetation screening options to address 
+the visual presentation of the development . The Applicant subsequently submitted additional 3D 
+renders, updated Landscape and Visual Impact Assessment (LVIA) and landscaping plans  which 
+demonstrated additional vegetation screening from Old Wallgrove Road and treatment of generator 
+exhaust flues with green tonal panels.  
+6.3.2 Design, Bulk and Scale 
+The development is to consist of a two-story building with a maximum building height of 21.2 m and 
+an overall length of approximately 135  m. The development features plant and equipment gantry 
+along the eastern and western sides of the development which ar e contained behind metal profile 
+cladding consisting of generator louvres and galvanised mesh screening. Plant and equipment such 
+as AHUs are also located on the rooftop level and are covered by a metal profile canopy. The data 
+centre has been orientated n orth to south in a staggered order to respond to the site ’s profile and 
+topography and to position offices towards the street frontage.  
+The external colour finish of the development consists of shades of grey  typical of industrial 
+development and features vertical blades on the front façade of the development addressing Eastern 
+Creek Drive . The sides and rear generator yard feature pre -cast concrete and metal panels. The 
+generator flue stacks have incorporated green tonal elements to provide a soft transit ion and 
+blending of plant and equipment with landscaped screening along the boundaries of the site (see  
+Figure 10).  
+
+[[page 40]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 30 
+ 
+Figure 10 | Landscape Screening from View Point 11  
+The Applicant considers the proposed built form is typical of data centres throughout the Sydney 
+Metropolitan Region and is consistent with other industrial development throughout the Bla cktown 
+LGA. The EIS states that the proposed height and scale of the development are in response to market 
+trends and operational requirements for data centres including high floor to ceilings heights to 
+accommodate operational equipment and allow for improved airflow and temperature regulation.  
+6.3.3 Visual Assessment  
+The updated LVIA included photomontages from 12 viewpoints to assess the potential visual impact 
+of the development on the immediate locality . The selected viewpoints  provide various perspectives 
+and locations along Eastern Creek Drive and Old Wallgrove Road (see Figure 11 & Figure 12). 
+The LVIA considered the development would not be out of place with the existing and future character 
+of the surrounding industrial area due to the compatibility of the built form and scale and would have 
+an acceptable visual impact on direct visual receptors including road users. The LVIA also noted that 
+the development would be suitably screened by the proposed and exsiting landscaping along Old 
+Wallgrove Road. The Applicant’s Design Report  additionally notes the development has been 
+designed to integrate corrugated façade treatment typical of industrial development in the area and 
+consistent with the scale and typology of development within precinct.  
+
+[[page 41]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 31 
+ 
+ 
+Figure 11 | View Point Locations  
+ 
+
+[[page 42]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 32 
+ 
+Figure 12 | View Point 8  
+6.3.4 Department’s Consideration 
+The Department has considered the updated plans, LVIA and design report in conjunction with the 
+advice provided by Council in its assessment. Council advised the proposed amendments to 
+vegetation screening and the incorporation of additional fa çade treatment options to the generator 
+flues were acceptable in mitigating the development's visual impact on the locality.  
+The Department notes façade treatment options includ ing vertical blade elements and varying 
+materials have been incorporated to provide articulation and mitigate the bulk and scale of the 
+development on the street frontage interface. The Department also considers additional landscaping 
+proposed along site boundaries  will provide improved vegetation screening of the development, 
+particularly plant and equipment to the rear of the development, which will mitigate visual impacts on 
+the dual street frontages.  
+The Department considers the bulk and scale of the development is consistent with data centre 
+typology and intensive warehousing and distribut ion facilities that are prevalent within the locality , 
+and is consistent with approved Building 1 and Building 1A data centre built forms . The Department 
+notes the size of the development is reflective of the objective to supply the Sydney metropolitan 
+area’s growing demand for data centre infrastructure.  
+
+[[page 43]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 33 
+Overall, t he Department is satisfied the development is unlikely to have any impacts of regional 
+significance on visual amenity due to the distance of sensitive receivers and height and sc ale of the 
+development being consistent with the surrounding industrial and commercial built form  within the 
+Eastern Creek industrial precinct . Furthermore, the Department acknowledges adjacent industrial 
+and commercial development and nearby road users to be the direct visual receivers impacted by the 
+development which would have minimal visual impact considering the exting industrial and 
+commcercial character of the locality. 
+The Department also notes Council has been satisfied with the additional landscaping provided along 
+the Old Wallgrove Road frontage and has recommended conditions of consent relating to street tree 
+planting.  
+The Department has recommended a condition of consent requiring the Applicant to prepare and 
+implement a Landscape Management Plan (LMP) for the life of the development, including details of 
+maintenance and management measures for the proposed landscaping to ensure adequate 
+vegetation screening of the development is maintained.  
+The Department’s assessment concludes th e development will have an acceptable impact on visual 
+amenity on the locality with consideration to the distance from sensitive receiver locations, façade 
+and design treatment measures incorporated , design and built form consistency with approved 
+structures on -site, and the existing industrial and commercial character of  the locality . Moreover, 
+visual impacts on immediate receivers including roadusers of Wallgrove Road can be appropriately 
+managed through the recommended conditions of consent.  
+ 
+[[page 44]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 34 
+6.4 Other issues  
+The Department’s consideration of other issues is summarised in Table 9 below. 
+Table 9 | Assessment of other issues  
+Issue Findings and conclusions Recommended 
+conditions 
+Traffic  • The development would primarily generate light vehicle movements 
+from staff trips, delivery and servicing vehicles, which may impact on the 
+efficiency of the surrounding road network.  
+• The Applicant provided a Traffi c and Transport Technical Report (TTTP) 
+to describe the impacts of traffic generation on key intersections.  
+• The TTTP conservatively predicted the development would generate a 
+maximum of 69 vehicles  per day , including 50 light vehicles for 
+employees, 10 light vehicles for visitors and 9, 19 m Articulated Vehicles 
+(AVs) for servicing and maintenance.  
+• The TTTP undertook SIDRA modelling of the Old Wallgrove Road and 
+Eastern Creek Drive intersection utilising traffic survey data. The 
+modelling demonstrated the intersection currently operates with an A 
+Level of Service (LoS) during the AM and PM peak periods.  
+• The TTTP further modelled the cumulative traffic impacts of the 
+development, which considered the traffic generation of the approved 
+Buildings 1 and 1A. The modelling demonstrated the intersection would 
+continue to perform at an A LoS during the AM period but would reduce 
+to a B LoS during the PM period.  
+• The modelling also indicated the duration of delay at the intersection 
+during the PM period would only be increased by 3 seconds to a to tal of 
+16 seconds, representing a minor increase in intersection delay.  
+• The TTTP also provided an assessment of contruction traffic impacts 
+which identified a maximum of 75 construction vehicles including 18 
+heavy vehicles, would be generated per day during construction.  
+• The TTTP modelled the cum ulative construction traffic impacts of the 
+development which considered the traffic generation of Build ings 1 and 
+1A onsite. The modelling demonstrated the intersection would have a LoS 
+B during both the AM and PM peak periods.  
+• TfNSW and Council reviewed the EIS and TTTP and did not raise any 
+concerns about traffic impacts. Council and TfNSW noted the 
+requirement for a Construction Traffic Management Plan (CTMP) and 
+Green Travel Plan (GTP) to be prepared.   
+Require Applicant to: 
+• Prepare and 
+implement a CTMP 
+and GTP 
+[[page 45]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 35 
+Issue Findings and conclusions Recommended 
+conditions 
+• The Department has considered the TT TP and advice from TfNSW and 
+Council and concludes the development would result in minor additional 
+movements and would not adversely impact on the performance of the 
+surrounding road network.  
+• The Department recommends conditions for  managing operational 
+traffic movements an d the requirement to prepare and implement  a 
+CTMP and GTP to manage construction vehicle impacts  on the road 
+network. 
+• With these conditions in place, the Department’s assessment concludes 
+the development would not adversely impact on the safety and efficiency 
+of the surrounding road network. 
+Parking • The concept and stage 1 approval permitted a total of 64 carparking 
+spaces on -site for the total site operations , including 28 spaces for 
+Building 1, 4 spaces for Building 1A and 32 spaces for Building 2 being 
+the subject development.  
+• However, the TTTP determ ined that an additional 4 car parking spaces 
+would be required t o accommodate the parking demands of staff . That 
+is, the Applicant has determined that a maximum of 36 of its 50 staff 
+would be present on site at any one time. Additionally, a further 2 spaces 
+would be required to accommodate the up to 2 site visitors per hour.  This 
+would result in a total of 6 additional spaces over that originally 
+determined under the concept. 
+• Council reviewed the EIS and TTTP and raised concern with the amount 
+of car parking provided for the entire site. Council noted the provisions 
+of the Eastern Creek Precinct Plan requires a total of 84 car parking 
+spaces for the development based on applicable GFA rates.  
+• The Applicant provided additional information in its RtS including further 
+staff and car parking calculations, and  an indicative staff roster to 
+demonstrate the approved and proposed car parking was suitable for the 
+maximum number of staff at the site, at any one given time.   
+• Council advised its issues had been sufficiently addressed and 
+recommended a condition of consent requiring the Applicant to provide 
+6 car parking spaces in addition to the existing concept approval.  
+• The Department has considered this issue in the context of the proposed 
+data centre use and considers the Applicant’s TTTP adequately 
+demonstrates that with the additional 6 spaces over that proposed in the 
+concept approval, appropriate car parking provisi on have been made to 
+accommodate the demands of the development.  
+Require the Applicant 
+to provide a total of 64 
+carpakring spaces on -
+site.  
+[[page 46]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 36 
+Issue Findings and conclusions Recommended 
+conditions 
+• Furthermore, the Department considers the provision of car parking to be 
+consistent with the number provided in the original concept approval and 
+the Council’s recommended condition can be appropriately captured 
+through the approved plans and standard conditions of consent.  
+• The Department’s assessment concludes the development incorporates 
+adequate parking spaces to manage the peak demand on site. 
+Hazards • The development includes approximately 140 tonnes of lithium -ion 
+batteries and storage of up to 388.1 kilolitres (kL) of diesel fuel for back 
+up power. The EIS included a report which included a preliminary risk 
+screening in accordance with the Department’s Applying SEPP 33 
+Guideline. 
+• The report noted the quantities of dangerous goods stored would be 
+below the SEPP 33 screening thresholds and therefore the development 
+would not be considered potentially hazardous. The report noted the 
+preparation of an Emergency Response Plan (ERP) should be undertaken 
+for the site.  
+• The Department’s hazards specialists reviewed the report and confirmed 
+the risk screening was appropriate and adequate information was 
+provided on compliance with the Australian Standard for storing and 
+handling flammable and combustible liquids. The Depar tment noted the 
+storage and handling of lithium-ion batteries and diesel presents special 
+hazards which must be addressed in the detailed design of the 
+development.  
+• FRNSW recommended the Applicant prepare a Fire Safety Study (FSS) 
+prior to construction an d an ERP and Emergency Services Information 
+Package (ESIP). The FSS must verify the final design of all fire safety 
+systems complies with relevant Australian Standards and requirements 
+for data centres. 
+• The Department considers the hazards and risks associ ated with the 
+development have been adequately considered and agrees with the 
+recommendations made by FRNSW. The Department has recommended 
+conditions requiring a FSS, ERP and ESIP for the development. 
+• The Department’s assessment concludes the development is consistent 
+w i t h  t h e  a i m s  o f  t h e  R e s i l i e n c e  a n d  H a z a r d s  S E P P  a n d  w o u l d  n o t  b e  
+considered a potentially hazardous industry. 
+Require the Applicant 
+to: 
+• prepare a FSS prior 
+to construction 
+• prepare an 
+Emergency 
+Response Plan and 
+Emergency Services 
+Information 
+Package prior to 
+operation 
+• store chemicals, 
+fuels and oils in 
+accordance with 
+Australian 
+Standards 
+• ensure the storage 
+and transport of 
+dangerous goods on 
+site does not exceed 
+the threshold 
+quantities in 
+Applying SEPP 33. 
+Ecologically 
+Sustainable 
+Development  
+• The Applicant provided a Ecologically Sustainable Development (ESD) 
+and Greenhouse Gas (GHG)  Report to assess the impact of the 
+development’s energy and water consumption.  
+Require the Applicant 
+to: 
+• N/A 
+[[page 47]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 37 
+Issue Findings and conclusions Recommended 
+conditions 
+Energy and GHG 
+• The ESD Report assessed the development’s operations under  two 
+scenarios being with and without emission s reduction targets of 100% 
+renewable energy consumption by 2025. The ESD Report  predicted the 
+development would generate 280,249 tonnes of carbon dioxide 
+equivalent (tCO2-e) in its first year of operation.  
+• The ESD Report identified only 110.8 tCO2-e would be attributed to 
+Scope 1 emissions generated from diesel consumption and transformer 
+gas. The remaining 280,137 tCO2-e is attri buted to Scope 2 emissions 
+generated from the predicted electricity consumption of the 
+development.  
+• The ESD Report notes the development has been designed to achieve a 
+National Australian Built Environment Rating System (NABERS) rating of 
+5 stars which re presents ‘Super Performance’ and a Power Usage 
+Effectiveness (PUE) score of 1. 15, achieving a greater score than the 
+market standard for Data Centres of 3 Star NABERS rating and a PUE 
+score of 1.80.  
+• The ESD Report notes that Scope 2 GHG emissions are expe cted to be 
+reduced in the future with the onset of renewable energies and the 
+endusers commitments to 100% renewable energies by 2025.  
+• The Applicant has also committed to free cooling and supplementary 
+evaporative cooling system to reduce dependency on refrigerants.  
+• In addition, the ESD Report has identified building level energy meters  
+will be incorporated to ensure equipment is operated at optimal 
+efficiency and to enable targeted energy mana gement strategies to 
+reduce consumption.  
+Water 
+• The ESD Report  predicts the development will consume approximately 
+20,646.7 kL of water per year. The ESD Report notes that water 
+consumption is due to evaporative cooling systems within air handling 
+units.  
+• The Applicant has proposed a number of water-saving measures for the 
+development. These  include water consumption monitoring as well as  
+metering strategies such as restricting evaporative cooling systems from 
+operating unless ambient temperatures exceed 28.4 degrees.  
+• Furthermore, the ESD Report notes that rainwater collection in the 
+proposed 163,000 L rainwater tank, will be reused for evaporative cooling 
+[[page 48]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 38 
+Issue Findings and conclusions Recommended 
+conditions 
+and landscape irrigation  which is predicted to reduce potable water 
+consumption of the development by 15%.  
+Department’s Assessment 
+• The Department notes no concerns with GHG emissions were raised 
+during the exhibition period of the development and Sydney Water 
+provided standard water efficiency recommendations in its advice.  
+• The Department considers the development ha s been designed with 
+measures to reduce the development’s electrical consumption and 
+subsequent Scope 2 GHG emissions to achieve a 5 Star NABERS rating 
+and PUE score of 1.15. 
+• The Department also considers the Applicant has proposed appropriate 
+measures where practicable to improve the water use efficiency of the 
+development’s operations.  
+• Furthermore, the Department understands there is opportunity in the 
+future for power purchasing agreements to offset power consumption 
+with renewable energies and future delivery of recycled water to the site 
+will be undertaken in consultation with Sydney Water by the Applicant.  
+• The Department’s assessment concludes the development has 
+appropriately incorporated ESD principles into the design of the 
+development to reduce e nergy and water consumption and is satisfied 
+the development would have an acceptable contribution to state and 
+national GHG emissions. 
+Stormwater • The development proposes to connect to the approved  on-site 
+stormwater system which discharges in the north-west corner of the site.  
+• The Applicant prepared a Stormwater and Flooding Report which 
+identified the proposed drainage points on -site and pipe network to 
+connect to the approved stormwater system.  
+• The report also predicted the development would  achieve the total site 
+targets for susepended solids, phosphorus, nitrogen and gross 
+pollutants as prescribed in the Blacktown DCP.  
+• Council reviewed the report and requested further MUSIC modelling be 
+provided to support the predictions. This was subsequently provided by 
+the Applicant which confirmed  the development would achieve the 
+relevant water quality targets. 
+• The Applicant also provided additional design details of gross pollutant 
+traps, water quality filters, rainwater tanks and drainage in response to 
+Council’s request.  
+Require the Applicant 
+to: 
+• prepare a detailed 
+stormwater system 
+design in 
+accordance with 
+Council’s 
+engineering and 
+WSUD guidelines. 
+[[page 49]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 39 
+Issue Findings and conclusions Recommended 
+conditions 
+• Council raised no further comments in regard to stormwater.  
+• The Department has reviewed the Applicant’s stormwater report and is 
+satisfied the development will be able to connect to the approved site 
+stormwater system and furthermore, achieve the water quality targets of 
+the Blacktown DCP.  
+• It is noted Council raised no further comments and did not recommend 
+any conditions for stormwater.  
+• The Department recommends conditions requiring the detailed design to 
+be in accordance with Blacktown Council’s engineering and Water 
+Sensitive Urban Design (WSUD) guidelines.  
+• The Department’s assessment concludes the development would not 
+adversely impact on surface water quality or flows. 
+Consistency 
+with Concept 
+Approval 
+• The site is subject to an existing concept approval under SPP-19-00013. 
+The development application is required to be consistent with the 
+concept approval in accordance with Section 4.24 of the EP&A Act.  
+• During the exhibition period, Council raised concern the development 
+was inconsistent with the concept plan in regard to building height, 
+landscaping and car parking.  
+• The Applicant’s EIS, RtS and Additional Information detailed the  
+consistency of the development with the existing concept approval.  
+Built Form 
+• A building height of 22.26 m was approved under the concept approva l 
+for Building 1 and Building 2. The development provides a building height 
+of 21.20 m, however the generator exhaust reaches a maximum height of 
+25 m.  
+• The Applicant additionally noted the generator exhaust height is less 
+than the approved exhaust height for Building 1 of 30.3 m.  
+• The Department is satisfied the proposed building height of the 
+development is generally consistent with the maximum building heights 
+of the concept approval and Building 1.  
+Landscaping 
+• Council raised concern the development would result i n  a  n e t  l o s s  o f  
+vegetation and landscaping on -site. The Applicant indicated the 
+development would provide an additional 1,522 m 2 of landscaping 
+N/A  
+[[page 50]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 40 
+Issue Findings and conclusions Recommended 
+conditions 
+directly surrounding the buildi ng footprint, compared to the 5,462 m 2 
+landscaping approved on-site.  
+• The Applicant noted additional landscaping has been accommodated 
+through the removal of four temporary electricity kiosks approved under 
+DA-20-01387 which was to be decommissioned and removed upon the 
+construction of the site substation.  
+• The Department notes the development would not result in a reduction 
+of landscaping to the site and that additional landscaping is the result of 
+approved kiosks to be removed and decommissioned.  
+• The Department considers the proposed landscaping of the development 
+to be generally consistent with the concept approval.  
+Car parking 
+• The concept approval permitted a total of 64 car parking spaces on-site 
+for the total site operations, including 28 spaces for Building 1, 4 spaces 
+for Building 1A and 32 spaces for Building 2 being the subject 
+development.  
+• The Applicant demonstrated 32 car parking spaces would be retained for 
+the development  and provided an additional 6 car parking spaces , 
+therefore a total of 70 car parking spaces on -site would be provided to 
+meet the required 64 car parking spaces of the concept approval.  
+• The Department considers the development has provided car parking 
+consistent with the concept approval.  
+Conclusion 
+• The Department notes Council has reviewed the EIS, RtS and Additional 
+Information provided by the Applicant and is satisfied the development 
+is generally consistent with the SPP-19-00013 concept approval and has 
+provided recommended conditions of consent in line with the existing 
+concept approval conditions.  
+• The Department’s assessment concludes that the Applicant has 
+satisfactorily demonstrated the development in its current format is 
+generally in accordance with the SPP-19-00013 concept approval.  
+[[page 51]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 41 
+Issue Findings and conclusions Recommended 
+conditions 
+• The Department notes any potential changes to the development 
+through any future modification application may require a subsequent 
+modification application to the concept approval.  
+[[page 52]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 42 
+7 Evaluation 
+The Department’s assessment has considered the relevant matters and objects of the EP&A Act, 
+including the principles of ecologically sustainable development ( Sections 3 & 6), advice from 
+government agencies, local councils and public submissions ( Section 5), and strategic government 
+policies and plans (Section 4). 
+The Department has considered the development on its merits, taking into consideration strategic 
+plans that guide development in the area, the EPIs that apply to the development, advice received 
+from the relevant public authorities, including Council, and submissions from the public. 
+The development involves the construction and operation of a data centre with an operational 
+capacity of 35.2 MW which will help to satisfy market demand for data storage infrastructure and 
+capacity within Western Sydney.  
+In addit ion, the development will provide up to 100 full-time equivalent construction jobs and 50 
+operational jobs and represents  a direct investment of $380 million in the Blacktown LGA. The 
+proposal is consistent with the key objectives of the Regional Plan, as it will help to facilitate 
+technology industry development within industrial-zoned land.  
+None of the State government agencies, Council or the community have objected to the proposal and 
+the Department has sought to address any issues raised through consu ltation with both the 
+government authorities and the Applicant. 
+The Department’s assessment identified the proposal could potentially have visual amenity impacts 
+on the locality and more broadly, amenity impacts during operations, primarily around noise and air. 
+The Department has considered the information provided in the revised NIA, AQIA, LVIA and 
+supporting documentation and is satisfied the Applicant has designed the development to minimise 
+these impacts. Residual impacts can be adequately mitigated and managed subject to the 
+implementation of the Applicant’s mitigation and management measures and the recommended 
+conditions of consent.  
+In particular, the Department’s recommended conditions include: 
+• the preparation of noise verification reporting to ens ure the development meets the prescribed 
+noise limits  
+• requirement to undertake annual emissions testing and reporting including emissions reporting of 
+emergency back-up generator operations subsequent to any power outage event 
+The Department has also recommended a range of detailed conditions to address any residual 
+hazards, traffic and contamination associated with the construction and operation of the 
+[[page 53]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 43 
+development. These conditions were informed by the recommendations of the re levant government 
+agencies.  
+Furthermore, the Department considers the development to be consistent with the existing concept 
+approval on site and also consistent with the industrial character of development within the precinct.  
+Overall, the development is consistent with the objectives of the relevant NSW Government policies 
+and would help support the ongoing data storage needs of greater Sydney. On balance, the 
+Department considers the development is in the public interest and the application should be 
+approved, subject to the recommended conditions of consent.  
+  
+[[page 54]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 44 
+8 Recommendation  
+It is recommended that the A/Executive Director , as delegate of the Independent Planning 
+Commission: 
+• considers  the findings and recommendations of this report 
+• accepts and adopts  the findings and recommendations in this report as the reasons for 
+making the decision to grant consent to the application 
+• agrees with the key reasons for approval listed in the notice of decision 
+• grants consent  for the application in respect of Project Echidna Data Centre (SSD-
+47320208), subject to the conditions in the attached development consent  
+• signs the attached development consent (Appendix D ). 
+Recommended by: 
+ 
+                                               02/04/2024 
+Recommended by: 
+ 
+                                            3 April 2024 
+Shaun Williams  
+A/Principal Planning Officer 
+Industry Assessments 
+Joanna Bakopanos  
+A/Director 
+Industry Assessments 
+  
+[[page 55]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 45 
+9 Determination  
+The recommendation is adopted  by: 
+ 
+5 April 2024 
+Chris Ritchie  
+A/Executive Director 
+Energy, Resources and Industry Assessments  
+
+[[page 56]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 46 
+Glossary  
+Abbreviation Definition 
+AHD  Australian height datum 
+BCS of NSW DCCEEW Biodiversity Conservation and Science group of the NSW Department of Climate 
+Change, Energy, the Environment and Water (formerly Biodiversity and 
+Conservation Division (BCD) of the former Department of Planning and 
+Environment 
+CIV Capital investment value 
+Council Blacktown City Council 
+Department Department of Planning, Housing and Infrastructure 
+Development The development as described in the EIS and RTS for the construction and 
+operation of a data centre with an operational capacity of 35.2 Megawatts 
+including back-up power and cooling systems, car parking and landscaping.  
+EIS Environmental impact statement titled EIS Project Echidna prepared by ARUP 
+Australia Pty Ltd, dated 7 October 2022.  
+EPA NSW Environment Protection Authority 
+EP&A Act Environmental Planning and Assessment Act 1979 
+EP&A Regulation Environmental Planning and Assessment Regulation 2021 
+EPBC Act  Environment Protection and Biodiversity Conservation Act 1999 
+EPI Environmental planning instrument 
+EPL  Environment protection licence  
+ESD Ecologically sustainable development  
+FRNSW Fire and Rescue NSW 
+LEP Local environmental plan  
+[[page 57]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 47 
+Abbreviation Definition 
+Minister Minister for Planning and Public Spaces 
+Planning Systems 
+SEPP 
+State Environmental Planning Policy (Planning Systems) 2021 
+RtS Response to Submissions titled Project Echidna Data Centre State Significant 
+Development App lication: Response to Submissions (RtS)  prepared by ARUP 
+Australia Pty Ltd dated 7 September 2023 and Additional Response to 
+Submissions prepared by ARUP Australia Pty Ltd dated 6 March 2024 
+SEARs Planning Secretary’s Environmental Assessment Requirements 
+Secretary Secretary of the Department of Planning, Housing and Infrastructure 
+SEPP State environmental planning policy 
+SSD State significant development 
+TfNSW Transport for NSW  
+ 
+  
+[[page 58]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 48 
+Appendices  
+Appendix A – List of referenced documents  
+The Department has relied upon the following key documents during its assessment of the 
+development:  
+Environmental Impact Statement  
+• Environmental impact statement titled EIS Project Echidna prepared by ARUP Australia Pty 
+Ltd, dated 7 October 2022 
+Submissions  
+• All submissions received from relevant public authorities and the general public 
+Response to Submissions Report  
+• Project Echidna Data Centre State Significant Development Application: Response to 
+Submissions (RtS) prepared by ARUP Australia Pty Ltd dated 7 September 2023 
+Additional Information  
+• Additional Response to Submissions prepared by ARUP Australia Pty Ltd dated 6 March 2024 
+Statutory  Documents  
+• Relevant considerations under section 4.15 of the EP&A Act (see Appendix E) 
+• Relevant environmental planning instruments, policies and guidelines (see Appendix E ) 
+All documents relied upon by the Department during its assessment of the application may be 
+viewed at: insert link to major projects page project page 
+https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-
+eastern-creek.  
+ 
+  
+[[page 59]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 49 
+Appendix B – Submissions and government agency advice  
+All submissions and government agency advice can be found here: 
+https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-centre-
+eastern-creek  
+  
+[[page 60]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 50 
+Appendix C  – Statutory considerations  
+Objects of the EP&A Act 
+A summary of the Department’s consideration of the relevant objects (found in section 1.3 of the 
+EP&A Act) are provided in Table 10 below. 
+Table 10 | Objects of the EP&A Act and how they have been considered  
+Object Consideration 
+(a) to promote the social and economic welfare of 
+the community and a better environment by the 
+proper management, development and 
+conservation of the State’s natural and other 
+resources, 
+The development would:  
+• ensure the proper management and development  
+of suitable zoned land for the economic welfare of 
+the LGA and the State 
+• promote social and economic welfare in the 
+community through the provision of up to 1 00 
+construction jobs and 50 additional operational 
+jobs in the Blacktown LGA 
+• promote a better env ironment through developing 
+on industrial zoned land and providing landscape 
+buffer planting along Old Wallgrove Road. 
+(b) to facilitate ecologically sustainable 
+development by integrating relevant economic, 
+environmental and social considerations in 
+decision-making about environmental planning and 
+assessment, 
+• The proposed development includes several 
+measures to deliver ESD, including rainwater 
+harvesting and reuse in operational processes, 
+selection of building materials to reduce solar heat 
+absorption a nd the dependency of cooling plant 
+and equipment to subsequently reduce energy 
+consumption. 
+(c) to promote the orderly and economic use and 
+development of land, 
+• The development would meet the objectives of the 
+zone by supporting and protecting existing 
+industrial land. In addition, the development would 
+be consistent with the existing concept approval on 
+site. The data centre would also provide economic 
+benefit th rough job creation and infrastructure 
+investment. 
+[[page 61]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 51 
+Object Consideration 
+(e) to protect the environment, including the 
+conservation of threatened and other species of 
+native animals and plants, ecological communities 
+and their habitats, 
+• The Department’s assessment in Section 6  of this 
+report demonstrates with the implementation of 
+the recommended conditions of consent, the 
+impacts of the development can be mitigated 
+and/or managed to ensure the environment is 
+protected. 
+(f) to promote the sustainable management of built 
+and cultural heritage (including Aboriginal cultural 
+heritage), 
+• The development is not anticipated to result in any 
+significant impacts upon built and cultural heritage, 
+including Aboriginal cultural heritage (refer to 
+Section 6 ). 
+(g) to promote good design and amenity of the built 
+environment, 
+• The development would provide good design and 
+amenity of the built environment suitable for an 
+industrial zone. 
+(h) to promote the proper construction and 
+maintenance of buildings, including the protection 
+of the health and safety of their occupants, 
+• The Department has considered the development 
+and has recommended a number of conditions of 
+consent to ensure construction and maintenance of 
+the development is undertaken in accordance with 
+applicable legislation, guidelines,  policies and 
+procedures. 
+(i) to promote the sharing of the responsibility for 
+environmental planning and assessment between 
+the different levels of government in the State, 
+• The Department publicly exhibited the application 
+as outlined in Section 5.1.2 of this report, which 
+included consultation with Council and other 
+relevant public authorities and subsequent 
+consideration of their responses. 
+(j) to provide increased opportunity for community 
+participation in environmental planning and 
+assessment. 
+• The Department publicly exhibited the application 
+as outlined in Section 5.1.2  of this report, which 
+included notifying adjoining landowners/occupiers 
+and displaying the SSD application on the 
+Department’s Major Projects website. 
+Ecologically sustainable development 
+The EP&A Act adopts the definition of ecologically sustainable development (ESD) found in the 
+Protection of the Environment Administration Act 1991. Section 6(2) of that Act states that ESD requires 
+[[page 62]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 52 
+the effective integration of economic and environmental considerations in decision-making processes 
+and that ESD can be achieved through the implementation of: 
+• the precautionary principle. 
+• inter-generational equity. 
+• conservation of biological diversity and ecological integrity. 
+• improved valuation, pricing and incentive mechanisms. 
+The Department required the Applicant to demonstrate how the principles of ESD have been 
+incorporated into the project, including how it addresses: 
+• national best practice sustainable building principles to improve environmental performance 
+and reduce ecological impact.  
+• projected climate change impacts. 
+The Applicant demonstrated the development would achieve a 5 star NABERs rating through the 
+the implementation of ESD measures including the incorporation of evaporative cooling to reduce 
+electricity consumption and refrigerants, and the reuse of rainwater in coolings systems to reduce 
+potable water consumption.  
+Environmental Planning Instruments (EPIs) 
+To satisfy the requirements of section 4.15(1) of the EP&A Act, the following EPIs were considered as 
+part of the Department’s assessment: 
+o State Environmental Planning Policy (Planning Systems) 2021 (Planning Systems SEPP) 
+o State Environmental Planning Policy (Transport and Infrastructure) 2021 (Transport an d 
+Infrastructure SEPP) 
+o State Environmental Planning Policy (Resilience and Hazards) 2021 (Resilience and Hazards SEPP) 
+o State Environmental Planning Policy (Industry and Employment) 2021 (Industry and Employment 
+SEPP) 
+o Blacktown Local Environmental Plan (LEP) 2015 
+State Environmental Planning Policy (Planning Systems) 2021 (Planning Systems SEPP) 
+The Planning Systems SEPP identifies certain classes of development as SSD. The proposal is State 
+significant development pursuant to section 4.36 of Environmental Planning and Assessment Act 1979 
+(EP&A Act) because it involves development for the construction and operation of a data centre which 
+meets the criteria in Clause 25 of  Schedule 1 in the Planning Systems SEPP. The development has a 
+[[page 63]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 53 
+total power consumption of 35.2 MW, which meets the threshold for SSD under the Planning Systems 
+SEPP. 
+State Environmental Planning Policy (Transport and Infrastructure) 2021 (Transport and 
+Infrastructure SEPP) 
+Chapter 2 of the Transport and Infrastructure SEPP aims to facilitate the effective delivery of 
+infrastructure across the State by improving regulatory certainty and efficiency, identifying matters 
+to be considered in the assessment of d evelopment adjacent to certain types of infrastructure 
+development, and providing for consultation with relevant public authorities about certain types of 
+development during the assessment process. 
+TfNSW and Council did not raise any concerns regarding potential traffic impacts associated with the 
+development. The assessment found that operational traffic would be low and generally only 
+comprise of vehicle movements from operational staff and infrequent delivery or servicing vehicles. 
+Further, no road or driveway upgrades are needed to facilitate the development. The Department has 
+recommended conditions of consent including implementation of a Construction Traffic Management 
+Plan (CTMP). 
+State Environmental Planning Policy (Resilience and Hazards) 2021 (Resilience and Hazards SEPP) 
+Chapter 3 of the Resilience and Hazards SEPP aims to identify developments with the potential for 
+significant off-site impacts, in terms of risk and/or offence. A development is defined as potentially 
+hazardous and/or potentially offensive if, without mitigating measures in place, the development 
+would have significant risk and/or adverse impact on off-site receptors. 
+The Applicant is seeking development consent for the construction and operation of a data centre. 
+While the development would involve the on -site storage of up to 388.1 kL of diesel fuel at any one 
+time, the Department notes diesel is not classified as a dangerous good under the Dangerous Goods 
+Code. Additionally, the development would store up to 140 tonnes of packaged lithium-ion batteries. 
+However, the Department notes the significant storage and handling of these materials present 
+special hazards which are to be addressed in the design stage of the development.  
+Therefore, the Department has recommended conditions o f consent requiring the Applicant to 
+prepare a Fire Safety Study in consultation with Fire and Rescue NSW, Emergency Response Plan, 
+ESIP and a restriction on screening thresholds of dangerous goods stored or transported to and from 
+the development.  
+Chapter 4 of the Resilience and Hazards SEPP aims to provide a State -wide approach to the 
+remediation of contaminated land. In particular, it aims to promote the remediation of contaminated 
+land to reduce the risk of harm to human health and the environment by specifying: 
+[[page 64]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 54 
+• under what circumstances consent is required 
+• the relevant considerations for consent to carry out remediation work 
+• the remediation works undertaken meet certain standards and notification requirements. 
+The Applicant has undertaken site establishment works including any remediation works under the 
+Stage 1 and concept approval. Nonetheless, the Department has recommended conditions of consent 
+for the implementation of an unexpected finds protocol to appropriately manage contamination in the 
+event any unexpected finds occurs.  
+State Environmental Planning Policy (Industry and Employment) 2021 (Industry and Employment 
+SEPP) 
+Chapter 2 of the Industry and Employment SEPP aims to protect and enhance the Western Sydney 
+Employment Area (WSEA) for employmen t purposes . The Department’s assessme nt of the 
+development against Chapter 2 of the Industry and Employment SEPP is provided below in Table 11.  
+Table 11 | Department’s Assessment of the Development against Chapter 2 of the Industry and 
+Employment SEPP  
+Consideration Proposed Department’s Comment 
+2.18 Existing Precinct plans under 
+SEPP 59 
+A consent authority may grant consent 
+to a development application on land 
+without a development control plan if it 
+is satisfeied  that an existing precinct 
+plan applied to the land  before the 
+repeal of SEPP 59  
+The development site is located within 
+the existing Eastern Creek Precicnt 
+Plan prepared under the repealed 
+State Environmental Planning Policy No 
+59 – Central Western Sydney  Economic 
+and Employment Area (SEPP 59). 
+The Department is satisfied the 
+Eastern Creek Precinct Plan applied to 
+the development site prior to the repeal 
+of SEPP 59. Therefore the consent 
+authority may grant consent to the 
+development application.  
+2.19 Ecologically sustainable 
+development 
+The consent authority must not grant 
+consent to development on land to 
+which this Chapter applies unless it is 
+satisfied that the development 
+contains measures designed to 
+minimise— 
+(a)  the consumption of potable water, 
+and 
+(b)  greenhouse gas emissions. 
+The Applicant has incorporated a 
+number of  ESD initiatives in the 
+design of the development to 
+reduce energy and potable water 
+consumption and GHG emissions.  
+The proposed measures are 
+satisfactory for minimising the 
+developments consumption of 
+potable water and energy 
+consumption. The Department has 
+undertaken an assessment of ESD 
+in Section 6.4 of this report.  
+[[page 65]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 55 
+Consideration Proposed Department’s Comment 
+2.20 Height of buildings 
+The consent authority must not grant 
+consent to development on land to 
+which this Chapter applies unless it is 
+satisfied that— 
+(a)  building heights will not adversely 
+impact on the amenity of adjacent 
+residential areas, and 
+(b)  site topography has been taken into 
+consideration. 
+The proposed maximum building 
+height of the development would 
+be 21.2 m and a exhaust stack 
+height of 25 m.  
+The Industry and Employment 
+SEPP does not prescribe a height 
+limit for the site. The Department 
+has considered the visual impact of 
+the proposed bulk and scale of the 
+development at Section 6.3 and the 
+consistency of the building height 
+with the concept approval in 
+Section 6.4 of thi s report. The 
+Department’s assessment 
+concludes that the proposed 
+height is generally consistent the 
+concept approval and the 
+immediate locality.  
+2.21 Rainwater harvesting 
+The consent authority must not grant 
+consent to development on land to 
+which this Chapter applies unless it is 
+satisfied that adequate arrangements 
+will be made to connect the roof areas 
+of buildings to such rainwater 
+harvesting scheme (if any) as may be 
+approved by the Secretary. 
+The Applicant proposes a 163,000 
+L rainwater tank f or rainwater 
+harvesting and reuse in evaporative 
+cooling systems to minimise 
+potable water consumption.  
+The provision of a rainwater tank 
+and proposed use of rainwater is 
+satisfactory.  
+2.24 Public utility infrastructure 
+The consent authority must not gr ant 
+consent to development on land to 
+which this Chapter applies unless it is 
+satisfied that any public utility 
+infrastructure that is essential for the 
+proposed development is available or 
+that adequate arrangements have 
+been made to make that infrastructure 
+available when required. 
+Public utility infrastructure 
+provided to the site under existing 
+concept approval. 
+The Department notes public utility 
+infrastructure has been provided to 
+the site via the concept approval. 
+Service providers were additionally 
+consulted during the exhibition 
+period and the Department is 
+satisfied adequate arrangement 
+have been made.  
+[[page 66]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 56 
+Consideration Proposed Department’s Comment 
+2.30 Design Principles  
+The consent authority must take into 
+consideration whether or not: 
+(a) the development is of a high -
+quality design, and 
+(b) a variety of materials and external 
+finishes for the external façades 
+are incorporated, and 
+(c) high quality landscaping is 
+provided, and 
+the scale and character of the 
+development is compatible with other 
+employment generating developments 
+in the Precinct concerned. 
+The Applicant submitted a Visual 
+Impact Assessment (VIA) 
+assessing the potential visual 
+impacts of the development. 
+The proposed building would 
+incorporate a variety of materials 
+and finishes to provide 
+architectural interests with high 
+quality urban design outcome.  
+ 
+The Department has assessed the 
+visual impacts of the development 
+in Section 6.3 of this report. The 
+Applicant has proposed a number 
+of visual treatment options to 
+reduce visual impact along with 
+additional landscaping onsite to 
+provide screening along the  Old 
+Wallgrove Road  frontage. The 
+proposed scale of the development 
+is generally consistent with 
+existing and under construction 
+commerical and industrial 
+development and development in 
+the Eastern Creek Precinct. 
+[[page 67]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 57 
+Consideration Proposed Department’s Comment 
+2.40 Earthworks 
+Before granting development consent 
+for earthworks, the consent authority 
+must consider the following matters— 
+(a)  the likely disruption of, or 
+detrimental effect on, existing 
+drainage patterns and soil stability 
+in the locality, 
+(b)  the effect of the proposed 
+development on the likely future 
+use or redevelopment of the land, 
+(c)  the quality of the fill or the soil to 
+be excavated, or both, 
+(d)  the effect of the proposed 
+development on the existing and 
+likely amenity of adjoining 
+properties, 
+(e)  the source of fill material and the 
+destination of excavated material, 
+(f)  the likelihood of disturbing relics, 
+(g)  the proximity to and potential for 
+adverse impacts on a waterway, 
+drinking water catchment or 
+environmentally sensitive area, 
+(h)  appropriate measures proposed to 
+avoid, minimise or mitigate the 
+impacts of the development, 
+(i)  the proximity to and potential for 
+adverse impacts on a heritage 
+item, an archaeological site, or a 
+heritage conservation area, 
+(j)  the visual impact of earthworks as 
+viewed from the waterways 
+Bulk earthworks and levelling for 
+the site was undertaken as part of 
+the concept approval. Minor 
+earthworks are proposed for final 
+building pad and land form.  
+Minor earthworks are proposed to 
+establish a b uilding pad for the 
+development.  
+To ensure earthworks are 
+appropriately managed, the 
+Department has included the 
+requirement for an erosion and 
+sediment control plan to be 
+prepared prior to the 
+commencement of construction. 
+2.42 Heritage conservation 
+The consent authority must, before 
+granting consent under this section in 
+respect of a heritage item or heritage 
+conservation area, consider the effect 
+of the proposed development on the 
+heritage significance of the item or 
+area concerned. This subsection 
+applies regardless of whether a 
+heritage management document is 
+prepared under subsection (5) or a 
+heritage conservation management 
+plan is submitted under subsection (6) 
+Assessment and consideration of 
+heritage conservation was 
+undertaken as part of the conc ept 
+approval. The Applicant provided 
+additional documentation 
+demonstrating the development 
+would have no impact on heritage 
+items or heritage conservation 
+areas.  
+The Department is satisfied 
+heritage conservation was 
+appropriately assessed under the 
+existing concept approval. The 
+Department is satisfied the 
+Applicant has sufficiently 
+considered the impacts of the 
+development on heritage items and 
+heritage conservation areas.  
+[[page 68]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 58 
+Consideration Proposed Department’s Comment 
+2.44 Stormwater, water quality and 
+water sensitive design 
+the consent authority must take into 
+consideration whether— 
+(a)  water sensitive design principles 
+are incorporated into the design of the 
+development, and 
+(b)  riparian, stormwater and flooding 
+measures are integrated, and 
+(c)  the stormwater management 
+system includes all reasonable 
+management actions to avoid adverse 
+impacts on the land to which the 
+development is to be carried out, 
+adjoining properties, riparian land, 
+native bushland, waterways, 
+groundwater dependent ecosystems 
+and groundwater systems, and 
+(d)  if a potential adverse 
+environmental impact cannot be 
+feasibly avoided, the development 
+minimises and mitigates the adverse 
+impacts of stormwater runoff on 
+adjoining properties, riparian land, 
+native bushland, waterways, 
+groundwater dependent ecosystems 
+and groundwater systems, and 
+(e)  the development will have an 
+adverse impact on— 
+(i)  the water quality or quantity in a 
+waterway, including the water 
+entering the waterway, and 
+(ii)  the natural flow regime, including 
+groundwater flows to a waterway, and 
+(iii)  the aquatic environment and 
+riparian land (including aquatic and 
+riparian species, communities, 
+populations and habitats), and 
+(iv)  the stability of the bed, banks and 
+shore of a waterway, and 
+(f)  the development includes measures 
+to retain, rehabilitate and restore 
+riparian land. 
+The Applicant proposed a 
+stormwater management strategy 
+to connect to the stormwater 
+system on-site approved under the 
+concept approval. The system has 
+included water sensitive devices to 
+treat stormwater quality. 
+The Departm ent considers the 
+proposed stormwater strategy for 
+the development is consistent with 
+the existing stormwater system for 
+the site.  
+Council has reviewed the proposed 
+stormwater system and advised it 
+is consistent with the stormwater 
+and water quality design principles 
+of the DCP. 
+The Department has included 
+conditions of consent requiring 
+final stormwater design in 
+consultation with Council.  
+ 
+Chapter 3 of the Industry and Employment SEPP aims to ensure that outdoor signage is compatible 
+with the desired amenity and visual character of an area, and provides effective communication in 
+suitable locations, that is of a high- quality design and finish. The EIS states that signage does not 
+form part of the proposal.  
+[[page 69]]
+ 
+  Project Echidna Data Centre (SSD-47320208) Assessment Report | 59 
+Appendix D  – Recommended instrument of consent 
+The recommended conditions of consent for SSD-47320208 can be found on the Department’s 
+website at: https://www.planningportal.nsw.gov.au/major-projects/projects/project-echidna-data-
+centre-eastern-creek 
