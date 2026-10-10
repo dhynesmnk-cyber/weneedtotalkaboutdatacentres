@@ -29,6 +29,11 @@ Rules enforced here:
   * Every row must carry fact_status, confidence and as_of_date.
   * Rows keyed by a text primary key are upserted; rows in autoincrement tables are appended
     unless an "id" is supplied, in which case they are upserted.
+  * {"match": {...}, "set": {...}} updates matched rows. {"match": {...}, "fill": {...}} writes
+    only columns that are empty, and never overwrites: where a matched row already holds a
+    different value, that value is kept, a warning printed, and the disagreement recorded in
+    the pack's ingest_log entry for a human to settle. Gap-filling packs use "fill", because
+    at curation time the packs that load earlier have not run and the curator cannot see them.
   * Unknown columns are rejected rather than silently dropped.
   * Every action is written to ingest_log.
 
@@ -109,12 +114,20 @@ ALLOWED_TABLES = {
 }
 
 
-def apply_update(conn, table, row, known_sources, dry_run, errors) -> int:
-    """Targeted update of existing rows: {"match": {...}, "set": {...}, "add_sources": [...]}"""
-    match, upd = row["match"], row["set"]
+def apply_update(conn, table, row, known_sources, dry_run, errors, kept) -> int:
+    """Targeted update of existing rows:
+    {"match": {...}, "set": {...}, "fill": {...}, "add_sources": [...]}
+
+    "set" overwrites. "fill" writes a column only where it is empty, and appends to `kept` every
+    matched row whose existing value it declined to replace.
+    """
+    match, upd, fill = row["match"], row.get("set") or {}, row.get("fill") or {}
     cols = columns(conn, table)
-    for bad in [k for k in list(match) + list(upd) if k not in cols]:
+    for bad in [k for k in list(match) + list(upd) + list(fill) if k not in cols]:
         errors.append(f"{table}: update references unknown column {bad!r}")
+        return 0
+    for both in sorted(set(upd) & set(fill)):
+        errors.append(f"{table}: {both!r} is in both set and fill for {match}")
         return 0
     where = " AND ".join(f'"{k}"=?' for k in match)
     sel = conn.execute(f"SELECT COUNT(*) FROM {table} WHERE {where}", tuple(match.values())).fetchone()[0]
@@ -125,6 +138,16 @@ def apply_update(conn, table, row, known_sources, dry_run, errors) -> int:
     if setcols and not dry_run:
         conn.execute(f'UPDATE {table} SET {", ".join(f"{c}=?" for c in setcols)} WHERE {where}',
                      tuple(upd[c] for c in setcols) + tuple(match.values()))
+    for col, value in fill.items():
+        if col in match:
+            continue
+        for (existing,) in conn.execute(f'SELECT "{col}" FROM {table} WHERE {where}',
+                                        tuple(match.values())):
+            if existing not in (None, "") and existing != value:
+                kept.append(dict(table=table, match=match, column=col, kept=existing, offered=value))
+        if not dry_run:
+            conn.execute(f'UPDATE {table} SET "{col}"=? WHERE {where} AND ("{col}" IS NULL OR "{col}"=\'\')',
+                         (value, *match.values()))
     for sid in row.get("add_sources", []):
         if sid not in known_sources:
             errors.append(f"{table}: add_sources references unknown source {sid}")
@@ -190,6 +213,7 @@ def load(pack_path: str, dry_run: bool = False, allow_missing_source: bool = Fal
     errors: list[str] = []
     warnings: list[str] = []
     counts: dict[str, int] = {}
+    kept: list[dict] = []
 
     # --- sources first, so row-level source_id references resolve -----------------
     known_sources = {r[0] for r in conn.execute("SELECT id FROM sources")}
@@ -233,8 +257,8 @@ def load(pack_path: str, dry_run: bool = False, allow_missing_source: bool = Fal
         if table == "sources":
             continue  # handled above
         for row in rows:
-            if "match" in row and "set" in row:
-                n_upd += apply_update(conn, table, row, known_sources, dry_run, errors)
+            if "match" in row and ("set" in row or "fill" in row):
+                n_upd += apply_update(conn, table, row, known_sources, dry_run, errors, kept)
                 continue
             # {"insert": {...}, "add_sources": [...]} — a plain insert that also registers
             # extra provenance links in source_refs.
@@ -413,11 +437,15 @@ def load(pack_path: str, dry_run: bool = False, allow_missing_source: bool = Fal
                      "VALUES (?,?,?, 'ok', 0, ?)",
                      (run_at, pack_id, "_pack", json.dumps({"counts": counts,
                                                             "prepared_by": pack.get("prepared_by"),
-                                                            "prepared_on": pack.get("prepared_on")})))
+                                                            "prepared_on": pack.get("prepared_on"),
+                                                            **({"kept_existing": kept} if kept else {})})))
         conn.commit()
     conn.close()
     for w in warnings:
         print(f"  ~ {w}")
+    for k in kept:
+        print(f"  ~ {k['table']} {k['match']}: kept {k['column']}={k['kept']!r}; "
+              f"the pack offered {k['offered']!r}. A human settles this.")
     verb = "would load" if dry_run else "loaded"
     print(f"{verb} pack {pack_id}: " + ", ".join(f"{k}={v}" for k, v in sorted(counts.items())))
     return 0
