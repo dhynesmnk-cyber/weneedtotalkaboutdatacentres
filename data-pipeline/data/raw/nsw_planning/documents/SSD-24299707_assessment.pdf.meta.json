@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120231127T020928.161+GMT",
+ "project_slug": "talavera-road-data-centre-campus-expansion",
+ "attachment_slug": "ssd-assessment-report-talavera-rd-dc-13",
+ "kind": "assessment",
+ "label": "SSD-SSI Assessment Report Talavera Rd DC.pdf",
+ "folder": "Recommendation",
+ "fetched_utc": "2026-10-10T14:43:32+00:00",
+ "sha256": "64cdb23ba40dc022622760981e7c58cd373ad6916e9541239cf1513c8fa8504b",
+ "bytes": 2847771,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 189263,
+ "pages": 80,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

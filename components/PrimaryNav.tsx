@@ -3,13 +3,14 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-// docs/SPEC.md's entry-point order, then the coverage view.
+// docs/SPEC.md's entry-point order, then what the record does and does not yet hold.
 const NAV = [
   { href: '/', label: 'Overview' },
   { href: '/essays', label: 'Essays' },
   { href: '/map', label: 'Map' },
   { href: '/list', label: 'Sites and entities' },
   { href: '/coverage', label: 'What’s known' },
+  { href: '/research', label: 'Open questions' },
 ] as const;
 
 /** A section is current on its own page and on the records beneath it. */

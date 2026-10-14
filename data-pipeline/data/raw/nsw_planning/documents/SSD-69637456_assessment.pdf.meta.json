@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69637456%2120251223T231353.781+GMT",
+ "project_slug": "digico-syd1-data-centre-expansion",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-18",
+ "kind": "assessment",
+ "label": "Signed - SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:46:41+00:00",
+ "sha256": "3d8df3d0a2bfce098fe47bd1ac550caf634b7ced0ce1c14a97e28ce58f671170",
+ "bytes": 4632863,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 135802,
+ "pages": 76,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-8662%2120190429T020625.567+GMT",
+ "project_slug": "dicker-data-warehouse-and-distribution-centre",
+ "attachment_slug": "ssd-8662-assessment-report",
+ "kind": "assessment",
+ "label": "SSD 8662 - Assessment Report.pdf",
+ "folder": null,
+ "fetched_utc": "2026-10-10T14:52:45+00:00",
+ "sha256": "595e4f097e7b98ccdaba5941a0e3539e1005d4852d74556046cfb27bf18ba751",
+ "bytes": 4371477,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 134643,
+ "pages": 57,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

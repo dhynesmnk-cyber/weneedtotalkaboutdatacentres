@@ -131,6 +131,11 @@ async function checks(): Promise<Check[]> {
     { path: '/list?status=approved&sort=council', status: 200 },
     { path: '/list?evidence=claimed', status: 200, absent: UNEXPLAINED },
     { path: '/how-to-read', status: 200 },
+    // The load asserts every question is cited, so each must render as one.
+    { path: '/research', status: 200, selector: 'article' },
+    { path: '/research?pillar=B', status: 200, selector: 'article' },
+    // An unknown pillar shows every question rather than none.
+    { path: '/research?pillar=Z', status: 200, selector: 'article' },
     // A stale or hand-edited link still shows the index rather than failing.
     { path: '/list?sort=price&status=imagined&council=Nowhere', status: 200 },
     { path: '/essays', status: 200 },

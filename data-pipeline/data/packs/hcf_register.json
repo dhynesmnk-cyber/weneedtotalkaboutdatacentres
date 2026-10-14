@@ -1,0 +1,411 @@
+{
+  "pack_id": "hcf-register-2026-09",
+  "prepared_by": "scripts/curate_hcf_register.py from data/raw/hcf/",
+  "prepared_on": "2026-10-10",
+  "_comment": [
+    "Confirms sites.hcf_certified against the Commonwealth HCF register (batch S3). Uses",
+    "fill, so no existing value is overwritten; each matched site also cites the register",
+    "with the register's own line quoted, which says whether the facility or an enclave",
+    "within it is certified. Opens and resolves RG-096 with the search recorded."
+  ],
+  "sources": [
+    {
+      "id": "SRC_HCF_REGISTER",
+      "title": "Certified Service Providers - Hosting Certification Framework",
+      "publisher": "Department of Home Affairs (Hosting Certification Framework)",
+      "url": "https://www.hostingcertification.gov.au/certified-service-providers",
+      "doc_type": "primary_government",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The Commonwealth register of HCF-certified data centre facilities, enclaves and cloud services. Read 2026-10-10 from the Internet Archive capture of 2026-09-28 (https://web.archive.org/web/20260928125530id_/https://www.hostingcertification.gov.au/certified-service-providers), original HTML, SHA-256 6bde974c52754bb59bae16215d4c224f7e69535c30746ebdfac858482b70c00d, archived at data/raw/hcf/certified-service-providers.20260928125530.html; the live site refused automated clients. Publisher from the page footer (Home Affairs logo). Lists the Strategic level only, and states that new registrations are paused from 3 November 2025."
+    }
+  ],
+  "rows": {
+    "sites": [
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_MEL1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_SYD1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_AIRTRUNK_SYD2"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_CDC_BROOKLYN"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: Canberra Data Centres – H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_CDC_CANBERRA"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: Canberra Data Centres – H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_CDC_EC"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: Canberra Data Centres – H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DCI_SYD01"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: DCI Data Centers – SYD-01"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DR_ERSKINE"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Digital Realty - SYD10, SYD11, SYD14 and MEL11"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DR_MEL11"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Digital Realty - SYD10, SYD11, SYD14 and MEL11"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_EQUINIX_CA1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: Equinix Australia – CA1"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_EQUINIX_MEL"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Equinix Australia – SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_EQUINIX_PER"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Equinix Australia – SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_EQUINIX_SYD"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Equinix Australia – SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQ_FAIRBAIRN"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Facility: Macquarie Technology Group – IC4 and IC5"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQ_IC12"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Macquarie Technology Group – IC1, IC2, IC3 and IC3e"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQ_IC3"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Macquarie Technology Group – IC1, IC2, IC3 and IC3e"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_A1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_C1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_D1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_M123"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_P12"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S1"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S2"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S3"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: NEXTDC – Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_TELSTRA_DEAKIN"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Telstra – Deakin and St Leonards"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_TELSTRA_STLEON"
+        },
+        "fill": {
+          "hcf_certified": "certified_strategic"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_HCF_REGISTER",
+            "quote": "Service Provider and Certified Strategic Enclave: Telstra – Deakin and St Leonards"
+          }
+        ]
+      }
+    ],
+    "research_gaps": [
+      {
+        "id": 96,
+        "pillar": "C",
+        "priority": 3,
+        "status": "resolved",
+        "opened": "2026-10-10",
+        "resolved_date": "2026-10-10",
+        "question": "Which of the observatory's sites does the Commonwealth Hosting Certification Framework register list as certified, and at what level?",
+        "why_it_matters": "HCF certification decides which facilities may host Australian Government data. Every certification value in the record rested on a grade-B market directory, and 67 sites had none.",
+        "target_source": "https://www.hostingcertification.gov.au/certified-service-providers",
+        "retrieval_method": "manual_review",
+        "notes": "RESOLVED 2026-10-10. Read the register's Certified Service Providers page (Internet Archive capture of 2026-09-28; the live site refused automated clients). It lists Strategic facilities and enclaves only; no Assured facility is listed. 26 site records match listed facilities, each on every facility the record names: SITE_AIRTRUNK_MEL1 (facility), SITE_AIRTRUNK_SYD1 (facility), SITE_AIRTRUNK_SYD2 (facility), SITE_CDC_BROOKLYN (facility), SITE_CDC_CANBERRA (facility), SITE_CDC_EC (facility), SITE_DCI_SYD01 (enclave), SITE_DR_ERSKINE (enclave), SITE_DR_MEL11 (enclave), SITE_EQUINIX_CA1 (facility), SITE_EQUINIX_MEL (enclave), SITE_EQUINIX_PER (enclave), SITE_EQUINIX_SYD (enclave), SITE_MACQ_FAIRBAIRN (facility), SITE_MACQ_IC12 (enclave), SITE_MACQ_IC3 (enclave), SITE_NEXTDC_A1 (enclave), SITE_NEXTDC_C1 (enclave), SITE_NEXTDC_D1 (enclave), SITE_NEXTDC_M123 (enclave), SITE_NEXTDC_P12 (enclave), SITE_NEXTDC_S1 (enclave), SITE_NEXTDC_S2 (enclave), SITE_NEXTDC_S3 (enclave), SITE_TELSTRA_DEAKIN (enclave), SITE_TELSTRA_STLEON (enclave). All 26 already held certified_strategic from SRC_CERTSTRAT; each now also cites the register, with the register's line quoted. No site gained a value. The sites not listed keep `unknown`: absence is not recorded as not_certified, because the register lists only certified providers and new registrations have been paused since 3 November 2025. Not applied: AirTrunk SYD3 is not listed (AirTrunk's certified facilities are SYD1, SYD2 and MEL1); Microsoft Azure is certified as a cloud service, which is not a facility certification; DigiCo SYD1 is a certified enclave in the existing facility, not the expansion project the site record describes.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_HCF_REGISTER",
+        "confidence": "high",
+        "as_of_date": "2026-09-28"
+      }
+    ]
+  }
+}

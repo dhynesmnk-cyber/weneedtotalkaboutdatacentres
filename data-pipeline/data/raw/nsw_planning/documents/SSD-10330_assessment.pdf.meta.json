@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231209.227+GMT",
+ "project_slug": "roberts-road-data-centre",
+ "attachment_slug": "ssd-10330-assessment-report-0",
+ "kind": "assessment",
+ "label": "SSD-10330 - Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:40:24+00:00",
+ "sha256": "4f38942c41791c0382e88f852bd8a8da4f820ab563b6b564676fef1af5577904",
+ "bytes": 2836513,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 130125,
+ "pages": 59,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

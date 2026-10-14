@@ -495,8 +495,9 @@ snippet and is in fact **withdrawn**, in Camden LGA; NEXTDC S4 is **approved** (
 Park**, straddling Fairfield City and Blacktown, not merely IDA-endorsed; NEXTDC S7's portal stage is
 **Prepare EIS**, which is *earlier* than "lodged" implies; CDC Marsden Park's description gives a **504 MW**
 power consumption and, separately, a **720 MW substation**. *(Corrected 2026-10-14: this paragraph first read
-the 720 MW as a possibly larger consented capacity, and v2.2.0 stored it as IT capacity. It is the substation's
-rating. The 504 MW is site draw and is now recorded as total capacity; see RG-096.)* New sites added include **STACK SYD01 Erskine Park (450 MW, in
+the 720 MW as a possibly larger consented capacity, and v2.2.0 stored it as IT capacity. The Department's
+assessment report settles it: "Maximum power capacity 720 MW (504 MW IT load)". The portal description's own
+label for the 504 MW was wrong; see RG-099.)* New sites added include **STACK SYD01 Erskine Park (450 MW, in
 Assessment)**, Davis Road (Cundall) 180 MW, Project Pluto 126 MW, KC1 Kemps Creek 144 MW, NEXTDC S4 Phase 2
 134.4 MW, Frederick Street Artarmon 81 MW (Willoughby, Prepare EIS), 23-25 Waterloo Road 70 MW, Project
 Echidna 35 MW, 1-5 Khartoum Road 35 MW, Road 1 34.3 MW, 22 O'Riordan Street Alexandria 38 MW, and

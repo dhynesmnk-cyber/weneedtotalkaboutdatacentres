@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import {
   EVENT_CATEGORIES,
   GAP_REASONS,
+  RESEARCH_STATUSES,
   SITE_STATUSES,
   type Database,
 } from '@/lib/types';
@@ -120,7 +121,19 @@ describe('enum parity between SQL and lib/types.ts', () => {
       'events',
       'case_studies',
       'essays',
+      'research_agenda',
     ]);
+  });
+
+  it('research agenda statuses match the latest check constraint', () => {
+    // The constraint is dropped and re-added as the vocabulary widens (0013),
+    // so the last definition in migration order is the one in force.
+    const definitions = [
+      ...sql.matchAll(/research_agenda_status_known\s+check \(status in \(([^)]*)\)\)/gi),
+    ];
+    const latest = definitions.at(-1)?.[1] ?? '';
+    const values = [...latest.matchAll(/'([^']+)'/g)].map((m) => m[1]);
+    expect([...values].sort()).toEqual([...RESEARCH_STATUSES].sort());
   });
 });
 

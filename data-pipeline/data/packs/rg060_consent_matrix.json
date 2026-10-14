@@ -287,7 +287,7 @@
      "confidence": "high",
      "as_of_date": "2026-09-18",
      "source_id": "SRC_NSWPORTAL_CONSENTS",
-     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Stockland Development Pty Limited. The Schedule 1 applicant is Stockland Development Pty Limited - the property group developing in its own name. Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065). Capacity measure unconfirmed: the portal's figure does not say whether it is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096)."
+     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Stockland Development Pty Limited. The Schedule 1 applicant is Stockland Development Pty Limited - the property group developing in its own name. Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065)."
     },
     "add_sources": [
      "SRC_NSWPORTAL_CONSENTS"
@@ -335,7 +335,7 @@
      "confidence": "high",
      "as_of_date": "2026-09-18",
      "source_id": "SRC_NSWPORTAL_CONSENTS",
-     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: ARUP Australia Pty Ltd. The Schedule 1 applicant is ARUP Australia Pty Ltd - a consultancy, and a different Arup legal entity from ARUP Pty Ltd at 43-61 Turner Road. The only consent in the sample determined under delegation from the NSW Independent Planning Commission rather than the Minister (delegate Chris Ritchie, A/Executive Director, delegation executed 14 June 2022). Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065). Capacity measure unconfirmed: the portal's figure does not say whether it is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096)."
+     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: ARUP Australia Pty Ltd. The Schedule 1 applicant is ARUP Australia Pty Ltd - a consultancy, and a different Arup legal entity from ARUP Pty Ltd at 43-61 Turner Road. The only consent in the sample determined under delegation from the NSW Independent Planning Commission rather than the Minister (delegate Chris Ritchie, A/Executive Director, delegation executed 14 June 2022). Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065)."
     },
     "add_sources": [
      "SRC_NSWPORTAL_CONSENTS"
@@ -399,7 +399,7 @@
      "confidence": "high",
      "as_of_date": "2026-09-18",
      "source_id": "SRC_NSWPORTAL_CONSENTS",
-     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Goodman Property Services (Aust) Pty Ltd. CODENAME RESOLVED: the same Goodman entity as Project Apollo, so Goodman holds two of the twenty consents in its own name. The consent caps total power at 100 MW, below the portal description's 'load capacity of 126 MW', so 126 MW cannot be IT load as consented: 100 MW is recorded as total capacity and IT capacity is not stated (RG-096). This entry was missing until v2.2.1, so the consent's figures reached neither the site row nor a power row.",
+     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Goodman Property Services (Aust) Pty Ltd. CODENAME RESOLVED: the same Goodman entity as Project Apollo, so Goodman holds two of the twenty consents in its own name. The consent caps total power at 100 MW, below the portal description's 'load capacity of 126 MW'; the Department's assessment report gives 'Total power consumption of 100 MW with an IT Load of 68 MW' (RG-097), so the 126 MW was neither. This entry was missing until v2.2.1, so the consent's figures reached neither the site row nor a power row.",
      "operator_id": "ENT_GOODMAN",
      "total_capacity_mw": 100.0
     },

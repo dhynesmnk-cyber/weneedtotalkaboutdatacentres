@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63741210%2120251224T003217.140+GMT",
+ "project_slug": "nextdc-s4-data-centre-horsley-park",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-19",
+ "kind": "assessment",
+ "label": "Signed - SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:45:38+00:00",
+ "sha256": "80f351750fd90e530a1dfea5d54773be3c53b66622a1e9bf10cef5408faa7abb",
+ "bytes": 4794871,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 187996,
+ "pages": 100,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

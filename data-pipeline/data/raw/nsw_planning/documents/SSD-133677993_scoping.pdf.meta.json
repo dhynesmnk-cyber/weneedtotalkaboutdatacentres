@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-126361990%2120260713T012616.739+GMT",
+ "project_slug": "kc1-data-centre-kemps-creek",
+ "attachment_slug": "scoping-report-v5-859-901-mamre-road-kemps-creek",
+ "kind": "scoping",
+ "label": "WTJ26-170 Scoping Report v5 - 859-901 Mamre Road$2c Kemps Creek.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:42:49+00:00",
+ "sha256": "eea484490a0dadd39c90c692ae2b33e50b413b557493f7ad00f319575823e233",
+ "bytes": 5098030,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 119919,
+ "pages": 59,
+ "pdf_committed": false,
+ "text_redactions": 1
+}

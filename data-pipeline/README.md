@@ -4,33 +4,37 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.2.1 · data as at 14 October 2026 · 1,389 data rows (+420 source refs) · 93 sites · 138 entities · 340 metrics · 193 catalogued sources (130 primary)**
+**Release v2.2.1 · data as at 14 October 2026 · 1,458 data rows (+503 source refs) · 93 sites · 138 entities · 341 metrics · 246 catalogued sources (183 primary)**
 
-v2.2.1 is a **correction release**, prompted by a review of CertifiedStrategic.com. Three defects are fixed
-and one source is regraded.
+v2.2.1 is a **correction release**, prompted by a review of CertifiedStrategic.com and reconciled with
+batches S2-S4. Three defects are fixed and one source is regraded.
 
 - **Capacity read from the wrong words.** `curate_rg002.py` took the largest MW figure in each NSW portal
-  description and stored it as IT capacity. Marsden Park's description gives a 504 MW power consumption and a
-  separate **720 MW substation**; v2.2.0 stored the substation rating as `it_capacity_mw`, graded VERIFIED.
-  The script now reads each figure with the words in front of it: "power consumption" is site draw and goes
-  to `total_capacity_mw` (Marsden Park, 23-25 Waterloo Road, NEXTDC S4 Phase 2, KC1), a substation rating is
-  not a site capacity at all, and wording that does not say which measure it is stays in IT capacity, flagged
-  on each of the nine rows and listed in **RG-096**. Davis Road now carries its signed consent's 160.85 MW
-  rather than the description's 180 MW, as Glendenning already did. NSW approved capacity falls from 1,805.0
-  to 1,569.8 MW in `v_pipeline_by_state`.
+  description and stored it as IT capacity, so Marsden Park's "720 MW substation" became 720 MW of IT
+  capacity, graded VERIFIED. The portal's labels cannot be relied on either: Marsden's description calls
+  504 MW its "power consumption", and the Department's assessment report says "Maximum power capacity 720 MW
+  (504 MW IT load)". So where a project's own planning document (batch S2) or signed consent states its
+  capacity, that now governs, and this pack clears the description's reading for it: Marsden Park is IT 504
+  / total 720, Project Pluto IT 68 / total 100, 1-5 Khartoum Road IT 51.4 / total 76.4, and Honeman Close,
+  Project Echidna, 12 Frederick Street and KC1 carry their documents' totals. Davis Road carries its signed
+  consent's 160.85 MW. Where the description is all there is, each figure is read with the words in front
+  of it ("power consumption" to total, a substation rating not at all, anything else to IT as before), and
+  the seven such rows are flagged and listed in **RG-099**, NEXTDC S7 first. No site now has IT capacity
+  above its total.
 - **Project Pluto's consent never reached its rows.** `curate_rg060.py` had parsed it (applicant Goodman, a
   100 MW total power cap, 170 MW of back-up generation, a 173-hour generator cap) but had no attribution entry
-  for it, so it emitted no site update and no power row. Pluto now carries all of that. Its portal
-  description's "load capacity of 126 MW" exceeds the consent's 100 MW cap, so it cannot be IT load as
-  consented and is no longer recorded as IT capacity. RG-035 now lists Pluto as resolved, which RG-065
-  had already established.
-- **One aggregator article carried too much.** `SRC_CERTSTRAT` is the sole source for 27 of 93 sites and
+  for it, so it emitted no site update and no power row. Pluto now carries all of that. RG-035 now lists Pluto
+  as resolved, which RG-065 had already established.
+- **One aggregator article carried too much.** `SRC_CERTSTRAT` was the sole source for 27 of 93 sites and
   25 of the 26 Certified Strategic flags. It is regraded **B → C** by document class (an aggregator's
-  directory relaying other firms' research) and was never archived. Its attribution of the Hosting
-  Certification Framework to the DTA is withdrawn from `LAW_HCF` and `ENT_DTA` rather than replaced, because
-  the review's evidence for the current administrator came from search-engine summaries, which sit below
-  grade D. The national certified-site count loses its wrong `scope: NSW`, and NEXTDC M4 drops from high to
-  medium confidence. **RG-097** opens the work of replacing the article with the official register.
+  directory relaying other firms' research) and was never archived. Batches S3 and S4 have since confirmed
+  every flag against the Commonwealth register and cited operators' own pages, so no site rests on it alone.
+  The register, counted from its archive, lists **21 Certified Strategic facilities and 41 enclaves across
+  14 providers**, and 13 of its facilities and enclaves match no site here. The article's attribution of the framework to
+  the DTA is withdrawn from `LAW_HCF` and `ENT_DTA` rather than replaced: the register names only "the
+  Department", and the evidence for Home Affairs is search-engine summaries, below grade D. The national
+  count loses its wrong `scope: NSW`, and NEXTDC M4 drops from high to medium confidence (its own page says
+  150 MW, the article 162 MW). **RG-100** covers what still rests on the article alone.
   Pack: `data/packs/certstrat_review.json`.
 
 v2.2.0 opens **the Palantir–NVIDIA thread** (`data/packs/palantir_nvidia_thread.json`,
@@ -159,6 +163,11 @@ au-dc-observatory/
 ├── scripts/reextract_consents.py pypdf re-extraction of the archived consent PDFs (sha256-verified, offline)
 ├── scripts/finalize_docs.py      regenerates build_report.md + viewer/db.json from the LOADED database
 ├── scripts/check_packs.py        fails the build if any pack/curation script is wired into only one driver
+├── scripts/gap_worklist.py       every field the site shows as a gap, routed to the source likely to answer it (read-only)
+├── scripts/propose_gap_reasons.py drafts 'not applicable' proposals for a human from each site's status (read-only)
+├── scripts/curate_hcf_register.py batch S3: HCF certification against the Commonwealth register (RG-096)
+├── scripts/curate_operator_sources.py batch S4: site facts from operators' own pages, checked against their passages (RG-098)
+├── scripts/curate_ssd_documents.py batch S2: figures from each NSW SSD project's own planning document, each checked against its page and quote (RG-097)
 ├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
 ├── scripts/count_patent_filings.py  filings per tracked operator from an IPGOD 102 / IP RAPID extract
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
@@ -166,6 +175,8 @@ au-dc-observatory/
 ├── scripts/gen_dictionary.py     regenerates reports/DATA_DICTIONARY.md from the live schema
 ├── scrapers/ingest_nsw_dc.py         NSW Planning Portal register harvester (--harvest, --mods, --attachments)
 ├── scrapers/ingest_nsw_planning.py   NSW Planning Portal single-project archiver (polite, single-threaded)
+├── scrapers/archive_pages.py        archives public web pages with SHA-256 manifests and their visible text (robots.txt honoured)
+├── scrapers/fetch_ssd_documents.py   archives each SSD project's assessment report, EIS, scoping report or SEARs request (make fetch-ssd-docs)
 ├── scrapers/ingest_cer.py            Clean Energy Regulator NGERS / LGC / Safeguard fetcher
 ├── scrapers/ingest_austender.py      AusTender keyword-search archiver — NEVER RUN LIVE, see its docstring
 ├── exports/australian_data_centre_observatory.db
@@ -180,6 +191,8 @@ au-dc-observatory/
     ├── PATENT_METHOD.md          the Iliadis & Acker patent method transplanted: what it can and cannot answer here
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
+    ├── gap_worklist.md           generated: the site's "Not yet researched" fields by field, batch and site (+ .csv)
+    ├── gap_reason_proposals.csv  generated: proposals for stronger gap reasons, for a human (docs/QUALITY.md)
     └── build_report.md           generated: row counts, verification ledger, gap list
 ```
 
@@ -209,6 +222,7 @@ python3 scripts/query.py friction           # community events by severity
 python3 scripts/query.py claims             # renewable claim audit
 python3 scripts/query.py unverified         # everything that must NOT be published as fact
 python3 scripts/query.py dossier SITE_MAMRE_ROAD   # full evidence dossier for one site
+python3 scripts/gap_worklist.py --expect 1777       # the gap worklist; --expect is the total /coverage shows
 
 python3 scripts/query.py --csv pipeline > pipeline.csv
 python3 scripts/query.py --sql "SELECT state, SUM(max_capacity_mw) FROM sites GROUP BY state"
@@ -450,7 +464,7 @@ scrapes never write the key to disk.
 
 | Pillar | State | Blocking gap |
 |---|---|---|
-| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents), RG-096 (capacity measure unconfirmed on ten NSW sites), RG-097 (re-source the 27 sites resting on CertifiedStrategic) |
+| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents), RG-099 (capacity resting only on the portal's description, seven NSW sites), RG-100 (what still rests on CertifiedStrategic alone, and 13 register entries with no site) |
 | B — Capital and control | Ownership chains verified for AirTrunk and CDC; 10 capital flows; 9 incentive records; **270 VERIFIED metric rows** including the full CER emissions series; consultancy layer: 23 de-duplicated TCS contracts, $234.4M verified spend. v2.2.0: Future Fund → Palantir **A$165.3m** holding (primary CSV, archived); five Palantir Commonwealth contract notices catalogued with a duplicate-safe amendment row. | RG-007 (FOI on tax/land concessions), RG-006 (FIRB), RG-004 (super exposure), RG-005 (Mamre title), RG-072 (TCS portals of record), RG-078 (Oxford Economics funder), RG-086 (complete Palantir contract ledger), RG-088 (corporate customers), RG-095 (Coles non-renewal), RG-094 (public-fund PLTR/NVDA exposure) |
 | C — Regulatory framework | Strongest pillar: 22 instruments, 8 site-level applications, 24 regulatory events, including the 200-hour diesel exemption, the Victorian Tier 4 asymmetry, and the **delegation executed 18 Aug 2026 — one day after the Guidelines** — under which both post-Guidelines consents were signed. RG-079 resolved (template-dominated conditions; no officer effect at n=20). v2.2.0 adds the Palantir IRAP PROTECTED record (PPA on AWS AU regions, per company release), the DTA SON3490955 panel channel, the UK ACOBA revolving-door letter and the July 2026 national AI-standards announcement. | RG-008 (EP licence conditions per site), RG-074 (consultancy overlap with DPHI/IPC contracts), RG-085 (Talavera IPC placeholder signatures), RG-087 (per-deployment data residency), RG-089 (ASD clearance discrepancy), RG-090 (AUKUS position), RG-092 (keynote quote verification) |
 | D — Community impact | 21 events, 6 groups, institutional objections documented at Mamre Road and Glendenning (Blacktown objection overridden). v2.2.0: Shoebridge contract-freeze call and Pocock procurement criticism recorded as political interventions; WA real-time FRT trial baseline logged with no vendor attribution. | RG-016 (group register), RG-011 (verify Melton/South Morang), RG-093 (any Australian law-enforcement Palantir use; WA FRT vendor; ACIC platform purpose) |

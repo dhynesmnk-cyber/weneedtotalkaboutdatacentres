@@ -1,0 +1,590 @@
+{
+  "pack_id": "site-portal-fields-nsw-2026-09",
+  "prepared_by": "scripts/curate_site_portal_fields.py from data/raw/nsw_planning/nodes/",
+  "prepared_on": "2026-09-18",
+  "_comment": [
+    "Fills sites.address with the address the NSW Planning Portal records for each data",
+    "centre SSD project (field_project_address), verbatim, and sites.suburb with the locality",
+    "that address names. Read from archived, SHA-256-verified node JSON. Uses fill, so no",
+    "existing value is overwritten; differences are reported at load for a human to settle.",
+    "Each row cites the project's own portal page. _left lists every value not taken."
+  ],
+  "sources": [],
+  "rows": {
+    "sites": [
+      {
+        "match": {
+          "id": "SITE_23_25_WATERLOO"
+        },
+        "fill": {
+          "address": "23-25 Waterloo Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD91297457"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_43_61_TURNER"
+        },
+        "fill": {
+          "address": "43-61 Turner Road, Gregory Hills",
+          "suburb": "Gregory Hills"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD68013714"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_51_HUNTINGWOOD"
+        },
+        "fill": {
+          "address": "51 Huntingwood Drive, Huntingwood NSW 2148",
+          "suburb": "Huntingwood"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD41589232"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ALDINGTON"
+        },
+        "fill": {
+          "address": "54-72 Aldington Road, Kemps Creek NSW (Lot 43) and 74-104 Aldington Road, Kemps Creek NSW (Lot 90)",
+          "suburb": "Kemps Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD112059740"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_APOLLO_PLACE"
+        },
+        "fill": {
+          "address": "1 Sirius Road, Lane Cove West and 1 Apollo Place, Lane Cove West",
+          "suburb": "Lane Cove West"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD67407231"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_AUGUSTA_ST"
+        },
+        "fill": {
+          "address": "Augusta Street Blacktown"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD10469"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_BROOKHOLLOW"
+        },
+        "fill": {
+          "address": "3 Brookhollow Avenue, Norwest",
+          "suburb": "Norwest"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD81928961"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_CDC_MARSDEN"
+        },
+        "fill": {
+          "address": "105 and 113 Hollinsworth Road, Marsden Park",
+          "suburb": "Marsden Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD70889211"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DAVIS_RD_CUNDALL"
+        },
+        "fill": {
+          "address": "3 Davis Road, Wetherill Park",
+          "suburb": "Wetherill Park"
+        },
+        "add_sources": [
+          "SRC_SSD59416728_CONSENT"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DCI_POPLARS"
+        },
+        "fill": {
+          "address": "2 Wolseley Place, Jerrabomberra (Lot 6 DP 1288362)",
+          "suburb": "Jerrabomberra"
+        },
+        "add_sources": [
+          "SRC_DCI_POPLARS_CONSENT"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DICKER_DATA"
+        },
+        "fill": {
+          "address": "238 Captain Cook Drive Kurnell NSW 2231"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD8662"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DIGICO_SYD1"
+        },
+        "fill": {
+          "address": "392-422 Harris Street"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD69637456"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ECHIDNA"
+        },
+        "fill": {
+          "address": "10 Eastern Creek Drive, Eastern Creek NSW",
+          "suburb": "Eastern Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_ECHIDNA"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_EC_EXPANSION"
+        },
+        "fill": {
+          "address": "90 Peter Brock Drive, Eastern Creek",
+          "suburb": "Eastern Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD21342738"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_FREDERICK_ST"
+        },
+        "fill": {
+          "address": "12 Frederick Street, Artarmon",
+          "suburb": "Artarmon"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD139545990"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_GLENDENNING"
+        },
+        "fill": {
+          "address": "2 Glendenning Road, Glendenning",
+          "suburb": "Glendenning"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_GLEN"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_GOODMAN_ATLAS"
+        },
+        "fill": {
+          "address": "10 Roberts Road, Eastern Creek",
+          "suburb": "Eastern Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD101067971"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_GRAND_AVE"
+        },
+        "fill": {
+          "address": "8 Grand Avenue, Rosehill",
+          "suburb": "Rosehill"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD53338465"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_JULIUS_AVE"
+        },
+        "fill": {
+          "address": "6-8 Julius Avenue, North Ryde",
+          "suburb": "North Ryde"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD80018208"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_KC1"
+        },
+        "fill": {
+          "address": "859-901 Mamre Road, Kemps Creek",
+          "suburb": "Kemps Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD133677993"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_KHARTOUM"
+        },
+        "fill": {
+          "address": "1-5 Khartoum Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD63235720"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_KURRI_KURRI"
+        },
+        "fill": {
+          "address": "145 BISHOPS BRIDGE ROAD SAWYERS GULLY 2326"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD128819490"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_LANCELEY"
+        },
+        "fill": {
+          "address": "2-8 Lanceley Place and 14 Campbell Street, Artarmon",
+          "suburb": "Artarmon"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD66777221"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_LANE_COVE_MARS"
+        },
+        "fill": {
+          "address": "3-4 Apollo Place and 87-91 Mars Road, Lane Cove West",
+          "suburb": "Lane Cove West"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD108835458"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_LANE_COVE_WEST"
+        },
+        "fill": {
+          "address": "1 Sirius Road, Lane Cove West",
+          "suburb": "Lane Cove West"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD9741"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQUARIE_PARK_DC"
+        },
+        "fill": {
+          "address": "11-17 Khartoum Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD10467"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MAMRE_ROAD"
+        },
+        "fill": {
+          "address": "706-752 Mamre Road, Kemps Creek",
+          "suburb": "Kemps Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD92743706"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MOWBRAY_RD"
+        },
+        "fill": {
+          "address": "706 Mowbray Road West, Lane Cove North",
+          "suburb": "Lane Cove North"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD13475973"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MSFT_HONEMAN"
+        },
+        "fill": {
+          "address": "6 Honeman Close, Huntingwood",
+          "suburb": "Huntingwood"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD58601963"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MSFT_KEMPS"
+        },
+        "fill": {
+          "address": "706-769 Mamre Road, Kemps Creek",
+          "suburb": "Kemps Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_KC"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S4"
+        },
+        "fill": {
+          "address": "16 Johnston Crescent, Horsley Park",
+          "suburb": "Horsley Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD63741210"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S4_P2"
+        },
+        "fill": {
+          "address": "6 Johston Crescent, Horsley Park",
+          "suburb": "Horsley Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD108864209"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S5"
+        },
+        "fill": {
+          "address": "269 Lane Cove Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD63168959"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S7"
+        },
+        "fill": {
+          "address": "1 Kangaroo Avenue (Honeycomb Drive), Eastern Creek",
+          "suburb": "Eastern Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD113934740"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ORIORDAN"
+        },
+        "fill": {
+          "address": "22 O'Riordan Street, Alexandria",
+          "suburb": "Alexandria"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD77274467"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_APOLLO"
+        },
+        "fill": {
+          "address": "4-10 Talavera Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD74069708"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_DUKE"
+        },
+        "fill": {
+          "address": "2 & 10 - 22 Kent Road, Mascot",
+          "suburb": "Mascot"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD71368959"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_MARS"
+        },
+        "fill": {
+          "address": "12 Mars Road, Lane Cove West",
+          "suburb": "Lane Cove West"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD82052708"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_PLUTO"
+        },
+        "fill": {
+          "address": "132 McCredie Road, Guildford West NSW 2161",
+          "suburb": "Guildford West"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD69223466"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ROAD_1"
+        },
+        "fill": {
+          "address": "1-5 Khartoum Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD80814238"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ROBERTS_RD"
+        },
+        "fill": {
+          "address": "17 Roberts Road, Eastern Creek",
+          "suburb": "Eastern Creek"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD10330"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_STATION_RD"
+        },
+        "fill": {
+          "address": "57 Station Road, Seven Hills",
+          "suburb": "Seven Hills"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD33781208"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_TALAVERA"
+        },
+        "fill": {
+          "address": "17-23 Talavera Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD24299707"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_TURNER_RD"
+        },
+        "fill": {
+          "address": "52 Turner Road, Smeaton Grange",
+          "suburb": "Smeaton Grange"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_TURNER"
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_WATERLOO_ESR"
+        },
+        "fill": {
+          "address": "44-50 Waterloo Road, Macquarie Park",
+          "suburb": "Macquarie Park"
+        },
+        "add_sources": [
+          "SRC_NSWPORTAL_SSD59516710"
+        ]
+      }
+    ]
+  },
+  "_left": [
+    {
+      "site": "SITE_AUGUSTA_ST",
+      "ssd": "SSD-10469",
+      "field": "suburb",
+      "value": "Augusta Street Blacktown",
+      "reason": "no comma, so no locality can be told from the street"
+    },
+    {
+      "site": "SITE_DICKER_DATA",
+      "ssd": "SSD-8662",
+      "field": "suburb",
+      "value": "238 Captain Cook Drive Kurnell NSW 2231",
+      "reason": "no comma, so no locality can be told from the street"
+    },
+    {
+      "site": "SITE_DIGICO_SYD1",
+      "ssd": "SSD-69637456",
+      "field": "suburb",
+      "value": "392-422 Harris Street",
+      "reason": "no comma, so no locality can be told from the street"
+    },
+    {
+      "site": "SITE_KURRI_KURRI",
+      "ssd": "SSD-128819490",
+      "field": "suburb",
+      "value": "145 BISHOPS BRIDGE ROAD SAWYERS GULLY 2326",
+      "reason": "no comma, so no locality can be told from the street"
+    },
+    {
+      "site": "SITE_STACK_SYD01",
+      "ssd": "SSD-82211208",
+      "field": "address",
+      "value": "78 Lockwood Road Data Centre",
+      "reason": "names the project, not a street or lot"
+    }
+  ]
+}

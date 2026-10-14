@@ -145,14 +145,10 @@ ATTRIBUTION = {
     "SITE_PROJECT_PLUTO", "ENT_GOODMAN",
     "CODENAME RESOLVED: the same Goodman entity as Project Apollo, so Goodman holds two of the twenty "
     "consents in its own name. The consent caps total power at 100 MW, below the portal description's "
-    "'load capacity of 126 MW', so 126 MW cannot be IT load as consented: 100 MW is recorded as total "
-    "capacity and IT capacity is not stated (RG-096). This entry was missing until v2.2.1, so the consent's "
-    "figures reached neither the site row nor a power row."),
+    "'load capacity of 126 MW'; the Department's assessment report gives 'Total power consumption of 100 MW "
+    "with an IT Load of 68 MW' (RG-097), so the 126 MW was neither. This entry was missing until v2.2.1, so "
+    "the consent's figures reached neither the site row nor a power row."),
 }
-
-# Sites whose capacity measure curate_rg002.py flags as unconfirmed (RG-096). This pack replaces
-# their notes, so it carries the flag forward rather than silently dropping it.
-CAPACITY_UNCONFIRMED = {"SITE_KHARTOUM", "SITE_ECHIDNA"}
 
 # Hard numbers read from the matrix. diesel/genset/power are as parsed from each consent.
 HARD = {
@@ -276,10 +272,6 @@ def main() -> int:
         upd = {"proponent": r["applicant"] or None, "fact_status": "VERIFIED",
                "confidence": "high", "as_of_date": TODAY, "source_id": SRC,
                "notes": f"SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: {r['applicant'] or 'not parsed'}. " + note}
-        if site_id in CAPACITY_UNCONFIRMED:
-            upd["notes"] += (" Capacity measure unconfirmed: the portal's figure does not say whether it is IT "
-                             "load or total site draw, so it is recorded as IT capacity pending a reading of the "
-                             "EIS (RG-096).")
         if op:
             upd["operator_id"] = op
         if hard.get("power_mw"):
