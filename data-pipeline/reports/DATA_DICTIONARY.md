@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 121 rows)
+## `ingest_log` (table, 123 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 

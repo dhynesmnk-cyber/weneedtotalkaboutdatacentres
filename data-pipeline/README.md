@@ -132,6 +132,7 @@ au-dc-observatory/
 ├── scripts/reextract_consents.py pypdf re-extraction of the archived consent PDFs (sha256-verified, offline)
 ├── scripts/finalize_docs.py      regenerates build_report.md + viewer/db.json from the LOADED database
 ├── scripts/check_packs.py        fails the build if any pack/curation script is wired into only one driver
+├── scripts/gap_worklist.py       every field the site shows as a gap, routed to the source likely to answer it (read-only)
 ├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
 ├── scripts/count_patent_filings.py  filings per tracked operator from an IPGOD 102 / IP RAPID extract
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
@@ -153,6 +154,7 @@ au-dc-observatory/
     ├── PATENT_METHOD.md          the Iliadis & Acker patent method transplanted: what it can and cannot answer here
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
+    ├── gap_worklist.md           generated: the site's "Not yet researched" fields by field, batch and site (+ .csv)
     └── build_report.md           generated: row counts, verification ledger, gap list
 ```
 
@@ -182,6 +184,7 @@ python3 scripts/query.py friction           # community events by severity
 python3 scripts/query.py claims             # renewable claim audit
 python3 scripts/query.py unverified         # everything that must NOT be published as fact
 python3 scripts/query.py dossier SITE_MAMRE_ROAD   # full evidence dossier for one site
+python3 scripts/gap_worklist.py --expect 1777       # the gap worklist; --expect is the total /coverage shows
 
 python3 scripts/query.py --csv pipeline > pipeline.csv
 python3 scripts/query.py --sql "SELECT state, SUM(max_capacity_mw) FROM sites GROUP BY state"
