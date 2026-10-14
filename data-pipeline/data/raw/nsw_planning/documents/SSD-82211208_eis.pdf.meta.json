@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-82211208%2120251111T070105.391+GMT",
+ "project_slug": "stack-syd01-data-centre-erskine-park",
+ "attachment_slug": "eis78-lockwood-road-data-centre-2",
+ "kind": "eis",
+ "label": "EIS_78 Lockwood Road Data Centre .pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-14T20:32:59+00:00",
+ "sha256": "b7c4d415b7cf335b8aa7a4ed9c5f57a2cb1e05582aaf1d955f5383485f706f3f",
+ "bytes": 9031532,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 395744,
+ "pages": 172,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

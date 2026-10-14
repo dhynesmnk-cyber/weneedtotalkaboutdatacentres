@@ -407,6 +407,17 @@
       "notes": "EIS document for SSD-81928961, read 2026-10-10 from the NSW Planning Portal (attachment eis-3-brookhollow-avenue-norwest), SHA-256 8734219068375acf09817655509ba6549b8e4e0f5ae8338a9267bfc849dca4c1, 8562643 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
     },
     {
+      "id": "SRC_SSD82211208_EIS",
+      "title": "EIS_78 Lockwood Road Data Centre  - SSD-82211208 (stack syd01 data centre erskine park)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-82211208%2120251111T070105.391+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-14",
+      "notes": "EIS document for SSD-82211208, read 2026-10-14 from the NSW Planning Portal (attachment eis78-lockwood-road-data-centre-2), SHA-256 b7c4d415b7cf335b8aa7a4ed9c5f57a2cb1e05582aaf1d955f5383485f706f3f, 9031532 bytes, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
       "id": "SRC_SSD82211208_SEARS_REQUEST",
       "title": "Request for SEARs_20250407234709 - SSD-82211208 (stack syd01 data centre erskine park)",
       "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
@@ -563,12 +574,13 @@
           "construction_jobs": 1100,
           "operational_jobs": 217,
           "campus_area_ha": 21.33,
+          "total_capacity_mw": 134.4,
           "proponent": "NEXTDC Ltd"
         },
         "add_sources": [
           {
             "id": "SRC_SSD108864209_SCOPING",
-            "quote": "p18 (construction_jobs): approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs | p18 (operational_jobs): approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs | p6 (campus_area_ha): The site has a total area of 21.33 hectares. | p5 (proponent): This Scoping Report has been prepared on behalf of NEXTDC Ltd (the Applicant)"
+            "quote": "p18 (construction_jobs): approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs | p18 (operational_jobs): approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs | p6 (campus_area_ha): The site has a total area of 21.33 hectares. | p33 (total_capacity_mw): The proposed data centre will have a total power consumption of 134.4MW | p5 (proponent): This Scoping Report has been prepared on behalf of NEXTDC Ltd (the Applicant)"
           }
         ]
       },
@@ -1135,9 +1147,14 @@
           "construction_jobs": 800,
           "gfa_sqm": 82020,
           "campus_area_ha": 7.7243,
+          "total_capacity_mw": 450,
           "proponent": "STACK INFRASTRUCTURE AUSTRALIA PTY LTD"
         },
         "add_sources": [
+          {
+            "id": "SRC_SSD82211208_EIS",
+            "quote": "p12 (total_capacity_mw): The proposed data centre has a total power consumption of 450 megawatts"
+          },
           {
             "id": "SRC_SSD82211208_SEARS_REQUEST",
             "quote": "p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD650,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 100 Indicative Construction Jobs 800 | p1 (construction_jobs): Indicative Operation Jobs 100 Indicative Construction Jobs 800 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 82,020 | p2 (campus_area_ha, sqm to ha): Site Area sqm 77,243 | p1 (proponent): Company Name STACK INFRASTRUCTURE AUSTRALIA PTY LTD ABN 78650472236"

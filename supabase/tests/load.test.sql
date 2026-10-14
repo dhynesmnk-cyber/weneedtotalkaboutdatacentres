@@ -40,13 +40,17 @@ select public.assert(
 -- Commonwealth HCF register, giving 194. Batch S2 (data/packs/ssd_documents.json)
 -- adds 41, one planning document per NSW SSD project it reads, giving 235.
 -- Batch S4 (data/packs/operator_sources.json) adds 11 operator web pages, giving 246.
+-- 2026-10-14: v2.2.2 adds two. RG-099 reads STACK SYD01's EIS (SRC_SSD82211208_EIS,
+-- in data/packs/ssd_documents.json) and RG-100 the Mandala report CertifiedStrategic.com
+-- named for two figures it does not state (SRC_MANDALA_DCEI_2025, in
+-- data/packs/certstrat_review.json), giving 248.
 select public.assert(
   (select count(*) from facts.entities where pipeline_id is not null) = 138,
   '138 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 246,
-  '246 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 248,
+  '248 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from

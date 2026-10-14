@@ -10,7 +10,8 @@ Polite, single-threaded, a pause between requests, a descriptive User-Agent; rob
 first and any disallowed URL is refused. Re-running skips pages already archived.
 
 Archive: data/raw/operators/<group>/<name>.html, .html.meta.json (url, fetched_utc, sha256, bytes),
-and .txt: the page's visible text, one line per block, with scripts and styles removed. The text is
+and .txt: the page's visible text, one line per block, with scripts and styles removed. A PDF is kept
+as <name>.pdf and .pdf.meta.json, its .txt extracted page by page with "[[page N]]" markers. The text is
 what a curation quotes from; the HTML is kept so the text can be regenerated.
 
 Usage:
@@ -63,7 +64,8 @@ def visible_text(raw: str) -> str:
 
 def name_for(url: str) -> str:
     path = urllib.parse.urlparse(url).path.strip("/") or "index"
-    return re.sub(r"[^A-Za-z0-9._-]+", "_", path.split("/")[-1])[:80]
+    name = re.sub(r"[^A-Za-z0-9._-]+", "_", path.split("/")[-1])[:80]
+    return re.sub(r"\.(pdf|html?)$", "", name, flags=re.I)   # the archive adds its own extension
 
 
 def main(argv: list[str]) -> int:
@@ -91,14 +93,24 @@ def main(argv: list[str]) -> int:
         body, final = get(url)
         if final != url:
             base = os.path.join(out, name_for(final))
-        text = visible_text(body.decode("utf-8", errors="replace"))
-        with open(base + ".html", "wb") as fh:
+        # A PDF (a report an operator or researcher publishes) is kept as .pdf with its text extracted
+        # page by page, "[[page N]]" markers and all, by the same extractor the SSD documents use.
+        is_pdf = body.startswith(b"%PDF")
+        ext = ".pdf" if is_pdf else ".html"
+        with open(base + ext, "wb") as fh:
             fh.write(body)
+        extra = {}
+        if is_pdf:
+            from fetch_ssd_documents import extract  # noqa: PLC0415 - only PDFs need pypdf
+            text, extra["extractor"] = extract(base + ext)
+            extra["pages"] = text.count("[[page ")
+        else:
+            text = visible_text(body.decode("utf-8", errors="replace"))
         with open(base + ".txt", "w", encoding="utf-8") as fh:
             fh.write(text)
         json.dump(dict(url=final, requested_url=url, fetched_utc=datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                       sha256=hashlib.sha256(body).hexdigest(), bytes=len(body), user_agent=UA),
-                  open(base + ".html.meta.json", "w"), indent=1)
+                       sha256=hashlib.sha256(body).hexdigest(), bytes=len(body), user_agent=UA, **extra),
+                  open(base + ext + ".meta.json", "w"), indent=1)
         print(f"archived {url} ({len(body) // 1024} KB, {len(text)} chars of text)")
     return 0
 

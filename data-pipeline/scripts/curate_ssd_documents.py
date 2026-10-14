@@ -115,6 +115,8 @@ EXTRACTIONS: list[tuple] = [
     ("SSD-108864209", "operational_jobs", 217, 18,
      "approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs"),
     ("SSD-108864209", "campus_area_ha", 21.33, 6, "The site has a total area of 21.33 hectares."),
+    ("SSD-108864209", "total_capacity_mw", 134.4, 33,
+     "The proposed data centre will have a total power consumption of 134.4MW"),  # RG-099, 2026-10-14
     # Aldington Road, Kemps Creek: scoping report; Table 1 compares the earlier proposal (first
     # column) with the amended one (second), and only the amended figures are taken.
     ("SSD-112059740", "campus_area_ha", 30, 8,
@@ -387,6 +389,10 @@ EXTRACTIONS: list[tuple] = [
     ("SSD-82211208", "construction_jobs", 800, 1, "Indicative Operation Jobs 100 Indicative Construction Jobs 800"),
     ("SSD-82211208", "gfa_sqm", 82020, 1, "Gross Floor Area (GFA) sqm 82,020"),
     ("SSD-82211208", "campus_area_ha", 7.7243, 2, "Site Area sqm 77,243", "sqm_to_ha"),
+    # STACK SYD01: the EIS, archived 2026-10-14 for RG-099. It calls 450 MW a total power consumption
+    # (p12, p79), a total load capacity (p60) and the site's electrical demand (p68); no IT figure.
+    ("SSD-82211208", "total_capacity_mw", 450, 12,
+     "The proposed data centre has a total power consumption of 450 megawatts"),
     # 23-25 Waterloo Road, Macquarie Park: the request for SEARs form
     ("SSD-91297457", "capital_cost_aud", 700000000, 1, "Estimated Development Cost (excl GST) AUD700,000,000.00"),
     ("SSD-91297457", "operational_jobs", 50, 1, "Indicative Operation Jobs 50 Indicative Construction Jobs 3,400"),
@@ -498,8 +504,10 @@ def readings(quote: str) -> set[float]:
     return out
 
 
-def documents(errors: list[str]) -> dict[str, dict]:
-    """SSD case -> {kind, text pages, meta} for every archived document."""
+def documents(errors: list[str]) -> dict[str, dict[str, dict]]:
+    """SSD case -> kind -> {kind, text pages, meta} for every archived document. A case can hold
+    more than one (a SEARs request, then the EIS lodged after it); each quote names its page, and
+    is checked against whichever of them it is on."""
     out = {}
     for meta_path in sorted(glob.glob(os.path.join(DOCS, "*.pdf.meta.json"))):
         base = meta_path[: -len(".pdf.meta.json")]
@@ -509,8 +517,8 @@ def documents(errors: list[str]) -> dict[str, dict]:
             if hashlib.sha256(open(base + ".pdf", "rb").read()).hexdigest() != meta["sha256"]:
                 errors.append(f"{case}: {kind} fails its SHA-256 check")
                 continue
-        out[case] = dict(kind=kind, pages=pages(open(base + ".txt", encoding="utf-8").read()),
-                         meta=meta)
+        out.setdefault(case, {})[kind] = dict(
+            kind=kind, pages=pages(open(base + ".txt", encoding="utf-8").read()), meta=meta)
     return out
 
 
@@ -526,13 +534,17 @@ def main() -> int:
         if field not in FIELDS:
             errors.append(f"{where}: not a field this batch fills")
             continue
-        doc = docs.get(case)
-        if doc is None:
+        held = docs.get(case)
+        if not held:
             errors.append(f"{where}: no archived document")
             continue
-        if normalise(quote) not in doc["pages"].get(page, ""):
-            errors.append(f"{where}: quote not found on page {page}: {quote!r}")
+        found = [d for d in held.values() if normalise(quote) in d["pages"].get(page, "")]
+        if len(found) != 1:
+            errors.append(f"{where}: quote " + (f"on page {page} of {len(found)} documents"
+                                                 if found else f"not found on page {page}")
+                          + f": {quote!r}")
             continue
+        doc = found[0]
         if field != "proponent" and not any(abs(r * factor - float(value)) < 1e-6
                                             for r in readings(quote)):
             errors.append(f"{where}: {value} is not a number the quote states")
@@ -544,13 +556,13 @@ def main() -> int:
         if site is None:
             errors.append(f"{where}: maps to no site")
             continue
-        entry = fills.setdefault(case, dict(site=site, fill={}, quotes=[]))
+        entry = fills.setdefault(case, dict(site=site, fill={}, quotes={}))
         if field in entry["fill"]:
             errors.append(f"{where}: given twice")
             continue
         entry["fill"][field] = value
         unit = f", {conversion[0].replace('_', ' ')}" if conversion else ""
-        entry["quotes"].append(f"p{page} ({field}{unit}): {normalise(quote)}")
+        entry["quotes"].setdefault(doc["kind"], []).append(f"p{page} ({field}{unit}): {normalise(quote)}")
 
     if errors:
         print("refusing to write; fix these first:", file=sys.stderr)
@@ -560,29 +572,28 @@ def main() -> int:
 
     sources, rows = [], []
     for case, entry in sorted(fills.items()):
-        doc = docs[case]
-        meta = doc["meta"]
-        source_id = f"SRC_{case.replace('-', '')}_{doc['kind'].upper()}"
-        sources.append(dict(
-            id=source_id,
-            title=f"{(meta.get('label') or doc['kind']).removesuffix('.pdf')} - {case} "
-                  f"({meta['project_slug'].replace('-', ' ')})",
-            publisher=KIND_PUBLISHER[doc["kind"]],
-            url=meta["url"],
-            doc_type="primary_planning_portal",
-            published=None,
-            credibility="A",
-            accessed=meta["fetched_utc"][:10],
-            notes=(f"{meta.get('folder') or ''} document for {case}, read {meta['fetched_utc'][:10]} from the "
-                   f"NSW Planning Portal (attachment {meta['attachment_slug']}), SHA-256 {meta['sha256']}, "
-                   f"{meta['bytes']} bytes, text by {meta['extractor']}, archived at "
-                   f"data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."),
-        ))
-        rows.append(dict(
-            match=dict(id=entry["site"]),
-            fill=entry["fill"],
-            add_sources=[dict(id=source_id, quote=" | ".join(entry["quotes"]))],
-        ))
+        cited = []
+        for kind, quotes in sorted(entry["quotes"].items()):
+            doc = docs[case][kind]
+            meta = doc["meta"]
+            source_id = f"SRC_{case.replace('-', '')}_{kind.upper()}"
+            sources.append(dict(
+                id=source_id,
+                title=f"{(meta.get('label') or kind).removesuffix('.pdf')} - {case} "
+                      f"({meta['project_slug'].replace('-', ' ')})",
+                publisher=KIND_PUBLISHER[kind],
+                url=meta["url"],
+                doc_type="primary_planning_portal",
+                published=None,
+                credibility="A",
+                accessed=meta["fetched_utc"][:10],
+                notes=(f"{meta.get('folder') or ''} document for {case}, read {meta['fetched_utc'][:10]} from "
+                       f"the NSW Planning Portal (attachment {meta['attachment_slug']}), SHA-256 "
+                       f"{meta['sha256']}, {meta['bytes']} bytes, text by {meta['extractor']}, archived at "
+                       f"data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."),
+            ))
+            cited.append(dict(id=source_id, quote=" | ".join(quotes)))
+        rows.append(dict(match=dict(id=entry["site"]), fill=entry["fill"], add_sources=cited))
 
     pack = {
         "pack_id": "ssd-documents-2026-10",
@@ -602,7 +613,7 @@ def main() -> int:
         json.dump(pack, f, indent=2, ensure_ascii=False)
         f.write("\n")
     n = sum(len(e["fill"]) for e in fills.values())
-    print(f"{len(docs)} documents verified; {n} values for {len(rows)} sites; "
+    print(f"{sum(len(held) for held in docs.values())} documents verified; {n} values for {len(rows)} sites; "
           f"wrote {os.path.relpath(OUT_PACK, ROOT)}")
     return 0
 

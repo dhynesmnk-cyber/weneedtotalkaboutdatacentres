@@ -225,6 +225,26 @@ CAPACITY_COLUMNS = ("it_capacity_mw", "total_capacity_mw", "max_capacity_mw")
 SETTLED = ({case for case, field, *_ in EXTRACTIONS if field in CAPACITY_COLUMNS}
            | {c[1] for c in COMPARISON if c[8]})   # c[8]: the consent's total power consumption
 MW_FIGURE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:MW\b|megawatts?(?:\s*\(MW\))?)", re.I)
+# Portal-only sites whose own documents were read for RG-099 (2026-10-14) without settling the
+# measure: what the document says goes on the row. True clears the columns, where no document calls
+# the figure IT load and the total is itself contested; False leaves the portal's figure in place.
+READ_NOT_SETTLED = {
+    "SSD-113934740": (True,
+        "Its scoping report labels 612 MW 'Power Consumption' (p27) and 'total power consumption' (p40), "
+        "and also says 'The expected total site load is approximately 700MW' (p35). 612 MW is not IT "
+        "load, so no capacity column holds it; which total stands is for RG-097. The portal lists a later "
+        "attachment titled 'issued-reject-eis' that answers 401 (not public), so it has not been read."),
+    "SSD-80814238": (False,
+        "Its EIS calls 34.3 MW 'IT Load' on pp35, 57 and 58 ('a peak PUE of 1.4, providing a total IT load "
+        "of 34.3MW') but 'total power consumption' on p11, and gives 'a total critical IT load of "
+        "approximately 42MW' on p54, so it stays as IT capacity, unsettled."),
+    "SSD-77274467": (False,
+        "Its request for SEARs describes 'a 45 megawatt data centre' without saying which measure, against "
+        "the portal's 38 MW."),
+    "SSD-91297457": (False,
+        "Its request for SEARs states no capacity. The portal now lists an environmental impact statement "
+        "that answers 401 (not public), so it has not been read."),
+}
 MEASURE = re.compile(r"((?:(?:total|overall|maximum)\s+)?(?:power consumption|power capacity|load capacity|"
                      r"operational capacity|capacity))\s+of\s*$", re.I)
 
@@ -281,16 +301,24 @@ def main() -> int:
             row.update(dict.fromkeys(cleared))
         elif figures:
             _, measure, phrase = figures[0]
-            column = "total_capacity_mw" if measure == "total" else "it_capacity_mw"
-            row[column] = mw
-            row["max_capacity_mw"] = mw
-            row["notes"] = (f"{notes} Capacity rests only on the portal's description ('{phrase}'), "
-                            + ("recorded as total capacity as the portal labels it"
-                               if measure == "total" else
-                               "which does not say whether it is IT load or total site draw, so it is "
-                               "recorded as IT capacity")
-                            + "; not yet checked against the project's own planning document (RG-099).")
-            portal_only.append(f"{site_id} ({r['case_id']}, '{phrase}', as {column})")
+            clear, read = READ_NOT_SETTLED.get(r["case_id"], (False, None))
+            if clear:
+                cleared = set(CAPACITY_COLUMNS)
+                row.update(dict.fromkeys(cleared))
+                row["notes"] = (f"{notes} Capacity unsettled: the portal says '{phrase}'. {read} (RG-099)")
+                portal_only.append(f"{site_id} ({r['case_id']}, '{phrase}', in no column)")
+            else:
+                column = "total_capacity_mw" if measure == "total" else "it_capacity_mw"
+                row[column] = mw
+                row["max_capacity_mw"] = mw
+                row["notes"] = (f"{notes} Capacity rests only on the portal's description ('{phrase}'), "
+                                + ("recorded as total capacity as the portal labels it"
+                                   if measure == "total" else
+                                   "which does not say whether it is IT load or total site draw, so it is "
+                                   "recorded as IT capacity")
+                                + " (RG-099). "
+                                + (read or "No public planning document has been found for it."))
+                portal_only.append(f"{site_id} ({r['case_id']}, '{phrase}', as {column})")
         if site_id in ("SITE_GLENDENNING", "SITE_MSFT_KEMPS", "SITE_MAMRE_ROAD", "SITE_NEXTDC_S7",
                        "SITE_ECHIDNA", "SITE_TURNER_RD", "SITE_NEXTDC_S4", "SITE_NEXTDC_S5",
                        "SITE_GOODMAN_ATLAS", "SITE_LANE_COVE_MARS"):
@@ -440,12 +468,12 @@ def main() -> int:
                      target_source="ASIC Connect company and business-name extracts; Appendix title documents in "
                                    "each SSD record (these name the registered proprietor); landlord disclosures",
                      fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id=SRC),
-                dict(id=99, pillar="A", priority=4, retrieval_method="manual_review", status="open",
+                dict(id=99, pillar="A", priority=4, retrieval_method="manual_review", status="in_progress",
                      opened=CORRECTED,
                      question=f"For the {len(portal_only)} NSW State Significant Development sites whose capacity "
-                              "rests only on the portal's one-line description, establish from the project's own "
-                              "planning document whether the figure is IT load or total site draw, and correct "
-                              "the column: " + "; ".join(portal_only) + ".",
+                              "still rests only on the portal's one-line description, establish from the "
+                              "project's own planning document whether the figure is IT load or total site draw, "
+                              "and correct the column: " + "; ".join(portal_only) + ".",
                      why_it_matters="The portal's labels cannot be relied on. Marsden Park's description says 'a "
                                     "power consumption of 504 megawatts' and 'a 720 MW substation'; the "
                                     "Department's assessment report says 'Maximum power capacity 720 MW (504 MW "
@@ -453,22 +481,30 @@ def main() -> int:
                                     "IT load (193.6 MW) nor its total (235 MW). Until v2.2.0 every description "
                                     "figure went to IT capacity, Marsden's 720 MW included. Sites whose own "
                                     "planning document or consent states the measure now take it from there; the "
-                                    "sites listed here have no such document yet. The two measures differ by the "
-                                    "cooling and electrical overhead, about half again at a PUE of 1.5, so a "
-                                    "misfiled figure misstates rack capacity by a third or more.",
+                                    "sites listed here have no document that settles it yet. The two measures "
+                                    "differ by the cooling and electrical overhead, about half again at a PUE of "
+                                    "1.5, so a misfiled figure misstates rack capacity by a third or more.",
                      target_source="The project's own assessment report, EIS or scoping report on the NSW Planning "
                                    "Portal, read as RG-097 reads the others (scripts/curate_ssd_documents.py)",
-                     notes="NEXTDC S7 (SSD-113934740) is the sharpest case. Its scoping report calls 612 MW total "
-                           "power consumption and also gives about 700 MW as expected site load, so RG-097 took "
-                           "neither; on either reading 612 MW is not IT load, but which total is right is "
-                           "unsettled. 52 Turner Road (SSD-60185233) has no public project document (RG-097); the "
-                           "others have an archived scoping report or request for SEARs from which RG-097 took no "
-                           "capacity figure, so each needs that document re-read for the measure, or a later one. "
-                           "max_capacity_mw on these rows holds the same figure. Settled from "
-                           "documents in v2.2.1 and no longer listed: Marsden Park, Project Pluto (IT 68 MW of a "
-                           "100 MW total; the portal's 126 MW 'load capacity' was neither), 1-5 Khartoum Road "
-                           "(IT 51.4 MW of 76.4 MW, not the portal's 35 MW), Honeman Close, Project Echidna and "
-                           "12 Frederick Street (each a total), KC1, and Davis Road from its consent.",
+                     notes="ADVANCED 2026-10-14. Settled from documents: STACK SYD01, whose EIS (archived for "
+                           "this gap) calls 450 MW a total power consumption, and NEXTDC S4 Phase 2, whose scoping "
+                           "report says 'a total power consumption of 134.4MW'; both now take total capacity from "
+                           "them. Read without settling, each row saying what its document says: NEXTDC S7 (612 MW "
+                           "is labelled total power consumption, never IT load, so it is now in no column; which "
+                           "total stands is RG-097's), Road 1 (its EIS mostly calls 34.3 MW IT load but also "
+                           "total power consumption, and gives ~42 MW critical IT load elsewhere), 22 O'Riordan "
+                           "Street (its request for SEARs says 45 MW, unlabelled, against the portal's 38 MW) and "
+                           "23-25 Waterloo Road (no capacity in its request for SEARs). 52 Turner Road was "
+                           "withdrawn and has no public document. Two attachments on the live portal answer 401 "
+                           "and were not read: an EIS for 23-25 Waterloo Road, and one titled 'issued-reject-eis' "
+                           "on NEXTDC S7; its title alone does not establish that the EIS was rejected. "
+                           "scrapers/fetch_ssd_documents.py now recognises an EIS uploaded as 'EIS_<title>', "
+                           "which is how Road 1's and STACK's were missed, and takes --case to fetch a project's "
+                           "preferred document. max_capacity_mw on the listed rows holds the same figure. Settled "
+                           "in v2.2.1: Marsden Park, Project Pluto (IT 68 MW of a 100 MW total; the portal's "
+                           "126 MW 'load capacity' was neither), 1-5 Khartoum Road (IT 51.4 MW of 76.4 MW, not the "
+                           "portal's 35 MW), Honeman Close, Project Echidna and 12 Frederick Street (each a "
+                           "total), KC1, and Davis Road from its consent.",
                      fact_status="VERIFIED", confidence="high", as_of_date=CORRECTED, source_id=SRC),
             ],
         },

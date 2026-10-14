@@ -1,0 +1,10 @@
+{
+ "url": "https://mandalapartners.com/uploads/Data-Centres-as-Enabling-Infrastructure.pdf",
+ "requested_url": "https://mandalapartners.com/uploads/Data-Centres-as-Enabling-Infrastructure.pdf",
+ "fetched_utc": "2026-10-14T20:42:20+00:00",
+ "sha256": "6445286de89eee556084ff190cae41b6c97c577588f1837fbe80b5ae4050585d",
+ "bytes": 5032503,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 48
+}

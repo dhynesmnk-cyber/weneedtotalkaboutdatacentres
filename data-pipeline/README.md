@@ -4,7 +4,30 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.2.1 · data as at 14 October 2026 · 1,458 data rows (+503 source refs) · 93 sites · 138 entities · 341 metrics · 246 catalogued sources (183 primary)**
+**Release v2.2.2 · data as at 14 October 2026 · 1,462 data rows (+514 source refs) · 93 sites · 138 entities · 341 metrics · 248 catalogued sources (184 primary)**
+
+v2.2.2 works the two gaps v2.2.1 opened. Neither closes; both are now `in_progress`.
+
+- **RG-099, capacity the portal does not settle.** The SSD document fetcher missed the EIS for Road 1 and
+  STACK SYD01, whose file names join "EIS" to the title with an underscore; it now finds them, and `--case` fetches one
+  project's documents. **STACK SYD01 is settled**: its EIS gives "a total power consumption of 450 megawatts",
+  so 450 MW is a total, not IT capacity. **NEXTDC S4 Phase 2** is settled the same way from its scoping report
+  (134.4 MW total).
+  **NEXTDC S7 is cleared**: its EIS gives 612 MW of "Power Consumption" and, two pages away, "total site load
+  ... approximately 700MW", so neither stands in any column, and NSW's lodged pipeline falls from 3,795 MW to
+  3,183 MW. S7's later "issued-reject-eis" attachment answers 401 and was not read. Road 1 (its EIS calls
+  34.3 MW both IT load and total power consumption) and O'Riordan Street (its request for SEARs says 45 MW,
+  the portal 38 MW) stay as they were, with what was read recorded against them. Five sites remain on RG-099.
+- **RG-100, what rested on CertifiedStrategic.com.** The article is now archived, in its version of 2 October
+  2026. It does not mention **Vantage, AustralianSuper, AirTrunk SYD3 or Stockland**, though all four cited
+  it: the two entities' claims are withdrawn and the two sites take their own better sources as primary. The
+  Mandala report it names for 1,350 MW and 3,100 MW (*Data Centres as Enabling Infrastructure*, November
+  2025) states neither figure, so those metrics and CBRE's (unread, 403) drop to low confidence. The register
+  now cites five providers' certified sites, the framework's "highest level of assurance" wording, and the
+  Macquarie record, which is derived from it and now **VERIFIED**: of 14 data centre providers and 15 cloud
+  providers, Macquarie Technology Group is the only one on both lists. Macquarie has **six** certified sites,
+  not five (IC3e was missing). Marsden Park's application row now cites the portal and its assessment report.
+  Mandala's October 2024 report is refused by its host's robots.txt and is left for a human to download.
 
 v2.2.1 is a **correction release**, prompted by a review of CertifiedStrategic.com and reconciled with
 batches S2-S4. Three defects are fixed and one source is regraded.

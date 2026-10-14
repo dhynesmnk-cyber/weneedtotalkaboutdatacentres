@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Analytics 4 (G-W47DZJCY7C). Loads straight away, async, on the
+         production hosts only: Vercel previews and localhost send nothing.
+         Internal visits opt out: any URL with ?cs_internal=1 sets localStorage
+         cs_internal=1 in this browser, ?cs_internal=0 clears it, and while it
+         is set GA is not loaded at all. The Brief signup page
+         (brief.certifiedstrategic.com) runs the same flag logic. The gtag()
+         stub is defined everywhere so tracking calls never throw. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function(){
+        var GA_ID='G-W47DZJCY7C';
+        var HOSTS={'certifiedstrategic.com':true,'www.certifiedstrategic.com':true};
+        var flag=null;
+        try{flag=new URLSearchParams(location.search).get('cs_internal');}catch(e){}
+        var internal=flag==='1';
+        try{
+          if(flag==='1')localStorage.setItem('cs_internal','1');
+          else if(flag==='0')localStorage.removeItem('cs_internal');
+          else internal=localStorage.getItem('cs_internal')==='1';
+        }catch(e){}
+        if(internal||!HOSTS[location.hostname])return;
+        var s=document.createElement('script');
+        s.async=true;
+        s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;
+        document.head.appendChild(s);
+        gtag('js',new Date());
+        gtag('config',GA_ID);
+      })();
+    </script>
+    <!-- Apollo.io website visitor tracker (company level only). Same
+         conditions as the GA block above: production hosts only, and skipped
+         while the cs_internal flag is set (read after the GA block has
+         processed ?cs_internal on this load). Also skipped when the page is
+         first loaded on an /admin path. The Apollo snippet inside the guard
+         is unchanged from Apollo's copy. -->
+    <script>
+      (function(){
+        var HOSTS={'certifiedstrategic.com':true,'www.certifiedstrategic.com':true};
+        if(!HOSTS[location.hostname])return;
+        var flag=null;
+        try{flag=new URLSearchParams(location.search).get('cs_internal');}catch(e){}
+        var internal=flag==='1';
+        if(flag!=='1'&&flag!=='0'){
+          try{internal=localStorage.getItem('cs_internal')==='1';}catch(e){}
+        }
+        if(internal)return;
+        if(location.pathname.indexOf('/admin')===0)return;
+        function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,o.onload=function(){window.trackingFunctions.onLoad({appId:"6ab0b35679158a001c2d4b0a"})},document.head.appendChild(o)}initApollo();
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- Preconnect to Google Fonts for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Load Hanken Grotesk (body) + Newsreader (headings) without blocking first render -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=optional" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=optional" media="print" onload="this.onload=null;this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=optional" media="all" /></noscript>
+
+    <!-- Critical CSS for above-the-fold rendering -->
+    <style>
+      *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+      body{font-family:"Hanken Grotesk",-apple-system,Roboto,Helvetica,sans-serif;background:#fff;color:#2a2d3e}
+      #root{min-height:100vh}
+      h1{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-size:2.25rem;font-weight:600;line-height:1.2;text-align:center}
+      @media(min-width:768px){h1{font-size:2.5rem}}
+    </style>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0B2239" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFD438" />
+
+    <title>Top Data Centres in Australia: 2026 Directory and Market Overview | Australia Data Centre Index</title>
+    <meta name="description" content="This list of data centres in Australia covers 62 government-approved sites, 21 HCF Certified Strategic facilities and 41 enclaves run by 14 providers. It profiles the operators by city, with links to every site in our full directory." />
+    <meta name="author" content="Australia Data Centre Index" />
+    <link rel="canonical" href="https://certifiedstrategic.com/insights/top-data-centres-in-australia-2026-directory-and-market-overview" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Australia Data Centre Index" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta property="og:image" content="https://cqkahwrchxtcoiexmlxf.supabase.co/storage/v1/object/public/article-images/top-data-centres-in-australia-2026-directory-and-market-overview-1786713289426.jpg" />
+    <meta property="og:url" content="https://certifiedstrategic.com/insights/top-data-centres-in-australia-2026-directory-and-market-overview" />
+
+    <meta name="twitter:image" content="https://cqkahwrchxtcoiexmlxf.supabase.co/storage/v1/object/public/article-images/top-data-centres-in-australia-2026-directory-and-market-overview-1786713289426.jpg" />
+
+    <meta property="og:title" content="Top Data Centres in Australia: 2026 Directory and Market Overview | Australia Data Centre Index" />
+    <meta name="twitter:title" content="Top Data Centres in Australia: 2026 Directory and Market Overview | Australia Data Centre Index" />
+    <meta property="og:description" content="This list of data centres in Australia covers 62 government-approved sites, 21 HCF Certified Strategic facilities and 41 enclaves run by 14 providers. It profiles the operators by city, with links to every site in our full directory." />
+    <meta name="twitter:description" content="This list of data centres in Australia covers 62 government-approved sites, 21 HCF Certified Strategic facilities and 41 enclaves run by 14 providers. It profiles the operators by city, with links to every site in our full directory." />
+    <script>
+      // Keep this route metadata aligned with app routes, Vercel prerender rewrites, and SEO regression tests.
+      (function(){
+        var p=window.location.pathname.replace(/\/$/,'')||'/';
+        var m={
+          '/':{
+            title:'Australian Government Approved Data Centres | HCF Certified',
+            canonical:'https://certifiedstrategic.com/',
+            ogUrl:'https://certifiedstrategic.com/'
+          },
+          '/directory':{
+            title:'Data Centre Companies in Australia | Operator Directory',
+            description:'Directory of data centre companies, operators and providers in Australia: every facility by provider, state, city and power band.',
+            canonical:'https://certifiedstrategic.com/sites',
+            ogUrl:'https://certifiedstrategic.com/sites'
+          },
+          '/insights':{
+            title:'Data Centre News & Market Insights Australia 2026 | CertifiedStrategic',
+            description:'Independent analysis of Australia\u2019s data centre and AI infrastructure market. Weekly articles covering capacity, certification, connectivity sovereignty and facility strategy across Australian operators.',
+            canonical:'https://certifiedstrategic.com/insights',
+            ogUrl:'https://certifiedstrategic.com/insights'
+          },
+          '/membership':{
+            title:'Membership | Australia Data Centre Index',
+            description:'Join Australia\u2019s Data Centre Intelligence Network. Membership includes directory presence, market intelligence, strategic initiatives, and brand recognition.',
+            canonical:'https://certifiedstrategic.com/membership',
+            ogUrl:'https://certifiedstrategic.com/membership'
+          },
+          '/advertise':{
+            title:'Advertise with Certified Strategic | Australia Data Centre Index',
+            description:'Reach the operators, investors, government teams and hyperscaler buyers behind Australia\u2019s data centre and AI infrastructure. Independent, category-exclusive.',
+            canonical:'https://certifiedstrategic.com/advertise',
+            ogUrl:'https://certifiedstrategic.com/advertise'
+          },
+          '/jobs':{
+            title:'Australian Data Centre & AI Infrastructure Jobs | CertifiedStrategic',
+            description:'Curated job listings across Australia’s data centre, AI infrastructure and critical facilities sector. Roles from AirTrunk, Anthropic, AWS, CDC Data Centres, Equinix, Firmus, NEXTDC, OpenAI, Schneider Electric and more. Updated fortnightly.',
+            canonical:'https://certifiedstrategic.com/jobs',
+            ogUrl:'https://certifiedstrategic.com/jobs'
+          },
+          '/sites':{
+            title:'Data Centre Companies in Australia | Operator Directory',
+            description:'Directory of data centre companies, operators and providers in Australia: every facility by provider, state, city and power band.',
+            canonical:'https://certifiedstrategic.com/sites',
+            ogUrl:'https://certifiedstrategic.com/sites'
+          },
+          '/about':{
+            title:'About Certified Strategic | Australia Data Centre Index',
+            description:'Independent intelligence platform tracking capacity, certification and strategy across Australia\u2019s critical data centre infrastructure.',
+            canonical:'https://certifiedstrategic.com/about',
+            ogUrl:'https://certifiedstrategic.com/about'
+          },
+          '/operators':{
+            title:'Data Centre Operators in Australia: Profiles and HCF Certification | Australia Data Centre Index',
+            description:'Directory of Australian data centre operators, from ASX-listed groups to privately held builders, with sites, HCF certification status and key figures for each profile.',
+            canonical:'https://certifiedstrategic.com/operators',
+            ogUrl:'https://certifiedstrategic.com/operators'
+          },
+          '/neoclouds':{
+            title:'Neoclouds in Australia: GPU Cloud Providers and AI Infrastructure | Australia Data Centre Index',
+            description:'Directory of neocloud companies profiled by Certified Strategic, covering Australian GPU capacity, deployment partners and funding.',
+            canonical:'https://certifiedstrategic.com/neoclouds',
+            ogUrl:'https://certifiedstrategic.com/neoclouds'
+          },
+          '/ai-labs':{
+            title:'AI Labs in Australia: Frontier AI Companies and Data Centre Plans | Australia Data Centre Index',
+            description:'Directory of AI labs profiled by Certified Strategic for their Australian presence, government engagement and data centre investment plans.',
+            canonical:'https://certifiedstrategic.com/ai-labs',
+            ogUrl:'https://certifiedstrategic.com/ai-labs'
+          },
+          '/operators/nextdc':{
+            title:'NEXTDC data centres in Australia: sites, HCF certification and capacity (ASX:NXT) | Australia Data Centre Index',
+            description:'NEXTDC operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/nextdc',
+            ogTitle:'NEXTDC data centres in Australia: sites, HCF certification and capacity (ASX:NXT)',
+            ogDescription:'Australian operator profile for NEXTDC, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/nextdc',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-nextdc.png'
+          },
+          '/operators/airtrunk':{
+            title:'AirTrunk data centres in Australia: sites, HCF certification and capacity | Australia Data Centre Index',
+            description:'AirTrunk operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/airtrunk',
+            ogTitle:'AirTrunk data centres in Australia: sites, HCF certification and capacity',
+            ogDescription:'Australian operator profile for AirTrunk, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/airtrunk',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-airtrunk.png'
+          },
+          '/operators/canberra-data-centres':{
+            title:'Canberra Data Centres (CDC): Australian sites, HCF certification and capacity | Australia Data Centre Index',
+            description:'Canberra Data Centres operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/canberra-data-centres',
+            ogTitle:'Canberra Data Centres (CDC): Australian sites, HCF certification and capacity',
+            ogDescription:'Australian operator profile for CDC, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/canberra-data-centres',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-cdc.png'
+          },
+          '/operators/macquarie-data-centres':{
+            title:'Macquarie Data Centres: Australian sites, HCF certification and capacity (ASX:MAQ) | Australia Data Centre Index',
+            description:'Macquarie Data Centres operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/macquarie-data-centres',
+            ogTitle:'Macquarie Data Centres: Australian sites, HCF certification and capacity (ASX:MAQ)',
+            ogDescription:'Australian operator profile for Macquarie Data Centres, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/macquarie-data-centres',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-macquarie-data-centres.png'
+          },
+          '/operators/digico':{
+            title:'DigiCo data centres in Australia: sites, HCF certification and capacity (ASX:DGT) | Australia Data Centre Index',
+            description:'DigiCo operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/digico',
+            ogTitle:'DigiCo data centres in Australia: sites, HCF certification and capacity (ASX:DGT)',
+            ogDescription:'Australian operator profile for DigiCo, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/digico',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-digico.png'
+          },
+          '/operators/digital-realty':{
+            title:'Digital Realty data centres in Australia: sites, HCF certification and capacity (NYSE:DLR) | Australia Data Centre Index',
+            description:'Digital Realty operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/digital-realty',
+            ogTitle:'Digital Realty data centres in Australia: sites, HCF certification and capacity (NYSE:DLR)',
+            ogDescription:'Australian operator profile for Digital Realty, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/digital-realty',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-digital-realty.png'
+          },
+          '/operators/dci-data-centers':{
+            title:'DCI Data Centers in Australia: sites, HCF certification and capacity | Australia Data Centre Index',
+            description:'DCI Data Centers operator profile for Australian data centre sites, HCF certification status, footprint and key figures.',
+            canonical:'https://certifiedstrategic.com/operators/dci-data-centers',
+            ogTitle:'DCI Data Centers in Australia: sites, HCF certification and capacity',
+            ogDescription:'Australian operator profile for DCI Data Centers, including sites, HCF certification, footprint and latest coverage.',
+            ogUrl:'https://certifiedstrategic.com/operators/dci-data-centers',
+            ogImage:'https://certifiedstrategic.com/images/operators/cropped-dci-data-centers.png'
+          },
+          '/neoclouds/sharon-ai':{
+            title:'Sharon AI in Australia: sovereign GPU cloud, NVIDIA capacity and NEXTDC deployment (NASDAQ:SHAZ) | Australia Data Centre Index',
+            description:'Sharon AI profile covering its Australian GPU cloud capacity, NEXTDC deployment, NVIDIA platform, customers, funding and NASDAQ:SHAZ listing.',
+            canonical:'https://certifiedstrategic.com/neoclouds/sharon-ai',
+            ogTitle:'Sharon AI in Australia: sovereign GPU cloud, NVIDIA capacity and NEXTDC deployment (NASDAQ:SHAZ)',
+            ogDescription:'Sharon AI profile covering its Australian GPU cloud capacity, NEXTDC deployment, NVIDIA platform, customers, funding and NASDAQ:SHAZ listing.',
+            ogUrl:'https://certifiedstrategic.com/neoclouds/sharon-ai',
+            ogImage:'https://certifiedstrategic.com/images/ai-profiles/sharon-ai.png'
+          },
+          '/neoclouds/firmus':{
+            title:'Firmus: valuation, owners, withdrawn IPO and AI factories | Australia Data Centre Index',
+            description:'Firmus valuation history, who owns Firmus, its withdrawn October 2026 ASX float, and its AI factories in Australia, Singapore, Indonesia and Malaysia.',
+            canonical:'https://certifiedstrategic.com/neoclouds/firmus',
+            ogTitle:'Firmus: valuation, owners, withdrawn IPO and AI factories',
+            ogDescription:'Firmus valuation history, who owns Firmus, its withdrawn October 2026 ASX float, and its AI factories in Australia, Singapore, Indonesia and Malaysia.',
+            ogUrl:'https://certifiedstrategic.com/neoclouds/firmus',
+            ogImage:'https://certifiedstrategic.com/images/ai-profiles/firmus.png'
+          },
+          '/neoclouds/iren':{
+            title:'IREN: Australian-founded, Nasdaq-listed AI cloud and bitcoin miner (NASDAQ:IREN) | Australia Data Centre Index',
+            description:'IREN profile covering its Australian founding, Sydney headquarters, North American data centres, AI cloud contracts, bitcoin mining and NASDAQ:IREN listing.',
+            canonical:'https://certifiedstrategic.com/neoclouds/iren',
+            ogTitle:'IREN: Australian-founded, Nasdaq-listed AI cloud and bitcoin miner (NASDAQ:IREN)',
+            ogDescription:'IREN profile covering its Australian founding, Sydney headquarters, North American data centres, AI cloud contracts, bitcoin mining and NASDAQ:IREN listing.',
+            ogUrl:'https://certifiedstrategic.com/neoclouds/iren',
+            ogImage:'https://certifiedstrategic.com/images/ai-profiles/iren.png'
+          },
+          '/ai-labs/anthropic-australia':{
+            title:'Anthropic in Australia: Sydney office, government MoU and data centre intent | Australia Data Centre Index',
+            description:'Anthropic Australia profile covering its Sydney office, Australian Government MoU, AI for Science program, partners and data centre investment intent.',
+            canonical:'https://certifiedstrategic.com/ai-labs/anthropic-australia',
+            ogTitle:'Anthropic in Australia: Sydney office, government MoU and data centre intent',
+            ogDescription:'Anthropic Australia profile covering its Sydney office, Australian Government MoU, AI for Science program, partners and data centre investment intent.',
+            ogUrl:'https://certifiedstrategic.com/ai-labs/anthropic-australia',
+            ogImage:'https://certifiedstrategic.com/images/ai-profiles/anthropic.png'
+          },
+          '/ai-labs/openai-australia':{
+            title:'OpenAI in Australia: the NEXTDC S7 Stargate data centre | Australia Data Centre Index',
+            description:'OpenAI Australia profile covering OpenAI for Australia, NEXTDC S7 Stargate plans, sovereign compute, OpenAI Academy and Australian partnerships.',
+            canonical:'https://certifiedstrategic.com/ai-labs/openai-australia',
+            ogTitle:'OpenAI in Australia: the NEXTDC S7 Stargate data centre',
+            ogDescription:'OpenAI Australia profile covering OpenAI for Australia, NEXTDC S7 Stargate plans, sovereign compute, OpenAI Academy and Australian partnerships.',
+            ogUrl:'https://certifiedstrategic.com/ai-labs/openai-australia',
+            ogImage:'https://certifiedstrategic.com/images/ai-profiles/openai.png'
+          },
+          '/terms':{
+            title:'Terms of Use | CertifiedStrategic',
+            description:'Terms of use for CertifiedStrategic.com, Australia\u2019s independent data centre intelligence platform.',
+            canonical:'https://certifiedstrategic.com/terms',
+            ogUrl:'https://certifiedstrategic.com/terms'
+          },
+          '/privacy':{
+            title:'Privacy Policy | CertifiedStrategic',
+            description:'Privacy policy for CertifiedStrategic.com. How we collect, use and protect personal information in accordance with the Australian Privacy Act 1988.',
+            canonical:'https://certifiedstrategic.com/privacy',
+            ogUrl:'https://certifiedstrategic.com/privacy'
+          }
+        };
+        var d=m[p];
+        if(!d)return;
+        document.title=d.title;
+        function upsertMeta(attr,key,val){
+          if(!val)return;
+          var el=document.querySelector('meta['+attr+'="'+key+'"]');
+          if(!el){
+            el=document.createElement('meta');
+            el.setAttribute(attr,key);
+            document.head.appendChild(el);
+          }
+          el.setAttribute('content',val);
+        }
+        function upsertLink(rel,href){
+          if(!href)return;
+          var el=document.querySelector('link[rel="'+rel+'"]');
+          if(!el){
+            el=document.createElement('link');
+            el.rel=rel;
+            document.head.appendChild(el);
+          }
+          el.setAttribute('href',href);
+        }
+        upsertMeta('name','description',d.description);
+        upsertLink('canonical',d.canonical||('https://certifiedstrategic.com'+(p==='/'?'':p)));
+        upsertMeta('property','og:title',d.ogTitle||d.title);
+        upsertMeta('property','og:description',d.ogDescription||d.description);
+        upsertMeta('property','og:url',d.ogUrl||d.canonical||('https://certifiedstrategic.com'+(p==='/'?'':p)));
+        upsertMeta('property','og:image',d.ogImage||'https://certifiedstrategic.com/images/hero-background.png');
+        upsertMeta('property','og:image:width',d.ogImageWidth);
+        upsertMeta('property','og:image:height',d.ogImageHeight);
+        upsertMeta('property','og:type',d.ogType||'website');
+        upsertMeta('property','og:site_name',d.ogSiteName||'Australia Data Centre Index');
+        upsertMeta('name','twitter:card',d.twitterCard||'summary_large_image');
+        upsertMeta('name','twitter:title',d.twitterTitle||d.ogTitle||d.title);
+        upsertMeta('name','twitter:description',d.twitterDescription||d.ogDescription||d.description);
+        upsertMeta('name','twitter:image',d.twitterImage||d.ogImage||'https://certifiedstrategic.com/images/hero-background.png');
+      })();
+    </script>
+  <script type="module" crossorigin src="/assets/index-BLHGz-dT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BlLf2R7P.css">
+    <link rel="preload" as="image" imagesrcset="https://cqkahwrchxtcoiexmlxf.supabase.co/storage/v1/render/image/public/article-images/top-data-centres-in-australia-2026-directory-and-market-overview-1786713289426.jpg?width=480&amp;resize=contain&amp;quality=75 480w, https://cqkahwrchxtcoiexmlxf.supabase.co/storage/v1/render/image/public/article-images/top-data-centres-in-australia-2026-directory-and-market-overview-1786713289426.jpg?width=960&amp;resize=contain&amp;quality=75 960w" imagesizes="(max-width: 640px) 100vw, 960px" fetchpriority="high" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://certifiedstrategic.com"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://certifiedstrategic.com/insights"},{"@type":"ListItem","position":3,"name":"Top Data Centres in Australia: 2026 Directory and Market Overview","item":"https://certifiedstrategic.com/insights/top-data-centres-in-australia-2026-directory-and-market-overview"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Top Data Centres in Australia: 2026 Directory and Market Overview","description":"This list of data centres in Australia covers 62 government-approved sites, 21 HCF Certified Strategic facilities and 41 enclaves run by 14 providers. It profiles the operators by city, with links to every site in our full directory.","articleBody":"Australia's Data Centre Market in 2026 Australia now ranks fifth globally and second in the Asia Pacific region for data centre capacity, behind only the United States, China, the United Kingdom and Germany (see our full directory of data centre companies in Australia ).​ Mandala Partners' report Data Centres as Enabling Infrastructure forecasts that Australia's deployable data centre capacity will more than double from 1,350MW in 2024 to 3,100MW by 2030, requiring more than AUD $26 billion in new infrastructure investment. CBRE's August 2025 research, AI Adoption Drives Australia's Data Centre Investment and Demand , projects live capacity will grow from approximately 1.4GW in 2025 to around 1.8GW by 2028, while estimated demand will outpace supply by 0.7 to 1.7GW in the same period. CBRE estimates the total investable universe of the Australian data centre sector will reach approximately AUD $46 billion by 2028. The primary demand driver is the structural shift toward AI workloads, reflected across hyperscaler commitments, sovereign cloud programmes and enterprise AI adoption nationally. This shift is visible at the facility level: NEXTDC and OpenAI have signed a memorandum of understanding to jointly develop a 612MW hyperscale AI campus and GPU supercluster at NEXTDC's S7 site in Eastern Creek, Sydney, valued at AUD $7 billion, with OpenAI as the initial anchor tenant under its OpenAI for Countries program. It is one of several large-scale AI infrastructure commitments now in motion across the country, alongside CDC's 504MW Marsden Park campus and NEXTDC's AUD $2 billion M4 Melbourne development approval What Is an HCF-Certified Data Centre? The Australian Government's Hosting Certification Framework (HCF), administered by the Digital Transformation Agency (DTA), certifies data centres at two levels: Certified Strategic and Certified Assured. Certified Strategic is the highest designation, required for sensitive and PROTECTED government workloads under the Whole-of-Government Hosting Strategy. There are currently 62 Certified Strategic Facilities and Enclaves across Australia operated by 14 providers. These are the facilities tracked and indexed by CertifiedStrategic.com .​ Top Data Centre Companies and Operators in Australia NEXTDC NEXTDC is Australia's most geographically distributed certified data centre operator, with 13 HCF-certified Strategic sites across Sydney (S1, S2, S3), Melbourne (M1, M2, M3), Canberra (C1), Brisbane (B1, B2), Perth (P1, P2), Adelaide (A1) and Darwin (D1). It is the only operator with a certified presence in every mainland capital city plus Darwin. S3 in Sydney, M2 and M3 in Melbourne are all 20 to 100MW enclaves. D1 is the only HCF-certified facility in Darwin.​​ In January 2026, NEXTDC received Victorian Government development approval for its M4 campus at Fishermans Bend in Port Melbourne: a 162MW, AUD $2 billion facility designed for AI, defence and sovereign technology workloads, with rack densities exceeding 1,000kW and direct-to-chip liquid cooling. NEXTDC is ASX-listed (NXT) and is a confirmed anchor customer on the SUBCO SMAP hypercable system. CDC Data Centres CDC Data Centres operates 12 HCF-certified sites, the largest portfolio by site count in Australia. Seven sites are in Canberra across the Fyshwick (F1, F2) and Hume (H1 to H5) precincts, four in Sydney at Eastern Creek (EC1 to EC4) and one in Melbourne at Brooklyn.​ CDC began work on a 504MW campus at Marsden Park in Sydney's north-west in October 2024 and won NSW planning approval in November 2025. It will be the largest data centre campus in the Southern Hemisphere when complete. In Melbourne, CDC commenced construction of a 150MW Laverton campus in early 2025, a AUD $2.7 billion investment. CDC is a confirmed SMAP anchor operator. Equinix Equinix holds 10 HCF-Certified Strategic Enclaves and one Strategic Facility across Sydney (SY3 to SY7), Melbourne (ME1, ME2, ME4), Canberra (CA1) and Perth (PE2, PE3). Its certified Sydney and Melbourne enclaves sit adjacent to its International Business Exchange facilities, which host cloud on-ramps for AWS, Azure and Google Cloud in Australia. Equinix is a confirmed SMAP anchor operator, with Perth and Sydney certified sites on the new east-west connectivity spine from March 2026.​ AirTrunk AirTrunk operates three HCF-certified Strategic Facilities: SYD1 at Huntingwood, SYD2 at Lane Cove and MEL1 at Derrimut, all in the 20 to 100MW band. Its facilities are purpose-built for hyperscale and AI workloads. AirTrunk is a confirmed SMAP anchor operator and is majority-owned by Blackstone.​ Macquarie Technology Group Macquarie Technology Group operates six HCF-Certified Strategic sites: Strategic Enclaves IC1, IC2, IC3 and IC3e in Sydney, and Strategic Facilities IC4 and IC5 at Fairbairn in Canberra. Its IC3 Super West facility at Macquarie Park is a purpose-built AI-ready certified data centre with direct-to-chip liquid cooling. Macquarie operates both a certified physical facility and an HCF-certified Sovereign Cloud service, making it the only vertically integrated certified sovereign stack in Australia. ASX-listed (MAQ).​ Digital Realty Digital Realty operates four HCF-Certified Strategic Enclaves: SYD10, SYD11 and SYD14 at Erskine Park in Western Sydney, and MEL11 at Deer Park in Melbourne, all in the 20 to 100MW band. Its sites operate as neutral carrier and hyperscale colocation hubs with global PlatformDIGITAL connectivity. NYSE-listed (DLR).​ DCI Data Centers DCI Data Centers operates a single HCF-certified Strategic Enclave: SYD-01 at Eastern Creek in Western Sydney, in the 20 to 100MW band. It is one of the largest single certified sites in Australia by power band and is positioned in the primary Western Sydney data centre corridor.​ Telstra Telstra holds two HCF-certified sites: the Deakin Strategic Enclave in Canberra (2.5 to 20MW) and the St Leonards Strategic Enclave in Sydney (below 5MW). ASX-listed (TLS).​ Australian Data Centres, Springfield City Group, Fujitsu Australia, DigiCo, Cloud Carrier, Vocus The remaining certified operators each hold between one and three certified sites. Australian Data Centres holds two Canberra sites, ADC Fyshwick and ADC Mitchell, and Vocus holds one, an enclave at TransACT House in Dickson. Springfield City Group (Polaris, Brisbane) and DigiCo (BNE2, Brisbane) are the certified operators in Queensland outside NEXTDC. DigiCo (ASX: DGT) also holds enclaves in Sydney (SYD1) and Adelaide (ADL1). Fujitsu Australia holds two Sydney enclaves, and Cloud Carrier holds one NSW certified site (DB1, Moss Vale).​ For how these operators rank by scale, certification and momentum, see our 2026 ranking of Australia's top data centre operators . List of Data Centres in Australia Certified Strategic Data Centres by Location Location Certified Sites Key Operators Sydney 25 Equinix, Macquarie, CDC, NEXTDC, Digital Realty, Fujitsu, AirTrunk, DCI, Telstra, DigiCo Canberra 15 CDC, Macquarie Technology, Australian Data Centres, Equinix, NEXTDC, Telstra, Vocus Melbourne 9 NEXTDC, Equinix, AirTrunk, Digital Realty, CDC Brisbane 4 NEXTDC, Springfield City Group, DigiCo Perth 4 NEXTDC, Equinix Adelaide 2 NEXTDC, DigiCo Darwin 1 NEXTDC Moss Vale 1 Cloud Carrier Wollongong 1 Equinix Total 62 ​Browse the full, searchable directory of data centres in Australia for every site by provider, city and certification level. Major Developments: 2025 to 2026 NEXTDC M4, Melbourne. Development approval received January 2026. 162MW campus at Fishermans Bend, AUD $2 billion, AI-ready with liquid cooling. CDC Marsden Park, Sydney. NSW planning approval November 2025, groundbreaking October 2024. 504MW, six buildings, largest data centre campus in the Southern Hemisphere when complete. CDC Laverton, Melbourne. Construction commenced early 2025. 150MW, AUD $2.7 billion.​ NEXTDC S7 and OpenAI AI Campus, Sydney. 612MW hyperscale AI campus and GPU supercluster under development at Eastern Creek via NEXTDC and OpenAI MOU. AUD $7 billion. OpenAI is the initial anchor tenant under its OpenAI for Countries program; first-phase delivery is expected in the second half of 2027. SUBCO SMAP Hypercable . First services on the Perth-Adelaide-Melbourne segment delivered March 2026. Full system commissioning May 2026. 400Tb-plus capacity across 16 fibre pairs. NEXTDC, CDC, Equinix and AirTrunk are confirmed anchor data centre operators. Anthropic, at least 1.4GW. Anthropic went to tender for at least 1.4GW of Australian capacity. The Australian Financial Review reported its first lease on 16 September 2026, at the campus Zerra DC is planning at Kogan in Queensland's Western Downs, and on 22 September reported that it is in advanced talks to anchor AirTrunk's 540MW campus at Kurri Kurri in the Hunter. Neoclouds: Sharon AI, Firmus and IREN. GPU-first cloud operators building AI capacity in Australia alongside the colocation providers above. See the Sharon AI , Firmus and IREN profiles, and how neoclouds differ from hyperscalers . Key Research and Reports The following reports provide the primary market data underpinning Australia's data centre capacity and demand forecasts: Mandala Partners, Data Centres as Enabling Infrastructure (2025): commissioned by Australia's five largest data centre operators, forecasting 3,100MW by 2030 and AUD $26 billion in required investment. Mandala Partners, Empowering Australia's Digital Future (2024): foundational analysis of data centres as enabling infrastructure for the digital economy.​ CBRE, AI Adoption Drives Australia's Data Centre Investment and Demand (August 2025): capacity growth projections, supply-demand gap modelling and investable universe estimate to 2028.​ CBRE, Why Australia for Data Centres (2025): strategic positioning of Australia as a data centre destination in the Asia Pacific context.","image":"https://cqkahwrchxtcoiexmlxf.supabase.co/storage/v1/object/public/article-images/top-data-centres-in-australia-2026-directory-and-market-overview-1786713289426.jpg","datePublished":"2026-03-04T05:43:05.549+00:00","dateModified":"2026-10-02T13:18:35.513558+00:00","author":{"@type":"Person","name":"Winston Su","jobTitle":"Editor","url":"https://www.linkedin.com/in/winstonsu/"},"publisher":{"@type":"Organization","name":"Certified Strategic","url":"https://certifiedstrategic.com","logo":{"@type":"ImageObject","url":"https://certifiedstrategic.com/lovable-uploads/426f8998-dca9-408b-9ae8-78813c8da1d9.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://certifiedstrategic.com/insights/top-data-centres-in-australia-2026-directory-and-market-overview"},"articleSection":"Market Intelligence"}</script>
+</head>
+
+  <body>
+    <div id="root">
+      <!-- Static shell: replaced by React on hydration -->
+      <div id="jobs-shell" style="display:none;max-width:1200px;margin:0 auto;padding:2.5rem 1rem;font-family:'Hanken Grotesk',-apple-system,Roboto,Helvetica,sans-serif">
+        <h1 style="font-size:2.25rem;font-weight:700;color:#2a2d3e;text-align:center;margin-bottom:1rem;line-height:1.2">Data Centre &amp; AI Infrastructure Roles</h1>
+        <p style="text-align:center;color:#6b7280;font-size:1rem;max-width:48rem;margin:0 auto 1.5rem">A curated list of the most significant roles across Australia's data centre, AI infrastructure and critical facilities sector.</p>
+        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:2rem">
+          <span style="display:inline-block;background:#f3f4f6;color:#374151;font-size:0.75rem;font-weight:500;padding:0.25rem 0.75rem;border-radius:9999px">Updated fortnightly</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem">
+          <div style="border:1px solid #e5e7eb;border-radius:0.5rem;min-height:280px;background:linear-gradient(180deg,#f9fafb 0%,#fff 100%);animation:pulse 1.5s ease-in-out infinite"></div>
+          <div style="border:1px solid #e5e7eb;border-radius:0.5rem;min-height:280px;background:linear-gradient(180deg,#f9fafb 0%,#fff 100%);animation:pulse 1.5s ease-in-out infinite"></div>
+          <div style="border:1px solid #e5e7eb;border-radius:0.5rem;min-height:280px;background:linear-gradient(180deg,#f9fafb 0%,#fff 100%);animation:pulse 1.5s ease-in-out infinite"></div>
+          <div style="border:1px solid #e5e7eb;border-radius:0.5rem;min-height:280px;background:linear-gradient(180deg,#f9fafb 0%,#fff 100%);animation:pulse 1.5s ease-in-out infinite"></div>
+        </div>
+      </div>
+      <style>@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}</style>
+      <script>if(location.pathname==='/jobs')document.getElementById('jobs-shell').style.display='block';</script>
+      <!--JOBS_JSONLD_PLACEHOLDER-->
+    </div>
+  </body>
+</html>

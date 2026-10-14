@@ -3,7 +3,7 @@ SITE_AIRTRUNK_SYD1,AirTrunk SYD1 (Huntingwood),NSW,NEM,operational,AirTrunk,,,,,
 SITE_AIRTRUNK_SYD2,AirTrunk SYD2 (Lane Cove),NSW,NEM,operational,AirTrunk,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_AIRTRUNK_SYD3,AirTrunk SYD3 (Sydney West),NSW,NEM,operational,AirTrunk,,,,,,,,,,,,,,,,,,,,,,,,,,GAP,low,2026-09-18
 SITE_MAMRE_ROAD,Mamre Road Data Centre Campus,NSW,NEM,lodged,KNBDC entity group (KNBDC AU Development / AU Financing Holdco / per-project trusts),IFM Investors,,1200.0,1200.0,1000.0,5000000000.0,500,500,tbd,,ENT_TRANSGRID,,,,846,,18000.0,to be assessed against NSW Clean Air Regulation Group 6 limits under the 2026 Guidelines,,hybrid,mixed,22400.0,,,,VERIFIED,high,2026-09-18
-SITE_NEXTDC_S7,"NEXTDC S7 Data Centre, Eastern Creek",NSW,NEM,lodged,NEXTDC,,OpenAI,612.0,,612.0,7600000000.0,2000,425,tbd,,ENT_TRANSGRID,,,,,,,,,direct_to_chip_liquid,closed_loop_no_makeup,,,,,VERIFIED,high,2026-09-18
+SITE_NEXTDC_S7,"NEXTDC S7 Data Centre, Eastern Creek",NSW,NEM,lodged,NEXTDC,,OpenAI,,,,7600000000.0,2000,425,tbd,,ENT_TRANSGRID,,,,,,,,,direct_to_chip_liquid,closed_loop_no_makeup,,,,,VERIFIED,high,2026-09-18
 SITE_NEXTDC_S1,NEXTDC S1 Sydney,NSW,NEM,operational,NEXTDC,,,,,16.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_NEXTDC_S2,NEXTDC S2 Sydney,NSW,NEM,operational,NEXTDC,,,,,30.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_NEXTDC_S3,NEXTDC S3 Sydney,NSW,NEM,operational,NEXTDC,,,,,80.0,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
@@ -77,14 +77,14 @@ SITE_ORIORDAN,"22 O'Riordan Street, Alexandria - Data Centre",NSW,NEM,pre_lodgem
 SITE_DIGICO_SYD1,DigiCo SYD1 Data Centre Expansion,NSW,NEM,approved,,,,,120.0,88.0,605593980.0,80,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_PROJECT_PLUTO,Project Pluto Data Centre,NSW,NEM,approved,Goodman Property Services (Aust) Pty Ltd,,,,100.0,68.0,1114474328.0,467,60,distribution,,,,,,,170.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_DAVIS_RD_CUNDALL,Davis Road Data Centre (Cundall),NSW,NEM,approved,,,,160.85,160.85,,1597338256.0,556,73,distribution,,,,,,,181.92,,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
-SITE_NEXTDC_S4_P2,"NEXTDC S4 Data Centre Phase 2, Horsley Park",NSW,NEM,pre_lodgement,NEXTDC,,,134.4,134.4,,,1100,217,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_NEXTDC_S4_P2,"NEXTDC S4 Data Centre Phase 2, Horsley Park",NSW,NEM,pre_lodgement,NEXTDC,,,,134.4,,,1100,217,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_APOLLO_PLACE,Apollo Place Data Centre,NSW,NEM,approved,,,,,45.0,41.0,288398501.0,380,44,distribution,,,,,,,63.8,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_LANE_COVE_WEST,Lane Cove West Data Centre,NSW,NEM,approved,,,,,,,196852378.0,320,100,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_MOWBRAY_RD,Mowbray Road Data Centre,NSW,NEM,withdrawn,,,,,,,,300,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_PROJECT_MARS,Project Mars Data Centre,NSW,NEM,lodged,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_ALDINGTON,Aldington Road Data Centre,NSW,NEM,pre_lodgement,,,,,,360.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_KC1,"KC1 Data Centre, Kemps Creek",NSW,NEM,pre_lodgement,,,,,144.0,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
-SITE_STACK_SYD01,"STACK SYD01 Data Centre, Erskine Park",NSW,NEM,lodged,STACK Infrastructure Australia Pty Ltd,,,450.0,,450.0,650000000.0,800,100,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_STACK_SYD01,"STACK SYD01 Data Centre, Erskine Park",NSW,NEM,lodged,STACK Infrastructure Australia Pty Ltd,,,,450.0,,650000000.0,800,100,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_DCI_POPLARS,DCI Poplars Data Centre Project,NSW,NEM,approved,DCI Data Centers,,,,25.4,,278781168.0,125,24,distribution,,,,,,,35.0,2353.0,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_BROOKHOLLOW,"Brookhollow Avenue Data Centre Expansion, Norwest",NSW,NEM,lodged,,,,,,96.0,1248408516.0,555,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_FREDERICK_ST,Frederick Street Data Centre,NSW,NEM,pre_lodgement,,,,,81.0,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18

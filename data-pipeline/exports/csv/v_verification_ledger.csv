@@ -7,8 +7,8 @@ sites,REPORTED,medium,29
 sites,VERIFIED,high,47
 sites,VERIFIED,medium,6
 applications,REPORTED,high,1
-applications,REPORTED,medium,4
-applications,VERIFIED,high,49
+applications,REPORTED,medium,3
+applications,VERIFIED,high,50
 power_profile,REPORTED,high,3
 power_profile,REPORTED,medium,2
 power_profile,VERIFIED,high,15
@@ -36,8 +36,8 @@ regulatory_events,VERIFIED,high,20
 metrics,CLAIMED,low,4
 metrics,CLAIMED,medium,12
 metrics,REPORTED,high,14
-metrics,REPORTED,low,6
-metrics,REPORTED,medium,33
+metrics,REPORTED,low,10
+metrics,REPORTED,medium,29
 metrics,VERIFIED,high,270
 metrics,VERIFIED,low,1
 metrics,VERIFIED,medium,1

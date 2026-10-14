@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-80814238%2120250828T043959.979+GMT",
+ "project_slug": "road-1-data-centre",
+ "attachment_slug": "eisroad-1-data-centrefinal-15",
+ "kind": "eis",
+ "label": "EIS_Road 1 Data Centre_Final.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-14T20:32:42+00:00",
+ "sha256": "4dae91e3b2ea0c8f136be77af216980cee9eeea67aba6a8535f61cd7f78c50d5",
+ "bytes": 7718202,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 367144,
+ "pages": 170,
+ "text_redactions": 0,
+ "pdf_committed": false
+}
