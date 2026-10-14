@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-64287712%2120251109T224014.391+GMT",
+ "project_slug": "dci-poplars-data-centre-project-0",
+ "attachment_slug": "dci-poplars-assessment-report-2",
+ "kind": "assessment",
+ "label": "DCI Poplars - Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:45:52+00:00",
+ "sha256": "ffa08ec9465ec1521a1616febc72290b2f25bb568e82b586c46615b6275fe22d",
+ "bytes": 3599932,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 107785,
+ "pages": 54,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

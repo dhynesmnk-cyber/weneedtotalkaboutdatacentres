@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260312T005913.750+GMT",
+ "project_slug": "nextdc-s4-data-centre-phase-2-horsley-park",
+ "attachment_slug": "scoping-report-s4-phase-2final",
+ "kind": "scoping",
+ "label": "Scoping Report - S4 Phase 2_Final.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:42:01+00:00",
+ "sha256": "8e02ac8a54643ebad288b868b3fa4e003cf08efb0fec1be4813e876e511d2d02",
+ "bytes": 4760162,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 108910,
+ "pages": 64,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

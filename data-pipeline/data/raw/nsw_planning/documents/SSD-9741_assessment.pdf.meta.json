@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741%2120191108T030024.717+GMT",
+ "project_slug": "lane-cove-west-data-centre",
+ "attachment_slug": "ssd-9741-assessment-report-recommendation-3",
+ "kind": "assessment",
+ "label": "SSD-9741 - Assessment Report - Recommendation.pdf",
+ "folder": "Recommendation",
+ "fetched_utc": "2026-10-10T14:50:31+00:00",
+ "sha256": "c3d5eef10ff256998198a366a0966a6f0f1a4c45952b80808c486452f89c513e",
+ "bytes": 13637355,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 155884,
+ "pages": 62,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

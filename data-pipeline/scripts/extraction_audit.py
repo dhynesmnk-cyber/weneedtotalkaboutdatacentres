@@ -29,7 +29,12 @@ from pdf_text import extract, yield_stats, MIN_CHARS_PER_KB  # noqa: E402
 
 def main() -> int:
     warnings.simplefilter("ignore")
-    paths = sorted(glob.glob(os.path.join(ROOT, "data", "raw", "**", "*.pdf"), recursive=True))
+    # data/raw/nsw_planning/documents/ is left out: its PDFs are not committed, so auditing the copies
+    # on one machine would write a report nobody else can reproduce. scrapers/fetch_ssd_documents.py
+    # records each document's extraction (characters, pages, extractor) in its own manifest.
+    documents = os.path.join(ROOT, "data", "raw", "nsw_planning", "documents") + os.sep
+    paths = sorted(p for p in glob.glob(os.path.join(ROOT, "data", "raw", "**", "*.pdf"), recursive=True)
+                   if not p.startswith(documents))
     rows = []
     for p in paths:
         canon = ""
