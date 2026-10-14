@@ -318,7 +318,7 @@ Every row in the database carries `source_id`, `fact_status` (VERIFIED / REPORTE
 |---|---|---|
 | A | Primary government, regulator, legislation, planning portal, first-party company document, major broadcaster/wire | NSW Data Centre Guidelines; AEMO; Transgrid; Reuters; ABC; BBC; Microsoft/AWS/AirTrunk/CDC releases |
 | B | Established trade press, law firm analysis, think tank, market research | Data Center Dynamics; Information Age; KWM; Bird & Bird; Greenpeace; Westpac IQ |
-| C | Single-source, social, community or aggregator | Change.org petition; Facebook council posts; SUBCO/SMAP; the ~1 GW WA report; CertifiedStrategic (regraded from B on 2026-10-14: an aggregator's directory that relays other firms' research; RG-097) |
+| C | Single-source, social, community or aggregator | Change.org petition; Facebook council posts; SUBCO/SMAP; the ~1 GW WA report; CertifiedStrategic (regraded from B on 2026-10-14: an aggregator's directory that relays other firms' research; RG-100) |
 | D | Unusable | none admitted |
 
 `python3 scripts/query.py unverified` lists every row that must not be published as fact. There are
@@ -502,7 +502,12 @@ Assessment)**, Davis Road (Cundall) 180 MW, Project Pluto 126 MW, KC1 Kemps Cree
 134.4 MW, Frederick Street Artarmon 81 MW (Willoughby, Prepare EIS), 23-25 Waterloo Road 70 MW, Project
 Echidna 35 MW, 1-5 Khartoum Road 35 MW, Road 1 34.3 MW, 22 O'Riordan Street Alexandria 38 MW, and
 **Kurri Kurri** (Cessnock, Prepare EIS) — a regional Hunter siting consistent with Transgrid's public
-encouragement to look outside the constrained Sydney basin.
+encouragement to look outside the constrained Sydney basin. *(2026-10-14, RG-099: these are portal figures
+whose measure the portal does not settle. STACK's EIS gives its 450 MW as "total power consumption" and S4
+Phase 2's scoping report gives its 134.4 MW the same way, so both are now totals, not IT capacity. NEXTDC S7's EIS
+gives 612 MW of power consumption and, elsewhere, a total site load of about 700 MW, so S7 holds neither in
+any capacity column until a human or a later document settles which stands; its later "issued-reject-eis"
+attachment is restricted on the portal and has not been read.)*
 
 Two artefacts worth naming because they show how thin the public record is: **Lane Cove West Data Centre**
 carries four modifications including *"Mod 1 fuel storage"*, and **Roberts Road** carries *"Mod 2 additional

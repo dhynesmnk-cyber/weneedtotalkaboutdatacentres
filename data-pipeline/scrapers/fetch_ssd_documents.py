@@ -76,8 +76,11 @@ NOT_MAIN_FILE = re.compile(r"^(HNSW|FRNSW|EPA|TfNSW|DPE|DPHI|Council)\b|\bApp(en
 NOT_MAIN_FOLDER = {"Agency Advice", "Submissions", "Response to Submissions"}
 KINDS = [
     ("assessment", re.compile(r"assessment-report", re.I), re.compile(r"assessment report", re.I)),
-    ("eis", re.compile(r"(^|-)environmental-impact-statement|(^|-)eis(-|$)", re.I),
-     re.compile(r"environmental impact statement|\beis\b", re.I)),
+    # "^eis": the main volume is often uploaded as "EIS<title>", which slugs to "eisroad-1-..." or
+    # "eis78-lockwood-...". The label check on the resolved file still has to pass.
+    ("eis", re.compile(r"(^|-)environmental-impact-statement|(^|-)eis(-|$)|^eis", re.I),
+     # Not \beis\b: "EIS_Road 1 Data Centre_Final.pdf" has an underscore, a word character, after it.
+     re.compile(r"environmental impact statement|(?<![a-z])eis(?![a-z])", re.I)),
     ("scoping", re.compile(r"scoping-report", re.I), re.compile(r"scoping", re.I)),
     ("sears_request", re.compile(r"request.{0,30}sears", re.I), re.compile(r"request|sears|scoping", re.I)),
 ]
@@ -218,9 +221,13 @@ def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--list", action="store_true", help="show the plan; no network")
     ap.add_argument("--limit", type=int, help="fetch at most this many projects")
+    ap.add_argument("--case", action="append", default=[],
+                    help="fetch this case's preferred document even though a lesser kind is archived "
+                         "(repeatable); only kinds preferred to the archived one are tried")
     a = ap.parse_args(argv)
 
     items = plan()
+    rank = {kind: i for i, (kind, _, _) in enumerate(KINDS)}
     done = 0
     for item in items:
         have = archived(item["case"])
@@ -229,7 +236,12 @@ def main(argv: list[str]) -> int:
             print(f"{item['case']:<15} {item['stage'][:24]:<24} "
                   f"{'archived: ' + have if have else 'candidates: ' + ', '.join(kinds) or 'none'}")
             continue
-        if have:
+        if a.case:
+            if item["case"] not in a.case:
+                continue
+            if have:
+                item["candidates"] = [c for c in item["candidates"] if rank[c[0]] < rank[have]]
+        elif have:
             continue
         if a.limit is not None and done >= a.limit:
             break
