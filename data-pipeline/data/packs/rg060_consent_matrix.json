@@ -388,6 +388,24 @@
     "add_sources": [
      "SRC_NSWPORTAL_CONSENTS"
     ]
+   },
+   {
+    "match": {
+     "id": "SITE_PROJECT_PLUTO"
+    },
+    "set": {
+     "proponent": "Goodman Property Services (Aust) Pty Ltd",
+     "fact_status": "VERIFIED",
+     "confidence": "high",
+     "as_of_date": "2026-09-18",
+     "source_id": "SRC_NSWPORTAL_CONSENTS",
+     "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Goodman Property Services (Aust) Pty Ltd. CODENAME RESOLVED: the same Goodman entity as Project Apollo, so Goodman holds two of the twenty consents in its own name. The consent caps total power at 100 MW, below the portal description's 'load capacity of 126 MW', so 126 MW cannot be IT load as consented: 100 MW is recorded as total capacity and IT capacity is not stated (RG-096). This entry was missing until v2.2.1, so the consent's figures reached neither the site row nor a power row.",
+     "operator_id": "ENT_GOODMAN",
+     "total_capacity_mw": 100.0
+    },
+    "add_sources": [
+     "SRC_NSWPORTAL_CONSENTS"
+    ]
    }
   ],
   "power_profile": [
@@ -506,6 +524,21 @@
     "genset_fuel": "diesel",
     "emission_standard": "no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",
     "notes": "Installed back-up 53.2 MW, 200 hours per year. No diesel storage cap parsed. Applicant ARUP Australia Pty Ltd - the engineering consultancy, recovered in the 2026-09-18 re-extraction. Note this is a DIFFERENT Arup legal entity from ARUP Pty Ltd, the applicant for 43-61 Turner Road.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_CONSENTS"
+   },
+   {
+    "site_id": "SITE_PROJECT_PLUTO",
+    "connection_type": "distribution",
+    "genset_total_mw": 170.0,
+    "genset_annual_test_hours": 173.0,
+    "diesel_storage_kl": 2353,
+    "max_demand_mw": 100.0,
+    "genset_fuel": "diesel",
+    "emission_standard": "no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",
+    "notes": "Installed back-up 170 MW against a 100 MW total power cap - ratio 1.70, the highest in the sample. Generator hours capped at 173, one of only three consents departing from the 200-hour standard. Carries a renewable supply condition, PUE and WUE provisions and recycled or non-potable water references.",
     "fact_status": "VERIFIED",
     "confidence": "high",
     "as_of_date": "2026-09-18",
@@ -830,7 +863,7 @@
     },
     "set": {
      "status": "in_progress",
-     "notes": "Substantially advanced 2026-09-18 by reading Schedule 1 of 20 signed consents. RESOLVED: Project Apollo (Macquarie Park) = Goodman Property Services (Aust) Pty Limited; Grand Avenue Expansion Rosehill = Equinix Hyperscale 2 (SY10) Pty Limited; Talavera Road Campus Expansion = Macquarie Data Centres Pty Ltd; NEXTDC S4 Horsley Park = NEXTDC Limited; Roberts Road = Canberra Data Centres Pty Ltd; DigiCo SYD1 Expansion = HDI SYD1 Property Holdings Limited; DCI Poplars = The Trustee for NineZero DC Sub Trust I; 43-61 Turner Road = ARUP Pty Ltd; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management Pty Ltd. STILL UNRESOLVED: Project Duke, Project Echidna, Project Mars, Project Pluto, KC1 and Road 1, plus six consents whose Schedule 1 did not parse (RG-065). No AWS, Google or Meta entity has appeared in any Schedule 1 to date, which strengthens rather than weakens the RG-023 negative - except for the access-restricted Amazon ASIC certificate on the Davis Road application (RG-057).",
+     "notes": "Substantially advanced 2026-09-18 by reading Schedule 1 of 20 signed consents. RESOLVED: Project Apollo (Macquarie Park) = Goodman Property Services (Aust) Pty Limited; Grand Avenue Expansion Rosehill = Equinix Hyperscale 2 (SY10) Pty Limited; Talavera Road Campus Expansion = Macquarie Data Centres Pty Ltd; NEXTDC S4 Horsley Park = NEXTDC Limited; Roberts Road = Canberra Data Centres Pty Ltd; DigiCo SYD1 Expansion = HDI SYD1 Property Holdings Limited; DCI Poplars = The Trustee for NineZero DC Sub Trust I; 43-61 Turner Road = ARUP Pty Ltd; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management Pty Ltd; Project Pluto = Goodman Property Services (Aust) Pty Ltd (added in v2.2.1; the applicant was recovered by RG-065 but never written here). STILL UNRESOLVED: Project Duke, Project Echidna, Project Mars, KC1 and Road 1. Echidna's Schedule 1 applicant is ARUP Australia Pty Ltd (RG-065), a consultancy, which does not say who is behind the codename. No AWS, Google or Meta entity has appeared in any Schedule 1 to date, which strengthens rather than weakens the RG-023 negative - except for the access-restricted Amazon ASIC certificate on the Davis Road application (RG-057).",
      "fact_status": "VERIFIED",
      "confidence": "high",
      "as_of_date": "2026-09-18",

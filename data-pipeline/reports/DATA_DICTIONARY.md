@@ -467,7 +467,7 @@ The control chain. One row per holder per period; `effective_to IS NULL` means c
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `power_profile` (table, 19 rows)
+## `power_profile` (table, 20 rows)
 
 Engineering and grid reality per site: connection type and point, NCA status, who funds augmentation, PUE, demand flexibility, storage, synchronous condenser flag, on-site gas, generator count and fuel, diesel inventory, emission standard, EPA licence, Safeguard exposure.
 
@@ -639,7 +639,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 420 rows)
+## `source_refs` (table, 421 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 

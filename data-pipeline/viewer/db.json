@@ -6885,7 +6885,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6894,7 +6894,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6903,7 +6903,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6912,7 +6912,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6921,7 +6921,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -6930,7 +6930,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6939,7 +6939,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6948,7 +6948,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6957,7 +6957,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6966,7 +6966,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6975,7 +6975,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6984,7 +6984,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6993,7 +6993,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7002,7 +7002,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7011,7 +7011,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7020,7 +7020,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7029,7 +7029,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7038,7 +7038,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7047,7 +7047,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7056,7 +7056,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7065,7 +7065,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7074,7 +7074,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7083,7 +7083,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7092,7 +7092,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7101,7 +7101,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7110,7 +7110,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7119,7 +7119,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7128,7 +7128,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7137,7 +7137,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7146,7 +7146,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7155,7 +7155,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7164,7 +7164,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7173,7 +7173,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7182,7 +7182,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7191,7 +7191,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7200,7 +7200,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7209,7 +7209,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7218,7 +7218,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7227,7 +7227,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7236,7 +7236,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7245,7 +7245,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7254,7 +7254,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7263,7 +7263,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7272,7 +7272,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7281,7 +7281,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7290,7 +7290,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7299,7 +7299,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7308,7 +7308,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7317,7 +7317,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7326,7 +7326,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7335,7 +7335,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7344,7 +7344,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7353,7 +7353,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-10-14T15:26:04Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7362,7 +7362,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7371,7 +7371,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7380,7 +7380,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7389,7 +7389,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7398,7 +7398,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7407,7 +7407,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7416,7 +7416,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7425,7 +7425,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7434,7 +7434,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7443,7 +7443,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7452,7 +7452,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7461,7 +7461,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7470,7 +7470,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7479,7 +7479,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7488,7 +7488,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7497,7 +7497,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7506,7 +7506,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7515,7 +7515,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7524,7 +7524,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7533,7 +7533,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7542,7 +7542,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7551,25 +7551,25 @@
   },
   {
    "id": 75,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
    "rows_affected": 0,
-   "detail": "{\"updated\": 18, \"rejected\": 0, \"skipped_identical\": 0}"
+   "detail": "{\"updated\": 19, \"rejected\": 0, \"skipped_identical\": 0}"
   },
   {
    "id": 76,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
-   "rows_affected": 8,
+   "rows_affected": 9,
    "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
   },
   {
    "id": 77,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7578,7 +7578,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7587,16 +7587,16 @@
   },
   {
    "id": 79,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
-   "detail": "{\"counts\": {\"sources\": 1, \"entities\": 6, \"sites\": 18, \"power_profile\": 8, \"metrics\": 20, \"research_gaps\": 7}, \"prepared_by\": \"scripts/curate_rg060.py from exports/nsw_planning/nsw_dc_consent_conditions.csv\", \"prepared_on\": \"2026-09-18\"}"
+   "detail": "{\"counts\": {\"sources\": 1, \"entities\": 6, \"sites\": 19, \"power_profile\": 9, \"metrics\": 20, \"research_gaps\": 7}, \"prepared_by\": \"scripts/curate_rg060.py from exports/nsw_planning/nsw_dc_consent_conditions.csv\", \"prepared_on\": \"2026-09-18\"}"
   },
   {
    "id": 80,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7605,7 +7605,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7614,7 +7614,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7623,7 +7623,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7632,7 +7632,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7641,7 +7641,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7650,7 +7650,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7659,7 +7659,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7668,7 +7668,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7677,7 +7677,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7686,7 +7686,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7695,7 +7695,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7704,7 +7704,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7713,7 +7713,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7722,7 +7722,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7731,7 +7731,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7740,7 +7740,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7749,7 +7749,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7758,7 +7758,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7767,7 +7767,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7776,7 +7776,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7785,7 +7785,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:32Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7794,7 +7794,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7803,7 +7803,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7812,7 +7812,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7821,7 +7821,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7830,7 +7830,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7839,7 +7839,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7848,7 +7848,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7857,7 +7857,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7866,7 +7866,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7875,7 +7875,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7884,7 +7884,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7893,7 +7893,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -7902,7 +7902,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7911,7 +7911,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7920,7 +7920,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7929,7 +7929,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7938,7 +7938,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7947,7 +7947,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7956,7 +7956,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7965,7 +7965,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7974,7 +7974,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7983,7 +7983,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -7992,7 +7992,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8001,7 +8001,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8010,7 +8010,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8019,7 +8019,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-10-14T15:26:05Z",
+   "run_at": "2026-10-14T15:47:33Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -15163,6 +15163,43 @@
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
    "as_of_date": "2026-09-18"
+  },
+  {
+   "id": 20,
+   "site_id": "SITE_PROJECT_PLUTO",
+   "connection_type": "distribution",
+   "network_business_id": null,
+   "connection_point": null,
+   "nca_status": null,
+   "nca_date": null,
+   "augmentation_funded_by": null,
+   "augmentation_detail": null,
+   "max_demand_mw": 100.0,
+   "average_load_mw": null,
+   "annual_energy_gwh": null,
+   "pue_design": null,
+   "pue_operating": null,
+   "demand_response_pct": null,
+   "demand_response_hours": null,
+   "battery_mw": null,
+   "battery_mwh": null,
+   "synchronous_condenser": 0,
+   "onsite_gas_mw": null,
+   "onsite_gas_type": null,
+   "genset_count": null,
+   "genset_total_mw": 170.0,
+   "genset_fuel": "diesel",
+   "genset_annual_test_hours": 173.0,
+   "diesel_storage_kl": 2353.0,
+   "emission_standard": "no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",
+   "epa_licence_id": null,
+   "safeguard_mechanism_exposed": null,
+   "grid_services_role": null,
+   "notes": "Installed back-up 170 MW against a 100 MW total power cap - ratio 1.70, the highest in the sample. Generator hours capped at 173, one of only three consents departing from the 200-hour standard. Carries a renewable supply condition, PUE and WUE provisions and recycled or non-potable water references.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-09-18"
   }
  ],
  "regulatory_events": [
@@ -16284,7 +16321,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Substantially advanced 2026-09-18 by reading Schedule 1 of 20 signed consents. RESOLVED: Project Apollo (Macquarie Park) = Goodman Property Services (Aust) Pty Limited; Grand Avenue Expansion Rosehill = Equinix Hyperscale 2 (SY10) Pty Limited; Talavera Road Campus Expansion = Macquarie Data Centres Pty Ltd; NEXTDC S4 Horsley Park = NEXTDC Limited; Roberts Road = Canberra Data Centres Pty Ltd; DigiCo SYD1 Expansion = HDI SYD1 Property Holdings Limited; DCI Poplars = The Trustee for NineZero DC Sub Trust I; 43-61 Turner Road = ARUP Pty Ltd; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management Pty Ltd. STILL UNRESOLVED: Project Duke, Project Echidna, Project Mars, Project Pluto, KC1 and Road 1, plus six consents whose Schedule 1 did not parse (RG-065). No AWS, Google or Meta entity has appeared in any Schedule 1 to date, which strengthens rather than weakens the RG-023 negative - except for the access-restricted Amazon ASIC certificate on the Davis Road application (RG-057).",
+   "notes": "Substantially advanced 2026-09-18 by reading Schedule 1 of 20 signed consents. RESOLVED: Project Apollo (Macquarie Park) = Goodman Property Services (Aust) Pty Limited; Grand Avenue Expansion Rosehill = Equinix Hyperscale 2 (SY10) Pty Limited; Talavera Road Campus Expansion = Macquarie Data Centres Pty Ltd; NEXTDC S4 Horsley Park = NEXTDC Limited; Roberts Road = Canberra Data Centres Pty Ltd; DigiCo SYD1 Expansion = HDI SYD1 Property Holdings Limited; DCI Poplars = The Trustee for NineZero DC Sub Trust I; 43-61 Turner Road = ARUP Pty Ltd; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management Pty Ltd; Project Pluto = Goodman Property Services (Aust) Pty Ltd (added in v2.2.1; the applicant was recovered by RG-065 but never written here). STILL UNRESOLVED: Project Duke, Project Echidna, Project Mars, KC1 and Road 1. Echidna's Schedule 1 applicant is ARUP Australia Pty Ltd (RG-065), a consultancy, which does not say who is behind the codename. No AWS, Google or Meta entity has appeared in any Schedule 1 to date, which strengthens rather than weakens the RG-023 negative - except for the access-restricted Amazon ASIC certificate on the Davis Road application (RG-057).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
@@ -17373,7 +17410,7 @@
   {
    "id": 96,
    "pillar": "A",
-   "question": "For the 10 NSW State Significant Development sites whose portal description gives a capacity without saying what it measures, establish from the EIS or signed consent whether the figure is IT load or total site draw, and move it to the right column: SITE_MSFT_HONEMAN (SSD-58601963, '96MW data centre'); SITE_NEXTDC_S7 (SSD-113934740, 'operational capacity of 612 MW'); SITE_ECHIDNA (SSD-47320208, 'operational capacity of 35MW'); SITE_TURNER_RD (SSD-60185233, 'capacity of 40 MW'); SITE_KHARTOUM (SSD-63235720, 'capacity of 35 MW'); SITE_ROAD_1 (SSD-80814238, 'power capacity of 34.3 MW'); SITE_ORIORDAN (SSD-77274467, 'power capacity of 38 MW'); SITE_PROJECT_PLUTO (SSD-69223466, 'load capacity of 126 MW'); SITE_STACK_SYD01 (SSD-82211208, 'operational capacity of 450 MW'); SITE_FREDERICK_ST (SSD-139545990, 'load capacity of 81 MW').",
+   "question": "For the 9 NSW State Significant Development sites whose portal description gives a capacity without saying what it measures, establish from the EIS or signed consent whether the figure is IT load or total site draw, and move it to the right column: SITE_MSFT_HONEMAN (SSD-58601963, '96MW data centre'); SITE_NEXTDC_S7 (SSD-113934740, 'operational capacity of 612 MW'); SITE_ECHIDNA (SSD-47320208, 'operational capacity of 35MW'); SITE_TURNER_RD (SSD-60185233, 'capacity of 40 MW'); SITE_KHARTOUM (SSD-63235720, 'capacity of 35 MW'); SITE_ROAD_1 (SSD-80814238, 'power capacity of 34.3 MW'); SITE_ORIORDAN (SSD-77274467, 'power capacity of 38 MW'); SITE_STACK_SYD01 (SSD-82211208, 'operational capacity of 450 MW'); SITE_FREDERICK_ST (SSD-139545990, 'load capacity of 81 MW').",
    "why_it_matters": "The portal descriptions mix measures. 'Power consumption' is site draw and is recorded as total capacity. Until v2.2.0 every figure went to IT capacity, including Marsden Park's '720 MW substation', which is a substation rating and not a capacity of the site at all. The sites listed here use wording that does not say which measure it is, so they stay in it_capacity_mw, flagged on each row: moving them unread would be the same guess in the other direction. The two measures differ by the cooling and electrical overhead, about half again at the design PUE of about 1.5 implied by the Western Downs application, so a misfiled figure misstates rack capacity by a third or more.",
    "target_source": "The Environmental Impact Statement and, where determined, the signed consent for each application on the NSW Planning Portal; a consent's development description usually states power consumption",
    "retrieval_method": "manual_review",
@@ -17382,7 +17419,7 @@
    "owner": null,
    "opened": "2026-10-14",
    "resolved_date": null,
-   "notes": "Project Pluto is the sharpest case. The portal gives a 'load capacity of 126 MW', and the signed consent read for the RG-060 matrix caps total power at 100 MW (scripts/curate_rg060.py, HARD). IT load cannot exceed total draw, so 126 MW is not IT capacity as consented. The 100 MW appears only as text in the consents_where_backup_exceeds_load metric note: the RG-060 pack has no attribution entry for Pluto, so no site or power row carries it. max_capacity_mw on these rows holds the same unconfirmed figure.",
+   "notes": "Project Pluto (SSD-69223466) was on this list and is settled by its signed consent. The portal gives a 'load capacity of 126 MW'; the consent caps total power at 100 MW. IT load cannot exceed total draw, so 126 MW is not IT capacity as consented. The RG-060 pack records 100 MW as total capacity and leaves IT capacity unstated. Until v2.2.1 that pack had no attribution entry for Pluto, so the 100 MW reached the database only as text in a metric note. The same check settles any site here whose consent is read: a consent's power consumption is site draw. max_capacity_mw on these rows holds the same unconfirmed figure.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -20251,10 +20288,10 @@
   {
    "id": "SITE_PROJECT_PLUTO",
    "name": "Project Pluto Data Centre",
-   "operator_id": null,
+   "operator_id": "ENT_GOODMAN",
    "owner_id": null,
    "anchor_tenant_id": null,
-   "proponent": null,
+   "proponent": "Goodman Property Services (Aust) Pty Ltd",
    "suburb": null,
    "lga": "Cumberland",
    "state": "NSW",
@@ -20263,9 +20300,9 @@
    "lon": 150.955072,
    "address": null,
    "status": "approved",
-   "it_capacity_mw": 126.0,
-   "total_capacity_mw": null,
-   "max_capacity_mw": 126.0,
+   "it_capacity_mw": null,
+   "total_capacity_mw": 100.0,
+   "max_capacity_mw": null,
    "first_phase_mw": null,
    "campus_area_ha": null,
    "gfa_sqm": null,
@@ -20278,9 +20315,9 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "Cumberland LGA. Approved; description references 126 MW. Capacity measure unconfirmed: the portal says 'load capacity of 126 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
+   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Goodman Property Services (Aust) Pty Ltd. CODENAME RESOLVED: the same Goodman entity as Project Apollo, so Goodman holds two of the twenty consents in its own name. The consent caps total power at 100 MW, below the portal description's 'load capacity of 126 MW', so 126 MW cannot be IT load as consented: 100 MW is recorded as total capacity and IT capacity is not stated (RG-096). This entry was missing until v2.2.1, so the consent's figures reached neither the site row nor a power row.",
    "fact_status": "VERIFIED",
-   "source_id": "SRC_NSWPORTAL_REGISTER",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
    "as_of_date": "2026-09-18"
   },
@@ -23307,85 +23344,85 @@
   },
   {
    "id": 350,
-   "entity_table": "research_gaps",
-   "entity_rowid": "60",
+   "entity_table": "sites",
+   "entity_rowid": "SITE_PROJECT_PLUTO",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
    "id": 351,
    "entity_table": "research_gaps",
-   "entity_rowid": "35",
+   "entity_rowid": "60",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
    "id": 352,
    "entity_table": "research_gaps",
-   "entity_rowid": "55",
+   "entity_rowid": "35",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
    "id": 353,
    "entity_table": "research_gaps",
-   "entity_rowid": "61",
+   "entity_rowid": "55",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
    "id": 354,
    "entity_table": "research_gaps",
-   "entity_rowid": "38",
+   "entity_rowid": "61",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
    "id": 355,
-   "entity_table": "entities",
-   "entity_rowid": "ENT_AIRTRUNK",
-   "source_id": "SRC_AIRTRUNK_BCA",
+   "entity_table": "research_gaps",
+   "entity_rowid": "38",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
    "id": 356,
    "entity_table": "entities",
    "entity_rowid": "ENT_AIRTRUNK",
-   "source_id": "SRC_BCA_ABOUT",
+   "source_id": "SRC_AIRTRUNK_BCA",
    "quote": null
   },
   {
    "id": 357,
    "entity_table": "entities",
    "entity_rowid": "ENT_AIRTRUNK",
-   "source_id": "SRC_BCA_SUB116",
+   "source_id": "SRC_BCA_ABOUT",
    "quote": null
   },
   {
    "id": 358,
    "entity_table": "entities",
    "entity_rowid": "ENT_AIRTRUNK",
-   "source_id": "SRC_AFR_BCA",
+   "source_id": "SRC_BCA_SUB116",
    "quote": null
   },
   {
    "id": 359,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_AIRTRUNK",
+   "source_id": "SRC_AFR_BCA",
+   "quote": null
+  },
+  {
+   "id": 360,
    "entity_table": "entities",
    "entity_rowid": "ENT_DATA_CENTRES_AU",
    "source_id": "SRC_AFR_BCA",
    "quote": null
   },
   {
-   "id": 360,
-   "entity_table": "engineering_claims",
-   "entity_rowid": "7",
-   "source_id": "SRC_BCA_SUB116",
-   "quote": null
-  },
-  {
    "id": 361,
    "entity_table": "engineering_claims",
-   "entity_rowid": "4",
+   "entity_rowid": "7",
    "source_id": "SRC_BCA_SUB116",
    "quote": null
   },
@@ -23393,410 +23430,417 @@
    "id": 362,
    "entity_table": "engineering_claims",
    "entity_rowid": "4",
-   "source_id": "SRC_NSWGUIDE_S3",
+   "source_id": "SRC_BCA_SUB116",
    "quote": null
   },
   {
    "id": 363,
+   "entity_table": "engineering_claims",
+   "entity_rowid": "4",
+   "source_id": "SRC_NSWGUIDE_S3",
+   "quote": null
+  },
+  {
+   "id": 364,
    "entity_table": "case_handling",
    "entity_rowid": "67",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 364,
+   "id": 365,
    "entity_table": "case_handling",
    "entity_rowid": "69",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 365,
+   "id": 366,
    "entity_table": "case_handling",
    "entity_rowid": "68",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 366,
+   "id": 367,
    "entity_table": "case_handling",
    "entity_rowid": "70",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 367,
+   "id": 368,
    "entity_table": "case_handling",
    "entity_rowid": "71",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 368,
+   "id": 369,
    "entity_table": "case_handling",
    "entity_rowid": "66",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 369,
+   "id": 370,
    "entity_table": "case_handling",
    "entity_rowid": "65",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 370,
+   "id": 371,
    "entity_table": "research_gaps",
    "entity_rowid": "79",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 371,
+   "id": 372,
    "entity_table": "research_gaps",
    "entity_rowid": "74",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 372,
+   "id": 373,
    "entity_table": "research_gaps",
    "entity_rowid": "73",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "quote": null
   },
   {
-   "id": 373,
+   "id": 374,
    "entity_table": "research_gaps",
    "entity_rowid": "7",
    "source_id": "SRC_GIPA_IPC",
    "quote": null
   },
   {
-   "id": 374,
+   "id": 375,
    "entity_table": "research_gaps",
    "entity_rowid": "7",
    "source_id": "SRC_VIC_FOI",
    "quote": null
   },
   {
-   "id": 375,
+   "id": 376,
    "entity_table": "research_gaps",
    "entity_rowid": "13",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "quote": null
   },
   {
-   "id": 376,
+   "id": 377,
    "entity_table": "incentives",
    "entity_rowid": "5",
    "source_id": "SRC_GIPA_IPC",
    "quote": null
   },
   {
-   "id": 377,
+   "id": 378,
    "entity_table": "sites",
    "entity_rowid": "SITE_23_25_WATERLOO",
    "source_id": "SRC_NSWPORTAL_SSD91297457",
    "quote": null
   },
   {
-   "id": 378,
+   "id": 379,
    "entity_table": "sites",
    "entity_rowid": "SITE_43_61_TURNER",
    "source_id": "SRC_NSWPORTAL_SSD68013714",
    "quote": null
   },
   {
-   "id": 379,
+   "id": 380,
    "entity_table": "sites",
    "entity_rowid": "SITE_51_HUNTINGWOOD",
    "source_id": "SRC_NSWPORTAL_SSD41589232",
    "quote": null
   },
   {
-   "id": 380,
+   "id": 381,
    "entity_table": "sites",
    "entity_rowid": "SITE_ALDINGTON",
    "source_id": "SRC_NSWPORTAL_SSD112059740",
    "quote": null
   },
   {
-   "id": 381,
+   "id": 382,
    "entity_table": "sites",
    "entity_rowid": "SITE_APOLLO_PLACE",
    "source_id": "SRC_NSWPORTAL_SSD67407231",
    "quote": null
   },
   {
-   "id": 382,
+   "id": 383,
    "entity_table": "sites",
    "entity_rowid": "SITE_AUGUSTA_ST",
    "source_id": "SRC_NSWPORTAL_SSD10469",
    "quote": null
   },
   {
-   "id": 383,
+   "id": 384,
    "entity_table": "sites",
    "entity_rowid": "SITE_BROOKHOLLOW",
    "source_id": "SRC_NSWPORTAL_SSD81928961",
    "quote": null
   },
   {
-   "id": 384,
+   "id": 385,
    "entity_table": "sites",
    "entity_rowid": "SITE_CDC_MARSDEN",
    "source_id": "SRC_NSWPORTAL_SSD70889211",
    "quote": null
   },
   {
-   "id": 385,
+   "id": 386,
    "entity_table": "sites",
    "entity_rowid": "SITE_DICKER_DATA",
    "source_id": "SRC_NSWPORTAL_SSD8662",
    "quote": null
   },
   {
-   "id": 386,
+   "id": 387,
    "entity_table": "sites",
    "entity_rowid": "SITE_DIGICO_SYD1",
    "source_id": "SRC_NSWPORTAL_SSD69637456",
    "quote": null
   },
   {
-   "id": 387,
+   "id": 388,
    "entity_table": "sites",
    "entity_rowid": "SITE_ECHIDNA",
    "source_id": "SRC_NSWPORTAL_ECHIDNA",
    "quote": null
   },
   {
-   "id": 388,
+   "id": 389,
    "entity_table": "sites",
    "entity_rowid": "SITE_EC_EXPANSION",
    "source_id": "SRC_NSWPORTAL_SSD21342738",
    "quote": null
   },
   {
-   "id": 389,
+   "id": 390,
    "entity_table": "sites",
    "entity_rowid": "SITE_FREDERICK_ST",
    "source_id": "SRC_NSWPORTAL_SSD139545990",
    "quote": null
   },
   {
-   "id": 390,
+   "id": 391,
    "entity_table": "sites",
    "entity_rowid": "SITE_GLENDENNING",
    "source_id": "SRC_NSWPORTAL_GLEN",
    "quote": null
   },
   {
-   "id": 391,
+   "id": 392,
    "entity_table": "sites",
    "entity_rowid": "SITE_GOODMAN_ATLAS",
    "source_id": "SRC_NSWPORTAL_SSD101067971",
    "quote": null
   },
   {
-   "id": 392,
+   "id": 393,
    "entity_table": "sites",
    "entity_rowid": "SITE_GRAND_AVE",
    "source_id": "SRC_NSWPORTAL_SSD53338465",
    "quote": null
   },
   {
-   "id": 393,
+   "id": 394,
    "entity_table": "sites",
    "entity_rowid": "SITE_JULIUS_AVE",
    "source_id": "SRC_NSWPORTAL_SSD80018208",
    "quote": null
   },
   {
-   "id": 394,
+   "id": 395,
    "entity_table": "sites",
    "entity_rowid": "SITE_KC1",
    "source_id": "SRC_NSWPORTAL_SSD133677993",
    "quote": null
   },
   {
-   "id": 395,
+   "id": 396,
    "entity_table": "sites",
    "entity_rowid": "SITE_KHARTOUM",
    "source_id": "SRC_NSWPORTAL_SSD63235720",
    "quote": null
   },
   {
-   "id": 396,
+   "id": 397,
    "entity_table": "sites",
    "entity_rowid": "SITE_KURRI_KURRI",
    "source_id": "SRC_NSWPORTAL_SSD128819490",
    "quote": null
   },
   {
-   "id": 397,
+   "id": 398,
    "entity_table": "sites",
    "entity_rowid": "SITE_LANCELEY",
    "source_id": "SRC_NSWPORTAL_SSD66777221",
    "quote": null
   },
   {
-   "id": 398,
+   "id": 399,
    "entity_table": "sites",
    "entity_rowid": "SITE_LANE_COVE_MARS",
    "source_id": "SRC_NSWPORTAL_SSD108835458",
    "quote": null
   },
   {
-   "id": 399,
+   "id": 400,
    "entity_table": "sites",
    "entity_rowid": "SITE_LANE_COVE_WEST",
    "source_id": "SRC_NSWPORTAL_SSD9741",
    "quote": null
   },
   {
-   "id": 400,
+   "id": 401,
    "entity_table": "sites",
    "entity_rowid": "SITE_MACQUARIE_PARK_DC",
    "source_id": "SRC_NSWPORTAL_SSD10467",
    "quote": null
   },
   {
-   "id": 401,
+   "id": 402,
    "entity_table": "sites",
    "entity_rowid": "SITE_MAMRE_ROAD",
    "source_id": "SRC_NSWPORTAL_SSD92743706",
    "quote": null
   },
   {
-   "id": 402,
+   "id": 403,
    "entity_table": "sites",
    "entity_rowid": "SITE_MOWBRAY_RD",
    "source_id": "SRC_NSWPORTAL_SSD13475973",
    "quote": null
   },
   {
-   "id": 403,
+   "id": 404,
    "entity_table": "sites",
    "entity_rowid": "SITE_MSFT_HONEMAN",
    "source_id": "SRC_NSWPORTAL_SSD58601963",
    "quote": null
   },
   {
-   "id": 404,
+   "id": 405,
    "entity_table": "sites",
    "entity_rowid": "SITE_MSFT_KEMPS",
    "source_id": "SRC_NSWPORTAL_KC",
    "quote": null
   },
   {
-   "id": 405,
+   "id": 406,
    "entity_table": "sites",
    "entity_rowid": "SITE_NEXTDC_S4",
    "source_id": "SRC_NSWPORTAL_SSD63741210",
    "quote": null
   },
   {
-   "id": 406,
+   "id": 407,
    "entity_table": "sites",
    "entity_rowid": "SITE_NEXTDC_S4_P2",
    "source_id": "SRC_NSWPORTAL_SSD108864209",
    "quote": null
   },
   {
-   "id": 407,
+   "id": 408,
    "entity_table": "sites",
    "entity_rowid": "SITE_NEXTDC_S5",
    "source_id": "SRC_NSWPORTAL_SSD63168959",
    "quote": null
   },
   {
-   "id": 408,
+   "id": 409,
    "entity_table": "sites",
    "entity_rowid": "SITE_NEXTDC_S7",
    "source_id": "SRC_NSWPORTAL_SSD113934740",
    "quote": null
   },
   {
-   "id": 409,
+   "id": 410,
    "entity_table": "sites",
    "entity_rowid": "SITE_ORIORDAN",
    "source_id": "SRC_NSWPORTAL_SSD77274467",
    "quote": null
   },
   {
-   "id": 410,
+   "id": 411,
    "entity_table": "sites",
    "entity_rowid": "SITE_PROJECT_APOLLO",
    "source_id": "SRC_NSWPORTAL_SSD74069708",
    "quote": null
   },
   {
-   "id": 411,
+   "id": 412,
    "entity_table": "sites",
    "entity_rowid": "SITE_PROJECT_DUKE",
    "source_id": "SRC_NSWPORTAL_SSD71368959",
    "quote": null
   },
   {
-   "id": 412,
+   "id": 413,
    "entity_table": "sites",
    "entity_rowid": "SITE_PROJECT_MARS",
    "source_id": "SRC_NSWPORTAL_SSD82052708",
    "quote": null
   },
   {
-   "id": 413,
+   "id": 414,
    "entity_table": "sites",
    "entity_rowid": "SITE_PROJECT_PLUTO",
    "source_id": "SRC_NSWPORTAL_SSD69223466",
    "quote": null
   },
   {
-   "id": 414,
+   "id": 415,
    "entity_table": "sites",
    "entity_rowid": "SITE_ROAD_1",
    "source_id": "SRC_NSWPORTAL_SSD80814238",
    "quote": null
   },
   {
-   "id": 415,
+   "id": 416,
    "entity_table": "sites",
    "entity_rowid": "SITE_ROBERTS_RD",
    "source_id": "SRC_NSWPORTAL_SSD10330",
    "quote": null
   },
   {
-   "id": 416,
+   "id": 417,
    "entity_table": "sites",
    "entity_rowid": "SITE_STACK_SYD01",
    "source_id": "SRC_NSWPORTAL_SSD82211208",
    "quote": null
   },
   {
-   "id": 417,
+   "id": 418,
    "entity_table": "sites",
    "entity_rowid": "SITE_STATION_RD",
    "source_id": "SRC_NSWPORTAL_SSD33781208",
    "quote": null
   },
   {
-   "id": 418,
+   "id": 419,
    "entity_table": "sites",
    "entity_rowid": "SITE_TALAVERA",
    "source_id": "SRC_NSWPORTAL_SSD24299707",
    "quote": null
   },
   {
-   "id": 419,
+   "id": 420,
    "entity_table": "sites",
    "entity_rowid": "SITE_TURNER_RD",
    "source_id": "SRC_NSWPORTAL_TURNER",
    "quote": null
   },
   {
-   "id": 420,
+   "id": 421,
    "entity_table": "sites",
    "entity_rowid": "SITE_WATERLOO_ESR",
    "source_id": "SRC_NSWPORTAL_SSD59516710",
@@ -28561,7 +28605,7 @@
    "market": "NEM",
    "status": "approved",
    "n_sites": 24,
-   "mw_sum": 1569.8,
+   "mw_sum": 1543.8,
    "capex_aud_bn": 0.0
   },
   {
@@ -30527,13 +30571,13 @@
    "site": "Project Pluto Data Centre",
    "state": "NSW",
    "status": "approved",
-   "operator": null,
+   "operator": "Goodman Property Services (Aust) Pty Ltd",
    "anchor_tenant": null,
-   "headline_mw": 126.0,
+   "headline_mw": 100.0,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
-   "primary_source": "NSW Planning Portal major projects register - data centre State Significant Development records (46 projects harvested)",
+   "primary_source": "Signed development consents for determined NSW data centre State Significant Developments (bulk harvest of 20 documents)",
    "publisher": "NSW Department of Planning, Housing and Infrastructure",
    "source_url": "https://www.planningportal.nsw.gov.au/major-projects/search?field_case_type_value=State+Significant+Development&combine=Data+Centre",
    "fact_status": "VERIFIED",
@@ -33640,25 +33684,25 @@
    "state": "NSW",
    "market": "NEM",
    "status": "approved",
-   "operator": null,
+   "operator": "Goodman Property Services (Aust) Pty Ltd",
    "land_or_asset_owner": null,
    "anchor_tenant": null,
-   "max_capacity_mw": 126.0,
-   "total_capacity_mw": null,
-   "it_capacity_mw": 126.0,
+   "max_capacity_mw": null,
+   "total_capacity_mw": 100.0,
+   "it_capacity_mw": null,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
-   "connection_type": null,
+   "connection_type": "distribution",
    "nca_status": null,
    "network_business_id": null,
    "pue_design": null,
    "battery_mwh": null,
    "onsite_gas_mw": null,
    "genset_count": null,
-   "genset_total_mw": null,
-   "diesel_storage_kl": null,
-   "emission_standard": null,
+   "genset_total_mw": 170.0,
+   "diesel_storage_kl": 2353.0,
+   "emission_standard": "no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",
    "demand_response_pct": null,
    "cooling_technology": null,
    "water_source": null,
@@ -34324,7 +34368,7 @@
    "tbl": "power_profile",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 14
+   "n": 15
   },
   {
    "tbl": "water_profile",

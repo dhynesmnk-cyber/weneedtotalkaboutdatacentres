@@ -141,13 +141,20 @@ ATTRIBUTION = {
     "Cundall Johnston and Partners Pty Ltd - the consulting engineers whose name is already in the project "
     "title. The same application carries an access-restricted 'ASIC certificate Amazon Corporate Services "
     "Pty Ltd' (RG-057)."),
+ "project-pluto-data-centre": (
+    "SITE_PROJECT_PLUTO", "ENT_GOODMAN",
+    "CODENAME RESOLVED: the same Goodman entity as Project Apollo, so Goodman holds two of the twenty "
+    "consents in its own name. The consent caps total power at 100 MW, below the portal description's "
+    "'load capacity of 126 MW', so 126 MW cannot be IT load as consented: 100 MW is recorded as total "
+    "capacity and IT capacity is not stated (RG-096). This entry was missing until v2.2.1, so the consent's "
+    "figures reached neither the site row nor a power row."),
 }
 
-# Hard numbers read from the matrix. diesel/genset/power are as parsed from each consent.
 # Sites whose capacity measure curate_rg002.py flags as unconfirmed (RG-096). This pack replaces
 # their notes, so it carries the flag forward rather than silently dropping it.
 CAPACITY_UNCONFIRMED = {"SITE_KHARTOUM", "SITE_ECHIDNA"}
 
+# Hard numbers read from the matrix. diesel/genset/power are as parsed from each consent.
 HARD = {
  "nextdc-s4-data-centre-horsley-park": dict(genset_mw=360.0, power_mw=294.0, diesel_t=4472.0,
     hours=200.0,
@@ -527,9 +534,12 @@ def main() -> int:
                                     "Roberts Road = Canberra Data Centres Pty Ltd; DigiCo SYD1 Expansion = HDI "
                                     "SYD1 Property Holdings Limited; DCI Poplars = The Trustee for NineZero DC "
                                     "Sub Trust I; 43-61 Turner Road = ARUP Pty Ltd; 51 Huntingwood Drive and "
-                                    "Apollo Place = EMKC Cubed Management Pty Ltd. STILL UNRESOLVED: Project "
-                                    "Duke, Project Echidna, Project Mars, Project Pluto, KC1 and Road 1, plus "
-                                    "six consents whose Schedule 1 did not parse (RG-065). No AWS, Google or "
+                                    "Apollo Place = EMKC Cubed Management Pty Ltd; Project Pluto = Goodman "
+                                    "Property Services (Aust) Pty Ltd (added in v2.2.1; the applicant was "
+                                    "recovered by RG-065 but never written here). STILL UNRESOLVED: Project "
+                                    "Duke, Project Echidna, Project Mars, KC1 and Road 1. Echidna's Schedule 1 "
+                                    "applicant is ARUP Australia Pty Ltd (RG-065), a consultancy, which does "
+                                    "not say who is behind the codename. No AWS, Google or "
                                     "Meta entity has appeared in any Schedule 1 to date, which strengthens "
                                     "rather than weakens the RG-023 negative - except for the "
                                     "access-restricted Amazon ASIC certificate on the Davis Road application "

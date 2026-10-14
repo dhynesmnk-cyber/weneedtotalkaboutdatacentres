@@ -212,6 +212,11 @@ MAP = {
 # a reading of the EIS (RG-096). Taking max() of every figure is what put Marsden Park's 720 MW
 # substation into it_capacity_mw until v2.2.0.
 MW_FIGURE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:MW\b|megawatts?(?:\s*\(MW\))?)", re.I)
+# Sites whose signed consent settles what the description's figure measures. The consent pack
+# writes their capacity, so this pack leaves the site's capacity columns alone. Project Pluto: the
+# description's "load capacity of 126 MW" exceeds the consent's 100 MW total power cap
+# (curate_rg060.py, HARD), so it cannot be IT load as consented.
+SETTLED_BY_CONSENT = {"SITE_PROJECT_PLUTO"}
 MEASURE = re.compile(r"((?:(?:total|overall|maximum)\s+)?(?:power consumption|power capacity|load capacity|"
                      r"operational capacity|capacity))\s+of\s*$", re.I)
 
@@ -262,7 +267,7 @@ def main() -> int:
         mw = figures[0][0] if figures else None
         row = dict(id=site_id, name=r["title"] or name, operator_id=op, status=status,
                    proponent=None, notes=notes, **common)
-        if figures:
+        if figures and site_id not in SETTLED_BY_CONSENT:
             _, measure, phrase = figures[0]
             row["total_capacity_mw" if measure == "total" else "it_capacity_mw"] = mw
             row["max_capacity_mw"] = mw
@@ -439,13 +444,14 @@ def main() -> int:
                      target_source="The Environmental Impact Statement and, where determined, the signed consent "
                                    "for each application on the NSW Planning Portal; a consent's development "
                                    "description usually states power consumption",
-                     notes="Project Pluto is the sharpest case. The portal gives a 'load capacity of 126 MW', and "
-                           "the signed consent read for the RG-060 matrix caps total power at 100 MW "
-                           "(scripts/curate_rg060.py, HARD). IT load cannot exceed total draw, so 126 MW is not "
-                           "IT capacity as consented. The 100 MW appears only as text in the "
-                           "consents_where_backup_exceeds_load metric note: the RG-060 pack has no attribution "
-                           "entry for Pluto, so no site or power row carries it. max_capacity_mw on these rows "
-                           "holds the same unconfirmed figure.",
+                     notes="Project Pluto (SSD-69223466) was on this list and is settled by its signed consent. "
+                           "The portal gives a 'load capacity of 126 MW'; the consent caps total power at 100 MW. "
+                           "IT load cannot exceed total draw, so 126 MW is not IT capacity as consented. The "
+                           "RG-060 pack records 100 MW as total capacity and leaves IT capacity unstated. Until "
+                           "v2.2.1 that pack had no attribution entry for Pluto, so the 100 MW reached the "
+                           "database only as text in a metric note. The same check settles any site here whose "
+                           "consent is read: a consent's power consumption is site draw. max_capacity_mw on "
+                           "these rows holds the same unconfirmed figure.",
                      fact_status="VERIFIED", confidence="high", as_of_date=CORRECTED, source_id=SRC),
             ],
         },

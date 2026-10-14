@@ -75,7 +75,7 @@ SITE_TALAVERA,Talavera Road Data Centre Campus Expansion,NSW,NEM,approved,Macqua
 SITE_WATERLOO_ESR,Waterloo Road Data Centre (ESR Developments),NSW,NEM,approved,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_ORIORDAN,"22 O'Riordan Street, Alexandria - Data Centre",NSW,NEM,pre_lodgement,,,,38.0,,38.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_DIGICO_SYD1,DigiCo SYD1 Data Centre Expansion,NSW,NEM,approved,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
-SITE_PROJECT_PLUTO,Project Pluto Data Centre,NSW,NEM,approved,,,,126.0,,126.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_PROJECT_PLUTO,Project Pluto Data Centre,NSW,NEM,approved,Goodman Property Services (Aust) Pty Ltd,,,,100.0,,,,,distribution,,,,,,,170.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_DAVIS_RD_CUNDALL,Davis Road Data Centre (Cundall),NSW,NEM,approved,,,,160.85,160.85,,,,,distribution,,,,,,,181.92,,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_NEXTDC_S4_P2,"NEXTDC S4 Data Centre Phase 2, Horsley Park",NSW,NEM,pre_lodgement,NEXTDC,,,134.4,134.4,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_APOLLO_PLACE,Apollo Place Data Centre,NSW,NEM,approved,,,,,45.0,,,,,distribution,,,,,,,63.8,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18

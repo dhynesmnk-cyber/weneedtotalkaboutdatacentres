@@ -6,7 +6,7 @@ generates. Built for policy critique and engineering analysis that can survive b
 
 **Release v2.2.1 · data as at 14 October 2026 · 1,389 data rows (+420 source refs) · 93 sites · 138 entities · 340 metrics · 193 catalogued sources (130 primary)**
 
-v2.2.1 is a **correction release**, prompted by a review of CertifiedStrategic.com. Two defects are fixed
+v2.2.1 is a **correction release**, prompted by a review of CertifiedStrategic.com. Three defects are fixed
 and one source is regraded.
 
 - **Capacity read from the wrong words.** `curate_rg002.py` took the largest MW figure in each NSW portal
@@ -15,10 +15,15 @@ and one source is regraded.
   The script now reads each figure with the words in front of it: "power consumption" is site draw and goes
   to `total_capacity_mw` (Marsden Park, 23-25 Waterloo Road, NEXTDC S4 Phase 2, KC1), a substation rating is
   not a site capacity at all, and wording that does not say which measure it is stays in IT capacity, flagged
-  on each of the ten rows and listed in **RG-096**. Davis Road now carries its signed consent's 160.85 MW
+  on each of the nine rows and listed in **RG-096**. Davis Road now carries its signed consent's 160.85 MW
   rather than the description's 180 MW, as Glendenning already did. NSW approved capacity falls from 1,805.0
-  to 1,569.8 MW in `v_pipeline_by_state`. RG-096 also records that Project Pluto's consent figure (100 MW,
-  below its 126 MW "load capacity") reaches neither its site row nor a power row.
+  to 1,569.8 MW in `v_pipeline_by_state`.
+- **Project Pluto's consent never reached its rows.** `curate_rg060.py` had parsed it (applicant Goodman, a
+  100 MW total power cap, 170 MW of back-up generation, a 173-hour generator cap) but had no attribution entry
+  for it, so it emitted no site update and no power row. Pluto now carries all of that. Its portal
+  description's "load capacity of 126 MW" exceeds the consent's 100 MW cap, so it cannot be IT load as
+  consented and is no longer recorded as IT capacity. RG-035 now lists Pluto as resolved, which RG-065
+  had already established.
 - **One aggregator article carried too much.** `SRC_CERTSTRAT` is the sole source for 27 of 93 sites and
   25 of the 26 Certified Strategic flags. It is regraded **B → C** by document class (an aggregator's
   directory relaying other firms' research) and was never archived. Its attribution of the Hosting
