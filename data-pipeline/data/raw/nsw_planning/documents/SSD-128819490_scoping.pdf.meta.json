@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-128187739%2120260616T074612.162+GMT",
+ "project_slug": "kurri-kurri-data-centre",
+ "attachment_slug": "kurri-kurri-data-centre-scoping-report-16-06-2026",
+ "kind": "scoping",
+ "label": "Kurri Kurri Data Centre Scoping Report - 16-06-2026.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:42:36+00:00",
+ "sha256": "f94945eeda31983a016058804c36cc5718d43326f0cc077319d2c9fb9fb31dac",
+ "bytes": 8638629,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 121905,
+ "pages": 68,
+ "pdf_committed": false,
+ "text_redactions": 1
+}

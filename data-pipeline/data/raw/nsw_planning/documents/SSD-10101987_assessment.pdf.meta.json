@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10101987%2120230713T062647.602+GMT",
+ "project_slug": "kemps-creek-data-centre",
+ "attachment_slug": "signed-ssd-ssi-assessment-report-8",
+ "kind": "assessment",
+ "label": "Signed - SSD-SSI Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:39:56+00:00",
+ "sha256": "5da1b870cf9ecbcc045f01761458d40afce53a416531ad283d3caed273598d23",
+ "bytes": 2638505,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 161639,
+ "pages": 70,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-107168706%2120260409T032440.056+GMT",
+ "project_slug": "nextdc-s7-data-centre-eastern-creek",
+ "attachment_slug": "final-scoping-report-s7",
+ "kind": "scoping",
+ "label": "Final Scoping Report - S7.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:42:25+00:00",
+ "sha256": "09d17f9087ee92b378331f507828da3f2e55f6b068348e947b4596bd1b8e6b54",
+ "bytes": 3658156,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 105622,
+ "pages": 62,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

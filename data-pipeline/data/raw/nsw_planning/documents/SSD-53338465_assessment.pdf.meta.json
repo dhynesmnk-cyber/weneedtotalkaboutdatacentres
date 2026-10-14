@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-53338465%2120241216T034941.727+GMT",
+ "project_slug": "grand-avenue-data-centre-expansion-rosehill",
+ "attachment_slug": "ssd-53338465-assessment-report-1",
+ "kind": "assessment",
+ "label": "SSD- 53338465 Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-10-10T14:44:18+00:00",
+ "sha256": "840bae6875d38c4528ed25fc5f1035e2598314d6125b9ac7cf5cfd71a9b1c351",
+ "bytes": 1672309,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 122495,
+ "pages": 61,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

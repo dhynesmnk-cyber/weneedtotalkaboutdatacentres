@@ -1,0 +1,1237 @@
+{
+  "pack_id": "ssd-documents-2026-10",
+  "prepared_by": "scripts/curate_ssd_documents.py from data/raw/nsw_planning/documents/",
+  "prepared_on": "2026-10-10",
+  "_comment": [
+    "Fills site figures from each NSW SSD project's assessment report, EIS, scoping report",
+    "or SEARs request (batch S2). Every value was read by a person and is checked against",
+    "its page and quote. Uses fill, so no existing value is overwritten; differences are",
+    "reported at load for a human to settle. Each row cites its document with the passages",
+    "quoted."
+  ],
+  "sources": [
+    {
+      "id": "SRC_SSD10101987_ASSESSMENT",
+      "title": "Signed - SSD-SSI Assessment Report - SSD-10101987 (kemps creek data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10101987%2120230713T062647.602+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-10101987, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-8), SHA-256 5da1b870cf9ecbcc045f01761458d40afce53a416531ad283d3caed273598d23, 2638505 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD101067971_EIS",
+      "title": "Environmental Impact Statement - 10 Roberts Road$2c Eastern Creek - SSD-101067971 (project atlas data centre eastern creek)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-101067971%2120260528T060715.082+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "EIS document for SSD-101067971, read 2026-10-10 from the NSW Planning Portal (attachment eis-10-roberts-road-eastern-creek-0), SHA-256 c84731e2f61b9151c6b4a588630c55c6abfae543d27893329987a83db4f49e5c, 10993231 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD10330_ASSESSMENT",
+      "title": "SSD-10330 - Assessment Report - SSD-10330 (roberts road data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231209.227+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-10330, read 2026-10-10 from the NSW Planning Portal (attachment ssd-10330-assessment-report-0), SHA-256 4f38942c41791c0382e88f852bd8a8da4f820ab563b6b564676fef1af5577904, 2836513 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD10467_ASSESSMENT",
+      "title": "Assessment Report - Signed - SSD-10467 (macquarie park data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10467%2120210528T080125.151+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": " document for SSD-10467, read 2026-10-10 from the NSW Planning Portal (attachment assessment-report-signed-4), SHA-256 55c8fe54a096413c347b324aa0bfbbfdbedc72f6071fe5e6566fedca4c066c9f, 9781875 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD108835458_SEARS_REQUEST",
+      "title": "Request for SEARs_20260311222156 - SSD-108835458 (mars road data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-105602456%2120260311T222222.859+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-108835458, read 2026-10-10 from the NSW Planning Portal (attachment request-sears20260311222156), SHA-256 db355e992e183bceb0c8be14c465dc7b5d57da731cf8f46bdda06d0a12e769a1, 439163 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD108864209_SCOPING",
+      "title": "Scoping Report - S4 Phase 2_Final - SSD-108864209 (nextdc s4 data centre phase 2 horsley park)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-102095472%2120260312T005913.750+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-108864209, read 2026-10-10 from the NSW Planning Portal (attachment scoping-report-s4-phase-2final), SHA-256 8e02ac8a54643ebad288b868b3fa4e003cf08efb0fec1be4813e876e511d2d02, 4760162 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD112059740_SCOPING",
+      "title": "Aldington Road Data Centre_Scoping Report - SSD-112059740 (aldington road data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-112059740%2120260820T022208.882+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-112059740, read 2026-10-10 from the NSW Planning Portal (attachment aldington-road-data-centrescoping-report), SHA-256 b773dfad7a5a4268c1bff1b467e6a40b49c2d222f1f943f44a7547124586ce55, 3911116 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD113934740_SCOPING",
+      "title": "Final Scoping Report - S7 - SSD-113934740 (nextdc s7 data centre eastern creek)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-107168706%2120260409T032440.056+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-113934740, read 2026-10-10 from the NSW Planning Portal (attachment final-scoping-report-s7), SHA-256 09d17f9087ee92b378331f507828da3f2e55f6b068348e947b4596bd1b8e6b54, 3658156 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD128819490_SCOPING",
+      "title": "Kurri Kurri Data Centre Scoping Report - 16-06-2026 - SSD-128819490 (kurri kurri data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-128187739%2120260616T074612.162+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-128819490, read 2026-10-10 from the NSW Planning Portal (attachment kurri-kurri-data-centre-scoping-report-16-06-2026), SHA-256 f94945eeda31983a016058804c36cc5718d43326f0cc077319d2c9fb9fb31dac, 8638629 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD133677993_SCOPING",
+      "title": "WTJ26-170 Scoping Report v5 - 859-901 Mamre Road$2c Kemps Creek - SSD-133677993 (kc1 data centre kemps creek)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-126361990%2120260713T012616.739+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-133677993, read 2026-10-10 from the NSW Planning Portal (attachment scoping-report-v5-859-901-mamre-road-kemps-creek), SHA-256 eea484490a0dadd39c90c692ae2b33e50b413b557493f7ad00f319575823e233, 5098030 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD13475973_SCOPING",
+      "title": "SEARs Request - Scoping Report - SSD-13475973 (mowbray road data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-11603836%2120210122T030359.842+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-13475973, read 2026-10-10 from the NSW Planning Portal (attachment sears-request-scoping-report-472), SHA-256 eaf672bc11d4145fe9dc01f562685a4668c3c6af900a3826bf20b9754d67ede6, 2560723 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD139545990_SCOPING",
+      "title": "Scoping Report_Frederick Street Data Centre - SSD-139545990 (frederick street data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-137556738%2120260806T061124.974+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-139545990, read 2026-10-10 from the NSW Planning Portal (attachment scoping-reportfrederick-street-data-centre), SHA-256 1304b6e3323153276b5885854a48ae2aafc77fc5e0856c54e7620cd66c632505, 3210634 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD21342738_ASSESSMENT",
+      "title": "SSD-21342738 - Assessment Report - SSD-21342738 (eastern creek data centre expansion project)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-21342738%2120230901T061348.447+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-21342738, read 2026-10-10 from the NSW Planning Portal (attachment ssd-21342738-assessment-report-6), SHA-256 90a94dfc3d694f2c949772da69159582a7c85a96d295c049c93234a8b011c0ad, 1239886 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD24299707_ASSESSMENT",
+      "title": "SSD-SSI Assessment Report Talavera Rd DC - SSD-24299707 (talavera road data centre campus expansion)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120231127T020928.161+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Recommendation document for SSD-24299707, read 2026-10-10 from the NSW Planning Portal (attachment ssd-assessment-report-talavera-rd-dc-13), SHA-256 64cdb23ba40dc022622760981e7c58cd373ad6916e9541239cf1513c8fa8504b, 2847771 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD33781208_ASSESSMENT",
+      "title": "Assessment Report - SSD-33781208 (station road data centre expansion)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-33781208%2120221216T065822.611+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-33781208, read 2026-10-10 from the NSW Planning Portal (attachment assessment-report-3106), SHA-256 6351499ac168424302b5612a42e3f623a510238b9f2742090bbad79d0ba4aec7, 2454498 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD41589232_ASSESSMENT",
+      "title": "SSD-SSI Assessment Report-51 Huntingwood - SSD-41589232 (51 huntingwood drive data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-41589232%2120230915T074128.135+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-41589232, read 2026-10-10 from the NSW Planning Portal (attachment ssd-assessment-report-51-huntingwood-4), SHA-256 d5da70a657418f33a8f64a87e62a4f6884fe64095a31bba5a6fceca0462806bf, 2272958 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD47320208_ASSESSMENT",
+      "title": "Signed SSD-SSI Assessment Report - SSD-47320208 (project echidna data centre eastern creek)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-47320208%2120240404T234404.561+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-47320208, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-7), SHA-256 7efa3034040f086115be975408870d4942476ebbfc7db6f909c295bb5753beb3, 2000371 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD53338465_ASSESSMENT",
+      "title": "SSD- 53338465 Assessment Report - SSD-53338465 (grand avenue data centre expansion rosehill)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-53338465%2120241216T034941.727+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-53338465, read 2026-10-10 from the NSW Planning Portal (attachment ssd-53338465-assessment-report-1), SHA-256 840bae6875d38c4528ed25fc5f1035e2598314d6125b9ac7cf5cfd71a9b1c351, 1672309 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD58601963_EIS",
+      "title": "EIS - 6 Honeman Close$2c Huntingwood.PDF - SSD-58601963 (honeman close data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-58601963%2120231115T044515.165+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "EIS document for SSD-58601963, read 2026-10-10 from the NSW Planning Portal (attachment environmental-impact-statement-14662), SHA-256 7cb298d727916de0bac411956fbb6b846fd8d55f2d40a2ba356f8ef707802ed2, 11785095 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD59416728_ASSESSMENT",
+      "title": "Signed SSD-SSI Assessment Report - SSD-59416728 (davis road data centre cundall)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120241220T045539.893+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-59416728, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-12), SHA-256 12e269fef30359a2a8c36a37112ab1cccf65368fb9e36b3d28e07360a641da3b, 3209019 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD63168959_EIS",
+      "title": "EIS - NEXTDC S5 Data Centre and Innovation Hub - SSD-63168959 (nextdc s5 data centre and innovation hub)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63168959%2120240711T064100.786+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "EIS document for SSD-63168959, read 2026-10-10 from the NSW Planning Portal (attachment eis-nextdc-s5-data-centre-and-innovation-hub-36), SHA-256 00077e7da98afa747d5f424efda04b92fb0e7970041fc953d70e420bb31117ef, 11619414 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD63235720_ASSESSMENT",
+      "title": "SSD Assessment Report - SSD-63235720 (1 5 khartoum road data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63235720%2120260611T061649.742+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-63235720, read 2026-10-10 from the NSW Planning Portal (attachment ssd-assessment-report-168), SHA-256 885ef8e5af3a9fac1035657e968a39c7e4133008326ad6807479fe943340d996, 16362840 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD63741210_ASSESSMENT",
+      "title": "Signed - SSD-SSI Assessment Report - SSD-63741210 (nextdc s4 data centre horsley park)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63741210%2120251224T003217.140+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-63741210, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-19), SHA-256 80f351750fd90e530a1dfea5d54773be3c53b66622a1e9bf10cef5408faa7abb, 4794871 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD64287712_ASSESSMENT",
+      "title": "DCI Poplars - Assessment Report - SSD-64287712 (dci poplars data centre project 0)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-64287712%2120251109T224014.391+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-64287712, read 2026-10-10 from the NSW Planning Portal (attachment dci-poplars-assessment-report-2), SHA-256 ffa08ec9465ec1521a1616febc72290b2f25bb568e82b586c46615b6275fe22d, 3599932 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD67407231_ASSESSMENT",
+      "title": "SSD-67407231 Assessment Report - SSD-67407231 (apollo place data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-67407231%2120251009T033248.267+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-67407231, read 2026-10-10 from the NSW Planning Portal (attachment ssd-67407231-assessment-report-1), SHA-256 f9b34ce94d159222b24aa33e9331d73c13ed1c2c815a899708b45bf24c36b78f, 4398347 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD68013714_ASSESSMENT",
+      "title": "Signed SSD-SSI Assessment Report - SSD-68013714 (43 61 turner road data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-68013714%2120251121T045241.327+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-68013714, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-15), SHA-256 da65e04c0c64395c46f9e466a98849b3d48ae4ed4afcd9f1b089761ff7f58d1e, 4427103 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD69223466_ASSESSMENT",
+      "title": "Signed - SSD-SSI Assessment Report - SSD-69223466 (project pluto data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69223466%2120260724T063200.298+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-69223466, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-20), SHA-256 de1de0c4adf794a4443addea89596f783dad72c1de9a76acfba9185381af2b70, 3460833 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD69637456_ASSESSMENT",
+      "title": "Signed - SSD-SSI Assessment Report - SSD-69637456 (digico syd1 data centre expansion)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69637456%2120251223T231353.781+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-69637456, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-18), SHA-256 3d8df3d0a2bfce098fe47bd1ac550caf634b7ced0ce1c14a97e28ce58f671170, 4632863 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD70889211_ASSESSMENT",
+      "title": "Signed - SSD-SSI Assessment Report - SSD-70889211 (marsden park data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-70889211%2120251128T050853.709+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-70889211, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-17), SHA-256 ea7aa05d0de55c402e8d3f8f3466c26468eb7f78bfa92c68bc8b9f650c7455f2, 4403056 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD71368959_ASSESSMENT",
+      "title": "SSD-SSI Assessment Report 1 - SSD-71368959 (project duke data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-71368959%2120251222T223948.276+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-71368959, read 2026-10-10 from the NSW Planning Portal (attachment assessment-report-4731), SHA-256 adf74f8a72ea5f2a7e1e1fbef40d91bd1daa868f55a655869883d94976a867d4, 15231151 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD73761707_ASSESSMENT",
+      "title": "Signed - SSD-SSI Assessment Report - SSD-73761707 (glendenning road data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-73761707%2120260916T063023.112+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-73761707, read 2026-10-10 from the NSW Planning Portal (attachment signed-ssd-ssi-assessment-report-21), SHA-256 801090e50f47c8dcce5eac07ef3007fd8684c5d145c519582e42f52287f4777c, 16198189 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD74069708_ASSESSMENT",
+      "title": "Project Apollo DC - Assessment Report - SSD-74069708 (project apollo data centre macquarie park)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-74069708%2120260903T232908.106+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Determination document for SSD-74069708, read 2026-10-10 from the NSW Planning Portal (attachment project-apollo-dc-assessment-report), SHA-256 e0395d4f6e8c79f334847c51ae7a94946e2650afc2c031951fd9935bfe0291a8, 5938532 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD77274467_SEARS_REQUEST",
+      "title": "Request for SEARs_20241024223414 - SSD-77274467 (22 oriordan street alexandria data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-76301215%2120241024T223450.787+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-77274467, read 2026-10-10 from the NSW Planning Portal (attachment request-sears20241024223414-12), SHA-256 a6eec0bfa10fda563947058a7fbeaa9b7364aa5d4a8c005d33cc73a5cccd99a0, 306464 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD80018208_EIS",
+      "title": "Environmental Impact Statement - Julius Avenue Data Centre 240625 - SSD-80018208 (julius avenue data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-80018208%2120250624T053649.263+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "EIS document for SSD-80018208, read 2026-10-10 from the NSW Planning Portal (attachment eis-julius-avenue-data-centre-240625-28), SHA-256 d9e5d1853d74867a0dcf84a6df11ab36cd3af7c7f6f05e3d743a30e3bdbc837b, 20881293 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD80814238_SEARS_REQUEST",
+      "title": "Request for SEARs_20250309233635 - SSD-80814238 (road 1 data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-79810956%2120250309T233707.993+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-80814238, read 2026-10-10 from the NSW Planning Portal (attachment request-sears20250309233635-28), SHA-256 a642948becc0d813182d38213b41ec9acc76ac7239d153a80ade01f2c7282436, 309134 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD81928961_EIS",
+      "title": "Environmental Impact Statement - 3 Brookhollow Avenue$2c Norwest - SSD-81928961 (brookhollow avenue data centre expansion norwest)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-81928961%2120260623T233326.415+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "EIS document for SSD-81928961, read 2026-10-10 from the NSW Planning Portal (attachment eis-3-brookhollow-avenue-norwest), SHA-256 8734219068375acf09817655509ba6549b8e4e0f5ae8338a9267bfc849dca4c1, 8562643 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD82211208_SEARS_REQUEST",
+      "title": "Request for SEARs_20250407234709 - SSD-82211208 (stack syd01 data centre erskine park)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-81060957%2120250407T234740.526+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-82211208, read 2026-10-10 from the NSW Planning Portal (attachment request-sears20250407234709-12), SHA-256 c483bc29287749e276f664f5538fe7cef4d0e46d4e186d1e414649b4b1b8be63, 302831 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD8662_ASSESSMENT",
+      "title": "SSD 8662 - Assessment Report - SSD-8662 (dicker data warehouse and distribution centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-8662%2120190429T020625.567+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": " document for SSD-8662, read 2026-10-10 from the NSW Planning Portal (attachment ssd-8662-assessment-report), SHA-256 595e4f097e7b98ccdaba5941a0e3539e1005d4852d74556046cfb27bf18ba751, 4371477 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD91297457_SEARS_REQUEST",
+      "title": "Request for SEARs_20250819005815 - SSD-91297457 (23 25 waterloo road data centre)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-90331213%2120250819T005846.034+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Request for SEARs document for SSD-91297457, read 2026-10-10 from the NSW Planning Portal (attachment request-sears20250819005815-14), SHA-256 35ef5071edc99bb3d71c23abf4915116f3a0a8fcd05dc658d93ee6dd689abd7f, 405552 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD92743706_EIS",
+      "title": "EIS - 706-752 Mamre Road$2c Kemps Creek - SSD-92743706 (mamre road data centre campus)",
+      "publisher": "Prepared for the applicant; published on the NSW Planning Portal",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-92743706%2120260204T015908.828+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "EIS document for SSD-92743706, read 2026-10-10 from the NSW Planning Portal (attachment eis-706-752-mamre-road), SHA-256 74d20a6da046102e9728260b2f91bf3548783331a2f516cccece4cb9f6e89f87, 17788558 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    },
+    {
+      "id": "SRC_SSD9741_ASSESSMENT",
+      "title": "SSD-9741 - Assessment Report - Recommendation - SSD-9741 (lane cove west data centre)",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741%2120191108T030024.717+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "Recommendation document for SSD-9741, read 2026-10-10 from the NSW Planning Portal (attachment ssd-9741-assessment-report-recommendation-3), SHA-256 c3d5eef10ff256998198a366a0966a6f0f1a4c45952b80808c486452f89c513e, 13637355 bytes, text by pypdf-6.20.0, archived at data/raw/nsw_planning/documents/. Cited for the figures quoted in source_refs."
+    }
+  ],
+  "rows": {
+    "sites": [
+      {
+        "match": {
+          "id": "SITE_MSFT_KEMPS"
+        },
+        "fill": {
+          "capital_cost_aud": 1298942449,
+          "construction_jobs": 300,
+          "operational_jobs": 79,
+          "gfa_sqm": 60943,
+          "campus_area_ha": 14.43
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD10101987_ASSESSMENT",
+            "quote": "p17 (capital_cost_aud): Capital investment value $1,298,942,449.00 | p17 (construction_jobs): Employment 300 full-time equivalent construction jobs and 79 operational jobs | p17 (operational_jobs): Employment 300 full-time equivalent construction jobs and 79 operational jobs | p16 (gfa_sqm): The development has a gross floor area (GFA) of 60,943 m2 | p16 (campus_area_ha): The site is approximately 14.43 hectares (ha) in area"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_GOODMAN_ATLAS"
+        },
+        "fill": {
+          "capital_cost_aud": 5536389811,
+          "construction_jobs": 2323,
+          "operational_jobs": 162,
+          "total_capacity_mw": 348,
+          "gfa_sqm": 99130,
+          "campus_area_ha": 16.8574
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD101067971_EIS",
+            "quote": "p15 (capital_cost_aud): Estimated Development Cost $5,536,389,811 AUD | p15 (construction_jobs): Employment Generation Construction 2,323 full-time equivalent jobs Operational 162 full-time equivalent jobs | p15 (operational_jobs): Employment Generation Construction 2,323 full-time equivalent jobs Operational 162 full-time equivalent jobs | p13 (total_capacity_mw): a Data Centre that has a total power consumption of more than 15 megawatts (348MW) | p14 (gfa_sqm): Total GFA: 99,130m2 | p14 (campus_area_ha, sqm to ha): Total site area = 168,574m2"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ROBERTS_RD"
+        },
+        "fill": {
+          "capital_cost_aud": 291465000,
+          "construction_jobs": 448,
+          "operational_jobs": 10,
+          "gfa_sqm": 42222,
+          "campus_area_ha": 14.52
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD10330_ASSESSMENT",
+            "quote": "p17 (capital_cost_aud): Capital investment value (CIV) $291,465,000 | p17 (construction_jobs): Employment 448 construction jobs and 10 operational jobs | p17 (operational_jobs): Employment 448 construction jobs and 10 operational jobs | p15 (gfa_sqm): The expansion would have a total GFA of approximately 42,222 m2 | p15 (campus_area_ha): Site area 14.52 ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQUARIE_PARK_DC"
+        },
+        "fill": {
+          "capital_cost_aud": 263600000,
+          "construction_jobs": 400,
+          "operational_jobs": 50,
+          "gfa_sqm": 12069,
+          "campus_area_ha": 1.296
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD10467_ASSESSMENT",
+            "quote": "p5 (capital_cost_aud): has a capital investment value (CIV) of approximately $263.6 millio n | p5 (construction_jobs): would generate up to 400 construction jobs and 50 full-time equivalent operational jobs | p5 (operational_jobs): would generate up to 400 construction jobs and 50 full-time equivalent operational jobs | p17 (gfa_sqm): Gross floor area (GFA) 12,069 m2 | p17 (campus_area_ha): Site area 1.296 ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_LANE_COVE_MARS"
+        },
+        "fill": {
+          "capital_cost_aud": 1000000000,
+          "operational_jobs": 50,
+          "construction_jobs": 1000,
+          "gfa_sqm": 13801,
+          "campus_area_ha": 1.5044
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD108835458_SEARS_REQUEST",
+            "quote": "p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD1,000,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 1,000 | p1 (construction_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 1,000 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 13,801 | p2 (campus_area_ha, sqm to ha): Site Area sqm 15,044"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S4_P2"
+        },
+        "fill": {
+          "construction_jobs": 1100,
+          "operational_jobs": 217,
+          "campus_area_ha": 21.33,
+          "proponent": "NEXTDC Ltd"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD108864209_SCOPING",
+            "quote": "p18 (construction_jobs): approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs | p18 (operational_jobs): approximately 1,100 full- time equivalent c onstruction jobs and approximately 217 full- time operational jobs | p6 (campus_area_ha): The site has a total area of 21.33 hectares. | p5 (proponent): This Scoping Report has been prepared on behalf of NEXTDC Ltd (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ALDINGTON"
+        },
+        "fill": {
+          "campus_area_ha": 30,
+          "it_capacity_mw": 360,
+          "proponent": "Stockland Development Pty Limited"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD112059740_SCOPING",
+            "quote": "p8 (campus_area_ha): Description 90 Aldington Road Data Centre Amended Proposal Site Area Approximately 20ha Approximately 30ha | p8 (it_capacity_mw): Description 90 Aldington Road Data Centre Amended Proposal Site Area Approximately 20ha Approximately 30ha Site Developable Area Approximately 10ha Approximately 14ha Height 27 metres 36 metres MegaWatt IT Load (Max) 245 MW 360 MW MegaWatt IT Load (Min) 226 MW 342 MW | p5 (proponent): prepared by Urbis on behalf of Stockland Development Pty Limited (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S7"
+        },
+        "fill": {
+          "capital_cost_aud": 7154563995,
+          "construction_jobs": 2000,
+          "operational_jobs": 425,
+          "gfa_sqm": 174411,
+          "campus_area_ha": 38.5734,
+          "proponent": "NEXTDC"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD113934740_SCOPING",
+            "quote": "p27 (capital_cost_aud): Expected Capital Investment Value $7,154,563,995 .00 | p27 (construction_jobs): Construction: Approximately 2,000 FTE construction roles | p28 (operational_jobs): Operation: Approximately 425 FTE roles | p26 (gfa_sqm): The proposal provides an approximate total GFA of 174,411 m² | p8 (campus_area_ha, sqm to ha): has a total area of approximately 385,734m2 | p7 (proponent): This Scoping Report has been prepared on behalf of NEXTDC (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_KURRI_KURRI"
+        },
+        "fill": {
+          "construction_jobs": 500,
+          "operational_jobs": 250,
+          "gfa_sqm": 44220,
+          "campus_area_ha": 20.91,
+          "total_capacity_mw": 540
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD128819490_SCOPING",
+            "quote": "p33 (construction_jobs): Employment Generation 500 construction jobs and 250 full-time operational jobs | p33 (operational_jobs): Employment Generation 500 construction jobs and 250 full-time operational jobs | p29 (gfa_sqm): Total GFA – 44,220 m2 | p8 (campus_area_ha): with a total area of 20.91 hectares | p9 (total_capacity_mw): A total power consumption of 540 MW"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_KC1"
+        },
+        "fill": {
+          "total_capacity_mw": 144,
+          "campus_area_ha": 88.4,
+          "proponent": "CDC Data Centres Pty Ltd"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD133677993_SCOPING",
+            "quote": "p7 (total_capacity_mw): anticipated to have a total power consumption of approximately 144 MW | p8 (campus_area_ha): has an approximate combined area of 88.4ha across four (4) lots | p7 (proponent): on behalf of CDC Data Centres Pty Ltd (the Proponent)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MOWBRAY_RD"
+        },
+        "fill": {
+          "campus_area_ha": 1.757,
+          "construction_jobs": 300
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD13475973_SCOPING",
+            "quote": "p9 (campus_area_ha): Site Area 1.757 ha | p13 (construction_jobs): Construction jobs are expected to be in the order of approximately 300"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_FREDERICK_ST"
+        },
+        "fill": {
+          "gfa_sqm": 16634,
+          "total_capacity_mw": 81,
+          "proponent": "Gateway Capital"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD139545990_SCOPING",
+            "quote": "p18 (gfa_sqm): Gross Floor Area (GFA) 16,634 sqm | p4 (total_capacity_mw): a data centre that has a maximum power demand of 81 megawatts (MW) | p4 (proponent): This Scoping Report has been prepared on behalf of Gateway Capital (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_EC_EXPANSION"
+        },
+        "fill": {
+          "capital_cost_aud": 330311108,
+          "construction_jobs": 150,
+          "operational_jobs": 76,
+          "gfa_sqm": 13210,
+          "total_capacity_mw": 32,
+          "campus_area_ha": 4.094,
+          "proponent": "NineZero DC Sub TC I Pty Ltd"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD21342738_ASSESSMENT",
+            "quote": "p14 (capital_cost_aud): Capital investment value (CIV) $330,311,108 | p14 (construction_jobs): Employment 150 construction jobs and 76 additional operational jobs | p14 (operational_jobs): Employment 150 construction jobs and 76 additional operational jobs | p13 (gfa_sqm): Gross floor area (GFA) 13,210 m2 | p13 (total_capacity_mw): Power consumption 32 megawatts (MW) | p13 (campus_area_ha, sqm to ha): Site area 40,940 m2 | p5 (proponent): NineZero DC Sub TC I Pty Ltd trading as DCI Data Centers (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_TALAVERA"
+        },
+        "fill": {
+          "capital_cost_aud": 332032973,
+          "construction_jobs": 610,
+          "operational_jobs": 20,
+          "gfa_sqm": 16142,
+          "total_capacity_mw": 38,
+          "campus_area_ha": 2.0094
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD24299707_ASSESSMENT",
+            "quote": "p22 (capital_cost_aud): Capital investment value (CIV) $332,032,973 | p22 (construction_jobs): Employment 610 construction jobs and 20 additional operational jobs | p22 (operational_jobs): Employment 610 construction jobs and 20 additional operational jobs | p21 (gfa_sqm): Gross floor area (GFA) 16,142 m2 | p21 (total_capacity_mw): Power consumption 38 megawatts (MW) | p21 (campus_area_ha, sqm to ha): Site area 20,094 m2"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_STATION_RD"
+        },
+        "fill": {
+          "capital_cost_aud": 167632802,
+          "construction_jobs": 250,
+          "operational_jobs": 32,
+          "gfa_sqm": 8076,
+          "total_capacity_mw": 19.2,
+          "campus_area_ha": 2.57
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD33781208_ASSESSMENT",
+            "quote": "p15 (capital_cost_aud): Capital investment value (CIV) $167,632,802 | p15 (construction_jobs): Employment 250 construction jobs and 32 additional operational jobs | p15 (operational_jobs): Employment 250 construction jobs and 32 additional operational jobs | p14 (gfa_sqm): Gross floor area (GFA) 8,076 m2 | p14 (total_capacity_mw): Power consumption 19.2 MW | p14 (campus_area_ha): Site area 2.57 ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_51_HUNTINGWOOD"
+        },
+        "fill": {
+          "capital_cost_aud": 1074990484,
+          "construction_jobs": 1333,
+          "operational_jobs": 276,
+          "gfa_sqm": 122546,
+          "total_capacity_mw": 400,
+          "campus_area_ha": 9
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD41589232_ASSESSMENT",
+            "quote": "p16 (capital_cost_aud): Capital investment value $1,074,990,484.00 | p16 (construction_jobs): Employment 1,333 full-time equivalent construction jobs and 276 operational jobs | p16 (operational_jobs): Employment 1,333 full-time equivalent construction jobs and 276 operational jobs | p15 (gfa_sqm): Gross floor area (GFA) 122,546 m2 | p15 (total_capacity_mw): Power Consumption 400 MW | p15 (campus_area_ha): Site area 9 hectares"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ECHIDNA"
+        },
+        "fill": {
+          "capital_cost_aud": 380267448,
+          "construction_jobs": 100,
+          "operational_jobs": 50,
+          "gfa_sqm": 9225,
+          "total_capacity_mw": 35.2
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD47320208_ASSESSMENT",
+            "quote": "p17 (capital_cost_aud): Capital Investment Value $380,267,448 | p17 (construction_jobs): Employment 100 full-time equivalent construction jobs and 50 full-time operational jobs | p17 (operational_jobs): Employment 100 full-time equivalent construction jobs and 50 full-time operational jobs | p16 (gfa_sqm): Gross Floor Area (GFA) 9,225 m2 | p16 (total_capacity_mw): Power Consumption 35.2 MW"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_GRAND_AVE"
+        },
+        "fill": {
+          "capital_cost_aud": 293360197,
+          "construction_jobs": 250,
+          "operational_jobs": 36,
+          "gfa_sqm": 14856,
+          "campus_area_ha": 1.9
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD53338465_ASSESSMENT",
+            "quote": "p14 (capital_cost_aud): Capital Investment Value $ 293,360,197 | p14 (construction_jobs): Employment 250 full-time equivalent construction jobs and 36 operational jobs | p14 (operational_jobs): Employment 250 full-time equivalent construction jobs and 36 operational jobs | p13 (gfa_sqm): Gross Floor Area (GFA) 14,856 m2 | p13 (campus_area_ha): Site area 1.9 ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MSFT_HONEMAN"
+        },
+        "fill": {
+          "capital_cost_aud": 1263226278.52,
+          "total_capacity_mw": 96,
+          "construction_jobs": 250,
+          "operational_jobs": 74
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD58601963_EIS",
+            "quote": "p12 (capital_cost_aud): The proposal has a capital investment value (CIV) of $1,263,226,278.52 exc. GST | p38 (total_capacity_mw): Total power consumption capacity up to 96 MW | p39 (construction_jobs): Employment Generation Up to 250 construction jobs, and 74 operational full-time employees. | p39 (operational_jobs): Employment Generation Up to 250 construction jobs, and 74 operational full-time employees."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DAVIS_RD_CUNDALL"
+        },
+        "fill": {
+          "capital_cost_aud": 1597338256,
+          "construction_jobs": 556,
+          "operational_jobs": 73,
+          "gfa_sqm": 39568,
+          "campus_area_ha": 10.54
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD59416728_ASSESSMENT",
+            "quote": "p15 (capital_cost_aud): Estimated development cost $1,597,338,256 | p15 (construction_jobs): Employment 556 full-time equivalent construction jobs and 73 operational jobs | p15 (operational_jobs): Employment 556 full-time equivalent construction jobs and 73 operational jobs | p14 (gfa_sqm): Total GFA of 39,568 m2 | p14 (campus_area_ha): Site area 10.54 ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S5"
+        },
+        "fill": {
+          "total_capacity_mw": 90,
+          "gfa_sqm": 46935
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD63168959_EIS",
+            "quote": "p49 (total_capacity_mw): Power Consumption 90 megawatts | p13 (gfa_sqm): total gross floor area (GFA) of 46,935m2"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_KHARTOUM"
+        },
+        "fill": {
+          "total_capacity_mw": 76.4,
+          "it_capacity_mw": 51.4,
+          "gfa_sqm": 19434,
+          "capital_cost_aud": 718259656,
+          "construction_jobs": 250,
+          "operational_jobs": 50
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD63235720_ASSESSMENT",
+            "quote": "p12 (total_capacity_mw): Maximum power capacity 76.4 MW (51.4 MW IT Load) | p12 (it_capacity_mw): Maximum power capacity 76.4 MW (51.4 MW IT Load) | p12 (gfa_sqm): Gross floor area (GFA) 19,434 m 2 | p13 (capital_cost_aud): Estimated development cost $718,259 ,656 | p13 (construction_jobs): Employment 250 full - time equivalent construction jobs and 50 operational jobs | p13 (operational_jobs): Employment 250 full - time equivalent construction jobs and 50 operational jobs"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S4"
+        },
+        "fill": {
+          "capital_cost_aud": 3177382221,
+          "construction_jobs": 1111,
+          "operational_jobs": 411,
+          "total_capacity_mw": 294,
+          "campus_area_ha": 8.206
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD63741210_ASSESSMENT",
+            "quote": "p17 (capital_cost_aud): Estimated development cost $3,177,382,221 | p17 (construction_jobs): Employment 411 full-time operational jobs and 1,111 construction jobs | p17 (operational_jobs): Employment 411 full-time operational jobs and 1,111 construction jobs | p82 (total_capacity_mw): Aspect Original Development in EIS Amended Development Site Area 8.206 ha 8.206 ha (site) plus land within HV route (1.1617 ha) and land within the TransGrid Sydney West Substation site (approximately 43.09 ha) Land Use Activity Data centre with ancillary office and café Data centre with ancillary office and café Power Consumption 232 megawatts 294 megawatts | p82 (campus_area_ha): Aspect Original Development in EIS Amended Development Site Area 8.206 ha 8.206 ha (site)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DCI_POPLARS"
+        },
+        "fill": {
+          "total_capacity_mw": 25.4,
+          "first_phase_mw": 8,
+          "campus_area_ha": 4.0532,
+          "gfa_sqm": 5826,
+          "construction_jobs": 125,
+          "operational_jobs": 24,
+          "capital_cost_aud": 278781168
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD64287712_ASSESSMENT",
+            "quote": "p4 (total_capacity_mw): The facility would have a total power consumption of 25.4 megawatts (MW) | p12 (first_phase_mw): Stage 1 – Two data halls with 8 MW IT capacity | p12 (campus_area_ha, sqm to ha): Site area 40,532 m2 | p12 (gfa_sqm): Gross floor area (GFA) 5,826 m2 | p13 (construction_jobs): Employment 125 construction jobs and 24 operational jobs | p13 (operational_jobs): Employment 125 construction jobs and 24 operational jobs | p13 (capital_cost_aud): Estimated development cost $278,781,168"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_APOLLO_PLACE"
+        },
+        "fill": {
+          "total_capacity_mw": 45,
+          "it_capacity_mw": 41,
+          "gfa_sqm": 9328,
+          "campus_area_ha": 4.4842,
+          "construction_jobs": 380,
+          "operational_jobs": 44,
+          "capital_cost_aud": 288398501
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD67407231_ASSESSMENT",
+            "quote": "p13 (total_capacity_mw): Total power consumption of 45 megawatts (MW), with IT load of 41 MW | p13 (it_capacity_mw): Total power consumption of 45 megawatts (MW), with IT load of 41 MW | p13 (gfa_sqm): Gross floor area (GFA) 9,328 m 2 | p13 (campus_area_ha, sqm to ha): Site area Consolidated site – 44,842 m 2 | p14 (construction_jobs): Employment 380 full-time equivalent construction jobs and 44 operational jobs | p14 (operational_jobs): Employment 380 full-time equivalent construction jobs and 44 operational jobs | p14 (capital_cost_aud): Estimated Development Cost $288,398,501"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_43_61_TURNER"
+        },
+        "fill": {
+          "total_capacity_mw": 61.7,
+          "it_capacity_mw": 53,
+          "campus_area_ha": 9.74,
+          "gfa_sqm": 14941,
+          "construction_jobs": 100,
+          "operational_jobs": 50,
+          "capital_cost_aud": 800000000
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD68013714_ASSESSMENT",
+            "quote": "p11 (total_capacity_mw): Maximum power consumption 61.7 MW (53 MW IT Load) | p11 (it_capacity_mw): Maximum power consumption 61.7 MW (53 MW IT Load) | p11 (campus_area_ha): Site area 9.74 ha | p11 (gfa_sqm): Total GFA of 14,941 m2 | p12 (construction_jobs): Employment 100 full-time equivalent construction jobs and 50 operational jobs | p12 (operational_jobs): Employment 100 full-time equivalent construction jobs and 50 operational jobs | p12 (capital_cost_aud): Estimated Development Cost $800,000,000"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_PLUTO"
+        },
+        "fill": {
+          "total_capacity_mw": 100,
+          "it_capacity_mw": 68,
+          "campus_area_ha": 7.171,
+          "gfa_sqm": 29444,
+          "construction_jobs": 467,
+          "operational_jobs": 60,
+          "capital_cost_aud": 1114474328,
+          "proponent": "Goodman Property Services (Aust) Pty Ltd"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD69223466_ASSESSMENT",
+            "quote": "p12 (total_capacity_mw): Total power consumption of 100 MW with an IT Load of 68 MW | p12 (it_capacity_mw): Total power consumption of 100 MW with an IT Load of 68 MW | p12 (campus_area_ha, sqm to ha): site area 71,710 m2 | p12 (gfa_sqm): Gross floor area (GFA) 29,444 m2 | p13 (construction_jobs): Employment 467 full-time equivalent construction jobs and 60 operational jobs | p13 (operational_jobs): Employment 467 full-time equivalent construction jobs and 60 operational jobs | p13 (capital_cost_aud): Estimated Development Cost $1,114,474,328 | p4 (proponent): Goodman Property Services (Aust) Pty Ltd (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DIGICO_SYD1"
+        },
+        "fill": {
+          "total_capacity_mw": 120,
+          "it_capacity_mw": 88,
+          "campus_area_ha": 1.1,
+          "construction_jobs": 80,
+          "capital_cost_aud": 605593980
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD69637456_ASSESSMENT",
+            "quote": "p13 (total_capacity_mw): Total power consumption of 120 MW (88 MW IT load) | p13 (it_capacity_mw): Total power consumption of 120 MW (88 MW IT load) | p13 (campus_area_ha): Site area 1.1 ha | p14 (construction_jobs): Employment 80 full-time equivalent construction jobs and retention of 45 operational jobs | p14 (capital_cost_aud): Estimated development cost (EDC) $605,593,980.00"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_CDC_MARSDEN"
+        },
+        "fill": {
+          "total_capacity_mw": 720,
+          "it_capacity_mw": 504,
+          "campus_area_ha": 20.91,
+          "gfa_sqm": 279650,
+          "construction_jobs": 220,
+          "operational_jobs": 265,
+          "capital_cost_aud": 3113226273,
+          "proponent": "Canberra Data Centres (CDC) Pty Ltd"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD70889211_ASSESSMENT",
+            "quote": "p12 (total_capacity_mw): Maximum power capacity • 720 MW (504 MW IT load) | p12 (it_capacity_mw): Maximum power capacity • 720 MW (504 MW IT load) | p12 (campus_area_ha): Site area 20.91 hectares | p12 (gfa_sqm): Gross floor area (GFA) 279,650 m2 | p13 (construction_jobs): Employment 220 full-time equivalent construction jobs and 265 operational jobs | p13 (operational_jobs): Employment 220 full-time equivalent construction jobs and 265 operational jobs | p13 (capital_cost_aud): Estimated development cost $3,113,226,273 | p8 (proponent): Canberra Data Centres (CDC) Pty Ltd (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_DUKE"
+        },
+        "fill": {
+          "total_capacity_mw": 120,
+          "it_capacity_mw": 85,
+          "construction_jobs": 600,
+          "operational_jobs": 30,
+          "capital_cost_aud": 1177672175,
+          "campus_area_ha": 2.2923,
+          "proponent": "Goodman Property Services (Aust) Pty Limited"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD71368959_ASSESSMENT",
+            "quote": "p13 (total_capacity_mw): Total power consumption of 120 megawatts (MW), with IT load of up to 85 MW | p13 (it_capacity_mw): Total power consumption of 120 megawatts (MW), with IT load of up to 85 MW | p14 (construction_jobs): Employment 600 full - time equivalent construction jobs and 30 operational jobs | p14 (operational_jobs): Employment 600 full - time equivalent construction jobs and 30 operational jobs | p14 (capital_cost_aud): Estimated Development Cost $ 1,1 7 7,672,175 | p62 (campus_area_ha, sqm to ha): Aspect Original Development in EIS Amended Development Site area 20,760 m 2 ( 2 Kent Road, 10 - 22 Kent Road) 22,923 m 2 (2 Kent Road, 10 - 22 Kent Road and 685 Gardeners Road) | p4 (proponent): Goodman Property Services (Aust) Pty Limited (the Applicant)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_GLENDENNING"
+        },
+        "fill": {
+          "total_capacity_mw": 235,
+          "it_capacity_mw": 193.6,
+          "gfa_sqm": 50233,
+          "campus_area_ha": 10.44,
+          "construction_jobs": 1076,
+          "operational_jobs": 106,
+          "capital_cost_aud": 2168267746
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD73761707_ASSESSMENT",
+            "quote": "p13 (total_capacity_mw): Maximum power capacity • 235 MW (IT load of 193.6 MW) | p13 (it_capacity_mw): Maximum power capacity • 235 MW (IT load of 193.6 MW) | p13 (gfa_sqm): Total GFA of 50,233 m 2 | p13 (campus_area_ha): Site area 10.44 hect | p15 (construction_jobs): Employment 1,076 full - time equivalent construction jobs and 106 operational jobs | p15 (operational_jobs): Employment 1,076 full - time equivalent construction jobs and 106 operational jobs | p15 (capital_cost_aud): Estimated development cost $2,168,267,746"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_PROJECT_APOLLO"
+        },
+        "fill": {
+          "total_capacity_mw": 135,
+          "campus_area_ha": 2.319,
+          "construction_jobs": 400,
+          "operational_jobs": 60,
+          "capital_cost_aud": 1365463075
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD74069708_ASSESSMENT",
+            "quote": "p13 (total_capacity_mw): Total power consumption of up to 135 megawatts (MW) | p13 (campus_area_ha, sqm to ha): Site area 23,190 m2 | p15 (construction_jobs): Employment 400 full-time equivalent construction jobs and 60 operational jobs | p15 (operational_jobs): Employment 400 full-time equivalent construction jobs and 60 operational jobs | p15 (capital_cost_aud): Estimated development cost $1,365,463,075"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ORIORDAN"
+        },
+        "fill": {
+          "capital_cost_aud": 2000000000,
+          "operational_jobs": 100,
+          "construction_jobs": 220,
+          "gfa_sqm": 20970,
+          "campus_area_ha": 0.7436,
+          "proponent": "The Trustee for M9 Property Trust"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD77274467_SEARS_REQUEST",
+            "quote": "p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD2,000,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 100 Indicative Construction Jobs 220 | p1 (construction_jobs): Indicative Operation Jobs 100 Indicative Construction Jobs 220 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 20,970 | p2 (campus_area_ha, sqm to ha): Site Area sqm 7,436 | p1 (proponent): Company Name The Trustee for M9 Property Trust ABN 26226031748"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_JULIUS_AVE"
+        },
+        "fill": {
+          "it_capacity_mw": 115.2,
+          "total_capacity_mw": 169,
+          "capital_cost_aud": 1582669210,
+          "operational_jobs": 50,
+          "campus_area_ha": 2.863,
+          "proponent": "ISPT Pty Ltd"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD80018208_EIS",
+            "quote": "p80 (it_capacity_mw): The IT load for the Proposal is 115.2 MW and the total power consumption for the Proposal is 169 MW. | p80 (total_capacity_mw): The IT load for the Proposal is 115.2 MW and the total power consumption for the Proposal is 169 MW. | p80 (capital_cost_aud): The Proposal as an EDC of $1,582,669,210 (exc. GST). | p80 (operational_jobs): the operational jobs for the Proposal is 50 | p27 (campus_area_ha): Site area 2.863ha | p20 (proponent): on behalf of ISPT Pty Ltd (the Proponent)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ROAD_1"
+        },
+        "fill": {
+          "capital_cost_aud": 300000000,
+          "operational_jobs": 50,
+          "construction_jobs": 200,
+          "gfa_sqm": 13920,
+          "campus_area_ha": 0.8093,
+          "proponent": "STOCKLAND DEVELOPMENT PTY LIMITED"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD80814238_SEARS_REQUEST",
+            "quote": "p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD300,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 200 | p1 (construction_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 200 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 13,920 | p2 (campus_area_ha, sqm to ha): Site Area sqm 8,093 | p1 (proponent): Company Name STOCKLAND DEVELOPMENT PTY LIMITED ABN 71000064835"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_BROOKHOLLOW"
+        },
+        "fill": {
+          "it_capacity_mw": 96,
+          "gfa_sqm": 16191,
+          "capital_cost_aud": 1248408516,
+          "construction_jobs": 555,
+          "proponent": "Project Garden 1 Pty Ltd as trustee for the Norwest Property Trust"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD81928961_EIS",
+            "quote": "p24 (it_capacity_mw): the proposed development has an IT load of 96 MW and a total power consumption of 120 MVA | p20 (gfa_sqm): Gross Floor Area (GFA) of 16,191m2 | p49 (capital_cost_aud): Estimated Development Cost $1,248,408,516 (excl. GST) | p50 (construction_jobs): Construction Jobs: 555 | p1 (proponent): On behalf of Project Garden 1 Pty Ltd as trustee for the Norwest Property Trust"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_STACK_SYD01"
+        },
+        "fill": {
+          "capital_cost_aud": 650000000,
+          "operational_jobs": 100,
+          "construction_jobs": 800,
+          "gfa_sqm": 82020,
+          "campus_area_ha": 7.7243,
+          "proponent": "STACK INFRASTRUCTURE AUSTRALIA PTY LTD"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD82211208_SEARS_REQUEST",
+            "quote": "p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD650,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 100 Indicative Construction Jobs 800 | p1 (construction_jobs): Indicative Operation Jobs 100 Indicative Construction Jobs 800 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 82,020 | p2 (campus_area_ha, sqm to ha): Site Area sqm 77,243 | p1 (proponent): Company Name STACK INFRASTRUCTURE AUSTRALIA PTY LTD ABN 78650472236"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DICKER_DATA"
+        },
+        "fill": {
+          "capital_cost_aud": 77186968,
+          "construction_jobs": 350,
+          "operational_jobs": 257
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD8662_ASSESSMENT",
+            "quote": "p15 (capital_cost_aud): Capital investment value • $77,186,968 | p15 (construction_jobs): Employment • 350 construction jobs and 257 operational jobs | p15 (operational_jobs): Employment • 350 construction jobs and 257 operational jobs"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_23_25_WATERLOO"
+        },
+        "fill": {
+          "capital_cost_aud": 700000000,
+          "operational_jobs": 50,
+          "construction_jobs": 3400,
+          "gfa_sqm": 23375,
+          "campus_area_ha": 1.12
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD91297457_SEARS_REQUEST",
+            "quote": "p1 (capital_cost_aud): Estimated Development Cost (excl GST) AUD700,000,000.00 | p1 (operational_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 3,400 | p1 (construction_jobs): Indicative Operation Jobs 50 Indicative Construction Jobs 3,400 | p1 (gfa_sqm): Gross Floor Area (GFA) sqm 23,375 | p2 (campus_area_ha, sqm to ha): Site Area sqm 11,200"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MAMRE_ROAD"
+        },
+        "fill": {
+          "it_capacity_mw": 1040,
+          "total_capacity_mw": 1200,
+          "operational_jobs": 800,
+          "capital_cost_aud": 8999802659.81,
+          "campus_area_ha": 52
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD92743706_EIS",
+            "quote": "p120 (it_capacity_mw, gw to mw): The IT load for the proposal is 1.04-GW and the total power consumption for the proposal is 1.2-GW. | p120 (total_capacity_mw, gw to mw): The IT load for the proposal is 1.04-GW and the total power consumption for the proposal is 1.2-GW. | p120 (operational_jobs): the operational jobs for the proposal is 800 | p56 (capital_cost_aud): EDC $8,999,802,659.81 | p40 (campus_area_ha): Site Area 52 hectares"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_LANE_COVE_WEST"
+        },
+        "fill": {
+          "capital_cost_aud": 196852378,
+          "construction_jobs": 320,
+          "operational_jobs": 100,
+          "campus_area_ha": 3.59,
+          "gfa_sqm": 32429
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD9741_ASSESSMENT",
+            "quote": "p16 (capital_cost_aud): Capital investment value (CIV) $196,852,378 | p16 (construction_jobs): Employment 320 construction jobs and 100 operational jobs | p16 (operational_jobs): Employment 320 construction jobs and 100 operational jobs | p14 (campus_area_ha): Site area 3.59 ha | p15 (gfa_sqm): The data centre would have a total GFA of 32,429 m 2"
+          }
+        ]
+      }
+    ],
+    "research_gaps": [
+      {
+        "id": 97,
+        "pillar": "A",
+        "priority": 4,
+        "status": "in_progress",
+        "opened": "2026-10-10",
+        "question": "What does each NSW State Significant Development data centre project's own planning document state about its cost, jobs, floor and site area, power and applicant?",
+        "why_it_matters": "These are the figures a reader expects for every site, and the planning record states most of them; before this batch the site record carried few.",
+        "target_source": "NSW Planning Portal: each project's assessment report, EIS, scoping report or SEARs request",
+        "retrieval_method": "manual_review",
+        "notes": "ADVANCED 2026-10-10 (batch S2). One document per project archived under data/raw/nsw_planning/documents/ by scrapers/fetch_ssd_documents.py, and every value read by a person and checked against its page and quote (scripts/curate_ssd_documents.py). Deliberately not taken, each for a stated reason: NEXTDC S7 total power (612 MW stated as total power consumption, ~700 MW as expected site load); 12 Frederick Street site area (1.82 ha and 1.859 ha); Mamre Road construction jobs (10,059 and 10,056); Julius Avenue construction jobs (a calculated 4,963.49 FTE); undefined 'operational capacity' figures (Kemps Creek 190 MW, Grand Avenue 31.2 MW, Davis Road 160 MW); DigiCo SYD1's 45 retained jobs; Brookhollow's total (120 MVA, not MW) and stage-only operational jobs; Mowbray Road's operational jobs (a lower bound); IT capacity stated only per hall or stage (NEXTDC S5, DCI Poplars, which gets first-phase capacity only); site totals that include existing buildings. No public project document found: Augusta Street (SSD-10469), 52 Turner Road (SSD-60185233), Lanceley Place (SSD-66777221), Waterloo Road ESR (SSD-59516710), Project Mars (SSD-82052708, EIS not public). Cooling, water and grid connection are stated in many of these documents but not extracted, because the loader does not carry those fields to the site.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_NSWPORTAL_REGISTER",
+        "confidence": "high",
+        "as_of_date": "2026-10-10"
+      }
+    ]
+  }
+}

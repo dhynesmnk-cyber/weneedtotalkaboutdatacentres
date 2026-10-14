@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63168959%2120240711T064100.786+GMT",
+ "project_slug": "nextdc-s5-data-centre-and-innovation-hub",
+ "attachment_slug": "eis-nextdc-s5-data-centre-and-innovation-hub-36",
+ "kind": "eis",
+ "label": "EIS - NEXTDC S5 Data Centre and Innovation Hub.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-10T14:45:10+00:00",
+ "sha256": "00077e7da98afa747d5f424efda04b92fb0e7970041fc953d70e420bb31117ef",
+ "bytes": 11619414,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 367107,
+ "pages": 185,
+ "pdf_committed": false,
+ "text_redactions": 0
+}

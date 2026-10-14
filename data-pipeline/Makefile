@@ -7,6 +7,8 @@
 #   make fetch-austender  archive an AusTender keyword search into data/raw/austender/
 #                         (KEYWORD=palantir by default; needs network, see the scraper docstring)
 #   make verify     re-run the CER verification analysis and rewrite its pack
+#   make worklist   rewrite reports/gap_worklist.{csv,md}: every field the site shows as a gap,
+#                   sorted by the source most likely to answer it (read-only on the database)
 #   make clean      remove generated artefacts (never touches data/raw/ or the packs)
 #
 # No third-party dependencies beyond the standard library and openpyxl (for CER XLSX files).
@@ -31,13 +33,17 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/rg079_determinations.json \
                       data/packs/status_updates.json \
                       data/packs/palantir_nvidia_thread.json \
-                      data/packs/site_coordinates.json
+                      data/packs/site_coordinates.json \
+                      data/packs/site_portal_fields.json \
+                      data/packs/hcf_register.json \
+                      data/packs/ssd_documents.json \
+                      data/packs/operator_sources.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
 all: check-packs check-austender check-patents build verify load check-filings docs
 
@@ -90,6 +96,10 @@ verify:
 	$(PY) scripts/curate_status.py
 	$(PY) scripts/curate_palantir_nvidia.py
 	$(PY) scripts/curate_site_coordinates.py
+	$(PY) scripts/curate_site_portal_fields.py
+	$(PY) scripts/curate_hcf_register.py
+	$(PY) scripts/curate_ssd_documents.py
+	$(PY) scripts/curate_operator_sources.py
 
 load: build verify
 	@for p in $(PACKS); do \
@@ -112,6 +122,15 @@ docs:
 	# Post-load documentation: build_db.py wrote build_report.md and viewer/db.json at SEED
 	# stage; finalize regenerates both from the loaded database. Must run after every pack.
 	$(PY) scripts/finalize_docs.py
+	$(PY) scripts/propose_gap_reasons.py
+	$(PY) scripts/gap_worklist.py
+
+# Every site field the public record shows as "Not yet researched", one row per site x field,
+# routed to the batch of sources most likely to answer it, with any drafted proposal for a stronger
+# gap reason (scripts/propose_gap_reasons.py). Reads the database; writes reports/.
+worklist:
+	$(PY) scripts/propose_gap_reasons.py
+	$(PY) scripts/gap_worklist.py
 
 # Verify the committed CSVs match the database without rewriting anything.
 check-export:
@@ -121,6 +140,11 @@ check-export:
 fetch-cer:
 	$(PY) scrapers/ingest_cer.py --check
 	$(PY) scrapers/ingest_cer.py --years $(CER_YEARS)
+
+# Batch S2: archive each NSW SSD data centre project's assessment report, EIS, scoping report or
+# SEARs request (needs pypdf and cryptography). Polite, single-threaded; offline for what is archived.
+fetch-ssd-docs:
+	$(PY) scrapers/fetch_ssd_documents.py
 
 fetch-registers:
 	$(PY) scrapers/ingest_cer.py --registers

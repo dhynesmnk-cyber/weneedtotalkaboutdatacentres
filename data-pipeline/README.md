@@ -132,6 +132,11 @@ au-dc-observatory/
 ├── scripts/reextract_consents.py pypdf re-extraction of the archived consent PDFs (sha256-verified, offline)
 ├── scripts/finalize_docs.py      regenerates build_report.md + viewer/db.json from the LOADED database
 ├── scripts/check_packs.py        fails the build if any pack/curation script is wired into only one driver
+├── scripts/gap_worklist.py       every field the site shows as a gap, routed to the source likely to answer it (read-only)
+├── scripts/propose_gap_reasons.py drafts 'not applicable' proposals for a human from each site's status (read-only)
+├── scripts/curate_hcf_register.py batch S3: HCF certification against the Commonwealth register (RG-096)
+├── scripts/curate_operator_sources.py batch S4: site facts from operators' own pages, checked against their passages (RG-098)
+├── scripts/curate_ssd_documents.py batch S2: figures from each NSW SSD project's own planning document, each checked against its page and quote (RG-097)
 ├── scripts/analyse_patents.py    dependency-free LDA topic model for a patent corpus (validated, never run on patents)
 ├── scripts/count_patent_filings.py  filings per tracked operator from an IPGOD 102 / IP RAPID extract
 ├── scripts/query.py              15 preset queries, arbitrary SQL, per-site evidence dossier
@@ -139,6 +144,8 @@ au-dc-observatory/
 ├── scripts/gen_dictionary.py     regenerates reports/DATA_DICTIONARY.md from the live schema
 ├── scrapers/ingest_nsw_dc.py         NSW Planning Portal register harvester (--harvest, --mods, --attachments)
 ├── scrapers/ingest_nsw_planning.py   NSW Planning Portal single-project archiver (polite, single-threaded)
+├── scrapers/archive_pages.py        archives public web pages with SHA-256 manifests and their visible text (robots.txt honoured)
+├── scrapers/fetch_ssd_documents.py   archives each SSD project's assessment report, EIS, scoping report or SEARs request (make fetch-ssd-docs)
 ├── scrapers/ingest_cer.py            Clean Energy Regulator NGERS / LGC / Safeguard fetcher
 ├── scrapers/ingest_austender.py      AusTender keyword-search archiver — NEVER RUN LIVE, see its docstring
 ├── exports/australian_data_centre_observatory.db
@@ -153,6 +160,8 @@ au-dc-observatory/
     ├── PATENT_METHOD.md          the Iliadis & Acker patent method transplanted: what it can and cannot answer here
     ├── extraction_audit.md       generated: PDF extraction yield per archived document
     ├── DATA_DICTIONARY.md        every table, every field, every controlled vocabulary
+    ├── gap_worklist.md           generated: the site's "Not yet researched" fields by field, batch and site (+ .csv)
+    ├── gap_reason_proposals.csv  generated: proposals for stronger gap reasons, for a human (docs/QUALITY.md)
     └── build_report.md           generated: row counts, verification ledger, gap list
 ```
 
@@ -182,6 +191,7 @@ python3 scripts/query.py friction           # community events by severity
 python3 scripts/query.py claims             # renewable claim audit
 python3 scripts/query.py unverified         # everything that must NOT be published as fact
 python3 scripts/query.py dossier SITE_MAMRE_ROAD   # full evidence dossier for one site
+python3 scripts/gap_worklist.py --expect 1777       # the gap worklist; --expect is the total /coverage shows
 
 python3 scripts/query.py --csv pipeline > pipeline.csv
 python3 scripts/query.py --sql "SELECT state, SUM(max_capacity_mw) FROM sites GROUP BY state"

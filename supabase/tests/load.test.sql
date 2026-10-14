@@ -36,21 +36,28 @@ select public.assert(
 -- Sites stay 93 because the thread adds no site rows (its infrastructure
 -- claims are CLAIMED-grade metrics pending RG-091). The assertions remain
 -- falsifiable: a loader that dropped any thread row fails them.
+-- 2026-10-10: batch S3 (data/packs/hcf_register.json) adds one source, the
+-- Commonwealth HCF register, giving 194. Batch S2 (data/packs/ssd_documents.json)
+-- adds 41, one planning document per NSW SSD project it reads, giving 235.
+-- Batch S4 (data/packs/operator_sources.json) adds 11 operator web pages, giving 246.
 select public.assert(
   (select count(*) from facts.entities where pipeline_id is not null) = 138,
   '138 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 193,
-  '193 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 246,
+  '246 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
 -- the seed) carry no source, so the loader rejects them rather than publish a
 -- question uncited. Sourcing one raises this by one, in the same diff.
+-- 2026-10-14: merged with batches S3, S2 and S4, which open RG-096 (cites the
+-- HCF register), RG-097 (the NSW portal register) and RG-098 (AirTrunk's SYD2
+-- page). The pipeline holds 92 questions; the same ten are rejected; 82 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 79,
-  '79 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 82,
+  '82 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -155,8 +162,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 79,
-  'anon can read all 79 research questions');
+  (select count(*) from facts.research_agenda) = 82,
+  'anon can read all 82 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

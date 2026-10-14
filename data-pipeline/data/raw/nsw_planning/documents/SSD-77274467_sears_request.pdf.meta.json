@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PDA-76301215%2120241024T223450.787+GMT",
+ "project_slug": "22-oriordan-street-alexandria-data-centre",
+ "attachment_slug": "request-sears20241024223414-12",
+ "kind": "sears_request",
+ "label": "Request for SEARs_20241024223414.pdf",
+ "folder": "Request for SEARs",
+ "fetched_utc": "2026-10-10T14:47:48+00:00",
+ "sha256": "a6eec0bfa10fda563947058a7fbeaa9b7364aa5d4a8c005d33cc73a5cccd99a0",
+ "bytes": 306464,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.20.0",
+ "chars": 7633,
+ "pages": 4,
+ "pdf_committed": false,
+ "text_redactions": 5
+}
