@@ -12,11 +12,19 @@ procedure for rebuilding the project, or standing up a second one.
 
 ## Status
 
-The project exists, all twelve migrations are applied, and the research is
+The project exists, all thirteen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
-Verified as `anon` against the live database on 2026-09-21: 93 sites, 117
+Reloaded on 2026-10-14 from `main@442fb12`, with `0013` applied first by
+`npx supabase db push --db-url`, from a local clone. The artefact carried 93
+sites, 246 sources, 138 entities, 500 citations, 1,548 data gaps, 59 proposed
+links and 84 research questions; ten uncited questions were rejected, as
+designed. Checked on the public site the same day: 93 sites, 46 of them on the
+map, and 84 questions on `/research` (14 in progress, 56 open, 14 resolved),
+each with its citations.
+
+First verified as `anon` against the live database on 2026-09-21: 93 sites, 117
 sources, 125 entities, 1885 data gaps, 0 sites with a live capacity, 0 visible
 links, 0 uncited sites, 0 geocoded sites. PostgREST serves `facts` and
 `editorial`, and an anon insert is refused with `42501`. As `service_role` the
@@ -27,21 +35,22 @@ Nothing in the app depends on a project existing: every page renders an explicit
 "no database connected" state, and `npm run build` succeeds without
 credentials.
 
-There are **twelve** migrations. `0001`–`0004` create the two schemas, the ten
+There are **thirteen** migrations. `0001`–`0004` create the two schemas, the ten
 original tables and Row Level Security. `0005`–`0011` widen the schema to hold
 the research in `data-pipeline/`: the extra site status values, the provenance
 columns, the pipeline identity keys, the site fields, the research agenda, and
 RLS for everything added. `0012` grants the service role select on both schemas,
 without which ingestion jobs, edge functions and the weekly backup cannot read a
-row. See `docs/PIPELINE_MAPPING.md` for why each exists.
+row. `0013` lets the research agenda be loaded and cited: research questions
+become citable records, and their status takes the pipeline's five values. See
+`docs/PIPELINE_MAPPING.md` for why each exists.
 
 `npm run test:load` proves end to end, on a throwaway Postgres and with no
 Supabase project, that 93 sites, 138 entities and 246 sources land in this
 schema correctly and that re-running the load changes nothing. That is the
 check to run before loading anything into the hosted project, and it needs no
-credentials. (The hosted project currently holds the previous load - 117
-sources, 125 entities - until the artefact is regenerated and applied after
-the Palantir-NVIDIA thread merges.)
+credentials. (The hosted project was reloaded from it on 2026-10-14; see
+Status.)
 
 CI runs both suites against Postgres 17 and 16 on every pull request, so the
 version Supabase actually runs is covered rather than assumed.
@@ -122,7 +131,7 @@ npx supabase db push
 ```
 
 `supabase db push` applies `supabase/migrations` in order. It should report
-**twelve** migrations applied and no errors.
+**thirteen** migrations applied and no errors.
 
 One thing not to worry about: `0005` adds values to the `site_status` enum, and
 a new enum value cannot be used in the same transaction that adds it. No later
@@ -196,7 +205,21 @@ psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -f .artifacts/load-pipeline.sql
 ```
 
 If the direct connection is refused, use the pooler details from
-Settings → Database instead.
+Settings → Database instead. Three things tripped the 2026-10-14 reload:
+
+- **The direct host may need IPv6.** On a network without it, use the session
+  pooler: `postgresql://postgres.<ref>:<db-password>@aws-0-ap-southeast-2.pooler.supabase.com:5432/postgres`.
+  The username differs. The pooler wants `postgres.<ref>` and the direct host
+  wants plain `postgres`, and the wrong one fails as a bad password.
+- **Percent-encode the password** in the URL: `%` as `%25`, `#` as `%23`, `*` as
+  `%2A`. `python3 -c 'import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1],safe=""))' '<db-password>'`
+  prints the encoded form.
+- **Apply a new migration before the load** that needs it. With the URL already
+  set, `npx supabase db push --db-url "$DATABASE_URL"` applies only the
+  migrations the project has not recorded, with no login or link step.
+
+A load needs no redeploy. Pages read the database at request time, so clear the
+cache (`docs/DEPLOYMENT.md`) and the new records appear.
 
 The artefact is transactional and ends with assertions that roll the whole load
 back if any site arrives uncited, if any row carries a fabricated live capacity,

@@ -20,19 +20,21 @@ database connected" state rather than sample data, because placeholder figures
 in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
-(`ap-southeast-2`), all twelve migrations are applied, and the research from
-`data-pipeline/` is loaded: 93 sites, 117 sources, 125 entities, every site
-cited and no site carrying an invented live capacity. Fill in `.env.local` and
-the pages show real records. See `docs/SUPABASE_SETUP.md` for how it was stood
-up and what remains.
+(`ap-southeast-2`), all thirteen migrations are applied, and the research from
+`data-pipeline/` is loaded: 93 sites, 246 sources, 138 entities and 84 published
+research questions, every site cited and no site carrying an invented live
+capacity. It was last loaded on 14 October 2026 from `main@442fb12`. Fill in
+`.env.local` and the pages show real records. See `docs/SUPABASE_SETUP.md` for
+how it was stood up and what remains.
 
 `npm run test:load` still proves the same load end to end on a throwaway
 Postgres with no Supabase project required, which is the check to run before
 loading a correction.
 
-No site has coordinates yet, so the map stays empty and says how many sites it
-could not place. Geocoding them is human curation work with a source per point,
-not something an importer may invent. Linked entities are blank and entity
+The map shows 46 of the 93 sites: the NSW State Significant Development
+projects, each at the point the planning portal records for it. It says how many
+sites it could not place. Locating the rest is human curation work with a source
+per point, not something an importer may invent. Linked entities are blank and entity
 profiles 404 for the same reason: every derived link loads as `proposed` and RLS
 hides it, and no entity is flagged as major until a human decides it is.
 
