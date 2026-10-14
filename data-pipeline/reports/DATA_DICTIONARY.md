@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 132 rows)
+## `ingest_log` (table, 138 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -400,7 +400,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `metrics` (table, 340 rows)
+## `metrics` (table, 341 rows)
 
 Time series of system-level figures. `basis` is mandatory discipline: actual / pipeline / signed / enquiry / forecast. Enquiry and signed figures are never summed.
 
@@ -467,7 +467,7 @@ The control chain. One row per holder per period; `effective_to IS NULL` means c
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `power_profile` (table, 19 rows)
+## `power_profile` (table, 20 rows)
 
 Engineering and grid reality per site: connection type and point, NCA status, who funds augmentation, PUE, demand flexibility, storage, synchronous condenser flag, on-site gas, generator count and fuel, diesel inventory, emission standard, EPA licence, Safeguard exposure.
 
@@ -553,7 +553,7 @@ The audit table. A claim is `VERIFIED` only when contracted instruments satisfy 
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `research_gaps` (table, 92 rows)
+## `research_gaps` (table, 94 rows)
 
 The ingestion backlog and the list of things we do not know. Each row names the target source and the retrieval method. This is the project's work queue.
 
@@ -639,7 +639,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 501 rows)
+## `source_refs` (table, 503 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 

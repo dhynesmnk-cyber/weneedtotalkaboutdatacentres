@@ -37,7 +37,8 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/site_portal_fields.json \
                       data/packs/hcf_register.json \
                       data/packs/ssd_documents.json \
-                      data/packs/operator_sources.json
+                      data/packs/operator_sources.json \
+                      data/packs/certstrat_review.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
@@ -100,6 +101,7 @@ verify:
 	$(PY) scripts/curate_hcf_register.py
 	$(PY) scripts/curate_ssd_documents.py
 	$(PY) scripts/curate_operator_sources.py
+	$(PY) scripts/curate_certstrat_review.py
 
 load: build verify
 	@for p in $(PACKS); do \

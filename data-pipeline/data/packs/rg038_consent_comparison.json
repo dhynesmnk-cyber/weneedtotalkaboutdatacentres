@@ -63,6 +63,8 @@
      "proponent": "Cundall Johnston and Partners Pty Ltd",
      "status": "approved",
      "notes": "APPLICANT ON THE SIGNED CONSENT: Cundall Johnston and Partners Pty Ltd. Approved 2024-12-20. Total installed back-up generating capacity capped at 181.92 MW; total power consumption capped at 160.85 MW. Generator operation capped at 200 hours per year; NO diesel storage cap in this consent. Two three-storey buildings, high voltage substation. No more than six generators tested at any one time. NO diesel storage cap at all - the only one of the four consents without one. Portal description references 180 MW against the consent's 160.85 MW.",
+     "total_capacity_mw": 160.85,
+     "max_capacity_mw": 160.85,
      "fact_status": "VERIFIED",
      "confidence": "high",
      "as_of_date": "2026-09-18"
@@ -95,6 +97,8 @@
      "proponent": "Lehr Consultants International (Australia) Pty Ltd",
      "status": "approved",
      "notes": "APPLICANT ON THE SIGNED CONSENT: Lehr Consultants International (Australia) Pty Ltd. Approved 2026-09-16. Total installed back-up generating capacity capped at 267.45 MW; total power consumption capped at 235.0 MW. Generator operation capped at 170 hours per year; diesel storage capped at 2,000 tonnes. The step change: 170 hours instead of 200; no more than 20 generators tested at once with at most 3 at 100 per cent load; at most one generator tested in the 6pm-10pm evening period; at most 5 hours of testing in any 24 hours; total NOx as NO2-equivalent below 10 tonnes per year; 45 m vertical stacks; annual rotational emissions testing; design must not preclude retrofit of additional controls; all operational electricity demand including non-IT matched with additional firmed renewable supply at all times via NSW NEM PPAs and a firming agreement before operation; Sustainability Management Plan with continuous metering and annual PUE, WUE and CO2-e reporting; recycled or non-potable water prioritised for cooling where available; website publication of approvals, plans, performance reporting and Independent Audit Reports.",
+     "total_capacity_mw": 235.0,
+     "max_capacity_mw": 235.0,
      "fact_status": "VERIFIED",
      "confidence": "high",
      "as_of_date": "2026-09-18"

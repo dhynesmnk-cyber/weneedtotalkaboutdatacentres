@@ -1,0 +1,106 @@
+{
+ "pack_id": "certstrat-review-2026-10",
+ "prepared_by": "scripts/curate_certstrat_review.py",
+ "prepared_on": "2026-10-14",
+ "sources": [
+  {
+   "id": "SRC_CERTSTRAT",
+   "title": "Top Data Centres in Australia: 2026 Directory and Market Overview",
+   "publisher": "CertifiedStrategic.com",
+   "url": "https://certifiedstrategic.com/insights/top-data-centres-in-australia-2026-directory-and-market-overview",
+   "doc_type": "market_research",
+   "published": "2026-03-04",
+   "accessed": "2026-09-18",
+   "credibility": "C",
+   "notes": "60 Hosting Certification Framework 'Certified Strategic' facilities across 13 providers; operator-by-operator site lists; NEXTDC M4 Fishermans Bend 162 MW / A$2bn approval January 2026; CDC Marsden Park 504 MW; Mandala 1,350 MW (2024) to 3,100 MW (2030); CBRE ~1.4 GW (2025) to ~1.8 GW (2028). REGRADED B to C on 2026-10-14: an aggregator's directory article that relays other firms' research (the Mandala and CBRE figures above are second-hand), which is class C under the rubric, as for the GovMarket aggregator. Not archived when read, so what it said on 18 September 2026 cannot be shown. Rows resting on it alone are to be re-sourced from primary records (RG-100)."
+  }
+ ],
+ "rows": {
+  "legal_instruments": [
+   {
+    "match": {
+     "id": "LAW_HCF"
+    },
+    "set": {
+     "summary": "Certified Strategic is the highest designation and is required for sensitive and PROTECTED government workloads. The register lists 21 Certified Strategic facilities and 41 enclaves across 14 providers (archive of 2026-09-28), and states that registration of prospective providers and supplementary assessments are paused from 3 November 2025 until the framework's reforms are complete. Which agency administers the framework is not established from a primary source here: the register names only 'the Department', and releases up to v2.2.0 named the Digital Transformation Agency on an aggregator's authority, which is withdrawn (RG-100).",
+     "confidence": "medium"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_HCF_REGISTER",
+      "quote": "The Department will pause the HCF Certification registration of prospective service providers and HCF Certified providers seeking supplementary assessment effective from 3 November 2025 until HCF reforms have been completed. HCF Certified providers will not be impacted."
+     }
+    ]
+   }
+  ],
+  "entities": [
+   {
+    "match": {
+     "id": "ENT_DTA"
+    },
+    "set": {
+     "notes": "Named by CertifiedStrategic.com (March 2026) as administrator of the Hosting Certification Framework (Certified Strategic / Certified Assured). That attribution is withdrawn: it rests on a grade C aggregator, and the register itself names only 'the Department'. Which agency administers the framework today is open (RG-100).",
+     "confidence": "low"
+    },
+    "add_sources": []
+   }
+  ],
+  "metrics": [
+   {
+    "match": {
+     "metric_name": "hcf_certified_strategic_facilities_national",
+     "source_id": "SRC_CERTSTRAT"
+    },
+    "set": {
+     "scope": "Australia",
+     "confidence": "low",
+     "notes": "60 Certified Strategic facilities and enclaves nationally across 13 providers, as CertifiedStrategic.com stated it in March 2026. Superseded by hcf_certified_strategic_register, counted from the register itself. CORRECTED 2026-10-14: releases up to v2.2.0 tagged this national count with scope NSW."
+    },
+    "add_sources": []
+   },
+   {
+    "as_of": "2026-09-28",
+    "scope": "Australia",
+    "metric_name": "hcf_certified_strategic_register",
+    "value": 62.0,
+    "unit": "count",
+    "basis": "actual",
+    "notes": "21 Certified Strategic facilities and 41 enclaves across 14 providers on the HCF register's Certified Service Providers page (Internet Archive capture of 2026-09-28), counted from the archived page by scripts/curate_certstrat_review.py with curate_hcf_register.py's parser. A facility the register names once counts once. Cloud services are listed separately and not counted.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-09-28",
+    "source_id": "SRC_HCF_REGISTER"
+   }
+  ],
+  "sites": [
+   {
+    "match": {
+     "id": "SITE_NEXTDC_M4"
+    },
+    "set": {
+     "confidence": "medium",
+     "notes": "Victorian Government development approval January 2026. Designed for AI, defence and sovereign technology workloads; rack densities above 1,000 kW; direct-to-chip liquid cooling. The 162 MW IT capacity, A$2bn cost and approval date came from a grade C aggregator article; NEXTDC's own M4 page gives 150 MW of IT capacity (operator_sources pack), and which figure stands is for a human to settle (RG-100)."
+    },
+    "add_sources": []
+   }
+  ],
+  "research_gaps": [
+   {
+    "id": 100,
+    "pillar": "A",
+    "priority": 4,
+    "retrieval_method": "manual_review",
+    "status": "open",
+    "opened": "2026-10-14",
+    "question": "Replace CertifiedStrategic.com (SRC_CERTSTRAT) for the rows that still rest on it alone: four national capacity figures it relays second-hand (Mandala 1,350 MW in 2024 and 3,100 MW by 2030; CBRE 1,400 MW in 2025 and 1,800 MW by 2028), eight entity notes, the HCF instrument row, a security record and two planning applications; and settle NEXTDC M4's IT capacity, 162 MW from the article against 150 MW on NEXTDC's own page.",
+    "why_it_matters": "When reviewed, the article was the sole source for 27 of the 93 sites and 25 of the 26 Certified Strategic flags. Batches S3 and S4 have since confirmed every flag against the Commonwealth register (RG-096) and cited operators' own pages, so no site rests on it alone. What remains is aggregate and descriptive: national capacity figures, provider descriptions and the framework's own record. A grade C aggregator should not be the only citation for any of them.",
+    "target_source": "Mandala Partners, Data Centres as Enabling Infrastructure; CBRE's Australian data centre report, August 2025; each provider's own pages; NEXTDC's M4 page, already archived by operator_sources.json; the HCF register, archived by curate_hcf_register.py",
+    "notes": "FROM THE ARCHIVED REGISTER (primary, SRC_HCF_REGISTER): it lists data centre facilities that match no site record here: Australian Data Centres ADC Mitchell (facility); Australian Data Centres ADC Fyshwick (enclave); Cloud Carrier DB1 (facility); DigiCo BNE2 (facility); DigiCo ADL1, SYD1 (enclave); Macquarie Technology Group IC3e (enclave); Fujitsu Australia Western Sydney, Homebush (enclave); NEXTDC Brisbane 1, Brisbane 2 (enclave); Springfield Real Estate Sales Pty Ltd Polaris Data Centre (enclave); Vocus TransACT House Dickson (enclave). RG-096 matched only existing records, so these are candidates for new site rows. LEADS ONLY, from search-engine summaries read on 2026-10-14 (below grade D, not relied on, and kept out of every fact row): the framework appears to have moved from the Digital Transformation Agency to the Department of Home Affairs on 1 May 2023, and the publisher's own pages appear to give 60, 61 and 62 certified sites. Also check whether the article supports ENT_VANTAGE and ENT_AUSTRALIANSUPER at all: both cite it for European and superannuation holdings that a directory article is unlikely to carry. The review found the article right where it copied a document directly: its 504 MW for Marsden Park is the IT load in the Department's assessment report.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-10-14",
+    "source_id": "SRC_CERTSTRAT"
+   }
+  ]
+ }
+}

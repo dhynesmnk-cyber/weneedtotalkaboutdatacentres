@@ -42,13 +42,16 @@ PACKS = [
     ("data/packs/rg079_determinations.json", ["--allow-missing-source"]),
     ("data/packs/status_updates.json", ["--allow-missing-source"]),
     ("data/packs/palantir_nvidia_thread.json", ["--allow-missing-source"]),
-    # Last: it updates sites created by rg002 and cites portal sources registered there.
+    # Late: it updates sites created by rg002 and cites portal sources registered there.
     ("data/packs/site_coordinates.json", ["--allow-missing-source"]),
     # After the coordinates pack: it cites the portal pages registered there, and fills only.
     ("data/packs/site_portal_fields.json", ["--allow-missing-source"]),
     ("data/packs/hcf_register.json", ["--allow-missing-source"]),
     ("data/packs/ssd_documents.json", ["--allow-missing-source"]),
     ("data/packs/operator_sources.json", ["--allow-missing-source"]),
+    # Last: corrects seed rows that cite SRC_CERTSTRAT, re-grades that source, and cites
+    # SRC_HCF_REGISTER, which hcf_register.json registers.
+    ("data/packs/certstrat_review.json", ["--allow-missing-source"]),
 ]
 
 
@@ -99,6 +102,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_hcf_register.py")
     run(PY, "scripts/curate_ssd_documents.py")
     run(PY, "scripts/curate_operator_sources.py")
+    run(PY, "scripts/curate_certstrat_review.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

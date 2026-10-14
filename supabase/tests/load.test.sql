@@ -55,9 +55,11 @@ select public.assert(
 -- 2026-10-14: merged with batches S3, S2 and S4, which open RG-096 (cites the
 -- HCF register), RG-097 (the NSW portal register) and RG-098 (AirTrunk's SYD2
 -- page). The pipeline holds 92 questions; the same ten are rejected; 82 load.
+-- 2026-10-14: v2.2.1 opens RG-099 (cites the NSW portal register) and RG-100
+-- (cites SRC_CERTSTRAT): 94 questions, the same ten rejected, 84 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 82,
-  '82 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 84,
+  '84 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -162,8 +164,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 82,
-  'anon can read all 82 research questions');
+  (select count(*) from facts.research_agenda) = 84,
+  'anon can read all 84 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

@@ -22,11 +22,17 @@ import csv
 import json
 import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from curate_rg038 import COMPARISON  # noqa: E402
+from curate_ssd_documents import EXTRACTIONS  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_IN = os.path.join(ROOT, "exports", "nsw_planning", "nsw_data_centre_projects.csv")
 OUT = os.path.join(ROOT, "data", "packs", "rg002_nsw_ssd_register.json")
 TODAY = "2026-09-18"
+CORRECTED = "2026-10-14"   # capacity read from each project's own document where it has one (RG-099)
 SRC = "SRC_NSWPORTAL_REGISTER"
 
 # Sites whose name was already established from a better source than the portal's generic title.
@@ -56,9 +62,10 @@ MAP = {
               "any published Microsoft capacity figure for the site and should be read as one stage of a "
               "multi-stage campus rather than the total. Endorsed in NSW IDA Round 1."),
  "marsden-park-data-centre": ("SITE_CDC_MARSDEN", "ENT_CDC", "CDC Marsden Park Data Centre", "approved",
-    "Blacktown. APPROVED, and the portal description references both 504 MW and 720 MW - the campus appears to "
-    "have been consented at a larger capacity than the 504 MW widely reported. Reconcile against the "
-    "determination before quoting either figure."),
+    "Blacktown. APPROVED. The portal description gives 'a power consumption of 504 megawatts' and 'a 720 MW "
+    "substation'; the Department's assessment report gives 'Maximum power capacity 720 MW (504 MW IT load)', "
+    "and its figures are the ones recorded. CORRECTED 2026-10-14: releases up to v2.2.0 stored 720 MW as IT "
+    "capacity and read it as a larger consented capacity."),
  "nextdc-s7-data-centre-eastern-creek": ("SITE_NEXTDC_S7", "ENT_NEXTDC", "NEXTDC S7 Data Centre, Eastern Creek",
     "lodged", "Blacktown. Portal stage is Prepare EIS, which is EARLIER than 'lodged' implies: the SSD "
               "application is registered but the environmental impact statement was still being prepared as at "
@@ -201,12 +208,51 @@ MAP = {
 }
 
 
+# A portal description is a one-line summary, and its labels cannot be relied on. Marsden Park's
+# says "a power consumption of 504 megawatts ... a 720 MW substation"; the Department's assessment
+# report says "Maximum power capacity 720 MW (504 MW IT load)". Until v2.2.0 this pack took max()
+# of every figure and stored 720 MW as IT capacity.
+#
+# So where the project's own planning document states its capacity (curate_ssd_documents.py) or
+# its signed consent states its power consumption (curate_rg038.py), that governs: this pack
+# clears the site's capacity columns, including anything an earlier pack took from the same
+# description, and the later pack fills them. Where the description is all there is, each figure
+# is read with the words in front of it: "power consumption" goes to total_capacity_mw, a figure
+# followed by "substation" is not a capacity of the site, and anything else ("capacity", "load
+# capacity", "a 96MW data centre") stays in it_capacity_mw as before. Those rows are flagged and
+# listed in RG-099 for checking against the project's own document.
+CAPACITY_COLUMNS = ("it_capacity_mw", "total_capacity_mw", "max_capacity_mw")
+SETTLED = ({case for case, field, *_ in EXTRACTIONS if field in CAPACITY_COLUMNS}
+           | {c[1] for c in COMPARISON if c[8]})   # c[8]: the consent's total power consumption
+MW_FIGURE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:MW\b|megawatts?(?:\s*\(MW\))?)", re.I)
+MEASURE = re.compile(r"((?:(?:total|overall|maximum)\s+)?(?:power consumption|power capacity|load capacity|"
+                     r"operational capacity|capacity))\s+of\s*$", re.I)
+
+
+def read_capacity(description: str) -> list[tuple[float, str, str]]:
+    """(figure, 'total' or 'unstated', the description's own words) for each site figure."""
+    figures = []
+    for m in MW_FIGURE.finditer(description or ""):
+        if re.match(r"\s*substation", description[m.end():], re.I):
+            continue
+        lead = MEASURE.search(description[:m.start()])
+        if lead:
+            phrase = description[lead.start(1):m.end()]
+        else:
+            tail = re.match(r"\s*[A-Za-z ]{0,20}?(?=\s+(?:with|comprising|including|at)\b|[,.;]|$)",
+                            description[m.end():])
+            phrase = description[m.start():m.end() + (tail.end() if tail else 0)]
+        total = bool(lead) and "power consumption" in lead.group(1).lower()
+        figures.append((float(m.group(1)), "total" if total else "unstated", phrase.strip()))
+    return figures
+
+
 def main() -> int:
     rows = list(csv.DictReader(open(CSV_IN, encoding="utf-8")))
     by_slug = {r["slug"]: r for r in rows}
 
     sites, site_updates, apps, metrics = [], [], [], []
-    skipped_mods, unmapped = [], []
+    skipped_mods, unmapped, portal_only = [], [], []
 
     for slug, spec in MAP.items():
         if spec is None:
@@ -222,16 +268,33 @@ def main() -> int:
             source_id=SRC, fact_status="VERIFIED", confidence="high", as_of_date=TODAY,
             state="NSW", market="NEM", lga=r["lga"] or None,
         )
-        mw = [float(x) for x in re.findall(r"\d+(?:\.\d+)?", r["mw_mentions_in_description"] or "")]
+        figures = read_capacity(r["description"])
+        if len(figures) > 1:
+            # Not met by the 2026-09-18 harvest. Two site figures is a judgement call, not a max().
+            raise SystemExit(f"{slug}: {len(figures)} site capacity figures in the description; map by hand")
+        mw = figures[0][0] if figures else None
         row = dict(id=site_id, name=r["title"] or name, operator_id=op, status=status,
                    proponent=None, notes=notes, **common)
-        if mw:
-            row["it_capacity_mw"] = max(mw)
-            row["max_capacity_mw"] = max(mw) if len(mw) == 1 else None
+        cleared = set()
+        if figures and r["case_id"] in SETTLED:
+            cleared = set(CAPACITY_COLUMNS)
+            row.update(dict.fromkeys(cleared))
+        elif figures:
+            _, measure, phrase = figures[0]
+            column = "total_capacity_mw" if measure == "total" else "it_capacity_mw"
+            row[column] = mw
+            row["max_capacity_mw"] = mw
+            row["notes"] = (f"{notes} Capacity rests only on the portal's description ('{phrase}'), "
+                            + ("recorded as total capacity as the portal labels it"
+                               if measure == "total" else
+                               "which does not say whether it is IT load or total site draw, so it is "
+                               "recorded as IT capacity")
+                            + "; not yet checked against the project's own planning document (RG-099).")
+            portal_only.append(f"{site_id} ({r['case_id']}, '{phrase}', as {column})")
         if site_id in ("SITE_GLENDENNING", "SITE_MSFT_KEMPS", "SITE_MAMRE_ROAD", "SITE_NEXTDC_S7",
                        "SITE_ECHIDNA", "SITE_TURNER_RD", "SITE_NEXTDC_S4", "SITE_NEXTDC_S5",
                        "SITE_GOODMAN_ATLAS", "SITE_LANE_COVE_MARS"):
-            upd = {k: v for k, v in row.items() if k != "id" and v is not None}
+            upd = {k: v for k, v in row.items() if k != "id" and (v is not None or k in cleared)}
             # The portal's title is generic ("Kemps Creek Data Centre"). Where an earlier pack
             # established a better-attributed name, do not overwrite it with the register title.
             if site_id in WELL_NAMED:
@@ -248,7 +311,7 @@ def main() -> int:
                                       "withdrawn" if r["stage"].lower().startswith("with") else
                                       "under_assessment"),
                              decision_maker=r["determination_authority"] or None,
-                             capacity_mw_in_app=max(mw) if mw else None,
+                             capacity_mw_in_app=mw,
                              conditions_summary=None,
                              notes=f"Portal stage at harvest: {r['stage'] or 'not recorded'}. Development type "
                                    f"{r['development_type']}, industry classification {r['industry']}. "
@@ -377,6 +440,36 @@ def main() -> int:
                      target_source="ASIC Connect company and business-name extracts; Appendix title documents in "
                                    "each SSD record (these name the registered proprietor); landlord disclosures",
                      fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id=SRC),
+                dict(id=99, pillar="A", priority=4, retrieval_method="manual_review", status="open",
+                     opened=CORRECTED,
+                     question=f"For the {len(portal_only)} NSW State Significant Development sites whose capacity "
+                              "rests only on the portal's one-line description, establish from the project's own "
+                              "planning document whether the figure is IT load or total site draw, and correct "
+                              "the column: " + "; ".join(portal_only) + ".",
+                     why_it_matters="The portal's labels cannot be relied on. Marsden Park's description says 'a "
+                                    "power consumption of 504 megawatts' and 'a 720 MW substation'; the "
+                                    "Department's assessment report says 'Maximum power capacity 720 MW (504 MW "
+                                    "IT load)'. Glendenning's description gives 202.4 MW, which is neither its "
+                                    "IT load (193.6 MW) nor its total (235 MW). Until v2.2.0 every description "
+                                    "figure went to IT capacity, Marsden's 720 MW included. Sites whose own "
+                                    "planning document or consent states the measure now take it from there; the "
+                                    "sites listed here have no such document yet. The two measures differ by the "
+                                    "cooling and electrical overhead, about half again at a PUE of 1.5, so a "
+                                    "misfiled figure misstates rack capacity by a third or more.",
+                     target_source="The project's own assessment report, EIS or scoping report on the NSW Planning "
+                                   "Portal, read as RG-097 reads the others (scripts/curate_ssd_documents.py)",
+                     notes="NEXTDC S7 (SSD-113934740) is the sharpest case. Its scoping report calls 612 MW total "
+                           "power consumption and also gives about 700 MW as expected site load, so RG-097 took "
+                           "neither; on either reading 612 MW is not IT load, but which total is right is "
+                           "unsettled. 52 Turner Road (SSD-60185233) has no public project document (RG-097); the "
+                           "others have an archived scoping report or request for SEARs from which RG-097 took no "
+                           "capacity figure, so each needs that document re-read for the measure, or a later one. "
+                           "max_capacity_mw on these rows holds the same figure. Settled from "
+                           "documents in v2.2.1 and no longer listed: Marsden Park, Project Pluto (IT 68 MW of a "
+                           "100 MW total; the portal's 126 MW 'load capacity' was neither), 1-5 Khartoum Road "
+                           "(IT 51.4 MW of 76.4 MW, not the portal's 35 MW), Honeman Close, Project Echidna and "
+                           "12 Frederick Street (each a total), KC1, and Davis Road from its consent.",
+                     fact_status="VERIFIED", confidence="high", as_of_date=CORRECTED, source_id=SRC),
             ],
         },
     }

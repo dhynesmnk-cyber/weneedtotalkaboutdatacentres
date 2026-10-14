@@ -317,8 +317,8 @@ Every row in the database carries `source_id`, `fact_status` (VERIFIED / REPORTE
 | Grade | Definition | Examples in this release |
 |---|---|---|
 | A | Primary government, regulator, legislation, planning portal, first-party company document, major broadcaster/wire | NSW Data Centre Guidelines; AEMO; Transgrid; Reuters; ABC; BBC; Microsoft/AWS/AirTrunk/CDC releases |
-| B | Established trade press, law firm analysis, think tank, market research | Data Center Dynamics; Information Age; KWM; Bird & Bird; Greenpeace; Westpac IQ; CertifiedStrategic |
-| C | Single-source, social, community or aggregator | Change.org petition; Facebook council posts; SUBCO/SMAP; the ~1 GW WA report |
+| B | Established trade press, law firm analysis, think tank, market research | Data Center Dynamics; Information Age; KWM; Bird & Bird; Greenpeace; Westpac IQ |
+| C | Single-source, social, community or aggregator | Change.org petition; Facebook council posts; SUBCO/SMAP; the ~1 GW WA report; CertifiedStrategic (regraded from B on 2026-10-14: an aggregator's directory that relays other firms' research; RG-097) |
 | D | Unusable | none admitted |
 
 `python3 scripts/query.py unverified` lists every row that must not be published as fact. There are
@@ -493,9 +493,11 @@ Three things this settles:
 **Corrections the harvest forced on earlier releases:** 52 Turner Road was recorded as `lodged` from a search
 snippet and is in fact **withdrawn**, in Camden LGA; NEXTDC S4 is **approved** (SSD-63741210) at **Horsley
 Park**, straddling Fairfield City and Blacktown, not merely IDA-endorsed; NEXTDC S7's portal stage is
-**Prepare EIS**, which is *earlier* than "lodged" implies; CDC Marsden Park's description references both
-**504 MW and 720 MW**, so the consented capacity may exceed the 504 MW universally reported — reconcile against
-the determination before quoting either. New sites added include **STACK SYD01 Erskine Park (450 MW, in
+**Prepare EIS**, which is *earlier* than "lodged" implies; CDC Marsden Park's description gives a **504 MW**
+power consumption and, separately, a **720 MW substation**. *(Corrected 2026-10-14: this paragraph first read
+the 720 MW as a possibly larger consented capacity, and v2.2.0 stored it as IT capacity. The Department's
+assessment report settles it: "Maximum power capacity 720 MW (504 MW IT load)". The portal description's own
+label for the 504 MW was wrong; see RG-099.)* New sites added include **STACK SYD01 Erskine Park (450 MW, in
 Assessment)**, Davis Road (Cundall) 180 MW, Project Pluto 126 MW, KC1 Kemps Creek 144 MW, NEXTDC S4 Phase 2
 134.4 MW, Frederick Street Artarmon 81 MW (Willoughby, Prepare EIS), 23-25 Waterloo Road 70 MW, Project
 Echidna 35 MW, 1-5 Khartoum Road 35 MW, Road 1 34.3 MW, 22 O'Riordan Street Alexandria 38 MW, and
