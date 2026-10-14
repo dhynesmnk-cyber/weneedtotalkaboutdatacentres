@@ -123,6 +123,11 @@ export default async function CoveragePage() {
         <Link href="/list" className="text-fact-ink underline underline-offset-2">
           the full index
         </Link>
+        . The lines of enquiry still open, and how each is to be answered, are
+        listed under{' '}
+        <Link href="/research" className="text-fact-ink underline underline-offset-2">
+          Open questions
+        </Link>
         .
       </p>
     </div>

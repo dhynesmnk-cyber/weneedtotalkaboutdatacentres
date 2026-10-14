@@ -3,6 +3,7 @@ import type {
   EventCategory,
   FactStatus,
   GapReason,
+  ResearchStatus,
   SiteStatus,
 } from '@/lib/types';
 
@@ -161,6 +162,71 @@ const GAP_REASON_LABELS: Record<GapReason, string> = {
 
 export function formatGapReason(value: GapReason): string {
   return GAP_REASON_LABELS[value];
+}
+
+/**
+ * Reader-facing wording for where a research question stands. "Won't fix" is
+ * the curator's shorthand; a reader needs to know the question was closed
+ * without an answer, not that something was broken.
+ */
+const RESEARCH_STATUS_LABELS: Record<ResearchStatus, string> = {
+  in_progress: 'In progress',
+  open: 'Open',
+  blocked: 'Blocked',
+  resolved: 'Resolved',
+  wont_fix: 'Closed without an answer',
+};
+
+export function formatResearchStatus(value: ResearchStatus): string {
+  return RESEARCH_STATUS_LABELS[value];
+}
+
+/** The research's five lines of enquiry, as data-pipeline/README.md names them. */
+const PILLAR_LABELS: Record<string, string> = {
+  A: 'Physical infrastructure',
+  B: 'Capital and control',
+  C: 'Regulatory framework',
+  D: 'Community impact',
+  E: 'Engineering critique',
+};
+
+export function formatPillar(value: string | null | undefined): string | null {
+  if (!value) return null;
+  return PILLAR_LABELS[value] ?? value;
+}
+
+/**
+ * How a question is to be answered, in words. An unrecognised method is shown
+ * as recorded rather than hidden, so a new one in the pipeline is visible.
+ */
+const RETRIEVAL_METHOD_LABELS: Record<string, string> = {
+  scrape_portal: 'Reading a public register or portal',
+  foi_request: 'Freedom of information request',
+  asic_search: 'Company register search (ASIC)',
+  dataset_download: 'Downloading a published dataset',
+  manual_review: 'Reading the documents',
+  regulator_request: 'Request to a regulator',
+  interview: 'Interview',
+  not_retrievable: 'Not obtainable from a public source',
+};
+
+export function formatRetrievalMethod(value: string | null | undefined): string | null {
+  if (!value) return null;
+  return RETRIEVAL_METHOD_LABELS[value] ?? value;
+}
+
+/** Priority as the curator graded it: 5 is the most urgent (migration 0009). */
+const PRIORITY_LABELS: Record<number, string> = {
+  5: 'Most urgent',
+  4: 'High priority',
+  3: 'Medium priority',
+  2: 'Low priority',
+  1: 'Lowest priority',
+};
+
+export function formatPriority(value: number | null | undefined): string | null {
+  if (value === null || value === undefined) return null;
+  return PRIORITY_LABELS[value] ?? null;
 }
 
 /**

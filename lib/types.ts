@@ -50,7 +50,11 @@ export type CitableRecord =
   | 'entities'
   | 'events'
   | 'case_studies'
-  | 'essays';
+  | 'essays'
+  | 'research_agenda';
+
+/** The pipeline's states for a research question, carried across unrenamed (0013). */
+export type ResearchStatus = 'open' | 'in_progress' | 'blocked' | 'resolved' | 'wont_fix';
 
 export type SourceRow = {
   id: string;
@@ -238,7 +242,7 @@ export type ResearchAgendaRow = {
   target_source: string | null;
   retrieval_method: string | null;
   priority: number | null;
-  status: 'open' | 'in_progress' | 'resolved';
+  status: ResearchStatus;
   opened: string | null;
   resolved_date: string | null;
   notes: string | null;
@@ -357,6 +361,15 @@ export const FACT_STATUSES: readonly FactStatus[] = [
   'reported',
   'claimed',
   'gap',
+] as const;
+
+/** Lifecycle order: what is being worked on first, what is closed last. */
+export const RESEARCH_STATUSES: readonly ResearchStatus[] = [
+  'in_progress',
+  'open',
+  'blocked',
+  'resolved',
+  'wont_fix',
 ] as const;
 
 export const GAP_REASONS: readonly GapReason[] = [

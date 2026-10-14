@@ -49,7 +49,8 @@ export function SourcePanel({
   );
 }
 
-function SourceLine({ citation }: { citation: CitationWithSource }) {
+/** One citation as a reader sees it: title, publisher, retrieval date and grade. */
+export function SourceLine({ citation }: { citation: CitationWithSource }) {
   const { source, claim } = citation;
 
   if (!source) {
