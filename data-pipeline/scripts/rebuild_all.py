@@ -48,6 +48,7 @@ PACKS = [
     ("data/packs/site_portal_fields.json", ["--allow-missing-source"]),
     ("data/packs/hcf_register.json", ["--allow-missing-source"]),
     ("data/packs/ssd_documents.json", ["--allow-missing-source"]),
+    ("data/packs/operator_sources.json", ["--allow-missing-source"]),
 ]
 
 
@@ -97,6 +98,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_site_portal_fields.py")
     run(PY, "scripts/curate_hcf_register.py")
     run(PY, "scripts/curate_ssd_documents.py")
+    run(PY, "scripts/curate_operator_sources.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

@@ -36,7 +36,7 @@ without which ingestion jobs, edge functions and the weekly backup cannot read a
 row. See `docs/PIPELINE_MAPPING.md` for why each exists.
 
 `npm run test:load` proves end to end, on a throwaway Postgres and with no
-Supabase project, that 93 sites, 138 entities and 235 sources land in this
+Supabase project, that 93 sites, 138 entities and 246 sources land in this
 schema correctly and that re-running the load changes nothing. That is the
 check to run before loading anything into the hosted project, and it needs no
 credentials. (The hosted project currently holds the previous load - 117
