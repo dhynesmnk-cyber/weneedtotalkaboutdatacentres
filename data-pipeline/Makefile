@@ -34,7 +34,8 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/status_updates.json \
                       data/packs/palantir_nvidia_thread.json \
                       data/packs/site_coordinates.json \
-                      data/packs/site_portal_fields.json
+                      data/packs/site_portal_fields.json \
+                      data/packs/hcf_register.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
@@ -94,6 +95,7 @@ verify:
 	$(PY) scripts/curate_palantir_nvidia.py
 	$(PY) scripts/curate_site_coordinates.py
 	$(PY) scripts/curate_site_portal_fields.py
+	$(PY) scripts/curate_hcf_register.py
 
 load: build verify
 	@for p in $(PACKS); do \
@@ -116,11 +118,14 @@ docs:
 	# Post-load documentation: build_db.py wrote build_report.md and viewer/db.json at SEED
 	# stage; finalize regenerates both from the loaded database. Must run after every pack.
 	$(PY) scripts/finalize_docs.py
+	$(PY) scripts/propose_gap_reasons.py
 	$(PY) scripts/gap_worklist.py
 
 # Every site field the public record shows as "Not yet researched", one row per site x field,
-# routed to the batch of sources most likely to answer it. Reads the database; writes reports/.
+# routed to the batch of sources most likely to answer it, with any drafted proposal for a stronger
+# gap reason (scripts/propose_gap_reasons.py). Reads the database; writes reports/.
 worklist:
+	$(PY) scripts/propose_gap_reasons.py
 	$(PY) scripts/gap_worklist.py
 
 # Verify the committed CSVs match the database without rewriting anything.

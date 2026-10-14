@@ -6885,7 +6885,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6894,7 +6894,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6903,7 +6903,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6912,7 +6912,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6921,7 +6921,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -6930,7 +6930,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6939,7 +6939,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6948,7 +6948,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6957,7 +6957,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6966,7 +6966,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6975,7 +6975,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6984,7 +6984,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6993,7 +6993,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7002,7 +7002,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7011,7 +7011,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7020,7 +7020,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7029,7 +7029,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7038,7 +7038,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7047,7 +7047,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7056,7 +7056,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7065,7 +7065,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7074,7 +7074,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7083,7 +7083,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7092,7 +7092,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7101,7 +7101,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7110,7 +7110,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7119,7 +7119,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7128,7 +7128,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7137,7 +7137,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7146,7 +7146,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:49Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7155,7 +7155,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7164,7 +7164,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7173,7 +7173,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7182,7 +7182,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7191,7 +7191,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7200,7 +7200,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7209,7 +7209,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7218,7 +7218,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7227,7 +7227,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7236,7 +7236,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7245,7 +7245,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-10-09T13:07:20Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7254,7 +7254,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7263,7 +7263,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7272,7 +7272,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7281,7 +7281,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7290,7 +7290,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7299,7 +7299,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7308,7 +7308,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7317,7 +7317,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7326,7 +7326,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7335,7 +7335,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7344,7 +7344,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7353,7 +7353,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7362,7 +7362,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7371,7 +7371,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7380,7 +7380,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7389,7 +7389,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7398,7 +7398,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7407,7 +7407,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7416,7 +7416,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7425,7 +7425,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7434,7 +7434,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7443,7 +7443,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7452,7 +7452,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7461,7 +7461,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7470,7 +7470,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7479,7 +7479,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7488,7 +7488,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7497,7 +7497,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7506,7 +7506,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7515,7 +7515,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7524,7 +7524,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7533,7 +7533,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7542,7 +7542,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7551,7 +7551,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7560,7 +7560,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7569,7 +7569,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7578,7 +7578,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7587,7 +7587,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7596,7 +7596,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7605,7 +7605,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7614,7 +7614,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7623,7 +7623,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7632,7 +7632,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7641,7 +7641,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7650,7 +7650,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7659,7 +7659,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7668,7 +7668,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7677,7 +7677,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7686,7 +7686,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7695,7 +7695,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7704,7 +7704,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7713,7 +7713,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7722,7 +7722,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7731,7 +7731,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7740,7 +7740,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7749,7 +7749,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7758,7 +7758,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7767,7 +7767,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7776,7 +7776,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7785,7 +7785,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7794,7 +7794,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7803,7 +7803,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7812,7 +7812,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7821,7 +7821,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7830,7 +7830,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7839,7 +7839,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7848,7 +7848,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7857,7 +7857,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7866,7 +7866,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7875,7 +7875,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7884,7 +7884,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7893,7 +7893,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -7902,7 +7902,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7911,7 +7911,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7920,7 +7920,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7929,7 +7929,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7938,7 +7938,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7947,7 +7947,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7956,7 +7956,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7965,7 +7965,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7974,7 +7974,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7983,12 +7983,39 @@
   },
   {
    "id": 123,
-   "run_at": "2026-10-09T13:07:21Z",
+   "run_at": "2026-10-10T14:32:50Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sites\": 45}, \"prepared_by\": \"scripts/curate_site_portal_fields.py from data/raw/nsw_planning/nodes/\", \"prepared_on\": \"2026-09-18\", \"kept_existing\": [{\"table\": \"sites\", \"match\": {\"id\": \"SITE_GLENDENNING\"}, \"column\": \"address\", \"kept\": \"Lot 2 DP 1137162, 2 Glendenning Road, Glendenning\", \"offered\": \"2 Glendenning Road, Glendenning\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_GOODMAN_ATLAS\"}, \"column\": \"suburb\", \"kept\": \"Blacktown LGA\", \"offered\": \"Eastern Creek\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_KURRI_KURRI\"}, \"column\": \"address\", \"kept\": \"Hart Road, Loxford - former Hydro Aluminium Kurri Kurri Smelter site\", \"offered\": \"145 BISHOPS BRIDGE ROAD SAWYERS GULLY 2326\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_LANE_COVE_MARS\"}, \"column\": \"address\", \"kept\": \"16-20 Mars Road, Lane Cove West\", \"offered\": \"3-4 Apollo Place and 87-91 Mars Road, Lane Cove West\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_MSFT_HONEMAN\"}, \"column\": \"suburb\", \"kept\": \"Honeman Close (Western Sydney)\", \"offered\": \"Huntingwood\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_MSFT_KEMPS\"}, \"column\": \"address\", \"kept\": \"707-769 Mamre Road, Kemps Creek (VPA site: Lot 2 DP 1271142, 769 Mamre Road)\", \"offered\": \"706-769 Mamre Road, Kemps Creek\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_NEXTDC_S4\"}, \"column\": \"suburb\", \"kept\": \"Fairfield LGA\", \"offered\": \"Horsley Park\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_NEXTDC_S5\"}, \"column\": \"suburb\", \"kept\": \"Macquarie Park area\", \"offered\": \"Macquarie Park\"}, {\"table\": \"sites\", \"match\": {\"id\": \"SITE_TURNER_RD\"}, \"column\": \"suburb\", \"kept\": \"52 Turner Road\", \"offered\": \"Smeaton Grange\"}]}"
+  },
+  {
+   "id": 124,
+   "run_at": "2026-10-10T14:32:51Z",
+   "pack": "hcf-register-2026-09",
+   "table_name": "sites",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 26, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 125,
+   "run_at": "2026-10-10T14:32:51Z",
+   "pack": "hcf-register-2026-09",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 126,
+   "run_at": "2026-10-10T14:32:51Z",
+   "pack": "hcf-register-2026-09",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 1, \"sites\": 26, \"research_gaps\": 1}, \"prepared_by\": \"scripts/curate_hcf_register.py from data/raw/hcf/\", \"prepared_on\": \"2026-10-10\"}"
   }
  ],
  "instrument_application": [
@@ -17333,6 +17360,24 @@
    "source_id": "SRC_ITNEWS_COLES",
    "confidence": "low",
    "as_of_date": "2026-09-30"
+  },
+  {
+   "id": 96,
+   "pillar": "C",
+   "question": "Which of the observatory's sites does the Commonwealth Hosting Certification Framework register list as certified, and at what level?",
+   "why_it_matters": "HCF certification decides which facilities may host Australian Government data. Every certification value in the record rested on a grade-B market directory, and 67 sites had none.",
+   "target_source": "https://www.hostingcertification.gov.au/certified-service-providers",
+   "retrieval_method": "manual_review",
+   "priority": 3,
+   "status": "resolved",
+   "owner": null,
+   "opened": "2026-10-10",
+   "resolved_date": "2026-10-10",
+   "notes": "RESOLVED 2026-10-10. Read the register's Certified Service Providers page (Internet Archive capture of 2026-09-28; the live site refused automated clients). It lists Strategic facilities and enclaves only; no Assured facility is listed. 26 site records match listed facilities, each on every facility the record names: SITE_AIRTRUNK_MEL1 (facility), SITE_AIRTRUNK_SYD1 (facility), SITE_AIRTRUNK_SYD2 (facility), SITE_CDC_BROOKLYN (facility), SITE_CDC_CANBERRA (facility), SITE_CDC_EC (facility), SITE_DCI_SYD01 (enclave), SITE_DR_ERSKINE (enclave), SITE_DR_MEL11 (enclave), SITE_EQUINIX_CA1 (facility), SITE_EQUINIX_MEL (enclave), SITE_EQUINIX_PER (enclave), SITE_EQUINIX_SYD (enclave), SITE_MACQ_FAIRBAIRN (facility), SITE_MACQ_IC12 (enclave), SITE_MACQ_IC3 (enclave), SITE_NEXTDC_A1 (enclave), SITE_NEXTDC_C1 (enclave), SITE_NEXTDC_D1 (enclave), SITE_NEXTDC_M123 (enclave), SITE_NEXTDC_P12 (enclave), SITE_NEXTDC_S1 (enclave), SITE_NEXTDC_S2 (enclave), SITE_NEXTDC_S3 (enclave), SITE_TELSTRA_DEAKIN (enclave), SITE_TELSTRA_STLEON (enclave). All 26 already held certified_strategic from SRC_CERTSTRAT; each now also cites the register, with the register's line quoted. No site gained a value. The sites not listed keep `unknown`: absence is not recorded as not_certified, because the register lists only certified providers and new registrations have been paused since 3 November 2025. Not applied: AirTrunk SYD3 is not listed (AirTrunk's certified facilities are SYD1, SYD2 and MEL1); Microsoft Azure is certified as a cloud service, which is not a facility certification; DigiCo SYD1 is a certified enclave in the existing facility, not the expansion project the site record describes.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_HCF_REGISTER",
+   "confidence": "high",
+   "as_of_date": "2026-09-28"
   }
  ],
  "security_records": [
@@ -23729,6 +23774,188 @@
    "entity_rowid": "SITE_WATERLOO_ESR",
    "source_id": "SRC_NSWPORTAL_SSD59516710",
    "quote": null
+  },
+  {
+   "id": 421,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_AIRTRUNK_MEL1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+  },
+  {
+   "id": 422,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_AIRTRUNK_SYD1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+  },
+  {
+   "id": 423,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_AIRTRUNK_SYD2",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: AirTrunk Australia - SYD1, SYD2 and MEL1"
+  },
+  {
+   "id": 424,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_CDC_BROOKLYN",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: Canberra Data Centres \u2013 H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+  },
+  {
+   "id": 425,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_CDC_CANBERRA",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: Canberra Data Centres \u2013 H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+  },
+  {
+   "id": 426,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_CDC_EC",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: Canberra Data Centres \u2013 H1, H2, H3, H4, H5, F1, F2, EC1, EC2, EC3, EC4 and Brooklyn 1"
+  },
+  {
+   "id": 427,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_DCI_SYD01",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: DCI Data Centers \u2013 SYD-01"
+  },
+  {
+   "id": 428,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_DR_ERSKINE",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Digital Realty - SYD10, SYD11, SYD14 and MEL11"
+  },
+  {
+   "id": 429,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_DR_MEL11",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Digital Realty - SYD10, SYD11, SYD14 and MEL11"
+  },
+  {
+   "id": 430,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_EQUINIX_CA1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: Equinix Australia \u2013 CA1"
+  },
+  {
+   "id": 431,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_EQUINIX_MEL",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Equinix Australia \u2013 SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+  },
+  {
+   "id": 432,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_EQUINIX_PER",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Equinix Australia \u2013 SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+  },
+  {
+   "id": 433,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_EQUINIX_SYD",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Equinix Australia \u2013 SY3, SY4, SY5, SY6, SY7, PE2, PE3, ME1, ME2 and ME4"
+  },
+  {
+   "id": 434,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_MACQ_FAIRBAIRN",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Facility: Macquarie Technology Group \u2013 IC4 and IC5"
+  },
+  {
+   "id": 435,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_MACQ_IC12",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Macquarie Technology Group \u2013 IC1, IC2, IC3 and IC3e"
+  },
+  {
+   "id": 436,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_MACQ_IC3",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Macquarie Technology Group \u2013 IC1, IC2, IC3 and IC3e"
+  },
+  {
+   "id": 437,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_A1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 438,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_C1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 439,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_D1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 440,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_M123",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 441,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_P12",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 442,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_S1",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 443,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_S2",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 444,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_NEXTDC_S3",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: NEXTDC \u2013 Adelaide 1, Brisbane 1 and 2, Canberra 1, Darwin 1, Melbourne 1, 2 and 3, Perth 1 and 2, Sydney 1, 2 and 3"
+  },
+  {
+   "id": 445,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_TELSTRA_DEAKIN",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Telstra \u2013 Deakin and St Leonards"
+  },
+  {
+   "id": 446,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_TELSTRA_STLEON",
+   "source_id": "SRC_HCF_REGISTER",
+   "quote": "Service Provider and Certified Strategic Enclave: Telstra \u2013 Deakin and St Leonards"
   }
  ],
  "sources": [
@@ -25854,6 +26081,17 @@
    "accessed": "2026-09-18",
    "credibility": "A",
    "notes": "Project record read as node JSON from https://www.planningportal.nsw.gov.au/node/59835601?_format=json, fetched 2026-09-18, SHA-256 4239dc402d7a6d191e2805714e60583f4299f85a874cf0ebb4db07e5493c8c4a, archived at data/raw/nsw_planning/nodes/waterloo-road-data-centre-esr-developments.json. Cited for the project's recorded location: field_coordinates POINT (151.125771 -33.784060)."
+  },
+  {
+   "id": "SRC_HCF_REGISTER",
+   "title": "Certified Service Providers - Hosting Certification Framework",
+   "publisher": "Department of Home Affairs (Hosting Certification Framework)",
+   "url": "https://www.hostingcertification.gov.au/certified-service-providers",
+   "doc_type": "primary_government",
+   "published": null,
+   "accessed": "2026-10-10",
+   "credibility": "A",
+   "notes": "The Commonwealth register of HCF-certified data centre facilities, enclaves and cloud services. Read 2026-10-10 from the Internet Archive capture of 2026-09-28 (https://web.archive.org/web/20260928125530id_/https://www.hostingcertification.gov.au/certified-service-providers), original HTML, SHA-256 6bde974c52754bb59bae16215d4c224f7e69535c30746ebdfac858482b70c00d, archived at data/raw/hcf/certified-service-providers.20260928125530.html; the live site refused automated clients. Publisher from the page footer (Home Affairs logo). Lists the Strategic level only, and states that new registrations are paused from 3 November 2025."
   }
  ],
  "water_profile": [

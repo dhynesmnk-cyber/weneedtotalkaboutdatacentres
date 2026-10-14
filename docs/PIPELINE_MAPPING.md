@@ -159,6 +159,12 @@ stronger — `not_disclosed`, `withheld` — is a claim about the world that nee
 human and a source; deriving one would invent evidence of an event that may
 never have happened.
 
+One pipeline value is itself a statement of not knowing: `hcf_certified =
+'unknown'`. It loads as null with a derived `unknown` gap, which is what it
+means, so that every gap is a `data_gaps` row a person can later give a
+stronger, sourced reason. /coverage counted it as an `unknown` gap already, so
+no published count changes.
+
 Emitting no gaps instead would be worse than it looks: every site page would
 paint its blanks with `UnexplainedBadge`, labelling ordinary unresearched fields
 as data-quality defects. The derivation adds no information — it restates in the

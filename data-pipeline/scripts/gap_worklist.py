@@ -43,6 +43,9 @@ Outputs:
   * reports/gap_worklist.csv - one row per site x missing field
   * reports/gap_worklist.md  - counts per field (laid out as /coverage is), per batch, per site
 
+Reads reports/gap_reason_proposals.csv when it exists (scripts/propose_gap_reasons.py, which runs
+first), so a gap a human could close as not applicable says so instead of looking like research.
+
 Run:
     python3 scripts/gap_worklist.py
     python3 scripts/gap_worklist.py --expect 1777   # the total /coverage shows
@@ -68,6 +71,13 @@ NODES = os.path.join(ROOT, "data", "raw", "nsw_planning", "nodes")
 CONSENTS = os.path.join(ROOT, "data", "raw", "nsw_planning", "consents")
 OUT_CSV = os.path.join(ROOT, "reports", "gap_worklist.csv")
 OUT_MD = os.path.join(ROOT, "reports", "gap_worklist.md")
+PROPOSALS = os.path.join(ROOT, "reports", "gap_reason_proposals.csv")
+
+# Fields a resolved research question has already searched for every site. The gaps stay
+# `unknown` ("researched without finding a source"), and the row says where was looked.
+SEARCHED = {
+    "hcf_certified": (96, "not on the HCF register"),
+}
 
 # (site field, label as /coverage shows it, column(s) here or None where the site's value is
 # always null). Order is /coverage's order.
@@ -224,6 +234,11 @@ def main() -> int:
         "select id, status, coalesce(question,'')||' '||coalesce(why_it_matters,'')||' '||"
         "coalesce(target_source,'')||' '||coalesce(notes,'') as text from research_gaps"))
     open_rgs = {r["id"] for r in rgs if r["status"] != "resolved"}
+    resolved_rgs = {r["id"] for r in rgs if r["status"] == "resolved"}
+    proposals: dict[tuple[str, str], str] = {}
+    if os.path.exists(PROPOSALS):
+        for p in csv.DictReader(open(PROPOSALS)):
+            proposals[(p["site_id"], p["field"])] = p["proposed_reason"]
 
     sites = list(db.execute(
         "select s.*, so.doc_type as src_type, so.credibility as src_grade "
@@ -261,6 +276,9 @@ def main() -> int:
                 notes.append("stored as the string 'unknown'")
             if s["state"] == "Multi":
                 notes.append("fleet record, not a single site")
+            if field in SEARCHED and SEARCHED[field][0] in resolved_rgs:
+                rg, finding = SEARCHED[field]
+                notes.append(f"{finding} (RG-{rg:03d})")
             archived = []
             if has_node:
                 archived.append("portal record")
@@ -275,6 +293,7 @@ def main() -> int:
                 archived="; ".join(archived),
                 site_rgs=" ".join(f"RG-{i:03d}" for i in site_rgs),
                 batch_rgs=" ".join(f"RG-{i:03d}" for i in BATCH_RGS.get(batch, ()) if i in open_rgs),
+                proposed_reason=proposals.get((s["id"], field), ""),
                 note="; ".join(notes),
             ))
 
@@ -307,6 +326,10 @@ def main() -> int:
         f"**{total} gaps across {len(sites)} sites and {len(FIELDS)} fields** "
         f"({len(sites) * len(FIELDS)} values). Population P (archived NSW SSD portal record): "
         f"{pops['P']} sites; population O (all others): {pops['O']} sites.",
+        "",
+        f"{sum(1 for r in rows if r['proposed_reason'])} of these have a drafted proposal for a "
+        "stronger reason (`reports/gap_reason_proposals.csv`), waiting for a human to accept or "
+        "strike it: until then they stay \"Not yet researched\".",
         "",
         "## Batches",
         "",

@@ -46,6 +46,7 @@ PACKS = [
     ("data/packs/site_coordinates.json", ["--allow-missing-source"]),
     # After the coordinates pack: it cites the portal pages registered there, and fills only.
     ("data/packs/site_portal_fields.json", ["--allow-missing-source"]),
+    ("data/packs/hcf_register.json", ["--allow-missing-source"]),
 ]
 
 
@@ -93,6 +94,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_palantir_nvidia.py")
     run(PY, "scripts/curate_site_coordinates.py")
     run(PY, "scripts/curate_site_portal_fields.py")
+    run(PY, "scripts/curate_hcf_register.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.
@@ -106,7 +108,8 @@ def main(argv: list[str]) -> int:
     # Post-load documentation: build_db.py wrote build_report.md and viewer/db.json at SEED
     # stage; finalize regenerates both from the loaded database. Must run after every pack.
     run(PY, "scripts/finalize_docs.py")
-    # The gap worklist reads the loaded database, so it follows finalize.
+    # Proposals, then the worklist that reads them; both read the loaded database.
+    run(PY, "scripts/propose_gap_reasons.py")
     run(PY, "scripts/gap_worklist.py")
     run(PY, "scripts/query.py", "unverified")
     print("\npipeline complete.")

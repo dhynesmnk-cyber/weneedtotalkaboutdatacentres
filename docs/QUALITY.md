@@ -17,8 +17,45 @@
 - Derived gaps use reason unknown and no stronger reason. not_disclosed and
   withheld are claims about the world: they need a human and a source, and are
   never inferred from a null.
+- A stronger gap reason is recorded by a human, following "Recording a stronger
+  gap reason" below. The pipeline only drafts proposals.
 - Council names are stored as their sources state them. Canonicalisation happens
   only through facts.lga_aliases, which records who approved each equivalence.
+
+## Recording a stronger gap reason
+Every derived gap says `unknown`. Some are not unknown: the field cannot apply
+to the site as its own record describes it, or a source shows the value was
+withheld. Saying "Not yet researched" for those overstates the research still
+to do, but the stronger reason is a claim about the world, so only a person
+records it, and with a source.
+
+1. `data-pipeline/scripts/propose_gap_reasons.py` (run by `make docs` and
+   `make worklist`) drafts proposals into
+   `data-pipeline/reports/gap_reason_proposals.csv`. Each names the site, the
+   field, the proposed reason, the rule behind it, and the source the site's
+   status rests on. The rules depend only on a site's recorded status (for
+   example, a site that is lodged holds no HCF certification and has no live
+   capacity). A research batch may add proposals by hand where a document shows
+   a value was withheld or refused.
+2. A person reads each proposal, checks the status it rests on (a status that is
+   itself only claimed makes a weak basis), and strikes or accepts it.
+3. An accepted proposal is recorded in the hosted database by hand, after a load:
+
+   ```sql
+   update facts.data_gaps
+      set reason = 'not_applicable',
+          source_id = (select id from facts.sources where pipeline_id = '<status_source_id>'),
+          noted_date = current_date
+    where record_type = 'sites'
+      and record_id = (select id from facts.sites where pipeline_id = '<site_id>')
+      and field_name = '<field>'
+      and reason = 'unknown';
+   ```
+
+   Loads never update an existing gap and never delete one with a source
+   (`supabase/tests/reload.test.sql` proves both), so the reason survives
+   every later load. It goes only when the research fills the field, and then a
+   person removes it.
 
 ## Content quality
 - Citation coverage measured per published record. Target one hundred percent
