@@ -2,8 +2,8 @@ tbl,fact_status,confidence,n
 sites,CLAIMED,high,2
 sites,CLAIMED,low,5
 sites,GAP,low,1
-sites,REPORTED,high,4
-sites,REPORTED,medium,28
+sites,REPORTED,high,3
+sites,REPORTED,medium,29
 sites,VERIFIED,high,47
 sites,VERIFIED,medium,6
 applications,REPORTED,high,1
@@ -36,8 +36,8 @@ regulatory_events,VERIFIED,high,20
 metrics,CLAIMED,low,4
 metrics,CLAIMED,medium,12
 metrics,REPORTED,high,14
-metrics,REPORTED,low,5
-metrics,REPORTED,medium,34
+metrics,REPORTED,low,6
+metrics,REPORTED,medium,33
 metrics,VERIFIED,high,269
 metrics,VERIFIED,low,1
 metrics,VERIFIED,medium,1

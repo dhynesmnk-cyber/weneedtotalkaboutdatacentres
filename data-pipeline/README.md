@@ -4,7 +4,29 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.2.0 · data as at 21 September 2026 · 1,338 data rows (+376 source refs) · 93 sites · 138 entities · 340 metrics · 153 catalogued sources (90 primary)**
+**Release v2.2.1 · data as at 14 October 2026 · 1,389 data rows (+420 source refs) · 93 sites · 138 entities · 340 metrics · 193 catalogued sources (130 primary)**
+
+v2.2.1 is a **correction release**, prompted by a review of CertifiedStrategic.com. Two defects are fixed
+and one source is regraded.
+
+- **Capacity read from the wrong words.** `curate_rg002.py` took the largest MW figure in each NSW portal
+  description and stored it as IT capacity. Marsden Park's description gives a 504 MW power consumption and a
+  separate **720 MW substation**; v2.2.0 stored the substation rating as `it_capacity_mw`, graded VERIFIED.
+  The script now reads each figure with the words in front of it: "power consumption" is site draw and goes
+  to `total_capacity_mw` (Marsden Park, 23-25 Waterloo Road, NEXTDC S4 Phase 2, KC1), a substation rating is
+  not a site capacity at all, and wording that does not say which measure it is stays in IT capacity, flagged
+  on each of the ten rows and listed in **RG-096**. Davis Road now carries its signed consent's 160.85 MW
+  rather than the description's 180 MW, as Glendenning already did. NSW approved capacity falls from 1,805.0
+  to 1,569.8 MW in `v_pipeline_by_state`. RG-096 also records that Project Pluto's consent figure (100 MW,
+  below its 126 MW "load capacity") reaches neither its site row nor a power row.
+- **One aggregator article carried too much.** `SRC_CERTSTRAT` is the sole source for 27 of 93 sites and
+  25 of the 26 Certified Strategic flags. It is regraded **B → C** by document class (an aggregator's
+  directory relaying other firms' research) and was never archived. Its attribution of the Hosting
+  Certification Framework to the DTA is withdrawn from `LAW_HCF` and `ENT_DTA` rather than replaced, because
+  the review's evidence for the current administrator came from search-engine summaries, which sit below
+  grade D. The national certified-site count loses its wrong `scope: NSW`, and NEXTDC M4 drops from high to
+  medium confidence. **RG-097** opens the work of replacing the article with the official register.
+  Pack: `data/packs/certstrat_review.json`.
 
 v2.2.0 opens **the Palantir–NVIDIA thread** (`data/packs/palantir_nvidia_thread.json`,
 `reports/PALANTIR_NVIDIA_THREAD.md`): defence-AI, sovereign-AI infrastructure and the Australian
@@ -423,7 +445,7 @@ scrapes never write the key to disk.
 
 | Pillar | State | Blocking gap |
 |---|---|---|
-| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents) |
+| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents), RG-096 (capacity measure unconfirmed on ten NSW sites), RG-097 (re-source the 27 sites resting on CertifiedStrategic) |
 | B — Capital and control | Ownership chains verified for AirTrunk and CDC; 10 capital flows; 9 incentive records; **270 VERIFIED metric rows** including the full CER emissions series; consultancy layer: 23 de-duplicated TCS contracts, $234.4M verified spend. v2.2.0: Future Fund → Palantir **A$165.3m** holding (primary CSV, archived); five Palantir Commonwealth contract notices catalogued with a duplicate-safe amendment row. | RG-007 (FOI on tax/land concessions), RG-006 (FIRB), RG-004 (super exposure), RG-005 (Mamre title), RG-072 (TCS portals of record), RG-078 (Oxford Economics funder), RG-086 (complete Palantir contract ledger), RG-088 (corporate customers), RG-095 (Coles non-renewal), RG-094 (public-fund PLTR/NVDA exposure) |
 | C — Regulatory framework | Strongest pillar: 22 instruments, 8 site-level applications, 24 regulatory events, including the 200-hour diesel exemption, the Victorian Tier 4 asymmetry, and the **delegation executed 18 Aug 2026 — one day after the Guidelines** — under which both post-Guidelines consents were signed. RG-079 resolved (template-dominated conditions; no officer effect at n=20). v2.2.0 adds the Palantir IRAP PROTECTED record (PPA on AWS AU regions, per company release), the DTA SON3490955 panel channel, the UK ACOBA revolving-door letter and the July 2026 national AI-standards announcement. | RG-008 (EP licence conditions per site), RG-074 (consultancy overlap with DPHI/IPC contracts), RG-085 (Talavera IPC placeholder signatures), RG-087 (per-deployment data residency), RG-089 (ASD clearance discrepancy), RG-090 (AUKUS position), RG-092 (keynote quote verification) |
 | D — Community impact | 21 events, 6 groups, institutional objections documented at Mamre Road and Glendenning (Blacktown objection overridden). v2.2.0: Shoebridge contract-freeze call and Pocock procurement criticism recorded as political interventions; WA real-time FRT trial baseline logged with no vendor attribution. | RG-016 (group register), RG-011 (verify Melton/South Morang), RG-093 (any Australian law-enforcement Palantir use; WA FRT vendor; ACIC platform purpose) |

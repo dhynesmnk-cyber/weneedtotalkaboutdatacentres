@@ -659,7 +659,8 @@ SITES = [
    notes="Four HCF Certified Strategic sites."),
  S(id="SITE_CDC_MARSDEN", name="CDC Marsden Park campus", operator_id="ENT_CDC", suburb="Marsden Park",
    lga="Blacktown City Council", state="NSW", status="under_construction",
-   it_capacity_mw=504.0, max_capacity_mw=1000.0, source_id="SRC_DCD_CDC", confidence="high",
+   # 504 MW is the consent's power consumption (portal SSD-70889211), i.e. site draw, not IT load.
+   total_capacity_mw=504.0, max_capacity_mw=1000.0, source_id="SRC_DCD_CDC", confidence="high",
    as_of_date="2026-08-05",
    notes="Ground broken October 2024; described as the largest data centre campus in the Southern Hemisphere when "
          "complete; 504 MW with potential to scale to around 1 GW. BBC reports the facility is being built about "

@@ -144,6 +144,10 @@ ATTRIBUTION = {
 }
 
 # Hard numbers read from the matrix. diesel/genset/power are as parsed from each consent.
+# Sites whose capacity measure curate_rg002.py flags as unconfirmed (RG-096). This pack replaces
+# their notes, so it carries the flag forward rather than silently dropping it.
+CAPACITY_UNCONFIRMED = {"SITE_KHARTOUM", "SITE_ECHIDNA"}
+
 HARD = {
  "nextdc-s4-data-centre-horsley-park": dict(genset_mw=360.0, power_mw=294.0, diesel_t=4472.0,
     hours=200.0,
@@ -265,6 +269,10 @@ def main() -> int:
         upd = {"proponent": r["applicant"] or None, "fact_status": "VERIFIED",
                "confidence": "high", "as_of_date": TODAY, "source_id": SRC,
                "notes": f"SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: {r['applicant'] or 'not parsed'}. " + note}
+        if site_id in CAPACITY_UNCONFIRMED:
+            upd["notes"] += (" Capacity measure unconfirmed: the portal's figure does not say whether it is IT "
+                             "load or total site draw, so it is recorded as IT capacity pending a reading of the "
+                             "EIS (RG-096).")
         if op:
             upd["operator_id"] = op
         if hard.get("power_mw"):

@@ -112,6 +112,10 @@ for site_id, case, name, applicant, approved, genset_mw, hours, diesel_t, power_
                         + (f"; diesel storage capped at {diesel_t:,.0f} tonnes." if diesel_t
                            else "; NO diesel storage cap in this consent.")
                         + " " + extras),
+                 # A signed consent's total power consumption is site draw and the ceiling the consent
+                 # permits, and it outranks the portal description's figure (Davis Road: 160.85 MW
+                 # against 180 MW). Same treatment as Glendenning in the RG-026 pack.
+                 **({"total_capacity_mw": power_mw, "max_capacity_mw": power_mw} if power_mw else {}),
                  fact_status="VERIFIED", confidence="high", as_of_date=TODAY),
         add_sources=[{"SSD-10330": "SRC_SSD10330_CONSENT", "SSD-59416728": "SRC_SSD59416728_CONSENT",
                       "DCI Poplars": "SRC_DCI_POPLARS_CONSENT",

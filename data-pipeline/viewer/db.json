@@ -276,7 +276,7 @@
    "decided": "2025-11-27",
    "outcome": "approved",
    "decision_maker": "Director",
-   "capacity_mw_in_app": 720.0,
+   "capacity_mw_in_app": 504.0,
    "conditions_summary": null,
    "appeal_status": null,
    "notes": "Portal stage at harvest: Determination. Development type Data Storage, industry classification Water and Telecommunications. 307 documents attached to the project record.",
@@ -4323,10 +4323,10 @@
    "hq_country": "AU",
    "asx_ticker": null,
    "website": null,
-   "notes": "Administers the Hosting Certification Framework (Certified Strategic / Certified Assured).",
+   "notes": "Named by CertifiedStrategic.com (March 2026) as administrator of the Hosting Certification Framework (Certified Strategic / Certified Assured). That attribution is withdrawn: it rests on a grade C aggregator and no primary source for it has been read. Which agency administers the framework today is open (RG-097).",
    "fact_status": "REPORTED",
    "source_id": "SRC_CERTSTRAT",
-   "confidence": "medium",
+   "confidence": "low",
    "as_of_date": "2026-09-18"
   },
   {
@@ -6885,7 +6885,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-09-30T14:42:42Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6894,7 +6894,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-09-30T14:42:42Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6903,7 +6903,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-09-30T14:42:42Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6912,7 +6912,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-09-30T14:42:42Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6921,7 +6921,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-09-30T14:42:42Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -6930,7 +6930,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6939,7 +6939,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6948,7 +6948,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6957,7 +6957,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6966,7 +6966,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6975,7 +6975,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6984,7 +6984,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6993,7 +6993,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7002,7 +7002,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7011,7 +7011,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7020,7 +7020,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7029,7 +7029,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7038,7 +7038,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7047,25 +7047,25 @@
   },
   {
    "id": 19,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
-   "rows_affected": 2,
+   "rows_affected": 3,
    "detail": "{\"updated\": 2, \"rejected\": 0, \"skipped_identical\": 0}"
   },
   {
    "id": 20,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
-   "detail": "{\"counts\": {\"sources\": 1, \"sites\": 46, \"applications\": 46, \"metrics\": 23, \"research_gaps\": 4}, \"prepared_by\": \"scripts/curate_rg002.py from exports/nsw_planning/nsw_data_centre_projects.csv\", \"prepared_on\": \"2026-09-18\"}"
+   "detail": "{\"counts\": {\"sources\": 1, \"sites\": 46, \"applications\": 46, \"metrics\": 23, \"research_gaps\": 5}, \"prepared_by\": \"scripts/curate_rg002.py from exports/nsw_planning/nsw_data_centre_projects.csv\", \"prepared_on\": \"2026-09-18\"}"
   },
   {
    "id": 21,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7074,7 +7074,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7083,7 +7083,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7092,7 +7092,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7101,7 +7101,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7110,7 +7110,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7119,7 +7119,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7128,7 +7128,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7137,7 +7137,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7146,7 +7146,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7155,7 +7155,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7164,7 +7164,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7173,7 +7173,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7182,7 +7182,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7191,7 +7191,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7200,7 +7200,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7209,7 +7209,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7218,7 +7218,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7227,7 +7227,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7236,7 +7236,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7245,7 +7245,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7254,7 +7254,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7263,7 +7263,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7272,7 +7272,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7281,7 +7281,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7290,7 +7290,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7299,7 +7299,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7308,7 +7308,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7317,7 +7317,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7326,7 +7326,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7335,7 +7335,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7344,7 +7344,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7353,7 +7353,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:04Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7362,7 +7362,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7371,7 +7371,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7380,7 +7380,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7389,7 +7389,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7398,7 +7398,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7407,7 +7407,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7416,7 +7416,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7425,7 +7425,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7434,7 +7434,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7443,7 +7443,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7452,7 +7452,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7461,7 +7461,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7470,7 +7470,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7479,7 +7479,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7488,7 +7488,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7497,7 +7497,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7506,7 +7506,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7515,7 +7515,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7524,7 +7524,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7533,7 +7533,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7542,7 +7542,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7551,7 +7551,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7560,7 +7560,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7569,7 +7569,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7578,7 +7578,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7587,7 +7587,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7596,7 +7596,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7605,7 +7605,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7614,7 +7614,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7623,7 +7623,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7632,7 +7632,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7641,7 +7641,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7650,7 +7650,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7659,7 +7659,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7668,7 +7668,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7677,7 +7677,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7686,7 +7686,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7695,7 +7695,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7704,7 +7704,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7713,7 +7713,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7722,7 +7722,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7731,7 +7731,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7740,7 +7740,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7749,7 +7749,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7758,7 +7758,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7767,7 +7767,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7776,7 +7776,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7785,7 +7785,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7794,7 +7794,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7803,7 +7803,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7812,7 +7812,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7821,7 +7821,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7830,7 +7830,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7839,7 +7839,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7848,7 +7848,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7857,7 +7857,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7866,7 +7866,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7875,7 +7875,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7884,7 +7884,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7893,7 +7893,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -7902,7 +7902,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7911,7 +7911,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7920,7 +7920,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7929,7 +7929,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7938,7 +7938,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7947,7 +7947,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7956,7 +7956,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7965,12 +7965,66 @@
   },
   {
    "id": 121,
-   "run_at": "2026-09-30T14:42:43Z",
+   "run_at": "2026-10-14T15:26:05Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sources\": 40, \"sites\": 46}, \"prepared_by\": \"scripts/curate_site_coordinates.py from data/raw/nsw_planning/nodes/\", \"prepared_on\": \"2026-09-18\"}"
+  },
+  {
+   "id": 122,
+   "run_at": "2026-10-14T15:26:05Z",
+   "pack": "certstrat-review-2026-10",
+   "table_name": "legal_instruments",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 123,
+   "run_at": "2026-10-14T15:26:05Z",
+   "pack": "certstrat-review-2026-10",
+   "table_name": "entities",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 124,
+   "run_at": "2026-10-14T15:26:05Z",
+   "pack": "certstrat-review-2026-10",
+   "table_name": "metrics",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 125,
+   "run_at": "2026-10-14T15:26:05Z",
+   "pack": "certstrat-review-2026-10",
+   "table_name": "sites",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 126,
+   "run_at": "2026-10-14T15:26:05Z",
+   "pack": "certstrat-review-2026-10",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 127,
+   "run_at": "2026-10-14T15:26:05Z",
+   "pack": "certstrat-review-2026-10",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 1, \"legal_instruments\": 1, \"entities\": 1, \"metrics\": 1, \"sites\": 1, \"research_gaps\": 1}, \"prepared_by\": \"scripts/curate_certstrat_review.py\", \"prepared_on\": \"2026-10-14\"}"
   }
  ],
  "instrument_application": [
@@ -8310,12 +8364,12 @@
    "made": null,
    "commenced": null,
    "binding": 0,
-   "summary": "Administered by the Digital Transformation Agency. Certified Strategic is the highest designation and is required for sensitive and PROTECTED government workloads. 60 Certified Strategic facilities and enclaves are operated by 13 providers.",
+   "summary": "Certified Strategic is the highest designation and is required for sensitive and PROTECTED government workloads. CertifiedStrategic.com stated in March 2026 that 60 Certified Strategic facilities and enclaves are operated by 13 providers. Which agency administers the framework today is not established from a primary source here: releases up to v2.2.0 named the Digital Transformation Agency on the same article's authority, and that attribution is withdrawn pending the official register (RG-097).",
    "relevance": "The only existing Australian mechanism that ties a facility to sovereign government workload - and therefore the closest thing to a domestic compute allocation requirement currently in force.",
    "url": null,
    "fact_status": "REPORTED",
    "source_id": "SRC_CERTSTRAT",
-   "confidence": "medium",
+   "confidence": "low",
    "as_of_date": "2026-09-18"
   },
   {
@@ -9335,16 +9389,16 @@
   {
    "id": 39,
    "as_of": "2026",
-   "scope": "NSW",
+   "scope": "Australia",
    "metric_name": "hcf_certified_strategic_facilities_national",
    "value": 60.0,
    "unit": "count",
    "basis": "actual",
    "scenario": null,
-   "notes": "60 Certified Strategic facilities and enclaves nationally across 13 providers, unchanged during the certification pause.",
+   "notes": "60 Certified Strategic facilities and enclaves nationally across 13 providers, as CertifiedStrategic.com stated it in March 2026, unchanged during the certification pause. Not checked against the official register (RG-097). CORRECTED 2026-10-14: releases up to v2.2.0 tagged this national count with scope NSW.",
    "fact_status": "REPORTED",
    "source_id": "SRC_CERTSTRAT",
-   "confidence": "medium",
+   "confidence": "low",
    "as_of_date": "2026-09-18"
   },
   {
@@ -17315,6 +17369,42 @@
    "source_id": "SRC_ITNEWS_COLES",
    "confidence": "low",
    "as_of_date": "2026-09-30"
+  },
+  {
+   "id": 96,
+   "pillar": "A",
+   "question": "For the 10 NSW State Significant Development sites whose portal description gives a capacity without saying what it measures, establish from the EIS or signed consent whether the figure is IT load or total site draw, and move it to the right column: SITE_MSFT_HONEMAN (SSD-58601963, '96MW data centre'); SITE_NEXTDC_S7 (SSD-113934740, 'operational capacity of 612 MW'); SITE_ECHIDNA (SSD-47320208, 'operational capacity of 35MW'); SITE_TURNER_RD (SSD-60185233, 'capacity of 40 MW'); SITE_KHARTOUM (SSD-63235720, 'capacity of 35 MW'); SITE_ROAD_1 (SSD-80814238, 'power capacity of 34.3 MW'); SITE_ORIORDAN (SSD-77274467, 'power capacity of 38 MW'); SITE_PROJECT_PLUTO (SSD-69223466, 'load capacity of 126 MW'); SITE_STACK_SYD01 (SSD-82211208, 'operational capacity of 450 MW'); SITE_FREDERICK_ST (SSD-139545990, 'load capacity of 81 MW').",
+   "why_it_matters": "The portal descriptions mix measures. 'Power consumption' is site draw and is recorded as total capacity. Until v2.2.0 every figure went to IT capacity, including Marsden Park's '720 MW substation', which is a substation rating and not a capacity of the site at all. The sites listed here use wording that does not say which measure it is, so they stay in it_capacity_mw, flagged on each row: moving them unread would be the same guess in the other direction. The two measures differ by the cooling and electrical overhead, about half again at the design PUE of about 1.5 implied by the Western Downs application, so a misfiled figure misstates rack capacity by a third or more.",
+   "target_source": "The Environmental Impact Statement and, where determined, the signed consent for each application on the NSW Planning Portal; a consent's development description usually states power consumption",
+   "retrieval_method": "manual_review",
+   "priority": 4,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-10-14",
+   "resolved_date": null,
+   "notes": "Project Pluto is the sharpest case. The portal gives a 'load capacity of 126 MW', and the signed consent read for the RG-060 matrix caps total power at 100 MW (scripts/curate_rg060.py, HARD). IT load cannot exceed total draw, so 126 MW is not IT capacity as consented. The 100 MW appears only as text in the consents_where_backup_exceeds_load metric note: the RG-060 pack has no attribution entry for Pluto, so no site or power row carries it. max_capacity_mw on these rows holds the same unconfirmed figure.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_REGISTER",
+   "confidence": "high",
+   "as_of_date": "2026-10-14"
+  },
+  {
+   "id": 97,
+   "pillar": "A",
+   "question": "Replace CertifiedStrategic.com (SRC_CERTSTRAT) with primary records for every row that rests on it: the official Hosting Certification Framework register for the Certified Strategic flags and the operational sites listed from it, NEXTDC's announcement for M4, and the original Mandala and CBRE reports for the four national capacity figures.",
+   "why_it_matters": "One grade C aggregator article, never archived, is the sole source for 27 of the 93 sites and for 25 of the 26 Certified Strategic flags, and also supports 8 entities, the HCF instrument row, a security record, 5 metrics and 2 planning applications. The certified operational sites are the sovereign-hosting layer of the record, and today none of them has a primary source, a coordinate or a capacity.",
+   "target_source": "https://www.hostingcertification.gov.au/certified-service-providers (archive with SHA-256); NEXTDC ASX announcement on M4 Fishermans Bend (January 2026); Mandala Partners, Data Centres as Enabling Infrastructure; CBRE Australian data centre report, August 2025",
+   "retrieval_method": "manual_review",
+   "priority": 5,
+   "status": "open",
+   "owner": null,
+   "opened": "2026-10-14",
+   "resolved_date": null,
+   "notes": "LEADS ONLY, from search-engine summaries read on 2026-10-14 (below grade D, not relied on, and kept out of every fact row): the framework appears to have moved from the Digital Transformation Agency to the Department of Home Affairs on 1 May 2023, with registration of new providers and supplementary assessments paused from 3 November 2025; the register appears to list providers this database has no flag for (Australian Data Centres at Mitchell and Fyshwick, Cloud Carrier DB1, DigiCo BNE2 and SYD1, Fujitsu at Western Sydney and Homebush); the publisher's own pages appear to give 60, 61 and 62 certified sites; and press summaries give NEXTDC M4 as 150 MW as well as 162 MW. Also check whether the article supports ENT_VANTAGE and ENT_AUSTRALIANSUPER at all: both cite it for European and superannuation holdings that a directory article is unlikely to carry. The review found the article right where it copied a document directly: its 504 MW for Marsden Park matches the portal's power consumption, which this database had misfiled until RG-096.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_CERTSTRAT",
+   "confidence": "high",
+   "as_of_date": "2026-10-14"
   }
  ],
  "security_records": [
@@ -17596,7 +17686,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "Blacktown. Portal stage is Prepare EIS, which is EARLIER than 'lodged' implies: the SSD application is registered but the environmental impact statement was still being prepared as at 18 September 2026. Description references 612 MW.",
+   "notes": "Blacktown. Portal stage is Prepare EIS, which is EARLIER than 'lodged' implies: the SSD application is registered but the environmental impact statement was still being prepared as at 18 September 2026. Description references 612 MW. Capacity measure unconfirmed: the portal says 'operational capacity of 612 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -17761,9 +17851,9 @@
    "lon": 150.836328,
    "address": null,
    "status": "approved",
-   "it_capacity_mw": 720.0,
-   "total_capacity_mw": null,
-   "max_capacity_mw": null,
+   "it_capacity_mw": null,
+   "total_capacity_mw": 504.0,
+   "max_capacity_mw": 504.0,
    "first_phase_mw": null,
    "campus_area_ha": null,
    "gfa_sqm": null,
@@ -17776,7 +17866,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "Blacktown. APPROVED, and the portal description references both 504 MW and 720 MW - the campus appears to have been consented at a larger capacity than the 504 MW widely reported. Reconcile against the determination before quoting either figure.",
+   "notes": "Blacktown. APPROVED. The portal description gives a power consumption of 504 MW across six four-storey data centre buildings, and separately a 720 MW substation. The 720 MW is the substation's rating, not the site's load, so 504 MW is recorded as total capacity and IT capacity is not stated. CORRECTED 2026-10-14: releases up to v2.2.0 stored the 720 MW substation rating as it_capacity_mw and read it as a larger consented capacity.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -18136,10 +18226,10 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "Victorian Government development approval January 2026. Designed for AI, defence and sovereign technology workloads; rack densities above 1,000 kW; direct-to-chip liquid cooling.",
+   "notes": "Victorian Government development approval January 2026. Designed for AI, defence and sovereign technology workloads; rack densities above 1,000 kW; direct-to-chip liquid cooling. Capacity, cost and approval date rest on one grade C aggregator article, to be confirmed against NEXTDC's own announcement (RG-097).",
    "fact_status": "REPORTED",
    "source_id": "SRC_CERTSTRAT",
-   "confidence": "high",
+   "confidence": "medium",
    "as_of_date": "2026-01-31"
   },
   {
@@ -18964,7 +19054,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "Blacktown. In Assessment per the portal. The description references 96 MW, which is lower than any published Microsoft capacity figure for the site and should be read as one stage of a multi-stage campus rather than the total. Endorsed in NSW IDA Round 1.",
+   "notes": "Blacktown. In Assessment per the portal. The description references 96 MW, which is lower than any published Microsoft capacity figure for the site and should be read as one stage of a multi-stage campus rather than the total. Endorsed in NSW IDA Round 1. Capacity measure unconfirmed: the portal says '96MW data centre' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -19396,7 +19486,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: ARUP Australia Pty Ltd. The Schedule 1 applicant is ARUP Australia Pty Ltd - a consultancy, and a different Arup legal entity from ARUP Pty Ltd at 43-61 Turner Road. The only consent in the sample determined under delegation from the NSW Independent Planning Commission rather than the Minister (delegate Chris Ritchie, A/Executive Director, delegation executed 14 June 2022). Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065).",
+   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: ARUP Australia Pty Ltd. The Schedule 1 applicant is ARUP Australia Pty Ltd - a consultancy, and a different Arup legal entity from ARUP Pty Ltd at 43-61 Turner Road. The only consent in the sample determined under delegation from the NSW Independent Planning Commission rather than the Minister (delegate Chris Ritchie, A/Executive Director, delegation executed 14 June 2022). Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065). Capacity measure unconfirmed: the portal's figure does not say whether it is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
@@ -19432,7 +19522,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "CORRECTION: this record was previously entered as 'lodged' from a portal search snippet. The harvested register shows stage WITHDRAWN, in Camden LGA (not an unrecorded LGA). A 40 MW application including emergency back-up generators, cooling plant, and diesel and lithium-ion battery storage was withdrawn.",
+   "notes": "CORRECTION: this record was previously entered as 'lodged' from a portal search snippet. The harvested register shows stage WITHDRAWN, in Camden LGA (not an unrecorded LGA). A 40 MW application including emergency back-up generators, cooling plant, and diesel and lithium-ion battery storage was withdrawn. Capacity measure unconfirmed: the portal says 'capacity of 40 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -19828,7 +19918,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Stockland Development Pty Limited. The Schedule 1 applicant is Stockland Development Pty Limited - the property group developing in its own name. Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065).",
+   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Stockland Development Pty Limited. The Schedule 1 applicant is Stockland Development Pty Limited - the property group developing in its own name. Applicant recovered in the 2026-09-18 pypdf re-extraction (RG-065). Capacity measure unconfirmed: the portal's figure does not say whether it is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
@@ -19849,8 +19939,8 @@
    "lon": 151.13186,
    "address": null,
    "status": "pre_lodgement",
-   "it_capacity_mw": 70.0,
-   "total_capacity_mw": null,
+   "it_capacity_mw": null,
+   "total_capacity_mw": 70.0,
    "max_capacity_mw": 70.0,
    "first_phase_mw": null,
    "campus_area_ha": null,
@@ -20008,7 +20098,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "City of Ryde. In Assessment; description references 34.3 MW.",
+   "notes": "City of Ryde. In Assessment; description references 34.3 MW. Capacity measure unconfirmed: the portal says 'power capacity of 34.3 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -20116,7 +20206,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "City of Sydney. Prepare EIS; description references 38 MW. Alexandria is the inner-sydney corridor where Equinix SY1 and noise complaints about generator testing have historically concentrated.",
+   "notes": "City of Sydney. Prepare EIS; description references 38 MW. Alexandria is the inner-sydney corridor where Equinix SY1 and noise complaints about generator testing have historically concentrated. Capacity measure unconfirmed: the portal says 'power capacity of 38 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -20188,7 +20278,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "Cumberland LGA. Approved; description references 126 MW.",
+   "notes": "Cumberland LGA. Approved; description references 126 MW. Capacity measure unconfirmed: the portal says 'load capacity of 126 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -20209,9 +20299,9 @@
    "lon": 150.904168,
    "address": null,
    "status": "approved",
-   "it_capacity_mw": 180.0,
-   "total_capacity_mw": null,
-   "max_capacity_mw": 180.0,
+   "it_capacity_mw": null,
+   "total_capacity_mw": 160.85,
+   "max_capacity_mw": 160.85,
    "first_phase_mw": null,
    "campus_area_ha": null,
    "gfa_sqm": null,
@@ -20245,8 +20335,8 @@
    "lon": 150.826224,
    "address": null,
    "status": "pre_lodgement",
-   "it_capacity_mw": 134.4,
-   "total_capacity_mw": null,
+   "it_capacity_mw": null,
+   "total_capacity_mw": 134.4,
    "max_capacity_mw": 134.4,
    "first_phase_mw": null,
    "campus_area_ha": null,
@@ -20461,8 +20551,8 @@
    "lon": 150.78215,
    "address": null,
    "status": "pre_lodgement",
-   "it_capacity_mw": 144.0,
-   "total_capacity_mw": null,
+   "it_capacity_mw": null,
+   "total_capacity_mw": 144.0,
    "max_capacity_mw": 144.0,
    "first_phase_mw": null,
    "campus_area_ha": null,
@@ -20512,7 +20602,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "Penrith and Blacktown. In Assessment; description references 450 MW. STACK's Erskine Park campus is one of the largest applications in the state and sits in the same corridor as Digital Realty's SYD10/SYD11/SYD14 certified enclaves.",
+   "notes": "Penrith and Blacktown. In Assessment; description references 450 MW. STACK's Erskine Park campus is one of the largest applications in the state and sits in the same corridor as Digital Realty's SYD10/SYD11/SYD14 certified enclaves. Capacity measure unconfirmed: the portal says 'operational capacity of 450 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -20620,7 +20710,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "Willoughby City. Prepare EIS; description references 81 MW. Frederick Street Artarmon had already surfaced through a Willoughby community group; this confirms it is a registered SSD application. An 81 MW facility in a dense lower north shore residential-commercial interface.",
+   "notes": "Willoughby City. Prepare EIS; description references 81 MW. Frederick Street Artarmon had already surfaced through a Willoughby community group; this confirms it is a registered SSD application. An 81 MW facility in a dense lower north shore residential-commercial interface. Capacity measure unconfirmed: the portal says 'load capacity of 81 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -23920,8 +24010,8 @@
    "doc_type": "market_research",
    "published": "2026-03-04",
    "accessed": "2026-09-18",
-   "credibility": "B",
-   "notes": "60 Hosting Certification Framework 'Certified Strategic' facilities across 13 providers; operator-by-operator site lists; NEXTDC M4 Fishermans Bend 162 MW / A$2bn approval January 2026; CDC Marsden Park 504 MW; Mandala 1,350 MW (2024) to 3,100 MW (2030); CBRE ~1.4 GW (2025) to ~1.8 GW (2028)."
+   "credibility": "C",
+   "notes": "60 Hosting Certification Framework 'Certified Strategic' facilities across 13 providers; operator-by-operator site lists; NEXTDC M4 Fishermans Bend 162 MW / A$2bn approval January 2026; CDC Marsden Park 504 MW; Mandala 1,350 MW (2024) to 3,100 MW (2030); CBRE ~1.4 GW (2025) to ~1.8 GW (2028). REGRADED B to C on 2026-10-14: an aggregator's directory article that relays other firms' research (the Mandala and CBRE figures above are second-hand), which is class C under the rubric, as for the GovMarket aggregator. Not archived when read, so what it said on 18 September 2026 cannot be shown. Rows resting on it are to be re-sourced from primary records (RG-097)."
   },
   {
    "id": "SRC_MS2026",
@@ -28471,7 +28561,7 @@
    "market": "NEM",
    "status": "approved",
    "n_sites": 24,
-   "mw_sum": 1805.0,
+   "mw_sum": 1569.8,
    "capex_aud_bn": 0.0
   },
   {
@@ -28965,7 +29055,7 @@
    "status": "approved",
    "operator": "CDC Data Centres",
    "anchor_tenant": null,
-   "headline_mw": 720.0,
+   "headline_mw": 504.0,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -29193,7 +29283,7 @@
    "publisher": "CertifiedStrategic.com",
    "source_url": "https://certifiedstrategic.com/insights/top-data-centres-in-australia-2026-directory-and-market-overview",
    "fact_status": "REPORTED",
-   "confidence": "high",
+   "confidence": "medium",
    "as_of_date": "2026-01-31",
    "n_applications": 1,
    "n_community_events": 0,
@@ -30461,7 +30551,7 @@
    "status": "approved",
    "operator": null,
    "anchor_tenant": null,
-   "headline_mw": 180.0,
+   "headline_mw": 160.85,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -31141,9 +31231,9 @@
    "operator": "CDC Data Centres",
    "land_or_asset_owner": null,
    "anchor_tenant": null,
-   "max_capacity_mw": null,
-   "total_capacity_mw": null,
-   "it_capacity_mw": 720.0,
+   "max_capacity_mw": 504.0,
+   "total_capacity_mw": 504.0,
+   "it_capacity_mw": null,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -31525,7 +31615,7 @@
    "nearest_cable_ls_name": null,
    "nearest_cable_ls_km": null,
    "fact_status": "REPORTED",
-   "confidence": "high",
+   "confidence": "medium",
    "as_of_date": "2026-01-31"
   },
   {
@@ -33230,8 +33320,8 @@
    "land_or_asset_owner": null,
    "anchor_tenant": null,
    "max_capacity_mw": 70.0,
-   "total_capacity_mw": null,
-   "it_capacity_mw": 70.0,
+   "total_capacity_mw": 70.0,
+   "it_capacity_mw": null,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -33589,9 +33679,9 @@
    "operator": null,
    "land_or_asset_owner": null,
    "anchor_tenant": null,
-   "max_capacity_mw": 180.0,
-   "total_capacity_mw": null,
-   "it_capacity_mw": 180.0,
+   "max_capacity_mw": 160.85,
+   "total_capacity_mw": 160.85,
+   "it_capacity_mw": null,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -33626,8 +33716,8 @@
    "land_or_asset_owner": null,
    "anchor_tenant": null,
    "max_capacity_mw": 134.4,
-   "total_capacity_mw": null,
-   "it_capacity_mw": 134.4,
+   "total_capacity_mw": 134.4,
+   "it_capacity_mw": null,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -33842,8 +33932,8 @@
    "land_or_asset_owner": null,
    "anchor_tenant": null,
    "max_capacity_mw": 144.0,
-   "total_capacity_mw": null,
-   "it_capacity_mw": 144.0,
+   "total_capacity_mw": 144.0,
+   "it_capacity_mw": null,
    "capital_cost_aud": null,
    "construction_jobs": null,
    "operational_jobs": null,
@@ -34180,13 +34270,13 @@
    "tbl": "sites",
    "fact_status": "REPORTED",
    "confidence": "high",
-   "n": 4
+   "n": 3
   },
   {
    "tbl": "sites",
    "fact_status": "REPORTED",
    "confidence": "medium",
-   "n": 28
+   "n": 29
   },
   {
    "tbl": "sites",
@@ -34384,13 +34474,13 @@
    "tbl": "metrics",
    "fact_status": "REPORTED",
    "confidence": "low",
-   "n": 5
+   "n": 6
   },
   {
    "tbl": "metrics",
    "fact_status": "REPORTED",
    "confidence": "medium",
-   "n": 34
+   "n": 33
   },
   {
    "tbl": "metrics",

@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 121 rows)
+## `ingest_log` (table, 127 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -553,7 +553,7 @@ The audit table. A claim is `VERIFIED` only when contracted instruments satisfy 
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `research_gaps` (table, 89 rows)
+## `research_gaps` (table, 91 rows)
 
 The ingestion backlog and the list of things we do not know. Each row names the target source and the retrieval method. This is the project's work queue.
 

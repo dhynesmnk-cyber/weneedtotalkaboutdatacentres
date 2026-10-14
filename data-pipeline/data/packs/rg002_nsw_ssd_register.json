@@ -83,7 +83,7 @@
     "operator_id": "ENT_MSFT_DC_AU",
     "status": "lodged",
     "proponent": null,
-    "notes": "Blacktown. In Assessment per the portal. The description references 96 MW, which is lower than any published Microsoft capacity figure for the site and should be read as one stage of a multi-stage campus rather than the total. Endorsed in NSW IDA Round 1.",
+    "notes": "Blacktown. In Assessment per the portal. The description references 96 MW, which is lower than any published Microsoft capacity figure for the site and should be read as one stage of a multi-stage campus rather than the total. Endorsed in NSW IDA Round 1. Capacity measure unconfirmed: the portal says '96MW data centre' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -100,7 +100,7 @@
     "operator_id": "ENT_CDC",
     "status": "approved",
     "proponent": null,
-    "notes": "Blacktown. APPROVED, and the portal description references both 504 MW and 720 MW - the campus appears to have been consented at a larger capacity than the 504 MW widely reported. Reconcile against the determination before quoting either figure.",
+    "notes": "Blacktown. APPROVED. The portal description gives a power consumption of 504 MW across six four-storey data centre buildings, and separately a 720 MW substation. The 720 MW is the substation's rating, not the site's load, so 504 MW is recorded as total capacity and IT capacity is not stated. CORRECTED 2026-10-14: releases up to v2.2.0 stored the 720 MW substation rating as it_capacity_mw and read it as a larger consented capacity.",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -108,8 +108,8 @@
     "state": "NSW",
     "market": "NEM",
     "lga": "Blacktown",
-    "it_capacity_mw": 720.0,
-    "max_capacity_mw": null
+    "total_capacity_mw": 504.0,
+    "max_capacity_mw": 504.0
    },
    {
     "id": "SITE_ROBERTS_RD",
@@ -192,7 +192,7 @@
     "operator_id": null,
     "status": "approved",
     "proponent": null,
-    "notes": "City of Ryde. Approved; description references 35 MW. Khartoum Road is in the Macquarie Park / North Ryde corridor.",
+    "notes": "City of Ryde. Approved; description references 35 MW. Khartoum Road is in the Macquarie Park / North Ryde corridor. Capacity measure unconfirmed: the portal says 'capacity of 35 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -217,7 +217,7 @@
     "state": "NSW",
     "market": "NEM",
     "lga": "City of Ryde",
-    "it_capacity_mw": 70.0,
+    "total_capacity_mw": 70.0,
     "max_capacity_mw": 70.0
    },
    {
@@ -271,7 +271,7 @@
     "operator_id": null,
     "status": "lodged",
     "proponent": null,
-    "notes": "City of Ryde. In Assessment; description references 34.3 MW.",
+    "notes": "City of Ryde. In Assessment; description references 34.3 MW. Capacity measure unconfirmed: the portal says 'power capacity of 34.3 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -318,7 +318,7 @@
     "operator_id": null,
     "status": "pre_lodgement",
     "proponent": null,
-    "notes": "City of Sydney. Prepare EIS; description references 38 MW. Alexandria is the inner-sydney corridor where Equinix SY1 and noise complaints about generator testing have historically concentrated.",
+    "notes": "City of Sydney. Prepare EIS; description references 38 MW. Alexandria is the inner-sydney corridor where Equinix SY1 and noise complaints about generator testing have historically concentrated. Capacity measure unconfirmed: the portal says 'power capacity of 38 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -350,7 +350,7 @@
     "operator_id": null,
     "status": "approved",
     "proponent": null,
-    "notes": "Cumberland LGA. Approved; description references 126 MW.",
+    "notes": "Cumberland LGA. Approved; description references 126 MW. Capacity measure unconfirmed: the portal says 'load capacity of 126 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -375,7 +375,7 @@
     "state": "NSW",
     "market": "NEM",
     "lga": "Fairfield City",
-    "it_capacity_mw": 180.0,
+    "total_capacity_mw": 180.0,
     "max_capacity_mw": 180.0
    },
    {
@@ -392,7 +392,7 @@
     "state": "NSW",
     "market": "NEM",
     "lga": "Fairfield City",
-    "it_capacity_mw": 134.4,
+    "total_capacity_mw": 134.4,
     "max_capacity_mw": 134.4
    },
    {
@@ -484,7 +484,7 @@
     "state": "NSW",
     "market": "NEM",
     "lga": "Penrith",
-    "it_capacity_mw": 144.0,
+    "total_capacity_mw": 144.0,
     "max_capacity_mw": 144.0
    },
    {
@@ -493,7 +493,7 @@
     "operator_id": "ENT_STACK_AU",
     "status": "lodged",
     "proponent": null,
-    "notes": "Penrith and Blacktown. In Assessment; description references 450 MW. STACK's Erskine Park campus is one of the largest applications in the state and sits in the same corridor as Digital Realty's SYD10/SYD11/SYD14 certified enclaves.",
+    "notes": "Penrith and Blacktown. In Assessment; description references 450 MW. STACK's Erskine Park campus is one of the largest applications in the state and sits in the same corridor as Digital Realty's SYD10/SYD11/SYD14 certified enclaves. Capacity measure unconfirmed: the portal says 'operational capacity of 450 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -540,7 +540,7 @@
     "operator_id": null,
     "status": "pre_lodgement",
     "proponent": null,
-    "notes": "Willoughby City. Prepare EIS; description references 81 MW. Frederick Street Artarmon had already surfaced through a Willoughby community group; this confirms it is a registered SSD application. An 81 MW facility in a dense lower north shore residential-commercial interface.",
+    "notes": "Willoughby City. Prepare EIS; description references 81 MW. Frederick Street Artarmon had already surfaced through a Willoughby community group; this confirms it is a registered SSD application. An 81 MW facility in a dense lower north shore residential-commercial interface. Capacity measure unconfirmed: the portal says 'load capacity of 81 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
     "source_id": "SRC_NSWPORTAL_REGISTER",
     "fact_status": "VERIFIED",
     "confidence": "high",
@@ -596,7 +596,7 @@
      "state": "NSW",
      "market": "NEM",
      "lga": "Blacktown",
-     "it_capacity_mw": 202.4,
+     "total_capacity_mw": 202.4,
      "max_capacity_mw": 202.4
     },
     "add_sources": [
@@ -611,7 +611,7 @@
      "name": "NEXTDC S7 Data Centre, Eastern Creek",
      "operator_id": "ENT_NEXTDC",
      "status": "lodged",
-     "notes": "Blacktown. Portal stage is Prepare EIS, which is EARLIER than 'lodged' implies: the SSD application is registered but the environmental impact statement was still being prepared as at 18 September 2026. Description references 612 MW.",
+     "notes": "Blacktown. Portal stage is Prepare EIS, which is EARLIER than 'lodged' implies: the SSD application is registered but the environmental impact statement was still being prepared as at 18 September 2026. Description references 612 MW. Capacity measure unconfirmed: the portal says 'operational capacity of 612 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
      "source_id": "SRC_NSWPORTAL_REGISTER",
      "fact_status": "VERIFIED",
      "confidence": "high",
@@ -654,7 +654,7 @@
     "set": {
      "name": "Project Echidna Data Centre Eastern Creek",
      "status": "approved",
-     "notes": "Blacktown. Approved; 35 MW operational capacity with associated emergency back-up generation.",
+     "notes": "Blacktown. Approved; 35 MW operational capacity with associated emergency back-up generation. Capacity measure unconfirmed: the portal says 'operational capacity of 35MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
      "source_id": "SRC_NSWPORTAL_REGISTER",
      "fact_status": "VERIFIED",
      "confidence": "high",
@@ -676,7 +676,7 @@
     "set": {
      "name": "52 Turner Road Data Centre",
      "status": "withdrawn",
-     "notes": "CORRECTION: this record was previously entered as 'lodged' from a portal search snippet. The harvested register shows stage WITHDRAWN, in Camden LGA (not an unrecorded LGA). A 40 MW application including emergency back-up generators, cooling plant, and diesel and lithium-ion battery storage was withdrawn.",
+     "notes": "CORRECTION: this record was previously entered as 'lodged' from a portal search snippet. The harvested register shows stage WITHDRAWN, in Camden LGA (not an unrecorded LGA). A 40 MW application including emergency back-up generators, cooling plant, and diesel and lithium-ion battery storage was withdrawn. Capacity measure unconfirmed: the portal says 'capacity of 40 MW' without saying whether that is IT load or total site draw, so it is recorded as IT capacity pending a reading of the EIS (RG-096).",
      "source_id": "SRC_NSWPORTAL_REGISTER",
      "fact_status": "VERIFIED",
      "confidence": "high",
@@ -901,7 +901,7 @@
     "decided": "2025-11-27",
     "outcome": "approved",
     "decision_maker": "Director",
-    "capacity_mw_in_app": 720.0,
+    "capacity_mw_in_app": 504.0,
     "conditions_summary": null,
     "notes": "Portal stage at harvest: Determination. Development type Data Storage, industry classification Water and Telecommunications. 307 documents attached to the project record.",
     "source_id": "SRC_NSWPORTAL_REGISTER",
@@ -1897,6 +1897,22 @@
     "fact_status": "VERIFIED",
     "confidence": "high",
     "as_of_date": "2026-09-18",
+    "source_id": "SRC_NSWPORTAL_REGISTER"
+   },
+   {
+    "id": 96,
+    "pillar": "A",
+    "priority": 4,
+    "retrieval_method": "manual_review",
+    "status": "open",
+    "opened": "2026-10-14",
+    "question": "For the 10 NSW State Significant Development sites whose portal description gives a capacity without saying what it measures, establish from the EIS or signed consent whether the figure is IT load or total site draw, and move it to the right column: SITE_MSFT_HONEMAN (SSD-58601963, '96MW data centre'); SITE_NEXTDC_S7 (SSD-113934740, 'operational capacity of 612 MW'); SITE_ECHIDNA (SSD-47320208, 'operational capacity of 35MW'); SITE_TURNER_RD (SSD-60185233, 'capacity of 40 MW'); SITE_KHARTOUM (SSD-63235720, 'capacity of 35 MW'); SITE_ROAD_1 (SSD-80814238, 'power capacity of 34.3 MW'); SITE_ORIORDAN (SSD-77274467, 'power capacity of 38 MW'); SITE_PROJECT_PLUTO (SSD-69223466, 'load capacity of 126 MW'); SITE_STACK_SYD01 (SSD-82211208, 'operational capacity of 450 MW'); SITE_FREDERICK_ST (SSD-139545990, 'load capacity of 81 MW').",
+    "why_it_matters": "The portal descriptions mix measures. 'Power consumption' is site draw and is recorded as total capacity. Until v2.2.0 every figure went to IT capacity, including Marsden Park's '720 MW substation', which is a substation rating and not a capacity of the site at all. The sites listed here use wording that does not say which measure it is, so they stay in it_capacity_mw, flagged on each row: moving them unread would be the same guess in the other direction. The two measures differ by the cooling and electrical overhead, about half again at the design PUE of about 1.5 implied by the Western Downs application, so a misfiled figure misstates rack capacity by a third or more.",
+    "target_source": "The Environmental Impact Statement and, where determined, the signed consent for each application on the NSW Planning Portal; a consent's development description usually states power consumption",
+    "notes": "Project Pluto is the sharpest case. The portal gives a 'load capacity of 126 MW', and the signed consent read for the RG-060 matrix caps total power at 100 MW (scripts/curate_rg060.py, HARD). IT load cannot exceed total draw, so 126 MW is not IT capacity as consented. The 100 MW appears only as text in the consents_where_backup_exceeds_load metric note: the RG-060 pack has no attribution entry for Pluto, so no site or power row carries it. max_capacity_mw on these rows holds the same unconfirmed figure.",
+    "fact_status": "VERIFIED",
+    "confidence": "high",
+    "as_of_date": "2026-10-14",
     "source_id": "SRC_NSWPORTAL_REGISTER"
    }
   ]

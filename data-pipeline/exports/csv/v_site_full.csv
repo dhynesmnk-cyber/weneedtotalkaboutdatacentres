@@ -8,7 +8,7 @@ SITE_NEXTDC_S1,NEXTDC S1 Sydney,NSW,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,
 SITE_NEXTDC_S2,NEXTDC S2 Sydney,NSW,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_NEXTDC_S3,NEXTDC S3 Sydney,NSW,NEM,operational,NEXTDC,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_CDC_EC,CDC Eastern Creek campus (EC1-EC4),NSW,NEM,operational,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
-SITE_CDC_MARSDEN,Marsden Park Data Centre,NSW,NEM,approved,CDC Data Centres,,,,,720.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_CDC_MARSDEN,Marsden Park Data Centre,NSW,NEM,approved,CDC Data Centres,,,504.0,504.0,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_CDC_KEMPS,CDC Kemps Creek (new filing),NSW,NEM,lodged,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-08-05
 SITE_CLOUDCARRIER_SH,Cloud Carrier Southern Highlands Data Campus,NSW,NEM,lodged,Cloud Carrier,,,700.0,,,,,,behind_the_meter_gas,,,,,673.0,,,,,,,,,,,,REPORTED,high,2026-03-27
 SITE_DR_ERSKINE,"Digital Realty Erskine Park (SYD10, SYD11, SYD14)",NSW,NEM,operational,Digital Realty,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
@@ -18,7 +18,7 @@ SITE_MACQ_IC12,Macquarie IC1 / IC2 Strategic Enclaves (Sydney),NSW,NEM,operation
 SITE_EQUINIX_SYD,Equinix Sydney (SY3-SY7),NSW,NEM,operational,Equinix,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_TELSTRA_STLEON,Telstra St Leonards Strategic Enclave,NSW,NEM,operational,Telstra,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_STOCKLAND_MP,Stockland Macquarie Park Stage 1 data centre,NSW,NEM,under_construction,,,,,,,264000000.0,,,,,,,,,,,,,,,,,,,,CLAIMED,low,2026-09-18
-SITE_NEXTDC_M4,NEXTDC M4 Melbourne (Fishermans Bend),VIC,NEM,approved,NEXTDC,,,,,162.0,2000000000.0,,,,,,,,,,,,,,,,,,,,REPORTED,high,2026-01-31
+SITE_NEXTDC_M4,NEXTDC M4 Melbourne (Fishermans Bend),VIC,NEM,approved,NEXTDC,,,,,162.0,2000000000.0,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-01-31
 SITE_CDC_LAVERTON,CDC Laverton campus (Melbourne south-west),VIC,NEM,under_construction,CDC Data Centres,,,,,150.0,2700000000.0,,,,,,,,,,,,,,,,,,,,REPORTED,high,2025-02-18
 SITE_CDC_BROOKLYN,CDC Brooklyn (Melbourne),VIC,NEM,operational,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_AIRTRUNK_MEL1,AirTrunk MEL1 (Derrimut),VIC,NEM,operational,AirTrunk,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
@@ -66,7 +66,7 @@ SITE_43_61_TURNER,43-61 Turner Road Data Centre,NSW,NEM,approved,,,,,,,,,,distri
 SITE_KURRI_KURRI,"Kurri Kurri Data Centre (Loxford, former aluminium smelter site)",NSW,NEM,pre_lodgement,,,,540.0,,540.0,,,,transmission,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_GRAND_AVE,"Grand Avenue Data Centre Expansion, Rosehill",NSW,NEM,approved,Equinix,,,,,,,,,distribution,,,,,,,53.2,,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_KHARTOUM,1-5 Khartoum Road Data Centre,NSW,NEM,approved,,,,35.0,,35.0,,,,distribution,,,,,,,84.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
-SITE_23_25_WATERLOO,23-25 Waterloo Road Data Centre,NSW,NEM,pre_lodgement,,,,70.0,,70.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_23_25_WATERLOO,23-25 Waterloo Road Data Centre,NSW,NEM,pre_lodgement,,,,70.0,70.0,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_JULIUS_AVE,Julius Avenue Data Centre,NSW,NEM,lodged,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_MACQUARIE_PARK_DC,Macquarie Park Data Centre,NSW,NEM,approved,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_PROJECT_APOLLO,Project Apollo Data Centre Macquarie Park,NSW,NEM,approved,Goodman Property Services (Aust) Pty Ltd,,,,135.0,,,,,distribution,,,,,,,185.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
@@ -76,14 +76,14 @@ SITE_WATERLOO_ESR,Waterloo Road Data Centre (ESR Developments),NSW,NEM,approved,
 SITE_ORIORDAN,"22 O'Riordan Street, Alexandria - Data Centre",NSW,NEM,pre_lodgement,,,,38.0,,38.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_DIGICO_SYD1,DigiCo SYD1 Data Centre Expansion,NSW,NEM,approved,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_PROJECT_PLUTO,Project Pluto Data Centre,NSW,NEM,approved,,,,126.0,,126.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
-SITE_DAVIS_RD_CUNDALL,Davis Road Data Centre (Cundall),NSW,NEM,approved,,,,180.0,,180.0,,,,distribution,,,,,,,181.92,,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
-SITE_NEXTDC_S4_P2,"NEXTDC S4 Data Centre Phase 2, Horsley Park",NSW,NEM,pre_lodgement,NEXTDC,,,134.4,,134.4,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_DAVIS_RD_CUNDALL,Davis Road Data Centre (Cundall),NSW,NEM,approved,,,,160.85,160.85,,,,,distribution,,,,,,,181.92,,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
+SITE_NEXTDC_S4_P2,"NEXTDC S4 Data Centre Phase 2, Horsley Park",NSW,NEM,pre_lodgement,NEXTDC,,,134.4,134.4,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_APOLLO_PLACE,Apollo Place Data Centre,NSW,NEM,approved,,,,,45.0,,,,,distribution,,,,,,,63.8,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_LANE_COVE_WEST,Lane Cove West Data Centre,NSW,NEM,approved,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_MOWBRAY_RD,Mowbray Road Data Centre,NSW,NEM,withdrawn,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_PROJECT_MARS,Project Mars Data Centre,NSW,NEM,lodged,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_ALDINGTON,Aldington Road Data Centre,NSW,NEM,pre_lodgement,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
-SITE_KC1,"KC1 Data Centre, Kemps Creek",NSW,NEM,pre_lodgement,,,,144.0,,144.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_KC1,"KC1 Data Centre, Kemps Creek",NSW,NEM,pre_lodgement,,,,144.0,144.0,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_STACK_SYD01,"STACK SYD01 Data Centre, Erskine Park",NSW,NEM,lodged,STACK Infrastructure Australia Pty Ltd,,,450.0,,450.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_DCI_POPLARS,DCI Poplars Data Centre Project,NSW,NEM,approved,DCI Data Centers,,,,,,,,,distribution,,,,,,,35.0,2353.0,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_BROOKHOLLOW,"Brookhollow Avenue Data Centre Expansion, Norwest",NSW,NEM,lodged,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
