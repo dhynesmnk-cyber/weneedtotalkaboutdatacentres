@@ -22,9 +22,13 @@ which this script derives from the archived page with curate_hcf_register.py's p
 November 2025 report, which the article names for the 1,350 MW and 3,100 MW figures, is archived
 and does not state them.
 
-The register does not name its department, so the DTA attribution is withdrawn rather than
-replaced: the only evidence for Home Affairs is search-engine summaries, which sit below grade D
-(reports/palantir_australia_triage.md) and are recorded in RG-100 as leads, never as facts.
+The register's text names no department beyond "the Department", so the DTA attribution is
+withdrawn. The page itself is branded with the Department of Home Affairs logo, which is why
+curate_hcf_register.py records Home Affairs as its publisher; that branding is stated as what it is,
+not as a finding about who administers the framework. CORRECTED 2026-10-21: v2.2.1 and v2.2.2 said
+the only evidence for Home Affairs was search-engine summaries, overlooking the register's own
+footer. When the framework moved, and from whom, rests only on such summaries (below grade D,
+reports/palantir_australia_triage.md) and stays a lead in RG-100.
 
 Run:
     python3 scripts/curate_certstrat_review.py
@@ -53,6 +57,7 @@ MANDALA_SRC = "SRC_MANDALA_DCEI_2025"
 PAUSE = ("The Department will pause the HCF Certification registration of prospective service providers "
          "and HCF Certified providers seeking supplementary assessment effective from 3 November 2025 until "
          "HCF reforms have been completed. HCF Certified providers will not be impacted.")
+LOGO = 'alt="Home Affairs logo"'
 HIGHEST = ("Strategic Certification enclave and facility providers represents the highest level of assurance "
            "to Australian Government customers and offers the most secure storage solutions for government "
            "held data.")
@@ -80,6 +85,8 @@ def read_register() -> tuple[dict, list[str], str]:
     """The archived register's data centre lists, its cloud service providers, and its capture date."""
     raw = verified(ARCHIVE[: -len(".html")], ".html")
     meta = json.load(open(ARCHIVE + ".meta.json"))
+    if LOGO not in raw.decode("utf-8"):
+        raise SystemExit("the archived register no longer carries the Home Affairs logo; revise LAW_HCF and ENT_DTA")
     lines = page_text(raw.decode("utf-8"))
     errors: list[str] = []
     entries = register(lines, errors)
@@ -154,8 +161,8 @@ def main() -> int:
                    "which is class C under the rubric, as for the GovMarket aggregator. Not archived when read "
                    "on 2026-09-18. ARCHIVED 2026-10-14 in the version last modified "
                    f"{modified}, at data/raw/operators/certifiedstrategic/ with a SHA-256 manifest; that "
-                   "version gives 62 sites, 21 facilities and 41 enclaves across 14 providers, matching the "
-                   "register, and does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland. Rows "
+                   "version gives 62 Certified Strategic facilities and enclaves across 14 providers, matching "
+                   "the register's 21 facilities and 41 enclaves, and does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland. Rows "
                    "resting on it alone are to be re-sourced from primary records (RG-100)."),
         dict(id=MANDALA_SRC, title="Data Centres as Enabling Infrastructure",
              publisher="Mandala, for Data Centres Australia",
@@ -179,21 +186,24 @@ def main() -> int:
                               f"{count['facility']} Certified Strategic facilities and {count['enclave']} "
                               f"enclaves across {len(entries)} providers (archive of {captured}), and states "
                               "that registration of prospective providers and supplementary assessments are "
-                              "paused from 3 November 2025 until the framework's reforms are complete. Which "
-                              "agency administers the framework is not established from a primary source "
-                              "here: the register names only 'the Department', and releases up to v2.2.0 "
-                              "named the Digital Transformation Agency on an aggregator's authority, which is "
-                              "withdrawn (RG-100).",
+                              "paused from 3 November 2025 until the framework's reforms are complete. The "
+                              "register's text names only 'the Department'; the page is branded with the "
+                              "Department of Home Affairs logo. Releases up to v2.2.0 named the Digital "
+                              "Transformation Agency as administrator on an aggregator's authority, which is "
+                              "withdrawn (RG-100). CORRECTED 2026-10-21: v2.2.1 and v2.2.2 said no primary "
+                              "source here pointed to Home Affairs, overlooking the register's own branding.",
                       confidence="medium"),
-             add_sources=[dict(id=REGISTER, quote=f"{HIGHEST} | {PAUSE}")]),
+             add_sources=[dict(id=REGISTER, quote=f"{HIGHEST} | {PAUSE} | [footer image, alt text] Home Affairs logo")]),
     ]
 
     entity_updates = [
         dict(match=dict(id="ENT_DTA"),
              set=dict(notes="Named by CertifiedStrategic.com (March 2026) as administrator of the Hosting "
                             "Certification Framework (Certified Strategic / Certified Assured). That attribution "
-                            "is withdrawn: it rests on a grade C aggregator, and the register itself names only "
-                            "'the Department'. Which agency administers the framework today is open (RG-100).",
+                            "is withdrawn: it rests on a grade C aggregator. The register's text names only 'the "
+                            "Department', and the page is branded with the Department of Home Affairs logo "
+                            "(SRC_HCF_REGISTER). CORRECTED 2026-10-21: v2.2.1 and v2.2.2 called the administering "
+                            "agency open, overlooking that branding.",
                       confidence="low"),
              add_sources=[]),
         dict(match=dict(id="ENT_MACQUARIE_TG"),
@@ -335,22 +345,28 @@ def main() -> int:
                            "NEXTDC's ASX announcement and the Victorian Government's record of the M4 approval; "
                            "the DigitalBridge/Vantage release on AustralianSuper's 2023 investment",
              notes="ADVANCED 2026-10-14. Archived and read the article itself (version of "
-                   f"{modified}): it does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland, so "
+                   f"{modified}; it was not archived when first read on 2026-09-18, so that version cannot be "
+                   "shown): it does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland, so "
                    "the two entities' claims are withdrawn and the two sites now take their better sources as "
                    "primary. Re-sourced to the register: the provider counts in the Equinix, Digital Realty, "
                    "Macquarie (now six sites, adding IC3e), DCI and Telstra notes, the framework's 'highest "
                    "level of assurance' wording, and the Macquarie security record, which is derived from the "
-                   "register and now VERIFIED. Marsden Park's application row now cites the portal and its "
+                   "register and now VERIFIED. The four capacity metrics it relays from Mandala and CBRE drop to "
+                   "low confidence. Marsden Park's application row now cites the portal and its "
                    "assessment report. The Mandala report the article names (Data Centres as Enabling "
-                   "Infrastructure, November 2025, archived) does not state 1,350 MW or 3,100 MW; it points to "
+                   "Infrastructure, November 2025, archived) does not state 1,350 MW or 3,100 MW, in megawatts or "
+                   "gigawatts, in its text (pages 46 and 47 of its 48 carry no text and were not read as "
+                   "images); it points to "
                    "Mandala's October 2024 report, which this environment cannot fetch because the host's "
                    "robots.txt refuses it, as does CDC's copy. CBRE answers 403. FROM THE ARCHIVED REGISTER "
-                   "(primary, SRC_HCF_REGISTER): it lists data centre facilities that match no site record "
+                   "(primary, SRC_HCF_REGISTER): its text names only 'the Department' and the page carries "
+                   "the Department of Home Affairs logo (corrected 2026-10-21: earlier notes overlooked the "
+                   "logo); it lists data centre facilities that match no site record "
                    "here: " + "; ".join(unmatched) + ". RG-096 matched only existing records, so these are "
                    "candidates for new site rows. LEADS ONLY, from search-engine summaries read on 2026-10-14 "
                    "(below grade D, not relied on, and kept out of every fact row): the framework appears to "
-                   "have moved from the Digital Transformation Agency to the Department of Home Affairs on 1 "
-                   "May 2023; the 1,350 MW and 3,100 MW figures appear to come from Mandala's October 2024 "
+                   "have moved from the Digital Transformation Agency to Home Affairs on 1 May 2023 (the move "
+                   "and its date, not the current branding, are the lead); the 1,350 MW and 3,100 MW figures appear to come from Mandala's October 2024 "
                    "report; and AustralianSuper appears to have announced a EUR 1.5bn minority investment in "
                    "Vantage Data Centers' EMEA platform on 11 September 2023.",
              fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id=SRC),

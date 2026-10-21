@@ -29,6 +29,7 @@ stay on the agenda, parked (see the last section).
 | Where stories live | One Markdown card per story in `editorial/stories/`, merged through pull requests |
 | Voice | **What you heard, set against the record.** Each card opens with what the public is told, then shows what the documents say |
 | Shape | **The hunt is the story.** A card tells the search: the question, where we looked, what was refused or missing, and what turned up |
+| Tone (2026-10-21, after the pilots) | **Drama, not mechanics.** Brush over the technical detail and give the drama; the detail stays in the hunt logs and the database |
 
 ## How one question becomes a story
 
@@ -152,7 +153,7 @@ drafts. A batch ends with the author's review, not with a merge by an agent.
 
 | Batch | Contents | Expected output |
 | --- | --- | --- |
-| 0 Set-up and pilot | This plan; the card format; a checker that refuses a card citing a source id the pipeline does not hold; two pilot cards from hunts already finished | Pilots: *The article that wasn't there* (RG-100: four records cited an article whose archived version never mentions them) and *612 or 700?* (RG-099: NEXTDC S7's scoping report gives two totals, and a later attachment is restricted). The author confirms or adjusts the voice before anything else is written |
+| 0 Set-up and pilot *(in review)* | This plan; the card format; a checker that refuses a card citing a source id the pipeline does not hold; two pilot cards from hunts already finished | Pilots: *The article that wasn't there* (RG-100: four records cited an article whose archived version never mentions them) and *How big is S7?* (RG-099: NEXTDC S7's scoping report gives two totals, and a later attachment is restricted). The author confirms or adjusts the voice before anything else is written |
 | 1 Who is really applying (M1) | Every free route for the eleven M1 questions, including incorporation dates for the applicants behind every determined NSW consent (RG-055) | Answers and cards, plus `PAID-SEARCHES.md` ranked and costed, and the GIPA draft for RG-057. Budget question to the author |
 | 2 Your super and the OpenAI deal (M2, M5) | Holdings disclosures, Future Fund files, NEXTDC disclosures | Answers and cards; the Mamre Road title search added to the paid list |
 | 3 What the public gives and who is in the room (M3, M4) | Planning agreements, the DPHI concierge, the grid-payment claim, lobbyist registers and diaries, research funding, consultancy overlap | Answers and cards; FOI drafts for RG-007 and RG-006 |
