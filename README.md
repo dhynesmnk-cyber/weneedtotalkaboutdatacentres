@@ -21,9 +21,9 @@ in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
 (`ap-southeast-2`), all thirteen migrations are applied, and the research from
-`data-pipeline/` is loaded: 93 sites, 246 sources, 138 entities and 84 published
+`data-pipeline/` is loaded: 93 sites, 248 sources, 138 entities and 84 published
 research questions, every site cited and no site carrying an invented live
-capacity. It was last loaded on 14 October 2026 from `main@442fb12`. Fill in
+capacity. It was last loaded on 21 October 2026 from `main@b7b6c66`. Fill in
 `.env.local` and the pages show real records. See `docs/SUPABASE_SETUP.md` for
 how it was stood up and what remains.
 
