@@ -14,35 +14,33 @@ approved_at: null
 ---
 
 ## What you heard
-A directory of Australia's top data centres, published by CertifiedStrategic.com, says the government's certification scheme for data centres that hold government data is "administered by the Digital Transformation Agency (DTA)" [SRC_CERTSTRAT].
+A website ranking Australia's top data centres says the government's scheme for vetting data centres that hold sensitive government data is run by the Digital Transformation Agency [SRC_CERTSTRAT].
 
-It also says a report by the consultancy Mandala "forecasts that Australia's deployable data centre capacity will more than double from 1,350MW in 2024 to 3,100MW by 2030" [SRC_CERTSTRAT].
+It also says a report by the consultancy Mandala forecasts that Australia's data centre capacity "will more than double" by 2030 [SRC_CERTSTRAT].
 
 ## The hunt
-This observatory read that article in September and leaned on it hard: it was the only source for 27 of our 93 sites and 25 of our 26 government certification flags [RG-100]. Nobody kept a copy [RG-100].
+We trusted that website. For a while it was the only thing holding up nearly a third of the data centres in our records [RG-100].
 
-When we went back in October, the first job was to save the page [SRC_CERTSTRAT]. The copy we now hold was last edited on 2 October, so what the article said when we first relied on it can no longer be shown [SRC_CERTSTRAT]. That copy never mentions Vantage, AustralianSuper, AirTrunk's SYD3 or Stockland, yet our records for all four cited it [RG-100].
+When we went back to check, the page had been edited since we first read it, and we had never saved the original [RG-100]. The version we could save doesn't mention four of the companies and sites we had cited it for [RG-100]. Whether it ever did, we can't prove.
 
-Next, the government's own list of certified data centres. Its website refused automated visitors, so we used the Internet Archive's copy from 28 September [SRC_HCF_REGISTER]. It lists 21 certified facilities and 41 enclaves across 14 providers, which matches the article's total of 62, and it gives Macquarie Technology Group six sites where our records said five [SRC_HCF_REGISTER] [RG-100]. Its text never says which agency runs it, only "the Department" [SRC_HCF_REGISTER]. The only clue is in the footer, a Department of Home Affairs logo, which we missed the first time [RG-100].
+So we chased the big forecast to its source. The report the website names was commissioned by four of the companies building Australia's data centres: AirTrunk, Amazon Web Services, CDC and NEXTDC [SRC_MANDALA_DCEI_2025]. We searched every word of it. The forecast isn't there [RG-100]. The report points back to an older one, but that one sits behind a sign telling automated readers like ours to keep out, so the trail went cold [RG-100].
 
-Then the forecast. Mandala's report is published online, and its first pages say it was commissioned for the industry body Data Centres Australia by four companies that build or run data centres: AirTrunk, Amazon Web Services, CDC and NEXTDC [SRC_MANDALA_DCEI_2025]. Its text gives neither 1,350 nor 3,100, in megawatts or gigawatts [RG-100]. It points back to an earlier Mandala report from October 2024 [SRC_MANDALA_DCEI_2025]. That file sits on a server that asks automated readers to stay away, and so does CDC's copy, so we stopped there [RG-100]. The other research firm the article quotes, CBRE, answered with a 403, meaning access refused [RG-100].
+Last, the government's own list of data centres trusted with its data. It names every approved company, but nowhere in its words does it say who keeps the list, only "the Department" [SRC_HCF_REGISTER]. The agency the website named isn't mentioned at all [SRC_HCF_REGISTER]. The one clue is a Department of Home Affairs logo at the bottom of the page, and we missed it the first time [RG-100].
 
-So the records changed. Two claims about who owns what were withdrawn, two sites now cite better sources, and the forecast figures are marked low confidence until their origin is read [RG-100].
+Two claims are now gone from our records, two sites rest on better evidence, and the forecast is flagged as unconfirmed [RG-100].
 
 ## What the record shows
-- The saved article, as edited on 2 October 2026, credits Mandala's *Data Centres as Enabling Infrastructure* with growth from 1,350 MW in 2024 to 3,100 MW by 2030 [SRC_CERTSTRAT].
-- That report says its analysis "was commissioned for Data Centres Australia by AirTrunk, Amazon Web Services, CDC, and NEXTDC and prepared by Mandala" [SRC_MANDALA_DCEI_2025].
-- The Commonwealth register lists 21 Certified Strategic facilities and 41 enclaves across 14 providers [SRC_HCF_REGISTER].
-- The register's text names its administrator only as "the Department", and the page carries the Department of Home Affairs logo [SRC_HCF_REGISTER].
-- The register says the Department paused new registrations from 3 November 2025 "until HCF reforms have been completed" [SRC_HCF_REGISTER].
+- The website credits a report with forecasting that capacity will more than double by 2030 [SRC_CERTSTRAT].
+- That report was commissioned by four data centre companies, and its text does not contain the forecast [SRC_MANDALA_DCEI_2025] [RG-100].
+- The government's list of trusted data centres names its keeper only as "the Department", under a Home Affairs logo [SRC_HCF_REGISTER].
+- The government froze new applications to the list from November 2025 while it reworks the scheme [SRC_HCF_REGISTER].
 
 ## Still unknown
-- Where the figures of 1,350 and 3,100 megawatts come from [RG-100]. The next document to read is the October 2024 report that Mandala's 2025 report cites, which a person can download from Mandala's site [RG-100].
-- What the article said in September 2026, when we first relied on it [RG-100].
-- What CBRE's research says, unread since its site refused us [RG-100].
-- Two pages of the Mandala report carry no text and were not read as images [RG-100].
+- Where the forecast really comes from. The older report is the next place to look, and a person can download it [RG-100].
+- What the website said when we first relied on it [RG-100].
+- Two pages of the report are pictures, not words, and we have not read them [RG-100].
 
 ## Essay hooks
-- How a tidy directory page becomes the backbone of a public record, and what it takes to check one.
-- Who pays for the forecasts the industry quotes about itself.
-- Who keeps the list of data centres trusted with government data, and how an ordinary reader would find out.
+- How a slick website can quietly become the foundation of a public record.
+- The industry's favourite forecast, and who paid for the report it is pinned to.
+- A list of who can be trusted with government data that won't say who keeps it.

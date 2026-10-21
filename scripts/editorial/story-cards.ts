@@ -42,7 +42,17 @@ const KEYS = [
   'approved_at',
 ] as const;
 
-const HUNT_MAX_WORDS = 450;
+const HUNT_MAX_WORDS = 300;
+// The author's direction (2026-10-21): brush over the mechanics, give the drama.
+// These belong in the hunt log and the database, not in a card for a general reader.
+const TECHNICAL: [RegExp, string][] = [
+  [/\b(?:401|403|404|500)\b/, 'an HTTP error code'],
+  [/robots\.txt/i, 'robots.txt'],
+  [/\bSHA-?256\b|\bchecksum\b/i, 'a checksum'],
+  [/\b(?:pages?|pp?\.)\s?\d+/i, 'a page reference'],
+  [/\.(?:pdf|json|html?|csv)\b|\b(?:PDF|JSON|CSV|HTML)\b/, 'a file format'],
+  [/\bMVA\b|\bkV\b|\bPUE\b|\bWUE\b/, 'an engineering unit'],
+];
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const DATE_OR_TIME = /^\d{4}-\d{2}-\d{2}([T ][\d:.]+(Z|[+-]\d{2}:?\d{2})?)?$/;
 const SOURCE_CITE = /\[(SRC_[A-Za-z0-9_]+)\]/g;
@@ -214,6 +224,12 @@ export function checkCard(card: StoryCard, known: KnownIds): string[] {
     c.sources.forEach((s) => citedSources.add(s));
     for (const s of c.sources) if (!known.sourceIds.has(s)) at(`cites ${s}, which the research database does not hold`);
     for (const q of c.questions) if (!known.questionIds.has(q)) at(`cites ${q}, which is not in the research agenda`);
+
+    for (const [pattern, what] of TECHNICAL) {
+      if (pattern.test(body.replace(SOURCE_CITE, '').replace(QUESTION_CITE, ''))) {
+        at(`${heading} mentions ${what}; keep the mechanics in the hunt log`);
+      }
+    }
 
     if (heading === 'Essay hooks') {
       if (c.sources.length) at('Essay hooks cite sources; facts belong in the sections above');

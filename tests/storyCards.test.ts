@@ -122,6 +122,12 @@ describe('story card rules', () => {
     expect(check(FRONT + BODY.replace('Who stands behind it (RG-002).', 'Who stands behind S7, M4 and IC3e?'))).toEqual([]);
   });
 
+  it('keeps the mechanics out of a card', () => {
+    const out = check(FRONT + BODY.replace('The portal refused the next file [RG-001].', 'The portal answered 401 on page 27 [RG-001].'));
+    expect(out.some((p) => p.includes('mentions an HTTP error code'))).toBe(true);
+    expect(out.some((p) => p.includes('mentions a page reference'))).toBe(true);
+  });
+
   it('still counts a quantity written against its unit', () => {
     const out = check(FRONT + BODY.replace('Who stands behind it (RG-002).', 'It draws 612MW.'));
     expect(out.some((p) => p.includes('states a number without a citation'))).toBe(true);

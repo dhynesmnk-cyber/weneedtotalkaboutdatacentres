@@ -34,10 +34,11 @@ The claim as the public meets it, quoted from whoever made it, with its source.
 If nobody public has said it, open with the question instead.
 
 ## The hunt
-The search as it happened: the question, where we looked, what was refused,
-restricted or missing, and what turned up. Plain English, past tense, 200 to
-400 words. Every factual sentence ends with its source id in square brackets,
-like this [SRC_HCF_REGISTER].
+The search told as a story: what was at stake, the turns, the dead ends, the
+reveal. Plain English, past tense, 150 to 300 words. Brush over the mechanics:
+no page numbers, error codes, file names or technical units. Every factual
+sentence still ends with its source id in square brackets, like this
+[SRC_HCF_REGISTER].
 
 ## What the record shows
 Three to five plain statements, each cited, each one a reader could check.
@@ -52,6 +53,11 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 
 ## Rules
 
+- **Drama, not mechanics.** Give the reader the stakes and the turns, not the
+  method. Page numbers, HTTP error codes, robots.txt, file formats, checksums
+  and engineering units stay in the hunt log and the database, where the
+  citations lead. Say "locked" rather than "401", "a sign telling automated
+  readers to keep out" rather than "robots.txt". The checker flags these terms.
 - **Citations.** A factual sentence cites at least one source id the research
   database holds. A card citing an id the database does not hold fails review.
 - **Leads.** A claim found only in a search summary, a social post or an
@@ -73,4 +79,4 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | Card | Title | Line | Questions | Status |
 | --- | --- | --- | --- | --- |
 | [ST-001](ST-001-the-article-that-wasnt-there.md) | The article that wasn't there | C3 | RG-100, RG-096 | draft |
-| [ST-002](ST-002-612-or-700.md) | 612 or 700? | M5 | RG-099 | draft |
+| [ST-002](ST-002-how-big-is-s7.md) | How big is S7? | M5 | RG-099 | draft |
