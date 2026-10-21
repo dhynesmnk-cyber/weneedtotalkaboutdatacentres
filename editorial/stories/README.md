@@ -72,4 +72,5 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 
 | Card | Title | Line | Questions | Status |
 | --- | --- | --- | --- | --- |
-| | *None yet. Batch 0 writes the two pilots.* | | | |
+| [ST-001](ST-001-the-article-that-wasnt-there.md) | The article that wasn't there | C3 | RG-100, RG-096 | draft |
+| [ST-002](ST-002-612-or-700.md) | 612 or 700? | M5 | RG-099 | draft |

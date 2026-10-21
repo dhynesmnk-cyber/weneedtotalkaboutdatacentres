@@ -298,13 +298,13 @@ def main() -> int:
         cleared = set()
         if figures and r["case_id"] in SETTLED:
             cleared = set(CAPACITY_COLUMNS)
-            row.update(dict.fromkeys(cleared))
+            row.update(dict.fromkeys(CAPACITY_COLUMNS))  # the tuple, not the set: a stable pack
         elif figures:
             _, measure, phrase = figures[0]
             clear, read = READ_NOT_SETTLED.get(r["case_id"], (False, None))
             if clear:
                 cleared = set(CAPACITY_COLUMNS)
-                row.update(dict.fromkeys(cleared))
+                row.update(dict.fromkeys(CAPACITY_COLUMNS))
                 row["notes"] = (f"{notes} Capacity unsettled: the portal says '{phrase}'. {read} (RG-099)")
                 portal_only.append(f"{site_id} ({r['case_id']}, '{phrase}', in no column)")
             else:
@@ -489,7 +489,8 @@ def main() -> int:
                      notes="ADVANCED 2026-10-14. Settled from documents: STACK SYD01, whose EIS (archived for "
                            "this gap) calls 450 MW a total power consumption, and NEXTDC S4 Phase 2, whose scoping "
                            "report says 'a total power consumption of 134.4MW'; both now take total capacity from "
-                           "them. Read without settling, each row saying what its document says: NEXTDC S7 (612 MW "
+                           "them. Read without settling, each row saying what its document says: NEXTDC S7 (held as IT "
+                           "capacity until 2026-10-14; 612 MW "
                            "is labelled total power consumption, never IT load, so it is now in no column; which "
                            "total stands is RG-097's), Road 1 (its EIS mostly calls 34.3 MW IT load but also "
                            "total power consumption, and gives ~42 MW critical IT load elsewhere), 22 O'Riordan "

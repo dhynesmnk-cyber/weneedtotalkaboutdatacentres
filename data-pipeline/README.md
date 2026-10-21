@@ -4,7 +4,23 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.2.2 · data as at 14 October 2026 · 1,462 data rows (+514 source refs) · 93 sites · 138 entities · 341 metrics · 248 catalogued sources (184 primary)**
+**Release v2.2.3 · data as at 21 October 2026 · 1,462 data rows (+514 source refs) · 93 sites · 138 entities · 341 metrics · 248 catalogued sources (184 primary)**
+
+v2.2.3 is a **correction release** found while writing the first story cards (`editorial/stories/`). No
+row is added or removed.
+
+- **Home Affairs was there all along.** v2.2.1 and v2.2.2 said the only evidence that Home Affairs runs the
+  Hosting Certification Framework was search-engine summaries. The archived register page carries the
+  Department of Home Affairs logo in its footer, which is why its own source record already named Home Affairs
+  as publisher. `LAW_HCF`, `ENT_DTA` and RG-100 now say so; the script refuses to run if the logo leaves the
+  archive. When the framework moved, and from whom, is still only a lead.
+- **Sharper notes.** RG-100 now records that the article was not archived when first read, that the four
+  relayed metrics are low confidence, and that two of the Mandala report's 48 pages carry no text. RG-099
+  records that S7 was held as IT capacity until 14 October. The CertifiedStrategic source note no longer
+  implies the article itself gives the register's 21/41 split.
+- **A stable pack.** `curate_rg002.py` cleared capacity columns from a Python set, so the pack's key order
+  changed between runs. It now uses the fixed column order.
+- **Hunt logs.** `reports/hunts/` holds a log per research question; RG-099 and RG-100 are reconstructed.
 
 v2.2.2 works the two gaps v2.2.1 opened. Neither closes; both are now `in_progress`.
 
@@ -56,8 +72,10 @@ batches S2-S4. Three defects are fixed and one source is regraded.
   every flag against the Commonwealth register and cited operators' own pages, so no site rests on it alone.
   The register, counted from its archive, lists **21 Certified Strategic facilities and 41 enclaves across
   14 providers**, and 13 of its facilities and enclaves match no site here. The article's attribution of the framework to
-  the DTA is withdrawn from `LAW_HCF` and `ENT_DTA` rather than replaced: the register names only "the
-  Department", and the evidence for Home Affairs is search-engine summaries, below grade D. The national
+  the DTA is withdrawn from `LAW_HCF` and `ENT_DTA`: the register's text names only "the Department".
+  *(Corrected 2026-10-21: this note went on to say the only evidence for Home Affairs was search-engine
+  summaries. The register page itself carries the Department of Home Affairs logo, and `LAW_HCF` and `ENT_DTA`
+  now say so.)* The national
   count loses its wrong `scope: NSW`, and NEXTDC M4 drops from high to medium confidence (its own page says
   150 MW, the article 162 MW). **RG-100** covers what still rests on the article alone.
   Pack: `data/packs/certstrat_review.json`.
