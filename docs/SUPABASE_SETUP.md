@@ -16,6 +16,14 @@ The project exists, all thirteen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded on 2026-10-21 from `main@b7b6c66` (pipeline v2.2.2), with no
+migration needed. The artefact carried 93 sites, 248 sources, 138 entities, 507
+citations, 1,552 data gaps, 59 proposed links and 84 research questions, and
+committed; the same ten uncited questions were rejected. The cache-clearing
+call was refused at first (`Unauthorised`) because Netlify's `REVALIDATE_SECRET`
+no longer matched the operator's copy. It was reset the same day, which takes
+effect only once the site is redeployed.
+
 Reloaded on 2026-10-14 from `main@442fb12`, with `0013` applied first by
 `npx supabase db push --db-url`, from a local clone. The artefact carried 93
 sites, 246 sources, 138 entities, 500 citations, 1,548 data gaps, 59 proposed
@@ -49,7 +57,7 @@ become citable records, and their status takes the pipeline's five values. See
 Supabase project, that 93 sites, 138 entities and 248 sources land in this
 schema correctly and that re-running the load changes nothing. That is the
 check to run before loading anything into the hosted project, and it needs no
-credentials. (The hosted project was reloaded from it on 2026-10-14; see
+credentials. (The hosted project was last reloaded from it on 2026-10-21; see
 Status.)
 
 CI runs both suites against Postgres 17 and 16 on every pull request, so the

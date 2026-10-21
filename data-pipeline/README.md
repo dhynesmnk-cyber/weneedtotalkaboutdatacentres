@@ -13,9 +13,11 @@ v2.2.2 works the two gaps v2.2.1 opened. Neither closes; both are now `in_progre
   project's documents. **STACK SYD01 is settled**: its EIS gives "a total power consumption of 450 megawatts",
   so 450 MW is a total, not IT capacity. **NEXTDC S4 Phase 2** is settled the same way from its scoping report
   (134.4 MW total).
-  **NEXTDC S7 is cleared**: its EIS gives 612 MW of "Power Consumption" and, two pages away, "total site load
-  ... approximately 700MW", so neither stands in any column, and NSW's lodged pipeline falls from 3,795 MW to
-  3,183 MW. S7's later "issued-reject-eis" attachment answers 401 and was not read. Road 1 (its EIS calls
+  **NEXTDC S7 is cleared**: its scoping report gives 612 MW of "Power Consumption" (p27, and "total power
+  consumption" on p40) but also says "The expected total site load is approximately 700MW" (p35), so neither
+  stands in any column, and NSW's lodged pipeline falls from 3,795 MW to 3,183 MW. S7 is still at Prepare EIS;
+  a later attachment titled "issued-reject-eis" answers 401 and was not read. *(Corrected 2026-10-21: this note
+  first said these figures came from S7's EIS.)* Road 1 (its EIS calls
   34.3 MW both IT load and total power consumption) and O'Riordan Street (its request for SEARs says 45 MW,
   the portal 38 MW) stay as they were, with what was read recorded against them. Five sites remain on RG-099.
 - **RG-100, what rested on CertifiedStrategic.com.** The article is now archived, in its version of 2 October

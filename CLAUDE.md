@@ -49,6 +49,7 @@ versus research data.
 /scripts    ingestion jobs and the pipeline loader
 /data-pipeline  upstream curation tool (Python, SQLite). Not read by the app.
 /docs       specs and process documents
+/editorial  story cards: cited drafts for the essays. Never published by an agent.
 /tests      unit tests (vitest)
 
 ## Conventions
@@ -71,6 +72,7 @@ docs/SUBAGENTS.md   agent roles and boundaries
 docs/DEPLOYMENT.md  release, infrastructure, backups
 docs/SUPABASE_SETUP.md  creating and linking the Supabase project
 docs/QUALITY.md     data and content quality assurance
+docs/RESEARCH-PLAN.md  research questions to story cards: order, method, status
 
 ## Definition of done
 A change is done when migrations are applied, types are updated, tests pass,
