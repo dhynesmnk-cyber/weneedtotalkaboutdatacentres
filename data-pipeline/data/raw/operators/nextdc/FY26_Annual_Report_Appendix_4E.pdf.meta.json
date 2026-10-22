@@ -1,0 +1,10 @@
+{
+ "url": "https://www.nextdc.com/hubfs/Financial%20Reports/FY26/FY26%20Annual%20Report%20%26%20Appendix%204E.pdf",
+ "requested_url": "https://www.nextdc.com/hubfs/Financial%20Reports/FY26/FY26%20Annual%20Report%20%26%20Appendix%204E.pdf",
+ "fetched_utc": "2026-10-22T01:21:50+00:00",
+ "sha256": "c615b49c372dc329b28d336ed0ae37175e89d842c2318c550f8fe9e244b64673",
+ "bytes": 8172412,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 167
+}

@@ -1,0 +1,8 @@
+{
+ "url": "https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=NXT&timeframe=Y&year=2025",
+ "requested_url": "https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=NXT&timeframe=Y&year=2025",
+ "fetched_utc": "2026-10-22T01:25:34+00:00",
+ "sha256": "917a42973861f44c71a41486f422792f2ace1f9690b438fbc16628edab4e3f1e",
+ "bytes": 144152,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
+}

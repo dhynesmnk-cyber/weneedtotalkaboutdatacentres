@@ -4,7 +4,32 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.3.0 · data as at 22 October 2026 · 1,473 data rows (+557 source refs) · 93 sites · 139 entities · 342 metrics · 251 catalogued sources (187 primary)**
+**Release v2.4.0 · data as at 22 October 2026 · 1,500 data rows (+585 source refs) · 93 sites · 140 entities · 350 metrics · 261 catalogued sources (197 primary)**
+
+v2.4.0 is **research batch 2, "Your super, your savings" and "The OpenAI deal"** (`docs/RESEARCH-PLAN.md`,
+pack `data/packs/super_and_openai.json`).
+
+- **Super funds' own holdings files** (archived by `scrapers/archive_pages.py --raw-dir superannuation`): at 30
+  June 2026, **Cbus's Growth (MySuper) option held A$344.5m of NEXTDC shares** and NEXTDC notes, and lists
+  STACK Infrastructure Australia (Palmers Road) among its private-debt borrowers; Hostplus Balanced held
+  A$109.1m of NEXTDC and HESTA Balanced Growth A$73.5m. One option per fund; nothing is summed.
+- **NEXTDC's FY26 annual report** names **AustralianSuper a substantial holder with 8.49%**, second to State
+  Street. AustralianSuper's entity was a placeholder citing CertifiedStrategic.com; it now rests on this.
+  NEXTDC's funding releases add **La Caisse** (Québec), with A$1.7bn of binding commitments to its hybrid
+  securities, as a new entity.
+- **Two figures for one stake.** The Future Fund's December 2025 report lists CDC at 29%; CDC's own release
+  gives the Future Fund 34.55%. Both are kept; neither is chosen (RG-094). The same report holds NVIDIA worth
+  A$2.1bn.
+- **The OpenAI deal is a memorandum.** NEXTDC's 5 December 2025 release states no price, term, capacity or
+  stake, and no NEXTDC report read since mentions OpenAI; the curation refuses to run if one ever does. A week
+  after the announcement NEXTDC lodged a response to an ASX compliance letter, not yet read. The S7
+  money-flow row no longer speaks of "the OpenAI offtake". RG-004 and RG-014 are now cited, so 87 questions
+  publish rather than 85.
+- **Mamre Road is one lot.** The EIS describes the whole 52.2 ha site as Lot 10 DP 1280592 (RG-005).
+- **Refusals.** AustralianSuper, UniSuper, Australian Retirement Trust, Aware Super, CSC, the Future Fund,
+  OpenAI and the NSW Valuer General refused the crawler; ASX keeps announcement files behind terms of use.
+  `archive_pages.py` now records each refusal in `refused.json`, and `docs/requests/DOWNLOADS.md` lists the
+  files for a person to fetch. Two story cards, ST-007 and ST-008.
 
 v2.3.0 is **research batch 1, "Who is really applying?"** (`docs/RESEARCH-PLAN.md`, pack
 `data/packs/who_applies.json`). Three free records did most of what the agenda had marked as needing paid

@@ -12,10 +12,17 @@ first and any disallowed URL is refused. Re-running skips pages already archived
 Archive: data/raw/operators/<group>/<name>.html, .html.meta.json (url, fetched_utc, sha256, bytes),
 and .txt: the page's visible text, one line per block, with scripts and styles removed. A PDF is kept
 as <name>.pdf and .pdf.meta.json, its .txt extracted page by page with "[[page N]]" markers. The text is
-what a curation quotes from; the HTML is kept so the text can be regenerated.
+what a curation quotes from; the HTML is kept so the text can be regenerated. A CSV (a super fund's
+portfolio holdings disclosure) is kept as <name>.csv and .csv.meta.json; the CSV is its own text.
+
+A site that answers 401, 403 or 429, or serves a bot-check page in place of the document, has refused
+the request. The refusal is recorded in <group>/refused.json and the URL is never fetched another way.
+
+--raw-dir puts the group under data/raw/<dir>/ instead of data/raw/operators/ (research batch 2 keeps
+super funds' disclosures under data/raw/superannuation/).
 
 Usage:
-    python3 scrapers/archive_pages.py GROUP URL [URL ...]
+    python3 scrapers/archive_pages.py [--raw-dir DIR] GROUP URL [URL ...]
     python3 scrapers/archive_pages.py nextdc https://www.nextdc.com/data-centres/sydney-data-centres/s1-sydney
 """
 from __future__ import annotations
@@ -28,6 +35,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import urllib.robotparser
@@ -63,40 +71,82 @@ def visible_text(raw: str) -> str:
 
 
 def name_for(url: str) -> str:
-    path = urllib.parse.urlparse(url).path.strip("/") or "index"
+    path = urllib.parse.unquote(urllib.parse.urlparse(url).path).strip("/") or "index"
     name = re.sub(r"[^A-Za-z0-9._-]+", "_", path.split("/")[-1])[:80]
-    return re.sub(r"\.(pdf|html?)$", "", name, flags=re.I)   # the archive adds its own extension
+    return re.sub(r"\.(pdf|html?|csv)$", "", name, flags=re.I)   # the archive adds its own extension
+
+
+# What a bot-check service serves, with status 200, in place of the page that was asked for.
+CHALLENGE = re.compile(rb"Pardon Our Interruption|_Incapsula_Resource|Request unsuccessful\. Incapsula")
+
+
+def refuse(out: str, url: str, how: str) -> None:
+    path = os.path.join(out, "refused.json")
+    refused = json.load(open(path)) if os.path.exists(path) else {}
+    refused[url] = dict(how=how, checked_utc=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                        user_agent=UA)
+    json.dump(refused, open(path, "w"), indent=1, sort_keys=True)
+    print(f"refused ({how}): {url}", file=sys.stderr)
+
+
+def robots_for(host: str) -> urllib.robotparser.RobotFileParser:
+    """The host's robots.txt, read as this crawler. RobotFileParser.read() would ask with Python's own
+    User-Agent, which some sites refuse while serving this one. As robotparser does, a robots.txt
+    refused with 401 or 403 means disallow everything, and one that is missing means allow."""
+    rp = urllib.robotparser.RobotFileParser(host + "/robots.txt")
+    try:
+        body, _ = get(host + "/robots.txt")
+        rp.parse(body.decode("utf-8", errors="replace").splitlines())
+    except urllib.error.HTTPError as exc:
+        if exc.code in (401, 403):
+            rp.disallow_all = True
+        else:
+            rp.allow_all = True
+    return rp
 
 
 def main(argv: list[str]) -> int:
+    raw_dir = "operators"
+    if argv[:1] == ["--raw-dir"] and len(argv) > 1:
+        raw_dir, argv = argv[1], argv[2:]
     if len(argv) < 2:
         print(__doc__, file=sys.stderr)
         return 2
     group, urls = argv[0], argv[1:]
-    out = os.path.join(OUT, group)
+    out = os.path.join(os.path.dirname(OUT), raw_dir, group)
     os.makedirs(out, exist_ok=True)
     robots: dict[str, urllib.robotparser.RobotFileParser] = {}
     for url in urls:
         base = os.path.join(out, name_for(url))
-        if os.path.exists(base + ".txt"):
+        if os.path.exists(base + ".txt") or os.path.exists(base + ".csv"):
             print(f"archived already: {url}")
             continue
         host = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(url))
         if host not in robots:
-            rp = urllib.robotparser.RobotFileParser(host + "/robots.txt")
-            rp.read()
-            robots[host] = rp
+            robots[host] = robots_for(host)
         if not robots[host].can_fetch(UA, url):
-            print(f"refused by robots.txt: {url}", file=sys.stderr)
+            # robotparser reads a robots.txt it was refused (401 or 403) as "disallow everything".
+            refuse(out, url, "robots.txt could not be read (refused), read as disallow-all"
+                   if robots[host].disallow_all else "disallowed by robots.txt")
             continue
         time.sleep(DELAY)
-        body, final = get(url)
+        try:
+            body, final = get(url)
+        except urllib.error.HTTPError as exc:
+            if exc.code in (401, 403, 429):
+                refuse(out, url, f"HTTP {exc.code}")
+                continue
+            raise
+        if CHALLENGE.search(body[:20000]):
+            refuse(out, url, "bot-check page served in place of the document")
+            continue
         if final != url:
             base = os.path.join(out, name_for(final))
         # A PDF (a report an operator or researcher publishes) is kept as .pdf with its text extracted
         # page by page, "[[page N]]" markers and all, by the same extractor the SSD documents use.
         is_pdf = body.startswith(b"%PDF")
-        ext = ".pdf" if is_pdf else ".html"
+        is_csv = urllib.parse.urlparse(final).path.lower().endswith(".csv")
+        ext = ".pdf" if is_pdf else ".csv" if is_csv else ".html"
         with open(base + ext, "wb") as fh:
             fh.write(body)
         extra = {}
@@ -104,10 +154,13 @@ def main(argv: list[str]) -> int:
             from fetch_ssd_documents import extract  # noqa: PLC0415 - only PDFs need pypdf
             text, extra["extractor"] = extract(base + ext)
             extra["pages"] = text.count("[[page ")
+        elif is_csv:
+            text = body.decode("utf-8-sig", errors="replace")
         else:
             text = visible_text(body.decode("utf-8", errors="replace"))
-        with open(base + ".txt", "w", encoding="utf-8") as fh:
-            fh.write(text)
+        if not is_csv:
+            with open(base + ".txt", "w", encoding="utf-8") as fh:
+                fh.write(text)
         json.dump(dict(url=final, requested_url=url, fetched_utc=datetime.now(timezone.utc).isoformat(timespec="seconds"),
                        sha256=hashlib.sha256(body).hexdigest(), bytes=len(body), user_agent=UA, **extra),
                   open(base + ext + ".meta.json", "w"), indent=1)

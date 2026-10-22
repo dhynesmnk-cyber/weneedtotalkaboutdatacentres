@@ -1,9 +1,10 @@
 # Requests
 
-Freedom of information requests, government information (GIPA) applications
-and paid register searches that the research needs and only the author can
-lodge or buy. The plan behind them is `docs/RESEARCH-PLAN.md`; each request
-names the research questions it would answer.
+Freedom of information requests, government information (GIPA) applications,
+paid register searches and free documents a person must download: what the
+research needs and only the author can lodge, buy or fetch. The plan behind
+them is `docs/RESEARCH-PLAN.md`; each request names the research questions it
+would answer.
 
 Agents draft these. The author decides what to lodge and buy, under a budget
 the author sets, and lodges them in their own name. When a response arrives,
@@ -17,6 +18,7 @@ reasons.
 | --- | --- | --- | --- | --- | --- |
 | [GIPA-001](GIPA-001-ownership-documents.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-021, RG-035, RG-037, RG-057, RG-059, RG-064 | drafted |
 | [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked, awaiting a budget |
+| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-014, RG-094 | ranked, awaiting a person |
 
 Status runs: drafted, lodged, acknowledged, decided, received (or refused).
 

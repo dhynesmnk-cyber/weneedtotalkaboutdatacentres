@@ -1,0 +1,10 @@
+{
+ "url": "https://www.nextdc.com/hubfs/ASX%20Announcements/1H26%20Results%20Presentation.pdf",
+ "requested_url": "https://www.nextdc.com/hubfs/ASX%20Announcements/1H26%20Results%20Presentation.pdf",
+ "fetched_utc": "2026-10-22T01:21:54+00:00",
+ "sha256": "0ad1f17697c1c812be0c6db55722ea7e335fb5299d7de6f67c261d1f6b8573ec",
+ "bytes": 5090407,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 38
+}
