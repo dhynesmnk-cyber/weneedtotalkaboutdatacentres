@@ -86,3 +86,6 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | [ST-006](ST-006-seventeen-days.md) | Seventeen days | M1 | RG-052, RG-050 | draft |
 | [ST-007](ST-007-already-in-your-super.md) | Already in your super | M2 | RG-004, RG-094, RG-005 | draft |
 | [ST-008](ST-008-not-mentioned-once.md) | Not mentioned once | M5 | RG-014 | draft |
+| [ST-009](ST-009-ten-point-three.md) | Ten point three | M3 | RG-043 | draft |
+| [ST-010](ST-010-paying-their-way.md) | Paying their way | M3 | RG-025, RG-007, RG-063 | draft |
+| [ST-011](ST-011-six-in-seven.md) | Six in seven | M4 | RG-078, RG-067, RG-070 | draft |

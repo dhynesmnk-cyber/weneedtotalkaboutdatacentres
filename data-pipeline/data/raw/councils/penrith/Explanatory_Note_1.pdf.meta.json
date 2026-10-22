@@ -1,0 +1,10 @@
+{
+ "url": "https://hdp-au-prod-app-penr-yoursay-files.s3.ap-southeast-2.amazonaws.com/6916/7814/9314/Explanatory_Note_1.pdf",
+ "requested_url": "https://yoursaypenrith.com.au/download_file/2602/1002",
+ "fetched_utc": "2026-10-22T16:20:09+00:00",
+ "sha256": "bad583725e357c22dfe981a9296b8148001c0a49bce06fc40b2bffe27f39fdc3",
+ "bytes": 203336,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 2
+}

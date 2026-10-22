@@ -4,7 +4,32 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.4.0 · data as at 22 October 2026 · 1,500 data rows (+585 source refs) · 93 sites · 140 entities · 350 metrics · 261 catalogued sources (197 primary)**
+**Release v2.5.0 · data as at 22 October 2026 · 1,546 data rows (+656 source refs) · 93 sites · 140 entities · 371 metrics · 268 catalogued sources (202 primary)**
+
+v2.5.0 is **research batch 3, "What the public gives" and "Who is in the room"** (`docs/RESEARCH-PLAN.md`,
+pack `data/packs/public_and_room.json`).
+
+- **The bill is in the consent.** The 20 signed NSW consents archived in September carry their own contribution
+  conditions. Sixteen amounts are now metrics: local contributions to councils (from $314,528.57 at Grand Avenue to
+  about $8.6m at 43-61 Turner Road, Camden) and housing and productivity contributions to the State (from $3,568.10 at
+  DigiCo SYD1 to $1,000,607.00 at NEXTDC S4). Davis Road and NEXTDC S4 set a 1% levy with no amount.
+- **Penrith and Microsoft.** The draft planning agreement and its explanatory note set $8,423,505.96, indexed; the
+  signed copy the council publishes is a scan, so its figure is not read (RG-025).
+- **The industry's $10.3bn, traced.** The report behind it (Mandala, commissioned by AirTrunk, AWS, CDC and NEXTDC)
+  gives $3.1bn spent 2020-2025 and $7.2bn forecast to 2030, from operators' own data; the only "$10.3 billion" it
+  states is the Australian Government's grid funding (RG-043).
+- **The phantom-demand briefing was commissioned by AWS**, by its own page. The BCA, Data Centres Australia and the
+  NSW Data Centre Guidelines all cite it; the Guidelines introduce the firm by its separate work for AEMO.
+  CORRECTED: lobbying row 6 and metrics 26 and 290-292 had credited the BCA or AEMO (RG-078 resolved).
+- **The BCA's member list**, now served in full: 130 members, fourteen of them in this database (AirTrunk, Amazon,
+  Google, Microsoft, Meta, Blackstone, Goodman, Stockland, TransGrid, Endeavour Energy, Fujitsu, Telstra, Origin,
+  TCS). NEXTDC, CDC and Equinix are not members (RG-067 resolved). The TCS row no longer rests on Wikipedia.
+- **What the State gives instead**: $17.7m for the Investment Delivery Authority in the 2025-26 Budget, a DPHI
+  concierge, and the Premier's Department's word that "The one thing that we don't contemplate is government
+  participation financially". No revenue office has been asked; GIPA-002 to Revenue NSW and FOI-001 to the Treasury
+  (FIRB) are drafted. RG-006 is now cited, so 88 questions publish.
+- **Refusals.** The ministers' diaries (30 files), the NSW lobbyist register, AusTender and buy.nsw all refused the
+  crawler; `docs/requests/DOWNLOADS.md` lists them for a person. Three story cards, ST-009 to ST-011.
 
 v2.4.0 is **research batch 2, "Your super, your savings" and "The OpenAI deal"** (`docs/RESEARCH-PLAN.md`,
 pack `data/packs/super_and_openai.json`).

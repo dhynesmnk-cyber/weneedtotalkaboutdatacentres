@@ -6821,7 +6821,7 @@
    "conditionality_score": 0,
    "domestic_compute_allocation": 0,
    "disclosed": 0,
-   "notes": "AUDIT REQUIRED - strategy now drafted. The industry body Data Centres Australia asserts that data centres pay all standard taxes and receive no special concessions. No primary revenue-office evidence either way has been located. Five FOI request templates are drafted at reports/RG007_foi_strategy.md, framed to seek policy instruments and aggregate counts rather than named taxpayer assessments so that they are arguably releasable. Four free parallel routes are identified that should be worked first, of which the NSW Legislative Council inquiry record is the most promising. A documented negative will be recorded as incentive_type 'none_found' with fact_status VERIFIED and published as a finding that settles the question in the sector's favour.",
+   "notes": "AUDIT REQUIRED - still no primary revenue-office evidence either way. ADVANCED 2026-10-22 (RG-007): on the public record, Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' and the BCA's submission said the same; the Secretary of the Premier's Department said government does not 'contemplate' participating financially. Neither is a revenue office's record. The GIPA application to Revenue NSW (docs/requests/GIPA-002-revenue-nsw.md) asks for instruments and aggregate counts, never a named taxpayer. A documented negative will be recorded as 'none_found'.",
    "fact_status": "GAP",
    "source_id": "SRC_GIPA_IPC",
    "confidence": "low",
@@ -6842,7 +6842,7 @@
    "conditionality_score": 2,
    "domestic_compute_allocation": 0,
    "disclosed": 1,
-   "notes": "THIS IS THE SUBSIDY THAT IS ACTUALLY DOCUMENTED IN AUSTRALIA: state-facilitated coordination and endorsement, publicly named, with a published rejection rate. It is not a tax concession. It should be read together with the NSW Data Centre Guidelines' 75-day assessment pathway (17 August 2026), which attaches 17 performance measures, and with the Penrith VPA below, which runs money the other way - from the developer to the council.",
+   "notes": "THIS IS THE SUBSIDY THAT IS ACTUALLY DOCUMENTED IN AUSTRALIA: state-facilitated coordination and endorsement, publicly named, with a published rejection rate. It is not a tax concession. Funded with $17.7 million in the 2025-26 NSW Budget, with a multi-agency Investment Taskforce in Investment NSW (SRC_NSW_IDA_BUDGET_2025). The Secretary of the Premier's Department told the inquiry on 22 May 2026: 'The one thing that we don't contemplate is government participation financially.' Read with the NSW Data Centre Guidelines' 75-day pathway and concierge (row 9) and the Penrith VPA (row 7), which runs money the other way.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSW_IDA",
    "confidence": "high",
@@ -6863,7 +6863,7 @@
    "conditionality_score": 4,
    "domestic_compute_allocation": 0,
    "disclosed": 1,
-   "notes": "RECORD THIS AS A CONTRIBUTION, NOT A SUBSIDY - money flows from the developer to the council. It is the mechanism by which a hyperscaler pays for local public infrastructure in NSW, and it is separate from both state tax concessions and from EP&A Act local and state infrastructure contributions. The executed agreement and explanatory note are published by the council; the contribution amount must be read from them (research gap RG-025). The NSW Data Centre Guidelines separately encourage benefit-sharing with host communities as Principle 4, and state that such arrangements sit outside the development assessment process.",
+   "notes": "RECORD THIS AS A CONTRIBUTION, NOT A SUBSIDY - money flows from the developer to the council. READ 2026-10-22 (RG-025): the draft agreement and its explanatory note set the contribution at $8,423,505.96 (indexed by CPI), payable before the first construction certificate, because no s7.11 contributions plan applied to the land. The executed copy the council publishes is a scan; its amount has not been read, so amount_aud stays empty and the figure is metric penrith_msft_vpa_contribution_draft. Every other determined NSW data centre consent sets its contributions in its own conditions (RG-025 notes).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_PENRITH_VPA",
    "confidence": "high",
@@ -6915,7 +6915,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6924,7 +6924,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6933,7 +6933,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6942,7 +6942,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6951,7 +6951,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -6960,7 +6960,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6969,7 +6969,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6978,7 +6978,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6987,7 +6987,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6996,7 +6996,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7005,7 +7005,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7014,7 +7014,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7023,7 +7023,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7032,7 +7032,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7041,7 +7041,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7050,7 +7050,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7059,7 +7059,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7068,7 +7068,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7077,7 +7077,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7086,7 +7086,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7095,7 +7095,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7104,7 +7104,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7113,7 +7113,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7122,7 +7122,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7131,7 +7131,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7140,7 +7140,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7149,7 +7149,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7158,7 +7158,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7167,7 +7167,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7176,7 +7176,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7185,7 +7185,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7194,7 +7194,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7203,7 +7203,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7212,7 +7212,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7221,7 +7221,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7230,7 +7230,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7239,7 +7239,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7248,7 +7248,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7257,7 +7257,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7266,7 +7266,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7275,7 +7275,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7284,7 +7284,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7293,7 +7293,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7302,7 +7302,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7311,7 +7311,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7320,7 +7320,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7329,7 +7329,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7338,7 +7338,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7347,7 +7347,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7356,7 +7356,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7365,7 +7365,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7374,7 +7374,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7383,7 +7383,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7392,7 +7392,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7401,7 +7401,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7410,7 +7410,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7419,7 +7419,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7428,7 +7428,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7437,7 +7437,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7446,7 +7446,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7455,7 +7455,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7464,7 +7464,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7473,7 +7473,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7482,7 +7482,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7491,7 +7491,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7500,7 +7500,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7509,7 +7509,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7518,7 +7518,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7527,7 +7527,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7536,7 +7536,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7545,7 +7545,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7554,7 +7554,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7563,7 +7563,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7572,7 +7572,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7581,7 +7581,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7590,7 +7590,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7599,7 +7599,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7608,7 +7608,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7617,7 +7617,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:57Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7626,7 +7626,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7635,7 +7635,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7644,7 +7644,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7653,7 +7653,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7662,7 +7662,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7671,7 +7671,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7680,7 +7680,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7689,7 +7689,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7698,7 +7698,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7707,7 +7707,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7716,7 +7716,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7725,7 +7725,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7734,7 +7734,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7743,7 +7743,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7752,7 +7752,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7761,7 +7761,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7770,7 +7770,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7779,7 +7779,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7788,7 +7788,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7797,7 +7797,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7806,7 +7806,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7815,7 +7815,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-10-22T01:37:06Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7824,7 +7824,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7833,7 +7833,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7842,7 +7842,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7851,7 +7851,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7860,7 +7860,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7869,7 +7869,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7878,7 +7878,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7887,7 +7887,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7896,7 +7896,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7905,7 +7905,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7914,7 +7914,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7923,7 +7923,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -7932,7 +7932,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7941,7 +7941,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7950,7 +7950,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7959,7 +7959,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7968,7 +7968,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7977,7 +7977,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7986,7 +7986,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7995,7 +7995,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8004,7 +8004,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8013,7 +8013,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8022,7 +8022,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "hcf-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8031,7 +8031,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "hcf-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8040,7 +8040,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "hcf-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8049,7 +8049,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8058,7 +8058,7 @@
   },
   {
    "id": 128,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8067,7 +8067,7 @@
   },
   {
    "id": 129,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8076,7 +8076,7 @@
   },
   {
    "id": 130,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "operator-sources-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8085,7 +8085,7 @@
   },
   {
    "id": 131,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "operator-sources-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8094,7 +8094,7 @@
   },
   {
    "id": 132,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "operator-sources-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8103,7 +8103,7 @@
   },
   {
    "id": 133,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8112,7 +8112,7 @@
   },
   {
    "id": 134,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8121,7 +8121,7 @@
   },
   {
    "id": 135,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -8130,7 +8130,7 @@
   },
   {
    "id": 136,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8139,7 +8139,7 @@
   },
   {
    "id": 137,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8148,7 +8148,7 @@
   },
   {
    "id": 138,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "applications",
    "action": "insert",
@@ -8157,7 +8157,7 @@
   },
   {
    "id": 139,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8166,7 +8166,7 @@
   },
   {
    "id": 140,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8175,7 +8175,7 @@
   },
   {
    "id": 141,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "who-applies-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8184,7 +8184,7 @@
   },
   {
    "id": 142,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "who-applies-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8193,7 +8193,7 @@
   },
   {
    "id": 143,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "who-applies-2026-10",
    "table_name": "land_events",
    "action": "insert",
@@ -8202,7 +8202,7 @@
   },
   {
    "id": 144,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "who-applies-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8211,7 +8211,7 @@
   },
   {
    "id": 145,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "who-applies-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8220,7 +8220,7 @@
   },
   {
    "id": 146,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "who-applies-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8229,7 +8229,7 @@
   },
   {
    "id": 147,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8238,7 +8238,7 @@
   },
   {
    "id": 148,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "ownership",
    "action": "insert",
@@ -8247,7 +8247,7 @@
   },
   {
    "id": 149,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8256,7 +8256,7 @@
   },
   {
    "id": 150,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "financial_flows",
    "action": "insert",
@@ -8265,7 +8265,7 @@
   },
   {
    "id": 151,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8274,12 +8274,57 @@
   },
   {
    "id": 152,
-   "run_at": "2026-10-22T01:37:07Z",
+   "run_at": "2026-10-22T16:40:58Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sources\": 11, \"entities\": 3, \"ownership\": 3, \"metrics\": 8, \"financial_flows\": 1, \"research_gaps\": 4}, \"prepared_by\": \"scripts/curate_super_and_openai.py\", \"prepared_on\": \"2026-10-22\"}"
+  },
+  {
+   "id": 153,
+   "run_at": "2026-10-22T16:40:59Z",
+   "pack": "public-and-room-2026-10",
+   "table_name": "metrics",
+   "action": "insert",
+   "rows_affected": 21,
+   "detail": "{\"updated\": 6, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 154,
+   "run_at": "2026-10-22T16:40:59Z",
+   "pack": "public-and-room-2026-10",
+   "table_name": "lobbying",
+   "action": "insert",
+   "rows_affected": 13,
+   "detail": "{\"updated\": 3, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 155,
+   "run_at": "2026-10-22T16:40:59Z",
+   "pack": "public-and-room-2026-10",
+   "table_name": "incentives",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 4, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 156,
+   "run_at": "2026-10-22T16:40:59Z",
+   "pack": "public-and-room-2026-10",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 10, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 157,
+   "run_at": "2026-10-22T16:40:59Z",
+   "pack": "public-and-room-2026-10",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 9, \"metrics\": 27, \"lobbying\": 16, \"incentives\": 4, \"research_gaps\": 10}, \"prepared_by\": \"scripts/curate_public_and_room.py\", \"prepared_on\": \"2026-10-22\"}"
   }
  ],
  "instrument_application": [
@@ -8826,7 +8871,7 @@
    "event_date": "2025-05",
    "instrument": "BCA membership (member logo published with a 2025/05 asset path)",
    "position": "Membership of the peak body representing more than 120 chief executives of Australia's largest employers.",
-   "outcome": "Current. Per AFR reporting of 27 November 2025 the BCA counts AirTrunk but not NEXTDC among its members, so the ASX-listed Australian-listed operator is outside the peak body while the Blackstone-controlled one is inside it and on its board.",
+   "outcome": "Current: listed on the BCA's own member directory, read 2026-10-22, which lists no other data centre operator except Fujitsu; NEXTDC, CDC and Equinix are not members.",
    "aligned_with_outcome": null,
    "disclosed": 1,
    "notes": "Membership date inferred from the BCA website's asset path for the AirTrunk logo, which is a weak date signal and is graded accordingly.",
@@ -8891,21 +8936,21 @@
   },
   {
    "id": 6,
-   "actor_id": "ENT_BCA",
+   "actor_id": "ENT_AWS",
    "person": null,
    "channel": "commissioned_research",
-   "recipient": "Public policy debate; cited in Submission No 116",
+   "recipient": "Public policy debate; cited by the BCA (Submission No 116), Data Centres Australia and the NSW Data Centre Guidelines",
    "event_date": "2025-11-21",
    "instrument": "Oxford Economics, 'Surging Data Centre Connection Requests Drive Phantom Demand', 21 November 2025",
    "position": "That of roughly 44 GW of connection requests linked to data centre proposals received by AEMO in 2025, only about 6 GW of project capacity is expected to proceed and only 2.8 GW of actual electricity draw at maturity - '15 times lower than what is sometimes reported'.",
    "outcome": "Cited by the BCA to the NSW inquiry and, per the Chair's questioning on 22 May 2026, by Data Centres Australia as well. The NSW Data Centre Guidelines separately cite Oxford Economics work prepared for AEMO estimating that 6 in every 7 MW of connection requests are phantom. The two are consistent: 6 of 7 not proceeding is a 14 per cent conversion rate.",
    "aligned_with_outcome": null,
    "disclosed": 1,
-   "notes": "IMPORTANT AND UNDER-USED. This is industry-funded research arguing that the pipeline OVERSTATES real demand by an order of magnitude. It cuts against the sector's own interest in a large headline pipeline and should be credited. It also means the Observatory must not treat either 44 GW or 20 GW as demand: on the industry's own commissioned figures the realised draw is about 2.8 GW. The same logic does not, however, answer the local-impact question, because a facility that is built still sits next to the houses it sits next to regardless of how many proposed facilities were never built.",
-   "fact_status": "REPORTED",
-   "source_id": "SRC_BCA_SUB116",
+   "notes": "CORRECTED 2026-10-22 (RG-078): this row named the BCA as the commissioner. The briefing's own page says 'This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics.' AEMO separately commissioned Oxford Economics to forecast data centre electricity use; the Guidelines introduce the firm by that engagement and cite the AWS-commissioned briefing. The finding itself is that most requested capacity will never be drawn, which still stands as Oxford Economics' analysis.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 7,
@@ -8988,14 +9033,14 @@
    "event_date": "2025-04",
    "instrument": "BCA membership list (as at April 2025)",
    "position": "Membership of Australia's principal general business peak body - the same body whose board includes AirTrunk founder and CEO Robin Khuda alongside the CEOs of Telstra, Commonwealth Bank, Wesfarmers, Google Australia and New Zealand and BHP Australia, and which made Submission No 116 to the NSW Legislative Council inquiry into data centres on 2 April 2026.",
-   "outcome": "Current as at the April 2025 membership list. Corroborated by a TCS-hosted LinkedIn post stating 'TCS is a member of Business Council of Australia and Australia-India CEO Forum'. The BCA's own /about/ page could not be re-read this session (challenge page, RG-067), so membership is REPORTED from two secondary directions rather than confirmed first-hand. ACCENTURE ALSO APPEARS ON THE SAME LIST, so at least two global systems integrators sit inside the peak body that submitted to the data centre inquiry.",
+   "outcome": "Current: listed on the BCA's own member directory, read 2026-10-22.",
    "aligned_with_outcome": null,
    "disclosed": 1,
-   "notes": "This is the row that connects the consultancy layer to the influence layer already in the database. Its significance is compositional: the BCA's Submission No 116 asserted that 'datacentre operators in Australia pay full taxes with no concessions' and asked government to 'recalibrate ... community narratives'. That submission was made by a body whose membership includes data centre operators (AirTrunk, on the board), data centre developers (TPG via HyperVault), the hyperscalers, and the systems integrators who hold the government's own technology contracts. No improper conduct is alleged or implied. What the Observatory records is that the same organisation speaks for the operator, the investor and the supplier at once, and that the inquiry received one submission from it.",
-   "fact_status": "REPORTED",
-   "source_id": "SRC_WIKI_BCA_MEMBERS",
-   "confidence": "medium",
-   "as_of_date": "2026-09-18"
+   "notes": "CONFIRMED 2026-10-22 from the BCA's own page (RG-067), replacing the Wikipedia list this row first relied on. The page also lists the Australia-India CEO Forum among the BCA's initiatives. No improper conduct is alleged or implied.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 12,
@@ -9068,6 +9113,240 @@
    "source_id": "SRC_ABC_REVOLVING",
    "confidence": "high",
    "as_of_date": "2026-08-23"
+  },
+  {
+   "id": 16,
+   "actor_id": "ENT_DATA_CENTRES_AU",
+   "person": null,
+   "channel": "ministerial_meeting",
+   "recipient": "Secretary, NSW Premier's Department",
+   "event_date": null,
+   "instrument": "Meeting on the NSW Data Centre Consultation Paper (date not stated)",
+   "position": "Input on the NSW Data Centre Consultation Paper.",
+   "outcome": "Recorded only because the Secretary told the inquiry on 22 May 2026 that he was there; no diary entry or register record has been read.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "Sworn evidence, not a register entry: the Secretary of the Premier's Department said he 'met with Data Centres Australia and talked to them about the consultation paper'. The channel value is the closest the schema has; the recipient is a public servant, not a minister. The same session heard the Chief Executive of Infrastructure NSW say 'a lot of those organisations have made direct representations to different people in government'. RG-070.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_INQ_T_0522",
+   "confidence": "high",
+   "as_of_date": "2026-05-22"
+  },
+  {
+   "id": 17,
+   "actor_id": "ENT_AWS",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler; the BCA lists it as 'Amazon'.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 18,
+   "actor_id": "ENT_GOOGLE",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 19,
+   "actor_id": "ENT_MICROSOFT",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 20,
+   "actor_id": "ENT_META",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 21,
+   "actor_id": "ENT_BLACKSTONE",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: majority owner of AirTrunk.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 22,
+   "actor_id": "ENT_GOODMAN",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: applicant for three NSW data centre consents.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 23,
+   "actor_id": "ENT_STOCKLAND",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: applicant for two NSW data centre consents.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 24,
+   "actor_id": "ENT_TRANSGRID",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: the transmission network data centres connect to.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 25,
+   "actor_id": "ENT_ENDEAVOUR",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: the distribution network for western Sydney's data centres.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 26,
+   "actor_id": "ENT_FUJITSU_AU",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: data centre operator.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 27,
+   "actor_id": "ENT_TELSTRA",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: telecommunications carrier.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 28,
+   "actor_id": "ENT_ORIGIN",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: electricity retailer and generator.",
+   "outcome": "Current as at 2026-10-22.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the BCA's own member list (RG-067). Membership is not a lobbying record and no improper conduct is alleged or implied; it records who sits inside the body that submitted to the NSW inquiry (Submission No 116) and gave evidence on 29 May 2026.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   }
  ],
  "metrics": [
@@ -9455,7 +9734,7 @@
    "unit": "%",
    "basis": "estimate",
    "scenario": null,
-   "notes": "Oxford Economics for AEMO: 6 in every 7 MW of data centre connection requests are phantom demand.",
+   "notes": "The NSW Data Centre Guidelines: 'Oxford Economics, which prepared AEMO's forecast on data centres, estimates 6 in every 7 megawatts (MW) of data centre connection requests are phantom demand', citing Oxford Economics' briefing 'Estimating Data Centre Phantom Demand' (2025). CORRECTED 2026-10-22 (RG-078): that briefing's own page says it 'was commissioned by AWS'; AEMO's forecast was a separate engagement.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWGUIDE26",
    "confidence": "high",
@@ -12230,7 +12509,7 @@
    "unit": "AUD bn",
    "basis": "forecast_central",
    "scenario": null,
-   "notes": "Claimed by Data Centres Australia: operators will pay $10.3 billion in energy infrastructure to 2030. Asserted alongside the claim that the national electricity rules require all large load users including data centres to pay 100 per cent of connection costs and augmentations.",
+   "notes": "Claimed by Data Centres Australia to the NSW inquiry on 1 May 2026: operators will pay $10.3 billion in energy infrastructure to 2030. TRACED 2026-10-22 (RG-043): the report behind the industry's figures (Mandala, commissioned for Data Centres Australia by AirTrunk, AWS, CDC and NEXTDC) gives $3.1bn invested 2020-2025 and $7.2bn forecast 2025-2030, which together make $10.3bn; the only '$10.3 billion' the report itself states is the Australian Government's grid funding to 2030. Its figures come from 'data from select data centre operators'.",
    "fact_status": "CLAIMED",
    "source_id": "SRC_INQ_T_0501",
    "confidence": "medium",
@@ -12245,7 +12524,7 @@
    "unit": "AUD bn",
    "basis": "forecast_central",
    "scenario": null,
-   "notes": "Data Centres Australia: of the $10.3 billion, $1.1 billion is excess capacity available for public use. This is the industry's own version of the 'no net cost to consumers' principle and should be tested against network business capital plans.",
+   "notes": "Data Centres Australia: of the $10.3 billion, $1.1 billion is excess capacity available for public use. TRACED 2026-10-22 (RG-043): in the Mandala report the $1.1bn is the excess within the $7.2bn forecast for 2025-2030; it puts the excess built 2020-2025 at $0.5bn. Neither figure has been tested against network capital plans.",
    "fact_status": "CLAIMED",
    "source_id": "SRC_INQ_T_0501",
    "confidence": "medium",
@@ -13415,7 +13694,7 @@
    "unit": "GW",
    "basis": "enquiry",
    "scenario": null,
-   "notes": "Oxford Economics for the BCA: AEMO received around 44 GW of connection requests linked to data centre proposals in 2025. Compare Transgrid alone reporting 20 GW of large-load enquiries and 10 GW within a 12 km radius of Sydney West since late 2024.",
+   "notes": "Oxford Economics, as cited in BCA Submission No 116: AEMO received around 44 GW of connection requests linked to data centre proposals in 2025. CORRECTED 2026-10-22 (RG-078): earlier notes called this research 'for the BCA'; the briefing's own page says it 'was commissioned by AWS'.",
    "fact_status": "REPORTED",
    "source_id": "SRC_BCA_SUB116",
    "confidence": "medium",
@@ -13430,7 +13709,7 @@
    "unit": "GW",
    "basis": "estimate",
    "scenario": null,
-   "notes": "Oxford Economics for the BCA: of the 44 GW of requests, about 6 GW of project capacity is expected to proceed.",
+   "notes": "Oxford Economics, as cited in BCA Submission No 116: of the 44 GW of requests, about 6 GW of project capacity is expected to proceed. CORRECTED 2026-10-22 (RG-078): earlier notes called this research 'for the BCA'; the briefing's own page says it 'was commissioned by AWS'.",
    "fact_status": "REPORTED",
    "source_id": "SRC_BCA_SUB116",
    "confidence": "medium",
@@ -13445,7 +13724,7 @@
    "unit": "GW",
    "basis": "estimate",
    "scenario": null,
-   "notes": "Oxford Economics for the BCA: only 2.8 GW of actual electricity draw once facilities reach maturity, described as '15 times lower than what is sometimes reported'. This is the most important single number in the whole pipeline debate and it comes from industry-commissioned research: it means neither 44 GW nor 20 GW should be reported as demand. It is also consistent with AEMO's own position and with the 20 per cent proceeds-likelihood that NSW utilities gave the government.",
+   "notes": "Oxford Economics, as cited in BCA Submission No 116: only 2.8 GW of actual electricity draw once facilities reach maturity, described as '15 times lower than what is sometimes reported'. CORRECTED 2026-10-22 (RG-078): earlier notes called this research 'for the BCA'; the briefing's own page says it 'was commissioned by AWS'.",
    "fact_status": "REPORTED",
    "source_id": "SRC_BCA_SUB116",
    "confidence": "medium",
@@ -14320,6 +14599,321 @@
    "source_id": "SRC_FF_PIR_DEC25",
    "confidence": "high",
    "as_of_date": "2025-12-31"
+  },
+  {
+   "id": 351,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Lane Cove",
+   "metric_name": "ssd9741_local_contribution",
+   "value": 1426876.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-9741: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 352,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Parramatta",
+   "metric_name": "ssd53338465_local_contribution",
+   "value": 314528.57,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-53338465: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 353,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Parramatta",
+   "metric_name": "ssd53338465_housing_productivity_contribution",
+   "value": 234724.8,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-53338465: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 354,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Fairfield City",
+   "metric_name": "ssd59416728_housing_productivity_contribution",
+   "value": 625174.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-59416728: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 355,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Lane Cove",
+   "metric_name": "ssd67407231_local_contribution",
+   "value": 546544.6,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-67407231: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 356,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Lane Cove",
+   "metric_name": "ssd67407231_housing_productivity_contribution",
+   "value": 151287.31,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-67407231: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 357,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Camden",
+   "metric_name": "ssd68013714_local_contribution",
+   "value": 8597094.07,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-68013714: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 358,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Sydney",
+   "metric_name": "ssd69637456_housing_productivity_contribution",
+   "value": 3568.1,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-69637456: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 359,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Fairfield City",
+   "metric_name": "ssd63741210_housing_productivity_contribution",
+   "value": 1000607.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-63741210: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 360,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Ryde",
+   "metric_name": "ssd63235720_local_contribution",
+   "value": 776297.24,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-63235720: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 361,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Ryde",
+   "metric_name": "ssd63235720_housing_productivity_contribution",
+   "value": 315192.7,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-63235720: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 362,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Cumberland",
+   "metric_name": "ssd69223466_local_contribution",
+   "value": 4506237.24,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-69223466: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 363,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Cumberland",
+   "metric_name": "ssd69223466_housing_productivity_contribution",
+   "value": 478501.83,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-69223466: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 364,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Ryde",
+   "metric_name": "ssd74069708_local_contribution",
+   "value": 437586.24,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-74069708: the local infrastructure contribution to the council its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 365,
+   "as_of": "2026-10-22",
+   "scope": "NSW - City of Ryde",
+   "metric_name": "ssd74069708_housing_productivity_contribution",
+   "value": 471542.5,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-74069708: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 366,
+   "as_of": "2026-10-22",
+   "scope": "NSW - Blacktown",
+   "metric_name": "ssd73761707_housing_productivity_contribution",
+   "value": 816286.25,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "SSD-73761707: the housing and productivity contribution to the State its signed consent requires before construction, as stated in the consent (indexed from the consent date). Read on 2026-10-22 from the 20 signed consents archived on 2026-09-18 (SRC_NSWPORTAL_CONSENTS). Each condition requires payment before the first construction certificate, indexed from the consent date. Local contributions under s7.11 or s7.12 of the EP&A Act go to the council under its contributions plan; the housing and productivity contribution (HPC) goes to the State under the HPC Order 2024 and applies only to consents determined after it commenced. Davis Road and NEXTDC S4 set a local levy of 1% of the cost of development with no dollar figure; 1-5 Khartoum Road must also enter a planning agreement on the terms of an offer dated 24 November 2024. Microsoft's Kemps Creek campus pays through a planning agreement with Penrith Council (metric penrith_msft_vpa_contribution_draft). No contribution condition was found in the consents for 51 Huntingwood Drive, DCI Poplars, Project Echidna, Station Road, Talavera Road, Macquarie Park, Roberts Road or Glendenning Road's local component. Amounts are not summed: they are set at different dates under different plans.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 367,
+   "as_of": "2023-06-07",
+   "scope": "NSW - Penrith",
+   "metric_name": "penrith_msft_vpa_contribution_draft",
+   "value": 8423505.96,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "The monetary contribution in the draft planning agreement between Penrith City Council and Microsoft for 769 Mamre Road, Kemps Creek, and in its explanatory note: payable before the first construction certificate, indexed by CPI. The agreement was executed on 7 June 2023; the executed copy the council publishes is a scan with no text, so its amount has not been read (RG-025).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_PENRITH_VPA_NOTE",
+   "confidence": "medium",
+   "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 368,
+   "as_of": "2025-06-23",
+   "scope": "NSW",
+   "metric_name": "nsw_ida_budget_2025_26",
+   "value": 17.7,
+   "unit": "AUD m",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "2025-26 NSW Budget funding to establish and support the Investment Delivery Authority, whose Round 1 endorsed 15 data centre projects (SRC_NSW_IDA). Not a data-centre-only figure: the Authority takes projects over $1 billion in any sector.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSW_IDA_BUDGET_2025",
+   "confidence": "high",
+   "as_of_date": "2025-06-23"
+  },
+  {
+   "id": 369,
+   "as_of": "2025-11",
+   "scope": "Australia",
+   "metric_name": "dc_grid_investment_2020_2025_mandala",
+   "value": 3.1,
+   "unit": "AUD bn",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "What data centres invested in grid infrastructure from 2020 to 2025, per the report Data Centres Australia's members commissioned. Built from 'data from select data centre operators', so CLAIMED.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "confidence": "medium",
+   "as_of_date": "2025-11"
+  },
+  {
+   "id": 370,
+   "as_of": "2025-11",
+   "scope": "Australia",
+   "metric_name": "dc_grid_investment_forecast_2025_2030_mandala",
+   "value": 7.2,
+   "unit": "AUD bn",
+   "basis": "estimate",
+   "scenario": null,
+   "notes": "The same report's forecast for 2025 to 2030, of which $1.1bn is described as excess capacity for public use. CLAIMED: operator-supplied data and a forecast.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "confidence": "medium",
+   "as_of_date": "2025-11"
+  },
+  {
+   "id": 371,
+   "as_of": "2025-11",
+   "scope": "Australia",
+   "metric_name": "dc_grid_excess_capacity_2020_2025_mandala",
+   "value": 0.5,
+   "unit": "AUD bn",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "The report's figure for excess capacity built 2020 to 2025, 15 per cent of the $3.1bn.",
+   "fact_status": "CLAIMED",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "confidence": "medium",
+   "as_of_date": "2025-11"
   }
  ],
  "modifications": [
@@ -16344,15 +16938,15 @@
    "target_source": "Foreign Investment Approvals annual reports; Treasurer's decisions; FOI to Treasury",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "WORKED 2026-10-22 (research batch 3). The free route is closed by design: the FIRB quarterly report for January to March 2026 reports 311 approved commercial proposals, 97 with conditions, by sector and source country only, and suppresses 'Any data that may enable the identification of a particular person or organisation'; it does not mention data centres. FOI-001 to the Treasury is drafted (docs/requests/FOI-001-treasury-firb.md): no application fee, a 30-day decision period, and it asks for decisions and conditions on data centre acquisitions since 2020, expecting exemptions it can then challenge.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": null
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 7,
@@ -16366,11 +16960,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "STRATEGY DRAFTED 2026-09-18, not yet lodged - see reports/RG007_foi_strategy.md. Five request templates are written for Revenue NSW, NSW DPHI/Investment NSW, SRO Victoria, Queensland Revenue Office and Commonwealth Treasury/FIRB. All are framed to seek policy instruments, determinations, guidelines and aggregate counts rather than individual taxpayer assessments, because a request naming a taxpayer will be refused on confidentiality grounds and would waste the attempt. NSW fee $30 per request under the GIPA Act with processing at $30/hour. Four free parallel routes are identified that should be worked FIRST: (1) the published NSW Voluntary Planning Agreements register; (2) state budget papers and Treasurer's determinations searched for 'data centre' 2019-20 to 2026-27; (3) submissions to the NSW Data Centre Consultation Paper (March 2026), where industry and unions lobby for or against concessions and so disclose whether they exist; (4) the NSW Legislative Council data centres inquiry submissions and the 29 May 2026 hearing transcripts, where a direct question to a revenue officer in public is the fastest possible answer. Route 4 may resolve this before any FOI is decided. A documented negative is recorded as incentive_type 'none_found' with fact_status VERIFIED and is treated as a publishable finding that settles Pillar B in the sector's favour.",
+   "notes": "ADVANCED 2026-10-22 (research batch 3). The free routes give the sector's and the government's word, not a revenue office's: Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' (1 May 2026); the BCA's Submission No 116 says operators 'pay full taxes with no concessions'; the Secretary of the Premier's Department said 'The one thing that we don't contemplate is government participation financially' (22 May 2026). What the State does give is in kind: the IDA ($17.7m in the 2025-26 Budget) and the Guidelines' concierge. No witness from Revenue NSW appeared. GIPA-002 to the Department of Customer Service (which holds Revenue NSW's records) is drafted from reports/RG007_foi_strategy.md; the Victorian, Queensland and Commonwealth templates stay in that file.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_GIPA_IPC",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 8,
@@ -16668,15 +17262,15 @@
    "target_source": "yoursaypenrith.com.au (executed VPA and explanatory note); council planning agreement registers; NSW Planning Portal Voluntary Planning Agreements list",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22 (research batch 3). PENRITH VPA: the draft agreement and its explanatory note set Microsoft's contribution at $8,423,505.96, indexed by CPI and payable before the first construction certificate, calculated by the Mamre Road East Precinct rates because no contributions plan applied; executed 7 June 2023, but the executed copy is a scan whose amount has not been read. SURVEY: the 20 signed SSD consents archived in September carry their own contribution conditions - SSD-9741 local $1,426,876.00; SSD-53338465 local $314,528.57; SSD-53338465 hpc $234,724.80; SSD-59416728 hpc $625,174.00; SSD-67407231 local $546,544.60; SSD-67407231 hpc $151,287.31; SSD-68013714 local $8,597,094.07; SSD-69637456 hpc $3,568.10; SSD-63741210 hpc $1,000,607.00; SSD-63235720 local $776,297.24; SSD-63235720 hpc $315,192.70; SSD-69223466 local $4,506,237.24; SSD-69223466 hpc $478,501.83; SSD-74069708 local $437,586.24; SSD-74069708 hpc $471,542.50; SSD-73761707 hpc $816,286.25. Davis Road and NEXTDC S4 set a 1% levy with no amount; Khartoum Road must also enter a planning agreement. Not covered: consents determined by councils rather than the State, and whether any contribution has been paid.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_PENRITH_VPA",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 26,
@@ -16902,15 +17496,15 @@
    "target_source": "Transgrid, Ausgrid and Endeavour Energy capital expenditure plans; AER regulatory proposals and determinations; connection agreement disclosures",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22 (research batch 3). Traced to source: Data Centres Australia told the inquiry operators 'will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity'. The report behind the industry's figures (Mandala, commissioned for Data Centres Australia by AirTrunk, AWS, CDC and NEXTDC) gives $3.1bn invested 2020-2025 and $7.2bn forecast to 2030, built from 'data from select data centre operators'; the two make $10.3bn, and the only '$10.3 billion' the report states is the Australian Government's grid funding. Its $1.1bn excess is within the forecast, with $0.5bn before. The networks told the inquiry the principle holds - Ausgrid: 'the customer who caused network costs pays for them'; Transgrid invests only on 'full commitment' and had no data centre commitment on 22 May 2026 - but none put a total on it. Still to test: the quantum against Transgrid, Ausgrid and Endeavour capital plans and AER determinations (aer.gov.au did not answer).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_INQ_T_0501",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 44,
@@ -17262,15 +17856,15 @@
    "target_source": "DPHI annual reports and budget papers; the NSW Data Centre Consultation Paper and its submissions; estimates hearings; the Legislative Council inquiry record",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22 (research batch 3). What is public: the 2025-26 Budget gave the Investment Delivery Authority $17.7 million, supported by a multi-agency Investment Taskforce in Investment NSW; a Deputy Secretary told the inquiry that the team supporting the IDA 'sits within my team in the Premier's Department'; the Guidelines commit to a concierge function within DPHI and dedicated post-consent staff. Headcount and cost of the DPHI concierge are not published, and no record read offers councils or community groups the same service. Next: DPHI's annual report and budget estimates.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWGUIDE_S3",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 64,
@@ -17334,15 +17928,15 @@
    "target_source": "https://www.bca.com.au/membership/ and /about/ - note that bca.com.au returns a 3,036-byte challenge page to non-browser clients, so this needs the rendering fetcher rather than urllib",
    "retrieval_method": "scrape_portal",
    "priority": 5,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": null,
+   "resolved_date": "2026-10-22",
+   "notes": "RESOLVED 2026-10-22 (research batch 3). The BCA's own member directory now serves in full to the research crawler: 130 members. Cross-referenced against this database: AirTrunk, Amazon, Google, Microsoft, Meta, Blackstone (AirTrunk's owner), Goodman and Stockland (NSW data centre applicants), TransGrid and Endeavour Energy (the networks data centres connect to), Fujitsu, Telstra, Origin Energy and Tata Consultancy Services are members; each is a lobbying row (peak_body_membership). NEXTDC, CDC, Equinix, Macquarie Technology Group and Data Centres Australia are not. The big four accounting firms and several of the law firms that act on data centre deals are members too. Membership is not lobbying and no improper conduct is implied. The 'member-driven or board-driven' half of the question is not answerable from public records.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_BCA_ABOUT",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 68,
@@ -17388,15 +17982,15 @@
    "target_source": "NSW lobbyist register; NSW ministerial diaries (published quarterly); the Commonwealth register of lobbyists; DPHI and Infrastructure NSW disclosure logs",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "WORKED 2026-10-22 (research batch 3). REFUSED, never worked around: the NSW lobbyist register's robots.txt closes the whole site; the ministers' quarterly diary disclosures sit in a folder nsw.gov.au's robots.txt closes (30 files for the Premier, Treasurer and the Planning, Energy and Industry ministers, January 2025 to June 2026, recorded in data/raw/registers/); the Commonwealth register is a JavaScript application with no content without a browser. All are in docs/requests/DOWNLOADS.md. On the public record instead: the Secretary of the Premier's Department told the inquiry he 'met with Data Centres Australia' about the consultation paper, and the Chief Executive of Infrastructure NSW said 'a lot of those organisations have made direct representations to different people in government' (22 May 2026). 'There is no Minister for data centres.'",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWGUIDE_S3",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 71,
@@ -17464,11 +18058,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-09-18. All 20 Schedule 1 applicants now parse (RG-065): SEVEN consents are held by consultancies or an architectural practice - ARUP Pty Ltd (Turner Road), ARUP Australia Pty Ltd (Echidna), Cundall Johnston and Partners (Davis Road consent AND Mod 1), Lehr Consultants (Glendenning Road, Station Road), Greenbox Architecture (Lane Cove West). Cross-referenced against the tracked gov_contracts table: NONE of these firms appears - the tracked contract population is TCS-weighted (Transport for NSW, RBA, Melbourne Water, DCS, Defence, PM&C, NSWEC), so the overlap question cannot be answered from it. REMAINING: pull DPHI, IPC and Planning-portfolio contracts from AusTender and buy.nsw by AGENCY (not by supplier) and test whether Arup/Cundall/Lehr/Greenbox - or the firms authoring the technical appendices under RG-073 - hold assessment-side work.",
+   "notes": "ADVANCED 2026-09-18. All 20 Schedule 1 applicants now parse (RG-065): SEVEN consents are held by consultancies or an architectural practice - ARUP Pty Ltd (Turner Road), ARUP Australia Pty Ltd (Echidna), Cundall Johnston and Partners (Davis Road consent AND Mod 1), Lehr Consultants (Glendenning Road, Station Road), Greenbox Architecture (Lane Cove West). Cross-referenced against the tracked gov_contracts table: NONE of these firms appears. BLOCKED 2026-10-22: AusTender and buy.nsw both refuse the research crawler (their robots.txt is refused, read as disallow-all; data/raw/registers/), so contracts cannot be pulled by agency here; the NSW Data Centre Guidelines name no consultant author. In docs/requests/DOWNLOADS.md for a person.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 75,
@@ -17518,11 +18112,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Roles CONFIRMED from Austrade's own site and Forum releases. Register and diary checks not done. Pairs with RG-070.",
+   "notes": "Roles CONFIRMED from Austrade's own site and Forum releases. ADVANCED 2026-10-22: the BCA's own site lists the Australia-India CEO Forum among its initiatives, and its member directory lists Tata Consultancy Services. Register and diary checks are blocked: the NSW lobbyist register and the ministers' diaries are closed to crawlers and the Commonwealth register needs a browser (RG-070; docs/requests/DOWNLOADS.md). Pairs with RG-070.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CONSENT_APPLICANTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 78,
@@ -17532,15 +18126,15 @@
    "target_source": "The Oxford Economics report 'Surging Data Centre Connection Requests Drive Phantom Demand' (21 November 2025) title page and funding disclosure; AEMO's commissioning record for the work the Guidelines cite",
    "retrieval_method": "manual_review",
    "priority": 2,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": "Report cited in BCA Submission No 116, which the Observatory holds at data/raw/nsw_planning/submissions/BCA_116.pdf. The funding disclosure has not been read. The NSW Guidelines separately cite Oxford Economics work prepared FOR AEMO, which may be a different engagement - resolving whether they are the same study matters.",
+   "resolved_date": "2026-10-22",
+   "notes": "RESOLVED 2026-10-22 (research batch 3). Oxford Economics' own page for the briefing 'Estimating Data Centre Phantom Demand' (21 November 2025; subtitle 'Surging data centre connection requests drive phantom demand for power', the title the BCA cites) ends: 'This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics.' The same page says AEMO separately commissioned Oxford Economics to forecast data centre electricity use. So the briefing cited by the BCA, by Data Centres Australia and in the NSW Data Centre Guidelines - which introduce the firm as the one 'which prepared AEMO's forecast' - was commissioned by Amazon Web Services. Who paid is not stated beyond 'commissioned'. CORRECTED: lobbying row 6 and metrics 26 and 290-292 had attributed it to the BCA or AEMO.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CONSENT_APPLICANTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 79,
@@ -23422,7 +24016,7 @@
    "entity_table": "research_gaps",
    "entity_rowid": "7",
    "source_id": "SRC_INQ_T_0501",
-   "quote": null
+   "quote": "Data centre operators will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity available for public use. Data centre operators do not receive subsidies or tax incentives."
   },
   {
    "id": 291,
@@ -25488,6 +26082,503 @@
    "entity_rowid": "14",
    "source_id": "SRC_NEXTDC_S7",
    "quote": "Planned for Eastern Creek, S7 Sydney is a future 550MW+ hyperscale data centre"
+  },
+  {
+   "id": 586,
+   "entity_table": "metrics",
+   "entity_rowid": "351",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-9741: a contribution under section 7.11 of the EP&A Act of $1,426,876"
+  },
+  {
+   "id": 587,
+   "entity_table": "metrics",
+   "entity_rowid": "352",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-53338465: a contribution under section 7.11 of the EP&A Act of $314,528.57"
+  },
+  {
+   "id": 588,
+   "entity_table": "metrics",
+   "entity_rowid": "353",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-53338465: Total housing and productivity contribution $234,724.80"
+  },
+  {
+   "id": 589,
+   "entity_table": "metrics",
+   "entity_rowid": "354",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-59416728: Total housing and productivity contribution $625,174.00"
+  },
+  {
+   "id": 590,
+   "entity_table": "metrics",
+   "entity_rowid": "355",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-67407231: a contribution under section 7.11 of the EP&A Act of $546,544.60"
+  },
+  {
+   "id": 591,
+   "entity_table": "metrics",
+   "entity_rowid": "356",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-67407231: Total housing and productivity contribution $151,287.31"
+  },
+  {
+   "id": 592,
+   "entity_table": "metrics",
+   "entity_rowid": "357",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-68013714: Note: At the date of this consent, the relevant monetary contribution is approximately $8,597,094.07."
+  },
+  {
+   "id": 593,
+   "entity_table": "metrics",
+   "entity_rowid": "358",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-69637456: Total housing and productivity contribution $3,568.10"
+  },
+  {
+   "id": 594,
+   "entity_table": "metrics",
+   "entity_rowid": "359",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-63741210: Total housing and productivity contribution $1,000,607.00"
+  },
+  {
+   "id": 595,
+   "entity_table": "metrics",
+   "entity_rowid": "360",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-63235720: Total contribution amount $776,297.24"
+  },
+  {
+   "id": 596,
+   "entity_table": "metrics",
+   "entity_rowid": "361",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-63235720: Total housing and productivity contribution $315,192.70"
+  },
+  {
+   "id": 597,
+   "entity_table": "metrics",
+   "entity_rowid": "362",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-69223466: a payment of a levy of $4,506,237.24"
+  },
+  {
+   "id": 598,
+   "entity_table": "metrics",
+   "entity_rowid": "363",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-69223466: Total housing and productivity contribution $478,501.83"
+  },
+  {
+   "id": 599,
+   "entity_table": "metrics",
+   "entity_rowid": "364",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-74069708: Total contribution amount $437,586.24"
+  },
+  {
+   "id": 600,
+   "entity_table": "metrics",
+   "entity_rowid": "365",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-74069708: Total housing and productivity contribution $471,542.50"
+  },
+  {
+   "id": 601,
+   "entity_table": "metrics",
+   "entity_rowid": "366",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-73761707: Total housing and productivity contribution $816,286.25"
+  },
+  {
+   "id": 602,
+   "entity_table": "metrics",
+   "entity_rowid": "367",
+   "source_id": "SRC_PENRITH_VPA_NOTE",
+   "quote": "p1: The Planning Agreement requires the Developer to pay the monetary contribution of $8,423,505.96 before the issue of the first construction certificate for the proposed development. | p1: There is no s.7.11 Contributions Plan applying to the Subject Land."
+  },
+  {
+   "id": 603,
+   "entity_table": "metrics",
+   "entity_rowid": "367",
+   "source_id": "SRC_PENRITH_VPA_DRAFT",
+   "quote": "p9: The Developer will pay to Council a monetary contribution of $8,423,505.96 or an amount calculated in accordance with the following formula, whichever is the greater"
+  },
+  {
+   "id": 604,
+   "entity_table": "metrics",
+   "entity_rowid": "367",
+   "source_id": "SRC_PENRITH_VPA",
+   "quote": "At Council's Ordinary Meeting of 29 May 2023, Council endorsed the VPA for execution. The VPA was executed on 7 June 2023."
+  },
+  {
+   "id": 605,
+   "entity_table": "metrics",
+   "entity_rowid": "368",
+   "source_id": "SRC_NSW_IDA_BUDGET_2025",
+   "quote": "The Minns Labor Government is investing $17.7 million in the 2025-26 Budget to establish and support the work of an Investment Delivery Authority. | A multi-agency Investment Taskforce, in Investment NSW under the Premier\u2019s Department, will support the Authority\u2019s work."
+  },
+  {
+   "id": 606,
+   "entity_table": "metrics",
+   "entity_rowid": "369",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "quote": "p6: Data centres have invested $3.1 billion in grid infrastructure since 2020, with a further $7.2 billion forecast by 2030. This includes $1.1 billion of excess capacity for communities and other industries. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+  },
+  {
+   "id": 607,
+   "entity_table": "metrics",
+   "entity_rowid": "370",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "quote": "p6: Data centres have invested $3.1 billion in grid infrastructure since 2020, with a further $7.2 billion forecast by 2030. This includes $1.1 billion of excess capacity for communities and other industries. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+  },
+  {
+   "id": 608,
+   "entity_table": "metrics",
+   "entity_rowid": "371",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "quote": "p22: Between 2020 and 2025, $500 million (or 15 per cent of total investment) represented excess capacity. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+  },
+  {
+   "id": 609,
+   "entity_table": "metrics",
+   "entity_rowid": "26",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
+   "quote": "6 in every 7 MWs of connection requests are estimated to be \u2018phantom demand\u2019. | This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics."
+  },
+  {
+   "id": 610,
+   "entity_table": "metrics",
+   "entity_rowid": "290",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
+   "quote": "This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics."
+  },
+  {
+   "id": 611,
+   "entity_table": "metrics",
+   "entity_rowid": "291",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
+   "quote": "This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics."
+  },
+  {
+   "id": 612,
+   "entity_table": "metrics",
+   "entity_rowid": "292",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
+   "quote": "This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics."
+  },
+  {
+   "id": 613,
+   "entity_table": "lobbying",
+   "entity_rowid": "6",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
+   "quote": "This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics. | In response, AEMO commissioned Oxford Economics to develop independent forecasts of electricity consumption by data centres in Australia."
+  },
+  {
+   "id": 614,
+   "entity_table": "lobbying",
+   "entity_rowid": "6",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "p5: Oxford Economics, Estimating Data Centre \u2018Phantom Demand\u2019, Oxford Economics, 2025."
+  },
+  {
+   "id": 615,
+   "entity_table": "lobbying",
+   "entity_rowid": "6",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "Data Centres Australia and the Business Council of Australia have both cited Oxford Economics phantom demandresearch"
+  },
+  {
+   "id": 616,
+   "entity_table": "lobbying",
+   "entity_rowid": "11",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Tata Consultancy Services"
+  },
+  {
+   "id": 617,
+   "entity_table": "lobbying",
+   "entity_rowid": "2",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "AirTrunk"
+  },
+  {
+   "id": 618,
+   "entity_table": "lobbying",
+   "entity_rowid": "16",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "met with Data Centres Australia and talked to them about the consultation paper | it's also apparent that a lot of those organisations have made direct representations to different people in government."
+  },
+  {
+   "id": 619,
+   "entity_table": "lobbying",
+   "entity_rowid": "17",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Amazon"
+  },
+  {
+   "id": 620,
+   "entity_table": "lobbying",
+   "entity_rowid": "18",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Google"
+  },
+  {
+   "id": 621,
+   "entity_table": "lobbying",
+   "entity_rowid": "19",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Microsoft"
+  },
+  {
+   "id": 622,
+   "entity_table": "lobbying",
+   "entity_rowid": "20",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Meta"
+  },
+  {
+   "id": 623,
+   "entity_table": "lobbying",
+   "entity_rowid": "21",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Blackstone"
+  },
+  {
+   "id": 624,
+   "entity_table": "lobbying",
+   "entity_rowid": "22",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Goodman"
+  },
+  {
+   "id": 625,
+   "entity_table": "lobbying",
+   "entity_rowid": "23",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Stockland"
+  },
+  {
+   "id": 626,
+   "entity_table": "lobbying",
+   "entity_rowid": "24",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "TransGrid"
+  },
+  {
+   "id": 627,
+   "entity_table": "lobbying",
+   "entity_rowid": "25",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Endeavour Energy"
+  },
+  {
+   "id": 628,
+   "entity_table": "lobbying",
+   "entity_rowid": "26",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Fujitsu"
+  },
+  {
+   "id": 629,
+   "entity_table": "lobbying",
+   "entity_rowid": "27",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Telstra"
+  },
+  {
+   "id": 630,
+   "entity_table": "lobbying",
+   "entity_rowid": "28",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Origin Energy"
+  },
+  {
+   "id": 631,
+   "entity_table": "incentives",
+   "entity_rowid": "7",
+   "source_id": "SRC_PENRITH_VPA_NOTE",
+   "quote": "p1: The Planning Agreement requires the Developer to pay the monetary contribution of $8,423,505.96 before the issue of the first construction certificate for the proposed development."
+  },
+  {
+   "id": 632,
+   "entity_table": "incentives",
+   "entity_rowid": "6",
+   "source_id": "SRC_NSW_IDA_BUDGET_2025",
+   "quote": "The Minns Labor Government is investing $17.7 million in the 2025-26 Budget to establish and support the work of an Investment Delivery Authority."
+  },
+  {
+   "id": 633,
+   "entity_table": "incentives",
+   "entity_rowid": "6",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "The one thing that we don't contemplate is government participation financially."
+  },
+  {
+   "id": 634,
+   "entity_table": "incentives",
+   "entity_rowid": "9",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "There is a team that supports the Investment Delivery Authority in terms of assessing applications and progressing facilitation and support for those endorsed projects, and the team that does that sits within my team in the Premier's Department."
+  },
+  {
+   "id": 635,
+   "entity_table": "incentives",
+   "entity_rowid": "9",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "p7: Creating a concierge function within DPHI, working with the planning assessment team, that understands data centre technologies and needs"
+  },
+  {
+   "id": 636,
+   "entity_table": "incentives",
+   "entity_rowid": "5",
+   "source_id": "SRC_INQ_T_0501",
+   "quote": "Data centre operators will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity available for public use. Data centre operators do not receive subsidies or tax incentives."
+  },
+  {
+   "id": 637,
+   "entity_table": "incentives",
+   "entity_rowid": "5",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "The one thing that we don't contemplate is government participation financially."
+  },
+  {
+   "id": 638,
+   "entity_table": "research_gaps",
+   "entity_rowid": "25",
+   "source_id": "SRC_PENRITH_VPA_NOTE",
+   "quote": "p1: The Planning Agreement requires the Developer to pay the monetary contribution of $8,423,505.96 before the issue of the first construction certificate for the proposed development."
+  },
+  {
+   "id": 639,
+   "entity_table": "research_gaps",
+   "entity_rowid": "25",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "SSD-59416728: a payment of a levy of 1 % of the proposed cost of carrying out the development must be paid to Council under section 7.12 of the EP&A Act | SSD-63741210: a payment of a levy of 1% of the proposed cost of carrying out the development"
+  },
+  {
+   "id": 640,
+   "entity_table": "research_gaps",
+   "entity_rowid": "25",
+   "source_id": "SRC_PENRITH_VPA_DRAFT",
+   "quote": "p9: The Developer will pay to Council a monetary contribution of $8,423,505.96 or an amount calculated in accordance with the following formula, whichever is the greater"
+  },
+  {
+   "id": 641,
+   "entity_table": "research_gaps",
+   "entity_rowid": "7",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "The one thing that we don't contemplate is government participation financially."
+  },
+  {
+   "id": 642,
+   "entity_table": "research_gaps",
+   "entity_rowid": "6",
+   "source_id": "SRC_FIRB_QR_2026Q1",
+   "quote": "p15: Any data that may enable the identification of a particular person or organisation has been suppressed to preserve confidentiality."
+  },
+  {
+   "id": 643,
+   "entity_table": "research_gaps",
+   "entity_rowid": "63",
+   "source_id": "SRC_NSW_IDA_BUDGET_2025",
+   "quote": "The Minns Labor Government is investing $17.7 million in the 2025-26 Budget to establish and support the work of an Investment Delivery Authority. | A multi-agency Investment Taskforce, in Investment NSW under the Premier\u2019s Department, will support the Authority\u2019s work."
+  },
+  {
+   "id": 644,
+   "entity_table": "research_gaps",
+   "entity_rowid": "63",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "There is a team that supports the Investment Delivery Authority in terms of assessing applications and progressing facilitation and support for those endorsed projects, and the team that does that sits within my team in the Premier's Department."
+  },
+  {
+   "id": 645,
+   "entity_table": "research_gaps",
+   "entity_rowid": "63",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "p7: Creating a concierge function within DPHI, working with the planning assessment team, that understands data centre technologies and needs"
+  },
+  {
+   "id": 646,
+   "entity_table": "research_gaps",
+   "entity_rowid": "70",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "met with Data Centres Australia and talked to them about the consultation paper | it's also apparent that a lot of those organisations have made direct representations to different people in government. | There is no Minister for data centres."
+  },
+  {
+   "id": 647,
+   "entity_table": "research_gaps",
+   "entity_rowid": "70",
+   "source_id": "SRC_NSW_DIARIES_2026",
+   "quote": "Minister for Planning and Public Spaces"
+  },
+  {
+   "id": 648,
+   "entity_table": "research_gaps",
+   "entity_rowid": "67",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "AirTrunk | Amazon | Google | Microsoft | Meta | Blackstone | Goodman | Stockland"
+  },
+  {
+   "id": 649,
+   "entity_table": "research_gaps",
+   "entity_rowid": "78",
+   "source_id": "SRC_OXEC_PHANTOM_2025",
+   "quote": "This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics. | In response, AEMO commissioned Oxford Economics to develop independent forecasts of electricity consumption by data centres in Australia."
+  },
+  {
+   "id": 650,
+   "entity_table": "research_gaps",
+   "entity_rowid": "78",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "p5: Oxford Economics, which prepared AEMO\u2019s forecast on data centres, estimates 6 in every 7 megawatts (MW) of data centre connection requests are phantom demand."
+  },
+  {
+   "id": 651,
+   "entity_table": "research_gaps",
+   "entity_rowid": "78",
+   "source_id": "SRC_BCA_SUB116",
+   "quote": "Oxford Economics, Surging Data Centre Connection Requests Drive Phantom Demand"
+  },
+  {
+   "id": 652,
+   "entity_table": "research_gaps",
+   "entity_rowid": "43",
+   "source_id": "SRC_INQ_T_0529",
+   "quote": "in New South Wales, the customer who caused network costs pays for them."
+  },
+  {
+   "id": 653,
+   "entity_table": "research_gaps",
+   "entity_rowid": "43",
+   "source_id": "SRC_INQ_T_0522",
+   "quote": "we don't invest in new equipment, new assets, long lead items or anything ... until we have that full commitment."
+  },
+  {
+   "id": 654,
+   "entity_table": "research_gaps",
+   "entity_rowid": "43",
+   "source_id": "SRC_MANDALA_DCEI_2025",
+   "quote": "p6: Data centres have invested $3.1 billion in grid infrastructure since 2020, with a further $7.2 billion forecast by 2030. This includes $1.1 billion of excess capacity for communities and other industries. | p22: By comparison, the Australian Government has committed $10.3 billion of funding for vital grid electricity infrastructure to 2030. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+  },
+  {
+   "id": 655,
+   "entity_table": "research_gaps",
+   "entity_rowid": "77",
+   "source_id": "SRC_BCA_MEMBERS_202610",
+   "quote": "Australia-India CEO Forum | Tata Consultancy Services"
+  },
+  {
+   "id": 656,
+   "entity_table": "research_gaps",
+   "entity_rowid": "74",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "p7: Creating a concierge function within DPHI, working with the planning assessment team, that understands data centre technologies and needs"
   }
  ],
  "sources": [
@@ -25498,9 +26589,9 @@
    "url": "https://www.infrastructure.nsw.gov.au/media/4jlictae/id0073_nsw-data-centre_guidelines.pdf",
    "doc_type": "primary_government",
    "published": "2026-08-17",
-   "accessed": "2026-09-18",
+   "accessed": "2026-10-22",
    "credibility": "A",
-   "notes": "Six principles, 17 numbered performance measures. Primary source for dPUE/dWUE limits, Group 6 diesel limits, 25% demand-flexibility requirement, PPA additionality criteria."
+   "notes": "Six principles, 17 numbered performance measures. Primary source for dPUE/dWUE limits, Group 6 diesel limits, 25% demand-flexibility requirement, PPA additionality criteria. Footnote 4 cites 'Oxford Economics, Estimating Data Centre Phantom Demand, Oxford Economics, 2025', introduced as the work of the firm 'which prepared AEMO's forecast'; that briefing's own page says it was commissioned by AWS (SRC_OXEC_PHANTOM_2025). ARCHIVED 2026-10-22 at data/raw/operators/nswgov/ with a SHA-256 manifest (an earlier copy is at data/raw/nsw_planning/)."
   },
   {
    "id": "SRC_AEMO26",
@@ -26268,9 +27359,9 @@
    "url": "https://yoursaypenrith.com.au/vpa-microsoft-datacenter",
    "doc_type": "primary_government",
    "published": "2023-06-07",
-   "accessed": "2026-09-18",
+   "accessed": "2026-10-22",
    "credibility": "A",
-   "notes": "Voluntary Planning Agreement between Penrith City Council and Microsoft Datacenter (Australia) Pty Ltd for Lot 2 DP 1271142, 769 Mamre Road, Kemps Creek, within the approved industrial estate 'The Yards' at 657-769 Mamre Road. Publicly notified 9 March to 6 April 2023; endorsed by Council at its Ordinary Meeting of 29 May 2023; executed 7 June 2023. Purpose: to collect monetary contributions for the future development of a data centre, to support delivery of infrastructure including open space and landscaping embellishment within the Mamre Road Precinct. The contribution amount is in the executed VPA and explanatory note, which are published on the council's consultation site."
+   "notes": "Voluntary Planning Agreement between Penrith City Council and Microsoft Datacenter (Australia) Pty Ltd for Lot 2 DP 1271142, 769 Mamre Road, Kemps Creek, within the approved industrial estate 'The Yards' at 657-769 Mamre Road. Publicly notified 9 March to 6 April 2023; endorsed by Council at its Ordinary Meeting of 29 May 2023; executed 7 June 2023. Purpose: to collect monetary contributions for the future development of a data centre, to support delivery of infrastructure including open space and landscaping embellishment within the Mamre Road Precinct. ARCHIVED 2026-10-22 at data/raw/councils/penrith/ with the three documents it links (SRC_PENRITH_VPA_NOTE, SRC_PENRITH_VPA_DRAFT; the executed copy is a scan)."
   },
   {
    "id": "SRC_GUARD_PLUMPTON",
@@ -28361,6 +29452,83 @@
    "accessed": "2026-10-22",
    "credibility": "A",
    "notes": "The exchange's own list of NEXTDC's 2025 announcements, with dates, times and headlines. Lists 'Response to ASX Compliance Letter' at 3:57 pm on 12 December 2025, a week after the OpenAI announcement. The documents themselves sit behind ASX's terms of use, which limit free use to private investors, so none was opened; a person must read the compliance letter response (docs/requests/DOWNLOADS.md). The list page ARCHIVED 2026-10-22 at data/raw/asx/nxt/."
+  },
+  {
+   "id": "SRC_PENRITH_VPA_NOTE",
+   "title": "Explanatory Note - Draft Planning Agreement, Penrith City Council and Microsoft Datacenters (Australia) Pty Limited",
+   "publisher": "Penrith City Council and Microsoft (prepared jointly)",
+   "url": "https://hdp-au-prod-app-penr-yoursay-files.s3.ap-southeast-2.amazonaws.com/6916/7814/9314/Explanatory_Note_1.pdf",
+   "doc_type": "primary_government",
+   "published": "2023-03-09",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Published with the draft agreement for notification (9 March to 6 April 2023). States the $8,423,505.96 monetary contribution, payable before the first construction certificate, for land, embellishment and public works, calculated by the Mamre Road East Precinct s7.11 rates because no contributions plan applied to the land. ARCHIVED 2026-10-22 at data/raw/councils/penrith/ (sha256 bad583725e35, 203,336 bytes); PDF not committed, text is."
+  },
+  {
+   "id": "SRC_PENRITH_VPA_DRAFT",
+   "title": "Planning Agreement, Penrith City Council and Microsoft (draft notified 2023, file dated 3 February 2022)",
+   "publisher": "Penrith City Council",
+   "url": "https://hdp-au-prod-app-penr-yoursay-files.s3.ap-southeast-2.amazonaws.com/7516/7814/9315/Penrith_City_Council_VPA_-_3_February_2022_FINAL301930683.1_1.pdf",
+   "doc_type": "primary_government",
+   "published": "2022-02-03",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Clause 6.1: $8,423,505.96 or that amount indexed by CPI, whichever is greater. The council publishes the executed agreement (signed 7 June 2023) beside it, but the executed copy is a scan with no text, so whether its figure is the same has not been read. ARCHIVED 2026-10-22 (sha256 0cc10e1ebad4, 4,132,478 bytes); the executed copy too (sha256 9ffd9e9ac258, 1,639,832 bytes), its text empty."
+  },
+  {
+   "id": "SRC_OXEC_PHANTOM_2025",
+   "title": "Estimating Data Centre 'Phantom Demand' (research briefing, 21 November 2025)",
+   "publisher": "Oxford Economics Australia",
+   "url": "https://www.oxfordeconomics.com/resource/estimating-data-centre-phantom-demand/",
+   "doc_type": "market_research",
+   "published": "2025-11-21",
+   "accessed": "2026-10-22",
+   "credibility": "B",
+   "notes": "Subtitled 'Surging data centre connection requests drive phantom demand for power'. Finds 6 in every 7 MW of the 44 GW of connection requests AEMO received are 'phantom demand'. The page says AEMO separately commissioned Oxford Economics to forecast data centre electricity use, and that 'This research briefing was commissioned by AWS.' Cited by the BCA (Submission No 116, under its subtitle), Data Centres Australia and the NSW Data Centre Guidelines. ARCHIVED 2026-10-22 at data/raw/operators/oxfordeconomics/."
+  },
+  {
+   "id": "SRC_BCA_MEMBERS_202610",
+   "title": "Business Council of Australia - Membership (Our Members)",
+   "publisher": "Business Council of Australia",
+   "url": "https://www.bca.com.au/membership/",
+   "doc_type": "industry_body",
+   "published": null,
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The BCA's own member directory, served in full to the research crawler on 2026-10-22 (it returned a challenge page in September): 130 members, each with its web address. Its data-centre-related members: AirTrunk, Amazon, Google, Microsoft, Meta, Blackstone, Goodman, Stockland, TransGrid, Endeavour Energy, Fujitsu, Telstra, Origin Energy and Tata Consultancy Services. Not listed: NEXTDC, CDC, Equinix, Macquarie Technology Group or Data Centres Australia. ARCHIVED 2026-10-22 at data/raw/operators/bca/ with the about page."
+  },
+  {
+   "id": "SRC_NSW_IDA_BUDGET_2025",
+   "title": "Investment Delivery Authority to turbocharge business investment in NSW (ministerial media release, 23 June 2025)",
+   "publisher": "NSW Government - the Premier, Treasurer, Minister for Innovation, Science and Technology, Minister for Planning and Public Spaces",
+   "url": "https://www.nsw.gov.au/ministerial-releases/investment-delivery-authority-to-turbocharge-business-investment-nsw",
+   "doc_type": "primary_government",
+   "published": "2025-06-23",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "$17.7 million in the 2025-26 Budget to establish and support the Investment Delivery Authority; about 30 large projects a year; projects over $1 billion; a multi-agency Investment Taskforce in Investment NSW under the Premier's Department. ARCHIVED 2026-10-22 at data/raw/operators/nswgov/."
+  },
+  {
+   "id": "SRC_FIRB_QR_2026Q1",
+   "title": "Quarterly report on foreign investment - 1 January to 31 March 2026",
+   "publisher": "Australian Government, The Treasury (Foreign Investment)",
+   "url": "https://foreigninvestment.gov.au/sites/foreigninvestment.gov.au/files/2026-05/quarterly-report-jan-mar-2026.pdf",
+   "doc_type": "primary_government",
+   "published": "2026-05-29",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "311 commercial proposals approved in the quarter, 97 of them with conditions. Reports by sector and source country only; 'Any data that may enable the identification of a particular person or organisation has been suppressed'. Does not mention data centres. ARCHIVED 2026-10-22 (sha256 10906032a6df, 941,813 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_NSW_DIARIES_2026",
+   "title": "2026 ministers' diary disclosures (NSW Cabinet Office index page)",
+   "publisher": "NSW Government - The Cabinet Office",
+   "url": "https://www.nsw.gov.au/departments-and-agencies/cabinet-office/access-to-information/ministers-diary-disclosures/2026-ministers-diary-disclosures",
+   "doc_type": "primary_government",
+   "published": "2026-07",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Lists each minister's quarterly diary disclosure for 2026. The disclosures themselves sit under /sites/default/files/noindex/, which nsw.gov.au's robots.txt closes to crawlers; the 30 for the Premier, Treasurer and the Planning, Energy and Industry ministers from January 2025 to June 2026 were not fetched (data/raw/registers/nsw_ministers_diaries/refused.json; docs/requests/DOWNLOADS.md). The index pages for 2025 and 2026 ARCHIVED 2026-10-22."
   }
  ],
  "water_profile": [
@@ -29242,7 +30410,7 @@
    "recipient": "Business Council of Australia",
    "event_date": "2025-04",
    "instrument": "BCA membership list (as at April 2025)",
-   "lobbying_fact_status": "REPORTED"
+   "lobbying_fact_status": "VERIFIED"
   },
   {
    "firm": "Tata Consultancy Services Limited",
@@ -30833,18 +32001,18 @@
    "source_url": "https://www.austrade.gov.au/en/about-austrade/our-team/our-trade-commissioners/jodi-mckay"
   },
   {
-   "actor": "Business Council of Australia",
+   "actor": "Amazon Web Services",
    "person": null,
    "channel": "commissioned_research",
-   "recipient": "Public policy debate; cited in Submission No 116",
+   "recipient": "Public policy debate; cited by the BCA (Submission No 116), Data Centres Australia and the NSW Data Centre Guidelines",
    "event_date": "2025-11-21",
    "instrument": "Oxford Economics, 'Surging Data Centre Connection Requests Drive Phantom Demand', 21 November 2025",
    "position": "That of roughly 44 GW of connection requests linked to data centre proposals received by AEMO in 2025, only about 6 GW of project capacity is expected to proceed and only 2.8 GW of actual electricity draw at maturity - '15 times lower than what is sometimes reported'.",
    "outcome": "Cited by the BCA to the NSW inquiry and, per the Chair's questioning on 22 May 2026, by Data Centres Australia as well. The NSW Data Centre Guidelines separately cite Oxford Economics work prepared for AEMO estimating that 6 in every 7 MW of connection requests are phantom. The two are consistent: 6 of 7 not proceeding is a 14 per cent conversion rate.",
    "disclosed": 1,
-   "fact_status": "REPORTED",
+   "fact_status": "VERIFIED",
    "confidence": "high",
-   "source_url": "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Flcdocs%2Fsubmissions%2F95078%2F0116%20Business%20Council%20of%20Australia.pdf"
+   "source_url": "https://www.oxfordeconomics.com/resource/estimating-data-centre-phantom-demand/"
   },
   {
    "actor": "Tata Consultancy Services Limited",
@@ -30924,7 +32092,7 @@
    "event_date": "2025-05",
    "instrument": "BCA membership (member logo published with a 2025/05 asset path)",
    "position": "Membership of the peak body representing more than 120 chief executives of Australia's largest employers.",
-   "outcome": "Current. Per AFR reporting of 27 November 2025 the BCA counts AirTrunk but not NEXTDC among its members, so the ASX-listed Australian-listed operator is outside the peak body while the Blackstone-controlled one is inside it and on its board.",
+   "outcome": "Current: listed on the BCA's own member directory, read 2026-10-22, which lists no other data centre operator except Fujitsu; NEXTDC, CDC and Equinix are not members.",
    "disclosed": 1,
    "fact_status": "REPORTED",
    "confidence": "medium",
@@ -30938,11 +32106,11 @@
    "event_date": "2025-04",
    "instrument": "BCA membership list (as at April 2025)",
    "position": "Membership of Australia's principal general business peak body - the same body whose board includes AirTrunk founder and CEO Robin Khuda alongside the CEOs of Telstra, Commonwealth Bank, Wesfarmers, Google Australia and New Zealand and BHP Australia, and which made Submission No 116 to the NSW Legislative Council inquiry into data centres on 2 April 2026.",
-   "outcome": "Current as at the April 2025 membership list. Corroborated by a TCS-hosted LinkedIn post stating 'TCS is a member of Business Council of Australia and Australia-India CEO Forum'. The BCA's own /about/ page could not be re-read this session (challenge page, RG-067), so membership is REPORTED from two secondary directions rather than confirmed first-hand. ACCENTURE ALSO APPEARS ON THE SAME LIST, so at least two global systems integrators sit inside the peak body that submitted to the data centre inquiry.",
+   "outcome": "Current: listed on the BCA's own member directory, read 2026-10-22.",
    "disclosed": 1,
-   "fact_status": "REPORTED",
-   "confidence": "medium",
-   "source_url": "https://en.wikipedia.org/wiki/Business_Council_of_Australia"
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
   },
   {
    "actor": "Palantir Technologies Australia Pty Ltd",
@@ -30959,6 +32127,62 @@
    "source_url": "https://www.abc.net.au/news/2026-08-24/defence-insiders-now-lobbying-for-industry-analysis-shows/107046326"
   },
   {
+   "actor": "Microsoft",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Amazon Web Services",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler; the BCA lists it as 'Amazon'.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Google",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Meta",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: hyperscaler.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
    "actor": "AirTrunk",
    "person": null,
    "channel": "political_donation",
@@ -30971,6 +32195,132 @@
    "fact_status": "GAP",
    "confidence": "low",
    "source_url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231208.980+GMT"
+  },
+  {
+   "actor": "Telstra",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: telecommunications carrier.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Transgrid",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: the transmission network data centres connect to.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Origin Energy",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: electricity retailer and generator.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Blackstone",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: majority owner of AirTrunk.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Data Centres Australia",
+   "person": null,
+   "channel": "ministerial_meeting",
+   "recipient": "Secretary, NSW Premier's Department",
+   "event_date": null,
+   "instrument": "Meeting on the NSW Data Centre Consultation Paper (date not stated)",
+   "position": "Input on the NSW Data Centre Consultation Paper.",
+   "outcome": "Recorded only because the Secretary told the inquiry on 22 May 2026 that he was there; no diary entry or register record has been read.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Flcdocs%2Ftranscripts%2F3733%2FTranscript%20-%20CORRECTED%20-%20PAWC%20-%20Data%20Centres%20-%2022%20May%202026.pdf"
+  },
+  {
+   "actor": "Fujitsu Australia",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: data centre operator.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Goodman Property Services (Aust) Pty Ltd",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: applicant for three NSW data centre consents.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Stockland",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: applicant for two NSW data centre consents.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
+  },
+  {
+   "actor": "Endeavour Energy",
+   "person": null,
+   "channel": "peak_body_membership",
+   "recipient": "Business Council of Australia",
+   "event_date": null,
+   "instrument": "BCA member directory, read 2026-10-22",
+   "position": "Membership of the peak body representing more than 120 chief executives; in this database as: the distribution network for western Sydney's data centres.",
+   "outcome": "Current as at 2026-10-22.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://www.bca.com.au/membership/"
   }
  ],
  "v_pipeline_by_state": [
@@ -36912,7 +38262,7 @@
    "tbl": "metrics",
    "fact_status": "CLAIMED",
    "confidence": "medium",
-   "n": 12
+   "n": 15
   },
   {
    "tbl": "metrics",
@@ -36936,7 +38286,7 @@
    "tbl": "metrics",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 279
+   "n": 296
   },
   {
    "tbl": "metrics",
@@ -36948,7 +38298,7 @@
    "tbl": "metrics",
    "fact_status": "VERIFIED",
    "confidence": "medium",
-   "n": 1
+   "n": 2
   }
  ]
 }

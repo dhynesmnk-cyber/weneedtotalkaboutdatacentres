@@ -12,7 +12,7 @@ folder named, and add a manifest beside it (`<file>.meta.json` with `url`,
 `fetched_utc`, `sha256` and `bytes`, as the archived files have). The question's
 hunt log records what came back.
 
-Ranked by what each would unlock. Drafted 2026-10-22, research batch 2.
+Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3.
 
 | Rank | Document | Where | Save to | Questions | Unlocks |
 | --- | --- | --- | --- | --- | --- |
@@ -23,6 +23,11 @@ Ranked by what each would unlock. Drafted 2026-10-22, research batch 2.
 | 5 | OpenAI, "OpenAI for Australia" (5 December 2025) | `https://openai.com/global-affairs/openai-for-australia/` | `data/raw/operators/openai/` | RG-014 | OpenAI's own account of what it agreed for S7 |
 | 6 | UniSuper, Australian Retirement Trust and Aware Super portfolio holdings disclosures, 30 June 2026, default options | each fund's site | `data/raw/superannuation/<fund>/` | RG-004 | The rest of the six funds the question names |
 | 7 | NSW Valuer General bulk property sales data, the years covering a sale of Lot 10 DP 1280592, Kemps Creek | valuergeneral.nsw.gov.au, property sales information | `data/raw/nsw_valuer_general/psi/` | RG-005 | The price and contract date of the Mamre Road land, if it has sold |
+| 8 | NSW ministers' diary disclosures, January 2025 to June 2026: the Premier, the Treasurer, and the Planning, Energy and Industry ministers (30 files; the list is in `data/raw/registers/nsw_ministers_diaries/refused.json`) | nsw.gov.au, Cabinet Office, ministers' diary disclosures | `data/raw/registers/nsw_ministers_diaries/` | RG-070, RG-077 | Which data centre companies and bodies met the ministers who set the policy, and when |
+| 9 | NSW Lobbyists Register: every lobbyist whose clients include AirTrunk, NEXTDC, Equinix, CDC, Microsoft, Amazon, Google, Goodman, Stockland or Data Centres Australia | lobbyists.elections.nsw.gov.au | `data/raw/registers/nsw_lobbyists/` | RG-070 | Who lobbies NSW for the industry, on whose behalf |
+| 10 | Australian Government Register of Lobbyists: the same clients | lobbyists.ag.gov.au (needs a browser) | `data/raw/registers/cth_lobbyists/` | RG-070, RG-077 | The same, for the Commonwealth |
+| 11 | AusTender contract notices for the NSW-facing Commonwealth agencies, and buy.nsw contract awards for DPHI, the IPC and Infrastructure NSW, searched for Arup, Cundall, Lehr and Greenbox | tenders.gov.au; buy.nsw.gov.au | `data/raw/registers/austender/`, `data/raw/registers/buynsw/` | RG-074 | Whether the firms that hold data centre consents also work for the assessors |
+| 12 | Read the executed Microsoft planning agreement (a 39-page scan; archived at `data/raw/councils/penrith/`, so no download is needed) and note the contribution in clause 6.1 | already archived | `data-pipeline/reports/hunts/RG-025.md` | RG-025 | Whether the signed figure is the draft's $8,423,505.96 |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

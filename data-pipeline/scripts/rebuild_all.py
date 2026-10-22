@@ -55,6 +55,7 @@ PACKS = [
     ("data/packs/who_applies.json", ["--allow-missing-source"]),
     # After who_applies: updates RG-005, which that pack first cites.
     ("data/packs/super_and_openai.json", ["--allow-missing-source"]),
+    ("data/packs/public_and_room.json", ["--allow-missing-source"]),
 ]
 
 
@@ -108,6 +109,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_certstrat_review.py")
     run(PY, "scripts/curate_who_applies.py")
     run(PY, "scripts/curate_super_and_openai.py")
+    run(PY, "scripts/curate_public_and_room.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.
