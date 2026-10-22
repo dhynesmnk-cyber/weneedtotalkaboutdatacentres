@@ -12,7 +12,7 @@ folder named, and add a manifest beside it (`<file>.meta.json` with `url`,
 `fetched_utc`, `sha256` and `bytes`, as the archived files have). The question's
 hunt log records what came back.
 
-Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3.
+Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3, and ranks 13 to 16 by batch 4.
 
 | Rank | Document | Where | Save to | Questions | Unlocks |
 | --- | --- | --- | --- | --- | --- |
@@ -28,6 +28,10 @@ Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 
 | 10 | Australian Government Register of Lobbyists: the same clients | lobbyists.ag.gov.au (needs a browser) | `data/raw/registers/cth_lobbyists/` | RG-070, RG-077 | The same, for the Commonwealth |
 | 11 | AusTender contract notices for the NSW-facing Commonwealth agencies, and buy.nsw contract awards for DPHI, the IPC and Infrastructure NSW, searched for Arup, Cundall, Lehr and Greenbox | tenders.gov.au; buy.nsw.gov.au | `data/raw/registers/austender/`, `data/raw/registers/buynsw/` | RG-074 | Whether the firms that hold data centre consents also work for the assessors |
 | 12 | Read the executed Microsoft planning agreement (a 39-page scan; archived at `data/raw/councils/penrith/`, so no download is needed) and note the contribution in clause 6.1 | already archived | `data-pipeline/reports/hunts/RG-025.md` | RG-025 | Whether the signed figure is the draft's $8,423,505.96 |
+| 13 | Palantir contracts on the state and territory tender portals: Buying for Victoria, SA Tenders, ACT Tenders, Tenders WA, QTenders, Tasmania and the Northern Territory, and buy.nsw supplier profile 3813; search for Palantir and the ABN 48 144 948 309 | each portal's contract search | `data/raw/registers/state_tenders/` | RG-086, RG-093 | What states and territories have bought from Palantir, including any police or justice agency |
+| 14 | Watch the NVIDIA GTC Washington, D.C. keynote of 28 October 2025 at about 1:25:14 and note Jensen Huang's sentence on Palantir word for word | youtube.com, video lQHK61IDFH4 | `data-pipeline/reports/hunts/RG-092.md` | RG-092 | Whether the quote two transcripts agree on is what he said |
+| 15 | Queensland Hansard for 16 September 2026: the Premier's statement on Anthropic and the Western Downs Digital Park | parliament.qld.gov.au, Hansard | `data/raw/qld_western_downs/hansard/` | RG-012 | What the Queensland Government has said about the deal, in its own record |
+| 16 | ASD's cloud assessment and authorisation FAQ, the page on the retirement of the Certified Cloud Services List | cyber.gov.au (it did not answer the crawler) | `data/raw/operators/asd/` | RG-089, RG-087 | Whether any "ASD certification" of a cloud service could exist after 2020 |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

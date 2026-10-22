@@ -89,3 +89,8 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | [ST-009](ST-009-ten-point-three.md) | Ten point three | M3 | RG-043 | draft |
 | [ST-010](ST-010-paying-their-way.md) | Paying their way | M3 | RG-025, RG-007, RG-063 | draft |
 | [ST-011](ST-011-six-in-seven.md) | Six in seven | M4 | RG-078, RG-067, RG-070 | draft |
+| [ST-012](ST-012-sixty-eight-million.md) | Sixty-eight million | C3 | RG-086, RG-092, RG-093 | draft |
+| [ST-013](ST-013-outside-the-act.md) | Outside the Act | C3 | RG-087, RG-089 | draft |
+| [ST-014](ST-014-checkout.md) | Checkout | C3 | RG-095, RG-088 | draft |
+| [ST-015](ST-015-not-that-company.md) | Not that company | C3 | RG-093, RG-086 | draft |
+| [ST-016](ST-016-the-tenant.md) | The tenant | C3 | RG-012 | draft |

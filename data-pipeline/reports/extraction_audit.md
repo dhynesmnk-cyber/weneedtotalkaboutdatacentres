@@ -1,12 +1,12 @@
 # Extraction yield audit
 
-Generated from 57 archived PDFs. Reliability floor: **20 chars/KB**.
+Generated from 59 archived PDFs. Reliability floor: **20 chars/KB**.
 
 Any document below the floor **cannot support a negative finding**. A keyword that does not appear
 in its extracted text may simply not have been extracted. Re-read such documents through a full PDF
 renderer before concluding that a term, condition or commitment is absent.
 
-**16 of 57 documents are below the floor.**
+**16 of 59 documents are below the floor.**
 
 | chars/KB | chars | status | extractor | document | likely cause |
 |---|---|---|---|---|---|
@@ -28,6 +28,7 @@ renderer before concluding that a term, condition or commitment is absent.
 | 14.7 | 121,083 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230606_921_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 20.5 | 3,698 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_notice_of_decision.pdf` |  |
 | 21.4 | 104,976 | ok | pypdf | `data/raw/operators/mandala/Data-Centres-as-Enabling-Infrastructure.pdf` |  |
+| 22.8 | 13,020 | ok | pypdf | `data/raw/operators/wapolice/olfr-privacy-impact-assessment.pdf` |  |
 | 23.3 | 3,701 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_roberts_nod.pdf` |  |
 | 25.9 | 23,764 | ok | pypdf | `data/raw/operators/firb_files/quarterly-report-jan-mar-2026.pdf` |  |
 | 27.8 | 5,502 | ok | pypdf | `data/raw/councils/penrith/Explanatory_Note_1.pdf` |  |
@@ -35,6 +36,7 @@ renderer before concluding that a term, condition or commitment is absent.
 | 28.2 | 4,398 | ok | pypdf | `data/raw/nsw_planning/consents/davis_rd_data_centre_mod_1_tree_removal_correction.pdf` |  |
 | 36.9 | 7,163 | ok | pypdf | `data/raw/operators/nextdc/1H26_Results_Announcement.pdf` |  |
 | 38.3 | 11,456 | ok | pdf_text | `data/raw/nsw_planning/attachments/PAE_84063957_20250611T225516_156_GMT.pdf` |  |
+| 40.6 | 74,516 | ok | pypdf | `data/raw/operators/coles/2026_AGM_Notice_of_Meeting_Web.pdf` |  |
 | 44.6 | 94,547 | ok | pypdf | `data/raw/nsw_planning/consents/glendenning_road_data_centre.pdf` |  |
 | 45.8 | 97,159 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_consent_signed.pdf` |  |
 | 50.0 | 76,489 | ok | pdf_text | `data/raw/nsw_planning/attachments/DCI_poplars_consent.pdf` |  |

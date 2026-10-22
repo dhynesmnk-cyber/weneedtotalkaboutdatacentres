@@ -1,0 +1,10 @@
+{
+ "url": "https://www.wa.gov.au/media/161114/download",
+ "requested_url": "https://www.wa.gov.au/media/161114/download",
+ "fetched_utc": "2026-10-22T20:55:49+00:00",
+ "sha256": "9a8eee4abf786a5c8040c0d19c0c9203b50f08cd6a48634b4641356ecd3c35c2",
+ "bytes": 584936,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 8
+}

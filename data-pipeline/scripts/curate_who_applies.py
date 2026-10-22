@@ -294,7 +294,9 @@ def main() -> int:
                    "the current one took effect. No directors, shareholders or addresses. Downloaded 2026-10-21 "
                    "(ZIP SHA-256 in the manifest) and filtered by scrapers/fetch_asic_companies.py to 185 rows, "
                    "committed at data/raw/asic/company_dataset_202610_extract.csv. Names only: who owns a "
-                   "company needs a paid extract (docs/requests/PAID-SEARCHES.md)."),
+                   "company needs a paid extract (docs/requests/PAID-SEARCHES.md). PROCESS NOTE (2026-10-22): "
+                   "data.gov.au's robots.txt, read that day, disallows every crawler; the fetcher did not read it "
+                   "before this download and now refuses. Whether this extract stays is for the author."),
         dict(id=SRC_DAVIS_TITLE, title="Title search, Lot 1 DP 864615, 3 Davis Road, Wetherill Park (Appendix 3 "
                                        "to SSD-59416728)",
              publisher="NSW Land Registry Services, via the applicant's information broker; published on the NSW "

@@ -12,7 +12,7 @@
    "published": "2026-10",
    "accessed": "2026-10-21",
    "credibility": "A",
-   "notes": "ASIC's whole company register, published monthly under CC BY 3.0 AU: each company's name, ACN, type, status and registration date, and for a renamed company each former name with the date the current one took effect. No directors, shareholders or addresses. Downloaded 2026-10-21 (ZIP SHA-256 in the manifest) and filtered by scrapers/fetch_asic_companies.py to 185 rows, committed at data/raw/asic/company_dataset_202610_extract.csv. Names only: who owns a company needs a paid extract (docs/requests/PAID-SEARCHES.md)."
+   "notes": "ASIC's whole company register, published monthly under CC BY 3.0 AU: each company's name, ACN, type, status and registration date, and for a renamed company each former name with the date the current one took effect. No directors, shareholders or addresses. Downloaded 2026-10-21 (ZIP SHA-256 in the manifest) and filtered by scrapers/fetch_asic_companies.py to 185 rows, committed at data/raw/asic/company_dataset_202610_extract.csv. Names only: who owns a company needs a paid extract (docs/requests/PAID-SEARCHES.md). PROCESS NOTE (2026-10-22): data.gov.au's robots.txt, read that day, disallows every crawler; the fetcher did not read it before this download and now refuses. Whether this extract stays is for the author."
   },
   {
    "id": "SRC_SSD59416728_TITLE",

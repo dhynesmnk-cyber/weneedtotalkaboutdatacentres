@@ -1,0 +1,10 @@
+{
+ "url": "https://fastly.data.open-contracting.org/downloads/australia/4299/full.jsonl.gz",
+ "requested_url": "https://data.open-contracting.org/en/publication/19/download?name=full.jsonl.gz",
+ "fetched_utc": "2026-10-22T20:52:30+00:00",
+ "sha256": "27619b1bfacee661c7af36e6257861574fa9562c041f09131e543b1223343538",
+ "bytes": 260353636,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "licence": "CC BY 3.0 AU (Department of Finance, AusTender)",
+ "note": "OCP Data Registry copy of the AusTender OCDS API, retrieved by Kingfisher Collect; the gzip itself is not committed (260 MB)."
+}

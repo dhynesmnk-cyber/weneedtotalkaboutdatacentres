@@ -4,7 +4,30 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.5.0 · data as at 22 October 2026 · 1,546 data rows (+656 source refs) · 93 sites · 140 entities · 371 metrics · 268 catalogued sources (202 primary)**
+**Release v2.6.0 · data as at 22 October 2026 · 1,597 data rows (+724 source refs) · 93 sites · 142 entities · 379 metrics · 278 catalogued sources (208 primary)**
+
+v2.6.0 is **research batch 4, "Whose data, whose rules"** (`docs/RESEARCH-PLAN.md`, pack `data/packs/whose_data.json`).
+
+- **The Commonwealth's Palantir ledger, complete as published.** AusTender and data.gov.au refuse the crawler, so
+  the AusTender feed was read from the Open Contracting Partnership's open-licence copy (260 MB, not committed; the
+  Palantir and NVIDIA records are, with contact details removed). It matches the five notices read on AusTender in
+  September. 29 notices from May 2013 to April 2026, $68,258,634.93 at their latest values: Defence $30.0m (11),
+  AUSTRAC $28.1m (6), ACIC $6.1m (5), ASD $4.0m (6), Veterans' Affairs $50,000 (1). 19 were limited tenders and 11
+  name the US parent. 24 new `gov_contracts` rows; metric 331 (Crikey's "more than $26 million") checked (RG-086).
+- **ASD is outside the FOI Act** (Schedule 2), and so is any document that came from it. FOI-002 (where Defence's
+  Palantir systems run) and FOI-003 (what clearance Defence recorded) go to Defence instead; FOI-004 asks the ACIC
+  what its Palantir software supports. The Hosting Certification Framework register lists AWS's Australian regions
+  and not Palantir (RG-087, RG-089).
+- **WA's face-scanning van runs NEC**, by WA Police's own privacy assessment ("Data stored in Australia"). Not
+  Palantir; metrics 338 and 339 now say so (RG-093).
+- **Coles is leaving Palantir** by the end of 2027, by its own statement as three outlets quote it; the only reason
+  given is that the two "agreed to conclude". Its 2026 notice of meeting has no Palantir item (RG-095 resolved).
+  WesTrac verified as a customer from Palantir's own release; Westpac still unverified (RG-088).
+- **Anthropic and the Western Downs Digital Park**: Dexus's ASX release confirms lease documentation with
+  Anthropic's Australian subsidiary for the first stage, subject to approvals; the lodged application names neither
+  (RG-012 resolved). Anthropic's model drafts this research; the hunt log and card carry a disclosure.
+- **The keynote quote**: a second transcript agrees; the recording refused the crawler (RG-092). No AUKUS work by
+  Palantir or NVIDIA in the feed (RG-090). Five story cards, ST-012 to ST-016.
 
 v2.5.0 is **research batch 3, "What the public gives" and "Who is in the room"** (`docs/RESEARCH-PLAN.md`,
 pack `data/packs/public_and_room.json`).
