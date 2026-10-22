@@ -1,12 +1,12 @@
 # Extraction yield audit
 
-Generated from 46 archived PDFs. Reliability floor: **20 chars/KB**.
+Generated from 52 archived PDFs. Reliability floor: **20 chars/KB**.
 
 Any document below the floor **cannot support a negative finding**. A keyword that does not appear
 in its extracted text may simply not have been extracted. Re-read such documents through a full PDF
 renderer before concluding that a term, condition or commitment is absent.
 
-**12 of 46 documents are below the floor.**
+**14 of 52 documents are below the floor.**
 
 | chars/KB | chars | status | extractor | document | likely cause |
 |---|---|---|---|---|---|
@@ -19,14 +19,17 @@ renderer before concluding that a term, condition or commitment is absent.
 | 0.9 | 3,009 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-67407231__appendix-05-survey-plan-title-documents-60.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 1.7 | 2,099 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-92743706__appendix-3-title-documents-388.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 4.5 | 2,360 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-59416728__appendix-3-title-documents-310.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 6.5 | 32,299 | **LOW** | pypdf | `data/raw/operators/nextdc/1H26_Results_Presentation.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 8.2 | 10,951 | **LOW** | pdf_text | `data/raw/nsw_planning/nsw_data_centre_guidelines_2026.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 9.1 | 24,571 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230704_968_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 12.5 | 52,261 | **LOW** | pypdf | `data/raw/operators/nextdc/NEXTDC_FY26_Results_Presentation.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 14.7 | 121,083 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230606_921_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 20.5 | 3,698 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_notice_of_decision.pdf` |  |
 | 21.4 | 104,976 | ok | pypdf | `data/raw/operators/mandala/Data-Centres-as-Enabling-Infrastructure.pdf` |  |
 | 23.3 | 3,701 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_roberts_nod.pdf` |  |
 | 27.9 | 67,262 | ok | pypdf | `data/raw/nsw_planning/consents/dicker_data_warehouse_and_distribution_centre.pdf` |  |
 | 28.2 | 4,398 | ok | pypdf | `data/raw/nsw_planning/consents/davis_rd_data_centre_mod_1_tree_removal_correction.pdf` |  |
+| 36.9 | 7,163 | ok | pypdf | `data/raw/operators/nextdc/1H26_Results_Announcement.pdf` |  |
 | 38.3 | 11,456 | ok | pdf_text | `data/raw/nsw_planning/attachments/PAE_84063957_20250611T225516_156_GMT.pdf` |  |
 | 44.6 | 94,547 | ok | pypdf | `data/raw/nsw_planning/consents/glendenning_road_data_centre.pdf` |  |
 | 45.8 | 97,159 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_consent_signed.pdf` |  |
@@ -43,9 +46,12 @@ renderer before concluding that a term, condition or commitment is absent.
 | 74.4 | 97,075 | ok | pypdf | `data/raw/nsw_planning/consents/grand_avenue_data_centre_expansion_rosehill.pdf` |  |
 | 74.6 | 96,588 | ok | pypdf | `data/raw/nsw_planning/consents/davis_road_data_centre_cundall.pdf` |  |
 | 77.5 | 117,984 | ok | pypdf | `data/raw/nsw_planning/consents/1_5_khartoum_road_data_centre.pdf` |  |
+| 78.6 | 21,917 | ok | pypdf | `data/raw/operators/nextdc/FY26_Results_Announcement.pdf` |  |
 | 80.6 | 80,263 | ok | pypdf | `data/raw/nsw_planning/consents/roberts_road_data_centre.pdf` |  |
 | 81.1 | 134,840 | ok | pypdf | `data/raw/nsw_planning/consents/nextdc_s4_data_centre_horsley_park.pdf` |  |
 | 81.7 | 81,407 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_roberts_consent.pdf` |  |
+| 83.4 | 665,169 | ok | pypdf | `data/raw/operators/nextdc/FY26_Annual_Report_Appendix_4E.pdf` |  |
+| 87.9 | 34,556 | ok | pypdf | `data/raw/operators/nextdc/1H26_Reports_and_Accounts.pdf` |  |
 | 90.6 | 112,203 | ok | pypdf | `data/raw/nsw_planning/consents/macquarie_park_data_centre.pdf` |  |
 | 112.0 | 93,096 | ok | pypdf | `data/raw/nsw_planning/consents/apollo_place_data_centre.pdf` |  |
 | 116.7 | 108,211 | ok | pypdf | `data/raw/nsw_planning/consents/project_echidna_data_centre_eastern_creek.pdf` |  |

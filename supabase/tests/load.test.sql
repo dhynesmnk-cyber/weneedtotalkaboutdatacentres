@@ -49,13 +49,17 @@ select public.assert(
 -- Road and Mamre Road applications, giving 251; and one entity, Amazon
 -- Australia Company Pty Ltd, the registered owner of the Davis Road site,
 -- giving 139.
+-- 2026-10-22: research batch 2 (data/packs/super_and_openai.json) adds ten
+-- sources, three super funds' holdings files, six NEXTDC documents and the ASX's
+-- list of NEXTDC's 2025 announcements, giving 261 (it re-declares SRC_NEXTDC_S7,
+-- which adds none); and one entity, La Caisse, giving 140.
 select public.assert(
-  (select count(*) from facts.entities where pipeline_id is not null) = 139,
-  '139 entities loaded');
+  (select count(*) from facts.entities where pipeline_id is not null) = 140,
+  '140 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 251,
-  '251 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 261,
+  '261 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -68,9 +72,12 @@ select public.assert(
 -- (cites SRC_CERTSTRAT): 94 questions, the same ten rejected, 84 load.
 -- 2026-10-22: research batch 1 cites RG-005 (the Mamre Road title search and
 -- ASIC's register), so nine are rejected and 85 load.
+-- 2026-10-22: research batch 2 cites RG-004 (three super funds' holdings files
+-- and NEXTDC's annual report) and RG-014 (NEXTDC's OpenAI announcement and later
+-- reports), so seven are rejected and 87 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 85,
-  '85 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 87,
+  '87 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -81,8 +88,8 @@ select public.assert(
 
 select public.assert(
   (select count(*) from facts.research_agenda
-    where pipeline_id in ('RG-001', 'RG-004', 'RG-006', 'RG-008',
-                          'RG-014', 'RG-016', 'RG-017', 'RG-018', 'RG-019')) = 0,
+    where pipeline_id in ('RG-001', 'RG-006', 'RG-008',
+                          'RG-016', 'RG-017', 'RG-018', 'RG-019')) = 0,
   'no uncited question was published');
 
 -- A question keeps the label the research cites it by.
@@ -175,8 +182,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 85,
-  'anon can read all 85 research questions');
+  (select count(*) from facts.research_agenda) = 87,
+  'anon can read all 87 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

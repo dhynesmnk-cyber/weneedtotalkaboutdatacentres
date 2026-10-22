@@ -191,7 +191,7 @@ Pillar E. Each proposition from the brief is tested against Australian evidence,
 | `source_ids` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `entities` (table, 139 rows)
+## `entities` (table, 140 rows)
 
 Companies, funds, agencies, councils, community groups and utilities. `domicile` is the country of ultimate control, which is the field that matters for sovereignty analysis — it is not the same as where the entity trades.
 
@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 146 rows)
+## `ingest_log` (table, 152 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -400,7 +400,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `metrics` (table, 342 rows)
+## `metrics` (table, 350 rows)
 
 Time series of system-level figures. `basis` is mandatory discipline: actual / pipeline / signed / enquiry / forecast. Enquiry and signed figures are never summed.
 
@@ -444,7 +444,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ownership` (table, 12 rows)
+## `ownership` (table, 14 rows)
 
 The control chain. One row per holder per period; `effective_to IS NULL` means current. Carries the FIRB flag and outcome. This is Pillar B's core table.
 
@@ -639,7 +639,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 557 rows)
+## `source_refs` (table, 585 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 
@@ -651,7 +651,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 251 rows)
+## `sources` (table, 261 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 
@@ -886,7 +886,7 @@ WHERE e.id IN (SELECT DISTINCT supplier_entity_id FROM gov_contracts)
 
 </details>
 
-## `v_foreign_control` (view, 45 rows)
+## `v_foreign_control` (view, 46 rows)
 
 Operators and their current holders, with domicile and FIRB flag.
 

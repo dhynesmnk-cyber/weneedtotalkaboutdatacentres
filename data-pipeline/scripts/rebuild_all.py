@@ -53,6 +53,8 @@ PACKS = [
     # SRC_HCF_REGISTER, which hcf_register.json registers.
     ("data/packs/certstrat_review.json", ["--allow-missing-source"]),
     ("data/packs/who_applies.json", ["--allow-missing-source"]),
+    # After who_applies: updates RG-005, which that pack first cites.
+    ("data/packs/super_and_openai.json", ["--allow-missing-source"]),
 ]
 
 
@@ -105,6 +107,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_operator_sources.py")
     run(PY, "scripts/curate_certstrat_review.py")
     run(PY, "scripts/curate_who_applies.py")
+    run(PY, "scripts/curate_super_and_openai.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

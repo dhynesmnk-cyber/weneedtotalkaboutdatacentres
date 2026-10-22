@@ -134,7 +134,7 @@ Most gaps first. Archived: documents already in `data/raw/` for this site.
 | Grand Avenue Data Centre Expansion, Rosehill | NSW | P | VERIFIED | 12 | portal record; consent text |  |
 | Mars Road Data Centre | NSW | P | VERIFIED | 12 | portal record |  |
 | NEXTDC S4 Data Centre Horsley Park | NSW | P | VERIFIED | 12 | portal record; consent text |  |
-| NEXTDC S7 Data Centre, Eastern Creek | NSW | P | VERIFIED | 12 | portal record | RG-099 |
+| NEXTDC S7 Data Centre, Eastern Creek | NSW | P | VERIFIED | 12 | portal record | RG-014 RG-099 |
 | Project Apollo Data Centre Macquarie Park | NSW | P | VERIFIED | 12 | portal record; consent text |  |
 | Project Duke Data Centre | NSW | P | VERIFIED | 12 | portal record |  |
 | Roberts Road Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-045 RG-057 RG-058 RG-069 |

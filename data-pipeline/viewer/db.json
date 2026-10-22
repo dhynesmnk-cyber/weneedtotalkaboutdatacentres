@@ -4167,17 +4167,17 @@
   {
    "id": "ENT_AUSTRALIANSUPER",
    "name": "AustralianSuper",
-   "legal_name": null,
+   "legal_name": "AustralianSuper Pty Ltd",
    "entity_type": "super_fund",
    "domicile": "Australia",
    "hq_country": "AU",
    "asx_ticker": null,
    "website": "australiansuper.com",
-   "notes": "Placeholder: domestic superannuation exposure to data centres not yet traced. See research_gaps RG-004. Releases up to v2.2.0 also claimed exposure via Vantage's European business and reported 2024 commitments, citing CertifiedStrategic.com, whose archived article mentions neither; withdrawn until a primary source is read (RG-100).",
-   "fact_status": "GAP",
-   "source_id": "SRC_CERTSTRAT",
-   "confidence": "low",
-   "as_of_date": "2026-09-18"
+   "notes": "A substantial holder of NEXTDC: 54,446,234 shares, 8.49% of issued shares, in the substantial holders NEXTDC's FY26 annual report lists from ASX lodgements up to 20 August 2026; the second largest after State Street Corporation. Its own portfolio holdings disclosure could not be read: australiansuper.com refused the research crawler on 22 October 2026 (RG-004). CORRECTED 2026-10-22: this was a placeholder citing CertifiedStrategic.com (RG-100); it now rests on NEXTDC's annual report.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_MAMRE_OWNER",
@@ -5738,6 +5738,21 @@
    "source_id": "SRC_SSD59416728_TITLE",
    "confidence": "high",
    "as_of_date": "2026-10-22"
+  },
+  {
+   "id": "ENT_LA_CAISSE",
+   "name": "La Caisse",
+   "legal_name": null,
+   "entity_type": "investor",
+   "domicile": "Canada",
+   "hq_country": "CA",
+   "asx_ticker": null,
+   "website": null,
+   "notes": "Described by NEXTDC as 'a global investment group based in Qu\u00e9bec, Canada'. Committed A$1.0bn to NEXTDC's subordinated hybrid securities on 6 April 2026; by 8 May 2026 NEXTDC described A$1.7bn of binding commitments from La Caisse. The securities are classified as debt and carry no equity conversion. Its final allocation is not stated in any record read.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NXT_HYBRID_LA_CAISSE",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   }
  ],
  "entity_aliases": [
@@ -5954,7 +5969,7 @@
    "currency_original": null,
    "vehicle": null,
    "foreign_control": 0,
-   "notes": "S7 Sydney AI data centre build with OpenAI confirmed as partner / anchor. Commercial terms of the OpenAI offtake are not disclosed - see research_gaps RG-014.",
+   "notes": "Capital Brief reports a A$7.6bn S7 build with OpenAI as partner. NEXTDC's own ASX release of the same day describes a Memorandum of Understanding with OpenAI to collaborate on planning, development and operation, and states no dollar figure, capacity commitment, contract term or price; the A$7.6bn is Capital Brief's. No NEXTDC report read since mentions OpenAI (RG-014). CORRECTED 2026-10-22: earlier notes spoke of 'the OpenAI offtake'; no record read describes one.",
    "fact_status": "REPORTED",
    "source_id": "SRC_CAPBRIEF",
    "confidence": "medium",
@@ -6900,7 +6915,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6909,7 +6924,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6918,7 +6933,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6927,7 +6942,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6936,7 +6951,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -6945,7 +6960,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6954,7 +6969,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6963,7 +6978,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6972,7 +6987,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6981,7 +6996,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6990,7 +7005,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6999,7 +7014,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7008,7 +7023,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7017,7 +7032,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7026,7 +7041,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-10-22T00:15:39Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7035,7 +7050,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7044,7 +7059,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7053,7 +7068,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7062,7 +7077,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7071,7 +7086,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7080,7 +7095,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7089,7 +7104,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7098,7 +7113,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7107,7 +7122,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7116,7 +7131,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7125,7 +7140,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7134,7 +7149,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7143,7 +7158,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7152,7 +7167,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7161,7 +7176,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7170,7 +7185,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7179,7 +7194,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7188,7 +7203,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7197,7 +7212,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7206,7 +7221,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7215,7 +7230,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7224,7 +7239,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7233,7 +7248,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7242,7 +7257,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7251,7 +7266,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7260,7 +7275,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7269,7 +7284,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7278,7 +7293,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7287,7 +7302,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7296,7 +7311,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7305,7 +7320,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7314,7 +7329,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7323,7 +7338,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7332,7 +7347,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7341,7 +7356,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7350,7 +7365,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7359,7 +7374,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7368,7 +7383,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7377,7 +7392,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7386,7 +7401,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7395,7 +7410,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7404,7 +7419,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7413,7 +7428,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7422,7 +7437,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7431,7 +7446,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7440,7 +7455,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7449,7 +7464,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7458,7 +7473,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7467,7 +7482,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7476,7 +7491,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7485,7 +7500,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7494,7 +7509,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7503,7 +7518,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7512,7 +7527,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7521,7 +7536,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7530,7 +7545,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7539,7 +7554,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7548,7 +7563,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7557,7 +7572,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7566,7 +7581,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7575,7 +7590,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7584,7 +7599,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7593,7 +7608,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7602,7 +7617,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7611,7 +7626,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7620,7 +7635,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7629,7 +7644,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7638,7 +7653,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7647,7 +7662,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7656,7 +7671,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7665,7 +7680,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7674,7 +7689,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7683,7 +7698,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7692,7 +7707,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7701,7 +7716,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7710,7 +7725,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7719,7 +7734,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7728,7 +7743,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7737,7 +7752,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7746,7 +7761,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7755,7 +7770,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7764,7 +7779,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7773,7 +7788,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7782,7 +7797,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7791,7 +7806,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7800,7 +7815,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:06Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7809,7 +7824,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7818,7 +7833,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7827,7 +7842,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7836,7 +7851,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7845,7 +7860,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7854,7 +7869,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7863,7 +7878,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7872,7 +7887,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7881,7 +7896,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7890,7 +7905,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7899,7 +7914,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7908,7 +7923,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -7917,7 +7932,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7926,7 +7941,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7935,7 +7950,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7944,7 +7959,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7953,7 +7968,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7962,7 +7977,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7971,7 +7986,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7980,7 +7995,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7989,7 +8004,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7998,7 +8013,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8007,7 +8022,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "hcf-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8016,7 +8031,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "hcf-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8025,7 +8040,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "hcf-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8034,7 +8049,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8043,7 +8058,7 @@
   },
   {
    "id": 128,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8052,7 +8067,7 @@
   },
   {
    "id": 129,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8061,7 +8076,7 @@
   },
   {
    "id": 130,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "operator-sources-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8070,7 +8085,7 @@
   },
   {
    "id": 131,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "operator-sources-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8079,7 +8094,7 @@
   },
   {
    "id": 132,
-   "run_at": "2026-10-22T00:15:40Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "operator-sources-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8088,7 +8103,7 @@
   },
   {
    "id": 133,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8097,7 +8112,7 @@
   },
   {
    "id": 134,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8106,7 +8121,7 @@
   },
   {
    "id": 135,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -8115,7 +8130,7 @@
   },
   {
    "id": 136,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8124,7 +8139,7 @@
   },
   {
    "id": 137,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8133,7 +8148,7 @@
   },
   {
    "id": 138,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "applications",
    "action": "insert",
@@ -8142,7 +8157,7 @@
   },
   {
    "id": 139,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8151,7 +8166,7 @@
   },
   {
    "id": 140,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8160,7 +8175,7 @@
   },
   {
    "id": 141,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "who-applies-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8169,7 +8184,7 @@
   },
   {
    "id": 142,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "who-applies-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8178,7 +8193,7 @@
   },
   {
    "id": 143,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "who-applies-2026-10",
    "table_name": "land_events",
    "action": "insert",
@@ -8187,7 +8202,7 @@
   },
   {
    "id": 144,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "who-applies-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8196,7 +8211,7 @@
   },
   {
    "id": 145,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "who-applies-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8205,12 +8220,66 @@
   },
   {
    "id": 146,
-   "run_at": "2026-10-22T00:15:41Z",
+   "run_at": "2026-10-22T01:37:07Z",
    "pack": "who-applies-2026-10",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sources\": 4, \"entities\": 10, \"sites\": 4, \"land_events\": 1, \"metrics\": 1, \"research_gaps\": 12}, \"prepared_by\": \"scripts/curate_who_applies.py\", \"prepared_on\": \"2026-10-22\"}"
+  },
+  {
+   "id": 147,
+   "run_at": "2026-10-22T01:37:07Z",
+   "pack": "super-and-openai-2026-10",
+   "table_name": "entities",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 2, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 148,
+   "run_at": "2026-10-22T01:37:07Z",
+   "pack": "super-and-openai-2026-10",
+   "table_name": "ownership",
+   "action": "insert",
+   "rows_affected": 2,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 149,
+   "run_at": "2026-10-22T01:37:07Z",
+   "pack": "super-and-openai-2026-10",
+   "table_name": "metrics",
+   "action": "insert",
+   "rows_affected": 8,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 150,
+   "run_at": "2026-10-22T01:37:07Z",
+   "pack": "super-and-openai-2026-10",
+   "table_name": "financial_flows",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 151,
+   "run_at": "2026-10-22T01:37:07Z",
+   "pack": "super-and-openai-2026-10",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 4, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 152,
+   "run_at": "2026-10-22T01:37:07Z",
+   "pack": "super-and-openai-2026-10",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 11, \"entities\": 3, \"ownership\": 3, \"metrics\": 8, \"financial_flows\": 1, \"research_gaps\": 4}, \"prepared_by\": \"scripts/curate_super_and_openai.py\", \"prepared_on\": \"2026-10-22\"}"
   }
  ],
  "instrument_application": [
@@ -14131,6 +14200,126 @@
    "source_id": "SRC_SSD9741_ASSESSMENT",
    "confidence": "high",
    "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 343,
+   "as_of": "2026-06-30",
+   "scope": "Australia",
+   "metric_name": "cbus_growth_mysuper_nextdc_shares_holding",
+   "value": 344511305.86,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Cbus Growth (MySuper): 23,629,033.32 NEXTDC shares worth A$344,511,305.86, 0.4048% of the option. One investment option only, as the fund's file reports it; the fund's other options hold their own amounts and nothing is added across them.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_CBUS_PHD_202606",
+   "confidence": "high",
+   "as_of_date": "2026-06-30"
+  },
+  {
+   "id": 344,
+   "as_of": "2026-06-30",
+   "scope": "Australia",
+   "metric_name": "cbus_growth_mysuper_nextdc_notes_holding",
+   "value": 18587879.9,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Cbus Growth (MySuper): NEXTDC callable medium term notes, a loan to NEXTDC, worth A$18,587,879.90. The same file lists STACK Infrastructure Australia (Palmers Road) Pty Ltd among the borrowers in its private debt, with no amount of its own: private debt is reported as one total of A$961,424,965.53. One investment option only, as the fund's file reports it; the fund's other options hold their own amounts and nothing is added across them.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_CBUS_PHD_202606",
+   "confidence": "high",
+   "as_of_date": "2026-06-30"
+  },
+  {
+   "id": 345,
+   "as_of": "2026-06-30",
+   "scope": "Australia",
+   "metric_name": "hesta_balanced_growth_nextdc_shares_holding",
+   "value": 73522711.524395,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "HESTA Balanced Growth: 5,042,709.98 NEXTDC shares worth A$73,522,711.52. One investment option only, as the fund's file reports it; the fund's other options hold their own amounts and nothing is added across them.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_HESTA_PHD_202606",
+   "confidence": "high",
+   "as_of_date": "2026-06-30"
+  },
+  {
+   "id": 346,
+   "as_of": "2026-06-30",
+   "scope": "Australia",
+   "metric_name": "hostplus_balanced_nextdc_shares_holding",
+   "value": 109136752.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Hostplus Balanced: 7,485,373.95 NEXTDC shares worth A$109,136,752, 0.11% of the option. The file carries no date; the page that links it says 'As at 30 June 2026'. One investment option only, as the fund's file reports it; the fund's other options hold their own amounts and nothing is added across them.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_HOSTPLUS_PHD_202606",
+   "confidence": "high",
+   "as_of_date": "2026-06-30"
+  },
+  {
+   "id": 347,
+   "as_of": "2025-12-31",
+   "scope": "Australia",
+   "metric_name": "futurefund_nextdc_listed_equity_holding",
+   "value": 78806270.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Future Fund: 6,289,407 NEXTDC shares worth A$78,806,270 held as listed equity. The same report lists a further 529,664 shares (A$6,636,690) under listed property, kept as its own row.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2025-12-31"
+  },
+  {
+   "id": 348,
+   "as_of": "2025-12-31",
+   "scope": "Australia",
+   "metric_name": "futurefund_nextdc_listed_property_holding",
+   "value": 6636690.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Future Fund: 529,664 NEXTDC shares worth A$6,636,690 held under listed property.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2025-12-31"
+  },
+  {
+   "id": 349,
+   "as_of": "2025-12-31",
+   "scope": "Australia",
+   "metric_name": "futurefund_cdc_ownership_pct",
+   "value": 29.0,
+   "unit": "%",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "The Future Fund's report gives its ownership of CDC as '29%' and no value. CDC's February 2025 release gives the Future Fund 34.55% (ownership row 6). The difference is unexplained (RG-094).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2025-12-31"
+  },
+  {
+   "id": 350,
+   "as_of": "2025-12-31",
+   "scope": "Australia",
+   "metric_name": "futurefund_nvidia_holding",
+   "value": 2107250593.0,
+   "unit": "AUD",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Future Fund: 7,534,692 NVIDIA shares worth A$2,107,250,593, 0.78% of the fund (RG-094).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "confidence": "high",
+   "as_of_date": "2025-12-31"
   }
  ],
  "modifications": [
@@ -14561,7 +14750,7 @@
    "event": "pre-emptive acquisition of 10.46% from CSC",
    "firb_reviewed": 0,
    "firb_outcome": null,
-   "notes": null,
+   "notes": "CDC's own release (18 February 2025) gives the Future Fund 34.55% after it took up 10.46% from CSC's sale. The Future Fund's Periodic Investment Report at 31 December 2025 lists CDC among its internally managed unlisted infrastructure at '29%' ownership. Neither record explains the difference. The Future Fund Board also manages other Commonwealth funds, whose reports would show whether they hold the rest; futurefund.gov.au refused the research crawler on 22 October 2026 (RG-094). Both figures are kept; neither is chosen.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CDC2025",
    "confidence": "high",
@@ -14674,6 +14863,42 @@
    "source_id": "SRC_FF_PIR_DEC25",
    "confidence": "high",
    "as_of_date": "2025-12-31"
+  },
+  {
+   "id": 13,
+   "holder_id": "ENT_AUSTRALIANSUPER",
+   "target_id": "ENT_NEXTDC",
+   "stake_pct": 8.49,
+   "instrument": "equity",
+   "effective_from": null,
+   "effective_to": null,
+   "transaction_value_aud": null,
+   "event": "substantial holding, as last lodged with the ASX",
+   "firb_reviewed": 0,
+   "firb_outcome": null,
+   "notes": "NEXTDC's FY26 annual report lists four substantial holders from ASX lodgements up to 20 August 2026: State Street Corporation 79,701,811 shares (10.48%), AustralianSuper Pty Ltd 54,446,234 (8.49%), BlackRock Group 40,226,111 (6.27%) and Vanguard Group 38,639,037 (6.02%). Each percentage is of the shares on issue when that holder last lodged, so they do not share one base. Only AustralianSuper is recorded as a row: the others are not yet entities here.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "confidence": "high",
+   "as_of_date": "2026-08-20"
+  },
+  {
+   "id": 14,
+   "holder_id": "ENT_LA_CAISSE",
+   "target_id": "ENT_NEXTDC",
+   "stake_pct": null,
+   "instrument": "debt",
+   "effective_from": null,
+   "effective_to": null,
+   "transaction_value_aud": null,
+   "event": "binding commitment to subordinated hybrid securities",
+   "firb_reviewed": 0,
+   "firb_outcome": null,
+   "notes": "A$1.0bn binding commitment announced 6 April 2026; NEXTDC described A$1.7bn of binding commitments from La Caisse on 8 May 2026. The hybrids rank below all NEXTDC's other debt, are classified as debt and carry no equity conversion. La Caisse's final allocation 'may be less than its commitment' and is not stated in any record read, so no amount is recorded.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NXT_HYBRID_LA_CAISSE",
+   "confidence": "high",
+   "as_of_date": "2026-05-08"
   }
  ],
  "power_profile": [
@@ -16083,15 +16308,15 @@
    "target_source": "Annual and quarterly reports; ASIC company registers; fund investment disclosures; AFR/Investor intelligence",
    "retrieval_method": "manual_review",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22 (research batch 2). Read from the funds' own files at 30 June 2026, one option each: Cbus Growth (MySuper) holds NEXTDC shares worth A$344.5m and NEXTDC notes worth A$18.6m, and lists STACK Infrastructure Australia (Palmers Road) Pty Ltd among its private-debt borrowers; HESTA Balanced Growth holds NEXTDC shares worth A$73.5m; Hostplus Balanced holds NEXTDC shares worth A$109.1m. All three put billions with IFM Investors, whose real estate trustee holds the Mamre Road land (RG-005). NEXTDC's FY26 annual report names AustralianSuper Pty Ltd a substantial holder with 8.49%. The Future Fund's December 2025 report holds NEXTDC shares (A$85.4m across two lines) and CDC at '29%'. REFUSED, never worked around: australiansuper.com (robots.txt refused, read as disallow-all), csc.gov.au (HTTP 403), unisuper.com.au and australianretirementtrust.com.au (bot-check pages), Aware Super (robots.txt disallows its files) and futurefund.gov.au (data/raw/superannuation/*/refused.json). Those files are in docs/requests/DOWNLOADS.md for a person to download. Not yet looked for: debt facilities and platform stakes beyond what the files show.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": null
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 5,
@@ -16105,7 +16330,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. The title search filed with the Mamre Road EIS (16 December 2025) shows Lot 10 DP 1280592 at Kemps Creek registered to ISPT Pty Limited, and ASIC's register shows ISPT Pty Ltd (ACN 064 041 283) has been named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025, which reconciles the 'ISPT' and 'IFM' accounts for that lot. The search carries a caveat by KNBDC SYD4 Pty Ltd (now AirTrunk SYD4). Still open: whether Lot 10 is the whole 706-752 Mamre Road site, the fund vehicle, the sale price and the conditions precedent.",
+   "notes": "ADVANCED 2026-10-22. The title search filed with the Mamre Road EIS (16 December 2025) shows Lot 10 DP 1280592 at Kemps Creek registered to ISPT Pty Limited, and ASIC's register shows ISPT Pty Ltd (ACN 064 041 283) has been named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025, which reconciles the 'ISPT' and 'IFM' accounts for that lot. The search carries a caveat by KNBDC SYD4 Pty Ltd (now AirTrunk SYD4). The EIS describes the whole site, 706-752 Mamre Road, as Lot 10 DP 1280592 of about 52.2 ha, so Lot 10 is the site; it plans road connections to the neighbouring GPT, Gibb Group and Frasers estates. Still open: the fund vehicle, the sale price and the conditions precedent. The NSW Valuer General's free sales data would give a price; its site refused the research crawler (docs/requests/DOWNLOADS.md).",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
@@ -16263,15 +16488,15 @@
    "target_source": "NEXTDC ASX announcements and investor presentations; OpenAI statements",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22 (research batch 2). The only primary statement read is NEXTDC's own ASX release of 5 December 2025: a Memorandum of Understanding with OpenAI under OpenAI for Countries, to collaborate on planning, development and operation of an AI campus at S7, first phase expected in the second half of 2027 subject to approvals. It states no offtake term, capacity, price, funding or stake. A week later, on 12 December 2025, NEXTDC lodged a 'Response to ASX Compliance Letter'; it sits behind ASX's terms of use and has not been read. No NEXTDC report since mentions OpenAI: the 1H26 results announcement, presentation and accounts, the April and May 2026 funding releases, the FY26 results announcement, presentation and annual report, and the S7 page as archived on 2026-10-22. The FY26 presentation lists S7's initial capacity as 'TBD' and says NEXTDC is evaluating third-party capital through a joint venture company for S4, S7 and M5; the annual report lists NEXTDC S7 Holdings Pty Ltd and related S7 entities, 100% owned at 30 June 2026. openai.com refused the research crawler. HUMAN DECISION: SITE_NEXTDC_S7 records OpenAI as anchor tenant on news reports; NEXTDC's own record calls OpenAI an infrastructure partner under a memorandum and has not named it since.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": null
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 15,
@@ -17595,15 +17820,15 @@
    "target_source": "futurefund.gov.au periodic investment report CSVs (June 2025 and the six December-2025 fund reports); CSC annual reports; state fund disclosures",
    "retrieval_method": "dataset_download",
    "priority": 3,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-21",
    "resolved_date": null,
-   "notes": "Archive every CSV pulled under data/raw/futurefund/ with SHA-256 manifests, as done for the December-2025 Future Fund PIR.",
+   "notes": "Archive every CSV pulled under data/raw/futurefund/ with SHA-256 manifests, as done for the December-2025 Future Fund PIR. ADVANCED 2026-10-22: the archived December 2025 report also holds NVIDIA (7,534,692 shares, A$2.107bn, 0.78% of the fund) and lists CDC at '29%', where CDC's own release gives the Future Fund 34.55%. BLOCKED: futurefund.gov.au now refuses the research crawler (its robots.txt is refused, so read as disallow-all), including the December 2025 file it served on 2026-09-21. The June 2025 report and the other funds' reports are in docs/requests/DOWNLOADS.md for a person to download.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_FF_PIR_DEC25",
    "confidence": "high",
-   "as_of_date": "2026-09-21"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 95,
@@ -25067,6 +25292,202 @@
    "entity_rowid": "5",
    "source_id": "SRC_ASIC_COMPANIES_202610",
    "quote": "ISPT PTY LTD,064041283,APTY,LMSH,PROP,REGD,03/06/1994,,,,,,28064041283,IFM REAL ESTATE FIDUCIARY PTY LTD,24/11/2025"
+  },
+  {
+   "id": 558,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_LA_CAISSE",
+   "source_id": "SRC_NXT_HYBRID_LA_CAISSE",
+   "quote": "The Hybrid Securities Offer is supported by a A$1.0 billion binding commitment from La Caisse, a global investment group based in Qu\u00e9bec, Canada"
+  },
+  {
+   "id": 559,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_LA_CAISSE",
+   "source_id": "SRC_NXT_LIQUIDITY_MAY26",
+   "quote": "expanded its hybrid securities program, supported by A$1.7 billion in binding commitments from La Caisse"
+  },
+  {
+   "id": 560,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_AUSTRALIANSUPER",
+   "source_id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "quote": "p165: State Street Corporation 79,701,811 10.48 % AustralianSuper Pty Ltd 54,446,234 8.49 % BlackRock Group 40,226,111 6.27 % Vanguard Group 38,639,037 6.02 %"
+  },
+  {
+   "id": 561,
+   "entity_table": "ownership",
+   "entity_rowid": "13",
+   "source_id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "quote": "p165: Substantial holders in the Company based on ASX lodgements up until 20 August 2026 | p165: State Street Corporation 79,701,811 10.48 % AustralianSuper Pty Ltd 54,446,234 8.49 % BlackRock Group 40,226,111 6.27 % Vanguard Group 38,639,037 6.02 %"
+  },
+  {
+   "id": 562,
+   "entity_table": "ownership",
+   "entity_rowid": "14",
+   "source_id": "SRC_NXT_HYBRID_LA_CAISSE",
+   "quote": "The Hybrid Securities Offer is supported by a A$1.0 billion binding commitment from La Caisse, a global investment group based in Qu\u00e9bec, Canada | There are no equity conversion features associated with the Hybrid Securities."
+  },
+  {
+   "id": 563,
+   "entity_table": "ownership",
+   "entity_rowid": "14",
+   "source_id": "SRC_NXT_LIQUIDITY_MAY26",
+   "quote": "expanded its hybrid securities program, supported by A$1.7 billion in binding commitments from La Caisse"
+  },
+  {
+   "id": 564,
+   "entity_table": "ownership",
+   "entity_rowid": "6",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "quote": "Unlisted Infrastructure,Internally,,,CDC,,,,29%,,,,"
+  },
+  {
+   "id": 565,
+   "entity_table": "metrics",
+   "entity_rowid": "343",
+   "source_id": "SRC_CBUS_PHD_202606",
+   "quote": "Portfolio Holdings Information for Investment Option: Growth Accumulation Option - Assets - 30 June 2026,,,,,,,,,,,,, | Listed equities,04,NEXTDC LTD,,,,,B5LMKP4,,,, 23629033.32,344511305.86,0.4048 % | Growth (MySuper) | The information published below is for 30 June 2026."
+  },
+  {
+   "id": 566,
+   "entity_table": "metrics",
+   "entity_rowid": "344",
+   "source_id": "SRC_CBUS_PHD_202606",
+   "quote": "Portfolio Holdings Information for Investment Option: Growth Accumulation Option - Assets - 30 June 2026,,,,,,,,,,,,, | Fixed income internal,02,,,,NEXTDC LTD CALLABLE MEDIUM TERM NOTE VARIABLE,,,,,,, 18587879.90,0.0218 %"
+  },
+  {
+   "id": 567,
+   "entity_table": "metrics",
+   "entity_rowid": "345",
+   "source_id": "SRC_HESTA_PHD_202606",
+   "quote": "30/06/2026,Balanced Growth,Listed Equity,,NEXTDC Ltd,5042709.981097,73522711.524395,0.00092264,,,,AU000000NXT8"
+  },
+  {
+   "id": 568,
+   "entity_table": "metrics",
+   "entity_rowid": "346",
+   "source_id": "SRC_HOSTPLUS_PHD_202606",
+   "quote": "NEXTDC LTD,AU000000NXT8,\"7,485,373.95\",\"109,136,752\",0.11% | Investment holdings by investment option As at 30 June 2026"
+  },
+  {
+   "id": 569,
+   "entity_table": "metrics",
+   "entity_rowid": "347",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "quote": "Listed Equity,,,,NextDC Ltd.,,,B5LMKP4,,\"6,289,407\",\"78,806,270\",0.03%,"
+  },
+  {
+   "id": 570,
+   "entity_table": "metrics",
+   "entity_rowid": "348",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "quote": "Listed Property,,,,NextDC Ltd.,,,B5LMKP4,,\"529,664\",\"6,636,690\",0.00%,"
+  },
+  {
+   "id": 571,
+   "entity_table": "metrics",
+   "entity_rowid": "349",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "quote": "Unlisted Infrastructure,Internally,,,CDC,,,,29%,,,,"
+  },
+  {
+   "id": 572,
+   "entity_table": "metrics",
+   "entity_rowid": "350",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "quote": "Listed Equity,,,,NVIDIA Corp.,,,2379504,,\"7,534,692\",\"2,107,250,593\",0.78%,"
+  },
+  {
+   "id": 573,
+   "entity_table": "financial_flows",
+   "entity_rowid": "9",
+   "source_id": "SRC_NXT_OPENAI_MOU_2025",
+   "quote": "confirms that it has agreed a Memorandum of Understanding (\u201cMoU\u201d) with OpenAI, enabling Australia to become a regional infrastructure partner under the Open AI for Countries program. | Through the MoU, OpenAI and NEXTDC will collaborate on the planning, development and operation of a next-generation hyperscale AI campus and large-scale GPU supercluster at NEXTDC\u2019s S7 site in Eastern Creek, Sydney."
+  },
+  {
+   "id": 574,
+   "entity_table": "research_gaps",
+   "entity_rowid": "4",
+   "source_id": "SRC_CBUS_PHD_202606",
+   "quote": "Listed equities,04,NEXTDC LTD,,,,,B5LMKP4,,,, 23629033.32,344511305.86,0.4048 %"
+  },
+  {
+   "id": 575,
+   "entity_table": "research_gaps",
+   "entity_rowid": "4",
+   "source_id": "SRC_HESTA_PHD_202606",
+   "quote": "30/06/2026,Balanced Growth,Listed Equity,,NEXTDC Ltd,5042709.981097,73522711.524395,0.00092264,,,,AU000000NXT8"
+  },
+  {
+   "id": 576,
+   "entity_table": "research_gaps",
+   "entity_rowid": "4",
+   "source_id": "SRC_HOSTPLUS_PHD_202606",
+   "quote": "NEXTDC LTD,AU000000NXT8,\"7,485,373.95\",\"109,136,752\",0.11%"
+  },
+  {
+   "id": 577,
+   "entity_table": "research_gaps",
+   "entity_rowid": "4",
+   "source_id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "quote": "p165: State Street Corporation 79,701,811 10.48 % AustralianSuper Pty Ltd 54,446,234 8.49 % BlackRock Group 40,226,111 6.27 % Vanguard Group 38,639,037 6.02 %"
+  },
+  {
+   "id": 578,
+   "entity_table": "research_gaps",
+   "entity_rowid": "94",
+   "source_id": "SRC_FF_PIR_DEC25",
+   "quote": "Listed Equity,,,,NVIDIA Corp.,,,2379504,,\"7,534,692\",\"2,107,250,593\",0.78%, | Unlisted Infrastructure,Internally,,,CDC,,,,29%,,,,"
+  },
+  {
+   "id": 579,
+   "entity_table": "research_gaps",
+   "entity_rowid": "5",
+   "source_id": "SRC_SSD92743706_EIS",
+   "quote": "p19: The site is legally described as Lot 10 Deposited Plan (DP) 1280592 and is located at 706 -752 Mamre Road, Kemps Creek | p34: comprises a total area of approximately 522,477m\u00b2 (52.2ha) | p184: internal roads connecting to adjacent developments (Yiribana Logistics Estate, Gibb Group, and Frasers Pr operty Industrial sites)"
+  },
+  {
+   "id": 580,
+   "entity_table": "research_gaps",
+   "entity_rowid": "14",
+   "source_id": "SRC_NXT_OPENAI_MOU_2025",
+   "quote": "confirms that it has agreed a Memorandum of Understanding (\u201cMoU\u201d) with OpenAI, enabling Australia to become a regional infrastructure partner under the Open AI for Countries program. | Subject to securing necessary approvals, the first phase of the S7 project is expected to be delivered in the second half of calendar 2027."
+  },
+  {
+   "id": 581,
+   "entity_table": "research_gaps",
+   "entity_rowid": "14",
+   "source_id": "SRC_NXT_FY26_PRESENTATION",
+   "quote": "p32: S7 SYDNEY Total power planned ~550MW+1 Initial capacity TBD Status Design & Town Planning | p6: The Company continues its evaluation of partnering with third party capital through a JVCo structure for S4, S7 and M5"
+  },
+  {
+   "id": 582,
+   "entity_table": "research_gaps",
+   "entity_rowid": "14",
+   "source_id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "quote": "p39: the Group continues to evaluate capital partnership structures across its development portfolio, including S4 and S7 | p155: NEXTDC S7 Holdings Pty Ltd Body corporate - 100 % Australia"
+  },
+  {
+   "id": 583,
+   "entity_table": "research_gaps",
+   "entity_rowid": "14",
+   "source_id": "SRC_NXT_1H26_PRESENTATION",
+   "quote": "p6: S7 granted fast track status under the NSW Government\u2019s Investment Delivery Authority (IDA) program | p6: Barrenjoey has been appointed as Lead Financial Adviser to support these programs"
+  },
+  {
+   "id": 584,
+   "entity_table": "research_gaps",
+   "entity_rowid": "14",
+   "source_id": "SRC_ASX_NXT_ANNOUNCEMENTS_2025",
+   "quote": "12/12/2025 3:57 pm Response to ASX Compliance Letter"
+  },
+  {
+   "id": 585,
+   "entity_table": "research_gaps",
+   "entity_rowid": "14",
+   "source_id": "SRC_NEXTDC_S7",
+   "quote": "Planned for Eastern Creek, S7 Sydney is a future 550MW+ hyperscale data centre"
   }
  ],
  "sources": [
@@ -25495,9 +25916,9 @@
    "url": "https://www.nextdc.com/data-centres/sydney-data-centres/s7-sydney",
    "doc_type": "primary_company",
    "published": "2026",
-   "accessed": "2026-09-18",
+   "accessed": "2026-10-22",
    "credibility": "A",
-   "notes": "Planned for Eastern Creek; described by the proponent as a 550 MW+ hyperscale facility."
+   "notes": "Planned for Eastern Creek; described by the proponent as a 550 MW+ hyperscale facility. ARCHIVED 2026-10-22 at data/raw/operators/nextdc/s7-sydney with a SHA-256 manifest; the page as archived does not mention OpenAI."
   },
   {
    "id": "SRC_GUARDIAN_MELB",
@@ -27830,6 +28251,116 @@
    "accessed": "2026-10-21",
    "credibility": "A",
    "notes": "Searched 16 December 2025. First Schedule (registered proprietor): ISPT Pty Limited. Second Schedule item 3: caveat AV293179 by KNBDC SYD4 Pty Ltd, marked as not on the current edition of the certificate of title. Covers Lot 10 only. Archived by scrapers/fetch_ownership_documents.py at data/raw/nsw_planning/ownership/."
+  },
+  {
+   "id": "SRC_CBUS_PHD_202606",
+   "title": "Cbus portfolio holdings disclosure, Growth (MySuper) option, 30 June 2026",
+   "publisher": "Cbus Super",
+   "url": "https://www.cbussuper.com.au/content/dam/cbus/files/governance/investment-holdings/super-growth.csv",
+   "doc_type": "primary_company",
+   "published": "2026-06-30",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Every asset the option held at 30 June 2026, as the fund publishes it twice a year. ARCHIVED 2026-10-22 at data/raw/superannuation/ with SHA-256 manifests: the file (sha256 8eb7c39b2e4e, 195,116 bytes) and the page that links it (https://www.cbussuper.com.au/super/my-investment-options/cbus-investment-holdings, sha256 14df7ba161f7), which gives the date. One option only: the fund's other options hold their own amounts, which are not added here."
+  },
+  {
+   "id": "SRC_HESTA_PHD_202606",
+   "title": "HESTA portfolio holdings disclosure, Balanced Growth option, 30 June 2026",
+   "publisher": "HESTA",
+   "url": "https://www.hesta.com.au/content/dam/hesta/phd-all-files/accum-june-2026/balanced-growth/Balanced-Growth-super-assets.csv",
+   "doc_type": "primary_company",
+   "published": "2026-06-30",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Every asset the option held at 30 June 2026, as the fund publishes it twice a year. ARCHIVED 2026-10-22 at data/raw/superannuation/ with SHA-256 manifests: the file (sha256 8edd9c782591, 356,743 bytes) and the page that links it (https://www.hesta.com.au/members/investments/portfolio-holdings, sha256 43232aa352c1), which gives the date. One option only: the fund's other options hold their own amounts, which are not added here."
+  },
+  {
+   "id": "SRC_HOSTPLUS_PHD_202606",
+   "title": "Hostplus portfolio holdings disclosure, Balanced option, 30 June 2026",
+   "publisher": "Hostplus",
+   "url": "https://hostplus.com.au/content/dam/hostplus-program/site/resources/investments/investment-holdings/accumulation-investment-holdings/Balanced.csv",
+   "doc_type": "primary_company",
+   "published": "2026-06-30",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Every asset the option held at 30 June 2026, as the fund publishes it twice a year. ARCHIVED 2026-10-22 at data/raw/superannuation/ with SHA-256 manifests: the file (sha256 c7100be75aea, 214,892 bytes) and the page that links it (https://hostplus.com.au/members/our-products-and-services/investment-options/investment-holdings-by-investment-option, sha256 721ad58cc995), which gives the date. One option only: the fund's other options hold their own amounts, which are not added here."
+  },
+  {
+   "id": "SRC_NXT_OPENAI_MOU_2025",
+   "title": "NEXTDC to Join OpenAI in Australia as an Infrastructure Partner (ASX announcement, 5 December 2025)",
+   "publisher": "NEXTDC Limited",
+   "url": "https://www.nextdc.com/news/building-the-next-generation-of-sovereign-ai-infrastructure-in-australia",
+   "doc_type": "primary_company",
+   "published": "2025-12-05",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "NEXTDC's own copy of its 1:28 pm ASX announcement of 5 December 2025 (the ASX lists it as 'NEXTDC joins OpenAI for Australia as Infrastructure Partner'). It confirms a Memorandum of Understanding with OpenAI under the OpenAI for Countries program, to collaborate on planning, development and operation of an AI campus at S7, first phase expected in the second half of 2027 subject to approvals. It states no price, contract term, capacity commitment or stake. ARCHIVED 2026-10-22 at data/raw/operators/nextdc/ with a SHA-256 manifest."
+  },
+  {
+   "id": "SRC_NXT_FY26_ANNUAL_REPORT",
+   "title": "NEXTDC FY26 Annual Report and Appendix 4E",
+   "publisher": "NEXTDC Limited",
+   "url": "https://www.nextdc.com/hubfs/Financial%20Reports/FY26/FY26%20Annual%20Report%20%26%20Appendix%204E.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-08-27",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Lodged with the ASX on 27 August 2026. Shareholder information lists the substantial holders based on ASX lodgements up to 20 August 2026; the list of subsidiaries at 30 June 2026 includes NEXTDC S7 Holdings Pty Ltd, S7 Holdings MidCo and two S7 trusts, all 100% owned. The report does not mention OpenAI. ARCHIVED 2026-10-22 (PDF not committed; text and manifest are)."
+  },
+  {
+   "id": "SRC_NXT_FY26_PRESENTATION",
+   "title": "NEXTDC FY26 Results Presentation",
+   "publisher": "NEXTDC Limited",
+   "url": "https://www.nextdc.com/hubfs/Financial%20Reports/FY26/NEXTDC%20FY26%20Results%20Presentation.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-08-27",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "S7 Sydney: total power planned about 550 MW, initial capacity 'TBD', status design and town planning; NEXTDC continues to evaluate third-party capital through a joint venture company for S4, S7 and M5. Does not mention OpenAI. ARCHIVED 2026-10-22 (PDF not committed)."
+  },
+  {
+   "id": "SRC_NXT_1H26_PRESENTATION",
+   "title": "NEXTDC 1H26 Results Presentation",
+   "publisher": "NEXTDC Limited",
+   "url": "https://www.nextdc.com/hubfs/ASX%20Announcements/1H26%20Results%20Presentation.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-02-25",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Half year to 31 December 2025, the half in which the OpenAI memorandum was announced. Says S7 was granted fast-track status under the NSW Investment Delivery Authority, and that Barrenjoey was appointed lead financial adviser for the joint venture funding of S4 and S7. Does not mention OpenAI. ARCHIVED 2026-10-22 (PDF not committed)."
+  },
+  {
+   "id": "SRC_NXT_HYBRID_LA_CAISSE",
+   "title": "A$1.0 billion Hybrid Securities Offer and La Caisse Commitment",
+   "publisher": "NEXTDC Limited",
+   "url": "https://www.nextdc.com/news/a1.0-billion-hybrid-securities-offer-and-la-caisse-commitment",
+   "doc_type": "primary_company",
+   "published": "2026-04-06",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Subordinated 100-year hybrid securities, classified as debt, with no equity conversion; a A$1.0bn binding commitment from La Caisse, 'a global investment group based in Qu\u00e9bec, Canada'. ARCHIVED 2026-10-22 at data/raw/operators/nextdc/."
+  },
+  {
+   "id": "SRC_NXT_LIQUIDITY_MAY26",
+   "title": "NEXTDC bolsters liquidity to A$8.4 billion to accelerate AI infrastructure rollout",
+   "publisher": "NEXTDC Limited",
+   "url": "https://www.nextdc.com/news/nextdc-bolsters-liquidity-to-a8.4-billion-to-accelerate-ai-infrastructure-rollout",
+   "doc_type": "primary_company",
+   "published": "2026-05-08",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "A$1.8bn of new senior debt from domestic and international banks; a A$1.5bn entitlement offer; hybrid securities supported by A$1.7bn of binding commitments from La Caisse; A$750m of subordinated wholesale notes. ARCHIVED 2026-10-22 at data/raw/operators/nextdc/."
+  },
+  {
+   "id": "SRC_ASX_NXT_ANNOUNCEMENTS_2025",
+   "title": "ASX company announcements, NEXTDC Limited (NXT), released in 2025",
+   "publisher": "ASX",
+   "url": "https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=NXT&timeframe=Y&year=2025",
+   "doc_type": "primary_regulator",
+   "published": "2025-12-31",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The exchange's own list of NEXTDC's 2025 announcements, with dates, times and headlines. Lists 'Response to ASX Compliance Letter' at 3:57 pm on 12 December 2025, a week after the OpenAI announcement. The documents themselves sit behind ASX's terms of use, which limit free use to private investors, so none was opened; a person must read the compliance letter response (docs/requests/DOWNLOADS.md). The list page ARCHIVED 2026-10-22 at data/raw/asx/nxt/."
   }
  ],
  "water_profile": [
@@ -29468,13 +29999,28 @@
    "entity_type": "colocation_operator",
    "domicile": "Australia",
    "hq_country": "AU",
-   "holder_id": null,
-   "holder": null,
-   "holder_domicile": null,
-   "stake_pct": null,
-   "instrument": null,
+   "holder_id": "ENT_AUSTRALIANSUPER",
+   "holder": "AustralianSuper",
+   "holder_domicile": "Australia",
+   "stake_pct": 8.49,
+   "instrument": "equity",
    "effective_from": null,
-   "firb_reviewed": null,
+   "firb_reviewed": 0,
+   "firb_outcome": null
+  },
+  {
+   "id": "ENT_NEXTDC",
+   "name": "NEXTDC",
+   "entity_type": "colocation_operator",
+   "domicile": "Australia",
+   "hq_country": "AU",
+   "holder_id": "ENT_LA_CAISSE",
+   "holder": "La Caisse",
+   "holder_domicile": "Canada",
+   "stake_pct": null,
+   "instrument": "debt",
+   "effective_from": null,
+   "firb_reviewed": 0,
    "firb_outcome": null
   },
   {
@@ -36390,7 +36936,7 @@
    "tbl": "metrics",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 271
+   "n": 279
   },
   {
    "tbl": "metrics",
