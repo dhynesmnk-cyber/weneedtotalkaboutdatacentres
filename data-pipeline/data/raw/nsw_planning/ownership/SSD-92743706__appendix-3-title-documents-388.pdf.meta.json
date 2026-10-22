@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-92743706%2120260119T005619.807+GMT",
+ "case": "SSD-92743706",
+ "project_slug": "mamre-road-data-centre-campus",
+ "attachment_slug": "appendix-3-title-documents-388",
+ "label": "Appendix 3 - Title Documents.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-21T23:55:10+00:00",
+ "sha256": "1302e146ec924e5f9f36a453c93fb68ec0b6b8f9a6880830a6f471f7c261b0ae",
+ "bytes": 1301216,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 2099,
+ "pages": 4,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

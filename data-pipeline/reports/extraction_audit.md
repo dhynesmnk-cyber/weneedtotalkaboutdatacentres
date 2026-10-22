@@ -1,12 +1,12 @@
 # Extraction yield audit
 
-Generated from 43 archived PDFs. Reliability floor: **20 chars/KB**.
+Generated from 46 archived PDFs. Reliability floor: **20 chars/KB**.
 
 Any document below the floor **cannot support a negative finding**. A keyword that does not appear
 in its extracted text may simply not have been extracted. Re-read such documents through a full PDF
 renderer before concluding that a term, condition or commitment is absent.
 
-**9 of 43 documents are below the floor.**
+**12 of 46 documents are below the floor.**
 
 | chars/KB | chars | status | extractor | document | likely cause |
 |---|---|---|---|---|---|
@@ -16,6 +16,9 @@ renderer before concluding that a term, condition or commitment is absent.
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-05-29.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-07-02.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_political_donation.pdf` | image-only scan, or no extractable content stream |
+| 0.9 | 3,009 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-67407231__appendix-05-survey-plan-title-documents-60.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 1.7 | 2,099 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-92743706__appendix-3-title-documents-388.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 4.5 | 2,360 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-59416728__appendix-3-title-documents-310.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 8.2 | 10,951 | **LOW** | pdf_text | `data/raw/nsw_planning/nsw_data_centre_guidelines_2026.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 9.1 | 24,571 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230704_968_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 14.7 | 121,083 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230606_921_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |

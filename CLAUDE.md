@@ -73,6 +73,7 @@ docs/DEPLOYMENT.md  release, infrastructure, backups
 docs/SUPABASE_SETUP.md  creating and linking the Supabase project
 docs/QUALITY.md     data and content quality assurance
 docs/RESEARCH-PLAN.md  research questions to story cards: order, method, status
+docs/requests/README.md  FOI/GIPA drafts and paid searches for the author to lodge
 
 ## Definition of done
 A change is done when migrations are applied, types are updated, tests pass,

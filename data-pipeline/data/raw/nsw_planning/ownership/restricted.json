@@ -1,0 +1,80 @@
+{
+ "appendix-g-owners-consent-35": {
+  "case": "SSD-82052708",
+  "checked_utc": "2026-10-21T23:56:18+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "project-mars-data-centre"
+ },
+ "asics-certificate-amazon-corporate-services-pty-ltd-62": {
+  "case": "SSD-59416728",
+  "checked_utc": "2026-10-21T23:55:37+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "davis-road-data-centre-cundall"
+ },
+ "gibb-group-owners-consent-mamre-road": {
+  "case": "SSD-92743706",
+  "checked_utc": "2026-10-21T23:55:21+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "mamre-road-data-centre-campus"
+ },
+ "gpt-owners-consent-mamre-road": {
+  "case": "SSD-92743706",
+  "checked_utc": "2026-10-21T23:55:17+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "mamre-road-data-centre-campus"
+ },
+ "ifm-owners-consent-mamre-road": {
+  "case": "SSD-92743706",
+  "checked_utc": "2026-10-21T23:55:13+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "mamre-road-data-centre-campus"
+ },
+ "land-owners-consent-letter-226": {
+  "case": "SSD-59416728",
+  "checked_utc": "2026-10-21T23:55:33+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "davis-road-data-centre-cundall"
+ },
+ "landowner-consents-60": {
+  "case": "SSD-67407231",
+  "checked_utc": "2026-10-21T23:55:40+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "apollo-place-data-centre"
+ },
+ "landowners-consent-4148": {
+  "case": "SSD-71368959",
+  "checked_utc": "2026-10-21T23:56:11+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "project-duke-data-centre"
+ },
+ "landowners-consentpoa-62": {
+  "case": "SSD-71368959",
+  "checked_utc": "2026-10-21T23:56:15+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "project-duke-data-centre"
+ },
+ "owners-consent-6713": {
+  "case": "SSD-73761707",
+  "checked_utc": "2026-10-21T23:54:58+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "glendenning-road-data-centre"
+ },
+ "ssd-41589232-letter-landowner-psims-53": {
+  "case": "SSD-41589232",
+  "checked_utc": "2026-10-21T23:56:00+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "51-huntingwood-drive-data-centre"
+ },
+ "xlandowners-consent-175": {
+  "case": "SSD-21342738",
+  "checked_utc": "2026-10-21T23:56:08+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "eastern-creek-data-centre-expansion-project"
+ },
+ "xlandowners-consent-188": {
+  "case": "SSD-64287712",
+  "checked_utc": "2026-10-21T23:56:04+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "dci-poplars-data-centre-project-0"
+ }
+}
