@@ -3869,15 +3869,15 @@
    "name": "Zerra DC",
    "legal_name": "Zerra DC Operator (Australia) Pty Ltd and related entities",
    "entity_type": "developer",
-   "domicile": "Unknown; the Australian group is registered in NSW 2000 (Sydney CBD). Secondary reporting describes the developer as Singapore-based and owned by investment firm AGP; neither appears in the lodged application or on the ABR.",
+   "domicile": "Unknown; the Australian group is registered in NSW 2000 (Sydney CBD). ASIC's register shows two of its companies once carried AGP names; where AGP is based is not established from a primary record.",
    "hq_country": null,
    "asx_ticker": null,
    "website": null,
-   "notes": "Australian corporate stack resolved from the ABR on 18 September 2026, all NSW 2000: Zerra WDDP Manager Australia Pty Ltd (5 Feb 2025, no GST); Zerra Investments Australia Pty Ltd (17 Apr 2025, GST 16 Jul 2025); Zerra DC Operator (Australia) Pty Ltd (25 Nov 2025, GST 1 May 2026, business name 'Zerra DC' on the same ABN); Zerra Operator FinCo Pty Ltd (5 Aug 2026, GST same day); Zerra WDDP Asset Manager Pty Ltd (10 Aug 2026, no GST); Zerra WDDP Investments AU Pty Ltd (10 Aug 2026, no GST). The FinCo and the two project SPVs were incorporated within nine days of each other in August 2026, immediately before the application was dated and lodged. 'Zerra' and 'AGP' appear nowhere in the lodged Town Planning Report, whose named instructing party is WDDP Pty Ltd. Ownership by AGP and the 'Singapore-based' characterisation rest on trade press only and remain unverified - research gap RG-050.",
+   "notes": "Australian corporate stack, all NSW 2000 (ABR, 18 September 2026; ASIC, October 2026): Zerra WDDP Manager Australia Pty Ltd (ACN 684 250 584, registered 5 February 2025; former names AGP DC Manager Australia Pty Ltd and Zerra DC Manager Australia Pty Ltd; current name from 13 August 2026, the day before the Western Downs report's date); Zerra Investments Australia Pty Ltd (ACN 686 366 254, registered 17 April 2025; former name AGPDC Investments Australia Pty Ltd; current name from 20 January 2026); Zerra DC Operator (Australia) Pty Ltd (25 November 2025, business name 'Zerra DC'); Zerra Operator FinCo Pty Ltd (5 August 2026); and Zerra WDDP Asset Manager, Zerra WDDP Investments AU and Zerra WDDP Holdco Pty Ltd (all 10 August 2026). 'Zerra' and 'AGP' appear nowhere in the lodged Town Planning Report, whose named instructing party is WDDP Pty Ltd. The 'Singapore-based' description rests on trade press only (RG-050).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_ZERRA",
    "confidence": "medium",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_TELSTRA",
@@ -4647,7 +4647,7 @@
   {
    "id": "ENT_MSFT_DC_AU",
    "name": "Microsoft Datacentre (Australia) Pty Ltd",
-   "legal_name": "Microsoft Datacentre (Australia) Pty Ltd",
+   "legal_name": "MICROSOFT DATACENTER (AUSTRALIA) PTY LIMITED",
    "entity_type": "developer",
    "domicile": "United States",
    "hq_country": "US",
@@ -4683,11 +4683,11 @@
    "hq_country": null,
    "asx_ticker": null,
    "website": null,
-   "notes": "The proponent structure behind the Mamre Road Data Centre Campus. Incorporated in a tight cluster between 3 April and 19 June 2025, all registered in NSW 2060 (North Sydney). Structure is a textbook project-finance stack: an AU Financing Holdco, an AU Development company, then per project a Land Trust, a Hold Trust, an Intermediate Hold Trust and a FinCo - replicated for SYD4 (Mamre Road), MEL3 and a Melbourne expansion. The SYD4 trustee company is NBDC PTY LTD (ACN 606 821 452), incorporated 1 July 2015, which predates the 2025 stack and is therefore a reused or acquired shelf trustee. A web search for 'KNBDC' returns no results at all: the sponsor is not publicly identified anywhere. ABR publishes no shareholding, so beneficial ownership requires a paid ASIC company extract (research gap RG-036). The 'SYD4' naming matches the site code reportedly used by AirTrunk for this campus and North Sydney is consistent with a Sydney-based hyperscale platform, but that inference is NOT verified and is recorded as such.",
+   "notes": "The proponent structure behind the Mamre Road Data Centre Campus, which the NSW Investment Delivery Authority's Round 1 list (27 March 2026) names as KNBDC SYD4 Pty Ltd. ASIC's register shows KNBDC SYD4 Pty Ltd (ACN 687 904 963, registered 10 June 2025) has been named AirTrunk SYD4 Pty Ltd since 16 June 2026, and its Hold, Intermediate Hold, FinCo and Financing Holdco companies took AirTrunk SYD4 names the same week. The KNBDC MEL1 and MEL3 companies, three of the five Melbourne expansion companies and KNBDC Australia Pty Ltd now carry AirTrunk names too. KNBDC AU Development Pty Ltd (ACN 687 116 098), KNBDC AU Financing Holdco Pty Ltd (ACN 685 936 074) and two Melbourne expansion finance companies keep their KNBDC names. The SYD4 trustee company is NBDC Pty Ltd (ACN 606 821 452, registered 1 July 2015). The Mamre Road title search (16 December 2025) carries a caveat by KNBDC SYD4 Pty Ltd over land registered to ISPT Pty Limited. The register gives names and dates, not owners: who owns these companies needs a paid ASIC extract (RG-036). CORRECTED 2026-10-22: earlier notes called the AirTrunk link an unverified inference from the site code; the register now records the AirTrunk name against the same company.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_KNBDC",
-   "confidence": "medium",
-   "as_of_date": "2026-09-18"
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_STACK_AU",
@@ -5103,11 +5103,11 @@
    "hq_country": null,
    "asx_ticker": null,
    "website": null,
-   "notes": "The instructing party and proponent named on the Western Downs Digital Park Town Planning Report (Urbis, 14 August 2026, Report V4). Not returned as an exact match in an ABR name search for 'WDDP PTY', which instead returns the ZERRA WDDP entities: Zerra WDDP Manager Australia Pty Ltd (active 5 February 2025), Zerra WDDP Asset Manager Pty Ltd and Zerra WDDP Investments AU Pty Ltd (both active 10 August 2026 - four days before the report date and eight or nine days before lodgement, and neither registered for GST). The bridge between WDDP Pty Ltd and the Zerra group is therefore the ABR naming convention plus the project acronym, not a statement in the application: the words 'Zerra' and 'AGP' appear NOWHERE in the lodged document. Beneficial ownership requires a paid ASIC extract - research gap RG-052.",
+   "notes": "The instructing party and proponent named on the Western Downs Digital Park Town Planning Report (Urbis, 14 August 2026, Report V4). ASIC's register lists WDDP Pty Ltd (ACN 700 788 058), registered 28 July 2026, 17 days before the report's date. The words 'Zerra' and 'AGP' appear nowhere in the lodged document; the Zerra WDDP companies share the project acronym (ENT_ZERRA). Who owns WDDP Pty Ltd needs a paid ASIC extract (RG-052). CORRECTED 2026-10-22: earlier notes said an ABR name search did not return WDDP Pty Ltd; ASIC's register does.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_WDDP_TPR",
    "confidence": "medium",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_URBIS",
@@ -5157,32 +5157,32 @@
   {
    "id": "ENT_EMKC",
    "name": "EMKC Cubed Management Pty Ltd",
-   "legal_name": null,
+   "legal_name": "CKTSME MANAGEMENT PTY LTD",
    "entity_type": "developer",
    "domicile": "Unknown - not resolvable from public registers",
    "hq_country": null,
    "asx_ticker": null,
    "website": null,
-   "notes": "Schedule 1 applicant for TWO consents: 51 Huntingwood Drive Data Centre (SSD-41589232, Blacktown, 632 MW installed back-up generation, 200 hours per year) and Apollo Place Data Centre (SSD-67407231, Lane Cove, 63.8 MW installed back-up against a 45 MW total power cap). A single undisclosed special purpose vehicle is therefore the consent holder for two facilities in the two corridors with the most concentrated data centre activity and community opposition in New South Wales. Neither consent names an operator or end user. Research gap RG-064.",
+   "notes": "Schedule 1 applicant for two consents: 51 Huntingwood Drive Data Centre (SSD-41589232, Blacktown, 632 MW installed back-up generation, 200 hours per year) and Apollo Place Data Centre (SSD-67407231, Lane Cove, 63.8 MW installed back-up against a 45 MW total power cap). In both, the Department's assessment report says the applicant was approached by a data centre operator it does not name. For Apollo Place, AirTrunk's own SYD2 page calls the project 'Phase 5 of AirTrunk's investment within the precinct' (RG-098). ASIC's register shows EMKC Cubed Management Pty Ltd (ACN 650 102 640, registered 11 May 2021) has been named CKTSME Management Pty Ltd since 3 June 2025, four months before the Apollo Place consent was determined in its former name; six EMKC Cubed companies took CKTSME names between 30 May and 3 June 2025. Research gaps RG-064 and RG-081.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_HDI_SYD1",
    "name": "HDI SYD1 Property Holdings Limited",
-   "legal_name": null,
+   "legal_name": "HDI SYD1 PROPERTY HOLDINGS PTY LIMITED",
    "entity_type": "developer",
    "domicile": "Unknown - not resolvable from public registers",
    "hq_country": null,
    "asx_ticker": null,
    "website": null,
-   "notes": "Schedule 1 applicant for the DigiCo SYD1 Data Centre Expansion (SSD-69637456, City of Sydney). A dedicated property holding company per site - a sixth distinct proponent structure type in this sample, after operating companies, consultancies, trust trustees, project SPVs and the KNBDC trust stack. 140.4 MW installed back-up generation, 2,000 tonne diesel cap, and one of only four consents carrying PUE, WUE and recycled or non-potable water provisions.",
+   "notes": "Schedule 1 applicant for the DigiCo SYD1 Data Centre Expansion (SSD-69637456, City of Sydney), which the Department's assessment report calls 'HDI SYD1 Property Holdings Limited (DigiCo)'. ASIC's register shows the four HDI SYD1 companies carried Global Switch names until 12 May 2025: HDI SYD1 Property Holdings Pty Limited (ACN 094 051 779, registered 7 August 2000) was Global Switch Property (Australia) Pty Limited. The consent's 'Limited' and the register's 'Pty Limited' differ. 140.4 MW installed back-up generation, 2,000 tonne diesel cap, and one of only four consents carrying PUE, WUE and recycled or non-potable water provisions. CORRECTED 2026-10-22: earlier notes called this a sixth, distinct proponent structure; the register shows it is the company once named Global Switch Property (Australia).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_ARUP",
@@ -5223,11 +5223,11 @@
    "hq_country": null,
    "asx_ticker": null,
    "website": null,
-   "notes": "Schedule 1 applicant for the DCI Poplars Data Centre Project (Queanbeyan-Palerang Regional). The 'Sub Trust I' formulation implies a trust series holding multiple sites in separate bankruptcy-remote vehicles. The 'NineZero' element suggests a net-zero branding position, which is worth testing against a consent that contains no renewable procurement condition at all. Research gap RG-059.",
+   "notes": "Schedule 1 applicant for the DCI Poplars Data Centre Project (Queanbeyan-Palerang Regional), which the Department's assessment report describes as 'The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers'. A trust is not on ASIC's register. The register holds NineZero DC Sub TC I Pty Ltd (ACN 607 631 845, registered 13 August 2015), which the portal names as proponent of the Eastern Creek Data Centre Expansion (SSD-21342738); no public document read says it is the trustee of Sub Trust I. The landowner's consent letters on both applications are restricted (RG-059).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": "ENT_BCA",
@@ -5723,6 +5723,21 @@
    "source_id": "SRC_NVIDIA_AU_2GW",
    "confidence": "medium",
    "as_of_date": "2026-09-09"
+  },
+  {
+   "id": "ENT_AMAZON_AU_CO",
+   "name": "Amazon Australia Company Pty Ltd",
+   "legal_name": "AMAZON AUSTRALIA COMPANY PTY LTD",
+   "entity_type": "other",
+   "domicile": "Unknown - not resolvable from public registers",
+   "hq_country": null,
+   "asx_ticker": null,
+   "website": null,
+   "notes": "Registered proprietor of Lot 1 DP 864615, 3 Davis Road, Wetherill Park, the site of the Davis Road Data Centre (SSD-59416728), in the title search the applicant filed (searched 12 October 2023; transfer AS707242; current edition dated 9 December 2022). ASIC registered the company (ACN 663 812 468) on 14 November 2022. Which Amazon business stands behind it is not stated in any public document read; the application's ASIC certificate for Amazon Corporate Services Pty Ltd is restricted (RG-057).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD59416728_TITLE",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   }
  ],
  "entity_aliases": [
@@ -6885,7 +6900,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -6894,7 +6909,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -6903,7 +6918,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -6912,7 +6927,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -6921,7 +6936,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -6930,7 +6945,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -6939,7 +6954,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -6948,7 +6963,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -6957,7 +6972,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -6966,7 +6981,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -6975,7 +6990,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -6984,7 +6999,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -6993,7 +7008,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7002,7 +7017,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7011,7 +7026,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:39Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7020,7 +7035,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7029,7 +7044,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7038,7 +7053,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7047,7 +7062,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7056,7 +7071,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-10-21T22:29:41Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7065,7 +7080,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7074,7 +7089,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7083,7 +7098,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7092,7 +7107,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7101,7 +7116,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7110,7 +7125,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7119,7 +7134,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7128,7 +7143,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7137,7 +7152,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7146,7 +7161,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7155,7 +7170,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7164,7 +7179,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7173,7 +7188,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7182,7 +7197,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7191,7 +7206,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7200,7 +7215,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7209,7 +7224,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7218,7 +7233,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7227,7 +7242,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7236,7 +7251,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7245,7 +7260,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7254,7 +7269,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7263,7 +7278,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7272,7 +7287,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7281,7 +7296,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7290,7 +7305,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7299,7 +7314,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7308,7 +7323,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7317,7 +7332,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7326,7 +7341,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7335,7 +7350,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7344,7 +7359,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7353,7 +7368,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7362,7 +7377,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7371,7 +7386,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7380,7 +7395,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7389,7 +7404,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7398,7 +7413,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7407,7 +7422,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7416,7 +7431,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7425,7 +7440,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7434,7 +7449,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7443,7 +7458,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7452,7 +7467,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7461,7 +7476,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7470,7 +7485,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7479,7 +7494,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7488,7 +7503,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7497,7 +7512,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7506,7 +7521,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7515,7 +7530,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7524,7 +7539,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7533,7 +7548,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7542,7 +7557,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7551,7 +7566,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7560,7 +7575,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7569,7 +7584,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7578,7 +7593,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7587,7 +7602,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7596,7 +7611,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7605,7 +7620,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7614,7 +7629,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7623,7 +7638,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7632,7 +7647,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7641,7 +7656,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7650,7 +7665,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7659,7 +7674,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7668,7 +7683,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7677,7 +7692,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7686,7 +7701,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7695,7 +7710,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -7704,7 +7719,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7713,7 +7728,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -7722,7 +7737,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7731,7 +7746,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -7740,7 +7755,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7749,7 +7764,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7758,7 +7773,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7767,7 +7782,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7776,7 +7791,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7785,7 +7800,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7794,7 +7809,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -7803,7 +7818,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7812,7 +7827,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7821,7 +7836,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7830,7 +7845,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7839,7 +7854,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7848,7 +7863,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7857,7 +7872,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7866,7 +7881,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7875,7 +7890,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -7884,7 +7899,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -7893,7 +7908,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -7902,7 +7917,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -7911,7 +7926,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7920,7 +7935,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7929,7 +7944,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7938,7 +7953,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7947,7 +7962,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7956,7 +7971,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7965,7 +7980,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7974,7 +7989,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7983,7 +7998,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7992,7 +8007,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "hcf-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8001,7 +8016,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "hcf-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8010,7 +8025,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "hcf-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8019,7 +8034,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8028,7 +8043,7 @@
   },
   {
    "id": 128,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8037,7 +8052,7 @@
   },
   {
    "id": 129,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8046,7 +8061,7 @@
   },
   {
    "id": 130,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "operator-sources-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8055,7 +8070,7 @@
   },
   {
    "id": 131,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "operator-sources-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8064,7 +8079,7 @@
   },
   {
    "id": 132,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:40Z",
    "pack": "operator-sources-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8073,7 +8088,7 @@
   },
   {
    "id": 133,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8082,7 +8097,7 @@
   },
   {
    "id": 134,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8091,7 +8106,7 @@
   },
   {
    "id": 135,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -8100,7 +8115,7 @@
   },
   {
    "id": 136,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8109,7 +8124,7 @@
   },
   {
    "id": 137,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8118,7 +8133,7 @@
   },
   {
    "id": 138,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "applications",
    "action": "insert",
@@ -8127,7 +8142,7 @@
   },
   {
    "id": 139,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8136,12 +8151,66 @@
   },
   {
    "id": 140,
-   "run_at": "2026-10-21T22:29:42Z",
+   "run_at": "2026-10-22T00:15:41Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sources\": 2, \"legal_instruments\": 1, \"entities\": 8, \"security_records\": 1, \"metrics\": 6, \"sites\": 3, \"applications\": 2, \"research_gaps\": 2}, \"prepared_by\": \"scripts/curate_certstrat_review.py\", \"prepared_on\": \"2026-10-14\"}"
+  },
+  {
+   "id": 141,
+   "run_at": "2026-10-22T00:15:41Z",
+   "pack": "who-applies-2026-10",
+   "table_name": "entities",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 9, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 142,
+   "run_at": "2026-10-22T00:15:41Z",
+   "pack": "who-applies-2026-10",
+   "table_name": "sites",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 4, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 143,
+   "run_at": "2026-10-22T00:15:41Z",
+   "pack": "who-applies-2026-10",
+   "table_name": "land_events",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 144,
+   "run_at": "2026-10-22T00:15:41Z",
+   "pack": "who-applies-2026-10",
+   "table_name": "metrics",
+   "action": "insert",
+   "rows_affected": 1,
+   "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 145,
+   "run_at": "2026-10-22T00:15:41Z",
+   "pack": "who-applies-2026-10",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 12, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 146,
+   "run_at": "2026-10-22T00:15:41Z",
+   "pack": "who-applies-2026-10",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 4, \"entities\": 10, \"sites\": 4, \"land_events\": 1, \"metrics\": 1, \"research_gaps\": 12}, \"prepared_by\": \"scripts/curate_who_applies.py\", \"prepared_on\": \"2026-10-22\"}"
   }
  ],
  "instrument_application": [
@@ -8277,7 +8346,7 @@
    "area_ha": 52.0,
    "value_aud": null,
    "conditionality": "Sale of the land is conditional on approval of the 1 GW data centre application",
-   "notes": "ISPT lists the property as 'Summit', masterplanned for 245,000 sqm. Reported value of the wider AirTrunk commitment exceeds A$5bn. Reconcile ISPT/IFM ownership - see research_gaps RG-005.",
+   "notes": "ISPT lists the property as 'Summit', masterplanned for 245,000 sqm. Reported value of the wider AirTrunk commitment exceeds A$5bn. The title search filed with the EIS (16 December 2025) shows Lot 10 DP 1280592 registered to ISPT Pty Limited, named IFM Real Estate Fiduciary Pty Ltd on ASIC's register since 24 November 2025, with a caveat by KNBDC SYD4 Pty Ltd, the company named AirTrunk SYD4 Pty Ltd since 16 June 2026. A caveat records a claimed interest in land; the search does not say what the interest is, so the option itself still rests on the media report (RG-005).",
    "fact_status": "REPORTED",
    "source_id": "SRC_WMEDIA_ISPT",
    "confidence": "medium",
@@ -14047,6 +14116,21 @@
    "source_id": "SRC_HCF_REGISTER",
    "confidence": "high",
    "as_of_date": "2026-09-28"
+  },
+  {
+   "id": 342,
+   "as_of": "2026-10",
+   "scope": "NSW",
+   "metric_name": "nsw_dc_consents_applicant_acts_for_unnamed_operator",
+   "value": 9.0,
+   "unit": "count",
+   "basis": "actual",
+   "scenario": null,
+   "notes": "Of the 22 determined NSW data centre State Significant Development consents whose Department assessment report is archived (batch S2; the Dicker Data warehouse is excluded as not a data centre), 9 describe the applicant as acting for, or approached by, a data centre operator the report does not name: Lane Cove West (SSD-9741, Greenbox Architecture), Macquarie Park (SSD-10467, Stockland Trust Management), Station Road (SSD-33781208, Lehr), Kemps Creek (SSD-10101987, Arup; the end user is identified only by 'the asset numbers SYD05, 06 & 07'), 51 Huntingwood Drive (SSD-41589232, EMKC Cubed Management), Project Echidna (SSD-47320208, ARUP Australia), Davis Road (SSD-59416728, Cundall), Apollo Place (SSD-67407231, EMKC Cubed Management) and 43-61 Turner Road (SSD-68013714, ARUP). One more names a consultancy applicant without mentioning an operator at all (Glendenning Road, SSD-73761707, Lehr). Four name a property developer that builds for tenants it does not name (Goodman for Project Pluto, Project Duke and Project Apollo; Stockland for 1-5 Khartoum Road). Eight name the operator itself: CDC (Roberts Road, Marsden Park), NineZero (the Eastern Creek expansion, and DCI Poplars, 'trading as DCI Data Centers'), Macquarie Data Centres (Talavera Road), Equinix (Grand Avenue), NEXTDC (S4) and HDI SYD1, which the report calls DigiCo (SYD1). So 14 of 22 consents went to an applicant that is not the operator. Read 2026-10-21 by scripts/curate_who_applies.py; each of the nine is quoted in this row's source references.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD9741_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-22"
   }
  ],
  "modifications": [
@@ -16017,15 +16101,15 @@
    "target_source": "NSW Land Registry Services title search; ASIC; ISPT and IFM disclosures",
    "retrieval_method": "manual_review",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22. The title search filed with the Mamre Road EIS (16 December 2025) shows Lot 10 DP 1280592 at Kemps Creek registered to ISPT Pty Limited, and ASIC's register shows ISPT Pty Ltd (ACN 064 041 283) has been named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025, which reconciles the 'ISPT' and 'IFM' accounts for that lot. The search carries a caveat by KNBDC SYD4 Pty Ltd (now AirTrunk SYD4). Still open: whether Lot 10 is the whole 706-752 Mamre Road site, the fund vehicle, the sale price and the conditions precedent.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": null
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 6,
@@ -16291,11 +16375,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Substantially advanced 2026-09-18. The ABR resolves the full proponent structure for Mamre Road: The Trustee for KNBDC SYD4 Hold Trust, Land Trust and Intermediate Hold Trust (all Fixed Unit Trusts, all registered 19 June 2025, NSW 2060), with NBDC Pty Ltd (ACN 606 821 452, incorporated 2015) as trustee, above KNBDC AU Development Pty Ltd (ACN 687 116 098, 15 May 2025) and KNBDC AU Financing Holdco Pty Ltd (ACN 685 936 074, 3 April 2025), plus parallel MEL3 and MEL EXP stacks. Still outstanding and now the subject of RG-036: beneficial ownership, which the ABR does not publish. The AirTrunk SYD4 inference remains unverified.",
+   "notes": "ADVANCED 2026-10-22. ASIC's register shows KNBDC SYD4 Pty Ltd (ACN 687 904 963, registered 10 June 2025) has been named AirTrunk SYD4 Pty Ltd since 16 June 2026, as have its Hold, Intermediate Hold, FinCo and Financing Holdco companies, so the AirTrunk link this question asked about is now on a primary record. The title search filed with the EIS shows Lot 10 DP 1280592 registered to ISPT Pty Limited (named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025) with a caveat by KNBDC SYD4 Pty Ltd. The landowner's consent letters from IFM, GPT and Gibb Group are restricted on the portal. Still open: shareholders, directors and ultimate parent, which need a paid ASIC extract (docs/requests/PAID-SEARCHES.md), and what interest the caveat protects. Earlier: the ABR resolves the trust stack (Hold, Land and Intermediate Hold trusts, trustee NBDC Pty Ltd).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_KNBDC",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 22,
@@ -16453,11 +16537,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Substantially advanced 2026-09-18 by reading Schedule 1 of 20 signed consents. RESOLVED: Project Apollo (Macquarie Park) = Goodman Property Services (Aust) Pty Limited; Grand Avenue Expansion Rosehill = Equinix Hyperscale 2 (SY10) Pty Limited; Talavera Road Campus Expansion = Macquarie Data Centres Pty Ltd; NEXTDC S4 Horsley Park = NEXTDC Limited; Roberts Road = Canberra Data Centres Pty Ltd; DigiCo SYD1 Expansion = HDI SYD1 Property Holdings Limited; DCI Poplars = The Trustee for NineZero DC Sub Trust I; 43-61 Turner Road = ARUP Pty Ltd; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management Pty Ltd; Project Pluto = Goodman Property Services (Aust) Pty Ltd (added in v2.2.1; the applicant was recovered by RG-065 but never written here). STILL UNRESOLVED: Project Duke, Project Echidna, Project Mars, KC1 and Road 1. Echidna's Schedule 1 applicant is ARUP Australia Pty Ltd (RG-065), a consultancy, which does not say who is behind the codename. No AWS, Google or Meta entity has appeared in any Schedule 1 to date, which strengthens rather than weakens the RG-023 negative - except for the access-restricted Amazon ASIC certificate on the Davis Road application (RG-057).",
+   "notes": "ADVANCED 2026-10-22. Applicants now on the record: Project Apollo, Project Pluto and Project Duke = Goodman Property Services (Aust) Pty Limited (the Duke assessment report and the portal); KC1 = CDC Data Centres Pty Ltd (its scoping report); Road 1 = Stockland Development Pty Limited (the portal and its EIS); Grand Avenue = Equinix Hyperscale 2 (SY10); Talavera Road = Macquarie Data Centres; NEXTDC S4 = NEXTDC; Roberts Road = Canberra Data Centres; DigiCo SYD1 = HDI SYD1 Property Holdings (formerly Global Switch Property (Australia)); DCI Poplars = the NineZero trust trading as DCI Data Centers; 43-61 Turner Road = ARUP; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management (now CKTSME Management). STILL UNRESOLVED: Project Echidna, whose applicant ARUP Australia 'acts on behalf of a multinational data centre operation' the assessment report does not name; and Project Mars, whose portal record names no applicant and whose owner's consent letter is restricted. The landowner's consent letters on Project Duke and Project Mars are restricted too; they are in the drafted GIPA request (docs/requests/).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 36,
@@ -16467,15 +16551,15 @@
    "target_source": "ASIC Connect company extracts; registered charges search; the SSD-92743706 Appendix 03 Title Documents attachment on the NSW Planning Portal, which names the registered proprietor",
    "retrieval_method": "asic_search",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Supersedes the ownership half of RG-021, which is now partly advanced: the entity structure is fully resolved and only beneficial ownership remains.",
+   "notes": "ADVANCED 2026-10-22. ASIC's register names, dates and former names for the whole stack: the KNBDC SYD4, MEL1 and MEL3 companies and three of five Melbourne expansion companies now carry AirTrunk names; KNBDC AU Development Pty Ltd, KNBDC AU Financing Holdco Pty Ltd and two Melbourne expansion finance companies keep theirs; NBDC Pty Ltd was registered on 1 July 2015. Directors, shareholders and registered charges still need paid extracts; the first to buy is AirTrunk SYD4 Pty Ltd (docs/requests/PAID-SEARCHES.md). Supersedes the ownership half of RG-021.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_KNBDC",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 37,
@@ -16485,15 +16569,15 @@
    "target_source": "SSD-73761707 Appendix 03 Title Documents (names the registered proprietor of Lot 2 DP1137162); the EIS and Request for SEARs documents, 40 of which are published; NSW Land Registry Services title search; ASIC extract for Lehr Consultants and any related project SPV",
    "retrieval_method": "scrape_portal",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "The portal attachment list is reachable via the Drupal node JSON at /node/<nid>?_format=json -> field_attachment, which yields 177 document slugs for this project. Draft conditions and EPA comment documents returned HTTP 401, so some assessment material is access-restricted even though the signed consent is public.",
+   "notes": "WORKED 2026-10-21. The owner's consent letter (owners-consent-6713) answers 401: restricted. The Appendix 03 title documents are a ZIP of 20 scanned plans and land dealings with no machine-readable text and no current title search, so the registered proprietor of Lot 2 DP 1137162 is not established. The assessment report calls the applicant, Lehr, 'an engineering and design consultancy' and does not mention an operator at all. Next: a paid NSW title search for Lot 2 DP 1137162, and the GIPA request for the consent letter (docs/requests/). Earlier: the portal attachment list is reachable via the node JSON; draft conditions and EPA comments also answered 401.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD73761707_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 38,
@@ -16723,11 +16807,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Advanced 2026-09-18. The ABR resolves six Zerra entities, all NSW 2000: Zerra WDDP Manager Australia (5 Feb 2025), Zerra Investments Australia (17 Apr 2025), Zerra DC Operator (Australia) (25 Nov 2025, business name 'Zerra DC'), Zerra Operator FinCo (5 Aug 2026), Zerra WDDP Asset Manager and Zerra WDDP Investments AU (both 10 Aug 2026, neither GST registered). The lodged application names WDDP Pty Ltd and never mentions Zerra or AGP, so the link rests on the ABR naming convention plus the project acronym. The 'Singapore-based' characterisation and AGP ownership remain trade-press only. Ultimate ownership now sits in RG-052 with the KNBDC extracts as a single ASIC task.",
+   "notes": "ADVANCED 2026-10-22. ASIC's register gives the AGP link a primary record: a former name of Zerra WDDP Manager Australia Pty Ltd (registered 5 February 2025) is AGP DC Manager Australia Pty Ltd, and a former name of Zerra Investments Australia Pty Ltd (registered 17 April 2025) is AGPDC Investments Australia Pty Ltd. Where AGP is based, and who owns the Australian companies, still need paid extracts. Earlier: the ABR resolves six Zerra entities, all NSW 2000; the lodged application names WDDP Pty Ltd and never mentions Zerra or AGP.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_ZERRA",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 51,
@@ -16755,15 +16839,15 @@
    "target_source": "ASIC Connect company extracts for WDDP Pty Ltd, Zerra WDDP Manager Australia (ACN 684 250 584), Zerra Investments Australia (ACN 686 366 254), Zerra DC Operator (Australia), Zerra Operator FinCo (ACN 701 082 082), Zerra WDDP Asset Manager (ACN 701 249 765) and Zerra WDDP Investments AU (ACN 701 246 693); registered charges searches",
    "retrieval_method": "asic_search",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22. ASIC's register: WDDP Pty Ltd (ACN 700 788 058) registered 28 July 2026, 17 days before the Town Planning Report's date; Zerra WDDP Manager Australia renamed to its current name on 13 August 2026, the day before; Zerra WDDP Asset Manager, Zerra WDDP Investments AU and Zerra WDDP Holdco all registered 10 August 2026. Directors, shareholders and ultimate parent still need paid extracts, first WDDP Pty Ltd (docs/requests/PAID-SEARCHES.md).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_ZERRA",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 53,
@@ -16809,15 +16893,15 @@
    "target_source": "Signed consents' Schedule 1 applicant field for all 24 determined NSW data centre SSDs; ASIC incorporation dates; ABR",
    "retrieval_method": "asic_search",
    "priority": 4,
-   "status": "in_progress",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": "Advanced from four consents to twenty 2026-09-18. Of 18 reliably extracted consents, FOUR name an identifiable operating company (Canberra Data Centres, NEXTDC, Macquarie Data Centres, Goodman Property Services). The rest name consultancies (Cundall Johnston and Partners twice, Lehr Consultants, ARUP), a trust trustee (NineZero DC Sub Trust I), or single-purpose vehicles (EMKC Cubed Management twice, HDI SYD1 Property Holdings, Equinix Hyperscale 2 (SY10)); six did not parse. Combined with the incorporation-date evidence - KNBDC's stack created April to June 2025, Zerra WDDP's two SPVs on 10 August 2026 four days before the report date - the pattern is established: the legal person carrying a data centre consent's conditions is usually a purpose-built entity with no operating history. What remains is ASIC incorporation dates and shareholding for each named applicant, which converts the pattern from observed to proven and identifies who stands behind the conditions.",
+   "resolved_date": "2026-10-22",
+   "notes": "RESOLVED 2026-10-22 from ASIC's Company Dataset (SRC_ASIC_COMPANIES_202610), with a correction. Registration dates for the companies holding the 21 determined consents whose applicant is a company (trusts are not on the register), and how long each had existed when its consent was determined: Greenbox Architecture Pty Ltd 01/10/2009 for SSD-9741 (10.1 years); Canberra Data Centres Pty Ltd 31/05/2007 for SSD-10330 (13.1 years); Stockland Trust Management Limited 15/05/1980 for SSD-10467 (41.0 years); Lehr Consultants International (Australia) Pty Ltd 23/02/2007 for SSD-33781208 (15.8 years); Arup Pty Ltd 06/01/1972 for SSD-10101987 (51.5 years); NineZero DC Sub TC I Pty Ltd 13/08/2015 for SSD-21342738 (8.1 years); EMKC Cubed Management Pty Ltd 11/05/2021 for SSD-41589232 (2.3 years); Macquarie Data Centres Pty Ltd 06/05/2016 for SSD-24299707 (7.7 years); ARUP Australia Pty Ltd 02/05/2018 for SSD-47320208 (5.9 years); Equinix Hyperscale 2 (SY10) Pty Limited 26/07/2021 for SSD-53338465 (3.4 years); Cundall Johnston and Partners Pty Ltd 30/05/2003 for SSD-59416728 (21.6 years); EMKC Cubed Management Pty Ltd 11/05/2021 for SSD-67407231 (4.4 years); ARUP Pty Ltd 06/01/1972 for SSD-68013714 (53.9 years); CDC Data Centres Pty Ltd 31/05/2007 for SSD-70889211 (18.5 years); Goodman Property Services (Aust) Pty Limited 06/08/1999 for SSD-71368959 (26.4 years); HDI SYD1 Property Holdings Limited 07/08/2000 for SSD-69637456 (25.4 years); NEXTDC Limited 11/05/2010 for SSD-63741210 (15.6 years); Stockland Development Pty Limited 21/08/1947 for SSD-63235720 (78.6 years); Goodman Property Services (Aust) Pty Ltd 06/08/1999 for SSD-69223466 (27.0 years); Goodman Property Services (Aust) Pty Limited 06/08/1999 for SSD-74069708 (27.1 years); Lehr Consultants International (Australia) Pty Ltd 23/02/2007 for SSD-73761707 (19.6 years). Only one was under three years old: EMKC Cubed Management Pty Ltd (SSD-41589232, 2.3 years). So the claim in this question's earlier notes, that the legal person carrying a consent is usually a purpose-built entity with no operating history, does not hold: most consent holders are long-established consultancies, developers and operators. The pattern the assessment reports show is different: in 9 of 22 consents an established consultancy or developer applies for an operator the report does not name (metric nsw_dc_consents_applicant_acts_for_unnamed_operator). Fresh vehicles do appear in the newest and largest proposals, which are not yet determined: KNBDC SYD4 Pty Ltd (Mamre Road, registered 10 June 2025, now AirTrunk SYD4), WDDP Pty Ltd (Western Downs, 28 July 2026) and Project Garden 1 Pty Ltd (Brookhollow Avenue, 3 February 2025).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 56,
@@ -16845,15 +16929,15 @@
    "target_source": "FOI to NSW DPHI under the GIPA Act for the restricted attachments on SSD-59416728; the Appendix 3 title documents (which name the registered proprietor); ASIC extract for Cundall Johnston and Partners Pty Ltd to see whether it acted as agent",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Also restricted on Roberts Road (SSD-10330): the document titled 'CDC Data Centres response warning letter', and the political donation disclosure which is public but a scanned image with no extractable text. The warning letter is potentially the only enforcement-style document against a data centre operator anywhere in the NSW record and it is not publicly downloadable - see RG-058.",
+   "notes": "ADVANCED 2026-10-22. The title search the applicant filed (searched 12 October 2023) shows the land, Lot 1 DP 864615, registered to Amazon Australia Company Pty Ltd, which ASIC registered on 14 November 2022; the title's current edition is dated 9 December 2022. The Department's assessment report says Cundall 'acts on behalf of a global data centre operator' it does not name. The ASIC certificate for Amazon Corporate Services Pty Ltd and the landowner's consent letter both answer 401, and are in the drafted GIPA request (docs/requests/GIPA-001-ownership-documents.md). Amazon's role as landowner is now on a primary record; its role as operator is not. Also restricted on Roberts Road (SSD-10330): the CDC response to a warning letter (RG-058).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD59416728_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 58,
@@ -16881,15 +16965,15 @@
    "target_source": "ABR and ASIC extracts for NineZero DC and its corporate trustee; the DCI Poplars title documents",
    "retrieval_method": "asic_search",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22. The DCI Poplars assessment report calls the applicant 'The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers'. ASIC's register holds NineZero DC Sub TC I Pty Ltd (registered 13 August 2015) and Sub TC II (11 April 2017), and the portal names Sub TC I as proponent of the Eastern Creek Data Centre Expansion; no public document read says Sub TC I is the trustee of Sub Trust I. The landowner's consent letters on both applications answer 401 and are in the drafted GIPA request.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_DCI_POPLARS_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 60,
@@ -16971,15 +17055,15 @@
    "target_source": "ASIC company extracts; ABR; the title documents and EIS for SSD-41589232 and SSD-67407231; tenancy disclosure from operators in both corridors",
    "retrieval_method": "asic_search",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-22. EMKC Cubed Management Pty Ltd has been named CKTSME Management Pty Ltd on ASIC's register since 3 June 2025. In both its consents the assessment report says it was approached by a data centre operator it does not name; for Apollo Place, AirTrunk's own SYD2 page calls the project 'Phase 5 of AirTrunk's investment within the precinct' (RG-098), and for 51 Huntingwood Drive the operator's assets include 'the Huntingwood Data Centre ... at 24 Healey Circuit, Huntingwood'. HDI SYD1 Property Holdings was named Global Switch Property (Australia) until 12 May 2025, and the Department calls it DigiCo. The landowner's consent letters on Apollo Place and 51 Huntingwood Drive answer 401 and are in the drafted GIPA request. Still open: shareholders and directors (paid extracts), and which operator holds the 51 Huntingwood consent.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 65,
@@ -17277,15 +17361,15 @@
    "target_source": "Paid ASIC company extracts; ABN Lookup; trust deeds are not public so the route is ASIC officer and shareholder history plus the DPHI Assessment Report for each project, which usually names the proponent",
    "retrieval_method": "asic_search",
    "priority": 1,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Supersedes and extends RG-064, which named the same three vehicles. Now evidenced from the signed consents rather than inferred. Note EMKC holds TWO consents and 'HDI SYD1' is a per-site holding company, so the structures are deliberately site-specific.",
+   "notes": "ADVANCED 2026-10-22 (with RG-064 and RG-059). ASIC's register gives names, dates and former names: EMKC Cubed Management is now CKTSME Management (3 June 2025); HDI SYD1 Property Holdings was Global Switch Property (Australia) (renamed 12 May 2025); NineZero DC Sub TC I Pty Ltd exists (13 August 2015). Beneficial ownership still needs paid extracts. Note EMKC holds TWO consents and 'HDI SYD1' is a per-site holding company, so the structures are site-specific.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CONSENT_APPLICANTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-22"
   },
   {
    "id": 82,
@@ -17849,7 +17933,7 @@
    "operator_id": "ENT_KNBDC",
    "owner_id": "ENT_IFM",
    "anchor_tenant_id": null,
-   "proponent": "KNBDC SYD4 Pty Ltd (per NSW IDA Round 1); the ABR-resolved structure is The Trustee for KNBDC SYD4 Hold Trust / Land Trust / Intermediate Hold Trust, trustee NBDC Pty Ltd, above KNBDC AU Development Pty Ltd and KNBDC AU Financing Holdco Pty Ltd",
+   "proponent": "KNBDC SYD4 Pty Ltd (per NSW IDA Round 1), named AirTrunk SYD4 Pty Ltd on ASIC's register since 16 June 2026 (ACN 687 904 963); the ABR-resolved structure is The Trustee for KNBDC SYD4 Hold Trust / Land Trust / Intermediate Hold Trust, trustee NBDC Pty Ltd, above KNBDC AU Development Pty Ltd and KNBDC AU Financing Holdco Pty Ltd",
    "suburb": "Kemps Creek",
    "lga": "Penrith",
    "state": "NSW",
@@ -17873,7 +17957,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "NSW Planning Portal: 'Construction and operation of a data centre campus with a power capacity of 1 GW including six four-storey data centre buildings'. Proposal documents put power capacity at 1.2 GW. Six buildings, 728 cooling units, 846 diesel back-up generators, >18,000 kL diesel storage, lithium-ion batteries, ~22.4 million litres of water per year. Land held by IFM Investors (listed by ISPT as 'Summit'); AirTrunk reported as prospective buyer conditional on approval of the 1 GW application. The proponent SPV stack was incorporated between 3 April and 19 June 2025 in North Sydney and its sponsor is not publicly identified anywhere - a web search for 'KNBDC' returns zero results. EIS by Willowtree Planning, the same consultancy that appears on the Glendenning Road pre-application documents. First Australian project above 1 GW.",
+   "notes": "NSW Planning Portal: 'Construction and operation of a data centre campus with a power capacity of 1 GW including six four-storey data centre buildings'. Proposal documents put power capacity at 1.2 GW. Six buildings, 728 cooling units, 846 diesel back-up generators, >18,000 kL diesel storage, lithium-ion batteries, ~22.4 million litres of water per year. Land held by IFM Investors (listed by ISPT as 'Summit'); AirTrunk reported as prospective buyer conditional on approval of the 1 GW application. The proponent company, KNBDC SYD4 Pty Ltd, was registered on 10 June 2025 and has been named AirTrunk SYD4 Pty Ltd since 16 June 2026 (ASIC). The title search filed with the EIS (16 December 2025) shows Lot 10 DP 1280592 registered to ISPT Pty Limited, the company ASIC has named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025, with a caveat by KNBDC SYD4 Pty Ltd. EIS by Willowtree Planning, the same consultancy that appears on the Glendenning Road pre-application documents. First Australian project above 1 GW. CORRECTED 2026-10-22: earlier notes said the proponent's sponsor was not publicly identified anywhere.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
@@ -19853,7 +19937,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: EMKC Cubed Management Pty Ltd. The Schedule 1 applicant is EMKC Cubed Management Pty Ltd, a special purpose vehicle. 51 Huntingwood Drive is in the corridor where AirTrunk operates its certified SYD1 facility, and this consent carries the LARGEST installed back-up generation capacity in the sample at 632 MW. The relationship between EMKC Cubed Management and any operator is not stated in the consent - research gap RG-064.",
+   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: EMKC Cubed Management Pty Ltd, named CKTSME Management Pty Ltd on ASIC's register since 3 June 2025. The Department's assessment report says the applicant 'was approached by a data centre operator' whose assets include 'the Huntingwood Data Centre located nearby to the site at 24 Healey Circuit, Huntingwood'; it does not name the operator. This consent carries the largest installed back-up generation capacity in the sample at 632 MW (RG-064).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
@@ -20537,7 +20621,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Cundall Johnston and Partners Pty Ltd. Cundall Johnston and Partners Pty Ltd - the consulting engineers whose name is already in the project title. The same application carries an access-restricted 'ASIC certificate Amazon Corporate Services Pty Ltd' (RG-057).",
+   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: Cundall Johnston and Partners Pty Ltd, the consulting engineers whose name is already in the project title. The Department's assessment report says Cundall 'acts on behalf of a global data centre operator' it does not name. The title search the applicant filed (12 October 2023) shows the land, Lot 1 DP 864615, registered to Amazon Australia Company Pty Ltd, a company ASIC registered on 14 November 2022. The same application carries an access-restricted 'ASIC certificate Amazon Corporate Services Pty Ltd' and a restricted landowner's consent letter (RG-057).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
@@ -20609,7 +20693,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": null,
-   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: EMKC Cubed Management Pty Ltd. The Schedule 1 applicant is also EMKC Cubed Management Pty Ltd, so this SPV holds at least two Lane Cove consents: Apollo Place (63.8 MW installed back-up, 45 MW total power cap) and 51 Huntingwood Drive (632 MW installed back-up). A single undisclosed vehicle controlling two consents in the corridor with the most concentrated community opposition in the state.",
+   "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: EMKC Cubed Management Pty Ltd, which also holds the 51 Huntingwood Drive consent in Blacktown. The Department's assessment report says the applicant 'has been approached by a data centre operator (the end user)' that operates the co-located Lane Cove West Data Centre. AirTrunk's own SYD2 page calls Apollo Place 'Phase 5 of AirTrunk's investment within the precinct' (RG-098). ASIC's register shows EMKC Cubed Management Pty Ltd had been named CKTSME Management Pty Ltd since 3 June 2025, four months before the consent was determined on 9 October 2025. CORRECTED 2026-10-22: earlier notes placed 51 Huntingwood Drive in Lane Cove.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
@@ -24682,6 +24766,307 @@
    "entity_rowid": "100",
    "source_id": "SRC_MANDALA_DCEI_2025",
    "quote": "The centrality of data centres to our digital infrastructure and their economic benefits across the economy were detailed in a previous report, Empowering Australia\u2019s Digital Future, released in October 2024."
+  },
+  {
+   "id": 515,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_AMAZON_AU_CO",
+   "source_id": "SRC_SSD59416728_TITLE",
+   "quote": "FIRST SCHEDULE -------------- AMAZON AUSTRALIA COMPANY PTY LTD (TZ AS707242)"
+  },
+  {
+   "id": 516,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_AMAZON_AU_CO",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "AMAZON AUSTRALIA COMPANY PTY LTD,663812468,APTY,LMSH,PROP,REGD,14/11/2022,,,,,Y,0,,"
+  },
+  {
+   "id": 517,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_KNBDC",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "KNBDC SYD4 PTY LTD,687904963,APTY,LMSH,PROP,REGD,10/06/2025,,,,,,99687904963,AIRTRUNK SYD4 PTY LTD,16/06/2026 | KNBDC AU DEVELOPMENT PTY LTD,687116098,APTY,LMSH,PROP,REGD,15/05/2025,,,,,Y,34687116098,,"
+  },
+  {
+   "id": 518,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_KNBDC",
+   "source_id": "SRC_SSD92743706_TITLE",
+   "quote": "AV293179 CAVEAT BY KNBDC SYD4 PTY LTD"
+  },
+  {
+   "id": 519,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_EMKC",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "EMKC CUBED MANAGEMENT PTY LTD,650102640,APTY,LMSH,PROP,REGD,11/05/2021,,,,,,41650102640,CKTSME MANAGEMENT PTY LTD,03/06/2025"
+  },
+  {
+   "id": 520,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_HDI_SYD1",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "GLOBAL SWITCH PROPERTY (AUSTRALIA) PTY LIMITED,094051779,APTY,LMSH,PROP,REGD,07/08/2000,,,,,,97094051779,HDI SYD1 PROPERTY HOLDINGS PTY LIMITED,12/05/2025"
+  },
+  {
+   "id": 521,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_HDI_SYD1",
+   "source_id": "SRC_SSD69637456_ASSESSMENT",
+   "quote": "p8: HDI SYD1 Property Holdings Limited (DigiCo) (the Applicant)"
+  },
+  {
+   "id": 522,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_WDDP",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "WDDP PTY LTD,700788058,APTY,LMSH,PROP,REGD,28/07/2026,,,,,Y,0,,"
+  },
+  {
+   "id": 523,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_ZERRA",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "AGP DC MANAGER AUSTRALIA PTY LTD,684250584,APTY,LMSH,PROP,REGD,05/02/2025,,,,,,98684250584,ZERRA WDDP MANAGER AUSTRALIA PTY LTD,13/08/2026 | AGPDC INVESTMENTS AUSTRALIA PTY LTD,686366254,APTY,LMSH,PROP,REGD,17/04/2025,,,,,,82686366254,ZERRA INVESTMENTS AUSTRALIA PTY LTD,20/01/2026 | ZERRA WDDP HOLDCO PTY LTD,701254239,APTY,LMSH,PROP,REGD,10/08/2026,,,,,Y,0,,"
+  },
+  {
+   "id": 524,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_ZERRA_PARENT",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "AGP DC MANAGER AUSTRALIA PTY LTD,684250584,APTY,LMSH,PROP,REGD,05/02/2025,,,,,,98684250584,ZERRA WDDP MANAGER AUSTRALIA PTY LTD,13/08/2026"
+  },
+  {
+   "id": 525,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_NINEZERO",
+   "source_id": "SRC_SSD64287712_ASSESSMENT",
+   "quote": "p3: The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers"
+  },
+  {
+   "id": 526,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_NINEZERO",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "NINEZERO DC SUB TC I PTY LTD,607631845,APTY,LMSH,PROP,REGD,13/08/2015,,,,,Y,94607631845,,"
+  },
+  {
+   "id": 527,
+   "entity_table": "entities",
+   "entity_rowid": "ENT_MSFT_DC_AU",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "MICROSOFT DATACENTER (AUSTRALIA) PTY LIMITED,163792078,APTY,LMSH,PROP,REGD,16/05/2013,,,,,Y,31163792078,,"
+  },
+  {
+   "id": 528,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_MAMRE_ROAD",
+   "source_id": "SRC_SSD92743706_TITLE",
+   "quote": "FIRST SCHEDULE -------------- ISPT PTY LIMITED | AV293179 CAVEAT BY KNBDC SYD4 PTY LTD"
+  },
+  {
+   "id": 529,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_MAMRE_ROAD",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "KNBDC SYD4 PTY LTD,687904963,APTY,LMSH,PROP,REGD,10/06/2025,,,,,,99687904963,AIRTRUNK SYD4 PTY LTD,16/06/2026 | ISPT PTY LTD,064041283,APTY,LMSH,PROP,REGD,03/06/1994,,,,,,28064041283,IFM REAL ESTATE FIDUCIARY PTY LTD,24/11/2025"
+  },
+  {
+   "id": 530,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_DAVIS_RD_CUNDALL",
+   "source_id": "SRC_SSD59416728_TITLE",
+   "quote": "FIRST SCHEDULE -------------- AMAZON AUSTRALIA COMPANY PTY LTD (TZ AS707242)"
+  },
+  {
+   "id": 531,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_APOLLO_PLACE",
+   "source_id": "SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH",
+   "quote": "The project is Phase 5 of AirTrunk\u2019s investment within the precinct"
+  },
+  {
+   "id": 532,
+   "entity_table": "sites",
+   "entity_rowid": "SITE_APOLLO_PLACE",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "EMKC CUBED MANAGEMENT PTY LTD,650102640,APTY,LMSH,PROP,REGD,11/05/2021,,,,,,41650102640,CKTSME MANAGEMENT PTY LTD,03/06/2025"
+  },
+  {
+   "id": 533,
+   "entity_table": "land_events",
+   "entity_rowid": "1",
+   "source_id": "SRC_SSD92743706_TITLE",
+   "quote": "FIRST SCHEDULE -------------- ISPT PTY LIMITED | AV293179 CAVEAT BY KNBDC SYD4 PTY LTD"
+  },
+  {
+   "id": 534,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD9741_ASSESSMENT",
+   "quote": "p11: Greenbox acts on behalf of an existing data centre operator (the client) which currently operates two data centres in Melbourne and western Sydney."
+  },
+  {
+   "id": 535,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD10467_ASSESSMENT",
+   "quote": "p10: The Applicant has been approached by a data centre operator (the lessee) who is seeking to expand its operations within the Sydney region."
+  },
+  {
+   "id": 536,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD33781208_ASSESSMENT",
+   "quote": "p10: It acts on behalf of a multinational data centre operator which is seeking to expand its operations within the Sydney region."
+  },
+  {
+   "id": 537,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD10101987_ASSESSMENT",
+   "quote": "p10: has been approached by a data centre operator (the end user) who is seeking to expand its operations within Western Sydney. | p10: The proposed development has been identified by the end user with the asset numbers SYD05, 06 & 07."
+  },
+  {
+   "id": 538,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD41589232_ASSESSMENT",
+   "quote": "p11: The Applicant was approached by a data centre operator who is seeking to expand its operations within Western Sydney."
+  },
+  {
+   "id": 539,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD47320208_ASSESSMENT",
+   "quote": "p14: It acts on behalf of a multinational data centre operation which is seeking to expand its operations within the Sydney region."
+  },
+  {
+   "id": 540,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD59416728_ASSESSMENT",
+   "quote": "p13: It acts on behalf of a global data centre operator which is seeking to expand its operations within the Sydney region."
+  },
+  {
+   "id": 541,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD67407231_ASSESSMENT",
+   "quote": "p8: has been approached by a data centre operator (the end user) who is seeking to expand its operations within the Lane Cove West Business Park."
+  },
+  {
+   "id": 542,
+   "entity_table": "metrics",
+   "entity_rowid": "342",
+   "source_id": "SRC_SSD68013714_ASSESSMENT",
+   "quote": "p8: It acts on behalf of a multinational data centre operation which is seeking to expand its operations within the Sydney region."
+  },
+  {
+   "id": 543,
+   "entity_table": "research_gaps",
+   "entity_rowid": "55",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": null
+  },
+  {
+   "id": 544,
+   "entity_table": "research_gaps",
+   "entity_rowid": "21",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "KNBDC SYD4 PTY LTD,687904963,APTY,LMSH,PROP,REGD,10/06/2025,,,,,,99687904963,AIRTRUNK SYD4 PTY LTD,16/06/2026"
+  },
+  {
+   "id": 545,
+   "entity_table": "research_gaps",
+   "entity_rowid": "21",
+   "source_id": "SRC_SSD92743706_TITLE",
+   "quote": "AV293179 CAVEAT BY KNBDC SYD4 PTY LTD"
+  },
+  {
+   "id": 546,
+   "entity_table": "research_gaps",
+   "entity_rowid": "36",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": null
+  },
+  {
+   "id": 547,
+   "entity_table": "research_gaps",
+   "entity_rowid": "35",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": null
+  },
+  {
+   "id": 548,
+   "entity_table": "research_gaps",
+   "entity_rowid": "50",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "AGP DC MANAGER AUSTRALIA PTY LTD,684250584,APTY,LMSH,PROP,REGD,05/02/2025,,,,,,98684250584,ZERRA WDDP MANAGER AUSTRALIA PTY LTD,13/08/2026 | AGPDC INVESTMENTS AUSTRALIA PTY LTD,686366254,APTY,LMSH,PROP,REGD,17/04/2025,,,,,,82686366254,ZERRA INVESTMENTS AUSTRALIA PTY LTD,20/01/2026"
+  },
+  {
+   "id": 549,
+   "entity_table": "research_gaps",
+   "entity_rowid": "52",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "WDDP PTY LTD,700788058,APTY,LMSH,PROP,REGD,28/07/2026,,,,,Y,0,, | ZERRA WDDP HOLDCO PTY LTD,701254239,APTY,LMSH,PROP,REGD,10/08/2026,,,,,Y,0,,"
+  },
+  {
+   "id": 550,
+   "entity_table": "research_gaps",
+   "entity_rowid": "57",
+   "source_id": "SRC_SSD59416728_TITLE",
+   "quote": "FIRST SCHEDULE -------------- AMAZON AUSTRALIA COMPANY PTY LTD (TZ AS707242)"
+  },
+  {
+   "id": 551,
+   "entity_table": "research_gaps",
+   "entity_rowid": "59",
+   "source_id": "SRC_SSD64287712_ASSESSMENT",
+   "quote": "p3: The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers"
+  },
+  {
+   "id": 552,
+   "entity_table": "research_gaps",
+   "entity_rowid": "59",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "NINEZERO DC SUB TC I PTY LTD,607631845,APTY,LMSH,PROP,REGD,13/08/2015,,,,,Y,94607631845,,"
+  },
+  {
+   "id": 553,
+   "entity_table": "research_gaps",
+   "entity_rowid": "64",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "EMKC CUBED MANAGEMENT PTY LTD,650102640,APTY,LMSH,PROP,REGD,11/05/2021,,,,,,41650102640,CKTSME MANAGEMENT PTY LTD,03/06/2025 | GLOBAL SWITCH PROPERTY (AUSTRALIA) PTY LIMITED,094051779,APTY,LMSH,PROP,REGD,07/08/2000,,,,,,97094051779,HDI SYD1 PROPERTY HOLDINGS PTY LIMITED,12/05/2025"
+  },
+  {
+   "id": 554,
+   "entity_table": "research_gaps",
+   "entity_rowid": "64",
+   "source_id": "SRC_SSD41589232_ASSESSMENT",
+   "quote": "p11: including the Huntingwood Data Centre located nearby to the site at 24 Healey Circuit, Huntingwood"
+  },
+  {
+   "id": 555,
+   "entity_table": "research_gaps",
+   "entity_rowid": "81",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": null
+  },
+  {
+   "id": 556,
+   "entity_table": "research_gaps",
+   "entity_rowid": "5",
+   "source_id": "SRC_SSD92743706_TITLE",
+   "quote": "FIRST SCHEDULE -------------- ISPT PTY LIMITED"
+  },
+  {
+   "id": 557,
+   "entity_table": "research_gaps",
+   "entity_rowid": "5",
+   "source_id": "SRC_ASIC_COMPANIES_202610",
+   "quote": "ISPT PTY LTD,064041283,APTY,LMSH,PROP,REGD,03/06/1994,,,,,,28064041283,IFM REAL ESTATE FIDUCIARY PTY LTD,24/11/2025"
   }
  ],
  "sources": [
@@ -25409,7 +25794,7 @@
    "published": "2026-03-27",
    "accessed": "2026-09-18",
    "credibility": "A",
-   "notes": "Names the proponent, project and local government area for all 15 data centre projects endorsed in Round 1 of the Investment Delivery Authority (IDA), collectively worth $51.9bn. Also records that the IDA did NOT endorse around $40.7bn of data centre and technology proposals considered premature or overly speculative; that 90 data centres are operating in NSW; that data centre investment has grown 65% per year on average over three years; that data centres are 12% of all non-residential building investment in NSW; that eight data centre projects worth more than $10bn were approved in the past year including the biggest in the Southern Hemisphere; and that one further endorsed project is withheld for commercial sensitivity. This is the authoritative proponent list for the NSW pipeline."
+   "notes": "Names the proponent, project and local government area for all 15 data centre projects endorsed in Round 1 of the Investment Delivery Authority (IDA), collectively worth $51.9bn. Also records that the IDA did NOT endorse around $40.7bn of data centre and technology proposals considered premature or overly speculative; that 90 data centres are operating in NSW; that data centre investment has grown 65% per year on average over three years; that data centres are 12% of all non-residential building investment in NSW; that eight data centre projects worth more than $10bn were approved in the past year including the biggest in the Southern Hemisphere; and that one further endorsed project is withheld for commercial sensitivity. This is the authoritative proponent list for the NSW pipeline. ARCHIVED 2026-10-21 at data/raw/operators/nswgov/ with a SHA-256 manifest."
   },
   {
    "id": "SRC_NSWPORTAL_KC",
@@ -27412,6 +27797,39 @@
    "accessed": "2026-10-14",
    "credibility": "B",
    "notes": "November 2025; commissioned for Data Centres Australia by AirTrunk, Amazon Web Services, CDC and NEXTDC, and prepared by Mandala. Archived 2026-10-14 at data/raw/operators/mandala/ with a SHA-256 manifest; the PDF and its text are not committed (a commercial report). CertifiedStrategic.com names it as the source of the 1,350 MW (2024) and 3,100 MW (2030) deployable capacity figures; its text states neither, and it cites Mandala's October 2024 report, Empowering Australia's Digital Future, for the earlier analysis. Cited by RG-100 for that finding, not for any figure."
+  },
+  {
+   "id": "SRC_ASIC_COMPANIES_202610",
+   "title": "ASIC Company Dataset, October 2026 release: extract of the companies behind NSW data centre applications",
+   "publisher": "Australian Securities and Investments Commission (data.gov.au)",
+   "url": "https://data.gov.au/data/dataset/asic-companies",
+   "doc_type": "primary_regulator",
+   "published": "2026-10",
+   "accessed": "2026-10-21",
+   "credibility": "A",
+   "notes": "ASIC's whole company register, published monthly under CC BY 3.0 AU: each company's name, ACN, type, status and registration date, and for a renamed company each former name with the date the current one took effect. No directors, shareholders or addresses. Downloaded 2026-10-21 (ZIP SHA-256 in the manifest) and filtered by scrapers/fetch_asic_companies.py to 185 rows, committed at data/raw/asic/company_dataset_202610_extract.csv. Names only: who owns a company needs a paid extract (docs/requests/PAID-SEARCHES.md)."
+  },
+  {
+   "id": "SRC_SSD59416728_TITLE",
+   "title": "Title search, Lot 1 DP 864615, 3 Davis Road, Wetherill Park (Appendix 3 to SSD-59416728)",
+   "publisher": "NSW Land Registry Services, via the applicant's information broker; published on the NSW Planning Portal",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120240208T065641.229+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2023-10-12",
+   "accessed": "2026-10-21",
+   "credibility": "A",
+   "notes": "Searched 12 October 2023. First Schedule (registered proprietor): Amazon Australia Company Pty Ltd, by transfer AS707242; current edition dated 9 December 2022; a lease of Warehouse 1 to Northline Pty Ltd expiring 30 November 2024. Archived by scrapers/fetch_ownership_documents.py at data/raw/nsw_planning/ownership/."
+  },
+  {
+   "id": "SRC_SSD92743706_TITLE",
+   "title": "Title search, Lot 10 DP 1280592, Kemps Creek (Appendix 3 to SSD-92743706)",
+   "publisher": "NSW Land Registry Services, via the applicant's information broker; published on the NSW Planning Portal",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-92743706%2120260119T005619.807+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2025-12-16",
+   "accessed": "2026-10-21",
+   "credibility": "A",
+   "notes": "Searched 16 December 2025. First Schedule (registered proprietor): ISPT Pty Limited. Second Schedule item 3: caveat AV293179 by KNBDC SYD4 Pty Ltd, marked as not on the current edition of the certificate of title. Covers Lot 10 only. Archived by scrapers/fetch_ownership_documents.py at data/raw/nsw_planning/ownership/."
   }
  ],
  "water_profile": [
@@ -29243,7 +29661,7 @@
    "id": "ENT_ZERRA",
    "name": "Zerra DC",
    "entity_type": "developer",
-   "domicile": "Unknown; the Australian group is registered in NSW 2000 (Sydney CBD). Secondary reporting describes the developer as Singapore-based and owned by investment firm AGP; neither appears in the lodged application or on the ABR.",
+   "domicile": "Unknown; the Australian group is registered in NSW 2000 (Sydney CBD). ASIC's register shows two of its companies once carried AGP names; where AGP is based is not established from a primary record.",
    "hq_country": null,
    "holder_id": null,
    "holder": null,
@@ -35972,7 +36390,7 @@
    "tbl": "metrics",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 270
+   "n": 271
   },
   {
    "tbl": "metrics",

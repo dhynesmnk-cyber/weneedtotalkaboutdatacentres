@@ -80,3 +80,7 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | --- | --- | --- | --- | --- |
 | [ST-001](ST-001-the-article-that-wasnt-there.md) | The article that wasn't there | C3 | RG-100, RG-096 | draft |
 | [ST-002](ST-002-how-big-is-s7.md) | How big is S7? | M5 | RG-099 | draft |
+| [ST-003](ST-003-the-client-who-cant-be-named.md) | The client who can't be named | M1 | RG-055, RG-064, RG-098 | draft |
+| [ST-004](ST-004-four-letters.md) | Four letters | M1 | RG-021, RG-036, RG-005 | draft |
+| [ST-005](ST-005-the-name-on-the-land.md) | The name on the land | M1 | RG-057, RG-023 | draft |
+| [ST-006](ST-006-seventeen-days.md) | Seventeen days | M1 | RG-052, RG-050 | draft |

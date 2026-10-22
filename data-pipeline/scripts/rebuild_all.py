@@ -52,6 +52,7 @@ PACKS = [
     # Last: corrects seed rows that cite SRC_CERTSTRAT, re-grades that source, and cites
     # SRC_HCF_REGISTER, which hcf_register.json registers.
     ("data/packs/certstrat_review.json", ["--allow-missing-source"]),
+    ("data/packs/who_applies.json", ["--allow-missing-source"]),
 ]
 
 
@@ -103,6 +104,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_ssd_documents.py")
     run(PY, "scripts/curate_operator_sources.py")
     run(PY, "scripts/curate_certstrat_review.py")
+    run(PY, "scripts/curate_who_applies.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

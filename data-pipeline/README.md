@@ -4,7 +4,34 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.2.3 · data as at 21 October 2026 · 1,462 data rows (+514 source refs) · 93 sites · 138 entities · 341 metrics · 248 catalogued sources (184 primary)**
+**Release v2.3.0 · data as at 22 October 2026 · 1,473 data rows (+557 source refs) · 93 sites · 139 entities · 342 metrics · 251 catalogued sources (187 primary)**
+
+v2.3.0 is **research batch 1, "Who is really applying?"** (`docs/RESEARCH-PLAN.md`, pack
+`data/packs/who_applies.json`). Three free records did most of what the agenda had marked as needing paid
+searches.
+
+- **ASIC's own company register** (the Company Dataset on data.gov.au, CC BY; `scrapers/fetch_asic_companies.py`)
+  gives every applicant's registration date and former names. **KNBDC SYD4 Pty Ltd, the company the NSW
+  Government named behind the 1 GW Mamre Road campus, has been AirTrunk SYD4 Pty Ltd since 16 June 2026**, as
+  have its sister companies. EMKC Cubed Management (two consents) has been CKTSME Management since June 2025,
+  four months before Apollo Place was approved in its old name. HDI SYD1 (DigiCo) carried Global Switch names
+  until May 2025. ISPT is now IFM Real Estate Fiduciary. Two Zerra companies once carried AGP names, and WDDP
+  Pty Ltd, behind the Western Downs proposal, was registered 17 days before its report.
+- **Title searches the applicants filed** (`scrapers/fetch_ownership_documents.py`): the **Davis Road** site is
+  registered to **Amazon Australia Company Pty Ltd**, on an application whose applicant acts for "a global data
+  centre operator" the Department does not name; the Mamre Road land is ISPT's, with a caveat by KNBDC SYD4.
+  Thirteen of the seventeen ownership documents asked for are locked; they are in a drafted GIPA application
+  (`docs/requests/GIPA-001-ownership-documents.md`).
+- **The Department's own assessment reports**: in **9 of 22** determined consents the applicant acts for an
+  operator the report does not name; 14 of 22 went to an applicant that is not the operator.
+- **RG-055 resolved, with a correction**: consent holders are mostly established firms standing in for unnamed
+  operators, not fresh vehicles (only one was under three years old). Eleven more questions advanced. RG-005 is now
+  cited, so 85 questions publish rather than 84.
+- **Corrections**: WDDP Pty Ltd is on ASIC's register (earlier notes said not); Zerra's AGP link now has a
+  primary record; Apollo Place's notes no longer put 51 Huntingwood Drive in Lane Cove; HDI SYD1 is not a new
+  structure type; Microsoft's company is registered as "Datacenter", now its `legal_name`.
+- **Paid searches** ranked and costed for the author (`docs/requests/PAID-SEARCHES.md`): three extracts for $60
+  answer the biggest open questions. Four story cards (ST-003 to ST-006) in `editorial/stories/`.
 
 v2.2.3 is a **correction release** found while writing the first story cards (`editorial/stories/`). No
 row is added or removed.

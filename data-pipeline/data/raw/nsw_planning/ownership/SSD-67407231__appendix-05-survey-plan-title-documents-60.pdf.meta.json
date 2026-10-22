@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-67407231%2120240919T063405.107+GMT",
+ "case": "SSD-67407231",
+ "project_slug": "apollo-place-data-centre",
+ "attachment_slug": "appendix-05-survey-plan-title-documents-60",
+ "label": "Appendix 05 - Survey Plan & Title Documents.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-21T23:55:57+00:00",
+ "sha256": "1681b149b5fd96977baaca42bf9a7ef5111f30cd189cb8b0e1a17dd6bccc61b5",
+ "bytes": 3600438,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 3009,
+ "pages": 17,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

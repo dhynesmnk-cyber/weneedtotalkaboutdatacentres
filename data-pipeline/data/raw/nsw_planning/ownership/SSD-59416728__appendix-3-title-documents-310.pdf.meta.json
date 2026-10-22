@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120240208T065641.229+GMT",
+ "case": "SSD-59416728",
+ "project_slug": "davis-road-data-centre-cundall",
+ "attachment_slug": "appendix-3-title-documents-310",
+ "label": "Appendix 3 - Title Documents.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-10-21T23:55:30+00:00",
+ "sha256": "bec6802ca1a29fd469c4a9a9169d1ec10447830a13ff42cc1fe795c6a2f13915",
+ "bytes": 532025,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 2360,
+ "pages": 12,
+ "text_redactions": 0,
+ "pdf_committed": false
+}
