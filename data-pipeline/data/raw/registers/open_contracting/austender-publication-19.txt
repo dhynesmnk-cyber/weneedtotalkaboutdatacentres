@@ -1,0 +1,248 @@
+Australia: Department of Finance | OCP Data Registry
+English
+español
+Русский
+Back to Datasets Search
+Australia: Department of Finance
+The Department of Finance publishes information through AusTender , the centralized procurement information system of the federal government.
+According to the Commonwealth Procurement Rules , all non-corporate Commonwealth entities and prescribed corporate Commonwealth entities must report contracts and amendments to AusTender within 42 days of entering into or amending a contract, if the contract or amendment is valued at or above the following thresholds (including VAT):
+$10,000 for non-corporate Commonwealth entities
+For prescribed corporate Commonwealth entities:
+$7,500,000 for construction services
+$400,000 for other procurements
+Every standing offer (similar to a list of pre-qualified suppliers) must be reported to AusTender within 42 days of a buyer entering into or amending it.
+Available formats:
+JSON
+Excel
+CSV
+Access
+Overview
+Data date range:
+date field in OCDS" data-event="date:detail" aria-label="Information about the data date range">
+Apr 2007 - Oct 2026
+Update frequency:
+-
+Last retrieved:
+Oct 13, 2026
+(retrieved monthly)
+Retrieved from:
+Kingfisher Collect . It transforms data as little as possible, like removing BOM and null characters, replacing unescaped newline or tab characters, and transcoding to UTF-8. It retries HTTP errors. New collections must contain more data than previous collections, and over 85% of requests must succeed. The data is then merged into compiled releases. You can read the source code for this dataset's spider." aria-label="Information about data retrieval">
+https://app.swaggerhub.com/apis/austender/ocds-api/1.1
+License:
+Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)
+You are free to :
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+Under the following terms :
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+Publication policy:
+-
+Main language:
+English
+OCID prefix:
+prod-fffffb
+Data available
+A contracting process has several stages: tendering, awarding, contracting and implementation. You can learn about the contracting stages in this tutorial .
+These counts are the number of JSON objects across all contracting processes . Parties, tenderers and suppliers are unique within a contracting process, but can be repeated across contracting processes. You can learn about data publication in this tutorial .
+Parties
+Count of parties:
+1,748,889
+Planning
+Count of planning activities:
+0
+Tenders
+Count of tenders:
+872,245
+Count of tenderers:
+0
+Count of tender items:
+0
+Awards
+Count of awards:
+872,261
+Count of suppliers:
+876,660
+Count of award items:
+0
+Contracts
+Count of contracts:
+872,261
+Count of contract items:
+1,201,509
+Count of transactions:
+0
+Documents
+Count of documents:
+0
+Milestones
+Count of milestones:
+0
+Amendments
+Count of amendments:
+329,263
+There are additional fields related to the exemption applied to conduct a limited tender with an expected value at or above the relevant threshold.
+tender/exemption
+tender/exemptionCode
+tender/limitedTenderExempt
+tender/limitedTenderReason
+tender/limitedTenderReasonCode
+parties/contactPoint/branch
+parties/contactPoint/division
+Data quality
+The dataset has quality issues to take into account, notably:
+Contracts with amendments:
+The status, period and value of contracts with cancelled amendments are overwritten with the status, period and value of the cancelled amendment. This means that contracts in the OCDS data may have incorrect properties, for example there are contracts which are active or completed in the AusTender front end but appear with a status of ‘cancelled’ in the OCDS data.
+The identifiers for the items associated with a contract differ between the original contract and each amendment. This means that amended contracts may have multiple duplicated items.
+When a contract is amended to change the name of a supplier, a new identifier is assigned and the previous supplier is not removed, resulting in multiple suppliers being associated with the contract.
+Buyer information is not provided in either the parties section or the buyer field and procuring entity information is not referenced from the tender/procuringEntity field. However, you can use the parties.roles field to identify the procuring entity for each contract.
+Organization identifiers are not provided in the parties/identifier field. However, you can use the parties/additionalIdentifiers field instead.
+Organizations identifiers are not provided for some organizations, in these cases you may need to fall-back to organization names to identify organizations.
+There are discrepancies between the number of notices available in the AusTender front-end and in the OCDS data.
+Descriptions for item classification (UNSPSC) codes are not provided. However, you can look up descriptions for the codes in publicly available UNSPSC code datasets.
+Last reviewed: Sep 2019
+Access data
+This OCDS dataset is available for download in JSON, Excel or CSV format. You can download the data for contracting processes in a specific year or for all time.
+JSON
+Each contracting process is represented as one line of JSON text in the .jsonl file.
+The .jsonl file is compressed using Gzip. Windows users need 7-Zip , WinRAR or WinZip to decompress the .gz file.
+All time
+260 MB
+2026
+20 MB
+2025
+23 MB
+2024
+19 MB
+2023
+61 MB
+2022
+15 MB
+2021
+15 MB
+2020
+14 MB
+2019
+14 MB
+2018
+11 MB
+2017
+10 MB
+2016
+11 MB
+2015
+12 MB
+2014
+12 MB
+2013
+11 MB
+2011
+< 1 MB
+2010
+< 1 MB
+2009
+< 1 MB
+2008
+< 1 MB
+2007
+< 1 MB
+Excel
+Each contracting process is represented as one row in the main sheet. Other sheets link to it via the main_ocid column. In general, each sheet is linked to its parent sheet via the [sheet_name]_id column.
+Excel files can have at most 1,048,576 rows . If a year is missing, it had too many rows. Download the CSV files, instead.
+2026
+32 MB
+2025
+36 MB
+2024
+30 MB
+2023
+99 MB
+2022
+23 MB
+2021
+23 MB
+2020
+22 MB
+2019
+23 MB
+2018
+22 MB
+2017
+21 MB
+2016
+22 MB
+2015
+23 MB
+2014
+22 MB
+2013
+22 MB
+2011
+< 1 MB
+2010
+< 1 MB
+2009
+< 1 MB
+2008
+< 1 MB
+2007
+< 1 MB
+CSV
+Each contracting process is represented as one row in the main.csv file. Other files link to it via the main_ocid column. In general, each file is link to its parent file via the [file_name]_id column.
+The .csv files are archived using tar and compressed using Gzip. Windows users need 7-Zip , WinRAR or WinZip to decompress the .tar.gz file.
+All time
+468 MB
+2026
+34 MB
+2025
+39 MB
+2024
+33 MB
+2023
+98 MB
+2022
+26 MB
+2021
+27 MB
+2020
+25 MB
+2019
+26 MB
+2018
+24 MB
+2017
+23 MB
+2016
+24 MB
+2015
+25 MB
+2014
+24 MB
+2013
+25 MB
+2011
+< 1 MB
+2010
+< 1 MB
+2009
+< 1 MB
+2008
+< 1 MB
+2007
+< 1 MB
+Do you have any questions or feedback on this dataset or any other content on this page?
+Contact Data Support Team
+What is open contracting
+Impact
+Implement
+About
+News & Community
+Contact
+[email protected]
+Open Contracting Partnership,
+1100 13th Street NW, Suite 800, 20005 Washington, D.C., USA
+Connect with us:
+This work by the Open Contracting Partnership, unless otherwise noted, is licensed under a Creative Commons Attribution 4.0 International License.
+Open Contracting Partnership 2026
+Terms

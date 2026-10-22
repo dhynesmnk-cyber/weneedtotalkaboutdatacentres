@@ -13,9 +13,13 @@ Archive (data/raw/asic/):
   company_dataset_<yyyymm>_extract.csv            the matching rows, as ASIC publishes them
   company_dataset_<yyyymm>_extract.csv.meta.json  dataset, resource url, ZIP sha256, filter, counts
 
+data.gov.au's robots.txt said "Disallow: /" to every crawler when it was read on 2026-10-22. This
+script did not read it before its run of 2026-10-21; it now reads it first and refuses if it
+disallows the catalogue or the ZIP. A person can download the ZIP in a browser and pass --zip.
+
 Usage:
-    python3 scrapers/fetch_asic_companies.py                  # download and extract
-    python3 scrapers/fetch_asic_companies.py --zip PATH.zip   # extract from a ZIP already fetched
+    python3 scrapers/fetch_asic_companies.py                  # download and extract, if robots.txt allows
+    python3 scrapers/fetch_asic_companies.py --zip PATH.zip --url URL   # extract from a ZIP a person downloaded
 """
 from __future__ import annotations
 
@@ -28,6 +32,8 @@ import os
 import re
 import sys
 import tempfile
+import shutil
+import urllib.parse
 import urllib.request
 import zipfile
 from datetime import datetime, timezone
@@ -71,16 +77,33 @@ def resource() -> tuple[str, str]:
     return zips[0]["url"], pkg["metadata_modified"]
 
 
+def robots_allow(url: str) -> bool:
+    """The host's robots.txt, read as this crawler, by the same reader scrapers/archive_pages.py uses."""
+    from archive_pages import robots_for  # noqa: PLC0415 - a sibling script, imported only here
+    return robots_for("{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(url))).can_fetch(UA, url)
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--zip", help="a ZIP already downloaded from the url the catalogue gives")
+    ap.add_argument("--zip", help="a ZIP a person downloaded from the dataset page")
+    ap.add_argument("--url", help="with --zip: the url the person downloaded it from")
     a = ap.parse_args(argv)
 
-    url, modified = resource()
-    path = a.zip
-    if not path:
+    if a.zip:
+        url, modified, path = a.url or "downloaded by a person", None, a.zip
+    else:
+        if not robots_allow(PACKAGE):
+            print(f"refused: robots.txt disallows {PACKAGE}; download the ZIP in a browser and pass --zip",
+                  file=sys.stderr)
+            return 2
+        url, modified = resource()
+        if not robots_allow(url):
+            print(f"refused: robots.txt disallows {url}; download it in a browser and pass --zip", file=sys.stderr)
+            return 2
         path = os.path.join(tempfile.mkdtemp(), "company.zip")
-        urllib.request.urlretrieve(url, path)  # noqa: S310 - the catalogue's own https url
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=600) as r, open(path, "wb") as fh:  # noqa: S310
+            shutil.copyfileobj(r, fh)
     digest = hashlib.sha256(open(path, "rb").read()).hexdigest()
 
     names = {norm(n) for n in NAMES}

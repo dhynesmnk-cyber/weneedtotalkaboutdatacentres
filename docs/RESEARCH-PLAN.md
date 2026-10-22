@@ -138,6 +138,12 @@ The requests live in `docs/requests/`, one file per request, with an index:
   excluding robots.txt, a terms-of-use gate) are listed in
   `docs/requests/DOWNLOADS.md` for a person to download with a browser. Agents
   never get past a refusal themselves.
+- **Open-licence copies held elsewhere.** When a site refuses the crawler but
+  publishes its data under an open licence, and an independent republisher
+  whose own site allows the crawler holds a copy, that copy may be read. It is
+  checked against records read at the source, its origin is stated in the
+  source's notes, and the author confirms the practice (first used in batch 4,
+  for the AusTender feed).
 - **Paid searches** (ASIC extracts, NSW title searches) are listed in
   `docs/requests/PAID-SEARCHES.md`, ranked by what each would unlock. The
   price of each is confirmed from the provider's current fee schedule when
@@ -160,8 +166,8 @@ drafts. A batch ends with the author's review, not with a merge by an agent.
 | 0 Set-up and pilot *(merged 2026-10-22)* | This plan; the card format; a checker that refuses a card citing a source id the pipeline does not hold; two pilot cards from hunts already finished | Pilots: *The article that wasn't there* (RG-100: four records cited an article whose archived version never mentions them) and *How big is S7?* (RG-099: NEXTDC S7's scoping report gives two totals, and a later attachment is restricted). The author confirms or adjusts the voice before anything else is written |
 | 1 Who is really applying (M1) *(merged 2026-10-22)* | Every free route for the eleven M1 questions, including incorporation dates for the applicants behind every determined NSW consent (RG-055) | Answers and cards, plus `PAID-SEARCHES.md` ranked and costed, and the GIPA draft for RG-057. Budget question to the author |
 | 2 Your super and the OpenAI deal (M2, M5) *(merged 2026-10-22)* | Holdings disclosures, Future Fund files, NEXTDC disclosures | Answers and cards. The Mamre Road title came with the application in batch 1, so no paid search was needed; eight sites refused the crawler and the exchange keeps its documents behind terms of use, so `docs/requests/DOWNLOADS.md` lists those files for a person to download |
-| 3 What the public gives and who is in the room (M3, M4) *(in review)* | Planning agreements, the DPHI concierge, the grid-payment claim, lobbyist registers and diaries, research funding, consultancy overlap | Answers and cards; GIPA-002 (RG-007) and FOI-001 (RG-006) drafted. The consents themselves turned out to record each developer's contributions; the ministers' diaries, the NSW lobbyist register, AusTender and buy.nsw refused the crawler and are in `docs/requests/DOWNLOADS.md` |
-| 4 Whose data, whose rules (C3) | The keynote quote, the Palantir contract ledger, Coles, corporate customers, AUKUS on the public record | Answers and cards; FOI drafts for RG-087, RG-089 and RG-093; RG-012 with its disclosure |
+| 3 What the public gives and who is in the room (M3, M4) *(merged 2026-10-22)* | Planning agreements, the DPHI concierge, the grid-payment claim, lobbyist registers and diaries, research funding, consultancy overlap | Answers and cards; GIPA-002 (RG-007) and FOI-001 (RG-006) drafted. The consents themselves turned out to record each developer's contributions; the ministers' diaries, the NSW lobbyist register, AusTender and buy.nsw refused the crawler and are in `docs/requests/DOWNLOADS.md` |
+| 4 Whose data, whose rules (C3) *(in review)* | The keynote quote, the Palantir contract ledger, Coles, corporate customers, AUKUS on the public record | Answers and cards; FOI-002 to FOI-004 drafted; RG-012 resolved with its disclosure. The full Commonwealth ledger came from an open-licence copy of the AusTender feed, because AusTender and data.gov.au refuse the crawler. The Australian Signals Directorate turned out to be outside the FOI Act, so the RG-087 and RG-089 requests go to Defence |
 | 5 Who gets heard and did anyone check (C1, C2) | Council and community submissions on the record, both inquiries, Victoria's Part 9A decisions, compliance and the donation disclosure | Answers and cards; GIPA drafts for RG-058 and RG-085 |
 | Rolling | Returned FOI decisions and purchased extracts | Each processed as it arrives, its question and card updated in a small pull request |
 

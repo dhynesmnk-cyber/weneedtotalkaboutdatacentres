@@ -1,0 +1,14 @@
+{
+ "derived_from": "data/raw/registers/open_contracting/austender-full.jsonl.gz",
+ "derived_from_sha256": "27619b1bfacee661c7af36e6257861574fa9562c041f09131e543b1223343538",
+ "derived_from_url": "https://fastly.data.open-contracting.org/downloads/australia/4299/full.jsonl.gz",
+ "filter": "every record whose line holds 'nvidia' in any case",
+ "redaction": "each party's contactPoint and address removed: they can name or locate a person",
+ "records": 8,
+ "derived_utc": "2026-10-22T21:10:51+00:00",
+ "sha256": "df8b756e0a3037143ca325166620f5fd460a2810e14a92368c0a0ae357c2b076",
+ "bytes": 14472,
+ "aukus_records": 2,
+ "aukus_suppliers_palantir_or_nvidia": 0,
+ "aukus_note": "records whose line holds 'aukus' in any case: counted here, not committed, because one supplier is an individual"
+}

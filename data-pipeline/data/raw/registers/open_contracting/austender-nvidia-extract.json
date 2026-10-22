@@ -1,0 +1,671 @@
+[
+ {
+  "awards": [
+   {
+    "date": "2013-06-06T00:22:39Z",
+    "id": "CN1450022-16dce2e104a8273657484371991fda9f",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "e15344e5b7c5164aec278f272190044a",
+      "name": "XENON SYSTEMS PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN1450022-16dce2e104a8273657484371991fda9f",
+    "dateSigned": "2013-06-06T00:22:39Z",
+    "description": "GPU Cluster upgrade Nvidia Kepler cards",
+    "id": "CN1450022",
+    "items": [
+     {
+      "classification": {
+       "id": "81111812",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111812-16dce2e104a8273657484371991fda9f"
+     }
+    ],
+    "period": {
+     "endDate": "2015-02-14T13:00:00Z",
+     "startDate": "2013-06-04T14:00:00Z"
+    },
+    "status": "active",
+    "title": "CSIRORFQ2013085",
+    "value": {
+     "amount": "1111352.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2013-06-06T00:22:39Z",
+  "id": "prod-16dce2ebcb1560ae45e36b4a53123a2d-2013-06-06T00:22:39Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-16dce2ebcb1560ae45e36b4a53123a2d",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "39074339316",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "e15344e5b7c5164aec278f272190044a",
+    "name": "XENON SYSTEMS PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "41687119230",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "d3284cb3cff6a81557614b93587bd740",
+    "name": "CSIRO",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-16dce2ebcb1560ae45e36b4a53123a2d",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2017-01-03T22:05:52Z",
+    "id": "CN3396983-ffabe8459fb2ec448f65a71071cc72a4",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "bbc83401c379b643f14f7054a80ea9bc",
+      "name": "FRONTLINE SYSTEMS AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3396983-ffabe8459fb2ec448f65a71071cc72a4",
+    "dateSigned": "2017-01-03T22:05:52Z",
+    "description": "NVIDIA QUADRO Graphics Cards",
+    "id": "CN3396983",
+    "items": [
+     {
+      "classification": {
+       "id": "43210000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43210000-ffabe8459fb2ec448f65a71071cc72a4"
+     }
+    ],
+    "period": {
+     "endDate": "2017-03-30T13:00:00Z",
+     "startDate": "2016-12-19T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4501014106",
+    "value": {
+     "amount": "39319.06",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2017-01-03T22:05:52Z",
+  "id": "prod-ffabe846911914f4987caf08fc916cdd-2017-01-03T22:05:52Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-ffabe846911914f4987caf08fc916cdd",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "61059040998",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "bbc83401c379b643f14f7054a80ea9bc",
+    "name": "FRONTLINE SYSTEMS AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-ffabe846911914f4987caf08fc916cdd",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2017-03-13T21:14:29Z",
+    "id": "CN3409009-df395ae0c0dd5ff527c5cd8d4eea641b",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "e15344e5b7c5164aec278f272190044a",
+      "name": "XENON SYSTEMS PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3409009-df395ae0c0dd5ff527c5cd8d4eea641b",
+    "dateSigned": "2017-03-13T21:14:29Z",
+    "description": "NVIDIA DGX-1 Deep Learning Servers",
+    "id": "CN3409009",
+    "items": [
+     {
+      "classification": {
+       "id": "43210000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43210000-df395ae0c0dd5ff527c5cd8d4eea641b"
+     }
+    ],
+    "period": {
+     "endDate": "2017-04-27T14:00:00Z",
+     "startDate": "2017-02-15T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4501016887",
+    "value": {
+     "amount": "574145.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2017-03-13T21:14:29Z",
+  "id": "prod-df395ae1c04e1e8a0d30056bc8dcdc05-2017-03-13T21:14:29Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-df395ae1c04e1e8a0d30056bc8dcdc05",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "39074339316",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "e15344e5b7c5164aec278f272190044a",
+    "name": "XENON SYSTEMS PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-df395ae1c04e1e8a0d30056bc8dcdc05",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2017-06-05T22:55:13Z",
+    "id": "CN3427950-c8b16582b3dafe3e59fc5d823802a031",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "abb94e12ab5bb33459db6a0b1dbfb5b0",
+      "name": "DELL AUSTRALIA PTY LIMITED"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3427950-c8b16582b3dafe3e59fc5d823802a031",
+    "dateSigned": "2017-06-05T22:55:13Z",
+    "description": "NVIDIA cards",
+    "id": "CN3427950",
+    "items": [
+     {
+      "classification": {
+       "id": "43210000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43210000-c8b16582b3dafe3e59fc5d823802a031"
+     }
+    ],
+    "period": {
+     "endDate": "2017-05-28T14:00:00Z",
+     "startDate": "2017-05-21T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501023345",
+    "value": {
+     "amount": "264829.49",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2017-06-05T22:55:13Z",
+  "id": "prod-c8b16583b45e16f740e3268b3a78b389-2017-06-05T22:55:13Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-c8b16583b45e16f740e3268b3a78b389",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "46003855561",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "abb94e12ab5bb33459db6a0b1dbfb5b0",
+    "name": "DELL AUSTRALIA PTY LIMITED",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-c8b16583b45e16f740e3268b3a78b389",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2017-06-05T22:55:42Z",
+    "id": "CN3428010-c8b5cfabc0e9b094af2e74523f44336a",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "abb94e12ab5bb33459db6a0b1dbfb5b0",
+      "name": "DELL AUSTRALIA PTY LIMITED"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3428010-c8b5cfabc0e9b094af2e74523f44336a",
+    "dateSigned": "2017-06-05T22:55:42Z",
+    "description": "NVIDIA Cards",
+    "id": "CN3428010",
+    "items": [
+     {
+      "classification": {
+       "id": "43210000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43210000-c8b5cfabc0e9b094af2e74523f44336a"
+     }
+    ],
+    "period": {
+     "endDate": "2017-05-28T14:00:00Z",
+     "startDate": "2017-05-21T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501023357",
+    "value": {
+     "amount": "274454.40",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2017-06-05T22:55:42Z",
+  "id": "prod-c8b5cfacb29596befa71fe66a60fd045-2017-06-05T22:55:42Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-c8b5cfacb29596befa71fe66a60fd045",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "46003855561",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "abb94e12ab5bb33459db6a0b1dbfb5b0",
+    "name": "DELL AUSTRALIA PTY LIMITED",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-c8b5cfacb29596befa71fe66a60fd045",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2018-01-03T00:05:25Z",
+    "id": "CN3477307-3d5e6ff70869142d91b891ca73937485",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "9689a9a49845221a480627f92bf81f0e",
+      "name": "HEWLETT-PACKARD ENTERPRISE"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3477307-3d5e6ff70869142d91b891ca73937485",
+    "dateSigned": "2018-01-03T00:05:25Z",
+    "description": "Nvidia Grid Software Licences",
+    "id": "CN3477307",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-3d5e6ff70869142d91b891ca73937485"
+     }
+    ],
+    "period": {
+     "endDate": "2020-12-26T13:00:00Z",
+     "startDate": "2017-12-17T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4501037644",
+    "value": {
+     "amount": "367886.20",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2018-01-03T00:05:25Z",
+  "id": "prod-3d5e6ff8fe7e44a483fb451019ade2f7-2018-01-03T00:05:25Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-3d5e6ff8fe7e44a483fb451019ade2f7",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "74004394763",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "9689a9a49845221a480627f92bf81f0e",
+    "name": "HEWLETT-PACKARD ENTERPRISE",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-3d5e6ff8fe7e44a483fb451019ade2f7",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2019-05-24T03:21:31Z",
+    "id": "CN3594682-0e943332ce00f95a64025b737d60ebf8",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "9689a9a49845221a480627f92bf81f0e",
+      "name": "HEWLETT-PACKARD ENTERPRISE T/A HEWLETT PACKARD AUSTRALIA"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3594682-0e943332ce00f95a64025b737d60ebf8",
+    "dateSigned": "2019-05-24T03:21:31Z",
+    "description": "Software purchase Nvidia grid",
+    "id": "CN3594682",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-0e943332ce00f95a64025b737d60ebf8"
+     }
+    ],
+    "period": {
+     "endDate": "2022-05-18T14:00:00Z",
+     "startDate": "2019-05-19T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501073179",
+    "value": {
+     "amount": "75350.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2019-05-24T03:21:31Z",
+  "id": "prod-0e9433339df05138e1348a21f573a12d-2019-05-24T03:21:31Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-0e9433339df05138e1348a21f573a12d",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "74004394763",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "9689a9a49845221a480627f92bf81f0e",
+    "name": "HEWLETT-PACKARD ENTERPRISE T/A HEWLETT PACKARD AUSTRALIA",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-0e9433339df05138e1348a21f573a12d",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2023-05-11T00:22:46Z",
+    "id": "CN3964579-1eb8471d2fdb4bc1a2fe6ffa0c9e11bd",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "e15344e5b7c5164aec278f272190044a",
+      "name": "Xenon Systems Pty Ltd"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3964579-1eb8471d2fdb4bc1a2fe6ffa0c9e11bd",
+    "dateSigned": "2023-05-11T00:22:46Z",
+    "description": "Nvidia DGXH100\nHardware, support, software and installation",
+    "id": "CN3964579",
+    "items": [
+     {
+      "classification": {
+       "id": "43210000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43210000-1eb8471d2fdb4bc1a2fe6ffa0c9e11bd"
+     }
+    ],
+    "period": {
+     "endDate": "2028-05-03T14:00:00Z",
+     "startDate": "2023-05-04T14:00:00Z"
+    },
+    "status": "active",
+    "title": "2023-WOR123 - 3 DGX H100 units",
+    "value": {
+     "amount": "1465335.30",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-05-11T00:22:46Z",
+  "id": "prod-d21be99a171544ddacdbfd0c29bee265-2023-05-11T00:22:46Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-d21be99a171544ddacdbfd0c29bee265",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "39074339316",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "e15344e5b7c5164aec278f272190044a",
+    "name": "Xenon Systems Pty Ltd",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "41687119230",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "d3284cb3cff6a81557614b93587bd740",
+    "name": "CSIRO",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-d21be99a171544ddacdbfd0c29bee265",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ }
+]

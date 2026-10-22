@@ -1,0 +1,2854 @@
+[
+ {
+  "awards": [
+   {
+    "date": "2013-05-21T01:39:53Z",
+    "id": "CN1402001-c4be1b2b9c0407254063febd0d25e6c0",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN1402001-c4be1b2b9c0407254063febd0d25e6c0",
+    "dateSigned": "2013-05-21T01:39:53Z",
+    "description": "Software Licencing",
+    "id": "CN1402001",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-c4be1b2b9c0407254063febd0d25e6c0"
+     }
+    ],
+    "period": {
+     "endDate": "2015-06-29T14:00:00Z",
+     "startDate": "2013-05-05T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4500891338",
+    "value": {
+     "amount": "609186.52",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2013-05-21T01:39:53Z",
+  "id": "prod-c4be1b2cea5b6417b9f30b8629c6245f-2013-05-21T01:39:53Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-c4be1b2cea5b6417b9f30b8629c6245f",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-c4be1b2cea5b6417b9f30b8629c6245f",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2013-08-12T14:00:00Z",
+    "id": "CN1676331-751895fe9ad4941dafccf7012cd7faca",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-75189608985cedff5372e4f219647143-f0a1ed2e3e8a34b48bb96c02e8dc882f",
+      "id": "CN1676331-A1",
+      "releaseID": "prod-75189608985cedff5372e4f219647143-cf06929e9a503f9e9f7d2ae0bba29651"
+     },
+     {
+      "amendsReleaseID": "prod-75189608985cedff5372e4f219647143-f0a1ed2e3e8a34b48bb96c02e8dc882f",
+      "id": "CN1676331-A2",
+      "releaseID": "prod-75189608985cedff5372e4f219647143-e888bff090dc3f42bdb2320ff7c42c0b"
+     }
+    ],
+    "awardID": "CN1676331-751895fe9ad4941dafccf7012cd7faca",
+    "dateSigned": "2013-08-12T14:00:00Z",
+    "description": "Software and Technical Services",
+    "id": "CN1676331",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-751895fe9ad4941dafccf7012cd7faca"
+     },
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-e136b965c9aa12b2e09593513d20002e"
+     },
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-7af2dacaecd3864485236108324a7de4"
+     }
+    ],
+    "period": {
+     "endDate": "2014-06-29T14:00:00Z",
+     "startDate": "2013-07-31T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4500902637",
+    "value": {
+     "amount": "2023683.72",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-04-27T08:08:01Z",
+  "id": "prod-75189608985cedff5372e4f219647143-2023-04-27T08:08:01Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-75189608985cedff5372e4f219647143",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-75189608985cedff5372e4f219647143",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2013-08-12T14:00:00Z",
+    "id": "CN1677931-75273ccee873e1d9346eb6aadaed0a37",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A1",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-ac0e21bd371c35efaf1bb7133e781b80"
+     },
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A2",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-6812b905841d33588082d7c64308048d"
+     },
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A3",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-e999e697abdb3a3ca3ca119791bbf728"
+     },
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A4",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-0b0d393073743d108fb82efc8d4c65b3"
+     },
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A5",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-31c4a7dc16243a35a15ce77938b65548"
+     },
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A6",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-53d199477da33d2ba4205ef9424a6556"
+     },
+     {
+      "amendsReleaseID": "prod-75273cd8a67f180f34a18fb3170815ec-8520ddcdf11234a6a099cbc23b9357a5",
+      "id": "CN1677931-A7",
+      "releaseID": "prod-75273cd8a67f180f34a18fb3170815ec-1e463e3155863cab8e303e0b4ffe2830"
+     }
+    ],
+    "awardID": "CN1677931-75273ccee873e1d9346eb6aadaed0a37",
+    "dateSigned": "2013-08-12T14:00:00Z",
+    "description": "Software Support",
+    "id": "CN1677931",
+    "items": [
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-75273ccee873e1d9346eb6aadaed0a37"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-29e0d01bbfea8c7e6970891051b58f10"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-a6c0cdc2d3542e02f4088b03d3de960c"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-6f3d59baf5fa83d33242c72dcdd401d8"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-d5d5225492a91ca8ee267f37f3b901df"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-5d7d4cf0a6c5862e2bf5f4468b5040ee"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-f5b9fe0ee6bd65f6e86d8dacb5eb5798"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-90f7896bbc01a62b6e25118c58e7db21"
+     }
+    ],
+    "period": {
+     "endDate": "2017-08-29T14:00:00Z",
+     "startDate": "2013-07-30T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4500902539",
+    "value": {
+     "amount": "2611237.78",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-04-27T08:08:01Z",
+  "id": "prod-75273cd8a67f180f34a18fb3170815ec-2023-04-27T08:08:01Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-75273cd8a67f180f34a18fb3170815ec",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-75273cd8a67f180f34a18fb3170815ec",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2014-02-03T22:13:12Z",
+    "id": "CN2025081-c21527f396ebc0496625d68b2d9b2dca",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN2025081-c21527f396ebc0496625d68b2d9b2dca",
+    "dateSigned": "2014-02-03T22:13:12Z",
+    "description": "Software licence and configuration",
+    "id": "CN2025081",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-c21527f396ebc0496625d68b2d9b2dca"
+     }
+    ],
+    "period": {
+     "endDate": "2014-06-29T14:00:00Z",
+     "startDate": "2014-01-21T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4500920176",
+    "value": {
+     "amount": "456880.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2014-02-03T22:13:12Z",
+  "id": "prod-c21527f4dbc645e2cdb83e6fc4b74a56-2014-02-03T22:13:12Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-c21527f4dbc645e2cdb83e6fc4b74a56",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-c21527f4dbc645e2cdb83e6fc4b74a56",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2014-06-10T00:03:02Z",
+    "id": "CN2296931-1ed06d0becbd2b07269de52294d725cf",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN2296931-1ed06d0becbd2b07269de52294d725cf",
+    "dateSigned": "2014-06-10T00:03:02Z",
+    "description": "Software License Support and Maintenance",
+    "id": "CN2296931",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-1ed06d0becbd2b07269de52294d725cf"
+     }
+    ],
+    "period": {
+     "endDate": "2017-08-10T14:00:00Z",
+     "startDate": "2014-05-28T14:00:00Z"
+    },
+    "status": "cancelled",
+    "title": "4500934229",
+    "value": {
+     "amount": "1010365.99",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2014-06-10T00:03:02Z",
+  "id": "prod-1ed06d0caba7bd5692b236187fd7c54b-2014-06-10T00:03:02Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-1ed06d0caba7bd5692b236187fd7c54b",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-1ed06d0caba7bd5692b236187fd7c54b",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2014-06-16T23:20:35Z",
+    "id": "CN2317501-85c3400ade0ee21f060722145ad26027",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-85c3400b00b9211afa48a8470b9ea29f-3752ca76056d3c3b842b91c3ef4a0bf1",
+      "id": "CN2317501-A1",
+      "releaseID": "prod-85c3400b00b9211afa48a8470b9ea29f-55ab9b7f71253a039ba530e7ed526619"
+     },
+     {
+      "amendsReleaseID": "prod-85c3400b00b9211afa48a8470b9ea29f-3752ca76056d3c3b842b91c3ef4a0bf1",
+      "id": "CN2317501-A2",
+      "releaseID": "prod-85c3400b00b9211afa48a8470b9ea29f-4fb2d8a9723936689199a38776845b64"
+     }
+    ],
+    "awardID": "CN2317501-85c3400ade0ee21f060722145ad26027",
+    "dateSigned": "2014-06-16T23:20:35Z",
+    "description": "Software Support Services",
+    "id": "CN2317501",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-85c3400ade0ee21f060722145ad26027"
+     },
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-14e50842295f4d769b14c080ba8ce583"
+     },
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-9516539a435d4613b43e462092bbce40"
+     }
+    ],
+    "period": {
+     "endDate": "2020-08-09T14:00:00Z",
+     "startDate": "2014-06-01T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4500934532",
+    "value": {
+     "amount": "1594326.16",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-04-27T08:08:01Z",
+  "id": "prod-85c3400b00b9211afa48a8470b9ea29f-2023-04-27T08:08:01Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-85c3400b00b9211afa48a8470b9ea29f",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-85c3400b00b9211afa48a8470b9ea29f",
+   "limitedTenderExempt": "0",
+   "limitedTenderReason": "10.3.e. Additional deliveries by original supplier intended as replacement parts, extensions, or continuation for existing goods or services for compatibility.",
+   "limitedTenderReasonCode": "AD",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2014-07-04T06:45:34Z",
+    "id": "CN2386341-0131fc9aa39021404939f4f77f6293a2",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN2386341-0131fc9aa39021404939f4f77f6293a2",
+    "dateSigned": "2014-07-04T06:45:34Z",
+    "description": "Software Licenses",
+    "id": "CN2386341",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-0131fc9aa39021404939f4f77f6293a2"
+     }
+    ],
+    "period": {
+     "endDate": "2014-12-31T13:00:00Z",
+     "startDate": "2014-06-25T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4500004927",
+    "value": {
+     "amount": "20211.40",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2014-07-04T06:45:34Z",
+  "id": "prod-0131fc9b0196df37354aaffc9bd111b3-2014-07-04T06:45:34Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-0131fc9b0196df37354aaffc9bd111b3",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "11259448410",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec8e669de6d4e15055093b5150d2eac",
+    "name": "Australian Criminal Intelligence Commission",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-0131fc9b0196df37354aaffc9bd111b3",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2014-08-21T03:35:04Z",
+    "id": "CN2514842-a237e9b2ab7bae8dae6383bc0275c523",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-51B5AC5CA1383B4980511DB9D8BFF8C1",
+      "name": "Palantir Technologies Inc"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN2514842-a237e9b2ab7bae8dae6383bc0275c523",
+    "dateSigned": "2014-08-21T03:35:04Z",
+    "description": "Software Maintenance and Support",
+    "id": "CN2514842",
+    "items": [
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-a237e9b2ab7bae8dae6383bc0275c523"
+     }
+    ],
+    "period": {
+     "endDate": "2015-08-08T14:00:00Z",
+     "startDate": "2014-08-10T14:00:00Z"
+    },
+    "status": "active",
+    "title": "0000001559",
+    "value": {
+     "amount": "310493.88",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2014-08-21T03:35:04Z",
+  "id": "prod-a237e9b3ceb27a7a6a2736b83ea4b1b3-2014-08-21T03:35:04Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-a237e9b3ceb27a7a6a2736b83ea4b1b3",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-51B5AC5CA1383B4980511DB9D8BFF8C1",
+    "name": "Palantir Technologies Inc",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "11259448410",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec8e669de6d4e15055093b5150d2eac",
+    "name": "Australian Criminal Intelligence Commission",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-a237e9b3ceb27a7a6a2736b83ea4b1b3",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2015-08-20T08:06:25Z",
+    "id": "CN3287309-e5758733d4aba5590588e210b8ab916b",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-e5758734ee6f064e8b83da9a29040e07-1ba12bce584d3f6eb2861924defb42d1",
+      "id": "CN3287309-A1",
+      "releaseID": "prod-e5758734ee6f064e8b83da9a29040e07-ba4d20ffaac83a4a93241ac52897e73d"
+     },
+     {
+      "amendsReleaseID": "prod-e5758734ee6f064e8b83da9a29040e07-1ba12bce584d3f6eb2861924defb42d1",
+      "id": "CN3287309-A2",
+      "releaseID": "prod-e5758734ee6f064e8b83da9a29040e07-dc5a567600843a8897d7298bbf14e2df"
+     }
+    ],
+    "awardID": "CN3287309-e5758733d4aba5590588e210b8ab916b",
+    "dateSigned": "2015-08-20T08:06:25Z",
+    "description": "Hardware & Software Maintenance",
+    "id": "CN3287309",
+    "items": [
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-e5758733d4aba5590588e210b8ab916b"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-69cf4c8ac926941f0e18ff98e6940284"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-679d69c9e0a7cdaa9da36d07de12c5a3"
+     }
+    ],
+    "period": {
+     "endDate": "2018-08-08T14:00:00Z",
+     "startDate": "2015-08-09T14:00:00Z"
+    },
+    "status": "active",
+    "title": "0000001678",
+    "value": {
+     "amount": "1329261.57",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-04-27T08:08:01Z",
+  "id": "prod-e5758734ee6f064e8b83da9a29040e07-2023-04-27T08:08:01Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-e5758734ee6f064e8b83da9a29040e07",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "11259448410",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec8e669de6d4e15055093b5150d2eac",
+    "name": "Australian Criminal Intelligence Commission",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-e5758734ee6f064e8b83da9a29040e07",
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Prequalified tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2016-09-22T03:26:02Z",
+    "id": "CN3377908-1f482f7cc3ba863b6f4fd5192b606e57",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia Pty Ltd"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3377908-1f482f7cc3ba863b6f4fd5192b606e57",
+    "dateSigned": "2016-09-22T03:26:02Z",
+    "description": "Provision of Software services",
+    "id": "CN3377908",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-1f482f7cc3ba863b6f4fd5192b606e57"
+     }
+    ],
+    "period": {
+     "endDate": "2017-07-30T14:00:00Z",
+     "startDate": "2016-09-19T14:00:00Z"
+    },
+    "status": "active",
+    "title": "AC1047a",
+    "value": {
+     "amount": "242000.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2016-09-22T03:26:02Z",
+  "id": "prod-1f482f7dff2d48b04ca9fa417e0dd5c6-2016-09-22T03:26:02Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-1f482f7dff2d48b04ca9fa417e0dd5c6",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia Pty Ltd",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "32770513371",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9030e0ee15a0f4923b75c100f8606",
+    "name": "Australian Transaction Reports and Analysis Centre",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-1f482f7dff2d48b04ca9fa417e0dd5c6",
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Prequalified tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2017-09-01T03:36:55Z",
+    "id": "CN3452251-531ded6d084bec10fe8e424cd9bb110e",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia Pty Ltd"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-531ded6edc4e647b20691bc87ece2b75-ef8a775ec2c53a9d86faa610ec32d298",
+      "id": "CN3452251-A1",
+      "releaseID": "prod-531ded6edc4e647b20691bc87ece2b75-f34d196bfc56302f98734b8c1f5a1eaf"
+     },
+     {
+      "amendsReleaseID": "prod-531ded6edc4e647b20691bc87ece2b75-ef8a775ec2c53a9d86faa610ec32d298",
+      "id": "CN3452251-A2",
+      "releaseID": "prod-531ded6edc4e647b20691bc87ece2b75-26bf53b795c432a2a55d9bc79aa821e6"
+     }
+    ],
+    "awardID": "CN3452251-531ded6d084bec10fe8e424cd9bb110e",
+    "dateSigned": "2017-09-01T03:36:55Z",
+    "description": "Provision of Software Services",
+    "id": "CN3452251",
+    "items": [
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-531ded6d084bec10fe8e424cd9bb110e"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-9876654e12c74db0b82c8c0ccaa10798"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-45bf69b3bd574fab98bc47362f2b33cd"
+     }
+    ],
+    "period": {
+     "endDate": "2022-12-30T13:00:00Z",
+     "startDate": "2017-07-23T14:00:00Z"
+    },
+    "status": "active",
+    "title": "AC1047b",
+    "value": {
+     "amount": "8625342.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-04-27T08:08:01Z",
+  "id": "prod-531ded6edc4e647b20691bc87ece2b75-2023-04-27T08:08:01Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-531ded6edc4e647b20691bc87ece2b75",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia Pty Ltd",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "32770513371",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9030e0ee15a0f4923b75c100f8606",
+    "name": "Australian Transaction Reports and Analysis Centre",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-531ded6edc4e647b20691bc87ece2b75",
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Prequalified tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2017-12-18T21:57:14Z",
+    "id": "CN3475110-344ee87ea40771d732750aaf1a8b3699",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3475110-344ee87ea40771d732750aaf1a8b3699",
+    "dateSigned": "2017-12-18T21:57:14Z",
+    "description": "DEF7013 Ph4 Tranche 2 Scoping Study",
+    "id": "CN3475110",
+    "items": [
+     {
+      "classification": {
+       "id": "80101600",
+       "scheme": "UNSPSC"
+      },
+      "id": "80101600-344ee87ea40771d732750aaf1a8b3699"
+     }
+    ],
+    "period": {
+     "endDate": "2018-02-27T13:00:00Z",
+     "startDate": "2017-12-07T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4501037050",
+    "value": {
+     "amount": "100000.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2017-12-18T21:57:14Z",
+  "id": "prod-344ee87f9a2faa51906dcc3d9a5da6a3-2017-12-18T21:57:14Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-344ee87f9a2faa51906dcc3d9a5da6a3",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-344ee87f9a2faa51906dcc3d9a5da6a3",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2018-07-24T04:45:48Z",
+    "id": "CN3526802-ea10c679a522e6810ead8dac36ac476d",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3526802-ea10c679a522e6810ead8dac36ac476d",
+    "dateSigned": "2018-07-24T04:45:48Z",
+    "description": "Software Maintenance and Support",
+    "id": "CN3526802",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-ea10c679a522e6810ead8dac36ac476d"
+     }
+    ],
+    "period": {
+     "endDate": "2019-06-29T14:00:00Z",
+     "startDate": "2018-06-30T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501052145",
+    "value": {
+     "amount": "639345.30",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2018-07-24T04:45:48Z",
+  "id": "prod-ea10c67aba8665e938e3afe374ebbd91-2018-07-24T04:45:48Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-ea10c67aba8665e938e3afe374ebbd91",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-ea10c67aba8665e938e3afe374ebbd91",
+   "limitedTenderExempt": "0",
+   "limitedTenderReason": "10.3.d.ii. Supply by particular business: with no reasonable alternative or substitute: to protect exclusive rights or proprietary information.",
+   "limitedTenderReasonCode": "ER",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2018-12-05T23:49:07Z",
+    "id": "CN3557030-0785d6c0c110b56d82a0b402aeb7a4a3",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia Pty"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A1",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-9b82319b6b7a3e2fb74f33aef580508a"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A2",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-9b8928be4e2234d483e852e0534338ce"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A3",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-7a5df9fd7527391da6ed1a4c5df6bb45"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A4",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-acbe30cffdfc32d4b5412f6f43c7a0a6"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A5",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-8e20b5547920329687a6dc8309912444"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A6",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-9f640e23597e37f3a6bd1cd8fba891be"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A7",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-4f44ae92b3b932758ce71f3282ec4338"
+     },
+     {
+      "amendsReleaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-64e968e739853965a0c8ec79d205ce26",
+      "id": "CN3557030-A8",
+      "releaseID": "prod-0785d6c19f8ebdd66f1b7fe38def6195-ab59197dad3a345c9f4beabd4990fe0b"
+     }
+    ],
+    "awardID": "CN3557030-0785d6c0c110b56d82a0b402aeb7a4a3",
+    "dateSigned": "2018-12-05T23:49:07Z",
+    "description": "Software Maintenance and Support",
+    "id": "CN3557030",
+    "items": [
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-0785d6c0c110b56d82a0b402aeb7a4a3"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-4584d563859d4f958bc639864b4ab369"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-218d12543c784dfc9448260a0a38df90"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-1171818709534442a5c5ea95f1ac7fd6"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-df488729c6c043879ddb2c5a603d4ab3"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-5a5bdb7e025c441195b2bf1d3477d11b"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-2b52cd86a88d4d4e9bc01be226850092"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-c48b4c798a0549deb3a43c8b023e50f8"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-015ebd2797e44fe0a70bb8ba401dda84"
+     }
+    ],
+    "period": {
+     "endDate": "2023-05-30T14:00:00Z",
+     "startDate": "2018-11-15T13:00:00Z"
+    },
+    "status": "active",
+    "title": "0000002389",
+    "value": {
+     "amount": "3006785.42",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-04-27T08:08:01Z",
+  "id": "prod-0785d6c19f8ebdd66f1b7fe38def6195-2023-04-27T08:08:01Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-0785d6c19f8ebdd66f1b7fe38def6195",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia Pty",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "11259448410",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec8e669de6d4e15055093b5150d2eac",
+    "name": "Australian Criminal Intelligence Commission",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-0785d6c19f8ebdd66f1b7fe38def6195",
+   "limitedTenderExempt": "0",
+   "limitedTenderReason": "10.3.e. Additional deliveries by original supplier intended as replacement parts, extensions, or continuation for existing goods or services for compatibility.",
+   "limitedTenderReasonCode": "AD",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2019-07-12T03:17:28Z",
+    "id": "CN3610053-befa41b4846c484eb32b882925410d48",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3610053-befa41b4846c484eb32b882925410d48",
+    "dateSigned": "2019-07-12T03:17:28Z",
+    "description": "Software Support",
+    "id": "CN3610053",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-befa41b4846c484eb32b882925410d48"
+     }
+    ],
+    "period": {
+     "endDate": "2020-07-09T14:00:00Z",
+     "startDate": "2019-07-11T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501077572",
+    "value": {
+     "amount": "678589.62",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2019-07-12T03:17:28Z",
+  "id": "prod-1f4a0598d69e4a33831162594da77d88-2019-07-12T03:17:28Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-1f4a0598d69e4a33831162594da77d88",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "exemption": "App A: 13. By, or on behalf of select Defence intelligence agencies.",
+   "exemptionCode": "DI",
+   "id": "prod-1f4a0598d69e4a33831162594da77d88",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2020-01-10T01:31:51Z",
+    "id": "CN3652667-12fb7eef148e4121a314373884a6f4d9",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3652667-12fb7eef148e4121a314373884a6f4d9",
+    "dateSigned": "2020-01-10T01:31:51Z",
+    "description": "Palantir Support",
+    "id": "CN3652667",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-12fb7eef148e4121a314373884a6f4d9"
+     }
+    ],
+    "period": {
+     "endDate": "2020-07-11T14:00:00Z",
+     "startDate": "2019-07-11T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501089842",
+    "value": {
+     "amount": "682719.35",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2020-01-10T01:31:51Z",
+  "id": "prod-fe0c49f2e43f478bbf7f3aaf449f36db-2020-01-10T01:31:51Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-fe0c49f2e43f478bbf7f3aaf449f36db",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-fe0c49f2e43f478bbf7f3aaf449f36db",
+   "limitedTenderExempt": "0",
+   "limitedTenderReason": "10.3.d.ii. Supply by particular business: with no reasonable alternative or substitute: to protect exclusive rights or proprietary information.",
+   "limitedTenderReasonCode": "ER",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2020-06-09T00:53:43Z",
+    "id": "CN3687690-3af068379c34432ebe7b56bb52b0ebd2",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA P/L"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3687690-3af068379c34432ebe7b56bb52b0ebd2",
+    "dateSigned": "2020-06-09T00:53:43Z",
+    "description": "Specialist Data Analyst services",
+    "id": "CN3687690",
+    "items": [
+     {
+      "classification": {
+       "id": "81112000",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112000-3af068379c34432ebe7b56bb52b0ebd2"
+     }
+    ],
+    "period": {
+     "endDate": "2020-06-29T14:00:00Z",
+     "startDate": "2020-04-27T14:00:00Z"
+    },
+    "status": "active",
+    "title": "CND006775",
+    "value": {
+     "amount": "50000.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2020-06-09T00:53:43Z",
+  "id": "prod-239059b3a9ca45988858542996a34037-2020-06-09T00:53:43Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-239059b3a9ca45988858542996a34037",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA P/L",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "23964290824",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9aa610241cc6c9fb557836378d97b",
+    "name": "Department of Veterans' Affairs",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-239059b3a9ca45988858542996a34037",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2020-06-30T23:45:24Z",
+    "id": "CN3696220-28cc5c236a054d28b37a37de1fa4c4f1",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3696220-28cc5c236a054d28b37a37de1fa4c4f1",
+    "dateSigned": "2020-06-30T23:45:24Z",
+    "description": "Software Licences and Support",
+    "id": "CN3696220",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-28cc5c236a054d28b37a37de1fa4c4f1"
+     }
+    ],
+    "period": {
+     "endDate": "2021-06-29T14:00:00Z",
+     "startDate": "2020-06-30T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501103744",
+    "value": {
+     "amount": "692240.02",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2020-06-30T23:45:24Z",
+  "id": "prod-8d7e4da9eead4ec0be5cd2bd2ad3baf0-2020-06-30T23:45:24Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-8d7e4da9eead4ec0be5cd2bd2ad3baf0",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "exemption": "App A: 13. By, or on behalf of select Defence intelligence agencies.",
+   "exemptionCode": "DI",
+   "id": "prod-8d7e4da9eead4ec0be5cd2bd2ad3baf0",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2021-05-07T02:35:20Z",
+    "id": "CN3760228-e9af548bbdc34ae581ec4c9b0c673107",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3760228-e9af548bbdc34ae581ec4c9b0c673107",
+    "dateSigned": "2021-05-07T02:35:20Z",
+    "description": "IT Service",
+    "id": "CN3760228",
+    "items": [
+     {
+      "classification": {
+       "id": "83120000",
+       "scheme": "UNSPSC"
+      },
+      "id": "83120000-e9af548bbdc34ae581ec4c9b0c673107"
+     }
+    ],
+    "period": {
+     "endDate": "2021-12-30T13:00:00Z",
+     "startDate": "2021-05-04T14:00:00Z"
+    },
+    "status": "active",
+    "title": "AC1758",
+    "value": {
+     "amount": "227021.30",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2021-05-07T02:35:20Z",
+  "id": "prod-22449a20058c49ac9880be262ed038c3-2021-05-07T02:35:20Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-22449a20058c49ac9880be262ed038c3",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "32770513371",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9030e0ee15a0f4923b75c100f8606",
+    "name": "Australian Transaction Reports and Analysis Centre",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-22449a20058c49ac9880be262ed038c3",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2021-07-01T23:45:39Z",
+    "id": "CN3790101-f7025f7c1df84199ae7f30609ba91a09",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3790101-f7025f7c1df84199ae7f30609ba91a09",
+    "dateSigned": "2021-07-01T23:45:39Z",
+    "description": "Software Renewal",
+    "id": "CN3790101",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-f7025f7c1df84199ae7f30609ba91a09"
+     }
+    ],
+    "period": {
+     "endDate": "2022-06-29T14:00:00Z",
+     "startDate": "2021-07-01T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501133055",
+    "value": {
+     "amount": "625761.27",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2021-07-01T23:45:39Z",
+  "id": "prod-1205fd0249f64f8790053d5877037fa8-2021-07-01T23:45:39Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-1205fd0249f64f8790053d5877037fa8",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "exemption": "App A: 13. By, or on behalf of select Defence intelligence agencies.",
+   "exemptionCode": "DI",
+   "id": "prod-1205fd0249f64f8790053d5877037fa8",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2022-03-17T22:17:50Z",
+    "id": "CN3856759-7920f3d21f9941488594b4d89b18dee5",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3856759-7920f3d21f9941488594b4d89b18dee5",
+    "dateSigned": "2022-03-17T22:17:50Z",
+    "description": "Software Maintenance",
+    "id": "CN3856759",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-7920f3d21f9941488594b4d89b18dee5"
+     }
+    ],
+    "period": {
+     "endDate": "2023-06-29T14:00:00Z",
+     "startDate": "2022-06-30T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501151939",
+    "value": {
+     "amount": "661288.36",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2022-03-17T22:17:50Z",
+  "id": "prod-4d32fdd5710c4ab8ac33d18e3b491dee-2022-03-17T22:17:50Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-4d32fdd5710c4ab8ac33d18e3b491dee",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "exemption": "App A: 13. By, or on behalf of select Defence intelligence agencies.",
+   "exemptionCode": "DI",
+   "id": "prod-4d32fdd5710c4ab8ac33d18e3b491dee",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2022-05-10T03:38:27Z",
+    "id": "CN3871703-38354e0bfd9c4c13822728ce97a5705a",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3871703-38354e0bfd9c4c13822728ce97a5705a",
+    "dateSigned": "2022-05-10T03:38:27Z",
+    "description": "Data Integration and Analytics Study",
+    "id": "CN3871703",
+    "items": [
+     {
+      "classification": {
+       "id": "80100000",
+       "scheme": "UNSPSC"
+      },
+      "id": "80100000-38354e0bfd9c4c13822728ce97a5705a"
+     }
+    ],
+    "period": {
+     "endDate": "2022-06-29T14:00:00Z",
+     "startDate": "2022-04-03T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4600031707",
+    "value": {
+     "amount": "275000.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2022-05-10T03:38:27Z",
+  "id": "prod-14b91ced762e4425811d5d282b0334db-2022-05-10T03:38:27Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-14b91ced762e4425811d5d282b0334db",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "exemption": "Paragraph 2.6 was applied in some part.",
+   "exemptionCode": "AM",
+   "id": "prod-14b91ced762e4425811d5d282b0334db",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2023-01-30T04:46:51Z",
+    "id": "CN3942923-28d546418a0b4d2c8a4b59177e9c7646",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia Pty Ltd"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-5e4483773f82458992031c2ad4dbe746-2fded1b6c235398e911588401124d658",
+      "id": "CN3942923-A1",
+      "releaseID": "prod-5e4483773f82458992031c2ad4dbe746-3e5abf85588a36f496c37a9f42720692"
+     },
+     {
+      "amendsReleaseID": "prod-5e4483773f82458992031c2ad4dbe746-2fded1b6c235398e911588401124d658",
+      "id": "CN3942923-A2",
+      "releaseID": "prod-5e4483773f82458992031c2ad4dbe746-97f247426c5a3d14ab1eb15d677b6113"
+     },
+     {
+      "amendsReleaseID": "prod-5e4483773f82458992031c2ad4dbe746-2fded1b6c235398e911588401124d658",
+      "id": "CN3942923-A3",
+      "releaseID": "prod-5e4483773f82458992031c2ad4dbe746-758e00f1191e3be18a4acdda66edd055"
+     },
+     {
+      "amendsReleaseID": "prod-5e4483773f82458992031c2ad4dbe746-2fded1b6c235398e911588401124d658",
+      "id": "CN3942923-A4",
+      "releaseID": "prod-5e4483773f82458992031c2ad4dbe746-bebc8539f82a30e7993f127e4b05431e"
+     },
+     {
+      "amendsReleaseID": "prod-5e4483773f82458992031c2ad4dbe746-2fded1b6c235398e911588401124d658",
+      "id": "CN3942923-A5",
+      "releaseID": "prod-5e4483773f82458992031c2ad4dbe746-30d54c92820f33e9ad68bceea0cafb47"
+     }
+    ],
+    "awardID": "CN3942923-28d546418a0b4d2c8a4b59177e9c7646",
+    "dateSigned": "2023-01-30T04:46:51Z",
+    "description": "Data Analytics capability",
+    "id": "CN3942923",
+    "items": [
+     {
+      "classification": {
+       "id": "81111500",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111500-28d546418a0b4d2c8a4b59177e9c7646"
+     },
+     {
+      "classification": {
+       "id": "81111500",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111500-824b951ae5c54869a4e56c6f4cf67af1"
+     },
+     {
+      "classification": {
+       "id": "81111500",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111500-a41b256c372b4b9a9da937f5a10f21c8"
+     },
+     {
+      "classification": {
+       "id": "81111500",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111500-e30a4c26683646348f8a0699dd1c1b46"
+     },
+     {
+      "classification": {
+       "id": "81111500",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111500-1932812c1adc4e7987d2b8cf349b7339"
+     },
+     {
+      "classification": {
+       "id": "81111500",
+       "scheme": "UNSPSC"
+      },
+      "id": "81111500-a353fc46b1d94e7e9de87360bfece0d1"
+     }
+    ],
+    "period": {
+     "endDate": "2027-06-29T14:00:00Z",
+     "startDate": "2022-12-31T13:00:00Z"
+    },
+    "status": "active",
+    "title": "AC2133",
+    "value": {
+     "amount": "12074872.31",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2025-12-22T00:20:45Z",
+  "id": "prod-5e4483773f82458992031c2ad4dbe746-2025-12-22T00:20:45Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-5e4483773f82458992031c2ad4dbe746",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia Pty Ltd",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "32770513371",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9030e0ee15a0f4923b75c100f8606",
+    "name": "Australian Transaction Reports and Analysis Centre",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-5e4483773f82458992031c2ad4dbe746",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2023-08-04T03:48:12Z",
+    "id": "CN3992202-0cb01a4e83354542a8e42be07b26d576",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+      "name": "PALANTIR TECHNOLOGIES INC."
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN3992202-0cb01a4e83354542a8e42be07b26d576",
+    "dateSigned": "2023-08-04T03:48:12Z",
+    "description": "Software Licencing",
+    "id": "CN3992202",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-0cb01a4e83354542a8e42be07b26d576"
+     }
+    ],
+    "period": {
+     "endDate": "2024-06-29T14:00:00Z",
+     "startDate": "2023-06-30T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4501185454",
+    "value": {
+     "amount": "696981.39",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2023-08-04T03:48:12Z",
+  "id": "prod-c016c83808e443c3ae038cf9cd73dc50-2023-08-04T03:48:12Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-c016c83808e443c3ae038cf9cd73dc50",
+  "parties": [
+   {
+    "id": "EXEMPTUUID-DD4C80DAF2F03711A4F535D065582350",
+    "name": "PALANTIR TECHNOLOGIES INC.",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "22323254583",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "3e8a6e49ad6a089682fe57bba6072633",
+    "name": "Australian Signals Directorate",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "exemption": "App A: 13. By, or on behalf of select Defence intelligence agencies.",
+   "exemptionCode": "DI",
+   "id": "prod-c016c83808e443c3ae038cf9cd73dc50",
+   "limitedTenderExempt": "1",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2023-08-20T06:17:46Z",
+    "id": "CN3996124-98ad1d3a2550465289353be706dc806d",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-66b1f2e8adca4ce4be049241b724e19e-5fe06f387cd83e598b9cc6e8ed3be6c6",
+      "id": "CN3996124-A1",
+      "releaseID": "prod-66b1f2e8adca4ce4be049241b724e19e-1aba614d32ab3bf7905bb726828cb19c"
+     }
+    ],
+    "awardID": "CN3996124-98ad1d3a2550465289353be706dc806d",
+    "dateSigned": "2023-08-20T06:17:46Z",
+    "description": "Software Maintenance & Support",
+    "id": "CN3996124",
+    "items": [
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-98ad1d3a2550465289353be706dc806d"
+     },
+     {
+      "classification": {
+       "id": "81112200",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112200-ca03de8542f740d0a93fba1252cb7f1e"
+     }
+    ],
+    "period": {
+     "endDate": "2025-03-30T13:00:00Z",
+     "startDate": "2023-05-31T14:00:00Z"
+    },
+    "status": "active",
+    "title": "0000003557",
+    "value": {
+     "amount": "1402122.87",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2024-08-30T02:46:24Z",
+  "id": "prod-66b1f2e8adca4ce4be049241b724e19e-2024-08-30T02:46:24Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-66b1f2e8adca4ce4be049241b724e19e",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "11259448410",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec8e669de6d4e15055093b5150d2eac",
+    "name": "Australian Criminal Intelligence Commission",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-66b1f2e8adca4ce4be049241b724e19e",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2024-10-29T03:28:22Z",
+    "id": "CN4104368-abce7d48265e4b3caa777fbc197e84f2",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN4104368-abce7d48265e4b3caa777fbc197e84f2",
+    "dateSigned": "2024-10-29T03:28:22Z",
+    "description": "Data Services",
+    "id": "CN4104368",
+    "items": [
+     {
+      "classification": {
+       "id": "81112000",
+       "scheme": "UNSPSC"
+      },
+      "id": "81112000-abce7d48265e4b3caa777fbc197e84f2"
+     }
+    ],
+    "period": {
+     "endDate": "2027-12-12T13:00:00Z",
+     "startDate": "2024-08-15T14:00:00Z"
+    },
+    "status": "active",
+    "title": "4600081672",
+    "value": {
+     "amount": "7150000.00",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2024-10-29T03:28:22Z",
+  "id": "prod-2dc27872686a448ea923bdc0698bacfa-2024-10-29T03:28:22Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-2dc27872686a448ea923bdc0698bacfa",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-2dc27872686a448ea923bdc0698bacfa",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2024-12-12T03:48:22Z",
+    "id": "CN4115523-0a592d733b044bcd907e7db4b4761845",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-a7a960bc77744dafba6795c85d0b5b72-080adf927f1237aeaac0bea1a24f0455",
+      "id": "CN4115523-A1",
+      "releaseID": "prod-a7a960bc77744dafba6795c85d0b5b72-04020aedab0d3115b0cfc70aa8859c8e"
+     }
+    ],
+    "awardID": "CN4115523-0a592d733b044bcd907e7db4b4761845",
+    "dateSigned": "2024-12-12T03:48:22Z",
+    "description": "Software",
+    "id": "CN4115523",
+    "items": [
+     {
+      "classification": {
+       "id": "43200000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43200000-0a592d733b044bcd907e7db4b4761845"
+     },
+     {
+      "classification": {
+       "id": "43200000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43200000-086fbbc65ef14fe7b22b43cceab881fe"
+     }
+    ],
+    "period": {
+     "endDate": "2025-06-29T14:00:00Z",
+     "startDate": "2024-12-10T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4600084875",
+    "value": {
+     "amount": "4135076.99",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2025-08-14T06:08:26Z",
+  "id": "prod-a7a960bc77744dafba6795c85d0b5b72-2025-08-14T06:08:26Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-a7a960bc77744dafba6795c85d0b5b72",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-a7a960bc77744dafba6795c85d0b5b72",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2026-02-11T02:58:37Z",
+    "id": "CN4218984-9a5d0c4870ee4ddcb953845ba4bca87e",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "amendments": [
+     {
+      "amendsReleaseID": "prod-877de121c059486fbb51a3c5198e6f0e-f57b16354eac33768a92b8fe9c0105e9",
+      "id": "CN4218984-A1",
+      "releaseID": "prod-877de121c059486fbb51a3c5198e6f0e-b970bf770b6e391a9c7078ff01e6c534"
+     }
+    ],
+    "awardID": "CN4218984-9a5d0c4870ee4ddcb953845ba4bca87e",
+    "dateSigned": "2026-02-11T02:58:37Z",
+    "description": "ICT System Platform",
+    "id": "CN4218984",
+    "items": [
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-9a5d0c4870ee4ddcb953845ba4bca87e"
+     },
+     {
+      "classification": {
+       "id": "43230000",
+       "scheme": "UNSPSC"
+      },
+      "id": "43230000-6721900a225341a49bb9334fd5f18aec"
+     }
+    ],
+    "period": {
+     "endDate": "2027-01-31T13:00:00Z",
+     "startDate": "2026-02-05T13:00:00Z"
+    },
+    "status": "active",
+    "title": "4610003517",
+    "value": {
+     "amount": "10389894.90",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2026-04-08T03:53:50Z",
+  "id": "prod-877de121c059486fbb51a3c5198e6f0e-2026-04-08T03:53:50Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-877de121c059486fbb51a3c5198e6f0e",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-877de121c059486fbb51a3c5198e6f0e",
+   "limitedTenderExempt": "0",
+   "limitedTenderReason": "10.3.e. Additional deliveries by original supplier intended as replacement parts, extensions, or continuation for existing goods or services for compatibility.",
+   "limitedTenderReasonCode": "AD",
+   "procurementMethod": "limited",
+   "procurementMethodDetails": "Limited tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2026-02-18T04:22:03Z",
+    "id": "CN4220255-e95aa7ba10d64ad1b1d14596b8783479",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia Pty Ltd"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN4220255-e95aa7ba10d64ad1b1d14596b8783479",
+    "dateSigned": "2026-02-18T04:22:03Z",
+    "description": "Provision of implementation and sustainment services for Transaction Reporting solution",
+    "id": "CN4220255",
+    "items": [
+     {
+      "classification": {
+       "id": "80101507",
+       "scheme": "UNSPSC"
+      },
+      "id": "80101507-e95aa7ba10d64ad1b1d14596b8783479"
+     }
+    ],
+    "period": {
+     "endDate": "2027-06-29T14:00:00Z",
+     "startDate": "2026-02-11T13:00:00Z"
+    },
+    "status": "active",
+    "title": "AC2906",
+    "value": {
+     "amount": "1883729.10",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2026-02-18T04:22:03Z",
+  "id": "prod-a6ed1cfa17544cc2a18b55e28fde10ba-2026-02-18T04:22:03Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-a6ed1cfa17544cc2a18b55e28fde10ba",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia Pty Ltd",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "32770513371",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9030e0ee15a0f4923b75c100f8606",
+    "name": "Australian Transaction Reports and Analysis Centre",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-a6ed1cfa17544cc2a18b55e28fde10ba",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ },
+ {
+  "awards": [
+   {
+    "date": "2026-04-10T02:36:43Z",
+    "id": "CN4231780-7ee6b0e312be41b78158b311402d37a3",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "856a110af3c6ecc8effb5095aac6d302",
+      "name": "Palantir Technologies Australia Pty Ltd"
+     }
+    ]
+   }
+  ],
+  "contracts": [
+   {
+    "awardID": "CN4231780-7ee6b0e312be41b78158b311402d37a3",
+    "dateSigned": "2026-04-10T02:36:43Z",
+    "description": "Transaction Reporting and Integration Platform (CM-11164-PAL)",
+    "id": "CN4231780",
+    "items": [
+     {
+      "classification": {
+       "id": "81162000",
+       "scheme": "UNSPSC"
+      },
+      "id": "81162000-7ee6b0e312be41b78158b311402d37a3"
+     }
+    ],
+    "period": {
+     "endDate": "2027-06-29T14:00:00Z",
+     "startDate": "2026-01-31T13:00:00Z"
+    },
+    "status": "active",
+    "title": "AC2761",
+    "value": {
+     "amount": "5064583.70",
+     "currency": "AUD"
+    }
+   }
+  ],
+  "date": "2026-04-10T02:36:43Z",
+  "id": "prod-3d340a7435994fe89c3e170ebc389d69-2026-04-10T02:36:43Z",
+  "initiationType": "tender",
+  "language": "EN",
+  "ocid": "prod-3d340a7435994fe89c3e170ebc389d69",
+  "parties": [
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "48144948309",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "856a110af3c6ecc8effb5095aac6d302",
+    "name": "Palantir Technologies Australia Pty Ltd",
+    "roles": [
+     "supplier"
+    ]
+   },
+   {
+    "additionalIdentifiers": [
+     {
+      "id": "32770513371",
+      "scheme": "AU-ABN"
+     }
+    ],
+    "id": "0ec9030e0ee15a0f4923b75c100f8606",
+    "name": "Australian Transaction Reports and Analysis Centre",
+    "roles": [
+     "procuringEntity"
+    ]
+   }
+  ],
+  "tag": [
+   "compiled"
+  ],
+  "tender": {
+   "id": "prod-3d340a7435994fe89c3e170ebc389d69",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  }
+ }
+]

@@ -19,8 +19,11 @@ reasons.
 | [GIPA-001](GIPA-001-ownership-documents.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-021, RG-035, RG-037, RG-057, RG-059, RG-064 | drafted |
 | [GIPA-002](GIPA-002-revenue-nsw.md) | NSW Department of Customer Service (Revenue NSW) | GIPA Act 2009 (NSW) | $30 application fee | RG-007 | drafted |
 | [FOI-001](FOI-001-treasury-firb.md) | The Treasury (Foreign Investment) | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-006 | drafted |
+| [FOI-002](FOI-002-defence-palantir-hosting.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-087 | drafted |
+| [FOI-003](FOI-003-defence-palantir-clearance.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-089 | drafted |
+| [FOI-004](FOI-004-acic-palantir.md) | Australian Criminal Intelligence Commission | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-093 | drafted |
 | [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked, awaiting a budget |
-| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-014, RG-025, RG-070, RG-074, RG-077, RG-094 | ranked, awaiting a person |
+| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-012, RG-014, RG-025, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person |
 
 Status runs: drafted, lodged, acknowledged, decided, received (or refused).
 
@@ -32,6 +35,10 @@ Status runs: drafted, lodged, acknowledged, decided, received (or refused).
   fee refunded. A 50% reduction in processing charges is available where the
   information is of special benefit to the public generally.
   ([IPC fact sheet](https://www.ipc.nsw.gov.au/resources/fact-sheet-gipa-act-fees-and-charges))
+- **The Australian Signals Directorate is outside the FOI Act.** Schedule 2
+  lists it as an exempt agency, and section 7(2A) makes any document that
+  came from it exempt in any agency's hands. FOI-002 and FOI-003 therefore go
+  to Defence, for Defence's own records.
 - **Commonwealth FOI (Treasury):** no application fee; processing charges
   may apply to documents that are not your own personal information, and can
   be waived in the public interest. A decision is due within 30 days, plus 30

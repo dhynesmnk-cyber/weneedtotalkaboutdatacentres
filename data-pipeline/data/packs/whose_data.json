@@ -1,0 +1,1674 @@
+{
+ "pack_id": "whose-data-2026-10",
+ "prepared_by": "scripts/curate_whose_data.py",
+ "prepared_on": "2026-10-22",
+ "sources": [
+  {
+   "id": "SRC_AUSTENDER_OCDS_202610",
+   "title": "AusTender contract notices, OCDS feed (Department of Finance), as republished by the Open Contracting Partnership's Data Registry",
+   "publisher": "Department of Finance (AusTender); copy held by the Open Contracting Partnership",
+   "url": "https://data.open-contracting.org/en/publication/19",
+   "doc_type": "primary_government",
+   "published": "2026-10-13",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The Commonwealth's contract notices from 2007 to October 2026 as the AusTender API publishes them (CC BY 3.0 AU), retrieved monthly by the Open Contracting Partnership with minimal transformation; this copy was retrieved by the Partnership on 13 October 2026. AusTender's own site and data.gov.au both refuse the research crawler (robots.txt), so the full file (260 MB, sha256 27619b1bface) was read once and is not committed; the 30 records whose supplier is Palantir Technologies, and the records that mention NVIDIA, are, at data/raw/registers/open_contracting/ (filter and hash in each manifest; contact points and addresses removed, because they can name a person). Checked: the five notices read in full on AusTender in September match it value for value. Known limits, stated by the Registry: a contract's value and period are its latest after amendment, and the feed's counts can differ from the website's. No false matches on the unrelated Palantir consultancy."
+  },
+  {
+   "id": "SRC_FOI_ACT_1982",
+   "title": "Freedom of Information Act 1982 (Cth), compilation C2026C00433, 29 September 2026",
+   "publisher": "Federal Register of Legislation (Attorney-General's Department)",
+   "url": "https://www.legislation.gov.au/C2004A02562/2026-09-29/2026-09-29/text/original/epub/OEBPS/document_1/document_1.html",
+   "doc_type": "primary_government",
+   "published": "2026-09-29",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Section 7 and Schedule 2: the Australian Signals Directorate is an exempt agency (Part I, Division 1), and any agency is exempt in relation to a document that originated with or was received from it (s 7(2A)). The Department of Defence is exempt for documents on operational intelligence and special access programs. The ACIC and AUSTRAC are not exempt agencies; AUSTRAC intelligence documents are (s 7(2G)). ARCHIVED 2026-10-22 at data/raw/registers/legislation/ (sha256 4f00f6cadadc, 1,334,219 bytes)."
+  },
+  {
+   "id": "SRC_WAPOL_OLFR_PIA",
+   "title": "Privacy Impact Assessment: Overt Live Facial Recognition (WA Police Force)",
+   "publisher": "Western Australia Police Force, Technology Portfolio, Innovation",
+   "url": "https://www.wa.gov.au/media/161114/download",
+   "doc_type": "primary_government",
+   "published": "2026-05-10",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Dated November 2025 on its cover; version 1.0 of 10 May 2026. Names the vendor as NEC and the intended technology as NEC's NeoFace Watch using the NeoFace M40 algorithm, used by the Metropolitan Police; states 'Data stored in Australia' and that non-matched biometrics are not retained. Does not mention Palantir. Names three police officers, recorded here by role only. ARCHIVED 2026-10-22 at data/raw/operators/wapolice/ (sha256 9a8eee4abf78, 584,936 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_ITNEWS_COLES_SEP26",
+   "title": "Coles to end data analytics work with Palantir (iTnews, 4 September 2026)",
+   "publisher": "iTnews (nextmedia)",
+   "url": "https://www.itnews.com.au/news/coles-to-end-data-analytics-work-with-palantir-628693",
+   "doc_type": "news",
+   "published": "2026-09-04",
+   "accessed": "2026-10-22",
+   "credibility": "B",
+   "notes": "Quotes a Coles spokesperson: 'Coles and Palantir have agreed to conclude their partnership after three years of collaboration'; timing unsettled but not expected beyond calendar 2027; the software runs in Coles' own environment and 'Palantir does not control the data'. Reports GetUp's claim of a win after 86,000 signatures. Says the Sydney Morning Herald reported it first. ARCHIVED 2026-10-22 at data/raw/operators/coles/."
+  },
+  {
+   "id": "SRC_ACS_COLES_SEP26",
+   "title": "Coles dumps Palantir after pressure campaign (Information Age, ACS, 7 September 2026)",
+   "publisher": "Australian Computer Society, Information Age",
+   "url": "https://ia.acs.org.au/article/2026/coles-dumps-palantir-after-pressure-campaign.html",
+   "doc_type": "news",
+   "published": "2026-09-07",
+   "accessed": "2026-10-22",
+   "credibility": "B",
+   "notes": "The same Coles statement, Coles' denial that Palantir had access to CCTV or facial recognition, and GetUp's email to supporters claiming the decision followed the threat of a shareholder vote. ARCHIVED 2026-10-22 at data/raw/operators/coles/."
+  },
+  {
+   "id": "SRC_CYBERDAILY_COLES_SEP26",
+   "title": "Supermarket giant Coles to cut ties with Palantir in 2027 (Cyber Daily, 4 September 2026)",
+   "publisher": "Cyber Daily (Momentum Media)",
+   "url": "https://www.cyberdaily.au/tech/14146-supermarket-giant-coles-to-cut-ties-with-palantir-in-2027",
+   "doc_type": "news",
+   "published": "2026-09-04",
+   "accessed": "2026-10-22",
+   "credibility": "B",
+   "notes": "The same Coles statement given to Cyber Daily, and GetUp's statement, which asserts that Palantir 'still has lucrative contracts with Westpac, Rio Tinto, and a host of government agencies' (an advocacy claim, not a record of a Westpac contract). ARCHIVED 2026-10-22 at data/raw/operators/coles/."
+  },
+  {
+   "id": "SRC_COLES_AGM_NOM_2026",
+   "title": "Coles Group 2026 Notice of Annual General Meeting",
+   "publisher": "Coles Group Limited",
+   "url": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/ir5sKeTxxEOndzdh00hWJw/file/2026_AGM_Notice_of_Meeting_Web.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-09-15",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Meeting on 6 November 2026. Five items of business: statutory reports, a director's re-election, the remuneration report, and two grants to the Managing Director. None concerns Palantir; the word does not appear. ARCHIVED 2026-10-22 at data/raw/operators/coles/ (sha256 30f1a3805e66, 1,880,810 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_DEXUS_WDDP_2026",
+   "title": "Australian Data Centres - Western Downs Digital Park (Dexus ASX release, 16 September 2026)",
+   "publisher": "Dexus (ASX: DXS), distributed by EQS as a regulatory announcement of Dexus Finance Pty Limited",
+   "url": "https://live.deutsche-boerse.com/news/EQS-Adhoc-Dexus-Finance-Pty-Limited-Australian-Data-Centres--Western-Downs-Digital-Park-ade3e37b-b873-41ad-b608-e5eaab4a5d4c",
+   "doc_type": "primary_company",
+   "published": "2026-09-16",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Dexus's own release, authorised by its General Counsel: Australian Data Centres (85% Dexus) holds 25% of a consortium with Zerra DC and Macquarie Capital for a hyperscale campus 'for an Australian subsidiary of Anthropic in the Western Downs region of Queensland', and the consortium 'has entered into lease documentation' for the first stage, 'subject to customary approvals'. Read from the EQS copy because ASX's terms limit reuse of its own copies. Anthropic is the company whose model drafts this research: see the RG-012 hunt log. ARCHIVED 2026-10-22 at data/raw/operators/dexus/."
+  },
+  {
+   "id": "SRC_SINGJU_GTC_TRANSCRIPT",
+   "title": "Transcript: NVIDIA CEO Jensen Huang's Keynote At GTC 2025 (The Singju Post, 29 October 2025)",
+   "publisher": "The Singju Post",
+   "url": "https://singjupost.com/transcript-nvidia-ceo-jensen-huangs-keynote-at-gtc-2025/",
+   "doc_type": "other",
+   "published": "2025-10-29",
+   "accessed": "2026-10-22",
+   "credibility": "C",
+   "notes": "A third-party transcript of the GTC Washington, D.C. keynote of 28 October 2025, independent of Sherwood News. Its Palantir passage agrees with Sherwood's, word for word except 'could' for 'can'. Neither is the recording: YouTube refused the research crawler and its captions are closed to crawlers (data/raw/operators/nvidia_gtc_dc/refused.json). ARCHIVED 2026-10-22."
+  },
+  {
+   "id": "SRC_PALANTIR_WESTRAC_2022",
+   "title": "Palantir Continues Expansion in Australia with WesTrac Partnership (8 November 2022)",
+   "publisher": "Palantir Technologies",
+   "url": "https://www.palantir.com/newsroom/press-releases/palantir-continues-expansion-in-australia-with-westrac-partnership/",
+   "doc_type": "primary_company",
+   "published": "2022-11-08",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Palantir and WesTrac (Caterpillar dealer, Perth) announce Foundry across WesTrac's servicing and rebuild operations centres in Perth; collaboration began in 2021 and is to extend to New South Wales workshops; describes Rio Tinto as Palantir's 'long-term flagship partnership'. The page serves its text inside embedded page data, read from there. ARCHIVED 2026-10-22 at data/raw/operators/palantir/."
+  }
+ ],
+ "rows": {
+  "entities": [
+   {
+    "insert": {
+     "id": "ENT_AUSTRAC",
+     "name": "Australian Transaction Reports and Analysis Centre (AUSTRAC)",
+     "legal_name": null,
+     "entity_type": "government_agency",
+     "domicile": "Australia",
+     "hq_country": "AU",
+     "asx_ticker": null,
+     "website": "austrac.gov.au",
+     "notes": "Australia's financial intelligence agency and anti-money-laundering regulator. Buy-side on 6 Palantir notices from 2016 to 2026 worth $28,117,548.41 at their latest values, the largest a 'Data Analytics capability' (CN3942923, $12,074,872.31, to June 2027, amended five times). AUSTRAC intelligence documents are exempt from FOI; its contracts are not.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "high",
+     "as_of_date": "2026-10-22"
+    }
+   },
+   {
+    "match": {
+     "id": "ENT_AUSTRAC"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3377908 Provision of Software services $242,000.00 | CN3452251 Provision of Software Services $8,625,342.00 | CN3760228 IT Service $227,021.30 | CN3942923 Data Analytics capability $12,074,872.31 | CN4220255 Provision of implementation and sustainment services for Transaction Reporting solution $1,883,729.10 | CN4231780 Transaction Reporting and Integration Platform (CM-11164-PAL) $5,064,583.70"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "id": "ENT_WESTRAC",
+     "name": "WesTrac",
+     "legal_name": null,
+     "entity_type": "other",
+     "domicile": "Australia",
+     "hq_country": "AU",
+     "asx_ticker": null,
+     "website": "westrac.com.au",
+     "notes": "Caterpillar equipment dealer headquartered in Perth; Palantir commercial customer since 2021, with Foundry across its servicing and rebuild operations centres in Perth (Palantir release, 8 November 2022). Entity type 'other' - the vocabulary has no industrial-services type. RG-088.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_PALANTIR_WESTRAC_2022",
+     "confidence": "high",
+     "as_of_date": "2022-11-08"
+    }
+   },
+   {
+    "match": {
+     "id": "ENT_WESTRAC"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_PALANTIR_WESTRAC_2022",
+      "quote": "Palantir and WesTrac announced a partnership to deploy Palantir Foundry across WesTrac’s servicing and rebuild operations centres in Perth, Western Australia. | WesTrac and Palantir first began collaboration in 2021"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": "ENT_COLES"
+    },
+    "set": {
+     "fact_status": "REPORTED",
+     "source_id": "SRC_ITNEWS_COLES_SEP26",
+     "confidence": "high",
+     "as_of_date": "2026-09-04",
+     "notes": "Supermarket chain; Palantir commercial customer since February 2024 (Foundry and AIP for rostering, store operations and supply chain across 840+ stores). Investor-day detail (Nov 2024): executive oversight and workforce management; 24,000 process standards measured in 15-minute increments. ENDING (RG-095): on 4 September 2026 a Coles spokesperson said 'Coles and Palantir have agreed to conclude their partnership after three years of collaboration'; the arrangement is not expected to run beyond calendar 2027. Coles gave no other reason, said the software runs in its own environment and that 'Palantir does not control the data'. GetUp claimed the decision as a campaign win; Coles' 2026 notice of meeting has no item on Palantir. Entity type 'other' - the vocabulary has no retail type."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_ITNEWS_COLES_SEP26",
+      "quote": "Coles and Palantir have agreed to conclude their partnership after three years of collaboration | The exact timing is yet to be settled, but the arrangement is not expected to run beyond calendar 2027. | Palantir does not control the data, nor can it independently repurpose it"
+     },
+     {
+      "id": "SRC_COLES_AGM_NOM_2026",
+      "quote": "p3: Agenda Items 1. Statutory Reports"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": "ENT_PALANTIR_AU"
+    },
+    "set": {
+     "as_of_date": "2026-10-22",
+     "notes": "ABN 48 144 948 309 (as published on AusTender notices). Registered supplier address Canberra ACT 2601. LEDGER (RG-086, built 2026-10-22 from the AusTender feed): Palantir is named on 29 Commonwealth notices (not counting one cancelled) from 2013 to 2026 worth $68,258,634.93 at their latest values (Department of Defence: 11 notices, $29,984,631.37; Australian Transaction Reports and Analysis Centre: 6 notices, $28,117,548.41; Australian Criminal Intelligence Commission: 5 notices, $6,068,875.14; Australian Signals Directorate: 6 notices, $4,037,580.01; Department of Veterans' Affairs: 1 notices, $50,000.00). This company is named on 18; the US parent on 11 ($10,009,817.59), every ASD notice but one among them. Mike Kelly (former defence materiel minister) served as Palantir's Australian president 2020-2024 (ABC Four Corners). Paul Rawlins named AU Head of Public Sector in Palantir's Nov 2025 IRAP release."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "29 notices; Department of Defence: 11 notices, $29,984,631.37; Australian Transaction Reports and Analysis Centre: 6 notices, $28,117,548.41; Australian Criminal Intelligence Commission: 5 notices, $6,068,875.14; Australian Signals Directorate: 6 notices, $4,037,580.01; Department of Veterans' Affairs: 1 notices, $50,000.00"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": "ENT_ASD"
+    },
+    "set": {
+     "as_of_date": "2026-10-22",
+     "notes": "Commonwealth signals-intelligence agency and cyber security authority. Buy-side on 6 Palantir notices from 2019 to 2024 worth $4,037,580.01: yearly software licences and support, all limited tenders, 5 naming the US parent and 1 (2019-20) the Australian company, with the same start date as a US-parent notice. Sets the requirements under which IRAP assessments (including Palantir's PROTECTED-level assessment announced 20 Nov 2025) are conducted. EXEMPT FROM FOI: Schedule 2 of the FOI Act lists ASD as an exempt agency, and any document originating with it is exempt in any agency's hands (s 7(2A)). Crikey reports ASD granted Palantir 'a top security clearance' in November 2024 - unverified against any primary record (RG-089)."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_FOI_ACT_1982",
+      "quote": "The bodies specified in Division 1 of Part I of Schedule 2, and a person holding and performing the duties of an office specified in that Division, are to be deemed not to be prescribed authorities for the purposes of this Act. | Part I — Exempt agencies Division 1 Aboriginal Land Councils and Land Trusts Auditor ‑ General Australian Secret Intelligence Service Australian Security Intelligence Organisation Australian Signals Directorate"
+     },
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3610053 PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD $678,589.62 | CN3652667 PALANTIR TECHNOLOGIES INC. $682,719.35 | CN3696220 PALANTIR TECHNOLOGIES INC. $692,240.02 | CN3790101 PALANTIR TECHNOLOGIES INC. $625,761.27 | CN3856759 PALANTIR TECHNOLOGIES INC. $661,288.36 | CN3992202 PALANTIR TECHNOLOGIES INC. $696,981.39"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": "ENT_ACIC"
+    },
+    "set": {
+     "as_of_date": "2026-10-22",
+     "notes": "National criminal intelligence body. Buy-side on 5 Palantir notices from 2014 to 2025 worth $6,068,875.14: software licences, maintenance and support, the first in 2014. What the platform is used for is not stated on any notice (RG-093). Subject to the FOI Act; FOI-004 (docs/requests/) asks what the software supports."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2386341 Software Licenses $20,211.40 | CN2514842 Software Maintenance and Support $310,493.88 | CN3287309 Hardware & Software Maintenance $1,329,261.57 | CN3557030 Software Maintenance and Support $3,006,785.42 | CN3996124 Software Maintenance & Support $1,402,122.87"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": "ENT_ANTHROPIC"
+    },
+    "set": {
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_DEXUS_WDDP_2026",
+     "confidence": "high",
+     "as_of_date": "2026-09-16",
+     "notes": "US AI laboratory. CONFIRMED 2026-10-22 (RG-012) by Dexus's ASX release of 16 September 2026: a consortium of Zerra DC, Macquarie Capital and Australian Data Centres (85% Dexus) 'has entered into lease documentation with the Australian subsidiary of Anthropic for the delivery of the first stage' of a hyperscale campus in the Western Downs region of Queensland, 'subject to customary approvals'. The lodged development application does not name Anthropic or Zerra. Earlier reporting of a 5-20 GW Australian build remains unconfirmed. Anthropic is the company whose model drafts this research; see the RG-012 hunt log."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_DEXUS_WDDP_2026",
+      "quote": "ASX release 16 September 2026 Australian Data Centres – Western Downs Digital Park | The Consortium has entered into lease documentation with the Australian subsidiary of Anthropic for the delivery of the first stage of the campus, subject to customary approvals."
+     }
+    ]
+   }
+  ],
+  "sites": [
+   {
+    "match": {
+     "id": "SITE_WESTERN_DOWNS"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_DEXUS_WDDP_2026",
+      "quote": "ADC holds a 25% interest in a consortium with Zerra DC and Macquarie Capital (Consortium) in connection with the proposed development of a hyperscale data centre campus for an Australian subsidiary of Anthropic in the Western Downs region of Queensland. | The Consortium has entered into lease documentation with the Australian subsidiary of Anthropic for the delivery of the first stage of the campus, subject to customary approvals."
+     }
+    ]
+   }
+  ],
+  "gov_contracts": [
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Software Licencing (CN1402001)",
+     "value_aud": 609186.52,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN1402001",
+     "award_published": "2013-05-21",
+     "contract_start": "2013-05-06",
+     "contract_end": "2015-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Software and Technical Services (CN1676331)",
+     "value_aud": 2023683.72,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN1676331",
+     "award_published": "2013-08-13",
+     "contract_start": "2013-08-01",
+     "contract_end": "2014-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 2 times; the value is the latest; the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Software Support (CN1677931)",
+     "value_aud": 2611237.78,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN1677931",
+     "award_published": "2013-08-13",
+     "contract_start": "2013-07-31",
+     "contract_end": "2017-08-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 81112200",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 7 times; the value is the latest; the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Software licence and configuration (CN2025081)",
+     "value_aud": 456880.0,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN2025081",
+     "award_published": "2014-02-04",
+     "contract_start": "2014-01-22",
+     "contract_end": "2014-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Software Support Services (CN2317501)",
+     "value_aud": 1594326.16,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN2317501",
+     "award_published": "2014-06-17",
+     "contract_start": "2014-06-02",
+     "contract_end": "2020-08-10",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 2 times; the value is the latest; limited tender reason: 10.3.e. Additional deliveries by original supplier intended as replacement parts, extensions, or continuation for existing goods or services for compatibility..",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia",
+     "agency": "Australian Criminal Intelligence Commission",
+     "agency_entity_id": "ENT_ACIC",
+     "contract_title": "Software Licenses (CN2386341)",
+     "value_aud": 20211.4,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN2386341",
+     "award_published": "2014-07-04",
+     "contract_start": "2014-06-26",
+     "contract_end": "2015-01-01",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "Palantir Technologies Inc",
+     "agency": "Australian Criminal Intelligence Commission",
+     "agency_entity_id": "ENT_ACIC",
+     "contract_title": "Software Maintenance and Support (CN2514842)",
+     "value_aud": 310493.88,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN2514842",
+     "award_published": "2014-08-21",
+     "contract_start": "2014-08-11",
+     "contract_end": "2015-08-09",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 81112200",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia",
+     "agency": "Australian Criminal Intelligence Commission",
+     "agency_entity_id": "ENT_ACIC",
+     "contract_title": "Hardware & Software Maintenance (CN3287309)",
+     "value_aud": 1329261.57,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3287309",
+     "award_published": "2015-08-20",
+     "contract_start": "2015-08-10",
+     "contract_end": "2018-08-09",
+     "method_of_tendering": "Prequalified tender",
+     "category": "UNSPSC 81112200",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 2 times; the value is the latest.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia Pty Ltd",
+     "agency": "Australian Transaction Reports and Analysis Centre",
+     "agency_entity_id": "ENT_AUSTRAC",
+     "contract_title": "Provision of Software services (CN3377908)",
+     "value_aud": 242000.0,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3377908",
+     "award_published": "2016-09-22",
+     "contract_start": "2016-09-20",
+     "contract_end": "2017-07-31",
+     "method_of_tendering": "Prequalified tender",
+     "category": "UNSPSC 43230000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. ",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia Pty Ltd",
+     "agency": "Australian Transaction Reports and Analysis Centre",
+     "agency_entity_id": "ENT_AUSTRAC",
+     "contract_title": "Provision of Software Services (CN3452251)",
+     "value_aud": 8625342.0,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3452251",
+     "award_published": "2017-09-01",
+     "contract_start": "2017-07-24",
+     "contract_end": "2022-12-31",
+     "method_of_tendering": "Prequalified tender",
+     "category": "UNSPSC 81112200",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 2 times; the value is the latest.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "DEF7013 Ph4 Tranche 2 Scoping Study (CN3475110)",
+     "value_aud": 100000.0,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3475110",
+     "award_published": "2017-12-19",
+     "contract_start": "2017-12-08",
+     "contract_end": "2018-02-28",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 80101600",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Software Maintenance and Support (CN3526802)",
+     "value_aud": 639345.3,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3526802",
+     "award_published": "2018-07-24",
+     "contract_start": "2018-07-01",
+     "contract_end": "2019-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. limited tender reason: 10.3.d.ii. Supply by particular business: with no reasonable alternative or substitute: to protect exclusive rights or proprietary information..",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia Pty",
+     "agency": "Australian Criminal Intelligence Commission",
+     "agency_entity_id": "ENT_ACIC",
+     "contract_title": "Software Maintenance and Support (CN3557030)",
+     "value_aud": 3006785.42,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3557030",
+     "award_published": "2018-12-06",
+     "contract_start": "2018-11-16",
+     "contract_end": "2023-05-31",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 81112200",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 8 times; the value is the latest; limited tender reason: 10.3.e. Additional deliveries by original supplier intended as replacement parts, extensions, or continuation for existing goods or services for compatibility..",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+     "agency": "Australian Signals Directorate",
+     "agency_entity_id": "ENT_ASD",
+     "contract_title": "Software Support (CN3610053)",
+     "value_aud": 678589.62,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3610053",
+     "award_published": "2019-07-12",
+     "contract_start": "2019-07-12",
+     "contract_end": "2020-07-10",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Australian Signals Directorate",
+     "agency_entity_id": "ENT_ASD",
+     "contract_title": "Palantir Support (CN3652667)",
+     "value_aud": 682719.35,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3652667",
+     "award_published": "2020-01-10",
+     "contract_start": "2019-07-12",
+     "contract_end": "2020-07-12",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. limited tender reason: 10.3.d.ii. Supply by particular business: with no reasonable alternative or substitute: to protect exclusive rights or proprietary information.; same start date as CN3610053 (ASD, the Australian company, $678,589.62); the feed does not say whether they are one contract re-published or two, so both are kept and neither is marked a duplicate.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA P/L",
+     "agency": "Department of Veterans' Affairs",
+     "agency_entity_id": null,
+     "contract_title": "Specialist Data Analyst services (CN3687690)",
+     "value_aud": 50000.0,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3687690",
+     "award_published": "2020-06-09",
+     "contract_start": "2020-04-28",
+     "contract_end": "2020-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 81112000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Australian Signals Directorate",
+     "agency_entity_id": "ENT_ASD",
+     "contract_title": "Software Licences and Support (CN3696220)",
+     "value_aud": 692240.02,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3696220",
+     "award_published": "2020-07-01",
+     "contract_start": "2020-07-01",
+     "contract_end": "2021-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia",
+     "agency": "Australian Transaction Reports and Analysis Centre",
+     "agency_entity_id": "ENT_AUSTRAC",
+     "contract_title": "IT Service (CN3760228)",
+     "value_aud": 227021.3,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3760228",
+     "award_published": "2021-05-07",
+     "contract_start": "2021-05-05",
+     "contract_end": "2021-12-31",
+     "method_of_tendering": "Open tender",
+     "category": "UNSPSC 83120000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. ",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Australian Signals Directorate",
+     "agency_entity_id": "ENT_ASD",
+     "contract_title": "Software Renewal (CN3790101)",
+     "value_aud": 625761.27,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3790101",
+     "award_published": "2021-07-02",
+     "contract_start": "2021-07-02",
+     "contract_end": "2022-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR",
+     "supplier_name": "PALANTIR TECHNOLOGIES INC.",
+     "agency": "Australian Signals Directorate",
+     "agency_entity_id": "ENT_ASD",
+     "contract_title": "Software Maintenance (CN3856759)",
+     "value_aud": 661288.36,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3856759",
+     "award_published": "2022-03-18",
+     "contract_start": "2022-07-01",
+     "contract_end": "2023-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 43230000",
+     "abn": null,
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD",
+     "agency": "Department of Defence",
+     "agency_entity_id": "ENT_DOD_AU",
+     "contract_title": "Data Integration and Analytics Study (CN3871703)",
+     "value_aud": 275000.0,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3871703",
+     "award_published": "2022-05-10",
+     "contract_start": "2022-04-04",
+     "contract_end": "2022-06-30",
+     "method_of_tendering": "Limited tender",
+     "category": "UNSPSC 80100000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. the feed marks this limited tender as exempt.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia Pty Ltd",
+     "agency": "Australian Transaction Reports and Analysis Centre",
+     "agency_entity_id": "ENT_AUSTRAC",
+     "contract_title": "Data Analytics capability (CN3942923)",
+     "value_aud": 12074872.31,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN3942923",
+     "award_published": "2023-01-30",
+     "contract_start": "2023-01-01",
+     "contract_end": "2027-06-30",
+     "method_of_tendering": "Open tender",
+     "category": "UNSPSC 81111500",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. amended 5 times; the value is the latest.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia Pty Ltd",
+     "agency": "Australian Transaction Reports and Analysis Centre",
+     "agency_entity_id": "ENT_AUSTRAC",
+     "contract_title": "Provision of implementation and sustainment services for Transaction Reporting solution (CN4220255)",
+     "value_aud": 1883729.1,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN4220255",
+     "award_published": "2026-02-18",
+     "contract_start": "2026-02-12",
+     "contract_end": "2027-06-30",
+     "method_of_tendering": "Open tender",
+     "category": "UNSPSC 80101507",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. ",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "insert": {
+     "supplier_entity_id": "ENT_PALANTIR_AU",
+     "supplier_name": "Palantir Technologies Australia Pty Ltd",
+     "agency": "Australian Transaction Reports and Analysis Centre",
+     "agency_entity_id": "ENT_AUSTRAC",
+     "contract_title": "Transaction Reporting and Integration Platform (CM-11164-PAL) (CN4231780)",
+     "value_aud": 5064583.7,
+     "value_incl_gst": 1,
+     "portal": "AusTender",
+     "portal_id": "CN4231780",
+     "award_published": "2026-04-10",
+     "contract_start": "2026-02-01",
+     "contract_end": "2027-06-30",
+     "method_of_tendering": "Open tender",
+     "category": "UNSPSC 81162000",
+     "abn": "48144948309",
+     "is_duplicate_of": null,
+     "duplicate_note": null,
+     "verification_note": "FROM THE AUSTENDER FEED (Open Contracting Partnership copy, retrieved by the Partnership 13 October 2026); the notice page itself refuses the research crawler and was not read. ",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    }
+   },
+   {
+    "match": {
+     "portal_id": "CN1402001"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1402001 | PALANTIR TECHNOLOGIES INC. | Department of Defence | Software Licencing | $609,186.52 | 2013-05-06 to 2015-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN1676331"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1676331 | PALANTIR TECHNOLOGIES INC. | Department of Defence | Software and Technical Services | $2,023,683.72 | 2013-08-01 to 2014-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN1677931"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1677931 | PALANTIR TECHNOLOGIES INC. | Department of Defence | Software Support | $2,611,237.78 | 2013-07-31 to 2017-08-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN2025081"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2025081 | PALANTIR TECHNOLOGIES INC. | Department of Defence | Software licence and configuration | $456,880.00 | 2014-01-22 to 2014-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN2317501"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2317501 | PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD | Department of Defence | Software Support Services | $1,594,326.16 | 2014-06-02 to 2020-08-10 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN2386341"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2386341 | Palantir Technologies Australia | Australian Criminal Intelligence Commission | Software Licenses | $20,211.40 | 2014-06-26 to 2015-01-01 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN2514842"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2514842 | Palantir Technologies Inc | Australian Criminal Intelligence Commission | Software Maintenance and Support | $310,493.88 | 2014-08-11 to 2015-08-09 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3287309"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3287309 | Palantir Technologies Australia | Australian Criminal Intelligence Commission | Hardware & Software Maintenance | $1,329,261.57 | 2015-08-10 to 2018-08-09 | Prequalified tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3377908"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3377908 | Palantir Technologies Australia Pty Ltd | Australian Transaction Reports and Analysis Centre | Provision of Software services | $242,000.00 | 2016-09-20 to 2017-07-31 | Prequalified tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3452251"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3452251 | Palantir Technologies Australia Pty Ltd | Australian Transaction Reports and Analysis Centre | Provision of Software Services | $8,625,342.00 | 2017-07-24 to 2022-12-31 | Prequalified tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3475110"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3475110 | PALANTIR TECHNOLOGIES AUSTRALIA | Department of Defence | DEF7013 Ph4 Tranche 2 Scoping Study | $100,000.00 | 2017-12-08 to 2018-02-28 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3526802"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3526802 | PALANTIR TECHNOLOGIES INC. | Department of Defence | Software Maintenance and Support | $639,345.30 | 2018-07-01 to 2019-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3557030"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3557030 | Palantir Technologies Australia Pty | Australian Criminal Intelligence Commission | Software Maintenance and Support | $3,006,785.42 | 2018-11-16 to 2023-05-31 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3610053"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3610053 | PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD | Australian Signals Directorate | Software Support | $678,589.62 | 2019-07-12 to 2020-07-10 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3652667"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3652667 | PALANTIR TECHNOLOGIES INC. | Australian Signals Directorate | Palantir Support | $682,719.35 | 2019-07-12 to 2020-07-12 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3687690"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3687690 | PALANTIR TECHNOLOGIES AUSTRALIA P/L | Department of Veterans' Affairs | Specialist Data Analyst services | $50,000.00 | 2020-04-28 to 2020-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3696220"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3696220 | PALANTIR TECHNOLOGIES INC. | Australian Signals Directorate | Software Licences and Support | $692,240.02 | 2020-07-01 to 2021-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3760228"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3760228 | Palantir Technologies Australia | Australian Transaction Reports and Analysis Centre | IT Service | $227,021.30 | 2021-05-05 to 2021-12-31 | Open tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3790101"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3790101 | PALANTIR TECHNOLOGIES INC. | Australian Signals Directorate | Software Renewal | $625,761.27 | 2021-07-02 to 2022-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3856759"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3856759 | PALANTIR TECHNOLOGIES INC. | Australian Signals Directorate | Software Maintenance | $661,288.36 | 2022-07-01 to 2023-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3871703"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3871703 | PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD | Department of Defence | Data Integration and Analytics Study | $275,000.00 | 2022-04-04 to 2022-06-30 | Limited tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN3942923"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3942923 | Palantir Technologies Australia Pty Ltd | Australian Transaction Reports and Analysis Centre | Data Analytics capability | $12,074,872.31 | 2023-01-01 to 2027-06-30 | Open tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN4220255"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN4220255 | Palantir Technologies Australia Pty Ltd | Australian Transaction Reports and Analysis Centre | Provision of implementation and sustainment services for Transaction Reporting solution | $1,883,729.10 | 2026-02-12 to 2027-06-30 | Open tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "portal_id": "CN4231780"
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN4231780 | Palantir Technologies Australia Pty Ltd | Australian Transaction Reports and Analysis Centre | Transaction Reporting and Integration Platform (CM-11164-PAL) | $5,064,583.70 | 2026-02-01 to 2027-06-30 | Open tender"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 30
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3992202 | PALANTIR TECHNOLOGIES INC. | Australian Signals Directorate | Software Licencing | $696,981.39"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 29
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3996124 | Palantir Technologies Australia | Australian Criminal Intelligence Commission | Software Maintenance & Support | $1,402,122.87"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 28
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN4104368 | PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD | Department of Defence | Data Services | $7,150,000.00"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 26
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN4115523 | PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD | Department of Defence | Software | $4,135,076.99"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 25
+    },
+    "set": {},
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN4218984 | PALANTIR TECHNOLOGIES AUSTRALIA PTY LTD | Department of Defence | ICT System Platform | $10,389,894.90"
+     }
+    ]
+   }
+  ],
+  "metrics": [
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_cth_contract_value_2013_2026",
+     "value": 68258634.93,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "29 notices, CN1402001 (2013-05-21) to CN4231780; Department of Defence: 11 notices, $29,984,631.37; Australian Transaction Reports and Analysis Centre: 6 notices, $28,117,548.41; Australian Criminal Intelligence Commission: 5 notices, $6,068,875.14; Australian Signals Directorate: 6 notices, $4,037,580.01; Department of Veterans' Affairs: 1 notices, $50,000.00"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_cth_contract_count_2013_2026",
+     "value": 29.0,
+     "unit": "contract notices",
+     "basis": "actual",
+     "notes": "Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1402001, CN1676331, CN1677931, CN2025081, CN2317501, CN2386341, CN2514842, CN3287309, CN3377908, CN3452251, CN3475110, CN3526802, CN3557030, CN3610053, CN3652667, CN3687690, CN3696220, CN3760228, CN3790101, CN3856759, CN3871703, CN3942923, CN3992202, CN3996124, CN4104368, CN4115523, CN4218984, CN4220255, CN4231780"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_cth_limited_tender_value_2013_2026",
+     "value": 26124625.09,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "The 19 of the 29 notices awarded by limited tender, where one or a few suppliers are invited rather than the market. Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1402001, CN1676331, CN1677931, CN2025081, CN2317501, CN2386341, CN2514842, CN3475110, CN3526802, CN3557030, CN3610053, CN3652667, CN3687690, CN3696220, CN3790101, CN3856759, CN3871703, CN3992202, CN4218984"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_cth_us_parent_contract_value",
+     "value": 10009817.59,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "The 11 notices naming the US parent, Palantir Technologies Inc., with no Australian business number, rather than the Australian company. Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1402001 Department of Defence | CN1676331 Department of Defence | CN1677931 Department of Defence | CN2025081 Department of Defence | CN2514842 Australian Criminal Intelligence Commission | CN3526802 Department of Defence | CN3652667 Australian Signals Directorate | CN3696220 Australian Signals Directorate | CN3790101 Australian Signals Directorate | CN3856759 Australian Signals Directorate | CN3992202 Australian Signals Directorate"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_defence_contract_value_2013_2026",
+     "value": 29984631.37,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "Department of Defence: 11 Palantir notices, 2013-05-21 to 2026-02-11. Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1402001 $609,186.52 | CN1676331 $2,023,683.72 | CN1677931 $2,611,237.78 | CN2025081 $456,880.00 | CN2317501 $1,594,326.16 | CN3475110 $100,000.00 | CN3526802 $639,345.30 | CN3871703 $275,000.00 | CN4104368 $7,150,000.00 | CN4115523 $4,135,076.99 | CN4218984 $10,389,894.90"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_austrac_contract_value_2013_2026",
+     "value": 28117548.41,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "Australian Transaction Reports and Analysis Centre: 6 Palantir notices, 2016-09-22 to 2026-04-10. Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3377908 $242,000.00 | CN3452251 $8,625,342.00 | CN3760228 $227,021.30 | CN3942923 $12,074,872.31 | CN4220255 $1,883,729.10 | CN4231780 $5,064,583.70"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_acic_contract_value_2013_2026",
+     "value": 6068875.14,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "Australian Criminal Intelligence Commission: 5 Palantir notices, 2014-07-04 to 2023-08-20. Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2386341 $20,211.40 | CN2514842 $310,493.88 | CN3287309 $1,329,261.57 | CN3557030 $3,006,785.42 | CN3996124 $1,402,122.87"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "as_of": "2026-10-13",
+     "scope": "Australia - Commonwealth",
+     "metric_name": "palantir_asd_contract_value_2013_2026",
+     "value": 4037580.01,
+     "unit": "AUD",
+     "basis": "actual",
+     "notes": "Australian Signals Directorate: 6 Palantir notices, 2019-07-12 to 2023-08-04. Every Palantir notice in the AusTender feed (RG-086), at each contract's latest value after amendment, excluding one cancelled notice (CN2296931, Defence, $1,010,365.99). Includes two ASD notices with the same start date that may be one contract re-published ($678,589.62 and $682,719.35). Values include GST. Not summed with any state or company figure.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-13"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN3610053 $678,589.62 | CN3652667 $682,719.35 | CN3696220 $692,240.02 | CN3790101 $625,761.27 | CN3856759 $661,288.36 | CN3992202 $696,981.39"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 331
+    },
+    "set": {
+     "notes": "Crikey's analysis of AusTender: Defence 'has now spent more than $26 million on Palantir contracts since 2013'. A floor ('more than'), not an exact total. CHECKED 2026-10-22 (RG-086): the AusTender feed holds 11 Defence notices with Palantir (not cancelled) from 2013 to 2026 worth $29,984,631.37 at their latest values (metric palantir_defence_contract_value_2013_2026), plus one cancelled - consistent with Crikey's floor."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1402001 $609,186.52 | CN1676331 $2,023,683.72 | CN1677931 $2,611,237.78 | CN2025081 $456,880.00 | CN2317501 $1,594,326.16 | CN3475110 $100,000.00 | CN3526802 $639,345.30 | CN3871703 $275,000.00 | CN4104368 $7,150,000.00 | CN4115523 $4,135,076.99 | CN4218984 $10,389,894.90"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 338
+    },
+    "set": {
+     "notes": "WA Police real-time facial recognition trial (Perth): one mobile van scanned 130,000+ faces in crowded public spaces in week one; 33 alerts; 19 arrests; two acknowledged false alerts; database ~4,000 people. VENDOR NAMED 2026-10-22 (RG-093): WA Police's own privacy impact assessment names NEC and NEC's NeoFace Watch technology, and states 'Data stored in Australia'. Not a Palantir system."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_WAPOL_OLFR_PIA",
+      "quote": "p2: Title Overt Live Facial Recognition (OLFR) Lifecycle Stage Trial proposal Vendor NEC | p5: Current engagement with NEC is ongoing. If endorsed the technology will be the NEC’s NeoFace Watch technology using the NeoFace M40 algorithm."
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 339
+    },
+    "set": {
+     "notes": "Week-one arrests from the 33 alerts above, including one executed live during the commissioner's media conference. Two welfare checks; 21 registered sex offenders 'engaged with'. VENDOR NAMED 2026-10-22 (RG-093): WA Police's own privacy impact assessment names NEC and NEC's NeoFace Watch technology, and states 'Data stored in Australia'. Not a Palantir system."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_WAPOL_OLFR_PIA",
+      "quote": "p2: Title Overt Live Facial Recognition (OLFR) Lifecycle Stage Trial proposal Vendor NEC | p5: Current engagement with NEC is ongoing. If endorsed the technology will be the NEC’s NeoFace Watch technology using the NeoFace M40 algorithm."
+     }
+    ]
+   }
+  ],
+  "security_records": [
+   {
+    "match": {
+     "id": 6
+    },
+    "set": {
+     "as_of_date": "2026-10-22",
+     "notes": "Palantir announced IRAP PROTECTED completion under the Information Security Registered Assessors Program on 20 Nov 2025, assessed by an independent third-party assessor per ASD requirements. Its release states Palantir Platform Australia (PPA) delivers Foundry and AIP 'hosted in Australian Amazon Web Services (AWS) regions'. sovereign_data_carriage deliberately NULL: PPA hosting in Australian AWS regions does not establish that any specific Australian deployment (Defence CWD, ASD, ACIC, AUSTRAC) runs on PPA, and IRAP PROTECTED is an assessment level, not a sovereignty guarantee (RG-087). CHECKED 2026-10-22: the Hosting Certification Framework register lists 'Amazon Web Services - Cloud Service offering (Australian Regions)' and does not list Palantir. 11 of Palantir's Commonwealth notices name the US parent, 5 of them ASD's; ASD is exempt from the FOI Act, so what it assessed or cleared cannot be sought from it (RG-089; FOI-003 asks Defence for its own records instead). DISCREPANCY: Crikey (17 Feb 2026) states ASD granted Palantir 'a top security clearance' in November 2024 - no primary record found; IRAP is not a security clearance. The certificate itself was not obtained."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_HCF_REGISTER",
+      "quote": "Amazon Web Services - Cloud Service offering (Australian Regions)"
+     },
+     {
+      "id": "SRC_FOI_ACT_1982",
+      "quote": "Part I — Exempt agencies Division 1 Aboriginal Land Councils and Land Trusts Auditor ‑ General Australian Secret Intelligence Service Australian Security Intelligence Organisation Australian Signals Directorate | An agency is exempt from the operation of this Act in relation to the following documents: (a) a document (an intelligence agency document ) that has originated with, or has been received from, any of the following:"
+     }
+    ]
+   }
+  ],
+  "research_gaps": [
+   {
+    "match": {
+     "id": 86
+    },
+    "set": {
+     "status": "in_progress",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_AUSTENDER_OCDS_202610",
+     "confidence": "medium",
+     "as_of_date": "2026-10-22",
+     "notes": "ADVANCED 2026-10-22 (research batch 4). COMMONWEALTH LEDGER BUILT from the AusTender feed (the Open Contracting Partnership's copy; AusTender and data.gov.au refuse the crawler): 29 Palantir notices (not cancelled) from 2013-05-21 to 2026 worth $68,258,634.93 at their latest values - Department of Defence: 11 notices, $29,984,631.37; Australian Transaction Reports and Analysis Centre: 6 notices, $28,117,548.41; Australian Criminal Intelligence Commission: 5 notices, $6,068,875.14; Australian Signals Directorate: 6 notices, $4,037,580.01; Department of Veterans' Affairs: 1 notices, $50,000.00. 19 were limited tenders ($26,124,625.09); 11 name the US parent ($10,009,817.59). One more, Defence CN2296931 ($1,010,365.99), is cancelled. The feed matches all five notices read on AusTender in September. Defence's $29,984,631.37 is consistent with Crikey's 'more than $26 million'. REFUSED: the Victorian, South Australian and ACT portals (HTTP 403) and WA's (robots.txt), with buy.nsw from batch 3 (data/raw/registers/); in docs/requests/DOWNLOADS.md. Still open: state contracts, and the call-offs under panel SON3490955."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "29 notices; Department of Defence: 11 notices, $29,984,631.37; Australian Transaction Reports and Analysis Centre: 6 notices, $28,117,548.41; Australian Criminal Intelligence Commission: 5 notices, $6,068,875.14; Australian Signals Directorate: 6 notices, $4,037,580.01; Department of Veterans' Affairs: 1 notices, $50,000.00"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 87
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-22",
+     "notes": "ADVANCED 2026-10-22 (research batch 4). What the public record holds: Palantir says its Australian platform is 'hosted in Australian Amazon Web Services (AWS) regions'; the Hosting Certification Framework register lists AWS's Australian regions and not Palantir; 11 of the Commonwealth's notices name the US parent. No notice says where a deployment runs. ASD is exempt from the FOI Act (Schedule 2), so the residency question can be put only to Defence: FOI-002 (docs/requests/) asks for the hosting and data-location terms of Defence's three current Palantir contracts, framed around location and jurisdiction, not capability, with the operational-intelligence exemption in mind."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_HCF_REGISTER",
+      "quote": "Amazon Web Services - Cloud Service offering (Australian Regions)"
+     },
+     {
+      "id": "SRC_FOI_ACT_1982",
+      "quote": "Part I — Exempt agencies Division 1 Aboriginal Land Councils and Land Trusts Auditor ‑ General Australian Secret Intelligence Service Australian Security Intelligence Organisation Australian Signals Directorate | Department of Defence, in relation to documents in respect of: (a) the collection, reporting or analysis of operational intelligence; or (b) special access programs, under which a foreign government provides restricted access to technologies."
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 88
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-22",
+     "notes": "ADVANCED 2026-10-22 (research batch 4). WesTrac VERIFIED from Palantir's own release (8 Nov 2022; Foundry in its Perth rebuild centres since 2021; ENT_WESTRAC). Coles is ending its arrangement (RG-095). Westpac: still only Crikey's report of a Palantir executive's LinkedIn post, now joined by GetUp's statement that Palantir 'still has lucrative contracts with Westpac' - an advocacy claim, not a record. No Westpac entity until a primary record or a second reported source appears. Qantas, Transurban, Nuix and VMO stay out (triage)."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_PALANTIR_WESTRAC_2022",
+      "quote": "Palantir and WesTrac announced a partnership to deploy Palantir Foundry across WesTrac’s servicing and rebuild operations centres in Perth, Western Australia."
+     },
+     {
+      "id": "SRC_CYBERDAILY_COLES_SEP26",
+      "quote": "And Palantir still has lucrative contracts with Westpac, Rio Tinto, and a host of government agencies."
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 89
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-22",
+     "notes": "WORKED 2026-10-22 (research batch 4). The question cannot be put to ASD: Schedule 2 of the FOI Act lists it as an exempt agency, and documents that originated with it are exempt in any agency's hands. Not on the public record: no ASD list names Palantir, and the Hosting Certification Framework register (which certifies hosting, not software) lists AWS's Australian regions but not Palantir. Route now: FOI-003 to Defence for its OWN records of any Defence Industry Security Program membership or facility clearance held by Palantir Technologies Australia, and of any review of Palantir's IRAP assessment, 2024-2025; and a right-of-reply question to Crikey about its source. Both claims stay sourced, neither fact."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_FOI_ACT_1982",
+      "quote": "The bodies specified in Division 1 of Part I of Schedule 2, and a person holding and performing the duties of an office specified in that Division, are to be deemed not to be prescribed authorities for the purposes of this Act. | Part I — Exempt agencies Division 1 Aboriginal Land Councils and Land Trusts Auditor ‑ General Australian Secret Intelligence Service Australian Security Intelligence Organisation Australian Signals Directorate"
+     },
+     {
+      "id": "SRC_HCF_REGISTER",
+      "quote": "Amazon Web Services - Cloud Service offering (Australian Regions)"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 90
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-22",
+     "notes": "WORKED 2026-10-22 (research batch 4). In the AusTender feed (2007 to October 2026) no notice names NVIDIA as supplier: 8 buy NVIDIA products through resellers, none of them AUKUS work. Only 2 notices mention AUKUS at all, and neither supplier is Palantir or NVIDIA. The 29 Palantir notices are software licences, support, data services and analytics. Search summaries found Pillar II awards to other companies only (leads, in the hunt log). defence.gov.au did not answer the crawler. Still unevidenced, so still not asserted: any Palantir or NVIDIA Pillar II work. Kelly's post-separation conditions: not found; the absence stays the working finding."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN1450022 XENON SYSTEMS PTY LTD: GPU Cluster upgrade Nvidia Kepler cards | CN3396983 FRONTLINE SYSTEMS AUSTRALIA PTY LTD: NVIDIA QUADRO Graphics Cards | CN3409009 XENON SYSTEMS PTY LTD: NVIDIA DGX-1 Deep Learning Servers | CN3427950 DELL AUSTRALIA PTY LIMITED: NVIDIA cards | CN3428010 DELL AUSTRALIA PTY LIMITED: NVIDIA Cards | CN3477307 HEWLETT-PACKARD ENTERPRISE: Nvidia Grid Software Licences | CN3594682 HEWLETT-PACKARD ENTERPRISE T/A HEWLETT PACKARD AUSTRALIA: Software purchase Nvidia grid | CN3964579 Xenon Systems Pty Ltd: Nvidia DGXH100\nHardware, support, software and installation"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 92
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-22",
+     "notes": "ADVANCED 2026-10-22 (research batch 4). A second, independent transcript (The Singju Post) agrees with Sherwood's: 'We work with Palantir to accelerate everything Palantir does so that we could do data processing at a much, much larger scale and more speed ... process that data for our government, for national security, and for enterprises around the world'. The recording itself REFUSED the crawler (YouTube, HTTP 429; captions closed by robots.txt). The quote stays REPORTED; a person can check it at about 1:25:14 of the recording (docs/requests/DOWNLOADS.md)."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SINGJU_GTC_TRANSCRIPT",
+      "quote": "Read the full transcript of NVIDIA CEO Jensen Huang’s keynote speech at NVIDIA GTC 2025 Washington, D.C., October 28, 2025. | We work with Palantir to accelerate everything Palantir does so that we could do data processing at a much, much larger scale and more speed ... process that data for our government, for national security, and for enterprises around the world"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 93
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-22",
+     "notes": "ADVANCED 2026-10-22 (research batch 4). WA: the live facial recognition trial runs on NEC, named in WA Police's own privacy impact assessment (NeoFace Watch, M40 algorithm; 'Data stored in Australia'); it does not mention Palantir. COMMONWEALTH: the ledger shows the ACIC has bought Palantir software since 2014 (5 notices, $6,068,875.14) and AUSTRAC since 2016 (6 notices, $28,117,548.41); no AFP or Home Affairs notice. What either agency runs on it is not stated. State police: the state portals refused (RG-086). FOI-004 to the ACIC asks what the software supports. The separation rule stands: no Palantir row links to an Australian policing capability without a primary source."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_WAPOL_OLFR_PIA",
+      "quote": "p2: Title Overt Live Facial Recognition (OLFR) Lifecycle Stage Trial proposal Vendor NEC | p4: Data stored in Australia"
+     },
+     {
+      "id": "SRC_AUSTENDER_OCDS_202610",
+      "quote": "CN2386341 Australian Criminal Intelligence Commission | CN2514842 Australian Criminal Intelligence Commission | CN3287309 Australian Criminal Intelligence Commission | CN3557030 Australian Criminal Intelligence Commission | CN3996124 Australian Criminal Intelligence Commission | CN3377908 Australian Transaction Reports and Analysis Centre | CN3452251 Australian Transaction Reports and Analysis Centre | CN3760228 Australian Transaction Reports and Analysis Centre | CN3942923 Australian Transaction Reports and Analysis Centre | CN4220255 Australian Transaction Reports and Analysis Centre | CN4231780 Australian Transaction Reports and Analysis Centre"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 95
+    },
+    "set": {
+     "status": "resolved",
+     "resolved_date": "2026-10-22",
+     "fact_status": "REPORTED",
+     "source_id": "SRC_ITNEWS_COLES_SEP26",
+     "confidence": "high",
+     "as_of_date": "2026-09-04",
+     "notes": "RESOLVED 2026-10-22 (research batch 4). Yes: on 4 September 2026 Coles told iTnews, Cyber Daily and others that 'Coles and Palantir have agreed to conclude their partnership after three years of collaboration'; the arrangement is not expected to run beyond calendar 2027. The reason Coles gave is none: the statement praises the software and denies it was used for surveillance. The campaign as cause is GetUp's claim (86,000 signatures; a push for a shareholder vote). No Coles release or ASX statement was found; Coles' 2026 notice of meeting (15 September) has no item on Palantir. REPORTED, not VERIFIED: the statement exists as three outlets quote it."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_ITNEWS_COLES_SEP26",
+      "quote": "Coles and Palantir have agreed to conclude their partnership after three years of collaboration | The exact timing is yet to be settled, but the arrangement is not expected to run beyond calendar 2027. | Advocacy group GetUp! claimed the cessation as a win for a year-long campaign against the deal, which gathered 86,000 petition signatures and was pushing for a shareholder vote on the partnership at Coles' annual general meeting."
+     },
+     {
+      "id": "SRC_ACS_COLES_SEP26",
+      "quote": "Coles also denied that Palantir had access to CCTV, facial recognition or any of its crime-prevention measures. | It’s only in the last few weeks, with the shareholder vote around the corner adding yet another layer of pressure, that Coles changed tack."
+     },
+     {
+      "id": "SRC_CYBERDAILY_COLES_SEP26",
+      "quote": "Coles and Palantir have agreed to conclude their partnership after three years of collaboration"
+     },
+     {
+      "id": "SRC_COLES_AGM_NOM_2026",
+      "quote": "p2: The Coles Group Limited 2026 AGM will be held on Friday 6 November 2026 at 9.30am (AEDT)."
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 12
+    },
+    "set": {
+     "status": "resolved",
+     "resolved_date": "2026-10-22",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_DEXUS_WDDP_2026",
+     "confidence": "high",
+     "as_of_date": "2026-09-16",
+     "notes": "RESOLVED 2026-10-22 (research batch 4). CONFLICT OF INTEREST: Anthropic's model drafts this research; the author should read the sources directly. Dexus's ASX release of 16 September 2026 confirms the relationship: a consortium of Zerra DC, Macquarie Capital and Dexus's Australian Data Centres 'has entered into lease documentation with the Australian subsidiary of Anthropic for the delivery of the first stage' of the Western Downs campus, 'subject to customary approvals'. The development application was obtained in September (SRC_WDDP_TPR): it names neither Anthropic nor Zerra. Not public: the lease's term, price and capacity, and which approvals remain."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_DEXUS_WDDP_2026",
+      "quote": "ADC holds a 25% interest in a consortium with Zerra DC and Macquarie Capital (Consortium) in connection with the proposed development of a hyperscale data centre campus for an Australian subsidiary of Anthropic in the Western Downs region of Queensland. | The Consortium has entered into lease documentation with the Australian subsidiary of Anthropic for the delivery of the first stage of the campus, subject to customary approvals. | Dexus provides the following update in relation to Australian Data Centres (ADC), in which Dexus holds an 85% interest."
+     }
+    ]
+   }
+  ]
+ }
+}

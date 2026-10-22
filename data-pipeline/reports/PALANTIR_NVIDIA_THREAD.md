@@ -111,7 +111,14 @@ which names the **US parent** ("PALANTIR TECHNOLOGIES INC.", Denver; ABN "Exempt
 
 Catalogued Defence subtotal: **$18.9m** at original values ($21.7m counting the amendment).
 Crikey's AusTender analysis puts **total Defence spend since 2013 at more than $26m** — so a
-tail of older notices is not yet in the ledger. The complete ledger across all Commonwealth and
+tail of older notices is not yet in the ledger.
+
+**Update 2026-10-22 (research batch 4, `data/packs/whose_data.json`):** the full Commonwealth
+ledger is now loaded from the AusTender feed (the Open Contracting Partnership's open-licence
+copy, checked against the five notices above): **29 notices, May 2013 to April 2026,
+$68,258,634.93 at latest values** — Defence $29.98m (11), AUSTRAC $28.12m (6), ACIC $6.07m (5),
+ASD $4.04m (6), Veterans' Affairs $0.05m (1). Crikey's Defence floor holds. See
+`reports/hunts/RG-086.md`. The complete ledger across all Commonwealth and
 state governments is **RG-086** (priority 5); the DTA **Software and ERP Marketplace panel
 (SON3490955)** matters because its Category 2 is open to Commonwealth, state, territory **and
 local government** buyers — the procurement channel exists for every level of government

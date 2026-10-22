@@ -59,13 +59,20 @@ select public.assert(
 -- 2025-26 Budget release on the Investment Delivery Authority, the FIRB quarterly
 -- report and the NSW ministers' diary index, giving 268 (it re-declares
 -- SRC_PENRITH_VPA and SRC_NSWGUIDE26, which add none). No entity is added.
+-- 2026-10-22: research batch 4 (data/packs/whose_data.json) adds ten sources: the
+-- AusTender feed (the Open Contracting Partnership's copy), the FOI Act, WA
+-- Police's facial recognition privacy assessment, three news reports and Coles'
+-- notice of meeting on Coles and Palantir, Dexus's release on the Western Downs
+-- campus, a second keynote transcript and Palantir's WesTrac release, giving
+-- 278; and two entities, AUSTRAC (a Palantir buyer since 2016) and WesTrac (a
+-- Palantir customer), giving 142.
 select public.assert(
-  (select count(*) from facts.entities where pipeline_id is not null) = 140,
-  '140 entities loaded');
+  (select count(*) from facts.entities where pipeline_id is not null) = 142,
+  '142 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 268,
-  '268 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 278,
+  '278 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -82,7 +89,8 @@ select public.assert(
 -- and NEXTDC's annual report) and RG-014 (NEXTDC's OpenAI announcement and later
 -- reports), so seven are rejected and 87 load.
 -- 2026-10-22: research batch 3 cites RG-006 (the FIRB quarterly report), so six
--- are rejected and 88 load.
+-- are rejected and 88 load. Research batch 4 cites none of the six, so 88 still
+-- load.
 select public.assert(
   (select count(*) from facts.research_agenda where pipeline_id is not null) = 88,
   '88 research questions loaded');

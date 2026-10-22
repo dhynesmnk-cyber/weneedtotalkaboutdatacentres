@@ -1,0 +1,11 @@
+{
+ "derived_from": "data/raw/registers/open_contracting/austender-full.jsonl.gz",
+ "derived_from_sha256": "27619b1bfacee661c7af36e6257861574fa9562c041f09131e543b1223343538",
+ "derived_from_url": "https://fastly.data.open-contracting.org/downloads/australia/4299/full.jsonl.gz",
+ "filter": "every record whose line holds 'alantir', 'ALANTIR' or the ABN 48144948309 in either form; all are Palantir Technologies Inc. or Palantir Technologies Australia Pty Ltd",
+ "redaction": "each party's contactPoint and address removed: they can name or locate a person",
+ "records": 30,
+ "derived_utc": "2026-10-22T21:10:51+00:00",
+ "sha256": "fc57e59952a3000606694789aea3dc661c3dda4501965c1510a6a99f1d990ff5",
+ "bytes": 67947
+}
