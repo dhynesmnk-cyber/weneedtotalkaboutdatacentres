@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 152 rows)
+## `ingest_log` (table, 157 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -377,7 +377,7 @@ Acts, regulations, rules, determinations, bills, policies, guidelines, strategie
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `lobbying` (table, 15 rows)
+## `lobbying` (table, 28 rows)
 
 _No description recorded._
 
@@ -400,7 +400,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `metrics` (table, 350 rows)
+## `metrics` (table, 371 rows)
 
 Time series of system-level figures. `basis` is mandatory discipline: actual / pipeline / signed / enquiry / forecast. Enquiry and signed figures are never summed.
 
@@ -639,7 +639,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 585 rows)
+## `source_refs` (table, 656 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 
@@ -651,7 +651,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 261 rows)
+## `sources` (table, 268 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 
@@ -925,7 +925,7 @@ ORDER BY i.jurisdiction, i.incentive_type
 
 </details>
 
-## `v_influence` (view, 15 rows)
+## `v_influence` (view, 28 rows)
 
 _No description recorded._
 

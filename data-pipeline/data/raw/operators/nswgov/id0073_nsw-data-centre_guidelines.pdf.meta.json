@@ -1,0 +1,10 @@
+{
+ "url": "https://www.infrastructure.nsw.gov.au/media/4jlictae/id0073_nsw-data-centre_guidelines.pdf",
+ "requested_url": "https://www.infrastructure.nsw.gov.au/media/4jlictae/id0073_nsw-data-centre_guidelines.pdf",
+ "fetched_utc": "2026-10-22T16:28:27+00:00",
+ "sha256": "78730263610b211637de307608ae6ddbf72ee90cbe3bdc04d151343d7efd225f",
+ "bytes": 1362558,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 26
+}

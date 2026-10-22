@@ -1,0 +1,10 @@
+{
+ "url": "https://foreigninvestment.gov.au/sites/foreigninvestment.gov.au/files/2026-05/quarterly-report-jan-mar-2026.pdf",
+ "requested_url": "https://foreigninvestment.gov.au/sites/foreigninvestment.gov.au/files/2026-05/quarterly-report-jan-mar-2026.pdf",
+ "fetched_utc": "2026-10-22T16:26:46+00:00",
+ "sha256": "10906032a6df3c982da0650298e9ae9d51eae3a99a58d23fe706b297fae2ad80",
+ "bytes": 941813,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 16
+}

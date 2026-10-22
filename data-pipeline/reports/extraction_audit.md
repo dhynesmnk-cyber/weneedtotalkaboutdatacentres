@@ -1,12 +1,12 @@
 # Extraction yield audit
 
-Generated from 52 archived PDFs. Reliability floor: **20 chars/KB**.
+Generated from 57 archived PDFs. Reliability floor: **20 chars/KB**.
 
 Any document below the floor **cannot support a negative finding**. A keyword that does not appear
 in its extracted text may simply not have been extracted. Re-read such documents through a full PDF
 renderer before concluding that a term, condition or commitment is absent.
 
-**14 of 52 documents are below the floor.**
+**16 of 57 documents are below the floor.**
 
 | chars/KB | chars | status | extractor | document | likely cause |
 |---|---|---|---|---|---|
@@ -16,6 +16,7 @@ renderer before concluding that a term, condition or commitment is absent.
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-05-29.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-07-02.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_political_donation.pdf` | image-only scan, or no extractable content stream |
+| 0.3 | 497 | **LOW** | pypdf | `data/raw/councils/penrith/Executed_Voluntary_Planning_Agreement_-_Microsoft_Datacenter.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 0.9 | 3,009 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-67407231__appendix-05-survey-plan-title-documents-60.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 1.7 | 2,099 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-92743706__appendix-3-title-documents-388.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 4.5 | 2,360 | **LOW** | pypdf | `data/raw/nsw_planning/ownership/SSD-59416728__appendix-3-title-documents-310.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
@@ -23,10 +24,13 @@ renderer before concluding that a term, condition or commitment is absent.
 | 8.2 | 10,951 | **LOW** | pdf_text | `data/raw/nsw_planning/nsw_data_centre_guidelines_2026.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 9.1 | 24,571 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230704_968_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 12.5 | 52,261 | **LOW** | pypdf | `data/raw/operators/nextdc/NEXTDC_FY26_Results_Presentation.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 12.6 | 50,950 | **LOW** | pypdf | `data/raw/councils/penrith/Penrith_City_Council_VPA_-_3_February_2022_FINAL301930683.1_1.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 14.7 | 121,083 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230606_921_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 20.5 | 3,698 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_notice_of_decision.pdf` |  |
 | 21.4 | 104,976 | ok | pypdf | `data/raw/operators/mandala/Data-Centres-as-Enabling-Infrastructure.pdf` |  |
 | 23.3 | 3,701 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_roberts_nod.pdf` |  |
+| 25.9 | 23,764 | ok | pypdf | `data/raw/operators/firb_files/quarterly-report-jan-mar-2026.pdf` |  |
+| 27.8 | 5,502 | ok | pypdf | `data/raw/councils/penrith/Explanatory_Note_1.pdf` |  |
 | 27.9 | 67,262 | ok | pypdf | `data/raw/nsw_planning/consents/dicker_data_warehouse_and_distribution_centre.pdf` |  |
 | 28.2 | 4,398 | ok | pypdf | `data/raw/nsw_planning/consents/davis_rd_data_centre_mod_1_tree_removal_correction.pdf` |  |
 | 36.9 | 7,163 | ok | pypdf | `data/raw/operators/nextdc/1H26_Results_Announcement.pdf` |  |
@@ -36,6 +40,7 @@ renderer before concluding that a term, condition or commitment is absent.
 | 50.0 | 76,489 | ok | pdf_text | `data/raw/nsw_planning/attachments/DCI_poplars_consent.pdf` |  |
 | 50.2 | 76,914 | ok | pypdf | `data/raw/nsw_planning/consents/dci_poplars_data_centre_project_0.pdf` |  |
 | 54.4 | 59,431 | ok | pdf_text | `data/raw/nsw_inquiry/submissions/BCA_116.pdf` |  |
+| 55.5 | 73,751 | ok | pypdf | `data/raw/operators/nswgov/id0073_nsw-data-centre_guidelines.pdf` |  |
 | 61.7 | 106,584 | ok | pypdf | `data/raw/nsw_planning/consents/project_apollo_data_centre_macquarie_park.pdf` |  |
 | 62.7 | 94,999 | ok | pypdf | `data/raw/nsw_planning/consents/talavera_road_data_centre_campus_expansion.pdf` |  |
 | 66.5 | 89,589 | ok | pypdf | `data/raw/nsw_planning/consents/lane_cove_west_data_centre.pdf` |  |

@@ -1,0 +1,10 @@
+{
+ "url": "https://hdp-au-prod-app-penr-yoursay-files.s3.ap-southeast-2.amazonaws.com/7516/7814/9315/Penrith_City_Council_VPA_-_3_February_2022_FINAL301930683.1_1.pdf",
+ "requested_url": "https://yoursaypenrith.com.au/download_file/2603/1002",
+ "fetched_utc": "2026-10-22T16:21:12+00:00",
+ "sha256": "0cc10e1ebad4daa36137c0c1e6ad8ff268738f0d5fc45032eeede933a4ca72a6",
+ "bytes": 4132478,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 38
+}

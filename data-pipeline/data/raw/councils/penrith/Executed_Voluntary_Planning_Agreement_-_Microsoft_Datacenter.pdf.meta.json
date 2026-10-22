@@ -1,0 +1,10 @@
+{
+ "url": "https://hdp-au-prod-app-penr-yoursay-files.s3.ap-southeast-2.amazonaws.com/7916/8617/9198/Executed_Voluntary_Planning_Agreement_-_Microsoft_Datacenter.pdf",
+ "requested_url": "https://yoursaypenrith.com.au/download_file/2748/1002",
+ "fetched_utc": "2026-10-22T16:21:19+00:00",
+ "sha256": "9ffd9e9ac258d5f08533e8f0f8f6bae8e88dc99fdba8011daf91ea68b7134b43",
+ "bytes": 1639832,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 39
+}

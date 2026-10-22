@@ -53,13 +53,19 @@ select public.assert(
 -- sources, three super funds' holdings files, six NEXTDC documents and the ASX's
 -- list of NEXTDC's 2025 announcements, giving 261 (it re-declares SRC_NEXTDC_S7,
 -- which adds none); and one entity, La Caisse, giving 140.
+-- 2026-10-22: research batch 3 (data/packs/public_and_room.json) adds seven sources:
+-- Penrith's planning agreement with Microsoft (its explanatory note and draft),
+-- Oxford Economics' phantom-demand briefing, the BCA's member directory, the
+-- 2025-26 Budget release on the Investment Delivery Authority, the FIRB quarterly
+-- report and the NSW ministers' diary index, giving 268 (it re-declares
+-- SRC_PENRITH_VPA and SRC_NSWGUIDE26, which add none). No entity is added.
 select public.assert(
   (select count(*) from facts.entities where pipeline_id is not null) = 140,
   '140 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 261,
-  '261 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 268,
+  '268 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -75,9 +81,11 @@ select public.assert(
 -- 2026-10-22: research batch 2 cites RG-004 (three super funds' holdings files
 -- and NEXTDC's annual report) and RG-014 (NEXTDC's OpenAI announcement and later
 -- reports), so seven are rejected and 87 load.
+-- 2026-10-22: research batch 3 cites RG-006 (the FIRB quarterly report), so six
+-- are rejected and 88 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 87,
-  '87 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 88,
+  '88 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -88,7 +96,7 @@ select public.assert(
 
 select public.assert(
   (select count(*) from facts.research_agenda
-    where pipeline_id in ('RG-001', 'RG-006', 'RG-008',
+    where pipeline_id in ('RG-001', 'RG-008',
                           'RG-016', 'RG-017', 'RG-018', 'RG-019')) = 0,
   'no uncited question was published');
 
@@ -182,8 +190,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 87,
-  'anon can read all 87 research questions');
+  (select count(*) from facts.research_agenda) = 88,
+  'anon can read all 88 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

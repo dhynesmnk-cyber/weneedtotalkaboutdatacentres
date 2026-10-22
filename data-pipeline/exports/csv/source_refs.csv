@@ -288,7 +288,7 @@ id,entity_table,entity_rowid,source_id,quote
 287,research_gaps,15,SRC_INQ_T_0522,
 288,research_gaps,15,SRC_INQ_T_0529,
 289,research_gaps,15,SRC_INQ_T_0702,
-290,research_gaps,7,SRC_INQ_T_0501,
+290,research_gaps,7,SRC_INQ_T_0501,"Data centre operators will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity available for public use. Data centre operators do not receive subsidies or tax incentives."
 291,research_gaps,7,SRC_INQ_T_0508,
 292,research_gaps,7,SRC_INQ_TOR,
 293,research_gaps,34,SRC_NSWPORTAL_MODS,
@@ -584,3 +584,74 @@ id,entity_table,entity_rowid,source_id,quote
 583,research_gaps,14,SRC_NXT_1H26_PRESENTATION,p6: S7 granted fast track status under the NSW Government’s Investment Delivery Authority (IDA) program | p6: Barrenjoey has been appointed as Lead Financial Adviser to support these programs
 584,research_gaps,14,SRC_ASX_NXT_ANNOUNCEMENTS_2025,12/12/2025 3:57 pm Response to ASX Compliance Letter
 585,research_gaps,14,SRC_NEXTDC_S7,"Planned for Eastern Creek, S7 Sydney is a future 550MW+ hyperscale data centre"
+586,metrics,351,SRC_NSWPORTAL_CONSENTS,"SSD-9741: a contribution under section 7.11 of the EP&A Act of $1,426,876"
+587,metrics,352,SRC_NSWPORTAL_CONSENTS,"SSD-53338465: a contribution under section 7.11 of the EP&A Act of $314,528.57"
+588,metrics,353,SRC_NSWPORTAL_CONSENTS,"SSD-53338465: Total housing and productivity contribution $234,724.80"
+589,metrics,354,SRC_NSWPORTAL_CONSENTS,"SSD-59416728: Total housing and productivity contribution $625,174.00"
+590,metrics,355,SRC_NSWPORTAL_CONSENTS,"SSD-67407231: a contribution under section 7.11 of the EP&A Act of $546,544.60"
+591,metrics,356,SRC_NSWPORTAL_CONSENTS,"SSD-67407231: Total housing and productivity contribution $151,287.31"
+592,metrics,357,SRC_NSWPORTAL_CONSENTS,"SSD-68013714: Note: At the date of this consent, the relevant monetary contribution is approximately $8,597,094.07."
+593,metrics,358,SRC_NSWPORTAL_CONSENTS,"SSD-69637456: Total housing and productivity contribution $3,568.10"
+594,metrics,359,SRC_NSWPORTAL_CONSENTS,"SSD-63741210: Total housing and productivity contribution $1,000,607.00"
+595,metrics,360,SRC_NSWPORTAL_CONSENTS,"SSD-63235720: Total contribution amount $776,297.24"
+596,metrics,361,SRC_NSWPORTAL_CONSENTS,"SSD-63235720: Total housing and productivity contribution $315,192.70"
+597,metrics,362,SRC_NSWPORTAL_CONSENTS,"SSD-69223466: a payment of a levy of $4,506,237.24"
+598,metrics,363,SRC_NSWPORTAL_CONSENTS,"SSD-69223466: Total housing and productivity contribution $478,501.83"
+599,metrics,364,SRC_NSWPORTAL_CONSENTS,"SSD-74069708: Total contribution amount $437,586.24"
+600,metrics,365,SRC_NSWPORTAL_CONSENTS,"SSD-74069708: Total housing and productivity contribution $471,542.50"
+601,metrics,366,SRC_NSWPORTAL_CONSENTS,"SSD-73761707: Total housing and productivity contribution $816,286.25"
+602,metrics,367,SRC_PENRITH_VPA_NOTE,"p1: The Planning Agreement requires the Developer to pay the monetary contribution of $8,423,505.96 before the issue of the first construction certificate for the proposed development. | p1: There is no s.7.11 Contributions Plan applying to the Subject Land."
+603,metrics,367,SRC_PENRITH_VPA_DRAFT,"p9: The Developer will pay to Council a monetary contribution of $8,423,505.96 or an amount calculated in accordance with the following formula, whichever is the greater"
+604,metrics,367,SRC_PENRITH_VPA,"At Council's Ordinary Meeting of 29 May 2023, Council endorsed the VPA for execution. The VPA was executed on 7 June 2023."
+605,metrics,368,SRC_NSW_IDA_BUDGET_2025,"The Minns Labor Government is investing $17.7 million in the 2025-26 Budget to establish and support the work of an Investment Delivery Authority. | A multi-agency Investment Taskforce, in Investment NSW under the Premier’s Department, will support the Authority’s work."
+606,metrics,369,SRC_MANDALA_DCEI_2025,"p6: Data centres have invested $3.1 billion in grid infrastructure since 2020, with a further $7.2 billion forecast by 2030. This includes $1.1 billion of excess capacity for communities and other industries. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+607,metrics,370,SRC_MANDALA_DCEI_2025,"p6: Data centres have invested $3.1 billion in grid infrastructure since 2020, with a further $7.2 billion forecast by 2030. This includes $1.1 billion of excess capacity for communities and other industries. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+608,metrics,371,SRC_MANDALA_DCEI_2025,"p22: Between 2020 and 2025, $500 million (or 15 per cent of total investment) represented excess capacity. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+609,metrics,26,SRC_OXEC_PHANTOM_2025,6 in every 7 MWs of connection requests are estimated to be ‘phantom demand’. | This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics.
+610,metrics,290,SRC_OXEC_PHANTOM_2025,This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics.
+611,metrics,291,SRC_OXEC_PHANTOM_2025,This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics.
+612,metrics,292,SRC_OXEC_PHANTOM_2025,This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics.
+613,lobbying,6,SRC_OXEC_PHANTOM_2025,"This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics. | In response, AEMO commissioned Oxford Economics to develop independent forecasts of electricity consumption by data centres in Australia."
+614,lobbying,6,SRC_NSWGUIDE26,"p5: Oxford Economics, Estimating Data Centre ‘Phantom Demand’, Oxford Economics, 2025."
+615,lobbying,6,SRC_INQ_T_0522,Data Centres Australia and the Business Council of Australia have both cited Oxford Economics phantom demandresearch
+616,lobbying,11,SRC_BCA_MEMBERS_202610,Tata Consultancy Services
+617,lobbying,2,SRC_BCA_MEMBERS_202610,AirTrunk
+618,lobbying,16,SRC_INQ_T_0522,met with Data Centres Australia and talked to them about the consultation paper | it's also apparent that a lot of those organisations have made direct representations to different people in government.
+619,lobbying,17,SRC_BCA_MEMBERS_202610,Amazon
+620,lobbying,18,SRC_BCA_MEMBERS_202610,Google
+621,lobbying,19,SRC_BCA_MEMBERS_202610,Microsoft
+622,lobbying,20,SRC_BCA_MEMBERS_202610,Meta
+623,lobbying,21,SRC_BCA_MEMBERS_202610,Blackstone
+624,lobbying,22,SRC_BCA_MEMBERS_202610,Goodman
+625,lobbying,23,SRC_BCA_MEMBERS_202610,Stockland
+626,lobbying,24,SRC_BCA_MEMBERS_202610,TransGrid
+627,lobbying,25,SRC_BCA_MEMBERS_202610,Endeavour Energy
+628,lobbying,26,SRC_BCA_MEMBERS_202610,Fujitsu
+629,lobbying,27,SRC_BCA_MEMBERS_202610,Telstra
+630,lobbying,28,SRC_BCA_MEMBERS_202610,Origin Energy
+631,incentives,7,SRC_PENRITH_VPA_NOTE,"p1: The Planning Agreement requires the Developer to pay the monetary contribution of $8,423,505.96 before the issue of the first construction certificate for the proposed development."
+632,incentives,6,SRC_NSW_IDA_BUDGET_2025,The Minns Labor Government is investing $17.7 million in the 2025-26 Budget to establish and support the work of an Investment Delivery Authority.
+633,incentives,6,SRC_INQ_T_0522,The one thing that we don't contemplate is government participation financially.
+634,incentives,9,SRC_INQ_T_0522,"There is a team that supports the Investment Delivery Authority in terms of assessing applications and progressing facilitation and support for those endorsed projects, and the team that does that sits within my team in the Premier's Department."
+635,incentives,9,SRC_NSWGUIDE26,"p7: Creating a concierge function within DPHI, working with the planning assessment team, that understands data centre technologies and needs"
+636,incentives,5,SRC_INQ_T_0501,"Data centre operators will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity available for public use. Data centre operators do not receive subsidies or tax incentives."
+637,incentives,5,SRC_INQ_T_0522,The one thing that we don't contemplate is government participation financially.
+638,research_gaps,25,SRC_PENRITH_VPA_NOTE,"p1: The Planning Agreement requires the Developer to pay the monetary contribution of $8,423,505.96 before the issue of the first construction certificate for the proposed development."
+639,research_gaps,25,SRC_NSWPORTAL_CONSENTS,SSD-59416728: a payment of a levy of 1 % of the proposed cost of carrying out the development must be paid to Council under section 7.12 of the EP&A Act | SSD-63741210: a payment of a levy of 1% of the proposed cost of carrying out the development
+640,research_gaps,25,SRC_PENRITH_VPA_DRAFT,"p9: The Developer will pay to Council a monetary contribution of $8,423,505.96 or an amount calculated in accordance with the following formula, whichever is the greater"
+641,research_gaps,7,SRC_INQ_T_0522,The one thing that we don't contemplate is government participation financially.
+642,research_gaps,6,SRC_FIRB_QR_2026Q1,p15: Any data that may enable the identification of a particular person or organisation has been suppressed to preserve confidentiality.
+643,research_gaps,63,SRC_NSW_IDA_BUDGET_2025,"The Minns Labor Government is investing $17.7 million in the 2025-26 Budget to establish and support the work of an Investment Delivery Authority. | A multi-agency Investment Taskforce, in Investment NSW under the Premier’s Department, will support the Authority’s work."
+644,research_gaps,63,SRC_INQ_T_0522,"There is a team that supports the Investment Delivery Authority in terms of assessing applications and progressing facilitation and support for those endorsed projects, and the team that does that sits within my team in the Premier's Department."
+645,research_gaps,63,SRC_NSWGUIDE26,"p7: Creating a concierge function within DPHI, working with the planning assessment team, that understands data centre technologies and needs"
+646,research_gaps,70,SRC_INQ_T_0522,met with Data Centres Australia and talked to them about the consultation paper | it's also apparent that a lot of those organisations have made direct representations to different people in government. | There is no Minister for data centres.
+647,research_gaps,70,SRC_NSW_DIARIES_2026,Minister for Planning and Public Spaces
+648,research_gaps,67,SRC_BCA_MEMBERS_202610,AirTrunk | Amazon | Google | Microsoft | Meta | Blackstone | Goodman | Stockland
+649,research_gaps,78,SRC_OXEC_PHANTOM_2025,"This research briefing was commissioned by AWS. The analysis and findings are Oxford Economics. | In response, AEMO commissioned Oxford Economics to develop independent forecasts of electricity consumption by data centres in Australia."
+650,research_gaps,78,SRC_NSWGUIDE26,"p5: Oxford Economics, which prepared AEMO’s forecast on data centres, estimates 6 in every 7 megawatts (MW) of data centre connection requests are phantom demand."
+651,research_gaps,78,SRC_BCA_SUB116,"Oxford Economics, Surging Data Centre Connection Requests Drive Phantom Demand"
+652,research_gaps,43,SRC_INQ_T_0529,"in New South Wales, the customer who caused network costs pays for them."
+653,research_gaps,43,SRC_INQ_T_0522,"we don't invest in new equipment, new assets, long lead items or anything ... until we have that full commitment."
+654,research_gaps,43,SRC_MANDALA_DCEI_2025,"p6: Data centres have invested $3.1 billion in grid infrastructure since 2020, with a further $7.2 billion forecast by 2030. This includes $1.1 billion of excess capacity for communities and other industries. | p22: By comparison, the Australian Government has committed $10.3 billion of funding for vital grid electricity infrastructure to 2030. | p21: Source: Data from select data centre operators; Expert interviews; Mandala analysis."
+655,research_gaps,77,SRC_BCA_MEMBERS_202610,Australia-India CEO Forum | Tata Consultancy Services
+656,research_gaps,74,SRC_NSWGUIDE26,"p7: Creating a concierge function within DPHI, working with the planning assessment team, that understands data centre technologies and needs"
