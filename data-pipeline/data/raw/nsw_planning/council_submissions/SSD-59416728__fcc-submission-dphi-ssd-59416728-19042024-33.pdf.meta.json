@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-68668459%2120240419T042602.787+GMT",
+ "slug": "/fcc-submission-dphi-ssd-59416728-19042024-33",
+ "case": "SSD-59416728",
+ "council": "Fairfield City",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "FCC Submission to DPHI - SSD-59416728 - 19.04.2024.pdf",
+ "fetched_utc": "2026-10-22T22:35:36+00:00",
+ "sha256": "12443da0d4f8498f4102001507760f51ea5d7953836998618d3ac2b71cd76316",
+ "bytes": 646860,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 10
+}

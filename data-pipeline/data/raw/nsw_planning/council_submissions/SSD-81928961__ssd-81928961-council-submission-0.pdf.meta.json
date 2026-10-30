@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-133521738%2120260807T014435.853+GMT",
+ "slug": "/ssd-81928961-council-submission-0",
+ "case": "SSD-81928961",
+ "council": "The Hills Shire",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "SSD-81928961 Council Submission.pdf",
+ "fetched_utc": "2026-10-22T22:35:27+00:00",
+ "sha256": "5554322d804b584349b7653822d4728cb381e9313dfd450a221e66a12a67b45e",
+ "bytes": 2276124,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 0
+}

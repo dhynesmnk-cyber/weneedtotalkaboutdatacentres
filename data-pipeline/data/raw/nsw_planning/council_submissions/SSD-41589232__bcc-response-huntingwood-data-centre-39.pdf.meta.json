@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-53635742%2120230224T010655.753+GMT",
+ "slug": "/bcc-response-huntingwood-data-centre-39",
+ "case": "SSD-41589232",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Response_DPE_Huntingwood Drive Data Centre.pdf",
+ "fetched_utc": "2026-10-22T22:35:17+00:00",
+ "sha256": "679401bb7bdec594e0bdda23c65782f97c930b0063b4962938e25ff0d2cb124c",
+ "bytes": 221582,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}

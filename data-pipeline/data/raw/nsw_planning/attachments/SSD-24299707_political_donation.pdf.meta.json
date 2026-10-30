@@ -1,0 +1,12 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120220301T220228.482+GMT",
+ "slug": "/political-donations-disclosure-february-2022-33",
+ "is_public": true,
+ "folder": "Development Application",
+ "label": "political-donations-disclosure-statement MDC 28-02-2022.pdf",
+ "fetched_utc": "2026-10-22T22:26:09+00:00",
+ "sha256": "76567db517a83650bb17193b1b35bb6a35172024a328e9857af993f1d2f25e03",
+ "bytes": 222126,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 0
+}

@@ -22,8 +22,9 @@ reasons.
 | [FOI-002](FOI-002-defence-palantir-hosting.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-087 | drafted |
 | [FOI-003](FOI-003-defence-palantir-clearance.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-089 | drafted |
 | [FOI-004](FOI-004-acic-palantir.md) | Australian Criminal Intelligence Commission | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-093 | drafted |
+| [GIPA-003](GIPA-003-dphi-compliance-and-delegation.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-058, RG-069, RG-040 | drafted |
 | [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked, awaiting a budget |
-| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-012, RG-014, RG-025, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person |
+| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au, both parliamentary inquiries, NSW legislation, Victorian planning | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-011, RG-012, RG-014, RG-015, RG-016, RG-025, RG-040, RG-041, RG-048, RG-056, RG-066, RG-069, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person |
 
 Status runs: drafted, lodged, acknowledged, decided, received (or refused).
 

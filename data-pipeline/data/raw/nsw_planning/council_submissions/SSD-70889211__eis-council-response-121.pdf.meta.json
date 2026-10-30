@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-77808988%2120241211T072016.518+GMT",
+ "slug": "/eis-council-response-121",
+ "case": "SSD-70889211",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "scan_gunawb_2024-12-11-18-17-05.pdf",
+ "fetched_utc": "2026-10-22T22:36:34+00:00",
+ "sha256": "d14163ea432883343d486301fc00634d37e339adde4b8bb6bd2633c56b46d3bf",
+ "bytes": 1120563,
+ "extractor": "tesseract-5.3.4 (OCR, 300 dpi, --psm 1)",
+ "redactions": 2
+}

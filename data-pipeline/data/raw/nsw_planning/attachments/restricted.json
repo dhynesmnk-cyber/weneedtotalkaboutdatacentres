@@ -1,0 +1,32 @@
+{
+ "cdc-data-centres-response-warning-letter": {
+  "case": "SSD-10330",
+  "checked_utc": "2026-10-22T22:28:55+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "roberts-road-data-centre"
+ },
+ "email-dphi-taylor-warning-letter-29052024": {
+  "case": "SSD-33781208",
+  "checked_utc": "2026-10-22T22:29:11+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "station-road-data-centre-expansion"
+ },
+ "political-donations-disclosure-mamre-road-data-centre": {
+  "case": "SSD-92743706",
+  "checked_utc": "2026-10-22T22:29:03+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "mamre-road-data-centre-campus"
+ },
+ "scanned-signed-letter-ssd-10330": {
+  "case": "SSD-10330",
+  "checked_utc": "2026-10-22T22:29:00+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "roberts-road-data-centre"
+ },
+ "warning-letter-29052024": {
+  "case": "SSD-33781208",
+  "checked_utc": "2026-10-22T22:29:07+00:00",
+  "how": "401 or 403 on the portal's JSON",
+  "project_slug": "station-road-data-centre-expansion"
+ }
+}

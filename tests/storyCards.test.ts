@@ -128,6 +128,11 @@ describe('story card rules', () => {
     expect(out.some((p) => p.includes('mentions a page reference'))).toBe(true);
   });
 
+  it('does not mistake an amount of money for an error code', () => {
+    const out = check(FRONT + BODY.replace('The portal refused the next file [RG-001].', 'It declared $7,500, then $1,500 of 500,000 [RG-001].'));
+    expect(out.some((p) => p.includes('mentions an HTTP error code'))).toBe(false);
+  });
+
   it('still counts a quantity written against its unit', () => {
     const out = check(FRONT + BODY.replace('Who stands behind it (RG-002).', 'It draws 612MW.'));
     expect(out.some((p) => p.includes('states a number without a citation'))).toBe(true);

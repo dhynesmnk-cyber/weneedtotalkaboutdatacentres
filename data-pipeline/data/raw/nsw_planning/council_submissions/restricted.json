@@ -1,0 +1,22 @@
+{
+ "blacktown-city-council-comments-ssd-58601963-45": {
+  "case": "SSD-58601963",
+  "checked_utc": "2026-10-22T22:36:01+00:00",
+  "how": "401 or 403 on the portal's JSON"
+ },
+ "cor-submission-letter-ssd-10467-data-centre": {
+  "case": "SSD-10467",
+  "checked_utc": "2026-10-22T22:36:22+00:00",
+  "how": "401 or 403 on the portal's JSON"
+ },
+ "fcc-rts-letter-1": {
+  "case": "SSD-63741210",
+  "checked_utc": "2026-10-22T22:36:38+00:00",
+  "how": "401 or 403 on the portal's JSON"
+ },
+ "penrith-city-council-submission-ssd-92743706-6": {
+  "case": "SSD-92743706",
+  "checked_utc": "2026-10-22T22:36:25+00:00",
+  "how": "401 or 403 on the portal's JSON"
+ }
+}

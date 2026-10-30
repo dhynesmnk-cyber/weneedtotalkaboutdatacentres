@@ -4,7 +4,32 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.6.0 · data as at 22 October 2026 · 1,597 data rows (+724 source refs) · 93 sites · 142 entities · 379 metrics · 278 catalogued sources (208 primary)**
+**Release v2.7.0 · data as at 30 October 2026 · 1,622 data rows (+761 source refs) · 93 sites · 142 entities · 379 metrics · 284 catalogued sources (214 primary)**
+
+v2.7.0 is **research batch 5, "Who gets heard" and "Did anyone check?"** (`docs/RESEARCH-PLAN.md`, pack
+`data/packs/who_heard.json`).
+
+- **What happens when a council says no.** Every archived assessment report for a determined NSW data centre (22)
+  was read for who could decide and what became of the council's objection. Councils objected eight times: five
+  withdrawn or settled, one lodged too late, one sent to the Independent Planning Commission (Talavera Road), and one
+  standing when a departmental officer approved the project (Project Apollo, 2 September 2026). The 2020 and 2022
+  delegations let an officer decide only where the council had not objected; the delegation of 18 August 2026 for data
+  centre projects, as the reports quote it, does not mention councils. The planning portal still tells the public a
+  council objection generally sends a case to the Commission (RG-040). Glendenning's objection, previously recorded as
+  overridden, was resolved before the decision (corrected).
+- **Council submissions** for 22 applications in Blacktown, Penrith, Fairfield, Ryde and The Hills: 18 read (two by
+  OCR), 4 restricted.
+- **Donation disclosures.** Three in 6,866 NSW data centre documents. Roberts Road's (CDC, an image-only scan, read by
+  OCR and by eye, transcription committed without the residential address) declares $7,500 to the Liberal Party NSW
+  Division in June 2018; the Department's report says its delegation applied where no disclosure statement had been
+  made and that the applicant made no reportable donations, and a delegate decided it (RG-069). Talavera Road's
+  (Macquarie Telecom, $5,480 in three donations) sent its case to the Commission. Mamre Road's is restricted. Lobbying
+  row 10, parked under AirTrunk, is now CDC's. No improper conduct is alleged.
+- **Who decided Talavera Road** (RG-085 resolved): the Commission's own statement of reasons names its panel.
+- **Warning letters**: two in the record (Roberts Road, Station Road), both restricted. GIPA-003 drafted (RG-058).
+- **Refused**: NSW Parliament (now the whole site), the Senate, NSW legislation and Victoria's planning site.
+  `docs/requests/DOWNLOADS.md` ranks 17 to 21. Three story cards, ST-017 to ST-019.
+- The story-card checker no longer mistakes "$7,500" for an HTTP error code.
 
 v2.6.0 is **research batch 4, "Whose data, whose rules"** (`docs/RESEARCH-PLAN.md`, pack `data/packs/whose_data.json`).
 

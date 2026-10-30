@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-49119713%2120221118T024456.458+GMT",
+ "slug": "/eis-blacktown-council-response-47",
+ "case": "SSD-21342738",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Response-DPE-SSD21342738 90 PB Drive Eastern Creek.pdf",
+ "fetched_utc": "2026-10-22T22:35:46+00:00",
+ "sha256": "04c597991419e55117658e9de8db9cd314cb099ae1b4da9b0d0c031191099a53",
+ "bytes": 260065,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 2
+}
