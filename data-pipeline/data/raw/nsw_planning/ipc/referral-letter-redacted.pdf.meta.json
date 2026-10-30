@@ -1,0 +1,10 @@
+{
+ "url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/referral-letter-redacted.pdf",
+ "requested_url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/referral-letter-redacted.pdf",
+ "fetched_utc": "2026-10-22T22:27:55+00:00",
+ "sha256": "e40f4062f1b575a97f9f8e6594035e664c6c44c8b6c09f440202acd5d9662f61",
+ "bytes": 87470,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 2
+}

@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-84063957%2120250611T225516.156+GMT",
+ "slug": "/blacktown-city-council-submission-eis-56",
+ "case": "SSD-73761707",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Blacktown City Council comments on SSD-73761707..pdf",
+ "fetched_utc": "2026-10-22T22:35:57+00:00",
+ "sha256": "0bb99d9edfed2d84b2c726077cb4014b41083e9afde4a4dd7b7939e195e71d3d",
+ "bytes": 306417,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}

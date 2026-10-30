@@ -1,0 +1,689 @@
+{
+ "pack_id": "who-heard-2026-10",
+ "prepared_by": "scripts/curate_who_heard.py",
+ "prepared_on": "2026-10-30",
+ "sources": [
+  {
+   "id": "SRC_SSD10330_DONATION",
+   "title": "Political donations disclosure statement, SSD-10330 Roberts Road Data Centre (signed 2 December 2019)",
+   "publisher": "NSW Planning Portal (filed by the applicant, Canberra Data Centres Pty Ltd)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120191205T234328.624+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2019-12-05",
+   "accessed": "2026-10-30",
+   "credibility": "A",
+   "notes": "A statutory disclosure under s147 (now s10.4) of the EP&A Act, filed in the project's EIS folder. Image-only scan with no extractable text: read on 2026-10-30 by OCR for the print and by eye for the handwriting, transcription committed beside it (data/raw/nsw_planning/attachments/SSD-10330_political_donation.transcription.txt) with the donor's residential address left out. Declares one donation: $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018, by the company's director and chief executive, who ticked 'applicant'. Handwriting: check against the image. ARCHIVED 2026-09-18 (sha256 0b7fa75f8f78, 1,818,734 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_SSD24299707_DONATION",
+   "title": "Political donations disclosure statement, SSD-24299707 Talavera Road Data Centre Campus Expansion (28 February 2022)",
+   "publisher": "NSW Planning Portal (filed by the applicant, Macquarie Data Centres Pty Ltd)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120220301T220228.482+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2022-03-01",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Filed by Macquarie Data Centres Pty Ltd. Three donations by Macquarie Telecom Pty Ltd: $2,000 to the Liberal Party NSW Division (Penrith SEC) on 12/11/2020, $1,500 to the Liberal Party NSW Division (Epping SEC) on 18/06/2021, and $1,980 to a City of Ryde West Ward campaign group on 23/10/2021. Typed; text extracted. ARCHIVED 2026-10-22 at data/raw/nsw_planning/attachments/ (sha256 76567db517a8, 222,126 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_IPC_TALAVERA_SOR",
+   "title": "Statement of Reasons for Decision, Talavera Road Data Centre Campus Extension SSD-24299707 (19 January 2024)",
+   "publisher": "Independent Planning Commission NSW",
+   "url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-outcome/statement-of-reasons-for-decision-talavera-road-ssd-24299707.pdf",
+   "doc_type": "primary_regulator",
+   "published": "2024-01-19",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The Commission was the consent authority 'because an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation'. Names the panel: two Commissioners, a Chair and a member. Approved with conditions. The consent the planning portal publishes carries '[Name of Commissioner]' placeholders. ARCHIVED 2026-10-22 at data/raw/nsw_planning/ipc/ (sha256 a52117cac536, 3,104,800 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_DPE_TALAVERA_REFERRAL",
+   "title": "Referral for determination of State significant development application, Talavera Road (SSD-24299707) (27 November 2023)",
+   "publisher": "NSW Department of Planning and Environment",
+   "url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/referral-letter-redacted.pdf",
+   "doc_type": "primary_government",
+   "published": "2023-11-27",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The Department to the Commission's Chair: under clause 8A of the former State Environmental Planning Policy (State and Regional Development) 2011 and s4.5 of the EP&A Act the Commission is the declared consent authority because the council objected and 'a company connected to Macquarie Data Centres Pty Ltd (the Applicant) has made reportable political donations in the two-year period prior to the application being made'. Published by the Commission, redacted. ARCHIVED 2026-10-22 at data/raw/nsw_planning/ipc/ (sha256 e40f4062f1b5, 87,470 bytes)."
+  },
+  {
+   "id": "SRC_NSWPORTAL_DETERMINE_DA",
+   "title": "Determine DA - State significant development process (NSW Planning Portal)",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure",
+   "url": "https://www.planningportal.nsw.gov.au/major-projects/assessment/state-significant-development/ssd-process/determine-da",
+   "doc_type": "primary_government",
+   "published": "2026-04-09",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The public explanation of who decides an SSD application, last updated 9 April 2026: the Commission 'is generally the consent authority' where the local council has lodged an objection, 50 or more public objections are received, or the applicant has made a reportable political donation; the Minister and the Commission can delegate decisions to Department officers. ARCHIVED 2026-10-22 at data/raw/nsw_planning/portal_rules/."
+  },
+  {
+   "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "title": "Council submissions on NSW data centre State Significant Development applications (Blacktown, Penrith, Fairfield, Ryde, The Hills)",
+   "publisher": "NSW Planning Portal (the councils' own letters)",
+   "url": "https://www.planningportal.nsw.gov.au/major-projects",
+   "doc_type": "primary_planning_portal",
+   "published": null,
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Each council's main submission on 22 data centre applications in the five councils RG-040 names, fetched one at a time through the portal's JSON: 18 read (16 with text, two scans read by OCR), 4 restricted (data/raw/nsw_planning/council_submissions/restricted.json). Ryde's letters are cover letters; their attachments were not fetched. Personal contact details redacted. ARCHIVED 2026-10-22; PDFs not committed, text is."
+  }
+ ],
+ "rows": {
+  "lobbying": [
+   {
+    "match": {
+     "id": 10
+    },
+    "set": {
+     "actor_id": "ENT_CDC",
+     "person": "Director and Chief Executive Officer, Canberra Data Centres (named in the statutory disclosure; recorded here by role)",
+     "recipient": "Liberal Party of Australia - NSW Division",
+     "event_date": "2018-06-18",
+     "instrument": "Political donations disclosure statement filed with SSD-10330 (Roberts Road Data Centre), signed 2 December 2019",
+     "position": "A reportable political donation of $7,500, disclosed with the Roberts Road application as the law requires.",
+     "outcome": "The application was determined on 14 July 2020 by the Department's Executive Director under a delegation that applied where 'a political disclosure statement has not been made'; the assessment report states that no reportable political donations were made by the Applicant in the last two years. Why the disclosure did not change who decided is not on the record (GIPA-003).",
+     "aligned_with_outcome": null,
+     "disclosed": 1,
+     "notes": "READ 2026-10-30 (RG-069). This row was a placeholder parked under AirTrunk; it is now attributed to CDC, whose company is the applicant. The disclosure is a scan: the print was read by OCR and the handwriting by eye, and should be checked against the image. Lawful donations, lawfully disclosed. No improper conduct by anyone is alleged or implied.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD10330_DONATION",
+     "confidence": "medium",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD10330_DONATION",
+      "quote": "Name of person making this disclosure: Gregory David Boorer (Director & CEO) | Planning application reference: SSD10330 | You are the APPLICANT: YES (circled) | Name of party or person for whose benefit the donation was made: The Liberal Party of Australia - NSW Division, ABN 68 324 857 904 | Date donation made: 18 June 2018 | Amount/value of donation: $7,500 | Signature(s) and Date: [signature] 2 December 2019"
+     },
+     {
+      "id": "SRC_SSD10330_ASSESSMENT",
+      "quote": "a political disclosure statement has not been made. | No reportable political donations were made by the Applicant in the last two years and no reportable political donations were made by any persons who lodged a submission."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "actor_id": "ENT_MACQUARIE_TG",
+     "person": null,
+     "channel": "political_donation",
+     "recipient": "Liberal Party of Australia - NSW Division (Penrith SEC)",
+     "event_date": "2020-11-12",
+     "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+     "position": "A reportable political donation of $2,000 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to Liberal Party of Australia - NSW Division (Penrith SEC).",
+     "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+     "aligned_with_outcome": null,
+     "disclosed": 1,
+     "notes": "From the applicant's own disclosure (RG-069). The Talavera Road site is in the City of Ryde. Lawful donations, lawfully disclosed; no improper conduct is alleged or implied.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD24299707_DONATION",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD24299707_DONATION",
+      "quote": "Macquarie Data Centres Pty Ltd (ABN 11 612 259 391) | Macquarie Telecom Pty Ltd (21082930916) | NSW Division - Penrith SEC 12/11/2020 $2000 | 28 February 2022"
+     },
+     {
+      "id": "SRC_IPC_TALAVERA_SOR",
+      "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "actor_id": "ENT_MACQUARIE_TG",
+     "person": null,
+     "channel": "political_donation",
+     "recipient": "Liberal Party of Australia - NSW Division (Epping SEC)",
+     "event_date": "2021-06-18",
+     "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+     "position": "A reportable political donation of $1,500 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to Liberal Party of Australia - NSW Division (Epping SEC).",
+     "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+     "aligned_with_outcome": null,
+     "disclosed": 1,
+     "notes": "From the applicant's own disclosure (RG-069). The Talavera Road site is in the City of Ryde. Lawful donations, lawfully disclosed; no improper conduct is alleged or implied.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD24299707_DONATION",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD24299707_DONATION",
+      "quote": "Macquarie Data Centres Pty Ltd (ABN 11 612 259 391) | Macquarie Telecom Pty Ltd (21082930916) | NSW Division - Epping SEC 18/06/2021 $1500 | 28 February 2022"
+     },
+     {
+      "id": "SRC_IPC_TALAVERA_SOR",
+      "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "actor_id": "ENT_MACQUARIE_TG",
+     "person": null,
+     "channel": "political_donation",
+     "recipient": "A City of Ryde West Ward council election campaign group (named in the disclosure)",
+     "event_date": "2021-10-23",
+     "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+     "position": "A reportable political donation of $1,980 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to A City of Ryde West Ward council election campaign group (named in the disclosure).",
+     "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+     "aligned_with_outcome": null,
+     "disclosed": 1,
+     "notes": "From the applicant's own disclosure (RG-069). The Talavera Road site is in the City of Ryde. Lawful donations, lawfully disclosed; no improper conduct is alleged or implied.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD24299707_DONATION",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD24299707_DONATION",
+      "quote": "Macquarie Data Centres Pty Ltd (ABN 11 612 259 391) | Macquarie Telecom Pty Ltd (21082930916) | 23/10/2021Jerome Laxale City of Ryde West Ward Campaign Group $1980 | 28 February 2022"
+     },
+     {
+      "id": "SRC_IPC_TALAVERA_SOR",
+      "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+     }
+    ]
+   }
+  ],
+  "regulatory_events": [
+   {
+    "insert": {
+     "event_date": "2026-08-18",
+     "regulator_id": "ENT_NSW_DPHI",
+     "instrument_id": null,
+     "site_id": null,
+     "entity_id": null,
+     "event_type": "other",
+     "summary": "The Minister for Planning delegated the determination of SSD applications 'for relevant resource, energy or data centre projects' to the Director, Industry Assessments, where fewer than 15 unique public submissions object and the applicant has made no reportable political disclosure statement. Unlike the 2020 and 2022 delegations, its conditions as the assessment reports quote them say nothing about the local council objecting.",
+     "outcome": "Used for Project Apollo (approved 2 September 2026 while the City of Ryde maintained its objection) and Glendenning Road (16 September 2026, after Blacktown advised its objection was resolved).",
+     "notes": "The delegation instrument itself has not been read; this rests on the Department's own assessment reports. The day before, 17 August 2026, the NSW Data Centre Policy Framework and Guidelines were released. The planning portal page last updated 9 April 2026 still says a council objection generally makes the Commission the consent authority; how the Commission's role was removed for these cases is not on the record read (RG-040; GIPA-003 asks for the instrument).",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD74069708_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD74069708_ASSESSMENT",
+      "quote": "On 18 August 2026 , the Minister delegated the functions to determine SSD applications for relevant resource, ener gy or data centre projects to the Director, Industry Assessments where: there are less than 15 unique public submissions by way of objection, and • a reportable political disclosure statement has not been made by the Applicant."
+     },
+     {
+      "id": "SRC_SSD73761707_ASSESSMENT",
+      "quote": "On 18 August 2026 , the Minister delegated the functions to determine SSD applications to the Director, Industry Assessments where:"
+     },
+     {
+      "id": "SRC_SSD41589232_ASSESSMENT",
+      "quote": "the relevant local council has not made a submission by way of objection under the mandatory requirements for community participation listed under Schedule 1 of the EP&A Act."
+     },
+     {
+      "id": "SRC_NSWPORTAL_DETERMINE_DA",
+      "quote": "The IPC is generally the consent authority for an SSD application where the applicant is not a public authority (or acting on behalf of one), and one or more of the following applies: the local council has lodged an objection | Last updated: 09/04/2026"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": "2026-09-02",
+     "regulator_id": "ENT_NSW_DPHI",
+     "instrument_id": null,
+     "site_id": "SITE_PROJECT_APOLLO",
+     "entity_id": null,
+     "event_type": "determination",
+     "summary": "Project Apollo Data Centre, Macquarie Park (SSD-74069708) approved by the A/Director, Industry Assessments under the 18 August 2026 delegation. The City of Ryde objected during exhibition and maintained its objection after the Submissions Report.",
+     "outcome": "Approved by a departmental officer over a standing council objection.",
+     "notes": "The only determined NSW data centre read where a local council's objection stood at decision and the Commission did not decide (RG-040).",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD74069708_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD74069708_ASSESSMENT",
+      "quote": "During the exhibition period, the Department received one objection from City of Ryde Council (Council) and no submissions from the public. | Council maintained its objection, advising that: | Accordingly, the application can be determined by the A/Director, Industry Assessments, under delegation."
+     },
+     {
+      "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+      "quote": "Council is not supportive of the development in its"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": "2024-01-19",
+     "regulator_id": null,
+     "instrument_id": null,
+     "site_id": "SITE_TALAVERA",
+     "entity_id": null,
+     "event_type": "determination",
+     "summary": "Talavera Road Data Centre Campus Expansion (SSD-24299707) approved by the Independent Planning Commission, a two-Commissioner panel, because the City of Ryde objected and a company connected to the applicant disclosed reportable political donations.",
+     "outcome": "Approved with conditions.",
+     "notes": "RG-085: the consent the planning portal publishes leaves the Commissioners' names as '[Name of Commissioner]'; the Commission's own statement of reasons names the panel.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_IPC_TALAVERA_SOR",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_IPC_TALAVERA_SOR",
+      "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation. | Commissioners Ms Juliet Grant (Chair) and Dr Bronwyn Evans AM were appointed to constitute the Commission Panel in making the final decision."
+     },
+     {
+      "id": "SRC_DPE_TALAVERA_REFERRAL",
+      "quote": "In accordance with clause 8A of the former State Environmental Planning Policy (State and Regional Development) 2011 and section 4.5 of the Environmental Planning and Assessment Act 1979 , the Independent Planning Commission is the declared consent authority for this development, as: | a company connected to Macquarie Data Centres Pty Ltd (the Applicant) has made reportable political donations in the two-year period prior to the application being made."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": "2020-07-14",
+     "regulator_id": "ENT_NSW_DPHI",
+     "instrument_id": null,
+     "site_id": "SITE_ROBERTS_RD",
+     "entity_id": "ENT_CDC",
+     "event_type": "determination",
+     "summary": "Roberts Road Data Centre (SSD-10330) approved by the Executive Director, Regions, Industry and Key Sites under the 9 March 2020 delegation, which applied where 'a political disclosure statement has not been made'. The assessment report states no reportable political donations were made by the Applicant in the last two years.",
+     "outcome": "Approved under delegation.",
+     "notes": "The project record holds a political donations disclosure statement signed 2 December 2019 and filed with the EIS, declaring a $7,500 donation on 18 June 2018 (lobbying row 10). The record read does not say why it did not change who decided. No improper conduct is alleged or implied; GIPA-003 asks the Department (RG-069).",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD10330_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD10330_ASSESSMENT",
+      "quote": "On 9 March 2020, the Minister delegated the functions to determine SSD applications to the Executive Director, Regions, Industry and Key Sites where: a political disclosure statement has not been made. | No reportable political donations were made by the Applicant in the last two years and no reportable political donations were made by any persons who lodged a submission. | Accordingly, the application can be determined by the Executive Director , Regions, Industry and Key Sites under delegation."
+     },
+     {
+      "id": "SRC_SSD10330_CONSENT",
+      "quote": "As delegate of the Minister for Planning and Public Spaces under delegation executed on 9 March 2020, I approve the"
+     },
+     {
+      "id": "SRC_SSD10330_DONATION",
+      "quote": "Amount/value of donation: $7,500 | Date donation made: 18 June 2018 | Signature(s) and Date: [signature] 2 December 2019"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 13
+    },
+    "set": {
+     "notes": "Recorded as objection_upheld=False in substance - the objection did not prevent approval. CORRECTED 2026-10-30 (RG-040): the assessment report says Council 'later advised in writing to the Department that its objection has been resolved' before the decision. Kept in regulatory_events as well as community_events because it is a formal statutory submission, not a community campaign."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD73761707_ASSESSMENT",
+      "quote": "Council initially objected to the development but later advised in writing to the Department that its objection has been resolved."
+     }
+    ]
+   }
+  ],
+  "community_events": [
+   {
+    "match": {
+     "id": 15
+    },
+    "set": {
+     "outcome": "Resolved before decision: the assessment report says Council 'later advised in writing to the Department that its objection has been resolved'. Consent issued 16 September 2026 by the Minister's delegate."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD73761707_ASSESSMENT",
+      "quote": "Council initially objected to the development but later advised in writing to the Department that its objection has been resolved."
+     },
+     {
+      "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+      "quote": "we object to the proposal in its current form"
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": "2024-09-24",
+     "site_id": "SITE_NEXTDC_S5",
+     "group_id": null,
+     "locality": "Macquarie Park",
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "City of Ryde Council",
+     "summary": "The City of Ryde's submission on the NEXTDC S5 Data Centre and Innovation Hub EIS (SSD-63168959): 'In short, Council strongly objects to the development as submitted.'",
+     "severity": null,
+     "outcome": "Pending: the application had not been determined when read.",
+     "notes": "Council submission read from the planning portal (RG-040). Under the 18 August 2026 delegation, a council objection no longer stops a departmental officer deciding a data centre case (regulatory_events).",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+      "quote": "In short, Council strongly objects to the development as submitted."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": null,
+     "site_id": "SITE_EC_EXPANSION",
+     "group_id": null,
+     "locality": null,
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "Blacktown City Council",
+     "summary": "Blacktown City Council objected to the data centre application SSD-21342738. The Department's assessment report: 'Council objected to the development, howev er Council’s submission was received outside the exhibition period.'",
+     "severity": null,
+     "outcome": "Objection lodged outside the exhibition period.",
+     "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD21342738_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD21342738_ASSESSMENT",
+      "quote": "Council objected to the development, howev er Council’s submission was received outside the exhibition period."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": null,
+     "site_id": "SITE_STATION_RD",
+     "group_id": null,
+     "locality": null,
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "Blacktown City Council",
+     "summary": "Blacktown City Council objected to the data centre application SSD-33781208. The Department's assessment report: 'While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022.'",
+     "severity": null,
+     "outcome": "Objection withdrawn.",
+     "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD33781208_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD33781208_ASSESSMENT",
+      "quote": "While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": null,
+     "site_id": "SITE_51_HUNTINGWOOD",
+     "group_id": null,
+     "locality": null,
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "Blacktown City Council",
+     "summary": "Blacktown City Council objected to the data centre application SSD-41589232. The Department's assessment report: 'While Council originally objected to the SSD application, the objection was not made within 28 day exhibition period in accordance with Schedule 1 of the EP&A Act. Further, Council also subsequently withdrew its objection to the development on 10 August 2023.'",
+     "severity": null,
+     "outcome": "Objection lodged out of time, then withdrawn.",
+     "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD41589232_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD41589232_ASSESSMENT",
+      "quote": "While Council originally objected to the SSD application, the objection was not made within 28 day exhibition period in accordance with Schedule 1 of the EP&A Act. Further, Council also subsequently withdrew its objection to the development on 10 August 2023."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": null,
+     "site_id": "SITE_ECHIDNA",
+     "group_id": null,
+     "locality": null,
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "Blacktown City Council",
+     "summary": "Blacktown City Council objected to the data centre application SSD-47320208. The Department's assessment report: 'While Council originally objected to the SSD application, Council advised the Department in writing on 19 March 2024 that it has withdrawn its objection to the development.'",
+     "severity": null,
+     "outcome": "Objection withdrawn.",
+     "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD47320208_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD47320208_ASSESSMENT",
+      "quote": "While Council originally objected to the SSD application, Council advised the Department in writing on 19 March 2024 that it has withdrawn its objection to the development."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": null,
+     "site_id": "SITE_CDC_MARSDEN",
+     "group_id": null,
+     "locality": null,
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "Blacktown City Council",
+     "summary": "Blacktown City Council objected to the data centre application SSD-70889211. The Department's assessment report: 'Council originally objected to the SSD application, Council advised the Department in writing on 9 September 2025 that it has withdrawn its objection to the development.'",
+     "severity": null,
+     "outcome": "Objection withdrawn.",
+     "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD70889211_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD70889211_ASSESSMENT",
+      "quote": "Council originally objected to the SSD application, Council advised the Department in writing on 9 September 2025 that it has withdrawn its objection to the development."
+     }
+    ]
+   },
+   {
+    "insert": {
+     "event_date": null,
+     "site_id": "SITE_PROJECT_APOLLO",
+     "group_id": null,
+     "locality": null,
+     "state": "NSW",
+     "event_type": "council_rejection",
+     "actor": "City of Ryde Council",
+     "summary": "City of Ryde Council objected to the data centre application SSD-74069708. The Department's assessment report: 'Council maintained its objection'",
+     "severity": null,
+     "outcome": "Objection maintained; decided by a departmental Director.",
+     "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD74069708_ASSESSMENT",
+     "confidence": "high",
+     "as_of_date": "2026-10-30"
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD74069708_ASSESSMENT",
+      "quote": "Council maintained its objection"
+     }
+    ]
+   }
+  ],
+  "research_gaps": [
+   {
+    "match": {
+     "id": 40
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-30",
+     "notes": "ADVANCED 2026-10-30 (research batch 5). Each council's main submission was fetched for 22 data centre applications in Blacktown, Penrith, Fairfield, Ryde and The Hills: 18 read, 4 restricted (Honeman Close, Macquarie Park, Mamre Road, NEXTDC S4). Ryde's are cover letters whose attachments were not fetched. Keyword screen of grounds, not a coding: hunt log. OUTCOMES, from every archived assessment report of a determined data centre: the local council objected in eight cases - SSD-21342738 lodged outside the exhibition period; SSD-33781208 withdrawn; SSD-41589232 lodged out of time, then withdrawn; SSD-47320208 withdrawn; SSD-70889211 withdrawn; SSD-73761707 resolved; SSD-74069708 maintained; decided by a departmental Director; SSD-24299707 stood and the Independent Planning Commission decided. Delegations of 2020 and 2022 let a departmental officer decide only where the council had not objected; the delegation of 18 August 2026 for data centre projects drops that condition, and Project Apollo was approved under it while Ryde's objection stood. Ryde 'strongly objects' to NEXTDC S5, undetermined."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD74069708_ASSESSMENT",
+      "quote": "On 18 August 2026 , the Minister delegated the functions to determine SSD applications for relevant resource, ener gy or data centre projects to the Director, Industry Assessments where: | Council maintained its objection, advising that:"
+     },
+     {
+      "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+      "quote": "we object to the proposal in its current form | In short, Council strongly objects to the development as submitted. | Council is not supportive of the development in its"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 66
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-30",
+     "notes": "BLOCKED 2026-10-30 (research batch 5). aph.gov.au's robots.txt refuses the research crawler, so pages 2 to 6 of the submission list and the submissions themselves were not fetched (data/raw/registers/aph/refused.json). The first 20, indexed in September, stand. In docs/requests/DOWNLOADS.md for a person."
+    }
+   },
+   {
+    "match": {
+     "id": 15
+    },
+    "set": {
+     "as_of_date": "2026-10-30",
+     "notes": "BLOCKED 2026-10-30 (research batch 5): parliament.nsw.gov.au's robots.txt now refuses the research crawler for the inquiry pages and the submission files alike (data/raw/registers/nsw_parliament/refused.json). The five hearing transcripts archived in September stand. Some submitters publish their own submissions (the Climate Council, the Committee for Sydney); the full list needs a person (docs/requests/DOWNLOADS.md). The report was due by 30 September 2026."
+    }
+   },
+   {
+    "match": {
+     "id": 41
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-30",
+     "notes": "BLOCKED 2026-10-30 (research batch 5): the submission files at /lcdocs/submissions/ are now refused by parliament.nsw.gov.au's robots.txt, as the list page was, so neither enumerating nor fetching is open to the crawler. Probing sequential ids was not tried. In docs/requests/DOWNLOADS.md for a person."
+    }
+   },
+   {
+    "match": {
+     "id": 48
+    },
+    "set": {
+     "as_of_date": "2026-10-30",
+     "notes": "BLOCKED 2026-10-30 (research batch 5): planning.vic.gov.au's robots.txt refuses the research crawler (read as disallow-all), so the Development Facilitation Program's decisions were not read. In docs/requests/DOWNLOADS.md."
+    }
+   },
+   {
+    "match": {
+     "id": 56
+    },
+    "set": {
+     "as_of_date": "2026-10-30",
+     "notes": "Supersedes RG-047. BLOCKED 2026-10-30 (research batch 5): planning.vic.gov.au refuses the crawler; Maribyrnong's register allows it but is a search application with no listing to read. In docs/requests/DOWNLOADS.md."
+    }
+   },
+   {
+    "match": {
+     "id": 11
+    },
+    "set": {
+     "as_of_date": "2026-10-30",
+     "notes": "Partly advanced 2026-09-18: The Guardian (26 July 2026) identifies Syncline Energy as the proponent of the Plumpton 'Victorian AI hub', and SITE_MELTON_SYNCLINE is REPORTED/medium. 2026-10-30 (research batch 5): Melton's and Whittlesea's registers allow the crawler but are search applications; planning.vic.gov.au refuses it. Still outstanding: the Melton application reference and capacity, and the South Morang approval. In DOWNLOADS.md."
+    }
+   },
+   {
+    "match": {
+     "id": 58
+    },
+    "set": {
+     "status": "in_progress",
+     "as_of_date": "2026-10-30",
+     "notes": "WORKED 2026-10-30 (research batch 5). Two warning letters are in the NSW data centre record: 'CDC Data Centres response warning letter' on Roberts Road (SSD-10330) and a warning letter of 29 May 2024, with a Department email about it, on Station Road (SSD-33781208). All three are restricted on the portal (data/raw/nsw_planning/attachments/restricted.json), as is a 'scanned signed letter' on Roberts Road. GIPA-003 to the Department asks for the letters, the responses and the compliance record for data centre consents (docs/requests/)."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+      "quote": "Station Road (SSD-33781208): While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022."
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 39
+    },
+    "set": {
+     "as_of_date": "2026-10-30",
+     "notes": "WORKED 2026-10-30 (research batch 5). The consent requires the Applicant to publish its approved plans, monitoring and audit reports on 'its website'. The Applicant is Lehr Consultants International (Australia) Pty Ltd; no website for it was found, and lehr.com.au belongs to an unrelated recruitment firm. The operator is still not established (RG-037). Test again once the operator is known or operation begins."
+    }
+   },
+   {
+    "match": {
+     "id": 69
+    },
+    "set": {
+     "status": "in_progress",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_SSD10330_DONATION",
+     "confidence": "medium",
+     "as_of_date": "2026-10-30",
+     "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_SSD10330_DONATION",
+      "quote": "Name of party or person for whose benefit the donation was made: The Liberal Party of Australia - NSW Division, ABN 68 324 857 904 | Date donation made: 18 June 2018 | Amount/value of donation: $7,500"
+     },
+     {
+      "id": "SRC_SSD10330_ASSESSMENT",
+      "quote": "a political disclosure statement has not been made. | No reportable political donations were made by the Applicant in the last two years and no reportable political donations were made by any persons who lodged a submission."
+     },
+     {
+      "id": "SRC_SSD24299707_DONATION",
+      "quote": "NSW Division - Penrith SEC 12/11/2020 $2000 | NSW Division - Epping SEC 18/06/2021 $1500 | 23/10/2021Jerome Laxale City of Ryde West Ward Campaign Group $1980"
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 85
+    },
+    "set": {
+     "status": "resolved",
+     "resolved_date": "2026-10-30",
+     "fact_status": "VERIFIED",
+     "source_id": "SRC_IPC_TALAVERA_SOR",
+     "confidence": "high",
+     "as_of_date": "2026-10-30",
+     "notes": "RESOLVED 2026-10-30 (research batch 5). The Commission's own Statement of Reasons for Decision (19 January 2024) names the panel of two Commissioners, a Chair and a member, and says the Commission was the consent authority because Ryde objected and a company connected to the applicant disclosed a reportable political donation. The Department's referral letter of 27 November 2023 gives the same grounds under clause 8A of the former State and Regional Development SEPP. The consent copy on the planning portal still shows '[Name of Commissioner]' placeholders: the gap is in the portal's copy, not in the decision."
+    },
+    "add_sources": [
+     {
+      "id": "SRC_IPC_TALAVERA_SOR",
+      "quote": "Statement of Reasons for Decision Ms Juliet Grant (Chair) Dr Bronwyn Evans AM 19 January 2024 | Commissioners Ms Juliet Grant (Chair) and Dr Bronwyn Evans AM were appointed to constitute the Commission Panel in making the final decision. | an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+     },
+     {
+      "id": "SRC_DPE_TALAVERA_REFERRAL",
+      "quote": "a company connected to Macquarie Data Centres Pty Ltd (the Applicant) has made reportable political donations in the two-year period prior to the application being made."
+     }
+    ]
+   },
+   {
+    "match": {
+     "id": 16
+    },
+    "set": {
+     "as_of_date": "2026-10-30",
+     "notes": "NOT WORKED in batch 5. The plan sources community opposition only from planning, council or parliamentary records, never social media. The council submissions read for RG-040 are councils', not groups'; the parliamentary submissions where groups appear are closed to the crawler (RG-015, RG-041, RG-066). The register waits on those downloads."
+    }
+   }
+  ]
+ }
+}

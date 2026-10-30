@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-89331958%2120250827T073058.721+GMT",
+ "slug": "/cor-submission-cover-letter-6-8-julius-avenue-9",
+ "case": "SSD-80018208",
+ "council": "City of Ryde",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "CoR Submission Cover Letter - 6-8 Julius Avenue.pdf",
+ "fetched_utc": "2026-10-22T22:36:09+00:00",
+ "sha256": "99de1d4507143a9c97dec4c7a4b914dd1071ee817e7943944172546b72131578",
+ "bytes": 144771,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 2
+}

@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-49025956%2120221006T040230.806+GMT",
+ "slug": "/rts-bcc-response-18",
+ "case": "SSD-33781208",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Response DPIE with conditions - SSD-33781208.PDF",
+ "fetched_utc": "2026-10-22T22:37:48+00:00",
+ "sha256": "65015ad88c20ede72c9fdda6d583a990724ca0cf1dc9411e2caa6a6d4bcd0d8e",
+ "bytes": 313390,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 4
+}

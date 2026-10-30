@@ -12,7 +12,7 @@ folder named, and add a manifest beside it (`<file>.meta.json` with `url`,
 `fetched_utc`, `sha256` and `bytes`, as the archived files have). The question's
 hunt log records what came back.
 
-Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3, and ranks 13 to 16 by batch 4.
+Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3, ranks 13 to 16 by batch 4, and ranks 17 to 21 by batch 5 (2026-10-30).
 
 | Rank | Document | Where | Save to | Questions | Unlocks |
 | --- | --- | --- | --- | --- | --- |
@@ -32,6 +32,11 @@ Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 
 | 14 | Watch the NVIDIA GTC Washington, D.C. keynote of 28 October 2025 at about 1:25:14 and note Jensen Huang's sentence on Palantir word for word | youtube.com, video lQHK61IDFH4 | `data-pipeline/reports/hunts/RG-092.md` | RG-092 | Whether the quote two transcripts agree on is what he said |
 | 15 | Queensland Hansard for 16 September 2026: the Premier's statement on Anthropic and the Western Downs Digital Park | parliament.qld.gov.au, Hansard | `data/raw/qld_western_downs/hansard/` | RG-012 | What the Queensland Government has said about the deal, in its own record |
 | 16 | ASD's cloud assessment and authorisation FAQ, the page on the retirement of the Certified Cloud Services List | cyber.gov.au (it did not answer the crawler) | `data/raw/operators/asd/` | RG-089, RG-087 | Whether any "ASD certification" of a cloud service could exist after 2020 |
+| 17 | NSW Legislative Council inquiry into data centres: the submission list, every submission, and the committee's report (due 30 September 2026) | parliament.nsw.gov.au, the inquiry page | `data/raw/nsw_inquiry/submissions/` | RG-015, RG-041, RG-016 | Who spoke to the inquiry, and what each said about subsidies, water, jobs and emissions |
+| 18 | Senate inquiry into Artificial intelligence and data centres: submission list pages 2 to 6 and the submissions from the industry's companies and peak bodies | aph.gov.au, the committee's submissions page | `data/raw/senate_inquiry/` | RG-066, RG-016 | Who lobbies at Commonwealth level |
+| 19 | State Environmental Planning Policy (Planning Systems) 2021, section 2.7, as in force on 14 July 2020 and on 2 September 2026, and the former State and Regional Development SEPP 2011 clause 8A | legislation.nsw.gov.au, historical versions | `data/raw/registers/nsw_legislation/` | RG-040, RG-069 | When a council objection or a donation disclosure made the Independent Planning Commission the consent authority, and whether that changed for data centres in August 2026 |
+| 20 | Victoria's Development Facilitation Program decisions for data centres, and the NEXTDC M3 permit and conditions | planning.vic.gov.au; Maribyrnong planning register | `data/raw/vic_planning/` | RG-048, RG-056 | Whether Victoria's fast track carries weaker conditions than council permits |
+| 21 | The Melton (Syncline Energy) and South Morang data centre applications | Melton and Whittlesea planning registers | `data/raw/vic_planning/` | RG-011 | Who the proponents are and what they applied for |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

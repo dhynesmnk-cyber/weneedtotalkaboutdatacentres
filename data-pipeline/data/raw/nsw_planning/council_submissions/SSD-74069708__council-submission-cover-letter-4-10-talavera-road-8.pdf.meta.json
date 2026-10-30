@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-81178227%2120250417T052721.123+GMT",
+ "slug": "/council-submission-cover-letter-4-10-talavera-road-8",
+ "case": "SSD-74069708",
+ "council": "City of Ryde",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "CoR Submission Cover Letter - 4-10 Talavera Road.pdf",
+ "fetched_utc": "2026-10-22T22:36:56+00:00",
+ "sha256": "3664f4644aaf58114cb3e794de536471c22d4c3a0f69ca9daf65f4e0ee54dca0",
+ "bytes": 113220,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 3
+}

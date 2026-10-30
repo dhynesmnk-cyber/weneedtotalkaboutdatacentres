@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-126279738%2120260703T011914.248+GMT",
+ "slug": "/blacktown-city-council-advice-eis-96",
+ "case": "SSD-101067971",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Signed letter to DPHI re EIS.pdf",
+ "fetched_utc": "2026-10-22T22:37:04+00:00",
+ "sha256": "0b8cd62af98f5485aa47d15ab4104907c1c4eedb92f37a1befaea2e7a3320d96",
+ "bytes": 174956,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}

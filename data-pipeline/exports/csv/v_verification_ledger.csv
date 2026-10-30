@@ -29,10 +29,10 @@ community_events,CLAIMED,low,1
 community_events,REPORTED,high,12
 community_events,REPORTED,low,3
 community_events,REPORTED,medium,1
-community_events,VERIFIED,high,7
+community_events,VERIFIED,high,14
 regulatory_events,REPORTED,high,1
 regulatory_events,REPORTED,medium,4
-regulatory_events,VERIFIED,high,20
+regulatory_events,VERIFIED,high,24
 metrics,CLAIMED,low,4
 metrics,CLAIMED,medium,15
 metrics,REPORTED,high,14

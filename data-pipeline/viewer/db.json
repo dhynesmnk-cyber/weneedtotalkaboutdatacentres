@@ -2704,7 +2704,7 @@
    "actor": "Blacktown City Council (Judith Portelli, Manager Development Assessment)",
    "summary": "Formal six-page objection to SSD-73761707. Planning: the proposal requires 823 car parking spaces under the Blacktown DCP and offers 165, and even the Transport for NSW Guide to Transport Impact Assessment (2024) yields 179; high visual impact from bulk and scale, with the building still clearly visible above the tree canopy at full planting maturity, no other buildings of this height anywhere in the vicinity, and the site directly abutting Nurragingy Reserve; underground fuel tanks proposed in the landscape setback. City Architect: no 20 m landscaped buffer to the eastern boundary free of parking, driveways, plant, equipment and tanks; building heights not reduced; facade monotone. Social planning: the site is in one of the hottest parts of Western Sydney already vulnerable to urban heat, servers must be kept below 33.3 degrees, the facility will increase the microclimate temperature and the number of hot days and heatwaves for an already vulnerable community, and the ESD report fails to articulate the temperature increase from three centres compared with conventional industrial development; with Blacktown becoming a preferred location for new data centres the impact will be intensified by colocation, so impacts of not only this site but all existing and proposed data centres should be better assessed. Employment: the operational employment figures in the Social and Economic Impact Assessment do not account for the existing employment across the THREE EXISTING WAREHOUSES on the site, and Council demands a revised analysis using existing FTE numbers and skill diversity, or business-as-usual figures if those businesses cease. Council also states that the financial gains of the owner should be balanced with improved investment back into the site and surrounding community. Engineering and drainage: an 18,000 sqm southern portion is excluded from the water quality treatment system; the site is affected by overland flow in both low and medium risk and the proposed cut and fill will disturb the existing flow path.",
    "severity": 5,
-   "outcome": "Not determinative. Consent issued 16 September 2026 by the Minister's delegate.",
+   "outcome": "Resolved before decision: the assessment report says Council 'later advised in writing to the Department that its objection has been resolved'. Consent issued 16 September 2026 by the Minister's delegate.",
    "notes": "This objection is the single most useful document found in RG-026 for two reasons. First, it is the jobs-to-capex critique made by a council in a statutory process BEFORE this project framed it: a 235 MW data centre replacing three warehouses may be a net reduction in local employment, and the proponent's S&EIA did not net off the displaced jobs. Second, it identifies cumulative urban heat and colocation impact as an unassessed externality in a corridor where the Department has separately directed cumulative-impact assessment at Kemps Creek.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_BLACKTOWN_OBJ",
@@ -2872,6 +2872,132 @@
    "source_id": "SRC_GNCA_VIDEO",
    "confidence": "low",
    "as_of_date": "2026-09-21"
+  },
+  {
+   "id": 25,
+   "event_date": "2024-09-24",
+   "site_id": "SITE_NEXTDC_S5",
+   "group_id": null,
+   "locality": "Macquarie Park",
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "City of Ryde Council",
+   "summary": "The City of Ryde's submission on the NEXTDC S5 Data Centre and Innovation Hub EIS (SSD-63168959): 'In short, Council strongly objects to the development as submitted.'",
+   "severity": null,
+   "outcome": "Pending: the application had not been determined when read.",
+   "notes": "Council submission read from the planning portal (RG-040). Under the 18 August 2026 delegation, a council objection no longer stops a departmental officer deciding a data centre case (regulatory_events).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 26,
+   "event_date": null,
+   "site_id": "SITE_EC_EXPANSION",
+   "group_id": null,
+   "locality": null,
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-21342738. The Department's assessment report: 'Council objected to the development, howev er Council\u2019s submission was received outside the exhibition period.'",
+   "severity": null,
+   "outcome": "Objection lodged outside the exhibition period.",
+   "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD21342738_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 27,
+   "event_date": null,
+   "site_id": "SITE_STATION_RD",
+   "group_id": null,
+   "locality": null,
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-33781208. The Department's assessment report: 'While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022.'",
+   "severity": null,
+   "outcome": "Objection withdrawn.",
+   "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD33781208_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 28,
+   "event_date": null,
+   "site_id": "SITE_51_HUNTINGWOOD",
+   "group_id": null,
+   "locality": null,
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-41589232. The Department's assessment report: 'While Council originally objected to the SSD application, the objection was not made within 28 day exhibition period in accordance with Schedule 1 of the EP&A Act. Further, Council also subsequently withdrew its objection to the development on 10 August 2023.'",
+   "severity": null,
+   "outcome": "Objection lodged out of time, then withdrawn.",
+   "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD41589232_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 29,
+   "event_date": null,
+   "site_id": "SITE_ECHIDNA",
+   "group_id": null,
+   "locality": null,
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-47320208. The Department's assessment report: 'While Council originally objected to the SSD application, Council advised the Department in writing on 19 March 2024 that it has withdrawn its objection to the development.'",
+   "severity": null,
+   "outcome": "Objection withdrawn.",
+   "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD47320208_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 30,
+   "event_date": null,
+   "site_id": "SITE_CDC_MARSDEN",
+   "group_id": null,
+   "locality": null,
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-70889211. The Department's assessment report: 'Council originally objected to the SSD application, Council advised the Department in writing on 9 September 2025 that it has withdrawn its objection to the development.'",
+   "severity": null,
+   "outcome": "Objection withdrawn.",
+   "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD70889211_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 31,
+   "event_date": null,
+   "site_id": "SITE_PROJECT_APOLLO",
+   "group_id": null,
+   "locality": null,
+   "state": "NSW",
+   "event_type": "council_rejection",
+   "actor": "City of Ryde Council",
+   "summary": "City of Ryde Council objected to the data centre application SSD-74069708. The Department's assessment report: 'Council maintained its objection'",
+   "severity": null,
+   "outcome": "Objection maintained; decided by a departmental Director.",
+   "notes": "From the Department's own assessment report (RG-040). Event date not stated in the report; the council's letter is in the planning record.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
   }
  ],
  "community_groups": [
@@ -7545,7 +7671,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -7554,7 +7680,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -7563,7 +7689,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7572,7 +7698,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7581,7 +7707,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -7590,7 +7716,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7599,7 +7725,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7608,7 +7734,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7617,7 +7743,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7626,7 +7752,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7635,7 +7761,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7644,7 +7770,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7653,7 +7779,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7662,7 +7788,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7671,7 +7797,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7680,7 +7806,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7689,7 +7815,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7698,7 +7824,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7707,7 +7833,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7716,7 +7842,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7725,7 +7851,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7734,7 +7860,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7743,7 +7869,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7752,7 +7878,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7761,7 +7887,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7770,7 +7896,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7779,7 +7905,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7788,7 +7914,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7797,7 +7923,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -7806,7 +7932,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7815,7 +7941,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7824,7 +7950,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7833,7 +7959,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7842,7 +7968,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7851,7 +7977,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7860,7 +7986,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7869,7 +7995,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7878,7 +8004,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -7887,7 +8013,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7896,7 +8022,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7905,7 +8031,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7914,7 +8040,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7923,7 +8049,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7932,7 +8058,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7941,7 +8067,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -7950,7 +8076,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -7959,7 +8085,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7968,7 +8094,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7977,7 +8103,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -7986,7 +8112,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7995,7 +8121,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8004,7 +8130,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8013,7 +8139,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8022,7 +8148,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8031,7 +8157,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8040,7 +8166,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8049,7 +8175,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -8058,7 +8184,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8067,7 +8193,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8076,7 +8202,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8085,7 +8211,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8094,7 +8220,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8103,7 +8229,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8112,7 +8238,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8121,7 +8247,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8130,7 +8256,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8139,7 +8265,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8148,7 +8274,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8157,7 +8283,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8166,7 +8292,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8175,7 +8301,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8184,7 +8310,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8193,7 +8319,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8202,7 +8328,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8211,7 +8337,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8220,7 +8346,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8229,7 +8355,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8238,7 +8364,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8247,7 +8373,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8256,7 +8382,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8265,7 +8391,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8274,7 +8400,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8283,7 +8409,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8292,7 +8418,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -8301,7 +8427,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8310,7 +8436,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8319,7 +8445,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8328,7 +8454,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8337,7 +8463,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8346,7 +8472,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8355,7 +8481,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -8364,7 +8490,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8373,7 +8499,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -8382,7 +8508,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8391,7 +8517,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -8400,7 +8526,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -8409,7 +8535,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8418,7 +8544,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8427,7 +8553,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8436,7 +8562,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8445,7 +8571,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:05Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8454,7 +8580,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -8463,7 +8589,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8472,7 +8598,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8481,7 +8607,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8490,7 +8616,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-10-22T21:21:35Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8499,7 +8625,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8508,7 +8634,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8517,7 +8643,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8526,7 +8652,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8535,7 +8661,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8544,7 +8670,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8553,7 +8679,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -8562,7 +8688,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8571,7 +8697,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8580,7 +8706,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8589,7 +8715,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8598,7 +8724,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8607,7 +8733,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8616,7 +8742,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8625,7 +8751,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8634,7 +8760,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8643,7 +8769,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8652,7 +8778,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "hcf-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8661,7 +8787,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "hcf-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8670,7 +8796,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "hcf-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8679,7 +8805,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8688,7 +8814,7 @@
   },
   {
    "id": 128,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8697,7 +8823,7 @@
   },
   {
    "id": 129,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8706,7 +8832,7 @@
   },
   {
    "id": 130,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "operator-sources-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8715,7 +8841,7 @@
   },
   {
    "id": 131,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "operator-sources-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8724,7 +8850,7 @@
   },
   {
    "id": 132,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "operator-sources-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8733,7 +8859,7 @@
   },
   {
    "id": 133,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8742,7 +8868,7 @@
   },
   {
    "id": 134,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8751,7 +8877,7 @@
   },
   {
    "id": 135,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -8760,7 +8886,7 @@
   },
   {
    "id": 136,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8769,7 +8895,7 @@
   },
   {
    "id": 137,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8778,7 +8904,7 @@
   },
   {
    "id": 138,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "applications",
    "action": "insert",
@@ -8787,7 +8913,7 @@
   },
   {
    "id": 139,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8796,7 +8922,7 @@
   },
   {
    "id": 140,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8805,7 +8931,7 @@
   },
   {
    "id": 141,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "who-applies-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8814,7 +8940,7 @@
   },
   {
    "id": 142,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "who-applies-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8823,7 +8949,7 @@
   },
   {
    "id": 143,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "who-applies-2026-10",
    "table_name": "land_events",
    "action": "insert",
@@ -8832,7 +8958,7 @@
   },
   {
    "id": 144,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "who-applies-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8841,7 +8967,7 @@
   },
   {
    "id": 145,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "who-applies-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8850,7 +8976,7 @@
   },
   {
    "id": 146,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "who-applies-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8859,7 +8985,7 @@
   },
   {
    "id": 147,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8868,7 +8994,7 @@
   },
   {
    "id": 148,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "ownership",
    "action": "insert",
@@ -8877,7 +9003,7 @@
   },
   {
    "id": 149,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8886,7 +9012,7 @@
   },
   {
    "id": 150,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "financial_flows",
    "action": "insert",
@@ -8895,7 +9021,7 @@
   },
   {
    "id": 151,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8904,7 +9030,7 @@
   },
   {
    "id": 152,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8913,7 +9039,7 @@
   },
   {
    "id": 153,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "public-and-room-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8922,7 +9048,7 @@
   },
   {
    "id": 154,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "public-and-room-2026-10",
    "table_name": "lobbying",
    "action": "insert",
@@ -8931,7 +9057,7 @@
   },
   {
    "id": 155,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "public-and-room-2026-10",
    "table_name": "incentives",
    "action": "insert",
@@ -8940,7 +9066,7 @@
   },
   {
    "id": 156,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "public-and-room-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8949,7 +9075,7 @@
   },
   {
    "id": 157,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "public-and-room-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8958,7 +9084,7 @@
   },
   {
    "id": 158,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -8967,7 +9093,7 @@
   },
   {
    "id": 159,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8976,7 +9102,7 @@
   },
   {
    "id": 160,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8985,7 +9111,7 @@
   },
   {
    "id": 161,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -8994,7 +9120,7 @@
   },
   {
    "id": 162,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -9003,7 +9129,7 @@
   },
   {
    "id": 163,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9012,12 +9138,57 @@
   },
   {
    "id": 164,
-   "run_at": "2026-10-22T21:21:36Z",
+   "run_at": "2026-10-30T14:22:06Z",
    "pack": "whose-data-2026-10",
    "table_name": "_pack",
    "action": "ok",
    "rows_affected": 0,
    "detail": "{\"counts\": {\"sources\": 10, \"entities\": 9, \"sites\": 1, \"gov_contracts\": 53, \"metrics\": 11, \"security_records\": 1, \"research_gaps\": 9}, \"prepared_by\": \"scripts/curate_whose_data.py\", \"prepared_on\": \"2026-10-22\"}"
+  },
+  {
+   "id": 165,
+   "run_at": "2026-10-30T14:22:06Z",
+   "pack": "who-heard-2026-10",
+   "table_name": "lobbying",
+   "action": "insert",
+   "rows_affected": 3,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 166,
+   "run_at": "2026-10-30T14:22:06Z",
+   "pack": "who-heard-2026-10",
+   "table_name": "regulatory_events",
+   "action": "insert",
+   "rows_affected": 4,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 167,
+   "run_at": "2026-10-30T14:22:06Z",
+   "pack": "who-heard-2026-10",
+   "table_name": "community_events",
+   "action": "insert",
+   "rows_affected": 7,
+   "detail": "{\"updated\": 1, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 168,
+   "run_at": "2026-10-30T14:22:06Z",
+   "pack": "who-heard-2026-10",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 12, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 169,
+   "run_at": "2026-10-30T14:22:06Z",
+   "pack": "who-heard-2026-10",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 6, \"lobbying\": 4, \"regulatory_events\": 5, \"community_events\": 8, \"research_gaps\": 12}, \"prepared_by\": \"scripts/curate_who_heard.py\", \"prepared_on\": \"2026-10-30\"}"
   }
  ],
  "instrument_application": [
@@ -9701,21 +9872,21 @@
   },
   {
    "id": 10,
-   "actor_id": "ENT_AIRTRUNK",
-   "person": null,
+   "actor_id": "ENT_CDC",
+   "person": "Director and Chief Executive Officer, Canberra Data Centres (named in the statutory disclosure; recorded here by role)",
    "channel": "political_donation",
-   "recipient": "Unknown",
-   "event_date": null,
-   "instrument": "Political donation disclosure filed on SSD-10330 Roberts Road Data Centre",
-   "position": "A political donation disclosure is filed on the Roberts Road Data Centre project record, whose Schedule 1 applicant is Canberra Data Centres Pty Ltd - a CDC facility, not an AirTrunk one. It is recorded here because it is the only political donation document located anywhere in the 63-project NSW data centre register.",
-   "outcome": "Unread. The document is publicly listed but is a scanned image with no extractable text, so the donor, recipient and amount are unknown.",
+   "recipient": "Liberal Party of Australia - NSW Division",
+   "event_date": "2018-06-18",
+   "instrument": "Political donations disclosure statement filed with SSD-10330 (Roberts Road Data Centre), signed 2 December 2019",
+   "position": "A reportable political donation of $7,500, disclosed with the Roberts Road application as the law requires.",
+   "outcome": "The application was determined on 14 July 2020 by the Department's Executive Director under a delegation that applied where 'a political disclosure statement has not been made'; the assessment report states that no reportable political donations were made by the Applicant in the last two years. Why the disclosure did not change who decided is not on the record (GIPA-003).",
    "aligned_with_outcome": null,
    "disclosed": 1,
-   "notes": "Directly relevant to the NSW inquiry's terms of reference (h)(iv), 'the impact of lobbying and donations on government policy setting surrounding data centre developments'. A donation disclosure is a statutory document; that it is published only as an unsearchable image is itself a transparency finding. Research gap RG-069. AirTrunk is recorded as the actor here only because this pack is the AirTrunk deep dive; the document relates to a CDC site and must not be attributed to AirTrunk.",
-   "fact_status": "GAP",
-   "source_id": "SRC_SSD10330_CONSENT",
-   "confidence": "low",
-   "as_of_date": "2026-09-18"
+   "notes": "READ 2026-10-30 (RG-069). This row was a placeholder parked under AirTrunk; it is now attributed to CDC, whose company is the applicant. The disclosure is a scan: the print was read by OCR and the handwriting by eye, and should be checked against the image. Lawful donations, lawfully disclosed. No improper conduct by anyone is alleged or implied.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD10330_DONATION",
+   "confidence": "medium",
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 11,
@@ -10040,6 +10211,60 @@
    "source_id": "SRC_BCA_MEMBERS_202610",
    "confidence": "high",
    "as_of_date": "2026-10-22"
+  },
+  {
+   "id": 29,
+   "actor_id": "ENT_MACQUARIE_TG",
+   "person": null,
+   "channel": "political_donation",
+   "recipient": "Liberal Party of Australia - NSW Division (Penrith SEC)",
+   "event_date": "2020-11-12",
+   "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+   "position": "A reportable political donation of $2,000 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to Liberal Party of Australia - NSW Division (Penrith SEC).",
+   "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the applicant's own disclosure (RG-069). The Talavera Road site is in the City of Ryde. Lawful donations, lawfully disclosed; no improper conduct is alleged or implied.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 30,
+   "actor_id": "ENT_MACQUARIE_TG",
+   "person": null,
+   "channel": "political_donation",
+   "recipient": "Liberal Party of Australia - NSW Division (Epping SEC)",
+   "event_date": "2021-06-18",
+   "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+   "position": "A reportable political donation of $1,500 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to Liberal Party of Australia - NSW Division (Epping SEC).",
+   "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the applicant's own disclosure (RG-069). The Talavera Road site is in the City of Ryde. Lawful donations, lawfully disclosed; no improper conduct is alleged or implied.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 31,
+   "actor_id": "ENT_MACQUARIE_TG",
+   "person": null,
+   "channel": "political_donation",
+   "recipient": "A City of Ryde West Ward council election campaign group (named in the disclosure)",
+   "event_date": "2021-10-23",
+   "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+   "position": "A reportable political donation of $1,980 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to A City of Ryde West Ward council election campaign group (named in the disclosure).",
+   "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+   "aligned_with_outcome": null,
+   "disclosed": 1,
+   "notes": "From the applicant's own disclosure (RG-069). The Talavera Road site is in the City of Ryde. Lawful donations, lawfully disclosed; no improper conduct is alleged or implied.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
   }
  ],
  "metrics": [
@@ -17253,7 +17478,7 @@
    "event_type": "objection_upheld",
    "summary": "Blacktown City Council objected to SSD-73761707 and asked that its matters be comprehensively addressed and the response returned to Council for further comment before any determination. The consent issued 15 months later on 16 September 2026.",
    "outcome": "Objection not determinative: the consent authority is the Minister, not the council.",
-   "notes": "Recorded as objection_upheld=False in substance - the objection did not prevent approval. Kept in regulatory_events as well as community_events because it is a formal statutory submission, not a community campaign.",
+   "notes": "Recorded as objection_upheld=False in substance - the objection did not prevent approval. CORRECTED 2026-10-30 (RG-040): the assessment report says Council 'later advised in writing to the Department that its objection has been resolved' before the decision. Kept in regulatory_events as well as community_events because it is a formal statutory submission, not a community campaign.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_BLACKTOWN_OBJ",
    "confidence": "high",
@@ -17450,6 +17675,70 @@
    "source_id": "SRC_PM_AI_STANDARDS",
    "confidence": "high",
    "as_of_date": "2026-07-15"
+  },
+  {
+   "id": 26,
+   "event_date": "2026-08-18",
+   "regulator_id": "ENT_NSW_DPHI",
+   "instrument_id": null,
+   "site_id": null,
+   "entity_id": null,
+   "event_type": "other",
+   "summary": "The Minister for Planning delegated the determination of SSD applications 'for relevant resource, energy or data centre projects' to the Director, Industry Assessments, where fewer than 15 unique public submissions object and the applicant has made no reportable political disclosure statement. Unlike the 2020 and 2022 delegations, its conditions as the assessment reports quote them say nothing about the local council objecting.",
+   "outcome": "Used for Project Apollo (approved 2 September 2026 while the City of Ryde maintained its objection) and Glendenning Road (16 September 2026, after Blacktown advised its objection was resolved).",
+   "notes": "The delegation instrument itself has not been read; this rests on the Department's own assessment reports. The day before, 17 August 2026, the NSW Data Centre Policy Framework and Guidelines were released. The planning portal page last updated 9 April 2026 still says a council objection generally makes the Commission the consent authority; how the Commission's role was removed for these cases is not on the record read (RG-040; GIPA-003 asks for the instrument).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 27,
+   "event_date": "2026-09-02",
+   "regulator_id": "ENT_NSW_DPHI",
+   "instrument_id": null,
+   "site_id": "SITE_PROJECT_APOLLO",
+   "entity_id": null,
+   "event_type": "determination",
+   "summary": "Project Apollo Data Centre, Macquarie Park (SSD-74069708) approved by the A/Director, Industry Assessments under the 18 August 2026 delegation. The City of Ryde objected during exhibition and maintained its objection after the Submissions Report.",
+   "outcome": "Approved by a departmental officer over a standing council objection.",
+   "notes": "The only determined NSW data centre read where a local council's objection stood at decision and the Commission did not decide (RG-040).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 28,
+   "event_date": "2024-01-19",
+   "regulator_id": null,
+   "instrument_id": null,
+   "site_id": "SITE_TALAVERA",
+   "entity_id": null,
+   "event_type": "determination",
+   "summary": "Talavera Road Data Centre Campus Expansion (SSD-24299707) approved by the Independent Planning Commission, a two-Commissioner panel, because the City of Ryde objected and a company connected to the applicant disclosed reportable political donations.",
+   "outcome": "Approved with conditions.",
+   "notes": "RG-085: the consent the planning portal publishes leaves the Commissioners' names as '[Name of Commissioner]'; the Commission's own statement of reasons names the panel.",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
+  },
+  {
+   "id": 29,
+   "event_date": "2020-07-14",
+   "regulator_id": "ENT_NSW_DPHI",
+   "instrument_id": null,
+   "site_id": "SITE_ROBERTS_RD",
+   "entity_id": "ENT_CDC",
+   "event_type": "determination",
+   "summary": "Roberts Road Data Centre (SSD-10330) approved by the Executive Director, Regions, Industry and Key Sites under the 9 March 2020 delegation, which applied where 'a political disclosure statement has not been made'. The assessment report states no reportable political donations were made by the Applicant in the last two years.",
+   "outcome": "Approved under delegation.",
+   "notes": "The project record holds a political donations disclosure statement signed 2 December 2019 and filed with the EIS, declaring a $7,500 donation on 18 June 2018 (lobbying row 10). The record read does not say why it did not change who decided. No improper conduct is alleged or implied; GIPA-003 asks the Department (RG-069).",
+   "fact_status": "VERIFIED",
+   "source_id": "SRC_SSD10330_ASSESSMENT",
+   "confidence": "high",
+   "as_of_date": "2026-10-30"
   }
  ],
  "renewable_claims": [
@@ -17845,11 +18134,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Partly advanced 2026-09-18. The Guardian (26 July 2026) identifies Syncline Energy as the proponent of the Plumpton 'Victorian AI hub' (350 ha, reported 2.4 GW max), and local reporting links the same developer to the Melton proposal; SITE_MELTON_SYNCLINE is now attributed and lifted from CLAIMED/low to REPORTED/medium. Still outstanding: the Melton application reference and capacity, and any verification of the South Morang ~A$1bn approval, which remains CLAIMED/low on a single local source.",
+   "notes": "Partly advanced 2026-09-18: The Guardian (26 July 2026) identifies Syncline Energy as the proponent of the Plumpton 'Victorian AI hub', and SITE_MELTON_SYNCLINE is REPORTED/medium. 2026-10-30 (research batch 5): Melton's and Whittlesea's registers allow the crawler but are search applications; planning.vic.gov.au refuses it. Still outstanding: the Melton application reference and capacity, and the South Morang approval. In DOWNLOADS.md.",
    "fact_status": "REPORTED",
    "source_id": "SRC_GUARD_PLUMPTON",
    "confidence": "medium",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 12,
@@ -17917,11 +18206,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Priority RAISED from 4 to 5 on 2026-09-18. The inquiry record is now the most promising free route to closing RG-007: a question put to a revenue officer in the 29 May 2026 public hearings, or a submission from an industry body or union, would settle whether payroll tax or land tax concessions exist without waiting 8-12 weeks for an FOI decision. Approximately 120+ submissions are freely downloadable and the terms of reference were updated 5 August 2026.",
+   "notes": "BLOCKED 2026-10-30 (research batch 5): parliament.nsw.gov.au's robots.txt now refuses the research crawler for the inquiry pages and the submission files alike (data/raw/registers/nsw_parliament/refused.json). The five hearing transcripts archived in September stand. Some submitters publish their own submissions (the Climate Council, the Committee for Sydney); the full list needs a person (docs/requests/DOWNLOADS.md). The report was due by 30 September 2026.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWINQ",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 16,
@@ -17935,11 +18224,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "NOT WORKED in batch 5. The plan sources community opposition only from planning, council or parliamentary records, never social media. The council submissions read for RG-040 are councils', not groups'; the parliamentary submissions where groups appear are closed to the crawler (RG-015, RG-041, RG-066). The register waits on those downloads.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": null
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 17,
@@ -18241,11 +18530,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "WORKED 2026-10-30 (research batch 5). The consent requires the Applicant to publish its approved plans, monitoring and audit reports on 'its website'. The Applicant is Lehr Consultants International (Australia) Pty Ltd; no website for it was found, and lehr.com.au belongs to an unrelated recruitment firm. The operator is still not established (RG-037). Test again once the operator is known or operation begins.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD73761707_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 40,
@@ -18255,15 +18544,15 @@
    "target_source": "NSW Planning Portal submissions tab for each data centre SSD (PAE- and SUB- attachments are publicly downloadable)",
    "retrieval_method": "scrape_portal",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-30 (research batch 5). Each council's main submission was fetched for 22 data centre applications in Blacktown, Penrith, Fairfield, Ryde and The Hills: 18 read, 4 restricted (Honeman Close, Macquarie Park, Mamre Road, NEXTDC S4). Ryde's are cover letters whose attachments were not fetched. Keyword screen of grounds, not a coding: hunt log. OUTCOMES, from every archived assessment report of a determined data centre: the local council objected in eight cases - SSD-21342738 lodged outside the exhibition period; SSD-33781208 withdrawn; SSD-41589232 lodged out of time, then withdrawn; SSD-47320208 withdrawn; SSD-70889211 withdrawn; SSD-73761707 resolved; SSD-74069708 maintained; decided by a departmental Director; SSD-24299707 stood and the Independent Planning Commission decided. Delegations of 2020 and 2022 let a departmental officer decide only where the council had not objected; the delegation of 18 August 2026 for data centre projects drops that condition, and Project Apollo was approved under it while Ryde's objection stood. Ryde 'strongly objects' to NEXTDC S5, undetermined.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_BLACKTOWN_OBJ",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 41,
@@ -18273,15 +18562,15 @@
    "target_source": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-submission-details?committeeInquiryId=3169 - returns HTTP 403 to non-browser clients. Individual submission PDFs ARE downloadable from files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=/lcdocs/submissions/<id>/<name>.pdf, as demonstrated by Greenpeace's submission No 120 at /lcdocs/submissions/95082/. The blocker is enumerating the list, not fetching the files.",
    "retrieval_method": "scrape_portal",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Route options: fetch the list through a browser-capable client; probe sequential submission ids in the 95000-95200 range; or use the hearing schedules, which name organisations. The hearing schedule PDFs are image-only and yielded no text, so witness lists were recovered from the transcript appearance formula instead.",
+   "notes": "BLOCKED 2026-10-30 (research batch 5): the submission files at /lcdocs/submissions/ are now refused by parliament.nsw.gov.au's robots.txt, as the list page was, so neither enumerating nor fetching is open to the crawler. Probing sequential ids was not tried. In docs/requests/DOWNLOADS.md for a person.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_INQ_T_0522",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 42,
@@ -18403,11 +18692,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "BLOCKED 2026-10-30 (research batch 5): planning.vic.gov.au's robots.txt refuses the research crawler (read as disallow-all), so the Development Facilitation Program's decisions were not read. In docs/requests/DOWNLOADS.md.",
    "fact_status": "REPORTED",
    "source_id": "SRC_GADENS_VIC",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 49,
@@ -18547,11 +18836,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Supersedes RG-047, which is closed to avoid two open gaps tracking the same task.",
+   "notes": "Supersedes RG-047. BLOCKED 2026-10-30 (research batch 5): planning.vic.gov.au refuses the crawler; Maribyrnong's register allows it but is a search application with no listing to read. In docs/requests/DOWNLOADS.md.",
    "fact_status": "REPORTED",
    "source_id": "SRC_GADENS_VIC",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 57,
@@ -18579,15 +18868,15 @@
    "target_source": "FOI to NSW DPHI under the GIPA Act for the warning letter and response on SSD-10330; the DPHI compliance and enforcement register; EPA licence and incident records for the site",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "WORKED 2026-10-30 (research batch 5). Two warning letters are in the NSW data centre record: 'CDC Data Centres response warning letter' on Roberts Road (SSD-10330) and a warning letter of 29 May 2024, with a Department email about it, on Station Road (SSD-33781208). All three are restricted on the portal (data/raw/nsw_planning/attachments/restricted.json), as is a 'scanned signed letter' on Roberts Road. GIPA-003 to the Department asks for the letters, the responses and the compliance record for data centre consents (docs/requests/).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD10330_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 59,
@@ -18723,15 +19012,15 @@
    "target_source": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P/Submissions (pages 2-6); each submission has a DocStoreId of the form <guid>~<id> which resolves through the aph.gov.au document store",
    "retrieval_method": "scrape_portal",
    "priority": 5,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "First 20 indexed at data/raw/senate_inquiry/submissions_index.json with their DocStoreIds. The Climate Council of Australia has published its own submission publicly, which is an alternative route for at least that one.",
+   "notes": "BLOCKED 2026-10-30 (research batch 5). aph.gov.au's robots.txt refuses the research crawler, so pages 2 to 6 of the submission list and the submissions themselves were not fetched (data/raw/registers/aph/refused.json). The first 20, indexed in September, stand. In docs/requests/DOWNLOADS.md for a person.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SENATE_AI_DC",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 67,
@@ -18777,15 +19066,15 @@
    "target_source": "The SSD-10330 attachment (public but image-only); the NSW Planning Portal attachment index at exports/nsw_planning/nsw_dc_attachment_index.csv, searchable for 'political-donation'; the NSW Electoral Commission donations register; FOI to DPHI for a machine-readable version",
    "retrieval_method": "foi_request",
    "priority": 4,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied.",
    "fact_status": "VERIFIED",
-   "source_id": "SRC_SSD10330_CONSENT",
-   "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "source_id": "SRC_SSD10330_DONATION",
+   "confidence": "medium",
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 70,
@@ -19065,15 +19354,15 @@
    "target_source": "IPC determination records and published decisions list for SSD-24299707; GIPA request to IPC if not published",
    "retrieval_method": "regulator_request",
    "priority": 3,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": null,
+   "resolved_date": "2026-10-30",
+   "notes": "RESOLVED 2026-10-30 (research batch 5). The Commission's own Statement of Reasons for Decision (19 January 2024) names the panel of two Commissioners, a Chair and a member, and says the Commission was the consent authority because Ryde objected and a company connected to the applicant disclosed a reportable political donation. The Department's referral letter of 27 November 2023 gives the same grounds under clause 8A of the former State and Regional Development SEPP. The consent copy on the planning portal still shows '[Name of Commissioner]' placeholders: the gap is in the portal's copy, not in the decision.",
    "fact_status": "VERIFIED",
-   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-10-30"
   },
   {
    "id": 86,
@@ -27868,6 +28157,265 @@
    "entity_rowid": "12",
    "source_id": "SRC_DEXUS_WDDP_2026",
    "quote": "ADC holds a 25% interest in a consortium with Zerra DC and Macquarie Capital (Consortium) in connection with the proposed development of a hyperscale data centre campus for an Australian subsidiary of Anthropic in the Western Downs region of Queensland. | The Consortium has entered into lease documentation with the Australian subsidiary of Anthropic for the delivery of the first stage of the campus, subject to customary approvals. | Dexus provides the following update in relation to Australian Data Centres (ADC), in which Dexus holds an 85% interest."
+  },
+  {
+   "id": 725,
+   "entity_table": "lobbying",
+   "entity_rowid": "10",
+   "source_id": "SRC_SSD10330_DONATION",
+   "quote": "Name of person making this disclosure: Gregory David Boorer (Director & CEO) | Planning application reference: SSD10330 | You are the APPLICANT: YES (circled) | Name of party or person for whose benefit the donation was made: The Liberal Party of Australia - NSW Division, ABN 68 324 857 904 | Date donation made: 18 June 2018 | Amount/value of donation: $7,500 | Signature(s) and Date: [signature] 2 December 2019"
+  },
+  {
+   "id": 726,
+   "entity_table": "lobbying",
+   "entity_rowid": "10",
+   "source_id": "SRC_SSD10330_ASSESSMENT",
+   "quote": "a political disclosure statement has not been made. | No reportable political donations were made by the Applicant in the last two years and no reportable political donations were made by any persons who lodged a submission."
+  },
+  {
+   "id": 727,
+   "entity_table": "lobbying",
+   "entity_rowid": "29",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "quote": "Macquarie Data Centres Pty Ltd (ABN 11 612 259 391) | Macquarie Telecom Pty Ltd (21082930916) | NSW Division - Penrith SEC 12/11/2020 $2000 | 28 February 2022"
+  },
+  {
+   "id": 728,
+   "entity_table": "lobbying",
+   "entity_rowid": "29",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
+   "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+  },
+  {
+   "id": 729,
+   "entity_table": "lobbying",
+   "entity_rowid": "30",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "quote": "Macquarie Data Centres Pty Ltd (ABN 11 612 259 391) | Macquarie Telecom Pty Ltd (21082930916) | NSW Division - Epping SEC 18/06/2021 $1500 | 28 February 2022"
+  },
+  {
+   "id": 730,
+   "entity_table": "lobbying",
+   "entity_rowid": "30",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
+   "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+  },
+  {
+   "id": 731,
+   "entity_table": "lobbying",
+   "entity_rowid": "31",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "quote": "Macquarie Data Centres Pty Ltd (ABN 11 612 259 391) | Macquarie Telecom Pty Ltd (21082930916) | 23/10/2021Jerome Laxale City of Ryde West Ward Campaign Group $1980 | 28 February 2022"
+  },
+  {
+   "id": 732,
+   "entity_table": "lobbying",
+   "entity_rowid": "31",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
+   "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+  },
+  {
+   "id": 733,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "26",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "quote": "On 18 August 2026 , the Minister delegated the functions to determine SSD applications for relevant resource, ener gy or data centre projects to the Director, Industry Assessments where: there are less than 15 unique public submissions by way of objection, and \u2022 a reportable political disclosure statement has not been made by the Applicant."
+  },
+  {
+   "id": 734,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "26",
+   "source_id": "SRC_SSD73761707_ASSESSMENT",
+   "quote": "On 18 August 2026 , the Minister delegated the functions to determine SSD applications to the Director, Industry Assessments where:"
+  },
+  {
+   "id": 735,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "26",
+   "source_id": "SRC_SSD41589232_ASSESSMENT",
+   "quote": "the relevant local council has not made a submission by way of objection under the mandatory requirements for community participation listed under Schedule 1 of the EP&A Act."
+  },
+  {
+   "id": 736,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "26",
+   "source_id": "SRC_NSWPORTAL_DETERMINE_DA",
+   "quote": "The IPC is generally the consent authority for an SSD application where the applicant is not a public authority (or acting on behalf of one), and one or more of the following applies: the local council has lodged an objection | Last updated: 09/04/2026"
+  },
+  {
+   "id": 737,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "27",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "quote": "During the exhibition period, the Department received one objection from City of Ryde Council (Council) and no submissions from the public. | Council maintained its objection, advising that: | Accordingly, the application can be determined by the A/Director, Industry Assessments, under delegation."
+  },
+  {
+   "id": 738,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "27",
+   "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "quote": "Council is not supportive of the development in its"
+  },
+  {
+   "id": 739,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "28",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
+   "quote": "an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation. | Commissioners Ms Juliet Grant (Chair) and Dr Bronwyn Evans AM were appointed to constitute the Commission Panel in making the final decision."
+  },
+  {
+   "id": 740,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "28",
+   "source_id": "SRC_DPE_TALAVERA_REFERRAL",
+   "quote": "In accordance with clause 8A of the former State Environmental Planning Policy (State and Regional Development) 2011 and section 4.5 of the Environmental Planning and Assessment Act 1979 , the Independent Planning Commission is the declared consent authority for this development, as: | a company connected to Macquarie Data Centres Pty Ltd (the Applicant) has made reportable political donations in the two-year period prior to the application being made."
+  },
+  {
+   "id": 741,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "29",
+   "source_id": "SRC_SSD10330_ASSESSMENT",
+   "quote": "On 9 March 2020, the Minister delegated the functions to determine SSD applications to the Executive Director, Regions, Industry and Key Sites where: a political disclosure statement has not been made. | No reportable political donations were made by the Applicant in the last two years and no reportable political donations were made by any persons who lodged a submission. | Accordingly, the application can be determined by the Executive Director , Regions, Industry and Key Sites under delegation."
+  },
+  {
+   "id": 742,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "29",
+   "source_id": "SRC_SSD10330_CONSENT",
+   "quote": "As delegate of the Minister for Planning and Public Spaces under delegation executed on 9 March 2020, I approve the"
+  },
+  {
+   "id": 743,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "29",
+   "source_id": "SRC_SSD10330_DONATION",
+   "quote": "Amount/value of donation: $7,500 | Date donation made: 18 June 2018 | Signature(s) and Date: [signature] 2 December 2019"
+  },
+  {
+   "id": 744,
+   "entity_table": "regulatory_events",
+   "entity_rowid": "13",
+   "source_id": "SRC_SSD73761707_ASSESSMENT",
+   "quote": "Council initially objected to the development but later advised in writing to the Department that its objection has been resolved."
+  },
+  {
+   "id": 745,
+   "entity_table": "community_events",
+   "entity_rowid": "15",
+   "source_id": "SRC_SSD73761707_ASSESSMENT",
+   "quote": "Council initially objected to the development but later advised in writing to the Department that its objection has been resolved."
+  },
+  {
+   "id": 746,
+   "entity_table": "community_events",
+   "entity_rowid": "15",
+   "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "quote": "we object to the proposal in its current form"
+  },
+  {
+   "id": 747,
+   "entity_table": "community_events",
+   "entity_rowid": "25",
+   "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "quote": "In short, Council strongly objects to the development as submitted."
+  },
+  {
+   "id": 748,
+   "entity_table": "community_events",
+   "entity_rowid": "26",
+   "source_id": "SRC_SSD21342738_ASSESSMENT",
+   "quote": "Council objected to the development, howev er Council\u2019s submission was received outside the exhibition period."
+  },
+  {
+   "id": 749,
+   "entity_table": "community_events",
+   "entity_rowid": "27",
+   "source_id": "SRC_SSD33781208_ASSESSMENT",
+   "quote": "While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022."
+  },
+  {
+   "id": 750,
+   "entity_table": "community_events",
+   "entity_rowid": "28",
+   "source_id": "SRC_SSD41589232_ASSESSMENT",
+   "quote": "While Council originally objected to the SSD application, the objection was not made within 28 day exhibition period in accordance with Schedule 1 of the EP&A Act. Further, Council also subsequently withdrew its objection to the development on 10 August 2023."
+  },
+  {
+   "id": 751,
+   "entity_table": "community_events",
+   "entity_rowid": "29",
+   "source_id": "SRC_SSD47320208_ASSESSMENT",
+   "quote": "While Council originally objected to the SSD application, Council advised the Department in writing on 19 March 2024 that it has withdrawn its objection to the development."
+  },
+  {
+   "id": 752,
+   "entity_table": "community_events",
+   "entity_rowid": "30",
+   "source_id": "SRC_SSD70889211_ASSESSMENT",
+   "quote": "Council originally objected to the SSD application, Council advised the Department in writing on 9 September 2025 that it has withdrawn its objection to the development."
+  },
+  {
+   "id": 753,
+   "entity_table": "community_events",
+   "entity_rowid": "31",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "quote": "Council maintained its objection"
+  },
+  {
+   "id": 754,
+   "entity_table": "research_gaps",
+   "entity_rowid": "40",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "quote": "On 18 August 2026 , the Minister delegated the functions to determine SSD applications for relevant resource, ener gy or data centre projects to the Director, Industry Assessments where: | Council maintained its objection, advising that:"
+  },
+  {
+   "id": 755,
+   "entity_table": "research_gaps",
+   "entity_rowid": "40",
+   "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "quote": "we object to the proposal in its current form | In short, Council strongly objects to the development as submitted. | Council is not supportive of the development in its"
+  },
+  {
+   "id": 756,
+   "entity_table": "research_gaps",
+   "entity_rowid": "58",
+   "source_id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "quote": "Station Road (SSD-33781208): While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022."
+  },
+  {
+   "id": 757,
+   "entity_table": "research_gaps",
+   "entity_rowid": "69",
+   "source_id": "SRC_SSD10330_DONATION",
+   "quote": "Name of party or person for whose benefit the donation was made: The Liberal Party of Australia - NSW Division, ABN 68 324 857 904 | Date donation made: 18 June 2018 | Amount/value of donation: $7,500"
+  },
+  {
+   "id": 758,
+   "entity_table": "research_gaps",
+   "entity_rowid": "69",
+   "source_id": "SRC_SSD10330_ASSESSMENT",
+   "quote": "a political disclosure statement has not been made. | No reportable political donations were made by the Applicant in the last two years and no reportable political donations were made by any persons who lodged a submission."
+  },
+  {
+   "id": 759,
+   "entity_table": "research_gaps",
+   "entity_rowid": "69",
+   "source_id": "SRC_SSD24299707_DONATION",
+   "quote": "NSW Division - Penrith SEC 12/11/2020 $2000 | NSW Division - Epping SEC 18/06/2021 $1500 | 23/10/2021Jerome Laxale City of Ryde West Ward Campaign Group $1980"
+  },
+  {
+   "id": 760,
+   "entity_table": "research_gaps",
+   "entity_rowid": "85",
+   "source_id": "SRC_IPC_TALAVERA_SOR",
+   "quote": "Statement of Reasons for Decision Ms Juliet Grant (Chair) Dr Bronwyn Evans AM 19 January 2024 | Commissioners Ms Juliet Grant (Chair) and Dr Bronwyn Evans AM were appointed to constitute the Commission Panel in making the final decision. | an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation."
+  },
+  {
+   "id": 761,
+   "entity_table": "research_gaps",
+   "entity_rowid": "85",
+   "source_id": "SRC_DPE_TALAVERA_REFERRAL",
+   "quote": "a company connected to Macquarie Data Centres Pty Ltd (the Applicant) has made reportable political donations in the two-year period prior to the application being made."
   }
  ],
  "sources": [
@@ -30928,6 +31476,72 @@
    "accessed": "2026-10-22",
    "credibility": "A",
    "notes": "Palantir and WesTrac (Caterpillar dealer, Perth) announce Foundry across WesTrac's servicing and rebuild operations centres in Perth; collaboration began in 2021 and is to extend to New South Wales workshops; describes Rio Tinto as Palantir's 'long-term flagship partnership'. The page serves its text inside embedded page data, read from there. ARCHIVED 2026-10-22 at data/raw/operators/palantir/."
+  },
+  {
+   "id": "SRC_SSD10330_DONATION",
+   "title": "Political donations disclosure statement, SSD-10330 Roberts Road Data Centre (signed 2 December 2019)",
+   "publisher": "NSW Planning Portal (filed by the applicant, Canberra Data Centres Pty Ltd)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120191205T234328.624+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2019-12-05",
+   "accessed": "2026-10-30",
+   "credibility": "A",
+   "notes": "A statutory disclosure under s147 (now s10.4) of the EP&A Act, filed in the project's EIS folder. Image-only scan with no extractable text: read on 2026-10-30 by OCR for the print and by eye for the handwriting, transcription committed beside it (data/raw/nsw_planning/attachments/SSD-10330_political_donation.transcription.txt) with the donor's residential address left out. Declares one donation: $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018, by the company's director and chief executive, who ticked 'applicant'. Handwriting: check against the image. ARCHIVED 2026-09-18 (sha256 0b7fa75f8f78, 1,818,734 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_SSD24299707_DONATION",
+   "title": "Political donations disclosure statement, SSD-24299707 Talavera Road Data Centre Campus Expansion (28 February 2022)",
+   "publisher": "NSW Planning Portal (filed by the applicant, Macquarie Data Centres Pty Ltd)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120220301T220228.482+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2022-03-01",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Filed by Macquarie Data Centres Pty Ltd. Three donations by Macquarie Telecom Pty Ltd: $2,000 to the Liberal Party NSW Division (Penrith SEC) on 12/11/2020, $1,500 to the Liberal Party NSW Division (Epping SEC) on 18/06/2021, and $1,980 to a City of Ryde West Ward campaign group on 23/10/2021. Typed; text extracted. ARCHIVED 2026-10-22 at data/raw/nsw_planning/attachments/ (sha256 76567db517a8, 222,126 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_IPC_TALAVERA_SOR",
+   "title": "Statement of Reasons for Decision, Talavera Road Data Centre Campus Extension SSD-24299707 (19 January 2024)",
+   "publisher": "Independent Planning Commission NSW",
+   "url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-outcome/statement-of-reasons-for-decision-talavera-road-ssd-24299707.pdf",
+   "doc_type": "primary_regulator",
+   "published": "2024-01-19",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The Commission was the consent authority 'because an objection was received from the City of Ryde Council and a company connected to the Applicant disclosed a reportable political donation'. Names the panel: two Commissioners, a Chair and a member. Approved with conditions. The consent the planning portal publishes carries '[Name of Commissioner]' placeholders. ARCHIVED 2026-10-22 at data/raw/nsw_planning/ipc/ (sha256 a52117cac536, 3,104,800 bytes); PDF not committed."
+  },
+  {
+   "id": "SRC_DPE_TALAVERA_REFERRAL",
+   "title": "Referral for determination of State significant development application, Talavera Road (SSD-24299707) (27 November 2023)",
+   "publisher": "NSW Department of Planning and Environment",
+   "url": "https://www.ipcn.nsw.gov.au/sites/default/files/pac/projects/2023/11/talavera-road-data-centre-campus-expansion/case-referral-documents-from-dphi/referral-letter-redacted.pdf",
+   "doc_type": "primary_government",
+   "published": "2023-11-27",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The Department to the Commission's Chair: under clause 8A of the former State Environmental Planning Policy (State and Regional Development) 2011 and s4.5 of the EP&A Act the Commission is the declared consent authority because the council objected and 'a company connected to Macquarie Data Centres Pty Ltd (the Applicant) has made reportable political donations in the two-year period prior to the application being made'. Published by the Commission, redacted. ARCHIVED 2026-10-22 at data/raw/nsw_planning/ipc/ (sha256 e40f4062f1b5, 87,470 bytes)."
+  },
+  {
+   "id": "SRC_NSWPORTAL_DETERMINE_DA",
+   "title": "Determine DA - State significant development process (NSW Planning Portal)",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure",
+   "url": "https://www.planningportal.nsw.gov.au/major-projects/assessment/state-significant-development/ssd-process/determine-da",
+   "doc_type": "primary_government",
+   "published": "2026-04-09",
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "The public explanation of who decides an SSD application, last updated 9 April 2026: the Commission 'is generally the consent authority' where the local council has lodged an objection, 50 or more public objections are received, or the applicant has made a reportable political donation; the Minister and the Commission can delegate decisions to Department officers. ARCHIVED 2026-10-22 at data/raw/nsw_planning/portal_rules/."
+  },
+  {
+   "id": "SRC_NSWPORTAL_COUNCIL_SUBS",
+   "title": "Council submissions on NSW data centre State Significant Development applications (Blacktown, Penrith, Fairfield, Ryde, The Hills)",
+   "publisher": "NSW Planning Portal (the councils' own letters)",
+   "url": "https://www.planningportal.nsw.gov.au/major-projects",
+   "doc_type": "primary_planning_portal",
+   "published": null,
+   "accessed": "2026-10-22",
+   "credibility": "A",
+   "notes": "Each council's main submission on 22 data centre applications in the five councils RG-040 names, fetched one at a time through the portal's JSON: 18 read (16 with text, two scans read by OCR), 4 restricted (data/raw/nsw_planning/council_submissions/restricted.json). Ryde's letters are cover letters; their attachments were not fetched. Personal contact details redacted. ARCHIVED 2026-10-22; PDFs not committed, text is."
   }
  ],
  "water_profile": [
@@ -31543,7 +32157,7 @@
    "severity": 5,
    "site": "Glendenning Road Data Centre",
    "community_group": null,
-   "outcome": "Not determinative. Consent issued 16 September 2026 by the Minister's delegate.",
+   "outcome": "Resolved before decision: the assessment report says Council 'later advised in writing to the Department that its objection has been resolved'. Consent issued 16 September 2026 by the Minister's delegate.",
    "fact_status": "VERIFIED"
   },
   {
@@ -31560,6 +32174,19 @@
    "fact_status": "VERIFIED"
   },
   {
+   "event_date": "2024-09-24",
+   "state": "NSW",
+   "locality": "Macquarie Park",
+   "event_type": "council_rejection",
+   "actor": "City of Ryde Council",
+   "summary": "The City of Ryde's submission on the NEXTDC S5 Data Centre and Innovation Hub EIS (SSD-63168959): 'In short, Council strongly objects to the development as submitted.'",
+   "severity": null,
+   "site": "NEXTDC S5 Data Centre and Innovation Hub",
+   "community_group": null,
+   "outcome": "Pending: the application had not been determined when read.",
+   "fact_status": "VERIFIED"
+  },
+  {
    "event_date": "2021",
    "state": "VIC",
    "locality": "West Footscray",
@@ -31571,6 +32198,84 @@
    "community_group": null,
    "outcome": null,
    "fact_status": "REPORTED"
+  },
+  {
+   "event_date": null,
+   "state": "NSW",
+   "locality": null,
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-21342738. The Department's assessment report: 'Council objected to the development, howev er Council\u2019s submission was received outside the exhibition period.'",
+   "severity": null,
+   "site": "Eastern Creek Data Centre Expansion Project",
+   "community_group": null,
+   "outcome": "Objection lodged outside the exhibition period.",
+   "fact_status": "VERIFIED"
+  },
+  {
+   "event_date": null,
+   "state": "NSW",
+   "locality": null,
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-33781208. The Department's assessment report: 'While Council originally objected to the SSD application, it formally withdrew its objection to the development on 6 October 2022.'",
+   "severity": null,
+   "site": "Station Road Data Centre Expansion",
+   "community_group": null,
+   "outcome": "Objection withdrawn.",
+   "fact_status": "VERIFIED"
+  },
+  {
+   "event_date": null,
+   "state": "NSW",
+   "locality": null,
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-41589232. The Department's assessment report: 'While Council originally objected to the SSD application, the objection was not made within 28 day exhibition period in accordance with Schedule 1 of the EP&A Act. Further, Council also subsequently withdrew its objection to the development on 10 August 2023.'",
+   "severity": null,
+   "site": "51 Huntingwood Drive Data Centre",
+   "community_group": null,
+   "outcome": "Objection lodged out of time, then withdrawn.",
+   "fact_status": "VERIFIED"
+  },
+  {
+   "event_date": null,
+   "state": "NSW",
+   "locality": null,
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-47320208. The Department's assessment report: 'While Council originally objected to the SSD application, Council advised the Department in writing on 19 March 2024 that it has withdrawn its objection to the development.'",
+   "severity": null,
+   "site": "Project Echidna Data Centre Eastern Creek",
+   "community_group": null,
+   "outcome": "Objection withdrawn.",
+   "fact_status": "VERIFIED"
+  },
+  {
+   "event_date": null,
+   "state": "NSW",
+   "locality": null,
+   "event_type": "council_rejection",
+   "actor": "Blacktown City Council",
+   "summary": "Blacktown City Council objected to the data centre application SSD-70889211. The Department's assessment report: 'Council originally objected to the SSD application, Council advised the Department in writing on 9 September 2025 that it has withdrawn its objection to the development.'",
+   "severity": null,
+   "site": "Marsden Park Data Centre",
+   "community_group": null,
+   "outcome": "Objection withdrawn.",
+   "fact_status": "VERIFIED"
+  },
+  {
+   "event_date": null,
+   "state": "NSW",
+   "locality": null,
+   "event_type": "council_rejection",
+   "actor": "City of Ryde Council",
+   "summary": "City of Ryde Council objected to the data centre application SSD-74069708. The Department's assessment report: 'Council maintained its objection'",
+   "severity": null,
+   "site": "Project Apollo Data Centre Macquarie Park",
+   "community_group": null,
+   "outcome": "Objection maintained; decided by a departmental Director.",
+   "fact_status": "VERIFIED"
   }
  ],
  "v_consent_drift": [
@@ -33917,6 +34622,48 @@
    "source_url": "https://www.bca.com.au/membership/"
   },
   {
+   "actor": "Macquarie Technology Group",
+   "person": null,
+   "channel": "political_donation",
+   "recipient": "A City of Ryde West Ward council election campaign group (named in the disclosure)",
+   "event_date": "2021-10-23",
+   "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+   "position": "A reportable political donation of $1,980 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to A City of Ryde West Ward council election campaign group (named in the disclosure).",
+   "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120220301T220228.482+GMT"
+  },
+  {
+   "actor": "Macquarie Technology Group",
+   "person": null,
+   "channel": "political_donation",
+   "recipient": "Liberal Party of Australia - NSW Division (Epping SEC)",
+   "event_date": "2021-06-18",
+   "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+   "position": "A reportable political donation of $1,500 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to Liberal Party of Australia - NSW Division (Epping SEC).",
+   "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120220301T220228.482+GMT"
+  },
+  {
+   "actor": "Macquarie Technology Group",
+   "person": null,
+   "channel": "political_donation",
+   "recipient": "Liberal Party of Australia - NSW Division (Penrith SEC)",
+   "event_date": "2020-11-12",
+   "instrument": "Political donations disclosure statement filed with SSD-24299707 (Talavera Road), 28 February 2022",
+   "position": "A reportable political donation of $2,000 by Macquarie Telecom Pty Ltd, a company connected to the applicant Macquarie Data Centres, to Liberal Party of Australia - NSW Division (Penrith SEC).",
+   "outcome": "With the City of Ryde's objection, the disclosure made the Independent Planning Commission the consent authority; it approved the expansion on 19 January 2024.",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "high",
+   "source_url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120220301T220228.482+GMT"
+  },
+  {
    "actor": "Palantir Technologies Australia Pty Ltd",
    "person": "Mike Kelly, former Labor Minister for Defence Materiel (2013); Australian president of Palantir 2020-2024",
    "channel": "revolving_door",
@@ -33929,6 +34676,20 @@
    "fact_status": "REPORTED",
    "confidence": "high",
    "source_url": "https://www.abc.net.au/news/2026-08-24/defence-insiders-now-lobbying-for-industry-analysis-shows/107046326"
+  },
+  {
+   "actor": "CDC Data Centres",
+   "person": "Director and Chief Executive Officer, Canberra Data Centres (named in the statutory disclosure; recorded here by role)",
+   "channel": "political_donation",
+   "recipient": "Liberal Party of Australia - NSW Division",
+   "event_date": "2018-06-18",
+   "instrument": "Political donations disclosure statement filed with SSD-10330 (Roberts Road Data Centre), signed 2 December 2019",
+   "position": "A reportable political donation of $7,500, disclosed with the Roberts Road application as the law requires.",
+   "outcome": "The application was determined on 14 July 2020 by the Department's Executive Director under a delegation that applied where 'a political disclosure statement has not been made'; the assessment report states that no reportable political donations were made by the Applicant in the last two years. Why the disclosure did not change who decided is not on the record (GIPA-003).",
+   "disclosed": 1,
+   "fact_status": "VERIFIED",
+   "confidence": "medium",
+   "source_url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120191205T234328.624+GMT"
   },
   {
    "actor": "Microsoft",
@@ -33985,20 +34746,6 @@
    "fact_status": "VERIFIED",
    "confidence": "high",
    "source_url": "https://www.bca.com.au/membership/"
-  },
-  {
-   "actor": "AirTrunk",
-   "person": null,
-   "channel": "political_donation",
-   "recipient": "Unknown",
-   "event_date": null,
-   "instrument": "Political donation disclosure filed on SSD-10330 Roberts Road Data Centre",
-   "position": "A political donation disclosure is filed on the Roberts Road Data Centre project record, whose Schedule 1 applicant is Canberra Data Centres Pty Ltd - a CDC facility, not an AirTrunk one. It is recorded here because it is the only political donation document located anywhere in the 63-project NSW data centre register.",
-   "outcome": "Unread. The document is publicly listed but is a scanned image with no extractable text, so the donor, recipient and amount are unknown.",
-   "disclosed": 1,
-   "fact_status": "GAP",
-   "confidence": "low",
-   "source_url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200714T231208.980+GMT"
   },
   {
    "actor": "Telstra",
@@ -34670,7 +35417,7 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 2,
-   "n_community_events": 1,
+   "n_community_events": 2,
    "n_regulatory_events": 0,
    "n_instruments": 0
   },
@@ -35462,7 +36209,7 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 1,
-   "n_community_events": 0,
+   "n_community_events": 1,
    "n_regulatory_events": 0,
    "n_instruments": 0
   },
@@ -35660,7 +36407,7 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 1,
-   "n_community_events": 0,
+   "n_community_events": 1,
    "n_regulatory_events": 0,
    "n_instruments": 0
   },
@@ -35748,7 +36495,7 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 1,
-   "n_community_events": 0,
+   "n_community_events": 1,
    "n_regulatory_events": 0,
    "n_instruments": 0
   },
@@ -35792,7 +36539,7 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 1,
-   "n_community_events": 0,
+   "n_community_events": 1,
    "n_regulatory_events": 0,
    "n_instruments": 0
   },
@@ -35815,7 +36562,7 @@
    "as_of_date": "2026-09-18",
    "n_applications": 1,
    "n_community_events": 0,
-   "n_regulatory_events": 0,
+   "n_regulatory_events": 1,
    "n_instruments": 0
   },
   {
@@ -35836,7 +36583,7 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 1,
-   "n_community_events": 0,
+   "n_community_events": 1,
    "n_regulatory_events": 0,
    "n_instruments": 0
   },
@@ -36012,8 +36759,8 @@
    "confidence": "high",
    "as_of_date": "2026-09-18",
    "n_applications": 1,
-   "n_community_events": 0,
-   "n_regulatory_events": 1,
+   "n_community_events": 1,
+   "n_regulatory_events": 2,
    "n_instruments": 0
   },
   {
@@ -36057,7 +36804,7 @@
    "as_of_date": "2026-09-18",
    "n_applications": 1,
    "n_community_events": 0,
-   "n_regulatory_events": 0,
+   "n_regulatory_events": 1,
    "n_instruments": 0
   },
   {
@@ -40036,7 +40783,7 @@
    "tbl": "community_events",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 7
+   "n": 14
   },
   {
    "tbl": "regulatory_events",
@@ -40054,7 +40801,7 @@
    "tbl": "regulatory_events",
    "fact_status": "VERIFIED",
    "confidence": "high",
-   "n": 20
+   "n": 24
   },
   {
    "tbl": "metrics",

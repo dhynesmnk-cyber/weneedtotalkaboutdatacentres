@@ -1,0 +1,36 @@
+Transcription of SSD-10330_political_donation.pdf (the political donations disclosure filed on the
+Roberts Road Data Centre record, SSD-10330; sha256 0b7fa75f8f78d50a90d5ea24b3005627030191494d8d084a05556f3008f21de5,
+4 pages, image-only scan, so the archive's .txt is empty).
+
+How it was read, 2026-10-30:
+- Each page rendered at 300 dpi. The first two scanned pages are the form's disclosure statement and
+  its continuation, scanned on their side; they were rotated before reading.
+- Printed text: Tesseract 5.3.4 OCR. The last two scanned pages are the form's printed
+  explanatory notes and glossary and carry no entries.
+- Handwritten entries: read by eye from the 300 dpi render. Check them against the image before
+  relying on them.
+- The donor's residential address is left out: it is personal information and nothing here needs it.
+
+[[scan page 1: the form's page 3, Disclosure Statement]]
+Political Donations Disclosure Statement to Minister or the Director-General
+Disclosure statement details
+Name of person making this disclosure: Gregory David Boorer (Director & CEO)
+Planning application reference: SSD10330
+Your interest in the planning application: You are the APPLICANT: YES (circled)
+You are a PERSON MAKING A SUBMISSION IN RELATION TO AN APPLICATION: NO (circled)
+Reportable political donations made by person making this declaration or by other relevant persons
+Name of donor (or ABN if an entity): Gregory David Boorer
+Donor's residential address or entity's registered address or other official office of the donor: [left out: personal information]
+Name of party or person for whose benefit the donation was made: The Liberal Party of Australia - NSW Division, ABN 68 324 857 904
+Date donation made: 18 June 2018
+Amount/value of donation: $7,500
+Signature(s) and Date: [signature] 2 December 2019
+Name(s): Gregory D. Boorer
+
+[[scan page 2: the form's page 4, continuation sheet]]
+No entries.
+
+[[scan pages 3 and 4: the form's printed pages 1 and 2, explanatory information and glossary]]
+"This form may be used to make a political donations disclosure under section 147(3) of the
+Environmental Planning Assessment Act 1979 for applications or public submissions to the Minister or
+the Director-General."

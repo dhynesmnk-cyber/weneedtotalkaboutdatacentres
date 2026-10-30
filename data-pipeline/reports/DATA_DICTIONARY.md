@@ -57,7 +57,7 @@ _No description recorded._
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `community_events` (table, 24 rows)
+## `community_events` (table, 31 rows)
 
 Dated friction: objections, protests, petitions, council deferrals and rejections, litigation, political interventions, school and institution objections, benefit agreements. `severity` 1–5, where 5 is a formal council objection.
 
@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 164 rows)
+## `ingest_log` (table, 169 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -377,7 +377,7 @@ Acts, regulations, rules, determinations, bills, policies, guidelines, strategie
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `lobbying` (table, 28 rows)
+## `lobbying` (table, 31 rows)
 
 _No description recorded._
 
@@ -509,7 +509,7 @@ Engineering and grid reality per site: connection type and point, NCA status, wh
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `regulatory_events` (table, 25 rows)
+## `regulatory_events` (table, 29 rows)
 
 Dated regulator actions: additional information requests, adverse findings, licence conditions, hearings, rule change requests, determinations, fast-track grants.
 
@@ -639,7 +639,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 724 rows)
+## `source_refs` (table, 761 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 
@@ -651,7 +651,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 278 rows)
+## `sources` (table, 284 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 
@@ -738,7 +738,7 @@ ORDER BY cases DESC
 
 </details>
 
-## `v_community_friction` (view, 24 rows)
+## `v_community_friction` (view, 31 rows)
 
 Community events joined to site and group, newest first.
 
@@ -925,7 +925,7 @@ ORDER BY i.jurisdiction, i.incentive_type
 
 </details>
 
-## `v_influence` (view, 28 rows)
+## `v_influence` (view, 31 rows)
 
 _No description recorded._
 

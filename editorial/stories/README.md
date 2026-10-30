@@ -94,3 +94,6 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | [ST-014](ST-014-checkout.md) | Checkout | C3 | RG-095, RG-088 | draft |
 | [ST-015](ST-015-not-that-company.md) | Not that company | C3 | RG-093, RG-086 | draft |
 | [ST-016](ST-016-the-tenant.md) | The tenant | C3 | RG-012 | draft |
+| [ST-017](ST-017-the-council-said-no.md) | The council said no | C1 | RG-040, RG-015 | draft |
+| [ST-018](ST-018-the-form-in-the-folder.md) | The form in the folder | C2 | RG-069, RG-085 | draft |
+| [ST-019](ST-019-two-letters.md) | Two letters | C2 | RG-058 | draft |

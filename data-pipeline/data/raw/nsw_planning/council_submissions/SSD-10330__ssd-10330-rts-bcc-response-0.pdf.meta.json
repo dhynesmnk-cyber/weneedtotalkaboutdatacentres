@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120200617T010003.361+GMT",
+ "slug": "/ssd-10330-rts-bcc-response-0",
+ "case": "SSD-10330",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "SSD-10330 - RTS - BCC Response.pdf",
+ "fetched_utc": "2026-10-22T22:37:30+00:00",
+ "sha256": "dfbed6b6073b199a8fa91e9030d25d217e89c285ad115f7ed26d822af1bc4ea7",
+ "bytes": 1050927,
+ "extractor": "tesseract-5.3.4 (OCR, 300 dpi, --psm 1)",
+ "redactions": 1
+}

@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-55375956%2120230313T024109.780+GMT",
+ "slug": "/penrith-council-submission-ssd-10101987-data-centre-rts-13",
+ "case": "SSD-10101987",
+ "council": "Penrith",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "SSD-10101987 - Data Centre RTS.pdf",
+ "fetched_utc": "2026-10-22T22:36:18+00:00",
+ "sha256": "67e3b4a5fe586e5c0643ac84be180ed391ae3308dfa81d4b211bfc0c2c204f04",
+ "bytes": 585391,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}

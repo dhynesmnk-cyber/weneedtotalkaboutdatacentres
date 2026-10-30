@@ -66,13 +66,18 @@ select public.assert(
 -- campus, a second keynote transcript and Palantir's WesTrac release, giving
 -- 278; and two entities, AUSTRAC (a Palantir buyer since 2016) and WesTrac (a
 -- Palantir customer), giving 142.
+-- 2026-10-30: research batch 5 (data/packs/who_heard.json) adds six sources: the
+-- Roberts Road and Talavera Road donation disclosures, the Commission's statement
+-- of reasons and the Department's referral letter for Talavera Road, the planning
+-- portal's page on who decides, and the councils' submissions, giving 284. No
+-- entity is added.
 select public.assert(
   (select count(*) from facts.entities where pipeline_id is not null) = 142,
   '142 entities loaded');
 
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 278,
-  '278 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 284,
+  '284 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -89,8 +94,8 @@ select public.assert(
 -- and NEXTDC's annual report) and RG-014 (NEXTDC's OpenAI announcement and later
 -- reports), so seven are rejected and 87 load.
 -- 2026-10-22: research batch 3 cites RG-006 (the FIRB quarterly report), so six
--- are rejected and 88 load. Research batch 4 cites none of the six, so 88 still
--- load.
+-- are rejected and 88 load. Research batches 4 and 5 cite none of the six, so 88
+-- still load (batch 5 adds notes to RG-016, which stays uncited).
 select public.assert(
   (select count(*) from facts.research_agenda where pipeline_id is not null) = 88,
   '88 research questions loaded');

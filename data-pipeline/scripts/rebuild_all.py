@@ -58,6 +58,8 @@ PACKS = [
     ("data/packs/public_and_room.json", ["--allow-missing-source"]),
     # After the Palantir thread and hcf_register: cites SRC_HCF_REGISTER and updates their rows.
     ("data/packs/whose_data.json", ["--allow-missing-source"]),
+    # After ssd_documents and airtrunk_bca_influence: cites their assessment reports and updates their rows.
+    ("data/packs/who_heard.json", ["--allow-missing-source"]),
 ]
 
 
@@ -113,6 +115,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_super_and_openai.py")
     run(PY, "scripts/curate_public_and_room.py")
     run(PY, "scripts/curate_whose_data.py")
+    run(PY, "scripts/curate_who_heard.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

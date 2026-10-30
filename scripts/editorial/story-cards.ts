@@ -46,7 +46,8 @@ const HUNT_MAX_WORDS = 300;
 // The author's direction (2026-10-21): brush over the mechanics, give the drama.
 // These belong in the hunt log and the database, not in a card for a general reader.
 const TECHNICAL: [RegExp, string][] = [
-  [/\b(?:401|403|404|500)\b/, 'an HTTP error code'],
+  // Not inside an amount: $7,500, 2,403 or 500,000 are money, not error codes.
+  [/(?<![\d,.])\b(?:401|403|404|500)\b(?![,.]\d)/, 'an HTTP error code'],
   [/robots\.txt/i, 'robots.txt'],
   [/\bSHA-?256\b|\bchecksum\b/i, 'a checksum'],
   [/\b(?:pages?|pp?\.)\s?\d+/i, 'a page reference'],

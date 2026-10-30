@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-101078456%2120260121T223946.634+GMT",
+ "slug": "/ssd-82211208-council-eis-advice-stack-syd01-data-centre",
+ "case": "SSD-82211208",
+ "council": "Penrith",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "SSD-82211208 - Council response to EIS - STACK SYD01 Data Centre - 78 Lockwood Road Erskine Park.pdf",
+ "fetched_utc": "2026-10-22T22:37:39+00:00",
+ "sha256": "12b60ae3e1af121acca7d3b8eb5d404018a40041f2859b18726fa079acc87e05",
+ "bytes": 291092,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}

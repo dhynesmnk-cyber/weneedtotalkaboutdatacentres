@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-80630743%2120250401T052720.897+GMT",
+ "slug": "/council-eis-response-letter-010425-28",
+ "case": "SSD-63235720",
+ "council": "City of Ryde",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "CoR Submission Cover Letter - 1-5 Khartoum Road.pdf",
+ "fetched_utc": "2026-10-22T22:30:52+00:00",
+ "sha256": "eb2bb35d5dfd8b9d8a2abb9c46f11f8c9d74dbf56e77b32dcffdea5c2a1a96b1",
+ "bytes": 144921,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 3
+}

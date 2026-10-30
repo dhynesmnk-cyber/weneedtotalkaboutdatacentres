@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63168959%2120240924T230134.075+GMT",
+ "slug": "/advice-eis-council-final-15",
+ "case": "SSD-63168959",
+ "council": "City of Ryde",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Advice on EIS $28Council$29 Sep 2024.pdf",
+ "fetched_utc": "2026-10-22T22:36:47+00:00",
+ "sha256": "7e8e33649ff3e85ecebeb3a5d649685a9314910ddb7f40427bf84d0f3f52ff09",
+ "bytes": 147603,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 3
+}

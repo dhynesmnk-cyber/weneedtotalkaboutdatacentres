@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-31833656%2120220121T042343.188+GMT",
+ "slug": "/exhibition-council-response-70",
+ "case": "SSD-24299707",
+ "council": "City of Ryde",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "CoR Cover Letter - Data Centre.pdf",
+ "fetched_utc": "2026-10-22T22:37:56+00:00",
+ "sha256": "4ae735fae2b5bb913cf303bbd6d041b2944c56c63e70b89e918542ec3a3eb86c",
+ "bytes": 176787,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}

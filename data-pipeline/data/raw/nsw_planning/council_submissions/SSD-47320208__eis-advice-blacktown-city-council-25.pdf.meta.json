@@ -1,0 +1,14 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=PAE-59076708%2120230705T065140.809+GMT",
+ "slug": "/eis-advice-blacktown-city-council-25",
+ "case": "SSD-47320208",
+ "council": "Blacktown",
+ "is_public": true,
+ "folder": "Agency Advice",
+ "label": "Response_DPE_Eastern Creek Drive Data Centre_2023-07-05.pdf",
+ "fetched_utc": "2026-10-22T22:37:13+00:00",
+ "sha256": "fe37e29811c0b5173c09e12bdc09097a730b32e760e40c65ba218a0430e1da74",
+ "bytes": 722705,
+ "extractor": "pypdf-6.17.0",
+ "redactions": 1
+}
