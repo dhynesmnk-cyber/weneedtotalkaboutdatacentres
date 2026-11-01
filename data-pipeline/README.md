@@ -550,6 +550,15 @@ project, and are designed to stop when asked. Public planning registers are a se
 vendor. `ingest_austender.py` additionally reads `robots.txt` and skips what it disallows, unless
 `--ignore-robots` is passed with a reason the operator can defend.
 
+`archive_pages.py`, `fetch_asic_companies.py` and `ingest_austender.py` read `robots.txt` with one
+reader, `Robots` in `archive_pages.py`. A file can give every crawler (`User-agent: *`) more than
+one group. Python's own parser reads only the first of them (3.12 and earlier) or merges them and
+settles a tie as allow (3.13), so a later or earlier `Disallow: /` can be read as yes. `Robots`
+fetches a URL only if Python's parser and each such group, read alone, allow it, unless a group names
+this crawler. The NSW lobbyist register is why: on 2026-11-01 its file opened with a hosting
+service's `Allow: /` and still ended with the site's own `Disallow: /`. `make check-archiver` runs its
+fixture tests, which pass on Python 3.11, 3.12 and 3.13.
+
 ### AusTender: added as a source, not yet read
 
 `scrapers/ingest_austender.py` was added for the Commonwealth portal of record, entered from the

@@ -77,6 +77,8 @@ def main(argv: list[str]) -> int:
     # Offline parser fixtures for the AusTender scraper. Mirrors the Makefile's check-austender:
     # a check only one driver runs is the drift check_packs.py exists to catch.
     run(PY, "scrapers/ingest_austender.py", "--selftest")
+    # The robots.txt reader every archive fetch goes through. Mirrors the Makefile's check-archiver.
+    run(PY, "scrapers/archive_pages.py", "--selftest")
     # Planted-topic recovery test for the patent topic model. Same reasoning: both drivers or
     # neither. Does not touch the database - analyse_patents.py only ever writes a report.
     run(PY, "scripts/analyse_patents.py", "--selftest")

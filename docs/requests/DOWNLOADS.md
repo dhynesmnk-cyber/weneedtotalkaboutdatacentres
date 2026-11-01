@@ -14,6 +14,22 @@ hunt log records what came back.
 
 Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3, ranks 13 to 16 by batch 4, and ranks 17 to 21 by batch 5 (2026-10-30).
 
+**Re-tested 2026-11-01 (rolling batch): every robots.txt refusal still
+stands.** Each refusing site's robots.txt was read again as the crawler. Where
+a site refuses to serve it, the refusal comes from the site's own front end
+(Cloudflare, CloudFront, Akamai or Azure), not this project's network. Two
+changed, neither enough to fetch:
+
+- **The NSW lobbyist register (rank 9)** now begins with a hosting service's
+  "Allow: /", but the site's own "Disallow: /" for every crawler is still
+  there below it, so it stays refused (RG-070's hunt log).
+- **Tenders WA (rank 13)** now serves its robots.txt, which allows only the
+  home page; the contract search stays refused (RG-093's hunt log).
+
+The eight refusals that came from the page itself (a 403, a 429 or a
+bot-check page: OpenAI, CSC, Australian Retirement Trust, UniSuper, three state
+tender portals and the keynote video) were not asked for again.
+
 | Rank | Document | Where | Save to | Questions | Unlocks |
 | --- | --- | --- | --- | --- | --- |
 | 1 | AustralianSuper portfolio holdings disclosure, 30 June 2026: the MySuper Balanced option, and the option that holds most | australiansuper.com, investments, portfolio holdings | `data/raw/superannuation/australiansuper/` | RG-004 | What Australia's largest fund holds in NEXTDC and other data centre companies, beyond the 8.49% NEXTDC's report shows |

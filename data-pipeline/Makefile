@@ -49,9 +49,9 @@ CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-austender check-archiver check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
-all: check-packs check-austender check-patents build verify load check-filings docs
+all: check-packs check-austender check-archiver check-patents build verify load check-filings docs
 
 check-packs:
 	$(PY) scripts/check_packs.py
@@ -61,6 +61,11 @@ check-packs:
 # parser handles the shapes it was written for, NOT that those shapes match AusTender.
 check-austender:
 	$(PY) scrapers/ingest_austender.py --selftest
+
+# Offline fixture tests for the robots.txt reader every archive and register fetch goes through,
+# including a file with two groups for every crawler that disagree, which robotparser reads as yes.
+check-archiver:
+	$(PY) scrapers/archive_pages.py --selftest
 
 # Planted-topic recovery test for the LDA sampler in scripts/analyse_patents.py. Real ground
 # truth, and it fails if the sampler is broken - verified by mutation. See reports/PATENT_METHOD.md.

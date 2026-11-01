@@ -24,6 +24,7 @@ super funds' disclosures under data/raw/superannuation/).
 Usage:
     python3 scrapers/archive_pages.py [--raw-dir DIR] GROUP URL [URL ...]
     python3 scrapers/archive_pages.py nextdc https://www.nextdc.com/data-centres/sydney-data-centres/s1-sydney
+    python3 scrapers/archive_pages.py --selftest    # offline tests of the robots.txt reader
 """
 from __future__ import annotations
 
@@ -89,11 +90,84 @@ def refuse(out: str, url: str, how: str) -> None:
     print(f"refused ({how}): {url}", file=sys.stderr)
 
 
-def robots_for(host: str) -> urllib.robotparser.RobotFileParser:
+def robots_groups(lines: list[str]) -> list[tuple[list[str], list[str]]]:
+    """A robots.txt's groups as (user-agents, rule lines), grouped as RFC 9309 groups them: a
+    user-agent line after a rule starts a new group, and blank lines and comments do not count."""
+    groups: list[tuple[list[str], list[str]]] = []
+    agents: list[str] = []
+    rules: list[str] = []
+    for raw in lines:
+        key, sep, value = raw.split("#", 1)[0].strip().partition(":")
+        key = key.strip().lower()
+        if not sep:
+            continue
+        if key == "user-agent":
+            if rules:
+                groups.append((agents, rules))
+                agents, rules = [], []
+            agents.append(value.strip())
+        elif agents and key in ("allow", "disallow", "crawl-delay", "request-rate"):
+            rules.append(f"{key}: {value.strip()}")
+    if agents and rules:
+        groups.append((agents, rules))
+    return groups
+
+
+class Robots(urllib.robotparser.RobotFileParser):
+    """A robots.txt reader that does not read a no as a yes. A file can give every crawler
+    ("User-agent: *") more than one group: the NSW lobbyist register's (2026-11-01) opens with a block
+    its hosting service added, "Allow: /", and still ends with the site's own "Disallow: /". Older
+    robotparsers obey only the first such group; newer ones merge them, as RFC 9309 says, and settle
+    the tie between "Allow: /" and "Disallow: /" as allow. Either way the file reads as yes. Here each
+    group for every crawler is also read alone, and a URL is fetched only if robotparser and every one
+    of those groups allow it, unless a group names this crawler, which robotparser then obeys."""
+
+    def parse(self, lines) -> None:
+        lines = list(lines)
+        super().parse(lines)
+        groups = robots_groups(lines)
+        self.named = [a.lower() for agents, _ in groups for a in agents if a and a != "*"]
+        self.star: list[urllib.robotparser.RobotFileParser] = []
+        for agents, rules in groups:
+            if "*" in agents:
+                rp = urllib.robotparser.RobotFileParser()
+                rp.parse(["User-agent: *", *rules])
+                self.star.append(rp)
+
+    def _star(self, useragent: str) -> list[urllib.robotparser.RobotFileParser]:
+        """The groups for every crawler, each read alone; none if a group names this crawler."""
+        token = useragent.split("/")[0].lower()
+        if any(agent in token for agent in getattr(self, "named", [])):
+            return []
+        return getattr(self, "star", [])
+
+    def can_fetch(self, useragent: str, url: str) -> bool:
+        return super().can_fetch(useragent, url) and all(rp.can_fetch(useragent, url)
+                                                         for rp in self._star(useragent))
+
+    def crawl_delay(self, useragent: str):
+        """The longest crawl-delay robotparser or any of those groups asks this crawler for."""
+        delays = [d for d in (super().crawl_delay(useragent),
+                              *(rp.crawl_delay(useragent) for rp in self._star(useragent)))
+                  if d is not None]
+        return max(delays) if delays else None
+
+    def refusal(self, useragent: str, url: str) -> str | None:
+        """Why this crawler may not fetch url, as refused.json records it, or None if it may."""
+        if self.can_fetch(useragent, url):
+            return None
+        if self.disallow_all:
+            return "robots.txt could not be read (refused), read as disallow-all"
+        if super().can_fetch(useragent, url):
+            return "disallowed by robots.txt (one of its groups for every crawler)"
+        return "disallowed by robots.txt"
+
+
+def robots_for(host: str) -> Robots:
     """The host's robots.txt, read as this crawler. RobotFileParser.read() would ask with Python's own
     User-Agent, which some sites refuse while serving this one. As robotparser does, a robots.txt
     refused with 401 or 403 means disallow everything, and one that is missing means allow."""
-    rp = urllib.robotparser.RobotFileParser(host + "/robots.txt")
+    rp = Robots(host + "/robots.txt")
     try:
         body, _ = get(host + "/robots.txt")
         rp.parse(body.decode("utf-8", errors="replace").splitlines())
@@ -105,7 +179,87 @@ def robots_for(host: str) -> urllib.robotparser.RobotFileParser:
     return rp
 
 
+# The NSW lobbyist register's robots.txt as read on 2026-11-01, cut down: the hosting service's block
+# first, a crawler named and refused, then the site's own rule, indented as it is served.
+LOBBYISTS_ROBOTS = """# BEGIN Cloudflare Managed content
+User-agent: *
+Content-Signal: search=yes,ai-train=no,use=reference
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /
+# END Cloudflare Managed Content
+
+    User-agent: *
+    Disallow: /
+"""
+
+
+def do_selftest() -> int:
+    """Offline fixture tests for the robots.txt reader. They prove it reads the shapes written here,
+    not that any site's file has kept its shape."""
+    failures = 0
+
+    def check(name: str, got: object, want: object) -> None:
+        nonlocal failures
+        if got == want:
+            print(f"[pass] {name}")
+        else:
+            failures += 1
+            print(f"[FAIL] {name}\n       got  {got!r}\n       want {want!r}")
+
+    def robots(text: str) -> Robots:
+        rp = Robots()
+        rp.parse(text.splitlines())
+        return rp
+
+    page = "https://example.org/whoisontheregister"
+    plain = urllib.robotparser.RobotFileParser()
+    plain.parse(LOBBYISTS_ROBOTS.splitlines())
+    check("robotparser alone reads the lobbyist file as allowed (why Robots exists)",
+          plain.can_fetch(UA, page), True)
+    check("a later 'Disallow: /' for every crawler refuses", robots(LOBBYISTS_ROBOTS).can_fetch(UA, page), False)
+    check("and says which group refused", robots(LOBBYISTS_ROBOTS).refusal(UA, page),
+          "disallowed by robots.txt (one of its groups for every crawler)")
+    check("an earlier 'Disallow: /' refuses too (newer robotparsers merge the two and allow)",
+          robots("User-agent: *\nDisallow: /\n\nUser-agent: *\nAllow: /\n").can_fetch(UA, page), False)
+    check("one group that allows everything allows", robots("User-agent: *\nAllow: /\n").refusal(UA, page), None)
+    check("one group that refuses everything refuses", robots("User-agent: *\nDisallow: /\n").refusal(UA, page),
+          "disallowed by robots.txt")
+    named = "User-agent: ADCO-research\nAllow: /\n\nUser-agent: *\nDisallow: /\n\nUser-agent: *\nDisallow: /\n"
+    check("a group naming this crawler is obeyed alone", robots(named).can_fetch(UA, page), True)
+    other = "User-agent: SomeoneElse\nAllow: /\n\nUser-agent: *\nAllow: /\n\nUser-agent: *\nDisallow: /\n"
+    check("a group naming another crawler changes nothing for this one", robots(other).can_fetch(UA, page), False)
+    two = "User-agent: *\nDisallow: /private\n\nUser-agent: *\nDisallow: /tmp\n"
+    check("each group's own paths are refused: the first",
+          robots(two).can_fetch(UA, "https://example.org/private/a"), False)
+    check("each group's own paths are refused: the second",
+          robots(two).can_fetch(UA, "https://example.org/tmp/a"), False)
+    check("a path neither group refuses is allowed", robots(two).can_fetch(UA, "https://example.org/public"), True)
+    for name, slow in (("first", "User-agent: *\nCrawl-delay: 10\nAllow: /\n\nUser-agent: *\nCrawl-delay: 2\nDisallow: /tmp\n"),
+                       ("last", "User-agent: *\nCrawl-delay: 2\nAllow: /\n\nUser-agent: *\nCrawl-delay: 10\nDisallow: /tmp\n")):
+        check(f"the longest crawl-delay is kept when it comes {name}", robots(slow).crawl_delay(UA), 10)
+    check("no crawl-delay in any group is none", robots(two).crawl_delay(UA), None)
+    check("blank lines do not end a group",
+          robots_groups("User-agent: *\n\nDisallow: /x\n".splitlines()), [(["*"], ["disallow: /x"])])
+    check("a group naming '*' among other agents counts",
+          robots("User-agent: Foo\nUser-agent: *\nAllow: /\n\nUser-agent: *\nDisallow: /\n").can_fetch(UA, page),
+          False)
+    refused = Robots()
+    refused.disallow_all = True
+    check("a robots.txt the site refused reads as disallow-all", refused.refusal(UA, page),
+          "robots.txt could not be read (refused), read as disallow-all")
+    missing = Robots()
+    missing.allow_all = True
+    check("a missing robots.txt allows", missing.refusal(UA, page), None)
+
+    print(f"\n{'FAILED' if failures else 'ok'}: {failures} failure(s)")
+    return 1 if failures else 0
+
+
 def main(argv: list[str]) -> int:
+    if argv[:1] == ["--selftest"]:
+        return do_selftest()
     raw_dir = "operators"
     if argv[:1] == ["--raw-dir"] and len(argv) > 1:
         raw_dir, argv = argv[1], argv[2:]
@@ -115,7 +269,7 @@ def main(argv: list[str]) -> int:
     group, urls = argv[0], argv[1:]
     out = os.path.join(os.path.dirname(OUT), raw_dir, group)
     os.makedirs(out, exist_ok=True)
-    robots: dict[str, urllib.robotparser.RobotFileParser] = {}
+    robots: dict[str, Robots] = {}
     for url in urls:
         base = os.path.join(out, name_for(url))
         if os.path.exists(base + ".txt") or os.path.exists(base + ".csv"):
@@ -124,10 +278,9 @@ def main(argv: list[str]) -> int:
         host = "{0.scheme}://{0.netloc}".format(urllib.parse.urlparse(url))
         if host not in robots:
             robots[host] = robots_for(host)
-        if not robots[host].can_fetch(UA, url):
-            # robotparser reads a robots.txt it was refused (401 or 403) as "disallow everything".
-            refuse(out, url, "robots.txt could not be read (refused), read as disallow-all"
-                   if robots[host].disallow_all else "disallowed by robots.txt")
+        why = robots[host].refusal(UA, url)
+        if why:
+            refuse(out, url, why)
             continue
         time.sleep(DELAY)
         try:

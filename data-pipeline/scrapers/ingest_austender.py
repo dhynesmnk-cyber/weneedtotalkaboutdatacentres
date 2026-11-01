@@ -161,7 +161,10 @@ def notice_id(url: str) -> str:
 
 
 def robots() -> urllib.robotparser.RobotFileParser | None:
-    rp = urllib.robotparser.RobotFileParser()
+    # The archiver's reader, a sibling script imported only here: it refuses a URL that any group
+    # for every crawler refuses, where robotparser may read a file with two such groups as yes.
+    from archive_pages import Robots
+    rp = Robots()
     rp.set_url(f"{BASE}/robots.txt")
     try:
         rp.read()
