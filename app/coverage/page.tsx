@@ -36,8 +36,9 @@ export default async function CoveragePage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">What&rsquo;s known</h1>
-        <p className="mt-2 max-w-2xl text-slate-700">
+        <p className="kicker text-fact-ink">The record</p>
+        <h1 className="page-title mt-2">What&rsquo;s known</h1>
+        <p className="standfirst mt-3">
           For every field the observatory records about a site: how many sites
           hold a sourced value, how many carry a gap and why, and how many have
           neither. A blank with no stated reason is a defect in the record and
@@ -105,7 +106,7 @@ export default async function CoveragePage() {
                   <td
                     data-unexplained={row.unexplained > 0 ? '' : undefined}
                     className={`py-2 text-right tabular-nums ${
-                      row.unexplained > 0 ? 'font-semibold text-red-800' : 'text-slate-600'
+                      row.unexplained > 0 ? 'font-semibold text-defect-ink' : 'text-slate-600'
                     }`}
                   >
                     {row.unexplained}
@@ -120,12 +121,12 @@ export default async function CoveragePage() {
       <p className="text-sm text-slate-700">
         Each site&rsquo;s record page shows its values with their sources. Browse
         the sites in{' '}
-        <Link href="/list" className="text-fact-ink underline underline-offset-2">
+        <Link href="/list" className="link">
           the full index
         </Link>
         . The lines of enquiry still open, and how each is to be answered, are
         listed under{' '}
-        <Link href="/research" className="text-fact-ink underline underline-offset-2">
+        <Link href="/research" className="link">
           Open questions
         </Link>
         .

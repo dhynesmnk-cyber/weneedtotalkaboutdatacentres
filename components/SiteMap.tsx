@@ -54,7 +54,7 @@ export function SiteMap({
       center={AUSTRALIA_CENTRE}
       zoom={DEFAULT_ZOOM}
       scrollWheelZoom={false}
-      className="h-[28rem] w-full rounded-lg border border-fact-edge"
+      className="h-[60vh] max-h-[40rem] min-h-80 w-full rounded-lg border border-fact-edge"
     >
       <TileLayer attribution={tiles.attribution} url={tiles.url} />
 
@@ -65,8 +65,9 @@ export function SiteMap({
             center={[site.lat, site.lng]}
             radius={7}
             pathOptions={{
-              color: '#24405e',
-              fillColor: '#24405e',
+              // Colour comes from the fact-ink token via the .map-point rule in
+              // app/globals.css, so markers follow the reader's colour scheme.
+              className: 'map-point',
               fillOpacity: 0.7,
               weight: 2,
             }}

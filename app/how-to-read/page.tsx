@@ -26,7 +26,7 @@ export default function HowToReadPage() {
   return (
     <div className="max-w-3xl space-y-12">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">How to read this site</h1>
+        <h1 className="page-title">How to read this site</h1>
         <p className="mt-2 text-slate-700">
           The observatory keeps two things apart: a public record of Australian data
           centre sites, and analysis of what that record shows. This page explains how
@@ -45,11 +45,11 @@ export default function HowToReadPage() {
             operator, capacity, council, and so on. Every fact links to the source it came
             from, and anything not found is marked as a gap, never estimated. You will find
             it on the{' '}
-            <Link href="/list" className="text-fact-ink underline underline-offset-2">
+            <Link href="/list" className="link">
               site index
             </Link>
             , the{' '}
-            <Link href="/map" className="text-fact-ink underline underline-offset-2">
+            <Link href="/map" className="link">
               map
             </Link>{' '}
             and each site&rsquo;s own page.
@@ -94,7 +94,7 @@ export default function HowToReadPage() {
           rest only on a claim from the{' '}
           <Link
             href="/list?evidence=claimed"
-            className="text-fact-ink underline underline-offset-2"
+            className="link"
           >
             site index
           </Link>
@@ -131,11 +131,11 @@ export default function HowToReadPage() {
           </div>
         </dl>
         <p className="text-sm text-slate-700">
-          <Link href="/coverage" className="text-fact-ink underline underline-offset-2">
+          <Link href="/coverage" className="link">
             What&rsquo;s known
           </Link>{' '}
           counts every value and every gap, field by field.{' '}
-          <Link href="/research" className="text-fact-ink underline underline-offset-2">
+          <Link href="/research" className="link">
             Open questions
           </Link>{' '}
           lists what the research has not yet established, and how each question

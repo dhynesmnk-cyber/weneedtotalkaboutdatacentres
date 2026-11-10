@@ -349,16 +349,28 @@ async function main(): Promise<void> {
   });
 
   try {
-    for (const width of [1280, 390]) {
-      console.log(`\nViewport ${width}px`);
-      const context = await browser.newContext({ viewport: { width, height: 900 } });
+    // Both colour schemes: every page is checked for contrast in dark mode as
+    // well as light, because the tokens give each its own palette.
+    const runs = [
+      { width: 1280, scheme: 'light' },
+      { width: 390, scheme: 'light' },
+      { width: 1280, scheme: 'dark' },
+      { width: 390, scheme: 'dark' },
+    ] as const;
+    for (const { width, scheme } of runs) {
+      console.log(`\nViewport ${width}px, ${scheme}`);
+      const context = await browser.newContext({
+        viewport: { width, height: 900 },
+        colorScheme: scheme,
+      });
       trackRequests(context);
       // Map tiles are a third-party service with a usage policy, and they are
       // not what is under test. Refusing them keeps CI off OpenStreetMap.
       await context.route('**/tile.openstreetmap.org/**', (route) => route.abort());
       const page = await context.newPage();
       if (width === 1280) {
-        await timelineTracks(page);
+        if (scheme === 'light') await timelineTracks(page);
+        // The popup is styled separately from the page; check it in both schemes.
         await mapPopup(page);
       }
       for (const check of await checks()) {
@@ -366,7 +378,7 @@ async function main(): Promise<void> {
         if (process.env.SCREENSHOT_DIR && check.status === 200) {
           const name = check.path.replace(/\//g, '_') || '_';
           await page.screenshot({
-            path: `${process.env.SCREENSHOT_DIR}/${width}${name}.png`,
+            path: `${process.env.SCREENSHOT_DIR}/${width}-${scheme}${name}.png`,
             fullPage: true,
           });
         }

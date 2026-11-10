@@ -2,18 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Colour variables for both schemes are emitted by the plugin in
+ * tailwind.config.ts from lib/design/tokens.ts. Nothing here hard-codes a
+ * colour: every value goes through a token so dark mode cannot drift.
+ */
+
 @layer base {
   :root {
-    color-scheme: light;
+    color-scheme: light dark;
   }
 
   body {
-    @apply bg-white text-slate-900 antialiased;
+    @apply bg-white font-sans text-slate-900 antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+
+  /* Figures line up in tables and stat tiles. */
+  table,
+  .tabular {
+    font-variant-numeric: tabular-nums;
   }
 
   /* Visible focus everywhere. The timeline and list are keyboard-first. */
   :focus-visible {
-    @apply outline-none ring-2 ring-offset-2 ring-fact-ink;
+    @apply outline-none ring-2 ring-fact-ink ring-offset-2 ring-offset-white;
+  }
+
+  /* Form controls take the fact colour and a boundary that clears 3:1. */
+  input[type='checkbox'],
+  input[type='radio'] {
+    accent-color: rgb(var(--fact-ink));
+  }
+}
+
+@layer components {
+  /* The link style used across the record. */
+  .link {
+    @apply text-fact-ink underline decoration-fact-edge decoration-1 underline-offset-2
+           hover:decoration-fact-ink hover:decoration-2;
+  }
+
+  /* Page titles: the editorial serif, sized to the viewport. */
+  .page-title {
+    @apply font-serif text-title font-semibold text-slate-900;
+    font-optical-sizing: auto;
+  }
+
+  /* A small label above a title naming the layer the page belongs to. */
+  .kicker {
+    @apply text-xs font-semibold uppercase tracking-[0.14em];
+  }
+
+  .standfirst {
+    @apply max-w-2xl text-standfirst text-slate-700;
+  }
+
+  /* A section heading on the record pages: compact, in the interface face. */
+  .section-heading {
+    @apply text-lg font-semibold text-slate-900;
+  }
+
+  /* Hairline rule, the magazine's divider. */
+  .rule {
+    @apply border-t border-slate-200;
   }
 }
 
@@ -25,6 +77,27 @@
   }
 }
 
+/*
+ * Leaflet styles its popups white with dark text. In dark mode the popup must
+ * follow the page, or the record inside it is unreadable. Scoped under the
+ * container so it outranks leaflet.css, which loads after this file.
+ */
+.leaflet-container .leaflet-popup-content-wrapper,
+.leaflet-container .leaflet-popup-tip {
+  background: rgb(var(--surface));
+  color: rgb(var(--slate-900));
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  color: rgb(var(--slate-600));
+}
+
+/* Map points take the fact colour from the token, in either scheme. */
+.map-point {
+  stroke: rgb(var(--fact-ink));
+  fill: rgb(var(--fact-ink));
+}
+
 /* docs/UI.md: respect reduced motion preferences. */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -34,5 +107,26 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* Print: the record and the essays, without the site's chrome. */
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  header[data-site-header],
+  footer[data-site-footer],
+  nav,
+  .skip-link,
+  [data-print-hidden] {
+    display: none !important;
+  }
+
+  a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    word-break: break-all;
   }
 }

@@ -48,7 +48,8 @@ export default async function EssayPage({ params }: { params: { id: string } }) 
   return (
     <article className="space-y-6">
       <header>
-        <h1 className="text-2xl font-bold text-slate-900">{essay.title}</h1>
+        <p className="kicker text-editorial-ink">Analysis</p>
+        <h1 className="page-title mt-2">{essay.title}</h1>
         <DateStamp publishDate={essay.publish_date} className="mt-2" />
       </header>
 

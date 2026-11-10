@@ -6,6 +6,7 @@ import { NotConnected, NothingRecorded } from '@/components/NotConnected';
 import { StatTile } from '@/components/StatTile';
 import { StatusBreakdown } from '@/components/StatusBreakdown';
 import { DateStamp } from '@/components/DateStamp';
+import { EventItem } from '@/components/EventItem';
 import { EvidenceBadge } from '@/components/EvidenceBadge';
 import { groupEventsByYear, listEvents } from '@/lib/events';
 import { listSites } from '@/lib/sites';
@@ -15,7 +16,7 @@ import { lastLoadedAt, siteCoverage, statusCounts } from '@/lib/coverage';
 import { evidenceCounts, largestCapacity, topCouncil } from '@/lib/findings';
 import { DEFAULT_QUERY, indexHref } from '@/lib/siteIndex';
 import { isConfigured } from '@/lib/supabase/server';
-import { formatDate, formatEventCategory, formatMw } from '@/lib/format';
+import { formatMw } from '@/lib/format';
 import { EVENT_CATEGORIES, type EventRow } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
@@ -28,7 +29,6 @@ const HEADLINE_FIELDS = [
   { field: 'lat', label: 'Coordinates recorded' },
 ] as const;
 
-const link = 'text-fact-ink underline underline-offset-2';
 
 /**
  * Home: the front door.
@@ -65,10 +65,10 @@ export default async function HomePage({
   return (
     <div className="space-y-14">
       <div>
-        <h1 className="text-3xl font-bold text-slate-900">
+        <h1 className="max-w-4xl font-serif text-display font-semibold text-slate-900">
           Australia&rsquo;s data centres, on the record
         </h1>
-        <p className="mt-3 max-w-2xl text-lg text-slate-700">
+        <p className="standfirst mt-5">
           This observatory tracks proposed and operating data centres in Australia,
           including those built for AI. For each site it records what the public record
           shows, from planning documents, regulators and company statements, and marks
@@ -76,7 +76,7 @@ export default async function HomePage({
           and labelled as such.
         </p>
         <p className="mt-3 text-sm">
-          <Link href="/how-to-read" className={link}>
+          <Link href="/how-to-read" className="link">
             How to read this site
           </Link>
         </p>
@@ -88,7 +88,7 @@ export default async function HomePage({
         </h2>
         <div className="grid gap-4 md:grid-cols-2">
           <div className="rounded-lg border-l-4 border-fact-edge bg-fact-wash p-5">
-            <p className="text-xs font-semibold uppercase tracking-wide text-fact-ink">
+            <p className="kicker text-fact-ink">
               The record
             </p>
             <p className="mt-2 text-slate-800">
@@ -96,19 +96,19 @@ export default async function HomePage({
               fact links to its source, and every gap says why it is a gap.
             </p>
             <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
-              <Link href="/list" className={link}>
+              <Link href="/list" className="link">
                 Browse the sites
               </Link>
-              <Link href="/map" className={link}>
+              <Link href="/map" className="link">
                 See the map
               </Link>
-              <Link href="/coverage" className={link}>
+              <Link href="/coverage" className="link">
                 What&rsquo;s known
               </Link>
             </p>
           </div>
           <div className="rounded-lg border-l-4 border-editorial-edge bg-editorial-wash p-5">
-            <p className="text-xs font-semibold uppercase tracking-wide text-editorial-ink">
+            <p className="kicker text-editorial-ink">
               The analysis
             </p>
             <p className="mt-2 text-slate-800">
@@ -132,7 +132,7 @@ export default async function HomePage({
         <>
           <section aria-labelledby="findings-heading" className="space-y-4">
             <div>
-              <h2 id="findings-heading" className="text-xl font-bold text-slate-900">
+              <h2 id="findings-heading" className="font-serif text-2xl font-semibold text-slate-900">
                 From the record
               </h2>
               <DateStamp dataAsOfDate={loadedAt} className="mt-1" />
@@ -140,7 +140,7 @@ export default async function HomePage({
             <ul className="space-y-3">
               {largest && (
                 <Finding>
-                  <Link href={`/sites/${largest.site.id}`} className={link}>
+                  <Link href={`/sites/${largest.site.id}`} className="link">
                     {largest.site.name}
                   </Link>{' '}
                   has the largest total capacity on the record: {formatMw(largest.mw)}. Only{' '}
@@ -151,7 +151,7 @@ export default async function HomePage({
                 <Finding>
                   <Link
                     href={indexHref({ ...DEFAULT_QUERY, council: council.council })}
-                    className={link}
+                    className="link"
                   >
                     {council.council}
                   </Link>{' '}
@@ -162,7 +162,7 @@ export default async function HomePage({
                 <Finding>
                   <Link
                     href={indexHref({ ...DEFAULT_QUERY, evidence: 'claimed' })}
-                    className={link}
+                    className="link"
                   >
                     {evidence.get('claimed')} sites
                   </Link>{' '}
@@ -177,7 +177,7 @@ export default async function HomePage({
                 <Finding>
                   <Link
                     href={indexHref({ ...DEFAULT_QUERY, evidence: 'verified' })}
-                    className={link}
+                    className="link"
                   >
                     {evidence.get('verified')} sites
                   </Link>{' '}
@@ -193,7 +193,7 @@ export default async function HomePage({
 
           <section aria-labelledby="summary-heading" className="space-y-6">
             <div>
-              <h2 id="summary-heading" className="text-xl font-bold text-slate-900">
+              <h2 id="summary-heading" className="font-serif text-2xl font-semibold text-slate-900">
                 How complete the record is
               </h2>
               <p className="mt-1 max-w-2xl text-sm text-slate-700">
@@ -213,7 +213,7 @@ export default async function HomePage({
               ))}
             </div>
             <p className="text-sm">
-              <Link href="/coverage" className={link}>
+              <Link href="/coverage" className="link">
                 What is known for every field
               </Link>
             </p>
@@ -233,7 +233,7 @@ export default async function HomePage({
 
           <section aria-labelledby="timeline-heading" className="space-y-6">
             <div>
-              <h2 id="timeline-heading" className="text-xl font-bold text-slate-900">
+              <h2 id="timeline-heading" className="font-serif text-2xl font-semibold text-slate-900">
                 Timeline
               </h2>
               <p className="mt-2 max-w-2xl text-slate-700">
@@ -261,12 +261,18 @@ export default async function HomePage({
                   <ol className="space-y-10">
                     {byYear.map(({ year, events: yearEvents }) => (
                       <li key={year}>
-                        <h3 className="sticky top-0 bg-white py-2 text-lg font-semibold text-slate-900">
+                        <h3 className="sticky top-0 bg-white py-2 font-serif text-2xl font-semibold text-slate-900">
                           {year}
                         </h3>
                         <ul className="mt-2 space-y-4 border-l-2 border-fact-edge pl-5">
                           {yearEvents.map((event) => (
-                            <TimelineEntry key={event.id} event={event} />
+                            <EventItem
+                              key={event.id}
+                              event={event}
+                              variant="timeline"
+                              titleAs="h4"
+                              showSiteLink
+                            />
                           ))}
                         </ul>
                       </li>
@@ -286,38 +292,6 @@ function Finding({ children }: { children: React.ReactNode }) {
   return (
     <li className="max-w-3xl rounded-lg border-l-4 border-fact-edge bg-fact-wash/40 py-2 pl-4 pr-3 text-slate-800">
       {children}
-    </li>
-  );
-}
-
-function TimelineEntry({ event }: { event: EventRow }) {
-  return (
-    <li className="relative">
-      <span
-        aria-hidden="true"
-        className="absolute -left-[1.6rem] top-2 h-2.5 w-2.5 rounded-full bg-fact-ink"
-      />
-      <div className="flex flex-wrap items-baseline gap-x-3">
-        <span className="rounded border border-fact-edge bg-fact-wash px-2 py-0.5 text-xs font-medium text-fact-ink">
-          {formatEventCategory(event.category)}
-        </span>
-        <time dateTime={event.date} className="text-sm text-slate-600">
-          {formatDate(event.date)}
-        </time>
-      </div>
-
-      <h4 className="mt-1 font-medium text-slate-900">{event.title}</h4>
-      {event.summary && (
-        <p className="mt-1 text-sm text-slate-700">{event.summary}</p>
-      )}
-      {event.site_id && (
-        <Link
-          href={`/sites/${event.site_id}`}
-          className="mt-1 inline-block text-sm text-fact-ink underline underline-offset-2"
-        >
-          Related site
-        </Link>
-      )}
     </li>
   );
 }

@@ -19,8 +19,9 @@ export default async function EssaysPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">Essays</h1>
-        <p className="mt-2 max-w-2xl text-slate-700">
+        <p className="kicker text-editorial-ink">Analysis</p>
+        <h1 className="page-title mt-2">Essays</h1>
+        <p className="standfirst mt-3">
           Video essays and written analysis, newest first. This is the editorial
           layer: interpretation and argument, drawing on the sourced records but
           separate from them.

@@ -79,7 +79,8 @@ export default async function CaseStudyPage({
   return (
     <article className="space-y-8">
       <header>
-        <h1 className="text-2xl font-bold text-slate-900">{study.title}</h1>
+        <p className="kicker text-editorial-ink">Analysis</p>
+        <h1 className="page-title mt-2">{study.title}</h1>
         <DateStamp
           publishDate={study.publish_date}
           dataAsOfDate={study.data_as_of_date}
@@ -89,7 +90,7 @@ export default async function CaseStudyPage({
           <p className="mt-2 text-sm">
             <Link
               href={`/sites/${site.id}`}
-              className="text-fact-ink underline underline-offset-2"
+              className="link"
             >
               {site.name}
             </Link>
@@ -170,7 +171,7 @@ export default async function CaseStudyPage({
         </dl>
 
         {agreement === false && (
-          <p className="mt-3 rounded border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-900">
+          <p className="mt-3 rounded border border-defect-edge bg-defect-wash px-3 py-2 text-sm text-defect-ink">
             The stated development yield does not match the figure calculated
             from capex, revenue and opex. Both are shown above. This is a data
             quality finding and should be resolved against the sources rather
@@ -227,7 +228,7 @@ function DerivedRow({ label, value }: { label: string; value: string | null }) {
       <dt className="w-64 shrink-0 text-sm font-medium text-slate-600">{label}</dt>
       <dd className="font-semibold text-slate-900">
         {value ?? (
-          <span className="text-sm font-normal italic text-slate-500">
+          <span className="text-sm font-normal italic text-slate-600">
             Not calculable from the recorded figures
           </span>
         )}

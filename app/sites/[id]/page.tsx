@@ -11,12 +11,11 @@ import { isConfigured } from '@/lib/supabase/server';
 import { gapsByField, resolveField, type FieldEvidence } from '@/lib/evidence';
 import { GapBadge, UnexplainedBadge } from '@/components/GapBadge';
 import { SourcePanel } from '@/components/SourcePanel';
+import { EventItem } from '@/components/EventItem';
 import { NotConnected } from '@/components/NotConnected';
 import { EvidenceBadge, EVIDENCE_MEANING } from '@/components/EvidenceBadge';
 import { DateStamp } from '@/components/DateStamp';
 import {
-  formatDate,
-  formatEventCategory,
   formatFieldName,
   formatMegalitres,
   formatMw,
@@ -88,13 +87,14 @@ export default async function SitePage({ params }: { params: { id: string } }) {
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">{site.name}</h1>
+        <p className="kicker text-fact-ink">The record</p>
+        <h1 className="page-title mt-2">{site.name}</h1>
         {site.fact_status && (
           <div className="mt-3 flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-3">
             <EvidenceBadge status={site.fact_status} />
             <p className="text-sm text-slate-700">
               {EVIDENCE_MEANING[site.fact_status]}{' '}
-              <Link href="/how-to-read" className="text-fact-ink underline underline-offset-2">
+              <Link href="/how-to-read" className="link">
                 What this means
               </Link>
             </p>
@@ -166,20 +166,7 @@ export default async function SitePage({ params }: { params: { id: string } }) {
         ) : (
           <ul className="mt-3 space-y-3">
             {events.map((event) => (
-              <li key={event.id} className="rounded border border-slate-200 px-4 py-3">
-                <div className="flex flex-wrap items-baseline gap-x-3">
-                  <span className="rounded border border-fact-edge bg-fact-wash px-2 py-0.5 text-xs font-medium text-fact-ink">
-                    {formatEventCategory(event.category)}
-                  </span>
-                  <time dateTime={event.date} className="text-sm text-slate-600">
-                    {formatDate(event.date)}
-                  </time>
-                </div>
-                <p className="mt-1 font-medium">{event.title}</p>
-                {event.summary && (
-                  <p className="mt-1 text-sm text-slate-700">{event.summary}</p>
-                )}
-              </li>
+              <EventItem key={event.id} event={event} />
             ))}
           </ul>
         )}
@@ -200,7 +187,7 @@ export default async function SitePage({ params }: { params: { id: string } }) {
               <li key={entity.id}>
                 <Link
                   href={`/entities/${entity.id}`}
-                  className="rounded border border-fact-edge bg-fact-wash px-3 py-1 text-sm text-fact-ink underline underline-offset-2"
+                  className="rounded border border-fact-edge bg-fact-wash px-3 py-1 text-sm link"
                 >
                   {entity.name}
                 </Link>

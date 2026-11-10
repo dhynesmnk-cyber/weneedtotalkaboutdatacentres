@@ -58,9 +58,55 @@
 - MapPointPopup
 
 ## Navigation
-Overview, Essays, Map, Sites and entities, What's known, Open questions:
-SPEC.md's entry-point order, then what the record does and does not yet hold. The current section is marked with
-`aria-current`.
+Two labelled groups, so the separation of the layers shows in the navigation
+as well as on the page:
+
+- **The record**: Map, Sites and entities, What's known, Open questions.
+- **Analysis**: Essays. "What if…?" joins this group when its pages exist.
+
+The masthead links to the overview, which introduces both. The current section
+is marked with `aria-current` ("page" on the section's own page, "location" on
+a record beneath it). The groups and the matching rules are in `lib/nav.ts`.
+
+Below the `md` breakpoint the links fold behind a Menu button with 44px touch
+targets. They fold only once the page is interactive, so without JavaScript
+every link is still shown.
+
+## Masthead
+"We need to talk about data centres", with the strapline "An observatory of
+Australian AI data centres". The name is the publication's; record pages keep
+their neutral labels beneath it, and every page title carries a kicker naming
+its layer ("The record" or "Analysis") in that layer's colour.
+
+## Design tokens
+Every colour is a token in `lib/design/tokens.ts`, emitted as CSS variables by
+the Tailwind plugin in `tailwind.config.ts`. One class serves both colour
+schemes: `white` and `slate` are remapped to variables too, so dark mode
+follows the reader's system preference across every page. Print always uses
+the light palette.
+
+- Layers: `fact`, `editorial`, `gap` and `defect` (a data quality defect, such
+  as a blank with no gap record), each with `wash`, `edge` and `ink`.
+- Timeline tracks: one colour-blind-safe hue per event category (Okabe-Ito,
+  adjusted for contrast). A chip always names its track in words too.
+- `tests/tokens.test.ts` asserts WCAG 2.2 AA contrast for every pairing the
+  site uses, in both schemes. `slate-500` is a border colour only; it is too
+  faint for text on a panel.
+
+Type:
+
+- Newsreader (serif, optical sizes): the masthead, page titles and essays.
+- Inter: interface text, tables and figures, with tabular numerals in tables.
+- IBM Plex Mono: record and source ids.
+
+All three are self-hosted from the `@fontsource` packages through
+`next/font/local`, so no page asks a font service for anything.
+
+Shared pieces: `PageHeader` (kicker, title, standfirst), `EventItem` (one
+event, the same on the timeline and on record pages), the `.link`,
+`.page-title`, `.kicker` and `.standfirst` classes in `app/globals.css`, and
+`LoadingRecords`, used only on routes that never answer 404, because a loading
+boundary starts the response with status 200.
 
 ## Gap presentation
 A gap badge always states why a value is missing, never just that it is. The four

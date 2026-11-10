@@ -12,17 +12,24 @@ import type { CitationWithSource } from '@/lib/types';
 export function SourcePanel({
   citations,
   title = 'Sources',
+  id = 'sources',
 }: {
   citations: CitationWithSource[];
   title?: string;
+  /**
+   * Anchor for the panel. Each entry is `${id}-${n}`, which is what an inline
+   * citation in an essay links to. Two panels on one page need distinct ids.
+   */
+  id?: string;
 }) {
   return (
     <section
-      aria-labelledby="source-panel-heading"
-      className="rounded-lg border border-fact-edge bg-fact-wash p-4"
+      id={id}
+      aria-labelledby={`${id}-heading`}
+      className="scroll-mt-6 rounded-lg border border-fact-edge bg-fact-wash p-4"
     >
       <h2
-        id="source-panel-heading"
+        id={`${id}-heading`}
         className="text-sm font-semibold uppercase tracking-wide text-fact-ink"
       >
         {title}
@@ -36,7 +43,11 @@ export function SourcePanel({
       ) : (
         <ol className="mt-3 space-y-3">
           {citations.map((citation, index) => (
-            <li key={citation.id} className="text-sm">
+            <li
+              key={citation.id}
+              id={`${id}-${index + 1}`}
+              className="scroll-mt-6 rounded text-sm target:bg-white target:ring-2 target:ring-fact-ink"
+            >
               <span className="mr-1 font-mono text-xs text-slate-600">
                 [{index + 1}]
               </span>
@@ -55,7 +66,7 @@ export function SourceLine({ citation }: { citation: CitationWithSource }) {
 
   if (!source) {
     return (
-      <span className="text-red-800">
+      <span className="text-defect-ink">
         Citation points at a source record that could not be loaded.
       </span>
     );
@@ -69,11 +80,12 @@ export function SourceLine({ citation }: { citation: CitationWithSource }) {
       {source.url ? (
         <a
           href={source.url}
-          className="font-medium text-fact-ink underline underline-offset-2"
+          className="font-medium link"
           rel="noopener noreferrer"
           target="_blank"
         >
           {source.title}
+          <span className="sr-only"> (opens in a new tab)</span>
         </a>
       ) : (
         <span className="font-medium">{source.title}</span>

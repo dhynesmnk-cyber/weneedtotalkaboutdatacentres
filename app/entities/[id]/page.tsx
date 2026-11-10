@@ -6,10 +6,9 @@ import { getEntity, linkedRecordsForEntity } from '@/lib/entities';
 import { citationsFor } from '@/lib/evidence';
 import { isConfigured } from '@/lib/supabase/server';
 import { SourcePanel } from '@/components/SourcePanel';
+import { EventItem } from '@/components/EventItem';
 import { NotConnected } from '@/components/NotConnected';
 import {
-  formatDate,
-  formatEventCategory,
   formatMw,
   formatSiteStatus,
 } from '@/lib/format';
@@ -58,7 +57,8 @@ export default async function EntityPage({ params }: { params: { id: string } })
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">{entity.name}</h1>
+        <p className="kicker text-fact-ink">The record</p>
+        <h1 className="page-title mt-2">{entity.name}</h1>
         <p className="mt-2 text-slate-700">
           {[entity.type, entity.role].filter(Boolean).join(' · ') ||
             'No type or role recorded'}
@@ -90,7 +90,7 @@ export default async function EntityPage({ params }: { params: { id: string } })
               <li key={site.id} className="px-4 py-3">
                 <Link
                   href={`/sites/${site.id}`}
-                  className="font-medium text-fact-ink underline underline-offset-2"
+                  className="font-medium link"
                 >
                   {site.name}
                 </Link>
@@ -114,17 +114,7 @@ export default async function EntityPage({ params }: { params: { id: string } })
         ) : (
           <ul className="mt-3 space-y-3">
             {events.map((event) => (
-              <li key={event.id} className="rounded border border-slate-200 px-4 py-3">
-                <div className="flex flex-wrap items-baseline gap-x-3">
-                  <span className="rounded border border-fact-edge bg-fact-wash px-2 py-0.5 text-xs font-medium text-fact-ink">
-                    {formatEventCategory(event.category)}
-                  </span>
-                  <time dateTime={event.date} className="text-sm text-slate-600">
-                    {formatDate(event.date)}
-                  </time>
-                </div>
-                <p className="mt-1 font-medium">{event.title}</p>
-              </li>
+              <EventItem key={event.id} event={event} showSummary={false} />
             ))}
           </ul>
         )}

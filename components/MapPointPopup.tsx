@@ -45,7 +45,7 @@ export function MapPointPopup({
           outranks a single utility class and turned this link Leaflet blue. */}
       <Link
         href={`/sites/${site.id}`}
-        className="mt-3 inline-block font-medium !text-fact-ink underline underline-offset-2"
+        className="mt-3 inline-block font-medium link !text-fact-ink"
       >
         Full site record
       </Link>
