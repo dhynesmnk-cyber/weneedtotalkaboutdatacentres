@@ -12,9 +12,32 @@ procedure for rebuilding the project, or standing up a second one.
 
 ## Status
 
-The project exists, all thirteen migrations are applied, and the research is
+The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
+
+Release 1 applied on 2026-11-11 from `claude/bold-goldberg-0ek4ml@f168531`,
+over the Management API from a Claude Code session (port 5432 is still
+unreachable from sessions). In order:
+
+1. The research reload. The artefact carried 284 sources, 142 entities, 93
+   sites, 88 research questions, 602 citations, 1,552 data gaps and 59 proposed
+   links. The database now holds 608 citations: six from the 21 October load
+   are no longer produced by the pipeline, and the loader never deletes. They
+   are listed for review, not removed.
+2. Migrations `0014`–`0017`, each in its own transaction together with its row
+   in `supabase_migrations.schema_migrations`, so `db push` sees all
+   seventeen.
+3. The two essay drafts, unapproved: ES-001 with 8 citations, ES-000 with 6.
+
+Checked afterwards:
+- Privileges: only `authenticated` may execute `approve_essay`, and
+  `editorial.editors` is unreadable through the API.
+- As anon: no drafts, no essay citations, insert and approval refused, 93
+  sites readable.
+
+Not done here: inviting the editor, the allow-list row, URL configuration,
+SMTP and `SITE_URL`. These are step 6a.
 
 Reloaded on 2026-10-21 from `main@b7b6c66` (pipeline v2.2.2), with no
 migration needed. The artefact carried 93 sites, 248 sources, 138 entities, 507
