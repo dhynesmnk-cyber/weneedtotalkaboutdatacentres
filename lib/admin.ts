@@ -32,15 +32,19 @@ export async function currentEditor(): Promise<{ email: string } | null> {
   return { email: data.user.email };
 }
 
-/** Send a one-time sign-in link. Says nothing about whether the address may edit. */
-export async function sendSignInLink(email: string): Promise<void> {
+/**
+ * Send a one-time sign-in link back to the host the editor asked from, so a
+ * deploy preview signs in on the preview. Says nothing about whether the
+ * address may edit.
+ */
+export async function sendSignInLink(email: string, origin: string = siteUrl().origin): Promise<void> {
   if (!isAuthConfigured()) return;
   await editorClient().auth.signInWithOtp({
     email,
     options: {
       // Only an existing user can sign in: nobody can create an account here.
       shouldCreateUser: false,
-      emailRedirectTo: new URL('/admin/auth/callback', siteUrl()).toString(),
+      emailRedirectTo: new URL('/admin/auth/callback', origin).toString(),
     },
   });
 }

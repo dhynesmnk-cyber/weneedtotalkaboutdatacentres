@@ -152,6 +152,7 @@ export function EssayEditor({
         proposal_no: piece.proposal_no,
       }}
       sources={sources}
+      compact
     />
   );
 

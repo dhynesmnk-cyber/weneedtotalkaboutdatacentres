@@ -256,6 +256,35 @@ deliberately refuses to perform on its own:
   a sourced location; geocoding is curation work with a source per point, not
   something an importer may invent.
 
+## 6a. Set up the editor (Release 1)
+
+Migrations 0014 to 0017 add the editor's desk at `/admin`. Apply them with the
+rest (step 2), then:
+
+1. **Reload the research first** (step 6). The essay drafts cite sources added
+   after the 21 October load, and the citation trigger refuses an essay citing
+   a source the database does not hold.
+2. **Invite yourself** in Authentication → Users → Invite user. Sign-up stays
+   off, so only an invited address can ever sign in.
+3. **Put yourself on the allow-list**, in the SQL editor:
+
+   ```sql
+   insert into editorial.editors (email, added_by)
+   values (lower('you@example.org'), 'set up by hand');
+   ```
+
+   Being signed in is not enough to edit: this row is what the database checks.
+4. **Allow the sign-in link's return address**, in Authentication → URL
+   Configuration: set the Site URL to the production address, and add
+   `https://<production>/admin/auth/callback` and, for deploy previews,
+   `https://*--<site>.netlify.app/admin/auth/callback` to the redirect URLs.
+5. **Set up email.** Supabase's built-in sender is for testing, with a low
+   hourly limit. Add custom SMTP (Authentication → Emails) before relying on it.
+6. **Load the drafts:** `npm run load:essays`, read `.artifacts/load-essays.sql`,
+   and apply it. It loads drafts only, and leaves alone anything you have
+   already edited or approved.
+7. Sign in at `/admin`, read, edit and approve.
+
 ## 7. Set the same variables in Netlify
 
 Site configuration → Environment variables. Set `NEXT_PUBLIC_SUPABASE_URL` and

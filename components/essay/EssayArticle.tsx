@@ -60,11 +60,17 @@ export function EssayArticle({
   piece,
   sources,
   footer,
+  compact = false,
 }: {
   piece: ArticlePiece;
   /** The sources the body cites, in any order. */
   sources: readonly SourceRow[];
   footer?: React.ReactNode;
+  /**
+   * One column, no side navigation: for a narrow container such as the
+   * editor's preview pane, where the wide-screen layout would be squeezed.
+   */
+  compact?: boolean;
 }) {
   const body = piece.body ?? '';
   const { index, panel } = citationModel(body, sources);
@@ -109,7 +115,7 @@ export function EssayArticle({
         </div>
       )}
 
-      <div className="mt-10 lg:grid lg:grid-cols-[minmax(0,68ch)_minmax(0,1fr)] lg:gap-16">
+      <div className={compact ? 'mt-10' : 'mt-10 lg:grid lg:grid-cols-[minmax(0,68ch)_minmax(0,1fr)] lg:gap-16'}>
         <div>
           {record.trim() && (
             <div className="essay-body essay-record">
@@ -131,7 +137,7 @@ export function EssayArticle({
           )}
         </div>
 
-        {(recordSections.length > 1 || heading) && (
+        {!compact && (recordSections.length > 1 || heading) && (
           <nav aria-label="In this piece" className="hidden lg:block" data-print-hidden>
             <div className="sticky top-6 border-l border-slate-200 pl-5 text-sm">
               <p className="kicker text-slate-600">In this piece</p>

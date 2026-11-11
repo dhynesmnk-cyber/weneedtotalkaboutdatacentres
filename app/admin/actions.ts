@@ -1,7 +1,10 @@
 'use server';
 
 import { revalidatePath, revalidateTag } from 'next/cache';
+import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
+import { requestOrigin } from '@/lib/origin';
+import { siteUrl } from '@/lib/site';
 import {
   approvePiece,
   createDraft,
@@ -41,7 +44,7 @@ export async function signInAction(_prev: SignInState, form: FormData): Promise<
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return { sent: false, message: 'That does not look like an email address.' };
   }
-  await sendSignInLink(email);
+  await sendSignInLink(email, requestOrigin(headers(), siteUrl().origin));
   // The same reply whatever happened, so the page cannot be used to learn who
   // may edit.
   return { sent: true };

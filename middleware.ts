@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 import { refreshEditorSession } from '@/lib/supabase/editor';
+import { requestOrigin } from '@/lib/origin';
 
 /**
  * The editor's pages: refresh the sign-in session, and send anyone not signed
@@ -20,10 +21,8 @@ export async function middleware(request: NextRequest) {
 
   let result = response;
   if (!open && !email) {
-    const url = request.nextUrl.clone();
-    url.pathname = '/admin/sign-in';
-    url.search = '';
-    result = NextResponse.redirect(url);
+    const origin = requestOrigin(request.headers, request.nextUrl.origin);
+    result = NextResponse.redirect(new URL('/admin/sign-in', origin));
     for (const cookie of response.cookies.getAll()) result.cookies.set(cookie);
   }
 

@@ -1,9 +1,9 @@
 # CLAUDE.md
 
-Project: Australian AI Data Centre Observatory (working title)
+Project: We need to talk about data centres, an observatory of Australian AI data centres
 Purpose: single source of truth for AI coding agents working in this repo.
-Last reviewed: 2026-09-20
-Next review: 2026-10-01
+Last reviewed: 2026-11-11
+Next review: 2026-12-01
 
 ## Project summary
 Public data observatory tracking Australian AI data centres, plus a separate
@@ -32,11 +32,17 @@ versus research data.
   example is `live_capacity_mw`, which is never populated from
   `it_capacity_mw`: one is what is energised, the other a design rating.
 - Keep the fact layer and the editorial layer separate in data and in UI.
-- No agent publishes content. Humans approve publication.
+- No agent publishes content. Humans approve publication. Agents may draft
+  essays in full (editorial/essays/); only the invited editor approves, at
+  /admin, through editorial.approve_essay(), which takes the approver from the
+  signed-in session. No agent holds the editor's session.
+- People appear by public role only, never by name, until legal review is
+  arranged (docs/DELIVERY-PLAN.md, decision 7).
 
 ## Tech stack
 - Frontend: Next.js App Router, TypeScript, Tailwind.
 - Backend and data: Supabase (Postgres, Auth, Storage). Public read via Row Level Security.
+  Auth serves one invited editor at /admin by emailed link; there are no public accounts.
 - Maps: Leaflet, single point layer for v1. Rationale in docs/UI.md.
 - Video: YouTube embeds. Essays stored as records with metadata.
 - Ingestion: scheduled jobs (Supabase Edge Functions or GitHub Actions) for approved sources only.
@@ -49,7 +55,8 @@ versus research data.
 /scripts    ingestion jobs and the pipeline loader
 /data-pipeline  upstream curation tool (Python, SQLite). Not read by the app.
 /docs       specs and process documents
-/editorial  story cards: cited drafts for the essays. Never published by an agent.
+/editorial  story cards and essay drafts (editorial/essays/). Never published by an agent.
+/app/admin the editor's desk: edit, preview, approve. middleware.ts guards it.
 /tests      unit tests (vitest)
 
 ## Conventions

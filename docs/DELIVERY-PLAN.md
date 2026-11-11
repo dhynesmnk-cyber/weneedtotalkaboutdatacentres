@@ -1,7 +1,7 @@
 # DELIVERY-PLAN.md
 
-Status: proposed 2026-11-10, awaiting the author's go-ahead. Nothing in it is
-built yet. It turns the author's answers to ten scoping questions into four
+Status: Release 1 built on `claude/bold-goldberg-0ek4ml` (2026-11-11), awaiting
+the author's setup steps below and approval of the two drafts. It turns the author's answers to ten scoping questions into four
 releases: site polish and a CMS, essays, research on how the industry shapes
 the narrative, and the "What if…?" policy pages.
 
@@ -264,13 +264,21 @@ helpers factored out of `scripts/editorial/story-cards.ts`;
   with no figures.
 
 ### What the author does to ship Release 1
-1. Apply migrations 0014–0017 to the hosted database.
-2. Insert your editor email into `editorial.editors`.
-3. In Supabase Auth, set the redirect URLs (production and deploy previews) and
-   custom SMTP.
-4. Set `EDITOR_EMAIL` and `SITE_URL` on Netlify.
-5. Apply the essay load artefact.
-6. Read, edit and approve in `/admin`.
+
+Built and tested: the redesign, the editor's desk, the essay pages, the checker
+and loader, and two drafts (ES-001 "Six in seven", ES-000 "Where we stand"),
+unapproved. The whole loop (sign-in by emailed link, a non-editor refused,
+edit, approve, publish, retract) was run end to end against a local Supabase
+stack. What remains is yours, in docs/SUPABASE_SETUP.md step 6a:
+
+1. Reload the research pipeline (the drafts cite sources added after 21 October).
+2. Apply migrations 0014 to 0017.
+3. Invite yourself in Supabase Auth and add your address to `editorial.editors`.
+4. Allow the sign-in return address, set up SMTP, and set `SITE_URL` on Netlify.
+   (`EDITOR_EMAIL` from the first draft of this plan is not needed: the
+   database allow-list is the only authority.)
+5. `npm run load:essays`, review the SQL, apply it.
+6. Read, edit and approve at `/admin`.
 
 ---
 

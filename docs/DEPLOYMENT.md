@@ -59,6 +59,17 @@ tile usage policy and are not a production service: choose a provider before
 launch and set both. They are read at request time, so changing provider needs
 no rebuild. The map is only drawn once some site has coordinates.
 
+## The editor's desk
+
+`/admin` is the only signed-in part of the site. Middleware refreshes the
+session and turns away anyone not signed in; every admin page then asks the
+database whether the signed-in person may edit (`editorial.is_editor()`), and
+row level security refuses any write that is not the editor's. Sessions live in
+httpOnly cookies; there is no browser Supabase client and the service role key
+is never used by the app. `SITE_URL` must match a redirect URL allowed in
+Supabase Auth, or sign-in links will not return. Setup: docs/SUPABASE_SETUP.md
+step 6a.
+
 ## Secrets
 - All secrets in Netlify environment variables and Supabase project settings.
 - Never commit keys, tokens or connection strings.

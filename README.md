@@ -20,7 +20,7 @@ database connected" state rather than sample data, because placeholder figures
 in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
-(`ap-southeast-2`), all thirteen migrations are applied, and the research from
+(`ap-southeast-2`), thirteen migrations are applied (0014 to 0017, the editor's desk, are written and await applying; docs/SUPABASE_SETUP.md step 6a), and the research from
 `data-pipeline/` is loaded: 93 sites, 248 sources, 138 entities and 84 published
 research questions, every site cited and no site carrying an invented live
 capacity. It was last loaded on 21 October 2026 from `main@b7b6c66`. Fill in
@@ -51,6 +51,8 @@ hides it, and no entity is flagged as major until a human decides it is.
 | `npm run test:load` | Loads the research pipeline into a throwaway Postgres, twice, and asserts what a reader would see |
 | `npm run test:ui` | Serves that load through PostgREST, runs the production build against it, and checks every page in a browser: status codes, errors, WCAG 2.2 AA. Needs Docker |
 | `npm run load:pipeline` | Emits the load artefact from `data-pipeline/` for review |
+| `npm run check:essays` | Checks the essay drafts in `editorial/essays/` against the essay rules |
+| `npm run load:essays` | Emits the essay drafts as a reviewed SQL artefact: drafts only, never an approval |
 | `npm run db:types` | Regenerate database types from the local Supabase stack |
 | `npm run backup:export` | Export both schemas to newline-delimited JSON with a manifest |
 | `npm run backup:verify` | Check an export against its own digests and row counts |
