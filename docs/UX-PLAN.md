@@ -17,6 +17,23 @@ Related documents: SPEC.md (scope/data model), UI.md (design system/pages),
 UX.md (assessment and rationale), REVIEW.md and QUALITY.md (checklists),
 SUBAGENTS.md (agent boundaries), DEPLOYMENT.md.
 
+## Status on `claude/bold-goldberg-0ek4ml` (checked 2026-11-11)
+Release 1 of docs/DELIVERY-PLAN.md. The 2026-09-30 table below is kept as the
+earlier baseline.
+
+| Item | State |
+|---|---|
+| G1 type scale, spacing, focus, tokens | Done: `lib/design/tokens.ts`, Newsreader/Inter/Plex Mono, light and dark palettes with contrast asserted in `tests/tokens.test.ts`. |
+| G2 track palette | Done: one colour-blind-safe hue per event category, chips always named in words. |
+| G3 loading and empty states | Loading on map, list, coverage and research (never above a record page, which must still answer 404). Public "record unavailable" wording; setup steps only in development. |
+| Navigation | Grouped into The record and Analysis, with a phone menu. |
+| D2 essay page | Done: hero, standfirst, both dates, disclosure box, numbered inline citations into the source panel, pull quotes and figures, the divider drawn at "Our view", section navigation, print styles. |
+| CitationChip ("cite this record") | Done as `CiteThisPage` on essays and the position page. Site and entity pages next. |
+| SectionNav | Done on essays. |
+| Breadcrumb, BackToContext, ClaimVsRecord, component gallery | Not started. ClaimVsRecord is Release 3. |
+| Editor's desk (`/admin`) | Done: decision 6 below. |
+| G5 axe in CI | Extended: every page now checked in dark mode as well as light, map popup included. |
+
 ## Status against `main` (checked 2026-09-30)
 This plan was drafted on the scaffold branch before the app existed. Checked
 against `main` at `ed5dd2f`:
@@ -57,6 +74,13 @@ ideas when Epics B and D start.
    update and a new decision here.
 5. Editorial owner: **David, single editor**. Approves every essay, digest and
    PSA, and owns the monthly editorial calendar.
+6. Essays and the CMS (settled 2026-11-10, docs/DELIVERY-PLAN.md): **agents
+   draft essays in full, as Markdown in `editorial/essays/`; the editor edits
+   and approves at a private `/admin`**. Sign-in by emailed link for one
+   invited editor, no public accounts. The database, not the app, decides who
+   may edit (`editorial.is_editor()`) and records who approved which text.
+   This supersedes "no new CMS" in decision 2 for essays only; explainers stay
+   static.
 
 ---
 

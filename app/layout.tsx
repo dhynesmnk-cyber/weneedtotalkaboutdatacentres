@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import Link from 'next/link';
 import { PrimaryNav } from '@/components/PrimaryNav';
 import { SITE_DESCRIPTION, SITE_NAME, SITE_STRAPLINE, siteUrl } from '@/lib/site';
+import { getPosition } from '@/lib/editorial';
 import { mono, sans, serif } from './fonts';
 import './globals.css';
 
@@ -26,11 +27,22 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({
+/** Whether "Where we stand" has been published. A failed lookup hides the link. */
+async function positionPublished(): Promise<boolean> {
+  try {
+    return (await getPosition()) !== null;
+  } catch {
+    return false;
+  }
+}
+
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const hasPosition = await positionPublished();
+
   return (
     <html lang="en-AU" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
       <body className="min-h-screen">
@@ -68,6 +80,18 @@ export default function RootLayout({
             </div>
             <nav aria-label="About this site">
               <ul className="space-y-2">
+                <li>
+                  <Link href="/about" className="link">
+                    About this site
+                  </Link>
+                </li>
+                {hasPosition && (
+                  <li>
+                    <Link href="/where-we-stand" className="link">
+                      Where we stand
+                    </Link>
+                  </li>
+                )}
                 <li>
                   <Link href="/how-to-read" className="link">
                     How to read this site

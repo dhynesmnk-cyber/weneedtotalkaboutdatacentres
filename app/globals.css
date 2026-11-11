@@ -130,3 +130,113 @@
     word-break: break-all;
   }
 }
+
+/*
+ * Essay typography. The record half of an essay sits on the fact layer's
+ * colours and the argument half on the editorial layer's, so a pull quote or
+ * figure always shows which side of the divider it belongs to.
+ */
+@layer components {
+  .essay-body {
+    @apply max-w-measure font-serif text-essay text-slate-800;
+    font-optical-sizing: auto;
+    hanging-punctuation: first;
+  }
+
+  .essay-body > * + * {
+    @apply mt-5;
+  }
+
+  .essay-body h2 {
+    @apply mt-12 scroll-mt-6 font-serif text-[1.75rem] font-semibold leading-tight text-slate-900;
+  }
+
+  .essay-body h3 {
+    @apply mt-8 scroll-mt-6 font-sans text-lg font-semibold text-slate-900;
+  }
+
+  .essay-body a {
+    @apply underline decoration-1 underline-offset-2;
+  }
+
+  .essay-record a {
+    @apply text-fact-ink decoration-fact-edge hover:decoration-fact-ink;
+  }
+
+  .essay-opinion a {
+    @apply text-editorial-ink decoration-editorial-edge hover:decoration-editorial-ink;
+  }
+
+  .essay-body ul {
+    @apply list-disc space-y-2 pl-6;
+  }
+
+  .essay-body ol {
+    @apply list-decimal space-y-2 pl-6;
+  }
+
+  .essay-body blockquote {
+    @apply border-l-2 border-slate-300 pl-5 italic text-slate-700;
+  }
+
+  .essay-body strong {
+    @apply font-semibold text-slate-900;
+  }
+
+  /* Citation numbers: small, but a target a finger can hit. */
+  .essay-body sup.cite {
+    @apply ml-0.5 font-sans text-[0.68em] font-semibold;
+  }
+
+  .essay-body sup.cite a {
+    @apply rounded px-0.5 no-underline;
+  }
+
+  .essay-body sup.cite-unknown {
+    @apply text-defect-ink;
+  }
+
+  .essay-body a.question-ref {
+    @apply whitespace-nowrap rounded border border-gap-edge bg-gap-wash px-1 font-sans text-[0.75em] font-medium text-gap-ink no-underline;
+  }
+
+  .essay-body .pullquote {
+    @apply my-10 border-l-4 py-1 pl-6 font-serif text-[1.6rem] font-medium italic leading-snug text-slate-900;
+  }
+
+  .essay-record .pullquote {
+    @apply border-fact-ink;
+  }
+
+  .essay-opinion .pullquote {
+    @apply border-editorial-ink;
+  }
+
+  .essay-body .figure-callout {
+    @apply my-10 rounded-lg border p-6;
+  }
+
+  .essay-record .figure-callout {
+    @apply border-fact-edge bg-fact-wash;
+  }
+
+  .essay-opinion .figure-callout {
+    @apply border-editorial-edge bg-editorial-wash;
+  }
+
+  .essay-body .figure-value {
+    @apply font-serif text-5xl font-semibold leading-none tracking-tight;
+  }
+
+  .essay-record .figure-value {
+    @apply text-fact-ink;
+  }
+
+  .essay-opinion .figure-value {
+    @apply text-editorial-ink;
+  }
+
+  .essay-body figcaption {
+    @apply mt-3 font-sans text-base text-slate-700;
+  }
+}

@@ -17,6 +17,8 @@
     "test:load": "./scripts/test-load.sh",
     "test:ui": "./scripts/test-ui.sh",
     "load:pipeline": "tsx scripts/ingestion/load-pipeline.ts",
+    "check:essays": "tsx scripts/editorial/load-essays.ts --check",
+    "load:essays": "tsx scripts/editorial/load-essays.ts",
     "backup:export": "tsx scripts/backup/export-database.ts",
     "backup:verify": "tsx scripts/backup/export-database.ts --verify",
     "backup:restore": "tsx scripts/backup/restore-database.ts"
@@ -31,7 +33,9 @@
     "next": "^14.2.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^9.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",

@@ -155,6 +155,9 @@ describe('table parity', () => {
   const editorialTables: (keyof Database['editorial']['Tables'])[] = [
     'case_studies',
     'essays',
+    'editors',
+    'approvals',
+    'essay_revisions',
   ];
 
   it.each(factTables)('facts.%s is created in a migration', (table) => {
@@ -192,6 +195,9 @@ describe('row level security is declared on every table', () => {
     'facts.ingest_runs',
     'editorial.case_studies',
     'editorial.essays',
+    'editorial.editors',
+    'editorial.approvals',
+    'editorial.essay_revisions',
   ];
 
   it.each(allTables)('%s has RLS enabled', (table) => {
@@ -200,20 +206,67 @@ describe('row level security is declared on every table', () => {
     );
   });
 
-  it('grants no write access to anon or authenticated', () => {
-    // Every grant in the migrations must be a select or a schema usage grant.
-    const grants = [...sql.matchAll(/^grant\s+([\s\S]*?);/gim)].map((m) =>
-      (m[1] as string).toLowerCase(),
+  it('grants anon no write access at all', () => {
+    const grants = [...executableSql.matchAll(/^grant\s+([\s\S]*?);/gim)].map((m) =>
+      (m[1] as string).toLowerCase().replace(/\s+/g, ' '),
     );
 
     expect(grants.length).toBeGreaterThan(0);
     for (const grant of grants) {
+      if (!/\bto\b[^;]*\banon\b/.test(grant)) continue;
       expect(grant).not.toMatch(/\binsert\b|\bupdate\b|\bdelete\b|\ball\b/);
     }
   });
 
-  it('declares no policy for insert, update or delete', () => {
-    expect(sql).not.toMatch(/create policy[\s\S]*?for\s+(insert|update|delete)/i);
+  it('grants write access only on editorial.essays, to the signed-in role, by column', () => {
+    // 0017 opens one write path, for the editor. Any other table, role or
+    // whole-table grant would be a new path and must be argued in a migration
+    // and added here.
+    const writes = [...executableSql.matchAll(/^grant\s+([\s\S]*?);/gim)]
+      .map((m) => (m[1] as string).toLowerCase().replace(/\s+/g, ' '))
+      .filter((g) => /\binsert\b|\bupdate\b|\bdelete\b|^all\b/.test(g) && !/^execute\b/.test(g));
+
+    expect(writes).toHaveLength(2);
+    for (const grant of writes) {
+      expect(grant).toMatch(/^(insert|update) \(/);
+      expect(grant).toMatch(/ on editorial\.essays to authenticated$/);
+      expect(grant).not.toMatch(/approved_by|approved_at|last_edited_by|edited_in_admin_at/);
+    }
+  });
+
+  it('declares write policies only for the editor, and only on drafts', () => {
+    const policies = [
+      ...executableSql.matchAll(/create policy (\w+) on ([\w.]+)\s+for (insert|update|delete)([\s\S]*?);/gi),
+    ];
+
+    expect(policies.map((m) => `${m[2]} ${m[3]}`).sort()).toEqual([
+      'editorial.essays insert',
+      'editorial.essays update',
+    ]);
+    for (const [, , , , body] of policies) {
+      expect(body).toMatch(/to authenticated/);
+      expect(body).toContain('editorial.is_editor()');
+      expect(body).toContain('approved_at is null');
+    }
+  });
+
+  it('lets only the signed-in role call the approval functions', () => {
+    for (const fn of ['approve_essay', 'retract_essay']) {
+      expect(executableSql).toMatch(
+        new RegExp(`revoke all on function editorial\\.${fn}\\([^)]*\\)\\s+from public, anon, authenticated, service_role`),
+      );
+      const grants = [
+        ...executableSql.matchAll(new RegExp(`grant execute on function editorial\\.${fn}\\([^)]*\\) to (\\w+)`, 'g')),
+      ].map((m) => m[1]);
+      expect(grants).toEqual(['authenticated']);
+    }
+  });
+
+  it('takes the approver from the session, never from an argument', () => {
+    const fn = /create function editorial\.approve_essay\(([\s\S]*?)\)\s*returns/i.exec(executableSql)?.[1];
+    expect(fn).toBeDefined();
+    expect(fn).not.toMatch(/approved_by|email|actor/i);
+    expect(executableSql).toMatch(/actor\s+text := editorial\.editor_email\(\)/);
   });
 });
 

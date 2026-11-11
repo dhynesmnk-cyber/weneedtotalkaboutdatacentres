@@ -11,58 +11,59 @@ export const metadata = { title: 'Essays' };
  * Essay hub. Second entry point in docs/SPEC.md's priority order.
  *
  * Framed as editorial throughout, so a reader arriving here first is never in
- * doubt that they are reading argument rather than record.
+ * doubt that they are reading argument rather than record. The newest essay
+ * leads, magazine style; the rest follow as a list.
  */
 export default async function EssaysPage() {
-  const essays = await listEssays();
+  const essays = await listEssays({ kind: 'essay' });
+  const [lead, ...rest] = essays;
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-10">
       <div>
         <p className="kicker text-editorial-ink">Analysis</p>
         <h1 className="page-title mt-2">Essays</h1>
         <p className="standfirst mt-3">
           Video essays and written analysis, newest first. This is the editorial
           layer: interpretation and argument, drawing on the sourced records but
-          separate from them.
+          separate from them. Every essay shows the record first, then where its
+          argument begins.
         </p>
       </div>
 
       {!isConfigured() ? (
         <NotConnected what="essays" />
-      ) : essays.length === 0 ? (
+      ) : !lead ? (
         <NothingRecorded what="published essays" />
       ) : (
-        <ul className="space-y-6">
-          {essays.map((essay) => (
-            <li
-              key={essay.id}
-              className="rounded-lg border-l-4 border-editorial-edge bg-editorial-wash/40 py-3 pl-4 pr-3"
-            >
-              <h2 className="text-lg font-semibold">
-                <Link
-                  href={`/essays/${essay.id}`}
-                  className="text-editorial-ink underline underline-offset-2"
-                >
-                  {essay.title}
-                </Link>
-              </h2>
-              <DateStamp publishDate={essay.publish_date} className="mt-1" />
-              {essay.tags.length > 0 && (
-                <ul className="mt-2 flex flex-wrap gap-2">
-                  {essay.tags.map((tag) => (
-                    <li
-                      key={tag}
-                      className="rounded border border-editorial-edge px-2 py-0.5 text-xs text-editorial-ink"
-                    >
-                      {tag}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
-        </ul>
+        <>
+          <article className="border-y border-slate-200 py-8">
+            <p className="kicker text-editorial-ink">Latest</p>
+            <h2 className="mt-3 max-w-4xl font-serif text-title font-semibold text-slate-900">
+              <Link href={`/essays/${lead.slug ?? lead.id}`} className="hover:underline hover:decoration-2 hover:underline-offset-4">
+                {lead.title}
+              </Link>
+            </h2>
+            {lead.standfirst && <p className="standfirst mt-3 font-serif">{lead.standfirst}</p>}
+            <DateStamp publishDate={lead.publish_date} dataAsOfDate={lead.data_as_of_date} className="mt-4" />
+          </article>
+
+          {rest.length > 0 && (
+            <ul className="divide-y divide-slate-200">
+              {rest.map((essay) => (
+                <li key={essay.id} className="py-6">
+                  <h2 className="font-serif text-2xl font-semibold text-slate-900">
+                    <Link href={`/essays/${essay.slug ?? essay.id}`} className="hover:underline hover:underline-offset-4">
+                      {essay.title}
+                    </Link>
+                  </h2>
+                  {essay.standfirst && <p className="mt-2 max-w-2xl text-slate-700">{essay.standfirst}</p>}
+                  <DateStamp publishDate={essay.publish_date} dataAsOfDate={essay.data_as_of_date} className="mt-2" />
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
       )}
     </div>
   );

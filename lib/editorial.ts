@@ -1,6 +1,11 @@
 import { isRecordId } from '@/lib/ids';
-import { editorial, isConfigured } from '@/lib/supabase/server';
-import type { CaseStudyRow, EssayRow } from '@/lib/types';
+import { editorial, facts, isConfigured } from '@/lib/supabase/server';
+import type { CaseStudyRow, EssayRow, PieceKind, SourceRow } from '@/lib/types';
+
+// Pure, so the editor's preview can use it in the browser without this module.
+export { youtubeEmbedUrl } from '@/lib/editorial/youtube';
+
+const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
 /**
  * Typed access to the editorial schema.
@@ -10,7 +15,7 @@ import type { CaseStudyRow, EssayRow } from '@/lib/types';
  * supabase/migrations/0004_rls.sql.
  */
 
-export async function listEssays(options?: { limit?: number }): Promise<EssayRow[]> {
+export async function listEssays(options?: { limit?: number; kind?: PieceKind }): Promise<EssayRow[]> {
   if (!isConfigured()) return [];
 
   let query = editorial()
@@ -18,6 +23,7 @@ export async function listEssays(options?: { limit?: number }): Promise<EssayRow
     .select('*')
     .order('publish_date', { ascending: false });
 
+  if (options?.kind) query = query.eq('kind', options.kind);
   if (options?.limit) query = query.limit(options.limit);
 
   const { data, error } = await query;
@@ -25,18 +31,49 @@ export async function listEssays(options?: { limit?: number }): Promise<EssayRow
   return data ?? [];
 }
 
-export async function getEssay(id: string): Promise<EssayRow | null> {
+/** One published piece, by its id or its slug. */
+export async function getEssay(idOrSlug: string): Promise<EssayRow | null> {
   if (!isConfigured()) return null;
-  if (!isRecordId(id)) return null;
+  const column = isRecordId(idOrSlug) ? 'id' : SLUG.test(idOrSlug) ? 'slug' : null;
+  if (!column) return null;
 
   const { data, error } = await editorial()
     .from('essays')
     .select('*')
-    .eq('id', id)
+    .eq(column, idOrSlug)
     .maybeSingle();
 
   if (error) throw new Error(`Failed to load essay: ${error.message}`);
   return data ?? null;
+}
+
+/** The published "Where we stand" piece, if there is one. The newest wins. */
+export async function getPosition(): Promise<EssayRow | null> {
+  if (!isConfigured()) return null;
+
+  const { data, error } = await editorial()
+    .from('essays')
+    .select('*')
+    .eq('kind', 'position')
+    .order('publish_date', { ascending: false })
+    .limit(1)
+    .maybeSingle();
+
+  if (error) throw new Error(`Failed to load the position: ${error.message}`);
+  return data ?? null;
+}
+
+/** The source records an essay cites, by their pipeline ids. */
+export async function sourcesByPipelineId(ids: readonly string[]): Promise<SourceRow[]> {
+  if (!isConfigured() || ids.length === 0) return [];
+
+  const { data, error } = await facts()
+    .from('sources')
+    .select('*')
+    .in('pipeline_id', [...ids]);
+
+  if (error) throw new Error(`Failed to load sources: ${error.message}`);
+  return data ?? [];
 }
 
 export async function listCaseStudies(options?: {
@@ -68,17 +105,4 @@ export async function getCaseStudy(id: string): Promise<CaseStudyRow | null> {
 
   if (error) throw new Error(`Failed to load case study: ${error.message}`);
   return data ?? null;
-}
-
-/**
- * Extract a YouTube embed URL from a stored video id.
- *
- * Accepts an id only, not a full URL, so that a pasted tracking-laden link
- * cannot end up in an iframe src. Returns null for anything that is not a
- * plausible id.
- */
-export function youtubeEmbedUrl(youtubeId: string | null): string | null {
-  if (!youtubeId) return null;
-  if (!/^[A-Za-z0-9_-]{11}$/.test(youtubeId)) return null;
-  return `https://www.youtube-nocookie.com/embed/${youtubeId}`;
 }

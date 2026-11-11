@@ -160,8 +160,10 @@ function Question({ question: q }: { question: ResearchQuestion }) {
 
   return (
     <article
+      // The RG label is the anchor essays link to: /research#RG-070.
+      id={q.pipeline_id ?? undefined}
       aria-labelledby={`q-${q.id}`}
-      className="rounded-lg border border-slate-200 border-l-4 border-l-fact-edge px-4 py-3"
+      className="scroll-mt-6 rounded-lg border border-slate-200 border-l-4 border-l-fact-edge px-4 py-3 target:ring-2 target:ring-fact-ink"
     >
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm text-slate-600">
         <span className="rounded border border-fact-edge bg-fact-wash px-2 py-0.5 font-mono text-xs font-medium text-fact-ink">

@@ -139,6 +139,13 @@ async function checks(): Promise<Check[]> {
     // A stale or hand-edited link still shows the index rather than failing.
     { path: '/list?sort=price&status=imagined&council=Nowhere', status: 200 },
     { path: '/essays', status: 200 },
+    // The fixture essay (supabase/tests/ui-fixture.sql): numbered citations,
+    // callouts, the divider and the source panel, in both colour schemes.
+    { path: '/essays/ui-test-essay', status: 200, selector: 'sup.cite a[href="#sources-1"]' },
+    { path: '/where-we-stand', status: 200, selector: '#disclosure-heading' },
+    // The editor's desk turns away anyone not signed in, to the sign-in form.
+    { path: '/admin', status: 200, selector: 'input[type=email]' },
+    { path: '/admin/sign-in', status: 200, selector: 'input[type=email]' },
     // The map is drawn in the browser, so a 200 alone does not show it
     // worked. With no coordinates recorded there is nothing to plot, and the
     // page must say so without loading a map at all.

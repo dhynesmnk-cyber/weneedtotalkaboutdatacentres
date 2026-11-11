@@ -1,15 +1,12 @@
 import { cache } from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getEssay, youtubeEmbedUrl } from '@/lib/editorial';
-import { citationsFor } from '@/lib/evidence';
+import { getEssay, sourcesByPipelineId } from '@/lib/editorial';
+import { sourcesInOrder } from '@/lib/editorial/rules';
+import { pageCitation } from '@/lib/cite';
 import { isConfigured } from '@/lib/supabase/server';
-import { SourcePanel } from '@/components/SourcePanel';
-import { DateStamp } from '@/components/DateStamp';
-import {
-  EditorialBlock,
-  FactOpinionDivider,
-} from '@/components/FactOpinionDivider';
+import { EssayArticle } from '@/components/essay/EssayArticle';
+import { CiteThisPage } from '@/components/CiteThisPage';
 import { NotConnected } from '@/components/NotConnected';
 
 export const dynamic = 'force-dynamic';
@@ -24,15 +21,27 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   if (!isConfigured()) return {};
   const essay = await loadEssay(params.id);
-  return essay ? { title: essay.title } : {};
+  if (!essay) return {};
+  const path = `/essays/${essay.slug ?? essay.id}`;
+  return {
+    title: essay.title,
+    description: essay.standfirst ?? undefined,
+    alternates: { canonical: path },
+    openGraph: {
+      type: 'article',
+      title: essay.title,
+      description: essay.standfirst ?? undefined,
+      publishedTime: essay.publish_date ?? undefined,
+    },
+  };
 }
 
 /**
- * Essay page: embed, body, sources.
+ * An essay: the record it rests on, the divider, the argument, and every
+ * source it cites, numbered in the order the text meets them.
  *
- * An essay is editorial from the first word, so the divider sits above the body
- * rather than partway through it. The source panel is still present: analysis
- * that rests on facts should show which.
+ * Reachable by id or by slug. Drafts are invisible here by construction: row
+ * level security serves the anon key approved, dated pieces only.
  */
 export default async function EssayPage({ params }: { params: { id: string } }) {
   if (!isConfigured()) {
@@ -42,43 +51,23 @@ export default async function EssayPage({ params }: { params: { id: string } }) 
   const essay = await loadEssay(params.id);
   if (!essay) notFound();
 
-  const citations = await citationsFor('essays', essay.id);
-  const embedUrl = youtubeEmbedUrl(essay.youtube_id);
+  const sources = await sourcesByPipelineId(sourcesInOrder(essay.body ?? ''));
+  const path = `/essays/${essay.slug ?? essay.id}`;
 
   return (
-    <article className="space-y-6">
-      <header>
-        <p className="kicker text-editorial-ink">Analysis</p>
-        <h1 className="page-title mt-2">{essay.title}</h1>
-        <DateStamp publishDate={essay.publish_date} className="mt-2" />
-      </header>
-
-      {embedUrl && (
-        <div className="aspect-video w-full overflow-hidden rounded-lg border border-slate-200">
-          <iframe
-            src={embedUrl}
-            title={`Video essay: ${essay.title}`}
-            className="h-full w-full"
-            allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
-      )}
-
-      <FactOpinionDivider />
-
-      {essay.body && (
-        <EditorialBlock>
-          <div className="prose-slate max-w-none whitespace-pre-line text-slate-800">
-            {essay.body}
-          </div>
-        </EditorialBlock>
-      )}
-
-      <SourcePanel
-        citations={citations}
-        title="Sources referenced in this essay"
-      />
-    </article>
+    <EssayArticle
+      piece={essay}
+      sources={sources}
+      footer={
+        <CiteThisPage
+          citation={pageCitation({
+            title: essay.title,
+            path,
+            publishDate: essay.publish_date,
+            dataAsOfDate: essay.data_as_of_date,
+          })}
+        />
+      }
+    />
   );
 }

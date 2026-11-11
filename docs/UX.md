@@ -166,7 +166,7 @@ such. The rest stand.
 ## Content production process: essays
 
 A fixed pipeline that fits inside the SUBAGENTS.md boundaries (agents draft,
-humans write and publish).
+the editor edits and approves; decision 6 in docs/UX-PLAN.md).
 
 1. Framing brief (human editor). One sentence argument, target perception
    claim to test, audience (resident or journalist), word budget, publication
@@ -174,17 +174,23 @@ humans write and publish).
 2. Evidence pull (researcher + analyst agents). Query the database for the
    relevant sites, events and financials; produce a cited data pack. Any
    missing value arrives as a gap flag, never an estimate.
-3. Outline (writer_support agent) against the brief; human author approves or
-   restructures.
-4. Draft (human author). Structure is fixed: the common perception, what the
-   records show, where the data is too thin to answer, what to watch next.
-   Opinion appears only after a FactOpinionDivider.
+3. Draft (writer_support agent, or the author) as Markdown in
+   `editorial/essays/`, from the story cards. Structure is fixed: the common
+   perception, what the records show, where the data is too thin to answer,
+   what to watch next, then "Our view". Opinion appears only under that last
+   heading, after the FactOpinionDivider the page draws above it.
+4. `npm run check:essays` runs the rules mechanically (citations, numbers,
+   five sources, structure, disclosure, people by role). The loader brings the
+   draft in, unapproved; the editor reads and edits it at `/admin` beside a
+   preview of the page.
 5. Internal review (reviewer agent) against REVIEW.md content checklist:
    citation coverage, gap flags, dates, defamation check on named parties.
 6. Human editorial pass and legal sign-off for any named entity.
-7. Publish: essay record with youtube_id if a video exists, body, tags,
-   related_ids auto-populated from cited records; SourcePanel rendered from
-   citations; DateStamp with publish and data-as-of dates.
+7. Publish: the editor approves at `/admin`. The database checks the piece
+   again and records the approver from the signed-in session. Citations are
+   derived from the text's `[SRC_...]` markers by trigger; the SourcePanel
+   numbers them in the order the text cites them; DateStamp shows the publish
+   and data-as-of dates.
 8. Post-publish: any correction goes to the public correction log; quarterly
    reverification re-checks the numbers the essay leans on.
 

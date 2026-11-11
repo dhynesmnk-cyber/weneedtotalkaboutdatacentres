@@ -70,16 +70,16 @@ values ('Example Shire', 'NSW', 'a human', now());
 
 -- Editorial: one approved and published, one unapproved draft, one approved but
 -- dated in the future.
-insert into editorial.essays (id, title, publish_date, approved_by, approved_at)
+insert into editorial.essays (id, title, publish_date, data_as_of_date, approved_by, approved_at)
 values ('40000000-0000-0000-0000-000000000001', 'Published Essay',
-        current_date - 1, 'a human', now());
+        current_date - 1, current_date - 30, 'a human', now());
 
 insert into editorial.essays (id, title, publish_date)
 values ('40000000-0000-0000-0000-000000000002', 'Draft Essay', current_date - 1);
 
-insert into editorial.essays (id, title, publish_date, approved_by, approved_at)
+insert into editorial.essays (id, title, publish_date, data_as_of_date, approved_by, approved_at)
 values ('40000000-0000-0000-0000-000000000003', 'Future Essay',
-        current_date + 7, 'a human', now());
+        current_date + 7, current_date - 30, 'a human', now());
 
 insert into editorial.case_studies
   (id, title, publish_date, data_as_of_date, approved_by, approved_at)
@@ -274,6 +274,258 @@ select public.assert(
      where t.typname = 'gap_reason')
   = array['unknown','not_disclosed','not_applicable','withheld'],
   'gap_reason domain matches');
+
+-- ---------------------------------------------------------------------------
+-- The editor (0014 to 0017). One signed-in role may edit drafts and approve
+-- them; nobody else may, and nobody can approve in another's name.
+--
+-- A request's identity is its JWT claims, which PostgREST puts in the setting
+-- request.jwt.claims. Each block below sets them as PostgREST would.
+-- ---------------------------------------------------------------------------
+
+insert into facts.sources (id, type, title, url, retrieved_date, publisher, pipeline_id)
+select ('5e000000-0000-0000-0000-00000000000' || n)::uuid, 'planning_document',
+       'Editor test source ' || n, 'https://example.org/e' || n, date '2026-09-18',
+       'Example', 'SRC_ET' || n
+  from generate_series(1, 6) as n;
+
+insert into editorial.editors (email, added_by) values ('editor@example.org', 'test');
+
+-- A draft citing one source, and a published essay citing another. The
+-- citation rows come from the text, by trigger.
+insert into editorial.essays (id, title, body)
+values ('4e000000-0000-0000-0000-000000000001', 'Editor Draft',
+        'A claim [SRC_ET1].');
+
+insert into editorial.essays (id, title, body, publish_date, data_as_of_date, approved_by, approved_at)
+values ('4e000000-0000-0000-0000-000000000002', 'Editor Published',
+        'A claim [SRC_ET2].', current_date - 1, current_date - 30, 'a human', now());
+
+select public.assert(
+  (select count(*) from facts.citations
+    where record_type = 'essays' and record_id = '4e000000-0000-0000-0000-000000000001') = 1,
+  'a draft''s citations are derived from its text');
+
+-- An id the database does not hold is refused, not imported uncited.
+do $$
+begin
+  insert into editorial.essays (title, body) values ('Bad', 'A claim [SRC_NOT_HELD].');
+  raise exception 'ASSERTION FAILED: an essay citing an unknown source was accepted';
+exception when foreign_key_violation then
+  null;
+end;
+$$;
+
+-- anon sees the published essay's citations and not the draft's.
+set role anon;
+select public.assert(
+  (select count(*) from facts.citations
+    where record_id = '4e000000-0000-0000-0000-000000000001') = 0,
+  'anon cannot read a draft''s citations');
+select public.assert(
+  (select count(*) from facts.citations
+    where record_id = '4e000000-0000-0000-0000-000000000002') = 1,
+  'anon can read a published essay''s citations');
+reset role;
+
+-- anon and the service role cannot call the approval function at all.
+do $$
+declare
+  r text;
+begin
+  foreach r in array array['anon', 'service_role'] loop
+    begin
+      execute format('set local role %I', r);
+      perform editorial.approve_essay('4e000000-0000-0000-0000-000000000001', current_date, now());
+      raise exception 'ASSERTION FAILED: % could call approve_essay', r;
+    exception when insufficient_privilege then
+      null;
+    end;
+    reset role;
+  end loop;
+end;
+$$;
+
+-- A signed-in user who is not the editor sees only what anon sees and can
+-- change nothing.
+begin;
+set local role authenticated;
+set local request.jwt.claims = '{"role":"authenticated","email":"someone@example.org"}';
+
+select public.assert(
+  (select count(*) from editorial.essays where approved_at is null) = 0,
+  'a signed-in non-editor cannot see drafts');
+
+do $$
+declare
+  changed int;
+begin
+  update editorial.essays set title = 'Hijacked' where id = '4e000000-0000-0000-0000-000000000001';
+  get diagnostics changed = row_count;
+  perform public.assert(changed = 0, 'a signed-in non-editor cannot edit a draft');
+
+  begin
+    perform editorial.approve_essay('4e000000-0000-0000-0000-000000000001', current_date, now());
+    raise exception 'ASSERTION FAILED: a non-editor approved a piece';
+  exception when insufficient_privilege then
+    null;
+  end;
+
+  begin
+    perform count(*) from editorial.editors;
+    raise exception 'ASSERTION FAILED: a non-editor read the editor list';
+  exception when insufficient_privilege then
+    null;
+  end;
+end;
+$$;
+commit;
+
+-- The editor.
+begin;
+set local role authenticated;
+set local request.jwt.claims = '{"role":"authenticated","email":"Editor@Example.org"}';
+
+select public.assert(
+  (select count(*) from editorial.essays where id = '4e000000-0000-0000-0000-000000000001') = 1,
+  'the editor can see drafts');
+
+update editorial.essays
+   set body = 'A claim [SRC_ET1]. Another [SRC_ET3].'
+ where id = '4e000000-0000-0000-0000-000000000001';
+
+select public.assert(
+  (select last_edited_by = 'editor@example.org' and edited_in_admin_at is not null
+     from editorial.essays where id = '4e000000-0000-0000-0000-000000000001'),
+  'an editor''s change is stamped with who made it, by the database');
+select public.assert(
+  (select count(*) from editorial.essay_revisions
+    where essay_id = '4e000000-0000-0000-0000-000000000001') = 1,
+  'the previous text is kept as a revision');
+select public.assert(
+  (select count(*) from facts.citations
+    where record_id = '4e000000-0000-0000-0000-000000000001') = 2,
+  'citations follow the edited text');
+
+do $$
+declare
+  changed int;
+  stamp timestamptz;
+begin
+  -- The approval columns are not granted, even to the editor, and the update
+  -- policy's check refuses an approved row besides. Either layer alone
+  -- refuses this; the assertion is on the outcome.
+  begin
+    update editorial.essays set approved_by = 'editor@example.org', approved_at = now()
+     where id = '4e000000-0000-0000-0000-000000000001';
+    raise exception 'ASSERTION FAILED: the editor set approval columns directly';
+  exception when insufficient_privilege then
+    null;
+  end;
+
+  begin
+    insert into editorial.essays (title, approved_by, approved_at, publish_date)
+    values ('Self published', 'editor@example.org', now(), current_date);
+    raise exception 'ASSERTION FAILED: the editor inserted an approved row';
+  exception when insufficient_privilege then
+    null;
+  end;
+
+  -- A published piece cannot be edited in place.
+  update editorial.essays set title = 'Changed after publication'
+   where id = '4e000000-0000-0000-0000-000000000002';
+  get diagnostics changed = row_count;
+  perform public.assert(changed = 0, 'a published piece cannot be edited in place');
+
+  select updated_at into stamp from editorial.essays
+   where id = '4e000000-0000-0000-0000-000000000001';
+
+  -- Too few sources, no opinion heading, no data date: refused.
+  begin
+    perform editorial.approve_essay('4e000000-0000-0000-0000-000000000001', current_date, stamp);
+    raise exception 'ASSERTION FAILED: an essay without a data date or five sources was approved';
+  exception when check_violation then
+    null;
+  end;
+
+  -- Approving text that changed since it was opened: refused.
+  begin
+    perform editorial.approve_essay('4e000000-0000-0000-0000-000000000001', current_date,
+                                    stamp - interval '1 minute');
+    raise exception 'ASSERTION FAILED: an essay was approved against a stale copy';
+  exception when serialization_failure then
+    null;
+  end;
+end;
+$$;
+
+-- Bring the draft up to standard: five sources, a data date, an opinion section.
+update editorial.essays
+   set body = E'## What the records show\nOne [SRC_ET1]. Two [SRC_ET2]. Three [SRC_ET3]. Four [SRC_ET4]. Five [SRC_ET5].\n\n## Our view\nAn argument.',
+       data_as_of_date = current_date - 20,
+       named_parties = array['Chief Executive, Example Agency (by role)']
+ where id = '4e000000-0000-0000-0000-000000000001';
+
+do $$
+declare
+  stamp timestamptz;
+begin
+  select updated_at into stamp from editorial.essays
+   where id = '4e000000-0000-0000-0000-000000000001';
+
+  -- It names a party, so the legal check must be acknowledged.
+  begin
+    perform editorial.approve_essay('4e000000-0000-0000-0000-000000000001', current_date, stamp);
+    raise exception 'ASSERTION FAILED: a piece naming people was approved without the legal check';
+  exception when check_violation then
+    null;
+  end;
+
+  perform editorial.approve_essay('4e000000-0000-0000-0000-000000000001', current_date, stamp, true);
+end;
+$$;
+
+select public.assert(
+  (select approved_by = 'editor@example.org' and approved_at is not null
+     from editorial.essays where id = '4e000000-0000-0000-0000-000000000001'),
+  'approval records the signed-in editor, taken from the session');
+select public.assert(
+  (select count(*) from editorial.approvals
+    where record_id = '4e000000-0000-0000-0000-000000000001'
+      and action = 'approve' and body_sha256 is not null) = 1,
+  'the approval and the hash of the approved text are logged');
+
+do $$
+begin
+  begin
+    perform editorial.retract_essay('4e000000-0000-0000-0000-000000000001', ' ');
+    raise exception 'ASSERTION FAILED: a piece was retracted without a reason';
+  exception when check_violation then
+    null;
+  end;
+  perform editorial.retract_essay('4e000000-0000-0000-0000-000000000001', 'Test retraction');
+end;
+$$;
+
+select public.assert(
+  (select approved_at is null from editorial.essays
+    where id = '4e000000-0000-0000-0000-000000000001'),
+  'retraction returns the piece to draft');
+commit;
+
+-- The service role, which backups and the loaders use, still cannot write.
+do $$
+begin
+  set local role service_role;
+  begin
+    update editorial.essays set title = 'Service' where id = '4e000000-0000-0000-0000-000000000001';
+    raise exception 'ASSERTION FAILED: the service role wrote to editorial.essays';
+  exception when insufficient_privilege then
+    null;
+  end;
+  reset role;
+end;
+$$;
 
 -- Every table has RLS on. A table added later without it would fail here.
 select public.assert(
