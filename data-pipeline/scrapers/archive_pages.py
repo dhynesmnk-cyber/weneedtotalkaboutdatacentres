@@ -18,6 +18,12 @@ portfolio holdings disclosure) is kept as <name>.csv and .csv.meta.json; the CSV
 A site that answers 401, 403 or 429, or serves a bot-check page in place of the document, has refused
 the request. The refusal is recorded in <group>/refused.json and the URL is never fetched another way.
 
+Third-party credentials embedded in a page (a Google Maps browser key, a consultation platform's
+session token) are redacted before anything is written, by scrapers/redact.py. The manifest then
+hashes the bytes stored and records the redaction and the upstream digest, so it never claims the
+archive is byte-identical to the response. A PDF's bytes are left intact and its extracted text is
+cleaned instead.
+
 --raw-dir puts the group under data/raw/<dir>/ instead of data/raw/operators/ (research batch 2 keeps
 super funds' disclosures under data/raw/superannuation/).
 
@@ -40,6 +46,8 @@ import urllib.parse
 import urllib.request
 import urllib.robotparser
 from datetime import datetime, timezone
+
+from redact import redact, redact_text
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "raw", "operators")
@@ -147,12 +155,22 @@ def main(argv: list[str]) -> int:
         is_pdf = body.startswith(b"%PDF")
         is_csv = urllib.parse.urlparse(final).path.lower().endswith(".csv")
         ext = ".pdf" if is_pdf else ".csv" if is_csv else ".html"
+        # Third-party credentials never reach disk. A PDF's own bytes are left alone —
+        # rewriting a string inside a PDF breaks its cross-reference offsets — so for a PDF
+        # it is the extracted text that is cleaned, below.
+        upstream_sha256 = hashlib.sha256(body).hexdigest()
+        redactions: list[str] = []
+        if not is_pdf:
+            body, redactions = redact(body)
         with open(base + ext, "wb") as fh:
             fh.write(body)
         extra = {}
         if is_pdf:
             from fetch_ssd_documents import extract  # noqa: PLC0415 - only PDFs need pypdf
             text, extra["extractor"] = extract(base + ext)
+            text, text_redactions = redact_text(text)
+            if text_redactions:
+                extra["text_redactions"] = text_redactions
             extra["pages"] = text.count("[[page ")
         elif is_csv:
             text = body.decode("utf-8-sig", errors="replace")
@@ -161,9 +179,17 @@ def main(argv: list[str]) -> int:
         if not is_csv:
             with open(base + ".txt", "w", encoding="utf-8") as fh:
                 fh.write(text)
+        # Hash the bytes actually stored, so offline sha256 verification of this file passes.
+        # The upstream digest is kept beside them: the manifest must not claim the stored
+        # file is byte-identical to what the server sent when a credential was removed.
+        if redactions:
+            extra["redacted"] = redactions
+            extra["upstream_sha256"] = upstream_sha256
         json.dump(dict(url=final, requested_url=url, fetched_utc=datetime.now(timezone.utc).isoformat(timespec="seconds"),
                        sha256=hashlib.sha256(body).hexdigest(), bytes=len(body), user_agent=UA, **extra),
                   open(base + ext + ".meta.json", "w"), indent=1)
+        if redactions:
+            print(f"[redacted] {', '.join(redactions)}")
         print(f"archived {url} ({len(body) // 1024} KB, {len(text)} chars of text)")
     return 0
 

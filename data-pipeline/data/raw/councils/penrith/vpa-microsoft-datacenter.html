@@ -174,12 +174,12 @@
 <script type="text/javascript" src="/application/js/i18n.js?_v=2.71.1.0"></script>
 <link href="/application/css/bootstrap-switch.min.css?_v=3.3.4" rel="stylesheet" type="text/css" media="all">
 <link href="/packages/custom_penr_yoursay/blocks/the_hive_document_library/templates/docreader/view.css?_v=2.71.1.0" rel="stylesheet" type="text/css" media="all">
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoddieWGc8k4ATMkYQOX-7tn2F5Z9NaEA&libraries=places,marker&language=en&callback=console.debug&loading=async"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=REDACTED-THIRD-PARTY-GOOGLE-MAPS-API-KEY&libraries=places,marker&language=en&callback=console.debug&loading=async"></script>
 <script type="text/javascript">$(function() {if(typeof moment !== 'undefined' && typeof moment.tz !== 'undefined'){moment.tz.setDefault("Australia\/Sydney");}});</script>
 <script type="text/javascript">
         $(function() {
             if (typeof app.hive.projectFollow === "undefined" && typeof ProjectFollow !== "undefined") {
-                app.hive.projectFollow = new ProjectFollow({"apiURL":"https:\/\/api.au.harvestdp.com\/subscriptions\/project\/","sid":200,"pid":1002,"uid":0,"email":null,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIRFBFQSIsImlhdCI6MTc5MjY4NjAwMSwidGFnIjoiSGl2ZSJ9.eyJlbmNyeXB0ZWQiOiJCNVhxbHlqREJ2cEltdlBRMk5JcjR4enRKbWxTWVNkU0FMT2hFeVwvSlFtNGN3U3l6MU82cmsyME9mbHJlS1JCMyszUGd4U2t2MnE1YmQxOGJ6MU1wMm4xN0JpSVBwRjBBSzNpSGI2UlhMbGN5NFwvV1phbFlGdUczSFRJT0pUcENHMlB6XC9SRys1WnJucnhZdER4MHVkV2puNzlwTWllcFhmNm5NTFpDRFpwSzVlbzBoV1lFXC9cLzVoMjdEVE5lcmQ4RVozKytIeDJHb3EwajhOREFVV1dFZytVQ25WMWQ1dlM1In0.DaWM5TlUXfCQHE_7i3PlZqqJvGR6vOfz0IBPiX2T7T8","setSessUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/set_session","unSetSessUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/unset_session","unCheckSessUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/check_session","getTokenUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/get_token","messages":{"follow":{"title":"Project Followed","description":"You are now following this project and will receive email updates."},"unfollow":{"title":"Project Unfollowed","description":"You are no longer following this project."},"prompt":{"title":"","description":"Please sign up to follow this project and receive email updates"}},"labels":{"follow":"Follow","following":"Following","followingAria":"Following - click to unfollow","unfollow":"Unfollow"},"initFollow":false,"promptToFollow":false});
+                app.hive.projectFollow = new ProjectFollow({"apiURL":"https:\/\/api.au.harvestdp.com\/subscriptions\/project\/","sid":200,"pid":1002,"uid":0,"email":null,"token":"REDACTED-THIRD-PARTY-PAGE-TOKEN","setSessUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/set_session","unSetSessUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/unset_session","unCheckSessUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/check_session","getTokenUrl":"https:\/\/yoursaypenrith.com.au\/ccm\/the_hive_projects\/tools\/the_hive_project_follow\/get_token","messages":{"follow":{"title":"Project Followed","description":"You are now following this project and will receive email updates."},"unfollow":{"title":"Project Unfollowed","description":"You are no longer following this project."},"prompt":{"title":"","description":"Please sign up to follow this project and receive email updates"}},"labels":{"follow":"Follow","following":"Following","followingAria":"Following - click to unfollow","unfollow":"Unfollow"},"initFollow":false,"promptToFollow":false});
             }
         });
         </script><script type="text/javascript">
@@ -952,7 +952,7 @@ $(function(){
             delay: 250,
             data: function (params) {
                 var query = {
-                    'authtoken': "eyJ0eXAiOiJKV1QiLCJhbGciOiJIRFBFQSIsImlhdCI6MTc5MjY4NjAwMSwidGFnIjoiSGl2ZSJ9.eyJlbmNyeXB0ZWQiOiJKTDREUGVCQlc4K1wvMnVSTUoxNFJ4dWx1WXp2MVZMNW04aThQZFpHTkc0YmhaV2ZTc1ZIQjVaRndaWFJKM0V3Z09MRStNdlVKQlVvN0ZRdVB2UENXMzR6QUs5NW80dmFaWVI0cmkzMWkzdnlFb2pBRWdMbG5xZmZlTU5WWDFjeVpIYzM1WmN3WEl0eWlsT3JUTVpoUk5jYU1ZeE1ldmNqVGVINzJWSFU9In0.OYIzCujFEaMfpIkxO_L3UMauxcT30iHm5uFxSCqxJgc",
+                    'authtoken': "REDACTED-THIRD-PARTY-PAGE-TOKEN",
                     'length': length,
                     'start': (params.page - 1) * length,
                     'country_code': config.country ? ('=' + config.country) : '',
