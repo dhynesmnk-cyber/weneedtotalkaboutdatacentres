@@ -602,6 +602,42 @@ Where a redaction would touch a hash-verified document, redact nothing — leave
 raise it instead. `ingest_nsw_planning.py` now applies the same redaction at archive time, so future
 scrapes never write the key to disk.
 
+#### One scraper was not enough (2026-11-15)
+
+That fix covered `ingest_nsw_planning.py` only. The pages archived later by the general archiver,
+`archive_pages.py`, went to disk with their credentials intact:
+
+| Archive | Added in | What it carries |
+| --- | --- | --- |
+| `data/raw/councils/penrith/vpa-microsoft-datacenter.html` | Batch 3 | 1 Google Maps key, 2 platform page tokens |
+| `data/raw/nsw_planning/ipc/talavera-road-data-centre-campus-expansion.html` | Batch 5 | 3 occurrences of 1 Google Maps key |
+
+Both are hash-verified — each has a `.meta.json` with `sha256` and `bytes` — so by the rule above they
+are **left intact and raised**, not redacted. The decision on them is the author's.
+
+This is not a cosmetic problem. Netlify's Secrets Controller scans **repository code as well as build
+output**, so these two files failed the site build with `Exposed secrets detected` even though
+`data-pipeline/` is never published. Production could not deploy from 30 October (Batch 5, which added
+the Talavera archive) until 15 November 2026. The deploy is unblocked by safelisting those specific
+values in Netlify with `SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES`, which leaves scanning active for
+everything else; see `docs/DEPLOYMENT.md`.
+
+Three changes so it cannot recur:
+
+- **`scrapers/redact.py`** holds the rules once, shared by `archive_pages.py` and
+  `ingest_nsw_planning.py`. A redaction in one scraper is not a redaction. It covers Google browser
+  keys and page tokens under a `token`/`authtoken` key; a long base64 triple anywhere else is evidence,
+  not a credential, and is left alone. A PDF's bytes are never rewritten — that breaks its
+  cross-reference offsets — so its extracted text is cleaned instead.
+- **Redaction happens before anything is written**, and the manifest hashes the bytes actually stored,
+  recording `redacted` and `upstream_sha256` beside them. The archive never claims to be byte-identical
+  to the response it came from.
+- **`scripts/check_secrets.py`** scans the whole repository and fails on any credential outside the two
+  raised archives, which are named in it with the reason. It runs in CI on every pull request
+  (`check-secrets`) and in `make all`, so the failure lands on the change that introduced it rather than
+  on the next production deploy. Verified by mutation: planting a key fails it, removing the key passes.
+  `make check-redact` runs the fixtures for both.
+
 ## Scope decisions worth knowing about
 
 - **Australia, not the NEM.** Every site carries `market` ∈ {NEM, WEM, NT}. WA and the NT are inside

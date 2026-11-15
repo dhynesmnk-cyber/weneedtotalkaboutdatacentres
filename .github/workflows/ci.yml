@@ -11,6 +11,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Before anything else: Netlify's Secrets Controller scans repository code, not just
+      # the published build, so a third-party API key inside an archived research page
+      # fails the production deploy. Two such keys took the site down from 30 October to
+      # 15 November 2026 with nothing here looking for them. This fails on the pull request
+      # instead. Needs no dependencies, so it fails in seconds.
+      - name: Secrets in the repository
+        run: python3 data-pipeline/scripts/check_secrets.py
+
+      - name: Redaction fixtures
+        run: |
+          python3 data-pipeline/scrapers/redact.py --selftest
+          python3 data-pipeline/scripts/check_secrets.py --selftest
+
       - uses: actions/setup-node@v4
         with:
           node-version: '22'

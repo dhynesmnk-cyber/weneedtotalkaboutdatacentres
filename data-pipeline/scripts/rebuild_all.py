@@ -74,6 +74,11 @@ def run(*args: str) -> None:
 def main(argv: list[str]) -> int:
     # Fail fast if a pack or curation script is wired into only one of the two drivers.
     run(PY, "scripts/check_packs.py")
+    # No credential outside the known, raised list, before anything is rebuilt or fetched.
+    # Mirrors the Makefile's check-secrets: Netlify scans repository code, so a key in an
+    # archived page fails the site build, and this fails here first.
+    run(PY, "scripts/check_secrets.py")
+    run(PY, "scrapers/redact.py", "--selftest")
     # Offline parser fixtures for the AusTender scraper. Mirrors the Makefile's check-austender:
     # a check only one driver runs is the drift check_packs.py exists to catch.
     run(PY, "scrapers/ingest_austender.py", "--selftest")

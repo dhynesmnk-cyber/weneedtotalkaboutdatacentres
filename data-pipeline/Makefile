@@ -49,12 +49,24 @@ CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-secrets check-redact check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
-all: check-packs check-austender check-patents build verify load check-filings docs
+all: check-packs check-secrets check-redact check-austender check-patents build verify load check-filings docs
 
 check-packs:
 	$(PY) scripts/check_packs.py
+
+# No credential outside the known, raised list. Netlify's secret scanning reads repository
+# code, so a third-party key in an archived page fails the site build: this fails first, on
+# the change that introduced it. See scripts/check_secrets.py for the two raised archives.
+check-secrets:
+	$(PY) scripts/check_secrets.py
+
+# Fixtures for the shared redaction rules, including that a near miss and an ordinary page
+# are left byte for byte alone.
+check-redact:
+	$(PY) scrapers/redact.py --selftest
+	$(PY) scripts/check_secrets.py --selftest
 
 # Offline fixture tests for the AusTender link-discovery parser. In `all` on the repo's own
 # lesson from check_packs.py: a check no driver runs is a check that silently rots. Proves the

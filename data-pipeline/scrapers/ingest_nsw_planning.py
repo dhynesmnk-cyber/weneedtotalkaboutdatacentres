@@ -39,6 +39,11 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
+# Third-party credentials are stripped before anything is written. The rules are shared
+# with archive_pages.py: keeping them in this scraper alone is what let the Penrith and
+# Talavera Road archives reach disk with their keys intact in October.
+from redact import redact as _redact
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "raw", "nsw_planning")
 PORTAL = "https://www.planningportal.nsw.gov.au"
@@ -56,24 +61,7 @@ def _get(url: str, timeout: int = 60) -> bytes:
 
 # The portal embeds its own Google Maps browser key in the page's drupal-settings-json
 # block. It is their credential, already public on their site, but archiving it here would
-# republish it and trip secret scanners, so it never reaches disk.
-_REDACTIONS: tuple[tuple[bytes, bytes], ...] = (
-    (re.compile(rb"AIzaSy[A-Za-z0-9_-]{33}"), b"REDACTED-THIRD-PARTY-GOOGLE-MAPS-API-KEY"),
-)
-
-
-def _redact(body: bytes) -> tuple[bytes, list[str]]:
-    """Strip third-party credentials from a fetched page before it is archived.
-
-    Returns the body to store and the labels of what was removed, so the manifest can
-    record that the stored bytes are not byte-identical to what the server sent.
-    """
-    applied: list[str] = []
-    for pattern, replacement in _REDACTIONS:
-        body, count = pattern.subn(replacement, body)
-        if count:
-            applied.append(f"{replacement.decode()} x{count}")
-    return body, applied
+# republish it and trip secret scanners, so it never reaches disk. See scrapers/redact.py.
 
 
 def _archive(kind: str, key: str, body: bytes, url: str) -> str:

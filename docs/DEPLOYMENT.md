@@ -76,6 +76,34 @@ step 6a.
 - Only the anon key is exposed to the browser. The service role key is used
   exclusively by ingestion jobs and edge functions, never in frontend code.
 
+### Netlify secret scanning reads the whole repository
+Netlify's Secrets Controller scans repository code as well as build output, and
+fails the build with `Exposed secrets detected` when it matches something. It
+does not care that the file is never published.
+
+Two archived research pages carry other parties' Google Maps browser keys:
+`data-pipeline/data/raw/councils/penrith/vpa-microsoft-datacenter.html` and
+`data-pipeline/data/raw/nsw_planning/ipc/talavera-road-data-centre-campus-expansion.html`.
+They failed every deploy from 30 October to 15 November 2026, production and
+preview alike, while CI stayed green — CI ran the build, which passes.
+
+Both archives are hash-verified, so `data-pipeline/README.md` forbids redacting
+them without the author's decision: leave the archive intact and raise it. They
+are raised there, and named in `data-pipeline/scripts/check_secrets.py`.
+
+To deploy while that decision is outstanding, safelist those exact values:
+- Netlify → Project configuration → Environment variables, add
+  `SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES` with the values comma-separated,
+  in all scopes, then trigger a deploy.
+- This is Netlify's documented false-positive path. It exempts those strings
+  only; scanning stays active for everything else, including the service role
+  key. Do **not** set `SECRETS_SCAN_SMART_DETECTION_ENABLED=false` or
+  `SECRETS_SCAN_ENABLED=false`, which disable the protection wholesale.
+
+New archives are redacted before they are written (`data-pipeline/scrapers/redact.py`),
+and CI runs `check_secrets.py` on every pull request, so a credential now fails
+the change that introduced it rather than the next production deploy.
+
 ## Backups and recovery
 
 ### The gap, stated plainly
