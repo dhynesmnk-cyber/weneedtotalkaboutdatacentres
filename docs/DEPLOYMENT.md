@@ -87,22 +87,23 @@ Two archived research pages carry other parties' Google Maps browser keys:
 They failed every deploy from 30 October to 15 November 2026, production and
 preview alike, while CI stayed green — CI ran the build, which passes.
 
-Both archives are hash-verified, so `data-pipeline/README.md` forbids redacting
-them without the author's decision: leave the archive intact and raise it. They
-are raised there, and named in `data-pipeline/scripts/check_secrets.py`.
+Both archives were hash-verified, so `data-pipeline/README.md` required them to be
+raised rather than quietly redacted. The author decided on 2026-11-15 to redact
+them; both are now redacted and re-manifested, with the stored digest updated and
+`redacted` and `upstream_sha256` recorded. The derived text each curation reads was
+proved unchanged, and `check-export` still passes.
 
-To deploy while that decision is outstanding, safelist those exact values:
-- Netlify → Project configuration → Environment variables, add
-  `SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES` with the values comma-separated,
-  in all scopes, then trigger a deploy.
-- This is Netlify's documented false-positive path. It exempts those strings
-  only; scanning stays active for everything else, including the service role
-  key. Do **not** set `SECRETS_SCAN_SMART_DETECTION_ENABLED=false` or
-  `SECRETS_SCAN_ENABLED=false`, which disable the protection wholesale.
+**No safelist is needed.** The repository holds no credential, so
+`SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES` should be left unset. If a future deploy
+fails this way, the answer is to redact at archive time and raise it if the document
+is hash-verified — not to exempt the string. Do **not** set
+`SECRETS_SCAN_SMART_DETECTION_ENABLED=false` or `SECRETS_SCAN_ENABLED=false`, which
+disable the protection wholesale, including for the service role key.
 
 New archives are redacted before they are written (`data-pipeline/scrapers/redact.py`),
 and CI runs `check_secrets.py` on every pull request, so a credential now fails
-the change that introduced it rather than the next production deploy.
+the change that introduced it rather than the next production deploy. Its known list
+is empty and should stay empty.
 
 ## Backups and recovery
 

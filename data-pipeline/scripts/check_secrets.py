@@ -13,13 +13,12 @@ change that introduced it rather than on the next production deploy.
 
 It reports the file, the line and a masked prefix. It never prints a whole credential.
 
-Two archives are named below as known and raised. They are hash-verified documents, and
-data-pipeline/README.md is explicit: where a redaction would touch a hash-verified document,
-redact nothing, leave the archive intact and raise it instead. They are listed so this check
-is green on the repository as it stands, and so the exception is visible and auditable rather
-than buried in a scanner's configuration. Anything not named here fails the check.
+Nothing is exempt. Two archives were raised here on 2026-11-15 rather than redacted, because
+they are hash-verified and data-pipeline/README.md says to leave such a document intact and
+raise it. The author decided to redact them the same day; both were redacted and re-manifested,
+and the derived text each curation reads was proved unchanged. The known list is now empty.
 
-Exit 1 on any credential outside the known list. Run: python3 scripts/check_secrets.py
+Exit 1 on any credential. Run: python3 scripts/check_secrets.py
 Fixtures: python3 scripts/check_secrets.py --selftest
 """
 from __future__ import annotations
@@ -50,17 +49,16 @@ PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("JWT", re.compile(r"\beyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}\b")),
 )
 
-# Known, raised, and deliberately left intact. Both are hash-verified archives: redacting
-# them would break the sha256 in their .meta.json, which README.md forbids without the
-# author's decision. Raised 2026-11-15. Netlify is safelisted for these specific values with
-# SECRETS_SCAN_SMART_DETECTION_OMIT_VALUES so the deploy is not blocked in the meantime.
-# Remove an entry once the author decides to redact and re-manifest the file.
-KNOWN: dict[str, str] = {
-    "data-pipeline/data/raw/councils/penrith/vpa-microsoft-datacenter.html":
-        "Penrith consultation platform: 1 Google Maps key, 2 page tokens. Hash-verified archive.",
-    "data-pipeline/data/raw/nsw_planning/ipc/talavera-road-data-centre-campus-expansion.html":
-        "NSW Independent Planning Commission: 3 occurrences of 1 Google Maps key. Hash-verified archive.",
-}
+# Nothing is exempt. Two archives were listed here from 2026-11-15 while the author decided
+# whether to redact them: they were hash-verified, and data-pipeline/README.md says to raise
+# rather than redact such a document. The author chose to redact the same day. Both were
+# redacted and re-manifested — stored sha256 and bytes updated, `redacted` and
+# `upstream_sha256` recorded — and the derived .txt each curation reads was proved unchanged.
+#
+# Keep this list empty. If a hash-verified archive ever needs an exception, add it here with
+# the reason and the date it was raised, so it is visible rather than buried in a scanner's
+# configuration, and remove it once the decision is taken.
+KNOWN: dict[str, str] = {}
 
 
 def mask(value: str) -> str:
@@ -114,15 +112,15 @@ def run(repo: str = REPO) -> int:
                   "the entry can be removed")
 
     if failures:
-        print("\nCredentials found outside the known list:", file=sys.stderr)
+        print("\nCredentials found:", file=sys.stderr)
         for failure in failures:
             print(f"  {failure}", file=sys.stderr)
         print("\nRedact it at archive time (scrapers/redact.py) rather than committing it.\n"
               "If it is a hash-verified archive, leave it intact and raise it instead.",
               file=sys.stderr)
         return 1
-    print(f"check-secrets: no credentials outside the known list "
-          f"({len(known_hits)} known archive(s) raised)")
+    print(f"check-secrets: no credentials found"
+          + (f" ({len(known_hits)} known archive(s) raised)" if known_hits else ""))
     return 0
 
 

@@ -612,8 +612,31 @@ That fix covered `ingest_nsw_planning.py` only. The pages archived later by the 
 | `data/raw/councils/penrith/vpa-microsoft-datacenter.html` | Batch 3 | 1 Google Maps key, 2 platform page tokens |
 | `data/raw/nsw_planning/ipc/talavera-road-data-centre-campus-expansion.html` | Batch 5 | 3 occurrences of 1 Google Maps key |
 
-Both are hash-verified — each has a `.meta.json` with `sha256` and `bytes` — so by the rule above they
-are **left intact and raised**, not redacted. The decision on them is the author's.
+Both were hash-verified — each has a `.meta.json` with `sha256` and `bytes` — so by the rule above they
+were **left intact and raised** on 2026-11-15 rather than quietly changed. **The author decided the
+same day to redact them**, which is what the rule reserves to the author. Both are now redacted and
+re-manifested:
+
+| Archive | Removed | Stored bytes |
+| --- | --- | --- |
+| `vpa-microsoft-datacenter.html` | 1 Google Maps key, 2 page tokens | 175,881 → 175,128 |
+| `talavera-road-data-centre-campus-expansion.html` | 3 occurrences of 1 Google Maps key | 118,806 → 118,809 |
+
+Each manifest now hashes the bytes actually stored and records `redacted` and `upstream_sha256`, so
+the fetch remains reproducible from the original response and the archive never claims to be
+byte-identical to it. Verified before writing, not after:
+
+- the stored bytes matched the manifest **before** redaction, so the edit started from a known-good
+  archive;
+- **the derived `.txt` is unchanged** — regenerating the visible text from the redacted HTML reproduces
+  the committed `.txt` exactly, so nothing a curation quotes has moved (`curate_public_and_room.py`
+  reads `vpa-microsoft-datacenter.txt`, not the HTML);
+- the Talavera `drupal-settings-json` block still parses;
+- no script reads either HTML file, and neither digest was cited anywhere but its own manifest;
+- `check-export` still passes: 46 committed CSVs match the database exactly.
+
+The rule stands for the next case: raise it, let the author decide, then redact and re-manifest with
+the upstream digest kept.
 
 This is not a cosmetic problem. Netlify's Secrets Controller scans **repository code as well as build
 output**, so these two files failed the site build with `Exposed secrets detected` even though
