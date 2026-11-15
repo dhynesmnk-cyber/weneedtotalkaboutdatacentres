@@ -18,7 +18,7 @@ export default function ErrorPage({
 }) {
   return (
     <div className="space-y-4" role="alert">
-      <h1 className="text-2xl font-bold text-slate-900">This page could not be loaded</h1>
+      <h1 className="page-title">This page could not be loaded</h1>
       <p className="max-w-2xl text-slate-700">
         Something went wrong while fetching the records for this page. Nothing
         has been shown in their place. Try again, and if the fault persists,

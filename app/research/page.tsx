@@ -47,8 +47,9 @@ export default async function ResearchPage({
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">Open questions</h1>
-        <p className="mt-2 max-w-2xl text-slate-700">
+        <p className="kicker text-fact-ink">The record</p>
+        <h1 className="page-title mt-2">Open questions</h1>
+        <p className="standfirst mt-3">
           What the observatory has not yet established, why each question
           matters, and how it is to be answered. A question is not a finding:
           it says what is missing. The sources under each one show that the
@@ -57,7 +58,7 @@ export default async function ResearchPage({
         <p className="mt-2 max-w-2xl text-slate-700">
           A question is different from a gap. A gap is one missing value on one
           site, and{' '}
-          <Link href="/coverage" className="text-fact-ink underline underline-offset-2">
+          <Link href="/coverage" className="link">
             What&rsquo;s known
           </Link>{' '}
           counts them field by field. A question is a line of enquiry, and may
@@ -159,8 +160,10 @@ function Question({ question: q }: { question: ResearchQuestion }) {
 
   return (
     <article
+      // The RG label is the anchor essays link to: /research#RG-070.
+      id={q.pipeline_id ?? undefined}
       aria-labelledby={`q-${q.id}`}
-      className="rounded-lg border border-slate-200 border-l-4 border-l-fact-edge px-4 py-3"
+      className="scroll-mt-6 rounded-lg border border-slate-200 border-l-4 border-l-fact-edge px-4 py-3 target:ring-2 target:ring-fact-ink"
     >
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm text-slate-600">
         <span className="rounded border border-fact-edge bg-fact-wash px-2 py-0.5 font-mono text-xs font-medium text-fact-ink">

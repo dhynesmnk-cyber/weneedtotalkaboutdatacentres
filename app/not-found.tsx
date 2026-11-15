@@ -13,20 +13,20 @@ export const metadata = { title: 'Not found' };
 export default function NotFound() {
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold text-slate-900">Not found</h1>
+      <h1 className="page-title">Not found</h1>
       <p className="max-w-2xl text-slate-700">
         There is no published page at this address. If you followed a link to a
         record, it may have been removed or never published.
       </p>
       <ul className="flex flex-wrap gap-x-5 gap-y-1 text-sm">
         <li>
-          <Link href="/list" className="text-fact-ink underline underline-offset-2">
+          <Link href="/list" className="link">
             Browse all sites and entities
           </Link>
         </li>
         <li>
-          <Link href="/" className="text-fact-ink underline underline-offset-2">
-            Go to the timeline
+          <Link href="/" className="link">
+            Go to the overview
           </Link>
         </li>
       </ul>

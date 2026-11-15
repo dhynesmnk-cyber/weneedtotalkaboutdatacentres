@@ -27,7 +27,7 @@ export function StatusBreakdown({ counts }: { counts: StatusCount[] }) {
             {status ? (
               <Link
                 href={indexHref({ ...DEFAULT_QUERY, status })}
-                className="text-fact-ink underline underline-offset-2"
+                className="link"
               >
                 {label}
               </Link>

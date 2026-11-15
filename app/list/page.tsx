@@ -62,8 +62,9 @@ export default async function ListPage({
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">Sites and entities</h1>
-        <p className="mt-2 max-w-2xl text-slate-700">
+        <p className="kicker text-fact-ink">The record</p>
+        <h1 className="page-title mt-2">Sites and entities</h1>
+        <p className="standfirst mt-3">
           The full index. Entity profiles are published only for entities flagged
           as major by public prominence.
         </p>
@@ -98,7 +99,7 @@ export default async function ListPage({
                   {filtered && (
                     <Link
                       href={indexHref({ ...DEFAULT_QUERY, sort: query.sort, dir: query.dir })}
-                      className="text-fact-ink underline underline-offset-2"
+                      className="link"
                     >
                       Clear filters
                     </Link>
@@ -146,7 +147,7 @@ export default async function ListPage({
                               <th scope="row" className="py-2 pr-4 text-left font-medium">
                                 <Link
                                   href={`/sites/${site.id}`}
-                                  className="text-fact-ink underline underline-offset-2"
+                                  className="link"
                                 >
                                   {site.name}
                                 </Link>
@@ -197,7 +198,7 @@ export default async function ListPage({
                   <li key={entity.id} className="px-4 py-3">
                     <Link
                       href={`/entities/${entity.id}`}
-                      className="font-medium text-fact-ink underline underline-offset-2"
+                      className="font-medium link"
                     >
                       {entity.name}
                     </Link>
@@ -226,7 +227,7 @@ function FilterForm({
   councils: string[];
 }) {
   const select =
-    'mt-1 block w-full rounded border border-slate-300 bg-white px-2 py-1 text-sm sm:w-56';
+    'mt-1 block w-full rounded border border-slate-500 bg-white px-2 py-1 text-sm sm:w-56';
 
   return (
     <form
@@ -311,7 +312,7 @@ function SortHeader({
             ? `, sorted ${sort}. Select to sort ${query.dir === 'asc' ? 'descending' : 'ascending'}`
             : ', select to sort'}
         </span>
-        <span aria-hidden="true" className={active ? 'text-fact-ink' : 'text-slate-500'}>
+        <span aria-hidden="true" className={active ? 'text-fact-ink' : 'text-slate-600'}>
           {active ? (query.dir === 'asc' ? '▲' : '▼') : '↕'}
         </span>
       </Link>

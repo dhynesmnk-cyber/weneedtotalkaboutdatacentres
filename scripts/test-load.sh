@@ -105,9 +105,18 @@ psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${repo_root}/supabase/tests/reloa
 psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${artefact}"
 psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${repo_root}/supabase/tests/reload.test.sql"
 
+echo "Loading the essay drafts, twice"
+essays="${repo_root}/.artifacts/load-essays.test.sql"
+(cd "${repo_root}" && npx tsx scripts/editorial/load-essays.ts --out "${essays}") \
+  | sed 's/^/  /'
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${essays}"
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f "${essays}"
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -v essays="${essays}" \
+  -f "${repo_root}/supabase/tests/essays-load.test.sql"
+
 if [ "${KEEP_TEST_DB:-}" != "1" ]; then
   psql -q -d postgres -c "drop database if exists ${TEST_DB};"
-  rm -f "${artefact}"
+  rm -f "${artefact}" "${essays}"
 fi
 
 echo "Load tests passed."

@@ -144,7 +144,7 @@ export const BACKUP_TABLES: readonly BackupTable[] = [
     table: 'essays',
     primaryKey: ['id'],
     recoverability: 'curated',
-    note: 'Published analysis. No loader can reach this schema at all.',
+    note: 'Essays, the position page and proposals, drafts and published. Agent drafts arrive through a reviewed artefact; edits made in /admin exist nowhere else.',
   },
   {
     name: 'editorial.case_studies',
@@ -153,6 +153,30 @@ export const BACKUP_TABLES: readonly BackupTable[] = [
     primaryKey: ['id'],
     recoverability: 'curated',
     note: 'Published analysis. No loader can reach this schema at all.',
+  },
+  {
+    name: 'editorial.essay_revisions',
+    schema: 'editorial',
+    table: 'essay_revisions',
+    primaryKey: ['id'],
+    recoverability: 'curated',
+    note: 'Every earlier text of every essay, kept by trigger. The only record of what the editor changed.',
+  },
+  {
+    name: 'editorial.approvals',
+    schema: 'editorial',
+    table: 'approvals',
+    primaryKey: ['id'],
+    recoverability: 'curated',
+    note: 'Who approved or retracted which text, and when. The audit trail of publication.',
+  },
+  {
+    name: 'editorial.editors',
+    schema: 'editorial',
+    table: 'editors',
+    primaryKey: ['email'],
+    recoverability: 'curated',
+    note: 'The allow-list of editors. Inserted by hand; without it a restore has no one who can approve.',
   },
 ];
 

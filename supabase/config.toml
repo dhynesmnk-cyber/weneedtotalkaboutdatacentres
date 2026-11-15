@@ -31,9 +31,13 @@ port = 54323
 
 [auth]
 enabled = true
-# v1 has no public sign-in. All public access is anonymous and read-only,
-# governed by the policies in supabase/migrations/0004_rls.sql.
+# No public sign-in. Readers are anonymous and read-only (0004_rls.sql). The
+# one exception is the invited editor, who signs in at /admin by emailed link
+# (0014 to 0017). Nobody can create an account: sign-up stays off, and the
+# editor is invited from the dashboard.
 enable_signup = false
+site_url = "http://127.0.0.1:3000"
+additional_redirect_urls = ["http://127.0.0.1:3000/admin/auth/callback", "http://localhost:3000/admin/auth/callback"]
 
 [storage]
 enabled = true

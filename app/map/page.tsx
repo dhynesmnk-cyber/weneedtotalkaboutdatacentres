@@ -36,8 +36,9 @@ export default async function MapPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-slate-900">Map</h1>
-        <p className="mt-2 max-w-2xl text-slate-700">
+        <p className="kicker text-fact-ink">The record</p>
+        <h1 className="page-title mt-2">Map</h1>
+        <p className="standfirst mt-3">
           Every site with recorded coordinates, as a single point layer.
         </p>
       </div>
@@ -98,7 +99,7 @@ export default async function MapPage() {
                 <li key={site.id} className="px-4 py-3">
                   <Link
                     href={`/sites/${site.id}`}
-                    className="font-medium text-fact-ink underline underline-offset-2"
+                    className="font-medium link"
                   >
                     {site.name}
                   </Link>

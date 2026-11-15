@@ -10,6 +10,11 @@ Two review tracks run in parallel. Both are mandatory before merge or publish.
 - Publish date and data as of date are present.
 - No fabricated numbers or inferred financials.
 - Community opposition sourced only from planning or council records.
+- People named only by public role, each listed in named_parties, until legal
+  review is arranged.
+- A piece touching Anthropic carries the conflict disclosure, and its sources
+  were read directly, not through the draft.
+- `npm run check:essays` passes; the preview at /admin was read in full.
 
 ## Code review (pre merge)
 - Migration present for any schema change.
@@ -17,6 +22,8 @@ Two review tracks run in parallel. Both are mandatory before merge or publish.
 - Tests added or updated for parsers and financial calculations.
 - Row Level Security verified for public read paths.
 - No secrets in repo or logs.
+- Nothing under app/ uses the service role key; /admin pages check
+  currentEditor() and every editorial write path has an RLS test.
 - Docs updated if behaviour changed.
 
 ## Cadence

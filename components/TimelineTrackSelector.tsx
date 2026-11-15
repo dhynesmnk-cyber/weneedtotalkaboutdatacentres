@@ -92,7 +92,7 @@ export function TimelineTrackSelector({
             >
               <input
                 type="checkbox"
-                className="h-4 w-4 rounded border-fact-edge text-fact-ink"
+                className="h-4 w-4 accent-fact-ink"
                 checked={checked}
                 disabled={onlyOne}
                 onChange={() => toggle(category)}

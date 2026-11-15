@@ -75,6 +75,10 @@ wait_for() {
 echo "Loading the pipeline into ${TEST_DB}"
 TEST_DB="${TEST_DB}" KEEP_TEST_DB=1 ./scripts/test-load.sh >/dev/null
 
+# Published pieces to render. Test-only text in the throwaway database; see the
+# file's header.
+psql -v ON_ERROR_STOP=1 -q -d "${TEST_DB}" -f supabase/tests/ui-fixture.sql
+
 # Max rows matches Supabase's default, which truncates a response at 1000
 # rows without an error. Without it a read that forgets to page would pass
 # here and undercount in production.

@@ -12,9 +12,32 @@ procedure for rebuilding the project, or standing up a second one.
 
 ## Status
 
-The project exists, all thirteen migrations are applied, and the research is
+The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
+
+Release 1 applied on 2026-11-11 from `claude/bold-goldberg-0ek4ml@f168531`,
+over the Management API from a Claude Code session (port 5432 is still
+unreachable from sessions). In order:
+
+1. The research reload. The artefact carried 284 sources, 142 entities, 93
+   sites, 88 research questions, 602 citations, 1,552 data gaps and 59 proposed
+   links. The database now holds 608 citations: six from the 21 October load
+   are no longer produced by the pipeline, and the loader never deletes. They
+   are listed for review, not removed.
+2. Migrations `0014`–`0017`, each in its own transaction together with its row
+   in `supabase_migrations.schema_migrations`, so `db push` sees all
+   seventeen.
+3. The two essay drafts, unapproved: ES-001 with 8 citations, ES-000 with 6.
+
+Checked afterwards:
+- Privileges: only `authenticated` may execute `approve_essay`, and
+  `editorial.editors` is unreadable through the API.
+- As anon: no drafts, no essay citations, insert and approval refused, 93
+  sites readable.
+
+Not done here: inviting the editor, the allow-list row, URL configuration,
+SMTP and `SITE_URL`. These are step 6a.
 
 Reloaded on 2026-10-21 from `main@b7b6c66` (pipeline v2.2.2), with no
 migration needed. The artefact carried 93 sites, 248 sources, 138 entities, 507
@@ -255,6 +278,35 @@ deliberately refuses to perform on its own:
   coordinates"). The map says how many sites it could not place. The rest need
   a sourced location; geocoding is curation work with a source per point, not
   something an importer may invent.
+
+## 6a. Set up the editor (Release 1)
+
+Migrations 0014 to 0017 add the editor's desk at `/admin`. Apply them with the
+rest (step 2), then:
+
+1. **Reload the research first** (step 6). The essay drafts cite sources added
+   after the 21 October load, and the citation trigger refuses an essay citing
+   a source the database does not hold.
+2. **Invite yourself** in Authentication → Users → Invite user. Sign-up stays
+   off, so only an invited address can ever sign in.
+3. **Put yourself on the allow-list**, in the SQL editor:
+
+   ```sql
+   insert into editorial.editors (email, added_by)
+   values (lower('you@example.org'), 'set up by hand');
+   ```
+
+   Being signed in is not enough to edit: this row is what the database checks.
+4. **Allow the sign-in link's return address**, in Authentication → URL
+   Configuration: set the Site URL to the production address, and add
+   `https://<production>/admin/auth/callback` and, for deploy previews,
+   `https://*--<site>.netlify.app/admin/auth/callback` to the redirect URLs.
+5. **Set up email.** Supabase's built-in sender is for testing, with a low
+   hourly limit. Add custom SMTP (Authentication → Emails) before relying on it.
+6. **Load the drafts:** `npm run load:essays`, read `.artifacts/load-essays.sql`,
+   and apply it. It loads drafts only, and leaves alone anything you have
+   already edited or approved.
+7. Sign in at `/admin`, read, edit and approve.
 
 ## 7. Set the same variables in Netlify
 

@@ -2,65 +2,89 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useEffect, useId, useState } from 'react';
+import { ariaCurrent, NAV_GROUPS } from '@/lib/nav';
 
-// docs/SPEC.md's entry-point order, then what the record does and does not yet hold.
-const NAV = [
-  { href: '/', label: 'Overview' },
-  { href: '/essays', label: 'Essays' },
-  { href: '/map', label: 'Map' },
-  { href: '/list', label: 'Sites and entities' },
-  { href: '/coverage', label: 'What’s known' },
-  { href: '/research', label: 'Open questions' },
-] as const;
-
-/** A section is current on its own page and on the records beneath it. */
-function isCurrent(href: string, pathname: string): boolean {
-  if (href === '/') return pathname === '/';
-  if (href === '/list') {
-    return ['/list', '/sites', '/entities'].some(
-      (p) => pathname === p || pathname.startsWith(`${p}/`),
-    );
-  }
-  if (href === '/essays') {
-    return ['/essays', '/case-studies'].some(
-      (p) => pathname === p || pathname.startsWith(`${p}/`),
-    );
-  }
-  return pathname === href || pathname.startsWith(`${href}/`);
-}
+const GROUP_INK = {
+  record: 'text-fact-ink',
+  analysis: 'text-editorial-ink',
+} as const;
 
 /**
- * Primary navigation, marking where the reader is.
+ * Primary navigation, in two labelled groups: the record and the analysis.
  *
- * `aria-current="page"` is set only on an exact match: on a site record the
- * index link is marked "location" instead, because the reader is inside that
- * section but not on its page.
+ * On narrow screens the links fold behind a Menu button. The fold happens only
+ * once the page is interactive, so without JavaScript every link is still
+ * shown, wrapped, rather than hidden behind a button that cannot open.
  */
 export function PrimaryNav() {
   const pathname = usePathname();
+  const listId = useId();
+  const [enhanced, setEnhanced] = useState(false);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => setEnhanced(true), []);
+  // Following a link closes the menu.
+  useEffect(() => setOpen(false), [pathname]);
+
+  const folded = enhanced && !open;
 
   return (
-    <nav aria-label="Primary" className="mt-3">
-      <ul className="flex flex-wrap gap-x-5 gap-y-1 text-sm">
-        {NAV.map((item) => {
-          const current = isCurrent(item.href, pathname);
-          return (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                aria-current={current ? (pathname === item.href ? 'page' : 'location') : undefined}
-                className={
-                  current
-                    ? 'rounded font-semibold text-fact-ink underline decoration-2 underline-offset-4'
-                    : 'rounded text-slate-700 underline-offset-4 hover:underline'
-                }
-              >
-                {item.label}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+    <nav aria-label="Primary" className="md:mt-0">
+      {enhanced && (
+        <button
+          type="button"
+          aria-expanded={open}
+          aria-controls={listId}
+          onClick={() => setOpen((o) => !o)}
+          className="inline-flex min-h-11 items-center gap-2 rounded border border-slate-500 px-3
+                     text-sm font-medium text-slate-900 md:hidden"
+        >
+          <span aria-hidden="true" className="text-base leading-none">
+            {open ? '×' : '≡'}
+          </span>
+          Menu
+        </button>
+      )}
+
+      <div
+        id={listId}
+        className={`${folded ? 'hidden' : 'flex'} mt-3 flex-col gap-4 md:mt-0 md:flex md:flex-row md:items-baseline md:gap-8`}
+      >
+        {NAV_GROUPS.map((group) => (
+          <div key={group.id} className="md:flex md:items-baseline md:gap-4">
+            <p
+              id={`${listId}-${group.id}`}
+              className={`kicker ${GROUP_INK[group.id]} mb-1 md:mb-0`}
+            >
+              {group.label}
+            </p>
+            <ul
+              aria-labelledby={`${listId}-${group.id}`}
+              className="flex flex-col md:flex-row md:flex-wrap md:gap-x-4"
+            >
+              {group.items.map((item) => {
+                const current = ariaCurrent(item.href, pathname);
+                return (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      aria-current={current}
+                      className={`flex min-h-11 items-center rounded text-sm md:min-h-0 md:py-1 ${
+                        current
+                          ? 'font-semibold text-slate-900 underline decoration-2 underline-offset-[6px]'
+                          : 'text-slate-700 underline-offset-[6px] hover:text-slate-900 hover:underline'
+                      }`}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
     </nav>
   );
 }

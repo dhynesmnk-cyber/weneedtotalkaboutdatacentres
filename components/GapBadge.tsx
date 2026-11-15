@@ -51,12 +51,14 @@ export function UnexplainedBadge() {
   return (
     <span
       data-unexplained
-      className="inline-flex items-center gap-1 rounded border border-red-300
-                 bg-red-50 px-2 py-0.5 text-sm font-medium text-red-800"
+      className="inline-flex items-center gap-1 rounded border border-defect-edge
+                 bg-defect-wash px-2 py-0.5 text-sm font-medium text-defect-ink"
       title="No value and no recorded gap. This is a data quality defect."
     >
       <span aria-hidden="true">!</span>
       No value recorded
+      {/* The title tooltip is out of reach by keyboard and touch; say it in text too. */}
+      <span className="sr-only">: no value and no recorded gap, a data quality defect</span>
     </span>
   );
 }

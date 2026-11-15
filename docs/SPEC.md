@@ -51,7 +51,19 @@ Define product scope, audience and data model for the observatory.
   The single mechanism linking any record or claim to a source.
 - data_gaps: id, record_type, record_id, field_name, reason, noted_date,
   source_id. Records why a value is missing.
-- essays: id, title, publish_date, youtube_id, body, tags, related_ids.
+- essays: id, title, publish_date, youtube_id, body, tags, related_ids, and
+  (migration 0015) kind (essay | position | proposal), slug, standfirst,
+  data_as_of_date, conflict, named_parties, story_cards, proposal_no, and the
+  provenance columns source_file, source_sha256, edited_in_admin_at and
+  last_edited_by. body is Markdown citing sources inline as [SRC_ID]; the
+  essay's rows in citations are derived from those markers by trigger (0016)
+  and an unknown id is refused. One table serves essays, the "Where we stand"
+  position and the "What if…?" proposals: one approval gate for all three.
+- editors (0014): the allow-list of who may edit and approve. Read only by
+  editorial.is_editor(); never exposed through the API.
+- approvals (0014): every approval and retraction, with the approver taken from
+  the signed-in session and a hash of the approved text.
+- essay_revisions (0015): every earlier text of every essay, kept by trigger.
 - council_watchlist: approved councils for targeted ingestion. See Ingestion scope.
 - research_agenda: open research questions, with why each matters and how it is
   to be answered. NOT the same as data_gaps: a gap is a per-field absence, a
@@ -79,7 +91,7 @@ public read paths can be reviewed one layer at a time.
 
 - facts: sites, entities, events, links, sources, citations, data_gaps,
   council_watchlist.
-- editorial: essays, case_studies.
+- editorial: essays, case_studies, editors, approvals, essay_revisions.
 
 One record type spans the boundary deliberately. case_studies.metrics holds
 factual figures inside an editorial table. Those figures carry citations exactly

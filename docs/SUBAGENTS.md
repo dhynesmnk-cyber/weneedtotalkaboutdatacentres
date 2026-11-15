@@ -16,11 +16,15 @@ Computes financial metrics from verified inputs only.
 Output: metric drafts with input provenance. Refuses to fill gaps.
 
 ## writer_support
-Produces outlines and data pull requests for the human author.
-Output: outlines and cited data snippets. Never final prose.
+Drafts essays, the position and proposals in full, as Markdown in
+editorial/essays/, from the story cards, every factual sentence cited.
+Output: a draft file through a pull request, passing `npm run check:essays`.
+Never approves, never sets approval fields, never holds the editor's session.
+The editor edits and approves at /admin (docs/UX-PLAN.md, decision 6).
 
 ## reviewer
-Checks a draft against the REVIEW.md content checklist.
+Checks a draft against the REVIEW.md content checklist, running
+`npm run check:essays` for the mechanical part.
 Output: pass or fail list with specific citations missing.
 
 ## maintainer
@@ -29,5 +33,7 @@ Output: pull request with migration, types and tests.
 
 ## Boundaries
 - No agent scrapes sources outside the approved scope.
-- No agent publishes essays, case studies or timeline events.
+- No agent publishes essays, case studies or timeline events. Approval is a
+  database function that takes the approver from the signed-in editor's
+  session; no agent holds that session.
 - All agent output is reviewed by a human before it reaches production.

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { BACKUP_TABLES, CURATED_COLUMNS, curatedTables } from '@/lib/backup/tables';
@@ -11,8 +11,12 @@ describe('BACKUP_TABLES', () => {
     // The catalogue is the backup's definition of "everything". A table added
     // by a migration and not added here would be absent from every future
     // backup, and nobody would find out until a restore.
-    const sql = ['0002_facts_tables', '0003_editorial_tables', '0009_research_agenda', '0010_load_support']
-      .map((f) => readFileSync(join(REPO_ROOT, 'supabase', 'migrations', `${f}.sql`), 'utf8'))
+    // Every migration, not a list of them: a list would have to be remembered
+    // too, which is the failure this test exists to prevent.
+    const dir = join(REPO_ROOT, 'supabase', 'migrations');
+    const sql = readdirSync(dir)
+      .filter((f) => f.endsWith('.sql'))
+      .map((f) => readFileSync(join(dir, f), 'utf8'))
       .join('\n');
 
     const created = [...sql.matchAll(/create table (facts|editorial)\.(\w+)/g)].map(
@@ -36,7 +40,7 @@ describe('BACKUP_TABLES', () => {
     expect(new Set(BACKUP_TABLES.map((t) => t.name)).size).toBe(BACKUP_TABLES.length);
   });
 
-  it('classifies both editorial tables as irreplaceable', () => {
+  it('classifies every editorial table as irreplaceable', () => {
     // No loader can reach the editorial schema, so nothing can rebuild it.
     const editorial = BACKUP_TABLES.filter((t) => t.schema === 'editorial');
     expect(editorial.length).toBeGreaterThan(0);

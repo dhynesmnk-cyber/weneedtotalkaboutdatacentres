@@ -215,11 +215,17 @@ export type CaseStudyMetrics = {
   power_cost_per_kw?: number;
 };
 
+/** What an editorial piece is: an essay, the position page, or a policy proposal. */
+export type PieceKind = 'essay' | 'position' | 'proposal';
+
+export const PIECE_KINDS: readonly PieceKind[] = ['essay', 'position', 'proposal'] as const;
+
 export type EssayRow = {
   id: string;
   title: string;
   publish_date: string | null;
   youtube_id: string | null;
+  /** Markdown. Sources are cited inline as [SRC_ID]; see supabase/migrations/0016. */
   body: string | null;
   tags: string[];
   related_ids: string[];
@@ -227,6 +233,49 @@ export type EssayRow = {
   approved_at: string | null;
   created_at: string;
   updated_at: string;
+  kind: PieceKind;
+  slug: string | null;
+  standfirst: string | null;
+  data_as_of_date: string | null;
+  conflict: string | null;
+  named_parties: string[];
+  story_cards: string[];
+  proposal_no: number | null;
+  source_file: string | null;
+  source_sha256: string | null;
+  edited_in_admin_at: string | null;
+  last_edited_by: string | null;
+};
+
+/** The allow-list of editors (0014). Never read through the API. */
+export type EditorRow = {
+  email: string;
+  added_by: string;
+  added_at: string;
+};
+
+/** One approval or retraction, as logged by the approval functions (0017). */
+export type ApprovalRow = {
+  id: string;
+  record_type: 'essays';
+  record_id: string;
+  action: 'approve' | 'retract';
+  actor_email: string;
+  reason: string | null;
+  body_sha256: string | null;
+  at: string;
+};
+
+/** An earlier version of an essay's text (0015). */
+export type EssayRevisionRow = {
+  id: string;
+  essay_id: string;
+  title: string;
+  standfirst: string | null;
+  body: string | null;
+  edited_by: string | null;
+  edited_at: string;
+  saved_at: string;
 };
 
 /**
@@ -313,10 +362,33 @@ export interface Database {
     Tables: {
       case_studies: Table<CaseStudyRow>;
       essays: Table<EssayRow>;
+      editors: Table<EditorRow>;
+      approvals: Table<ApprovalRow>;
+      essay_revisions: Table<EssayRevisionRow>;
     };
     Views: Record<string, never>;
-    Functions: Record<string, never>;
-    Enums: Record<string, never>;
+    Functions: {
+      is_editor: {
+        Args: Record<string, never>;
+        Returns: boolean;
+      };
+      approve_essay: {
+        Args: {
+          p_id: string;
+          p_publish_date: string;
+          p_expected_updated_at: string;
+          p_legal_ack?: boolean;
+        };
+        Returns: EssayRow;
+      };
+      retract_essay: {
+        Args: { p_id: string; p_reason: string };
+        Returns: EssayRow;
+      };
+    };
+    Enums: {
+      piece_kind: PieceKind;
+    };
     CompositeTypes: Record<string, never>;
   };
 }

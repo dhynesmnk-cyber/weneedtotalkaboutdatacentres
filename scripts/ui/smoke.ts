@@ -139,6 +139,13 @@ async function checks(): Promise<Check[]> {
     // A stale or hand-edited link still shows the index rather than failing.
     { path: '/list?sort=price&status=imagined&council=Nowhere', status: 200 },
     { path: '/essays', status: 200 },
+    // The fixture essay (supabase/tests/ui-fixture.sql): numbered citations,
+    // callouts, the divider and the source panel, in both colour schemes.
+    { path: '/essays/ui-test-essay', status: 200, selector: 'sup.cite a[href="#sources-1"]' },
+    { path: '/where-we-stand', status: 200, selector: '#disclosure-heading' },
+    // The editor's desk turns away anyone not signed in, to the sign-in form.
+    { path: '/admin', status: 200, selector: 'input[type=email]' },
+    { path: '/admin/sign-in', status: 200, selector: 'input[type=email]' },
     // The map is drawn in the browser, so a 200 alone does not show it
     // worked. With no coordinates recorded there is nothing to plot, and the
     // page must say so without loading a map at all.
@@ -349,16 +356,28 @@ async function main(): Promise<void> {
   });
 
   try {
-    for (const width of [1280, 390]) {
-      console.log(`\nViewport ${width}px`);
-      const context = await browser.newContext({ viewport: { width, height: 900 } });
+    // Both colour schemes: every page is checked for contrast in dark mode as
+    // well as light, because the tokens give each its own palette.
+    const runs = [
+      { width: 1280, scheme: 'light' },
+      { width: 390, scheme: 'light' },
+      { width: 1280, scheme: 'dark' },
+      { width: 390, scheme: 'dark' },
+    ] as const;
+    for (const { width, scheme } of runs) {
+      console.log(`\nViewport ${width}px, ${scheme}`);
+      const context = await browser.newContext({
+        viewport: { width, height: 900 },
+        colorScheme: scheme,
+      });
       trackRequests(context);
       // Map tiles are a third-party service with a usage policy, and they are
       // not what is under test. Refusing them keeps CI off OpenStreetMap.
       await context.route('**/tile.openstreetmap.org/**', (route) => route.abort());
       const page = await context.newPage();
       if (width === 1280) {
-        await timelineTracks(page);
+        if (scheme === 'light') await timelineTracks(page);
+        // The popup is styled separately from the page; check it in both schemes.
         await mapPopup(page);
       }
       for (const check of await checks()) {
@@ -366,7 +385,7 @@ async function main(): Promise<void> {
         if (process.env.SCREENSHOT_DIR && check.status === 200) {
           const name = check.path.replace(/\//g, '_') || '_';
           await page.screenshot({
-            path: `${process.env.SCREENSHOT_DIR}/${width}${name}.png`,
+            path: `${process.env.SCREENSHOT_DIR}/${width}-${scheme}${name}.png`,
             fullPage: true,
           });
         }
