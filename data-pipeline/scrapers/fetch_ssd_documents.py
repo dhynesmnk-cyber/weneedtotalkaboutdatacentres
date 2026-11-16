@@ -25,6 +25,8 @@ Archive (data/raw/nsw_planning/documents/):
   <case>_<kind>.txt            the text, one "[[page N]]" marker per page, so a quote can cite it,
                                with personal contact details (names in contact fields, emails,
                                mobile numbers) redacted
+  refused.json                 every refusal, keyed by URL: what was asked for, when, and how it
+                               was refused. A run that archives nothing still records why.
 
 The manifest's sha256 lets a PDF that is not committed be re-fetched and verified.
 
@@ -53,6 +55,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from curate_site_coordinates import NODES, first, read_nodes  # noqa: E402
 
 OUT = os.path.join(ROOT, "data", "raw", "nsw_planning", "documents")
+REFUSED = os.path.join(OUT, "refused.json")
 BASE = "https://www.planningportal.nsw.gov.au"
 UA = ("ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research "
       "database; single-threaded polite crawler; stop on request)")
@@ -105,11 +108,49 @@ def candidates(node: dict, start: int) -> list[tuple[str, str, re.Pattern]]:
     return out
 
 
+# Every refusal is recorded, not just printed. The project's rule is that a gap says why it is a
+# gap: a run that archives nothing must still leave evidence of what was asked for, when, and how
+# it was refused. Entries are keyed by URL and merged, so an earlier refusal is never overwritten
+# without its first-checked date being kept.
+_refusals: dict[str, dict] = {}
+CURRENT: dict[str, str] = {}
+
+
+def record_refusal(url: str, how: str) -> None:
+    _refusals[url] = dict(checked_utc=datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                          how=how, user_agent=UA, **CURRENT)
+
+
+def flush_refusals() -> int:
+    """Merge this run's refusals into refused.json. Returns the number of URLs written."""
+    if not _refusals:
+        return 0
+    old = {}
+    if os.path.exists(REFUSED):
+        with open(REFUSED, encoding="utf-8") as fh:
+            old = json.load(fh)
+    for url, entry in _refusals.items():
+        prior = old.get(url) or {}
+        entry["first_checked_utc"] = prior.get("first_checked_utc") or prior.get("checked_utc") \
+            or entry["checked_utc"]
+        old[url] = entry
+    os.makedirs(OUT, exist_ok=True)
+    with open(REFUSED, "w", encoding="utf-8") as fh:
+        json.dump({k: old[k] for k in sorted(old)}, fh, indent=1)
+        fh.write("\n")
+    n = len(_refusals)
+    _refusals.clear()
+    return n
+
+
 def resolve(slug: str) -> dict | None:
+    url = f"{BASE}/{slug}?_format=json"
     try:
-        j = json.loads(get(f"{BASE}/{slug}?_format=json", timeout=90))
+        j = json.loads(get(url, timeout=90))
     except urllib.error.HTTPError as exc:
         if exc.code in (401, 403):
+            record_refusal(url, f"HTTP {exc.code} {exc.reason}: the portal refuses the JSON record "
+                                "for this attachment. Not public; not fetched another way.")
             return None
         raise
     g = lambda k: (j.get(k) or [{}])[0]  # noqa: E731
@@ -173,10 +214,23 @@ def archived(case: str) -> str | None:
 
 
 def fetch(item: dict) -> str:
+    CURRENT.clear()
+    CURRENT.update(case=item["case"], project_slug=item["slug"])
+    if not item["candidates"]:
+        # An absence, not a refusal: nothing was requested, so nothing goes in refused.json.
+        return "no document of the archived kinds on the portal record"
     for kind, slug, label in item["candidates"]:
+        CURRENT.update(kind=kind, attachment_slug=slug)
         time.sleep(DELAY)
         meta = resolve(slug)
-        if not meta or not meta["uri"] or meta["public"] is False:
+        if not meta:
+            continue
+        if not meta["uri"]:
+            record_refusal(f"{BASE}/{slug}?_format=json",
+                           "the portal's JSON record names no file for this attachment")
+            continue
+        if meta["public"] is False:
+            record_refusal(meta["uri"], "the portal marks this attachment not public; not fetched")
             continue
         if not label.search(meta["label"] or ""):
             continue
@@ -187,8 +241,10 @@ def fetch(item: dict) -> str:
             body = get(meta["uri"], limit=MAX_BYTES)
         except (urllib.error.HTTPError, ValueError) as exc:
             print(f"  {item['case']}: {slug} not fetched ({exc})", file=sys.stderr)
+            record_refusal(meta["uri"], f"the document itself was refused or unusable: {exc}")
             continue
         if not body.startswith(b"%PDF"):
+            record_refusal(meta["uri"], "the response is not a PDF; not archived")
             continue
         base = os.path.join(OUT, f"{item['case']}_{kind}")
         os.makedirs(OUT, exist_ok=True)
@@ -213,8 +269,10 @@ def fetch(item: dict) -> str:
             # A lodgement form's PDF carries the contact details redacted from its text.
             pdf_committed=len(body) <= PDF_COMMIT_LIMIT and kind != "sears_request",
         ), open(base + ".pdf.meta.json", "w"), indent=1)
+        flush_refusals()
         return f"{kind} ({len(body) // 1024} KB, {text.count('[[page ')} pages)"
-    return "nothing public found"
+    n = flush_refusals()
+    return "nothing public found" + (f" ({n} refusal{'s' if n != 1 else ''} recorded)" if n else "")
 
 
 def main(argv: list[str]) -> int:
@@ -247,6 +305,7 @@ def main(argv: list[str]) -> int:
             break
         print(f"{item['case']}: {fetch(item)}", flush=True)
         done += 1
+    flush_refusals()
     return 0
 
 

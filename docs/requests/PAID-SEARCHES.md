@@ -1,6 +1,8 @@
 # Paid searches, ranked
 
-Status: **ranked, awaiting a budget**, 2026-10-22.
+Status: **ranked, awaiting a budget**, 2026-10-22; refreshed 2026-11-15 — **8 searches,
+$157**. Rank 9 (Project Garden 1, RG-055) is withdrawn: RG-055 was resolved on
+2026-10-22 from ASIC's free Company Dataset, so paying for it would buy nothing.
 
 Free records answered what they could in research batch 1. ASIC's Company
 Dataset gives every applicant company's registration date and former names,
@@ -24,11 +26,25 @@ shareholders, which is where a change of hands shows up.
 | 6 | ASIC current and historical extract: **Zerra WDDP Manager Australia Pty Ltd** (formerly AGP DC Manager Australia) | 684 250 584 | $20 | RG-050 | Who AGP is, and where it sits |
 | 7 | ASIC current and historical extract: **NineZero DC Sub TC I Pty Ltd** | 607 631 845 | $20 | RG-059 | Who stands behind DCI's two consents |
 | 8 | ASIC current and historical extract: **KNBDC AU Development Pty Ltd** | 687 116 098 | $20 | RG-036 | The development company above the AirTrunk SYD4 stack |
-| 9 | ASIC current and historical extract: **Project Garden 1 Pty Ltd** | 684 182 929 | $20 | RG-055 | Who owns the Brookhollow Avenue proponent (GreenSquare DC campus) |
 
-Ranks 1 to 3 cost $60 and answer the three biggest open questions. All nine
-cost $177. The GIPA application (GIPA-001, $30) is separate and recommended
-alongside rank 1.
+Ranks 1 to 3 cost $60 and answer the three biggest open questions. All eight
+cost **$157** (seven ASIC extracts at $20 and one title search at $17). The GIPA
+application (GIPA-001, $30) is separate and recommended alongside rank 1.
+
+**What these searches cannot do.** They give entities, officeholders, share
+parcels and charges — not facility addresses, statuses or capacities. They do
+**not** unblock RG-101's five held HCF facilities (Cloud Carrier DB1, DigiCo BNE2,
+ADL1, SYD1, Vocus TransACT House Dickson): every route to a primary document for
+those five is refused, and the cheapest way through is a person reading three
+DigiCo PDFs in a browser, not a paid extract. See
+`data-pipeline/reports/hunts/RG-101.md`.
+
+**Withdrawn: rank 9, Project Garden 1 Pty Ltd (684 182 929), $20, RG-055.**
+RG-055 asked whether fresh SPV incorporation immediately before lodgement is the
+general pattern. It was answered on 2026-10-22 from ASIC's Company Dataset
+(`SRC_ASIC_COMPANIES_202610`), which is free and gave registration dates for the
+21 determined consents whose applicant is a company. The pattern did not hold.
+Buying this extract would not add to that answer.
 
 ## When an extract arrives
 
