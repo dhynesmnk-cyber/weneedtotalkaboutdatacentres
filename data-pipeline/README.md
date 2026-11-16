@@ -4,7 +4,37 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.8.0 · data as at 15 November 2026 · 1,651 data rows (+782 source refs) · 100 sites · 145 entities · 379 metrics · 292 catalogued sources (222 primary)**
+**Release v2.8.1 · data as at 15 November 2026 · 1,656 data rows (+796 source refs) · 100 sites · 145 entities · 379 metrics · 293 catalogued sources (223 primary)**
+
+v2.8.1 is **the ratchet answer and the capacity labels** (pack
+`data/packs/rg061_rg099_decisions.json`, script `scripts/curate_rg061_rg099.py`). Findings first, author
+accepted 15 November 2026.
+
+- **The "no ratchet" hypothesis is falsified** (RG-061). Three of the 20 archived consent instruments require
+  all operational electricity demand — IT and non-IT — to be matched to "a portfolio of **additional**, firmed
+  renewable energy supply **at all times**" under a NSW-based PPA plus firming agreement, proven before
+  operation may start: **Pluto** B19/B20 (23 Jul 2026), **Apollo** B22/B23 (2 Sep 2026), **Glendenning**
+  B20–B23 (14 Sep 2026). None of the 16 earlier determinations carries it, and each assessment report records a
+  weaker offer first — a 2040 aspiration, an existing certificate-backed purchase, 658 MWh/yr of rooftop solar
+  against 467,924 t CO₂-e/yr. The numeric targets stay proponent-set; the ratchet is on timing, additionality,
+  firming, geography and auditing. The gap stays `in_progress`: the other performance measures are untested.
+- **Two capacity figures were removed, not corrected** (RG-099 resolved). Road 1's 34.3 MW is confirmed as
+  **IT load** by its EIS's own label ("Power Consumption 34.3 MW (IT Load)", p35) and Waterloo's 70 MW as
+  **total**; neither value changed. **52 Turner Road** (withdrawn — no EIS will ever exist) and **22 O'Riordan
+  Street** (pre-EIS, 38 MW against 45 MW, neither labelled) now hold **no figure in any capacity column**, as
+  NEXTDC S7 has since 2026-10-14. `headline_mw` reads `max_capacity_mw` first, so clearing only the IT column
+  would have left the unlabelled number as the public headline.
+- **Three land-ownership facts read free instead of buying titles**: Julius Avenue is **ISPT Pty Ltd**'s
+  (Lot 89 DP 1082131, EIS cover and Table 6), NEXTDC S5 is **NEXTDC Limited**'s (`owner_id` set), Road 1's land
+  is **Stockland**'s. The author has no budget for paid searches yet; `docs/requests/PAID-SEARCHES.md` records
+  what the free ASIC dataset already gives for all eight ranked searches and what only money can add.
+- **RG-017 is now citable and publishable** before any FOI is lodged: NEXTDC S7's scoping report states
+  5.44 ML/day at ~70% load, up to 7.79 ML/day at maturity, and the Sydney Water / St Marys AWTP engagement.
+  Four water requests are drafted and **not lodged** (author deferred). **RG-105** opens on the address and lot
+  Road 1 shares with SSD-63235720.
+- **Every refusal is now persisted.** `scrapers/fetch_ssd_documents.py` writes
+  `data/raw/nsw_planning/documents/refused.json`; the portal's attachment JSON route answered **401 for every
+  candidate** on 16 November, so no further planning document can be archived that way.
 
 v2.8.0 is **the Macquarie Park merge and the HCF register's missing facilities** (packs
 `data/packs/rg084_macquarie_park_merge.json` and `data/packs/hcf_facilities.json`). Both were put to the

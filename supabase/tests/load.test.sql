@@ -91,9 +91,12 @@ select public.assert(
 -- and SRC_NXT_FY26_PRESENTATION verbatim from the packs that register them, which add
 -- none. The RG-084 merge adds no source: it cites the consent and assessment already
 -- archived.
+-- 2026-11-15: RG-099 is resolved on Road 1's own EIS, which had no source row of its
+-- own (the ssd_documents batch took no figure from it). curate_rg061_rg099.py registers
+-- SRC_SSD80814238_EIS from the archived manifest: 292 + 1 = 293.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 292,
-  '292 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 293,
+  '293 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -119,9 +122,15 @@ select public.assert(
 -- cites the register) and RG-104 (IC3 Super West recorded operational while its
 -- operator says under construction, cites that page). 98 questions, the same six
 -- rejected, 92 load.
+-- 2026-11-15: RG-061 is answered for the renewable obligation and stays in_progress;
+-- RG-099 is resolved; RG-017 gains its first citation (NEXTDC S7's scoping report, which
+-- states the water demand and the Sydney Water engagement, so the question is publishable
+-- before any FOI is lodged); RG-105 opens on the address and lot Road 1 shares with
+-- SSD-63235720, cited to Road 1's EIS and the neighbour's consent. 99 questions, five
+-- rejected (RG-001, 008, 016, 018, 019), 94 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 92,
-  '92 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 94,
+  '94 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -133,8 +142,12 @@ select public.assert(
 select public.assert(
   (select count(*) from facts.research_agenda
     where pipeline_id in ('RG-001', 'RG-008',
-                          'RG-016', 'RG-017', 'RG-018', 'RG-019')) = 0,
+                          'RG-016', 'RG-018', 'RG-019')) = 0,
   'no uncited question was published');
+
+-- 2026-11-15: RG-017 leaves this list. It is now cited to NEXTDC S7's scoping report,
+-- which states the water demand and the Sydney Water engagement, so the question is
+-- publishable while the four water requests remain drafted and unlodged.
 
 -- A question keeps the label the research cites it by.
 select public.assert(
@@ -226,8 +239,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 92,
-  'anon can read all 92 research questions');
+  (select count(*) from facts.research_agenda) = 94,
+  'anon can read all 94 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

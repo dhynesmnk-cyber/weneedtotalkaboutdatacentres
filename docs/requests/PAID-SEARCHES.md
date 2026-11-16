@@ -1,8 +1,15 @@
 # Paid searches, ranked
 
-Status: **ranked, awaiting a budget**, 2026-10-22; refreshed 2026-11-15 — **8 searches,
-$157**. Rank 9 (Project Garden 1, RG-055) is withdrawn: RG-055 was resolved on
-2026-10-22 from ASIC's free Company Dataset, so paying for it would buy nothing.
+Status: **ranked, deferred by the author**, 2026-11-15 — *"no budget for now but I'll do it
+later, work around it for now"*. **8 searches, $157**, unchanged in rank and price. The author
+will fund them later; nothing here is cancelled. Rank 9 (Project Garden 1, RG-055) was withdrawn
+on 2026-11-15: RG-055 was resolved on 2026-10-22 from ASIC's free Company Dataset, so paying for
+it would buy nothing.
+
+**The free workaround has been run, and it is exhausted for ownership.** See the two tables
+below: what the free records already give for every one of the eight, and the three land-ownership
+statements found in the archived EISs on 2026-11-15 that a paid title search would otherwise have
+been needed for.
 
 Free records answered what they could in research batch 1. ASIC's Company
 Dataset gives every applicant company's registration date and former names,
@@ -45,6 +52,51 @@ general pattern. It was answered on 2026-10-22 from ASIC's Company Dataset
 (`SRC_ASIC_COMPANIES_202610`), which is free and gave registration dates for the
 21 determined consents whose applicant is a company. The pattern did not hold.
 Buying this extract would not add to that answer.
+
+## What the free records already give (checked 2026-11-15)
+
+ASIC's Company Dataset (`SRC_ASIC_COMPANIES_202610`, archived at
+`data-pipeline/data/raw/asic/company_dataset_202610_extract.csv`) covers **all eight** targets.
+It gives registration date, every former name with the date the current name took effect, status,
+class and ABN. It does **not** give shareholders, officeholders or charges — which is the whole
+reason for the paid extract.
+
+| Rank | Company | Registered | Name history the free dataset gives | Still needs the paid extract |
+| --- | --- | --- | --- | --- |
+| 1 | AirTrunk SYD4 Pty Ltd (687 904 963) | 10 Jun 2025 | KNBDC SYD4 Pty Ltd → AirTrunk SYD4 Pty Ltd from **16 Jun 2026** | who owns it |
+| 2 | CKTSME Management Pty Ltd (650 102 640) | 11 May 2021 | 263 EMKC Management Pty Limited → EMKC Cubed Management Pty Ltd → CKTSME Management Pty Ltd from **3 Jun 2025** | who owns it |
+| 3 | WDDP Pty Ltd (700 788 058) | **28 Jul 2026** | no former name; 17 days before the planning report | who owns it |
+| 4 | Glendenning land, Lot 2 DP 1137162 | — | not a company; no free register states the proprietor | the title itself |
+| 5 | Amazon Australia Company Pty Ltd (663 812 468) | 14 Nov 2022 | no former name; ABN recorded as 0 | which Amazon business holds the land |
+| 6 | Zerra WDDP Manager Australia Pty Ltd (684 250 584) | 5 Feb 2025 | AGP DC Manager Australia → Zerra DC Manager Australia → Zerra WDDP Manager Australia from **13 Aug 2026** | who AGP/Zerra is |
+| 7 | NineZero DC Sub TC I Pty Ltd (607 631 845) | 13 Aug 2015 | no former name | who stands behind DCI's consents |
+| 8 | KNBDC AU Development Pty Ltd (687 116 098) | 15 May 2025 | no former name; keeps the KNBDC name | the company above the SYD4 stack |
+
+All of this is already in the record (`ENT_KNBDC`, `ENT_EMKC`, `ENT_WDDP`, `ENT_NINEZERO` and
+RG-055's resolution). **No new fact was bought or invented by re-reading it**, and the ownership
+half of every rank is still open. That is the honest limit of the workaround.
+
+## Free land-ownership statements found instead of buying titles (2026-11-15)
+
+Three archived EISs state ownership themselves. These are the applicant's own statements of title,
+**not** title searches, and are recorded as such — loaded by
+`data-pipeline/scripts/curate_rg061_rg099.py`.
+
+| Site | What the document says | What was done |
+| --- | --- | --- |
+| **Julius Avenue** (SSD-80018208) | Cover: "Prepared by Willowtree Planning Pty Ltd **on behalf of ISPT Pty Ltd**", "6-8 JULIUS AVENUE, NORTH RYDE **LOT 89 DP 1082131**". Table 6 "REGISTERED LANDOWNERS": "89/1082131 **ISPT Pty Ltd**", "Landowner's consent has been obtained from the above entity" | quoted on the row; **`owner_id` deliberately not set** — the only ISPT entity held is "ISPT (Core Fund)", and how ISPT Pty Ltd relates to it is RG-005's question |
+| **NEXTDC S5** (SSD-63168959) | "Land Ownership The site is owned by **NEXTDC Limited**." | `owner_id` set to `ENT_NEXTDC` (the listed company, ASX: NXT) |
+| **Road 1** (SSD-80814238) | Table 5: "Land ownership **The land is owned by Stockland.** Address 1-5 Khartoum Road, Macquarie Park … **Part Lot 2 DP 1043041**" | quoted on the row and against **RG-105**, which asks whether Road 1 and SSD-63235720 are one campus |
+
+A fourth, already recorded: the Western Downs report names **Wambo Cattle Company Pty Limited
+(ACN 058 718 326)** as registered owner of Lot 125 on DY516, with a title search in its Appendix B
+(`ENT_WAMBO`). No other archived planning document states a registered proprietor — the whole
+archive was searched for "registered proprietor", "registered landowner", "land ownership" and
+"owner of the site" on 2026-11-15.
+
+**What this does not replace.** Rank 4 (the Glendenning title) is untouched: no archived document
+names the proprietor of Lot 2 DP 1137162, and the consent holder is a consultancy. Only a title
+search will answer it.
 
 ## When an extract arrives
 

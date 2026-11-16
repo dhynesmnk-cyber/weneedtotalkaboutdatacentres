@@ -27,7 +27,7 @@ reasons.
 | [FOI-005](FOI-005-melbourne-water.md) | Melbourne Water Corporation | FOI Act 1982 (Vic) | $34.50 from 1 July 2026, waivable | RG-017, RG-080 | drafted |
 | [FOI-006](FOI-006-yarra-valley-south-east-water.md) | Yarra Valley Water; South East Water (two applications) | FOI Act 1982 (Vic) | each agency's own indexed fee, waivable | RG-017 | drafted |
 | [RTI-001](RTI-001-unitywater.md) | Unitywater (or the Queensland agency that serves the sites) | RTI Act 2009 (Qld) | $59.60 from 1 July 2026, **not waivable** | RG-017 | drafted |
-| [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked, awaiting a budget (8 searches, $157) |
+| [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked; **deferred by the author 2026-11-15**, will fund later (8 searches, $157); free substitutes run and documented |
 | [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au, both parliamentary inquiries, NSW legislation, Victorian planning | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-011, RG-012, RG-014, RG-015, RG-016, RG-025, RG-040, RG-041, RG-048, RG-056, RG-066, RG-069, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person |
 
 Status runs: drafted, lodged, acknowledged, decided, received (or refused).

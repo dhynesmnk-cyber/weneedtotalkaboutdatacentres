@@ -65,6 +65,8 @@ PACKS = [
     ("data/packs/who_heard.json", ["--allow-missing-source"]),
     # Last of all: settles RG-084 and rewrites the Macquarie Park row that rg060 and rg079 write.
     ("data/packs/rg084_macquarie_park_merge.json", ["--allow-missing-source"]),
+    # After every fill: RG-099 clears two capacity columns, and a later fill would repopulate them.
+    ("data/packs/rg061_rg099_decisions.json", ["--allow-missing-source"]),
 ]
 
 
@@ -130,6 +132,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_whose_data.py")
     run(PY, "scripts/curate_who_heard.py")
     run(PY, "scripts/curate_rg084.py")
+    run(PY, "scripts/curate_rg061_rg099.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

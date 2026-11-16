@@ -127,7 +127,10 @@ proponent" for that reason.
 `source_id`. Both are imported: the row-level source as the site's primary
 citation, plus each `source_ref` as an additional one. Importing `source_refs`
 alone would leave 9 sites uncited and therefore unpublishable. (Counts as at
-2026-11-15, after the RG-084 merge and the eight HCF register facilities.)
+2026-11-15, after the RG-084 merge, the eight HCF register facilities and the
+RG-061/RG-099 decisions. Two of those decisions **removed** figures: 52 Turner Road
+and 22 O'Riordan Street now hold no capacity in any column, because the only number
+available was an unlabelled portal description and no document can ever label it.)
 
 A site with no source is **rejected**, not imported uncited.
 
