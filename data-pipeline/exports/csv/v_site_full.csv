@@ -17,7 +17,6 @@ SITE_MACQ_IC3,Macquarie IC3 'Super West' (Macquarie Park),NSW,NEM,operational,Ma
 SITE_MACQ_IC12,Macquarie IC1 / IC2 Strategic Enclaves (Sydney),NSW,NEM,operational,Macquarie Technology Group,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_EQUINIX_SYD,Equinix Sydney (SY3-SY7),NSW,NEM,operational,Equinix,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
 SITE_TELSTRA_STLEON,Telstra St Leonards Strategic Enclave,NSW,NEM,operational,Telstra,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
-SITE_STOCKLAND_MP,Stockland Macquarie Park Stage 1 data centre,NSW,NEM,under_construction,,,,,,,264000000.0,,,,,,,,,,,,,,,,,,,,CLAIMED,low,2026-09-18
 SITE_NEXTDC_M4,NEXTDC M4 Melbourne (Fishermans Bend),VIC,NEM,approved,NEXTDC,,,,,162.0,2000000000.0,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-01-31
 SITE_CDC_LAVERTON,CDC Laverton campus (Melbourne south-west),VIC,NEM,under_construction,CDC Data Centres,,,,,150.0,2700000000.0,,,,,,,,,,,,,,,,,,,,REPORTED,high,2025-02-18
 SITE_CDC_BROOKLYN,CDC Brooklyn (Melbourne),VIC,NEM,operational,CDC Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-09-18
@@ -68,7 +67,7 @@ SITE_GRAND_AVE,"Grand Avenue Data Centre Expansion, Rosehill",NSW,NEM,approved,E
 SITE_KHARTOUM,1-5 Khartoum Road Data Centre,NSW,NEM,approved,,,,,76.4,51.4,718259656.0,250,50,distribution,,,,,,,84.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_23_25_WATERLOO,23-25 Waterloo Road Data Centre,NSW,NEM,pre_lodgement,,,,70.0,70.0,,700000000.0,3400,50,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_JULIUS_AVE,Julius Avenue Data Centre,NSW,NEM,lodged,,,,,169.0,115.2,1582669210.0,,50,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
-SITE_MACQUARIE_PARK_DC,Macquarie Park Data Centre,NSW,NEM,approved,,,,,,,263600000.0,400,50,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_MACQUARIE_PARK_DC,Macquarie Park Data Centre,NSW,NEM,approved,,,,,,,263600000.0,400,50,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
 SITE_PROJECT_APOLLO,Project Apollo Data Centre Macquarie Park,NSW,NEM,approved,Goodman Property Services (Aust) Pty Ltd,,,,135.0,,1365463075.0,400,60,distribution,,,,,,,185.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_ROAD_1,Road 1 Data Centre,NSW,NEM,lodged,,,,34.3,,34.3,300000000.0,200,50,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_TALAVERA,Talavera Road Data Centre Campus Expansion,NSW,NEM,approved,Macquarie Technology Group,,,,38.0,,332032973.0,610,20,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
@@ -92,3 +91,11 @@ SITE_LANCELEY,"Lanceley Place Data Centre, Artarmon",NSW,NEM,approved,,,,,,,,,,,
 SITE_DICKER_DATA,Dicker Data Warehouse and Distribution Centre,NSW,NEM,approved,,,,,,,77186968.0,350,257,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_ZERRA_MELB,"Zerra DC Melbourne campus (former automotive plant site, reported)",VIC,NEM,rumoured,Zerra DC,,,,,,,,,,,,,,,,,,,,,,,,,,CLAIMED,low,2026-09-18
 SITE_IPSWICH_10ST,"Ten-storey data centre outside Brisbane (Ipswich, reported)",QLD,NEM,rumoured,,,,,,,,,,,,,,,,,,,,,,,,,,,CLAIMED,low,2026-09-18
+SITE_ADC_MITCHELL,ADC Mitchell (Australian Data Centres),ACT,NEM,operational,Australian Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
+SITE_ADC_FYSHWICK,ADC Fyshwick (Australian Data Centres),ACT,NEM,operational,Australian Data Centres,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
+SITE_NEXTDC_B1,NEXTDC B1 Brisbane,QLD,NEM,operational,NEXTDC,,,,,2.25,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
+SITE_NEXTDC_B2,NEXTDC B2 Brisbane,QLD,NEM,operational,NEXTDC,,,,,12.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
+SITE_FUJITSU_WSYD,Fujitsu Western Sydney Data Centre,NSW,NEM,operational,Fujitsu Australia,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2020-09-30
+SITE_FUJITSU_HOMEBUSH,Fujitsu Homebush Bay Data Centre,NSW,NEM,operational,Fujitsu Australia,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2020-09-30
+SITE_POLARIS,Polaris Data Centre (Springfield Central),QLD,NEM,operational,Polaris Data Centre,Springfield City Group,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
+SITE_MACQ_IC3E,Macquarie IC3 East (Macquarie Park),NSW,NEM,operational,Macquarie Technology Group,,,,,12.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15

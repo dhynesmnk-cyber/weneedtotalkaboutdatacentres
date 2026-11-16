@@ -123,10 +123,11 @@ proponent" for that reason.
 
 ## Citations come from two places
 
-`source_refs` covers only 65 of the 93 sites, but all 93 carry a row-level
+`source_refs` covers only 91 of the 100 sites, but all 100 carry a row-level
 `source_id`. Both are imported: the row-level source as the site's primary
 citation, plus each `source_ref` as an additional one. Importing `source_refs`
-alone would leave 28 sites uncited and therefore unpublishable.
+alone would leave 9 sites uncited and therefore unpublishable. (Counts as at
+2026-11-15, after the RG-084 merge and the eight HCF register facilities.)
 
 A site with no source is **rejected**, not imported uncited.
 

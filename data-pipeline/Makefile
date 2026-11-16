@@ -35,6 +35,7 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/palantir_nvidia_thread.json \
                       data/packs/site_coordinates.json \
                       data/packs/site_portal_fields.json \
+                      data/packs/hcf_facilities.json \
                       data/packs/hcf_register.json \
                       data/packs/ssd_documents.json \
                       data/packs/operator_sources.json \
@@ -43,7 +44,8 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/super_and_openai.json \
                       data/packs/public_and_room.json \
                       data/packs/whose_data.json \
-                      data/packs/who_heard.json
+                      data/packs/who_heard.json \
+                      data/packs/rg084_macquarie_park_merge.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
@@ -121,9 +123,11 @@ verify:
 	$(PY) scripts/curate_certstrat_review.py
 	$(PY) scripts/curate_who_applies.py
 	$(PY) scripts/curate_super_and_openai.py
+	$(PY) scripts/curate_hcf_facilities.py
 	$(PY) scripts/curate_public_and_room.py
 	$(PY) scripts/curate_whose_data.py
 	$(PY) scripts/curate_who_heard.py
+	$(PY) scripts/curate_rg084.py
 
 load: build verify
 	@for p in $(PACKS); do \

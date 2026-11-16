@@ -360,15 +360,11 @@ SITE_UPDATES = [
                         "Energy as the proponent of the Plumpton 'Victorian AI hub' and local reporting links "
                         "the same developer to Melton. Capacity and application reference still unverified."),
          add_sources=["SRC_GUARD_PLUMPTON"]),
-    # Stockland Macquarie Park: was CLAIMED/low from a single third-party source
-    dict(match=dict(id="SITE_STOCKLAND_MP"),
-         set=dict(proponent="Stockland",
-                  notes="Five-storey data centre at Macquarie Park, A$264m; third-party reporting suggests it "
-                        "is for AWS with a north-zone start in September 2026. Stockland is confirmed as an "
-                        "active NSW data centre proponent by the NSW IDA release (three endorsed projects in "
-                        "Fairfield, Penrith and Ryde), but this specific Macquarie Park project is not among "
-                        "them and the AWS attribution remains unconfirmed - research gap RG-023."),
-         add_sources=["SRC_NSW_IDA"]),
+    # Stockland Macquarie Park: the seed's SITE_STOCKLAND_MP row was a duplicate of
+    # SITE_MACQUARIE_PARK_DC (SSD-10467) and was merged into it on 2026-11-15 (RG-084,
+    # author-approved). What this pack used to set on it - the Stockland proponent, the A$264m /
+    # AWS / September-2026 reporting and the NSW IDA citation - is now carried, with its caveats,
+    # by scripts/curate_rg084.py, which loads last.
 ]
 
 APPLICATIONS = [

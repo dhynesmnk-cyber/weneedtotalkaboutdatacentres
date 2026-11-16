@@ -24,9 +24,15 @@ $$;
 -- The research arrived.
 -- ---------------------------------------------------------------------------
 
+-- 2026-11-15: the author approved two changes to the site table. RG-084 merged
+-- SITE_STOCKLAND_MP into SITE_MACQUARIE_PARK_DC - one consent (SSD-10467) recorded
+-- twice - taking one row away. The HCF register follow-up added the eight certified
+-- facilities that had no record at all (ADC Mitchell and Fyshwick, NEXTDC B1 and B2,
+-- Fujitsu Western Sydney and Homebush Bay, Polaris, Macquarie IC3 East), each placed
+-- by an operator's own archived page: +8. 93 - 1 + 8 = 100.
 select public.assert(
-  (select count(*) from facts.sites where pipeline_id is not null) = 93,
-  '93 sites loaded');
+  (select count(*) from facts.sites where pipeline_id is not null) = 100,
+  '100 sites loaded');
 
 -- Pinned counts track the reviewed contents of the committed pipeline, so a
 -- curated pack that adds rows raises them by an argued amount - the change is
@@ -71,13 +77,23 @@ select public.assert(
 -- of reasons and the Department's referral letter for Talavera Road, the planning
 -- portal's page on who decides, and the councils' submissions, giving 284. No
 -- entity is added.
+-- 2026-11-15: the HCF register follow-up adds three entities - Australian Data
+-- Centres, Polaris Data Centre and the Springfield City Group that owns it - giving
+-- 145. The register's certified provider for Polaris (Springfield Real Estate Sales
+-- Pty Ltd) is NOT asserted as an entity: how it relates to the owner is RG-103.
 select public.assert(
-  (select count(*) from facts.entities where pipeline_id is not null) = 142,
-  '142 entities loaded');
+  (select count(*) from facts.entities where pipeline_id is not null) = 145,
+  '145 entities loaded');
 
+-- 2026-11-15: the HCF register follow-up archives eight operator pages (ADC's home
+-- and locations pages, Polaris, Fujitsu's 2020 footprint release, NEXTDC B1 and B2,
+-- Macquarie IC3 East and IC3 Super West), giving 292. It re-declares SRC_HCF_REGISTER
+-- and SRC_NXT_FY26_PRESENTATION verbatim from the packs that register them, which add
+-- none. The RG-084 merge adds no source: it cites the consent and assessment already
+-- archived.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 284,
-  '284 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 292,
+  '292 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -96,9 +112,16 @@ select public.assert(
 -- 2026-10-22: research batch 3 cites RG-006 (the FIRB quarterly report), so six
 -- are rejected and 88 load. Research batches 4 and 5 cite none of the six, so 88
 -- still load (batch 5 adds notes to RG-016, which stays uncited).
+-- 2026-11-15: RG-084 is resolved (not removed), and four questions open, all cited:
+-- RG-101 (the five register facilities still unplaced, cites the register), RG-102
+-- (the Macquarie Park end-user and start-date claims the merge refused to adopt,
+-- cites the portal record), RG-103 (addresses and capacities for the eight new rows,
+-- cites the register) and RG-104 (IC3 Super West recorded operational while its
+-- operator says under construction, cites that page). 98 questions, the same six
+-- rejected, 92 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 88,
-  '88 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 92,
+  '92 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -189,8 +212,8 @@ select public.assert(
 set role anon;
 
 select public.assert(
-  (select count(*) from facts.sites) = 93,
-  'anon can read all 93 sites');
+  (select count(*) from facts.sites) = 100,
+  'anon can read all 100 sites');
 
 -- The invariant that makes the fact layer publishable at all.
 select public.assert(
@@ -203,8 +226,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 88,
-  'anon can read all 88 research questions');
+  (select count(*) from facts.research_agenda) = 92,
+  'anon can read all 92 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

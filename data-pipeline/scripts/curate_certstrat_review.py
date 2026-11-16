@@ -296,11 +296,11 @@ def main() -> int:
                             "calls the facility 'Currently In Planning' (operator_sources pack); which capacity "
                             "stands is for a human to settle (RG-100)."),
              add_sources=[]),
-        # The article does not mention either site; each already cites a better source, which now
-        # becomes its primary one.
+        # The article does not mention this site; it already cites a better source, which now
+        # becomes its primary one. (SITE_STOCKLAND_MP was the other such row; it was a duplicate
+        # of SITE_MACQUARIE_PARK_DC and was merged into it on 2026-11-15 - RG-084.)
         dict(match=dict(id="SITE_AIRTRUNK_SYD3"), set=dict(source_id="SRC_OP_AIRTRUNK_SYD3_SYDNEY_WEST"),
              add_sources=[]),
-        dict(match=dict(id="SITE_STOCKLAND_MP"), set=dict(source_id="SRC_NSW_IDA"), add_sources=[]),
     ]
 
     applications = [
