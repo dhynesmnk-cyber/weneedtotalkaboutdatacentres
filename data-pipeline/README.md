@@ -43,6 +43,8 @@ author as findings first and approved on 15 November 2026.
   operates Polaris (the register names Springfield Real Estate Sales Pty Ltd; the page names the Springfield
   City Group as owner). Lower bounds ("over 14,500m²") and technical-space figures are quoted, never stored as
   values.
+- **Hunt logs** for RG-084 and RG-101 to RG-104 in `reports/hunts/`, with every fetch, both refusals
+  and the dead ends. Story cards are not written yet: they are the next editorial step.
 - **Loader defect found and worked around, not patched.** `{"insert": …, "add_sources": […]}` registers its
   quotes only for append-only tables. On a table with a key (`sites`, `research_gaps`) the quotes are silently
   discarded. Both new packs attach quotes with a follow-up `match`/`set`, which is the pattern the rest of the
