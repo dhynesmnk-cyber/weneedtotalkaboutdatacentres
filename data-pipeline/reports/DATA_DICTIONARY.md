@@ -943,7 +943,7 @@ ORDER BY l.event_date DESC
 
 </details>
 
-## `v_pipeline_by_state` (view, 21 rows)
+## `v_pipeline_by_state` (view, 22 rows)
 
 Sites, capacity and capex by state / market / status.
 

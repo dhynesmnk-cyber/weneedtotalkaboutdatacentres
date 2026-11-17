@@ -7,7 +7,7 @@ citing a source. The full list is `reports/gap_worklist.csv`.
 
 **1687 gaps across 102 sites and 25 fields** (2550 values). Population P (archived NSW SSD portal record): 46 sites; population O (all others): 56 sites.
 
-168 of these have a drafted proposal for a stronger reason (`reports/gap_reason_proposals.csv`), waiting for a human to accept or strike it: until then they stay "Not yet researched".
+167 of these have a drafted proposal for a stronger reason (`reports/gap_reason_proposals.csv`), waiting for a human to accept or strike it: until then they stay "Not yet researched".
 
 ## Batches
 

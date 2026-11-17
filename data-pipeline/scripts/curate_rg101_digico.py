@@ -41,8 +41,12 @@ What is quoted and NOT stored:
   * The Annual Report's FY25 "$1,937.0 million relating to the acquisition of the SYD1 data
     centre campus" is property, plant and equipment acquired, not a stated price, so
     transaction_value_aud stays empty.
-  * SITE_DIGICO_SYD1's status stays `approved` although the deck says the first 20 MW project is
-    complete: the row is the consent for the expansion, and changing its status is for the author.
+
+SITE_DIGICO_SYD1's status is set to `under_construction` on the author's decision of 2026-11-17
+(it had read `approved`, from the consent): the AGM deck says "20MW Project completed; 52MW
+expansion is DigiCo's priority development", and the release says a "Fixed price lump sum D&C
+Contract executed for the SYD1 52MW capacity expansion". Its 88 MW IT and 120 MW total, from the
+consent, are not touched.
 
 Neither the PDFs nor their full text are committed (ASX's terms limit free use of its documents to
 private investors). Each document has a manifest (.pdf.meta.json: ASX URL, SHA-256, pages,
@@ -91,6 +95,7 @@ QUOTES: dict[str, dict[str, str]] = {
                   "031 298; AFSL 240975) as responsible entity for the HMC Digital Infrastructure Trust "
                   "(ARSN 682 160 578)",
         "total": "SYD1 is 100% contracted across 88MW of total capacity",
+        "dc": "Fixed price lump sum D&C Contract executed for the SYD1 52MW capacity expansion",
         "tenant": "it has executed a 15-year2 contract for 71MW of capacity at SYD1 with a global "
                   "technology firm, with investment grade credit support.",
         "colo": "The remaining 17MW of SYD1 capacity is leased to co-location customers",
@@ -180,7 +185,7 @@ NEW_SITES = [
          refs=[(SRC_AR, "portfolio"), (SRC_AR, "count"), (SRC_AR, "billing"), (SRC_AR, "cgu")]),
 ]
 
-SYD1_REFS = [(SRC_RELEASE, "reuse"), (SRC_RELEASE, "operating"), (SRC_RELEASE, "total"),
+SYD1_REFS = [(SRC_RELEASE, "reuse"), (SRC_RELEASE, "operating"), (SRC_RELEASE, "dc"), (SRC_RELEASE, "total"),
              (SRC_RELEASE, "tenant"), (SRC_RELEASE, "colo"), (SRC_RELEASE, "first10"),
              (SRC_AGM, "syd1"), (SRC_AR, "hcf"), (SRC_AR, "acq")]
 
@@ -195,9 +200,10 @@ SYD1_NOTE = (
     "SYD1 Property Holdings Limited. QUOTED, NOT STORED: 'SYD1 is 100% contracted across 88MW of "
     "total capacity' (not labelled IT load; the 88 MW IT and 120 MW total here come from the "
     "consent), and a 15-year contract for 71 MW 'with a global technology firm' that DigiCo does not "
-    "name, so the tenant stays a gap. Status is left at approved: the AGM 2026 deck says the first "
-    "20 MW project is complete and the 52 MW expansion is under a construction contract, and whether "
-    "this row should read operational or under construction is for the author (RG-101)."
+    "name, so the tenant stays a gap. STATUS SET TO under_construction ON THE AUTHOR'S DECISION OF "
+    "2026-11-17 (it read approved, from the consent): the AGM 2026 deck says '20MW Project completed; "
+    "52MW expansion is DigiCo's priority development', and the release says a 'Fixed price lump sum "
+    "D&C Contract executed for the SYD1 52MW capacity expansion'."
 )
 
 OWNERSHIP = dict(
@@ -322,7 +328,7 @@ def main() -> int:
         sites.append(dict(match=dict(id=row["id"]), set={}, add_sources=quotes(site["refs"])))
     sites.append(dict(
         match=dict(id="SITE_DIGICO_SYD1"),
-        set=dict(notes=syd1["set"]["notes"] + SYD1_NOTE),
+        set=dict(notes=syd1["set"]["notes"] + SYD1_NOTE, status="under_construction"),
         fill=dict(operator_id="ENT_DIGICO_REIT", owner_id="ENT_DIGICO_REIT"),
         add_sources=quotes(SYD1_REFS),
     ))
@@ -340,9 +346,10 @@ def main() -> int:
                 "`operational` recorded as a reading (REPORTED; ADL1 medium, BNE2 low confidence) and "
                 "no capacity stored. STILL HELD: " + " and ".join(STILL_HELD) + ", whose every route "
                 "is refused (cloudcarrier.com and environment.act.gov.au refuse the robots check) or "
-                "silent (Vocus's own page names none of its facilities). Proposed for the author, not "
-                "changed: SITE_DIGICO_SYD1 still reads `approved`, though DigiCo says the first 20 MW "
-                "project is complete and the 52 MW expansion is under contract. DigiCo's other four "
+                "silent (Vocus's own page names none of its facilities). Decided by the author on "
+                f"{TODAY}: SITE_DIGICO_SYD1 now reads `under_construction` (it read `approved`, from the "
+                "consent), on DigiCo's own words that the first 20 MW project is complete and the 52 MW "
+                "expansion is under a fixed-price construction contract. DigiCo's other four "
                 "Australian properties are RG-106.")),
             add_sources=quotes([(SRC_AR, "portfolio"), (SRC_AR, "hcf"), (SRC_RELEASE, "reuse")])),
         dict(match=dict(id=103), set=dict(notes=gap103["notes"] + (
