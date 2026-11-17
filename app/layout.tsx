@@ -98,6 +98,11 @@ export default async function RootLayout({
                   </Link>
                 </li>
                 <li>
+                  <Link href="/data" className="link">
+                    Download the data
+                  </Link>
+                </li>
+                <li>
                   <Link href="/coverage" className="link">
                     What the record holds
                   </Link>

@@ -62,6 +62,10 @@ describe('withholdNames', () => {
     expect(w('Application: Rowan Sterne, former Director General, Defence')).toBe(
       'Application: [name withheld], former Director General, Defence',
     );
+    // A long role after a dash still counts, as far as the end of its clause.
+    expect(w("Avery Quill - the State's Senior Trade and Investment Commissioner for South Asia")).toBe(
+      "[name withheld] - the State's Senior Trade and Investment Commissioner for South Asia",
+    );
   });
 
   it('takes postnominals and aliases with the name', () => {

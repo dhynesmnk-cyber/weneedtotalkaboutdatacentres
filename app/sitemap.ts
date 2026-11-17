@@ -7,7 +7,7 @@ import { siteUrl } from '@/lib/site';
 
 export const dynamic = 'force-dynamic';
 
-const STATIC_ROUTES = ['/', '/map', '/list', '/coverage', '/research', '/essays', '/how-to-read'];
+const STATIC_ROUTES = ['/', '/map', '/list', '/coverage', '/research', '/essays', '/how-to-read', '/data'];
 
 /**
  * Every public page. Records come from the database through the same RLS the

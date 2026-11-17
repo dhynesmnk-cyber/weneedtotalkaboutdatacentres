@@ -108,12 +108,18 @@ not.
      notes, and RG-077, RG-079, RG-090, RG-076 and RG-092.
    - The load test asserts that the five entities which are individuals load
      under their role.
-7. **Reload** the hosted database once this merges, and check it as `anon`.
+7. **Done and live, 2026-11-17.** The hosted database was reloaded from
+   `main@056aa5b` and checked as `anon`: none of the 639 published rows names
+   anyone listed (docs/SUPABASE_SETUP.md).
 
 **Gate:** no essay is approved until R2.0 is live, because essays link to
 record pages.
 
 ### R2.1 Data for journalists (DELIVERY-PLAN, Release 2)
+
+**Built 2026-11-17** (`lib/csv.ts`, `lib/dataExport.ts`, `app/data/`). It goes
+live at merge; no reload is needed. Still to come: `manifest.py`, written when
+the first download arrives.
 
 - **Downloads.** `app/data/{sites,entities,sources,research}.csv` on a new
   `lib/csv.ts`:
