@@ -1,0 +1,20 @@
+{
+ "url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164439",
+ "requested_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164439",
+ "title": "AGM 2026 Presentation",
+ "issuer": "DigiCo Infrastructure REIT (ASX: DGT)",
+ "published": "2026-11-11",
+ "sha256": "3f97c6ab205940be4cef09d94833a4ca019fc9cfd225f501af17c4cc9f80ed86",
+ "bytes": 2491201,
+ "pages": 29,
+ "extractor": "pypdf-6.17.0",
+ "obtained": "supplied_by_author",
+ "obtained_utc": "2026-11-17T01:04:00+00:00",
+ "method": "Downloaded by the author in a browser and supplied to the research session on 2026-11-17. The crawler was refused this URL on 2026-11-16 (a bot-check page in place of the document) and that refusal stays recorded in refused.json; nothing was fetched another way. The PDF is not committed: ASX's terms limit free use of its documents to private investors (docs/requests/DOWNLOADS.md, item 4), so only this manifest and verbatim excerpts of the passages the database cites (the .excerpts.txt beside it) are kept. That is narrower than the NEXTDC FY26 presentation, which came from NEXTDC's own site and whose full text is kept.",
+ "pdf_committed": false,
+ "chars": 29946,
+ "chars_per_kb": 12.3,
+ "min_chars_per_kb": 20,
+ "text_committed": "excerpts only",
+ "yield_note": "Below the chars/KB floor because the deck is image-heavy slides (photographs, logos, charts), not because text was lost. Pages 6 and 11, the only pages cited, extracted as complete headings, sentences and bullet lists. The slides were not rendered or compared with a second extractor."
+}

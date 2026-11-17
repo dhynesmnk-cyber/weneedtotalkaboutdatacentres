@@ -1,0 +1,230 @@
+{
+  "pack_id": "rg101-digico-2026-11",
+  "prepared_by": "scripts/curate_rg101_digico.py from data/raw/asx/dgt/ (supplied by the author)",
+  "prepared_on": "2026-11-17",
+  "_comment": [
+    "RG-101 third pass. DigiCo's ASX documents, supplied by the author after ASX refused the",
+    "crawler, place three of the five held HCF facilities: SYD1 matches SITE_DIGICO_SYD1;",
+    "ADL1 and BNE2 become rows whose status is a recorded reading. Loads after",
+    "hcf_facilities.json (whose RG-101 and RG-103 notes it extends) and before",
+    "hcf_register.json, which certifies all three from the register's own lines."
+  ],
+  "sources": [
+    {
+      "id": "SRC_DGT_SYD1_71MW_20261015",
+      "title": "DigiCo Infrastructure REIT - DGT Executes Long-term 71MW Contract at SYD1 (ASX release)",
+      "publisher": "DigiCo Infrastructure REIT (ASX: DGT)",
+      "url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152532",
+      "doc_type": "primary_company",
+      "published": "2026-10-15",
+      "credibility": "A",
+      "accessed": "2026-11-17",
+      "notes": "The issuer's own statutory disclosure to ASX, 3 pages, SHA-256 bf2104ef687d370650392952c6676d2bb0f446dc2d7f4cbd5a7f95a206aeb590. The crawler was refused it (data/raw/asx/dgt/refused.json); the author downloaded it in a browser and supplied it on 2026-11-17. PDF and full text not committed (ASX's terms): the manifest is data/raw/asx/dgt/DGT_Executes_Longterm_71MW_Contract_at_SYD1.pdf.meta.json and the cited passages are verbatim in DGT_Executes_Longterm_71MW_Contract_at_SYD1.excerpts.txt."
+    },
+    {
+      "id": "SRC_DGT_AGM_20261111",
+      "title": "DigiCo Infrastructure REIT - AGM 2026 Presentation",
+      "publisher": "DigiCo Infrastructure REIT (ASX: DGT)",
+      "url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164439",
+      "doc_type": "primary_company",
+      "published": "2026-11-11",
+      "credibility": "A",
+      "accessed": "2026-11-17",
+      "notes": "The issuer's own statutory disclosure to ASX, 29 pages, SHA-256 3f97c6ab205940be4cef09d94833a4ca019fc9cfd225f501af17c4cc9f80ed86. The crawler was refused it (data/raw/asx/dgt/refused.json); the author downloaded it in a browser and supplied it on 2026-11-17. PDF and full text not committed (ASX's terms): the manifest is data/raw/asx/dgt/AGM_2026_Presentation.pdf.meta.json and the cited passages are verbatim in AGM_2026_Presentation.excerpts.txt."
+    },
+    {
+      "id": "SRC_DGT_AR_2026",
+      "title": "DigiCo Infrastructure REIT - Annual Report 2026",
+      "publisher": "DigiCo Infrastructure REIT (ASX: DGT)",
+      "url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03143786",
+      "doc_type": "primary_company",
+      "published": "2026-09-25",
+      "credibility": "A",
+      "accessed": "2026-11-17",
+      "notes": "The issuer's own statutory disclosure to ASX, 135 pages, SHA-256 59c9738a7b07cf946dcb7040a23002ff8935ad9dad991dc5d1566e75fc250e40. The crawler was refused it (data/raw/asx/dgt/refused.json); the author downloaded it in a browser and supplied it on 2026-11-17. PDF and full text not committed (ASX's terms): the manifest is data/raw/asx/dgt/Annual_Report_2026.pdf.meta.json and the cited passages are verbatim in Annual_Report_2026.excerpts.txt."
+    }
+  ],
+  "rows": {
+    "entities": [
+      {
+        "id": "ENT_DIGICO_REIT",
+        "name": "DigiCo Infrastructure REIT",
+        "legal_name": "HMC Digital Infrastructure Ltd (ACN 682 024 924) stapled with the HMC Digital Infrastructure Trust (ARSN 682 160 578), responsible entity Equity Trustees Limited",
+        "entity_type": "colocation_operator",
+        "domicile": "Australia",
+        "hq_country": "Australia",
+        "asx_ticker": "DGT",
+        "website": "https://www.digi-co.com.au/",
+        "notes": "ASX-listed owner, operator and developer of data centres (ASX: DGT), managed within HMC Capital's group, whose letterhead and contact details its releases carry. Its Annual Report 2026 lists seven Australian properties - Sydney 1 (SYD1), Townsville 1 (TSV1), Adelaide 1 (ADL1), Adelaide 2 (ADL2), Brisbane 1 (BNE1), Brisbane 2 (BNE2) and Brisbane (BNE, previously BNE3) - with 41 MW of billing IT capacity in Australia at 30 June 2026, and a goodwill unit called 'DigiCo Queensland and South Australia (formerly iseek)'. Its own website refuses the crawler's robots check (RG-101); everything here is from its ASX documents, supplied by the author. People named in those documents appear here by role only.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_DGT_SYD1_71MW_20261015",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "match": {
+          "id": "ENT_DIGICO_REIT"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_DGT_SYD1_71MW_20261015",
+            "quote": "HMC Digital Infrastructure Ltd (ACN 682 024 924) and Equity Trustees Limited (ACN 004 031 298; AFSL 240975) as responsible entity for the HMC Digital Infrastructure Trust (ARSN 682 160 578)"
+          },
+          {
+            "id": "SRC_DGT_AR_2026",
+            "quote": "DigiCo Queensland and South Australia (formerly iseek)"
+          }
+        ]
+      }
+    ],
+    "sites": [
+      {
+        "id": "SITE_DIGICO_ADL1",
+        "name": "DigiCo ADL1 (Adelaide 1)",
+        "operator_id": "ENT_DIGICO_REIT",
+        "state": "SA",
+        "market": "NEM",
+        "status": "operational",
+        "notes": "Placed by DigiCo's own Annual Report 2026, which lists 'Adelaide 1 (ADL1)' among its seven Australian properties, with 41 MW of billing IT capacity across them, and a goodwill unit 'DigiCo Queensland and South Australia (formerly iseek)'. STATUS IS A READING, NOT A STATEMENT: no document read says 'ADL1 is operational' in those words. It rests on the AGM 2026 deck's 'Brownfield expansion project to deliver additional 15MW of IT Capacity (up from 8MW)', which describes an existing facility, and on its place in a portfolio that is billing. NO CAPACITY IS STORED: '(up from 8MW)' can be read as today's capacity or as an earlier plan for the expansion, and the documents do not settle which. No address, suburb or area is published in them - RG-103. The Commonwealth HCF register certifies 'DigiCo - ADL1 and SYD1' as a Strategic Enclave (quoted on this row by curate_hcf_register.py).",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_DGT_AR_2026",
+        "confidence": "medium",
+        "as_of_date": "2026-06-30"
+      },
+      {
+        "match": {
+          "id": "SITE_DIGICO_ADL1"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_DGT_AR_2026",
+            "quote": "Portfolio Australia Sydney 1 (SYD1) Townsville 1 (TSV1) Adelaide 2 (ADL2) Brisbane 1 (BNE1) Brisbane 2 (BNE2) Brisbane (BNE)1 Adelaide 1 (ADL1) | Number of Properties 5 7 12 | Billing IT Capacity 44MW 41MW 85MW | DigiCo Queensland and South Australia (formerly iseek) | ADL1 is also progressing, supported by advanced customer discussions."
+          },
+          {
+            "id": "SRC_DGT_AGM_20261111",
+            "quote": "ADL1 Project ▪ Brownfield expansion project to deliver additional 15MW of IT Capacity (up from 8MW) ▪ In advanced customer discussions"
+          }
+        ]
+      },
+      {
+        "id": "SITE_DIGICO_BNE2",
+        "name": "DigiCo BNE2 (Brisbane 2)",
+        "operator_id": "ENT_DIGICO_REIT",
+        "state": "QLD",
+        "market": "NEM",
+        "status": "operational",
+        "notes": "Placed by DigiCo's own Annual Report 2026, which lists 'Brisbane 2 (BNE2)' among its seven Australian properties, with 41 MW of billing IT capacity across them, and a goodwill unit 'DigiCo Queensland and South Australia (formerly iseek)'. STATUS IS A READING, AT LOW CONFIDENCE: nothing read says anything about BNE2 except its name in that list and the Commonwealth HCF register's certification of 'DigiCo - BNE2' as a Strategic Facility (quoted on this row by curate_hcf_register.py). A certified facility in a billing portfolio is read as operating; a document that says so, or says otherwise, replaces this reading. No address, suburb, area or capacity is published - RG-103. Not to be confused with NEXTDC B2 Brisbane (SITE_NEXTDC_B2), a different operator's facility the register lists as 'Brisbane 2' under NEXTDC.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_DGT_AR_2026",
+        "confidence": "low",
+        "as_of_date": "2026-06-30"
+      },
+      {
+        "match": {
+          "id": "SITE_DIGICO_BNE2"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_DGT_AR_2026",
+            "quote": "Portfolio Australia Sydney 1 (SYD1) Townsville 1 (TSV1) Adelaide 2 (ADL2) Brisbane 1 (BNE1) Brisbane 2 (BNE2) Brisbane (BNE)1 Adelaide 1 (ADL1) | Number of Properties 5 7 12 | Billing IT Capacity 44MW 41MW 85MW | DigiCo Queensland and South Australia (formerly iseek)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_DIGICO_SYD1"
+        },
+        "set": {
+          "notes": "SCHEDULE 1 APPLICANT ON THE SIGNED CONSENT: HDI SYD1 Property Holdings Limited. The Schedule 1 applicant is HDI SYD1 Property Holdings Limited - a property holding vehicle whose 'SYD1' element matches HMC DigiCo's SYD1 facility naming. A sixth structure type: a dedicated property holding company per site. UPDATED 2026-11-17 (RG-101, author-approved): this row is the operating SYD1 facility as well as the consent for its expansion. DigiCo's release of 15 October 2026 says the SYD1 Expansion 'involves the adaptive reuse of an established data centre asset with ... State Significant Development Approval in place' and that works 'are being delivered within an operating data centre'; its Annual Report 2026 says SYD1 holds 'Strategic Certification' under the Hosting Certification Framework. DigiCo's Stapled Group acquired 100% of 'HDI SYD1 Holdings Pty Limited (Global Switch)' on 18 December 2024 - a different company from the consent's applicant, HDI SYD1 Property Holdings Limited. QUOTED, NOT STORED: 'SYD1 is 100% contracted across 88MW of total capacity' (not labelled IT load; the 88 MW IT and 120 MW total here come from the consent), and a 15-year contract for 71 MW 'with a global technology firm' that DigiCo does not name, so the tenant stays a gap. Status is left at approved: the AGM 2026 deck says the first 20 MW project is complete and the 52 MW expansion is under a construction contract, and whether this row should read operational or under construction is for the author (RG-101)."
+        },
+        "fill": {
+          "operator_id": "ENT_DIGICO_REIT",
+          "owner_id": "ENT_DIGICO_REIT"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_DGT_SYD1_71MW_20261015",
+            "quote": "the SYD1 Expansion, which involves the adaptive reuse of an established data centre asset with approved grid capacity and water access and State Significant Development Approval in place. | Works are being delivered within an operating data centre, with uptime maintained for existing customers throughout | SYD1 is 100% contracted across 88MW of total capacity | it has executed a 15-year2 contract for 71MW of capacity at SYD1 with a global technology firm, with investment grade credit support. | The remaining 17MW of SYD1 capacity is leased to co-location customers | The first 10MW of the SYD1 Expansion is expected to be energised and income producing in late Q4 FY27, with the balance delivered progressively over FY28, aligned to customer requirements."
+          },
+          {
+            "id": "SRC_DGT_AGM_20261111",
+            "quote": "SYD1 88MW Project accelerated – 20MW Project completed; 52MW expansion is DigiCo’s priority development"
+          },
+          {
+            "id": "SRC_DGT_AR_2026",
+            "quote": "SYD1 granted ‘Strategic Certification’ status under the Australian Government’s Hosting Certification Framework (HCF) by the Department of Home Affairs | On 18 December 2024, the Stapled Group acquired 100% of HDI SYD1 Holdings Pty Limited (Global Switch), which was accounted for as an asset acquisition"
+          }
+        ]
+      }
+    ],
+    "ownership": [
+      {
+        "holder_id": "ENT_DIGICO_REIT",
+        "target_id": "ENT_GLOBALSWITCH",
+        "stake_pct": 100.0,
+        "instrument": "equity",
+        "effective_from": "2024-12-18",
+        "event": "acquisition",
+        "notes": "DigiCo's Annual Report 2026: 'On 18 December 2024, the Stapled Group acquired 100% of HDI SYD1 Holdings Pty Limited (Global Switch), which was accounted for as an asset acquisition'. The target is recorded against ENT_GLOBALSWITCH because the report itself names the acquired company 'Global Switch'; the legal entity it names is HDI SYD1 Holdings Pty Limited, which the record does not otherwise hold. No price is stored: the report's FY25 '$1,937.0 million relating to the acquisition of the SYD1 data centre campus' is property, plant and equipment acquired, not a stated consideration.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_DGT_AR_2026",
+        "confidence": "high",
+        "as_of_date": "2026-06-30"
+      }
+    ],
+    "research_gaps": [
+      {
+        "match": {
+          "id": 101
+        },
+        "set": {
+          "status": "in_progress",
+          "notes": "OPENED 2026-11-15 from the Commonwealth register (SRC_HCF_REGISTER). The register gives a provider and a facility name and nothing else - no jurisdiction, address, status or capacity - and sites.state and sites.status are required, so no row has been invented for these five: Cloud Carrier - DB1 (facility), register line 'Cloud Carrier – DB1'; DigiCo - BNE2 (facility), register line 'DigiCo – BNE2'; DigiCo - ADL1 (enclave), register line 'DigiCo – ADL1 and SYD1'; DigiCo - SYD1 (enclave), register line 'DigiCo – ADL1 and SYD1'; Vocus - TransACT House Dickson (enclave), register line 'Vocus - TransACT House Dickson'. Attempts to place them: https://www.digi-co.com.au/data-centres/ - robots.txt could not be read (refused), read as disallow-all (2026-11-16); https://cloudcarrier.com/ - robots.txt could not be read (refused), read as disallow-all (2026-11-16); https://cloudcarrier.com/about-us/ - robots.txt could not be read (refused), read as disallow-all (2026-11-16). Both refusals are recorded in data/raw/operators/<group>/refused.json and were not worked around. Vocus's own wholesale data centre page was archived (data/raw/operators/vocus/data-centres.txt): it sells connectivity into more than 150 data centres and names none of its own facilities, so it does not place TransACT House. DigiCo SYD1 needs care: SITE_DIGICO_SYD1 already records the SYD1 EXPANSION project from a NSW consent, while the register certifies an enclave in the existing facility. A new row must distinguish the two before it is created, or the record repeats the double-count RG-084 removed. Eight other register facilities were placed from operators' own pages and are added by this pack; their missing fields are RG-103. UPDATED 2026-11-17 (third pass, author-approved): THREE OF THE FIVE PLACED from DigiCo's own ASX documents, which the crawler was refused and the author supplied. SYD1 is SITE_DIGICO_SYD1 - the expansion is 'the adaptive reuse of an established data centre asset' and the Annual Report records SYD1's Strategic Certification - so it is a match, not a new row. ADL1 and BNE2 are added as SITE_DIGICO_ADL1 (SA) and SITE_DIGICO_BNE2 (QLD) from the Annual Report's portfolio list, with status `operational` recorded as a reading (REPORTED; ADL1 medium, BNE2 low confidence) and no capacity stored. STILL HELD: Cloud Carrier DB1 and Vocus TransACT House Dickson, whose every route is refused (cloudcarrier.com and environment.act.gov.au refuse the robots check) or silent (Vocus's own page names none of its facilities). Proposed for the author, not changed: SITE_DIGICO_SYD1 still reads `approved`, though DigiCo says the first 20 MW project is complete and the 52 MW expansion is under contract. DigiCo's other four Australian properties are RG-106."
+        },
+        "add_sources": [
+          {
+            "id": "SRC_DGT_AR_2026",
+            "quote": "Portfolio Australia Sydney 1 (SYD1) Townsville 1 (TSV1) Adelaide 2 (ADL2) Brisbane 1 (BNE1) Brisbane 2 (BNE2) Brisbane (BNE)1 Adelaide 1 (ADL1) | SYD1 granted ‘Strategic Certification’ status under the Australian Government’s Hosting Certification Framework (HCF) by the Department of Home Affairs"
+          },
+          {
+            "id": "SRC_DGT_SYD1_71MW_20261015",
+            "quote": "the SYD1 Expansion, which involves the adaptive reuse of an established data centre asset with approved grid capacity and water access and State Significant Development Approval in place."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 103
+        },
+        "set": {
+          "notes": "OPENED 2026-11-15. What the archived pages do and do not state: Australian Data Centres names Mitchell and Fyshwick and says both are operational, but publishes no address, area or capacity for either. NEXTDC's B1 and B2 pages give IT capacity (2.25 MW, 12 MW) and technical space (1,650 m², 6,000 m²) but no street address; B2's delivered capacity (6 MW built, 2 MW in progress) is from its FY26 presentation, not its facility page. Fujitsu's only archived document is a 30 September 2020 release: it places Western Sydney and Homebush Bay in NSW and gives a 90 MW end-state for the Western Sydney campus, which is six years old and is not a current capacity. Polaris publishes an address and lower-bound areas ('over 14,500m2', 'over 7,000m2') but no capacity, and its owner (Springfield City Group) is not the entity the register certifies (Springfield Real Estate Sales Pty Ltd). Macquarie's IC3 East page gives 12 MW IT load and 11,700 m² of technical space. No lower bound and no technical-space figure has been stored as a value. UPDATED 2026-11-17: SITE_DIGICO_ADL1 and SITE_DIGICO_BNE2 join this question. DigiCo's Annual Report and AGM deck name them and nothing more: no address, suburb, area or current capacity. ADL1's 'additional 15MW of IT Capacity (up from 8MW)' is quoted on the row, not stored."
+        },
+        "add_sources": [
+          {
+            "id": "SRC_DGT_AGM_20261111",
+            "quote": "ADL1 Project ▪ Brownfield expansion project to deliver additional 15MW of IT Capacity (up from 8MW) ▪ In advanced customer discussions"
+          }
+        ]
+      },
+      {
+        "id": 106,
+        "pillar": "A",
+        "priority": 4,
+        "retrieval_method": "manual_review",
+        "status": "open",
+        "opened": "2026-11-17",
+        "question": "Where are DigiCo's four other Australian properties - Townsville 1 (TSV1), Adelaide 2 (ADL2), Brisbane 1 (BNE1) and Brisbane (BNE, previously BNE3) - and does the record already hold any of them under another name?",
+        "why_it_matters": "DigiCo's Annual Report lists seven Australian properties and the record now holds three. The other four are operating facilities of an ASX-listed operator that calls itself 'an emerging sovereign digital infrastructure platform', and the Queensland and South Australian ones came from iseek, so they may sit in the record under an older name.",
+        "target_source": "DigiCo's ASX announcements and annual reports; iseek's archived facility pages; Queensland and South Australian planning registers",
+        "notes": "OPENED 2026-11-17 from DigiCo's Annual Report 2026, whose Australian portfolio lists 'Sydney 1 (SYD1) Townsville 1 (TSV1) Adelaide 2 (ADL2) Brisbane 1 (BNE1) Brisbane 2 (BNE2) Brisbane (BNE)1 Adelaide 1 (ADL1)', footnoted 'BNE has been renamed (previously was BNE3).' SYD1, ADL1 and BNE2 are recorded (RG-101). The other four are NOT given rows: the report names them and nothing else - no address, status or capacity - and none of them is on the HCF register. No existing row is named for iseek or DigiCo.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_DGT_AR_2026",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      }
+    ]
+  }
+}

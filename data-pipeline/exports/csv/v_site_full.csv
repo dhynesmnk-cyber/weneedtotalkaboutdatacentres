@@ -73,7 +73,7 @@ SITE_ROAD_1,Road 1 Data Centre,NSW,NEM,lodged,,,,34.3,,34.3,300000000.0,200,50,,
 SITE_TALAVERA,Talavera Road Data Centre Campus Expansion,NSW,NEM,approved,Macquarie Technology Group,,,,38.0,,332032973.0,610,20,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_WATERLOO_ESR,Waterloo Road Data Centre (ESR Developments),NSW,NEM,approved,,,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_ORIORDAN,"22 O'Riordan Street, Alexandria - Data Centre",NSW,NEM,pre_lodgement,,,,,,,2000000000.0,220,100,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
-SITE_DIGICO_SYD1,DigiCo SYD1 Data Centre Expansion,NSW,NEM,approved,,,,,120.0,88.0,605593980.0,80,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
+SITE_DIGICO_SYD1,DigiCo SYD1 Data Centre Expansion,NSW,NEM,approved,DigiCo Infrastructure REIT,DigiCo Infrastructure REIT,,,120.0,88.0,605593980.0,80,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
 SITE_PROJECT_PLUTO,Project Pluto Data Centre,NSW,NEM,approved,Goodman Property Services (Aust) Pty Ltd,,,,100.0,68.0,1114474328.0,467,60,distribution,,,,,,,170.0,2353.0,"no NOx mass cap, no numerically stated concentration limit and no stack height requirement found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_DAVIS_RD_CUNDALL,Davis Road Data Centre (Cundall),NSW,NEM,approved,,,,160.85,160.85,,1597338256.0,556,73,distribution,,,,,,,181.92,,"no NOx mass cap, no stack height requirement and no annual emissions testing condition found in the consent text",,,,,,,,VERIFIED,high,2026-09-18
 SITE_NEXTDC_S4_P2,"NEXTDC S4 Data Centre Phase 2, Horsley Park",NSW,NEM,pre_lodgement,NEXTDC,,,,134.4,,,1100,217,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-09-18
@@ -99,3 +99,5 @@ SITE_FUJITSU_WSYD,Fujitsu Western Sydney Data Centre,NSW,NEM,operational,Fujitsu
 SITE_FUJITSU_HOMEBUSH,Fujitsu Homebush Bay Data Centre,NSW,NEM,operational,Fujitsu Australia,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2020-09-30
 SITE_POLARIS,Polaris Data Centre (Springfield Central),QLD,NEM,operational,Polaris Data Centre,Springfield City Group,,,,,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
 SITE_MACQ_IC3E,Macquarie IC3 East (Macquarie Park),NSW,NEM,operational,Macquarie Technology Group,,,,,12.0,,,,,,,,,,,,,,,,,,,,,VERIFIED,high,2026-11-15
+SITE_DIGICO_ADL1,DigiCo ADL1 (Adelaide 1),SA,NEM,operational,DigiCo Infrastructure REIT,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-06-30
+SITE_DIGICO_BNE2,DigiCo BNE2 (Brisbane 2),QLD,NEM,operational,DigiCo Infrastructure REIT,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,low,2026-06-30

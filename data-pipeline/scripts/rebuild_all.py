@@ -49,6 +49,9 @@ PACKS = [
     # Before the register pack: it creates the register facilities that had no site record,
     # which hcf_register.json then certifies from the register's own lines.
     ("data/packs/hcf_facilities.json", ["--allow-missing-source"]),
+    # Between the two: places DigiCo SYD1, ADL1 and BNE2 (RG-101 third pass) and extends the RG-101
+    # and RG-103 notes hcf_facilities.json writes, so hcf_register.json can certify all three.
+    ("data/packs/rg101_digico.json", ["--allow-missing-source"]),
     ("data/packs/hcf_register.json", ["--allow-missing-source"]),
     ("data/packs/ssd_documents.json", ["--allow-missing-source"]),
     ("data/packs/operator_sources.json", ["--allow-missing-source"]),
@@ -135,6 +138,8 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_who_heard.py")
     run(PY, "scripts/curate_rg084.py")
     run(PY, "scripts/curate_rg061_rg099.py")
+    # After curate_rg060.py and curate_hcf_facilities.py: it extends notes their packs write.
+    run(PY, "scripts/curate_rg101_digico.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.

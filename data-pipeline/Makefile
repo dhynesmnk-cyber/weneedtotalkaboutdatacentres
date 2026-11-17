@@ -36,6 +36,7 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/site_coordinates.json \
                       data/packs/site_portal_fields.json \
                       data/packs/hcf_facilities.json \
+                      data/packs/rg101_digico.json \
                       data/packs/hcf_register.json \
                       data/packs/ssd_documents.json \
                       data/packs/operator_sources.json \
@@ -135,6 +136,7 @@ verify:
 	$(PY) scripts/curate_who_heard.py
 	$(PY) scripts/curate_rg084.py
 	$(PY) scripts/curate_rg061_rg099.py
+	$(PY) scripts/curate_rg101_digico.py
 
 load: build verify
 	@for p in $(PACKS); do \

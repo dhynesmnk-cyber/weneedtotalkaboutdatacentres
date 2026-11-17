@@ -104,6 +104,13 @@ MATCHES: dict[str, tuple[str, list[str]]] = {
     "SITE_FUJITSU_HOMEBUSH": ("Fujitsu Australia", ["Homebush"]),
     "SITE_POLARIS": ("Springfield Real Estate Sales Pty Ltd", ["Polaris Data Centre"]),
     "SITE_MACQ_IC3E": ("Macquarie Technology Group", ["IC3e"]),
+    # Placed by curate_rg101_digico.py (RG-101 third pass, 2026-11-17) from DigiCo's own ASX
+    # documents, which the author supplied after ASX refused the crawler. SYD1 is the existing
+    # SITE_DIGICO_SYD1 (the expansion is "the adaptive reuse of an established data centre asset");
+    # ADL1 and BNE2 are new rows. That pack loads immediately before this one.
+    "SITE_DIGICO_SYD1": ("DigiCo", ["SYD1"]),
+    "SITE_DIGICO_ADL1": ("DigiCo", ["ADL1"]),
+    "SITE_DIGICO_BNE2": ("DigiCo", ["BNE2"]),
 }
 
 # The subset of MATCHES whose rows curate_hcf_facilities.py creates from this register. They GAIN
@@ -113,6 +120,11 @@ CREATED_HERE = {
     "SITE_ADC_MITCHELL", "SITE_ADC_FYSHWICK", "SITE_NEXTDC_B1", "SITE_NEXTDC_B2",
     "SITE_FUJITSU_WSYD", "SITE_FUJITSU_HOMEBUSH", "SITE_POLARIS", "SITE_MACQ_IC3E",
 }
+# The DigiCo rows curate_rg101_digico.py creates or places. None held a certification value before,
+# so they also GAIN one here. A separate literal because curate_hcf_facilities.py checks that
+# CREATED_HERE equals its own rows, and curate_rg101_digico.py checks this one against its own.
+PLACED_BY_RG101 = {"SITE_DIGICO_SYD1", "SITE_DIGICO_ADL1", "SITE_DIGICO_BNE2"}
+THIRD_PASS = "2026-11-17"
 
 
 def page_text(raw: str) -> list[str]:
@@ -194,7 +206,7 @@ def main() -> int:
             add_sources=[dict(id=SOURCE_ID, quote=f"{heading} {e['line']}")],
         ))
         matched.append(f"{site} ({e['scope']})")
-        (gained if site in CREATED_HERE else confirmed).append(site)
+        (gained if site in CREATED_HERE | PLACED_BY_RG101 else confirmed).append(site)
 
     if errors:
         print("refusing to write; fix these first:", file=sys.stderr)
@@ -239,17 +251,22 @@ def main() -> int:
                f"{len(gained)} are facilities the register lists that had NO site record at all; "
                f"curate_hcf_facilities.py created them from operators' own pages "
                f"({', '.join(sorted(gained))}) and they gain certified_strategic here, which is "
-               f"the first value any of them has held. Five register facilities are still not "
-               f"recorded - Cloud Carrier DB1, DigiCo BNE2, ADL1 and SYD1, and Vocus TransACT "
-               f"House Dickson - because the register gives no jurisdiction or status and no "
-               f"operator page places them; they are RG-101, not guesses. The sites not listed "
+               f"the first value any of them has held. UPDATED {THIRD_PASS} (RG-101 third pass, "
+               f"author-approved): DigiCo's own ASX documents, supplied by the author, place three of "
+               f"the five register facilities that had stayed unrecorded - SYD1 is SITE_DIGICO_SYD1, and "
+               f"ADL1 and BNE2 are new rows (curate_rg101_digico.py) - and all three gain "
+               f"certified_strategic here. Two are still not recorded - Cloud Carrier DB1 and Vocus "
+               f"TransACT House Dickson - because the register gives no jurisdiction or status and no "
+               f"operator document places them; they stay RG-101, not guesses. The sites not listed "
                f"keep `unknown`: absence is not recorded as not_certified, because the register "
                f"lists only certified providers and new registrations have been paused since "
                f"3 November 2025. Not applied: AirTrunk SYD3 is not listed (AirTrunk's certified "
                f"facilities are SYD1, SYD2 and MEL1); Microsoft Azure is certified as a cloud "
-               f"service, which is not a facility certification; DigiCo SYD1's certified enclave "
-               f"is in the existing facility, not the expansion project SITE_DIGICO_SYD1 "
-               f"describes. Which building the register's 'IC3' denotes is RG-104."),
+               f"service, which is not a facility certification. Until {THIRD_PASS} DigiCo SYD1 was "
+               f"held back as possibly a different facility from the expansion project "
+               f"SITE_DIGICO_SYD1 describes; DigiCo's release says the expansion is the adaptive "
+               f"reuse of the established facility, so they are one. Which building the register's "
+               f"'IC3' denotes is RG-104."),
         fact_status="VERIFIED", source_id=SOURCE_ID, confidence="high", as_of_date=capture,
     )
 

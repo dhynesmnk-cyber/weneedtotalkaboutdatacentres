@@ -30,9 +30,13 @@ $$;
 -- facilities that had no record at all (ADC Mitchell and Fyshwick, NEXTDC B1 and B2,
 -- Fujitsu Western Sydney and Homebush Bay, Polaris, Macquarie IC3 East), each placed
 -- by an operator's own archived page: +8. 93 - 1 + 8 = 100.
+-- 2026-11-17: RG-101's third pass, on DigiCo's own ASX documents (supplied by the
+-- author), adds DigiCo ADL1 (SA) and BNE2 (QLD) from its Annual Report's portfolio
+-- list: +2. Its third facility, SYD1, is the existing SITE_DIGICO_SYD1, matched not
+-- added. 100 + 2 = 102.
 select public.assert(
-  (select count(*) from facts.sites where pipeline_id is not null) = 100,
-  '100 sites loaded');
+  (select count(*) from facts.sites where pipeline_id is not null) = 102,
+  '102 sites loaded');
 
 -- Pinned counts track the reviewed contents of the committed pipeline, so a
 -- curated pack that adds rows raises them by an argued amount - the change is
@@ -81,9 +85,11 @@ select public.assert(
 -- Centres, Polaris Data Centre and the Springfield City Group that owns it - giving
 -- 145. The register's certified provider for Polaris (Springfield Real Estate Sales
 -- Pty Ltd) is NOT asserted as an entity: how it relates to the owner is RG-103.
+-- 2026-11-17: RG-101's third pass adds DigiCo Infrastructure REIT, operator of SYD1,
+-- ADL1 and BNE2: 145 + 1 = 146.
 select public.assert(
-  (select count(*) from facts.entities where pipeline_id is not null) = 145,
-  '145 entities loaded');
+  (select count(*) from facts.entities where pipeline_id is not null) = 146,
+  '146 entities loaded');
 
 -- 2026-11-15: the HCF register follow-up archives eight operator pages (ADC's home
 -- and locations pages, Polaris, Fujitsu's 2020 footprint release, NEXTDC B1 and B2,
@@ -94,9 +100,12 @@ select public.assert(
 -- 2026-11-15: RG-099 is resolved on Road 1's own EIS, which had no source row of its
 -- own (the ssd_documents batch took no figure from it). curate_rg061_rg099.py registers
 -- SRC_SSD80814238_EIS from the archived manifest: 292 + 1 = 293.
+-- 2026-11-17: RG-101's third pass registers DigiCo's release of 15 October 2026, its
+-- AGM 2026 presentation and its Annual Report 2026, each with a manifest and verbatim
+-- excerpts (the PDFs are not committed): 293 + 3 = 296.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 293,
-  '293 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 296,
+  '296 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -128,9 +137,11 @@ select public.assert(
 -- before any FOI is lodged); RG-105 opens on the address and lot Road 1 shares with
 -- SSD-63235720, cited to Road 1's EIS and the neighbour's consent. 99 questions, five
 -- rejected (RG-001, 008, 016, 018, 019), 94 load.
+-- 2026-11-17: RG-106 opens on DigiCo's four other Australian properties, cited to its
+-- Annual Report. 100 questions, the same five rejected, 95 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 94,
-  '94 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 95,
+  '95 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -225,8 +236,8 @@ select public.assert(
 set role anon;
 
 select public.assert(
-  (select count(*) from facts.sites) = 100,
-  'anon can read all 100 sites');
+  (select count(*) from facts.sites) = 102,
+  'anon can read all 102 sites');
 
 -- The invariant that makes the fact layer publishable at all.
 select public.assert(
@@ -239,8 +250,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 94,
-  'anon can read all 94 research questions');
+  (select count(*) from facts.research_agenda) = 95,
+  'anon can read all 95 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
