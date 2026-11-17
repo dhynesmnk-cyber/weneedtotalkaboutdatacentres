@@ -70,16 +70,27 @@ Checked afterwards, as `anon` in a rolled-back transaction:
 - `SITE_DIGICO_SYD1` reads `under_construction`;
 - every site carries a citation.
 
-Seven citations are live that the pipeline no longer produces:
-- six from the 21 October load, below;
-- one more since then.
+4. **Seven orphan citations removed, on the author's instruction** ("remove the
+   seven orphan citations too", 2026-11-17).
+   - These were live citations the pipeline no longer produces: six left from
+     the 21 October load, and one more since. The loader never deletes.
+   - They were:
+     - `SITE_ROAD_1` and `SITE_PROJECT_PLUTO` ← `SRC_NSWPORTAL_REGISTER`;
+     - `ENT_COLES` and RG-095 ← `SRC_ITNEWS_COLES`;
+     - RG-069 ← `SRC_SSD10330_CONSENT`;
+     - RG-085 ← `SRC_NSWPORTAL_CONSENTS`;
+     - RG-086 ← `SRC_CRIKEY_DEF_FEB26`.
+   - The list was re-derived immediately before the change, by comparing every
+     live citation with the artefact's.
+   - One transaction deleted them by id. It first checked that each id still
+     joined to its listed record and source. It would have rolled back unless
+     exactly 7 were deleted and every site, every published question and
+     `ENT_COLES` stayed cited. Each record kept 1 to 4 other citations.
+   - **The hosted citations now match the pipeline exactly:** 654, plus the
+     two essay drafts' 14.
 
-All seven are listed for review, not removed:
-- `SITE_ROAD_1` and `SITE_PROJECT_PLUTO` ← `SRC_NSWPORTAL_REGISTER`;
-- `ENT_COLES` and RG-095 ← `SRC_ITNEWS_COLES`;
-- RG-069 ← `SRC_SSD10330_CONSENT`;
-- RG-085 ← `SRC_NSWPORTAL_CONSENTS`;
-- RG-086 ← `SRC_CRIKEY_DEF_FEB26`.
+Checked afterwards (read-only): 668 citations in all, 0 orphans, no uncited site
+or question.
 
 Release 1 applied on 2026-11-11 from `claude/bold-goldberg-0ek4ml@f168531`,
 over the Management API from a Claude Code session (port 5432 is still
@@ -89,7 +100,8 @@ unreachable from sessions). In order:
    sites, 88 research questions, 602 citations, 1,552 data gaps and 59 proposed
    links. The database now holds 608 citations: six from the 21 October load
    are no longer produced by the pipeline, and the loader never deletes. They
-   are listed for review, not removed.
+   were listed for review, and removed on 2026-11-17 on the author's
+   instruction (above).
 2. Migrations `0014`–`0017`, each in its own transaction together with its row
    in `supabase_migrations.schema_migrations`, so `db push` sees all
    seventeen.

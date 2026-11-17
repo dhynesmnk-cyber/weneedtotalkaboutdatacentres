@@ -285,8 +285,9 @@ the hosted project on that date.
    `/admin/auth/callback` redirect URLs are set.
 5. Done: public sign-up off (2026-11-17), so the invited editor is the only
    account.
-6. Done: the duplicate Macquarie Park record removed from the hosted database
-   (2026-11-17, on your instruction).
+6. Done: the duplicate Macquarie Park record and the seven orphan citations
+   removed from the hosted database (2026-11-17, on your instruction). The
+   hosted citations now match the pipeline exactly.
 7. Done: the drafts loaded unapproved. They were reloaded 2026-11-17 with the
    RG-061 sentence and today's data date.
 8. **Yours: set up SMTP** in Supabase (Authentication → Emails). The built-in
