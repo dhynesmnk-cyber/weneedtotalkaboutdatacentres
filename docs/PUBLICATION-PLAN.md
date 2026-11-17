@@ -157,7 +157,8 @@ with the request named.
 
 ### R2.4 Essays from the evidence in hand
 
-ES-003, ES-004, ES-006 and ES-009 can be drafted now (Part 4, wave 1).
+ES-003, ES-004, ES-006 and ES-009 can be drafted now (Part 4, wave 1). ES-003
+is drafted.
 
 Releases 3 (influence data) and 4 ("What if…?") stay as docs/DELIVERY-PLAN.md
 sets them out. ES-007 does not wait for Release 3's tables, only for the
@@ -387,8 +388,16 @@ before writing.
   any meetings the diaries show go into ES-007, not into an edit of an approved
   essay.
 
-#### ES-003 "Who is really applying" (M1). Deep dive, draft now
+#### ES-003 "Who is really applying" (M1). Drafted as "Nine approvals, no operator", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-003-nine-approvals-no-operator.md`, a deep
+  dive of about 2,000 words. The claim was confirmed against RG-055 and
+  narrowed to "nine of the 22 determined NSW data centre consents whose reports
+  we hold". It also uses ST-022 (DigiCo's unnamed 71 MW tenant at SYD1) and the
+  Glendenning Road consent's definition of "Applicant". It carries the
+  conflict disclosure, because it touches the Western Downs project, though not
+  its tenant. **Next:** the author approves at `/admin`; replies to GIPA-001
+  become a follow-up piece, not an edit.
 - **Claim.** In nine of the NSW data centre approvals whose assessment reports
   we hold, the Department says the applicant acts for, or was approached by, an
   operator it does not name.
