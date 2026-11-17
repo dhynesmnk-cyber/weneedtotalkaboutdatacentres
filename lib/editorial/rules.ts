@@ -25,6 +25,7 @@ import {
   SOURCE_CITE,
   statesNumber,
   TECHNICAL,
+  voiceProblems,
 } from '@/lib/editorial/text';
 
 /** docs/UX.md "Content production process: essays", in order. */
@@ -201,6 +202,11 @@ export function checkEssay(draft: EssayDraft, ctx: CheckContext): Issue[] {
   const prose = draft.body.replace(SOURCE_CITE, '').replace(QUESTION_CITE, '');
   for (const [pattern, what] of TECHNICAL) {
     if (pattern.test(prose)) warn(`Mentions ${what}. Keep the mechanics in the hunt log unless the reader needs them.`);
+  }
+
+  // The house voice (editorial/WRITING.md, section 9), in the title, standfirst and text.
+  for (const what of voiceProblems([draft.title, draft.standfirst ?? '', draft.body].join('\n\n'))) {
+    error(`Uses ${what} in our own voice, which the writing guide bans. Quote it with its source, or rewrite it.`);
   }
 
   // A conflict of interest is disclosed, not discovered.

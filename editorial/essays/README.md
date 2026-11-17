@@ -92,6 +92,12 @@ beside the editor in `/admin`:
   which makes the editor confirm the legal check before approving.
 - Mechanics (file formats, error codes, page numbers) draw a note, not an
   error: a general reader rarely needs them.
+- The house voice (editorial/WRITING.md, section 9): no em dash, exclamation
+  mark or banned word in our own voice. Quoted text and proper nouns are
+  exempt.
+
+How a draft should read, from its claim to its paste-ready ending, is
+editorial/WRITING.md. Each essay's brief is in docs/PUBLICATION-PLAN.md.
 
 The checks cannot tell a fact from a lead or judge an argument. That is the
 editor's reading, against the checklist in docs/REVIEW.md.
