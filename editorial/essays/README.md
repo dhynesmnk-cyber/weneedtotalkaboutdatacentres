@@ -108,3 +108,4 @@ editor's reading, against the checklist in docs/REVIEW.md.
 | --- | --- | --- | --- | --- |
 | [ES-000](ES-000-where-we-stand.md) | Where we stand | position | ST-007, ST-011, ST-016, ST-021 | draft |
 | [ES-001](ES-001-six-in-seven.md) | Six in seven | essay | ST-011, ST-021 | draft |
+| [ES-003](ES-003-nine-approvals-no-operator.md) | Nine approvals, no operator | essay | ST-003, ST-004, ST-005, ST-006, ST-020, ST-022 | draft |
