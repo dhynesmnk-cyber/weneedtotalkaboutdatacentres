@@ -1,7 +1,9 @@
 # DELIVERY-PLAN.md
 
-Status: Release 1 built on `claude/bold-goldberg-0ek4ml` (2026-11-11), awaiting
-the author's setup steps below and approval of the two drafts. It turns the author's answers to ten scoping questions into four
+Status (2026-11-17): Release 1 is live, and the research has been reloaded
+from `main@39d7335` (102 sites, 296 sources). Public sign-up is off. Launch
+waits on the author: SMTP, then reading and approving the two drafts. See the
+launch checklist under Release 1. It turns the author's answers to ten scoping questions into four
 releases: site polish and a CMS, essays, research on how the industry shapes
 the narrative, and the "What if…?" policy pages.
 
@@ -269,16 +271,36 @@ Built and tested: the redesign, the editor's desk, the essay pages, the checker
 and loader, and two drafts (ES-001 "Six in seven", ES-000 "Where we stand"),
 unapproved. The whole loop (sign-in by emailed link, a non-editor refused,
 edit, approve, publish, retract) was run end to end against a local Supabase
-stack. What remains is yours, in docs/SUPABASE_SETUP.md step 6a:
+stack. What remained is in docs/SUPABASE_SETUP.md step 6a.
 
-1. Reload the research pipeline (the drafts cite sources added after 21 October).
-2. Apply migrations 0014 to 0017.
-3. Invite yourself in Supabase Auth and add your address to `editorial.editors`.
-4. Allow the sign-in return address, set up SMTP, and set `SITE_URL` on Netlify.
-   (`EDITOR_EMAIL` from the first draft of this plan is not needed: the
-   database allow-list is the only authority.)
-5. `npm run load:essays`, review the SQL, apply it.
-6. Read, edit and approve at `/admin`.
+**Launch checklist (2026-11-17).** The steps marked done were checked against
+the hosted project on that date.
+
+1. Done: reload the research pipeline. Reloaded 2026-11-11, and again
+   2026-11-17 from `main@39d7335`.
+2. Done: apply migrations 0014 to 0017 (2026-11-11).
+3. Done: invite yourself and add your address to `editorial.editors`. One
+   editor and one account exist.
+4. Done: allow the sign-in return address. The Site URL and the
+   `/admin/auth/callback` redirect URLs are set.
+5. Done: public sign-up off (2026-11-17), so the invited editor is the only
+   account.
+6. Done: the duplicate Macquarie Park record and the seven orphan citations
+   removed from the hosted database (2026-11-17, on your instruction). The
+   hosted citations now match the pipeline exactly.
+7. Done: the drafts loaded unapproved. They were reloaded 2026-11-17 with the
+   RG-061 sentence and today's data date.
+8. **Yours: set up SMTP** in Supabase (Authentication → Emails). The built-in
+   sender is rate-limited and for testing only. The provider's credentials go
+   in the dashboard, never in a chat.
+9. **Yours: confirm `SITE_URL` on Netlify** is the production address. A
+   session cannot see Netlify's environment, so this one is unchecked.
+10. **Yours: sign in at `/admin`, then read, edit and approve** ES-000 "Where we
+    stand" and ES-001 "Six in seven". Approval is the publication step; no agent
+    can take it.
+
+(`EDITOR_EMAIL` from the first draft of this plan is not needed: the database
+allow-list is the only authority.)
 
 ---
 

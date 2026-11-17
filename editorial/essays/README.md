@@ -100,5 +100,5 @@ editor's reading, against the checklist in docs/REVIEW.md.
 
 | Draft | Title | Kind | Story cards | Status |
 | --- | --- | --- | --- | --- |
-| [ES-000](ES-000-where-we-stand.md) | Where we stand | position | ST-007, ST-011 | draft |
-| [ES-001](ES-001-six-in-seven.md) | Six in seven | essay | ST-011 | draft |
+| [ES-000](ES-000-where-we-stand.md) | Where we stand | position | ST-007, ST-011, ST-016, ST-021 | draft |
+| [ES-001](ES-001-six-in-seven.md) | Six in seven | essay | ST-011, ST-021 | draft |

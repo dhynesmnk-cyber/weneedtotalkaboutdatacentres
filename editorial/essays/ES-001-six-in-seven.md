@@ -4,10 +4,10 @@ slug: six-in-seven
 kind: essay
 title: Six in seven
 standfirst: The most reassuring number in Australia's data centre debate went from a briefing commissioned by Amazon's cloud business into the NSW Government's rulebook. The rulebook never says who commissioned it.
-story_cards: [ST-011]
-questions: [RG-078, RG-070, RG-067]
-sources: [SRC_NSWGUIDE26, SRC_OXEC_PHANTOM_2025, SRC_BCA_SUB116, SRC_INQ_T_0522, SRC_INQ_T_0529, SRC_BCA_MEMBERS_202610, SRC_AIRTRUNK_BC, SRC_NSW_DIARIES_2026]
-data_as_of: 2026-10-22
+story_cards: [ST-011, ST-021]
+questions: [RG-078, RG-070, RG-067, RG-061]
+sources: [SRC_NSWGUIDE26, SRC_OXEC_PHANTOM_2025, SRC_BCA_SUB116, SRC_INQ_T_0522, SRC_INQ_T_0529, SRC_BCA_MEMBERS_202610, SRC_AIRTRUNK_BC, SRC_NSW_DIARIES_2026, SRC_NSWPORTAL_CONSENTS]
+data_as_of: 2026-11-17
 named_parties: ["Secretary, NSW Premier's Department (quoted in role, not named)", "Chief Executive, Infrastructure NSW (quoted in role, not named)", "Chair, NSW Legislative Council Public Accountability and Works Committee (quoted in role, not named)"]
 conflict: null
 tags: [phantom demand, NSW Data Centre Guidelines, industry influence]
@@ -56,7 +56,7 @@ Whether the Business Council's positions on data centres come from its members o
 
 The diaries and the lobbyist registers can be downloaded by a person, and they are the next documents this observatory will read [RG-070].
 
-The same NSW rules carry a demand-flexibility requirement and design limits on how efficiently data centres use energy and water [SRC_NSWGUIDE26]. How those limits are written into each site's conditions will show how much the phantom demand framing shaped what was actually required [SRC_NSWGUIDE26].
+The same NSW rules carry a demand-flexibility requirement and design limits on how efficiently data centres use energy and water [SRC_NSWGUIDE26]. How those limits are written into each site's conditions will show how much the phantom demand framing shaped what was actually required [SRC_NSWGUIDE26]. The approvals have already moved: since July 2026, three of them have required a data centre to match all of its electricity with new, firmed renewable supply at all times before it may operate, and none of the approvals signed before them did [SRC_NSWPORTAL_CONSENTS] [RG-061].
 
 ## Our view
 

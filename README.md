@@ -21,9 +21,10 @@ in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
 (`ap-southeast-2`), all seventeen migrations are applied, including the editor's desk (0014 to 0017, applied 2026-11-11), and the two essay drafts are loaded unapproved, and the research from
-`data-pipeline/` is loaded: 93 sites, 248 sources, 138 entities and 84 published
+`data-pipeline/` is loaded: 102 sites, 296 sources, 146 entities and 95 published
 research questions, every site cited and no site carrying an invented live
-capacity. It was last loaded on 21 October 2026 from `main@b7b6c66`. Fill in
+capacity. It was last loaded on 17 November 2026 from `main@39d7335`. Public
+sign-up is off: the one invited editor is the only account. Fill in
 `.env.local` and the pages show real records. See `docs/SUPABASE_SETUP.md` for
 how it was stood up and what remains.
 
@@ -31,7 +32,7 @@ how it was stood up and what remains.
 Postgres with no Supabase project required, which is the check to run before
 loading a correction.
 
-The map shows 46 of the 93 sites: the NSW State Significant Development
+The map shows 46 of the 102 sites: the NSW State Significant Development
 projects, each at the point the planning portal records for it. It says how many
 sites it could not place. Locating the rest is human curation work with a source
 per point, not something an importer may invent. Linked entities are blank and entity
@@ -71,8 +72,8 @@ hides it, and no entity is flagged as major until a human decides it is.
 - `lib/ingestion/` — the vocabulary map, the row transforms and the SQL emitter.
   Every reconciliation decision lives here and is argued in
   `docs/PIPELINE_MAPPING.md`.
-- `data-pipeline/` — the upstream curation tool (Python, SQLite): 100 sites, 145
-  entities and 293 sources, every row graded and sourced. The app never reads
+- `data-pipeline/` — the upstream curation tool (Python, SQLite): 102 sites, 146
+  entities and 296 sources, every row graded and sourced. The app never reads
   it; it reaches Postgres through a reviewed SQL artefact.
 - `scripts/backup/` and `lib/backup/` — the weekly export, its manifest, and the
   restore emitter. `tables.ts` classifies every table as rebuildable from

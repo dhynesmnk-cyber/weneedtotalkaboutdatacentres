@@ -4,10 +4,10 @@ slug: where-we-stand
 kind: position
 title: Where we stand
 standfirst: Australia will build data centres. The question is whether we dream loud enough about what they could be for, and who they could serve.
-story_cards: [ST-007, ST-011, ST-016]
-questions: []
-sources: [SRC_BCA_SUB116, SRC_AIRTRUNK_BC, SRC_CBUS_PHD_202606, SRC_OXEC_PHANTOM_2025, SRC_NSWGUIDE26, SRC_DEXUS_WDDP_2026]
-data_as_of: 2026-10-22
+story_cards: [ST-007, ST-011, ST-016, ST-021]
+questions: [RG-061]
+sources: [SRC_BCA_SUB116, SRC_AIRTRUNK_BC, SRC_CBUS_PHD_202606, SRC_OXEC_PHANTOM_2025, SRC_NSWGUIDE26, SRC_DEXUS_WDDP_2026, SRC_NSWPORTAL_CONSENTS]
+data_as_of: 2026-11-17
 named_parties: []
 conflict: This page was drafted with Claude, an AI model made by Anthropic, and is edited and approved by the site's author. Anthropic is itself a subject of this observatory's research. The record behind that is set out in the first section below.
 tags: [position]
@@ -26,7 +26,7 @@ The rules are being written now, and not always on neutral evidence. The most re
 
 One frontier AI lab is already lining up as a tenant. In September 2026 Dexus told the stock exchange that the consortium behind a proposed data centre in Queensland's Western Downs had entered into lease documentation with Anthropic's Australian subsidiary, subject to customary approvals [SRC_DEXUS_WDDP_2026].
 
-Some of the right instruments already exist. The NSW rules set design limits on how efficiently a data centre uses energy and water, and require some of its demand to be flexible [SRC_NSWGUIDE26].
+Some of the right instruments already exist. The NSW rules set design limits on how efficiently a data centre uses energy and water, and require some of its demand to be flexible [SRC_NSWGUIDE26]. And since July 2026, three NSW approvals have gone further than any before them, requiring a data centre to match all of its electricity with new, firmed renewable supply at all times before it may operate [SRC_NSWPORTAL_CONSENTS].
 
 ## Our view
 
