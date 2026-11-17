@@ -131,6 +131,8 @@ async function checks(): Promise<Check[]> {
     { path: '/list?status=approved&sort=council', status: 200 },
     { path: '/list?evidence=claimed', status: 200, absent: UNEXPLAINED },
     { path: '/how-to-read', status: 200 },
+    // The data downloads and their licence (Release 2).
+    { path: '/data', status: 200, selector: 'a[href="/data/sites.csv"]' },
     // The load asserts every question is cited, so each must render as one.
     { path: '/research', status: 200, selector: 'article' },
     { path: '/research?pillar=B', status: 200, selector: 'article' },

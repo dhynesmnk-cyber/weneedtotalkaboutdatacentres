@@ -325,7 +325,9 @@ for reference.
   - a `<field>_gap` column instead of a blank;
   - unit tests.
 - A `/data` page with the licence (CC BY 4.0, the author's decision of
-  2026-11-17) and an as-of date.
+  2026-11-17) and an as-of date. **Built 2026-11-17**, with the four files at
+  `/data/{sites,entities,sources,research}.csv`. Each record lists its sources
+  by id, and the files carry no proposed links, essays or names.
 - A `/case-studies` index, and essay links on site pages (D1).
 
 **Downloads** (the author saves each file to the folder `DOWNLOADS.md` names)

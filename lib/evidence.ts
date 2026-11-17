@@ -4,6 +4,7 @@ import type {
   CitationWithSource,
   DataGapRow,
   GapReason,
+  SourceRow,
 } from '@/lib/types';
 
 /**
@@ -86,6 +87,54 @@ export async function listGaps(recordType: CitableRecord): Promise<GapRef[]> {
     // it does not return, so the id costs nothing on the wire.
     rows.push(...(data ?? []));
     if (!data || data.length < PAGE_SIZE) return rows;
+  }
+}
+
+/** Every source the public record holds, for the data downloads. Paged like listGaps. */
+export async function listSources(): Promise<SourceRow[]> {
+  const rows: SourceRow[] = [];
+  if (!isConfigured()) return rows;
+
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await facts()
+      .from('sources')
+      .select('*')
+      .order('pipeline_id')
+      .range(from, from + PAGE_SIZE - 1);
+
+    if (error) throw new Error(`Failed to load sources: ${error.message}`);
+    rows.push(...(data ?? []));
+    if (!data || data.length < PAGE_SIZE) return rows;
+  }
+}
+
+/**
+ * The sources cited by every record of one kind, as pipeline ids, for the data
+ * downloads. Paged for the same reason as listGaps: one response carries at
+ * most 1000 rows, and the site citations alone are more.
+ */
+export async function citedSourcesByRecord(recordType: CitableRecord): Promise<Map<string, string[]>> {
+  const byRecord = new Map<string, string[]>();
+  if (!isConfigured()) return byRecord;
+
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await facts()
+      .from('citations')
+      .select('record_id, source:sources(pipeline_id)')
+      .eq('record_type', recordType)
+      .order('id')
+      .range(from, from + PAGE_SIZE - 1);
+
+    if (error) throw new Error(`Failed to load citations: ${error.message}`);
+    const rows = (data ?? []) as unknown as { record_id: string; source: { pipeline_id: string | null } | null }[];
+    for (const row of rows) {
+      const id = row.source?.pipeline_id;
+      if (!id) continue;
+      const list = byRecord.get(row.record_id) ?? [];
+      if (!list.includes(id)) list.push(id);
+      byRecord.set(row.record_id, list);
+    }
+    if (rows.length < PAGE_SIZE) return byRecord;
   }
 }
 

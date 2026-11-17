@@ -139,7 +139,9 @@ function roleAlreadyStated(textValue: string, start: number, end: number): boole
   const clause = before.split(/[.;:(\n]/).pop() ?? '';
   const lastWords = clause.trim().split(/\s+/).slice(-4).join(' ');
   if (TITLE_WORDS.test(lastWords)) return true;
-  const after = textValue.slice(end, end + 50);
+  // Wide enough to reach the title word in a long role ("- Australia's Senior
+  // Trade and Investment Commissioner"), but only within the same clause.
+  const after = textValue.slice(end, end + 100);
   return /^\s*(?:,|\s-|\s–)\s*/.test(after) && TITLE_WORDS.test(after.split(/[.;(\n]/)[0] ?? '');
 }
 

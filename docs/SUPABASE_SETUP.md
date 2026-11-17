@@ -16,6 +16,20 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded again on 2026-11-17 from `main@056aa5b` (the merge of #40, R2.0),
+on the author's instruction. This load withholds people's names across the
+published record (docs/PIPELINE_MAPPING.md, "People are published by role").
+- **The artefact.** Digest `4dac05ea…`, with counts unchanged (102 sites,
+  296 sources, 146 entities, 95 questions, 654 citations). The loader listed 26
+  people and withheld their names in 19 fields. It committed in one request.
+- **Checked as `anon`, in a rolled-back transaction.** All 639 published rows of
+  sources, entities, sites and questions were read back. None names any of the
+  people the 2026-11-17 sweep found; the check ran outside the database, so the
+  names never went into a query. The five entities that are individuals, the
+  two source titles and RG-077, RG-079, RG-090 and RG-092 read by role.
+- **The live site.** `/research` still showed names from the five-minute page
+  cache, then cleared within the minute after it expired.
+
 Reloaded on 2026-11-17 from `main@39d7335` (the merge of #38), over the
 Management API, on the author's instruction. No migration was needed. In order:
 
