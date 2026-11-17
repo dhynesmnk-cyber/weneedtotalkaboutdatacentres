@@ -16,6 +16,18 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Essay drafts loaded on 2026-11-17 from `main@82d468e` (the merge of #42), on
+the author's instruction. `npm run load:essays` wrote three drafts; ES-000 and
+ES-001 were unchanged and unedited, so only ES-003 "Nine approvals, no
+operator" was new. It committed in one request.
+- **In the database.** Three essays, none approved and none edited in
+  `/admin`. Essay citations rose from 16 to 36: ES-003 has 20, ES-001 9 and
+  ES-000 7.
+- **Checked as `anon`, in a rolled-back transaction.** No essay and no essay
+  citation is visible. Sites (102) and sources (296) are unchanged.
+- **The live site.** `/essays` does not list it, and
+  `/essays/nine-approvals-no-operator` returns 404 until the author approves it.
+
 Reloaded again on 2026-11-17 from `main@056aa5b` (the merge of #40, R2.0),
 on the author's instruction. This load withholds people's names across the
 published record (docs/PIPELINE_MAPPING.md, "People are published by role").
