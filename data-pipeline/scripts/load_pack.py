@@ -84,8 +84,10 @@ REQUIRED_BY_TABLE = {
     "gov_contracts": ("supplier_name", "agency", "contract_title", "portal"),
     "consultant_role": ("project_slug", "entity_id", "role"),
     "case_handling": ("case_id", "project_slug", "officer_role"),
+    # migration 03: the people register (who the site names by role only)
+    "people": ("name", "role"),
 }
-TEXT_PK_TABLES = {"sources", "entities", "sites", "legal_instruments", "community_groups"}
+TEXT_PK_TABLES = {"sources", "entities", "sites", "legal_instruments", "community_groups", "people"}
 # Tables with a one-row-per-parent UNIQUE constraint: upsert on that column, not on id.
 UNIQUE_KEY_TABLES = {"power_profile": "site_id", "water_profile": "site_id",
                      # migration 02: consultancy_profile is keyed on the entity it describes
@@ -114,6 +116,8 @@ ALLOWED_TABLES = {
     "engineering_claims", "modifications", "lobbying",
     # migration 02: consultancy / advisory layer
     "consultancy_profile", "gov_contracts", "consultant_role", "case_handling",
+    # migration 03: the people register
+    "people",
 }
 
 

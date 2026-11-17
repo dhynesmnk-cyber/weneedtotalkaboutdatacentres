@@ -25,6 +25,7 @@ import {
   SOURCE_CITE,
   statesNumber,
   TECHNICAL,
+  voiceProblems,
   type FrontValue,
 } from '@/lib/editorial/text';
 
@@ -158,6 +159,9 @@ export function checkCard(card: StoryCard, known: KnownIds): string[] {
       if (pattern.test(body.replace(SOURCE_CITE, '').replace(QUESTION_CITE, ''))) {
         at(`${heading} mentions ${what}; keep the mechanics in the hunt log`);
       }
+    }
+    for (const what of voiceProblems(body)) {
+      at(`${heading} uses ${what} in our own voice, which editorial/WRITING.md bans`);
     }
 
     if (heading === 'Essay hooks') {

@@ -31,6 +31,59 @@ export const TECHNICAL: readonly [RegExp, string][] = [
   [/\bMVA\b|\bkV\b|\bPUE\b|\bWUE\b/, 'an engineering unit'],
 ];
 
+/**
+ * Marks and words banned in our own voice (editorial/WRITING.md, section 9).
+ *
+ * Checked only in our own voice: see ownVoice(). The patterns are lower case on
+ * purpose, so a capitalised proper noun (the Digital Transformation Agency)
+ * passes; the cost is that a banned word opening a sentence is left to the
+ * editor's review, which the guide says.
+ */
+export const VOICE_BANS: readonly [RegExp, string][] = [
+  [/—/, 'an em dash'],
+  [/!(?=\s|$)/, 'an exclamation mark'],
+  [/\bdelv(?:e|es|ed|ing)\b/, '"delve"'],
+  [/\blandscapes?\b/, '"landscape"'],
+  [/\bgame[- ]?changers?\b/, '"game-changer"'],
+  [/\bunlock(?:s|ed|ing)?\b/, '"unlock"'],
+  [/\bseamless(?:ly)?\b/, '"seamless"'],
+  [/\brobust(?:ly|ness)?\b/, '"robust"'],
+  [/\bfast-paced world\b/, '"in today\'s fast-paced world"'],
+  [/\bhere['’]s the thing\b/i, '"here\'s the thing"'],
+  [/\blet that sink in\b/i, '"let that sink in"'],
+  [/\bmake no mistake\b/i, '"make no mistake"'],
+  [/\bat the end of the day\b/i, '"at the end of the day"'],
+  [/(?:^|\n)[ \t]*(?:imagine|picture this)\b/i, 'an "imagine" or "picture this" opening'],
+  [/\bsupercharg\w*/, '"supercharge"'],
+  [/\btransform(?:s|ed|ing|ative|ation|ational)?\b/, '"transform"'],
+  [/\bai-powered\b|\bAI-powered\b/, '"AI-powered"'],
+  [/\bworld-class\b/, '"world-class"'],
+  [/\bcutting-edge\b/, '"cutting-edge"'],
+  [/\bfuture-proof\w*/, '"future-proof"'],
+];
+
+/**
+ * The text in our own voice: citations, block quotes (pull quotes, figures, the
+ * paste-ready artefact) and anything inside double quotation marks removed.
+ * Their language is evidence, not vocabulary, so a banned word may be quoted.
+ */
+export function ownVoice(text: string): string {
+  return text
+    .replace(SOURCE_CITE, '')
+    .replace(QUESTION_CITE, '')
+    .split('\n')
+    .filter((line) => !/^\s*>/.test(line))
+    .join('\n')
+    .replace(/"[^"\n]*"/g, '""')
+    .replace(/“[^”\n]*”/g, '“”');
+}
+
+/** What in our own voice breaks the bans, one entry per kind of breach. */
+export function voiceProblems(text: string): string[] {
+  const own = ownVoice(text);
+  return VOICE_BANS.filter(([pattern]) => pattern.test(own)).map(([, what]) => what);
+}
+
 export type FrontValue = string | string[] | null;
 
 function unquote(s: string): string {

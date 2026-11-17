@@ -206,6 +206,30 @@ sits in, made invisibly. A human resolves them by adding rows to
 Until that happens the council column shows both forms. That is visibly wrong,
 which is recoverable; the alternative is invisibly wrong, which is not.
 
+## People are published by role
+
+The research database may name people; the site may not, until legal review is
+arranged (`CLAUDE.md`). Since 2026-11-17 (R2.0) the loader withholds them.
+
+- **Who is withheld.** It reads three tables:
+  - the `people` register (`schema/03_people.sql`), with each person's
+    published role and the record that states it;
+  - `lobbying.person` ("Name, role");
+  - `case_handling.officer_name`.
+- **What it does.** In every published text field of sources, entities, sites
+  and research questions, it replaces each name with one of:
+  - the role in square brackets;
+  - "[name withheld]", where the text already states the role beside the name;
+  - for planning officers, "[NSW planning officer n]", with n fixed for the
+    load by caseload.
+- **The refusal.** If any listed name survives, the loader refuses to write the
+  artefact, and reports the field by role, never by name.
+- **What it cannot do.** It cannot withhold a name the research has not
+  listed. A newly found name goes into the register, by pack, before it can be
+  published.
+- **Bylines.** Journalists' bylines in `sources.publisher` are deliberately
+  left: a byline is a citation's authorship (the author, 2026-11-17).
+
 ## Identity
 
 Pipeline natural keys (`SITE_MAMRE_ROAD`) become UUIDv5 values derived from a

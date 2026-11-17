@@ -1,0 +1,123 @@
+{
+  "pack_id": "people-register-2026-11",
+  "prepared_by": "scripts/curate_people.py",
+  "prepared_on": "2026-11-17",
+  "_comment": [
+    "Who the site names by role only. The loader reads this table with lobbying.person and",
+    "case_handling.officer_name and replaces each name in every published text field. Each",
+    "role is checked verbatim against the record that states it. Bylines are not listed."
+  ],
+  "sources": [],
+  "rows": {
+    "people": [
+      {
+        "id": "PER_AUSTRADE_SOUTH_ASIA_COMMISSIONER",
+        "name": "Jodi McKay",
+        "aliases": null,
+        "role": "Austrade's Senior Trade and Investment Commissioner for South Asia",
+        "organisation_id": null,
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'Senior Trade and Investment Commissioner for South Asia'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_AUSTRADE_MCKAY",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_NVIDIA_CEO",
+        "name": "Jensen Huang",
+        "aliases": null,
+        "role": "NVIDIA's chief executive",
+        "organisation_id": null,
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'Nvidia CEO Jensen Huang'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_SHERWOOD_GTC_QUOTE",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_TELSTRA_CEO",
+        "name": "Vicki Brady",
+        "aliases": null,
+        "role": "Telstra's chief executive",
+        "organisation_id": null,
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'Telstra CEO Vicki Brady'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_WMEDIA_BCA",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_BCA_PRESIDENT",
+        "name": "Geoff Culbert",
+        "aliases": null,
+        "role": "President, Business Council of Australia",
+        "organisation_id": "ENT_BCA",
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'President of the Business Council of Australia'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_BCA_ABOUT",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_TCS_CHAIR",
+        "name": "Chandrasekaran",
+        "aliases": "Chairman Chandrasekaran|N Chandrasekaran|N. Chandrasekaran",
+        "role": "TCS's chairman",
+        "organisation_id": null,
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'Chairman Chandrasekaran is quoted'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_TCS_HYPERVAULT",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_UK_DEFENCE_SECRETARY",
+        "name": "John Healey",
+        "aliases": "John Healey MP",
+        "role": "the UK Defence Secretary",
+        "organisation_id": null,
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'Defence Secretary John Healey'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_GOVUK_PALANTIR_SEP25",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_CDC_CEO",
+        "name": "Greg Boorer",
+        "aliases": "Gregory David Boorer|Gregory Boorer",
+        "role": "CDC's director and chief executive",
+        "organisation_id": "ENT_CDC",
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'Director and Chief Executive Officer, Canberra Data Centres'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_SSD10330_DONATION",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_UK_MOD_DG_AUKUS",
+        "name": "Damian Parmenter",
+        "aliases": "Damian Parmenter CBE",
+        "role": "a former UK Ministry of Defence Director General for AUKUS",
+        "organisation_id": null,
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'former Director General, AUKUS, Ministry of Defence'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_ACOBA_PARMENTER",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      },
+      {
+        "id": "PER_FORMER_DEFENCE_MATERIEL_MINISTER",
+        "name": "Mike Kelly",
+        "aliases": null,
+        "role": "a former federal Minister for Defence Materiel",
+        "organisation_id": "ENT_PALANTIR_AU",
+        "notes": "Published by role only (CLAUDE.md). The role is stated in the record as: 'former Labor Minister for Defence Materiel'.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_ABC_REVOLVING",
+        "confidence": "high",
+        "as_of_date": "2026-11-17"
+      }
+    ]
+  }
+}

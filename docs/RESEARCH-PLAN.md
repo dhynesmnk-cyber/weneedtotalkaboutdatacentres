@@ -3,7 +3,13 @@
 How the open research questions get researched, answered, and turned into story
 cards for the essays published as *We need to talk about data centres*.
 
-Written: 2026-10-21. Status: proposed, awaiting the author's sign-off.
+Written: 2026-10-21. Status: in use. The method below stands.
+
+From 2026-11-17, docs/PUBLICATION-PLAN.md carries the order of work: every
+unresolved question triaged, and the first ten essays. On that date the author
+decided to do the free downloads and lodge the FOI, GIPA and RTI requests, with
+paid searches still deferred. Drafts follow the house voice in
+editorial/WRITING.md.
 Owner: the author. Agents draft; the author decides what is published.
 
 ## Why

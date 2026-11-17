@@ -306,13 +306,26 @@ allow-list is the only authority.)
 
 ## Release 2: data utility, downloads and the first essay batch
 
+**Started 2026-11-17. The working plan is now docs/PUBLICATION-PLAN.md.** It
+takes the author's decisions of that date:
+- the voice stays "we";
+- the author does the downloads and lodges the requests, with paid searches
+  deferred;
+- the licence is **CC BY 4.0**;
+- essays publish as each is ready.
+
+It adds R2.0 (people by role across the published record) ahead of everything
+below, and it carries the essay order. What follows is the original scope, kept
+for reference.
+
 **Data for journalists (UX-PLAN E2)**
 - `app/data/{sites,entities,sources,research}.csv/route.ts` on a new
   `lib/csv.ts`:
   - formula-injection guard;
   - a `<field>_gap` column instead of a blank;
   - unit tests.
-- A `/data` page with the licence (the author decides which) and an as-of date.
+- A `/data` page with the licence (CC BY 4.0, the author's decision of
+  2026-11-17) and an as-of date.
 - A `/case-studies` index, and essay links on site pages (D1).
 
 **Downloads** (the author saves each file to the folder `DOWNLOADS.md` names)

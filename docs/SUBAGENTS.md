@@ -17,7 +17,10 @@ Output: metric drafts with input provenance. Refuses to fill gaps.
 
 ## writer_support
 Drafts essays, the position and proposals in full, as Markdown in
-editorial/essays/, from the story cards, every factual sentence cited.
+editorial/essays/, from the story cards, every factual sentence cited, in the
+house voice of editorial/WRITING.md. It starts from the essay's brief in
+docs/PUBLICATION-PLAN.md, and writes a gap list instead of a draft when the
+evidence is not there.
 Output: a draft file through a pull request, passing `npm run check:essays`.
 Never approves, never sets approval fields, never holds the editor's session.
 The editor edits and approves at /admin (docs/UX-PLAN.md, decision 6).

@@ -91,6 +91,15 @@ select public.assert(
   (select count(*) from facts.entities where pipeline_id is not null) = 146,
   '146 entities loaded');
 
+-- 2026-11-17: people by role (R2.0, CLAUDE.md). The entities that are individuals
+-- load under their public role, in square brackets; the loader refuses to write a
+-- load that still names anyone it lists (lib/ingestion/people.ts).
+select public.assert(
+  (select count(*) from facts.entities
+    where pipeline_id in ('ENT_KHUDA', 'ENT_BCA_CE', 'ENT_BCA_PRES', 'ENT_WENDY_BLACK', 'ENT_MAMRE_OWNER')
+      and name !~ '\[[^]]+\]') = 0,
+  'entities that are individuals are published under their role');
+
 -- 2026-11-15: the HCF register follow-up archives eight operator pages (ADC's home
 -- and locations pages, Polaris, Fujitsu's 2020 footprint release, NEXTDC B1 and B2,
 -- Macquarie IC3 East and IC3 Super West), giving 292. It re-declares SRC_HCF_REGISTER

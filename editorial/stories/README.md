@@ -73,6 +73,9 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
   *Essay hooks*.
 - **Australian English**, written for a reader who has never opened a planning
   document. Explain an acronym the first time it appears.
+- **The house voice** in editorial/WRITING.md applies to cards too: the
+  evidence rules, dry bite, the analogy ration and the bans. The checker
+  refuses an em dash, an exclamation mark or a banned word in our own voice.
 
 ## Index
 
