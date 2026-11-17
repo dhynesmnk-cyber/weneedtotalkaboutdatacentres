@@ -16,6 +16,71 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded on 2026-11-17 from `main@39d7335` (the merge of #38), over the
+Management API, on the author's instruction. No migration was needed. In order:
+
+1. **The research reload.**
+   - The artefact (digest `81dcdc70…`) carried 296 sources, 146 entities, 102
+     sites, 95 research questions, 654 citations, 1,743 data gaps and 70
+     proposed links. The same five uncited questions were rejected.
+   - It committed in one request (8 seconds), with its invariants checked
+     inside the transaction.
+   - Before: 93 sites, 284 sources, 88 questions. After: 103 sites (the 102
+     plus the retired duplicate), 296 sources, 146 entities, 95 questions.
+2. **The duplicate removed, on the author's instruction** ("remove duplicate
+   site", 2026-11-17).
+   - RG-084 found that `SITE_STOCKLAND_MP` and `SITE_MACQUARIE_PARK_DC` are one
+     consent, SSD-10467. The author approved the merge on 2026-11-15, and the
+     pipeline dropped the row then.
+   - The loader never deletes, so the row stayed live until this transaction:
+
+   ```sql
+   begin;
+   do $$
+   declare dup uuid; n_cites int; n_gaps int; n_sites int;
+   begin
+     select id into dup from facts.sites where pipeline_id = 'SITE_STOCKLAND_MP';
+     -- aborts unless dup is c81a136d-59b8-535e-97cc-be6af72f89a8 and
+     -- SITE_MACQUARIE_PARK_DC exists
+     delete from facts.citations where record_type = 'sites' and record_id = dup;
+     delete from facts.data_gaps where record_type = 'sites' and record_id = dup;
+     delete from facts.sites where id = dup;   -- links cascade; none existed
+     -- rolls back unless: 1 site, 2 citations and 0 gaps deleted; 102 sites
+     -- remain; every remaining site is cited
+   end $$;
+   commit;
+   ```
+
+   - It removed 1 site and 2 citations. The reload's narrow delete of derived
+     gaps had already cleared the row's 20 `unknown` gaps.
+   - It was tested first on a throwaway database with a stand-in row. A second
+     run aborts.
+3. **Public sign-up switched off** (`disable_signup: true`, re-read to
+   confirm). The hosted project had it on, contrary to `supabase/config.toml`
+   and "no public accounts".
+   - Nobody can create an account. The invited editor still signs in by
+     emailed link.
+   - **SMTP is still not configured.** That is the author's step (step 6a,
+     item 5), because the provider's credentials never pass through a session.
+
+Checked afterwards, as `anon` in a rolled-back transaction:
+- 102 sites, and `SITE_STOCKLAND_MP` is not readable;
+- 95 questions and 296 sources;
+- no essay and no essay citation visible;
+- `SITE_DIGICO_SYD1` reads `under_construction`;
+- every site carries a citation.
+
+Seven citations are live that the pipeline no longer produces:
+- six from the 21 October load, below;
+- one more since then.
+
+All seven are listed for review, not removed:
+- `SITE_ROAD_1` and `SITE_PROJECT_PLUTO` ← `SRC_NSWPORTAL_REGISTER`;
+- `ENT_COLES` and RG-095 ← `SRC_ITNEWS_COLES`;
+- RG-069 ← `SRC_SSD10330_CONSENT`;
+- RG-085 ← `SRC_NSWPORTAL_CONSENTS`;
+- RG-086 ← `SRC_CRIKEY_DEF_FEB26`.
+
 Release 1 applied on 2026-11-11 from `claude/bold-goldberg-0ek4ml@f168531`,
 over the Management API from a Claude Code session (port 5432 is still
 unreachable from sessions). In order:
