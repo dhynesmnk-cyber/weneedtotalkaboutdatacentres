@@ -47,7 +47,8 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/whose_data.json \
                       data/packs/who_heard.json \
                       data/packs/rg084_macquarie_park_merge.json \
-                      data/packs/rg061_rg099_decisions.json
+                      data/packs/rg061_rg099_decisions.json \
+                      data/packs/people_register.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
@@ -137,6 +138,7 @@ verify:
 	$(PY) scripts/curate_rg084.py
 	$(PY) scripts/curate_rg061_rg099.py
 	$(PY) scripts/curate_rg101_digico.py
+	$(PY) scripts/curate_people.py
 
 load: build verify
 	@for p in $(PACKS); do \

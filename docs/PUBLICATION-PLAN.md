@@ -75,28 +75,40 @@ The hard rule is people by role until legal review is arranged (`CLAUDE.md`).
 The research database is the workshop and may keep the names. The shopfront may
 not.
 
-**The fix:**
-1. **Substitute roles in the loader.** It builds a name-to-role map at load
-   time from the pipeline's own records: `lobbying.person` ("Name, role") and
-   `case_handling.officer_name` with its `officer_role`. It replaces every
-   occurrence of a name in every published text field with the role in square
-   brackets:
-   - site and source names and notes;
-   - source titles and publishers;
-   - entity names;
-   - research question texts.
+**The fix, as built (2026-11-17):**
+1. **The register.** A new research-database table, `people`
+   (data-pipeline/schema/03_people.sql), lists each named person the lobbying
+   and case-handling tables do not already cover, with the public role the site
+   uses instead.
+   - Every role is checked verbatim against the record that states it, by
+     `scripts/curate_people.py`.
+   - The register also overrides two lobbying roles too long to publish as a
+     label.
+2. **The loader** (lib/ingestion/people.ts) reads the register,
+   `lobbying.person` and `case_handling.officer_name` at load time. No list of
+   names is committed outside the research database. It replaces every name in
+   every published text field:
+   - with the role in square brackets;
+   - with "[name withheld]" where the text already states the role beside the
+     name;
+   - for NSW planning officers, with a number fixed for the whole load, so
+     RG-079's caseload analysis stays readable.
 
-   Within a field, a surname used alone after the full name is replaced too. No
-   list of names is committed.
-2. **Treat individuals' entity rows the same way.** An entity row that is an
-   individual is published under its role, for example "[Founder and chief
-   executive, AirTrunk]".
-3. **Reword RG-077's question at source,** by role, because the pipeline does
-   not hold that name anywhere else.
-4. **Assert inside the load transaction** that no known name remains in any
-   published field. The load rolls back if one does. Unit tests cover the
-   substitution and the assertion.
-5. **Reload the hosted database** and check it as `anon`.
+   A surname used alone after the full name is replaced too.
+3. **The refusal.** The loader refuses to write a load that still names anyone
+   it lists. It reports the field by role, never by name.
+4. **Bylines are kept.** Journalists' bylines in a source's publisher field are
+   not listed, on the author's decision of 2026-11-17. A byline is a citation's
+   authorship.
+5. **The essay screen reads the same three sources**, so a draft cannot name
+   anyone the record withholds.
+6. **The result.**
+   - 26 people are listed.
+   - Names are withheld in 19 fields: source titles, entity names, one site's
+     notes, and RG-077, RG-079, RG-090, RG-076 and RG-092.
+   - The load test asserts that the five entities which are individuals load
+     under their role.
+7. **Reload** the hosted database once this merges, and check it as `anon`.
 
 **Gate:** no essay is approved until R2.0 is live, because essays link to
 record pages.

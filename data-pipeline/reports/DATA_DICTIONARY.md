@@ -2,7 +2,7 @@
 
 Schema v1.0.0 · generated from the live database by `scripts/gen_dictionary.py`.
 
-30 tables, 16 views. Conventions: power in **MW**, water in **kL/yr**, money in
+31 tables, 16 views. Conventions: power in **MW**, water in **kL/yr**, money in
 **AUD (REAL)**, dates **ISO-8601** (`YYYY-MM-DD`, or `YYYY-MM` where the day is unknown).
 
 Every factual table carries the four provenance columns `fact_status`, `confidence`, `as_of_date`
@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 184 rows)
+## `ingest_log` (table, 186 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -463,6 +463,23 @@ The control chain. One row per holder per period; `effective_to IS NULL` means c
 | `firb_outcome` | TEXT |  |
 | `notes` | TEXT |  |
 | `fact_status` | TEXT | NOT NULL default `'REPORTED'` |
+| `source_id` | TEXT | → `sources.id` |
+| `confidence` | TEXT |  |
+| `as_of_date` | TEXT |  |
+
+## `people` (table, 9 rows)
+
+_No description recorded._
+
+| Column | Type | Constraints |
+|---|---|---|
+| `id` | TEXT | **PK** |
+| `name` | TEXT | NOT NULL |
+| `aliases` | TEXT |  |
+| `role` | TEXT | NOT NULL |
+| `organisation_id` | TEXT | → `entities.id` |
+| `notes` | TEXT |  |
+| `fact_status` | TEXT | NOT NULL default `'VERIFIED'` |
 | `source_id` | TEXT | → `sources.id` |
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |

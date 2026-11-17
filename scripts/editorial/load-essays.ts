@@ -21,6 +21,8 @@ import { DatabaseSync } from 'node:sqlite';
 import { draftOf, essaysSql, parseEssayFile, type EssayFile } from '@/lib/editorial/essayFile';
 import { checkEssay, type CheckContext } from '@/lib/editorial/rules';
 import { cited } from '@/lib/editorial/text';
+import { peopleFromPipeline } from '@/lib/ingestion/people';
+import type { PipelineRow } from '@/lib/ingestion/transform';
 
 const LOADER_VERSION = 'load-essays 1.0.0';
 const REPO_ROOT = join(__dirname, '..', '..');
@@ -28,16 +30,20 @@ const DIR = join(REPO_ROOT, 'editorial', 'essays');
 const DB = join(REPO_ROOT, 'data-pipeline', 'exports', 'australian_data_centre_observatory.db');
 
 /**
- * Personal names in the research, from the lobbying records ("Name, role").
- * Only the part before the comma, and only where it reads as a name of two or
- * three capitalised words, so a role such as "Minister for Planning" is not
- * mistaken for one.
+ * Personal names in the research: the same people the record loader withholds
+ * (lib/ingestion/people.ts), from the people register, the lobbying records
+ * and the case-handling officers, with the register's other spellings.
  */
 function personalNames(db: DatabaseSync): string[] {
-  const rows = db.prepare('SELECT person FROM lobbying WHERE person IS NOT NULL').all() as { person: string }[];
-  return rows
-    .map((r) => r.person.split(',')[0]!.trim())
-    .filter((n) => /^[A-Z][a-z'’-]+(?: [A-Z][a-z'’-]+){1,2}$/.test(n));
+  const has = (t: string) => db.prepare("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = ?").all(t).length > 0;
+  const all = (t: string) => db.prepare(`SELECT * FROM ${t}`).all() as PipelineRow[];
+  const people = peopleFromPipeline({
+    people: has('people') ? all('people') : [],
+    lobbying: all('lobbying'),
+    caseHandling: all('case_handling'),
+    entityNames: new Map(),
+  });
+  return people.flatMap((p) => [p.name, ...p.aliases]);
 }
 
 function context(): CheckContext {

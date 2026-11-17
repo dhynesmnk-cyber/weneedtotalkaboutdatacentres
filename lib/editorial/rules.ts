@@ -70,7 +70,8 @@ export interface CheckContext {
   /** Research question ids the agenda holds (RG-nnn). */
   questionIds: ReadonlySet<string>;
   /**
-   * Personal names the research holds, from the pipeline's lobbying records.
+   * Personal names the research holds: the people register, the lobbying
+   * records and the case-handling officers (lib/ingestion/people.ts).
    * Supplied at check time, never committed as a list. Until legal review is
    * arranged, essays refer to people by role (docs/DELIVERY-PLAN.md, decision 7).
    */

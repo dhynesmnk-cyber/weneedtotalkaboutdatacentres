@@ -25,6 +25,7 @@ import {
   type LgaSpelling,
   type LgaVariantGroup,
 } from '@/lib/ingestion/lga';
+import { peopleFromPipeline, rolesNamedIn, withholdNames, type Person } from '@/lib/ingestion/people';
 import { header, insertRows, literal, upsert } from '@/lib/ingestion/sql';
 import {
   RowRejected,
@@ -78,6 +79,46 @@ interface Report {
 
 function readTable(db: DatabaseSync, table: string): PipelineRow[] {
   return db.prepare(`select * from ${table}`).all() as PipelineRow[];
+}
+
+function hasTable(db: DatabaseSync, table: string): boolean {
+  return db.prepare("select 1 from sqlite_master where type = 'table' and name = ?").all(table).length > 0;
+}
+
+// Identity and address fields are never prose, so they are never screened.
+const NOT_PROSE = new Set(['id', 'pipeline_id', 'url']);
+
+/**
+ * People by role (CLAUDE.md): replace every listed person's name in every
+ * published text field of these rows. Returns how many fields changed.
+ */
+function withholdIn(rows: object[], people: readonly Person[]): number {
+  let changed = 0;
+  for (const row of rows as Record<string, unknown>[]) {
+    for (const [key, value] of Object.entries(row)) {
+      if (NOT_PROSE.has(key) || typeof value !== 'string') continue;
+      const out = withholdNames(value, people);
+      if (out !== value) {
+        row[key] = out;
+        changed += 1;
+      }
+    }
+  }
+  return changed;
+}
+
+/** Where a listed person is still named, by table, record and role. Never by name. */
+function stillNamed(table: string, rows: object[], people: readonly Person[]): string[] {
+  const found: string[] = [];
+  for (const row of rows as Record<string, unknown>[]) {
+    for (const [key, value] of Object.entries(row)) {
+      if (NOT_PROSE.has(key) || typeof value !== 'string') continue;
+      for (const role of rolesNamedIn(value, people)) {
+        found.push(`${table} ${String(row.pipeline_id ?? row.id)} ${key}: names ${role}`);
+      }
+    }
+  }
+  return found;
 }
 
 function main(): void {
@@ -209,6 +250,29 @@ function main(): void {
   });
   report.counts['facts.citations'] = deduped.length;
 
+  // --- people by role ------------------------------------------------------
+  // The research may hold names; the site may not (CLAUDE.md). Who to withhold
+  // is read from the pipeline at load time, so no list of names is committed
+  // here. Journalists' bylines are not listed (the author, 2026-11-17).
+  const people = peopleFromPipeline({
+    people: hasTable(db, 'people') ? readTable(db, 'people') : [],
+    lobbying: readTable(db, 'lobbying'),
+    caseHandling: readTable(db, 'case_handling'),
+    entityNames: new Map(readTable(db, 'entities').map((e) => [String(e.id), String(e.name)])),
+  });
+  const withheld =
+    withholdIn(sources, people) + withholdIn(entities, people) + withholdIn(sites, people) + withholdIn(agenda, people);
+  const named = [
+    ...stillNamed('facts.sources', sources, people),
+    ...stillNamed('facts.entities', entities, people),
+    ...stillNamed('facts.sites', sites, people),
+    ...stillNamed('facts.research_agenda', agenda, people),
+  ];
+  if (named.length) {
+    // Refuse to write a load that names a person. Reported by role, never by name.
+    throw new Error(`People by role: ${named.length} field(s) would still name someone:\n  ${named.join('\n  ')}`);
+  }
+
   // --- council names that need a human ------------------------------------
   // Reported, never fixed. See facts.lga_aliases.
   // Every site's council, duplicates kept: the review needs counts per spelling.
@@ -286,7 +350,8 @@ function main(): void {
     ),
     '\n',
     `insert into facts.ingest_runs (source_system, source_digest, loader_version, rows_by_table, notes)\nvalues (${literal(SOURCE_SYSTEM)}, ${literal(digest)}, ${literal(LOADER_VERSION)}, ${literal(report.counts)}, ${literal(
-      `${report.rejected.length} rows rejected; ${orphaned} citations dropped for an unloaded source`,
+      `${report.rejected.length} rows rejected; ${orphaned} citations dropped for an unloaded source; ` +
+        `names withheld in ${withheld} field(s) for ${people.length} people listed`,
     )});\n`,
     '\n',
     POST_LOAD_ASSERTIONS,
@@ -299,6 +364,7 @@ function main(): void {
     console.log(`  ${table.padEnd(20)} ${count}`);
   }
   if (orphaned > 0) console.log(`  citations dropped (source not loaded): ${orphaned}`);
+  console.log(`People by role: ${people.length} people listed; names withheld in ${withheld} field(s).`);
 
   if (report.rejected.length > 0) {
     console.log(`\n${report.rejected.length} rows rejected:`);
