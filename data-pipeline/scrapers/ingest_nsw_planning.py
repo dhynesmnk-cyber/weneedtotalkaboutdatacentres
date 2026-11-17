@@ -108,7 +108,10 @@ def project(slug: str) -> int:
     print(json.dumps(found, indent=2))
     out = os.path.join(RAW, f"worklist__{slug}.json")
     with open(out, "w", encoding="utf-8") as fh:
-        json.dump({"slug": slug, "url": url, "archived": path, **found}, fh, indent=2)
+        # A repo-relative path: the worklist is committed, and an absolute path would record
+        # whichever machine ran the fetch rather than where the archive lives.
+        json.dump({"slug": slug, "url": url,
+                   "archived": os.path.relpath(path, os.path.dirname(ROOT)), **found}, fh, indent=2)
     print(f"[worklist] {out}")
     return 0
 

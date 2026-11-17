@@ -35,6 +35,8 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/palantir_nvidia_thread.json \
                       data/packs/site_coordinates.json \
                       data/packs/site_portal_fields.json \
+                      data/packs/hcf_facilities.json \
+                      data/packs/rg101_digico.json \
                       data/packs/hcf_register.json \
                       data/packs/ssd_documents.json \
                       data/packs/operator_sources.json \
@@ -43,15 +45,17 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/super_and_openai.json \
                       data/packs/public_and_room.json \
                       data/packs/whose_data.json \
-                      data/packs/who_heard.json
+                      data/packs/who_heard.json \
+                      data/packs/rg084_macquarie_park_merge.json \
+                      data/packs/rg061_rg099_decisions.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
 # same target serves RG-072 with KEYWORD="tata consultancy".
 KEYWORD ?= palantir
 
-.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-secrets check-redact check-austender check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
+.PHONY: all build verify load docs worklist fetch-ssd-docs check-export check-packs check-secrets check-redact check-austender check-archiver check-patents check-filings reextract-consents battery-offline fetch-cer fetch-registers fetch-austender query unverified clean
 
-all: check-packs check-secrets check-redact check-austender check-patents build verify load check-filings docs
+all: check-packs check-secrets check-redact check-austender check-archiver check-patents build verify load check-filings docs
 
 check-packs:
 	$(PY) scripts/check_packs.py
@@ -73,6 +77,11 @@ check-redact:
 # parser handles the shapes it was written for, NOT that those shapes match AusTender.
 check-austender:
 	$(PY) scrapers/ingest_austender.py --selftest
+
+# Offline fixture tests for the robots.txt reader every archive and register fetch goes through,
+# including a file with two groups for every crawler that disagree, which robotparser reads as yes.
+check-archiver:
+	$(PY) scrapers/archive_pages.py --selftest
 
 # Planted-topic recovery test for the LDA sampler in scripts/analyse_patents.py. Real ground
 # truth, and it fails if the sampler is broken - verified by mutation. See reports/PATENT_METHOD.md.
@@ -121,9 +130,13 @@ verify:
 	$(PY) scripts/curate_certstrat_review.py
 	$(PY) scripts/curate_who_applies.py
 	$(PY) scripts/curate_super_and_openai.py
+	$(PY) scripts/curate_hcf_facilities.py
 	$(PY) scripts/curate_public_and_room.py
 	$(PY) scripts/curate_whose_data.py
 	$(PY) scripts/curate_who_heard.py
+	$(PY) scripts/curate_rg084.py
+	$(PY) scripts/curate_rg061_rg099.py
+	$(PY) scripts/curate_rg101_digico.py
 
 load: build verify
 	@for p in $(PACKS); do \

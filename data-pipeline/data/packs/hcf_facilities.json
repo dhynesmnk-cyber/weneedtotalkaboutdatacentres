@@ -1,0 +1,455 @@
+{
+  "pack_id": "hcf-facilities-2026-11",
+  "prepared_by": "scripts/curate_hcf_facilities.py from data/raw/operators/",
+  "prepared_on": "2026-11-15",
+  "_comment": [
+    "Adds the HCF register's facilities that had no site record, where an operator's own",
+    "page places them: ADC Mitchell and Fyshwick, NEXTDC B1 and B2, Fujitsu Western Sydney",
+    "and Homebush Bay, Polaris, Macquarie IC3 East. hcf_certified is left to",
+    "hcf_register.json, which loads next and fills it with the register's line quoted.",
+    "Five facilities are held as RG-101 rather than guessed at; missing fields on the new",
+    "rows are RG-103; the IC3 Super West contradiction is RG-104 and changes no value."
+  ],
+  "sources": [
+    {
+      "id": "SRC_OP_ADC_INDEX",
+      "title": "Australian Data Centres - index (web page)",
+      "publisher": "Australian Data Centres",
+      "url": "https://www.ausdatacentre.com.au/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 f8df92e892d0ec20abff2efee4fbf6de3c7caa45d7d223a0442a72b3295a3c91, archived at data/raw/operators/adc/index.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_ADC_LOCATIONS",
+      "title": "Australian Data Centres - locations (web page)",
+      "publisher": "Australian Data Centres",
+      "url": "https://www.ausdatacentre.com.au/locations/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 09f0922f2e87268bd9935b60cef476c6534232a4ec901bebf84986da558cf32d, archived at data/raw/operators/adc/locations.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_FUJITSU_FUJITSU_EXPANDS_AUSTRALIAN_DATA_CENTRE_FOOTPRINT",
+      "title": "Fujitsu Australia Limited - fujitsu expands australian data centre footprint (web page)",
+      "publisher": "Fujitsu Australia Limited",
+      "url": "https://info.archives.global.fujitsu/au/about/resources/news/press-releases/2020/fujitsu-expands-australian-data-centre-footprint.html",
+      "doc_type": "primary_company",
+      "published": "2020-09-30",
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 102b206215dabe8686d4120c088734732057092ef812254129dd0af0fd67fecc, archived at data/raw/operators/fujitsu/fujitsu-expands-australian-data-centre-footprint.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_MACQUARIE_IC3_EAST",
+      "title": "Macquarie Data Centres Pty Ltd - ic3 east (web page)",
+      "publisher": "Macquarie Data Centres Pty Ltd",
+      "url": "https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/ic3-east/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 15404f06b5888f3ad1780455d8110455dba1125caafd3dcbcfee2bec975451be, archived at data/raw/operators/macquarie/ic3-east.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_MACQUARIE_IC3_SUPER_WEST",
+      "title": "Macquarie Data Centres Pty Ltd - ic3 super west (web page)",
+      "publisher": "Macquarie Data Centres Pty Ltd",
+      "url": "https://www.macquariedatacentres.com/data-centres/sydney/macquarie-park-campus/ic3-super-west/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 1f16157de4a155706fef872e49948694494de0444af27ba2df855d37f8b353e8, archived at data/raw/operators/macquarie/ic3-super-west.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_B1_BRISBANE",
+      "title": "NEXTDC Limited - b1 brisbane (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/brisbane-data-centres/b1-brisbane",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 2f4b58928555f90f1e13c5925bc02e21b86e1ef8a79dc00b689ec7338607f976, archived at data/raw/operators/nextdc/b1-brisbane.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_NEXTDC_B2_BRISBANE",
+      "title": "NEXTDC Limited - b2 brisbane (web page)",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/data-centres/brisbane-data-centres/b2-brisbane",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 7658a83e06bc75c490c9d8a1076dce3e5373b53d00fe2cdd53d6524412877326, archived at data/raw/operators/nextdc/b2-brisbane.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_OP_POLARIS_INDEX",
+      "title": "Polaris Data Centre - index (web page)",
+      "publisher": "Polaris Data Centre",
+      "url": "https://www.polarisdatacentre.com.au/",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-16",
+      "notes": "The operator's own page, read 2026-11-16, SHA-256 92095dd1c668e8e75d8eb745faab89244eed3854e5b0871bba5a946b68f10cee, archived at data/raw/operators/polaris/index.html with its visible text in .txt. Cited for the facts quoted in source_refs."
+    },
+    {
+      "id": "SRC_HCF_REGISTER",
+      "title": "Certified Service Providers - Hosting Certification Framework",
+      "publisher": "Department of Home Affairs (Hosting Certification Framework)",
+      "url": "https://www.hostingcertification.gov.au/certified-service-providers",
+      "doc_type": "primary_government",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-10",
+      "notes": "The Commonwealth register of HCF-certified data centre facilities, enclaves and cloud services. Read 2026-10-10 from the Internet Archive capture of 2026-09-28 (https://web.archive.org/web/20260928125530id_/https://www.hostingcertification.gov.au/certified-service-providers), original HTML, SHA-256 6bde974c52754bb59bae16215d4c224f7e69535c30746ebdfac858482b70c00d, archived at data/raw/hcf/certified-service-providers.20260928125530.html; the live site refused automated clients. Publisher from the page footer (Home Affairs logo). Lists the Strategic level only, and states that new registrations are paused from 3 November 2025."
+    },
+    {
+      "id": "SRC_NXT_FY26_PRESENTATION",
+      "title": "NEXTDC FY26 Results Presentation",
+      "publisher": "NEXTDC Limited",
+      "url": "https://www.nextdc.com/hubfs/Financial%20Reports/FY26/NEXTDC%20FY26%20Results%20Presentation.pdf",
+      "doc_type": "primary_company",
+      "published": "2026-08-27",
+      "accessed": "2026-10-22",
+      "credibility": "A",
+      "notes": "S7 Sydney: total power planned about 550 MW, initial capacity 'TBD', status design and town planning; NEXTDC continues to evaluate third-party capital through a joint venture company for S4, S7 and M5. Does not mention OpenAI. ARCHIVED 2026-10-22 (PDF not committed)."
+    }
+  ],
+  "rows": {
+    "entities": [
+      {
+        "id": "ENT_AUSTRALIAN_DC",
+        "name": "Australian Data Centres",
+        "entity_type": "colocation_operator",
+        "domicile": "Australia",
+        "hq_country": "Australia",
+        "website": "https://www.ausdatacentre.com.au/",
+        "notes": "Australian-owned colocation and build-to-suit provider. Its own page: 'Continuous Canberra operations since 2014' and 'More than 10 years continuous operation at Mitchell and Fyshwick in Canberra ACT'. The page also describes 'Strategic development of a 300MW+ AI-optimised Melbourne campus in accelerated planning', which is a lead for a future site record, not a fact recorded here.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_ADC_INDEX",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "ENT_POLARIS_DC",
+        "name": "Polaris Data Centre",
+        "entity_type": "colocation_operator",
+        "domicile": "Australia",
+        "hq_country": "Australia",
+        "website": "https://www.polarisdatacentre.com.au/",
+        "notes": "Operator of the Polaris facility at Springfield Central, Queensland, on its own page. The Commonwealth HCF register names Springfield Real Estate Sales Pty Ltd as the certified service provider for Polaris Data Centre; how that entity relates to the Springfield City Group that owns the facility is not stated on the page (RG-103).",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_POLARIS_INDEX",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "ENT_SPRINGFIELD_CITY_GROUP",
+        "name": "Springfield City Group",
+        "entity_type": "developer",
+        "domicile": "Australia",
+        "hq_country": "Australia",
+        "notes": "Polaris Data Centre's own page: 'Polaris is 100% owned by the Springfield City Group, a 100% Queensland-owned business.' Recorded as the facility's owner.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_POLARIS_INDEX",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      }
+    ],
+    "sites": [
+      {
+        "id": "SITE_ADC_MITCHELL",
+        "name": "ADC Mitchell (Australian Data Centres)",
+        "operator_id": "ENT_AUSTRALIAN_DC",
+        "suburb": "Mitchell",
+        "state": "ACT",
+        "market": "NEM",
+        "status": "operational",
+        "notes": "Australian Data Centres' own page: 'More than 10 years continuous operation at Mitchell and Fyshwick in Canberra ACT'; its locations page lists 'Operational – Canberra (Mitchell, Fyshwick)'. The Commonwealth HCF register lists ADC Mitchell as a Certified Strategic Facility (quoted on this row). Neither page states an address, a site area or a capacity, so none is recorded - RG-103. The operator also describes a 300MW+ AI-optimised Melbourne campus in accelerated planning; that is a separate, unlocated proposal and is not recorded as a site.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_ADC_INDEX",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "SITE_ADC_FYSHWICK",
+        "name": "ADC Fyshwick (Australian Data Centres)",
+        "operator_id": "ENT_AUSTRALIAN_DC",
+        "suburb": "Fyshwick",
+        "state": "ACT",
+        "market": "NEM",
+        "status": "operational",
+        "notes": "Australian Data Centres' own page: 'More than 10 years continuous operation at Mitchell and Fyshwick in Canberra ACT'; its locations page lists 'Operational – Canberra (Mitchell, Fyshwick)'. The Commonwealth HCF register lists ADC Fyshwick as a Certified Strategic Enclave (quoted on this row). Neither page states an address, a site area or a capacity, so none is recorded - RG-103. A different provider's facilities in the same suburb: CDC's Fyshwick F1 and F2 are recorded under SITE_CDC_CANBERRA and are not this facility.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_ADC_INDEX",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "SITE_NEXTDC_B1",
+        "name": "NEXTDC B1 Brisbane",
+        "operator_id": "ENT_NEXTDC",
+        "suburb": "Brisbane CBD",
+        "state": "QLD",
+        "market": "NEM",
+        "status": "operational",
+        "it_capacity_mw": 2.25,
+        "notes": "NEXTDC's own B1 page: 'Located in Brisbane's CBD, B1 Brisbane is a 2.25MW data centre designed and built to Uptime Institute Tier III standards', labelled '2.25MW IT Capacity'; its portfolio table gives 1,650m² of technical space (not gross floor area, so no area field is filled). The HCF register lists Brisbane 1 as a Certified Strategic Enclave. No street address is published on the page - RG-103.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_NEXTDC_B1_BRISBANE",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "SITE_NEXTDC_B2",
+        "name": "NEXTDC B2 Brisbane",
+        "operator_id": "ENT_NEXTDC",
+        "suburb": "Fortitude Valley",
+        "state": "QLD",
+        "market": "NEM",
+        "status": "operational",
+        "it_capacity_mw": 12.0,
+        "notes": "NEXTDC's own B2 page: 'Located in Fortitude Valley on the fringe of the Brisbane CBD, B2 Brisbane is a 12MW Tier IV certified data centre', labelled '12MW IT Capacity', 6,000m² in its portfolio table. The 12 MW recorded here is the facility's IT capacity as the operator states it, not delivered capacity: NEXTDC's FY26 results presentation (27 August 2026) reports 'Built capacity 6MW built, 2MW in progress' against 'Total power planned 12MW'. The HCF register lists Brisbane 2 as a Certified Strategic Enclave. No street address is published on the page - RG-103.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_NEXTDC_B2_BRISBANE",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "SITE_FUJITSU_WSYD",
+        "name": "Fujitsu Western Sydney Data Centre",
+        "operator_id": "ENT_FUJITSU_AU",
+        "state": "NSW",
+        "market": "NEM",
+        "status": "operational",
+        "notes": "Fujitsu's own release of 30 September 2020 lists its six Australian facilities: 'Homebush Bay, Western Sydney, and North Ryde in New South Wales; Noble Park in Victoria; Eight Mile Plains in Queensland; and Malaga in Western Australia'. The same release says further expansion phases would provide 'a combined total capacity of 90 megawatts at the Western Sydney data centre campus' - a 2020 end-state figure for the campus, not a current capacity, so no capacity field is filled (RG-103). The HCF register lists Western Sydney as a Certified Strategic Enclave. The release gives no suburb or street address for the campus.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_OP_FUJITSU_FUJITSU_EXPANDS_AUSTRALIAN_DATA_CENTRE_FOOTPRINT",
+        "confidence": "medium",
+        "as_of_date": "2020-09-30"
+      },
+      {
+        "id": "SITE_FUJITSU_HOMEBUSH",
+        "name": "Fujitsu Homebush Bay Data Centre",
+        "operator_id": "ENT_FUJITSU_AU",
+        "suburb": "Homebush Bay",
+        "state": "NSW",
+        "market": "NEM",
+        "status": "operational",
+        "notes": "The HCF register names this facility 'Homebush'. Fujitsu's own release of 30 September 2020 names 'Homebush Bay' among its six Australian facilities and lists no other Homebush facility; the two names are read as the same facility, which is why this row is REPORTED at medium confidence rather than VERIFIED. No address, area or capacity is stated - RG-103.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_OP_FUJITSU_FUJITSU_EXPANDS_AUSTRALIAN_DATA_CENTRE_FOOTPRINT",
+        "confidence": "medium",
+        "as_of_date": "2020-09-30"
+      },
+      {
+        "id": "SITE_POLARIS",
+        "name": "Polaris Data Centre (Springfield Central)",
+        "operator_id": "ENT_POLARIS_DC",
+        "owner_id": "ENT_SPRINGFIELD_CITY_GROUP",
+        "suburb": "Springfield Central",
+        "state": "QLD",
+        "market": "NEM",
+        "address": "11 Mary Mackenroth Lane, Springfield Central QLD 4300",
+        "status": "operational",
+        "notes": "Polaris's own page: 'Queensland’s largest, 100% Australian owned data centre', 'Located in Springfield, 25km from Brisbane’s CBD', address in its footer. It describes 'over 14,500m2 over 5 levels, with over 7,000m2 of raised technical floor space': both are lower bounds and technical space is not gross floor area, so no area field is filled. No capacity is published. The HCF register certifies Polaris Data Centre as a Strategic Enclave under Springfield Real Estate Sales Pty Ltd; the page says the facility is 100% owned by the Springfield City Group. How those entities relate, and which one operates the facility, is RG-103.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_POLARIS_INDEX",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": "SITE_MACQ_IC3E",
+        "name": "Macquarie IC3 East (Macquarie Park)",
+        "operator_id": "ENT_MACQUARIE_TG",
+        "suburb": "Macquarie Park",
+        "state": "NSW",
+        "market": "NEM",
+        "status": "operational",
+        "it_capacity_mw": 12.0,
+        "notes": "Macquarie Data Centres' own IC3 East page gives '12MW IT Load' and '11,700m2 Technical space' (technical space, not gross floor area, so no area field is filled), within what it calls its 65MW Macquarie Park campus. The HCF register lists IC3e as a Certified Strategic Enclave alongside IC1, IC2 and IC3. The campus's other building, IC3 Super West, is a separate facility and the subject of RG-104; this row is not a second record of it.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_OP_MACQUARIE_IC3_EAST",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "match": {
+          "id": "SITE_ADC_MITCHELL"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_ADC_INDEX",
+            "quote": "More than 10 years continuous operation at Mitchell and Fyshwick in Canberra ACT, with available capacity and options to grow. | Continuous Canberra operations since 2014."
+          },
+          {
+            "id": "SRC_OP_ADC_LOCATIONS",
+            "quote": "Operational – Canberra (Mitchell, Fyshwick)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ADC_FYSHWICK"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_ADC_INDEX",
+            "quote": "More than 10 years continuous operation at Mitchell and Fyshwick in Canberra ACT, with available capacity and options to grow."
+          },
+          {
+            "id": "SRC_OP_ADC_LOCATIONS",
+            "quote": "Operational – Canberra (Mitchell, Fyshwick)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_B1"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_B1_BRISBANE",
+            "quote": "Located in Brisbane's CBD, B1 Brisbane is a 2.25MW data centre designed and built to Uptime Institute Tier III standards | 2.25MW IT Capacity | B1 Brisbane CBD | 1,650m² | 2.25MW"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_B2"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_NEXTDC_B2_BRISBANE",
+            "quote": "Located in Fortitude Valley on the fringe of the Brisbane CBD, B2 Brisbane is a 12MW Tier IV certified data centre | 12MW IT Capacity | B2 Fortitude Valley | 6,000m² | 12MW"
+          },
+          {
+            "id": "SRC_NXT_FY26_PRESENTATION",
+            "quote": "B2 BRISBANE Total power planned 12MW Built capacity 6MW built, 2MW in progress Status Operational"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_FUJITSU_WSYD"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_FUJITSU_FUJITSU_EXPANDS_AUSTRALIAN_DATA_CENTRE_FOOTPRINT",
+            "quote": "Fujitsu’s six data centre facilities are located in: Homebush Bay, Western Sydney, and North Ryde in New South Wales; Noble Park in Victoria; Eight Mile Plains in Queensland; and Malaga in Western Australia. | providing a combined total capacity of 90 megawatts at the Western Sydney data centre campus"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_FUJITSU_HOMEBUSH"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_FUJITSU_FUJITSU_EXPANDS_AUSTRALIAN_DATA_CENTRE_FOOTPRINT",
+            "quote": "Fujitsu’s six data centre facilities are located in: Homebush Bay, Western Sydney, and North Ryde in New South Wales; Noble Park in Victoria; Eight Mile Plains in Queensland; and Malaga in Western Australia."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_POLARIS"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_POLARIS_INDEX",
+            "quote": "Polaris Data Centre is Queensland’s largest, 100% Australian owned data centre | Polaris is 100% owned by the Springfield City Group, a 100% Queensland-owned business. | Located in Springfield, 25km from Brisbane’s CBD and 19km from Amberly Airbase. | 11 Mary Mackenroth Lane Springfield Central QLD 4300 | in Queensland with over 14,500m 2 over 5 levels, with over 7,000m 2 of raised technical floor space"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQ_IC3E"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_MACQUARIE_IC3_EAST",
+            "quote": "12MW IT Load | 11,700m 2 Technical space | IC3 is a next-generation, Tier III colocation data centre in Macquarie Park"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_MACQ_IC3"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_OP_MACQUARIE_IC3_SUPER_WEST",
+            "quote": "IC3 Super West is currently under construction with the entire end-state power secured. | 47MW IT Load"
+          }
+        ]
+      }
+    ],
+    "research_gaps": [
+      {
+        "id": 101,
+        "pillar": "C",
+        "priority": 3,
+        "retrieval_method": "manual_review",
+        "status": "open",
+        "opened": "2026-11-15",
+        "question": "Where are the five HCF-certified facilities that still have no site record - Cloud Carrier DB1; DigiCo BNE2, ADL1 and SYD1; and Vocus TransACT House Dickson - who operates them, and what are their status and capacity?",
+        "why_it_matters": "The register is the Commonwealth's own list of facilities cleared to host government data. Five of its entries are missing from the observatory, so the certified estate is under-counted and the sovereign-hosting map has holes in exactly the providers that are hardest to see.",
+        "target_source": "Operators' own facility pages (cloudcarrier.com, digi-co.com.au, vocus.com.au); ABR/ASIC for the operating entities; the HCF register itself",
+        "notes": "OPENED 2026-11-15 from the Commonwealth register (SRC_HCF_REGISTER). The register gives a provider and a facility name and nothing else - no jurisdiction, address, status or capacity - and sites.state and sites.status are required, so no row has been invented for these five: Cloud Carrier - DB1 (facility), register line 'Cloud Carrier – DB1'; DigiCo - BNE2 (facility), register line 'DigiCo – BNE2'; DigiCo - ADL1 (enclave), register line 'DigiCo – ADL1 and SYD1'; DigiCo - SYD1 (enclave), register line 'DigiCo – ADL1 and SYD1'; Vocus - TransACT House Dickson (enclave), register line 'Vocus - TransACT House Dickson'. Attempts to place them: https://www.digi-co.com.au/data-centres/ - robots.txt could not be read (refused), read as disallow-all (2026-11-16); https://cloudcarrier.com/ - robots.txt could not be read (refused), read as disallow-all (2026-11-16); https://cloudcarrier.com/about-us/ - robots.txt could not be read (refused), read as disallow-all (2026-11-16). Both refusals are recorded in data/raw/operators/<group>/refused.json and were not worked around. Vocus's own wholesale data centre page was archived (data/raw/operators/vocus/data-centres.txt): it sells connectivity into more than 150 data centres and names none of its own facilities, so it does not place TransACT House. DigiCo SYD1 needs care: SITE_DIGICO_SYD1 already records the SYD1 EXPANSION project from a NSW consent, while the register certifies an enclave in the existing facility. A new row must distinguish the two before it is created, or the record repeats the double-count RG-084 removed. Eight other register facilities were placed from operators' own pages and are added by this pack; their missing fields are RG-103.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_HCF_REGISTER",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": 103,
+        "pillar": "A",
+        "priority": 3,
+        "retrieval_method": "manual_review",
+        "status": "open",
+        "opened": "2026-11-15",
+        "question": "Addresses, site areas and capacities for the eight facilities added from the HCF register (ADC Mitchell and Fyshwick, NEXTDC B1 and B2, Fujitsu Western Sydney and Homebush Bay, Polaris, Macquarie IC3 East), and which legal entity operates Polaris?",
+        "why_it_matters": "These rows exist because the Commonwealth certifies them, not because a planning record places them. Without an address they cannot be mapped, matched to a consent, or checked for double-counting against the rows that came from the planning portal.",
+        "target_source": "Operators' facility and contact pages; ABR/ASIC for Springfield Real Estate Sales Pty Ltd and the Springfield City Group; NSW/QLD/ACT planning registers",
+        "notes": "OPENED 2026-11-15. What the archived pages do and do not state: Australian Data Centres names Mitchell and Fyshwick and says both are operational, but publishes no address, area or capacity for either. NEXTDC's B1 and B2 pages give IT capacity (2.25 MW, 12 MW) and technical space (1,650 m², 6,000 m²) but no street address; B2's delivered capacity (6 MW built, 2 MW in progress) is from its FY26 presentation, not its facility page. Fujitsu's only archived document is a 30 September 2020 release: it places Western Sydney and Homebush Bay in NSW and gives a 90 MW end-state for the Western Sydney campus, which is six years old and is not a current capacity. Polaris publishes an address and lower-bound areas ('over 14,500m2', 'over 7,000m2') but no capacity, and its owner (Springfield City Group) is not the entity the register certifies (Springfield Real Estate Sales Pty Ltd). Macquarie's IC3 East page gives 12 MW IT load and 11,700 m² of technical space. No lower bound and no technical-space figure has been stored as a value.",
+        "fact_status": "VERIFIED",
+        "source_id": "SRC_HCF_REGISTER",
+        "confidence": "high",
+        "as_of_date": "2026-11-15"
+      },
+      {
+        "id": 104,
+        "pillar": "A",
+        "priority": 3,
+        "retrieval_method": "manual_review",
+        "status": "open",
+        "opened": "2026-11-15",
+        "question": "Is SITE_MACQ_IC3 - recorded as 'IC3 Super West', operational, from a grade-C directory - the register's certified 'IC3', when Macquarie's own page says IC3 Super West is under construction with 47 MW of IT load?",
+        "why_it_matters": "A facility recorded as operational that its operator says is still being built inflates the operating estate, and the register's IC3 and IC3e entries cannot be assigned to buildings until it is settled. Macquarie Park is the cluster where the record has already double-counted once (RG-084).",
+        "target_source": "Macquarie Data Centres' IC3 Super West and IC3 East pages (archived); the HCF register; Macquarie Technology Group's ASX announcements",
+        "notes": "OPENED 2026-11-15. Macquarie's own IC3 Super West page, read for this batch, says 'IC3 Super West is currently under construction with the entire end-state power secured', gives '47MW IT Load' and lists the facility as 'Coming Soon'. SITE_MACQ_IC3 is named 'IC3 Super West (Macquarie Park)' and recorded operational on SRC_CERTSTRAT, a grade-C directory. The register lists 'IC1, IC2, IC3 and IC3e' as Certified Strategic Enclaves; IC3 East is operational at 12 MW IT load and is added by this batch as SITE_MACQ_IC3E. Which building each register name denotes, and whether a facility under construction can hold Strategic certification, is for a human. NO VALUE IS CHANGED HERE: the page is quoted against the existing row so the contradiction is on the record, not resolved by an agent.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_OP_MACQUARIE_IC3_SUPER_WEST",
+        "confidence": "medium",
+        "as_of_date": "2026-11-15"
+      }
+    ]
+  }
+}

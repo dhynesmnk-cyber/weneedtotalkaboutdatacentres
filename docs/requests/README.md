@@ -23,8 +23,12 @@ reasons.
 | [FOI-003](FOI-003-defence-palantir-clearance.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-089 | drafted |
 | [FOI-004](FOI-004-acic-palantir.md) | Australian Criminal Intelligence Commission | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-093 | drafted |
 | [GIPA-003](GIPA-003-dphi-compliance-and-delegation.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-058, RG-069, RG-040 | drafted |
-| [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked, awaiting a budget |
-| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au, both parliamentary inquiries, NSW legislation, Victorian planning | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-011, RG-012, RG-014, RG-015, RG-016, RG-025, RG-040, RG-041, RG-048, RG-056, RG-066, RG-069, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person |
+| [GIPA-004](GIPA-004-sydney-water.md) | Sydney Water Corporation | GIPA Act 2009 (NSW) | $30 application fee | RG-017 (also RG-062, RG-068) | drafted |
+| [FOI-005](FOI-005-melbourne-water.md) | Melbourne Water Corporation | FOI Act 1982 (Vic) | $34.50 from 1 July 2026, waivable | RG-017, RG-080 | drafted |
+| [FOI-006](FOI-006-yarra-valley-south-east-water.md) | Yarra Valley Water; South East Water (two applications) | FOI Act 1982 (Vic) | each agency's own indexed fee, waivable | RG-017 | drafted |
+| [RTI-001](RTI-001-unitywater.md) | Unitywater (or the Queensland agency that serves the sites) | RTI Act 2009 (Qld) | $59.60 from 1 July 2026, **not waivable** | RG-017 | drafted |
+| [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked; **deferred by the author 2026-11-15**, will fund later (8 searches, $157); free substitutes run and documented |
+| [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au, both parliamentary inquiries, NSW legislation, Victorian planning | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-011, RG-012, RG-014, RG-015, RG-016, RG-025, RG-040, RG-041, RG-048, RG-056, RG-066, RG-069, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person; **received 2026-11-17:** three DigiCo ASX documents for RG-101, which were not on the ranked list (see DOWNLOADS.md) |
 
 Status runs: drafted, lodged, acknowledged, decided, received (or refused).
 
@@ -45,6 +49,17 @@ Status runs: drafted, lodged, acknowledged, decided, received (or refused).
   be waived in the public interest. A decision is due within 30 days, plus 30
   more if third parties are consulted.
   ([Treasury FOI](https://treasury.gov.au/the-department/accountability-reporting/foi))
+- **Victorian FOI:** each agency publishes its own indexed application fee.
+  Melbourne Water states **$34.50 from 1 July 2026**, a decision within 30 days,
+  and a deposit only where estimated access charges exceed $70.00
+  ([Melbourne Water FOI](https://www.melbournewater.com.au/about/publications/legislation/freedom-information),
+  read 2026-11-15). The fee can be waived on public interest grounds; Yarra Valley
+  Water and South East Water set their own, so check each page at lodgement.
+- **Queensland RTI:** the application fee is **$59.60 as at 1 July 2026** and
+  **cannot be waived**
+  ([RTI fees and charges](https://www.rti.qld.gov.au/fees-and-charges), read
+  2026-11-15). Unitywater publishes the same fee on its own RTI page. Do not ask
+  for a waiver the Act does not allow.
 - **ASIC registers:** a current company extract is $10 and a current and
   historical extract $20 online.
   ([ASIC company registers](https://www.asic.gov.au/online-services/search-asic-registers/company-and-organisation-registers))
@@ -52,8 +67,8 @@ Status runs: drafted, lodged, acknowledged, decided, received (or refused).
   2026/27; information brokers set their own prices.
   ([NSW LRS fees 2026/27](https://nswlrs.com.au/assets/f/1129775276948026/x/5fed3e7cd6/2026-2027_nsw-lrs-fees_final.pdf))
 
-Check the live schedule before paying; these were read on 2026-10-21, and the
-Treasury page on 2026-10-22.
+Check the live schedule before paying; these were read on 2026-10-21, the
+Treasury page on 2026-10-22, and the Victorian and Queensland pages on 2026-11-15.
 
 ## Handling what comes back
 

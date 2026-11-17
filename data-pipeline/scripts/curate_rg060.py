@@ -114,9 +114,10 @@ ATTRIBUTION = {
     "SITE_MACQUARIE_PARK_DC", None,
     "The Schedule 1 applicant is Stockland Trust Management Limited (2021 consent, SSD-10467) - a "
     "second Stockland entity alongside Stockland Development Pty Limited at 1-5 Khartoum Road. The "
-    "database also carries SITE_STOCKLAND_MP (Stockland Macquarie Park Stage 1, under construction); "
-    "the relationship between the two Macquarie Park records needs confirmation (RG-084). Applicant "
-    "recovered in the 2026-09-18 pypdf re-extraction (RG-065)."),
+    "seed's duplicate row SITE_STOCKLAND_MP described this same consent and was merged into this "
+    "record on 2026-11-15 (RG-084, author-approved); the consent's site includes 33-39 Talavera "
+    "Road as well as 11-17 Khartoum Road. Applicant recovered in the 2026-09-18 pypdf "
+    "re-extraction (RG-065)."),
  "project-echidna-data-centre-eastern-creek": (
     "SITE_ECHIDNA", None,
     "The Schedule 1 applicant is ARUP Australia Pty Ltd - a consultancy, and a different Arup legal "

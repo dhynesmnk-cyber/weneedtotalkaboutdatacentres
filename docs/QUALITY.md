@@ -88,7 +88,7 @@ against any Postgres 14 or later; CI runs it on postgres:17 and postgres:16.
 supabase/tests/load.test.sql is the third layer, run by `npm run test:load`.
 It applies the migrations, generates the load artefact from the committed
 pipeline database, applies it twice, and asserts what the anon role can see: all
-93 sites readable, every one carrying a citation, every null explained by a gap,
+100 sites readable, every one carrying a citation, every null explained by a gap,
 no site holding a fabricated live capacity, every derived link still a proposal,
 and no entity flagged major. Applying twice is what proves idempotence, which
 cannot be tested any other way.

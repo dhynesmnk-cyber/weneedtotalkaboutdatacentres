@@ -4,7 +4,81 @@ An open, queryable, source-linked database of the Australian data centre build-o
 footprint, the capital behind it, the regulatory frameworks that permit it, and the friction it
 generates. Built for policy critique and engineering analysis that can survive being checked.
 
-**Release v2.7.0 · data as at 30 October 2026 · 1,622 data rows (+761 source refs) · 93 sites · 142 entities · 379 metrics · 284 catalogued sources (214 primary)**
+**Release v2.8.1 · data as at 15 November 2026 · 1,656 data rows (+796 source refs) · 100 sites · 145 entities · 379 metrics · 293 catalogued sources (223 primary)**
+
+v2.8.1 is **the ratchet answer and the capacity labels** (pack
+`data/packs/rg061_rg099_decisions.json`, script `scripts/curate_rg061_rg099.py`). Findings first, author
+accepted 15 November 2026.
+
+- **The "no ratchet" hypothesis is falsified** (RG-061). Three of the 20 archived consent instruments require
+  all operational electricity demand — IT and non-IT — to be matched to "a portfolio of **additional**, firmed
+  renewable energy supply **at all times**" under a NSW-based PPA plus firming agreement, proven before
+  operation may start: **Pluto** B19/B20 (23 Jul 2026), **Apollo** B22/B23 (2 Sep 2026), **Glendenning**
+  B20–B23 (14 Sep 2026). None of the 16 earlier determinations carries it, and each assessment report records a
+  weaker offer first — a 2040 aspiration, an existing certificate-backed purchase, 658 MWh/yr of rooftop solar
+  against 467,924 t CO₂-e/yr. The numeric targets stay proponent-set; the ratchet is on timing, additionality,
+  firming, geography and auditing. The gap stays `in_progress`: the other performance measures are untested.
+- **Two capacity figures were removed, not corrected** (RG-099 resolved). Road 1's 34.3 MW is confirmed as
+  **IT load** by its EIS's own label ("Power Consumption 34.3 MW (IT Load)", p35) and Waterloo's 70 MW as
+  **total**; neither value changed. **52 Turner Road** (withdrawn — no EIS will ever exist) and **22 O'Riordan
+  Street** (pre-EIS, 38 MW against 45 MW, neither labelled) now hold **no figure in any capacity column**, as
+  NEXTDC S7 has since 2026-10-14. `headline_mw` reads `max_capacity_mw` first, so clearing only the IT column
+  would have left the unlabelled number as the public headline.
+- **Three land-ownership facts read free instead of buying titles**: Julius Avenue is **ISPT Pty Ltd**'s
+  (Lot 89 DP 1082131, EIS cover and Table 6), NEXTDC S5 is **NEXTDC Limited**'s (`owner_id` set), Road 1's land
+  is **Stockland**'s. The author has no budget for paid searches yet; `docs/requests/PAID-SEARCHES.md` records
+  what the free ASIC dataset already gives for all eight ranked searches and what only money can add.
+- **RG-017 is now citable and publishable** before any FOI is lodged: NEXTDC S7's scoping report states
+  5.44 ML/day at ~70% load, up to 7.79 ML/day at maturity, and the Sydney Water / St Marys AWTP engagement.
+  Four water requests are drafted and **not lodged** (author deferred). **RG-105** opens on the address and lot
+  Road 1 shares with SSD-63235720.
+- **Every refusal is now persisted.** `scrapers/fetch_ssd_documents.py` writes
+  `data/raw/nsw_planning/documents/refused.json`; the portal's attachment JSON route answered **401 for every
+  candidate** on 16 November, so no further planning document can be archived that way.
+
+v2.8.0 is **the Macquarie Park merge and the HCF register's missing facilities** (packs
+`data/packs/rg084_macquarie_park_merge.json` and `data/packs/hcf_facilities.json`). Both were put to the
+author as findings first and approved on 15 November 2026.
+
+- **One consent had two site records** (RG-084 resolved). `SITE_STOCKLAND_MP` ("Stockland Macquarie Park
+  Stage 1", A$264m, five-storey, reported for AWS) and `SITE_MACQUARIE_PARK_DC` (SSD-10467) are the same
+  development: the Department's assessment gives a CIV of approximately $263.6 million and a building that
+  "presents as a five-storey warehouse building". The duplicate is deleted at its source in
+  `data/seed_data.py` — the loader has no delete, and the database is rebuilt from the seed — and every pack
+  that referenced it repointed. The surviving row's address is corrected from the consent's Schedule 1:
+  **11-17 Khartoum Road *and* 33-39 Talavera Road, Macquarie Park (Lot 1 DP 633221)**, not Khartoum Road alone.
+- **What the merge refused to adopt** (RG-102). The retired row's "under construction", its AWS end-user and
+  its September 2026 north-zone start were cited to CertifiedStrategic.com — whose archived article does not
+  contain the word "Stockland". No archived source states them, so they are carried as unconfirmed claims and
+  the row keeps the consent's own status, `approved`. The NSW IDA release lists Stockland's *Project A* in the
+  City of Ryde and withholds one endorsed project for commercial sensitivities; whether that is this one is
+  not assumed.
+- **Eight certified facilities had no site record at all.** Reading the whole HCF register, not only the lines
+  the existing records match, found 13 unrecorded facilities. Eight are now rows, each placed by an operator's
+  own archived page: **ADC Mitchell** and **ADC Fyshwick** (ACT, "more than 10 years continuous operation"),
+  **NEXTDC B1 Brisbane** (2.25 MW IT) and **B2 Brisbane** (12 MW IT; the FY26 presentation says 6 MW built),
+  **Fujitsu Western Sydney** and **Homebush Bay** (NSW, from its 2020 footprint release), **Polaris** at 11 Mary
+  Mackenroth Lane, Springfield Central QLD, and **Macquarie IC3 East** (12 MW IT load). 34 sites now cite the
+  register, up from 26.
+- **Five are held, not guessed** (RG-101): Cloud Carrier DB1, DigiCo BNE2, ADL1 and SYD1, and Vocus TransACT
+  House Dickson. The register gives a provider and a facility name and nothing else, and `state` and `status`
+  are required columns. digico and cloudcarrier refused the crawler's robots.txt check (recorded in
+  `refused.json`, not worked around); Vocus's own data centre page sells connectivity into other people's
+  facilities. DigiCo SYD1 also needs care: the register certifies an enclave in the *existing* facility while
+  `SITE_DIGICO_SYD1` records the *expansion* consent.
+- **A status contradiction is on the record, not resolved by an agent** (RG-104). Macquarie's own page says
+  IC3 Super West "is currently under construction" at 47 MW IT load, while `SITE_MACQ_IC3` is recorded
+  operational from the grade-C directory. The page is quoted against the row; no value is changed.
+- **Still missing on the new rows** (RG-103): addresses, site areas and capacities, and which legal entity
+  operates Polaris (the register names Springfield Real Estate Sales Pty Ltd; the page names the Springfield
+  City Group as owner). Lower bounds ("over 14,500m²") and technical-space figures are quoted, never stored as
+  values.
+- **Hunt logs** for RG-084 and RG-101 to RG-104 in `reports/hunts/`, with every fetch, both refusals
+  and the dead ends. Story cards are not written yet: they are the next editorial step.
+- **Loader defect found and worked around, not patched.** `{"insert": …, "add_sources": […]}` registers its
+  quotes only for append-only tables. On a table with a key (`sites`, `research_gaps`) the quotes are silently
+  discarded. Both new packs attach quotes with a follow-up `match`/`set`, which is the pattern the rest of the
+  pipeline uses. See `PROJECT-REVIEW.md`.
 
 v2.7.0 is **research batch 5, "Who gets heard" and "Did anyone check?"** (`docs/RESEARCH-PLAN.md`, pack
 `data/packs/who_heard.json`).
@@ -550,6 +624,15 @@ project, and are designed to stop when asked. Public planning registers are a se
 vendor. `ingest_austender.py` additionally reads `robots.txt` and skips what it disallows, unless
 `--ignore-robots` is passed with a reason the operator can defend.
 
+`archive_pages.py`, `fetch_asic_companies.py` and `ingest_austender.py` read `robots.txt` with one
+reader, `Robots` in `archive_pages.py`. A file can give every crawler (`User-agent: *`) more than
+one group. Python's own parser reads only the first of them (3.12 and earlier) or merges them and
+settles a tie as allow (3.13), so a later or earlier `Disallow: /` can be read as yes. `Robots`
+fetches a URL only if Python's parser and each such group, read alone, allow it, unless a group names
+this crawler. The NSW lobbyist register is why: on 2026-11-01 its file opened with a hosting
+service's `Allow: /` and still ended with the site's own `Disallow: /`. `make check-archiver` runs its
+fixture tests, which pass on Python 3.11, 3.12 and 3.13.
+
 ### AusTender: added as a source, not yet read
 
 `scrapers/ingest_austender.py` was added for the Commonwealth portal of record, entered from the
@@ -691,7 +774,7 @@ Three changes so it cannot recur:
 
 | Pillar | State | Blocking gap |
 |---|---|---|
-| A — Physical infrastructure | **93 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-084 (Stockland Macquarie Park), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents), RG-099 (capacity resting only on the portal's description, seven NSW sites), RG-100 (what still rests on CertifiedStrategic alone, and 13 register entries with no site) |
+| A — Physical infrastructure | **100 sites, 54 applications.** The complete NSW data centre SSD register (46 records) harvested and archived; Microsoft resolved to consent; NSW IDA proponent list captured; all 20 determined consents parsed to Schedule 1 (applicants, signatories, delegations — v2.1.0 determination register). | RG-034 (modifications + council DAs), RG-035 (codename SPVs — 11 of 20 applicants now known), RG-003 (VIC/QLD registers), RG-001 (cable proximity), RG-064/081 (EMKC/HDI/NineZero ownership), RG-102/103/104 (Macquarie Park claims, the new register rows' missing fields, IC3 Super West's status), RG-091 (NVIDIA DSX buildout → site register: Bundey SA, Project Southgate, partner claims vs consents), RG-099 (capacity resting only on the portal's description, seven NSW sites), RG-100 (what still rests on CertifiedStrategic alone), RG-101 (5 register entries still with no site; 8 added 2026-11-15) |
 | B — Capital and control | Ownership chains verified for AirTrunk and CDC; 10 capital flows; 9 incentive records; **270 VERIFIED metric rows** including the full CER emissions series; consultancy layer: 23 de-duplicated TCS contracts, $234.4M verified spend. v2.2.0: Future Fund → Palantir **A$165.3m** holding (primary CSV, archived); five Palantir Commonwealth contract notices catalogued with a duplicate-safe amendment row. | RG-007 (FOI on tax/land concessions), RG-006 (FIRB), RG-004 (super exposure), RG-005 (Mamre title), RG-072 (TCS portals of record), RG-078 (Oxford Economics funder), RG-086 (complete Palantir contract ledger), RG-088 (corporate customers), RG-095 (Coles non-renewal), RG-094 (public-fund PLTR/NVDA exposure) |
 | C — Regulatory framework | Strongest pillar: 22 instruments, 8 site-level applications, 24 regulatory events, including the 200-hour diesel exemption, the Victorian Tier 4 asymmetry, and the **delegation executed 18 Aug 2026 — one day after the Guidelines** — under which both post-Guidelines consents were signed. RG-079 resolved (template-dominated conditions; no officer effect at n=20). v2.2.0 adds the Palantir IRAP PROTECTED record (PPA on AWS AU regions, per company release), the DTA SON3490955 panel channel, the UK ACOBA revolving-door letter and the July 2026 national AI-standards announcement. | RG-008 (EP licence conditions per site), RG-074 (consultancy overlap with DPHI/IPC contracts), RG-085 (Talavera IPC placeholder signatures), RG-087 (per-deployment data residency), RG-089 (ASD clearance discrepancy), RG-090 (AUKUS position), RG-092 (keynote quote verification) |
 | D — Community impact | 21 events, 6 groups, institutional objections documented at Mamre Road and Glendenning (Blacktown objection overridden). v2.2.0: Shoebridge contract-freeze call and Pocock procurement criticism recorded as political interventions; WA real-time FRT trial baseline logged with no vendor attribution. | RG-016 (group register), RG-011 (verify Melton/South Morang), RG-093 (any Australian law-enforcement Palantir use; WA FRT vendor; ACIC platform purpose) |

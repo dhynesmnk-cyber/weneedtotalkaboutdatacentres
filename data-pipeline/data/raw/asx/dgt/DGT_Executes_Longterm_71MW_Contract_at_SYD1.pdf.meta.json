@@ -1,0 +1,20 @@
+{
+ "url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152532",
+ "requested_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152532",
+ "title": "DGT Executes Long-term 71MW Contract at SYD1",
+ "issuer": "DigiCo Infrastructure REIT (ASX: DGT)",
+ "published": "2026-10-15",
+ "sha256": "bf2104ef687d370650392952c6676d2bb0f446dc2d7f4cbd5a7f95a206aeb590",
+ "bytes": 536032,
+ "pages": 3,
+ "extractor": "pypdf-6.17.0",
+ "obtained": "supplied_by_author",
+ "obtained_utc": "2026-11-17T01:04:00+00:00",
+ "method": "Downloaded by the author in a browser and supplied to the research session on 2026-11-17. The crawler was refused this URL on 2026-11-16 (a bot-check page in place of the document) and that refusal stays recorded in refused.json; nothing was fetched another way. The PDF is not committed: ASX's terms limit free use of its documents to private investors (docs/requests/DOWNLOADS.md, item 4), so only this manifest and verbatim excerpts of the passages the database cites (the .excerpts.txt beside it) are kept. That is narrower than the NEXTDC FY26 presentation, which came from NEXTDC's own site and whose full text is kept.",
+ "pdf_committed": false,
+ "chars": 6723,
+ "chars_per_kb": 12.8,
+ "min_chars_per_kb": 20,
+ "text_committed": "excerpts only",
+ "yield_note": "Below the chars/KB floor because most of the 536 KB is letterhead artwork, not because text was lost: all three pages have a text layer. On 2026-11-17 it was compared with an independent extraction (Google Drive's): the headline bullets, the contract and capacity sentences and the adaptive-reuse sentence read identically. The two pull-quotes are laid out as fragments; pypdf reads the page 2 sentence 'Works are being delivered within an operating data centre...' whole, and Drive reads the same words in three fragments. Nothing is cited from the page 1 pull-quote."
+}

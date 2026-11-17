@@ -79,7 +79,7 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | Card | Title | Line | Questions | Status |
 | --- | --- | --- | --- | --- |
 | [ST-001](ST-001-the-article-that-wasnt-there.md) | The article that wasn't there | C3 | RG-100, RG-096 | draft |
-| [ST-002](ST-002-how-big-is-s7.md) | How big is S7? | M5 | RG-099 | draft |
+| [ST-002](ST-002-how-big-is-s7.md) | How big is S7? | M5 | RG-099, RG-017 | draft |
 | [ST-003](ST-003-the-client-who-cant-be-named.md) | The client who can't be named | M1 | RG-055, RG-064, RG-098 | draft |
 | [ST-004](ST-004-four-letters.md) | Four letters | M1 | RG-021, RG-036, RG-005 | draft |
 | [ST-005](ST-005-the-name-on-the-land.md) | The name on the land | M1 | RG-057, RG-023 | draft |
@@ -97,3 +97,6 @@ Suggested angles for the author. Labelled as suggestions; they state no facts.
 | [ST-017](ST-017-the-council-said-no.md) | The council said no | C1 | RG-040, RG-015 | draft |
 | [ST-018](ST-018-the-form-in-the-folder.md) | The form in the folder | C2 | RG-069, RG-085 | draft |
 | [ST-019](ST-019-two-letters.md) | Two letters | C2 | RG-058 | draft |
+| [ST-020](ST-020-counted-twice.md) | Counted twice | M1 | RG-084, RG-102, RG-105 | draft |
+| [ST-021](ST-021-between-march-and-july.md) | Between March and July | C2 | RG-061 | draft |
+| [ST-022](ST-022-certified-but-where.md) | Certified, but where? | C3 | RG-096, RG-101, RG-103, RG-104, RG-106 | draft |

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.planningportal.nsw.gov.au/major-projects/projects/23-25-waterloo-road-data-centre",
+  "fetched_utc": "20261116T014722Z",
+  "sha256": "d44f83604535c76426de71bca10c1b43e365cebf3c695891bbb2f318fe86441e",
+  "bytes": 38262,
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "redacted": [
+    "REDACTED-THIRD-PARTY-GOOGLE-MAPS-API-KEY x1"
+  ],
+  "upstream_sha256": "73c57f6a9f326e59d3fb22209a0e41c262132a6b9bd9a915c78a20954b3111cf"
+}

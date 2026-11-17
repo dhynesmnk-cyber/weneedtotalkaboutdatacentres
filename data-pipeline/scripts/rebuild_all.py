@@ -46,6 +46,12 @@ PACKS = [
     ("data/packs/site_coordinates.json", ["--allow-missing-source"]),
     # After the coordinates pack: it cites the portal pages registered there, and fills only.
     ("data/packs/site_portal_fields.json", ["--allow-missing-source"]),
+    # Before the register pack: it creates the register facilities that had no site record,
+    # which hcf_register.json then certifies from the register's own lines.
+    ("data/packs/hcf_facilities.json", ["--allow-missing-source"]),
+    # Between the two: places DigiCo SYD1, ADL1 and BNE2 (RG-101 third pass) and extends the RG-101
+    # and RG-103 notes hcf_facilities.json writes, so hcf_register.json can certify all three.
+    ("data/packs/rg101_digico.json", ["--allow-missing-source"]),
     ("data/packs/hcf_register.json", ["--allow-missing-source"]),
     ("data/packs/ssd_documents.json", ["--allow-missing-source"]),
     ("data/packs/operator_sources.json", ["--allow-missing-source"]),
@@ -60,6 +66,10 @@ PACKS = [
     ("data/packs/whose_data.json", ["--allow-missing-source"]),
     # After ssd_documents and airtrunk_bca_influence: cites their assessment reports and updates their rows.
     ("data/packs/who_heard.json", ["--allow-missing-source"]),
+    # Last of all: settles RG-084 and rewrites the Macquarie Park row that rg060 and rg079 write.
+    ("data/packs/rg084_macquarie_park_merge.json", ["--allow-missing-source"]),
+    # After every fill: RG-099 clears two capacity columns, and a later fill would repopulate them.
+    ("data/packs/rg061_rg099_decisions.json", ["--allow-missing-source"]),
 ]
 
 
@@ -82,6 +92,8 @@ def main(argv: list[str]) -> int:
     # Offline parser fixtures for the AusTender scraper. Mirrors the Makefile's check-austender:
     # a check only one driver runs is the drift check_packs.py exists to catch.
     run(PY, "scrapers/ingest_austender.py", "--selftest")
+    # The robots.txt reader every archive fetch goes through. Mirrors the Makefile's check-archiver.
+    run(PY, "scrapers/archive_pages.py", "--selftest")
     # Planted-topic recovery test for the patent topic model. Same reasoning: both drivers or
     # neither. Does not touch the database - analyse_patents.py only ever writes a report.
     run(PY, "scripts/analyse_patents.py", "--selftest")
@@ -118,9 +130,16 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_certstrat_review.py")
     run(PY, "scripts/curate_who_applies.py")
     run(PY, "scripts/curate_super_and_openai.py")
+    # After curate_hcf_register.py and curate_super_and_openai.py: it copies their source
+    # definitions verbatim so the pack can cite them without a load-order dependency.
+    run(PY, "scripts/curate_hcf_facilities.py")
     run(PY, "scripts/curate_public_and_room.py")
     run(PY, "scripts/curate_whose_data.py")
     run(PY, "scripts/curate_who_heard.py")
+    run(PY, "scripts/curate_rg084.py")
+    run(PY, "scripts/curate_rg061_rg099.py")
+    # After curate_rg060.py and curate_hcf_facilities.py: it extends notes their packs write.
+    run(PY, "scripts/curate_rg101_digico.py")
     for pack, flags in PACKS:
         run(PY, "scripts/load_pack.py", pack, *flags)
     # Needs the built database for its match table, so it runs after the packs load.
