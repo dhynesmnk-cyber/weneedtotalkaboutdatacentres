@@ -12,6 +12,19 @@ folder named, and add a manifest beside it (`<file>.meta.json` with `url`,
 `fetched_utc`, `sha256` and `bytes`, as the archived files have). The question's
 hunt log records what came back.
 
+**Received from the author, 2026-11-17.** Three DigiCo Infrastructure REIT
+documents for RG-101, not on the ranked list below: the crawler asked ASX for
+two of them on 2026-11-16 and was served a bot-check page
+(`data/raw/asx/dgt/refused.json`, which still records that). The author
+downloaded them in a browser:
+- the release of 15 October 2026 on SYD1's 71 MW contract;
+- the AGM 2026 presentation;
+- the Annual Report 2026.
+
+ASX's terms (rank 4's note) are why the PDFs are not committed. Each has a manifest
+and verbatim excerpts of the cited passages in `data/raw/asx/dgt/`. They placed
+three of the five held register facilities; see `reports/hunts/RG-101.md`.
+
 Ranked by what each would unlock. Drafted 2026-10-22, research batch 2; ranks 8 to 12 added the same day by batch 3, ranks 13 to 16 by batch 4, and ranks 17 to 21 by batch 5 (2026-10-30).
 
 **Re-tested 2026-11-01 (rolling batch): every robots.txt refusal still
