@@ -1,0 +1,268 @@
+{
+  "pack_id": "rg061-rg099-decisions-2026-11",
+  "prepared_by": "scripts/curate_rg061_rg099.py from data/raw/nsw_planning/",
+  "prepared_on": "2026-11-15",
+  "_comment": [
+    "Author accepted the RG-061 and RG-099 findings on 2026-11-15.",
+    "RG-061: the no-ratchet hypothesis is falsified for the renewable obligation; the gap",
+    "stays in_progress because the other performance measures are untested and one",
+    "determined project has no archived instrument.",
+    "RG-099: resolved. Road 1 confirmed as IT load and Waterloo as total (no value change);",
+    "S7 already held no figure; Turner (withdrawn) and O'Riordan (pre-EIS, 38 vs 45 MW)",
+    "lose the unlabelled figure from every capacity column, as NEXTDC S7 did on 2026-10-14.",
+    "Road 1's max_capacity_mw is deliberately NOT raised to the EIS's ~42 MW: that is an",
+    "IT-side design ceiling and max_capacity_mw is the headline build-out ceiling.",
+    "Every quote is extracted verbatim from the archived text and checked before writing.",
+    "Free substitutes for the paid title searches (no budget yet): three archived EISs",
+    "state land ownership themselves - Road 1 (Stockland), Julius Avenue (ISPT Pty Ltd,",
+    "Lot 89 DP 1082131) and NEXTDC S5 (NEXTDC Limited, owner_id set). Recorded as the",
+    "applicant's statement of title, not as a title search.",
+    "Also: RG-017 becomes citable (the S7 scoping report is the public evidence that water",
+    "agreements are being negotiated and are not published; four requests drafted, not",
+    "lodged), and RG-105 opens on the address and lot Road 1 shares with SSD-63235720."
+  ],
+  "sources": [
+    {
+      "id": "SRC_SSD80814238_EIS",
+      "title": "EIS_Road 1 Data Centre_Final - SSD-80814238 (Road 1 Data Centre)",
+      "publisher": "Urbis for the proponent (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-80814238%2120250828T043959.979+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-10-14",
+      "notes": "Environmental impact statement for SSD-80814238, read 2026-11-15 from the archive at data/raw/nsw_planning/documents/ (attachment eisroad-1-data-centrefinal-15), SHA-256 4dae91e3b2ea0c8f136be77af216980cee9eeea67aba6a8535f61cd7f78c50d5, 7718202 bytes, text by pypdf-6.17.0, 170 pages with [[page N]] markers. Cited for the capacity label that settles RG-099 for SITE_ROAD_1: p35 'Power Consumption 34.3 MW (IT Load)', pp57-58, and the p54 infrastructure headroom."
+    }
+  ],
+  "rows": {
+    "sites": [
+      {
+        "match": {
+          "id": "SITE_ROAD_1"
+        },
+        "set": {
+          "notes": "City of Ryde. In Assessment (More Information Required on 2026-11-16). RG-099 SETTLED 2026-11-15: 34.3 MW is IT LOAD, on the EIS's own label - p35 'Power Consumption 34.3 MW (IT Load)', p57 'designed with 3MW electrical strings and a peak PUE of 1.4, providing a total IT load of 34.3MW', p58 'Total IT load of 34.3MW (evenly distributed at ~4.3MW per hall)' across eight halls. The 'total power consumption of 34.3 megawatts' at p11 and 'megawatt capacity of 34.3' at p63 are the SSD-classification paragraphs reusing the IT figure, not a second measurement. it_capacity_mw 34.3 confirmed and unchanged. NO total site draw is stated anywhere in the EIS; 34.3 x 1.4 = about 48 MW is a derivation from the stated peak PUE and is deliberately not stored. max_capacity_mw stays 34.3: p54's 'electrical infrastructure is designed to support a total critical IT load of approximately 42MW' is design headroom expressed as CRITICAL IT LOAD, and max_capacity_mw is the full-campus-build-out ceiling that headline_mw reads first, so storing 42 there would publish an IT-side ceiling as this site's headline against other sites' total-power maxima. The passage is quoted in source_refs instead. The site is within the broader 'MPark' Stockland landholding (EIS p11), on Lot 2 DP 1043041 - a different lot from the 1-5 Khartoum Road consent (SSD-63235720) and from SSD-10467.",
+          "fact_status": "VERIFIED",
+          "confidence": "high",
+          "as_of_date": "2026-11-15",
+          "source_id": "SRC_SSD80814238_EIS"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD80814238_EIS",
+            "quote": "p35: Power Consumption 34.3 MW (IT Load) | p57: The facility is designed with 3MW electrical strings and a peak PUE of 1.4, providing a total IT load of 34.3MW. | p58: Total IT load of 34.3MW (evenly distributed at ~4.3MW per hall) | p54: The electrical infrastructure is designed to support a total critical IT load of approximately 42MW. | p11: The proposed data centre has a total power consumption of 34.3 megawatts | Table 5, p22: Site Name MPark Road 1 Data Centre Land ownership The land is owned by Stockland. Address 1-5 Khartoum Road, Macquarie Park Legal Description (Title Particulars) Part Lot 2 DP 1043041"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_JULIUS_AVE"
+        },
+        "set": {
+          "notes": "City of Ryde. In Assessment. Julius Avenue is in the Macquarie Park corridor. LAND OWNERSHIP READ FROM THE EIS 2026-11-15 (free substitute for a paid NSW title search, which the author has no budget for yet): the cover page states the statement was 'Prepared by Willowtree Planning Pty Ltd on behalf of ISPT Pty Ltd' for '6-8 JULIUS AVENUE, NORTH RYDE LOT 89 DP 1082131', and Table 6 'REGISTERED LANDOWNERS' gives Lot/DP 89/1082131, Registered Landowner 'ISPT Pty Ltd', with 'Landowner's consent has been obtained from the above entity'. This is the applicant's own statement of title, not a title search, and it is recorded as such. owner_id is deliberately NOT set: the only ISPT entity in the record is ENT_ISPT ('ISPT (Core Fund)'), and whether ISPT Pty Ltd is that fund's trustee or a different vehicle is the reconciliation RG-005 is already asking about for Mamre Road. One artefact noted: a single running header in the EIS reads '269 Lane Cove Road, Macquarie Park' (the NEXTDC S5 address) against 628 mentions of Julius; the cover page and Table 6 agree on Lot 89 DP 1082131, so the header is treated as a template artefact, not as a second site.",
+          "as_of_date": "2026-11-15"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD80018208_EIS",
+            "quote": "cover, p1: SSD-80018208 ENVIRONMENTAL IMPACT STATEMENT: JULIUS AVENUE DATA CENTRE 6-8 JULIUS AVENUE, NORTH RYDE LOT 89 DP 1082131 — Prepared by Willowtree Planning Pty Ltd on behalf of ISPT Pty Ltd JUNE 2025 | Table 6, p33: TABLE 6: REGISTERED LANDOWNERS Lot/DP Registered Landowner 89/1082131 ISPT Pty Ltd Landowner’s consent has been obtained from the above entity."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_NEXTDC_S5"
+        },
+        "set": {
+          "owner_id": "ENT_NEXTDC",
+          "as_of_date": "2026-11-15",
+          "notes": "269 Lane Cove Road, Macquarie Park. LAND OWNERSHIP READ FROM THE EIS 2026-11-15 (free substitute for a paid title search): 'Land Ownership The site is owned by NEXTDC Limited.' owner_id set to ENT_NEXTDC, the listed company (ASX: NXT). The EIS is already cited on this row by the ssd_documents pack for its capacity and GFA, and the loader keeps one quote per row and source (first writer wins), so the ownership sentence is recorded here verbatim rather than as a second quote against the same source."
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD63168959_EIS",
+            "quote": "Land Ownership The site is owned by NEXTDC Limited."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_23_25_WATERLOO"
+        },
+        "set": {
+          "notes": "Macquarie Park. Prepare EIS. RG-099 CONFIRMED 2026-11-15: the portal description labels the figure explicitly - 'Construction and operation of a data centre with total power consumption of 70 megawatts at 23-25 Waterloo Road, Macquarie Park' - so 70 MW is total site draw, not IT load, and total_capacity_mw 70 is correct as recorded. Re-read live on 2026-11-16: description unchanged. The project's request for SEARs states no capacity figure at all, and its EIS attachment (environmental-impact-statement-14971) answered 401 on 2026-10-14 and again on 2026-11-16, so no IT load is available. No value changed.",
+          "as_of_date": "2026-11-15"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWPORTAL_REGISTER",
+            "quote": "Construction and operation of a data centre with total power consumption of 70 megawatts at 23-25 Waterloo Road, Macquarie Park"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_TURNER_RD"
+        },
+        "set": {
+          "it_capacity_mw": null,
+          "max_capacity_mw": null,
+          "notes": "CORRECTION: this record was previously entered as 'lodged' from a portal search snippet. The harvested register shows stage WITHDRAWN, in Camden LGA. The application described 'a capacity of 40 MW including emergency back-up generators, cooling plant, diesel and lithium ion battery storage, substation and associated infrastructure'. RG-099 CLOSED FOR THIS ROW 2026-11-15: the 40 MW is removed from every capacity column. The portal's description does not say whether it is IT load or total site draw, and because the application was WITHDRAWN (record last modified 2025-01-04) no EIS or assessment report will ever be produced to label it. Its five portal attachments are the request for SEARs, the industry-specific SEARs, a cover letter and a withdrawal notice; the SEARs documents answered HTTP 401 on 2026-11-16 and are not public. Same treatment as NEXTDC S7: no figure in any column, the description quoted in source_refs. A capacity for this site would have to come from the proponent, not the planning record.",
+          "fact_status": "VERIFIED",
+          "confidence": "high",
+          "as_of_date": "2026-11-15",
+          "source_id": "SRC_NSWPORTAL_REGISTER"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWPORTAL_REGISTER",
+            "quote": "Construction and operation of a data centre with a capacity of 40 MW including emergency back-up generators, cooling plant, diesel and lithium ion battery storage, substation and associated infrastructure."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_ORIORDAN"
+        },
+        "set": {
+          "it_capacity_mw": null,
+          "max_capacity_mw": null,
+          "notes": "City of Sydney. Prepare EIS. Alexandria is the inner-Sydney corridor where Equinix SY1 and noise complaints about generator testing have historically concentrated. RG-099 CLOSED FOR THIS ROW 2026-11-15: the 38 MW is removed from every capacity column. Two documents state two different figures and neither labels the measure: the portal description says 'a power capacity of 38 MW', the request for SEARs 'a 45 megawatt data centre'. The project has five attachments and no EIS, so nothing public settles it. Same treatment as NEXTDC S7: no figure in any column, both passages quoted in source_refs. The 38 vs 45 MW discrepancy is itself unexplained and is not resolved by choosing one.",
+          "fact_status": "VERIFIED",
+          "confidence": "high",
+          "as_of_date": "2026-11-15",
+          "source_id": "SRC_NSWPORTAL_REGISTER"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWPORTAL_REGISTER",
+            "quote": "Construction and operation of a data centre with a power capacity of 38 MW including a demolition, 3-5 storey data centre building including commercial ground floor level, landscaping and associated utilities and infrastructure."
+          },
+          {
+            "id": "SRC_SSD77274467_SEARS_REQUEST",
+            "quote": "a 45 megawatt data centre"
+          }
+        ]
+      }
+    ],
+    "research_gaps": [
+      {
+        "match": {
+          "id": 17
+        },
+        "set": {
+          "notes": "CITED 2026-11-15, so the question is now publishable. What is public: NEXTDC S7's scoping report (SSD-113934740, p36) states average daily water demand at about 70% load of 5.44 ML/day and peak demand at full site maturity up to 7.79 ML/day, that NEXTDC 'has commenced engagement with Sydney Water regarding interim potable water supply for Stage 1, as well as potential recycled water opportunities, including supply from the St Marys Advanced Water Treatment Plant', and that investigations are underway with coNEXA to connect to the recycled water main associated with the S4 development. What is NOT public: any agreement, allocation, trade waste consent or capacity statement from the utilities themselves. Seventeen of the observatory's NSW sites sit in the one Eastern Creek - Kemps Creek - Horsley Park - Glendenning - Marsden Park corridor. RG-062 established that none of the 20 archived consents requires recycled water; they impose a duty to prioritise non-potable supply 'where available', and whether it is available is a utility fact. Four requests are DRAFTED and NOT LODGED (author deferred lodging on 2026-11-15): docs/requests/GIPA-004-sydney-water.md ($30), FOI-005-melbourne-water.md ($34.50, also answers RG-080), FOI-006-yarra-valley-south-east-water.md (two applications) and RTI-001-unitywater.md ($59.60, not waivable). Nothing here is inferred from a draft request; the question stays open until documents are released.",
+          "fact_status": "VERIFIED",
+          "confidence": "high",
+          "as_of_date": "2026-11-15",
+          "source_id": "SRC_SSD113934740_SCOPING"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD113934740_SCOPING",
+            "quote": "p36: Average daily water demand at approximately 70% load is estimated at 5.44 ML/day, with peak demand at full site maturity reaching up to 7.79 ML/day over a 24-hour period. | p36: NEXTDC has commenced engagement with Sydney Water regarding interim potable water supply for Stage 1, as well as potential recycled water opportunities, including supply from the St Marys Advanced Water Treatment Plant. | p36: Investigations are also underway with coNEXA to identify potential connections to the recycled water main associated with the S4 development."
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "pillar": "A",
+        "priority": 3,
+        "retrieval_method": "manual_review",
+        "status": "open",
+        "opened": "2026-11-15",
+        "question": "Are Road 1 (SSD-80814238, SITE_ROAD_1) and 1-5 Khartoum Road (SSD-63235720, SITE_KHARTOUM) two buildings on one Stockland M_Park campus, or one project recorded twice? Both portal records give the address as '1-5 Khartoum Road, Macquarie Park' and both sit on Lot 2 DP 1043041.",
+        "why_it_matters": "RG-084 removed one duplicate Macquarie Park row on exactly this kind of evidence. Two rows sharing an address and a lot inflate the campus count and any capacity summed across them: SSD-63235720 is approved at 76.4 MW maximum power consumption and SSD-80814238 is in assessment at 34.3 MW IT load. If they are stages of one campus the figures must not be added as if they were separate sites; if they are separate buildings the shared address needs distinguishing.",
+        "target_source": "Both projects' EIS and assessment reports on the NSW Planning Portal (site plans, staging, lot and DP references); Stockland's M_Park project pages and ASX announcements; the signed SSD-63235720 consent's site description and any modification",
+        "notes": "OPENED 2026-11-15 while implementing RG-099. NOT merged and NOT assumed to be one project: they are two consents with different applicants' documents, different figures and different stages (SSD-63235720 approved 11 March 2026; SSD-80814238 in Assessment, More Information Required). The Road 1 EIS glossary defines its Site as 'Part of Lot 2 Deposited Plan 1043041' and p11 places it 'within the broader MPark Stockland landholding'; the SSD-63235720 consent's Schedule 1 gives '1-5 Khartoum Road, Macquarie Park Part Lot 2 DP 1043041'. The portal's site name for SSD-63235720 is 'M_Park'. Both rows keep their own figures and their own status until a document settles it. Note the address fill in data/packs/site_portal_fields.json gives both rows the same address, which is what surfaced this.",
+        "fact_status": "VERIFIED",
+        "confidence": "high",
+        "as_of_date": "2026-11-15",
+        "source_id": "SRC_SSD80814238_EIS"
+      },
+      {
+        "match": {
+          "id": 105
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_SSD80814238_EIS",
+            "quote": "Site Part of Lot 2 Deposited Plan 1043041 | Table 5, p22: Site Name MPark Road 1 Data Centre Land ownership The land is owned by Stockland. Address 1-5 Khartoum Road, Macquarie Park Legal Description (Title Particulars) Part Lot 2 DP 1043041"
+          },
+          {
+            "id": "SRC_NSWPORTAL_CONSENTS",
+            "quote": "Application Number: SSD-63235720 Applicant: Stockland Development Pty Limited Consent Authority: Minister for Planning and Public Spaces Site: 1-5 Khartoum Road, Macquarie Park Part Lot 2 DP 1043041"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 61
+        },
+        "set": {
+          "status": "in_progress",
+          "notes": "ANSWERED 2026-11-15 for the renewable-energy obligation; the hypothesis is FALSIFIED. The 'no ratchet' finding does not hold. Three of the 20 archived consent instruments (19 distinct projects - Davis Road appears twice, original and MOD 1) obligate the Applicant, before operation may commence and to the Planning Secretary's satisfaction, to offset all GHG from electricity 'including both non-IT and IT loads' by matching all operational demand to 'a portfolio of additional, firmed renewable energy supply at all times', with a Power Purchase Agreement and firming agreement for NSW-based supply within the NEM and a shortfall framework: Project Pluto SSD-69223466 B19/B20 (determined 23 July 2026), Project Apollo SSD-74069708 B22/B23 (2 September 2026), Glendenning Road SSD-73761707 B20/B21/B22/B23 (instrument dated 14 September 2026; the portal's determination field reads 16 September). None of the 16 earlier determinations in the archive carries it. In each case the Department's assessment report records a materially weaker offer first and then recommends the condition anyway: Glendenning p55 offered '100% renewable energy by 2040' against p56's pre-operation obligation; Apollo p59 said it 'has been purchasing 100% renewable electricity for electricity under their operational control' and the Department held outcomes 'materially dependent on the successful securing and performance of renewable energy procurement'; Pluto's EPA advice (p27) went no further than 'purchasing of renewable energy certificates', while its ESD Report (p50) offered 500 kW of rooftop solar offsetting 658 MWh/yr and 540 t CO2-e against 467,924 t CO2-e/yr stated - about 0.12% by arithmetic on the report's own two figures, a derivation and not a quoted fact. WHAT IS NOT RATCHETED: the numeric targets stay proponent-set (PUE 1.17 Glendenning, 1.4 Pluto); the conditions require reporting against them, not achieving a Department number. The ratchet is on timing, additionality, firming, geography and auditing - Glendenning B22 adds continuous IT-vs-total metering, annual PUE/WUE/CO2-e reporting, alignment with the NSW Guide for Large Emitters (EPA, 2025), prioritising recycled or non-potable water where available, and three-yearly revision, and B23 bars operation until the plan is approved. TIMING IS NARROWER THAN '2026': 1-5 Khartoum Road SSD-63235720, determined 11 March 2026, has renewable and PUE language and no at-all-times obligation, so the change falls between 11 March and 23 July 2026. CORRECTIONS to this gap's earlier note, which was written against 18 instruments: 20 instruments for 19 projects; EIGHT consents mention renewable supply (not four) and SEVEN mention PUE (not five). STILL OPEN, so this gap stays in_progress: no EIS is archived for any determined project, so the other 16 comparisons run through the assessment report's summary of the ESD Report; air quality, noise, water and traffic conditions are untested for a ratchet; the three firmed consents are also the three largest recent approvals, so 'the Department ratchets' and 'it ratchets on the biggest projects' cannot be separated; and Lanceley Place Artarmon SSD-66777221, approved 11 April 2025, has no instrument in the archive and no assessment-report attachment on its portal record, so the scan cannot speak to it. The policy text the conditions refer to ('in accordance with applicable NSW government policy') has not been located, so the cause of the mid-2026 change is not established. Full chain with page cites and SHA-256 prefixes: reports/hunts/RG-061.md.",
+          "fact_status": "VERIFIED",
+          "confidence": "high",
+          "as_of_date": "2026-11-15",
+          "source_id": "SRC_NSWPORTAL_CONSENTS"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWPORTAL_CONSENTS",
+            "quote": "SSD-73761707 B20: offset all greenhouse gas generation associated with the supply of electricity to the development (including both non-IT and IT loads) by demonstrating that all operational electricity demand is matched with a portfolio of additional, firmed renewable energy supply at all times | SSD-73761707 B20(b): entered into a Power Purchase Agreement(s) and firming agreement for NSW -based supply within the National Electricity Market | SSD-69223466 B19 and SSD-74069708 B22 carry the same wording; the other 16 determinations in the archive carry none"
+          },
+          {
+            "id": "SRC_SSD73761707_ASSESSMENT",
+            "quote": "p55: The ESD report additionally noted that further measures to reduce emissions , includ ing the use of 100% renewable energy by 2040 will effectively reduce the total emissions profile of the development to zero. | p56: the Department recommends conditions requiring that, prior to the commencement of operation of the development, the Applicant offset all GHG emissions associated with operational electri city demand for the data centre with firmed renewable energy supply at all times including the entering into of Power Purchase Agreement(s) (PPA) and firming agreements for NSW based supply, supported by ongoing emissions reporting and periodic auditing."
+          },
+          {
+            "id": "SRC_SSD74069708_ASSESSMENT",
+            "quote": "p33: recommended consideration of energy efficiency and renewable energy measures, with any commitments to be secured through conditions | p59: the Applicant advised that it has been purchasing 100% renewable electricity for electricity under their operational control. | p59: the Department considers that emissions outcomes remain materially dependent on the successful securing and performance of renewable energy procurement."
+          },
+          {
+            "id": "SRC_SSD69223466_ASSESSMENT",
+            "quote": "p27: recommended that energy efficiency practices and purchasing of renewable energy certificates be undertaken to reduce Scope 2 greenhouse gas emissions. | p50: The ESD Report estimates the development will generate 467,924 tonnes CO₂-e annually | p50: The proposed PV system will offset 658 MWh/year and save 540 tonnes CO₂-e annually."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 99
+        },
+        "set": {
+          "status": "resolved",
+          "resolved_date": "2026-11-15",
+          "notes": "RESOLVED 2026-11-15 (author accepted). Three of the five settled from the project's own document, two cannot be settled from any public document and no longer carry a figure. SETTLED: SITE_ROAD_1 is IT load - its EIS p35 reads 'Power Consumption 34.3 MW (IT Load)', p57 'a peak PUE of 1.4, providing a total IT load of 34.3MW' and p58 eight halls at ~4.3 MW each; the 'total power consumption of 34.3 megawatts' at p11 and the 'megawatt capacity of 34.3' at p63 are the SSD-threshold paragraphs reusing the IT figure. it_capacity_mw 34.3 confirmed, unchanged. SITE_23_25_WATERLOO is total - the portal description says 'total power consumption of 70 megawatts', re-read live on 2026-11-16 and unchanged, and its request for SEARs states no capacity at all; total_capacity_mw 70 confirmed, unchanged. SITE_NEXTDC_S7 is NOT IT load - its scoping report says 'Power Consumption 612MW' (p27) and 'total power consumption of 612 megawatts' (p40); which total stands (612, the same report's 'expected total site load is approximately 700MW ... up to 875MVA' at p35, or the operator's published figure) is RG-097's question, and the row holds no figure. CANNOT BE SETTLED: SITE_TURNER_RD (SSD-60185233) is WITHDRAWN, last modified 2025-01-04, its five attachments being SEARs and a withdrawal notice, so no EIS or assessment report will ever label its 'capacity of 40 MW'; SITE_ORIORDAN (SSD-77274467) is at Prepare EIS and its two documents disagree - the portal says 'a power capacity of 38 MW', its request for SEARs 'a 45 megawatt data centre' - and neither labels the measure. For both, the unlabelled figure is removed from it_capacity_mw AND max_capacity_mw, following the treatment applied to NEXTDC S7 on 2026-10-14: no figure in any capacity column, the passages quoted in source_refs, the reason in notes. Clearing it_capacity_mw alone would have left the same unlabelled number as the row's headline, since headline_mw is COALESCE(max_capacity_mw, total_capacity_mw, it_capacity_mw). NOT DONE, deliberately: Road 1's max_capacity_mw stays 34.3 rather than the EIS p54's 'approximately 42MW', because that 42 MW is the electrical infrastructure's design ceiling for CRITICAL IT LOAD and max_capacity_mw is the full-campus-build-out ceiling the headline reads first; storing it would mix measures across sites. The passage is quoted against the row instead. ROUTE CLOSED: the portal's attachment JSON (<slug>?_format=json) answered 401 for every candidate on 2026-11-16, so no further document can be archived to settle the remaining two; recorded in data/raw/nsw_planning/documents/refused.json and not worked around. Full log: reports/hunts/RG-099.md.",
+          "fact_status": "VERIFIED",
+          "confidence": "high",
+          "as_of_date": "2026-11-15",
+          "source_id": "SRC_SSD80814238_EIS"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD80814238_EIS",
+            "quote": "p35: Power Consumption 34.3 MW (IT Load) | p58: Total IT load of 34.3MW (evenly distributed at ~4.3MW per hall)"
+          },
+          {
+            "id": "SRC_NSWPORTAL_REGISTER",
+            "quote": "Construction and operation of a data centre with total power consumption of 70 megawatts at 23-25 Waterloo Road, Macquarie Park | Construction and operation of a data centre with a capacity of 40 MW including emergency back-up generators, cooling plant, diesel and lithium ion battery storage, substation and associated infrastructure. | Construction and operation of a data centre with a power capacity of 38 MW including a demolition, 3-5 storey data centre building including commercial ground floor level, landscaping and associated utilities and infrastructure."
+          },
+          {
+            "id": "SRC_SSD77274467_SEARS_REQUEST",
+            "quote": "a 45 megawatt data centre"
+          },
+          {
+            "id": "SRC_SSD91297457_SEARS_REQUEST",
+            "quote": "read in full 2026-11-15: no MW or capacity figure anywhere in the request"
+          },
+          {
+            "id": "SRC_SSD113934740_SCOPING",
+            "quote": "p27: Power Consumption 612MW | p35: The expected total site load is approximately 700MW, with infrastructure designed to support up to 875MVA."
+          }
+        ]
+      }
+    ]
+  }
+}

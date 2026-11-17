@@ -698,11 +698,11 @@ SITES = [
  S(id="SITE_TELSTRA_STLEON", name="Telstra St Leonards Strategic Enclave", operator_id="ENT_TELSTRA",
    suburb="St Leonards", state="NSW", status="operational", hcf_certified="certified_strategic",
    source_id="SRC_CERTSTRAT", notes="Below 5 MW."),
- S(id="SITE_STOCKLAND_MP", name="Stockland Macquarie Park Stage 1 data centre", operator_id=None,
-   suburb="Macquarie Park", lga="City of Ryde", state="NSW", status="under_construction",
-   capital_cost_aud=264e6, source_id="SRC_CERTSTRAT", fact_status="CLAIMED", confidence="low",
-   notes="Five-storey data centre, A$264m; reported to be for AWS with a north-zone start in September 2026. "
-         "Third-party source only - see research_gaps."),
+ # SITE_STOCKLAND_MP ("Stockland Macquarie Park Stage 1", A$264m, reported for AWS) was seeded
+ # here from SRC_CERTSTRAT. It was the same development as SITE_MACQUARIE_PARK_DC (SSD-10467):
+ # merged into that row on 2026-11-15 with the author's approval, RG-084. The article it cited
+ # does not mention Stockland at all, so its AWS / under-construction / September-2026 claims are
+ # carried as unconfirmed claims on the surviving row (RG-102), not as facts. Do not re-seed it.
  # --- VIC ---
  S(id="SITE_NEXTDC_M4", name="NEXTDC M4 Melbourne (Fishermans Bend)", operator_id="ENT_NEXTDC",
    suburb="Port Melbourne (Fishermans Bend)", lga="City of Port Phillip", state="VIC", status="approved",

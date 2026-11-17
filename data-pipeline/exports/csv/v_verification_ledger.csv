@@ -1,10 +1,10 @@
 tbl,fact_status,confidence,n
 sites,CLAIMED,high,2
-sites,CLAIMED,low,5
+sites,CLAIMED,low,4
 sites,GAP,low,1
 sites,REPORTED,high,3
-sites,REPORTED,medium,29
-sites,VERIFIED,high,47
+sites,REPORTED,medium,31
+sites,VERIFIED,high,53
 sites,VERIFIED,medium,6
 applications,REPORTED,high,1
 applications,REPORTED,medium,3

@@ -18,6 +18,10 @@ What this script does:
     script's call.
   * Matches site records to register entries through MATCHES below: a site is matched only when
     EVERY facility its record names appears in the register under that provider.
+  * Since the RG-096 follow-up (2026-11-15) MATCHES also covers the eight register facilities that
+    had no site record at all; curate_hcf_facilities.py creates those rows from operators' own
+    pages and loads immediately before this pack. CREATED_HERE separates the rows that GAIN a
+    certification value here from the ones that only gain a primary citation.
   * Uses "fill": a site that already holds a different value keeps it, and the difference is
     reported at load. The register is added as a source with its quote either way, so the 26
     existing values now cite a primary document.
@@ -54,6 +58,7 @@ OUT_PACK = os.path.join(ROOT, "data", "packs", "hcf_register.json")
 
 SOURCE_ID = "SRC_HCF_REGISTER"
 TODAY = "2026-10-10"
+FOLLOWUP = "2026-11-15"
 FACILITY = "Service Provider and Certified Strategic Facility:"
 ENCLAVE = "Service Provider and Certified Strategic Enclave:"
 END = "Cloud Services"
@@ -89,6 +94,24 @@ MATCHES: dict[str, tuple[str, list[str]]] = {
     "SITE_NEXTDC_S3": ("NEXTDC", ["Sydney 3"]),
     "SITE_TELSTRA_DEAKIN": ("Telstra", ["Deakin"]),
     "SITE_TELSTRA_STLEON": ("Telstra", ["St Leonards"]),
+    # Added by curate_hcf_facilities.py (RG-096 follow-up): register facilities that had no site
+    # record at all. That pack loads immediately before this one, so these rows exist by now.
+    "SITE_ADC_MITCHELL": ("Australian Data Centres", ["ADC Mitchell"]),
+    "SITE_ADC_FYSHWICK": ("Australian Data Centres", ["ADC Fyshwick"]),
+    "SITE_NEXTDC_B1": ("NEXTDC", ["Brisbane 1"]),
+    "SITE_NEXTDC_B2": ("NEXTDC", ["Brisbane 2"]),
+    "SITE_FUJITSU_WSYD": ("Fujitsu Australia", ["Western Sydney"]),
+    "SITE_FUJITSU_HOMEBUSH": ("Fujitsu Australia", ["Homebush"]),
+    "SITE_POLARIS": ("Springfield Real Estate Sales Pty Ltd", ["Polaris Data Centre"]),
+    "SITE_MACQ_IC3E": ("Macquarie Technology Group", ["IC3e"]),
+}
+
+# The subset of MATCHES whose rows curate_hcf_facilities.py creates from this register. They GAIN
+# certified_strategic here; every other match confirms a value the record already held. Kept as a
+# literal because curate_hcf_facilities.py imports this module (it checks the two lists agree).
+CREATED_HERE = {
+    "SITE_ADC_MITCHELL", "SITE_ADC_FYSHWICK", "SITE_NEXTDC_B1", "SITE_NEXTDC_B2",
+    "SITE_FUJITSU_WSYD", "SITE_FUJITSU_HOMEBUSH", "SITE_POLARIS", "SITE_MACQ_IC3E",
 }
 
 
@@ -154,6 +177,8 @@ def main() -> int:
 
     rows = []
     matched = []
+    confirmed: list[str] = []
+    gained: list[str] = []
     for site, (provider, wanted) in sorted(MATCHES.items()):
         listed = entries.get(provider, [])
         hits = [e for e in listed if all(f in e["facilities"] for f in wanted)]
@@ -169,6 +194,7 @@ def main() -> int:
             add_sources=[dict(id=SOURCE_ID, quote=f"{heading} {e['line']}")],
         ))
         matched.append(f"{site} ({e['scope']})")
+        (gained if site in CREATED_HERE else confirmed).append(site)
 
     if errors:
         print("refusing to write; fix these first:", file=sys.stderr)
@@ -206,15 +232,24 @@ def main() -> int:
                f"Archive capture of {capture}; the live site refused automated clients). It lists "
                f"Strategic facilities and enclaves only; no Assured facility is listed. "
                f"{len(matched)} site records match listed facilities, each on every facility the "
-               f"record names: {', '.join(matched)}. All {len(matched)} already held "
-               f"certified_strategic from SRC_CERTSTRAT; each now also cites the register, with "
-               f"the register's line quoted. No site gained a value. The sites not listed keep "
-               f"`unknown`: absence is not recorded as not_certified, because the register lists "
-               f"only certified providers and new registrations have been paused since 3 November "
-               f"2025. Not applied: AirTrunk SYD3 is not listed (AirTrunk's certified facilities "
-               f"are SYD1, SYD2 and MEL1); Microsoft Azure is certified as a cloud service, which "
-               f"is not a facility certification; DigiCo SYD1 is a certified enclave in the "
-               f"existing facility, not the expansion project the site record describes."),
+               f"record names: {', '.join(matched)}. "
+               f"UPDATED {FOLLOWUP} (RG-096 follow-up, author-approved): {len(confirmed)} of these "
+               f"already held certified_strategic from SRC_CERTSTRAT and now also cite the "
+               f"register, with the register's line quoted - no value changed for them. The other "
+               f"{len(gained)} are facilities the register lists that had NO site record at all; "
+               f"curate_hcf_facilities.py created them from operators' own pages "
+               f"({', '.join(sorted(gained))}) and they gain certified_strategic here, which is "
+               f"the first value any of them has held. Five register facilities are still not "
+               f"recorded - Cloud Carrier DB1, DigiCo BNE2, ADL1 and SYD1, and Vocus TransACT "
+               f"House Dickson - because the register gives no jurisdiction or status and no "
+               f"operator page places them; they are RG-101, not guesses. The sites not listed "
+               f"keep `unknown`: absence is not recorded as not_certified, because the register "
+               f"lists only certified providers and new registrations have been paused since "
+               f"3 November 2025. Not applied: AirTrunk SYD3 is not listed (AirTrunk's certified "
+               f"facilities are SYD1, SYD2 and MEL1); Microsoft Azure is certified as a cloud "
+               f"service, which is not a facility certification; DigiCo SYD1's certified enclave "
+               f"is in the existing facility, not the expansion project SITE_DIGICO_SYD1 "
+               f"describes. Which building the register's 'IC3' denotes is RG-104."),
         fact_status="VERIFIED", source_id=SOURCE_ID, confidence="high", as_of_date=capture,
     )
 

@@ -557,18 +557,6 @@
     "add_sources": [
      "SRC_GUARD_PLUMPTON"
     ]
-   },
-   {
-    "match": {
-     "id": "SITE_STOCKLAND_MP"
-    },
-    "set": {
-     "proponent": "Stockland",
-     "notes": "Five-storey data centre at Macquarie Park, A$264m; third-party reporting suggests it is for AWS with a north-zone start in September 2026. Stockland is confirmed as an active NSW data centre proponent by the NSW IDA release (three endorsed projects in Fairfield, Penrith and Ryde), but this specific Macquarie Park project is not among them and the AWS attribution remains unconfirmed - research gap RG-023."
-    },
-    "add_sources": [
-     "SRC_NSW_IDA"
-    ]
    }
   ],
   "applications": [

@@ -191,7 +191,7 @@ Pillar E. Each proposition from the brief is tested against Australian evidence,
 | `source_ids` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `entities` (table, 142 rows)
+## `entities` (table, 145 rows)
 
 Companies, funds, agencies, councils, community groups and utilities. `domicile` is the country of ultimate control, which is the field that matters for sovereignty analysis — it is not the same as where the entity trades.
 
@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 169 rows)
+## `ingest_log` (table, 179 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -553,7 +553,7 @@ The audit table. A claim is `VERIFIED` only when contracted instruments satisfy 
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `research_gaps` (table, 94 rows)
+## `research_gaps` (table, 99 rows)
 
 The ingestion backlog and the list of things we do not know. Each row names the target source and the retrieval method. This is the project's work queue.
 
@@ -598,7 +598,7 @@ FIRB, SOCI Act, Critical Infrastructure Register, CIRMP, Hosting Certification F
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `sites` (table, 93 rows)
+## `sites` (table, 100 rows)
 
 Physical facilities and proposals. Three capacity fields are stored separately and must never be summed: `it_capacity_mw` (critical load), `total_capacity_mw` (with cooling overhead), `max_capacity_mw` (full campus build-out). `market` records NEM / WEM / NT because the regulatory regime differs.
 
@@ -639,7 +639,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 761 rows)
+## `source_refs` (table, 796 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 
@@ -651,7 +651,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 284 rows)
+## `sources` (table, 293 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 
@@ -886,7 +886,7 @@ WHERE e.id IN (SELECT DISTINCT supplier_entity_id FROM gov_contracts)
 
 </details>
 
-## `v_foreign_control` (view, 46 rows)
+## `v_foreign_control` (view, 49 rows)
 
 Operators and their current holders, with domicile and FIRB flag.
 
@@ -984,7 +984,7 @@ ORDER BY c.verification_status, c.claim_date DESC
 
 </details>
 
-## `v_site_dossier` (view, 93 rows)
+## `v_site_dossier` (view, 100 rows)
 
 Publication-ready site summary with primary source and counts of applications, community events, regulatory events and applicable instruments.
 
@@ -1010,7 +1010,7 @@ LEFT JOIN sources src ON src.id = s.source_id
 
 </details>
 
-## `v_site_full` (view, 93 rows)
+## `v_site_full` (view, 100 rows)
 
 One row per site with operator, owner, tenant, power profile and water profile joined.
 

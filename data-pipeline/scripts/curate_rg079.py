@@ -414,7 +414,8 @@ def main() -> int:
              opened=TODAY,
              question="Are SITE_MACQUARIE_PARK_DC (Macquarie Park Data Centre, SSD-10467, "
                       "applicant Stockland Trust Management Limited, determined 2021-05-28) and "
-                      "SITE_STOCKLAND_MP (Stockland Macquarie Park Stage 1, under construction) "
+                      "the seed row then carried as SITE_STOCKLAND_MP (Stockland Macquarie Park "
+                      "Stage 1, under construction) "
                       "the same project at different stages, or distinct consents?",
              why_it_matters="Double-counting or splitting a Stockland Macquarie Park project "
                             "distorts the Sydney pipeline MW totals; a second Stockland entity "
