@@ -485,6 +485,40 @@ Not touched (no new free source reached them): RG-003, 025, 053, 088, 097,
 #22, #26) or on the paid-search track, except RG-053, which needs the
 Western Downs application (about 344 MB) fetched again.
 
+#### Batch 9 (2026-11-18)
+
+Pack `data/packs/batch9_open_questions.json` (`scripts/curate_batch9.py`).
+It touches six questions. Unresolved after it: 60, of which 17 are `blocked`,
+33 in progress and 10 open. Sources: 339. Questions loaded: 98.
+
+- **Resolved: RG-053.** The Western Downs application was fetched again (its
+  SHA-256 matches September's) and its appendices read. They contradict the
+  planning report and each other:
+  - IT capacity: 2,160 MW in the planning report; 1,440 MW in the traffic and
+    economic assessments.
+  - Ongoing jobs: about 430 FTE (traffic) against "~1,400+" (economic).
+  - Back-up generators: 20 in the air quality assessment; 8 per building in the
+    fire safety strategy, with 186,336 litres of diesel.
+  - Cost: "$14.5B excluding GST" in the application. The record's A$31.9bn is
+    the ABC's figure.
+
+  The title search gives Lot 125 on DY316. The record's "DY516" was a
+  transcription error, and it is corrected at its source. **Two changes to the
+  site row are proposed to the author.**
+- **RG-104:** Macquarie's own reporting says IC3 SuperWest was still being
+  fitted out on 26 August 2026, and its first phase is 6 MW of IT load. **A
+  status change is proposed to the author.**
+- **RG-043:** Transgrid's letter of 20 August 2026 says augmentation costs "will
+  be borne by the data centre proponent creating that need rather than
+  electricity consumers more broadly". About 1.5 GW is signed and up to 2 GW
+  more could be unlocked. It gives no dollar figure.
+- **RG-007:** Queensland's 2026-27 statement never mentions data centres.
+  Victoria's budget paper refused the crawler (download #35).
+- **Resolved: RG-069.** All three planning-portal disclosures are read or
+  recorded as restricted, and the NSW and Commonwealth amounts are in.
+- **RG-100:** only the two CBRE figures still rest on CertifiedStrategic.com
+  alone. **Keep or retire is proposed to the author.**
+
 #### A. Agent work on free sources, for an essay (13)
 
 | Question | Status | Essay | Next action | What it asks |
@@ -499,7 +533,7 @@ Western Downs application (about 344 MB) fetched again.
 | RG-101 | in progress | ES-009 | Agent, free sources | Where are the five HCF-certified facilities that still have no site record - Cloud Carrier DB1;… |
 | RG-102 | in progress (end user) | ES-003 | Agent, free sources | Who is the end user of the Macquarie Park Data Centre (SSD-10467, Stockland Trust Management Li… |
 | RG-103 | open | ES-009 | Agent, free sources | Addresses, site areas and capacities for the eight facilities added from the HCF register (ADC … |
-| RG-104 | open | ES-009 | Agent, free sources | Is SITE_MACQ_IC3 - recorded as 'IC3 Super West', operational, from a grade-C directory - the re… |
+| RG-104 | in progress (status proposed) | ES-009 | The author's decision | Is SITE_MACQ_IC3 - recorded as 'IC3 Super West', operational, from a grade-C directory - the re… |
 | RG-105 | resolved | ES-003 | Agent, free sources | Are Road 1 (SSD-80814238, SITE_ROAD_1) and 1-5 Khartoum Road (SSD-63235720, SITE_KHARTOUM) two … |
 | RG-106 | open | ES-009 | Agent, free sources | Where are DigiCo's four other Australian properties - Townsville 1 (TSV1), Adelaide 2 (ADL2), B… |
 
@@ -519,7 +553,7 @@ Western Downs application (about 344 MB) fetched again.
 | RG-048 | open | ES-005 | Download #20 | Enumerate every Victorian data centre permit issued through the Development Facilitation Progra… |
 | RG-056 | open | ES-005 | Download #20 | Obtain the Minister for Planning's determination and permit conditions for the NEXTDC M3 expans… |
 | RG-066 | in progress | ES-005 | Download #18 | Harvest all 116 submissions to the Senate Environment and Communications References Committee i… |
-| RG-069 | in progress | ES-006 | Download #19; lodge GIPA-003 | Read the political donation disclosure filed on SSD-10330 (Roberts Road Data Centre, applicant … |
+| RG-069 | resolved | ES-006 | None (GIPA-003 for Mamre Road, not lodged) | Read the political donation disclosure filed on SSD-10330 (Roberts Road Data Centre, applicant … |
 | RG-070 | in progress | ES-001, ES-007 | Download #8, #9, #10 | Check the NSW and Commonwealth lobbyist registers and ministerial diaries for meetings between … |
 | RG-074 | in progress | ES-007 | Download #11 | Does any consultancy that authors technical evidence for data centre proponents also hold contr… |
 | RG-077 | open | ES-007 | Download #8, #10 | Are a former NSW minister's concurrent roles - Austrade Senior Trade and Investment Commissione… |
@@ -535,7 +569,7 @@ Western Downs application (about 344 MB) fetched again.
 | Question | Status | Essay | Next action | What it asks |
 | --- | --- | --- | --- | --- |
 | RG-006 | in progress | ES-004 | Lodge FOI-001 | Obtain FIRB records for every data centre-related foreign investment since 2020: application, n… |
-| RG-007 | in progress | ES-004 | Lodge GIPA-002 | Establish whether any Australian state has granted payroll tax exemptions, land tax concessions… |
+| RG-007 | in progress | ES-004 | Download #35; lodge GIPA-002 | Establish whether any Australian state has granted payroll tax exemptions, land tax concessions… |
 | RG-017 | open | ES-008 | Lodge GIPA-004, FOI-005, FOI-006, RTI-001 | Retrieve water access agreements and trade waste approvals between data centres and Sydney Wate… |
 | RG-021 | in progress | ES-003 | Lodge GIPA-001; paid search deferred | Resolve KNBDC SYD4 Pty Ltd |
 | RG-035 | in progress | ES-003 | Lodge GIPA-001 | Resolve the codename SPVs behind Project Duke, Project Atlas, Project Echidna, Project Apollo, … |
@@ -575,7 +609,7 @@ Western Downs application (about 344 MB) fetched again.
 | RG-044 | resolved | - | Record maintenance, free sources; no essay waits on it | Assess Unions NSW's proposal for local content and apprentice quotas at no less than Renewable … |
 | RG-045 | resolved | - | Record maintenance, free sources; no essay waits on it | Fetch the modification reports and determinations for the five material post-consent modificati… |
 | RG-051 | open | - | Record maintenance, free sources; no essay waits on it | Verify and map the reported ten-storey data centre outside Brisbane (Ipswich, plans reported fi… |
-| RG-053 | open | - | Record maintenance, free sources; no essay waits on it | Extract the remaining appendices of the Western Downs application |
+| RG-053 | resolved (two site changes proposed) | - | The author's decision | Extract the remaining appendices of the Western Downs application |
 | RG-054 | open | - | Record maintenance, free sources; no essay waits on it | Track whether the Western Downs Digital Park is declared a Prescribed Project under the State D… |
 | RG-071 | resolved | - | Record maintenance, free sources; no essay waits on it | Map AirTrunk's MEL2 campus, announced December 2025 as a site acquisition in Melbourne's north-… |
 | RG-072 | open | - | Record maintenance, free sources; no essay waits on it | Obtain the full 65-record TCS contract list from the portals of record (AusTender and buy.nsw) … |
@@ -586,7 +620,7 @@ Western Downs application (about 344 MB) fetched again.
 | RG-083 | open | - | Record maintenance, free sources; no essay waits on it | Resolve the agency attribution and portal of record for the 'Office 365 Environment Setup for M… |
 | RG-091 | open | - | Record maintenance, free sources; no essay waits on it | Map the NVIDIA DSX Australian buildout onto the physical site register |
 | RG-097 | in progress | ES-008 | Record maintenance, free sources; no essay waits on it | What does each NSW State Significant Development data centre project's own planning document st… |
-| RG-100 | in progress | - | Record maintenance, free sources; no essay waits on it | Replace CertifiedStrategic.com (SRC_CERTSTRAT) for what still rests on it alone |
+| RG-100 | in progress (CBRE proposed) | - | The author's decision | Replace CertifiedStrategic.com (SRC_CERTSTRAT) for what still rests on it alone |
 
 ## Part 4. The first ten essays
 
@@ -899,11 +933,15 @@ claim rests on records the database holds; until then its gaps are listed here.
 #### ES-014 "Out past the substations" (C1). Deep dive, after downloads #23 to #25. Conflict disclosure at the top
 
 - **Claim.** Gigawatt-scale data centres are being proposed in the regions:
-  Western Downs (about 2,160 MW of IT load), an off-grid campus of up to 1 GW in
+  Western Downs (2,160 MW of IT load in its planning report, 1,440 MW in its
+  own appendices), an off-grid campus of up to 1 GW in
   the Kimberley referred under the EPBC Act, Firmus at Wesley Vale (about 26 MW
   rising to about 52 MW, 40 backup generators), and a ten-storey building at
   Swanbank.
-- **Evidence in hand.** SRC_WDDP_TPR, Firmus's own page, NVIDIA's release.
+- **Evidence in hand.** SRC_WDDP_TPR, Firmus's own page, NVIDIA's release, and
+  (batch 9, RG-053) the Western Downs appendices: no town water, 20 diesel
+  generators (44 MW) for "network rooms and lift safety services only", a cost
+  of "$14.5B excluding GST", and the two capacities.
 - **Waits on.** Downloads #23 (Queensland's prescribed projects), #24 (the EPBC
   referral), #25 (Ipswich's record) and Latrobe Council's Wesley Vale record
   (RG-010, RG-027, RG-051, RG-054).
@@ -946,9 +984,9 @@ The editor links it from the original in `/admin`.
 | --- | --- |
 | ES-002 | Downloads #1, #3, #6 and #7 arrive: the six funds in full |
 | ES-003 | A free record names one of the unnamed operators. In hand already: SYD2 and Apollo Place are AirTrunk's (RG-098), and the Macquarie Park building is operating (RG-102) |
-| ES-004 | RG-043's network and regulator figures, or RG-007's tax expenditure statement |
+| ES-004 | RG-043's network and regulator figures, or RG-007's tax expenditure statement. In hand already: Transgrid's letter of 20 August 2026 (the proponent pays for augmentation) and the NSW and Queensland statements, both silent on data centres |
 | ES-005 | Downloads #17 to #19: the planning policy as in force, and the inquiry submissions |
-| ES-006 | RG-061's other conditions, or RG-069's electoral register. The modifications go to ES-011 |
+| ES-006 | RG-061's other conditions, or RG-069's electoral register. The modifications go to ES-011. In hand already: RG-069's NSW and Commonwealth amounts (resolved in batch 9) |
 | ES-008 | Downloads #4 and #5: the exchange's compliance letter and OpenAI's own page |
 | ES-009 | The FOI-002, FOI-003 and FOI-004 replies, and downloads #13, #14 and #16 |
 | ES-010 | Downloads #15 (Hansard) and #23 (the prescribed-projects list) |

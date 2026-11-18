@@ -141,9 +141,14 @@ select public.assert(
 -- Commission's stakeholder register and the AEC's annual returns: 329 - 2 + 5 = 332.
 -- 2026-11-18: the author's transcription of Amazon Web Services Australia's NSW major
 -- political donor disclosures (RG-069): 332 + 1 = 333.
+-- 2026-11-18: research batch 9 registers Queensland's 2026-27 Budget Paper No. 2 (RG-007),
+-- Transgrid's letter to data centre applicants of 20 August 2026 (RG-043), and four
+-- Macquarie documents on IC3 SuperWest: the topping-out post, the half-year briefing and
+-- the full-year release and presentation (RG-104). RG-053 cites the existing
+-- SRC_WD_COUNCIL_DA, so adds none: 333 + 6 = 339.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 333,
-  '333 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 339,
+  '339 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from

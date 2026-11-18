@@ -89,7 +89,7 @@ Three archived EISs state ownership themselves. These are the applicant's own st
 | **Road 1** (SSD-80814238) | Table 5: "Land ownership **The land is owned by Stockland.** Address 1-5 Khartoum Road, Macquarie Park … **Part Lot 2 DP 1043041**" | quoted on the row and against **RG-105**, which asks whether Road 1 and SSD-63235720 are one campus |
 
 A fourth, already recorded: the Western Downs report names **Wambo Cattle Company Pty Limited
-(ACN 058 718 326)** as registered owner of Lot 125 on DY516, with a title search in its Appendix B
+(ACN 058 718 326)** as registered owner of Lot 125 on DY316, with a title search in its Appendix B
 (`ENT_WAMBO`). No other archived planning document states a registered proprietor — the whole
 archive was searched for "registered proprietor", "registered landowner", "land ownership" and
 "owner of the site" on 2026-11-15.
