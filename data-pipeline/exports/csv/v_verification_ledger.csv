@@ -37,8 +37,8 @@ regulatory_events,VERIFIED,high,24
 metrics,CLAIMED,low,4
 metrics,CLAIMED,medium,15
 metrics,REPORTED,high,14
-metrics,REPORTED,low,10
-metrics,REPORTED,medium,29
+metrics,REPORTED,low,8
+metrics,REPORTED,medium,31
 metrics,VERIFIED,high,296
 metrics,VERIFIED,low,1
 metrics,VERIFIED,medium,10

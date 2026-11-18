@@ -76,6 +76,8 @@ PACKS = [
     ("data/packs/batch7_decisions.json", ["--allow-missing-source"]),
     # Batch 8 (zero spend): extends the notes batch 7 and its decisions wrote.
     ("data/packs/batch8_open_questions.json", ["--allow-missing-source"]),
+    # Batch 8, second pass: extends the first pass's notes.
+    ("data/packs/batch8b_open_questions.json", ["--allow-missing-source"]),
     # Last: the people register (who the site names by role only). It cites sources and
     # entities registered by earlier packs and is read by the loader, not by any other pack.
     ("data/packs/people_register.json", ["--allow-missing-source"]),
@@ -153,6 +155,7 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_batch7.py")
     run(PY, "scripts/curate_batch7_decisions.py")
     run(PY, "scripts/curate_batch8.py")
+    run(PY, "scripts/curate_batch8b.py")
     # Reads the packs to check each role against the record that states it.
     run(PY, "scripts/curate_people.py")
     for pack, flags in PACKS:

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-3%2120240613T023700.178+GMT",
+ "project_slug": "lane-cove-west-data-centre-mod-3-design-changes",
+ "attachment_slug": "ssd-9741-mod-3-assessment-report-3",
+ "kind": "mod_assessment",
+ "label": "Signed - SSD Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:08:44+00:00",
+ "sha256": "361259c14f6e1e1c63d45627b0d2aa6dc9d25637bffe4bb63a64084bafb31527",
+ "bytes": 4935476,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 55697,
+ "pages": 37,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

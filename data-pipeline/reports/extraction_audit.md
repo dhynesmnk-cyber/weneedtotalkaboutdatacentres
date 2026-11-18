@@ -1,12 +1,12 @@
 # Extraction yield audit
 
-Generated from 42 archived PDFs. Reliability floor: **20 chars/KB**.
+Generated from 46 archived PDFs. Reliability floor: **20 chars/KB**.
 
 Any document below the floor **cannot support a negative finding**. A keyword that does not appear
 in its extracted text may simply not have been extracted. Re-read such documents through a full PDF
 renderer before concluding that a term, condition or commitment is absent.
 
-**9 of 42 documents are below the floor.**
+**11 of 46 documents are below the floor.**
 
 | chars/KB | chars | status | extractor | document | likely cause |
 |---|---|---|---|---|---|
@@ -16,13 +16,16 @@ renderer before concluding that a term, condition or commitment is absent.
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-05-29.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-07-02.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_political_donation.pdf` | image-only scan, or no extractable content stream |
+| 6.0 | 21,528 | **LOW** | pypdf | `data/raw/operators/airtrunk/AIRTRUNK_SUSTAINABLE_RESOURCE_MANAGEMENT_WHITEPAPER_2025.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 8.2 | 10,951 | **LOW** | pdf_text | `data/raw/nsw_planning/nsw_data_centre_guidelines_2026.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 8.6 | 611,295 | **LOW** | pypdf | `data/raw/registers/melbourne_water/downloads.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 9.1 | 24,571 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230704_968_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 14.7 | 121,083 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230606_921_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 20.5 | 3,698 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_notice_of_decision.pdf` |  |
 | 23.3 | 3,701 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_roberts_nod.pdf` |  |
 | 27.9 | 67,262 | ok | pypdf | `data/raw/nsw_planning/consents/dicker_data_warehouse_and_distribution_centre.pdf` |  |
 | 28.2 | 4,398 | ok | pypdf | `data/raw/nsw_planning/consents/davis_rd_data_centre_mod_1_tree_removal_correction.pdf` |  |
+| 38.0 | 92,592 | ok | pypdf | `data/raw/reports_third_party/mandala/Empowering-Australias-Digital-Future-Report.pdf` |  |
 | 38.3 | 11,456 | ok | pdf_text | `data/raw/nsw_planning/attachments/PAE_84063957_20250611T225516_156_GMT.pdf` |  |
 | 44.6 | 94,547 | ok | pypdf | `data/raw/nsw_planning/consents/glendenning_road_data_centre.pdf` |  |
 | 45.8 | 97,159 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-73761707_consent_signed.pdf` |  |
@@ -45,6 +48,7 @@ renderer before concluding that a term, condition or commitment is absent.
 | 90.6 | 112,203 | ok | pypdf | `data/raw/nsw_planning/consents/macquarie_park_data_centre.pdf` |  |
 | 112.0 | 93,096 | ok | pypdf | `data/raw/nsw_planning/consents/apollo_place_data_centre.pdf` |  |
 | 116.7 | 108,211 | ok | pypdf | `data/raw/nsw_planning/consents/project_echidna_data_centre_eastern_creek.pdf` |  |
+| 138.4 | 11,900 | ok | pypdf | `data/raw/operators/transgrid/system_strength_project_faq.pdf` |  |
 | 142.9 | 90,155 | ok | pypdf | `data/raw/nsw_planning/consents/project_pluto_data_centre.pdf` |  |
 | 157.0 | 109,253 | ok | pypdf | `data/raw/nsw_planning/consents/digico_syd1_data_centre_expansion.pdf` |  |
 | 309.6 | 123,829 | ok | pdf_text | `data/raw/nsw_inquiry/transcript_2026-05-01.pdf` |  |

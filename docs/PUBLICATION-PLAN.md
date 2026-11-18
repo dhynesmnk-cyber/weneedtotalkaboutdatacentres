@@ -397,8 +397,46 @@ batch 7, and this list is what changed.
 - **New downloads:** #28 (the EPA register) and #29 (Project Echidna's air
   quality report, over the crawler's size limit).
 
-Still for batch 8's second pass: RG-003, 007, 013, 018, 019, 025, 027, 034,
-043, 053, 063, 068, 069, 080, 088, 091, 097, 100, 101, 102, 103, 104 and 106.
+#### Batch 8, second pass (2026-11-18)
+
+Pack `data/packs/batch8b_open_questions.json` (`scripts/curate_batch8b.py`).
+It touches 14 questions. Unresolved after it: 67, of which 20 are `blocked`,
+34 in progress and 13 open. Sources: 329. Questions loaded: 98.
+
+- **Resolved: RG-019.** Transgrid will put two synchronous condensers at the
+  Kemps Creek 500 kV substation, energised from early 2028. None serves a data
+  centre today.
+- **RG-034: the modification half is done.** All 17 modification records are
+  read. Three more add generators or diesel:
+  - Lane Cove West Mod 4: diesel from 1,651 to 1,966.9 tonnes, "below the
+    storage limit of 2,000 t". Decided under delegation, and not exhibited.
+  - Lanceley Place Mod 2: from 30 to 42 generators.
+  - Lane Cove West Mod 3: from 116 to 121 generators. This one was exhibited.
+
+  Their reclassification is **proposed to the author**. Council development
+  applications remain.
+- **RG-018 and RG-043:** Transgrid's own page is now on the record:
+  - "more than 10 GW" of data centre connection enquiries within 12 km of
+    Sydney West;
+  - capacity in the Sydney basin is "largely exhausted";
+  - large users are to "play their role" in system strength.
+
+  RG-018 is `blocked` on AEMO's list (download #31).
+- **RG-100:** the 1,350 MW and 3,100 MW figures are re-sourced to Mandala's own
+  October 2024 report.
+- **Blocked:**
+  - RG-068 and RG-080: the free substitutes were read and are silent;
+    GIPA-004 and FOI-005 are not lodged.
+  - RG-007, RG-063 and RG-069: each primary record was refused, so they are
+    downloads #30, #33 and #34.
+- **RG-027:** the Beetaloo release was refused (download #32).
+- **Proposed to the author as not retrievable at zero spend:** RG-013 (the AWS
+  and Google remainder) and RG-102 (Macquarie Park's end user).
+
+Not touched (no new free source reached them): RG-003, 025, 053, 088, 097,
+101, 103, 104 and 106. Each waits on a named download already listed (#20,
+#22, #26) or on the paid-search track, except RG-053, which needs the
+Western Downs application (about 344 MB) fetched again.
 
 #### A. Agent work on free sources, for an essay (13)
 

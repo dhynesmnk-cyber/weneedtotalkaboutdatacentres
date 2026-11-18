@@ -29,6 +29,26 @@
   "attachment_slug": "52-turner-road-data-centre-request-sears-16",
   "first_checked_utc": "2026-11-16T01:58:54+00:00"
  },
+ "https://www.planningportal.nsw.gov.au/amended-mod-report-final-10?_format=json": {
+  "checked_utc": "2026-11-18T14:09:42+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-41589232-Mod-1",
+  "project_slug": "modification-1-51-huntingwood-drive-data-centre-reduced-scale",
+  "kind": "mod_report",
+  "attachment_slug": "amended-mod-report-final-10",
+  "first_checked_utc": "2026-11-18T14:09:42+00:00"
+ },
+ "https://www.planningportal.nsw.gov.au/amended-mod-report-final-11?_format=json": {
+  "checked_utc": "2026-11-18T14:09:38+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-41589232-Mod-1",
+  "project_slug": "modification-1-51-huntingwood-drive-data-centre-reduced-scale",
+  "kind": "mod_report",
+  "attachment_slug": "amended-mod-report-final-11",
+  "first_checked_utc": "2026-11-18T14:09:38+00:00"
+ },
  "https://www.planningportal.nsw.gov.au/appendix-12-acoustic-report-135?_format=json": {
   "checked_utc": "2026-11-18T06:23:02+00:00",
   "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
@@ -158,6 +178,16 @@
   "kind": "sears_request",
   "attachment_slug": "request-sears20250403222831-37",
   "first_checked_utc": "2026-11-16T01:59:15+00:00"
+ },
+ "https://www.planningportal.nsw.gov.au/ssd-modification-report-huntingwood-drive-data-centre-23?_format=json": {
+  "checked_utc": "2026-11-18T14:09:46+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-41589232-Mod-1",
+  "project_slug": "modification-1-51-huntingwood-drive-data-centre-reduced-scale",
+  "kind": "mod_report",
+  "attachment_slug": "ssd-modification-report-huntingwood-drive-data-centre-23",
+  "first_checked_utc": "2026-11-18T14:09:46+00:00"
  },
  "https://www.planningportal.nsw.gov.au/superseded-feb-2026-eis?_format=json": {
   "checked_utc": "2026-11-16T01:59:00+00:00",

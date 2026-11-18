@@ -1,0 +1,2157 @@
+[[page 1]]
+Empowering Australia’s 
+Digital Future
+Data Centres: Essential digital infrastructure 
+underpinning everyday life
+OCTOBER 2024
+MANDALA  |  1
+[[page 2]]
+2  |  MANDALA  
+mandalapartners.com
+admin@mandalapartners.com
+media@mandalapartners.com
+This document is intended for general informational purposes only. The analysis in this 
+report was commissioned by AirTrunk, Amazon Web Services, CDC, Microsoft, and NEXTDC 
+and prepared by Mandala. 
+Mandala is a research firm with offices in Melbourne, Canberra and Sydney. Mandala 
+specialises in combining cutting-edge data and advanced analytical techniques to generate 
+new insights and fresh perspectives on the challenges facing businesses and government.
+Views and opinions expressed in this document are prepared in good faith and 
+based on Mandala’s knowledge and understanding of its area of business, markets 
+and technology at the time the document was produced. Opinions expressed 
+herein are subject to change without notice. No part of this document may be 
+reproduced in any manner without the written permission of Mandala.
+Note: All dollar figures are Australian dollars unless indicated otherwise.
+[[page 3]]
+MANDALA  |  3
+Contents
+MANDALA  |  3
+Glossary 4
+Executive summary 6
+Infographic 8
+1.  Data centres enable our modern digital lives 9
+ 1.1    Data centres are the engine room of Australia’s digital economy 10
+ 1.2   Data centres are efficient high-tech facilities housing state-of-the-art computers  11
+ 1.3  Data centre deployable capacity in Australia will more than double by 2030 13
+2.  Data centre development will enable Australia’s digital economy 14
+ 2.1  Data centres underpin jobs right across the Australian tech sector 15
+ 2.2   Data centres provide the capabilities to capture opportunities from digital transformation 16
+ 2.3  Data centres need to be in proximity to urban areas to meet consumer demand 17
+3.   Data centres make the digital economy more energy efficient and are catalysing Australia’s energy transition                                           19
+ 3.1   Data centres aggregate the digital economy’s electricity use 20
+ 3.2  Data centres are becoming more and more efficient 22
+ 3.3   Data centres are catalysing the energy transition by underwriting renewable energy projects  24
+ 3.4  Further investments are required for energy storage systems 27
+4.    Government and industry collaboration will unlock Australia’s digital opportunity 29
+ 4.1  Three key recommendations for industry and government 30
+5.  Appendices 31
+ 5.1  Appendix A: Methodology 32
+ 5.2  Appendix B: Reference list 35
+[[page 4]]
+4  |  MANDALA  
+TERM DEFINITION
+Data centre
+A specialised facility designed to host IT systems and associated components. These 
+centres house servers, processors, networking equipment, and storage systems, along with 
+supporting infrastructure like cooling systems and backup power generation. They enable 
+various services including cloud computing, data analytics, content delivery, secure data 
+storage and artificial intelligence.
+Co-location data centre A facility that provides shared space for multiple organisations to house their IT systems. 
+Companies typically lease space in these centres to store and operate their hardware.
+Data centre operator Entities responsible for the management, maintenance, and operation of data centres. 
+Edge data centre
+Smaller, often co-location, facilities usually with a capacity of 2 megawatts or less, 
+strategically placed near end-users or businesses. Their proximity aims to reduce data 
+transmission delays and enhance overall performance.
+Hyperscale data centre Large-scale data centres that have a design capacity of 50 megawatts or more, and typically 
+support cloud services and extensive operations.
+On-premise servers
+IT systems and supporting infrastructure housed within an organisation's own facilities for 
+their exclusive use. These are not shared with other businesses and are often located in 
+dedicated rooms or areas within the organisation’s commercial building.
+Capacity In a data centre context, capacity refers to the power handling capability for IT systems (IT 
+load), typically measured in megawatts.
+Maximum  
+design capacity The maximum theoretical IT load a data centre facility is engineered to support.
+Deployable capacity
+The power capacity for IT loads that is available for immediate use, but not reflective of 
+actual power usage. This is the white space of the data centre that is fully provisioned with 
+power and cooling systems, and is ready for the installation of IT systems.
+Committed capacity
+The power capacity that has been contracted or purchased by a customer for exclusive  
+use, and may or may not have IT systems installed. This is only applicable for co-location  
+data centres.
+Active IT load The real-time power load drawn by operational IT systems, representing actual electricity 
+usage. 
+Central processing 
+unit (CPU)
+The CPU is the core computational component in a server, acting as the 'brain' of any 
+computing device. It processes instructions from memory, executes required tasks, and 
+returns results to memory. The CPU is essential for running the operating system and 
+applications, handling all necessary computations.
+Glossary
+GLOSSARY
+[[page 5]]
+MANDALA  |  5
+GLOSSARY
+TERM DEFINITION
+Graphics processing 
+unit (GPU)
+A GPU is a specialised electronic circuit designed for rapid mathematical calculations. It 
+serves in tasks that involve applying similar mathematical operations to large datasets, such as 
+graphics rendering, machine learning, and video editing, as well as the default choice for AI. 
+Compute power
+In cloud computing, the term “compute” describes concepts and objects related to software 
+computation. It is a generic term used to reference processing power, memory, networking, 
+storage, and other resources required for the computational success of any program. 
+IT load
+IT load refers to the power required by IT systems and networking equipment in a data 
+centre. This includes the power for all computational, storage and processing tasks 
+performed by the centre's computers.
+Infrastructure load
+This term describes the power required by non-IT systems that support efficient data centre 
+operations. It includes power for cooling systems, lighting, and power distribution within  
+the facility.
+Megawatts (MW) Megawatts are a global unit for measuring power requirements of various facilities. One 
+megawatt is equivalent to 1,000 kilowatts or 1,000,000 watts.
+Megawatt hours (MWh)
+Megawatt hours measure the amount of electricity a facility requires over one hour. Annual 
+electricity consumption is typically calculated by multiplying a device's megawatt rating by 
+the number of hours in a year (8,760).
+Gigawatt hours (GWh) One gigawatt hour equates to 1,000 megawatt hours.
+Terawatt hours (TWh) One terawatt hour equates to 1,000 gigawatt hours or 1,000,000 megawatt hours.
+Power usage  
+efficiency  
+(PUE)
+PUE is a global standard for assessing data centre efficiency. It is calculated by dividing 
+the total power used by a data centre (including IT and infrastructure loads) by the power 
+consumed solely by the IT load. PUE values are always above 1, with lower values indicating 
+higher efficiency.
+Power purchase 
+agreement (PPA)
+PPAs are contracts where electricity buyers commit to purchasing power and/or large-scale 
+generation certificates from renewable energy projects at a fixed price over an extended 
+period.
+Large generation 
+certificate (LGC)
+LGCs are tradable certificates issued to eligible large-scale renewable energy power 
+stations. They represent the amount of renewable energy generated by these facilities, with 
+one LGC equaling 1 megawatt hour (MWh) of renewable electricity generated or displaced.
+[[page 6]]
+6  |  MANDALA  
+EXECUTIVE SUMMARY
+Executive 
+summary
+Data centres enable  
+our modern digital lives
+Data centres are a crucial element of Australia’s digital 
+infrastructure, supporting everything from everyday 
+internet use to critical services like emergency response, 
+transport, and banking. These efficient, high-tech 
+facilities enable cloud computing, powering digital 
+activities and services Australians rely on daily. 
+The number of internet-connected devices and the number 
+and scale of new digital services being used in Australian 
+households is set to double between 2024 and 2030, 
+driving rapid growth in data centre demand. To meet this 
+surge in digital activity, including business adoption of 
+cloud and AI services, data centre deployable capacity 
+in Australia is projected to more than double from 1,350 
+megawatts (MW) in 2024 to 3,100 MW by 2030. Additional 
+investment in Australia’s data centre capacity is forecast to 
+top $26 billion during this period to meet digital demand.
+Data centre development will enable 
+Australia’s digital economy
+Australia’s growth ambitions, including for the 
+creation of new tech jobs, depend on expanding data 
+centre capacity. The data centre workforce itself 
+needs to grow by 8,300 to reach 17,900 by 2030.
+Four in ten data centre roles are currently experiencing 
+shortages due to a lack of electronic equipment trade 
+workers, electricians, computer network engineers, and 
+information security professionals. 
+Australia’s proximity to growing markets, political stability, 
+land availability and cost-competitive renewable energy 
+make it well-positioned for growth in data centre services 
+that our digital economy will need.
+Data centres make the digital economy more 
+energy efficient and catalyse Australia’s 
+energy transition
+Data centres play a crucial role in our digital economy  
+by aggregating the electricity demand that supports  
+and enables our digital lives. According to the Australian 
+Energy Market Operator (AEMO), data centres consume 1 per 
+cent of Australia’s total electricity consumption, equivalent 
+to 340 MW of grid load, or 3 terawatt hours (TWh). 
+Without data centres, businesses relying on their on-
+premise servers would consume an additional 2 TWh or 
+more of electricity each year. This is equivalent to the 
+electricity 280,000 Australian households consume each 
+year. In addition, data centres are becoming increasingly 
+efficient in their energy use. The average power usage 
+effectiveness (PUE) of data centres globally has improved 
+by 37 per cent since 2007, falling from 2.5 to 1.58. 
+Data centres in Australia are even more efficient, with 
+design PUEs as low as 1.15 and a median value of 1.30.
+Major data centre operators have also committed to 
+powering their facilities with 100 per cent renewable 
+energy by 2030, largely through power purchase 
+agreements. Growth in data centre capacity could 
+provide additional renewable energy generation capacity 
+equivalent to 2 per cent of electricity generated in 
+Australia by 2030. This equates to approximately 5 per 
+cent of the additional renewable energy generation 
+capacity required to meet Australia’s 2030 target of 
+82 per cent renewable electricity, that data centres 
+could deliver through their climate ambitions. 
+
+[[page 7]]
+MANDALA  |  7
+Australia can position itself as a leading digital economy and accelerate its clean 
+energy transition by implementing the right policy settings and fostering industry 
+partnerships in digital infrastructure.
+Streamline planning and approval processes for development permits 
+and power allocation to help Australia capitalise on the data centre 
+growth opportunity, and create greater certainty for operators. 
+Enable further investment and accelerate the construction 
+of renewable energy projects, energy storage projects, and 
+transmission infrastructure to support digital infrastructure demand 
+and transition to net zero.
+Prioritise workforce development and training to provide 
+the skills for a robust data centre workforce, to strengthen 
+Australia’s digital infrastructure capabilities. 
+Government and industry must collaborate in three key areas to fully capture 
+Australia’s digital opportunity:
+Government and industry collaboration 
+will unlock Australia’s digital opportunity.
+[[page 8]]
+8  |  MANDALA  
+EMPOWERING AUSTRALIA’S DIGITAL FUTURE
+Data Centres: Essential digital infrastructure underpinning everyday life
+Australia needs to almost 
+DOUBLE its data centre 
+workforce by 2030
+Additional investment in 
+data centres in Australia is 
+forecast to top $26 billion 
+to meet digital infrastructure 
+demand
+Projected to rise by  
+more than double to  
+3,100 MW by 2030
+Data centres will nearly double their workforce 
+capabilities to support businesses and consumers…
+Data centres - housing efficient, high-tech computers -  
+are the engine room of Australia’s digital infrastructure...
+Data centres aggregate the electricity for the digital economy 
+and catalyse renewable energy investments…
+Getting the policy settings right will unlock Australia’s digital opportunity…
+The number of devices in 
+the household will more 
+than double by 2030
+of global power purchase 
+agreements in 2022 were 
+signed by data centre 
+operators, accelerating 
+renewable projects
+by hyperscale and co-location 
+data centres - without them, 
+on-premise services would use 
+67% more electricity, enough 
+to power 280,000 homes
+creating opportunities 
+for tech trade roles, ICT 
+professionals and engineers 
+2X
+2 TWh 100%
+2X$261,350 MW
+4 in 10
+Workforce
+of energy saved Renewables 
+by 2030
+BillionDeployable  
+capacity in 2024
+Connected 
+household devices
+NEARL Y 
+HALF
+Data centre  
+roles are in 
+shortage
+Major data centres have 
+committed to 100% 
+renewables by 2030
+Workforce 
+development
+Enable renewables 
+investment
+Streamline approval 
+processes
+8  |  MANDALA  
+[[page 9]]
+MANDALA  |  9
+Data centres 
+enable our modern 
+digital lives
+1.
+MANDALA  |  9
+[[page 10]]
+10  |  MANDALA  
+1.1  Data centres are the engine room of 
+Australia’s digital economy
+Data centres are enabling every digital interaction in 
+society. Data centres across the globe work together  
+to process, store, and distribute vast amounts of data. 
+They enable seamless access to online services and  
+digital activities. 
+Australians are increasingly reliant on data centres to 
+facilitate their digital lives. This has been driven in large 
+part by the growth of cloud computing services and 
+applications. We now spend more than six hours using 
+the internet every day.1 Every time we pick up a device 
+to send a message, join a video call, use a shared drive 
+or online collaboration tools, run an internet search, 
+purchase goods or pay a bill online, we are relying on the 
+advanced capabilities of data centres (see Exhibit 1). 
+1  DataReportal (2024) Digital 2024: Australia.
+Even when we’re not actively online, data centres 
+underpin essential services integral to our lives and 
+our safety, such as emergency response systems, 
+natural disaster warnings, transport, and banking. 
+Data centres provide the vital infrastructure to 
+enable the internet and cloud-based applications. 
+Importantly, they facilitate the delivery of critical 
+government services, storing and processing 
+the data required to run essential operations like 
+Australia’s passport, tax, and welfare systems.
+The technological advancements enabling our 
+digital economy have become a driving force for 
+innovation, productivity, and economic growth. This 
+will continue to unlock opportunities for Australia.
+EXHIBIT 1: 
+Data centres touch everyone’s daily life and are behind every swipe, tap, and click
+Illustrative example of digital interactions that take place in a typical day
+This is Claire. Claire lives with her two children in Sydney. She works for an accounting firm in the city.  
+Claire relies on technology to make her day easier and more productive. Behind every swipe, tap, and 
+click lies a vast digital ecosystem enabled by data centres making her digital interactions possible.
+12pm
+Claire is getting her family ready for the day 
+  She checks if it will rain today using her BOM app
+  She makes sure her train is on time on her Transport NSW app
+On her lunch break 
+  Claire pays an overdue electricity bill on her phone
+  Claire uses HotDoc to book a GP appointment for her son 
+On her way to pick up the kids
+  Claire receives an email from her daughter’s school to 
+confirm her parent-teacher interview next week 
+That evening
+  Claire lets her kids watch the latest episode of Bluey on 
+Disney while she makes dinner 
+At work 
+  Claire joins a video call with her team over Microsoft Teams
+  She processes invoices with cloud-based technology
+Calculate real-time weather 
+and transport updates
+Securely connect to her bank 
+Book appointments online
+Receive and reply to emails 
+Find and stream content 
+from around the world
+Deliver audio and video 
+content to her laptop
+She needs data centres to…
+Source: Mandala analysis. 
+7am
+9am
+4pm
+7pm
+1. DATA CENTRES ENABLE OUR MODERN DIGITAL LIVES
+[[page 11]]
+MANDALA  |  11
+1. DATA CENTRES ENABLE OUR MODERN DIGITAL LIVES
+1.2  Data centres are efficient  
+high-tech facilities housing  
+state-of-the-art computers
+The rise of digital technologies, specifically cloud 
+computing, has modernised digital infrastructure, 
+shifting computing power from individual devices and 
+on-premise servers to centralised data centres. Data 
+centres are efficient and secure high-tech facilities that 
+host many servers housed in data halls. These computers 
+scale in number with the size of the data centre. 
+Data centres host cutting-edge servers that enable 
+our modern digital lives. These are supported by 
+storage and networking infrastructure. The servers 
+are capable of handling ever greater workloads due to 
+increasingly powerful computer chips. They facilitate 
+high-performance computing, which can run at speeds 
+more than one million times faster than the fastest 
+desktop or laptop.2 Data is delivered to and from data 
+centres through low-latency fibre connections, enabling 
+speeds of more than 400 gigabits per second. 
+2  IBM (2024) What is high-performance computing (HPC)?. 
+Critical support systems complement the equipment 
+in data halls. These include efficient power distribution 
+networks, advanced cooling systems to manage heat 
+generation (such as liquid cooling), and reliable backup 
+generators. Data centres leverage the latest generation 
+technologies to optimise performance and energy use.
+Data centres offer advanced physical, personnel, and cyber 
+security protections to safeguard customers’ systems and 
+data. Physical security measures may include intruder-
+proof fences, double skinned walls, CCTV, biometrics, 
+on site, 24/7 security, and secure deliveries to help 
+protect the engine room of Australia’s digital economy.
+Data centres have become the vital link between the 
+hardware and software layer of the digital value chain. 
+They form a crucial component of our national digital 
+infrastructure, coming together with utility services, 
+such as power, water, and telecommunications, to 
+generate value by enabling efficient and reliable 
+delivery of digital services and applications.
+  Data centres are specialised facilities that house 
+a significant number of servers, depending on 
+their size. 
+  They contain the IT systems, storage 
+infrastructure and network infrastructure to 
+process and store vast amounts of data. 
+  Servers are complemented with support systems, 
+such as power distribution, cooling, and backup 
+generators. 
+EXHIBIT 2: 
+Data centres are facilities housing efficient high-tech computers that deliver the digital services we 
+rely on everyday
+High-density racks
+Source: AWS (2024) What is a Data Center?; Cisco (2024) What Is a Data Center; Construction Physics (2024) How to build an AI data center; Intel (2024) Why Data Center GPUs Are Essential 
+to Innovation; Expert interviews; Mandala analysis. 
+High-tech computers
+Data centres host high-density servers 
+with state of the art GPUs and CPUs that 
+provide the compute power
+Leading cyber security & protection
+Data centres offer the latest capabilities 
+in cyber security to ensure the security of 
+people’s information
+High-speed, low-latency connectivity
+High-speed servers and cables enable 
+low-latency connections, bringing speeds 
+of 400+ gigabits per second, maximising 
+performance and enabling a seamless 
+user experience
+Efficient technologies
+Data centres use new technologies like 
+liquid cooling to improve their efficiency, 
+and offset power usage through 
+renewable energy, such as wind and solar
+[[page 12]]
+12  |  MANDALA  
+1. DATA CENTRES ENABLE OUR MODERN DIGITAL LIVES
+EXHIBIT 3: 
+Data centres are at the core of Australia’s digital infrastructure
+Work Home Government systems Everyday services
+Applications
+Hyperscale providers
+Hardware providers
+Data centre operators
+Utility services
+Providers of digital 
+services and applications 
+and Software as a Service
+Offer globally 
+standardised IT and cloud 
+services over the internet 
+Provide processing 
+and memory units 
+known as chips needed 
+for computing
+Provide IT systems and 
+equipment to process, 
+store, and manage data
+Australia’s digital 
+economy relies on power, 
+water, and connectivity 
+Note: Non-exhaustive examples of businesses across each category. 
+Source: Expert interviews; Mandala analysis.
+Organisations have transformed their approach to 
+digital infrastructure over time. In the past, organisations 
+maintained their own on-premise servers and computing 
+infrastructure. Now, organisations outsource their 
+computing and data storage needs to co-location data 
+centres. These data centres work alongside hyperscale 
+cloud providers to deliver reliable, scalable cloud services 
+worldwide. These services underpin organisations’ 
+ability to efficiently run digital services and applications 
+to support their operations and end consumers.
+The impact of data centres extends right across the 
+Australian economy. They are the core enabler of cloud 
+services, which virtually all sectors of the economy 
+are leveraging to enhance their operations, products, 
+and services. This widespread adoption has led to a 
+rapid shift towards a digital lifestyle for Australians 
+and organisations all underpinned by data centres.
+
+[[page 13]]
+MANDALA  |  13
+1. DATA CENTRES ENABLE OUR MODERN DIGITAL LIVES
+1.3  Data centre deployable capacity in 
+Australia will more than double by 2030
+Digital technologies and services are integral to modern 
+life, enabling communication, work, healthcare, trade, 
+entertainment, and more. Emerging technologies like 
+AI will further enhance productivity and convenience. 
+Australian households are rapidly increasing their 
+adoption of internet-connected devices, with numbers 
+expected to double between 2024 and 2030, continuing 
+past trends. Likewise, business use of cloud services 
+and applications is expected to continue to rise.
+3  In comparison, non-mining capital investment in the December 2022 quarter for Australia was AU$29 billion; ABS (2024) Private New Capital Expenditure and Expected Expenditure.
+4  IBM (2024) What is a hyperscale data center?. 
+5  Forecasts are based on the expected growth between 2021 and 2025. 
+6  Excludes on-premise servers, telecommunication, and government data centres. 
+Data centres in Australia currently have a deployable 
+capacity of 1,350 megawatts (MW), defined as the power 
+capacity for IT loads that is available for immediate use, 
+fully provisioned with power and cooling systems and 
+ready for the installation of IT systems. The total power 
+use of data centres include the IT load as well as the 
+infrastructure load for support systems such as cooling. 
+As digital take-up continues, Australia’s data centre 
+deployable capacity is expected to more than double to 
+3,100 MW by 2030. This will attract up to $26 billion in 
+additional investment,3 and includes proposed projects 
+by AirTrunk, AWS, CDC, Microsoft, and NEXTDC.
+Hyperscale data centres will provide future growth 
+in Australia’s data centre capacity. These are larger 
+facilities, with a size of at least 50 MW housing at 
+least 5,000 individual servers, characterised by 
+scalability and efficient infrastructure that support 
+AI, automation, and big data computing.4 
+EXHIBIT 4: 
+Growing demand for digital services will double the deployable capacity of data centres in Australia to 
+3,100 megawatts by 2030
+Internet-connected devices in Australian households
+Average devices per household, 2024 –  2030F5
+Data centre deployable capacity in Australia6
+Megawatt (MW), 2024 –  2030F
+24
+1,350 MW
+2024 20242030F 2030F
+51
+3,100 MW
+x2.1
+x2.3
+Source: Morgan Stanley (2024) Australia  –   Data Centre Handbook; NBN (2024) Australians feel the need, the need for speed; Statista (2023) Australia: average number of internet-connected 
+devices per household; Telsyte (2024) Australia’s smart home market set to crack $2.5B, driven by AI, energy savings and security; Datacentremap; Data from select data centre operators; 
+Expert interviews; Mandala analysis. 
+Growing demand
+devices billion
+x2.1 +AU$26
+Infrastructure investment
+Australians could have 
+up to 2.1x more internet-
+connected devices in 
+the home by 2030
+Investment of $26 billion  
+is required to construct 
+the additional data centre 
+capacity by 2030
+[[page 14]]
+14  |  MANDALA  
+14  |  MANDALA  
+Data centre 
+development will 
+enable Australia’s 
+digital economy
+2.
+[[page 15]]
+MANDALA  |  15
+2.1  Data centres underpin jobs right across  
+the Australian tech sector
+There are 9,600 full-time equivalent (FTE) jobs 
+supporting data centre operations in Australia. The 
+data centre workforce needs to grow by 8,300 to 
+reach 17,900 by 2030 to continue powering Australia’s 
+digital economy.7 The additional 8,300 jobs are for 
+ongoing operational jobs, including tech trades (such 
+as electricians and air conditioning technicians), 
+engineers, and ICT professionals, required to support 
+growing demand for data centre deployable capacity.
+A strong data centre workforce will contribute to 
+Australia meeting its goal of 1.2 million tech jobs by 
+2030. Expanding data centre capacity will support highly 
+skilled tech roles like software engineers, cybersecurity 
+experts, and cloud architects. Meanwhile, as data centres 
+scale, they will provide the crucial infrastructure for 
+Australia’s cloud-based digital ecosystem to thrive and 
+innovate, including the creation of new businesses and 
+new and emerging high-tech workforce opportunities.
+Data centres also support employment during the 
+construction phase of these facilities. The construction 
+phase requires approximately 15 jobs for every one 
+data centre operational job. These jobs are typically 
+in the construction sector and its supply chain. 
+However, existing shortages of skilled workers, 
+particularly in construction, may challenge the rapid 
+expansion of Australia’s digital infrastructure.8
+Australia’s digital infrastructure growth is facing 
+significant challenges due to a data centre worker 
+shortage. The shortage, with four in ten data 
+centre roles, is particularly acute in two critical 
+areas: tech trades and ICT professional roles.  
+Tech trades make up approximately one in 10 data centre 
+jobs (11 per cent). This is even higher in pure play data 
+centre operators such as AirTrunk, CDC and NEXTDC, 
+making up approximately three in 10 jobs (30 per 
+cent). These skilled jobs include electronic equipment 
+trade workers, electricians, heating, ventilation and air 
+conditioning technicians, and mechanical engineers. 
+However, there is a shortage of these crucial workers 
+who maintain and operate critical hardware.
+The situation is equally challenging for ICT 
+professionals, who make up the largest segment 
+(30 per cent) of the data centre workforce. There 
+is a significant shortage of computer and network 
+engineers, information security specialists, software 
+engineers, and process engineers. These roles are 
+vital for managing IT infrastructure, ensuring data 
+security, and maintaining system performance.
+The remaining roles are made up of executives and 
+managers who oversee operations and strategic 
+planning, business operations and other professionals 
+who support overall functions and administration, 
+and clerical, sales, and administrative workers who 
+handle day-to-day operations. Together, these roles 
+account for six in 10 data centre jobs (59 per cent).
+Tech sector jobs
+EXHIBIT 5:
+Growing Australia’s data centre workforce will meet future demand and support jobs in the broader 
+tech sector
+Data centre and tech jobs in Australia, FTE jobs, 2024 -  2030F
+Data centre operation jobs
+2024 9,600 935,000
+Additional 
+jobs required
+2030F 17,900 1,200,000
+8,300 265,000
+Source: ABS (2021) Census of Population and Housing; IBIS (2024) Cloud Storage Services in Australia; Technology Council of Australia (2023) Tech Jobs Update;  
+Data centre provider data; Mandala analysis. 
+7  Demand is measured by deployable capacity, reflecting the number of servers a data centre supports.
+8  Australian Government (2024) Skills Priority List. 
+2. DATA CENTRE DEVELOPMENT WILL ENABLE AUSTRALIA’S DIGITAL ECONOMY
+[[page 16]]
+16  |  MANDALA  
+2.2  Data centres provide the capabilities 
+to capture opportunities from digital 
+transformation
+Data centres drive economic growth through cutting-
+edge technologies like AI. As the latest innovation wave, 
+generative AI could grow Australia’s economy by $45 billion 
+to $115 billion by 2030.11 To fully capture these opportunities, 
+Australia must leverage the large scale processing and 
+storage capability that data centres provide.
+Data centres provide the large storage capacity required 
+to run, train, and deploy AI systems. This is particularly 
+true for more complex and sophisticated AI systems, such 
+as large language models. As these systems become 
+even more advanced and complex, they will require larger 
+storage, memory, and compute capabilities to operate 
+efficiently and in real time, which needs data centres.
+Data centres are increasingly housing specialised computer 
+chips called graphics processing units (GPUs), which 
+provide the immense computing power necessary for 
+training and fine-tuning AI models. These chips are efficient 
+at complex tasks, while other tasks can be handled by 
+regular processors, such as central processing units 
+(CPUs). GPUs are also supported by advanced cooling 
+systems to manage the heat generated during the large 
+workloads, to ensure the data centres operate efficiently. 
+Equally crucial is the network infrastructure within 
+data centres, featuring high-speed connections 
+that allow AI systems to process information and 
+respond rapidly. This environment is essential for 
+AI to perform well in real-world applications.
+EXHIBIT 6: 
+Australia’s digital infrastructure growth is hindered by skills shortages for tech trades and ICT 
+professionals
+Data centre  
+workforce
+Composition  
+of workforce
+% of data centre  
+workers, 2021
+Most sought-after positions10 
+vs national skill shortage
+Overall data centre 
+workforce shortage
+11%
+17%
+11%
+21%
+30%
+Operational roles 
+(tech trades)9
+1 in 10 workers 
+maintain and 
+operate critical 
+hardware
+2 in 10 workers 
+oversee operations 
+and strategic 
+planning
+1 in 10 support the 
+overall functions 
+and administration
+3 in 10 manage 
+IT infrastructure 
+and ensure data 
+security and system 
+performance
+  Electronic equipment trade worker
+  Electrician
+  Heating, ventilation and AC technician
+  Mechanical engineer
+  Business and HR professionals
+  Office manager
+  Media manager
+  Legal
+  Admin. or office clerk
+  Storeperson
+  Service manager
+  Sales assistants and salespersons
+  Computer and network engineer
+  Information security
+  Software engineer
+  Process engineer
+  Specialist managers
+  Chief executives and general managers
+  Managers
+2 in 10 handle day-
+to-day operations
+Executives  
+and managers
+ICT professionals
+Business ops.  
+& other 
+professionals
+Clerical, sales, 
+admin. workers 
+and other
+  Shortage     No Shortage
+4
+in 10
+data centre  
+roles are 
+currently in 
+shortage
+Note: This only includes jobs and roles required for the operation of data centres, and does not include any roles for the construction of data centres. 
+Source: ABS (2021) Census of Population and Housing; Australian Government (2024) Skills Priority List; Providers’ job postings; Mandala analysis.
+9     Tech trades include roles such as Design, Engineering and Science Professionals, Engineering & ICT Technicians, 
+various Trades, as well as Machine Operators and Factory Process Workers.  
+10  Most sought-after positions are based on providers’ job postings; non-exhaustive. 
+11  Microsoft and Technology Council of Australia (2023) Australia’s Generative AI Opportunity.
+2. DATA CENTRE DEVELOPMENT WILL ENABLE AUSTRALIA’S DIGITAL ECONOMY
+[[page 17]]
+MANDALA  |  17
+2. DATA CENTRE DEVELOPMENT WILL ENABLE AUSTRALIA’S DIGITAL ECONOMY
+2.3  Data centres need to be in proximity to 
+urban areas to meet consumer demand
+Data centres in Australia are strategically concentrated 
+around cities. Sydney and Melbourne host 52 per cent of 
+the country’s data centres (see Exhibit 7). This proximity 
+to large population centres is driven by customer demand, 
+low latency, access to inputs, and network resilience.
+Low latency is crucial to maximising a data centre’s 
+performance, with the exception of AI training. With 87 
+per cent of Australians living in urban areas,12 data centres 
+must be located nearby to ensure fast data transmission 
+and a seamless user experience for most customers.
+Capital cities provide easy access to essential inputs 
+for data centres. They offer a pool of skilled workers, 
+established power grids, and superior telecommunications 
+infrastructure – vital for seamless data centre operations. 
+Lastly, proximity to major cities enhances network 
+resilience. It allows for easier implementation of 
+redundancy measures and simplifies disaster recovery 
+planning, as multiple facilities can serve as backups.
+While the urban focus may present challenges in land 
+availability and planning approvals, it remains crucial for 
+meeting growing demand for data services. The strategic 
+placement of data centres near cities is not just a necessity, 
+but a key driver in the growth of our digital economy.
+EXHIBIT 7: 
+Data centres in Australia are concentrated in proximity to cities to meet consumer demand
+Deployable capacity by location, 2024
+Situating data centres in proximity to 
+cities enable low-latency for seamless 
+user experiences, enable access to 
+inputs such as workers and power 
+supplies, and ensure network resilience
+92%
+96%
+Sydney hosts
+Melbourne hosts
+of data centres in NSW
+of data centres in Victoria
+Note: See appendix for more details on location of data centres in Australia. 
+Source: DataCenterMap; Data from select data centre operators; Expert interviews; Mandala analysis.
+  Hyperscale13     Non-hyperscale   
+   100 MW (size of bubble = deployable capacity)
+12  Based on population in ‘Significant Urban Areas’ as defined by the ABS; ABS (2024) Regional population.
+13  Hyperscale data centre facilities are those with a design capacity of 50MW or more. 
+[[page 18]]
+18  |  MANDALA  
+2. DATA CENTRE DEVELOPMENT WILL ENABLE AUSTRALIA’S DIGITAL ECONOMY
+AEMO sees data centres in Australia as an important export opportunity, driven by global demand for low-emission,  
+energy-intensive sectors16
+While proximity is important for everyday uses of data 
+centres, other emerging uses such as AI training may not 
+have similar requirements. Australia is well positioned 
+but faces strong competition to become an Asia-Pacific 
+hub for AI data centre operations. Australia offers several 
+key advantages to growing our data centre sector.
+Firstly, Australia has abundant land availability 
+compared to densely populated Asian cities, providing 
+ample space for large-scale data centre facilities. 
+Secondly, Australia’s stable political environment 
+and robust regulatory framework offer security and 
+certainty for long-term infrastructure investments. 
+Thirdly, Australia leads in generating renewable 
+energy, particularly in solar and wind power. Finally, 
+Australia can offer competitive energy costs, especially 
+as it transitions to more renewable sources.
+These factors combine to mean Australia has advantages 
+compared to other markets for AI and cloud computing 
+operations seeking to expand or relocate data centre 
+capacity.14 
+EXHIBIT 8: 
+Australia has advantages for AI data centre operations in comparison to other markets
+Note: These countries are the largest in the Asia Pacific region by GDP size and data centre offer, excluding Hong Kong and China.  
+Source: World Bank; CloudScene (2024) APAC Region; Clean Energy Council (2024) Clean Energy Australia; Energy Institute (2023) Statistical Review of World Energy; GlobalPetrolPrices (2024) 
+Electricity Prices; Mandala analysis.
+Land availability  
+by country15
+Land mass (sq km) per 1,000 
+population, 2021
+Political stability  
+by country
+Percentile rank, 2022
+Renewables in electricity  
+by country
+% of electricity from renewable 
+energy, 2023
+Business electricity cost  
+by country
+AU$ per KWh, 2023
+Australia Australia
+Australia
+Australia
+Malaysia
+Malaysia
+Malaysia Malaysia
+299.5 39.4%
+$0.3
+81.6
+9.6
+51.9
+19.0% $0.2
+6.9
+29.2
+18.6%
+$0.1
+2.9
+86.8 23.8%
+$0.3
+2.1
+19.5% $0.2
+24.5
+1.9 9.0%
+$0.2
+64.6
+97. 2
+0.1 4.5% $0.5
+Indonesia
+Indonesia
+Indonesia
+Indonesia
+Japan
+Japan Japan
+Japan
+India
+India India
+India
+South Korea South Korea
+South Korea
+South Korea
+Singapore
+Singapore Singapore Singapore
+Australia has high 
+land availability
+Australia is relatively 
+politically stable
+Australia leads in 
+renewable energy
+Australia offers 
+competitive energy costs
+14   AEMO (2024) Integrated System Plan –  For the National Electricity Market: A roadmap for the energy transition; Australian Trade and Investment Commission (2024) Australia: APAC’s 
+rising regional hub for green data centres. 
+15   Data centre locations are constrained by factors such as proximity to metropolitan areas, infrastructure availability and environmental conditions. While Australia has high land 
+availability, not all of it is suitable for data centre development. Nonetheless, the average land mass per 1,000 population for Australia’s Greater Capital City areas is still relatively 
+high at 3.05 sq km.
+16  AEMO (2024) 2024 Integrated System Plan.
+[[page 19]]
+MANDALA  |  19
+2. DATA CENTRE DEVELOPMENT WILL ENABLE AUSTRALIA’S DIGITAL ECONOMY
+MANDALA  |  19
+Data centres make the 
+digital economy more 
+energy efficient and are 
+catalysing Australia’s 
+energy transition
+3.
+[[page 20]]
+20  |  MANDALA  
+3.1  Data centres aggregate the digital 
+economy’s electricity use 
+Data centres aggregate the electricity demand that 
+supports and enables our digital lives. Every swipe, 
+tap, and click contributes to this demand, which data 
+centres efficiently consolidate and manage. Rather than 
+the energy use being distributed amongst businesses, 
+and homes and consumers, it is aggregated in the 
+data centre where the computers are housed. 
+As a crucial part of Australia’s digital infrastructure, data 
+centres consume 3 terawatt hours (TWh) of electricity 
+each year, or 1 per cent of Australia’s total electricity 
+consumption (see Exhibit 9). In comparison, Australian 
+households account for approximately 30 per cent of total 
+electricity consumed each year, equating to 74 TWh. 
+Meanwhile, other industrial activities, such as metal 
+manufacturing, other manufacturing and mining make up 
+33, 29, and 23 TWh of electricity consumption each year. 
+Collectively, these four groups make up approximately 
+65 per cent of total electricity consumption each year. 
+Digital infrastructure is unique from these other 
+sectors. It is a vital enabler of our digital economy, for 
+which data centres aggregate the energy required 
+to support operations and innovation. They require a 
+stable and consistent power load which makes them 
+predictable. Centralised power usage allows data 
+centres to more efficiently manage the energy footprint 
+created by our growing demand for digital services.
+EXHIBIT 9: 
+Data centres use 3 TWh of electricity to power our digital economy
+Annual electricity usage in Australia by select industries, Terawatt hours (TWh), 202317
+Note: This excludes total energy usage (e.g., coal, oil products, natural gas or biofuels and waste). Australia -  Electricity; S&P Global (2024); Mandala analysis.
+Source: ABS (2023) Energy Account, Australia; AEMO (2024) Electricity Statement of Opportunities; AER (2024) Annual electricity consumption –  NEM; DCCEEW (2023) Electricity generation; Enerdata 
+(2024) Australia Energy Information; IEA (2024) 
+% of electricity 
+consumption
+Australian households
+Primary metal and metal product manufacturing
+Mining total
+Other manufacturing1
+Retail trade
+Accommodation and food services
+Health care and social assistance
+Public administration and safety
+Electricity, gas, water and waste services total
+74 TWh
+33 TWh
+29 TWh
+23 TWh
+10 TWh
+10 TWh
+10 TWh
+9 TWh
+9 TWh
+30%
+14%
+12%
+9%
+4%
+4%
+4%
+4%
+4%
+17  Includes petroleum and chemical products, wood, paper, printing, food, beverages, and textiles manufacturing. 
+18   Power usage for data centres is based on AEMO data, and has separately been estimated based on 2024 deployable capacity of 1,350 MW, an average committed capacity of 80% 
+and a median PUE of 1.3. See appendix for more details. 
+Data centres18 3 TWh 1%
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+[[page 21]]
+MANDALA  |  21
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+Data centres require electricity for two primary purposes: 
+(1) to power their IT load; and (2) to power the infrastructure 
+load that runs efficient support systems of the data centre 
+(see Exhibit 10). 
+Customer and end-user demand for digital services 
+drive a data centre’s IT load and electricity consumption. 
+Our increasing reliance on digital services, cloud 
+computing, and data-intensive applications continues 
+to grow while emerging technologies such as AI are 
+expected to further increase demand. Global data 
+centre workloads and compute instances increased 
+more than six-fold between 2010 and 2018, before the 
+rapid growth in compute-intensive AI applications.19
+Data centre’s IT load generates heat, which must be 
+managed to ensure the reliability and longevity of the IT 
+equipment. Similar to a fan in a household laptop, managing 
+this heat requires cooling. This is achieved by either cooling 
+the air in the data halls itself or cooling the chips directly. 
+For the latter, this is done through direct to chip liquid 
+cooling or immersion liquid cooling. Given the innovation to 
+date, we expect data centre design to continue to improve.
+Data centres are constantly balancing a growing IT load, 
+and the associated demands on infrastructure load, 
+with the need for greater energy efficiency. This has 
+led to significant investment in cutting-edge cooling 
+and power-supply technologies (see Exhibit 17).
+EXHIBIT 10: 
+Data centres use electricity to power their IT load, which is growing, and associated  
+cooling requirements
+Source: Vimal (2023) Power Usage Effectiveness (PUE) in Data Centers; Zhang (2024) PUE (Power Usage Effectiveness): Optimizing Data Centers; Mandala analysis. 
+  IT load is the power consumed by the 
+computing, storage, and networking 
+equipment. 
+  This electricity use powers computing 
+and data processing tasks.
+  IT load is primarily driven by the 
+demands of data centre customers and 
+end users.
+  They increasingly rely on digital 
+services, cloud computing, and data-
+intensive applications which run off 
+new, more powerful chips.
+  Infrastructure load is influenced by 
+IT load, but data centre operators 
+have more control over the power 
+consumed by non-IT systems, 
+implementing efficient technologies 
+and optimising data centre design to 
+reduce it.
+  Infrastructure load is the power 
+consumed by non-IT systems required 
+to power the data centre.
+  This includes power for cooling, 
+lighting, and power delivery systems.
+Definition
+IT Load Infrastructure load
+Data centre power
+Key uses 
+of power
+Key drivers
+Storage Cooling
+Servers 
+(processing)
+Efficient 
+power delivery 
+systems
+Networking Administration 
+areas for staff
+21
+19  Masanet et al. (2020) Recalibrating global data center energy-use estimates.
+[[page 22]]
+22  |  MANDALA  
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+3.2  Data centres are becoming more  
+and more efficient
+Data centres have become significantly more efficient over 
+the last two decades. This is typically measured by power 
+usage effectiveness (PUE). PUE is calculated by dividing the 
+total amount of power used by the data centre by the power 
+used specifically by the IT systems. This helps quantify 
+the proportion of a data centre’s power used directly for 
+computing versus support infrastructure like cooling. A 
+lower PUE indicates a more energy efficient facility.
+Globally, data centres have an average PUE ratio of 1.58, 
+which is a 37 per cent decrease from 2006. Data centres in 
+Australia are even more efficient, with PUEs as low as 1.15 
+and a median value of 1.30. The improvements in the PUE of 
+data centres have been driven by the development of high-
+tech and more efficient hyperscale data centre facilities. 
+Across the Asia-Pacific region, hyperscale data centres 
+can be up to five times more efficient than large-scale 
+on-premise servers.20 Meanwhile, hyperscale data centres 
+in Australia are up to 27 per cent more efficient relative to 
+large-scale on-premise servers.21
+More broadly, data centre operators are improving the 
+energy efficiency of their facilities by implementing 
+innovative technologies, such as advanced liquid 
+cooling systems and AI-driven power management.22
+EXHIBIT 11: 
+Data centres are becoming more efficient, requiring less electricity to power the same IT loads
+Source: Uptime Institute (2023) Global Survey of IT and Data Centre Managers; DataCenterMap; Mandala analysis. 
+Global average power efficiency of data  
+centres over time
+Power usage effectiveness (PUE), 2007 –  2023
+Australian power efficiency of data centres23
+Power usage effectiveness (PUE), 2024
+2.50
+1.58
+1.15
+1.30
+1.63
+1.0
+2.5
+2.0
+1.5
+2007 Minimum PUE Median2023 Maximum PUE
+-37% Hyperscale data centres in 
+Australia are even more efficient, 
+averaging a PUE of 1.19.
+Power Usage Effectiveness (PUE) is a measure of energy efficiency that compares how much power a data centre uses for its 
+IT load (or computing) relative to its infrastructure load.
+Globally, data centres have improved by 37% in 
+efficiency over the last decade and a half, with an 
+average PUE of 1.58
+Data centres in Australia are even more efficient, 
+with PUEs as low as 1.15 and a median value of 1.30
+20  S&P Global (2021) The Carbon Reduction Opportunity of Moving to the Cloud for APAC.
+21   DataCenterMap; Based on a comparison of the PUE of a large-scale on-premise server of a leading telecommunications company (1.62) relative to the average PUE of hyperscale data 
+centres in Australia (1.19).
+22  Aurecon (2024) Chilling out with liquid cooling in data centres.
+23  Based on a sample of co-location data centres in Australia that have publicly disclosed PUE values; DataCenter Map. 
+[[page 23]]
+MANDALA  |  23
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+Co-location and hyperscale data centres have significantly 
+reduced power consumption by centralising computing, 
+storage, and cooling systems compared to dispersed, 
+on-premise servers. This centralisation eliminates the 
+need for duplicate systems across multiple smaller 
+facilities, resulting in substantial power savings. Server 
+rooms are usually retrofitted to existing buildings 
+and so are not built with the high specifications of a 
+data centre hall optimised for energy efficiency.
+Modern digital services, such as cloud computing, rely 
+on the large-scale processing capabilities of data centre 
+facilities. Without data centres, these services simply could 
+not exist, at least at the scale and speed we now expect.
+Data centres consume 3 TWh of electricity each year. 
+Without data centres, businesses would need to house 
+their own servers. On-premise servers typically operate 
+much less efficiently than data centres. If on-premise 
+servers were to support digital services and cloud 
+applications, they would consume an additional 2 TWh 
+or more of electricity each year. This amount equals the 
+electricity 280,000 Australian households require.
+As new technologies improve co-location and hyperscale 
+data centres’ efficiency, savings will be compounded 
+while our lives become increasingly digital.
+EXHIBIT 12: 
+Data centres save electricity due to their efficiencies and role in aggregating processing capacity
+Electricity consumption comparison: on-premise servers vs current data centres in Australia,24 TWh, 2024
+Source: AER (2024) Annual electricity consumption –  NEM; DCCEEW (2023) Electricity generation; Enerdata (2024) Australia Energy Information; S&P Global (2024); Mandala analysis.
+24 Calculated using current capacity (1,350 MW) at 80% committed capacity. Assumed PUE: 1.3 for current data centres, 2.1 for on-premise data centres.
+3 TWh
+2 TWh
+5 TWh
++67%
+Current data centre 
+electricity usage in Australia
+Additional electricity required 
+by on-premise servers 
+Equivalent on-premise 
+servers’ electricity usage
+Without hyperscale cloud providers and co-location services, businesses would rely on their 
+own on-premise servers, consuming an additional 2 TWh of electricity each year
+[[page 24]]
+24  |  MANDALA  
+3.3  Data centres are catalysing the energy 
+transition by underwriting renewable 
+energy projects
+Power purchase agreements (PPAs) have been a powerful 
+tool for bringing clean energy into the grid in the US and 
+Europe, and there is growing momentum for PPAs in the 
+Asia-Pacific region. 25 PPAs are accelerating the build-
+out of renewable energy by providing long-term stable 
+revenue streams for project developers. This allows those 
+project developers to secure project finance to start 
+renewable energy projects sooner and at a lower cost 
+of capital. PPAs strengthen the bankability of projects, 
+securing investor confidence in developing renewable 
+energy projects worldwide. 26 
+Businesses have increased their total PPAs for 
+renewable energy projects more than six-fold 
+globally since 2017, signing 45 gigawatts in PPAs in 
+2023. The Asia Pacific region accounted for almost 
+a quarter (22 per cent) of the new PPAs in 2023.
+Data centre operators, such as AWS, Microsoft, and 
+many others, have contributed significantly to this global 
+development. These operators accounted for 45 per cent 
+of PPAs, unlocking 18 gigawatts in new renewable energy 
+projects globally in 2022. Since 2017, data centres have 
+agreed to PPAs primarily for solar power (75 per cent), with 
+wind power accounting for the remaining 25 per cent. In 
+more recent years (2022), solar projects have grown faster 
+than wind projects, now comprising 79 per cent of PPAs.
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+EXHIBIT 13: 
+Data centres are underwriting renewable energy projects in pursuit of net zero targets and to manage 
+growing demand
+Global renewable energy power purchase agreements (PPAs), Gigawatts (GW), 2017-2023
+Source: BloombergNEF (2023) Corporations Brush Aside Energy Crisis, Buy Record Clean Power; IEA (2022) Cross-Cutting Technologies & Infrastructure; IEA (2023) Data Centres and Data Transmission 
+Networks; Expert interviews; Mandala analysis.
+2017
+7
+14
+20
+25
+30
+40
+45
+2018 2019 2020 2021 2022 2023
+6.4X
+45% 
+18GW
+of global corporate 
+PPAs signed in 2022 
+were signed by data 
+centre operators
+79% of PPAs signed by 
+data centre operators 
+in 2022 were for 
+solar projects
+21% were for wind projects
+Types of PPAs signed by data centre operators
+2017 -  2023
+25%
+75%
+Wind Solar
+Americas
+Asia Pacific
+Rest of world
+25  McDonnell, T. (2024) Net Zero.
+26  PwC (2023) Key bankability issues for renewable energy projects.
+[[page 25]]
+MANDALA  |  25
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+In Australia, data centre operators are also actively 
+driving the expansion of renewable energy capacity 
+in the country’s electricity grid through PPAs. 
+Microsoft has entered a 15-year PPA for a 300 MW solar 
+farm in Walla Walla of New South Wales, capable of 
+powering 83,000 households. AWS partnered with Vena 
+Energy to develop a 125 MW solar project in Queensland 
+through a PPA, set to provide enough clean energy 
+capable of powering 60,000 homes. AirTrunk is working 
+with various parties to add 25 MW of renewable energy 
+capacity in the Riverina region of NSW. NEXTDC has 
+become a principal partner in the Melbourne Renewable 
+Energy Project, Crowlands Wind Farm, supporting the 
+construction of an 80 MW wind farm in Victoria through 
+a PPA. It started generating renewable energy into the 
+national grid in January 2019, enough to power 35,000 
+homes. CDC Data Centres is leveraging large generating 
+certificates (LGCs) to offer customers 100 per cent net 
+zero carbon electricity, fuelling investment in renewables. 
+These initiatives demonstrate the data centre 
+sector’s commitment to sustainability and 
+its significant role in accelerating Australia’s 
+transition to renewable energy sources.
+EXHIBIT 14: 
+Data centre operators in Australia are using various mechanisms, including PPAs, to accelerate the 
+addition of renewable energy to Australia’s grid
+Source: AirTrunk (2023) Google, AirTrunk and OX2 to add renewable energy capacity in Australia; Equinix (2024) Equinix signs its first renewable energy PPA in Australia with TagEnergy; CEFC (2022) 
+Powering Microsoft data centres with Walla Walla sunshine; NEXTDC (2022) FY22 ESG Report; Vena Energy (2024) Amazon and Vena Energy announce 125 MW solar project in Queensland; Mandala 
+analysis.
+27  LGCs are tradable certificates created for eligible large-scale renewable energy power stations. The certificates represent the amount of renewable energy generated by these facilities.
+28  Based on an average household electricity usage of approximately 7 .1 megawatt hours per year. 
+29  Household figure quoted from VenaEnergy.
+Select initiatives by data centre operators Location
+Power capacity  
+of initiative
+Power capacity equivalent  
+for households28
+AWS and Vena Energy announced the Solar Project 
+Australia –  Wandoan in 2024, which is set to generate 
+125 MW of renewable energy through a PPA. 
+Google, AirTrunk, and OX2 have entered a long-term 
+PPA, which is projected to add 25 MW of renewable 
+energy capacity to Australia’s energy grid by 2025. 
+CDC offers its customers across Australia 100% net 
+zero carbon electricity by retiring large generating 
+certificates (LGCs), driving investment into 
+renewable energy generation.27
+NEXTDC has been a Principal Partner in the Melbourne 
+Renewable Energy Project (MREP), collaborating in a 
+consortium to support Pacific Blue’s (formerly Pacific 
+Hydro) construction of the Crowlands Wind Farm 
+through a PPA, which started generating power in 2019.
+Microsoft entered a 15-year PPA with Fotowatio 
+Renewable Ventures (FRV) Australia for the Walla 
+Walla Solar Farm in 2022.
+ Walla Walla, NSW
+300 MW 83,000
+households
+90,000
+households
+35,000
+households
+60,00029
+households
+7 ,000
+households
+125 MW
+25 MW
+300 MW
+80 MW
+Riverina, NSW
+Australia
+Glenlofty, VIC
+Woleebee, QLD
+[[page 26]]
+26  |  MANDALA  
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+Australia has a national target of generating 82 per cent 
+of its electricity from renewable sources by 2030.30 
+This is supporting its broader goal to reduce emissions 
+by 43 per cent from 2005 levels by 2030.31 Existing 
+and planned renewable projects account for 46 per 
+cent of all electricity generated. Australia needs an 
+additional 36 per cent of its electricity to be generated 
+by renewable energy to reach our 2030 target. 
+Data centres can contribute to this 2030 target. Their 
+capacity is expected to more than double to 3,100 MW 
+by 2030, and operators plan to match their electricity 
+consumption for these facilities with 100 per cent 
+renewable energy. This growth could provide additional 
+renewable energy generation capacity equivalent to at least 
+2 per cent of electricity generated in Australia in 2030. This 
+is approximately 5 per cent of the electricity that needs to 
+be generated by renewable energy to meet the 2030 target. 
+EXHIBIT 15: 
+Data centres will play a key role in procuring the renewable energy generation required to meet 
+Australia’s 2030 targets
+Contribution of data centres towards Australia’s 2030 renewable energy generation targets. % of total electricity 
+generated in Australia, 2030
+Additional data centres 
+electricity consumption 
+Other
+Additional renewable 
+energy generation capacity 
+required (97 TWh)
+30  Australian Energy Council (2023) The 82 per cent national renewable energy target –  where did it come from and how can we get there?.
+31  Climate Change Authority (May 2024) 2035 Emissions Reduction Targets.
+5%
+95%
+  By 2030, data centres will need an extra 5 TWh of 
+electricity that will be powered by renewable energy. 
+  This demand could provide at least 5% of the 
+additional renewable energy needed to meet our 
+2030 targets.
+Additional renewable 
+energy generation 
+capacity required 
+Current and planned 
+renewable energy 
+generation capacity
+2030 renewable energy 
+generation target
+36%
+(97 TWh)
+82%
+46%
+(124 TWh)
+Source: AEMO (2024) 2024 Integrated Business Plan; Clean Energy Council (2024) Clean Energy Australia; Clean Energy Council (2023) Bridging the gap to 82% renewable electricity generation by 
+2030; Mandala analysis.
+[[page 27]]
+MANDALA  |  27
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+3.4  Further investments are required for 
+energy storage systems
+Data centres are in a unique position to drive 
+investments in energy storage technologies. They 
+require constant power to ensure their services 
+remain available 24/7, unlike many other industries. 
+The continuous and growing power requirements 
+of data centres signal the need for energy storage 
+technologies. These technologies capture and store 
+surplus electricity generated from renewables 
+for use in the grid during periods when renewable 
+energy may not be available otherwise. 
+Data centre operators around the world are actively 
+exploring solutions, including battery-based technologies, 
+to support their facilities.32  In Australia, developers are 
+currently constructing a renewables-powered hyperscale 
+data centre and battery energy storage system in 
+Queensland.33
+Australia is also exploring other energy storage 
+solutions, such as pumped hydro, compressed air 
+energy storage, and thermal energy storage. 
+Data centres stabilise the power grid more effectively 
+than households or heavy industry, as their energy needs 
+fluctuate less with weather or customer use. Cloud data 
+centres maintain a steady energy demand, even during 
+nights, weekends and public holidays. While most people 
+EXHIBIT 16: 
+Illustration of typical power usage of a data centre by hour of the day
+Average power consumption of a data centre in watts by hour of the day
+Source: Arthur Little (2023) Green data centers: opportunities for decarbonization; Clean Energy Council (2024) The future of long duration energy storage; ARENA (2024) Knowledge Bank; ARENA 
+(2024) Battery storage; ARENA Wire (2022) Compressed air to secure power supply for Broken Hill; Geoscience Australia (2023) Hydro Energy; AirTrunk (2022) Powering a clean energy future; 
+Mandala analysis. 
+0 1 2 3 4 5
+Power load
+Hour of the day
+Supply: renewable energy generated
+Demand: data centre energy requirements
+6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+Surplus electricity generated 
+from renewable energy 
+sources can be stored for uses 
+during other periods or fed 
+back into the grid
+The intermittency of solar 
+and wind generation means 
+renewable energy is not 
+always sufficiently available
+Energy storage systems, such 
+as lithium or flow (commonly 
+vanadium) batteries, provide 
+the capabilities to deploy 
+renewable energy during 
+periods of low generation. 
+Pumped hydro can provide 
+electricity during periods of 
+low demand for a continuous 
+period of up to 12 hours. This is 
+done by pumping water from 
+a lower reservoir to a higher 
+reservoir. 
+Pressurises and stores 
+atmospheric air in 
+underground caverns, which is 
+then released and expanded 
+through a turbine generator to 
+produce energy for up to  
+12 hours.
+Utilises the ability of different 
+materials to hold heat as a 
+means of storing energy. The 
+heat is later used to generate 
+electricity for up to 24 hours.
+Technologies to support ongoing clean energy requirements of data centres34
+Battery Energy 
+Storage Systems
+Pumped  
+hydro
+Compressed air 
+energy storage
+Thermal energy 
+storage 
+32  Microsoft has commissioned battery energy storage systems in its Swedish data centres. Murry (2023) Data centre backup power BESS news.
+33  Queensland Government (2024) Construction to begin on one of Queensland’s biggest Battery Energy Storage System.
+34  Non-exhaustive; other long duration energy storage solutions that may become prominent in future include sodium-ion or metal-air batteries, gravity energy storage and hydrogen storage. 
+[[page 28]]
+28  |  MANDALA  
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+understand the need to reduce energy use during peak 
+times like heatwaves, low demand can also destabilise the 
+grid. The increasing adoption of household solar and other 
+renewables creates new challenges. For example, AEMO 
+recently had to issue a low-demand warning and shut off 
+rooftop solar in Victoria during mild, sunny conditions on a 
+public holiday. In such situations, grid operators must either 
+increase demand or curtail renewable energy sources. 
+Data centres, with their consistent energy consumption, 
+can help manage grid stability more effectively
+Data centre operators in Australia are also actively 
+investing in innovative technologies to enhance the 
+sustainability of their facilities. These advancements 
+are primarily focused on improving energy 
+efficiency and reducing environmental impact.
+AirTrunk is harnessing new liquid cooling technology 
+to deploy high-density racks and reduce its energy 
+consumption by up to 20 per cent. For over 17 years, CDC has 
+been using an innovative closed-loop liquid cooling design 
+that enables it to achieve world-leading water efficiency. 
+AWS has invested in more efficient processors that require 
+up to 60 per cent less energy. Microsoft is designing its data 
+centre facilities to be greener overall, with more efficient use 
+of energy as well as using renewable hydrotreated vegetable 
+oil biofuels to reduce their carbon emissions. NEXTDC 
+leads the market in energy efficiency and sustainability 
+through Australia’s first 5 star NABERS (National Australian 
+Build Environment Energy Rating System) data centre 
+in Melbourne and Sydney. NEXTDC has also deployed 
+highly efficient MW-scale direct-liquid cooled racks with 
+energy saving free cooling systems to multiple sites. 
+At the same time, data centres are highly secure facilities, 
+often regulated by critical infrastructure legislation. 
+Regulations dictate security around data halls and building 
+perimeters. There are trade-offs to balance the need 
+for reliability, security, and sustainability, that are being 
+improved over time. 
+EXHIBIT 17: 
+Data centre operators are making their facilities more sustainable through investments  
+in innovative technologies
+Source: AirTrunk (2023) AirTrunk enters Malaysia with new 150+MW hyperscale data centre in Johor Bahru; AWS (2022) New –  Amazon EC2 C7g Instances, Powered by AWS Graviton3 Processors; 
+NEXTDC (2023) ESG Report; CDC (2024) Stable Planet; AFR (2017) Canberra Data Centres building $150 million facility; Microsoft (2022) Microsoft takes another key step to reduce data centre 
+emissions in ANZ; Mandala analysis. 
+More efficient 
+processors
+  AirTrunk is harnessing liquid cooling technology at its JHB1 facility in Malaysia.
+  This solution enables customers to deploy high density racks, reducing energy consumption by up to 20 per cent.
+  Liquid cooling offers superior heat dissipation compared to traditional air cooling. It ensures optimal operating 
+temperatures for high-density servers and improves performance and reliability.
+  Following successful deployment in Malaysia, AirTrunk is currently planning liquid cooling designs for future Australian 
+data centres.
+Liquid cooling 
+innovations
+  Since 2007, CDC has been using a closed-loop liquid cooling system that delivers world-leading water efficiency for its 
+purpose built facilities.
+  This system saves CDC almost 5 billion litres of water per annum, or approximately 2,000 Olympic swimming pools. 
+  This technology also enables CDC to host AI and high power density workloads natively across its entire footprint.
+  AWS is improving power efficiency in its data centres with more energy efficient chips.
+  AWS has introduced the Graviton3 processor. It uses up to 60 per cent less energy for the same performance relative to 
+comparable processors.
+  With enhanced compute performance, Graviton3 processes tasks more quickly and efficiently, reducing the overall 
+energy required.
+  NEXTDC has been an Australian industry leader for high energy efficiency liquid-to-chip and energy saving economy 
+cycle free cooling, having deployed 80kW with indirect free cooling racks since 2016 (compared to the average rack size of 
+1-3kW, requiring greater cooling).
+  NEXTDC co-developed the data centre NABERS (National Australian Building Energy Rating System) methodology with 
+government to provide an accurate and standardised measure of the operational energy efficiency and environmental 
+impact of data centres in Australia.
+  NEXTDC developed Australia’s first 5 star NABERS co-location infrastructure rated data centre in Melbourne and was also 
+the first to achieve this across multiple data centres. This is an industry-wide and leading recognition of NEXTDC’s high 
+efficiency and sustainable facilities.
+  Microsoft’s new data centres are designed for LEED (Leadership in Energy and Environmental 
+Design) Gold certification, for being highly efficient. This includes the use of natural lighting, 
+efficient heating and cooling systems, and green materials in construction.
+  Microsoft’s Australian data centres will be designed for their backup generators to be powered 
+by a renewable hydrotreated vegetable oil biofuel that reduces net carbon emissions.
+Leading water  
+usage efficiency 
+Tech-driven 
+performance 
+efficiencies 
+Green building 
+certification 
+
+[[page 29]]
+MANDALA  |  29
+3. DATA CENTRES MAKE THE DIGITAL ECONOMY MORE ENERGY EFFICIENT AND ARE CATALYSING AUSTRALIA’S ENERGY TRANSITION
+MANDALA  |  29
+Government and 
+industry collaboration 
+will unlock Australia’s 
+digital opportunity
+4.
+[[page 30]]
+30  |  MANDALA  
+4.1 Three key recommendations for industry and government
+Streamlining approvals, including for developing permits 
+and power allocation, can create greater certainty for data 
+centre operators. The UK Government, for example, has 
+been working to streamline future focused development 
+and planning, including for data centres. The US White 
+House has launched an AI Data Center Infrastructure Task 
+Force to coordinate policy across government, aligning 
+with economic, national security, and environmental goals. 
+The task force includes a Permitting Council to work 
+with developers on timelines for AI data center projects. 
+For Australia, there is an opportunity for government 
+working with industry to establish a robust framework 
+for ensuring approvals can be streamlined across Local, 
+State, and Territory Governments, and multiple agencies.
+Co-investment and engagement on planning from 
+government and industry can help to unlock firmed 
+renewable projects and the necessary transmission 
+infrastructure to support emerging digital infrastructure 
+demands and beyond. This involves government working 
+closely with the IT industry and digital infrastructure 
+providers to ensure continued investments and innovation 
+in renewables across Australia, including in solar, wind, 
+pumped hydro, and storage. The US Department of 
+Energy is creating an AI data centre engagement team 
+to support AI data centre development by coordinating 
+with operators, clean energy providers, grid operators, 
+and other stakeholders. Additionally, there are 
+opportunities to jointly develop best practice standards 
+that optimise environmental, social, and economic 
+needs, and to support research and innovation.
+Supporting the development of necessary skills for a 
+strong data centre workforce will strengthen Australia’s 
+overall digital infrastructure capabilities. This involves 
+governments working closely with the tech sector 
+and data centre operators to understand the key skill 
+requirements, and supporting education and training 
+pathways to facilitate skills acquisition and create a 
+diverse workforce that meets security requirements.
+With the right policy settings and industry partnerships, 
+Australia can position itself as a leading digital 
+economy and accelerate its clean energy transition.
+Streamline planning and approval processes for development 
+permits and power allocation to help Australia capitalise 
+on the data centre growth opportunity, and create greater 
+certainty for operators. 
+Enable further investment and accelerate the construction 
+of renewable energy projects, energy storage projects, 
+and transmission infrastructure to support digital 
+infrastructure demand and transition to net zero.
+Prioritise workforce development and training to provide 
+the skills for a robust data centre workforce, to strengthen 
+Australia’s digital infrastructure capabilities. 
+Government and industry must collaborate in three key areas to fully capture 
+Australia’s digital opportunity. This includes:
+4. GOVERNMENT AND INDUSTRY COLLABORATION WILL UNLOCK AUSTRALIA’S DIGITAL OPPORTUNITY
+[[page 31]]
+MANDALA  |  31
+MANDALA  |  31
+Appendices
+5.
+[[page 32]]
+32  |  MANDALA  
+5. APPENDICES
+5.1 Appendix A: Methodology
+EXHIBIT 18: 
+We used a bottom-up approach to aggregate data from multiple sources to estimate the deployable 
+capacity and electricity consumption for data centres in Australia
+Deployable capacity (megawatts) Electricity consumption (terawatt hours)
+We used a bottom-up approach to aggregate data from 
+multiple sources and arrive at the national-level deployable 
+capacity. 
+This included: 
+  Proprietary data shared by data centre providers
+  Public information available on data centre projects and 
+expansions
+  Estimates based on industry proxies for maximum design 
+vs deployable capacity.
+  Hyperscale cloud providers lease fitted space and 
+operate their own data centres. To avoid double counting, 
+we did not consider leased operating capacity. 
+  For undisclosed locations, capacity is divided equally 
+across provider’s footprint.
+We estimated current and projected electricity consumption 
+by data centres based on deployable capacity, with the 
+following steps:
+  Take deployable capacity and assume a non-vacant space 
+and a committed capacity (or non-vacant rate) to calculate 
+active IT load
+  Apply a PUE ratio for support systems to calculate power 
+consumption
+  Convert total power drawn into annual electricity usage in 
+terms of terawatt hours
+  Calculate data centre’s share of electricity consumption 
+by dividing electricity consumption by total Australian 
+electricity consumption.
+  Data centre’s share of electricity consumption = 
+Annual electricity consumption 
+Electricity consumption in Australia
+  Annual electricity consumption = 
+Electricity consumption x Hours per year
+  Electricity consumption = Active IT load x PUE
+  Active IT load =  Deployable capacity x Committed 
+capacity x Power drawn load
+Input Value Source
+Fitted % of design 
+capacity for hyperscale 
+89% Estimated and tested 
+with experts
+Fitted % of design 
+capacity for non-
+hyperscale
+15% Estimated and tested 
+with experts
+Input Value Source
+Committed capacity 
+(non-vacant space)
+80% Industry reports; Morgan 
+Stanley (2024) Data 
+Centre Handbook
+Median PUE 
+in Australia 1.3 DataCenterMap; 
+Expert interviews
+Power drawn load 25% (2024) 
+30% (2030)
+Desktop research; 
+Expert interviews
+Electricity consumption 
+in Australia (TWh)
+245 AEMO (2024) 2024 
+Electricity Statement 
+of Opportunities; 
+Clean Energy Council 
+(2023) Bridging the 
+gap to 82% renewable 
+electricity by 2030
+Approach
+Key Inputs
+Additional notes
+Approach
+Key Inputs
+Model structure
+[[page 33]]
+MANDALA  |  33
+5. APPENDICES
+EXHIBIT 19: 
+Future demand for data centres in Australia is estimated based on cloud adoption curves, adjusting for 
+growing AI adoption and the time to construct data centres
+We measured demand using data centre deployable 
+capacity. To project future demand, we followed  
+these steps:
+  Fit S-curve to historical cloud adoption data
+  Create new S-curve scenario with increased slope to 
+reflect AI impact
+  Establish linear relationship between deployable 
+capacity and cloud adoption (5-year lag)
+  Use AI-boosted S-curve to project future cloud adoption
+  Project future data centre demand based on adoption 
+projection and established relationship.
+  Linear relationship between cloud adoption and data 
+centre deployable capacity.
+  5-year lag between cloud adoption and reflection in data 
+centre capacity.
+  AI impact can be modeled as an increase in the S-curve 
+slope.
+  Current deployable capacity accurately reflects 
+historical cloud adoption.
+Input Value Source
+Years to construct 
+data centre
+5 Expert interviews
+Introduction of cloud 
+tech in Australia
+2006 RBA (2024a) Adoption 
+of GPT in Australia
+AI cloud tech boost 30% McKinsey (2024) In 
+search of cloud value
+Approach S-curve modelling
+Key Inputs
+Key assumptions
+Projected demand of data centre
+2005
+0%
+50%
+100%
+2010 2015 2020 2025 2030 2035 2040
+Cloud Tech. Adoption
+Accelerated adoption 
+curve accounting for 
+AI impact
+S-curve of cloud 
+technology adoption 
+without AI boost
+For cloud technology adoption, we represent the S-shaped 
+adoption as a logistic function 
+Where:
+  A (t) is the adoption rate, t years after the technology is 
+introduced
+  k is the logistic growth rate of the curve
+  t0 is the inflection point, which is where the curve is the 
+steepest.
+We estimate the parameters k and t0, which are uniquely 
+defined. We then apply a shock to parameter k to represent 
+the AI boost.
+Model structure
+A (t) = 1
+1 + e -k(t-t0)
+35  For more information see ABS (2024) Use of Information Technology. 
+  Past trend     AI boosted trend     Past observation35
+[[page 34]]
+34  |  MANDALA  
+5. APPENDICES
+EXHIBIT 20: 
+We model various economic metrics to assess the impact and skill requirements of data centres in 
+Australia, combining industry data with labour market analysis
+To estimate investment required, we followed these steps:
+  Estimate capital expenditure required to fit each MW of 
+deployable capacity in US$
+  Project total investment based on current and future 
+deployable capacity
+  Apply CPI growth to future investment figures
+  Converted US$ figures to AU$.
+We estimated employment impact using two methods:
+1. Bottom-up: Direct jobs from deployable capacity, verified 
+with ABS census data
+2. Top-down: Applied employment multiplier (4.73) for total 
+job impact.
+We then projected future jobs based on 
+capacity growth, which included:
+  Separating ongoing from construction jobs
+  Adjusting for efficiency and automation trends.
+To assess skills required in the data centre 
+industry, we followed these steps:
+  Analyse current workforce composition using ABS 
+Census occupation codes
+  Categorise these roles based on skill types and areas of 
+expertise
+  Collect and analyse job postings from data centre 
+providers and other industry players
+  Identify the most common job roles across different 
+categories
+  Quantify the frequency of each skill category in job 
+postings
+  Compare identified skills to the Australian National Skills 
+Priority List to identify gaps
+  Cross-reference findings with industry standards and 
+expert opinions.
+Input Value Source
+Capital 
+expenditure
+US$10 million per 
+MW of deployable 
+capacity
+Expert interviews
+CPI growth 
+rate for future 
+investment 
+projections
+Upper bound of 
+RBA inflation 
+target: 
+3% per annum
+RBA(2024b) 
+Statement on 
+monetary policy
+Exchange rate Inverse of the 
+daily average  
+for the first half  
+of 2024:  
+1 AU$ = 0.66 US$
+RBA (2024c) 
+Exchange rates
+Employee 
+growth rate
+Based on 2017-
+2021 CAGR:  
+3.5% per annum
+IBIS (2022) Cloud 
+Storage Services 
+in Australia
+Employment 
+multiplier for 
+indirect and 
+direct jobs
+Employment 
+multiplier 
+that relates to 
+$1 million of 
+output: 4.73
+Calculated
+Efficiency and 
+automation factor
+Based on 2017-
+2021 decay of 
+employees per 
+operating:  
+10% average
+IBIS (2022) Cloud 
+Storage Services 
+in Australia; 
+Morgan Stanley 
+(2024) Data Centre 
+Handbook
+Investment (AU$)
+Employment (FTE)
+Skills required (positions)
+Economic modelling List of key inputs and sources for economic modelling
+[[page 35]]
+MANDALA  |  35
+5. APPENDICES
+5.2 Appendix B:  Reference list
+Abril-Martorell, J. et al. (2023) Green data centers,  
+opportunities for decarbonization, available  
+at: https://www.adlittle.com/en/insights/viewpoints/
+green-data-centers-opportunities-decarbonization.
+AEMO (2024) 2024 Electricity Statement of Opportunities, 
+available at: https://aemo.com.au/-/media/files/electricity/
+nem/planning_and_forecasting/nem_esoo/2024/2024-elec-
+tricity-statement-of-opportunities.pdf?la=en&hash=2B-
+6B6AB803D0C5F626A90CF0D60F6374.
+AEMO (2024) 2024 Integrated System Plan (ISP), available 
+at: https://aemo.com.au/en/energy-systems/major-publi-
+cations/integrated-system-plan-isp/2024-integrated-sys-
+tem-plan-isp.
+AER (2024) Annual electricity consumption –  NEM, avail-
+able at https://www.aer.gov.au/industry/registers/charts/
+annual-electricity-consumption-nem. 
+AirTrunk (2022) Powering a clean energy future, 
+available at: https://airtrunk.com/wp-content/up-
+loads/2023/08/2023-Powering-a-Clean-Energy-Future-Re-
+port.pdf.
+AirTrunk (2023) AirTrunk enters Malaysia with new 
+150+MW hyperscale data centre in Johor Bahru, available 
+at: https://airtrunk.com/airtrunk-enters-malaysia-with-new-
+150mw-hyperscale-data-centre-in-johor-bahru/.
+AirTrunk (2023) Google, AirTrunk and OX2 to add  
+renewable energy capacity in Australia, available at: 
+https://airtrunk.com/google-airtrunk-and-ox2-to-add-renew-
+able-energy-capacity-in-australia/. 
+AWS (2021) Building skills for the changing workforce, 
+available at: https://assets.aboutamazon.com/45/39/5ab-
+8d17149a1bab0011202552bb6/aws-en-fa-onscn.pdf.
+AWS (2022) Amazon’s First Solar Projects in  
+Australia Start Producing Clean Energy, available at: 
+https://www.aboutamazon.com.au/amazons-first-solar-pro-
+jects-in-australia-start-producing-clean-energy. 
+AWS (2022) New –  Amazon EC2 C7g Instances, Powered 
+by AWS Graviton3 processors, available at: https://aws.
+amazon.com/blogs/aws/new-amazon-ec2-c7g-instances-
+powered-by-aws-graviton3-processors/.
+AWS (2024) What is a Data Center?, available  
+at: https://aws.amazon.com/what-is/data-center/.
+AWS (2024) AWS Graviton Processors, available  
+at: https://aws.amazon.com/ec2/graviton/. 
+AWS (2024) How Cloud Can Help Reduce IT Costs  
+for Small and Medium Businesses, available  
+at: https://aws.amazon.com/smart-business/savings/. 
+Anderson, K. (2024) The role of GPU architecture in AI and 
+machine learning, available at: https://telnyx.com/resourc-
+es/gpu-architecture-ai.
+ARENA (2022) Compressed air to secure power supply 
+for Broken Hill, available at: https://arena.gov.au/blog/com-
+pressed-air-to-secure-power-supply-for-broken-hill/.
+ARENA (2024) Knowledge Bank, available  
+at: https://arena.gov.au/knowledge-bank/.
+ARENA (2024) Battery storage, available  
+at: https://arena.gov.au/renewable-energy/battery-storage/.
+Arts, J. (2023) How Is Generative AI Changing  
+Data Center Requirements?, available at: https://blog.equi-
+nix.com/blog/2023/11/08/how-is-generative-ai-changing-da-
+ta-center-requirements/.
+Aurecon (2024) Chilling out with liquid cooling in data  
+centres, available at: https://www.aurecongroup.com/in-
+sights/towards-sustainable-infrastructure/liquid-cooling-da-
+ta-centres.
+Australian Bureau of Statistics (2015) Business  
+Use of Information Technology, 2013-14 financial year, 
+available at: https://www.abs.gov.au/AUSSTATS/abs@.nsf/
+Lookup/8129.0Main+Features12013-14?OpenDocument.
+[[page 36]]
+36  |  MANDALA  
+5. APPENDICES
+Australian Bureau of Statistics (2017) Business Use of 
+Information Technology,2015-16 financial year, available 
+at: https://www.abs.gov.au/statistics/industry/technolo-
+gy-and-innovation/business-use-information-technology/
+latest-release.
+Australian Bureau of Statistics (2021) Census of Population 
+and Housing, available at: https://www.abs.gov.au/statis-
+tics/people/population/population-census/latest-release.  
+Australian Bureau of Statistics (2023) Characteristics 
+of Australian Business, 2021-22 financial year, availa-
+ble at: https://www.abs.gov.au/statistics/industry/tech-
+nology-and-innovation/characteristics-australian-busi-
+ness/2021-22.
+Bailey, M. (2024) NBN Co hopes for enterprise saviour  
+after $2 billion blowout, available  
+at: https://www.afr.com/politics/federal/nbn-co-hopes-for-
+enterprise-saviour-after-2-billion-blowout-20180831-h14rlv.
+Basalisco, B., Haanperä, T., & Hansen, M. (2019) Google’s 
+hyperscale data centres and infrastructure ecosystem  
+in Europe, available at: https://copenhageneconomics.
+com/publication/googles-hyperscale-data-centres-and-in-
+frastructure-ecosystem-in-europe/.
+BloombergNEF (2023) Corporations Brush Aside Energy 
+Crisis, Buy Record Clean Power, available  
+at: https://about.bnef.com/blog/corpora-
+tions-brush-aside-energy-crisis-buy-record-clean-power/. 
+Carbon Leadership Forum (2021) Carbon storing materials, 
+available at: https://carbonleadershipforum.org/carbon-stor-
+ing-materials/.
+Centersquare (2021) A Brief History of Data Centers  
+and Modern Colocation, available at: https://www.evo-
+quedcs.com/blog/a-brief-history-of-data-centers-and-mod-
+ern-colocation.
+Check Point (2024) What is a Colocation Data Center?, 
+available at: https://www.checkpoint.com/cyber-hub/cy-
+ber-security/what-is-data-center/what-is-a-colocation-data-
+center/.
+Cisco (2024) What Is A Data Center?, available  
+at: https://www.cisco.com/c/en_au/solutions/data-center-vir-
+tualization/what-is-a-data-center.html.
+Clean Energy Council (2023) Bridging the gap to 82% 
+renewable electricity by 2030, available at: https://assets.
+cleanenergycouncil.org.au/documents/Bridging-the-gap-to-
+82-per-cent-renewables-by-2030_Final_August-2023.pdf.
+Clean Energy Council (2024) Clean Energy Australia 2024, 
+available at: https://assets.cleanenergycouncil.org.au/docu-
+ments/resources/reports/clean-energy-australia/Clean-En-
+ergy-Australia-2024.pdf.
+Clean Energy Council (2024) The future of long duration 
+energy storage, available at: https://assets.cleanenergy-
+council.org.au/documents/The-future-of-long-duration-ener-
+gy-storage.pdf.
+Clean Energy Finance Corporation (2022) Powering Mi-
+crosoft data centres with Walla Walla sunshine, available 
+at: https://www.cefc.com.au/case-studies/powering-micro-
+soft-data-centres-with-walla-walla-sunshine/. 
+Cloudscene (2024) APAC Region, available  
+at: https://cloudscene.com/region/datacenters-in-asia-pacif-
+ic.
+CNET (2023) Apple A17 Pro, The New Chip Brain in the 
+iPhone 15 Pro, Pro Max, available at: https://www.cnet.com/
+tech/mobile/apple-a17-pro-the-new-chip-brain-in-the-ip-
+hone-15-pro-pro-max/. 
+Commonwealth Bank of Australia (2022) CBA introduces 
+leading AI technology to protect more customers from 
+scams, available at: https://www.commbank.com.au/articles/
+newsroom/2022/07/scams-fraud-artificial-intelligence.html.
+DataCenterMap, available  
+at: https://www.datacentermap.com.
+DataReportal (2015) Digital 2015, Australia, available 
+at: https://datareportal.com/reports/digital-2015-australia.
+[[page 37]]
+MANDALA  |  37
+5. APPENDICES
+DataReportal (2024) Digital 2024, Australia , available 
+at: https://datareportal.com/reports/digital-2024-australia.
+Deloitte Access Economics (2021) The Cloud Imperative, 
+available at: https://www2.deloitte.com/in/en/pages/technol-
+ogy/articles/the-cloud-imperative-executive-summary.html.
+Department of Climate Change, Energy, the Environment 
+and Water (2024) Australian Energy Statistics, available 
+at: https://www.energy.gov.au/energy-data/australian-ener-
+gy-statistics. 
+Department of the Prime Minister and Cabinet (2021)  
+Digital Economy Strategy 2030, available at: https://apo.
+org.au/sites/default/files/resource-files/2021-05/apo-
+nid312247 .pdf.
+Enerdata (2024) Australia Energy Information, available at: 
+https://www.enerdata.net/estore/energy-market/australia/. 
+Energy Institute (2023) Statistical Review of World Energy, 
+available at: https://www.energyinst.org/__data/assets/pdf_
+file/0004/1055542/EI_Stat_Review_PDF_single_3.pdf. 
+Epoch AI (2024) Tracking Large-Scale AI Models, available 
+at: https://epochai.org/blog/tracking-large-scale-ai-mod-
+els#there-are-few-models-at-the-leading-edge-but-the-
+frontier-advances-rapidly. 
+Equinix (2024) Equinix Signs its First Renewable  
+Energy PPA in Australia with TagEnergy, available at: 
+https://www.equinix.com.au/newsroom/press-releas-
+es/2024/02/equinix-signs-its-first-renewable-ener-
+gy-ppa-in-australia-with-tagenergy. 
+GlobalPetrolPrices.com (2024) Electricity prices, available 
+at: https://www.globalpetrolprices.com/electricity_prices/.
+Geoscience Australia (2023) Hydro Energy, available 
+at: https://www.ga.gov.au/scientific-topics/energy/resourc-
+es/other-renewable-energy-resources/hydro-energy.
+Gutierrez, K. (2023) The Future of Australia’s Transport 
+System Hinges on AI & Digital Transformation, available 
+at: https://www.informa.com.au/insight/the-future-of-aus-
+tralias-transport-system-hinges-on-ai-digital-transforma-
+tion/.
+IBIS (2022) Cloud Storage Services in Australia. 
+IBM (2024) What is a hyperscale data center?, available 
+at: https://www.ibm.com/topics/hyperscale-data-center.
+International Energy Agency (2022) Cross-Cutting  
+Technologies & Infrastructure, available at: https://www.iea.
+org/reports/cross-cutting-technologies-infrastructure. 
+International Energy Agency (2023) Data Centres and  
+Data Transmission Networks, available at: https://www.iea.
+org/energy-system/buildings/data-centres-and-data-trans-
+mission-networks. 
+Jobs and Skills Australia (2024) Skills Priority List, availa-
+ble at: https://www.jobsandskills.gov.au/data/skills-shortag-
+es-analysis/skills-priority-list. 
+Lai, L., & Francis, L. (2022). Public cloud services, Oppor-
+tunities and dividends to the Australian and New Zea-
+land economies, available at: https://news.microsoft.com/
+wp-content/uploads/prod/sites/66/2023/04/IDC-WP_MSFT_
+FINAL_17 .04.pdf.
+Microsoft (2022) Microsoft and FRV Australia team  
+up to add renewable energy to the grid, available at: 
+https://news.microsoft.com/en-au/features/microsoft-and-
+frv-australia-team-up-to-add-renewable-energy-to-the-
+grid/. 
+Microsoft (2022) Microsoft takes another key step to 
+reduce data centre emissions in ANZ, available at: https://
+news.microsoft.com/en-au/features/microsoft-takes-anoth-
+er-key-step-to-reduce-data-centre-emissions-in-anz/.
+Morgan Stanley (2024) Data Centre Handbook.
+[[page 38]]
+38  |  MANDALA  
+5. APPENDICES
+Morgan, S. (2024) The World Will Store 200 Zettabytes Of 
+Data By 2025, available at: https://cybersecurityventures.
+com/the-world-will-store-200-zettabytes-of-data-by-2025/. 
+NBN Co (2024) Australians feel the need, the need for 
+speed, nbn reveals plan to turbo-charge high-speed tiers, 
+available at: https://www.nbnco.com.au/content/dam/nbn/
+documents/media-centre/media-statements/2024/nbnco-
+media-release-nbn-plans-to-accelerate-highest-speed-tiers.
+pdf.coredownload.inline.pdf.
+NEXTDC Limited (2020) FY20 Environmental, Social  
+and Governance Report, available at: https://www.nextdc.
+com/hubfs/23251048/Downloadable%20PDFs/2104840-
+FY20-ESG.pdf. 
+NEXTDC Limited (2023) FY23 Environmental, Social and 
+Governance Report, available at: https://www.nextdc.com/
+hubfs/ASX%20Announcements/2597210-%20NXT%20-%20
+FY23%20Environmental%2C%20Social%20%26%20Gov-
+ernance%20Report.pdf.
+OECD (2023) ICT Access and Usage by Businesses, availa-
+ble at: https://stats.oecd.org/Index.aspx?DataSetCode=ICT_
+BUS.
+OECD (2024) Share of businesses purchasing cloud servic-
+es, available at: https://goingdigital.oecd.org/indicator/25.
+Omnitron Systems Technology, Inc. (2024) Data Center 
+Fiber Connectivity, available at: https://www.omnitron-sys-
+tems.com/blog/data-center-fiber-connectivity-unveil-
+ing-the-backbone-of-seamless-operations#:~:text=Back-
+bone%3A%20The%20backbone%20is%20the,distances%20
+with%20minimal%20signal%20loss.
+Our World in Data (2024) Artificial Intelligence, available 
+at:  https://ourworldindata.org/artificial-intelligence. 
+Potter, B. (2024) How to Build an AI Data Center, available 
+at: https://www.construction-physics.com/p/how-to-build-
+an-ai-data-center.
+PwC (2023) Key bankability issues for renewable energy 
+projects, available at: https://www.pwc.com.au/energy-tran-
+sition/papers/11-bankability-issues-renewable-energy-pro-
+jects.pdf. 
+RBA (2024a) Adoption of GPT in Australia, available at:  
+https://www.rba.gov.au/publications/bulletin/2023/sep/
+adoption-of-general-purpose-technologies-gpt-in-australia-
+the-role-of-skills.html.
+RBA (2024b) Statement on Monetary Policy, available 
+at: https://www.rba.gov.au/publications/smp/2024/may/.
+RBA (2024c) Exchange Rates, available at: https://www.rba.
+gov.au/statistics/historical-data.html#exchange-rates.
+Redrup, Y. (2017) Canberra Data Centres building $150 
+million facility, available at: https://www.afr.com/tech-
+nology/canberra-data-centres-building-150-million-facili-
+ty-20170822-gy1ri5.
+S&P Global (2024) Improving datacenter efficiency in 
+Europe –  the role of PUE, available at: https://www.spglobal.
+com/marketintelligence/en/news-insights/research/improv-
+ing-datacenter-efficiency-in-europe-the-role-of-pue.
+S&P Global (2021) The Carbon Reduction Opportunity  
+of Moving to the Cloud for APAC, available  
+at: https://d1.awsstatic.com/institute/The%20carbon%20
+opportunity%20of%20moving%20to%20the%20cloud%20
+for%20APAC.pdf.
+[[page 39]]
+McDonnell, T. (2024) Net Zero, available  
+at: https://www.semafor.com/article/06/19/2024/goog-
+le-is-reinventing-the-clean-power-market. 
+Services Australia (2016) Annual Report, 2015-16,  
+available at: https://www.servicesaustralia.gov.au/sites/de-
+fault/files/8802-1610-annualreport2015-16.pdf.
+Services Australia (2023) Annual Report, 2022-23, avail-
+able at: https://www.servicesaustralia.gov.au/annual-re-
+port-2022-23?context=22.
+Turner & Townsend (2023) Data centre cost trends,  
+available at: https://reports.turnerandtownsend.com/dcci-
+2023/data-centre-cost-trends.  
+United States Census Bureau (2024) Business Trends  
+and Outlook Survey, available at: https://www.census.gov/
+hfp/btos/data_downloads. 
+Uptime Institute (2023) Uptime Institute’s Global Data 
+Center Survey Results 2023, available at: https://uptimein-
+stitute.com/resources/research-and-reports/uptime-insti-
+tute-global-data-center-survey-results-2023. 
+Vena Energy (2024) Amazon And Vena Energy Announce 
+125 MW Solar Project In Queensland, available  
+at: https://www.venaenergy.com/news/amazon-and-vena-en-
+ergy-announce-125-mw-solar-project-in-queensland/. 
+World Bank (2024) Population density, available  
+at: https://data.worldbank.org/indicator/EN.POP.DNST.
+MANDALA  |  39
+[[page 40]]
+mandalapartners.com
+admin@mandalapartners.com
+media@mandalapartners.com

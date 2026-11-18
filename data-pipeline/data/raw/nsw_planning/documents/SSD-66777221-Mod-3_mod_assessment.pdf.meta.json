@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-66777221-MOD-3%2120260812T060607.032+GMT",
+ "project_slug": "mod-3-lanceley-place-data-centre-fire-access-and-switchroom",
+ "attachment_slug": "ssd-mod-assessment-report-1165",
+ "kind": "mod_assessment",
+ "label": "SSD-MOD Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:09:13+00:00",
+ "sha256": "1b5ac238b12f5558c68ac733b9be874adaa49d1127f89ca7a39ee39066b61703",
+ "bytes": 1227264,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 27630,
+ "pages": 20,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

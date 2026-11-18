@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10479-MOD-8%2120260824T044122.223+GMT",
+ "project_slug": "200-aldington-mod-8-amendments-road-upgrade-works-and-timing",
+ "attachment_slug": "section-4551a-modification-application210826",
+ "kind": "mod_report",
+ "label": "Section 4.55$281A$29 Modification Application_21.08.26.pdf",
+ "folder": "Modification Application",
+ "fetched_utc": "2026-11-18T14:09:33+00:00",
+ "sha256": "c6e0936dd3938273e92076a37a41e7343e7e9dac8f06f31af3578c5a05611e0f",
+ "bytes": 3932603,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 68046,
+ "pages": 31,
+ "text_redactions": 1,
+ "pdf_committed": false
+}

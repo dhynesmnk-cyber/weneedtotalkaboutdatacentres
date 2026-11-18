@@ -99,7 +99,7 @@ Most gaps first. Archived: documents already in `data/raw/` for this site.
 | DCI SYD-01 Eastern Creek | NSW | O | REPORTED | 19 |  |  |
 | Digital Realty Erskine Park (SYD10, SYD11, SYD14) | NSW | O | REPORTED | 19 |  |  |
 | GreenSquare DC SYD1 (Stage 2) | NSW | O | VERIFIED | 19 |  |  |
-| Lanceley Place Data Centre, Artarmon | NSW | P | VERIFIED | 19 | portal record | RG-061 RG-097 |
+| Lanceley Place Data Centre, Artarmon | NSW | P | VERIFIED | 19 | portal record | RG-034 RG-061 RG-097 |
 | Macquarie IC3 'Super West' (Macquarie Park) | NSW | O | REPORTED | 19 |  | RG-104 |
 | Macquarie IC3 East (Macquarie Park) | NSW | O | VERIFIED | 19 |  | RG-104 |
 | NEXTDC A1 Adelaide | SA | O | REPORTED | 19 |  |  |
@@ -152,7 +152,7 @@ Most gaps first. Archived: documents already in `data/raw/` for this site.
 | Station Road Data Centre Expansion | NSW | P | VERIFIED | 12 | portal record; consent text | RG-040 RG-058 RG-073 |
 | Western Downs Digital Park | QLD | O | VERIFIED | 12 |  |  |
 | 43-61 Turner Road Data Centre | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-073 |
-| AirTrunk SYD2 (Lane Cove West Data Centre) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-073 |
+| AirTrunk SYD2 (Lane Cove West Data Centre) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-034 RG-073 |
 | Davis Road Data Centre (Cundall) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-057 RG-073 |
 | Kurri Kurri Data Centre (Loxford, former aluminium smelter site) | NSW | P | VERIFIED | 11 | portal record |  |
 | Project Atlas Data Centre Eastern Creek | NSW | P | VERIFIED | 11 | portal record |  |

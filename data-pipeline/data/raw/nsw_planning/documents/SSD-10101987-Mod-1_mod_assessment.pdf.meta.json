@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10101987-MOD-1%2120241119T032505.604+GMT",
+ "project_slug": "kemps-creek-data-centre-mod-1-data-hall-fit-out",
+ "attachment_slug": "mod-1-assessment-report-67",
+ "kind": "mod_assessment",
+ "label": "MOD 1 - Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:08:23+00:00",
+ "sha256": "dbe2d667dd55666c48236de1188c292be61c6db1dee488b758e31b0ac71c5de0",
+ "bytes": 803739,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 21932,
+ "pages": 17,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

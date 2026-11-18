@@ -1,0 +1,7 @@
+{
+ "https://nla.gov.au/nla.obj-4139364179/view": {
+  "checked_utc": "2026-11-18T14:09:51+00:00",
+  "how": "served a bot-check page (Anubis proof-of-work challenge) in place of the document; not fetched another way",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
+ }
+}
