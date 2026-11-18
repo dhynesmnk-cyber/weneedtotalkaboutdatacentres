@@ -6,7 +6,7 @@ title: Approved, then doubled
 standfirst: A NSW data centre approved at 32 megawatts can now draw 63, after a modification the Department treated as having minimal environmental impact and an officer decided. Across five modifications we read, generators and diesel grew the same way, mostly without public exhibition.
 story_cards: []
 questions: [RG-045, RG-034, RG-008, RG-061]
-sources: [SRC_NSWGUIDE26, SRC_NSWPORTAL_CONSENTS, SRC_NSWPORTAL_MODS, SRC_SSD53338465_ASSESSMENT, SRC_SSD10330_MOD2_ASSESSMENT, SRC_SSD10330_MOD4_REPORT, SRC_SSD21342738_ASSESSMENT, SRC_SSD21342738_MOD2_ASSESSMENT, SRC_SSD24299707_MOD1_ASSESSMENT, SRC_SSD9741_MOD1_ASSESSMENT]
+sources: [SRC_NSWGUIDE26, SRC_NSWPORTAL_CONSENTS, SRC_NSWPORTAL_MODS, SRC_SSD10330_MOD2_ASSESSMENT, SRC_SSD10330_MOD4_REPORT, SRC_SSD21342738_ASSESSMENT, SRC_SSD21342738_MOD2_ASSESSMENT, SRC_SSD24299707_MOD1_ASSESSMENT, SRC_SSD9741_MOD1_ASSESSMENT, SRC_SSD9741_MOD4_ASSESSMENT]
 data_as_of: 2026-11-18
 named_parties: ["Acting Team Leader, Industry Assessments, NSW Department of Planning (by role)", "Team Leader, Industry Assessments, NSW Department of Planning (by role)", "Director, Industry Assessments, NSW Department of Planning (by role)"]
 conflict: null
@@ -29,7 +29,7 @@ That is no longer its size. A modification decided in August 2026 raised it "fro
 
 ### Five modifications
 
-Our records flag five post-approval modifications as material to a data centre's footprint, and we read the report on each [RG-034] [RG-045]. All five were lodged under section 4.55(1A) of the planning Act, the route for a change that is "substantially the same development as originally approved" and "would result in minimal environmental impacts" [SRC_SSD21342738_MOD2_ASSESSMENT] [SRC_SSD10330_MOD2_ASSESSMENT] [SRC_SSD9741_MOD1_ASSESSMENT] [SRC_SSD24299707_MOD1_ASSESSMENT] [SRC_SSD10330_MOD4_REPORT].
+We read the reports on all 17 modifications on the State's data centre files, and eight add power, generators or diesel [RG-034]. Five, which our records first flagged, follow [RG-045]. All five were lodged under section 4.55(1A) of the planning Act, the route for a change that is "substantially the same development as originally approved" and "would result in minimal environmental impacts" [SRC_SSD21342738_MOD2_ASSESSMENT] [SRC_SSD10330_MOD2_ASSESSMENT] [SRC_SSD9741_MOD1_ASSESSMENT] [SRC_SSD24299707_MOD1_ASSESSMENT] [SRC_SSD10330_MOD4_REPORT].
 
 - **Eastern Creek, Mod 2.** Power from 32 MW to 63 MW; back-up generators from "27 x 2.65 MW generators" to "52 x 1.8 MW generators"; additional fuel storage from "Up to 545,000 litres (L)" to "Up to 782,000 L" [SRC_SSD21342738_MOD2_ASSESSMENT]. Decided by the Acting Team Leader, Industry Assessments [SRC_SSD21342738_MOD2_ASSESSMENT].
 - **Roberts Road, Mod 2.** "The installation of 24 additional generators and the relocation of four approved units", and diesel storage from 1,914,000 litres to 2,403,600 litres [SRC_SSD10330_MOD2_ASSESSMENT]. The original consent says diesel storage "does not exceed 2,000 tonnes at any one time" [SRC_NSWPORTAL_CONSENTS]. The modification would "increase total diesel storage capacity above 2,000 tonnes", which the Department's report says "potentially triggers the requirement for an environment protection licence" [SRC_SSD10330_MOD2_ASSESSMENT]. Decided by the Team Leader, Industry Assessments, in March 2026 [SRC_SSD10330_MOD2_ASSESSMENT] [SRC_NSWPORTAL_MODS].
@@ -51,7 +51,7 @@ Eastern Creek's modification cut generator testing from 198 hours a year to 48 [
 
 ### Just under the line
 
-The consents sit close to two regulatory lines. Thirteen of the 18 data centre consents we hold cap diesel storage at 2,000 tonnes, the line Roberts Road's modification crossed [SRC_NSWPORTAL_CONSENTS] [RG-061]. At Grand Avenue, the environment regulator "recommended conditions to ensure the development would stay under the triggers for an EPL" [SRC_SSD53338465_ASSESSMENT].
+The consents sit close to two regulatory lines. Thirteen of the 18 data centre consents we hold cap diesel storage at 2,000 tonnes, the line Roberts Road's modification crossed [SRC_NSWPORTAL_CONSENTS] [RG-061]. Lane Cove West's fourth modification took its diesel from 1,651 to 1,966.9 tonnes, "below the storage limit of 2,000 t", decided under delegation [SRC_SSD9741_MOD4_ASSESSMENT].
 
 The other line is time. The State's guidelines say "Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen" [SRC_NSWGUIDE26]. Fifteen of the 18 consents cap generator operation at exactly 200 hours a year; the three decided since July 2026 set 170, 173 and 187 [SRC_NSWPORTAL_CONSENTS] [RG-061].
 
@@ -61,7 +61,6 @@ The planning portal's own description of the Eastern Creek modification says it 
 
 ## Where the data is too thin
 
-- The other twelve modifications on the State's data centre files, not yet read [RG-034].
 - What the environment protection licences allow: generator hours, emission limits and monitoring [RG-008].
 - Which power figure the Eastern Creek consent now carries [RG-045].
 
