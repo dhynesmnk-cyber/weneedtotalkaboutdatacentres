@@ -67,7 +67,8 @@ END = "Cloud Services"
 # Every facility listed must appear under that provider for the site to be matched.
 MATCHES: dict[str, tuple[str, list[str]]] = {
     "SITE_AIRTRUNK_SYD1": ("AirTrunk Australia", ["SYD1"]),
-    "SITE_AIRTRUNK_SYD2": ("AirTrunk Australia", ["SYD2"]),
+    # SYD2 is the facility the Lane Cove West consent approved (RG-098, merged 2026-11-18).
+    "SITE_LANE_COVE_WEST": ("AirTrunk Australia", ["SYD2"]),
     "SITE_AIRTRUNK_MEL1": ("AirTrunk Australia", ["MEL1"]),
     "SITE_CDC_CANBERRA": ("Canberra Data Centres", ["H1", "H2", "H3", "H4", "H5", "F1", "F2"]),
     "SITE_CDC_EC": ("Canberra Data Centres", ["EC1", "EC2", "EC3", "EC4"]),

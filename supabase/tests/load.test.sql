@@ -34,9 +34,14 @@ $$;
 -- author), adds DigiCo ADL1 (SA) and BNE2 (QLD) from its Annual Report's portfolio
 -- list: +2. Its third facility, SYD1, is the existing SITE_DIGICO_SYD1, matched not
 -- added. 100 + 2 = 102.
+-- 2026-11-18: the author's decisions on research batch 7. AirTrunk SYD2 is the
+-- facility the Lane Cove West consent approved (RG-098), so the seed row
+-- SITE_AIRTRUNK_SYD2 is retired into SITE_LANE_COVE_WEST: -1. AirTrunk MEL2 (VIC,
+-- RG-071) and Firmus Wesley Vale (TAS, RG-027) are added from the operators' own
+-- pages: +2. 102 - 1 + 2 = 103.
 select public.assert(
-  (select count(*) from facts.sites where pipeline_id is not null) = 102,
-  '102 sites loaded');
+  (select count(*) from facts.sites where pipeline_id is not null) = 103,
+  '103 sites loaded');
 
 -- Pinned counts track the reviewed contents of the committed pipeline, so a
 -- curated pack that adds rows raises them by an argued amount - the change is
@@ -252,8 +257,8 @@ select public.assert(
 set role anon;
 
 select public.assert(
-  (select count(*) from facts.sites) = 102,
-  'anon can read all 102 sites');
+  (select count(*) from facts.sites) = 103,
+  'anon can read all 103 sites');
 
 -- The invariant that makes the fact layer publishable at all.
 select public.assert(

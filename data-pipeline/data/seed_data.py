@@ -612,12 +612,9 @@ SITES = [
    hcf_certified="certified_strategic", source_id="SRC_CERTSTRAT",
    notes="HCF Certified Strategic Facility in the 20-100 MW band. Campus includes co-located battery storage "
          "referenced by the NSW Government as a grid-flexibility exemplar."),
- S(id="SITE_AIRTRUNK_SYD2", name="AirTrunk SYD2 (Lane Cove)", operator_id="ENT_AIRTRUNK",
-   suburb="Lane Cove", lga="Lane Cove Council", state="NSW", status="operational",
-   hcf_certified="certified_strategic", source_id="SRC_CERTSTRAT",
-   notes="HCF Certified Strategic Facility, 20-100 MW band. Located in the lower north shore industrial park that "
-         "ABC and the BBC report as having four further data centres in the pipeline; residents report noise at "
-         "350 m. Site-code mapping to AirTrunk's own nomenclature unverified - see research_gaps."),
+ # SITE_AIRTRUNK_SYD2 retired 2026-11-18 (RG-098, author-approved): AirTrunk's own SYD2 page makes it
+ # the facility the Lane Cove West consent (SSD-9741) approved, so SITE_LANE_COVE_WEST is that site.
+ # data/packs/batch7_decisions.json carries what this row knew onto it.
  S(id="SITE_AIRTRUNK_SYD3", name="AirTrunk SYD3 (Sydney West)", operator_id="ENT_AIRTRUNK",
    suburb="Eastern Creek / Huntingwood corridor", lga="Blacktown City Council", state="NSW",
    status="operational", source_id="SRC_CERTSTRAT", fact_status="GAP", confidence="low",
@@ -1754,7 +1751,7 @@ ENGINEERING = [
                     "No Australian jurisdiction requires continuous public emissions reporting from data centre "
                     "generators. Cumulative precinct-level air quality assessment is directed at Mamre Road/Kemps "
                     "Creek but is not a standing requirement.",
-      evidence_site_ids="SITE_CLOUDCARRIER_SH,SITE_MAMRE_ROAD,SITE_AIRTRUNK_SYD2",
+      evidence_site_ids="SITE_CLOUDCARRIER_SH,SITE_MAMRE_ROAD,SITE_LANE_COVE_WEST",
       source_ids="SRC_NSWGUIDE26,SRC_EPAVIC,SRC_GREENPEACE_SUB,SRC_IA_MAMRE", as_of_date="2026-09-18"),
 
  dict(claim_label="Mandate synchronous condensers at every data centre for grid stability",

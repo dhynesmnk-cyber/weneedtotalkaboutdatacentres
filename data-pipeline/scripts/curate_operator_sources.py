@@ -70,9 +70,9 @@ EXTRACTIONS: list[tuple] = [
     # AirTrunk facility pages: site area. Capacities are given only as lower bounds ("130+MW").
     ("airtrunk", "mel1-melbourne", "SITE_AIRTRUNK_MEL1", "campus_area_ha", 8.8, "Set on 8.8ha"),
     ("airtrunk", "syd1-sydney-west", "SITE_AIRTRUNK_SYD1", "campus_area_ha", 7.4, "Set on 7.4ha"),
-    ("airtrunk", "syd2-sydney-north", "SITE_AIRTRUNK_SYD2", "campus_area_ha", 4.2, "Set on 4.2ha"),
+    ("airtrunk", "syd2-sydney-north", "SITE_LANE_COVE_WEST", "campus_area_ha", 4.2, "Set on 4.2ha"),
     ("airtrunk", "syd3-sydney-west", "SITE_AIRTRUNK_SYD3", "campus_area_ha", 8.3, "Set on 8.3ha"),
-    ("airtrunk", "syd2-sydney-north", "SITE_AIRTRUNK_SYD2", "address", "1 Sirius Road",
+    ("airtrunk", "syd2-sydney-north", "SITE_LANE_COVE_WEST", "address", "1 Sirius Road",
      "adjacent to AirTrunk’s existing facility at 1 Sirius Road"),
 ]
 
