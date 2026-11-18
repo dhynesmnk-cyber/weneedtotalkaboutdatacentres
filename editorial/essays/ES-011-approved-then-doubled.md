@@ -6,7 +6,7 @@ title: Approved, then doubled
 standfirst: A NSW data centre approved at 32 megawatts can now draw 63, after a modification the Department treated as having minimal environmental impact and an officer decided. Across five modifications we read, generators and diesel grew the same way, mostly without public exhibition.
 story_cards: []
 questions: [RG-045, RG-034, RG-008]
-sources: [SRC_NSWPORTAL_MODS, SRC_SSD10330_MOD2_ASSESSMENT, SRC_SSD10330_MOD4_REPORT, SRC_SSD21342738_ASSESSMENT, SRC_SSD21342738_MOD2_ASSESSMENT, SRC_SSD24299707_MOD1_ASSESSMENT, SRC_SSD9741_MOD1_ASSESSMENT]
+sources: [SRC_NSWPORTAL_CONSENTS, SRC_NSWPORTAL_MODS, SRC_SSD10330_MOD2_ASSESSMENT, SRC_SSD10330_MOD4_REPORT, SRC_SSD21342738_ASSESSMENT, SRC_SSD21342738_MOD2_ASSESSMENT, SRC_SSD24299707_MOD1_ASSESSMENT, SRC_SSD9741_MOD1_ASSESSMENT]
 data_as_of: 2026-11-18
 named_parties: ["Acting Team Leader, Industry Assessments, NSW Department of Planning (by role)", "Team Leader, Industry Assessments, NSW Department of Planning (by role)", "Director, Industry Assessments, NSW Department of Planning (by role)"]
 conflict: null
@@ -32,7 +32,7 @@ That is no longer its size. A modification decided in August 2026 raised it "fro
 Our records flag five post-approval modifications as material to a data centre's environmental footprint [RG-034]. We read the Department's report on each, and the applicant's own report on the one not yet decided [RG-045]. All five were lodged under section 4.55(1A) of the planning Act, the route for a change that is "substantially the same development as originally approved" and "would result in minimal environmental impacts" [SRC_SSD21342738_MOD2_ASSESSMENT] [SRC_SSD10330_MOD2_ASSESSMENT] [SRC_SSD9741_MOD1_ASSESSMENT] [SRC_SSD24299707_MOD1_ASSESSMENT] [SRC_SSD10330_MOD4_REPORT].
 
 - **Eastern Creek, Mod 2.** Power from 32 MW to 63 MW; back-up generators from "27 x 2.65 MW generators" to "52 x 1.8 MW generators"; additional fuel storage from "Up to 545,000 litres (L)" to "Up to 782,000 L" [SRC_SSD21342738_MOD2_ASSESSMENT]. Decided by the Acting Team Leader, Industry Assessments [SRC_SSD21342738_MOD2_ASSESSMENT].
-- **Roberts Road, Mod 2.** "The installation of 24 additional generators and the relocation of four approved units", and diesel storage from 1,914,000 litres to 2,403,600 litres [SRC_SSD10330_MOD2_ASSESSMENT]. Decided by the Team Leader, Industry Assessments, in March 2026 [SRC_SSD10330_MOD2_ASSESSMENT] [SRC_NSWPORTAL_MODS].
+- **Roberts Road, Mod 2.** "The installation of 24 additional generators and the relocation of four approved units", and diesel storage from 1,914,000 litres to 2,403,600 litres [SRC_SSD10330_MOD2_ASSESSMENT]. The original consent says diesel storage "does not exceed 2,000 tonnes at any one time" [SRC_NSWPORTAL_CONSENTS]. The modification would "increase total diesel storage capacity above 2,000 tonnes", which the Department's report says "potentially triggers the requirement for an environment protection licence" [SRC_SSD10330_MOD2_ASSESSMENT]. Decided by the Team Leader, Industry Assessments, in March 2026 [SRC_SSD10330_MOD2_ASSESSMENT] [SRC_NSWPORTAL_MODS].
 - **Roberts Road, Mod 4, not yet decided.** The applicant now seeks to take the site "from 72 generators to 96 generators" [SRC_SSD10330_MOD4_REPORT].
 - **Lane Cove West, Mod 1.** The "replacement of 80 MV generators with 116 LV generators", and diesel moved into 16 internal tanks holding 1,952 kilolitres [SRC_SSD9741_MOD1_ASSESSMENT]. Decided by the Director, Industry Assessments, in April 2020 [SRC_SSD9741_MOD1_ASSESSMENT] [SRC_NSWPORTAL_MODS].
 - **Talavera Road, Mod 1.** "An increase in capacity from 38 megawatts (MW) to 47 MW", with four more diesel generators [SRC_SSD24299707_MOD1_ASSESSMENT]. Decided by the Team Leader, Industry Assessments, in December 2024 [SRC_SSD24299707_MOD1_ASSESSMENT] [SRC_NSWPORTAL_MODS].
@@ -47,7 +47,7 @@ An officer can decide such a modification under delegation where, among other te
 
 ### Not every change goes up
 
-The record runs both ways. Eastern Creek's modification cut generator testing from 198 hours a year to 48 [SRC_SSD21342738_MOD2_ASSESSMENT]. At Lane Cove West, the conditions were updated so that testing "does not exceed 200 hours in a year and only one generator is tested at any one time" [SRC_SSD9741_MOD1_ASSESSMENT]. The modifications made sites bigger and, in places, their testing tighter [RG-045].
+The record runs both ways. Eastern Creek's modification cut generator testing from 198 hours a year to 48 [SRC_SSD21342738_MOD2_ASSESSMENT]. Roberts Road's came with "lesser testing hours than currently approved" [SRC_SSD10330_MOD2_ASSESSMENT]. At Lane Cove West, the conditions were updated so that testing "does not exceed 200 hours in a year and only one generator is tested at any one time" [SRC_SSD9741_MOD1_ASSESSMENT]. The modifications made sites bigger and, in places, their testing tighter [RG-045].
 
 ### The summary that disagrees
 
