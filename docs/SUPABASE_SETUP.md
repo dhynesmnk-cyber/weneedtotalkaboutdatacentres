@@ -16,6 +16,36 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded again on 2026-11-18 from `main@73be7cb` (the merge of #45, the author's
+decisions on research batch 7), then the retired SYD2 row removed, on the author's
+decision of 2026-11-18 (RG-098, "1 yes"). Artefact digest `sha256:337c2884…`.
+- **The reload.** It brought in:
+  - `SITE_LANE_COVE_WEST` as "AirTrunk SYD2 (Lane Cove West Data Centre)",
+    with operator AirTrunk, operating and Certified Strategic;
+  - Apollo Place's operator, AirTrunk;
+  - Macquarie Park as operating;
+  - Kemps Creek's IT capacity, cleared;
+  - the new rows AirTrunk MEL2 and Firmus Wesley Vale.
+- **The removal.** The loader never deletes, so the seed row `SITE_AIRTRUNK_SYD2`
+  (uuid `57deacc1-6979-5e8b-ae8d-68bd92614521`) stayed live until it was removed
+  in one transaction. It held 3 citations and no data gaps, and its one proposed
+  operator link cascaded. No event or case study referenced it. A closing block
+  would have rolled everything back unless all of these held: the row was gone,
+  no link to it remained, 103 sites remained, no site was uncited, and the
+  surviving SYD2 row was present and operating.
+
+  ```sql
+  delete from facts.citations where record_type = 'sites' and record_id = '57deacc1-…';  -- 3
+  delete from facts.data_gaps where record_type = 'sites' and record_id = '57deacc1-…';  -- 0
+  delete from facts.sites where id = '57deacc1-…';                                     -- 1
+  ```
+- **Checked as `anon`.**
+  - 103 sites, 307 sources and 147 entities.
+  - The retired row is not readable.
+  - SYD2 reads as the Lane Cove West row, and Macquarie Park as operating.
+  - Kemps Creek's IT capacity is null.
+  - No essay is visible.
+
 Reloaded on 2026-11-18 from `main@906ec10` (the merge of #44, research batch 7),
 on the author's instruction. Artefact digest `sha256:b1a330ed…`; it committed in
 one request.

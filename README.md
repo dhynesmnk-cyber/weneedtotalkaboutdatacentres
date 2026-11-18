@@ -24,7 +24,7 @@ The hosted database is up. The Supabase project is in Sydney
 `data-pipeline/` is loaded: 103 sites, 307 sources, 147 entities and 95 published
 research questions, every site cited and no site carrying an invented live
 capacity, and no person named: people appear by public role only. It was last
-loaded on 18 November 2026 from `main@906ec10`. Public sign-up is off: the one
+loaded on 18 November 2026 from `main@73be7cb`. Public sign-up is off: the one
 invited editor is the only account. Fill in `.env.local` and the pages show
 real records. See `docs/SUPABASE_SETUP.md` for how it was stood up and what
 remains.
