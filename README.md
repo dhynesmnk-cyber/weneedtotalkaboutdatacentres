@@ -21,10 +21,10 @@ in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
 (`ap-southeast-2`), all seventeen migrations are applied, including the editor's desk (0014 to 0017, applied 2026-11-11), and the ten essay drafts are loaded unapproved, and the research from
-`data-pipeline/` is loaded: 102 sites, 296 sources, 146 entities and 95 published
+`data-pipeline/` is loaded: 102 sites, 307 sources, 147 entities and 95 published
 research questions, every site cited and no site carrying an invented live
 capacity, and no person named: people appear by public role only. It was last
-loaded on 17 November 2026 from `main@056aa5b`. Public sign-up is off: the one
+loaded on 18 November 2026 from `main@906ec10`. Public sign-up is off: the one
 invited editor is the only account. Fill in `.env.local` and the pages show
 real records. See `docs/SUPABASE_SETUP.md` for how it was stood up and what
 remains.
@@ -77,8 +77,8 @@ hides it, and no entity is flagged as major until a human decides it is.
 - `lib/ingestion/` — the vocabulary map, the row transforms and the SQL emitter.
   Every reconciliation decision lives here and is argued in
   `docs/PIPELINE_MAPPING.md`.
-- `data-pipeline/` — the upstream curation tool (Python, SQLite): 102 sites, 146
-  entities and 296 sources, every row graded and sourced. The app never reads
+- `data-pipeline/` — the upstream curation tool (Python, SQLite): 102 sites, 147
+  entities and 307 sources, every row graded and sourced. The app never reads
   it; it reaches Postgres through a reviewed SQL artefact.
 - `scripts/backup/` and `lib/backup/` — the weekly export, its manifest, and the
   restore emitter. `tables.ts` classifies every table as rebuildable from

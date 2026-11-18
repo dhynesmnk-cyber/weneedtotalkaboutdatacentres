@@ -16,6 +16,18 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded on 2026-11-18 from `main@906ec10` (the merge of #44, research batch 7),
+on the author's instruction. Artefact digest `sha256:b1a330ed…`; it committed in
+one request.
+- **Counts.** 102 sites (unchanged), 307 sources (from 296), 147 entities (from
+  146: Westpac, RG-088), 95 questions and 673 pipeline citations (from 654). The
+  loader listed 26 people and withheld their names in 19 fields. No site value
+  changed: batch 7 proposes site changes in its notes, for the author.
+- **Checked as `anon`, in a rolled-back transaction.** Westpac reads; RG-045 and
+  RG-105 read `resolved` and RG-039 `blocked`; no site is uncited; no essay is
+  visible, and none is approved.
+- **The live site.** `/research` and `/data/sources.csv` answer 200.
+
 Seven more essay drafts loaded on 2026-11-18 from `main@d8f5c7c` (the merge of
 #43), on the author's instruction: ES-002, ES-004, ES-005, ES-006, ES-008, ES-009
 and ES-010. The three loaded before were unchanged and unedited, so the upsert
