@@ -1,0 +1,10 @@
+{
+ "url": "https://www.melbournewater.com.au/media/eyJtZWRpYSI6IjI5ODY2In0%3D/downloads",
+ "requested_url": "https://www.melbournewater.com.au/media/eyJtZWRpYSI6IjI5ODY2In0%253D/downloads",
+ "fetched_utc": "2026-11-18T14:11:52+00:00",
+ "sha256": "adf04e8c618f48eeeb555c4c4885414e756811a47321ec4e56238fc722a92cf9",
+ "bytes": 72430494,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 214
+}

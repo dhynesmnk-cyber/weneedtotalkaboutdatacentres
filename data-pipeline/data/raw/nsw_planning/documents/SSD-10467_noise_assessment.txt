@@ -1,0 +1,2674 @@
+[[page 1]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+AECOM
+Macquarie Park Data Centre
+Noise and Vibration Impact Assessment
+ABN: 24 976 581 817
+Prepared by
+AECOM Australia Pty Ltd
+Level 21, 420 George Street, Sydney NSW 2000, PO Box Q410, QVB Post Office NSW 1230, Australia
+T +61 2 8934 0000  F +61 2 8934 0001  www.aecom.com
+ABN 20 093 846 925
+09-Nov-2020
+Job No.: 60628128
+AECOM in Australia and New Zealand is certified to ISO9001, ISO14001 AS/NZS4801 and OHSAS18001.
+© AECOM Australia Pty Ltd (AECOM). All rights reserved.
+AECOM has prepared this document for the sole use of the Client and for a specific purpose, each as expressly stated in the document. No other
+party should rely on this document without the prior written consent of AECOM. AECOM undertakes no duty, nor accepts any responsibility, to any
+third party who may rely upon or use this document. This document has been prepared based on the Client’s description of its requirements and
+AECOM’s experience, having regard to assumptions that AECOM can reasonably be expected to make in accordance with sound professional
+principles. AECOM may also have relied upon information provided by the Client and other third parties to prepare this document, some of which
+may not have been verified. Subject to the above conditions, this document may be transmitted, reproduced or disseminated only in its entirety.
+[[page 2]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+AECOM
+Table of Contents
+Executive Summary i
+1.0 Introduction 1
+1.1 Project overview 1
+1.2 Secretary’s Environmental Assessment Requirements 1
+1.3 Purpose and scope of this technical report 2
+1.4 Policies and guidelines 2
+2.0 Existing acoustic environment 4
+2.1 Site location 4
+2.2 Assessment receivers 4
+2.3 Noise Monitoring 0
+2.3.1 Instrumentation 0
+2.3.2 Noise monitoring locations 0
+2.4 Attended noise measurements 1
+2.4.1 Traffic noise monitoring 2
+3.0 Construction Noise and Vibration Criteria 3
+3.1 Construction noise 3
+3.1.1 Construction noise management levels 3
+3.1.2 Construction traffic noise 5
+3.2 Vibration criteria 5
+3.2.1 Structural damage 6
+3.2.2 Human comfort 7
+4.0 Operational Noise Criteria 9
+4.1 Environmental noise emission – Noise Policy for Industry 9
+4.1.1 Intrusiveness noise impacts 9
+4.1.2 Protecting noise amenity 9
+4.1.3 Project noise trigger levels 10
+4.1.4 Sleep disturbance trigger levels 11
+4.2 Noise from road traffic generation – Road Noise Policy 11
+5.0 Construction noise impact assessment 13
+5.1 Construction noise 13
+5.1.1 Construction phases and sources 13
+5.1.2 Modelling and conditions 14
+5.1.3 Results 14
+5.2 Construction vibration 15
+5.3 Construction traffic 16
+6.0 Construction noise and vibration mitigation 17
+7.0 Operational noise impact assessment 20
+7.1 Equipment 20
+7.1.1 Fan coil units 20
+7.1.2 Relief air fans 20
+7.1.3 CRAC units 21
+7.1.4 Back-up generators 21
+7.2 Modelling methodology 21
+7.2.1 Modelling assumptions 21
+7.3 Predicted noise levels 22
+7.3.1 Residential receivers 22
+7.3.2 Sleep disturbance 23
+7.3.3 Non-residential receivers 23
+7.4 Traffic movements 24
+8.0 Conclusion 25
+ Appendix A
+Acoustic Terminology A
+ Appendix B
+Unattended Noise Monitoring B
+[[page 3]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+AECOM
+ Appendix C
+Operational Noise Contour Plots C
+ Appendix D
+Location of Construction Noise Criteria D
+[[page 4]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+iAECOM
+Executive Summary
+This report has been prepared to support the State Significant Development application  to construct
+and operate a data centre (‘the Project’) at 11-17 Khartoum Road and 33-39 Talavera Road (Lot 1 in
+DP 633221), Macquarie Park, NSW.
+The Project involves the construction of a main building and façade, ancillary offices and staff
+amenities, car parking, loading dock, security guard house and mechanical and electrical
+infrastructure, including back up power generators. The Site would be operated on a 24-hour, 7 day a
+week basis.
+Subject to approval, the Project is expected to commence in late 2020/early 2021 and take up to 18
+months to construct, with construction undertaken during standard hours only
+This Noise and Vibration Impact Assessment (NVIA) provides an assessment of potential noise and
+vibration impacts from both the construction and operational phases of the Project. Relevant
+guidelines and assessment procedures have been followed to ensure all applicable requirements have
+been considered. The Secretary’s Environmental Assessment Requirements (SEARs) have been
+referenced in this assessment to ensure that all potential impacts have been adequately considered.
+Background noise levels have been monitored at a total of two locations to identify the existing noise
+environment throughout the adjacent area. Appropriate construction noise management levels and
+operational noise trigger levels have been established based on the existing noise levels.
+A construction noise assessment has been conducted in accordance with theInterim Construction
+Noise Guideline (DECC, 2009). Three distinct construction stages were used in a computer-based
+noise model to determine the predicted noise levels generated from the Project. Construction noise
+impacts were assessed at residential receivers surrounding the Project, as well as non-residential
+receivers.
+The assessment of noise associated with the construction of the Project indicates some exceedances
+of the noise management levels at the most affected sensitive receivers during certain activities. The
+magnitude and number of exceedances are detailed in this report.
+Measures have been recommended to mitigate the construction noise impact at nearby sensitive
+receivers. The implemented measures would ultimately be selected by the construction contractor and
+be largely dependent on the construction strategy and work undertaken. Specific noise management
+and mitigation measures would be detailed in a Construction Noise and Vibration Management Plan
+(CNVMP). The recommended mitigation measures that may be implemented include:
+· effective community consultation,
+· induction and training of construction site workers,
+· use of noise barriers,
+· noise monitoring,
+· appropriate selection and maintenance of equipment, and use of at-source noise mitigation,
+· scheduling of work for less sensitive time periods,
+· situating plant in less noise sensitive locations,
+· construction traffic management, and
+· respite periods.
+Minimum working distances for vibration intensive construction works have been presented.
+Equipment size would be selected by the construction contractor and would take into account the
+minimum working distances and the distance between the area of construction and the nearest
+sensitive receiver.
+[[page 5]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+iiAECOM
+Construction traffic is unlikely to increase the road traffic noise levels on surrounding roads by more
+than 2 dB(A). This is compliant with the traffic noise increase criterion in theRoad Noise Policy
+(DECCW, 2011).
+Cumulative construction noise impacts may occur as a result of concurrent construction stages of the
+Project being undertaken or other major projects occurring within proximity to the Project. Consultation
+would be undertaken with the proponents of other projects to minimise potential impacts where
+feasible and reasonable.
+An operational noise assessment has been completed in accordance with theNoise Policy for Industry
+(EPA, 2017). The primary noise sources would include 19 containerised generators, 16 computer
+room air conditioning (CRAC) units, 324 relief air fans and 54 air handling units (AHU). The generators
+are for emergency backup only, and would only be used in emergency situations and periodic testing.
+Recommendations have been provided for the inclusion of attenuators to control mechanical plant
+noise. The operation of the proposed data centre with periodic back-up generator testing complies with
+the relevant Noise Policy for Industry criteria and is considered acceptable.
+Traffic generation as a result of the operation of the Project is minimal and predicted traffic noise
+increases would comply with the applicable criteria outlined in the NSWRoad Noise Policy.
+Based upon this assessment, all relevant noise and vibration impacts can be appropriately managed
+in accordance with the relevant guidelines and standards.
+[[page 6]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+1AECOM
+1.0 Introduction
+1.1 Project overview
+This report has been prepared to support the State Significant Development application to construct
+and operate a data centre (‘the Project’) at 11-17 Khartoum Road and 33-39 Talavera Road (Lot 1 in
+DP 633221), Macquarie Park, NSW. The Project would comprise the following:
+· Construction of Road 22 as per the Concept Development consent
+· Earthworks, excavation and retaining walls
+· Construction of the main building and façade
+· Ancillary offices and staff amenities
+· Car parking
+· Loading dock
+· Security guard house
+· New vehicular access to Road 22
+· Service infrastructure
+· Mechanical and electrical infrastructure
+· Cooling and air conditioning
+· Diesel backup generators
+· Landscaping
+· Fit out of all data halls in a staged manner based on need.
+The data centre would be operated on a 24-hour, 7 day a week basis.
+The primary noise sources would include 19 containerised generators, 16 computer room air
+conditioning (CRAC) units, 324 relief air fans and 54 air handling units (AHU). The generators are for
+emergency backup only, and would only be used in emergency situations and periodic testing.
+Subject to planning approval, construction is anticipated to commence following Project approval in
+early 2021 and would take approximately 18 months to complete.
+This technical report provides an assessment of the potential noise and vibration impacts of the
+Project and addresses the requirements of the Secretary of the Department of Planning, Industry and
+Environment (DPIE) (the ‘Secretary’s Environmental Assessment Requirements’ or SEARs, 20 June
+2020).
+1.2 Secretary’s Environmental Assessment Requirements
+The SEARs relating to Noise and Vibration, and where these requirements are addressed in this
+technical report, are outlined in Table 1.
+[[page 7]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+2AECOM
+Table 1 Secretary’s Environmental Assessment Requirements
+Secretary’s Environmental Assessment
+Requirements
+Where addressed
+General
+Requirements
+The Environmental Impact Statement (EIS)
+for the development must meet the form and
+content requirements in clauses 6 and 7 of
+Schedule 2 of the Environmental Planning
+and Assessment Regulation 2000 (the
+Regulation). In addition, the EIS must include:
+… a detailed assessment of the key
+issues specified below, and any other
+significant issues identified in this risk
+assessment…
+This report
+Key Issues 4. Noise and vibration– including:
+· a quantitative noise and vibration impact
+assessment (NVIA) of the development
+during construction and operation
+(including testing of the back-up
+generators). The NVIA must be
+undertaken by a suitably qualified person
+in accordance with the relevant
+Environment Protection Authority
+guidelines, and include an assessment
+of potential impacts to nearby sensitive
+receivers and cumulative impacts of
+surrounding developments
+· proposed mitigation, management
+and/or monitoring measures.
+· This report and specifically
+sections 5.0 and 7.0
+· Section 6.0
+1.3 Purpose and scope of this technical report
+This Noise and Vibration Impact Assessment (NVIA) is one of a number of technical documents that
+forms part of the Macquarie Park Data Centre EIS. The purpose of this report is to identify potential
+impacts of the Project and to outline mitigation measures relating to noise and vibration during
+construction and operation of the Project.
+The objectives of the NVIA are to:
+· establish the existing background noise levels in the vicinity of the Project
+· establish construction noise management levels and vibration limits that would apply to the
+Project
+· predict noise and vibration levels at nearby residential and other sensitive receivers due to the
+construction of the Project
+· predict environmental noise and vibration levels at nearby residential and other sensitive
+receivers due to operation of the Project
+· predict noise levels from additional off-site construction traffic generated by the Project
+recommend mitigation measures, where necessary, to reduce and manage noise and vibration
+impacts from the Project to comply with established noise management levels and vibration limits.
+1.4 Policies and guidelines
+The following policies and guidelines are relevant for this assessment:
+[[page 8]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+3AECOM
+· Assessing Vibration: A Technical Guideline (AVATG), Department of Environment and
+Conservation (DEC), 2006
+· Construction Noise and Vibration Strategy (CNVS), Transport for NSW, 2019
+· Interim Construction Noise Guideline (ICNG), Department of Environment and Climate Change
+(DECC), 2009
+· NSW Road Noise Policy (RNP), Department of Environment, Climate Change and Water
+(DECCW), 2011
+· Noise Guide for Local Government (NGLG), Environment Protection Authority, 2013
+· Noise Policy for Industry (NPfI), Environment Protection Authority (EPA), 2017
+· State Environment Protection Policy (SEPP) (Infrastructure), 2007
+· Australian Standard AS 1055-2018 – Acoustics—Description and measurement of environmental
+noise, 2018
+· Australian Standard AS 2436-2010, Guide to noise and vibration control on construction,
+demolition and maintenance sites, 2010
+· Australian Standard AS IEC 61672.1-2019 - Electroacoustics – Sound level meters
+Specifications, 2019
+· British Standard 5228: Part 1 2009 Code of Practice for Noise and Vibration Control on
+Construction and Open Sites Part 1: Noise, 2009 including Amendment 1, 2014
+· British Standard 6472: Evaluation of human exposure to vibration in buildings (1-80 Hz), 1992
+· British Standard 7385: Part 2 1993 Evaluation and Measurement of Vibration in Buildings, 1993
+· DIN Standard 4150: Part 3 2016 Vibration in Buildings - Effects on Structures, 1999
+Acoustic terminologies used in this assessment are explained in Appendix A.
+[[page 9]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+4AECOM
+2.0 Existing acoustic environment
+2.1 Site location
+The Project is located on land legally designated as Lot 1 in DP 633221, local address 11-17
+Khartoum Road and 33-39 Talavera Road, Macquarie Park (the Site). The Site is located within the
+City of Ryde Local Government Area (LGA).
+The area of the Site (by title) is 3.003 ha, with a northwest frontage (181.05 m) facing Khartoum Road,
+and a northeast frontage (165.96 m) facing Talavera Road. The Project would occupy the south
+eastern portion of the Site, being around 50% of the total Site area. It is understood that other
+commercial buildings would occupy the north western portion of the site. These buildings have been
+assessed as commercial receivers.
+The Site is located within the Macquarie Park Corridor and sits adjacent to other existing commercial
+properties to the southwest and the southeast. The Site is located within a B7 Business Park Zone
+under the Ryde Local Environmental Plan 2014 (Ryde LEP). The surrounding areas contain a mix of
+B4 Mixed Use and B3 Business Park land uses.
+More broadly, the Site is located approximately 12 km northwest of the Sydney CBD, approximately
+850 m southeast of Macquarie University, and 325 m southeast of Macquarie Shopping Centre,
+measured along Talavera Road. The Site is also located approximately 490 m northwest of Lane Cove
+Road and the on-ramp to the M2 motorway, also measured along Talavera.
+The surrounding area is characterised by commercial buildings and land uses, consistent with the
+character of Macquarie Park as a business precinct.
+2.2 Assessment receivers
+Residential and non-residential receivers potentially affected by the construction and operation of the
+Project are located in the suburbs of Macquarie Park and Marsfield. To assist in determining noise
+management levels for the receivers surrounding the Project, two noise catchment areas (NCA) were
+identified. For the purposes of undertaking a construction noise impact assessment the noise
+environment at each residential receiver within a NCA is considered to have a similar noise
+environment, considering the proximity to existing major noise sources.
+For the operational noise assessment noise levels are predicted and assessed at representative
+sensitive receivers. The Project site, NCAs, representative sensitive receivers and surrounding area
+are presented in Figure 1. The assessment receiver addresses, along with the land usages of each
+receiver are presented in Table 2.
+[[page 10]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+5AECOM
+Table 2 Receiver locations
+Assessment
+receiver NCA Address Usage
+Residential receivers
+R1 NCA 1 32 Khartoum Road, Macquarie Park Residential
+R2 NCA 1 33 Khartoum Road, Macquarie Park Residential
+R3 NCA 1 7 Tasman Place, Macquarie Park Residential
+R4 NCA 1 35-39 Fontenoy Road (West), Macquarie Park Residential
+R5 NCA 1 35-39 Fontenoy Road (East), Macquarie Park Residential
+R6 NCA 1 101-107 Waterloo Road (North), Macquarie Park Residential
+R7 NCA 1 101-107 Waterloo Road (South), Macquarie Park Mixed Use
+R8 NCA 2 80 Waterloo Road, Macquarie Park Mixed Use
+R9 NCA 2 82-84 Waterloo Road, Macquarie Park Mixed Use
+R10 NCA 2 16 Cottonwood Crescent, Macquarie Park Mixed Use
+R11 NCA 2 384-386 Lane Cove Road, Macquarie Park Commercial
+R12 NCA 2 112 Talavera Road, Macquarie Park Mixed Use
+Non-residential receivers
+N1 - 11-17 Khartoum Road (North), Macquarie Park Commercial
+N2 - 11-17 Khartoum Road (South), Macquarie Park Commercial
+N3 - Excelsia College, 63-71 Waterloo Road,
+Macquarie Park
+Educational
+N4 - North Ryde Early Learning Centre, 24 Talavera
+Road, Macquarie Park
+Childcare centre
+N5 - Macquarie University (School of Engineering),
+44 Waterloo Road, Macquarie Park
+Educational
+N6 NCA 1 Marriot Hotel, 7-11 Talavera Road, Macquarie
+Park
+Commercial
+Compliance with the relevant criteria at these locations would result in compliance of the appropriate
+criteria at nearby premises of different land use classifications, such as industrial and commercial
+premises.
+[[page 11]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+0AECOM
+Figure 1 Site map showing NCAs, noise monitoring locations, and representative assessment receiver locations
+
+[[page 12]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+0AECOM
+2.3 Noise Monitoring
+Long-term unattended measurements at two locations were undertaken to establish the existing
+ambient and background noise environment at potentially affected receivers in the vicinity of the data
+centre site. The noise monitoring was undertaken between Tuesday 10 March 2020 and Friday
+20 March 2020.
+2.3.1 Instrumentation
+The equipment used for site measurements is detailed below in Table 3.
+Table 3 Environmental noise monitoring equipment
+Location Equipment Serial Number
+Unit 6, 37 Khartoum Road, Macquarie Park SVAN 977 45416
+7 Booth Street, Marsfield. SVAN 957 23855
+Calibration of the noise loggers was checked on site with a B&K NC74 Sound Calibrator (serial
+number 34283659) at the beginning and end of the measurement periods. No significant drifts in
+calibration were observed. All acoustic instrumentation employed during the noise measurements
+comply with the requirements of AS IEC 61672.1-2019 Electroacoustics - Sound level meters -
+Specifications and were within their current National Association of Testing Authorities, Australia
+(NATA) certified in-calibration period (i.e. calibration in the last two years). The noise measurements
+have been conducted in accordance with AS1055.1 – 2018 “Acoustics – Description and
+measurement of environmental noise”.
+In accordance with the EPA’sNoise Policy for Industry, noise monitoring data affected by adverse
+weather conditions or extraneous noise events were excluded. TheNoise Policy for Industry advises
+that data may be affected where adverse weather, such as wind speeds higher than five metres per
+second or rain, occurs. Weather data were acquired from the Bureau of Meteorology’s Sydney
+Olympic Park weather station (station ID 95765).
+2.3.2 Noise monitoring locations
+The first noise logger was located north of the site in the front garden of Unit 6, 37 Khartoum Road,
+Macquarie Park and the second was located to the west of the site in the front garden of 7 Booth
+Street, Marsfield. The microphones were 1.5 m above ground level.
+The loggers were set for sample periods of 15 minutes. The loggers measured the noise levels over
+the sample period and then determined LA10, LA90, LAmax, and LAeq levels of the noise environment. The
+LA10 and LA90 levels are the levels exceeded for 10% and 90% of the sample period respectively. The
+LAmax is indicative of the maximum noise levels due to individual noise events such as the pass-by of a
+heavy vehicle. The LA90 is taken as the background noise level. The LAeq level is the equivalent
+continuous sound level and has the same sound energy over the sample period as the actual noise
+environment with fluctuating sound levels.
+The background noise level is defined by the EPA as ‘the underlying level of noise present in ambient
+noise when all unusual extraneous noise is removed’. It can include sounds that are normal features of
+a location and may include birds, traffic, insects etc. The background noise level is considered to be
+represented by the LA90 descriptor. The noise levels measured at the proposed development site were
+analysed to determine a single assessment background level (ABL) for each day, evening and night
+period in accordance with the Noise Policy for Industry, for each monitoring location. The ABL is
+established by determining the lowest ten percentile level of the LA90 noise data acquired over each
+period of interest.
+A summary of the measurement data is presented in Table 4. Noise levels are also graphically
+presented in Appendix B.
+[[page 13]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+1AECOM
+Table 4 Existing background (L A90) and ambient (LAeq) noise levels
+Measurement Date
+LA90 Background Noise Levels,
+dB(A)
+LAeq Ambient Noise Levels,
+dB(A)
+Day1 Evening2 Night3 Day1 Evening2 Night3
+Unit 6, 37 Khartoum Road, Macquarie Park (NCA1)
+Tuesday 10 March 2020 - 46 - 56 58 53
+Wednesday 11 March 2020 45 46 37 56 58 50
+Thursday 12 March 2020 45 46 38 56 56 52
+Friday 13 March 2020 45 43 40 60 54 49
+Saturday 14 March 2020 50 46 38 59 57 50
+Sunday 15 March 2020 46 44 38 57 57 51
+Monday 16 March 2020 48 45 37 59 59 52
+Tuesday 17 March 2020 46 43 36 58 66 51
+Wednesday 18 March 2020 44 43 39 53 55 50
+Thursday 19 March 2020 44 42 38 55 54 50
+Friday 20 March 2020 - - - 55 - 50
+RBL/Log Average 45 45 38 57 59 51
+7 Booth Street, Marsfield (NCA2)
+Tuesday 10 March 2020 - 42 - 60 54 52
+Wednesday 11 March 2020 42 42 32 55 55 47
+Thursday 12 March 2020 - 41 34 53 51 45
+Friday 13 March 2020 41 41 33 52 51 51
+Saturday 14 March 2020 - 42 34 53 52 47
+Sunday 15 March 2020 - 41 32 54 53 45
+Monday 16 March 2020 46 44 33 56 52 46
+Tuesday 17 March 2020 42 42 29 55 62 45
+Wednesday 18 March 2020 42 41 34 55 52 45
+Thursday 19 March 2020 - - - - - 44
+RBL/Log Average 42 42 33 55 56 47
+Notes:
+1. Day is defined as 7am to 6pm Monday to Saturday and 8am to 6pm Sundays and Public Holidays.
+2. Evening is defined as 6pm to 10pm Monday to Sunday and Public Holidays.
+3. Night is defined as 10pm to 7am Monday to Saturday and 10pm to 8am Sundays and Public Holidays.
+2.4  Attended noise measurements
+Attended noise measurements were undertaken to supplement the unattended noise measurements
+at representative receiver locations. Attended noise measurements were undertaken on Tuesday 10
+March 2020 during the setup of the noise loggers. Attended noise measurements were undertaken at
+the noise logging locations as indicated in Figure 1 above.
+Attended noise measurements were undertaken using a Bruel & Kjaer 2250 sound level meter (Serial
+number: 3009329). The B&K 2250 sound level meter is designated as having Type 1 accuracy. All
+[[page 14]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+2AECOM
+equipment used was calibrated before and after measurements with a drift in calibration not exceeding
+± 0.5 dB. Additionally, all equipment used for this assessment were in their current National
+Association of Testing Authorities, Australia (NATA) certified in-calibration period (i.e. full 1/3 octave
+band calibration in the last 2 years).
+The weather during the attended measurements was fine and did not affect the measurements.
+A summary of the attended noise measurement results is presented in Table 5 below.
+Table 5 Summary of attended noise measurements
+Location Date/Time
+Measured Noise Levels,
+dB(A) Comments
+Leq L1 L10 L90
+Unit 6, 37
+Khartoum
+road,
+Macquarie
+Park
+10/03/2020
+15:47 54 64 58 45
+Noise environment dominated by
+road traffic noise to west along
+Khartoum road
+7 booth
+street,
+Marsfield
+10/03/2020
+16:32 54 64 55 45
+Noise environment dominated by
+road traffic noise hum to north/north
+east.
+Ambient controlled by plane and
+local traffic pass by and some
+vehicles along Epping road to the
+north and Herring road.
+Overhead plane pass by frequent.
+As describe above in Table 5, the acoustic environment in NCA 1 and 2 are generally dominated by
+local vehicle traffic with receivers also affected by aircraft noise. The receivers in NCA 2 are also
+affected by commercial activity within the business park and the Macquarie Shopping Centre. Natural
+sounds are also audible throughout both NCAs. These characteristics are typical of an urban
+environment.
+2.4.1 Traffic noise monitoring
+Attended measurements of traffic noise in vicinity of the development site were detailed in a report
+titled Macquarie Technology Centre, 11-17 Khartoum road and 33-39 Talavera Road, Macquarie Park
+Environmental Noise Impact Assessment by Acoustic Logic, dated 28 November 2017. As the Project
+site is located within the 33-39 Talavera Road boundary, the measurement results in the report by
+Acoustic Logic are considered to be applicable to this project. The results of these measurements are
+presented in Table 6.
+Table 6 Traffic noise levels from Khartoum Road and Talavera Road at the Project site
+Location Time of measurement LAeq level at façade,
+dB(A)
+Road Traffic from Talavera Road
+at the project site boundary
+4.30pm to 5.30pm 68
+Road Traffic from Khartoum Road
+at the project site boundary
+4.30pm to 5.30pm 66
+[[page 15]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+3AECOM
+3.0 Construction Noise and Vibration Criteria
+Construction of the proposed development has the potential to temporarily contribute to the existing
+external noise environment. This section will establish management levels to address these issues.
+3.1 Construction noise
+3.1.1 Construction noise management levels
+The Interim Construction Noise Guideline is the principal guideline for the assessment and
+management of construction noise in NSW. As the proposed works are expected to continue for a
+period of more than three weeks and are within relatively close proximity to noise sensitive receivers, a
+quantitative assessment, based on representative construction scenarios, has been carried out for the
+Project.
+Noise levels resulting from construction activities are predicted at nearby noise sensitive receivers
+using environmental noise modelling software and compared to the noise management levels (NML),
+derived in accordance with the Interim Construction Noise Guideline.
+Where an exceedance of the noise management levels is predicted, theInterim Construction Noise
+Guideline advises that receivers can be considered ‘noise affected’ and the proponent should apply all
+feasible and reasonable work practices to minimise the noise impact. The proponent should also
+inform all potentially impacted residents of the nature of the works to be carried out, the expected
+noise level and duration, as well as provide contact details to facilitate feedback from affected
+residents during construction.
+Where construction noise levels at the receiver reach 75 dB(A), residential receivers are considered to
+be ‘highly noise affected’ and the proponent should, in consultation with the community, consider
+restrictions to the hours of construction to provide respite periods.
+3.1.1.1 Residential receivers
+Guidance for setting construction noise management levels for residential receivers are summarised in
+Table 7.
+[[page 16]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+4AECOM
+Table 7 Construction noise management levels – residential receivers
+Time of Day
+NML,
+LAeq,15min,
+dB(A)1
+How to Apply
+Recommended
+standard hours2:
+Monday to Friday 7 am to
+6 pm
+Saturday 8 am to 1 pm
+No work on Sundays or
+public holidays
+Noise affected
+RBL + 10 dB
+The noise affected level represents the point above
+which there may be some community reaction to
+noise.
+· Where the predicted or measured L Aeq (15 min) is
+greater than the noise affected level, the
+proponent should apply all feasible and
+reasonable work practices to meet the noise
+affected level.
+· The proponent should also inform all
+potentially impacted residents of the nature of
+works to be carried out, the expected noise
+levels and duration, as well as contact details.
+Highly noise
+affected
+75 dB(A)
+The highly noise affected level represents the point
+above which there may be strong community
+reaction to noise.
+· Where noise is above this level, the relevant
+authority (consent, determining or regulatory)
+may require respite periods by restricting the
+hours that the very noisy activities can occur,
+taking into account:
+1. times identified by the community when
+they are less sensitive to noise (such as
+before and after school for works near
+schools, or mid-morning or mid-afternoon
+for works near residences
+2. If the community is prepared to accept a
+longer period of construction in exchange
+for restrictions on construction times.
+Outside recommended
+standard hours
+Noise affected
+RBL + 5 dB
+· A strong justification would typically be
+required for works outside the recommended
+standard hours.
+· The proponent should apply all feasible and
+reasonable work practices to meet the noise
+affected level.
+· Where all feasible and reasonable practices
+have been applied and noise is more than 5
+dB(A) above the noise affected level, the
+proponent should negotiate with the
+community.
+· For guidance on negotiating agreements see
+section 7.2.2 (ICNG).
+Notes:
+1. Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5 m above
+ground level. If the property boundary is more than 30 m from the residence, the location for measuring or predicting
+noise levels is at the most noise-affected point within 30 m of the residence. Noise levels may be higher at upper
+floors of the noise affected residence.
+The Interim Construction Noise Guideline defines what is considered to be feasible and reasonable as
+follows:
+· Feasible - a work practice or abatement measure is feasible if it is capable of being put into
+practice or of being engineered and is practical to build given project constraints such as safety
+and maintenance requirements.
+[[page 17]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+5AECOM
+· Reasonable - selecting reasonable measures from those that are feasible involves making a
+judgment to determine whether the overall noise benefits outweigh the overall adverse social,
+economic and environmental effects, including the cost of the measure.
+Table 8 presents the NMLs applicable to residential receivers nearby to the Project.
+Table 8 Construction noise management levels – Residential receivers
+Location of residential receivers
+Recommended
+standard hours
+RBL
+Recommended
+standard hours
+noise
+management
+levels LAeq
+dB(A)
+Highly
+noise
+affected
+level LAeq
+dB(A)
+NCA1 - Residences to the north (Macquarie Park) 45 55 75
+NCA2 - Residences to the south (Marsfield) 42 52 75
+3.1.1.2 Other sensitive land uses and commercial receiver noise management levels
+Table 9 presents the NMLs applicable to other noise sensitive receivers such as educational facilities,
+places of worship and commercial receivers.
+Table 9 Construction noise management levels – other receivers
+Land Use External noise levels, LAeq,15min
+(applies when properties are in use)
+Classrooms at schools and other educational institutions 65 dB(A)1
+Childcare centre 65 dB(A)1
+Active recreation areas 65 dB(A)
+Passive recreation areas 60 dB(A)
+Industrial premises 75 dB(A)
+Commercial premises (including cafes, bars, restaurants,
+retail stores and hotels)
+70 dB(A)
+Notes:
+1. This external noise management level is based upon a 45 dB(A) internal noise management level and a 20 dB(A) reduction
+from outside to inside through a closed window
+3.1.2 Construction traffic noise
+To assess noise impacts from construction traffic an initial screening test should be undertaken by
+evaluating whether existing road traffic noise levels would increase by more than 2 dB(A), in line with
+the Road Noise Policy.
+Where the predicted noise increase is 2 dB(A) or less, then no further assessment is required.
+However, where the predicted noise level increase is greater than 2 dB(A), and the predicted road
+traffic noise level exceeds the road category specific criterion, then noise mitigation should be
+considered for those receivers affected. TheRoad Noise Policy does not require assessment of noise
+impact to commercial or industrial receivers.
+3.2 Vibration criteria
+Vibration, at levels high enough, has the potential to cause damage to structures and disrupt human
+comfort. Vibration and its associated effects are usually classified as continuous, impulsive or
+intermittent as follows:
+· continuous vibration continues uninterrupted for a defined period and includes sources such as
+machinery and continuous construction activities
+[[page 18]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+6AECOM
+· impulsive vibration is a rapid build up to a peak followed by a damped decay. It may consist of
+several cycles at around the same amplitude, with durations of typically less than two seconds
+and no more than three occurrences in an assessment period. This may include occasional
+dropping of heavy equipment or loading activities
+· intermittent vibration occurs where there are interrupted periods of continuous vibration, repeated
+periods of impulsive vibration or continuous vibration that varies significantly in magnitude. This
+may include intermittent construction activity, impact pile driving, jack hammers.
+The relevant standards and guidelines for the assessment of construction vibration are summarised in
+Table 10.
+Table 10 Standards/guidelines used for assessing construction vibration
+Item Standard/guideline
+Structural damage German Standard DIN 4150 – Part 3 – Structural
+Vibration in Buildings – Effects on Structures (DIN
+4150)
+Human comfort (tactile vibration) Assessing Vibration: A Technical Guideline
+(AVATG)1
+Notes:
+1. This document is based upon the guidelines contained in British Standard 6472:1992, “Evaluation of human exposure to
+vibration in buildings (1-80 Hz)”. This British Standard was superseded in 2008 with BS 6472-1:2008 “Guide to evaluation
+of human exposure to vibration in buildings – Part 1: Vibration sources other than blasting” and the 1992 version of the
+Standard was withdrawn. However the Environment Protection Authority still requires vibration to be assessed in
+accordance with the 1992 version of the Standard at this point in time.
+3.2.1 Structural damage
+At present, no Australian Standards exist for the assessment of building damage caused by vibration.
+The German Standard (DIN 4150) provides recommended maximum levels of vibration that reduce
+the likelihood of building damage caused by vibration and are presented in Table 11. DIN 4150 states
+that buildings exposed to higher levels of vibration than recommended limits would not necessarily
+result in damage. In this assessment of DIN 4150 structural damage safe limits have been adopted for
+residential and non-residential structures.
+[[page 19]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+7AECOM
+Table 11 Structural damage safe limits (DIN 4150) for building vibration (Peak particle velocity)
+Group Type of structure
+At
+foundation –
+Less than 10
+Hz
+At
+foundation –
+10 Hz to
+50 Hz
+At
+foundation –
+50 Hz to
+100 Hz1
+Vibration at
+the
+horizontal
+plane of the
+highest floor
+for all
+frequencies
+1 Buildings used for
+commercial purposes,
+industrial buildings
+and buildings of
+similar design
+20 mm/s 20 to 40 mm/s 40 to 50 mm/s 40 mm/s
+2 Dwellings and
+buildings of similar
+design and/or use
+5 mm/s 5 to 15 mm/s 15 to 20 mm/s 15 mm/s
+3 Structures that
+because of their
+particular sensitivity to
+vibration, do not
+correspond to those
+listed in Lines 1 or 2
+and have intrinsic
+value (e.g. buildings
+that are under a
+preservation
+order/heritage listed)
+3 mm/s 3 to 8 mm/s 8 to 10 mm/s 8 mm/s
+Notes:
+1. At frequencies above 100 Hz, the values given in this column may be used as minimum values
+3.2.2 Human comfort
+The assessment of intermittent vibration outlined in the NSW EPA guideline Assessing Vibration: A
+Technical Guideline (AVTG) is based on Vibration Dose Values (VDVs). The VDV accumulates the
+vibration energy received over the daytime and night-time periods.
+Maximum and preferred VDVs for intermittent vibration arising from construction activities are listed in
+Table 12. The VDV criteria are based on the likelihood that a person would comment adversely on the
+level of vibration over the entire assessment period.
+[[page 20]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+8AECOM
+Table 12 Preferred and maximum vibration dose values for intermittent vibration (m/s1.75)
+Location Daytime (7am – 10pm) Night-time (10pm – 7am)
+Preferred Maximum Preferred Maximum
+Critical areas1 0.1 0.2 0.1 0.2
+Residences 0.2 0.4 0.13 0.26
+Offices, schools, educational
+institutions and places of worship 0.4 0.8 0.4 0.8
+Workshops2 0.8 1.6 0.8 1.6
+Notes:
+1. Examples include hospital operating theatres and precision laboratories where sensitive operations are occurring. Places
+where sensitive equipment is stored or delicate tasks are undertaken require more stringent criteria than the residential
+criteria specified above
+2. Examples include automotive repair shops, manufacturing or recycling facilities. This includes places where
+manufacturing, recycling or repair activities are undertaken but do not require sensitive or delicate tasks.
+[[page 21]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+9AECOM
+4.0 Operational Noise Criteria
+4.1 Environmental noise emission – Noise Policy for Industry
+Industrial noise has the potential to affect nearby noise sensitive receivers. TheNoise Policy for
+Industry sets out a procedure to determine project noise trigger levels relevant to a development. It if is
+predicted that the development is likely to cause the project noise trigger level to be exceeded at
+existing noise sensitive receivers, then management measures need to be considered to reduce the
+predicted noise level.
+The assessment procedure for industrial noise sources has two components that must be considered:
+· Controlling intrusiveness noise impacts in the short term for residences, and
+· Maintaining noise level amenity for residences and other land uses.
+Both components are assessed at the boundary of the noise sensitive receiver site. These criteria
+apply to environmental noise emissions from any plant installed as part of the Project, and for
+residential receivers, represent the lower of the intrusive or amenity criteria. This would include the
+assessment of the testing of the back-up generators, as required by the SEARs.
+The primary function of the backup generators is to provide power to the facility during a power outage
+event (ie short term power back up during an emergency only). Given the rarity of these events the
+associated noise impacts are considered to be negligible and as such have not been assessed. The
+generators would however be subject to regular testing and as such this activity has been assessed in
+this operational noise assessment.
+4.1.1 Intrusiveness noise impacts
+The Noise Policy for Industry states that the intrusiveness of an industrial noise source may generally
+be considered acceptable if the level of noise from the source (LAeq level), measured over a 15 minute
+period, does not exceed the background noise level measured by more than 5 dB. The Rating
+Background Levels (RBLs) and resultant project intrusiveness noise levels are presented in Table 13.
+Table 13 Noise Policy for Industry recommended LAeq,15 minute intrusiveness noise levels from industrial noise sources
+Location Period RBL (LA90),
+dB(A)
+Intrusive Noise
+Level (RBL+5),
+dB(A)
+Residential
+Receivers
+NCA1 Day1 45 50
+Evening2 45 50
+Night3 38 43
+NCA2 Day1 42 47
+Evening2 42 47
+Night3 33 38
+Notes:
+1. Day is defined as 7am to 6pm Monday to Saturday and 8am to 6pm Sundays and Public Holidays.
+2. Evening is defined as 6pm to 10pm Monday to Sunday and Public Holidays.
+3. Night is defined as 10pm to 7am Monday to Saturday and 10pm to 8am Sundays and Public Holidays.
+Intrusiveness noise levels apply only to residential receivers. For other receivers, only the amenity
+levels apply.
+4.1.2 Protecting noise amenity
+To limit continuing increases in noise levels, the maximum ambient noise level resulting from all
+industrial noise sources in an area should not normally exceed the recommended amenity noise levels
+specified in Table 2.2 of the Noise Policy for Industry. Given that the existing acoustic environment is
+[[page 22]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+10AECOM
+dominated by traffic and industrial related sources and the receivers are located near a commercial
+district, the noise amenity area is considered to be ‘urban’.
+Table 14 Noise Policy for Industry recommended LAeq amenity noise levels from industrial sources
+Type of Receiver Noise Amenity
+Area Time of Day
+Recommended
+Noise Level
+(LAeq), dB(A)
+Residential Urban Day 60
+Evening 50
+Night 45
+Hotel/motel Urban Day 651
+Evening 551
+Night 501
+School classroom – internal All Noisiest 1-hour 402
+School classroom – External All Noisiest 1-hour 603
+Commercial premises All When in use 65
+Notes:
+1. According to Noise Policy for Industry Table 2.2, the recommended hotel amenity noise level is 5 dB(A) above the
+recommended amenity noise level for a residence for the relevant noise amenity area and time of day
+2. The Noise Policy for Industry states “In the case where existing schools are affected by noise from existing industrial
+noise sources, the acceptable L Aeq noise level may be increased to 40 dB L Aeq(1hr)
+3. Assumes a 20 dB reduction from external to internal through a closed window
+According to Section 2.4 of the Noise Policy for Industry, the amenity level applicable to the project is
+equal to the recommended level minus 5 dB(A). This takes into account the cumulative impacts of
+other industrial noise sources in the area.
+The recommended amenity noise level has therefore been adopted at the proposed new commercial
+buildings to the noise.
+As per the Noise Policy for Industry, the project amenity level is converted to a 15 minute period by
+adding 3 dB(A).
+4.1.3 Project noise trigger levels
+Table 15 presents the applicable project noise trigger levels.
+[[page 23]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+11AECOM
+Table 15 Noise Policy for Industry project noise trigger levels
+Type of Receiver Time of Day
+Intrusive
+noise level
+(RBL+5) (LAeq,
+15 minutes),
+dB(A)
+Project
+amenity level
+(LAeq, 15 minutes),
+dB(A)
+Project noise
+trigger level
+(LAeq  15 minutes),
+dB(A)
+Residential
+Receivers
+NCA1 Day 50 58 50
+Evening 50 48 48
+Night 43 43 43
+NCA2 Day 47 58 47
+Evening 47 48 43
+Night 38 43 38
+Hotel/Motel Day - 63 63
+Evening - 53 53
+Night - 48 48
+Commercial Premises When in Use - 63 63
+School classroom – internal Noisiest 1-
+hour 38 38
+School classroom – External Noisiest 1-
+hour 58 58
+Adjustments to the level of noise predicted at the assessment location may be applied in accordance
+with Fact Sheet C of the Noise Policy for Industry to account for the subjective effects of specific noise
+characteristics including tonality, low frequency content, intermittency and duration.
+4.1.4 Sleep disturbance trigger levels
+The Noise Policy for Industry requires the potential for sleep disturbance to be assessed by
+considering maximum noise level events during the night-time period.
+Where night-time noise levels from the proposed development at a residential location exceed the
+following screening levels, a detailed maximum noise level event assessment should be undertaken:
+· L Aeq, 15 minute 40 dB(A) or the prevailing RBL plus 5 dB, whichever is greater; and/or
+· L AFmax 52 dB(A) or the prevailing RBL plus 15 dB, whichever is greater.
+The detailed assessment should cover the maximum noise level, the extent to which the maximum
+noise level exceeds the RBL and the number of times this happens during the night-time period.
+Based on the measured background noise levels during the night, the sleep disturbance trigger levels
+for the noise sensitive residential receivers are presented in Table 16.
+Table 16 Night-time sleep disturbance trigger levels
+Type of Receiver
+Measured night
+period RBL
+(LAeq, 15 minute), dB(A)
+Sleep disturbance screening trigger levels
+LAeq, 15 minutes, dB(A) LAFmax, dB(A)
+NCA1 38 43 53
+NCA2 33 40 52
+4.2 Noise from road traffic generation – Road Noise Policy
+To assess noise impacts from traffic generated by the operation of the Project an initial screening test
+should be undertaken by evaluating whether existing road traffic noise levels would increase by more
+[[page 24]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+12AECOM
+than 2 dB(A), in line with the Road Noise Policy. Where the predicted noise increase is 2 dB(A) or
+less, then no further assessment is required. However, where the predicted noise level increase is
+greater than 2 dB(A), and the predicted road traffic noise level exceeds the road category specific
+criterion, then noise mitigation should be considered for those receivers affected. The Road Noise
+Policy does not require assessment of noise impact to commercial or industrial receivers.
+[[page 25]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+13AECOM
+5.0 Construction noise impact assessment
+An indicative construction noise and vibration impact assessment has been completed for the Project.
+Whilst the development is likely to be completed in multiple stages the assessment has considered a
+worst case scenario for the three most noise and vibration intensive stages.
+5.1 Construction noise
+This construction noise and vibration assessment is based on a typical construction scenario for this
+type of development.
+5.1.1 Construction phases and sources
+The construction scenarios that have been assessed are detailed below:
+1. Site establishment and enabling works
+2. Foundations, and
+3. Frame and facade.
+The equipment and associated sound powers for the scenarios are shown in Table 17.
+[[page 26]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+14AECOM
+Table 17 Construction phases and equipment
+Phase Equipment / Activity Percentage time
+on
+‘A’ Weighted SWL
+dB(A)
+Site
+establishment and
+enabling works
+Large excavator (35T) 100 100
+Vibratory roller 100 1081
+Backhoe 100 102
+Grader 100 109
+Water Cart 100 100
+Dump Truck 100 95
+Overall - 113
+Foundations
+Crane 100 106
+Piling Rig  – Impact Piling 100 1211
+Large excavator (35T) 100 100
+Pneumatic jackhammer 33 1111
+Concrete truck 100 106
+Concrete pump 100 106
+Large truck 100 108
+Overall - 122
+Frame & facade
+Concrete truck 100 106
+Concrete pump 100 106
+Crane 100 106
+General hand tools 100 94
+Large truck 100 108
+Overall - 113
+Notes:
+1. A +5 dB correction has been added to account for annoying characteristics of this source
+Construction is scheduled to be undertaken during recommended standard hours only. As such the
+impacts of construction activities on sleep disturbance do not need to be assessed. Sound power
+levels were obtained from published datasets in AS2436:2010Guide to noise and vibration control on
+construction, demolition and maintenance sites, BS5228: Part 1 2009 Code of Practice for Noise and
+Vibration Control on Construction and Open Sites Part 1: Noiseand AECOM’s database. All
+equipment is assumed to be modern and in good working order.
+5.1.2 Modelling and conditions
+Modelling of the proposed construction scenarios was completed using SoundPLAN 8.0. Neutral
+weather conditions were applied.
+It can be expected that there may be differences between predicted and measured noise levels due to
+variations in instantaneous operating conditions, plant in operation during the measurement and also
+the location of the plant equipment. The acoustic shielding calculated in the model due to localised
+fixed building structures would also vary as the construction equipment moves around the site.
+5.1.3 Results
+Table 18 presents the number of residential properties in each NCA where the NMLs are likely to be
+exceeded. Table 19 presents the number of non-residential properties where the NMLs are likely to be
+exceeded. Locations of exceedances at residential receivers are presented in Appendix D.
+[[page 27]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+15AECOM
+Table 18 Number of residential buildings where noise levels may exceed NMLs
+Scenario
+Exceedance of NML Highly
+Affected
+>75 dB(A)1-10 dB(A) 11-20 dB(A) >20 dB(A)
+NCA1
+Site establishment and
+enabling works
+1 0 0 0
+Foundations - Impact piling 63 0 0 0
+Frame and Facades 0 0 0 0
+NCA 2
+Site establishment and
+enabling works
+0 0 0 0
+Foundations - Impact piling 3 0 0 0
+Frame and Facades 0 0 0 0
+Table 19 Number of non-residential buildings where noise levels may exceed NMLs
+Scenario
+Exceedance of NML
+1-10 dB(A) 11-20 dB(A) > 20 dB(A)
+Site establishment and
+enabling works 3 3 0
+Foundations - Impact piling 8 3 0
+Frame and Facades 3 0 0
+In general, it can be seen that the construction phases and activities are expected to exceed the noise
+management levels at various times during the Project’s construction. Noise from the impact piling
+phase is the most noise intensive due to the use of large plant and nature of the activities. Noise from
+construction activities are less noise intensive and would affect fewer locations.
+It is expected that careful selection of well-maintained and quiet plant would result in some noise
+reduction. Provision of a site-perimeter noise barrier would have minimal effect on construction noise
+emission due to the relative height of the affected buildings.
+None of the construction phases are expected to result in noise levels which exceed the ‘highly noise
+affected’ level of 75 dB(A).
+There is potential for construction activities in the area to operate concurrently with the project, in
+particular the commercial development to the north of the site at M Park.
+Assuming that the noisiest stages of any other construction project were to coincide with the
+construction of this Project, the greatest increase in noise levels from either project would be a
+maximum of 3 dB(A) on the levels presented in this assessment, where this Project is the dominant
+source of construction noise. Where receivers are impacted to a greater extent by other construction
+projects, then overall construction noise levels at any receiver could be increased by as much as 3
+dB(A) from those projects’ noise levels.
+Consultation would be undertaken with other contractors where relevant to manage cumulative
+impacts on sensitive receivers within common areas. Feasible and reasonable mitigation measures
+would be detailed in the Construction Noise and Vibration Management Plan (refer Section 6.0).
+5.2 Construction vibration
+Vibration-intensive works may include the use of the following items of equipment:
+[[page 28]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+16AECOM
+· Vibratory rollers;
+· Piling rigs; and
+· Jackhammers.
+The minimum working distances of these items of equipment to nearby receivers are shown in Table
+20 which is based on recommendations of the TfNSWConstruction Noise and Vibration Strategy
+(CNVS) and AECOM’s previous project experience. If these minimum working distances are complied
+with no adverse impacts from vibration intensive works are likely in terms of human response or
+cosmetic damage. Equipment size would be selected by the construction contractor and would take
+into account the minimum working distances and the distance between the area of construction and
+the nearest sensitive receiver. Based on the indicative construction activities assessed for the
+proposed development, works are unlikely to occur within the minimum working distances.
+Table 20 Recommended minimum working distances for vibration intensive plant
+Plant Rating/Description
+Minimum working distance
+Cosmetic
+damage Human response
+Vibratory
+Roller
+< 50 kN (Typically 1-2 tonnes) 5 m 15 m
+< 100 kN (Typically 2-4 tonnes) 6 m 20 m
+< 200 kN (Typically 4-6 tonnes) 12 m 40 m
+<300 kN (Typically 7-13 tonnes) 15 m 100 m
+Piling Rig ≤800 mm 2 m nominal 4 m
+Jackhammer Handheld 1 m nominal Avoid contact with
+structure
+5.3 Construction traffic
+The construction work would be undertaken in stages and would require a number of trucks to deliver
+materials including concrete to the site, as well as other light vehicles. During early stages of
+construction workers may be able to park on site, during later stages they would park away from the
+site and either walk or use public transport to get to the site.
+To assess the impact of construction traffic it has been assumed that 90 heavy vehicles and 150 light
+vehicles would visit the site during a worst case day.
+Based on the existing traffic noise levels on the adjacent roads, the construction traffic to the data
+centre is predicted to be less than 2 dB. Therefore, the traffic impact on access roads would be
+acceptable.
+[[page 29]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+17AECOM
+6.0 Construction noise and vibration mitigation
+Given that NMLs are likely to be exceeded, reasonable and feasible noise mitigation measures and
+work practices would need to be considered. Where receivers are predicted to be ‘noise affected’ the
+interim Construction Noise Guideline states that all feasible and reasonable works practices should be
+applied to meet the NMLs. It is recommended that a construction noise and vibration management
+plan (CNVMP) be prepared for each stage of the data centre construction.
+Details of noise and vibration mitigation measures and management practices which should be
+considered for each CNVMP are detailed below.
+The CNVMP would include the following:
+· Identification of nearby residences and other sensitive land uses;
+· Description of approved hours of work;
+· Description and identification of all construction activities, including work areas, equipment and
+duration;
+· Description of what work practices (generic and specific) would be applied to minimise noise and
+vibration;
+· A complaint handling process;
+· Noise and vibration monitoring procedures; and
+· Overview of community consultation required for identified high impact works.
+Noise and vibration mitigation measures which should be considered in the CNVMP are detailed
+below in Table 21. Details of an indicative monitoring program and complaints handling procedure are
+provided in Section Error! Reference source not found. and Error! Reference source not found..
+[[page 30]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+18AECOM
+Table 21 Recommended noise mitigation measures
+Action required Safeguard details
+Management measures
+Implement community
+consultation measures
+Periodic notification (monthly letterbox drop or equivalent), website,
+Project Infoline, Construction Response Line, email distribution list and
+community and stakeholder meetings.
+Site inductions All employees, contractors and subcontractors are to receive an
+environmental induction.
+Behavioural practices No swearing or unnecessary shouting or loud stereos/radios on site.
+No dropping of materials from height, throwing of metal items and
+slamming of doors.
+Monitoring A noise monitoring program should be considered in accordance with
+the CNVMP.
+Attended vibration
+measurements
+Attended vibration measurements are recommended at the
+commencement of vibration generating activities to determine site
+specific minimum working distances.
+Vibration intensive work should not proceed within the minimum working
+distances unless a permanent vibration monitoring system is installed
+approximately a metre from the building footprint, to warn operators (via
+flashing light, audible alarm, SMS etc.) when vibration levels are
+approaching the peak particle velocity objective.
+Source controls
+Construction hours and
+scheduling
+Where feasible and reasonable, construction should be carried out
+during the standard daytime working hours. Work generating high noise
+and/or vibration levels should be scheduled during less sensitive time
+periods. Consideration should be given to avoiding examination periods.
+Construction respite period High noise and vibration generating activities (eg rock breaking) may
+only be carried out in continuous blocks, not exceeding three hours
+each, with a minimum respite period of one hour between each block.
+Equipment selection and
+maintenance
+Use quieter and less vibration emitting construction methods where
+feasible and reasonable. Equipment would be regularly inspected and
+maintained to ensure it is in good working order.
+Maximum noise levels The noise levels of plant and equipment must have operating sound
+power or sound pressure levels that would meet the predicted noise
+levels.
+Rental plant and equipment Noise emissions should be considered as part of the selection process.
+Use and siting of plant · Avoid simultaneous operation of noisy plant within discernible range
+of a sensitive receiver.
+· The offset distance between noisy plant and adjacent sensitive
+receivers is to be maximised.
+· Plant used intermittently to be throttled down or shut down.
+· Plant and vehicles to be turned off when not in use.
+· Noise-emitting plant to be directed away from sensitive receivers.
+[[page 31]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+19AECOM
+Action required Safeguard details
+Plan works site and
+activities to minimise noise
+and vibration
+Plan traffic flow, parking and loading/unloading areas to minimise
+reversing movements within the site.
+Non-tonal reversing alarms Non-tonal reversing beepers (or an equivalent mechanism) must be
+fitted and used on all construction vehicles and mobile plant regularly
+used on site and for any out of hours work.
+Minimise disturbance
+arising from delivery of
+goods to construction sites
+· Loading and unloading of materials/deliveries is to occur as far as
+possible from sensitive receivers.
+· Select site access points and roads as far as possible away from
+sensitive receivers.
+· Dedicated loading/unloading areas to be shielded if close to
+sensitive receivers.
+· Delivery vehicles to be fitted with straps rather than chains for
+unloading, wherever possible.
+Construction related traffic · Schedule and route vehicle movements away from sensitive
+receivers and during less sensitive times.
+· Limit the speed of vehicles and avoid the use of engine
+compression brakes.
+· Maximise on-site storage capacity to reduce the need for truck
+movements during sensitive times.
+Silencers on Mobile Plant
+Where possible reduce noise from mobile plant through additional
+fittings including:
+· Residential grade mufflers
+· Damped hammers such as “City” Model Rammer Hammers
+· Air parking brake engagement is silenced
+Alternative methods
+The use of less vibration-intensive methods of construction or equipment
+is preferred where practical to reduce the potential for cosmetic damage.
+All equipment should be maintained and operated in an efficient manner,
+in accordance with manufacturer’s specifications, to reduce the potential
+for adverse vibration impacts
+Site specific minimum
+working distances
+Attended vibration measurements are undertaken when work
+commences, to determine site-specific minimum working distances.
+Vibration intensive work should not proceed within the minimum working
+distances unless a permanent vibration monitoring system is installed
+around one metre from the building footprint, to warn operators (e.g. via
+flashing light, audible alarm, SMS) when vibration levels are
+approaching the peak particle velocity objective.
+Path controls
+Shield stationary noise
+sources such as pumps,
+compressors, fans etc.
+Stationary noise sources should be enclosed or shielded whilst ensuring
+that the occupational health and safety of workers is maintained.
+Shield sensitive receivers
+from noisy activities
+Use structures to shield residential receivers from noise such as site
+shed placement; earth bunds; fencing; erection of operational stage
+noise barriers (where practicable) and consideration of site topography
+when situating plant.
+[[page 32]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+20AECOM
+7.0 Operational noise impact assessment
+The sources of noise with the potential to impact adjacent noise sensitive receivers include the air
+handling units (AHU), relief air fans, computer room air conditioning units (CRAC) and back-up
+generators.
+The data halls and associated mechanical equipment will be fitted out according to customer demand,
+potentially taking several years to be fully fitted out. Despite this the operational noise assessment has
+assumed a worst case, based on the facility being fully operational with all floors fitted out from day of
+opening.
+7.1 Equipment
+7.1.1 Fan coil units
+It is understood that each AHU would consist of 12 fans per unit and that there would be 16 AHUs
+operating per level, per side, with a total of 64 units serving the building in normal operation. The
+AHUs would be located within a plant room with intake and discharge via louvres on the northern and
+southern façades. The AHU fan noise level used in the operational noise assessment is presented in
+Table 22.
+Table 22 AHU fan noise levels
+Equipment dB(A)
+Octave band centre frequency, Hz
+63 125 250 500 1k 2k 4k
+Air handling unit fan
+Sound power level, dB 91 92 102 93 87 84 81 78
+The outside air intake louvres would be fitted with an attenuator with an insertion loss equal to or
+greater than the values presented in Table 23.
+Table 23 AHU Outside air attenuator static insertion loss
+Description
+Octave band centre frequency (Hz)
+63 125 250 500 1k 2k 4k 8k
+Outside air intake rectangular
+attenuator, dB
+(Based on Fantech RT17D)
+4 10 20 33 36 27 17 12
+It is understood that the outside air take of the AHUs would be fitted with architectural louvres.
+7.1.2 Relief air fans
+It is understood that relief air would be provided within two electrical rooms on each floor, each with 54
+relief air fans. This layout would be repeated on levels 1-3, with air discharging via louvres to the
+eastern and western facades of the building.
+The relief air fan used in the operational noise assessment is presented in Table 24.
+Table 24 Relief air fan sound power levels
+Equipment dB(A)
+Octave band centre frequency, Hz
+63 125 250 500 1k 2k 4k
+Relief Air Fans
+Maximum sound power level, dB
+80 77 77 77 77 77 72 67
+The relief air fans discharge would be fitted with an attenuator with an insertion loss equal to or greater
+than the values presented in Table 25.
+[[page 33]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+21AECOM
+Table 25 relief air fan discharge attenuator static insertion loss
+Description
+Octave Band Centre Frequency (Hz)
+63 125 250 500 1k 2k 4k 8k
+Relief air fan discharge rectangular
+attenuator, dB (Based on Fantech
+RT12C)
+4 8 17 27 31 23 14 11
+7.1.3 CRAC units
+It is understood that 16 CRAC units would be located on the ground floor adjacent to the eastern
+facade. The sound power level of the CRAC unit used in the operational noise assessment is
+presented in Table 26.
+Table 26 CRAC unit sound power levels
+Equipment Sound power level, dB(A)
+CRAC unit maximum sound power level 91
+7.1.4 Back-up generators
+A series of 2,400 kW back-up generators are proposed to be installed on site within acoustic
+enclosures. The generators would intake and discharge air through attenuators that are approximately
+5.5 metres high and 3.8 metres wide. The back-up generators would be located on the south eastern
+facade of the building.
+Aside from regular testing, the back-up generators would only be used where there is a grid power
+outage (ie in an emergency and used temporarily). During testing only one back-up generator would
+be running at any one time.
+The manufacturer’s sound pressure level at one metre from the back-up generator unit used in the
+operational noise assessment is presented in Table 27.
+Table 27 Back-up generator sound pressure level
+Description Octave band noise levels, dB
+Frequency, Hz dB(A) 63 125 250 500 1000 2000 4000 8000
+Back-up generator with acoustic
+enclosure, SPL at 1 metre, dB 70 68 70 68 69 65 62 58 50
+7.2 Modelling methodology
+Operational noise levels from the proposed development have been predicted at nearby noise
+sensitive receivers using SoundPLAN 8.0 (industry standard) noise modelling software.
+The modelling includes:
+· ground topography
+· buildings and structures
+· ground absorption (set at 60%), and
+· representative operational noise sources (all sources are assumed to be running for the entire
+15 minute period).
+7.2.1 Modelling assumptions
+The following assumptions have been made:
+[[page 34]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+22AECOM
+Normal operations
+· all 64 AHUs, 324 Relief air fans, 16 CRAC units operating at full capacity
+· during all periods of the day, and
+· neutral weather conditions and adverse weather conditions including:
+- 3 m/s wind from source to receiver
+- F class temperature inversion with a 2 m/s drainage wind.
+Periodic testing operations
+· all 64 AHUs, 324 Relief air fans, 16 CRAC units operating at full capacity
+· one back-up generator operating at full capacity (Worst case generator considered ie nearest)
+· during daytime only, and
+· neutral weather conditions and adverse weather conditions including:
+- 3 m/s wind from source to receiver
+- F class temperature inversion with a 2 m/s drainage wind.
+7.3 Predicted noise levels
+7.3.1 Residential receivers
+Based on the operations described above, the predicted noise levels are provided below in Table 28.
+Table 28 Predicted noise levels at residential receivers, dB(A)
+Assessment
+receiver
+Weather
+conditions
+Normal operations Back-up generator testing
+Predicted
+level Criterion1 Compliance Predicted
+level Criterion2 Compliance
+R1 Neutral 40 43 Yes 46 50 Yes
+3m/s wind 41 46
+Inversion 41 46
+R2 Neutral 41 43 Yes 47 50 Yes
+3m/s wind 43 47
+Inversion 43 47
+R3 Neutral 43 43 Yes3 48 50 Yes
+3m/s wind 44 48
+Inversion 44 49
+R4 Neutral 41 43 Yes 50 50 Yes
+3m/s wind 42 50
+Inversion 42 50
+R5 Neutral 41 43 Yes 47 50 Yes
+3m/s wind 42 48
+Inversion 42 48
+R6 Neutral 38 43 Yes 38 47 Yes
+3m/s wind 39 40
+Inversion 40 40
+[[page 35]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+23AECOM
+Assessment
+receiver
+Weather
+conditions
+Normal operations Back-up generator testing
+Predicted
+level Criterion1 Compliance Predicted
+level Criterion2 Compliance
+R7 Neutral 38 43 Yes 40 47 Yes
+3m/s wind 39 41
+Inversion 39 41
+R8 Neutral 37 38 Yes 44 47 Yes
+3m/s wind 38 45
+Inversion 38 45
+R9 Neutral 36 38 Yes 43 47 Yes
+3m/s wind 37 43
+Inversion 37 44
+R10 Neutral 20 38 Yes 24 47 Yes
+3m/s wind 21 24
+Inversion 21 25
+R11 Neutral 33 38 Yes 40 47 Yes
+3m/s wind 34 41
+Inversion 34 41
+R12 Neutral 29 43 Yes 30 50 Yes
+3m/s wind 29 31
+Inversion 29 31
+Notes:
+1. Night-time criterion to represent the worst case scenario
+2. Daytime criterion as back-up generators would be testing during the daytime only
+3. Exceedances of up to 2 dB are considered negligible. They would not be discernible by the average listener and therefore
+would not warrant receiver-based treatments or controls.
+It can be seen from Table 28 that noise levels at all receivers comply with the criteria under neutral
+weather conditions. Under adverse weather conditions noise levels at R6 exceeds the night-time
+criterion by up to 2 dB(A) and noise levels at R3 and R7 exceed the night-time criterion by up to
+1 dB(A). The Noise Policy for Industry states that exceedances of up to 2 dB are negligible and would
+not be discernible by the average listener and therefore would not warrant receiver-based treatments
+or controls. It is noted that these exceedances occur under worst-case weather conditions only.
+7.3.2 Sleep disturbance
+The LAeq levels would comply with the sleep disturbance screening trigger levels presented in Table 16
+at residential receivers. Night-time noise emissions from the data centre would generally be
+associated with relatively constant activities, therefore the LAmax levels would be very similar to the LAeq
+levels. The LAmax levels would comply with the sleep disturbance screening trigger levels presented in
+Table 16 at residential receivers.
+7.3.3 Non-residential receivers
+Based on the operations described above, the predicted noise levels for non-residential receivers are
+provided below in Table 29.
+[[page 36]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+24AECOM
+Table 29 Predicted noise levels at non-residential receivers, dB(A)
+Assessment
+receiver
+Weather
+conditions
+Normal operations Back-up generator testing
+Predicted
+level Criterion Compliance Predicted
+level Criterion Compliance
+N1 Neutral 65 63 Yes1 65 68 Yes
+3m/s wind 65 65
+Inversion 65 65
+N2 Neutral 62 63 Yes 63 68 Yes
+3m/s wind 63 63
+Inversion 63 63
+N3 Neutral 48 58 Yes 57 58 Yes
+3m/s wind 49 57
+Inversion 49 57
+N4 Neutral 43 58 Yes 52 58 Yes
+3m/s wind 44 53
+Inversion 44 53
+N5 Neutral 40 58 Yes 47 58 Yes
+3m/s wind 41 48
+Inversion 41 48
+N6 Neutral 37 482 Yes 41 633 Yes
+3m/s wind 38 41
+Inversion 38 41
+Notes:
+1. Exceedances of up to 2 dB are considered negligible. They would not be discernible by the average listener and therefore
+would not warrant receiver-based treatments or controls.
+2. Night-time criterion
+3. Daytime criterion
+It can be seen from Table 29 that noise levels at all non-residential receivers, with the exception of N1
+comply with the criteria under all weather conditions. Noise levels at N1 exceed the criteria by up to
+2 dB(A). The Noise Policy for Industry states that exceedances of up to 2 dB are negligible and would
+not be discernible by the average listener and therefore would not warrant receiver-based treatments
+or controls.
+7.4 Traffic movements
+The site is expected to generate up to 50 vehicle movements per day. Based on the existing traffic
+noise levels on the adjacent roads, the operation of the data centre is predicted to be insignificant (less
+than 1 dB(A)) therefore the traffic impact on access roads would be minimal.
+[[page 37]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+25AECOM
+8.0 Conclusion
+This report presents the results of a Noise and Vibration Impact Assessment of the proposed data
+centre located at 11-17 Khartoum Road and 33-39 Talavera Road, Macquarie Park, NSW.
+Construction noise has been assessed in accordance with the EPA’sInterim Construction Noise
+Guideline. Worst case construction scenarios have been considered. Construction works would be
+undertaken during standard hours. The level and number of exceedances of the construction noise
+management levels are provided in Section 5.1.3.
+Operational noise emissions from the Project have been assessed with consideration of the project
+noise trigger levels established in accordance with theNoise Policy for Industry and measured noise
+levels at noise sensitive locations close to the Project site.
+The operation of the proposed data centre with periodic back-up generator testing complies with the
+relevant Noise Policy for Industry criteria and is considered acceptable.
+Traffic generation as a result of the proposed development is minimal and predicted traffic noise
+increases would comply with the applicable criteria outlined in the NSW Road Noise Policy.
+Based upon this assessment documented above, all environmental noise and vibration impacts can be
+appropriate managed in accordance with the relevant guidelines and standards.
+[[page 38]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+AAECOM
+Appendix A
+Acoustic Terminology
+[[page 39]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+AAECOM
+Appendix A Acoustic Terminology
+The following is a brief description of acoustic terminology used in this report.
+Sound power level The total sound emitted by a source
+Sound pressure level The amount of sound at a specified point
+Decibel [dB] The measurement unit of sound
+A Weighted decibels [dB(A]) The A weighting is a frequency filter applied to measured noise
+levels to represent how humans hear sounds. The A-weighting filter
+emphasises frequencies in the speech range (between 1kHz and 4
+kHz) which the human ear is most sensitive to, and places less
+emphasis on low frequencies at which the human ear is not so
+sensitive. When an overall sound level is A-weighted it is expressed
+in units of dB(A).
+Decibel scale The decibel scale is logarithmic in order to produce a better
+representation of the response of the human ear. A 3 dB increase in
+the sound pressure level corresponds to a doubling in the sound
+energy. A 10 dB increase in the sound pressure level corresponds
+to a perceived doubling in volume. Examples of decibel levels of
+common sounds are as follows:
+0dB(A)
+30dB(A)
+40dB(A)
+50dB(A)
+70dB(A)
+80dB(A)
+90dB(A)
+100dB(A)
+110 dB(A)
+115dB(A)
+120dB(A)
+Threshold of human hearing
+A quiet country park
+Whisper in a library
+Open office space
+Inside a car on a freeway
+Outboard motor
+Heavy truck pass-by
+Jackhammer/Subway train
+Rock Concert
+Limit of sound permitted in industry
+747 take off at 250 metres
+Frequency [f] The repetition rate of the cycle measured in Hertz (Hz). The
+frequency corresponds to the pitch of the sound. A high frequency
+corresponds to a high pitched sound and a low frequency to a low
+pitched sound.
+Equivalent continuous sound
+level [Leq]
+The constant sound level which, when occurring over the same
+period of time, would result in the receiver experiencing the same
+amount of sound energy.
+Lmax The maximum sound pressure level measured over the
+measurement period
+Lmin The minimum sound pressure level measured over the
+measurement period
+L10 The sound pressure level exceeded for 10% of the measurement
+period. For 10% of the measurement period it was louder than the
+L10.
+[[page 40]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+BAECOM
+L90 The sound pressure level exceeded for 90% of the measurement
+period. For 90% of the measurement period it was louder than the
+L90.
+Ambient noise The all-encompassing noise at a point composed of sound from all
+sources near and far.
+Background noise The underlying level of noise present in the ambient noise when
+extraneous noise (such as transient traffic and dogs barking) is
+removed. The L90 sound pressure level is used to quantify
+background noise.
+Traffic noise The total noise resulting from road traffic. The Leq sound pressure
+level is used to quantify traffic noise.
+Day The period from 0700 to 1800 h Monday to Saturday and 0800 to
+1800 h Sundays and Public Holidays.
+Evening The period from 1800 to 2200 h Monday to Sunday and Public
+Holidays.
+Night The period from 2200 to 0700 h Monday to Saturday and 2200 to
+0800 h Sundays and Public Holidays.
+Assessment background
+level [ABL]
+The overall background level for each day, evening and night period
+for each day of the noise monitoring.
+Rating background level
+[RBL]
+The overall background level for each day, evening and night period
+for the entire length of noise monitoring.
+*Definitions of a number of terms have been adapted from Australian Standard AS1633:1985
+“Acoustics – Glossary of terms and related symbols”, the EPA’s NSW Industrial Noise Policy and the
+EPA’s NSW Road Noise Policy.
+[[page 41]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+BAECOM
+Appendix B
+Unattended Noise
+Monitoring
+[[page 42]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+AECOM
+Appendix B Unattended Noise Monitoring
+[[page 43]]
+Noise Logger Report
+7 Booth Street, MarsfieldI
+tem Information
+Logger Type Svan 957
+Serial number 23855
+Address 7 Booth Street, Marsfield
+Location Front yard
+Facade / Free Field Free field
+Environment Dominated by road traffic noise hum to north/north east. Ambient noise controlled by
+plane and local traffic pass by and some vehicles along Epping road to the north and
+herring road. Plane pass by frequent. Local car pass by ~ 64 dB(A). Sunny, no to very
+slight wind, some clouds. Birds calling.
+Measured noise levels
+Logging Date LAeq
+Day Eve Night
+ABL
+Day Eve Night
+LAeq,15hr LAeq,9hr
+Tue Mar 10 2020 60 54 52 - 42 - 56 52
+Wed Mar 11 2020 55 55 47 42 42 32 55 47
+Thu Mar 12 2020 53 51 45 - 41 34 53 45
+Fri Mar 13 2020 52 51 51 41 41 33 52 51
+Sat Mar 14 2020 53 52 47 - 42 34 53 47
+Sun Mar 15 2020 54 53 45 - 41 32 54 45
+Mon Mar 16 2020 56 52 46 46 44 33 55 46
+Tue Mar 17 2020 55 62 45 42 42 29 58 45
+Wed Mar 18 2020 55 52 45 42 41 34 54 45
+Thu Mar 19 2020 - - 44 - - - - 44
+Summary 55 56 47 42 42 33 55 47
+Note:    Results denoted with '-' do not contain enough valid data for a value to be calculated.  The data has been
+excluded either manually or automatically as a result of adverse weather conditions.
+Logger Location Logger Deployment Photo
+7 Booth Street, Marsfield Page 1
+[[page 44]]
+Typical Day
+Tuesday, 10 Mar 2020
+Wednesday, 11 Mar 2020
+7 Booth Street, Marsfield
+Page 2
+[[page 45]]
+Thursday, 12 Mar 2020
+Friday, 13 Mar 2020
+Saturday, 14 Mar 2020
+7 Booth Street, Marsfield
+Page 3
+[[page 46]]
+Sunday, 15 Mar 2020
+Monday, 16 Mar 2020
+Tuesday, 17 Mar 2020
+7 Booth Street, Marsfield
+Page 4
+[[page 47]]
+Wednesday, 18 Mar 2020
+Thursday, 19 Mar 2020
+7 Booth Street, Marsfield
+Page 5
+[[page 48]]
+Noise Logger Report
+Unit 6, 37 Khartoum Road, Macquarie ParkI
+tem Information
+Logger Type Svan 977
+Serial number 45416
+Address Unit 6, 37 Khartoum Road, Macquarie Park
+Location Front yard
+Facade / Free Field Free Field
+Environment Background controlled by environment. Noise environment dominated by road traffic
+noise to west along Khartoum road. Car pass by 58-62 dB(A). Minimal to little breeze,
+sunny, some clouds. Birds calling, trucks can be heard in distance.
+Measured noise levels
+Logging Date LAeq
+Day Eve Night
+ABL
+Day Eve Night
+LAeq,15hr LAeq,9hr
+Tue Mar 10 2020 56 58 53 - 46 - 58 53
+Wed Mar 11 2020 56 58 50 45 46 37 57 50
+Thu Mar 12 2020 56 56 52 45 46 38 56 52
+Fri Mar 13 2020 60 54 49 45 43 40 59 49
+Sat Mar 14 2020 59 57 50 50 46 38 59 50
+Sun Mar 15 2020 57 57 51 46 44 38 57 51
+Mon Mar 16 2020 59 59 52 48 45 37 59 52
+Tue Mar 17 2020 58 66 51 46 43 36 62 51
+Wed Mar 18 2020 53 55 50 44 43 39 54 50
+Thu Mar 19 2020 55 54 50 44 42 38 55 50
+Fri Mar 20 2020 55 - 50 - - - 55 50
+Summary 57 59 51 45 45 38 58 51
+Note:    Results denoted with '-' do not contain enough valid data for a value to be calculated.  The data has been
+excluded either manually or automatically as a result of adverse weather conditions.
+Logger Location Logger Deployment Photo
+Unit 6, 37 Khartoum Road, Macquarie Park Page 1
+[[page 49]]
+Typical Day
+Tuesday, 10 Mar 2020
+Wednesday, 11 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 2
+[[page 50]]
+Thursday, 12 Mar 2020
+Friday, 13 Mar 2020
+Saturday, 14 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 3
+[[page 51]]
+Sunday, 15 Mar 2020
+Monday, 16 Mar 2020
+Tuesday, 17 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 4
+[[page 52]]
+Wednesday, 18 Mar 2020
+Thursday, 19 Mar 2020
+Friday, 20 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 5
+[[page 53]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+CAECOM
+Appendix C
+Operational Noise
+Contour Plots
+[[page 54]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+CAECOM
+Appendix C Operational Noise Contour Plots
+[[page 55]]
+ B O O T H   S T R E E T
+ U N I V E R S I T Y   A V E N U E
+ L Y O N P A R K   R O A D
+ H E R R I N G   R O A D
+ L E I S U R E
+ C L O S E
+ L A N E   C O V E V A L L E Y   W A L K
+ B Y F I E L D   S T R E E T
+ O P T U S   D R I V E
+ K H A R T O U M   R O A D
+ F O N T E N O Y   R O A D
+ T U C K W E L L
+ P L A C E
+ C O T T O N W O O D
+ C R E S C E N T
+ T A L A V E R A   R O A D
+ W A T E R L O O   R O A D
+ E P P I N G   R O A D
+ R I V E R S I D E   D R I V E
+ R E S E A R C H   P A R K   D R I V E
+ E P P I N G
+ R O A D
+ I V A N H O
+ E   P L A C E
+ M 2   M O T O R W A Y
+ M A C Q U A R I E   W A L K
+ G I F F N O C K   A V E N U E
+ H E R R I N G
+ R O A D
+ D O R A   S T R E E T
+ D E   B U R G H S   C Y C L E W A Y
+ N Y N G A N
+ W A Y N A R R O M I N E
+ W A Y
+ L Y O N P A R K
+ R O A D
+ E A S T E R N
+ R O A D
+ L A C H L A N   A V E N U E
+ T A S M A N
+ P L A C E
+ L A N E   C O V E   R O A D
+ H Y U N D A I
+ D R I V E
+ E P P I N G
+ R O A D
+ P A R K L A N D S
+ R O A D
+ G I F F N O C K
+ L A N E
+ E D E N
+ P A R K
+ D R I V E
+ P E A C H T R E E R O A D
+ E P P I N G   R O A D
+ E P P I N G R O A D
+ U N I V E R S I T Y
+ A V E N U E
+ R O G A L
+ P L A C E
+ O L D   D E
+ B U R G H S
+ B R I D G E   R O A D
+ C O O L I N G A
+ S T R E E T
+ W I L C A N N I A
+ W A Y
+ S A U N D E R S
+ C L O S E
+ A L M A   R O A D
+ I N N O V A T I O N   R O A D
+ P I T T W
+ A T E R
+ R O
+ A D
+ C E N T R A L
+ A V E N U E
+ W A L L Y S   W A L K
+ R I V E R S I D E
+ W A L K
+ M O O L T A N
+ A V E N U E
+ L A N E   C O V E   R O A D
+ S H R I M P T O N S
+ C R E E K   T R A I L
+ S C O T T   S T R E E T
+ H E R R I N G   R O A D
+ T U N K S   H I L L   R O A D
+ R I V E R S I D E   W
+ A L K
+ M 2   M O T O R W A Y
+ R I V E R S I D E   W
+ A L K
+ ©   D e p a r t m e n t   o f   C u s t o m e r   S e r v i c e   2 0 2 0
+ M a c q u a r i e   P a r k   D a t a   C e n t r e   P r e d i c t e d   o p e r a t i o n a l   n o i s e   l e v e l s   -   N o r m a l   o p e r a t i o n
+ S i t e
+ A t h e n a
+Sound Pressure Level, LAeq,15min, dB(A)
+ <   3 5
+ 3 5   -   4 5
+ 4 5   -   5 0
+ 5 0   -   5 5
+ 5 5   -   6 0
+ 6 0   -   6 5
+ 6 5   -   7 0
+ 7 0   -   7 5
+ >   7 5
+ 0  0 . 1  0 . 2
+ k m
+ C : \ U s e r s \ d u p \ D e s k t o p \ W o r k   a t   h o m e \ A t h e n a \ 5 _ M a p s \ S Y D 6 6 _ O p e r a t i o n _ c o n t o u r s . m x d   D a t e   S a v e d :   2 0 / 0 7 / 2 0 2 0
+ C o p y r i g h t :   C o p y r i g h t   i n   m a t e r i a l   r e l a t i n g   t o   t h e   b a s e   l a y e r s   ( c o n t e x t u a l   i n f o r m a t i o n )   o n   t h i s   p a g e   i s   l i c e n s e d   u n d e r   a C r e a t i v e   C o m m o n s ,   A t t r i b u t i o n   3 . 0   A u s t r a l i a   l i c e n c e   ©   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   2 0 1 7 ,   ( D i g i t a l C a d a s t r a l   D a t a b a s e   a n d / o r   D i g i t a l   T o p o g r a p h i c   D a t a b a s e ) . T h e   t e r m s   o f   C r e a t i v e   C o m m o n s   A t t r i b u t i o n   3 . 0   A u s t r a l i a   L i c e n s e   a r e   a v a i l a b l e   f r o m h t t p s : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 3 . 0 / a u / l e g a l c o d e   ( C o p y r i g h t   L i c e n c e ) N e i t h e r   A E C O M   A u s t r a l i a   P t y   L t d   ( A E C O M )   n o r   t h e   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   m a k e   a n y r e p r e s e n t a t i o n s   o r   w a r r a n t i e s   o f   a n y   k i n d ,   a b o u t   t h e   a c c u r a c y ,   r e l i a b i l i t y ,   c o m p l e t e n e s s   o r   s u i t a b i l i t y   o r   f i t n e s s   f o r   p u r p o s e i n   r e l a t i o n   t o   t h e   c o n t e n t   ( i n   a c c o r d a n c e   w i t h   c l a u s e   5   o f   t h e   C o p y r i g h t   L i c e n c e ) .   A E C O M   h a s   p r e p a r e d   t h i s   d o c u m e n t   f o r t h e   s o l e   u s e   o f   i t s   C l i e n t   b a s e d   o n   t h e   C l i e n t  s   d e s c r i p t i o n   o f   i t s   r e q u i r e m e n t s   h a v i n g   r e g a r d   t o   t h e   a s s u m p t i o n s   a n d   o t h e r l i m i t a t i o n s   s e t   o u t   i n   t h i s   r e p o r t ,   i n c l u d i n g   p a g e   2 .
+Source:
+[[page 56]]
+ B O O T H   S T R E E T
+ U N I V E R S I T Y   A V E N U E
+ L Y O N P A R K   R O A D
+ H E R R I N G   R O A D
+ L E I S U R E
+ C L O S E
+ L A N E   C O V E V A L L E Y   W A L K
+ B Y F I E L D   S T R E E T
+ O P T U S   D R I V E
+ K H A R T O U M   R O A D
+ F O N T E N O Y   R O A D
+ T U C K W E L L
+ P L A C E
+ C O T T O N W O O D
+ C R E S C E N T
+ T A L A V E R A   R O A D
+ W A T E R L O O   R O A D
+ E P P I N G   R O A D
+ R I V E R S I D E   D R I V E
+ R E S E A R C H   P A R K   D R I V E
+ E P P I N G
+ R O A D
+ I V A N H O
+ E   P L A C E
+ M 2   M O T O R W A Y
+ M A C Q U A R I E   W A L K
+ G I F F N O C K   A V E N U E
+ H E R R I N G
+ R O A D
+ D O R A   S T R E E T
+ D E   B U R G H S   C Y C L E W A Y
+ N Y N G A N
+ W A Y N A R R O M I N E
+ W A Y
+ L Y O N P A R K
+ R O A D
+ E A S T E R N
+ R O A D
+ L A C H L A N   A V E N U E
+ T A S M A N
+ P L A C E
+ L A N E   C O V E   R O A D
+ H Y U N D A I
+ D R I V E
+ E P P I N G
+ R O A D
+ P A R K L A N D S
+ R O A D
+ G I F F N O C K
+ L A N E
+ E D E N
+ P A R K
+ D R I V E
+ P E A C H T R E E R O A D
+ E P P I N G   R O A D
+ E P P I N G R O A D
+ U N I V E R S I T Y
+ A V E N U E
+ R O G A L
+ P L A C E
+ O L D   D E
+ B U R G H S
+ B R I D G E   R O A D
+ C O O L I N G A
+ S T R E E T
+ W I L C A N N I A
+ W A Y
+ S A U N D E R S
+ C L O S E
+ A L M A   R O A D
+ I N N O V A T I O N   R O A D
+ P I T T W
+ A T E R
+ R O
+ A D
+ C E N T R A L
+ A V E N U E
+ W A L L Y S   W A L K
+ R I V E R S I D E
+ W A L K
+ M O O L T A N
+ A V E N U E
+ L A N E   C O V E   R O A D
+ S H R I M P T O N S
+ C R E E K   T R A I L
+ S C O T T   S T R E E T
+ H E R R I N G   R O A D
+ T U N K S   H I L L   R O A D
+ R I V E R S I D E   W
+ A L K
+ M 2   M O T O R W A Y
+ R I V E R S I D E   W
+ A L K
+ ©   D e p a r t m e n t   o f   C u s t o m e r   S e r v i c e   2 0 2 0
+ M a c q u a r i e   P a r k   D a t a   C e n t r e   P r e d i c t e d   o p e r a t i o n a l   n o i s e   l e v e l s   -   E m e r g e n c y   o p e r a t i o n
+ S i t e
+ A t h e n a
+Sound Pressure Level, LAeq,15min, dB(A)
+ < 4 5
+ 4 5   -   5 0
+ 5 0   -   5 5
+ 5 5   -   6 0
+ 6 0   -   6 5
+ 6 5   -   7 0
+ 7 0   -   7 5
+ >   7 5
+ 0  0 . 1  0 . 2
+ k m
+ C : \ U s e r s \ d u p \ D e s k t o p \ W o r k   a t   h o m e \ A t h e n a \ 5 _ M a p s \ S Y D 6 6 _ O p e r a t i o n _ c o n t o u r s . m x d   D a t e   S a v e d :   2 0 / 0 7 / 2 0 2 0
+ C o p y r i g h t :   C o p y r i g h t   i n   m a t e r i a l   r e l a t i n g   t o   t h e   b a s e   l a y e r s   ( c o n t e x t u a l   i n f o r m a t i o n )   o n   t h i s   p a g e   i s   l i c e n s e d   u n d e r   a C r e a t i v e   C o m m o n s ,   A t t r i b u t i o n   3 . 0   A u s t r a l i a   l i c e n c e   ©   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   2 0 1 7 ,   ( D i g i t a l C a d a s t r a l   D a t a b a s e   a n d / o r   D i g i t a l   T o p o g r a p h i c   D a t a b a s e ) . T h e   t e r m s   o f   C r e a t i v e   C o m m o n s   A t t r i b u t i o n   3 . 0   A u s t r a l i a   L i c e n s e   a r e   a v a i l a b l e   f r o m h t t p s : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 3 . 0 / a u / l e g a l c o d e   ( C o p y r i g h t   L i c e n c e ) N e i t h e r   A E C O M   A u s t r a l i a   P t y   L t d   ( A E C O M )   n o r   t h e   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   m a k e   a n y r e p r e s e n t a t i o n s   o r   w a r r a n t i e s   o f   a n y   k i n d ,   a b o u t   t h e   a c c u r a c y ,   r e l i a b i l i t y ,   c o m p l e t e n e s s   o r   s u i t a b i l i t y   o r   f i t n e s s   f o r   p u r p o s e i n   r e l a t i o n   t o   t h e   c o n t e n t   ( i n   a c c o r d a n c e   w i t h   c l a u s e   5   o f   t h e   C o p y r i g h t   L i c e n c e ) .   A E C O M   h a s   p r e p a r e d   t h i s   d o c u m e n t   f o r t h e   s o l e   u s e   o f   i t s   C l i e n t   b a s e d   o n   t h e   C l i e n t  s   d e s c r i p t i o n   o f   i t s   r e q u i r e m e n t s   h a v i n g   r e g a r d   t o   t h e   a s s u m p t i o n s   a n d   o t h e r l i m i t a t i o n s   s e t   o u t   i n   t h i s   r e p o r t ,   i n c l u d i n g   p a g e   2 .
+Source:
+[[page 57]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+DAECOM
+Appendix D
+Location of Construction
+Noise Criteria
+[[page 58]]
+Macquarie Park Data Centre
+\\ausyd1pnaw001\Projects\606X\60628128\400_Technical\441_Acoustics\4_Documents\SSDA\60628128-RPNV-02_B.docx
+Revision B – 09-Nov-2020
+DAECOM
+Appendix D Construction Noise Contour Plots
+[[page 59]]
+ B O O T H   S T R E E T
+ E A S T E R N   R O A D
+ U N I V E R S I T Y   A V E N U E
+ S C I E N C E
+ R O A D
+ L Y O N P A R K   R O A D
+ H E R R I N G   R O A D
+ D U R H A M
+ C L O S E
+ L E I S U R E
+ C L O S E
+ P A U L
+ S T R E E T
+ B Y F I E L D   S T R E E T
+ E D E N   P A R K
+ D R I V E
+ O P T U S   D R I V E
+ K H A R T O U M   R O A D
+ R Y D E
+ R O A D
+ F O N T E N O Y   R O A D
+ T U C K W E L L
+ P L A C E
+ E P P I N G   R O A D
+ C O T T O N W O O D
+ C R E S C E N T
+ T A L A V E R A   R O A D
+ W A T E R L O O   R O A D  R I V E R S I D E   D R I V E
+ R E S E A R C H
+ P A R K   D R I V E
+ I V A N H O E
+ P L A C E
+ M 2   M O T O R W A Y
+ A L A N
+ B O N D
+ P L A C E
+ E P P I N G   R O A D
+ G I F F N O C K   A V E N U E
+ H E R R I N G   R O A D
+ A D E L P H I
+ R O A D
+ D O R A
+ S T R E E T
+ C A R L I S L E C L O S E
+ L I B R A R Y
+ R O A D
+ D E   B U R G H S   C Y C L E W A Y
+ N A R R O M I N E
+ W A Y
+ L A C H L A N
+ A V E N U E
+ M A C Q U A R I E   W A L K
+ E U C A L Y P T U S
+ S T R E E T
+ L E O N A R D
+ P L A C E
+ H A W
+ K E S
+ P A T H W
+ A Y
+ T A S M A N
+ P L A C E
+ W H I T E S I D E
+ S T R E E T
+ N O L A
+ S T R E E T
+ L A N E   C O V E   R O A D
+ P A R K L A N D S
+ R O A D
+ E P P I N G
+ R O A D
+ G A R D E N I A
+ C O U R T
+ G I F F N O C K
+ L A N E
+ D A V I D A V E N U E
+ C A R O L I N E
+ C H I S H O L M
+ D R I V E
+ P E A C H T R E E R O A D  L A N E   C O
+ V E   V A L L E Y   W
+ A L K
+ K E N T R O A D
+ W A R I N G   S T R E E T
+ H Y U N D A I
+ D R I V E
+ U N I V E R S I T Y
+ A V E N U E
+ R O G A L
+ P L A C E
+ A L B E R T   D R I V E
+ O L D   D E
+ B U R G H S
+ B R I D G E   R O A D
+ T E R R A C E   R O A D
+ C O O L I N G A
+ S T R E E T
+ W I L C A N N I A
+ W A Y
+ S A U N D E R S
+ C L O S E
+ A L M A
+ R O A D
+ D R A K E
+ A V E N U E
+ T H O M
+ A S
+ H O L T
+ D R I V E
+ I N N O V A T I O N   R O A D
+ C E N T R A L
+ A V E N U E
+ R Y D E
+ R O A D
+ W I C K S
+ R O A D
+ W A L L Y S   W A L K
+ B I L L   C R O W E
+ P R O M E N A D E
+ B E S W I C K
+ A V E N U E
+ M O O L T A N
+ A V E N U E
+ M A N N I N G
+ R O A D
+ L A N E   C O V E   R O A D
+ G O V E R N O R S B O U L E V A R D
+ S C O T T
+ S T R E E T
+ B L U E G U M R O A D
+ H E R R I N G
+ R O A D
+ W I L D I N G   S T R E E T
+ P I T T W
+ A T E R   R O
+ A D
+ E P P I N G   R O A D
+ S H R I M P T O N S
+ C R E E K   T R A I L
+ T U N K S   H I L L   R O A D
+ R I V E R S I D E   W A L K
+ E P P I N G R O A D
+ M 2   M O T O R W A Y
+ R I V E R S I D E   W
+ A L K
+ ©   D e p a r t m e n t   o f   C u s t o m e r   S e r v i c e   2 0 2 0
+ M a c q u a r i e   P a r k   D a t a   C e n t r e   P r e d i c t e d   c o n s t r u c t i o n   n o i s e   l e v e l s   -   S i t e   e s t a b l i s h m e n t   a n d   e n a b l i n g   w o r k s
+ S i t e
+ A t h e n a
+Sound Pressure Level, LAeq,15min, dB(A)
+ <   5 0
+ 5 0   -   5 5
+ 5 5   -   6 0
+ 6 0   -   6 5
+ 6 5   -   7 0
+ 7 0   -   7 5
+ >   7 5
+ 0  0 . 1  0 . 2
+ k m
+ C : \ U s e r s \ d u p \ D e s k t o p \ W o r k   a t   h o m e \ A t h e n a \ 5 _ M a p s \ S Y D 6 6 _ C o n s t r u c t i o n _ c o n t o u r s . m x d   D a t e   S a v e d :   9 / 0 7 / 2 0 2 0
+ C o p y r i g h t :   C o p y r i g h t   i n   m a t e r i a l   r e l a t i n g   t o   t h e   b a s e   l a y e r s   ( c o n t e x t u a l   i n f o r m a t i o n )   o n   t h i s   p a g e   i s   l i c e n s e d   u n d e r   a C r e a t i v e   C o m m o n s ,   A t t r i b u t i o n   3 . 0   A u s t r a l i a   l i c e n c e   ©   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   2 0 1 7 ,   ( D i g i t a l C a d a s t r a l   D a t a b a s e   a n d / o r   D i g i t a l   T o p o g r a p h i c   D a t a b a s e ) . T h e   t e r m s   o f   C r e a t i v e   C o m m o n s   A t t r i b u t i o n   3 . 0   A u s t r a l i a   L i c e n s e   a r e   a v a i l a b l e   f r o m h t t p s : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 3 . 0 / a u / l e g a l c o d e   ( C o p y r i g h t   L i c e n c e ) N e i t h e r   A E C O M   A u s t r a l i a   P t y   L t d   ( A E C O M )   n o r   t h e   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   m a k e   a n y r e p r e s e n t a t i o n s   o r   w a r r a n t i e s   o f   a n y   k i n d ,   a b o u t   t h e   a c c u r a c y ,   r e l i a b i l i t y ,   c o m p l e t e n e s s   o r   s u i t a b i l i t y   o r   f i t n e s s   f o r   p u r p o s e i n   r e l a t i o n   t o   t h e   c o n t e n t   ( i n   a c c o r d a n c e   w i t h   c l a u s e   5   o f   t h e   C o p y r i g h t   L i c e n c e ) .   A E C O M   h a s   p r e p a r e d   t h i s   d o c u m e n t   f o r t h e   s o l e   u s e   o f   i t s   C l i e n t   b a s e d   o n   t h e   C l i e n t  s   d e s c r i p t i o n   o f   i t s   r e q u i r e m e n t s   h a v i n g   r e g a r d   t o   t h e   a s s u m p t i o n s   a n d   o t h e r l i m i t a t i o n s   s e t   o u t   i n   t h i s   r e p o r t ,   i n c l u d i n g   p a g e   2 .
+Source:
+[[page 60]]
+ B O O T H   S T R E E T
+ E A S T E R N   R O A D
+ U N I V E R S I T Y   A V E N U E
+ S C I E N C E
+ R O A D
+ L Y O N P A R K   R O A D
+ H E R R I N G   R O A D
+ D U R H A M
+ C L O S E
+ L E I S U R E
+ C L O S E
+ P A U L
+ S T R E E T
+ B Y F I E L D   S T R E E T
+ E D E N   P A R K
+ D R I V E
+ O P T U S   D R I V E
+ K H A R T O U M   R O A D
+ R Y D E
+ R O A D
+ F O N T E N O Y   R O A D
+ T U C K W E L L
+ P L A C E
+ E P P I N G   R O A D
+ C O T T O N W O O D
+ C R E S C E N T
+ T A L A V E R A   R O A D
+ W A T E R L O O   R O A D  R I V E R S I D E   D R I V E
+ R E S E A R C H
+ P A R K   D R I V E
+ I V A N H O E
+ P L A C E
+ M 2   M O T O R W A Y
+ A L A N
+ B O N D
+ P L A C E
+ E P P I N G   R O A D
+ G I F F N O C K   A V E N U E
+ H E R R I N G   R O A D
+ A D E L P H I
+ R O A D
+ D O R A
+ S T R E E T
+ C A R L I S L E C L O S E
+ L I B R A R Y
+ R O A D
+ D E   B U R G H S   C Y C L E W A Y
+ N A R R O M I N E
+ W A Y
+ L A C H L A N
+ A V E N U E
+ M A C Q U A R I E   W A L K
+ E U C A L Y P T U S
+ S T R E E T
+ L E O N A R D
+ P L A C E
+ H A W
+ K E S
+ P A T H W
+ A Y
+ T A S M A N
+ P L A C E
+ W H I T E S I D E
+ S T R E E T
+ N O L A
+ S T R E E T
+ L A N E   C O V E   R O A D
+ P A R K L A N D S
+ R O A D
+ E P P I N G
+ R O A D
+ G A R D E N I A
+ C O U R T
+ G I F F N O C K
+ L A N E
+ D A V I D A V E N U E
+ C A R O L I N E
+ C H I S H O L M
+ D R I V E
+ P E A C H T R E E R O A D  L A N E   C O
+ V E   V A L L E Y   W
+ A L K
+ K E N T R O A D
+ W A R I N G   S T R E E T
+ H Y U N D A I
+ D R I V E
+ U N I V E R S I T Y
+ A V E N U E
+ R O G A L
+ P L A C E
+ A L B E R T   D R I V E
+ O L D   D E
+ B U R G H S
+ B R I D G E   R O A D
+ T E R R A C E   R O A D
+ C O O L I N G A
+ S T R E E T
+ W I L C A N N I A
+ W A Y
+ S A U N D E R S
+ C L O S E
+ A L M A
+ R O A D
+ D R A K E
+ A V E N U E
+ T H O M
+ A S
+ H O L T
+ D R I V E
+ I N N O V A T I O N   R O A D
+ C E N T R A L
+ A V E N U E
+ R Y D E
+ R O A D
+ W I C K S
+ R O A D
+ W A L L Y S   W A L K
+ B I L L   C R O W E
+ P R O M E N A D E
+ B E S W I C K
+ A V E N U E
+ M O O L T A N
+ A V E N U E
+ M A N N I N G
+ R O A D
+ L A N E   C O V E   R O A D
+ G O V E R N O R S B O U L E V A R D
+ S C O T T
+ S T R E E T
+ B L U E G U M R O A D
+ H E R R I N G
+ R O A D
+ W I L D I N G   S T R E E T
+ P I T T W
+ A T E R   R O
+ A D
+ E P P I N G   R O A D
+ S H R I M P T O N S
+ C R E E K   T R A I L
+ T U N K S   H I L L   R O A D
+ R I V E R S I D E   W A L K
+ E P P I N G R O A D
+ M 2   M O T O R W A Y
+ R I V E R S I D E   W
+ A L K
+ ©   D e p a r t m e n t   o f   C u s t o m e r   S e r v i c e   2 0 2 0
+ M a c q u a r i e   P a r k   D a t a   C e n t r e   P r e d i c t e d   c o n s t r u c t i o n   n o i s e   l e v e l s   -   F o u n d a t i o n s   -   I m p a c t   p i l i n g
+ S i t e
+ A t h e n a
+Sound Pressure Level, LAeq,15min, dB(A)
+ <   5 0
+ 5 0   -   5 5
+ 5 5   -   6 0
+ 6 0   -   6 5
+ 6 5   -   7 0
+ 7 0   -   7 5
+ >   7 5
+ 0  0 . 1  0 . 2
+ k m
+ C : \ U s e r s \ d u p \ D e s k t o p \ W o r k   a t   h o m e \ A t h e n a \ 5 _ M a p s \ S Y D 6 6 _ C o n s t r u c t i o n _ c o n t o u r s . m x d   D a t e   S a v e d :   9 / 0 7 / 2 0 2 0
+ C o p y r i g h t :   C o p y r i g h t   i n   m a t e r i a l   r e l a t i n g   t o   t h e   b a s e   l a y e r s   ( c o n t e x t u a l   i n f o r m a t i o n )   o n   t h i s   p a g e   i s   l i c e n s e d   u n d e r   a C r e a t i v e   C o m m o n s ,   A t t r i b u t i o n   3 . 0   A u s t r a l i a   l i c e n c e   ©   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   2 0 1 7 ,   ( D i g i t a l C a d a s t r a l   D a t a b a s e   a n d / o r   D i g i t a l   T o p o g r a p h i c   D a t a b a s e ) . T h e   t e r m s   o f   C r e a t i v e   C o m m o n s   A t t r i b u t i o n   3 . 0   A u s t r a l i a   L i c e n s e   a r e   a v a i l a b l e   f r o m h t t p s : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 3 . 0 / a u / l e g a l c o d e   ( C o p y r i g h t   L i c e n c e ) N e i t h e r   A E C O M   A u s t r a l i a   P t y   L t d   ( A E C O M )   n o r   t h e   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   m a k e   a n y r e p r e s e n t a t i o n s   o r   w a r r a n t i e s   o f   a n y   k i n d ,   a b o u t   t h e   a c c u r a c y ,   r e l i a b i l i t y ,   c o m p l e t e n e s s   o r   s u i t a b i l i t y   o r   f i t n e s s   f o r   p u r p o s e i n   r e l a t i o n   t o   t h e   c o n t e n t   ( i n   a c c o r d a n c e   w i t h   c l a u s e   5   o f   t h e   C o p y r i g h t   L i c e n c e ) .   A E C O M   h a s   p r e p a r e d   t h i s   d o c u m e n t   f o r t h e   s o l e   u s e   o f   i t s   C l i e n t   b a s e d   o n   t h e   C l i e n t  s   d e s c r i p t i o n   o f   i t s   r e q u i r e m e n t s   h a v i n g   r e g a r d   t o   t h e   a s s u m p t i o n s   a n d   o t h e r l i m i t a t i o n s   s e t   o u t   i n   t h i s   r e p o r t ,   i n c l u d i n g   p a g e   2 .
+Source:
+[[page 61]]
+ B O O T H   S T R E E T
+ E A S T E R N   R O A D
+ U N I V E R S I T Y   A V E N U E
+ S C I E N C E
+ R O A D
+ L Y O N P A R K   R O A D
+ H E R R I N G   R O A D
+ D U R H A M
+ C L O S E
+ L E I S U R E
+ C L O S E
+ P A U L
+ S T R E E T
+ B Y F I E L D   S T R E E T
+ E D E N   P A R K
+ D R I V E
+ O P T U S   D R I V E
+ K H A R T O U M   R O A D
+ R Y D E
+ R O A D
+ F O N T E N O Y   R O A D
+ T U C K W E L L
+ P L A C E
+ E P P I N G   R O A D
+ C O T T O N W O O D
+ C R E S C E N T
+ T A L A V E R A   R O A D
+ W A T E R L O O   R O A D  R I V E R S I D E   D R I V E
+ R E S E A R C H
+ P A R K   D R I V E
+ I V A N H O E
+ P L A C E
+ M 2   M O T O R W A Y
+ A L A N
+ B O N D
+ P L A C E
+ E P P I N G   R O A D
+ G I F F N O C K   A V E N U E
+ H E R R I N G   R O A D
+ A D E L P H I
+ R O A D
+ D O R A
+ S T R E E T
+ C A R L I S L E C L O S E
+ L I B R A R Y
+ R O A D
+ D E   B U R G H S   C Y C L E W A Y
+ N A R R O M I N E
+ W A Y
+ L A C H L A N
+ A V E N U E
+ M A C Q U A R I E   W A L K
+ E U C A L Y P T U S
+ S T R E E T
+ L E O N A R D
+ P L A C E
+ H A W
+ K E S
+ P A T H W
+ A Y
+ T A S M A N
+ P L A C E
+ W H I T E S I D E
+ S T R E E T
+ N O L A
+ S T R E E T
+ L A N E   C O V E   R O A D
+ P A R K L A N D S
+ R O A D
+ E P P I N G
+ R O A D
+ G A R D E N I A
+ C O U R T
+ G I F F N O C K
+ L A N E
+ D A V I D A V E N U E
+ C A R O L I N E
+ C H I S H O L M
+ D R I V E
+ P E A C H T R E E R O A D  L A N E   C O
+ V E   V A L L E Y   W
+ A L K
+ K E N T R O A D
+ W A R I N G   S T R E E T
+ H Y U N D A I
+ D R I V E
+ U N I V E R S I T Y
+ A V E N U E
+ R O G A L
+ P L A C E
+ A L B E R T   D R I V E
+ O L D   D E
+ B U R G H S
+ B R I D G E   R O A D
+ T E R R A C E   R O A D
+ C O O L I N G A
+ S T R E E T
+ W I L C A N N I A
+ W A Y
+ S A U N D E R S
+ C L O S E
+ A L M A
+ R O A D
+ D R A K E
+ A V E N U E
+ T H O M
+ A S
+ H O L T
+ D R I V E
+ I N N O V A T I O N   R O A D
+ C E N T R A L
+ A V E N U E
+ R Y D E
+ R O A D
+ W I C K S
+ R O A D
+ W A L L Y S   W A L K
+ B I L L   C R O W E
+ P R O M E N A D E
+ B E S W I C K
+ A V E N U E
+ M O O L T A N
+ A V E N U E
+ M A N N I N G
+ R O A D
+ L A N E   C O V E   R O A D
+ G O V E R N O R S B O U L E V A R D
+ S C O T T
+ S T R E E T
+ B L U E G U M R O A D
+ H E R R I N G
+ R O A D
+ W I L D I N G   S T R E E T
+ P I T T W
+ A T E R   R O
+ A D
+ E P P I N G   R O A D
+ S H R I M P T O N S
+ C R E E K   T R A I L
+ T U N K S   H I L L   R O A D
+ R I V E R S I D E   W A L K
+ E P P I N G R O A D
+ M 2   M O T O R W A Y
+ R I V E R S I D E   W
+ A L K
+ ©   D e p a r t m e n t   o f   C u s t o m e r   S e r v i c e   2 0 2 0
+ M a c q u a r i e   P a r k   D a t a   C e n t r e   P r e d i c t e d   c o n s t r u c t i o n   n o i s e   l e v e l s   -   F o u n d a t i o n s   -   B o r e d   p i l i n g
+ S i t e
+ A t h e n a
+Sound Pressure Level, LAeq,15min, dB(A)
+ <   5 0
+ 5 0   -   5 5
+ 5 5   -   6 0
+ 6 0   -   6 5
+ 6 5   -   7 0
+ 7 0   -   7 5
+ >   7 5
+ 0  0 . 1  0 . 2
+ k m
+ C : \ U s e r s \ d u p \ D e s k t o p \ W o r k   a t   h o m e \ A t h e n a \ 5 _ M a p s \ S Y D 6 6 _ C o n s t r u c t i o n _ c o n t o u r s . m x d   D a t e   S a v e d :   9 / 0 7 / 2 0 2 0
+ C o p y r i g h t :   C o p y r i g h t   i n   m a t e r i a l   r e l a t i n g   t o   t h e   b a s e   l a y e r s   ( c o n t e x t u a l   i n f o r m a t i o n )   o n   t h i s   p a g e   i s   l i c e n s e d   u n d e r   a C r e a t i v e   C o m m o n s ,   A t t r i b u t i o n   3 . 0   A u s t r a l i a   l i c e n c e   ©   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   2 0 1 7 ,   ( D i g i t a l C a d a s t r a l   D a t a b a s e   a n d / o r   D i g i t a l   T o p o g r a p h i c   D a t a b a s e ) . T h e   t e r m s   o f   C r e a t i v e   C o m m o n s   A t t r i b u t i o n   3 . 0   A u s t r a l i a   L i c e n s e   a r e   a v a i l a b l e   f r o m h t t p s : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 3 . 0 / a u / l e g a l c o d e   ( C o p y r i g h t   L i c e n c e ) N e i t h e r   A E C O M   A u s t r a l i a   P t y   L t d   ( A E C O M )   n o r   t h e   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   m a k e   a n y r e p r e s e n t a t i o n s   o r   w a r r a n t i e s   o f   a n y   k i n d ,   a b o u t   t h e   a c c u r a c y ,   r e l i a b i l i t y ,   c o m p l e t e n e s s   o r   s u i t a b i l i t y   o r   f i t n e s s   f o r   p u r p o s e i n   r e l a t i o n   t o   t h e   c o n t e n t   ( i n   a c c o r d a n c e   w i t h   c l a u s e   5   o f   t h e   C o p y r i g h t   L i c e n c e ) .   A E C O M   h a s   p r e p a r e d   t h i s   d o c u m e n t   f o r t h e   s o l e   u s e   o f   i t s   C l i e n t   b a s e d   o n   t h e   C l i e n t  s   d e s c r i p t i o n   o f   i t s   r e q u i r e m e n t s   h a v i n g   r e g a r d   t o   t h e   a s s u m p t i o n s   a n d   o t h e r l i m i t a t i o n s   s e t   o u t   i n   t h i s   r e p o r t ,   i n c l u d i n g   p a g e   2 .
+Source:
+[[page 62]]
+ B O O T H   S T R E E T
+ E A S T E R N   R O A D
+ U N I V E R S I T Y   A V E N U E
+ S C I E N C E
+ R O A D
+ L Y O N P A R K   R O A D
+ H E R R I N G   R O A D
+ D U R H A M
+ C L O S E
+ L E I S U R E
+ C L O S E
+ P A U L
+ S T R E E T
+ B Y F I E L D   S T R E E T
+ E D E N   P A R K
+ D R I V E
+ O P T U S   D R I V E
+ K H A R T O U M   R O A D
+ R Y D E
+ R O A D
+ F O N T E N O Y   R O A D
+ T U C K W E L L
+ P L A C E
+ E P P I N G   R O A D
+ C O T T O N W O O D
+ C R E S C E N T
+ T A L A V E R A   R O A D
+ W A T E R L O O   R O A D  R I V E R S I D E   D R I V E
+ R E S E A R C H
+ P A R K   D R I V E
+ I V A N H O E
+ P L A C E
+ M 2   M O T O R W A Y
+ A L A N
+ B O N D
+ P L A C E
+ E P P I N G   R O A D
+ G I F F N O C K   A V E N U E
+ H E R R I N G   R O A D
+ A D E L P H I
+ R O A D
+ D O R A
+ S T R E E T
+ C A R L I S L E C L O S E
+ L I B R A R Y
+ R O A D
+ D E   B U R G H S   C Y C L E W A Y
+ N A R R O M I N E
+ W A Y
+ L A C H L A N
+ A V E N U E
+ M A C Q U A R I E   W A L K
+ E U C A L Y P T U S
+ S T R E E T
+ L E O N A R D
+ P L A C E
+ H A W
+ K E S
+ P A T H W
+ A Y
+ T A S M A N
+ P L A C E
+ W H I T E S I D E
+ S T R E E T
+ N O L A
+ S T R E E T
+ L A N E   C O V E   R O A D
+ P A R K L A N D S
+ R O A D
+ E P P I N G
+ R O A D
+ G A R D E N I A
+ C O U R T
+ G I F F N O C K
+ L A N E
+ D A V I D A V E N U E
+ C A R O L I N E
+ C H I S H O L M
+ D R I V E
+ P E A C H T R E E R O A D  L A N E   C O
+ V E   V A L L E Y   W
+ A L K
+ K E N T R O A D
+ W A R I N G   S T R E E T
+ H Y U N D A I
+ D R I V E
+ U N I V E R S I T Y
+ A V E N U E
+ R O G A L
+ P L A C E
+ A L B E R T   D R I V E
+ O L D   D E
+ B U R G H S
+ B R I D G E   R O A D
+ T E R R A C E   R O A D
+ C O O L I N G A
+ S T R E E T
+ W I L C A N N I A
+ W A Y
+ S A U N D E R S
+ C L O S E
+ A L M A
+ R O A D
+ D R A K E
+ A V E N U E
+ T H O M
+ A S
+ H O L T
+ D R I V E
+ I N N O V A T I O N   R O A D
+ C E N T R A L
+ A V E N U E
+ R Y D E
+ R O A D
+ W I C K S
+ R O A D
+ W A L L Y S   W A L K
+ B I L L   C R O W E
+ P R O M E N A D E
+ B E S W I C K
+ A V E N U E
+ M O O L T A N
+ A V E N U E
+ M A N N I N G
+ R O A D
+ L A N E   C O V E   R O A D
+ G O V E R N O R S B O U L E V A R D
+ S C O T T
+ S T R E E T
+ B L U E G U M R O A D
+ H E R R I N G
+ R O A D
+ W I L D I N G   S T R E E T
+ P I T T W
+ A T E R   R O
+ A D
+ E P P I N G   R O A D
+ S H R I M P T O N S
+ C R E E K   T R A I L
+ T U N K S   H I L L   R O A D
+ R I V E R S I D E   W A L K
+ E P P I N G R O A D
+ M 2   M O T O R W A Y
+ R I V E R S I D E   W
+ A L K
+ ©   D e p a r t m e n t   o f   C u s t o m e r   S e r v i c e   2 0 2 0
+ M a c q u a r i e   P a r k   D a t a   C e n t r e   P r e d i c t e d   c o n s t r u c t i o n   n o i s e   l e v e l s   -   F r a m e   a n d   F a c a d e s
+ S i t e
+ A t h e n a
+Sound Pressure Level, LAeq,15min, dB(A)
+ <   5 0
+ 5 0   -   5 5
+ 5 5   -   6 0
+ 6 0   -   6 5
+ 6 5   -   7 0
+ 7 0   -   7 5
+ >   7 5
+ 0  0 . 1  0 . 2
+ k m
+ C : \ U s e r s \ d u p \ D e s k t o p \ W o r k   a t   h o m e \ A t h e n a \ 5 _ M a p s \ S Y D 6 6 _ C o n s t r u c t i o n _ c o n t o u r s . m x d   D a t e   S a v e d :   9 / 0 7 / 2 0 2 0
+ C o p y r i g h t :   C o p y r i g h t   i n   m a t e r i a l   r e l a t i n g   t o   t h e   b a s e   l a y e r s   ( c o n t e x t u a l   i n f o r m a t i o n )   o n   t h i s   p a g e   i s   l i c e n s e d   u n d e r   a C r e a t i v e   C o m m o n s ,   A t t r i b u t i o n   3 . 0   A u s t r a l i a   l i c e n c e   ©   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   2 0 1 7 ,   ( D i g i t a l C a d a s t r a l   D a t a b a s e   a n d / o r   D i g i t a l   T o p o g r a p h i c   D a t a b a s e ) . T h e   t e r m s   o f   C r e a t i v e   C o m m o n s   A t t r i b u t i o n   3 . 0   A u s t r a l i a   L i c e n s e   a r e   a v a i l a b l e   f r o m h t t p s : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y / 3 . 0 / a u / l e g a l c o d e   ( C o p y r i g h t   L i c e n c e ) N e i t h e r   A E C O M   A u s t r a l i a   P t y   L t d   ( A E C O M )   n o r   t h e   D e p a r t m e n t   o f   F i n a n c e ,   S e r v i c e s   &   I n n o v a t i o n   m a k e   a n y r e p r e s e n t a t i o n s   o r   w a r r a n t i e s   o f   a n y   k i n d ,   a b o u t   t h e   a c c u r a c y ,   r e l i a b i l i t y ,   c o m p l e t e n e s s   o r   s u i t a b i l i t y   o r   f i t n e s s   f o r   p u r p o s e i n   r e l a t i o n   t o   t h e   c o n t e n t   ( i n   a c c o r d a n c e   w i t h   c l a u s e   5   o f   t h e   C o p y r i g h t   L i c e n c e ) .   A E C O M   h a s   p r e p a r e d   t h i s   d o c u m e n t   f o r t h e   s o l e   u s e   o f   i t s   C l i e n t   b a s e d   o n   t h e   C l i e n t  s   d e s c r i p t i o n   o f   i t s   r e q u i r e m e n t s   h a v i n g   r e g a r d   t o   t h e   a s s u m p t i o n s   a n d   o t h e r l i m i t a t i o n s   s e t   o u t   i n   t h i s   r e p o r t ,   i n c l u d i n g   p a g e   2 .
+Source:

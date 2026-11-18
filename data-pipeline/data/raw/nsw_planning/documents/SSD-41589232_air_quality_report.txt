@@ -1,0 +1,2585 @@
+[[page 1]]
+This document has been prepared for EMKC3 by:
+Northstar Air Quality Pty Ltd,
+Suite 1504, 275 Alfred Street, North Sydney, NSW 2060
+www.northstarairquality.com | Tel: 1300 708 590
+Proposed Datacentre, 51 Huntingwood Drive
+Air Quality Impact Assessment
+Addressee(s): EMKC3
+Site Address: 51 Huntingwood Drive, Huntingwood
+Report Reference: 22.1095.FR1V3
+Date: 1 September 2022
+Status: Revised Final
+
+[[page 2]]
+22.1095.FR1V3 Page ii
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Quality Control
+Study Status Prepared
+by
+Checked
+by
+Authorised
+by
+INTRODUCTION Final Northstar Air Quality MD, GCG, LS MD
+THE PROPOSAL Final Northstar Air Quality MD, GCG, LS MD
+LEGISLATION, REGULATION AND GUIDANCE Final Northstar Air Quality MD, GCG, LS MD
+EXISTING CONDITIONS Final Northstar Air Quality MD, GCG, LS MD
+METHODOLOGY Final Northstar Air Quality MD, GCG, LS MD
+CONSTRUCTION PHASE AIR QUALITY
+ASSESSMENT
+Final Northstar Air Quality MD, GCG, LS MD
+OPERATIONAL PHASE AIR QUALITY ASSESSMENT Final Northstar Air Quality MD, GCG, LS MD
+DISCUSSION AND CONCLUSION Final Northstar Air Quality MD, GCG, LS MD
+Report Status
+Northstar References Report Status Report Reference Version
+Year Job Number (Draft: Final) (Rx) (Vx)
+22 22.1095 Revised Final R1 V3
+Based upon the above, the specific reference for this version of the report is: 22.1095.FR1V3
+Final Authority
+This report must by regarded as draft until the above study components have been each marked as final, and the
+document has been signed and dated below.
+Martin Doyle 1 September 2022
+© Northstar Air Quality Pty Ltd 2022
+Copyright in the drawings, information and data recorded in this document (the information) is the property of Northstar Air
+Quality Pty Ltd.  This report has been prepared with the due care and attention of a suitably qualified consultant.  Information is
+obtained from sources believed to be reliable, but is in no way guaranteed. No guarantee of any kind is implied or possible
+where predictions of future conditions are attempted. This report (including any enclosures and attachments) has been
+prepared for the exclusive use and benefit of the addressee(s) and solely for the purpose for which it is provided. Unless we
+provide express prior written consent, no part of this report should be reproduced, distributed or communicated to any third
+party. We do not accept any liability if this report is used for an alternative purpose from which it is intended, nor to any third
+party in respect of this report.
+[[page 3]]
+22.1095.FR1V3 Page iii
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Non-Technical Summary
+EMKC3 has commissioned Northstar Air Quality Pty Ltd to perform an air quality impact assessment for the
+construction and operation of a proposed datacentre to be located at 51 Huntingwood Drive, Huntingwood.
+This air quality impact assessment presents an assessment of the risks and impacts to local air quality
+associated with the construction and operation of a proposed datacentre.  This report addresses the industry
+specific Secretary’s Environmental Assessment Requirements for the Proposal and presents a number of
+recommended mitigation measures to minimise any identified air quality impacts where required and relevant.
+The construction assessment shows there to be a high risk of adverse dust soiling and human health impacts
+associated with demolition works should no mitigation measures be applied.  To address this risk a range of
+standard mitigation measures are recommended to ensure that short-term impacts associated with
+demolition activities are minimised.
+The prediction of potential impacts associated with operational activities has been performed in general
+accordance with the requirements of the NSW Environment Protection Authority Approved Methods (NSW
+EPA 2016), using an approved and appropriate dispersion modelling technique, under two operating
+scenarios as follows:
+A justified worst-case scenario of emergency operation with all 316 generators operating at 100 % load; and
+A scenario representing realistic operations with three generators operating at 100 % load for 15 minutes in
+each hour, representing the generator testing regime.
+Based on the information presented in this report, the operation of the proposal is not considered likely to
+result in additional exceedances of the relevant air quality criteria at any identified receptor location.  Under
+a justified worst case emergency generator operational scenario, the likelihood and frequency of such a power
+outage at the site, resulting in operation of all generators was predicted to represent an event never before
+experienced on the electricity network, with the probability of occurring determined to be highly unlikely.
+Under a realistic operational scenario, where the emergency generators are operated under a routine testing
+schedule, no significant air quality impacts are predicted to be experienced at sensitive receptors.
+It is respectfully considered that the Proposal should not be rejected on the grounds of air quality.
+[[page 4]]
+22.1095.FR1V3 Page iv
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+CONTENTS
+1. INTRODUCTION .................................................................................................................................. 7
+1.1. Secretary Environmental Assessment Requirements ................................................................................. 7
+1.2. Adequacy Review ................................................................................................................................................. 7
+1.3. Purpose of the Report ........................................................................................................................................ 8
+2. THE PROPOSAL ................................................................................................................................... 9
+2.1. Environmental Setting ......................................................................................................................................... 9
+2.2. Overview and Purpose ....................................................................................................................................... 9
+2.3. Identification of Potential Emissions to Atmosphere ................................................................................ 12
+3. LEGISLATION, REGULATION AND GUIDANCE .......................................................................... 14
+3.1. Protection of the Environment Act 1997 ...................................................................................................... 14
+3.2. Protection of the Environment Operations (Clean Air) Regulation 2021 ............................................ 15
+3.3. Air Quality Standards ......................................................................................................................................... 16
+4. EXISTING CONDITIONS ....................................................................................................................18
+4.1. Surrounding Land Sensitivity ........................................................................................................................... 18
+4.2. Topography .......................................................................................................................................................... 21
+4.3. Meteorology ......................................................................................................................................................... 21
+4.4. Air Quality ............................................................................................................................................................. 23
+4.5. Potential for Cumulative Impacts .................................................................................................................. 25
+5. METHODOLOGY ................................................................................................................................ 28
+5.1. Construction Phase ............................................................................................................................................ 28
+5.2. Operational Phase ............................................................................................................................................. 29
+6. CONSTRUCTION PHASE AIR QUALITY ASSESSMENT ............................................................. 36
+6.1. Risk (Pre-Mitigation) .......................................................................................................................................... 36
+6.2. Risk (Post Mitigation) ......................................................................................................................................... 36
+7. OPERATIONAL PHASE AIR QUALITY ASSESSMENT ................................................................. 38
+7.1. Scenario 1 – Justified Worst-Case.................................................................................................................. 38
+7.2. Scenario 2 – Realistic Operations ................................................................................................................... 51
+8. DISCUSSION AND CONCLUSION ................................................................................................. 62
+8.1. Construction Phase Risk Assessment ........................................................................................................... 62
+8.2. Operational Phase Impact Assessment ....................................................................................................... 62
+[[page 5]]
+22.1095.FR1V3 Page v
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+8.3. Mitigation and Monitoring .............................................................................................................................. 64
+8.4. Other Considerations ........................................................................................................................................ 64
+8.5. Conclusion ............................................................................................................................................................ 65
+9. REFERENCES ....................................................................................................................................... 66
+APPENDIX A ............................................................................................................................................................... 67
+APPENDIX  B .............................................................................................................................................................. 73
+APPENDIX  C .............................................................................................................................................................. 80
+APPENDIX D ............................................................................................................................................................... 94
+FIGURES
+Figure 1 Proposed site location .......................................................................................................................................10
+Figure 2 Proposal site layout ............................................................................................................................................ 11
+Figure 3 Sensitive receptors surrounding the Proposal site ................................................................................... 20
+Figure 4 Topography surrounding the Proposal site ............................................................................................... 22
+Figure 5 Location of proximate data centres .............................................................................................................. 27
+Figure 6 Construction phase impact risk assessment methodology ................................................................... 29
+Figure 7 Locations of emissions points for modelled scenario – Scenario 1 ..................................................... 32
+Figure 8 Locations of emissions points for modelled scenario – Scenario 2 .................................................... 33
+Figure 9 Predicted maximum incremental 24-hour PM10 impacts – Scenario 1 ............................................... 42
+Figure 10 Predicted maximum incremental 1-hour NO2 impacts – Scenario 1 ................................................... 44
+Figure 11 Predicted maximum incremental 1-hour Benzene impacts – Scenario 1 .......................................... 49
+Figure 12 Predicted maximum incremental 24-hour PM10 impacts – Scenario 2 .............................................. 54
+Figure 13 Predicted maximum incremental 1-hour NO2 impacts – Scenario 2 .................................................. 56
+Figure 14 Predicted maximum incremental 1-hour benzene – Scenario 2 .......................................................... 58
+Figure 15 System reliability – unplanned SAIDI ............................................................................................................ 63
+TABLES
+Table 1 Industry Specific Secretary’s Environmental Assessment Requirements – SSD-41589232............. 7
+Table 2 DPE adequacy review comments – SSD-41589232 ................................................................................... 7
+Table 3 Emergency generator maintenance testing schedule..............................................................................13
+[[page 6]]
+22.1095.FR1V3 Page vi
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 4 NSW EPA air quality standards and goals ...................................................................................................16
+Table 5 Receptor locations used in the study ............................................................................................................19
+Table 6 Details of meteorological monitoring surrounding the Proposal site .................................................21
+Table 7 Closest NSW DPE AQMS to the Proposal site ........................................................................................... 23
+Table 8 Summary of background air quality used in the AQIA ........................................................................... 24
+Table 9 Emergency generator emissions and stack parameters ......................................................................... 34
+Table 10 Risk of air quality impacts from construction activities ........................................................................... 36
+Table 11 Predicted maximum incremental 24-hour PM10 and PM2.5 concentrations – Scenario 1 .............. 39
+Table 12 Summary of contemporaneous impact and background – Scenario 1 – PM10................................ 40
+Table 13 Summary of contemporaneous impact and background – Scenario 1 – PM2.5............................... 41
+Table 14 Predicted 1 hour nitrogen dioxide concentrations – Scenario 1 ........................................................... 43
+Table 15 Predicted 15-minutes, 1-hour and 8-hour average CO concentrations – Scenario 1 .................... 46
+Table 16 Predicted 10-minute, 1-hour, 24-hour and annual average SO2 concentrations – Scenario 1 ... 47
+Table 17 Predicted maximum incremental 1-hour PAH, benzene and formaldehyde concentrations –
+Scenario 1  48
+Table 18 Assessment of the number of additional exceedances .......................................................................... 50
+Table 19 Predicted annual average TSP, PM10 and PM2.5 concentrations – Scenario 2 ...................................51
+Table 20 Predicted annual average dust deposition – Scenario 2 ........................................................................ 52
+Table 21 Predicted maximum incremental 24-hour PM10 and PM2.5 concentrations – Scenario 2 ............. 53
+Table 22 Predicted 1-hour and annual average nitrogen dioxide concentrations – Scenario 2 .................. 55
+Table 23 Predicted 15-minute, 1-hour and 8-hour average carbon monoxide concentrations – Scenario 2
+59
+Table 24 Predicted 10-minute, 1-hour, 24-hour and annual average carbon monoxide concentrations –
+Scenario 2 60
+Table 25 Predicted maximum incremental 1-hour PAH, benzene and formaldehyde concentrations –
+Scenario 2 61
+Table 26 Chance of an exceedance during a power outage ................................................................................. 63
+[[page 7]]
+22.1095.FR1V3 INTRODUCTION Page 7
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+1. INTRODUCTION
+EMKC3 (the Proponent) has commissioned Northstar Air Quality Pty Ltd (Northstar) to perform an air quality
+impact assessment (AQIA) for the construction and operation of a proposed datacentre (the Proposal) to be
+located at 51 Huntingwood Drive, Huntingwood (the Proposal site).  The AQIA has been performed in
+accordance with the NSW EPAApproved Methods for the Modelling and Assessment of Air Pollutants in NSW
+(the Approved Methods) (NSW EPA, 2016).
+1.1. Secretary Environmental Assessment Requirements
+NSW Department of Planning & Environment (DPE) issued Industry Specific Secretary’s Environmental
+Assessment Requirements (SEARs) for the Proposal on 2 May 2022.  Table 1 below identifies the SEARs
+relevant to this AQIA report and the relevant sections of the report in which they have been addressed.
+Table 1 Industry Specific Secretary’s Environmental Assessment Requirements – SSD-41589232
+Issue Requirement Addressed
+Air Quality Provide an assessment of air quality impacts, prepared in accordance
+with the relevant NSW Environment Protection Authority (EPA)
+guidelines.
+The assessment must address construction works and include
+modelling of emissions and air pollutants from predicted operations
+(including testing of the back-up power system) and a peak emission
+and air pollutant scenario, and outline the proposed mitigation,
+management and monitoring measures that would be implemented.
+Sections 6 & 7
+Section 6
+Section 7
+Section 8
+1.2. Adequacy Review
+Following submission of a previous version of this report (22.1095.FR1V2, dated 10 July 2022), NSW DPE
+performed a review of adequacy of the EIS, and provided comments to be addressed.  In relation to air quality,
+the comments presented in Table 2 have been provided.
+Table 2 DPE adequacy review comments – SSD-41589232
+Issue Requirement Addressed
+Air Quality The Department notes the dispersion modelling data provide in Section
+6.9.2 of the EIS is inconsistent with the data provided in Appendix 24 of
+the EIS. The Department requests the EIS be reviewed and amended to
+provide the correct dispersion modelling data consistent between the
+EIS and the AQIA in Appendix 24.
+Addressed in EIS
+Although the Department notes the likelihood of Scenario 1 (justified
+worst case scenario) assessed in the EIS and Appendix 24 occurring is
+Section 8.4
+[[page 8]]
+22.1095.FR1V3 INTRODUCTION Page 8
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Issue Requirement Addressed
+highly unlikely. The Department is concerned with the level of nitrogen
+dioxide concentrations at surrounding receivers during Scenario 1. The
+EIS and Appendix 24 should be updated to further demonstrate and
+justify that all feasible and practical measures have been considered
+and implemented to reduce
+nitrogen dioxide concentrations.
+The AQIA in Appendix 24 should identify emissions source points in
+the dispersion modelling figures.
+Figure 7 and
+Figure 8
+1.3. Purpose of the Report
+The purpose of this report is to examine and identify whether the impacts of the construction and operation
+of the Proposal may adversely affect local air quality.
+To allow assessment of the level of risk associated with the Proposal in relation to air quality, the AQIA has
+been performed in accordance with and with due reference to:
+Approved Methods for the Modelling and Assessment of Air Pollutants in NSW (NSW EPA, 2016);
+ Approved Methods for the Sampling and Analysis of Air Pollutants in NSW (NSW EPA, 2022);
+ Technical Framework and Notes - Assessment and Management of Odour from Stationary Sources
+in NSW (NSW DEC, 2006);
+ Protection of the Environment Operations Act 1997;
+ Protection of the Environment Operations (Clean Air) Regulation 2021; and
+ State Environmental Planning Policy (State and Regional Development) 2011.
+[[page 9]]
+22.1095.FR1V3 THE PROPOSAL Page 9
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+2. THE PROPOSAL
+2.1. Environmental Setting
+The Proposal site is located at 51 Huntingwood Drive, Huntingwood.  The Proposal site is located within the
+Local Government Area (LGA) of City of Blacktown.
+A map illustrating the location of the Proposal site is presented in Figure 1.
+2.2. Overview and Purpose
+The Proposal is to construct and operate a data centre at the Proposal site.  The development will involve:
+ Demolition of an existing light industrial building;
+ Bulk earthworks;
+ Construction of site infrastructure and services;
+ Construction of ten data centre shells, approximately 48 meters (m) in height (over seven storeys);
+ Landscaping; and
+ Associated hardstand and 149 car parking facilities.
+The Proposal will operate 24-hours, seven days per week and have a total power consumption of
+400 megawatts (MW).  The total number of standby generators on-site for the ten shells is expected to be
+316 in total.  A layout of the Proposal, including the location of generators is provided in Figure 2.
+[[page 10]]
+22.1095.FR1V3 THE PROPOSAL Page 10
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 1 Proposed site location
+Source: Northstar Air Quality
+
+[[page 11]]
+22.1095.FR1V3 THE PROPOSAL Page 11
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 2 Proposal site layout
+Source: Provided by EKMC (July 2022)
+
+[[page 12]]
+22.1095.FR1V3 THE PROPOSAL Page 12
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+2.3. Identification of Potential Emissions to Atmosphere
+Given the nature of the Proposal described above, emissions to air would be likely to be generated as
+described below.
+2.3.1. Construction Phase
+Construction of the Proposal would involve bulk earthworks, construction of the data centre shells, car parking,
+associated infrastructure, site access points and landscaping.  An existing building on site will be demolished
+as part of the construction works, with bulk earthmoving required to level the site for development.
+An indicative list of plant and equipment that may be used during the construction of the Proposal includes:
+ Excavators;
+ Front end loaders;
+ Graders;
+ Light vehicles;
+ Heavy vehicles;
+ Drills;
+ Pneumatic hand or power tools;
+ Cranes;
+ Commercial vans; and
+ Cherry pickers.
+The assessment of the potential impacts upon local air quality, resulting from construction activities, is
+presented in Section 6.
+2.3.2. Operational Phase
+Operational emissions from the data centre on a day-to-day basis would be anticipated to be negligible, with
+the exception of potential emissions from emergency diesel-fuelled generators in the event of interruption to
+the mains power supply.
+As outlined in Section 2.2, the Proposal is to include the installation of 316 standby diesel fuelled generators.
+Each generator has a capacity of 2 000 kilowatt-electric (kWe) and a fuel consumption rate at 100 % load of
+501.4 litres per hour (L·hr-1).  The function of these generators is to provide emergency back-up power in the
+case of power supply failure, and correspondingly, anticipated operation will include periodic maintenance
+testing.
+[[page 13]]
+22.1095.FR1V3 THE PROPOSAL Page 13
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+During periods when the emergency diesel fuelled generators may be required to maintain electrical supply
+or used for maintenance testing, short-term emissions of combustion related pollutants may be generated.
+The pollutants of concern from the operation of the diesel-fuelled generators includes:
+ Particulate matter (PM);
+ Oxides of nitrogen (NOX)
+ Carbon monoxide (CO);
+ Sulphur dioxide (SO2);
+ Polycyclic aromatic hydrocarbons (PAHs);
+ Volatile organic compounds (VOCs); and
+ Formaldehyde (CH2O).
+The anticipated maintenance testing schedule is outlined in Table 3.
+Table 3 Emergency generator maintenance testing schedule
+Total
+generators
+Generators
+tested
+simultaneously
+Number of
+tests
+Test time
+(minutes)
+Tests per
+year
+Test minutes
+per
+generator
+per year
+Test hours
+per year
+316 3 106 15 4 60 106
+Given the nature of the development at this Proposal site, it is not anticipated that odour would be emitted
+in any significant quantity during construction or operation.  Any potential contamination identified through
+detailed site investigation would be managed to ensure that no odour would impact upon surrounding
+residences during construction.  During operation, no odorous activities are anticipated, and correspondingly,
+odour has not been considered further as part of this AQIA.
+[[page 14]]
+22.1095.FR1V3 LEGISLATION, REGULATION AND GUIDANCE Page 14
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+3. LEGISLATION, REGULATION AND GUIDANCE
+3.1. Protection of the Environment Act 1997
+The key legislation relevant to the Proposal is theProtection of Environment Operations Act 1997 (POEO Act)
+and the Protection of the Environment Operations (Clean Air) Regulation 2021.
+The POEO Act sets the statutory framework for managing air quality in NSW, including establishing the
+licensing scheme for major industrial premises and a range of air pollution offences and penalties.
+The POEO Act (Schedule 1, Part 1), provides definitions for scheduled activities, and the associated threshold
+activity rates.  For the Proposal, the thresholds relevant to electricity generation are most relevant, given the
+use of emergency diesel-fuelled generators at the Proposal site:
+17 Electricity generation
+(1) This clause applies to the following activities:
+…
+metropolitan electricity works (internal combustion engines), meaning the
+generation of electricity by means of electricity plant:
+(a) that is based on, or uses, an internal combustion engine, and
+(b) that is situated in the metropolitan area or in the local government area of
+Port Stephens, Maitland, Cessnock, Singleton, Wollondilly or Kiama.
+(1A) However, this clause does not apply to the generation of electricity by means of
+electricity plant that is emergency stand-by plant operating for less than 200 hours
+per year.
+(2) Each activity referred to in Column 1 of the Table to this clause is declared to be a
+scheduled activity if it meets the criteria set out in Column 2 of that Table.
+Column 1 Column 2
+Activity Criteria
+…
+metropolitan electricity works (internal
+combustion engines)
+…
+capacity to burn more than 3 megajoules of fuel
+per second
+On the assumption that the emergency power generators are not operated for more than 200 hours per year
+(refer Table 3), the Proposal is not deemed to be a scheduled activity under the POEO Act.
+Part 5.4 of the POEO Act outlines a number of requirements associated with air pollution.  These requirements
+generally relate to the appropriate maintenance of plant and equipment in an efficient condition and dealing
+with materials in a manner as to not cause air pollution.
+POEO (Clean Air) Regulation Part 5, Division 5 Clause 57(A) provides the following in regard to the regulation
+of emissions from emergency electricity generation:
+[[page 15]]
+22.1095.FR1V3 LEGISLATION, REGULATION AND GUIDANCE Page 15
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+57A   Exemption relating to emergency electricity generation
+Emergency standby plant comprising a stationary reciprocating internal combustion
+engine for generating electricity is exempt from the air impurities standard for nitrogen
+dioxide and nitric oxide specified in Schedule 4 in relation to that plant if the plant is
+used for a total of not more than 200 hours per year.
+Schedule 6 of the POEO (Clean Air) Regulation sets out emission limits relevant to unscheduled activities
+(including emergency electricity generators), being solid particles at an emission limit concentration of
+100 mg∙Nm-3 and an opacity limit of 20 %.
+Clause 46(2)(b) requires “that all practicable means are employed to prevent or minimise the emission of
+smoke during that period”.
+Although the operations may be exempt from the relevant emission limit regulations (i.e. in-stack emission
+concentrations), they would not be exempt from meeting ambient air quality criteria, which are discussed in
+Section 3.3.
+3.2. Protection of the Environment Operations (Clean Air) Regulation
+2021
+The NSW Protection of the Environment Operations (POEO Clean Air) Regulation 2021 is specifically regulated
+to manage air quality issues associated with various sources, such as burning motor vehicle fuels, fuel usage
+and transfers, air impurities from activities and plant, storage of volatile organic liquids and many others.
+Part 5 of the POEO (Clean Air) Regulation specifically addresses air impurities from activities and plant, and
+refers to Schedule 4 to set the Standard of Concentrations for scheduled premises of general activities and
+plant.  However, Clause 57A of the POEO (Clean Air) Regulation exempts emergency electricity generation
+comprising a stationary reciprocal internal combustion engine from the air impurities Standard of
+Concentrations of nitrogen dioxide and nitric oxide specified in Schedule 4 in relation to that plant, if the plant
+is used for a total of not more than 200 hours per year.  As outlined in Table 3, the anticipated number of
+operational hours through regular testing is anticipated to be less than 200 hours, and therefore the standards
+of concentration relating to NOX are not relevant.
+[[page 16]]
+22.1095.FR1V3 LEGISLATION, REGULATION AND GUIDANCE Page 16
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+3.3. Air Quality Standards
+State air quality guidelines adopted by the NSW EPA are published in the Approved Methods (NSW EPA,
+2016) which has been consulted during the preparation of this assessment report.
+The Approved Methods lists the statutory methods that are to be used to assess emissions of criteria air
+pollutants in NSW.  Section 7.1 of the Approved Methods clearly outlines the impact assessment criteria for
+the Proposal.  These are generally applicable for the protection of human health or amenity.
+The criteria listed in the Approved Methods are derived from a range of sources (including NHMRC, NEPC,
+DoE and WHO).  The criteria specified in the Approved Methods are the defining ambient air quality criteria
+for NSW.  The standards adopted to protect members of the community from health impacts in NSW are
+presented in Table 4.
+To assess the potential impact of emissions of Total Volatile Organic Compounds (TVOC) (which is a complex
+mixture of hydrocarbons), the 1-hour impact assessment criterion for benzene of 0.029 mg∙m-3 (29 µg∙m-3) as
+outlined in table 7.2a of the Approved Methods has been adopted.  Benzene is one of the primary
+components of TVOC emissions resulting from diesel combustion engines and correspondingly, compliance
+with the benzene criterion (refer Table 4) would generally result in compliance with all TVOC components.
+Table 4 NSW EPA air quality standards and goals
+Pollutant Averaging period Criterion Notes
+µg∙m-3 (a)
+Sulphur dioxide (SO2)
+10 minutes 712
+1 hour 570
+24 hours 228
+Annual 60
+Nitrogen dioxide (NO2)
+1 hour 246
+Numerically
+equivalent to the
+AAQ NEPM(b)
+standards and goals
+Annual 62
+Particulates (as PM10)
+24 hours 50
+1 year 25
+Particulates (as PM2.5)
+24 hours 25
+1 year 8
+Particulates (as TSP) 1 year 90
+g·m-2·month-1
+Particulates (as dust
+deposition)
+1 year(c) 2 Assessed as insoluble
+solids as defined by
+AS 3580.10.11 year(d) 4
+ppm mg·m-3, (e)
+Carbon monoxide (CO)
+15 minutes 87 100
+1 hour 25 30
+8 hours 9 10
+[[page 17]]
+22.1095.FR1V3 LEGISLATION, REGULATION AND GUIDANCE Page 17
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Pollutant Averaging period Criterion Notes
+µg∙m-3 (a)
+Polycyclic Aromatic
+Hydrocarbon (PAH) as
+benzo(a)pyrene
+1 hour N/A 0.0004
+Benzene 1 hour 0.009 0.029
+Formaldehyde 1 hour 0.018 0.02
+Notes:  (a): micrograms per cubic metre of air
+(b): National Environment Protection (Ambient Air Quality) Measure
+(c): Maximum increase in deposited dust level
+(d): Maximum total deposited dust level
+(e): milligrams per cubic metre of air
+[[page 18]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 18
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+4. EXISTING CONDITIONS
+4.1. Surrounding Land Sensitivity
+The land use surrounding the Proposal site is zoned IN2 (Light Industrial) pursuant to the zoning provisions
+under the Blacktown Local Environmental Plan 2015.
+In its existing state, the Proposal site houses a light industrial building.  The surrounding land use is comprised
+of similar light industrial developments.  The Proposal site is adjoined by the M4 Motorway along the southern
+boundary.  Land further surrounding the Proposal site is comprised of the following zoning categories
+including:
+ IN1 General industrial;
+ IN2 Light Industrial;
+ SP2 Infrastructure;
+ RE2 Private Recreation; and
+ W1 Natural Waterways.
+The nearest sensitive land use is comprised of the W1 Natural Waterways zone located to the east of the
+Proposal site.  The nearest residential land use is located approximately 1 km to the northeast.
+4.1.1. Discrete Receptor Locations
+Air quality assessments typically use a desk-top mapping study to identify ’discrete receptor locations’, which
+are intended to represent a selection of locations that may be susceptible to changes in air quality.  In broad
+terms, the identification of sensitive receptors, refers to places at which humans may be present for a period
+representative of the averaging period for the pollutant being assessed.  Typically, these locations are
+identified as residential properties, although other sensitive land uses may include schools, medical centres,
+places of employment, recreational areas or ecologically sensitive locations.
+It is noted that the assessment criteria applied to particulates (see Table 4) is as a 24-hour averaging period,
+and as such the predicted impacts need to be interpreted at commercial and industrial receptor locations
+with care.  It is considered to be atypical for a person to be at those locations for a complete 24-hour period
+and as such, the exposure risks at those locations would be over-estimated by adoption of those locations in
+the modelling assessment.
+[[page 19]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 19
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+It is important to note that the selection of discrete receptor locations is not intended to represent a fully
+inclusive selection of all sensitive receptors across the study area.  The location selected should be considered
+to be representative of its broader location and may be reasonably assumed to be representative of the
+immediate environs.  In some instances, several viable receptor locations may be identified in a small area,
+for example a school neighbouring a medical centre.  In this instance the receptor closest to the potential
+sources to be modelled would generally be selected and would be used to assess the risk to other sensitive
+land uses in the area.
+It is further noted that in addition to the identified ‘discrete’ receptor locations, the entire modelling area is
+gridded with ‘uniform’ receptor locations (see Section 4.1.2) that are used to plot out the predicted impacts,
+and as such the accidental non-inclusion of a location that is sensitive to changes in air quality, does not
+render the AQIA invalid, or otherwise incapable of assessing those potential risks.
+In accordance with the requirements of the NSW EPA, several receptors have been identified and the
+receptors adopted for use within this AQIA are presented in Table 5.  Table 5 is not intended to represent a
+definitive list of sensitive land uses, but a cross section of available locations, that are used to characterise
+larger areas, or selected as they represent more sensitive locations, which may represent people who are
+more susceptible to changes in air pollution.
+Table 5 Receptor locations used in the study
+Receptor
+ID
+Location Land use Coordinates (UTM)
+mE mS
+R1 Healey Circuit, Huntingwood Industrial 303 492 6 258 227
+R2 Healey Circuit, Huntingwood Industrial 303 493 6 258 128
+R3 Healey Circuit, Huntingwood Industrial 303 487 6 258 027
+R4 Healey Circuit, Huntingwood Industrial 303 488 6 257 958
+R5 Peter Brock Drive, Eastern Creek Industrial 303 399 6 257 702
+R6 Peter Brock Drive, Eastern Creek Industrial 303 268 6 257 706
+R7 Peter Brock Drive, Eastern Creek Industrial 303 155 6 257 718
+R8 Huntingwood Drive, Huntingwood Industrial 303 156 6 257 948
+R9 Huntingwood Drive, Huntingwood Industrial 303 137 6 258 128
+R10 Huntingwood Drive, Huntingwood Industrial 303 167 6 258 440
+R11 Huntingwood Drive, Huntingwood Industrial 303 259 6 258 385
+R12 Huntingwood Drive, Huntingwood Industrial 303 367 6 258 383
+R13 Huntingwood Drive, Huntingwood Industrial 303 456 6 258 341
+R14 Holbeche Road, Blacktown Residential 304 525 6 259 196
+4.1.2. Uniform Receptor Locations
+Additional to the sensitive receptors identified in Section 4.1.1, a grid of uniform receptor locations has been
+used in the AQIA to allow presentation of contour plots of predicted impacts.
+[[page 20]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 20
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 3 Sensitive receptors surrounding the Proposal site
+Source: Northstar Air Quality
+
+[[page 21]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 21
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+4.2. Topography
+The elevation of the Proposal site ranges between 80 metres (m) and 90 m Australian Height Datum (AHD).
+The topography between the Proposal site and nearest sensitive receptor locations is uncomplicated (from
+an AQIA perspective).  A representation of the topography surrounding the Proposal site is presented in
+Figure 4.
+4.3. Meteorology
+The meteorology experienced within an area can govern the generation (in the case of wind-dependent
+emission sources), dispersion, transport and eventual fate of pollutants in the atmosphere.  The meteorological
+conditions surrounding the Proposal site have been characterised using data collected by the Australian
+Government Bureau of Meteorology (BoM) at a number of surrounding Automatic Weather Stations (AWS).
+To provide a characterisation of the meteorology which would be expected at the Proposal site, a
+meteorological modelling exercise has also been performed.
+A summary of the inputs and outputs of the meteorological modelling assessment, including validation of
+those outputs is presented in Appendix B.
+A number of meteorological stations operated by BoM are located within an 18 km radius of the Proposal
+site.  A summary of the relevant AWS is provided in Table 6 below(listed by proximity).
+Table 6 Details of meteorological monitoring surrounding the Proposal site
+Site Name Source Approximate
+Location
+Approximate
+Distance
+mE mS km
+Horsley Park Equestrian Centre AWS – Station # 067119 BoM 301 708 6 252 298 5.8
+Bankstown Airport AWS – Station # 066137 BoM 313 855 6 245 099 16.5
+Badgerys Creek AWS – Station # 067108 BoM 289 920 6 246 951 17.2
+The meteorological conditions measured at the identified AWS are presented in Appendix B.
+It is considered that Horsley Park Equestrian Centre AWS is most likely to represent the conditions at the
+Proposal site, based upon its proximity and lack of significant topographical features between the two
+locations.  The wind roses presented in Appendix B indicate that from 2017 to 2021, winds at Horsley Park
+Equestrian Centre AWS show similar wind distribution patterns across the years assessed, with a predominant
+south-westerly wind direction.
+[[page 22]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 22
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 4 Topography surrounding the Proposal site
+Source: Northstar Air Quality
+
+[[page 23]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 23
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+The majority of wind speeds experienced at the Horsley Park Equestrian Centre between 2017 and 2021 are
+generally in the range 0.5 meters per second (m ∙s-1) to 5.5 m∙s-1 with the highest wind speeds (greater than
+8 m∙s-1) occurring from north-westerly directions.  Winds of this speed are rare and occur during 0.3 % of the
+observed hours during the years.  Calm winds (< 0.5 m∙s-1) are less common and occur during 18.3 % of hours
+on average across the years 2017-2021.
+Given the wind distributions across the years examined, data for the year 2019 has been selected as being
+appropriate for further assessment, as it best represents the general trend across the 5-year period studied.
+Reference should be made to Appendix B for further details.
+4.4. Air Quality
+The air quality experienced at any location will be a result of emissions generated by natural and
+anthropogenic sources on a variety of scales (local, regional and global).  The relative contributions of sources
+at each of these scales to the air quality at a location, will vary based on a wide number of factors including
+the type, location, proximity and strength of the emission source(s), prevailing meteorology, land uses and
+other factors affecting the emission, dispersion and fate of those pollutants.
+When assessing the impact of any particular source of emissions on the potential air quality at a location, the
+impact of all other sources of an individual pollutant, should also be assessed.  These ‘background’ (sometimes
+called ‘baseline’) air quality conditions will vary depending on the pollutants to be assessed and can often be
+characterised by using representative air quality monitoring data.
+The Proposal site is located proximate to a number of AQMS operated by NSW Department of Planning and
+Environment (NSW DPE).  These locations (listed by proximity) are briefly summarised in Table 7 .
+Table 7 Closest NSW DPE AQMS to the Proposal site
+AQMS Location
+Distance
+to Site
+(km)
+2019
+Data
+Measurements
+PM10 PM2.5 TSP NO2 CO SO2
+Prospect 3.3       
+St Marys 10       
+Parramatta North 11.2       
+The closest active AQMS is noted to be located at Prospect and is generally considered to be the monitoring
+location most reflective of the conditions at the Proposal site.
+Appendix A provides a detailed assessment of the background air quality monitoring data collected at the
+Prospect AQMS.  Data for the year 2019 has been adopted, consistent with the meteorological period
+discussed in Section 4.3.
+[[page 24]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 24
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+It is noted that none of the AQMS measure Total Suspended Particulate (TSP) which is of relevance to the
+expected emissions from the Proposal site.  Based upon long-term historic monitoring data, a numerical
+relationship between TSP and PM 10 has been established for the Sydney Metropolitan region.  Based upon
+these data, a relationship between ambient concentrations of TSP: PM10 of 2.0551 : 1 is used to approximate
+background annual average TSP concentrations.  This relationship is established and is used frequently to
+approximate background annual average TSP concentrations in similar locations (see Appendix A).
+The impact assessment criteria used for deposited dust (see Table 4) are presented as (i) a cumulative
+deposition rate of 4 g∙m-2∙month-1 and (ii) a discrete deposition rate of 2 g∙m-2∙month-1.  In lieu of a background
+deposition rate to derive a cumulative rate, the incremental impact assessment criterion (2 g∙m-2∙month-1) will
+be used.  This is a commonly adopted approach when background deposition rates are not available.
+The short term (< 1 hour) background CO and SO2 concentrations have been derived through the application
+of the power law equation discussed in Section 5.2.5.
+No background air quality data is available for benzene, formaldehyde, or PAH, and given the nature of the
+area, for the purposes of this assessment it has been assumed that these concentrations are negligible.
+A summary of the air quality monitoring data and assumptions used in this assessment are presented in Table
+8.
+Table 8 Summary of background air quality used in the AQIA
+Pollutant Ave Period and
+Units
+Measured
+Value
+Notes
+Particles (as TSP)
+(derived from PM10)
+Annual μg·m-3 53.4 Estimated on a TSP:PM10 ratio of 2.0551 : 1
+Particles (as PM10)
+(Prospect)
+24-hour μg·m-3 Daily Varying The 24-hour maximum for PM10 in 2019 was
+182.8 μg.m-3Annual μg·m-3 26.0
+Particles (as PM2.5)
+(Prospect)
+24-hour μg·m-3 Daily Varying The 24-hour maximum for PM2.5 in 2019 was
+134.1 μg.m-3
+Annual μg·m-3 11.9
+Dust deposition
+Annual
+g∙m-2∙month-1 2.0
+Difference in NSW EPA maximum allowable
+and incremental impact criterion
+Nitrogen dioxide (NO2)
+(Prospect)
+1-hour μg∙m-3 100.5 Hourly maximum 1-hr average in 2019
+Annual μg·m-3 17.7 Annual average in 2019
+Carbon monoxide
+15-minute mg∙m-3 8.3 Calculated from 1-hr data as per Section 5.2.5
+1-hour mg∙m-3 6.3 Maximum 1-hr average in 2019
+8-hour mg∙m-3 3.2 Maximum 8-hr average in 2019
+Sulphur dioxide (SO2)
+10 minutes mg∙m-3 78.7 Calculated from 1-hr data as per Section 5.2.5
+1 hour mg∙m-3 55.0 Maximum 1-hr average in 2019
+24 hour mg∙m-3 10.0 Maximum 24-hr average in 2019
+Annual mg∙m-3 1.9 Annual average in 2019
+Note: Reference should be made to Appendix A
+[[page 25]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 25
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+A number of AQMS in NSW metropolitan and regional population centres recorded particulate matter
+concentrations above the national standard on many days towards the end of 2019.  This was mainly driven
+by intense drought conditions and a high frequency of bushfires occurring across NSW in late 2019 (NSW
+DPIE, 2021).
+The AQIA has been performed to assess the contribution of the Proposal to the air quality of the surrounding
+area.  A full discussion of how the Proposal impacts upon local air quality is presented in Section 6 and
+Section 7.
+4.5. Potential for Cumulative Impacts
+The Proposal site is located proximate to two other data centres identified as follows:
+ DCI data centre located at 90 Peter Brock Drive, Eastern Creek – approximately 0.9 km to the
+southeast of the Proposal site; and,
+ LCI data centre located at 6 Honeman Close, Huntingwood – approximately 1.5 km to the east of
+the Proposal site.
+The locations of the identified proximate data centres are illustrated in Figure 5.
+It is noted that the LCI data centre is currently undergoing approval, however, it has still been included in this
+exercise given the potential for future cumulative impacts.
+A desktop exercise has been performed to assess the potential for cumulative impacts to be experienced at
+sensitive receptors in the event of a power outage, resulting in the emergency generators operating across
+all three data centres (including the Proposal).
+The wind rose for the meteorological data used for the AQIA (resulting from the meteorological modelling
+exercise [refer Section 5.2.1]) has also been included in Figure 5 to show the frequency of wind directions and
+wind speeds likely to occur at the Proposal site.  Section 4.3 identifies that the wind rose is typical for long-
+term conditions that may be experienced in this locality.
+Given the location of the DCI data centre in relation to the Proposal site, cumulative air quality impacts could
+potentially be experienced at receptors located to the west and northwest of the Proposal site, specifically
+receptors R9 and R10 during winds from southeast vectors of 115°-130°.  Winds from these vectors are not
+expected to occur frequently, approximately 3.5 % of hours each year.
+Potential cumulative impacts resulting from the operation of emergency generators from the LCI data centre
+and the Proposal may be experienced at receptors R8 and R9 located to the west and southwest of the
+Proposal site during winds from eastern vectors of 80°-90°.  Winds from these vectors are anticipated to be
+experienced across 2.0 % of hours each year.
+[[page 26]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 26
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+A review of (Energy Networks Australia, 2018) has been conducted to approximate the frequency of power
+outages at the Proposal site.  It was found that all customers (commercial and domestic) generally experience
+approximately 200 minutes of power outages each year (0.04 % of hours each year).  The frequency of a
+widescale outage affecting full power supply to multiple data centres would be significantly less than this
+frequency.
+On the assumption that a full power outage affects the Proposal and the DCI data centre, conditions that may
+lead to cumulative impacts at R9 and R10 may arise at a rate of (3.5 % × 0.04 %) 0.000014 % of any year,
+which is 0.1 % of 8760 hours per year or, expressed in a more digestible form, a potential of 1 hour in 8.2
+years.  The corresponding frequency of conditions that may lead to cumulative impacts at R8 and R9 from
+the LCI data centre is (2.0 % × 0.04 %) 0.000008 % of any year, which is 0.07 % of 8 760 hours, or 1 hour in
+14.3 years.
+Given the frequency of power outages and winds travelling across the proximate data centres and the
+Proposal site towards sensitive receptors, it is considered that potential cumulative impacts are not expected
+to result in frequent, significant air quality impacts at surrounding land uses.
+[[page 27]]
+22.1095.FR1V3 EXISTING CONDITIONS Page 27
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 5 Location of proximate data centres
+Source: Northstar Air Quality
+
+[[page 28]]
+22.1095.FR1V3 METHODOLOGY Page 28
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+5. METHODOLOGY
+5.1. Construction Phase
+Construction phase activities have the potential to generate short-term emissions of particulates.  Generally,
+these are associated with uncontrolled (or ‘fugitive’) emissions and are typically experienced by neighbours
+as amenity impacts, such as dust deposition and visible dust plumes, rather than associated with health-related
+impacts.  Localised engine-exhaust emissions from construction machinery and vehicles may also be
+experienced, but given the very minor scale of the proposed works, fugitive dust emissions would have the
+greatest potential to give rise to downwind air quality impacts.
+Modelling of dust from construction proposals is generally not considered appropriate, as there is a lack of
+reliable emission factors from construction activities upon which to make predictive assessments, and the rates
+would vary significantly, depending upon local conditions.  In lieu of a modelling assessment, the construction-
+phase impacts associated with the Proposal have been assessed using a risk-based assessment procedure.
+The advantage of this approach is that it determines the activities that pose the greatest risk, which allows the
+Construction Environmental Management Plan (CEMP) to focus controls to manage that risk appropriately
+and reduce the impact through proactive management.
+For this risk assessment, Northstar has adapted a methodology presented in the IAQM Guidance on the
+Assessment of Dust from Demolition and Construction developed in the United Kingdom by the Institute of
+Air Quality Management (IAQM)1.  Reference should be made to Appendix C for the methodology.
+Briefly, the adapted method uses a six-step process for assessing dust impact risks from construction activities,
+and to identify key activities for control, as illustrated in Figure 6.
+1 www.iaqm.co.uk/text/guidance/construction-dust-2014.pdf
+[[page 29]]
+22.1095.FR1V3 METHODOLOGY Page 29
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 6 Construction phase impact risk assessment methodology
+The assessment approach, as illustrated above in Figure 6, is detailed in Appendix C.
+5.2. Operational Phase
+5.2.1. Modelling Approach
+A dispersion modelling assessment has been performed using the NSW EPA approved CALPUFF Atmospheric
+Dispersion Model.  The modelling has been performed in CALPUFF 3-dimensional (3-D) mode.
+Step 1
+SCREENING
+A simple screening step accounting for seperation distance between the sources and the receptors
+Step 2
+RISK FROM CONSTRUCTION ACTIVITIES
+Assess risk from activities based on the scale and nature of the works, which determines the
+potential dust emission magnitude
+Step 3
+SENSITIVITY OF THE AREA
+Assess risk of dust effects from activities based on the sensitivity of the area surrounding dust-
+generating activities
+Step 4
+RISK ASSESSMENT (PRE-MITIGATION)
+Based upon Steps 2 and 3, determine risks associated with the construction activities
+Step 5
+IDENTIFY MITIGATION
+Based upon the risks assessed at Step 4, identify appropriate mitigation measures to control the
+risks
+Step 6
+RISK ASSESSMENT (POST-MITIGATION)
+Based upon the mitigation measures identified at Step 5, reassess risk
+[[page 30]]
+22.1095.FR1V3 METHODOLOGY Page 30
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+The 3-D meteorological dataset has been developed using The Air Pollution Model (TAPM, v 4.0.5) in
+conjunction with CALMET (see Appendix B for further information).
+TAPM predicts wind speed and direction, temperature, pressure, water vapour, cloud, rain water and
+turbulence.  The program allows the user to generate synthetic observations by referencing databases
+(covering terrain, vegetation and soil type, sea surface temperature and synoptic scale meteorological
+analyses) which are subsequently used in the model input to generate site-specific hourly meteorological
+observations at user-defined levels within the atmosphere.
+CALMET is a meteorological model that develops wind and temperature fields on a three-dimensional gridded
+modelling domain.  Associated two-dimensional fields such as mixing height, surface characteristics, and
+dispersion properties are also included in the file produced by CALMET.  The interpolated wind field is then
+modified within the model to account for the influences of topography, as well as differential heating and
+surface roughness associated with different land uses across the modelling domain.  These modifications are
+applied to the winds at each grid point to develop a final wind field and thus the final wind field reflects the
+influences of local topography and current land uses.
+In this study, CALMET has been run in no-observations (no-obs) mode using gridded prognostic data
+generated by The Air Pollution Model (TAPM, v 4.0.5), developed by the Commonwealth Scientific and
+Industrial Research Organisation (CSIRO).
+5.2.2. Modelling Scenarios
+The following modelling scenarios were undertaken to determine the potential impact under the anticipated
+operational conditions of the standby emergency generators.
+Scenario 1 – justified worst case scenario - Emergency operation with 316 (316 no.) generators operating
+at 100 % load.
+This is an incredibly unlikely scenario which would result from catastrophic failure in the electricity supply
+system.  However, given that the application includes 316 generators, this AQIA has assessed the potential
+impact of those generators operating concurrently.
+All 316 generators have been modelled as operating for all 8 760 hours of the year.  Should such a catastrophic
+failure in the electricity supply system occur, this is likely to be for a period of 10 to 15 minutes, and therefore
+the modelling presents a conservative assessment of the potential impacts.
+Given that the likely up-time of the generators would be short-term in nature, only assessment of impacts
+against short-term criteria has been performed, and no assessment against annual average criteria is
+presented, as the results would be essentially meaningless.
+[[page 31]]
+22.1095.FR1V3 METHODOLOGY Page 31
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+This AQIA provides context around how likely any exceedances of air quality criteria would be, given the
+likelihood of such catastrophic failure.
+Scenario 2 - realistic operations – Three (3 no.) generators operating at 100 % load for 15 minutes in each
+hour, representing the generator testing regime.
+This is a scenario which would regularly occur.  One generator in each of the three ‘banks’ of generators (one
+on the north west, one on the south west, and one on the south east of the Proposal) has been modelled to
+be tested at any one time, between the hours of 7 am and 6 pm, for a period of 15 minutes in each hour.
+This scenario also provides some conservatism, especially when comparison of impacts against >1 hour criteria
+are performed, as the testing schedule is modelled as occurring for every one of the hours between 7 am and
+6 pm, on each and every day of the year.  Clearly, given the number of generators, only 105 to 106 testing
+events would be required each year (316 generators / 3 tested at one time) and the modelling has assumed
+4 015 events (11 hours testing available per day × 365 days).  Modelling is required to be performed in this
+manner to account for all potential combinations of emissions and meteorology.
+A summary of the emergency generator stack design components used to model each scenario is provided
+in Table 9.
+Details of the emissions testing data for the proposed engines (MTU 16V4000G76F) is provided in Appendix D.
+The locations of the generator emission points for each scenario are presented in Figure 7 and Figure 8.
+[[page 32]]
+22.1095.FR1V3 METHODOLOGY Page 32
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 7 Locations of emissions points for modelled scenario – Scenario 1
+Source: Northstar
+
+[[page 33]]
+22.1095.FR1V3 METHODOLOGY Page 33
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 8 Locations of emissions points for modelled scenario – Scenario 2
+Source: Northstar
+
+[[page 34]]
+22.1095.FR1V3 METHODOLOGY Page 34
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 9 Emergency generator emissions and stack parameters
+Parameter Units Scenario 1 Scenario 2
+Emergency Testing
+Hour start hr 0 700
+Hour end hr 2400 1800
+% load % 100 100
+Number of generators active no. 316 3
+Diesel consumption rate (per generator) L·hr-1 501.37 501.37
+Sulphur content of diesel fuel ppm 5 5
+Stack height level
+m (AGL)
+Level 7 Roof Level 7 Roof
+34.5 41.0 34.5 41.0
+Stack diameter mm 400 400
+Stack CSA m2 0.13 0.13
+Normalised discharge rate Nm3·s-1 2.1 2.1
+Actual discharge rate Am3·s-1 4.1 4.1
+Exit temperature °C 450 450
+Exit velocity m·s-1 32.6 32.6
+CO emission(a) g·s-1 0.47 0.47
+SO2 emission(b) g·s-1 5.9E-07 5.9E-07
+NOx emission(a) g·s-1 8.18 8.18
+Benzene emission(c) g·s-1 0.12 0.12
+PAH emission(b) g·s-1 2.6E-08 2.6E-08
+PM emission (PM10 and PM2.5)(a) g·s-1 0.032 0.032
+Formaldehyde emission(b) g·s-1 1.8E-04 1.8E-04
+Notes:  (a): Measured emission rates
+(b): Emission rates based on emission factors from Table 43 of (NPI, 2008)
+(c) Emission rate based on measured HC emission (see Appendix D), factored by benzene content of TVOC as reported in
+(NPI, 2008) (1 %)
+5.2.3. Particle Size Fractions
+In regard to particulates from diesel, virtually 100 % of diesel particles are less than 1 μm in diameter and
+particulates from diesel combustion are assessed as PM2.5.
+5.2.4. NOx to NO2 Conversion
+Emissions of NO X have been calculated, with subsequent ground-level concentrations predicted using
+dispersion modelling techniques.  Given that NO X is a mixture of NO 2 and nitric oxide (NO), conversion of
+NOX predictions to NO 2 concentrations may be performed.  Approximately 90% - 95% of NO X from a
+combustion process will be emitted as NO, with the remaining 5% - 10% emitted directly as NO2.  Over time
+[[page 35]]
+22.1095.FR1V3 METHODOLOGY Page 35
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+and after the point of discharge, NO in ambient air will be transformed by secondary atmospheric reactions
+to form NO2, and this reaction often occurs at a considerable distance downwind from the point of emission,
+and by which time the plume will have dispersed and diluted significantly from the concentration at point of
+discharge.
+Air quality impact assessments need to account for the conversion of NO to NO 2 to enable a comparison
+against the air quality criterion for NO 2.  To perform this, various techniques are common, which are briefly
+outlined below:
+100% conversion:  the most conservative assumption is to assume that 100% of the total NO X emitted is
+discharged as NO2, and that further reactions do not occur.
+Jansen method: where the location is represented by good monitoring data for NO and NOX, the empirical
+relationship between NO and NO2 may be used to derive ‘steady state’ relationships.
+Ozone limiting method:  this method uses contemporaneous ozone data to estimate that rate at which NO
+is oxidised to NO2 hour-on-hour using an established relationship.
+This AQIA has used the ozone limiting method (OLM) to approximate the conversion of NO X t o N O2,  i n
+accordance with the methodology described in (NSW EPA, 2016).
+5.2.5. Short Term Pollutant Concentrations
+With reference to criteria air pollutants with sub-hourly criteria (SO 2 and CO, refer Section 3.3), hourly
+dispersion model outputs are required to be adjusted to allow provision of data on those timescales.  The
+following Power Law adjustment2 has been applied:
+𝐶𝑝,𝑡 = 𝐶𝑝,60 ൤60
+𝑡 ൨
+0.2
+Where:
+Cp,t = concentration of pollutant (p) at averaging time (mins) (t)
+Cp,60 = concentration of pollutant (p) at averaging time (60 mins)
+t = time (mins)
+2 http://www.epa.vic.gov.au/~/media/Publications/1551.pdf
+[[page 36]]
+22.1095.FR1V3 CONSTRUCTION PHASE AIR QUALITY ASSESSMENT Page 36
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+6. CONSTRUCTION PHASE AIR QUALITY ASSESSMENT
+The methodology adapted by Northstar from IAQM (2016) Guidance on the assessment of dust from
+demolition and construction has been used to assess construction phase risk and is provided in Appendix C.
+Briefly, the adapted method uses a six-step process for assessing dust impact risks from construction activities
+as a function (product) of receptor sensitivity and potential impact magnitude and identifies key activities for
+control.
+6.1. Risk (Pre-Mitigation)
+Given the sensitivity of the identified receptors is classified as low for dust soiling and medium for health
+effects, and the dust emission magnitudes for the various construction phase activities as presented in
+Appendix C, the resulting risk of air quality impacts (without mitigation) is as presented in Table 10.
+Table 10 Risk of air quality impacts from construction activities
+Impact
+Sensitivity of Area
+Dust Emission Magnitude Preliminary Risk
+Demolition
+Earthworks
+Construction
+Track-out
+Const. Traffic
+Demolition
+Earthworks
+Construction
+Track-out
+Const. Traffic
+Dust
+Soiling
+Low Large Large Large Large Large High Med. Med. Med. Med.
+Human
+Health
+Medium Large Large Large Large Large High Med. Med. Med. Med.
+Note: Med. = Medium
+The risks summarised in Table 10 show that there is a high risk of adverse dust soiling and human health
+impacts associated with demolition works while earthworks, construction, track-out and construction traffic
+activities are associated with medium risks.  These pre-mitigated risks have been assessed as such if no
+mitigation measures were to be applied to control emissions associated with construction-phase activities.
+The risk assessment therefore provides recommendations for construction phase mitigation, commensurate
+with those identified risks as provided in Appendix C.
+6.2. Risk (Post Mitigation)
+For almost all construction activity, the adapted methodology notes that the aim should be to prevent
+significant effects on receptors through the use of effective mitigation and experience shows that this is
+normally possible.
+[[page 37]]
+22.1095.FR1V3 CONSTRUCTION PHASE AIR QUALITY ASSESSMENT Page 37
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Given the size of the Proposal site, the distance to sensitive receptors and the activities to be performed,
+residual impacts associated with fugitive dust emissions from the Proposal would be anticipated to be
+‘negligible, should the implementation of the mitigation measures outlined in Appendix C be implemented
+appropriately.
+[[page 38]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 38
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7. OPERATIONAL PHASE AIR QUALITY ASSESSMENT
+This section presents the results of the dispersion modelling assessment and uses the following terminology:
+ Incremental impact – relates to the concentrations predicted as a result of the construction and
+operation of the Proposal in isolation.
+ Cumulative impact – relates to the incremental concentrations predicted as a result of the operation
+of the Proposal PLUS the background air quality concentrations discussed in Section 3.3.
+The results are presented in this manner to allow examination of the likely impact of the facility in isolation
+and the contribution to air quality impacts in a broader sense.  In the presentation of results, the tables
+included shaded cells which represent the following:
+Model prediction Pollutant concentration /
+deposition rate less than the
+relevant criterion
+Pollutant concentration /
+deposition rate equal to, or
+greater than the relevant criterion
+7.1. Scenario 1 – Justified Worst-Case
+The following presents the results of the modelling assessment under the assumptions of Scenario 1 (refer
+Section 5.2.2), with all 316 emergency generators operating at 100 % load.
+Results are presented in this section for short term criteria only (i.e. ≤ 24 hours).  The assessment against
+annual average criteria is essentially meaningless, given that the generators would only be operational for a
+small number of hours, during that emergency scenario.  Operation of those generators over an entire year
+would not occur.
+Assessment of potential impacts against annual average criteria is presented under Scenario 2 (realistic
+operations).
+[[page 39]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 39
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.1.1. Particulate Matter
+Results are presented in this section for the predictions of particulate matter (TSP, PM 10,  P M2.5 a n d  d u s t
+deposition) associated with Scenario 1.  The averaging periods associated with the criteria for these pollutants
+is 24-hour as specified in Table 4.  The emissions adopted for Scenario 1 reflect the operational profile of the
+Proposal over that averaging period (refer Section 5.2.2).
+7.1.1.1. Maximum 24-Hour PM10 and PM2.5
+Table 11 presents the maximum 24-hour average PM 10 and PM 2.5 concentrations predicted to occur at the
+nearest receptors, as a result of the assumptions under Scenario 1.  No background concentrations are
+included within this table.  The maximum incremental impacts are highlighted inbold.
+Table 11 Predicted maximum incremental 24-hour PM 10 and PM2.5 concentrations – Scenario 1
+Receptor
+Maximum 24-hour average concentration
+(µg·m-3)
+PM10 PM2.5
+Criterion 50 25
+Max. % of criterion 88.3 % 176.6 %
+R1 22.7 22.7
+R2 20.6 20.6
+R3 24.4 24.4
+R4 21.3 21.3
+R5 26.7 26.7
+R6 24.7 24.7
+R7 27.6 27.6
+R8 19.7 19.7
+R9 22.7 22.7
+R10 44.1 44.1
+R11 41.8 41.8
+R12 27.7 27.7
+R13 23.3 23.3
+R14 7.6 7.6
+Note:  all PM is assumed to be <1 µg in diameter, and therefore assessed as PM 2.5.  In this instance, emissions of PM 2.5 will be the
+same as PM10 (PM2.5 is a sunset of PM 10) and therefore the results will be consistent between PM 10 and PM2.5.
+The predicted incremental concentrations of PM 10 are demonstrated to be significant (refer Table 11 above)
+with the highest incremental concentration representing 88.3 % of the criteria, without background being
+included.  Incremental PM2.5 concentrations are a maximum of 176.6 % of the relevant criterion.
+[[page 40]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 40
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+The predicted maximum 24-hour average PM 10 a n d  P M2.5 concentrations resulting from Scenario 1, with
+background included are presented in Table 12 and Table 13 respectively.
+Results are presented in Table 12 and Table 13 for those receptors at which the greatest impacts have been
+predicted.
+The left side of the tables show the predicted maximum cumulative impacts (typically the days with the highest
+regional background), and the right side shows the total predicted concentration on days with the highest
+predicted incremental concentrations respectively.
+For PM10, the maximum cumulative impact (the left hand side of Table 13) is predicted at Receptor R5, and
+the maximum incremental impact (the right hand side of Table 13) is predicted at Receptor R10.  Table 12
+indicates that the highest cumulative impacts are driven by elevated background concentrations.  It can be
+seen in Table 12 that the highest cumulative impacts correspond with background concentrations during late
+2019.
+The highest incremental impacts are also predicted to result in exceedances of the relevant criterion, with the
+addition of background concentrations at R10.
+With the addition of background concentrations, some of the most significant incremental impacts are also
+predicted to result in exceedances of the relevant criterion (refer Table 4) at R10.
+Table 12 Summary of contemporaneous impact and background – Scenario 1 – PM 10
+Date 24-hour average PM10 concentration
+(µg·m-3) – R5
+Date 24-hour average PM10 concentration
+(µg·m-3) – R10
+Incremental
+Impact
+Background Cumulative
+Impact
+Incremental
+Impact
+Background Cumulative
+Impact
+26/11/2019 6.6 182.8 189.4 26/08/2019 44.1 13.0 57.1
+10/12/2019 5.9 168.5 174.4 27/08/2019 27.3 8.9 36.2
+19/11/2019 0.8 168.5 169.3 12/10/2019 26.9 9.1 36.0
+12/11/2019 11.8 127.3 139.1 1/02/2019 26.6 18.8 45.4
+21/11/2019 4.8 116.8 121.6 21/02/2019 25.4 18.0 43.4
+19/12/2019 8.6 110.7 119.3 10/01/2019 25.0 14.7 39.7
+31/10/2019 <0.1 100.9 101.0 26/06/2019 24.7 12.6 37.3
+18/11/2019 13.9 81.3 95.2 4/07/2019 24.3 11.6 35.9
+21/12/2019 5.6 88.0 93.6 30/09/2019 24.0 22.0 46.0
+30/10/2019 3.2 82.9 86.1 11/10/2019 23.7 10.4 34.1
+These data represent the highest Cumulative Impact 24-
+hour PM10 predictions (outlined in red) as a result of the
+operation of the Proposal.
+These data represent the highest Incremental Impact 24-
+hour PM10 predictions (outlined in blue) as a result of the
+operation of the Proposal.
+[[page 41]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 41
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+For PM2.5, the maximum cumulative impact (the left hand side of Table 13) is predicted at Receptor R3, and
+the maximum incremental impact (the right hand side of Table 13) is predicted at Receptor R10.  Table 13
+indicates that exceedances at Receptor 10 are primarily driven by significant incremental contributions from
+the Proposal operation under an emergency scenario, rather than background air quality concentrations
+associated with exceptional events such as bushfires and intense drought conditions (NSW DPIE, 2021).
+Table 13 Summary of contemporaneous impact and background – Scenario 1 – PM 2.5
+Date 24-hour average PM2.5 concentration
+(µg·m-3) – R3
+Date 24-hour average PM2.5concentration
+(µg·m-3) – R10
+Incremental
+Impact
+Background Cumulative
+Impact
+Incremental
+Impact
+Background Cumulative
+Impact
+19/11/2019 15.8 134.1 149.9 26/08/2019 44.1 6.1 50.2
+10/12/2019 3.9 104.8 108.7 27/08/2019 27.3 4.6 31.9
+21/11/2019 <0.1 79.8 79.9 12/10/2019 26.9 3.9 30.8
+19/12/2019 5.5 69.0 74.5 1/02/2019 26.6 7.0 33.6
+31/10/2019 <0.1 69.8 69.9 21/02/2019 25.4 6.5 31.9
+4/12/2019 13.2 51.7 64.9 10/01/2019 25.0 6.0 31.0
+18/11/2019 6.6 51.9 58.5 26/06/2019 24.7 6.1 30.8
+21/12/2019 3.4 47.1 50.5 4/07/2019 24.3 6.2 30.5
+24/05/2019 17.5 32.9 50.4 30/09/2019 24.0 6.4 30.4
+7/12/2019 0.6 49.4 50.0 11/10/2019 23.7 3.9 27.6
+These data represent the highest Cumulative Impact 24-
+hour PM2.5 predictions (outlined in red) as a result of the
+operation of the Proposal.
+These data represent the highest Incremental Impact 24-
+hour PM2.5 predictions (outlined in blue) as a result of the
+operation of the Proposal.
+Contour plots of the predicted incremental 24-hour PM 10 concentrations associated with the Proposal are
+presented in Figure 9 to allow examination of the distribution of particulate matter in the area surrounding
+the Proposal.
+The number of additional exceedances of the 24-hour PM 10 and PM 2.5 criteria predicted at each receptor
+resulting from emergency generator operation is presented in Section 7.1.4.  These values are discussed
+further in Section 8.2.
+[[page 42]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 42
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 9  Predicted maximum incremental 24-hour PM 10 impacts – Scenario 1
+Note  1: Criterion = 50 µg ·m-3 (cumulative)
+
+[[page 43]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 43
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.1.2. Nitrogen Dioxide
+Results are presented in this section for the predictions of nitrogen dioxide (NO 2) under the assumptions of
+Scenario 1 (refer Section 5.2.2).  The averaging periods associated with the criteria for these pollutants is 1-hour
+as specified in Table 4.
+Emissions of NO X have been calculated, with subsequent ground-level concentrations predicted using
+dispersion modelling techniques.  Given that NO X is a mixture of NO 2 and nitric oxide (NO), conversion of
+NOX predictions to NO 2 concentrations may be performed.  Within this assessment, the OLM method has
+been adopted as outlined in Section 5.2.4.
+The predicted maximum 1-hour average NO 2 concentrations resulting from the Proposal operations are
+presented in Table 14.
+Table 14 Predicted 1 hour nitrogen dioxide concentrations – Scenario 1
+Receptor
+Nitrogen dioxide (NO2) concentration (µg∙m-3)
+1-hour
+Increment Background Cumulative
+Criterion 246
+Max. % of criterion 1 753.2 % 25.0 % 1 774.9 %
+R1 1 709.6 26.7 1 736.3
+R2 1 591.1 34.9 1 625.9
+R3 1 775.1 26.7 1 801.7
+R4 3 282.2 26.7 3 308.9
+R5 3 599.2 24.6 3 623.8
+R6 4 312.9 53.3 4 366.2
+R7 2 472.4 22.6 2 495.0
+R8 1 951.0 20.5 1 971.5
+R9 1 055.3 8.2 1 063.5
+R10 2 971.5 12.3 2 983.8
+R11 3 625.8 30.8 3 656.5
+R12 3 411.1 61.5 3 472.6
+R13 2 159.5 22.6 2 182.1
+R14 948.9 53.3 1 002.2
+The results indicate that predicted incremental concentrations of NO2 under Scenario 1 are significantly above
+the criteria at all surrounding receptor locations.  At the worst affected receptor (R6) predicted increments are
+shown to be greater than 1 744% of the relevant criterion as a result of emergency operation.
+A contour plot of the predicted maximum 1-hour incremental NO2 impact is presented in Figure 10.
+[[page 44]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 44
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 10  Predicted maximum incremental 1-hour NO 2 impacts – Scenario 1
+Note  1: Criterion = 246 µg ·m-3 (cumulative)
+
+[[page 45]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 45
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+The number of additional exceedances of the 1-hour NO2 criterion predicted at each receptor resulting from
+emergency generator operation is presented in Section 7.1.4.  These values are discussed further in
+Section 8.2.
+7.1.3. All Other Pollutants
+The following presents the predicted ground level concentrations associated with Scenario 1 for all other
+pollutants assessed in this study (refer Section 5.2.2).
+Presented in Table 15 to Table 17 are the predicted concentrations of CO, SO 2, PAHs, benzene and
+formaldehyde at varying averaging periods (≤24 hours) at the surrounding receptors.
+The predicted cumulative concentrations for CO are significantly below the relevant criteria for all averaging
+periods at all receptors as shown in Table 15.
+The results presented in Table 16 indicate that predicted incremental impacts of SO2at all receptors are < 0.1 %
+of the relevant criteria for all averaging periods.  The addition of background concentrations does not result
+in any exceedances at any receptor.
+Results presented in Table 17 show predicted exceedances of the 1-hour criteria for benzene at all surrounding
+receptors.  The maximum predicted impact for benzene is experienced at receptor R6 (3 046.1 % of the
+relevant criterion).
+A contour plot of the predicted maximum 1-hour incremental benzene impact is presented in Figure 11.
+[[page 46]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 46
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 15 Predicted 15-minutes, 1-hour and 8-hour average CO concentrations – Scenario 1
+Rec.
+Carbon monoxide (CO) concentration (mg·m-3)
+15-minute 1-hour 8-hour
+Increment Background Cumulative Increment Background Cumulative Increment Background Cumulative
+Criterion 100 25 9
+Max. % of criterion <0.1% 8.3% <8.4% <0.1% 25.2% <25.4% <0.1% 35.6% <36.1%
+R1 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R2 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R3 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R4 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R5 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R6 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R7 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R8 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R9 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R10 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R11 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R12 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R13 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R14 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+[[page 47]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 47
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 16 Predicted 10-minute, 1-hour, 24-hour and annual average SO 2 concentrations – Scenario 1
+Rec.
+Sulphur dioxide (SO2) concentration (µg∙m-3)
+10-minute 1-hour 24-hour Annual Average
+Increment Backgr. Cumul. Increment Backgr. Cumul. Increment Backgr. Cumul. Increment Backgr. Cumul.
+Criterion 712 570 228 60
+Max. % of
+criterion
+<0.1% 11.1% <11.2% <0.1% 9.6% <9.7% 0.0% 4.4% <4.5% 0.0% 3.2% <3.3%
+R1 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R2 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R3 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R4 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R5 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R6 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R7 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R8 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R9 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R10 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R11 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R12 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R13 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R14 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+[[page 48]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 48
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 17 Predicted maximum incremental 1-hour PAH, benzene and formaldehyde concentrations – Scenario 1
+Receptor
+Maximum 1-hour average concentration (mg·m-3)
+PAH Benzene Formaldehyde
+Criterion 0.0004 0.029 0.02
+Max. % of criterion <0.1% 3 046.1% 6.6 %
+R1 9.92E-08 4.54E-01 6.78E-04
+R2 9.10E-08 4.16E-01 6.22E-04
+R3 8.39E-08 3.84E-01 5.74E-04
+R4 1.31E-07 6.00E-01 8.96E-04
+R5 1.90E-07 8.68E-01 1.30E-03
+R6 1.93E-07 8.83E-01 1.32E-03
+R7 1.21E-07 5.54E-01 8.29E-04
+R8 9.15E-08 4.19E-01 6.26E-04
+R9 4.85E-08 2.22E-01 3.32E-04
+R10 9.98E-08 4.57E-01 6.83E-04
+R11 1.74E-07 7.96E-01 1.19E-03
+R12 1.77E-07 8.12E-01 1.21E-03
+R13 1.32E-07 6.05E-01 9.04E-04
+R14 4.14E-08 1.89E-01 2.83E-04
+[[page 49]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 49
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 11  Predicted maximum incremental 1-hour Benzene impacts – Scenario 1
+
+[[page 50]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 50
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.1.4. Assessment of Criteria Exceedances
+Presented in Table 18 is a summary of the number of additional exceedances of the short-term PM 10, PM2.5
+and NO2 criteria, and those values presented as a probability (0 being impossible, 1 being certain).  These
+values are discussed further in Section 8.2.
+Table 18 Assessment of the number of additional exceedances
+Receptor
+Number of additional exceedances of the
+criterion
+Probability that an exceedance is predicted in
+one year
+24-hour PM10 24-hour PM2.5 1- hour NO2 24-hour PM10 24-hour PM2.5 1- hour NO2
+R1 7 9 2 896 0.019 0.025 0.331
+R2 6 8 2 032 0.016 0.022 0.232
+R3 6 7 1 328 0.016 0.019 0.152
+R4 6 8 1 068 0.016 0.022 0.122
+R5 3 9 925 0.008 0.025 0.106
+R6 6 8 1 169 0.016 0.022 0.133
+R7 6 8 1 293 0.016 0.022 0.148
+R8 6 7 1 451 0.016 0.019 0.166
+R9 6 7 1 507 0.016 0.019 0.172
+R10 6 11 1 244 0.016 0.030 0.142
+R11 6 11 1 517 0.016 0.030 0.173
+R12 2 7 1 402 0.005 0.019 0.160
+R13 2 10 2 014 0.005 0.027 0.230
+R14 0 0 285  -  - 0.033
+[[page 51]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 51
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.2. Scenario 2 – Realistic Operations
+Presented below are the results of the modelling assessment under the assumptions of Scenario 2 (refer
+Section 5.2.2) with 3 generators operating at 100 % load for 15 minutes in each testing hour.
+7.2.1. Particulate Matter
+7.2.1.1. Annual Average TSP, PM10 and PM2.5
+The predicted annual average particulate matter concentrations (as TSP, PM 10 and PM 2.5) resulting from
+Scenario 2 operations are presented in Table 19.  Table 19 shows that predicted incremental concentrations
+of TSP, PM10 and PM2.5 at all receptor locations are low (less than (<) 0.1 % of the annual average TSP, PM 10
+and PM2.5 criteria.
+The annual average TSP criterion is predicted to be achieved, although the annual average PM 10 and PM 2.5
+criteria are shown to be exceeded, but this is due to already exceeding background conditions.  The Proposal
+operation under the testing regime does not result in any measurable increases in those concentrations.
+Table 19 Predicted annual average TSP, PM 10 and PM2.5 concentrations – Scenario 2
+Receptor Annual Average Concentration (μg∙m-3)
+TSP PM10 PM2.5
+Incremental
+Impact
+Background
+Cumulative
+Impact
+Incremental
+Impact
+Background
+Cumulative
+Impact
+Incremental
+Impact
+Background
+Cumulative
+Impact
+Criterion 90 25 8
+Max. % of
+criterion
+<0.1% 59.4% <59.5% <0.1% 104.0% 104.2% <0.1% 148.8% 149.4%
+R1 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R2 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R3 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R4 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R5 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R6 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R7 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R8 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R9 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R10 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R11 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R12 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R13 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+R14 <0.1 53.4 53.5 <0.1 26 26.1 <0.1 11.9 12.0
+[[page 52]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 52
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.2.1.2. Annual Average Dust Deposition Rates
+Table 20 presents the annual average dust deposition predicted as a result of the assumptions under Scenario
+2.
+Annual average dust deposition is predicted to meet the criteria at all identified receptors where the predicted
+impacts are less than 5 % of the incremental criterion.
+Table 20 Predicted annual average dust deposition – Scenario 2
+Receptor
+Annual Average Dust Deposition (g·m-2·month-1)
+Incremental Impact Background Cumulative Impact
+Criterion 2 - 4
+Max. % of criterion 5.0% 51.3%
+R1 <0.1 2.0 2.1
+R2 <0.1 2.0 2.1
+R3 <0.1 2.0 2.1
+R4 <0.1 2.0 2.1
+R5 <0.1 2.0 2.1
+R6 <0.1 2.0 2.1
+R7 <0.1 2.0 2.1
+R8 <0.1 2.0 2.1
+R9 <0.1 2.0 2.1
+R10 <0.1 2.0 2.1
+R11 <0.1 2.0 2.1
+R12 <0.1 2.0 2.1
+R13 <0.1 2.0 2.1
+R14 <0.1 2.0 2.1
+The performance of the Proposal under Scenario 2 does not result in any exceedances of the annual average
+dust deposition impact assessment criteria.
+[[page 53]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 53
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.2.1.3. Maximum 24-Hour PM10 and PM2.5
+Table 21 presents the maximum 24-hour average PM 10 and PM 2.5 concentrations predicted to occur at the
+nearest receptors, as a result of the Proposal operations under Scenario 2.  No background concentrations
+are included within this table.
+Table 21 Predicted maximum incremental 24-hour PM 10 and PM2.5 concentrations – Scenario 2
+Receptor
+Maximum 24-hour average concentration
+(µg·m-3)
+PM10 PM2.5
+Criterion 50 25
+Max. % of criterion <0.1% <0.1%
+R1 <0.1 <0.1
+R2 <0.1 <0.1
+R3 <0.1 <0.1
+R4 <0.1 <0.1
+R5 <0.1 <0.1
+R6 <0.1 <0.1
+R7 <0.1 <0.1
+R8 <0.1 <0.1
+R9 <0.1 <0.1
+R10 <0.1 <0.1
+R11 <0.1 <0.1
+R12 <0.1 <0.1
+R13 <0.1 <0.1
+R14 <0.1 <0.1
+The predicted incremental concentrations of PM 10 and PM 2.5 are demonstrated to be minor at all receptor
+locations representing < 0.1 % of the relevant criteria.
+An assessment of the 24-hour PM10 and PM2.5 concentrations with background included is not presented, as
+the concentrations are all driven by background.  The addition of the predicted increments presented in Table
+21 do not result in any additional exceedances of the criteria.
+Contour plots of the predicted incremental 24-hour PM10 concentrations associated with the Proposal under
+Scenario 2 are presented in Figure 12 to allow examination of the distribution of particulate matter in the area
+surrounding the Proposal site.
+The performance of the Proposal does not result in any additional exceedances of the maximum 24-hour
+PM10 and PM2.5 particulate matter impact assessment criteria under Scenario 2 operations.
+[[page 54]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 54
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 12  Predicted maximum incremental 24-hour PM 10 impacts – Scenario 2
+Note  1: PM 10 criterion = 50 µg·m-3 (cumulative)
+
+[[page 55]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 55
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.2.2. Nitrogen Dioxide
+Results are presented in this section for the predictions of nitrogen dioxide (NO 2) under Scenario 2.  The
+averaging periods associated with the criteria for these pollutants is 1-hour and an annual average, as specified
+in Table 4.
+The predicted maximum 1-hour and annual average NO 2 concentrations resulting from the assumptions
+under Scenario 2, are presented in Table 22.
+Table 22 Predicted 1-hour and annual average nitrogen dioxide concentrations – Scenario 2
+Rec.
+Nitrogen dioxide (NO2) concentration (µg∙m-3)
+1-hour Annual Average
+Increment Backgr. Cumul. Increment Backgr. Cumul.
+Criterion 246 62
+Max. % of criterion 49.9 % 40.8 % 63.4 % 8.6 % 28.6 % 37.2 %
+R1 68.0 45.1 113.1 5.3 17.7 23.0
+R2 111.1 30.8 141.8 5.2 17.7 22.9
+R3 55.6 100.5 156.1 3.0 17.7 20.7
+R4 74.8 51.3 126.1 2.6 17.7 20.3
+R5 102.9 8.2 111.1 2.3 17.7 20.0
+R6 49.4 67.7 117.0 3.1 17.7 20.8
+R7 57.6 67.7 125.2 3.4 17.7 21.2
+R8 80.7 28.7 109.4 2.7 17.7 20.4
+R9 100.8 32.8 133.6 3.5 17.7 21.2
+R10 81.3 28.7 110.0 4.0 17.7 21.7
+R11 122.8 12.3 135.1 4.8 17.7 22.5
+R12 101.1 6.2 107.2 3.3 17.7 21.0
+R13 105.0 8.2 113.2 3.9 17.7 21.6
+R14 <0.1 100.5 100.5 0.4 17.7 18.1
+The results indicate that predicted incremental and cumulative NO 2 concentrations are below the criteria at
+all surrounding receptor locations.
+The performance of the Proposal under Scenario 2 does not result in any exceedances of the criteria for
+nitrogen dioxide.
+A contour plot of the predicted maximum 1-hour incremental NO2 impact is presented in Figure 13.
+[[page 56]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 56
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 13  Predicted maximum incremental 1-hour NO 2 impacts – Scenario 2
+Note  1: Criterion = 246 µg ·m-3 (cumulative)
+
+[[page 57]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 57
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+7.2.3. All Other Pollutants
+The following presents the predicted ground level concentrations associated with Scenario 2 for all other
+pollutants assessed in this study (refer Section 5.2.2).
+Presented in Table 23 to Table 25 are the predicted concentrations of CO, SO 2, PAHs, benzene and
+formaldehyde at varying averaging periods at the surrounding receptors.
+A contour plot of the predicted maximum 1-hour incremental benzene impact is presented in Figure 14.
+The predicted incremental concentrations for all of the abovementioned pollutants are below the relevant
+criteria for all averaging periods at all receptors.
+[[page 58]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 58
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure 14  Predicted maximum incremental 1-hour benzene – Scenario 2
+
+[[page 59]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 59
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 23 Predicted 15-minute, 1-hour and 8-hour average carbon monoxide concentrations – Scenario 2
+Rec.
+Carbon monoxide (CO) concentration (mg∙m-3)
+15-minute 1-hour 8-hour
+Increment Background Cumulative Increment Background Cumulative Increment Background Cumulative
+Criterion 100 25 9
+Max. % of criterion <0.1% 8.3% <8.4% <0.1% 25.2% <25.4% <0.1% 35.6% <36.1%
+R1 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R2 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R3 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R4 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R5 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R6 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R7 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R8 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R9 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R10 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R11 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R12 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R13 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+R14 <0.1 8.3 8.4 <0.1 6.3 6.4 <0.1 3.2 3.3
+[[page 60]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 60
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 24 Predicted 10-minute, 1-hour, 24-hour and annual average carbon monoxide concentrations – Scenario 2
+Rec.
+Sulphur dioxide (SO2) concentration (µg∙m-3)
+10-minute 1-hour 24-hour Annual Average
+Increment Backgr. Cumul. Increment Backgr. Cumul. Increment Backgr. Cumul. Increment Backgr. Cumul.
+Criterion 712 570 228 60
+Max. %
+of
+criterion
+<0.1% 11.1% <11.2% <0.1% 9.6% <9.7% <0.1% 4.4% <4.5% <0.1% 3.2% <3.3%
+R1 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R2 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R3 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R4 <0.1 78.7 78.8 <0.1 55.0 5.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R5 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R6 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R7 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R8 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R9 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R10 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R11 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R12 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R13 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+R14 <0.1 78.7 78.8 <0.1 55.0 55.1 <0.1 10.0 10.1 <0.1 1.9 2.0
+[[page 61]]
+22.1095.FR1V3 OPERATIONAL PHASE AIR QUALITY ASSESSMENT Page 61
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table 25 Predicted maximum incremental 1-hour PAH, benzene and formaldehyde concentrations – Scenario 2
+Receptor
+Maximum 1-hour average concentration (mg·m-3)
+PAH Benzene Formaldehyde
+Criterion 0.0004 0.029 0.02
+Max. % of criterion <0.1% 13.2% <0.1%
+R1 7.70E-10 3.52E-03 5.3E-06
+R2 7.75E-10 3.55E-03 5.3E-06
+R3 6.63E-10 3.04E-03 4.5E-06
+R4 8.38E-10 3.84E-03 5.7E-06
+R5 7.41E-10 3.39E-03 5.1E-06
+R6 6.45E-10 2.96E-03 4.4E-06
+R7 6.27E-10 2.87E-03 4.3E-06
+R8 5.52E-10 2.53E-03 3.8E-06
+R9 7.54E-10 3.45E-03 5.2E-06
+R10 5.61E-10 2.57E-03 3.8E-06
+R11 7.62E-10 3.49E-03 5.2E-06
+R12 7.33E-10 3.36E-03 5.0E-06
+R13 7.50E-10 3.43E-03 5.1E-06
+R14 1.58E-10 7.26E-04 1.1E-06
+[[page 62]]
+22.1095.FR1V3 DISCUSSION AND CONCLUSION Page 62
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+8. DISCUSSION AND CONCLUSION
+Northstar Air Quality was engaged by EMKC3 to perform an AQIA for the proposed operation of a data centre,
+to be located at 51 Huntingwood Drive, Huntingwood NSW.  The AQIA has considered the potential impacts
+on air quality associated with the construction and operation of the datacentre.  Operational impacts have
+been considered by assessing a realistic emissions scenario, and a justified worst-case scenario.
+8.1. Construction Phase Risk Assessment
+The construction phase risk assessment for the Proposal, presented in Section 6 showed there to be a medium
+risk of dust soiling and health risk impacts associated with earthworks, construction, track-out and construction
+traffic, while demolition activities were associated with high risks.  Based upon that assessment, a range of
+mitigation measures are recommended to ensure that short-term impacts associated with construction phase
+activities are minimised, as presented in Appendix C.
+8.2. Operational Phase Impact Assessment
+The predicted impacts of operational phase activities under a worst-case scenario (Scenario 1) and realistic
+operational scenario (Scenario 2) are presented in Section 7.
+Under the justified worst-case emergency generator operational scenario (Scenario 1), a number of additional
+exceedances of the short-term air quality criteria for PM 10,  P M2.5,  N O2 and benzene are predicted.  That
+scenario assumes that all 316 generators would be operational at one time, The predicted incremental
+concentrations under Scenario 1 show significant exceedances of particulate matter (PM 10 and PM 2.5), NO2,
+and benzene at sensitive receptor locations if a power outage occurred, and all 316 emergency generators
+were operating at 100 % load continuously (refer Section 7.1).
+An assessment of the probability of an exceedance of the relevant short-term PM 10, P M2.5 and NO 2 criteria
+has been performed and is presented in Section 7.1.4.  As a maximum across all receptors, the probability of
+an exceedance of the PM10, PM2.5 or NO2 criterion is any year is 0.019, 0.030 and 0.331, respectively (where 0
+is an impossible event, and 1 is a certain event).
+To predict the likelihood of exceedances under the worst-case scenario (all 316 generators operating
+continuously at 100 % load), a review of (Energy Networks Australia, 2018) was performed to estimate the
+frequency of power outages at the Proposal site.  That review found that generally, customers experience
+approximately 200 minutes of power outages each year with regard to the system average interruption
+duration index (SAIDI) as provided in Figure 15.  Correspondingly, power interruptions could be expected for
+approximately 0.04 % of the time per yea-r, or have a probability of 0.0004.  Note that this probability reflects
+the outages experienced.  Should all 316 generators be required to be operational at one time, an event never
+[[page 63]]
+22.1095.FR1V3 DISCUSSION AND CONCLUSION Page 63
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+before experienced on the electricity network would occur, and the probability of that event cannot be
+calculated, but would be significantly smaller than 0.0004.
+Figure 15 System reliability – unplanned SAIDI
+The probability of both the interruption to the power supply, and an exceedance of the relevant air quality
+criteria occurring can be calculated through the multiplication of the probability of each event occurring.
+Those values are incredibly small, and have been placed into context by calculating the percentage chance
+that the event could occur in a number of years.  Table 26 presents the results of those calculations.
+The results indicate that the chance of an additional exceedance of the air quality criteria during a power
+outage is incredibly small.  Also note that these likelihoods will be much smaller than presented, as the
+likelihood of power outage on the scale which would require all 316 generators to be operational is incredibly
+unlikely.
+Table 26 Chance of an exceedance during a power outage
+Number of years Percentage chance of an additional exceedance of the short-term criterion
+during a power outage
+PM10 PM2.5 NO2
+100 0.1% 0.1% 1.3%
+200 0.1% 0.2% 2.5%
+500 0.4% 0.6% 6.1%
+1 000 0.7% 1.1% 11.8%
+1 250 0.9% 1.4% 14.6%
+Predicted incremental concentrations for Scenario 2 show that no exceedances are predicted to occur at all
+surrounding receptors for all assessed pollutants.  Correspondingly, it is anticipated that under operation of
+the testing schedule as outlined in Table 3 that no significant air quality impacts are predicted to be
+experienced at sensitive receptors.
+
+[[page 64]]
+22.1095.FR1V3 DISCUSSION AND CONCLUSION Page 64
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+8.3. Mitigation and Monitoring
+Based on the findings of the dispersion modelling assessment under Scenario 2, it is considered that the
+operation of the testing schedule would not result in exceedances being experienced at sensitive receptor
+locations surrounding the Proposal site.
+To ensure air quality impacts experienced at sensitive receptors resulting from the operation of the Proposal
+site are minimised, maintenance under the testing schedule must be performed as outlined in Section 2.3.2.
+Operation of the emergency generators should be minimised as practicably possible.
+8.4. Other Considerations
+NSW DPE has requested the Proponent to demonstrate and justify that all feasible and practical measures
+have been considered and implemented to reduce ground level NO2 concentrations under the justified worst-
+case scenario (Scenario 1).
+NSW DPE commissioned a report by Todoroski Air Sciences‘Air Emission Control for Back-up Power Supplies
+for Data Centres and other Land Uses’ (TAS, 2021).  That document indicates that for NOX reduction, Selective
+Catalytic Reduction (SCR) has the potential to reduce emissions by up to 90 %.  No other measures to reduce
+NOX emissions are outlined within that document, although it is identified that the use of horizontal stacks
+can result in poor dispersion.  The Proposal would adopt vertical stacks emitting at roof height with high
+emission velocities (32.6 m·s-1) which would represent a preferable emission scenario to horizontal emission.
+8.4.1. Selective Catalytic Reduction
+Selective Catalytic Reduction (SCR) is an active emissions control technology that aims to control NO X
+emissions from emergency generators.  SCR is an effective and commonly applied air pollution control
+technique to manage NO X emissions.  SCR reduces NO X emissions through the addition of a gaseous
+reductant, such as ammonia (NH3) or urea (CO(NH2)2) into the gas stream before the gas enters the catalytic
+reaction chamber.  Through this process, NO and NO2 are reduced to nitrogen (N2) and water.  The greater
+the rate of reductant addition, the higher the potential for NOX reduction, however this also gives rise to the
+potential for “ammonia slip”, whereby excess NH3 not consumed in the catalytic reduction reaction passes
+through the chamber and is discharged to air.
+Ammonia slip is caused through the incomplete reaction of reductant in the process and can be largely
+managed through process control, including NH3 measurement post-catalyst and automated feedback to the
+reductant injection rate.  Effective automated control is critical to manage the risks of ammonia slip.
+The rate of ammonia slip, and therefore the rate of NOX emission control, is highly dependent on the exhaust
+stream, catalyst temperature, NO X concentration and the NH 3 dose rate.  The US EPA Air Pollution Control
+[[page 65]]
+22.1095.FR1V3 DISCUSSION AND CONCLUSION Page 65
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Technology Fact Sheet (EPA-452/F-03-032) indicates that the optimum emission gas temperature for effective
+NOX control through SCR is over the range from 250 °C to 427 °C.  Clearly, generators will take time to reach
+operating temperature, and therefore SCR would only be effective once the temperature had reached a
+minimum of 250 °C.
+As noted in TAS (2021) ‘SCR requires the engine and exhaust system to be at operating temperature in order
+to work, and this requires special pre-heaters to be useful for reducing NOX for standby generators.’
+The use of SCR as an emission control technology for reducing NO 2 concentrations has been considered in
+this response.  Given that the catalyst would be required to be pre-heated to minimise ammonia slip and to
+result in NO X emission reduction, the resultant CO 2 emissions associated with continual heating of catalysts
+across all 316 generators is likely to be significant.  In addition, the embodied energy associated with the
+production of the SCR system and consumables (ammonia/urea would need to be replaced on a regular
+basis) would not be insignificant across the entire development.   The likelihood of use of all 316 generators
+in Scenario 1 is also incredibly low (significantly lower than 0.04% of the year), as these would typically only
+be used in the unlikely event of short term, localised and isolated power outages.  Given the highly resilient
+and redundant authority supply feeders, the suitability of the SCR control system as use for short duration
+back up generation, is considered to not be appropriate for the development.
+In lieu of air pollution control through SCR, the Proponent would commit to maintaining high velocity vertical
+discharges to maximise plume momentum, vertical mixing and effective dispersion to minimise NO2 risks.
+8.5. Conclusion
+Based upon the information presented in this AQIA, the operation of the Proposal is not considered likely to
+result in additional exceedances of the relevant air quality criteria at any identified receptor location.  Scenarios
+replicating the worst-case and realistic operations have been considered in the assessment.
+The predicted incremental concentrations for all assessed pollutants are shown to be significantly below the
+relevant criteria under realistic operations where the emergency generators are appropriately operated under
+the testing schedule.
+It is respectfully considered that the Proposal should not be rejected on the grounds of air quality.
+[[page 66]]
+22.1095.FR1V3 REFERENCES Page 66
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+9. REFERENCES
+Energy Networks Australia. (2018). Behind the news: network reliability . Retrieved from Energy Networks
+Australia: https://www.energynetworks.com.au/news/energy-insider/behind-the-news-network-
+reliability/#:~:text=With%20regard%20to%20SAIDI%2C%20the,including%20planned%20and%20u
+nplanned%20outages.&text=For%20the%20average%20customer%2C%20interruptions,time%20du
+ring%20
+NPI. (2008). Emission Estimation Technique Manual for Combustion Engines Version 3.0.
+NSW DEC. (2006). Technical Framework: Assessment and Management of Odour from Stationary Sources in
+NSW.
+NSW DPIE. (2021). NSW Annual Compliance Report 2019.
+NSW EPA. (2016).Approved Methods for the Modelling and Assessment of Air Pollutants in New South Wales.
+NSW Environment Protection Authority.
+NSW EPA. (2022). Approved methods for the sampling and analysis of air apollutants in NSW.
+[[page 67]]
+22.1095.FR1V3 APPENDIX A Page 67
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+APPENDIX A
+Background Air Quality
+[[page 68]]
+22.1095.FR1V3 APPENDIX A Page 68
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Air quality is not monitored at the Proposal site and therefore air quality monitoring data measured at a
+representative location has been adopted for the purposes of this assessment.  Determination of data to be
+used as a location representative of the Proposal site and during a representative year can be complicated
+by factors which include:
+The sources of air pollutant emissions around the Proposal site and representative AQMS; and
+The variability of particulate matter concentrations (often impacted by natural climate variability).
+Air quality monitoring is performed by the NSW Department of Planning and Environment (DPE) at three air
+quality monitoring stations (AQMS) proximate to the Proposal site.  Details of the monitoring performed at
+these AQMS is presented in Table .
+Table A1 Details of Closest AQMS surrounding the site
+AQMS Location
+Distance
+to Site
+(km)
+2019
+Data
+Measurements
+PM10 PM2.5 TSP NO2 CO SO2
+Prospect 3.3       
+St Marys 10       
+Parramatta North 11.2       
+Based on the sources of AQMS data available and their proximity to the Proposal site, Prospect was selected
+as the candidate source of AQMS data for use in this assessment.
+Summary statistics are for PM10, PM2.5 and NO2 data are presented in Table A2.
+Concentrations of TSP are not measured by the NSW DPE at any AQMS surrounding the Proposal site.  An
+analysis of co-located measurements of TSP and PM 10 in the Lower Hunter (1999 to 2011), Illawarra (2002 to
+2004), and Sydney Metropolitan (1999 to 2004) regions is presented in Figure A1.
+The analysis concludes that, on the basis of the measurements collected across NSW between 1999 to 2011,
+the derivation of a broad TSP:PM10 ratio of 2.0551 : 1 (i.e. PM10 represents ~48 % of TSP) is appropriate to be
+applied to measurements in the Sydney Metro area.
+In the absence of any more specific information, this ratio has been adopted within this AQIA.  These estimates
+have not been adjusted for background exceedances.
+[[page 69]]
+22.1095.FR1V3 APPENDIX A Page 69
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure A1 Co-located TSP and PM 10 measurements, Lower Hunter, Sydney Metro and Illawarra
+Similarly, no dust deposition data is available for the area surrounding the Proposal site.  The incremental
+impact criterion of 2 g·m -2·month-1 as outlined within the Approved Methods has been adopted which
+effectively provides a background deposition level of 2 g·m -2·month-1 (the total allowable deposition being
+4 g·m-2·month-1).
+A summary of background air quality data for the site for the year 2019 (consistent with the selected
+meteorological period) is presented in Table A2.
+Graphs presenting the daily varying PM 10,  P M2.5 a n d  N O2 data recorded at Prospect AQMS in 2019 are
+presented in Figure A2, Figure A3 and Figure A4 respectively.
+
+[[page 70]]
+22.1095.FR1V3 APPENDIX A Page 70
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table A2 Summary of background air quality data (Prospect 2019)
+Pollutant NO2 (µg∙m-3) O3 (µg·m-³) SO2 (µg·m-3) CO (mg·m-³) CO (mg·m-³) TSP (µg∙m-3) PM10 (µg∙m-³) PM2.5(µg∙m-³)
+Averaging Period 1-Hour 1-Hour 1-Hour 1-Hour 8-Hour (rolling) Annual 24-Hour 24-Hour
+Data Points (number) 8266 8262 8289 8301 8681 362 362 337
+Mean 17.7 40.8 1.9 0.1 0.1 53.4 26.0 11.9
+Standard Deviation 16 33 4 0 0 - 22 13
+Skew1 1.1 1.5 4.7 9.0 5.0 - 3.8 5.0
+Kurtosis2 0.7 4.4 37.3 156.8 46.8 - 20.0 33.8
+Minimum -4.1 -2.1 -2.6 -0.2 -0.1 - 5.3 1.1
+Percentiles (µg·m-3)
+25 4.1 15.0 0.0 0.0 0.0 - 14.7 5.8
+50 12.3 38.5 0.0 0.0 0.0 - 20.4 8.5
+75 26.7 57.8 2.6 0.1 0.1 - 29.9 13.2
+90 41.0 77.0 5.2 0.3 0.3 - 40.8 19.1
+95 51.3 98.4 7.9 0.5 0.5 - 61.1 33.7
+97 55.4 117.7 10.5 0.7 0.6 - 79.5 41.1
+98 59.5 132.7 10.5 0.8 0.7 - 86.9 50.0
+99 66.3 156.2 15.7 0.9 0.8 - 120.9 69.5
+Maximum 100.5 282.5 55.0 6.3 3.2 375.7 182.8 134.1
+Data Capture (%) 94.4 94.3 94.6 94.8 99.1 99.2 99.2 92.3
+Notes:  1: Skew represents an expression of the distribution of measured values around the derived mean. Positive skew represents a distribution tending towards values higher than the mean, and negative
+skew represents a distribution tending towards values lower than the mean. Skew is dimensionless.
+2: Kurtosis represents an expression of the value of measured values in relation to a normal distribution. Positive skew represents a more peaked distribution, and negative skew represents a distribution more
+flattened than a normal distribution. Kurtosis is dimensionless.
+[[page 71]]
+22.1095.FR1V3 APPENDIX A Page 71
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure A2 PM 10 measurements, Prospect 2019
+Figure A3 PM 2.5 measurements, Prospect 2019
+
+[[page 72]]
+22.1095.FR1V3 APPENDIX A Page 72
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure A4 NO 2 measurements, Prospect 2019
+
+[[page 73]]
+22.1095.FR1V3 APPENDIX B Page 73
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+APPENDIX B
+Meteorology
+[[page 74]]
+22.1095.FR1V3 APPENDIX B Page 74
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+As discussed in Section 4.3 a meteorological modelling exercise has been performed to characterise the
+meteorology of the Proposal site in the absence of site specific measurements.  The meteorological
+monitoring has been based on measurements taken at a number of surrounding automatic weather stations
+(AWS) operated by the Bureau of Meteorology (BoM).
+A summary of the relevant monitoring sites is provided in Table B1.
+Table B1 Details of the meteorological monitoring surrounding the Proposal site
+Site Name Source Approximate
+Location
+Approximate
+Distance
+mE mS km
+Horsley Park Equestrian Centre AWS – Station # 067119 BOM 301 708 6 252 298 5.8
+Bankstown Airport AWS – Station # 066137 BOM 313 855 6 245 099 16.5
+Badgerys Creek AWS – Station # 067108 BOM 289 920 6 246 951 17.2
+Meteorological conditions at Horsley Park Equestrian Centre AWS have been examined to determine a
+‘typical’ or representative dataset for use in dispersion modelling.  Annual wind roses for the most recent years
+of data (2017 to 2021) are presented in Figure B1.
+The wind roses indicate that from 2017 to 2021, winds at Horsley Park Equestrian Centre AWS are
+predominantly from south-westerly wind directions.
+The majority of wind speeds experienced at the Horsley Park Equestrian Centre AWS between 2017 and 2021
+are generally in the range 0.5 meters per second (m ∙s-1) to 5.5 m ∙s-1 with the highest wind speeds (greater
+than 8 m∙s-1) occurring from north-westerly directions.  Winds of this speed are rare and occur during 0.3 %
+of the observed hours during the years.  Calm winds (< 0.5 m∙s-1) are more common and occur during 18.3 %
+of hours across the years.
+[[page 75]]
+22.1095.FR1V3 APPENDIX B Page 75
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure B1 Annual wind roses 2017 to 2021, Horsley Park Equestrian Centre AWS
+Given the similarities in the wind distribution across the years examined, data for the year 2019 has been
+selected for further assessment.  Presented in Figure B2 are the annual wind rose for the 2017 to 2021 period
+and the year 2019 and in Figure B3 the annual wind speed distribution for Horsley Park Equestrian Centre
+AWS.  These figures indicate that the distribution of wind speed and direction in 2019 is very similar to that
+experienced across the longer-term period.
+It is concluded that conditions in 2019 may be considered to provide a suitably representative dataset for use
+in dispersion modelling.
+
+[[page 76]]
+22.1095.FR1V3 APPENDIX B Page 76
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure B2 Annual wind roses 2017 to 2021, and 2019 Horsley Park Equestrian Centre AWS
+2017-2021 2019
+Figure B3 Annual wind speed distribution 2017 to 2021, Horsley Park Equestrian Centre AWS
+
+[[page 77]]
+22.1095.FR1V3 APPENDIX B Page 77
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Meteorological Modelling
+The BoM data adequately covers the issues of data quality assurance, however it is limited by its location
+compared to the Proposal site.  To address these uncertainties, a multi-phased assessment of the meteorology
+data has been performed.
+In absence of any measured onsite meteorological data, site representative meteorological data for this
+Proposal was generated using the CALMET meteorological model in a format suitable for using in the
+CALPUFF dispersion model (refer Section 4.4).
+CALMET is a meteorological model that develops wind and temperature fields on a three-dimensional gridded
+modelling domain.  Associated two-dimensional fields such as mixing height, surface characteristics, and
+dispersion properties are also included in the file produced by CALMET.  The interpolated wind field is then
+modified within the model to account for the influences of topography, as well as differential heating and
+surface roughness associated with different land uses across the modelling domain.  These modifications are
+applied to the winds at each grid point to develop a final wind field and thus the final wind field reflects the
+influences of local topography and current land uses.
+In this study, CALMET has been run in no-observations (no-obs) mode using gridded prognostic data
+generated by The Air Pollution Model (TAPM, v 4.0.5), developed by the Commonwealth Scientific and
+Industrial Research Organisation (CSIRO).
+TAPM predicts wind speed and direction, temperature, pressure, water vapour, cloud, rain water and
+turbulence.  The program allows the user to generate synthetic observations by referencing databases
+(covering terrain, vegetation and soil type, sea surface temperature and synoptic scale meteorological
+analyses) which are subsequently used in the model input to generate site-specific hourly meteorological
+observations at user-defined levels within the atmosphere.
+The parameters used in TAPM and CALMET modelling are presented in Table A2.
+A comparison of the TAPM generated meteorological data, and that observed at Horsley Park Equestrian
+Centre AWS, are presented in Figure B4.  These data generally compare well which provides confidence that
+the meteorological conditions modelled as part of this assessment are appropriate.
+Table B2 Meteorological parameters used for this study
+TAPM v 4.0.5
+Modelling period 1 January 2019 to 31 December 2019
+Centre of analysis 302 552 mS, 6 256 125 mN (UTM Coordinates)
+Number of grid points 25 x 25 x 25
+Number of grids (spacing) 4 (21 km, 8 km, 3 km, 1 km)
+Terrain AUSLIG 9 second DEM
+Data assimilation No data assimilation
+[[page 78]]
+22.1095.FR1V3 APPENDIX B Page 78
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+CALMET
+Modelling period 1 January 2019 to 31 December 2019
+South-West corner of analysis 302 200 mS, 6 256 200mN (UTM Coordinates)
+Meteorological grid domain
+(resolution)
+80 km x 80 km
+Vertical resolution (cell heights) 10 (0 m, 20 m, 40 m, 80 m, 160 m, 320 m, 640 m, 1200 m, 2000 m, 3000 m,
+4000 m)
+Data assimilation No-obs approach using TAPM – 3D.DAT file
+Figure B4 Modelled and observed meteorological data – Horsley Park, 2019
+Horsley Park TAPM generated windrose Observations at Horsley Park AWS
+The following provides a summary of the modelled meteorological dataset.  Given the nature of the pollutant
+emission sources at the Proposal site, detailed discussion of the humidity, evaporation, cloud cover, katabatic
+air drainage and air recirculation potential of the Proposal site has not been provided.  Details of the
+predictions of temperature, mixing height, wind speed and stability class frequency at the Proposal site are
+provided in Figure B5.
+As expected, an increase in mixing height during the morning is apparent, arising due to the onset of vertical
+mixing following sunrise.  Maximum mixing heights occur in the mid to late afternoon, due to the dissipation
+of ground based temperature inversions and growth of the convective mixing layer.
+
+[[page 79]]
+22.1095.FR1V3 APPENDIX B Page 79
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Figure B5 Predicted mixing height, wind speed and stability class frequency at the Proposal site –
+2019
+The modelled wind speed and direction at the Proposal site during 2019 are presented in Figure B6.
+Figure B6 Predicted wind speed and direction – Proposal site 2019
+
+[[page 80]]
+22.1095.FR1V3 APPENDIX C Page 80
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+APPENDIX C
+Construction Phase Risk Assessment Methodology
+[[page 81]]
+22.1095.FR1V3 APPENDIX C Page 81
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Provided below is a summary of the risk assessment methodology used in this assessment.  It is based upon
+IAQM (2016) Guidance on the assessment of dust from demolition and construction (version 1.1), and adapted
+by Northstar Air Quality.
+Adaptions to the Published Methodology Made by Northstar Air Quality
+The adaptions made by Northstar Air Quality from the IAQM published methodology are:
+PM10 criterion: an amended criterion representing the annual average PM 10 criterion relevant to Australia
+rather than the UK;
+Nomenclature: a change in nomenclature from “receptor sensitivity” to “land use value” to avoid
+misinterpretation of values attributed to “receptor sensitivity” and “sensitivity of the area” which may be
+assessed as having different values;
+Construction traffic: the separation of construction vehicle movements as a discrete risk assessment profile
+from those associated with the ‘on-site’ activities of demolition, earthworks and construction.  The IAQM
+methodology considers four risk profiles of: “demolition”, “earthworks”, “construction” and “trackout”. The
+adaption by Northstar Air Quality introduces a fifth risk assessment profile of “construction traffic” to the
+existing four risk profiles; and
+Tables: minor adjustments in the visualisation of some tables.
+Step 1 – Screening Based on Separation Distance
+The Step 1 screening criteria provided by the IAQM guidance suggests screening out any assessment of
+impacts from construction activities where sensitive receptors are located:
+more than 350 m from the boundary of the site;
+more than 50 m from the route used by construction vehicles on public roads; and
+more than 500 m from the site entrance.
+This step is noted as having deliberately been chosen to be conservative and would require assessments for
+most developments.
+Table C1 (overleaf) presents the identified discrete sensitive receptors, with the corresponding estimated
+screening distances compared to the screening criteria.
+[[page 82]]
+22.1095.FR1V3 APPENDIX C Page 82
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table C1 Construction phase impact screening criteria distances
+Rec Location Land use Screening distance (m)
+Boundary
+(350m)
+Site
+entrance
+(500m)
+Construction
+route
+(50m)
+R1 Healy Circuit, Huntingwood Industrial 50 132 132
+R2 Healy Circuit, Huntingwood Industrial 49 204 204
+R3 Healy Circuit, Huntingwood Industrial 40 292 292
+R4 Healy Circuit, Huntingwood Industrial 38 357 357
+R5 Peter Brock Drive, Eastern Creek Industrial 179 597 597
+R6 Peter Brock Drive, Eastern Creek Industrial 185 604 604
+R7 Peter Brock Drive, Eastern Creek Industrial 207 623 623
+R8 Huntingwood Drive, Huntingwood Industrial 42 417 417
+R9 Huntingwood Drive, Huntingwood Industrial 88 298 253
+R10 Huntingwood Drive, Huntingwood Industrial 138 256 57
+R11 Huntingwood Drive, Huntingwood Industrial 45 149 30
+R12 Huntingwood Drive, Huntingwood Industrial 75 85 61
+R13 Huntingwood Drive, Huntingwood Industrial 60 86 80
+R14 Holbeche Road, Blacktown Residential 1418 1454 1445
+With reference to Table C1, sensitive receptors are noted to be within the screening distance thresholds and
+therefore require further risk assessment as summarised in Table C2
+Table C2 Application of step 1 screening
+Construction
+impact
+Screening criteria Step 1 screening Comments
+Demolition 350 m from boundary
+500 m from site entrance
+Not screened Receptors identified within the
+screening distance
+Earthworks 350 m from boundary
+500 m from site entrance
+Not screened Receptors identified within the
+screening distance
+Construction 350 m from boundary
+500 m from site entrance
+Not screened Receptors identified within the
+screening distance
+Trackout 100 m from site entrance Not screened Receptors identified within the
+screening distance
+Construction Traffic 50 m from roadside Not screened Receptors identified within the
+screening distance
+[[page 83]]
+22.1095.FR1V3 APPENDIX C Page 83
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Step 2 – Risk from Construction Activities
+Step 2 of the assessment provides “dust emissions magnitudes” for each of the dust generating activities;
+demolition, earthworks, construction, and track-out (the movement of site material onto public roads by
+vehicles) and construction traffic.
+The magnitudes are: Large; Medium; or Small, with suggested definitions for each category as follows:
+Table C3 Dust Emission Magnitude Activities
+Activity Large Medium Small
+Demolition
+total building volume* >50 000 m3 20 000 m3 to 50 000 m3 <20 000 m3
+demolition height > 20m AGL 10 m and 20 m AGL <10 m AGL
+onsite crushing yes no no
+onsite screening yes no no
+demolition of materials
+with high dust potential
+yes yes no
+demolition timing any time of the year any time of the year wet months only
+Earthworks
+total area >10 000 m2 2 500 m2 to 10 000 m2 <2 500 m2
+soil types potentially dusty soil
+type (e.g.  clay  which
+would be prone to
+suspension when dry
+due to small particle size
+moderately dusty soil type
+(e.g.  silt)
+soil type with large grain
+size (e.g.  sand
+heavy earth moving
+vehicles
+>10 heavy earth moving
+vehicles active at any
+time
+5 to 10 heavy earth moving
+vehicles active at any one
+time
+<5 heavy earth moving
+vehicles active at any one
+time
+formation of bunds >8m AGL 4m to 8m AGL <4m AGL
+material moved >100 000 t 20 000 t to 100 000 t <20 000 t
+earthworks timing any time of the year any time of the year wet months only
+Construction
+total building volume 100 000 m3 25 000 m3 to 100 000 m3 <25 000 m3
+piling yes yes no
+concrete batching yes yes no
+sandblasting yes no no
+materials concrete concrete metal cladding or timber
+Trackout (within 100 m of construction site entrance)
+outward heavy vehicles
+movements per day
+>50 10 to 50 <10
+surface materials high potential moderate potential low potential
+unpaved road length >100m 50m to 100m <50m
+[[page 84]]
+22.1095.FR1V3 APPENDIX C Page 84
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Activity Large Medium Small
+Construction Traffic (from construction site entrance to construction vehicle origin)
+Demolition traffic
+-  total building volume
+>50 000 m3 20 000 m3 to 50 000 m3 <10 000 m3
+Earthworks traffic
+- total area
+>10 000 m2 2 500 m2 to 10 000 m2 <2 500 m2
+Earthworks traffic
+- soil types
+potentially dusty soil
+type (e.g.  clay  which
+would be prone to
+suspension when dry
+due to small particle size
+moderately dusty soil type
+(e.g. silt)
+soil type with large grain
+size (e.g. sand)
+Earthworks traffic
+- material moved
+>100 000 t 20 000 t to 100 000 t <20 000 t
+Construction traffic
+- total building
+volume
+100 000 m3 25 000 m3 to 100 000 m3 <25 000 m3
+Total traffic
+- heavy vehicles
+movements per day when
+compared to existing
+heavy vehicle traffic
+>50% of heavy vehicle
+movement contribution
+by Proposal
+10% to 50% of heavy
+vehicle movement
+contribution by Proposal
+<10% of heavy vehicle
+movement contribution
+by Proposal
+The footprint of the Proposal site (the area affected) is estimated as being approximately 90 552 m 2 (9.1 ha)
+in area.
+The Proposal would involve demolition works and the construction of the structures as illustrated in Figure 2.
+Based on review of the plans, the proposed building volume is expected to exceed 100 000 m 3.  Given the
+significant volume of construction to be performed, it is expected that the number of vehicle movements to
+service the Proposal site each day would exceed 50 movements.
+Based upon the above assumptions and the assessment criteria presented in Table C3, the dust emission
+magnitudes are as presented in Table C4.
+Table C4 Construction phase impact categorisation of dust emission magnitude
+Activity Dust emission magnitude
+Demolition Large
+Earthworks and enabling works Large
+Construction Large
+Track-out Large
+Construction traffic routes Large
+[[page 85]]
+22.1095.FR1V3 APPENDIX C Page 85
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Step 3 – Sensitivity of the Area
+Step 3 of the assessment process requires the sensitivity of the area to be defined.  The sensitivity of the area
+takes into account:
+The specific sensitivities that identified land use values have to dust deposition and human health impacts;
+The proximity and number of those receptors locations;
+In the case of PM10, the local background concentration; and
+Other site-specific factors, such as whether there are natural shelters such as trees to reduce the risk of wind-
+blown dust.
+Land Use Value
+Individual receptor locations may be attributed different land use values based on the land use of the land,
+and may be classified as having high, medium or low values relative to dust deposition and human health
+impacts (ecological receptors are not addressed using this approach).
+Essentially, land use value is a metric of the level of amenity expectations for that land use.
+The IAQM method provides guidance on the land use value with regard to dust soiling and health effects and
+is shown in the table below.  It is noted that user expectations of amenity levels (dust soiling) is dependent on
+existing deposition levels.
+Table C5 IAQM Guidance for Categorising Land Use Value
+Value High Land Use Value Medium Land Use Value Low Land Use Value
+Health
+effects
+Locations where the public
+are exposed over a time
+period relevant to the air
+quality objective for PM10 (in
+the case of the 24-hour
+objectives, a relevant location
+would be one where
+individuals may be exposed
+for eight hours or more in a
+day).
+Locations where the people
+exposed are workers, and exposure
+is over a time period relevant to the
+air quality objective for PM10 (in
+the case of the 24-hour objectives,
+a relevant location would be one
+where individuals may be exposed
+for eight hours or more in a day).
+Locations where human
+exposure is transient.
+Examples: Residential
+properties, hospitals, schools
+and residential care homes.
+Examples: Office and shop workers,
+but would generally not include
+workers occupationally exposed to
+PM10.
+Examples: Public footpaths,
+playing fields, parks and
+shopping street.
+[[page 86]]
+22.1095.FR1V3 APPENDIX C Page 86
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Value High Land Use Value Medium Land Use Value Low Land Use Value
+Dust
+soiling
+Users can reasonably expect a
+high level of amenity; or
+The appearance, aesthetics or
+value of their property would
+be diminished by soiling, and
+the people or property would
+reasonably be expected to be
+present continuously, or at
+least regularly for extended
+periods as part of the normal
+pattern of use of the land.
+Users would expect to enjoy a
+reasonable level of amenity, but
+would not reasonably expect to
+enjoy the same level of amenity as
+in their home; or
+The appearance, aesthetics or value
+of their property could be
+diminished by soiling; or
+The people or property wouldn’t
+reasonably be expected to be
+present here continuously or
+regularly for extended periods as
+part of the normal pattern of use of
+the land.
+The enjoyment of amenity
+would not reasonably be
+expected; or
+Property would not
+reasonably be expected to be
+diminished in appearance,
+aesthetics or value by soiling;
+or
+There is transient exposure,
+where the people or property
+would reasonably be expected
+to be present only for limited
+periods of time as part of the
+normal pattern of use of the
+land.
+Examples: Dwellings,
+museums, medium and long
+term car parks and car
+showrooms.
+Examples: Parks and places of work. Examples: Playing fields,
+farmland (unless
+commercially-sensitive
+horticultural), footpaths, short
+term car parks and roads.
+Sensitivity of the Area
+The assessed land use value (as described above) is then used to assess thesensitivity of the area surrounding
+the active construction area, taking into account the proximity and number of those receptors, and the local
+background PM10 concentration (in the case of potential health impacts) and other site-specific factors.
+Additional factors to consider when determining the sensitivity of the area include:
+Any history of dust generating activities in the area;
+The likelihood of concurrent dust generating activity on nearby sites;
+Any pre-existing screening between the source and the receptors;
+Any conclusions drawn from analysing local meteorological data which accurately represent the area; and if
+relevant, the season during which the works would take place;
+Any conclusions drawn from local topography;
+Duration of the potential impact, as a receptor may become more sensitive over time; and
+Any known specific receptor sensitivities which go beyond the classifications given in the IAQM document.
+[[page 87]]
+22.1095.FR1V3 APPENDIX C Page 87
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Sensitivity of the Area - Health Impacts
+For high land use values, the method takes the existing background concentrations of PM 10 (as an annual
+average) experienced in the area of interest into account, and professional judgement may be used to
+determine alternative sensitivity categories, taking into account the following:
+Any history of dust generating activities in the area;
+The likelihood of concurrent dust generating activity on nearby sites;
+Any pre-existing screening between the source and the receptors;
+Any conclusions drawn from analysing local / seasonal meteorological data;
+Any conclusions drawn from local topography;
+Duration of the potential impact, as a receptor may become more sensitive over time; and
+Any known specific receptor sensitivities which go beyond the classifications given in the IAQM document.
+Table C6 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Health Effects
+Land Use
+Value
+Annual Mean PM10
+Concentration (µg∙m-3)
+Number of
+Receptors(a)
+Distance from the Source (m)(b)
+<20 <50 <100 <200 <350
+High >30 >100 High High High Medium Low
+10-100 High High Medium Low Low
+1-10 High Medium Low Low Low
+26 – 30 >100 High High Medium Low Low
+10-100 High Medium Low Low Low
+1-10 High Medium Low Low Low
+22 – 26 >100 High Medium Low Low Low
+10-100 High Medium Low Low Low
+1-10 Medium Low Low Low Low
+≤22 >100 Medium Low Low Low Low
+10-100 Low Low Low Low Low
+1-10 Low Low Low Low Low
+Medium - >10 High Medium Low Low Low
+- 1-10 Medium Low Low Low Low
+Low - >1 Low Low Low Low Low
+Note: (a) Estimate the total within the stated distance (e.g. the total within 350 m and not the number between 200 and 350 m),
+noting that only the highest level of area sensitivity from the table needs to be considered.  In the case of high sensitivity
+areas with high occupancy (such as schools or hospitals) approximate the number of people likely to be present.  In the
+case of residential dwellings, just include the number of properties.
+(b) With regard to potential ‘construction traffic’ impacts, the distance criteria of <20m and <50m from the source
+(roadside) are used (i.e. the first two columns only). Any locations beyond 50m may be screened out of the assessment (as
+per Step 1) and the corresponding sensitivity is negligible’.
+Sensitivity of the Area - Dust Soiling
+The IAQM guidance for assessing the sensitivity of an area to dust soiling is shown in the table below.
+[[page 88]]
+22.1095.FR1V3 APPENDIX C Page 88
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Table C7 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Soiling Effects
+Land Use
+Values
+Number of receptors(a) Distance from the source (m)(b)
+<20 <50 <100 <350
+High >100 High High Medium Low
+10-100 High Medium Low Low
+1-10 Medium Low Low Low
+Medium >1 Medium Low Low Low
+Low >1 Low Low Low Low
+Note: (a) Estimate the total number of receptors within the stated distance. Only the highest level of area sensitivity from
+the table needs to be considered.
+(b) With regard to potential ‘construction traffic’ impacts, the distance criteria of <20m and <50m from the source
+(roadside) are used (i.e. the first two columns only).  Any locations beyond 50m may be screened out of the assessment
+(as per Step 1) and the corresponding sensitivity is negligible’.
+Step 4 - Risk Assessment (Pre-Mitigation)
+The matrices shown for each activity determine the risk category with no mitigation applied.
+Table C8 Risk of dust impacts from earthworks
+Sensitivity of Area Pre-Mitigated Dust Emission Magnitude (Earthworks)
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Medium Risk Low Risk
+Low Low Risk Low Risk Negligible
+Table C9 Risk of dust impacts from construction activities
+Sensitivity of Area Pre-Mitigated Dust Emission Magnitude (Construction)
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Medium Risk Low Risk
+Low Low Risk Low Risk Negligible
+Table C10 Risk of dust impacts from demolition activities
+Sensitivity of Area Pre-Mitigated Dust Emission Magnitude (Demolition)
+Large Medium Small
+High High Risk Medium Risk Medium Risk
+Medium High Risk Medium Risk Low Risk
+Low Medium Risk Low Risk Negligible
+Table C11 Risk of dust impacts from trackout (within 100m of construction site entrance)
+Sensitivity of Area Pre-Mitigated Dust Emission Magnitude (Trackout)
+Large Medium Small
+High High Risk Medium Risk Low Risk
+[[page 89]]
+22.1095.FR1V3 APPENDIX C Page 89
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Medium Medium Risk Low Risk Negligible
+Low Low Risk Low Risk Negligible
+Table C12 Risk of dust impacts from construction traffic (from construction site entrance to origin)
+Sensitivity of Area Pre-Mitigated Dust Emission Magnitude (Construction Traffic)
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Low Risk Negligible
+Low Low Risk Low Risk Negligible
+Given the sensitivity of the identified receptors is classified as low for dust soiling and medium for health
+effects and the dust emission magnitudes for the various construction phase activities as shown in Table C4,
+the resulting risk of air quality (without mitigation) is as presented in Table C13.
+Table C13 Risk of air quality impacts from construction activities
+Impact
+Sensitivity of Area
+Dust Emission Magnitude Preliminary Risk
+Demolition
+Earthworks
+Construction
+Track-out
+Const. Traffic
+Demolition
+Earthworks
+Construction
+Track-out
+Const. Traffic
+Dust
+Soiling
+Low Large Large Large Large Large High Medium Medium Medium Medium
+Human
+Health
+Medium Large Large Large Large Large High Medium Medium Medium Medium
+The risks summarised in Table 10 show that there is a high risk of adverse dust soiling and human health
+impacts associated with demolition works while earthworks, construction, track-out and construction traffic
+activities are associated with medium risks.  These pre-mitigated risks have been assessed as such if no
+mitigation measures were to be applied to control emissions associated with construction-phase activities.
+The risk assessment therefore provides recommendations for construction phase mitigation, commensurate
+with those identified risks as provided in Table C14.
+[[page 90]]
+22.1095.FR1V3 APPENDIX C Page 90
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Step 5 – Identify Mitigation
+Once the risk categories are determined for each of the relevant activities, site-specific management measures
+can be identified based on whether the site is a low, medium or high risk site.
+The identified mitigation measures are presented as follows:
+N = not required (although they may be implemented voluntarily)
+D = desirable (to be considered as part of the CEMP, but may be discounted if justification is provided);
+H = highly recommended (to be implemented as part of the CEMP, and should only be discounted if site-
+specific conditions render the requirement invalid or otherwise undesirable).
+The following represents a selection of mitigation measures recommended by the IAQM methodology for
+construction activities associated with the risks presented in Table C13.
+Table C14 Site-specific management measures
+Identified Mitigation Unmitigated
+Risk
+1 Communications High
+1.1 Develop and implement a stakeholder communications plan that includes community
+engagement before work commences on site.
+H
+1.2 Display the name and contact details of person(s) accountable for air quality and dust issues
+on the site boundary. This may be the environment manager/engineer or the site manager.
+H
+1.3 Display the head or regional office contact information. H
+1.4 Develop and implement a Dust Management Plan (DMP), which may include measures to
+control other emissions, approved by the relevant regulatory bodies.
+H
+2 Site Management High
+2.1 Record all dust and air quality complaints, identify cause(s), take appropriate measures to
+reduce emissions in a timely manner, and record the measures taken.
+H
+2.2 Make the complaints log available to the local authority when asked. H
+2.3 Record any exceptional incidents that cause dust and/or air emissions, either on- or offsite,
+and the action taken to resolve the situation in the log book.
+H
+2.4 Hold regular liaison meetings with other high-risk construction sites within 500 m of the site
+boundary, to ensure plans are coordinated and dust and particulate matter emissions are
+minimised. It is important to understand the interactions of the off-site transport/ deliveries
+which might be using the same strategic road network routes.
+H
+3 Monitoring High
+3.1 Undertake daily on-site and off-site inspections where receptors (including roads) are
+nearby, to monitor dust, record inspection results, and make the log available to the local
+authority when asked. This should include regular dust soiling checks of surfaces such as
+street furniture, cars and window sills within 100m of site boundary.
+H
+[[page 91]]
+22.1095.FR1V3 APPENDIX C Page 91
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Identified Mitigation Unmitigated
+Risk
+3.2 Carry out regular site inspections to monitor compliance with the dust management plan /
+CEMP, record inspection results, and make an inspection log available to the local authority
+when asked.
+H
+3.3 Increase the frequency of site inspections by the person accountable for air quality and dust
+issues on site when activities with a high potential to produce dust are being carried out and
+during prolonged dry or windy conditions.
+H
+3.4 Agree dust deposition, dust flux, or real-time continuous monitoring locations with the
+relevant regulatory bodies. Where possible commence baseline monitoring at least three
+months before work commences on site or, if it a large site, before work on a phase
+commences.
+H
+4 Preparing and Maintaining the Site High
+4.1 Plan site layout so that machinery and dust causing activities are located away from
+receptors, as far as is possible.
+H
+4.2 Erect solid screens or barriers around dusty activities or the site boundary that they are at
+least as high as any stockpiles on site.
+H
+4.3 Fully enclose site or specific operations where there is a high potential for dust production
+and the site is active for an extensive period.
+H
+4.4 Avoid site runoff of water or mud. H
+4.5 Keep site fencing, barriers and scaffolding clean using wet methods. H
+4.6 Remove materials that have a potential to produce dust from site as soon as possible, unless
+being re-used on site. If they are being re-used on-site cover as described below
+H
+4.7 Cover, seed or fence stockpiles to prevent wind erosion H
+5 Operating Vehicle/Machinery and Sustainable Travel High
+5.1 Ensure all on-road vehicles comply with relevant vehicle emission standards, where
+applicable
+H
+5.2 Ensure all vehicles switch off engines when stationary - no idling vehicles H
+5.3 Avoid the use of diesel or petrol-powered generators and use mains electricity or battery
+powered equipment where practicable
+H
+5.4 Impose and signpost a maximum-speed-limit of 25 km ∙h-1 on surfaced and 15 km ∙h-1 o n
+unsurfaced haul roads and work areas (if long haul routes are required these speeds may be
+increased with suitable additional control measures provided, subject to the approval of the
+nominated undertaker and with the agreement of the local authority, where appropriate
+H
+5.4 Produce a Construction Logistics Plan to manage the sustainable delivery of goods and
+materials.
+H
+5.5 Implement a Travel Plan that supports and encourages sustainable travel (public transport,
+cycling, walking, and car-sharing)
+H
+6 Operations High
+6.1 Only use cutting, grinding or sawing equipment fitted or in conjunction with suitable dust
+suppression techniques such as water sprays or local extraction, e.g. suitable local exhaust
+ventilation systems
+H
+[[page 92]]
+22.1095.FR1V3 APPENDIX C Page 92
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Identified Mitigation Unmitigated
+Risk
+6.2 Ensure an adequate water supply on the site for effective dust/particulate matter
+suppression/ mitigation, using non-potable water where possible and appropriate
+H
+6.3 Use enclosed chutes and conveyors and covered skips H
+6.4 Minimise drop heights from conveyors, loading shovels, hoppers and other loading or
+handling equipment and use fine water sprays on such equipment wherever appropriate
+H
+6.5 Ensure equipment is readily available on site to clean any dry spillages, and clean up spillages
+as soon as reasonably practicable after the event using wet cleaning methods.
+H
+7 Waste Management High
+7.1 Avoid bonfires and burning of waste materials. H
+8 Measures Specific to Demolition High
+8.1 Soft strip inside buildings before demolition (retaining walls and windows in the rest of the
+building where possible, to provide a screen against dust).
+H
+8.2 Ensure effective water suppression is used during demolition operations. Hand held sprays
+are more effective than hoses attached to equipment as the water can be directed to where
+it is needed. In addition, high volume water suppression systems, manually controlled, can
+produce fine water droplets that effectively bring the dust particles to the ground.
+H
+8.3 Avoid explosive blasting, using appropriate manual or mechanical alternatives. H
+8.4 Bag and remove any biological debris or damp down such material before demolition. H
+8.5 Re-vegetate earthworks and exposed areas/soil stockpiles to stabilise surfaces as soon as
+practicable.
+H
+8.6 Use Hessian, mulches or trackifiers where it is not possible to re-vegetate or cover with
+topsoil, as soon as practicable.
+H
+8.7 Only remove the cover in small areas during work and not all at once H
+9 Measures Specific to Construction Medium
+9.1 Avoid scabbling (roughening of concrete surfaces) if possible D
+9.2 Ensure sand and other aggregates are stored in bunded areas and are not allowed to dry
+out, unless this is required for a particular process, in which case ensure that appropriate
+additional control measures are in place
+H
+9.3 Ensure bulk cement and other fine powder materials are delivered in enclosed tankers and
+stored in silos with suitable emission control systems to prevent escape of material and
+overfilling during delivery.
+D
+9.4 For smaller supplies of fine power materials ensure bags are sealed after use and stored
+appropriately to prevent dust
+D
+10 Measures Specific to Track-Out Medium
+10.1 Use water-assisted dust sweeper(s) on the access and local roads to remove, as necessary,
+any material tracked out of the site.
+H
+10.2 Avoid dry sweeping of large areas. H
+10.3 Ensure vehicles entering and leaving sites are covered to prevent escape of materials during
+transport.
+H
+10.4 Inspect on-site haul routes for integrity and instigate necessary repairs to the surface as soon
+as reasonably practicable.
+H
+[[page 93]]
+22.1095.FR1V3 APPENDIX C Page 93
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+Identified Mitigation Unmitigated
+Risk
+10.5 Record all inspections of haul routes and any subsequent action in a site log book. H
+10.6 Install hard surfaced haul routes, which are regularly damped down with fixed or mobile
+sprinkler systems, or mobile water bowsers and regularly cleaned.
+H
+10.7 Implement a wheel washing system (with rumble grids to dislodge accumulated dust and
+mud prior to leaving the site where reasonably practicable).
+H
+10.8 Ensure there is an adequate area of hard surfaced road between the wheel wash facility and
+the site exit, wherever site size and layout permits.
+H
+10.9 Access gates to be located at least 10 m from receptors where possible. H
+11 Specific Measures to Construction Traffic (adapted) Medium
+11.1 Ensure all on-road vehicles comply with relevant vehicle emission standards, where
+applicable
+H
+11.2 Ensure bulk cement and other fine powder materials are delivered in enclosed tankers and
+stored in silos with suitable emission control systems to prevent escape of material and
+overfilling during delivery.
+D
+11.3 Ensure vehicles entering and leaving sites are covered to prevent escape of materials during
+transport.
+H
+11.4 Inspect on-site haul routes for integrity and instigate necessary repairs to the surface as soon
+as reasonably practicable.
+H
+11.5 Record all inspections of haul routes and any subsequent action in a site log book. H
+Step 6 – Risk Assessment (post-mitigation)
+Following Step 5, the residual impact is then determined.
+The objective of the mitigation is to manage the construction phase risks to an acceptable level, and therefore
+it is assumed that application of the identified mitigation would result in alow or negligible residual risk (post
+mitigation).
+[[page 94]]
+22.1095.FR1V3 APPENDIX D Page 94
+Revised Final Proposed Datacentre - Air Quality Impact Assessment
+APPENDIX D
+Generator Technical Specifications
+[[page 95]]
+22.1095.FR1V3 APPENDIX D Page 95
+Revised Final Proposed Datacentre - Air Quality Impact Assessment

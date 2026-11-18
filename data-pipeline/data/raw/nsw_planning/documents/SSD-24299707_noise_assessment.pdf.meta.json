@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120211108T064852.695+GMT",
+ "project_slug": "talavera-road-data-centre-campus-expansion",
+ "attachment_slug": "appendix-14-noise-and-vibration-report-70",
+ "kind": "noise_assessment",
+ "label": "Appendix 14 - Noise and Vibration Report.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:23:40+00:00",
+ "sha256": "a2cc5493c26c2b1130b688b24b1d7bbc6089d35769fd14978bf93e9e8cf98d1c",
+ "bytes": 9039277,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 182695,
+ "pages": 88,
+ "text_redactions": 2,
+ "pdf_committed": false
+}

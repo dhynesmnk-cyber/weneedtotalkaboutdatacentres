@@ -1,0 +1,2070 @@
+[[page 1]]
+ 
+ 
+ 
+ 
+ 
+Greenbox Architecture 
+Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+  
+Issue 4  |  15 March 2019 
+ 
+ 
+This report takes into account the particular  
+instructions and requirements of our client.   
+It is not intended for and should not be relied  
+upon by any third party and no responsibility  
+is undertaken to any third party. 
+ 
+Job number    259234 
+  
+ 
+Arup 
+Arup Pty Ltd ABN 18 000 966 165 
+   
+Arup 
+Level 5 151 Clarence Street 
+PO Box 76 Millers Point  
+Sydney  2000 
+Australia 
+www.arup.com 
+
+[[page 2]]
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+ 
+ 
+Document Verification  
+ 
+ 
+   Job title Lane Cove West Data Centre Job number 
+259234 
+   Document title Acoustic Assessment - SSD 9741 File reference 
+AC01 
+  Document ref   
+    Revision Date Filename LCWDC – SSDA Acoustic Assessment – Issue 1.docx 
+    Issue 1 17 Dec 
+2018 
+Description Draft 
+ Prepared by Checked by Approved by 
+Name Kim Jones Glenn Wheatley Glenn Wheatley 
+Signature  
+  
+    Issue 2 4 Feb 
+2019 
+Filename LCWDC - SSDA Acoustic Assessment - Issue 2.docx 
+Description Final 
+ Prepared by  Checked by Approved by 
+Name Kim Jones Samuel Grieve Samuel Grieve 
+Signature  
+  
+    Issue 3 21 Feb 
+2019 
+Filename LCWDC - SSDA Acoustic Assessment - Issue 3.docx 
+Description Updated final. 
+ Prepared by Checked by Approved by 
+Name Kim Jones Samuel Grieve Samuel Grieve 
+Signature  
+  
+  Issue Document Verification with Document  ✓  
+ 
+ 
+ 
+
+[[page 3]]
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+ 
+ 
+Document Verification Page 2 of 2 
+ 
+ 
+   Job title Lane Cove West Data Centre Job number 
+259234 
+   Document title Acoustic Assessment - SSD 9741 File reference 
+ 
+  Document ref Click here to enter text. 
+    Revision Date Filename LCWDC - SSDA Acoustic Assessment - Issue 4.docx 
+    Issue 4 15 Mar 
+2019 
+Description Updated figures and operational plant numbers 
+ Prepared by Checked by Approved by 
+Name Mathew Simon Samuel Grieve Samuel Grieve 
+Signature 
+   
+      Filename  
+Description  
+ Prepared by  Checked by Approved by 
+Name    
+Signature    
+      Filename  
+Description  
+ Prepared by Checked by Approved by 
+Name    
+Signature    
+      Filename  
+Description  
+ Prepared by Checked by Approved by 
+Name    
+Signature    
+  Issue Document Verification with Document  ✓  
+ 
+
+[[page 4]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+1 
+ 
+Contents 
+ 
+ Page 
+1 Introduction 1 
+1.1 Project description 1 
+1.2 Scope of assessment 1 
+2 Assessment locations 3 
+3 Existing acoustic environment 4 
+3.1 Measurement methodology 4 
+3.2 Long-term noise monitoring 4 
+3.3 Short-term noise monitoring 5 
+4 Operational noise assessment 6 
+4.1 Standard operations noise criteria 6 
+4.2 Noise predictions 9 
+4.3 Operating scenarios 11 
+4.4 Modelling methodology 11 
+4.5 Predicted noise levels – unmitigated 11 
+4.6 Mitigation measures 13 
+4.7 Predicted noise levels – mitigated 17 
+4.8 Generator noise targets 19 
+5 Construction noise and vibration 20 
+5.1 Construction noise criteria 20 
+5.2 Construction vibration criteria 22 
+5.3 Construction noise and vibration management 25 
+6 Conclusion 28 
+ 
+ 
+ 
+Appendices 
+Appendix A 
+Glossary 
+Appendix B 
+Long-term monitoring 
+ 
+ 
+ 
+[[page 5]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+1 
+ 
+1 Introduction 
+Arup has been engaged to prepare an acoustic assessment for the proposed 
+datacentre at 1 Sirius Road, Lane Cove West. The assessment has been carried out 
+in accordance with the requirements of the NSW Department of Planning and 
+Environment (DPE), with reference to the following policy and guidelines: 
+• NSW Noise Policy for Industry [1] 
+• NSW Interim Construction Noise Guideline [2] 
+• NSW Assessing vibration – a technical guideline [3] 
+It is noted that this assessment does not evaluate noise levels within the building 
+as it is not relevant to the approval process. 
+1.1 Project description 
+The proposed data centre is to be located at 1 Sirius Road in Lane Cove Business 
+Park, on a previously undeveloped plot of land that has been zoned for industrial 
+use. 
+The proposed data centre is comprised of the following major relevant 
+components: 
+• Basement containing 78 x transformers and associated electrical plant. 
+• External rooftop plant consisting of 30 x water-cooled chillers / cooling 
+towers, 34 x standby generators and 29 x transformers. 
+• Additional 14 x standby generators on external raised platform. 
+• Intermediate floors with Data Halls. 
+• Offices and amenities. 
+It is understood that the generators will be operational only during an emergency 
+situation (i.e. power failure) or during monthly maintenance and testing, where 
+only one unit will be operational at a time. The testing will occur during the 
+daytime. 
+1.2 Scope of assessment 
+The following outlines the scope of assessment with respect to the above acoustic 
+aspects and relevant policies and guidelines:   
+• Examine the proposed development plans to identify acoustic aspects of the 
+construction and operation of the development.  
+• Identify the land use and development surrounding the site, which are to be 
+assessed with regard to construction and operational activities.  
+[[page 6]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+2 
+ 
+• Conduct noise level monitoring to quantify the existing acoustic environment 
+at relevant surrounding receiver locations to set project targets in accordance 
+with relevant policy.  
+• Where appropriate, carry out a quantitative acoustic assessment of potential 
+impacts and compare against the relevant noise and vibration targets.   
+• Identify where further design development is required and identify in-
+principle mitigation or management methods for the control of noise and 
+vibration where required.  
+• Outline the processes to be adopted for the continued design development of 
+acoustic aspects for the project.   
+[[page 7]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+3 
+ 
+2 Assessment locations 
+The subject site (S1) is on the edge of the Lane Cove Business Park and so the 
+nearest receivers are commercial premises to the east and south, the closest 
+commercial receiver being approximately 10 m away (C1). There are serviced 
+apartments approximately 250 m to the north east of the proposed site (R1). 
+Beyond the apartments, there are residential premises to the north. There are also 
+residential premises to the northwest (R2) and west (R3) of the proposed 
+development; approximately 450 m and 650 m distant, respectively. The Lane 
+Cove Bushwalk (P1) runs alongside the river and passes the proposed 
+development and is approximately 80 m away.  
+Table 1 and Figure 1 elaborate on the subject site (S1) and its surroundings. 
+Table 1: Assessment locations 
+Type ID Address Description 
+Residential R1 150 Epping Road, 
+Lane Cove 
+Residential apartment complex to the northeast of 
+the subject site 
+Residential R2 65 Magdala Road, 
+North Ryde 
+Residential building to the northwest of the subject 
+site 
+Residential  R3 14 Jeanette Street, 
+East Ryde 
+Residential building to the west of the subject site 
+Commercial C1 1A Sirius Road Commercial building to the east of the subject site 
+Passive 
+Recreation 
+P1 Lane Cove 
+Bushwalk 
+River walk to the west-northwest of the subject site 
+ 
+Figure 1: Site (S1), assessment (R1-3, P1, C1) and noise monitoring locations (L1-3) 
+
+[[page 8]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+4 
+ 
+3 Existing acoustic environment 
+Criteria for the assessment of operational noise are usually derived from the 
+existing noise environment of an area, excluding noise from the subject site. 
+Existing ambient noise levels are required for the establishment of the intrusive 
+noise criteria, applying only to residential locations. All other receivers have fixed 
+criteria applied. 
+3.1 Measurement methodology 
+Fact Sheet A of the NSW EPA Noise Policy for Industry (NPI) outlines two 
+methods for determining the background noise level of an area, being Long-term 
+and Short-term. This assessment has used a combination of long-term and short-
+term noise monitoring. 
+Noise measurements are ideally carried out at the nearest or most potentially 
+affected locations surrounding a development. An alternative, representative 
+location should be established in the case of access restrictions or a safe and 
+secure location cannot be identified. Furthermore, representative locations may be 
+established in the case of multiple receivers as it is usually impractical to carry out 
+measurements at all locations surrounding a site. 
+3.2 Long-term noise monitoring 
+Long-term measurements are identified in Table 2. 
+Table 2: Long-term logger location 
+Type ID Address Description 
+Residential  L3 14 Jeanette Street, 
+East Ryde 
+Residential building to the west of the subject site. 
+The logger was located in the front garden, close to 
+Jeanette Street. The microphone was approximately 
+1.5 m above the ground in the free-field. 
+Long-term noise monitoring was carried out from Friday, 23 November 2018 to 
+Monday, 26 November 2018]. The long-term noise monitoring methodology and 
+noise level-vs-time graphs of the data are included in Appendix B. 
+It should be noted that, due to severe adverse weather conditions, only four days 
+of data was obtained during the long-term monitoring of the site. However, the 
+data indicates limited spread of results across the days captured. Furthermore, as 
+discussed further in Section 4.1, the operational noise criteria is largely 
+determined by the amenity targets and therefore the background noise levels are 
+of lower importance for the project assessment. 
+ 
+ 
+[[page 9]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+5 
+ 
+Table 3: Long-term noise monitoring results, dB(A) 
+Location Time period Rating background 
+noise levels, dBLA90 
+Ambient dB LAeq noise 
+levels 
+L3 - 14 Jeanette 
+Street 
+Day 42 57 
+Evening 42 57 
+Night 31 49 
+Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+As required by the NPI, the external ambient noise levels presented are free-field noise levels. 
+3.3 Short-term noise monitoring 
+Short-term attended noise measurements were undertaken on the morning of 21 
+November 2018 at locations L1-L3. The background noise was dominated by 
+distant traffic noise, with aircraft flyovers, birds/insect sounds and the sound of 
+children playing determining the ambient level. 
+The measured noise levels are given in Table 4. 
+Table 4: Short-term noise monitoring results, dB(A) 
+Location Time period 
+Background 
+noise levels, 
+dB LA90 
+Ambient noise 
+levels, dB LAeq 
+Comments 
+L1 – 150 Epping 
+Road 
+14:55-15:10 47 49 Traffic noise, child 
+crying, occasional 
+aeroplane pass-by 
+L2 – 65 Magdala 
+Road 
+16:31-16:46 53 56 Traffic noise, car pass-by, 
+children playing sports, 
+birds and insects 
+L3 – 14 Jeanette 
+Street 
+17:09-17:25 46 50 Traffic noise, birds and 
+insects, car pass-by 
+While long-term measurements were not obtained for locations L1 and L2, the 
+measurements suggest that the measurement results for L3 may be considered 
+conservative assumptions for locations L1 and L2. As outlined discussed in 
+Section 4.1, the criteria are largely determined by the amenity criteria. 
+[[page 10]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+6 
+ 
+4 Operational noise assessment 
+4.1 Standard operations noise criteria 
+Operational noise emissions from the project have been assessed in accordance 
+with the Noise Policy for Industry (NPI), which is primarily concerned with 
+controlling intrusive noise impacts in the short-term for residences, and 
+maintaining long-term noise level amenity for residences and other land uses.  
+The NPI sets out the procedure to determine the project noise trigger levels 
+relevant to an industrial development. The project noise trigger level is a level 
+that, if exceeded would indicate a potential noise impact on the community and so 
+‘trigger’ a management response.  
+4.1.1 Intrusive noise trigger level 
+The intrusiveness noise trigger level is applicable to residential premises only and 
+is summarised as follows: 
+• LAeq,15minute ≤ Rating Background Level (RBL) plus 5 dB  
+(where LAeq,15minute represent the equivalent continuous noise level of the source) 
+Note that as the Intrusive Noise Trigger Level is established from the prevailing 
+background noise levels at the residential receiver location, the existing 
+background noise level is to be measured.   
+4.1.2 Recommended and project amenity noise level 
+To limit continuing increases in noise levels from application of the intrusiveness 
+level alone, the ambient noise level within an area from all industrial noise 
+sources combined should remain below the recommended amenity noise levels 
+specified in Table 2.2 of the NPI where feasible and reasonable. An extract from 
+the policy is given below in Table 5.  
+Table 5: NPI Recommended Amenity Noise Levels (RANLs) 
+Receiver Noise amenity area Time of Day  
+Recommended amenity 
+noise levels (RANLs) 
+LAeq, dB(A) 
+Residential Rural Day 50 
+Evening 45 
+Night 40 
+Suburban Day 55 
+Evening 45 
+Night 40 
+Urban Day 60 
+Evening 50 
+Night 45 
+[[page 11]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+7 
+ 
+Receiver Noise amenity area Time of Day  
+Recommended amenity 
+noise levels (RANLs) 
+LAeq, dB(A) 
+Area specifically 
+reserved for 
+passive 
+recreation (e.g. 
+national park)  
+All When in use 50 
+Active recreation 
+area (e.g. school 
+playground, gold 
+course) 
+All When in use 55 
+Commercial 
+premises 
+All When in use 65 
+Industrial 
+premises 
+All When in use 70 
+Industrial 
+interface 
+(applicable only 
+to residential 
+noise amenity 
+areas) 
+All All Add 5 dB(A) to 
+recommended noise 
+amenity area 
+Notes: The recommended amenity noise levels (RANLs) refer only to noise from industrial sources. 
+However, they refer to noise from all such sources at the receiver location, and not only noise due to a 
+specific project under consideration. The levels represent outdoor levels except where otherwise stated. 
+1. The NPI defines day, evening and night time periods as:  
+• Day: the period from 7 am to 6 pm Monday to Saturday; or 8 am to 6 pm on Sundays and Public 
+Holidays.  
+• Evening: the period from 6 pm to 10 pm.  
+• Night: the remaining period. 
+(These periods may be varied where appropriate. In the case where existing schools are affected by noise 
+from existing industrial noise sources, the acceptable LAeq noise level may be increased to 40 dB LAeq(1hr) 
+The recommended amenity noise levels (RANLs) represent the objective for total 
+industrial noise at a receiver location, whereas the project amenity noise level 
+(PANL) represents the objective for noise from a single industrial development at 
+a receiver location. 
+To ensure that any new industrial source of noise is within the RANLs for an area, 
+the PANL applies for each new source of industrial noise as follows: 
+• Project Amenity Noise Level (PANL) = Recommended Amenity Noise Level 
+(RANL) minus 5 dB(A) 
+The NPI also provides the following exceptions to the above method for deriving 
+the project amenity noise level:  
+1. In areas with high traffic noise levels. 
+2. In proposed developments in major industrial clusters. 
+3. Where the resultant project amenity noise level is 10 dB or more lower 
+than the existing industrial noise level. In this case the project amenity 
+noise levels can be set at 10 dB below existing industrial noise levels if it 
+[[page 12]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+8 
+ 
+can be demonstrated that existing industrial noise levels are unlikely to 
+reduce over time. 
+4. Where cumulative industrial noise is not a necessary consideration 
+because no other industries are present in the area, or likely to be 
+introduced into the area in the future. In such cases the relevant amenity 
+noise level is assigned as the project amenity noise level for the 
+development. 
+The area surrounding the site can be categorised as Suburban under the NPI. 
+According to Section 3.3, the ambient noise levels at the sensitive receivers is 
+controlled by distant traffic and aircraft noise (observed during the attended 
+measurements). The NPI sets the PANLs to LAeq(period(traffic)) minus 15 dB(A) in the 
+case that the level of transport LAeq(period(traffic)) exceeds the RANL by 10 dB or 
+more. 
+Table 6 summarises the RANLs and the PANLs applicable for the project. 
+Table 6: NPI RANLs and PANLs 
+Receiver 
+Indicative 
+Noise 
+Amenity 
+Area 
+Time of 
+day1 
+Recommended 
+Amenity Noise 
+Level (RANL) 
+LAeq(period) 
+Existing 
+Traffic 
+LAeq(period) 2 
+Project Amenity 
+Noise Level 
+(PANL) LAeq(period) 
+L1 -14 
+Jeanette St 
+Suburban Day 55 57 50 
+Evening 45 57 402,3 
+Night 40 49 35 
+Notes 
+1. The NPI defines day, evening and night time periods as:  
+• Day: the period from 7 am to 6 pm Monday to Saturday; or 8 am to 6 pm on Sundays and Public 
+Holidays.  
+• Evening: the period from 6 pm to 10 pm.  
+• Night: the remaining period. 
+2. Traffic noise is the dominant source of noise at the receiver location: 
+a. the existing traffic noise is 10 dB(A) or more above the ANL for the area; and 
+3. It is unlikely that traffic noise will reduce over time however, due to the limited data set (see Section 
+3.2) and the fact that the evening period is the only one that qualifies as having traffic as the 
+“dominant source”, the PANL has not been adjusted. 
+4.1.3 Sleep disturbance 
+The NSW NPI recommends the following screening criteria for the assessment of 
+potential sleep disturbance, for the period between 10 pm and 7 am:  
+• LAeq,15min 40 dB(A) or the prevailing RBL plus 5 dB, whichever is the greater, 
+and/or; 
+• LAFmax 52 dB(A) or the prevailing RBL plus 15 dB, whichever is the greater 
+[[page 13]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+9 
+ 
+4.1.4 NPI Project noise trigger levels 
+It is noted, the following Project Noise Trigger Levels represent the point at which 
+mitigation should be considered. They are not intended to be applied as a 
+mandatory limit as a range of other factors are required to be taken into account 
+for decisions under both environment protection and environmental planning. 
+Based on the background and ambient noise monitoring, Table 7 summarises the 
+derived Project Noise Trigger Levels based on the NPI.  
+The NPI recommends that all assessment is based on the LAeq,15min parameter, with 
+the amenity levels being estimated as LAeq,15minute = LAeq,period levels + 3 dB. This is 
+assumed to take into account the likely variation in noise emission over time when 
+compared to the worst case 15-minute period assessed against the intrusive trigger 
+levels. However, where the noise sources being assessed are building services 
+equipment that will primarily be running at a steady-state level, it is not 
+considered appropriate to adjust the LAeq,period assessment criteria and therefore, 
+the correction factor has not been applied when establishing the Project Noise 
+Trigger Levels in Table 7. 
+Table 7: NPI Project noise trigger levels for residential receivers 
+Receiver Time 
+Period 
+Project Noise Trigger Levels  
+Intrusive Noise 
+Trigger Levels 
+LAeq,15min 
+Project 
+Amenity Noise 
+Level (PANL) 
+LAeq,period 
+Project Noise 
+Trigger Level 
+LAeq,15min 
+Sleep 
+Disturbance 
+LAmax(night) 
+R1-R3 Day 47 50 47 N/A2 
+Evening 47 40 40 N/A2 
+Night 36 35 35 52 
+Notes 
+1. The NPI defines day, evening and night time periods as:  
+• Day: the period from 7 am to 6 pm Monday to Saturday; or 8 am to 6 pm on Sundays and Public 
+Holidays.  
+• Evening: the period from 6 pm to 10 pm.  
+• Night: the remaining period. 
+2. N/A Not Applicable 
+4.2 Noise predictions 
+4.2.1 Noise sources – unmitigated 
+The Project includes the primary noise sources outlined in Table 8. Where 
+equipment has yet to be selected, the sound power levels and octave band spectra 
+have been estimated based on expected equipment power ratings and past project 
+experience. It is understood that the building envelope will be primarily of 
+concrete construction, therefore it is reasonable that noise breakout from the 
+internal data halls and other spaces can be readily controlled. Therefore, the focus 
+of this assessment for the planning stage relates to external equipment.
+[[page 14]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+10 
+ 
+Table 8: Project equipment, quantities and unmitigated sound power levels (per unit) 
+Equipment 
+Equipment number 
+ Overall 
+dB(A) 
+Octave Band Centre Frequency – Hz, dB 
+63 125 250 500 1 k 2 k 4 k 8 k Total 
+installed 
+Total 
+installed 
+externally 
+Duty1 
+Water-cooled chillers 30 30 24 78 71 61 70 73 76 70 63 56 
+Cooling Towers2 30 30 24 95 108 108 97 88 84 75 67 62 
+Transformers 107 29 28 71 74 76 71 71 65 60 55 48 
+Diesel generators (backup power 
+only) 
+75 dB(A) @ 1 m spec 
+48 48 13 
+ 
+98 111 107 92 89 91 92 84 80 
+Note 
+1. Modelled worst case scenario based on number of externally located concurrently operational equipment during worst case 15 minutes. 
+2. Based on 100% capacity. 
+3. Represents daytime generator testing, not emergency operations. 
+Refer to architectural layouts for proposed location of rooftop equipment.  
+[[page 15]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+11 
+ 
+4.3 Operating scenarios 
+Noise modelling has assumed all equipment operating at full capacity and 
+therefore the night time period is the most critical time period. In practice, 
+mechanical systems will vary in load dependant on internal and external 
+temperatures, and therefore operation is expected to be typically lower than 
+presented herein.  
+The project also includes a number of backup power diesel generators that will 
+not normally be in operation. These are to operate in a power failure only and 
+would otherwise only operate for testing purposes. Testing would involve only 
+one generator operating at a time and would occur during the daytime period. A 
+separate modelling scenario is presented which include all generators in operation. 
+4.4 Modelling methodology 
+Noise levels have been predicted at the nearest sensitive receivers based on the 
+noise levels and quantities of external plant equipment. 
+The noise levels have been predicted based on both the standard and the noise-
+enhancing weather conditions as specified in Table D1 of the NPI using Concawe 
+algorithms. Note that since the likelihood of emergency conditions occurring is 
+very low, standard meteorological conditions have been assumed when assessing 
+noise levels from emergency operations. 
+4.5 Predicted noise levels – unmitigated 
+Initial noise predictions presented in Table 9 are based on the unmitigated 
+equipment noise levels outlined in Table 8. The daytime predictions are based on 
+standard meteorological conditions, while evening and night-time predictions 
+reflect noise-enhancing meteorological conditions. Night-time predictions assume 
+cooling towers operate at a lower capacity being estimated as 90% (approximated 
+-1.4 dB). 
+Where excessive low frequency noise has been identified in accordance with the 
+modifying factor corrections in Tables C1 and C2 of the NPI, a 5 dB penalty has 
+been added. Equipment noise levels are assumed not to exhibit tonal 
+characteristics. 
+Table 9: Normal operations, predicted noise levels (unmitigated) 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+R1 – 150 
+Epping Road, 
+Lane Cove 
+West 
+Day1 50 71 55 47 No (+ 8 dB) 
+Evening2 55 73 60 40 No (+ 20 dB) 
+Night2 52 70 57 35 No (+22 dB) 
+[[page 16]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+12 
+ 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+C1 – 1A 
+Sirius Road 
+When in 
+use3 
+72 88 77 65 No (+12 dB) 
+P1 – Lane 
+Cove 
+Bushwalk 
+Day1 63 78 68 50 No (+18 dB) 
+Notes: 
+1 – Prediction based on standard meteorological conditions.  
+2 – Prediction based on noise -enhancing meteorological conditions.  
+3 – Meteorological conditions do not affect the noise level due to the proximity of the receivers relative to the subject 
+site. 
+The predictions for unmitigated standard operations indicate a substantial 
+exceedance of the criteria, primarily resulting from the cooling towers. Discussion 
+regarding the noise mitigation strategies is presented in Section 4.6. 
+Noise predictions for emergency back-up generator testing is presented in Table 
+10. This is based on a single generator in operation, with testing occurring during 
+the daytime only. While normal operating equipment would also be in operation 
+at the same time, as exceedances are predicted in Table 9 above, normal operating 
+plant have not been included in the predictions, so that the contribution from the 
+generator can be readily evaluated. 
+Table 10: Emergency generator testing (single generator), predicted noise levels 
+Receiver 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+R1 – 150 Epping Road, 
+Lane Cove West 
+38 57 43 47 YES 
+C1 – 1A Sirius Road 64 78 64 65 YES 
+P1 – Lane Cove Bushwalk 51 65 51 50 NO (+ 1dB) 
+For power failure operations, in which all generators could be in operation, 
+assessment is presented in Table 11. Due to the low likelihood of occurrence, non-
+noise enhancing conditions have not been considered. Regarding criteria, the NPI 
+does not strictly apply to emergency operations, and typically less stringent 
+criteria are adopted, based on the low likelihood of operation under such 
+conditions. This is further discussed in Section 4.8. 
+[[page 17]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+13 
+ 
+Table 11: Emergency operations (all generators), predicted noise levels – standard 
+meteorological conditions 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Standard 
+operations 
+criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+R1 – 150 
+Epping Road, 
+Lane Cove 
+West 
+Day 55 74 60 47 Refer to 
+discussion in 
+section 4.8 Evening 40 
+Night 35 
+C1 – 1A 
+Sirius Road 
+When in 
+use1 
+81 95 81 65 Refer to 
+discussion in 
+section 4.8 
+P1 – Lane 
+Cove 
+Bushwalk 
+Day 68 82 68 50 Refer to 
+discussion in 
+section 4.8 
+Notes: 
+1 – Meteorological conditions do not affect the noise level due to the proximi ty of the receivers relative to the subject 
+site. 
+4.6 Mitigation measures 
+Preliminary noise mitigation measures have been recommended and incorporated 
+into the project. Further detailed acoustic design will be required to finalise 
+mitigation specifications during the detailed design phase of the development. The 
+following, therefore provides an outline of the measures expected to be required 
+for the project. 
+It is expected that the cooling towers will be the most challenging to attenuate and 
+may require re-specification of the cooling tower type (such as use of centrifugal 
+type) to address the overall noise requirements. The water-cooled chillers and 
+transformers are capable of being attenuated with enclosures. For this reason, the 
+chillers and transformers have been attenuated to a degree that the noise from 
+those sources effectively will not contribute to the overall noise level at the 
+nearest receivers. The purpose of this is to reduce the attenuation requirements for 
+the cooling towers as far as practicable. 
+In developing the acoustic attenuation measures for the project, it is recommended 
+that a detailed analysis of meteorological effects be carried out to confirm if noise-
+enhancing conditions are necessarily required to be considered. 
+Table 12: Indicative noise mitigation measures 
+Item Location Attenuation Details 
+Water-cooled 
+chillers 
+Enclosure Enclosure achieving 15-20 dB noise level 
+reduction (See Diagram 1). 
+[[page 18]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+14 
+ 
+Item Location Attenuation Details 
+Cooling towers Intake/discharge/equipment 
+reselection 
+A collective noise level reduction of 25-
+30 dB is required.  
+This is likely to require a reselection of the 
+cooling tower type and intake/discharge 
+attenuators (See Diagram 2). Selection may 
+need to considered lower operation fan 
+speeds for night-time operations. 
+Cooling towers may also require an 
+acoustically designed enclosure if plant 
+selection alone cannot achieve compliance.  
+Diesel generators 
+(backup power 
+only) 
+Inlet/Discharge Gensets recommended to be specified with a 
+maximum emission of 72 dB(A) at 1m.1 
+Discussed further below. (See indicative 
+Diagram 3). 
+Exhaust 
+Enclosure 
+Transformers Enclosure Enclosure achieving 10-15 dB noise level 
+reduction 
+Note 
+1. Based on achieving compliance during day-time hours for emergency generator testing (i.e. single 
+generator operating). 
+At this preliminary stage of design, detailed descriptions of proposed mitigation 
+measures are not possible, however indicative attenuation measures for each plant 
+item are shown in the below diagrams. 
+[[page 19]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+15 
+ 
+ 
+Diagram 1: Cut-away section (above) and rendered view (below) of proposed chiller 
+enclosure. 
+
+[[page 20]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+16 
+ 
+ 
+Diagram 2: Cooling tower with attenuators installed 
+ 
+Diagram 3: Indicative generator enclosure (source: Cummings Power Generation) 
+
+[[page 21]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+17 
+ 
+4.6.1 Noise sources – mitigated 
+Table 13 presents the assumed mitigated sound power levels and octave band 
+spectra based on the indicative noise mitigation measures outlined in Table 12. 
+Table 13: Project equipment, quantities and mitigated sound power levels (per unit) 
+Equipment 
+No. of 
+plant 
+(Duty)1 
+Overall 
+dB(A) 
+Octave Band Centre Frequency – Hz, dB 
+63 125 250 500 1 k 2 k 4 k 8 k 
+Water-cooled chillers2 24 59 61 51 55 55 56 50 43 36 
+Cooling Towers – 
+100% capacity3 
+24 79 95 87 78 76 71 70 67 63 
+Cooling Towers – 
+66% capacity3 
+24 73 89 81 72 70 65 65 62 59 
+Cooling Towers – 
+50% capacity3 
+24 72 87 80 71 69 64 64 61 57 
+Transformers2 28 61 64 66 61 61 55 50 45 38 
+Diesel generators 
+(backup power only) 
+72 dB(A) @ 1 m spec 
+14 95 108 104 89 86 88 89 81 77 
+Note 
+1. Modelled worst case scenario based on number of concurrently operational equipment during worst 
+case 15 minutes 
+2. Sound power levels adjusted by nominal reduction to account for acoustic enclosure. 
+3. BAC, Model VXT 800, Fan Motor 2 × 45 kW, with intake and discharge attenuators. Cooling towers 
+have been modelled to operate at 100% fan speed during day, 66% fan speed in the evening and 50% 
+fan speed at night. 
+4. Represents daytime generator testing, not emergency operations. 
+4.7 Predicted noise levels – mitigated 
+Table 14 presents revised predicted noise levels incorporating the preliminary 
+mitigation measures and related sound power levels summarised in Table 12 and 
+Table 13 respectively. It is noted, the modelling methodology, weather conditions 
+and calculation assumptions outlined in Section 4.4 and 4.5 remain unchanged. 
+Table 14: Normal operations, predicted noise levels (mitigated) 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level1 LAeq,15min 
+dB(A) 
+Criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+R1 – 150 
+Epping Road, 
+Lane Cove 
+West 
+Day2 33 54 38 47 YES 
+Evening3 31 51 36 40 YES 
+Night3 30 49 35 35 YES 
+C1 – 1A 
+Sirius Road 
+When in 
+use4 
+56 71 61 65 YES 
+[[page 22]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+18 
+ 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level1 LAeq,15min 
+dB(A) 
+Criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+P1 – Lane 
+Cove 
+Bushwalk 
+Day2 46 62 48 50 YES 
+Notes: 
+1. In accordance with Table C1 of the NPI.  
+2. Prediction based on standard meteorological conditions. 
+3. Prediction based on noise-enhancing meteorological conditions. 
+4. Meteorological conditions do not affect the noise level due to the proximity of the receivers 
+relative to the subject site. 
+Revised noise predictions for emergency back-up generator testing are presented 
+in Table 15. As previously outlined, the below noise predictions are based on a 
+single generator in operation, during daytime hours.  
+Normal operating plant have not been included in the below predictions, so that 
+the contribution from the generator can be readily evaluated. 
+Table 15: Emergency generator testing (single generator), predicted noise levels 
+Receiver 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+R1 – 150 Epping Road, 
+Lane Cove West 
+35 54 40 47 YES 
+C1 – 1A Sirius Road 61 75 61 65 YES 
+P1 – Lane Cove Bushwalk 48 62 48 50 YES 
+For power failure operations, in which all generators could be in operation, 
+revised noise predictions are presented in Table 16. Due to the low likelihood of 
+occurrence, non-noise enhancing conditions have not been considered. Regarding 
+criteria, the NPI does not strictly apply to emergency operations, and typically less 
+stringent criteria are adopted, based on the low likelihood of operation under such 
+conditions. 
+Table 16: Emergency operations (all generators), predicted noise levels – standard 
+meteorological conditions 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Standard 
+operations 
+criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+R1 – 150 
+Epping Road, 
+Lane Cove 
+West 
+Day 52 71 57 47 Refer to 
+discussion in 
+section 4.8 Evening 40 
+Night 35 
+[[page 23]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+19 
+ 
+Receiver Period 
+Predicted level 
+Leq,15min Corrected 
+level LAeq,15min 
+dB(A) 
+Standard 
+operations 
+criteria 
+LAeq,15min 
+dB(A) 
+Meets 
+criteria? 
+dB(A) dB(C) 
+C1 – 1A 
+Sirius Road 
+When in 
+use1 
+78 92 78 65 Refer to 
+discussion in 
+section 4.8 
+P1 – Lane 
+Cove 
+Bushwalk 
+Day 65 79 65 50 Refer to 
+discussion in 
+section 4.8 
+Notes: 
+1 – Meteorological conditions do not affect the noise level due to the proximity of the receivers relative to the su bject 
+site. 
+4.8 Generator noise targets 
+The assessment presented in Table 16 is based on the mitigated noise specification 
+for backup generators in Table 12. While the use of a single generator complies 
+with the daytime criteria, operation of all 51 generators is predicted to exceed the 
+day, evening and night time criteria.  
+However, it is noted that the project specific targets are particularly low and NPI 
+targets are typically not adopted for such atypical operations. Furthermore, the 
+likelihood of power failure is low, and if it was to occur, the duration of an outage 
+would be expected to be hours rather than days. 
+[[page 24]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+20 
+ 
+5 Construction noise and vibration 
+5.1 Construction noise criteria 
+The NSW Interim Construction Noise Guideline [2] (ICNG or Guideline) 
+provides recommended noise levels for airborne construction noise at sensitive 
+land uses. The guideline provides construction noise management levels above 
+which all feasible and reasonable work practices should be applied to minimise 
+the construction noise impact. The ICNG works on the principle of a ‘screening’ 
+criterion – if predicted or measured construction noise exceeds the ICNG levels 
+then the construction activity must implement all ‘feasible and reasonable’ work 
+practices to reduce noise levels. 
+The ICNG provides two methods for assessing construction noise, varying 
+typically on the basis of the project duration, being either a quantitative or a 
+qualitative assessment. A quantitative assessment is recommended for major 
+construction projects of significant duration, and involves the measurement of 
+background noise levels for determination of noise management levels and 
+prediction of construction noise levels. A qualitative assessment is recommended 
+for small projects with a duration of less than three weeks and focuses on 
+minimising noise disturbance through the implementation of reasonable and 
+feasible work practices, and community notification.  
+This development is expected to warrant a quantitative assessment. 
+The ICNG sets out management levels for noise at noise sensitive receivers, and 
+how they are to be applied. These noise management levels (NMLs) for 
+residential receivers and other sensitive receivers are reproduced in Table 17 and 
+in Table 18 respectively.  
+Table 17: Construction noise management levels (NMLs) at residential receivers 
+Time of day NML 1 
+LAeq (15 min) 
+How to apply 
+Recommended 
+standard hours: 
+Monday to Friday 
+7am to 6pm 
+Saturday 8am to 1pm 
+No work on Sundays 
+or public holidays 
+Noise affected 
+RBL + 10dB 
+The noise affected level represents the point above 
+which there may be some community reaction to 
+noise. 
+Where the predicted or measured LAeq (15 min) is 
+greater than the noise affected level, the proponent 
+should apply all feasible and reasonable work 
+practices to meet the noise affected level. 
+The proponent should also inform all potentially 
+impacted residents of the nature of works to be 
+carried out, the expected noise levels and duration, as 
+well as contact details. 
+Highly noise 
+affected 
+75dB(A) 
+The highly noise affected level represents the point 
+above which there may be strong community 
+reaction to noise. 
+Where noise is above this level, the relevant 
+authority (consent, determining or regulatory) may 
+require respite periods by restricting the hours that 
+[[page 25]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+21 
+ 
+Time of day NML 1 
+LAeq (15 min) 
+How to apply 
+the very noisy activities can occur, taking into 
+account: 
+• times identified by the community when they 
+are less sensitive to noise (such as before and 
+after school for works near schools, or mid-
+morning or mid-afternoon for works near 
+residences 
+• if the community is prepared to accept a longer 
+period of construction in exchange for 
+restrictions on construction times. 
+Outside 
+recommended 
+standard hours 
+Noise affected 
+RBL + 5dB 
+A strong justification would typically be required for 
+works outside the recommended standard hours. 
+The proponent should apply all feasible and 
+reasonable work practices to meet the noise affected 
+level. 
+Where all feasible and reasonable practices have 
+been applied and noise is more than 5dB(A) above 
+the noise affected level, the proponent should 
+negotiate with the community. 
+For guidance on negotiating agreements see section 
+7.2.2 of the ICNG. 
+1 - Noise levels apply at the property boundary that is most exposed to construction noise, and 
+at a height of 1.5 m above ground level. If the property boundary is more than 30 m from the 
+residence, the location for measuring or predicting noise levels is at the most noise-affected 
+point within 30 m of the residence. Noise levels may be higher at upper floors of the noise 
+affected residence. 
+Table 18: Construction noise management levels (NMLs) at other noise sensitive land 
+uses 
+Land use Where objective applies Management level LAeq(15 min)1 
+Classrooms at schools and 
+other educational institutions 
+Internal noise level 
+ 
+45 dB(A) 
+Hospital wards and 
+operating theatres 
+Internal noise level 45 dB(A) 
+Places of worship Internal noise level 45 dB(A) 
+Active recreation areas  External noise level 65 dB(A) 
+Passive recreation areas External noise level 60 dB(A) 
+Community centres Depends on the intended use 
+of the centre. 
+Refer to the ‘maximum’ internal 
+levels in AS2107 for specific 
+uses. 
+Commercial premises External noise level 70 dB(A) 
+Industrial premises External noise level 75 dB(A) 
+1 - Noise management levels apply when receiver areas are in use only. 
+[[page 26]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+22 
+ 
+5.1.1 Project construction noise targets 
+Construction noise criteria are set based the residential receiver areas identified in 
+Section 2. Measured noise data obtained at the logger location most representative 
+of each noise catchment area has been used to derive appropriate noise 
+management levels for the project. These are summarised in Table 19. 
+Table 19: Construction Noise Management Criteria for Residential Premises 
+Time Period NML 
+Description 
+NML Criteria LAeq (15 min) 
+During recommended standard hours Noise affected 
+ 
+50 
+Highly noise affected 75 
+Outside recommended standard hours Noise affected 
+ 
+35 
+1 - Noise levels apply at the property boundary that is most exposed to construction noise, and 
+at a height of 1.5 m above ground level. If the property boundary is more than 30 m from the 
+residence, the location for measuring or predicting noise levels is at the most noise-affected 
+point within 30 m of the residence. Noise levels may be higher at upper floors of the noise 
+affected residence. 
+5.2 Construction vibration criteria 
+5.2.1 Disturbance to buildings occupants 
+Concerns regarding impacts on human occupants to buildings would generally be 
+assessed in accordance with the ‘intermittent’ vibration criteria outlined in the 
+DEC Guideline [3], however reference would typically be made to the Maximum 
+levels. However due to the intermittent and low intensity works proposed, focus 
+for management purposes is on structural damage, as outlined below. 
+5.2.2 Structural damage 
+5.2.2.1 Definition 
+Potential structural or cosmetic damage to buildings as a result of vibration is 
+typically assessed in accordance with British Standard 7385 Part 2 [4] and/or 
+German Standard DIN4150-3 [5]. British Standard 7385 Part 1: 1990, defines 
+different levels of structural damage as: 
+• Cosmetic - The formation of hairline cracks on drywall surfaces, or the 
+growth of existing cracks in plaster or drywall surfaces; in addition, the 
+formation of hairline cracks in mortar joints of brick/concrete block 
+construction. 
+• Minor - The formation of large cracks or loosening of plaster or drywall 
+surfaces, or cracks through bricks/concrete blocks. 
+[[page 27]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+23 
+ 
+• Major - Damage to structural elements of the building, cracks in 
+supporting columns, loosening of joints, splaying of masonry cracks, etc. 
+Table 1 of British Standard 7385 Part 2 (1993) sets limits for the protection 
+against cosmetic damage, however the following guidance on minor and major 
+damage is provided in Section 7.4.2 of the Standard:  
+7.4.2 Guide values for transient vibration relating to cosmetic damage  
+Limits for transient vibration, above which cosmetic damage could occur 
+are given numerically in Table 1 and graphically in Figure 1. In the lower 
+frequency region where strains associated with a given vibration velocity 
+magnitude are higher, the guide values for the building types 
+corresponding to line 2 are reduced. Below a frequency of 4 Hz, where a 
+high displacement is associated with a relatively low peak component 
+particle velocity value a maximum displacement of 0.6 mm (zero to peak) 
+should be used. 
+Minor damage is possible at vibration magnitudes which are greater than 
+twice those given in Table 1, and major damage to a building structure 
+may occur at values greater than four times the tabulated values. 
+Within DIN4150-3, damage is defined as “any permanent effect of vibration that 
+reduces the serviceability of a structure or one of its components” (p.2). The 
+Standard also outlines: 
+"that for structures as in lines 2 and 3 of Table 1, the serviceability is 
+considered to have been reduced if 
+• cracks form in plastered surfaces of walls; 
+• existing cracks in the building are enlarged; 
+• partitions become detached from loadbearing walls or floors. 
+These effects are deemed ‘minor damage." (DIN4150.3, 1990, p.3) 
+While the DIN Standard defines the above damage as 'minor', the description 
+aligns with BS7385 cosmetic damage, rather than referring to structural failures. 
+5.2.2.2 British Standard BS7835-2 
+BS7385-2 is based on peak particle velocity and specifies damage criteria for 
+frequencies within the range 4–250 Hz, and a maximum displacement value 
+below 4 Hz is recommended. Table 20 sets out the BS7385 criteria for cosmetic, 
+minor and major damage. Regarding heritage buildings, British Standard 7385 
+Part 2 [4, p. 5] notes that “a building of historical value should not (unless it is 
+structurally unsound) be assumed to be more sensitive”.  
+[[page 28]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+24 
+ 
+Table 20: BS 7385-2 structural damage criteria 
+Group Type of structure Damage 
+level 
+Peak component particle velocity, mm/s1 
+4 Hz to 
+15 Hz 
+15 Hz to 
+40 Hz 
+40 Hz and 
+above 
+1 Reinforced or framed 
+structures Industrial and 
+heavy commercial 
+buildings 
+Cosmetic 50 
+Minor2 100 
+Major2 200 
+2 Un-reinforced or light 
+framed structures 
+Residential or light 
+commercial type 
+buildings 
+Cosmetic 15 to 20 20 to 50 50 
+Minor2 30 to 40 40 to 100 100 
+Major2 60 to 80 80 to 200 200 
+1 - Peak Component Particle Velocity is the maximum Peak particle velocity in any one direction (x, y, z) 
+as measured by a tri-axial vibration transducer. 
+2 - Minor and major damage criteria established based on British Standard 7385 Part 2 (1993) Section 7.4.2 
+All levels relate to transient vibrations in low-rise buildings. Continuous vibration can give rise to dynamic 
+magnifications that may require levels to be reduced by up to 50%. 
+5.2.2.3 German Standard 
+German Standard DIN 4150 - Part 3 'Structural vibration in buildings - Effects on 
+Structure' [5] are generally recognised to be conservative and is often referred to 
+for the purpose of assessing structurally sensitive buildings. For the subject site, 
+surrounding buildings are not deemed structurally sensitive and therefore the 
+British Standard is considered appropriate for vibration management. 
+5.2.3 Buried services 
+It is not expected that the proposed works will impact upon buried services, 
+however the following is nonetheless provided for guidance. 
+DIN 4150-2:1999 sets out guideline values for vibration effects on buried 
+pipework and reproduced in Table 21 below. 
+Table 21: Guideline values for short-term vibration impacts on buried pipework 
+ Pipe material Guideline values for vibration 
+velocity measured on the pipe, mm/s 
+1 Steel (including welded pipes) 100 
+2 Clay, concrete, reinforced concrete, pre-stressed 
+concrete, metal (with or without flange) 
+80 
+3 Masonry, plastic 50 
+Note:  For gas and water supply pipes within 2m of buildings, the levels given in DIN4150-3 [5] should be 
+applied.  Consideration must also be given to pipe junctions with the building structure as potential 
+significant changes in mechanical loads on the pipe must be considered. 
+In addition, specific limits for vibration affecting high-pressure gas pipelines is 
+provided in the UK National Grid’s Specification for Safe Working in the Vicinity 
+of National Grid High Pressure Gas Pipelines and Associated Installations – 
+Requirements for Third Parties (report T/SP/SSW/22, UK National Grid, Rev 
+[[page 29]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+25 
+ 
+10/06, October 2006). This specification states that no piling is allowed within 15 
+meters of a pipeline without an assessment of the vibration levels at the pipeline.  
+The PPV at the pipeline is limited to a maximum level of 75 mm/s, and where 
+PPV is predicted to exceed 50 mm/sec the ground vibration is required to be 
+monitored. 
+Other services that maybe encountered include electrical cables and 
+telecommunication services such as fibre optic cables. While these may sustain 
+vibration velocity levels from between 50 mm/s and 100 mm/s, the connected 
+services such as transformers and switchgear, may not. Where encountered, site 
+specific vibration assessment in consultation with the utility provider should be 
+carried out. 
+5.3 Construction noise and vibration management 
+Appropriate detail on the construction methodologies required for quantitative 
+assessment of the project are not yet known. However, given the distance from the 
+site to the nearest sensitive receiver locations, it is expected that activities would 
+comply with the Highly Affected Noise Targets, however may result in 
+exceedance of the Noise Affected Levels. Accordingly, application of all 
+reasonable and feasible mitigation measures should be adopted for the project. 
+The following discusses in-principle management measures. 
+5.3.1 Construction noise and vibration management plan  
+For all construction works, the contractor would be expected to prepare a detailed 
+Construction Noise and Vibration Management Plan (CNVMP). This plan should 
+include but not be limited to the following: 
+• Roles and responsibilities 
+• Noise sensitive receiver locations 
+• Areas of potential impact 
+• Mitigation strategy 
+• Monitoring methodology 
+• Community engagement strategy. 
+General guidance on the control of construction noise and vibration impacts 
+relevant to this study are discussed in the following sections. 
+5.3.2 General 
+In general, practices to reduce construction noise impacts will be required, and 
+may include; 
+• Adherence to the standard approved working hours as outlined in the Project 
+Approval. 
+• Manage noise from construction work that might be undertaken outside the 
+recommended standard hours 
+[[page 30]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+26 
+ 
+• The location of stationary plant (concrete pumps, air-compressors, generators, 
+etc.) as far away as possible from sensitive receivers 
+• Using site sheds and other temporary structures or screens to limit noise 
+exposure where possible. 
+• The appropriate choice of low-noise construction equipment and/or methods 
+• Modifications to construction equipment or the construction methodology or 
+programme. This may entail programming activities to occur concurrently 
+where a noisy activity will mask a less noisy activity, or, at different times 
+where more than one noisy activity will significantly increase the noise. The 
+programming should also consider the location of the activities due to occur 
+concurrently. 
+• Carry out consultation with the community and surrounding building 
+owners/occupants during construction including, but not limited to; advance 
+notification of planned activities and expected disruption/effects, construction 
+noise complaints handling procedures. 
+5.3.3 Universal work practices 
+The following noise mitigation work practices are recommended to be adopted at 
+all times on site: 
+• Regularly train workers and contractors (such as at toolbox talks) to use 
+equipment in ways to minimise noise. 
+• Site managers to periodically check the site and nearby residences for noise 
+problems so that solutions can be quickly applied. 
+• Avoid the use of radios or stereos outdoors. 
+• Avoid the overuse of public address systems. 
+• Avoid shouting, and minimise talking loudly and slamming vehicle doors. 
+• Turn off all plant and equipment when not in use. 
+5.3.4 Vibration – minimum working distances 
+Recommended minimum working distances for vibration intensive plant, which 
+are based on international standards and guidance and reproduced in Table 22 
+below for reference. With regard to the proposed development works, vibration is 
+not expected to impact upon surrounding development. 
+Table 22: Recommended minimum working distances for vibration intensive plant 
+Plant Item Rating / Description Minimum working distance 
+Cosmetic 
+damage 
+(BS 7385) 
+Human 
+response 
+(OH&E 
+Vibration 
+Guideline) 
+Vibratory Roller < 50 kN (Typically 1-2 tonnes) 5 m 15 m to 20 m 
+< 100 kN (Typically 2-4 tonnes) 6 m 20 m 
+< 200 kN (Typically 4-6 tonnes) 12 m 40 m 
+[[page 31]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+27 
+ 
+Plant Item Rating / Description Minimum working distance 
+Cosmetic 
+damage 
+(BS 7385) 
+Human 
+response 
+(OH&E 
+Vibration 
+Guideline) 
+< 300 kN (Typically 7-13 tonnes) 15 m 100 m 
+> 300 kN (Typically 13-18 tonnes) 20 m 100 m 
+> 300 kN (> 18 tonnes) 25 m 100 m 
+Small Hydraulic 
+Hammer 
+(300 kg - 5 to 12t excavator) 2 m 7 m 
+Medium Hydraulic 
+Hammer 
+(900 kg – 12 to 18t excavator) 7 m 23 m 
+Large Hydraulic 
+Hammer 
+(1600 kg – 18 to 34t excavator) 22 m 73 m 
+Vibratory Pile Driver Sheet piles 2 m to 20 m 20 m  
+Pile Boring ≤ 800 mm 2 m (nominal) N/A  
+Jackhammer Hand held 1 m (nominal) Avoid contact 
+with structure 
+Note: More stringent conditions may apply to heritage or other sensitive structures 
+ 
+ 
+ 
+[[page 32]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+28 
+ 
+6 Conclusion 
+An acoustic assessment has been carried out for the proposed data centre in 
+accordance with the requirements of the Department of Planning and 
+Environment, which has included consideration of the operational and 
+construction phases of the development. 
+The operational noise assessment established project noise goals and carried out 
+noise predictions in accordance with the NSW Noise Policy for Industry [1], 
+including consideration of noise-enhancing meteorological conditions. 
+Noise mitigation measures are required to both the generators and other primary 
+equipment, including cooling towers, water-cooled chillers and transformers. 
+Detailed acoustic design will be required during the design development phase to 
+confirm the detailed specification of equipment and mitigation measures. 
+Regarding construction, while specific activities and work schedules are not yet 
+known, criteria has been established in accordance with the NSW ICNG [2] and 
+Assessing Vibration: a technical guideline [3]. Recommendations with regard to 
+mitigation and management measures are also outlined, and are expected to be 
+developed further in a formal Construction Noise and Vibration Management 
+Plan, to be prepared prior to commencement of works.  
+  
+ 
+[[page 33]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+29 
+ 
+References 
+ 
+[1]  NSW EPA, “NSW Noise Policy for Industry,” EPA, Sydney, 2017. 
+[2]  Department of Environment and Climate Change NSW, “Interim 
+Construction Noise Guideline,” Department of Environment and Climate 
+Change NSW, Sydney, 2009. 
+[3]  Department of Environment and Conservation (NSW), “Assessing Vibration: 
+A technical guideline,” Department of Environment and Conservation 
+(NSW), Sydney, 2006. 
+[4]  Bristish Standard Institution, “BS 7385-2: 1993 Evaluation and measurement 
+for vibration in buildings - Pt 2: Guide to damage levels from groundborne 
+vibration,” Bristish Standard Institution, London, 1993. 
+[5]  Deutsches Institut fur Normung, “DIN 4150-3 (1999) Structural vibration - 
+Effects of vibration on structures,” Deutsches Institut fur Normung, Berlin, 
+1999. 
+ 
+ 
+[[page 34]]
+ 
+ 
+Appendix A 
+Glossary 
+ 
+[[page 35]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page A1 
+ 
+Ambient Noise Level 
+The ambient noise level is the overall noise level measured at a location from 
+multiple noise sources. When assessing noise from a particular development, the 
+ambient noise level is defined as the remaining noise level in the absence of the 
+specific noise source being investigated. For example, if a fan located on a city 
+building is being investigated, the ambient noise level is the noise level from all 
+other sources without the fan running. This would include sources such as traffic, 
+birds, people talking and other nearby fans on other buildings. 
+Background Noise Level 
+The background noise level is the noise level that is generally present at a location 
+at all or most times. Although the background noise may change over the course 
+of a day, over shorter time periods (e.g. 15 minutes) the background noise is 
+almost-constant. Examples of background noise sources include steady traffic 
+(e.g. motorways or arterial roads), constant mechanical or electrical plant and 
+some natural noise sources such as wind, foliage, water and insects. 
+Assessment Background Level (ABL) 
+A single-number figure used to characterise the background noise levels 
+from a single day of a noise survey. ABL is derived from the measured 
+noise levels for the day, evening or night time period of a single day of 
+background measurements. The ABL is calculated to be the tenth 
+percentile of the background LA90 noise levels – i.e. the measured 
+background noise is above the ABL 90% of the time. 
+Rating Background Level (RBL / minLA90,1hour) 
+A single-number figure used to characterise the background noise levels 
+from a complete noise survey. The RBL for a day, evening or night time 
+period for the overall survey is calculated from the individual Assessment 
+Background Levels (ABL) for each day of the measurement period, and is 
+numerically equal to the median (middle value) of the ABL values for the 
+days in the noise survey. This parameter is denoted RBL in NSW, and 
+minLA90,1hour in QLD. 
+Decibel 
+The decibel scale is a logarithmic scale which is used to measure sound and 
+vibration levels. Human hearing is not linear and involves hearing over a large 
+range of sound pressure levels, which would be unwieldy if presented on a linear 
+scale. Therefore a logarithmic scale, the decibel (dB) scale, is used to describe 
+sound levels.  
+[[page 36]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page A2 
+ 
+An increase of approximately 10 dB corresponds to a subjective doubling of the 
+loudness of a noise. The minimum increase or decrease in noise level that can be 
+noticed is typically 2 to 3 dB. 
+dB(A) 
+dB(A) denotes a single-number sound pressure level that includes a frequency 
+weighting (“A-weighting”) to reflect the subjective loudness of the sound level. 
+The frequency of a sound affects its perceived loudness. Human hearing is less 
+sensitive at low and very high frequencies, and so the A-weighting is used to 
+account for this effect. An A-weighted decibel level is written as dB(A). 
+Some typical dB(A) levels are shown below. 
+Sound Pressure Level dB(A) Example 
+130 Human threshold of pain 
+120 Jet aircraft take-off at 100 m 
+110 Chain saw at 1 m 
+100 Inside nightclub 
+90 Heavy trucks at 5 m 
+80 Kerbside of busy street 
+70 Loud stereo in living room 
+60 Office or restaurant with people present 
+50 Domestic fan heater at 1m 
+40 Living room (without TV, stereo, etc) 
+30 Background noise in a theatre 
+20 Remote rural area on still night 
+10 Acoustic laboratory test chamber 
+0 Threshold of hearing 
+L1  
+The L1 statistical level is often used to represent the maximum level of a sound 
+level that varies with time.  
+Mathematically, the L1 level is the sound level exceeded for 1% of the 
+measurement duration. As an example, 87 dB LA1,15min is a sound level of 
+87 dB(A) or higher for 1% of the 15 minute measurement period. 
+L10  
+The L10 statistical level is often used as the “average maximum” level of a sound 
+level that varies with time.  
+Mathematically, the L10 level is the sound level exceeded for 10% of the 
+measurement duration. L10 is often used for road traffic noise assessment. As an 
+[[page 37]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page A3 
+ 
+example, 63 dB LA10,18hr is a sound level of 63 dB(A) or higher for 10% of the 18 
+hour measurement period. 
+L90  
+The L90 statistical level is often used as the “average minimum” or “background” 
+level of a sound level that varies with time.  
+Mathematically, L90 is the sound level exceeded for 90% of the measurement 
+duration. As an example, 45 dB LA90,15min is a sound level of 45 dB(A) or higher 
+for 90% of the 15 minute measurement period. 
+Leq 
+The ‘equivalent continuous sound level’, Leq, is used to describe the level of a 
+time-varying sound or vibration measurement. 
+Leq is often used as the “average” level for a measurement where the level is 
+fluctuating over time. Mathematically, it is the energy-average level over a period 
+of time (i.e. the constant sound level that contains the same sound energy as the 
+measured level). When the dB(A) weighting is applied, the level is denoted dB 
+LAeq. Often the measurement duration is quoted, thus LAeq,15 min represents the 
+dB(A) weighted energy-average level of a 15 minute measurement. 
+Lmax  
+The Lmax statistical level can be used to describe the “absolute maximum” level of 
+a sound or vibration level that varies with time. 
+Mathematically, Lmax is the highest value recorded during the measurement 
+period. As an example, 94 dB LAmax is a highest value of 94 dB(A) during the 
+measurement period. 
+Since Lmax is often caused by an instantaneous event, Lmax levels often vary 
+significantly between measurements.  
+[[page 38]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page A4 
+ 
+Lmax spec 
+Lmax spec is another representation of the highest noise or vibration levels during 
+the measurement period. 
+Lmax spec is the spectrum of the event that caused the highest overall sound or 
+vibration level during the measurement period is denoted by dB Lmax spec. An 
+example of the relationship between dB Lmax and dB Lmax spec is shown below. 
+ 
+ 
+ 
+Lmax (see definition above), when measured on an octave band or 1/3 octave band 
+meter, is the spectrum obtained by recording the highest measured value in each 
+band. However, the highest measured values in each band may occur at different 
+times. 
+Hence, Lmax spec represents a real event, while Lmax is often the mathematical 
+addition of frequency band values from different times and often does not 
+represent a real-world event. 
+Since Lmax spec is caused by an instantaneous event, Lmax spec levels often vary 
+significantly between measurements. 
+Frequency 
+Frequency is the number of cycles per second of a sound or vibration wave. In 
+musical terms, frequency is described as “pitch”. Sounds towards the lower end of 
+the human hearing frequency range are perceived as “bass” or “low-pitched” and 
+sounds with a higher frequency are perceived as “treble” or “high pitched”. 
+Peak Particle Velocity (PPV)  
+Peak Particle Velocity (PPV) is the highest velocity of a particle (such as part of a 
+building structure) as it vibrates. Most sound level meters measure root mean 
+Noise from other event(s) 
+during the measurement 
+period 
+[[page 39]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page A5 
+ 
+squared (RMS) values; it is common to approximate the PPV based on an RMS 
+measurement. 
+PPV is commonly used as a vibration criteria, and is often interpreted as a PPV 
+based on the Lmax or Lmax,spec index. 
+Sound Exposure Level (SEL) 
+The Sound Exposure Level or Single Event Noise Exposure Level, denoted SEL 
+or LAE, is a measure of the total amount of acoustic energy contained in an 
+acoustic event. The SEL is the constant sound pressure level that would produce 
+in a period of one second the same amount of acoustic energy contained in the 
+acoustic event. SEL is commonly used to quantify the total acoustic energy 
+contained in transient events such as a vehicle pass-by. 
+Sound Power and Sound Pressure 
+The sound power level (Lw) of a source is a measure of the total acoustic power 
+radiated by a source. The sound pressure level (Lp) varies as a function of distance 
+from a source. However, the sound power level is an intrinsic characteristic of a 
+source (analogous to its mass), which is not affected by the environment within 
+which the source is located. 
+Sound Reduction Index (R) 
+The sound reduction index (or transmission loss) of a building element is a 
+measure of the loss of sound through the material, i.e. its sound attenuation 
+properties. It is a property of the component, unlike the sound level difference, 
+which is affected by the common area between the rooms and the acoustics of the 
+receiving room. R is the ratio (expressed in decibels) of the sound energy 
+transmitted through the building element to the sound energy incident on the 
+building element for a particular frequency.  
+The weighted sound reduction index, Rw, is a single figure description of sound 
+reduction index across a wider frequency range and is defined in BS EN ISO 717-
+1: 1997. Rw values are calculated from measurements in an acoustic laboratory. 
+Sound insulation ratings derived from site measurements (which are invariably 
+lower than the laboratory figures) are referred to as apparent sound reduction 
+index (R’w ) ratings. 
+Speech Transmission Index (STI) 
+STI is a technical index, predictable and measurable using specialised equipment, 
+for assessing speech and vocal intelligibility. STI takes into account the 
+signal/noise ratio of the speech signal and the reverberation of the receiving 
+environment. The higher the value of STI, the higher the expected speech 
+intelligibility. 
+STI ratings are assigned subjective categories, as follows:  
+[[page 40]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page A6 
+ 
+STI Range Subjective Category 
+< 0.3 Bad 
+0.3 – 0.45 Poor 
+0.45 – 0.6 Fair 
+0.6 – 0.75 Good 
+0.8 – 1.0 Excellent 
+Spectrum Adaptation Terms (C and Ctr) 
+The terms C and Ctr are spectrum adaptation terms (in dB) that are added to the 
+Rw or Dw value of a partition in order to determine the overall sound insulation 
+rating of a partition for various conditions. The overall performance of the 
+partition is quoted as the sum of the Rw value and the spectrum adaptation terms, 
+e.g. Dw + C 55 dB; Rw + Ctr 60 dB. 
+C is a spectrum adaptation term used to measure the performance of a partition for 
+medium to high-frequency noise sources, such as speech. 
+Ctr is a spectrum adaptation term used to measure the performance of a partition 
+for low-frequency noise sources such as traffic noise. 
+The values of C and Ctr are dependent on the construction of the partition. 
+Because C and Ctr are (usually) negative quantities, they typically increase the Rw 
+requirement of a partition (eg if Ctr is -6 dB, an Rw of 56 dB is required to achieve 
+a rating of Rw + Ctr 50 dB). 
+Vibration 
+Waves in a solid material are called “vibration”, as opposed to similar waves in 
+air, which are called “sound” or “noise”. If vibration levels are high enough, they 
+can be felt; usually vibration levels must be much higher to cause structural 
+damage. 
+A vibrating structure (eg a wall) can cause airborne noise to be radiated, even if 
+the vibration itself is too low to be felt. Structureborne vibration limits are 
+sometimes set to control the noise level in a space. 
+Vibration levels can be described using measurements of displacement, velocity 
+and acceleration. Velocity and acceleration are commonly used for structureborne 
+noise and human comfort. Vibration is described using either metric units (such as 
+mm, mm/s and mm/s²) or else using a decibel scale 
+ 
+[[page 41]]
+ 
+ 
+Appendix B 
+Long-term monitoring 
+ 
+[[page 42]]
+Greenbox Architecture Lane Cove West Data Centre 
+Acoustic Assessment - SSD 9741 
+ 
+  | Issue 4 | 15 March 2019 | Arup 
+LCWDC - SSDA ACOUSTIC ASSESSMENT - ISSUE 4.DOCX 
+Page B1 
+ 
+B1 Noise monitoring equipment 
+Unattended monitoring was carried out using the following equipment: 
+Measurement location Equipment/model Serial No. SLM Type 
+L3 – 14 Jeanette St, East Ryde ARL Ngara 878060 Class 1 
+Notes: 
+All meters comply with AS IEC 61672.1 2013 “Electroacoustics - Sound Level Meters” and designated 
+either Class 1 as per table, and are suitable for field use. 
+The equipment was calibrated prior and subsequent to the measurement period 
+using a Bruel & Kjaer Type 4231 calibrator. No significant drift in calibration was 
+observed. 
+B2 Extraneous/weather affected data 
+Measurement samples affected by extraneous noise, wind (greater than 5m/s) or 
+rain were excluded from the recorded data in accordance with the procedures 
+outlined in Fact Sheet A of the NSW Noise Policy for Industry [1] (INP).  
+Data provided by the Bureau of Meteorology (BOM), for the nearest 
+representative weather station to noise monitoring location(s). Wind speed data 
+was adjusted to account for the difference in measurement height and surrounding 
+environment between the BOM weather station (measured 10 m above ground) 
+and the microphone location based on Table C.1 of ISO 4354:2009 'Wind actions 
+on structures'. 
+B3 Logger graphs 
+The following noise level vs time graphs present overall dB(A) levels recorded by 
+the unattended logger(s) for a range of noise descriptors, including LAeq, LA90, 
+LA10 and LAmax, While line graphs are presented, sampling is typically at 
+15 minute intervals. 
+Wind speeds are also show where relevant, and periods of excluded data are 
+shaded grey.  
+[[page 43]]
+L3 - 14 Jeanette St, East Ryde (Free Field)
+Additional detail: 
+Date Day 1 Evening 2 Night3 Day 1 Evening 2 Night3
+Wednesday-21-November-2018 
+Thursday-22-November-2018 
+Friday-23-November-2018 32 45 
+Saturday-24-November-2018 41 41 32 57 57 48 
+Sunday-25-November-2018 40 43 28 57 57 52 
+Monday-26-November-2018 45 42 31 58 58 48 
+Tuesday-27-November-2018 43 52 
+Representative Week 5 42 42 31 57 57 49 
+Notes: 
+1. Day is 8:00am to 6:00pm on Sunday and 7:00am to 6:00pm at other times 2. Evening is 6:00pm to 10:00p m 3. Night is the remaining periods 
+4. Assessment Background Level (ABL) for individual days 5. Rating Background Level (RBL) for L A90  and logarithmic average for L Aeq 
+(Map) (Photo) 
+Background and ambient noise monitoring results - NSW 'Noise Policy for Industry', 2017 
+LA90  Background noise levels4 LAeq  Ambient noise levels
+Jeanette St_NSW_Logger_and_Weather_Graphs.xlsm 
+[[page 44]]
+Unattended monitoring: L3 - 14 Jeanette St, East Ryde (Free Field)
+Wednesday, 21 November 2018 Thursday, 22 November 2018 Friday, 23 November 2018 Saturday, 24 November 2018 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+0
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+Time of day (measurement end time) 
+Extraneous L90 Leq L10 L1 Lmax Wind Speed 
+[[page 45]]
+Unattended monitoring: L3 - 14 Jeanette St, East Ryde (Free Field)
+Sunday, 25 November 2018 Monday, 26 November 2018 Tuesday, 27 November 2018 Wednesday, 28 November 2018 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+0
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 24:00 
+Wind Speed (m/s) 
+Sound Pressure Level dB(A) 
+Time of day (measurement end time) 
+Extraneous L90 Leq L10 L1 Lmax Wind Speed 

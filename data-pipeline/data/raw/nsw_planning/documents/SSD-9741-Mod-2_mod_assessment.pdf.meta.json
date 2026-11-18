@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-2%2120201217T231129.232+GMT",
+ "project_slug": "lane-cove-west-data-centre-mod-2-layout-changes",
+ "attachment_slug": "mod-2-assessment-report",
+ "kind": "mod_assessment",
+ "label": "MOD 2 - Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:08:34+00:00",
+ "sha256": "c70d559e38831a8cf89ca217094d9e9425ebab21fe9feda10c5e659d5a8c1d88",
+ "bytes": 2357593,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 55560,
+ "pages": 29,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

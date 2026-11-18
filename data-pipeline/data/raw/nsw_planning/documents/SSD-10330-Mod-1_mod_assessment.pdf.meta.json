@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-1%2120240417T064710.248+GMT",
+ "project_slug": "roberts-road-data-centre-mod-1-height-increase",
+ "attachment_slug": "ssd-10330-mod-1-assessment-report-2",
+ "kind": "mod_assessment",
+ "label": "SSD-10330-Mod-1 Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:09:23+00:00",
+ "sha256": "39b133c05b3d05c2e893fd57d2c66fd7c66e3a1ad2eaaee82428dc63c3f91a95",
+ "bytes": 2647218,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 41594,
+ "pages": 32,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

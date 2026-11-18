@@ -1,0 +1,2427 @@
+[[page 1]]
+ 
+ 
+ 
+ 
+Project Blue Tongue 
+ 
+Noise and Vibration Impact 
+Assessment 
+3 Davis Road, Wetherill Park 
+Job No:  
+Doc ref:  
+Revision: 
+Revision date:  
+1037966 
+1037966-RPT-AS-001 
+C 
+08 December 2023 
+[[page 2]]
+Project Blue Tongue - Noise and Vibration Impact Assessment 
+© Cundall Johnston & Partners PTY Ltd (“Cundall”) owns the copyright in this report and it has been written for the sole and confidential use for Project Blue 
+Tongue of 3 Davis Road, Wetherill Park. It must not be reproduced in whole or in part or relied upon by any third party for any use whatsoever without the 
+express written authorisation of Cundall.  If any third party whatsoever comes into possession of this report, they rely on it at their own risk and Cundall accepts no 
+duty or responsibility (including in negligence) to any such third party. 
+ 
+Document Ref.  1037966-RPT-AS-001 Template version 1.4 – 3 October 2017 
+Project title  Project Blue Tongue Job number 
+Report title Noise and Vibration Impact Assessment 1037966 
+ 
+Document revision history 
+Revision ref Issue date Purpose of issue / description of revision 
+— 04 October 2023 Draft for review 
+A 16 October 2023 Final Draft 
+B 18 October 2023 Final 
+C 08 December 2023 Minor update to noise contours 
+   
+   
+   
+   
+   
+   
+ 
+Document validation (latest issue)  
+8/12/2023
+X
+Principal author - Jim Ip
+Signed by: Vahid Alamshah     
+8/12/2023
+X
+Checked by - Vahid Alamshah
+Signed by: Vahid Alamshah     
+8/12/2023
+X
+Verified by - Vahid Alamshah
+Signed by: Vahid Alamshah  
+ 
+[[page 3]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 
+Executive summary 
+This report presents an operational and construction noise and vibration impact assessment of the proposed 
+development located at 3 Davis Road, Wetherill Park, NSW. It addresses the following acoustic design aspects in 
+response to the industry-specific SEARs for the project: 
+▪ Operational noise and vibration emissions and impact  
+▪ Construction noise and vibration emissions and impact 
+▪ Noise and vibration mitigation and management measures  
+Potential noise impacts from the proposed development have been assessed with reference to relevant requirements of 
+the following: 
+▪ NSW Protection of the Environment Operations Act 1997 (POEO Act). 
+▪ NSW EPA Noise Policy for Industry 2017 (NPfI) 
+▪ NSW Interim Construction Noise Guideline (ICNG) 
+▪ Transport for NSW Construction Noise and Vibration Strategy 
+▪ NSW Department of Environment and Conservation (DEC) guideline Assessing Vibration: a technical guideline 
+Noise emissions from the key identified noise sources associated with the development were assessed with appropriate 
+noise control measures recommended to meet the relevant project assessment noise criteria. Noise and vibration impact 
+from the construction of the project were also considered with management measures recommended to assist with 
+control of impacts during project construction. Based on the assessment undertaken in this report, it is concluded that 
+potential noise impacts from the development can be adequately controlled to achieve compliance with relevant noise 
+criteria and requirements subject to incorporation of acoustic recommendations and mitigation measures in this report. 
+ 
+[[page 4]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 
+Contents 
+ 
+1.0 Introduction 2 
+1.1 SEARS requirements 2 
+1.2 Purpose of this report 3 
+1.3 Key assumptions 3 
+2.0 Proposed development 5 
+2.1 The site 5 
+2.2 Surrounding land use 7 
+2.3 Proposal description 8 
+2.4 Noise sensitive receivers 12 
+3.0 Acoustic environment 16 
+3.1 Instrumentation 16 
+3.2 Weather conditions 17 
+3.3 Noise monitoring results 18 
+4.0 Operational noise and vibration 20 
+4.1 Operational noise criteria 20 
+4.2 Noise model 24 
+4.3 Predicted noise levels 28 
+4.4 Noise mitigation measures 29 
+4.5 Mitigated noise levels 30 
+4.6 Maximum event noise levels 31 
+4.7 Road traffic noise 32 
+4.8 Operational vibration 32 
+5.0 Construction noise and vibration 34 
+5.1 Construction overview 34 
+5.2 Construction noise 34 
+5.3 Construction vibration 45 
+6.0 Conclusion 51 
+6.1 DC Building DAHU Gallery 51 
+6.2 Backup generators 51 
+6.3 DC Building Rooftop plant and parapet/screen51 
+6.4 Construction noise 51 
+Appendix A - Acoustic terminology 54 
+Appendix B - Noise monitoring results 56 
+Appendix C - Unmitigated noise contour 74 
+Appendix D - Mitigated noise contour 76 
+ 
+[[page 5]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.0 
+Introduction 
+ 
+[[page 6]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 2 
+1.0 Introduction 
+Cundall has been commissioned to prepare a noise and vibration impact assessment for the proposed development 
+located at 3 Davis Road, Wetherill Park, NSW. The proposed development comprises of two three storey datacentre 
+buildings (DCs), a two storey tape storage building, a high voltage substation (HVSS) and associated infrastructure and 
+amenities.  
+The proposed development site is located at 3 Davis Road Wetherill Park (legally described as Lot 1 DP864615) within 
+the Smithfield-Wetherill Park Industrial Estate of the Fairfield City Council (Council) Local Government Area (LGA) and is 
+zoned E4 General Industrial. The development site has a total land area of approximately 105,400 m2 with 360m of 
+frontage to Davis Road. 
+The proposed development is classified as State Significant Development (SSD) under the provisions of the State 
+Environmental Planning Policy (Planning Systems) 2021 and is subject to the industry-specific Secretary’s 
+Environmental Assessment Requirements (SEARs). 
+A noise and vibration assessment is required under the provisions of the SEARs to address potential construction and 
+operational noise and vibration impacts including testing of any backup generators on surrounding noise sensitive 
+receivers and outline any relevant noise and vibration management measures. 
+This report considers the potential noise and vibration impacts associated with the following aspects of the proposed 
+development addressing the relevant acoustic requirements of the SEARs: 
+▪ Operational noise and vibration emissions and impact  
+▪ Construction noise and vibration emissions and impact 
+▪ Noise and vibration mitigation and management measures  
+Construction and operational noise and vibration impacts associated with the proposed development are assessed in 
+accordance with the provisions of the following documents: 
+▪ NSW Protection of the Environment Operations Act 1997 (POEO Act). 
+▪ NSW EPA Noise Policy for Industry 2017 (NPfI) 
+▪ NSW Interim Construction Noise Guideline (ICNG) 
+▪ Transport for NSW Construction Noise and Vibration Strategy 
+▪ NSW Department of Environment and Conservation (DEC) guideline Assessing Vibration: a technical guideline 
+ 
+1.1 SEARS requirements 
+Section 12 of the Data Storage Centres SEARs indicates the assessment requirements for Noise and Vibration, which is 
+shown in Table 1-1. The scope of this assessment is also listed addressing the requirements specified by SEARs. 
+Table 1-1 Industry-specified SEARs 
+Assessment Requirements Scope of this assessment 
+Provide a noise and vibration assessment prepared in 
+accordance with the relevant EPA guidelines and 
+Australian/International Standards. The assessment must detail 
+construction and operational noise and vibration impacts 
+(including testing of any back-up power system) on nearby 
+sensitive receivers and structures, and outline the proposed 
+mitigation, management and monitoring measures that would 
+be implemented. 
+Documentation: Noise and Vibration Impact Assessment 
+This report has been prepared to address the requirements 
+specified by SEARs. It includes: 
+▪ Noise sensitive Receivers (NSR) identification 
+▪ Description of existing acoustic environment 
+▪ Project specific noise and vibration assessment limits 
+▪ Operation noise and vibration impact assessment 
+▪ Construction noise and vibration impact assessment 
+▪ Noise and vibration management and mitigation measures 
+[[page 7]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 3 
+1.2 Purpose of this report 
+This report outlines an assessment of operational and construction noise and vibration impacts of the proposed 
+development located at 3 Davis Road, Wetherill Park, NSW in response to the industry-specific Secretary’s 
+Environmental Assessment Requirements (SEARs). 
+1.3 Key assumptions 
+The acoustic assessment in this report is based on the following key assumptions: 
+▪ Project draft SSDA drawings as of 18 October 2023. 
+▪ Noise modelling assumptions and inputs outlined throughout the report. 
+▪ The results of the background noise monitoring undertaken are representative of typical acoustic conditions in the 
+area. 
+▪ Assumptions and information in relation to the operation of the facility presented throughout the report. 
+ 
+  
+[[page 8]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 4 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.0 
+Proposed development 
+ 
+[[page 9]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 5 
+2.0 Proposed development 
+2.1 The site 
+The subject site is located within the Fairfield Local Government Area (LGA) and is zoned E4 General Industrial, 
+pursuant to the Fairfield Local Environmental Plan 2013 (FLEP2013). A data centre is permissible with consent in the E4 
+General Industrial zone under State Environmental Planning Policy (Transport and Infrastructure) 2021 (Transport and 
+Infrastructure SEPP). The subject site is identified as 3 Davis Road, Wetherill Park, legally described as Lot 1 
+DP864615. 
+Existing attributes of the subject site are noted as follows: 
+▪ The subject site exhibits an area of 105,400m2 and has a frontage of 360m to Davis Road.  
+▪ In its existing state, the subject site comprises the Reservoir Distribution Centre which is used for distribution 
+purposes. The Reservoir Distribution Centre comprises two units which are leased by separate tenants. The 
+existing development has 44,599m2 of GFA and provides 382 car parking spaces.  
+▪ A number of existing mature trees are located along the site’s boundaries and two bus stops are located along the 
+site’s frontage to Davis Road which is serviced by route 812 running between Blacktown and Fairfield via the 
+Prospect Highway. 
+▪ A stormwater drainage canal and associated 22.86m wide drainage easement (DP 249417) runs along the western 
+boundary of the subject site.  
+▪ An existing transmission tower is located within the site’s setback to Davis Road, refer to Figure 2-3. A 30.48m wide 
+easement for electricity transmission purposes (J259850) is located along the sites frontage and TransGrid has 
+entered into a restrictive covenant agreement for a further 15 meters to the side of this easement. 
+▪ The immediate site context exhibits an industrial character, being an established industrial precinct identified as 
+Smithfield-Wetherill Park Industrial Estate. The surrounding area predominantly comprises warehousing and waste 
+transfer facilities. 
+ 
+The existing site context is shown in Figure 2-1, Figure 2-2 and Figure 2-3 below.  
+ 
+[[page 10]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 6 
+ 
+Figure 2-1 Cadastral Map (Source: SIX Maps, 2023) 
+ 
+ 
+Figure 2-2 Aerial Map1 
+ 
+1 Aerial imagery courtesy of MetroMap 2023, imagery date 01 August 2023 
+
+[[page 11]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 7 
+ 
+Figure 2-3 Aerial Imagery of Reservoir Distribution Centre (Source: Greenpoint Construction Group, 2023) 
+2.2 Surrounding land use 
+The project site is located within E4 – General Industrial Zone of the Fairfield City Council and is predominantly 
+surrounded by industrial facilities such as warehousing, logistics, industrial processing and production as well as 
+workshops. Other land uses surrounding the subject site include:  
+▪ Environmental Conservation (C2) and Public Recreation (RE1) to the north east and south east of the site such as 
+the Wetherill Park Nature Reserve and Prospect Creek.  
+▪ Light Industrial (IN2) to the north east of the site. 
+▪ Infrastructure (SP2), to the east, north east and south such as the nearest classified roads (e.g. Liverpool – 
+Parramatta Transitway), electricity and transmission distribution infrastructure. 
+▪ Primary Production (RU1) to the north east such as East Prospect Zone Substation 
+▪ Low density residential (R2) , to the north east, south east and south of the site. 
+The project site locality and surrounding land uses are shown in Figure 2-4. 
+Reservoir Distribution Centre 
+
+[[page 12]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 8 
+ 
+Figure 2-4 Project site and surrounds2 
+2.3 Proposal description 
+The proposed development seeks consent for the following:  
+▪ Minor earthworks involving cut and fill works; 
+▪ Infrastructure comprising civil works and utilities servicing; 
+▪ Removal of 322 trees, retention of 74 trees, and planting of 322 new trees; 
+▪ Construction of two (2) data centre buildings, both to be three (3) storeys in height, each comprising: 
+– 19,551m2 of gross floor area (GFA); 
+– 3 data halls; 
+– 33 back up generators; 
+– With a power consumption of 80 megawatts (MW) (each with approximately 66MW IT load); 
+▪ Construction of one (1) tape storage building, two (2) storeys in height comprising: 
+– 466m2 of GFA; 
+– 2 data halls; 
+– 1 back up generator; 
+– With a power consumption of 0.85 MW (approximately 430 kilowatt (kW) IT load); 
+ 
+2 Image courtesy of NSW Planning Portal Spatial Viewer (https://www.planningportal.nsw.gov.au/spatialviewer) 
+Site 
+Nearest classified road 
+Davis Road 
+Residential 
+Residential 
+Residential 
+[[page 13]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 9 
+▪ Construction of one (1) sally port with 46m2 of GFA; 
+▪ Diesel storage capacity of 1,383 kilo litres (kL); 
+▪ High Voltage Substation (HVSS) incorporating three 90 Mega Volt Amp (MVA) 132/22 kilovolt (kV) transformers and 
+associated switching and control buildings; 
+▪ 101 on-site car parking spaces; 
+▪ 33,710m2 of complementary landscaping; and 
+▪ Hours of operation being on a 24 hours per day, 7 days per week basis. 
+The proposed site plan showing each DC building, the tape storage building and the HVSS is shown in Figure 2-5. 
+ 
+Figure 2-5 Proposed site plan  
+Each datacentre building (DC) is comprised of data halls, services and plant rooms housing the cooling and electrical 
+systems (e.g. DAHU Galleries and electrical rooms) as well as an office and administrative block. Fifteen (15) double 
+stacked (i.e. 2 x 15) and three single stacked (i.e. 2 x 3) backup power generators support each DC in the event of 
+power failure. The routine backup power generator maintenance operations for the two DCs and tape storage building 
+are understood to include: 
+▪ One generator and one load bank operating at 100% as part of testing routine. 
+▪ Up to six (6) backup power generators running with no load bank for DC01 and up to three (3) for DC02. 
+Each data hall within the DC buildings is air-conditioned using large air handling units (DAHUs) located within dedicated 
+galleries (DAHU Galleries) along DC building which are ventilated via dedicated plenum with acoustic attenuators and 
+
+[[page 14]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 10 
+façade louvres. Typical expected layout for DC buildings is shown in Figure 2-6 below. The internal cooling and electrical 
+rooms are serviced via rooftop plant comprised of dedicated exhaust fans (REFAs) and a mix of vertical and horizontal 
+discharge condensers as shown in Figure 2-6. The REFA fans have built-in attenuators for the exhaust side. The DCs 
+building roof also has a solid parapet extended to approximately the height of the REFA fans. 
+ 
+Figure 2-6 DC Building Typical General Arrangement 
+ 
+Figure 2-7 Typical DC rooftop plant layout  
+The High Voltage Substation (HVSS) comprises of three 90 MVA 132/22 kilovolt (kV) transformers as shown in Figure 
+2-8 along with the associated switching and control buildings to the east of the HVSS. The switch yard is expected to be 
+Office 
+Data halls 
+Generators 
+DAHU Galleries 
+Electrical rooms 
+DAHU Galleries 
+[[page 15]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 11 
+located on the western side of the HVSS and each transformer will also have concrete fire protection walls/barriers as 
+shown in Figure 2-8 which also provide acoustic shielding of noise emissions from the transformers.  
+Typical layout of the tape storage building with main associated noise sources are shown in Figure 2-9. The tape storage 
+building comprises of two (2) data halls and associated infrastructure and amenities. The tape storage building similarly 
+will be serviced by internal AHU units and rooftop air condensers as shown in Figure 2-9. The tape storage building will 
+also include one back-up generator and a transformer servicing the building in case of power failure. The routine testing 
+of the backup generator for tape storage building will be as part of the overall facility generator testing routine.  
+ 
+Figure 2-8 Indicative HVSS layout  
+ 
+Figure 2-9 Tape storage building layout  
+Transformers Bays  
+(3 x 90MVA transformers) 
+Switching and control building 
+Switchyard 
+Backup Generator 
+Transformer 
+Rooftop condensers 
+Two AHUs on lower roof 
+Fire protection wall 
+[[page 16]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 12 
+2.4 Noise sensitive receivers 
+Nearby noise sensitive receivers surrounding the project site have been identified in Table 2-1 based on a review of 
+aerial imagery and publicly available information. Figure 2-10 shows the noise sensitive receiver locations surrounding 
+the project site area. 
+Table 2-1 Noise and vibration sensitive receivers 
+Type ID Receivers Description Directions Distance (1) 
+Residential 
+R1 North-eastern Premises along Gipps Rd, Hyland Rd, Munro 
+St, Alpha Rd, and Kurrajong Rd. Northeast 1400 m 
+R2 South-eastern 
+Premises along Hassall St, Rosford St, Eyre St, 
+and Snowdon Cres, Chifley St, Galton St, 
+Wetherill St and Victoria St. 
+Southeast 1200 m 
+R3 Southern 
+Residences along The Horsley Drive, 
+Maugham Cres, Walpole Cl, Ainsworth Cres, 
+Cobbett St, Locke St, Macaulay St, Lily St and 
+Hopkins St. 
+South 1000 m 
+R4 South-western 
+Residences along the The Horsley Drive, 
+Mimosa Rd, Alamein Rd, Quarry Rd, 
+Castlereagh St, Benghazi St, Tolmer St, 
+Cootha Cl, Roland St, Bougainville Ave, and 
+Derwent Pl. 
+Southwest 1740 m 
+R5 Western Residences along Cowpasture Rd, Trivet St 
+and Ferrers Rd. West 2200 m 
+Active 
+Recreation 
+A1 Emerson Park 1022 The Horsley Drive South 1250 m 
+A2 Prospect and Walder 
+Park William Lawson Drive North 780 m 
+A3 Gipps Road Sporting 
+Complex and Park 
+Gipps Road and along Liverpool – Paramatta 
+Transitway East 320 m 
+A4 Alpha Road Park Local park located at Alpha Road, Greystanes Northeast 2000 m 
+A5 Rosford Park and 
+Reserve 
+Local park and sporting fields at Rosford Street, 
+Smithfield East 1400 m 
+Passive 
+Recreation 
+P1 Prospect Canal Reserve Prospect Canal Reserve and Prospect Hill Pine 
+Forest located at Hyland Road, Smithfield Northeast 670 m 
+P2 Wetherill Park Nature 
+Reserve 
+Local park and nature reserve at Victoria 
+Street, Wetherill Park South 840 m 
+P3 Lizard Log Western 
+Sydney Parkland 
+Lizard Log Parklands at 1521 The Horsley 
+Drive extended along Cowpasture Road Southwest 2920 m 
+Educational 
+E1 Aspect Western Sydney 
+School 295 Victoria St, Wetherill Park Southeast 970 m 
+E2 TAFE NSW - Wetherill 
+Park 
+Wetherill Park TAFE along The Horsley 
+Drive/Victoria Street. Southeast 1070 m 
+E3 William Stimson Public 
+School 36-54 Lily St, Wetherill Park South 1620 m 
+[[page 17]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 13 
+Type ID Receivers Description Directions Distance (1) 
+Commercial 
+C1 Wetherill Park 
+Commercial 
+Commercial premises along The Horsley Drive 
+including Greenway Wetherill Park Mall (1111 – 
+1184 The Horsley Drive)  
+South 1200 m 
+C2 Wetherill Park Market 
+Town 
+Shopping and commercial premises at 1024 
+The Horsley Drive. South 1200 m 
+Industrial (2) 
+I1 Northern Industrial Closest northern industrial premises along 
+Davis Rd (30 – 34) 
+North 0 m 
+I2 Eastern Industrial Closest eastern industrial premises at 2 Davis 
+Road. 
+East 0 m 
+I3 Southern Industrial Closest southern industrial premises along 
+Frank St & Liverpool-Paramatta Transitway. 
+South 0 m 
+I4 Western Industrial Closest western industrial premises along 
+Wenban Pl. 
+West 0 m 
+Notes: 
+1. Approximate closest distance from site boundary to the identified receiver group boundary. 
+2. Industrial receivers presented are representative of closest premises adjoining site. Additional industrial receivers are located 
+further away from site as generally shown in Figure 2-10. 
+ 
+ 
+ 
+ 
+[[page 18]]
+Residential
+Active Recreation
+Commercial
+Educational
+Industrial
+Passive Recreation
+Site
+
+[[page 19]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 15 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.0 
+Acoustic environment 
+ 
+[[page 20]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 16 
+3.0 Acoustic environment  
+Environmental noise surveys were carried out at the proposed development site as well as surrounding residential areas 
+between Monday 21 August 2023 to Thursday 31 August 2023. The purpose of the noise survey was primarily to: 
+▪ identify sources of noise that are likely to affect the development and assess their expected noise levels. 
+▪ quantify existing ambient and background noise levels, to assist in setting appropriate noise criteria in order to 
+assess the impact of the proposed development on the surroundings. 
+▪ identify potential noise sensitive receivers in the vicinity. 
+3.1 Instrumentation 
+Long-term unattended noise monitoring was carried out at three locations at the nearest residential areas shown in 
+Figure 3-1 to the south, southeast, and northeast of the development site. The background noise at these locations are 
+considered representative of the background noise levels at the surrounding residential premises adjacent to the 
+proposed development. Short-term attended ambient and background noise measurements were also carried out in the 
+vicinity of the proposed development site along Davis Road to assist with understanding the existing acoustic 
+environment at the site. The location of the attended (AMLs) and unattended noise monitoring (NMLs) are shown in 
+Figure 3-1. Noise monitoring setup for each of the NMLs are also shown in Figure 3-2. 
+Details of the noise monitoring locations and instrumentation used are provided in Table 3-1 below. The sound level 
+meters were field calibrated both before and after the measurement period using a Pulsar Model 105 Acoustic 
+Calibrator. No drift of more than 0.5 dB was observed for reference level before and after measurements. All the sound 
+level meters and calibrator held current NATA certified calibration certificate at the time of testing which can be provided 
+upon request. The noise logger recorded a variety of noise parameters at 15-minute intervals continuously between 2 
+pm on Monday 21 August 2023 and 12:00 pm on Thursday 31 August 2023, including the A-weighted equivalent 
+continuous noise level (LAeq) and background noise level (LA90).  
+Table 3-1 Noise survey instrumentation 
+Noise monitoring location Easting Northing Unit/model Class Serial Number 
+NML1 305665.40 6252343.83 01 dB Fusion Class 1 SN 10799 
+NML2 308030.58 6253166.63 SVAN 977D Class 1 SN 98463 
+NML3 308125.07 6254336.83 Rion NL42 Class 2 SN 873124 
+AML 1 306497.38 6253973.49 Rion NL42 Class 2 SN 873124 
+AML 2 306423.61 6253974.99 Rion NL42 Class 2 SN 873124 
+AML 3 306278.77 6253977.32 Rion NL42 Class 2 SN 873124 
+Acoustic field calibrator --- --- Pulsar Model 105 Class 1 SN 78355 
+ 
+ 
+[[page 21]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 17 
+ 
+Figure 3-1 Noise monitoring locations3 
+     
+Figure 3-2 Noise loggers setup at NML1(left), NML2 (middle), and NML3 (right) 
+ 
+3.2 Weather conditions  
+Weather conditions at the nearest Bureau of Meteorology (BOM) Automatic Weather Station (AWS) to the development, 
+being the Horsley Park Equestrian Centre AWS located about 4.8 km southwest of the site, have been monitored 
+throughout the logging period.  
+The weather conditions were observed to be acceptable for noise monitoring over the unattended logging period with 
+any periods affected by adverse weather conditions (rain and excessive wind) have been excluded. Adverse weather 
+conditions corresponding to periods of rain or where wind speed recorded by the AWS was above 7 m/s were excluded. 
+Wind speeds of 7 m/s at a mast height of 10 m are taken to equate to wind speeds of about 5 m/s at microphone height 
+of about 1.5 m based on typical expected logarithmic wind profile.  
+ 
+3 Aerial imagery courtesy of MetroMap, imagery date 2023/08/01 
+NML 1 
+NML 2 
+NML 3 AML1 - 3 
+[[page 22]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 18 
+3.3 Noise monitoring results  
+Daily noise monitoring results for each of the NMLs are shown in figures presented in Appendix B. Summary of the noise 
+monitoring results are presented in Table 3-2 below with the rating background levels established following procedures 
+set in the NPfI. 
+Table 3-2 Summary of unattended noise monitoring 
+Location 
+Rating Background Level (RBL), dBA Ambient noise level (Leq), dBA 
+Day Evening Night Day Evening Night 
+NML 1 52 50 39 61 59 57 
+NML 2 44 43 36 55 50 48 
+NML 3 41 40 37 52 46 46 
+ 
+Summary of attended noise measurements undertaken at the proposed development site along the Davis Road at the 
+locations shown in Figure 3-1 are presented in Table 3-3. 
+Table 3-3 Summary of attended noise measurements 
+Location Time Background noise, 
+L90,15 min  
+Ambient noise, 
+Leq, 15 min  Observations 
+AML 1 31 Aug. 11:28 am 52 dBA 68 dBA 
+Ambient noise dominated by traffic from 
+Davis Road, general environment noise 
+(birds, wind over trees) and noise from the 
+surrounding industries. Occasional aircraft 
+fly overs but not dominant feature.   
+AML 2 31 Aug. 11:39 am 53 dBA 68 dBA 
+AML 3 31 Aug. 11:49 am 52 dBA 72 dBA 
+ 
+Ambient noise at the project site and surrounding residential receivers were observed to be generally dominated by 
+traffic noise from surrounding roads, as well as natural environment noise and surrounding industries.  
+  
+[[page 23]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 19 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.0 
+Operational noise and vibration 
+ 
+[[page 24]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 20 
+4.0 Operational noise and vibration 
+4.1 Operational noise criteria 
+4.1.1 NSW Noise Policy for Industry 
+Environmental noise emissions from the proposed development should be designed to comply with the requirements of 
+the NSW EPA Noise Policy for Industry 2017 (NPfI).  
+The objective of the NPfI is to ensure noise impacts from the proposed developments are assessed and managed in a 
+consistent and transparent manner. If it is predicted that the development is likely to cause the project noise trigger level 
+to be exceeded at noise sensitive receivers, management measures need to be considered to seek to reduce the 
+potential noise impacts.  
+It should be noted that NPfI applies to the assessment of industrial and commercial noise sources and vehicle 
+movements within the premises, which in this case would relate to mechanical services plant, routine testing of the 
+generators and site vehicle movement noise (i.e. loading dock vehicles and car parking).    
+The project noise trigger level provides an objective for assessing a proposal or site. It is not intended for use as a 
+mandatory requirement. The project noise trigger level is a level that, if exceeded, would indicate a potential noise impact 
+on the community, and so ‘trigger’ a management response; for example, further investigation of mitigation measures.  
+The project noise trigger level, feasible and reasonable mitigation measures, and consideration of residual noise impacts 
+are used together to assess noise impact and manage the potential noise from the site.  
+The project noise trigger level is the lower (that is, the more stringent) value of the project intrusiveness noise level and 
+project amenity noise level. The project intrusiveness noise level aims to protect against significant changes in noise 
+levels, whilst the project amenity noise level seeks to protect against cumulative noise impacts from industry and 
+maintain amenity for particular land uses. Applying the most stringent requirement as the project noise trigger level 
+ensures that both intrusive noise is limited and amenity is protected, and that no single development can unacceptably 
+increase the noise level within an area. The NPfI separates the day into three different time periods – daytime, evening 
+and night-time. These time periods are detailed below in Table 4-1. 
+Table 4-1 NPfI time periods 
+Period Day of week Time period 
+Day Monday-Saturday 
+Sunday, Public Holiday 
+07:00 – 18:00 hours 
+08:00 – 18:00 hours 
+Evening Monday-Sunday 18:00 – 22:00 hours 
+Night Monday-Saturday 
+Sunday, Public Holiday 
+22:00 – 07:00 hours 
+22:00 – 08:00 hours 
+4.1.2 Project intrusiveness level 
+The intrusiveness of an industrial noise source is generally considered acceptable if the level of noise from the source 
+(represented by the LAeq descriptor), measured over a 15-minute period, does not exceed the background noise level by 
+more than 5 dB when beyond a minimum threshold. The intrusiveness noise level is expressed as: 
+LAeq, 15min = RBL + 5 dB 
+where RBL is the Rating Background Level established in accordance with procedures set out in NPfI. It is noted that 
+intrusive noise levels are only applicable to residential receivers. The applicable intrusiveness criteria for the 
+development based on site measurement data are provided in Table 4-2. 
+ 
+[[page 25]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 21 
+Table 4-2 Project Intrusive level 
+ID Receivers 
+Background 
+monitoring 
+location used 
+Time period 
+Rating Background 
+Level (RBL) 
+Intrusive criteria 
+RBL + 5 dB 
+dBA dB LAeq,15min 
+R1 North-eastern residential NML 3 
+Daytime 41 46 
+Evening  40 45 
+Night-time 37 42 
+R2 South-eastern residential NML 2 
+Daytime 44 49 
+Evening  43 48 
+Night-time 36 41 
+R3 Southern residential NML 1 
+Daytime 52 57 
+Evening  50 55 
+Night-time 39 44 
+R4 South-western NML 1 
+Daytime 52 57 
+Evening  50 55 
+Night-time 39 44 
+R5 Western NML 2 
+Daytime 44 49 
+Evening  43 48 
+Night-time 36 41 
+4.1.3 Project amenity level 
+The protection of noise amenity applies to noise from all industrial and commercial noise sources including noise emitted 
+from the proposed development. Criteria consider the type of receiver, the area classification and the time of day the 
+noise is proposed to occur. The amenity criterion is set so that the LAeq noise level from the industrial noise source does 
+not increase the total industrial noise levels at the receiver above the recommended Amenity Noise Level (ANL) for that 
+receiver. Project amenity noise level is defined as: 
+Project amenity noise level = ANL - 5 dB(A) 
+where ANL is the recommended Amenity Noise Level established in accordance with Table 2.2 of the NPfI based on 
+noise amenity area of the receivers. In cases where no other industries are present in the area, the project amenity noise 
+level is set to the ANL for the proposed development. Exceptions apply to above for exceptional cases such as areas 
+with high traffic. Neither of these scenarios are applicable and hence not further discussed in this document.  
+Note the identified residential receivers are generally zoned as R2 – Low Density Residential for which generally may be 
+categorised as Suburban Residential receivers based on guidance provided in Table 2.3 of the NPfI for typical planning 
+zoning. However, due to the more mixed use nature of area, adjacency to industrial districts and measured RBLs, these 
+residential areas are considered more inline with the character and description of Urban Residential Areas as described 
+by the NPfI as follows: 
+Urban – an area with an acoustical environment that: 
+• is dominated by ‘urban hum’ or industrial source noise, where urban hum means the aggregate sound of 
+• many unidentifiable, mostly traffic and/or industrial related sound sources 
+• has through-traffic with characteristically heavy and continuous traffic flows during peak periods 
+• is near commercial districts or industrial districts 
+• has any combination of the above.  
+[[page 26]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 22 
+Typical expected existing background levels 
+• Daytime RBL > 45 
+• Evening RBL>40 
+• Night RBL > 35 
+Accordingly, the Urban Residential category has been adopted for the establishment of Amenity Noise Levels for 
+residential receivers for the project. A summary of the established amenity criteria applicable to this development is 
+presented in Table 4-3. 
+Table 4-3 Project amenity noise criteria 
+Receivers Receivers Type Time period ANL 
+dB LAeq, period 
+Amenity criteria 1 
+dB LAeq,15min 
+Residential R1 – R5 Urban Residential 
+Daytime 60 58 
+Evening  50 48 
+Night-time 45 43 
+Active Recreational A1 – A5 Active Recreation When in use 55 53 
+Passive Recreational P1 – P3 Passive Recreation When in use 50 48 
+Educational E1 – E3 Education Noisiest 1 hr when in use 453 43 
+Commercial C1 – C2 Active Recreation When in use 55 53 
+Industrial I1 – I4 Industrial When in use 70 68 
+1) To standardise the assessment period for the intrusiveness and amenity noise levels, the policy assumes LAeq,15min = LAeq, period + 3 dB. 
+2) Acceptable amenity noise level established based on internal amenity level provided by NPfI based on 10 dB outdoor to indoor correction as 
+required by NPfI.  
+4.1.4 Project-specific trigger levels 
+The most stringent of the intrusiveness and the amenity criteria should be set as the project-specific trigger level to be 
+met by the development. Table 4-4 compares the intrusiveness and the amenity criteria and identifies the established 
+project specific noise trigger levels for each time period. 
+Table 4-4 Project specific noise trigger levels 
+Classification Receivers 
+ID 
+Time period Intrusive criteria 
+dB LAeq,15min 
+Amenity criteria 
+dB LAeq,15min 
+Project -specific trigger 
+level, dB LAeq,15min 
+Residential 
+R1 
+Daytime 46 58 46 
+Evening  45 48 45 
+Night-time 42 43 42 
+R2 
+Daytime 49 58 49 
+Evening  48 48 48 
+Night-time 41 43 41 
+R3 
+Daytime 57 58 57 
+Evening  55 48 48 
+Night-time 44 43 43 
+[[page 27]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 23 
+Classification Receivers 
+ID 
+Time period Intrusive criteria 
+dB LAeq,15min 
+Amenity criteria 
+dB LAeq,15min 
+Project -specific trigger 
+level, dB LAeq,15min 
+Residential 
+R4 
+Daytime 57 58 57 
+Evening  55 48 48 
+Night-time 44 43 43 
+R5 
+Daytime 49 58 49 
+Evening  48 48 48 
+Night-time 41 43 41 
+Active 
+Recreational A1 – A5 When in use --- 1 53 53 
+Passive 
+Recreational P1 – P3 When in use --- 1 48 48 
+Educational E1 – E3 Noisiest 1 hr 
+when in use --- 1 43 43 
+Commercial C1 – C2 When in use --- 1 53 63 
+Industrial I1 – I4 When in use --- 1 68 68 
+Notes 
+1.  Intrusive noise level only applies to residential receivers. 
+4.1.5 Maximum noise event assessment 
+Potential for sleep disturbance where relevant for night time activities should be considered and appropriately mitigated. 
+The proposed development is expected to operate on a 24 hours per day, 7 days per week basis.  
+Maximum noise events are to be assessed in accordance with the provisions of the NPfI with consideration to sleep 
+disturbance at nearby sensitive uses. Note assessment of maximum noise events are only relevant to the residential 
+premises. The following as presented in Table 4-5 is required under the provisions of NPfI with respect to assessment of 
+maximum noise events: 
+Table 4-5 Maximum noise event assessment criteria 
+Sleep disturbance criteria (NPfI) Receiver ID RBL at night Project Sleep disturbance noise 
+criteria  
+LAeq,15min 40 dB(A) or the prevailing RBL plus 5 dB, 
+whichever is the greater, and/or 
+LAFmax 52 dB(A) or the prevailing RBL plus 15 dB, 
+whichever is the greater 
+R1 37 dBA LAeq,15min 42 dB(A) & LAFmax 52 dB(A) 
+R2 36 dBA LAeq,15min 41 dB(A) & LAFmax 52 dB(A) 
+R3 39 dBA LAeq,15min 44 dB(A) & LAFmax 54 dB(A) 
+R4 39 dBA LAeq,15min 44 dB(A) & LAFmax 54 dB(A) 
+R5 36 dBA LAeq,15min 41 dB(A) & LAFmax 52 dB(A) 
+ 
+4.1.6 Modifying factors 
+Where a noise source contains certain characteristics such as tonality, intermittency and dominant low-frequency noise, 
+evidence suggest it can cause greater annoyance. To account for this, NPfI requires additional modifying factors to be 
+applied to the measured or predicted noise level at the noise sensitive receivers having regards to the contribution of 
+[[page 28]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 24 
+noise level and nature of noise source. Presence of noise characteristics and applicability of any relevant modifying 
+factors for the project noise sources are further discussed in Section 4.2. 
+4.2 Noise model 
+4.2.1 Methodology 
+A 3D computational noise model of facility and surrounding has been developed and utilised for assessment of noise 
+emissions from the facility using SoundPLAN Version 9.0 and adopting ISO 9613 -2:1996 Attenuation of sound during 
+propagation outdoors algorithm.  
+Computational noise model has been utilised to calculate outdoor noise propagation from different noise sources taking 
+into consideration the building and facility design, surrounding building, receivers location and height and terrain as well 
+as environmental factors affecting the noise propagation. The noise predictions utilise ISO 9613 algorithm which takes 
+into account a moderately favourable weather conditions to the noise propagation (i.e. increasing noise levels). These 
+include downwind propagation (approximate wind speeds of 1 – 5 m/s at a height of 3 – 11 m above ground) or 
+equivalently propagation under a well-developed moderate ground-based temperature inversion such as commonly 
+occurs at night. 3D visual representation of the developed computational model of the site and surrounding areas are 
+shown in Figure 4-1 below. 
+ 
+Figure 4-1 Computational noise model of the development 
+4.2.2 Modelling assumptions 
+The following modelling assumption has been considered: 
+▪ Terrain information was obtained from NSW Elevation data (2 m resolution) with inclusion of site-specific survey 
+data and design elevation/grading. 
+▪ ISO 9613 – 2:1996 noise prediction algorithm with noise enhancing metrological conditions equivalent to downwind 
+propagation or a well-developed moderate ground-based temperature inversion. 
+▪ The receivers were modelled at 1.5m above ground level and at every other level for multi-storey receiver building 
+with floor height of 3 m. 
+
+[[page 29]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 25 
+▪ Ground absorption value of G = 0.5 representative of urban areas. A ground absorption of zero (0) represents 
+acoustically reflective ground (no sound absorption) while a value of one (1) represent an acoustically absorptive 
+ground. 
+▪ All noise sources have been conservatively assumed to be operating simultaneously and continuously over the 15-
+minute assessment period. 
+▪ Operational noise sources and modelling scenarios as outlined in Section 4.2.3. 
+▪ Noise sources and sound powers as outlined in Section 4.2.4. 
+▪ Minimum 2.5 m high solid parapet around the roof perimeter.  
+ 
+4.2.3 Modelling scenarios 
+Main project standard operational components with likely noise emission sources are identified as: 
+▪ Datacentre buildings and associated noise sources including rooftop mechanical plant as well as noise egress from 
+DAHU gallery façade louvres. 
+▪ Tape storage building rooftop mechanical plant and transformer 
+▪ High Voltage Substation (HVSS) transformers 
+▪ Operation of backup generators during routine testing 
+▪ Vehicle movements on site including the deliveries and car parking 
+The facility is expected to operate on a 24 hours per day, 7 days per week basis for which different noise sources are 
+likely operational. Based on the understanding of the project and likely typical worst case noise emissions, the following 
+operational noise modelling scenarios and associated noise sources as outlined in Table 4-6 below for the operation of 
+the facility during day/evening and night time. 
+Table 4-6 Noise modelling scenarios 
+Project 
+component 
+Noise source Comment Operational modelling scenario 
+   Day/Evening  Night time 
+DC Buildings 
+DAHU (internal source within DAHU 
+galleries) 
+42 DAHUs per level per DC 
+operating 24/7  
+252 252 
+Rooftop REFA fans 189 fans per DC with 6 being 
+standby operating 24/7 
+366  366 
+Rooftop air cooled condensers 
+(Stulz) 
+32 total with 16 standby per DC 
+operating 24/7 
+32  32 
+Rooftop horizontal discharge 
+condensers 
+21 per DC operating 24/7 42 42 
+Rooftop vertical discharge 
+condensers 
+4 per DC building 8 8 
+Rooftop AHU/ERV 1 x per DC Building 1 1 
+Tape storage 
+building 
+Rooftop condensers Total of 12 condensers 12 12 
+Rooftop AHUs Two on lower roof level 2 2 
+Transformer One at grade  1 1 
+HVSS 
+Substation 
+Transformers Three transformers operating 24/7 3 3 
+[[page 30]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 26 
+Project 
+component 
+Noise source Comment Operational modelling scenario 
+   Day/Evening  Night time 
+Backup 
+generators 
+testing 
+Generators including intake, 
+discharge, enclosure and exhaust  
+Testing of up to 12 generators (no 
+load) for both DCs and tape 
+storage building at any time during 
+day/evening and night. 
+12 12 
+Load Bank A portable load bank for testing of 
+one generator under load 
+conditions anytime during 
+day/evening and night. 
+1 1 
+Vehicle 
+movement 
+Heavy vehicle / delivery truck One in any 15 minute per DC. 
+Deliveries are expected only 
+during daytime. 
+2 --- 
+Light vehicle (parking) About 223 AM/PM peak trips 
+About 20 trips at night time hours 
+56 in any 
+15-minute  
+5 in any 
+15-minute 
+ 
+4.2.4 Noise sources 
+Table 4-7 summarises the noise source sound power or pressure data used for the model established based on the 
+information provided to Cundall as well as WIP project design. The presented source noise data correspond to the 
+steady-state time-averaged sound pressure levels (Leq). Sound spectra and characteristics for each of the relevant noise 
+sources are presented in Section 4.2.5. 
+Table 4-7 Equipment schedule and sound power levels 
+Project 
+component 
+Noise source Source type in 
+model 
+Sound power/pressure level 
+(Leq,15min) 
+Comment 
+DC Building 
+DAHU Internal source 
+Intake sound power level of 88 dBA 
+per DAHU  
+Casing sound power level of 69 
+dBA per DAHU 
+DAHUs incorporate built in 
+sound attenuation reflected in 
+data. 
+DAHU External 
+Louvres 
+Area source on 
+façade of DCs 
+Estimated sound power level of 80 
+dBA/m2 area of louvre 
+Maximum louvre area of 96.6 x 
+2.5 m per façade per level per DC 
+Estimated based on DAHU 
+noise levels and no treatment 
+to Gallery or louvres 
+Rooftop REFA 
+Fans 
+Point source on 
+rooftop 
+Sound power levels: 
+▪ Outlet, 59 dBA 
+▪ Casing, 54 dBA 
+REFA fans have in-built sound 
+attenuators. Data provided by 
+manufacturer. 
+Rooftop Air-
+cooled 
+Condensers 
+Point source on 
+rooftop 
+Sound pressure level of 58 dBA at 
+5 m (Sound power level of 80 dBA) 
+Data as per manufacturer 
+technical specification. 
+Rooftop 
+horizontal 
+discharge 
+condensers 
+Point source on 
+rooftop Sound power level of 70 dBA Data based on similar units on 
+reference project design. 
+Rooftop vertical 
+discharge 
+condensers 
+Point source on 
+rooftop Sound power level of 85 dBA Data based on similar units on 
+reference project design. 
+[[page 31]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 27 
+Project 
+component 
+Noise source Source type in 
+model 
+Sound power/pressure level 
+(Leq,15min) 
+Comment 
+AHU/ERV Point source on 
+rooftop Sound power level of 83 dBA Data based on similar units on 
+reference project design. 
+Tape storage 
+building 
+Rooftop 
+condensers 
+Point source on 
+rooftop 
+Sound pressure level of 51 dBA at 5 
+m (Sound power level of 73 dBA) 
+Data as per manufacturer 
+technical specification (Stulz) 
+Rooftop AHUs Point source on 
+lower rooftop Sound power level of 83 dBA Data based on similar units on 
+reference project design. 
+Transformer Point source Maximum sound power level of 68 
+dBA 
+Estimated based on maximum 
+sound power levels in 
+accordance with AS 60076-10 
+for a 1400 kVA transformer. 
+HVSS 
+Substation Transformers 
+Noise emitting 
+structure with area 
+sources on sides and 
+top 
+Maximum sound power level of 93 
+dBA 
+Estimated based on maximum 
+sound power levels in 
+accordance with AS 60076-10 
+for a 90 MVA transformer. 
+Backup 
+generators 
+testing 
+Generator 
+Noise emitting 
+structure with area 
+sources on sides and 
+top. 
+Exhaust as point 
+source at top of 
+stack. 
+Specified sound pressure levels: 
+▪ Intake/discharge, 75 dBA at 1 
+m,  
+▪ Exhaust, 72 dBA at 1 m 
+▪ Enclosure, 66 dBA at 1 m 
+Estimated sound power levels 
+based on generator size of 20 m x 
+5 m x 8.2 m: 
+▪ Discharge, 95 dBA based on 
+discharge louvre size of 4.6 m x 
+5 m 
+▪ Intake, 92 dBA based on intake 
+louvre size of 2.2 m x 4.6 m 
+▪ Exhaust, 86 dBA 
+▪ Enclosure, 95 dBA 
+Acoustically designed 
+containerised generator with 
+in-built sound attenuation 
+reflected in the data as 
+provided by supplier.  
+Load bank Point source Sound power level of 108 dBA 
+Data based on similar units 
+(Parratech) on reference 
+project design. 
+Vehicle 
+movement 
+Heavy vehicle 
+slowly moving Line source Sound power level of 69 dBA/m 
+length of line source 
+Maximum site speed of 10 
+km/hr and slowly moving truck 
+total sound power of 103 dBA 
+Heavy vehicle 
+idling 
+Point source at 
+loading dock 
+Sound power level of 92 dBA per 
+source 
+Sound power level adjusted 
+for duration based on truck 
+idling sound power of 96 dBA 
+and maximum idling time of 5 
+minute in any 15 minute. 
+Light 
+vehicle/slowly 
+moving car 
+Line source Sound power level of 48 dBA/m 
+length of line source (one car) 
+Maximum site speed of 10 
+km/hr and slowly moving car 
+total sound power of 82 dBA 
+[[page 32]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 28 
+Project 
+component 
+Noise source Source type in 
+model 
+Sound power/pressure level 
+(Leq,15min) 
+Comment 
+Engine 
+start/idling 
+Area source over 
+parking area 
+Sound power level of 68 dBA per 
+car. 
+Sound power level adjusted 
+for duration based on car 
+engine start/idling sound 
+power of 80 dBA and 
+maximum idling time of 1 
+minute in any 15 minute. 
+ 
+4.2.5 Noise source characteristics 
+A number of noise sources such as the rooftop condensers, generators and power transformer are likely to exhibit tonal 
+characteristics for which a modifying factor of +5 dBA may be applicable. Note the applicability of the modifying factor will 
+depend on the contribution of noise level from the development at the noise sensitive location. For the receivers at 
+greater distance such as residential receivers, such tonal characters are generally expected to be mostly masked by 
+existing background noise levels and unlikely to be a dominant feature of the noise from the development at receivers. 
+However, as a conservative approach, this assessment has included a + 5 dB modifying factor at all sensitive receivers 
+to account for any potential noise characters associated with the noise from the development.  
+4.3 Predicted noise levels  
+Table 4-8 below presents the predicted unmitigated noise levels at all identified noise sensitive receivers. The reported 
+levels represent the highest predicted noise level at each of the noise sensitive groups as shown in Figure 2-10. The 
+predicted unmitigated noise contours are also presented in Appendix C. 
+Table 4-8 Predicted unmitigated noise levels 
+Receiver 
+Day/evening operations Night time operations 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply / 
+exceedance 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply? 
+R1 39 45 Yes 39 42 Yes 
+R2 41 48 Yes 41 41 Yes 
+R3 43 48 Yes 43 43 Yes 
+R4 38 48 Yes 38 43 Yes 
+R5 41 48 Yes 41 41 Yes 
+A1 39 53 Yes 39 --- (1) --- (1) 
+A2 45 53 Yes 45 --- (1) --- (1) 
+A3 48 53 Yes 48 --- (1) --- (1) 
+A4 32 53 Yes 32 --- (1) --- (1) 
+A5 40 53 Yes 40 --- (1) --- (1) 
+P1 39 48 Yes 39 --- (1) --- (1) 
+P2 45 48 Yes 45 --- (1) --- (1) 
+P3 34 48 Yes 34 --- (1) --- (1) 
+E1 40 43 Yes 40 --- (1) --- (1) 
+E2 40 43 Yes 40 --- (1) --- (1) 
+E3 39 43 Yes 39 --- (1) --- (1) 
+[[page 33]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 29 
+Receiver 
+Day/evening operations Night time operations 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply / 
+exceedance 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply? 
+C1 48 63 Yes 48 63 Yes 
+C2 41 63 Yes 41 63 Yes 
+I1 68 68 Yes 67 68 Yes 
+I2 71 68 No (3 dB) 71 68 No (3 dB) 
+I3 78 68 No (10 dB) 78 68 No (10 dB) 
+I4 65 68 Yes 65 68 Yes 
+Notes: 
+Active and passive recreational receivers as well as educational receivers are not likely to operate at night. The operational time of 
+identified industrial and commercial premises may still extend through night time hours and hence included. 
+ 
+Results presented in Table 4-8 indicate potential exceedance of project specific noise trigger levels at a number of 
+receivers including the adjoining industrial premises during day/evening hours by up to 10dB. The predicted noise levels 
+however were found to meet the relevant limits at nearest residential receivers at all times.  
+4.4 Noise mitigation measures 
+Predicted operational noise levels presented in Section 4.3 indicate potential exceedance of project specific noise trigger 
+levels triggering the requirement for feasible and practical noise mitigation measures to be incorporated. An analysis of 
+noise source contributions has been undertaken at receivers where exceedance is predicted, and appropriate noise 
+mitigation measures recommended below to reduce noise levels from the facility to meet the relevant project criteria. 
+Note alternative noise mitigation measures may also be considered subject to further acoustic review at detailed design 
+stage such that same noise reductions are achieved. 
+DAHU Gallery 
+▪ Sound attenuators for the DAHU Gallery before the façade louvres achieving a minimum static insertion loss as 
+outlined in Table 4-9 below.  
+Table 4-9 Minimum recommended DAHU Gallery attenuator static insertion loss 
+Item Minimum static insertion loss, dB at Octave frequency band 
+ 63 Hz 125 Hz 250 Hz 500 Hz 1000 Hz 2000 Hz 4000 Hz 8000 Hz 
+DAHU Gallery ATT 4 9 20 25 25 22 10 7 
+ 
+Generator testing 
+▪ Generators achieve the maximum sound power levels as outlined in Section 4.2.4 with adequate sound attenuation 
+measures incorporated within the containerised system including intake, discharge and exhaust system. 
+▪ Total generators being tested with and without load limited to the proposed testing routine as outlined in Section 2.3. 
+That is: 
+– One generator and one load bank operating at 100% as part of testing routine 
+– Up to six (6) backup power generators running with no load bank for DC01 and up to three (3) for DC02. 
+Rooftop plant 
+▪ Final equipment selections and design to achieve the maximum sound power levels as outlined in Section 4.2.4. 
+[[page 34]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 30 
+▪ Solid rooftop parapet/screen with a minimum height equivalent to at least 100 mm above the highest point of REFA 
+Fans (about 2.9 m) as shown in Figure 4-2. Solid parapet/screen to be constructed from a material with minimum 
+surface density of 5 kg/m2 with no gaps on face or bottom. 
+ 
+ 
+Figure 4-2 Extent of recommended rooftop plant solid parapet/acoustic screen 
+4.5 Mitigated noise levels 
+Table 4-8 presents the predicted noise levels following implementation of recommended noise mitigation measures 
+outlined above. The corresponding predicted mitigated noise contour is also presented in Appendix D. Results of 
+predicted mitigated noise levels indicate that compliance with relevant project noise trigger levels are achieved with no 
+residual noise impacts expected following implementation of recommended noise mitigation measures outlined in 
+Section 4.4. 
+Table 4-10 Predicted mitigated noise levels 
+Receiver 
+Day/evening operations Night time operations 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply / 
+exceedance 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply? 
+R1 33 45 Yes 33 42 Yes 
+R2 34 48 Yes 33 41 Yes 
+Legend 
+Recommended DC rooftop  
+solid parapet/acoustic screen 
+[[page 35]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 31 
+Receiver 
+Day/evening operations Night time operations 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply / 
+exceedance 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply? 
+R3 35 48 Yes 34 43 Yes 
+R4 29 48 Yes 29 43 Yes 
+R5 33 48 Yes 33 41 Yes 
+A1 32 53 Yes 32 --- (1) --- (1) 
+A2 39 53 Yes 39 --- (1) --- (1) 
+A3 43 53 Yes 43 --- (1) --- (1) 
+A4 27 53 Yes 27 --- (1) --- (1) 
+A5 33 53 Yes 32 --- (1) --- (1) 
+P1 35 48 Yes 34 --- (1) --- (1) 
+P2 37 48 Yes 37 --- (1) --- (1) 
+P3 26 48 Yes 26 --- (1) --- (1) 
+E1 33 43 Yes 33 --- (1) --- (1) 
+E2 33 43 Yes 33 --- (1) --- (1) 
+E3 31 43 Yes 30 --- (1) --- (1) 
+C1 39 63 Yes 39 63 Yes 
+C2 34 63 Yes 34 63 Yes 
+I1 62 68 Yes 60 68 Yes 
+I2 67 68 Yes 67 68 Yes 
+I3 66 68 Yes 66 68 Yes 
+I4 63 68 Yes 63 68 Yes 
+Notes: 
+1. Active and passive recreational receivers as well as educational receivers are not likely to operate at night. The 
+operational time of identified industrial and commercial premises may still extend through night time hours and 
+hence included. 
+ 
+4.6 Maximum event noise levels  
+Potential for sleep disturbance for residential receivers are also considered following requirements of the NPfI. Table 
+4-11 below presents the predicted maximum event noise levels at the relevant project residential receivers. Results 
+presented in Table 4-11 indicate project sleep disturbance noise targets are comfortably met with consideration of all 
+above recommended mitigation measures. 
+[[page 36]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 32 
+ 
+Table 4-11 Predicted maximum event noise levels 
+Receiver 
+Sleep disturbance, Leq,15 min Sleep disturbance, Lmax 
+Predicted, 
+Leq,15min dBA 
+Criteria Comply / 
+exceedance 
+Predicted, 
+Lmax dBA 
+Criteria Comply? 
+R1 37 42 Yes 40 52 Yes 
+R2 39 41 Yes 42 52 Yes 
+R3 41 44 Yes 44 54 Yes 
+R4 36 44 Yes 39 54 Yes 
+R5 36 41 Yes 39 52 Yes 
+ 
+4.7 Road traffic noise 
+Noise from increased traffic generated by the development on public roads is assessed in accordance with provisions of 
+the NSW Road Noise Policy (RNP). For existing residences and other sensitive land uses affected by additional traffic on 
+existing roads generated by land use developments, any increase in the total traffic noise level should be limited to 2 dB 
+above that of the corresponding ‘no build option’. 
+No residences or noise sensitive receivers are within close proximity to the development and are expected to be affected 
+by the traffic associated with the development. Additionally, likely increase in number of traffic from development 
+compared to the existing road traffic volumes surrounding the facility is expected to be minimal. Accordingly, no impact is 
+expected from additional traffic generated by the development on public roads as stipulated by RNP. 
+4.8 Operational vibration 
+No items of plant or activities associated with the operation of the facility is expected to generate notable vibration levels 
+for which any impacts would be expected. Mechanical plant and equipment are expected to be appropriately vibration 
+isolated from the structure as part of standard mechanical design of the project and building design. Backup generators 
+and relevant components will also be vibration isolated from the structure as part of the containerised enclosure and 
+plant design. The vehicle movements on site are expected to generate no additional vibration levels compared to that 
+already generated by Davis Road traffic. Accordingly, no operational vibration impacts are expected for the project.  
+ 
+ 
+ 
+  
+[[page 37]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 33 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.0 
+Construction noise and vibration 
+ 
+[[page 38]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 34 
+5.0 Construction noise and vibration 
+Project construction noise and vibration impacts will be managed via implementation of a construction management plan 
+for the works at later stage.  
+5.1 Construction overview 
+Construction of the project is expected to be carried out in stages with each DC building to be constructed and 
+commissioned separately. For each individual DC building, a staged construction of data halls are also expected as per 
+the project phasing plans. Project construction can generally be categorised into the following main stages as per Table 
+5-1. 
+Table 5-1 Project Construction Overview 
+Construction stage Overview of activities 
+Demolition and site establishment Demolition of existing structures, site clearance and establishment using excavators, 
+graders, bulldozers, trucks and the like.   
+Earth works and foundations Earthworks including excavation and site grading as well as pilling and foundation works. 
+Civil and roadworks  Construction of roads and pavements 
+Building constructions Construction of buildings and structures 
+Plant mobilisation and installations Mobilisation of plant into site, installation and connections. 
+ 
+5.2 Construction noise  
+Construction noise in NSW is regulated by the Department of Environment and Climate Change (DECC) under the 
+provisions of the Protection of the Environment Operations Act 1997 (POEO Act). The DECC Interim Construction Noise 
+Guidelines (ICNG) provides framework and guidance to minimise construction noise impacts with consideration to 
+reasonable and feasible work practices. 
+5.2.1 Construction hours  
+Project construction works are generally expected to be  undertaken during the ICNG recommended standard 
+construction hours as outlined in Table 5-2 below. There maybe situations where construction works may need to be 
+undertaken outside the recommended standard hours. ICNG outlines five categories where works outside standard hours 
+may be considered subject to appropriate justification and approvals from relevant authority: 
+▪ the delivery of oversized plant or structures that police or other authorities determine require special 
+arrangements to transport along public roads  
+▪ emergency work to avoid the loss of life or damage to property, or to prevent environmental harm  
+▪ maintenance and repair of public infrastructure where disruption to essential services and/or considerations of 
+worker safety do not allow work within standard hours  
+▪ public infrastructure works that shorten the length of the project and are supported by the affected community  
+▪ works where a proponent demonstrates and justifies a need to operate outside the recommended standard 
+hours. 
+ 
+ 
+[[page 39]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 35 
+Table 5-2 Recommended standard hours for construction work 
+Work type Recommended standard construction hours of work 
+Normal construction ▪ Monday to Friday 7 am to 6 pm  
+▪ Saturday 8 am to 1 pm  
+▪ No work on Sundays or public holidays 
+ 
+5.2.2 Construction noise criteria 
+The NSW Interim Construction Noise Guideline (ICNG) recommends the following construction noise management 
+levels for residential and other noise sensitive land as reproduced in Table 5-3 and Table 5-4. 
+Table 5-3 Noise management level for residential 
+Time of day Management 
+level LAeq (15min) 
+How to apply 
+Recommended standard 
+hours: 
+Monday to Friday 7 am to 
+6 pm 
+Saturday 8 am to 1 pm 
+No work on Sundays or 
+public holidays 
+Noise affected 
+RBL + 10 dB 
+The noise affected level represents the point above which there may be 
+some community reaction to noise. 
+Where the predicted or measured LAeq (15 min) is greater than the noise 
+affected level, the proponent should apply all feasible and reasonable work 
+practices to meet the noise affected level. 
+The proponent should also inform all potentially impacted residents of the 
+nature of works to be carried out, the expected noise levels and duration, as 
+well as contact details. 
+Highly noise 
+affected 
+75 dB(A) 
+The highly noise affected level represents the point above which there may 
+be strong community reaction to noise. 
+Where noise is above this level, the relevant authority (consent, determining 
+or regulatory) may require respite periods by restricting the hours that the 
+very noisy activities can occur, taking into account: 
+1. times identified by the community when they are less sensitive to 
+noise (such as before and after school for works near schools, or 
+mid-morning or mid-afternoon for works near residences 
+2. if the community is prepared to accept a longer period of 
+construction in exchange for restrictions on construction times. 
+Outside recommended 
+standard hours 
+Noise affected 
+RBL + 5 dB 
+A strong justification would typically be required for works outside the 
+recommended standard hours. 
+The proponent should apply all feasible and reasonable work practices to 
+meet the noise affected level. 
+Where all feasible and reasonable practices have been applied and noise is 
+more than 5 dB(A) above the noise affected level, the proponent should 
+negotiate with the community. 
+For guidance on negotiating agreements see section 7.2.2. 
+* Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5 m above ground level. If the property 
+boundary is more than 30 m from the residence, the location for measuring or predicting noise levels is at the most noise-affected point within 30 m of 
+the residence. Noise levels may be higher at upper floors of the noise affected residence. 
+  
+[[page 40]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 36 
+Table 5-4 Noise management level at other noise sensitive land uses 
+Land use Management level, LAeq (15 min) 
+(applies when properties are being used) 
+Classrooms at schools and other educational institutions Internal noise level 45 dB(A) 
+Hospital wards and operating theatres Internal noise level 45 dB(A) 
+Places of worship Internal noise level 45 dB(A) 
+Active recreation areas (characterised by sporting activities and 
+activities which generate their own noise or focus for participants, 
+making them less sensitive to external noise intrusion) 
+External noise level 65 dB(A) 
+Passive recreation areas (characterised by contemplative activities that 
+generate little noise and where benefits are compromised by external 
+noise intrusion, for example, reading, meditation) 
+External noise level 60 dB(A) 
+Community centres Depends on the intended use of the centre. 
+Refer to the recommended ‘maximum’ internal levels in 
+AS2107 for specific uses. 
+Commercial premises 70 dBA 
+Industrial premises 75 dBA 
+5.2.3 Project construction noise management levels 
+Based on the provision of the ICNG and background noise monitoring undertaken at relevant noise sensitive receivers 
+(refer to Section 3.0), the following project-specific construction noise management levels as presented in Table 5-5 are 
+established and applicable to the project construction works.  
+Table 5-5 Project specific construction noise management levels (works within standard construction hours) 
+Receiver Type Receiver ID Project-specific Noise Management Level LAeq, 15min 
+Noise affected Highly affected 
+Residential R1 51 75 
+R2 54 75 
+R3 62 75 
+R4 62 75 
+R5 54 75 
+Active recreation A1 – A5 65 
+Passive recreation P1 – P3 60 
+Educational E1 – E3 55 
+Commercial C1-C2 70 
+[[page 41]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 37 
+Receiver Type Receiver ID Project-specific Noise Management Level LAeq, 15min 
+Noise affected Highly affected 
+Industrial I1 – I4 75 
+5.2.4 Construction noise sources 
+Project developed computational noise model as described in Section 4.2.1 has been utilised to predict and assess the 
+likely project construction noise levels at relevant noise sensitive receivers. Based on the expected general project 
+construction stages outlined in Section 5.1, the following construction noise modelling scenarios and sources are 
+established and incorporated into the model for the various stages works. 
+Table 5-6 Construction noise sources 
+Stage/activity group Main equipment/ 
+noise source 
+No. (1) Percentage in 
+15 minute 
+Equipment sound 
+power level, dBA 
+Total sound power 
+level, dBA 
+Demolition and site 
+establishment 
+Excavator 35T 1 100% 113 
+118 dBA 
+Front end loader 1 100% 112 
+Backhoe 1 100% 108 
+Truck 2 100% 110 
+Light vehicles (4WD) 2 50% 103 
+Generator 1 100% 93 
+Light Tower 1 100% 93 
+Water cart 1 100% 107 
+Earth works and 
+foundations 
+Excavator 35T 1 100% 113 
+122 dBA 
+Front end loader 1 100% 112 
+Dozer 1 100% 116 
+Grader 1 100% 113 
+Concrete pump 1 100% 109 
+Concrete truck 1 100% 109 
+Piling (non – impact) 1 100% 112 
+Truck 2 100% 110 
+Water cart 1 100% 107 
+Civil and roadworks 
+Excavator 35T 1 100% 113 
+124 dBA 
+Vibratory / pad roller 1 100% 109 
+Grader 1 100% 113 
+Compactor 1 100% 115 
+Hydraulic hammer 1 50% 122 
+Pavement laying 
+machine 1 100% 114 
+Concrete Saw 1 50% 118 
+Truck 2 100% 110 
+[[page 42]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 38 
+Stage/activity group Main equipment/ 
+noise source 
+No. (1) Percentage in 
+15 minute 
+Equipment sound 
+power level, dBA 
+Total sound power 
+level, dBA 
+Water cart 1 100% 107 
+Building constructions Concrete pump 1 100% 109 
+119 dBA 
+Concrete truck 1 100% 109 
+Welding  1 100% 105 
+Generator 1 100% 93 
+Hand tools (rattle 
+gun, grinder, etc) 1 100% 116 
+Franna 1 100% 105 
+Mobile crane (300T) 1 100% 110 
+Plant mobilisation and 
+installations 
+Hand tools (rattle 
+gun, grinder, etc) 1 100% 116 119 dBA 
+Franna 1 100% 105 
+Mobile crane (300T) 1 100% 110 
+Scissor lift 1 100% 98 
+Trucks 2 100% 110 
+ 
+5.2.5 Predicted noise levels 
+Predicted construction noise levels at each of the relevant noise sensitive receiver groups are presented in Table 5-7 
+below.  Predicted construction noise levels indicate that project construction noise management levels are expected to 
+be met at all sensitive receivers including the residential premises except at adjoining industrial premises due to 
+proximity to site. Accordingly, consideration of reasonable and practical measures are necessary to minimise 
+construction noise.  
+Table 5-7 Predicted construction noise levels 
+Receiver Predicted, Leq,15min dBA Criteria Comply / exceedance 
+R1 
+47  
+Noise affected, 51 dBA 
+Highly affected, 75 dBA 
+Yes 
+R2 
+43 
+Noise affected, 54 dBA 
+Highly affected, 75 dBA 
+Yes 
+R3 
+47 
+Noise affected, 62 dBA 
+Highly affected, 75 dBA 
+Yes 
+R4 
+41 
+Noise affected, 62 dBA 
+Highly affected, 75 dBA 
+Yes 
+R5 
+42 
+Noise affected, 54 dBA 
+Highly affected, 75 dBA 
+Yes 
+A1 44 65 dBA Yes 
+A2 52 65 dBA Yes 
+A3 59 65 dBA Yes 
+[[page 43]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 39 
+Receiver Predicted, Leq,15min dBA Criteria Comply / exceedance 
+A4 38 65 dBA Yes 
+A5 43 65 dBA Yes 
+P1 48 60 dBA Yes 
+P2 49 60 dBA Yes 
+P3 35 60 dBA Yes 
+E1 43 55 dBA Yes 
+E2 41 55 dBA Yes 
+E3 41 55 dBA Yes 
+C1 51 70 dBA Yes 
+C2 46 70 dBA Yes 
+I1 82 75 dBA No (7 dB) 
+I2 90 75 dBA No (15 dB) 
+I3 100 75 dBA No (25 dB) 
+I4 92 75 dBA No (17 dB) 
+ 
+5.2.6 Construction noise management 
+5.2.6.1 Feasible and reasonable  
+Application of the feasible and reasonable measures and work practices should be considered at all times by the project. 
+A work practice or management measure is considered feasible where it can be engineered and is practical to build 
+given the project constraints such as safety, maintenance and reliability requirements.  
+Implementation of reasonable measures from those feasible involve judging whether the overall noise benefits outweigh 
+the overall adverse social, economic and environmental effects, including the cost of the mitigation measure. The 
+following are key factors taking into account when assessing reasonableness of a measure/work practice:  
+▪ Noise impacts such as existing acoustic environment, projected changes, number of people affected or duration of 
+exposure 
+▪ Noise mitigation benefits such as reductions expected and number of people benefited. 
+▪ Cost effectiveness of measure such as total cost, comparison with total project costs, disruption to essential 
+infrastructure, risk to community or worker safety 
+▪ Community views such as engagement with affected receivers, engagement with wider community, consideration of 
+measures that have majority support from community.  
+5.2.6.2 Specific noise mitigation measures 
+The following specific noise management measures are recommended: 
+▪ Incorporation of construction noise barriers around the site boundary with a minimum height of 3 m to block direct 
+line of sight between noisy construction sources and activities and adjoining industrial premises.  
+▪ Construction noise barrier should achieve a minimum surface density of 10 kg/m2 where practical and have no gaps 
+on the face or bottom.  
+ 
+[[page 44]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 40 
+ 
+Figure 5-1 Indicative extent of recommended construction noise acoustic screen 
+5.2.6.3 General noise mitigation measures 
+The following general mitigation measures are provided to assist with management of construction noise and vibration 
+during project construction. 
+ 
+General noise mitigation measures 
+General work practices – all times 
+Where feasible and reasonable, construction should be carried out during the approved standard daytime working hours. Work 
+generating high noise and/or vibration levels should be scheduled during less sensitive time periods. 
+Avoiding the coincidence of noisy plant working simultaneously close together and adjacent to sensitive receivers (both noise and 
+vibration generating activity). 
+Consider all reasonable and feasible measures to mitigate noise effects; 
+Take reasonable steps to control noise from all plant and equipment.  Examples of appropriate noise control include efficient 
+silencers and low noise mufflers; 
+Minimise operation of plant and vehicles idling when not in use; 
+Orienting equipment away from noise sensitive areas; and 
+Carrying out loading and unloading away from noise sensitive areas where practical and safe to do so. 
+Legend 
+Construction noise acoustic screen/barrier  
+[[page 45]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 41 
+General noise mitigation measures 
+All plant and equipment should be maintained in a proper and efficient manner to minimise noise emissions, including the 
+replacement of engine covers, repair of defective silencing equipment, tightening of rattling components and the repair of leakages 
+in air lines;   
+Ensure site managers periodically check the site and nearby residences and other sensitive land uses for noise problems so that 
+solutions can be quickly applied. 
+Project documentation such as work method statements should include clauses that require minimisation of noise and compliance 
+with directions from management to minimise noise. 
+Avoid the use of radios or stereos outdoors where neighbours can be affected. 
+Avoid the overuse of public address systems.  
+Avoid shouting, and minimise talking loudly and slamming vehicle doors. 
+Develop a one-page summary of approval or consent conditions that relate to relevant work practices, and pin it to a noticeboard so 
+that all site operators can quickly reference noise information. 
+Workers may at times need to discuss or negotiate practices with their managers. 
+Examine and implement, where feasible and reasonable, alternatives methods to noisy activities. Examples may include rock-
+breaking work methods, such as hydraulic splitters for rock and concrete, hydraulic jaw crushers, chemical rock and concrete 
+splitting, and controlled blasting such as penetrating cone fracture. The suitability of alternative methods should be considered on a 
+case-by-case basis. 
+Use alternatives to diesel and petrol engines and pneumatic units, such as hydraulic or electric controlled units where feasible and 
+reasonable. Where there is no electricity supply, use an electrical generator located away from residences. 
+Examine and implement, where feasible and reasonable, alternatives to transporting material from site at night. For example, 
+stockpile material in an acoustically treated shed/enclosure at night and load out the following day. 
+Examine different types of machines that perform the same function and compare the noise level data to select the least noisy 
+machine. For example, rubber wheeled tractors can be less noisy than steel tracked tractors. 
+Use acoustically attenuated equipment where feasible and practical. For example, pneumatic equipment is traditionally a problem – 
+select supersilenced compressors, silenced jackhammers and damped bits where possible. 
+When renting, select quieter items of plant and equipment where feasible and reasonable. 
+When purchasing, select, where feasible and reasonable, the most effective mufflers, enclosures and low-noise tool bits and 
+blades. Always seek the manufacturer’s advice before making modifications to plant to reduce noise. 
+Reduce throttle setting and turn off equipment when not being used.  
+Examine and implement, where feasible and reasonable, the option of reducing noise from metal chutes and bins by placing 
+damping material in the bin. 
+Regularly inspect and maintain equipment to ensure it is in good working order.  
+Regularly inspect the condition of mufflers and sound attenuating equipment and measures. For example, for machines with 
+enclosures, check that doors and door seals are in good working order and that the doors close properly against the seals. 
+Equipment must not be operated until it is maintained or repaired, where maintenance or repair would address the annoying 
+character of noise identified.  
+Return any hired equipment that is causing noise that is not typical for the equipment – the increased noise may indicate the need 
+for repair.  
+Ensure air lines on pneumatic equipment do not leak. 
+Place as much distance as possible between the plant or equipment and residences and other sensitive land uses.  
+Restrict areas in which mobile plant can operate so that it is away from residences and other sensitive land uses at particular times.  
+[[page 46]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 42 
+General noise mitigation measures 
+Carry out noisy fabrication work at another site (for example, within enclosed factory premises) and then transport to site. 
+Avoid use of reversing alarms by designing site layout to avoid reversing, such as by including drive through for parking and 
+deliveries.  
+Install where feasible and reasonable less annoying alternatives to the typical ‘beeper’ alarms taking into account the requirements 
+of the Occupational Health and Safety legislation; examples are smart alarms that adjust their volume depending on the ambient 
+level of noise and multifrequency alarms that emit noise over a wide range of frequencies.  
+Reuse existing structures rather than demolish and reconstruct. Use full enclosures, such as large sheds, with good seals fitted to 
+doors to control noise from nighttime work.  
+Use temporary site buildings and materials stockpiles as noise barriers where practical to do so.  
+Where relevant, schedule construction of permanent walls and structures so that they can be used as early as possible as noise 
+barriers.  
+Use natural landform as a noise barrier where possible – place fixed equipment in cuttings, or behind earth berms.  
+Avoid placing noise-producing equipment in locations where reflected noise will increase noise exposure or reduce the 
+effectiveness of mitigation measures. 
+Provision of localised treatment such as temporary barriers, shrouds and the like around fixed plant such as pumps, generators and 
+groundwater extraction plant during use and by “stepping down” the plant settings out of demolition hours or turned off completely 
+where able.  
+Where practicable, provision of additional respite from noise producing activities during extended hours operations; 
+Where practical and safe to do so, avoid carrying out high impact activities (refer to risk assessment) for extended hours. A 
+minimum respite period of one hour between each three hours is recommended. 
+Minimise consecutive works in the same locality (if applicable); 
+Regularly train workers and contractors (such as at toolbox talks) to use equipment in ways to minimise noise. 
+Construction traffic 
+Where practicable, site should be arranged to provide one-way traffic movement minimise reversing of vehicles onsite; 
+Utilising main road networks to access site and where practicable, heavy vehicles should enter site roads furthest from residential 
+receivers. 
+Provide instructions for heavy vehicles operators regarding minimising noise when entering and leaving the demolition sites;  
+Where practicable, heavy vehicles should be switched off while or during loading of debris queuing. 
+Locate site vehicle entrances away from residences and other sensitive land uses.  
+Nominate an off-site truck parking area, away from residences, for trucks arriving prior to gates opening.  
+Amalgamated loads can lead to less noise and congestion in nearby streets.  
+Optimise the number of vehicle trips to and from the site – movements can be organised to amalgamate loads rather than using a 
+number of vehicles with smaller loads.  
+Designate access routes to the site, through consultation with potentially noise-affected residences and other sensitive land uses, 
+and make drivers aware of nominated vehicle routes.  
+Provide on-site parking for staff and on-site truck waiting areas away from residences and other sensitive land uses.  
+Truck waiting areas may require bunding or walls to minimise noise. Schedule deliveries to nominated hours only where practical 
+and safe to do so. 
+Care should be taken to minimise noise from any refuelling at night. 
+Organise works as far as reasonably practical and safe to do so during the recommended standard hours. 
+[[page 47]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 43 
+General noise mitigation measures 
+Reduce the line-of-sight noise transmission to residences or other sensitive land uses using temporary noise barriers. 
+Keep truck drivers informed of designated vehicle routes, parking locations, acceptable delivery hours or other relevant practices 
+(for example, minimising the use of engine brakes, and no extended periods of engine idling). 
+Consultation and notification 
+Implementing an effective community consultation and complaints management. 
+Provide, reasonably ahead of time, information such as total construction time, what works are expected to be noisy, their duration, 
+what is being done to minimise noise and when respite periods will occur.  
+For works outside standard hours, inform affected residents and other sensitive land use occupants between five and 14 days 
+before commencement. 
+Provide information to neighbours before and during construction through media such as letterbox drops, meetings or individual 
+contact. In some areas, the proponent will need to provide notification in languages other than English. A website could also be 
+established for the project to provide information. 
+Use a site information board at the front of the site with the name of the organisation responsible for the site and their contact 
+details, hours of operation and regular information updates. This signage should be clearly visible from the outside and include after 
+hours emergency contact details. 
+Maintain good communication between the community and project staff. Appoint a community liaison officer where required.  
+For larger projects consider a regular newsletter with site news, significant project events and timing of different activities.  
+Provide a toll-free contact phone number for enquiries during the works.  
+Facilitate contact with people to ensure that everyone can see that the site manager understands potential issues, that a planned 
+approach is in place and that there is an ongoing commitment to minimise noise. 
+Consult with affected neighbours about scheduling activities to minimise noise impacts. 
+Consult with most affected neighbours about how effective the proposed noise mitigation measures will be in addressing their 
+concerns 
+Complaints Handling 
+Provide a readily accessible contact point, for example, through a 24 hour toll-free information and complaints line.  
+Have a documented complaints process, including an escalation procedure so that if a complainant is not satisfied there is a clear 
+path to follow.  
+Call back as soon as possible to keep people informed of action to be taken to address noise problems. Call back at night-time only 
+if requested by the complainant to avoid further disturbance.  
+Provide a quick response to complaints, with complaint handling staff having both a good knowledge of the project and ready 
+access to information.  
+Implement all feasible and reasonable measures to address the source of complaint.  
+Keep a register of any complaints, including details of the complaint such as date, time, person receiving complaint, complainant’s 
+contact number, person referred to, description of the complaint, work area (for larger projects), time of verbal response and 
+timeframe for written response where appropriate. 
+Additional general work practices at night 
+Use of PA systems should be avoided during night time where practical and safe to do so if announcement are likely audible at the 
+residential receivers. 
+Avoid the use of equipment which generates impulsive noise. 
+Minimise the need for reversing or movement alarms as described in recommendations above for Construction Traffic.  
+[[page 48]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 44 
+General noise mitigation measures 
+Avoid dropping materials from a height.  
+Avoid metal-to-metal contact on equipment and where practical cover metal surfaces where there is potential for equipment to drop 
+such as chutes, bins or conveyors with damping material such as rubber. 
+Schedule truck movements to avoid residential streets if possible.  
+Avoid mobile plant clustering near residences and other sensitive land uses.  
+Ensure periods of respite are provided in the case of unavoidable maximum noise level events. 
+Where night work near residences cannot be feasibly or reasonably avoided, restrict the number of nights per week and/or the 
+number of nights per calendar month that the works are undertaken, in consultation with residents who will be most affected. 
+ 
+5.2.6.4 Community engagement 
+Initiating early interaction and dialogue with the community plays a pivotal role in reducing noise-related disruptions. This 
+early engagement also allows the community to make informed plans to mitigate or avoid noise from works, such as 
+scheduling time away from their homes. 
+Enhanced community understanding and acceptance of the noise produced by project activities can be achieved by 
+offering information in a transparent and open manner. Additionally, engagement of community in development of 
+appropriate management measures and demonstrating how their perspectives and feedback have been taken into 
+account can foster greater understanding and acceptance.  
+5.2.6.5 Consultations and notifications 
+Community consultation should be carried out with consideration to the following: 
+▪ Advising the community of work to be undertaken. 
+▪ Engagement for feedback for developed management measures 
+▪ Recording and managing any complaints. 
+Consultations and appropriate notification should be provided to affected residences and community as a whole with 
+consideration to recommendations made in Section 5.2.6.2. 
+5.2.6.6 Complaints handling 
+A project information line is recommended to be established and made available at all times. The appropriate contact 
+details should also be communicated with potential affected residences and on public notifications.   
+The following protocol is intended to provide framework relating to complaint as a result of the proposed work, and 
+application of appropriate corrective action is identified and implemented as necessary: 
+▪ All complaints (verbal, telephone or in writing) are to be recorded and forwarded to the Project Manager, together 
+with details of the circumstance leading to the complaint, work activity at relating to the complaint and all subsequent 
+actions taken. 
+▪ The Project Manager shall investigate the complaint in order to determine whether work practices have been carried 
+out with reasonable and feasible to minimise noise.  
+▪ Where excessive noise has been caused and identified as related to the work corrective action will be planned and 
+implemented by the demolition contractor 
+▪ Project Manager shall inform the complainants regarding their complaints including: 
+– Outcome of the investigation; and 
+– Corrective action taken (if applicable).  
+[[page 49]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 45 
+▪ Follow up monitoring or other investigations will be carried out by the Project Manager and the demolition contractor 
+to confirm the effectiveness of the corrective action. 
+▪ Staff who receive telephone complaints should be kept informed at all times regarding current and upcoming works 
+and the relevant contacts for these works. 
+▪ Handle complaints in a prompt and responsive manner. 
+▪ All stakeholders must be provided with a complaint response form, with the following details: 
+▪ Name and mobile phone number of a nominated contact for the Contractor, available during all demolition 
+operations; 
+▪ Details of the relevant Council Authority for noise complaint; 
+▪ Facility to record time, source, and duration of disturbance; 
+▪ A postal address for issuing written complaint. 
+ 
+The following steps and procedure are also recommended where a compliant is received: 
+▪ Step 1:  Noise sources should be identified, such as movement of material using a bobcat, cutting of wood using 
+electric saws, short-term foundation works using a rock breaker, loader and truck, and deliveries of building materials 
+with utilities and trucks. 
+▪ Step 2: Answer the following questions regarding each noise source:  
+– Is the noise from the source loud either in an absolute sense or relative to other noise sources in the area?  
+– Does the noise include any tones or impulses?  
+– Does the noise occur at times when interference with sleep or comfort is likely – for example, at night?  
+▪ Step 3: Implement feasible and reasonable work practices to minimise or avoid noise. 
+ 
+ 
+ 
+5.3 Construction vibration 
+5.3.1 Structural damage vibration criteria 
+Most commonly specified “safe” structural vibration limits are designed to minimise the risk of threshold or cosmetic 
+surface cracks and are set well below the levels that have potential to cause damage to the main structure. Example of 
+these vibration level limits are nominated within the BBS7385: Part 2. 
+The vibration criteria specified within the DIN 4150: Part 3 have been recommended for structures surrounding the 
+project site. The criteria specified within DIN 4150 are designed for controls of continuous long-term vibration or repetitive 
+vibration with the potential to cause fatigue effects to structure.   
+The following Peak Particle Velocity (PPV) values are specified within DIN 4150 as safe limits, below which even 
+superficial cosmetic damage is not to be expected: 
+▪ 10 mm/s for commercial buildings and buildings of similar design. 
+▪ 5 mm/s for dwellings and buildings or similar design. 
+▪ 2.5 mm/s for buildings of great intrinsic value (e.g. heritage listed buildings). 
+For short-term vibration events (i.e. those unlikely to cause resonance or fatigue), DIN 4150 offers the criteria shown in 
+Table 5-8.  These are maximum levels measured in any direction at the foundation or in the horizontal axes in the plane 
+of the uppermost floor. 
+Table 5-8 DIN 4150 Structural Damage - Safe Limits for Short-term Building Vibration 
+[[page 50]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 46 
+Group Type of Structure Peak Particle Velocity, (mm/s)1 
+1 Hz to 10 Hz 10 Hz to 50 Hz 50 Hz to 100 Hz2 
+1 Buildings used for commercial purposes, 
+industrial buildings and buildings of similar 
+design 
+20 20 at 10 Hz increasing 
+to 40 at 50 Hz 
+40 at 50 Hz increasing 
+to 50 at 100 Hz 
+2 Dwellings and buildings of similar design 
+and/or use 
+5 5 at 10 Hz increasing 
+to 15 at 50 Hz 
+15 at 50 Hz increasing 
+to 20 at 100 Hz 
+3 Structures that because of their particular 
+sensitivity to vibration, do not correspond to 
+those listed in Lines 1 or 2 and have 
+intrinsic value (e.g. buildings that are under 
+a preservation order 
+3 3 at 10 Hz increasing 
+to 8 at 50 Hz 
+8 at 50 Hz increasing 
+to 10 at 100 Hz 
+Note 1: Unless specified, vibration levels are measured at foundation of the structure 
+Note 2: For frequencies above 100 Hz the upper value in this column should be used 
+ 
+5.3.2 Human comfort vibration criteria 
+For most construction activities that generate perceptible vibration by occupants in nearby buildings (e.g. earth works 
+and excavation works), the character of the vibration emissions is considered to be intermittent in nature.  As a guide, the 
+BS5228-2:2009 provide effects of perceived vibration level in terms of peak particle velocity (PPV, mm/s). 
+Table 5-9 Guidance on effects of vibration levels (BS 5228-2: 2009) 
+Vibration level (mm/s) Effect 
+0.14 Vibration might be just perceptible in the most sensitive situations for most vibration frequencies 
+associated with demolition. At lower frequencies, people are less sensitive to vibration.  
+0.3 Vibration might be just perceptible in residential environments.  
+1.0 It is likely that vibration of this level in residential environment will cause complaint, but can be 
+tolerated if prior warning and explaining has been given to residents.  
+10.0 Vibration is likely to be intolerable for any more than a very brief exposure to this level.  
+Table 5-9 suggests that people will be able to detect vibration at levels of about 0.15 mm/s and that the motion becomes 
+“noticeable” at a level of approximately 1 mm/s. 
+The EPA Assessing Vibration: a technical guideline nominates preferred and maximum vibration goals for critical areas, 
+residences and other sensitive receivers (related to the Project) are shown in Table 5-10 for intermittent vibration and 
+Table 5-11 for continuous vibration. The guideline advises a low probability of adverse comment or disturbance to 
+building occupants would be expected at or below the preferred values.  
+The applicable human comfort vibration goal for intermittent vibration source is defined in terms of Vibration Dose Values 
+(VDVs) where the permissible vibration level corresponding to the VDV varies according to the duration of exposure.   
+Table 5-10 Preferred and Maximum Vibration Dose Values for Intermittent Vibration (EPA, 2006) 
+Building Type  Preferred Vibration Dose Value 
+(m/s1.75) 
+Maximum Vibration Dose Value 
+(m/s1.75) 
+Residential Daytime 0.20 0.40 
+Residential Night-time 0.13 0.26 
+Offices, schools, educational institutions 
+and places of worship 
+0.40 0.80 
+Note: Daytime is 7:00 am to 10:00 pm and Night-time is 10:00 pm to 7:00 am 
+[[page 51]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 47 
+Table 5-11 Preferred and Maximum Vibration Dose Values for Continuous Vibration (EPA, 2006) 
+Building Type  Preferred Vibration Dose Value 
+(m/s1.75) 
+Maximum Vibration Dose Value 
+(m/s1.75) 
+Residential Daytime 0.20 0.40 
+Residential Night-time 0.14 0.28 
+Offices, schools, educational institutions 
+and places of worship 
+0.40 0.80 
+Note: Daytime is 7:00 am to 10:00 pm and Night-time is 10:00 pm to 7:00 am 
+In applying the preferred and maximum VDV the guidelines states that: 
+‘Situations exist where vibration above the preferred values can be acceptable, particularly for temporary 
+disturbances and infrequent events of short term duration. An example is a demolition or excavation Project.’ 
+The guideline also advises that: 
+‘Where all feasible and reasonable measures have been applied to control potential ground vibration levels the 
+maximum values may be used.  For values above the maximum value the proponent should negotiate directly 
+with the affected community.’ 
+When short-term works such as piling, demolition or compaction give rise to impulsive vibrations, it should be noted that 
+undue restriction on vibration levels can significantly prolong the demolition process and may result in greater annoyance 
+overall.  
+  
+[[page 52]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 48 
+As the site is located far from residential or other sensitive receivers, it is anticipated that construction vibration would not 
+induce a significant impact to those receivers. Hence, minimum working distances on vibration generating equipment is 
+proposed according to international standards. Nevertheless, should monitoring be conducted during construction 
+phase, vibration criteria in terms of peak particle velocities and vibration dose values at receivers are recommended. 
+5.3.3 Vibration management 
+The construction contractor will be required to comply with the nominated site control vibration targets outlined in Section 
+5.3.1 and 5.3.2. Disturbance to building occupants can potentially occur at much lower vibration levels than the safe 
+limits relating to cosmetic or structural damage of the building. The risk of exceeding the recommended building damage 
+criteria should be managed by carrying out vibration measurements during piling, excavation, demolition and compaction 
+works where minimum working distances are likely to be exceeded in order to establish satisfactory buffer zones. 
+5.3.3.1 Minimum working distances 
+Guidance is provided in Table 5-12 below for the minimum working distances for typical vibration intensive equipment 
+corresponding “Cosmetic damage” and “Human Comfort” vibration limits. The minimum working distances for cosmetic 
+damage must be complied with at all times, unless otherwise approved by the relevant authority. 
+Table 5-12 Minimum vibration working distances 
+Equipment 
+Load/Weight/Description Minimum distance – 
+Cosmetic damage (BS 
+7385) 
+Minimum distance – Human 
+response (OE&H Vibration 
+Guideline) 
+Vibratory Roller 1 - 2 tonne 5 m 15 m – 20 m  
+ 2 - 4 tonne 6 m 20 m  
+ 4 – 6 tonne 12 m 40 m 
+ 7 - 13 tonne 15 m 100 m 
+ 13 - 18 tonne 20 m 100 m 
+ > 18 tonne 25 m 100 m 
+Excavator with 
+hydraulic hammer 
+300 kg (5 to 12t 
+excavator) 
+2 m 7 m 
+ 900 kg (12 to 18t 
+excavator) 
+7 m 23 m 
+ 1600 kg (18 to 34t 
+excavator) 
+22 m  73 m 
+Pile Driver – Vibratory Sheet piles 2 m to 20 m 20 m 
+Piling Rig – Bored ≤ 800 mm 2 m (nominal) N/A 
+Piling Rig – Hammer 12 t down force 15 m 50 m 
+Jackhammer Hand held 1 m (nominal) Avoid contact with structure 
+ 
+[[page 53]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 49 
+5.3.3.2 Vibration mitigation measures 
+The following outlines a number of general vibration control measures recommended that assist with management of 
+vibration levels: 
+▪ Selection and maintenance of low vibration equipment where practicable;  
+▪ Use only dampened rockbreakers and/or “city” rockbreakers to minimise the impacts associated with rockbreaking 
+works. 
+▪ Trial testing of vibration levels is to be conducted where equipment identified as having the potential to exceed the 
+human comfort criteria or where the vibration intensive plant or equipment is required to operate in close proximity to 
+sensitive structure exceeding the nominated minimum working distances.  
+▪ Trial vibration monitoring to determine appropriate work distances of proposed demolition activities; and 
+▪ Utilise the smallest practicable size of plant equipment when in close proximity to the sensitive structure (e.g., small 
+vibratory roller). 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+[[page 54]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 50 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6.0 
+Conclusion 
+ 
+[[page 55]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 51 
+6.0 Conclusion 
+An operational and construction noise and vibration impact assessment has been undertaken for the proposed 
+development located at 3 Davis Road, Wetherill Park, NSW. The proposed development comprises of two three storey 
+datacentre buildings (DCs), a two storey tape storage building, a high voltage substation (HVSS) and associated 
+infrastructure and amenities.  
+This noise and vibration impact assessment has been prepared in response to the provisions of the industry-specific 
+Secretary’s Environmental Assessment Requirements (SEARs) with consideration to: 
+▪ NSW Protection of the Environment Operations Act 1997 (POEO Act). 
+▪ NSW EPA Noise Policy for Industry 2017 (NPfI) 
+▪ NSW Interim Construction Noise Guideline (ICNG) 
+▪ Transport for NSW Construction Noise and Vibration Strategy 
+▪ NSW Department of Environment and Conservation (DEC) guideline Assessing Vibration: a technical guideline 
+This assessment considered operational noise impacts from the proposed development on surrounding noise sensitive 
+receivers. Noise emissions from the key identified noise sources associated with the development were assessed with 
+appropriate noise control measures recommended to meet the relevant project assessment noise criteria. Noise and 
+vibration impact from the construction of the project were also considered with management measures recommended to 
+assist with control of impacts during project construction. Based on the assessment undertaken in this report, it is 
+concluded that potential noise impacts from the development can be adequately controlled to achieve compliance with 
+relevant noise criteria and requirements subject to incorporation of acoustic recommendations and mitigation measures 
+in this report summarised below: 
+6.1 DC Building DAHU Gallery 
+▪ Sound attenuators for the DAHU Gallery before the façade louvres achieving a minimum static insertion loss as per 
+specification outlined in in Section 4.4. 
+6.2 Backup generators 
+▪ Generators achieve the maximum sound power levels as outlined in Section 4.2.4 with adequate sound attenuation 
+measures incorporated within the containerised system including intake, discharge and exhaust system. 
+▪ Total generators being tested with and without load limited to the proposed testing routine as outlined in Section 2.3.  
+6.3 DC Building Rooftop plant and parapet/screen 
+▪ Final equipment selections and design to achieve the maximum sound power levels as outlined in Section 4.2.4 of 
+the report. 
+▪ Solid rooftop parapet/screen with a minimum height equivalent to at least 100 mm above the highest point of REFA 
+Fans (about 2.9 m) as per recommendations and specifications made in Section 4.4. 
+ 
+6.4 Construction noise 
+▪ Incorporation of construction noise barriers around the site boundary with a minimum height of 3 m to block direct 
+line of sight between noisy construction sources and activities and adjoining industrial premises.  
+▪ Construction noise barrier should achieve a minimum surface density of 10 kg/m2 where practical and have no gaps 
+on the face or bottom.  
+[[page 56]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 52 
+▪ Incorporation of construction noise and vibration management measures as outlined in Section 5.2.6 and 5.3.3 
+where feasible, reasonable and safe to do so to assist with minimising noise emissions as far as reasonably 
+practical. 
+ 
+ 
+ 
+[[page 57]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 53 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendices 
+ 
+[[page 58]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 54 
+Appendix A - Acoustic terminology 
+ASSESSMENT BACKGROUND LEVEL (ABL)  
+A single-number figure used to characterise the background noise levels from a single day of a noise survey. ABL is 
+derived from the measured noise levels for the day, evening or night-time period of a single day of background 
+measurements. The ABL is calculated to be the tenth percentile of the background LA90 noise levels – i.e., the 
+measured background noise is above the ABL 90% of the time.  
+‘A’-WEIGHTED SOUND LEVEL dBA  
+The unit generally used for measuring environmental, traffic or industrial noise is the A-weighted sound pressure level in 
+decibels, denoted dBA. An A-weighting network can be built into a sound level measuring instrument such that sound 
+levels in dBA can be read directly from a meter. The weighting is based on the frequency response of the human ear 
+and has been found to correlate well with human subjective reactions to various sounds. An increase or decrease of 
+approximately 10 dB corresponds to a subjective doubling or halving of the loudness of a noise. A change of 2 to 3 dB is 
+subjectively barely perceptible.  
+DECIBEL  
+The ratio of sound pressures which we can hear is a ratio of one million to one. For convenience, therefore, a logarithmic 
+measurement scale is used. The resulting parameter is called the ‘sound level’ (L) and the associated measurement unit 
+is the decibel (dB). As the decibel is a logarithmic ratio, the laws of logarithmic addition and subtraction apply. 
+EQUIVALENT CONTINUOUS SOUND LEVEL (LAeq)  
+Another index for assessment for overall noise exposure is the equivalent continuous sound level, Leq. This is a notional 
+steady level, which would, over a given period of time, deliver the same sound energy as the actual time-varying sound 
+over the same period. Hence fluctuating levels can be described in terms of a single figure level.  
+FREQUENCY  
+The rate of repetition of a sound wave. The subjective equivalent in music is pitch. The unit of frequency is the Hertz 
+(Hz), which is identical to cycles per second. A thousand hertz is often denoted kilohertz (kHz), e.g., 2 kHz = 2000 Hz. 
+Human hearing ranges from approximately 20 Hz to 20 kHz. The most commonly used frequency bands are octave 
+bands, in which the mid frequency of each band is twice that of the band below it. For design purposes, the octave 
+bands between 63 Hz to 8 kHz are generally used.  
+For more detailed analysis, each octave band may be split into three one-third octave bands or, in some cases, narrower 
+frequency bands.  
+RATING BACKGROUND LEVEL (RBL)  
+A single-number figure used to characterise the background noise levels from a complete noise survey.  
+The RBL for a day, evening or night-time period for the overall survey is calculated from the individual Assessment 
+Background Levels (ABL) for each day of the measurement period, and is numerically equal to the median (middle 
+value) of the ABL values for the days in the noise survey.  
+SOUND POWER AND SOUND PRESSURE  
+The sound power level (Lw) of a source is a measure of the total acoustic power radiated by a source. 
+The sound pressure level (Lp) varies as a function of distance from a source. However, the sound power level is an 
+intrinsic characteristic of a source (analogous to its mass), which is not affected by the environment within which the 
+source is located.  
+  
+[[page 59]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 55 
+STATISTICAL NOISE LEVELS  
+For levels of noise that vary widely with time, for example road traffic noise, it is necessary to employ an index that allows 
+for this variation. ‘A’-weighted statistical noise levels are denoted LA10, dB LA90 etc. The reference time period (T) is 
+normally included, e.g., dB LA10, 5min or dB LA90,8hr.  
+LA90 (T)  
+Refers to the sound pressure level measured in dBA, exceeded for 90% of the time interval (T) – i.e., measured noise 
+levels were greater than this value for 90% of the time interval. This is also often referred to the background noise level.  
+LA10 (T)  
+Refers to the sound pressure level measured in dBA, exceeded for 10% of the time interval (T). This is often referred to 
+as the average maximum noise level and is frequently used to describe traffic noise.  
+ 
+[[page 60]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 56 
+Appendix B - Noise monitoring results 
+Noise Monitoring Location 1 (NML1) 
+ 
+ 
+ 
+
+[[page 61]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 57 
+ 
+ 
+ 
+ 
+ 
+
+[[page 62]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 58 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 63]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 59 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 64]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 60 
+ 
+ 
+
+[[page 65]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 61 
+ 
+  
+
+[[page 66]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 62 
+Noise Monitoring Location 2 (NML2) 
+
+[[page 67]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 63 
+
+[[page 68]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 64 
+
+[[page 69]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 65 
+
+[[page 70]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 66 
+
+[[page 71]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 67 
+ 
+ 
+  
+
+[[page 72]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 68 
+Noise Monitoring Location 3 (NML3) 
+
+[[page 73]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 69 
+
+[[page 74]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 70 
+
+[[page 75]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 71 
+
+[[page 76]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 72 
+
+[[page 77]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 73 
+ 
+ 
+ 
+  
+
+[[page 78]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 74 
+Appendix C - Unmitigated noise contour 
+ 
+  
+[[page 79]]
+Noise levels, dBA
+15 - 20
+20 - 25
+25 - 30
+30 - 35
+35 - 40
+40 - 45
+45 - 50
+50 - 55
+55 - 60
+60 - 65
+65 - 70
+70 - 75
+75 - 80
+80 - 85
+85 - 90
+90 - 95
+95 - 100
+Site
+Line source
+Industrial building sources
+DC (DAHU Louvres)
+Generator
+Transformer
+Area source
+Point source
+
+[[page 80]]
+Project Blue Tongue - Noise and Vibration Impact Assessment  
+Document Ref.  1037966-RPT-AS-001 76 
+Appendix D - Mitigated noise contour 
+ 
+ 
+ 
+  
+[[page 81]]
+Noise levels, dBA
+15 - 20
+20 - 25
+25 - 30
+30 - 35
+35 - 40
+40 - 45
+45 - 50
+50 - 55
+55 - 60
+60 - 65
+65 - 70
+70 - 75
+75 - 80
+80 - 85
+85 - 90
+90 - 95
+95 - 100
+Site
+Line source
+Industrial building sources
+DC (DAHU Louvres)
+Generator
+Transformer
+Area source
+Point source
+
+[[page 82]]
+ 
+Cundall Johnston & Partners PTY Ltd 
+Wurundjeri Woi Wurrung Country                                    
+Level 14  500 Collins Street                                                                     
+Melbourne  VIC 3000  Australia                                
+Tel:+61 (0)3 9635 3700 
+ 
+Asia  Australia  Europe  MENA  UK and Ireland 
+www.cundall.com  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

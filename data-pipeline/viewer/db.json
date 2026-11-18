@@ -7746,7 +7746,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -7755,7 +7755,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -7764,7 +7764,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7773,7 +7773,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7782,7 +7782,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -7791,7 +7791,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7800,7 +7800,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7809,7 +7809,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7818,7 +7818,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7827,7 +7827,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7836,7 +7836,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7845,7 +7845,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7854,7 +7854,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7863,7 +7863,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7872,7 +7872,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7881,7 +7881,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7890,7 +7890,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7899,7 +7899,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7908,7 +7908,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7917,7 +7917,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7926,7 +7926,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7935,7 +7935,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7944,7 +7944,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7953,7 +7953,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7962,7 +7962,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7971,7 +7971,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7980,7 +7980,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7989,7 +7989,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7998,7 +7998,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8007,7 +8007,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8016,7 +8016,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8025,7 +8025,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8034,7 +8034,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8043,7 +8043,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -8052,7 +8052,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8061,7 +8061,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8070,7 +8070,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8079,7 +8079,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -8088,7 +8088,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8097,7 +8097,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8106,7 +8106,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8115,7 +8115,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8124,7 +8124,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8133,7 +8133,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8142,7 +8142,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -8151,7 +8151,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8160,7 +8160,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -8169,7 +8169,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8178,7 +8178,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -8187,7 +8187,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8196,7 +8196,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8205,7 +8205,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8214,7 +8214,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8223,7 +8223,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8232,7 +8232,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8241,7 +8241,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8250,7 +8250,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -8259,7 +8259,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8268,7 +8268,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8277,7 +8277,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8286,7 +8286,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8295,7 +8295,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8304,7 +8304,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8313,7 +8313,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8322,7 +8322,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8331,7 +8331,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8340,7 +8340,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8349,7 +8349,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8358,7 +8358,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8367,7 +8367,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8376,7 +8376,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8385,7 +8385,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8394,7 +8394,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8403,7 +8403,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8412,7 +8412,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8421,7 +8421,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8430,7 +8430,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8439,7 +8439,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8448,7 +8448,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8457,7 +8457,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8466,7 +8466,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8475,7 +8475,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8484,7 +8484,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8493,7 +8493,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -8502,7 +8502,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8511,7 +8511,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8520,7 +8520,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8529,7 +8529,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8538,7 +8538,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8547,7 +8547,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8556,7 +8556,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -8565,7 +8565,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8574,7 +8574,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -8583,7 +8583,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8592,7 +8592,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -8601,7 +8601,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -8610,7 +8610,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8619,7 +8619,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8628,7 +8628,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8637,7 +8637,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8646,7 +8646,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8655,7 +8655,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -8664,7 +8664,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8673,7 +8673,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8682,7 +8682,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8691,7 +8691,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8700,7 +8700,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8709,7 +8709,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8718,7 +8718,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8727,7 +8727,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8736,7 +8736,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8745,7 +8745,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8754,7 +8754,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -8763,7 +8763,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8772,7 +8772,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8781,7 +8781,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8790,7 +8790,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8799,7 +8799,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8808,7 +8808,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:14Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8817,7 +8817,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8826,7 +8826,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8835,7 +8835,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8844,7 +8844,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8853,7 +8853,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "entities",
    "action": "insert",
@@ -8862,7 +8862,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -8871,7 +8871,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8880,7 +8880,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -8889,7 +8889,7 @@
   },
   {
    "id": 128,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "entities",
    "action": "insert",
@@ -8898,7 +8898,7 @@
   },
   {
    "id": 129,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -8907,7 +8907,7 @@
   },
   {
    "id": 130,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "ownership",
    "action": "insert",
@@ -8916,7 +8916,7 @@
   },
   {
    "id": 131,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8925,7 +8925,7 @@
   },
   {
    "id": 132,
-   "run_at": "2026-11-18T02:18:22Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -8934,7 +8934,7 @@
   },
   {
    "id": 133,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8943,7 +8943,7 @@
   },
   {
    "id": 134,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8952,7 +8952,7 @@
   },
   {
    "id": 135,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "hcf-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8961,7 +8961,7 @@
   },
   {
    "id": 136,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8970,7 +8970,7 @@
   },
   {
    "id": 137,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8979,7 +8979,7 @@
   },
   {
    "id": 138,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8988,7 +8988,7 @@
   },
   {
    "id": 139,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "operator-sources-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8997,7 +8997,7 @@
   },
   {
    "id": 140,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "operator-sources-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9006,7 +9006,7 @@
   },
   {
    "id": 141,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "operator-sources-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9015,7 +9015,7 @@
   },
   {
    "id": 142,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -9024,7 +9024,7 @@
   },
   {
    "id": 143,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9033,7 +9033,7 @@
   },
   {
    "id": 144,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -9042,7 +9042,7 @@
   },
   {
    "id": 145,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9051,7 +9051,7 @@
   },
   {
    "id": 146,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -9060,7 +9060,7 @@
   },
   {
    "id": 147,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "applications",
    "action": "insert",
@@ -9069,7 +9069,7 @@
   },
   {
    "id": 148,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9078,7 +9078,7 @@
   },
   {
    "id": 149,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9087,7 +9087,7 @@
   },
   {
    "id": 150,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-applies-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9096,7 +9096,7 @@
   },
   {
    "id": 151,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-applies-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -9105,7 +9105,7 @@
   },
   {
    "id": 152,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-applies-2026-10",
    "table_name": "land_events",
    "action": "insert",
@@ -9114,7 +9114,7 @@
   },
   {
    "id": 153,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-applies-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9123,7 +9123,7 @@
   },
   {
    "id": 154,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-applies-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9132,7 +9132,7 @@
   },
   {
    "id": 155,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-applies-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9141,7 +9141,7 @@
   },
   {
    "id": 156,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9150,7 +9150,7 @@
   },
   {
    "id": 157,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "ownership",
    "action": "insert",
@@ -9159,7 +9159,7 @@
   },
   {
    "id": 158,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9168,7 +9168,7 @@
   },
   {
    "id": 159,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "financial_flows",
    "action": "insert",
@@ -9177,7 +9177,7 @@
   },
   {
    "id": 160,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9186,7 +9186,7 @@
   },
   {
    "id": 161,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9195,7 +9195,7 @@
   },
   {
    "id": 162,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "public-and-room-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9204,7 +9204,7 @@
   },
   {
    "id": 163,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "public-and-room-2026-10",
    "table_name": "lobbying",
    "action": "insert",
@@ -9213,7 +9213,7 @@
   },
   {
    "id": 164,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "public-and-room-2026-10",
    "table_name": "incentives",
    "action": "insert",
@@ -9222,7 +9222,7 @@
   },
   {
    "id": 165,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "public-and-room-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9231,7 +9231,7 @@
   },
   {
    "id": 166,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "public-and-room-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9240,7 +9240,7 @@
   },
   {
    "id": 167,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9249,7 +9249,7 @@
   },
   {
    "id": 168,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -9258,7 +9258,7 @@
   },
   {
    "id": 169,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -9267,7 +9267,7 @@
   },
   {
    "id": 170,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9276,7 +9276,7 @@
   },
   {
    "id": 171,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -9285,7 +9285,7 @@
   },
   {
    "id": 172,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9294,7 +9294,7 @@
   },
   {
    "id": 173,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "whose-data-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9303,7 +9303,7 @@
   },
   {
    "id": 174,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-heard-2026-10",
    "table_name": "lobbying",
    "action": "insert",
@@ -9312,7 +9312,7 @@
   },
   {
    "id": 175,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-heard-2026-10",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -9321,7 +9321,7 @@
   },
   {
    "id": 176,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-heard-2026-10",
    "table_name": "community_events",
    "action": "insert",
@@ -9330,7 +9330,7 @@
   },
   {
    "id": 177,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-heard-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9339,7 +9339,7 @@
   },
   {
    "id": 178,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "who-heard-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9348,7 +9348,7 @@
   },
   {
    "id": 179,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg084-macquarie-park-merge-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9357,7 +9357,7 @@
   },
   {
    "id": 180,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg084-macquarie-park-merge-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9366,7 +9366,7 @@
   },
   {
    "id": 181,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg084-macquarie-park-merge-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9375,7 +9375,7 @@
   },
   {
    "id": 182,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg061-rg099-decisions-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9384,7 +9384,7 @@
   },
   {
    "id": 183,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg061-rg099-decisions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9393,7 +9393,7 @@
   },
   {
    "id": 184,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "rg061-rg099-decisions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9402,7 +9402,7 @@
   },
   {
    "id": 185,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "entities",
    "action": "insert",
@@ -9411,7 +9411,7 @@
   },
   {
    "id": 186,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9420,7 +9420,7 @@
   },
   {
    "id": 187,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "modifications",
    "action": "insert",
@@ -9429,7 +9429,7 @@
   },
   {
    "id": 188,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9438,7 +9438,7 @@
   },
   {
    "id": 189,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-decisions-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9447,7 +9447,7 @@
   },
   {
    "id": 190,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-decisions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9456,7 +9456,7 @@
   },
   {
    "id": 191,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "batch7-decisions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9465,7 +9465,61 @@
   },
   {
    "id": 192,
-   "run_at": "2026-11-18T02:18:23Z",
+   "run_at": "2026-11-18T14:16:15Z",
+   "pack": "batch8-open-questions-2026-11",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 23, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 193,
+   "run_at": "2026-11-18T14:16:15Z",
+   "pack": "batch8-open-questions-2026-11",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 6, \"research_gaps\": 23}, \"prepared_by\": \"scripts/curate_batch8.py from data/raw/ (archived and read 2026-11-18)\", \"prepared_on\": \"2026-11-18\"}"
+  },
+  {
+   "id": 194,
+   "run_at": "2026-11-18T14:16:15Z",
+   "pack": "batch8b-open-questions-2026-11",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 14, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 195,
+   "run_at": "2026-11-18T14:16:15Z",
+   "pack": "batch8b-open-questions-2026-11",
+   "table_name": "modifications",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 11, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 196,
+   "run_at": "2026-11-18T14:16:15Z",
+   "pack": "batch8b-open-questions-2026-11",
+   "table_name": "metrics",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 2, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 197,
+   "run_at": "2026-11-18T14:16:15Z",
+   "pack": "batch8b-open-questions-2026-11",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 16, \"research_gaps\": 14, \"modifications\": 11, \"metrics\": 2}, \"prepared_by\": \"scripts/curate_batch8b.py from data/raw/ (archived and read 2026-11-18)\", \"prepared_on\": \"2026-11-18\"}"
+  },
+  {
+   "id": 198,
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "people-register-2026-11",
    "table_name": "people",
    "action": "insert",
@@ -9473,8 +9527,8 @@
    "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
   },
   {
-   "id": 193,
-   "run_at": "2026-11-18T02:18:23Z",
+   "id": 199,
+   "run_at": "2026-11-18T14:16:15Z",
    "pack": "people-register-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -10718,11 +10772,11 @@
    "unit": "MW",
    "basis": "actual",
    "scenario": null,
-   "notes": "Relayed by CertifiedStrategic.com from Mandala's 'Data Centres as Enabling Infrastructure' (November 2025), whose text does not state it (RG-100).",
+   "notes": "Stated by Mandala's October 2024 report, commissioned by AirTrunk, AWS, CDC, Microsoft and NEXTDC: an industry-commissioned projection, REPORTED (re-sourced 2026-11-18, RG-100). Earlier: relayed by CertifiedStrategic.com from Mandala's November 2025 report, whose text does not state it; the figure is the October 2024 report's.",
    "fact_status": "REPORTED",
-   "source_id": "SRC_CERTSTRAT",
-   "confidence": "low",
-   "as_of_date": "2026-09-18"
+   "source_id": "SRC_MANDALA_EADF_2024",
+   "confidence": "medium",
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 12,
@@ -10733,11 +10787,11 @@
    "unit": "MW",
    "basis": "forecast_central",
    "scenario": null,
-   "notes": "Relayed by CertifiedStrategic.com from Mandala's 'Data Centres as Enabling Infrastructure' (November 2025), whose text does not state it; nor the >A$26bn investment (RG-100).",
+   "notes": "Stated by Mandala's October 2024 report, commissioned by AirTrunk, AWS, CDC, Microsoft and NEXTDC: an industry-commissioned projection, REPORTED (re-sourced 2026-11-18, RG-100). Earlier: relayed by CertifiedStrategic.com from Mandala's November 2025 report, whose text does not state it; the figure is the October 2024 report's.",
    "fact_status": "REPORTED",
-   "source_id": "SRC_CERTSTRAT",
-   "confidence": "low",
-   "as_of_date": "2026-09-18"
+   "source_id": "SRC_MANDALA_EADF_2024",
+   "confidence": "medium",
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 13,
@@ -18459,15 +18513,15 @@
    "target_source": "Foreign Investment Approvals annual reports; Treasurer's decisions; FOI to Treasury",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "WORKED 2026-10-22 (research batch 3). The free route is closed by design: the FIRB quarterly report for January to March 2026 reports 311 approved commercial proposals, 97 with conditions, by sector and source country only, and suppresses 'Any data that may enable the identification of a particular person or organisation'; it does not mention data centres. FOI-001 to the Treasury is drafted (docs/requests/FOI-001-treasury-firb.md): no application fee, a 30-day decision period, and it asks for decisions and conditions on data centre acquisitions since 2020, expecting exemptions it can then challenge.",
+   "notes": "WORKED 2026-10-22 (research batch 3). The free route is closed by design: the FIRB quarterly report for January to March 2026 reports 311 approved commercial proposals, 97 with conditions, by sector and source country only, and suppresses 'Any data that may enable the identification of a particular person or organisation'; it does not mention data centres. FOI-001 to the Treasury is drafted (docs/requests/FOI-001-treasury-firb.md): no application fee, a 30-day decision period, and it asks for decisions and conditions on data centre acquisitions since 2020, expecting exemptions it can then challenge. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-001 to the Treasury: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 7,
@@ -18477,15 +18531,15 @@
    "target_source": "FOI to NSW Revenue, Revenue NSW, SRO Victoria, QRO; state budget papers; NSW Ombudsman; Land and Property leases in the Western Sydney Employment Area and Aerotropolis",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 3). The free routes give the sector's and the government's word, not a revenue office's: Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' (1 May 2026); the BCA's Submission No 116 says operators 'pay full taxes with no concessions'; the Secretary of the Premier's Department said 'The one thing that we don't contemplate is government participation financially' (22 May 2026). What the State does give is in kind: the IDA ($17.7m in the 2025-26 Budget) and the Guidelines' concierge. No witness from Revenue NSW appeared. GIPA-002 to the Department of Customer Service (which holds Revenue NSW's records) is drafted from reports/RG007_foi_strategy.md; the Victorian, Queensland and Commonwealth templates stay in that file.",
+   "notes": "ADVANCED 2026-10-22 (research batch 3). The free routes give the sector's and the government's word, not a revenue office's: Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' (1 May 2026); the BCA's Submission No 116 says operators 'pay full taxes with no concessions'; the Secretary of the Premier's Department said 'The one thing that we don't contemplate is government participation financially' (22 May 2026). What the State does give is in kind: the IDA ($17.7m in the 2025-26 Budget) and the Guidelines' concierge. No witness from Revenue NSW appeared. GIPA-002 to the Department of Customer Service (which holds Revenue NSW's records) is drafted from reports/RG007_foi_strategy.md; the Victorian, Queensland and Commonwealth templates stay in that file. UPDATED 2026-11-18 (research batch 8, second pass): The free substitute is refused: the 2026-27 Budget Paper No. 1, which carries the tax expenditure statement (Appendix C), sits under a path nsw.gov.au's robots.txt disallows; the older budget.nsw.gov.au links now redirect. Recorded; BLOCKED on download #30 (and GIPA-002, not lodged).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_GIPA_IPC",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 8,
@@ -18495,15 +18549,15 @@
    "target_source": "NSW EPA public register of licences; EPA Victoria licence register; SA EPA",
    "retrieval_method": "scrape_portal",
    "priority": 5,
-   "status": "open",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "UPDATED 2026-11-18 (research batch 8): FIRST PASS, from the Department's reports, which record the EPA's advice on each application. The licences themselves are not yet read. LICENCE REQUIRED, per the reports: 51 Huntingwood Drive (SSD-41589232: an EPL 'will need to be applied for and issued'); NEXTDC S4 Horsley Park (SSD-63741210) and Marsden Park (SSD-70889211), each: 'The EPA advised the development would require an EPL for the quantity of diesel storage on the site above the thresholds of the POEO Act'; and Roberts Road as modified by Mod 2 ('will require an environment protection licence ... under section 42', 'for Chemical Storage (diesel fuel)'). NOT REQUIRED, per the reports: Roberts Road as first approved, Kemps Creek, Macquarie Park, Eastern Creek, Talavera Road, Station Road, Grand Avenue, Davis Road, Project Echidna, 1-5 Khartoum Road, Apollo Place, Project Pluto, DigiCo SYD1, Project Apollo ('does not appear to require'), Lane Cove West, the Dicker Data warehouse, and Glendenning Road, where the EPA first 'Noted ... the development would require' a licence and then accepted the applicant's confirmation that diesel 'would be below 2,000 tonnes'. HOW THE LINE IS HELD: at Grand Avenue the EPA 'recommended conditions to ensure the development would stay under the triggers for an EPL'; at Project Pluto, conditions 'to ensure diesel storage and generator testing remain below POEO Act thresholds'; the NEXTDC S5 EIS states the diesel line as 'the 2,000-tonne trigger for petroleum products storage for which an EPL would be required'. WHAT FOLLOWS: at 1-5 Khartoum Road the report records that 'the EPA does not consider itself to be the appropriate regulatory authority for air emissions associated with the development' because no licence is required. For most sites there is no licence whose conditions this question could extract; their generator and air terms are consent conditions (RG-061). BLOCKED on download #28: the EPA's public register is now an interactive application the crawler cannot read; a person can search it for the four sites above and save each licence.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
-   "as_of_date": null
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 9,
@@ -18589,11 +18643,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Advanced again 2026-09-18. The complete NSW data centre SSD register (46 records) contains NO project titled AWS, Amazon, Google or Meta; Microsoft appears only through its proponent entity Microsoft Datacentre (Australia) Pty Ltd on Kemps Creek SSD-10101987 (approved, operating) and Honeman Close SSD-58601963 (in Assessment, description references 96 MW). Conclusion: hyperscaler footprints CANNOT be mapped from NSW planning titles. The sector's convention is codenames - Project Duke, Atlas, Echidna, Apollo, Pluto, Mars, KC1, Road 1 - and the NSW Government's own IDA release confirms it (Goodman's 'Project Atlas', Stockland's 'Project A'), with one endorsed project withheld entirely for commercial sensitivity. Remaining routes are ASIC resolution of the codename SPVs (RG-035), landlord tenancy disclosure, and Victorian and Queensland registers. AWS and Google remain entirely unresolved.",
+   "notes": "Advanced again 2026-09-18. The complete NSW data centre SSD register (46 records) contains NO project titled AWS, Amazon, Google or Meta; Microsoft appears only through its proponent entity Microsoft Datacentre (Australia) Pty Ltd on Kemps Creek SSD-10101987 (approved, operating) and Honeman Close SSD-58601963 (in Assessment, description references 96 MW). Conclusion: hyperscaler footprints CANNOT be mapped from NSW planning titles. The sector's convention is codenames - Project Duke, Atlas, Echidna, Apollo, Pluto, Mars, KC1, Road 1 - and the NSW Government's own IDA release confirms it (Goodman's 'Project Atlas', Stockland's 'Project A'), with one endorsed project withheld entirely for commercial sensitivity. Remaining routes are ASIC resolution of the codename SPVs (RG-035), landlord tenancy disclosure, and Victorian and Queensland registers. AWS and Google remain entirely unresolved. UPDATED 2026-11-18 (research batch 8, second pass): PROPOSED TO THE AUTHOR: close the remainder (AWS's and Google's site-level footprints) as not retrievable at zero spend. The free routes are worked: planning registers name codename companies and consultancies, not hyperscalers (RG-035, RG-055); the landowner documents are restricted (GIPA-001, not lodged). Not closed by this pack.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_REGISTER",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 14,
@@ -18657,15 +18711,15 @@
    "target_source": "FOI to water utilities; IPART water pricing review submissions",
    "retrieval_method": "foi_request",
    "priority": 4,
-   "status": "open",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "CITED 2026-11-15, so the question is now publishable. What is public: NEXTDC S7's scoping report (SSD-113934740, p36) states average daily water demand at about 70% load of 5.44 ML/day and peak demand at full site maturity up to 7.79 ML/day, that NEXTDC 'has commenced engagement with Sydney Water regarding interim potable water supply for Stage 1, as well as potential recycled water opportunities, including supply from the St Marys Advanced Water Treatment Plant', and that investigations are underway with coNEXA to connect to the recycled water main associated with the S4 development. What is NOT public: any agreement, allocation, trade waste consent or capacity statement from the utilities themselves. Seventeen of the observatory's NSW sites sit in the one Eastern Creek - Kemps Creek - Horsley Park - Glendenning - Marsden Park corridor. RG-062 established that none of the 20 archived consents requires recycled water; they impose a duty to prioritise non-potable supply 'where available', and whether it is available is a utility fact. Four requests are DRAFTED and NOT LODGED (author deferred lodging on 2026-11-15): docs/requests/GIPA-004-sydney-water.md ($30), FOI-005-melbourne-water.md ($34.50, also answers RG-080), FOI-006-yarra-valley-south-east-water.md (two applications) and RTI-001-unitywater.md ($59.60, not waivable). Nothing here is inferred from a draft request; the question stays open until documents are released.",
+   "notes": "CITED 2026-11-15, so the question is now publishable. What is public: NEXTDC S7's scoping report (SSD-113934740, p36) states average daily water demand at about 70% load of 5.44 ML/day and peak demand at full site maturity up to 7.79 ML/day, that NEXTDC 'has commenced engagement with Sydney Water regarding interim potable water supply for Stage 1, as well as potential recycled water opportunities, including supply from the St Marys Advanced Water Treatment Plant', and that investigations are underway with coNEXA to connect to the recycled water main associated with the S4 development. What is NOT public: any agreement, allocation, trade waste consent or capacity statement from the utilities themselves. Seventeen of the observatory's NSW sites sit in the one Eastern Creek - Kemps Creek - Horsley Park - Glendenning - Marsden Park corridor. RG-062 established that none of the 20 archived consents requires recycled water; they impose a duty to prioritise non-potable supply 'where available', and whether it is available is a utility fact. Four requests are DRAFTED and NOT LODGED (author deferred lodging on 2026-11-15): docs/requests/GIPA-004-sydney-water.md ($30), FOI-005-melbourne-water.md ($34.50, also answers RG-080), FOI-006-yarra-valley-south-east-water.md (two applications) and RTI-001-unitywater.md ($59.60, not waivable). Nothing here is inferred from a draft request; the question stays open until documents are released. UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: the water agreements are asked for in GIPA-004 ($30), FOI-005 ($34.50), FOI-006 (two applications) and RTI-001 ($59.60), none lodged by the author's decision of 2026-11-18. Free substitutes read: the consents' own water conditions (RG-062, resolved today) and Melbourne Water's public reports (RG-080).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD113934740_SCOPING",
    "confidence": "high",
-   "as_of_date": "2026-11-15"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 18,
@@ -18675,11 +18729,11 @@
    "target_source": "AEMO market registration lists; FCAS participant registers; operator sustainability reports",
    "retrieval_method": "dataset_download",
    "priority": 4,
-   "status": "open",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "UPDATED 2026-11-18 (research batch 7): Searched: no record found of any Australian data centre registered with AEMO to provide frequency control ancillary services; demand-response aggregators report registrations without naming sites (leads). AEMO's registration lists are the primary record to check next.",
+   "notes": "UPDATED 2026-11-18 (research batch 7): Searched: no record found of any Australian data centre registered with AEMO to provide frequency control ancillary services; demand-response aggregators report registrations without naming sites (leads). AEMO's registration lists are the primary record to check next. UPDATED 2026-11-18 (research batch 8, second pass): The network owner's position, on its own page: Transgrid is working on frameworks to 'Require large users, such as data centres, to play their role in maintaining system security, strength and reliability during the energy transition' - a requirement it is seeking, not one in force. The primary record of what any site provides is AEMO's NEM Registration and Exemption List; AEMO's registration page answered the crawler with HTTP 403 (recorded). BLOCKED on download #31.",
    "fact_status": "VERIFIED",
    "source_id": null,
    "confidence": null,
@@ -18693,15 +18747,15 @@
    "target_source": "Transgrid and AEMO system strength reports; network business capital plans",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": null,
+   "resolved_date": "2026-11-18",
+   "notes": "UPDATED 2026-11-18 (research batch 8, second pass): RESOLVED. One exists in plan, none in service. Transgrid's System Strength Project, directed by the NSW Government, will 'fast-track the deployment of synchronous condensers at five strategic locations', 'including Kemps Creek (Western Sydney)': two smaller machines at the 'Kemps Creek 500kV substation, off Gurner Avenue, West Hoxton in Western Sydney', the substation of the Kemps Creek - Mamre Road data centre corridor. 'Progressive energisation of synchronous condensers at the five sites is expected from early 2028 to early 2029.' Neither Transgrid document names a data centre; the condensers serve the network, not a customer. Re-open if a data centre's own connection includes one.",
    "fact_status": "VERIFIED",
-   "source_id": null,
-   "confidence": null,
-   "as_of_date": null
+   "source_id": "SRC_TRANSGRID_SYSTEM_STRENGTH_FAQ",
+   "confidence": "high",
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 21,
@@ -18711,15 +18765,15 @@
    "target_source": "ASIC company register (paid extract) and the Australian Business Register (https://abr.business.gov.au); NSW Land Registry Services title search for 706-752 Mamre Road",
    "retrieval_method": "asic_search",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. ASIC's register shows KNBDC SYD4 Pty Ltd (ACN 687 904 963, registered 10 June 2025) has been named AirTrunk SYD4 Pty Ltd since 16 June 2026, as have its Hold, Intermediate Hold, FinCo and Financing Holdco companies, so the AirTrunk link this question asked about is now on a primary record. The title search filed with the EIS shows Lot 10 DP 1280592 registered to ISPT Pty Limited (named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025) with a caveat by KNBDC SYD4 Pty Ltd. The landowner's consent letters from IFM, GPT and Gibb Group are restricted on the portal. Still open: shareholders, directors and ultimate parent, which need a paid ASIC extract (docs/requests/PAID-SEARCHES.md), and what interest the caveat protects. Earlier: the ABR resolves the trust stack (Hold, Land and Intermediate Hold trusts, trustee NBDC Pty Ltd).",
+   "notes": "ADVANCED 2026-10-22. ASIC's register shows KNBDC SYD4 Pty Ltd (ACN 687 904 963, registered 10 June 2025) has been named AirTrunk SYD4 Pty Ltd since 16 June 2026, as have its Hold, Intermediate Hold, FinCo and Financing Holdco companies, so the AirTrunk link this question asked about is now on a primary record. The title search filed with the EIS shows Lot 10 DP 1280592 registered to ISPT Pty Limited (named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025) with a caveat by KNBDC SYD4 Pty Ltd. The landowner's consent letters from IFM, GPT and Gibb Group are restricted on the portal. Still open: shareholders, directors and ultimate parent, which need a paid ASIC extract (docs/requests/PAID-SEARCHES.md), and what interest the caveat protects. Earlier: the ABR resolves the trust stack (Hold, Land and Intermediate Hold trusts, trustee NBDC Pty Ltd). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the landowners' consent letters on the Mamre Road application (items 2 to 4) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18; directors and shareholders also need a paid ASIC extract, not bought. The free routes already tried are in the notes above and the hunt log.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_KNBDC",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 22,
@@ -18823,7 +18877,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "UPDATED 2026-11-18 (research batch 7): WESLEY VALE placed from the developer's own page (Firmus, archived today): 'a new AI Factory project at 226 Mill Road, Wesley Vale', in two stages, 'an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM)' (sic), with 40 backup generators and cooling water from on-site rainwater. Leads (not records): trade reports of a Latrobe Council application and a December 2026 deadline for a major project proposal. PROPOSED for the author: a row SITE_FIRMUS_WESLEY_VALE (TAS, status `lodged` on the page's linked development application), with the stated maxima quoted rather than stored until the council record is read. The other proposals this question names are not yet worked. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): SITE_FIRMUS_WESLEY_VALE added (TAS, lodged, unmapped, no capacity stored). The other proposals this question names are not yet worked.",
+   "notes": "UPDATED 2026-11-18 (research batch 7): WESLEY VALE placed from the developer's own page (Firmus, archived today): 'a new AI Factory project at 226 Mill Road, Wesley Vale', in two stages, 'an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM)' (sic), with 40 backup generators and cooling water from on-site rainwater. Leads (not records): trade reports of a Latrobe Council application and a December 2026 deadline for a major project proposal. PROPOSED for the author: a row SITE_FIRMUS_WESLEY_VALE (TAS, status `lodged` on the page's linked development application), with the stated maxima quoted rather than stored until the council record is read. The other proposals this question names are not yet worked. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): SITE_FIRMUS_WESLEY_VALE added (TAS, lodged, unmapped, no capacity stored). The other proposals this question names are not yet worked. UPDATED 2026-11-18 (research batch 8, second pass): BEETALOO: the Territory Coordinator's release on Beetaloo Digital's Weddell site refused the crawler (its robots.txt could not be read; recorded). LEADS (search summaries, not records): a 12-month exclusive land commitment over 185 ha at Weddell, south of Darwin, granted on 22 July 2026, with up to 2 GW of on-site gas generation. Download #32 would put it on the record.",
    "fact_status": "REPORTED",
    "source_id": "SRC_GUARD_PLUMPTON",
    "confidence": "low",
@@ -18859,7 +18913,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Advanced 2026-09-18. All 17 post-consent modification records for NSW data centre SSDs are harvested and loaded: case ids, stages, decisions, determination dates and LGAs. Fifteen approved, one withdrawn, two undetermined. Five are material to the environmental envelope (added generators and diesel at Roberts Road, a power consumption increase at Eastern Creek, added fuel storage at Lane Cove West, an expansion at Talavera Road, and pending operational-infrastructure changes at Roberts Road again). RESIDUAL: modification pages do not publish the development description, so the QUANTUM of each change is unknown - the underlying modification reports must be fetched (RG-045). Local council development applications are also still out of scope. UPDATED 2026-11-18 (research batch 7): The quantum RG-034 left open is answered by RG-045 from the five modification reports, read today: Eastern Creek 32 MW to 63 MW, Roberts Road 48 to 72 generators (96 proposed), Lane Cove West 116 smaller generators and 1,952 kL of internal fuel storage, Talavera Road 38 MW to 47 MW. Local council development applications remain out of scope.",
+   "notes": "Advanced 2026-09-18. All 17 post-consent modification records for NSW data centre SSDs are harvested and loaded: case ids, stages, decisions, determination dates and LGAs. Fifteen approved, one withdrawn, two undetermined. Five are material to the environmental envelope (added generators and diesel at Roberts Road, a power consumption increase at Eastern Creek, added fuel storage at Lane Cove West, an expansion at Talavera Road, and pending operational-infrastructure changes at Roberts Road again). RESIDUAL: modification pages do not publish the development description, so the QUANTUM of each change is unknown - the underlying modification reports must be fetched (RG-045). Local council development applications are also still out of scope. UPDATED 2026-11-18 (research batch 7): The quantum RG-034 left open is answered by RG-045 from the five modification reports, read today: Eastern Creek 32 MW to 63 MW, Roberts Road 48 to 72 generators (96 proposed), Lane Cove West 116 smaller generators and 1,952 kL of internal fuel storage, Talavera Road 38 MW to 47 MW. Local council development applications remain out of scope. UPDATED 2026-11-18 (research batch 8, second pass): MODIFICATION HALF DONE: all 17 modification records on the NSW data centre files are read (five in batch 7; ten assessment reports and one modification report today; the withdrawn 51 Huntingwood Mod 1 report answered 401). Beyond batch 7's five, three more add generators or diesel. LANE COVE WEST MOD 4 (October 2025, section 4.55(1A), decided by an A/Team Leader, posted on 9 July 2025, not exhibited): 'The proposed modification seeks to increase diesel storage capacity from 1,651 t to 1966.9 t, below the storage limit of 2,000 t specified in condition A6(c)', and lithium-ion batteries from 55 t to 308 t; the Department added conditions 'requiring detailed monitoring and reporting of generator use'. LANCELEY PLACE MOD 2 (April 2026, section 4.55(1A), posted 27 January 2026): from '30 x 2.8 MW / 3.5 MVA generators' to '42 x 2.82 MW / 3.6 MVA generators', 'with associated increases in diesel storage' above the approved 895,000 L. LANE COVE WEST MOD 3 (June 2024, section 4.55(2), exhibited 21 February to 6 March 2023): from '116 transformers / generators' to '121'. The rest change no generator or diesel quantity: Lane Cove West Mod 2 (office use; section 4.55(2), exhibited, seven submissions), 51 Huntingwood Mod 2 ('316 back-up diesel generators (No change)'; lodged by a builder, AW Edwards Pty Ltd), Dexus Estate Mod 7 (layout; restates 1,288,600 L of diesel; not exhibited), Kemps Creek Mod 1 (fit-out before operation), Roberts Road Mod 1 (height), Davis Road Mod 1 (trees), Lanceley Place Mod 3 (switch room), 200 Aldington Mod 8 (an intersection). PROPOSED to the author: reclassify SSD-9741-Mod-4 (change_type other -> fuel_storage_increase, materiality 3 -> 5), SSD-66777221-Mod-2 (other -> generator_increase, 2 -> 5) and SSD-9741-Mod-3 (design -> generator_increase, 2 -> 4). Not made by this pack. STILL OPEN: council development applications, for the approved council list only (docs/SPEC.md).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_MODS",
    "confidence": "high",
@@ -18873,15 +18927,15 @@
    "target_source": "ASIC Connect company and business-name extracts; Appendix title documents in each SSD record (these name the registered proprietor); landlord disclosures",
    "retrieval_method": "asic_search",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. Applicants now on the record: Project Apollo, Project Pluto and Project Duke = Goodman Property Services (Aust) Pty Limited (the Duke assessment report and the portal); KC1 = CDC Data Centres Pty Ltd (its scoping report); Road 1 = Stockland Development Pty Limited (the portal and its EIS); Grand Avenue = Equinix Hyperscale 2 (SY10); Talavera Road = Macquarie Data Centres; NEXTDC S4 = NEXTDC; Roberts Road = Canberra Data Centres; DigiCo SYD1 = HDI SYD1 Property Holdings (formerly Global Switch Property (Australia)); DCI Poplars = the NineZero trust trading as DCI Data Centers; 43-61 Turner Road = ARUP; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management (now CKTSME Management). STILL UNRESOLVED: Project Echidna, whose applicant ARUP Australia 'acts on behalf of a multinational data centre operation' the assessment report does not name; and Project Mars, whose portal record names no applicant and whose owner's consent letter is restricted. The landowner's consent letters on Project Duke and Project Mars are restricted too; they are in the drafted GIPA request (docs/requests/).",
+   "notes": "ADVANCED 2026-10-22. Applicants now on the record: Project Apollo, Project Pluto and Project Duke = Goodman Property Services (Aust) Pty Limited (the Duke assessment report and the portal); KC1 = CDC Data Centres Pty Ltd (its scoping report); Road 1 = Stockland Development Pty Limited (the portal and its EIS); Grand Avenue = Equinix Hyperscale 2 (SY10); Talavera Road = Macquarie Data Centres; NEXTDC S4 = NEXTDC; Roberts Road = Canberra Data Centres; DigiCo SYD1 = HDI SYD1 Property Holdings (formerly Global Switch Property (Australia)); DCI Poplars = the NineZero trust trading as DCI Data Centers; 43-61 Turner Road = ARUP; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management (now CKTSME Management). STILL UNRESOLVED: Project Echidna, whose applicant ARUP Australia 'acts on behalf of a multinational data centre operation' the assessment report does not name; and Project Mars, whose portal record names no applicant and whose owner's consent letter is restricted. The landowner's consent letters on Project Duke and Project Mars are restricted too; they are in the drafted GIPA request (docs/requests/). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the landowner's consent letters on Project Duke and Project Mars (items 11 to 13) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18, not bought. The free routes already tried are in the notes above and the hunt log.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 36,
@@ -18895,11 +18949,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. ASIC's register names, dates and former names for the whole stack: the KNBDC SYD4, MEL1 and MEL3 companies and three of five Melbourne expansion companies now carry AirTrunk names; KNBDC AU Development Pty Ltd, KNBDC AU Financing Holdco Pty Ltd and two Melbourne expansion finance companies keep theirs; NBDC Pty Ltd was registered on 1 July 2015. Directors, shareholders and registered charges still need paid extracts; the first to buy is AirTrunk SYD4 Pty Ltd (docs/requests/PAID-SEARCHES.md). Supersedes the ownership half of RG-021.",
+   "notes": "ADVANCED 2026-10-22. ASIC's register names, dates and former names for the whole stack: the KNBDC SYD4, MEL1 and MEL3 companies and three of five Melbourne expansion companies now carry AirTrunk names; KNBDC AU Development Pty Ltd, KNBDC AU Financing Holdco Pty Ltd and two Melbourne expansion finance companies keep theirs; NBDC Pty Ltd was registered on 1 July 2015. Directors, shareholders and registered charges still need paid extracts; the first to buy is AirTrunk SYD4 Pty Ltd (docs/requests/PAID-SEARCHES.md). Supersedes the ownership half of RG-021. UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_KNBDC",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 37,
@@ -18909,15 +18963,15 @@
    "target_source": "SSD-73761707 Appendix 03 Title Documents (names the registered proprietor of Lot 2 DP1137162); the EIS and Request for SEARs documents, 40 of which are published; NSW Land Registry Services title search; ASIC extract for Lehr Consultants and any related project SPV",
    "retrieval_method": "scrape_portal",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "WORKED 2026-10-21. The owner's consent letter (owners-consent-6713) answers 401: restricted. The Appendix 03 title documents are a ZIP of 20 scanned plans and land dealings with no machine-readable text and no current title search, so the registered proprietor of Lot 2 DP 1137162 is not established. The assessment report calls the applicant, Lehr, 'an engineering and design consultancy' and does not mention an operator at all. Next: a paid NSW title search for Lot 2 DP 1137162, and the GIPA request for the consent letter (docs/requests/). Earlier: the portal attachment list is reachable via the node JSON; draft conditions and EPA comments also answered 401.",
+   "notes": "WORKED 2026-10-21. The owner's consent letter (owners-consent-6713) answers 401: restricted. The Appendix 03 title documents are a ZIP of 20 scanned plans and land dealings with no machine-readable text and no current title search, so the registered proprietor of Lot 2 DP 1137162 is not established. The assessment report calls the applicant, Lehr, 'an engineering and design consultancy' and does not mention an operator at all. Next: a paid NSW title search for Lot 2 DP 1137162, and the GIPA request for the consent letter (docs/requests/). Earlier: the portal attachment list is reachable via the node JSON; draft conditions and EPA comments also answered 401. UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs Glendenning Road's owner's consent letter (item 1) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18; a paid title search is the other route, not bought. The free routes already tried are in the notes above and the hunt log.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD73761707_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 38,
@@ -19021,11 +19075,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 3). Traced to source: Data Centres Australia told the inquiry operators 'will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity'. The report behind the industry's figures (Mandala, commissioned for Data Centres Australia by AirTrunk, AWS, CDC and NEXTDC) gives $3.1bn invested 2020-2025 and $7.2bn forecast to 2030, built from 'data from select data centre operators'; the two make $10.3bn, and the only '$10.3 billion' the report states is the Australian Government's grid funding. Its $1.1bn excess is within the forecast, with $0.5bn before. The networks told the inquiry the principle holds - Ausgrid: 'the customer who caused network costs pays for them'; Transgrid invests only on 'full commitment' and had no data centre commitment on 22 May 2026 - but none put a total on it. Still to test: the quantum against Transgrid, Ausgrid and Endeavour capital plans and AER determinations (aer.gov.au did not answer).",
+   "notes": "ADVANCED 2026-10-22 (research batch 3). Traced to source: Data Centres Australia told the inquiry operators 'will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity'. The report behind the industry's figures (Mandala, commissioned for Data Centres Australia by AirTrunk, AWS, CDC and NEXTDC) gives $3.1bn invested 2020-2025 and $7.2bn forecast to 2030, built from 'data from select data centre operators'; the two make $10.3bn, and the only '$10.3 billion' the report states is the Australian Government's grid funding. Its $1.1bn excess is within the forecast, with $0.5bn before. The networks told the inquiry the principle holds - Ausgrid: 'the customer who caused network costs pays for them'; Transgrid invests only on 'full commitment' and had no data centre commitment on 22 May 2026 - but none put a total on it. Still to test: the quantum against Transgrid, Ausgrid and Endeavour capital plans and AER determinations (aer.gov.au did not answer). UPDATED 2026-11-18 (research batch 8, second pass): Transgrid's own page states the principle and the constraint, not a total: 'Households and businesses should not bear the cost or risk associated with this growth'; capacity in the Sydney basin is 'largely exhausted'; since late 2024 it has received 'data centre connection enquiries totaling more than 10 GW within a 12 km radius of Sydney West'; capacity is allocated only on a signed connection agreement, for loads of 30 MW or more. It puts no dollar figure on what data centres pay. The AER's register closed the connection again today (recorded). The quantum test against the networks' capital plans stays open.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_INQ_T_0501",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 44,
@@ -19147,11 +19201,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. ASIC's register gives the AGP link a primary record: a former name of Zerra WDDP Manager Australia Pty Ltd (registered 5 February 2025) is AGP DC Manager Australia Pty Ltd, and a former name of Zerra Investments Australia Pty Ltd (registered 17 April 2025) is AGPDC Investments Australia Pty Ltd. Where AGP is based, and who owns the Australian companies, still need paid extracts. Earlier: the ABR resolves six Zerra entities, all NSW 2000; the lodged application names WDDP Pty Ltd and never mentions Zerra or AGP.",
+   "notes": "ADVANCED 2026-10-22. ASIC's register gives the AGP link a primary record: a former name of Zerra WDDP Manager Australia Pty Ltd (registered 5 February 2025) is AGP DC Manager Australia Pty Ltd, and a former name of Zerra Investments Australia Pty Ltd (registered 17 April 2025) is AGPDC Investments Australia Pty Ltd. Where AGP is based, and who owns the Australian companies, still need paid extracts. Earlier: the ABR resolves six Zerra entities, all NSW 2000; the lodged application names WDDP Pty Ltd and never mentions Zerra or AGP. UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_ZERRA",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 51,
@@ -19183,11 +19237,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. ASIC's register: WDDP Pty Ltd (ACN 700 788 058) registered 28 July 2026, 17 days before the Town Planning Report's date; Zerra WDDP Manager Australia renamed to its current name on 13 August 2026, the day before; Zerra WDDP Asset Manager, Zerra WDDP Investments AU and Zerra WDDP Holdco all registered 10 August 2026. Directors, shareholders and ultimate parent still need paid extracts, first WDDP Pty Ltd (docs/requests/PAID-SEARCHES.md).",
+   "notes": "ADVANCED 2026-10-22. ASIC's register: WDDP Pty Ltd (ACN 700 788 058) registered 28 July 2026, 17 days before the Town Planning Report's date; Zerra WDDP Manager Australia renamed to its current name on 13 August 2026, the day before; Zerra WDDP Asset Manager, Zerra WDDP Investments AU and Zerra WDDP Holdco all registered 10 August 2026. Directors, shareholders and ultimate parent still need paid extracts, first WDDP Pty Ltd (docs/requests/PAID-SEARCHES.md). UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ABR_ZERRA",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 53,
@@ -19269,15 +19323,15 @@
    "target_source": "FOI to NSW DPHI under the GIPA Act for the restricted attachments on SSD-59416728; the Appendix 3 title documents (which name the registered proprietor); ASIC extract for Cundall Johnston and Partners Pty Ltd to see whether it acted as agent",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. The title search the applicant filed (searched 12 October 2023) shows the land, Lot 1 DP 864615, registered to Amazon Australia Company Pty Ltd, which ASIC registered on 14 November 2022; the title's current edition is dated 9 December 2022. The Department's assessment report says Cundall 'acts on behalf of a global data centre operator' it does not name. The ASIC certificate for Amazon Corporate Services Pty Ltd and the landowner's consent letter both answer 401, and are in the drafted GIPA request (docs/requests/GIPA-001-ownership-documents.md). Amazon's role as landowner is now on a primary record; its role as operator is not. Also restricted on Roberts Road (SSD-10330): the CDC response to a warning letter (RG-058).",
+   "notes": "ADVANCED 2026-10-22. The title search the applicant filed (searched 12 October 2023) shows the land, Lot 1 DP 864615, registered to Amazon Australia Company Pty Ltd, which ASIC registered on 14 November 2022; the title's current edition is dated 9 December 2022. The Department's assessment report says Cundall 'acts on behalf of a global data centre operator' it does not name. The ASIC certificate for Amazon Corporate Services Pty Ltd and the landowner's consent letter both answer 401, and are in the drafted GIPA request (docs/requests/GIPA-001-ownership-documents.md). Amazon's role as landowner is now on a primary record; its role as operator is not. Also restricted on Roberts Road (SSD-10330): the CDC response to a warning letter (RG-058). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the Davis Road landowner's consent letter and the ASIC certificate for Amazon Corporate Services (items 5 and 6) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18, not bought. The free routes already tried are in the notes above and the hunt log.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD59416728_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 58,
@@ -19287,15 +19341,15 @@
    "target_source": "FOI to NSW DPHI under the GIPA Act for the warning letter and response on SSD-10330; the DPHI compliance and enforcement register; EPA licence and incident records for the site",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "WORKED 2026-10-30 (research batch 5). Two warning letters are in the NSW data centre record: 'CDC Data Centres response warning letter' on Roberts Road (SSD-10330) and a warning letter of 29 May 2024, with a Department email about it, on Station Road (SSD-33781208). All three are restricted on the portal (data/raw/nsw_planning/attachments/restricted.json), as is a 'scanned signed letter' on Roberts Road. GIPA-003 to the Department asks for the letters, the responses and the compliance record for data centre consents (docs/requests/).",
+   "notes": "WORKED 2026-10-30 (research batch 5). Two warning letters are in the NSW data centre record: 'CDC Data Centres response warning letter' on Roberts Road (SSD-10330) and a warning letter of 29 May 2024, with a Department email about it, on Station Road (SSD-33781208). All three are restricted on the portal (data/raw/nsw_planning/attachments/restricted.json), as is a 'scanned signed letter' on Roberts Road. GIPA-003 to the Department asks for the letters, the responses and the compliance record for data centre consents (docs/requests/). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: the warning letters and the operator's response are restricted on the portal and are asked for in GIPA-003, which carries the $30 GIPA fee and is not lodged (author's decision, 2026-11-18).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD10330_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-10-30"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 59,
@@ -19305,15 +19359,15 @@
    "target_source": "ABR and ASIC extracts for NineZero DC and its corporate trustee; the DCI Poplars title documents",
    "retrieval_method": "asic_search",
    "priority": 4,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. The DCI Poplars assessment report calls the applicant 'The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers'. ASIC's register holds NineZero DC Sub TC I Pty Ltd (registered 13 August 2015) and Sub TC II (11 April 2017), and the portal names Sub TC I as proponent of the Eastern Creek Data Centre Expansion; no public document read says Sub TC I is the trustee of Sub Trust I. The landowner's consent letters on both applications answer 401 and are in the drafted GIPA request.",
+   "notes": "ADVANCED 2026-10-22. The DCI Poplars assessment report calls the applicant 'The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers'. ASIC's register holds NineZero DC Sub TC I Pty Ltd (registered 13 August 2015) and Sub TC II (11 April 2017), and the portal names Sub TC I as proponent of the Eastern Creek Data Centre Expansion; no public document read says Sub TC I is the trustee of Sub Trust I. The landowner's consent letters on both applications answer 401 and are in the drafted GIPA request. UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the landowners' consent letters on DCI Poplars and the Eastern Creek expansion (items 9 and 10) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18, not bought. The free routes already tried are in the notes above and the hunt log.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_DCI_POPLARS_CONSENT",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 60,
@@ -19345,11 +19399,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ANSWERED 2026-11-15 for the renewable-energy obligation; the hypothesis is FALSIFIED. The 'no ratchet' finding does not hold. Three of the 20 archived consent instruments (19 distinct projects - Davis Road appears twice, original and MOD 1) obligate the Applicant, before operation may commence and to the Planning Secretary's satisfaction, to offset all GHG from electricity 'including both non-IT and IT loads' by matching all operational demand to 'a portfolio of additional, firmed renewable energy supply at all times', with a Power Purchase Agreement and firming agreement for NSW-based supply within the NEM and a shortfall framework: Project Pluto SSD-69223466 B19/B20 (determined 23 July 2026), Project Apollo SSD-74069708 B22/B23 (2 September 2026), Glendenning Road SSD-73761707 B20/B21/B22/B23 (instrument dated 14 September 2026; the portal's determination field reads 16 September). None of the 16 earlier determinations in the archive carries it. In each case the Department's assessment report records a materially weaker offer first and then recommends the condition anyway: Glendenning p55 offered '100% renewable energy by 2040' against p56's pre-operation obligation; Apollo p59 said it 'has been purchasing 100% renewable electricity for electricity under their operational control' and the Department held outcomes 'materially dependent on the successful securing and performance of renewable energy procurement'; Pluto's EPA advice (p27) went no further than 'purchasing of renewable energy certificates', while its ESD Report (p50) offered 500 kW of rooftop solar offsetting 658 MWh/yr and 540 t CO2-e against 467,924 t CO2-e/yr stated - about 0.12% by arithmetic on the report's own two figures, a derivation and not a quoted fact. WHAT IS NOT RATCHETED: the numeric targets stay proponent-set (PUE 1.17 Glendenning, 1.4 Pluto); the conditions require reporting against them, not achieving a Department number. The ratchet is on timing, additionality, firming, geography and auditing - Glendenning B22 adds continuous IT-vs-total metering, annual PUE/WUE/CO2-e reporting, alignment with the NSW Guide for Large Emitters (EPA, 2025), prioritising recycled or non-potable water where available, and three-yearly revision, and B23 bars operation until the plan is approved. TIMING IS NARROWER THAN '2026': 1-5 Khartoum Road SSD-63235720, determined 11 March 2026, has renewable and PUE language and no at-all-times obligation, so the change falls between 11 March and 23 July 2026. CORRECTIONS to this gap's earlier note, which was written against 18 instruments: 20 instruments for 19 projects; EIGHT consents mention renewable supply (not four) and SEVEN mention PUE (not five). STILL OPEN, so this gap stays in_progress: no EIS is archived for any determined project, so the other 16 comparisons run through the assessment report's summary of the ESD Report; air quality, noise, water and traffic conditions are untested for a ratchet; the three firmed consents are also the three largest recent approvals, so 'the Department ratchets' and 'it ratchets on the biggest projects' cannot be separated; and Lanceley Place Artarmon SSD-66777221, approved 11 April 2025, has no instrument in the archive and no assessment-report attachment on its portal record, so the scan cannot speak to it. The policy text the conditions refer to ('in accordance with applicable NSW government policy') has not been located, so the cause of the mid-2026 change is not established. Full chain with page cites and SHA-256 prefixes: reports/hunts/RG-061.md.",
+   "notes": "ANSWERED 2026-11-15 for the renewable-energy obligation; the hypothesis is FALSIFIED. The 'no ratchet' finding does not hold. Three of the 20 archived consent instruments (19 distinct projects - Davis Road appears twice, original and MOD 1) obligate the Applicant, before operation may commence and to the Planning Secretary's satisfaction, to offset all GHG from electricity 'including both non-IT and IT loads' by matching all operational demand to 'a portfolio of additional, firmed renewable energy supply at all times', with a Power Purchase Agreement and firming agreement for NSW-based supply within the NEM and a shortfall framework: Project Pluto SSD-69223466 B19/B20 (determined 23 July 2026), Project Apollo SSD-74069708 B22/B23 (2 September 2026), Glendenning Road SSD-73761707 B20/B21/B22/B23 (instrument dated 14 September 2026; the portal's determination field reads 16 September). None of the 16 earlier determinations in the archive carries it. In each case the Department's assessment report records a materially weaker offer first and then recommends the condition anyway: Glendenning p55 offered '100% renewable energy by 2040' against p56's pre-operation obligation; Apollo p59 said it 'has been purchasing 100% renewable electricity for electricity under their operational control' and the Department held outcomes 'materially dependent on the successful securing and performance of renewable energy procurement'; Pluto's EPA advice (p27) went no further than 'purchasing of renewable energy certificates', while its ESD Report (p50) offered 500 kW of rooftop solar offsetting 658 MWh/yr and 540 t CO2-e against 467,924 t CO2-e/yr stated - about 0.12% by arithmetic on the report's own two figures, a derivation and not a quoted fact. WHAT IS NOT RATCHETED: the numeric targets stay proponent-set (PUE 1.17 Glendenning, 1.4 Pluto); the conditions require reporting against them, not achieving a Department number. The ratchet is on timing, additionality, firming, geography and auditing - Glendenning B22 adds continuous IT-vs-total metering, annual PUE/WUE/CO2-e reporting, alignment with the NSW Guide for Large Emitters (EPA, 2025), prioritising recycled or non-potable water where available, and three-yearly revision, and B23 bars operation until the plan is approved. TIMING IS NARROWER THAN '2026': 1-5 Khartoum Road SSD-63235720, determined 11 March 2026, has renewable and PUE language and no at-all-times obligation, so the change falls between 11 March and 23 July 2026. CORRECTIONS to this gap's earlier note, which was written against 18 instruments: 20 instruments for 19 projects; EIGHT consents mention renewable supply (not four) and SEVEN mention PUE (not five). STILL OPEN, so this gap stays in_progress: no EIS is archived for any determined project, so the other 16 comparisons run through the assessment report's summary of the ESD Report; air quality, noise, water and traffic conditions are untested for a ratchet; the three firmed consents are also the three largest recent approvals, so 'the Department ratchets' and 'it ratchets on the biggest projects' cannot be separated; and Lanceley Place Artarmon SSD-66777221, approved 11 April 2025, has no instrument in the archive and no assessment-report attachment on its portal record, so the scan cannot speak to it. The policy text the conditions refer to ('in accordance with applicable NSW government policy') has not been located, so the cause of the mid-2026 change is not established. Full chain with page cites and SHA-256 prefixes: reports/hunts/RG-061.md. UPDATED 2026-11-18 (research batch 8): GENERATOR HOURS AND DIESEL, counted by this pack's script across the 20 archived consent instruments (18 data centre consents; the Davis Road Mod 1 instrument and the Dicker Data warehouse carry no generator cap). 15 cap generator operation at 200 hours a year; the three decided since July 2026 set lower caps: Project Pluto 'exceed 173 hours per year', Project Apollo 187 and Glendenning Road 170. Project Apollo's cap is the applicant's own figure, not a tightening: its report says 'Routine generator testing of up to 187 hours per year is required', and that 'In response to EPA advice' the applicant said 'the generator operating regime has been revised to remain below 200 hours per year'. 200 hours is the line in the Guidelines: 'Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen'. The EPA's own reason for the cap is on the record at Macquarie Park: 'To ensure an EPL is not required, the EPA recommended a condition be imposed restricting the use and/or testing of any back-up generators installed at the site to a maximum of 200 hours per year.' At 1-5 Khartoum Road the consent condition is 200 hours while its own mitigation table says 'Total generator testing time is limited to 72 hours per year': the condition does not lock in the offer. 13 of the instruments say diesel storage 'does not exceed 2,000 tonnes', the licensing line for petroleum storage (RG-008). So on generator hours there is no ratchet below the 200-hour line except in the three newest consents, and in one of those the cap is exactly the applicant's offer.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-11-15"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 62,
@@ -19359,15 +19413,15 @@
    "target_source": "Consent conditions and approved Sustainability Management Plans for determined data centre SSDs; Sydney Water and utility recycled water scheme records",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": null,
+   "resolved_date": "2026-11-18",
+   "notes": "UPDATED 2026-11-18 (research batch 8): RESOLVED (negative). The NSW Data Centre Guidelines define the term: 'Recycled water includes that provided by recycled water networks or on-site water treatment, such as from captured stormwater.' Read against all 20 archived consent instruments and the modification reports read in batch 7, no consent or modification cites that definition or relies on it to meet a recycled-water expectation. Only two assessment reports mention the Guidelines (Glendenning Road and Project Apollo, both after their release on 17 August 2026); each says 'The Department has considered the Guidelines as a relevant consideration under section 4.15 of the EP&A Act' and lists the related conditions as renewable power purchase, retrofit capability, PUE and WUE monitoring through a Sustainability Management Plan, and amenity; recycled water is not among them. The closest usage predates the Guidelines: the DigiCo SYD1 consent (December 2025) lists, under 'Recycled water and reuse, through:', the 'Use of 2x5000L existing rainwater tanks', rainwater counted as recycled water, which is the reading the later definition allows. The three consents decided since July 2026 (Project Pluto, Project Apollo, Glendenning Road) instead require a 'review of available water servicing arrangements, in consultation with the relevant water service provider, to identify any alternative non-potable or recycled water supply options'. Re-open if a Sustainability Management Plan approved under one of them relies on the definition.",
    "fact_status": "VERIFIED",
-   "source_id": "SRC_NSWGUIDE_S3",
+   "source_id": "SRC_NSWGUIDE26",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 63,
@@ -19377,15 +19431,15 @@
    "target_source": "DPHI annual reports and budget papers; the NSW Data Centre Consultation Paper and its submissions; estimates hearings; the Legislative Council inquiry record",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 3). What is public: the 2025-26 Budget gave the Investment Delivery Authority $17.7 million, supported by a multi-agency Investment Taskforce in Investment NSW; a Deputy Secretary told the inquiry that the team supporting the IDA 'sits within my team in the Premier's Department'; the Guidelines commit to a concierge function within DPHI and dedicated post-consent staff. Headcount and cost of the DPHI concierge are not published, and no record read offers councils or community groups the same service. Next: DPHI's annual report and budget estimates.",
+   "notes": "ADVANCED 2026-10-22 (research batch 3). What is public: the 2025-26 Budget gave the Investment Delivery Authority $17.7 million, supported by a multi-agency Investment Taskforce in Investment NSW; a Deputy Secretary told the inquiry that the team supporting the IDA 'sits within my team in the Premier's Department'; the Guidelines commit to a concierge function within DPHI and dedicated post-consent staff. Headcount and cost of the DPHI concierge are not published, and no record read offers councils or community groups the same service. Next: DPHI's annual report and budget estimates. UPDATED 2026-11-18 (research batch 8, second pass): The Department's 2024-25 annual report is published only through the National Library's viewer, which served a bot-check page in place of the document (recorded). BLOCKED on download #33.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWGUIDE_S3",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 64,
@@ -19395,15 +19449,15 @@
    "target_source": "ASIC company extracts; ABR; the title documents and EIS for SSD-41589232 and SSD-67407231; tenancy disclosure from operators in both corridors",
    "retrieval_method": "asic_search",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22. EMKC Cubed Management Pty Ltd has been named CKTSME Management Pty Ltd on ASIC's register since 3 June 2025. In both its consents the assessment report says it was approached by a data centre operator it does not name; for Apollo Place, AirTrunk's own SYD2 page calls the project 'Phase 5 of AirTrunk's investment within the precinct' (RG-098), and for 51 Huntingwood Drive the operator's assets include 'the Huntingwood Data Centre ... at 24 Healey Circuit, Huntingwood'. HDI SYD1 Property Holdings was named Global Switch Property (Australia) until 12 May 2025, and the Department calls it DigiCo. The landowner's consent letters on Apollo Place and 51 Huntingwood Drive answer 401 and are in the drafted GIPA request. Still open: shareholders and directors (paid extracts), and which operator holds the 51 Huntingwood consent.",
+   "notes": "ADVANCED 2026-10-22. EMKC Cubed Management Pty Ltd has been named CKTSME Management Pty Ltd on ASIC's register since 3 June 2025. In both its consents the assessment report says it was approached by a data centre operator it does not name; for Apollo Place, AirTrunk's own SYD2 page calls the project 'Phase 5 of AirTrunk's investment within the precinct' (RG-098), and for 51 Huntingwood Drive the operator's assets include 'the Huntingwood Data Centre ... at 24 Healey Circuit, Huntingwood'. HDI SYD1 Property Holdings was named Global Switch Property (Australia) until 12 May 2025, and the Department calls it DigiCo. The landowner's consent letters on Apollo Place and 51 Huntingwood Drive answer 401 and are in the drafted GIPA request. Still open: shareholders and directors (paid extracts), and which operator holds the 51 Huntingwood consent. UPDATED 2026-11-18 (research batch 8): A primary record now ties the applicant of record to AirTrunk's site: the Lane Cove West Mod 3 peer review says its reviewer 'was engaged by EMKC Cubed Management (EMKC)' to review the noise assessment 'for the AirTrunk SYD2 Datacentre'. That is the relationship, not the ownership. BLOCKED at zero spend: the landowner's consent letters on Apollo Place and 51 Huntingwood Drive are items 7 and 8 of GIPA-001, which carries the $30 GIPA fee and is not lodged (author's decision, 2026-11-18); directors and shareholders need paid extracts, which are not bought (RG-081).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 65,
@@ -19467,15 +19521,15 @@
    "target_source": "Sydney Water and Melbourne Water recycled water supply agreements (FOI, RG-017); AirTrunk sustainability reports; the SYD1, SYD2 and MEL1 consents and their Sustainability Management Plans; footnote 23 of BCA Submission No 116",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": null,
+   "notes": "UPDATED 2026-11-18 (research batch 8, second pass): Free substitutes read, all silent: the Lane Cove West (AirTrunk SYD2) consent and its four modification reports, and the Apollo Place consent and assessment, mention 'recycled' only for construction waste, never for water; AirTrunk's April 2025 paper on cooling resources names no Australian site and no recycled-water supply. No record read shows an AirTrunk site holding a recycled-water agreement. The utility's own record is the only place one would appear: BLOCKED at zero spend on GIPA-004 (Sydney Water, $30, not lodged) and FOI-005 (Melbourne Water, $34.50, not lodged).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_BCA_SUB116",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 69,
@@ -19485,15 +19539,15 @@
    "target_source": "The SSD-10330 attachment (public but image-only); the NSW Planning Portal attachment index at exports/nsw_planning/nsw_dc_attachment_index.csv, searchable for 'political-donation'; the NSW Electoral Commission donations register; FOI to DPHI for a machine-readable version",
    "retrieval_method": "foi_request",
    "priority": 4,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied.",
+   "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, second pass): The NSW Electoral Commission's disclosure site disallows every crawler in its robots.txt (recorded). BLOCKED on download #34 (and GIPA-003, not lodged).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD10330_DONATION",
    "confidence": "medium",
-   "as_of_date": "2026-10-30"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 70,
@@ -19557,15 +19611,15 @@
    "target_source": "data/raw/nsw_planning/consents/*.txt title pages; the 6,866-attachment index; DPHI Assessment Reports (RTS) which name report authors",
    "retrieval_method": "manual_review",
    "priority": 1,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-09-18. The consultancy applicants of record are now established for all 20 consents (see RG-074 note): firms holding consents in their own name are Arup (two distinct legal entities), Cundall, Lehr and Greenbox. Appendix-level authorship still requires opening the 6,866 archived attachments; filenames alone remain insufficient evidence of authorship.",
+   "notes": "ADVANCED 2026-09-18. The consultancy applicants of record are now established for all 20 consents (see RG-074 note): firms holding consents in their own name are Arup (two distinct legal entities), Cundall, Lehr and Greenbox. Appendix-level authorship still requires opening the 6,866 archived attachments; filenames alone remain insufficient evidence of authorship. UPDATED 2026-11-18 (research batch 8): ACOUSTIC AND AIR QUALITY DONE: 35 reports opened, one noise and one air quality report per determined consent where the portal publishes them, each firm read from the report's own cover or document-control page (source SRC_NSWPORTAL_TECH_REPORTS). By firm: SLR Consulting: 8 (SSD-64287712 noise, SSD-64287712 air, SSD-74069708 noise, SSD-74069708 air, SSD-69223466 noise, SSD-10330 noise, SSD-10330 air, SSD-24299707 air); Northstar Air Quality: 6 (SSD-41589232 air, SSD-67407231 air, SSD-69637456 air, SSD-73761707 air, SSD-63741210 air, SSD-69223466 air); Arup Australia: 5 (SSD-63235720 noise, SSD-63235720 air, SSD-53338465 noise, SSD-53338465 air, SSD-47320208 noise); Arup: 4 (SSD-68013714 noise, SSD-68013714 air, SSD-9741 noise, SSD-9741 air); Pulse White Noise Acoustics: 4 (SSD-41589232 noise, SSD-69637456 noise, SSD-73761707 noise, SSD-33781208 noise); AECOM: 2 (SSD-10467 noise, SSD-10467 air); Cundall: 2 (SSD-59416728 noise, SSD-59416728 air); Renzo Tonin & Associates: 2 (SSD-67407231 noise, SSD-24299707 noise); Aurecon: 1 (SSD-63741210 noise); Benbow Environmental: 1 (SSD-33781208 air). WHERE A CONSULTANCY HOLDS THE CONSENT (applicants per RG-074), it wrote its own evidence in three of the six: Turner Road (applicant ARUP Pty Ltd; both reports by Arup Pty Limited), Project Echidna (applicant ARUP Australia; the noise report by Arup Australia; its air quality report is over the crawler's 120 MB limit) and Davis Road (applicant Cundall; both reports by Cundall). Lehr's two consents used other firms, each report written for its own practice, LCI Consultants; Lane Cove West's are by Arup. THE DEPARTMENT'S OWN RECORD can name the client as the author: its Station Road report lists the 'SSDA Acoustic Assessment Report prepared by LCI Consultants' (Issue 9), while the issue read here (Issue 8) names Pulse White Noise Acoustics as author and LCI Consultants as client. Not read: Project Echidna's air quality report, larger than the crawler's 120 MB limit (recorded; a person can save it). Where an earlier version of a report answered 401, a later published version was read instead. Still open: the other disciplines (traffic, flooding, heritage, hazards, greenhouse gas).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NSWPORTAL_CONSENTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 74,
@@ -19593,15 +19647,15 @@
    "target_source": "The peer review attachments themselves: a14-acoustic-peer-review (DigiCo SYD1); peer-review-acoustic-assessment (Lane Cove West mod 3); appendix-b4-acoustic-review-statement x2 (51 Huntingwood Drive mod 1)",
    "retrieval_method": "manual_review",
    "priority": 2,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": "Peer review confirmed to EXIST and to be rare (~5% of projects). Reviewing firms are not named in the filenames. Three documents to open.",
+   "resolved_date": "2026-11-18",
+   "notes": "Peer review confirmed to EXIST and to be rare (~5% of projects). Reviewing firms are not named in the filenames. Three documents to open. UPDATED 2026-11-18 (research batch 8): RESOLVED for the documents on the public record. Six of the 63 projects in the attachment index carry a review document by title: two acoustic peer reviews (DigiCo SYD1; Lane Cove West Mod 3); an acoustic and an air quality 'review statement' on 51 Huntingwood Drive Mod 1, a withdrawn modification (the acoustic one answered 401, not public; refusal recorded); and three greenhouse gas reviews (Project Atlas; Roberts Road Mods 2 and 4). OPENED: at DigiCo SYD1, 'Renzo Tonin & Associates (RTA) was engaged by Patch Planning, on behalf of HDI SYD1 Property Holdings Pty Limited (DigiCo) to peer review the noise and vibration impact assessment (NVIA) report undertaken by Pulse White Noise Acoustics (PWNA)', across 'reviews or partial reviews of eight revisions'. At Lane Cove West Mod 3 the same reviewer 'was engaged by EMKC Cubed Management (EMKC) to undertake an independent review of the Noise Impact Assessment (NIA) prepared by Pulse White Noise Acoustics (PWNA)', in 'seven reviews of the NIA'. Both letters say 'The peer review process did not involve any detailed modelling checks or remodelling by RTA.' At Roberts Road Mod 4, 'Zephyr Environmental Pty Ltd (Zephyr) has been engaged by Canberra Data Centres (CDC) to perform an independent review' of SLR Consulting's greenhouse gas report ('Revision 05, SLR Consulting, 16 July 2026'); under the EPA's Guide for Large Emitters, above 100,000 tonnes a year 'mitigation assessments must be verified by an independent expert review'. All three greenhouse reviews are by the same firm, Zephyr Environmental: Roberts Road Mod 2 ('engaged by Urbis, on behalf of Canberra Data Centres (CDC)', reviewing SLR's report) and Project Atlas, where 'The Assessment Report has been prepared by LCI on behalf of Goodman Property Services' and the reviewer 'has been engaged by LCI Consultants (LCI ), on behalf of Goodman Property Services': there the author of the report engaged its reviewer. The Mod 2 and Atlas letters each say 'No actual or perceived conflicts of interest have come to my attention, and I have not been employed by the proponent within the last five years'; the Mod 4 letter, written after the Mod 2 engagement for the same proponent, carries no such statement. Each review found the work 'adequate' or 'satisfactory'. ANSWER: in every review opened the reviewer is a different firm from the author, so no firm was found reviewing its own work; every review was engaged by the applicant, its planner or the report's author, none by the Department; the acoustic reviews checked by comment and meeting, not by re-running the model. The greenhouse reviews follow the EPA's rule; nothing read requires the acoustic ones.",
    "fact_status": "VERIFIED",
-   "source_id": "SRC_CONSENT_APPLICANTS",
+   "source_id": "SRC_SSD69637456_ACOUSTIC_PEER_REVIEW",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 76,
@@ -19615,7 +19669,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "DOCUMENTED NEGATIVE as at 18 September 2026. The 20 November 2025 TCS press release does not mention Australia anywhere; Chairman Chandrasekaran is quoted on building 'GW-scale AI data centers in India'; The Asset reports proceeds support 'firm's GW-scale AI data centre build in India'. No Australian application located. Recheck on any HyperVault announcement. UPDATED 2026-11-18 (research batch 7): Searched: TCS's own releases on HyperVault describe Indian campuses (Telangana) and a TPG investment; no Australian site, application or announcement was found. The absence is the working finding. Proposed to the author for closing as resolved-negative.",
+   "notes": "DOCUMENTED NEGATIVE as at 18 September 2026. The 20 November 2025 TCS press release does not mention Australia anywhere; Chairman Chandrasekaran is quoted on building 'GW-scale AI data centers in India'; The Asset reports proceeds support 'firm's GW-scale AI data centre build in India'. No Australian application located. Recheck on any HyperVault announcement. UPDATED 2026-11-18 (research batch 7): Searched: TCS's own releases on HyperVault describe Indian campuses (Telangana) and a TPG investment; no Australian site, application or announcement was found. The absence is the working finding. Proposed to the author for closing as resolved-negative. UPDATED 2026-11-18 (research batch 8): PROPOSED TO THE AUTHOR for closing as resolved-negative: two passes (2026-09-18, 2026-11-18) found no Australian site, application or announcement for TCS or HyperVault; the absence is the finding. Not closed by this pack.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CONSENT_APPLICANTS",
    "confidence": "high",
@@ -19683,15 +19737,15 @@
    "target_source": "The 18 paywalled Melbourne Water contracts; Melbourne Water contract disclosures; Victorian Tenders portal; Sydney Water and Melbourne Water FOI (pairs with RG-068)",
    "retrieval_method": "foi_request",
    "priority": 2,
-   "status": "open",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "Not started. Ten visible Melbourne Water scopes are all conventional IT (Citrix, SolarWinds, M365, DR, GIS, cyber PM, network zone, EOL hardware) with no water-supply planning content. The GIS and network-zone engagements are the two that could plausibly touch asset and supply geography.",
+   "notes": "Not started. Ten visible Melbourne Water scopes are all conventional IT (Citrix, SolarWinds, M365, DR, GIS, cyber PM, network zone, EOL hardware) with no water-supply planning content. The GIS and network-zone engagements are the two that could plausibly touch asset and supply geography. UPDATED 2026-11-18 (research batch 8, second pass): Free substitute read: Melbourne Water's Annual Report 2024-25 does not mention data centres or Tata Consultancy Services (checked by this pack's script). Its published tenders were not reached. BLOCKED at zero spend on FOI-005 ($34.50, not lodged).",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CONSENT_APPLICANTS",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 81,
@@ -19705,11 +19759,11 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (with RG-064 and RG-059). ASIC's register gives names, dates and former names: EMKC Cubed Management is now CKTSME Management (3 June 2025); HDI SYD1 Property Holdings was Global Switch Property (Australia) (renamed 12 May 2025); NineZero DC Sub TC I Pty Ltd exists (13 August 2015). Beneficial ownership still needs paid extracts. Note EMKC holds TWO consents and 'HDI SYD1' is a per-site holding company, so the structures are site-specific.",
+   "notes": "ADVANCED 2026-10-22 (with RG-064 and RG-059). ASIC's register gives names, dates and former names: EMKC Cubed Management is now CKTSME Management (3 June 2025); HDI SYD1 Property Holdings was Global Switch Property (Australia) (renamed 12 May 2025); NineZero DC Sub TC I Pty Ltd exists (13 August 2015). Beneficial ownership still needs paid extracts. Note EMKC holds TWO consents and 'HDI SYD1' is a per-site holding company, so the structures are site-specific. UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CONSENT_APPLICANTS",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 82,
@@ -19809,15 +19863,15 @@
    "target_source": "FOI to Department of Defence (Cyber Warfare Division; CASG) and ASD (scope-limited requests around hosting location and data jurisdiction); IRAP certificate/assessment scope via ASD; AWS Australia region facility disclosures; Palantir Platform Australia documentation",
    "retrieval_method": "foi_request",
    "priority": 5,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-21",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 4). What the public record holds: Palantir says its Australian platform is 'hosted in Australian Amazon Web Services (AWS) regions'; the Hosting Certification Framework register lists AWS's Australian regions and not Palantir; 11 of the Commonwealth's notices name the US parent. No notice says where a deployment runs. ASD is exempt from the FOI Act (Schedule 2), so the residency question can be put only to Defence: FOI-002 (docs/requests/) asks for the hosting and data-location terms of Defence's three current Palantir contracts, framed around location and jurisdiction, not capability, with the operational-intelligence exemption in mind.",
+   "notes": "ADVANCED 2026-10-22 (research batch 4). What the public record holds: Palantir says its Australian platform is 'hosted in Australian Amazon Web Services (AWS) regions'; the Hosting Certification Framework register lists AWS's Australian regions and not Palantir; 11 of the Commonwealth's notices name the US parent. No notice says where a deployment runs. ASD is exempt from the FOI Act (Schedule 2), so the residency question can be put only to Defence: FOI-002 (docs/requests/) asks for the hosting and data-location terms of Defence's three current Palantir contracts, framed around location and jurisdiction, not capability, with the operational-intelligence exemption in mind. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-002 to Defence: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_PALANTIR_IRAP_NOV25",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 88,
@@ -19845,15 +19899,15 @@
    "target_source": "FOI to ASD (existence and type of any Palantir certification or clearance decision, 2024-2025); Crikey right-of-response/clarification; Palantir media enquiries; ASD Certified Cloud Services List and IRAP assessment registers if published",
    "retrieval_method": "foi_request",
    "priority": 3,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-21",
    "resolved_date": null,
-   "notes": "WORKED 2026-10-22 (research batch 4). The question cannot be put to ASD: Schedule 2 of the FOI Act lists it as an exempt agency, and documents that originated with it are exempt in any agency's hands. Not on the public record: no ASD list names Palantir, and the Hosting Certification Framework register (which certifies hosting, not software) lists AWS's Australian regions but not Palantir. Route now: FOI-003 to Defence for its OWN records of any Defence Industry Security Program membership or facility clearance held by Palantir Technologies Australia, and of any review of Palantir's IRAP assessment, 2024-2025; and a right-of-reply question to Crikey about its source. Both claims stay sourced, neither fact.",
+   "notes": "WORKED 2026-10-22 (research batch 4). The question cannot be put to ASD: Schedule 2 of the FOI Act lists it as an exempt agency, and documents that originated with it are exempt in any agency's hands. Not on the public record: no ASD list names Palantir, and the Hosting Certification Framework register (which certifies hosting, not software) lists AWS's Australian regions but not Palantir. Route now: FOI-003 to Defence for its OWN records of any Defence Industry Security Program membership or facility clearance held by Palantir Technologies Australia, and of any review of Palantir's IRAP assessment, 2024-2025; and a right-of-reply question to Crikey about its source. Both claims stay sourced, neither fact. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-003 to Defence: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
    "fact_status": "REPORTED",
    "source_id": "SRC_CRIKEY_DEF_FEB26",
    "confidence": "medium",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 90,
@@ -19867,7 +19921,7 @@
    "owner": null,
    "opened": "2026-09-21",
    "resolved_date": null,
-   "notes": "WORKED 2026-10-22 (research batch 4). In the AusTender feed (2007 to October 2026) no notice names NVIDIA as supplier: 8 buy NVIDIA products through resellers, none of them AUKUS work. Only 2 notices mention AUKUS at all, and neither supplier is Palantir or NVIDIA. The 29 Palantir notices are software licences, support, data services and analytics. Search summaries found Pillar II awards to other companies only (leads, in the hunt log). defence.gov.au did not answer the crawler. Still unevidenced, so still not asserted: any Palantir or NVIDIA Pillar II work. Kelly's post-separation conditions: not found; the absence stays the working finding. UPDATED 2026-11-18 (research batch 7): Tried again: defence.gov.au reset the connection on the Pillar II news page (recorded). Search summaries name Pillar II awards to BAE Systems Australia, L3Harris and Mission Systems, not Palantir or NVIDIA (leads). Still unevidenced, still not asserted.",
+   "notes": "WORKED 2026-10-22 (research batch 4). In the AusTender feed (2007 to October 2026) no notice names NVIDIA as supplier: 8 buy NVIDIA products through resellers, none of them AUKUS work. Only 2 notices mention AUKUS at all, and neither supplier is Palantir or NVIDIA. The 29 Palantir notices are software licences, support, data services and analytics. Search summaries found Pillar II awards to other companies only (leads, in the hunt log). defence.gov.au did not answer the crawler. Still unevidenced, so still not asserted: any Palantir or NVIDIA Pillar II work. Kelly's post-separation conditions: not found; the absence stays the working finding. UPDATED 2026-11-18 (research batch 7): Tried again: defence.gov.au reset the connection on the Pillar II news page (recorded). Search summaries name Pillar II awards to BAE Systems Australia, L3Harris and Mission Systems, not Palantir or NVIDIA (leads). Still unevidenced, still not asserted. UPDATED 2026-11-18 (research batch 8): PROPOSED TO THE AUTHOR for closing as resolved-negative: the Commonwealth's Palantir notices are software, support and data services, none a Pillar II award; defence.gov.au has twice refused the crawler; nothing read places Palantir or NVIDIA in Pillar II work. Closing records the absence, not a denial. Not closed by this pack.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_ACOBA_PARMENTER",
    "confidence": "high",
@@ -19885,7 +19939,7 @@
    "owner": null,
    "opened": "2026-09-21",
    "resolved_date": null,
-   "notes": "Do not populate site rows from the NVIDIA release: partner marketing figures are CLAIMED and site-level capacity must come from consents or operator filings, per the live_capacity rule. UPDATED 2026-11-18 (research batch 7): NVIDIA's own release of 9 September 2026 names eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, AirTrunk) for 'Up to 2-Gigawatt Buildout by 2027' of DSX AI factories, and names no site. Mapping onto the register needs each partner's own site statement. Firmus's 'Project Southgate' is reported in Tasmania, Victoria, NSW, WA and the ACT (leads).",
+   "notes": "Do not populate site rows from the NVIDIA release: partner marketing figures are CLAIMED and site-level capacity must come from consents or operator filings, per the live_capacity rule. UPDATED 2026-11-18 (research batch 7): NVIDIA's own release of 9 September 2026 names eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, AirTrunk) for 'Up to 2-Gigawatt Buildout by 2027' of DSX AI factories, and names no site. Mapping onto the register needs each partner's own site statement. Firmus's 'Project Southgate' is reported in Tasmania, Victoria, NSW, WA and the ACT (leads). UPDATED 2026-11-18 (research batch 8, second pass): Sharon AI's June 2026 release on its NVIDIA collaboration is on a newswire whose robots.txt refused the crawler. LEADS (search summaries): 72 MW of new Australian capacity, with no city, state or host facility named. No partner statement read today places a DSX build on a site.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_NVIDIA_AU_2GW",
    "confidence": "high",
@@ -19917,15 +19971,15 @@
    "target_source": "buy.nsw / Buying for Victoria / QTenders searches (Palantir, ABN 48144948309); WA Police FRT trial disclosures and OIC WA correspondence; ACIC annual reports and FOI; NSW Police FOI on PhotoTrac/SIS successor tooling; AFP and Home Affairs procurement plans",
    "retrieval_method": "foi_request",
    "priority": 4,
-   "status": "in_progress",
+   "status": "blocked",
    "owner": null,
    "opened": "2026-09-21",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 4). WA: the live facial recognition trial runs on NEC, named in WA Police's own privacy impact assessment (NeoFace Watch, M40 algorithm; 'Data stored in Australia'); it does not mention Palantir. COMMONWEALTH: the ledger shows the ACIC has bought Palantir software since 2014 (5 notices, $6,068,875.14) and AUSTRAC since 2016 (6 notices, $28,117,548.41); no AFP or Home Affairs notice. What either agency runs on it is not stated. State police: the state portals refused (RG-086). FOI-004 to the ACIC asks what the software supports. The separation rule stands: no Palantir row links to an Australian policing capability without a primary source.",
+   "notes": "ADVANCED 2026-10-22 (research batch 4). WA: the live facial recognition trial runs on NEC, named in WA Police's own privacy impact assessment (NeoFace Watch, M40 algorithm; 'Data stored in Australia'); it does not mention Palantir. COMMONWEALTH: the ledger shows the ACIC has bought Palantir software since 2014 (5 notices, $6,068,875.14) and AUSTRAC since 2016 (6 notices, $28,117,548.41); no AFP or Home Affairs notice. What either agency runs on it is not stated. State police: the state portals refused (RG-086). FOI-004 to the ACIC asks what the software supports. The separation rule stands: no Palantir row links to an Australian policing capability without a primary source. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-004 to the ACIC: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_GUARDIAN_WA_FRT",
    "confidence": "high",
-   "as_of_date": "2026-10-22"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 94,
@@ -20047,11 +20101,11 @@
    "owner": null,
    "opened": "2026-10-14",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-14. Archived and read the article itself (version of 2026-10-02; it was not archived when first read on 2026-09-18, so that version cannot be shown): it does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland, so the two entities' claims are withdrawn and the two sites now take their better sources as primary. Re-sourced to the register: the provider counts in the Equinix, Digital Realty, Macquarie (now six sites, adding IC3e), DCI and Telstra notes, the framework's 'highest level of assurance' wording, and the Macquarie security record, which is derived from the register and now VERIFIED. The four capacity metrics it relays from Mandala and CBRE drop to low confidence. Marsden Park's application row now cites the portal and its assessment report. The Mandala report the article names (Data Centres as Enabling Infrastructure, November 2025, archived) does not state 1,350 MW or 3,100 MW, in megawatts or gigawatts, in its text (pages 46 and 47 of its 48 carry no text and were not read as images); it points to Mandala's October 2024 report, which this environment cannot fetch because the host's robots.txt refuses it, as does CDC's copy. CBRE answers 403. FROM THE ARCHIVED REGISTER (primary, SRC_HCF_REGISTER): its text names only 'the Department' and the page carries the Department of Home Affairs logo (corrected 2026-10-21: earlier notes overlooked the logo); it lists data centre facilities that match no site record here: Cloud Carrier DB1 (facility); Vocus TransACT House Dickson (enclave). RG-096 matched only existing records, so these are candidates for new site rows. LEADS ONLY, from search-engine summaries read on 2026-10-14 (below grade D, not relied on, and kept out of every fact row): the framework appears to have moved from the Digital Transformation Agency to Home Affairs on 1 May 2023 (the move and its date, not the current branding, are the lead); the 1,350 MW and 3,100 MW figures appear to come from Mandala's October 2024 report; and AustralianSuper appears to have announced a EUR 1.5bn minority investment in Vantage Data Centers' EMEA platform on 11 September 2023.",
+   "notes": "ADVANCED 2026-10-14. Archived and read the article itself (version of 2026-10-02; it was not archived when first read on 2026-09-18, so that version cannot be shown): it does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland, so the two entities' claims are withdrawn and the two sites now take their better sources as primary. Re-sourced to the register: the provider counts in the Equinix, Digital Realty, Macquarie (now six sites, adding IC3e), DCI and Telstra notes, the framework's 'highest level of assurance' wording, and the Macquarie security record, which is derived from the register and now VERIFIED. The four capacity metrics it relays from Mandala and CBRE drop to low confidence. Marsden Park's application row now cites the portal and its assessment report. The Mandala report the article names (Data Centres as Enabling Infrastructure, November 2025, archived) does not state 1,350 MW or 3,100 MW, in megawatts or gigawatts, in its text (pages 46 and 47 of its 48 carry no text and were not read as images); it points to Mandala's October 2024 report, which this environment cannot fetch because the host's robots.txt refuses it, as does CDC's copy. CBRE answers 403. FROM THE ARCHIVED REGISTER (primary, SRC_HCF_REGISTER): its text names only 'the Department' and the page carries the Department of Home Affairs logo (corrected 2026-10-21: earlier notes overlooked the logo); it lists data centre facilities that match no site record here: Cloud Carrier DB1 (facility); Vocus TransACT House Dickson (enclave). RG-096 matched only existing records, so these are candidates for new site rows. LEADS ONLY, from search-engine summaries read on 2026-10-14 (below grade D, not relied on, and kept out of every fact row): the framework appears to have moved from the Digital Transformation Agency to Home Affairs on 1 May 2023 (the move and its date, not the current branding, are the lead); the 1,350 MW and 3,100 MW figures appear to come from Mandala's October 2024 report; and AustralianSuper appears to have announced a EUR 1.5bn minority investment in Vantage Data Centers' EMEA platform on 11 September 2023. UPDATED 2026-11-18 (research batch 8, second pass): The two Mandala figures now rest on Mandala: the October 2024 report says 'data centre deployable capacity in Australia is projected to more than double from 1,350 megawatts (MW) in 2024 to 3,100 MW by 2030', and that it 'was commissioned by AirTrunk, Amazon Web Services, CDC, Microsoft, and NEXTDC'. Read from the copy AirTrunk publishes; Mandala's own host had refused. The two metrics are re-sourced to it (REPORTED, medium: an industry-commissioned projection). STILL ON CertifiedStrategic.com alone: the two CBRE figures (CBRE answered 403) and the national count of certified facilities.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CERTSTRAT",
    "confidence": "high",
-   "as_of_date": "2026-10-14"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 101,
@@ -20083,7 +20137,7 @@
    "owner": null,
    "opened": "2026-11-15",
    "resolved_date": null,
-   "notes": "OPENED 2026-11-15 by the RG-084 merge. The seed row cited SRC_CERTSTRAT for 'A$264m', 'for AWS' and 'a north-zone start in September 2026'. The archived article (data/raw/operators/certifiedstrategic/) does not contain the word 'Stockland' - checked by this script and by curate_certstrat_review.py - so the citation never supported the claim. The consent itself records approval, not construction. Nothing here has been read that names an end user or a start date. Until one is, the surviving row keeps status 'approved' and no anchor tenant. One lead, no more: the NSW IDA release of 27 March 2026 lists 'Stockland Project A City of Ryde' (recorded separately as SITE_STOCKLAND_PROJA) and states '**NB: One IDA endorsed data centre not listed due to commercial sensitivities**'. Whether the withheld project is this one is unknown and is not assumed. UPDATED 2026-11-18 (research batch 7): CONSTRUCTION ANSWERED, END USER NOT. The Department's March 2026 report on the neighbouring SSD-63235720 describes 'an existing data centre adjoining to the west at 11-17 Khartoum Road (SSD-10467)' and lists, among adjoining sites, 'one operational data centre, one under-construction data centre, and one data centre currently under assessment'. So SSD-10467 was built and operating by March 2026. Its own 2021 report says only that 'The Applicant has been approached by a data centre operator (the lessee)' who would operate it: one of the nine unnamed operators (RG-055). PROPOSED for the author: SITE_MACQUARIE_PARK_DC status `approved` -> `operational`, REPORTED on the Department's description. Not made by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): Status set to operational. The end user stays unnamed, so the question stays open for it.",
+   "notes": "OPENED 2026-11-15 by the RG-084 merge. The seed row cited SRC_CERTSTRAT for 'A$264m', 'for AWS' and 'a north-zone start in September 2026'. The archived article (data/raw/operators/certifiedstrategic/) does not contain the word 'Stockland' - checked by this script and by curate_certstrat_review.py - so the citation never supported the claim. The consent itself records approval, not construction. Nothing here has been read that names an end user or a start date. Until one is, the surviving row keeps status 'approved' and no anchor tenant. One lead, no more: the NSW IDA release of 27 March 2026 lists 'Stockland Project A City of Ryde' (recorded separately as SITE_STOCKLAND_PROJA) and states '**NB: One IDA endorsed data centre not listed due to commercial sensitivities**'. Whether the withheld project is this one is unknown and is not assumed. UPDATED 2026-11-18 (research batch 7): CONSTRUCTION ANSWERED, END USER NOT. The Department's March 2026 report on the neighbouring SSD-63235720 describes 'an existing data centre adjoining to the west at 11-17 Khartoum Road (SSD-10467)' and lists, among adjoining sites, 'one operational data centre, one under-construction data centre, and one data centre currently under assessment'. So SSD-10467 was built and operating by March 2026. Its own 2021 report says only that 'The Applicant has been approached by a data centre operator (the lessee)' who would operate it: one of the nine unnamed operators (RG-055). PROPOSED for the author: SITE_MACQUARIE_PARK_DC status `approved` -> `operational`, REPORTED on the Department's description. Not made by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): Status set to operational. The end user stays unnamed, so the question stays open for it. UPDATED 2026-11-18 (research batch 8, second pass): One more free search (Stockland's releases and the trade press): no record names the end user. A directory's 'believed to be' a cloud provider is speculation, not a record. PROPOSED TO THE AUTHOR as not retrievable at zero spend; the question would re-open on an operator's or Stockland's own statement. Not closed by this pack.",
    "fact_status": "REPORTED",
    "source_id": "SRC_NSWPORTAL_SSD10467",
    "confidence": "low",
@@ -29856,6 +29910,412 @@
    "entity_rowid": "SITE_FIRMUS_WESLEY_VALE",
    "source_id": "SRC_OP_FIRMUS_WESLEY_VALE",
    "quote": "Firmus plans to build a new AI Factory project at 226 Mill Road, Wesley Vale | Download Development Application | an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM). | The facility will have 40 backup generators"
+  },
+  {
+   "id": 841,
+   "entity_table": "research_gaps",
+   "entity_rowid": "62",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "Recycled water includes that provided by recycled water networks or on-site water treatment, such as from captured stormwater."
+  },
+  {
+   "id": 842,
+   "entity_table": "research_gaps",
+   "entity_rowid": "62",
+   "source_id": "SRC_NSWPORTAL_CONSENTS",
+   "quote": "Recycled water and reuse, through: o Use of 2x5000L existing rainwater tanks | review of available water servicing arrangements, in consultation with the relevant water service provider, to identify any alternative"
+  },
+  {
+   "id": 843,
+   "entity_table": "research_gaps",
+   "entity_rowid": "62",
+   "source_id": "SRC_SSD73761707_ASSESSMENT",
+   "quote": "The Department has considered the Guidelines as a relevant consideration under section 4.15 of the EP&A Act."
+  },
+  {
+   "id": 844,
+   "entity_table": "research_gaps",
+   "entity_rowid": "62",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "quote": "The Department has considered the Guidelines as a relevant consideration under section 4.15 of the EP&A Act."
+  },
+  {
+   "id": 845,
+   "entity_table": "research_gaps",
+   "entity_rowid": "61",
+   "source_id": "SRC_NSWGUIDE26",
+   "quote": "Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen"
+  },
+  {
+   "id": 846,
+   "entity_table": "research_gaps",
+   "entity_rowid": "61",
+   "source_id": "SRC_SSD10467_ASSESSMENT",
+   "quote": "To ensure an EPL is not required, the EPA recommended a condition be imposed restricting the use and/or testing of any back-up generators installed at the site to a maximum of 200 hours per year."
+  },
+  {
+   "id": 847,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD41589232_ASSESSMENT",
+   "quote": "an Environment Protection Licence (EPL) will need to be applied for and issued by the Environment Protection Authority (EPA) under the Protection of the Environment Operations Act 1997"
+  },
+  {
+   "id": 848,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD63741210_ASSESSMENT",
+   "quote": "The EPA advised the development would require an EPL for the quantity of diesel storage on the site above the thresholds of the POEO Act."
+  },
+  {
+   "id": 849,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD70889211_ASSESSMENT",
+   "quote": "The EPA advised the development would require an EPL for the quantity of diesel storage on the site above the thresholds of the POEO Act."
+  },
+  {
+   "id": 850,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD10330_MOD2_ASSESSMENT",
+   "quote": "will require an environment protection licence issued by the NSW Environment Protection Authority (EPA) under section 42 | The EPA advised t he development would require an environment protection licence under Schedule 1 of the Protection of the Environment Operations Act 1997 (POEO Act) for Chemical Storage (diesel fuel)."
+  },
+  {
+   "id": 851,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD10330_ASSESSMENT",
+   "quote": "The EPA also confirmed the testing regime proposed by the Applicant would not constitute a scheduled activity under the POEO Act and therefore the development would not require an EPL."
+  },
+  {
+   "id": 852,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD73761707_ASSESSMENT",
+   "quote": "Noted based on the information provided, the development would require an Environment Protection Licence (EPL) | The EPA noted the Applicant had confirmed the total diesel storage capacity of the site would be below 2,000 tonnes and, consequently, the development would not require an EPL under the POEO Act."
+  },
+  {
+   "id": 853,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD53338465_ASSESSMENT",
+   "quote": "recommended conditions to ensure the development would stay under the triggers for an EPL"
+  },
+  {
+   "id": 854,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD69223466_ASSESSMENT",
+   "quote": "recommended consent conditions to ensure diesel storage and generator testing remain below POEO Act thresholds and noted the Applicant must apply for an EPL if limits are exceeded"
+  },
+  {
+   "id": 855,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD74069708_ASSESSMENT",
+   "quote": "The EPA advised that the proposal does not appear to require an Environment Protection Licence under the POEO Act."
+  },
+  {
+   "id": 856,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD59416728_ASSESSMENT",
+   "quote": "The EPA did not provide any comments, noting the development would not require an Environment Protection Licence (EPL) under the Protection of the Environment Operations Act 1997 (POEO Act)."
+  },
+  {
+   "id": 857,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD67407231_ASSESSMENT",
+   "quote": "Advised the proposal does not trigger Schedule 1 of the POEO Act and does not require an EPL."
+  },
+  {
+   "id": 858,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD47320208_ASSESSMENT",
+   "quote": "The EPA advised it had no comments on the development as the development does not constitute a scheduled activity under Schedule 1 of the Protection of the Environment Operations Act 1997 (POEO Act)."
+  },
+  {
+   "id": 859,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD63168959_EIS",
+   "quote": "below the 2,000-tonne trigger for petroleum products storage for which an EPL would be required"
+  },
+  {
+   "id": 860,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD63235720_ASSESSMENT",
+   "quote": "the EPA provided no further comments on the development as an EPL is not required for the site and therefore the EPA does not consider itself to be the appropriate regulatory authority for air emissions associated with the development"
+  },
+  {
+   "id": 861,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD10467_ASSESSMENT",
+   "quote": "To ensure an EPL is not required, the EPA recommended a condition be imposed restricting the use and/or testing of any back-up generators installed at the site to a maximum of 200 hours per year."
+  },
+  {
+   "id": 862,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD21342738_ASSESSMENT",
+   "quote": "subject to conditions, an Environment Protection Licence (EPL) is not required"
+  },
+  {
+   "id": 863,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD24299707_ASSESSMENT",
+   "quote": "subject to conditions, an Environment Protection Licence (EPL) is not required"
+  },
+  {
+   "id": 864,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD33781208_ASSESSMENT",
+   "quote": "subject to conditions, an Environment Protection Licence (EPL) is not required"
+  },
+  {
+   "id": 865,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD10101987_ASSESSMENT",
+   "quote": "subject to conditions, an Environmental Protection Licence (EPL) is not required"
+  },
+  {
+   "id": 866,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD69637456_ASSESSMENT",
+   "quote": "The EPA noted the development does not require an environment protection licence"
+  },
+  {
+   "id": 867,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD9741_ASSESSMENT",
+   "quote": "Therefore, an Environment Protection Licence (EPL) is not required."
+  },
+  {
+   "id": 868,
+   "entity_table": "research_gaps",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD8662_ASSESSMENT",
+   "quote": "therefore an Environment Protection Licence (EPL) is not required"
+  },
+  {
+   "id": 869,
+   "entity_table": "research_gaps",
+   "entity_rowid": "75",
+   "source_id": "SRC_SSD69637456_ACOUSTIC_PEER_REVIEW",
+   "quote": "Renzo Tonin & Associates (RTA) was engaged by Patch Planning, on behalf of HDI SYD1 Property Holdings Pty Limited (DigiCo) to peer review the noise and vibration impact assessment (NVIA) report undertaken by Pulse White Noise Acoustics (PWNA) | The peer review process did not involve any detailed modelling checks or remodelling by RTA. | conducting reviews or partial reviews of eight revisions of the NVIA"
+  },
+  {
+   "id": 870,
+   "entity_table": "research_gaps",
+   "entity_rowid": "75",
+   "source_id": "SRC_SSD9741_MOD3_ACOUSTIC_PEER_REVIEW",
+   "quote": "Renzo Tonin & Associates (RTA) was engaged by EMKC Cubed Management (EMKC) to undertake an independent review of the Noise Impact Assessment (NIA) prepared by Pulse White Noise Acoustics (PWNA) for the Proposed S4.55 Modification Application for the AirTrunk SYD2 Datacentre | The peer review process did not involve any detailed modelling checks or remodelling by RTA. | conducting seven reviews of the NIA"
+  },
+  {
+   "id": 871,
+   "entity_table": "research_gaps",
+   "entity_rowid": "75",
+   "source_id": "SRC_SSD10330_MOD4_GHG_REVIEW",
+   "quote": "Zephyr Environmental Pty Ltd (Zephyr) has been engaged by Canberra Data Centres (CDC) to perform an independent review of the Greenhouse Gas (GHG) Assessment Report | Revision 05, SLR Consulting, 16 July 2026 | For projects with Scope 1 and 2 emissions exceeding 100,000 tCO 2-e per year at any time over the operational life of the project, mitigation assessments must be verified by an independent expert review. | CDC\u2019s offset strategy for the Eastern Creek modification is considered satisfactory"
+  },
+  {
+   "id": 872,
+   "entity_table": "research_gaps",
+   "entity_rowid": "75",
+   "source_id": "SRC_SSD101067971_GHG_REVIEW",
+   "quote": "Zephyr Environmental Pty Ltd (Zephyr) has been engaged by LCI Consultants (LCI ), on behalf of Goodman Property Services (Aust) Pty Ltd (Goodman Property Services) to perform an independent review of the Greenhouse Gas (GHG) Assessment Report | The Assessment Report has been prepared by LCI on behalf of Goodman Property Services | No actual or perceived conflicts of interest have come to my attention, and I have not been employed by the proponent within the last five years. | the mitigation strategy laid out for the proposed development is considered adequate"
+  },
+  {
+   "id": 873,
+   "entity_table": "research_gaps",
+   "entity_rowid": "75",
+   "source_id": "SRC_SSD10330_MOD2_GHG_REVIEW",
+   "quote": "Zephyr Environmental Pty Ltd (Zephyr) has been engaged by Urbis, on behalf of Canberra Data Centres (CDC) to perform an independent review of the Greenhouse Gas (GHG) Assessment Report | The GHG Assessment Report has been prepared by SLR Consulting Australia on behalf of CDC | No actual or perceived conflicts of interest have come to my attention, and I have not been employed by the proponent within the last five years. | CDC\u2019s offset strategy for the Eastern Creek modification is considered satisfactory"
+  },
+  {
+   "id": 874,
+   "entity_table": "research_gaps",
+   "entity_rowid": "73",
+   "source_id": "SRC_SSD33781208_ASSESSMENT",
+   "quote": "SSDA Acoustic Assessment Report prepared by LCI Consultants"
+  },
+  {
+   "id": 875,
+   "entity_table": "research_gaps",
+   "entity_rowid": "64",
+   "source_id": "SRC_SSD9741_MOD3_ACOUSTIC_PEER_REVIEW",
+   "quote": "Renzo Tonin & Associates (RTA) was engaged by EMKC Cubed Management (EMKC) to undertake an independent review of the Noise Impact Assessment (NIA) prepared by Pulse White Noise Acoustics (PWNA) for the Proposed S4.55 Modification Application for the AirTrunk SYD2 Datacentre"
+  },
+  {
+   "id": 876,
+   "entity_table": "research_gaps",
+   "entity_rowid": "34",
+   "source_id": "SRC_SSD9741_MOD4_ASSESSMENT",
+   "quote": "The proposed modification seeks to increase diesel storage capacity from 1,651 t to 1966.9 t, below the storage limit of 2,000 t specified in condition A6(c). | the Department has recommended new conditions requiring detailed monitoring and reporting of generator use"
+  },
+  {
+   "id": 877,
+   "entity_table": "research_gaps",
+   "entity_rowid": "34",
+   "source_id": "SRC_SSD66777221_MOD2_ASSESSMENT",
+   "quote": "30 x 2.8 MW / 3.5 MVA generators | 42 x 2.82 MW / 3.6 MVA generators | The electrical generation changes increase both the number and capacity of diesel generators, with associated increases in diesel storage."
+  },
+  {
+   "id": 878,
+   "entity_table": "research_gaps",
+   "entity_rowid": "34",
+   "source_id": "SRC_SSD9741_MOD3_ASSESSMENT",
+   "quote": "116 transformers / generators | 121 transformers / generators"
+  },
+  {
+   "id": 879,
+   "entity_table": "research_gaps",
+   "entity_rowid": "34",
+   "source_id": "SRC_SSD41589232_MOD2_ASSESSMENT",
+   "quote": "316 back-up diesel generators (No change)"
+  },
+  {
+   "id": 880,
+   "entity_table": "research_gaps",
+   "entity_rowid": "19",
+   "source_id": "SRC_TRANSGRID_SYSTEM_STRENGTH",
+   "quote": "fast-track the deployment of synchronous condensers at five strategic locations on Transgrid\u2019s network | including Kemps Creek (Western Sydney)"
+  },
+  {
+   "id": 881,
+   "entity_table": "research_gaps",
+   "entity_rowid": "19",
+   "source_id": "SRC_TRANSGRID_SYSTEM_STRENGTH_FAQ",
+   "quote": "Kemps Creek 500kV substation, off Gurner Avenue, West Hoxton in Western Sydney | Progressive energisation of synchronous condensers at the five sites is expected from early 2028 to early 2029. | two smaller synchronous condensers at each of the five sites"
+  },
+  {
+   "id": 882,
+   "entity_table": "research_gaps",
+   "entity_rowid": "18",
+   "source_id": "SRC_TRANSGRID_DC_CAPACITY",
+   "quote": "Require large users, such as data centres, to play their role in maintaining system security, strength and reliability during the energy transition."
+  },
+  {
+   "id": 883,
+   "entity_table": "research_gaps",
+   "entity_rowid": "43",
+   "source_id": "SRC_TRANSGRID_DC_CAPACITY",
+   "quote": "Households and businesses should not bear the cost or risk associated with this growth. | Capacity to connect to the transmission network in the Sydney basin is largely exhausted | data centre connection enquiries totaling more than 10 GW within a 12 km radius of Sydney West | network capacity is only allocated upon signature of a Network Connection Agreement (NCA) | an inverter-based load greater than or equal to 30 MW or 30 MVA"
+  },
+  {
+   "id": 884,
+   "entity_table": "research_gaps",
+   "entity_rowid": "100",
+   "source_id": "SRC_MANDALA_EADF_2024",
+   "quote": "data centre deployable capacity in Australia is projected to more than double from 1,350 megawatts (MW) in 2024 to 3,100 MW by 2030 | The analysis in this report was commissioned by AirTrunk, Amazon Web Services, CDC, Microsoft, and NEXTDC and prepared by Mandala."
+  },
+  {
+   "id": 885,
+   "entity_table": "research_gaps",
+   "entity_rowid": "80",
+   "source_id": "SRC_MELBOURNE_WATER_AR_2025",
+   "quote": "Melbourne Water Annual Report 2024-25"
+  },
+  {
+   "id": 886,
+   "entity_table": "modifications",
+   "entity_rowid": "13",
+   "source_id": "SRC_SSD9741_MOD4_ASSESSMENT",
+   "quote": "The proposed modification seeks to increase diesel storage capacity from 1,651 t to 1966.9 t, below the storage limit of 2,000 t specified in condition A6(c). | increase the quantity of lithium-ion batteries from 55 t (as modified by the approved FSS) to 308 t | the Department has recommended new conditions requiring detailed monitoring and reporting of generator use | the Department made the modification application publicly available on the Department\u2019s website on 9 July 2025 | the A/Team Leader, Industry Assessments, may determine the application under delegation"
+  },
+  {
+   "id": 887,
+   "entity_table": "modifications",
+   "entity_rowid": "8",
+   "source_id": "SRC_SSD66777221_MOD2_ASSESSMENT",
+   "quote": "30 x 2.8 MW / 3.5 MVA generators | 42 x 2.82 MW / 3.6 MVA generators | The electrical generation changes increase both the number and capacity of diesel generators, with associated increases in diesel storage. | The approved development included 170,000 kg of lithium-ion batteries and 895,000 L of diesel | the Department made the modification application publicly available on the Department\u2019s website on 27 January 2026"
+  },
+  {
+   "id": 888,
+   "entity_table": "modifications",
+   "entity_rowid": "12",
+   "source_id": "SRC_SSD9741_MOD3_ASSESSMENT",
+   "quote": "116 transformers / generators | 121 transformers / generators | publicly exhibited the modification from 21 February 2023 until 6 March 2023 | 138 MW \u2022 No change"
+  },
+  {
+   "id": 889,
+   "entity_table": "modifications",
+   "entity_rowid": "11",
+   "source_id": "SRC_SSD9741_MOD2_ASSESSMENT",
+   "quote": "pursuant to section 4.55(2) | A total of seven submissions were received on the modification application during the exhibition period"
+  },
+  {
+   "id": 890,
+   "entity_table": "modifications",
+   "entity_rowid": "6",
+   "source_id": "SRC_SSD41589232_MOD2_ASSESSMENT",
+   "quote": "316 back-up diesel generators (No change) | The application was lodged on 12 June 2026 by AW Edwards Pty Ltd pursuant to section 4.55(1A) | a total capacity of 400 megawatts (MW)"
+  },
+  {
+   "id": 891,
+   "entity_table": "modifications",
+   "entity_rowid": "16",
+   "source_id": "SRC_MP080259_MOD7_ASSESSMENT",
+   "quote": "the gantry structure would accommodate the storage of 1,288,600 L of diesel | The modification application was not exhibited, however, was notified to Council and made publicly available"
+  },
+  {
+   "id": 892,
+   "entity_table": "modifications",
+   "entity_rowid": "9",
+   "source_id": "SRC_SSD10101987_MOD1_ASSESSMENT",
+   "quote": "to allow for fit-out works to occur prior to operations commencing at the site"
+  },
+  {
+   "id": 893,
+   "entity_table": "modifications",
+   "entity_rowid": "4",
+   "source_id": "SRC_SSD10330_MOD1_ASSESSMENT",
+   "quote": "increase the building height from three storeys to four storeys"
+  },
+  {
+   "id": 894,
+   "entity_table": "modifications",
+   "entity_rowid": "10",
+   "source_id": "SRC_SSD59416728_MOD1_ASSESSMENT",
+   "quote": "to amend the number of existing trees to be removed by the development"
+  },
+  {
+   "id": 895,
+   "entity_table": "modifications",
+   "entity_rowid": "7",
+   "source_id": "SRC_SSD66777221_MOD3_ASSESSMENT",
+   "quote": "to facilitate architectural modifications to the switch room and reinstatement of an existing fire brigade crossover"
+  },
+  {
+   "id": 896,
+   "entity_table": "modifications",
+   "entity_rowid": "17",
+   "source_id": "SRC_SSD10479_MOD8_REPORT",
+   "quote": "seeks to amend the configuration of Intersection 4"
+  },
+  {
+   "id": 897,
+   "entity_table": "metrics",
+   "entity_rowid": "11",
+   "source_id": "SRC_MANDALA_EADF_2024",
+   "quote": "data centre deployable capacity in Australia is projected to more than double from 1,350 megawatts (MW) in 2024 to 3,100 MW by 2030"
+  },
+  {
+   "id": 898,
+   "entity_table": "metrics",
+   "entity_rowid": "12",
+   "source_id": "SRC_MANDALA_EADF_2024",
+   "quote": "data centre deployable capacity in Australia is projected to more than double from 1,350 megawatts (MW) in 2024 to 3,100 MW by 2030"
   }
  ],
  "sources": [
@@ -33235,6 +33695,248 @@
    "accessed": "2026-11-18",
    "credibility": "A",
    "notes": "Read 2026-11-18 from the NSW Planning Portal (Modification Report - Roberts Road Data Centre_MOD 4_.pdf), SHA-256 3dd19135d04e963d81103b507d4553d6cc95ae7fcb74ce46ff19c12fa2f537da, 68 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-4_mod_report.txt with its manifest; the PDF is not committed (re-fetch it from the manifest's url and check the hash). RG-045."
+  },
+  {
+   "id": "SRC_SSD69637456_ACOUSTIC_PEER_REVIEW",
+   "title": "DigiCo SYD1 Data Centre Expansion - Peer review of Noise and Vibration Impact Assessment (SSD-69637456)",
+   "publisher": "Renzo Tonin & Associates, for the applicant (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-83206457%2120250902T073832.685+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2025-09-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "A two-page letter. The applicant's planner, on behalf of HDI SYD1 Property Holdings (DigiCo), engaged Renzo Tonin & Associates to peer review Pulse White Noise Acoustics' noise and vibration assessment, over eight revisions; the letter says the review 'did not involve any detailed modelling checks or remodelling'. RG-075. Read 2026-11-18 from the NSW Planning Portal (A14 - Acoustic Peer Review.pdf), SHA-256 970415f85c98c184b2a2b05a74e87c2b19584abdcf31117928e5c9dc2adc75e6, 2 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-69637456_acoustic_peer_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+  },
+  {
+   "id": "SRC_SSD9741_MOD3_ACOUSTIC_PEER_REVIEW",
+   "title": "Acoustic Assessment AirTrunk SYD2 Datacentre, 1 Sirius Rd, Lane Cove West - Peer Review (SSD-9741-Mod-3)",
+   "publisher": "Renzo Tonin & Associates, for the applicant (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-55030963%2120230907T070724.442+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2023-07-18",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "A two-page letter. EMKC Cubed Management engaged Renzo Tonin & Associates to review Pulse White Noise Acoustics' noise impact assessment for the Mod 3 application 'for the AirTrunk SYD2 Datacentre', over seven reviews; no remodelling. A primary record tying the applicant of record to AirTrunk's SYD2 (RG-064, a lead on the relationship, not on ownership). RG-075. Read 2026-11-18 from the NSW Planning Portal (TN357-01F03 Acoustic Assessment - Peer Review $28r0$29.pdf), SHA-256 a499e2da1e1063c26b81acd7779d851a484d50d3ca9786f1015b083ec137932f, 2 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-9741-Mod-3_acoustic_peer_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+  },
+  {
+   "id": "SRC_SSD10330_MOD4_GHG_REVIEW",
+   "title": "Independent review for a data centre in accordance with the NSW EPA's Guide for Large Emitters (Roberts Road Data Centre Mod 4, SSD-10330-Mod-4)",
+   "publisher": "Zephyr Environmental, for the applicant (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-4%2120260813T051137.062+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2026-07-30",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The independent expert review of SLR Consulting's greenhouse gas assessment for Roberts Road Mod 4, engaged by CDC, as section 4.7 of the EPA's Guide for Large Emitters requires. The modification adds 24 diesel generators and 32 chillers and is expected to exceed 25,000 tonnes CO2-e a year of Scope 1 and 2 emissions. The letter is headed 'RESTRICTED' but the portal publishes it as public. RG-075. Read 2026-11-18 from the NSW Planning Portal (Appendix N_GHG Peer Review.pdf), SHA-256 cd24aef8179af02b56e0e570c55946cc6e5ed2957636c04625e388c45fbffe63, 6 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-4_ghg_peer_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+  },
+  {
+   "id": "SRC_SSD101067971_GHG_REVIEW",
+   "title": "Project Atlas - Independent Reviewer Report for a data centre in accordance with the NSW EPA's Guide for Large Emitters (SSD-101067971)",
+   "publisher": "Zephyr Environmental, for the applicant (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-101067971%2120260514T043605.266+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2026-03-23",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The independent expert review of the Project Atlas greenhouse gas assessment. The assessment 'has been prepared by LCI on behalf of Goodman Property Services', and the reviewer was 'engaged by LCI Consultants (LCI), on behalf of Goodman Property Services': the author of the report engaged its reviewer. The reviewer states no actual or perceived conflict of interest and finds the mitigation strategy 'adequate'. RG-075. Read 2026-11-18 from the NSW Planning Portal (Appendix PP Independent Expert Review of Greenhouse Gas Assessment.pdf), SHA-256 1e55d4c76d1c838f027c971ea5b682133a757c617289cc51c8a5deb913410b9c, 11 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-101067971_ghg_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+  },
+  {
+   "id": "SRC_SSD10330_MOD2_GHG_REVIEW",
+   "title": "Eastern Creek Data Centre - Independent Reviewer Report for a data centre in accordance with the NSW EPA's Guide for Large Emitters (Roberts Road Mod 2, SSD-10330-Mod-2)",
+   "publisher": "Zephyr Environmental, for the applicant (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=RFI-100093456%2120251210T234934.223+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2025-11-25",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The independent expert review of SLR Consulting's greenhouse gas assessment for Roberts Road Mod 2, engaged by the planning consultant Urbis on behalf of CDC. It states no actual or perceived conflict of interest and finds CDC's offset strategy 'satisfactory'. RG-075. Read 2026-11-18 from the NSW Planning Portal (Attachment H_GHG Independent Reviewer Report.pdf), SHA-256 6b2c4edbbe2cb48f7cb5dcc8c275a1284fa3eccbc1fce36e81635307e0a6eeb2, 10 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-2_ghg_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+  },
+  {
+   "id": "SRC_NSWPORTAL_TECH_REPORTS",
+   "title": "Acoustic and air quality assessments for determined NSW data centre consents (bulk read of 35 reports)",
+   "publisher": "Prepared for the applicants (NSW Planning Portal)",
+   "url": "https://www.planningportal.nsw.gov.au/major-projects",
+   "doc_type": "primary_planning_portal",
+   "published": null,
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "One noise or acoustic report and one air quality report per determined data centre consent, read from the planning portal on 2026-11-18 for the firm that prepared each, taken from the report's own cover or document-control page, not from its filename. Each is archived at data/raw/nsw_planning/documents/<case>_<kind>.txt with a manifest holding its URL and full SHA-256; personal names in document-control tables are not recorded here. SSD-63235720 noise assessment: Arup Australia (appendix-k-noise-and-vibration-impact-assessment-475, SHA-256 61aad7b2a2cbd29f...); SSD-63235720 air quality report: Arup Australia (appendix-j-air-quality-impact-assessment-382, SHA-256 6f310bdc64f09b09...); SSD-68013714 noise assessment: Arup (appendix-m-noise-and-vibration-assessment-report-39, SHA-256 c166551d47e2a258...); SSD-68013714 air quality report: Arup (appendix-l-air-quality-technical-report-39, SHA-256 8857ff828a8444a6...); SSD-41589232 noise assessment: Pulse White Noise Acoustics (appendix-25-acoustic-assessment-report-73, SHA-256 45c3d13a024a9733...); SSD-41589232 air quality report: Northstar Air Quality (appendix-24-air-quality-impact-assessment-207, SHA-256 cf8bad2e589b8b23...); SSD-67407231 noise assessment: Renzo Tonin & Associates (appendix-19-noise-and-vibration-impact-assessment-171, SHA-256 8db9867bf445f747...); SSD-67407231 air quality report: Northstar Air Quality (appendix-18-air-quality-impact-assessment-68, SHA-256 701260098e25dfc3...); SSD-59416728 noise assessment: Cundall (appendix-15-noise-and-vibration-impact-assessment-61, SHA-256 ebd6d7ca06e8689f...); SSD-59416728 air quality report: Cundall (appendix-14-air-quality-impact-assessment-62, SHA-256 788e18f55ba279ab...); SSD-64287712 noise assessment: SLR Consulting (appendix-onoise-assessment-33, SHA-256 025f9ca739a03720...); SSD-64287712 air quality report: SLR Consulting (appendix-pair-quality-assessment-33, SHA-256 fb2ca176dfae6e0b...); SSD-69637456 noise assessment: Pulse White Noise Acoustics (a7-updated-noise-and-vibration-impact-assessment-15, SHA-256 becb148445f54007...); SSD-69637456 air quality report: Northstar Air Quality (appendix-11-air-quality-impact-assessment-46, SHA-256 c385817de97d403a...); SSD-73761707 noise assessment: Pulse White Noise Acoustics (appendix-d10-noise-and-vibration-impact-assessment-0, SHA-256 4733042eb5946dac...); SSD-73761707 air quality report: Northstar Air Quality (appendix-17-air-quality-impact-assessment-36, SHA-256 5e6b9fc7f3a6b056...); SSD-53338465 noise assessment: Arup Australia (a4-noise-impact-assessment-7, SHA-256 7c6251fbd3873017...); SSD-53338465 air quality report: Arup Australia (a12-air-quality-impact-assessment-51, SHA-256 2380b34acc5f3a97...); SSD-9741 noise assessment: Arup (appendix-19-noise-impact-assessment-226, SHA-256 a298ae5fc5741f8a...); SSD-9741 air quality report: Arup (appendix-21-air-quality-impact-assessment-9, SHA-256 0905e131bb01dea7...); SSD-10467 noise assessment: AECOM (appendix-j-noise-and-vibration-impact-assessment-1, SHA-256 43c918dede080e3f...); SSD-10467 air quality report: AECOM (appendix-i-air-quality-impact-assessment-3, SHA-256 ea389600e79af6e5...); SSD-63741210 noise assessment: Aurecon (appendix-p-noise-and-vibration-assessment-107, SHA-256 6212e635084b039f...); SSD-63741210 air quality report: Northstar Air Quality (appendix-o-air-quality-impact-assessment-700, SHA-256 6827e31d7095f653...); SSD-74069708 noise assessment: SLR Consulting (appendixq-noiseandvibrationimpactassessment-3, SHA-256 8d7a927967d95b79...); SSD-74069708 air quality report: SLR Consulting (appendix-x-air-quality-impact-assessment-174, SHA-256 3b03eb7f54ca197d...); SSD-47320208 noise assessment: Arup Australia (project-echidna-eis-appendix-h-noise-and-vibration-assessment-42, SHA-256 d0b14d3f3760662b...); SSD-69223466 noise assessment: SLR Consulting (appendix-u-noise-vibration-impact-assessment-71, SHA-256 2331c42d1a36565b...); SSD-69223466 air quality report: Northstar Air Quality (appendix-t-air-quality-33, SHA-256 b84b81c50cb5e57c...); SSD-10330 noise assessment: SLR Consulting (appendix-n-noise-and-vibration-assessment-report-0, SHA-256 e6b1d3681db4f7b3...); SSD-10330 air quality report: SLR Consulting (appendix-o-air-quality-assessment-report-0, SHA-256 2a9b0a48f9b456fd...); SSD-33781208 noise assessment: Pulse White Noise Acoustics (a8-acoustic-report-40, SHA-256 e6cdb23be4b43c9c...); SSD-33781208 air quality report: Benbow Environmental (appendix-13-aqia-62, SHA-256 f0d1f92cb7e32c84...); SSD-24299707 noise assessment: Renzo Tonin & Associates (appendix-14-noise-and-vibration-report-70, SHA-256 a2cc5493c26c2b11...); SSD-24299707 air quality report: SLR Consulting (appendix-15-air-quality-impact-assessment-123, SHA-256 f9480fc30eca615a...). RG-073."
+  },
+  {
+   "id": "SRC_SSD9741_MOD4_ASSESSMENT",
+   "title": "Modification 4 of Lane Cove West Data Centre (SSD-9741-Mod-4) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-4%2120251009T213728.329+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2025-10-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-9741-Mod-4 Assessment Report.pdf), SHA-256 5741be47c928e149ed042b2012db4fe38cea4c9a1c4e16d0af2c05808fb66f90, 29 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-9741-Mod-4_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD66777221_MOD2_ASSESSMENT",
+   "title": "Modification 2 of Lanceley Place Data Centre (SSD-66777221-Mod-2) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-66777221-MOD-2%2120260414T055621.028+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2026-04-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-MOD Assessment Report.pdf), SHA-256 5c62d41e92b44f04c12acb460995a9670b82eead4a073c9ca8f4625153e8e2d7, 26 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-66777221-Mod-2_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD9741_MOD3_ASSESSMENT",
+   "title": "Modification 3 of Lane Cove West Data Centre (SSD-9741-Mod-3) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-3%2120240613T023700.178+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2024-06-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (Signed - SSD Assessment Report.pdf), SHA-256 361259c14f6e1e1c63d45627b0d2aa6dc9d25637bffe4bb63a64084bafb31527, 37 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-9741-Mod-3_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD9741_MOD2_ASSESSMENT",
+   "title": "Lane Cove Data Centre Modification 2 (SSD-9741-Mod-2) - Modification Assessment",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-2%2120201217T231129.232+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2020-12-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (MOD 2 - Assessment Report.pdf), SHA-256 c70d559e38831a8cf89ca217094d9e9425ebab21fe9feda10c5e659d5a8c1d88, 29 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-9741-Mod-2_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD41589232_MOD2_ASSESSMENT",
+   "title": "Modification 2 of 51 Huntingwood Drive Data Centre (SSD-41589232-Mod-2) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-41589232-MOD-2%2120260828T070329.740+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2026-08-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-MOD Assessment Report - Signed.pdf), SHA-256 5c8d6f1e25f3582b0943b4eb36858b03295544165be5290dcc666e9b216c4f9d, 29 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-41589232-Mod-2_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_MP080259_MOD7_ASSESSMENT",
+   "title": "Greystanes Employment Lands - Dexus Estate Modification 7 (MP08_0259-Mod-7) - Modification Assessment",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=MP08_0259-MOD-7%2120220930T044931.023+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2022-09-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (Signed - Modification Assessment Report - MP08_0259-Mod-7.pdf), SHA-256 435cdcc3f454f124c1f672214cbd57cf53652df68eaad711a5f4ee89fe7b631d, 25 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/MP08_0259-Mod-7_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD10101987_MOD1_ASSESSMENT",
+   "title": "Modification 1 of the Kemps Creek Data Centre (SSD-10101987-Mod-1) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10101987-MOD-1%2120241119T032505.604+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2024-11-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (MOD 1 - Assessment Report.pdf), SHA-256 dbe2d667dd55666c48236de1188c292be61c6db1dee488b758e31b0ac71c5de0, 17 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10101987-Mod-1_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD10330_MOD1_ASSESSMENT",
+   "title": "Modification 1 of the Roberts Road Data Centre (SSD-10330-Mod-1) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-1%2120240417T064710.248+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2024-04-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-10330-Mod-1 Assessment Report.pdf), SHA-256 39b133c05b3d05c2e893fd57d2c66fd7c66e3a1ad2eaaee82428dc63c3f91a95, 32 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-1_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD59416728_MOD1_ASSESSMENT",
+   "title": "Modification 1 of Davis Road Data Centre (Cundall) (SSD-59416728-MOD-1) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728-MOD-1%2120250815T064539.896+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2025-08-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (Assessment Report.pdf), SHA-256 4e08a8870f49f669e88fad4a6d1442b4801e5184bfc898780ab6562c0eda2ee9, 17 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-59416728-Mod-1_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD66777221_MOD3_ASSESSMENT",
+   "title": "Modification 3 of Lanceley Place Data Centre (SSD-66777221-Mod-3) - Assessment Report",
+   "publisher": "NSW Department of Planning, Housing and Infrastructure (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-66777221-MOD-3%2120260812T060607.032+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2026-08-01",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-MOD Assessment Report.pdf), SHA-256 1b5ac238b12f5558c68ac733b9be874adaa49d1127f89ca7a39ee39066b61703, 20 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-66777221-Mod-3_mod_assessment.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_SSD10479_MOD8_REPORT",
+   "title": "200 Aldington Road Industrial Estate (SSD-10479) - Section 4.55(1A) Modification Application Report",
+   "publisher": "Prepared for the applicant (NSW Planning Portal)",
+   "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10479-MOD-8%2120260824T044122.223+GMT",
+   "doc_type": "primary_planning_portal",
+   "published": "2026-08-21",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read 2026-11-18 from the NSW Planning Portal (Section 4.55$281A$29 Modification Application_21.08.26.pdf), SHA-256 c6e0936dd3938273e92076a37a41e7343e7e9dac8f06f31af3578c5a05611e0f, 31 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10479-Mod-8_mod_report.txt with its manifest; the PDF is not committed. Published month as printed on the report. RG-034."
+  },
+  {
+   "id": "SRC_TRANSGRID_DC_CAPACITY",
+   "title": "Data centres and electricity capacity in NSW (Transgrid network connections page)",
+   "publisher": "Transgrid",
+   "url": "https://www.transgrid.com.au/about-us/network/network-connections/data-centres-and-electricity-capacity-in-nsw/",
+   "doc_type": "primary_company",
+   "published": null,
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The transmission network owner's own page on data centre connections. Says capacity in the Sydney basin is 'largely exhausted'; that since late 2024 it has received data centre connection enquiries of 'more than 10 GW within a 12 km radius of Sydney West'; that capacity is allocated only on signature of a Network Connection Agreement, for loads of 30 MW or more; and that large users should 'play their role' in system security and strength, with households and businesses not bearing the cost. Undated; read as at the access date. RG-018, RG-043. ARCHIVED 2026-11-18 at data/raw/operators/transgrid/ with a SHA-256 manifest (90d9c7dba79e1ac2...)."
+  },
+  {
+   "id": "SRC_TRANSGRID_SYSTEM_STRENGTH",
+   "title": "System Strength Project (Transgrid project page)",
+   "publisher": "Transgrid",
+   "url": "https://www.transgrid.com.au/projects-innovation/system-strength-project/",
+   "doc_type": "primary_company",
+   "published": null,
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Transgrid's page for the synchronous condensers it is deploying at five substations, including Kemps Creek (Western Sydney), directed by the NSW Government as a Priority Network Infrastructure Project. RG-019. ARCHIVED 2026-11-18 at data/raw/operators/transgrid/ with a SHA-256 manifest (9c51e508483f25ab...)."
+  },
+  {
+   "id": "SRC_TRANSGRID_SYSTEM_STRENGTH_FAQ",
+   "title": "System Strength Project - frequently asked questions (Transgrid)",
+   "publisher": "Transgrid",
+   "url": "https://www.transgrid.com.au/media/aqje5km1/system_strength_project_faq.pdf",
+   "doc_type": "primary_company",
+   "published": null,
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Places the Western Sydney installation at the Kemps Creek 500 kV substation, off Gurner Avenue, West Hoxton: two smaller synchronous condensers at each of five sites, construction from mid-2026, progressive energisation early 2028 to early 2029. Names no data centre. RG-019. ARCHIVED 2026-11-18 at data/raw/operators/transgrid/ with a SHA-256 manifest (ccab2900c68e9dc2...)."
+  },
+  {
+   "id": "SRC_MANDALA_EADF_2024",
+   "title": "Empowering Australia's Digital Future - Data Centres: Essential digital infrastructure underpinning everyday life (Mandala, October 2024)",
+   "publisher": "Mandala, commissioned by AirTrunk, Amazon Web Services, CDC, Microsoft and NEXTDC",
+   "url": "https://airtrunk.com/wp-content/uploads/2024/10/Empowering-Australias-Digital-Future-Report.pdf",
+   "doc_type": "market_research",
+   "published": "2024-10-01",
+   "accessed": "2026-11-18",
+   "credibility": "B",
+   "notes": "The report CertifiedStrategic.com relayed. It states deployable capacity of 1,350 MW in 2024 and 3,100 MW by 2030 in its own words; an industry-commissioned projection, so REPORTED, not verified. Read from the copy AirTrunk, one of the commissioning operators, publishes on its own site; Mandala's own host refused the crawler earlier (RG-100). ARCHIVED 2026-11-18 at data/raw/reports_third_party/mandala/ with a SHA-256 manifest (6c9b9cb40c07dba8...)."
+  },
+  {
+   "id": "SRC_MELBOURNE_WATER_AR_2025",
+   "title": "Melbourne Water Annual Report 2024-25",
+   "publisher": "Melbourne Water",
+   "url": "https://www.melbournewater.com.au/media/eyJtZWRpYSI6IjI5ODY2In0%3D/downloads",
+   "doc_type": "primary_government",
+   "published": "2025-08-29",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Read for RG-080 as the free substitute for FOI-005: its text does not mention data centres or Tata Consultancy Services. The PDF (about 70 MB) is not committed; re-fetch it from the manifest's URL. ARCHIVED 2026-11-18 at data/raw/registers/melbourne_water/ with a SHA-256 manifest (adf04e8c618f48ee...)."
   }
  ],
  "water_profile": [
@@ -43180,13 +43882,13 @@
    "tbl": "metrics",
    "fact_status": "REPORTED",
    "confidence": "low",
-   "n": 10
+   "n": 8
   },
   {
    "tbl": "metrics",
    "fact_status": "REPORTED",
    "confidence": "medium",
-   "n": 29
+   "n": 31
   },
   {
    "tbl": "metrics",

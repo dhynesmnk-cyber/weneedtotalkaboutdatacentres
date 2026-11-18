@@ -1,0 +1,4445 @@
+[[page 1]]
+ 
+  
+ 
+Stockland 
+MPark Talavera Road Data Centre 
+Noise and Vibration Impact Assessment 
+Reference: AC05 
+V4 | 6 February 2025 
+ 
+ 
+ 
+© GreenBox Architecture 
+ 
+ 
+This report takes into account the particular instructions and requirements of our client.  It is not intended for and should 
+not be relied upon by any third party and no responsibility is undertaken to any third party.  
+Job number  304093 
+Arup Australia Pty Ltd | ABN 76 625 912 665 
+Arup Australia Pty Ltd 
+Level 5 
+151 Clarence Street 
+Sydney 
+NSW, 2000 
+Australia 
+arup.com  
+ 
+[[page 2]]
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd 
+ 
+ 
+Document Verification 
+ 
+Project title MPark Talavera Road Data Centre 
+Document title  Noise and Vibration Impact Assessment 
+Job number 304093 
+Document ref AC05 
+File reference: 304093-AC05 v4 SSDA NVIA 
+ 
+ 
+Revision Date Details 
+1 10 November 2024 Filename 304093-AC05 v1 SSDA NVIA 
+Description Draft issue 
+ Prepared by Checked by Approved by 
+Name David Kim Nick Wedd  
+Signature    
+2 22 November 2024 Filename 304093-AC05 v2 SSDA NVIA 
+Description SSDA submission 
+ Prepared by Checked by Approved by 
+Name David Kim Glenn Wheatley Glenn Wheatley 
+Signature    
+3 4 December 2024 Filename 304093-AC05 v3 SSDA NVIA 
+Description Minor update 
+ Prepared by Checked by Approved by 
+Name David Kim Glenn Wheatley Glenn Wheatley 
+Signature    
+4 6 February 2025 Filename 304093-AC05 v4 SSDA NVIA 
+Description Updates to address DPHI ‘test of adequacy’ comments 
+ Prepared by Checked by Approved by 
+Name David Kim Glenn Wheatley Glenn Wheatley 
+Signature    
+ 
+Issue Document Verification with Document  ✓  
+  
+
+[[page 3]]
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd 
+ 
+Contents 
+ 
+Executive summary 7 
+1. Introduction 8 
+1.1 Site description and context 8 
+1.2 Project description 9 
+1.3 Architectural drawings 10 
+2. Assessment requirements 12 
+2.1 Response to SEARs 12 
+2.2 Policy and planning context 12 
+3. Existing environment 14 
+3.1 Assessment locations 14 
+3.2 Existing acoustic environment 17 
+4. Operational noise assessment 19 
+4.1 Operational scenarios 19 
+4.2 Noise criteria 19 
+4.3 Modelling methodology 20 
+4.4 Noise predictions 21 
+5. Road traffic noise 29 
+6. Construction noise and vibration assessment 30 
+6.1 Construction noise criteria 30 
+6.2 Construction noise assessment 31 
+6.3 Construction traffic assessment 35 
+6.4 Construction vibration criteria 35 
+6.5 Vibration assessment 35 
+6.6 Construction noise and vibration mitigation measures 36 
+7. Conclusion 40 
+8. References 41 
+ 
+Tables  
+Table 1: Site details 9 
+Table 2: Project details 10 
+Table 3: Architectural drawings 10 
+Table 4: Industry specific SEARs – Noise and Vibration 12 
+Table 5: Residential assessment locations 14 
+[[page 4]]
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd 
+ 
+Table 6: Noise monitoring locations 17 
+Table 7: Long-term noise monitoring results, dB(A) 17 
+Table 8: NPfI Project Noise Trigger Levels (normal operations) 19 
+Table 9: Noise emission modelling methodology 20 
+Table 10: Meteorological conditions used in the noise assessment 21 
+Table 11: Project equipment, quantities and noise levels (per unit) 23 
+Table 12: MPark Talavera Road Data Centre assessment mitigation measures 24 
+Table 13: Modelling scenarios and corresponding plant and equipment quantities 24 
+Table 14: Predicted noise levels: Day - normal operation with generator testing 25 
+Table 15: Predicted noise levels: Evening - normal operation 26 
+Table 16: Predicted noise levels: Night – normal operation 27 
+Table 17: Predicted noise levels: Emergency operation 27 
+Table 18: Construction noise management levels (NMLs) at residential receivers 30 
+Table 19: Construction noise management levels (NMLs) at other noise sensitive land uses 31 
+Table 20: Construction Noise Management Levels – recommended Standard hours 31 
+Table 21: ICNG recommended standard hours of construction 32 
+Table 22:Equipment and plant sound power levels 33 
+Table 23: Predicted construction noise levels - Residential and non-residential receivers 34 
+Table 24: Construction noise and vibration mitigation and management measures 36 
+Table 25: Recommended minimum working distances for vibration intensive plant 38 
+Table 26: Unattended Noise Monitoring Equipment information B-2 
+Table 27: NPfI RANLs and PANLs D-2 
+Table 28: Site Intrusive and amenity noise levels – external noise levels, dBLAeq(15 min) D-4 
+Table 29: Cooling tower sound pressure level data at 15 m – BAC XES3E-1222-07m ENDURA/H 
+(day & evening operating mode) E-4 
+Table 30: Cooling tower calculated overall sound power level – BAC XES3E-1222-07m ENDURA/H 
+(day & evening operating mode) E-4 
+Table 31: Cooling tower sound power levels (for SoundPlan modelling) – BAC XES3E-1222-07m 
+ENDURA/H (day & evening operating mode) E-5 
+Table 32: Cooling tower sound pressure level data at 15 m – BAC XES3E-1222-07m ENDURA/H 
+(night operating mode) E-5 
+Table 33: Cooling tower calculated overall sound power level – BAC XES3E-1222-07m ENDURA/H 
+(night operating mode) E-5 
+Table 34: Cooling tower sound power levels (for SoundPlan modelling) – BAC XES3E-1222-07m 
+ENDURA/H (night operating mode) E-6 
+Table 35: Types of vibration - Definition H-4 
+Table 36: Preferred and maximum vibration acceleration levels for human comfort, m/s2 H-4 
+Table 37: Acceptable vibration dose values (VDV) for intermittent vibration (m/s1.75) H-5 
+Table 38: BS 7385-2 structural damage criteria H-5 
+Table 39: DIN 4150-3 structural damage guideline values H-6 
+Table 40: Guideline values for short-term vibration impacts on buried pipework H-6 
+ 
+ 
+[[page 5]]
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd 
+ 
+Figures 
+Figure 1: Aerial photograph of site (Source: Urbis GIS, 2024) 8 
+Figure 2: Site context, surrounding land uses, noise catchment areas, noise sensitive receivers and 
+noise monitoring locations     16 
+Figure 3: Average third-octave band sound pressure levels of cooling tower noise based on measured 
+noise data E-7 
+Figure 4: Third-octave band sound pressure levels of generator noise based on manufacturer’s and 
+measured noise data E-8 
+Figure 5: MPark residential apartments façade noise map (normal operation with generator testing, 
+day) – View 1 F-9 
+Figure 6: MPark residential apartments façade noise map (normal operation with generator testing, 
+day) – View 2 F-9 
+Figure 7: MPark residential apartments façade noise map (normal operation, night) – View 1 F-11 
+Figure 8 MPark residential apartments façade noise map (normal operation, night) – View 2 F-11 
+ 
+ 
+Appendices  
+Appendix A A-1 
+Glossary A-1 
+Appendix B B-1 
+Background and ambient noise survey B-1 
+B.1 Unattended long-term noise monitoring B-2 
+Appendix C C-1 
+Generator testing regime C-1 
+Appendix D D-1 
+Operational noise criteria D-1 
+D.1 Noise Policy for Industry (NPfI) D-2 
+Appendix E E-1 
+Cooling tower and generator noise data E-1 
+E.1 Cooling tower manufacturer’s noise data E-2 
+E.2 Cooling tower noise modelling methodology E-4 
+Appendix F F-1 
+Noise contours F-1 
+F.1 Noise contours (horizontal) F-2 
+F.2 Vertical noise grids F-8 
+Appendix G G-1 
+Low frequency noise analysis G-1 
+Appendix H H-3 
+Vibration criteria H-3 
+[[page 6]]
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd 
+ 
+H.1 Disturbance to building occupants H-4 
+H.2 Structural damage H-5 
+Appendix I I-1 
+Noise and vibration complaint management procedure I-1 
+  
+ 
+[[page 7]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 7 
+ 
+Executive summary 
+A Noise and Vibration Impact Assessment has been conducted to accompany a State Significant 
+Development Application (SSDA) for the proposed development at 1-5 Khartoum Road, Macquarie Park 
+NSW in accordance with the requirements of the Planning Secretary’s Environmental Assessment 
+Requirements (SSD-63235720).  
+The SSDA seeks approval for the demolition of an existing car park and construction of a new 51.4 MW data 
+centre (the project). The project site is shown in Figure 1. 
+This study assessed the emission of both construction and operation noise and vibration from the project on 
+the community and surrounding development, specifically addressing the following: 
+Operation 
+Noise criteria for the site for the operation of the proposed data centre were determined according to the 
+NSW Noise Policy for Industry [1]. The assessment considered both normal operations and maintenance 
+activities, including generator testing. With the implementation of mitigation measures, the project can 
+comply with the criteria for normal operation during all operating times. Maintenance operations involving 
+the testing of one generator under load at a time was also compliant for the day period.  
+The traffic generated by the operation of the project is low and thus is predicted to comply with the NSW 
+Road Noise Policy [2]. 
+Construction 
+Criteria for construction noise were established according to the NSW Interim Construction Noise Guideline 
+[3]. The study identified likely construction activities and assessed noise emissions to nearby receivers. It 
+was found that exceedances were predicted at the closest receivers during some activities. Although the 
+assessment is conservative, mitigation and management measures have been recommended. Further noise 
+mitigation measures should be reviewed during the development of the Construction Noise and Vibration 
+Management Plan (CNVMP) prior to start of construction works. 
+The increase in traffic due to the construction of the project is predicted to comply with the NSW Road Noise 
+Policy. 
+Criteria for construction vibration were based on the NSW Assessing Vibration: a technical guideline [4], 
+AS 2187:Part 2 [5], BS 7385 Part 2 [6] and DIN 4150-3 [7]. Preliminary minimum working distances are 
+established for potential vibration intensive construction activities. The nearest sensitive receivers and 
+structures have been identified. Further site investigations may be warranted for underground services. Given 
+the proximity of some receiver locations, mitigation and management measures to minimise vibration risk 
+have been documented in this report. Sensitive receivers, structures and services should be confirmed and 
+formalised in the CNVMP.   
+[[page 8]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 8 
+ 
+ 
+1. Introduction 
+This Noise and Vibration Impact Assessment (NVIA) report has been prepared by Arup Australia Pty Ltd on 
+behalf of Stockland to accompany a State Significant Development Application (SSDA) for a data centre 
+development.  
+1.1 Site description and context 
+The site is located at 1-5 Khartoum Road, Macquarie Park, within the City of Ryde Local Government Area 
+(LGA), approximately 12 km north-west of the Sydney CBD and proximate to the commercial centres of 
+Chatswood and Norwest.  
+The area subject of the data centre development is 10,015 m2 (legally described as Part Lot 2 DP 1043041). 
+Specifically, the data centre development relates to the eastern portion of Lot 2 DP as shown in Figure 1.  
+ 
+Figure 1: Aerial photograph of site (Source: Urbis GIS, 2024) 
+The site is within convenient walking distance (800 m) of both Macquarie University and Macquarie Park 
+Metro Stations, which provide high-frequency rail connections to Chatswood, Sydney CBD and the Norwest 
+Business Park. It also benefits from access to high frequency bus services along Waterloo Road, Khartoum 
+Road and Talavera Road and is well connected to the regional road network via the M2 Motorway.  
+The site is currently occupied by a double storey brick building, which includes office and warehouse 
+components, together with various at-grade parking areas and a double storey concrete carparking structure 
+to the north-west.  
+The site is surrounded by a range of office/warehouse building forms, which are predominantly low to 
+medium rise with large areas of at-grade parking, consistent with Macquarie Park’s traditional campus-style 
+function and character.  
+
+[[page 9]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 9 
+ 
+The key features of the site which have the potential to impact or be impacted by the proposed development 
+are summarised in Table 1. 
+Table 1: Site details 
+Feature  Description   
+Street Address  1-5 Khartoum Road, Macquarie Park  
+Legal Description  Part Lot 2 DP 1043041  
+Land Configuration  The site has an area of 10,015 m2 and towards Talavera Road (RL 48 m).  
+Land Ownership  The land is owned by Johnson & Johnson Medical Pty Ltd.  
+Existing Development  The site is currently occupied by a two-storey car park structure with associated roads, 
+walkways and planted native and exotic vegetation. 
+Local Context  The site is surrounded by a range of office/warehouse building forms, which are predominantly 
+low to medium rise with large areas of at-grade parking, consistent with Macquarie Park’s 
+traditional campus-style function and character.  
+Regional Context   The site is located within Macquarie Park, which with approximately 894,000 m2 of 
+commercial floor space and approximately 140,000 m2 of retail floor space, is the fourth largest 
+employment centre in Greater Sydney by number of employees and the largest non-CBD office 
+market in Australia. It is viewed as an innovative research, education, medical and technology 
+employment centre.  
+Macquarie Park is home to Macquarie University, Macquarie University Hospital, Macquarie 
+University Incubator and more than 180 large international corporations (including Optus, 
+Foxtel, Sonic Healthcare, Oracle, Schneider Electric and Astra Zeneca), together with over 200 
+small businesses.  
+The area is well advanced in its transition from a campus-style industrial and business park into 
+a denser, mixed-use urban centre with improved connectivity. This transition has been 
+occurring for decades, led by events such as Macquarie University’s expansion and the opening 
+of the M2 motorway, together with more recent factors such as investment in rail/metro 
+services and the NSW Government’s ‘Priority Precinct’ program.  
+Site Access  The site has a primary frontage to Talavera Road, with including vehicular access provided via 
+Road 22.  
+1.2 Project description 
+The project comprises the demolition of the existing car park and construction of a data centre development 
+including the following key components:  
+• Demolition of existing car park and associated structures. 
+• Site preparation works including tree removal and earthworks.  
+• Construction and operation of six-storey data centre development, with a maximum height of 45 m and a 
+combined total gross floor area (GFA) of approximately 19,434 m2 including.  
+− Lobby, meeting rooms and ancillary space: 6,010 m2 
+− Offices: 830 m2 
+− Three storeys of technical data floor space accommodating 12 data houses: 12,594 m2  
+• Vehicle access via Road 22 (Murrell Street) with 25 parking spaces within the building. Associated 
+landscaping including trees, shrubs and grasses. 
+• Business identification signage zones. 
+• Provision of required utilities, including diesel generator back up power system. 
+Key project details are provided in Table 2. 
+[[page 10]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 10 
+ 
+Table 2: Project details 
+Descriptor Project Details 
+Project Area The data centre development relates to the eastern pocket of Lot 2 DP 1043041 and comprises an 
+area of approximately 10,015 m2. 
+Proposed Use Data centre with ancillary office space. 
+Gross Floor Area 19,434 m2  
+Building Height 45 m over six storeys 
+Floor Space Ratio  1.94:1  
+Data Houses  12 data houses 
+Deep Soil Area 10.68% 
+Car Parking  25 car spaces including 1 DDA spaces  
+Motorbike Spaces 4 spaces 
+Bicycle Spaces 6 spaces  
+Utilities Provision of required utilities including: 
+28 x diesel generators (3 MW/each) 
+8 x above-ground diesel storage tanks (73 kL/each) 
+8 x above-ground water tanks for industrial water (500 kL/each) 
+1 x above-ground water tank for fire water (320 kL) 
+33kV switching station. 
+Power Consumption 76.4 MVA (total power), 51.4 MW (IT Load)  
+Operations and Management  The facility will be operated on a 24-hour, 7 day a week basis. 
+Existing Services and 
+Infrastructure  
+The site is fully serviced; however, existing services and infrastructure will be extended, adapted 
+and augmented to meet the demands of the project.  
+Job Numbers Construction: 250 
+Operational: 50 
+1.3 Architectural drawings 
+This NVIA is based on architectural drawings prepared by Greenbox Architecture as outlined in Table 3. 
+Table 3: Architectural drawings 
+Drawing Number Revision Revision Date Sheet Name 
+MPARK2-GBA-BE-01-DR-A-0000 4 2/12/2024 Cover Sheet 
+MPARK2-GBA-BE-01-DR-A-0001 2 2/12/2024 Locality & Context Plan 
+MPARK2-GBA-BE-01-DR-A-0011 2 2/12/2024 Site Anlaysis 
+MPARK2-GBA-BE-01-DR-A-0040 1 2/12/2024 Demolition Plan 
+MPARK2-GBA-BE-01-DR-A-0050 2 2/12/2024 Shadow Diagrams – Summer Solstice 
+MPARK2-GBA-BE-01-DR-A-0060 2 2/12/2024 Shadow Diagrams – Winter Solstice 
+MPARK2-GBA-BE-01-DR-A-0070 3 2/12/2024 GFA Calculation Diagrams 
+MPARK2-GBA-BE-01-DR-A-0100 3 2/12/2024 Ground Floor Plan 
+MPARK2-GBA-BE-01-DR-A-0101 3 2/12/2024 Level 01 Plan 
+MPARK2-GBA-BE-01-DR-A-0102 3 2/12/2024 Level 02 Plan 
+MPARK2-GBA-BE-01-DR-A-0103 3 2/12/2024 Level 03 Plan 
+MPARK2-GBA-BE-01-DR-A-0104 3 2/12/2024 Level 04 Plan 
+MPARK2-GBA-BE-01-DR-A-0105 3 2/12/2024 Level 05 Plan 
+MPARK2-GBA-BE-01-DR-A-0106 3 2/12/2024 Lower Roof Plan 
+MPARK2-GBA-BE-01-DR-A-0107 3 2/12/2024 Upper Roof Plan 
+[[page 11]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 11 
+ 
+Drawing Number Revision Revision Date Sheet Name 
+MPARK2-GBA-BE-01-DR-A-0150 4 3/12/2024 North East & South West Elevations 
+MPARK2-GBA-BE-01-DR-A-0151 4 3/12/2024 North West Elevation 
+MPARK2-GBA-BE-01-DR-A-0152 3 2/12/2024 South East Elevation 
+MPARK2-GBA-BE-01-DR-A-0200 3 2/12/2024 Long Section  
+MPARK2-GBA-BE-01-DR-A-0201 3 2/12/2024 Short Section  
+ 
+  
+[[page 12]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 12 
+ 
+2. Assessment requirements 
+2.1 Response to SEARs 
+This report has been prepared in response to the requirements contained within the Secretary’s 
+Environmental Assessment Requirements (SEARs) dated 17 October 2023 issued for the SSDA (SSD-
+63235720). Specifically, this report has been prepared to respond to the industry-specific SEARS 
+requirement issued below in Table 4.  
+Table 4: Industry specific SEARs – Noise and Vibration 
+Requirement Scope item to address requirement Section reference (this 
+Report) 
+12. Noise and Vibration 
+Provide a noise and vibration assessment 
+prepared in accordance with the relevant EPA 
+guidelines and Australian / International 
+Standards. The assessment must detail 
+construction and operational noise and 
+vibration impacts (including testing of any 
+back-up power system) on nearby sensitive 
+receivers and structure, and outline the 
+proposed mitigation, management and 
+monitoring measures that would be 
+implemented.  
+Documentation: Noise and Vibration Impact 
+Assessment 
+This noise and vibration impact assessment has 
+been prepared for the project addressing the 
+Industry-specific SEARs and includes: 
+ 
+• Identification of nearby sensitive receivers Section 3.1 
+• Details of noise monitoring in the area Section 3.2 
+• Construction noise and vibration impacts Sections 6.2, 6.3 and 6.5 
+• Proposed construction noise and vibration 
+mitigation, management and monitoring 
+measures 
+Section 6.6 
+• Operational noise and vibration impacts Section 4 
+• Proposed operational noise and vibration 
+mitigation, management and monitoring 
+measures 
+Sections 4.4.1 and 4.4.2 
+2.2 Policy and planning context 
+The following policies, guidelines and standards have been considered in this assessment in accordance with 
+the SEARs: 
+• NSW Environment Protection Authority (EPA) Noise Policy for Industry (NPfI), 2017 [1] 
+• NSW Department of Environment and Climate Change (DECC) Interim Construction Noise Guideline 
+(ICNG), 2009 [3] 
+• NSW Department of Environment, Climate Change and Water (DECCW) Road Noise Policy (RNP), 
+2011 [2] 
+• NSW Department of Environment and Conservation (DEC) Assessing Vibration: a technical guideline 
+(AVATG), 2006 [4] 
+• Transport for NSW (TfNSW) Construction Noise and Vibration Guideline (CNVG) Public Transport 
+Infrastructure, 2023 [8] 
+• Australian Standard AS 1055-2018 – Acoustics—Description and measurement of environmental noise, 
+2018 [9] 
+• Australia Standard AS 2187.2-2006 – Explosives – Storage and use Part 2: Use of explosives [5] 
+• Australian Standard AS 2436-2010 – Guide to noise and vibration control on construction, demolition 
+and maintenance sites, 2010 [10] 
+• Australian Standard AS IEC 61672.1-2019 – Electroacoustics – Sound Level Meters Specifications, 
+2019 [11] 
+• British Standard BS 5228: Part 1 2009 Code of Practice for Noise and Vibration Control on Construction 
+and Open Sites Part 1: Noise, 2009 including Amendment 1, 2014 [12] 
+• British Standard BS 6472: Evaluation of human exposure to vibration in buildings (1-80 Hz), 1992 [13] 
+[[page 13]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 13 
+ 
+• British Standard BS 7385: Part 2 1993 Evaluation and Measurement of Vibration in Buildings, 1993 [6] 
+• German Institute for Standardisation DIN 4150: Part 3 2016 Vibration in Buildings – Effects of 
+Structures, 2016 [7] 
+Acoustic terminologies used in this assessment are presented in Appendix A. 
+ 
+  
+[[page 14]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 14 
+ 
+3. Existing environment 
+3.1 Assessment locations 
+Existing noise and vibration sensitive receivers have been identified in Table 5, and Figure 2 in accordance 
+with requirements in Section 2.1 and the Noise Policy for Industry (NPfI) [1]. Additionally, future planned 
+residential and commercial receivers as part of the MPark masterplan and planned nearby multi-use 
+developments have been included as assessment locations as presented in Figure 2. 
+In accordance with the NPfI, the reasonably most-affected residences have been grouped into Noise 
+Catchment Areas (NCAs) based on their acoustic environment as observed on site. NCAs are presented in 
+Figure 2. For clarity, the assessment of residential receivers presented in this report is isolated to the 
+reasonably most-affected receivers listed in Table 5. 
+The nearest noise sensitive receivers surrounding the site are described in Table 5, and graphically 
+represented in Figure 2.  
+Table 5: Residential assessment locations  
+Receiver ID NCA Address Description No. of 
+floors 
+Separation 
+distance1 (m) 
+Residential receivers 
+RES1 NCA2 1-5 Khartoum Road, Macquarie 
+Park (Building J) 
+Future proposed residential apartments 
+planned as part of the MPark 
+masterplan. 
+39 230 
+RES2 NCA2 1-5 Khartoum Road, Macquarie 
+Park (Building F) 
+34 250 
+RES3 NCA2 1-5 Khartoum Road, Macquarie 
+Park (Building G) 
+32 170 
+RES4 NCA2 35 Waterloo Road, Macquarie 
+Park (Building B) 
+Future proposed residential 
+apartments. Development currently 
+under assessment. 
+18 420 
+RES5 NCA 1 25-27 Fontenoy Road, Macquarie 
+Park 
+Existing residential apartments 3 400 
+RES6 NCA 1 1-15 Fontenoy Road, Macquarie 
+Park 
+Existing residential apartments 8 510 
+RES7 NCA3 136 Epping Road, North Ryde Existing double storey residential 
+single dwelling 
+2 770 
+Non-residential receivers 
+COM1 - 40-52 Talavera Road, Macquarie 
+Park 
+Existing commercial building 2 140 
+COM2 - 12-24 Talavera Road, Macquarie 
+Park 
+Existing commercial building 6 130 
+COM3 - 8 Murrell Street, Macquarie Park Existing commercial building and data 
+centre 
+8 35 
+COM4 - 17-23 Talavera Road, Macquarie 
+Park 
+Existing commercial building and data 
+centre 
+4 - 7 55 
+COM52 - 11 Khartoum Road, Macquarie 
+Park 
+Existing emergency clinic and 
+commercial building 
+10 105 
+COM6 - 1-5 Khartoum Road, Macquarie 
+Park (Building H) 
+Future proposed commercial building 
+planned as part of the MPark 
+masterplan. 
+9 100 
+COM73 - 63-71 Waterloo Road, Macquarie 
+Park 
+Existing education facility. Site has 
+DA approval to be demolished. 
+Commercial building proposed. 
+3 140 
+[[page 15]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 15 
+ 
+Receiver ID NCA Address Description No. of 
+floors 
+Separation 
+distance1 (m) 
+CC1 - 19/25 Khartoum Road, 
+Macquarie Park 
+Existing child care centre located in 
+the northern section of the commercial 
+building 
+2 220 
+CC2 - 12/24 Talavera Road, Macquarie 
+Park 
+Existing child care centre located on 
+the roof top level, northern section of 
+the commercial building 
+2 260 
+CC3 - Building B 11 Talavera Road, 
+Macquarie Park 
+Existing child care centre located 
+within commercial building 
+7 230 
+REC1 - Macquarie Square, 45 Waterloo 
+Road, Macquarie Park 
+Future proposed passive recreational 
+area 
+1 300 
+HOT1 - 84-92 Talavera Road, Macquarie 
+Park 
+Existing hotel / short-term 
+accommodation 
+8 650 
+Notes: 
+1_ Separation distance approximately measured from nearest lot boundary location to approx. mid-point of subject site. 
+2_ Assessed as a commercial receiver as the facility is not expected to contain hospital wards requiring over-night extended stays 
+3_ Assessed as a commercial receiver as educational facility to be vacated in July 2025 (source: https://excelsia.edu.au/contact/) 
+ 
+ 
+[[page 16]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4  | 6 February 2025 | Arup Australia Pty Ltd Noise and vibration impact assessment Page 16 
+ 
+ 
+Figure 2: Site context, surrounding land uses, noise catchment areas, noise sensitive receivers and noise monitoring locations    
+
+[[page 17]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 17 
+ 
+3.2 Existing acoustic environment 
+Existing background noise levels are required for the establishment of the intrusive noise criteria, applying 
+only to residential locations. All other receivers have fixed criteria applied.  
+3.2.1 Long term noise monitoring 
+Long-term noise monitoring was previously carried out at locations L1, L2, and L3 for other projects as 
+detailed in Table 6 and presented in Figure 2.  
+For all monitoring locations, the current noise levels are not expected to have decreased since the time of 
+monitoring, and more likely to have increased with the additional activity and development in the area. This 
+serves to provide a conservative assessment. 
+Table 6: Noise monitoring locations 
+ID Location Measurement period Description 
+L1 Unit 6, 37 Khartoum 
+Road, Macquarie Park 
+Tuesday, 10 March to 
+Friday, 20 March 20202 
+Noise monitor located north of the project and positioned in the 
+front yard of the property. 
+This monitoring location is set back from the M2 Motorway, 
+positioned on the ground level and thus benefits from acoustic 
+shielding provided by the motorway noise wall and apartment 
+buildings. The monitoring location is considered to be a 
+conservative representation of existing background and ambient 
+noise levels for the reasonably most-affected residences within 
+NCA1 nearest to the motorway and the proposal site. 
+L2 82 Waterloo Road, 
+Macquarie Park 
+Monday, 15 February to 
+Monday, 22 February 20163 
+Noise monitor located west of the project and positioned in the 
+front yard of the property facing Waterloo Road. 
+This location is positioned centrally in Macquarie Park within the 
+existing cluster of residential receivers of NCA2 fronting 
+Waterloo Road and bounded by other collector roads. The noise 
+environment is characterised by general urban and road traffic 
+noise. Noise levels are considered representative of the reasonably 
+most-affected residences in NCA2.  
+L3 7 Booth Street, 
+Marsfield 
+Tuesday, 10 March to 
+Friday, 20 March 20202 
+Noise monitor located southwest of the project and positioned in 
+the front yard of the property 
+This location is set back from Epping Road and shielded from 
+road traffic noise by residential dwellings. The location is 
+considered representative of the reasonably most-affected 
+residences located in NCA3 with the noise environment 
+characterised by road traffic noise from Epping Road and general 
+suburban noise. 
+Notes: 
+1_Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+    Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+    Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+2_Conducted as part of the EIS prepared for Macquarie Park Data Centre located at 11-17 Khartoum Road, Macquarie Park [14] 
+3_Conducted as part of the EIS prepared for Talavera Road Data Centre Campus Expansion located at 17-23 Talavera Road, Macquarie Park [15] 
+Results of the long-term noise monitoring are summarised in Table 7. Further detail regarding the monitoring 
+is included in Appendix B. 
+Table 7: Long-term noise monitoring results, dB(A) 
+Location Noise Catchment Area 
+(NCA) Time period1 Rating background 
+noise levels, dBLA90 
+Ambient noise levels, 
+dBLAeq 
+L1 – Unit 6, 37 Khartoum 
+Road, Macquarie Park2 
+NCA1 Day 45 57 
+Evening 45 59 
+[[page 18]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 18 
+ 
+Location Noise Catchment Area 
+(NCA) Time period1 Rating background 
+noise levels, dBLA90 
+Ambient noise levels, 
+dBLAeq 
+Night 38 51 
+L2 - 82 Waterloo Road, 
+Macquarie Park3 
+NCA2 Day 52 61 
+Evening 48 60 
+Night 40 54 
+L3 – 7 Booth Street, 
+Marsfield2 
+NCA3 Day 42 55 
+Evening 42 56 
+Night 33 47 
+Notes: 
+1_Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+    Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+    Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+2_Conducted as part of the EIS prepared for Macquarie Park Data Centre located at 11-17 Khartoum Road, Macquarie Park [14] 
+3_Conducted as part of the EIS prepared for Talavera Road Data Centre Campus Expansion located at 17-23 Talavera Road, Macquarie Park [15]  
+ 
+ 
+  
+[[page 19]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 19 
+ 
+4. Operational noise assessment 
+4.1 Operational scenarios  
+The following operational scenarios have been adopted for the assessment, which represent typical worst-
+case conditions for each assessment period. 
+Normal operation is defined as: 
+• Day: all equipment operating including one generator and one load bank, which will operate periodically 
+under a scheduled testing regime. The scheduled testing regime is presented in Appendix C. 
+• Evening and night: all equipment operating except the generators and load bank.   
+Criteria for normal operation is defined in Section 4.2.1. 
+Emergency operation is defined as: 
+• A utility failure when all equipment is operating including all generators. 
+Criteria for emergency operation is discussed in Section 4.2.2. 
+4.2 Noise criteria 
+4.2.1 Normal operations 
+Normal and maintenance operation noise emissions from the site have been assessed in accordance with the 
+NSW Noise Policy for Industry (NPfI) [1], which is primarily concerned with controlling intrusive noise 
+impacts in the short-term for residences, and maintaining long-term noise level amenity for residences and 
+other land uses.  
+The NPfI sets out the procedure to determine the Project Noise Trigger Levels (PNTLs) relevant to an 
+industrial development. The PNTL is a level that, if exceeded would indicate a potential noise impact on the 
+community and so ‘trigger’ a management response. The PNTLs for the site are summarised in Table 8. 
+More detailed regarding the derivation of criteria is provided in Appendix D. 
+It is noted that future planned multi-use developments have been included as residential receivers within 
+NCA2 for the purposes of this assessment. Typically, future receivers are assessed against amenity noise 
+criteria. Given that PNTLs in NCA2 are based on or are more conservative than the amenity noise criteria, 
+future planned residential receivers have been grouped into NCA2. 
+Table 8: NPfI Project Noise Trigger Levels (normal operations) 
+Receiver type Receiver ID Time period1  Project Specific Noise Trigger 
+Levels (PNTL) dBLAeq,15min  
+Sleep disturbance 
+LAmax 
+Residential 
+NCA1 
+ 
+RES5, RES6 Day 50 - 
+Evening 48 - 
+Night 43 58 
+Residential 
+NCA2  
+ 
+RES1, RES2, RES3, 
+RES4 
+Day 57 - 
+Evening 48 - 
+Night 43 58 
+Residential 
+NCA3  
+RES7 Day 47 - 
+Evening 43 - 
+Night 38 53 
+[[page 20]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 20 
+ 
+Receiver type Receiver ID Time period1  Project Specific Noise Trigger 
+Levels (PNTL) dBLAeq,15min  
+Sleep disturbance 
+LAmax 
+Hotel / motel HOT1 Day 63 - 
+Evening 53 - 
+Night 48  
+Childcare centre CC1, CC2, CC3, When in use 48 - 
+Passive 
+recreation 
+REC1 When in use 48 - 
+Commercial COM1, COM2, 
+COM3, COM4, 
+COM5, COM6, 
+COM7 
+When in use 63 - 
+Notes: 
+1_ The NPfI defines day, evening and night periods as:  
+Day: the period from 7 am to 6 pm Monday to Saturday; or 8 am to 6 pm on Sundays and Public Holidays.  
+Evening: the period from 6 pm to 10 pm 
+Night: the remaining period 
+Table C1 of the NPfI [1] sets modifying factor corrections for annoying noise characteristics such as tonality, 
+dominant low frequency, intermittency or irregularity. Modifying factors have been applied for noise 
+predictions in Section 4.4. 
+4.2.2 Emergency operations noise criteria 
+The NPfI [1] sets criteria for normal operations. These criteria do not strictly apply to emergency operations, 
+and typically less stringent criteria are adopted, based on the low likelihood of operation under such 
+conditions. 
+Generator testing is included in the normal operation of the site which is assessed against the NPfI criteria. 
+For emergency operations, the NPfI criteria are typically not adopted as emergency scenarios are considered 
+atypical.  
+Designing all 28 generators to comply with the NPfI criteria would be considered unreasonable due to the 
+low likelihood of power failure. Furthermore, if power failure were to occur, the duration of an outage is 
+expected to be hours rather than days. 
+Therefore, no acoustic criteria are proposed for emergency operations. 
+4.3 Modelling methodology 
+Noise levels have been predicted at the nearest sensitive receivers based on the noise levels and quantities of 
+external plant equipment. 
+Table 9 outlines the noise modelling methodology, including inputs and basis of predictions. 
+Table 9: Noise emission modelling methodology 
+Item Details 
+Noise modelling software SoundPLAN Version 9.1 
+Noise propagation model  ISO 9613-2:2024 [16] 
+CONCAWE [17] 
+Operational noise levels during normal and maintenance operations with standard meteorological 
+conditions were predicted using both the ISO 9613-2:2024 [16] and CONCAWE [17] algorithm. 
+Noise predictions using the CONCAWE algorithm were generally found to be similar to noise 
+predictions using the ISO 9613-2:2024 algorithm. Noise predictions for standard meteorological 
+conditions have been presented for both algorithms in Section 4.4.4 to provide comparison. 
+Meteorological conditions Standard and noise enhancing meteorological conditions were considered as detailed in Section 
+4.3.1 
+[[page 21]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 21 
+ 
+Item Details 
+Site buildings Based on MPark masterplan and architectural drawings in Section 1.3 
+Receiver buildings Existing buildings based on aerial imagery, site truthing and building footprints obtained from 
+Geoscape Buildings.  
+Future buildings based on available information from architectural drawings obtained online 
+through NSW DPHI Major Projects Planning Portal.  
+Ground topography and 
+absorption 
+Ground topography based on latest available digital elevation models obtained from NSW 
+Government – Spatial Services 
+Ground absorption set to 0.4 to represent mixed ground conditions including hard surfaces (asphalt) 
+and soft ground (vegetation and grass). 
+Noise sources Noise sources detailed in Section 4.4.1 and preliminary noise mitigation measures detailed in 4.4.2 
+Assessment scenarios Assessment scenarios detailed in Section 4.4.3 
+4.3.1 Meteorological conditions 
+Noise levels have been predicted for both the standard and the noise-enhancing weather conditions as 
+specified in Table D1 of the NPfI. 
+Fact sheet D of the NPfI provides two options to consider meteorological effects: 
+• Option 1: adopt the noise enhancing meteorological conditions for all assessment periods for noise 
+impact assessment purposes without an assessment of how often these conditions occur. 
+• Option 2: Determine the significance of noise-enhancing conditions by assessing the significance of 
+temperature inversions during the night and wind during all periods. 
+The assessment has been conducted in accordance with Option 1 which does not require an assessment of the 
+meteorological conditions in the area but instead use a conservative approach that considers source-to-
+receiver wind vectors for all receivers and F class temperature inversions with wind speeds up to 2 m/s at 
+night. 
+Meteorological conditions used in the assessment are summarised in Table 10. 
+Table 10: Meteorological conditions used in the noise assessment 
+Modelling scenario Period Modelling algorithm Meteorological conditions 
+Standard Day / evening / night CONCAWE 
+ISO 9613-2 
+CONCAWE: Stability categories A-D with wind 
+speed up to 0.5 m/s at 10 m. 
+ISO 9614-2 predicts noise levels under moderate 
+temperature inversion or downwind conditions 
+Noise-enhancing Day / evening CONCAWE Stability category A-D with light winds (up to 3 
+m/s at 10 m) 
+Night CONCAWE Stability category A-D with light winds (up to 3 
+m/s at 10 m) and stability category F with winds up 
+to 2 m/s at 10 m. 
+Note, noise levels for stability category A-D with light winds (up to 3 m/s at 10 m) and noise levels for 
+stability category F with winds up to 2 m/s at 10 m were predicted to be similar (<1 dB difference). The 
+worst-case noise enhancing scenario has been presented in Section 4.4.4. 
+4.4 Noise predictions 
+4.4.1 Noise sources 
+Equipment noise levels for the project are summarised in Table 11. Quantities of each operating equipment 
+are detailed in Table 13. 
+The sound power levels and octave band spectra have been provided by manufacturers or estimated based on 
+expected equipment power ratings and past project experience. The primary noise sources assessed for this 
+[[page 22]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 22 
+ 
+planning stage relate to external equipment, as the building envelope will primarily be concrete construction 
+which will readily control noise breakout from the internal data halls, plant rooms and other spaces.  
+Cooling tower noise data provided by the manufacturer has been included in Appendix E. An outline of how 
+the cooling tower noise level were modelled is also provided in Appendix E. Additionally, low frequency 
+and third octave noise data has been sourced and analysed for low frequency of tonal characteristics in 
+Appendix E.2.3 and Appendix E.2.4 for the primary noise emission sources, being the generators and 
+cooling towers. 
+The noise assessment assumes equipment operation to meet the facility when at 100% IT load. 
+Noise emissions from all plant and equipment are characterised as steady-state sound in accordance with 
+AS1055:2018 [9] i.e., constant noise emissions. 
+Regarding truck movements, it is anticipated that up to three trucks would be travelling within the site per 
+day and up to one truck would be travelling to and from the loading dock during a 15-minute period during 
+the day period only. The truck would enter and exit via the new road off Talavera Road to the loading dock 
+located internally within the building. A truck would be on site for a maximum of 1 hour while being 
+unloaded.  
+Site wide noise emissions are assumed to not exhibit tonal characteristics. Plant items which could generate 
+tonal noise, such as transformers, are located internally and do not contribute to overall site noise emissions. 
+Similarly, any tonal components from isolated plant items would not contribute to cumulative noise 
+emissions from the entire site. 
+ 
+ 
+[[page 23]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 23 
+ 
+ Table 11: Project equipment, quantities and noise levels (per unit) 
+Equipment Details Location Lw, dB(A) 
+per item 
+Octave Band Centre Frequency, Hz, dB(Z) per item Modelling approach 
+63 125 250 500 1 k 2 k 4 k 8 k 
+Cooling 
+towers  
+ 
+Day / evening:  
+BAC XEX3E-1222-07M Endura/H 
+84.47% fan speed 
+Rooftop 84 91 91 87 78 74 77 74 62 Modelled as area sources 
+according the CTI ATC-128 
+sound test code. 
+Details provided in Appendix 
+E. Night:  
+BAC XEX3E-1222-07M Endura/H 
+43.78% fan speed 
+Rooftop 73 76 76 71 65 66 68 60 53 
+Diesel 
+generators 
+(backup 
+power only) 
+MTU 20V 4000 G94LF 
+exhaust flue: RR/AE silencer 
+Intake: 3 m 33% open area 
+attenuator  
+Outlet: 3 m 33% open area 
+attenuator 
+Canopy: min. 150 mm concrete 
+L4, L5 Exhaust 
+Flue: 93 
+93 92 94 87 86 88 83 68 Modelled as point source 
+Intake: 87 86 81 60 56 55 56 64 87 Modelled as area source 
+Outlet: 89 89 85 61 56 54 57 67 90 Modelled as area source 
+Load bank Acoustic enclosure load bank 
+75 dB(A) @ 1 m 
+Rooftop 95 100 102 96 90 89 86 80 74 Modelled as area source 
+AHU data 
+hall 
+pressurisation 
+units 
+(PAHU) 
+Ducted with return air attenuator Rooftop 79 67 71 74 75 74 72 69 65 Modelled as point source 
+VRF 
+Condenser 
+Daikin VRV IV Q Series Rooftop 80 90 89 83 78 73 65 65 55 Modelled as point source 
+Service 
+vehicle 
+(heavy 
+vehicles) 
+Vehicle accelerating/moving 
+(assume 5 km/h) travelling to/from 
+the loading dock 
+On 
+ground 
+70 
+Lw/metre 
+73 69 66 65 67 62 58 52 Modelled as line source 
+Vehicle reversing (assume 5 km/h) 
+to the loading dock, includes 
+reversing alarm 
+64 
+Lw/metre 
+70 69 60 58 57 59 48 39 Modelled as line source 
+Airbrake 106 115 109 105 103 101 97 93 87 Modelled as point source 
+[[page 24]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 24 
+ 
+4.4.2 Mitigation measures 
+The mitigation measures in Table 12 (to be revised during detailed design) have been included in this 
+assessment. 
+Table 12: MPark Talavera Road Data Centre assessment mitigation measures 
+Item Mitigation measures 
+All Select equipment with sound power no more than the one listed in Table 11. 
+Cooling tower Selection of low noise cooling tower fans (See Table 11 for noise levels) 
+Setback of cooling tower fan speed during low ambient conditions at night. 
+Currently includes 1.5 m length lined duct to discharge for compliance with evening time 
+criteria. This requirement will be reviewed during detailed design as rooftop plant is further 
+developed. 
+Generators Contained within an acoustic enclosure (see Table 11 for maximum noise levels) 
+Attenuators to discharge and intake.  
+Muffler and attenuator to exhaust. 
+Load bank Contained within an acoustic enclosure (see Table 11 for maximum noise levels) 
+PAHU Ducted return air. Return air fan to include attenuator. 
+Service vehicles (heavy vehicles) Service vehicles and trucks to be operated on site during day hours 
+Service vehicles and trucks to be turned off while being unloaded 
+4.4.3 Operating scenarios 
+To assess potential noise impacts during operation, three scenarios comprising typical equipment have been 
+developed based on our understanding of the project. These scenarios are considered representative of the 
+noisiest operational activities likely to occur and are described below.  
+Modelling scenarios are described in Section 4.1 and in modelled equipment quantities are presented in 
+Table 13. 
+Table 13: Modelling scenarios and corresponding plant and equipment quantities 
+Equipment 
+No. of equipment 
+Normal operation Emergency 
+operation Day Evening Night 
+Cooling tower  16 16 16 16 
+VRF condenser unit 8 8 8 8 
+PAHU 8 8 8 8 
+Generator 1-maintenance testing1 - - 28 
+Load bank 1-maintenance testing1 - - - 
+Service vehicle 1 heavy vehicle 
+entering site and 
+reversing into loading 
+dock 
+- - 1 heavy vehicle 
+entering site and 
+reversing into loading 
+dock 
+Notes 
+1_ Maintenance testing of the generators and load bank is proposed for the day period. While it will not occur at all time, it is included in the 
+standard day operations. 
+ 
+ 
+ 
+[[page 25]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 25 
+ 
+4.4.4 Predicted noise emission levels 
+Noise predictions for under standard and noise-enhancing meteorological conditions are presented as 
+follows: 
+• Table 14: Day period, including testing of one generator under full load.  
+• Table 15: Evening period for normal operations 
+• Table 16: Night period for normal operation, where cooling towers operate at reduced load. 
+• Table 17: Emergency operations. 
+The result tables include modifying factor adjustments as follows: 
+• Noise data for primary noise equipment has been analysed for low frequency and tonal noise 
+characteristics in Appendix E.2.3 and Appendix E.2.4.  
+• Site noise emissions are not expected to exhibit tonal characteristics.  
+• Low frequency noise has been assessed in accordance with the Tables C1 and C2 of the NPfI and the 
+best practice approach for applying the low frequency noise analysis as detailed in the journal paper 
+prepared by the NSW Environment Protection Authority published by Acoustics Australia [18]. This 
+analysis is presented in Appendix G. Modifying factor corrections for low frequency were required to be 
+applied for receivers COM2, COM3, COM4, COM6 and COM7 during the day and evening periods.  
+• Intermittent noise is not expected from the proposal as the noise sources are steady-state in nature. 
+Predicted noise levels at all sensitive receivers comply with criteria in Section 4.2.1 during standard and 
+noise-enhancing weather conditions at all receivers.  
+Noise contours are presented in Appendix F for each of the normal operating scenarios. Vertical façade noise 
+maps of the nearest apartment buildings are also presented in Appendix F. It is noted that no modifying 
+factor corrections have been applied for noise contours or maps. 
+Table 14: Predicted noise levels: Day - normal operation with generator testing 
+Receiver 
+Overall site 
+criteria 
+dBLAeq,15min1 
+Standard weather conditions  Noise-enhancing weather conditions2 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+CONCAWE ISO 
+RES1 57 46 44 - Yes 47 - Yes 
+RES2 57 46 45 - Yes 48 - Yes 
+RES3 57 49 50 - Yes 51 - Yes 
+RES4 57 37 37 - Yes 39 - Yes 
+RES5 50 31 32 - Yes 32 - Yes 
+RES6 50 35 35 - Yes 36 - Yes 
+RES7 47 23 26 - Yes 24 - Yes 
+COM1 63 47 46 - Yes 48 - Yes 
+COM2 63 47 45 - Yes 48 - Yes 
+COM3 63 62 59 - Yes 63 - Yes 
+COM4 63 533 513 - Yes 543 - Yes 
+COM5 63 41 40 - Yes 42 - Yes 
+COM6 63 56 53 - Yes 57 - Yes 
+COM7 63 41 39 - Yes 41 - Yes 
+CC1 48 29 29 - Yes 29 - Yes 
+CC2 48 38 37 - Yes 39 - Yes 
+[[page 26]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 26 
+ 
+Receiver 
+Overall site 
+criteria 
+dBLAeq,15min1 
+Standard weather conditions  Noise-enhancing weather conditions2 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+CONCAWE ISO 
+CC3 48 31 32 - Yes 31 - Yes 
+REC1 48 37 36 - Yes 38 - Yes 
+HOT1 63 35 34 - Yes 36 - Yes 
+Note: 
+1_ Overall site criteria for normal operation with generator testing assessed against day criteria 
+2_ The higher of the predicted noise level with noise enhancing wind conditions or temperature inversion conditions presented 
+3_ 2 dB modifying factor correction applied for low frequency in accordance with Table C1 of the NPfI 
+Table 15: Predicted noise levels: Evening - normal operation 
+Receiver 
+Overall Site 
+criteria 
+dBLAeq,15min1 
+Standard weather conditions  Noise-enhancing weather conditions2 
+Predicted level 
+dBLAeq,15min  Exceedance Meets 
+criteria? 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+CONCAWE ISO 
+RES1 48 41 40 - Yes 43 - Yes 
+RES2 48 42 40 - Yes 43 - Yes 
+RES3 48 47 48 - Yes 48 - Yes 
+RES4 48 37 37 - Yes 38 - Yes 
+RES5 48 31 31 - Yes 31 - Yes 
+RES6 48 35 35 - Yes 36 - Yes 
+RES7 43 21 23 - Yes 22 - Yes 
+COM1 63 45 43 - Yes 45 - Yes 
+COM2 63 473 453 - Yes 473 - Yes 
+COM3 63 573 563 - Yes 583 - Yes 
+COM4 63 564 544 - Yes 564 - Yes 
+COM5 63 32 31 - Yes 33 - Yes 
+COM6 63 513 493 - Yes 513 - Yes 
+COM7 63 423 413 - Yes 433 - Yes 
+CC1 48 28 29 - Yes 29 - Yes 
+CC2 48 38 37 - Yes 38 - Yes 
+CC3 48 30 31 - Yes 31 - Yes 
+REC1 48 37 36 - Yes 38 - Yes 
+HOT1 63 26 25 - Yes 28 - Yes 
+Note: 
+1_ Overall site criteria for normal operation assessed against evening criteria 
+2_ The higher of the predicted noise level with noise enhancing wind conditions or temperature inversion conditions presented 
+3_ 2 dB modifying factor correction applied for low frequency in accordance with Table C1 of the NPfI 
+4_ 5 dB modifying factor correction applied for low frequency in accordance with Table C1 of the NPfI 
+[[page 27]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 27 
+ 
+Table 16: Predicted noise levels: Night – normal operation 
+Receiver 
+Overall Site 
+criteria 
+dBLAeq,15min1 
+Standard weather conditions  Noise enhancing weather conditions3 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+Predicted level 
+dBLAeq,15min Exceedance Meets 
+criteria? 
+CONCAWE ISO 
+RES1 43 32 32 - Yes 34 - Yes 
+RES2 43 34 33 - Yes 36 - Yes 
+RES3 43 40 40 - Yes 41 - Yes 
+RES4 43 31 30 - Yes 32 - Yes 
+RES5 43 29 30 - Yes 30 - Yes 
+RES6 43 30 30 - Yes 31 - Yes 
+RES7 38 11 15 - Yes 13 - Yes 
+COM1 63 45 43 - Yes 45 - Yes 
+COM2 63 44 43 - Yes 45 - Yes 
+COM3 63 55 54 - Yes 56 - Yes 
+COM4 63 45 42 - Yes 45 - Yes 
+COM5 63 27 25 - Yes 29 - Yes 
+COM6 63 47 44 - Yes 47 - Yes 
+COM7 63 31 31 - Yes 32 - Yes 
+CC12 48 28 28 - Yes 29 - Yes 
+CC22 48 34 34 - Yes 34 - Yes 
+CC32 48 22 26 - Yes 23 - Yes 
+REC1 48 29 28 - Yes 30 - Yes 
+HOT1 48 25 23 - Yes 27 - Yes 
+Note: 
+1_ Overall site criteria for normal operation with reduced load on cooling towers assessed against night criteria 
+2_ Receiver not operating at night 
+3_ The higher of the predicted noise level with noise enhancing wind conditions or temperature inversion conditions presented 
+Table 17: Predicted noise levels: Emergency operation  
+Receiver 
+Predicted level, dBLAeq,15min 
+Standard weather conditions 
+Noise-enhancing weather conditions1 
+CONCAWE ISO 
+RES1 55 53 57 
+RES2 54 52 56 
+RES3 56 55 58 
+RES4 39 40 40 
+RES5 45 44 47 
+RES6 37 37 38 
+RES7 26 30 27 
+COM1 59 57 61 
+COM2 55 53 56 
+COM3 72 68 73 
+COM4 51 50 53 
+[[page 28]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 28 
+ 
+Receiver 
+Predicted level, dBLAeq,15min 
+Standard weather conditions 
+Noise-enhancing weather conditions1 
+CONCAWE ISO 
+COM5 49 48 50 
+COM6 65 62 66 
+COM7 41 40 42 
+CC1 38 38 39 
+CC2 44 42 45 
+CC3 33 35 34 
+REC1 39 37 40 
+HOT1 45 43 46 
+Note: 
+1_ The higher of the predicted noise level with noise enhancing wind conditions or temperature inversion conditions presented 
+  
+[[page 29]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 29 
+ 
+5. Road traffic noise 
+Increased traffic generated on the public road network is assessed in accordance with the NSW Road Noise 
+Policy (RNP) [2]. 
+When assessing noise impact using the existing road network, an initial screening test is applied to evaluate 
+whether noise levels are expected to increase by more than 2 dBA due to the additional traffic generated by 
+the Proposal. 
+Where noise levels are predicted to increase by more than 2 dBA (i.e. 2.1 dBA or greater) further assessment 
+is required against the criteria in Table 3 of the RNP. 
+Access to and from the site will be via Talavera Road which is a sub arterial road. 
+Due to the anticipated low number of vehicles generated by the site (up to 6 trucks per day) and existing high 
+traffic volumes on Talavera Road, generated traffic noise is anticipated to comply with RNP. 
+ 
+ 
+ 
+  
+[[page 30]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 30 
+ 
+6. Construction noise and vibration assessment 
+Construction works will be assessed in accordance with the NSW Interim Construction Noise Guideline [3] 
+(ICNG or Guideline). 
+6.1 Construction noise criteria 
+The ICNG [3] provides recommended noise levels for airborne construction noise at sensitive land uses. The 
+guideline provides construction noise management levels above which all feasible and reasonable work 
+practices should be applied to minimise the construction noise impact. The ICNG works on the principle of a 
+‘screening’ criterion – if predicted or measured construction noise exceeds the ICNG levels then the 
+construction activity must implement all ‘feasible and reasonable’ work practices to reduce noise levels. 
+The ICNG provides two methods for assessing construction noise, varying typically on the basis of the 
+project duration, being either a quantitative or a qualitative assessment. A quantitative assessment is 
+recommended for major construction projects of significant duration, and involves the measurement of 
+background noise levels for determination of noise management levels and prediction of construction noise 
+levels. A qualitative assessment is recommended for small projects with a duration of less than three weeks 
+and focuses on minimising noise disturbance through the implementation of reasonable and feasible work 
+practices, and community notification.  
+The ICNG sets out management levels for noise at noise sensitive receivers, and how they are to be applied. 
+These noise management levels (NMLs) for residential receivers and other sensitive receivers are reproduced 
+in Table 18 and in Table 19 respectively.  
+Table 18: Construction noise management levels (NMLs) at residential receivers 
+Time of day NML1 
+LAeq (15 min) How to apply 
+Recommended standard 
+hours: 
+Monday to Friday 
+7 am to 6 pm 
+Saturday 8 am to 1 pm 
+No work on Sundays or 
+public holidays 
+Noise affected 
+RBL + 10 dB 
+The noise affected level represents the point above which there may be some 
+community reaction to noise. 
+Where the predicted or measured LAeq 15 min is greater than the noise affected 
+level, the proponent should apply all feasible and reasonable work practices to 
+meet the noise affected level. 
+The proponent should also inform all potentially impacted residents of the nature 
+of works to be carried out, the expected noise levels and duration, as well as 
+contact details. 
+Highly noise 
+affected 
+75 dB(A) 
+The highly noise affected level represents the point above which there may be 
+strong community reaction to noise. 
+Where noise is above this level, the relevant authority (consent, determining or 
+regulatory) may require respite periods by restricting the hours that the very 
+noisy activities can occur, taking into account: 
+times identified by the community when they are less sensitive to noise (such as 
+before and after school for works near schools, or mid-morning or mid-afternoon 
+for works near residences 
+if the community is prepared to accept a longer period of construction in 
+exchange for restrictions on construction times. 
+Outside recommended 
+standard hours 
+Noise affected 
+RBL + 5 dB 
+A strong justification would typically be required for works outside the 
+recommended standard hours. 
+The proponent should apply all feasible and reasonable work practices to meet 
+the noise affected level. 
+Where all feasible and reasonable practices have been applied and noise is more 
+than 5 dB(A) above the noise affected level, the proponent should negotiate with 
+the community. 
+For guidance on negotiating agreements see section 7.2.2 of the ICNG. 
+Note: 
+1_ Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5 m above ground level. If the 
+property boundary is more than 30 m from the residence, the location for measuring or predicting noise levels is at the most noise-affected point 
+within 30 m of the residence. Noise levels may be higher at upper floors of the noise affected residence. 
+[[page 31]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 31 
+ 
+ 
+Table 19: Construction noise management levels (NMLs) at other noise sensitive land uses 
+Land use Where objective applies Noise Management level dBLAeq,15 min1 
+Classrooms at schools and other 
+educational institutions 
+Internal noise level 
+ 
+45 
+Hospital wards and operating theatres Internal noise level 45 
+Places of worship Internal noise level 45 
+Active recreation areas  External noise level 65 
+Passive recreation areas External noise level 60 
+Community centres Depends on the intended use of the 
+centre. 
+Refer to the ‘maximum’ internal levels in 
+AS2107 for specific uses. 
+Commercial premises External noise level 70 
+Industrial premises External noise level 75 
+Note: 
+1_ Noise management levels apply when receiver areas are in use only. 
+6.1.1 Project construction noise targets 
+Table 20 summarises relevant project construction noise targets for the project. For the residential receivers, 
+the construction noise criteria are set based on the noise measurements results in Section 3.2. 
+Table 20: Construction Noise Management Levels – recommended Standard hours 
+Receiver ID Type 
+External NML, dBLAeq,15min  
+(Recommended standard hours)1 
+Noise affected Highly Noise affected 
+RES5, RES6 Residential (NCA1) 55 75 
+RES1, RES2, RES3, RES4 Residential (NCA2) 67 75 
+RES7 Residential (NCA3) 57 75 
+CC1, CC2, CC32 Childcare Centre 552 - 
+COM72 School classroom 552 - 
+REC1 Passive recreation 60 - 
+COM1 – COM6, HOT1 Commercial 70  - 
+Notes: 
+1_ Standard hours are Monday to Friday 7 am to 6 pm and Saturday 8 am to 1 pm. 
+2_ Based on internal noise levels for classroom + 10 dB, assuming a 10 dB difference between indoor noise levels and external noise levels (with 
+windows open). 
+6.2 Construction noise assessment 
+6.2.1 Assessment methodology 
+Noise emissions from construction activities have been assessed to NMLs defined in Table 20. Noise 
+emissions have been modelled using SoundPlan 9.1 using the ISO 9613-2:2024 algorithm. 
+The model included: 
+• Receivers listed in Section 3.1, 
+• Noise sources listed in Section 6.2.4, 
+• Surrounding buildings, 
+• Ground terrain and absorption 
+[[page 32]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 32 
+ 
+Equipment, staging, hours of work and locations and duration are unavailable at this stage of the project. 
+Therefore, assumptions have been made based on similar projects. The magnitude of construction noise 
+impacts is dependent upon several aspects including the intensity and location of activities, the type of 
+equipment used and background noise levels during the construction period. 
+No mitigation measures have been included in the predictions.  
+6.2.2 Construction activities 
+Construction activities likely to be conducted for the project are: 
+• Activity 1: Site establishment, demolition and excavation 
+• Activity 2: Foundations 
+• Activity 3: Pavement and road works 
+• Activity 4: Building construction. 
+• Activity 5: Plant installation and connection 
+6.2.3 Hours of work 
+Construction works are proposed to be conducted during ICNG recommended standard construction hours, 
+outlined in Table 21. 
+Table 21: ICNG recommended standard hours of construction 
+Day ICNG recommended standard hours of construction 
+Monday – Friday 7 am – 6 pm 
+Saturday 8 am – 1 pm 
+Sundays or Public holidays No construction work 
+6.2.4 Plant and equipment sources 
+Equipment sound power levels (Lw) have been determined by reference to AS2436 [10], the Transport for 
+NSW Construction Noise and Vibration Guideline (CNVG) [8], BS5228 [12] and UK Department for 
+Environment, Food & Rural Affairs (DEFRA) construction noise database [19]. The equipment has been 
+assumed to operate concurrently and for durations listed over a 15-minute period (a typical worst-case 
+assumption).  
+ 
+[[page 33]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 33 
+ 
+ Table 22:Equipment and plant sound power levels 
+Plant item 
+Plant item 
+sound 
+power level 
+dBLAeq  
+Penalty1, dB % of use in worst 
+case 15 min 
+Number of items operation in worst case 15-minute period 
+Activity 1: Site 
+establishment, 
+demolition and 
+excavation 
+Activity 2: 
+Foundations 
+Activity 3: 
+Pavement and 
+road works 
+Activity 4: 
+Building 
+construction 
+Activity 5: Plant 
+installation and 
+connection 
+Backhoe 108 - 100 1     
+Compactor 115 5 100 1  1   
+Concrete Pump  109 - 100  1 1 1  
+Concrete Pump Truck 113 - 100  1 1 1  
+Crane (Franna) 98 - 100    1  
+Crane (Tower) 105 - 100    1  
+Excavator (30 t) + hydraulic 
+hammer 
+122 5 100 3  1   
+Generator (Diesel) 113 - 100 1  1 1  
+Grader 115 - 100 1  1   
+Jack Hammer 121 5 100   1   
+Loader (Front-end) (23 t) 112 - 100 1  1   
+Pavement Laying Machine 114 - 100   1   
+Roller (Smooth-drum) 107 - 100   1   
+Roller (Vibrator) 112 5 100 2     
+Scraper 116 - 100 1     
+Truck (>20 Tonne) 107 - 100 1 1 1   
+Truck (Water Cart) 108 - 100 2  2 1  
+Vehicle (Light Commercial 
+e.g. 4WD) 
+111 - 100 2  2 2 1 
+Total LAeq,15min sound power level per Activity. 133 115 131 120 111 
+Note: 
+1_Penalty applies if equipment has special characteristics in accordance with ICNG [3] 
+[[page 34]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 34 
+ 
+6.2.5 Noise prediction results 
+Predicted construction noise levels at the surrounding receiver are presented in Table 23.  
+A maximum range of noise levels have been predicted for receivers located the closest to the site as the 
+construction noise levels at those receivers will vary greatly depending on location of equipment. The lower 
+level assumes that all equipment listed in Table 22 is operating concurrently within the site which represents 
+the maximum average noise levels at the receivers throughout the construction period while the upper noise 
+levels in the range represents the maximum noise levels at the receivers when the noisiest piece of equipment 
+operates the closest to the receivers.  
+It is noted that the predicted construction noise levels are generally conservative and do not represent a 
+constant noise emission that would be experienced by the community on a daily basis throughout the project 
+construction period. In reality the predicted noise levels will vary in intensity and would only be experienced 
+for limited periods of time when works are occurring.  
+Table 23: Predicted construction noise levels - Residential and non-residential receivers 
+Receivers 
+NML, dBLAeq,15min Predicted noise level, dBLAeq,15min1 
+Standard 
+hours 
+Highly 
+Noise 
+Affected 
+Activity 1: Site 
+establishment, 
+demolition and 
+excavation 
+Activity 2: 
+Foundations 
+Activity 3: 
+Pavement 
+and road 
+works 
+Activity 4: 
+Building 
+construction 
+Activity 5: 
+Plant 
+installation 
+and 
+connection 
+RES12 67 75 66 48 64 53 44 
+RES22 67 75 65 47 63 52 43 
+RES32 67 75 69 51 67 56 47 
+RES42 67 75 59 41 57 46 37 
+RES5 55 75 43 25 41 30 21 
+RES6 55 75 42 24 40 29 20 
+RES7 57 75 38 20 36 25 16 
+COM1 70 - 70 52 68 57 48 
+COM2 70 - 75 57 73 62 53 
+COM3 70 - 83 65 81 70 61 
+COM4 70 - 81 63 79 68 59 
+COM5 70 - 68 50 66 55 46 
+COM6 70 - 80 62 78 67 58 
+COM72 55 - 71 53 69 58 49 
+CC1 55 - 47 29 45 34 25 
+CC2 55 - 50 32 48 37 28 
+CC3 55 - 58 40 56 45 36 
+REC12 60 - 61 43 59 48 39 
+HOT1 70 - 48 30 46 35 26 
+Note: 
+1_ Cells highlighted in grey indicate an exceedance of standard hours NMLs 
+2_ Receiver location may not yet exist or may change in land use. Receiver land use and occupation status to be verified at time of 
+construction during preparation of CNVMP 
+Results show that construction noise levels are predicted to exceed the NMLs at the nearest commercial, 
+residential, childcare centre and recreational receivers particularly during the highest impact activities (i.e. 
+Activity 1 and 3). Only the nearest adjacent receivers are predicted to exceed the NMLs during Activity 4. 
+No exceedances of NMLs are predicted during Activity 2 and 5. 
+[[page 35]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 35 
+ 
+Receiver COM7 (assessed as an educational receiver) may be vacated at time of construction. Similarly, 
+residential receivers RES1 to RES4, may not yet be constructed or occupied at time of construction. 
+Construction noise levels are predicted to be below the ‘highly noise affected’ NML.  
+Preliminary noise mitigation measures are detailed in Section 6.6. 
+6.3 Construction traffic assessment 
+Increased traffic generated on the public road network is assessed in accordance with the NSW Road Noise 
+Policy (RNP) [2]. 
+When assessing noise impact using the existing road network, an initial screening test is applied to evaluate 
+whether noise levels are expected to increase by more than 2 dBA due to the additional traffic generated by 
+the Project. 
+Where noise levels are predicted to increase by more than 2 dBA (i.e. 2.1 dBA or greater) further assessment 
+is required against the criteria in Table 3 of the RNP. 
+Access to and from the site will be via Talavera Road which is a sub-arterial road.  
+Due to the anticipated low number of vehicles generated by the construction of the development and high 
+existing traffic volumes, construction traffic noise is anticipated to comply with RNP. 
+6.4 Construction vibration criteria 
+The effect of vibration in buildings can be divided into three main categories: 
+1. Human perception of vibration: when the occupants or users of the building are potentially disturbed 
+by vibration. Relevant guidance is provided in NSW Assessing Vibration: a technical guideline [4]. This 
+document is based on BS 6472:1992 [13]. 
+2. Effects on building contents: People can perceive floor vibration at levels well below those likely to 
+cause damage to typical building contents. However, some scientific equipment (e.g. electron 
+microscopes and microelectronics manufacturing equipment) can require more stringent objectives than 
+those applicable to human comfort. Where appropriate, objectives for the satisfactory operation of 
+critical instruments or manufacturing processes should be sourced from manufacturer’s data and/or other 
+published objectives. 
+Note that it is not expected that scientific equipment would be located near the site. 
+3. Effects of vibration on structures: A level of vibration where the integrity of the building or the 
+structure itself may be affected, ranging from cosmetic to major structural damage. The relevant criteria 
+are typically well above the level of vibration which people may consider intrusive. Guidance may be 
+found in AS 2187:Part 2 [9]. BS 7385 Part 2 [6] and DIN 4150 [7] which also has criteria of particular 
+reference for heritage structures and buried pipework. 
+Further details are included in Appendix H. 
+6.5 Vibration assessment 
+The CNVG [8] recommends minimum working distances from vibration-intensive equipment, as shown in 
+Table 25. With regard to the proposed development works, vibration is not expected to impact upon 
+surrounding developments. Should any sensitive structure be identified within the minimum working 
+distances in Table 25 mitigation measures should be put in place. 
+All reasonable and feasible mitigation measures should be applied for the construction of the project. The 
+following sections discuss in-principal management measures that could be employed. 
+  
+[[page 36]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 36 
+ 
+6.6 Construction noise and vibration mitigation measures 
+Mitigation and management measures are outlined in Table 24. The mitigation measures are considered 
+‘feasible and reasonable’ for implementation on the project. The contractor will have a key role in managing 
+potential noise and vibration impacts during the works and the following recommendations should be 
+integrated into the overarching management plan for the works. 
+Table 24: Construction noise and vibration mitigation and management measures 
+Item Detail 
+Management Plan A Construction Noise and Vibration Management Plan (CNVMP) shall be formalised prior to the 
+issuing of a Construction Certificate. Alternatively, relevant noise and vibration requirements should 
+be integrated into the project’s Construction Management Plan (CMP).  
+The CNVMP should include but not be limited to the following: 
+• Roles and responsibilities 
+• Noise and vibration sensitive receiver locations, structures and infrastructure 
+• Identify works that have the potential to cause impact, accompanied by an appropriate assessment 
+(predictive assessment or risk evaluation) 
+• Mitigation and management strategy 
+• Monitoring methodology (as relevant) 
+• Community engagement strategy. 
+Temporary noise barrier • Temporary noise barriers such as construction hoarding are most effective when located close to 
+the source or the receiver.  
+• Considering the urban environment and given the multi-level nearest sensitive receivers 
+surrounding the project site temporary noise barriers of reasonable and feasible height may 
+provide limited noise attenuation. Nevertheless, construction hoarding surrounding the site may 
+provide some reduction of noise levels to the adjacent sensitive receiver locations. 
+• The benefits of the noise barrier should be reevaluated when a more detailed assessment is 
+conducted during the preparation of the CNVMP. 
+Community consultation  Community consultation should occur prior to, and during works as follows: 
+• Discuss with affected neighbours any atypical sensitivities (such as vibration sensitive 
+equipment/processes in research or medical establishments, or exam periods for education 
+establishments) to inform determination of criteria and where scheduling of activities may aid to 
+minimise impacts  
+• Seek to establish long-term contact personnel or processes to aid notification of planned activities 
+and expected disruption/effects and their duration. Notifications should be as specific as 
+practicable with regarding to nature, timing of works and any scheduled respite periods. 
+• Advise neighbours of mitigation and management processes and complaints handling procedures. 
+Where respite periods may be warranted, discuss community preferences in terms of respite vs 
+shorter overall works duration. Where respite is to be provided, seek to align with receiver 
+preferences.  
+• Guidance regarding noise and vibration complaints management process is included in Appendix 
+I. 
+• Keep a register of any complaints, including details such as date, time, contact number, 
+complainant location, description of complaint and action taken. 
+• Provide quick response to complaints, both to aid understanding the cause of the complaint and 
+reduce extended impacts. 
+Staff / training • Appoint a named member of the site staff who will act as the Responsible Person with respect to 
+noise and vibration. 
+• Site managers to periodically check the site and subjectively assess emissions to nearby receivers 
+to proactively manage works. 
+• All employees, contractors, and subcontractors to receive an environmental induction which 
+should include: 
+− Standard noise and vibration mitigation measures 
+− Permissible hours of work outlined in Section 6.2.3 
+− Limitations on high noise and vibration generating activities 
+− Location of nearest sensitive receivers 
+[[page 37]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 37 
+ 
+Item Detail 
+• Regularly train workers and contractors (such as at toolbox talks) to reinforce good work practices 
+and communicate any received complaints, responses and changes to work practices where 
+relevant.  
+• Document and communicate methods for use and maintenance of equipment to minimise noise 
+and vibration. 
+• Avoid dropping of items, particularly from height. 
+• Avoid the use of radios or stereos outdoors. 
+• Avoid the overuse of public address systems. 
+• No swearing or unnecessary shouting.  
+• No slamming of doors. 
+Site/works planning • Where practicable, strategically locate primary site entries, access roads, loading areas etc, away 
+from the most noise sensitive receptors. 
+• Where practicable, fixed equipment should be located away from the most sensitive receptors. 
+Where relevant to the equipment type, enclosures should be provided or acoustically shielded by 
+structures or site sheds etc. 
+• Route heavy vehicle movements away from noise sensitive areas, such as residential streets where 
+possible. 
+• Where practicable, pre-fabricate and/or prepare materials off-site. 
+• Carry out building/structures/utility condition surveys as per Section 6.5 
+Condition surveys • To be conducted prior to commencement of works  
+• Required where it has been established that the property, structure or utility is at risk of damage 
+during the construction work.  
+• The findings of the survey may require amendment to proposed vibration criteria or management 
+measures and therefore should be undertaken in suitable advance of the start date. 
+Works scheduling • Works to be scheduled taking into account approved works hours, any restrictions relevant to 
+specific equipment/activities and respite periods etc. 
+• Highest noise generating activities should be scheduled for the least sensitive times, where 
+practicable.  
+• The acceptability for any out-of-hours works should be confirmed with authorities  
+Plant and equipment  • Use quieter and less vibration emitting construction methods where feasible and reasonable. For 
+example: 
+− Use of static or oscillating rollers rather than vibratory rollers. 
+− Use of electric / hydraulic equipment 
+− Use of non-tonal reversing beepers (or an equivalent mechanism) for all construction vehicles 
+and mobile plant regularly used onsite. Note, the use of non-tonal reversing alarms is 
+recommended to minimise noise impacts however WHS requirements must be fully satisfied. 
+• Use only the necessary size and power of equipment. 
+• Limit use of activities with potentially ‘annoying’ or intrusive characteristics such as impulsive, 
+tonal or excessive low frequency sources. 
+• Ensure plant is regularly maintained, and repair or replace equipment as necessary (e.g. ensure air 
+lines on pneumatic equipment do not leak). 
+• Turn off all vehicles, plant and equipment when not in use. 
+Noise monitoring • Generally short-term attended measurements will be conducted in response of a complaint  
+• Attended monitoring may be undertaken at the start of new construction activities to confirm 
+alignment with predicted noise levels in the impact assessment. 
+Vibration monitoring • Vibration monitoring should be conducted where works are proposed within the ‘minimum 
+working distance’ to a sensitive receiver/structure/utility with respect to cosmetic damage. Refer 
+to Section 6.6.1 
+• Preliminary attended monitoring should be carried out to evaluate risk of works exceeding 
+relevant limits. Screening measurements should be carried out with plant operating outside the 
+minimum working distance, and progressively move closer. 
+• Where works are at risk of exceeding criteria, establish long-term monitoring. The monitors 
+should provide ‘real-time’ alerts (SMS messages and/or flashing lights) when vibration criteria are 
+exceeded. A warning level (below the relevant criteria) should be set in addition to the criteria 
+limit.  
+• In the event that the vibration criterion is exceeded, works should cease.   
+[[page 38]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 38 
+ 
+Item Detail 
+• An exceedance of the vibration criterion may necessitate a change in work method. This could 
+include:  
+− Re-evaluation of the vibration criterion based on results of the initial condition investigation 
+and inspections of the structure following the commencement of works. 
+− Maintain vibration monitoring throughout works within ‘minimum working distances’. 
+− Reduce the size of demolition and construction equipment and develop alternative 
+methodologies to minimise vibration.   
+− Use less vibration emitting demolition methods if necessary closer to the sensitive building or 
+structure   
+− Balance variable speed vibrating plant and operate at speeds that do not produce resonance.  
+Review and improvement • The CNVMP forms the framework for the contractor to minimise noise and vibration impacts at 
+the nearby receivers. 
+• Evaluation of the management performance against the applicable policies, objectives and targets 
+should occur for the purpose of identifying opportunities for improvement. This should include: 
+− Determine the cause or causes of non-conformances and deficiencies 
+− Develop and implement a plan of corrective and preventative action to address any non-
+conformances and deficiencies 
+− Verify the effectiveness of the corrective and preventative actions 
+− Document any changes in procedures resulting from process improvement 
+6.6.1 Vibration – minimum working distances 
+With regards to vibration impacts during construction, these will be managed by the Contractor and will 
+depend on the type, size, number and location of equipment used. Preliminary screening criteria are provided 
+in Table 25. Table 25 shows that where vibration generating equipment is to be located within a certain 
+distance from a receiver vibration impact may occur. 
+Regarding the proposed development works, vibration is not expected to impact upon surrounding 
+developments. Notwithstanding, should equipment be located within the minimum working distance, 
+mitigations measures should be implemented such as reselection of low vibration generating equipment 
+and/or vibration monitoring. Should vibration monitoring be conducted, the criteria to be achieved at the 
+location of monitoring would be the criteria in Appendix H. 
+Table 25: Recommended minimum working distances for vibration intensive plant 
+Plant item Rating / description 
+Minimum working distance (m) 
+Cosmetic damage – screening criteria 
+Human 
+response  
+Industrial and 
+heavy commercial 
+buildings 
+BS 7385 
+Line 1 - 25 mm/s 
+(See note 2) 
+Residential and 
+light commercial 
+buildings 
+BS 7385 
+Line 2 - 7.5 mm/s 
+(See note 2) 
+Structures 
+unsound  
+DIN 4150 
+Line 3 - 
+3 mm/s 
+ 
+Vibratory roller < 50 kN (~ 1 to 2 t) 2 m 5 m 11 m 15 m to 20 m 
+< 100 kN (~ 2 to 4 t) 2 m 6 m 13 m 20 m 
+< 200 kN (~ 4 to 6 t) 5 m 12 m 26 m 40 m 
+< 300 kN (~ 7 to 13 t) 6 m 15 m 31 m 100 m 
+> 300 kN (~ 13 to 18 t) 8 m 20 m 40 m 100 m 
+> 300 kN (> 18 t) 10 m 25 m 50 m 100 m 
+Hydraulic hammer – 
+Small 
+300 kg / 5 to 12 t 
+excavator 
+1 m 2 m 5 m 7 m 
+Hydraulic hammer – 
+Medium 
+900 kg / 12 to 18 t 
+excavator 
+3 m 7 m 15 m 23 m 
+[[page 39]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 39 
+ 
+Plant item Rating / description 
+Minimum working distance (m) 
+Cosmetic damage – screening criteria 
+Human 
+response  
+Industrial and 
+heavy commercial 
+buildings 
+BS 7385 
+Line 1 - 25 mm/s 
+(See note 2) 
+Residential and 
+light commercial 
+buildings 
+BS 7385 
+Line 2 - 7.5 mm/s 
+(See note 2) 
+Structures 
+unsound  
+DIN 4150 
+Line 3 - 
+3 mm/s 
+ 
+Hydraulic hammer – 
+Large 
+1600 kg / 18 to 34 t 
+excavator 
+9 m 22 m 44 m 73 m 
+Piling – Vibratory Sheet piles 9 m 22 m 44 m 73 m 
+Piling – Bored ≤ 800 mm 1 m (nominal) 2 m  5 m 10 m  
+Piling – Hammer 12t down force 6 m 15 m 30 m 50 m 
+Jackhammer Hand-held 1 m (nominal) 1 m (nominal) 3 m 5 m 
+Mechanised bored tunnelling works (Tunnel 
+Boring Machine, Horizontal Directional Drilling, 
+Micro-tunnelling)1 
+1 m to 5 m 2 m to 12 m 4 m to 24 m 6 m to 35 m 
+Notes: 
+1_ Based on TRL document [20] using Godio et al formula, equation 24 
+2_ Where vibration might give rise to resonant responses in structures 
+  
+[[page 40]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 40 
+ 
+7. Conclusion 
+A Noise and Vibration Impact Assessment has been conducted for the proposed data centre at 1-5 Khartoum 
+Road, Macquarie Park NSW in accordance with the requirements of the Planning Secretary’s Environmental 
+Assessment Requirements (SSD-63235720) for the Proposal. 
+The operational noise assessment has carried out noise predictions in accordance with the NSW Noise Policy 
+for Industry [1], including consideration of noise-enhancing meteorological conditions. Both ISO 9613-
+2:2024 [16] and CONCAWE [17] algorithms were utilised to assess standard meteorological conditions. The 
+assessment identified the noise sensitive receivers, overall site criteria, noise sources and noise mitigation 
+measures. Operating conditions were defined for normal operations and maintenance operations including 
+generator testing. 
+Predicted results indicate that, with the implementation of the indicative noise mitigation measures presented 
+in this report, the noise emissions from the project comply with the overall site noise criteria during both 
+normal operations and maintenance operations at all receivers under standard and enhanced weather 
+conditions. 
+Further acoustic design will be required during the design development phase to confirm the detailed 
+specification of equipment and mitigation measures. 
+The increase in traffic noise from vehicles traveling to and from the site on the road network was assessed as 
+compliant with the provisions of the NSW Road Noise Policy [2]. 
+Regarding construction, while specific activities and work schedules are not yet confirmed, a preliminary 
+assessment has been conducted. Criteria has been established in accordance with the NSW ICNG [3] and 
+Assessing Vibration: a technical guideline [4]. Predicted noise levels indicate that NMLs are likely to be 
+exceeded. Regarding vibration, should any sensitive structures be identified within the minimum working 
+distances, mitigation measures as recommended in Section 6.6 should be applied. Recommendations 
+regarding mitigation and management measures are outlined in Section 6.6 and are expected to be developed 
+further in a formal Construction Noise and Vibration Management Plan, to be prepared prior to 
+commencement of works.  
+During construction, heavy vehicles are expected to travel on Talavera Road. Construction traffic noise is 
+anticipated to comply with provisions of the NSW Road Noise Policy. 
+Mitigation and management measures for the operation and construction of the site are discussed in Section 
+4.4 and Section 6.6 respectively. 
+ 
+  
+[[page 41]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 41 
+ 
+8. References 
+ 
+[1]  NSW Environment Protection Authority, “NSW Noise Policy for Industry,” Sydney, 2017. 
+[2]  Department of Environment, Climate Change and Water NSW, “NSW Road Noise Policy,” NSW 
+Environment Protection Authority, Sydney, 2011. 
+[3]  Department of Environment and Climate Change NSW, “Interim Construction Noise Guideline,” 
+Environment Protection Authority, Sydney, 2009. 
+[4]  Department of Environment and Conservation NSW, “Assessing Vibration: a techinical guideline,” 
+Environment Protection Authority, Sydney, 2006. 
+[5]  Standards Australia, “AS2187.2 Explosives - Storage and use Part 2: Use of explosives,” Standards 
+Australia, 2006. 
+[6]  British Standards, “BS 7385-2:1993 Evaluation and measurement for vibration in buildings. Guide to 
+damage levels from groundborne vibration,” British Standards, 1993. 
+[7]  Deustsches Institut fur Normung, “DIN4150-3 (2016) Vibrations in buildings - Part 3: Effects on 
+structures, English translation,” DIN-Normen, Berlin, 2016. 
+[8]  Transport for NSW, Construction Noise and Vibration Guideline Public Transport Infrastructure, 
+Sydney, 2023.  
+[9]  Standards Australia, “AS 1055 Acoustics—Description and measurement of environmental noise,” 
+Standards Australia, Sydney, 2018. 
+[10]  Standards Australia, “AS 2436-2010 - Guide to noise and vibration control on construction, demolition 
+and maintenance sites,” Standards Australia, 2010. 
+[11]  Standards Australia, “AS IEC 61672.1 2019 “Electroacoustics - Sound Level Meters Specifications",” 
+Standards Australia, 2019. 
+[12]  BSI Standards Limited 2014, “BS 5228-1:2009+A1:2014 Code of practice for noise and vibration 
+control on construction and open sites,” BSI Standards Limited 2014, London, 2009+A1:2014. 
+[13]  British Standards, “BS 6472-1:2008 Guide to evaluation of human exposure to vibration in buildings. 
+Vibration sources other than blasting,” British Standards, 2008. 
+[14]  Aecom Australia Pty LTd, “Macqaurie Park Data Centre Noise and Vibration Impact Assessment,” 
+Aecom, Sydney, 2020. 
+[15]  Renzo Tonin & Associates Pty Ltd, “Macquarie Data Centre IC3 Super West - Noise and Vibration 
+Report for SSDA,” Renzo Tonin & Associates, Sydney, 2021. 
+[16]  International Standards Organisation, “ISO 9613-2 Acoustics - Attenuation of sound during 
+propagation outdoors - Part 2: Engineering method for the prediction of sound pressure levels 
+outdoors,” 2024. 
+[17]  C. Manning, “CONCAWE - the propagation of noise from petroleum and petrochemical complexes to 
+neighbouring communities,” CONCAWE, 1981. 
+[[page 42]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page 42 
+ 
+[18]  G. Downey and NSW Environment Protection Authority, “An example approach to consider low 
+frequency noise in the context of the NSW noise policy for industry,” Acoustics Australia, vol. 48, no. 
+2, pp. 170-172, 2020.  
+[19]  Department for Environment, Food & Rural Affairs (DEFRA), “Update of noise database for 
+prediction of noise on construction and open sites - Phase 3: Noise measurement data for construction 
+plant used on quarries,” 2006. 
+[20]  C. H. D and G. I. Miller, “Transport Reseach Laboratory (TRL), GroundBorne vibration caused by 
+mechanised construction works,” 2000. 
+[21]  UK National Grid, “T/SP/SSW/22 Specification for Safe Working in the Vicinity of National Grid 
+High Pressure Gas Pipelines and Associated Installations – Requirements for Third Parties,” UK 
+National Grid, 2006. 
+ 
+ 
+[[page 43]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page A-1 
+ 
+Appendix A 
+Glossary 
+ 
+Term  Definition 
+Ambient noise level The ambient noise level is the overall noise level measured at a location from multiple noise 
+sources. When assessing noise from a particular development, the ambient noise level is defined 
+as the remaining noise level in the absence of the specific noise source being investigated. For 
+example, if a fan located on a building is being investigated, the ambient noise level is the noise 
+level from all other sources without the fan operating, such as traffic, birds, people talking and 
+other noise from other buildings.  
+Background noise level The background noise level is the noise level that is generally present at a location at all or most 
+times. Although the background noise may change over the course of a day, over shorter time 
+periods (e.g. 15 minutes) the background noise is almost-constant. Examples of background 
+noise sources include steady traffic (e.g. motorways or arterial roads), constant mechanical or 
+electrical plant and some natural noise sources such as wind, foliage, water and insects. 
+Assessment Background Level (ABL): A single-number figure used to characterise the 
+background noise levels from a single day of a noise survey. ABL is derived from the measured 
+noise levels for the day, evening or night period of a single day of background measurements. 
+The ABL is calculated to be the tenth percentile of the background LA90 noise levels – i.e. the 
+measured background noise is above the ABL 90% of the time. 
+Rating Background Level (RBL / minLA90,1hour): A single-number figure used to characterise the 
+background noise levels from a complete noise survey. The RBL for a day, evening or night 
+period for the overall survey is calculated from the individual Assessment Background Levels 
+(ABL) for each day of the measurement period, and is numerically equal to the median (middle 
+value) of the ABL values for the days in the noise survey. 
+Decibel (dB) The logarithmic scale used to measure sound and vibration.  
+Human hearing is not linear and involves hearing over a large range of sound pressures, which 
+would be challenging to present on a linear scale. A logarithmic scale allows all sound levels to 
+be expressed based on how loud they are relative to a reference sound (typically 20 µPa, which is 
+the approximate human threshold of hearing). For sound in other media (e.g. underwater noise) a 
+different reference level (1 µPa) is used instead. 
+An increase of approximately 10 dB corresponds to a subjective doubling of the loudness of a 
+noise. The minimum increase or decrease in noise level that can be noticed is typically 2 to 3 dB. 
+dB weighting curves The frequency of a sound affects its perceived loudness and human hearing is less sensitive at 
+low and very high frequencies. When seeking to represent the summation of sound pressure 
+levels across the frequency range of human hearing into a single number, weighting is typically 
+applied. Most commonly, A-weighting, denoted as dB(A), is used for environmental noise 
+assessment. This is often supplemented by the linear or C-weighting curves, where there is the 
+potential for excess low-frequency sound at higher sound pressure levels. 
+ 
+
+[[page 44]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page A-2 
+ 
+Term  Definition 
+dB(A) dB(A) denotes a single-number sound pressure level that includes a frequency weighting (‘A-
+weighting’) to reflect the subjective loudness of the sound level. 
+The frequency of a sound affects its perceived loudness. Human hearing is less sensitive at low 
+and very high frequencies, and so the A-weighting is used to account for this effect. An A-
+weighted decibel level is written as dB(A). 
+dBpeak The peak value is the maximum amplitude identified during a measurement period. 
+dBrms The root mean squared (rms) value takes into account both time history variation and energy 
+content. The rms value is typically equal to 0.707 (1/√2) times the peak value 
+Frequency Frequency is the number of cycles per second of a sound or vibration wave. In musical terms, 
+frequency is described as ‘pitch’. Sounds towards the lower end of the human hearing frequency 
+range are perceived as “bass” or ‘low-pitched’ and sounds with a higher frequency are perceived 
+as ‘treble’ or ‘high pitched’.  
+The unit of frequency is the hertz (Hz), which is identical to cycles per second. A thousand Hz is 
+generally denoted as kHz. Human hearing ranges approximately from 20 Hz to 20 kHz. 
+While single weighted sound pressure levels simplify the assessment and evaluation of sound 
+levels, frequency analysis is often undertaken. ‘Octave bands’, either 1/1 or 1/3 octave bands are 
+most commonly utilised and are referred to by the nominal centre frequency of the band (e.g. 
+31.5 Hz), while being the summation of all frequencies between a defined lower and upper 
+frequency. 
+ 
+L1(period) The sound level exceeded for 1% of the measurement period.  
+For example, 65 dBLA1,1min indicates that the A-weighted sound level would not exceed 65 dB 
+for more than 0.6 seconds in the 1-minute measurement period. 
+L10(period) The sound level exceeded for 10% of the measurement period, or alternatively, the sound levels 
+would be lower for 90% of the time. 
+The L10 is often defined as the ‘average maximum’ sound levels, as in AS1055-2018 with the 
+advent of statistical sound level meters.  
+L90(period) The sound level exceeded for 90% of the measurement period.  
+The L90 is often defined as the ‘average minimum’ or ‘background’ noise level for a period of 
+measurement. For example, 45 dBLA90,15min indicates that the sound level is higher than 
+45 dB(A) for 90% of the 15-minute measurement period. 
+Leq(period) 
+ 
+The equivalent (‘eq’) continuous sound level, used to describe the level of a time-varying sound 
+or vibration measurement. 
+The Leq is often defined as the ‘average’ level, and mathematically, is the energy-average level 
+over a measurement period – i.e. the level of a constant sound that contains the same sound 
+energy as the measured sound. 
+Lmax The Lmax is the ‘absolute maximum’ level of a sound or vibration recorded over the measurement 
+period. 
+
+[[page 45]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page A-3 
+ 
+Term  Definition 
+As the Lmax is often caused by an instantaneous event, it can vary significantly between 
+measurements. 
+Peak Particle Velocity 
+(PPV)  
+ 
+The highest velocity of a particle (such as part of a building structure) as it vibrates. PPV is 
+commonly used as a vibration criteria, and is often interpreted as a PPV based on the Lmax or 
+Lmax,spec index. 
+Sound Power and Sound 
+Pressure 
+The sound power level (Lw) of a source is a measure of the total acoustic power radiated by a 
+source. The sound pressure level (Lp) varies as a function of the environment and distance from a 
+source.  
+The sound power level is an intrinsic characteristic of a source (analogous to its mass), which is 
+not affected by the environment within which the source is located. 
+Structureborne noise The transmission of noise energy as vibration of building elements. The energy may then be re-
+radiated as airborne noise. Structureborne noise is controlled by structural discontinuities, i.e. 
+expansion joints and floating floors. 
+Vibration Waves in a solid material are called ‘vibration’, as opposed to similar waves in air, which are 
+called ‘sound’ or ‘noise’. If vibration levels are high enough, they can be felt; usually vibration 
+levels must be much higher to cause structural damage. 
+A vibrating structure (e.g. a wall) can cause airborne noise to be radiated, even if the vibration 
+itself is too low to be felt. Structureborne vibration limits are sometimes set to control the noise 
+level in a space. 
+Vibration levels can be described using measurements of displacement, velocity and 
+acceleration. Velocity and acceleration are commonly used for structureborne noise and human 
+comfort. Vibration is described using either metric units (such as mm, mm/s and mm/s2) or else 
+using a decibel scale. 
+ 
+[[page 46]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page B-1 
+ 
+Appendix B 
+Background and ambient noise survey 
+  
+[[page 47]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page B-2 
+ 
+B.1 Unattended long-term noise monitoring 
+B.1.1 Noise monitoring equipment 
+Unattended monitoring was carried out using the equipment in Table 26 in general accordance with the NPfI 
+[1] and AS1055.2018 [9]. 
+Table 26: Unattended Noise Monitoring Equipment information 
+Measurement Location Equipment/model Serial No. Logger/SLM Type 
+L1 – Unit 6, 37 Khartoum Road, Macquarie 
+Park1 
+SVAN 977 45416 Class 1 Environmental noise logger 
+L2 - 7 Whitten Parade, Harrington Park2 NTi XL2 RTA05-008 Class 1 Environmental noise logger 
+L3 – 7 Booth Street, Marsfield1 SVAN 977 22855 Class 1 Environmental noise logger 
+1_Conducted as part of the EIS prepared for Macquarie Park Data Centre located at 11-17 Khartoum Road, Macquarie Park [14] 
+2_Conducted as part of the EIS prepared for Talavera Road Data Centre Campus Expansion located at 17-23 Talavera Road, Macquarie Park [15] 
+All noise monitoring instrumentation used was compliant with the requirements of AS IEC 61672.1-2004: 
+Electroacoustics - Sound level meters – Specifications [11] and carried appropriate and current National 
+Association of Testing Authorities (NATA) (or manufacturer) calibration certificates. The calibration of the 
+equipment was checked both before and after the survey and no significant drift in calibration (±0.5 dB) was 
+noted at any location. 
+B.1.2 Extraneous/weather affected data 
+Measurement samples affected by extraneous noise, wind (greater than 5m/s) or rain were excluded from the 
+recorded data in accordance with the procedures outlined in Fact Sheet A of the NSW Noise Policy for 
+Industry (NPfI) [1].  
+The noise long-term noise monitoring results were processed to exclude weather affected data following 
+consultation of weather reports from the Bureau of Meteorology (BOM) Sydney Olympic Park Weather 
+Station (Station ID 066212). 
+The noise level-vs-time graphs of the data are included in Section B.1.3.  
+B.1.3 Noise monitoring graphs 
+The following noise level vs time graphs present overall dB(A) levels recorded by the unattended logger(s) 
+for a range of noise descriptors, including LAeq, LA90, LA10 and LAmax. While line graphs are presented, 
+sampling is at 15-minute intervals. 
+Wind speeds are also shown where relevant, and periods of excluded data are shaded grey.  
+  
+[[page 48]]
+Noise Logger Report
+Unit 6, 37 Khartoum Road, Macquarie ParkI
+tem Information
+Logger Type Svan 977
+Serial number 45416
+Address Unit 6, 37 Khartoum Road, Macquarie Park
+Location Front yard
+Facade / Free Field Free Field
+Environment Background controlled by environment. Noise environment dominated by road traffic
+noise to west along Khartoum road. Car pass by 58-62 dB(A). Minimal to little breeze,
+sunny, some clouds. Birds calling, trucks can be heard in distance.
+Measured noise levels
+Logging Date LAeq
+Day Eve Night
+ABL
+Day Eve Night
+LAeq,15hr LAeq,9hr
+Tue Mar 10 2020 56 58 53 - 46 - 58 53
+Wed Mar 11 2020 56 58 50 45 46 37 57 50
+Thu Mar 12 2020 56 56 52 45 46 38 56 52
+Fri Mar 13 2020 60 54 49 45 43 40 59 49
+Sat Mar 14 2020 59 57 50 50 46 38 59 50
+Sun Mar 15 2020 57 57 51 46 44 38 57 51
+Mon Mar 16 2020 59 59 52 48 45 37 59 52
+Tue Mar 17 2020 58 66 51 46 43 36 62 51
+Wed Mar 18 2020 53 55 50 44 43 39 54 50
+Thu Mar 19 2020 55 54 50 44 42 38 55 50
+Fri Mar 20 2020 55 - 50 - - - 55 50
+Summary 57 59 51 45 45 38 58 51
+Note:    Results denoted with '-' do not contain enough valid data for a value to be calculated.  The data has been
+excluded either manually or automatically as a result of adverse weather conditions.
+Logger Location Logger Deployment Photo
+Unit 6, 37 Khartoum Road, Macquarie Park Page 1
+[[page 49]]
+Typical Day
+Tuesday, 10 Mar 2020
+Wednesday, 11 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 2
+[[page 50]]
+Thursday, 12 Mar 2020
+Friday, 13 Mar 2020
+Saturday, 14 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 3
+[[page 51]]
+Sunday, 15 Mar 2020
+Monday, 16 Mar 2020
+Tuesday, 17 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 4
+[[page 52]]
+Wednesday, 18 Mar 2020
+Thursday, 19 Mar 2020
+Friday, 20 Mar 2020
+Unit 6, 37 Khartoum Road, Macquarie Park
+Page 5
+[[page 53]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acoustics 
+Vibration 
+Structural Dynamics 
+Monitoring ID:  Location L2 
+Address:    82 Waterloo Road, Macquarie Park 
+Description:  The monitor was located in the free field near the northern boundary facing  
+    Waterloo Road. The microphone was located 1.5 metres above ground level 
+Background & Ambient Noise Monitoring Results 
+ LA90 Background Noise Levels LAeq Ambient Noise Levels 
+Date Day1 Evening2 Night3 Day1 Evening2 Night3 
+Representative Week4 52 48 40 61 60 54 
+Notes: 1. Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+2. Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+3. Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+4. Rating Background Level (RBL) for LA90 and logarithmic average for LAeq      
+ 
+ 
+Logger location photograph Logger location map 
+ 
+ 
+ 
+
+[[page 54]]
+Unattended Monitoring Results Location: 82 Waterloo Road, Macquarie Park - Northern Boundary
+Thursday, 15 September 2016Friday, 16 September 2016Saturday, 17 September 2016Sunday, 18 September 2016Monday, 19 September 2016Tuesday, 20 September 2016Wednesday, 21 September 2016
+Data File: 2016-09-15_SLM_000_123_Rpt_Report.txt
+Template: QTE-26 Logger Graphs Program (r36)
+310
+310
+290
+290
+300
+300
+290
+290
+290
+290
+300
+300
+300
+300
+300
+300
+290
+290
+300
+300
+300
+300
+290
+290
+300
+300
+300
+300
+300
+300
+300
+300
+320
+320
+310
+310
+310
+310
+320
+320
+310
+310
+320
+320
+290
+290
+260
+260
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+260
+240
+240
+280
+280
+0
+0
+20
+20
+0
+0
+320
+320
+350
+350
+300
+300
+330
+330
+340
+340
+290
+290
+340
+340
+310
+310
+310
+310
+310
+310
+310
+310
+300
+300
+280
+280
+260
+260
+250
+250
+290
+290
+290
+290
+270
+270
+280
+280
+260
+260
+250
+250
+300
+300
+250
+250
+250
+250
+230
+230
+250
+250
+230
+230
+240
+240
+230
+230
+240
+240
+240
+240
+240
+240
+240
+240
+240
+240
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+320
+320
+310
+310
+290
+290
+0
+0
+280
+280
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+320
+320
+310
+310
+50
+50
+140
+140
+150
+150
+90
+90
+10
+10
+300
+300
+270
+270
+280
+280
+260
+260
+30
+30
+220
+220
+20
+20
+30
+30
+50
+50
+50
+50
+50
+50
+40
+40
+40
+40
+40
+40
+40
+40
+50
+50
+50
+50
+30
+30
+30
+30
+30
+30
+30
+30
+30
+30
+50
+50
+70
+70
+260
+260
+0
+0
+0
+0
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+270
+270
+290
+290
+300
+300
+300
+300
+330
+330
+330
+330
+320
+320
+310
+310
+320
+320
+330
+330
+0
+0
+320
+0
+0
+0
+320
+320
+290
+290
+300
+0
+150
+150
+70
+70
+70
+90
+160
+150
+220
+220
+300
+300
+240
+240
+290
+290
+260
+260
+290
+290
+290
+290
+300
+300
+320
+320
+310
+310
+310
+310
+310
+310
+230
+230
+250
+250
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+250
+290
+290
+290
+290
+310
+310
+330
+330
+0
+0
+0
+0
+0
+0
+0
+0
+0
+330
+0
+0
+310
+310
+290
+290
+300
+300
+300
+300
+300
+300
+300
+300
+260
+260
+260
+260
+280
+280
+250
+250
+250
+250
+250
+250
+260
+260
+260
+260
+270
+270
+240
+240
+240
+240
+220
+220
+230
+230
+220
+220
+230
+230
+200
+200
+210
+210
+230
+230
+260
+260
+230
+230
+230
+230
+210
+210
+200
+200
+250
+250
+0
+0
+250
+250
+250
+250
+0
+0
+280
+280
+270
+270
+0
+0
+0
+0
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+0
+0
+0
+0
+340
+340
+300
+300
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+300
+300
+300
+300
+310
+310
+330
+330
+290
+290
+300
+300
+290
+290
+290
+290
+210
+210
+260
+260
+340
+340
+300
+300
+20
+20
+270
+270
+150
+150
+180
+180
+90
+90
+90
+90
+60
+60
+50
+50
+80
+80
+40
+40
+50
+50
+40
+40
+50
+50
+50
+50
+50
+50
+40
+40
+50
+50
+50
+50
+70
+70
+80
+80
+20
+20
+60
+60
+70
+70
+30
+30
+0
+0
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+0
+0
+70
+70
+0
+0
+0
+0
+0
+0
+310
+310
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+290
+290
+300
+300
+300
+300
+350
+350
+320
+320
+300
+300
+310
+310
+330
+330
+310
+310
+300
+300
+350
+350
+350
+350
+360
+360
+350
+350
+350
+360
+360
+360
+20
+20
+360
+360
+10
+10
+40
+40
+50
+50
+10
+10
+60
+60
+50
+50
+0
+0
+0
+0
+350
+350
+0
+0
+310
+310
+300
+300
+320
+320
+0
+0
+320
+320
+310
+310
+290
+290
+290
+290
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+Time of Day
+L90 Leq L10 L1 Lmax Wind Speed and Direction
+0
+24:00
+[[page 55]]
+Unattended Monitoring Results Location: 82 Waterloo Road, Macquarie Park - Northern Boundary
+Thursday, 22 September 2016Friday, 23 September 2016Saturday, 24 September 2016Sunday, 25 September 2016Monday, 26 September 2016Tuesday, 27 September 2016Wednesday, 28 September 2016
+Data File: 2016-09-15_SLM_000_123_Rpt_Report.txt
+Template: QTE-26 Logger Graphs Program (r36)
+290
+290
+290
+320
+320
+320
+320
+320
+320
+310
+310
+290
+290
+280
+280
+310
+310
+310
+310
+310
+310
+300
+300
+0
+0
+0
+0
+0
+0
+320
+320
+300
+300
+270
+270
+290
+290
+270
+270
+280
+280
+280
+280
+290
+290
+280
+280
+240
+240
+250
+250
+270
+270
+250
+250
+210
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+Time of Day
+L90 Leq L10 L1 Lmax Wind Speed and Direction
+0
+24:00
+[[page 56]]
+Noise Logger Report
+7 Booth Street, MarsfieldI
+tem Information
+Logger Type Svan 957
+Serial number 23855
+Address 7 Booth Street, Marsfield
+Location Front yard
+Facade / Free Field Free field
+Environment Dominated by road traffic noise hum to north/north east. Ambient noise controlled by
+plane and local traffic pass by and some vehicles along Epping road to the north and
+herring road. Plane pass by frequent. Local car pass by ~ 64 dB(A). Sunny, no to very
+slight wind, some clouds. Birds calling.
+Measured noise levels
+Logging Date LAeq
+Day Eve Night
+ABL
+Day Eve Night
+LAeq,15hr LAeq,9hr
+Tue Mar 10 2020 60 54 52 - 42 - 56 52
+Wed Mar 11 2020 55 55 47 42 42 32 55 47
+Thu Mar 12 2020 53 51 45 - 41 34 53 45
+Fri Mar 13 2020 52 51 51 41 41 33 52 51
+Sat Mar 14 2020 53 52 47 - 42 34 53 47
+Sun Mar 15 2020 54 53 45 - 41 32 54 45
+Mon Mar 16 2020 56 52 46 46 44 33 55 46
+Tue Mar 17 2020 55 62 45 42 42 29 58 45
+Wed Mar 18 2020 55 52 45 42 41 34 54 45
+Thu Mar 19 2020 - - 44 - - - - 44
+Summary 55 56 47 42 42 33 55 47
+Note:    Results denoted with '-' do not contain enough valid data for a value to be calculated.  The data has been
+excluded either manually or automatically as a result of adverse weather conditions.
+Logger Location Logger Deployment Photo
+7 Booth Street, Marsfield Page 1
+[[page 57]]
+Typical Day
+Tuesday, 10 Mar 2020
+Wednesday, 11 Mar 2020
+7 Booth Street, Marsfield
+Page 2
+[[page 58]]
+Thursday, 12 Mar 2020
+Friday, 13 Mar 2020
+Saturday, 14 Mar 2020
+7 Booth Street, Marsfield
+Page 3
+[[page 59]]
+Sunday, 15 Mar 2020
+Monday, 16 Mar 2020
+Tuesday, 17 Mar 2020
+7 Booth Street, Marsfield
+Page 4
+[[page 60]]
+Wednesday, 18 Mar 2020
+Thursday, 19 Mar 2020
+7 Booth Street, Marsfield
+Page 5
+[[page 61]]
+ 
+Stockland MPark Talavera Road Data Centre 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment Page C-1 
+ 
+Appendix C 
+Generator testing regime 
+ 
+Quarterly testing (under load) including:  
+• Up to one (1) generator being tested with a load bank 
+• 28 tests required per quarter 
+• Up to 35-minute test duration per generator 
+Annual testing (under load) including: 
+• Up to one (1) generator being tested with a load bank 
+• 28 tests required per annum 
+• Up to 70-minute test duration per generator 
+ 
+ 
+ 
+ 
+[[page 62]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page D-1 
+ 
+Appendix D 
+Operational noise criteria 
+ 
+  
+[[page 63]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page D-2 
+ 
+D.1 Noise Policy for Industry (NPfI) 
+The NPfI [1] sets out the procedure to determine the project noise trigger levels (PNTLs) relevant to a 
+particular industrial development. The PNTL is the lower (that is, the more stringent) value of the project 
+intrusiveness noise level and project amenity noise level. 
+The project intrusiveness noise level aims to protect against significant changes in noise levels, whilst the 
+project amenity noise level seeks to protect against cumulative noise impacts from industry and maintain 
+amenity for particular land uses. 
+D.1.1 Intrusive noise level 
+The intrusiveness noise trigger level is applicable to residential premises only and is established relative to 
+the existing background noise level, as follows: 
+• LAeq,15minute ≤ Rating Background Level (RBL) plus 5 dB 
+D.1.2 Recommended and project amenity noise level 
+The Project Amenity Noise Levels (PANLs) are derived from the Recommended Amenity Noise Levels 
+(RANLs). The RANLs represent the maximum desirable total level of industrial noise at a receiver location 
+while the PANLs represents the objective for noise from a single industrial development at a receiver 
+location. 
+To derive the PANL, the NPfI outlines a simplified method of RANL minus 5 dB, which is based on a 
+receiver not being impacted by more than three to four individual industrial premises. 
+Section 2.4 of the NPfI states: 
+To ensure that industrial noise levels (existing plus new) remain within the recommended amenity 
+noise levels for an area, a project amenity noise level applies for each new source of industrial noise 
+as follows: 
+Project amenity noise level for industrial developments = recommended amenity noise level minus 5 
+dB(A) 
+Section 2.4.2 of the NPfI states: 
+The approach of deriving the project amenity noise level resulting from a new development on the 
+basis of the recommended amenity noise level minus 5 dB is based on a receiver not being impacted 
+by more than three to four individual industrial noise sources. 
+This approach is considered appropriate given the existing two (2) data centres located adjacent to the 
+proposed data centre totalling three individual industrial noise sources. 
+Hence, the project amenity noise levels have been derived assuming that any receivers will not be impacted 
+by more than three to four industrial noise sources.  
+The recommended amenity noise levels (RANLs) and project amenity noise level (PANLs) are summarised 
+in Table 27. 
+Table 27: NPfI RANLs and PANLs 
+Receiver Time Period1 
+Recommended 
+Amenity Noise Level 
+(RANL) dBLAeq,period 
+Project Amenity Noise 
+Levels (PANL) dBLAeq,period 
+(RANL – 5 dB) 
+Project Amenity Noise 
+Levels (PANL) dBLAeq,15 min 
+(PANL LAeq,period + 3 dB) 
+Residential NCA1 
+ 
+Day 602 55 58 
+Evening 502 45 48 
+Night 452 40 43 
+Residential NCA2  
+ 
+Day 602 55 58 
+Evening 502 45 48 
+[[page 64]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page D-3 
+ 
+Receiver Time Period1 
+Recommended 
+Amenity Noise Level 
+(RANL) dBLAeq,period 
+Project Amenity Noise 
+Levels (PANL) dBLAeq,period 
+(RANL – 5 dB) 
+Project Amenity Noise 
+Levels (PANL) dBLAeq,15 min 
+(PANL LAeq,period + 3 dB) 
+Night 452 40 43 
+Residential NCA3  Day 553 50 53 
+Evening 453 40 43 
+Night 403 35 38 
+Hotel / motel Day 654 60 63 
+Evening 554 50 53 
+Night 504 45 48 
+Childcare centre When in use 40 (internal, noisiest 1-
+hour period)5 
+50 (external, noisiest 1-
+hour period)6 
+45 (external) 48 (external) 
+School classroom When in use 40 (internal, noisiest 1-
+hour period)5 
+50 (external, noisiest 1-
+hour period)6 
+45 (external) 48 (external) 
+Hospital ward When in use 50 (external, noisiest 1-
+hour period) 
+45 (external) 48 (external) 
+Passive recreation When in use 50 45 48 
+Active recreation When in use 55 50 53 
+Commercial When in use 65 60 63 
+Industrial When in use 70 65 68 
+Notes: 
+1. The NPfI defines day, evening and night periods as:  
+− Day: the period from 7 am to 6 pm Monday to Saturday; or 8 am to 6 pm on Sundays and Public Holidays 
+− Evening: the period from 6 pm to 10 pm 
+− Night: the remaining period 
+2. The residential receivers in NCA1 and NCA2 have been categorised as ‘Urban’ based on the results of the noise monitoring and in accordance 
+with Table 2.3 of the NPfI 
+3. The residential receivers in NCA3 have been categorised as ‘Suburban’ based on the results of the noise monitoring and in accordance with 
+Table 2.3 of the NPfI   
+4. In accordance with the NPfI, RANL are based on 5 dB(A) above the RANL for a residence for the relevant noise amenity area and time of day. 
+The hotel and motel receivers have been categorised as ‘Urban’. 
+5. In accordance with the NPfI, where existing classrooms are affected by noise from existing industrial sources, the acceptable LAeq noise level 
+may be increase to 40 dB LAeq,1hr 
+6. The criteria for school classrooms and childcare centres are based on the NPfI recommended internal noise level for school classrooms. It is 
+conservatively assumed that the childcare facilities have openable windows, so the external noise criteria at the facade have been derived with a 
+10 dB difference between indoor and outdoor noise levels, resulting in a 45 dBA external RANL LAeq,period. 
+  
+[[page 65]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page D-4 
+ 
+D.1.3 Project Noise Trigger Levels (Site criteria) 
+The Project Noise Trigger Levels (PNTL) are summarised in Table 28. 
+The PNTL are the lowest of the Intrusive and Project Amenity Noise Levels. 
+Table 28: Site Intrusive and amenity noise levels – external noise levels, dBLAeq(15 min) 
+Receiver Time Period1 Intrusive Noise 
+Trigger Level2  
+Project Amenity Noise 
+Levels (PANL)  
+Project Specific Noise 
+Trigger Levels (PNTL)  
+Residential NCA1 
+ 
+Day 503 58 50 
+Evening 503 48 48 
+Night 433 43 43 
+Residential NCA2  
+ 
+Day 574 58 57 
+Evening 534 48 48 
+Night 454 43 43 
+Residential NCA3  Day 475 53 47 
+Evening 475 43 43 
+Night 385 38 38 
+Hotel / motel Day N/A 63 63 
+Evening N/A 53 53 
+Night N/A 48 48 
+Childcare centre When in use N/A 48 48 
+School classroom When in use N/A 48 48 
+Hospital ward When in use N/A 48 48 
+Passive recreation When in use N/A 48 48 
+Active recreation When in use N/A 53 53 
+Commercial When in use N/A 63 63 
+Industrial When in use N/A 68 68 
+Notes: 
+1_ The NPfI defines day, evening and night periods as:  
+− Day: the period from 7 am to 6 pm Monday to Saturday; or 8 am to 6 pm on Sundays and Public Holidays.  
+− Evening: the period from 6 pm to 10 pm.  
+− Night: the remaining period. 
+2_ LAeq,15minute = Rating Background Level (RBL) plus 5 dB 
+3_ Based on results at monitoring location L1 in Section 3.2. 
+4_ Based on results at monitoring location L2 in Section 3.2. 
+5_ Based on results at monitoring location L3 in Section 3.2 
+ 
+ 
+[[page 66]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-1 
+ 
+Appendix E 
+Cooling tower and generator noise data 
+  
+[[page 67]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-2 
+ 
+E.1 Cooling tower manufacturer’s noise data 
+ 
+  
+[[page 68]]
+Baltimore Aircoil Company
+Cooling Tower Selection Report
+Version: 8.11.19 ANZ
+Product data correct as of: December 07, 2021
+Project Name:
+Selection Name:
+Project State/Province: NSW
+Project Country/Region: Australia
+Date: October 07, 2024
+Model Information
+Product Line: Series 3000 (2021 WQF) 110.10 l/s
+Model: XES3E-1222-07M ENDURA/H 41.00 °C
+Number of Units: 2 31.00 °C
+28.00 °C
+This model includes the ENDURADRIVE® Fan System. 4,600 kW
+Fan Type: 33.83 kPa
+Fan Motor:
+Total Standard Fan Power:
+Intake Option:
+Internal Option:
+Discharge Option:
+Whisper Quiet Fan (2021)
+(1) 14.92 = 14.92 kW/Unit 
+8.99 BkW/Unit
+None
+None
+None
+Design Conditions 
+Flow Rate:
+Hot Water Temp.: 
+Cold Water Temp.: 
+Wet Bulb Temp.: 
+Heat Rejection: 
+Tower Pumping Head: 
+Thermal performance at design conditions and standard total fan motor power is certified by the Cooling Technology
+Institute (CTI).
+Engineering Data, per Unit
+Unit Length: 3.60 m
+Unit Width: 6.57 m
+Unit Height: 4.40 m
+Air Flow: 176,493 m³/h
+Approximate Shipping Weight: 6,241 kg
+Heaviest Section: 6,241 kg
+Approximate Operating Weight: 12,151 kg
+Minimum Distance Required for Single Unit:
+(For multiple units, refer to Layout Guidelines)
+    From Solid Wall: 1.7 m
+    From 50% Open Wall: 1 m
+Note: These unit weights and dimensions account for the selected fan type for the standard cataloged drive configuration,
+but they do not account for other options/accessories. Please contact your local BAC sales representative for
+weights and dimensions of units with other options/accessories.
+Page 1/1
+[[page 69]]
+Baltimore Aircoil Company
+Cooling Tower Selection Report
+Version: 8.11.19 ANZ
+Product data correct as of: December 07, 2021
+Project Name:
+Selection Name:
+Project State/Province: NSW
+Project Country/Region: Australia
+Date: October 07, 2024
+Model Information
+Product Line: Series 3000 (2021 WQF) Intake Option: None
+Model: XES3E-1222-07M ENDURA/H Internal Option: None
+Number of Units: 2 Discharge Option: None
+This model includes the ENDURADRIVE®
+Fan System.
+Fan Type: Whisper Quiet Fan (2021)
+Fan Motor: (1) 14.92 = 14.92 kW/Unit
+Total Standard Fan Power: 84.47% of Full Speed, 8.99 BkW/Unit
+Octave band and A-weighted sound pressure levels (Lp) are expressed in decibels (dB)
+reference 0.0002 microbar. Sound power levels (Lw) are expressed in decibels (dB)
+reference one picowatt. Octave band 1 has a center frequency of 63 Hertz.
+Top
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 68 60
+2 67 60
+3 62 56
+4 59 51
+5 58 49
+6 55 47
+7 51 45
+8 45 36
+A-wgtd 63 55
+Air Inlet
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 71 62
+2 68 58
+3 62 51
+4 60 49
+5 57 47
+6 43 38
+7 38 27
+8 42 33
+A-wgtd 62 51
+End
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 63 60
+2 62 53
+3 56 47
+4 52 40
+5 48 38
+6 40 35
+7 38 26
+8 31 18
+A-wgtd 54 45
+End
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 63 60
+2 62 53
+3 56 47
+4 52 40
+5 48 38
+6 40 35
+7 38 26
+8 31 18
+A-wgtd 54 45
+Air Inlet
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 71 62
+2 68 58
+3 62 51
+4 60 49
+5 57 47
+6 43 38
+7 38 27
+8 42 33
+A-wgtd 62 51
+Total Sound Power (dB)
+Octave Center Frequency
+Band (Hertz) Lw
+1 63 93
+2 125 92
+3 250 87
+4 500 83
+5 1000 81
+6 2000 79
+7 4000 76
+8 8000 68
+A-wgtd 87
+Note: The use of frequency inverters (variable frequency drives) can increase sound levels.
+Extra Notes: Sound data provided by CTI ATC-128 sound test code revision 2019
+Page 1/1
+[[page 70]]
+Baltimore Aircoil Company
+Cooling Tower Selection Report
+Version: 8.11.19 ANZ
+Product data correct as of: December 07, 2021
+Project Name:
+Selection Name:
+Project State/Province: NSW
+Project Country/Region: Australia
+Date: October 07, 2024
+Model Information
+Product Line: Series 3000 (2021 WQF) 98.14 l/s
+Model: XES3E-1222-07M ENDURA/H 41.00 °C
+Number of Units: 2 31.00 °C
+22.00 °C
+This model includes the ENDURADRIVE® Fan System. 4,100 kW
+Fan Type: 33.83 kPa
+Fan Motor:
+Total Standard Fan Power:
+Intake Option:
+Internal Option:
+Discharge Option:
+Whisper Quiet Fan (2021)
+(1) 14.92 = 14.92 kW/Unit 
+1.25 BkW/Unit
+None
+None
+None
+Design Conditions 
+Flow Rate:
+Hot Water Temp.: 
+Cold Water Temp.: 
+Wet Bulb Temp.: 
+Heat Rejection: 
+Tower Pumping Head: 
+Thermal performance at design conditions and standard total fan motor power is certified by the Cooling Technology
+Institute (CTI).
+Engineering Data, per Unit
+Unit Length: 3.60 m
+Unit Width: 6.57 m
+Unit Height: 4.40 m
+Air Flow:  91,475 m³/h
+Approximate Shipping Weight: 6,241 kg
+Heaviest Section: 6,241 kg
+Approximate Operating Weight: 12,151 kg
+Minimum Distance Required for Single Unit:
+(For multiple units, refer to Layout Guidelines)
+    From Solid Wall: 1.7 m
+    From 50% Open Wall: 1 m
+Note: These unit weights and dimensions account for the selected fan type for the standard cataloged drive configuration,
+but they do not account for other options/accessories. Please contact your local BAC sales representative for
+weights and dimensions of units with other options/accessories.
+Page 1/1
+[[page 71]]
+Baltimore Aircoil Company
+Cooling Tower Selection Report
+Version: 8.11.19 ANZ
+Product data correct as of: December 07, 2021
+Project Name:
+Selection Name:
+Project State/Province: NSW
+Project Country/Region: Australia
+Date: October 07, 2024
+Model Information
+Product Line: Series 3000 (2021 WQF) Intake Option: None
+Model: XES3E-1222-07M ENDURA/H Internal Option: None
+Number of Units: 2 Discharge Option: None
+This model includes the ENDURADRIVE®
+Fan System.
+Fan Type: Whisper Quiet Fan (2021)
+Fan Motor: (1) 14.92 = 14.92 kW/Unit
+Total Standard Fan Power: 43.78% of Full Speed, 1.25 BkW/Unit
+Octave band and A-weighted sound pressure levels (Lp) are expressed in decibels (dB)
+reference 0.0002 microbar. Sound power levels (Lw) are expressed in decibels (dB)
+reference one picowatt. Octave band 1 has a center frequency of 63 Hertz.
+Top
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 50 42
+2 49 44
+3 44 39
+4 41 33
+5 40 34
+6 37 36
+7 33 28
+8 27 18
+A-wgtd 45 41
+Air Inlet
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 53 45
+2 54 42
+3 46 37
+4 44 31
+5 45 35
+6 37 30
+7 37 23
+8 42 27
+A-wgtd 49 38
+End
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 45 45
+2 46 37
+3 39 30
+4 37 23
+5 35 24
+6 30 21
+7 28 16
+8 23 9
+A-wgtd 40 30
+End
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 45 45
+2 46 37
+3 39 30
+4 37 23
+5 35 24
+6 30 21
+7 28 16
+8 23 9
+A-wgtd 40 30
+Air Inlet
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 53 45
+2 54 42
+3 46 37
+4 44 31
+5 45 35
+6 37 30
+7 37 23
+8 42 27
+A-wgtd 49 38
+Total Sound Power (dB)
+Octave Center Frequency
+Band (Hertz) Lw
+1 63 76
+2 125 76
+3 250 71
+4 500 65
+5 1000 66
+6 2000 68
+7 4000 60
+8 8000 53
+A-wgtd 72
+Note: The use of frequency inverters (variable frequency drives) can increase sound levels.
+Extra Notes: Sound data provided by CTI ATC-128 sound test code revision 2019
+Page 1/1
+[[page 72]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-4 
+ 
+E.2 Cooling tower noise modelling methodology 
+The manufacturer's data specifies that the sound levels are based on the CTI ATC-128 sound test code, 
+revision 2019. 
+The CTI ATC-128 code prescribes the equipment and test procedures for measuring cooling tower sound, 
+including sound pressure measurements on all four sides and overhead. Measurements are taken at distances 
+of 1.5m and 15m from all five faces of the unit, with sound power calculated from the 15-meter sound 
+pressure measurements. 
+The November 2019 revision of the CTI ATC-128 code did not alter sound pressure level measurements. It 
+revised the formula for calculating sound power level to better align with sound power levels that would be 
+measured by use of more rigorous measurement methods from various international standards. This revision 
+included redefining the emission surface area considered applicable to each face for the pressure to power 
+conversions. Previously, the code used a simple 15-meter radius hemisphere as the basis for each emission 
+surface. The 2019 revision changed this to an overhead hemisphere starting at the unit's top elevation (for the 
+top surface), plus a quarter-cylinder segment for each of the four sides. The recent March 2024 revision of 
+the CTI ATC-128 code did not change the method by which sound pressure is measured for cooling towers 
+of this type, nor change derivation of the sound power level from that used in the 2019 code version. 
+Arup reviewed the manufacturer's data and verified the calculation of the cooling tower's total sound power 
+level and sound power level contribution from each side and top surface according to the CTI ATC-128 
+(2019 onward) calculation method. The results are reproduced below. To reasonably account for overall 
+cooling tower directivity, these sound power levels derived per each side and top were used to model the 
+cooling towers in SoundPlan as individual area sources. 
+E.2.1 Cooling tower – modelled noise levels (day and evening) 
+Table 29, Table 30 and Table 31 present manufacturer’s noise sound pressure levels, calculations for sound 
+power levels and the sound power levels input into SoundPlan noise modelling software for cooling towers 
+operating during the day and evening periods. 
+Table 29: Cooling tower sound pressure level data at 15 m – BAC XES3E-1222-07m ENDURA/H (day & evening operating 
+mode) 
+Surface 
+Total level 
+per item, 
+dB(A) 
+Sound level spectra by octave band per item, dB(Z) 
+63Hz 125Hz 250Hz 500Hz 1kHz 2kHz 4kHz 8kHz 
+Air inlet 1 51 62 58 51 49 47 38 27 33 
+End 1 45 60 53 47 40 38 35 26 18 
+Top 55 60 60 56 51 49 47 45 36 
+End 2 45 60 53 47 40 38 35 26 18 
+Air inlet 2 51 62 58 51 49 47 38 27 33 
+Table 30: Cooling tower calculated overall sound power level – BAC XES3E-1222-07m ENDURA/H (day & evening operating 
+mode) 
+Surface Lp at 15 m, dB(A) S, m2 (See note 1) 10 log S Lw, dB(A) 
+Air inlet 1 51 129 21 72 
+End 1 45 126 21 66 
+Top 55 1414 32 87 
+End 2  45 126 21 66 
+Air inlet 2 51 129 21 72 
+Total 87 
+[[page 73]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-5 
+ 
+Surface Lp at 15 m, dB(A) S, m2 (See note 1) 10 log S Lw, dB(A) 
+Note: 
+1_ Surface area (S) calculated as per below (refer to manufacturer data for length (L), width (W) and height (H)): 
+• Air inlet 1 surface = Air inlet 2 surface = (15 + L/2) x PI / 2 x H 
+• End 1 surface = End 2 surface = (15 + W/2) x PI / 2 x H 
+• Top surface = 2 x PI x 15 ^ 2 
+Table 31: Cooling tower sound power levels (for SoundPlan modelling) – BAC XES3E-1222-07m ENDURA/H (day & evening 
+operating mode) 
+Surface 
+Total level 
+per item, 
+dB(A) 
+Sound level spectra by octave band per item, dB(Z) 
+63Hz 125Hz 250Hz 500Hz 1kHz 2kHz 4kHz 8kHz 
+Air inlet 1 72 83 79 72 70 68 59 48 54 
+End 1 66 81 74 68 61 59 56 47 39 
+Top 87 92 92 88 83 81 79 77 68 
+End 2 66 81 74 68 61 59 56 47 39 
+Air inlet 2 72 83 79 72 70 68 59 48 54 
+Total 87 93 92 88 83 81 79 77 68 
+E.2.2 Cooling tower – modelled noise levels (night) 
+Table 32, Table 33 and Table 34present manufacturer’s noise sound pressure levels, calculations for sound 
+power levels and the sound power levels input into SoundPlan noise modelling software for cooling towers 
+operating during the night period. 
+Table 32: Cooling tower sound pressure level data at 15 m – BAC XES3E-1222-07m ENDURA/H (night operating mode) 
+Surface 
+Total level 
+per item, 
+dB(A) 
+Sound level spectra by octave band per item, dB(Z) 
+63Hz 125Hz 250Hz 500Hz 1kHz 2kHz 4kHz 8kHz 
+Air inlet 1 38 45 42 37 31 35 30 23 27 
+End 1 30 45 37 30 23 24 21 16 9 
+Top 41 42 44 39 33 34 36 28 18 
+End 2 30 45 37 30 23 24 21 16 9 
+Air inlet 2 38 45 42 37 31 35 30 23 27 
+Table 33: Cooling tower calculated overall sound power level – BAC XES3E-1222-07m ENDURA/H (night operating mode) 
+Surface Lp at 15 m, dB(A) S, m2 (See note 1) 10 log S Lw, dB(A) 
+Air inlet 1 38 129 21 59 
+End 1 30 126 21 51 
+Top 41 1414 32 72 
+End 2  30 126 21 51 
+Air inlet 2 38 129 21 59 
+Total 73 
+Note: 
+1_ Surface area (S) calculated as per below (refer to manufacturer data for length (L), width (W) and height (H)): 
+• Air inlet 1 surface = Air inlet 2 surface = (15 + L/2) x PI / 2 x H 
+• End 1 surface = End 2 surface = (15 + W/2) x PI / 2 x H 
+• Top surface = 2 x PI x 15 ^ 2 
+[[page 74]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-6 
+ 
+Table 34: Cooling tower sound power levels (for SoundPlan modelling) – BAC XES3E-1222-07m ENDURA/H (night operating 
+mode) 
+Surface 
+Total level 
+per item, 
+dB(A) 
+Sound level spectra by octave band per item, dB(Z) 
+63Hz 125Hz 250Hz 500Hz 1kHz 2kHz 4kHz 8kHz 
+Air inlet 1 59 66 63 58 52 56 51 44 48 
+End 1 51 66 58 51 44 45 42 37 30 
+Top 72 74 76 71 65 66 68 60 50 
+End 2 51 66 58 51 44 45 42 37 30 
+Air inlet 2 59 66 63 58 52 56 51 44 48 
+Total 73 76 76 71 65 66 68 60 53 
+E.2.3 Cooling tower – low frequency and tonality data 
+As is typical, the manufacturer’s noise data for cooling towers do not provide low frequency data (between 
+10 Hz and 50 Hz) or third-octave band detail. To address requirements of the NPfI, measured noise data 
+from a similar data centre facility has been used, in general accordance with the guidance provided in the 
+journal paper outlining a best practice approach to applying the low frequency noise analysis prepared by the 
+NSW Environment Protection Authority and published by Acoustics Australia [18].  
+The details of the site and specifications for the equipment measured cannot be provided. Measurements 
+from five (5) locations, ranging from approximately 50m to 100m from the site were normalised based on 
+the broadband dBLAeq and then arithmetically averaged. This data is presented graphically in Figure 3. 
+The operating equipment, scenario and conditions of the data centre facility could not be confirmed at the 
+time of the measurements. However, observations at the time of the measurements were that the cooling 
+towers were fully operational and dominant in the existing noise environment at the measurement locations.  
+The data from 10 Hz to 160 Hz has been utilised for the low frequency assessment in accordance with Table 
+C1 of the NPfI. Further detail of the LF third-octave bands and the LF noise assessment is presented 
+Appendix G. 
+While the data indicates peaks at 400 Hz and 500 Hz, this is not evident in the octave-band noise data 
+provided by the manufacturer for the project. It nevertheless does not constitute tonality under the NPfI and 
+therefore no correction has been applied. 
+ 
+[[page 75]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-7 
+ 
+ 
+Figure 3: Average third-octave band sound pressure levels of cooling tower noise based on measured noise data 
+E.2.4 Generator – low frequency and tonality data 
+Third octave noise bands for generators were sourced from the manufacturer for the following generator: 
+• Generator Engine Type: MTU 16V 4000 G63/G84F 
+• Power / speed: 2185 kW / 1500 rpm 
+This included measurement data of the engine surface noise and the exhaust gas noise. The manufacturer’s 
+data did not extend down to 10 Hz and was limited down to 16 Hz for the engine and 25 Hz for the exhaust.. 
+To supplement the manufacturer’s data measurements of a similar generator were utilised. The measured 
+noise data was normalised based on the broadband dBLAeq level and arithmetically averaged. 
+The manufacturer and measured noise data for generators is presented graphically in Figure 4. 
+Analysis of the noise data indicates that the measured low-frequency (LF) third-octave band levels correlate 
+reasonably well with the spectral shape of the manufacturer’s noise data. The generator noise data shows a 
+trend of lower noise levels at lower third-octave bands, which would not contribute to overall dB(C) noise 
+levels and has therefore been excluded.  
+Furthermore, generators are not expected to emit tonal noise when assessed in accordance with Table C1 of 
+the NPfI. 
+
+[[page 76]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page E-8 
+ 
+ 
+Figure 4: Third-octave band sound pressure levels of generator noise based on manufacturer’s and measured noise data 
+. 
+ 
+ 
+
+[[page 77]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-1 
+ 
+Appendix F 
+Noise contours 
+  
+[[page 78]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-2 
+ 
+F.1 Noise contours (horizontal) 
+F.1.1 Normal operation (day period) with generator testing – noise-enhancing weather 
+conditions 
+ 
+[[page 79]]
+
+[[page 80]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-4 
+ 
+F.1.2 Normal operation (day and evening periods) – noise-enhancing weather conditions 
+ 
+ 
+[[page 81]]
+
+[[page 82]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-6 
+ 
+F.1.3 Normal operation (night period) – noise-enhancing weather conditions 
+ 
+ 
+ 
+[[page 83]]
+
+[[page 84]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-8 
+ 
+F.2 Vertical noise grids 
+F.2.1 MPark Build-to-Rent Apartments – Normal operation with generator testing (Day, noise 
+enhancing meteorological conditions) 
+  
+[[page 85]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-9 
+ 
+ 
+Figure 5: MPark residential apartments façade noise map (normal operation with generator testing, day) – View 1 
+ 
+Figure 6: MPark residential apartments façade noise map (normal operation with generator testing, day) – View 2 
+MPark Building G 
+(residential) 
+MPark Building F 
+(residential) 
+MPark Building J 
+(residential) 
+MPark Building H 
+(commercial) 
+Proposal 
+(data centre) 
+MPark Building G 
+(residential) 
+MPark Building F 
+(residential) 
+MPark Building J 
+(residential) 
+MPark Building H 
+(commercial) 
+Proposal 
+(data centre) 
+[[page 86]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-10 
+ 
+ 
+F.2.2 MPark Build-to-Rent Apartments – Normal operation (night, noise enhancing 
+meteorological conditions) 
+ 
+[[page 87]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page F-11 
+ 
+ 
+Figure 7: MPark residential apartments façade noise map (normal operation, night) – View 1 
+ 
+Figure 8 MPark residential apartments façade noise map (normal operation, night) – View 2 
+MPark Building G 
+(residential) 
+MPark Building F 
+(residential) 
+MPark Building J 
+(residential) 
+MPark Building H 
+(commercial) 
+Proposal 
+(data centre) 
+MPark Building G 
+(residential) 
+MPark Building F 
+(residential) 
+MPark Building J 
+(residential) 
+MPark Building H 
+(commercial) 
+Proposal 
+(data centre) 
+[[page 88]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page G-1 
+ 
+Appendix G 
+Low frequency noise analysis 
+ 
+The low frequency noise analysis was undertaken in accordance with Fact Sheet C of the Noise Policy for 
+Industry (NPfI). The NPfI requires this analysis to be undertaken for third octave bands ranging from 10 Hz 
+to 160 Hz. Limitations in the modelling software only allow for noise predictions down to and including the 
+50 Hz third octave band. Hence, a best practice approach to apply the low frequency noise analysis was 
+applied as detailed in the journal paper prepared by the NSW Environment Protection Authority published by 
+Acoustics Australia1. 
+The methodology presented in the paper has been followed including the following details: 
+• One-third octave measurements between 10 Hz and 10 KHz were undertaken at a similar data centre 
+facility at distances comparable to the worst affected receiver locations to be impacted by the proposed 
+data centre. Measurements were processed to obtain the logarithmic average of the LFN measurements to 
+derive a low frequency curve or “tail” from 50 Hz down to 10 Hz 
+• The low frequency “tail” was applied to the predicted noise levels for each receiver location by adjusting 
+the tail one-third octaves, in this case 10 Hz to 50 Hz, by the difference between the predicted and the 
+measured 50 Hz one-third octave level.  
+• The estimate of predicted levels from 10 Hz to 160 Hz allowed for an analysis of the low frequency noise 
+impacts in accordance with Fact Sheet C of the NPfI. 
+• Several receiver locations were found to exceed the overall C- minus A-weighted noise levels derived 
+from the estimated noise predictions. Further assessment against the low frequency thresholds defined in 
+Table C2 of the NPfI found the following outcomes: 
+− Receiver COM4 exceeded the LF noise threshold by more than 5 dB during the evening period. 
+Thus, a 5dB modifying correction is applicable. 
+− Receivers COM2, COM3, COM6 and COM7 exceed the LF noise threshold by less than 5 dB during 
+the evening period. Thus, a 2 dB modifying correction is applicable. 
+− Receiver COM4 exceeded the LF noise threshold by more than 5 dB during the day period with 
+generator testing. Thus, a 2dB modifying correction is applicable. Although receiver COM7 exceed 
+the threshold, the exceedance is less than 5 dB and thus no correction is applicable during the day. 
+ 
+ 
+ 
+  
+ 
+1 G. Downey, NSW Environment Protection Authority, “An example approach to consider low frequency noise in the context of the NSW noise policy 
+for industry”, 2020, Acoustics Australia 48:149-180, Parramatta, Australia 
+[[page 89]]
+By Rev Sheet
+45693.5 DK 9
+By 
+Item / Description dB(C) dB(A) 10 12.5 16 20 25 31.5 40 50 63 8 0 100 125 160 200 250 315 400 500 630 800 1k 1.25k 1.6k 2k 2.5k 3.1 5k 4k 5k 6.3k 8k 10k 
+NPfI Table C2 - LF noise threshold 92 89 86 77 69 61 54 50 5 0 48 48 46 44 
+CONCAWE - Standard operations - Day / Eve 
+CC1 F 4 50 (C) 29 (A) 20  dB 40 40 44 47 44 44 44 43 39 35 38 35 32 30 27 25 22 20 19 16 15 15 10 9 9 5 6 6 -14 -13 -12 
+CC2 F 1 56 (C) 38 (A) 18  dB 46 47 51 54 50 50 50 49 45 42 45 42 40 39 37 35 31 29 28 26 26 25 24 24 23 1 9 19 20 5 6 8
+CC3 F 10 51 (C) 31 (A) 21  dB 41 42 46 49 46 46 46 45 41 37 40 37 34 32 30 28 21 20 19 16 15 15 14 14 14 9 10 10 -7 -6 -4 
+Com1 F 4 57 (C) 45 (A) 12  dB 47 48 52 55 51 52 51 50 46 43 46 43 40 40 37 35 37 35 34 38 37 36 33 33 33 27 27 28 -2 -1 1
+Com2 F 10 60 (C) 45 (A) 15  dB 50 50 54 57 54 54 54 53 49 45 50 47 44 43 41 39 38 36 35 36 36 35 32 32 32 27 28 28 14 15 16 
+Com3 F 8 60 (C) 46 (A) 14  dB 50 51 55 57 54 54 54 53 49 45 49 46 43 42 40 38 37 36 34 37 37 36 33 33 33 28 28 28 6 7 9
+Com3 F 8 61 (C) 45 (A) 16  dB 50 51 55 58 55 55 54 54 50 46 50 47 44 42 40 38 36 34 33 36 35 35 32 32 32 26 27 27 8 9 10 
+Com3 GF 65 (C) 56 (A) 10  dB 55 56 60 62 59 59 59 58 54 50 53 50 47 49 47 45 47 46 44 48 48 47 44 44 44 38 38 39 5 6 7
+Com4 F 9 67 (C) 51 (A) 16  dB 57 57 61 64 61 61 61 60 56 52 57 54 52 52 49 47 44 42 41 40 39 39 38 37 37 32 32 33 22 23 24 
+Com4 F 9 66 (C) 50 (A) 16  dB 55 56 60 63 59 59 59 58 54 50 56 53 50 50 48 46 43 41 40 38 38 37 37 36 36 31 31 32 18 19 20 
+Com5 F 9 51 (C) 33 (A) 18  dB 40 41 45 48 45 45 45 44 40 36 39 36 34 32 30 28 25 23 22 22 21 20 21 20 20 1 5 16 16 4 5 6
+Com6 F 8 59 (C) 44 (A) 16  dB 49 50 54 57 53 53 53 52 48 45 49 46 43 42 39 37 35 33 32 34 33 33 31 31 31 26 26 26 14 15 17 
+Com6 F 8 64 (C) 49 (A) 14  dB 53 54 58 61 57 57 57 56 52 49 53 50 47 47 45 43 42 40 39 39 38 38 38 38 37 32 33 33 26 27 28 
+Com7 F 2 59 (C) 41 (A) 19  dB 49 50 54 57 53 53 53 52 48 44 49 46 43 42 39 37 32 31 29 27 26 26 26 25 25 19 20 20 6 7 8
+Hot1 F 12 45 (C) 28 (A) 17  dB 35 36 40 43 39 40 39 38 34 31 33 30 28 26 24 22 21 19 18 19 19 18 11 11 11 1 1 1 -39 -38 -37 
+Rec1 GF 55 (C) 38 (A) 18  dB 45 46 50 53 49 49 49 48 44 41 44 41 38 38 35 33 29 28 26 26 26 25 24 24 24 1 7 18 18 3 4 5
+Res1 F 36 57 (C) 43 (A) 15  dB 47 47 51 54 51 51 51 50 46 42 48 45 42 42 40 38 34 32 31 30 30 29 31 31 31 2 6 26 26 5 6 8
+Res1 F 36 57 (C) 42 (A) 15  dB 46 47 51 54 50 51 50 49 45 42 47 44 42 42 40 38 33 32 31 30 29 29 31 31 30 2 5 26 26 5 6 7
+Res2 F 33 58 (C) 43 (A) 14  dB 47 48 52 54 51 51 51 50 46 42 48 45 4 3 43 41 39 35 33 32 32 31 30 32 32 31 26 27 27 6 7 9
+Res2 F 31 58 (C) 43 (A) 14  dB 47 48 52 54 51 51 51 50 46 42 48 45 4 2 43 41 39 35 33 32 32 31 30 32 32 31 27 27 27 7 8 9
+Res3 F 11 60 (C) 48 (A) 12  dB 49 50 54 56 53 53 53 52 48 44 49 46 44 45 43 41 39 37 36 37 36 35 38 38 37 33 33 34 17 18 20 
+Res3 F 15 57 (C) 42 (A) 15  dB 47 48 52 55 51 51 51 50 46 43 47 44 42 41 39 37 34 32 31 31 30 30 30 30 30 2 5 25 26 12 13 14 
+Res4 F 17 52 (C) 38 (A) 14  dB 42 43 47 50 46 46 46 45 41 38 42 39 3 6 37 35 33 30 28 27 27 26 25 27 26 26 21 21 22 -3 -2 -1 
+Res5 F 3 50 (C) 31 (A) 19  dB 40 41 45 48 45 45 45 44 40 36 39 36 33 31 29 27 24 22 21 20 20 19 16 16 16 1 0 10 11 -6 -5 -4 
+Res6 F 7 51 (C) 36 (A) 15  dB 40 41 45 48 44 44 44 43 39 36 40 37 34 35 33 31 29 28 26 26 25 24 23 23 22 1 7 17 17 -8 -7 -6 
+Res7 F 1 42 (C) 22 (A) 20  dB 32 33 37 39 36 36 36 35 31 27 30 27 25 23 21 19 14 13 11 8 7 6 3 3 3 -9 -9 -8 - 45 -44 -43 
+Notes:
+1_ Orange bolded font  indicates where the LCeq - LAeq level is 15 dB or more 
+2_ Red bolded font  indicates where the one-third ocatve noise level exceeds the low frequency noise thresholds detailed in Table C2 of the NPfI
+Mpark Building E Data Centre - Low Frequency Noise Analysis 
+1/3 Octave Band Centre Frequency, Hz 
+dBL Ceq  - 
+dBL Aeq 
+Leq, 15min 
+Job No. Job Title 
+304093 MPark 2 Building E Data Centre 
+Date Created Date Revised 
+30 Jan 2025 31 Jan 2025 
+Date Reviewed Review Type Review Status 
+250130 MPark_BldgE_LFAnalysis v2\LF Analysis Summary 1/3 6/02/2025,4:27 PM 
+[[page 90]]
+By Rev Sheet
+45693.5 DK 9
+By 
+Item / Description dB(C) dB(A) 10 12.5 16 20 25 31.5 40 50 63 8 0 100 125 160 200 250 315 400 500 630 800 1k 1.25k 1.6k 2k 2.5k 3.1 5k 4k 5k 6.3k 8k 10k 
+Mpark Building E Data Centre - Low Frequency Noise Analysis 
+1/3 Octave Band Centre Frequency, Hz 
+dBL Ceq  - 
+dBL Aeq 
+Leq, 15min 
+Job No. Job Title 
+304093 MPark 2 Building E Data Centre 
+Date Created Date Revised 
+30 Jan 2025 31 Jan 2025 
+Date Reviewed Review Type Review Status 
+CONCAWE - Standard operations with generator testing - Day 
+CC1 F 4 50 (C) 30 (A) 21  dB 38 39 42 45 43 43 47 43 39 36 38 35 33 30 28 26 22 21 19 17 16 15 11 11 11 6 6 7 -6 -5 -3 
+CC2 F 1 57 (C) 39 (A) 18  dB 44 46 49 51 49 49 54 50 46 42 46 43 40 39 37 35 31 29 28 27 26 25 24 24 24 1 9 19 20 6 7 8
+CC3 F 10 52 (C) 31 (A) 21  dB 39 41 44 47 45 45 49 45 41 37 40 37 35 32 30 28 22 20 19 17 16 16 15 15 15 1 0 10 11 2 3 4
+Com1 F 4 60 (C) 48 (A) 12  dB 47 48 51 54 52 52 56 52 48 45 50 47 44 44 42 40 40 38 37 40 39 38 37 37 37 30 30 31 24 25 26 
+Com2 F 10 61 (C) 48 (A) 13  dB 48 49 53 55 53 53 57 53 49 46 50 47 45 44 42 40 41 39 38 39 38 38 37 36 36 30 30 31 24 25 27 
+Com3 F 8 71 (C) 60 (A) 11  dB 57 58 62 64 62 62 66 62 58 55 63 60 58 58 56 54 51 50 48 49 48 48 49 49 49 42 42 43 48 49 50 
+Com3 F 8 72 (C) 63 (A) 9  dB 58 60 63 65 63 63 67 64 60 56 63 60 57 59 57 55 52 51 49 50 49 49 51 51 51 45 45 45 52 53 55 
+Com3 GF 68 (C) 57 (A) 11  dB 54 56 59 62 59 59 64 60 56 52 58 55 52 52 50 48 48 47 45 49 48 48 45 45 45 39 39 40 34 35 37 
+Com4 F 9 68 (C) 52 (A) 16  dB 54 56 59 62 60 60 64 60 56 52 58 55 52 52 50 48 44 42 41 40 39 39 38 37 37 32 32 33 22 23 25 
+Com4 F 9 66 (C) 50 (A) 16  dB 53 55 58 60 58 58 62 59 55 51 57 54 51 51 48 46 43 41 40 38 38 37 37 36 36 31 31 32 20 21 22 
+Com5 F 9 54 (C) 42 (A) 11  dB 40 42 45 48 45 45 50 46 42 38 43 40 38 40 37 35 33 31 30 31 30 30 33 33 33 26 26 27 16 17 19 
+Com6 F 8 66 (C) 57 (A) 10  dB 52 54 57 60 58 58 62 58 54 50 57 54 52 54 52 50 47 46 44 45 44 44 46 46 46 39 40 40 43 44 46 
+Com6 F 8 64 (C) 51 (A) 13  dB 51 53 56 59 57 57 61 57 53 49 54 51 48 50 48 46 44 42 41 41 40 39 40 40 40 34 34 35 26 27 28 
+Com7 F 2 60 (C) 41 (A) 19  dB 47 48 52 54 52 52 56 52 48 45 49 46 43 42 40 38 32 31 30 28 27 26 26 26 26 20 20 21 11 12 14 
+Hot1 F 12 49 (C) 36 (A) 13  dB 35 36 40 42 40 40 44 40 36 33 41 38 3 5 36 33 31 30 28 27 27 26 26 23 23 22 11 11 11 -16 -15 -14 
+Rec1 GF 56 (C) 38 (A) 18  dB 43 45 48 51 49 49 53 49 45 41 45 42 39 38 36 34 30 28 27 27 26 25 24 24 24 1 8 18 18 4 5 7
+Res1 F 18 60 (C) 47 (A) 13  dB 47 48 51 54 52 52 56 52 48 45 50 47 45 45 42 40 37 36 34 36 35 35 37 37 37 30 30 31 30 31 32 
+Res1 F 10 59 (C) 47 (A) 12  dB 45 47 50 53 51 51 55 51 47 43 50 47 44 45 43 41 38 37 35 37 36 35 37 36 36 29 29 30 30 31 32 
+Res2 F 15 60 (C) 48 (A) 12  dB 47 48 51 54 52 52 56 52 48 45 51 48 45 45 43 41 38 36 35 36 36 35 37 37 37 31 31 32 30 31 32 
+Res2 F 28 60 (C) 47 (A) 13  dB 47 49 52 54 52 52 57 53 49 45 51 48 45 46 44 42 38 37 35 36 35 35 36 36 36 30 30 30 29 30 31 
+Res3 F 14 62 (C) 51 (A) 11  dB 48 50 53 56 54 54 58 54 50 46 52 49 47 49 46 44 42 40 39 39 38 38 41 40 40 35 35 35 26 27 28 
+Res3 F 15 61 (C) 48 (A) 13  dB 48 50 53 55 53 53 58 54 50 46 52 49 47 46 44 42 39 38 36 37 36 36 38 37 37 31 31 31 25 26 27 
+Res4 F 17 53 (C) 39 (A) 15  dB 40 42 45 48 46 46 50 46 42 38 43 40 37 38 35 33 31 29 28 28 27 26 27 27 27 2 1 21 22 5 6 7
+Res5 F 3 51 (C) 32 (A) 19  dB 39 40 43 46 44 44 48 44 40 37 40 37 34 32 30 28 24 23 21 21 20 19 17 16 16 1 0 10 11 -6 -5 -3 
+Res6 F 7 51 (C) 36 (A) 15  dB 38 40 43 46 44 44 48 44 40 36 41 38 35 36 34 32 29 28 27 26 25 24 23 23 23 1 7 17 17 -5 -4 -3 
+Res7 F 1 43 (C) 24 (A) 19  dB 30 32 35 38 36 36 40 36 32 28 32 29 26 25 23 21 17 15 14 11 10 9 6 6 6 -7 -7 - 6 -33 -32 -31 
+Notes:
+1_ Orange bolded font  indicates where the LCeq - LAeq level is 15 dB or more 
+2_ Red bolded font  indicates where the one-third ocatve noise level exceeds the low frequency noise thresholds detailed in Table C2 of the NPfI
+250130 MPark_BldgE_LFAnalysis v2\LF Analysis Summary 2/3 6/02/2025,4:27 PM 
+[[page 91]]
+By Rev Sheet
+45693.5 DK 9
+By 
+Item / Description dB(C) dB(A) 10 12.5 16 20 25 31.5 40 50 63 8 0 100 125 160 200 250 315 400 500 630 800 1k 1.25k 1.6k 2k 2.5k 3.1 5k 4k 5k 6.3k 8k 10k 
+Mpark Building E Data Centre - Low Frequency Noise Analysis 
+1/3 Octave Band Centre Frequency, Hz 
+dBL Ceq  - 
+dBL Aeq 
+Leq, 15min 
+Job No. Job Title 
+304093 MPark 2 Building E Data Centre 
+Date Created Date Revised 
+30 Jan 2025 31 Jan 2025 
+Date Reviewed Review Type Review Status 
+CONCAWE - Standard operations - Night 
+CC1 F 4 49 (C) 29 (A) 20  dB 39 40 44 47 43 43 43 42 38 34 38 35 32 29 27 25 22 20 19 16 15 14 8 7 7 4 4 5 - 16 -15 -13 
+CC2 F 1 52 (C) 34 (A) 17  dB 41 42 46 49 46 46 45 45 41 37 41 38 35 34 31 29 27 26 25 23 23 22 20 20 20 1 7 17 17 5 6 7
+CC3 F 10 42 (C) 23 (A) 19  dB 32 33 37 40 37 37 36 36 32 28 31 28 25 22 20 18 15 14 12 13 12 11 9 9 9 3 3 4 - 10 -9 -7 
+Com1 F 4 57 (C) 45 (A) 12  dB 46 47 51 54 51 51 50 50 46 42 45 42 40 39 37 35 37 35 34 37 37 36 33 33 33 27 27 28 -5 -4 -3 
+Com2 F 10 58 (C) 45 (A) 14  dB 48 49 53 55 52 52 52 51 47 43 48 45 43 42 40 38 37 36 35 36 35 35 32 32 32 27 27 28 14 15 16 
+Com3 F 3 54 (C) 45 (A) 9  dB 43 44 48 51 48 48 47 47 43 39 42 39 36 3 8 36 34 36 35 34 38 37 36 33 33 33 28 28 28 3 4 6
+Com3 F 4 54 (C) 43 (A) 11  dB 44 44 48 51 48 48 48 47 43 39 42 39 36 36 34 32 35 33 32 36 35 34 31 31 31 25 26 26 4 5 6
+Com3 GF 65 (C) 56 (A) 9  dB 55 55 59 62 59 59 59 58 54 50 53 50 47 49 47 45 47 46 44 48 48 47 44 44 44 38 38 39 3 4 5
+Com4 F 9 59 (C) 45 (A) 14  dB 48 49 53 55 52 52 52 51 47 43 49 46 44 43 41 39 39 37 36 36 35 35 31 31 31 27 27 28 17 18 20 
+Com4 F 9 58 (C) 44 (A) 14  dB 47 48 52 54 51 51 51 50 46 42 48 45 42 42 40 38 38 36 35 34 33 33 30 30 30 25 25 25 14 15 16 
+Com5 F 9 38 (C) 29 (A) 9  dB 27 28 32 35 31 31 31 30 26 23 26 23 20 1 9 17 15 21 20 18 19 19 18 18 18 18 13 13 14 3 4 5
+Com6 F 8 52 (C) 41 (A) 11  dB 42 42 46 49 46 46 46 45 41 37 40 37 34 34 32 30 33 31 30 33 33 32 30 29 29 24 24 25 13 14 16 
+Com6 F 8 52 (C) 47 (A) 5  dB 39 40 44 47 44 44 44 43 39 35 41 38 35 4 0 38 36 40 39 37 38 37 36 36 36 36 32 32 32 25 26 28 
+Com7 F 2 48 (C) 32 (A) 16  dB 38 38 42 45 42 42 42 41 37 33 37 34 31 30 28 26 25 23 22 21 20 20 19 19 19 1 1 11 12 1 2 4
+Hot1 F 8 41 (C) 27 (A) 15  dB 31 32 36 39 36 36 35 34 30 27 30 27 24 24 21 19 20 19 17 20 19 18 11 11 11 1 1 1 -44 -43 -41 
+Rec1 GF 42 (C) 30 (A) 12  dB 32 33 37 39 36 36 36 35 31 27 31 28 25 2 4 22 20 21 20 18 22 21 20 20 20 20 14 14 15 2 3 4
+Res1 F 38 49 (C) 34 (A) 15  dB 38 39 43 46 43 43 42 42 38 34 38 35 33 32 29 27 26 24 23 23 23 22 22 22 22 1 3 13 13 -5 -4 -3 
+Res1 F 38 48 (C) 33 (A) 15  dB 38 39 43 46 42 42 42 41 37 33 38 35 32 31 29 27 26 24 23 23 23 22 22 22 22 1 3 13 13 -5 -4 -3 
+Res2 F 33 49 (C) 36 (A) 13  dB 38 39 43 46 43 43 42 42 38 34 39 36 3 3 33 31 29 28 26 25 27 26 26 24 24 24 16 16 16 -3 -2 -1 
+Res2 F 32 49 (C) 36 (A) 13  dB 39 39 43 46 43 43 43 42 38 34 39 36 3 3 33 31 29 28 27 25 27 27 26 24 24 24 16 16 16 -3 -2 -1 
+Res3 F 11 50 (C) 41 (A) 8  dB 39 39 43 46 43 43 43 42 38 34 39 36 33 34 32 30 32 30 29 32 32 31 32 32 31 25 26 26 15 16 17 
+Res3 F 27 51 (C) 39 (A) 12  dB 40 41 45 48 44 45 44 43 39 36 40 37 3 4 34 31 29 31 29 28 30 29 28 27 27 27 22 22 22 11 12 13 
+Res4 F 17 45 (C) 32 (A) 13  dB 35 36 40 42 39 39 39 38 34 30 35 32 3 0 30 28 26 26 24 23 22 22 21 19 19 19 11 11 12 -9 -8 -6 
+Res5 F 3 48 (C) 30 (A) 18  dB 38 39 43 46 43 43 42 42 38 34 37 34 31 29 27 25 23 22 20 20 19 19 15 15 15 9 10 10 -6 -5 -4 
+Res6 F 7 45 (C) 31 (A) 13  dB 34 35 39 42 38 39 38 37 33 30 34 31 28 29 26 24 26 24 23 23 22 21 17 17 17 10 10 11 -11 -10 -9 
+Res7 F 1 32 (C) 13 (A) 20  dB 23 23 27 30 27 27 27 26 22 18 20 17 14 12 9 7 6 5 3 2 1 0 -5 -5 -5 -19 -19 -18 -50 -49 -47 
+Strutt Version 5.24.09 (Swift Parrot) https://arup.sharepoint.com/sites/MParkStage2DataCentres/Shared Documents/General/03. Working Documents/06. Acoustics/03 Calcs and models/250130 MPark_BldgE_LFAnalysis v1.xlsx  [LF Analysis Summary]
+Notes:
+1_ Orange bolded font  indicates where the LCeq - LAeq level is 15 dB or more 
+2_ Red bolded font  indicates where the one-third ocatve noise level exceeds the low frequency noise thresholds detailed in Table C2 of the NPfI
+250130 MPark_BldgE_LFAnalysis v2\LF Analysis Summary 3/3 6/02/2025,4:27 PM 
+[[page 92]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page H-3 
+ 
+Appendix H 
+Vibration criteria 
+  
+[[page 93]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page H-4 
+ 
+H.1 Disturbance to building occupants 
+Potential vibration disturbance to human occupants of buildings is made in accordance with the NSW DEC 
+Assessing Vibration; a technical guideline [4]. The criteria outlined in the guideline is based on the British 
+Standard BS 6472-1992 Evaluation of human exposure to vibration in buildings (1-80Hz) [13]. Sources of 
+vibration are defined as either 'Continuous', 'Impulsive' or 'Intermittent', as described in Table 35. 
+Table 35: Types of vibration - Definition 
+Type of vibration Definition Examples 
+Continuous 
+vibration 
+Continues uninterrupted for a defined period 
+(usually throughout the day and/or night) 
+Machinery, steady road traffic, continuous construction 
+activity (such as tunnel boring machinery). 
+Impulsive 
+vibration 
+A rapid build-up to a peak followed by a 
+damped decay that may or may not involve 
+several cycles of vibration (depending on 
+frequency and damping). It can also consist 
+of a sudden application of several cycles at 
+approximately the same amplitude, 
+providing that the duration is short, typically 
+less than 2 seconds 
+Infrequent: Activities that create up to 3 distinct vibration 
+events in an assessment period, e.g. occasional dropping of 
+heavy equipment, occasional loading and unloading. 
+Intermittent 
+vibration 
+Can be defined as interrupted periods of 
+continuous or repeated periods of impulsive 
+vibration that varies significantly in 
+magnitude 
+Trains, nearby intermittent construction activity, passing 
+heavy vehicles, forging machines, impact pile driving, jack 
+hammers. 
+Where the number of vibration events in an assessment 
+period is three or fewer, this would be assessed against 
+impulsive vibration criteria. 
+Table 36 reproduces the ‘Preferred’ and ‘Maximum’ values for continuous and impulsive vibration from 
+Table 2.2 of the Guideline. 
+Table 36: Preferred and maximum vibration acceleration levels for human comfort, m/s2 
+Location Assessment period1 
+Preferred values Maximum values 
+z-axis x- and y-
+axes z-axis x- and y-axes 
+Continuous vibration (weighted RMS acceleration, m/s2, 1-80Hz) 
+Residences Day 0.010 0.0071 0.020 0.014 
+Night 0.007 0.005 0.014 0.010 
+Offices, schools, educational 
+institutions and places of 
+worship 
+Day or night 0.020 0.014 0.040 0.028 
+Workshops Day or night 0.04 0.029 0.080 0.058 
+Impulsive vibration (weighted RMS acceleration, m/s2, 1-80Hz) 
+Residences Day 0.30 0.21 0.60 0.42 
+Night 0.10 0.071 0.20 0.14 
+Offices, schools, educational 
+institutions and places of 
+worship 
+Day or night 0.64 0.46 1.28 0.92 
+Note 1 - Day is 7:00am to 10:00pm and night is 10:00pm to 7:00am 
+Table 37 reproduces the ‘Preferred’ and ‘Maximum’ values for intermittent vibration from Table 2.4 of the 
+Guideline. The VDV is dependent upon the level and duration of the vibration episode and the number of 
+vibration episodes occurring during the assessment period; a higher vibration level is permitted if the total 
+duration of the vibration event(s) is small. 
+[[page 94]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page H-5 
+ 
+Table 37: Acceptable vibration dose values (VDV) for intermittent vibration (m/s1.75)  
+Location 
+Day1 Night1 
+Preferred value Maximum value Preferred value Maximum value 
+Residences 0.20 0.40 0.13 0.26 
+Offices, schools, educational institutions and 
+places of worship 
+0.40 0.80 0.40 0.80 
+Workshops 0.80 1.60 0.80 1.60 
+Note: 
+1_ Day is 7:00am to 10:00pm and night is 10:00pm to 7:00am 
+H.2 Structural damage 
+Potential structural or cosmetic damage to buildings as a result of vibration is typically assessed in 
+accordance with British Standard 7385 Part 2 [6]. 
+H.2.1 Standard structures 
+British Standard 7385 Part 1: 1993, defines different levels of structural damage as: 
+• Cosmetic - The formation of hairline cracks on drywall surfaces, or the growth of existing cracks in 
+plaster or drywall surfaces; in addition, the formation of hairline cracks in mortar joints of 
+brick/concrete block construction. 
+• Minor - The formation of large cracks or loosening of plaster or drywall surfaces, or cracks through 
+bricks/concrete blocks. 
+• Major - Damage to structural elements of the building, cracks in supporting columns, loosening of 
+joints, splaying of masonry cracks, etc. 
+Table 1 and Section 7.4.2 of BS7385-2 sets limits for the protection against the different levels of structural 
+damage and those levels are reproduced in Table 38 below. 
+Table 38: BS 7385-2 structural damage criteria 
+Group Type of structure Damage level 
+Peak component particle velocity, mm/s1 
+4 Hz to 15 Hz 15 Hz to 40 Hz 40 Hz and above 
+1 Reinforced or framed structures 
+Industrial and heavy commercial 
+buildings 
+Cosmetic 50 
+Minor2 100 
+Major2 200 
+2 Un-reinforced or light framed 
+structures Residential or light 
+commercial type buildings 
+Cosmetic 15 to 20 20 to 50 50 
+Minor2 30 to 40 40 to 100 100 
+Major2 60 to 80 80 to 200 200 
+Notes: 
+1_ Peak Component Particle Velocity is the maximum Peak particle velocity in any one direction (x, y, z) as measured by a tri-axial vibration 
+transducer. 
+2_ Minor and major damage criteria established based on British Standard 7385 Part 2 (1993) Section 7.4.2 
+All levels relate to transient vibrations in low-rise buildings. Continuous vibration can give rise to dynamic magnifications that may require levels 
+to be reduced by up to 50%. 
+The guide values in Table 38 relate predominantly to transient vibration which does not give rise to resonant 
+responses in structures, and to low rise buildings. Where the dynamic loading caused by continuous vibration 
+is such as to give rise to dynamic magnification due to resonance, especially at the lower frequencies where 
+lower guide values apply, then the guide values in Table 38 may need to be reduced by up to 50%. 
+ 
+[[page 95]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page H-6 
+ 
+H.2.2 Sensitive structures 
+German Standard DIN 4150 – Part 3 ‘Structural vibration in buildings – Effects on Structure’ [7] is 
+generally recognised to be conservative and is often referred to for the purpose of assessing structurally 
+sensitive buildings. 
+Heritage buildings and structures should not be assumed to be more sensitive to vibration unless they are 
+found to be structurally unsound and should otherwise be assessed in accordance with BS7385-2. If a 
+heritage building or structure is found to be structurally unsound (following inspection) DIN 4150-3, line 3 
+as outlined in Table 39, provides a conservative cosmetic damage objective that should be adopted unless 
+alternative limits are justified by a dilapidation or structural survey. The sensitivity of heritage buildings and 
+other potentially at-risk structures are subject to confirmation by the contractor prior to start of any works. 
+Table 39: DIN 4150-3 structural damage guideline values 
+Line Type of structure 
+Peak component particle velocity (PCPV), mm/s 
+Vibration at the foundation at a 
+frequency of 
+At horizontal 
+plane of 
+highest floor 
+In the vertical 
+direction, at 
+floor slabs 
+1 Hz to 
+10 Hz 
+10 Hz to 
+50 Hz 
+50 Hz to 
+100 Hz1 All frequencies All frequencies 
+3 Structures that because of their 
+particular sensitivity to vibration, 
+cannot be classified under lines 1 
+and 2 and are of great intrinsic 
+value (e.g. listed buildings under a 
+preservation order)3 
+3 3 to 8 8 to 10 8 202 
+Notes: 
+1_ At frequencies above 100 Hz, the values given in this column may be used as minimum values. 
+2_ Guideline value might have to be lowered to prevent minor damage 
+3_ Line 1 refer to buildings used for commercial purposes, industrial buildings and buildings of similar design, while Line 2 refers to residential 
+buildings and buildings of similar design and/or occupancy 
+Note that no sensitive structures have been identified near the site. 
+H.2.3 Buried services 
+It is not expected that the proposed works will impact upon buried services, however the following is 
+nonetheless provided for guidance. 
+DIN 4150-2:2016 sets out guideline values for vibration effects on buried pipework (see Table 40). 
+Table 40: Guideline values for short-term vibration impacts on buried pipework 
+Line Pipe material Peak component particle velocity (PCPV) measured on pipe, mm/s 
+1 Steel, welded 100 
+2 Vitrified clay, concrete, reinforced 
+concrete, pre-stressed concrete, 
+metal (with or without flange) 
+80 
+3 Masonry, plastic 50 
+- High pressure gas pipelines* 75 
+Monitoring required if predicted above 50. 
+No piling within 15 m of pipeline without detailed assessment. 
+Notes: 
+- For gas and water supply pipes within 2 m of buildings, the levels given in DIN4150-3 [7] should be applied. Consideration must also be given to 
+pipe junctions with the building structure as potential significant changes in mechanical loads on the pipe must be considered. 
+- For Rock breaking/hammering and sheet piling activities are considered to have the potential to cause dynamic loading in some structures and it 
+may therefore be appropriate to reduce the transient values by 50%. 
+* Based on UK National Grid’s specification [21] 
+[[page 96]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page H-7 
+ 
+Other services that maybe encountered include electrical cables and telecommunication services such as fibre 
+optic cables. While these may sustain vibration velocity levels from between 50 mm/s and 100 mm/s, the 
+connected services such as transformers and switchgear, may not. Where encountered, site specific vibration 
+assessment in consultation with the utility provider should be carried out. 
+ 
+ 
+[[page 97]]
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+AC05 | V4 | 6 February 2025 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment  Page I-1 
+ 
+Appendix I 
+Noise and vibration complaint management procedure 
+ 
+ 
+ 
+Complaint received  
+Details of the complaint are recorded 
+Issue details to acoustic consultant / 
+structural engineer / heritage 
+consultant etc as relevant. 
+Construction Site Manager to review 
+complaint details 
+Consultant(s) to review Noise and 
+Vibration complaint details and discuss 
+action with contractor 
+Where follow-up is required, 
+consultant(s) to attend site and 
+investigate complaint. 
+Acoustic consultant to assess 
+compliance against statuary limits  
+If non-compliant, consultant(s) to liaise 
+with contractor to determine options 
+for noise/vibration control  
+Contractor to select their preferred 
+noise/vibration control options  
+If compliant, consultant(s) to issue 
+‘Compliance Certificate’ detailing 
+assessment and findings  
+Consultant(s) to issue report detailing 
+the noise/vibration control measures to 
+be adopted. 
+Implementation – responsibility of 
+building contractor. 
+Contractor to notify complaint of action 
+taken 
+Construction Manager handles 
+complaint and responds accordingly 

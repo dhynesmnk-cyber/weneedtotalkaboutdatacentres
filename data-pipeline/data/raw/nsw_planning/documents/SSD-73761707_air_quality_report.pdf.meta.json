@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-73761707%2120250320T114407.677+GMT",
+ "project_slug": "glendenning-road-data-centre",
+ "attachment_slug": "appendix-17-air-quality-impact-assessment-36",
+ "kind": "air_quality_report",
+ "label": "Appendix 17 - Air Quality Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:18:57+00:00",
+ "sha256": "5e6b9fc7f3a6b0565792708c1102bc10d84bca16d77373afa90e310fc23d6c3b",
+ "bytes": 10705768,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 280127,
+ "pages": 156,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

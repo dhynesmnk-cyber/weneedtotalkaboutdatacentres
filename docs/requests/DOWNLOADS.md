@@ -12,6 +12,25 @@ folder named, and add a manifest beside it (`<file>.meta.json` with `url`,
 `fetched_utc`, `sha256` and `bytes`, as the archived files have). The question's
 hunt log records what came back.
 
+**Order to work in (2026-11-18).** The ranks below are the order the list was
+written in. Under the plan of 2026-11-18, do them in the order of the essays
+they unlock:
+
+1. #22 and #26 (ES-013: certified facilities).
+2. #23, #24, #25, and Latrobe Council's record for Firmus's Wesley Vale
+   application (ES-014: the regions).
+3. #2 (ES-012: the Future Fund).
+4. #8 to #11 (ES-007, and ES-015's contracts).
+5. #17 to #19 (ES-005's follow-up).
+6. #1, #3, #6 and #7 (ES-002's follow-up).
+7. #4 and #5 (ES-008's follow-up).
+8. #13, #14 and #16 (ES-009's follow-up).
+9. Then #15, #20, #21 and #27.
+10. #28 (RG-008: the four licences) and #29 (RG-073: the last air quality report), added 2026-11-18 by research batch 8.
+11. #30 to #34 (RG-007, 018, 027, 063, 069), added 2026-11-18 by batch 8's second pass: each is the free primary record a robots.txt or a block refused.
+
+All of them are free.
+
 **Received from the author, 2026-11-17.** Three DigiCo Infrastructure REIT
 documents for RG-101, not on the ranked list below: the crawler asked ASX for
 two of them on 2026-11-16 and was served a bot-check page
@@ -72,6 +91,13 @@ tender portals and the keynote video) were not asked for again.
 | 25 | Ipswich City Council's development application for the Swanbank data centre (Northern Concept Swanb Pty Ltd), with its information request | Ipswich City Council, PD Online | `data/raw/qld_ipswich/swanbank/` | RG-051 | The applicant, site, height and stage of the ten-storey proposal, from the council's own record |
 | 26 | Cloud Carrier's own DB1 page, and any planning record for a data centre at Moss Vale | cloudcarrier.com (robots.txt answers 403); NSW Planning Portal; Wingecarribee Shire Council (its site answered 403) | `data/raw/operators/cloudcarrier/` | RG-101 | Where Cloud Carrier's certified DB1 is, and its status |
 | 27 | IPART's submission to the NSW Legislative Council inquiry into data centres, and IPART's review page on a water pricing framework for data centres | ipart.nsw.gov.au (it closed the connection on 2026-11-18) | `data/raw/operators/ipart/` | RG-042 | IPART's own statement of Sydney Water's data centre demand estimate, in place of the press's '25 per cent' |
+| 28 | The NSW EPA's public register of environment protection licences: the licence, if one was issued, for 51 Huntingwood Drive (SSD-41589232), NEXTDC S4 Horsley Park (SSD-63741210), Marsden Park (SSD-70889211) and Roberts Road as modified (SSD-10330-Mod-2), with its conditions on generator hours, NOx limits and monitoring | epa.nsw.gov.au, POEO public register, search by premises or licence holder (an interactive application that redirected the crawler more than 50 times on 2026-11-18) | `data/raw/registers/nsw_epa/` | RG-008 | The four data centres the EPA said need a licence: whether they hold one, and what it allows |
+| 29 | Project Echidna's air quality report (`project-echidna-eis-appendix-j-air-quality-report-42`, SSD-47320208): larger than the crawler's 120 MB limit | NSW Planning Portal, Project Echidna Data Centre, EIS documents | `data/raw/nsw_planning/documents/` | RG-073 | Which firm wrote the one consent air quality report not yet read |
+| 30 | NSW Budget 2026-27, Budget Paper No. 1 (Budget Statement): Appendix C, Tax Expenditures and Concessional Charges. Search it for data centres and for any payroll tax, land tax or duty concession | nsw.gov.au, 2026-27 budget papers, Budget Paper No. 1 (the PDF sits under a path robots.txt disallows) | `data/raw/registers/nsw_budget/` | RG-007 | Whether NSW gives data centres any tax concession, in the State's own statement of revenue forgone |
+| 31 | AEMO's NEM Registration and Exemption List (the current spreadsheet) | aemo.com.au, National Electricity Market, participate in the market, registration (answered HTTP 403) | `data/raw/registers/aemo/` | RG-018 | Whether any data centre is registered to provide frequency control or other system services |
+| 32 | The NT Territory Coordinator's release "Beetaloo Digital advances plans for Weddell data centre" | territorycoordinator.nt.gov.au, news and insights (its robots.txt could not be read) | `data/raw/operators/ntgov/` | RG-027 | The land grant, site and scale of the gas-powered campus proposed near Darwin, from the government's own record |
+| 33 | NSW Department of Planning, Housing and Infrastructure Annual Report 2024-25, Volumes 1 and 2 | nsw.gov.au, the Department's information access page, links to the National Library (nla.gov.au served a bot-check page) | `data/raw/registers/dphi/` | RG-063 | Whether the report gives the data centre concierge team's headcount or cost |
+| 34 | NSW Electoral Commission political donation disclosures for the data centre applicants and their parents (start with Canberra Data Centres, the applicant on SSD-10330) | efadisclosures.elections.nsw.gov.au (its robots.txt disallows every crawler) | `data/raw/registers/nsw_electoral_disclosures/` | RG-069 | What the donors disclosed to the Electoral Commission, beside what they disclosed on the planning portal |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

@@ -1,0 +1,3486 @@
+[[page 1]]
+ 
+              air quality | environment | sustainability 
+ 
+ 
+This document has been prepared for EMKC Cubed Management Pty Ltd by:  
+Northstar Air Quality Pty Ltd, 
+Head Office: Suite 1504, 275 Alfred Street, North Sydney, NSW 2060 
+Riverina Office: PO Box 483, Albury, NSW 2640 
+northstar-env.com | Tel: 1300 708 590 
+Apollo Place Data Centre (SSD-67407231) 
+Air Quality Impact Assessment 
+Addressee(s): EMKC Cubed Management Pty Ltd 
+Site Address: 1 Sirius Road and 1 Apollo Place, Lane Cove West 
+Report Reference: 24.1025.FR1V4 
+Date: 29 July 2024 
+Status: Final 
+
+[[page 2]]
+ 
+24.1025.FR1V4 Page ii 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Quality Control 
+Study Version Status 
+Prepared 
+by 
+Checked  
+by 
+Authorised 
+by 
+Apollo Place Data Centre (SSD-67407231) 
+– Air Quality Impact Assessment 
+24.1025.FR1V4 Final Northstar DA, GCG, 
+MD 
+DA 
+Report Status 
+Northstar References Report Status Report Reference Version 
+Year Job Number (Draft: Final) (Rx) (Vx) 
+24 1025 Final R1 V4 
+Based upon the above, the specific reference for this version of the report is:  24.1025.FR1V4 
+Final Authority 
+This report must by regarded as draft until the above study components have been each marked as final, and the 
+document has been signed and dated below.  A draft report is a working document, is issued without prejudice and 
+is subject to change. 
+ Declan Alder 29 July 2024 
+ 
+  
+© Northstar Air Quality Pty Ltd 2024 
+Copyright in the drawings, information and data recorded in this document (the information) is the property of Northstar Air 
+Quality Pty Ltd.  This report has been prepared with the due care and attention of a suitably qualified consultant.  Information is 
+obtained from sources believed to be reliable but is in no way guaranteed.  No guarantee of any kind is implied or possible where 
+predictions of future conditions are attempted.  This report (including any enclosures and attachments) has been prepared for the 
+exclusive use and benefit of the addressee(s) and solely for the purpose for which it is provided.  Unless we provide express prior 
+written consent, no part of this report should be reproduced, distributed, or communicated to any third party.  We do not accept 
+any liability if this report is used for an alternative purpose from which it is intended, nor to any third party in respect of this report. 
+
+[[page 3]]
+ 
+24.1025.FR1V4 Page iii 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+NON-TECHNICAL SUMMARY 
+Northstar Air Quality Pty Ltd was engaged by EMKC Cubed Management Pty Ltd to perform an air quality 
+impact assessment for the proposed construction and operation of a data centre, to be located at 1 Sirius 
+Road and 1 Apollo Place, Lane Cove West, NSW.  The assessment has considered the potential impacts on air 
+quality associated with the construction and operation of the data centre.   
+The assessment evaluates the cumulative air quality impacts from the operation of an existing data centre at 
+1 Sirius Road and the potential impacts related to the nearby ventilation stack from the Lane Cove Tunnel, in 
+acknowledgement of the Lane Cove Local Environmental Plan 2009. 
+During the construction phase, the potential dust soiling and human health risks are assessed as being 
+manageable through appropriate implementation of recommended mitigation measures.  
+Under a justified worst-case emergency back-up generator operational scenario with all generators operating 
+at the same time at full (100 %) load, a number of additional exceedances of the air quality criteria for a 
+number of pollutants are predicted.   
+With reference to published power supply reliability statistics, the probability of both the interruption to the 
+power supply, the dual redundant power supply, and an exceedance of the relevant air quality criteria 
+occurring was calculated through the multiplication of the probability of each event occurring, with values 
+indicating the chance of an additional exceedance of the air quality criteria during a power outage is low.   
+Predicted concentrations for a realistic emissions scenario during routine testing maintenance of the back-up 
+generators show that no exceedances are predicted to occur at any surrounding receptors for all assessed 
+pollutants.  The predicted incremental concentrations for all assessed pollutants are shown to be below the 
+relevant criteria under realistic operations where the emergency generators are appropriately operated under 
+the testing schedule. 
+An assessment has been conducted on how the proposed development may affect pollutant dispersion from 
+the Lane Cove Tunnel ventilation stack at 3 Sirius Road.  With the proposed building height of 33.6 m, three 
+of the 18 assessed receptors are predicted to experience no change in maximum 1-hour oxides of nitrogen 
+impacts, seven are anticipated to see an increase and the remaining eight are predicted to see a decrease 
+due to building wake effects, compared to the Lane Cove Local Environmental Plan 2009 height limit of 
+18 m.  After converting to nitrogen dioxide, the predicted maximum 1-hour concentrations are estimated to 
+be less than 1 % of the respective impact assessment criterion, irrespective of the building height, a variance 
+which is considered to be insignificant.   
+Although dispersion from the Lane Cove Tunnel ventilation stack may change with the proposed height 
+relative to the Lane Cove Local Environmental Plan 2009 height limits, it would not lead to any exceedance of 
+[[page 4]]
+ 
+24.1025.FR1V4 Page iv 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+the relevant impact assessment criterion and thus the air quality criterion can be achieved, with the 
+construction and operation of the Proposal.  
+  
+[[page 5]]
+ 
+24.1025.FR1V4 Page v 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+CONTENTS 
+NON-TECHNICAL SUMMARY................................................................................................................................. III 
+1. INTRODUCTION .................................................................................................................................. 9 
+1.1. Purpose of the Report ........................................................................................................................................ 9 
+1.2. Assessment Requirements ................................................................................................................................ 10 
+2. THE PROPOSAL .................................................................................................................................. 11 
+2.1. Environmental Setting .........................................................................................................................................11 
+2.2. Overview and Purpose ...................................................................................................................................... 13 
+2.3. Identification of Emissions to Atmosphere .................................................................................................. 19 
+3. LEGISLATION, REGULATION AND GUIDANCE ........................................................................... 21 
+3.1. Protection of the Environment Act ................................................................................................................ 21 
+3.2. Protection of the Environment Operations (Clean Air) Regulation ..................................................... 22 
+3.3. NSW Approved Methods ................................................................................................................................ 22 
+4. EXISTING CONDITIONS ................................................................................................................... 25 
+4.1. Surrounding Land Use Sensitivity .................................................................................................................. 25 
+4.2. Sensitive Receptor Locations .......................................................................................................................... 25 
+4.3. Meteorology ........................................................................................................................................................ 28 
+4.4. Background Air Quality .................................................................................................................................... 29 
+4.5. Topography .......................................................................................................................................................... 31 
+4.6. Potential for Cumulative Impact .................................................................................................................... 32 
+5. APPROACH TO ASSESSMENT ........................................................................................................ 36 
+5.1. Construction Phase ............................................................................................................................................ 36 
+5.2. Operation Phase ................................................................................................................................................. 36 
+6. CONSTRUCTION AIR QUALITY RISK ASSESSMENT ................................................................. 43 
+6.1. Risk (Pre-Mitigation) .......................................................................................................................................... 43 
+6.2. Risk (Post Mitigation) ......................................................................................................................................... 43 
+7. OPERATIONAL AIR QUALITY IMPACT ASSESSMENT .............................................................. 44 
+7.1. Scenario 1 – Justified Worst-Case .................................................................................................................. 44 
+7.2. Scenario 2 – Realistic Operations .................................................................................................................. 58 
+7.3. Impact of Proposal on Lane Cove Tunnel Sirius Road Ventilation Stack .......................................... 69 
+[[page 6]]
+ 
+24.1025.FR1V4 Page vi 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+8. DISCUSSION AND CONCLUSION ................................................................................................. 73 
+8.1. Construction Phase Risk Assessment ........................................................................................................... 73 
+8.2. Operational Phase Impact Assessment ....................................................................................................... 73 
+8.3. Conclusion ............................................................................................................................................................ 77 
+9. REFERENCES ....................................................................................................................................... 78 
+APPENDIX A ............................................................................................................................................................... 79 
+APPENDIX B  ............................................................................................................................................................... 84 
+APPENDIX C  ............................................................................................................................................................... 99 
+APPENDIX D ............................................................................................................................................................. 106 
+APPENDIX E  .............................................................................................................................................................. 112 
+  
+[[page 7]]
+ 
+24.1025.FR1V4 Page vii 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+FIGURES 
+Figure 1 Proposal site location .........................................................................................................................................12 
+Figure 2 Proposal site layout – level 2 plan................................................................................................................. 14 
+Figure 3 Proposal site layout – level 5 (roof) plan ......................................................................................................15 
+Figure 4 Proposal site elevation – north east elevation ............................................................................................16 
+Figure 5 Proposal site – cross section 1 ......................................................................................................................... 17 
+Figure 6 Proposal site – cross section 2 ........................................................................................................................18 
+Figure 7 Sensitive receptors surrounding the Proposal site ................................................................................... 27 
+Figure 8 Topography surrounding the Proposal site ................................................................................................31 
+Figure 9 Variation in NOX emissions from the LCTSR ventilation stack, (2021 – 2022) .................................. 34 
+Figure 10 Predicted incremental 24-hour PM10 impacts – Scenario 1 (Proposal only) ..................................... 50 
+Figure 11 Predicted incremental 24-hour PM10 impacts – Scenario 2 (Proposal only) ..................................... 62 
+Figure 12 Predicted incremental 1-hour NO2 impacts – Scenario 2 (Proposal only) ........................................ 65 
+Figure 13 Ausgrid SAIDI & SAIFI Performance Information ..................................................................................... 76 
+TABLES 
+Table 1 Coverage of SEARs relevant to SSD-6740231 ............................................................................................10 
+Table 2 Standby generator maintenance testing schedule .................................................................................. 20 
+Table 3 NSW EPA impact assessment criteria for air pollutants .......................................................................... 23 
+Table 4 NSW EPA impact assessment criteria for principal and individual toxic pollutants ........................ 24 
+Table 5 Discrete sensitive receptor locations ............................................................................................................ 26 
+Table 6 Details of meteorological monitoring surrounding the Proposal site ................................................ 28 
+Table 7 Proximate NSW DCCEEW AQMS relative to the Proposal site ............................................................ 29 
+Table 8 Summary of background air quality used in the AQIA – Macquarie Park AQMS .......................... 30 
+Table 9 Emergency standby generator emissions and stack parameters ........................................................ 39 
+Table 10 Speciated VOC fractions .................................................................................................................................. 40 
+Table 11 Risk of air quality impacts from construction activities ........................................................................... 43 
+Table 12 Predicted maximum incremental 24-hour PM 10 and PM2.5 concentrations – Scenario 1 .............. 45 
+Table 13 Summary of contemporaneous 24-hour PM10 concentrations – Scenario 1 .................................... 47 
+[[page 8]]
+ 
+24.1025.FR1V4 Page viii 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 14 Summary of contemporaneous 24-hour PM2.5 concentrations – Scenario 1 ................................... 48 
+Table 15 Predicted maximum incremental 1-hour NOX concentrations – Scenario 1 ......................................51 
+Table 16 Predicted 1-hour NO2 concentrations – Scenario 1 ................................................................................. 52 
+Table 17 Predicted 15-minutes, 1-hour, and 8-hour average CO concentrations – Scenario 1 ................... 54 
+Table 18 Predicted 1-hour and 24-hour SO2 concentrations – Scenario 1 ......................................................... 55 
+Table 19 Predicted maximum incremental 1-hour PAH, benzene, and formaldehyde concentrations – 
+Scenario 1 (Proposal only) ............................................................................................................................... 56 
+Table 20 Assessment of the number of additional exceedances – Scenario 1 .................................................. 57 
+Table 21 Predicted annual average TSP, PM10 and PM2.5 concentrations – Scenario 2 .................................. 59 
+Table 22 Predicted maximum incremental 24-hour PM 10 and PM2.5 concentrations – Scenario 2 ............. 60 
+Table 23 Predicted maximum incremental 1-hour NOX concentrations – Scenario 2 .................................... 63 
+Table 24 Predicted 1-hour and annual average NO2 concentrations – Scenario 2 ......................................... 64 
+Table 25 Predicted 15-minute, 1-hour, and 8-hour average CO concentrations – Scenario 2 .................... 67 
+Table 26 Predicted 1-hour and 24-hour SO2 concentrations – Scenario 2 ........................................................ 68 
+Table 27 Predicted maximum incremental 1-hour PAH, benzene, and formaldehyde concentrations – 
+Scenario 2 (Proposal only) ............................................................................................................................... 69 
+Table 28 Predicted maximum 1-hour NOX impacts at receptors, by Proposal height .................................... 70 
+Table 29  Predicted maximum 1-hour NO2 impacts at receptors, by Proposal height ..................................... 71 
+Table 31 Chance of an exceedance during a power outage ................................................................................. 76 
+ 
+ 
+[[page 9]]
+ 
+24.1025.FR1V4 INTRODUCTION Page 9 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+1. INTRODUCTION 
+EMKC Cubed Management Pty Ltd (EMKC 3) (the Proponent) has commissioned Northstar Air Quality Pty Ltd 
+(Northstar) to perform an air quality impact assessment (AQIA) for inclusion within an Environmental Impact 
+Statement (EIS) accompanying the State Significant Development Application (SSDA) for the construction and 
+operation of a proposed data centre (the Proposal) to be located at 1 Sirius Road and 1 Apollo Place, Lane 
+Cove West (the Proposal site).   
+Northstar understands that EMKC3 plans to develop the Proposal site with the intention to merge its functions 
+with an existing data centre located at 1 Sirius Road, Lane Cove West to increase overall operational capacity.  
+The AQIA has been carried out to support a SSDA (SSD-67407231) to be submitted to NSW Department of 
+Planning, Housing, and Infrastructure (NSW DPHI) and has been performed in accordance with the NSW 
+Environment Protection Authority (NSW EPA) Approved Methods for the Modelling and Assessment of Air 
+Pollutants in NSW (the Approved Methods) (NSW EPA, 2022). 
+The AQIA identifies and examines potential air quality impacts associated with the construction and 
+subsequent operation of the Proposal, aligning with the industry specific NSW Planning Secretary’s 
+Environmental Assessment Requirements (SEARs) for data storage centres, and outlines mitigation and 
+monitoring requirements commensurate with those anticipated impacts to ensure that air quality criteria are 
+achieved at surrounding sensitive receptor locations. 
+1.1. Purpose of the Report  
+The purpose of this assessment is to examine and identify whether the construction and operation of the 
+Proposal may adversely impact on air quality in the surrounding area.   
+To allow assessment of the level of risk associated with the Proposal in relation to air quality, the AQIA has 
+been performed in accordance with and with due reference to: 
+ Protection of the Environment Operations Act 1997; 
+ Environmental Planning and Assessment Act 1979;   
+ Protection of the Environment Operations (Clean Air) Regulation 2022; 
+ Guidance on the Assessment of Dust from Demolition and Construction (IAQM, 2024); and, 
+ Approved Methods for the Modelling and Assessment of Air Pollutants in NSW (NSW EPA, 2022). 
+Appendix A presents a common list of abbreviations, nomenclature and specified units referenced within this 
+AQIA. 
+[[page 10]]
+ 
+24.1025.FR1V4 INTRODUCTION Page 10 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+1.2. Assessment Requirements 
+NSW Planning SEARs have been provided for the Proposal (SSD-6740231) by NSW DPHI, formerly NSW 
+Department of Planning and Environment (NSW DPE) on 13 February 2024.   
+Table 1 provides a summary of the SEARs relevant to the AQIA, and the section of the assessment where they 
+have been addressed.   
+Table 1 Coverage of SEARs relevant to SSD-6740231 
+Issue Requirements Addressed 
+Air Quality Provide an assessment of air quality impacts, prepared in accordance 
+with the relevant NSW Environment Protection Authority (EPA) 
+guidelines. 
+Section 3 
+Section 6 
+Section 7 
+The assessment must address construction works … 
+Section 5.1 
+Section 6 
+Appendix B 
+… and include modelling of emissions and air pollutants from predicted 
+operations (including testing of the back-up power system) … 
+Section 5.2 
+Section 7.2 
+… and a peak emission and air pollutant scenario …  
+Section 5.2 
+Section 7.1 
+… and outline the proposed mitigation, management and monitoring 
+measures that would be implemented 
+Section 8.2.3 
+Appendix B 
+ 
+NSW DPHI has specified supplementary assessment requirements beyond those specified in Table 1.  These 
+additional requirements, in conjunction with the industry-specific SEARs are outlined below. 
+ Air quality – The EIS must assess cumulative air quality impacts and detail how the proposed 
+development may alter the dispersion of pollutants from the Lane Cove Tunnel ventilation stack at 
+3 Sirius Road. 
+The potential for cumulative impacts associated with the Lane Cove Tunnel Sirius Road (LCTSR) ventilation 
+stack has been addressed in Section 4.6.3 and Section 7.  A discussion relating to the potential for alteration 
+of dispersion of pollutants from the LCTSR ventilation stack is also provided in Section 7.   
+  
+[[page 11]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 11 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+2. THE PROPOSAL  
+The following provides a description of the context, location and scale of the Proposal, and a description of 
+the processes and development activities on site.  It also identifies the potential for emissions to air associated 
+with the Proposal.   
+2.1. Environmental Setting  
+The Proposal site is currently comprised of two individual commercial buildings and a substation.  The 
+associated land banks are legally defined as Part Lot 1 in Deposited Plan (DP) 1271404 and Strata Plan (SP) 
+80721 and are contained within the Lane Cove Council Local Government Area (LGA).  The total site area is 
+approximately 0.55 hectares (ha).   
+The Proposal site is positioned within the Lane Cove West Business Park and is located approximately 
+9.1 kilometres (km) north west of the Sydney Central Business District (CBD) and 12.4 km east of the City of 
+Parramatta.  Additionally, it is approximately 500 m north of the Lane Cove Business Park and approximately 
+2.5 km from the Lane Cove town centre.  
+The Proposal site includes a four-storey office building and a one-storey light industrial building at 1 Apollo 
+Place.  The western portion of the Proposal site forms part of the existing data centre development at 1 Sirius 
+Road.  To the south, the neighbouring lot houses an office building, while to the east, bordering lots are 
+occupied by manufacturing enterprises.  Vehicular access to the Proposal site is gained from Apollo Place and 
+Sirius Road.  
+The Lane Cove River and Stringybark Creek are situated up to 250 m to the north and west of the Proposal 
+site.  The Lane Cove Tunnel, part of the Hills Motorway (M2), lies 500 m north of the Proposal site, with the 
+Western motorway ventilation stack located adjacent to the Proposal site's north-western lot at 3 Sirius Road. 
+A map showing the location of the Proposal site is provided in Figure 1.  A full description of the sensitivity 
+and uses of the surrounding land, and the identification of discrete receptor locations used in the AQIA, is 
+provided in Section 4.2. 
+  
+[[page 12]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 12 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 1 Proposal site location  
+ 
+Source: Northstar 
+
+[[page 13]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 13 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+2.2. Overview and Purpose 
+The Proposal seeks consent for the establishment and operation of a 45-megawatt (45 MW) data centre 
+development.  This development will involve site preparation works, bulk earthworks, infrastructure installation 
+and associated site works, as well as construction of the main single four-storey building, ancillary facilities. 
+Specifically, the Proposal comprises the following components: 
+ Site preparation works, including tree clearing, earthworks involving cut and fill, and site retaining; 
+ Infrastructure comprising civil works and utilities servicing; 
+ Construction and operation of a four-storey data centre with a total installed capacity of 45 MW; 
+ Construction and operation of ancillary office and amenities; 
+ On-site car parking for 27 no. spaces; and  
+ Complementary landscaping and offset planting.   
+The Proposal will operate 24-hours, seven days per week.  Standby power will be provided by a total of 28 no. 
+containerised diesel-powered back-up generators (including redundancy) at the Proposal site.  Once 
+amalgamated with the existing data centre a total of 144 no. standby generators will be located across the 
+wider development.   
+The Proposal site layout for level 2 and level 5 (roof level) are shown in Figure 2 and Figure 3, respectively.  
+Figure 4 to Figure 6 provides an indication of the respective floor levels and site elevations used for this AQIA.  
+ 
+[[page 14]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 14 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 2 Proposal site layout – level 2 plan  
+ 
+Source: Greenbox Architecture – SSDA submission – SSDA-A-101 Issue C (Level 2 Plan)  
+
+[[page 15]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 15 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 3 Proposal site layout – level 5 (roof) plan  
+ 
+Source:  Greenbox Architecture – SSDA submission – SSDA-A-104 Issue D (Level 5 / Roof plan) 
+
+[[page 16]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 16 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 4 Proposal site elevation – north east elevation 
+ 
+Source:  Greenbox Architecture – SSDA submission – SSDA-A-201 Issue D (North east elevation) 
+  
+
+[[page 17]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 17 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 5 Proposal site – cross section 1 
+ 
+Source:  Greenbox Architecture – SSDA submission -  SSDA-A-300 Issue E (Section 1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 18]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 18 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 6 Proposal site – cross section 2 
+ 
+Source:  Greenbox Architecture – SSDA submission -  SSDA-A-301 Issue E (Section 2)
+
+[[page 19]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 19 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+2.3. Identification of Emissions to Atmosphere 
+Given the nature of the Proposal described above, emissions to air would be likely to be generated as 
+described below.   
+2.3.1. Construction Phase 
+Construction would involve bulk earthworks, construction of the data centre development, car parking, 
+associated infrastructure, site access points, and landscaping. 
+An indicative list of plant and equipment that may be used during the construction of the Proposal includes: 
+ Excavators and front-end loaders (FEL); 
+ Graders; 
+ Light and heavy vehicles; 
+ Drills; 
+ Cranes; 
+ Commercial vans; and 
+ Cherry pickers. 
+The assessment of the potential impacts upon local air quality, resulting from construction activities, is 
+presented in Section 6, while the full risk assessment is provided in Appendix B.   
+2.3.2. Operation Phase 
+Operational emissions from the data centre on a day-to-day basis would be anticipated to be negligible, with 
+the exception of potential emissions from diesel-fuelled back-up generators during periodic maintenance 
+testing or during a power outage event. 
+The Proposal is anticipated to install 28 no diesel-fuelled generators each with a power generation capacity 
+of 2.2 MW.  The existing data centre at 1 Sirius Road encompasses 113 no. 2.2 MW generators and 3 no. 
+diesel-fuelled generators with a power capacity of 1.1 MW.   
+Emissions data for the Proposal site has been assessed based on indicative equipment selection as provided 
+by the project team for use in this assessment, including an MTU 16V4000G84F 2.2 MW with a fuel 
+consumption rate at 100 % load of 513.3 litres per hour (L·hr-1), and a MTU 16V2000G86F and fuel consumption 
+of 256 L·hr-1 at 100 % load.  The technical specifications were used in dispersion modelling to be represent 
+generators similar in characteristics to those anticipated at the Proposal site.  Dispersion modelling was used 
+to predict impacts from the Proposal site and the existing data centre at 1 Sirius Road on the surrounding 
+area.    
+[[page 20]]
+ 
+24.1025.FR1V4 THE PROPOSAL Page 20 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+During periods when the back-up generators may be required to maintain electrical supply or used for 
+maintenance testing, short-term emissions of combustion related pollutants may be generated.  The 
+pollutants of concern from the operation of the diesel-fuelled generators includes (in no order): 
+ Particulate matter (PM). 
+ Oxides of nitrogen (NOX). 
+ Carbon monoxide (CO). 
+ Sulphur dioxide (SO2). 
+ Polycyclic aromatic hydrocarbons (PAHs). 
+ Volatile organic compounds (VOCs), assessed as benzene (C6H6), toluene (C7H8) and xylene (C8H10); 
+and,  
+ Formaldehyde (CH2O). 
+The anticipated maintenance testing schedule has been provided by the Proponent and is outlined in Table 
+2 below.  This assumes that each generator would be tested for a period of 20 minutes, with generator testing 
+one at a time.  Additional information provided by the Proponent indicates that testing would be performed 
+during daylight hours i.e., between 7:00 am and 6:00 pm and that the testing would be conducted at intervals 
+of two months, six months, one year, two years, and four years covering both the Proposal site and existing 
+data centre development at 1 Sirius Road. 
+Table 2 Standby generator maintenance testing schedule 
+Parameter Proposal site 1 Sirius Road Total 
+Nb. generators 28 116 144 
+Nb. generators per test 1 1 1 
+Run time per test 20 minutes 20 minutes 20 minutes 
+Total testing time (a) 1 680 6 960 8 640 
+Total testing time (hours) 28 116 144 
+Note: (a):  Based on three interval testing periods in first year 
+2.3.3. Odour 
+Construction phase activities may include the operation of plant and machinery, that may pose an insignificant 
+risk of odour in the event of accidental fuel spillage, however this risk is very minor and can be effectively 
+managed through the provision of spill kits to promptly manage any spillages. 
+Operational phase activities will not result in any odour emissions, with the exception of the periodic operation 
+of the diesel-fuelled generators for testing and back-up power generation purposes only, as outlined above.   
+Air emissions of VOCs has been assessed as benzene (C6H6) as a principal toxic air pollutant, with anticipated 
+emissions of toluene (C 7H8) and xylene (C 8H10) assessed and compared against the relevant odour impact 
+assessment criteria.   
+[[page 21]]
+ 
+24.1025.FR1V4 LEGISLATION, REGULATION AND GUIDANCE Page 21 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+3. LEGISLATION, REGULATION AND GUIDANCE 
+The following outlines the legislation and air quality criteria which are applicable to the activities being 
+performed at the Proposal site.   
+3.1. Protection of the Environment Act 
+The Protection of the Environment Operations Act  1997 (POEO Act) sets the statutory framework for 
+managing air quality in NSW, including establishing the licensing scheme for major industrial premises 
+(scheduled activities) and a range of air pollution offences and penalties.   
+Schedule 1, Part 1 of the POEO Act provides definitions for scheduled activities, and the associated threshold 
+activity rates.  For the Proposal, the thresholds relevant to electricity generation are most relevant, given the 
+use of emergency diesel-fuelled generators at the Proposal site: 
+17 Electricity generation 
+(1) This clause applies to the following activities: 
+… 
+metropolitan electricity works (internal combustion engines), meaning the generation 
+of electricity by means of electricity plant: 
+(a) that is based on, or uses, an internal combustion engine, and 
+(b) that is situated in the metropolitan area or in the local government area of Port 
+Stephens, Maitland, Cessnock, Singleton, Wollondilly, or Kiama. 
+(1A) However, this clause does not apply to the generation of electricity by means of 
+electricity plant that is emergency stand-by plant operating for less than 200 hours per 
+year. 
+(2) Each activity referred to in Column 1 of the Table to this clause is declared to be 
+a scheduled activity if it meets the criteria set out in Column 2 of that Table. 
+During times of stable external supply of electricity, the back-up generators will only operate during scheduled 
+maintenance events (refer Table 2).  On this basis, the Proposal is highly unlikely to exceed the 200-hour limit, 
+on the generation of electricity by means of electricity plant that is emergency stand-by plant and is not 
+deemed to be a scheduled activity under the POEO Act. 
+Part 5.4 of the POEO Act outlines a number of requirements associated with air pollution.  These requirements 
+generally relate to the appropriate maintenance of plant and equipment in an efficient condition and dealing 
+with materials in a manner as to not cause air pollution.   
+[[page 22]]
+ 
+24.1025.FR1V4 LEGISLATION, REGULATION AND GUIDANCE Page 22 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+3.2. Protection of the Environment Operations (Clean Air) Regulation  
+The Protection of the Environment Operations (POEO) (Clean Air) Regulation 2022 (POEO CAR) sets 
+requirements and standards of concentration for emissions to air for industrial activities within NSW.  
+Clause 73, Part 5, Division 6 of the POEO CAR provides the following in regard to the regulation of emissions 
+from emergency electricity generation: 
+73   Exemption relating to emergency electricity generation 
+Emergency standby plant is exempt from the air impurities standard for nitrogen 
+dioxide and nitric oxide specified in Schedule 2, Part 2, Division 3 for the plant if –  
+(a) the plant comprises a stationary reciprocating internal combustion engine for 
+generating electricity, and  
+(b) it is used for a total of not more than 200 hours per year. 
+Schedule 2, Part 3 of the POEO CAR sets out emission limits relevant to unscheduled activities (including 
+emergency and standby electricity generators), being solid particles at an emission limit concentration of 
+100 mg∙Nm-3 and an opacity limit of 20 %.   
+Although the operations may be exempt from the relevant emission limit regulations (i.e. in-stack emission 
+concentrations), the Proponent would not be exempt from ensuring the emissions do not exceed ambient air 
+quality criteria, which are discussed in Section 3.3. 
+3.3. NSW Approved Methods 
+State air quality guidelines are prescribed by the NSW EPA in the Approved Methods (NSW EPA, 2022) which 
+has been consulted during the preparation of this AQIA.   
+The Approved Methods lists the statutory methods that are to be used to assess emissions of criteria air 
+pollutants in NSW.  Section 7.1 and Section 7.2 of the Approved Methods clearly outlines the impact 
+assessment criteria for those key pollutants of interest and both individual and principal toxic air pollutants.  
+Principal toxic air pollutants are defined in the Approved Methods (NSW EPA, 2022) on the basis that they 
+are carcinogenic, mutagenic, highly persistent, or highly toxic in the environment.  
+The criteria listed in the Approved Methods (NSW EPA, 2022) are derived from a range of sources (including 
+National Health and Medical Research Council [NHMRC], National Environment Protection Council [NEPC], 
+and World Health Organisation [WHO]).   
+[[page 23]]
+ 
+24.1025.FR1V4 LEGISLATION, REGULATION AND GUIDANCE Page 23 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+The criteria specified in the Approved Methods (NSW EPA, 2022) are the defining ambient air quality criteria 
+for NSW.  The standards adopted to protect members of the community from health impacts in NSW for 
+relevant individual air pollutants are presented in Table 3. 
+To assess the potential impact of emissions of total volatile organic compounds (VOC) (which is a complex 
+mixture of hydrocarbons), the 1-hour impact assessment criterion for benzene (C 6H6) of 0.029 mg∙m -3 
+(29 µg∙m-3) as outlined in table 12 of the Approved Methods (NSW EPA, 2022) has been adopted.  Benzene 
+is one of the primary components of TVOC emissions resulting from diesel combustion engines and 
+correspondingly, compliance with the benzene criterion (refer Table 3) would generally result in compliance 
+with all VOC components from a health-perspective.  Formaldehyde (CH 2O) is assessed as a discrete VOC. 
+VOC emissions have additionally been assessed against the 1-hour odour impact assessment criteria for 
+toluene of 0.36 mg·m-3 (360 µg·m-3) and xylene of 0.19 mg·m-3 (190 µg m-3) to address odour. 
+Table 3 NSW EPA impact assessment criteria for air pollutants 
+Pollutant 
+Averaging 
+period 
+Criterion 
+Notes 
+µg∙m-3 (a) 
+Sulphur dioxide (SO2) 
+1 hour 286 
+Numerically equivalent to the 
+AAQ NEPM (b) standards and 
+goals 
+24 hours 57 
+1 year 4 
+Nitrogen dioxide (NO2) 
+1 hour 164 
+Annual 31 
+Particulates (as PM10) 
+24 hours 50 
+1 year 25 
+Particulates (as PM2.5) 
+24 hours 25 
+1 year 8 
+Particulates (as TSP) 1 year 90  
+Pollutant 
+Averaging 
+period 
+Criterion 
+Notes 
+ppm (c) mg·m-3, (d) 
+Carbon monoxide (CO) 
+15 minutes 87 100 Numerically equivalent to the 
+AAQ NEPM (b) standards and 
+goals 
+1 hour 25 30 
+8 hours 9 10 
+Notes:  (a): micrograms per cubic metre of air 
+(b): National Environment Protection (Ambient Air Quality) Measure  
+(c): parts per million (106) 
+(d): milligrams per cubic metre of air  
+Table 4 below provides a summary of impact assessment criteria for principal toxic, and both individual 
+odorous and toxic pollutants that are referenced within this AQIA, as outlined in Section 7.2 of (NSW EPA, 
+2022). 
+[[page 24]]
+ 
+24.1025.FR1V4 LEGISLATION, REGULATION AND GUIDANCE Page 24 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 4 NSW EPA impact assessment criteria for principal and individual toxic pollutants 
+Pollutant Averaging period 
+Criterion 
+Notes 
+ppm (a) mg·m-3 (b) 
+Polycyclic Aromatic Hydrocarbon 
+(PAH) as benzo(a)pyrene 
+1 hour N/A 0.0004  
+Benzene (C6H6) 1 hour 0.009 0.029  
+Ethylbenzene (C8H10) 1 hour 1.8 8.0  
+Toluene (C7H8) 1 hour  0.06 0.36 Odour 
+Xylene (C8H10) 1 hour 0.04 0.19 Odour 
+Formaldehyde (CH2O) 1 hour 0.018 0.02  
+Notes:  (a): parts per million (10 6) 
+(b): milligrams per cubic metre of air 
+ N/A = Not applicable 
+  
+[[page 25]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 25 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+4. EXISTING CONDITIONS 
+4.1. Surrounding Land Use Sensitivity 
+The Proposal site is zoned as E4 General Industrial, pursuant to the Lane Cove Local Environmental Plan 
+(LCLEP) 2009.  The proposed use as a data centre is permissible with consent in the E4 General Industrial zone 
+under the LCLEP. 
+The surrounding land use is comprised of similar light industrial developments contained within the E4 General 
+Industrial land zone.  The Proposal site is adjoined by the existing data centre located at 1 Sirius Road on the 
+northern and western boundaries.  Other surrounding land zones include C2 Environmental Conservation to 
+the north west of the Proposal site encompassing the Lane Cove River. 
+Residential land use includes R2 Low Density Residential zone, positioned about 500 m east of the Proposal 
+site, and R3 Medium Density Residential zone, situated approximately 510 m north east respectively. 
+4.2. Sensitive Receptor Locations  
+Air quality assessments typically use a desk-top mapping study to identify ’discrete receptor locations’, which 
+are intended to represent a selection of locations that may be susceptible to changes in air quality.  In broad 
+terms, the identification of sensitive receptors, refers to places at which humans may be present for a period 
+representative of the averaging period for the pollutant being assessed.   
+The Approved Methods (NSW EPA, 2022) defines a sensitive receptor location to be: 
+‘A location where people are likely to work or reside; this may include a dwelling, 
+school, hospital, office or public recreational area’. 
+It is noted that the assessment criteria applied to particulates and sulphur dioxide (SO2) (refer Table 3) are for 
+24-hour averaging period, and as such the predicted impacts need to be interpreted at commercial and 
+industrial receptor locations with care.  It is considered to be atypical for a person to be at those locations for 
+a complete 24-hour period and as such, the exposure risks at those locations would be over-estimated by 
+adoption of those locations in the modelling assessment.   
+It is important to note that the selection of discrete receptor locations is not intended to represent a fully 
+inclusive selection of all sensitive receptors across the study area.  The location selected should be considered 
+to be representative of its broader location and may be reasonably assumed to be representative of the 
+immediate environs.  In some instances, several viable receptor locations may be identified in a small area, 
+for example a school neighbouring a medical centre.  In this instance the receptor closest to the potential 
+[[page 26]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 26 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+sources to be modelled would generally be selected and would be used to assess the risk to other sensitive 
+land uses in the area.   
+In addition to the identified ‘discrete’ receptor locations, the entire modelling area is gridded with ‘uniform’ 
+receptor locations that are used to plot out the predicted impacts, and as such the accidental non-inclusion 
+of a location that is sensitive to changes in air quality, does not render the AQIA invalid, or otherwise incapable 
+of assessing those potential risks.   
+In accordance with the requirements of the Approved Methods (NSW EPA, 2022), several receptors have 
+been identified and the receptors adopted for use within this AQIA are presented in Table 5 and illustrated in 
+Figure 7. 
+Table 5 is not intended to represent a definitive list of sensitive land uses, but a cross section of available 
+locations, that are used to characterise larger areas, or selected as they represent more sensitive locations, 
+which may represent people who are more susceptible to changes in air pollution.   
+Table 5 Discrete sensitive receptor locations 
+Receptor Location Land use 
+Coordinates (UTM) 
+mE mS 
+R1 Sirius Road, Lane Cove West Industrial 328 425 6 257 628 
+R2 Sirius Road, Lane Cove West Industrial 328 408 6 257 597 
+R3 Sirius Road, Lane Cove West Industrial 328 479 6 257 633 
+R4 Apollo Place, Lane Cove West Industrial 328 338 6 257 537 
+R5 Sirius Road, Lane Cove West Industrial 328 398 6 257 523 
+R6 Apollo Place, Lane Cove West Industrial 328 301 6 257 512 
+R7 Mars Road, Lane Cove West Industrial 328 229 6 257 383 
+R8 Sirius Road, Lane Cove West Industrial 328 570 6 257 763 
+R9 Orion Road, Lane Cove West Industrial 328 575 6 257 682 
+R10 Cullen Street, Lane Cove West School 328 904 6 257 394 
+R11 Ventemans Reach Walking Track Recreational 328 232 6 257 760 
+R12 Magdala Park Recreational 328 105 6 257 850 
+R13 Epping Road, Lane Cove Residential 328 413 6 257 919 
+R14 Pittwater Road, East Ryde Residential 327 792 6 257 258 
+R15 Jeanette Street, East Ryde Residential 327 633 6 257 581 
+R16 Conrad Street, North Ryde Residential 327 575 6 257 921 
+R17 Mowbray Road, Lane Cove North Residential 328 611 6 258 138 
+R18 Cumberland Avenue, Lane Cove North Residential 328 775 6 257 943 
+Note:  The requirements of this AQIA may vary from the specific requirements of other studies, and as such the selection and naming 
+of receptor locations, may vary between technical reports.  This does not affect or reduce the validity of those assumptions. 
+  
+[[page 27]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 27 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 7 Sensitive receptors surrounding the Proposal site 
+ 
+Source: Northstar  
+
+[[page 28]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 28 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+4.3. Meteorology  
+The meteorology experienced within an area can govern the generation (in the case of wind-dependent 
+emission sources), dispersion, transport, and eventual fate of pollutants in the atmosphere.  The 
+meteorological conditions surrounding the Proposal site have been characterised using data collected either 
+from surrounding Automatic Weather Stations (AWS) operated by Australian Government Bureau of 
+Meteorology (BoM). 
+Three stations have been identified located within a 10 km radius of the Proposal site.  A summary of the 
+relevant AWS is provided in Table 6 below (listed by proximity). 
+Table 6 Details of meteorological monitoring surrounding the Proposal site 
+Site name Station # 
+Approximate 
+location 
+Approximate distance 
+(km) 
+mE mS 
+Sydney Olympic Park AWS (Archery Centre) 66212 321 575 6 254 599 7.2 
+Sydney AWS (Observatory Hill) 66062 333 955 6 251 839 8.0 
+Fort Denison AWS 66022 335 831 6 252 493 9.0 
+ 
+The Sydney Olympic Park (Archery Centre) AWS is noted to be the most proximate BoM operated monitoring 
+station to the Proposal site located approximately 7.2 km to the southwest of the Proposal site.  As such, it is 
+considered that data collected at Sydney Olympic Park AWS is most likely to represent the conditions at the 
+Proposal site, based upon its proximity. 
+Correspondingly, data acquired from Sydney Olympic Park AWS for the period between 2019 and 2023 (the 
+most recent five years of completed data) have been analysed for use in this AQIA.  The wind roses presented 
+in Appendix C indicate that from 2019 to 2023, winds at Sydney Olympic Park AWS show similar wind 
+distribution patterns across the years assessed, with predominant north-westerly wind directions. 
+The majority of wind speeds experienced at Sydney Olympic Park AWS between 2019 and 2023 are generally 
+in the range 0.5  meters per second (m∙s -1) to 5.5 m∙s -1 with the highest wind speeds (greater than 8 m∙s -1) 
+occurring from generally north-westerly directions.  Winds of this speed are rare and occur during 0.1 % of 
+the observed hours during the years.  Calm winds (less than 0.5 m∙s -1) are more common and occur during 
+23.7 % of hours on average across the years between 2019 and 2023.  
+An analysis of the correlation coefficients between each year for wind speed, wind direction and particulate 
+matter data distribution was performed to select a representative year for the meteorological modelling (refer 
+Appendix C).  Following this analysis, the year 2021 was chosen as the most suitable for further assessment. 
+[[page 29]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 29 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+To provide a characterisation of the meteorology which would be expected at the Proposal site, a 
+meteorological modelling exercise has also been performed.  A summary of the inputs and outputs of the 
+meteorological modelling assessment, including validation of those outputs is presented in Appendix C. 
+4.4. Background Air Quality 
+The air quality experienced at any location will be a result of emissions generated by natural and 
+anthropogenic sources on a variety of scales (local, regional, and global).  The relative contributions of sources 
+at each of these scales to the air quality at a location, will vary based on a wide number of factors including 
+the type, location, proximity and strength of the emission source(s), prevailing meteorology, land uses and 
+other factors affecting the emission, dispersion, and fate of those pollutants. 
+When assessing the impact of any particular source of emissions on the potential air quality at a location, the 
+impact of all other sources of an individual pollutant, should also be assessed.  These ‘background’ (sometimes 
+called ‘baseline’) air quality conditions will vary depending on the pollutants to be assessed and can often be 
+characterised by using representative air quality monitoring data. 
+The Proposal site is located proximate to two AQMS operated by NSW Department of Climate Change, 
+Energy, the Environment and Water (NSW DCCEEW).  These locations (listed by proximity) are briefly 
+summarised in Table 7. 
+Table 7 Proximate NSW DCCEEW AQMS relative to the Proposal site 
+AQMS 
+location 
+Dates of 
+operation 
+Distance to 
+Proposal site (km) 
+Measurements 
+PM10 PM2.5 TSP NO2 CO SO2 O3 
+Lindfield 1994 – 2019 2.7       
+Macquarie Park 2017 – present 5.2       
+ 
+The closest active AQMS is noted to be located at Lindfield and is generally considered to be the monitoring 
+location most reflective of the conditions at the Proposal site, however, Lindfield AQMS does not monitor a 
+number of pollutants of interest that are relevant to this AQIA and was decommissioned in 2019.  
+Correspondingly, data collected at Macquarie Park AQMS for the period between 2019 and 2023 have been 
+analysed. 
+Appendix D provides a detailed assessment of the background air quality monitoring data used in this AQIA. 
+Given the wind distributions and PM concentrations across the years examined, data for the year 2021 has 
+been selected as being appropriate for further assessment, as it best represents the general trend across the 
+five-year period studied.  Reference should be made to Appendix C for further details. 
+[[page 30]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 30 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+It is noted that neither of the AQMS identified in Table 7 measure Total Suspended Particulate (TSP) which is 
+of relevance to the expected emissions from the Proposal.  Other sources of data have been adopted to allow 
+representation of the TSP environment in the area surrounding the Proposal site, and a full discussion is 
+provided in Appendix D.   
+No background air quality data is available for the following pollutants: 
+ PAH; 
+ Benzene (C6H6); 
+ Formaldehyde (CH2O); 
+ Toluene (C7H8); and, 
+ Xylene (C8H10). 
+For the purposes of this assessment, it has been assumed that background concentrations of the 
+abovementioned pollutants are negligible. 
+A summary of the air quality monitoring data and assumptions used to produce this AQIA are presented in 
+Table 8.  It is noted that although impacts of ozone (O3) have not been considered in this assessment, O3 data 
+have been adopted to assist in calculating the conversion of NO X to NO 2 for the dispersion modelling 
+assessment (refer Section 5.2.6). 
+Table 8 Summary of background air quality used in the AQIA – Macquarie Park AQMS 
+Pollutant 
+Averaging 
+period 
+Units 
+Measured 
+value 
+Notes 
+Particles (as TSP) 
+(derived from PM10) 
+Annual μg·m-3 27.1 
+Estimated on a TSP:PM10 ratio of 
+2.0551 : 1  
+Particles (as PM10) 
+24-hour μg·m-3 Daily Varying The 24-hour maximum for PM10 in 
+2021 was 125.2 μg.m-3  Annual μg·m-3 13.2 
+Particles (as PM2.5)  
+24-hour μg·m-3 Daily Varying The 24-hour maximum for PM2.5 in 
+2021 was 213.1 μg.m-3 Annual μg·m-3 7.3 
+Nitrogen dioxide 
+(NO2) 
+1-hour μg∙m-3 149.7 Hourly maximum 1-hr average in 2021 
+Annual μg·m-3 7.2 Annual average in 2021 
+Carbon monoxide 
+(CO) 
+15-minute mg∙m-3 16.5 Calculated from 1-hr data 
+1-hour mg∙m-3 12.5 Maximum 1-hr average in 2021 
+8-hour mg∙m-3 6.4 Maximum 8-hr average in 2021 
+Sulphur dioxide 
+(SO2) 
+1 hour µg·m-3 97.2 Maximum 1-hr average in 2021 
+24-hour µg·m-3 17.2 Maximum 24-hr average in 2021 
+Note:  Reference should be made to Appendix D 
+[[page 31]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 31 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+It is noted that Macquarie Park AQMS recorded particulate matter concentrations above the NEPM AAQ 
+standard on a number of days in August and October in 2021.  This was primarily driven by extensive hazard 
+reduction burning performed north of Sydney (NSW DPE, 2023). 
+The AQIA has been performed to assess the contribution of the Proposal to the air quality of the surrounding 
+area.  A full discussion of how the Proposal impacts upon local air quality is presented in Section 6 and 
+Section 7.3. 
+4.5. Topography  
+The Proposal site's topography slopes downward from the south east to the north west, following the regional 
+trend towards the Lane Cove River.  Site elevation ranges from 24 m to 36 m above Australian Height Datum 
+(AHD), consistent with the surrounding area. 
+A representation of the topography surrounding the Proposal site is presented in Figure 8. 
+Figure 8 Topography surrounding the Proposal site 
+ 
+Source:  Northstar 
+
+[[page 32]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 32 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+4.6. Potential for Cumulative Impact 
+Cumulative impacts are required to be considered as part of the guidance provided in the Approved Methods 
+(NSW EPA, 2022), and may occur when similar air quality impacts may be experienced at receptor locations 
+from different emission sources.  The cumulative (additive) impacts of those separate emissions should be 
+assessed in aggregate against the criteria provided in the Approved Methods (NSW EPA, 2022). 
+With regard to the operation of the Proposal, the potential for cumulative impacts would only occur in the 
+event of periodic generator testing and/or power outage.  At all other times the air emissions from the 
+operation of the Proposal are negligible. 
+4.6.1. Approved Development 
+Approval was granted in November 2019, for construction and operation of a 24-hour operation of a data 
+centre located at 1 Sirius Road, Lane Cove West (SSD-9741), with total capacity of 138 MW.  At the time of the 
+SSD application, a qualitative air quality assessment was undertaken, with approval for the operation of the 
+data centre supported by the inclusion of 80 no. diesel back-up generators.   
+A modification application was submitted in 2020 which sought the approval for the installation of 116 no. 
+backup generators.  A quantitative modelling assessment of potential air quality impacts was performed to 
+assess potential impacts during generator testing and concluded that the air quality impact assessment criteria 
+were achieved at all offsite locations.   
+A further modification was submitted in 2022 which proposed to increase the number of generators from 
+116 no. to 121 no.  This modification is still currently pending approval.   
+In this instance, the Proposal site may have the potential for cumulative impacts as a consequence of the 
+concurrent generator use of up to 144 no. containerised diesel-powered emergency back-up generators at 
+any one time.  As such, the potential for cumulative impacts as a result of concurrent use of 144 no. standby 
+generators has been accounted for within this AQIA through the examination of the justified worst case 
+operational scenario (refer Section 7.1).  
+4.6.2. Other Development 
+An SSDA for the proposed construction and 24-hour operation of a data centre with associated infrastructure 
+and services at 706 Mowbray Road West in Lane Cove North (SSD-13475973) was submitted to NSW DPHI, 
+formerly NSW DPE in October 2022.  This development was to deliver capacity for up to 28.8 MW of IT 
+equipment, supported by a dedicated electrical substation, with backup power provided by a combination of 
+lithium-ion battery systems and emergency standby generators.  This SSDA was withdrawn in February 2023. 
+[[page 33]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 33 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+4.6.3. Lane Cove Tunnel – Sirius Road Ventilation Stack 
+4.6.3.1. Cumulative Impacts from the Ventilation Stack  
+The Lane Cove Tunnel is approximately 3.6 km in length and runs between North Ryde and Artarmon, serving 
+as a link between the M2 Motorway and the Gore Hill Freeway as an integral part of Sydney’s highway network.  
+The Lane Cove Tunnel is located 500 m north of the Proposal site with tunnel operations commencing in 
+March 2007.   
+The Lane Cove Tunnel is ventilated by two stacks, one at Sirius Road in Lane Cove West at the western end 
+and one at Marden Street in Artarmon at the eastern end.  Given the separation distance between the Marden 
+Street ventilation stack and the Proposal site of 3.2 km, cumulative impacts with emissions from the 
+development are considered unlikely to occur and have not been considered further.   
+The LCTSR ventilation stack is located approximately 90 m to the east of the Proposal site, and the potential 
+for cumulative impacts between the ventilation stack emissions and the Proposal have been assessed in a 
+quantitative manner.  Continuous stack air quality monitoring 1  and reporting services are conducted as per 
+Conditions of Approval for tunnel operations and the most recently available years of validated data (2021 
+and 2022) have been obtained for the purposes of this assessment.   
+The representative year adopted for modelling purposes has been determined to be 2021, as discussed in 
+Section 4.3.  Although the use of 2021 Sirius Cove ventilation stack emissions data would align well with that 
+selection of meteorological year, further review of emissions data indicated that i) emission rates of CO, NOX, 
+PM10 and PM 2.5 were measured to be lower overall in 2021 than 2022 and ii) emission rates in 2021 were 
+calculated to be significantly reduced in July through to December when compared to the same period in 
+2022.  
+A summary of the hourly, daily, and monthly variation in NO X emissions (in g·s -1) is presented in Figure 9 for 
+illustrative purposes.  
+For the purposes of this assessment, an hourly varying emissions file representing emissions from the LCTSR 
+ventilation stack for 2022 has been used in dispersion modelling to assess the potential for cumulative impacts 
+on surrounding sensitive receptors.  Validated data from 2022 represents the most recently available data 
+and as wind erosion has insignificant influence on emission rates from the ventilation stack, the use of the 
+2022 data is considered to be valid for this purpose. 
+Emission rates for CO, NO X, PM 10 and PM 2.5 have been calculated using measured in-stack pollutant 
+concentrations (in mg·Nm -3, or µg·Nm -3) multiplied by the stack flow rate, normalised by stack temperature 
+ 
+1   https://www.linkt.com.au/using-toll-roads/about-sydney-toll-roads/lane-cove-tunnel/tunnel-air-quality/sydney  
+[[page 34]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 34 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+(i.e. Nm 3·s-1).  Impacts of each pollutant at the relevant averaging period have been determined at each 
+sensitive receptor presented in Section 4.2.   
+Results are presented in Section 7 which show the contribution of emissions from the LCTSR ventilation stack 
+on cumulative impacts associated with each modelled scenario.   
+Figure 9 Variation in NO X emissions from the LCTSR ventilation stack, (2021 – 2022) 
+ 
+Note: Emission rates shown in g·s -1  
+4.6.3.2. Impacts Associated with the Proposal on Ventilation Stack Dispersion 
+As requested by NSW DPHI, the AQIA must provide details of how the “proposed development may alter the 
+dispersion of pollutants from the Lane Cove Tunnel ventilation stack at 3 Sirius Road”.  
+Part 4, Section 4.3 of the Lane Cove Local Environment Plan (LCLEP) 2009 outlines the limits on building 
+heights in the area surrounding the Proposal as 18 m AHD: 
+a. to ensure development allows for reasonable solar access to existing buildings and public areas; 
+b. to ensure that privacy and visual impacts of development on neighbouring properties, particularly 
+where zones meet, are reasonable; 
+c. to seek alternative design solutions in order to maximise the potential sunlight for the public domain; 
+and 
+d. to relate development to topography. 
+
+[[page 35]]
+ 
+24.1025.FR1V4 EXISTING CONDITIONS Page 35 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Although no specific requirements of the LCLEP specify the LCTSR ventilation stack, this assessment has 
+considered potential air quality related environmental planning matters to allow variation of the height limit 
+to accommodate the Proposal.  Specifically, the impact of the Proposal at 18 m AHD (LCLEP limit), and at a 
+maximum height of 33.6 m AHD (proposed height, refer Figure 4 to Figure 6) on dispersion from the LCTSR 
+ventilation stack is assessed through the review of predicted impacts of maximum 1 hour NOX concentrations 
+at each receptor identified in Section 4.2.  Results are presented in Section 7.3.   
+ 
+  
+[[page 36]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 36 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+5. APPROACH TO ASSESSMENT 
+5.1. Construction Phase 
+Construction phase activities have the potential to generate short-term emissions of particulates.  Generally, 
+these are associated with uncontrolled (or ‘fugitive’) emissions and are typically experienced by neighbours 
+as amenity impacts, such as dust deposition and visible dust plumes, rather than associated with health-related 
+impacts.  Localised engine-exhaust emissions from construction machinery and vehicles may also be 
+experienced but given the scale of the proposed works, fugitive dust emissions would have the greatest 
+potential to give rise to downwind air quality impacts.   
+Modelling of dust from construction Proposals is generally not considered appropriate as there is a lack of 
+reliable emission factors from construction activities upon which to make predictive assessments, and the rates 
+would vary significantly, depending upon local conditions.  In lieu of a modelling assessment, the construction-
+phase impacts associated with the Proposal have been assessed using a risk-based assessment procedure.  
+The advantage of this approach is that it determines the activities that pose the greatest risk, which allows the 
+Construction Environmental Management Plan (CEMP) to focus controls to manage that risk appropriately 
+and reduce the impact through proactive management.   
+For this assessment, Northstar has adapted the Guidance on the Assessment of Dust from Demolition and 
+Construction published by the Institute of Air Quality Management (IAQM, 2024) in the United Kingdom.  The 
+IAQM construction phase assessment approach is commonly used for evaluating fugitive dust and particulate 
+matter emissions from construction activities in development projects across NSW and Australia.  Reference 
+should be made to Appendix B for the methodology.   
+Briefly, the adapted method uses a six-step process for assessing dust impact risks from construction activities, 
+and to identify key activities for control as outlined in Appendix B. 
+5.2. Operation Phase 
+5.2.1. Modelling Approach 
+A dispersion modelling assessment has been performed using the NSW EPA approved CALPUFF Atmospheric 
+Dispersion Model.  The modelling has been performed in CALPUFF 3-dimensional (3-D) mode.   
+The 3-D meteorological dataset was derived using gridded prognostic data generated from The Air Pollution 
+Model (TAPM, v 4.0.5) as developed by the Commonwealth Scientific and Industrial Research Organisation 
+(CSIRO), in collaboration with CALMET (refer Appendix C).    
+[[page 37]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 37 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+TAPM predicts wind speed and direction, temperature, pressure, water vapour, cloud, rain water and 
+turbulence.  The program allows the user to generate synthetic observations by referencing databases 
+(covering terrain, vegetation and soil type, sea surface temperature and synoptic scale meteorological 
+analyses) which are subsequently used in the model input to generate site-specific hourly meteorological 
+observations at user-defined levels within the atmosphere.   
+CALMET is a meteorological model that develops wind and temperature fields on a three-dimensional gridded 
+modelling domain.  Associated two-dimensional fields such as mixing height, surface characteristics, and 
+dispersion properties are also included in the file produced by CALMET.  The interpolated wind field is then 
+modified within the model to account for the influences of topography, as well as differential heating and 
+surface roughness associated with different land uses across the modelling domain.  These modifications are 
+applied to the winds at each grid point to develop a final wind field and thus the final wind field reflects the 
+influences of local topography and current land uses.   
+5.2.2. Modelling Scenarios  
+The following modelling scenarios have been completed to determine the potential impact under the 
+anticipated operational conditions of the emergency standby generators.   
+ Scenario 1 – justified worst case scenario  – Operating all 144 no. generators at 100 % load at 
+both the Proposal site and the existing data centre at 1 Sirius Road during a mains power failure, 
+with the LCTSR ventilation stack at 3 Sirius Road (refer Section 4.6.3) considered. 
+ This is an unlikely scenario which would result from catastrophic failure in the electricity 
+supply system.  However, given that the wider development includes up to 144 no.  
+generators, this AQIA has assessed the potential impact of those generators operating in a 
+concurrent manner.   
+ In reality, a component of the installed capacity of 144 no. generators is provided as design 
+redundancy, and a full load would be equivalent to typically 80 % of the installed capacity.  
+As such the AQIA is highly conservative in this assumption that all generators would be 
+operating with no redundancy factored in. 
+ Each generator has been modelled as operating for all 8 760 hours of the year.  Should such 
+a catastrophic failure in the electricity supply system occur, this is likely to be for a period of 
+10 to 15 minutes, and therefore the modelling presents a conservative assessment of the 
+potential impacts. 
+ Given that the likely up-time of the generators would be short-term in nature, only 
+assessment of impacts against short-term criteria has been performed, and no assessment 
+against annual average criteria is presented, as the results would be essentially meaningless.   
+ This AQIA provides context around how likely any exceedances of air quality criteria would 
+be, given the likelihood of such catastrophic failure.   
+[[page 38]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 38 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+ Scenario 2 - realistic operations (maintenance testing) – One (1 no.) generator operating at 
+100 % load for each operating hour, as representative of the generator testing regime to be 
+performed at the Proposal site, with consideration of the existing data centre at 1 Sirius Road and 
+LCTSR ventilation stack at 3 Sirius Road (refer Section 4.6.3). 
+ This is a scenario which would regularly occur, as detailed in Table 2 whereby 1 no. 2 MW 
+generator located on the northern gantry within the Proposal site has been modelled to be 
+tested at any one time, between the hours of 7:00 am and 6:00 pm for each hour.   
+ Given the high frequency of winds anticipated to occur from north western vectors (refer 
+Section 4.3 and Appendix C), the location of the modelled generator was chosen as 
+increased impacts would be expected at receptor locations south east of the Proposal site.  
+This provides a level of conservatism to the assessment. 
+ Comparison of impacts against >1-hour criteria are performed, providing another level of 
+conservatism, as the testing schedule is modelled as occurring for every one of the hours 
+between 7:00 am and 6:00 pm, on each and every day of the year.   
+ Testing under this scenario is expected to occur at most three times in the first year and 
+correspondingly, only 432 testing events (144 no. generators × 3 tests) would be required 
+each year, and the modelling has assumed 4 015 events (11 hours testing available per day 
+× 365 days).  Modelling is required to be performed in this manner to account for all potential 
+combinations of emissions and meteorology, whereas in reality, the emissions would be 
+conditional on realistic testing hours (refer Table 2) of 144 hours per year, which equates to 
+approximately 3.6 % of the assumed modelling hours.  
+ It is noted that stack parameters for the diesel-fuelled generators are not available at 80 % 
+load and correspondingly, generators under Scenario 2 have been modelled at 100 % load, 
+which is considered to be conservative. 
+5.2.3. Generator Emissions 
+A summary of the standby generator stack design components used to model each scenario is provided in 
+Table 9.  Details of the emissions testing data for the standby generators are provided in Appendix E.   
+Air pollutant emission concentrations for both MTU 16V4000G84F and MTU 16V2000G86F generators are 
+provided at the following reference gas conditions (see Appendix E). 
+ Standard temperature and pressure (STP), actual O 2 (although this value is not stated); and 
+ STP, 5 % O2. 
+NOX emissions are reported as 3 823 mg·Nm -3
+(STP, actual O2) and 5 115 mg·Nm -3
+(STP, 5 % O2) for the 
+MTU 16V4000G84F engine.  Similarly, NO X emissions are reported as 3 550 mg·Nm -3
+(STP, actual O2) and 
+4 328 mg·Nm-3
+(STP, 5 % O2) for the MTU 16V2000G86F engine:  
+[[page 39]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 39 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Using these two data points, the measured O 2 concentration of 9.0 % and 7.9 % can be calculated: 
+𝑂ଶ(௔௖௧௨௔௟) = 21 −ቀ
+ଷ଼ଶ଼×(ଶଵିହ)
+ହଵଵହ ቁ for MTU 16V4000G84F 
+𝑂ଶ(௔௖௧௨௔௟) = 21 −ቀ
+ଷହହ଴×(ଶଵିହ)
+ସଷଶ଼ ቁ for MTU 16V2000G86F 
+The estimated stack O 2 concentrations of 9.0 %(v/v) and 7.9 %(v/v) have been used to adjust pollutant 
+emissions concentrations from each engine from 5 % O 2 to actual O2 discharge conditions. 
+Table 9 Emergency standby generator emissions and stack parameters 
+Parameter Units 
+Scenario 1 
+(Justified worst case) 
+Scenario 2 
+(Realistic case) 
+Emergency  
+operations 
+Maintenance 
+testing 
+Hour start Hr 00:00 07:00 
+Hour end Hr 23:00 18:00 
+% load % 100 100 
+Emergency generator model 
+MTU 
+16V4000G84F 
+MTU 
+16V2000G86F 
+MTU  
+16V4000G84F 
+Number of generators active no. 141 3 1 
+Diesel consumption rate (per gen) L·hr-1 513.3 256.0 513.3 
+Stack height m AGL varied Varied varied 
+Stack diameter mm 450 450 450 
+Stack CSA m2 0.159 0.159 0.159 
+Normalised discharge rate Nm3·s-1 1.76 0.94 1.76 
+Exit temperature °C 490 545 490 
+Exit velocity m·s-1 41.5 21.7 41.5 
+Pollutant emission rates 
+CO emission(a) g·s-1 5.22E-01 1.23E-01 5.22E-01 
+SO2 emission(c) g·s-1 6.06E-07 3.02E-07 6.06E-07 
+NOx emission(a) g·s-1 9.03E+00 4.09E+00 9.03E+00 
+Benzene emission(b) g·s-1 1.30E-03 4.69E-04 1.30E-03 
+PAH emission(b) g·s-1 1.92E-08 6.96E-09 1.92E-08 
+PM emission (PM10 and PM2.5) (a)(d) g·s-1 3.57E-02 5.81E-03(g) 3.57E-02 
+Formaldehyde emission(b) g·s-1 1.32E-04 4.76E-05 1.32E-04 
+Notes:  (a):   Emission rates based on values contained in technical specifications (refer Appendix E). 
+(b):   Emission rates based on emission factors from Table 43 of (NPI, 2008).  
+(c):   Based on sulphur content of fuel. 
+(d): 100 % of PM is emitted as PM 2.5, and PM2.5 = PM10. 
+(e)  Both assessment scenarios assume that each and every back-up generator assessed within the scenario is operating 
+at 100 % load, consistent with the emission data within the technical specifications presented in Appendix E. 
+(f) A component of the installed capacity of 144 no. generators is provided as design redundancy, and a full load would 
+be equivalent to 80 % of the installed capacity.  As such the AQIA is highly conservative in this assumption. 
+(g) Emission rate calculated from g·kWh (refer Appendix E). 
+[[page 40]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 40 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+5.2.4. Speciated VOCs 
+The technical specification documents presented in Appendix E presents data for total VOCs, which includes 
+a range of speciated VOCs.  To appropriately factor the emissions for benzene, toluene and xylene, reference 
+has been made to the emission factors (EF) presented in Table 43 of (NPI, 2008) which relate to stationary 
+large (more than 450 kW) diesel engines and fuel consumption rates of between 513.3 L·hr -1 and 256.0 L·hr-1 
+respectively. 
+The emission factors for TVOC and the respective speciated VOCs have been factored to calculate the mass 
+fractions of those species within TVOC.  Table 10 presents the speciated VOC fraction assumptions that are 
+used for this assessment.  The impacts of odorants (toluene (C 7H8) and xylene(C 8H10)) have been similarly 
+assessed on a pro-rata basis as a fraction of TVOC as published in the NPI (NPI, 2008) multiplied by the 
+measured source-specific TVOC emission rate.  
+Table 10 Speciated VOC fractions  
+Substance 
+EF  
+kg·m-3 
+(fuel) 
+EF %  
+(of TVOC) 
+(NPI, 2008) 
+EF kg·hr-1 EF g·s-1 
+MTU 16V 
+4000G84F 
+MTU 16V 
+2000G86F 
+MTU 16V 
+4000G84F 
+MTU 16V 
+2000G86F 
+Total volatile organic 
+compounds (TVOC) 
+1.32E+00 100 % 6.78E-01 3.38E-01 1.34E-01 4.84E-02 
+Benzene (C6H6) 1.28E-02 0.97 % 6.57E-03 3.28E-03 1.30E-03 4.69E-04 
+Toluene (C7H8) 
+(odour) 
+4.62E-03 0.35 % 2.37E-03 1.18E-03 4.68E-04 1.69E-04 
+Xylene (C8H10) 
+(odour) 
+3.22E-03 0.24 % 1.65E-03 8.24E-04 3.26E-04 1.18E-04 
+ 
+5.2.5. Particle Size Fractions 
+In regard to particulates from diesel, virtually 100 % of diesel particles are less than 1 μm in diameter (i.e. PM1) 
+and consequently particulates from diesel combustion are assessed as PM 2.5.  In this AQIA, the emission rate 
+of PM 2.5 will be the same as PM 10, as all of the PM 10 particles are assessed as being ≤ 2.5 µm in diameter 
+(PM2.5). 
+ 
+[[page 41]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 41 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+5.2.6. NOx to NO2 Conversion 
+Emissions of NO X have been calculated, with subsequent ground-level concentrations predicted using 
+dispersion modelling techniques.  Given that NO X is a mixture of NO 2 and nitric oxide (NO), conversion of 
+NOX predictions to NO2 concentrations may be performed.   
+NOX from a combustion process will be emitted as NO and NO2.  Over time and after the point of discharge, 
+NO in ambient air will be transformed by secondary atmospheric reactions with atmospheric ozone (O 3) to 
+form NO2, and this reaction often occurs at a considerable distance downwind from the point of emission, 
+and by which time the plume will have dispersed and diluted significantly from the concentration at point of 
+discharge.   
+AQIAs need to account for the conversion of NO to NO 2 to enable a comparison against the air quality 
+criterion for NO 2.  The Approved Methods outlines various methods of assessment, which range from the 
+simple to the more detailed (NSW EPA, 2022).   
+The three methods outlined in the Approved Methods are briefly outlined below: 
+ Method 1 – 100 % conversion:  the most conservative assumption is to assume that 100 % of the 
+total NOX emitted is discharged as NO2, and that further reactions do not occur. 
+ Method 2 – Ozone limiting method (OLM):  this method uses contemporaneous ozone data to 
+estimate that rate at which NO is oxidised to NO 2 hour-on-hour using an established relationship. 
+ Method 3 – Janssen method: where the location is represented by good monitoring data for NO 
+and NO X, the empirical relationship between NO and NO 2 may be used to derive ‘steady state’ 
+relationships. 
+This AQIA has applied the Janssen method (Method 3) to approximate the conversion of NO X to NO 2, in 
+accordance with the methodology described in (NSW EPA, 2022):  
+𝑁𝑂ଶ  / 𝑁𝑂௫ = 𝐴(1 − exp(−𝛼𝑥)) 
+Where: 
+𝑥 = distance from the source  
+𝐴 and 𝛼 are classified according to O 3 concentration, wind speed and season, with (Janssen, Van Wakeren, 
+Van Duuren, & Elshout, 1988) providing values for 𝐴 and 𝛼.   
+At each receptor, the hourly varying 𝑁𝑂ଶ  / 𝑁𝑂௫ relationship has been calculated, based on the season, hourly 
+varying O3 concentration, and wind speed.   
+For the AQIA, the incremental and cumulative NO 2 concentrations have been derived using the Method 3, 
+Level 2 assessment, as per (NSW EPA, 2022). 
+[[page 42]]
+ 
+24.1025.FR1V4 APPROACH TO ASSESSMENT Page 42 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+5.2.7. Short Term Pollutant Concentrations 
+With reference to criteria air pollutants with sub-hourly criteria (CO, refer Section 3.3), hourly dispersion model 
+outputs have been adjusted using the following Power Law adjustment 2: 
+𝐶௣,௧ = 𝐶௣,଺଴ ൤60
+𝑡 ൨
+଴.ଶ
+ 
+Where: 
+Cp,t = concentration of pollutant ( p) at averaging time (mins) (t) 
+Cp,60 = concentration of pollutant ( p) at averaging time (60 mins) 
+t = time (mins) 
+  
+ 
+2   http://www.epa.vic.gov.au/~/media/Publications/1551.pdf  
+[[page 43]]
+ 
+24.1025.FR1V4 CONSTRUCTION AIR QUALITY RISK ASSESSMENT Page 43 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+6. CONSTRUCTION AIR QUALITY RISK ASSESSMENT 
+Northstar have adapted the methodology from the IAQM construction dust guidance (IAQM, 2024) to assess 
+construction phase risk.  This approach employed a six-step process to evaluate the risks associated with dust 
+impact from construction activities (refer Appendix B).  It considers receptor sensitivity and potential impact 
+magnitude to identify key control measures, as detailed in Section 5.1. 
+6.1. Risk (Pre-Mitigation) 
+Given the sensitivity of the identified receptors is classified as low for dust soiling, and medium for health 
+effects, and the dust emission magnitudes for the various construction phase activities as presented in 
+Appendix B, the resulting risk of air quality impacts (without mitigation) is as presented in Table 11.   
+Table 11 Risk of air quality impacts from construction activities  
+Sensitivity of 
+Area 
+Dust emission magnitude Preliminary risk 
+Demolition 
+Earthworks 
+Construction 
+Track-out 
+Const. Traffic 
+Demolition 
+Earthworks 
+Construction 
+Track-out 
+Const. Traffic 
+Dust soiling 
+Med. N/A Med. Large Large Large N/A Med. Med. Med. Med. 
+Human health 
+Low N/A Med. Large Large Large N/A Low Low Low Low 
+Note:  N/A = Not applicable, Med. = Medium 
+Table 11 summarises the risks, showing a medium risk of dust soiling impacts and a low risk of health impacts 
+for all construction-related activities in the absence of mitigation measures to control emissions.  Accordingly, 
+the risk assessment offers recommendations for construction phase mitigation aligned with the identified risks 
+outlined in Appendix B. 
+6.2. Risk (Post Mitigation) 
+The adapted methodology emphasises the aim of preventing significant effects on receptors during 
+construction activities through the implementation of effective mitigation measures.  Experience demonstrates 
+that achieving this goal is feasible.  Considering the size of the Proposal site, the distance to sensitive receptors, 
+and the nature of activities involved, residual impacts related to fugitive dust emissions from the Proposal are 
+expected to be 'negligible' if the mitigation measures outlined in Appendix B are implemented appropriately. 
+  
+[[page 44]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 44 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7. OPERATIONAL AIR QUALITY IMPACT ASSESSMENT 
+This section presents the results of the dispersion modelling assessment and uses the following terminology: 
+ Incremental impact – relates to the concentrations predicted as a result of the operation of the 
+Proposal. 
+ Cumulative impact  – relates to the incremental concentrations predicted as a result of the 
+operation of the Proposal PLUS: 
+ the existing data centre at 1 Sirius Road (SR). 
+ the Lane Cove Tunnel ventilation stack at 3 Sirius Road (LCTSR) (refer Section 4.6.3); and, 
+ the background (Bkg) air quality concentration (refer Section 4.4). 
+The results are presented in this manner to allow examination of the likely impact of the facility in isolation 
+and the contribution to air quality impacts in a broader sense.   
+In the presentation of results, the tables included shaded cells which represent the following: 
+Model prediction 
+Pollutant concentration / 
+deposition rate less than the 
+relevant criterion 
+Pollutant concentration / 
+deposition rate equal to, or greater 
+than the relevant criterion 
+7.1. Scenario 1 – Justified Worst-Case 
+The following presents the results of the modelling assessment under the assumptions of Scenario 1 (refer 
+Section 4.2.2), with up to 144 no. emergency standby generators operating at 100 % load and consideration 
+of the LCTSR ventilation stack (refer Section 4.6.3) and background pollutant concentrations (refer Section 
+4.4), where appropriate.   
+Results are presented in this section for short term criteria only (i.e. ≤ 24 hours).  The assessment against 
+annual average criteria is essentially meaningless, given that the generators would only be operational for a 
+small number of hours, during that emergency scenario.  Operation of those generators over an entire year 
+would not occur.   
+Assessment of potential impacts against annual average criteria is presented under Scenario 2 (realistic 
+operations).   
+ 
+[[page 45]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 45 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.1.1. Particulate Matter 
+Results are presented in this section for the predictions of particulate matter (PM 10 and PM2.5) associated with 
+Scenario 1.  The averaging periods associated with the criteria for these pollutants is 24-hour as specified in 
+Table 3.  The emissions adopted for Scenario 1 reflect the operational profile of the Proposal over that 
+averaging period (refer Section 5.2.2).   
+7.1.1.1. Maximum 24-Hour PM10 and PM2.5 Concentrations 
+Table 12 presents the maximum 24-hour average PM 10 and PM 2.5 concentrations predicted to occur at the 
+nearest receptors, as a result of the assumptions under Scenario 1.  No background concentrations are 
+included within this table.   
+Table 12 Predicted maximum incremental 24-hour PM 10 and PM2.5 concentrations – Scenario 1 
+Receptor 
+Maximum 24-hour average concentration (µg·m-3) 
+PM10  PM2.5 
+Incr. SR LCTSR Incr. SR LCTSR 
+Criterion 50 25 
+Max. % of criterion 107.3 809.4 48.3 214.6 1 618.8 29.2 
+R1 8.0 404.7 1.9 8.0 404.7 0.5 
+R2 7.1 118.6 24.2 7.1 118.6 7.3 
+R3 7.7 68.2 1.5 7.7 68.2 0.5 
+R4 53.7 39.2 2.8 53.7 39.2 1.2 
+R5 30.6 45.9 5.9 30.6 45.9 2.9 
+R6 37.9 37.3 1.3 37.9 37.3 0.6 
+R7 15.8 26.3 0.3 15.8 26.3 0.2 
+R8 3.9 36.5 0.4 3.9 36.5 0.1 
+R9 7.7 30.1 0.5 7.7 30.1 0.2 
+R10 8.4 13.0 <0.1 8.4 13.0 <0.1 
+R11 4.3 71.0 0.2 4.3 71.0 <0.1 
+R12 6.7 36.1 0.1 6.7 36.1 <0.1 
+R13 7.2 31.7 0.2 7.2 31.7 <0.1 
+R14 5.0 16.5 <0.1 5.0 16.5 <0.1 
+R15 9.4 35.2 <0.1 9.4 35.2 <0.1 
+R16 10.9 39.5 <0.1 10.9 39.5 <0.1 
+R17 5.2 25.9 <0.1 5.2 25.9 <0.1 
+R18 6.2 31.4 0.2 6.2 31.4 <0.1 
+Notes:  Incr. – Incremental, SR. – Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel Sirius Road ventilation stack. 
+All PM is assumed to be < 1 µg in diameter, and therefore assessed as PM2.5 for the Proposal (Incr) and existing data centre at 
+1 Sirius Road.  In this instance, emissions of PM2.5 will be the same as PM10 (PM2.5 is a subset of PM10) and therefore the results 
+will be consistent between PM10 and PM2.5 for these two emissions sources. 
+[[page 46]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 46 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 12 indicates that the highest 24-hour average PM 10 and PM 2.5 concentrations due to the Proposal are 
+predicted at receptor R4 (Apollo Place, Lane Cove West).  For the existing data centre, these concentrations 
+are predicted to be the highest at receptor R1 (Sirius Road, Lane Cove West).  Receptor R2 is primarily 
+influenced by the LCTSR ventilation stack on account of its proximity.  
+A contemporaneous analysis of the 24-hour PM 10 and PM2.5 data has been performed where each predicted 
+incremental concentration is added to the corresponding measured background concentration, in accordance 
+with Section 11.2.3(b) of the Approved Methods (NSW EPA, 2022). 
+Table 13 and Table 14 present the predicted maximum 24-hour average PM 10 and PM 2.5 concentrations 
+resulting from the operation of the Proposal through Scenario 1, with the corresponding background included 
+for each day.   
+Results are presented in Table 13 and Table 14 for those receptors at which the greatest impacts have been 
+predicted (see Table 12). 
+The left side of the tables show the predicted maximum cumulative impacts (typically the days with the highest 
+regional background), and the right side shows the total predicted concentration on days with the highest 
+predicted incremental concentrations respectively. 
+ 
+[[page 47]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 47 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 13 Summary of contemporaneous 24-hour PM 10 concentrations – Scenario 1 
+Date 
+24-hour average PM10 concentration (µg·m-3) 
+Receptor R1 Date 
+24-hour average PM10 concentration (µg·m-3) 
+Receptor R4 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+14/04/2021 < 0.1 404.7 < 0.1 10.7 415.4 14/10/2021 53.7 31.3 1.0 13.6 99.6 
+20/04/2021 < 0.1 321.8 < 0.1 17.0 338.8 5/02/2021 53.3 23.8 0.6 15.6 93.4 
+12/09/2021 1.1 325.0 < 0.1 12.8 338.9 25/01/2021 45.2 39.2 0.6 24.8 109.8 
+9/09/2021 0.1 276.0 < 0.1 7.3 283.4 13/01/2021 44.1 27.4 0.7 10.7 82.9 
+14/11/2021 0.2 222.7 < 0.1 5.2 228.1 3/09/2021 43.7 36.5 0.3 13.3 93.8 
+12/06/2021 < 0.1 218.6 < 0.1 6.8 225.4 29/09/2021 41.3 29.6 0.7 12.9 84.6 
+15/10/2021 0.2 195.5 < 0.1 8.3 204.0 2/09/2021 41.2 27.3 1.8 19.7 90.0 
+13/07/2021 < 0.1 193.0 < 0.1 8.0 201.0 12/01/2021 40.6 19.0 0.7 15.2 75.5 
+16/07/2021 < 0.1 165.7 < 0.1 5.7 171.4 3/11/2021 39.7 17.5 1.8 11.2 70.2 
+24/09/2021 0.1 152.9 < 0.1 8.6 161.6 18/11/2021 39.2 32.5 0.8 15.6 88.1 
+These data represent the highest Cumulative Impact 24-hour PM10 predictions 
+(outlined in red) as a result of the operation of the Proposal. 
+These data represent the highest Incremental Impact 24-hour PM10 predictions  
+(outlined in blue) as a result of the operation of the Proposal. 
+Notes: Incr. – Incremental, SR. – Existing data centre at 1 Sirius Road,  LCTSR. – Lane Cove Tunnel Sirius Road ventilation stack, Bkg. – Background, - Cumul. – Cumulative.  
+ 
+ 
+ 
+ 
+ 
+[[page 48]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 48 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 14 Summary of contemporaneous 24-hour PM 2.5 concentrations – Scenario 1 
+Date 
+24-hour average PM2.5 concentration (µg·m-3) 
+Receptor R1 Date 
+24-hour average PM2.5 concentration (µg·m-3) 
+Receptor R4 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+14/04/2021 < 0.1 404.7 < 0.1 4.2 408.9 14/10/2021 53.7 31.3 0.4 3.2 88.6 
+20/04/2021 < 0.1 321.8 < 0.1 10.1 331.9 5/02/2021 53.3 23.8 0.4 3.7 81.2 
+12/09/2021 1.1 325.0 < 0.1 4.8 330.9 25/01/2021 45.2 39.2 0.5 8.2 93.0 
+9/09/2021 0.1 276.0 < 0.1 4.0 280.1 13/01/2021 44.1 27.4 0.6 2.6 74.6 
+14/11/2021 0.2 222.7 < 0.1 1.8 224.7 3/09/2021 43.7 36.5 0.2 5.4 85.8 
+12/06/2021 < 0.1 218.6 < 0.1 4.2 222.8 29/09/2021 41.3 29.6 0.5 5.3 76.8 
+9/10/2021 < 0.1 1.0 < 0.1 213.1 214.1 2/09/2021 41.2 27.3 0.6 8.5 77.6 
+15/10/2021 0.2 195.5 < 0.1 4.1 199.8 12/01/2021 40.6 19.0 0.5 5.8 65.9 
+13/07/2021 < 0.1 193.0 < 0.1 5.6 198.6 3/11/2021 39.7 17.5 0.9 3.5 61.6 
+16/07/2021 < 0.1 165.7 < 0.1 2.7 168.4 18/11/2021 39.2 32.5 0.5 3.6 75.8 
+These data represent the highest Cumulative Impact 24-hour PM2.5 predictions 
+(outlined in red) as a result of the operation of the Proposal. 
+These data represent the highest Incremental Impact 24-hour PM2.5 predictions  
+(outlined in blue) as a result of the operation of the Proposal. 
+Notes: Incr. – Incremental, SR. – Existing data centre at 1 Sirius Road,  LCTSR. – Lane Cove Tunnel Sirius Road ventilation stack, Bkg. – Background, - Cumul. – Cumulative.  
+ 
+[[page 49]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 49 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+For PM10, the highest cumulative impact (left side of Table 13) is predicted at receptor R1, while the highest 
+incremental impact (right side of Table 13) is predicted at receptor R4 
+Table 13 highlights that the highest cumulative impacts are due to predominately elevated daily background 
+PM10 concentrations.  The NSW Air Quality Compliance Report for 2021 (NSW DPE, 2023) indicates two 
+exceptional events related to hazard reduction burns that influenced daily PM 10 averages measured at 
+Macquarie Park AQMS, with concentrations of 73.5 µg·m -3 on 21 August 2021, and 125.2 µg·m -3 on 
+9 October 2021, respectively, noting that the station’s PM 10 monitor was in alarm mode due to filter overload 
+for four hours on this day, and for most of 10 October 2021. 
+For PM2.5, the highest cumulative impact (the left-hand side of Table 14Table 14) is predicted at receptor R1, 
+while the highest incremental impact (the right-hand side of Table 14Table 14) is predicted at Receptor R4.  
+Table 14 indicates that exceedances associated with the highest cumulative impacts are again driven by 
+elevated background air quality concentrations measured during 2021.  The NSW Air Quality Compliance 
+Report for 2021 (NSW DPE, 2023) notes that the Macquarie Park AQMS measured a maximum daily PM 2.5 
+concentration of 213.1 µg·m -3 on 9 October 2021, with other exceedances recorded on 21 August 2021 
+(67.9 µg·m-3), 22 August 2021 (129.4 µg·m-3) and 10 October 2021 (93.6 µg·m-3) at this monitoring location due 
+to a series of exception events caused by hazard reduction burns being conducted across the State.  
+For Scenario 1, it is evident that the existing data centre site at 1 Sirius Road would give rise to higher predicted 
+incremental impacts compared to the Proposal due to the numerous standby generators on-site.  However, 
+in practice, the actual number of standby generators required during an emergency scenario would likely be 
+fewer due to either multiple generator banks activating or operation at a reduced level with built-in 
+redundancy measures.  Therefore, this assessment is considered conservative in approach. 
+A contour plot of the predicted incremental 24-hour PM10 concentrations associated with the Proposal under 
+Scenario 1 are presented in Figure 10 to allow examination of the distribution of particulate matter in the area 
+surrounding the Proposal. 
+The number of additional exceedances of the 24-hour PM 10 and PM2.5 criteria predicted at various receptors 
+resulting from emergency generator operation is presented in Section 7.1.4.  These values are discussed 
+further in Section 8.2.   
+  
+[[page 50]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 50 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 10 Predicted incremental 24-hour PM 10 impacts – Scenario 1 (Proposal only) 
+ 
+Source:   Northstar 
+  
+
+[[page 51]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 51 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.1.2. Nitrogen Dioxide 
+Results are presented in this section for the predictions of nitrogen dioxide (NO 2) under the assumptions of 
+Scenario 1 (refer Section 5.2.2).  The averaging period associated with the criterion for NO 2 is 1-hour as 
+specified in Table 3.  
+Emissions of NO X have been calculated with subsequent ground-level concentrations predicted using 
+dispersion modelling techniques.  Given that NO X is a mixture of NO 2 and nitric oxide (NO), conversion of 
+NOX predictions to NO2 concentrations is required.  Within this AQIA, the Janssen method has been adopted 
+as outlined in Section 5.2.6. 
+Table 15 shows the predicted maximum 1-hour NO X concentrations at the nearest receptors due to the 
+Proposal under Scenario 1, before conversion to NO 2.  The maximum incremental impacts are highlighted in 
+bold.  There is no impact assessment criterion for NO X. 
+Table 15 Predicted maximum incremental 1-hour NO X concentrations – Scenario 1 
+Receptor 
+Oxides of nitrogen (NOX) concentration (µg·m-3) 
+1-hour average 
+R1 12 523.0 
+R2 9 283.4 
+R3 11 554.0 
+R4 24 445.0 
+R5 15 163.0 
+R6 14 646.0 
+R7 8 396.8 
+R8 7 929.6 
+R9 7 988.8 
+R10 6 053.5 
+R11 5 044.6 
+R12 4 937.7 
+R13 4 282.9 
+R14 4 027.0 
+R15 4 978.1 
+R16 4 308.2 
+R17 5 677.6 
+R18 4 752.9 
+The predicted 1-hour average NO2 concentrations for Scenario 1 using the Janssen method are shown in Table 
+16.   
+[[page 52]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 52 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 16 Predicted 1-hour NO 2 concentrations – Scenario 1 
+Receptor 
+Nitrogen dioxide (NO2) concentration (µg·m-3) 
+1-hour average 
+Incr. SR LCTSR Bkg. Cumul. 
+Criterion 164 
+Max % of criterion 156.2 2 801.9 0.7 6.3 2 800.7 
+R1 < 0.1 4 595.1 < 0.1 < 0.1 4 593.1 
+R2 0.7 188.3 < 0.1 6.2 195.1 
+R3 29.7 323.3 < 0.1 4.1 357.1 
+R4 195.1 129.8 0.4 4.1 329.4 
+R5 112.5 231.2 1.2 6.2 351.1 
+R6 14.1 317.2 < 0.1 4.1 335.5 
+R7 39.2 552.7 0.1 4.1 596.1 
+R8 124.4 410.0 0.2 4.1 538.7 
+R9 80.1 409.5 < 0.1 4.1 493.8 
+R10 236.6 471.8 0.1 2.1 710.5 
+R11 40.7 1 580.0 < 0.1 < 0.1 1 620.8 
+R12 102.0 663.4 < 0.1 2.1 767.5 
+R13 83.8 469.6 < 0.1 4.1 557.7 
+R14 95.3 803.6 0.1 < 0.1 899.0 
+R15 193.9 1 018.0 < 0.1 < 0.1 1 211.9 
+R16 214.1 774.2 < 0.1 10.3 998.7 
+R17 256.2 576.2 < 0.1 2.1 834.5 
+R18 132.4 590.3 < 0.1 6.2 728.9 
+Notes: Incr. – Incremental, SR.  – Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel Sirius Road ventilation stack,  
+Bkg. – Background, Cumul.  – Cumulative. 
+Negative NO2 concentration values are not uncommon and does not indicate bad data.  NO2 concentrations are derived from 
+measured NOX minus measured NO, and if those measurement vary, rapidly negative NO2 concentrations may be determined. 
+The results indicate that predicted incremental concentrations of NO2 under Scenario 1 are significantly above 
+the criteria at all surrounding receptor locations. 
+The number of additional exceedances of the 1-hour NO 2 criterion predicted at each receptor resulting from 
+emergency generator operation is presented in Section 7.1.4.  These values are discussed further in 
+Section 8.2. 
+ 
+ 
+ 
+[[page 53]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 53 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.1.3. All Other Pollutants 
+The following presents the predicted ground level concentrations associated with Scenario 1 for all other 
+pollutants assessed in this AQIA (refer Section 5.2.2). 
+Presented in Table 17 to Table 19 are the predicted concentrations of CO, SO 2, PAHs, VOCs and CH 2O at 
+varying averaging periods (≤ 24 hours) at the surrounding receptors. 
+The predicted cumulative concentrations for CO are below the relevant criteria for all averaging periods at all 
+receptors with the exception of receptor R1 (refer Table 17), which is predominantly influenced from the 
+predicted incremental impacts of the existing data centre. 
+The results presented in Table 17 indicate that predicted incremental impacts of SO 2 at all receptors are less 
+than 0.1 % of the relevant criteria for all averaging periods.  The addition of background concentrations does 
+not result in any exceedances at any receptor. 
+Results presented in Table 19 show no exceedances of the 1-hour criteria for benzene are predicted at any 
+identified receptors in consideration of the Proposal only.  The maximum predicted impact for benzene is 
+experienced at receptor R4 (12.1 % of the relevant criterion). 
+[[page 54]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 54 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 17 Predicted 15-minutes, 1-hour, and 8-hour average CO concentrations – Scenario 1 
+Receptor 
+Carbon monoxide (CO) concentration (mg·m-3) 
+15-minute 1-hour 8-hour 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+Criterion 100 30 10 
+Max. % of criterion 1.9 86.2 0.0 16.5 103.6 4.7 217.7 0.0 41.7 261.8 < 1.0 < 1.0 < 1.0 64.0 241.9 
+R1 1.0 86.2 0.0 16.5 103.6 0.7 65.3 0.0 12.5 78.5 0.2 17.6 0.0 6.4 24.2 
+R2 0.7 3.5 0.0 16.5 20.7 0.5 2.7 0.0 12.5 15.7 0.3 2.4 0.0 6.4 9.1 
+R3 0.9 2.3 0.0 16.5 19.7 0.7 1.7 0.0 12.5 14.9 0.2 1.5 0.0 6.4 8.1 
+R4 1.9 2.1 0.0 16.5 20.5 1.4 1.6 0.0 12.5 15.5 1.1 0.9 0.0 6.4 8.4 
+R5 1.2 1.8 0.0 16.5 19.4 0.9 1.4 0.0 12.5 14.7 0.7 0.9 0.0 6.4 8.0 
+R6 1.1 2.1 0.0 16.5 19.7 0.8 1.6 0.0 12.5 14.9 0.6 0.8 0.0 6.4 7.8 
+R7 0.6 1.5 0.0 16.5 18.6 0.5 1.1 0.0 12.5 14.1 0.3 0.7 0.0 6.4 7.4 
+R8 0.6 2.0 0.0 16.5 19.1 0.5 1.5 0.0 12.5 14.5 0.1 0.7 0.0 6.4 7.2 
+R9 0.6 2.3 0.0 16.5 19.4 0.5 1.8 0.0 12.5 14.7 0.2 0.8 0.0 6.4 7.4 
+R10 0.5 1.1 0.0 16.5 18.1 0.4 0.9 0.0 12.5 13.7 0.2 0.4 0.0 6.4 7.0 
+R11 0.4 7.3 0.0 16.5 24.2 0.3 5.6 0.0 12.5 18.4 0.1 1.4 0.0 6.4 8.0 
+R12 0.4 1.3 0.0 16.5 18.2 0.3 1.0 0.0 12.5 13.8 0.1 0.9 0.0 6.4 7.4 
+R13 0.3 1.8 0.0 16.5 18.7 0.2 1.4 0.0 12.5 14.1 0.2 0.7 0.0 6.4 7.3 
+R14 0.3 0.9 0.0 16.5 17.7 0.2 0.7 0.0 12.5 13.4 0.1 0.5 0.0 6.4 7.1 
+R15 0.4 1.0 0.0 16.5 17.9 0.3 0.8 0.0 12.5 13.6 0.2 0.7 0.0 6.4 7.2 
+R16 0.3 1.1 0.0 16.5 18.0 0.2 0.9 0.0 12.5 13.6 0.2 0.8 0.0 6.4 7.4 
+R17 0.4 1.4 0.0 16.5 18.3 0.3 1.0 0.0 12.5 13.9 0.2 0.8 0.0 6.4 7.3 
+R18 0.4 1.4 0.0 16.5 18.3 0.3 1.1 0.0 12.5 13.8 0.2 0.8 0.0 6.4 7.3 
+Notes: Incr. – Incremental, SR.  – Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel Sirius Road ventilation stack, Bkg. – Background, - Cumul.  – Cumulative. 
+  
+[[page 55]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 55 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 18 Predicted 1-hour and 24-hour SO 2 concentrations – Scenario 1 
+Receptor 
+Sulphur dioxide (SO2) concentration (µg∙m-3) 
+1-hour 24-hour 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+Criterion 286 57 
+Max. % of criterion 0.0 0.0 0.0 34.0 34.1 0.0 0.0 0.0 30.2 30.5 
+R1 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R2 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R3 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R4 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R5 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R6 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R7 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R8 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R9 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R10 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R11 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R12 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R13 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R14 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R15 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R16 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R17 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+R18 < 0.1 < 0.1 0.0 97.2 97.4 < 0.1 < 0.1 0.0 17.2 17.4 
+Notes: Incr. – Incremental, SR.  – Existing data centre at 1 Sirius Road,  LCTSR.  –Lane Cove Tunnel Sirius Road ventilation stack, Bkg. – Background, - Cumul.  – Cumulative. 
+ 
+[[page 56]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 56 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 19 Predicted maximum incremental 1-hour PAH, benzene, and formaldehyde 
+concentrations – Scenario 1 (Proposal only) 
+Receptor 
+Maximum 1-hour average concentration (mg·m-3) 
+PAH Benzene 
+Toluene 
+(odour) 
+Xylene  
+(odour) 
+Formaldehyde 
+Criterion 0.0004 0.029 0.36 0.19 0.02 
+Max. % of criterion < 0.1 12.1 0.4 0.5 1.8 
+R1 2.67E-08 1.80E-03 6.47E-04 4.49E-04 1.83E-04 
+R2 1.98E-08 1.33E-03 4.80E-04 3.33E-04 1.35E-04 
+R3 2.46E-08 1.66E-03 5.97E-04 4.15E-04 1.68E-04 
+R4 5.21E-08 3.51E-03 1.26E-03 8.77E-04 3.56E-04 
+R5 3.23E-08 2.18E-03 7.84E-04 5.44E-04 2.21E-04 
+R6 3.12E-08 2.10E-03 7.57E-04 5.26E-04 2.14E-04 
+R7 1.79E-08 1.21E-03 4.34E-04 3.01E-04 1.22E-04 
+R8 1.69E-08 1.14E-03 4.10E-04 2.85E-04 1.16E-04 
+R9 1.70E-08 1.15E-03 4.13E-04 2.87E-04 1.16E-04 
+R10 1.29E-08 8.69E-04 3.13E-04 2.17E-04 8.83E-05 
+R11 1.08E-08 7.24E-04 2.61E-04 1.81E-04 7.36E-05 
+R12 1.05E-08 7.09E-04 2.55E-04 1.77E-04 7.20E-05 
+R13 9.13E-09 6.15E-04 2.21E-04 1.54E-04 6.24E-05 
+R14 8.58E-09 5.78E-04 2.08E-04 1.45E-04 5.87E-05 
+R15 1.06E-08 7.15E-04 2.57E-04 1.79E-04 7.26E-05 
+R16 9.18E-09 6.19E-04 2.23E-04 1.55E-04 6.28E-05 
+R17 1.21E-08 8.15E-04 2.93E-04 2.04E-04 8.28E-05 
+R18 1.01E-08 6.82E-04 2.46E-04 1.71E-04 6.93E-05 
+ 
+7.1.4. Assessment of Criteria Exceedances 
+Presented in Table 20 is a summary of the number of additional exceedances of the short-term PM 10, PM2.5 
+and NO2 criteria, and those values presented as a probability (p=0 being impossible, p=1 being certain).  These 
+values are discussed further in Section 8.2. 
+  
+[[page 57]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 57 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 20 Assessment of the number of additional exceedances – Scenario 1 
+Receptor 
+Number of additional exceedances  
+of the criterion 
+Probability (p) that an exceedance 
+is predicted in one year 
+24-hour 
+PM10 
+24-hour 
+PM2.5 
+1-hour 
+NO2 
+24-hour 
+PM10 
+24-hour 
+PM2.5 
+1-hour  
+NO2 
+R1 22 53 39 0.0603 0.1452 0.0045 
+R2 33 75 1 0.0904 0.2055 0.0001 
+R3 18 66 187 0.0493 0.1808 0.0213 
+R4 52 75 46 0.1425 0.2055 0.0053 
+R5 21 60 33 0.0575 0.1644 0.0038 
+R6 36 75 60 0.0986 0.2055 0.0068 
+R7 2 53 491 0.0055 0.1452 0.0561 
+R8 0 36 478 0.0000 0.0986 0.0546 
+R9 0 41 341 0.0000 0.1123 0.0389 
+R10 0 3 390 0.0000 0.0082 0.0445 
+R11 36 75 860 0.0986 0.2055 0.0982 
+R12 3 22 566 0.0082 0.0603 0.0646 
+R13 0 13 461 0.0000 0.0356 0.0526 
+R14 0 2 435 0.0000 0.0055 0.0497 
+R15 1 2 301 0.0027 0.0055 0.0344 
+R16 2 6 389 0.0055 0.0164 0.0444 
+R17 0 5 359 0.0000 0.0137 0.0410 
+R18 0 9 594 0.0000 0.0247 0.0678 
+  
+[[page 58]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 58 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.2. Scenario 2 – Realistic Operations 
+Presented below are the results of the modelling assessment under the assumptions of Scenario 2 (refer 
+Section 5.2.2) with one generator operating at a conservative load of 100 % for each specified testing hour. 
+7.2.1. Particulate Matter 
+7.2.1.1. Annual Average TSP, PM10 and PM2.5 Concentrations 
+The predicted annual average particulate matter concentrations (as TSP, PM 10 and PM 2.5) resulting from 
+Scenario 2 operations are presented in Table 21.  Predicted incremental concentrations of TSP and PM10 at all 
+receptor locations are low (less than 0.4 % of the annual average TSP criterion and less than 1.4 % of the 
+annual average PM10 criterion). 
+Annual average PM 2.5 concentrations are shown to be within 99.4 % of the criterion at receptor R2, which is 
+influenced by the predicted incremental impacts of the LCTSR ventilation stack.  
+The Proposal operation under the testing regime is predicted to not result in any exceedances of the relevant 
+criteria. 
+ 
+[[page 59]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 59 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 21 Predicted annual average TSP, PM 10 and PM2.5 concentrations – Scenario 2 
+Receptor 
+Annual average concentration (μg∙m-3) 
+TSP PM10 PM2.5 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+Criterion 90 25 8 
+Max. % of criterion 0.4 0.0 1.1 30.1 31.2 1.4 0.0 3.8 52.8 56.8 4.5 0.0 7.6 91.3 99.4 
+R1 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R2 < 0.1 < 0.1 0.9 27.1 28.1 < 0.1 < 0.1 1.0 13.2 14.2 < 0.1 < 0.1 0.6 7.3 8.0* 
+R3 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R4 0.4 < 0.1 0.1 27.1 27.7 0.4 < 0.1 0.1 13.2 13.8 0.4 < 0.1 < 0.1 7.3 7.8 
+R5 < 0.1 < 0.1 0.2 27.1 27.3 < 0.1 < 0.1 0.2 13.2 13.4 < 0.1 < 0.1 0.1 7.3 7.5 
+R6 0.2 < 0.1 < 0.1 27.1 27.4 0.2 < 0.1 < 0.1 13.2 13.5 0.2 < 0.1 < 0.1 7.3 7.6 
+R7 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R8 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R9 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R10 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R11 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R12 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R13 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R14 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R15 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R16 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R17 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+R18 < 0.1 < 0.1 < 0.1 27.1 27.2 < 0.1 < 0.1 < 0.1 13.2 13.3 < 0.1 < 0.1 < 0.1 7.3 7.4 
+Notes: Incr. – Incremental, SR.  – Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel Sirius Road ventilation stack, Bkg. – Background, - Cumul.  – Cumulative.  
+ * actual cumulative impact is 7.95 µg·m -3 and rounded for clarity.   
+ 
+[[page 60]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 60 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.2.1.2. Maximum 24-Hour PM10 and PM2.5 Concentrations 
+Table 22 presents the maximum 24-hour average PM 10 and PM 2.5 concentrations predicted to occur at the 
+nearest receptors, as a result of the Proposal operations under Scenario 2.  No background concentrations 
+are included within this table.  
+Table 22 Predicted maximum incremental 24-hour PM 10 and PM2.5 concentrations – Scenario 2 
+Receptor 
+Maximum 24-hour average concentration (µg·m-3) 
+PM10 PM2.5 
+Incr. SR LCTSR Incr. SR LCTSR 
+Criterion 50 25 
+Max. % of criterion 5.7 0.0 48.3 11.5 0.0 29.2 
+R1 0.6 < 0.1 1.9 0.6 < 0.1 0.5 
+R2 0.7 < 0.1 24.2 0.7 < 0.1 7.3 
+R3 0.5 < 0.1 1.5 0.5 < 0.1 0.5 
+R4 2.9 < 0.1 2.8 2.9 < 0.1 1.2 
+R5 0.8 < 0.1 5.9 0.8 < 0.1 2.9 
+R6 1.4 < 0.1 1.3 1.4 < 0.1 0.6 
+R7 0.4 < 0.1 0.3 0.4 < 0.1 0.2 
+R8 0.1 < 0.1 0.4 0.1 < 0.1 0.1 
+R9 0.2 < 0.1 0.5 0.2 < 0.1 0.2 
+R10 0.1 < 0.1 < 0.1 0.1 < 0.1 < 0.1 
+R11 0.1 < 0.1 0.2 0.1 < 0.1 < 0.1 
+R12 0.2 < 0.1 0.1 0.2 < 0.1 < 0.1 
+R13 0.2 < 0.1 0.2 0.2 < 0.1 < 0.1 
+R14 0.1 < 0.1 < 0.1 0.1 < 0.1 < 0.1 
+R15 0.1 < 0.1 < 0.1 0.1 < 0.1 < 0.1 
+R16 0.1 < 0.1 < 0.1 0.1 < 0.1 < 0.1 
+R17 0.1 < 0.1 < 0.1 0.1 < 0.1 < 0.1 
+R18 0.1 < 0.1 0.2 0.1 < 0.1 < 0.1 
+Note: Incr. – Incremental, SR.  –Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel Sirius Road ventilation stack. 
+All PM is assumed to be < 1 µg in diameter, and therefore assessed as PM 2.5 for the Proposal and existing data centre at 1 
+Sirius Road.  In this instance, emissions of PM 2.5 will be the same as PM 10 (PM2.5 is a subset of PM 10) and therefore the results 
+will be consistent between PM10 and PM2.5 for these two emissions sources. 
+The predicted incremental concentrations of PM 10 and PM 2.5 are demonstrated to be minor at all receptor 
+locations with the Proposal in operation.  
+An assessment of the 24-hour PM 10 and PM2.5 concentrations with background included is not presented, as 
+the concentrations are predominately driven by background.  The addition of the predicted increments 
+presented in Table 22 for the Proposal do not result in any additional exceedances of the criteria.   
+[[page 61]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 61 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+A contour plot of the predicted incremental 24-hour PM10 concentrations associated with the Proposal under 
+Scenario 2 are presented in Figure 11 to allow examination of the distribution of particulate matter in the area 
+surrounding the Proposal site.   
+  
+[[page 62]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 62 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 11 Predicted incremental 24-hour PM 10 impacts – Scenario 2 (Proposal only) 
+ 
+Source: Northstar 
+  
+
+[[page 63]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 63 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.2.2. Nitrogen Dioxide 
+Results are presented in this section for the predictions of nitrogen dioxide (NO 2) under Scenario 2.  The 
+averaging periods associated with the criteria for these pollutants is 1-hour and an annual average, as specified 
+in Table 3.  
+Table 24 shows the predicted maximum 1-hour NO x concentrations at the nearest receptors due to the 
+Proposal under Scenario 2, before conversion to NO 2.  The maximum incremental impacts are highlighted in 
+bold.  There is no impact assessment criterion for NO X. 
+Table 23 Predicted maximum incremental 1-hour NO X concentrations – Scenario 2 
+Receptor 
+Oxides of nitrogen (NOX) concentration (µg·m-3) 
+1-hour average 
+R1 536.6 
+R2 926.5 
+R3 524.7 
+R4 2 198.4 
+R5 716.8 
+R6 984.9 
+R7 485.9 
+R8 293.0 
+R9 291.8 
+R10 187.8 
+R11 211.0 
+R12 176.1 
+R13 162.5 
+R14 209.3 
+R15 209.6 
+R16 114.2 
+R17 233.1 
+R18 164.2 
+The predicted 1-hour and annual average NO 2 concentrations for Scenario 2 using the Janssen method are 
+shown in Table 24.   
+The results indicate that predicted incremental and cumulative hourly NO 2 concentrations are below the 
+criteria at all surrounding receptor locations with the highest incremental impacts associated with the Proposal 
+predicted at receptor R4 (Apollo Place, Lane Cove West).   
+The performance of the Proposal under Scenario 2 does not result in any exceedances of the criteria for NO2. 
+A contour plot of the predicted 1-hour incremental NO2 impacts from the Proposal site only under Scenario 2 
+is presented in Figure 12. 
+[[page 64]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 64 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 24 Predicted 1-hour and annual average NO 2 concentrations – Scenario 2 
+Receptor 
+Nitrogen dioxide (NO2) concentration (µg·m-3) 
+1-hour average Annual average 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+Criterion 164 31 
+Max. % of criterion 17.9 0.0 0.7 10.0 20.7 1.8 0.0 0.0 23.2 25.1 
+R1 2.3 < 0.1 0.4 8.2 10.9 < 0.1 < 0.1 < 0.1 7.2 7.2 
+R2 4.1 < 0.1 < 0.1 2.1 6.1 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R3 3.6 < 0.1 < 0.1 4.1 7.8 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R4 29.4 < 0.1 0.4 4.1 33.9 0.6 < 0.1 < 0.1 7.2 7.8 
+R5 10.2 < 0.1 1.2 6.2 17.6 0.1 < 0.1 < 0.1 7.2 7.3 
+R6 17.3 < 0.1 0.2 4.1 21.6 0.4 < 0.1 < 0.1 7.2 7.6 
+R7 9.3 < 0.1 0.2 < 0.1 9.6 0.2 < 0.1 < 0.1 7.2 7.5 
+R8 4.6 < 0.1 0.2 4.1 8.9 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R9 3.9 < 0.1 0.1 4.1 8.2 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R10 8.0 < 0.1 < 0.1 < 0.1 8.0 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R11 4.0 < 0.1 0.4 16.4 20.9 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R12 4.9 < 0.1 0.1 2.1 7.1 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R13 3.5 < 0.1 < 0.1 2.1 5.6 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R14 8.1 < 0.1 < 0.1 12.3 20.4 0.1 < 0.1 < 0.1 7.2 7.3 
+R15 11.1 < 0.1 < 0.1 2.1 13.1 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R16 6.9 < 0.1 < 0.1 < 0.1 7.0 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R17 9.7 < 0.1 < 0.1 8.2 17.9 < 0.1 < 0.1 < 0.1 7.2 7.3 
+R18 5.2 < 0.1 0.3 2.1 7.6 < 0.1 < 0.1 < 0.1 7.2 7.3 
+Notes: Incr. – Incremental, SR. – Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel ventilation stack, Bkg. – Background, - Cumul. – Cumulative.
+[[page 65]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 65 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 12 Predicted incremental 1-hour NO 2 impacts – Scenario 2 (Proposal only) 
+ 
+Source: Northstar 
+
+[[page 66]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 66 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+7.2.3. All Other Pollutants 
+The following presents the predicted ground level concentrations associated with Scenario 2 for all other 
+pollutants assessed in this assessment (refer Section 5.2.2). 
+Presented in Table 25 to Table 27 are the predicted concentrations of CO, SO 2, PAHs, VOCs, and CH 2O at 
+varying averaging periods at the surrounding receptors. 
+The predicted incremental concentrations for all of the abovementioned pollutants are below the relevant 
+criteria for all averaging periods at all receptors.   
+Due to the minor predicted incremental impacts of the other pollutants considered in this section, no contour 
+plots have been presented. 
+ 
+[[page 67]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 67 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 25 Predicted 15-minute, 1-hour, and 8-hour average CO concentrations – Scenario 2 
+Receptor 
+Carbon monoxide (CO) concentration (mg·m-3) 
+15-minute 1-hour 8-hour 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+Criterion 100 30 10 
+Max. % of criterion 0.2 0 0 16.5 16.8 0.4 0.0 0.0 41.7 42.3 1.0 0.0 0.0 64.0 66.0 
+R1 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R2 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R3 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R4 0.2 < 0.1 0 16.5 16.8 0.1 < 0.1 0 12.5 12.7 0.1 < 0.1 0 6.4 6.6 
+R5 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R6 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R7 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R8 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R9 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R10 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R11 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R12 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R13 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R14 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R15 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R16 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R17 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+R18 < 0.1 < 0.1 0 16.5 16.7 < 0.1 < 0.1 0 12.5 12.6 < 0.1 < 0.1 0 6.4 6.5 
+Notes: Incr. – Incremental, SR. – Existing data centre at 1 Sirius Road,  LCTSR. – Lane Cove Tunnel Sirius Road ventilation stack, Bkg. – Background, - Cumul. – Cumulative. 
+ 
+ 
+ 
+[[page 68]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 68 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 26 Predicted 1-hour and 24-hour SO 2 concentrations – Scenario 2 
+Receptor 
+Sulphur dioxide (SO2) concentration (µg∙m-3) 
+1-hour 24-hour 
+Incr. SR LCTSR Bkg. Cumul. Incr. SR LCTSR Bkg. Cumul. 
+Criterion 286 57 
+Max. % of criterion 0.0 0.0 0.0 34.0 34.1 0.0 0.0 0.0 30.2 30.5 
+R1 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R2 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R3 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R4 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R5 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R6 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R7 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R8 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R9 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R10 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R11 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R12 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R13 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R14 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R15 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R16 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R17 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+R18 < 0.1 < 0.1 0 97.2 97.4 < 0.1 < 0.1 0 17.2 17.4 
+Notes: Incr. – Incremental, SR. – Existing data centre at 1 Sirius Road,  LCTSR.  – Lane Cove Tunnel ventilation stack, Bkg. – Background, - Cumul. – Cumulative.  
+ 
+[[page 69]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 69 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 27 Predicted maximum incremental 1-hour PAH, benzene, and formaldehyde 
+concentrations – Scenario 2 (Proposal only) 
+Receptor 
+Maximum 1-hour average concentration (mg·m-3) 
+PAH Benzene 
+Toluene  
+(odour) 
+Xylene  
+(odour) 
+Formaldehyde 
+Criterion 0.0004 0.029 0.36 0.19 0.02 
+Max. % of criterion 0.0 1.1 0.0 0.0 0.2 
+R1 1.14E-09 7.70E-05 2.77E-05 1.93E-05 7.82E-06 
+R2 1.97E-09 1.33E-04 4.79E-05 3.33E-05 1.35E-05 
+R3 1.12E-09 7.53E-05 2.71E-05 1.88E-05 7.65E-06 
+R4 4.68E-09 3.16E-04 1.14E-04 7.89E-05 3.21E-05 
+R5 1.53E-09 1.03E-04 3.70E-05 2.57E-05 1.05E-05 
+R6 2.10E-09 1.41E-04 5.09E-05 3.53E-05 1.44E-05 
+R7 1.04E-09 6.98E-05 2.51E-05 1.74E-05 7.09E-06 
+R8 6.24E-10 4.21E-05 1.51E-05 1.05E-05 4.27E-06 
+R9 6.22E-10 4.19E-05 1.51E-05 1.05E-05 4.25E-06 
+R10 4.00E-10 2.70E-05 9.70E-06 6.74E-06 2.74E-06 
+R11 4.50E-10 3.03E-05 1.09E-05 7.57E-06 3.08E-06 
+R12 3.75E-10 2.53E-05 9.10E-06 6.32E-06 2.57E-06 
+R13 3.46E-10 2.33E-05 8.40E-06 5.83E-06 2.37E-06 
+R14 4.46E-10 3.00E-05 1.08E-05 7.51E-06 3.05E-06 
+R15 4.47E-10 3.01E-05 1.08E-05 7.52E-06 3.06E-06 
+R16 2.43E-10 1.64E-05 5.90E-06 4.10E-06 1.67E-06 
+R17 4.97E-10 3.35E-05 1.20E-05 8.37E-06 3.40E-06 
+R18 3.50E-10 2.36E-05 8.49E-06 5.89E-06 2.39E-06 
+ 
+7.3. Impact of Proposal on Lane Cove Tunnel Sirius Road Ventilation 
+Stack 
+As outlined in Section 4.6.3.2, an assessment of the potential impact of the Proposal on dispersion of 
+pollutants from the LCTSR ventilation stack has been performed.  Emissions from the LCTSR ventilation stack 
+have been assessed for two scenarios, one with all Proposal buildings at the LCLEP height limit of 18 m, and 
+one with the building at the maximum proposed height of 33.6 m (refer Figure 4 to Figure 6).   
+Results associated with maximum 1-hour NOX impacts are presented in Table 28.   
+ 
+  
+[[page 70]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 70 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 28 Predicted maximum 1-hour NO X impacts at receptors, by Proposal height 
+Receptor 
+Maximum 1-hour NOX concentration (µg·m-3) 
+Variance (%) 
+LCLEP limit (18 m) Max height (33.6 m) 
+R1 280.7 188.0 -33.0 
+R2 1 821.0 1 821.0 0.0 
+R3 119.5 90.5 -24.3 
+R4 88.7 170.0 91.6 
+R5 261.8 414.5 58.3 
+R6 84.6 96.4 14.0 
+R7 23.9 23.8 -0.4 
+R8 32.2 27.5 -14.7 
+R9 34.1 29.3 -14.1 
+R10 6.3 6.4 1.8 
+R11 39.3 35.0 -11.1 
+R12 22.7 20.6 -9.4 
+R13 14.2 14.2 0.0 
+R14 4.0 3.9 -2.8 
+R15 5.7 5.8 0.6 
+R16 4.8 4.8 0.5 
+R17 9.4 9.7 2.5 
+R18 11.3 11.3 0.0 
+ 
+As shown in Table 28, the height of the proposed site is predicted to influence the ground level concentrations 
+of maximum 1-hour NOX at most surrounding receptors 
+At three considered receptor locations (R2, R13 and R18), emissions from the LCTSR ventilation stack are 
+predicted to remain unchanged.  These receptor locations are located to the north of the Proposal site (refer 
+Figure 7).  Seven of the 18 considered receptors are predicted to experience a change of up to 10 % of 
+maximum 1-hour NOx concentrations.     
+Overall, seven are predicted to experience an increase of maximum 1-hour NO x concentrations with the 
+proposed building at its maximum height, while eight receptors are predicted to experience a reduction in 
+NOx impacts due to the increased building height and associated building wake effects.  
+Receptors immediately south of the Proposal site are predicted to see an increase in pollutant concentrations 
+associated with the LCTSR, with the maximum increases found at receptors R4 and R5.  Conversely, reductions 
+of 1-hour maximum NOx concentrations are predicted at receptors R1, R3, R8 and R9 which are located to the 
+north-east of the Proposal site.    
+The predicted maximum 1-hour NO 2 impacts have been subsequently calculated in conjunction with the 
+Janssen method for NO x to NO2 conversion (refer Section 5.2.6).  The corresponding maximum 1-hour NO 2 
+impacts at receptors by the Proposal building height are presented in Table 29.  
+[[page 71]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 71 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table 29  Predicted maximum 1-hour NO 2 impacts at receptors, by Proposal height 
+Receptor 
+Maximum 1-hour NO2 concentration (µg·m-3) Change in 1-hour NO2 
+concentration (µg·m-3) 
+Change relative to 
+criterion (%) LCLEP limit (18 m) Max height (33.6 m) 
+R1 0.83 0.68 -0.16 -0.09 
+R2 2.94 2.94 0.00 0.00 
+R3 0.72 0.54 -0.17 -0.11 
+R4 0.76 2.06 1.30 0.79 
+R5 2.07 2.07 0.00 0.00 
+R6 1.00 1.70 0.69 0.42 
+R7 0.54 0.76 0.22 0.14 
+R8 0.48 0.41 -0.07 -0.04 
+R9 0.43 0.37 -0.06 -0.04 
+R10 0.26 0.28 0.01 0.01 
+R11 0.55 0.49 -0.06 -0.04 
+R12 0.53 0.48 -0.05 -0.03 
+R13 0.29 0.29 0.00 0.00 
+R14 0.32 0.31 0.00 0.00 
+R15 0.50 0.50 0.00 0.00 
+R16 0.39 0.40 0.01 0.00 
+R17 0.36 0.37 0.01 0.01 
+R18 0.35 0.35 0.00 0.00 
+ 
+Table 29 shows predicted increases in 1-hour NO 2 concentrations at receptors R4, R6 and R7 to the south-
+west of the LCTSR, while decreases are predicted at receptors R1, R3, R8 and R9 to the north east.   
+The maximum 1-hour NO2 concentration of 2.94 µg·m-3 is at predicted at receptor R2, whereby no change in 
+concentration is anticipated with the Proposal building set at the maximum height of 33.6 m.   
+The highest change in 1-hour NO 2 concentrations is at receptor R4 whereby a maximum 1-hour NO 2 
+concentration of 0.76 µg·m -3 is predicted with the Proposal site building set at the LCLEP limit of 18 m and 
+2.06 µg·m-3 with the proposed maximum building height of 33.6 m.  This equates to an increase of 1.3 µg·m -
+3 or 0.8 % relative to the respective impact assessment criterion of 164 µg·m -3. 
+Based on the dispersion modelling and detailed NO x to NO 2 conversion using the Janssen method (refer 
+Section 5.2.6), it is shown that although dispersion from the LCTSR ventilation stack may change with the  
+proposed height compared to the LCLEP height limits, the Proposal can operate at the maximum building 
+height of 33.6 m under routine testing, without giving rise to any significant change in NO2 impacts at nearby 
+receptor locations when compared to the relevant criterion.  Emissions under normal operating conditions 
+are unlikely to exceed the 1-hour NO 2 impact assessment criterion with a maximum predicted change of less 
+than 1 %.   
+[[page 72]]
+ 
+24.1025.FR1V4 OPERATIONAL AIR QUALITY IMPACT ASSESSMENT Page 72 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+The assessment findings indicate that, despite the alteration in dispersion patterns due to the proposed height, 
+no predicted exceedances of the relevant impact assessment criterion for 1-hour NO 2 are anticipated once 
+converted from NO x.  Therefore, the Proposal can maintain compliance with the air quality standard at the 
+proposed building height.  
+  
+[[page 73]]
+ 
+24.1025.FR1V4 DISCUSSION AND CONCLUSION Page 73 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+8. DISCUSSION AND CONCLUSION 
+This AQIA has been prepared by Northstar on behalf of EMKC3 for the proposed expansion and operation of 
+a data centre, to be located at 1 Sirius Road and 1 Apollo Place, Lane Cove West. 
+The assessment evaluates the potential air quality impacts during both construction and operation phases, 
+with a focus on dust soiling and increased ambient PM 10 (including PM2.5) concentrations due to dust arising 
+from construction activities on the Proposal site, and combustion emissions from standby diesel generator 
+engines during operations.  
+Data provided by the Proponent and publicly available environmental data were used.  The routine testing of 
+diesel generators may lead to the exceedance of air quality criteria at nearby sensitive receptor locations from 
+associated emissions to air.  Therefore, operational impacts were evaluated based on a realistic and justified 
+worst case emissions scenarios.  
+8.1. Construction Phase Risk Assessment 
+The construction phase risk assessment for the Proposal, presented in Section 6 indicates a medium risk of 
+dust soiling and low risk to human health impacts associated with all proposed construction phase activities.   
+Based upon that assessment, a range of mitigation measures are recommended to ensure that short-term 
+impacts associated with construction phase activities are minimised, as presented in Appendix B. 
+8.2. Operational Phase Impact Assessment 
+The predicted impacts of operational phase activities under a worst-case scenario (Scenario 1) and realistic 
+operational scenario (Scenario 2) are presented in Section 7. 
+8.2.1. Scenario 1 – Justified Worst Case Operations 
+Under the justified worst-case standby generator operational scenario (Scenario 1), a number of additional 
+exceedances of the short-term air quality criteria for PM 10, PM2.5 and NO2 are predicted.   
+That scenario assumes that all 144 no. generators would be operational at one time.  The predicted 
+incremental concentrations under Scenario 1 show an exceedances of particulate matter and NO2 at sensitive 
+receptor locations if a power outage occurred, and all 144 no. emergency generators were operating at 100 % 
+load continuously (refer Section 7.1) to assess emissions under all potential meteorological conditions. 
+ 
+[[page 74]]
+ 
+24.1025.FR1V4 DISCUSSION AND CONCLUSION Page 74 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+An assessment of the probability (p) of an exceedance of the relevant short-term PM10, PM2.5 and NO2 criteria 
+has been performed and is presented in Section 7.1.4.  As a maximum across all receptors, the probability of 
+an exceedance of the PM 10, PM2.5 or NO 2 criterion (where p=0 is an impossible event, and p=1 is a certain 
+event) in any year is as follows: 
+ PM10:  p=0.1425; 
+ PM2.5: p=0.2055 and, 
+ NO2: p=0.0982. 
+To predict the likelihood of exceedances under the worst-case scenario (i.e. all 144 no. generators operating 
+continuously at 100 % load), the reliability of the power network was considered against the NSW Transmission 
+Reliability and Performance Standard (2017) and latest information supplied by Ausgrid regarding the 
+Distribution and Transmission Annual Planning Reporting (DTAPR) (Ausgid, 2023). 
+For Transmission Substations (TS) and Bulk Supply Points (BSPs), reliability is measured in two parts: 
+ Unserved Energy (USE) The unit of USE is minutes per year. 
+ Redundancy category – There are three redundancy categories listed in the NSW Transmission 
+Reliability and Performance Standard (2017) as shown in the extract below: 
+ 
+The Proposal site is to be supplied with mains power directly from a dedicated substation situated at the 
+existing data centre at 1 Sirius Road.  The substation is fed by 2 no. 132 kV Ausgrid radial feeders that are 
+contained within the nearby Lane Cove 132 kV Sub-Transmission Switching Station (STSS).  The infrastructure 
+will then provide N+1 security of electrical supply. 
+Section 4.2.2 of the infrastructure delivery management and staging plan (Van Der Meer Consulting, 2024) 
+accompanying SSD-67407231 elaborates on how the Proposal site will receive mains power: 
+The existing onsite substation of 132 kV/22kV at N-1 redundant arrangement with 
+capacity of 200 MVA serving the campus is sufficient to meet the electrical demand for 
+the 2AP expansion data centre building. Spare feeders are provided in existing HV 
+switchboards downstream of the substation to serve the expansion building. Site 22kV 
+MV cable reticulation from the existing 132kV/22kV substation to the expansion building 
+
+[[page 75]]
+ 
+24.1025.FR1V4 DISCUSSION AND CONCLUSION Page 75 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+data centre will be by means of underground cabling conduits and façade mounted 
+containments. 
+Further to this, Section 4.2.3 of the infrastructure delivery management and staging plan (Van Der Meer 
+Consulting, 2024) provides a description of backup generator usage for the Proposal site.  
+Generators will operate as a standby power supply in the event of mains failure.  The 
+onsite 132kV/22kV substation is provided with N-1 feeders, fully rated supplies of the 
+entire site load.  Failure rates for a N-1 supply in this arrangement are extremely low, 
+each feeder is fed from diverse bus section of the Zone Substation and each feeder can 
+fully support the entire building load.   
+In consideration of the NSW Transmission Reliability and Performance Standard (2017), both the existing 
+substation located at the data centre at 1 Sirius Road and Lane Cover STSS are considered part of the Inner 
+Sydney transmission system, which is constituted by: 
+(I) Cables 41 and 42, 
+(II) The 330/132 kV substations at Rookwood Road, Beaconsfield, Haymarket, Sydney North, 
+and Sydney South; 
+(III) Any future associated 330 kV cables and 330/132 kV substations; and,  
+(IV) Any of Ausgrid’s 132 kV transmission network that links any of the above.  
+The corresponding reliability category for this part of the transmission network is Level 3.  This redundancy 
+category requirement means that even in the event of a single failure, some level of load will be able to be 
+supplied from the network.  However, as the extent of partial power failure is unable to be predicted, a full 
+system failure has been modelled. 
+Based on Ausgrid's 2023 Distribution and Transmission Annual Planning Report Summary (Ausgid, 2023) the 
+average unplanned outage duration per year per customer from 2010 to 2023 equates to approximately 76.4 
+minutes, though exact duration of power outages requiring standby generators cannot be determined.   
+Correspondingly, the likelihood of power interruptions occurring for approximately 0.015 % of the time per 
+year (76.4 / (8 760 × 60)) or have a probability of p=0.00015. 
+Figure 13 depicts the normalised (i.e. Major Event Days data excluded) system average interruption duration 
+index (SAIDI) and system average interruption frequency index (SAIFI) trends over a twelve financial-year 
+period from 2010/2011 to 2022/2033. 
+ 
+ 
+ 
+[[page 76]]
+ 
+24.1025.FR1V4 DISCUSSION AND CONCLUSION Page 76 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure 13 Ausgrid SAIDI & SAIFI Performance Information 
+ 
+Source: (Ausgid, 2023) 
+The probability of both the interruption to the power supply, and an exceedance of the relevant air quality 
+criteria occurring can be calculated through the multiplication of the probability of each event occurring.  
+Those values are incredibly small and have been placed into context by calculating the percentage chance 
+that the event could occur in a number of years.  Table 30 presents the results of those calculations. 
+The results indicate that the chance of an additional exceedance of the air quality criteria during a power 
+outage is low. 
+Table 30 Chance of an exceedance during a power outage 
+Number of years 
+Percentage chance of an additional exceedance of the short-term  
+criterion during a power outage (%) 
+PM10 PM2.5 NO2 
+100 0.21 0.30 0.14 
+200 0.41 0.60 0.29 
+500 1.03 1.48 0.71 
+1 000 2.05 2.94 1.42 
+1 250 2.56 3.66 1.77 
+
+[[page 77]]
+ 
+24.1025.FR1V4 DISCUSSION AND CONCLUSION Page 77 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+8.2.2. Scenario 2 – Realistic Operations 
+Predicted incremental concentrations for Scenario 2 show that no exceedances are predicted to occur at all 
+surrounding receptors for all assessed pollutants.  Correspondingly, it is anticipated that under operation of 
+the testing schedule as outlined in Table 2 that no significant air quality impacts are predicted to be 
+experienced at sensitive receptors. 
+8.2.3. Recommended Mitigation Measures 
+Based on the findings of the dispersion modelling assessment under Scenario 2, it is considered that the 
+operation of the maintenance testing schedule would not result in exceedances being experienced at sensitive 
+receptor locations surrounding the Proposal site. 
+To ensure air quality impacts experienced at sensitive receptors resulting from the operation of the Proposal 
+site are minimised, maintenance under the testing schedule must be performed as outlined in Section 2.2.  
+Operation of the emergency generators should be minimised as practicably possible. 
+8.3. Conclusion 
+During the construction phase, the potential dust soiling and human health risks are assessed as being 
+manageable through appropriate implementation of the recommended mitigation measures. 
+During the operational phase, based upon the information presented in this AQIA, the operation of the 
+Proposal is not considered likely to result in additional exceedances of the relevant air quality criteria at any 
+identified receptor location.  Scenarios replicating the worst-case and realistic case operations have been 
+considered in the assessment. 
+The predicted incremental concentrations for all assessed pollutants are shown to be significantly below the 
+relevant criteria under realistic operations where the back-up generators are appropriately operated under 
+the testing schedule.  
+[[page 78]]
+ 
+24.1025.FR1V4 REFERENCES Page 78 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+9. REFERENCES 
+Ausgid. (2023). Distribution and Transmission Annual Planning Report Summary (DTAPR) - December 2023.   
+Barwise, Y., & Kumar, P. (2020). Designing vegetation barriers for urban air pollution abatement: a practical 
+review for appropriate plant species specification. npj Climate and Atmospheric Science. 
+Chapman, K. S. (2004). Cost-Effective Reciprocating Engine Emissions Control and Monitoring for E&P Field 
+and Gathering Engines.  
+IAQM. (2024). Guidance on the assessment of dust from demolition and construction.   
+Kumar, P., Druckman, A., Gallagher, J., Gatersleben, B., Allison, S., Eisenman, T. S., . . . Morawaska, L. (2019). 
+The nexus between air pollution, green infrastructure and human health. Environment International. 
+Lecomte, T., De La Fuente, J. F., Neuwahl, F., Canova, M., Pinasseau, A., Jankov, I., . . . Sancho, L. D. (2017). 
+Best Available Techniques (BAT) Reference Document for Large Combustion Plants - EUR 28836 EN.  
+NPI. (2008). Emission Estimation Technique Manual for Combustion Engines Version 3.0.   
+NSW DPE. (2023). New South Wales Annual Compliance Report 2021.  
+NSW EPA. (2014). Reducing Emissions from Non-road Diesel Engines.  
+NSW EPA. (2022). Approved Methods for the Modelling and Assessment of Air Pollutants in New South Wales.  
+UK Environment Agency. (2018). Data Centre FAQ Headline Approach - Version 10.0.  
+Van Der Meer Consulting. (2024). Infrastructure Delivery Management and Staging Plan - Proposed Data 
+Centre - 1 & 2 Apollo Place, Lane Cove West.  
+ 
+[[page 79]]
+ 
+24.1025.FR1V4 APPENDIX A Page 79 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+APPENDIX A 
+Commonly used Abbreviations and Units 
+  
+[[page 80]]
+ 
+24.1025.FR1V4 APPENDIX A Page 80 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Units used in the Report 
+Units presented in the report follow the International System of Units (SI) conventions, unless derived from 
+references using non-SI units.   
+Commonly used SI units 
+The following units are commonly used in Northstar reports. 
+Symbol Name Quantity 
+SI base units 
+K Kelvin thermodynamic temperature 
+kg kilogram mass 
+m metre length 
+mol mole amount of substance 
+s seconds time 
+Non-SI units mentioned in the SI or accepted for use 
+° degree plane angle 
+d day time 
+h hour time 
+ha hectare area 
+J joule energy 
+L litre volume 
+min minute time 
+N newton force or weight 
+t tonne mass 
+V volt electrical potential 
+W watt power 
+Multiples of SI and non-SI units 
+The following prefixes are added to unit names to produce multiples and sub-multiples of units: 
+Prefix Symbol Factor  Prefix Symbol Factor 
+T tera- 1012  p pico- 10-12 
+G giga- 109  n nano- 10-9 
+M mega- 106  µ micro- 10-6 
+k kilo- 103  m milli- 10-3 
+h hector- 102  c centi- 10-2 
+da deca- 101  d deci- 10-1 
+In this report, units formed by the division of SI and non-SI units are expressed as a negative exponent, and 
+do not use the solidus (/) symbol.   
+[[page 81]]
+ 
+24.1025.FR1V4 APPENDIX A Page 81 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+For example: 
+ 50 micrograms per cubic metre would be presented as 50 µg∙m -3 and not 50 µg/m3; and, 
+ 0.2 kilograms per hectare per hour would be presented as 0.2 kg∙ha -1∙hr-1 and not 0.2 kg/ha/hr. 
+Commonly used SI-derived and non-SI units 
+Symbol Name Quantity 
+g∙m-2∙s-1 gram per square metre per second rate of mass deposition per unit area 
+g∙s-1 gram per second rate of mass emission 
+kg∙ha-1∙hr-1 kilogram per hectare per hour rate of mass deposition per unit area 
+kg·m-3 kilogram per cubic metre density 
+L·s-1 litres per second volumetric rate 
+m2 square metre area 
+m3 cubic metre volume 
+m·s-1 metre per second speed and velocity 
+mg∙m-3 milligram per cubic metre mass concentration per unit volume 
+mg∙Nm-3 milligram per normalised cubic metre (of air) mass concentration per unit volume 
+µg∙m-3 microgram per cubic metre  mass concentration per unit volume 
+mg∙m-3 milligram per cubic metre  mass concentration per unit volume 
+Pa pascal pressure 
+ppb parts per billion (1x10-9) volumetric concentration 
+pphm parts per hundred million (1×10-5) volumetric concentration 
+ppm parts per million (1x10-6) volumetric concentration 
+Commonly used abbreviations 
+Abbreviation Term 
+ABS Australian Bureau of Statistics 
+ACT Australian Commonwealth Territory 
+AGL above ground level 
+AHD Australian height datum 
+APC air pollution control 
+AQI air quality index 
+AQIA air quality impact assessment 
+AQMS air quality monitoring station 
+AQRA air quality risk assessment 
+ARPANSA Australian Radiation Protection and Nuclear Safety Agency 
+AS/NZS Australian Standard / New Zealand Standard 
+AWS automatic weather station 
+BCA Building Code of Australia 
+BGL below ground level 
+BOM Bureau of Meteorology 
+[[page 82]]
+ 
+24.1025.FR1V4 APPENDIX A Page 82 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Abbreviation Term 
+CEMP construction environment management plan 
+CH4 methane 
+CO carbon monoxide 
+CO2 carbon dioxide 
+CSIRO Commonwealth Scientific and Industrial Research Organisation 
+DEM digital elevation model 
+EETM emission estimation technique manual 
+EPA VIC Environmental Protection Authority Victoria 
+EPBC Environment Protection and Biodiversity Conservation Act 
+FIBC flexible intermediate bulk container 
+GIS geographical information system 
+IAQM UK Institute of Air Quality Management 
+IBC intermediate bulk container 
+ID internal diameter 
+LLV low level waste 
+LoM life of mine 
+MSDS Material Safety Data Sheet 
+NCAA National Clean Air Agreement 
+NEPM National Environment Protection Measure 
+NH3 ammonia 
+NO nitric oxide 
+NOX oxides of nitrogen 
+NO2 nitrogen dioxide 
+NORM naturally occurring radioactive material 
+NSW New South Wales 
+NSW DCCEEW New South Wales Department of Climate Change, Energy, the Environment and Water 
+NSW DPHI New South Wales Department of Planning, Housing, and Infrastructure  
+NSW DPE New South Wales Department of Planning and Environment 
+NSW EPA New South Wales Environment Protection Authority 
+NT Northern Territory 
+OEMP operational environmental management plan 
+O3 ozone 
+OU odour unit 
+OU·m3·s-1 odour units times metres cubed per second 
+OU·s-1 odour units per second 
+Pb lead 
+PM particulate matter 
+PM10 particulate matter with an aerodynamic diameter of 10 µm or less 
+PM2.5 particulate matter with an aerodynamic diameter of 2.5 µm or less 
+ROM run of mine 
+SA South Australia 
+[[page 83]]
+ 
+24.1025.FR1V4 APPENDIX A Page 83 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Abbreviation Term 
+SEPP State Environmental Protection Policy 
+SOX oxides of sulphur 
+SO2 sulphur dioxide 
+SRTM3 Shuttle Radar Topography Mission 
+SVOC semi-volatile organic compound 
+TAPM The Air Pollution Model 
+TAS Tasmania 
+TEU twenty-foot equivalent unit 
+TSP total suspended particulates 
+TVOC total volatile organic compounds 
+TWA time weighted average 
+US EPA United States Environmental Protection Agency 
+UTM Universal Transverse Mercator 
+VIC Victoria 
+VLLW very low-level waste 
+VOC volatile organic compound 
+ 
+  
+[[page 84]]
+ 
+24.1025.FR1V4 APPENDIX B Page 84 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+APPENDIX B 
+Construction Phase Air Quality Risk Assessment 
+  
+[[page 85]]
+ 
+24.1025.FR1V4 APPENDIX B Page 85 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Provided below is a summary of the risk assessment methodology used in this assessment.  It is based upon 
+IAQM (2024) Guidance on the assessment of dust from demolition and construction (version 2.2) and adapted 
+by Northstar.   
+Adaptions to the Published Methodology Made by Northstar 
+The adaptions made by Northstar Air Quality from the IAQM published methodology are: 
+ PM10 criterion: an amended criterion representing the annual average PM 10 criterion relevant to 
+Australia rather than the UK; 
+ Nomenclature: a change in nomenclature from ‘receptor sensitivity’ to ‘land use value’ to avoid 
+misinterpretation of values attributed to ‘receptor sensitivity’ and ‘sensitivity of the area’ which may 
+be assessed as having different values; 
+ Construction traffic : the separation of construction vehicle movements as a discrete risk 
+assessment profile from those associated with ‘on-site’ activities e.g. earthworks and construction.  
+The IAQM methodology considers four risk profiles pertaining to ‘demolition’, ‘earthworks’, 
+‘construction’ and ‘trackout’.  The adaption by Northstar introduces a fifth risk assessment profile of 
+‘construction traffic’ to the existing four risk profiles; and, 
+ Tables: minor adjustments in the visualisation of some tables. 
+Step 1 – Screening Based on Separation Distance 
+The Step 1 screening criteria provided by the IAQM guidance suggests screening out any assessment of 
+impacts from construction activities where sensitive receptors are located: 
+ Beyond a distance of 250 m from the Proposal site boundary; and,  
+ At a distance greater than 50 m from the route used by construction vehicles on public roads, 
+beginning from the Proposal site entrance and extending past 250 m from the entrance. 
+This step is noted as having deliberately been chosen to be conservative and would require assessments for 
+most developments. 
+Table B1 overleaf presents the identified discrete sensitive receptors, with the corresponding estimated 
+screening distances as compared to the screening criteria.   
+  
+[[page 86]]
+ 
+24.1025.FR1V4 APPENDIX B Page 86 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table B1  Construction phase impact screening criteria distances 
+Receptor Location Land use 
+Screening distance (m) 
+Proposal 
+site 
+Boundary 
+(250 m) 
+Proposal 
+site 
+entrance 
+(250 m) 
+Proposal site 
+construction 
+route(s) 
+(50 m) 
+R1 Sirius Road, Lane Cove West Industrial 47 145 88 
+R2 Sirius Road, Lane Cove West Industrial 25 103 65 
+R3 Sirius Road, Lane Cove West Industrial 101 190 75 
+R4 Apollo Place, Lane Cove West Industrial < 10 22 13 
+R5 Sirius Road, Lane Cove West Industrial 31 82 10 
+R6 Apollo Place, Lane Cove West Industrial 14 27 22 
+R7 Mars Road, Lane Cove West Industrial 155 174 168 
+R8 Sirius Road, Lane Cove West Industrial 243 341 192 
+R9 Orion Road, Lane Cove West Industrial 207 297 112 
+R10 Cullen Street, Lane Cove West School 553 604 315 
+R11 Ventemans Reach Walking Track Recreational 193 240 248 
+R12 Magdala Park Recreational 332 379 389 
+R13 Epping Road, Lane Cove Residential 310 396 370 
+R14 Pittwater Road, East Ryde Residential 553 592 589 
+R15 Jeanette Street, East Ryde Residential 653 684 686 
+R16 Conrad Street, North Ryde Residential 779 835 844 
+R17 Mowbray Road, Lane Cove North Residential 575 671 459 
+R18 Cumberland Avenue, Lane Cove North Residential 516 614 256 
+ 
+With reference to Table B1, sensitive receptors are noted to be within the screening distance thresholds and 
+therefore require further risk assessment as summarised in Table B2. 
+Table B2 Application of Step 1 screening 
+Construction 
+impact 
+Screening  
+criteria 
+Step 1  
+screening 
+Comments 
+Demolition 
+250 m from boundary 
+250 m from site entrance 
+Not applicable 
+Demolition activities not considered 
+in the assessment scope 
+Earthworks 
+250 m from boundary 
+250 m from site entrance 
+Not screened 
+Receptors identified within the 
+screening distance 
+Construction 
+250 m from boundary 
+250 m from site entrance 
+Not screened 
+Receptors identified within the 
+screening distance 
+Trackout 100 m from site entrance Not screened 
+Receptors identified within the 
+screening distance 
+Construction Traffic 50 m from roadside Not screened 
+Receptors identified within the 
+screening distance 
+[[page 87]]
+ 
+24.1025.FR1V4 APPENDIX B Page 87 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Step 2 – Risk from Construction Activities 
+Step 2 of the assessment provides ‘dust emissions magnitudes’ for various construction related activities 
+including: demolition, earthworks, construction, track-out (the movement of site material onto public roads 
+by vehicles through entrainment) and construction traffic.   
+The magnitudes are: Small; Medium; or Large, with suggested definitions for each category as follows: 
+Table B3 Dust emission magnitude activities 
+Activity Small Medium Large 
+Demolition 
+total building volume* < 12 000 m3 12 000 m3 to 75 000 m3 > 75 000 m3 
+demolition height < 6 m AGL 6 m and 12 m AGL > 12 m AGL 
+onsite crushing no no yes 
+onsite screening no no yes 
+demolition of materials with 
+high dust potential 
+no yes yes 
+demolition timing wet months only any time of the year any time of the year 
+Earthworks 
+total site area < 18 000 m2 18 000 m2 to 110 000 m2 > 110 000 m2 
+soil types 
+soil type with large grain 
+size (e.g.  sand 
+moderately dusty soil 
+type (e.g.  silt) 
+potentially dusty soil 
+type (e.g. clay which 
+would be prone to 
+suspension when dry 
+due to small particle size 
+heavy earth moving vehicles 
+< 5 heavy earth moving 
+vehicles active at any 
+one time 
+5 to 10 heavy earth 
+moving vehicles active at 
+any one time 
+> 10 heavy earth moving 
+vehicles active at any 
+time 
+formation of bunds < 3 m AGL 3 m to 6 m AGL > 6 m AGL 
+material moved < 20 000 t 20 000 t to 100 000 t > 100 000 t 
+earthworks timing wet months only any time of the year any time of the year 
+Construction 
+total building volume < 12 000 m3 12 000 m3 to 75 000 m3 75 000 m3 
+piling no yes yes 
+concrete batching no yes yes 
+sandblasting no no yes 
+materials metal cladding or timber concrete concrete 
+Trackout (within 100 m of construction site entrance) 
+outward heavy vehicles 
+movements per day 
+< 20 20 to 50 > 50 
+[[page 88]]
+ 
+24.1025.FR1V4 APPENDIX B Page 88 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Activity Small Medium Large 
+surface materials low potential moderate potential high potential 
+unpaved road length < 50 m 50 m to 100 m > 100 m 
+Construction Traffic (from construction site entrance to construction vehicle origin) 
+Demolition traffic -   
+total building volume 
+< 12 000 m3 12 000 m3 to 75 000 m3 > 75 000 m3 
+Earthworks traffic -   
+total site area 
+< 18 000m2 18 000 m2 to 110 000 m2 > 110 000 m2 
+Earthworks traffic –  
+soil types 
+soil type with large grain 
+size (e.g. sand) 
+moderately dusty soil type 
+(e.g. silt) 
+potentially dusty soil 
+type (e.g. clay which 
+would be prone to 
+suspension when dry 
+due to small particle 
+size 
+Earthworks traffic –  
+material moved 
+< 20 000 t 20 000 t to 100 000 t > 100 000 t 
+Construction traffic –  
+total building volume 
+< 12 000 m3 12 000 m3 to 75 000 m3 75 000 m3 
+Total traffic heavy vehicles 
+movements per day when 
+compared to existing heavy 
+vehicle traffic 
+< 10 % of heavy vehicle 
+movement contribution 
+by Proposal 
+10 % to 50 % of heavy 
+vehicle movement 
+contribution by Proposal 
+> 50 % of heavy vehicle 
+movement contribution 
+by Proposal 
+ 
+Demolition activities are not considered in this assessment scope, based on information provided by the 
+Proponent.  The site area of the Proposal site spans approximately 44 842 m 2, with predominant activities 
+focused on the construction of the data centre development and associated vehicle movements.  A 
+preliminary review suggests that existing structures may total up to 75 000 m 3 in volume.  
+Based on review of layouts provided, the proposed data centre is expected to be greater than 75 000 m 3 
+(threshold for large dust emission magnitude [refer Table B3]).  Given the volume of construction to be 
+performed, it is expected that more than 50 vehicle movements would be required to service the Proposal 
+site each day. 
+Based upon the above assumptions and the assessment criteria presented in Table B3, the dust emission 
+magnitudes are as presented in Table B4. 
+ 
+ 
+ 
+ 
+[[page 89]]
+ 
+24.1025.FR1V4 APPENDIX B Page 89 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table B4 Construction phase impact categorisation of dust emission magnitude 
+Activity Dust emission magnitude 
+Demolition N/A 
+Earthworks and enabling works Medium 
+Construction Large 
+Track-out Large 
+Construction traffic routes Large 
+Note: N/A = Not applicable  
+Step 3 – Sensitivity of the Area 
+Step 3 of the assessment process requires the sensitivity of the area to be defined.  The sensitivity of the area 
+considers: 
+ The specific sensitivities that identified land use values have to dust deposition and human health 
+impacts; 
+ The proximity and number of those receptors locations; 
+ In the case of PM10, the local background concentration; and 
+ Other site-specific factors, such as whether there are natural shelters such as trees to reduce the 
+risk of wind-blown dust. 
+When assessing the area’ sensitivity to dust impacts and soiling, human health receptors are evaluated 
+independently. 
+Land Use Value 
+Individual receptor locations may be attributed different land use values based on the land use of the land, 
+and may be classified as having high, medium, or low values relative to dust deposition and human health 
+impacts (ecological receptors are not addressed using this approach). 
+Essentially, land use value is a metric of the level of amenity expectations for that land use. 
+The IAQM methodology provides guidance on the land use value with regard to dust soiling and human 
+health impacts and is shown in Table B5 below.  It is noted that user expectations of amenity levels (dust 
+soiling) are dependent on existing deposition levels. 
+Receptors located within 250 m of the site are rated 'medium' with regard to the land use value.  The 
+immediate area, including the Lane Cove West Business Park adjacent to the Proposal site, is primarily 
+industrial (refer to Section 2.1 and Section 4.1) as the Lane Cove West Business Park.   
+  
+[[page 90]]
+ 
+24.1025.FR1V4 APPENDIX B Page 90 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table B5 IAQM guidance for categorising land use value 
+Land use value Low Medium High 
+Dust soiling 
+The enjoyment of amenity 
+would not reasonably be 
+expected; or 
+Property would not 
+reasonably be expected to 
+be diminished in appearance, 
+aesthetics, or value by 
+soiling; or 
+There is transient exposure, 
+where the people or 
+property would reasonably 
+be expected to be present 
+only for limited periods of 
+time as part of the normal 
+pattern of use of the land. 
+Users would expect to enjoy 
+a reasonable level of 
+amenity, but would not 
+reasonably expect to enjoy 
+the same level of amenity as 
+in their home; or 
+The appearance, aesthetics 
+or value of their property 
+could be diminished by 
+soiling; or 
+The people or property 
+wouldn’t reasonably be 
+expected to be present here 
+continuously or regularly for 
+extended periods as part of 
+the normal pattern of use of 
+the land. 
+Users can reasonably expect 
+a high level of amenity; or 
+The appearance, aesthetics 
+or value of their property 
+would be diminished by 
+soiling, and the people or 
+property would reasonably 
+be expected to be present 
+continuously, or at least 
+regularly for extended 
+periods as part of the normal 
+pattern of use of the land. 
+Examples 
+Playing fields, farmland 
+(unless commercially-
+sensitive horticultural), 
+footpaths, short term car 
+parks and roads. 
+Parks and places of work. 
+Dwellings, museums, and 
+other culturally important 
+collections, medium- and 
+long-term car parks and car 
+showrooms 
+Health impacts 
+Locations where human 
+exposure is transient. 
+Locations where the people 
+exposed are workers, and 
+exposure is over a time 
+period relevant to the air 
+quality objective for PM10 (in 
+the case of the 24-hour 
+objectives, a relevant 
+location would be one where 
+individuals may be exposed 
+for eight hours or more in a 
+day). 
+Locations where the public 
+are exposed over a time 
+period relevant to the air 
+quality objective for PM10 (in 
+the case of the 24-hour 
+objectives, a relevant 
+location would be one where 
+individuals may be exposed 
+for eight hours or more in a 
+day). 
+Examples 
+Public footpaths, playing 
+fields, parks, and shopping 
+street. 
+Office and shop workers but 
+would generally not include 
+workers occupationally 
+exposed to PM10. 
+Residential properties, 
+hospitals, schools, and 
+residential care homes. 
+ 
+[[page 91]]
+ 
+24.1025.FR1V4 APPENDIX B Page 91 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Dust Soiling Impacts 
+To assess dust soiling impacts, the sensitivity of the local area is determined by considering the receptors and 
+their quantity, as detailed in Table B6 below.   
+Table B6  IAQM guidance for categorising the sensitivity of an area to dust soiling impacts 
+Land use value Number of receptors(a) 
+Distance from the source (m)(b) 
+< 20 < 50 < 100 < 250 
+High 
+> 100 High High Medium Low 
+10 – 100 High Medium Low Low 
+1 – 10 Medium Low Low Low 
+Medium > 1 Medium Low Low Low 
+Low > 1 Low Low Low Low 
+Notes:  (a)   Estimate the total number of receptors within the stated distance.  Only the highest level of area sensitivity from the table 
+needs to be considered. 
+(b)   With regard to potential ‘construction traffic’ impacts, the distance criteria of less than 20 m and less than 50 m from the 
+source (roadside) are used (i.e. the first two columns only).  Any locations beyond 50 m may be screened out of the assessment 
+(as per Step 1) and the corresponding sensitivity is negligible’. 
+Figure B1 illustrates the extent of works considered for this AQIA, delineating the outer envelope boundary of 
+the anticipated construction works, the IAQM distance bands and the positions of receptors.  
+Figure B1 Scope of construction activities, buffer distances and surrounding environment 
+ 
+Source: Northstar 
+
+[[page 92]]
+ 
+24.1025.FR1V4 APPENDIX B Page 92 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+The IAQM guidance does not necessitate precise counting of human receptors.  Instead, it advises using 
+professional judgment to estimate the approximate number of buildings within each distance band and that 
+only the highest level of area sensitivity from Table B6 needs to be considered. 
+It is estimated that up to 10 receptors are within 100 m and up to 100 receptors within a distance of 250 m 
+from the Proposal site boundary.  Considering both the sensitivity of receptors and their numbers within 
+specified distances from the footprint, the sensitivity to dust soiling impacts is assessed as ‘medium’.  
+Human Health Impacts 
+The assessed land use value (as described in Table B5) is then used to assess the sensitivity of the area 
+surrounding the active construction area, considering the proximity and number of those receptors, and the 
+local background PM10 concentration (in the case of potential health impacts) and other site-specific factors.   
+Additional factors to consider when determining the sensitivity of the area include: 
+ Any history of dust generating activities in the area; 
+ The likelihood of concurrent dust generating activity on nearby sites; 
+ Any pre-existing screening between the source and the receptors; 
+ Any conclusions drawn from analysing local meteorological data which accurately represent the 
+area; and if relevant, the season during which the works would take place; 
+ Any conclusions drawn from local topography; 
+ duration of the potential impact, as a receptor may become more sensitive over time; and 
+ Any known specific receptor sensitivities which go beyond the classifications given in (IAQM, 2024). 
+The IAQM guidance for assessing the sensitivity of an area to human health impacts is shown in Table B7. 
+The background annual average PM 10 concentration measured at Macquarie Park AQMS in 2021 was 
+13.2 µg·m-3.  Together with the calculated land use value, this classifies the areas sensitivity as ‘low’ for dust 
+health impacts. 
+  
+[[page 93]]
+ 
+24.1025.FR1V4 APPENDIX B Page 93 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table B7  IAQM guidance for categorising the sensitivity of an area of human health impacts 
+Land use 
+value 
+Annual mean PM10 
+concentration (µg∙m-3) 
+Number of 
+receptors(a) 
+Distance from the source (m)(b) 
+< 20 < 50 < 100 < 250 
+High 
+> 30 
+> 100 High High High Medium 
+10 – 100 High High Medium Low 
+1 – 10 High Medium Low Low 
+26 – 30 
+> 100 High High Medium Low 
+10 – 100 High Medium Low Low 
+1 – 10 High Medium Low Low 
+22 – 26 
+> 100 High Medium Low Low 
+10 – 100 High Medium Low Low 
+1 – 10 Medium Low Low Low 
+≤ 22 
+> 100 Medium Low Low Low 
+10 – 100 Low Low Low Low 
+1 – 10 Low Low Low Low 
+Medium 
+> 30 
+> 10 High Medium Low Low 
+1 – 10 Medium Low Low Low 
+26 – 30  
+> 10 Medium Low Low Low 
+1 – 10 Low Low Low Low 
+22 – 26 
+> 10 Low Low Low Low 
+1 – 10   Low Low Low Low 
+≤ 22 
+> 10 Low Low Low Low 
+1 – 10  Low Low Low Low 
+Low - ≤ 1 Low Low Low Low 
+Notes: (a)   Estimate the total within the stated distance (e.g. the total within 250 m and not the number between 100 m and 250 m), 
+noting that only the highest level of area sensitivity from the table needs to be considered.  In the case of high sensitivity areas 
+with high occupancy (such as schools or hospitals) approximate the number of people likely to be present.  In the case of 
+residential dwellings, just include the number of properties. 
+(b)   With regard to potential ‘construction traffic’ impacts, the distance criteria of < 20 m and < 50 m from the source 
+(roadside) are used (i.e. the first two columns only).  Any locations beyond 50 m may be screened out of the assessment (as 
+per Step 1) and the corresponding sensitivity is negligible’. 
+Step 4 - Risk Assessment (Pre-Mitigation) 
+The matrices are shown in Table B8 for each activity determine the risk category with no mitigation applied.   
+ 
+ 
+ 
+ 
+ 
+[[page 94]]
+ 
+24.1025.FR1V4 APPENDIX B Page 94 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table B8  Risk of dust impacts from construction related activities 
+Sensitivity of area 
+Pre-mitigated dust emission magnitude 
+Small Medium Large 
+Demolition 
+Low Negligible Low risk Medium risk 
+Medium Low risk Medium risk High risk 
+High Medium risk Medium risk High risk 
+Earthworks, Construction and Trackout  
+Low Negligible Low risk Low risk 
+Medium Low risk Medium risk Medium risk 
+High Low risk Medium risk High risk 
+Construction traffic (from construction site entrance to origin) 
+Low Negligible Low risk Low risk 
+Medium Negligible Low risk Medium risk 
+High Low Risk Medium risk High risk 
+ 
+Given the sensitivity of the identified receptors is classified as medium for dust soiling and low health effects, 
+and the dust emission magnitudes for the various construction phase activities as shown in Table B4, the 
+resulting risk of air quality impacts (without mitigation) is as presented in Table B9. 
+Table B9 Risk of air quality impacts from construction activities 
+Sensitivity of 
+Area 
+Dust emission magnitude Preliminary risk 
+Demolition 
+Earthworks 
+Construction 
+Track-out 
+Const. Traffic 
+Demolition 
+Earthworks 
+Construction 
+Track-out 
+Const. Traffic 
+Dust soiling impacts 
+Med. N/A Med. Large Large Large N/A. Med. Med. Med. Med. 
+Human health impacts 
+Low N/A Med. Large Large Large N/A Low Low Low Low 
+Note: N/A = Not applicable, Med. = Medium 
+The risks summarised in Table B9 indicate a medium risk of dust soiling impacts and a low risk of health 
+impacts for all construction related activities if no mitigation measures were to be applied to control emissions. 
+The risk assessment therefore provides recommendations for construction phase mitigation, commensurate 
+with those identified risks. 
+ 
+[[page 95]]
+ 
+24.1025.FR1V4 APPENDIX B Page 95 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Step 5 – Identify Mitigation 
+Once the risk categories are determined for each of the relevant activities, site-specific management measures 
+can be identified based on whether the site is a low, medium, or high-risk site. 
+The identified mitigation measures are presented as follows: 
+N = not required (although they may be implemented voluntarily)  
+D = desirable (to be considered as part of the CEMP, but may be discounted if justification is provided); 
+H = highly recommended (to be implemented as part of the CEMP and should only be discounted if site-
+specific conditions render the requirement invalid or otherwise undesirable). 
+Table B10 outlines a selection of recommended mitigation measures for construction activities based on the 
+risks identified in Table B9, following the IAQM methodology (IAQM, 2024). 
+Step 6 – Risk Assessment (post-mitigation) 
+Following Step 5, the residual impact is then determined. 
+The objective of the mitigation is to manage the construction phase risks to an acceptable level, and therefore 
+it is assumed that application of the identified mitigation would result in a low or negligible residual risk (post 
+mitigation). 
+Given the size of the Proposal site, the distance to sensitive receptors and the activities to be performed, 
+residual impacts associated with fugitive dust emissions from the Proposal would be anticipated to be 
+‘negligible’, should the implementation of the mitigation measures outlined above be performed 
+appropriately.   
+  
+[[page 96]]
+ 
+24.1025.FR1V4 APPENDIX B Page 96 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table B10 Site-specific mitigation measures  
+Identified Mitigation 
+Unmitigated 
+Risk 
+1 Communications Medium 
+1.1 
+Develop and implement a stakeholder communications plan that includes community 
+engagement before work commences on site. 
+H 
+1.2 
+Display the name and contact details of person(s) accountable for air quality and dust 
+issues on the site boundary.  This may be the environment manager/engineer or the site 
+manager. 
+H 
+1.3 Display the head or regional office contact information. H 
+1.4 
+Develop and implement a Dust Management Plan (DMP), which may include measures to 
+control other emissions, approved by the relevant regulatory bodies. 
+H 
+2 Site Management Medium 
+2.1 
+Record all dust and air quality complaints, identify cause(s), take appropriate measures to 
+reduce emissions in a timely manner, and record the measures taken. 
+H 
+2.2 Make the complaints log available to the relevant authority when asked. H 
+2.3 
+Record any exceptional incidents that cause dust and/or air emissions, either on- or offsite, 
+and the action taken to resolve the situation in the log book. 
+H 
+2.4 
+Hold regular liaison meetings with other high-risk construction sites within 250 m of the 
+site boundary, to ensure plans are coordinated and dust and particulate matter emissions 
+are minimised.  It is important to understand the interactions of the off-site transport/ 
+deliveries which might be using the same strategic road network routes. 
+N 
+3 Monitoring Medium 
+3.1 
+Undertake daily on-site and off-site inspections where receptors (including roads) are 
+nearby, to monitor dust, record inspection results, and make the log available to the 
+relevant authority when asked.  This should include regular dust soiling checks of surfaces 
+such as street furniture, cars, and window sills within 100 m of the site boundary. 
+D 
+3.2 
+Carry out regular site inspections to monitor compliance with the dust management plan / 
+CEMP, record inspection results into a log book, and provide to the relevant authority 
+when asked. 
+H 
+3.3 
+Increase the frequency of site inspections by the person accountable for air quality and 
+dust issues on site when activities with a high potential to produce dust are being carried 
+out and during prolonged dry or windy conditions. 
+H 
+4 Preparing and Maintaining the Site Medium 
+4.1 
+Plan site layout so that machinery and dust causing activities are located away from 
+receptors, as far as is possible. 
+H 
+4.2 
+Erect solid screens or barriers around dusty activities or the site boundary that they are at 
+least as high as any stockpiles on site. 
+H 
+4.3 
+Fully enclose site or specific operations where there is a high potential for dust production 
+and the site is active for an extensive period. 
+H 
+4.4 Avoid site runoff of water or mud. H 
+[[page 97]]
+ 
+24.1025.FR1V4 APPENDIX B Page 97 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Identified Mitigation 
+Unmitigated 
+Risk 
+4.5 Keep site fencing, barriers and scaffolding clean using wet methods. H 
+4.6 
+Remove materials that have a potential to produce dust from site as soon as possible, 
+unless being re-used on site.  If they are being re-used on-site cover as described below 
+H 
+4.7 Cover, seed or fence stockpiles to prevent wind erosion H 
+5 Operating Vehicle / Machinery and Sustainable Travel Medium 
+5.1 
+Ensure all on-road vehicles comply with relevant vehicle emission standards, where 
+applicable 
+H 
+5.2 Ensure all vehicles switch off engines when stationary - no idling vehicles H 
+5.3 
+Avoid the use of diesel or petrol-powered generators and use mains electricity or battery 
+powered equipment where practicable 
+H 
+5.4 
+Impose and signpost a maximum-speed-limit of 25 km∙h-1 on surfaced and 15 km∙h-1 on 
+unsurfaced haul roads and work areas (if long haul routes are required these speeds may 
+be increased with suitable additional control measures provided, subject to the approval of 
+the nominated person and with the agreement of the relevant authority, where appropriate 
+D 
+5.5 
+Produce a Construction Logistics Plan to manage the sustainable delivery of goods and 
+materials. 
+N 
+5.6 
+Implement a Travel Plan that supports and encourages sustainable travel (public transport, 
+cycling, walking, and car-sharing) 
+D 
+6 Operations Medium 
+6.1 
+Only use cutting, grinding, or sawing equipment fitted or in conjunction with suitable dust 
+suppression techniques such as water sprays or local extraction, e.g. suitable local exhaust 
+ventilation systems 
+H 
+6.2 
+Ensure an adequate water supply on the site for effective dust/particulate matter 
+suppression/ mitigation, using non-potable water where possible and appropriate 
+H 
+6.3 Use enclosed chutes and conveyors and covered skips H 
+6.4 
+Minimise drop heights from conveyors, loading shovels, hoppers and other loading or 
+handling equipment and use fine water sprays on such equipment wherever appropriate 
+H 
+6.5 
+Ensure equipment is readily available on site to clean any dry spillages and clean up 
+spillages as soon as reasonably practicable after the event using wet cleaning methods. 
+H 
+7 Waste Management Medium 
+7.1 Avoid bonfires and burning of waste materials. H 
+8 Measures Specific to Earthworks Medium 
+8.1 
+Re-vegetate earthworks and exposed areas/soil stockpiles to stabilise surfaces as soon as 
+practicable. 
+D 
+8.2 
+Use Hessian, mulches or trackifiers where it is not possible to re-vegetate or cover with 
+topsoil, as soon as practicable. 
+D 
+8.3 Only remove the cover in small areas during work and not all at once D 
+[[page 98]]
+ 
+24.1025.FR1V4 APPENDIX B Page 98 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Identified Mitigation 
+Unmitigated 
+Risk 
+9 Measures Specific to Construction Medium 
+9.1 Avoid scabbling (roughening of concrete surfaces) if possible D 
+9.2 
+Ensure sand and other aggregates are stored in bunded areas and are not allowed to dry 
+out, unless this is required for a particular process, in which case ensure that appropriate 
+additional control measures are in place 
+H 
+9.3 
+Ensure bulk cement and other fine powder materials are delivered in enclosed tankers and 
+stored in silos with suitable emission control systems to prevent escape of material and 
+overfilling during delivery. 
+D 
+9.4 
+For smaller supplies of fine power materials ensure bags are sealed after use and stored 
+appropriately to prevent dust 
+D 
+10 Measures Specific to Track-Out Medium 
+10.1 
+Use water-assisted dust sweeper(s) on the access and local roads to remove, as necessary, 
+any material tracked out of the site. 
+H 
+10.2 Avoid dry sweeping of large areas. H 
+10.3 
+Ensure vehicles entering and leaving sites are covered to prevent escape of materials 
+during transport. 
+H 
+10.4 
+Inspect on-site haul routes for integrity and instigate necessary repairs to the surface as 
+soon as reasonably practicable. 
+H 
+10.5 Record all inspections of haul routes and any subsequent action in a site log book. H 
+10.6 
+Install hard surfaced haul routes, which are regularly damped down with fixed or mobile 
+sprinkler systems, or mobile water bowsers and regularly cleaned. 
+H 
+10.7 
+Implement a wheel washing system (with rumble grids to dislodge accumulated dust and 
+mud prior to leaving the site where reasonably practicable). 
+H 
+10.8 
+Ensure there is an adequate area of hard surfaced road between the wheel wash facility 
+and the site exit, wherever site size and layout permit. 
+H 
+10.9 Access gates to be located at least 10 m from receptors where possible. H 
+ 
+  
+[[page 99]]
+ 
+24.1025.FR1V4 APPENDIX C Page 99 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+APPENDIX C 
+Meteorology 
+  
+[[page 100]]
+ 
+24.1025.FR1V4 APPENDIX C Page 100 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Meteorological Stations 
+As discussed in Section 4.3, a meteorological modelling exercise has been performed to characterise the 
+meteorology of the Proposal site in the absence of site-specific measurements.  The meteorological 
+monitoring has been based on measurements acquired from surrounding automatic weather stations (AWS) 
+operated by the Australian Government Bureau of Meteorology (BoM).  
+A summary of the relevant monitoring sites is provided in Table C1. 
+Table C1 Meteorological monitoring stations within 10 km of the Proposal site 
+Site name Station # 
+Approximate location Approximate distance 
+(km) mE mS 
+Sydney Olympic Park AWS (Archery Centre) 66212 321 575 6 254 599 7.2 
+Sydney AWS (Observatory Hill) 66062 333 955 6 251 839 8.0 
+Fort Denison AWS 66022 335 831 6 252 493 9.0 
+ 
+As discussed in Section 4.3, meteorological conditions at Sydney Olympic Park (Archery Centre) AWS have 
+been examined to determine a ‘typical’ or representative dataset for use in dispersion modelling.  Annual 
+wind roses for the most recent years of data (2019 to 2023) are presented in Figure C1.  The annual wind 
+speed frequency distribution for the five-year period is presented in Figure C2.   
+The correlation coefficient between each year and the five-year period for the distribution of wind speed, 
+wind direction, PM 10 and PM 2.5 are summarised in Table C2.  The correlation coefficients were ranked and 
+aggregated to select the representative year for the meteorological modelling.  The rankings are also 
+presented in Table C2. 
+The wind roses indicate that from 2019 to 2023, winds at Sydney Olympic Park AWS show similar wind 
+distribution patterns across the years assessed, with predominant north-westerly wind directions.   
+The majority of wind speeds experienced at Sydney Olympic Park AWS between 2019 and 2023 are generally 
+in the range 0.5  meters per second (m∙s -1) to 5.5 m∙s -1 with the highest wind speeds (greater than 8 m∙s -1) 
+occurring from generally north-westerly directions.  Winds of this speed are rare and occur during 0.1 % of 
+the observed hours during the years.  Calm winds (less than 0.5 m∙s -1) are more common and occur during 
+23.7 % of hours on average across the years between 2019 and 2023. 
+  
+[[page 101]]
+ 
+24.1025.FR1V4 APPENDIX C Page 101 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure C1 Annual wind roses – Sydney Olympic Park AWS (2019 to 2023) 
+ 
+Source: Northstar 
+Figure C2 Annual wind direction and speed distributions – Sydney Olympic Park AWS (2019 to 2023) 
+ 
+Source:  Northstar 
+
+[[page 102]]
+ 
+24.1025.FR1V4 APPENDIX C Page 102 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table C2 Correlation coefficient analysis – Sydney Olympic Park AWS and Macquarie Park AQMS 
+(2019 to 2023) 
+Parameter 
+Wind speed Wind direction PM10 PM2.5 Aggregated 
+rank Corr. Rank Corr. Rank Corr. Rank Corr. Rank 
+2019 0.9988 1 0.9952 1 0.9679 5 0.9676 4 2 
+2020 0.9931 4 0.9856 4 0.9980 1 0.9937 3 3 
+2021 0.9973 3 0.9908 3 0.9977 2 0.9990 1 1 
+2022 0.9983 2 0.9912 2 0.9699 4 0.9619 5 4 
+2023 0.9871 5 0.9337 5 0.9801 3 0.9952 2 5 
+2019-2023 1 - 1 - 1 - 1 - - 
+Note:  Corr. = correlation 
+Wind speed observations for each year correlated well against the wind speed over the five-year period, with 
+each year having a correlation coefficient greater than 0.98.  The year 2019 is the highest ranked for correlation 
+against the wind speed over the five-year period.  
+Wind direction observations for each year are reasonably well correlated against the wind direction over the 
+five-year period, with each year having a correlation coefficient greater than of 0.93.  The year 2019 is the 
+highest ranked for correlation against the wind direction over the five-year period.   
+Particulate matter concentrations for each year are also well correlated against particulate matter 
+concentrations over the five-year period.  Each year resulted in having a correlation coefficient greater than 
+0.96.  The year 2020 is the highest rank for PM 10 while 2021 was the highest ranked year for PM 2.5. 
+The correlation coefficient analysis indicates that 2021 is the most representative year for meteorological 
+modelling. 
+Meteorological Processing  
+The BoM data adequately covers the issues of data quality assurance; however, it is limited by its location 
+compared to the Proposal site.  To address these uncertainties, a multi-phased assessment of the meteorology 
+data has been performed. 
+In absence of any measured onsite meteorological data, site representative meteorological data for this 
+Proposal was generated using the CALMET meteorological model in a format suitable for using in the 
+CALPUFF dispersion model (refer Section 5.2.1). 
+CALMET is a meteorological model that develops wind and temperature fields on a three-dimensional gridded 
+modelling domain.  Associated two-dimensional fields such as mixing height, surface characteristics, and 
+dispersion properties are also included in the file produced by CALMET.  The interpolated wind field is then 
+modified within the model to account for the influences of topography, as well as differential heating and 
+surface roughness associated with different land uses across the modelling domain.  These modifications are 
+[[page 103]]
+ 
+24.1025.FR1V4 APPENDIX C Page 103 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+applied to the winds at each grid point to develop a final wind field and thus the final wind field reflects the 
+influences of local topography and current land uses.   
+In this study, CALMET has been run in no-observations (no-obs) mode using gridded prognostic data 
+generated by The Air Pollution Model (TAPM, v 4.0.5), developed by the Commonwealth Scientific and 
+Industrial Research Organisation (CSIRO).   
+TAPM is a prognostic model which predicts wind speed and direction, temperature, pressure, water vapour, 
+cloud, rainwater, and turbulence.  The program allows the user to generate synthetic observations by 
+referencing databases (covering terrain, vegetation and soil type, sea surface temperature and synoptic scale 
+meteorological analyses) which are subsequently used in the model input to generate site-specific hourly 
+meteorological observations at user-defined levels within the atmosphere.   
+It is noted that the outputs from an initial TAPM modelling run were compared to observed meteorological 
+monitoring data collected at Fort Denison AWS.  These data did not compare well and correspondingly, given 
+the poor validation, that initial TAPM modelling run has not been used in this AQIA.  Subsequently, a second 
+TAPM run was performed which used observations at Macquarie Park AQMS and Sydney Olympic Park AWS 
+to ‘nudge’ model predictions towards those observations, and this has been used in this AQIA. 
+Given that the adopted TAPM modelling output was performed using observed meteorological data, no 
+validation at surrounding AWS has been performed and the second TAPM run is considered sufficient to 
+represent meteorological parameters at the Proposal site for use in CALMET. 
+The parameters used in TAPM and CALMET modelling are presented in Table C3. 
+Table C3 CALMET and TAPM meteorological parameters 
+TAPM v 4.0.5 
+Modelling period 1 January 2021 to 31 December 2021 
+Centre of analysis 324 905 mE, 6 257 487 mS (UTM Coordinates) 
+Number of grid points 41 × 41 × 25 
+Number of grids (spacing) 4 (30 km, 10 km, 3 km, 1 km) 
+Terrain AUSLIG 9 second DEM 
+Data assimilation Macquarie Park AQMS & Sydney Olympic Park AWS (Archery Centre) 
+CALMET 
+Modelling period 1 January 2021 to 31 December 2021 
+Southwest corner of analysis 322 700 mE, 6 253 500 mS (UTM Coordinates) 
+Meteorological grid domain 
+(resolution) 
+8 km x 8 km (0.1 km) 
+Vertical resolution  
+(cell heights) 
+10 (0 m, 20 m, 40 m, 80 m, 160 m, 320 m, 640 m, 1 200 m, 2 000 m, 3 000 m, 
+4 000 m) 
+Data assimilation No-obs approach using TAPM – 3D.DAT file 
+[[page 104]]
+ 
+24.1025.FR1V4 APPENDIX C Page 104 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+As generally required by the NSW EPA the following provides a summary of the modelled meteorological 
+dataset.  Given the nature of the pollutant emission sources at the Proposal site, detailed discussion of the 
+humidity, evaporation, cloud cover, katabatic air drainage and air recirculation potential of the Proposal site 
+has not been provided.  Details of the predictions of wind speed and direction, mixing height and temperature 
+at the Proposal site are provided below.   
+Diurnal variations in maximum and average mixing heights predicted by CALMET at the Proposal site during 
+2021 are illustrated in Figure C3. 
+As expected, an increase in mixing height during the morning is apparent, arising due to the onset of vertical 
+mixing following sunrise.  Maximum mixing heights occur in the mid to late afternoon, due to the dissipation 
+of ground-based temperature inversions and growth of the convective mixing layer. 
+Figure C3 Predicted mixing height, wind speed and stability class frequency at the Proposal site 
+(2021) 
+ 
+Source:  Northstar 
+The modelled wind speed and direction at the Proposal site during 2021 are presented in Figure C3. 
+ 
+  
+
+[[page 105]]
+ 
+24.1025.FR1V4 APPENDIX C Page 105 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure C3 Predicted wind direction and speed – Proposal site (2021) 
+ 
+Source:   Northstar 
+ 
+  
+
+[[page 106]]
+ 
+24.1025.FR1V4 APPENDIX D Page 106 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+APPENDIX D 
+Background Air Quality 
+  
+[[page 107]]
+ 
+24.1025.FR1V4 APPENDIX D Page 107 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Air quality is not monitored at the Proposal site and therefore air quality monitoring data measured at a 
+representative location has been adopted for the purposes of this assessment.  Determination of data to be 
+used as a location representative of the Proposal site and during a representative year can be complicated 
+by factors which include: 
+ the sources of air pollutant emissions around the Proposal site and representative AQMS; and 
+ the variability of particulate matter concentrations (often impacted by natural climate variability).   
+Two AQMS have been identified within a radius of 10 km of the Proposal site, operated by NSW DCCEEW.  
+These locations (listed by proximity) are summarised in Table D1. 
+Table D1 Details of AQMS within 10 km of the Proposal site 
+AQMS location 
+Distance to  
+Proposal site (km) 
+Measurements 
+PM10 PM2.5 TSP NO2 CO SO2 
+Lindfield 2.7      
+Macquarie Park 5.2      
+ 
+The closest active AQMS is noted to be located at Lindfield and is generally considered to be the monitoring 
+location most reflective of the conditions at the Proposal site, however, Lindfield AQMS does not monitor a 
+number of pollutants of interest to this study and was decommissioned in 2019.  Correspondingly, data 
+collected at Macquarie Park AQMS for the period 2019 to 2023 have been analysed.  The annual frequency 
+distribution for the five-year period is presented in Figure D1.  
+The results of the correlation coefficient analysis provided in Appendix C indicates that meteorological and 
+PM data measured in 2021 is the most appropriate dataset for use within this AQIA.   
+ 
+A statistical summary of the measured concentrations of TSP, PM 10, PM2.5, CO, SO2 and O3 at Macquarie Park 
+AQMS for 2021 is presented in Table D2.   
+Concentrations of TSP are not measured at any AQMS surrounding the Proposal site.  An analysis of co-
+located measurements of TSP and PM 10 in the Lower Hunter (1999 to 2011), Illawarra (2002 to 2004), and 
+Sydney Metropolitan (1999 to 2004) regions is presented in Figure D2.   
+The analysis concludes that, on the basis of the measurements collected in all regions between 1999 to 2011, 
+the derivation of a broad TSP:PM 10 ratio of 2.0551 : 1 (i.e. PM 10 represents ~49% of TSP) from the Sydney 
+Metropolitan location is appropriate.  In the absence of any more specific information, this ratio has been 
+adopted within this AQIA, resulting in a background annual average TSP concentration of 27.1 µg·m -3 being 
+adopted.   
+Graphs presenting the daily varying PM 10 and PM 2.5 data, and 1-hour average NO 2, data recorded at 
+Macquarie Park AQMS in 2021 are presented in Figure D3, Figure D4 and Figure D5 respectively.   
+[[page 108]]
+ 
+24.1025.FR1V4 APPENDIX D Page 108 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure D1 Annual distribution at Macquarie Park AQMS for PM 10 (2019 to 2023) 
+ 
+Source: Northstar 
+Figure D2  Co-located TSP and PM10 measurements – Lower Hunter, Sydney Metro, and Illawarra 
+ 
+Source: Northstar
+
+[[page 109]]
+ 
+24.1025.FR1V4 APPENDIX D Page 109 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Table D2 Background air quality statistics – Macquarie Park AQMS (2021) 
+Pollutant TSP PM10 PM2.5 SO2 SO2 NO2 O3 CO CO CO 
+Units µg·m-3 µg·m-3 µg·m-3 µg·m-3 µg·m-3 µg·m-3 µg·m-3 mg·m-³ mg·m-³ mg·m-³ 
+Averaging period Annual 24-hour 24-hour 24-hour 1-hour 1 hour 1 hour 15-min 1-hour 
+8-hour 
+(rolling) 
+Data Points (nb) 352 352 357 355 8189 8155 8231 8021 8021 8482 
+Mean 27.1 13.2 7.3 0.8 0.9 7.2 37.6 0.5 0.4 0.4 
+Standard deviation  - 8.5 14.4 2.0 3.5 8.3 25.2 0.4 0.3 0.3 
+Skew1 - 7.8 10.9 3.8 9.9 2.8 0.5 20.4 20.4 13.8 
+Kurtosis2 - 94.0 136.4 20.7 153.7 25.4 0.2 575.3 575.3 243.3 
+Minimum - 1.7 -0.6 0.0 -5.7 -6.2 0.0 -0.2 -0.1 -0.1 
+Percentiles 
+25th  - 9.2 3.7 0.0 0.0 2.1 15.0 0.3 0.3 0.3 
+50th - 12.3 5.1 0.0 0.0 4.1 36.4 0.5 0.4 0.4 
+75th - 15.2 7.3 0.0 0.0 10.3 55.6 0.5 0.4 0.4 
+90th - 19.4 10.4 2.9 2.9 18.5 68.5 0.7 0.5 0.5 
+95th   - 22.1 13.1 5.7 5.7 22.6 79.2 0.8 0.6 0.6 
+97th - 25.1 17.6 5.7 5.7 26.7 85.6 0.8 0.6 0.6 
+98th - 26.7 18.5 5.7 8.6 28.7 92.0 1.0 0.8 0.8 
+99th - 28.5 47.0 7.0 14.3 32.8 102.7 1.2 0.9 0.9 
+Maximum 27.1 125.2 213.1 17.2 97.2 149.7 179.8 16.5 12.5 6.4 
+Data Capture (%) 96.2 96.2 97.5 97.0 93.2 92.8 93.7 91.3 91.3 96.6 
+Notes: 1: Skew represents an expression of the distribution of measured values around the derived mean.  Positive skew represents a distribution tending towards values higher than the mean, and negative 
+skew represents a distribution tending towards values lower than the mean.  Skew is dimensionless. 
+2: Kurtosis represents an expression of the value of measured values in relation to a normal distribution.  Positive skew represents a more peaked distribution, and negative skew represents a distribution 
+more flattened than a normal distribution.  Kurtosis is dimensionless 
+. 
+[[page 110]]
+ 
+24.1025.FR1V4 APPENDIX D Page 110 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure D3 24-hour average PM 10 concentrations – Macquarie Park AQMS (2021) 
+ 
+Source: Northstar 
+Figure D4 24-hour average PM 2.5 concentrations – Macquarie Park AQMS (2021) 
+ 
+Source: Northstar 
+
+[[page 111]]
+ 
+24.1025.FR1V4 APPENDIX D Page 111 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+Figure D5 1-hour average NO 2 concentrations – Macquarie Park AQMS (2021) 
+ 
+Source: Northstar 
+  
+
+[[page 112]]
+ 
+24.1025.FR1V4 APPENDIX E Page 112 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+APPENDIX E 
+Generator Technical Specifications 
+  
+[[page 113]]
+ 
+24.1025.FR1V4 APPENDIX E Page 113 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+MTU 16V4000G84F 
+ 
+ 
+  
+
+[[page 114]]
+ 
+24.1025.FR1V4 APPENDIX E Page 114 
+Final  Apollo Place Data Centre (SSD-67407231) - Air Quality Impact Assessment 
+MTU 16V4000G84F 
+ 
+ 
+
+[[page 115]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

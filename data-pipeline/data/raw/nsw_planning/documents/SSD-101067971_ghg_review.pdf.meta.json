@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-101067971%2120260514T043605.266+GMT",
+ "project_slug": "project-atlas-data-centre-eastern-creek",
+ "attachment_slug": "appendix-pp-independent-review-greenhouse-gas-assessment",
+ "kind": "ghg_review",
+ "label": "Appendix PP Independent Expert Review of Greenhouse Gas Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:24:22+00:00",
+ "sha256": "1e55d4c76d1c838f027c971ea5b682133a757c617289cc51c8a5deb913410b9c",
+ "bytes": 535984,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 27035,
+ "pages": 11,
+ "text_redactions": 3,
+ "pdf_committed": false
+}

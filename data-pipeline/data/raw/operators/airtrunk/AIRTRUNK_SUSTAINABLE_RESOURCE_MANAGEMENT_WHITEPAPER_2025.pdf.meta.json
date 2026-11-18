@@ -1,0 +1,10 @@
+{
+ "url": "https://airtrunk.com/wp-content/uploads/2025/04/AIRTRUNK_SUSTAINABLE_RESOURCE_MANAGEMENT_WHITEPAPER_2025.pdf",
+ "requested_url": "https://airtrunk.com/wp-content/uploads/2025/04/AIRTRUNK_SUSTAINABLE_RESOURCE_MANAGEMENT_WHITEPAPER_2025.pdf",
+ "fetched_utc": "2026-11-18T14:11:38+00:00",
+ "sha256": "0ded98eb6a2843a142da805c4cc16f208be0818dbf97e6a45f3067b9bf642c8f",
+ "bytes": 3653738,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 13
+}

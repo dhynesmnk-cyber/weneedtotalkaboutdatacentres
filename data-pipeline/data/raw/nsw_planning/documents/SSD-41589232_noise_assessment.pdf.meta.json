@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-41589232%2120220916T041044.541+GMT",
+ "project_slug": "51-huntingwood-drive-data-centre",
+ "attachment_slug": "appendix-25-acoustic-assessment-report-73",
+ "kind": "noise_assessment",
+ "label": "Appendix 25 - Acoustic Assessment Report.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:13:59+00:00",
+ "sha256": "45c3d13a024a97337c1dcfc76b2b2b0c5a03f7e801d0aaaff484f827684b819a",
+ "bytes": 5185095,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 86804,
+ "pages": 62,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

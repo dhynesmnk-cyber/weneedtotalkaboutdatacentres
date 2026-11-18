@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-4%2120260813T051137.062+GMT",
+ "project_slug": "roberts-road-dc-mod-4-changes-operational-infrastructure",
+ "attachment_slug": "appendix-nghg-peer-review",
+ "kind": "ghg_peer_review",
+ "label": "Appendix N_GHG Peer Review.pdf",
+ "folder": "Modification Application",
+ "fetched_utc": "2026-11-18T06:12:31+00:00",
+ "sha256": "cd24aef8179af02b56e0e570c55946cc6e5ed2957636c04625e388c45fbffe63",
+ "bytes": 239203,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 17619,
+ "pages": 6,
+ "text_redactions": 3,
+ "pdf_committed": false
+}

@@ -1,0 +1,4674 @@
+[[page 1]]
+ 
+  
+ 
+Confidential 
+SY10 Data Centre  
+Air Quality Impact Assessment 
+Reference: SY10-RP-Y-7011-XX-XX-XXXX-ARP 
+Revision 3 | 12 July 2023 
+ 
+ 
+ 
+ 
+This report takes into account the particular instructions and requirements of our client.  It is not 
+intended for and should not be relied upon by any third party and no responsibility is undertaken to 
+any third party. 
+ 
+  
+Job number  293370-13 
+Arup Australia Pty Ltd | ABN 76 625 912 665 
+Arup Australia Pty Ltd 
+Wurundjeri Woiwurrung Country  
+Sky Park One Melbourne Quarter 
+699 Collins Street  
+Docklands  VIC 3008  
+Australia 
+arup.com  
+ 
+[[page 2]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+ 
+Document Verification 
+ 
+Project title SY10 Data Centre 
+Document title  Air Quality Impact Assessment 
+Job number 293370-13 
+Document ref SY10-RP-Y-7011-XX-XX-XXXX-ARP 
+File reference  
+ 
+ 
+Revision Date Filename SY10 Air Quality Report_Rev1.docx 
+1 24 March 2023 Description Draft Issue 
+ Prepared by Checked by Approved by 
+Name SG LAS LAS 
+Signature    
+2 6 June 2023 Filename SY10 Air Quality Report_Rev2.docx 
+Description Draft Issue 
+ Prepared by Checked by Approved by 
+Name SG LAS LAS 
+Signature    
+3 12 July 2023 Filename SY10 Air Quality Report_Rev3.docx 
+Description Addressing Equinix and Patch review comments. 
+ Prepared by Checked by Approved by 
+Name SG LAS LAS 
+Signature    
+ 
+Issue Document Verification with Document      
+
+[[page 3]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+Executive summary 
+Arup Australia Pty Ltd (Arup) was engaged by the Equinix Hyperscale 2 (SY10) Pty Limited (Equinix) to 
+undertake an air quality impact assessment for a proposed new 31.2MW data centre known as SY10, which 
+comprises land known as 8 and 8A Grand Avenue, Rosehill (herein referred to as “the proposal” or “the 
+site”). The air quality impact assessment report has been prepared in support of a Stage 2 Detailed Design 
+State Significant Development Application (SSDA) submission to the Department of Planning and 
+Environment (DPE) under Part 4 of the Environmental Planning and Assessment Act 1979  (EP&A Act 
+1979). 
+The SY10 proposal will comprise the erection of a 2nd  data centre at the site including associated roof 
+mounted plant equipment, generators, civil works, and landscaping. The eastern portion of the site comprises 
+an existing three storey data centre known as SY9, associated plant and equipment, generators, internal 
+roads, car parking and landscaping. 
+Existing Environmental Conditions 
+The site exhibits an industrial character, consisting of various industrial uses, supplier warehouses, 
+distribution centres and motor repair workshops amongst other development types typically found in an 
+industrial zone. Nearby commercial/industrial sensitive receivers are located at 23 metres to the south of the 
+proposal site, with residential sensitive receivers located more than 1 km away from the site. 
+Site-representative meteorological conditions were derived from prognostic meteorological model 
+AERMET. Analysis of site representative meteorological data for the past five years period (2018-2022) was 
+undertaken to determine the most representative year for typical meteorological conditions as required by the 
+Approved Methods, and year 2022 data was adopted. 
+Winds are most prevalent from the west-south-west with frequency of occurrence of just above 6 per cent. 
+The average wind speed is 3.1 m/s. Calm winds are considered infrequent at the site at about 2% occurrence, 
+which indicates that meteorological conditions are favourable for dispersion. 
+Representative background air quality conditions were sourced from the nearby NSW Department of 
+Planning and Environment (DPE) air quality monitoring station (AQMS) at North Parramatta, approximately 
+4.3 km to the north-west of the proposal. The North Parramatta AQMS records all there relevant pollutants, 
+such as NO 2, SO 2, O 3, CO and particulate matter (PM 10  and PM 2.5 ). 
+Pollutant Impact Assessment 
+Construction 
+There is the potential for dust generation associated with the construction of the proposal. The main dust-
+generating activities associated with earthworks and construction of buildings would be close to the site 
+boundary. Given the distance of residential sensitive receivers from potential dust generating activities at the 
+site, the quantum of dust-generating activities that would be required and the temporary nature of the 
+construction activity, it is anticipated that the risk of amenity/nuisance issues and human health impacts 
+would be low. Standard management measures to control the generation and spread of dust would need to be 
+outlined in a construction environmental management plan (CEMP) for the proposal. 
+Operation 
+The total number of standby generators on-site for the two buildings is expected to be 38 (19 generators per 
+building with 17 “on-duty” and two “on-reserve”). A dispersion modelling assessment of the proposed 17 
+on-duty standby generators within the proposal’s site, as well as the inclusion of cumulative impact from the 
+17 on-duty standby generators from the adjoining SY9 data centres located within the same vicinity, has 
+been undertaken to ascertain the air quality impacts at nearby receivers. This assessment considered a 
+justified worst case scenario, where all 17 generators per building would be operational (in the event of a 
+power outage), as well as routine maintenance/testing (realistic operations). The assessment was conducted 
+to comply with requirements of the Secretary’s Environmental Assessment Requirements (SEARs). 
+[[page 4]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+The assessment was undertaken using AERMOD plume dispersion modelling software. Emissions to air 
+from the standby generators associated with this proposal and the adjacent data centre have been estimated 
+using manufacturer’s specification datasheets for indicative pieces of equipment. Predicted ground-level 
+concentrations were assessed at identified nearby discrete sensitive receivers.  
+Hourly varying background concentration data were used to assess those pollutants likely to have the greatest 
+risk of exceeding relevant impact assessment criteria such as nitrogen dioxide (NO 2), and particulate matter, 
+this helps to avoid over conservatism. Maximum background concentration data across the year were used to 
+assess impacts for sulfur dioxide (SO 2) and carbon monoxide (CO). In addition, incremental ground-level 
+concentrations were also assessed for toxic pollutants such as benzene and polycyclic aromatic hydrocarbons 
+(PAH). 
+A photochemical conversion for short-term concentrations (i.e. hourly average) from nitrogen oxides (NO x) 
+to NO 2 were determined in accordance with the US EPA’s Ozone Limiting Method 1 (OLM), which is 
+recognised in the NSW Approved Methods. 
+Justified Worst-Case Scenario 
+As a worst case scenario, the assessment has assumed all on-duty standby generators would be required to 
+operate at the same time. As these generators are for standby purposes, it is assumed that they would be in 
+operation for short periods of time only during a power outage and therefore impacts have only been 
+assessed for short-term averaging periods. 
+The modelling results indicated that the predicted ground level concentrations for all assessed pollutants 
+generally meet the impact assessment criteria outlined in the Approved Methods for the Modelling and 
+Assessment of Air Pollutants in New South Wales  (EPA, 2022)(the ‘Approved Methods’) at all identified 
+sensitive receivers. One-hour average concentrations of NO 2, exceed the impact assessment criteria at the 
+nearby commercial/industrial sensitive receivers. 
+Exceedances of the pollutant impact assessment criteria (in particular for NO 2) are not uncommon for 
+facilities including standby diesel generators, where all generators would be required to operate where a loss 
+of mains power occurs and receivers are in close proximity to the site. Predicted exceedances of the impact 
+assessment criteria for NO 2 are likely to occur under this scenario, however it should be noted that the 
+likelihood of this scenario occurring is expected to be rare at the site. 
+Likelihood of Justified Worst-Case Scenario 
+Under typical conditions, power for the proposal is fed directly from the grid. A review of the Endeavour 
+Energy Distribution Annual Planning Reports (2018-2022 ), it has been determined that the average 
+unplanned actual system average interruption duration index (SAIDI) 2 of power outage incident is 78-167 
+minutes (total cumulative events) per year per customer – based on year 2018-2022 of SAIDI data. The 
+Endeavour Energy network covers areas including Greater Western Sydney, including major cities such as 
+Parramatta as well as the proposal’s location in Rosehill. 
+Furthermore, whilst the above based the reliability on Endeavour statistical data for the overall network, it is 
+understood that the nature of the site utility power supply (highly-resilient 132kV supplies with redundancy 
+built into the on-site substation) will result in a very high level of reliability for the utility supply from 
+Endeavour Energy to reduce the risk of a power outage. The failure rates for a supply in the high reliability 
+utility supply arrangement at the site are therefore expected to be significantly lower than the above-
+published network data. 
+Based on the above findings, despite predicted exceedances against the pollutant impact assessment criteria 
+during operation of all standby generators concurrently, it is unlikely that this justified worst-case scenario 
+ 
+1 Cole, H. S., & Summerhays, J. E. (1979).  A Review of Techniques Available for Estimating Short-Term NO 2 concentrations . J. Air Poll. Cont. 
+Assoc., 29:8 , 812-817. doi:10:1080/00022470.1979.10470866. 
+2 The SAIDI is a measure in minutes the average duration of an incident weighted by the number of customers affected by each incident. That is, if 10 
+customers suffer a 10-minute interruption and there are 100 customers in the region, then this would equal a SAIDI of 1 minute. Multiple incidents 
+are added together, so if a second incident of 15 minutes affected 10 customers, then that would be added to the first incident and equal a SAIDI of 
+2.5 minutes. 
+[[page 5]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+would occur in a typical year. If it did occur, the standby generators are likely to only operate for up to 
+0.03% of the year due to power outages. 
+Realistic Operations during Routine Maintenance 
+The on-duty standby generators would undergo routine maintenance and testing to make sure they are 
+operational if required during a power outage. Routine maintenance follows a prescribed testing regime that 
+sets the frequency and duration of testing to minimise emissions to air while undertaking all required 
+maintenance. For the proposal, it is anticipated that a maximum of two generators (one for SY9 and one for 
+SY10) would be tested at any one time on a given hour during the daytime.  
+Dispersion modelling has been undertaken to determine potential air quality impacts at nearby identified 
+sensitive receivers as a result of routine maintenance. Predicted pollutant concentrations at nearby identified 
+sensitive receivers during all maintenance or testing periods are below the impact assessment criteria for all 
+assessed pollutants, due to less generators being operational for shorter periods of time, compared with the 
+justified worst-case scenario. Therefore, the air quality impact risk from the routine maintenance activity 
+would be negligible. 
+Environment Management Measures  
+General air quality mitigation and management measures recommended for the proposal have been provided 
+in Section 7 of this report. These include recommendations to control emissions to air and dust during 
+construction, which can be incorporated in the Construction Environmental Management Plan (CEMP). 
+These also include measures for the operator to minimise operation of the generators as far as practicable.  
+[[page 6]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+Contents  
+ 
+1.  Introduction 9 
+1.1 Purpose of this report 9 
+1.2 Site location and context 9 
+1.3 Site description 10 
+1.4 Planning background 12 
+1.5 Overview of proposed development 12 
+1.6 SEARs relevant to this report 13 
+2.  Identification of potential emission sources 14  
+2.1 Construction phase 14 
+2.2 Operation phase 14 
+3.  Assessment methodology 19  
+3.1 Relevant legislation and policies 19 
+3.2 Establishment of existing environmental conditi ons 21 
+3.3 Study area 23 
+3.4 Construction phase 24 
+3.5 Operational phase 24 
+4.  Existing environment 33  
+4.1 Local meteorology 33 
+4.2 Adopted background air quality 35 
+4.3 Sensitive receivers 36 
+5.  Construction assessment 38  
+6.  Operational assessment 39  
+6.1 Scenario 1 – Justified worst-case scenario (17 generators operating in a loss of mains power) 39 
+6.2 Scenario 2 – Realistic operations (Routine main tenance testing) 45 
+6.3 POEO (Clean Air) Regulation – Standard of conce ntrations 52 
+7.  Mitigation Measures Summary 53  
+8.  References 55  
+ 
+Tables  
+Table 1-1: SEARs for air quality 13 
+Table 2-1: Endeavour Energy SAIDI Targets vs Actuals (2018-2022) 16 
+Table 2-2: Standby Generator Annual Testing Regime 17 
+Table 3-1: Schedule 2, Part 2, Division 3 – Standards of concentration for (Group 6) scheduled 
+premises 20 
+Table 3-2: Schedule 2 Part 3 – Standards of concentration for (Group C) non-scheduled premises 20 
+Table 3-3: Applicable air quality impact assessment criteria 21 
+Table 3-4: 2022 background air quality data capture (North Parramatta) 22 
+Table 3-5: General inputs for AERMOD dispersion modelling 25 
+Table 3-6: SY9 standby generator stack design parameters and emission inventory 30 
+Table 3-7: SY10 standby generator stack design parameters and emission inventory 31 
+[[page 7]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+Table 4-1: Maximum monitored background concentrations 35 
+Table 4-2: Identified nearby discrete sensitive receivers 36 
+Table 6-1: Predicted 100 th  percentile 1-hour NO 2 GLCs (Scenario 1) 39 
+Table 6-2: Predicted 100 th  percentile 24-hour PM 10  and PM 2.5  GLCs (Scenario 1) 40 
+Table 6-3: Predicted 100 th  percentile GLCs for 8-hour CO and 24-hour SO 2 (Scenario 1) 41 
+Table 6-4: Predicted 100 th  percentile 1-hour GLCs for all other assessed pollutants (Scenario 1) 42 
+Table 6-5: Predicted 100 th  percentile 15-minute GLCs for CO (Scenario 1) 43 
+Table 6-6: Predicted Maximum GLCs (Scenario 1) 44 
+Table 6-7: Predicted 100 th  percentile 1-hour NO 2 GLCs (Scenario 2) 46 
+Table 6-8: Predicted 100 th  percentile 24-hour PM 10  and PM 2.5  GLCs (Scenario 2) 47 
+Table 6-9: Predicted 100 th  percentile GLCs for 8-hour CO and 24-hour SO 2 (Scenario 2) 48 
+Table 6-10: Predicted 100 th  percentile 1-hour GLCs for all other assessed pollutants (Scenario 2) 49 
+Table 6-11: Predicted 100 th  percentile 15-minute GLCs for CO (Scenario 2) 50 
+Table 6-12: Predicted Maximum GLCs (Scenario 2) 51 
+Table 6-13: POEO (Clean Air) Regulation Schedule 6 – Standards of concentrations assessment 52 
+Table 7-1: Environmental management measures for air quality impacts 53 
+ 
+ 
+Figures 
+Figure 1-1: Site location (Source: Six Maps NSW Government) 10 
+Figure 1-2: Stage 2 SSDA Development Footprint (Source: Metromap modified by Patch) 11 
+Figure 1-3: Site plan depicting Lot 9 and Lot 10 Deposited Plan 1275083 which form the site (Source: 
+Metromap modified by Patch) 11 
+Figure 1-4: Project overview 13 
+Figure 2-1: Standby generator locations 15 
+Figure 2-2: Endeavour Energy SAIDI trend (Source: Endeavour Energy 2022) 16 
+Figure 3-1: AERMOD model extent 26 
+Figure 3-2: Modelled AERMOD topography 27 
+Figure 3-3: Modelled surrounding buildings 28 
+Figure 4-1: Wind Rose for 2022 data 33 
+Figure 4-2: Wind Class Frequency Distribution for 2022 data 34 
+Figure 4-3: Seasonal Wind Rose for 2022 35 
+Figure 4-4: Modelled nearby sensitive receiver locations 37 
+Figure 6-1: Map locations of predicted maximum GLCs (Scenario 1) 44 
+Figure 6-2: Map locations of predicted maximum GLCs (Scenario 2) 52 
+ 
+ 
+Appendices  
+Appendix A A-56  
+Standby diesel generator specification A-56 
+SY9 Generator emission data sheet A-57 
+SY10 Generator emission data sheet A-58 
+Appendix B B-59  
+Local meteorological conditions for year 2018-2022 B-59 
+[[page 8]]
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  
+ 
+Appendix C C-65  
+North Parramatta background air quality charts 2018-2022 C-65 
+Nitrogen dioxide C-66 
+Carbon monoxide C-68 
+Sulfur dioxide C-70 
+Ozone C-72 
+Particulate matter (PM 10 ) C-74 
+Particulate matter (PM 2.5 ) C-76 
+Appendix D D-78  
+Modelled generator stack coordinates D-78 
+Appendix E E-80  
+Predicted generator emission – Dispersion modelling contours (Scenario 1) E-80 
+CO 1-hour Incremental GLCs E-81 
+CO 1-hour Cumulative GLCs E-82 
+CO 8-hour Incremental GLCs E-83 
+CO 8-hour Cumulative GLCs E-84 
+SO 2 1-hour Incremental GLCs E-85 
+SO 2 1-hour Cumulative GLCs E-86 
+SO 2 24-hour Incremental GLCs E-87 
+SO 2 24-hour Cumulative GLCs E-88 
+NO 2 1-hour Incremental GLCs E-89 
+NO 2 1-hour Cumulative GLCs E-90 
+Benzene 1-hour Incremental GLCs E-91 
+PAH 1-hour Incremental GLCs E-92 
+PM 10  or PM 2.5  24-hour Incremental GLCs E-93 
+PM 10  24-hour Cumulative GLCs E-94 
+PM 2.5  24-hour Cumulative GLCs E-95 
+ 
+ 
+[[page 9]]
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 9
+ 
+1.  Introduction 
+1.1 Purpose of this report 
+This air quality impact assessment report has been prepared on behalf of Equinix Hyperscale 2 (SY10) Pty 
+Limited (Equinix) in support of a Stage 2 Detailed Design State Significant Development Application 
+(SSDA) submission to the Department of Planning and Environment (DPE) under Part 4 of the 
+Environmental Planning and Assessment Act 1979  (EP&A Act 1979). 
+The SSDA seeks approval for a new 31.2MW data centre known as SY10 at the site, which comprises land 
+known as 8 and 8A Grand Avenue, Rosehill (herein referred to as “the proposal” or “the site”). The SSDA 
+has been prepared to comply with a concept approval granted under DA/751/2019/D by Parramatta City 
+Council on 15 June 2023. In summary, the proposed development will comprise the erection of a 2 nd  data 
+centre at the site including associated roof mounted plant equipment, generators, civil works, and 
+landscaping. 
+This report provides an assessment of the potential impact from the construction and operation of the 
+proposal on local air quality at nearby sensitive receivers, and responds to the Secretary’s Environmental 
+Assessment Requirements (SEARs) issued by DPE on 12 January 2023 in relation to the proposal. 
+The air quality impact assessment in this report has been conducted in accordance with the following 
+legislation, policy and guidelines: 
+• NSW Protection of the Environment Operations (Clean Air) Regulation 2022 
+• NSW EPA – Approved Methods for the Modelling and Assessment of Air Pollutants in New South Wales  
+(August 2022) 
+• NSW Protection of the Environment Operations Act 1997 – Section 128 
+This assessment characterises the local meteorological and air quality conditions at the site and its 
+surroundings, qualitatively assesses impact associated with the construction phase and provides a detailed 
+dispersion modelling assessment of the proposed standby generators to be installed at the site (inclusive of 
+potential cumulative impact from Stage 1 standby generators – see section 1.3), as a worst-case scenario as 
+well as considering a regular testing scenario.  
+Recommendations for in-principal air quality mitigation measures have been discussed to assist in 
+minimising any residual emission impacts from the proposal, where necessary. 
+1.2 Site location and context 
+The site is within the City of Parramatta local government area (LGA) and comprises two parcels of land 
+known as 8 and 8A Grand Avenue, Rosehill. 
+It is within the Rosehill locality, which is approximately 2.5km to the east of Parramatta CBD and 17km 
+west of the City of Sydney CBD. Other nearby centres include Rydalmere to the north (0.6km), Auburn to 
+the south (3km), Wentworth point to the east (3km) and Harris Park to the west (2.5km). 
+The area surrounding the site is predominantly industrial in nature and generally consists of various 
+industrial uses, supplier warehouses, distribution centres and motor repair workshops amongst other 
+development types typically found in an industrial zone. 
+[[page 10]]
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 10 
+ 
+ 
+Figure 1-1: Site location (Source: Six Maps NSW Government) 
+1.3 Site description 
+The site comprises two separate parcels of land legally described as Lot 10 DP1275083 (8 Grand Avenue, 
+Rosehill) and Lot 9 DP1275083 (8A Grand Avenue, Rosehill). Works proposed under the SSDA are limited 
+to Lot 10, with Lot 9 having already been developed in accordance with the Stage 1 Detailed DA component 
+of DA/751/2019/C. 
+The site is a battle axe lot and has a total area of approximately 42,750sqm. It adjoins an industrial 
+development owned by Billbergia to the north, a James Hardie Building Products development to the south, 
+Simmonds Lumber to the east and the Parramatta Light Stabling Yard to the west. 
+The eastern portion of the site comprises an existing three storey data centre known as SY9, associated plant 
+and equipment, generators, internal roads, car parking and landscaping. In addition, development for the 
+purposes of a private substation and switching station are also approved along the eastern boundary under 
+DA821/2022, however are yet to be constructed. In contrast, the western portion of the site, which is the 
+subject of this SSDA, is currently undeveloped and comprises vacant industrial land clear of any vegetation. 
+The topography of the site can be described as generally flat, which is a result of grading works that have 
+been undertaken under previous consents relating to the site. 
+Figure 1-2 below shows the Stage 2 SSDA footprint while Figure 1-2 shows individual lots which make up 
+the site. 
+ 
+[[page 11]]
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 11 
+ 
+ 
+Figure 1-2: Stage 2 SSDA Development Footprint (Source: Metromap modified by Patch) 
+ 
+ 
+Figure 1-3: Site plan depicting Lot 9 and Lot 10 Deposited Plan 1275083 which form the site (Source: Metromap modified 
+by Patch) 
+ 
+Lot 10  
+Lot 9  
+Grand Avenue   
+ 
+Grand Avenue   
+
+[[page 12]]
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 12 
+ 
+1.4 Planning background 
+The SSDA is for the 2 nd  Stage of development at the site and is submitted following a modified approval 
+being granted by Parramatta Council under DA/751/2019/D on 15 June 2023. The subject approval (as 
+modified) provides Stage 1 detailed design approval and Stage 2 concept approval for a data centre campus 
+as described below: 
+• Detailed design (Stage 1) approval for the following: 
+− A 3 storey data centre development (SY9) with a maximum height of 20m and a total GFA of 
+14,806sqm (FSR of 0.367:1); 
+− Western gantry comprising mechanical plant, cooling towers and electrical plant required for the 
+proper functioning of the building; 
+− Communal open space and a total landscaped area of 2,419.55sqm (5.8% of the site); 
+− Internal road network including 105 car parking spaces to support both stages of the development; 
+− Other associated infrastructure required for operations and 2,400sqm of PV solar panels; and  
+− Space provisioning for private substations within the access handle and to the east of Building A. 
+• Concept (stage 2) approval for the following: 
+− A building envelope for a 2 nd  data centre development (SY10) with a maximum height of 25.8m and 
+a maximum total GFA of 14,856sqm; and 
+− A landscaped area not less than 2,057sqm in accordance with the approved concept landscape plans. 
+1.5 Overview of proposed development 
+This SSDA seeks approval for a new 3 storey 31.2MW data centre facility which will operate 24 hours a day, 
+7 days a week. The proposal has been designed to comply with concept approval conditions under Part A of 
+DA/751/2019/C granted by the City of Parramatta on 15 June 2023. 
+In summary, approval for the following is sought for development comprising: 
+• Site preparation works and earthworks and installation of services to enable the construction of the data 
+centre; 
+• Construction of a 3 storey 31.2MW data centre facility with roof mounted plant comprising 14,856sqm 
+of GFA and having a maximum height of 25.8sqm; 
+• Associated mechanical, electrical and water infrastructure (including 4 water tanks), 2 rainwater tanks, 
+along with 19 diesel generators required in order to ensure the proper and safe functioning of the facility; 
+• Construction of an internal road to enable vehicular circulation around the building from Building A, 
+loading areas and on-site car parking; and 
+• Landscaping works not less than 2,057sqm along the western and southern boundaries to the rear of the 
+data centre; and 
+• Construction of a 1.8m high security fence along the perimeter of the site. 
+The proposed development is depicted in the Figure 1-4 below, with full architectural details provided in the 
+architectural plans in Appendix 5 of the EIS, of which this report also forms an Appendix. 
+ 
+[[page 13]]
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 13 
+ 
+ 
+Figure 1-4: Project overview 
+1.6 SEARs relevant to this report 
+This air quality impact assessment report has been prepared to respond to the SEARs issued for the SY10 
+project. Table 1-1 identified the SEARs that are relevant to this air quality assessment and where they are 
+addressed within the report. 
+Table 1-1: SEARs for air quality 
+Issue and Assessment Requirements Documentation Response 
+11. Air Quality Impact 
+− Provide an assessment of air quality 
+impacts, prepared in accordance 
+with the relevant NSW Environment 
+Protection Authority (EPA) 
+guidelines. The assessment must 
+address construction works and 
+include modelling of emissions and 
+air pollutants from predicted 
+operations (including testing of the 
+back-up power system) and a peak 
+emission and air pollutant scenario, 
+and outline the proposed mitigation, 
+management and monitoring 
+measures that would be 
+implemented. 
+Air Quality 
+Impact 
+Assessment 
+This report details the air quality impact 
+assessment undertaken in accordance with the 
+NSW Approved Methods 2022. Below are some 
+relevant sections in this report to address this 
+SEARs requirements. 
+- Construction works (Section 2.1) 
+- Operational works (Section 2.2) 
+- Discussion of construction air quality impact 
+(Section 3.3 and 4) 
+- Air pollutant dispersion modelling outcome 
+during operational emergency scenario 
+(Section 6.1) 
+- Air pollutant dispersion modelling outcome 
+during operational routine maintenance 
+testings (Section 6.2) 
+- Provision of air quality mitigation measures 
+(Section 7) 
+
+[[page 14]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 14 
+ 
+2.  Identification of potential emission sources 
+2.1 Construction phase 
+There is the potential for dust generation associated with the construction of the proposal, including the 
+following activities: 
+• Earthworks 
+• Construction of new access roads 
+• Construction of pavements, services and hardstand 
+Typical construction equipment used for the proposal are likely to be: 
+• Scrapers 
+• Graders 
+• Loaders 
+• Excavators 
+• Pile driver 
+• Heavy vehicles/trucks 
+The above-mentioned construction equipment will emit combustion emissions (particularly NO 2, PM 10  and 
+PM 2.5 ) and are likely to generate dust as they move around the site, which may impact the surrounding air 
+quality.  
+2.2 Operation phase 
+2.2.1  Standby generators 
+The masterplan drawing in Figure 2-1 shows that the proposal (SY10) and SY9 buildings and the respective 
+generator locations. The total number of standby generators on-site for the two buildings is expected to be 38 
+(19 generators per building with 17 “on-duty” and two “on-reserve”). The purpose of these generators is to 
+support the buildings’ power requirement for critical IT systems and other site infrastructure in the event of 
+mains power loss (emergency event). 
+Figure 2-1 shows the location of the standby generators. For SY10, generators are located at ground level, 
+adjacent to the data centre buildings, whereas for SY9, generators are located within a generator building 
+with exhaust stacks located to the south of the building. 
+Each generator has a capacity of 3 MW e, with a fuel consumption rate of up to 674 L/hr at 100% load. The 
+diesel generator specification for SY9 and SY10 are presented in Appendix A. 
+ 
+[[page 15]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 15 
+ 
+ 
+Figure 2-1: Standby generator locations 
+Emergency operation 
+Data centre components do not easily tolerate power spikes due to switching from a normal to emergency 
+power supply. When these components lose power (if only for a fraction of a second), various IT systems 
+critical to the facility and the service it provides will be interrupted. Standby generators are needed to ensure 
+ongoing operation if power is interrupted for more than a few minutes. As a result, supplying uninterrupted 
+power to data centres 100% of the time is a critical aspect for their operation. Fundamentally, the function of 
+the standby generators at the site would be to provide power when there is an unexpected interruption of 
+mains power.  
+Likelihood of loss of mains power 
+Given the unlikely event of an interruption of mains power, the standby generators would switch on to 
+provide power to each of the buildings. It is likely any loss of mains power would be resolved quickly, 
+within a few hours and therefore even when required the generators would only operate for a short duration.  
+Although it is not possible to determine exactly the duration of power outage/damage over a year which 
+would require the standby generators to be in operation, based on the Endeavour Energy Distribution Annual 
+
+[[page 16]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 16 
+ 
+Planning Report 2018-2022  (DAPR) 3 ,4,5,6,7, it has been determined that the average system average 
+interruption duration index (SAIDI) of power outage incidents in the past five years are: 
+• 78 minutes (total cumulative events) of normalised power interruption per year per customer – due to 
+service reliability issues, but exclude major events or incidents such as storms, and  
+• 167 minutes (total cumulative events) of unnormalised power interruption per year per customer – due to 
+service reliability issues including major event day reliability.  
+The breakdown of the SAIDI performance in the past five years is shown in Table 2-1 and Figure 2-2.  
+The above values equate to less than 0.01%-0.03% of likelihood of occurrence in a year. The Endeavour 
+Energy network covers areas including Greater Western Sydney, including major cities such as Parramatta as 
+well as Rosehill. 
+Table 2-1: Endeavour Energy SAIDI Targets vs Actuals (2018-2022) 
+Year Normalised SAIDI (minutes) Unnormalised SAIDI (minutes) 
+2018  70.4 70.4 
+2019  78.1 173.0 
+2020  87.5 303.6 
+2021  65.8 146.2 
+2022  91.7 142.5 
+Average 78.7 167.1 
+ 
+ 
+Figure 2-2: Endeavour Energy SAIDI trend (Source: Endeavour Energy 2022) 
+ 
+ 
+3 Endeavour Energy, 2022. Distribution Annual Planning Report , December 2022. 
+4 Endeavour Energy, 2021. Distribution Annual Planning Report , December 2021. 
+5 Endeavour Energy, 2020. Distribution Annual Planning Report , December 2020. 
+6 Endeavour Energy, 2019. Distribution Annual Planning Report , December 2019. 
+7 Endeavour Energy, 2018. Distribution Annual Planning Report , December 2018. 
+
+[[page 17]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 17 
+ 
+Furthermore, whilst the above based the reliability on Endeavour statistical data for the overall network, it is 
+understood that the nature of the site utility power supply (highly-resilient 132kV supplies with redundancy 
+built into the on-site substation) will result in a very high level of reliability for the utility supply from 
+Endeavour Energy to reduce risk of a power outage. The failure rates for a supply in the high reliability 
+utility supply arrangement at the site are therefore expected to be significantly lower than the published 
+network data. 
+Maintenance routine 
+For standby generators to be ready to operate should an unexpected interruption to mains power occur, a 
+regular maintenance schedule is required. It is advised by the Proponent that testing is restricted such that up 
+to two (2) generators could be tested at a time, one for SY9 and one for SY10. Testing is anticipated to occur 
+during the daytime period hours (as defined by the Noise Policy for Industry) – i.e., the period from 7am to 
+6pm Monday to Saturday or 8 am to 6 pm on Sunday and Public Holidays. The total testing regime for all 38 
+generators is summarised in Table 2-2. The impact of these maintenance scenarios is discussed in Section 
+6.2. 
+The testing schedule in Table 2-2 gives a cumulative total of 171 hours operation for all 38 generators 
+combined. The cumulative operation is not more than the 200-hour exemption limit in Schedule 1 Clause 17 
+(1A) of the NSW POEO Act 1997 (refer to Section 3.1.1) and therefore generator emissions are exempt from 
+Schedule 4 of the Standard of Concentrations (refer to Section 3.1.2). 
+Table 2-2: Standby Generator Annual Testing Regime 
+Month Test 
+Type 
+Duration 
+(min) 
+SY9 Testing SY10 Testing Totals (per test 
+run) 
+Totals (annual) 
+Run 
+Cooldown 
+Number of 
+gens  
+Gen run per 
+test  
+Number of 
+tests  
+Number of 
+gens  
+Gens run per 
+test  
+Number of 
+tests  
+Number 
+of Tests 
+Minutes Number 
+of tests 
+Minutes Hours 
+1 Monthly 
+(no-load) 
+5 0 19 1 19 19 1 19 19 95 12 1140 19.0 
+2 Monthly 
+(100% 
+load) 
+15 5 19 1 19 19 1 19 19 380 8 3040 50.7 
+3 Quarterly 
+(100% 
+load) 
+60 5 19 1 19 19 1 19 19 1235 3 3705 61.8 
+4 Annual 
+(100% 
+load) 
+120 5 19 1 19 19 1 19 19 2375 1 2375 39.6 
+Total duration per year  10260 171 
+  
+[[page 18]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 18 
+ 
+2.2.2  Potential impacts 
+While in use, standby generators produce a range of pollutants including total unburned hydrocarbons (HC), 
+nitrogen oxide (NO x), carbon monoxide (CO), particulate matter (PM), sulfur dioxide (SO 2) and volatile 
+organic compounds (VOC). The release of these emissions has the potential to impact local air quality in the 
+surrounding area. Due to the fuel type proposed (diesel), the pollutant of greatest concern in relation to the 
+use of generators is typically NO x, as NO x emissions are orders of magnitude greater than for other 
+pollutants. 
+Emission data for this proposal (SY10) has been assessed based on indicative equipment selection of 
+Cummins C3500 D5 QSK95-G4 generator. The ‘as-built’ generator selection for SY9 is also Cummins 
+C3500 D5 QSK95-G4 (refer to Appendix A).  
+Prior to selection of the indicative equipment to be assessed as part of this SSDA, a comparison was 
+undertaken of various generator types under consideration. This showed that the majority of generators were 
+similar in terms of performance with slight variations in emissions rates for each pollutant. The selected 
+equipment has the highest NOx emissions, which is the pollutant of greatest concern in relation to these 
+types of facilities. Therefore, a reasonable approach has been undertaken and the assessment outcomes are 
+likely to be similar where other equivalent generator selection (such as MTU 20V4000G94F) is assessed and 
+there are no significant variations in emission rates and other parameters such as discharge rate.  
+All other emission data for the assessed pollutants not provided in the generator specification has been based 
+on Table 43 of the National Pollutant Inventory (NPI 2008) 8. 
+  
+ 
+8 National Pollution Inventory (NPI) – Emission estimation technique manual for Combustion engines , Version 3.0, June 2008. 
+[[page 19]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 19 
+ 
+3.  Assessment methodology 
+3.1 Relevant legislation and policies 
+3.1.1  Protection of the Environment Operations Act 1997 
+The NSW Protection of the Environment Operations (POEO) Act 1997 is administered by the New South 
+Wales (NSW) Department of Planning and Environment (DPE), under the Environment and Heritage group. 
+The Act is formed to protect, restore and enhance the environment in NSW and to promote public access to 
+information and involvement in environment protection. The Act designates the NSW EPA (Environment 
+Protection Authority) as the regulatory authority.  
+The following sections from Part 5.4 of the Act provide general protection conditions for air quality are 
+relevant to the Proposal: 
+• Section 124 : The occupier of any premises who operated any plant in or on those premises shall operate 
+as well as maintain the plant in a proper and efficient manner, such that it minimises the potential for air 
+pollution. 
+• Section 125 : The occupier of any premises who carries out maintenance work on any plant in or on those 
+premises shall conduct the work in a proper and efficient manner, such that it minimises the potential for 
+air pollution. 
+• Section 128 : The occupier of any premises must not carry on any activity, or operate any plant, in or on 
+the premises in such a manner as to cause or permit the emission at any point specified in or determined 
+in accordance with the regulations of air impurities in excess of the standard of concentration and/or the 
+rate prescribed by the regulations in respect of any such activity or any such plant. 
+• The occupier of any premises must carry on any activity, or operate any plant, in or on the premises by 
+such practicable means as may be necessary to prevent or minimise air pollution. 
+• Schedule 1, Clause 17 of the Act 9 applies scheduled premises status to electricity generation by means of 
+internal combustion engine in a metropolitan area with capacity to produce more than 30 MW of 
+electrical power and burn rate of more than 3 MJ of fuel per second. However, Clause 17 (1A) of the Act 
+notes that scheduled premises status does not apply if the electricity generation is utilised for emergency 
+standby plant operating for less than 200 hours per year. 
+3.1.2  Protection of the Environment Operations (Clean Air) Regulation 2022 
+The NSW Protection of the Environment Operations POEO (Clean Air) Regulation 2022 is specifically 
+regulated to manage air quality issues associated with various sources, such as burning activities, motor 
+vehicles fuels, fuel usage and transfer, air impurities from activities and plant, storage of volatile organic 
+liquids and many others.  
+Division 2 of Part 5 of the POEO (Clean Air) Regulation specifically addresses air impurities from activities 
+and plant, and refers to Schedule 2, Part 2, to set the standard of concentrations for scheduled premises of 
+general activities and plant (Division 3), and Part 3 to set the standard of concentrations for non-scheduled 
+premises.  
+However, Clause 73 of the POEO (Clean Air) Regulation exempts emergency electricity generation 
+comprising a stationary reciprocal internal combustion engine from the air impurities Standard of nitrogen 
+ 
+9 Part 9.7, Section 327, Schedule 1, Part 1 (Premises-based activities), Clause 17 (1A) of the POEO Act 1997. 
+[[page 20]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 20 
+ 
+dioxide and nitric oxide concentrations specified in Schedule 2, Part 2, Division 3 in relation to that plant, if 
+the plant is used for a total of not more than 200 hours per year. 
+Table 3-1 and Table 3-2 below set out the standard of concentrations under the Schedule 4 and Schedule 6 of 
+the POEO (Clean Air) Regulation. 
+Table 3-1: Schedule 2, Part 2, Division 3 – Standards of concentration for (Group 6) scheduled premises 
+Air impurity  Activity or plant  Concentration 
+Solid Particles (Total) An activity or plant using a liquid or solid standard 
+fuel or a non-standard fuel 
+50 mg/m 3 
+Nitrogen dioxide (NO 2) or 
+Nitric oxide (NO) or both, as 
+NO 2 equivalent 
+Stationary reciprocating internal combustion 
+engines 
+450 mg/m 3 
+ 
+Table 3-2: Schedule 2 Part 3 – Standards of concentration for (Group C) non-scheduled premises 
+Air impurity  Activity or plant  Concentration 
+Solid particles Any activity/ plant 100 mg/m 3 
+Smoke Any activity or plant in connection with whic h 
+liquid or gaseous fuel is burnt 
+20% opacity 
+ 
+3.1.3  The EPA Approved Methods 2022 
+Part 5 of the POEO (Clean Air) Regulation 2022 refers to the EPA NSW publication the Approved Methods 
+for the Modelling and Assessment of Air Pollutants in New South Wales  (August 2022), hereafter referred to 
+as the Approved Methods, to provide detailed statutory methods in modelling and assessing air pollutants 
+from stationary sources in the State of NSW. The Approved Methods also provides the impact assessment 
+criteria for assessing emissions of air pollutants from stationary sources in NSW, which is discussed in 
+Section 3.1.4.  
+3.1.4  Impact Assessment Criteria 
+Section 7.1 of the Approved Methods outlines the air pollutant impact assessment criteria. Predicted 
+pollutant concentrations (including background air quality concentrations) for the proposal should, where 
+possible, comply with these criteria. If they do not, further mitigation may be required.   
+Table 3-3 presents the relevant air quality impact assessment criteria applicable for the proposal’s standby 
+generators.  
+The Approved Methods set standards for various averaging periods, including annual averages. As the 
+generators are to be used for standby purposes only and would only run for a short period or intermittently, 
+the assessment has focussed on short-term averaging periods only. Pollutant criteria with averaging periods 
+of longer than 24 hours have therefore been excluded from this assessment.  
+  
+[[page 21]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 21 
+ 
+Table 3-3: Applicable air quality impact assessment criteria 
+Pollutant  Averaging Period  Maximum Concentration, µg/m 3 
+Carbon Monoxide (CO) 15 minutes 100,000 
+1 hour 30,000 
+8-hour 10,000 
+Sulfur dioxide (SO 2) 1 hour 286 
+24-hour 57 
+Nitrogen dioxide (NO 2) 1 hour 164 
+Benzene (representative of VOCs) 1 hour 29 
+Polycyclic Aromatic Hydrocarbon (PAH) 1 hour 0.4 
+PM 10  24 hours 50 
+PM 2.5  24 hours 25 
+The impact assessment criteria in Table 3-3 must be applied at the nearest existing or likely future off-site 
+sensitive receiver, compared against both the incremental impact from modelled sources as well as the 
+cumulative impact, including background pollutant concentrations. 
+3.2 Establishment of existing environmental conditi ons 
+3.2.1  Local meteorology 
+Local meteorology conditions which can affect the dispersal of pollutants in the local area were determined. 
+Meteorological conditions are not monitored at the site. The nearest Bureau of Meteorology (BoM) 
+meteorological station is at Sydney Olympic Park, approximately 3.5 km east of the site.  
+AERMET is the meteorological processor within the AERMOD model. AERMET was used in this 
+assessment to construct AERMOD-ready meteorological input data representative of the local conditions 
+within the subject site. 
+To provide site representative meteorological data and all parameters required by the dispersion model, 
+meteorological data was purchased from Lakes Environment based on the MM5 prognostic model for the 
+period 2018 to 2022. This data was interpolated from nearby forecasted and monitored data. Analysis of site 
+representative meteorological data for a five year period (2018-2022) was undertaken (see Appendix B) to 
+determine the most representative year for typical meteorological conditions as required by the Approved 
+Methods.  
+The wind roses presented in Appendix B indicate that winds at the proposal site show similar distribution 
+patterns across the five years with prevailing south-westerly winds. Wind speed distribution characteristics 
+also show similar patterns across the five years. 
+Given the similarity of wind conditions across the assessed years, data for 2022 have been selected for 
+inclusion in the dispersion modelling assessment, as it best represents the general trend across recent years. It 
+is also that year 2022 data was selected as the most recent year, and to be used in correlation with 
+background air quality data discussed in Section 3.2.2. 
+ 
+[[page 22]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 22 
+ 
+3.2.2  Background air quality 
+Existing background air quality refers to the concentration of relevant substances that are already present in 
+the environment from various sources that may include industrial processes, commercial and domestic 
+activities, traffic and natural sources.  
+The Approved Methods requires at least one year of continuous background air quality data to be used, 
+contemporaneous with meteorological data. Upon review of recent background air quality data for the past 
+five years (2018-2022), year 2022 was selected over earlier years due to the absence of extreme events that 
+would have influenced monitored pollutant concentrations, such as major bush fires in late 2019 and early 
+2020, as well as lockdowns associated with the COVID-19 pandemic, reducing transport and some industrial 
+emissions, in early to mid-2020 and late 2021. Background air quality data for 2022 is considered to be best 
+representative of typical conditions and has been adopted for this assessment. 
+The assessment of air quality impacts can be undertaken using two options of background air quality data: 
+• Background Option 1: Using the maximum background concentration of the pollutant being assessed for 
+each relevant averaging period, or 
+• Background Option 2: Using the addition of the corresponding measured background concentration to 
+each individual dispersion model prediction (e.g. add the first hourly average dispersion model 
+prediction to the first hourly average background concentration). 
+For air emissions from diesel combustion engines, typically NO 2 and particulate matter are considered to be 
+the major pollutants of concern, over and above other pollutants such as CO, SO 2, PAH and VOC that are 
+also generated by standby generators in smaller quantities. To avoid over conservatism, Background method 
+Option 2 has been used to predict ground level concentrations of NO 2 and particulate matter and Background 
+method Option 1 has been used for predicting ground level concentrations of CO and SO 2.  
+Background monitoring of VOCs and PAHs is not undertaken in NSW, however, concentrations for these 
+pollutants are expected to be minimal. 
+Air quality monitoring station 
+The nearest air quality monitoring station (AQMS) is located at North Parramatta, approximately 4.3 km to 
+the north-west of the proposal. The North Parramatta AQMS records all the relevant pollutants, such as NO 2, 
+SO 2, CO, O 3, PM 10  and PM 2.5 , and is located in a mixture of residential premises, grassland and commercial 
+premises, which is considered representative of the residential receivers nearby the proposal site. 
+Table 3-4 shows the AQMS used for each pollutant and the relevant data capture for 2022. 
+Table 3-4: 2022 background air quality data capture (North Parramatta) 
+Pollutant Data Capture 
+CO 93.0% 
+SO 2 94.2% 
+NO 2 91.7% 
+O3 94.7% 
+PM 10  98.9% 
+PM 2.5  99.0% 
+  
+[[page 23]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 23 
+ 
+Hourly missing data interpolation 
+The assessment of particulate matter as well as the OLM method (conversion of NO x to NO 2) requires hourly 
+background data for O 3, NO 2, PM 10  and PM 2.5 . Although data capture was above 90% for each of these 
+pollutants, any missing data periods were interpolated using the following methodology: 
+• Where less than six consecutive hours of missing data occurred, the nearest valid data point was used 
+(i.e. the first three missing hours would be replaced with the nearest preceding value, and the last three 
+missing values would be replaced with the following value). 
+• Where there was more than six consecutive hours of missing data, an average hourly value was used for 
+the corresponding hour of missing data (i.e. the average value for a given hour of day was calculated, 
+using the entire existing dataset, and subsequently used to fill the respective missing hour of day).  
+Exclusion of exceptional air quality affecting events 
+While 2022 was chosen as representative of typical conditions, exceptional events still occurred which led to 
+short-term peaks in particulate matter concentrations. An exceptional event is defined as a fire or dust 
+occurrence that adversely affects air quality at a particular location and causes an exceedance of 24-hour 
+average standards in excess of normal historical fluctuations and background levels and is generally directly 
+related to: bushfire, jurisdiction authorised hazard reduction burning or continental scale windblown dust 10 . 
+In 2022 North Parramatta data, there were some elevated hourly particulate matter concentrations potentially 
+due to non-exceptional events such as local dust and particle sources. These elevated concentrations occurred 
+during the following times, have been removed when summarising the background air quality data used for 
+the dispersion modelling. 
+• 17 February 2022, 17:00 for PM 10 . 
+• 4 May 2022, 18:00 for PM 10 . 
+• 12 December 2022, 6:00 for PM 10 . 
+• 6 November 2022, 0.00 for PM 2.5 . 
+Summary of adopted background air quality is discussed in Section 4.2. 
+3.3 Study area  
+The study area for the air quality assessment in accordance with the Approved Methods has focussed on 
+those sensitive receivers closest to the proposal site, however a modelling domain of 5 km x 5 km has been 
+included to ensure that the area of maximum impact is understood and the impact for the surrounding area 
+can be shown. 
+  
+ 
+10  OEH, 2021. NSW Annual Compliance Report 2020 ,  Department of Planning, Industry and Environment. (https://www.environment.nsw.gov.au/-
+/media/OEH/Corporate-Site/Documents/Air/national-environment-protection-measure-ambient-air-quality-nsw-compliance-report-2020-
+210479.pdf) 
+[[page 24]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 24 
+ 
+3.4 Construction phase 
+Potential local air quality impacts for the construction phase of the proposal have been identified based on 
+experience from similar construction projects. The Approved Methods (Section 3.1.3) were developed to 
+assess emissions from stationary sources. They are therefore not appropriate to assess uncontrolled dust 
+emission impacts such as that from construction activity.  
+Given the scale and duration of construction, the main potential impact would be amenity-related due to the 
+risk of dust generation and emissions to air from equipment and machinery generated by fuel combustion. 
+Therefore, a qualitative risk-based approach has been carried out and is addressed in Section 4. 
+The key factors in determining the risk of impact are the activities taking place, location of these activities 
+onsite and the distance from sensitive receivers. In addition, it is important to consider the types of impact 
+including amenity/nuisance concerns from the release of fugitive dust as well as health impacts associated 
+with the release of NO 2,  PM 10  and PM 2.5 . 
+3.5 Operational phase  
+The impact assessment for the operation of standby generators has been carried out using dispersion 
+modelling to predict pollutant concentrations at nearby sensitive receivers, as well as over a larger grid 
+domain.  
+3.5.1  Assessment scenarios 
+The following assessment scenarios were undertaken to determine the potential impact under the anticipated 
+operational conditions of the standby generators. 
+• Scenario 1 : A justified worst-case scenario of all 34 generators (SY9 and SY10 generators combined) in 
+operation (100% load) under a loss of mains power situation (emergency scenario). In reality there will 
+be up to 17 generators in operation per building during this emergency scenario, as the remaining two (2) 
+generators shall “catch” or support the load, if up to two (2) generators fail or are out of service. These 
+two (2) reserve generators have been assumed to be Stack ID 10 and 11 for SY9, and Stack ID 29 and 30 
+for SY10, as indicated in Appendix D. 
+• Scenario 2 : Realistic operations e.g. regular generator testing where all SY10 and SY9 generators are 
+tested during maintenance hours (refer to Section 2.2.1). 
+3.5.2  Dispersion modelling 
+This section describes the dispersion modelling methodology for this assessment. 
+Model overview  
+While not listed in the Approved Methods, AERMOD has been accepted in Australia for use in a variety of 
+regulatory applications 11,12,13 , and is estimated to be the most widely used dispersion model internationally. 
+AERMOD is a steady-state plume model that incorporates air dispersion based on planetary boundary layer 
+turbulence structure and scaling concepts, including treatment of both surface and elevated sources, and both 
+simple and complex terrain. 
+ 
+11  Pacific Environment, 2016. Western Sydney Airport EIS – Local Air Quality and Greenhouse Gas Assessment:  Department of Infrastructure and 
+Regional Development, ID. 9417F. Doc no. AQU-NSW-001-9417E. Rev. R2. Sydney, NSW. 
+12  SLR, 2020. Emergency Generator Air Quality Impact Screening Assessment: Proposed Data Centre 1 Sirius Road, Lane Cove West NSW 2066 . 
+Ref. 630.12671.00400-R01. Version 5.0. March 2020. 
+13  Pacific Environment, 2016. Energy from Waste Facility – Air Quality and Greenhouse Gas Assessment : The Next Generation, ID. 21292C. Doc no. 
+AQU-NS-001-21292C. Rev. 5. Eastern Creek, NSW. 
+[[page 25]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 25 
+ 
+The NSW Approved Methods Section 4 requires one-year of site-specific meteorological data or site-
+representative meteorological data, in the absence of site-specific data, to be used for AERMOD dispersion 
+modelling. The AERMOD system includes AERMET, used for the preparation of meteorological input files 
+and AERMAP, used for the preparation of terrain data. AERMET requires surface and upper air 
+meteorological data input. The meteorological data used in this assessment is for the period of 1 st  January 
+2022 – 31 st  December 2022 (refer to Section 4.1). 
+AERMOD was configured as per Table 3-5 to assess the impact of generator emissions from the proposal. 
+Table 3-5: General inputs for AERMOD dispersion modelling 
+Parameter Input 
+Meteorological Data 2022 – refer to meteorological data section 
+Terrain Topography Obtained using Shuttle Radar Top ography Mission (SRTM3/SRTM1) data from 
+AERMAP at a range of 100 metres. 
+Grid Domain Size 5,000 metres x 5,000 metres 
+Grid Spacing 50 metres 
+The 100 th  percentile 14  was modelled to determine the average concentration impact for comparison against 
+the impact assessment criteria. 
+Prediction of less than 1-hour average concentrations 
+In the absence of NSW specific guidelines to convert modelled hourly concentrations to a less than 1-hour 
+averaging period, reference was made to the EPA Victoria Draft Publication 1551 – Guidance notes for 
+using the regulatory air pollution model AERMOD in Victoria  (October 2013), which provides conversion 
+from hourly average concentrations to 3-minute average concentration.  This has been used in this case to 
+convert hourly average concentrations of CO to 15-minute average concentrations for comparison with the 
+relevant impact assessment criteria. 
+() = () ( )⁄ .
+ 
+Where: 
+() is the averaging time (minutes) of interest, and 
+() is the averaging time consistent with the dispersion rates (60 minutes in this case). 
+  
+ 
+14  The maximum possible concentrations over the relevant averaging period taking into account emission source and meteorological data. 
+[[page 26]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 26 
+ 
+Model extent 
+The model was run for a large grid (5 km x 5 km – in red colour) at ground level, inclusive of the assessed 
+closest sensitive receivers (refer to Section 4.3). This covers all potentially impacted nearby sensitive land 
+uses. The extent of the model is shown in Figure 3-1. 
+ 
+Figure 3-1: AERMOD model extent 
+  
+
+[[page 27]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 27 
+ 
+Terrain effects 
+The site is located in relatively flat terrain, with a span across the site from 7 m to 8 m AHD. Terrain data 
+was sourced from NASA’s Shuttle Radar Topography Mission (SRTM) Data (3 arc second (~30m) 
+resolution) and processed within AERMAP to create the necessary input files for the model. The topography 
+of the local area used in the model is shown in Figure 3-2. 
+ 
+Figure 3-2: Modelled AERMOD topography 
+  
+
+[[page 28]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 28 
+ 
+Building wake effects 
+Buildings can have a significant effect on dispersion. If buildings are close to a stack, the plume can be 
+entrained in the cavity zone downwind of the building. The ratio of the stack height vs. the building height 
+can affect the magnitude of building downwash, such that if the stack extends well above the roof of the 
+building, the downwash effect is expected to be insignificant. The Approved Methods notes that “ A point 
+source is wake-affected if stack height is less than or equal to 2.5 times the height of buildings located within 
+a distance of 5L (where L is the lesser of the height or width of the building) from each release point.” 
+The generators are located within close proximity to the main building. The stack discharge height for SY9 is 
+at 15 m above ground for the 19 standby generators. SY9 building has a height of 16.5 m above ground, 
+including any roof-top screens height. For SY10, the generator has a stack discharge height of 12 m next to a 
+24.4 m high building. On this basis, the standby generator stacks are considered wake-affected sources. As a 
+result, the building downwash effect can lead to higher ground concentrations than would be expected in the 
+absence of buildings, therefore buildings that may contribute to a downwash effect have been included in the 
+dispersion model (Figure 3-3). 
+Building Profile Input Program – Plume Rise Model Enhancements (BPIP-PRIME) uses heights and corner 
+locations of buildings in the vicinity of the stack release to simulate the effective height and width of the 
+structures. The downwash algorithm calculates effective building dimensions relative to the plume, resolved 
+down to ten-degree intervals. AERMOD then calculates the impact of these buildings on plume dispersion 
+and consequently on ground level concentrations. Although a simplified building geometry is used, it should 
+provide a reasonable indication of how the building may disrupt wind flow in the immediate vicinity. 
+ 
+Figure 3-3: Modelled surrounding buildings 
+  
+
+[[page 29]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 29 
+ 
+Surface roughness 
+AERMET also requires land characteristics data for the area surrounding the proposal site. The proposal site 
+is situated on a predominantly commercial/industrial area. The surrounding land uses to the proposal site 
+were characterised to determine the atmospheric turbulences values in the dispersion modelling due to the 
+effect of surface roughness. The land use configuration was generated with the aid of AERSURFACE Global 
+Land Cover Characterization (GLCC), via U.S. Geological Survey Enhanced National Land Cover Data 
+(USGS NLCD). 
+The non-default option of “ Adjust Surface Friction Velocity (ADJ_U*) ” was applied for consistency with the 
+use of LOWWIND3 option in AERMOD to better resolve dispersion associated with light wind conditions, 
+in line with the US EPA AERMOD guide.  
+3.5.3  Emission sources 
+Generator stack parameters 
+Modelled stack parameters were developed for this assessment using information provided by the genset 
+supplier for indicative generator equipment selection. Stack design parameters per generator are summarised 
+in Table 3-6. 
+The manufacturer’s specification datasheet is provided in Appendix A, which provides the emissions for 
+particulate matter, NO x, CO and hydrocarbon. 
+Particulate matter 
+The emission data taken from the manufacturer’s specification datasheet refers only to “particulate matter”, 
+with no reference to the size of the particulate matter. Table 43 of the National Pollutant Inventory (NPI 
+2008) 15  shows that emission factors of PM 10  and PM 2.5  from large stationary diesel engines are the same. On 
+this basis, it has been assumed that the particulate matter emission rate applies to both PM 10  and PM 2.5 size 
+components. 
+Volatile Organic Compounds 
+Hydrocarbons are organic compounds composed primarily of carbon and hydrogen atoms. Many of these 
+compounds are volatile, which can easily vaporise into the atmosphere at normal atmospheric conditions 
+(room temperature and atmospheric pressure) and are typically referred to as volatile organic compounds 
+(VOCs). The proportion of VOCs within the hydrocarbon emission has not been provided in the generator’s 
+specification datasheet in Appendix A. Therefore, it is assumed that 100% of the hydrocarbon emission from 
+the generator would be VOCs, which is expected to provide a level of conservatism. 
+For internal combustion engines, VOCs are often associated with primary toxic air pollutants such as 
+benzene, ethylbenzene, toluene and xylene (BTEX). Among these pollutants, benzene is one of the major 
+components within VOCs discharged from a diesel combustion engine. In this case, compliance with 
+Benzene would typically result in compliance with all other VOC pollutants. The proportion of benzene or 
+all other pollutants has not been provided in the manufacturer’s specification datasheet. Reference to the NPI 
+2008 has therefore been made to approximate Benzene emission concentration from the Proposal’s diesel 
+generator, as a proportion relative to the total VOCs.  
+Stack Characteristics and Emission Inventory 
+The generator exhaust stack characteristics and the associated emission inventory are summarised in Table 
+3-6 and Table 3-7. 
+ 
+15  National Pollution Inventory (NPI) – Emission estimation technique manual for Combustion engines , Version 3.0, June 2008. 
+[[page 30]]
+  
+ 
+Confidential  SY10 Data Centre  
+ 
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page 30 
+ 
+Table 3-6: SY9 standby generator stack design parameters and emission inventory 
+Stack Parameter SY9 Generators 
+100% Load 75% Load 50% Load 25% Load 10% Load 
+Number of generators 19 generators 
+Height above ground (m) 15 
+Exit internal diameter (mm) 630 
+Actual discharge rates (m 3/s) 8.9 
+Exit temperature (ºC) 400 
+Calculated exit velocity (m/s) 28.4 
+CO emission (g/s) 0.112 0.084 0.114 0.090 n/a 
+SO 2 emission (g/s)  b 0.004 0.003 0.002 0.001 n/a  
+NO x emission (g/s) 8.280 6.705 5.231 2.720 n/a  
+Benzene emission (g/s) 0.000671 0.000670 0.000569 0.000568 n/a  
+PAH emission (g/s) a 0.0000000356 0.0000000265 0.0000000184 0.0000000108  n/a  
+PM emission (PM 10  and PM 2.5 ) (g/s) 0.011 0.008 0.011 0.015 n/a  
+Stack location coordinates Refer to Appendix D 
+Note: 
+a.  The PAH emission is based on emission factor from Table 43 of the NPI Emission Technique Manual for Combustion Engines and generator’s fuel consumption specification.  
+b.  Emission values were estimated with referenced from the NPI 2008  
+ 
+  
+[[page 31]]
+  
+ 
+Confidential  SY10 Data Centre  
+ 
+SY10 -RP -Y-7011 -XX -XX -XXXX -ARP  | Revision 3  | 12 July 2023  | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page 31 
+ 
+Table 3-7: SY10 standby generator stack design parameters and emission inventory 
+Stack Parameter SY10 Generators 
+100% Load 75% Load 50% Load 25% Load 10% Load 
+Number of generators 19 generators 
+Height above ground (m) 18 
+Exit internal diameter (mm) 630 
+Actual discharge rates (m 3/s) 9.2 
+Exit temperature (ºC) 403 
+Calculated exit velocity (m/s) 29.5 
+CO emission (g/s) 0.113 0.135 0.214 0.141 n/a 
+SO 2 emission (g/s)  b 0.005 0.003 0.002 0.001 n/a 
+NO x emission (g/s) 8.906 6.783 5.327 2.507 n/a 
+Benzene emission (g/s) 0.000676 0.000677 0.000733 0.000677 n/a 
+PAH emission (g/s) a 0.0000000354 0.0000000265 0.0000000183 0.0000000101  n/a 
+PM emission (PM 10  and PM 2.5 ) 
+(g/s) 
+0.005 0.008 0.011 0.020 n/a 
+Stack location coordinates Refer to Appendix D 
+Note: 
+a.  The PAH emission is based on emission factor from Table 43 of the NPI Emission Technique Manual for Combustion Engines and generator’s fuel consumption specification.  
+b.  Emission values were estimated with referenced from the NPI 2008  
+ 
+ 
+[[page 32]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 32 
+ 
+3.5.4  NO x to NO 2 conversion 
+The air quality model predicts concentrations of nitrogen oxides which is a mixture of NO 2 and nitric oxide 
+(NO). Both gases react in the atmosphere, particularly with ozone. In general, the nitrogen oxides are mainly 
+emitted as nitric oxide and this converts to NO 2 in the atmosphere. The Approved Methods impact 
+assessment criteria have been set for NO 2, as this is the pollutant most impactful to human health, and 
+therefore it is important that an appropriate conversion rate is used to calculate NO 2 from modelled NO x 
+concentrations.  
+For this assessment, a photochemical conversion for short-term concentrations (i.e. hourly average) from 
+NO x to NO 2 were determined in accordance with the US EPA’s Ozone Limiting Method 16  (OLM), as per 
+Section 8.1.2 of the Approved Methods. 
+OLM assumes NO conversion to NO 2 by reaction with ambient ozone. The reaction is assumed to be 
+instantaneous and irreversible and can be applied on an hourly basis. Several studies have been undertaken to 
+evaluate the accuracy of the OLM method, and show that OLM has a tendency to overpredict the NO 2/NO x 
+ratios 17 ,18 , which adds a level of conservatism to the assessment. 
+The OLM equation for calculating NO 2 is provided below: 
+ 
+ () =  ×   () +  ! "#" $(1 −  ) ×  ()’ () $*46 48 . / × 0 (1234)’ +  
+ (1234) 
+Where, 
+ = In-stack NO 2/NO x ratio 
+The OLM assumes a default 10% of the NO x was initially NO 2 upon release, equating to an in-stack 
+NO 2/NO x ratio of 0.1. This ISR is generally appropriate for combustion sources 19 . On this basis, the 
+simplified OLM equation is: 
+ 
+ () = 0.1 ×   () +  ! "#" $0.9 ×  ()’ () $*46 48 . / × 0 (1234)’ +  
+ (1234) 
+The adopted NO 2 and ozone background concentrations for the OLM method are detailed in Section 4.2. 
+  
+ 
+16  Cole, H. S., & Summerhays, J. E. (1979).  A Review of Techniques Available for Estimating Short-Term NO 2 concentrations . J. Air Poll. Cont. 
+Assoc., 29:8 , 812-817. doi:10:1080/00022470.1979.10470866. 
+17  Hendrick, E., Tino, V., Hanna, S., & Egan, B. (2013). Evaluation of NO 2 predictions by the plume volume molar ratio method (PVMRM) and ozone 
+limiting method (OLM) in AERMOD using new field observations . J. Air & Waste Mgt. Assoc., 844-854. doi:10.1080/10962247.2013.798599 
+18  Podrez, M. (2015). An update to the ambient ratio method for 1-h NO2 air quality standards dispersion modelling . Atm. Env., 163-170. 
+19  AGL (2019). Newcastle Power Station – Air Quality Impact Assessment . Project No.: 0468623/AQIA/R4. Version 7.0. Revision R4. 30 October 
+2019. 
+[[page 33]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 33 
+ 
+4.  Existing environment 
+4.1 Local meteorology 
+Local meteorology conditions have been characterised based on the prognostic model for site representative 
+meteorological data for year 2022 – Section 3.2.1. Below details the wind characteristics of the assessed 
+meteorological conditions.  
+4.1.1  Windrose  
+Annual Average 
+The annual average wind rose between 1 January 2022 and 31 December 2022 is shown in Figure 4-1 with 
+wind class frequency distribution in Figure 4-2. Based on Figure 4-1 and Figure 4-2, the following features 
+can be observed: 
+• Winds are most prevalent from the west-south-west.  
+• The average wind speed is 3.1 m/s. 
+• Winds are least prevalent from the north-west sector with annual winds of less than 1%. 
+• Light winds (< 0.5 m/s) are more prevalent from the south-west sectors. 
+• Due to the infrequent occurrence of calm winds (2.2%), meteorological conditions are favourable for 
+dispersion. 
+  
+Figure 4-1: Wind Rose for 2022 data 
+ 
+
+[[page 34]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 34 
+ 
+ 
+Figure 4-2: Wind Class Frequency Distribution for 2022 data 
+Seasonal Variation 
+The seasonal variation wind roses for 2022 are shown in Figure 4-3. Based on Figure 4-3, the following 
+features can be observed: 
+• Prevailing wind direction varies seasonally. Autumn, winter and spring seasons are dominated by west-
+south-west prevailing wind, whereas summer season is dominated by east-north-east prevailing wind. 
+• The incident of light wind is greatest in winter with a west-north-west direction. 
+ 
+Summer Season 
+Average wind speed 3.2 m/s 
+ 
+Autumn Season 
+Average wind speed 2.9 m/s 
+
+[[page 35]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 35 
+ 
+ 
+Winter Season 
+Average wind speed 3.2 m/s  
+ 
+Spring Season 
+Average wind speed 3.3 m/s  
+Figure 4-3: Seasonal Wind Rose for 2022 
+4.2 Adopted background air quality 
+Year 2022 background air quality conditions from North Parramatta AQMS has been adopted for this 
+proposal (Section3.2.2). The maximum monitored air quality concentrations for year 2022 are summarised in 
+Table 4-1. The maximum monitored concentrations for CO and SO 2 in Table 4-1 have been adopted as 
+background concentrations for these pollutants and have been used to determine cumulative concentrations 
+(e.g. incremental plus background) in the assessment, whereas for NO 2, PM 10  and PM 2.5  the hourly data 
+presented in Appendix C have been used to provide a contemporaneous cumulative assessment.  
+The maximum monitor concentrations for the relevant pollutants in Table 4-1 are all below the Approved 
+Methods impact assessment criteria. 
+Table 4-1: Maximum monitored background concentrations  
+Pollutant Averaging period Maximum monitored 
+concentrations, µg/m 3 
+Impact assessment 
+criteria, µg/m 3 
+CO 1-hour 3105.0 30,000 
+8-hour 920.0 10,000 
+NO 2 1-hour 63.9 164 
+SO 2 1-hour 39.3 286 
+24-hour 6.3 57 
+O3 8-hour 109.0 139 
+PM 10  24-hour 42.7 50 
+PM 2.5  24-hour 17.4 25 
+ 
+Note that in the absence of publicly available 15-minute local background concentration for the assessed CO 
+pollutant, 1-hour background concentrations have been used to determine the maximum 15-minute 
+background concentration. Whilst it is noted that 15-minute background concentration may be higher than 
+the 1-hour concentration, given the predicted cumulative assessment for CO is generally well below the 
+impact assessment criteria (refer to Section 6.1.3), it is unlikely that adopting the 15-minute background 
+concentration would result in a significant increase to cause exceedances for the 15-minute impact 
+assessment criteria for this pollutant.  
+
+[[page 36]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 36 
+ 
+4.3 Sensitive receivers 
+Nearby sensitive receivers were identified through a review of aerial mapping. 
+Air quality sensitive receivers are defined under the Approved Methods as: 
+“A location where people are likely to work or reside; this may include a dwelling, school, hospital, office or 
+public recreational area. An air quality impact assessment should also consider the location of known or 
+likely future sensitive receptors.” 
+The proposal site is located within an industrial/commercial land use. Industrial/commercial sensitive 
+receivers are located within close proximity to the proposal site. The nearest industrial/commercial sensitive 
+receiver (James Hardie – Research & Development Centre) is located approximately 23 m to the south of the 
+site. There are residential premises located greater than 1 km to the west, north and east. Discrete sensitive 
+receivers have been selected to represent the nearest receivers in all directions to assist in assessing air 
+quality impacts from the Proposal, and are summarised in Table 4-2 and Figure 4-4.  
+In addition, the assessment has considered a 5 km x 5 km grid to assess the location of predicted maximum 
+ground level concentration that may not coincide with a sensitive receiver (refer to Section 3.5.2). 
+Table 4-2: Identified nearby discrete sensitive receivers 
+Receiver 
+ID 
+(Figure 
+4-4) 
+Receiver Name Address Receiver Type Approximate 
+Distance from 
+proposal site 
+boundary (m) 
+X: 
+Easting 
+(m) 
+Y: 
+Northing 
+(m) 
+R1 CSR Monier Roofing - Office 
+1 
+10 Grand Avenue, 
+Rosehill 
+Industrial 55 318123 6255769 
+R2 CSR Monier Roofing - Office 
+2 
+10 Grand Avenue, 
+Rosehill 
+Industrial 109 318119 6255853 
+R3 James Hardie - Research & 
+Development Centre 
+10 Colquhoun 
+Street, Rosehill 
+Commercial 23 318115 6255584 
+R4 James Hardie - Research & 
+Development Centre 
+10 Colquhoun 
+Street, Rosehill 
+Commercial 27 317920 6255613 
+R5 Cleana Commercial Cleaning 5 Devon Street, 
+Rosehill 
+Industrial 90 318049 6255516 
+R6 Parramatta Motor Group 10A Grand 
+Avenue, Rosehill 
+Industrial 190 318227 6255870 
+R7 Simmonds Lumber 1 Durham Street, 
+Rosehill 
+Industrial 202 318273 6255724 
+R8 Viva Energy Australia Durham Street, 
+Rosehill 
+Industrial 320 318384 6255668 
+R9 Sektor Corner Unwin 
+Street and Shirley 
+Street, Rosehill 
+Commercial 525 317665 6255168 
+R10 AB Mauri Australia 15 Grand Avenue, 
+Camellia 
+Commercial 217 318013 6255991 
+R11 Rosehill Business Park 11C Grand 
+Avenue, Camellia 
+Commercial 304 317754 6256003 
+R12 Rydges Parramatta 116-118 James 
+Ruse Drive, 
+Rosehill 
+Residential 1090 316857 6255672 
+R13 Western Sydney University Corner James 
+Ruse Drive and 
+Victoria Road, 
+Rydalmere 
+University 1190 317323 6256778 
+R14 Residential Dwelling 31 John Street, 
+Rydalmere 
+Residential 1195 319177 6256217 
+[[page 37]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 37 
+ 
+Receiver 
+ID 
+(Figure 
+4-4) 
+Receiver Name Address Receiver Type Approximate 
+Distance from 
+proposal site 
+boundary (m) 
+X: 
+Easting 
+(m) 
+Y: 
+Northing 
+(m) 
+R15 Residential Dwelling 86A Carnarvon 
+Street, Silverwater 
+Residential 1450 318567 6254251 
+R16 Residential Dwelling 31 Park Road, 
+Rydalmere 
+Residential 1060 318716 6256604 
+R17 Parramatta Light Rail Stabling 
+Yard 
+6 Grand Avenue, 
+Rosehill 
+Industrial 160 317815 625684 
+ 
+ 
+Figure 4-4: Modelled nearby sensitive receiver locations 
+ 
+  
+
+[[page 38]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 38 
+ 
+5.  Construction assessment 
+There is the potential for dust generation associated with the construction of the proposal. In addition, 
+exhaust emissions from construction plant, machinery and vehicles may also generate impacts on local air 
+quality. Such emissions are associated with the combustion of fossil fuels during vehicle movement and the 
+operation of on-site plant and construction machinery. No diesel fuelled generators are proposed for use 
+onsite during construction. 
+All dust-generating activities associated with construction would occur within the proposal site. These 
+include construction of an access road, pavements, culvert and other ancillary works and earthworks and 
+construction of buildings associated with the proposal. The closest sensitive receivers are commercial 
+premises located at 22 m south of the site boundary. The closest residential receiver is located more than 1 
+km from the proposal site. Given the distance of residential sensitive receivers from potential dust generating 
+activities at the site, the quantum of dust-generating activities that would be required and the temporary 
+nature of the construction activity, it is anticipated that the risk of amenity/nuisance issues and human health 
+impacts would be low. 
+While the activities described above are typical for any construction site, with a low risk identified, 
+management measures to control the generation and spread of dust would need to be outlined in a 
+construction environmental management plan (CEMP) for the proposal, that is then implemented onsite as 
+part of the best practice.   
+  
+[[page 39]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 39 
+ 
+6.  Operational assessment 
+6.1 Scenario 1 – Justified worst-case scenario (17 generators operating in a 
+loss of mains power) 
+This section addresses the potential air quality impact from the operation of all standby generators (both SY9 
+and SY10) under worst case conditions, due to a loss of mains power, where all generators would run 
+simultaneously to provide the full back up power required. 
+6.1.1  Nitrogen dioxide 
+The maximum 1-hour average ground level concentrations (GLCs) for NO 2 have been predicted at each of 
+the assessed sensitive receivers. The results are shown in Table 6-1, which indicate that the cumulative NO 2 
+GLCs (i.e. inclusive of background concentrations) are predicted to exceed the impact assessment criterion at 
+the nearby commercial/industrial receivers as well as the residential receivers located further, with the 
+highest concentration predicted at receiver ID R1 (CSR Monier Roofing facility), exceeding the impact 
+assessment criterion by up to six folds.  
+The concentrations shown in Table 6-1 represent the maximum possible concentrations during a loss of 
+mains power, with all generators operating and coinciding with worst-case meteorological conditions. 
+However, the likelihood of this scenario occurring is expected to be very rare at the site (refer to Section 
+2.2.1). 
+The predicted cumulative GLCs across the modelled domain are shown as contour plots in Appendix E.  
+Table 6-1: Predicted 100 th  percentile 1-hour NO 2 GLCs (Scenario 1) 
+Receiver ID 1-Hour Nitrogen Dioxide (NO 2) Concentration (µg/m 3) Comply 
+Incremental Cumulative Criteria 
+R1  1009.2 1022.7 164 No 
+R2  553.8 567.0 No 
+R3  534.7 559.1 No 
+R4  354.7 354.7 No 
+R5  497.7 520.2 No 
+R6  611.2 614.9 No 
+R7  590.0 605.1 No 
+R8  546.4 554.0 No 
+R9  421.4 443.0 No 
+R10  521.5 557.2 No 
+R11  572.3 594.9 No 
+R12  404.0 407.7 No 
+R13  322.8 332.2 No 
+R14  440.7 448.3 No 
+R15  330.4 356.3 No 
+R16  392.9 406.1 No 
+R17 304.0 323.7 No 
+  
+[[page 40]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 40 
+ 
+6.1.2  Particulate matter 
+The 100 th  percentile 24-hour averaged GLCs for PM 10  and PM 2.5  have been predicted at each of the assessed 
+sensitive receivers, which are shown in Table 6-2.  
+The results show that the cumulative PM 10  and PM 2.5  GLCs (i.e. inclusive of background concentrations) are 
+predicted to meet the impact assessment criteria of 50 µg/m 3 and 25 µg/m 3 respectively at all assessed 
+sensitive receivers. 
+Table 6-2: Predicted 100 th  percentile 24-hour PM10  and PM 2.5  GLCs (Scenario 1) 
+Receiver 
+ID 
+24-Hour Ground Level Concentrations (µg/m 3) Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+Incremental Cumulative Criteria Cumulative Criteria 
+R1  9.3 45.7 50 18.2 25 Yes 
+R2  3.3 43.3 17.5 Yes 
+R3  4.6 41.8 18.0 Yes 
+R4  1.4 41.7 17.6 Yes 
+R5  2.8 41.9 17.7 Yes  
+R6  3.8 43.0 17.6 Yes 
+R7  3.0 42.0 18.2 Yes 
+R8  2.2 41.7 18.3 Yes 
+R9  1.1 41.7 17.5 Yes 
+R10  2.7 42.7 17.4 Yes 
+R11  1.8 41.9 17.4 Yes 
+R12  0.3 41.7 17.4 Yes 
+R13  0.6 41.8 17.4 Yes 
+R14  0.6 41.7 17.5 Yes 
+R15  0.5 41.8 17.4 Yes 
+R16  0.5 41.9 17.4 Yes 
+R17 1.3 41.7 17.5 Yes 
+ 
+6.1.3  All other pollutants 
+The predicted 100 th  percentile maximum GLCs for all other assessed pollutants (CO, SO 2, Benzene and 
+PAH) are summarised in Table 6-3 to Table 6-5. The results show that CO, SO 2, Benzene and PAH are 
+predicted to be well below the relevant impact assessment criteria at the assessed sensitive receivers.  
+[[page 41]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia Pty Ltd Air Quality Impact Assessment Page 41 
+ 
+Table 6-3: Predicted 100 th  percentile GLCs for 8-hour CO and 24-hour SO 2 (Scenario 1) 
+Receiver ID 8-Hour Ground Level Concentrations (µg/m 3) 24-Hour Ground Level Concentrations (µg/m 3) Comply 
+CO SO 2 
+Incremental Cumulative Criteria Incremental Cumulative Criteria 
+R1 112.1 1032.1 10,000 3.7 6.30 57 Yes 
+R2 51.9 971.9 1.4 6.30 Yes 
+R3 50.5 970.5 1.8 6.30 Yes 
+R4 30.0 950.0 0.6 6.30 Yes 
+R5 32.5 952.5 1.1 6.30 Yes 
+R6 55.6 975.6 1.5 6.30 Yes 
+R7 48.6 968.6 1.6 6.30 Yes 
+R8 41.6 961.6 1.2 6.30 Yes 
+R9 19.5 939.5 0.6 6.30 Yes 
+R10 38.6 958.6 1.1 6.30 Yes 
+R11 36.7 956.7 1.0 6.30 Yes 
+R12 19.1 939.1 0.3 6.30 Yes 
+R13 12.6 932.6 0.3 6.30 Yes 
+R14 16.1 936.1 0.3 6.30 Yes 
+R15 10.4 930.4 0.3 6.30 Yes 
+R16 14.5 934.5 0.3 6.30 Yes 
+R17 25.5 945.5 0.7 6.30 Yes 
+ 
+  
+[[page 42]]
+ 
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia Pty Ltd Air Quality Impact Assessment Page 42 
+ 
+Table 6-4: Predicted 100 th  percentile 1-hour GLCs for all other assessed pollutants (Scenario 1) 
+Receiver ID 1-Hour Ground Level Concentrations (µg/m 3) Comply 
+CO SO 2 Benzene PAH 
+Incremental Cumulative Criteria Incremental Cumulative Criteria Incremental Criteria Incremental Criteria 
+R1 131.3 3236.3 30,000 5.3 44.6 286 0.788 29 0.0000417 5 0.4 Yes 
+R2 62.9 3167.9 2.5 41.8 0.377 0.00001974 Yes 
+R3 61.3 3166.3 2.5 41.8 0.368 0.00001927 Yes 
+R4 42.0 3147.0 1.7 41.0 0.252 0.00001335 Yes 
+R5 56.0 3161.0 2.2 41.5 0.336 0.00001760 Yes 
+R6 71.9 3176.9 2.9 42.2 0.431 0.00002259 Yes 
+R7 66.6 3171.6 2.7 42.0 0.399 0.00002091 Yes 
+R8 61.5 3166.5 2.5 41.8 0.369 0.00001931 Yes 
+R9 47.8 3152.8 1.9 41.2 0.287 0.00001506 Yes 
+R10 64.0 3169.0 2.6 41.9 0.384 0.00002036 Yes 
+R11 70.7 3175.7 2.8 42.1 0.424 0.00002238 Yes 
+R12 42.9 3147.9 1.7 41.0 0.258 0.00001349 Yes 
+R13 33.7 3138.7 1.3 40.6 0.202 0.00001063 Yes 
+R14 52.0 3157.0 2.1 41.4 0.312 0.00001637 Yes 
+R15 36.7 3141.7 1.5 40.8 0.220 0.00001159 Yes 
+R16 44.1 3149.1 1.8 41.1 0.265 0.00001392 Yes 
+R17 37.9 3142.9 1.5 40.8 0.227 0.00001202 Yes 
+  
+[[page 43]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 43 
+ 
+Table 6-5: Predicted 100 th  percentile 15-minute GLCs for CO (Scenario 1) 
+Receiver ID 15-min Ground Level Concentrations (µg/m 3) Comply 
+CO 
+Incremental Cumulative Criteria 
+R1 173.3 4270.3 100,000 Yes 
+R2 82.9 4180.0 Yes 
+R3 80.9 4178.0 Yes 
+R4 55.4 4152.5 Yes 
+R5 73.9 4171.0 Yes 
+R6 94.9 4191.9 Yes 
+R7 87.8 4184.9 Yes 
+R8 81.1 4178.2 Yes 
+R9 63.0 4160.1 Yes 
+R10 84.5 4181.6 Yes 
+R11 93.3 4190.4 Yes 
+R12 56.7 4153.7 Yes 
+R13 44.5 4141.6 Yes 
+R14 68.6 4165.7 Yes 
+R15 48.4 4145.5 Yes 
+R16 58.2 4155.3 Yes 
+R17 50.0 4147.0 Yes 
+ 
+  
+[[page 44]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 44 
+ 
+6.1.4  Maximum GLCs 
+The maximum ground level concentrations (GLCs) for each of the pollutants have been predicted and 
+summarised in Table 6-6 below. Figure 6-1 has also been provided to show the locations of predicted 
+maximum GLCs. The predicted maximum GLCs are generally below the air quality impact assessment 
+criteria, except for NO 2 1-hour average, SO 2 24-hour average and PM 2.5  24-hour average, which are in line 
+with the discussion in the above sections. As previously discussed, the likelihood of this scenario occurring 
+is expected to be very rare at the site (refer to Section 2.2.1 and 6.1.5). 
+Table 6-6: Predicted Maximum GLCs (Scenario 1) 
+Pollutant  Averaging 
+Period  
+Maximum GLCs 
+Coordinates (Figure 6-1) 
+Maximum Cumulative 
+GLCs, µg/m 3 
+Criteria, 
+µg/m 3 
+Carbon Monoxide (CO) 15 minutes X: 318136.3 m E,  
+Y: 6255604.8 m S 
+4294.3 100,000 
+1 hour 3254.4 30,000 
+8-hour 1042.4 10,000 
+Sulfur dioxide (SO 2) 1 hour X: 318136.3 m E,  
+Y: 6255604.8 m S 
+45.3 286 
+24-hour X: 318123.0 m E,  
+Y: 6255769.0 m S 
+10.0 57 
+Nitrogen dioxide (NO 2) 1 hour X: 318136.3 m E,  
+Y: 6255604.8 m S 
+1168.4  164 
+Benzene (representative of 
+VOCs) 
+1 hour X: 318136.3 m E,  
+Y: 6255604.8 m S 
+0.9 1 29 
+Polycyclic Aromatic 
+Hydrocarbon (PAH) 
+1 hour X: 318136.3 m E,  
+Y: 6255604.8 m S 
+0.0000474 1 0.4 
+PM 10  24 hours X: 318123 m E,  
+Y: 6255769 m S 
+45.7 50 
+PM 2.5  24 hours X: 318136.3 m E,  
+Y: 6255604.8 m S 
+19.1 25 
+Note: 
+1.  Incremental Value  
+ 
+ 
+Figure 6-1: Map locations of predicted maximum GLCs (Scenario 1) 
+ 
+
+[[page 45]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 45 
+ 
+6.1.5  Likelihood of justified worst-case scenario and exceedances of the impact assessment criteria 
+The failure rates for a supply in the high reliability utility supply arrangement at the site are expected to be 
+significantly low, as discussed in Section 2.2.1. Therefore, despite predicted exceedances of the NO 2 1-hour 
+average impact assessment criterion being likely during operation of all standby generators concurrently, it is 
+unlikely that this justified worst-case scenario would occur in a typical year. If it did occur, the standby 
+generators are likely to only operate for up to 0.03% of the year due to power outages.  
+6.2 Scenario 2 – Realistic operations (Routine main tenance testing) 
+The on-duty standby generators would undergo routine maintenance and testing to make sure they are 
+operational if required during a power outage.  Routine maintenance follows a prescribed testing regime as 
+shown in Section 2.2.1.  For the proposal, it is anticipated that a maximum of two generators (one SY9 and 
+one SY10) would be tested concurrently at any one time, under no-load and 100% load.  
+The emission rates for relevant pollutants under different loads are presented in Section 3.5.3, Table 3-6 and 
+Table 3-7, however  generator emission data under no-load condition are not available in the generator 
+specification provided (Appendix A). Therefore, the air quality assessment of the maintenance scenario 
+considered two generators (one each for SY9 and SY10) being tested concurrently under 100% load 
+emission rate. 
+It is to note that due to the potential numerous combinations of tested generators between SY9 and SY10 
+sites, assumptions were made for simplification of the assessment. For the purpose of this assessment, the 
+following generator test combination and order were assumed: 
+• Test 1: Stack19 (SY9) and Stack20 (SY10); 
+• Test 2: Stack18 (SY9) and Stack21 (SY10); 
+• Test 3: Stack17 (SY9) and Stack22 (SY10); and 
+• So on until all stacks within both data centre facility are tested. 
+Refer to Appendix D for the generator stack ID. 
+The highest GLCs of the above test arrangement at the assessed discrete sensitive receivers were then 
+assessed against the impact assessment criteria. 
+6.2.1  Nitrogen dioxide 
+The 100 th  percentile predicted NO 2 GLCs under routine maintenance at each of the assessed sensitive 
+receivers are shown in Table 6-7, taking into consideration the worst impact from both combined two-tested 
+generators at 100% load, where NO x emissions are highest. 
+The results show the cumulative NO 2 concentrations (i.e. inclusive of background concentrations) are all 
+predicted to be below the impact assessment criterion, with the maximum predicted concentration of 118.5 
+µg/m 3 at receiver ID R1 (CSR Monier Roofing), which is 72% of the NO 2 impact assessment criterion. This 
+indicates that predicted 1-hour NO 2 concentrations at nearby sensitive receivers meet the impact assessment 
+criteria under all routine maintenance conditions. 
+  
+[[page 46]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 46 
+ 
+Table 6-7: Predicted 100 th  percentile 1-hour NO 2 GLCs (Scenario 2) 
+Receiver 
+ID 
+Worst 1-Hour Nitrogen Dioxide (NO 2) Concentration (µg/m 3) – Two Generators tested Criteria Comply 
+Incremental Cumulative 
+R1 91.2 118.5 164 Yes 
+R2 49.0 86.6 Yes 
+R3 108.5 113.0 Yes 
+R4 66.4 83.5 Yes 
+R5 51.9 100.2 Yes 
+R6 52.4 78.1 Yes 
+R7 54.4 92.6 Yes 
+R8 43.7 89.4 Yes 
+R9 22.8 63.9 Yes 
+R10 31.9 66.4 Yes 
+R11 44.4 89.0 Yes 
+R12 16.6 63.9 Yes 
+R13 18.0 63.9 Yes 
+R14 34.0 63.9 Yes 
+R15 9.3 63.9 Yes 
+R16 27.8 65.4 Yes 
+R17 29.6 66.4 Yes 
+ 
+6.2.2  All other pollutants 
+All other pollutants have been predicted to meet the relevant impact assessment criteria under the realistic 
+operations scenario. The predicted results are summarised in Table 6-8 to Table 6-11.  
+• The highest predicted PM 10  and PM 2.5  cumulative GLCs at the assessed sensitive receivers are 41.9 
+µg/m 3 and 18.4 µg/m 3, respectively.  
+• The highest predicted cumulative 8-hour, 1-hour and 15-minute CO GLCs at the assessed sensitive 
+receivers are 930.0 µg/m 3, 3117.4 µg/m 3, 4113.4 µg/m 3, respectively. 
+• The highest predicted cumulative 24-hour and 1-hour SO 2 GLCs at the assessed sensitive receivers are 
+7.3 µg/m 3 and 40.4 µg/m 3, respectively. 
+• The highest predicted incremental 1-hour benzene GLC at the assessed sensitive receivers is 0.074 
+µg/m 3. 
+• The highest predicted incremental 1-hour PAH GLC at the assessed sensitive receivers is 0.00000339 
+µg/m 3. 
+Overall, predicted concentrations at nearby identified sensitive receivers during maintenance and testing 
+periods will meet all relevant impact assessment criteria for all assessed pollutants. On this basis, it is 
+concluded that the operation of the standby generators during maintenance and testing activity would not 
+significantly impact air quality at nearby sensitive receivers. 
+ 
+[[page 47]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 47 
+ 
+Table 6-8: Predicted 100 th  percentile 24-hour PM 10  and PM 2.5  GLCs (Scenario 2) 
+Receiver 
+ID 
+Worst 24-Hour Ground Level Concentrations (µg/m 3) Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+Incremental Cumulative Criteria Cumulative Criteria 
+R1  0.3 41.9 50 17.4 25 Yes 
+R2  0.1 41.8 17.4 Yes 
+R3  0.2 41.7 17.4 Yes 
+R4  0.1 41.7 17.4 Yes 
+R5  0.2 41.7 17.4 Yes  
+R6  0.1 41.7 17.4 Yes 
+R7  0.1 41.7 17.4 Yes 
+R8  0.1 41.7 17.4 Yes 
+R9  <0.1 41.7 17.4 Yes 
+R10  0.1 41.8 17.4 Yes 
+R11  <0.1 41.7 17.4 Yes 
+R12  <0.1 41.7 17.4 Yes 
+R13  <0.1 41.7 17.4 Yes 
+R14  <0.1 41.7 17.4 Yes 
+R15  <0.1 41.7 17.4 Yes 
+R16 <0.1 41.7 17.4 Yes 
+R17  <0.1 41.7 18.4 Yes 
+ 
+  
+[[page 48]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia Pty Ltd Air Quality Impact Assessment Page 48 
+ 
+Table 6-9: Predicted 100 th  percentile GLCs for 8-hour CO and 24-hour SO 2 (Scenario 2) 
+Receiver ID Worst 8-Hour Ground Level Concentrations (µg/m 3) Worst 24-Hour Ground Level Concentrations (µg/m 3) Comply 
+CO SO 2 
+Incremental Cumulative Criteria Incremental Cumulative Criteria 
+R1 6.9 926.9 10,000 0.1 6.4 57 Yes 
+R2 2.9 922.9 <0.1 6.3 Yes 
+R3 10.0 930.0 0.1 6.4 Yes 
+R4 2.1 922.1 <0.1 6.3 Yes 
+R5 4.4 924.4 0.1 6.4 Yes 
+R6 2.3 922.3 <0.1 6.3 Yes 
+R7 3.7 923.7 0.1 6.4 Yes 
+R8 2.4 922.4 <0.1 6.3 Yes 
+R9 0.6 920.6 <0.1 6.3 Yes 
+R10 2.0 922.0 <0.1 6.3 Yes 
+R11 1.6 921.6 <0.1 6.3 Yes 
+R12 0.2 920.2 <0.1 6.3 Yes 
+R13 0.4 920.4 <0.1 6.3 Yes 
+R14 0.5 920.5 <0.1 6.3 Yes 
+R15 0.1 920.1 <0.1 6.3 Yes 
+R16 0.4 920.4 <0.1 6.3 Yes 
+R17 1.7 921.7 1.0 7.3 Yes 
+ 
+  
+[[page 49]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia Pty Ltd Air Quality Impact Assessment Page 49 
+ 
+Table 6-10: Predicted 100 th  percentile 1-hour GLCs for all other assessed pollutants (Scenario 2) 
+Receiver ID Worst 1-Hour Ground Level Concentrations (µg/m 3) Comply 
+CO SO 2 Benzene PAH 
+Incremental Cumulative Criteria Incremental Cumulative Criteria Incremental Criteria Incremental Criteria 
+R1 10.8 3115.8 30,000 0.5 39.8 286 0.065 29 0.00000339  0.4 Yes 
+R2 5.7 3110.7 0.3 39.6 0.034 0.00000180 Yes 
+R3 12.4 3117.4 0.3 39.6 0.074 0.00000227 Yes 
+R4 4.1 3109.1 0.2 39.5 0.025 0.00000129 Yes 
+R5 6.2 3111.2 0.2 39.5 0.037 0.00000196 Yes 
+R6 6.0 3111.0 0.3 39.6 0.036 0.00000189 Yes 
+R7 6.4 3111.4 0.3 39.6 0.038 0.00000201 Yes 
+R8 5.2 3110.2 0.2 39.5 0.031 0.00000163 Yes 
+R9 2.5 3107.5 0.1 39.4 0.015 0.00000079 Yes 
+R10 3.8 3108.8 0.1 39.4 0.023 0.00000122 Yes 
+R11 5.1 3110.1 0.2 39.5 0.030 0.00000160 Yes 
+R12 1.7 3106.7 0.1 39.4 0.010 0.00000053 Yes 
+R13 1.8 3106.8 0.1 39.4 0.011 0.00000056 Yes 
+R14 3.9 3108.9 0.2 39.5 0.023 0.00000121 Yes 
+R15 0.8 3105.8 0.0 39.3 0.005 0.00000027 Yes 
+R16 3.3 3108.3 0.1 39.4 0.020 0.00000104 Yes 
+R17 2.9 3107.9 1.1 40.4 0.017 0.00000104 Yes 
+ 
+[[page 50]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 50 
+ 
+Table 6-11: Predicted 100 th  percentile 15-minute GLCs for CO (Scenario 2) 
+Receiver ID Worst 15-min Ground Level Concentrations (µg/m 3) Comply 
+CO 
+Incremental Cumulative Criteria 
+R1 14.3 4111.4 100,000 Yes 
+R2 7.6 4104.6 Yes 
+R3 16.3 4113.4 Yes 
+R4 5.4 4102.5 Yes 
+R5 8.1 4105.2 Yes 
+R6 7.9 4105.0 Yes 
+R7 8.4 4105.5 Yes 
+R8 6.8 4103.9 Yes 
+R9 3.3 4100.4 Yes 
+R10 5.1 4102.1 Yes 
+R11 6.7 4103.8 Yes 
+R12 2.2 4099.3 Yes 
+R13 2.4 4099.4 Yes 
+R14 5.1 4102.2 Yes 
+R15 1.1 4098.2 Yes 
+R16 4.3 4101.4 Yes 
+R17 3.8 4100.9 Yes 
+ 
+  
+[[page 51]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 51 
+ 
+6.2.3  Maximum GLCs 
+The maximum ground level concentrations (GLCs) for each of the pollutants have been predicted and 
+summarised in Table 6-12 below. Figure 6-2 has been provided to show the locations of predicted maximum 
+GLCs. The predicted maximum GLCs under routine maintenance testing are below the air quality impact 
+assessment criteria for all the assessed pollutants. 
+Table 6-12: Predicted Maximum GLCs (Scenario 2) 
+Pollutant  Averaging Period  Maximum GLCs 
+Coordinates (Figure 6-2) 
+Maximum 
+Cumulative GLCs, 
+µg/m 3 
+Criteria, µg/m 3 
+Carbon Monoxide (CO) 15 minutes X: 318086.3 m E,  
+Y: 6255654.8 m S 
+4119.0 100,000 
+1 hour X: 318086.3 m E,  
+Y: 6255654.8 m S 
+3121.7 30,000 
+8-hour X: 318086.3 m E,  
+Y: 6255654.8 m S 
+933.3 10,000 
+Sulfur dioxide (SO 2) 1 hour X: 318136.3 m E,  
+Y: 6255604.8 m S 
+50.2 286 
+24-hour X: 318136.3 m E,  
+Y: 6255604.8 m S 
+6.5 57 
+Nitrogen dioxide (NO 2) 1 hour X: 318086.3 m E,  
+Y: 6255654.8 m S 
+149.0 164 
+Benzene (representative 
+of VOCs) 
+1 hour X: 318086.3 m E,  
+Y:  6255654.8 m S 
+0.0998 1 29 
+Polycyclic Aromatic 
+Hydrocarbon (PAH) 
+1 hour X: 318086.3 m E,  
+Y: 6255654.8 m S 
+0.00000529 1 0.4 
+PM 10  24 hours X: 318086.3 m E,  
+Y: 6255654.8 m S 
+41.9 50 
+PM 2.5  24 hours X: 318086.3 m E,  
+Y: 6255604.8 m S 
+17.4 25 
+Note: 
+1.  Incremental value  
+ 
+  
+[[page 52]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 52 
+ 
+ 
+Figure 6-2: Map locations of predicted maximum GLCs (Scenario 2) 
+ 
+6.3 POEO (Clean Air) Regulation – Standard of conce ntrations 
+Clause 59 of the POEO (Clean Air) Regulation exempts emergency electricity generation comprising a 
+stationary reciprocal internal combustion engine from the air impurities Standard of nitrogen dioxide and 
+nitric oxide concentrations specified in Schedule 4 in relation to that plant, if the plant is used for a total of 
+not more than 200 hours per year.  
+Based on the likely maintenance schedule outlined in Table 2-2, the proposal site is considered a non-
+scheduled premise, which then shall comply with the Schedule 6 of the Standard of Concentrations (Section 
+3.1.2). 
+Table 6-13 below shows the generator emissions for particles associated with individual data centre’s 
+generator are below the Standard of Concentration of 100 mg/m 3.  
+Table 6-13: POEO (Clean Air) Regulation Schedule 6 – Standards of concentrations assessment 
+Air impurity  Activity or plant  Standard of concentration The proposal’s per-
+generator emissions 
+Solid particles Any activity/ plant 100 mg/m 3 
+0.5 mg/m 3 
+(based on highest PM 
+emissions at 100% load 
+capacity) 
+  
+
+[[page 53]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 53 
+ 
+7.  Mitigation Measures Summary 
+This section describes the measures to mitigate against, monitor and manage any potential adverse air quality 
+impacts described in Section 4 and 6.  
+The dust emitting activities assessed above can be greatly reduced or eliminated by applying mitigation and 
+management measures. It is anticipated that with the implementation of effective management measures, the 
+environmental effect would not be significant in most cases. Table 7-1 outlines the air quality mitigation and 
+management measures recommended for the site. These measures should be included in the Construction 
+Environmental Management Plan (CEMP) as a specific air quality management sub-plan.  
+Operation of the proposal is not anticipated to impact local air quality, however specific mitigation or 
+management measures are proposed for the operational phase to minimise the air quality impact during 
+maintenance. 
+Table 7-1: Environmental management measures for air quality impacts 
+ID Impacts Mitigation Responsibility Timing 
+Construction  
+AQ1 Risks to air 
+quality during 
+construction from 
+fugitive dust 
+A dust and air quality management plan shall be prepared 
+and implemented as part of the proposal’s CEMP: 
+• Potential sources of air pollution (such as dust, vehicles 
+and equipment) during construction 
+• Air quality management objectives consistent with any 
+relevant published authority guidelines, such as the Air 
+Quality Guidance Note – Construction Sites. 
+• Mitigation and suppression measures to be 
+implemented, such as water-spraying or covering 
+exposed surfaces, provision of vehicle clean down 
+areas, covering of loads, street cleaning, use of dust 
+screens, maintenance of plant in accordance with 
+manufacturer's instructions 
+• Methods to manage works during strong winds or other 
+adverse weather conditions 
+• A progressive rehabilitation strategy for exposed 
+surfaces  
+• When the air quality, suppression and management 
+measures need to be applied, who is responsible, and 
+how effectives will be assessed 
+• Community notification and complaint handling 
+procedur es, as required.  
+Contractor Pre-construction/ 
+Construction 
+AQ2 Risks to air 
+quality during 
+construction from 
+vehicle and 
+machinery 
+emissions 
+The following management measures should be included as 
+part of the proposal’s CEMP to minimise emissions to air 
+from construction vehicles and site machinery: 
+• Implement a high standard of engine maintenance to 
+minimise vehicle emissions 
+• Complete pre-start vehicle checklists to make sure 
+construction vehicles are in good working order.  
+Contractor Pre-construction/ 
+Construction 
+Operation  
+AQ3 Risks to air 
+quality during 
+maintenance of 
+standby 
+generators  
+Selection of generators with low emissions (in particular 
+NO x) generator equipment – not greater than those Cummins 
+and MTU generators assessed in this report. 
+Operation of standby generators during testing and 
+maintenance should be minimised as far as practicable.  
+Operator Operation 
+[[page 54]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 54 
+ 
+ID Impacts Mitigation Responsibility Timing 
+AQ4 Risks to air 
+quality during 
+operation of 
+standby 
+generators in the 
+event of a loss of 
+mains power 
+Selection of generators with low emissions (in particular 
+NO x) generator equipment – not greater than those Cummins 
+and MTU generators assessed in this report. 
+In the event of a loss of mains power, the return of a reliable 
+mains power source should be prioritised to minimise the 
+duration of the outage to ensure that standby generators 
+operate for the least amount of time possible.  
+Operator Operation 
+  
+[[page 55]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page 55 
+ 
+8.  References 
+AGL, 2019. Newcastle Power Station – Air Quality Impact Assessment . Project No.: 0468623/AQIA/R4. 
+Version 7.0. Revision R4. 30 October 2019. 
+Australian Government, Department of Agriculture Water and Environment, 2021. The National 
+Environment Protection (Ambient Air Quality) Measure . 
+Cole, H. S., & Summerhays, J. E., 1979. A Review of Techniques Available for Estimating Short-Term NO 2 
+concentrations . J. Air Poll. Cont. Assoc., 29:8, 812-817. doi:10:1080/00022470.1979.10470866. 
+Endeavour Energy, 2022. Distribution Annual Planning Report,  December 2022 
+Hendrick, E., Tino, V., Hanna, S., & Egan, B., 2013. Evaluation of NO 2 predictions by the plume volume 
+molar ratio method (PVMRM) and ozone limiting method (OLM) in AERMOD using new field observations . 
+J. Air & Waste Mgt. Assoc., 844-854. doi:10.1080/10962247.2013.798599 
+National Pollution Inventory, June 2008. Emission estimation technique manual for combustion engines , 
+Version 3.0. 
+NSW, 1997. Protection of the Environment Operations Act 1997  – Section 128 
+NSW, 2021. Protection of the Environment Operations (Clean Air) Regulation . 
+NSW EPA, 2022. Approved Methods for the Modelling and Assessment of Air Pollutants in New South 
+Wales . 
+OEH, 2021. NSW Annual Air Quality Statement 2020 ,  The State of NSW and Office of Environment and 
+Heritage. 
+Pacific Environment, 2016. Department of Infrastructure and Regional Development, Western Sydney 
+Airport EIS – Local Air Quality and Greenhouse Gas Assessment,  ID. 9417F. Doc no. AQU-NSW-001-
+9417E. Rev. R2. Sydney, NSW. 
+Pacific Environment, 2016. Energy from Waste Facility – Air Quality and Greenhouse Gas Assessment:  The 
+Next Generation, ID. 21292C. Doc no. AQU-NS-001-21292C. Rev. 5. Eastern Creek, NSW. 
+Podrez, M., 2015. An update to the ambient ratio method for 1-h NO 2 air quality standards dispersion 
+modelling . Atm. Env., 163-170. 
+SLR, 2020. Emergency Generator Air Quality Impact Screening Assessment: Proposed Data Centre 1 Sirius 
+Road, Lane Cove West NSW 2066 . Ref. 630.12671.00400-R01. Version 5.0. March 2020. 
+US EPA, 1995. User’s Guide for the Industrial Source Complex (ISC3) Dispersion Models , Volume 1 and 
+Volume 2, US EPA Office of Air Quality Planning and Standards Emissions, Monitoring, and Analysis 
+Division Research Triangle Park, North Caroline. 
+ 
+[[page 56]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page A-56 
+ 
+Appendix A 
+Standby diesel generator specification 
+  
+[[page 57]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page A-57 
+ 
+SY9 Generator emission data sheet 
+ 
+  
+
+[[page 58]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page A-58 
+ 
+SY10 Generator emission data sheet 
+  
+  
+
+[[page 59]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page B-59 
+ 
+Appendix B 
+Local meteorological conditions for year 2018-2022 
+  
+[[page 60]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page B-60 
+ 
+  
+                                                     2018  
+ 
+ 
+                                                      2019  
+ 
+
+[[page 61]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page B-61 
+ 
+   
+                                                       2020  
+ 
+ 
+                                                      2021 
+ 
+
+[[page 62]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page B-62 
+ 
+  
+                                                      2022  
+  
+
+[[page 63]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page B-63 
+ 
+  
+2018 
+ 
+  
+2019 
+ 
+  
+2020 
+ 
+
+[[page 64]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page B-64 
+ 
+  
+2021 
+ 
+ 
+2022 
+  
+
+[[page 65]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-65 
+ 
+Appendix C 
+North Parramatta background air quality charts 2018-2022 
+  
+[[page 66]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-66 
+ 
+Nitrogen dioxide 
+ 
+ 
+ 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2018 
+8/01/2018 
+15/01/2018 
+22/01/2018 
+29/01/2018 
+5/02/2018 
+12/02/2018 
+19/02/2018 
+26/02/2018 
+5/03/2018 
+12/03/2018 
+19/03/2018 
+26/03/2018 
+2/04/2018 
+9/04/2018 
+16/04/2018 
+23/04/2018 
+30/04/2018 
+7/05/2018 
+14/05/2018 
+21/05/2018 
+28/05/2018 
+4/06/2018 
+11/06/2018 
+18/06/2018 
+25/06/2018 
+2/07/2018 
+9/07/2018 
+16/07/2018 
+23/07/2018 
+30/07/2018 
+6/08/2018 
+13/08/2018 
+20/08/2018 
+27/08/2018 
+3/09/2018 
+10/09/2018 
+17/09/2018 
+24/09/2018 
+1/10/2018 
+8/10/2018 
+15/10/2018 
+22/10/2018 
+29/10/2018 
+5/11/2018 
+12/11/2018 
+19/11/2018 
+26/11/2018 
+3/12/2018 
+10/12/2018 
+17/12/2018 
+24/12/2018 
+31/12/2018 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Nitrogen Dioxide Hourly Ambient Concentration Levels -North Parrmatta NSW 2018 
+NO2 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2019 
+8/01/2019 
+15/01/2019 
+22/01/2019 
+29/01/2019 
+5/02/2019 
+12/02/2019 
+19/02/2019 
+26/02/2019 
+5/03/2019 
+12/03/2019 
+19/03/2019 
+26/03/2019 
+2/04/2019 
+9/04/2019 
+16/04/2019 
+23/04/2019 
+30/04/2019 
+7/05/2019 
+14/05/2019 
+21/05/2019 
+28/05/2019 
+4/06/2019 
+11/06/2019 
+18/06/2019 
+25/06/2019 
+2/07/2019 
+9/07/2019 
+16/07/2019 
+23/07/2019 
+30/07/2019 
+6/08/2019 
+13/08/2019 
+20/08/2019 
+27/08/2019 
+3/09/2019 
+10/09/2019 
+17/09/2019 
+24/09/2019 
+1/10/2019 
+8/10/2019 
+15/10/2019 
+22/10/2019 
+29/10/2019 
+5/11/2019 
+12/11/2019 
+19/11/2019 
+26/11/2019 
+3/12/2019 
+10/12/2019 
+17/12/2019 
+24/12/2019 
+31/12/2019 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Nitrogen Dioxide Hourly Ambient Concentration Levels -North Parramata NSW 2019 
+NO2 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2020 
+8/01/2020 
+15/01/2020 
+22/01/2020 
+29/01/2020 
+5/02/2020 
+12/02/2020 
+19/02/2020 
+26/02/2020 
+4/03/2020 
+11/03/2020 
+18/03/2020 
+25/03/2020 
+1/04/2020 
+8/04/2020 
+15/04/2020 
+22/04/2020 
+29/04/2020 
+6/05/2020 
+13/05/2020 
+20/05/2020 
+27/05/2020 
+3/06/2020 
+10/06/2020 
+17/06/2020 
+24/06/2020 
+1/07/2020 
+8/07/2020 
+15/07/2020 
+22/07/2020 
+29/07/2020 
+5/08/2020 
+12/08/2020 
+19/08/2020 
+26/08/2020 
+2/09/2020 
+9/09/2020 
+16/09/2020 
+23/09/2020 
+30/09/2020 
+7/10/2020 
+14/10/2020 
+21/10/2020 
+28/10/2020 
+4/11/2020 
+11/11/2020 
+18/11/2020 
+25/11/2020 
+2/12/2020 
+9/12/2020 
+16/12/2020 
+23/12/2020 
+30/12/2020 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Nitrogen Dioxide Hourly Ambient Concentration Levels -North Parrmatta NSW 2020 
+NO2 
+[[page 67]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-67 
+ 
+ 
+ 
+ 
+  
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2021 
+8/01/2021 
+15/01/2021 
+22/01/2021 
+29/01/2021 
+5/02/2021 
+12/02/2021 
+19/02/2021 
+26/02/2021 
+5/03/2021 
+12/03/2021 
+19/03/2021 
+26/03/2021 
+2/04/2021 
+9/04/2021 
+16/04/2021 
+23/04/2021 
+30/04/2021 
+7/05/2021 
+14/05/2021 
+21/05/2021 
+28/05/2021 
+4/06/2021 
+11/06/2021 
+18/06/2021 
+25/06/2021 
+2/07/2021 
+9/07/2021 
+16/07/2021 
+23/07/2021 
+30/07/2021 
+6/08/2021 
+13/08/2021 
+20/08/2021 
+27/08/2021 
+3/09/2021 
+10/09/2021 
+17/09/2021 
+24/09/2021 
+1/10/2021 
+8/10/2021 
+15/10/2021 
+22/10/2021 
+29/10/2021 
+5/11/2021 
+12/11/2021 
+19/11/2021 
+26/11/2021 
+3/12/2021 
+10/12/2021 
+17/12/2021 
+24/12/2021 
+31/12/2021 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Nitrogen Dioxide Hourly Ambient Concentration Levels -North Parramatta NSW 2021 
+NO2 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Nitrogen Dioxide Hourly Ambient Concentration Levels -North Parramatta NSW 2022 
+NO2 
+[[page 68]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-68 
+ 
+Carbon monoxide 
+ 
+ 
+ 
+0
+500 
+1,000 
+1,500 
+2,000 
+2,500 
+3,000 
+3,500 
+4,000 
+1/01/2018 
+8/01/2018 
+15/01/2018 
+22/01/2018 
+29/01/2018 
+5/02/2018 
+12/02/2018 
+19/02/2018 
+26/02/2018 
+5/03/2018 
+12/03/2018 
+19/03/2018 
+26/03/2018 
+2/04/2018 
+9/04/2018 
+16/04/2018 
+23/04/2018 
+30/04/2018 
+7/05/2018 
+14/05/2018 
+21/05/2018 
+28/05/2018 
+4/06/2018 
+11/06/2018 
+18/06/2018 
+25/06/2018 
+2/07/2018 
+9/07/2018 
+16/07/2018 
+23/07/2018 
+30/07/2018 
+6/08/2018 
+13/08/2018 
+20/08/2018 
+27/08/2018 
+3/09/2018 
+10/09/2018 
+17/09/2018 
+24/09/2018 
+1/10/2018 
+8/10/2018 
+15/10/2018 
+22/10/2018 
+29/10/2018 
+5/11/2018 
+12/11/2018 
+19/11/2018 
+26/11/2018 
+3/12/2018 
+10/12/2018 
+17/12/2018 
+24/12/2018 
+31/12/2018 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Carbon Monoxide Hourly Ambient Concentration Levels -North Parramatta NSW 2018 
+CO 
+0
+500 
+1,000 
+1,500 
+2,000 
+2,500 
+3,000 
+3,500 
+4,000 
+1/01/2019 
+8/01/2019 
+15/01/2019 
+22/01/2019 
+29/01/2019 
+5/02/2019 
+12/02/2019 
+19/02/2019 
+26/02/2019 
+5/03/2019 
+12/03/2019 
+19/03/2019 
+26/03/2019 
+2/04/2019 
+9/04/2019 
+16/04/2019 
+23/04/2019 
+30/04/2019 
+7/05/2019 
+14/05/2019 
+21/05/2019 
+28/05/2019 
+4/06/2019 
+11/06/2019 
+18/06/2019 
+25/06/2019 
+2/07/2019 
+9/07/2019 
+16/07/2019 
+23/07/2019 
+30/07/2019 
+6/08/2019 
+13/08/2019 
+20/08/2019 
+27/08/2019 
+3/09/2019 
+10/09/2019 
+17/09/2019 
+24/09/2019 
+1/10/2019 
+8/10/2019 
+15/10/2019 
+22/10/2019 
+29/10/2019 
+5/11/2019 
+12/11/2019 
+19/11/2019 
+26/11/2019 
+3/12/2019 
+10/12/2019 
+17/12/2019 
+24/12/2019 
+31/12/2019 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Carbon Monoxide Hourly Ambient Concentration Levels -North Parramatta NSW 2019 
+CO 
+0
+500 
+1,000 
+1,500 
+2,000 
+2,500 
+3,000 
+3,500 
+4,000 
+1/01/2020 
+8/01/2020 
+15/01/2020 
+22/01/2020 
+29/01/2020 
+5/02/2020 
+12/02/2020 
+19/02/2020 
+26/02/2020 
+4/03/2020 
+11/03/2020 
+18/03/2020 
+25/03/2020 
+1/04/2020 
+8/04/2020 
+15/04/2020 
+22/04/2020 
+29/04/2020 
+6/05/2020 
+13/05/2020 
+20/05/2020 
+27/05/2020 
+3/06/2020 
+10/06/2020 
+17/06/2020 
+24/06/2020 
+1/07/2020 
+8/07/2020 
+15/07/2020 
+22/07/2020 
+29/07/2020 
+5/08/2020 
+12/08/2020 
+19/08/2020 
+26/08/2020 
+2/09/2020 
+9/09/2020 
+16/09/2020 
+23/09/2020 
+30/09/2020 
+7/10/2020 
+14/10/2020 
+21/10/2020 
+28/10/2020 
+4/11/2020 
+11/11/2020 
+18/11/2020 
+25/11/2020 
+2/12/2020 
+9/12/2020 
+16/12/2020 
+23/12/2020 
+30/12/2020 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Carbon Monoxide Hourly Ambient Concentration Levels -North Parramatta NSW 2020 
+CO 
+[[page 69]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-69 
+ 
+ 
+ 
+ 
+  
+0
+500 
+1,000 
+1,500 
+2,000 
+2,500 
+3,000 
+3,500 
+4,000 
+1/01/2021 
+8/01/2021 
+15/01/2021 
+22/01/2021 
+29/01/2021 
+5/02/2021 
+12/02/2021 
+19/02/2021 
+26/02/2021 
+5/03/2021 
+12/03/2021 
+19/03/2021 
+26/03/2021 
+2/04/2021 
+9/04/2021 
+16/04/2021 
+23/04/2021 
+30/04/2021 
+7/05/2021 
+14/05/2021 
+21/05/2021 
+28/05/2021 
+4/06/2021 
+11/06/2021 
+18/06/2021 
+25/06/2021 
+2/07/2021 
+9/07/2021 
+16/07/2021 
+23/07/2021 
+30/07/2021 
+6/08/2021 
+13/08/2021 
+20/08/2021 
+27/08/2021 
+3/09/2021 
+10/09/2021 
+17/09/2021 
+24/09/2021 
+1/10/2021 
+8/10/2021 
+15/10/2021 
+22/10/2021 
+29/10/2021 
+5/11/2021 
+12/11/2021 
+19/11/2021 
+26/11/2021 
+3/12/2021 
+10/12/2021 
+17/12/2021 
+24/12/2021 
+31/12/2021 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Carbon Monoxide Hourly Ambient Concentration Levels -North Parramatta NSW 2021 
+CO 
+0
+500 
+1,000 
+1,500 
+2,000 
+2,500 
+3,000 
+3,500 
+4,000 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Carbon Monoxide Hourly Ambient Concentration Levels -North Parramatta NSW 2022 
+CO 
+[[page 70]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-70 
+ 
+Sulfur dioxide 
+ 
+ 
+ 
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+1/01/2018 
+8/01/2018 
+15/01/2018 
+22/01/2018 
+29/01/2018 
+5/02/2018 
+12/02/2018 
+19/02/2018 
+26/02/2018 
+5/03/2018 
+12/03/2018 
+19/03/2018 
+26/03/2018 
+2/04/2018 
+9/04/2018 
+16/04/2018 
+23/04/2018 
+30/04/2018 
+7/05/2018 
+14/05/2018 
+21/05/2018 
+28/05/2018 
+4/06/2018 
+11/06/2018 
+18/06/2018 
+25/06/2018 
+2/07/2018 
+9/07/2018 
+16/07/2018 
+23/07/2018 
+30/07/2018 
+6/08/2018 
+13/08/2018 
+20/08/2018 
+27/08/2018 
+3/09/2018 
+10/09/2018 
+17/09/2018 
+24/09/2018 
+1/10/2018 
+8/10/2018 
+15/10/2018 
+22/10/2018 
+29/10/2018 
+5/11/2018 
+12/11/2018 
+19/11/2018 
+26/11/2018 
+3/12/2018 
+10/12/2018 
+17/12/2018 
+24/12/2018 
+31/12/2018 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Sulfur Dioxide Hourly Ambient Concentration Levels -North Parramatta NSW 2018 
+SO2 
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+1/01/2019 
+8/01/2019 
+15/01/2019 
+22/01/2019 
+29/01/2019 
+5/02/2019 
+12/02/2019 
+19/02/2019 
+26/02/2019 
+5/03/2019 
+12/03/2019 
+19/03/2019 
+26/03/2019 
+2/04/2019 
+9/04/2019 
+16/04/2019 
+23/04/2019 
+30/04/2019 
+7/05/2019 
+14/05/2019 
+21/05/2019 
+28/05/2019 
+4/06/2019 
+11/06/2019 
+18/06/2019 
+25/06/2019 
+2/07/2019 
+9/07/2019 
+16/07/2019 
+23/07/2019 
+30/07/2019 
+6/08/2019 
+13/08/2019 
+20/08/2019 
+27/08/2019 
+3/09/2019 
+10/09/2019 
+17/09/2019 
+24/09/2019 
+1/10/2019 
+8/10/2019 
+15/10/2019 
+22/10/2019 
+29/10/2019 
+5/11/2019 
+12/11/2019 
+19/11/2019 
+26/11/2019 
+3/12/2019 
+10/12/2019 
+17/12/2019 
+24/12/2019 
+31/12/2019 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Sulfur Dioxide Hourly Ambient Concentration Levels -North Parramatta NSW 2019 
+SO2 
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+1/01/2020 
+8/01/2020 
+15/01/2020 
+22/01/2020 
+29/01/2020 
+5/02/2020 
+12/02/2020 
+19/02/2020 
+26/02/2020 
+4/03/2020 
+11/03/2020 
+18/03/2020 
+25/03/2020 
+1/04/2020 
+8/04/2020 
+15/04/2020 
+22/04/2020 
+29/04/2020 
+6/05/2020 
+13/05/2020 
+20/05/2020 
+27/05/2020 
+3/06/2020 
+10/06/2020 
+17/06/2020 
+24/06/2020 
+1/07/2020 
+8/07/2020 
+15/07/2020 
+22/07/2020 
+29/07/2020 
+5/08/2020 
+12/08/2020 
+19/08/2020 
+26/08/2020 
+2/09/2020 
+9/09/2020 
+16/09/2020 
+23/09/2020 
+30/09/2020 
+7/10/2020 
+14/10/2020 
+21/10/2020 
+28/10/2020 
+4/11/2020 
+11/11/2020 
+18/11/2020 
+25/11/2020 
+2/12/2020 
+9/12/2020 
+16/12/2020 
+23/12/2020 
+30/12/2020 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Sulfur Dioxide Hourly Ambient Concentration Levels -North ParramattaNSW 2020 
+SO2 
+[[page 71]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-71 
+ 
+ 
+ 
+  
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+1/01/2021 
+8/01/2021 
+15/01/2021 
+22/01/2021 
+29/01/2021 
+5/02/2021 
+12/02/2021 
+19/02/2021 
+26/02/2021 
+5/03/2021 
+12/03/2021 
+19/03/2021 
+26/03/2021 
+2/04/2021 
+9/04/2021 
+16/04/2021 
+23/04/2021 
+30/04/2021 
+7/05/2021 
+14/05/2021 
+21/05/2021 
+28/05/2021 
+4/06/2021 
+11/06/2021 
+18/06/2021 
+25/06/2021 
+2/07/2021 
+9/07/2021 
+16/07/2021 
+23/07/2021 
+30/07/2021 
+6/08/2021 
+13/08/2021 
+20/08/2021 
+27/08/2021 
+3/09/2021 
+10/09/2021 
+17/09/2021 
+24/09/2021 
+1/10/2021 
+8/10/2021 
+15/10/2021 
+22/10/2021 
+29/10/2021 
+5/11/2021 
+12/11/2021 
+19/11/2021 
+26/11/2021 
+3/12/2021 
+10/12/2021 
+17/12/2021 
+24/12/2021 
+31/12/2021 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Sulfur Dioxide Hourly Ambient Concentration Levels -North ParramattaNSW 2021 
+SO2 
+0
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Sulfur Dioxide Hourly Ambient Concentration Levels -North ParramattaNSW 2022 
+SO2 
+[[page 72]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-72 
+ 
+Ozone 
+ 
+ 
+ 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+1/01/2018 
+8/01/2018 
+15/01/2018 
+22/01/2018 
+29/01/2018 
+5/02/2018 
+12/02/2018 
+19/02/2018 
+26/02/2018 
+5/03/2018 
+12/03/2018 
+19/03/2018 
+26/03/2018 
+2/04/2018 
+9/04/2018 
+16/04/2018 
+23/04/2018 
+30/04/2018 
+7/05/2018 
+14/05/2018 
+21/05/2018 
+28/05/2018 
+4/06/2018 
+11/06/2018 
+18/06/2018 
+25/06/2018 
+2/07/2018 
+9/07/2018 
+16/07/2018 
+23/07/2018 
+30/07/2018 
+6/08/2018 
+13/08/2018 
+20/08/2018 
+27/08/2018 
+3/09/2018 
+10/09/2018 
+17/09/2018 
+24/09/2018 
+1/10/2018 
+8/10/2018 
+15/10/2018 
+22/10/2018 
+29/10/2018 
+5/11/2018 
+12/11/2018 
+19/11/2018 
+26/11/2018 
+3/12/2018 
+10/12/2018 
+17/12/2018 
+24/12/2018 
+31/12/2018 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Ozone Hourly Ambient Concentration Levels -North ParramattaNSW 2018 
+O3 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+1/01/2019 
+8/01/2019 
+15/01/2019 
+22/01/2019 
+29/01/2019 
+5/02/2019 
+12/02/2019 
+19/02/2019 
+26/02/2019 
+5/03/2019 
+12/03/2019 
+19/03/2019 
+26/03/2019 
+2/04/2019 
+9/04/2019 
+16/04/2019 
+23/04/2019 
+30/04/2019 
+7/05/2019 
+14/05/2019 
+21/05/2019 
+28/05/2019 
+4/06/2019 
+11/06/2019 
+18/06/2019 
+25/06/2019 
+2/07/2019 
+9/07/2019 
+16/07/2019 
+23/07/2019 
+30/07/2019 
+6/08/2019 
+13/08/2019 
+20/08/2019 
+27/08/2019 
+3/09/2019 
+10/09/2019 
+17/09/2019 
+24/09/2019 
+1/10/2019 
+8/10/2019 
+15/10/2019 
+22/10/2019 
+29/10/2019 
+5/11/2019 
+12/11/2019 
+19/11/2019 
+26/11/2019 
+3/12/2019 
+10/12/2019 
+17/12/2019 
+24/12/2019 
+31/12/2019 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Ozone Hourly Ambient Concentration Levels -North ParramattaNSW 2019 
+O3 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+1/01/2020 
+8/01/2020 
+15/01/2020 
+22/01/2020 
+29/01/2020 
+5/02/2020 
+12/02/2020 
+19/02/2020 
+26/02/2020 
+4/03/2020 
+11/03/2020 
+18/03/2020 
+25/03/2020 
+1/04/2020 
+8/04/2020 
+15/04/2020 
+22/04/2020 
+29/04/2020 
+6/05/2020 
+13/05/2020 
+20/05/2020 
+27/05/2020 
+3/06/2020 
+10/06/2020 
+17/06/2020 
+24/06/2020 
+1/07/2020 
+8/07/2020 
+15/07/2020 
+22/07/2020 
+29/07/2020 
+5/08/2020 
+12/08/2020 
+19/08/2020 
+26/08/2020 
+2/09/2020 
+9/09/2020 
+16/09/2020 
+23/09/2020 
+30/09/2020 
+7/10/2020 
+14/10/2020 
+21/10/2020 
+28/10/2020 
+4/11/2020 
+11/11/2020 
+18/11/2020 
+25/11/2020 
+2/12/2020 
+9/12/2020 
+16/12/2020 
+23/12/2020 
+30/12/2020 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Ozone Hourly Ambient Concentration Levels -North ParramattaNSW 2020 
+O3 
+[[page 73]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-73 
+ 
+ 
+ 
+ 
+  
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+1/01/2021 
+8/01/2021 
+15/01/2021 
+22/01/2021 
+29/01/2021 
+5/02/2021 
+12/02/2021 
+19/02/2021 
+26/02/2021 
+5/03/2021 
+12/03/2021 
+19/03/2021 
+26/03/2021 
+2/04/2021 
+9/04/2021 
+16/04/2021 
+23/04/2021 
+30/04/2021 
+7/05/2021 
+14/05/2021 
+21/05/2021 
+28/05/2021 
+4/06/2021 
+11/06/2021 
+18/06/2021 
+25/06/2021 
+2/07/2021 
+9/07/2021 
+16/07/2021 
+23/07/2021 
+30/07/2021 
+6/08/2021 
+13/08/2021 
+20/08/2021 
+27/08/2021 
+3/09/2021 
+10/09/2021 
+17/09/2021 
+24/09/2021 
+1/10/2021 
+8/10/2021 
+15/10/2021 
+22/10/2021 
+29/10/2021 
+5/11/2021 
+12/11/2021 
+19/11/2021 
+26/11/2021 
+3/12/2021 
+10/12/2021 
+17/12/2021 
+24/12/2021 
+31/12/2021 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Ozone Hourly Ambient Concentration Levels -North ParramattaNSW 2021 
+O3 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Ozone Hourly Ambient Concentration Levels -North ParramattaNSW 2022 
+O3 
+[[page 74]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-74 
+ 
+Particulate matter (PM 10 ) 
+ 
+ 
+ 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+1/01/2018 
+8/01/2018 
+15/01/2018 
+22/01/2018 
+29/01/2018 
+5/02/2018 
+12/02/2018 
+19/02/2018 
+26/02/2018 
+5/03/2018 
+12/03/2018 
+19/03/2018 
+26/03/2018 
+2/04/2018 
+9/04/2018 
+16/04/2018 
+23/04/2018 
+30/04/2018 
+7/05/2018 
+14/05/2018 
+21/05/2018 
+28/05/2018 
+4/06/2018 
+11/06/2018 
+18/06/2018 
+25/06/2018 
+2/07/2018 
+9/07/2018 
+16/07/2018 
+23/07/2018 
+30/07/2018 
+6/08/2018 
+13/08/2018 
+20/08/2018 
+27/08/2018 
+3/09/2018 
+10/09/2018 
+17/09/2018 
+24/09/2018 
+1/10/2018 
+8/10/2018 
+15/10/2018 
+22/10/2018 
+29/10/2018 
+5/11/2018 
+12/11/2018 
+19/11/2018 
+26/11/2018 
+3/12/2018 
+10/12/2018 
+17/12/2018 
+24/12/2018 
+31/12/2018 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM10 Hourly Ambient Concentration Levels -North ParramattaNSW 2018 
+PM10 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+1/01/2019 
+8/01/2019 
+15/01/2019 
+22/01/2019 
+29/01/2019 
+5/02/2019 
+12/02/2019 
+19/02/2019 
+26/02/2019 
+5/03/2019 
+12/03/2019 
+19/03/2019 
+26/03/2019 
+2/04/2019 
+9/04/2019 
+16/04/2019 
+23/04/2019 
+30/04/2019 
+7/05/2019 
+14/05/2019 
+21/05/2019 
+28/05/2019 
+4/06/2019 
+11/06/2019 
+18/06/2019 
+25/06/2019 
+2/07/2019 
+9/07/2019 
+16/07/2019 
+23/07/2019 
+30/07/2019 
+6/08/2019 
+13/08/2019 
+20/08/2019 
+27/08/2019 
+3/09/2019 
+10/09/2019 
+17/09/2019 
+24/09/2019 
+1/10/2019 
+8/10/2019 
+15/10/2019 
+22/10/2019 
+29/10/2019 
+5/11/2019 
+12/11/2019 
+19/11/2019 
+26/11/2019 
+3/12/2019 
+10/12/2019 
+17/12/2019 
+24/12/2019 
+31/12/2019 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM10 Hourly Ambient Concentration Levels -North ParramattaNSW 2019 
+PM10 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+1/01/2020 
+8/01/2020 
+15/01/2020 
+22/01/2020 
+29/01/2020 
+5/02/2020 
+12/02/2020 
+19/02/2020 
+26/02/2020 
+4/03/2020 
+11/03/2020 
+18/03/2020 
+25/03/2020 
+1/04/2020 
+8/04/2020 
+15/04/2020 
+22/04/2020 
+29/04/2020 
+6/05/2020 
+13/05/2020 
+20/05/2020 
+27/05/2020 
+3/06/2020 
+10/06/2020 
+17/06/2020 
+24/06/2020 
+1/07/2020 
+8/07/2020 
+15/07/2020 
+22/07/2020 
+29/07/2020 
+5/08/2020 
+12/08/2020 
+19/08/2020 
+26/08/2020 
+2/09/2020 
+9/09/2020 
+16/09/2020 
+23/09/2020 
+30/09/2020 
+7/10/2020 
+14/10/2020 
+21/10/2020 
+28/10/2020 
+4/11/2020 
+11/11/2020 
+18/11/2020 
+25/11/2020 
+2/12/2020 
+9/12/2020 
+16/12/2020 
+23/12/2020 
+30/12/2020 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM10 Hourly Ambient Concentration Levels -North ParramattaNSW 2020 
+PM10 
+[[page 75]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-75 
+ 
+ 
+ 
+ 
+  
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+1/01/2021 
+8/01/2021 
+15/01/2021 
+22/01/2021 
+29/01/2021 
+5/02/2021 
+12/02/2021 
+19/02/2021 
+26/02/2021 
+5/03/2021 
+12/03/2021 
+19/03/2021 
+26/03/2021 
+2/04/2021 
+9/04/2021 
+16/04/2021 
+23/04/2021 
+30/04/2021 
+7/05/2021 
+14/05/2021 
+21/05/2021 
+28/05/2021 
+4/06/2021 
+11/06/2021 
+18/06/2021 
+25/06/2021 
+2/07/2021 
+9/07/2021 
+16/07/2021 
+23/07/2021 
+30/07/2021 
+6/08/2021 
+13/08/2021 
+20/08/2021 
+27/08/2021 
+3/09/2021 
+10/09/2021 
+17/09/2021 
+24/09/2021 
+1/10/2021 
+8/10/2021 
+15/10/2021 
+22/10/2021 
+29/10/2021 
+5/11/2021 
+12/11/2021 
+19/11/2021 
+26/11/2021 
+3/12/2021 
+10/12/2021 
+17/12/2021 
+24/12/2021 
+31/12/2021 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM10 Hourly Ambient Concentration Levels -North ParramattaNSW 2021 
+PM10 
+0
+50 
+100 
+150 
+200 
+250 
+300 
+350 
+400 
+450 
+500 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM10 Hourly Ambient Concentration Levels -North ParramattaNSW 2022 
+PM10 
+[[page 76]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-76 
+ 
+Particulate matter (PM 2.5 ) 
+ 
+ 
+ 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2018 
+8/01/2018 
+15/01/2018 
+22/01/2018 
+29/01/2018 
+5/02/2018 
+12/02/2018 
+19/02/2018 
+26/02/2018 
+5/03/2018 
+12/03/2018 
+19/03/2018 
+26/03/2018 
+2/04/2018 
+9/04/2018 
+16/04/2018 
+23/04/2018 
+30/04/2018 
+7/05/2018 
+14/05/2018 
+21/05/2018 
+28/05/2018 
+4/06/2018 
+11/06/2018 
+18/06/2018 
+25/06/2018 
+2/07/2018 
+9/07/2018 
+16/07/2018 
+23/07/2018 
+30/07/2018 
+6/08/2018 
+13/08/2018 
+20/08/2018 
+27/08/2018 
+3/09/2018 
+10/09/2018 
+17/09/2018 
+24/09/2018 
+1/10/2018 
+8/10/2018 
+15/10/2018 
+22/10/2018 
+29/10/2018 
+5/11/2018 
+12/11/2018 
+19/11/2018 
+26/11/2018 
+3/12/2018 
+10/12/2018 
+17/12/2018 
+24/12/2018 
+31/12/2018 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM2.5 Hourly Ambient Concentration Levels -North ParramattaNSW 2018 
+PM2.5 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2019 
+8/01/2019 
+15/01/2019 
+22/01/2019 
+29/01/2019 
+5/02/2019 
+12/02/2019 
+19/02/2019 
+26/02/2019 
+5/03/2019 
+12/03/2019 
+19/03/2019 
+26/03/2019 
+2/04/2019 
+9/04/2019 
+16/04/2019 
+23/04/2019 
+30/04/2019 
+7/05/2019 
+14/05/2019 
+21/05/2019 
+28/05/2019 
+4/06/2019 
+11/06/2019 
+18/06/2019 
+25/06/2019 
+2/07/2019 
+9/07/2019 
+16/07/2019 
+23/07/2019 
+30/07/2019 
+6/08/2019 
+13/08/2019 
+20/08/2019 
+27/08/2019 
+3/09/2019 
+10/09/2019 
+17/09/2019 
+24/09/2019 
+1/10/2019 
+8/10/2019 
+15/10/2019 
+22/10/2019 
+29/10/2019 
+5/11/2019 
+12/11/2019 
+19/11/2019 
+26/11/2019 
+3/12/2019 
+10/12/2019 
+17/12/2019 
+24/12/2019 
+31/12/2019 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM2.5 Hourly Ambient Concentration Levels -North ParramattaNSW 2019 
+PM2.5 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2020 
+8/01/2020 
+15/01/2020 
+22/01/2020 
+29/01/2020 
+5/02/2020 
+12/02/2020 
+19/02/2020 
+26/02/2020 
+4/03/2020 
+11/03/2020 
+18/03/2020 
+25/03/2020 
+1/04/2020 
+8/04/2020 
+15/04/2020 
+22/04/2020 
+29/04/2020 
+6/05/2020 
+13/05/2020 
+20/05/2020 
+27/05/2020 
+3/06/2020 
+10/06/2020 
+17/06/2020 
+24/06/2020 
+1/07/2020 
+8/07/2020 
+15/07/2020 
+22/07/2020 
+29/07/2020 
+5/08/2020 
+12/08/2020 
+19/08/2020 
+26/08/2020 
+2/09/2020 
+9/09/2020 
+16/09/2020 
+23/09/2020 
+30/09/2020 
+7/10/2020 
+14/10/2020 
+21/10/2020 
+28/10/2020 
+4/11/2020 
+11/11/2020 
+18/11/2020 
+25/11/2020 
+2/12/2020 
+9/12/2020 
+16/12/2020 
+23/12/2020 
+30/12/2020 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM2.5 Hourly Ambient Concentration Levels -North ParramattaNSW 2020 
+PM2.5 
+[[page 77]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page C-77 
+ 
+ 
+ 
+ 
+  
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2021 
+8/01/2021 
+15/01/2021 
+22/01/2021 
+29/01/2021 
+5/02/2021 
+12/02/2021 
+19/02/2021 
+26/02/2021 
+5/03/2021 
+12/03/2021 
+19/03/2021 
+26/03/2021 
+2/04/2021 
+9/04/2021 
+16/04/2021 
+23/04/2021 
+30/04/2021 
+7/05/2021 
+14/05/2021 
+21/05/2021 
+28/05/2021 
+4/06/2021 
+11/06/2021 
+18/06/2021 
+25/06/2021 
+2/07/2021 
+9/07/2021 
+16/07/2021 
+23/07/2021 
+30/07/2021 
+6/08/2021 
+13/08/2021 
+20/08/2021 
+27/08/2021 
+3/09/2021 
+10/09/2021 
+17/09/2021 
+24/09/2021 
+1/10/2021 
+8/10/2021 
+15/10/2021 
+22/10/2021 
+29/10/2021 
+5/11/2021 
+12/11/2021 
+19/11/2021 
+26/11/2021 
+3/12/2021 
+10/12/2021 
+17/12/2021 
+24/12/2021 
+31/12/2021 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM2.5 Hourly Ambient Concentration Levels -North ParramattaNSW 2021 
+PM2.5 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+PM2.5 Hourly Ambient Concentration Levels -North ParramattaNSW 2022 
+PM2.5 
+[[page 78]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page D-78 
+ 
+Appendix D 
+Modelled generator stack coordinates 
+  
+[[page 79]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page D-79 
+ 
+Stack ID Stack coordinate Stack height (m)  
+(above ground) X: Easting (m) Y: Northing (m) 
+SY9 Data Centre 
+Stack 1 318086.3 6255604.8 15 
+Stack 2 318092.0 6255604.1 15 
+Stack 3 318092.7 6255604.1 15 
+Stack 4 318098.4 6255603.4 15 
+Stack 5 318099.3 6255603.3 15 
+Stack 6 318104.9 6255602.7 15 
+Stack 7 318105.7 6255602.6 15 
+Stack 8 318111.3 6255601.9 15 
+Stack 9 318112.2 6255601.8 15 
+Stack 10 (reserve)  318117.9 6255601.2 15 
+Stack 11 (reserve)  318118.6 6255601.1 15 
+Stack 12 318124.3 6255600.4 15 
+Stack 13 318125.2 6255600.3 15 
+Stack 14 318130.7 6255599.7 15 
+Stack 15 318131.6 6255599.6 15 
+Stack 16 318137.2 6255598.9 15 
+Stack 17 318138.1 6255598.9 15 
+Stack 18 318143.4 6255598.2 15 
+Stack 19 318144.2 6255598.1 15 
+SY10 Data Centre 
+Stack 20 317976.5 6255748.1 18 
+Stack 21 317975.8 6255741.5 18 
+Stack 22 317975.0 6255735.1 18 
+Stack 23 317974.3 6255728.6 18 
+Stack 24 317973.5 6255722.2 18 
+Stack 25 317972.7 6255715.6 18 
+Stack 26 317972.0 6255709.1 18 
+Stack 27 317971.3 6255702.7 18 
+Stack 28 317970.5 6255696.1 18 
+Stack 29 (reserve) 317969.7 6255689.6 18 
+Stack 30 (reserve) 317969.0 6255683.0 18 
+Stack 31 317968.2 6255676.6 18 
+Stack 32 317967.5 6255670.2 18 
+Stack 33 317966.8 6255663.7 18 
+Stack 34 317966.0 6255657.2 18 
+Stack 35 317965.3 6255650.7 18 
+Stack 36 317964.6 6255644.2 18 
+Stack 37 317963.8 6255637.7 18 
+Stack 38 317963.1 6255631.2 18 
+  
+[[page 80]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-80 
+ 
+Appendix E 
+Predicted generator emission – Dispersion modelling contours (Scenario 1) 
+  
+[[page 81]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-81 
+ 
+CO 1-hour Incremental GLCs 
+  
+  
+
+[[page 82]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-82 
+ 
+CO 1-hour Cumulative GLCs 
+   
+  
+
+[[page 83]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-83 
+ 
+CO 8-hour Incremental GLCs 
+  
+  
+
+[[page 84]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-84 
+ 
+CO 8-hour Cumulative GLCs 
+ 
+
+[[page 85]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-85 
+ 
+SO 2 1-hour Incremental GLCs 
+  
+  
+
+[[page 86]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-86 
+ 
+SO 2 1-hour Cumulative GLCs 
+  
+  
+
+[[page 87]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-87 
+ 
+SO 2 24-hour Incremental GLCs 
+  
+  
+
+[[page 88]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-88 
+ 
+SO 2 24-hour Cumulative GLCs 
+ 
+  
+
+[[page 89]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-89 
+ 
+NO 2 1-hour Incremental GLCs 
+  
+  
+
+[[page 90]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-90 
+ 
+ 
+NO 2 1-hour Cumulative GLCs 
+   
+  
+
+[[page 91]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-91 
+ 
+Benzene 1-hour Incremental GLCs 
+   
+  
+
+[[page 92]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-92 
+ 
+PAH 1-hour Incremental GLCs 
+  
+  
+
+[[page 93]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-93 
+ 
+PM 10  or PM 2.5  24-hour Incremental GLCs 
+   
+  
+
+[[page 94]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-94 
+ 
+PM 10  24-hour Cumulative GLCs 
+  
+  
+
+[[page 95]]
+  
+ 
+Confidential SY10 Data Centre 
+ 
+SY10-RP-Y-7011-XX-XX-XXXX-ARP | Revision 3 | 12 July 2023 | Arup Australia 
+Pty Ltd  Air Quality Impact Assessment  Page E-95 
+ 
+PM 2.5  24-hour Cumulative GLCs 
+   

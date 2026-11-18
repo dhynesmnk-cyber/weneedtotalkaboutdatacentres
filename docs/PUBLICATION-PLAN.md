@@ -3,7 +3,9 @@
 How the research gets finished, the open questions get answered, and the first
 ten essays (ES-001 to ES-010) get published.
 
-Written 2026-11-17, at the start of Release 2. Owner: the author. Agents draft
+Written 2026-11-17, at the start of Release 2; updated 2026-11-18 with the
+author's zero-spend decision, the approve-now rule and five new essays
+(ES-011 to ES-015). Owner: the author. Agents draft
 and do the free research; the author does the downloads, lodges the requests
 and approves every essay. Nothing here publishes anything.
 
@@ -20,6 +22,15 @@ editorial/WRITING.md is the house voice every draft follows.
 | Dataset licence | **CC BY 4.0** for the CSV downloads and the `/data` page |
 | Cadence | **As each essay is ready.** No fixed schedule: an essay publishes once its evidence is complete and the author approves it |
 | Names in published source titles | **Replaced by role.** The verbatim title stays in the research database and the archive (see R2.0) |
+
+## Decisions (the author, 2026-11-18)
+
+| Question | Decision |
+| --- | --- |
+| Spending | **Zero spend.** No paid extract or search, and no request that carries a fee. That rules out every state request (NSW GIPA $30, Victorian FOI $34.50, Queensland RTI $59.60). The four Commonwealth FOI requests carry no application fee and are lodged, each asking for any processing charge to be waived; if a charge is still levied, the request is narrowed or withdrawn, never paid |
+| Approvals | **Approve now; follow-ups later.** The author approves ES-000 to ES-010 at `/admin` as drafted. New evidence becomes a follow-up piece (see "Follow-ups" in Part 4), never an agent's edit to an approved essay |
+| Conflict notes | **Unchanged.** A disclosure only where a piece touches Anthropic; none for Amazon or Google as investors |
+| Five more essays | **ES-011 to ES-015**, on topics the research turned up, the fifth being who checks the consultants (Part 4, wave 3) |
 
 ## Where things stand (2026-11-17)
 
@@ -191,43 +202,47 @@ where. The agent writes the manifest and does the rest.
 The DigiCo precedent applies unless the author says otherwise: the agent
 commits the manifest and the verbatim excerpts, never the PDF.
 
-### Requests to lodge, in order
+### Requests to lodge, in order (zero spend, 2026-11-18)
 
-Lodge each in your own name from its draft in docs/requests/. Then set its
-status to `lodged` with the date in the index (docs/requests/README.md). The
-agent works the due date out from that and marks each waiting question
-`blocked`.
+Lodge each in your own name from its draft in docs/requests/, asking for any
+processing charge to be waived on public-interest grounds. Then set its status
+to `lodged` with the date in the index (docs/requests/README.md). The agent
+works the due date out from that and marks each waiting question `blocked`.
 
-| Order | Request | To | Fee (as published) | Decision due | Unlocks | Essay |
+| Order | Request | To | Fee | Decision due | Unlocks | Essay |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | GIPA-001 | NSW Planning (DPHI): ownership documents | $30 | 20 working days | RG-021, RG-035, RG-037, RG-057, RG-059, RG-064 | ES-003 |
-| 2 | GIPA-003 | DPHI: compliance and delegation | $30 | 20 working days | RG-058, RG-069, RG-040 | ES-006, ES-005 |
-| 3 | FOI-002 and FOI-003 | Department of Defence | none; processing may be charged | 30 days | RG-087, RG-089 | ES-009 |
-| 4 | FOI-004 | Australian Criminal Intelligence Commission | none; processing may be charged | 30 days | RG-093 | ES-009 |
-| 5 | GIPA-002 | Revenue NSW | $30 | 20 working days | RG-007 | ES-004 |
-| 6 | FOI-001 | Treasury (foreign investment) | none; processing may be charged | 30 days, plus 30 if third parties are consulted | RG-006 | ES-004 |
-| 7 | GIPA-004 | Sydney Water | $30 | 20 working days | RG-017, RG-062, RG-068 | ES-008 |
-| 8 | FOI-005 | Melbourne Water | $34.50, waivable | 30 days | RG-017, RG-080 | ES-008 |
-| 9 | FOI-006 | Yarra Valley Water and South East Water (two applications) | each agency's own fee | 30 days | RG-017 | ES-008 |
-| 10 | RTI-001 | Unitywater | $59.60, not waivable | see the draft | RG-017 | ES-008 |
+| 1 | FOI-002 and FOI-003 | Department of Defence | none; ask that any processing charge be waived | 30 days | RG-087, RG-089 | ES-009 follow-up |
+| 2 | FOI-004 | Australian Criminal Intelligence Commission | none; as above | 30 days | RG-093 | ES-009 follow-up |
+| 3 | FOI-001 | Treasury (foreign investment) | none; as above | 30 days, plus 30 if third parties are consulted | RG-006 | ES-004 follow-up |
 
-**Cost.** Application fees come to about $214 for the NSW, Melbourne Water and
-Queensland requests, plus the two Victorian water agencies' own fees, before
-any processing charges. Commonwealth applications carry no fee. Check each
-agency's live page before paying (docs/requests/README.md, "Fees, as
-published").
+**Not lodged under zero spend.** These stay drafted, so they can be lodged if
+the decision changes, and the questions behind them are marked `blocked`, naming
+the request and the free substitutes already tried:
+
+| Request | Fee | Questions blocked on it | Free substitutes worked instead |
+| --- | --- | --- | --- |
+| GIPA-001 (DPHI ownership documents) | $30 | RG-021, RG-035, RG-037, RG-057, RG-059, RG-064 | ASIC's free monthly company dataset; land titles filed with applications; operators' own pages |
+| GIPA-002 (Revenue NSW) | $30 | RG-007 | the NSW Budget tax expenditure statement; Revenue NSW's annual report |
+| GIPA-003 (DPHI compliance and delegation) | $30 | RG-058, part of RG-040 and RG-069 | the NSW Electoral Commission's disclosure register (RG-069); download #19 (the SEPP versions) |
+| GIPA-004 (Sydney Water) | $30 | RG-017, RG-062, RG-068 | the consents' and modifications' own recycled-water wording; IPART's and Sydney Water's public documents; download #27 |
+| FOI-005 (Melbourne Water) | $34.50 | RG-080, part of RG-017 | Melbourne Water's annual report and published tenders |
+| FOI-006 (Yarra Valley and South East Water) | each agency's fee | part of RG-017 | the utilities' annual reports |
+| RTI-001 (Unitywater) | $59.60 | part of RG-017 | Unitywater's annual report |
 
 ### Deferred: paid searches
 
-The eight paid searches stay deferred ($157, docs/requests/PAID-SEARCHES.md).
-RG-036, RG-050, RG-052 and RG-081 can only be answered that way, so they stay
-open and say so. Free substitutes are already recorded.
+The eight paid searches stay deferred ($157, docs/requests/PAID-SEARCHES.md),
+and under the zero-spend decision of 2026-11-18 they are not bought. RG-036,
+RG-050, RG-052 and RG-081 can only be answered that way, so they stay open and
+say so. Free substitutes are recorded: ASIC's free monthly company dataset,
+issuers' annual reports and free foreign registry pages.
 
 ### Approvals
 
-- **Now:** ES-000 and ES-001 at `/admin`, after SMTP is set up
-  (docs/DELIVERY-PLAN.md, launch checklist).
-- **Then:** each draft as its pull request merges and the agent loads it.
+- **Now (decision of 2026-11-18):** ES-000 to ES-010 at `/admin`, after SMTP is
+  set up (docs/DELIVERY-PLAN.md, launch checklist).
+- **Then:** each new draft (ES-011 onward, and each follow-up) as its pull
+  request merges and the agent loads it.
 
 ## Part 3. The research: every unresolved question
 
@@ -310,6 +325,118 @@ has a dated entry.
 - **Not yet worked.**
   - Track A: RG-043, RG-061, RG-063, RG-104 (needs Macquarie's own statement).
   - Track R: RG-003, RG-008, RG-013, RG-019, RG-053, RG-073, RG-075, RG-097.
+
+#### Batch 8, planned (2026-11-18): every remaining question, at zero spend
+
+Seventy questions were unresolved after batch 7 (22 open, 47 in progress, 1
+blocked). Each ends resolved, `blocked` on a named free document or free
+Commonwealth request, proposed to the author for closing, or open and saying
+why (the paid-search track). Pack: `data-pipeline/scripts/curate_batch8.py`, on
+the batch 7 pattern.
+
+| Route | Questions | What the agent does |
+| --- | --- | --- |
+| Agent, free sources | RG-003, RG-008, RG-013, RG-018, RG-019, RG-025 (payments), RG-027 (the rest), RG-034 (approved councils only), RG-043, RG-053, RG-061, RG-063, RG-073, RG-074, RG-075, RG-088, RG-091, RG-097, RG-100, RG-101, RG-103, RG-104, RG-106 | Works each from public sources through the archiver; a refusal becomes a download for a person |
+| Free substitutes for unlodged requests | RG-007, RG-062, RG-068, RG-069, RG-080 | The substitutes in the request table above |
+| Proposed to the author for closing | RG-076 and RG-090 (resolved-negative), RG-102 and the unmappable part of RG-013 (not retrievable at zero spend) | Proposes; only the author closes |
+| The author's downloads | RG-004, RG-005, RG-010, RG-011, RG-014, RG-015, RG-016, RG-040, RG-041, RG-042, RG-048, RG-051, RG-054, RG-056, RG-066, RG-070, RG-072, RG-077, RG-083, RG-086, RG-092, RG-094 | Processes each download through a pack once it is in `data/raw/` |
+| Free Commonwealth requests | RG-006, RG-087, RG-089, RG-093 | `blocked` until the reply |
+| Blocked at zero spend | RG-021, RG-035, RG-037, RG-057, RG-058, RG-059, RG-064, RG-017; RG-039 on RG-037 | `blocked`, naming the unlodged request |
+| Paid, not bought | RG-036, RG-050, RG-052, RG-081 | Open, saying so |
+
+Download priority now follows the essays they unlock: #22 and #26 (ES-013);
+#23, #24, #25 and Latrobe Council's Wesley Vale record (ES-014); #2 (ES-012);
+#8 to #11 (ES-007, ES-015); #17 to #19 (ES-005's follow-up); #1, #3, #6 and #7
+(ES-002's); #4 and #5 (ES-008's); #13, #14 and #16 (ES-009's); then #15, #20,
+#21 and #27.
+
+#### Batch 8, first pass (2026-11-18)
+
+Pack `data/packs/batch8_open_questions.json` (`scripts/curate_batch8.py`). It
+touches 23 questions. Unresolved after it: 68, of which 14 are `blocked`,
+37 in progress and 17 open. The tables below are the snapshot taken after
+batch 7, and this list is what changed.
+
+- **Resolved: RG-062.** No consent or modification relies on the Guidelines'
+  definition of recycled water. The closest usage, rainwater tanks under
+  "Recycled water and reuse" at DigiCo SYD1, predates the Guidelines.
+- **Resolved: RG-075.** The pass opened all five public review letters. In
+  each, the reviewer is a different firm from the author.
+  - Every review was engaged by the applicant, its planner or the report's own
+    author. None was engaged by the Department.
+  - The two acoustic reviews did no remodelling.
+  - One firm wrote all three greenhouse reviews. At Project Atlas, the author
+    of the greenhouse report engaged that reviewer.
+- **Advanced: RG-073.** The firm behind 35 acoustic and air quality reports
+  (18 consents), read from each report's own pages. In three of the six consents
+  held by a consultancy, that consultancy wrote its own evidence.
+- **Advanced: RG-061.** These counts are computed from the 20 instruments:
+  - 15 consents cap generators at 200 hours a year, the line in the
+    Guidelines;
+  - the three decided since July 2026 set 170, 173 and 187 hours, and the 187
+    is the applicant's own figure;
+  - 13 cap diesel at 2,000 tonnes.
+
+  At Macquarie Park, the environment regulator itself recommended the 200-hour
+  cap "To ensure an EPL is not required".
+- **Blocked: RG-008, on download #28.** Four sites need a licence, according to
+  the reports: 51 Huntingwood Drive, NEXTDC S4, Marsden Park, and Roberts Road
+  as modified. At Khartoum Road, the regulator does not consider itself the
+  authority for air emissions, because no licence is required. RG-008 is now
+  cited, so it publishes: 96 questions load.
+- **Zero spend.** These questions are set to `blocked`, naming the request:
+  - RG-021, 035, 037, 057, 059 and 064: GIPA-001's items;
+  - RG-058: GIPA-003;
+  - RG-017: the four water requests;
+  - RG-006, 087, 089 and 093: the four free Commonwealth FOIs, until the author
+    lodges them and a reply comes.
+
+  RG-036, 050, 052 and 081 say they wait on paid extracts.
+- **Proposed to the author for closing as resolved-negative:** RG-076 and
+  RG-090. The pack closes neither.
+- **New downloads:** #28 (the EPA register) and #29 (Project Echidna's air
+  quality report, over the crawler's size limit).
+
+#### Batch 8, second pass (2026-11-18)
+
+Pack `data/packs/batch8b_open_questions.json` (`scripts/curate_batch8b.py`).
+It touches 14 questions. Unresolved after it: 67, of which 20 are `blocked`,
+34 in progress and 13 open. Sources: 329. Questions loaded: 98.
+
+- **Resolved: RG-019.** Transgrid will put two synchronous condensers at the
+  Kemps Creek 500 kV substation, energised from early 2028. None serves a data
+  centre today.
+- **RG-034: the modification half is done.** All 17 modification records are
+  read. Three more add generators or diesel:
+  - Lane Cove West Mod 4: diesel from 1,651 to 1,966.9 tonnes, "below the
+    storage limit of 2,000 t". Decided under delegation, and not exhibited.
+  - Lanceley Place Mod 2: from 30 to 42 generators.
+  - Lane Cove West Mod 3: from 116 to 121 generators. This one was exhibited.
+
+  Their reclassification is **proposed to the author**. Council development
+  applications remain.
+- **RG-018 and RG-043:** Transgrid's own page is now on the record:
+  - "more than 10 GW" of data centre connection enquiries within 12 km of
+    Sydney West;
+  - capacity in the Sydney basin is "largely exhausted";
+  - large users are to "play their role" in system strength.
+
+  RG-018 is `blocked` on AEMO's list (download #31).
+- **RG-100:** the 1,350 MW and 3,100 MW figures are re-sourced to Mandala's own
+  October 2024 report.
+- **Blocked:**
+  - RG-068 and RG-080: the free substitutes were read and are silent;
+    GIPA-004 and FOI-005 are not lodged.
+  - RG-007, RG-063 and RG-069: each primary record was refused, so they are
+    downloads #30, #33 and #34.
+- **RG-027:** the Beetaloo release was refused (download #32).
+- **Proposed to the author as not retrievable at zero spend:** RG-013 (the AWS
+  and Google remainder) and RG-102 (Macquarie Park's end user).
+
+Not touched (no new free source reached them): RG-003, 025, 053, 088, 097,
+101, 103, 104 and 106. Each waits on a named download already listed (#20,
+#22, #26) or on the paid-search track, except RG-053, which needs the
+Western Downs application (about 344 MB) fetched again.
 
 #### A. Agent work on free sources, for an essay (13)
 
@@ -676,6 +803,110 @@ before writing.
 - **Named parties.** Lobbyists, officials and ministers all appear by role
   until legal review is arranged.
 
+### Wave 3: five new essays from the research (2026-11-18)
+
+Topics the research turned up along the way. Each is drafted only once its
+claim rests on records the database holds; until then its gaps are listed here.
+
+#### ES-011 "The approval after the approval" (C2). Drafted as "Approved, then doubled", waiting for approval
+
+- **Claim.** After consent, modifications decided by delegates doubled Eastern
+  Creek's power (32 MW to 63 MW; the portal's own summary says 70.2 MW), took
+  Roberts Road from 48 to 72 generators and its diesel from 1.9 to 2.4 million
+  litres, with 96 generators now sought, and gave Lane Cove West 116 generators.
+- **Evidence in hand.** RG-045 (the five modification reports), RG-034.
+- **Free records still useful.** The other modification reports on the portal;
+  RG-008's environment protection licences; the Guidelines' generator limits.
+- **Reader action.** A question for the Planning Secretary: will the Department
+  publish each site's cumulative generator and diesel totals, modifications
+  included?
+- **Named parties.** None. Delegates appear by role.
+
+#### ES-012 "Shareholder and customer" (M2). Brief, after download #2
+
+- **Claim.** At 31 December 2025 the Future Fund held Palantir shares worth
+  A$165.3 million and NVIDIA shares worth A$2.1 billion, while Commonwealth
+  agencies held 29 Palantir contracts worth $68.3 million. Its CDC stake reads
+  29% against CDC's own 34.55%.
+- **Evidence in hand.** SRC_FF_PIR_DEC25, the AusTender ledger (RG-086), CDC's
+  release.
+- **Waits on.** Download #2 (the Future Fund's 2025 and 2026 reports; RG-094).
+- **Reader action.** A question for the Future Fund Board of Guardians (by role)
+  on how holdings are screened against the Commonwealth's own contracts. No
+  impropriety is implied.
+
+#### ES-013 "The register that stopped registering" (C3). Drafted, waiting for approval
+
+- **Claim.** The government's top hosting certification "represents the highest
+  level of assurance", yet its register gives no location for any facility, has
+  paused new registrations since 3 November 2025 "until HCF reforms have been
+  completed", and lacked thirteen facilities our own record also lacked. One
+  certified site is leased to a firm its operator will not name.
+- **Evidence in hand.** SRC_HCF_REGISTER, ST-022, RG-101, RG-103, RG-104,
+  RG-106.
+- **Free records still useful.** Downloads #22 and #26; Home Affairs' public
+  material on the reforms.
+- **Reader action.** A question for the Department of Home Affairs: when will the
+  reforms finish, and will the register say where each certified facility is?
+
+#### ES-014 "Out past the substations" (C1). Deep dive, after downloads #23 to #25. Conflict disclosure at the top
+
+- **Claim.** Gigawatt-scale data centres are being proposed in the regions:
+  Western Downs (about 2,160 MW of IT load), an off-grid campus of up to 1 GW in
+  the Kimberley referred under the EPBC Act, Firmus at Wesley Vale (about 26 MW
+  rising to about 52 MW, 40 backup generators), and a ten-storey building at
+  Swanbank.
+- **Evidence in hand.** SRC_WDDP_TPR, Firmus's own page, NVIDIA's release.
+- **Waits on.** Downloads #23 (Queensland's prescribed projects), #24 (the EPBC
+  referral), #25 (Ipswich's record) and Latrobe Council's Wesley Vale record
+  (RG-010, RG-027, RG-051, RG-054).
+- **Conflict.** It touches the Western Downs project, whose tenant is Anthropic's
+  Australian subsidiary, so the disclosure goes at the top.
+- **Reader action.** A question for each state's planning minister (by role) on
+  how a gigawatt load in a regional area is assessed.
+
+#### ES-015 "Who checks the consultants" (C2). Drafted as "The applicant hires the checker" (brief), waiting for approval
+
+- **Claim, as tested by batch 8.** The applicant engages the firm that writes
+  the noise, air and greenhouse evidence, and the applicant, its planner or the
+  report's own author engages the firm that checks it. The Department engages
+  neither.
+  - Three of the six consents held by a consultancy or design practice carry
+    evidence written by that same firm: Turner Road and Project Echidna (Arup)
+    and Davis Road (Cundall).
+  - Review documents appear on 6 of 63 projects, about one in ten (the earlier
+    estimate was one in twenty). The two acoustic reviews did no remodelling.
+  - One firm wrote all three greenhouse reviews. At Project Atlas, the
+    report's author engaged the reviewer.
+- **Evidence in hand.** RG-073 and RG-075 (resolved), the five review letters,
+  35 reports read for their authors, and RG-074's applicants.
+- **Why a brief.** The contract half of the claim, whether these firms also work
+  for the assessors, waits on download #11 (RG-074). It becomes a follow-up when
+  that lands.
+- **Reader action.** A question for the Planning Secretary: will the Department
+  name every technical appendix's author and require independent peer review of
+  acoustic and air quality evidence?
+
+### Follow-ups to approved essays
+
+Under the approve-now decision, new evidence on an approved essay becomes a new
+piece. A follow-up takes the next free number (ES-016 onward), opens its
+standfirst with "A follow-up to ES-00n", carries the tag `follow-up`, and meets
+every essay rule (five sources at least, every number cited, people by role).
+The editor links it from the original in `/admin`.
+
+| Original | Follow-up written when |
+| --- | --- |
+| ES-002 | Downloads #1, #3, #6 and #7 arrive: the six funds in full |
+| ES-003 | A free record names one of the unnamed operators. In hand already: SYD2 and Apollo Place are AirTrunk's (RG-098), and the Macquarie Park building is operating (RG-102) |
+| ES-004 | RG-043's network and regulator figures, or RG-007's tax expenditure statement |
+| ES-005 | Downloads #17 to #19: the planning policy as in force, and the inquiry submissions |
+| ES-006 | RG-061's other conditions, or RG-069's electoral register. The modifications go to ES-011 |
+| ES-008 | Downloads #4 and #5: the exchange's compliance letter and OpenAI's own page |
+| ES-009 | The FOI-002, FOI-003 and FOI-004 replies, and downloads #13, #14 and #16 |
+| ES-010 | Downloads #15 (Hansard) and #23 (the prescribed-projects list) |
+| ES-007 | Drafted as its own essay when downloads #8 to #11 arrive |
+
 ### The order, in short
 
 | Wave | When | Essays |
@@ -683,7 +914,8 @@ before writing.
 | 0 | Now | R2.0 and R2.1. The author approves ES-000 and ES-001, lodges the requests, and starts the downloads |
 | 1 | Now, from evidence in hand | ES-003, ES-004, ES-006, ES-009 (all drafted) |
 | 2 | As each group of downloads arrives | ES-002, ES-008, ES-010 and ES-005 are drafted as briefs from what is in hand; ES-007 and ES-002's deep dive wait on the downloads |
-| 3 | As replies arrive (20 working days to 30 days after lodgement, longer if extended) | Follow-up pieces for ES-003, ES-006 and ES-009. Never silent edits to an approved essay |
+| 3 | Now and as downloads arrive (2026-11-18) | ES-011, ES-013 and ES-015 drafted; ES-012 after download #2; ES-014 after downloads #23 to #25 |
+| 4 | As downloads and the free Commonwealth replies arrive | Follow-up pieces (ES-016 onward). Never silent edits to an approved essay |
 
 ## How an essay moves
 

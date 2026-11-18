@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330%2120191128T050817.190+GMT",
+ "project_slug": "roberts-road-data-centre",
+ "attachment_slug": "appendix-o-air-quality-assessment-report-0",
+ "kind": "air_quality_report",
+ "label": "Appendix O - Air Quality Assessment Report.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:22:58+00:00",
+ "sha256": "2a9b0a48f9b456fdfe4f09855d67170e5c8df6acdf66298484ead6b4b3bdcb11",
+ "bytes": 1408720,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 63470,
+ "pages": 37,
+ "text_redactions": 3,
+ "pdf_committed": false
+}

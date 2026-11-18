@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-55030963%2120230907T070724.442+GMT",
+ "project_slug": "lane-cove-west-data-centre-mod-3-design-changes",
+ "attachment_slug": "peer-review-acoustic-assessment-25",
+ "kind": "acoustic_peer_review",
+ "label": "TN357-01F03 Acoustic Assessment - Peer Review $28r0$29.pdf",
+ "folder": "Response to Submissions",
+ "fetched_utc": "2026-11-18T06:13:32+00:00",
+ "sha256": "a499e2da1e1063c26b81acd7779d851a484d50d3ca9786f1015b083ec137932f",
+ "bytes": 166762,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 2776,
+ "pages": 2,
+ "text_redactions": 2,
+ "pdf_committed": false
+}

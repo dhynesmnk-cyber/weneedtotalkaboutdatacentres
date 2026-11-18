@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-67407231%2120240919T062911.227+GMT",
+ "project_slug": "apollo-place-data-centre",
+ "attachment_slug": "appendix-19-noise-and-vibration-impact-assessment-171",
+ "kind": "noise_assessment",
+ "label": "Appendix 19 - Noise and Vibration Impact Assessment $28Rev$29.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:16:29+00:00",
+ "sha256": "8db9867bf445f74702a49394bc219abd95ef479e2fa5c4058b1a6a615d62c55c",
+ "bytes": 13200385,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 383925,
+ "pages": 146,
+ "text_redactions": 2,
+ "pdf_committed": false
+}

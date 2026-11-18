@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=RFI-100093456%2120251210T234934.223+GMT",
+ "project_slug": "roberts-road-dc-mod-2-additional-back-generators-and-diesel-storage",
+ "attachment_slug": "attachment-hghg-independent-reviewer-report",
+ "kind": "ghg_review",
+ "label": "Attachment H_GHG Independent Reviewer Report.pdf",
+ "folder": "Additional Information",
+ "fetched_utc": "2026-11-18T06:24:30+00:00",
+ "sha256": "6b2c4edbbe2cb48f7cb5dcc8c275a1284fa3eccbc1fce36e81635307e0a6eeb2",
+ "bytes": 804702,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 25558,
+ "pages": 10,
+ "text_redactions": 3,
+ "pdf_committed": false
+}

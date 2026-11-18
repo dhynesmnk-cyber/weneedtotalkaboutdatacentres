@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69223466%2120250428T064038.756+GMT",
+ "project_slug": "project-pluto-data-centre",
+ "attachment_slug": "appendix-u-noise-vibration-impact-assessment-71",
+ "kind": "noise_assessment",
+ "label": "Appendix U - Noise & Vibration Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:22:25+00:00",
+ "sha256": "2331c42d1a36565b0acd0c77da30c19ee737b90558bacffc2235dff46f1308a1",
+ "bytes": 16869007,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 185500,
+ "pages": 121,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

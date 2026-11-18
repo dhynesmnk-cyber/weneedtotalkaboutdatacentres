@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-33781208%2120220708T021603.617+GMT",
+ "project_slug": "station-road-data-centre-expansion",
+ "attachment_slug": "appendix-13-aqia-62",
+ "kind": "air_quality_report",
+ "label": "Appendix 13 - AQIA.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:23:27+00:00",
+ "sha256": "f0d1f92cb7e32c84c991daadadb6b9d6f8e5448e56a6bb17ab6903a491a1fc20",
+ "bytes": 8251009,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 96668,
+ "pages": 74,
+ "text_redactions": 3,
+ "pdf_committed": false
+}

@@ -21,6 +21,14 @@ the text that matters. A later change to the file here is the agent's proposal:
 the loader reports it and leaves the piece alone. The file stays as the record
 of what the agent first proposed, and `/admin` keeps every later version.
 
+### Follow-ups
+
+New evidence on an approved piece becomes a new piece, never an edit by an
+agent (decision of 2026-11-18). A follow-up takes the next free number, opens
+its standfirst with "A follow-up to ES-00n", carries the tag `follow-up`, and
+meets every rule below. The editor links it from the original in `/admin`.
+docs/PUBLICATION-PLAN.md lists which records would prompt each one.
+
 ## Format
 
 ```markdown
@@ -116,3 +124,6 @@ editor's reading, against the checklist in docs/REVIEW.md.
 | [ES-008](ES-008-a-memorandum.md) | S7's OpenAI deal is a memorandum | essay | ST-008, ST-002 | draft |
 | [ES-009](ES-009-twenty-nine-contracts.md) | Twenty-nine contracts, and none says where | essay | ST-012, ST-013, ST-014, ST-015, ST-022 | draft |
 | [ES-010](ES-010-named-to-the-market.md) | The tenant was named to the market, not the council | essay | ST-016, ST-006 | draft |
+| [ES-011](ES-011-approved-then-doubled.md) | Approved, then doubled | essay | none (RG-045) | draft |
+| [ES-013](ES-013-register-stopped-registering.md) | The register that stopped registering | essay | ST-022 | draft |
+| [ES-015](ES-015-applicant-hires-the-checker.md) | The applicant hires the checker | essay | none (RG-073, RG-075) | draft |

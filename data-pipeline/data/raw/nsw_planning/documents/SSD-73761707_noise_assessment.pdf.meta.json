@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-84031976%2120251214T230456.300+GMT",
+ "project_slug": "glendenning-road-data-centre",
+ "attachment_slug": "appendix-d10-noise-and-vibration-impact-assessment-0",
+ "kind": "noise_assessment",
+ "label": "Appendix D10 Noise and Vibration Impact Assessment.pdf",
+ "folder": "Response to Submissions",
+ "fetched_utc": "2026-11-18T06:18:43+00:00",
+ "sha256": "4733042eb5946dac1bc8cff4d0e393ed818e1d2e37ef76f381f32dc43566bd45",
+ "bytes": 32221757,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 247501,
+ "pages": 187,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

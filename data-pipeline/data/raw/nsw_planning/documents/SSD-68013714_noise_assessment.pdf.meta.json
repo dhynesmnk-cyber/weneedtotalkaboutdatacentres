@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-68013714%2120250207T055134.181+GMT",
+ "project_slug": "43-61-turner-road-data-centre",
+ "attachment_slug": "appendix-m-noise-and-vibration-assessment-report-39",
+ "kind": "noise_assessment",
+ "label": "Appendix M - Noise and Vibration Assessment Report.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:15:46+00:00",
+ "sha256": "c166551d47e2a2587928b1cb88e98ae169c9dc9d13618ea21d5c7ad217f4c8f5",
+ "bytes": 14615795,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 198348,
+ "pages": 109,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

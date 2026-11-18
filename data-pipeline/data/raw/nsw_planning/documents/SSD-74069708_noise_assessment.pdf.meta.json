@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-81153208%2120251014T222953.154+GMT",
+ "project_slug": "project-apollo-data-centre-macquarie-park",
+ "attachment_slug": "appendixq-noiseandvibrationimpactassessment-3",
+ "kind": "noise_assessment",
+ "label": "_Appendix+Q+-+Noise+and+Vibration+Impact+Assessment_.pdf",
+ "folder": "Response to Submissions",
+ "fetched_utc": "2026-11-18T06:21:12+00:00",
+ "sha256": "8d7a927967d95b798a8bde099935da3ac911c38c26f8c480778a25b67e8c63f3",
+ "bytes": 14517757,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 192551,
+ "pages": 129,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

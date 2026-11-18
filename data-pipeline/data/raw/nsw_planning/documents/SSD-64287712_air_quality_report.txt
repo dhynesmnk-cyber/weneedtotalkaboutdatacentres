@@ -1,0 +1,4608 @@
+[[page 1]]
+ 
+DCI 
+Air Quality Impact Assessment 
+DCI CBR01 Data Centre 
+90 Peter Brock Drive 
+Eastern Creek NSW 2766  
+ 
+Prepared by: 
+SLR Consulting Australia Pty Ltd 
+Tenancy 202 Submarine School, Sub Base 
+Platypus, 120 High Street, North Sydney NSW 
+2060, Australia 
+ 
+SLR Project No.: 610.032202.00001 
+16 December 2024 
+Revision: 4 
+ 
+[[page 2]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ i  
+ 
+Revision Record 
+Revision Date Prepared By Checked By Authorised By 
+3 16 December 2024 K Barker J Shepherd FINAL ISSUE  
+A Naghizadeh 
+2 6 December 2024 K Barker J Shepherd For adequacy review 
+and consultation 
+1 2 December 2024 K Barker J Shepherd Draft 
+ 
+Basis of Report 
+This report has been prepared by SLR Consulting Australia Pty Ltd (SLR) with all reasonable 
+skill, care and diligence, and taking account of the timescale and resources allocated to it by 
+agreement with DCI CBR01 Data Centre (the Client). Information reported herein is based 
+on the interpretation of data collected, which has been accepted in good faith as being 
+accurate and valid. 
+This report is for the exclusive use of the Client. No warranties or guarantees are expressed 
+or should be inferred by any third parties. This report may not be relied upon by other parties 
+without written consent from SLR. 
+SLR disclaims any responsibility to the Client and others in respect of any matters outside 
+the agreed scope of the work. 
+ 
+[[page 3]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ i  
+ 
+Executive Summary 
+This Air Quality Impact Assessment has been prepared by HDR to accompany a State 
+Significant Development Application (SSDA) for the construction and ongoing operation of a 
+new Data Centre facility at 2 Wolseley Place, Jerrabomberra NSW in the Queanbeyan-
+Palerang Regional Council Area. The current real property description of the site is Lot 6 in 
+DP 1288362, following the site’s subdivision by Poplars as part of the estate works. 
+This report has been prepared to address the Secretary’s Environmental Assessment 
+Requirements (SEARs) issued for the Project DCI CBR01 Data Centre (SSD-64287712) 
+dated 6th November 2023. 
+This report concludes that from an air quality perspective, the proposed data centre is 
+suitable and warrants approval subject to the implementation of the mitigation measures as 
+described in Section 8.1.2 and Section 8.2.2. Following the implementation of the 
+recommended mitigation measures, the residual impacts should not be considered as a 
+constraint during the construction and operation of the Project.   
+[[page 4]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ ii  
+ 
+Table of Contents 
+Basis of Report .................................................................................................................... i  
+Executive Summary ............................................................................................................. i  
+1.0 Introduction ................................................................................................................ 6  
+1.1 Background .................................................................................................................. 6  
+1.2 Relevant Policies, Guidelines and Plans ...................................................................... 7  
+2.0 Project Description .................................................................................................... 8  
+2.1 Project Overview .......................................................................................................... 8  
+2.2 Site Description ............................................................................................................ 9  
+3.0 Potential Sources of Emissions to Air .................................................................... 13 
+3.1 Construction Phase .................................................................................................... 13  
+3.2 Operational Phase ...................................................................................................... 13  
+3.3 Air Quality Indicators .................................................................................................. 14  
+3.3.1 Construction ............................................................................................................... 14  
+3.3.2 Operation ................................................................................................................... 14  
+4.0 Regulatory Framework ............................................................................................. 16 
+4.1 Protection of the Environment Operations (POEO) Act 1997 & Amendment Act 2011 16 
+4.2 Protection of the Environment Operations (Clean Air) Regulation 2022 ...................... 16 
+4.3 NSW Environment Protection Authority Air Quality Policy and Guidance ................... 18 
+4.3.1 Local Air Quality Toolkit .............................................................................................. 18  
+4.3.2 Air Quality Criteria ...................................................................................................... 19  
+5.0 Existing Environment ............................................................................................... 21 
+5.1 Topography ................................................................................................................ 21  
+5.1 Land Use and Sensitive Receptors ............................................................................ 22  
+5.2 Local Meteorology ...................................................................................................... 24  
+5.2.1 Wind ........................................................................................................................... 25  
+5.3 Background Air Quality ............................................................................................... 28  
+6.0 Assessment Methodology ....................................................................................... 30  
+6.1 Construction Phase Qualitative Impact Assessment ................................................... 30 
+6.2 Operational Phase Dispersion Modelling Study .......................................................... 30 
+6.2.1 Plume Dispersion Model ............................................................................................. 31  
+6.2.2 Meteorological Modelling ............................................................................................ 31  
+6.2.3 Building Downwash .................................................................................................... 33  
+6.2.4 Background Pollutant Concentrations ......................................................................... 35 
+6.2.5 Conversion of Averaging Times .................................................................................. 35 
+6.2.6 PAHs as Benzo(a)Pyrene ........................................................................................... 36 
+[[page 5]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ iii  
+ 
+6.2.7 Source Characteristics and Emission Rates ............................................................... 38 
+6.2.8 NOx to NO2 conversion ............................................................................................... 40  
+6.2.9 Additional Model Parameters and Options.................................................................. 42  
+6.2.10 Accuracy of Modelling ....................................................................................... 42  
+7.0 Assessment of Impacts ........................................................................................... 44  
+7.1 Construction Phase .................................................................................................... 44  
+7.1.1 Step 1 – Screening Based on Separation Distance .................................................... 44 
+7.1.2 Step 2a – Assessment of Scale and Nature of the Works ........................................... 44 
+7.1.3 Step 2b – Risk Assessment ........................................................................................ 45 
+7.1.4 Step 3 - Mitigation Measures ...................................................................................... 46  
+7.1.5 Step 4 - Residual Impacts .......................................................................................... 50  
+7.2 Operational Phase ...................................................................................................... 50  
+7.2.1 Particulates ................................................................................................................ 50  
+7.2.2 NO2 ............................................................................................................................ 52  
+7.2.3 CO ............................................................................................................................. 52  
+7.2.4 SO2 ............................................................................................................................ 53  
+7.2.5 PAHs .......................................................................................................................... 54  
+7.2.6 Summary .................................................................................................................... 55  
+7.3 Emergency Conditions ............................................................................................... 55  
+7.3.1 Particulates ................................................................................................................ 55  
+7.3.2 NO2 ............................................................................................................................ 57  
+7.3.3 CO ............................................................................................................................. 58  
+7.3.4 SO2 ............................................................................................................................ 59  
+7.3.5 PAHs .......................................................................................................................... 59  
+7.3.6 Summary .................................................................................................................... 60  
+8.0 Air Quality Monitoring and Mitigation Measures .................................................... 62 
+8.1 Construction Phase .................................................................................................... 62  
+8.1.1 Air Quality Monitoring ................................................................................................. 62  
+8.1.2 Mitigation Measures ................................................................................................... 62  
+8.2 Operational Phase ...................................................................................................... 62  
+8.2.1 Air Quality Monitoring ................................................................................................. 62  
+8.2.2 Mitigation Measures ................................................................................................... 62  
+9.0 Summary and Conclusions ..................................................................................... 63  
+10.0 References ................................................................................................................ 64  
+11.0 Feedback.......................................................................... Error! Bookmark not defined. 
+ 
+[[page 6]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ iv  
+ 
+Tables in Text 
+Table 1 SEARS Requirement ................................................................................................ 7  
+Table 2 Project Details ..................................................................................................... 8  
+Table 3 Proposed Generator Maintenance Regime ........................................................ 13 
+Table 4 Relevant Schedule 2 Standards of Concentration for (Group 6 1) Scheduled 
+Premises ........................................................................................................... 17  
+Table 5 Relevant Schedule 3 Standards of Concentration for (Group C 1) Non-Scheduled 
+Premises ........................................................................................................... 17  
+Table 6 Project Air Quality Goals .................................................................................... 19  
+Table 7 Wind Scale Descriptions .................................................................................... 25  
+Table 8 Summary of St Marys and Prospect AQMS Data (2019-2023) .......................... 29 
+Table 9 Meteorological Modelling Parameters - TAPM v 4.0.4 ....................................... 32  
+Table 10 Meteorological Modelling Parameters - CALMET .............................................. 33  
+Table 11 Approved Methods Potency Equivalency Factors for PAHs ............................... 37 
+Table 12 PAH (as Benzo(a)pyrene) Emission Factor........................................................ 38  
+Table 13 Diesel Generator Specifications ......................................................................... 39  
+Table 14 Diesel Generator Specifications – Data Centre .................................................. 39 
+Table 15 Classification of Values for A and α by Season .................................................. 41 
+Table 16 O3 Concentration Summary: Monash AQMS (2021) .......................................... 41 
+Table 17 Model Parameters ............................................................................................. 42  
+Table 18 Categorisation of Dust Emission Magnitude....................................................... 45  
+Table 19 Preliminary Risk of Air Quality Impacts from Construction Activities (Uncontrolled)
+ .......................................................................................................................... 46  
+Table 20 IAQM - General Mitigation Measures Medium Risk ............................................ 46 
+Table 21 Mitigation Measures Specific to Medium-Risk Earthworks ................................. 48 
+Table 22 Mitigation Measures Specific to Medium-Risk Construction ............................... 49 
+Table 23 Mitigation Measures Specific to Medium-Risk Trackout ..................................... 49 
+Table 24 Residual Risk of Air Quality Impacts from Construction ..................................... 50 
+Table 25 Maximum Predicted 24-hour average PM Concentrations at Modelled Receptors
+ .......................................................................................................................... 51  
+Table 26 Maximum Predicted Annual Average PM Concentrations at Modelled Receptors
+ .......................................................................................................................... 51  
+Table 27 Maximum Predicted NO2 Concentrations at Modelled Receptors....................... 52 
+Table 28 Maximum Predicted Incremental CO Concentrations at Modelled Receptors .... 53 
+Table 29 Maximum Predicted Incremental SO2 Concentrations at Modelled Receptors ... 54 
+Table 30 Maximum Predicted PAH Concentrations at Modelled Receptors ...................... 55 
+Table 31 Maximum Predicted 24-Hour PM Concentrations at Modelled Receptors .......... 56 
+Table 32 Maximum Predicted NO2 Concentrations at Sensitive Receptors....................... 57 
+[[page 7]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ v  
+ 
+Table 33 Maximum Predicted Incremental CO Concentrations at Sensitive Receptors .... 58 
+Table 34 Maximum Predicted Incremental SO2 Concentrations at Residential Receptors 59 
+Table 35 Maximum Predicted Incremental PAH Concentrations at Residential Receptors 60 
+ 
+Figures in Text 
+Figure 1 Site Aerial ............................................................................................................. 10  
+Figure 2  Poplars Precinct Master Plan ............................................................................. 11  
+Figure 3 Poplars Innovation Precinct Stage 1 Master Plan .............................................. 11  
+Figure 4 Approved Estate Subdivision Plan ..................................................................... 12  
+Figure 5- Site Plan .............................................................................................................. 12  
+Figure 6 Local Topographical Features ........................................................................... 21  
+Figure 7 Planning Land Zones ......................................................................................... 22  
+Figure 8 Surrounding Sensitive Receptors ....................................................................... 23 
+Figure 9 Surrounding Sensitive Receptors in Proximity ................................................... 24  
+Figure 10 Wind Roses for Canberra Airport AWS 2019-2024 ............................................ 27 
+Figure 11 Modelled Buildings and Point Sources (Operational Maintenance Scenario). .... 34 
+Figure 12 Modelled Buildings and Point Sources (Emergency Conditions Scenario). ........ 35 
+ 
+Appendices 
+Appendix A Sensitive Receptors 
+Appendix B IAQM Construction Assessment Methodology 
+Appendix C Site Representative Meteorological Data 
+Appendix D Diesel Generator Specification Sheets & Arrangement 
+Appendix E Incremental Isopleth Plots 
+ 
+ 
+[[page 8]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 6  
+ 
+1.0 Introduction 
+1.1 Background 
+A State Significant Development Application (SSDA) has been prepared in support of a 
+proposed data centre at 2 Wolseley Place, Jerrabomberra (the Project; the Site). The Site is 
+zoned B7 Business Park under the Queanbeyan Local Environmental Plan (West 
+Jerrabomberra) 2013. The current legal property description of the Site is Lot 6 in 
+DP1288362, following the site’s subdivision by Poplars as part of the estate works. 
+The key features of the Project are summarised as follows: 
+ site preparation works including demolition, tree and vegetation clearing and bulk 
+earthworks 
+ staged construction, fit out and operation of single storey, 20 MW Data Centre 
+building with a maximum building height of 7.6 m and total gross floor area of 
+5,826 m2 comprising:  
+o 60no at-grade parking spaces  
+o loading dock spaces incl. 2 DDA spaces 
+o five data halls  
+o ancillary office space and amenities  
+o offices and amenities. 
+ provision of required utilities including:  
+o Two 270 kL above-ground combined fire sprinkler & hydrant tanks 
+o Two 11 kV switch-rooms on site 
+ vehicle and pedestrian access provided via Wolseley Place.  
+ associated landscaping and site servicing 
+ installation of site services and drainage infrastructure 
+ a floor space ratio of approximately 0.14:1.  
+This report has been prepared to address the Secretary’s Environmental Assessment 
+Requirements (SEARs) and accompanying cover letter issued for Project DCI CBR01 Data 
+Centre (SSD-64287712) dated 6 November 2023. 
+Specifically, this report has been prepared to respond to the SEARs requirement issued 
+below: 
+[[page 9]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 7  
+ 
+Table 1 SEARS Requirement 
+Item 11 Requirements Where Addressed 
+11. Air Quality 
+ 
+Provide an assessment of air quality impacts, 
+prepared in accordance with the relevant NSW 
+Environment Protection Authority (EPA) guidelines. 
+The assessment must address construction works 
+and include modelling of emissions and air pollutants 
+from predicted operations (including testing of the 
+back-up power system) and a peak emission and air 
+pollutant scenario, and outline the proposed 
+mitigation, management and monitoring measures 
+This Report. 
+ 
+ 
+1.2 Relevant Policies, Guidelines and Plans 
+This assessment has been prepared with consideration of the following policies and 
+guidelines: 
+ “ Approved Methods for the Modelling and Assessment of Air Pollutants in NSW” 
+(NSW EPA 2022) (the Approved Methods) 
+ “ Approved Methods for the Sampling and Analysis of Air Pollutants in NSW” (NSW 
+EPA 2022b) 
+ Protection of the Environment Operations Act 1997 (NSW Parliament, 1997) 
+ “ Protection of the Environment Operations (Clean Air) Regulation 2022” (NSW 
+Parliament 2022) 
+ “National Environment Protection (Ambient Air Quality) Measure” (NEPC 2021). 
+The Approved Methods outlines the requirements for conducting an air quality impact 
+assessment as follows (also indicated are the relevant sections of this report where the 
+requirements are met): 
+ description of local topographic features and sensitive receptor locations 
+(Section 5.1 and Section 5.1). 
+ establishment of air quality assessment criteria ( Section 4.3.2) 
+ analysis of climate and dispersion meteorology for the region ( Section 5.2) 
+ description of existing air quality environment ( Section 5.3) 
+ compilation of a comprehensive emissions inventory for the proposed activities 
+(Section 6.2.7) 
+ completion of atmospheric dispersion modelling and analysis of results ( Section 7.2 
+and Section 7.3) 
+ preparation of an air quality impact assessment report comprising the above. 
+  
+[[page 10]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 8  
+ 
+2.0 Project Description 
+2.1 Project Overview 
+The key components of the Project are listed in the following table. 
+Table 2 Project Details 
+Descriptor Project Details 
+Project Area The site has a total area of 4.05 hectares. The entire site will be 
+disturbed by the Project 
+Use and Activities Data Centre with ancillary office building 
+Project Summary Site preparation works including demolition, tree and vegetation clearing 
+and bulk earthworks 
+Construction, fit out and operation of single storey, 20 MW Data Centre 
+building comprising:  
+60no at-grade parking spaces  
+Loading dock spaces incl. 2 DDA spaces 
+Five data halls  
+Ancillary office space and amenities  
+Offices and amenities 
+Gross Floor Area (GFA) Total gross building area = 7,078 m 2.  
+Total DH= 5,826 m2.  
+Total Office/Admin (excl. corridor/comms/MMR/elec. cupboard) = 
+561 m2 
+Maximum Height maximum building height 7.6 m  
+Floor Space Ratio 0.14:1 
+Deep Soil Area TBC 
+Car Parking 60 car spaces including 2 DDA spaces and 5% of the spaces to be fitted 
+with EV provisions 
+Motorbike Parking TBC 
+Bicycle Parking 12 spaces 
+Utilities New dual redundant (N-1) feeders at 11kV 
+2 x 11kV switch-rooms on site 
+2 x 270kL above-ground combined fire sprinkler & hydrant tanks 
+Town Main Water connection - 22L/S @58m0 (m) pressure 
+50kL rainwater tank to support landscape irrigation and toilet flushing 
+Power Consumption  30 MVA 
+Operations & 
+Management  
+The Project would be constructed and operated by DCI. The Project 
+would be operated on a 24-hour, 7 day a week basis. 
+[[page 11]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 9  
+ 
+Descriptor Project Details 
+Existing Services and 
+Infrastructure 
+Existing services and infrastructures will be extended, adapted and 
+augmented to meet the demands of the Project. 
+Staging/Phasing There will be 3 construction stages: 
+Stage 1: 2no. data halls with 8 MW IT capacity, admin building, primary 
+and secondary site entrances incl. external carpark and loading dock 
+facility 
+Stage 2: 1no. data hall with 4 MW IT capacity 
+Stage 3: 2no. data halls with 8 MW IT capacity and admin building 
+including external carpark 
+ 
+2.2 Site Description 
+The Site (Figure 1) has a total area of approximately 4.05 hectares. The existing ground 
+surface dips gently towards the northwest at approximately 1º. 
+The Poplars Innovation Precinct (the Precinct) is a new business park which forms part of 
+the broader development of the South Jerrabomberra locality in the Queanbeyan-Palerang 
+LGA. The precinct is being developed by the estate owner, Poplars Developments Pty Ltd 
+(Poplars). 
+The Precinct is located approximately 5 kilometres (km) south-west of Queanbeyan and 10 
+km south-east of Canberra near the NSW/ACT border (Figure 2, Figure 3). It is 
+conveniently located close to major transport and infrastructure links, including the Monaro 
+Highway located about 2 km to the west (via Lanyon Drive), and high voltage transmission 
+lines located on the ACT/NSW border. 
+The Precinct has been earmarked for employment and related urban purposes for some 
+time, with the Innovation Precinct rezoned from rural to business purposes by Queanbeyan-
+Palerang Regional Council (Council) in 2013, in accordance with a Structure Plan for the 
+wider South Jerrabomberra area. 
+The Poplars Retail and Service Precinct (Stage 1), located to the north of Tompsitt Drive, 
+has been under development since 2017. This has involved development of key precinct 
+infrastructure (including a new intersection with Tompsitt Drive), as well as the development 
+of a number of retail and service businesses. 
+The Precinct covers some 35 hectares to the south of Tompsitt Drive, and is proposed to be 
+developed for a range of business and employment purposes, with a focus on technology 
+sectors including: 
+ space and defence sectors 
+ information and communication technologies 
+ scientific research services. 
+The Project forms part of Stage 1 of the Precinct (also known as Poplars Innovation Precinct 
+– West). 
+In July 2021, Council approved a development application (DA 2020.1427) from Poplars for 
+the estate works required for the Innovation Precinct Stage 1, including: 
+ estate subdivision 
+[[page 12]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 10  
+ 
+ vegetation clearing across the estate 
+ bulk earthworks across a portion of the estate 
+ infrastructure development, including construction of an estate road from Environa 
+Drive. 
+The approved subdivision plan is presented in Figure 4. Estate works and infrastructure 
+development are currently underway. 
+The estate approvals and development mean that some of the environmental issues 
+associated with the proposed development of the DCI Data Centre – such as biodiversity 
+and cultural heritage have already been addressed as part of the wider estate development. 
+The Site is currently vacant, with estate works currently underway to enable the Site to be 
+used for business/employment purposes. Prior to the commencement of estate development 
+for the Poplars Innovation Precinct, the Site had been used for broad acre agricultural 
+(grazing) purposes. 
+The nearest sensitive receivers are the residents of Jerrabomberra to the east of the Site, 
+the closest of which are approximately 380 m from the Site. Additional residential areas are 
+located approximately 500 m to the south-east and 750 m to the south. 
+The Site is well serviced by transport and is within close proximity to Tompsitt Drive, Lanyon 
+Drive and Monaro Highway. The Site is approximately 5.5 km southwest of the Queanbeyan 
+train station which is on the Queanbeyan and Canberra rail line. This provides access to 
+Canberra CBD. 
+Figure 1 Site Aerial 
+ 
+Source: Provided by the Client. 
+ 
+
+[[page 13]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 11  
+ 
+Figure 2  Poplars Precinct Master Plan 
+ 
+Source: Provided by the Client. 
+Figure 3 Poplars Innovation Precinct Stage 1 Master Plan 
+ 
+Source: Provided by the Client. 
+
+[[page 14]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 12  
+ 
+Figure 4 Approved Estate Subdivision Plan 
+ 
+Source: Provided by the Client. 
+Figure 5- Site Plan 
+  
+Source: Provided by the Client. 
+ 
+
+[[page 15]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 13  
+ 
+3.0 Potential Sources of Emissions to Air 
+3.1 Construction Phase 
+The main emissions to air during the construction phase are likely to be fugitive emissions of 
+suspended particulate matter and nuisance dust from the movement of vehicles and 
+construction equipment, excavation and rehabilitation, demolition, clearing and grading, truck 
+loading and unloading and wind erosion. 
+Fugitive dust emissions during the construction works could give rise to nuisance and/or 
+health impacts for the surrounding sensitive areas.  
+Emissions of air pollutants associated with the combustion of diesel fuel from heavy plant 
+are unlikely to compromise air quality goals at the closest receptors due to the scale of the 
+emissions and the distances to receptors. 
+3.2 Operational Phase 
+Standby generators are required to provide power in the event of an unexpected interruption 
+of mains grid electricity for more than a few minutes.  
+During the operational phase, the generators would be a source of products of combustion 
+while undergoing scheduled maintenance or in the event of a power failure. In general, 
+power interruptions may last from a few seconds to a few hours and therefore even when 
+required, the generators would only operate for a relatively short time.  
+Maintenance testing of generators is proposed to be conducted for 60 minutes between 7:00 
+am and 5:00 pm, Monday to Friday. No more than two generators will be tested per day and 
+the generators will not be tested concurrently. It is noted that in SLR’s previous discussions 
+with the NSW EPA on annual operating hours of diesel generators, the EPA have indicated 
+that time spent testing more than one generator concurrently would be counted once, i.e. not 
+hours multiplied by number of generators running. The total test time for all generators 
+(existing and proposed) is estimated to be 64 hours per year. 
+Table 3 summarises the worst-case maintenance scenario on which this AQIA is based. 
+Table 3 Proposed Generator Maintenance Regime  
+Parameter Value 
+Number of generators 16 
+Frequency of test per generator Quarterly 
+Run time per test 60 minutes 
+Number of generators per test 1 
+Number of tests per day Up to 2 
+Testing schedule Monday to Friday (7:00 am to 5:00 pm) 
+Total testing time for all generators 64 hours per annum (based on 1 generator per 
+test) 
+Major power interruptions requiring the simultaneous operation of all standby generators are 
+envisaged to only occur infrequently and for a limited time period.  
+[[page 16]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 14  
+ 
+In order to assess the worst-case emergency conditions, the modelling undertaken for the 
+emergency operation scenario conservatively assumes that all 16 generators run 
+concurrently within the same hour. 
+3.3 Air Quality Indicators 
+3.3.1 Construction 
+Potential air pollutants of interest for the construction of the Project are considered to be:  
+ suspended particulate matter 
+ deposited dust. 
+Airborne contaminants that can be inhaled directly into the lungs can be classified on the 
+basis of their physical properties as gases, vapours or particulate matter. In common usage, 
+the terms “dust” and “particulates” are often used interchangeably. The health effects of 
+particulate matter are strongly influenced by the size of the airborne particles. Smaller 
+particles can penetrate further into the respiratory tract, with the smallest particles having a 
+greater impact on human health as they penetrate to the gas exchange areas of the lungs. 
+Larger particles primarily cause nuisance associated with coarse particles settling on 
+surfaces and possessions (dust deposition), affecting visibility and contaminating tank water 
+supplies. High rates of dust deposition can also adversely affect vegetation by blanketing 
+leaf surfaces.  
+The term “particulate matter” refers to a category of airborne particles, typically less than 30 
+microns (μm) in diameter and ranging down to 0.1 μm and is termed total suspended 
+particulate (TSP). Epidemiological studies suggest a relationship between health impacts 
+and exposure to concentrations of finer particulate matter, for example particulate matter 
+with an aerodynamic diameter of 10 microns or less, which is referred to as PM10. The PM10 
+size fraction is sufficiently small to penetrate the large airways of the lungs, while PM2.5 (2.5 
+microns or less) particulates are generally small enough to be drawn in and deposited into 
+the deepest portions of the lungs. Potential adverse health impacts associated with exposure 
+to PM10 and PM2.5 include increased mortality from cardiovascular and respiratory diseases, 
+chronic obstructive pulmonary disease and heart disease, and reduced lung capacity in 
+asthmatic children. In an urban setting, the emission of PM2.5 is primarily associated with 
+vehicles exhausts resulting from the incomplete combustion of diesel. It is anticipated that 
+the primary particle fraction associated with construction will be PM10.  
+The key potential health and amenity issues associated with construction of Project are, 
+respectively:  
+ elevated PM 10 concentrations  
+ nuisance due to dust deposition and visible dust plumes. 
+3.3.2 Operation 
+Potential air pollutants of interest for the operation of the Project are considered to be 
+emissions associated with the combustion of fuel in standby generators which include: 
+ PM 10 and PM2.5 
+ oxides of nitrogen (NO x) 
+ carbon monoxide (CO) 
+ sulfur dioxide (SO 2) 
+[[page 17]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 15  
+ 
+ polycyclic aromatic hydrocarbons (PAHs). 
+ volatile organic compounds (VOCs) 
+CO is an odourless, colourless gas formed from the incomplete burning of fuels. It can be a 
+common pollutant at the roadside and highest concentrations are typically found in the 
+kerbside environments with concentrations decreasing rapidly with increasing distance from 
+the road.  
+In atmospheric chemistry, NOX generally refers to the total concentration of nitric oxide (NO) 
+and nitrogen dioxide (NO2). NO is a colourless and odourless gas that does not significantly 
+affect human health. However, in the presence of oxygen, NO can be oxidised to NO2 which 
+can have significant health effects including damage to the respiratory tract and increased 
+susceptibility to respiratory infections and asthma. NO will be converted to NO2 after leaving 
+the combustion source at a rate dependent on ambient and atmospheric conditions.  
+Sulfur in fuel converts to sulfur oxides during combustion, hence emissions of SO2 are 
+directly related to the concentration of sulfur in the fuel. Diesel contains more sulfur than gas, 
+as there is negligible sulfur content in Australian natural gas and LPG. 
+VOCs have high vapour pressure at normal room-temperature conditions. Their high vapour 
+pressure leads to evaporation from liquid or solid form and emission release to the 
+atmosphere. VOCs are emitted by a variety of sources, including motor vehicles. VOCs that 
+are often typical of these sources include benzene, toluene, ethylbenzene and xylenes (often 
+referred to as ‘BTEX’). Biogenic (natural) sources of VOC emissions are also significant (e.g. 
+vegetation). 
+PAHs typically result from the incomplete combustion of organic material (such as coal, 
+petrol, diesel, and wood). PAHs are toxic and carcinogenic, the degree to which is 
+dependent on the type of PAH. PAHs typically occur in mixtures and it is therefore difficult to 
+establish the risk that that the mixture may pose. The toxicity of a mixture of PAHs is 
+therefore often expressed as a single number representing the equivalent concentration of 
+the most toxic or carcinogenic congener, benzo(a)pyrene (B(a)P). 
+The rate and composition of air pollutant emissions from generators is a function of a 
+number of factors, including the type and size of the generators, level of operation and fuel 
+type.  
+This assessment assumes the Project will operate 16 MTU16V4000G63/G84F generators. A 
+summary of the generator specifications is provided in Section 6.2.7.  
+ 
+ 
+  
+[[page 18]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 16  
+ 
+4.0 Regulatory Framework 
+The following air quality policy and guidance documents have been referenced within this 
+assessment and have been used to identify the relevant air quality criteria (see Section 
+4.3.2). 
+4.1 Protection of the Environment Operations (POEO) Act 1997 
+& Amendment Act 2011  
+The Protection of the Environment Operations Act (POEO Act; and Amendment Act 2011) is 
+a key piece of environment protection legislation administered by the NSW Department of 
+Planning and Environment which enables the Government to establish instruments for 
+setting environmental standards, goals, protocols and guidelines.  
+The following sections of the POEO Act are of general relevance to the Project: 
+ Section 124 of the POEO Act states that any plant located at a premise (e.g. 
+generators) should be maintained in an efficient condition and operated in a proper 
+and efficient manner to reduce the potential for air pollution.  
+ Section 125 of the POEO Act states that maintenance to any plant located at a 
+premise (e.g. generators) should be carried out in a proper and efficient manner such 
+that it does not cause air pollution. 
+ Section 128 of the POEO Act states:  
+1 The occupier of a premises must not carry out any activity or operate any plant in 
+or on the premises in such a manner to cause or permit the emission at any point 
+specified in or determined in accordance with the regulation of air impurities in 
+excess of [the standard of concentration and/or the rate] prescribed by the 
+regulations in respect of any such activity or any such plant. 
+2 Where neither such a standard nor rate has been so prescribed, the occupier of 
+any premises must carry on activity, or operate any plant, in or on the premises 
+by such practicable means as may be necessary to prevent or minimise air 
+pollution. 
+Schedule 1 of the POEO, Scheduled Activities, defines those activities that require a licence 
+for the premises for which the activity is carried out. Clause 17 Electricity Generation applies 
+to electricity works (wind farms), general electricity works, metropolitan electricity works (gas 
+turbines) and metropolitan electricity works (internal combustion engines). Clause 17 does 
+not apply to the generation of electricity by means of electricity plant that is emergency 
+stand-by plant operating for less than 200 hours per year. Given the total testing time of the 
+stand by generators is well below 200 hours per year and the duration of emergency 
+operations is expected to be insignificant, the Project is not classified as a scheduled activity. 
+4.2 Protection of the Environment Operations (Clean Air) 
+Regulation 2022 
+The POEO (Clean Air) Regulation 2022 (the Regulation) is the core regulatory instrument for 
+air quality issues in NSW. In relation to industry, the Regulation:  
+ sets maximum limits on emissions from activities and plant for a number of 
+substances 
+ deals with the transport and storage of volatile organic liquids 
+ restricts the use of high sulphur liquid fuel 
+[[page 19]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 17  
+ 
+ imposes operational requirements for certain afterburners, flares, vapour recovery 
+units and other treatment plant.  
+Part 5 of the the Regulation also deals with emissions of air impurities from activities and 
+plant and sets maximum limits on emissions for a number of substances (including solid 
+particles and visible smoke) under Schedule 2 and Schedule 3 as noted below in Table 4 
+and Table 5. 
+The standards of concentrations prescribed by Part 5, Division 3 do not apply to plant during 
+start-up and shutdown periods, however such emissions are still subject to the requirements 
+of Section 128 (2) of the POEO Act in relation to the prevention and minimisation of air 
+pollution. 
+Table 4 Relevant Schedule 2 Standards of Concentration for (Group 6 1) Scheduled 
+Premises 
+Air impurity Activity 2 Concentration 3 
+Solid Particles  Any activity/ plant 50 mg/m 3 
+NO2 or NO or 
+both, as NO2 
+equivalent 
+Stationary reciprocating internal combustion 
+engines 
+450 mg/m3 
+VOCs as n-
+propane 
+Any stationary reciprocating internal combustion 
+engine using a liquid fuel 
+1,140 mg/m3 VOCs or  
+5,880 mg/m3 CO 
+Any stationary reciprocating internal combustion 
+engine using a solid or gaseous fuel 
+40 mg/m3 VOCs or  
+125 mg/m3 CO 
+Smoke An activity or plant in connection with which solid, 
+liquid or gaseous fuel is burnt 
+20% opacity 
+Note 1 Group 6: Activity granted DA consent and commenced to operate after 1 September 2005.  
+Note 2 only concentration standards relevant to the operations at the Site have been listed.  
+Note 3 Reference conditions are: Dry, 273 K, 101.3 kPa for any activity. 
+Table 5 Relevant Schedule 3 Standards of Concentration for (Group C 1) Non-
+Scheduled Premises 
+Air impurity Activity Concentration 2 
+Solid Particles  Any activity/ plant 100 mg/m 3 
+Smoke Solid fuel is burnt 20% opacity 
+Liquid fuel is burnt 20% opacity 
+Note 1 Group C: Activity granted DA consent and commenced to operate after 1 September 2005.  
+Note 2 Reference conditions are: Dry, 273 K, 101.3 kPa for any activity. 
+ 
+Under Clause 37, the Regulation exempts emergency standby plant (comprising a stationary 
+reciprocating internal combustion engine) for generating electricity from the air impurities 
+standard for NO2 and NO specified in Schedule 2 relevant to that plant if the plant comprises 
+a stationary reciprocating internal combustion engine and is used for a total of not more than 
+200 hours per year. 
+As outlined in Section 3.2 each generator (plant) is proposed to be operated for 4 hours per 
+year for the purposes of testing. While generators will be required to operate for the purpose 
+[[page 20]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 18  
+ 
+of electricity generation during major power interruptions, such events would only occur very 
+infrequently and for a limited time period. Therefore, it is anticipated that the plant would be 
+required to operate for a total of less than 200 hours per year. As such the Project is exempt 
+from the concentration limits outlined in Table 5. 
+4.3 NSW Environment Protection Authority Air Quality Policy 
+and Guidance 
+The EPA is the NSW regulatory authority responsible for air quality regulation and 
+associated activities.  
+The Approved Methods lists the statutory methods for modelling and assessing air pollutants 
+from stationary sources and specifies criteria which reflect the environmental outcomes 
+adopted by the EPA. The Approved Methods are referred to in the POEO (Clean Air) 
+Regulation 2022 for assessment of impacts of air pollutants. The air quality criteria set out in 
+the Approved Methods have been reproduced and discussed in Section 4.3.2.  
+4.3.1 Local Air Quality Toolkit 
+The “Local Government Air Quality Toolkit” (NSW EPA 2024) (AQ Toolkit) has been 
+developed by the EPA to assist local government in their management of air quality issues 
+and provides guidelines for air quality management and for the use of air pollution control 
+techniques. Relevant AQ Toolkit air quality guidance notes includes the ‘Construction sites 
+guidance note’ (NSW EPA 2024b). 
+  
+[[page 21]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 19  
+ 
+4.3.2 Air Quality Criteria 
+NSW EPA has established ground level air quality impact assessment criteria for air 
+pollutants to achieve appropriate environmental outcomes and to minimise associated risks 
+to human health as published in the Approved Methods.  
+The AQIA air quality criteria for the pollutants of concern during the operational phase of the 
+Project, adopted from the Approved Methods, are provided in Table 6, referenced as mass 
+concentrations. 
+Table 6 Project Air Quality Goals 
+Pollutant Averaging Time criterion 
+PM10 24 hours 50 µg/m 3 
+Annual 25 µg/m 3 
+PM2.5 24 hours 25 µg/m 3 
+Annual 8 µg/m 3 
+Deposited dust Annual 2 g/m 2/month (maximum increase)  
+4 g/m2/month (maximum cumulative) 
+NO2  1 hour 164 µg/m 3 a 
+Annual 31 µg/m 3 
+CO 15 minutes 100 mg/m 3 
+1 hour 30 mg/m 3 a 
+8 hours 10 mg/m 3 
+SO2 1 hour 286 µg/m 3 a 
+24 hours 57 µg/m 3 
+Photochemical oxidants (as ozone) 8 hours 139 µg/m 3 
+Benzene 1 hour 0.029 mg/m 3 a 
+Toluene 1 hour 0.36 mg/m 3 a 
+Ethylbenzene 1 hour 8 mg/m 3 a 
+Xylene 1 hour 0.19 mg/m 3 a 
+PAHs (as benzo(a)pyrene 1 hour 0.0004 mg/m 3 a 
+a  99.9 th percentile 
+ 
+In accordance with the Approved Methods, the impact assessment criteria are to be applied 
+as follows: 
+ At the nearest existing or likely future off-site sensitive receptor. 
+ The incremental impact (predicted impacts due to the pollutant source alone) for 
+each pollutant must be reported in units and averaging periods consistent with the 
+impact assessment criteria. 
+ For individual toxic air pollutants, the incremental impact at and beyond the site 
+boundary for each pollutant must be reported in concentration units consistent with 
+[[page 22]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 20  
+ 
+the criterion (mg/m³ or ppm), for an averaging period of 1 hour and as the 99.9th 
+percentile of dispersion model predictions for Level 2 impact assessments. 
+ Background concentrations must be included using the procedures specified in 
+Section 5 of the Approved Methods. 
+ Total cumulative impact (incremental impact plus background) must be reported as 
+the 100th percentile (P=100) (or 99th percentile (P=99) for odour) in concentration or 
+deposition units consistent with the impact assessment criterionand compared with 
+the relevant impact assessment criterion.   
+[[page 23]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 21  
+ 
+5.0 Existing Environment 
+5.1 Topography 
+Topography is important in air quality studies as local atmospheric dispersion can be 
+influenced by terrain effects such as night-time katabatic (downhill) drainage flows from 
+elevated terrain, channelling effects in valleys or gullies or plume interception at higher 
+ground. 
+A three-dimensional representation of the area surrounding the Site is presented in Figure 
+6. The topography rises from 450 m Australian Height Datum (AHD) at the Site to an 
+elevation of approximately 1150 m AHD within the 21 km x 21 km area shown.  
+Figure 6 Local Topographical Features 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: ICSM Elvis     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: 1 -Second - DSM  
+ 
+ 
+Topography 
+ 
+  Date: 29/11/24    
+         
+ 
+
+[[page 24]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 22  
+ 
+5.1 Land Use and Sensitive Receptors 
+The Site is zoned as Business Park (B7) land as is the land immediately to the north, east 
+and south (Figure 7). The land immediately to the west of the Site is zoned Environmental 
+Conservation/Management (C2). The closest residential zones are Low Density Residential 
+(R2) to the northeast and southeast. There is also a Neighbourhood Centre (B1) to the 
+northeast of the Site.  
+There are a few existing Business Park facilities in proximity to the south of the Site. The 
+closest residential receptors are located approximately 340 m to the east of the Site. For this 
+assessment 45 locations were selected to represent existing and future sensitive receptors 
+to assess potential impacts as illustrated in Figure 8 and Figure 9. Details of the receptors 
+are provided in Appendix A. 
+Figure 7 Planning Land Zones 
+ 
+   
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: NSW Spatial Services     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020 / MGA Zone 55  
+ 
+ 
+Land Use 
+ 
+  Date: 01/12/2024    
+         
+
+[[page 25]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 23  
+ 
+Figure 8 Surrounding Sensitive Receptors 
+ 
+   
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 5 5  
+ 
+ 
+Sensitive Receptors 
+ 
+  Date: 01/12/2024    
+         
+
+[[page 26]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 24  
+ 
+Figure 9 Surrounding Sensitive Receptors in Proximity 
+ 
+   
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ 
+Sensitive Receptors 
+ 
+  Date: 01/12/2024    
+         
+ 
+5.2 Local Meteorology 
+The Bureau of Meteorology (BoM) maintains and publishes data from weather stations 
+across Australia. The closest such station recording long term wind speed and wind direction 
+data is the Canberra Airport Automatic Weather Station (AWS) (Station ID 70351), located 
+approximately 8 km north of the Project at an elevation of 577 m. It is noted that due to 
+variations in topography, wind conditions at the Project may differ from those recorded at the 
+AWS.  
+
+[[page 27]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 25  
+ 
+5.2.1 Wind 
+Local wind speed and direction influence the dispersion of air pollutants. Wind speed 
+determines both the distance of downwind transport and the rate of dilution as a result of 
+‘plume’ stretching. Wind direction, and the variability in wind direction, determines the 
+general path pollutants will follow and the extent of crosswind spreading. Surface roughness 
+(characterised by features such as the topography of the land and the presence of buildings, 
+structures and trees) will also influence dispersion. 
+Wind roses show the frequency of occurrence of winds by direction and strength. The bars 
+correspond to the 16 compass points (degrees from North). The bar at the top of each wind 
+rose diagram represents winds blowing from the north (i.e. northerly winds), and so on. The 
+length of the bar represents the frequency of occurrence of winds from that direction, and the 
+widths of the bar sections correspond to wind speed categories, the narrowest representing 
+the lightest winds. Thus, it is possible to visualise how often winds of a certain direction and 
+strength occur over a long period, either for all hours of the day, or for particular periods 
+during the day.  
+Table 7 outlines the wind scale used to describe the wind speed. Annual and seasonal wind 
+roses for the past five years, 2019 to 2023, compiled from data recorded by the Canberra 
+Airport AWS are presented in Figure 10. 
+Table 7 Wind Scale Descriptions 
+Description km/h m/s Description on land 
+Calm 0-1.8 0-0.5 Smoke rises vertically 
+Light air 1.8-5.5 0.5-1.5 Smoke drift indicates wind direction 
+Light breeze 5.4-10.8 1.5-3 Wind felt on face, leaves rustle, light flags extended, 
+ordinary vanes moved by wind 
+Gentle breeze 10.8-19.8 3-5.5 Leaves and small twigs in constant motion; light flags 
+extended. 
+Moderate winds 19.8-28.8 5.5-8.0 Raises dust and loose paper, small branches are moved 
+Fresh winds 28.8-37.8 8.0-10.5 Small trees in leaf begin to sway, crested wavelets form on 
+inland waters 
+Strong winds >37.8 >10.5 Large branches in motion, whistling heard in telephone 
+wires; umbrellas used with difficulty 
+ 
+The annual wind rose indicates the predominant wind directions in the area are from the 
+north-northwest and northwest. Calm wind conditions (wind speed less than 0.5 m/s) were 
+recorded to occur 7.2% of the time throughout the investigated period. The average 
+seasonal wind roses for the year 2019-2023 indicate that:  
+ In summer, winds are mostly between 3.0 m/s and 5.5 m/s and blow predominantly 
+from the east and easy-southeast, with some winds from the west-northwest and 
+northwest, and very little winds from any other direction. Calms were recorded 
+approximately 4.1% of the time. 
+ In autumn, winds widely ranged between 1.5 m/s to 8 m/s and were blowing 
+predominantly from the northwest and north-northwest with a lower frequency of 
+winds from the southeast quadrant, and very little winds from any other direction. 
+Calms were recorded approximately 9.1% of the time during autumn. 
+[[page 28]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 26  
+ 
+ In spring, winds mostly ranged between 3.0 m/s and 8.0 m/s blowing predominantly 
+from wnorth-northwest, northwest and west-northwest, with some winds from the 
+north and south easterly directions, and very little winds from any other direction. 
+Calms were recorded approximately 5.4% of the time during spring. 
+ In winter, most winds ranged between 3 m/s to 5.5 m/s and blow predominantly from 
+the north-northwest and west-northwest and northwest directions, with some winds 
+from the north and very little winds from any other direction. Calms were recorded 
+approximately 10% of the time during the winter months.  
+As identified in Section 5.1, there are existing commercial/industrial receptors immediately 
+to the south, and residential receptors to the northeast and southeast. Annual winds blow 
+from the north-westerly directions predominantly, with winds coming from the general 
+northwest direction approximately 30% of the time. This suggests that the receptors to the 
+southeast may be impacted most frequently from windblown Project emissions to air. 
+[[page 29]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 27  
+ 
+Figure 10 Wind Roses for Canberra Airport AWS 2019-2024 
+ 
+
+[[page 30]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 28  
+ 
+5.3 Background Air Quality 
+Air quality monitoring is performed by the Climate and Atmospheric Science Branch of the 
+DCCEW at a number of air quality monitoring stations (AQMS) across NSW. The closest is 
+the Goulbourn AQMS, located approximately 80 km northeast of the Project. Due to the 
+significant distance, data is sought from closer monitoring stations which are operated by the 
+ACT Government. 
+The ACT Government operate AQMS in th ACT, the closest of which is Monash AQMS, 
+located approximately 10 km to the southwest of the Project at an elevation of 586 m. SLR 
+considers air quality data from this station to be a better representation of air quality 
+conditions experienced at the Site (due to surrounding land use). However, not all pollutants 
+identified under Section 4.3.2 are measured at the Monash AQMS. The air pollutants are 
+currently measured by the Monash AQMS include: 
+ PM 10 
+ PM 2.5 
+ NO 2 
+ CO 
+ O 3 
+Air quality monitoring data recorded by the Monash AQMS obtained for the past five 
+calendar years, 2019 to 2023, are summarised in Table 8, compared against relevant air 
+quality criteria (Section 4.3.2). 
+A review of the data shows that exceedances of the 24-hour average PM10 criterion, 24-hour 
+and annual average PM2.5 criterion, and 8-hour Ozone Criterion were recorded by in 2019 
+and 2020. Exceedances of the 24-hour PM2.5 criterion also occurred in 2021 and 2023.  
+A review of NSW AQMS annual reporting finds similar exceedances recorded during these 
+years indicates that they were due to natural events such as bushfires or dust storms, or 
+hazard reduction burns (DPIE 2019) (DPIE 2020) (DPE 2021).  
+No exceedances of the annual average PM10 criterion were recorded by the Monash AQMS, 
+but one exceedance of the annual average PM2.5 criterion was recorded in 2019. This is 
+believed to be primarily due to the abovementioned bush fires in the areas surrounding 
+Sydney in late 2019. 
+[[page 31]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 29   
+Table 8 Summary of Monash AQMS Data (2019-2023) 
+ 
+ 
+Year 
+PM10 PM2.5 NO2  CO Ozone 
+Maximum  
+24-hour Annual Maximum  
+24-hour Annual Maximum  
+1-hour Annual Maximum  
+1-hour 
+Maximum  
+8-hour 
+Maximum  
+1-hour 
+µg/m3 
+Exceedances 
+µg/m3 
+µg/m3 
+Exceedances 
+µg/m3 
+µg/m3 
+Exceedances 
+µg/m3 
+mg/m3 
+Exceedances 
+mg/m3 
+Exceedances 
+µg/m3 
+Exceedances 
+2019 311 22 19 232 31 14 172 1 10 13 0 4 0 229 45 
+2020 1,097 22 23 1,197 35 18 238 2 8 28 0 26 27 190 32 
+2021 38  0 10 28 4 7 74 0 7 2 0 2 0 90 0 
+2022 27 0 7 25 0 5 62 0 6 2 0 2 0 90 0 
+2023 32 0 10 29 1 7 64 0 8 0 0 1 0 111 0 
+Average 301 - 19 302 - 10 122 - 8 9 - 7 - 144 - 
+Criterion 50 - 25 25 - 8 164 - 31 30 - 10 - 139 - 
+[[page 32]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 30  
+ 
+ 
+6.0 Assessment Methodology 
+6.1   Construction Phase Qualitative Impact Assessment 
+Quantitatively assessing impacts of fugitive dust emissions from construction projects using 
+predictive modelling is seldom considered appropriate, primarily due to the uncertainty in the 
+details of the construction activities, including equipment type, number, location and 
+scheduling, which are unlikely to be available at the time of the assessment. Furthermore, 
+they are also likely to change as construction progresses.  
+Instead, it is considered appropriate to conduct a qualitative assessment of potential 
+construction related air quality impacts. Potential impacts of dust emissions associated with 
+proposed demolition and construction activities at the Site has been performed based on the 
+methodology outlined in the Institute of Air Quality Management (UK) (IAQM) document, 
+“Assessment of dust from demolition and construction” (IAQM 2024). This guidance 
+document provides a structured approach for classifying construction sites according to the 
+risk of air quality impacts, to identify relevant mitigation measures appropriate to the risk (see 
+Appendix B for full methodology).  
+The IAQM approach has been used widely in Australia for the assessment of air quality 
+impacts from construction projects and the identification of appropriate mitigation measures 
+and has been accepted by regulators across all states and territories for a variety of 
+construction projects.  
+The IAQM method uses a four-step process for assessing dust impacts from construction 
+activities:  
+ Step 1: Screening based on distance to the nearest sensitive receptor; whereby the 
+sensitivity to dust deposition and human health impacts of the identified sensitive 
+receptors is determined. 
+ Step 2: Assess risk of dust effects from activities based on: 
+o the scale and nature of the works, which determines the potential dust emission 
+magnitude; and 
+o the sensitivity of the area surrounding dust-generating activities. 
+ Step 3: Determine site-specific mitigation for remaining activities with greater than 
+negligible effects. 
+ Step 4: Assess significance of remaining activities after management measures have 
+been considered. 
+It is noted that that accurate information regarding construction activities and equipment are 
+not available at this stage, hence SLR has made conservative assumptions where 
+necessary to assess impacts from construction activities. If these parameters were to be 
+significantly modified, re-assessment of construction impacts is recommended. 
+6.2 Operational Phase Dispersion Modelling Study 
+The assessment of air emissions from the operational phase of the Project was performed 
+quantitatively through the use of dispersion modelling techniques. 
+[[page 33]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 31  
+ 
+ 
+6.2.1 Plume Dispersion Model 
+Emissions from the Project were modelled using the CALPUFF model in accordance with 
+the Approved Methods. CALPUFF is a transport and dispersion model that ejects “puffs” of 
+material emitted from modelled sources, simulating dispersion and transformation processes 
+along the way. In doing so, it typically uses the fields generated by a meteorological pre-
+processor CALMET, discussed further below. Temporal and spatial variations in the 
+meteorological fields selected are explicitly incorporated in the resulting distribution of puffs 
+throughout a simulation period. The primary output files from CALPUFF contain hourly 
+concentration evaluated at selected receptor locations. The CALPOST post-processor is 
+then used to process these files, producing tabulations that summarise results of the 
+simulation for user-selected averaging periods. 
+6.2.2 Meteorological Modelling 
+Meteorological mechanisms govern the dispersion, transformation and eventual removal of 
+pollutants from the atmosphere. The extent to which pollution will accumulate or disperse in 
+the atmosphere is dependent on the degree of thermal and mechanical turbulence within the 
+earth’s boundary layer. Dispersion comprises vertical and horizontal components of motion. 
+The stability of the atmosphere and the depth of the surface-mixing layer define the vertical 
+component. The horizontal dispersion of pollution in the boundary layer is primarily a 
+function of the wind field. The wind speed determines both the distance of downwind 
+transport and the rate of dilution as a result of plume ‘stretching’. The generation of 
+mechanical turbulence is similarly a function of the wind speed, in combination with the 
+surface roughness. The wind direction, and the variability in wind direction, determines the 
+general path pollutants will follow, and the extent of crosswind spreading. Pollution 
+concentration levels therefore fluctuate in response to changes in atmospheric stability, to 
+concurrent variations in the mixing depth, and to shifts in the wind field (Oke 2002).  
+For this study, a site-representative three-dimensional meteorological dataset was compiled 
+using a combination of TAPM and CALMET, as discussed in the following sections. 
+Selection of Meteorological Year 
+To adequately characterise the dispersion meteorology in the area of the Project, information 
+is needed on the prevailing wind regime, atmospheric stability, mixing depth and other 
+meteorological parameters.  
+In order to determine a representative meteorological year for use in dispersion modelling, 
+five years of meteorological data (2019-2023) from the closest meteorological monitoring 
+station with detailed hourly data available (Canberra AWS) were analysed against the five-
+year average meteorological conditions. Specifically, the following parameters were 
+analysed:  
+ frequency and distribution of the predominant wind directions 
+ hourly wind speeds 
+ hourly temperature 
+ calm conditions. 
+Based on this analysis, the representative year used for the modelling was selected to be 
+2023. A detailed analysis is presented in Appendix C.  
+[[page 34]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 32  
+ 
+ 
+TAPM 
+In order to calculate all required meteorological parameters required by the dispersion 
+modelling process, meteorological modelling using The Air Pollution Model (TAPM, v 4.0.4) 
+has been performed. TAPM, developed by the Commonwealth Scientific and Industrial 
+Research Organisation (CSIRO) is a prognostic model that can be used to predict three-
+dimensional meteorological data and air pollution concentrations.  
+TAPM predicts wind speed and direction, temperature, pressure, water vapour, cloud, rain 
+water and turbulence. The program allows the user to generate synthetic observations by 
+referencing databases (covering terrain, vegetation and soil type, sea surface temperature 
+and synoptic scale meteorological analyses) which are subsequently used in the model input 
+to generate site-specific hourly meteorological observations at user-defined levels within the 
+atmosphere.  
+TAPM can assimilate actual local wind observations so that they can optionally be included 
+in a model solution. TAPM parameters used for this study, including the observational data 
+assimilated into the model run are presented in Table 9. The three-dimensional upper air 
+data from the TAPM output was used as input for the diagnostic meteorological model 
+(CALMET).  
+Table 9 Meteorological Modelling Parameters - TAPM v 4.0.4 
+Parameter Data 
+Modelling Period 1 January 2023 to 31 December 2023 
+Centre of analysis 694,670 mE 6,081,614 mS (UTM Coordinates) 
+Number of grid points 25 × 25 × 35 
+Number of grids (spacing) 5 (30 km, 10 km, 3 km, 1 km, 300 m) 
+Data assimilation Tuggeranong AWS, Canberra Airport AWS 
+CALMET 
+In the simplest terms, CALMET is a meteorological model that develops hourly wind and 
+CALMET is a diagnostic meteorological model that develops wind and temperature fields on 
+a 3-dimensional gridded modelling domain. Associated 2-dimensional fields such as mixing 
+height, surface characteristics, and dispersion properties are also included in the file 
+produced by CALMET. The interpolated wind field is then modified within the model to 
+account for the influences of topography, as well as differential heating and surface 
+roughness associated with different land uses across the modelling domain. These 
+modifications are applied to the winds at each grid point to develop a final wind field. The 
+final wind field thus reflects the influences of local topography and land uses.  
+Table 10 details the parameters used in the meteorological modelling to drive the CALMET 
+model. TAPM-generated three-dimensional meteorological data was used as the initial 
+guess wind field. The local topographical data and available surface weather observations in 
+the area were then used to refine the initial guess wind field predetermined by the TAPM 
+data.  
+The topographical data was sourced from the United States Geological Service’s Shuttle 
+Radar Topography Mission database that has recorded topography across Australia with a 
+1 arc second (approximately 30 m) spacing. The land use data file was created using the 
+latest publicly available aerial imagery. 
+[[page 35]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 33  
+ 
+ 
+A summary of the key meteorological conditions predicted by CALMET at the Site is 
+presented in Appendix C. It is noted that the wind conditions predicted by the model at other 
+areas within the modelling domain may vary from the wind roses presented in Appendix C 
+which represents just one point within the Project site, and within CALMET, the dispersion of 
+pollutants within the model will reflect the local conditions.  
+Table 10 Meteorological Modelling Parameters - CALMET 
+Parameter Data 
+Modelling period 1st January 2023  to 31st December 2023 
+Domain size 10 km x 10 km 
+Meteorological grid resolution  100 m 
+Grid southwest corner 
+coordinates 
+695,000 mE; 6,077,464 mS (UTM Coordinates) 
+Initial guess filed  TAPM output 
+Vertical resolution (cell heights) 10 (0 m, 20 m, 40 m, 80 m, 160 m, 320 m, 640 m, 1200 m, 
+2000 m, 3000 m, 4000 m) 
+Data assimilation Tuggeranong AWS, Canberra Airport AWS 
+ 
+6.2.3 Building Downwash 
+Building downwash is a phenomenon caused by structures near to pollutant emission 
+sources influencing atmospheric turbulence. Airflow is rapidly mixed to the ground as 
+frictional forces and pressure gradients cause stagnations and eddies to develop in the wake 
+of buildings downwind of elevated sources.  
+The USEPA has established a Good Engineering Practice (GEP) stack height which is 
+defined as the ‘height necessary to ensure that emissions from the stack do not result in 
+excessive concentrations of any air pollutants in the immediate vicinity of the source as a 
+result of atmospheric downwash, eddies or wakes which may be created by the source itself, 
+nearby structures or nearby terrain obstacles’ (USEPA 1985). The definition of GEP stack 
+height is the building height plus 1.5 times the lesser of the building height or projected 
+building width.  
+A stack is considered to be wake affected when the stack and building are located less than 
+five times the lesser of the building height or project building width apart.  
+CALPUFF contains the Prime algorithm which was used to predict building downwash 
+effects. Influencing building dimensions were calculated using the USEPA’s Building Profile 
+Input Program (BPIP).  
+or modelling purposes, proposed Project buildings as well as existing buildings in the 
+surrounding area were included in the modelling. Figure 11 and Figure 12 illustrate the 
+buildings input into the model, and the relative locations of point sources representing the 
+generator exhausts.  
+[[page 36]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 34  
+ 
+ 
+Figure 11 Modelled Buildings and Point Sources (Operational Maintenance Scenario). 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: Calpuff view/Google Earth     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 55  
+ 
+ 
+Operational Maintenance  
+ 
+  Date: 01/12/2024    
+         
+ 
+ 
+
+[[page 37]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 35  
+ 
+ 
+Figure 12 Modelled Buildings and Point Sources (Emergency Conditions Scenario). 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: Calpuff view/Google Earth     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 55  
+ 
+ 
+Emergency Conditions  
+ 
+  Date: 01/12/2024    
+         
+6.2.4 Background Pollutant Concentrations 
+Hourly varying air quality data recorded by the Monash AQMS during the modelling period 
+were used for the contemporaneous analysis of cumulative ground level concentrations.  
+It is noted that in circumstances where the existing ambient air pollutant concentrations 
+exceed the impact assessment criteria, the Approved Methods requires the AQIA to 
+demonstrate that no additional exceedances of the impact assessment criteria will occur as 
+a result of the proposed activity. 
+6.2.5 Conversion of Averaging Times 
+For pollutants with short-term (sub-hourly) air quality impact assessment criteria, in the 
+absence of specific guidance in the Approved methods, the short-term impacts have been 
+estimated using the formula cited in the “Guidance notes for using the regulatory air pollution 
+model AERMOD in Victoria” (EPAV 2013) as follows: 
+𝐶௧  =  𝐶(𝑡଴)  × (𝑡଴
+𝑡ൗ )଴.ଶ 
+where 
+Ct = concentration for the longer time-averaging period 
+C0 = concentration for the shorter time-averaging period 
+
+[[page 38]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 36  
+ 
+ 
+t0 = longer averaging time 
+t = shorter averaging time 
+6.2.6 PAHs as Benzo(a)Pyrene 
+The Approved Methods requires that all PAHs be assessed as benzo(a)pyrene toxic 
+equivalency quotient (B(a)PTEQ) using the potency equivalency factors (PEFs) provided in 
+Table 11. The emission of PAHs as B(a)PTEQ is equal to the sum of the individual PAH 
+emission factors multiplied by their PEFs: 
+𝐸𝐹஻(௔)௉்ாொ = ෍ 𝐸𝐹௜ × 𝑃𝐸𝐹௜
+௡
+௜ୀଵ
+ 
+The USEPA PAH emission factors are presented in Table 12 along with their PEFs, where 
+provided, and the resultant PAH as B(a)PTEQ emission factor. 
+[[page 39]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 37  
+ 
+ 
+Table 11 Approved Methods Potency Equivalency Factors for PAHs 
+PAH or derivative Cas number PEF 
+Benzo[a]pyrene 50-32-8 1 
+Benzo[a]anthracene 56-55-3 0.1 
+Benzo[b]fluoranthene 205-99-2 0.1 
+Benzo[j]fluoranthene 205-82-3 0.1 
+Benzo[k]fluoranthene 207-08-9 0.1 
+Bibenz[a,j]acridine 224-42-0 0.1 
+Bibenz[a,h]acridine 226-36-8 0.1 
+7h-dibenzo[c,g]carbazole 194-59-2 1 
+Dibenzo[a,e]pyrene 192-65-4 1 
+Dibenzo[a,h]pyrene 189-64-0 10 
+Dibenzo[a,i]pyrene 189-55-9 10 
+Dibenzo[a,l]pyrene 191-30-0 10 
+5-nitroacenaphthene 602-87-9 0.01 
+Indeno[1,2,3-cd]pyrene 193-39-5 0.1 
+5-methylchrysene 3697-24-3 1 
+1-nitropyrene 5522-43-0 0.1 
+4-nitropyrene 57835-92-4 0.1 
+1,6-dinitropyrene 42397-64-8 10 
+1,8-dinitropyrene 42397-65-9 1 
+6-nitrocrysene 08-02-7496 10 
+2-nitrofluorene 607-57-8 0.01 
+Chrysene 218-01-9 0.01 
+Dibenz[a,h]anthracene 53-70-3 0.4 
+7,12-dimethylbenzanthracene 57-97-6 21.8 
+3-methylcholanthrene 56-49-5 1.9 
+ 
+[[page 40]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 38  
+ 
+ 
+Table 12 PAH (as Benzo(a)pyrene) Emission Factor  
+PAH AP42 Emission Factor 
+(mg/MJ) 
+PEF a 
+Benzo(a)anthracene 72.2 0.1 
+Chrysene 1.5 0.01 
+Benzo(b)fluoranthene 4.3 0.1 
+Benzo(k)fluoranthene 6.7 0.1 
+Benzo(a)pyrene 80.8 1 
+Indeno(1,2,3-cd)pyrene 16.1 0.1 
+Dibenz(a,h)anthracene 100.3 0.4 
+PAH as B(a)PTEQ 281.9 
+a Approved Methods Table 14 
+6.2.7 Source Characteristics and Emission Rates 
+CALPUFF requires a range of inputs to describe the emissions to air resulting from the 
+proposed activities. Potential emissions to air from the generator stacks were estimated 
+based on the diesel engine technical specifications. 
+Potential air emissions and relevant stack parameters for the generator stack were 
+estimated based on the MTU 16V 4000 G63/G84F diesel generators technical 
+specifications.  
+A summary of the generator specifications is provided in Table 13. Full specifications are 
+provided in Appendix D. Emission rates used in this assessment re provided in Table 14.  
+The generator set specifications sheet includes emission rates of the pollutants of concern 
+with the exception of SO2, PAHs and VOC. It is noted that VOC emissions from the 
+combustion of diesel are low relative to their assessment criterionwhen compared with other 
+products of combustion. Therefore, if no exceedances of other combustion gas criteria are 
+predicted, it is considered appropriate to assume that VOC emissions from the operation of 
+the Project are would also result in no exceedances of the relevant criterion. VOC emissions 
+from the project have therefore not been considered further in this assessment. 
+In the absence of SO2 emission rates provided in the generator datasheets (see Table 14 
+and Appendix D), emission rates are adopted from the specification sheet for a Cummins 
+QSK95-G4, (also provided in Appendix D). The Cummins QSK95-G4 SO2 emission factor 
+of 0.004 grams per break horsepower-hour (g/bhp-hr) is equal to 0.0054 grams per kilowatt-
+hour (g/kW-hr). 
+Emission rates of PAH's were estimated from emission factors adopted from USEPA “AP42: 
+Compilation of Air Emission Factors, 3.3 Gasoline and Diesel Industrial Engines” (USEPA 
+2006 and Updates). From this document, Table 3.3-2 “Speciated Organic Compound 
+Emission Factors for Diesel Engines” provides emission factors as a function of diesel fuel 
+input for 16 PAHs. 
+ 
+[[page 41]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 39  
+ 
+ 
+Table 13 Diesel Generator Specifications 
+Parameter Units Generators 
+Model - CAT C175-20 e 
+Number - 16 
+Electrical generation capacity: individual kW 2,185 e 
+Electrical generation capacity: generators 
+combined 
+MW 35 
+Fuel rate: individual  L/hr 13 
+NOX a g/kWh 0.80 
+CO a g/kWh 0.054 
+PM a g/kWh 13 
+SO2 a  0.0030 
+NOX in-stack concentration b mg/Nm3 @7% O2 4,472  
+CO in-stack concentration b mg/Nm3 @7% O2 259 
+PM in-stack concentration b mg/Nm 3 @7% O2 18 
+SO2 in-stack concentration b mg/Nm 3 @7% O2 1 
+a 100% load without fan (most conservative) 
+b It is noted that the anticipated maximum in-stack NO X concentration exceeds the 450 mg/m 3 Protection of 
+the Environment Operations (Clean Air) Regulation 2022 Group 6 limit (Refer Section 4.2). However, as the 
+emergency standby plant is anticipated to operate less than 200 hours per year, it is exempt from these limits 
+under the Regulation. 
+ 
+Table 14 Diesel Generator Specifications – Data Centre 
+Parameter Full Load Unit Reference/Base 
+Temperature 490 °C Engine specifications (Refer Appendix D) 
+ 
+ 
+ 
+Stack height 7.5 m 
+Exhaust gas flow 396 m 3/min 
+Stack diameter 0.5 m 
+NOx emission rate 8.0 g/s Calculated using engine specifications 
+(Refer Appendix D) CO emission rate 0.49 g/s 
+PM emission rate 0.033 g/s 
+SO2 emission rate 0.0018 g/s Engine specifications ( Refer Appendix D) 
+and AP42 3.3 PAH emission factors for 
+uncontrolled diesel engines. PAH (as B(a)P) emission 
+rate 1.40E-06 g/s 
+The most eastern generator was modelled for the operational maintenance scenario. All 
+stacks were modelled for the emergency scenario. All exhaust stacks were represented in 
+the model as point sources.  
+[[page 42]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 40  
+ 
+ 
+All exhaust stacks were represented in the model as point sources. Section6.2.3, illustrates 
+the modelled sources and buildings for the worst-case emergency scenario.  
+6.2.8 NO x to NO2 conversion 
+NOx emitted from combustion processes mainly consist of NO with a small portion 
+(approximately 10%) of NO2. In the atmosphere however, NO emitted from the source 
+oxidises to NO2 in the presence of ozone (O3) and sunlight as it travels further from the 
+source. The rate of oxidation depends on a number of parameters including the ambient O3 
+concentration. The Approved Methods lists the following methods that can be applied to take 
+account the oxidation of NO to NO2 in estimating downwind NO2 concentrations at receptor 
+locations. 
+Method 1 – 100% Conversion 
+This method is usually used as a screening level assessment and assumes 100% 
+conversion of NO to NO2 before the plume arrives at the receptor location. Use of this 
+method can significantly over-predict NO2 concentrations at nearfield receptors. Given the 
+close proximity of sensitive receptors to the Site the use of Method 1 (100% conversion) is 
+not appropriate. 
+Method 2 – Ambient Ozone Limiting Method (OLM) 
+This method assumes that all the available ozone in the atmosphere will react with NO in the 
+plume until either all the O3 or all the NO is used up. NO2 concentrations can be estimated 
+by this method using the following equation: 
+[NO2]total = {0.1 × [NOx]pred} + MIN{(0.9) × [NOx]pred or (46/48) × [O3]bkgd} + [NO2]bkgd 
+Again, given the close proximity of sensitive receptors with short transport and duration 
+periods from the Project, Method 2 could be deemed overly conservative as it assumes that 
+the atmospheric reaction is instantaneous when in reality, the reaction takes place over a 
+number of hours (NSW EPA 2022). 
+Method 3 – NO to NO2 conversion using empirical relationship 
+An empirical equation for estimating the oxidation rate of NO in power plant plumes 
+dependent on distance downwind from the source and the parameters A and α and has the 
+following form:  
+𝑁𝑂ଶ = 𝑁𝑂௫ × 𝐴(1 − 𝑒ିఈ௫) 
+where x is the distance from the source and A and α are classified according to the O3 
+concentration, wind speed and season (Janssen, et al. 1988) as provided in Table 15. 
+[[page 43]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 41  
+ 
+ 
+Table 15 Classification of Values for A and α by Season  
+Season Ozone (ppb) Wind speed (m/s)  
+5 15 >15 
+Winter 40 A = 0.87 
+α = 0.07 
+A = 0.87 
+α = 0.07 
+A = 0.87 
+α = 0.15 
+30 A = 0.82 
+α = 0.07 
+A = 0.83 
+α = 0.07 
+A = 0.83 
+α = 0.07 
+20 A = 0.74 
+α = 0.07 
+A = 0.74 
+α = 0.07 
+A = 0.74 
+α = 0.07 
+10 A = 0.49 
+α = 0.05 
+A = 0.49 
+α = 0.05 
+A = 0.49 
+α = 0.05 
+Spring/Autumn 60 A = 0.85 
+α = 0.10 
+A = 0.85 
+α = 0.15 
+A = 0.85 
+α = 0.30 
+40 A = 0.80 
+α = 0.10 
+A = 0.80 
+α = 0.10 
+A = 0.80 
+α = 0.25 
+30 A = 0.74 
+α = 0.10 
+A = 0.74 
+α = 0.10 
+A = 0.74 
+α = 0.15 
+20 A = 0.635 
+α = 0.10 
+A = 0.635 
+α = 0.10 
+A = 0.635 
+α = 0.10 
+Summer 200 A = 0.93 
+α = 0.40 
+A = 0.93 
+α = 0.65 
+A = 0.93 
+α = 0.80 
+120 A = 0.88 
+α = 0.20 
+A = 0.88 
+α = 0.35 
+A = 0.88 
+α = 0.45 
+60 A = 0.81 
+α = 0.15 
+A = 0.81 
+α = 0.25 
+A = 0.81 
+α = 0.35 
+40 A = 0.74 
+α = 0.10 
+A = 0.74 
+α = 0.15 
+A = 0.74 
+α = 0.25 
+30 A = 0.67 
+α = 0.10 
+A = 0.67 
+α = 0.10 
+A = 0.67 
+α = 0.10 
+This assessment employs Method 3, adopting O3 data from the Monash AQMS as 
+summarised Table 16, to estimate the incremental and cumulative NO2 impacts at nearby 
+sensitive receptors as a result of the Project emissions. 
+Table 16 O 3 Concentration Summary: Monash AQMS (2021) 
+Pollutant Averaging 
+Period 
+Units Maximum 
+Concentration 
+O3 1-hour µg/m 3 111 
+[[page 44]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 42  
+ 
+ 
+6.2.9 Additional Model Parameters and Options 
+A summary of additional CALPUFF modelling options and parameters used for the 
+assessment is provided in Table 17. 
+Table 17 Model Parameters 
+Parameter Option 
+Calculation Type Concentration  
+Plume Rise Method Briggs 
+Building Downwash BPIP-PRIME 
+Gridded Receptors Cartesian 6 km x 6 km; 100 m spacing; 0 m AGL centred on Site 
+Discrete Receptors Refer Section 5.1 
+Notes: 
+AGL Above ground level 
+6.2.10 Accuracy of Modelling 
+All atmospheric dispersion models, including CALPUFF, represent a simplification of the 
+many complex processes involved in the dispersion of pollutants in the atmosphere. To 
+obtain good quality results it is important that the most appropriate model is used and the 
+quality of the input data (meteorological, terrain, source characteristics) is adequate. 
+The main sources of uncertainty in dispersion models, and their effects, are discussed 
+below: 
+ Oversimplification of physics: This can lead to both under-prediction and over-
+prediction of ground level pollutant concentrations. Uncertainties are greater in 
+Gaussian plume models as they do not include the effects of non-steady-state 
+meteorology (i.e., spatially- and temporally-varying meteorology). 
+ Uncertainties in emission rates: Ground level concentrations are proportional to 
+the pollutant emission rate. In addition, most modelling studies assume constant 
+worst-case emission levels or are based on the results of a small number of stack 
+tests, however operations (and thus emissions) are often quite variable. Accurate 
+measurement of emission rates and source parameters requires continuous 
+monitoring. 
+ Uncertainties in wind direction and wind speed: Wind direction affects the 
+direction of plume travel, while wind speed affects plume rise and dilution of plume. 
+Uncertainties in these parameters can result in errors in the predicted distance from 
+the source of the plume impact, and magnitude of that impact. In addition, aloft wind 
+directions commonly differ from surface wind directions. The preference to use 
+rugged meteorological instruments to reduce maintenance requirements also means 
+that light winds are often not well characterised. 
+ Uncertainties in mixing height: If the plume elevation reaches 80% or more of the 
+mixing height, more interaction will occur, and it becomes increasingly important to 
+properly characterise the depth of the mixed layer as well as the strength of the 
+upper air inversion. 
+[[page 45]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 43  
+ 
+ 
+ Uncertainties in temperature: Ambient temperature affects plume buoyancy, so 
+inaccuracies in the temperature data can result in potential errors in the predicted 
+distance from the source of the plume impact, and magnitude of that impact. 
+ Uncertainties in stability estimates: Gaussian plume models use estimates of 
+stability class, and 3D models use explicit vertical profiles of temperature and wind 
+(which are used directly or indirectly to estimate stability class for Gaussian models). 
+In either case, uncertainties in these parameters can cause either under-prediction or 
+over-prediction of ground level concentrations. For example, if an error is made of 
+one stability class, then the computed concentrations can be off by 50% or more. 
+The USEPA makes the following statement in its Modelling Guideline (US EPA, 2005) on the 
+relative accuracy of models: 
+“Models are more reliable for estimating longer time-averaged concentrations than 
+for estimating short-term concentrations at specific locations; and the models are 
+reasonably reliable in estimating the magnitude of highest concentrations occurring 
+sometime, somewhere within an area. For example, errors in highest estimated 
+concentrations of 10 to 40% are found to be typical, i.e., certainly well within the 
+often quoted factor-of-two accuracy that has long been recognised for these 
+models. However, estimates of concentrations that occur at a specific time and site 
+are poorly correlated with actually observed concentrations and are much less 
+reliable.”  
+[[page 46]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 44  
+ 
+ 
+7.0 Assessment of Impacts 
+7.1 Construction Phase 
+7.1.1 Step 1 – Screening Based on Separation Distance 
+The screening criteria for detailed assessment are: 
+ a ‘human receptor 1’ within: 
+o 250 m of the boundary of the site; or 
+o 50 m of the route(s) used by construction vehicles on the public highway, up to 
+250 m from the site entrance(s). 
+ an ‘ecological receptor 2’ within: 
+o 50 m of the boundary of the site; or 
+o 50 m of the route(s) used by construction vehicles on the public highway, up to 
+250 m from the site entrance(s). 
+As identified in Section 5.1, the nearest sensitive receivers are residents approximately 380 
+m from the Site. Additional residential areas are located approximately 500 m to the south-
+east and 750 m to the south. However, there are existing commercial receptors to the south-
+west of the Site. Therefore, a detailed assessment for construction impacts is deemed 
+necessary.  
+7.1.2 Step 2a – Assessment of Scale and Nature of the Works 
+Based on the IAQM definitions presented in Appendix B, dust emission magnitudes for the 
+anticipated works have been categorised as presented in Table 18.  
+ 
+1  A ‘human receptor’, refers to any location where a person or property may experience the adverse effects of airborne dust or 
+dust soiling, or exposure to PM10 over a time period. In terms of annoyance effects, this will most commonly relate to 
+dwellings, but may also refer to other premises such as buildings housing cultural heritage collections (e.g. museums and 
+galleries), vehicle showrooms, food manufacturers, electronics manufacturers, amenity areas and horticultural operations 
+(e.g. salad or soft-fruit production). 
+2  An ‘ecological receptor’ refers to any sensitive habitat affected by dust soiling. This includes the direct impacts on 
+vegetation or aquatic ecosystems of dust deposition, and the indirect impacts on fauna (e.g. on foraging habitats). 
+[[page 47]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 45  
+ 
+ 
+Table 18 Categorisation of Dust Emission Magnitude 
+Activity Dust emission 
+magnitude 
+Basis 
+Demolition N/A There are no structures onsite to demolish. 
+Earthworks Medium Total site area 18,000 m2 – 110,000 m2, moderately dusty soil type 
+(e.g., silt), 5-10 heavy earth moving vehicles active at any one 
+time, formation of bunds 3 m – 6 m in height. 
+ 
+Project basis: The Site area is approximately 40,500 m 2 and will 
+require earthworks to prepare the Site for construction. 
+Construction Medium Total building volume 12,000 m3 – 75,000 m3, potentially dusty 
+construction material (e.g., concrete), on site concrete batching. 
+ 
+Project basis: The total building volume of the Site is 52,357.5 m 3. 
+The total building area is estimated to be 6,981 m 2 and a max 
+height of 7.6 m. 
+Trackout Medium 20-50 HDV (>3.5t) outward movements in any one day, 
+moderately dusty surface material (e.g., high clay content), 
+unpaved road length 50 m – 100 m. 
+ 
+Project basis: The longest direct path on the Site is ~50-100 m but 
+it is not anticipated that construction vehicles will frequently travel 
+the full length of the Site. It is expected that they will regularly 
+travel >50 m. It is anticipated that more than 10 but less than 20 
+heavy vehicle movements will occur in any one day. 
+ 
+7.1.3 Step 2b – Risk Assessment 
+Receptor Sensitivity 
+Based on the criteria listed in Table B1 in Appendix B, the sensitivity of the receptors in this 
+study are conservatively classified low for dust soiling and low for health impacts. 
+Sensitivity of an Area 
+Based on the classifications shown in Table B2 and Table B3 in Appendix B, the sensitivity 
+of the area to dust soiling may be classified as medium, while the sensitivity of the area for 
+health effects may able be classified as low, based on an annual average PM10 
+concentration of 19 µg/m3.  
+Risk Assessment 
+Table 19 presents the preliminary risk of air quality impacts from uncontrolled construction 
+activities determined using the risk matrix provided in Table B4 and Table B5 in Appendix 
+B, based on the identified receptor sensitivity and sensitivity of the area. The results indicate 
+that there is a medium risk of adverse dust soiling and a low risk of adverse health effects 
+occurring at the off-site sensitive receptor locations if no mitigation measures were to be 
+applied to control emissions during the works.  
+[[page 48]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 46  
+ 
+ 
+Table 19 Preliminary Risk of Air Quality Impacts from Construction Activities 
+(Uncontrolled) 
+Impact Sensitivity 
+of area 
+Dust emission magnitude Preliminary risk 
+Demolition 
+Earthworks 
+Construction 
+Trackout 
+Demolition 
+Earthworks 
+Construction 
+Trackout 
+ 
+Dust 
+Soiling 
+ 
+Medium 
+N/A 
+Medium 
+Medium 
+Medium 
+N/A 
+Medium 
+Medium 
+Medium 
+ 
+Health 
+Effects 
+ 
+Low 
+N/A 
+Medium 
+Medium 
+Medium 
+N/A 
+Low 
+Low 
+Low 
+ 
+7.1.4 Step 3 - Mitigation Measures 
+For all construction activity, the IAQM Methods notes that the aim should be to prevent 
+significant effects on receptors through the use of effective mitigation and experience shows 
+that this is normally possible.  
+The IAQM document provides guidance on appropriate mitigation measures for construction 
+activities determined to have low, medium and high preliminary risk of adverse air quality 
+impacts. Table 20 to Table 23 lists the relevant mitigation measures by the IAQM 
+methodology for a project shown to have a medium risk of adverse impacts. Not all these 
+measures would be practicable or relevant for the Project, hence a detailed review of the 
+recommendations should be performed as part of a development of the Construction 
+Environmental Management Plan (CEMP) and the most appropriate measures adopted.  
+Table 20 IAQM - General Mitigation Measures Medium Risk 
+Mitigation Measure Medium Risk Site 
+Recommendation 
+Communications 
+Develop and implement a stakeholder communications plan that includes 
+community engagement before work commences on site. H 
+Display the name and contact details of person(s) accountable for air quality 
+and dust issues on the site boundary. This may be the environment 
+manager/engineer or the site manager. 
+H 
+Display the head or regional office contact information. H 
+[[page 49]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 47  
+ 
+ 
+Mitigation Measure Medium Risk Site 
+Recommendation 
+Develop and implement a Dust Management Plan (DMP), which may include 
+measures to control other emissions, approved by the relevant regulatory 
+authority. The level of detail will depend on the risk and should include as a 
+minimum the highly recommended measures in the IAQM Guidance. The 
+desirable measures should be included as appropriate for the site. The DMP 
+may include monitoring of dust deposition, real-time PM 10 continuous 
+monitoring and/or visual inspections. 
+H 
+Site Management 
+Record all dust and air quality complaints, identify cause(s), take appropriate 
+measures to reduce emissions in a timely manner, and record the measures 
+taken 
+H 
+Make the complaints log available to the relevant regulatory authority when 
+asked. H 
+Record any exceptional incidents that cause dust and/or air emissions, either 
+on- or off-site, and the action taken to resolve the situation in the log book. H 
+Monitoring 
+Undertake daily on-site and off-site inspections, where receptors (including 
+roads) are nearby, to monitor dust, record inspection results, and make the 
+log available to the relevant regulatory authority when asked. This should 
+include regular dust soiling checks of surfaces such as street furniture, cars 
+and windowsills within 100 m of the site boundary, with cleaning to be 
+provided if necessary. 
+D 
+Carry out regular site inspections to monitor compliance with the DMP, record 
+inspection results, and make an inspection log available to the relevant 
+regulatory authority when asked. 
+H 
+Increase the frequency of site inspections by the person accountable for air 
+quality and dust issues on site when activities with a high potential to produce 
+dust are being carried out and during prolonged dry or windy conditions. 
+H 
+Agree dust deposition or real-time PM10 continuous monitoring locations with 
+the relevant regulatory authority. Where possible, commence baseline 
+monitoring at least three months before work commences on site or, if it is a 
+large site, before work on a phase commences. 
+H 
+Preparing and Maintaining the Site 
+Plan site layout so that machinery and dust causing activities are located 
+away from receptors, as far as is possible. 
+H 
+Erect solid screens or barriers around dusty activities or the site boundary 
+that are at least as high as any stockpiles on site. 
+H 
+Fully enclose site or specific operations where there is a high potential for 
+dust production and the site is actives for an extensive period. 
+H 
+Avoid site runoff of water or mud. H 
+Keep site fencing, barriers and scaffolding clean using wet methods. H 
+Remove materials that have a potential to produce dust from site as soon as 
+possible, unless being re-used on site. If they are being re-used on-site cover 
+as described below. 
+H 
+[[page 50]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 48  
+ 
+ 
+Mitigation Measure Medium Risk Site 
+Recommendation 
+Cover, seed or fence stockpiles to prevent wind whipping. H 
+Operating vehicle/machinery and sustainable travel 
+Ensure all vehicles switch off engines when stationary - no idling vehicles.  H 
+Avoid the use of diesel or petrol powered generators and use mains 
+electricity or battery powered equipment where practicable. 
+H 
+Impose and signpost a maximum-speed-limit of 24 km/h on surfaced and 
+16 km/h on unsurfaced haul roads and work areas (if long haul routes are 
+required these speeds may be increased with suitable additional control 
+measures provided, subject to the approval of the nominated undertaker and 
+with the agreement of the relevant regulatory authority, where appropriate)..  
+D 
+Implement a Travel Plan that supports and encourages sustainable travel 
+(public transport, cycling, walking, and car-sharing) 
+D 
+Operations 
+Only use cutting, grinding or sawing equipment fitted or in conjunction with 
+suitable dust suppression techniques such as water sprays or local 
+extraction, e.g. suitable local exhaust ventilation systems.  
+H 
+Ensure an adequate water supply on the site for effective dust/particulate 
+matter suppression/ mitigation, using non-potable water where possible and 
+appropriate  
+H 
+Use enclosed chutes and conveyors and covered skips.  H 
+Minimise drop heights from conveyors, loading shovels, hoppers and other 
+loading or handling equipment and use fine water sprays on such equipment 
+wherever appropriate.  
+H 
+Ensure equipment is readily available on site to clean any dry spillages, and 
+clean up spillages as soon as reasonably practicable after the event using 
+wet cleaning methods. 
+H 
+Waste Management 
+Avoid bonfires and burning of waste materials. H 
+H = Highly recommended; D = Desirable 
+Table 21 Mitigation Measures Specific to Medium-Risk Earthworks 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Re-vegetate earthworks and exposed areas/soil stockpiles to stabilise surfaces as 
+soon as practicable. D 
+Use Hessian, mulches or trackifiers where it is not possible to re-vegetate or cover 
+with topsoil, as soon as practicable. D 
+Only remove the cover in small areas during work and not all at once.  D 
+[[page 51]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 49  
+ 
+ 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+H = Highly recommended; D = Desirable 
+Table 22 Mitigation Measures Specific to Medium-Risk Construction 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Avoid scabbling (roughening of concrete surfaces) if possible. D 
+Ensure sand and other aggregates are stored in bunded areas and are not allowed 
+to dry out, unless this is required for a particular process, in which case ensure that 
+appropriate additional control measures are in place. 
+H 
+Ensure bulk cement and other fine powder materials are delivered in enclosed 
+tankers and stored in silos with suitable emission control systems to prevent 
+escape of material and overfilling during delivery. 
+D 
+For smaller supplies of fine power materials ensure bags are sealed after use and  
+stored appropriately to prevent dust. D 
+H = Highly recommended; D = Desirable 
+Table 23 Mitigation Measures Specific to Medium-Risk Trackout 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Use water-assisted dust sweeper(s) on the access and local roads, to remove, as 
+necessary, any material tracked out of the site. This may require the sweeper 
+being continuously in use. 
+H 
+Avoid dry sweeping of large areas. H 
+Ensure vehicles entering and leaving sites are covered to prevent escape of 
+materials during transport. H 
+Inspect on-site haul routes for integrity and instigate necessary repairs to the 
+surface as soon as reasonably practicable. H 
+Record all inspections of haul routes and any subsequent action in a site log book. H 
+Install hard surfaced haul routes, which are regularly damped down with fixed or 
+mobile sprinkler systems, or mobile water bowsers and regularly cleaned. H 
+Implement a wheel washing system (with rumble grids to dislodge accumulated 
+dust and mud prior to leaving the site where reasonably practicable). H 
+Ensure there is an adequate area of hard surfaced road between the wheel wash 
+facility and the site exit, wherever site size and layout permits. H 
+Access gates to be located at least 10 m from receptors where possible. H 
+H = Highly recommended; D = Desirable 
+ 
+[[page 52]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 50  
+ 
+ 
+The mitigation measures include daily site inspections to be carried out during construction 
+works. These daily environmental inspections will include, but not be limited to: 
+ Visual inspection of any airborne dust being generated on-site or being observed 
+blowing off-site 
+ Ensuring roads leaving the Site are free of soil, and that there is no observable soil 
+tracking onto the road network 
+ Inspection of the erosion and sediment control systems for silt build-up 
+ Inspection of stockpiles and waste storage areas to ensure no significant wind 
+erosion is observable. 
+Any environmental inspection reports should include the above observations, with remedial 
+or corrective actions noted (as appropriate). Any remedial or corrective actions must be 
+reported to the Site Manager as soon as is practicable. 
+7.1.5 Step 4 - Residual Impacts 
+A reappraisal of the predicted unmitigated air quality impacts on receptors has been 
+performed to demonstrate the minimisation of risks associated with the use of mitigation 
+strategies and is presented below in Table 24. These are termed ‘residual impacts’.  
+Table 24 Residual Risk of Air Quality Impacts from Construction 
+Impact Sensitivity 
+of Area 
+Residual Risk 
+Demolition Earthworks Construction Trackout 
+Dust Soiling Medium Negligible Risk Negligible Risk Negligible Risk Negligible Risk 
+Human Health Low Negligible Risk Negligible Risk Negligible Risk Negligible Risk 
+The mitigated dust deposition and human health impacts for demolition, earthworks, 
+construction, and trackout phases are anticipated to be negligible provided appropriate 
+mitigation measures are implemented. Based on SLR’s experience, for almost all 
+construction activities, provided effective mitigation is adopted, the residual air quality impact 
+can be managed to acceptable levels. 
+7.2 Operational Phase 
+7.2.1 Particulates 
+Table 25 and Table 26 present the maximum 24-hour average and annual average 
+incremental PM10 and PM2.5 concentrations for the 10 highest impacted sensitive receptor 
+locations of the 45 locations assessed. The predicted incremental increase of PM10 does not 
+result in an exceedances of the criterion. It is noted that one exceedance of the 24-hour 
+average PM2.5 criterion was recorded by the Monash AQMS for the modelled year (Refer 
+Section 5.3), however, the predicted incremental increase of PM2.5 does not result in 
+additional exceedances of the criterion.  
+[[page 53]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 51  
+ 
+ 
+Table 25 Maximum Predicted 24-hour average PM Concentrations at Modelled 
+Receptors 
+Receptor ID Maximum 24-hour 
+average incremental 
+concentration (µg/m³) 
+Maximum cumulative 
+24-hour average 
+concentration (µg/m³) 
+Additional exceedances 
+as result of project a 
+PM10 PM2.5 PM10 PM2.5 
+R 44 1.0 32 28 0 0 
+R 25 <1 38 28 0 0 
+R 26 <1 38 28 0 0 
+R 45 <1 32 28 0 0 
+R 23 <1 38 28 0 0 
+R 43 <1 32 28 0 0 
+R 1 <1 38 28 0 0 
+R 27 <1 38 28 0 0 
+R 24 <1 38 28 0 0 
+R 2 <1 38 28 0 0 
+Criteria 50 25  
+a Over and above background. 
+Table 26 Maximum Predicted Annual Average PM Concentrations at Modelled 
+Receptors 
+Receptor ID Annual average 
+incremental 
+concentration (µg/m³) 
+Cumulative annual 
+average concentration 
+(µg/m³) 
+Exceedance as result of 
+project a 
+PM10 PM2.5 PM10 PM2.5 
+R 44 <1 11 7 No No 
+R 25 <1 16 6 No No 
+R 26 <1 16 6 No No 
+R 45 <1 10 7 No No 
+R 43 <1 10 7 No No 
+R 5 <1 16 6 No No 
+R 27 <1 16 6 No No 
+R 23 <1 16 6 No No 
+R 24 <1 16 6 No No 
+R 1 <1 16 6 No No 
+Criteria 25 8   
+a Over and above background. 
+[[page 54]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 52  
+ 
+ 
+7.2.2 NO 2  
+Table 27 presents the maximum incremental and cumulative 1-hour average and annual 
+average NO2 concentrations predicted for the 10 highest impacted sensitive receptor 
+locations of the 45 locations assessed. It is not practicable to calculate the cumulative NO2 
+concentration for every gridded receptor, therefore contour plots of the predicted incremental 
+NOx concentrations are presented in Appendix E. 
+The modelling results show that the predicted cumulative maximum 1-hour average and 
+annual average NO2 concentrations are below the relevant ambient air quality criteria at all 
+receptor locations modelled.  
+Table 27 Maximum Predicted NO 2 Concentrations at Modelled Receptors  
+Receptor 
+id 
+ 
+ 
+Incremental (µg/m³) Cumulative (µg/m³) 
+Maximum 
+1-Hour 
+Corresponding 1-Hour a Annual 1-
+Hour 
+Annual 
+NOX 
+(µg/m³) 
+O3 
+(ppb) 
+Wind 
+Speed 
+(m/s) 
+Transport 
+Time (s) b 
+NO2 
+(µg/m³) 
+R 20 7 141 23 4.1 239 7.5 <0.01 58 7.4 
+R 25 6 440 20 6.3 34 5.6 0.2 58 7.6 
+R 5 6 194 30 0.6 890 0.0 0.1 58 7.5 
+R 15 6 135 26 0.3 2,590 3.8 <0.01 58 7.4 
+R 18 6 81 20 3.4 398 9.4 0.1 58 7.4 
+R 16 5 80 28 2.0 687 0.0 <0.01 58 7.4 
+R 17 5 79 28 3.8 347 0.0 0.1 58 7.4 
+R 19 5 81 21 4.0 291 0.0 <0.01 58 7.4 
+R 4 5 108 30 2.6 290 0.0 0.1 58 7.5 
+R 38 5 43 21 4.0 556 0.0 <0.01 58 7.4 
+Criteria 164 31 
+a Used to calculate 1-hour incremental NO 2 concentration using the Method 3 (Section 6.2.8). 
+b Approximate plume transport time from source to receptor based on windspeed and separation distance. 
+7.2.3 CO 
+Table 28 presents the maximum incremental 15-minute, 1-hour and 8-hour average CO 
+concentrations predicted at the 10 highest impacted sensitive receptor locations of the 45 
+locations assessed. Given the insignificant incremental increase of CO predicted at the 
+identified receptors and the existing low concentrations of CO (both relative to the criteria), 
+exceedances of the relevant criteria due to the operation of the Project are not predicted. 
+[[page 55]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 53  
+ 
+ 
+Table 28 Maximum Predicted Incremental CO Concentrations at Modelled Receptors  
+15-min Average a 1-hour Average 8-hour Average 
+Receptor ID 
+ 
+Increment  
+(mg /m³) 
+Receptor ID 
+ 
+Increment  
+(mg /m³) 
+Receptor ID 
+ 
+Increment 
+(mg /m³) 
+R 44 0.1 R 44 0.0 R 40 0.0 
+R 45 0.1 R 45 0.0 R 42 0.0 
+R 25 0.0 R 25 0.0 R 13 0.0 
+R 26 0.0 R 26 0.0 R 41 0.0 
+R 23 0.0 R 23 0.0 R 36 0.0 
+R 1 0.0 R 1 0.0 R 11 0.0 
+R 15 0.0 R 15 0.0 R 12 0.0 
+R 5 0.0 R 5 0.0 R 39 0.0 
+R 4 0.0 R 4 0.0 R 37 0.0 
+R 27 0.0 R 27 0.0 R 22 0.0 
+Criterion 100 Criterion 30 Criterion 10 
+a. The 1-hour average CO concentrations predicted by the modelling were converted to 15-minute averages 
+using the power law formula. 
+7.2.4 SO 2 
+Table 29 presents the maximum incremental 1-hour average and 24-hour average SO2 
+concentrations predicted for the 10 highest impacted sensitive receptor locations of the 45 
+locations assessed. Given the insignificant incremental increase of SO2 predicted at the 
+identified receptors and the existing low concentrations of SO2 (both relative to the criteria), 
+exceedances of the relevant criteria due to the operation of the Project are not predicted. 
+[[page 56]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 54  
+ 
+ 
+Table 29 Maximum Predicted Incremental SO 2 Concentrations at Modelled Receptors  
+1-hour Average 24-hour Average 
+Receptor ID 
+ 
+Increment (µg /m³) Receptor ID 
+ 
+Increment (µg /m³) 
+R 44 0.2 R44 0.0 
+R 45 0.2 R 26 0.0 
+R 25 0.1 R 45 0.0 
+R 26 0.1 R 43 0.0 
+R 23 0.1 R 27 0.0 
+R 1 0.1 R 24 0.0 
+R 15 0.1 R 23 0.0 
+R 5 0.1 R 25 0.0 
+R 4 0.1 R 30 0.0 
+R 27 0.1 R 29 0.0 
+Criterion 286  Criterion 57 
+* Conservatively calculated from the maximum incremental and maximum background, noting that these do not 
+necessarily occur at the same time. 
+ 
+7.2.5 PAHs 
+The maximum (99.9th percentile) incremental 1-hour average PAH concentrations predicted 
+beyond the Project boundary was 0.00000017 mg/m3, significantly less than (<0.1%) the 
+criterion of 0.0004 mg/m3. For the purposes of modelling, background PAH concentrations 
+were assumed to be negligible. Regardless, the addition of the incremental impacts to a 
+background concentration are not predicted to cause an exceedance. 
+Table 30 presents the incremental maximum 1-hour average PAH concentrations predicted 
+at surrounding sensitive receptor locations.  
+[[page 57]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 55  
+ 
+ 
+Table 30 Maximum Predicted PAH Concentrations at Modelled Receptors  
+Receptor ID Increment 1-hour (mg/m³) ^ 
+R 44 <0.0000001 
+R 25 <0.0000001 
+R 45 <0.0000001 
+R 26 <0.0000001 
+R 43 <0.0000001 
+R 23 <0.0000001 
+R 27 <0.0000001 
+R 1 <0.0000001 
+R 24 <0.0000001 
+R 5 <0.0000001 
+Criterion 0.0004 
+^ 99.9 th percentile. 
+7.2.6 Summary 
+The dispersion modelling study, which accounted for worst-case testing conditions 
+(Section 3.3.2) predicted no exceedances of the relevant ambient air quality criteria as a 
+result of the operation of the Project. It is noted that given the insignificant incremental 
+increase in ground level concentrations of CO, SO2 and PAHs at the modelled sensitive 
+receptor locations, a contemporaneous cumulative assessment was deemed not necessary 
+for these indicators. 
+7.3 Emergency Conditions 
+7.3.1 Particulates 
+In order to realistically assess PM10 and PM2.5 emergency operation impacts against the 24-
+hour average criterion, it is conservatively assumed that the emergency operation occurs for 
+one hour of each day of the year. The maximum predicted 1-hour average concentrations 
+are divided by 24 before being added to the corresponding 24-hour average background 
+concentrations to give cumulative 24-hour average concentrations. The 10 highest impacted 
+receptors of the 45 assessed are presented in the Table 31. 
+The predicted incremental increase of PM10 does not result in an exceedances of the 
+criterion. It is noted that one exceedance of the 24-hour average PM2.5 criterion was 
+recorded by the Monash AQMS for the modelled year (Refer Section 5.3). The predicted 
+incremental increase of PM2.5 does not result in additional exceedances of the criterion at 5 
+of the of the 45 assessed. There is up to 2 additional exceedances at these receptors.  
+[[page 58]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 56  
+ 
+ 
+Table 31 Maximum Predicted 24-Hour PM Concentrations at Modelled Receptors  
+Receptor ID Daily 1-hour emergency operation 
+Maximum 1-Hour 
+Incremental 
+Concentration (µg/m³) 
+Maximum Cumulative 
+24-Hour Average 
+Concentration (µg/m³) b 
+Additional Exceedances 
+as Result of Project a 
+PM10 PM2.5 PM10 PM2.5 
+R_43 16.0 32 28 0 1 
+R_27 12.8 32 28 0 1 
+R_26 8.8 32 29 0 1 
+R_23 6.4 32 28 0 0 
+R_45 6.0 36 31 0 2 
+R_25 5.8 32 28 0 0 
+R_44 5.8 34 31 0 2 
+R1 4.5 32 28 0 0 
+R_31 2.9 32 28 0 0 
+R_5 2.5 32 28 0 0 
+Criteria 50 25  
+a Over and above background, for which four exceedances are recorded. 
+b Equal to the maximum 1-hour incremental concentration divided by 24, plus corresponding background 24-
+hour average on that day. 
+7.3.1.1 Likelihood Exceedance 
+The emergency conditions with operation of all backup generators were modelled for every 
+hour of the year to account for all meteorological and background air quality conditions. 
+Exceedances are only predicted for a number of meteorological and background air quality 
+conditions that occur throughout the year. 
+The model predictions of the emergency conditions presented above include a number of 
+conservative assumptions. Each assumption has an associated likelihood of occurring, 
+which when factored together with the likelihood of the necessary meteorological and air 
+quality conditions, indicates a much-reduced likelihood of an exceedance of the criterion at 
+one or more of the nearest sensitive receptors. The conservative assumptions for the 
+emergency conditions include: 
+1 Loss of all feeder supply to the Site  
+2 Loss of feeder supply to the Site for at least 24 hours. 
+Exceedances of the criterion are then predicted to occur as follows: 
+ R 43 – 1 Exceedance (0.27% of 365 days) 
+ R 27 – 1 Exceedance (0.27% of 365 days) 
+ R 26 – 1 Exceedance (0.27% of 365 days) 
+ R 45 - 2 Exceedance (0.55% of 365 days) 
+ R 44 - 2 Exceedance (0.55% of 365 days) 
+[[page 59]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 57  
+ 
+ 
+If an emergency condition event lasting 24 hours is conservatively assumed to occur once 
+per year, every year, the likelihood of that emergency condition resulting in a predicted 
+exceedance of the criterion (for the most impacted receptor) would be 0.55% x 
+(2day/365day) = 0.00003% (1 in 33,000 chance of exceedance, or once in 91 years). 
+7.3.2 NO 2  
+Table 33 presents the maximum incremental and cumulative 1-hour average NO2 
+concentrations predicted at modelled receptor locations. Isopleth plots of the predicted 
+incremental NOx concentrations are presented in Appendix E.  
+The modelling results show that the predicted cumulative maximum 1-hour NO2 
+concentrations could potentially exceed the relevant criterion at 1 of the 45 receptors 
+modelled (R 17). For this receptor, a single exceedance of the 1-hour NO2 criterionis 
+predicted.  
+Table 32 Maximum Predicted NO 2 Concentrations at Sensitive Receptors 
+Receptor ID 
+ 
+ 
+Incremental (µg/m³) Cumulative 
+(µg/m³) 
+Maximum 
+1-Hour 
+Corresponding 1-Hour a Annual 1-Hour 
+NOX 
+(µg/m³) 
+O3 
+(ppb) 
+Wind 
+Speed 
+(m/s) 
+Transport 
+Time (s) b 
+NO2 
+(µg/m³) 
+R 17 237 3678 27 1.6 794 1.9 1.6 239 
+R 18 160 2117 31 2.0 701 <0.1 2.2 160 
+R 39 129 1131 26 1.6 1478 1.9 1.5 131 
+R 38 127 958 17 3.0 738 5.6 1.1 133 
+R 32 125 2250 37 1.1 796 3.8 0.4 129 
+R 13 110 991 36 1.6 1286 1.9 1.5 112 
+R 6 107 2150 26 0.7 1139 7.5 1.8 115 
+R 35 105 1092 14 1.4 1136 7.5 0.4 112 
+R 7 104 2455 28 0.6 1054 15.0 0.5 119 
+R 15 104 1947 26 0.7 1219 7.5 1.1 111 
+Criterion 164 
+a Used to calculate 1-hour incremental NO 2 concentration using the Method 3 (Section 6.2.8). 
+b Approximate plume transport time from source to receptor based on windspeed and separation distance. 
+7.3.2.1 Likelihood Exceedance 
+The emergency conditions with operation of all backup generators were modelled for every 
+hour of the year to account for all meteorological and background air quality conditions. 
+Exceedances are only predicted for a number of meteorological and background air quality 
+conditions that occur throughout the year. 
+The model predictions of the emergency conditions presented above include a number of 
+conservative assumptions. Each assumption has an associated likelihood of occurring, 
+which when factored together with the likelihood of the necessary meteorological and air 
+[[page 60]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 58  
+ 
+ 
+quality conditions, indicates a much-reduced likelihood of an exceedance of the criterion at 
+one or more of the nearest sensitive receptors. The conservative assumptions for the 
+emergency conditions include: 
+1 Loss of all feeder supply to the Site  
+2 Loss of feeder supply to the Site for at least 24 hours. 
+Exceedances of the criterion are then predicted to occur as follows: 
+ R 17 – 1 Exceedance (0.11% of 8,860 hours) 
+If an emergency condition event lasting 1 hour is conservatively assumed to occur once per 
+year, every year, the likelihood of that emergency condition resulting in a predicted 
+exceedance of the criterion (for the most impacted receptor) would be 0.11% x 1h/8760h) = 
+0.000001% (1 in 830,000 chance of exceedance, or once in 94 years). 
+7.3.3 CO 
+Table 33 presents the maximum incremental 15-minute, 1-hour and 8-hour average CO 
+concentrations predicted the 10 highest impacted sensitive receptor locations of the 45 
+locations assessed. Given the insignificant incremental increase of CO predicted at the 
+identified receptors and the existing low concentrations of CO (both relative to the criteria), 
+exceedances of the relevant criteria due to the operation of the Project are not predicted. 
+Table 33 Maximum Predicted Incremental CO Concentrations at Sensitive Receptors  
+15-min Average 1-hour Average 8-hour Average 
+Receptor ID 
+ 
+Increment (mg 
+/m³) 
+Receptor ID 
+ 
+Increment (mg 
+/m³) 
+Receptor ID 
+ 
+Increment 
+(mg /m³) 
+R 23 0.5 R 23 0.4 R 43 0.3 
+R 25 0.5 R 25 0.4 R 26 0.3 
+R 27 0.5 R 27 0.3 R 27 0.2 
+R 44 0.5 R 44 0.3 R 45 0.2 
+R 43 0.4 R 43 0.3 R 44 0.2 
+R 45 0.4 R 45 0.3 R 25 0.2 
+R 26 0.4 R 26 0.3 R 23 0.1 
+R 1 0.4 R 1 0.3 R 1 0.1 
+R 17 0.3 R 17 0.2 R 24 0.1 
+R 31 0.2 R 31 0.2 R 2 0.1 
+Criterion 100 Criterion 30 Criterion 10 
+* The 1-hour average CO concentrations predicted by the modelling were converted to 15-minute averages using 
+the power law formula. 
+** Conservatively calculated from the maximum incremental and maximum background, noting that these do not 
+necessarily occur at the same time. 
+[[page 61]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 59  
+ 
+ 
+7.3.4 SO 2 
+Table 34 presents the maximum incremental 1-hour average SO2 concentrations predicted 
+for the 10 highest impacted sensitive receptor locations of the 45 locations assessed. Given 
+the insignificant incremental increase of SO2 predicted at the identified receptors and the 
+existing low concentrations of SO2 (both relative to the criteria), exceedances of the relevant 
+criteria due to the operation of the Project are not predicted. 
+Table 34 Maximum Predicted Incremental SO 2 Concentrations at Residential 
+Receptors  
+1-hour Average 24-hour Average 
+Receptor ID Increment (µg /m³) Receptor ID Increment (µg /m³) 
+R 23 2.2 R 43 <0.1 
+R 25 2.1 R 27 <0.1 
+R 27 1.8 R 26 <0.1 
+R 44 1.8 R 23 <0.1 
+R 43 1.7 R 45 <0.1 
+R 45 1.6 R 25 <0.1 
+R 26 1.5 R 44 <0.1 
+R 1 1.4 R 1 <0.1 
+R 17 1.2 R 31 <0.1 
+R 31 1.0 R 5 <0.1 
+* Conservatively calculated from the maximum incremental and maximum background, noting that these do not 
+necessarily occur at the same time. 
+7.3.5 PAHs 
+The maximum (99.9th percentile) incremental 1-hour average PAH ground level 
+concentrations predicted beyond the Site boundary was 0.00000133 mg/m3 significantly less 
+(<0.1%) than the criterion of 0.0004 mg/m3. For the purposes of modelling, background PAH 
+concentrations were assumed to be negligible. Regardless, the addition of the incremental 
+impacts to a background concentration are not predicted to cause an exceedance. 
+Table 35 presents the incremental maximum 1-hour average PAH concentrations predicted 
+at the 10 most impacted surrounding sensitive receptor locations.  
+[[page 62]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 60  
+ 
+ 
+Table 35 Maximum Predicted Incremental PAH Concentrations at Residential 
+Receptors  
+Receptor id 1-Hour Average Concentration (mg/m³) a 
+R 43 <0.000001 
+R 44 <0.000001 
+R 45 <0.000001 
+R 26 <0.000001 
+R 27 <0.000001 
+R 25 <0.000001 
+R 23 <0.000001 
+R31 <0.000001 
+R 25  <0.000001 
+R  <0.000001 
+Criterion 0.0004 
+a 99.9 th percentile. 
+7.3.6 Summary 
+The dispersion modelling study, which accounted for the emergency conditions (all 
+generators running) every hour of the year predicted no exceedances of the CO, SO2 or 
+PAH ambient air quality criteria. Where the PM10 and PM2.5 criteria were exceeded, this was 
+primarily due to elevated background concentrations with incremental Project contributions 
+relatively low compared to the criteria. 
+The Approved Methods impact assessment criteria outlined in Section 3.3 is applied at the 
+nearest exiting or likely future off-site sensitive receptors. This AQIA assesses impacts at the 
+existing and potential future receptors. In addition to this, modelling was performed for a 
+cartesian grid of over 3,600 receptors (6 km by 6 km grid, 25 m grid resolution).  
+The assessment of potential off-site air quality impacts in this assessment demonstrates that 
+exceedances of the relevant air quality criteria during construction and operation are 
+unlikely. There is a low risk of an exceedance of the 1-hour average NO2 criterion occurring 
+during emergency conditions at one of the nearest receptors, discussed further below. The 
+gridded receptor predictions, which were used to prepare the isopleth plots presented in 
+Appendix E, generally indicate that pollutant concentrations decrease with increasing 
+distance from the Project. 
+NO2 
+When assessed conservatively assuming that emergency operation occurs every hour of the 
+day, a single exceedance of the 1-hour average NO2 criterion was predicted for one of the 
+45 receptors modelled. 
+However, assuming a more realistic situation of one emergency operation event lasting one 
+hour, occurring once per year (rather than every day), the likelihood of an exceedance 
+occurring at this receptor is equivalent to 1 exceedance every 8,760 years. 
+[[page 63]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 61  
+ 
+ 
+At the time of writing, information on the historical power interruptions at the Site was 
+unavailable. A study conducted by SLR for a similar facility in Eastern Creek NSW observed 
+the following for that site: 
+ The site had had two power interruptions in the past ten years.  
+ Each interruption consisted of the loss of one of four feeder supplies. 
+ The two interruptions lasted for 13 minutes and 21 minutes, respectively. 
+ Loss of one feeder to that site did not require all generators to be used to provide 
+emergency power. 
+Assuming similar network performance supplying the Project, it can be concluded that the 
+actual likelihood of an exceedance of the air quality criteria at nearby sensitive receptors due 
+to the emergency operation of the Project is negligible.  
+[[page 64]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 62  
+ 
+ 
+8.0 Air Quality Monitoring and Mitigation Measures 
+8.1 Construction Phase 
+8.1.1 Air Quality Monitoring 
+The AQIA concluded that the risk of construction dust emissions causing nuisance or health 
+impacts at off-site sensitive receptor locations with appropriate mitigation measures in place 
+is low to negligible. It is also noted that any impacts will be temporary.  
+Considering the low risk from the construction dust emissions to cause impact at off-site 
+sensitive receptor locations, dust monitoring at the nearest sensitive receptors is not 
+considered necessary.  
+8.1.2 Mitigation Measures 
+Mitigation measure relevant to the construction phase of the project are outlined in 
+Section 7.1. Not all these measures would be practicable or relevant for the Project, hence 
+a detailed review of the recommendations should be performed as part of a development of 
+the Construction Environmental Management Plan (CEMP) and the most appropriate 
+measures adopted. 
+8.2 Operational Phase 
+8.2.1 Air Quality Monitoring 
+Given the nature and scale of the proposed standard operation test activities, with predicted 
+ground level concentrations within the assessment criteria limits it is not anticipated that any 
+impacts upon human health or amenity values would be experienced during the operational 
+phase. Therefore, monitoring of air quality is not considered to be required during the 
+operational phase. 
+The emergency conditions scenario, based on a number of cumulative assumptions, does 
+predict minor exceedances of NO2, PM10 and PM2.5, however, considering the conservative 
+nature of this modelling and the low likelihood of such an emergency event occurring, it is 
+not considered practicable to conduct monitoring, effectively waiting for such an event to 
+occur.  
+8.2.2 Mitigation Measures 
+Given the worst-case operating scenario modelled predicted concentrations below all 
+relevant air quality impact assessment criteria, and the low probability of exceedances due 
+to emergency conditions, installation of pollution control devices on generators is not 
+deemed necessary to comply with assessment criteria. 
+It is recommended that a process is put in place to notify neighbouring properties in the 
+event of emergency operation requiring all generators to operate. 
+ 
+ 
+[[page 65]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 63  
+ 
+ 
+9.0 Summary and Conclusions 
+The main potential sources of air emissions were identified as suspended particulate matter 
+and deposited dust during the construction stage and products of diesel combustion during 
+the operational stage of the Project. 
+The potential for off-site air quality impacts during the construction stage of the Project were 
+assessed using a qualitative risk-based approach, concluding that given the nature of the 
+operations proposed, the location of the Site and the local meteorological conditions, 
+exceedances of the relevant air quality criteria are unlikely. 
+The potential for off-site air quality impacts during the operational stage of the Project were 
+conservatively assessed quantitatively through the use of dispersion modelling techniques in 
+general accordance with the Approved Methods. The dispersion modelling study, which 
+accounted for worst-case maintenance conditions predicted no exceedance of the relevant 
+ambient air quality as a result of the operation of the Project.  
+The dispersion of emissions due to emergency conditions, where loss of all feeders to the 
+Site requiring all generators to operate simultaneously, was conservatively modelled and 
+predicted compliance with relevant PM10, CO, SO2 and PAHs criteria. For PM2.5 and NO2, 
+exceedances of the 1-hour average criterion were predicted for 5 receptors and 1 receptor, 
+respectively, of the 45 receptors modelled. The predicted low likelihood of an exceedance 
+coupled with the low likelihood of an emergency condition event happening was 
+demonstrated to result in a very low risk of an exceedance occurring. 
+It is reasonably concluded that air quality issues do not pose a constraint for the Project.  
+  
+[[page 66]]
+DCI CBR01 Data Centre 
+DCI 
+Air Quality Impact Assessment 
+16 December 2024
+SLR Project No.: 610.032202.00001
+SLR Ref No.: 610.032202.00001-R01-v2.0-
+20241216.docx
+ 
+ 64  
+ 
+ 
+10.0 References 
+DPE. 2021. "NSW Annual Compliance Report 2021: National Environment Protection 
+(Ambient Air Quality) Measure." Department of Planning & Environment. 
+DPIE. 2019. "NSW Annual Compliance Report 2019: National Environment Protection 
+(Ambient Air Quality) Measure." Department of Planning, Industry & Environment. 
+DPIE. 2020. NSW Annual Compliance Report 2020: National Environment Protection 
+(Ambient Air Quality) Measure. Department of Planning, Industry & Environment. 
+EPAV. 2013. "EPA Publication 1551 Guidance notes for using the regulatory air pollution 
+model AERMOD in Victoria." Environmental Protection Authority Victoria. October. 
+Accessed 04 03, 2017. http://www.epa.vic.gov.au/~/media/Publications/1551.pdf. 
+IAQM. 2024. Guidance on the assessment of dust from demolition and construction. London: 
+Institutre of Air Quality Management. 
+Janssen, L. H. J. M, J. H. A van Wakeren, H van Duuran, and A. J. Elshout. 1988. "A 
+classification of NO oxidation rates in power plant plumes based on atmospheric 
+conditions." Atmospheric Environment 22(1): 43-53. 
+NEPC. 2021. National Environment Protection (Ambient Air Quality) Measure. National 
+Environment Protection Council. 
+NOAA. 2018. National Oceanic and Atmospheric Administration. Accessed November 22, 
+2019. https://www.ready.noaa.gov/READYpgclass.php. 
+NSW EPA. 2022. "Approved Methods for the Modelling and Assessment of Air Pollutants in 
+New South Wales." August. 
+NSW EPA. 2022b. Approved Methods for the Sampling and Analysis of Air Pollutants in New 
+South Wales. NSW Environment Protection Authority. 
+NSW EPA. 2024b. "Construction Sites Guidance ." 
+NSW EPA. 2024. "Local Government Air Quality Toolkit." 
+NSW Parliament. 2022. Protection of the Environment Operations (Clean Air) Regulation 
+2022. December. 
+Oke, T. R. 2002. Boundary Layer Climates. Routledge. 
+USEPA. 2006 and Updates. Emission Factors & AP42, Compilation of Air Pollutant Emission 
+Factors. US Environmental Protection Agency. 
+USEPA. 1985. Guideline for Determination of Good Engineering Practice Stack Height 
+(Technical Support Document for the Stack Height Regulations). USEPA. 
+ 
+  
+[[page 67]]
+ 
+ 
+Appendix A Sensitive Receptors 
+DCI 
+Air Quality Impact Assessment 
+DCI CBR01 Data Centre 
+SLR Project No.: 610.032202.00001 
+16 December 2024 
+ 
+[[page 68]]
+aDCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ A-1  
+ 
+Table A1: Location of the Identified Sensitive Receptors 
+ID Easting (m) Northing (m) Elevation (m) Distance from 
+Sources (m)* 
+R1 699497  6082546 615 323 
+R2 699710 6082491 614 523 
+R3 699929 6082319 615 752 
+R4 699904 6082196 615 760 
+R5 699681 6082184 613 561 
+R6 699566 6081776 604 775 
+R7 699140 6081801 605 653 
+R8 698635 6081337 593 1,245 
+R9 698265 6081574 587 1,274 
+R 10 698030 6081753 583 1,353 
+R 11 697661 6081961 584 1,604 
+R 12 697440 6082689 583 1,765 
+R 13 697392 6083454 581 2,057 
+R 14 699746 6082768 617 641 
+R 15 699463 6081670 600 829 
+R 16 699575 6081140 606 1,368 
+R 17 700313 6081794 625 1,303 
+R 18 699995 6081348 619 1,367 
+R 19 700341 6082358 631 1,156 
+R 20 700136 6082728 653 986 
+R 21 699814 6083368 619 1,109 
+R 22 700188 6083112 648 1,197 
+R 23 699251 6082609 620 169 
+R 24 699043 6082205 637 287 
+R 25 699399 6082403 617 216 
+R 26 699096 6082427 623 96 
+R 27 699050 6082621 618 218 
+R 28 698649 6082037 631 681 
+R 29 698478 6082424 601 712 
+R 30 698565 6082825 602 726 
+R 31 699057 6083018 616 581 
+R 32 699323 6083309 600 868 
+R 33 698782 6083509 595 1,132 
+R 34 698206 6083425 589 1,383 
+R 35 699017 6080917 599 1,545 
+[[page 69]]
+aDCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ A-2  
+ 
+ID Easting (m) Northing (m) Elevation (m) Distance from 
+Sources (m)* 
+R 36 698230 6081047 597 1,701 
+R 37 700044 6084087 618 1,845 
+R 38 701393 6082335 656 2,208 
+R 39 699939 6080178 676 2,394 
+R 40 696763 6081591 596 2,574 
+R 41 699199 6084600 592 2,148 
+R 42 697872 6084515 576 2,447 
+R 43 699014 6082521 620 188 
+R 44 699173 6082383 623 71 
+R 45 699248 6082340 619 127 
+* Distance calculated from the location of Stack 9, which represents the approximate center of the 
+emission sources. 
+  
+[[page 70]]
+ 
+ 
+Appendix B IAQM Construction 
+Assessment 
+Methodology 
+DCI 
+Air Quality Impact Assessment 
+DCI CBR01 Data Centre 
+SLR Project No.: 610.032202.00001 
+16 December 2024 
+ 
+[[page 71]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ B-1  
+ 
+Step 1 – Screen the Need for a Detailed Assessment 
+The Step 1 screening criteria provided by the IAQM guidance suggests screening out any 
+assessment of impacts from construction activities where sensitive receptors are located 
+more than 250 m from the boundary of the site, more than 50 m from the route used by 
+construction vehicles on public roads up to 250 m from the site entrance. This step is noted 
+as having deliberately been chosen to be conservative and will require assessments for 
+most projects.  
+Step 2a – Define the Potential Dust Emission Magnitude 
+The dust emission magnitude is based on the scale of the anticipated works and should be 
+classified as Small, Medium, or Large. The following are examples of how the potential dust 
+emission magnitude for different activities can be defined. Note that, in each case, not all the 
+criteria need to be met, and that other criteria may be used if justified in the assessment. 
+Where relevant, multiple screening assessments may be completed for different 
+development phases (or even sub-phases where demolition may be brief or there is a very 
+short period of intense activity, for example). This may particularly be the case for linear 
+schemes (i.e. new roads, railways).  
+Example definitions for Demolition are as follows. Alternative screening values may be used 
+here this is justified based on a particular scheme: 
+Large: Total building volume >75,000 m 3, potentially dusty construction material (e.g. 
+concrete), on-site crushing and screening, demolition activities >12 m above ground 
+level 
+Medium: Total building volume 12,000 m 3 – 75,000 m 3, potentially dusty construction 
+material, demolition activities 6-12 m above ground level 
+Small: Total building volume <12,000 m3, construction material with low potential for dust 
+release (e.g. metal cladding or timber), demolition activities <6 m above ground, 
+demolition during wetter months.  
+Earthworks will primarily involve excavating material, haulage, tipping and stockpiling. This 
+may also involve levelling the site and landscaping. Example definitions for earthworks are: 
+Large: Total site area >110,000 m 2, potentially dusty soil type (e.g., clay, which will be 
+prone to suspension when dry due to small particle size), >10 heavy earth moving 
+vehicles active at any one time, formation of bunds >6 m in height 
+Medium: Total site area 18,000 m2 – 110,000 m2, moderately dusty soil type (e.g., silt), 5-
+10 heavy earth moving vehicles active at any one time, formation of bunds 3 m – 6 m 
+in height 
+Small: Total site area <18,000 m 2, soil type with large grain size (e.g., sand), <5 heavy 
+earth moving vehicles active at any one time, formation of bunds <4 m in height. 
+Construction: The key issues when determining the potential dust emission magnitude 
+during the construction phase include the size of the building(s)/infrastructure, method of 
+construction, construction materials, and duration of build. Example definitions for 
+Construction are: 
+Large: Total building volume >75,000 m3, on site concrete batching, sandblasting 
+Medium: Total building volume 12,000 m 3 – 75,000 m 3, potentially dusty construction 
+material (e.g., concrete), on site concrete batching 
+Small: Total building volume <12,000 m3, construction material with low potential for dust 
+release (e.g., metal cladding or timber). 
+[[page 72]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ B-2  
+ 
+Trackout: Factors which determine the dust emission magnitude are vehicle size, vehicle 
+speed, vehicle numbers, geology and duration. As with all other potential sources, 
+professional judgement must be applied when classifying trackout into one of the dust 
+emission magnitude categories. Example definitions for trackout are: 
+Large: >50 HDV (>3.5t) outward movements in any one day, potentially dusty surface 
+material (e.g., high clay content), unpaved road length >100 m 
+Medium: 20-50 HDV (>3.5t) outward movements in any one day, moderately dusty 
+surface material (e.g., high clay content), unpaved road length 50 m – 100 m 
+Small: <20 HDV (>3.5t) outward movements in any one day, surface material with low 
+potential for dust release, unpaved road length <50 m. 
+Step 2b – Define the Sensitivity of the Area 
+Step 2b of the assessment process requires the sensitivity of the area to be defined. The 
+sensitivity of the area considers: 
+the specific sensitivities of receptors in the area 
+the proximity and number of those receptors 
+in the case of PM10, the local background concentration 
+site-specific factors, such as whether there are natural shelters, such as trees, to reduce 
+the risk of wind-blown dust. 
+The type of receptors at different distances from the Site boundary or, if known, from the 
+dust generating activities, should be included. Consideration also should be given to the 
+number of ‘human receptors’. Exact counting of the number of ‘human receptors’, is not 
+required. Instead, it is recommended that judgement is used to determine the approximate 
+number of receptors (a residential unit is one receptor) within each distance band. For 
+receptors which are not dwellings professional judgement should be used to determine the 
+number of human receptors for use in the tables, for example a school is likely to be treated 
+as being in the >100 receptor category. 
+The likely routes the construction traffic will use should also be included to enable the 
+presence of trackout receptors to be included in the assessment. As general guidance, 
+without site-specific mitigation, trackout may occur along the public highway up to 500 m 
+from large sites (as defined in STEP 2A), 200 m from medium sites and 50 m from small 
+sites, as measured from the site exit. 
+A number of attempts have been made to categorise receptors into high, medium and low 
+sensitivity categories; however, there is no unified sensitivity classification scheme that 
+covers the quite different potential effects on property, human health and ecological 
+receptors. 
+Table A1 provides guidance on the sensitivity of different types of receptors to dust soiling, 
+health effects, and ecological effects. 
+  
+[[page 73]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ B-3  
+ 
+Table B1 IAQM Guidance for Categorising Receptor Sensitivity 
+Value High Sensitivity  
+Receptor 
+Medium Sensitivity 
+Receptor 
+Low Sensitivity  
+Receptor 
+Dust Soiling Users can reasonably 
+expect enjoyment of a 
+high level of amenity; or 
+The appearance, 
+aesthetics or value of their 
+property would be 
+diminished by soiling; and 
+The people or property 
+would reasonably be 
+expected to be present 
+continuously, or at least 
+regularly for extended 
+periods, as part of the 
+normal pattern of use of 
+the land. 
+Users would expect a to 
+enjoy a reasonable level 
+of amenity, but would not 
+reasonably expect to 
+enjoy the same level of 
+amenity as in their home; 
+or 
+The appearance, 
+aesthetics or value of their 
+property could be 
+diminished by soiling; or 
+The people or property 
+wouldn’t reasonably be 
+expected a to be present 
+here continuously or 
+regularly for extended 
+periods as part of the 
+normal pattern of use of 
+the land. 
+The enjoyment of amenity 
+would not reasonably be 
+expected; or 
+Property would not 
+reasonably be expected to 
+be diminished in 
+appearance, aesthetics, or 
+value by soiling; or 
+There is transient 
+exposure, where the 
+people or property would 
+reasonably be expected a 
+to be present only for 
+limited periods of time as 
+part of the normal pattern 
+of use of the land. 
+Indicative examples 
+include dwellings, 
+museums, and other 
+culturally important 
+collections, medium- and 
+long-term car parks and 
+car showrooms. 
+Indicative examples 
+include parks and places 
+of work. 
+Indicative examples 
+include playing fields, 
+farmland (unless 
+commercially sensitive 
+horticultural), footpaths, 
+short term car parks and 
+roads. 
+Health 
+Effects 
+Locations where 
+members of the public are 
+exposed over a time 
+period relevant to the air 
+quality objective for PM10 
+(in the case of the 24-hour 
+objectives, a relevant 
+location would be one 
+where individuals may be 
+exposed for eight hours or 
+more in a day). 
+Locations where the 
+people exposed are 
+workers, and exposure is 
+over a time period 
+relevant to the air quality 
+objective for PM10 (in the 
+case of the 24-hour 
+objectives, a relevant 
+location would be one 
+where individuals may be 
+exposed for eight hours or 
+more in a day). 
+Locations where human 
+exposure is transient 
+Indicative examples 
+include residential 
+properties. Hospitals, 
+schools, and residential 
+care homes should also 
+be considered as having 
+equal sensitivity to 
+residential areas for the 
+purposes of this 
+assessment. 
+Indicative examples 
+include office and shop 
+workers but will generally 
+not include workers 
+occupationally exposed to 
+PM10, as protection is 
+covered by Health and 
+Safety at Work legislation. 
+Indicative examples 
+include public footpaths, 
+playing fields, parks, and 
+shopping streets. 
+According to the IAQM methods, the sensitivity of the identified individual receptors (as 
+described above) is then used to assess the sensitivity of the area surrounding the active 
+construction area, taking into account the proximity and number of those receptors, and the 
+local background PM10 concentration (in the case of potential health impacts) and other site-
+[[page 74]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ B-4  
+ 
+specific factors. Additional factors to consider when determining the sensitivity of the area 
+include: 
+ any history of dust generating activities in the area 
+ the likelihood of concurrent dust generating activity on nearby sites 
+ any pre-existing screening between the source and the receptors 
+ any conclusions drawn from analysing local meteorological data which accurately 
+represent the area; and if relevant. 
+ the season during which the works will take place. 
+ any conclusions drawn from local topography. 
+ duration of the potential impact, as a receptor may become more sensitive over 
+time. 
+ any known specific receptor sensitivities which go beyond the classifications given 
+in this document. 
+The IAQM guidance for assessing the sensitivity of an area to dust soiling is shown in 
+Table B2. The sensitivity of the area should be derived for each of activity relevant to the 
+project (i.e., construction and earthworks).  
+Table B2 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Soiling 
+Effects 
+Receptor 
+Sensitivity 
+Number of 
+receptors 
+Distance from the source (m) 
+<20 <50 <100 <250 
+High >100 High High Medium Low 
+10-100 High Medium Low Low 
+1-10 Medium Low Low Low 
+Medium >1 Medium Low Low Low 
+Low >1 Low Low Low Low 
+Note: Estimate the total number of receptors within the stated distance. Only the highest level of area sensitivity from the table 
+needs to be considered. For example, if there are 7 high sensitivity receptors < 20m of the source and 95 high sensitivity 
+receptors between 20 and 50 m, then the total of number of receptors < 50 m is 102. The sensitivity of the area in this case 
+would be high. 
+A modified version of the IAQM guidance for assessing the sensitivity of an area to health 
+impacts is shown in Table B3. For high sensitivity receptors, the IAQM methods takes the 
+existing background concentrations of PM10 (as an annual average) experienced in the area 
+of interest into account and is based on the air quality objectives for PM10 in the UK. As 
+these objectives differ from the ambient air quality criteria adopted for use in this assessment 
+the IAQM method has been modified slightly.  
+  
+[[page 75]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ B-5  
+ 
+Table B3 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Health 
+Effects 
+Receptor 
+sensitivity 
+Annual mean 
+PM10 conc. 
+Number of 
+receptors a,b 
+Distance from the source (m) 
+<20 <50 <100 <250 
+High 
+>25 µg/m3 
+>100 High High High Medium 
+10-100 High High Medium Low 
+1-10 High Medium Low Low 
+21-25 µg/m3 
+>100 High High Medium Low 
+10-100 High Medium Low Low 
+1-10 High Medium Low Low 
+17-21 µg/m3 
+>100 High Medium Low Low 
+10-100 High Medium Low Low 
+1-10 Medium Low Low Low 
+<17 µg/m3 
+>100 Medium Low Low Low 
+10-100 Low Low Low Low 
+1-10 Low Low Low Low 
+Medium 
+>25 µg/m3 
+>10 High Medium Low Low 
+1-10 Medium Low Low Low 
+21-25 µg/m3 
+>10 Medium Low Low Low 
+1-10 Low Low Low Low 
+17-21 µg/m3 
+>10 Low Low Low Low 
+1-10 Low Low Low Low 
+<17 µg/m3 
+>10 Low Low Low Low 
+1-10 Low Low Low Low 
+Low - >1 Low Low Low Low 
+Notes: 
+(a) Estimate the total within the stated distance (e.g. the total within 350 m and not the number between 200 and 350 m); 
+noting that only the highest level of area sensitivity from the table needs to be considered. 
+(b) In the case of high sensitivity receptors with high occupancy (such as schools or hospitals) approximate the number of 
+people likely to be present. In the case of residential dwellings, just include the number of properties. 
+Step 2c – Define the Risk of Impacts 
+The dust emission magnitude from Step 2a and the receptor sensitivity from Step 2b are 
+then used in the matrices shown in Table B4 (Demolition), Table B5 (Earthworks and 
+construction) and Table B6 (Track-out) to determine the risk category with no mitigation 
+applied. 
+[[page 76]]
+ 
+ 
+Appendix C Site Representative 
+Meteorological Data  
+DCI 
+Air Quality Impact Assessment 
+DCI CBR01 Data Centre 
+SLR Project No.: 610.032202.00001 
+16 December 2024 
+ 
+ 
+[[page 77]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 1  
+ 
+ 
+Selection of Meteorological Data Year 
+Once emitted to atmosphere, emissions will: 
+ Rise according to the momentum and buoyancy of the emission at the discharge 
+point relative to the prevailing atmospheric conditions 
+ Be adverted from the source according to the strength and direction of the wind at 
+the height which the plume has risen in the atmosphere 
+ Be diluted due to mixing with the ambient air, according to the intensity of turbulence 
+ (Potentially) be chemically transformed and/or depleted by deposition processes. 
+Dispersion is the combined effect of these processes. 
+Dispersion modelling is used as a tool to simulate the air quality effects of specific emission 
+sources, given the meteorology typical for a local area together with the expected emissions. 
+Selection of a year when the meteorological data is atypical means that the resultant 
+predictions may not appropriately represent the most likely air quality impacts. Therefore, in 
+dispersion modelling, one of the key considerations is the representative nature of the 
+meteorological data used.  
+The year of meteorological data used for the dispersion modelling was selected by reviewing 
+the most recent five years of historical surface observations at Tuggeranong AWS (2019 to 
+2023 inclusive) to determine the year that is most representative of average conditions. Wind 
+direction, wind speed and ambient temperature were compared to averages for the region to 
+determine the most representative year. 
+Data collected from 2019 to 2023 is summarised in Figure A-1 to Figure A-3. Examination 
+of the data indicates the following: 
+ Monthly average temperature: Figure A-1: indicates that temperatures are relatively 
+similar for all five years analysed. 
+ Monthly average wind speed:  Figure A-2 indicates all years are relatively similar to 
+long term, however the year 2021 and 2023 have the lowest frequency of months 
+with wind speed above the five-average, while 2020 and 2019 have the highest 
+frequency of months with wind speed above the five-average.  
+ Monthly occurrence of low wind speed:  Figure A-3 indicates that shows that the year 
+2023 had the highest frequency of months with calms conditions above the five-year 
+average while 2019 and 2021 had the lowest frequency of months with calms 
+conditions above the five-year average. 
+ Annual frequency of wind direction distribution Figure A-4 indicates relatively 
+distribution of winds for all years analysed, however 2022 has a higher frequency of 
+southerly winds and 2019 has a higher frequency or northwesterly winds. 
+Thus, the year 2023 was selected for use in meteorological/dispersion modelling. 
+ 
+[[page 78]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 2  
+ 
+ 
+Figure A-3 Monthly Average Temperature 
+  
+ 
+Figure A-1 Monthly Average Wind Speed 
+ 
+ 
+
+[[page 79]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 3  
+ 
+ 
+Figure A-1 Monthly Occurrence of Low Wind Speed 
+ 
+ 
+Figure A-4 Annual Frequency of Wind Direction Distribution 
+ 
+ 
+
+[[page 80]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 4  
+ 
+ 
+CALMET Atmospheric Stability  
+Atmospheric stability refers to the tendency of the atmosphere to resist or enhance vertical 
+motion. The Pasquill-Gifford-Turner (PGT) assignment scheme identifies six Stability 
+Classes, A to F, to categorise the degree of atmospheric stability as follows: 
+ A = Extremely unstable conditions 
+ B = Moderately unstable conditions 
+ C = Slightly unstable conditions 
+ D = Neutral conditions 
+ E = Slightly stable conditions 
+ F = Moderately stable conditions 
+The meteorological conditions defining each PGT stability class are shown in Table C-1. 
+Table C-1 Meteorological Conditions Defining PGT Stability Classes 
+Surface wind 
+speed (m/s) 
+Daytime insolation Night-time conditions 
+Strong Moderate Slight Thin overcast 
+or > 4/8 low 
+cloud 
+<= 4/8 
+cloudiness 
+< 2 A A - B B E F 
+2 - 3 A - B B C E F 
+3 - 5 B B - C C D E 
+5 - 6 C C - D D D D 
+> 6 C D D D D 
+Notes: 
+Strong insolation corresponds to sunny midday in midsummer in England; slight insolation to similar conditions 
+in midwinter. 
+Night refers to the period from 1 hour before sunset to 1 hour after sunrise. 
+The neutral category D should also be used, regardless of wind speed, for overcast conditions during day or 
+night and for any sky conditions during the hour preceding or following night as defined above.  
+Source: (NOAA 2018) 
+A summary of the TAPM/CALMET predicted frequency of each stability class at the Project 
+site during 2023 is presented in Figure C-2. The results indicate a high frequency of 
+conditions typical to Stability Class D (Neutral), with a low frequency of very unstable 
+conditions (Stability Class A) and Slightly stable conditions (Stability Class E). Moderately 
+stable conditions (Stability Class F) also occur relatively frequently. Stable conditions occur 
+during the night-time, under low wind speed conditions, which inhibit pollutant dispersion. 
+ 
+[[page 81]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 5  
+ 
+ 
+Figure C-2 Stability Class Distribution for the Project Site, as Predicted by 
+CALMET 
+ 
+CALMET Mixing Heights 
+Diurnal variations in maximum and average mixing heights predicted by CALMET at the 
+Project site are illustrated in Figure C-3. As would be expected, an increase in the mixing 
+height during the morning is apparent, arising due to the onset of vertical mixing following 
+sunrise. Maximum mixing heights occur in the mid to late afternoon, due to the dissipation of 
+ground-based temperature inversions and the growth of the convective mixing layer. 
+ 
+
+[[page 82]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 6  
+ 
+ 
+Figure C-3 Mixing Heights for the Project Site, as Predicted by CALMET 
+ 
+ 
+ 
+ 
+CALMET Wind Speed and Direction 
+A summary of the annual wind behaviour predicted by TAPM/CALMET for the Project site is 
+presented in Figure C-1. Based on the model predictions, the Project site experienced 
+predominately calm to fresh winds (between less than 0.5 m/s and 5.5 m/s), from all 
+directions but most winds from the southeastern quadrant. There are few calm wind 
+conditions (wind speeds less than 0.5 m/s), predicted to occur approximately 5.2% of the 
+time.  
+
+[[page 83]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ 
+ 7  
+ 
+ 
+Figure C-1 Wind Roses for the Project Site, as Predicted by CALMET 
+ 
+
+[[page 84]]
+ 
+ 
+Appendix D Diesel Generator 
+Specification Sheets & 
+Arrangement 
+DCI 
+Air Quality Impact Assessment 
+DCI CBR01 Data Centre 
+SLR Project No.: 610.032202.00001 
+16 December 2024 
+ 
+ 
+[[page 85]]
+Engine data 
+Not to exceed emission values* 
+Genset Marine O & G Rail C & I
+Application X
+Engine model 16V4000G84F
+Fuel type EN590
+Application Group 3D
+Legislative body Fuel-consumption optimized
+Test cycle D2
+Fuel sulphur content [ppm] 5
+mg/mN3 values base on
+residual oxygen value of [%] 5
+Cycle point [ - ] n1 n2 n3 n4 n5
+Power kW 2185 1639 1092 546 218
+Power relative [ - ] 1 0.75 0.5 0.25 0.1
+Engine speed 1/min 1500 1500 1500 1500 1500
+Engine speed relative [ - ] 1 1 1 1 1
+correction NOX
+concentration, wet
+(5% O2)
+ppm 2199 2629 2010 1675 2625
+Carbon monoxide
+(CO) (5% O2) ppm 237 130 247 558 1344
+Hydrocarbon (HC)
+(5% O2) ppm 113 162 233 453 1540
+Formaldehyde
+(HCHO) (5% O2) ppm 5 5 11 28 76
+NOX mass flow kg/h 28.83 25.44 13.46 6.19 4.89
+CO mass flow kg/h 1.75 0.71 0.95 1.19 1.48
+HC1 mass flow kg/h 0.45 0.47 0.47 0.51 0.87
+PDF Name Project no. Size
+A4Configurator Zwisler, Petra (TVMG) Order no.
+Approver1 Kneifel, Alexander (TSLE) EDS-ID
+2903-11.08.2023
+All industrial property rights
+reserved. Disclosure, reproduction
+or use for any other purpose is
+prohibited unless our express
+permission has been given. Any
+infringement results in liability to
+pay damages.
+Approver2 Koliwer, Michael (TV)
+Approver3
+Title
+Emission data sheet
+Approver4
+Description of Revision Frequency User FN2\hummerj
+Data generated by EDS Creator version 1.0 and uniplot.
+Ref.-dataset: br4000_16v4000g_ta_luft;2_d;1.nc for 1257 in EDS
+platfrom.
+Engine model
+16V4000G84F
+Emissionstage
+Fuel-consumption optimized
+Configuration-ID
+1257
+Documentation
+Emissionstage basis
+Fuel-consumption optimized
+Sheet 
+of 
+[[page 86]]
+NOX+HC1 mass flow,
+wet kg/h 29.28 25.91 13.93 6.69 5.76
+PM mass flow kg/h 0.113 0.157 0.213 0.315 0.926
+NOX-Emissions
+specific g/kWh 13.2 15.52 12.32 11.32 22.41
+CO-Emissions
+specific g/kWh 0.8 0.43 0.87 2.18 6.76
+HC1-Emissions
+specific g/kWh 0.2 0.29 0.43 0.93 3.97
+NOX+HC1 emissions
+specific g/kWh 13.4 15.81 12.75 12.25 26.38
+PM-Emissions
+specific (Meas.) g/kWh 0.054 0.101 0.205 0.607 4.462
+NOX-Emissions
+(based on 5%  O2)
+mg/m3N 5115 6085 4613 3793 5840
+ppmV 2783 3310 2505 2054 3108
+CO-Emissions (based
+on 5%  O2) mg/m3N 296 162 309 698 1680
+HC1-Emissions
+(based on 5%  O2) mg/m3N 76 108 154 295 986
+NOX+HC1 emissions,
+dry (based on 5%  O2) mg/m3N 5191 6193 4768 4089 6826
+PM-Emissions (based
+on 5%  O2) mg/m3N 20.2 37.8 73.4 194.3 1109.3
+Dust (meas. O2) mg/m3N 9.1 11 12.5 41.8 83.3
+PDF Name Project no. Size
+A4Configurator Zwisler, Petra (TVMG) Order no.
+Approver1 Kneifel, Alexander (TSLE) EDS-ID
+2903-11.08.2023
+All industrial property rights
+reserved. Disclosure, reproduction
+or use for any other purpose is
+prohibited unless our express
+permission has been given. Any
+infringement results in liability to
+pay damages.
+Approver2 Koliwer, Michael (TV)
+Approver3
+Title
+Emission data sheet
+Approver4
+Description of Revision Frequency User FN2\hummerj
+Data generated by EDS Creator version 1.0 and uniplot.
+Ref.-dataset: br4000_16v4000g_ta_luft;2_d;1.nc for 1257 in EDS
+platfrom.
+Engine model
+16V4000G84F
+Emissionstage
+Fuel-consumption optimized
+Sheet 
+of Configuration-ID
+1257
+Documentation
+Emissionstage basis
+Fuel-consumption optimized
+[[page 87]]
+Exhaust emission data sheet 
+C3750 D5 
+50 Hz Diesel generator set 
+Cummins Inc. Data and specification subject to change without notice EDS-1209b 
+  (1/18) 
+   
+ 
+Engine Information: 
+Model: Cummins Inc. QSK95-G4 Bore: 7.48 in. (190 mm) 
+Type: 4 Cycle, VEE, 16 cylinder diesel Stroke: 8.27 in. (210 mm) 
+Aspiration: Turbocharged and Aftercooled  Displacement: 5816 cu. in. (95.3 liters) 
+Compression Ratio: 15.5:1   
+Emission Control Device: Turbocharged and Aftercooled   
+Emission Level: Stationary emergency   
+ 
+ 1/4 1/2 3/4 Full Full Full 
+Performance Data Standby Standby Standby Standby Prime Continuous 
+Engine BHP @ 1500 RPM (50 Hz) 1145 2185 3225 4308 3822 3433 
+Fuel Consumption L/Hr (US Gal/Hr) 216 (57) 371 (98) 537 (142) 723 (191) 636 (168) 575 (152) 
+Exhaust Gas Flow m³/min (CFM) 205 (7251) 317 (11195) 443 (15664) 560 (19765) 510 (18022) 473 (16705) 
+Exhaust Gas Temperature °C (°F) 331 (627) 378 (713) 383 (722) 413 (776) 391 (763) 384 (723) 
+       
+Exhaust Emission Data       
+HC (Total Unburned Hydrocarbons) 0.19 (81) 0.09 (46) 0.08 (40) 0.06 (31) 0.06 (33) 0.08 (41) 
+NOx (Oxides of Nitrogen as NO2) 9.1 (3990) 9.3 (4540) 7.6 (3800) 7.4 (3700) 7.3 (3670) 7 (3500) 
+CO (Carbon Monoxide) 0.3 (150) 0.2 (110) 0.1 (30) 0.1 (40) 0.1 (30) 0.1 (30) 
+PM (Particulate Matter) 0.05 (18) 0.01 (6) 0.01 (3) 0.01 (4) 0.01 (3) 0.01 (3) 
+SO2 (Sulfur Dioxide) 0.005 (1.8) 0.004 (1.8) 0.004 (1.8) 0.004 (1.7) 0.004 (1.7) 0.004 (1.8) 
+Smoke (FSN) 0.35 0.16 0.08 0.11 0.08 0.08 
+All values (except smoke) are cited: g/BHP-hr (mg/Nm³ @ 5% O2) 
+ 
+Test Conditions 
+ 
+Steady-state emissions recorded per ISO8178-1 during operation at rated engine speed (+/-2%) and stated constant load  
+(+/-2%) with engine temperatures, pressures and emission rates stabilized. 
+ 
+Fuel Specification:  40-48 Cetane Number, 0.0015 Wt.% Sulfur; Reference ISO8178-5, 40 CFR 86, 1313—98 Type 
+2-D and ASTM D975 No. 2-D. Fuel Density at 0.85 Kg/L (7.1 lbs/US Gal) 
+Air Inlet Temperature 25 °C (77 °F) 
+Fuel Inlet Temperature: 40 °C (104 °F) 
+Barometric Pressure:  100 kPa (29.53 in Hg) 
+Humidity: NOx measurement corrected to 10.7 g/kg (75 grains H2O/lb) of dry air 
+Intake Restriction: Set to 18 in of H2O as measured from compressor inlet 
+Exhaust Back Pressure: 
+ 
+Note: 
+ 
+Set to 1.5 in Hg 
+ 
+mg/m³ values are measured dry, corrected to 5% O2 and normalized to standard temperature 
+and pressure (0°C, 101.325 kPa) 
+  
+The NOx, HC, CO and PM emission data tabulated here are representative of test data taken from a single engine under the test conditions 
+shown above. Data for the other components are estimated. These data are subjected to instrumentation and engine-to-engine variability. Field 
+emission test data are not guaranteed to these levels. Actual field test results may vary due to test site conditions, installation, fuel specification, 
+test procedures and instrumentation. Engine operation with excessive air intake or exhaust restriction beyond published maximum limits, or with 
+improper maintenance, may results in elevated emission levels. 
+ 
+[[page 88]]
+WOLSELEY PLACE 
+TOMPSITT DRIVE 
+ENVIRONA DRIVE 
+14460 
+15201 
+861 m²
+DATA HALL 
+DEPARTMENT LEGEND 
+Data Halls 
+Circulation - Corridor 
+Loading Dock 
+Admin 
+Storage 
+Amenity 
+Plant 
+Technical Corridor 
+180 m²
+MECHANICAL CORRIDOR 
+133 m²
+GENERAL ACCESS CORRIDOR 
+861 m²
+DATA HALL 
+180 m²
+MECHANICAL CORRIDOR 
+133 m²
+GENERAL ACCESS CORRIDOR 
+41 m²
+MMR & COMMS 
+9 m²
+CLEANERS 
+16 m²
+MALE 
+17 m²
+FEMALE 
+37 m²
+BREAKOUT / CANTEEN 
+22 m²
+MEETING ROOM 
+54 m²
+OPERATIONS OFFICE / NOC 
+33 m²
+SECURITY OFFICE 
+28 m²
+LOBBY 
+28 m²
+CUSTOMER STORAGE 
+57 m²
+LOADING DOCK 
+32 m²
+COMMS 
+16 m²
+MALE 
+54 m²
+OPERATIONS OFFICE / NOC 
+22 m²
+MEETING ROOM 
+37 m²
+BREAKOUT / CANTEEN 
+33 m²
+MEETING ROOM 
+28 m²
+LOBBY 
+861 m²
+DATA HALL 
+180 m²
+MECHANICAL CORRIDOR 
+133 m²
+GENERAL ACCESS CORRIDOR 
+861 m²
+DATA HALL 
+180 m²
+MECHANICAL CORRIDOR 
+133 m²
+GENERAL ACCESS CORRIDOR 
+861 m²
+DATA HALL 
+180 m²
+MECHANICAL CORRIDOR 
+133 m²
+GENERAL ACCESS CORRIDOR 
+9 m²
+DDA 
+81 m²
+FIRE PUMP / SCV ROOM 
+FIRE HYDRANT TANK 
+(290kL)
+FIRE SPRINKLER 
+TANK (90kL)
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+TX 
+TX 
+TX 
+TX 
+TX 
+TX 
+PTU 
+PTU 
+PTU 
+PTU 
+PTU 
+PTU 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+3000 
+1
+3001 1
+3002 
+1
+3003 1
+1
+3100 
+1
+3100 
+1
+3101 
+1
+3101 
+PROPERTY BOUNDARY 
+PROPERTY BOUNDARY 
+SETBACK 
+SETBACK 
+HV 1 
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+TX 
+TX 
+TX 
+TX 
+TX 
+TX 
+PTU 
+PTU 
+PTU 
+PTU 
+PTU 
+PTU 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+TX 
+TX 
+TX 
+TX 
+PTU 
+PTU 
+PTU 
+PTU 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+GENERATOR 
+CHILLER 
+CHILLER 
+CHILLER 
+CHILLER 
+REVERSE BAY 
+PRIMARY ENTRANCE 
+SECONDARY ENTRANCE 
+9 m²
+DDA 
+FUTURE 
+CUSTOMER 
+OFFICE 
+ZONE 
+FUTURE 
+CUSTOMER 
+OFFICE ZONE 
+RL +619,300 RL +619,300 
+RL +619,300 
+RL +619,300 
+FNC 01 
+3000MM HIGH PALISADE 
+FENCE TO WRAP BOUNDARY 
+3002 
+1
+3102 
+1
+3102 
+30 m²
+MMR 
+HV 1 
+18 m²
+CUSTOMER STORAGE 
+PRESSURIZATION UNIT 
+WATER TANK 
+PRESSURIZATION UNIT 
+WATER TANK 
+PRESSURIZATION UNIT 
+WATER TANK 
+17 m²
+FEMALE 
+SCR 01 
+VERTICAL LOUVER SCREEN 
+TO ENCLOSE PLANT AREA       
+RL +618,300 
+RL +620,300 
+EXISTING 'POPLARS 
+INNOVATION' PRECINCT 
+SIGNAGE 
+WATER RETENTION TANK 
+INDICATIVE LOCATION OF 
+ZONE SUBSTATION 
+7500 
+12000 
+5000 
+3000 
+29002 
+DFH 
+DFH 
+DFH 
+DFH DFH 
+DFH 
+FIRE BOOSTER 
+FIRE TRUCK STAND 
+13 X 6M 
+UP UP 
+DN DN DN DN DN 
+PROPOSED WASTE 
+STORAGE 
+0 12.5 25 50 
+PROJECT  NUMBER 
+DRAWING NUMBER ISSUE 
+DRAWING TITLE 
+SCALE 
+THIS DOCUMENT IS THE COPYRIGHT OF HDR.
+ALL INFORMATION ILLUSTRATED ON THIS DOCUMENT IS TO BE CHECKED 
+AND VERIFIED ON SITE. IN THE EVENT OF DISCREPANCIES REFER TO 
+ARCHITECT PRIOR TO COMMENCEMENT OF THE WORK. DO NOT SCALE 
+DRAWINGS MANUALLY OR ELECTRONICALLY.
+KEY PLAN PROJECT 
+PROJECT STATUS 
+CLIENT 
+A1 
+A4 A3 A2 
+NORTH POINT 
+1 : 500 @ A1 
+Autodesk Docs://10411257_DCI_CBR01_2024/CBR01-ARC-HDR-R24-BLD.rvt
+21/10/2024 4:18:59 PM 
+HDR-AR-2101 
+GENERAL ARRANGEMENT -
+GROUND FLOOR 
+10411257 
+Level 24, 25 Martin Place, Sydney NSW, 2000, Australia 
++61 2 9956 2666 | hdrinc.com 
+HDR Pty. Limited ABN 76 158 075 220 trading as HDR 
+Nominated Architect: Cate Cowlishaw 10786 (NSW)
+DCI CBR01 
+300 Lanyon Dr, Jerrabomberra NSW 
+2619 
+PRELIMINARY REV DESCRIPTION OF CHANGE DATE CHECKED ISSUED 
+Allow each exhaust
+stack internal
+diameter - 500mm.
+Overall diameter of
+~650mm.
+2 500 mm
+2 500 mm
+2 500 mm
+Allow for
+exhaust stack to
+rise 1m above
+the generator
+container.
+TYPICAL SECTION ACROSS
+GENERATORS
+MARKUP BY:
+DATE:
+JONG
+22/10/2024
+TITLE:
+DCI - CBR01 Generator Stack
+Markup
+
+[[page 89]]
+ 
+ 
+Appendix E Incremental Isopleth 
+Plots 
+DCI 
+Air Quality Impact Assessment 
+DCI CBR01 Data Centre 
+SLR Project No.: 610.032202.00001 
+16 December 2024 
+ 
+ 
+[[page 90]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-1  
+ 
+Operational Isopleth plots 
+Figure D 1 Maximum Predicted 24-hour Average Incremental Particulates 
+Concentrations– Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: Particulates Averaging 
+Period: 24-hour Unit: µg/m3  
+         
+
+[[page 91]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-2  
+ 
+Figure D 2  Maximum Predicted Annual Average Incremental Particulates – Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55   
+ 
+ Proposed Operations   
+  Date: 05/12/2024    Pollutant: Particulate
+s 
+Averaging 
+Period: Annual Unit: µg/m3  
+          
+
+[[page 92]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-3  
+ 
+Figure D 3  Maximum Predicted 1-hour Average Incremental NO X Concentration – 
+Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: NOx Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+
+[[page 93]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-4  
+ 
+Figure D 4  Maximum Predicted Annual Average Incremental NO X Concentration 
+– Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: NOx Averaging 
+Period: Annual Unit: µg/m3  
+         
+ 
+
+[[page 94]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-5  
+ 
+Figure D 5  Maximum Predicted 1-hour Average Incremental CO 
+Concentration – Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: CO Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+
+[[page 95]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-6  
+ 
+Figure D 6  Maximum Predicted 1-hour Average Incremental SO 2 Concentration – 
+Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: SO2 Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+
+[[page 96]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-7  
+ 
+Figure D 7  Maximum Predicted 24-hour Average Incremental SO 2 Concentration 
+– Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: SO2 Averaging 
+Period: 24-hour Unit: µg/m3  
+         
+ 
+ 
+
+[[page 97]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-8  
+ 
+Figure D 8  Maximum Predicted 1-hour Average 99.9 th percentile Incremental 
+PAHs Concentration – Operations 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Proposed Operations   
+  Date: 05/12/2024   Pollutant: PAHs Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+  
+
+[[page 98]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-9  
+ 
+Emergency Concentrations 
+Figure D 9  Maximum Predicted 24-hour Average Incremental Particulates 
+Concentration – Emergency Conditions 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Emergency Conditions   
+  Date: 05/12/2024   Pollutant: Particulate
+s 
+Averaging 
+Period: 24-hour Unit: µg/m3  
+         
+
+[[page 99]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-10  
+ 
+Figure D 10 Maximum Predicted 1-hour Average Incremental NO X Concentration – 
+Emergency Conditions 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Emergency Conditions   
+  Date: 05/12/2024   Pollutant: NOx Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+
+[[page 100]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-11  
+ 
+Figure D 11 Maximum Predicted 1-hour Average Incremental CO Concentration – 
+Emergency Conditions 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Emergency Conditions   
+  Date: 05/12/2024   Pollutant: CO Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+
+[[page 101]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-12  
+ 
+Figure D 12 Maximum Predicted 1-hour Average Incremental SO 2 Concentration – 
+Emergency Conditions 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Emergency Conditions   
+  Date: 05/12/2024   Pollutant: SO2 Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+ 
+
+[[page 102]]
+DCI CBR01 Data Centre 
+DCI 
+16 December 2024
+SLR Project No.: 610.032202.00001
+ 
+ E-13  
+ 
+Figure D 13 Maximum Predicted 1-hour Average 99.9 th Percentile Incremental 
+PAHs Concentration – Emergency Conditions 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ Project Number: 610.032202   
+ 
+ DCI  
+  Location: Jerrabomberra, NSW    2 Wolseley Place, Jerrabomberra 
+Air Quality Impact Assessment 
+ 
+  Source: CALPUFF/Nearmap     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: GDA2020/ MGA Zone 55  
+ 
+ Emergency Conditions   
+  Date: 05/12/2024   Pollutant: PAHs Averaging 
+Period: 1-hour Unit: µg/m3  
+         
+ 
+ 
+
+[[page 103]]
+ 
+ 
+ 

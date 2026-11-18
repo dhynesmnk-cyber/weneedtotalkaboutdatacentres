@@ -1,0 +1,3575 @@
+[[page 1]]
+ 
+  
+ 
+Stockland 
+MPark Talavera Road Data Centre  
+Air Quality Impact Assessment 
+Reference: MPARK2-ARP-BE-03-RP-AQ-000001 
+03 | 31 January 2025 
+ 
+©GreenBox Architecture  
+ 
+This report takes into account the particular instructions and requirements of our client.  It is not 
+intended for and should not be relied upon by any third party and no responsibility is undertaken to 
+any third party. 
+ 
+  
+Job number  304093-10 
+Arup Australia Pty Ltd | ABN 76 625 912 665 
+Arup Australia Pty Ltd 
+Sky Park, One Melbourne Quarter  
+699 Collins Street 
+Docklands  
+VIC, 3008  
+Australia 
+arup.com  
+ 
+[[page 2]]
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  | 03  | 31 January 2025  | Arup Australia Pty Ltd  
+ 
+Contents 
+ 
+ 
+Executive Summary 6 
+1.  Introduction 7 
+1.1  Site description and context 7  
+1.2  Project description 8  
+1.3  Response to SEARs 9  
+2.  Legislation, policy, guidelines and criteria 10  
+2.1  Introduction 10  
+2.2  Legislation, policy and guidelines 10  
+2.3  Air quality assessment criteria 11  
+3.  Existing site conditions 13  
+3.1  Meteorological conditions 13  
+3.2  Background air quality 15  
+3.3  Terrain 17  
+3.4  Sensitive receptors 18  
+4.  Identification of potential emission sources 22  
+4.1  Construction phase 22  
+4.2  Operation phase 22  
+5.  Construction assessment 29  
+5.1  Assessment methodology 29  
+5.2  Assessment of potential construction impacts 30  
+6.  Operation assessment – generators 33  
+6.1  Assessment scenarios for dispersion modelling 33  
+6.2  Stack emission parameters and emission rates 33  
+6.3  Assessment methodology for dispersion modelling 37  
+6.4  Assessment of potential operational impacts – Scenario 1 (power failure) 42  
+6.5  Assessment of potential operational impacts – Scenario 2 (routine maintenance) 51  
+6.6  Assessment of potential operational impacts - Scenario 3 (cumulative assessment with 
+existing data centres during routine maintenance) 5 9  
+6.7  Cumulative assessment of other proposed data centres 66  
+6.8  Limitations of AERMOD and sensitivity of flagpole receptor locations 66  
+6.9  POEO (Clean Air) Regulation – Standard of Concentrations 70  
+7.  Mitigation/management measures and summary of residual risks 71  
+7.1  Mitigation and management measures 71  
+7.2  Residual risks 71  
+8.  Conclusions 75  
+  
+Tables  
+Table 1 - Project details 8 
+Table 2 – SEARs Compliance 9  
+[[page 3]]
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  | 03  | 31 January 2025  | Arup Australia Pty Ltd  
+ 
+Table 3 – Schedule 2, Part 2 Division 3 – Standards of concentration for (Group 6) scheduled premises 11  
+Table 4 – Schedule 2 Part 3 – Standards of concentration for (Group C) non-scheduled premises 11  
+Table 5 – Applicable air quality impact assessment criteria 12  
+Table 6 – 2022 background air quality data capture (Macquarie Park) 16  
+Table 7 – Maximum monitored air quality concentrations 16  
+Table 8 - Identified nearby residential sensitive receptors 19  
+Table 9 - Identified nearby non-residential sensitive receptors 19  
+Table 10 – Proposed standby generator maintenance testing regime 27  
+Table 11 – Proposed standby generator fuel use 28  
+Table 12 – Site categories criteria (scale of works) 30  
+Table 13 – Sensitivity of the area to dust deposition effects on people and property (Source: IAQM 
+Guidance) 31  
+Table 14 – Risk of dust impacts for demolition (Source: IAQM Guidance) 31  
+Table 15 – Risk of dust impacts for earthworks, construction and trackout (Source: IAQM Guidance) 32  
+Table 16 – Summary dust risk table before mitigation 32  
+Table 17 – Generator exhaust stack characteristics and emission inventory for the project 34  
+Table 18 – Generator exhaust stack characteristics and emission inventory (11-17 Khartoum Road and 
+17-23 Talavera Road data centres) 35  
+Table 19 – General inputs for AERMOD dispersion modelling 37  
+Table 20 - Predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 1) 42  
+Table 21 – Floor levels (flagpole receptors) which exceed 1-hour NO 2 criterion (Scenario 1) 43  
+Table 22 - Predicted highest 100th percentile 24-hour PM 10  and PM 2.5 concentrations (Scenario 1) 43  
+Table 23 – Predicted highest 100th percentile concentrations for 15-minutes, 1-hour and 8-hour CO 
+(Scenario 1) 45  
+Table 24 – Predicted highest 100 th  percentile concentrations for 1-hour and 24-hour concentrations 
+SO 2 (Scenario 1) 48  
+Table 25 – Predicted highest 100 th  percentile concentrations for 1-hour benzene (Scenario 1) 50  
+Table 26 - Predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 2) 51  
+Table 27 – Floor levels (flagpole receptors) which exceed 1-hour NO 2 criterion (Scenario 2) 52  
+Table 28 - Predicted highest 100th percentile 24-hour PM 10  and PM 2.5 concentrations (Scenario 2) 52  
+Table 29 – Predicted highest 100th percentile concentrations for 15-minutes, 1-hour and 8-hour CO 
+(Scenario 2) 54  
+Table 30 – Predicted highest 100 th  percentile concentrations for 1-hour and 24-hour concentrations 
+SO 2 (Scenario 2) 57  
+Table 31 – Predicted highest 100 th  percentile concentrations for 1-hour benzene (Scenario 2) 58  
+Table 32 - Predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 3) 59  
+Table 33 – Floor levels (flagpole receptors) which exceed 1-hour NO 2 criterion (Scenario 3) 60  
+Table 34 - Predicted highest 100th percentile 24-hour PM 10  and PM 2.5 concentrations (Scenario 3) 60  
+Table 35 – Predicted highest 100th percentile concentrations for 15-minutes, 1-hour and 8-hour CO 
+(Scenario 3) 62  
+Table 36 – Predicted highest 100 th  percentile concentrations for 1-hour and 24-hour concentrations 
+SO 2 (Scenario 3) 64  
+Table 37 – Predicted highest 100 th  percentile concentrations for 1-hour benzene (Scenario 3) 65  
+Table 38 – Comparison of predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 2) 67  
+Table 39 – POEO (Clean Air) Regulation Schedule 2 Part 3 – Standards of concentrations assessment 70  
+[[page 4]]
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  | 03  | 31 January 2025  | Arup Australia Pty Ltd  
+ 
+Table 40 – Mitigation and management measures for air quality 72  
+Table 41 – Summary of pre-mitigation and residual impacts 73  
+ 
+ 
+Figures 
+Figure 1 - Aerial photograph of site (Source: Urbis GIS, 2024) 7  
+Figure 2 – Locations of nearest surface weather stations (darker shades of green indicate river valley 
+systems) 13  
+Figure 3 – WRF wind rose and wind class frequency distribution (2022) 14  
+Figure 4 – WRF wind rose and wind class frequency distribution (2022, 7 am to 6 pm only) 15  
+Figure 5 - Adopted hourly O 3 background air quality chart 17  
+Figure 6 - Adopted hourly NO 2 background air quality chart 17  
+Figure 7 - Terrain around the project site 18  
+Figure 8 – Surrounding land uses and sensitive receptors 21  
+Figure 9 – MPark Talavera Road Data Centre upper roof plan (Source: Drawing Number: MPARK2–
+GBA–BE–01–DR–A–0107) 24  
+Figure 10 - MPark Talavera Road Data Centre northeast and southwest elevations (Source: Drawing 
+Number: MPARK2– GBA–BE–01–DR–A–0150) 25  
+Figure 11 – Stacks of the project and selected nearest stacks of existing data centres (11-17 Khartoum 
+Road and 17-23 Talavera Road) used in dispersion modelling (Scenario 3) 36  
+Figure 12 - Modelled surrounding buildings (including proposed buildings) for downwash effects 39  
+Figure 13 – Modelled sensitive receptors (red circles) with AERMOD ID (from Table 8 and Table 9) 40  
+Figure 14 – Sensitivity analysis with different flagpole receptor locations for R1, R2 and R3 
+(Buildings J, F and G) 67  
+Figure 15 – Macquarie Park wind data (2019 to 2023) – Z-score for wind speed and wind direction 
+radar plot 77  
+ 
+  
+Appendices  
+Appendix A 76  
+Appendix B 78  
+Appendix C 79  
+  
+ 
+[[page 5]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  6
+ 
+Executive Summary 
+This air quality assessment has been conducted to accompany a State Significant Development Application 
+(SSDA) for the proposed MPark Talavera Road Data Centre at 1-5 Khartoum Road, Macquarie Park, NSW, 
+in accordance with the requirements of the Planning Secretary’s Environmental Assessment Requirements 
+(SSD-63235720). 
+During the construction phase, accounting for the predicted scale of dust emissions and the area’s sensitivity, 
+the project site has been classified as a negligible risk for demolition, earthworks and trackout, and low risk 
+for construction. 
+Under normal operations of the data centre (when there is no routine maintenance), no air quality impacts are 
+anticipated as the standby generators are not in operation. 
+Three modelling scenarios have been assessed for the operation phase: 
+•  Scenario 1 – A highly unlikely worst-case scenario (peak emission scenario) where all 28 generators of 
+the project are in operation (100% load) to provide back-up power generation under a full loss of mains 
+power scenario. 
+•  Scenario 2 – Realistic operations during regular or routine maintenance testing of the project, where 
+individual generator testing (one generator) is undertaken. 
+•  Scenario 3 – A cumulative assessment of the project and the two existing adjacent data centres (11-17 
+Khartoum Road to the north of the project site and 17-23 Talavera Road to the south of the project site), 
+assuming that realistic operations during regular or routine maintenance testing occur simultaneously, 
+with up to one generator from each data centre site tested. 
+Based on modelling results for Scenarios 1 to 3, the following are concluded: 
+•  Hourly NO 2 impact assessment criterion is exceeded at nearby residential receptors for Scenario 1, but 
+the likelihood of this scenario occurring is very low due to high reliability of the electrical utilities 
+supplying the project and the redundancies built into the design. 
+•  Hourly NO 2 impact assessment criterion is exceeded at nearby residential receptors (upper floors only) 
+for Scenario 2 and Scenario 3, but the likelihood of this occurring is very low due to the infrequent 
+maintenance testing regime of standby generators.  
+•  All other pollutants are not predicted to have any unacceptable impacts (i.e. exceeding air quality 
+assessment criteria) for all scenarios. 
+A series of air quality mitigation/management measures are recommended for both the construction phase 
+and the operation phase (Section 7). Provided that appropriate site-specific mitigation/management measures 
+are implemented, it is predicted that the residual air quality risks are negligible to low. 
+[[page 6]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  7
+ 
+1.  Introduction  
+This air quality assessment has been prepared by Arup on behalf of Stockland to accompany a State 
+Significant Development Application (SSDA) for the MPark Talavera Road Data Centre development.  
+1.1 Site description and context 
+The site is located at 1-5 Khartoum Road, Macquarie Park, within the City of Ryde Local Government Area 
+(LGA), approximately 12km north-west of the Sydney CBD and proximate to the commercial centres of 
+Chatswood and Norwest.  
+The area subject of the data centre development is 10,015 sqm (legally described as Part Lot 2 DP 1043041). 
+Specifically, the data centre development relates to the eastern portion of Lot 2 DP 1043041 as shown in 
+Figure 1. 
+ 
+Figure 1 - Aerial photograph of site (Source: Urbis GIS, 2024) 
+The site is currently occupied by a two-storey car park structure with associated roads, walkways and planted 
+native and exotic vegetation.  
+The site is surrounded by a range of office/warehouse building forms, which are predominantly low to 
+medium rise with large areas of at-grade parking, consistent with Macquarie Park’s traditional campus-style 
+function and character. 
+
+[[page 7]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  8
+ 
+1.2 Project description 
+The project comprises the demolition of the existing car park and construction of a data centre development 
+including the following key components:  
+•  Demolition of existing car park and associated structures. 
+•  Site preparation works including tree removal and earthworks.  
+•  Construction and operation of six-storey data centre development, with a maximum height of 45m and a 
+combined total gross floor area (GFA) of approximately 19,434 sqm including. 
+‒ Lobby, meeting rooms and ancillary space: 6,010sq m 
+‒ Offices: 830sqm 
+‒ Three storeys of technical data floor space accom modating 12 data houses: 12,594 sqm. 
+•  Vehicle access via Road 22 (Murrell Street) with 25 parking spaces within the building.  
+•  Associated landscaping including trees, shrubs and grasses. 
+•  Business identification signage zones. 
+•  Provision of required utilities, including diesel generator back up power system. 
+Key project details are described below in Table 1. 
+Table 1 - Project details 
+Descriptor Project details  
+Project area The data centre development relates to the eastern pocket of Lot 2 DP 1043041 and 
+comprises an area of approximately 10,015 sqm. 
+Proposed use Data centre with ancillary office spac e. 
+Project description Demolition of existing car park  and associated structures. 
+Site preparation works including tree removal and earthworks.  
+Construction and operation of five-storey data centre development, with a maximum height 
+of 45 metres and a combined total gross floor area (GFA) of approximately 19,348 sqm 
+including. 
+•  Lobby, meeting rooms and ancillary space: 6,010sqm 
+•  Offices: 830sqm  
+•  Three storeys of technical data floor space accommodating 12 data houses: 12,594 
+sqm 
+Vehicle access via Road 22 (Murrell Street) with 25 parking spaces within the building.  
+Associated landscaping including trees, shrubs and grasses. 
+Business identification signage zones. 
+Provision of required utilities, including diesel generator back up power system. 
+Gross floor area 19,434 sqm 
+[[page 8]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  9
+ 
+Descriptor Project details  
+Building height 45 metres over six storeys 
+Floor space ratio  1.94:1  
+Data houses  12 data houses 
+Deep Soil Area 10.68% 
+Car Parking  25 car spaces including 1 DDA spaces  
+Motorbike Spaces 4 spaces 
+Bicycle Spaces 6 spaces  
+Utilities Provision of required utilities including : 
+28 x diesel generators (3 MW/each) 
+8 x above-ground diesel storage tanks (73 kL/each) 
+8 x above-ground water tanks for industrial water (500 kL/each) 
+1 x above-ground water tank for fire water (320 kL) 
+33 kV switching station. 
+Power Consumption 76.4 MVA (total power), 51.4 MW ( IT Load) 
+Operations and 
+Management  
+The facility will be operated on a 24-hour, 7 day a week basis. 
+Existing Services 
+and Infrastructure  
+The site is fully serviced; however, existing services and infrastructure will be extended, 
+adapted and augmented to meet the demands of the project. 
+Job Numbers Construction: 250 
+Operational: 50 
+1.3 Response to SEARs 
+This report has been prepared in response to the requirements contained within the Secretary’s 
+Environmental Assessment Requirements (SEARs) dated 17 October 2023 issued for the SSDA (SSD-
+63235720). Specifically, this report has been prepared to respond to the SEARS requirement as per Table 2. 
+Table 2 – SEARs Compliance 
+Item Description of Requirement Section Reference (this 
+Report) 
+Air 
+Quality 
+Provide an assessment of air quality impacts, prepared in accordance with 
+the relevant NSW Environment Protection Authority (EPA) guidelines. The 
+assessment must address construction works and include modelling of 
+emissions and air pollutants from predicted operations (including testing of 
+the back-up power system) and a peak emission and air pollutant scenario, 
+and outline the proposed mitigation, management and monitoring measures 
+that would be implemented. 
+Section 5 – construction 
+assessment 
+Section 6 – operation 
+assessment 
+Section 7 – 
+mitigation/management 
+measures 
+ 
+[[page 9]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  10 
+ 
+2.  Legislation, policy, guidelines and criteria 
+2.1 Introduction 
+This Chapter presents relevant regulation, legislation and policy governing management of air quality as it 
+relates to the project. 
+2.2 Legislation, policy and guidelines 
+2.2.1  Protection of the Environment Operations Act 1997 
+The NSW Protection of the Environment Operations (POEO) Act 1997 is administered by the New South 
+Wales (NSW) Department of Planning, Housing and Infrastructure (DPHI), under the Environment and 
+Heritage group. The Act is formed to protect, restore and enhance the environment in NSW and to promote 
+public access to information and involvement in environment protection. The Act designates the NSW EPA 
+(Environment Protection Authority) as the regulatory authority.  
+The following sections from Part 5.4 of the Act provide general protection conditions for air quality that are 
+relevant to the project: 
+•  Section 124 : The occupier of any premises who operated any plant in or on those premises shall operate 
+as well as maintain the plant in a proper and efficient manner, such that it minimises the potential for air 
+pollution. 
+•  Section 125:  The occupier of any premises who carries out maintenance work on any plant in or on those 
+premises shall conduct the work in a proper and efficient manner, such that it minimises the potential for 
+air pollution. 
+•  Section 128 : The occupier of any premises must not carry on any activity, or operate any plant, in or on 
+the premises in such a manner as to cause or permit the emission at any point specified in or determined 
+in accordance with the regulations of air impurities in excess of the standard of concentration and/or the 
+rate prescribed by the regulations in respect of any such activity or any such plant. 
+•  The occupier of any premises must carry on any activity, or operate any plant, in or on the premises by 
+such practicable means as may be necessary to prevent or minimise air pollution. 
+•  Schedule 1, Clause 17 of the Act 1 applies scheduled premises status to electricity generation by means of 
+internal combustion engine in a metropolitan area with capacity to produce more than 30 to 32.5 MW of 
+electrical power and burn rate of more than 3 MJ of fuel per second. However, Clause 17 (1A) of the Act 
+notes that scheduled premises status does not apply if the electricity generation is utilised for emergency 
+standby plant operating for less than 200 hours per year. 
+2.2.2  Protection of the Environment Operations (Clean Air) Regulation 2022 
+The NSW Protection of the Environment Operations POEO (Clean Air) Regulation 2022 is specifically 
+regulated to manage air quality issues associated with various sources, such as burning activities, motor 
+vehicles fuels, fuel usage and transfer, air impurities from activities and plant, storage of volatile organic 
+liquids and many others.  
+Part 5 of the POEO (Clean Air) Regulation specifically addresses air impurities from activities and plant and 
+refers to Schedule 2 Part 2 Division 3 to set the Standard of concentrations for scheduled premises of 
+ 
+1 Part 9.7, Section 327, Schedule 1, Part 1 (Premises-based activities), Clause 17 (1A) of the POEO Act 1997. 
+[[page 10]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  11 
+ 
+general activities and plant  and Schedule 2 Part 3 to set the Standard of concentrations for non-scheduled 
+premises . However, Part 5, Division 6, Clause 73 of the POEO (Clean Air) Regulation exempts emergency 
+electricity generation comprising a stationary reciprocal internal combustion engine from the air impurities 
+Standard of nitrogen dioxide and nitric oxide concentrations specified in Schedule 2 in relation to that plant, 
+if the plant is used for a total of not more than 200 hours per year. 
+Table 3 and Table 4 below set out the standard of concentrations for scheduled and non-scheduled premises 
+under the Schedule 2 of the POEO (Clean Air) Regulation. 
+Table 3 – Schedule 2, Part 2 Division 3 – Standards of concentration for (Group 6) scheduled premises 
+Air impurity Activity or plant Concentration 
+Solid Particles (Total) Any activity/ plant 50 mg/m 3 
+Nitrogen dioxide (NO 2) or Nitric oxide (NO) 
+or both nitrogen dioxide and nitric oxide, as 
+NO 2 equivalent 
+Stationary reciprocating internal combustion 
+engines 
+450 mg/m 3 
+Note: Concentration level based on reference condition of dry, 273 K, 101.3kPa and 7% O 2 content 
+Table 4 – Schedule 2 Part 3 – Standards of concentration for (Group C) non-scheduled premises 
+Air impurity Activity or plant Concentration 
+Solid particles Any activity/ plant 100 mg/m 3 
+Smoke Any activity or plant in connection with whic h 
+liquid or gaseous fuel is burnt 
+Ringelmann 1 or 
+20% opacity 
+Note: Concentration level based on reference condition of dry, 273 K, 101.3kPa and 7% O 2 content 
+Part 5, Subdivision 3 of the POEO (Clean Air) Regulation makes exemptions of standards of concentration 
+for plant during start-up or shutdown periods . The start-up or shutdown periods are defined by the regulation 
+as below: 
+•  “Start-up period – that is, while the plant is being brought up to normal operation following a period of 
+inactivity. 
+•  Shutdown period – that is, while the plant is being taken out of service from normal operation to 
+inactivity.” 
+2.2.3  Approved Methods for the Modelling and Assessment of Air Pollutants in New South Wales 
+As the Regulatory Authority designated by the POEO Act 1997, EPA NSW has published the Approved 
+Methods for the Modelling and Assessment of Air Pollutants in New South Wales  (August 2022), hereafter 
+referred to as the Approved Methods, to provide detailed statutory methods in modelling and assessing air 
+pollutants in the state of NSW. The Approved Methods provides methods and impact assessment criteria for 
+assessing emissions of air pollutants from stationary sources in NSW.  
+2.3 Air quality assessment criteria 
+Section 7.1 of the Approved Methods outlines the air pollutant impact assessment criteria. Predicted 
+pollutant concentrations (including background air quality concentrations) for a project should where 
+possible comply with these criteria. If they do not, further mitigation may be required.   
+Table 5 presents the relevant air quality impact assessment criteria applicable for the project’s standby 
+generators. 
+[[page 11]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  12 
+ 
+The Approved Methods set standards for various averaging periods, including annual averages. As the 
+generators are to be used for standby purposes only and would only run for a short period or intermittently, 
+the assessment has focussed on short-term averaging periods only. Pollutant criteria with averaging periods 
+of longer than 24 hours have therefore been excluded from this assessment. 
+Table 5 – Applicable air quality impact assessment criteria 
+Pollutant Averaging Period Maximum Concentration, µg/m 3 
+Carbon monoxide (CO) 15 minutes 100,000 
+1 hour 30,000 
+8-hour 10,000 
+Sulfur dioxide (SO 2) 1 hour 286 
+24-hour 57 
+Nitrogen dioxide (NO 2) 1 hour 164 
+Benzene  1 hour 29 
+PM 10  24 hours 50 
+PM 2.5  24 hours 25 
+ 
+The impact assessment criteria in Table 5 must be applied at the nearest existing or likely future off-site 
+sensitive receptor, compared against both the incremental impact from modelled sources as well as the 
+cumulative impact, including background pollutant concentrations. 
+  
+[[page 12]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  13 
+ 
+3.  Existing site conditions 
+3.1 Meteorological conditions 
+Local meteorological conditions that can affect the dispersal of pollutants in the area were determined. 
+Meteorological conditions are not monitored at the project site. The nearest meteorological data monitoring 
+station is located at Macquarie Park, approximately 1.9 km to the north-northwest of the site (operated by 
+NSW Environment and Heritage). The closest Bureau of Meteorology (BoM) station is at Sydney Olympic 
+Park AWS, roughly 8 km to the southwest of the project site. These meteorological stations are shown in 
+Figure 2 in relation to the project site. Due to the complex river systems, these monitoring stations are 
+influenced by distinct localised terrain features. For instance, the Macquarie Park station is located within the 
+Lane Cove River system, which is in a northerly to northwesterly orientation. Local river valleys channel 
+winds at Macquarie Park station, which are reflected in the high occurrences of north to northwesterly wind 
+directions (Figure 2). The Sydney Olympic Park station is likewise influenced by the Paramatta River system 
+which is generally orientated in an east-west direction.  
+  
+Figure 2 – Locations of nearest surface weather stations (darker shades of green indicate river valley systems) 
+ 
+For the project site which is located about 800 m south of the Lane Cove River, localised valleys will also 
+influence the wind directions at the site. To provide site representative meteorological data and all 
+parameters required by the dispersion model, meteorological data was purchased from Lakes Environment 
+based on the Weather Research and Forecast (WRF) prognostic model with 1 km grid resolution. The 
+prognostic data was interpolated from nearby forecasted and monitored data. Analysis of meteorological data 
+for five years (2019 to 2023) at the Macquarie Park station indicated similar meteorological patterns across 
+Macquarie Park station 
+Sydney Olympic 
+Park station Project site 
+
+[[page 13]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  14 
+ 
+all these five years (Appendix A). The year 2022 was selected for this assessment and correlated with 
+background air quality data, as discussed in Section 3.2.  
+3.1.1  WRF windrose 
+The annual average prognostic wind rose for the project site between 1 January 2022 and 31 December 2022 
+with wind class frequency distribution is shown in Figure 3. The WRF prognostic model indicates that winds 
+are predominantly from the west-southwest direction with average wind speed of 3.3 m/s. Calm winds (<0.5 
+m/s) occur infrequently (1.9%), suggesting that meteorological conditions are generally favourable for 
+dispersion.  
+ 
+   
+Figure 3 – WRF wind rose and wind class frequency distribution (2022) 
+3.1.2  Wind conditions between 7 am and 6 pm (for routine maintenance of the generators) 
+The operation of the standby generators relating to routine maintenance (Section 4.2.1) is limited between 7 
+am and 6 pm based on noise considerations 2. Wind conditions during this period are shown in Figure 4. 
+Wind patterns from this period are generally similar, though weaker winds are observed from the west-
+northwest to north-northwest arc during this time. There is also a slight shift in dominant wind direction from 
+northeast on an annual basis to east-northeast for this time period. Overall average wind speed between 7 am 
+and 6 pm is slightly higher at 3.93 m/s when compared to the annual basis of 3.30 m/s. 
+ 
+2 MPark Talavera Road Data Centre, Noise and Vibration Impact Assessment . Version 2, 22 November 2024. By Arup. 
+
+[[page 14]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  15 
+ 
+   
+Figure 4 – WRF wind rose and wind class frequency distribution (2022, 7 am to 6 pm only)  
+3.2 Background air quality 
+Existing background air quality refers to the concentration of relevant substances that are already present in 
+the environment from various sources that may include industrial processes, commercial and domestic 
+activities, traffic and natural sources.  
+The Approved Methods requires at least one year of continuous background air quality data to be used, 
+contemporaneous with meteorological data. The assessment of air quality impacts can be undertaken using 
+two options of background air quality data: 
+•  Background Option 1: Using the maximum background concentration of the pollutant being assessed for 
+each relevant averaging period, or 
+•  Background Option 2: Using the addition of the corresponding measured background concentration to 
+each individual dispersion model prediction (e.g. add the first hourly average dispersion model prediction 
+to the first hourly average background concentration). 
+The adopted tiered approach for this assessment is to use Background Option 1 as a worst-case assumption, 
+and Background Option 2 when exceedances of the air quality impact assessment criteria using Background 
+Option 1 are predicted. The latter approach has been used for assessment of NO 2 using the ozone limiting 
+method (OLM) (Section 6.3.5). 
+3.2.1  Air quality monitoring station 
+The nearest air quality monitoring station (AQMS) is located at Macquarie Park, approximately 1.9 km to 
+the north-west of the project site. The AQMS at Macquarie Park records all relevant pollutants, such as NO 2, 
+SO 2, CO, O 3, PM 10  and PM 2.5 . The AQMS at Macquarie Park is located in proximity to commercial 
+premises, which is similar to the project site. Background air quality at Macquarie Park is considered 
+representative and has been adopted for this assessment.  
+Table 6 shows the relevant data capture for each of the relevant pollutants from Macquarie Park AQMS year 
+2022. It can be seen that the data capture for all of the relevant pollutants are greater than 93% and are 
+therefore acceptable. 
+  
+
+[[page 15]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  16 
+ 
+Table 6 – 2022 background air quality data capture (Macquarie Park) 
+Pollutant Data Capture 
+CO 94.0% 
+SO 2 97.5% 
+NO 2 93.7% 
+O3 95.0% 
+PM 10  96.5% 
+PM 2.5  97.6% 
+3.2.2  Hourly missing data interpolation 
+The OLM method (Section 6.3.5) requires hourly background data for O 3 and NO2. Although data capture 
+was above 93% for each of these pollutants, any missing data periods were interpolated using the following 
+methodology: 
+•  Where less than six consecutive hours of missing data occurred, the nearest valid data point was used (i.e. 
+the first three missing hours would be replaced with the nearest preceding value, and the last three missing 
+values would be replaced with the following value). 
+•  Where there was more than six consecutive hours of missing data, an average hourly value was used for 
+the corresponding hour of missing data (i.e. the average value for a given hour of day was calculated, 
+using the entire existing dataset, and subsequently used to fill the respective missing hour of day).  
+3.2.3  Adopted background air quality 
+The maximum monitored air quality concentrations for 2022 are summarised in Table 7, which show that the 
+background concentrations are all below the NSW Approved Methods’ impact assessment criteria. The 
+hourly data are presented in Figure 5 and Figure 6 for O₃ and NO 2 respectively. In the absence of publicly 
+available 15-minute local background concentration for CO, the 1-hour background CO concentration was 
+used to extrapolate to 15-minute background based on the formula in Section 6.3.2. Monitoring of benzene is 
+not undertaken in NSW as a matter of routine as it is not typically a pollutant of interest, and hence the 
+background concentrations of benzene are assumed to be negligible. 
+Table 7 – Maximum monitored air quality concentrations  
+Pollutant Averaging 
+Period 
+Maximum Monitored Concentrations, 
+µg/m 3 
+Impact Assessment Criteria, µg/m 3 
+CO  15-minute 1062.2 100,000 
+1-hour 2645.0 30,000 
+8-hour 805.0 10,000 
+NO 2 1-hour 43.2 164 
+SO 2 1-hour 81.2 286 
+24-hour 8.5 57 
+O3 1-hour 139.2 n/a 
+PM 10  24-hour 25.9 50 
+PM 2.5  24-hour 17.6 25 
+ 
+[[page 16]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  17 
+ 
+ 
+Figure 5 - Adopted hourly O3 background air quality chart  
+ 
+ 
+Figure 6 - Adopted hourly NO 2 background air quality chart 
+3.3 Terrain 
+The terrain within the immediate vicinity of the project site is relatively flat. Across the broader modelling 
+domain, the land gently slopes downward from the northwest to the southwest. The Lane Cove River, which 
+meanders from the southeast around the northern edge of the domain, significantly influences the terrain. 
+Beyond the Lane Cove River to the north, the landscape is characterised by plateaus that extend away from 
+the river. 
+Terrain data was sourced from NASA’s Shuttle Radar Topography Mission (SRTM) Data (3 arc second 
+(~30m) resolution) and processed within AERMAP to create the necessary input files for the model. The 
+topography of the local area used in the model is shown in Figure 7. 
+0
+20 
+40 
+60 
+80 
+100 
+120 
+140 
+160 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Ozone Hourly Ambient Concentration Levels -Macquarie ParkNSW 2022 
+O3 
+0
+5
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+45 
+50 
+1/01/2022 
+8/01/2022 
+15/01/2022 
+22/01/2022 
+29/01/2022 
+5/02/2022 
+12/02/2022 
+19/02/2022 
+26/02/2022 
+5/03/2022 
+12/03/2022 
+19/03/2022 
+26/03/2022 
+2/04/2022 
+9/04/2022 
+16/04/2022 
+23/04/2022 
+30/04/2022 
+7/05/2022 
+14/05/2022 
+21/05/2022 
+28/05/2022 
+4/06/2022 
+11/06/2022 
+18/06/2022 
+25/06/2022 
+2/07/2022 
+9/07/2022 
+16/07/2022 
+23/07/2022 
+30/07/2022 
+6/08/2022 
+13/08/2022 
+20/08/2022 
+27/08/2022 
+3/09/2022 
+10/09/2022 
+17/09/2022 
+24/09/2022 
+1/10/2022 
+8/10/2022 
+15/10/2022 
+22/10/2022 
+29/10/2022 
+5/11/2022 
+12/11/2022 
+19/11/2022 
+26/11/2022 
+3/12/2022 
+10/12/2022 
+17/12/2022 
+24/12/2022 
+31/12/2022 
+Pollutant Concentration Levels, µg/m 3
+Date 
+Nitrogen Dioxide Hourly Ambient Concentration Levels -Macquarie ParkNSW 2022 
+NO2 
+[[page 17]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  18 
+ 
+ 
+Figure 7 - Terrain around the project site  
+3.4 Sensitive receptors 
+Air quality sensitive receptors are defined under the Approved Methods as: 
+“A location where people are likely to work or reside; this may include a dwelling, school, hospital, office or 
+public recreational area. An air quality impact assessment should also consider the location of known or 
+likely future sensitive receptors.” 
+Existing and future planned residential and commercial receptors have been incorporated into the sensitive 
+receptors assessed, as identified in Table 8, Table 9 and Figure 8.  
+Table 8 presents potentially affected residential receptors identified within the nearby vicinity, while Table 9 
+presents the nearby non-residential sensitive receptors. These receptors are presented in Figure 8. Discrete 
+sensitive receptors have been selected to represent the nearest receptors to assist in assessing air quality 
+impacts from the project. It is noted that the residential receptors located in apartments are also set up as 
+flagpole receptors (receptors at height) to replicate each floor of the apartment tower blocks. The height 
+assumption used is 3 m per apartment floor. A similar assumption is also applied to hotel-based flagpole 
+receptors. 
+ 
+Project site 
+[[page 18]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  19 
+ 
+Table 8 - Identified nearby residential sensitive receptors 
+Receptor  AERMOD 
+identification 
+(ID) 
+Address Description No of 
+Floors 
+Separation distance 1 
+RES1 
+ 
+R1_1 to 
+R_39 
+1-5 Khartoum 
+Road, Macquarie 
+Park (Building J) 
+Future proposed residential 
+apartments planned as part of 
+the MPark masterplan. 
+Flagpole receptors included for 
+each floor (3 m assumed per 
+floor). 
+39 230 
+RES2 
+ 
+R2_1 to 
+R2_34 
+1-5 Khartoum 
+Road, Macquarie 
+Park (Building F) 
+34 250 
+RES3 R3_1 to 
+R3_32 
+1-5 Khartoum 
+Road, Macquarie 
+Park (Building G) 
+32 170 
+RES4  R4_1 to 
+R4_18 
+35 Waterloo Road, 
+Macquarie Park 
+(Building B) 
+Future proposed residential 
+apartments. Development 
+currently under assessment. 
+Flagpole receptors included for 
+each floor (3 m assumed per 
+floors). 
+18 420 
+RES5  R5_1 to 
+R5_3 
+25-27 Fontenoy 
+Road, Macquarie 
+Park 
+Existing residential apartments. 
+Flagpole receptors included for 
+each floor (3 m assumed per 
+floors). 
+3 400 
+RES6  R6_1 to 
+R6_8 
+1-15 Fontenoy 
+Road, Macquarie 
+Park 
+Existing residential apartments. 
+Flagpole receptors included for 
+each floor (3 m assumed per 
+floors). 
+8 510 
+RES7  R7 136 Epping Road, 
+North Ryde 
+Existing double storey 
+residential single dwelling.  
+2 770 
+Notes: 
+1. Separation distance approximately measured from nearest lot boundary location to approximate mid-point of subject site. 
+ 
+Table 9 - Identified nearby non-residential sensitive receptors 
+Receptor  AERMOD 
+identification 
+(ID) 
+Name Address No of 
+Floors 
+Separation 
+distance 1 
+Commercial 
+COM1  R8 40-52 Talavera Road, 
+Macquarie Park 
+Existing commercial 
+building 
+2 140 
+COM2  R9 12-24 Talavera Road, 
+Macquarie Park 
+Existing commercial 
+building 
+6 130 
+COM3  R10 8 Murrell Street, Macquarie 
+Park 
+Existing commercial 
+building and data 
+centre 
+8 35 
+COM4  R11 17-23 Talavera Road, 
+Macquarie Park 
+Existing commercial 
+building and data 
+centre 
+4 - 7 55 
+[[page 19]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  20 
+ 
+Receptor  AERMOD 
+identification 
+(ID) 
+Name Address No of 
+Floors 
+Separation 
+distance 1 
+COM5 2 R12 11 Khartoum Road, Macquarie 
+Park 
+Existing emergency 
+clinic and commercial 
+building 
+10 105 
+COM6  R13 1-5 Khartoum Road, Macquarie 
+Park (Building H) 
+Future proposed 
+commercial building 
+planned as part of the 
+MPark masterplan. 
+9 100 
+COM7 3 R14 63-71 Waterloo Road, 
+Macquarie Park 
+Existing education 
+facility. Site has DA 
+approval to be 
+demolished. 
+Commercial building 
+proposed. 
+3 140 
+Childcare Centre 
+CC1  R15 19/25 Khartoum Road, 
+Macquarie Park 
+Existing child care 
+centre located in the 
+northern section of the 
+commercial building 
+2 220 
+CC2  R16 12/24 Talavera Road, 
+Macquarie Park 
+Existing child care 
+centre located on the 
+roof top level, northern 
+section of the 
+commercial building. 
+Flagpole receptor at 6 
+m for the roof top 
+location of the child 
+care centre. 
+2 260 
+CC3 R17 Building B 11 Talavera Road, 
+Macquarie Park 
+Existing child care 
+centre located within 
+commercial building 
+7 230 
+Recreation 
+REC1  R18 Macquarie Square, 45 Waterloo 
+Road, Macquarie Park 
+Future proposed 
+passive recreational 
+area 
+1 300 
+Hotel 
+HOT1 
+R19_1 to 
+R19_8 
+84-92 Talavera Road, 
+Macquarie Park 
+Existing hotel / short-
+term accommodation. 
+Flagpole receptors 
+included for each floor 
+(3 m assumed per 
+floors). 
+8 650 
+Notes: 
+1. Separation distance approximately measured from nearest lot boundary location to approximate mid-point of subject site. 
+2. Assessed as a commercial receptor as the facility is not expected to contain hospital wards requiring over-night extended stays 
+3. Assessed as a commercial receptor as educational facility to be vacated in July 2025 (source: https://excelsia.edu.au/contact/) 
+[[page 20]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  21 
+ 
+ 
+Figure 8 – Surrounding land uses and sensitive receptors 
+
+[[page 21]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  22 
+ 
+4.  Identification of potential emission sources 
+4.1 Construction phase 
+Construction activities have the potential to generate short-term emissions of particulates, typically 
+associated with uncontrolled or fugitive dust emissions. This is mainly experienced by nearby receptors as 
+amenity impacts from dust deposition due to construction dust being mostly of larger sized particles (as 
+TSP), rather than as health-related impacts due to smaller sized particles (as PM 10 and PM 2.5 ). Below are 
+construction activities that may be applicable to the project and have the potential for dust generation: 
+•  Activity 1: Site establishment, demolition and excavation;  
+•  Activity 2: Foundations; 
+•  Activity 3: Pavement and road works; 
+•  Activity 4: Building construction; and 
+•  Activity 5: Plant installation and connection, 
+Typical construction equipment used for the project include (but not limited to) the following: 
+•  Scrapers; 
+•  Backhoe; 
+•  Loaders; 
+•  Excavators; 
+•  Compactors; 
+•  Vibratory rollers; and 
+•  Heavy vehicles/trucks. 
+The above-mentioned construction equipment will emit combustion emissions (particularly NO 2, PM 10  and 
+PM 2.5 ) to the atmosphere, however given the minor scale of the proposed works, fugitive dust emissions such 
+as PM₁₀ would have the greatest potential for downwind air quality impacts. The assessment of construction 
+dust impact has been discussed in Sections 5.1. 
+4.2 Operation phase 
+The primary source of emissions to air during the operational phase are the standby generators that are 
+included for in the project, as an insurance policy, to absolute guarantee the need for 100% uptime if there 
+was ever a failure of the other primary and secondary power supply to the site. The project (as a data centre 
+facility) is a mission critical facility that if not able to operate 100% of the time could lead to catastrophic 
+impacts for the society, organizations, and businesses that it serves. The project therefore as a minimum is 
+supplied by dual redundant utility feeds using a 33kV highly reliable power utility supply arrangement. It is 
+only in the event of both primary and secondary feeds failing, would back up power generation be required 
+using the standby generators. The purpose of these generators is to support the buildings’ power requirement 
+for critical IT systems and other site infrastructure in the event of mains power loss or damage of electrical 
+infrastructure on site.  
+ 
+[[page 22]]
+  
+ 
+Stockland MPark Talavera Road Data Centre 
+ 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 02 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment 
+Page  23 
+ 
+4.2.1  Standby generators 
+The project’s standby generators will be located indoors of the new data centre building (Figure 9 and Figure 
+10) across two levels, with a total of 28 diesel generators (3 MW/each). The generator exhaust stacks are 
+discharging vertically at approximately 9 m above roof level (building height of 36.5 m) towards the 
+northern side of the data centre building. There may be some adjustments to the stack heights and locations 
+as the design gets finalised, but any change is not expected to be significant.  
+The diesel generator specification sheets are presented in Appendix B. The emission characteristics of the 
+generator exhausts are provided in Section 6.2. 
+Under normal operations of the data centre (when there is no routine maintenance), no air quality impacts are 
+anticipated as the standby generators are not in operation. However, there are specific scenarios in the 
+operation phase that have been considered for this assessment, further details are provided in Section 6.1. 
+ 
+ 
+[[page 23]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  | 02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality  Impact  Assessment  Page  24 
+ 
+ 
+ 
+Figure 9 – MPark Talavera Road Data Centre upper roof plan (Source: Drawing Number: MPARK2–GBA–BE–01–DR–A–0107) 
+ 
+
+[[page 24]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  25 
+ 
+ 
+ 
+Figure 10 - MPark Talavera Road Data Centre northeast and southwest elevations (Source: Drawing Number: MPARK2– GBA–BE–01–DR–A–0150) 
+ 
+
+[[page 25]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  26 
+ 
+4.2.1.1  Grid reliability and likelihood of an event where the standby generators are required to provide 
+backup power generation 
+In the event of an interruption of mains power, the standby generators would switch on to provide power to 
+the building. The Macquarie Park zone substation (132/33kV) is currently being upgraded by Ausgrid and is 
+due for completion in December 2025. New 33kV feeders will be constructed and it is understood that this 
+substation will be used to supply the project facility. A 33kV utility power supply has much higher reliability 
+performance than a conventional utility. The current Macquarie Park Zone Substation has been a highly 
+reliable facility and this would only be improved with the upgrade. The design for the project facility will 
+also include a fully redundant, 33kV utility power supply. The use of the Macquarie Park zone substation as 
+well as the fully redundant 33kV supply, increases the reliability of the utility power supply and provides 
+additional security, this mitigates the need for the standby generators to be operational. 
+Further, a review has been undertaken of the electricity supplier Ausgrid Distribution and Transmission 
+Annual Planning Report Summary (DTAPR, December 2023) 3 to understand typical outages for 
+conventional utilities in the wider area surrounding the project. This shows an extremely low power outage 
+occurrence of less than 0.01% in any year for a conventional utility, based on the average unplanned actual 
+system average interruption duration index (SAIDI) 4 of power outage incident over the past 10 years. Noting 
+Macquarie Park zone substation (132/33kV) supply and the 33kV utility power supply arrangement proposed 
+for the project, both have much more reliability than a conventional utility, it is highly unlikely that the 
+standby generators would ever need to be used in their capacity to provide back-up power generation, and 
+even if they did the likelihood of this happening would be far lower than 0.01% of the year.  
+Assessment for this operation of all standby generators is provided in Section 6.4. 
+4.2.1.2  Routine maintenance tests 
+For standby generators to be ready to operate should an unexpected interruption to mains power occur, a 
+regular maintenance schedule is required. Quarterly testing (under 100% load) will include up to one 
+generator being tested with a load bank, 28 tests required and up to 30-minute test duration with cooldown 
+period of 5 minutes. Annual testing (under 100% load) will include up to one generator being tested with a 
+load bank, 28 tests required and up to 65-minute test duration with cooldown period of 5 minutes. 
+The proposed standby generator testing schedule is summarised in Table 10. It is understood that the testing 
+schedule in Table 10 excludes plant cooldown period considered to be exempted from the POEO (Clean Air) 
+Regulation Standard of Concentrations, as part of the start-up/shutdown period exemption (refer to Section 
+2.2.2). 
+For the purposes of the modelling, maintenance testing of standby generators is anticipated to occur between 
+7 am and 6 pm.  
+ 
+ 
+3 Ausgrid, 2023. Distribution and Transmission Annual Planning Report Summary , December 2023.  
+4 The SAIDI is a measure in minutes the average duration of an incident weighted by the number of customers affected by each incident. That is, if 10 
+customers suffer a 10-minute interruption and there are 100 customers in the region, then this would equal a SAIDI of 1 minute. Multiple incidents 
+are added together, so if a second incident of 15 minutes affected 10 customers, then that would be added to the first incident and equal a SAIDI of 
+2.5 minutes. 
+[[page 26]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  27 
+ 
+Table 10 – Proposed standby generator maintenance testing regime 
+  Duration (min) MPark Talavera Road Data 
+Centre 
+Total no. 
+of tests 
+Total 
+minutes 
+(with 
+cooldown) 
+Total 
+minutes 
+(without 
+cooldown) ID Type Run Cooldown Number 
+of gens 
+Gens 
+run per 
+test 
+Number 
+of tests 
+1 Quarterly 30 5 28 1 28 28 980 840 
+2 Quarterly 30 5 28 1 28 28 980 840 
+3 Quarterly 30 5 28 1 28 28 980 840 
+2 Annual 65 5 28 1 28 28 1960 1820 
+Total 81.7 hours 72 hours 
+Based on the proposed maintenance testing schedule in Table 10, there would be up to one generator tested 
+at any given time. Generators will be tested under 100% load where emissions comply with the Standard of 
+Concentrations requirements for non-scheduled premises under the POEO (Clean Air) Regulations, as 
+discussed in Section 2.2.2, and assessment undertaken in Section 6.5. 
+The preliminary generator testing schedule in Table 10 shows a proposed cumulative total hours of testing of 
+72 hours, not more than the 200-hour exemption limit in Schedule 1 Clause 17 of the NSW POEO Act 1997 
+(refer to Section 2.2.1), as well as Part 5, Division 6, Clause 73 of the POEO (Clean Air) Regulation 2022 
+(refer to Section 2.2.2), and therefore generator emissions are exempt from Schedule 2 Part 2 of the Standard 
+of Concentrations in the POEO (Clean Air) Regulation 2022. 
+4.2.1.3  Cumulative impacts from maintenance testing 
+In addition to the project data centre site, two other data centres exist adjacent to the site. The data centre to 
+the south is located at 17-23 Talavera Road, North Ryde, and the data centre to the north is to be located at 
+11 -17 Khartoum Road and 33-39 Talavera Road, Macquarie Park. Cumulative impacts from all three data 
+centres have been assessed in Section 6.6 for maintenance testing, in the unlikely worst-case scenario when 
+the routine maintenance for all three adjacent data centres occur simultaneously.  
+4.2.1.4  Potential impacts 
+While in use, standby generators produce a range of pollutants including total unburned hydrocarbons (HC), 
+nitrogen oxide (NOx), carbon monoxide (CO), particulate matter (PM), sulfur dioxide (SO 2) and volatile 
+organic compounds (VOCs). The release of these emissions has the potential to impact local air quality in the 
+surrounding area. Due to the fuel type proposed i.e. diesel, the pollutant of greatest concern in relation to the 
+use of generators is typically NOx, as NOx emissions are orders of magnitude greater than for other 
+pollutants. 
+Emission data for this project has been assessed based on indicative equipment selection as below: 
+•  MTU 20V 4000 G94LF generator (refer to Appendix B). 
+The emission data for the above is provided for NO X, CO, PM and HC. All other emission data for the 
+assessed pollutants not provided in the generator specification has been based on emission information 
+provided in Table 43 of the National Pollutant Inventory (NPI 2008) 5. 
+ 
+5 National Pollution Inventory (NPI) – Emission estimation technique manual for Combustion engines , Version 3.0, June 2008. 
+[[page 27]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  28 
+ 
+4.2.2  Diesel storage 
+Diesel storage tanks will be required at the project site, which also have the potential to emit fugitive 
+emissions to air. Storage and handling will be conducted in full compliance with Australia Standard (AS) 
+1940: The storage and handling of flammable and combustible liquids, ensuring adherence to industry 
+standards and environmental best practices . 
+There is proposed to be 8 x 73 kL bulk fuel above ground storage tanks that will be located on the ground 
+level of the data centre building. The estimated diesel use is shown in Table 11. 
+Table 11 – Proposed standby generator fuel use 
+Test type Load Diesel use 
+Quarterly 100% 41650 L/year 
+Annual 100% 27766.7 L/year 
+Total 69.42 kL/year 
+ 
+The two significant types of emissions from fixed roof tanks are breathing and working losses. A breathing 
+loss is the expulsion of vapour from a tank through vapour expansion and contraction that result from 
+changes in ambient temperature and barometric pressure. This loss occurs without any liquid level change in 
+the tank. The combined loss from filling and emptying tanks is called the working loss. Evaporation during 
+filling operations results from an increase in the liquid level in the tank. As the liquid level increases, the 
+pressure inside the tank exceeds the relief pressure, and vapours are expelled from the tank. Evaporative 
+emissions during the emptying process occur when air, drawn into the tank during liquid removal, becomes 
+saturated with organic vapour and expands, expelling vapour through the vapour relief valve. 
+While the bulk fuel tanks are not considered to be a significant source of emission to air, an estimation of the 
+annual total emissions (breathing and working losses) from bulk fuel tanks can be obtained using the United 
+States Environmental Protection Agency (US EPA) TANKS application 6. Some assumptions were used for 
+the emissions estimation, as the diesel tank design is not fully finalised: 
+•  Horizontal fixed roof tank. 
+•  Fuel use as per Table 11. 
+•  Shell length = 9 m. 
+•  Shell diameter = 4 m. 
+•  Maximum liquid height = 3 m. 
+•  Shell colour = white. 
+The TANKS application estimated that each tank would emit around 2.2 kg/year (2 kg/year being from 
+annual standing losses and 0.2 kg/year from annual breathing losses). Assuming all emissions are vented to 
+the atmosphere from the data centre building, the eight bulk fuel storage tanks are estimated to emit around 
+18 kg of hydrocarbons throughout the course of a year. Any local air quality impacts associated with this are 
+considered to be negligible.  
+ 
+6 https://tanks.app.cloud.gov/tank-data 
+[[page 28]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  29 
+ 
+5.  Construction assessment 
+5.1 Assessment methodology 
+The key factors in determining the risk of impact during the construction phase are the type and level of 
+activities taking place, location of these activities onsite, weather conditions and the distance from sensitive 
+receptors.  
+Emissions of dust to air can occur during the preparation of the land (e.g. demolition, earth moving), and 
+during construction. Emissions may result from site plant and road vehicles moving over temporary roads 
+and open ground (if any). If mud is allowed to get onto local roads, dust emissions can occur at some 
+distance from the originating site. Windblown dust may also arise from open ground and stockpiles (if any). 
+The scale of these impacts depends on the dust suppression and other mitigation measures applied.  
+Other sources of emissions to air are exhaust emissions generated by construction vehicles, equipment and 
+machinery. 
+Given the nature of land preparation and construction activities, the main potential impact would be amenity-
+related due to the risk of dust generation. In terms of effects, construction sites can give rise to nuisance or 
+annoyance due to the soiling of surfaces by dust. Impacts from exhaust emissions are typically secondary to 
+that from dust generation. Nevertheless, a construction dust generation assessment has been undertaken.  
+The Approved Methods (refer to Section 2.2.3) were developed to assess emissions from stationary sources. 
+They are therefore not appropriate to assess uncontrolled dust emission impacts from a typical construction 
+site.  
+A common alternative assessment method is the Institute of Air Quality Management (IAQM) guidance 
+Assessment of dust from demolition and construction7 (‘IAQM Guidance’), published in the United 
+Kingdom. This comprises a five-step semi-quantitative risk assessment approach. Further description of each 
+step is provided in the following sections. 
+The IAQM Guidance has been used as a reference guideline for undertaking the construction dust 
+assessment. The IAQM Guidance has been widely used throughout Australia to assess the risk of 
+construction dust on surrounding land uses.  
+The IAQM methodology adapted to this air quality assessment is described below: 
+•  Step 1 – preliminary screening based on distances of receptors for the requirement for a more detailed 
+assessment. No further assessment is required if there are no receptors within a certain distance of the 
+works. 
+•  Step 2 – assessment of risk of dust impacts, based on the scale/nature of construction works and 
+sensitivity of the area surrounding the construction works, including consideration of initial mitigation 
+measures.  
+•  Step 3– consideration of further mitigation measures based on the risk identified in Step 2. 
+•  Step 4 – assess residual impacts. 
+ 
+7  Institute of Air Quality Management. Assessment of dust from demolition and construction , 2024, Version 2.2 (https://iaqm.co.uk/wp-
+content/uploads/2013/02/Construction-Dust-Guidance-Jan-2024.pdf) 
+[[page 29]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  30 
+ 
+5.2 Assessment of potential construction impacts 
+5.2.1  Step 1: Screening 
+The IAQM Guidance considers that further construction dust assessment will be required, where: 
+•  Human receptors are within 250 m of the boundary of the site and/or within 50 m of the routes used by 
+construction vehicles on the public highway, up to 250 m from the site entrance(s). 
+As per the IAQM Guidance, this step has been chosen to be conservative and the distances cited take account 
+of the exponential decline in both airborne concentrations and the rate of deposition with distance, as well as 
+practical experience. Where the need for a more detailed assessment is screened out, it can be concluded that 
+the level of risk is “negligible”, and any effects will be not be significant. 
+As there are sensitive receptors within 250 m of the construction boundary (refer to Section 3.4) and 50 m of 
+haulage routes extending 250 m from site entrances this confirms the need for a detailed assessment (Step 2). 
+5.2.2  Step 2A: Magnitude assessment 
+As per the IAQM Guidance, dust-generating sources have been split into different sources of dust-generating 
+activities (demolition, earthworks and construction sources and trackout). At the time of writing this report, 
+there is limited knowledge available for the construction of the project. As such a number of assumptions 
+have been made based on available information to assess the potential construction impacts of the project. 
+Where appropriate, a conservative approach has been taken. The amount of dust generated in any given 
+location at any given time would depend on the activities taking place at the time.  
+Following the IAQM assessment method and criteria, each dust-generating source has been assigned an 
+‘emission magnitude’ as shown in Table 12. 
+Table 12 – Site categories criteria (scale of works) 
+Dust-generating 
+source  
+Dust 
+emission 
+magnitude 
+Reasoning 
+Demolition Small 
+The demolition of existing car park and associated structures will occur at the 
+project site. As per the IAQM Guidance, the building volume is considered to 
+be small < 12,000 m3 with low potential for dust release. 
+Earthworks Small 
+The area subject of the data centre development is 10,015 m2 and due to the 
+size of the construction area it is not anticipated that more than 5 heavy earth 
+moving vehicles will be active at any one time. Due to the size of site area and 
+the level of excavation required, a small dust emission magnitude is considered 
+to be reasonable. 
+Construction Medium 
+The total building volume is expected to be between 12,000-75,000 m 3. 
+Potentially dusty construction material may be required for construction. There 
+is potential for a medium dust emission magnitude. 
+Trackout Small 
+The site is located in close proximity to sealed roads within an urban setting. 
+Due to the size of the site, it is unlikely that vehicles will travel on unpaved 
+roads for more than 50 m. The construction transport movements are expected 
+to be less than 20 HDV (>3.5t) outward movements in any one day, which is 
+consistent with the small dust emission magnitude.  
+5.2.3  Step 2B: Sensitivity of surrounding area 
+As per the IAQM Guideline, the sensitivity of the surrounding area to dust depositing effects is determined 
+according to Table 13. 
+[[page 30]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  31 
+ 
+Table 13 – Sensitivity of the area to dust deposition effects on people and property (Source: IAQM Guidance) 
+Receptor 
+sensitivity 
+Number of 
+receptors 
+Distance from the source (m) 
+<20 20 to <50 50 to <100 100 to <250 
+High  
+ 
+ 
+>100 High High Medium Low 
+10 - 100 High Medium Low Low 
+1 - 10 Medium Low Low Low 
+Medium >1 Medium Low Low Low 
+Low >1 Low Low Low Low 
+ 
+As per Table 8, there are no existing residential sensitive receptors within 250 m of the project site boundary. 
+The future proposed residential receptors (R1, R2, R3 and R4) will not be built before the project and hence 
+are not considered relevant for the construction assessment. Hence, the residential sensitivity to construction 
+dust is considered to be low based on Table 13.  
+As per Table 9, there is one non-residential sensitive receptor (COM3) located between 20 m and 50 m of the 
+project site boundary, one (COM4) located between 50 m and 100 m of the project site boundary, and the 
+rest are more than 100 m of the project site boundary. Commercial sensitive receptors are considered to be of 
+medium sensitivity, and based on Table 13, the commercial sensitivity to construction dust is considered to 
+be low. 
+The annual average PM 10  concentration recorded at the Macquarie Park monitoring station in 2022 is 11.4 
+µg/m 3. Due to the relatively low annual average PM 10  concentration and the relatively low number of highly 
+sensitive receptors within close proximity to the project site, the overall sensitivity of the area to human 
+health impacts from exposure to PM 10  is also considered to be low. 
+5.2.4  Step 2C: Impact risk 
+The dust emission magnitude determined at Step 2A (Section 5.2.2) should be combined with the sensitivity 
+of the area determined at Step 2B (Section 5.2.3) to determine the risk of impacts with no mitigation applied. 
+As per the IAQM Guideline, the impact risk criteria for the different dust-generating sources are summarised 
+in Table 14 and Table 15. 
+Table 14 – Risk of dust impacts for demolition (Source: IAQM Guidance) 
+Sensitivity of area Dust emission magnitude 
+Large Medium Small 
+High High risk Medium risk Medium risk 
+Medium High risk Medium risk Low risk 
+Low Medium risk Low risk Negligible 
+ 
+[[page 31]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  32 
+ 
+Table 15 – Risk of dust impacts for earthworks, construction and trackout (Source: IAQM Guidance) 
+Sensitivity of area Dust emission magnitude 
+Large Medium Small 
+High High risk Medium risk Low risk 
+Medium Medium risk Medium risk Low risk 
+Low Low risk Low risk Negligible 
+ 
+Table 16 provides a summary dust risk table before mitigation. 
+Table 16 – Summary dust risk table before mitigation 
+Dust-generating 
+source 
+Dust emission 
+magnitude  
+Sensitivity of the area  
+Risk before mitigation for 
+dust deposition and human 
+health impacts  
+ 
+Dust Deposition Human health impacts 
+Demolition Small 
+Low Low 
+Negligible 
+Earthworks Small Negligible 
+Construction Medium Low 
+Trackout Small Negligible 
+ 
+Accounting for the predicted scale of dust emissions and the area’s sensitivity, the project site has been 
+classified as a negligible risk for demolition, earthworks and trackout, and low risk for construction. 
+5.2.5  Step 3: Implementation of controls 
+Based on the assessed level of risk, mitigation measures have been outlined in Section 7 to reduce the risk so 
+far as reasonably practicable.  
+  
+[[page 32]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  33 
+ 
+6.  Operation assessment – generators 
+The impact assessment for the operation of standby generators has been carried out using dispersion 
+modelling to predict pollutant concentrations at nearby sensitive receptors, as well as over a larger grid 
+domain. 
+6.1 Assessment scenarios for dispersion modelling 
+The following assessment scenarios were undertaken to determine the potential impact under the anticipated 
+operational conditions of the standby generators. 
+•  Scenario 1 : A highly unlikely worst-case scenario (peak emission scenario) where all 28 generators of 
+the project are in operation (100% load) to provide back-up power generation under a full loss of mains 
+power scenario (refer to Section 4.2.1.1). 
+•  Scenario 2 : Realistic operations during regular or routine maintenance testing of the project, where 
+individual generator testing is undertaken. It has been assumed that up to one (1) generator for the 
+project would be tested at any given hour during the daytime (7 am to 6 pm 8), as described in Section 
+4.2.1.2. This scenario models the western-most stack and the eastern-most stack of the project, with the 
+worst-case results out of the two reported for each receptor.  
+•  Scenario 3 : A cumulative assessment of the project and the two existing adjacent data centres (11-17 
+Khartoum Road to the north of the project site and 17-23 Talavera Road to the south of the project site), 
+assuming that realistic operations during regular or routine maintenance testing occur simultaneously, 
+with up to one generator from each data centre site tested at any given hour during the daytime, subject 
+to the restricted time of generator operation for the two existing adjacent data centres as per Section 
+6.2.3. This scenario models, in turn, the western-most stack and the eastern-most stack of the project 
+combined with the same for the 11-17 Khartoum Road data centre (e.g. western-most stack of the Project 
+with the western-most stack of 11-17 Khartoum Road), as well as with the nearest single stack modelled 
+for the 17-23 Talavera Road). The worst-case results out of the western-most stack and eastern-most 
+stack configuration (together with the stack of 17-23 Talavera Road) are reported for each receptor.  
+6.2 Stack emission parameters and emission rates 
+Modelled stack parameters and emission rates were developed for this assessment using design information 
+for the project and manufacturer specifications for the indicative generator equipment selection. Stack design 
+parameters and emission rates per generator are summarised in Table 17. 
+The manufacturer’s specification datasheet is provided in Appendix B, which provides the emissions for PM, 
+NO x, CO and HCs. 
+6.2.1  Particulate matter 
+The emission data taken from the manufacturer’s specification datasheet refers only to “particulate matter”, 
+with no reference to the PM size. Table 43 of the National Pollutant Inventory Emission estimation technique 
+manual for Combustion engines 9 (‘NPI 2008’) shows that emission factors of PM 10  and PM 2.5  from large 
+ 
+8 As a conservative assumption, the restricted timeframe of 7 am to 6 pm is applied to all days of the year (i.e. no differentiation between weekdays 
+and weekends) in the dispersion modelling. 
+9 National Pollution Inventory (NPI) – Emission estimation technique manual for Combustion engines , Version 3.0, June 2008. 
+[[page 33]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  34 
+ 
+stationary diesel engines are the same. On this basis, it has been assumed that the particulate matter emission 
+rate applies to both PM 10  and PM 2.5 size fractions. 
+6.2.2  Volatile organic compounds 
+Hydrocarbons are organic compounds composed primarily of carbon and hydrogen atoms. Many of these 
+compounds are volatile, which can easily vaporise into the atmosphere at normal atmospheric conditions 
+(room temperature and atmospheric pressure) and are typically referred to as VOCs. The proportion of VOCs 
+within the hydrocarbon emission has not been provided in the generator’s specification datasheet in 
+Appendix B. Therefore, it is assumed that 100% of the hydrocarbon emission from the generator would be 
+VOCs, which is expected to provide a level of conservatism. 
+For internal combustion engines, VOCs are often associated with primary toxic air pollutants such as 
+benzene, ethylbenzene, toluene and xylene (BTEX). Among these pollutants, benzene is one of the major 
+components within VOCs discharged from a diesel combustion engine. In this case, compliance with 
+benzene would typically result in compliance with all other VOC pollutants. The proportion of benzene or all 
+other pollutants has not been provided in the manufacturer’s specification datasheet. Reference to the NPI 
+2008 has therefore been made to approximate benzene emission concentration from the project’s diesel 
+generator, as a proportion relative to the total VOCs.  
+6.2.3  Stack characteristics and emission inventory 
+The generator exhaust stack characteristics and the associated emission inventory for the project are 
+summarised in Table 17. The locations of the stacks are shown in Figure 11.  
+Table 17 – Generator exhaust stack characteristics and emission inventory for the project  
+Stack Parameter 
+MTU 20V4000G94LF 
+100% Load 75% Load 50% Load 25% Load 
+Number of generators 28 
+Number of generator stack sources 28 
+Height above ground level (m) 45.5 (9 m above build ing height of 36.5 m) 
+Exit internal diameter (mm) 600 
+Exit temperature (ºC) 482 
+Exit velocity (m/s) 42.1 
+CO emission (g/s) 1 0.490  0.445  0.851  0.612  
+SO 2 emission (g/s) 2 0.088  0.065  0.043  0.021  
+NO x emission (g/s) 1 7.637 5.132 2.732 1.400  
+Benzene emission (g/s) 1,3  8.01E-04  7.31E-04  7.02E-04  6.99E-04  
+PM emission (PM 10  and PM 2.5 ) (g/s) 1 0.027  0.031  0.064  0.056  
+Note: 
+1. Calculated from emissions performance specifications (Appendix B). 
+2. Emission values were estimated with referenced emission factors from the NPI 2008. 
+3. VOCs assumed to be 100% of hydrocarbons emissions. The ratio of benzene (0.013 kg/m 3) versus VOCs (1.3 kg/m 3) is adopted from NPI 2008. 
+ 
+[[page 34]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02 | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  35 
+ 
+For the cumulative assessment in Scenario 3, the generator exhaust stacks characteristics for 11-17 Khartoum 
+Road data centre (north of the project)10 and 17-23 Talavera Road data centre (south of the project)11 are 
+summarised in Table 18. The locations of the stacks are shown in Figure 11. 
+The cumulative assessment is undertaken for one generator from each data centre during maintenance 
+testing. Information from the respective air quality assessments (prepared for SSDA submission) indicate the 
+following: 
+•  11-17 Khartoum Road:  
+•  Cummins model C3000D5e w/QSK78-G15 engine, assuming 50% load for 1 hour per generator 
+tested, between 7 am and 6 pm. One generator is tested on a likely basis. 
+•  17-23 Talavera Road: 
+•  MTU 20V4000G94LF model, assuming 100% load for 1 hour per generator tested, between 9 am 
+and 5 pm. One generator is tested on a likely basis.  
+Each existing data centre has multiple stacks; for the modelling in Scenario 3, the nearest stack to the project 
+is selected. 
+ 
+Table 18 – Generator exhaust stack characteristics and emission inventory (11-17 Khartoum Road and 17-23 Talavera 
+Road data centres)  
+Stack Parameters 11-17 Khartoum Road (50% 
+loading) 
+17-23 Talavera Road (100% 
+loading) 
+Height above ground level (m) 45.6 44.3 
+Exit internal diameter (mm) 500 500 
+Exit temperature (ºC) 441 481 
+Exit velocity (m/s) 29.0 58.6 3 
+CO emission (g/s) 0.23 0.48 
+SO 2 emission (g/s) 0.043 1 0.049 
+NO x emission (g/s) 2.3 8.9 
+Benzene emission (g/s) 2 1.71E-3 9.12E-04 
+PM emission (PM 10  and PM 2.5 ) (g/s) 0.034 0.021 
+Note: 
+1. Assumed to be the same as that of 50% load of the project generator emissions, as SO 2 was not modelled. 
+2. VOCs assumed to be 100% of hydrocarbons emissions. The ratio of benzene (0.013 kg/m 3) versus VOCs (1.3 kg/m 3) is adopted from NPI 2008. 
+3. The upper limit of emissions velocity within the AERMOD model of 50 m/s. As a result, exit velocities greater than 50 m/s have been set to 50 
+m/s. To this end, the modelling predictions for ground level concentrations are conservative given that the actual exit velocities far exceed 50 m/s.  
+ 
+  
+ 
+10  From Air Quality Impact Assessment, Macquarie Park Data Centre . Prepared by AECOM, 10 November 2020 (11-17 Khartoum Road) 
+11  From Air Quality Impact Assessment, Macquarie Data Centre, 17-23 Talavera Road, North Ryde . Prepared by SLR Consulting Australia, 12 April 
+2024 (17-23 Talavera Road) 
+[[page 35]]
+  
+ 
+Stockland  MPark Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02  | 31  January  2025  | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  36 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11 – Stacks of the project and selected nearest stacks of existing data centres (11-17 Khartoum Road and 17-23 Talavera Road) used in dispersion modelling (Scenario 3) 
+Key: 
+11-17 Khartoum Road data centre 
+     Stack (eastern-most) included in cumulative 
+modelling (Scenario 3) 
+     Stack (western-most) included in cumulative 
+modelling (Scenario 3) 
+Project 
+New stacks (28 stacks)  
+17-23 Talavera Road data centre 
+      Stack (nearest) included in cumulative 
+modelling (Scenario 3) 
+ 
+
+[[page 36]]
+  
+ 
+Stockland  MPark  Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02  | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  37 
+ 
+6.3 Assessment methodology for dispersion modelling  
+6.3.1  Dispersion model 
+The assessment of the operation of standby generator emissions from the project was undertaken using 
+dispersion modelling with the AERMOD model. The terrain within the immediate vicinity of the project site 
+is relatively flat and air quality impacts from the standby generators are considered to be relatively localised 
+due to the stack characteristics (including plume depression due to building downwash), together with 
+sensitive residential receptors being located near to the project. Due to these factors, change in plume 
+directions due to meteorological or terrain variations are not considered to be critical, compared to ‘line-of-
+sight’ plume impaction. On balance, AERMOD (which is a steady-state model) has been selected, rather 
+than CALPUFF (which is the other common dispersion model) that simulates the effects of time- and space-
+varying conditions. 
+AERMOD has been accepted in Australia for use in a variety of regulatory applications 12 , and is estimated to 
+be the most widely used dispersion model internationally 13 . AERMOD incorporates air dispersion based on 
+planetary boundary layer turbulence structure and scaling concepts, including treatment of both surface and 
+elevated sources, and both simple and complex terrain, such as the case of the project. 
+The NSW Approved Methods Section 4 requires one-year of site-specific meteorological data or site-
+representative meteorological data, in the absence of site-specific data, to be used for AERMOD dispersion 
+modelling. The AERMOD system includes AERMET, used for the preparation of meteorological input files 
+and AERMAP, used for the preparation of terrain data. AERMET requires surface and upper air 
+meteorological data input. The meteorological data used in this assessment is for the period of 1 st  January 
+2022 – 31 st  December 2022 (refer to Section 3.1). 
+AERMOD was configured as per Table 19 to assess the impact of generator emissions from the project. 
+Table 19 – General inputs for AERMOD dispersion modelling  
+Parameter Input 
+Meteorological Data 2022 
+Terrain Topography Obtained using Shuttle Radar Topography Mission (SRTM1) data at a resolution of 30 
+m. 
+Nested grid spacing and 
+size 
+Grid 1: 500 m × 500 m with spacing of 25 m 
+Grid 2: 1000 m × 1000 m with spacing of 50 m 
+Grid 3: 2000 m × 2000 m with spacing of 100 m 
+ 
+The 100 th  percentile 14  was modelled and added to the background air quality (Section 3.2) to determine the 
+average concentration impact for comparison against the impact assessment criteria.  
+ 
+12  Pacifi c Environment, 2016. Western Sydney Airport EIS – Local Air Quality and Greenhouse Gas Assessment:  Department of Infrastructure and 
+Regional Development, ID. 9417F. Doc no. AQU-NSW-001-9417E. Rev. R2. Sydney, NSW. 
+13  Pacific Environment, 2016. Energy from Waste Facility – Air Quality and Greenhouse Gas Assessment : The Next Generation, ID. 21292C. Doc no. 
+AQU-NS-001-21292C. Rev. 5. Eastern Creek, NSW. 
+14  The maximum possible concentrations over the relevant averaging period taking into account emission source and meteorological data. 
+[[page 37]]
+  
+ 
+Stockland  MPark  Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02  | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  38 
+ 
+6.3.2  Prediction of less than 1-hour average concentrations 
+In the absence of NSW specific guidelines to convert modelled hourly concentrations to a less than 1-hour 
+averaging period, reference was made to the EPA Victoria Draft Publication 1551 – Guidance notes for 
+using the regulatory air pollution model AERMOD in Victoria  (October 2013), which provides conversion 
+from hourly average concentrations to 3-minute average concentration.  This has been used in this case to 
+convert hourly average concentrations to 15-minute average concentrations. 
+() = () ( )⁄ .
+ 
+Where: 
+() is the averaging time (minutes) of interest, and 
+() is the averaging time consistent with the dispersion rates (60 minutes in this case). 
+6.3.3  Building downwash effects 
+Buildings can have a significant effect on dispersion. If buildings are close to a stack, the plume can be 
+entrained in the cavity zone downwind of the building. The ratio of the stack height vs. the building height 
+can affect the magnitude of building downwash, such that if the stack extends well above the roof of the 
+building, the downwash effect is expected to be insignificant. The Approved Methods notes that “ A point 
+source is wake-affected if stack height is less than or equal to 2.5 times the height of buildings located within 
+a distance of 5L (where L is the lesser of the height or width of the building) from each release point.”  
+ 
+Based on the above, the standby generator stacks are considered wake-affected sources. As a result, the 
+building downwash effect can lead to higher ground concentrations than would be expected in the absence of 
+buildings, therefore buildings that may contribute to a downwash effect have been included in the dispersion 
+model. 
+ 
+The surrounding buildings were also modelled as deemed relevant in potentially creating wake effect on the 
+dispersion. The surrounding building heights have been identified based on MPark Masterplan supplied by 
+Stockland, air quality assessments from SSDA applications and visual desktop inspection (Google©), with 3 
+m floor-to-floor height assumed. The modelled 3-D view of the above surrounding buildings is shown in 
+Figure 12. 
+ 
+Building Profile Input Program – Plume Rise Model Enhancements (BPIP-PRIME) uses heights and corner 
+locations of buildings in the vicinity of the stack release to simulate the effective height and width of the 
+structures. The downwash algorithm calculates effective building dimensions relative to the plume, resolved 
+down to ten-degree intervals. AERMOD then calculates the impact of these buildings on plume dispersion 
+and consequently on ground level concentrations. Although a simplified building geometry is used, it should 
+provide a reasonable indication of how the building may disrupt wind flow in the immediate vicinity. 
+ 
+[[page 38]]
+  
+ 
+Stockland  MPark  Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  02  | 31  January  202 5 | Arup Australia Pty Ltd  Air Quality Impact Assessment  Page  39 
+ 
+ 
+Figure 12 - Modelled surrounding buildings (including proposed buildings) for downwash effects 
+6.3.4  Sensitive receptors 
+The discrete sensitive receptors identified in Table 8 and Table 9 have been included in AERMOD, and 
+shown in Figure 13. 
+. 
+ 
+ 
+ 
+Project building  
+Proposed (1-5 
+Khartoum 
+Road, 
+Building J)  Proposed (1-
+5 Khartoum 
+Road, 
+Building F)  
+ 
+ Proposed (1-5 
+Khartoum Road, 
+Building G)  
+  
+Proposed (1-
+5 Khartoum 
+Road, 
+Building H)  
+ 
+Proposed (63 - 71 
+Waterloo Road, 
+approved to be 
+demolished)  
+ 
+Proposed 
+additional 
+building for 
+existing 17-
+23 Talavera 
+Road data 
+centre   
+ 
+[[page 39]]
+  
+ 
+Stockland  MPark  Talavera Road Data Centre  
+ 
+MPARK2 -ARP -BE -03 -RP -AQ -000001  | 02 | 4 December 2024  | Arup Australia Pty Ltd  Air Quality Impact  Assessment  Page  40 
+ 
+ 
+Figure 13 – Modelled sensitive receptors (red circles) with AERMOD ID (from Table 8 and Table 9)
+R2_1 to 
+R2_34  
+R3_1 to R3_32  
+R4_1 to R4_9  
+R12  
+Project site 
+R17  
+R5_1 to 
+R5_3  
+R10  
+R9  
+R16  
+R8  
+R6_1 to 
+R6_8  
+R18  
+R14  
+R7  
+R11  
+R15  
+R19_1 to R19_8  
+R1_1 to R1_39  R13  
+[[page 40]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 41 
+ 
+ 
+6.3.5  NO-to-NO 2 conversion 
+The air quality model predicts concentrations of NOX which is a mixture of NO 2 and nitric oxide (NO). Both 
+gases react in the atmosphere, particularly with ozone. In general, the NOx are mainly emitted as NO and 
+this converts to NO 2 in the atmosphere. The Approved Methods impact assessment criteria have been set for 
+NO 2, as this is the pollutant most impactful to human health, and therefore it is important that an appropriate 
+conversion rate is used to calculate NO 2 from modelled NO x concentrations.  
+For this assessment, a photochemical conversion for short-term concentrations (i.e. hourly average) from 
+NO x to NO 2 were determined in accordance with the US EPA’s OLM 15  , as per Section 8.1.2 of the 
+Approved Methods. The OLM has been applied on a contemporaneous basis (hour-by-hour), as per Section 
+3.2.  
+OLM assumes NO conversion to NO 2 by reaction with ambient ozone. The reaction is assumed to be 
+instantaneous and irreversible and can be applied on an hourly basis. Several studies have been undertaken to 
+evaluate the accuracy of the OLM method, and show that OLM has a tendency to overpredict the NO 2/NO x 
+ratios 16 ,17 , which adds a level of conservatism to the assessment. 
+The OLM equation for calculating NO 2 is provided below: 
+ 
+ () =  ×   () +  ! "#" $(1 −  ) ×  ()’ () $*46 48 . / × 0 (1234)’ +  
+ (1234) 
+Where, 
+ = In-stack NO 2/NO x ratio 
+The OLM assumes a default 10% of the NO x was initially NO 2 upon release, equating to an in-stack 
+NO 2/NO x ratio of 0.1. This ISR is generally appropriate for combustion sources 18 . On this basis, the 
+simplified OLM equation is: 
+ 
+ () = 0.1 ×   () +  ! "#" $0.9 ×  ()’ () $*46 48 . / × 0 (1234)’ +  
+ (1234) 
+The adopted NO 2 and ozone background concentrations for the OLM method are detailed in Section 3.2. 
+ 
+  
+ 
+15  Cole, H. S., & Summerhays, J. E. (1979).  A Review of Techniques Available for Estimating Short-Term NO 2 concentrations . J. Air Poll. Cont. 
+Assoc., 29:8 , 812-817. doi:10:1080/00022470.1979.10470866. 
+16  Hendrick, E., Tino, V., Hanna, S., & Egan, B. (2013). Evaluation of NO 2 predictions by the plume volume molar ratio method (PVMRM) and ozone 
+limiting method (OLM) in AERMOD using new field observations . J. Air & Waste Mgt. Assoc., 844-854. doi:10.1080/10962247.2013.798599 
+17  Podrez, M. (2015). An update to the ambient ratio method for 1-h NO2 air quality standards dispersion modelling . Atm. Env., 163-170. 
+18  AGL (2019). Newcastle Power Station – Air Quality Impact Assessment . project No.: 0468623/AQIA/R4. Version 7.0. Revision R4. 30 October 
+2019. 
+[[page 41]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 42 
+ 
+ 
+6.4 Assessment of potential operational impacts – S cenario 1 (power failure) 
+This section addresses the potential air quality impact from a highly unlikely scenario where all generators 
+would run simultaneously (peak emissions) to provide the full back up power required. As discussed in 
+Section 4.2.1.1, this scenario has a very low likelihood of occurring and would only happen if both the 
+primary and secondary power supplies failed. 
+6.4.1  Nitrogen dioxide 
+The highest 1-hour average concentrations for NO 2 have been predicted at each of the assessed sensitive 
+receptors at both ground level and elevated floors (where applicable). The summarised predicted results are 
+shown in Table 20, which indicate that the cumulative NO 2 concentrations (i.e. inclusive of background 
+concentrations) are predicted to exceed the impact assessment criterion at most of the assessed receptors. The 
+concentrations shown in Table 20 represent the highest possible concentrations during a loss of mains power, 
+with all generators operating and coinciding with worst-case meteorological conditions, which provides 
+conservatism in the assessment.  
+Table 21 summarises the floor levels (flagpole receptors) that exceed the 1-hour criterion. 
+The contour plot for cumulative hourly NO 2 ground level concentrations of Scenario 1 are provided in 
+Appendix C. 
+Table 20 - Predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 1) 
+Receptor AERMOD ID Floor level 1-Hour highest 100 th  percentile NO 2 concentration 
+(µg/m 3)  
+Comply 
+Incremental Cumulative Criterion 
+R1 R1_1 to R_39 39 th  floor 1602 1604 
+164 
+No 
+R2 R2_1 to R2_34 34 th  floor 1519 1521 No 
+R3 R3_1 to R3_32 32 nd  floor 1472 1478 No 
+R4 R4_1 to R4_18 18 th  floor 405 407 No 
+R5 R5_1 to R5_3 Ground floor 126 129 Yes 
+R6 R6_1 to R6_8 8 th  floor 179 188 No 
+R7 R7 Ground level 271 282 No 
+COM1 R8 Ground level 271 282 No 
+COM2 R9 Ground level 233 237 No 
+COM3 R10 Ground level 226 229 No 
+COM4 R11 Ground level 302 317 No 
+COM5 R12 Ground level 244 248 No 
+COM6 R13 Ground level 231 234 No 
+COM7 R14 Ground level 409 418 No 
+CC1 R15 Ground level 245 256 No 
+CC2 R16 2 nd  floor 164 168 No 
+CC3 R17 Ground level 150 154 Yes 
+REC1 R18 Ground level 374 374 No 
+HOT1 R19_1 to R19_8 5 th  floor 135 141 Yes 
+[[page 42]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 43 
+ 
+ 
+ 
+Table 21 – Floor levels (flagpole receptors) which exceed 1-hour NO 2 criterion (Scenario 1) 
+Receptor AERMOD ID Floor levels that exceed criterion 
+R1 R1_1 to R_39 All floors 
+R2 R2_1 to R2_34 All floors 
+R3 R3_1 to R3_32 All floors 
+R4 R4_1 to R4_18 All floors 
+R6 R6_1 to R6_8 6 th  floor – 8th  floor 
+The likelihood of this scenario occurring is expected to be extremely rare at the project site, as the failure 
+rates for a supply in the high reliability utility supply arrangement at the project site are expected to be 
+significantly low (Section 4.2.1.1). Therefore, despite the potential for predicted exceedances of the NO₂ 1-
+hour average impact assessment criterion at certain flagpole receptors during operation of all standby 
+generators concurrently, it is highly unlikely that this worst-case scenario would occur in a typical year. If it 
+did occur, the standby generators are likely to only operate for far less than 0.01% of the year due to power 
+outages. Therefore, the air quality risks are considered to be low for Scenario 1. 
+In-principle mitigation measures have been discussed in Section 7 to assist in minimising the need for 
+standby generators to operate and therefore reducing the impact from NO 2 emissions. 
+6.4.2  Particulate matter 
+The highest 100 th  percentile 24-hour average concentrations for PM 10  and PM 2.5  have been predicted at each 
+of the assessed sensitive receptors, which are shown in Table 22.  
+The results show that the cumulative PM 10  concentrations (i.e. inclusive of background concentrations) are 
+predicted to meet the impact assessment criterion of 50 µg/m 3 at all assessed sensitive receptors at ground as 
+well as at elevated levels. The predicted PM 2.5  GLCs are predicted to meet the impact assessment criterion of 
+25 µg/m 3 at all assessed sensitive receptors. 
+Table 22 - Predicted highest 100th percentile 24-hour PM 10  and PM 2.5 concentrations (Scenario 1) 
+Receptor AERMOD ID Floor Level 24-Hour highest 100 th  percentile concentration (µg/m 3)  Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+ Incremental Cumulative Criterion Cumulative Criterion 
+R1 R1_1 to 
+R_39 38 th  floor 4.0 29.9 
+50 
+21.6 
+25 
+Yes 
+R2 R2_1 to 
+R2_34 25 th  floor 3.0 28.9 20.6 Yes 
+R3 R3_1 to 
+R3_32 24 th  floor 5.7 31.6 23.3 Yes 
+R4 R4_1 to 
+R4_18 
+Ground 
+level 1.5 27.4 19.1 Yes 
+R5 R5_1 to 
+R5_3 2nd  floor 0.58 26.5 18.2 Yes 
+R6 R6_1 to 
+R6_8 7th  floor 0.71 26.6 18.3 Yes 
+R7 R7 Ground 
+level 0.77 26.7 18.4 Yes 
+[[page 43]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 44 
+ 
+ 
+Receptor AERMOD ID Floor Level 24-Hour highest 100 th  percentile concentration (µg/m 3)  Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+ Incremental Cumulative Criterion Cumulative Criterion 
+COM1 R8 Ground 
+level 0.40 26.3 18.0 Yes 
+COM2 R9 Ground 
+level 0.45 26.3 18.0 Yes 
+COM3 R10 Ground 
+level 2.3 28.2 19.9 Yes 
+COM4 R11 Ground 
+level 0.57 26.5 18.2 Yes 
+COM5 R12 Ground 
+level 1.7 27.6 19.3 Yes 
+COM6 R13 Ground 
+level 3.4 29.3 21.0 Yes 
+COM7 R14 Ground 
+level 1.4 27.3 19.0 Yes 
+CC1 R15 Ground 
+level 0.44 26.3 18.0 Yes  
+CC2 R16 2 nd  floor 0.72 26.6 18.3 Yes 
+CC3 R17 Ground 
+level 3.7 29.6 21.3 Yes 
+REC1 R18 Ground 
+level 2.7 28.6 20.3 Yes 
+HOT1 R19_1 to 
+R19_8 8th  floor 0.69 26.6 18.3 Yes 
+6.4.3  All other pollutants 
+The predicted highest 100th percentile concentrations for all other assessed pollutants (CO, SO 2 and 
+benzene) are summarised in Table 23 to Table 25. The results show that CO, SO 2 and benzene are all 
+predicted to be below the relevant impact assessment criteria at the assessed sensitive receptors, at both 
+ground as well as elevated levels. 
+ 
+[[page 44]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 45 
+ 
+ 
+ 
+Table 23 – Predicted highest 100th percentile concentrations for 15-minutes, 1-hour and 8-hour CO (Scenario 1) 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+R1  R1_1 to 
+R_39 39 th  floor 1310 2372 
+100,000 
+993 1798 
+30,000 
+126 932 
+10,000 
+Yes 
+R2  R2_1 to 
+R2_34 34 th  floor 1239 2301 939 1744 117 922 Yes 
+R3  R3_1 to 
+R3_32 
+24 th  floor 
+(15-
+minute/1-
+hour) 
+32 nd  floor 
+(8-hour) 
+1417 2479 1074 1879 228 1033 Yes 
+R4  R4_1 to 
+R4_18 18 th  floor 331 1394 251 1056 51 856 Yes 
+R5  R5_1 to 
+R5_3 
+3rd  floor 
+(15-
+minute/1-
+hour) 
+Ground 
+level (8-
+hour) 
+90 1152 68 873 31 836 Yes 
+R6  R6_1 to 
+R6_8 
+8th  floor 
+(15-
+minute/1-
+hour) 
+Ground 
+level (8-
+hour) 
+156 1219 118 923 29 834 Yes 
+[[page 45]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 46 
+ 
+ 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+R7  R7 Ground 
+level 196 1258 148 953 23 828 Yes 
+COM1  R8 Ground 
+level 106 1169 81 886 22 827 Yes 
+COM2  R9 Ground 
+level 100 1162 76 881 24 830 Yes 
+COM3  R10 Ground 
+level 248 1310 188 993 94 899 Yes 
+COM4  R11 Ground 
+level 116 1178 88 893 30 835 Yes 
+COM5  R12 Ground 
+level 129 1191 98 903 67 872 Yes 
+COM6  R13 Ground 
+level  283  1346  215  1020  144 949 Yes 
+COM7  R14 Ground 
+level  204  1267  155  960  50 855 Yes 
+CC1  R15 Ground 
+level  71 1133  53  859  20 826 Yes 
+CC2  R16 2 nd  floor  75 1137  56  862  33 838 Yes 
+CC3  R17 Ground 
+level  292  1354  221  1026  154 958 Yes 
+REC1  R18 Ground 
+level  273 1335  207  1012  117 922 Yes 
+HOT1  R19_1 to 
+R19_8 
+8th  floor (1-
+hour) 77 1139 58 863 25 830 Yes 
+[[page 46]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 47 
+ 
+ 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+5th  floor (8-
+hour)  
+ 
+[[page 47]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 48 
+ 
+ 
+Table 24 – Predicted highest 100 th  percentile concentrations for 1-hour and 24-hour concentrations SO 2 (Scenario 1) 
+Receptor AERMOD ID  
+ 
+Floor Level 1-hour highest level concentrations (µg/m 3) 24-Hour highest level concentrations (µg/m 3) Comply 
+SO 2 SO 2 
+Incremental Cumulative Criteria Incremental Cumulative Criteria 
+R1  R1_1 to R_39 39 th  floor (1-
+hour) 
+38 th  floor (24-
+hour) 
+178 260 
+286 
+13 22 
+57 
+Yes 
+R2  R2_1 to R2_34 34 th  floor (1-
+hour) 
+25 th  floor (24-
+hour) 
+169 250 10 18 Yes 
+R3  R3_1 to R3_32 24 th  floor 193 274 19 27 Yes 
+R4  R4_1 to R4_18 18 th  floor (1-
+hour) 
+Ground level 
+(24-hour) 
+45 126 5.0 14 Yes 
+R5  R5_1 to R5_3 3 rd  floor 12 94 1.9 10 Yes 
+R6  R6_1 to R6_8 8th floor 21 103 2.3 11 Yes 
+R7  R7 Ground level 27  108  2.5 11 Yes 
+COM1  R8 Ground level 14  96  1.3 10 Yes 
+COM2  R9 Ground level 14  95  1.5 10 Yes 
+COM3  R10 Ground level  34  115  7.5 16 Yes 
+COM4  R11 Ground level  16  97  1.9 10 Yes 
+COM5  R12 Ground level  18  99  5.6 14 Yes 
+COM6  R13 Ground level  39  120  11.0 20 Yes 
+COM7  R14 Ground level  28  109  4.6 13 Yes 
+CC1  R15 Ground level  10  91  1.4 10 Yes 
+[[page 48]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 49 
+ 
+ 
+Receptor AERMOD ID  
+ 
+Floor Level 1-hour highest level concentrations (µg/m 3) 24-Hour highest level concentrations (µg/m 3) Comply 
+SO 2 SO 2 
+Incremental Cumulative Criteria Incremental Cumulative Criteria 
+CC2  R16 2 nd  floor  10  91  2.4 11 Yes 
+CC3  R17 Ground level  40  121  11.9  20  Yes 
+REC1  R18 Ground level  37  118  8.7 17 Yes 
+HOT1  R19_1 to R19_8 8 th  floor  10 92 2.2 11 Yes 
+ 
+  
+[[page 49]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 50 
+ 
+ 
+Table 25 – Predicted highest 100 th  percentile concentrations for 1-hour benzene (Scenario 1) 
+Receptor AERMOD ID Floor Level 1-hour highest level benzene concentrations (µg/m 3) Comply 
+ Incremental Cumulative Criteria 
+R1 R1_1 to R_39 39 th  floor 1.6 1.6 
+29 
+Yes 
+R2 R2_1 to R2_34 34 th  floor 1.5 1.5 Yes 
+R3 R3_1 to R3_32 24 th  floor 1.8 1.8 Yes 
+R4  R4_1 to R4_18 18 th  floor  0.41 0.41 Yes 
+R5  R5_1 to R5_3 3 rd  floor 0.11 0.11 Yes 
+R6  R6_1 to R6_8 8 th floor  0.19 0.19 Yes 
+R7  R7 Ground level 0.24 0.24 Yes 
+COM1  R8 Ground level  0.13 0.13 Yes 
+COM2  R9 Ground level 0.12 0.12 Yes 
+COM3  R10 Ground level  0.31 0.31 Yes 
+COM4  R11 Ground level 0.14 0.14 Yes 
+COM5  R12 Ground level  0.16 0.16 Yes 
+COM6  R13 Ground level 0.35 0.35 Yes 
+COM7 R14 Ground level 0.25 0.25 Yes 
+CC1 R15 Ground level 0.09 0.09 Yes 
+CC2 R16 2 nd  floor 0.09 0.09 Yes 
+CC3 R17 Ground level 0.36 0.36 Yes 
+REC1 R18 Ground level 0.34 0.34 Yes 
+HOT1 R19_1 to 
+R19_8 
+8th  floor 0.10 0.10 Yes 
+[[page 50]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 51 
+ 
+ 
+6.5 Assessment of potential operational impacts – S cenario 2 (routine 
+maintenance) 
+The on-duty standby generators would undergo routine maintenance and testing to make sure they are 
+operational if required during a power outage.  Routine maintenance follows a prescribed testing regime as 
+shown in Table 10. All testing is to be undertaken during the daytime period between 7 am and 6 pm. The 
+emission rates for relevant pollutants under different loads are presented in Table 17; the maintenance testing 
+will be based on a 100% load. Although the quarterly testing runs for 30 minutes (Table 10), the modelling 
+has conservatively assumed potential back-to-back testing; hence, no hourly adjustment was made to the 
+100% load emission rates, as presented in Table 17. 
+6.5.1  Nitrogen dioxide 
+The highest 100 th  percentile 1-hour NO 2 concentrations under routine maintenance of one generator (either 
+the western-most stack or eastern-most stack) at each of the assessed sensitive receptors (both at ground as 
+well as elevated floor levels) have been predicted in Table 26. Table  27  summarises the floor levels (flagpole 
+receptors) that exceed the 1-hour criterion. 
+The contour plot for cumulative hourly NO 2 ground level concentrations of Scenario 2 are provided in 
+Appendix C. 
+Table 26 - Predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 2) 
+Receptor AERMOD ID Floor level 1-hour highest 100 th  percentile NO 2 concentration 
+(µg/m 3)  
+Comply 
+Incremental Cumulative Criterion 
+R1 R1_1 to R_39 39 th  floor 122 137 
+164 
+Yes 
+R2 R2_1 to R2_34 34 th  floor 245 247 No 
+R3 R3_1 to R3_32 25 th  floor 176 182 No 
+R4 R4_1 to R4_18 9 th  floor 47 49 Yes 
+R5 R5_1 to R5_3 Ground level 16 23 Yes 
+R6 R6_1 to R6_8 8 th  floor 33 40 Yes 
+R7 R7 Ground level 32 44 Yes 
+COM1 R8 Ground level 49 52 Yes 
+COM2 R9 Ground level 50 54 Yes 
+COM3 R10 Ground level 69 71 Yes 
+COM4 R11 Ground level 41 45 Yes 
+COM5 R12 Ground level 51 55 Yes 
+COM6 R13 Ground level 90 29 Yes 
+COM7 R14 Ground level 56 56 Yes 
+CC1 R15 Ground level 23 27 Yes 
+CC2 R16 2 nd  floor 27 27 Yes 
+CC3 R17 Ground level 55 55 Yes 
+REC1 R18 Ground level 54 56 Yes 
+HOT1 R19_1 to R19_8 8 th  floor 24 30 Yes 
+[[page 51]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 52 
+ 
+ 
+Table 27 – Floor levels (flagpole receptors) which exceed 1-hour NO 2 criterion (Scenario 2) 
+Receptor AERMOD ID Floor levels that exceed criterion 
+R2 R2_1 to R2_34 30 th  floor – 34 th  floor 
+R3 R3_1 to R3_32 23 rd  floor – 30 th  floor 
+The results show the cumulative NO 2 concentrations (i.e. inclusive of background concentrations) are all 
+predicted to be below the impact assessment criterion, except for higher-level floors of R2 and R3. It is 
+noted, however, that all generators are maintained only for a very short time totalling 72 hours (run without 
+cooldown) in any given year (Table 10). This means that there is an approximate 0.8% (72 hours divided by 
+8760 hours) chance of maintenance occurrence in any given year, which translates into a low air quality risk. 
+Nonetheless, in-principle mitigation measures have been discussed in Section 7 to assist in minimising the 
+NO 2 impacts from generator maintenance. 
+6.5.2  Particulate matter 
+The highest 100 th  percentile 24-hour average concentrations for PM 10  and PM 2.5  have been predicted at each 
+of the assessed sensitive receptors, which are shown in Table 28.  
+The results show that the cumulative PM 10  concentrations (i.e. inclusive of background concentrations) are 
+predicted to meet the impact assessment criterion of 50 µg/m 3 at all assessed sensitive receptors at ground as 
+well as at elevated levels. Similarly, the predicted PM 2.5  GLCs are predicted to meet the impact assessment 
+criterion of 25 µg/m 3 at all assessed sensitive receptors. 
+Table 28 - Predicted highest 100th percentile 24-hour PM 10  and PM 2.5 concentrations (Scenario 2) 
+Receptor AERMOD ID Floor Level 24-Hour highest 100 th  percentile concentration (µg/m 3)  Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+ Incremental Cumulative Criterion Cumulative Criterion 
+R1 R1_1 to 
+R_39 36th  floor 0.18 26.1 
+50 
+17.8 
+25 
+Yes 
+R2 R2_1 to 
+R2_34 34 th  floor 0.30 26.2 17.9 Yes 
+R3 R3_1 to 
+R3_32 24 th  floor 0.47 26.4 18.1 Yes 
+R4 R4_1 to 
+R4_18 
+Ground 
+level 0.046 25.9 17.6 Yes 
+R5 R5_1 to 
+R5_3 3r d floor 0.019 25.9 17.6 Yes 
+R6 R6_1 to 
+R6_8 8th  floor 0.031 25.9 17.6 Yes 
+R7 R7 Ground 
+level 0.030 25.9 17.6 Yes 
+COM1 R8 Ground 
+level 0.012 25.9 17.6 Yes 
+COM2 R9 Ground 
+level 0.017 25.9 17.6 Yes 
+COM3 R10 Ground 
+level 0.020 25.9 17.6 Yes 
+[[page 52]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 53 
+ 
+ 
+Receptor AERMOD ID Floor Level 24-Hour highest 100 th  percentile concentration (µg/m 3)  Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+ Incremental Cumulative Criterion Cumulative Criterion 
+COM4 R11 Ground 
+level 0.020 25.9 17.6 Yes 
+COM5 R12 Ground 
+level 0.017 25.9 17.6 Yes 
+COM6 R13 Ground 
+level 0.021 25.9 17.6 Yes 
+COM7 R14 Ground 
+level 0.018 25.9 17.6 Yes 
+CC1 R15 Ground 
+level 0.025 25.9 17.6 Yes  
+CC2 R16 2 nd  floor 0.034 25.9 17.6 Yes 
+CC3 R17 Ground 
+level 0.094 25.9 17.6 Yes 
+REC1 R18 Ground 
+level 0.031 25.9 17.6 Yes 
+HOT1 R19_1 to 
+R19_8 8th  floor 0.031 25.9 17.6 Yes 
+6.5.3  All other pollutants 
+The predicted highest 100th percentile concentrations for all other assessed pollutants (CO, SO 2 and 
+benzene) are summarised in Table 23 to Table 25. The results show that CO, SO 2 and benzene are all 
+predicted to be below the relevant impact assessment criteria at the assessed sensitive receptors, at both 
+ground as well as elevated levels. 
+ 
+[[page 53]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 54 
+ 
+ 
+ 
+Table 29 – Predicted highest 100th percentile concentrations for 15-minutes, 1-hour and 8-hour CO (Scenario 2) 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+R1  R1_1 to 
+R_39 36th  floor 78 1141 
+100,000 
+59 864 
+30,000 
+12 817 
+10,000 
+Yes 
+R2  R2_1 to 
+R2_34 34 th  floor 169 1231 128 933 19 824 Yes 
+R3  R3_1 to 
+R3_32 24 th  floor 127 1190 97 902 20 825 Yes 
+R4  R4_1 to 
+R4_18 
+18 th  floor 
+(15-
+minute/1-
+hour) 
+Ground 
+level (8-
+hour) 
+10 1073 7.8 813 5.4 810 Yes 
+R5  R5_1 to 
+R5_3 
+3rd  floor 
+(15-
+minute/1-
+hour) 
+2n d floor 
+(8-hour) 
+6.9 1069 5.2 810 2.8 808 Yes 
+R6  R6_1 to 
+R6_8 
+8th  floor 
+(15-
+minute/1-
+hour) 
+Ground 
+level (8-
+hour) 
+16 1078 12 817 3.0 808 Yes 
+[[page 54]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 55 
+ 
+ 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+R7  R7 Ground 
+level 
+7.5 1070 5.7 811 2.2 807 Yes 
+COM1  R8 Ground 
+level 
+6.1 1068 4.6 810 2.3 807 Yes 
+COM2  R9 Ground 
+level 
+6.0 1068 4.5 810 2.5 808 Yes 
+COM3  R10 Ground 
+level 
+10 1073 7.9 813 9.6 815 Yes 
+COM4  R11 Ground 
+level 
+5.4 1068 4.1 809 2.9 808 Yes 
+COM5  R12 Ground 
+level 
+13 1076 10 815 16 821 Yes 
+COM6  R13 Ground 
+level  
+19 1082  15  820  11 816 Yes 
+COM7  R14 Ground 
+level  
+13 1075  9.5  815  14 819 Yes 
+CC1  R15 Ground 
+level  
+4.3  1067 3.2  808  2.4 807 Yes 
+CC2  R16 2 nd  floor  4.4  1067 3.3  808  2.9 808 Yes 
+CC3  R17 Ground 
+level  
+12 1074 8.7  814 13 818 Yes 
+REC1  R18 Ground 
+level  
+11  1073  8.4  813 8.9 814 Yes 
+HOT1  R19_1 to 
+R19_8 
+8th  floor 
+(15- 3.5 1066 2.7 808 2.5 808 Yes 
+[[page 55]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 56 
+ 
+ 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+minute/1-
+hour) 
+7th  floor (8-
+hour)  
+ 
+[[page 56]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 57 
+ 
+ 
+Table 30 – Predicted highest 100 th  percentile concentrations for 1-hour and 24-hour concentrations SO 2 (Scenario 2) 
+Receptor AERMOD ID  
+ 
+Floor Level 1-hour highest level concentrations (µg/m 3) 24-Hour highest level concentrations (µg/m 3) Comply 
+SO 2 SO 2 
+Incremental Cumulative Criteria Incremental Cumulative Criteria 
+R1  R1_1 to R_39 36 th  floor 11 92 
+286 
+0.59 9.1 
+57 
+Yes 
+R2  R2_1 to R2_34 34 th  floor 23 104 0.98 9.5 Yes 
+R3  R3_1 to R3_32 24 th  floor 17 99 1.5 10 Yes 
+R4  R4_1 to R4_18 18 th  floor  1.4 83 0.15 8.6 Yes 
+R5  R5_1 to R5_3 3 rd  floor 0.93 82 0.062 8.6 Yes 
+R6  R6_1 to R6_8 8th floor 2.1 83 0.10 8.6 Yes 
+R7  R7 Ground level 1.0 82 0.097 8.6 Yes 
+COM1  R8 Ground level 0.83 82 0.061 8.6 Yes 
+COM2  R9 Ground level 0.81 82 0.063 8.6 Yes 
+COM3  R10 Ground level  1.4 83 0.4 8.6 Yes 
+COM4  R11 Ground level  0.73 82 0.064 8.6 Yes 
+COM5  R12 Ground level  1.8 83 0.54 9.0 Yes 
+COM6  R13 Ground level  2.6 84 0.56 9.1 Yes 
+COM7  R14 Ground level  1.7 83 0.25 8.7 Yes 
+CC1  R15 Ground level  0.58 82 0.081 8.6 Yes 
+CC2  R16 2 nd  floor  0.60 82 0.11 8.6 Yes 
+CC3  R17 Ground level  1.6 83 0.38 8.6 Yes 
+REC1  R18 Ground level  1.3 83 0.42 8.6 Yes 
+HOT1  R19_1 to R19_8 8 th  floor  0.48 82 0.10 8.6 Yes 
+ 
+  
+[[page 57]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 58 
+ 
+ 
+Table 31 – Predicted highest 100 th  percentile concentrations for 1-hour benzene (Scenario 2) 
+Receptor AERMOD ID Floor Level 1-hour highest level benzene concentrations (µg/m 3) Comply 
+ Incremental Cumulative Criteria 
+R1 R1_1 to R_39 36 th  floor 0.097 0.097 
+29 
+Yes 
+R2 R2_1 to R2_34 34 th  floor 0.21 0.21 Yes 
+R3 R3_1 to R3_32 24 th  floor 0.16 0.16 Yes 
+R4  R4_1 to R4_18 18 th  floor  0.013 0.013 Yes 
+R5  R5_1 to R5_3 3 rd  floor 0.0085 0.0085 Yes 
+R6  R6_1 to R6_8 8 th  floor  0.019 0.019 Yes 
+R7  R7 Ground level 0.0093 0.0093 Yes 
+COM1  R8 Ground level  0.0030 0.0030 Yes 
+COM2  R9 Ground level 0.0034 0.0034 Yes 
+COM3  R10 Ground level  0.0086 0.0086 Yes 
+COM4  R11 Ground level 0.0053 0.0053 Yes 
+COM5  R12 Ground level  0.0052 0.0052 Yes 
+COM6  R13 Ground level 0.014 0.014 Yes 
+COM7 R14 Ground level 0.0071 0.0071 Yes 
+CC1 R15 Ground level 0.0053 0.0053 Yes 
+CC2 R16 2 nd  floor 0.0055 0.0055 Yes 
+CC3 R17 Ground level 0.014 0.014 Yes 
+REC1 R18 Ground level 0.012 0.012 Yes 
+HOT1 R19_1 to 
+R19_8 
+8th  floor 0.0043 0.0043 Yes 
+[[page 58]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 59 
+ 
+ 
+6.6 Assessment of potential operational impacts - S cenario 3 (cumulative 
+assessment with existing data centres during routine maintenance) 
+Whilst one generator for the project is undergoing routine maintenance, there may exist a scenario (albeit 
+with low potential) that the other two existing data centres (11-17 Khartoum Road and 17-23 Talavera Road) 
+are also undertaking routine maintenance at the same time, with the testing configuration as described in 
+Section 6.2.3 for these two existing data centres. 
+6.6.1  Nitrogen dioxide 
+The highest 100 th  percentile 1-hour NO 2 concentrations under cumulative routine maintenance of one 
+generator each at the project (either the western-most stack or eastern-most stack), 11-17 Khartoum Road 
+(either the western-most stack or eastern-most stack) and 17-23 Talavera Road at each of the assessed 
+sensitive receptors (both at ground as well as elevated floor levels) have been predicted in Table 32. Table 33 
+summarises the floor levels (flagpole receptors) that exceed the 1-hour criterion.  
+The contour plot for cumulative hourly NO 2 ground level concentrations of Scenario 3 are provided in 
+Appendix C. 
+Table 32 - Predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 3) 
+Receptor AERMOD ID Floor level 1-hour highest 100 th  percentile NO 2 concentration 
+(µg/m 3)  
+Comply 
+Incremental + 
+existing data 
+centres 
+Cumulative  Criterion 
+R1 R1_1 to R_39 36 th  floor 163 171 
+164 
+No 
+R2 R2_1 to R2_34 34 th  floor 294 296 No 
+R3 R3_1 to R3_32 24 th  floor 185 205 No 
+R4 R4_1 to R4_18 Ground level 70 72 Yes 
+R5 R5_1 to R5_3 Ground level 62 70 Yes 
+R6 R6_1 to R6_8 7 th  floor 51 70 Yes 
+R7 R7 Ground level 65 77 Yes 
+COM1 R8 Ground level 128 132 Yes 
+COM2 R9 Ground level 127 131 Yes 
+COM3 R10 Ground level 152 155 Yes 
+COM4 R11 Ground level 129 133 Yes 
+COM5 R12 Ground level 150 154 Yes 
+COM6 R13 Ground level 155 155 Yes 
+COM7 R14 Ground level 160 164 Yes 
+CC1 R15 Ground level 68 72 Yes 
+CC2 R16 2 nd  floor 66 68 Yes 
+CC3 R17 Ground level 93 96 Yes 
+REC1 R18 Ground level 107 107 Yes 
+HOT1 R19_1 to R19_8 8 th  floor 46 68 Yes 
+[[page 59]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 60 
+ 
+ 
+Table 33 – Floor levels (flagpole receptors) which exceed 1-hour NO 2 criterion (Scenario 3) 
+Receptor AERMOD ID Floor levels that exceed criterion 
+R1 R1_1 to R_39 36 th  floor – 39 th  floor 
+R2 R2_1 to R2_34 27 th  floor – 34 th  floor 
+R3 R3_1 to R3_32 22 nd  floor – 32nd floor 
+The results show the cumulative NO 2 concentrations (i.e. inclusive of background concentrations) are all 
+predicted to be below the impact assessment criterion, except for higher-level floors of R1, R2 and R3. It is 
+noted, however, that there is low potential for all generators to coincide testing: 
+•  The project tests once every quarter for 1 hour (assuming worst-case back-to-back testing) between 7 am 
+and 6 pm (1 hour divided by 660 operating hours, or 0.15% probability per quarter). 
+•  The 11-17 Khartoum Road data centre tests once every month for 1 hour between 7 am and 6 pm (3 
+hours divided by 660 operating hours, or 0.45% probability per quarter). 
+•  The 17-23 Talavera Road data centre tests once every quarter for 1 hour between 9 am and 5 pm (1 hour 
+divided by 480 operating hours, or 0.21% probability per quarter). 
+The probability of the generators coinciding is at a very low rate of 0.014% (0.15% × 0.45% × 0.21%) for 
+any quarter in any given year, which translates into a low air quality risk. 
+Nonetheless, in-principle mitigation measures have been discussed in Section 7 to assist in minimising the 
+NO 2 impacts from cumulative generator maintenance. 
+6.6.2  Particulate matter 
+The highest 100 th  percentile 24-hour average concentrations for PM 10  and PM 2.5  have been predicted at each 
+of the assessed sensitive receptors, which are shown in Table 34.  
+The results show that the cumulative PM 10  concentrations (i.e. inclusive of background concentrations) are 
+predicted to meet the impact assessment criterion of 50 µg/m 3 at all assessed sensitive receptors at ground as 
+well as at elevated levels. Similarly, the predicted PM 2.5  GLCs are predicted to meet the impact assessment 
+criterion of 25 µg/m 3 at all assessed sensitive receptors. 
+Table 34 - Predicted highest 100th percentile 24-hour PM 10  and PM 2.5 concentrations (Scenario 3) 
+Receptor AERMOD ID Floor Level 24-Hour highest 100 th  percentile concentration (µg/m 3)  Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+ Incremental Cumulative Criterion Cumulative Criterion 
+R1 R1_1 to 
+R_39 36th  floor 0.48 26.4 
+50 
+18.1 
+25 
+Yes 
+R2 R2_1 to 
+R2_34 34 th  floor 0.39 26.3 18.0 Yes 
+R3 R3_1 to 
+R3_32 25th  floor 0.93 26.8 18.5 Yes 
+R4 R4_1 to 
+R4_18 2nd  floor 0.15 26.1 17.8 Yes 
+R5 R5_1 to 
+R5_3 3rd floor 0.068 26.0 17.7 Yes 
+R6 R6_1 to 
+R6_8 8th  floor 0.085 26.0 17.7 Yes 
+[[page 60]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 61 
+ 
+ 
+Receptor AERMOD ID Floor Level 24-Hour highest 100 th  percentile concentration (µg/m 3)  Comply 
+PM 10 /PM 2.5  PM 10  PM 2.5  
+ Incremental Cumulative Criterion Cumulative Criterion 
+R7 R7 Ground 
+level 
+0.087 26.0 17.7 Yes 
+COM1 R8 Ground 
+level 
+0.048 26.0 17.7 Yes 
+COM2 R9 Ground 
+level 
+0.060 26.0 17.7 Yes 
+COM3 R10 Ground 
+level 
+0.12 26.0 17.7 Yes 
+COM4 R11 Ground 
+level 
+0.073 26.0 17.7 Yes 
+COM5 R12 Ground 
+level 
+0.092 26.0 17.7 Yes 
+COM6 R13 Ground 
+level 
+0.18 26.1 17.8 Yes 
+COM7 R14 Ground 
+level 
+0.32 26.2 17.9 Yes 
+CC1 R15 Ground 
+level 
+0.067 26.0 17.7 Yes  
+CC2 R16 2 nd  floor 0.11 26.0 17.7 Yes 
+CC3 R17 Ground 
+level 
+0.34 26.2 17.9 Yes 
+REC1 R18 Ground 
+level 
+0.19 26.1 17.8 Yes 
+HOT1 R19_1 to 
+R19_8 8th  floor 0.090 26.0 17.7 Yes 
+6.6.3  All other pollutants 
+The predicted highest 100th percentile concentrations for all other assessed pollutants (CO, SO 2 and 
+benzene) are summarised in Table 23 to Table 25. The results show that CO, SO 2 and benzene are all 
+predicted to be below the relevant impact assessment criteria at the assessed sensitive receptors, at both 
+ground as well as elevated levels. 
+ 
+[[page 61]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 62 
+ 
+ 
+ 
+Table 35 – Predicted highest 100th percentile concentrations for 15-minutes, 1-hour and 8-hour CO (Scenario 3) 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+R1  R1_1 to 
+R_39 36th  floor 93 1155 
+100,000 
+70 875 
+30,000 
+12 817 
+10,000 
+Yes 
+R2  R2_1 to 
+R2_34 34 th  floor 197 1259 149 955 19 824 Yes 
+R3  R3_1 to 
+R3_32 24 th  floor 128 1190 97 902 20 825 Yes 
+R4  R4_1 to 
+R4_18 
+18 th  floor 
+(15-
+minute/1-
+hour) 
+2nd  floor 
+(8-hour) 
+19 1081 14 819 5.3 810 Yes 
+R5  R5_1 to 
+R5_3 
+3rd  floor 
+(15-
+minute/1-
+hour) 
+2nd  floor 
+(8-hour) 
+11 1073 8.3 813 2.8 808 Yes 
+R6  R6_1 to 
+R6_8 
+8th  floor 
+(15-
+minute/1-
+hour) 
+Ground 
+level (8-
+hour) 
+18 1080 14 819 3.0 808 Yes 
+[[page 62]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 63 
+ 
+ 
+Receptor AERMOD 
+ID  
+ 
+Floor Level 15-minutes highest level 
+concentrations (µg/m 3) 
+1-hour highest level concentrations 
+(µg/m 3) 
+8-Hour highest level concentrations 
+(µg/m 3) 
+Comply 
+CO CO CO 
+Incremental Cumulative Criteria Incremental Cumulative  Criteria Incremental Cumulative Criteria 
+R7  R7 Ground 
+level 
+13 1075 9.9 815 2.2 807 Yes 
+COM1  R8 Ground 
+level 
+12 1074 8.8 814 2.3 807 Yes 
+COM2  R9 Ground 
+level 
+11 1074 8.7 814 2.5 808 Yes 
+COM3  R10 Ground 
+level 
+19 1081 14 819 9.6 815 Yes 
+COM4  R11 Ground 
+level 
+14 1076 11 816 2.7 808 Yes 
+COM5  R12 Ground 
+level 
+28 1090 21 826 16 821 Yes 
+COM6  R13 Ground 
+level  
+34 1096 26 831 11 816 Yes 
+COM7  R14 Ground 
+level  
+26 1088 19 824 14 819 Yes 
+CC1  R15 Ground 
+level  
+6.4  1069 4.9 810 2.4 807 Yes 
+CC2  R16 2 nd  floor  8.0 1070 6.1 811 2.9 808 Yes 
+CC3  R17 Ground 
+level  
+23  1085  17 822 13 818 Yes 
+REC1  R18 Ground 
+level  
+20  1082  15 820 8.9 814 Yes 
+HOT1  R19_1 to 
+R19_8 8th  floor  7.8 1070 5.9 811 2.5 808 Yes 
+ 
+[[page 63]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 64 
+ 
+ 
+Table 36 – Predicted highest 100 th  percentile concentrations for 1-hour and 24-hour concentrations SO 2 (Scenario 3) 
+Receptor AERMOD ID  
+ 
+Floor Level 1-hour highest level concentrations (µg/m 3) 24-Hour highest level concentrations (µg/m 3) Comply 
+SO 2 SO 2 
+Incremental Cumulative Criteria Incremental Cumulative Criteria 
+R1  R1_1 to R_39 36 th  floor 13 94 
+286 
+1.2 9.5 
+57 
+Yes 
+R2  R2_1 to R2_34 34 th  floor 24 105 1.0 9.5 Yes 
+R3  R3_1 to R3_32 24 th  floor 20 99 2.4 10.9 Yes 
+R4  R4_1 to R4_18 Ground level 3.9 85 0.42 8.9 Yes 
+R5  R5_1 to R5_3 3r d floor 0.93 82 0.20 8.7 Yes 
+R6  R6_1 to R6_8 8 th  floor 2.8 84 0.27 8.8 Yes 
+R7  R7 Ground level 2.6  84 0.22 8.7 Yes 
+COM1  R8 Ground level 2.0  83 0.17 8.7 Yes 
+COM2  R9 Ground level 1.8  83 0.19 8.7 Yes 
+COM3  R10 Ground level  3.9  85 1.2 9.1 Yes 
+COM4  R11 Ground level  1.8  83 0.32 8.8 Yes 
+COM5  R12 Ground level  5.6  87 1.8 10.3 Yes 
+COM6  R13 Ground level  7.0  88 1.2 9.7 Yes 
+COM7  R14 Ground level  3.3  85 0.75 9.3 Yes 
+CC1  R15 Ground level  1.0  82  0.15 8.7 Yes 
+CC2  R16 2 nd  floor  1.7  83 0.27 8.8 Yes 
+CC3  R17 Ground level  3.5  85 0.87 9.4 Yes 
+REC1  R18 Ground level  3.3  84 0.84 9.3 Yes 
+HOT1  R19_1 to R19_8 8 th  floor  1.3 82 0.21 8.7 Yes 
+ 
+  
+[[page 64]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 65 
+ 
+ 
+Table 37 – Predicted highest 100 th  percentile concentrations for 1-hour benzene (Scenario 3) 
+Receptor AERMOD ID Floor Level 1-hour highest level benzene concentrations (µg/m 3) Comply 
+ Incremental Cumulative Criteria 
+R1 R1_1 to R_39 36 th  floor 0.26 0.26 
+29 
+Yes 
+R2 R2_1 to R2_34 28 th  floor 0.33 0.33 Yes 
+R3 R3_1 to R3_32 25 th  floor 0.28 0.28 Yes 
+R4  R4_1 to R4_18 18 th  floor  0.061 0.061 Yes 
+R5  R5_1 to R5_3 3 rd  floor 0.032 0.032 Yes 
+R6  R6_1 to R6_8 8 th  floor  0.033 0.033 Yes 
+R7  R7 Ground level 0.041 0.041 Yes 
+COM1  R8 Ground level  0.015 0.015 Yes 
+COM2  R9 Ground level 0.014 0.014 Yes 
+COM3  R10 Ground level  0.060 0.060 Yes 
+COM4  R11 Ground level 0.021 0.021 Yes 
+COM5  R12 Ground level  0.026 0.026 Yes 
+COM6  R13 Ground level 0.049 0.049 Yes 
+COM7 R14 Ground level 0.049 0.049 Yes 
+CC1 R15 Ground level 0.014 0.014 Yes 
+CC2 R16 2 nd  floor 0.027 0.027 Yes 
+CC3 R17 Ground level 0.051 0.051 Yes 
+REC1 R18 Ground level 0.035 0.035 Yes 
+HOT1 R19_1 to 
+R19_8 
+8th  floor 0.025 0.025 Yes 
+[[page 65]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 66 
+ 
+ 
+6.7 Cumulative assessment of other proposed data ce ntres  
+At the time of writing, the NSW Major Projects Planning Portal shows the following data centres are being 
+planned in Macquarie Park: 
+•  Project Apollo at 4-10 Talavera Road 19 , located about 420 m southeast of the project site; and 
+•  Waterloo Road Data Centre 20 , located about 430 m southwest of the project site.  
+No air quality assessments are currently available for the above, and hence details of the proposed standby 
+generator emissions are not available. However, for the three nearest residential apartment towers of concern 
+(R1, R2 and R3), neither of the proposed data centres are directly upwind or downwind of the project such 
+that emitted plumes have significant potential to overlap. On the whole, the cumulative risks from these 
+proposed data centres are considered to be low.    
+6.8 Limitations of AERMOD and sensitivity of flagpo le receptor locations 
+Accounting for the impact of downwind buildings on dispersion poses a challenge for AERMOD. It is a 
+steady state Gaussian-based dispersion model, where there are certain limitations 21  to its applicability for 
+downwind complex building configurations, which apply to the project context.  
+AERMOD assumes the plume centreline travels downwind in a straight line, which is unlikely to be the case 
+for certain sensitive receptors in residential apartment towers that are not located in direct ‘line of sight’ 
+plume impaction (e.g. receptors located behind or in between multiple buildings). As buildings disrupt the air 
+flow the mean concentration field can no longer be described accurately by a single Gaussian distribution. In 
+other words, AERMOD does not take account of the impact of the buildings downwind on dispersion in such 
+situations and assumes that the dispersion occurs into free air. For instance, the plumes at elevated heights 
+have the potential to ‘wrap around’ or ‘wrap over’ buildings and this may result in accumulation of pollution 
+in the ‘dead air’ on the far side of the building.  
+A sensitivity analysis for Scenario 2 was undertaken using different flagpole receptor locations of R1, R2 
+and R3 for NO 2, as summarised in Figure 14, to simulate different locations of building openings such as 
+balconies. A summary of the modelling results for Scenario 2 is presented in Table 38. 
+ 
+19  Project Apollo Data Centre Macquarie Park | Planning Portal - Department of Planning and Environment 
+20  Waterloo Road Data Centre (ESR Developments) | Planning Portal - Department of Planning and Environment 
+21  a) Lateb, M. et al., 2016. On the use of numerical modelling for near-field pollutant dispersion in urban environments – A review. Environmental 
+Pollution, Volume 208, Part A, January 2016, Pages 271-283. b) Good Practice Guide for Atmospheric Dispersion Modelling, Published in June 
+2004 by the Ministry for the Environment, New Zealand. c) Woodward, H. et al, 2021. A review of the applicability of Gaussian modelling 
+techniques to near-field dispersion (Report ADMLC-R11).  
+[[page 66]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 67 
+ 
+ 
+ 
+Figure 14 – Sensitivity analysis with different flagpole receptor locations for R1, R2 and R3 (Buildings J, F and G) 
+ 
+Table 38 – Comparison of predicted highest 100th percentile 1-hour NO 2 concentrations (Scenario 2) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+  
+Original 
+(near-side) 
+Alternate 
+(far-side) 
+Original 
+(near-side)  
+Alternate 
+(far-side)  
+ Original 
+(near-side)  
+Alternate 
+(far-side)  
+Western-most stack of project emitting 
+R1_1  69.0  91.6  R2_1  28.8 83.1  R3_1  55.6 102.0 
+R1_2 68.6  91.5  R2_2 28.6 83.0  R3_2  56.1 101.6 
+R1_3 68.0  91.4  R2_3 28.4 82.4  R3_3  56.7 99.1 
+R1_4 67.2  91.3  R2_4 28.3 81.3  R3_4  57.3 94.2 
+R1_5 66.1  91.1  R2_5 28.1 79.9  R3_5  57.8 89.0 
+R1_6 64.8  90.8  R2_6 28.8 78.3  R3_6  58.3 83.7 
+R1_7 63.4  90.4  R2_7 31.1 76.4  R3_7  58.7 78.6 
+R1_8 61.8  90.0  R2_8 33.6 74.4  R3_8  59.1 73.9 
+R1_9 60.1  89.6  R2_9 37.2 72.3  R3_9  59.3 69.6 
+R1_10 58.4  89.1  R2_10 41.6 70.2  R3_10  59.6 66.0 
+R1_11 56.5  88.5  R2_11 46.9 68.1  R3_11  64.9 63.4 
+R1_12 54.7  87.9  R2_12 54.6 67.8  R3_12  73.5 61.2 
+R1_13 52.9  87.2  R2_13 62.7 67.5  R3_13  79.0 59.3 
+R1_1 to R1_39  
+R1_1 to R1_39 
+(alternate) 
+R3_1 to R3_32 
+(alternate) 
+R3_1 to R3_32  R2_1 to R2_34 
+(alternate) 
+R2_1 to R2_34  
+[[page 67]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 68 
+ 
+ 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+  
+Original 
+(near-side) 
+Alternate 
+(far-side) 
+Original 
+(near-side)  
+Alternate 
+(far-side)  
+ Original 
+(near-side)  
+Alternate 
+(far-side)  
+R1_14 51.1  86.5  R2_14 70.9 66.9  R3_14  89.4 57.9 
+R1_15 49.3  85.8  R2_15 79.1 64.9  R3_15  96.5 56.8 
+R1_16 52.4  85.0  R2_16 86.8 63.0  R3_16  102.5 56.1 
+R1_17 55.1  84.2  R2_17 94.0 61.1  R3_17  107.4 57.7 
+R1_18 57.4  83.4  R2_18 100.3 59.3  R3_18  111.2 61.8 
+R1_19 59.2  82.6  R2_19 103.2 57.6  R3_19  114.1 64.4 
+R1_20 60.6  81.9  R2_20 103.7 56.0  R3_20  116.1 72.1 
+R1_21 61.5  81.2  R2_21 104.0 55.2  R3_21  117.2 82.8 
+R1_22 66.8  80.6  R2_22 104.1 55.0  R3_22  154.4 107.9 
+R1_23 68.9  80.1  R2_23 104.0 54.9  R3_23  169.6 127.8 
+R1_24 71.3  79.7  R2_24 103.7 54.8  R3_24  184.3 158.1 
+R1_25 74.2  79.4  R2_25 103.3 54.2  R3_25  181.5 191.5 
+R1_26 77.5  79.3  R2_26 101.0 57.3  R3_26  175.6 225.0 
+R1_27 81.2  79.3  R2_27 119.9 68.6  R3_27  171.9 254.5 
+R1_28 85.4  78.5  R2_28 140.2 81.0  R3_28  175.3 276.3 
+R1_29 89.9  77.7  R2_29 161.2 94.3  R3_29  170.3 287.2 
+R1_30 94.8  77.0  R2_30 182.3 108.3  R3_30  165.9 285.4 
+R1_31 100.0  76.4  R2_31 202.4 122.7  R3_31  162.9 271.4 
+R1_32 105.3  75.9  R2_32 220.5 137.1  R3_32  156.1 247.2 
+R1_33 110.7  75.5  R2_33 235.5 150.8    
+R1_34 116.1  76.9  R2_34 246.5 163.2    
+R1_35 121.2 78.6       
+R1_36 134.2 80.1       
+R1_37 130.3 81.5       
+R1_38 134.0 82.8       
+R1_39 136.9 83.9       
+Criterion  164 
+Eastern-most stack of project emitting 
+R1_1  50.4 45.4 R2_1  48.5 47.2 R3_1  74.2 62.7 
+R1_2 50.4 45.4 R2_2  48.3 47.0 R3_2  73.7 62.7 
+R1_3 50.5 45.5 R2_3  48.0 46.7 R3_3  73.0 62.8 
+R1_4 50.5 45.5 R2_4  48.1 46.3 R3_4  72.1 62.9 
+R1_5 50.0 45.6 R2_5  48.4 46.3 R3_5  71.1 63.0 
+[[page 68]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 69 
+ 
+ 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+  
+Original 
+(near-side) 
+Alternate 
+(far-side) 
+Original 
+(near-side)  
+Alternate 
+(far-side)  
+ Original 
+(near-side)  
+Alternate 
+(far-side)  
+R1_6 49.4 45.6 R2_6  48.7 46.4 R3_6  70.0 63.1 
+R1_7 48.7 45.7 R2_7  49.0 46.6 R3_7  68.9 63.2 
+R1_8 47.9 45.8 R2_8  49.4 46.0 R3_8  67.7 63.3 
+R1_9 47.2 46.0 R2_9  49.1 46.2 R3_9  66.7 63.4 
+R1_10 47.4 46.1 R2_10  48.6 46.5 R3_10  65.7 63.4 
+R1_11 47.7 45.7 R2_11  49.2 46.9 R3_11  64.8 63.4 
+R1_12 47.8 44.6 R2_12  49.8 47.1 R3_12  64.0 63.3 
+R1_13 48.0 43.7 R2_13  50.5 45.8 R3_13  63.3 63.2 
+R1_14 47.1 42.7 R2_14  51.1 46.1 R3_14  62.7 63.0 
+R1_15 45.9 41.7 R2_15  51.8 46.7 R3_15  62.3 62.6 
+R1_16 44.7 40.7 R2_16  52.6 47.3 R3_16  62.0 62.2 
+R1_17 43.4 39.6 R2_17  53.3 47.9 R3_17  61.9 61.6 
+R1_18 42.2 40.0 R2_18  53.2 47.7 R3_18  61.9 61.0 
+R1_19 41.1 40.4 R2_19  52.4 46.7 R3_19  62.0 60.1 
+R1_20 41.5 40.8 R2_20  51.5 45.6 R3_20  62.3 59.2 
+R1_21 42.0 41.2 R2_21  50.6 44.6 R3_21  62.7 58.0 
+R1_22 42.4 41.7 R2_22  49.7 45.1 R3_22  63.3 56.8 
+R1_23 42.9 42.1 R2_23  49.9 45.8 R3_23  64.0 55.3 
+R1_24 47.0 43.2 R2_24  50.5 46.4 R3_24  64.9 53.8 
+R1_25 53.1 47.7 R2_25  51.1 46.9 R3_25  65.9 52.1 
+R1_26 59.4 52.3 R2_26  51.6 47.5 R3_26  66.6 52.5 
+R1_27 66.0 57.1 R2_27  52.1 48.0 R3_27  63.9 52.8 
+R1_28 72.8 61.9 R2_28  52.6 48.5 R3_28  61.0 53.1 
+R1_29 79.7 66.7 R2_29  53.0 48.9 R3_29  57.9 53.4 
+R1_30 86.6 71.6 R2_30  53.4 49.4 R3_30  57.1 53.5 
+R1_31 93.3 76.3 R2_31  53.8 49.8 R3_31  57.4 53.7 
+R1_32 99.9 80.9 R2_32  54.1 50.2 R3_32  57.6 53.7 
+R1_33 106.1 85.2 R2_33  54.4 52.1    
+R1_34 111.9 89.3 R2_34  54.7 54.8    
+R1_35 117.1 93.1       
+R1_36 121.5 96.4       
+R1_37 125.2 99.3       
+R1_38 127.9 101.7       
+[[page 69]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 70 
+ 
+ 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+AERMOD 
+ID 
+Cumulative 1-hour 
+highest 100 th  percentile 
+NO 2 concentration 
+(µg/m 3) 
+  
+Original 
+(near-side) 
+Alternate 
+(far-side) 
+Original 
+(near-side)  
+Alternate 
+(far-side)  
+ Original 
+(near-side)  
+Alternate 
+(far-side)  
+R1_39 129.7 103.6       
+Criterion 164 
+ 
+The AERMOD results in Table 38 showed that placement of the flagpole receptors affects the predicted 
+concentrations of NO 2. However, based on the limitations of AERMOD in addressing complex building 
+configurations that result in complex wind fields, it is recommended that during the course of designing the 
+apartment towers (Buildings J, F and G) that are part of Stockland’s portfolio, further assessment (such as 
+computational fluid dynamics) be undertaken to inform the apartment design (such as where to locate 
+building openings like balconies). 
+6.9 POEO (Clean Air) Regulation – Standard of Conce ntrations 
+Clause 73 of the POEO (Clean Air) Regulation 2022 exempts emergency electricity generation comprising a 
+stationary reciprocal internal combustion engine from the air impurities standard of NO 2 and NO 
+concentrations specified in Schedule 2, if the plant is used for a total of not more than 200 hours per year.  
+Based on the maintenance schedule in Section 4.2.1.2, the project is considered as non-scheduled premises as 
+the generators would not be used for more than 200 hours per year.  The project therefore should comply 
+with the Schedule 2 Part 3 of the Standard of Concentrations for non-scheduled premises. 
+Table 39 shows that the generator emissions for particles associated with the project are below the Standard 
+of Concentration for solid particles of 100 mg/m 3 for all loads (100%, 75%, 50%, 25% and 10%).  
+Table 39 – POEO (Clean Air) Regulation Schedule 2 Part 3 – Standards of concentrations assessment  
+Air impurity  Activity or 
+plant  
+Standard of Concentration, 
+mg/m 3 
+The project’s per-Generator Emissions 1, mg/m 3 
+100% 
+load 
+75% 
+load 
+50% 
+load 
+25% 
+load 
+10% 
+load 
+Solid 
+particles  
+Any activity/ 
+plant 
+100 2 9.1 14.3 42.8 71.6 43.5 
+Note: 
+1. The project’s generator emissions above are based on the mg/Nm 3 generator emission data of MTU 20V 4000 G94LF in Appendix B, assumed 
+as dry, 273K, 101.3kPa and 5% O 2 content, which were then converted into 7% O 2 content as per the POEO (Clean Air) Regulation requirements. 
+2. Standard of emission concentration under dry, 273K, 101.3kPa, 7% O 2 conditions.  
+ 
+ 
+[[page 70]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 71 
+ 
+ 
+7.  Mitigation/management measures and summary of 
+residual risks 
+This section describes the measures to mitigate against, monitor and manage any potential air quality impacts 
+described in Sections 5.2, 6.4, 6.5 and 6.6.  
+7.1 Mitigation and management measures 
+The dust emitting activities during construction can be greatly reduced or eliminated by applying mitigation 
+and management measures. It is anticipated that with the implementation of effective management measures, 
+the environmental effect would not be significant in most cases. Table 40 outlines the air quality mitigation 
+and management measures recommended for the project site. These measures should be included in the 
+Construction Environmental Management Plan (CEMP) by the construction contractor as a specific air 
+quality management sub-plan.  
+Operation of the project during routine maintenance is not anticipated to significantly impact local air quality 
+due to the low risk. However specific mitigation or management measures are proposed in Table 40 for the 
+operational phase to minimise the air quality impact during maintenance, so far as reasonably practicable. 
+7.2 Residual risks 
+A summary of the construction and operational risks, both pre-mitigation and any residual impacts remaining 
+after the implementation of the management measures, is described in Table 41. 
+[[page 71]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 72 
+ 
+ 
+Table 40 – Mitigation and management measures for air quality  
+ID Impacts Mitigation/management measures Responsibility Timing 
+Construction  
+AQ1 Risks to air quality during 
+construction from fugitive dust 
+A dust and air quality management plan shall be prepared and implemented as part of the 
+project’s CEMP: 
+•  Potential sources of air pollution (such as dust, vehicles, odour transporting waste, plant and 
+equipment) during construction. 
+•  Air quality management objectives consistent with any relevant published EPA guidelines. 
+•  Mitigation and suppression measures to be implemented, such as spraying or covering 
+exposed surfaces, provision of vehicle clean down areas, covering of loads, street cleaning, 
+use of dust screens, maintenance of plant in accordance with manufacturer's instructions. 
+•  Maintain sufficient water content on the soil across the general construction footprint 
+boundary to minimise dust impact from wind erosion. 
+•  Methods to manage works during strong winds or other adverse weather conditions. 
+•  A progressive rehabilitation strategy for exposed surfaces. 
+•  Explanation of when the air quality, suppression and management measures need to be 
+applied, who is responsible, and how effectiveness will be assessed. 
+•  Community notification and complaint handling procedures, as required.  
+Contractor Pre-
+construction/ 
+Construction 
+AQ2 Risks to air quality during 
+construction from vehicle and 
+machinery emissions 
+The following management measures shall be included as part of the project’s CEMP to minimise 
+emissions to air from construction vehicles and site machinery: 
+•  Implementation of a high standard of engine maintenance to minimise vehicle emissions. 
+•  A requirement for completion of pre-start vehicle checklists to make sure construction 
+vehicles are in good working order.  
+Contractor Pre-
+construction/ 
+construction 
+Operation  
+AQ3 Risks to air quality during 
+maintenance of standby 
+generators  
+•  Operation of standby generators during testing and maintenance should be minimised so far 
+as reasonably practicable, and should follow the prescribed testing regime assessed in this 
+report.   
+•  Where possible, minimise back -to -back quarterly maintenance testing of generators.  
+Operator Operation 
+AQ4 •  Design of the proposed nearest residential apartment towers (Buildings J, F and G), that are 
+part of the Stockland portfolio, is recommended to be informed by computational fluid 
+dynamics to verify the complex wind fields around these towers.  
+Stockland Design phase 
+[[page 72]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 73 
+ 
+ 
+ID Impacts Mitigation/management measures Responsibility Timing 
+AQ5 Risks to air quality during the 
+highly unlikely operation of 
+standby generators in the event 
+of a full loss of mains power 
+•  In the event of a loss of mains power, all practical measures should be taken to reduce the 
+duration of the outage to ensure that standby generators operate for the least amount of time 
+possible.  
+It is worth noting that measures included in the current design of the project also mitigate the need 
+for the standby generators to operate to provide back-up power generation. These include:  
+•  The adoption of high voltage utility power supply to provide much higher reliability than a 
+conventional utility.  
+•  The adoption of dual redundant utility feeds to provide a secondary feed in the event of a 
+primary power supply failure.  
+These should be maintained, or even optimised, during the late stages of project design.  
+Operator Operation 
+ 
+Table 41 – Summary of pre-mitigation and residual impacts 
+Potential pre-mitigation adverse 
+impact 
+Relevant mitigation/management measures Potential residual impact after 
+implementation of management measures 
+Comment on how any residual 
+impacts would be managed  
+Construction  
+Low risk of dust-generation 
+during construction affecting 
+local air quality 
+•  Refer to AQ1 in Table 40. 
+•  Best practice dust management measures included in a 
+dust and air quality management plan developed as part 
+of the CEMP.  
+Negligible N/A 
+Low risk of emissions from 
+equipment, traffic and 
+machinery affecting local air 
+quality 
+•  Refer to AQ2 in Table 40. 
+•  Best practice emission control management measures 
+included in an Air Quality Management Plan developed 
+as part of the CEMP.  
+Negligible N/A 
+Operation  
+Risks to air quality during 
+maintenance of standby 
+generators  
+•  Refer to AQ3 and AQ4 in Table 40. Negligible N/A 
+Risks to air quality during the 
+highly unlikely operation of 
+•  Refer to AQ5 in Table 40. Low N/A 
+[[page 73]]
+ 
+ 
+Stockland  MPark Talavera Road Data Centre  
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty Ltd Air Quality Impact Asses sment Page 74 
+ 
+ 
+Potential pre-mitigation adverse 
+impact 
+Relevant mitigation/management measures Potential residual impact after 
+implementation of management measures 
+Comment on how any residual 
+impacts would be managed  
+standby generators in the event 
+of a full loss of mains power 
+ 
+ 
+[[page 74]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 75 
+ 
+ 
+8.  Conclusions 
+This air quality assessment has been conducted to accompany a SSDA for the proposed MPark Talavera 
+Road Data Centre at 1-5 Khartoum Road, Macquarie Park, NSW, in accordance with the requirements of the 
+Planning Secretary’s Environmental Assessment Requirements (SSD-63235720). 
+During the construction phase, accounting for the predicted scale of dust emissions and the area’s sensitivity, 
+the project site has been classified as a negligible risk for demolition, earthworks and trackout, and low risk 
+for construction. 
+Under normal operations of the data centre (when there is no routine maintenance), no air quality impacts are 
+anticipated as the standby generators are not in operation. 
+Three modelling scenarios have been assessed for the operation phase: 
+•  Scenario 1 – A highly unlikely worst-case scenario (peak emission scenario) where all 28 generators of 
+the project are in operation (100% load) to provide back-up power generation under a full loss of mains 
+power scenario. 
+•  Scenario 2 – Realistic operations during regular or routine maintenance testing of the project, where 
+individual generator testing (one generator) is undertaken. 
+•  Scenario 3 – A cumulative assessment of the project and the two existing adjacent data centres (11-17 
+Khartoum Road to the north of the project site and 17-23 Talavera Road to the south of the project site), 
+assuming that realistic operations during regular or routine maintenance testing occur simultaneously, 
+with up to one generator from each data centre site tested. 
+Based on modelling results for Scenarios 1 to 3, the following are concluded: 
+•  Hourly NO 2 impact assessment criterion is exceeded at nearby residential receptors for Scenario 1, but 
+the likelihood of this scenario occurring is very low due to high reliability of the electrical utilities 
+supplying the project and the redundancies built into the design. 
+•  Hourly NO 2 impact assessment criterion is exceeded at nearby residential receptors (upper floors only) 
+for Scenario 2 and Scenario 3, but the likelihood of this occurring is very low due to the infrequent 
+maintenance testing regime of standby generators.  
+•  All other pollutants are not predicted to have any unacceptable impacts (i.e. exceeding air quality 
+assessment criteria) for all scenarios. 
+A series of air quality mitigation/management measures are recommended for both the construction phase 
+and the operation phase (Section 7). Provided that appropriate site-specific mitigation/management measures 
+are implemented, it is predicted that the residual air quality risks are negligible to low. 
+ 
+ 
+  
+[[page 75]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 76 
+ 
+ 
+Appendix A 
+Comparison of wind data for Macquarie Park (2019 to 2023) to determine 
+representative year 
+Wind speed and direction are important factors that drive dispersion. To select a representative year for 
+dispersion modelling, based on the latest five years (2019 to 2023) of monitored data at Macquarie Park, the 
+following parameters are analysed: 
+•  Wind speed using Z-score, which is a statistical measurement of a score's relationship to the mean in a 
+group of scores: 
+−  A Z-score of 2.0 (or -2.0) indicates that (assuming a normal distribution of data), 95% of values lie 
+between -2 and 2 standard deviations of the mean. 
+−  Based on the Z-score for each year between 2019 and 2023, the mean wind speed of 2022 is most 
+reflective of the mean wind speed across the five years (Z-score of 1.09). 
+•  Wind direction using radar plot: 
+−  Generally, the wind direction pattern is consistent across all years. There are minor differences 
+apparent, notably for 2019 where there is an increase in north-northwesterly winds. However, the 
+wind direction of interest is easterly when the nearest residential receptors (R1, R2 and R3) are 
+downwind of the standby generators; there are no significant differences across the years for 
+easterlies. 
+Overall, based on the wind speed, 2022 was selected as the meteorological year for dispersion modelling. 
+ 
+
+[[page 76]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 77 
+ 
+ 
+ 
+ 
+ 
+Figure 15 – Macquarie Park wind data (2019 to 2023) – Z-score for wind speed and wind direction radar plot  
+ 
+  
+
+[[page 77]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 78 
+ 
+ 
+Appendix B 
+Standby generator specification  
+  
+
+[[page 78]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 79 
+ 
+ 
+Appendix C  
+Scenario 1 - NO 2 ground level concentrations (1 hour) contour plot  
+ 
+Scenario 2 - NO 2 ground level concentrations (1 hour) contour plot  
+ 
+ 
+
+[[page 79]]
+ 
+ 
+Stockland MPark Talavera Road Data Centre 
+MPARK2-ARP-BE-03-RP-AQ-000001 | 03 | 31 January 2025 | Arup Australia Pty 
+Ltd  
+Air Quality Impact Assessment Page 80 
+ 
+ 
+Scenario 3 - NO 2 ground level concentrations (1 hour) contour plot  
+ 
+ 
+ 

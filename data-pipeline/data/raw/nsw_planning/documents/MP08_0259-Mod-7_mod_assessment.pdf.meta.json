@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=MP08_0259-MOD-7%2120220930T044931.023+GMT",
+ "project_slug": "dexus-estate-mod-7-data-centre-site-layout",
+ "attachment_slug": "signed-modification-assessment-report-mp080259-mod-7",
+ "kind": "mod_assessment",
+ "label": "Signed - Modification Assessment Report - MP08_0259-Mod-7.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:08:14+00:00",
+ "sha256": "435cdcc3f454f124c1f672214cbd57cf53652df68eaad711a5f4ee89fe7b631d",
+ "bytes": 1419144,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 38778,
+ "pages": 25,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

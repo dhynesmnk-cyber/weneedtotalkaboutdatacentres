@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741%2120190402T225626.136+GMT",
+ "project_slug": "lane-cove-west-data-centre",
+ "attachment_slug": "appendix-21-air-quality-impact-assessment-9",
+ "kind": "air_quality_report",
+ "label": "Appendix 21 - Air Quality Impact Assessment - 1 Sirius Roa.PDF",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:19:48+00:00",
+ "sha256": "0905e131bb01dea7517c6f4f4a75a2d63ae415aa0044269903c311641328b2d4",
+ "bytes": 462982,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 23763,
+ "pages": 15,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

@@ -1,0 +1,10 @@
+{
+ "url": "https://airtrunk.com/wp-content/uploads/2024/10/Empowering-Australias-Digital-Future-Report.pdf",
+ "requested_url": "https://airtrunk.com/wp-content/uploads/2024/10/Empowering-Australias-Digital-Future-Report.pdf",
+ "fetched_utc": "2026-11-18T14:08:11+00:00",
+ "sha256": "6c9b9cb40c07dba881662a557e20f8a38536a2beb3731fec2c2a14c920c5269a",
+ "bytes": 2496322,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 40
+}

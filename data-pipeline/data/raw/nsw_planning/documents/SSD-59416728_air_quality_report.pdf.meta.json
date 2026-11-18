@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728%2120240208T065649.190+GMT",
+ "project_slug": "davis-road-data-centre-cundall",
+ "attachment_slug": "appendix-14-air-quality-impact-assessment-62",
+ "kind": "air_quality_report",
+ "label": "Appendix 14 - Air Quality Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:17:09+00:00",
+ "sha256": "788e18f55ba279abb902009cfa2fdaa390d475546253fb9649271c37c37d2ce5",
+ "bytes": 10296277,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 227134,
+ "pages": 135,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

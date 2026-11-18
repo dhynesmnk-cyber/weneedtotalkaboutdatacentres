@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-59416728-MOD-1%2120250815T064539.896+GMT",
+ "project_slug": "davis-rd-data-centre-mod-1-tree-removal-correction",
+ "attachment_slug": "assessment-report-4636",
+ "kind": "mod_assessment",
+ "label": "Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:08:04+00:00",
+ "sha256": "4e08a8870f49f669e88fad4a6d1442b4801e5184bfc898780ab6562c0eda2ee9",
+ "bytes": 761188,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 22502,
+ "pages": 17,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

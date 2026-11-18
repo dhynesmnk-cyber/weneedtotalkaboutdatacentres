@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63741210%2120240620T064410.992+GMT",
+ "project_slug": "nextdc-s4-data-centre-horsley-park",
+ "attachment_slug": "appendix-o-air-quality-impact-assessment-700",
+ "kind": "air_quality_report",
+ "label": "Appendix O - Air Quality Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:20:55+00:00",
+ "sha256": "6827e31d7095f6534dda2fe2818a81893df9c00d7c08c26de5a3618184494cc5",
+ "bytes": 14866195,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 310872,
+ "pages": 207,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

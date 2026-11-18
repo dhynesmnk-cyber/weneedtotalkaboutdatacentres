@@ -1,0 +1,2962 @@
+[[page 1]]
+ 
+ 
+ishc 
+  
+ 
+EIS 
+Project Echidna  
+Noise and Vibration Impact Assessment - SSDA 
+Reference: SSD-47320208 
+Final | 8 February 2023 
+ 
+ 
+ 
+©  
+ 
+ 
+This report takes into account the particular instructions and requirements of our client.  It is not 
+intended for and should not be relied upon by any third party and no responsibility is undertaken to 
+any third party. 
+ 
+  
+Job number  288255-02 
+Arup Australia Pty Ltd | ABN 76 625 912 665 
+Arup Australia Pty Ltd 
+Level 5  
+151 Clarence Street 
+Sydney  
+NSW 2000  
+Australia 
+arup.com  
+ 
+[[page 2]]
+ 
+SSD -47320208  | Final  | 8 February  202 3 | Arup Australia Pty Ltd  
+ 
+ 
+Document Verification 
+ 
+Project title Project Echidna 
+Document title  Noise and Vibration Impact Assessment - SSDA 
+Job number 287434 
+Document ref Appendix H 
+File reference AC01 
+ 
+ 
+Revision Date Filename AC01_v1_Project Echidna SSDA Acoustic 
+Assessment.do cx  
+Rev 1  16 August 2022 Description For SSDA  
+ Prepared by Checked by Approved by 
+Name Cynthia Nguyen 
+Clemence Terraz  
+Sam Grieve Sam Grieve 
+Signature    
+Rev 2 6 October 2022 Filename AC01_v2_Project Echidna SSDA Acoustic 
+Assessment.docx  
+Description For SSDA – Addressing DPIE comments 
+Includes assessment to additional receivers for consistency 
+with the Air Quality Report 
+Note that an addendum has also been prepared which 
+includes predicted levels of the whole site emissions and 
+review Project Echidna mitigation measures.  
+ Prepared by Checked by Approved by 
+Name Cynthia Nguyen 
+Clemence Terraz  
+Sam Grieve Sam Grieve 
+Signature    
+Rev 3 
+(Final) 
+8 February 2023 Filename AC01_v3_Project Echidna SSDA Acoustic 
+Assessment.docx  
+Description For SSDA – Addressing 2nd  set of DPIE comments 
+Includes relevant extracts from SPP-19-00013  regarding 
+noise monitoring in Appendix B 
+ 
+ Prepared by Checked by Approved by 
+Name Clemence Terraz Mathew Simon Mathew Simon 
+Signature    
+ 
+Issue Document Verification with Document      
+
+[[page 3]]
+ 
+SSD -47320208  | Final  | 8 February  202 3 | Arup Australia Pty Ltd  
+ 
+Contents 
+ 
+1.  Introduction 1 
+1.1 Key Terminology and Project Details 1 
+1.2 Permissibility and Approval Pathway 2 
+1.3 Development history 2 
+2.  Project Description 2 
+3.  Assessment Requirements 6 
+4.  Assessment locations 7 
+5.  Existing acoustic environment 10  
+6.  Operational noise assessment 10  
+6.1 Standard and emergency operations definition 10 
+6.2 Standard operations noise criteria 11 
+6.3 Emergency operations noise criteria 13 
+6.4 Modelling methodology 13 
+6.5 Noise predictions 14 
+7.  Road traffic noise 23  
+8.  Construction noise and vibration 23  
+8.1 Construction noise criteria 23 
+8.2 Construction noise assessment 25 
+8.3 Construction traffic assessment 29 
+8.4 Construction vibration criteria 29 
+8.5 Construction noise and vibration management 29 
+9.  Conclusion 31  
+10.  References 33  
+  
+Tables  
+Table 1: Industry-specific SEARs (Noise and Vibration) and scope of this assessment 6 
+Table 2: Assessment and noise monitoring locations 7 
+Table 3: Long-term noise monitoring results, dB(A) 10 
+Table 4: NPfI Site Specific Noise Trigger Levels (Normal operations) 11 
+Table 5: Adjustment for duration 12 
+Table 6: Unmitigated plant and associated sound power levels (L w) or sound pressure levels @ 1 m 
+(L p) 15 
+Table 7: Modelling scenarios and corresponding plant and equipment quantities 17 
+Table 8: Unmitigated predicted noise levels – standard daytime operation – Standard and Enhanced 
+weather conditions 18 
+Table 9: Unmitigated predicted noise levels – night-time operation - standard and enhanced weather 
+conditions 18 
+Table 10: Unmitigated Predicted noise levels – emergency operation – Standard weather conditions 19 
+Table 11: Mitigated predicted noise levels – standard daytime operation – Standard and Enhanced 
+weather conditions 21 
+[[page 4]]
+ 
+SSD -47320208  | Final  | 8 February  202 3 | Arup Australia Pty Ltd  
+ 
+Table 12: Mitigated predicted noise levels – standard night-time operation – Standard and Enhanced 
+weather conditions 21 
+Table 13: Mitigated Predicted noise levels – emergency operation 22 
+Table 14: Construction noise management levels (NMLs) at residential receivers 24 
+Table 15: Construction noise management levels (NMLs) at other noise sensitive land uses 24 
+Table 16: Construction Noise Management Levels – recommended Standard hours 25 
+Table 17: ICNG recommended standard hours of construction 25 
+Table 18: Equipment and plant sound power levels 27 
+Table 19: Predicted construction noise levels – Residential and non-residential receivers 28 
+Table 20: Recommended minimum working distances for vibration intensive plant 31 
+Table 21: Types of vibration - Definition C-2 
+Table 22: Preferred and maximum vibration acceleration levels for human comfort, m/s2 C-2 
+Table 23: Acceptable vibration dose values (VDV) for intermittent vibration (m/s1.75) C-3 
+Table 24: BS 7385-2 Structural damage criteria C-3 
+Table 25: DIN 4150-3 structural damage guideline values C-4 
+Table 26: Guideline values for short-term vibration impacts on buried pipework C-4 
+ 
+ 
+Figures 
+Figure 1: Location context area plan 3 
+Figure 2: Site Layout 5 
+Figure 3: Site, sensitive receivers and noise monitoring locations 8 
+Figure 4: Site and sensitive receivers 9 
+ 
+ 
+Appendices  
+Appendix A A-1 
+Glossary A-1 
+Appendix B B-1 
+Ambient noise survey conducted as part of SPP-19-00013 [1] B-1 
+Appendix C C-1 
+Vibration Criteria C-1 
+Appendix D D-1 
+ Addendum to EIS Report 
+ 
+[[page 5]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  |  8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  1
+ 
+ 
+1.  Introduction 
+1.1 Key Terminology and Project Details  
+Table 1: Terminology and Project Details  
+Term  Definition  
+Proposal / Project Echidna  Construction of a two-storey data centre comprising of data halls, 
+mechanical and electrical equipment rooms, offices, other ancillary 
+support spaces, and external/rooftop mechanical and electrical 
+equipment.  
+Proposal GFA  The building has a total GFA of approximately 9,225 square metres 
+comprising two data floors (Ground Floor + Level 1).  
+Site  The proposal is located at 10 Eastern Creek Drive, Eastern Creek NSW, 
+legally described as Lot 4001, DP 1243178. The site is situated within 
+the Blacktown Local Government Area.  
+The entire site area is approximately 56,800 m 2 and is to accommodate 
+Building 1, Building 1A, a substation and Building 2 (the Proposal). 
+Concept Design Approval  A previous DA (SPP-19-00013) was approved on site for the industrial 
+development of a Detailed Design Stage 1 and a Concept Design 
+Approval of an outline for Stage 2, which is the subject of this Proposal.  
+State Significant Development 
+(SSD) Trigger  
+The data centre building will have a capacity of over 10MW, which 
+triggers the proposal as a State Significant Development under the 
+Schedule 1 of the State Environmental Planning Policy (Planning 
+Systems) 2021.  
+ 
+Arup on behalf of the Proponent is seeking development consent to construct a data centre (the Proposal) at 
+10 Eastern Creek Drive, Eastern Creek NSW, legally described as Lot 4001 DP 1243178 (the Site). The 
+Proposal involves the construction of a two-storey data centre comprising of data halls, mechanical and 
+electrical equipment rooms, offices, other ancillary support spaces, and external/rooftop mechanical and 
+electrical equipment. The Site is situated within the Blacktown Local Government Area (LGA) on the corner 
+of Eastern Creek Drive and Old Wallgrove Road. Building 1 to the north of the Proposal site is currently 
+under construction. The Proposal’s site coverage is approximately 9,225 square metres. 
+The design of the Data Centre is based on the end-client’s reference design as well as applicable Australian 
+Standards and will deliver capacity for approximately 35.2MW of IT equipment. Utility power will be 
+delivered via a dedicated on-site electricity substation (subject to a separate development application), with 
+emergency backup power provided by a combination of lithium-ion battery systems and standby generators. 
+Cooling will be delivered by highly efficient fresh air free-cooling systems in the Winter and evaporative 
+cooling in the Summer to ensure energy consumption is minimised as far as practical. 
+The two (2) level facility will reach a building height of approximately 25m including all significant plant 
+and rooftop equipment. The facility will include two (2) levels of data hall space and supporting plantrooms, 
+and supporting administrative spaces incorporating secure entry facilities, loading dock, storage, staff offices 
+and the like. The standby generators will occupy an external equipment yard to the west of the main 
+building, and some mechanical equipment will be located at roof level. The site will be served from a private 
+on site substation, located to the west of the proposed data centre building and subject to a separate 
+development application. 
+ 
+[[page 6]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  |  8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  2
+ 
+ 
+Landscaped areas are also proposed, where mature local trees will be used to improve aesthetics and amenity 
+for local businesses. 
+On-site car parking spaces will be provided for staff and visitors, including disabled and electric vehicle 
+parking. Figure 1 shows the Site and surrounding context. Figure 2 shows a figure of the Site. 
+1.2 Permissibility and Approval Pathway  
+Division 4.7 of Part 4 of the EP&A Act covers State significant development (SSD). The Proposal is 
+identified as SSD by virtue of meeting thresholds defined under Schedule 1, Clause 25 of the State 
+Environmental Planning Policy (Planning Systems)  2021 . Specifically, the Proposal is appropriately 
+classified as a data storage development with a capacity of more than 10 megawatts (see Chapter 4 (Strategic 
+context) for further detail).   
+The proposed data centre is permissible with consent within a light industrial zone pursuant to the provisions 
+outlined in Section 2.31 of State Environmental Planning Policy (Transport and Infrastructure) 2021.  
+Given the proposal has a capacity that is greater than 10 MW, the proposal classifies as State Significant 
+Development (SSD) pursuant to the provisions outlined in Schedule 1 of the State Environmental Planning 
+Policy (Planning Systems) 2021 .    
+1.3 Development history  
+The previous planning approvals relevant to the subject SSDA and proposed development include:   
+• DA-18-00196: Consent was granted for the ‘Torrens Title subdivision of 1 lot into 1 industrial lot and 1 
+residue lot’ of Lot 532, DP 1236811 which created the subject lot.   
+• DA-18-00938: On 6 December 2018 consent was granted for ‘Bulk earthworks entailing cut and fill 
+across the site to facilitate suitable site levels for future built form (subject to future approval)’. The 
+associated Construction Certificate is CC-19-00320. These earthworks have been completed on site. The 
+subject development proposed has been designed to respond to these works.   
+• DA-18-01592: On 20 June 2019 consent was granted for the construction of a warehouse and 
+distribution facility comprising 33,250 square metres of GFA, 266 vehicles and site landscaping. 
+Construction of this project has not commenced at this time.   
+• DA-20-10387: On 15 September 2020 consent was granted for the installation of 4 temporary electricity 
+kiosks for interim power supply for an approved data centre.  
+• SPP-19-00013:  A previous DA was approved on site for the industrial development of a Detailed Design 
+Stage 1 (Building 1 and Building 1A) and a Concept Design Approval of an outline for Stage 2, which is 
+the subject of this Proposal. It is intended that this SSDA will supersede the existing Concept Design 
+Approval for Stage 2.  
+2.  Project Description 
+The site is located at 10 Eastern Creek Drive, Eastern Creek on land zoned as industrial. Datacentre Project 
+Echidna (the proposal) is to be located within the site which will accommodate for 2 other data centres 
+namely Building 1 and Building 1A, as well as a substation.  
+Building 1 and Building 1A were approved under a separate Development Application (DA), referred to as 
+SPP-19-00013 DA [1]. The substation will be subject to separate DA. 
+Reference to the SPP-19-00013 DA has been made for this assessment.  
+Location of Project Echidna, Building 1, Building 1A and the substation are identified on Figure 1 and 
+Figure 2. 
+[[page 7]]
+ 
+EIS D Project Echidna  
+ 
+SSD-47320208 | Final |  8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page 3
+ 
+ 
+ 
+ 
+Figure 1: Location context area plan 
+Lot/Site boundary 
+Project Echidna boundary 
+Building 1 
+Building 1A  
+Substation 
+[[page 8]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  4
+ 
+ 
+The proposed data centre, Project Echidna is comprised of the following major relevant components: 
+• Internal transformers and associated electrical plant. 
+• Internal air handling units. 
+• External emergency generators. 
+• External rooftop plant consisting of exhaust air fans and condenser units. 
+• Internal Data Halls (DH). 
+• Loading docks. 
+• Offices and amenities. 
+The generators will be operational only during an emergency situation (i.e. power failure) or during monthly 
+maintenance and testing.  
+Figure 2 shows the proposed site plan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+[[page 9]]
+ 
+EIS  Project Echidna  
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page 5
+ 
+ 
+ 
+Figure 2: Site Layout 
+ 
+ 
+ 
+ 
+ 
+Generators 
+Condenser units 
+Exhaust air fans 
+Project Echidna 
+boundary 
+ Substation 
+Building 1 
+ Building 1A 
+[[page 10]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  6
+ 
+ 
+3.  Assessment Requirements 
+The industry specific Planning Secretary’s Environmental Assessment Requirements (SEARs) for Data 
+Storage Centres have been reviewed.  
+The requirements relevant to the acoustic assessment are reproduced in Table 1. Table 1 also includes the 
+scope of this assessment with regards to addressing the industry SEARs. 
+Table 1: Industry-specific SEARs (Noise and Vibration) and scope of this assessment 
+Requirement Confirmation included in the scope of this report 
+Industry – specific SEARs (Noise and Vibration)   
+Provide a noise and vibration assessment prepared 
+in accordance with the relevant EPA guidelines and 
+Australian/International Standards. The assessment 
+must detail construction and operational noise and 
+vibration impacts (including testing of any back-up 
+power system) on nearby sensitive receivers and 
+structure, and outline the proposed mitigation, 
+management and monitoring measures that would 
+be implemented.  
+Deliverable:  Noise and Vibration Impact 
+Assessment  
+This noise and vibration impact assessment has 
+been prepared for the project addressing the 
+Industry-specific SEARs and includes: 
+• Identification of nearby sensitive receivers 
+• Details of noise monitoring in the area 
+• Determination of applicable noise criteria for 
+construction and operation of the project 
+• Determination of major sources of noise for the 
+construction and operational assessment 
+• Preliminary high-level noise and vibration 
+construction assessment 
+• Operational noise assessment for standard and 
+emergency operations. Note that standard 
+operation includes testing of backup generators 
+• Cumulative site noise emissions from the 
+operation of Project Echidna and approved 
+buildings and equipment currently under 
+construction located on the same site (This 
+includes Building 1 and Building 1A, as well as 
+the 132kV substation) 
+• Loading dock operational noise assessment 
+• Assessment of increase in traffic noise on the 
+road network due to project operations. 
+• Identification of conceptual mitigation and 
+management measures for the construction 
+phase to minimise noise and vibration impacts 
+on nearby sensitive receivers 
+• Identification of required mitigation and 
+management measures for the operational phase 
+to minimise noise and vibration impacts onto 
+nearby sensitive receivers 
+  
+[[page 11]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  7
+ 
+ 
+4.  Assessment locations 
+Noise and vibration sensitive receivers have been identified in Table 2 and Figure 3. Unattended noise 
+monitoring conducted as part of the SPP-19-00013 DA [1], relevant to this assessment, has been included in 
+Table 2 and Figure 3. 
+Table 2: Assessment and noise monitoring locations 
+ 
+Type ID Address Description Approximate 
+Distance 
+from site 
+boundary 
+Sensitive receivers 
+Residential R1 39 Farrington St, Minchinbury Reside ntial dwellings 
+representative of residential 
+properties to the north, south 
+and west of the site. 
+ 
+1700 m 
+Residential R2 146 Burley Rd, Horsley Park 1600 m 
+Residential R3 3 Cetus Pl, Erskine Park 2500 m 
+Residential R4 16 Weaver St, Erskine Park 2600 m 
+Residential R5 13 Swamphen St, Erskine Park 3000 m 
+Residential R6 10 Agrafe Pl, Minchinbury 2000 m 
+Residential R7 168 McFarlane Dr, 
+Minchinbury 
+2200 m 
+Residential R8 58 Burley Rd, Horsley Park 1700 m 
+Commercial (existing)  C1 1 Eastern Creek Dr, Easte rn 
+Creek 
+Ricoh Australia.  83 m 
+Commercial (existing) C2 41 Eastern Creek Dr, Easte rn 
+Creek 
+Bullivants 55 m 
+Commercial (existing) C3 45 Eastern Creek Dr, Eastern 
+Creek 
+Vermeer Australia 53 m 
+Commercial (existing) C4 46 Eastern Creek Dr, Eastern 
+Creek 
+Jay Car 200 m 
+Commercial (potential) C5 50 Eastern Creek Dr, Eastern 
+Creek 
+Potential future commercial  86 m 
+Industrial (existing) I1 50 Old Wallgrove Rd, Eastern 
+Creek 
+ACR Supply 12 m 
+Industrial (existing) I2 36 Honeycomb Dr, Eastern 
+Creek 
+Sydney Mainfreight 
+Warehousing 
+324 m 
+Industrial (existing) I3 3 Roberts Rd, Eastern Cree k Coles CDC 90 m 
+Unattended monitoring locations 1 
+Unattended  L1 13 Farrington St, Minchinbury  Single storey residence to the 
+north of the site 
+1900 m 
+Unattended L2 146 Burley Rd, Horsley Park Single storey residence to the 
+south of the site 
+1600 m 
+Note: 
+1_As per  SPP-19-00013 DA  [1]  
+[[page 12]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  8
+ 
+ 
+ 
+Figure 3: Site, sensitive receivers and noise monitoring locations 
+ 
+C1 
+C2 
+C3  
+C4 
+I1  
+I2  
+R1 
+R2 
+N 
+Legend 
+ 
+ Lot/Site Boundary 
+ 
+ Residential receiver 
+ 
+ Commercial receiver 
+ 
+ Industrial receiver 
+  
+Aurecon unattended 
+monitor 
+ 
+L1 
+L2 
+I3 
+M4 
+M7 
+C5 
+R3 
+R4
+R5 
+R6 
+R7 
+R8 
+[[page 13]]
+ 
+EIS Project Echidna 
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  9
+ 
+ 
+ 
+Figure 4: Site and sensitive receivers 
+ 
+ 
+N 
+C1 
+C2 
+C3 
+C4 
+I2 
+I1 
+I3 Legend 
+ 
+ Lot/Site boundary 
+ 
+ Commercial receiver 
+ 
+ Industrial receiver 
+ 
+ 
+Project Echidna boundary 
+ 
+ 
+ 
+C5 
+[[page 14]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  10 
+ 
+ 
+ 
+5.  Existing acoustic environment  
+Existing background noise levels are required for the establishment of the intrusive noise criteria, applying 
+only to residential locations. All other receivers have fixed criteria applied.  
+Long-term noise monitoring was previously carried out at locations L1 and L2 (See Table 2 and Figure 3) 
+from 24 May 2019 to 31 May 2019 as part of SPP-19-00013 DA [1]. Results of the noise monitoring are 
+reproduced in Table 3. Details regarding the monitoring has been included in Appendix B. 
+Table 3: Long-term noise monitoring results, dB(A) 
+Location Time period 1 Rating background noise 
+levels, dBL A90  
+Prevailing noise conditions 
+L1 – 13 Farrington St, 
+Minchinbury 
+Day 44 Traffic noise from M4 Western 
+motorway, birds chirping and 
+dogs barking. Evening 44 
+Night 39 
+L2 - 146 Burley Rd, 
+Horsley Park 
+Day 41 High volume of bird noises, pig 
+farm located to the north of the 
+property and light machinery 
+noise (lawn mowers, grinders 
+etc.) from surrounding 
+properties. 
+Evening 42 
+Night 39 
+Note: 
+1_Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+    Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+    Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays  
+6.  Operational noise assessment 
+6.1 Standard and emergency operations definition  
+Standard  operation is defined as: 
+• Daytime | all equipment operating other than the generators and load bank, which will only operate 
+periodically under the following testing regimes: 
+− Only one generator and the load bank operating as part of a scheduled testing regime  
+− Up to three generators being tested concurrently without load banks as part of a scheduled testing 
+regime  
+• Evening and night | all equipment operating except the generators and load bank.   
+The Proponent has indicated the desire to conduct generator testing during the night-time period. This 
+scenario will be assessed during detailed design. If criteria can be achieved when testing is conducted during 
+the night-time, this will be documented and presented to the relevant authority prior to Construction 
+Certificate.  
+Criteria for standard operation is in Section 6.2. 
+Emergency  operation is defined as: 
+• All equipment operating including all generators. 
+Criteria for emergency operation is in Section 6.3. 
+[[page 15]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  11 
+ 
+ 
+ 
+6.2 Standard operations noise criteria 
+Applicable criteria for site noise emissions Site Specific Noise Trigger Levels (SSNTL) were determined in 
+SPP-19-00013 DA [1] in accordance with the Noise Policy for Industry (NPfI) [2] and are reproduced in 
+Table 4 for residential receivers to the North and South of the site and for the commercial and industrial 
+receivers. Background noise at the receivers to the west are likely to be similar to the background noise of 
+the receivers to the south. Criteria for receivers to the west is set to the same criteria that apply to receivers to 
+the south.  The SSNTLs apply to cumulative noise emissions from Building 1, Building 1A, Project Echidna 
+and the substation. 
+It is understood, the Building 1 and Building1A noise impact assessments and resulting acoustic design did 
+not allow for future development on the site (e.g. Project Echidna). Additionally, SPP-19-00013 DA did not 
+include noise predictions which could have informed adjustments to the SSNTLs. As such, it is unclear what 
+the Project Echidna and substation SSNTL allowances are. 
+Therefore, for this assessment, a conservative approach is used, which is to set the criteria for cumulative 
+noise emissions of Project Echidna and the substation to 10 dB less than the SSNTL. This would ensure that 
+emissions from Project Echidna will not contribute to an exceedance of the site criteria. 
+The SSNTLs are presented in Table 4 as well as the sleep disturbance site criteria and the Project Echidna + 
+substation noise trigger levels. Note that while this assessment is for Project Echidna, the assessment 
+includes the substation noise emissions to assess cumulative noise levels at receivers. 
+Table 4: NPfI Site Specific Noise Trigger Levels (Normal operations) 
+Receiver type Receiver Id Time Period Site Specific 
+Noise Trigger 
+Level (SSNTL) 
+dBL Aeq,15min  
+Sleep 
+disturbance 
+LAmax 1 
+Project 
+Echidna + 
+Substation 
+Noise Trigger 
+Levels 
+dBL Aeq,15min  
+Residential R1, R6 & R7 Day 49 - 39 
+Evening 43 - 33 
+Night 38 53 28 
+R2 & R8 Day 46 - 36 
+Evening 43 - 33 
+Night 38 53 28 
+R3, R4 & R5 Day 46 - 36 
+Evening 43 - 33 
+Night 38 53 28 
+Commercial C1 to C5 When in use 63 - 53 
+Industrial I1 to I3 When in use 68 - 58 
+Note: 
+1_Sleep disturbance relates to both awakenings and disturbance to sleep stages. The NPfI [2]  outlines the following noise trigger levels for 
+assessment of night-time noise levels at residential locations:  
+LAeq,15min 40 dB(A) or the prevailing RBL plus 5 dB, whichever is the greater, and/or; 
+LAFmax 52 dB(A) or the prevailing RBL plus 15 dB, whichever is the greater 
+Where these trigger levels are exceeded, a detailed maximum noise level (L Amax ) event assessment should be undertaken.  
+ 
+Noting the conservatism used to derive the Project Echidna criteria for this assessment (which result in 
+conservative noise mitigation measures to be implemented in the design of Project Echidna), it is proposed to 
+re-assess cumulative noise emissions from the site by conducting a detailed assessment of noise emissions 
+from Building 1, Building 1A and the substation during the Project Echidna detailed design. This assessment 
+will establish if the Project Echidna design criteria can potentially be relaxed and consequently if noise 
+[[page 16]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  12 
+ 
+ 
+ 
+mitigations can be reduced and if the site operations can be altered (The client has indicated the desire to 
+conduct generator testing during night-time for Project Echidna).  
+The detailed design report would include the results and findings of the assessment, including review of 
+detailed noise emissions of Building 1, Building 1A, Project Echidna and the substation. The report would 
+also include all operating scenarios which can be implemented while meeting site emissions criteria at all 
+receivers. The report would be presented to the relevant authority prior to Construction Certificate. 
+6.2.1  Modifying factors 
+Table C1 of the NPfI [2] sets modifying factor corrections for annoying noise characteristics such as tonality, 
+dominant low frequency, intermittency or irregularity. 
+6.2.1.1  Tonal noise  
+Noise containing a prominent frequency and characterised by a definite pitch.  
+6.2.1.2  Low-frequency noise 
+Noise with an unbalanced spectrum and containing major components within the low-frequency range (10–
+160 Hz) of the frequency spectrum. 
+When assessing low frequency impacts, an initial screening test is first undertaken by evaluating whether the 
+difference in noise levels in C-weighted and in A-weighted are 15 dB or more at the receivers, which 
+identifies the potential for an unbalanced spectrum in which case further assessment is required. 
+6.2.1.3  Intermittent noise 
+Noise where the level suddenly drops/increases several times during the assessment period, with a noticeable 
+change in source noise level of at least 5 dB(A); for example, equipment cycling on and off. The 
+intermittency correction is not intended to be applied to changes in noise level due to meteorology. 
+6.2.1.4  Correction for duration 
+This is applied where a single-event noise is continuous for a period of less than two and a half hours in any 
+assessment period. Table 5 presents the allowable exceedance of the L Aeq, 15-min equivalent noise criterion for 
+the duration of the event. 
+Table 5: Adjustment for duration 
+Allowable duration of noise 
+(one event in any 24-hoour 
+period) 
+Allowable exceedance of L Aeq, 15-min  equivalent project noise trigger level at 
+receptor for the period of the noise event, dB(A) 
+Daytime and evening 
+(7am–10pm) 
+Night-time 
+(10pm-7am) 
+1 to 2.5 hours 2 Nil 
+15 minutes to 1 hour 5 Nil 
+6 minutes to 15 minutes 7 2 
+1.5 minutes to 6 minutes 15 5 
+Less than 1.5 minutes 20 10 
+6.2.1.5  Maximum correction 
+The maximum correction to be applied to the predicted or the measured level where two or more modifying 
+factors are present. The maximum adjustment is 10 dB(A) where the noise contains two or more modifying 
+factors (excluding the duration correction). 
+[[page 17]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  13 
+ 
+ 
+ 
+6.3 Emergency operations noise criteria 
+The NPfI [2] sets criteria for Standard Operations. These criteria do not strictly apply to emergency 
+operations, and typically less stringent criteria are adopted, based on the low likelihood of operation under 
+such conditions. 
+Generator testing is included in the standard operation of the site which is assessed against the NPfI criteria. 
+For emergency operations, the NPfI criteria are typically not adopted as emergency scenarios are considered 
+atypical. 
+Designing all 19 generators to comply with the NPfI [2] criteria (Project criteria in Section 6.2) is likely to 
+put unnecessary constraints and associated costs on the project and would be considered unreasonable due to 
+the low likelihood of power failure. Furthermore, if power failure were to occur, the duration of an outage is 
+expected to be hours rather than days. 
+Therefore, no acoustic criteria are proposed for emergency operations. 
+6.4 Modelling methodology 
+Noise levels have been predicted at the nearest sensitive receivers based on the noise levels and quantities of 
+external plant equipment. 
+The noise levels have been predicted using SoundPlan 8.1 for both the standard and the noise-enhancing 
+weather conditions as specified in Table D1 of the NPfI using the Concawe algorithm: 
+Fact sheet D of the NPfI provides two options to consider meteorological effects: 
+Option 1: adopt the noise enhancing meteorological conditions for all assessment periods for noise impact 
+assessment purposes without an assessment of how often these conditions occur. 
+Option 2: Determine the significance of noise-enhancing conditions by assessing the significance of 
+temperature inversions during the night time and wind during all periods. 
+The assessment has been conducted in accordance with Option 1 which does not require to conduct an 
+assessment of the meteorological conditions in the area but use a conservative approach that considers 
+source-to-receiver wind vectors for all receivers and F class temperature inversions with wind speeds up to 2 
+m/s at night.  
+Meteorological conditions used in the assessment: 
+• Standard meteorological condition:  
+− Day/evening/night: Stability categories A-D with wind speed up to 0.5 m/s at 10 m. 
+• Enhanced meteorological condition:  
+− Daytime/evening: Stability category A-D with light winds (up to 3m/s at 10 m) 
+− Night-time: Stability category A-D with light winds (up to 3m/s at 10 m) and/or stability category F 
+with winds up to 2m/s at 10 m. 
+Note,  SoundPlan results for Stability category A-D with light winds (up to 3m/s at 10 m) and the results 
+for stability category F with winds up to 2m/s at 10 m are similar (<1 dB difference). 
+The model includes: 
+• Receivers listed in Section 4 
+• Noise sources listed in Section 6.5.1 
+• On-site and surrounding buildings 
+• Ground terrain and absorption 
+[[page 18]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  14 
+ 
+ 
+ 
+6.5 Noise predictions 
+6.5.1  Noise sources  
+The Project includes the primary unmitigated  noise sources outlined in Table 6 with the exception of the 
+generators that are already mitigated; they are assumed to be located within an enclosure and the AHU that 
+includes an attenuator fitted on the inlet. 
+The sound power levels and octave band spectra have been provided by manufacturers or estimated based on 
+expected equipment power ratings and past project experience. It is understood that the building envelope 
+will primarily be concrete construction, therefore noise breakout from the internal data halls and other spaces 
+is anticipated to be readily controlled. Therefore, the focus of this assessment for the planning stage relates to 
+external equipment. 
+Noise emissions from all plant and equipment (apart from the trucks) are characterised as steady-state sound 
+in accordance with AS1055:2018 [2] i.e., constant noise emissions. 
+Equipment noise levels are assumed to not exhibit tonal characteristics. 
+Regarding truck movements within the site, it is anticipated that up to 3 trucks would be travelling within the 
+site to and from the loading docks per day during daytime hours only. Trucks would enter via Eastern Creek 
+Drive and exit via Old Wallgrove Road. A truck would be on site for a maximum of 1 hour while being 
+unloaded. The trucks will be turned off while being unloaded. 
+[[page 19]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  15 
+ 
+ 
+ 
+ Table 6: Unmitigated plant and associated sound power levels (L w) or sound pressure levels @ 1 m (L p) 
+Equipment Source Description Parameter  Overall 
+dB(A) 
+Octave Band Centre Frequency – Hz, dB Item modelled as  
+63 125 250 500 1 k 2 k 4 k 8 k 
+Exhaust fan Manufacturer data 
+(Stulz) 
+Exhaust  Lw  75  - 84  75  73  63  60  65  66  Point source  
+Intake  Lw  91  - 89  86  89  87  82  77  74  Area sources 3 
+Casing  Lw  74  - 73  74  76  64  54  39  31  
+Condenser 
+unit  
+Manufacturer data 
+(Stulz ) - Lw 90 - 87 85 87 87 81 76 70 Point Source 
+Air handling 
+unit 
+Manufacturer data 
+(Dannan)  
+Inlet  + attenuator  Lw  76  89  91  67  57  55  52  51  63  Area sources 4 
+Outlet  Lw  99  96  103  98  97  93  89  86  86  
+Empirical data  Casing  Lw  86  88  96  86  85  75  64  54  53  
+Generators 1,2  
+- 
+ 
+ 
+ 
+ 
+Enclosure wall 
+Lp at 1m 
+Indicative 
+dimensions: 9m x 
+3.7m  
+75 76 76 79 75 66 57 46 47 
+Area sources 5 
+Exhaust  Lp at 1m  70  66  66  59  62  67  63  61  55  Point Source  
+Intake louvre 
+Lp at 1m 
+Indicative 
+dimensions:4m x 
+4m 
+75 79 79 77 59 60 57 55 74 
+Area sources 5 
+Discharge louvre 
+Lp at 1m 
+Indicative 
+dimensions: 3.7m 
+x 4m  
+75 79 79 79 63 61 59 56 73 
+Substation 
+transformer 
+Empirical data-  
+AS/NZ60076.10.2019 
+Assumes reduced 
+maximum  
+40MVA Lw 80 83 85 80 80 74 69 64 57 
+Point Source 
+Empirical data-  
+AS/NZ60076.10.2019 
+Assumes standard 
+maximum  
+45MVA  Lw  89  92  94  89  89  83  78  73  66  Point Source  
+315kVA Lw 59 62 64 59 59 53 48 43 36 
+Point Source 
+Load bank  
+Manufacturer data off 
+the shelf loadbank 
+(Sephco ) 
+- Lw 111 107 107 113 108 105 103 99 102 
+Point Source 
+Service 
+(heavy 
+vehicles) 
+Arup database 
+Vehicle 
+accelerating/moving 
+(assume 5km/h) 
+travelling to/from the 
+loading dock  
+Lw/m 
+ 70 73 69 66 65 67 62 58 52 
+Line source 
+[[page 20]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  16 
+ 
+ 
+ 
+Equipment Source Description Parameter  Overall 
+dB(A) 
+Octave Band Centre Frequency – Hz, dB Item modelled as  
+63 125 250 500 1 k 2 k 4 k 8 k 
+Vehicle near loading 
+dock reversing 
+(assume 5km/h)  
+Lw/m 64 70 69 60 58 57 59 48 39 
+Line source 
+Vehicle air brake  Lw  106  115  109  105  103  101  97  93  87  Point Source  
+Note: 
+1_Noise emission from the acoustic enclosure shall be free of the tonal, modulated and impulsive noise (refer to NPfI [2] ). 
+2_Sound pressure levels are indicative only, as sound power will be dependent on surface area and size of components 
+3_Exhaust fan modelled as follows noting that casing dimensions are 4.5 m x 2.4 m x 2.6 m: 
+o Enclosure (2 long sides, 1 short side, 1 roof). Equivalent Lw of casing is 58  Lw/m 2 
+4_Air Handling Units: 4x to 5x Air handling units are located within a plant room, each plant room services a data hall. There are 4x data halls, therefore 4 plant rooms. An area source for each plant room has been 
+modelled as follows:  
+o Approximate dimension of a louvre is 24m to 29m x 3m. Equivalent Lw is 70 dBA/m 2. Model also adds a directivity factor to the louvre. 
+5_Generator enclosure modelled as follow: 
+o Enclosure (2 sides): Each side is approximately 9m x 3.7m. Equivalent Lw is 81dBA/m 2 
+o Intake (1x intake louvre): intake size is approximately 4m x 4m. Equivalent Lw is 77 dBA/m 2 
+o Discharge (1x discharge louvre): discharge louvre is approximately 3.7m x 4m. Equivalent Lw is 77 dBA/m 2 
+[[page 21]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  17 
+ 
+ 
+ 
+6.5.2  Operating scenarios 
+To assess potential noise impacts during operation, three scenarios comprising typical equipment have been 
+developed based on our understanding of the project. These scenarios are considered representative of the 
+noisiest operational activities likely to occur and are described below. 
+Modelling scenarios are described in Section 6.1 and in Table 7. 
+Table 7: Modelling scenarios and corresponding plant and equipment quantities 
+Equipment 
+Scenarios 
+Normal operation 
+Emergency operation 
+Day Night 
+Exhaust fan 96 96 96 
+Condenser unit 36 36 36 
+Air handling unit 68 68 68 
+Generator 1-maintenance testing 1 - 2 19 
+Substation transformer 5 5 5 
+Load bank 1-maintenance testing 1 - 2 - 
+Service (heavy vehicles) 3 - 3 
+Note 1: Note that the client has indicated the desire to test up to 3 generators concurrently without load banks or 1x generator with load bank. 
+The assessment reviewed both scenarios and the results of the worst case scenario being 1x generator tested with load bank is presented in this 
+report.  
+Note 2: The client has indicated the desire to conduct generator testing during the night-time period. This scenario will be assessed during 
+detailed design. If criteria can be achieved when testing is conducted during the night-time, this will be documented and presented to the 
+relevant authority prior to Construction Certificate.  
+6.5.3  Predicted noise levels - unmitigated – noise egress 
+Noise predictions for standard operations under standard and enhanced meteorological conditions are 
+presented in Table 8 and Table 9 for the daytime and the night-time operations respectively.  
+Noise predictions for emergency operations are presented in Table 10.  
+Low frequency noise has been assessed in accordance with the modifying factor corrections in Tables C1 
+and C2 of the NPfI, no exceedances were found and therefore no penalty has been added. Assumed 
+equipment noise levels do not to exhibit tonal characteristics. 
+ 
+[[page 22]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  18 
+ 
+ 
+ 
+Table 8: Unmitigated predicted noise levels – standard daytime operation – Standard and Enhanced weather 
+conditions 
+Receiver 
+Overall Site 
+criteria 
+Leq,15min dB(A)  
+Daytime - Standard weather conditions  Daytime - Enhanced weather conditions 
+Predicted 
+level 
+Leq,15min dB(A)  
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+Predicted 
+level 
+Leq,15min 
+dB(A) ) 
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+R1 49 29 39 Yes 35 39 Yes 
+R2 46 29 36 Yes 35 36 Yes 
+R3 46 27 36 Yes 33 36 Yes 
+R4 46 26 36 Yes 32 36 Yes 
+R5 46 24 36 Yes 30 36 Yes 
+R6 49 26 39 Yes 32 39 Yes 
+R7 49 14 39 Yes 19 39 Yes 
+R8 46 29 36 Yes 35 36 Yes 
+C1 58 58 53 No (+5dB) 59 53 No (+6dB) 
+C2 52 52 53 Yes 54 53 No 
+C3 48 48 53 Yes 51 53 Yes 
+C4 46 46 53 Yes 51 53 Yes 
+C5 40 40 53 Yes 45 53 Yes 
+I1 66 66 58 No (+8dB) 67 58 No (+9dB) 
+I2 59 42 58 Yes 47 58 Yes 
+I3 42 63 58 No (+5dB) 64 58 No (+6dB) 
+Note: 
+1_Project criteria accounts for Project Echidna and Substation sources. 
+2_Exceedances to project criteria are indicated in red . 
+ 
+Table 9: Unmitigated predicted noise levels – night-time operation - standard and enhanced weather conditions 
+Receiver 
+Overall Site 
+criteria 
+Leq,15min dB(A)  
+Night-time - Standard weather 
+conditions 
+Night-time - Enhanced weather 
+conditions  
+Predicted 
+level 
+Leq,15min dB(A)  
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+Predicted 
+level 
+Leq,15min 
+dB(A) ) 
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+R1 38 26 28 Yes 32 28 No (+4dB) 
+R2 38 28 28 Yes 34 28 No (+6dB) 
+R3 38 27 28 Yes 32 28 No (+4dB) 
+R4 38 26 28 Yes 32 28 No (+4dB) 
+R5 38 24 28 Yes 30 28 No (+2dB) 
+R6 38 25 28 Yes 31 28 No (+3dB) 
+R7 38 12 28 Yes 18 28 Yes  
+R8 38 28 28 Yes 34 28 No (+6dB) 
+C1 63 58 53 No (+5dB) 59 53 No (+6dB) 
+[[page 23]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  19 
+ 
+ 
+ 
+Receiver 
+Overall Site 
+criteria 
+Leq,15min dB(A)  
+Night-time - Standard weather 
+conditions 
+Night-time - Enhanced weather 
+conditions  
+Predicted 
+level 
+Leq,15min dB(A)  
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+Predicted 
+level 
+Leq,15min 
+dB(A) ) 
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+C2 63 52 53 Yes 54 53 No (+1dB) 
+C3 63 48 53 Yes 51 53 Yes 
+C4 63 46 53 Yes 51 53 Yes 
+C5 63 40 53 Yes 45 53 Yes 
+I1 68 60 58 No (+2dB) 61 58 No (+3dB) 
+I2 68 41 58 Yes 46 58 Yes 
+I3 68 54 58 Yes 56 58 Yes 
+Note: 
+1_Project criteria accounts for Project Echidna and Substation sources. 
+2_Exceedances to project criteria are indicated in red . 
+Results in Table 8 and Table 9 show that mitigation measures are required to comply with criteria in Section 
+6.2. 
+Predicted levels for the emergency scenario for the unmitigated scenario are presented in Table 10. 
+Table 10: Unmitigated Predicted noise levels – emergency operation  
+Receiver 
+Predicted level, L eq,15min dB(A)  
+Standard weather conditions Enhanced weather conditions 
+R1 27 33 
+R2 29 35 
+R3 27 33 
+R4 27 32 
+R5 25 31 
+R6 26 33 
+R7 16 22 
+R8 28 34 
+C1 58 59 
+C2 52 54 
+C3 48 52 
+C4 47 51 
+C5 41 45 
+I1 60 61 
+I2 42 47 
+I3 56 58 
+ 
+6.5.4  Mitigation measures 
+Preliminary noise mitigation measures (to be revised during detailed design) include:  
+[[page 24]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  20 
+ 
+ 
+ 
+• Reselecting quieter equipment 
+• Installing acoustic louvres to plant room and or installing attenuators to AHU units 
+• Building solid barriers/partial enclosures around noisy plant 
+The assessment has been revised considering implementation of the above mitigation measures. Updated 
+noise level predictions are presented in Table 11, Table 12 and Table 13. 
+The mitigated assessment includes: 
+• An estimated 10 dB noise reduction of noise emissions from the condenser units – achieved through 
+reselection and oversizing of units 
+• An estimated 10 dB reduction of noise emissions from the AHUs – achieved through reselection of 
+AHUs + attenuator fitted to the inlet or attenuator fitted at the louvre 
+• An estimated 13 dB reduction of noise emissions from the load bank – achieved through reselection of 
+unit or partial enclosure. 
+Further detailed acoustic design will be required to finalise mitigation specifications during the detailed 
+design phase of the project (as per Section 6.2). 
+6.5.5  Predicted noise levels - mitigated – noise egress 
+Noise predictions for standard operations (with mitigation measures included) under standard and enhanced 
+meteorological conditions are presented in Table 11 and Table 12 for the daytime and the night-time 
+operations respectively.  
+Noise predictions for emergency operations (with mitigation measures included) are presented in Table 13.  
+[[page 25]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  21 
+ 
+ 
+ 
+Table 11: Mitigated predicted noise levels – standard daytime operation – Standard and Enhanced weather conditions 
+Receiver 
+Overall Site 
+criteria 
+Leq,15min dB(A)  
+Daytime – Standard weather conditions  Daytime – Enhanced weather 
+conditions 
+Predicted 
+level 
+Leq,15min dB(A)  
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+Predicted 
+level 
+Leq,15min 
+dB(A) ) 
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+R1 49 21 39 Yes 28 39 Yes 
+R2 46 22 36 Yes 29 36 Yes 
+R3 46 19 36 Yes 25 36 Yes 
+R4 46 19 36 Yes 25 36 Yes 
+R5 46 17 36 Yes 23 36 Yes 
+R6 49 20 39 Yes 26 39 Yes 
+R7 49 8 39 Yes 14 39 Yes 
+R8 46 23 36 Yes 29 36 Yes 
+C1 63 50 53 Yes 51 53 Yes 
+C2 63 45 53 Yes 47 53 Yes 
+C3 63 42 53 Yes 45 53 Yes 
+C4 63 40 53 Yes 44 53 Yes 
+C5 63 34 53 Yes 39 53 Yes 
+I1 68 57 58 Yes 58 58 Yes  
+I2 68 35 58 Yes 40 58 Yes 
+I3 68 53 58 Yes 55 58 Yes 
+Notes: 
+1_Project criteria accounts for Project Echidna and Substation sources. 
+2_Exceedances to project criteria are indicated in red . 
+ 
+Table 12: Mitigated predicted noise levels – standard night-time operation – Standard and Enhanced weather 
+conditions 
+Receiver 
+Overall Site 
+criteria 
+Leq,15min dB(A)  
+Night time – Standard weather 
+conditions  
+Night time – Enhanced weather 
+conditions 
+Predicted 
+level 
+Leq,15min dB(A)  
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+Predicted 
+level 
+Leq,15min 
+dB(A) ) 
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+R1 38 21 28 Yes 27 28 Yes 
+R2 38 22 28 Yes 28 28 Yes 
+R3 38 19 28 Yes 25 28 Yes 
+R4 38 19 28 Yes 25 28 Yes 
+R5 38 17 28 Yes 23 28 Yes 
+R6 38 20 28 Yes 26 28 Yes 
+R7 38 10 28 Yes 13 28 Yes 
+[[page 26]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  22 
+ 
+ 
+ 
+Receiver 
+Overall Site 
+criteria 
+Leq,15min dB(A)  
+Night time – Standard weather 
+conditions  
+Night time – Enhanced weather 
+conditions 
+Predicted 
+level 
+Leq,15min dB(A)  
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+Predicted 
+level 
+Leq,15min 
+dB(A) ) 
+Project 
+Criteria 1 
+Leq,15min dB(A)  
+Meets 
+project 
+criteria? 
+R8 38 22 28 Yes 28 28 Yes 
+C1 63 50 53 Yes 51 53 Yes 
+C2 63 45 53 Yes 47 53 Yes 
+C3 63 41 53 Yes 44 53 Yes 
+C4 63 39 53 Yes 44 53 Yes 
+C5 63 34 53 Yes 38 53 Yes 
+I1 68 55 58 Yes 56 58 Yes  
+I2 68 34 58 Yes 39 58 Yes 
+I3 68 48 58 Yes 50 58 Yes 
+Notes: 
+1_Project criteria accounts for Project Echidna and Substation sources. 
+2_Exceedances to project criteria are indicated in red . 
+ 
+Table 12 shows compliance with criteria in Section 6.2 during standard and enhanced weather conditions at 
+all receivers with indicative preliminary mitigation measures included.  
+Mitigated predicted levels for the emergency scenario are presented in Table 13. 
+Table 13: Mitigated Predicted noise levels – emergency operation 
+Receiver 
+Predicted level, L eq,15min dB(A)  
+Standard weather conditions Enhanced weather conditions 
+R1 24 30 
+R2 25 32 
+R3 22 28 
+R4 21 27 
+R5 20 26 
+R6 23 30 
+R7 15 21 
+R8 23 31 
+C1 50 52 
+C2 46 49 
+C3 44 47 
+C4 42 47 
+C5 37 41 
+I1 59 60 
+I2 38 43 
+I3 53 55 
+[[page 27]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  23 
+ 
+ 
+ 
+7.  Road traffic noise  
+Increased traffic generated on the public road network is assessed in accordance with the NSW Road Noise 
+Policy (RNP) [3]. 
+When assessing noise impact using the existing road network, an initial screening test is applied to evaluate 
+whether noise levels are expected to increase by more than 2 dBA due to the additional traffic generated by 
+the Project. 
+Where noise levels are predicted to increase by more than 2 dBA (i.e. 2.1 dBA or greater) further assessment 
+is required against the criteria in Table 3 of the RNP. 
+Access to and from the site will be via Eastern Creek Drive and Old Wallgrove Road which is a sub arterial 
+road. 
+Due to the anticipated low number of vehicles generated by the site (up to 3 trucks per day for Building 1 
+and Building 1A combined and up to 3 trucks per day for Project Echidna), generated traffic noise is 
+anticipated to comply with RNP. 
+8.  Construction noise and vibration 
+Construction works will be assessed in accordance with the NSW Interim Construction Noise Guideline [4] 
+(ICNG or Guideline). 
+8.1 Construction noise criteria 
+The ICNG [4] provides recommended noise levels for airborne construction noise at sensitive land uses. The 
+guideline provides construction noise management levels above which all feasible and reasonable work 
+practices should be applied to minimise the construction noise impact. The ICNG works on the principle of a 
+‘screening’ criterion – if predicted or measured construction noise exceeds the ICNG levels then the 
+construction activity must implement all ‘feasible and reasonable’ work practices to reduce noise levels. 
+The ICNG provides two methods for assessing construction noise, varying typically on the basis of the 
+project duration, being either a quantitative or a qualitative assessment. A quantitative assessment is 
+recommended for major construction projects of significant duration, and involves the measurement of 
+background noise levels for determination of noise management levels and prediction of construction noise 
+levels. A qualitative assessment is recommended for small projects with a duration of less than three weeks 
+and focuses on minimising noise disturbance through the implementation of reasonable and feasible work 
+practices, and community notification.  
+This development is considered to warrant a quantitative assessment. 
+The ICNG sets out management levels for noise at noise sensitive receivers, and how they are to be applied. 
+These noise management levels (NMLs) for residential receivers and other sensitive receivers are reproduced 
+in Table 14 and in Table 15 respectively.  
+[[page 28]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  24 
+ 
+ 
+ 
+Table 14: Construction noise management levels (NMLs) at residential receivers 
+Time of day NML 1 
+LAeq (15 min)  How to apply 
+Recommended standard 
+hours: 
+Monday to Friday 
+7am to 6pm 
+Saturday 8am to 1pm 
+No work on Sundays or 
+public holidays 
+Noise affected 
+RBL + 10dB 
+The noise affected level represents the point above which there 
+may be some community reaction to noise. 
+Where the predicted or measured Laeq (15 min) is greater than 
+the noise affected level, the proponent should apply all feasible 
+and reasonable work practices to meet the noise affected level. 
+The proponent should also inform all potentially impacted 
+residents of the nature of works to be carried out, the expected 
+noise levels and duration, as well as contact details. 
+Highly noise 
+affected 
+75dB(A) 
+The highly noise affected level represents the point above which 
+there may be strong community reaction to noise. 
+Where noise is above this level, the relevant authority (consent, 
+determining or regulatory) may require respite periods by 
+restricting the hours that the very noisy activities can occur, 
+taking into account: 
+times identified by the community when they are less sensitive to 
+noise (such as before and after school for works near schools, or 
+mid-morning or mid-afternoon for works near residences 
+if the community is prepared to accept a longer period of 
+construction in exchange for restrictions on construction times. 
+Outside recommended 
+standard hours 
+Noise affected 
+RBL + 5dB 
+A strong justification would typically be required for works 
+outside the recommended standard hours. 
+The proponent should apply all feasible and reasonable work 
+practices to meet the noise affected level. 
+Where all feasible and reasonable practices have been applied 
+and noise is more than 5dB(A) above the noise affected level, the 
+proponent should negotiate with the community. 
+For guidance on negotiating agreements see section 7.2.2 of the 
+ICNG. 
+Note 1: Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5 m above ground level. If the 
+property boundary is more than 30 m from the residence, the location for measuring or predicting noise levels is at the most noise-affected point 
+within 30 m of the residence. Noise levels may be higher at upper floors of the noise affected residence. 
+ 
+Table 15: Construction noise management levels (NMLs) at other noise sensitive land uses 
+Land use Where objective applies Management level L Aeq(15 min) 1 
+Classrooms at schools and other 
+educational institutions 
+Internal noise level 
+ 
+45 dB(A) 
+Hospital wards and operating 
+theatres 
+Internal noise level 45 dB(A) 
+Places of worship Internal noise level 45 dB(A) 
+Active recreation areas  External noise level 65 dB (A) 
+Passive recreation areas External noise level 60 dB (A) 
+Community centres Depends on the intended use of th e 
+centre. 
+Refer to the ‘maximum’ internal levels 
+in AS2107 for specific uses. 
+Commercial premises External noise level 70 dB(A) 
+Industrial premises External noise level 75 dB(A) 
+Note 1: Noise management levels apply when receiver areas are in use only. 
+  
+[[page 29]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  25 
+ 
+ 
+ 
+8.1.2  Project construction noise targets 
+Table 16 summarises relevant project construction noise targets for the project. For the residential receivers, 
+the construction noise criteria are set based on the noise measurements results in Section 5. 
+Table 16: Construction Noise Management Levels – recommended Standard hours 
+Rec ID Type 
+External NML, dBL Aeq 15 minute  
+(Recommended standard  hours) 
+Noise affected Highly Noise affected 
+R1, R6 & R7 Residential 54 75 
+R2 & R8 Residential 51 75 
+R3, R4 & R5 Residential 51 75 
+C1 to C5 Commercial 70 (when in use) - 
+I1 to I3 Industrial 75 (when in use) - 
+Note 1_Standard hours are Monday to Friday 7am to 6pm and Saturday 8am to 1pm. 
+8.2 Construction noise assessment 
+8.2.1  Hours of work 
+Construction works are proposed to be conducted during ICNG recommended standard construction hours, 
+outlined in Table 17. 
+Table 17: ICNG recommended standard hours of construction 
+Day ICNG recommended standard hours of construction 
+Monday – Friday 7am – 6pm 
+Saturday 8am – 1pm 
+Sundays or Public holidays No construction work 
+8.2.2  Assessment methodology 
+Noise emissions from construction activities have been assessed to NMLs in Section 8.1. 
+Noise emissions have been modelled using SoundPlan 8.1 using the Concawe algorithm.  
+The model included: 
+• Receivers listed in Section 4 
+• Noise sources listed in Section 8.2.5 
+• On-site and surrounding buildings 
+• Ground terrain and absorption 
+Equipment, staging, locations and duration are unavailable at this stage of the project. Therefore, 
+assumptions have been made based on similar projects. 
+The magnitude of construction noise impacts is dependent upon a number of aspects including the intensity 
+and location of activities, the type of equipment used and background noise levels during the construction 
+period.  
+No mitigation measures have been included in the predictions. 
+  
+[[page 30]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  26 
+ 
+ 
+ 
+8.2.4  Construction activities 
+Construction activities likely to be conducted for the project are: 
+• Activity 1: Site establishment and excavation 
+• Activity 2: Foundations 
+• Activity 3: Pavement and road works 
+• Activity 4: Building construction 
+• Activity 5: Plant installation and connection 
+8.2.5  Plant and equipment sources 
+Equipment sound power levels (L w) have been determined by reference to AS2436 [5] and the CNVS [6]. 
+The equipment has been assumed to operate concurrently and for durations listed over a 15-minute period (a 
+typical worst-case assumption). 
+[[page 31]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  27 
+ 
+ 
+ 
+Table 18: Equipment and plant sound power levels 
+Plant item Plant item L w, 
+dBA Penalty 1, dB 
+% of use in 
+worse case 15 
+min 
+Number of items operational in worst case 15 minute period 
+Activity 1: Site 
+establishment 
+and excavation 
+Activity 2: 
+Foundations 
+Activity 3: 
+Pavement and 
+road works 
+Activity 4: 
+Building 
+construction 
+Activity 5: Plant 
+installation and 
+connection 
+Backhoe 108 0 100 1     
+Compactor 115 5 100 1  1   
+Concrete Pump  109 0 100  1 1 1  
+Concrete Pump Truck 113 0 100  1 1 1  
+Crane (Franna) 98 0 100    1  
+Crane (Tower) 105 0 100    1  
+Excavator (30t) + hydraulic 
+hammer 
+122 5 100 3  1   
+Generator (Diesel) 113 0 100 1  1 1  
+Grader 115 0 100 1  1   
+Jack Hammer 121 5 100   1   
+Loader (Front-end) (23t) 112 0 100 1  1   
+Pavement Laying Machine 114 0 100   1   
+Piling rig (impact) 129 5 100  1    
+Roller (Smooth-drum) 107 0 100   1   
+Roller (Vibrator) 112 5 100 2     
+Scraper 116 0 100 1     
+Truck (>20 Tonne) 107 0 100 1 1 1   
+Truck (Water Cart) 108 0 100 2  2 1  
+Vehicle (Light Commercial e.g. 
+4WD) 
+111 0 100 2  2 2 1 
+Note 1: Penalty applies if equipment has special characteristics in accordance with ICNG [4] 
+[[page 32]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  28 
+ 
+ 
+ 
+8.2.6  Noise prediction results 
+Predicted construction noise levels at the surrounding receivers are presented in Table 19. 
+A maximum range of noise levels have been predicted for receivers located the closest to the site as the 
+construction noise levels at those receivers will vary greatly depending on location of equipment. The lower 
+level assumes that all equipment in Section 8.2.5 is operating concurrently within the site which represents 
+the maximum average noise levels at the receivers throughout the construction period while the upper noise 
+levels in the range represents the maximum noise levels at the receivers when the noisiest piece of equipment 
+operates the closest to the receivers.  
+It is noted that the predicted construction noise levels are generally conservative and do not represent a 
+constant noise emission that would be experienced by the community on a daily basis throughout the project 
+construction period. In reality the predicted noise levels will vary in intensity and would only be experienced 
+for limited periods of time when works are occurring. 
+Table 19: Predicted construction noise levels – Residential and non-residential receivers 
+Residential 
+receiver 
+NML, dBL Aeq 15min  Predicted noise level, dBL Aeq(15min).  
+Noise 
+affected – 
+Standard 
+hours 
+Highly 
+Noise 
+Affected 
+Activity 1: 
+Site 
+establishme 
+nt and 
+excavation 
+Activity 2: 
+Foundations 
+Activity 3: 
+Pavement 
+and road 
+works 
+ 
+Activity 4: 
+Building 
+construction 
+ 
+Activity 5: 
+Plant 
+installation 
+and 
+connection 
+R1 54 75 43-49 45-49 41-42 30-33 21-33 
+R2 51 75 51-54 52-55 49-49 38-40 29-35 
+R3 51 75 45-45 46-49 43-43 32-34 23-29 
+R4 51 75 45-47 46-47 43-43 32-34 23-31 
+R5 51 75 45-47 46-48 42-43 31-33 23-27 
+R6 54 75 38-39 39-42 36-36 25-27 16-23 
+R7 54 75 33-35 35-36 31-31 20-21 11-15 
+R8 51 75 49-50 50-50 46-47 35-38 27-34 
+C1 70 - 80-83 81-83 78-78 67-68 58-63 
+C2 70 - 79-80 80-83 77-77 66-68 57-64 
+C3 70 - 77-80 78-80 75-75 64-65 55-60 
+C4  70 - 72-74 73-74 70-70 59-62 50-58 
+C5 70 - 68-72 69-72 65-66 54-56 46-56 
+I1  75 - 87-96 88-96 85-87 74-80 65-80 
+I2  75 - 61-63 62-63 58-59 47-50 39-47 
+I3  75 - 80-83 81-83 78-78 67-68 58-63 
+Note 1: Proposed future commercial receiver 
+Note 2: Cells highlighted in grey indicate an exceedance of standard hours NMLs 
+Results show that the NMLs are predicted to generally comply with criteria at the residential receivers during 
+all phases with a minor exceedance predicted at R2 during activity 1 and activity 2. Predicted levels at 
+residential receivers are below the 75 dBA highly noise affected level. 
+Results show that for the commercial and industrial receivers near the site, the NMLs will be exceeded. 
+Noise Management measures should be implemented (Refer to Section 8.5). 
+[[page 33]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  29 
+ 
+ 
+ 
+8.3 Construction traffic assessment 
+Increased traffic generated on the public road network is assessed in accordance with the NSW Road Noise 
+Policy (RNP) [3]. 
+When assessing noise impact using the existing road network, an initial screening test is applied to evaluate 
+whether noise levels are expected to increase by more than 2 dBA due to the additional traffic generated by 
+the Project. 
+Where noise levels are predicted to increase by more than 2 dBA (i.e. 2.1 dBA or greater) further assessment 
+is required against the criteria in Table 3 of the RNP. 
+Access to and from the site will be via Old Wallgrove Road which is a sub arterial road.  
+Due to the anticipated low number of vehicles generated by the construction of the development, 
+construction traffic noise is anticipated to comply with RNP. 
+8.4 Construction vibration criteria 
+The effect of vibration in buildings can be divided into three main categories: 
+1.  Human perception of vibration : when the occupants or users of the building are potentially disturbed 
+by vibration . Relevant guidance is provided in NSW Assessing Vibration: a technical guideline  [7]. This 
+document is based on BS 6472:1992 [8]. 
+2.  Effects on building contents : People can perceive floor vibration at levels well below those likely to 
+cause damage to typical building contents. However, some scientific equipment (e.g. electron 
+microscopes and microelectronics manufacturing equipment) can require more stringent objectives than 
+those applicable to human comfort. Where appropriate, objectives for the satisfactory operation of 
+critical instruments or manufacturing processes should be sourced from manufacturer’s data and/or other 
+published objectives. 
+Note that it is not expected that scientific equipment would be located near the site. 
+3.  Effects of vibration on structures: A level of vibration where the integrity of the building or the 
+structure itself may be affected, ranging from cosmetic to major structural damage. The relevant criteria 
+are typically well above the level of vibration which people may consider intrusive. Guidance may be 
+found in AS 2187:Part 2 [9]. BS 7385 Part 2 [10] and DIN 4150 [11] which also has criteria of particular 
+reference for heritage structures and buried pipework. 
+Further details are included in Appendix C. 
+8.5 Construction noise and vibration management 
+Application of all reasonable and feasible mitigation measures should be adopted for the project. The 
+following discusses in-principle management measures. 
+8.5.1  Construction noise and vibration management plan 
+For all construction works, the contractor would be expected to prepare a detailed Construction Noise and 
+Vibration Management Plan (CNVMP). This plan should include but not be limited to the following : 
+• Roles and responsibilities 
+• Noise sensitive receiver locations 
+• Areas of potential impact 
+• Mitigation strategy 
+• Monitoring methodology 
+• Community engagement strategy. 
+[[page 34]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  30 
+ 
+ 
+ 
+General guidance on the control of construction noise and vibration impacts relevant to this study are 
+discussed in the following sections. 
+8.5.2  General 
+In general, practices to reduce construction noise impacts will be required, and may include: 
+• Adherence to the standard approved working hours as outlined in the Project Approval. 
+• Manage noise from construction work that might be undertaken outside the recommended standard hours 
+• The location of stationary plant (concrete pumps, air-compressors, generators, etc.) as far away as 
+possible from sensitive receivers 
+• Using site sheds and other temporary structures or screens to limit noise exposure where possible. 
+• The appropriate choice of low-noise construction equipment and/or methods (such as using bored piling 
+instead of impact piling for example) 
+• Modifications to construction equipment or the construction methodology or programme. This may entail 
+programming activities to occur concurrently where a noisy activity will mask a less noisy activity, or, at 
+different times where more than one noisy activity will significantly increase the noise. The 
+programming should also consider the location of the activities due to occur concurrently. 
+• Carry out consultation with the community and surrounding building owners/occupants during 
+construction including, but not limited to; advance notification of planned activities and expected 
+disruption/effects, construction noise complaints handling procedures. 
+8.5.3  Universal work practices 
+The following noise mitigation work practices are recommended to be adopted at all times on site: 
+• Regularly train workers and contractors (such as at toolbox talks) to use equipment in ways to minimise 
+noise. 
+• Site managers to periodically check the site and nearby residences for noise problems so that solutions 
+can be quickly applied. 
+• Avoid the use of radios or stereos outdoors. 
+• Avoid the overuse of public address systems. 
+• Avoid shouting, and minimise talking loudly and slamming vehicle doors. 
+• Turn off all plant and equipment when not in use. 
+8.5.4  Vibration – minimum working distances 
+With regards to vibration impacts during construction, these will be managed by the Contractor and will 
+depend on the type, size, number and location of equipment used. Preliminary screening criteria are provided 
+in Table 20. Those Recommended minimum working distances for vibration intensive plant are based on 
+international standards and guidance. Table 20 shows that where vibration generating equipment is to be 
+located within a certain distance from a receiver vibration impact may occur. 
+Regarding the proposed development works, vibration is not expected to impact upon surrounding 
+developments. Notwithstanding, should equipment be located within the minimum working distance, 
+mitigations measures should be implemented such as reselection of low vibration generating equipment 
+and/or vibration monitoring. Should vibration monitoring be conducted, the criteria to be achieved at the 
+location of monitoring would be the criteria in Appendix C. 
+ 
+[[page 35]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  31 
+ 
+ 
+ 
+Table 20: Recommended minimum working distances for vibration intensive plant 
+Plant Item Rating / Description 
+Minimum working distance 
+Industrial and 
+heavy 
+commercial 
+buildings 
+BS 7385   
+Line 1 -25 mm/s 
+(See note 1) 
+ 
+Residential and 
+light 
+commercial 
+buildings 
+BS 7385 
+Line 2 - 
+7.5 mm/s 
+(See note 1) 
+Structures 
+unsound  
+DIN 4150 
+Line 3 - 3 mm/s 
+ 
+Human 
+response 
+(OH&E 
+Vibration 
+Guideline) 
+Vibratory 
+Roller 
+> 300 kN (Typically 
+13-18 tonnes) 
+8 m 20 m 40 m 100 m 
+Large 
+Hydraulic 
+Hammer 
+(1600 kg – 18 to 34t 
+excavator) 
+9 m 22 m 44 m 73 m 
+Vibratory Pile 
+Driver 
+Sheet piles 9 m 22 m 44 m 73 m 
+Jackhammer Hand held 1 m (nominal) 1 m (nominal) 3 m 5 m 
+Notes:  
+1_Where vibration might give rise to resonant responses in structures 
+9.  Conclusion 
+An acoustic assessment has been carried out for the proposed data centre Project Echidna in accordance with 
+the requirements of the industry specific Planning Secretary’s Environmental Assessment Requirements 
+(SEARs) for Data Storage Centres. 
+Project Echidna is to be located on a site containing 2 approved data centres and a future substation. Criteria 
+applicable to the whole site was determined for SPP-19-00013 DA [1] application. As no allowance was 
+made for Project Echidna and the substation noise emissions, a conservative and preliminary noise criteria 
+have been set (i.e. site criteria – 10 dB). This would ensure that emissions from Project Echidna will not 
+contribute to an exceedance of the site criteria.  
+The operational noise assessment has carried out noise predictions in accordance with the NSW Noise Policy 
+for Industry [2], including consideration of noise-enhancing meteorological conditions. 
+Indicative noise mitigation measures are provided and demonstrate the Proposal can achieve the adopted 
+project criteria. Further acoustic design will be required during the design development phase to confirm the 
+detailed specification of equipment and mitigation measures. 
+Noting the conservatism used to derive the Project Echidna criteria for this assessment (which result in 
+conservative noise mitigation measures to be implemented in the design of Project Echidna), it is proposed to 
+re-assess cumulative noise emissions from the site by conducting a detailed assessment of noise emissions 
+from Building 1, Building 1A and the substation during the Project Echidna detailed design. This assessment 
+will establish if the Project Echidna design criteria can potentially be relaxed and consequently if noise 
+mitigations can be reduced and if the site operations can be altered (The client has emitted the desire to 
+conduct generator testing during night-time for Project Echidna).  
+The detailed design report would include the results and findings of the assessment, including review of 
+detailed noise emissions of Building 1, Building 1A, Project Echidna and the substation. The report would 
+also include all operating scenarios which can be implemented while meeting site emissions criteria at all 
+receivers. The report would be presented to relevant authority prior to Construction Certificate. 
+ 
+[[page 36]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  32 
+ 
+ 
+ 
+Regarding construction, while specific activities and work schedules are not yet known, a preliminary 
+assessment has been conducted. Criteria has been established in accordance with the NSW ICNG [4] and 
+Assessing Vibration: a technical guideline [12]. Predicted levels indicate that NMLs are likely to be 
+exceeded. Recommendations with regard to mitigation and management measures are also outlined and are 
+expected to be developed further in a formal Construction Noise and Vibration Management Plan, to be 
+prepared prior to commencement of works. 
+ 
+ 
+[[page 37]]
+ 
+EIS  Project Echidna  
+ 
+SSD -47320208  | Final  | 8 February 2023  | Arup Australia Pty Ltd  Noise and Vibration Impact Assessment - SSDA  Page  33 
+ 
+ 
+ 
+10.  References 
+ 
+[1]  Aurecon, “10 Eastern Creek Drive, Eastern Creek, NSW 2766 - Development Application Acoustic 
+Assessment (SPP-19-00013),” 23 October 2023. 
+[2]  NSW EPA, “NSW Noise Policy for Industry,” EPA, Sydney, 2017. 
+[3]  Department of Environment, Climate Change and Water NSW, “NSW Road Noise Policy,” NSW 
+Environmental Protection Authority, Sydney, 2011. 
+[4]  Department of Environment and Climate Change NSW, “Interim Construction Noise Guideline,” 
+Department of Environment and Climate Change NSW, Sydney, 2009. 
+[5]  Australian Standards, “AS2436-2010: Guide to noise and vibration control on construction, demolition 
+and maintenance sites,” Australian Standards, Sydney, 2010. 
+[6]  Transport for NSW, “Construction Noise and Vibration Strategy,” 2019. 
+[7]  Department of Envirnoment and Conservation (NSW), “Assessing vibration - a technical guide,” 
+Department of Envirnoment and Conservation (NSW), NSW, 2006. 
+[8]  British Standards Institution, “BS 6472-1992 Evaluation of human exposure to vibration in buildings 
+(1-80Hz),” British Standards Institution, London, 1992. 
+[9]  Australian Standards, “AS2187:2006 Explosives - Storage and Use - Part 2: Use of Explosives,” AS, 
+Sydney, 2006. 
+[10] British Standards Institute, “BS7385:1993 Evaluation and Measurement for Vibration in Buildings Part 
+2,” BSI, London, 1993. 
+[11] Deustsches Institut fur Normung, “DIN4150-3 (2016) Vibrations in buildings - Part 3: Effects on 
+structures, English translation,” DIN-Normen, Berlin, 2016. 
+[12] Department of Environment and Conservation (NSW), “Assessing Vibration: A technical guideline,” 
+Department of Environment and Conservation (NSW), Sydney, 2006. 
+[13] Department of Environment and Conservation, “Assessing Vibration: A Technical Guideline,” DEC, 
+2006. 
+[14] British Standard Institution, “BS 7385-2: 1993 Evaluation and measurement for vibration in buildings - 
+Pt 2: Guide to damage levels from groundborne vibration,” British Standard Institution, London, 1993.  
+[15] UK National Grid, “T/SP/SSW/22 Specification for Safe Working in the Vicinity of National Grid 
+High Pressure Gas Pipelines and Associated Installations – Requirements for Third Parties,” UK 
+National Grid, 2006. 
+ 
+ 
+[[page 38]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page A-1
+ 
+ 
+ 
+Appendix A 
+Glossary 
+  
+[[page 39]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page A-2
+ 
+ 
+ 
+ 
+A.1  Glossary 
+Ambient Noise Level 
+The ambient noise level is the overall noise level measured at a location from multiple noise sources. When 
+assessing noise from a particular development, the ambient noise level is defined as the remaining noise level 
+in the absence of the specific noise source being investigated. For example, if a fan located on a city building 
+is being investigated, the ambient noise level is the noise level from all other sources without the fan 
+running. This would include sources such as traffic, birds, people talking and other nearby fans on other 
+buildings. 
+Background Noise Level 
+The background noise level is the noise level that is generally present at a location at all or most times. 
+Although the background noise may change over the course of a day, over shorter time periods (e.g. 15 
+minutes) the background noise is almost-constant. Examples of background noise sources include steady 
+traffic (e.g. motorways or arterial roads), constant mechanical or electrical plant and  some natural noise 
+sources such as wind, foliage, water and insects. 
+Assessment Background Level (ABL) 
+A single-number figure used to characterise the background noise levels from a single day of a noise survey. 
+ABL is derived from the measured noise levels for the day, evening or night time period of a single day of 
+background measurements. The ABL is calculated to be the tenth percentile of the background LA90 noise 
+levels – i.e. the measured background noise is above the ABL 90 % of the time. 
+Rating Background Level (RBL / minL A90,1hour ) 
+A single-number figure used to characterise the background noise levels from a complete noise survey. The 
+RBL for a day, evening or night time period for the overall survey is calculated from the individual 
+Assessment Background Levels (ABL) for each day of the measurement period, and is numerically equal to 
+the median (middle value) of the ABL values for the days in the noise survey. This parameter is denoted 
+RBL in NSW, and minLA90,1hour in QLD. 
+Decibel 
+The decibel scale is a logarithmic scale which is used to measure sound and vibration levels. Human hearing 
+is not linear and involves hearing over a large range of sound pressure levels, which would be unwieldy if 
+presented on a linear scale. Therefore a logarithmic scale, the decibel (dB) scale, is used to describe sound 
+levels.  
+An increase of approximately 10 dB corresponds to a subjective doubling of the loudness of a noise. The 
+minimum increase or decrease in noise level that can be noticed is typically 2 to 3 dB. 
+dB(A) 
+dB(A) denotes a single-number sound pressure level that includes a frequency weighting (“A-weighting”) to 
+reflect the subjective loudness of the sound level. 
+The frequency of a sound affects its perceived loudness. Human hearing is less sensitive at low and very high 
+frequencies, and so the A-weighting is used to account for this effect. An A-weighted decibel level is written 
+as dB(A). 
+Some typical dB(A) levels are shown below. 
+Sound Pressure Level dB(A) Example 
+130 Human threshold of pain 
+[[page 40]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page A-3
+ 
+ 
+ 
+Sound Pressure Level dB(A) Example 
+120 Jet aircraft take-off at 100 m 
+110 Chain saw at 1 m 
+100 Inside nightclub 
+90 Heavy trucks at 5 m 
+80 Kerbside of busy street 
+70 Loud stereo in living room 
+60 Office or restaurant with people present 
+50 Domestic fan heater at 1m 
+40 Living room (without TV, stereo, etc) 
+30 Background noise in a theatre 
+20 Remote rural area on still night 
+10 Acoustic laboratory test chamber 
+0 Threshold of hearing 
+ 
+L1  
+The L1 statistical level is often used to represent the maximum level of a sound level that varies with time.  
+Mathematically, the L1 level is the sound level exceeded for 1% of the measurement duration. As an 
+example, 87 dB LA1,15min is a sound level of 87 dB(A) or higher for 1% of the 15 minute measurement 
+period. 
+L10  
+The L10 statistical level is often used as the “average maximum” level of a sound level that varies with time.  
+Mathematically, the L10 level is the sound level exceeded for 10% of the measurement duration. L10 is often 
+used for road traffic noise assessment. As an example, 63 dB LA10,18hr is a sound level of 63 dB(A) or 
+higher for 10% of the 18 hour measurement period. 
+L90  
+The L90 statistical level is often used as the “average minimum” or “background” level of a sound level that 
+varies with time.  
+Mathematically, L90 is the sound level exceeded for 90% of the measurement duration. As an example, 
+45 dB LA90,15min is a sound level of 45 dB(A) or higher for 90% of the 15 minute measurement period. 
+Leq 
+The ‘equivalent continuous sound level’, Leq, is used to describe the level of a time-varying sound or 
+vibration measurement. 
+Leq is often used as the “average” level for a measurement where the level is fluctuating over time. 
+Mathematically, it is the energy-average level over a period of time (i.e. the constant sound level that 
+contains the same sound energy as the measured level). When the dB(A) weighting is applied, the level is 
+denoted dB LAeq. Often the measurement duration is quoted, thus Laeq,15 min represents the dB(A) 
+weighted energy-average level of a 15 minute measurement. 
+Lmax  
+The Lmax statistical level can be used to describe the “absolute maximum” level of a sound or vibration 
+level that varies with time. 
+[[page 41]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page A-4
+ 
+ 
+ 
+Mathematically, Lmax is the highest value recorded during the measurement period. As an example, 94 dB 
+Lamax is a highest value of 94 dB(A) during the measurement period. 
+Since Lmax is often caused by an instantaneous event, Lmax levels often vary significantly between 
+measurements.  
+Lmax spec 
+Lmax spec is another representation of the highest noise or vibration levels during the measurement period. 
+Lmax spec is the spectrum of the event that caused the highest overall sound or vibration level during the 
+measurement period is denoted by dB Lmax spec. An example of the relationship between dB Lmax and dB 
+Lmax spec is shown below. 
+ 
+Lmax (see definition above), when measured on an octave band or 1/3 octave band meter, is the spectrum 
+obtained by recording the highest measured value in each band. However, the highest measured values in 
+each band may occur at different times. 
+Hence, Lmax spec represents a real event, while Lmax is often the mathematical addition of frequency band 
+values from different times and often does not represent a real-world event. 
+Since Lmax spec is caused by an instantaneous event, Lmax spec levels often vary significantly between 
+measurements. 
+Frequency 
+Frequency is the number of cycles per second of a sound or vibration wave. In musical terms, frequency is 
+described as “pitch”. Sounds towards the lower end of the human hearing frequency range are perceived as 
+“bass” or “low-pitched” and sounds with a higher frequency are perceived as “treble” or “high pitched”. 
+Peak Particle Velocity (PPV)  
+Peak Particle Velocity (PPV) is the highest velocity of a particle (such as part of a building structure) as it 
+vibrates. Most sound level meters measure root mean squared (RMS) values; it is common to approximate 
+the PPV based on an RMS measurement. 
+PPV is commonly used as a vibration criteria, and is often interpreted as a PPV based on the Lmax or 
+Lmax,spec index. 
+Sound Exposure Level (SEL) 
+The Sound Exposure Level or Single Event Noise Exposure Level, denoted SEL or LAE, is a measure of the 
+total amount of acoustic energy contained in an acoustic event. The SEL is the constant sound pressure level 
+that would produce in a period of one second the same amount of acoustic energy contained in the acoustic 
+
+[[page 42]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page A-5
+ 
+ 
+ 
+event. SEL is commonly used to quantify the total acoustic energy contained in transient events such as a 
+vehicle pass-by. 
+Sound Power and Sound Pressure 
+The sound power level (Lw) of a source is a measure of the total acoustic power radiated by a source. The 
+sound pressure level (Lp) varies as a function of distance from a source. However, the sound power level is 
+an intrinsic characteristic of a source (analogous to its mass), which is not affected by the environment 
+within which the source is located. 
+Sound Reduction Index I 
+The sound reduction index (or transmission loss) of a building element is a measure of the loss of sound 
+through the material, i.e. its sound attenuation properties. It is a property of the component, unlike the sound 
+level difference, which is affected by the common area between the rooms and the acoustics of the receiving 
+room. R is the ratio (expressed in decibels) of the sound energy transmitted through the building element to 
+the sound energy incident on the building element for a particular frequency.  
+The weighted sound reduction index, Rw, is a single figure description of sound reduction index across a 
+wider frequency range and is defined in BS EN ISO 717-1: 1997. Rw values are calculated from 
+measurements in an acoustic laboratory. Sound insulation ratings derived from site measurements (which are 
+invariably lower than the laboratory figures) are referred to as apparent sound reduction index (R’w ) ratings. 
+Speech Transmission Index (STI) 
+STI is a technical index, predictable and measurable using specialised equipment, for assessing speech and 
+vocal intelligibility. STI takes into account the signal/noise ratio of the speech signal and the reverberation of 
+the receiving environment. The higher the value of STI, the higher the expected speech intelligibility. 
+STI ratings are assigned subjective categories, as follows: 
+STI Range Subjective Category 
+< 0.3 Bad 
+0.3 – 0.45 Poor 
+0.45 – 0.6 Fair 
+0.6 – 0.75 Good 
+0.8 – 1.0 Excellent 
+ 
+Spectrum Adaptation Terms (C and Ctr) 
+The terms C and Ctr are spectrum adaptation terms (in dB) that are added to the Rw or Dw value of a 
+partition in order to determine the overall sound insulation rating of a partition for various conditions. The 
+overall performance of the partition is quoted as the sum of the Rw value and the spectrum adaptation terms, 
+e.g. Dw + C 55 dB; Rw + Ctr 60 dB. 
+C is a spectrum adaptation term used to measure the performance of a partition for medium to high-
+frequency noise sources, such as speech. 
+Ctr is a spectrum adaptation term used to measure the performance of a partition for low-frequency noise 
+sources such as traffic noise. 
+The values of C and Ctr are dependent on the construction of the partition. Because C and Ctr are (usually) 
+negative quantities, they typically increase the Rw requirement of a partition (eg if Ctr is -6 dB, an Rw of 
+56 dB is required to achieve a rating of Rw + Ctr 50 dB). 
+Vibration 
+Waves in a solid material are called “vibration”, as opposed to similar waves in air, which are called “sound” 
+or “noise”. If vibration levels are high enough, they can be felt; usually vibration levels must be much higher 
+to cause structural damage. 
+[[page 43]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page A-6
+ 
+ 
+ 
+A vibrating structure (eg a wall) can cause airborne noise to be radiated, even if the vibration itself is too low 
+to be felt. Structureborne vibration limits are sometimes set to control the noise level in a space. 
+Vibration levels can be described using measurements of displacement, velocity and acceleration. Velocity 
+and acceleration are commonly used for structureborne noise and human comfort. Vibration is described 
+using either metric units (such as mm, mm/s and mm/s²) or else using a decibel scale. 
+ 
+[[page 44]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-1
+ 
+ 
+ 
+Appendix B 
+Ambient noise survey conducted as part of SPP-19-00013 [1] 
+  
+[[page 45]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-2
+ 
+ 
+ 
+The relevant extracts from the SPP-19-00013 report regarding the noise monitoring survey have been 
+provided below. Those include monitoring locations (Section B.1), methodology, equipment used and results 
+(Section B.2), noise monitoring graphs (Section B.3). 
+B.1  Monitoring locations 
+ 
+ 
+ 
+ 
+
+[[page 46]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-1
+ 
+ 
+ 
+B.2  Ambient noise survey methodology, equipment used 
+and results 
+ 
+ 
+
+[[page 47]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-2
+ 
+ 
+ 
+ 
+
+[[page 48]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-1
+ 
+ 
+ 
+B.3  Noise monitoring graphs 
+ 
+ 
+ 
+
+[[page 49]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 50]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 51]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 52]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 53]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-6
+ 
+ 
+ 
+ 
+ 
+
+[[page 54]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-7
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 55]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-8
+ 
+ 
+ 
+ 
+ 
+
+[[page 56]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page B-9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[[page 57]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page C-1
+ 
+ 
+ 
+Appendix C 
+Vibration Criteria 
+ 
+ 
+  
+[[page 58]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page C-2
+ 
+ 
+ 
+C.1  Vibration Criteria 
+C.1.1 Disturbance to buildings occupants 
+Potential vibration disturbance to human occupants of buildings is made in accordance with the NSW DEC 
+Assessing Vibration; a technical guideline [13]. The criteria outlined in the guideline is based on the British 
+Standard BS 6472-1992 Evaluation of human exposure to vibration in buildings (1-80Hz) [14]. Sources of 
+vibration are defined as either 'Continuous', 'Impulsive' or 'Intermittent', as described in Table 21. 
+Table 21: Types of vibration - Definition 
+Type of 
+vibration Definition Examples 
+Continuous 
+vibration 
+Continues uninterrupted for a defined 
+period (usually throughout the day-time 
+and/or night-time) 
+Machinery, steady road traffic, continuous construction 
+activity (such as tunnel boring machinery). 
+Impulsive 
+vibration 
+A rapid build-up to a peak followed by a 
+damped decay that may or may not 
+involve several cycles of vibration 
+(depending on frequency and damping). 
+It can also consist of a sudden 
+application of several cycles at 
+approximately the same amplitude, 
+providing that the duration is short, 
+typically less than 2 seconds 
+Infrequent: Activities that create up to 3 distinct 
+vibration events in an assessment period, e.g. 
+occasional dropping of heavy equipment, occasional 
+loading and unloading. 
+Intermittent 
+vibration 
+Can be defined as interrupted periods of 
+continuous or repeated periods of 
+impulsive vibration that varies 
+significantly in magnitude 
+Trains, nearby intermittent construction activity, 
+passing heavy vehicles, forging machines, impact pile 
+driving, jack hammers. 
+Where the number of vibration events in an assessment 
+period is three or fewer, this would be assessed against 
+impulsive vibration criteria. 
+ 
+Table 22 reproduces the ‘Preferred’ and ‘Maximum’ values for continuous and impulsive vibration from 
+Table 2.2 of the Guideline. 
+Table 22: Preferred and maximum vibration acceleration levels for human comfort, m/s2 
+Location Assessment period 1 
+Preferred values Maximum values 
+z-axis x- and y-
+axes z-axis x- and y-
+axes 
+Continuous vibration (weighted RMS acceleration, m/s 2, 1-80Hz)  
+Residences Daytime 0.010 0.0071 0.020 0.014 
+Night-time 0.007 0.005 0.014 0.010 
+Offices, schools, educational 
+institutions and places of 
+worship 
+Day- or night-time 0.020 0.014 0.040 0.028 
+Workshops Day- or night-time 0.04 0.029 0.080 0.058  
+Impulsive vibration (weighted RMS acceleration, m/s2, 1-80Hz)  
+Residences Daytime 0.30 0.21 0.60 0.42 
+Night-time 0.10 0.071 0.20 0.14 
+Offices, schools, educational 
+institutions and places of 
+worship 
+Day- or night-time 0.64 0.46 1.28 0.92 
+Note 1 - Daytime is 7: 00am  to 10:00pm and night-time is 10:00pm to 7:00am 
+[[page 59]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page C-3
+ 
+ 
+ 
+ 
+Table 23 reproduces the ‘Preferred’ and ‘Maximum’ values for intermittent vibration from Table 2.4 of the 
+Guideline. The VDV is dependent upon the level and duration of the vibration episode and the number of 
+vibration episodes occurring during the assessment period; a higher vibration level is permitted if the total 
+duration of the vibration event(s) is small. 
+Table 23: Acceptable vibration dose values (VDV) for intermittent vibration (m/s1.75)  
+Location 
+Daytime 1 Night-time 
+Preferred 
+value 
+Maximum 
+value 
+Preferred 
+value 
+Maximum 
+value 
+Residences 0.20 0.40 0.13 0.26 
+Offices, schools, educational institutions 
+and places of worship 
+0.40 0.80 0.40 0.80 
+Workshops 0.80 1.60 0.80 1.60 
+1- Daytime is 7:00am to 10:00pm and night-time is 10:00pm to 7:00am 
+C.1.2 Structural damage 
+Potential structural or cosmetic damage to buildings as a result of vibration is typically assessed in 
+accordance with British Standard 7385 Part 2 [14]. 
+C.1.2.1  Standard structures  
+British Standard 7385 Part 1: 1993, defines different levels of structural damage as: 
+• Cosmetic - The formation of hairline cracks on drywall surfaces, or the growth of existing cracks in 
+plaster or drywall surfaces; in addition, the formation of hairline cracks in mortar joints of 
+brick/concrete block construction. 
+• Minor - The formation of large cracks or loosening of plaster or drywall surfaces, or cracks through 
+bricks/concrete blocks. 
+• Major - Damage to structural elements of the building, cracks in supporting columns, loosening of 
+joints, splaying of masonry cracks, etc. 
+Table 1 and Section 7.4.2 of BS7385-2 sets limits for the protection against the different levels of structural 
+damage and those levels are reproduced in Table 24 below. 
+Table 24: BS 7385-2 Structural damage criteria 
+Group Type of structure Damage level 
+Peak component particle velocity, mm/s 1 
+4 Hz to 15 Hz 15 Hz to 40 Hz 40 Hz and 
+above 
+1 Reinforced or framed structures 
+Industrial and heavy 
+commercial buildings3 
+Cosmetic 50 
+Minor 2 100 
+Major 2 200 
+2 Un-reinforced or light framed 
+structures Residential or light 
+commercial type buildings 
+Cosmetic 15 to 20 20 to 50 50 
+Minor 2 30 to 40 40 to 100 100 
+Major 2 60 to 80 80 to 200 200 
+Notes: 
+1 - Peak Component Particle Velocity is the maximum Peak particle velocity in any one direction (x, y, z) as measured by a tri-axial vibration 
+transducer. 
+2 - Minor and major damage criteria established based on British Standard 7385 Part 2 (1993) Section 7.4.2 
+3_Considered to be relevant for the M7 abutment. 
+All levels relate to transient vibrations in low-rise buildings. Continuous vibration can give rise to dynamic magnifications that may require levels 
+to be reduced by up to 50%.  
+[[page 60]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page C-4
+ 
+ 
+ 
+ 
+The guide values in Table 24 relate predominantly to transient vibration which does not give rise to resonant 
+responses in structures, and to low rise buildings. Where the dynamic loading caused by continuous vibration 
+is such as to give rise to dynamic magnification due to resonance, especially at the lower frequencies where 
+lower guide values apply, then the guide values in Table 24 may need to be reduced by up to 50%. 
+C.1.2.2  Sensitive structures 
+German Standard DIN 4150 – Part 3 ‘Structural vibration in buildings – Effects on Structure’  [11] is 
+generally recognised to be conservative and is often referred to for the purpose of assessing structurally 
+sensitive buildings. 
+Heritage buildings and structures should not be assumed to be more sensitive to vibration unless they are 
+found to be structurally unsound and should otherwise be assessed in accordance with BS7385-2. If a 
+heritage building or structure is found to be structurally unsound (following inspection) DIN 4150-3, line 3 
+as outlined in Table 25, provides a conservative cosmetic damage objective that should be adopted unless 
+alternative limits are justified by a dilapidation or structural survey. The sensitivity of heritage buildings and 
+other potentially at-risk structures are subject to confirmation by the contractor prior to start of any works. 
+Table 25: DIN 4150-3 structural damage guideline values 
+Line Type of structure 
+Peak component particle velocity (PCPV), mm/s 
+Vibration at the foundation at a 
+frequency of 
+At horizontal 
+plane of highest 
+floor 
+In the 
+vertical 
+direction, 
+at floor 
+slabs 
+1 Hz to 
+10 Hz 
+10 Hz to 
+50 Hz 
+50 Hz to 
+100 Hz1 All frequencies All 
+frequencies 
+3 Structures that because of their 
+particular sensitivity to 
+vibration, cannot be classified 
+under lines 1 and 2 and are of 
+great intrinsic value (e.g. listed 
+buildings under a preservation 
+order)3 
+3 3 to 8 8 to 10 8 202 
+Notes: 
+1.  At frequencies above 100 Hz, the values given in this column may be used as minimum values. 
+2.  Guideline value might have to be lowered to prevent minor damage 
+3.  Line 1 refer to buildings used for commercial purposes, industrial buildings and buildings of similar design, while Line 2 refers to residential 
+buildings and buildings of similar design and/or occupancy  
+ 
+Note that no sensitive structures have been identified near the site. 
+C.1.2.3  Buried services 
+It is not expected that the proposed works will impact upon buried services, however the following is 
+nonetheless provided for guidance. 
+DIN 4150-2:2016 sets out guideline values for vibration effects on buried pipework (see Table 26). 
+Table 26: Guideline values for short-term vibration impacts on buried pipework 
+Line Pipe material Peak component particle velocity (PCPV) measured on pipe, 
+mm/s 
+1 Steel, welded 100 
+2 Vitrified clay, concrete, reinforced 
+concrete, pre-stressed concrete, 
+metal (with or without flange) 
+80 
+3 Masonry, plastic 50 
+[[page 61]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page C-5
+ 
+ 
+ 
+Line Pipe material Peak component particle velocity (PCPV) measured on pipe, 
+mm/s 
+- High pressure gas pipelines* 75 
+Monitoring required if predicted above 50. 
+No piling within 15 m of pipeline without detailed assessment. 
+Notes: 
+- For gas and water supply pipes within 2 m of buildings, the levels given in DIN4150-3 [11] should be applied. Consideration must also be given 
+to pipe junctions with the building structure as potential significant changes in mechanical loads on the pipe must be considered. 
+- For Rock breaking/hammering and sheet piling activities are considered to have the potential to cause dynamic loading in some structures and it 
+may therefore be appropriate to reduce the transient values by 50%. 
+* Based on UK National Grid’s specification [15]  
+ 
+Other services that maybe encountered include electrical cables and telecommunication services such as fibre 
+optic cables. While these may sustain vibration velocity levels from between 50 mm/s and 100 mm/s, the 
+connected services such as transformers and switchgear, may not. Where encountered, site specific vibration 
+assessment in consultation with the utility provider should be carried out. 
+ 
+ 
+ 
+  
+[[page 62]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 8 February 2023 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page D-1
+ 
+ 
+ 
+Appendix D 
+Addendum to SSDA report 
+[[page 63]]
+ 
+ 
+ 
+  
+ 
+EIS 
+Project Echidna 
+Noise and Vibration Addendum to SSDA report 
+Reference: SSD-47320208 
+1 | 7 October 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+This report takes into account the particular instructions and requirements of our client.  It is not 
+intended for and should not be relied upon by any third party and no responsibility is undertaken to 
+any third party. 
+ 
+  
+Job number    
+Arup Australia Pty Ltd | ABN 76 625 912 665 
+Arup Australia Pty Ltd 
+Level 5 
+151 Clarence Street 
+Sydney 
+NSW 2000 
+Australia 
+arup.com  
+ 
+[[page 64]]
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd 
+ 
+ 
+Document Verification 
+ 
+Project title Project Echidna 
+Document title  Noise and Vibration Addendum to SSDA report 
+Job number  287434 
+Document ref AC03 
+File reference  V1 
+ 
+ 
+Revision Date Filename  AC03_v1_Project Echidna_SSDA Addendum.docx 
+  Description  
+ Prepared by Checked by Approved by 
+Name Clemence Terraz 
+Cynthia Nguyen 
+Sam Grieve 
+ 
+Sam Grieve 
+Signature 
+ 
+  
+  Filename  
+Description  
+ Prepared by Checked by Approved by 
+Name    
+Signature    
+  Filename  
+Description  
+ Prepared by Checked by Approved by 
+Name    
+Signature    
+ 
+Issue Document Verification with Document  ✓    
+
+[[page 65]]
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd 
+ 
+Contents 
+1. Background 1 
+2. Noise sources 1 
+3. Predicted noise levels 1 
+4. Conclusion 1 
+ 
+  
+Tables  
+No table of figures entries found. 
+ 
+Figures 
+No table of figures entries found. 
+ 
+Drawings 
+No table of figures entries found. 
+ 
+Pictures  
+No table of figures entries found. 
+ 
+Photographs  
+No table of figures entries found. 
+ 
+Attachments  
+No table of figures entries found. 
+ 
+Appendices  
+No table of contents entries found.  
+ 
+[[page 66]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 4 October 2022 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page 1 
+ 
+ 
+1. Background 
+A noise and vibration assessment was prepared to support the SSDA application for the construction and 
+operation of Project Echidna (Refer to Project Echidna, Noise and Vibration Impact Assessment – SSDA 
+dated 6 October 2022 (Referred to as SSDA report)). Project Echidna is a data centre to be located within a 
+site located at 10 Eastern Creek Drive, Eastern Creek. The site will also accommodate for 2 other data 
+centres namely Building 1 and Building 1A, as well as a substation. 
+Building 1 and Building 1A were approved under a separate Development Application (DA), referred to as 
+SPP-19-00013 DA. The substation will be subject to a separate DA.  
+Criteria for the whole site was previously set in the approved SPP-19-00013 DA. The criteria are applicable 
+to the whole site which includes noise sources from Building 1A, Building 1, the substation and project 
+Echidna. In the acoustic assessment that supported the SPP-19-00013 DA, it was unclear if all noise sources 
+had been included or whether any noise criteria allowance remained for project echidna noise emissions. 
+Hence, as a conservative approach for SSDA, Project Echidna design criteria were set 10 dB less than the 
+site criteria. This approach would ensure that Project Echidna noise emissions would not result in 
+exceedances to overall site emissions. 
+SSDA assessment of noise emissions to nearest receivers from Project Echidna was carried out using 
+modelling software SoundPlan. The SSDA assessment identified nearest receivers, Project Echidna primary 
+noise sources and mitigation measures necessary to comply with Project Echidna design criteria. 
+The assessment identified the following mitigation measures and associated noise reductions are required: 
+• An estimated 10 dB noise reduction of noise emissions from the condenser units – achieved through 
+reselection and oversizing of units 
+• An estimated 10 dB reduction of noise emissions from the AHUs – achieved through reselection of 
+AHUs + attenuator fitted to the inlet or attenuator fitted at the louvre 
+• An estimated 13 dB reduction of noise emissions from the load bank – achieved through reselection of 
+unit or partial enclosure. 
+The feasibility of the above noise reductions was discussed with the project team and equipment 
+manufacturers.  
+In the SSDA report, the following was noted: 
+Noting the conservatism used to derive the Project Echidna criteria for this assessment (which result in 
+conservative noise mitigation measures to be implemented in the design of Project Echidna), it is proposed to 
+re-assess cumulative noise emissions from the site by conducting a detailed assessment of noise emissions 
+from Building 1, Building 1A and the substation during the Project Echidna detailed design. This assessment 
+will establish if Project Echidna design criteria can potentially be relaxed and consequently if noise 
+mitigations can be reduced and if the site operations can be altered (The client has indicated the desire to 
+conduct generator testing during night-time for Project Echidna).  
+The detailed design report would include the results and findings of the assessment, including review of 
+detailed noise emissions of Building 1, Building 1A, Project Echidna and the substation. The report would 
+also include all operating scenarios which can be implemented while meeting site emissions criteria at all 
+receivers. The report would be presented to the relevant authority prior to Construction Certificate. 
+Following DPIE comments regarding Project Echidna design criteria (being 10 dB less than site criteria) and 
+questioning the feasibility of the noise mitigation measures, as well as wanting to see a detailed assessment 
+of cumulative noise impacts for the SSDA stage, the aim of this addendum report is to: 
+• include noise sources from approved buildings and substation into the model  
+[[page 67]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 4 October 2022 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page 2 
+ 
+ 
+• assess noise emissions from Project Echidna cumulatively with other noise sources with the site against 
+overall site criteria 
+• re-assess the noise reduction required and mitigation measures to be implemented 
+• provide noise contours for Project Echidna  
+Note that this report includes information required to address the immediate requirements for SSDA Stage. A 
+more complete report will be prepared prior to Construction Certificate. 
+This report is to be read in conjunction with the SSDA report. 
+Location of Project Echidna, Building 1, Building 1A and the substation are identified on Figure 1 and 
+Figure 2. 
+ 
+ 
+ 
+[[page 68]]
+ 
+EISD Project Echidna 
+ 
+SSD-47320208 | Final | 4 October 2022 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page 3 
+ 
+ 
+ 
+ 
+Figure 1: Location context area plan
+Lot/Site boundary 
+Project Echidna boundary 
+Building 1 
+Building 1A 
+Substation 
+[[page 69]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | Final | 4 October 2022 | Arup Australia Pty Ltd Noise and Vibration Impact Assessment - SSDA Page 4 
+ 
+ 
+ 
+Figure 2: Site Layout 
+ 
+ 
+ 
+ 
+ 
+Generators 
+Condenser units 
+Exhaust air fans 
+Project Echidna 
+boundary 
+ Substation 
+Building 1 
+ Building 1A 
+[[page 70]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report  Page 1 
+ 
+ 
+2. Noise sources 
+Noise sources for Building 1, Building 1A and the substation have been included in the Soundplan model. 
+The noise sources were provided by the design team.  
+Noise sources for Project Echidna are shown in Table 6 of the SSDA report. For this assessment, mitigation 
+measures have been implemented following several model iterations. Table 2  and Table 2 present the 
+mitigation measures provided by the design team and equipment manufacturers. 
+Table 1: Mitigation measures 
+Equipment Mitigation measure 
+recommended in SSDA 
+report 
+Mitigation measure implemented in this report 
+Condenser unit Reselection of unit 
+(including oversizing of 
+units) 
+Units have been reselected to a lower noise generating 
+unit as per recommendation in SSDA report. 
+AHU Reselection of AHUs + 
+attenuator fitted to the inlet 
+or attenuator fitted at the 
+louvre 
+AHU have been reselected. An attenuator is fitted on the 
+inlet and a new casing for the units has been provided as 
+per recommendation in the SSDA report. 
+Load bank Reselection of unit or 
+partial enclosure. 
+The load bank modelled is still an ‘off the shelf’ load 
+bank, however, is quieter than the previous selection 
+presented in Table 6 of the SSDA report. This 
+assessment which includes all noise sources for the site, 
+identified that no further mitigation to the load bank is 
+required when testing Project Echidna’s generators. 
+ 
+[[page 71]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report Page 1 
+ 
+Table 2: Plant and associated noise data 
+Equipment Source Description Parameter Overall 
+dB(A) 
+Octave Band Centre Frequency – Hz, dB Item modelled as 
+63 125 250 500 1 k 2 k 4 k 8 k 
+Condenser 
+unit2 
+Manufacturer data 
+(Stulz) - Lw 80 - 77 75 77 77 71 66 60 Point Source 
+Air handling 
+unit 
+Manufacturer data 
+(Dannan)  
+Inlet + attenuator Lw 72 85 88 64 57 55 52 49 48 Area sources1 
+Outlet Lw 99 96 103 98 97 93 89 86 86 
+Empirical data Casing Lw 68 74 78 71 68 50 45 39 37 
+Load bank2 Parratech Lp at 3 m is 85 Lw 108 104 104 109 104 101 99 96 98 Point Source 
+Note: 
+1_Air Handling Units: 4x to 5x Air handling units are located within a plant room, each plant room services a data hall. There are 4x data halls, therefore 4 plant rooms. An area source for each plant room has been modelled 
+as follows: 
+o Approximate dimension of a louvre is 24m to 29m x 3m. Equivalent Lw is 58 dBA/m2. Model also adds a directivity factor to the louvre. 
+   2_Spectrum is indicative 
+ 
+[[page 72]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report  Page 1 
+ 
+3. Predicted noise levels 
+Noise predictions for standard operations (with mitigation measures included) under standard and enhanced 
+meteorological conditions are presented in Table 3 and Table 4 for the daytime and the night-time operations 
+respectively. Standard operations is defined in Section 6.1 of the SSDA report.  
+Note, it is assumed only 1 generator and 1 load bank will be operational at any time during the daytime 
+within the site. Two scenarios have been modelled for loadbank operation and generator testing; one to the 
+south and one to the north of the Project Echidna building. Worse case predictions are reported in Table 3. 
+Table 3: Predicted noise levels – standard daytime operation – Standard and Enhanced weather conditions 
+Rece
+iver 
+Overall 
+Site 
+criteria 
+Leq,15min 
+dB(A) 
+Daytime – Standard weather conditions  Daytime – Enhanced weather conditions 
+Site noise emissions - Predicted level Leq,15min 
+dB(A) 
+Site noise emissions - Predicted level Leq,15min 
+dB(A) 
+Non 
+Project 
+Echidna 
+related1  
+Project 
+Echidna 
+related  
+All noise 
+sources 
+Meets 
+Overall 
+Site 
+criteria? 
+Non 
+Project 
+Echidna 
+related1  
+Project 
+Echidna 
+related  
+All noise 
+sources 
+Meets 
+Overall 
+Site 
+criteria? 
+R1 49 29 20 32 Yes 35 26 38 Yes 
+R2 46 27 24 31 Yes 33 30 38 Yes 
+R3 46 15 18 23 Yes 21 24 28 Yes 
+R4 46 16 25 28 Yes 21 31 34 Yes 
+R5 46 19 25 28 Yes 25 31 34 Yes 
+R6 49 28 19 31 Yes 34 25 37 Yes 
+R7 49 13 8 17 Yes 19 14 22 Yes 
+R8 46 27 30 34 Yes 33 36 41 Yes 
+C1 63 44 47 51 Yes 47 49 53 Yes 
+C2 63 43 51 54 Yes 46 55 58 Yes 
+C3 63 44 52 55 Yes 47 56 59 Yes 
+C4 63 50 39 53 Yes 52 43 55 Yes 
+C5 63 59 35 62 Yes 60 39 63 Yes 
+I1 68 55 62 66 Yes 56 64 67 Yes 
+I2 68 47 34 50 Yes 51 39 54 Yes 
+I3 68 49 56 59 Yes 52 60 63 Yes 
+Notes: 
+1_Includes noise emissions from Building 1, Building 1A and the substation. 
+2_Exceedances to project criteria are indicated in red. 
+ 
+  
+[[page 73]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report  Page 2 
+ 
+Table 4: Predicted noise levels – standard night-time operation – Standard and Enhanced weather conditions 
+Rece
+iver 
+Overall 
+Site 
+criteria 
+Leq,15min 
+dB(A) 
+Night-time – Standard weather conditions  Night-time – Enhanced weather conditions 
+Site noise emissions - Predicted level Leq,15min 
+dB(A) 
+Site noise emissions - Predicted level Leq,15min 
+dB(A) 
+Non 
+Project 
+Echidna 
+related1  
+Project 
+Echidna 
+related  
+All noise 
+sources3 
+Meets 
+Overall 
+Site 
+criteria? 
+Non 
+Project 
+Echidna 
+related1  
+Project 
+Echidna 
+related  
+All noise 
+sources3 
+Meets 
+Overall 
+Site 
+criteria? 
+R1 38 29 19 32 Yes 35 25 38 Yes 
+R2 38 27 21 31 Yes 33 27 37 Yes 
+R3 38 15 18 22 Yes 21 23 28 Yes 
+R4 38 16 17 22 Yes 21 23 28 Yes 
+R5 38 19 15 23 Yes 25 21 29 Yes 
+R6 38 28 18 31 Yes 34 24 37 Yes 
+R7 38 13 5 16 Yes 19 11 22 Yes 
+R8 38 27 20 30 Yes 33 26 37 Yes 
+C1 63 44 47 51 Yes 47 49 53 Yes 
+C2 63 43 43 48 Yes 46 45 51 Yes 
+C3 63 44 40 48 Yes 47 43 51 Yes 
+C4 63 50 38 53 Yes 52 43 55 Yes 
+C5 63 59 32 62 Yes 60 37 63 Yes 
+I1 68 55 45 58 Yes 56 48 59 Yes 
+I2 68 54 33 56 Yes 56 38 58 Yes 
+I3 68 47 45 52 Yes 51 48 56 Yes 
+Notes: 
+1_Includes noise emissions from Building 1, Building 1A and the substation. 
+2_Exceedances to project criteria are indicated in red. 
+ 
+Results show that overall site criteria are predicted to be met during all periods when the whole site is 
+operating under standard operations (as defined in Section 6.1 of the SSDA report). 
+Mitigation measures to Project Echidna as per Section 2 should be implemented. 
+Noise contours for standard operations of Project Echidna have been generated considering enhanced 
+weather conditions and are presented in Appendix A.
+[[page 74]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report  Page 1 
+ 
+ 
+4. Conclusion 
+This report presents an assessment of all noise sources to be located on the site at 10 Eastern Creek Drive, 
+Eastern Creek. The noise sources include Building 1, Building 1A, a substation and Project Echidna. 
+This assessment is a follow up from the preliminary assessment conducted for SSDA for Project Echidna. 
+Mitigation measures were previously established in the SSDA report based on the assumption that the whole 
+criteria are taken by other noise sources (i.e. Building 1, Building 1A) on site and no allowance for Project 
+Echidna noise emissions remains. This noise assessment refines the mitigation measures based on noise 
+emissions predicted from Building 1, Building 1A that have been approved and are under construction.    
+Predicted results for the whole site indicate overall site criteria will be met.  
+ 
+[[page 75]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report  Page A-1 
+ 
+Appendix A 
+Noise contours 
+[[page 76]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report Page A-2 
+ 
+A.1  Night-time standard operation  
+ 
+
+[[page 77]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report Page A-3 
+ 
+A.2 Day-time standard operation – North generator 
+ 
+
+[[page 78]]
+ 
+EIS Project Echidna 
+ 
+SSD-47320208 | v0 | 5 October 2022 | Arup Australia Pty Ltd Noise and Vibration Addendum to SSDA report Page A-4 
+ 
+A.3 Day-time standard operation – South generator 

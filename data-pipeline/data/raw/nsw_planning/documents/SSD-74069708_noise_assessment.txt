@@ -1,0 +1,5212 @@
+[[page 1]]
+ 
+ 
+Project Apollo Data Centre 
+(4-10 Talavera Road, Macquarie Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+1-11 Hayes Road 
+Rosebery, NSW 2018 
+ 
+Prepared by: 
+SLR Consulting Australia 
+ 
+Client Reference.: Rev B SSDA RTS 
+SLR Project No.: 610.031910.00002 
+ 
+18 July 2025 
+Revision: 2.0 
+ 
+[[page 2]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ i  
+ 
+Revision Record 
+Revision Date Prepared By Checked By Authorised By 
+1.0 13 September 2024 Jordan McMahon Steven Luzuriaga Steven Luzuriaga 
+1.1 6 March 2025 Jordan McMahon Steven Luzuriaga Steven Luzuriaga 
+2.0 18 July 2025 Jordan McMahon Steven Luzuriaga Steven Luzuriaga 
+     
+     
+Basis of Report 
+This report has been prepared by SLR Consulting Australia (SLR) with all reasonable skill, 
+care and diligence, and taking account of the timescale and resources allocated to it by 
+agreement with Goodman Property Services (Aust) Pty Ltd (the Client). Information reported 
+herein is based on the interpretation of data collected, which has been accepted in good 
+faith as being accurate and valid. 
+This report is for the exclusive use of the Client. No warranties or guarantees are expressed 
+or should be inferred by any third parties. This report may not be relied upon by other parties 
+without written consent from SLR. 
+SLR disclaims any responsibility to the Client and others in respect of any matters outside 
+the agreed scope of the work. 
+ 
+[[page 3]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ ii  
+ 
+Table of Contents 
+Basis of Report ................................ ................................ ................................ .................... i 
+1.0 Introduction ................................ ................................ ................................ ................ 1 
+1.1 Proposal Description ................................ ................................ ................................ .... 1 
+1.2 Secretary’s Environmental Assessment Requirements................................ ................. 5 
+1.3 Ryde Development Control Plan 2014 ................................ ................................ .......... 5 
+1.4 Macquarie Park Rezoning ................................ ................................ ............................ 6 
+1.5 Nearest Receivers ................................ ................................ ................................ ........ 6 
+2.0 Existing Noise Environment ................................ ................................ ...................... 9 
+3.0 Assessment Criteria ................................ ................................ ................................ . 11 
+3.1 Construction Noise Criteria ................................ ................................ ......................... 11 
+3.1.1 Residential Receivers ................................ ................................ ................................ . 11 
+3.1.2 Other Sensitive’ Land Uses and Commercial Receivers ................................ ............. 12 
+3.1.3 NML Summary ................................ ................................ ................................ ........... 12 
+3.2 Construction Vibration Criteria ................................ ................................ .................... 13 
+3.2.1 Human Comfort Vibration ................................ ................................ ........................... 13 
+3.2.2 Effects on Building Contents................................ ................................ ....................... 14 
+3.2.3 Structural and Cosmetic Damage Vibration ................................ ................................  14 
+3.2.4 Minimum Working Distances for Vibration-intensive Works ................................ ........ 15 
+3.3 Operational Noise Criteria ................................ ................................ .......................... 16 
+3.3.1 Project Noise Trigger Levels................................ ................................ ....................... 18 
+3.3.2 Cumulative Noise Impacts ................................ ................................ .......................... 20 
+3.3.3 Sleep Disturbance ................................ ................................ ................................ ...... 20 
+3.3.4 Corrections for Annoying Noise Characteristics ................................ .......................... 21 
+3.3.5 Residual Impacts ................................ ................................ ................................ ........ 23 
+3.3.6 Traffic on Surrounding Roads ................................ ................................ ..................... 24 
+4.0 Methodology ................................ ................................ ................................ ............. 25 
+4.1 Construction Noise and Vibration Assessment ................................ ........................... 25 
+4.1.1 Construction Activities ................................ ................................ ................................  25 
+4.1.2 Hours of Construction ................................ ................................ ................................ . 25 
+4.1.3 Cumulative Construction Noise ................................ ................................ .................. 26 
+4.2 Operational Noise Assessment ................................ ................................ .................. 26 
+4.2.1 Operational Noise Sources ................................ ................................ ......................... 27 
+4.2.2 Operational Noise Scenarios ................................ ................................ ...................... 31 
+4.2.3 Noise Source Inventory ................................ ................................ ..............................  33 
+4.2.4 Corrections for Annoying Noise Characteristics ................................ .......................... 36 
+[[page 4]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ iii  
+ 
+4.2.5 Noise Sources with Potential for Sleep Disturbance ................................ ................... 37 
+4.2.6 Off-site Road Traffic ................................ ................................ ................................ ... 37 
+4.2.7 Weather Conditions ................................ ................................ ................................ .... 37 
+5.0 Assessments of Impacts ................................ ................................ ......................... 38 
+5.1 Construction Noise ................................ ................................ ................................ ..... 38 
+5.2 Construction Vibration ................................ ................................ ................................  40 
+5.2.1 Cosmetic Damage Assessment ................................ ................................ .................. 41 
+5.2.2 Human Comfort Vibration Assessment ................................ ................................ ....... 41 
+5.2.3 Cumulative Construction Noise ................................ ................................ .................. 41 
+5.3 Operational Noise ................................ ................................ ................................ ....... 42 
+5.3.1 Emergency Scenario ................................ ................................ ................................ .. 44 
+5.3.2 Sleep Disturbance ................................ ................................ ................................ ...... 44 
+6.0 Mitigation and Management Measures ................................ ................................ ... 46 
+6.1 Construction Mitigation ................................ ................................ ...............................  46 
+6.2 Operational Mitigation ................................ ................................ ................................  47 
+6.2.1 Generator Exhaust Silencers ................................ ................................ ...................... 50 
+6.2.2 Acoustic Louvre Wall ................................ ................................ ................................ .. 50 
+7.0 Conclusion ................................ ................................ ................................ ................ 52 
+ 
+Tables in Text 
+Table 1 Secretary’s Environmental Assessment Requirements, SSD 74069708, August 
+2024 ................................ ................................ ................................ .................... 5 
+Table 2 Ryde DCP Noise Controls ................................ ................................ ................... 5 
+Table 3 Surrounding Sensitive Receivers ................................ ................................ ......... 7 
+Table 4 Summary of Unattended Noise Monitoring Results ................................ .............. 9 
+Table 5 ICNG NMLs for Residential Receivers ................................ ...............................  11 
+Table 6 Construction NMLs for ICNG ‘Other Sensitive’ Receivers ................................ .. 12 
+Table 7 Project Specific Noise Management Levels ................................ ....................... 13 
+Table 8 Vibration Dose Values for Intermittent Vibration ................................ ................. 14 
+Table 9 BS 7385 Transient Vibration Values for Minimal Risk of Damage ...................... 15 
+Table 10 DIN 4150 Guideline Values for Short-term Vibration on Structures .................... 15 
+Table 11 Recommended Minimum Working Distances from Vibration-intensive Equipment
+ ................................ ................................ ................................ .......................... 16 
+Table 12 Residential Receiver Amenity ................................ ................................ ............ 17 
+Table 13 Residential Receiver Amenity Category Assessment ................................ ......... 18 
+Table 14 Project Noise Trigger Levels ................................ ................................ .............. 19 
+Table 15 Sleep Disturbance Screening Levels ................................ ................................ . 21 
+[[page 5]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ iv  
+ 
+Table 16 NPfI Modifying Factor Corrections ................................ ................................ ..... 22 
+Table 17 NPfI Significance of Residual Noise Impacts ................................ ..................... 23 
+Table 18 NPfI Examples of Receiver-based Treatments to Mitigate Residual Noise Impacts
+ ................................ ................................ ................................ .......................... 23 
+Table 19 RNP Criteria for Assessing Traffic on Public Roads ................................ ........... 24 
+Table 20 Construction Equipment................................ ................................ ..................... 25 
+Table 21 Considered Cumulative Projects ................................ ................................ ........ 26 
+Table 22 Mechanical Plant ................................ ................................ ...............................  29 
+Table 23 Vehicle Traffic Data – Worst-case 15-Minute Period ................................ .......... 31 
+Table 24 Typical Hardstand and Loading Dock Noise Sources ................................ ........ 31 
+Table 25 Backup Generator Maintenance Testing ................................ ............................ 32 
+Table 26 Operational Assessment Scenarios ................................ ................................ ... 33 
+Table 27 Noise Source Inventory ................................ ................................ ..................... 33 
+Table 28 Modelled LAeq Sound Power Level Spectra ................................ ...................... 35 
+Table 29  Sleep Disturbance Noise Events – LAmax Sound Power Levels ...................... 37 
+Table 30 Predicted Construction Noise Levels – Standard Daytime Construction Hours .. 38 
+Table 31 Predicted Exceedance at Nearest Receivers ................................ ..................... 39 
+Table 32 Potential Cumulative Construction Noise Impacts ................................ .............. 42 
+Table 33 Operational Noise Assessment ................................ ................................ .......... 43 
+Table 34 Emergency Scenario Noise ................................ ................................ ............... 44 
+Table 35 Sleep Disturbance Assessment ................................ ................................ ......... 45 
+Table 36 Nominal Construction Noise Reductions ................................ ............................ 47 
+Table 37 Operational Noise Mitigation Options ................................ ................................ . 48 
+Table B-38  Justification for Noise Monitoring Locations ................................ .................. B-27 
+Table C-1  Construction Equipment and Sound Power Levels ................................ ........... C-1 
+Table E-1 Modelled 1/3 Octave Spectra ................................ ................................ ............ E-1 
+Table E-2 Operational Noise – Additional Receiver Results ................................ .............. E-6 
+Table F-1  CNVG Standard Mitigation and Management Measures ................................ ... F-1 
+ 
+Figures in Text 
+Figure 1 Site Aerial ................................ ................................ ................................ ............ 2 
+Figure 2 Site Context ................................ ................................ ................................ ......... 3 
+Figure 3 Proposed Development – Ground / Mezzanine Plan ................................ ............ 3 
+Figure 4 Proposed Development – Roof Plan ................................ ................................ .... 4 
+Figure 5 Proposed Development – 3D Views ................................ ................................ .... 4 
+Figure 6 Site Location and Surrounding Receivers ................................ ............................ 8 
+[[page 6]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ v  
+ 
+Figure 7 Modelled Noise Sources ................................ ................................ .................... 28 
+Figure 8 Construction Vibration – Large Vibratory Roller ................................ ................. 40 
+Figure 9 Generator Exhaust Silencers ................................ ................................ ............. 50 
+Figure 10 Acoustic Louvre Wall – South Section View ................................ ....................... 50 
+Figure 11 Acoustic Louvre Wall – Plan View ................................ ................................ ...... 51 
+Figure E-1  Residential 1/3 Octave Night-time Operational Noise Levels ........................... E-3 
+Figure E-2   Additional Operational Noise Results – Receiver IDs ................................ ...... E-5 
+Figure E-3  Predicted Operational Noise Contours – OP.01 Day – Ground Level ............ E-10 
+Figure E-4  Predicted Operational Noise Contours – OP.02 Day – Ground Level ............ E-10 
+Figure E-5  Predicted Operational Noise Contours – OP.01 Evening – Ground Level ...... E-11 
+Figure E-6  Predicted Operational Noise Contours – OP.01 Night-time – Ground Level ... E-11 
+Figure E-7  Predicted Operational Noise Contours – OP.01 Day – Roof Level ................. E-12 
+Figure E-8  Predicted Operational Noise Contours – OP.02 Day – Roof Level ................. E-12 
+Figure E-9  Predicted Operational Noise Contours – OP.01 Evening – Roof Level .......... E-13 
+Figure E-10  Predicted Operational Noise Contours – OP.01 Night-time – Roof Level ..... E-13 
+Figure E-11  Cross-sectional Noise Contour Map Locations ................................ ............ E-14 
+Figure E-12  Predicted Operational Cross Section Map – OP.01 Night-time – Area 2 ........ E-0 
+Figure E-13  Predicted Operational Cross Section Map – OP.01 Night-time – Area 4 ........ E-0 
+Figure E-14  Predicted Operational Cross Section Map – OP.01 Night-time – Area 8 ........ E-1 
+Figure E-15  Predicted Operational Cross Section Map – OP.01 Night-time – Area 9 ........ E-1 
+ 
+Appendices 
+Appendix A Acoustic Terminology 
+Appendix B Existing Noise Environment 
+B.1 Noise Monitoring Results 
+B.2 Justification for Noise Monitoring Locations 
+Appendix C Construction Noise Sources 
+Appendix D Mechanical Plant Data Sheets 
+Appendix E Operational Noise Information 
+E.1 Potential for Tonal and Low Frequency Noise 
+E.2 Additional Operational Noise Results 
+E.3 Operational Noise Contours 
+E.4 Cross-sectional Noise Contour Maps to Macquarie Park Precinct Key Sites 
+Appendix F CNVG Mitigation Measures 
+Appendix G NPfI Mitigation Measures 
+ 
+[[page 7]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 1  
+ 
+1.0 Introduction 
+SLR Consulting Australia Pty Ltd (SLR) has been commissioned by Goodman Property 
+Services Pty Ltd to undertake a noise impact assessment in support of a State Significant 
+Development Application (SSDA) for the construction and ongoing operation of a data centre 
+at 4-10 Talavera Road, Macquarie Park in the Ryde City Council Local Government Area 
+(LGA). The site is legally described as Lot 11 in Deposited Plan 733881, Lot 4 in Deposited 
+Plan 1031467 and Lots 10 and 11 in Deposited Plan 883750. 
+SLR is suitably qualified and endorsed by the Planning Secretary to produce SSD noise 
+impact assessments. SLR is a member of the Australian Acoustical Society (AAS) and a 
+member firm of the Association of Australasian Acoustical Consultants (AAAC).  
+This report summarises the assessment of the potential construction and operational noise 
+impacts associated with the proposal. This report has been prepared to address the 
+Secretary’s Environmental Assessment Requirements (SEARs) issued for the Project Apollo 
+Data Centre (SSD-74069708) dated 2nd August 2024. 
+The following report uses specialist acoustic terminology. An explanation of common terms 
+is provided in Appendix A. 
+1.1 Proposal Description 
+A State Significant Development Application (SSDA) has been prepared in support of a data 
+centre at 4-10 Talavera Road, Macquarie Park. The site comprises four individual allotments 
+totalling approximately 25,211 m2 in area, is zoned E3 Productivity Support. 
+The proposal will include: 
+• Site preparation works including demolition, bulk excavation and removal of existing 
+structures on the site, tree and vegetation clearing and bulk earthworks 
+• Construction, fit out and operation of five-storey, 135 MVA data centre tower with a 
+maximum building height of 45 m and total gross floor area of approximately 
+29,018 m2 comprising: 
+o 58 at-grade parking spaces 
+o Two (2) loading dock spaces 
+o Four (4) levels of technical data hall floor space with two (2) data halls per floor 
+o Ancillary office space and amenities on Lower Ground Level 
+o Offices and amenities located from Mezzanine Level to Level 5 
+• Provision of required utilities including: 
+o Eleven (11) in-ground diesel storage tanks 
+o Four (4) above-ground water tanks 
+o Three (3) 33 kV switch-rooms on site 
+• Vehicle and pedestrian access provided via Talavera Road 
+• Associated landscaping and site servicing 
+• Installation of site services and drainage infrastructure 
+• A floor space ratio of approximately 1.18:1. 
+[[page 8]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 2  
+ 
+The site is located in Darug Land and is in Macquarie Park within the City of Ryde Local 
+Government Area (LGA). It is bound by Talavera Road to the south, Lane Cove Road to the 
+east, the Macquarie Technology Park to the west and the M2 Motorway to the north. 
+The site is located within the Macquarie Park Corridor which is a significant economic and 
+employment precinct in Sydney’s North District. The Macquarie Park Corridor contains a 
+range of land uses including Abbot Laboratories medical device company, Ryde Resource 
+Recovery Centre, Excelsia College, Macquarie Shopping Centre, North Ryde Meriton Suits 
+and Macquarie University. 
+The site comprises four individual allotments totalling 25,111 m2. It is currently occupied by 
+two warehouse buildings with ancillary offices space that is utilised for storage and 
+distribution purposes. 
+The closest residential uses to the site are approx. 100 m north of the site across the M2 
+Motorway and 115 m to the north-east of the site at Fontenoy Road, Macquarie Park. 
+The site is well serviced by transport and is within close proximity to Lane Cove Road and 
+M2 Motorway. The site is approximately 430 m north of the Macquarie Park Metro station 
+which is on the Sydney Metro City and Southwest line. This provides access to Chatswood, 
+Sydney CBD and south-west beyond to Bankstown. 
+The site and local context are shown in Figure 1 and Figure 2. The proposed layout of the 
+data centre is shown in Figure 3 to Figure 5. 
+Figure 1 Site Aerial 
+ 
+Source: Urbis 
+
+[[page 9]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 3  
+ 
+Figure 2 Site Context 
+ 
+Source: Urbis 
+Figure 3 Proposed Development – Ground / Mezzanine Plan 
+ 
+
+[[page 10]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 4  
+ 
+Source: HDR 
+Figure 4 Proposed Development – Roof Plan 
+ 
+ 
+Source: HDR 
+Figure 5 Proposed Development – 3D Views 
+  
+Source: HDR 
+
+[[page 11]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 5  
+ 
+1.2 Secretary’s Environmental Assessment Requirements 
+The Secretary’s Environmental Assessment Requirements (SEARs) for SSD 74069708, 
+including additional assessment requirements detailed in the SEARs Cover Letter, were 
+issued by the Department of Planning and Environment (DPE) in August 2024. The 
+requirements relevant to noise and vibration are shown in Table 1. 
+Table 1 Secretary’s Environmental Assessment Requirements, SSD 74069708, 
+August 2024 
+Noise and Vibration Where Addressed 
+SEARs Cover Letter 
+Provide details of noise monitoring survey, background 
+noise levels and amenity noise levels at the potentially 
+most-affected residential receptors (i.e. not necessarily 
+the nearest residential receptor). 
+Noise Monitoring: Section 2.0 
+Amenity Noise Levels: Section 3.3  
+Include details of manufacturer specifications for plant 
+and equipment and noise source inventory 
+(demonstrating worst-case modelling of plant and 
+equipment, including testing of any back-up power 
+system and critical power failure scenario). 
+Noise Sources: Section 4.2.1 
+Manufacturer Specifications: Appendix D 
+Evaluate data centre operational noise for any potential 
+annoying noise characteristics such as tonality and 
+dominant low-frequency content. 
+Annoying Characteristics: Section 4.2.4 
+SEARs 
+Provide a noise and vibration assessment prepared in 
+accordance with the relevant EPA guidelines and 
+Australian/International Standards. The assessment 
+must detail construction and operational noise and 
+vibration impacts (including testing of any back-up 
+power system) on nearby sensitive receivers and 
+structures, and outline the proposed mitigation, 
+management and monitoring measures that would be 
+implemented. 
+Criteria: Section 3.0 
+Impact Assessment: Section 5.0 
+Mitigation: Section 6.0 
+ 
+1.3 Ryde Development Control Plan 2014 
+The Ryde Development Control Plan 2014 (Ryde DCP) provides detailed development 
+guidelines relevant to the siting and design of future development within the City of Ryde. A 
+summary of the controls relevant to noise and vibration are shown in Table 2. 
+Table 2 Ryde DCP Noise Controls 
+Noise and Vibration Where Addressed 
+An Acoustic Impact Assessment report prepared by a suitably qualified 
+acoustic consultant is required to be submitted with all development 
+applications for commercial, industrial, retail and community buildings, 
+with the exception of applications minor building alterations. 
+Development is to comply with all relevant statutory regulations. 
+This Report 
+[[page 12]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 6  
+ 
+1.4 Macquarie Park Rezoning 
+Macquarie Park is an Accelerated Precinct under the Transport Orientated Development 
+Program (TOD). The Macquarie Park TOD Rezoning consists of Stage 1 and Stage 2, which 
+were exhibited in 2023 and 2024, respectively. The combined Macquarie Park TOD 
+Rezoning was finalised in November 2024.  
+The proposal is within the area covered by Stage 2 of the rezoning, in what is referred to as 
+Neighbourhood 1 (Ngalawala). Therefore, the proposal is required to be consistent with the 
+Macquarie Park Design Guide.  
+The rezoning does not propose to change the current E3 zoning of the site or any 
+immediately adjacent zoning.  
+Proposed new mixed use (MU1) zoning areas as part of both Stage 1 and Stage 2 of the 
+TOD are around 600 m or further from the proposal site. Therefore, noise impacts to any 
+future residential receivers in the rezoned areas are expected to be less than the potentially 
+most affected receivers included in this assessment. Further, any future residential 
+developments would be designed to achieve appropriate internal noise levels based on the 
+requirements of the NSW State Environmental Planning Policy (Transport and Infrastructure) 
+2021, the Ryde DCP, and AS2107:2016 as appropriate. 
+The assessment in this report includes predicted operational noise contours in the study 
+area surrounding the proposal, which may be referenced to consider the potential noise 
+contribution at future receivers. It is noted that any future high-rise developments built near 
+to the proposal would act as a screen and reduce noise propagation to more distant 
+receivers. 
+1.5 Nearest Receivers 
+The land to which this SSDA relates is recognised as 4-10 Talavera Road, Macquarie Park, 
+within the City of Ryde local government area. The site is bound by Talavera Road to the 
+south (primary frontage), Lane Cove Road to the east (secondary frontage), the Goodman 
+Talavera Corporate Centre to the west and the M2 Motorway to the north. 
+The nearest receivers are commercial developments located to the west, south and east of 
+the site at distances of around 3 to 50 m. The north of the site is bound by the M2 Motorway, 
+with the nearest residential receivers located north of the motorway around 100 m from the 
+site. Some residential buildings to the north are multistorey and overlook the M2 Motorway 
+and proposal site. 
+Other sensitive receivers in Macquarie Park include a child care centre to the west of the 
+site, a hotel to the south of the site, and an educational campus to the southwest of the site. 
+A review of recent potentially noise and vibration sensitive developments in the study area 
+has been completed and the proposed residential development at 35 Waterloo Road 
+(SSD-52947710) has indicatively been included in the operational noise assessment. 
+Representative receiver areas are detailed in Table 3 and shown in Figure 6. The receiver 
+areas have been selected to represent all nearby receiver types and include the locations 
+potentially most noise affected by the proposal. The assessment presents the maximum 
+result (ie worst-case) of all receivers in a given area. Where the assessment demonstrates 
+compliance with the relevant criteria at the receiver assessment locations, compliance is 
+also expected at all other surrounding receivers. 
+[[page 13]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 7  
+ 
+Table 3 Surrounding Sensitive Receivers 
+ID Receiver Type Distance (m) Direction 
+R01 Residences at 17-49 Fontenoy Road Residential 150 Northwest 
+R02 Ground level residences at 1-15 
+Fontenoy Road 
+Residential 100 North 
+R031 Elevated (F1-F7) residences at 1-15 
+Fontenoy Road 
+Residential 100 North 
+R04 Residences at 37 Khartoum Road, 
+Macquarie Park 
+Residential 500 Northwest 
+R05 35 Waterloo Road, Macquarie Park Residential 250 South 
+R062 North Ryde Early Learning Centre – 
+12/24 Talavera Road 
+Child Care 80 West 
+R07 Courtyard by Marriott Sydney –  
+7/11 Talavera Road  
+Hotel 130 South 
+R08 Excelsia College – 69-71 Waterloo 
+Road 
+Educational 310 Southwest 
+R092 Commercial buildings on Talavera 
+Road  
+Commercial 5 West 
+Note 1: Elevated receivers at 1-15 Fontenoy Road are grouped under one receiver ID (R03). The assessment 
+considers all floors and presents the results for the most affected floor (ie highest noise level). 
+Note 2: The closest child care and commercial receivers (R05 and R09) are Goodman properties. The closest 
+non-Goodman child care and commercial receivers (R06 and R10) are also included for reference. 
+The residences at 1-15 Fontenoy Road are grouped under two receiver IDs (R02 and R03). 
+This is required to consider the different background noise environment, and associated 
+criteria, based on the adjacent noise wall and varying exposure to traffic noise from the 
+M2 Motorway. 
+  
+[[page 14]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 8  
+ 
+Figure 6 Site Location and Surrounding Receivers  
+ 
+  
+
+[[page 15]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 9  
+ 
+2.0 Existing Noise Environment 
+Unattended noise monitoring was completed in the study area in June 2022. Additional noise 
+monitoring was completed at 35 Waterloo Road (L05) in February 2025. The measured 
+noise levels have been used to determine the existing noise environment and to set the 
+criteria used to assess the potential impacts from the proposal. 
+The monitoring equipment was positioned to measure existing noise levels that are 
+representative of receivers potentially most affected by the proposal, within constraints such 
+as accessibility, security and landowner permission. 
+The noise monitoring equipment continuously measured existing noise levels in 15-minute 
+periods during the daytime, evening and night-time.  All equipment carried current National 
+Association of Testing Authorities (NATA) or manufacturer calibration certificates and 
+equipment calibration was confirmed before and after each measurement. 
+The measured data has been processed to exclude noise from extraneous events and 
+periods affected by adverse weather conditions, such as strong wind or rain (measured at 
+the Sydney Olympic Park Bureau of Meteorology (BOM) weather station), to establish 
+representative existing noise levels in the study area. 
+The noise monitoring locations are shown in Figure 6 and the results are summarised in 
+Table 4. Details of the unattended monitoring together with graphs of the measured daily 
+noise levels are provided in Appendix B.1. Justification for the selection of the noise 
+monitoring locations is provided in Appendix B.2. 
+Table 4 Summary of Unattended Noise Monitoring Results 
+ID Address Measured Noise Levels (dBA)1 
+Background Noise 
+(RBL) 
+Average Noise (LAeq) 
+Day Evening Night Day Evening Night 
+L01 7 Tasman Place, Macquarie Park 55 53 43 59 58 54 
+L02 1-15 Fontenoy Road GF, Macquarie Park  56 54 44 60 59 55 
+L032 1-15 Fontenoy Road L3, Macquarie Park  60 56 45 63 61 57 
+L043 37 Khartoum Road, Macquarie Park 45 45 38 57 59 51 
+L05 35 Waterloo Road, Macquarie Park 53 51 45 60 58 55 
+Note 1: The assessment periods are the daytime which is 7 am to 6 pm Monday to Saturday and 8 am to 6 pm 
+on Sundays and public holidays, the evening which is 6 pm to 10 pm, and the night-time which is 10 
+pm to 7 am on Monday to Saturday and 10 pm to 8 am on Sunday and public holidays. See the NSW 
+EPA Noise Policy for Industry. 
+Note 2:  Noise monitor deployed on balcony of unit on level 3 of the building, with view over M2 Motorway to 
+the proposal site. Measured noise levels at this location have a -2.5 dB adjustment applied to reflect a 
+‘free field’ location. 
+Note 3: The measured noise levels at L04 have been taken from the Noise Impact Assessment for the 
+Macquarie Park Data Centre (SSD-10467), which should be referenced for further information on the 
+monitoring location. 
+Noise monitoring was completed at two different heights at 1-15 Fontenoy Road to 
+determine the difference in background noise levels due to exposure to noise from the 
+M2 Motorway. L02 was situated at ground level behind the existing noise wall on the 
+eastbound M2 Motorway off-ramp to Lane Cove Road. L03 was situated on level 3 of 1-15 
+Fontenoy Road with line of site to the motorway.  
+[[page 16]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 10  
+ 
+Short-term attended noise monitoring was also completed. The attended measurements 
+allow the contributions of the various noise sources at each location to be determined.  
+Detailed observations from the attended measurements are provided in Appendix B.1. 
+The attended measurements were generally found to be consistent with the results of the 
+unattended noise monitoring and show that existing ambient noise levels are typically 
+dominated by road traffic noise from the surrounding road network and industrial noise from 
+existing industrial developments. 
+  
+[[page 17]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 11  
+ 
+3.0 Assessment Criteria 
+3.1 Construction Noise Criteria 
+The NSW Interim Construction Noise Guideline (ICNG) is used to assess and manage 
+impacts from construction noise on residences and other sensitive land uses in NSW. 
+The ICNG contains procedures for determining project specific Noise Management Levels 
+(NMLs) for sensitive receivers based on the existing background noise in the area. The 
+‘worst-case’ noise levels from construction of a proposal are predicted and then compared to 
+the NMLs in a 15-minute assessment period to determine the likely impact of the proposal. 
+The NMLs are not mandatory limits, however, where construction noise levels are predicted 
+or measured to be above the NMLs, feasible and reasonable work practices to minimise 
+noise emissions are to be investigated. 
+3.1.1 Residential Receivers 
+The ICNG approach for determining NMLs at residential receivers is shown in Table 5. 
+Table 5 ICNG NMLs for Residential Receivers 
+Time of 
+Day 
+NML 
+LAeq(15minute) 
+How to Apply 
+Standard 
+Construction 
+Hours 
+Monday to 
+Friday 
+7:00 am to 
+6:00 pm 
+Saturday 
+8:00 am to 
+1:00 pm 
+No work on 
+Sundays or 
+public 
+holidays 
+Noise 
+affected 
+RBL1 + 10 dB 
+• The noise affected level represents the point above which there 
+may be some community reaction to noise 
+• Where the predicted or measured LAeq(15minute) is greater than the 
+noise affected level, the proponent should apply all feasible and 
+reasonable work practices to meet the noise affected level 
+• The proponent should also inform all potentially impacted residents 
+of the nature of works to be carried out, the expected noise levels 
+and duration, as well as contact details. 
+Highly Noise 
+Affected 
+75 dBA 
+• The Highly Noise Affected (HNA) level represents the point above 
+which there may be strong community reaction to noise 
+• Where noise is above this level, the relevant authority (consent, 
+determining or regulatory) may require respite periods by 
+restructuring the hours that the very noisy activities can occur, 
+taking into account: 
+o Times identified by the community when they are less sensitive 
+to noise (such as before and after school for works near schools 
+or mid-morning or mid-afternoon for works near residences 
+o If the community is prepared to accept a longer period of 
+construction in exchange for restrictions on construction times. 
+Outside 
+Standard 
+Construction 
+Hours 
+Noise 
+affected RBL 
++ 5 dB 
+• A strong justification would typically be required for works outside 
+the recommended standard hours 
+• The proponent should apply all feasible and reasonable work 
+practices to meet the noise affected level 
+• Where all feasible and reasonable practises have been applied and 
+noise is more than 5 dB above the noise affected level, the 
+proponent should negotiate with the community. 
+Note 1: RBL is the Rating Background Level and the ICNG refers to the calculation procedures in the NSW 
+Industrial Noise Policy (INP).  The INP has been superseded by the NSW EPA Noise Policy for 
+Industry (NPfI). 
+[[page 18]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 12  
+ 
+3.1.2 Other Sensitive’ Land Uses and Commercial Receivers 
+Non-residential land uses have been identified in the study area. The NMLs for ‘other 
+sensitive’ receivers are shown in Table 6. 
+Table 6 Construction NMLs for ICNG ‘Other Sensitive’ Receivers 
+Land Use Noise Management Level 
+LAeq(15minute) (dBA) 
+(applied when the property is in 
+use) 
+Internal External 
+ICNG ‘other sensitive’ receivers  
+Classrooms at schools and other educational institutions 45 551 
+Hospital wards and operating theatres 45 651 
+Places of worship 45 551 
+Active recreation areas 
+(characterised by sporting activities and activities which 
+generate noise) 
+- 65 
+Passive recreation areas 
+(characterised by contemplative activities which generate 
+little noise) 
+- 60 
+Commercial - 70 
+Industrial - 75 
+Non-ICNG ‘other sensitive’ receivers  
+Hotel – daytime and evening2 50 701 
+Hotel – night-time2 40 601 
+Child care centres – sleeping areas3 35 551 
+Note 1: It is assumed that these receivers have fixed windows which conservatively results in internal noise 
+levels being around 20 dB lower than the external noise level. 
+Note 2: Taken from AS2107. 
+Note 3: Taken from Association of Australian Acoustical Consultants Guideline for Child Care Centre Acoustic 
+Assessment. 
+3.1.3 NML Summary 
+The construction NMLs for the proposal have been determined using the results from the 
+unattended noise monitoring and are shown in Table 7. 
+Out of hours NMLs would be applicable should works be required to be undertaken outside 
+ICNG standard construction hours. 
+[[page 19]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 13  
+ 
+Table 7 Project Specific Noise Management Levels 
+ID Receiver Type Monitoring 
+Location 
+Noise Management Level (LAeq(15minute) – dBA) 
+Standard 
+Construction  
+(RBL +10 dB)1 
+Out of Hours 
+(RBL +5 dB) 
+Daytime  Daytime2 Evening  Night-time 
+R01 Residential L01 65 60 58 48 
+R02 Residential L02 66 61 59 49 
+R03 Residential L03 70 65 61 50 
+R04 Residential L04 55 50 50 43 
+R06 Child Care - 55 55 - - 
+R07 Hotel - 70 70 70 60 
+R08 Educational - 55 55 - - 
+R09 Commercial - 70 70 - - 
+Note 1: RBL = Rating Background Level. 
+Note 2: Daytime out of hours is 7 am to 8 am and 1 pm to 6 pm on Saturday, and 8 am to 6 pm on Sunday 
+and public holidays. 
+3.2 Construction Vibration Criteria 
+The effects of vibration from construction works can be divided into three categories: 
+• Those in which the occupants of buildings are disturbed (human comfort) 
+• Those where building contents may be affected (building contents) 
+• Those where the integrity of the building may be compromised (structural or cosmetic 
+damage). 
+3.2.1 Human Comfort Vibration 
+People can sometimes perceive vibration impacts when vibration generating construction 
+works are located close to occupied buildings.   
+Vibration from construction works tends to be intermittent in nature and the EPA’s Assessing 
+Vibration: a technical guideline (2006) provides criteria for intermittent vibration based on the 
+Vibration Dose Value (VDV). The ‘preferred’ and ‘maximum’ VDVs for human comfort 
+impacts are shown in Table 8. 
+[[page 20]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 14  
+ 
+Table 8 Vibration Dose Values for Intermittent Vibration 
+Building Type Assessment 
+Period 
+Vibration Dose Value1 
+(m/s1.75) 
+Preferred Maximum 
+Critical Working Areas (eg operating theatres or 
+laboratories) 
+Day or night-
+time 
+0.10 0.20 
+Residential  Daytime 0.20 0.40 
+Night-time 0.13 0.26 
+Offices, schools, educational institutions and places 
+of worship 
+Day or night-
+time 
+0.40 0.80 
+Workshops Day or night-
+time 
+0.80 1.60 
+Note 1: The VDV accumulates vibration energy over the daytime and night-time assessment periods, and is 
+dependent on the level of vibration as well as the duration.   
+3.2.2 Effects on Building Contents 
+People perceive vibration at levels well below those likely to cause damage to building 
+contents. For most receivers, the human comfort vibration criteria are the most stringent and 
+it is generally not necessary to set separate criteria for vibration effects on typical building 
+contents. 
+Exceptions to this can occur when vibration sensitive equipment, such as electron 
+microscopes, are located in buildings near to construction works. No such items of 
+equipment have been identified in the proposal area. 
+3.2.3 Structural and Cosmetic Damage Vibration 
+If vibration from construction works is sufficiently high it can cause damage to structural 
+elements of affected buildings. The levels of vibration required to cause cosmetic damage 
+tend to be at least an order of magnitude (10 times) higher than those at which people can 
+perceive vibration. 
+Examples of damage that can occur includes cracks or loosening of drywall surfaces, cracks 
+in supporting columns and loosening of joints. Structural damage vibration limits are 
+contained in British Standard BS 7385 and German Standard DIN 4150.   
+BS 7385 
+British Standard BS 7385 recommends vibration limits for transient vibration judged to give a 
+minimal risk of vibration induced damage to affected buildings. The limits for residential and 
+industrial buildings are shown in Table 9. 
+[[page 21]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 15  
+ 
+Table 9 BS 7385 Transient Vibration Values for Minimal Risk of Damage 
+Group Type of Building Peak Component Particle Velocity in 
+Frequency Range of Predominant Pulse 
+4 Hz to 15 Hz 15 Hz and Above 
+1 Reinforced or framed structures. Industrial 
+and heavy commercial buildings 
+50 mm/s at 4 Hz and above 
+2 Unreinforced or light framed structures. 
+Residential or light commercial type buildings 
+15 mm/s at 4 Hz 
+increasing to 
+20 mm/s at 15 Hz 
+20 mm/s at 15 Hz 
+increasing to 50 mm/s 
+at 40 Hz and above 
+Note 1: Where the dynamic loading caused by continuous vibration may give rise to dynamic magnification 
+due to resonance, especially at the lower frequencies where lower guide values apply, then the guide 
+values may need to be reduced by up to 50%. 
+For heritage buildings, the standard states that “a building of historical value should not 
+(unless it is structurally unsound) be assumed to be more sensitive”. 
+DIN 4150 
+German Standard DIN 4150 also provides guideline vibration limits for different buildings. 
+Damage is not expected to occur where the values are complied with and the values are 
+generally recognised to be conservative. The DIN 4150 values for buildings and structures 
+are shown in Table 10. 
+Table 10 DIN 4150 Guideline Values for Short-term Vibration on Structures 
+Group Type of Structure Guideline Values Vibration Velocity (mm/s) 
+Foundation, All Directions 
+at a Frequency of 
+Topmost 
+Floor, 
+Horizontal 
+Floor 
+Slabs, 
+Vertical 
+1 to 
+10 Hz 
+10 to 
+50 Hz 
+50 to 
+100 Hz 
+All 
+frequencies 
+All 
+frequencies 
+1 Buildings used for commercial 
+purposes, industrial buildings and 
+buildings of similar design 
+20 20 to 40  40 to 50  40 20 
+2 Residential buildings and buildings 
+of similar design and/or 
+occupancy 
+5 5 to 15  15 to 20  15 20 
+3 Structures that, because of their 
+particular sensitivity to vibration, 
+cannot be classified as Group 1 or 
+2 and are of great intrinsic value 
+(eg heritage listed buildings)  
+3 3 to 8  8 to 10  8 201 
+Note 1: It may be necessary to lower the relevant guideline value markedly to prevent minor damage. 
+3.2.4 Minimum Working Distances for Vibration-intensive Works 
+Minimum working distances for typical vibration-intensive construction equipment are 
+provided in the Transport for NSW Construction Noise and Vibration Guideline (CNVG) and 
+are shown in Table 11. The minimum working distances are for both cosmetic damage (from 
+BS 7385 and DIN 4150) and human comfort (from the NSW EPA Vibration Guideline). They 
+are based on empirical data which suggests that where works are further from receivers than 
+the quoted minimum distances then impacts are not considered likely.  
+[[page 22]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 16  
+ 
+Table 11 Recommended Minimum Working Distances from Vibration-intensive 
+Equipment 
+Plant Item Rating/Description Minimum Distance 
+Cosmetic Damage Human 
+Response 
+(NSW EPA 
+Guideline) 
+Residential 
+and Light 
+Commercial  
+(BS 7385) 
+Heritage 
+Items  
+(DIN 4150, 
+Group 3)1 
+Vibratory Roller <50 kN (1–2 tonne) 5 m 11 m 15 m to 20 m 
+<100 kN (2–4 tonne) 6 m 13 m 20 m 
+<200 kN (4–6 tonne) 12 m 25 m 40 m 
+<300 kN (7–13 tonne) 15 m 31 m 100 m 
+>300 kN (13–18 tonne) 20 m 40 m 100 m 
+>300 kN (>18 tonne) 25 m 50 m 100 m 
+Small Hydraulic 
+Hammer 
+300 kg (5 to 12 t 
+excavator) 
+2 m 5 m 7 m 
+Medium Hydraulic 
+Hammer 
+900 kg (12 to 18 t 
+excavator) 
+7 m 15 m 23 m 
+Large Hydraulic 
+Hammer 
+1,600 kg (18 to 34 t 
+excavator) 
+22 m 44 m 73 m 
+Vibratory Pile Driver Sheet piles 2 m to 20 m 5 m to 40 m 20 m 
+Piling Rig – Bored ≤ 800 mm 2 m (nominal) 5 m 4 m 
+Jackhammer Hand held 1 m (nominal) 3 m 2 m 
+Note 1: Minimum working distances for heritage items that have been identified as structurally unsound or 
+otherwise particularly sensitive to vibration. These distances have been calculated based on the 
+2.5 mm/s PPV criterion from DIN 4150 and the cosmetic damage minimum working distances 
+presented in the CNVG with reference to BS 7385. It is recommended that the 2.5 mm/s PPV criterion 
+is considered at the foundation (rather than the highest floor as suggested in DIN 4150).  
+The minimum working distances are indicative and will vary depending on the particular item 
+of equipment and local geotechnical conditions. The distances apply to cosmetic damage of 
+typical buildings under typical geotechnical conditions. 
+3.3 Operational Noise Criteria 
+The NSW Noise Policy for Industry (NPfI) was released in 2017 and sets out the 
+requirements for the assessment and management of operational noise from industry in 
+NSW. 
+The NPfI defines how to determine ‘trigger levels’ for noise emissions from industrial 
+developments.  Where a development is likely to exceed the trigger levels at existing noise-
+sensitive receivers, feasible and reasonable noise management measures are required to be 
+considered to reduce the impacts. 
+There are two types of trigger levels – one to account for ‘intrusive’ noise impacts and one to 
+protect the ‘amenity’ of particular land uses: 
+[[page 23]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 17  
+ 
+• The intrusiveness of an industrial noise source is generally considered acceptable if 
+the LAeq noise level of the source, measured over a period of 15-minutes, does not 
+exceed the representative background noise level by more than 5 dB.  Intrusive noise 
+levels are only applied to residential receivers.  For other receiver types, only the 
+amenity levels apply. 
+• To limit continual increases in noise levels from the use of the intrusiveness level 
+alone, the ambient noise level within an area from all industrial sources should 
+remain below the recommended amenity levels specified in the NPfI for that 
+particular land use. 
+Intrusive and amenity noise levels are not used directly as regulatory limits.  They are used 
+to assess the potential impact of noise, assess feasible and reasonable mitigation options 
+and subsequently determine achievable noise requirements. 
+The NPfI provides guidance on assigning residential receiver amenity noise categories 
+based on the site-specific features shown in Table 12. 
+Table 12 Residential Receiver Amenity  
+Receiver 
+Category 
+Typical Planning Land 
+Use Zoning 
+Typical Existing 
+Background 
+Noise Levels 
+(RBL) 
+Description 
+Rural  RU1 – primary production  
+RU2 – rural landscape  
+RU4 – primary production 
+small lots  
+R5 – large lot residential  
+E4 – environmental living 
+Daytime <40 dBA 
+Evening <35 dBA  
+Night <30 dBA 
+Rural – an area with an acoustical 
+environment that is dominated by 
+natural sounds, having little or no road 
+traffic noise and generally characterised 
+by low background noise levels. 
+Settlement patterns would be typically 
+sparse. Note: Where background noise 
+levels are higher than those presented 
+due to existing industry or intensive 
+agricultural activities, the selection of a 
+higher noise amenity area should be 
+considered. 
+Suburban 
+residential  
+RU5 – village  
+RU6 – transition 
+R2 – low density 
+residential  
+R3 – medium density 
+residential  
+E2 – environmental 
+conservation  
+E3 – environmental 
+management 
+Daytime <45 dBA 
+Evening <40 dBA 
+Night <35dBA 
+Suburban – an area that has local traffic 
+with characteristically intermittent traffic 
+flows or with some limited commerce or 
+industry. This area often has the 
+following characteristic: evening 
+ambient noise levels defined by the 
+natural environment and human activity. 
+[[page 24]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 18  
+ 
+Receiver 
+Category 
+Typical Planning Land 
+Use Zoning 
+Typical Existing 
+Background 
+Noise Levels 
+(RBL) 
+Description 
+Urban 
+residential 
+R1 – general residential  
+R4 – high density  
+residential  
+B1 – neighbourhood 
+centre (boarding houses 
+and shop-top housing)  
+B2 – local centre  
+(boarding houses)  
+B4 – mixed use 
+Daytime >45 dBA  
+Evening >40 dBA 
+Night >35 dBA 
+Urban – an area with an acoustical 
+environment that:  
+• Is dominated by ‘urban hum’ or 
+industrial source noise, where urban 
+hum means the aggregate sound of 
+many unidentifiable, mostly traffic 
+and/or industrial related sound sources  
+• Has through-traffic with 
+characteristically heavy and continuous 
+traffic flows during peak periods  
+• Is near commercial districts or 
+industrial districts  
+• Has any combination of the above. 
+Amenity noise categories for the surrounding receivers have been determined with reference 
+to the NPfI. The assessment is shown in Table 13. 
+Table 13 Residential Receiver Amenity Category Assessment 
+Area Land Use 
+Zoning 
+Existing 
+Background Noise 
+Levels RBL (dBA) 
+Resulting 
+Amenity 
+Classification 
+Discussion 
+Day Eve Night 
+R01 R4 high 
+density 
+residential 
+55 53 43 Urban The residential area to the north is 
+zoned as R4 – high density 
+residential and the proposed 35 
+Waterloo Road development to the 
+south is zoned as E2 – Commercial 
+Core. Existing noise levels are 
+controlled by road traffic noise and 
+urban hum, therefore residences 
+have been classified as urban. 
+R02 56 54 44 
+R031 60 56 45 
+R04 45 45 38 
+R05 E2 
+Commercial 
+Core 
+53 51 45 
+Note 1: Background noise levels at elevated residential location, with view of the M2 Motorway. 
+3.3.1 Project Noise Trigger Levels 
+The trigger levels for industrial noise from the proposal are summarised in Table 14. They 
+are based on the previously measured background noise levels, where appropriate. The 
+Project Noise Trigger Levels (PNTL) are the most stringent of the intrusiveness and amenity 
+trigger level for each period and are highlighted below. 
+[[page 25]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 19  
+ 
+Table 14 Project Noise Trigger Levels 
+ID Receiver 
+Type 
+Period Amenity 
+Noise Level 
+LAeq (dBA) 
+Measured Noise 
+Level (dBA)  
+Project Noise Trigger 
+Levels LAeq(15minute) (dBA)  
+RBL1 LAeq(period) Intrusiveness Amenity2,3  
+R01 Residential Day 60 55 59 60 58 
+Evening 50 53 58 58 48 
+Night 45 43 54 48 43 
+R02 Residential 
+(Ground level) 
+Day 60 56 60 61 58 
+Evening 50 54 59 59 48 
+Night 45 44 55 49 43 
+R03 Residential 
+(Elevated 
+F1-F7) 
+Day 60 60 63 65 58 
+Evening 50 56 61 61 494 
+Night 45 45 57 50 454 
+R04 Residential Day 60 45 57 50 58 
+Evening 50 45 59 50 48 
+Night 45 38 51 43 43 
+R05 Residential Day 60 53 60 58 58 
+Evening 50 51 58 56 48 
+Night 45 45 55 50 43 
+R06 Child Care 
+Playground5 
+When in 
+use 
+55 - - - 53 
+Child Care  
+Classroom5,6 
+40 (internal) 
+60 (external) 
+- - - 58 
+R07 Hotel Day 65 - - - 63 
+Evening 55 - - - 53 
+Night 50 - - - 48 
+R08 Educational6 When in 
+use 
+40 (internal) 
+60 (external) 
+- - - 58 
+R09 Commercial When in 
+use 
+65 - - - 63 
+Note 1: RBL = Rating Background Level. 
+Note 2: The recommended amenity noise levels have been reduced by 5 dB, where appropriate, to give the 
+project amenity noise levels due to other sources of industrial noise being present in the area, as 
+outlined in the NPfI. 
+Note 3: The project amenity noise levels have been converted to a 15-minute level by adding 3 dB, as outlined 
+in the NPfI. 
+Note 4: The measured LAeq noise level was dominated by existing road traffic noise and exceeds the 
+recommended amenity noise level by 10 dB or more, therefore, the ‘high traffic project amenity noise 
+level’ is the existing LAeq(traffic) noise level minus 15 dB, as outlined in the NPfI. 
+Note 5: The NPfI does not include a recommended amenity noise level for child care centres, so there are no 
+defined criteria for industrial noise. The NPfI does include amenity noise levels for ‘Active recreation 
+area (eg school playground)’ and ‘School classroom – internal’. These amenity noise levels have been 
+applied in the assessment of child care centres.  
+Note 6: The criterion is specified as an internal noise level for this receiver category. As the noise model 
+predicts external noise levels, it has been assumed that receivers in this area have fixed windows and 
+external noise levels are therefore 20 dB higher than the corresponding internal level. 
+[[page 26]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 20  
+ 
+3.3.2 Cumulative Noise Impacts 
+The NSW Government Cumulative Impact Assessment Guidelines for State Significant 
+Projects requires that the potential combined effect of cumulative impacts on all nearby 
+industrial developments to be considered when assessing potential noise impacts from state 
+significant projects. The guideline references the NPfI when determining the approach to 
+assessing the cumulative industrial noise impacts. 
+The NPfI states that it aims to limit continuing increases in cumulative industrial noise 
+through the application of amenity noise levels, which are applicable to all industrial noise 
+sources in an area.   
+The NPfI requires that the amenity noise levels which are applied to an individual project be 
+reduced by 5 dB to allow for the potential cumulative impact from multiple sources of 
+industrial noise in an area (including existing and new). 
+By doing this, the policy accounts for potential cumulative impacts by lowering the criteria for 
+each individual development to ensure that the ambient noise level within an area from all 
+industrial noise sources combined remains below the recommended amenity noise levels, 
+where feasible and reasonable. The NPfI states that “where the project amenity noise level 
+applies and it can be met, no additional consideration of cumulative industrial noise is 
+required”. 
+The NPfI does include a methodology to further reduce the amenity noise level for individual 
+projects where they are in a cluster of industry. This methodology is to be applied where a 
+cluster of industry consisting of multiple new noise generating premises is proposed and the 
+same receiver(s) are expected to be impacted by more than three to four individual industrial 
+noise sources. 
+As discussed in Section 4.1.3, several surrounding developments in Macquarie Park have 
+been considered for potential cumulative noise impacts. The proposed and approved 
+developments include four other data centre sites, which are expected to be notable noise 
+generating premises. However, the surrounding data centre sites are between 300 m and 
+1,200 m from the proposal. Further, due to the locations of the surrounding data centre sites 
+they would generally be expected to potentially impact different facades of noise sensitive 
+receivers rather than contribute to notable cumulative noise levels at the same facade. 
+Therefore, it is not expected that more than three to four developments, including the 
+proposal. would contribute to similar industrial noise to the potentially most affected 
+receivers considered in this assessment. 
+The potential cumulative impacts from the development and other sources of industrial noise 
+in the area are therefore accounted for in the proposal-specific PNTLs (see Table 14). 
+3.3.3 Sleep Disturbance 
+The potential for sleep disturbance from maximum noise level events from the proposal 
+during the night-time period is required to be considered. This is applicable only to 
+residential receivers. 
+The NPfI defines the sleep disturbance screening level as 52 dBA LAFmax or the prevailing 
+background level plus 15 dB, whichever is greater. 
+The sleep disturbance screening levels for the proposal are shown in Table 15. 
+[[page 27]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 21  
+ 
+Table 15 Sleep Disturbance Screening Levels 
+ID Location  Noise Level (dBA) 
+Measured Prevailing 
+Night-time 
+Background Level  
+Sleep Disturbance 
+Screening Level1 
+R01 Residences at 35-39 Fontenoy Road 43 58 
+R02 Ground level residences at 1-15 Fontenoy 
+Road 
+44 59 
+R03 Elevated (F1-F7) residences at 1-15 
+Fontenoy Road 
+45 60 
+R04 Residences at 37 Khartoum Road 38 53 
+R05 35 Waterloo Road 45 60 
+Note 1: The sleep disturbance screening level as 52 dBA LAFmax or the prevailing background level plus 
+15 dB, whichever is greater 
+A detailed maximum noise level event assessment should be completed where the sleep 
+disturbance screening level is exceeded. The detailed assessment should cover the 
+maximum noise level, the extent to which the maximum noise level exceeds the RBL, and 
+the number of times this happens during the night-time period.   
+The NPfI refers to the Road Noise Policy (RNP) for additional information regarding sleep 
+disturbance. enHealth Council studies are referenced which indicate that for short-term or 
+transient noise events, for good sleep over eight hours the indoor LAFmax sound pressure 
+level should ideally not exceed around 45 dBA more than 10 or 15 times per night.  
+The RNP goes on to conclude that from the research on sleep disturbance to date: 
+• Maximum internal noise levels below 50 dBA to 55 dBA are unlikely to awaken 
+people from sleep 
+• One or two events per night with maximum internal noise levels of 65-70 dBA are not 
+likely to affect health and wellbeing significantly. 
+3.3.4 Corrections for Annoying Noise Characteristics  
+Sources of industrial noise can cause greater annoyance where they contain certain 
+characteristics, such as tonality, intermittency or dominant low-frequency content. The NPfI 
+specifies the following modifying factor corrections, shown in Table 16, which are to be 
+applied where annoying characteristics are present. The corrections are to be added to the 
+noise level at the receiver before comparison with the PNTLs. 
+[[page 28]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 22  
+ 
+Table 16 NPfI Modifying Factor Corrections 
+Factor Assessment/ 
+Measurement 
+When to Apply Correction1 
+Tonal 
+noise 
+One-third octave 
+or narrow band 
+analysis 
+Level of one-third octave band exceeds the level of the 
+adjacent bands on both sides by the levels defined in 
+the NPfI. 
+5 dB2 
+Low-
+frequency 
+noise 
+Measurement of 
+source 
+contribution C-
+weighted and A-
+weighted level 
+and one-third 
+octave 
+measurements 
+Measure/assess source contribution C and A weighted 
+Leq,t levels over same time period.  Correction to be 
+applied where the C minus A level is 15 dB or more 
+and the level to which the thresholds defined in the 
+NPfI are exceeded. 
+2 or 5 dB2 
+Intermittent 
+noise 
+Subjectively 
+assessed but 
+should be 
+assisted with 
+measurement to 
+gauge the extent 
+of change in 
+noise level 
+The source noise heard at the receiver varies by more 
+than 5 dB and the intermittent nature of the noise is 
+clearly audible.  
+The NPfI further defines intermittent noise as noise 
+where the level suddenly drops/increases several 
+times during the assessment period, with a noticeable 
+change in source noise level of at least 5 dB, for 
+example, equipment cycling on and off. 
+The EPA has confirmed that the intermittent correction 
+does not apply to short-term events that emerge above 
+the general industrial noise level and is therefore not 
+applicable to industrial or commercial sites that have 
+vehicle or plant movements at night, including audible 
+reversing alarms.4 
+The intermittency correction is not intended to be 
+applied to changes in noise level due to meteorology. 
+5 dB3 
+Maximum 
+adjustment 
+Refer to 
+individual 
+modifying 
+factors 
+Where two or more modifying factors are indicated. Maximum 
+correction 
+of 10 dB2 
+(excluding 
+duration 
+correction)  
+Note 1: Corrections to be added to the measured or predicted levels. 
+Note 2: Where a source emits tonal and low-frequency noise, only one 5 dB correction should be applied if the 
+tone is in the low-frequency range, that is, at or below 160 Hz. 
+Note 3: Adjustment to be applied to night-time only. 
+Note 4: How to Apply the Noise Policy for Industry Intermittent Modifying Factor Corrections, NSW 
+Environment Protection Authority, Acoustics Australia Vol. 50, No. 3, September 2022. 
+Details of the modifying factor corrections applied in the assessment are provided in 
+Section 4.2.4. 
+[[page 29]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 23  
+ 
+3.3.5 Residual Impacts 
+The NPfI defines residual noise impacts as exceedances of the Project Noise Trigger Levels 
+which remain after all feasible and reasonable source and pathway mitigation measures 
+have been considered.   
+The significance of residual noise impacts, as defined in the NPfI, is shown in Table 17. 
+Examples of receiver-based treatments that can be used to mitigate residual impacts are 
+shown in Table 18. 
+Table 17 NPfI Significance of Residual Noise Impacts  
+If the Predicted 
+Noise Level minus 
+the Project Noise 
+Trigger Level is: 
+And the Total Cumulative Industrial Noise Levels is: Then the 
+Significance of 
+the Residual 
+Noise Level is: 
+≤ 2 dBA Not applicable Negligible 
+≥ 3 but ≤ 5 dBA < recommended amenity noise level 
+or 
+> recommended amenity noise level, but the increase in 
+total cumulative industrial noise level resulting from the 
+development is less than or equal to 1dB 
+Marginal 
+≥ 3 but ≤ 5 dBA > recommended amenity noise level and the increase in 
+total cumulative industrial noise level resulting from the 
+development is more than 1 dB 
+Moderate 
+> 5 dBA ≤ recommended amenity noise level Moderate 
+> recommended amenity noise level Significant 
+ 
+Table 18 NPfI Examples of Receiver-based Treatments to Mitigate Residual Noise 
+Impacts  
+Significance of 
+Residual Noise 
+Impact  
+Example of Potential Treatment 
+Negligible The exceedances would not be discernible by the average listener and 
+therefore would not warrant receiver-based treatments or controls. 
+Marginal Provide mechanical ventilation/comfort condition systems to enable windows 
+to be closed without compromising internal air quality/amenity. 
+Moderate As for ‘marginal’, but also upgraded facade elements, such as windows, doors 
+or roof insulation, to further increase the ability of the building facade to 
+reduce noise levels. 
+Significant May include suitable commercial agreements where considered feasible and 
+reasonable. 
+[[page 30]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 24  
+ 
+3.3.6 Traffic on Surrounding Roads  
+The potential impacts from proposal-related traffic on the surrounding public roads are 
+assessed using the NSW EPA Road Noise Policy (RNP).  
+An initial screening test is first applied to evaluate if existing road traffic noise levels are 
+expected to increase by more than 2.0 dB. Where this is considered likely, further 
+assessment is required using the RNP criteria shown in Table 19. 
+Table 19 RNP Criteria for Assessing Traffic on Public Roads 
+Road 
+Category 
+Type of Project/Land Use Assessment Criteria (dBA) 
+Daytime  
+(7 am – 10 pm) 
+Night-time 
+(10 pm – 7 am) 
+Freeway/ 
+arterial/ 
+sub-arterial 
+roads 
+Existing residences affected by additional traffic 
+on existing freeways/arterial/sub-arterial roads 
+generated by land use developments 
+LAeq(15hour) 60 
+(external) 
+LAeq(9hour) 55 
+(external) 
+Local roads Existing residences affected by additional traffic 
+on existing local roads generated by land use 
+developments  
+LAeq(1hour) 55 
+(external) 
+LAeq(1hour) 50 
+(external) 
+ 
+  
+[[page 31]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 25  
+ 
+4.0 Methodology 
+4.1 Construction Noise and Vibration Assessment 
+A noise model of the study area has been used to predict noise levels from the proposed 
+construction work to all surrounding receivers.  The model uses ISO 9613-2 algorithms in 
+SoundPLAN software.  
+Local terrain, receiver buildings and structures were digitised in the noise model to develop a 
+three-dimensional representation of the construction sites and surrounding areas.  
+4.1.1 Construction Activities 
+Representative scenarios have been developed to assess the likely impacts from the various 
+construction phases of the proposal.  These scenarios are shown in Table 20. 
+The assessment uses ‘realistic worst-case’ scenarios to determine the impacts from the 
+noisiest 15-minute period that are likely to occur for each work scenario, as required by the 
+ICNG. The impacts represent construction noise levels without mitigation applied. 
+The sound power levels for the construction equipment used in each scenario are presented 
+in Appendix C. 
+Table 20 Construction Equipment 
+Scenario Works Activity Equipment Indicative 
+Duration1 
+W.01 Vegetation 
+clearing 
+Chainsaw, chipper, excavator, front end loader, 
+dump truck, water truck 
+1 month 
+W.02 Demolition Rockbreaker, dozer, front end loader, dump truck, 
+water truck 
+3 months 
+W.03 Earthworks Dozer, excavator, front end loader, vibratory roller, 
+dump truck, water truck 
+6 months 
+W.04 Excavation of 
+hard rock  
+Rockbreaker, dozer, excavator, front end loader, 
+dump truck, water truck 
+12 months 
+W.05 Construction of 
+pads and 
+hardstands  
+Concrete pump, concrete truck/agitator, concrete 
+vibrator 
+W.06 Construction of 
+structures and 
+equipment 
+installation 
+Elevated working platform, flatbed truck, hand tools, 
+mobile crane 
+3 months 
+Note 2: Durations should be regarded as indicative and represent the total estimated duration of work at a 
+typical worksite. 
+4.1.2 Hours of Construction 
+Construction activities for the proposal would only be undertaken during the following hours: 
+• 7:00 am to 6:00 pm, Mondays to Fridays 
+• 8:00 am to 1:00 pm on Saturdays 
+• At no time on Sundays or Public Holidays. 
+[[page 32]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 26  
+ 
+4.1.3 Cumulative Construction Noise 
+Assessing cumulative impacts involves the consideration of the proposed impact in the 
+context of noise and vibration. The assessment of cumulative impacts also considers 
+projects that are currently under development, or at the planning stage that may also 
+influence the assessment of this proposal’s potential impacts. Cumulative impacts can 
+potentially arise from the interaction of the construction activities of the proposal and other 
+future projects nearby.  
+The cumulative noise impact assessment in this report is prepared in accordance with the 
+Cumulative Impact Assessment Guidelines for State Significant Projects (DPE, 2022). 
+Projects with the potential for cumulative impacts with the proposal were identified through a 
+review of publicly available information at the time of this assessment. 
+The projects considered for potential cumulative construction noise impacts are listed in 
+Table 21. 
+Table 21 Considered Cumulative Projects 
+Address Development Type DA Reference Current Status 
+1-5 Khartoum Road Data Centre SSD-63235720 Prepare EIS 
+11-17 Khartoum Road Data Centre SSD-10467 
+LDA2020/0229 
+Approved 
+17-23 Talavera Road  Data Centre SSD-24299707 Approved / Modification 
+Under Assessment  
+100-108 Talavera Road Mixed Use 
+Development 
+LDA2022/0021 Approved 
+45-61 Waterloo Road Commercial 
+Development 
+LDA2018/0172 Approved 
+269 Lane Cove Road Data Centre SSD-63168959 Response to 
+Submissions 
+85-97 Waterloo Road 
+and 2 Banfield Road 
+Build-to-rent 
+Development 
+SSD-52604208 Under Assessment 
+4.2 Operational Noise Assessment 
+The potential operational noise levels from the proposal have been predicted to the 
+surrounding receivers using the ISO 9613-2 algorithm in SoundPLAN V8.2, implemented in 
+accordance with ISO 17534.  
+ISO 9613 -2 is an industry standard algorithm that is considered suitable for use in the 
+prediction of noise from industrial sources where intervening objects provid e acoustic 
+shielding, such as at the subject site and surrounding area.   
+The ISO 9613-2 algorithm predicts continuous A-weighted sound pressure levels under noise-
+enhancing meteorological conditions favourable to downwind propagation, or equivalently, 
+propagation under a well-developed, moderate, ground-based temperature inversion, such as 
+commonly occurs on clear calm nights. 
+Downwind propagation conditions include wind from source to receiver, with wind speeds of 
+around 1 to 5 m/s, measured at a height of 3  to 11 m above the ground. These propagation 
+conditions are consistent with the noise-enhancing weather conditions specified in Fact 
+Sheet D: Accounting for noise-enhancing weather conditions of the NPfI.  
+[[page 33]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 27  
+ 
+ISO 9613-2 has been used extensively on industrial projects in Australia over several 
+decades and has been accepted previously by NSW DPE (now DPHI) in numerous 
+environmental noise assessments. 
+The noise model includes ground topography, ground type (ground absorption modelled at 
+0.5 in the residential area north of the M2 Motorway, 0.2 in the commercial area of 
+Macquarie Park and 0.0 on the proposal site), buildings and representative noise sources 
+from the proposal. 
+The potential impacts have been determined by comparing the predicted peak noise levels 
+to the NPfI PNTLs in a 15-minute assessment period. 
+Noise levels have been assessed at the identified representative receiver locations with 
+reference to the requirements of ‘Section 2.6 – Assessment Locations’ of the NPfI. This 
+includes assessment of impacts at all floors of the identified multi-storey buildings. The 
+assessment presents the highest noise level for each building to represent the potentially 
+most affected location. 
+4.2.1 Operational Noise Sources 
+The proposal is in the early design stages and the future tenants are currently unknown. 
+Several assumptions have been made regarding the future tenants and likely sources of 
+noise. These assumptions have been used to develop representative peak noise scenarios 
+that reflect the expected highest noise emissions that the development would likely emit. 
+The proposal is a speculative development with no tenants committed. The facility has been 
+designed to accommodate typical data centre users. 
+The development comprises a multi-storey data centre building with associated data halls, 
+plant rooms, backup generators, office area, vehicle access, loading dock and carparking.  
+Vehicle access would be from Talavera Road. The site would be in use 24 hours a day. 
+Heavy vehicles larger than medium rigid trucks are currently not expected to be required at 
+the site. 
+The main sources of operational noise at the development are expected to include: 
+• Rooftop cooling towers and other externally located items of mechanical plant 
+• Testing of backup generators 
+• On-site light and heavy vehicle movements 
+• Loading dock activities 
+• Off-site vehicle movements. 
+A summary of the expected noise sources and representative peak assessment scenarios 
+associated with the operation of the development is provided below. The location of the 
+modelled noise sources is shown in Figure 7. 
+[[page 34]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 28  
+ 
+Figure 7 Modelled Noise Sources 
+ 
+The proposal includes a rooftop plant room of solid blockwork construction, which separates 
+the cooling towers from sensitive receivers to the north. The rooftop rooms are proposed to 
+have a minimum height of 8.5 m above roof level, with some rooms up to 10.5 m above roof 
+level.  
+4.2.1.1  Mechanical Plant  
+The main sources of externally located mechanical plant noise at the development would be 
+the rooftop cooling towers and maintenance testing of the backup generators.   
+The external mechanical plant used in the assessment, together with corresponding sound 
+power levels, number of units and locations, are detailed in Table 22. 
+
+[[page 35]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 29  
+ 
+Table 22 Mechanical Plant 
+Noise 
+Source 
+Example Unit Sound Power 
+Level (dBA) 
+Locations and Operations 
+Cooling 
+towers 
+BAC XES3E-
+1424-12P 
+ENDURA/H 
+Each unit includes 
+two motors at 
+87 dBA each1 
+Sound pressure 
+levels at 15 m: 
+Air Inlet: 51 dBA 
+End: 45 dBA 
+Top: 55 dBA 
+36 cooling towers on roof of data centre with 
+top of unit 7.86 m above roof height, including 
+consideration of a 1.5 m gantry. Assumed to 
+operate 24/7. 
+Cooling towers are modelled as ‘industrial 
+building’ objects in the noise model, which are 
+equivalent to a 3D box with a noise source on 
+each face. The noise sources were calibrated 
+based on the manufacturers data to achieve 
+the stated sound pressure levels at a distance 
+of 15 m. 
+Backup 
+generators 
+Rolls Royce mtu 
+20V4000G94F 
+Air Intake 
+SWL 100 dBA 
+66 backup generators located on gantries on 
+the western side of the data centre. Generators 
+would be located in 6 levels, across Level 1 to 
+Upper Roof. 
+Generators contained in individual enclosures. 
+Air intake and discharge noise sources are 
+modelled as point sources at the centroid of 
+the enclosure side faces.  
+Generator exhaust stacks rise up individually 
+and terminate at an elevation of 96 m for the 
+southern gantry and 102 m for the northern 
+gantry (equivalent to top of screen height, 
+8.5 m above the roof and upper roof levels). 
+Generator exhausts are modelled as point 
+sources at the exhaust locations. 
+The six generators in the northwest most 
+corner of the gantries are assumed to have 
+manufacturer 40 dB exhaust silencers. All 
+other generators are assumed to have 
+manufacturer 30 dB exhaust silencers (see 
+Section 6.2). 
+The backup generators would be tested during 
+daytime hours (see Table 25 below). 
+Air Discharge 
+SWL 100 dBA  
+Exhaust stack 
+SWL 134 dBA 
+(unsilenced) 
+SWL 104 dBA 
+(with manufacturer 
+30 dBA silencer) 
+SWL 94 dBA 
+(with manufacturer 
+40 dBA silencer) 
+Air 
+conditioning 
+units 
+Mitsubishi  
+PUZ-RP170 
+79 dBA Four units on the office roof. Assumed to 
+operate 24 hours a day. 
+Note 1: Sound power level based on unit operating at 73.5% speed based on advice from the manufacturer 
+and includes an additional 3 dB safety factor. 
+Various items of mechanical plant would also be located internally within the data centre. 
+This includes items within the various data halls, electrical plant rooms and mechanical 
+services areas. Details regarding these internal items of equipment are not currently 
+available at this early stage in the development, however, breakout noise from these items is 
+expected to be insignificant compared to noise from externally located cooling towers and 
+backup generators.  
+[[page 36]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 30  
+ 
+Internal plant would include a 4 MVA load bank used during generator testing and located in 
+an enclosed switchroom on the Mezzanine level. The noise level of the example unit is 
+91 dBA at 1 m based on the manufacturer’s specification. Given that the unit would be 
+enclosed in the switchroom, it is expected the external noise emissions from the loadbank 
+would be at least 20 dB below the source level. Therefore, noise from the load bank is 
+expected to be insignificant compared to the external generators and loading dock activity, 
+and has not been included in the modelling. The switchroom facade construction would be 
+reviewed during detailed design to confirm an appropriate level of noise reduction is 
+achieved.  
+A 3 dB safety factor has been added to the manufacturers specified sound power level for 
+the example cooling tower units. This safety factor represents an allowance for potential 
+uncertainty and increased noise emissions from the proposal that may occur due to: 
+• Selection of different cooling tower units 
+• Increases to cooling tower noise due to variable frequency drives 
+• Inclusion of minor additional external mechanical plant that are not known at this 
+stage.  
+4.2.1.2 Acoustic Louvres 
+The perimeter of the data centre building roof includes a mechanical louvre screen. The 
+louvre screen on the south edge of the building has been modelled as an acoustic louvre 
+wall with a height of 8.5 m (see Figure 7). 
+The acoustic louvre modelling methodology is described below: 
+• The acoustic louvre wall is represented as a solid noise wall 
+• The acoustic louvre wall is dissected into a high resolution grid and incident noise 
+levels from the cooling towers are calculated for the inside face of the wall 
+• A grid of area sources is applied to the outside face of the wall, emitting the incident 
+noise levels minus the transmission loss of the example acoustic louvre. 
+The mechanical louvre screen around other areas of the building is not currently proposed to 
+be acoustically rated and it has been conservatively assumed to provide no noise 
+attenuation. 
+4.2.1.3 On-Site Traffic 
+On-site vehicles have been modelled using the data provided by the project’s traffic 
+consultant in Table 23. The volumes are representative of the expected peak 15-minute 
+period for the daytime, evening and night-time.  
+Heavy vehicle deliveries would be limited to rigid trucks. Light vehicle movements are 
+assumed to be distributed amongst the parking areas proportionately to the number of 
+parking spaces in each area. 
+[[page 37]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 31  
+ 
+Table 23 Vehicle Traffic Data – Worst-case 15-Minute Period 
+Vehicle Type Location Sound 
+Power 
+Level 
+(dBA) 
+Vehicle 
+Speed 
+(km/h) 
+Number of Vehicles in Worst-case 
+15-Minute Period1 
+Daytime  
+(7am to 6pm) 
+Evening  
+(6pm to 10pm) 
+Night-time  
+(10pm to 7am) 
+Medium trucks Vehicle entry 
+and hardstand 
+952 5 1 0 1 
+Light vehicles Vehicle entry 
+and north 
+carpark 
+902 5 8 3 6 
+Vehicle entry 
+and south 
+carpark 
+2 0 0 
+Note 1: Total vehicles, includes both inbound and outbound vehicles.  
+Note 2: Sound power level based on SLR measurement data. 
+4.2.1.4 Loading Dock 
+Details of the loading dock noise sources are shown in Table 24. The various sources have 
+been modelled with the listed durations based on one heavy vehicle movement in the peak 
+15-minute daytime and night-time assessment periods. The loading dock is recessed and no 
+forklifts are expected to operate externally. 
+Table 24 Typical Hardstand and Loading Dock Noise Sources 
+Noise Source Sound Power Level (dBA)1 Typical Duration of Use in 
+Worst-case 15-minute Period 
+Truck reversing alarm 1072,3 30 seconds 
+Forklift reversing alarm 1022,3 90 seconds 
+Air brakes 118 1 second 
+Roller door 94 15 seconds 
+Electric forklift 84 900 seconds 
+Note 1: SWLs based on measurement data, where appropriate. 
+Note 2: SWL based on recommendation to use broadband reversing alarms, see Section 6.2.   
+Note 3: SWL includes a -3 dB reduction due to alarms being discrete events. 
+4.2.2 Operational Noise Scenarios 
+4.2.2.1 Maintenance Testing of Backup Generators 
+The backup generators would require scheduled maintenance and would be tested during 
+daytime business hours (ie 7 am to 5 pm) from Monday to Friday. The maintenance testing 
+schedule would be quarterly with the runtime for each individual engine being one 45 
+minutes.  
+Details regarding the backup generator testing are shown in Table 25. 
+[[page 38]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 32  
+ 
+Table 25 Backup Generator Maintenance Testing 
+Parameter Value 
+Number of generators 66 
+Frequency of test per generator Quarterly 
+Run time per test 45 minutes 
+Number of generators per test One 
+Number of tests per day Up to two  
+Testing schedule Monday to Friday (7 am to 5 pm) 
+Total testing time for all generators 198 hours per annum (or less) 
+4.2.2.2 Emergency Power Failure 
+The generators are required to operate on the loss of utility mains. Major power interruptions 
+requiring the simultaneous operation of all standby generators are expected occur 
+infrequently and for a limited time. Therefore, it is not considered reasonable for the 
+development to be required to meet the operational noise criteria during this infrequent 
+emergency scenario when all generators may operate simultaneously. 
+4.2.2.3 Representative Operational Scenarios 
+Representative scenarios have been developed to assess the likely impacts from the 
+operation of the proposal. These scenarios are shown in Table 26.   
+The noise scenarios include consideration of all cooling towers operating concurrently at the 
+highest expected fan speed for the example unit. This represents a conservative worst-case 
+design scenario including consideration of high ambient temperature conditions. The design 
+scenario has been considered for the reasonable worst-case 15 minute period which may 
+occur in the daytime, evening or night-time period, for the purpose of determining operational 
+noise mitigation requirements. 
+It is expected that actual noise emissions from the cooling towers would frequently be lower 
+depending on the number of units in use, their load, and the ambient temperature (see 
+Appendix D).  
+[[page 39]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 33  
+ 
+Table 26 Operational Assessment Scenarios 
+Scenario Name Period Description 
+OP.01 Typical Peak 
+Operation 
+• Daytime 
+• Evening 
+• Night 
+• All mechanical plant operating at full 
+capacity, except for backup generators. 
+• Peak vehicle movements and loading dock 
+activity. 
+OP.02 Typical Peak 
+Operation and 
+Generator 
+Maintenance / Testing 
+• Daytime • All mechanical plant operating at full 
+capacity and concurrent testing of one 
+backup generator (the worst-case 
+generator is considered for each receiver). 
+• Peak vehicle movements and loading dock 
+activity. 
+OP.03 Typical Peak 
+Operation and All 
+Generator Emergency 
+Scenario 
+- • All mechanical plant operating at full 
+capacity and concurrent operation of all 
+backup generators. 
+The NPfI applies to industrial noise sources from activities listed in Schedule 1 of the 
+Protection of the Environment Operations Act 1997 (POEO Act). Schedule 1 of the POEO 
+Act includes electricity generation, however, it excludes “the generation of electricity by 
+means of electricity plant that is emergency stand-by plant operating for less than 200 hours 
+per year.” 
+The use of all generators in an emergency scenario is not expected to exceed 200 hours per 
+year, therefore, the use of all generators is outside the application of the NPfI. Noise level 
+predictions for an emergency scenario with all generators operating concurrently (OP.03) are 
+presented in the assessment for information purposes and are not compared to the NPfI 
+criteria.  
+4.2.3 Noise Source Inventory 
+A noise source inventory which includes the details of the various operational noise sources 
+at the development is shown in Table 27. Mechanical plant data sheets for the example 
+units are shown in Appendix D. 
+Table 27 Noise Source Inventory  
+Category Noise 
+Source 
+Usage Reference for Noise Data 
+Mechanical 
+plant 
+Cooling 
+towers 
+Cooling towers would be used to 
+expel heat from the data centre 
+operations. Indicative cooling 
+tower requirements are 36 two cell 
+towers. These units would operate 
+24 hours a day and have been 
+modelled on the data centre roof 
+shown in Figure 7 using the 
+details in Table 22. 
+Sound power level taken from 
+manufacturers specifications for 
+the indicative units, supplied by 
+the project team. 
+The supplied sound power levels 
+for peak load operation have 
+conservatively been used for the 
+daytime, evening and night-time 
+periods. Cooling tower noise 
+emissions during lower load would 
+typically be lower (see  
+Appendix D). 
+[[page 40]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 34  
+ 
+Category Noise 
+Source 
+Usage Reference for Noise Data 
+Backup 
+generators 
+Backup generators would be used 
+to provide power to the data 
+centre in the event of loss of 
+mains power. 
+66 backup generators have been 
+modelled in six levels in the west 
+area of the site shown in Figure 7 
+using the details in Table 22. 
+Backup generators would be 
+operated as detailed in 
+Section 4.2.2. 
+The generators would be housed 
+in custom built containers with 
+exhaust stacks that terminate 
+above roof level. Design sound 
+power levels were supplied by the 
+project team based on 
+manufacturers specifications and 
+indicative attenuator and silencer 
+designs to meet the design sound 
+power levels. 
+Load bank A load bank would be used during 
+the testing of backup generators. 
+The load bank is located in an 
+enclosed switchroom on the 
+mezzanine level. 
+The load bank would be operated 
+only during testing of backup 
+generators. 
+The load bank would be housed in 
+a ventilated container, within an 
+enclosed switchroom. 
+Sound power level considered 
+based on manufacturers 
+specifications for the indicative 
+unit, supplied by the project team. 
+The load bank has not been 
+included in the assessment of 
+external mechanical plant since it 
+would be in an enclosed room and 
+the potential noise breakout is 
+expected to be insignificant in 
+comparison to external noise 
+sources (see Section 4.2.1.1). 
+Typical 
+data 
+centre 
+activities  
+Internal noise-generating activities 
+would be associated with typical 
+data centre activities, including 
+mechanical plant in the various 
+data halls, electrical plant rooms 
+and mechanical services areas.  
+Details regarding these internal 
+items of equipment are not 
+currently available at this early 
+stage in the development, 
+however, breakout noise from 
+these items is expected to be 
+relatively minor (compared to 
+noise from externally located 
+mechanical plant and testing of 
+backup generators) given the 
+internal plant areas are generally 
+separated from the external 
+facades by service corridors 
+and/or have no external louvres. 
+[[page 41]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 35  
+ 
+Category Noise 
+Source 
+Usage Reference for Noise Data 
+On-site 
+traffic 
+Light 
+vehicles 
+Light vehicles would access the 
+development and park in the car 
+park. Modelled in the location 
+shown in Figure 7 using vehicle 
+volumes in Table 23. 
+Sound power level taken from 
+measurement data of various light 
+vehicle types and models at 
+speeds of up to around 40 km/h, 
+including vehicle acceleration. 
+Medium 
+trucks 
+Deliveries to the development 
+would be via medium trucks. 
+Trucks would access the 
+development via Talavera Road 
+and travel to the loading dock on 
+the western side of the 
+development. Modelled on the 
+heavy vehicle route shown in 
+Figure 7 using vehicle volumes in 
+Table 23. 
+Sound power level taken from 
+historical measurement data of 
+various medium rigid truck types 
+and models in approximate 5 to 15 
+tonne range. 
+Loading 
+dock 
+Forklifts, 
+air brakes, 
+roller 
+doors 
+Heavy vehicle deliveries would be 
+unloaded via the recessed loading 
+docks. No forklifts would be 
+operated externally. Modelled in 
+the loading dock shown in 
+Figure 7 using the durations in 
+Table 24.   
+Sound power level taken from 
+historical measurement data of 
+typical loading dock activities at 
+various warehousing and 
+distribution facilities. 
+The average noise source spectra for the various sources included in the model are shown 
+in Table 28. 
+Table 28 Modelled LAeq Sound Power Level Spectra 
+Source Octave Band Sound Power Level (dB)1 Total 
+Sound 
+Power 
+Level 
+(dBA) 
+63 Hz 125 Hz 250 Hz 500 Hz 1k Hz 2k Hz 4k Hz 8k Hz 
+Mechanical Plant 
+Cooling Tower 
+(per 2xcell tower)2 
+97 95 90 85 85 82 79 71 90 
+Generator 
+Enclosure Air Intake 
+and Discharge3 
+77 85 90 89 92 93 91 97 100 
+Generator Exhaust 
+(30 dB Silencer)3 
+96 106 106 97 99 97 89 73 104 
+Generator Exhaust 
+(40 dB Silencer)3 
+86 96 96 87 89 87 79 63 94 
+Air Conditioning Unit 96 106 106 97 99 97 89 73 96 
+[[page 42]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 36  
+ 
+Source Octave Band Sound Power Level (dB)1 Total 
+Sound 
+Power 
+Level 
+(dBA) 
+63 Hz 125 Hz 250 Hz 500 Hz 1k Hz 2k Hz 4k Hz 8k Hz 
+On-site Traffic and Loading Dock 
+Medium Truck 103 97 93 91 91 87 83 80 95 
+Light Vehicle 98 92 88 86 86 82 78 75 90 
+Truck Reversing 
+Alarm 
+- - - - 105 102 95 - 107 
+Forklift Reversing 
+Alarm 
+- - - - 100 97 90 - 102 
+Air Brakes 111 111 111 111 111 111 111 111 118 
+Roller Door 92 90 88 90 90 87 84 77 94 
+Electric Forklift 77 77 77 77 77 77 77 77 84 
+Note 1: Noise sources are modelled based on 1/3 octave band data where available and converted to 1/1 
+octave bands for information purposes in this table.  
+Note 2: Cooling towers include an additional 3 dB safety factor added to the manufacturers specified sound 
+power levels as discussed in Section 4.2.1.1. Individual faces of the cooling towers are modelled with 
+spectrum based on the example unit manufacturer’s data sheet (see Appendix D).  
+Note 3: Generator source spectra are based on the manufacturer’s data for surface radiated noise and 
+undamped exhaust noise. The generator enclosures and exhaust silencers would influence the 
+spectrum of noise emissions from the generator and would likely reduce any potentially tonal 
+components. Therefore, the modelled source spectra are considered conservative. 
+4.2.4 Corrections for Annoying Noise Characteristics 
+The potential annoying noise characteristics and modifying factor corrections relevant to the 
+proposal are:  
+• Tonality – the only source identified with potential tonal characteristics is truck 
+reversing alarms. However, when considering broadband reversing alarms have 
+been recommended as a noise mitigation measure (see Section 6.2), it is unlikely 
+that this noise source would result in tonal noise impacts at the receivers and no 
+corrections have been applied. 
+• Low frequency noise – noise levels from development-related mechanical plant are 
+not expected to result in low frequency noise impacts at residential receivers. 
+• Intermittent noise – the NPfI defines intermittent noise as noise heard at the 
+receiver where the level suddenly drops or increases several times during the 
+assessment period, with a noticeable change of at least 5 dB. The intermittent 
+correction does not apply to short-term events that emerge above the general 
+industrial noise level and is therefore not applicable to industrial or commercial sites 
+that have vehicle or plant movements at night, including audible reversing alarms. 
+While testing of the backup generators may be intermittent, the testing is only 
+undertaken during the daytime when no correction is applicable. No other sources 
+have been identified with potential intermittent characteristics. 
+The operational noise sources have been modelled with the spectrum shown in Table 28. 
+The receiver results have been reviewed to confirm that no tonal or low frequency noise 
+corrections are applicable. 
+[[page 43]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 37  
+ 
+Appendix E.1 summarises detailed assessment of the potential for tonal and low frequency 
+noise from the proposed cooling towers and generators. The potential for annoying noise 
+characteristics would be reviewed during detailed design. 
+4.2.5 Noise Sources with Potential for Sleep Disturbance 
+As the development is proposed to operate 24-hours a day, noise emissions during the 
+night-time require assessment for potential sleep disturbance at the nearest residential 
+receivers. The details of typical activities with the potential to cause sleep disturbance are 
+shown in Table 29.  
+Table 29  Sleep Disturbance Noise Events – LAmax Sound Power Levels  
+Noise Source Sound Power Level LAmax (dBA) 
+Truck movement 111 
+Truck airbrake 118 
+Truck reversing alarm 110 
+Roller door 94 
+4.2.6 Off-site Road Traffic  
+Traffic associated with the development is planned to enter and exit the development from 
+the south via Talavera Road, with the majority of traffic travelling directly to Lane Cove Road 
+around 200 m to the east. 
+The potential noise impacts from development related traffic on public roads are expected to 
+be negligible given there are no sensitive receivers on this route and the route is a major 
+arterial road with high existing traffic volumes. 
+4.2.7 Weather Conditions 
+Fact Sheet D of the NPfI requires noise assessments to consider the potential effects of 
+noise-enhancing weather conditions, such as wind from the source to the receiver and/or 
+temperature inversions. 
+The nearest sensitive receivers are within 200 m of the proposal site and the effects of 
+weather on noise levels are expected to be minimal. Notwithstanding, the noise prediction 
+modelling uses ISO 9613-2 algorithms which include noise-enhancing weather conditions 
+including downwind propagation, or equivalently, propagation under a well-developed 
+moderate ground-based temperature inversion.   
+As such, the assessment has conservatively applied noise-enhancing weather conditions for 
+all periods as per Option 1 of Fact Sheet D of the NPfI. 
+  
+[[page 44]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 38  
+ 
+5.0 Assessments of Impacts 
+5.1 Construction Noise 
+The predicted noise levels at the most-affected sensitive receivers surrounding the site are 
+shown in Table 30 and exceedances of the NMLs are shown in Table 31. Receivers which 
+are further away from the work and/or shielded from view would likely experience lower 
+noise levels and impacts. 
+The predictions represent a realistic worst-case scenario where the equipment in each 
+scenario is working concurrently at the nearest location to each receiver. It is expected that 
+noise levels would frequently be lower than the worst-case levels presented. 
+Table 30 Predicted Construction Noise Levels – Standard Daytime Construction 
+Hours 
+ID1 Receiver Location Type NML Predicted Noise Level – LAeq(15minute) (dBA) 
+Vegetation 
+Clearing 
+Demolition 
+Earthworks 
+Excavation of  
+Hard Rock 
+Construction of  
+Pads & Hardstands 
+Construction of 
+Structures & 
+Equipment Installation 
+R01 Residences at 17-49 
+Fontenoy Road 
+Residential 65 65 66 62 69 56 57 
+R02 Ground level residences 
+at 1-15 Fontenoy Road 
+Residential 66 68 69 65 72 59 60 
+R03 Elevated (F1-F7) 
+residences at 1-15 
+Fontenoy Road 
+Residential 70 71 72 68 75 62 63 
+R04 Residence at 37 
+Khartoum Road, 
+Macquarie Park 
+Residential 55 53 54 50 57 44 45 
+R06 North Ryde Early 
+Learning Centre – 12/24 
+Talavera Road 
+Child Care 55 70 71 67 74 61 62 
+R07 Courtyard by Marriott 
+Sydney –  
+7/11 Talavera Road  
+Hotel 70 71 72 68 75 62 63 
+R08 Excelsia College – 69-
+71 Waterloo Road 
+Educational 55 60 61 57 64 51 52 
+R09 Commercial buildings on 
+Talavera Road  
+Commercial 70 87 88 84 91 78 79 
+[[page 45]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 39  
+ 
+Table 31 Predicted Exceedance at Nearest Receivers 
+ID1 Receiver Location Type NML Predicted Exceedance – LAeq(15minute) (dBA) 
+Vegetation 
+Clearing 
+Demolition 
+Earthworks 
+Excavation of  
+Hard Rock 
+Construction of  
+Pads & Hardstands 
+Construction of 
+Structures & 
+Equipment Installation 
+R01 Residences at 17-49 
+Fontenoy Road 
+Residential 65 - 1 - - 4 - 
+R02 Ground level residences 
+at 1-15 Fontenoy Road 
+Residential 66 2 3 - 6 - - 
+R03 Elevated (F1-F7) 
+residences at 1-15 
+Fontenoy Road 
+Residential 70 1 2 - 5 - - 
+R04 Residence at 37 
+Khartoum Road, 
+Macquarie Park 
+Residential 55 - - - 2 - - 
+R06 North Ryde Early 
+Learning Centre – 12/24 
+Talavera Road 
+Child Care 55 15 16 12 19 6 7 
+R07 Courtyard by Marriott 
+Sydney –  
+7/11 Talavera Road  
+Hotel 70 1 2 - 5 - - 
+R08 Excelsia College – 69-
+71 Waterloo Road 
+Educational 55 5 6 2 9 - - 
+R09 Commercial buildings on 
+Talavera Road 
+Commercial 70 17 18 14 21 8 9 
+The above worst-case predictions show the following: 
+• Noise levels are expected to exceed the NMLs at the nearest receivers during certain 
+noisy works. 
+• The highest impacts are predicted during ‘vegetation clearing’ when a 
+chainsaw/chipper is in use, and during ‘demolition’ and ‘excavation of hard rock’ 
+when a rockbreaker is in use. 
+• The NMLs are predicted to be exceeded at receivers on Fontenoy Road by up to 
+5 -6 dB.  
+• No residential receivers are predicted to be highly noise affected (≥75 dBA) during 
+any of the construction work. 
+• Construction noise levels are predicted to exceed the NMLs by up to 19 dB, 5 dB and 
+8 dB at the closest child care, hotel and educational facility, respectively. 
+• Construction noise levels are also predicted to exceed the commercial NML by up to 
+21 dB at the nearest existing commercial receivers. 
+[[page 46]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 40  
+ 
+The presented impacts would only be expected to occur when noisy work is being completed 
+close to the site boundaries, relative to each receiver. When work is in central areas of the 
+site, or when less noise intensive equipment is being used, the noise levels are expected to 
+reduce.  
+Feasible and reasonable construction noise mitigation measures should be applied where 
+exceedances of the NMLs are predicted. Construction noise mitigation and management 
+measures are discussed in Section 6.1. 
+5.2 Construction Vibration 
+The major potential sources of vibration from the proposed construction activities would 
+likely be during: 
+• ‘Earthworks’ when vibratory rollers are being used  
+• ‘Demolition’ and ‘excavation of hard rock’ when rockbreakers are being used. 
+Vibration offset distances have been determined from the CNVG minimum working 
+distances for cosmetic damage and human comfort (see Table ) and the assessment is 
+summarised in Figure 8 for the potential worst-case scenario, which is during the use of a 
+large vibratory roller. Buildings within the minimum working distances are highlighted in the 
+figure. 
+Figure 8 Construction Vibration – Large Vibratory Roller 
+ 
+
+[[page 47]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 41  
+ 
+5.2.1 Cosmetic Damage Assessment  
+The above figure show that the distance between the construction work and the nearest 
+sensitive receivers is generally sufficient for most receiver buildings to be outside of the 
+cosmetic damage minimum working distance for vibration intensive equipment. 
+The adjacent commercial buildings at 12-24 Talavera Road are within the recommended 
+minimum working distance, noting that the assessment represent a worst-case situation 
+where a large vibratory roller is in use at the site boundary and is in close proximity to the 
+potentially affected buildings. In reality, smaller equipment or alternative methodologies 
+would likely be used as the work gets near to adjacent structures which would control the 
+potential impacts. It is also noted that the potentially impacted buildings are owned by 
+Goodman. 
+5.2.2 Human Comfort Vibration Assessment 
+The above figures indicate that several commercial receivers are within the human comfort 
+minimum working distance and occupants of these buildings may be able to perceive 
+vibration impacts at times when vibration intensive equipment is in use nearby. Where 
+impacts are perceptible, they would likely only be apparent for relatively short durations 
+when vibration intensive equipment is in use.  
+Feasible and reasonable construction vibration mitigation measures should be applied where 
+vibration intensive works are required within the minimum working distances. Construction 
+mitigation and management measures are discussed further in Section 6.1. 
+5.2.3 Cumulative Construction Noise 
+A detailed review of each project and its potential interface with the proposal in terms of 
+construction noise is shown in Table 32. The projects are considered in terms of the 
+following potential noise impacts: 
+• Cumulative construction noise 
+Where concurrent construction work is being completed near to a particular area, the 
+worst-case noise levels could theoretically increase by around 3 dB (ie a logarithmic 
+adding of two sources of noise at the same level). The likelihood of worst-case noise 
+levels being generated by two different work activities at the same time is, however, 
+considered low and rather than increase construction noise levels, the impact of 
+concurrent construction work would generally be limited to a potential increase in the 
+duration, and annoyance, of noise impacts on the affected receivers. 
+• Consecutive construction noise 
+The successive work in a particular area may result in consecutive impacts (ie 
+‘construction fatigue’) at the surrounding receivers due to construction work being in 
+the area for an extended period. Mitigation measures aimed at short-term 
+construction work may be less effective where receivers are affected by longer 
+duration impacts from several projects. 
+[[page 48]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 42  
+ 
+Table 32 Potential Cumulative Construction Noise Impacts 
+Project Approximate 
+Distance 
+Proposed 
+Construction 
+Timing 
+Potential Impact 
+100-108 Talavera 
+Road 
+1,100 m 2022-2025 Cumulative impacts are not expected 
+due to the distance of the project. 
+11-17 Khartoum 
+Road 
+400 m 2021-2025 
+(major 
+construction of 
+structures 
+complete) 
+Major construction phases at both the 
+proposal and the cumulative project are 
+not expected to overlap. Therefore, no 
+cumulative impacts are expected. 
+Consecutive noise impacts may occur at 
+other sensitive receivers in Macquarie 
+Park. 17-23 Talavera 
+Road  
+200 m 2024-2025 
+1-5 Khartoum 
+Road 
+500 m Unknown Cumulative impacts at residential 
+receivers north of the M2 Motorway are 
+not expected due to the distance of the 
+project. 
+Cumulative and/or consecutive impacts 
+at other sensitive receivers in Macquarie 
+Park are possible and would depend on 
+the construction timing of both projects. 
+45-61 Waterloo 
+Road 
+300 m Unknown (likely 
+commencing 
+2024) 
+269 Lane Cove 
+Road 
+600 m 2025-2027 
+85-97 Waterloo 
+Road and 2 
+Banfield Road 
+700 m Stage 1 2024-
+2027 
+Stage 2 2028-
+Unknown 
+The above indicates that there is potential for cumulative construction noise impacts from 
+certain nearby developments if construction occurs at the same time as the proposal. The 
+likelihood of cumulative and/or consecutive construction noise impacts will be reviewed as 
+the proposal progresses and detailed construction schedules are available for all projects 
+considered for cumulative impacts. 
+5.3 Operational Noise 
+The predicted peak noise levels are compared to the PNTLs to determine the potential 
+impact from the proposal.  
+Feasible and reasonable mitigation measures have been investigated for the development 
+with the aim of reducing noise levels to the PNTLs. A detailed investigation of feasible and 
+reasonable mitigation is provided in Section 6.2. 
+The following key measures have been applied to reduce noise emissions: 
+• Solid rooftop plant room screening the cooling towers from receivers to the north (see 
+Figure 7) 
+• Acoustic louvre wall screening the cooling towers from receivers to the south (see 
+Section 6.2.2) 
+• Generator enclosures and exhaust silencers 
+• Use of broadband and/or ambient noise sensing reversing alarms to minimise 
+potentially annoyance. 
+[[page 49]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 43  
+ 
+A summary of the operational noise assessment at the representative receivers surrounding 
+the proposal is shown in Table 33, including feasible and reasonable mitigation. Predicted 
+operational noise levels at all nearby receivers are shown in Appendix E.2 and confirm that 
+the assessment locations are representative of the most affected location for each receiver 
+area. 
+Noise contours of the predicted worst-case operational noise impacts at ground level and 
+roof height are shown in Appendix E.3. Cross-sectional noise contours between the 
+proposal and Key Sites in the Macquarie Park Precinct are shown in Appendix E.4. 
+Table 33 Operational Noise Assessment 
+ID Receiver Location Type Period Noise Level 
+LAeq(15minute) (dBA) 
+Compliance 
+Criteria OP.011 OP.022 
+R01 Residences at 
+17-49 Fontenoy 
+Road 
+Residential Day 58 39 51 Yes 
+Evening 48 38 - Yes 
+Night 43 39 - Yes 
+R02 Ground level 
+residences at 1-15 
+Fontenoy Road 
+Residential Day 58 36 54 Yes 
+Evening 48 35 - Yes 
+Night 43 36 - Yes 
+R03 Elevated (F1-F7) 
+residences at 1-15 
+Fontenoy Road 
+Residential Day 58 42 56 Yes 
+Evening 49 42 - Yes 
+Night 45 42 - Yes 
+R04 Residences at 37 
+Khartoum Road, 
+Macquarie Park 
+Residential Day 50 32 39 Yes 
+Evening 48 32 - Yes 
+Night 43 32 - Yes 
+R05 Residences at 35 
+Waterloo Road, 
+Macquarie Park 
+Residential Day 58 43 48 Yes 
+Evening 48 43 - Yes 
+Night 43 43 - Yes 
+R06 North Ryde Early 
+Learning Centre – 
+12/24 Talavera 
+Road 
+Child Care 
+Playground 
+When in 
+use 53 35 47 Yes 
+Child Care 
+Classroom 58 45 55 Yes 
+R07 Courtyard by 
+Marriott Sydney –  
+7/11 Talavera Road  
+Hotel Day 63 44 51 Yes 
+Evening 53 463 - Yes 
+Night 48 463 - Yes 
+R08 Excelsia College – 
+69-71 Waterloo 
+Road 
+Educational When in 
+use 58 36 47 Yes 
+R09 Commercial 
+buildings on 
+Talavera Road 
+Commercial When in 
+use 63 56 63 Yes 
+Note 1: OP.01 – Typical Peak Operation. 
+Note 2: OP.02 – Typical Peak Operation and Generator Maintenance/Testing. 
+Note 3: Includes 2 dB correction for low frequency noise (see Appendix E.1). 
+[[page 50]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 44  
+ 
+The above assessment indicates that the noise levels predicted with the proposed mitigation 
+comply with the PNTLs at the receiver assessment locations and are expected to be 
+compliant at all surrounding receivers. 
+It is noted that the details of the mechanical plant used in this assessment are indicative, 
+including the unit types, sound power levels, number of units and locations of equipment. An 
+additional 3 dB has been added to the assessment of cooling tower noise to account for 
+potential changes that may results from final unit selection, variable frequency drives and 
+other external plant items (see Section 4.2.1). All mechanical plant items should be 
+reviewed during the detailed design stage of the project to confirm compliance with the 
+PNTLs.  
+5.3.1 Emergency Scenario 
+The predicted operational noise levels during an indicative emergency scenario with all 
+generators operating concurrently at full capacity are shown in Table 34 for the 
+representative receivers surrounding the proposal. It is noted that this scenario is outside the 
+application of the NPfI and it is not considered reasonable for this scenario to be required to 
+meet the operational noise criteria. 
+Table 34 Emergency Scenario Noise 
+ID Receiver Location Type OP.03 Noise Level 
+LAeq(15minute) (dBA) 
+R01 Residences at 17-49 Fontenoy Road Residential 66 
+R02 Ground level residences at 1-15 Fontenoy Road Residential 69 
+R03 Elevated (F1-F7) residences at 1-15 Fontenoy Road Residential 71 
+R04 Residences at 37 Khartoum Road, Macquarie Park Residential 55 
+R05 Residences at 35 Waterloo Road, Macquarie Park Residential 63 
+R06 North Ryde Early Learning Centre –  
+12/24 Talavera Road 
+Child Care 
+Playground 
+62 
+Child Care 
+Classroom 
+67 
+R07 Courtyard by Marriott Sydney – 7/11 Talavera Road  Hotel 65 
+R08 Excelsia College – 69-71 Waterloo Road Educational 60 
+R09 Commercial buildings on Talavera Road Commercial 78 
+It is recommended that a process is put in place to notify neighbouring properties in the 
+event of an emergency scenario requiring all generators to operate.  
+5.3.2 Sleep Disturbance 
+The predicted night-time maximum noise levels at the nearest residential receivers are 
+shown in Table 35. The assessment includes consideration of heavy vehicle airbrakes, 
+although it is noted that the heavy vehicles accessing the development are expected to be 
+rigid trucks which generally do not use airbrakes. The predicted maximum noise levels 
+include the mitigation measures specified in Section 6.2.  
+[[page 51]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 45  
+ 
+Table 35 Sleep Disturbance Assessment 
+ID Receiver 
+Location 
+Source Maximum Noise Level LAmax (dBA) Below 
+Screening 
+Level Sleep Dist. 
+Screening Level 
+Predicted Exceedance 
+R01 Residences 
+at 17-49 
+Fontenoy 
+Road 
+Truck movement 58 52 - Yes 
+Truck airbrake 53 - Yes 
+Truck reversing alarm 50 - Yes 
+Roller door 38 - Yes 
+R02 Ground 
+level 
+residences 
+at 1-15 
+Fontenoy 
+Road 
+Truck movements 59 52 - Yes 
+Truck airbrake 49 - Yes 
+Truck reversing alarm 44 - Yes 
+Roller door 33 - Yes 
+R03 Elevated 
+(F1-F7) 
+residences 
+at 1-15 
+Fontenoy 
+Road 
+Truck movements 60 56 - Yes 
+Truck airbrake 57 - Yes 
+Truck reversing alarm 52 - Yes 
+Roller door 39 - Yes 
+R04 Residences 
+at 37 
+Khartoum 
+Road, 
+Macquarie 
+Park 
+Truck movements 53 40 - Yes 
+Truck airbrake 39 - Yes 
+Truck reversing alarm 37 - Yes 
+Roller door <30 - Yes 
+R05 Residences 
+at 35 
+Waterloo 
+Road, 
+Macquarie 
+Park 
+Truck movements 60 49 - Yes 
+Truck airbrake 36 - Yes 
+Truck reversing alarm 36 - Yes 
+Roller door <30 - Yes 
+The above shows that maximum noise levels are expected to comply with the sleep 
+disturbance screening level at all residential receivers. 
+  
+[[page 52]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 46  
+ 
+6.0 Mitigation and Management Measures 
+6.1 Construction Mitigation 
+The impacts during construction of the proposal are predicted to be consistent with major 
+construction work near sensitive receivers. No works outside of Standard Construction 
+Hours are currently proposed.  
+The use of standard mitigation measures to minimise the impacts is considered sufficient to 
+control the majority of the impacts. Examples of measures that could be applied to the work 
+are provided in the ICNG and the Transport for NSW Construction Noise and Vibration 
+Guideline (see Appendix F). 
+Recommended universal work practices and standard mitigation measures for the proposal 
+construction include: 
+• Regular toolbox notification and training of workers and contractors to be aware of 
+nearby noise sensitive receivers and use equipment in ways to minimise noise. 
+• Use the minimum sized equipment necessary to complete the work and where 
+possible, use alternative, low-impact construction techniques 
+• Long term stationary noise sources should be enclosed or shielded from nearby 
+sensitive receivers where possible 
+• Where rockbreakers or other pneumatic equipment is required, select silenced and 
+dampened equipment where possible 
+• Implement community consultation to provide surrounding receivers with information 
+such as the total construction time, what works are expected to be noisy, their 
+duration and mitigation measures that are being applied to minimise the noise 
+• Consultation should include nearby ‘other sensitive’ receivers such as educational 
+institutions. Noise intensive work that is predicted to impact ‘other sensitive’ receivers 
+will be scheduled outside of particularly sensitive periods, such as exams, where 
+possible. 
+A Construction Noise and Vibration Management Plan (CNVMP) would be prepared before 
+any work begins. The plan would: 
+• Identify nearby sensitive receivers 
+• Describe the activities, construction equipment and work that will be completed and 
+quantify resulting impacts at sensitive receivers 
+• Include noise and vibration management criteria and relevant licence and approval 
+conditions 
+• Include measures to manage noise and vibration and minimise the potential for 
+impacts during construction, aligned with the results of community consultation and 
+feedback during the approval process 
+• Set out requirements for noise and vibration verification monitoring 
+• Set out procedures for handling complaints. 
+AS 2436 provides further guidance on the control of construction noise and vibration and 
+includes the nominal noise reduction possible from various mitigation strategies summarised 
+in Table 36.  
+[[page 53]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 47  
+ 
+Table 36 Nominal Construction Noise Reductions 
+Control Example Nominal Noise 
+Reduction (AS 2436) 
+Distance Maximising the offset distance between noisy plant and 
+adjacent sensitive receivers. 
+6 dB per doubling of 
+distance 
+Screening Use of structures (ie site shed, earth bund, temporary hoarding) 
+to shield adjacent sensitive receivers from noisy plant and 
+activities. 
+5-10 dB 
+Enclosure Construct a solid enclosure around generators, compressors, 
+pumps or similar long-term plant. 
+15-25 dB 
+Silencing Fit muffler, silenced or dampened bit to relevant noise intensive 
+equipment. 
+5-10 dB 
+Construction impacts are expected during certain work activities at the nearest sensitive 
+receivers even with the implementation of all feasible and reasonable mitigation measures. 
+The CNVMP would review the predicted residual construction noise impacts when more 
+detailed planning information is available and confirm the mitigation measures which would 
+be implemented to minimise construction noise impacts as much as practicable. 
+6.2 Operational Mitigation 
+Where operational noise impacts from the development are predicted to exceed the relevant 
+noise criteria, feasible and reasonable operational noise mitigation and management 
+measures should be considered, with the aim of reducing noise emissions to the relevant 
+criteria.  
+The typical hierarchy for mitigation and management of industrial noise sources is as 
+follows: 
+• Reducing noise emissions at the source (ie noise source control) 
+• Reducing noise in transmission to the receiver (ie noise path control) 
+• Reducing noise at the receiver (ie at-receiver control). 
+A detailed assessment of potential feasible and reasonable mitigation measures that can be 
+applied to the development to minimise the operational noise impacts has been completed 
+and is summarised in Table 37. 
+The measures will be further refined during detailed design and in an Operational Noise and 
+Vibration Management Plan when the specific tenant operations are known. 
+[[page 54]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 48  
+ 
+Table 37 Operational Noise Mitigation Options 
+Ref. Mitigation Option Noise Impact/Benefit Feasible and Reasonable to Apply 
+Source Control 
+S1 Optimised site layout 
+to minimise noise 
+emissions from the 
+site 
+Where possible, the site layout 
+has been designed so that the 
+buildings screen the noisier 
+areas of the development from 
+the nearest receivers. 
+Yes – applied during design of the 
+concept  
+S2 Limit vehicle 
+movements 
+A reduction in concurrent 
+vehicle movements across the 
+site by staggering 
+delivery/pickup times and/or 
+employee shift change times 
+could reduce noise emissions. 
+In practice, this would occur 
+naturally due to operational 
+requirements.   
+No – vehicle volumes used in this 
+assessment are likely needed to 
+meet tenant’s requirements.   
+Additionally, vehicle movements are 
+not predicted to be a dominant 
+contributor to noise emissions from 
+the development. 
+S3 Use broadband 
+and/or ambient 
+sensing alarms on 
+heavy vehicles 
+where they are 
+required to reverse 
+during the night-time. 
+Reduce potential for annoying 
+noise emissions during the 
+night-time. 
+Yes – encourage use of broadband 
+and/or ambient sensing alarms on 
+heavy vehicles where they are 
+required to reverse during the night-
+time. 
+S4 Appropriate 
+specification and 
+location of 
+mechanical plant 
+during detailed 
+design. 
+The following mitigation 
+measures have been used in 
+the assessment: 
+- Backup generators are 
+contained in enclosures and 
+include manufacturer’s 
+exhaust silencer with 30 dB 
+or 40 dB attenuation. 
+- The final selection off all 
+mechanical plant would be 
+reviewed with consideration 
+of minimising the potential 
+for tonal and low frequency 
+noise impacts at sensitive 
+receivers. 
+Yes – the specified mitigation 
+measures minimise noise impacts 
+from mechanical plant. 
+The noise impacts from all items of 
+mechanical plant would be reviewed 
+during detailed design stage to 
+confirm mitigation requirements. 
+S5 Roller doors kept 
+closed when 
+loading/unloading is 
+not occurring. 
+Reduce potential for noise 
+breakout from internal activity. 
+Yes – roller doors should be kept 
+closed when not in use for 
+loading/unloading. 
+S6 Appropriate design 
+of site layout to 
+minimise the need 
+for trucks to stop or 
+brake outside of 
+loading docks with 
+line of sight to 
+residential receivers. 
+Minimise noise emissions, 
+particularly from truck 
+airbrakes. 
+Yes – recessed loading dock 
+minimises line of site to residential 
+receivers. 
+[[page 55]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 49  
+ 
+Ref. Mitigation Option Noise Impact/Benefit Feasible and Reasonable to Apply 
+S7 Production of an 
+Operational Noise 
+Management Plan. 
+This would detail the measures 
+that could be used by the 
+various tenants to minimise 
+general noise emissions from 
+the site. Reference can be 
+made to the Best Management 
+Practice (BMP) measures 
+listed in the NPfI (see 
+Appendix G). 
+Yes – the ONMP would detail any 
+operational requirements for the 
+development. 
+Path Control 
+P1 Rooftop layout Rooftop plant room to mitigate 
+noise from the cooling towers. 
+Yes – design includes plant rooms of 
+solid construction to the north of the 
+cooling tower area with a minimum 
+height of 8.5 m above roof level. 
+P2 Acoustic louvre wall An acoustic louvre wall along 
+the southern edge of the data 
+centre roof has been used in 
+this assessment. 
+Yes - an acoustic louvre wall at a 
+height of 8.5 m minimises noise 
+impacts from cooling towers. 
+The louvre wall would indicatively 
+use Construction Specialties Model 
+A12350 acoustic louvres or similar 
+(manufacturer data sheet supplied 
+by the project team).   
+The requirements for this would be 
+confirmed during the detailed design 
+stage of the project. 
+Receiver Control 
+R1 Not required n/a n/a 
+Verification Monitoring 
+V1 Noise Monitoring Verify post-construction 
+operational noise levels are in-
+line with predictions and the 
+mitigation is working as 
+intended. 
+Yes 
+The proposal does not have tenants committed and the exact operational procedures of the 
+site are not known at the time of this assessment. Several assumptions have been made 
+regarding the likely future uses and sources of noise. The noise predictions in this report 
+represent the expected peak operational emissions based on currently available information 
+for planning purposes and will be reviewed at a later stage when detailed information is 
+available. 
+[[page 56]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 50  
+ 
+6.2.1 Generator Exhaust Silencers 
+The assumed 30 dB and 40 dB generator exhaust silencers are shown in Figure 9.  
+Figure 9 Generator Exhaust Silencers 
+ 
+6.2.2 Acoustic Louvre Wall 
+The modelled location of the acoustic louvre wall is shown in green in Figure 10 and 
+Figure 11. 
+Figure 10 Acoustic Louvre Wall – South Section View 
+ 
+ 
+
+[[page 57]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 51  
+ 
+Figure 11 Acoustic Louvre Wall – Plan View 
+ 
+The acoustic louvre wall has been included primarily to mitigate noise from the cooling 
+towers to the proposed residential development at 35 Waterloo Road. The effectiveness of 
+the acoustic louvre wall is limited due to the proposed buildings at 35 Waterloo being a 
+greater height than the proposed data centre, resulting in a wall height of 8.5 m required to 
+meet the Project Noise Trigger levels. 
+It is noted that the Project Noise Trigger Levels of the Noise Policy for Industry apply to 
+existing noise sensitive receivers. Since the 35 Waterloo Road development is in the 
+planning and approval stages, potential noise from the proposed data centre could be 
+considered in the detailed facade design of the future residential spaces to ensure 
+appropriate noise reduction and internal levels are achieved. This process could reduce or 
+remove the requirement for an acoustic louvre wall on the data centre. 
+The mitigation requirements will be reviewed as both projects progress and detailed planning 
+information becomes available. 
+  
+
+[[page 58]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 52  
+ 
+7.0 Conclusion 
+SLR has been engaged to assess the potential construction and operational noise emissions 
+from the proposed development at 4-10 Talavera Road, Macquarie Park. The proposal 
+includes the operation of a multi-storey data centre, which would be in use 24/7.  
+The potential impacts from the proposal have been assessed against the noise and vibration 
+specific Secretary’s Environmental Assessment Requirements and additional assessment 
+requirements detailed in the SEARs Cover Letter. 
+Construction noise levels are predicted to exceed the management levels at the nearest 
+sensitive receivers. Exceedances are predicted at residential receivers to the north of the 
+proposal and commercial receivers surrounding the proposal, however, this would only be 
+expected to occur when noisy work is being completed close to the site boundary. Standard 
+mitigation measures have been recommended to address the potential construction impacts. 
+The operational noise assessment indicates that feasible and reasonable mitigation 
+measures are likely required to control potential impacts from the proposal. The proposed 
+measures include a rooftop plant rooms and an acoustic louvre wall to screen the cooling 
+towers and silencers on backup generator exhausts. Operational noise levels are predicted 
+to comply with the trigger levels at the nearest receivers with the proposed mitigation.  
+The potential operational impacts and requirements for mitigation would be confirmed during 
+further acoustic assessments completed during detailed design. 
+Based on the predicted levels and indicative mitigation measures, the proposal is considered 
+appropriate from an acoustic standpoint. 
+ 
+[[page 59]]
+ 
+ 
+Appendix A Acoustic Terminology 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+ 
+[[page 60]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ A-1  
+ 
+1. Sound Level or Noise Level 
+The terms ‘sound’ and ‘noise’ are almost 
+interchangeable, except that ‘noise’ often refers to 
+unwanted sound. 
+Sound (or noise) consists of minute fluctuations in 
+atmospheric pressure.  The human ear responds to 
+changes in sound pressure over a very wide range with 
+the loudest sound pressure to which the human ear can 
+respond being ten million times greater than the softest.  
+The decibel (abbreviated as dB) scale reduces this ratio 
+to a more manageable size by the use of logarithms. 
+The symbols SPL, L or LP are commonly used to 
+represent Sound Pressure Level.  The symbol LA 
+represents A -weighted Sound Pressure Level.  The 
+standard reference unit for Sound Pressure Levels 
+expressed in decibels is 2 x 10-5 Pa. 
+2. ‘A’ Weighted Sound Pressure Level 
+The overall level of a sound is usually expressed in 
+terms of dBA, which is measured using a sound level 
+meter with an ‘A -weighting’ filter.  This is an electronic 
+filter having a frequency response corresponding 
+approximately to that of human hearing. 
+People’s hearing is most sensitive to sounds at mid 
+frequencies (500 Hz to 4,000 Hz), and less sensitive at 
+lower and higher frequencies.  Different sources having 
+the same dBA level generally sound about equally loud. 
+A change of 1  dB or 2  dB in the level of a sound is 
+difficult for most people to detect, whilst a 3  dB to 5 dB 
+change corresponds to a small but noticeable change in 
+loudness.  A 10  dB change corresponds to an 
+approximate doubling or halving in loudness.  The table 
+below lists examples of typical noise levels. 
+Sound  
+Pressure 
+Level 
+(dBA) 
+Typical  
+Source 
+Subjective 
+Evaluation 
+130 Threshold of pain Intolerable 
+120 Heavy rock concert Extremely 
+noisy 110 Grinding on steel 
+100 Loud car horn at 3 m Very noisy 
+90 Construction site with 
+pneumatic hammering 
+80 Kerbside of busy street Loud 
+70 Loud radio or television 
+60 Department store Moderate 
+to quiet 50 General Office 
+40 Inside private office Quiet to  
+very quiet 30 Inside bedroom 
+20 Recording studio Almost 
+silent 
+Other weightings (eg B, C and D) are less commonly 
+used than A -weighting.  Sound Levels measured 
+without any weighting are referred to as ‘linear’, and the 
+units are expressed as dB(lin) or dB. 
+ 
+ 3. Sound Power Level 
+The Sound Power of a source is the rate at which it emits 
+acoustic energy.  As with Sound Pressure Levels, Sound 
+Power Levels are expressed in decibel units (dB or dBA), 
+but may be identified by the symbols SWL or LW, or by the 
+reference unit 10-12 W. 
+The relationship between Sound Power and Sound 
+Pressure is similar to the effect of an electric radiator, which 
+is characterised by a power rating but has an effect on the 
+surrounding environment that can be measured in terms of 
+a different parameter, temperature. 
+4. Statistical Noise Levels 
+Sounds that vary in level over time, such as road traffic 
+noise and most community noise, are commonly described 
+in terms of the statistical exceedance levels LAN, where 
+LAN is the A -weighted sound pressure level exceeded for 
+N% of a given measurement period.  For example, the LA1 
+is the noise level exceeded for 1% of the time, LA10 the 
+noise exceeded for 10% of the time, and so on. 
+The following figure presents a hypothetical 15 minute noise 
+survey, illustrating various common statistical indices of 
+interest. 
+ 
+Of particular relevance, are: 
+LA1 The noise level exceeded for 1% of the 15  minute 
+interval. 
+LA10 The noise level exceeded for 10% of the 15  minute 
+interval.  This is commonly referred to as the average 
+maximum noise level.   
+LA90 The noise level exceeded for 90% of the sample 
+period. This noise level is described as the average 
+minimum background sound level (in the absence of 
+the source under consideration), or simply the 
+background level. 
+LAeq The A-weighted equivalent noise level (basically, the 
+average noise level).  It is defined as the steady sound 
+level that contains the same amount of acoustical 
+energy as the corresponding time-varying sound. 
+5. Frequency Analysis 
+Frequency analysis is the process used to examine the 
+tones (or frequency components) which make up the overall 
+noise or vibration signal.   
+The units for frequency are Hertz (Hz), which represent the 
+number of cycles per second. 
+Frequency analysis can be in: 
+• Octave bands (where the centre frequency and width of 
+each band is double the previous band) 
+• 1/3 octave bands (three bands in each octave band) 
+• Narrow band (where the spectrum is divided into 400 or 
+more bands of equal width) 
+
+[[page 61]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ A-2  
+ 
+The following figure shows a 1/3 octave band frequency 
+analysis where the noise is dominated by the 200  Hz 
+band.  Note that the indicated level of each individual 
+band is less than the overall level, which is the 
+logarithmic sum of the bands. 
+ 
+6. Annoying Noise (Special Audible 
+Characteristics) 
+A louder noise will generally be more annoying to 
+nearby receivers than a quieter one.  However, noise is 
+often also found to be more annoying and result in larger 
+impacts where the following characteristics are 
+apparent: 
+• Tonality - tonal noise contains one or more 
+prominent tones (ie differences in distinct frequency 
+components between adjoining octave or 1/3 octave 
+bands), and is normally regarded as more annoying 
+than ‘broad band’ noise.   
+• Impulsiveness - an impulsive noise is 
+characterised by one or more short sharp peaks in 
+the time domain, such as occurs during hammering. 
+• Intermittency - intermittent noise varies in level with 
+the change in level being clearly audible.  An 
+example would include mechanical plant cycling on 
+and off.  
+• Low Frequency Noise  - low frequency noise 
+contains significant energy in the lower frequency 
+bands, which are typically taken to be in the 10 to 
+160 Hz region.  
+7. Vibration 
+Vibration may be defined as cyclic or transient motion.  
+This motion can be measured in terms of its 
+displacement, velocity or acceleration.  Most 
+assessments of human response to vibration or the risk 
+of damage to buildings use measurements of vibration 
+velocity.  These m ay be expressed in terms of ‘peak’ 
+velocity or ‘rms’ velocity. 
+The former is the maximum instantaneous velocity, 
+without any averaging, and is sometimes referred to as 
+‘peak particle velocity’, or PPV.  The latter incorporates 
+‘root mean squared’ averaging over some defined time 
+period. 
+Vibration measurements may be carried out in a single 
+axis or alternatively as triaxial measurements (ie 
+vertical, longitudinal and transverse). 
+ 
+ The common units for velocity are millimetres per second 
+(mm/s).  As with noise, decibel units can also be used, in 
+which case the reference level should always be stated.  A 
+vibration level V, expressed in mm/s can be converted to 
+decibels by the formula 20  log (V/Vo), where Vo is the 
+reference level (10-9 m/s).  Care is required in this regard, as 
+other reference levels may be used. 
+8. Human Perception of Vibration 
+People are able to ‘feel’ vibration at levels lower than those 
+required to cause even superficial damage to the most 
+susceptible classes of building (even though they may not be 
+disturbed by the motion).  An individual's perception of motion 
+or response to  vibration depends very strongly on previous 
+experience and expectations, and on other connotations 
+associated with the perceived source of the vibration.  For 
+example, the vibration that a person responds to as ‘normal’ 
+in a car, bus or train is considera bly higher than what is 
+perceived as ‘normal’ in a shop, office or dwelling. 
+9. Ground-borne Noise, Structure-borne Noise and 
+Regenerated Noise 
+Noise that propagates through a structure as vibration and is 
+radiated by vibrating wall and floor surfaces is termed 
+‘structure-borne noise’, ‘ground-borne noise’ or ‘regenerated 
+noise’.  This noise originates as vibration and propagates 
+between the source and receiver through the ground and/or 
+building structural elements, rather than through the air. 
+Typical sources of ground -borne or structure -borne noise 
+include tunnelling works, underground railways, excavation 
+plant (eg rockbreakers), and building services plant (eg fans, 
+compressors and generators). 
+The following figure presents an example of the various paths 
+by which vibration and ground -borne noise may be 
+transmitted between a source and receiver for construction 
+activities occurring within a tunnel. 
+ 
+The term ‘regenerated noise’ is also used in other instances 
+where energy is converted to noise away from the primary 
+source.  One example would be a fan blowing air through a 
+discharge grill.  The fan is the energy source and primary 
+noise source.  Additional nois e may be created by the 
+aerodynamic effect of the discharge grill in the airstream.  
+This secondary noise is referred to as regenerated noise. 
+ 
+ 
+30
+40
+50
+60
+70
+80
+90
+125
+160
+200
+250
+315
+400
+500
+630
+800
+1000
+1250
+1600
+2000
+2500
+3150
+Overall
+1/3 Octave Band Centre Frequency (Hz)
+Sound Pressure Level (dBA)
+  
+[[page 62]]
+ 
+ 
+Appendix B Existing Noise 
+Environment 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+[[page 63]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-1  
+ 
+B.1 Noise Monitoring Results 
+Noise Monitoring Location L.01 Map of Noise Monitoring Location 
+Noise Monitoring Address 7 Tasman Place, Macquarie Park 
+ 
+Logger Device Type: Brüel and Kjær 2250L, Logger Serial No: 3004637 
+Sound Level Meter Device Type: Brüel and Kjær 2250L, Sound Level Meter Serial No: 3004636 
+ 
+Ambient noise logger deployed south of boundary fence at residential address 7 Tasman Place, Macquarie Park.  
+Logger located with view of M2 Motorway existing noise wall to the south. 
+ 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by road traffic 
+noise from the M2 Motorway.   
+ 
+Recorded Noise Levels (LAmax) 9/06/2022: 
+Traffic on Mulgoa Road: 56-61 dBA 
+Birds: 67 dBA  
+Wind: 50-55 dBA 
+Ambient Noise Logging Results – ICNG Defined Time Periods Photo of Noise Monitoring Location 
+Monitoring Period Noise Level (dBA) 
+ 
+RBL LAeq L10 L1 
+Daytime 55 59 60 63 
+Evening 53 58 59 64 
+Night-time 43 54 55 57 
+Ambient Noise Logging Results – RNP Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+LAeq(period) LAeq(1hour) 
+Daytime (7am-10pm) 59 60 
+Night-time (10pm-7am) 54 56 
+Attended Noise Measurement Results 
+Date Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+9/06/2022 11:53 58 60 67 
+
+[[page 64]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-2  
+ 
+ 
+ 
+
+[[page 65]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-3  
+ 
+ 
+ 
+
+[[page 66]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-4  
+ 
+ 
+ 
+
+[[page 67]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-5  
+ 
+ 
+ 
+
+[[page 68]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-6  
+ 
+ 
+ 
+
+[[page 69]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-7  
+ 
+ 
+ 
+
+[[page 70]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-8  
+ 
+ 
+ 
+
+[[page 71]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-9  
+ 
+Noise Monitoring Location L.02 Map of Noise Monitoring Location 
+Noise Monitoring Address 1-15 Fontenoy Road, Macquarie Park (Ground Level) 
+ 
+Logger Device Type: Svantek 957, Logger Serial No: 20665 
+Sound Level Meter Device Type: Brüel and Kjær 2250L, Sound Level Meter Serial No: 3004636 
+ 
+Ambient noise logger deployed in outdoor area at residential address 1-15 Fontenoy Road, Macquarie Park.  
+Logger located on the property fence line with view of existing M2 Motorway noise wall to the south. 
+ 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by road traffic 
+noise from the M2 Motorway.   
+ 
+Recorded Noise Levels (LAmax) 9/06/2022: 
+Traffic on M2 Motorway: 57-64 dBA 
+Ambient Noise Logging Results – ICNG Defined Time Periods Photo of Noise Monitoring Location 
+Monitoring Period Noise Level (dBA) 
+ 
+RBL LAeq L10 L1 
+Daytime 56 60 61 65 
+Evening 54 59 61 66 
+Night-time 44 55 56 59 
+Ambient Noise Logging Results – RNP Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+LAeq(period) LAeq(1hour) 
+Daytime (7am-10pm) 60 61 
+Night-time (10pm-7am) 55 58 
+Attended Noise Measurement Results 
+Date Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+9/06/2022 13:02 59 61 76 
+
+[[page 72]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-10  
+ 
+ 
+ 
+
+[[page 73]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-11  
+ 
+ 
+ 
+
+[[page 74]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-12  
+ 
+ 
+ 
+
+[[page 75]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-13  
+ 
+ 
+ 
+
+[[page 76]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-14  
+ 
+ 
+ 
+
+[[page 77]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-15  
+ 
+ 
+ 
+
+[[page 78]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-16  
+ 
+ 
+ 
+
+[[page 79]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-17  
+ 
+Noise Monitoring Location L.03 Map of Noise Monitoring Location 
+Noise Monitoring Address 1-15 Fontenoy Road, Macquarie Park (L3) 
+ 
+Logger Device Type: Svantek 977, Logger Serial No: 98070 
+Sound Level Meter Device Type: Brüel and Kjær 2250L, Sound Level Meter Serial No: 3004635 
+ 
+Ambient noise logger deployed at level 3 residential address 1-15 Fontenoy Road, Macquarie Park.  Logger located 
+on balcony of unit within residential complex with view over the M2 Motorway.   
+ 
+Noise measurements indicate the ambient noise environment at this location is dominated by road traffic noise from 
+the M2 Motorway.   
+ 
+The noise statistics at this location have a -2.5 dB adjustment applied to reflect a ‘free field’ location. 
+Ambient Noise Logging Results – ICNG Defined Time Periods Photo of Noise Monitoring Location 
+Monitoring Period Noise Level (dBA) 
+ 
+RBL LAeq L10 L1 
+Daytime 60 63 64 67 
+Evening 56 61 62 65 
+Night-time 45 57 58 62 
+Ambient Noise Logging Results – RNP Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+LAeq(period) LAeq(1hour) 
+Daytime (7am-10pm) 62 63 
+Night-time (10pm-7am) 57 61 
+ 
+
+[[page 80]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-18  
+ 
+ 
+ 
+
+[[page 81]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-19  
+ 
+ 
+ 
+
+[[page 82]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-20  
+ 
+ 
+ 
+
+[[page 83]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-21  
+ 
+Noise Monitoring Location L.05 Map of Noise Monitoring Location 
+Noise Monitoring Address 35 Waterloo Road, Macquarie Park  
+ 
+Logger Device Type: Svantek 977, Logger Serial No: 92631 
+Sound Level Meter Device Type: Brüel and Kjær 2250L, Sound Level Meter Serial No: 3029485 
+ 
+Ambient noise logger deployed at 35 Waterloo Road, Macquarie Park.  Logger located at northeast boundary fence 
+of the address. 
+ 
+Noise measurements indicate the ambient noise environment at this location is dominated by road traffic noise from 
+Lane Cove Road. 
+ 
+ 
+Ambient Noise Logging Results – ICNG Defined Time Periods Photo of Noise Monitoring Location 
+Monitoring Period Noise Level (dBA) 
+ 
+RBL LAeq L10 L1 
+Daytime 53 60 61 66 
+Evening 51 58 60 64 
+Night-time 45 55 55 60 
+Ambient Noise Logging Results – RNP Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+LAeq(period) LAeq(1hour) 
+Daytime (7am-10pm) 59 60 
+Night-time (10pm-7am) 55 57 
+Attended Noise Measurement Results 
+Date Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+13/2/2025 15:53 57 60 69 
+
+[[page 84]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-22  
+ 
+ 
+ 
+
+[[page 85]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-23  
+ 
+ 
+ 
+
+[[page 86]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-24  
+ 
+ 
+ 
+
+[[page 87]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-25  
+ 
+ 
+ 
+
+[[page 88]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-26  
+ 
+ 
+ 
+ 
+ 
+  
+
+[[page 89]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-27  
+ 
+B.2 Justification for Noise Monitoring Locations 
+Background noise monitoring locations were selected in accordance with NPfI Fact Sheet A, 
+which requires noise monitoring locations to be at the “reasonably most- or potentially most 
+affected residence(s)”. Fact Sheet A provides further guidance that “often several locations 
+will be affected by noise from the development. In these cases, locations that can be 
+considered representative of the various affected areas should be monitored”. 
+On this basis the noise monitoring locations were selected to represent the background 
+noise environment of the residential areas potentially most affected by the proposal. Detailed 
+justification of each location is provided in Table B-38. 
+Table B-38  Justification for Noise Monitoring Locations 
+ID Address Detail 
+L01 7 Tasman Place, 
+Macquarie Park 
+Representative of receivers on Fontenoy Road, west of 1-15 Fontenoy 
+Road. Front row receivers in this area are located at a consistent set 
+back distance from the M2 Motorway which was found to control the 
+ambient noise environment. Therefore, the monitoring location is 
+considered representative of the receivers in this area which are also 
+potentially most affected by the proposal.  
+L02 1-15 Fontenoy Road 
+GF, Macquarie Park  
+1-15 Fontenoy Road is the closest residential receiver to the proposal. 
+It includes eight floor residential buildings which overlook the M2 
+Motorway towards the proposal. The ground level is generally shielded 
+from the M2 Motorway due to the road being in a cutting at this location 
+and the noise wall adjacent to the eastbound off ramp to Lane Cove 
+Road. 
+Noise monitoring at this location was completed at two different 
+heights, to determine the difference in background noise levels due to 
+exposure to the M2 Motorway. The potential for noise monitoring above 
+ground level was limited due to access arrangements involving strata 
+management and private residential balconies. 
+The elevated noise monitoring location is on the facade which is 
+predicted to be most affected by the proposal and is considered 
+representative of elevated floors which have line of site to the proposal 
+location. 
+It is noted that buildings more distant from major roads (ie the northern 
+most building at 1-15 Fontenoy Road) are expected to experience 
+lower existing road traffic noise levels compared to the monitoring 
+locations at the “front row” building. However, the M2 Motorway and 
+Lane Cove Road have a wide angle of view to receivers in this area. 
+Comparatively, receivers set further back generally have a more limited 
+angle of view to the proposal site due to the intervening front row 
+buildings. For increasing distances from the M2 Motorway and the 
+proposal site, noise from the proposal is expected to attenuate more 
+quickly than the road traffic noise. Therefore, the monitoring location at 
+the building nearest to the proposal site is considered representative of 
+the reasonably most affected residences in this area. 
+The noise assessment for the proposal also shows that the worst-case 
+predicted levels 1-15 Fontenoy Road are below the base amenity 
+criteria before corrections for road traffic noise are applied (see 
+Appendix E.2). Therefore, the risk of unforeseen noise impacts due 
+deriving Project Noise Trigger Levels from the front row monitoring 
+location is considered low. 
+L03 1-15 Fontenoy Road 
+L3, Macquarie Park  
+[[page 90]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ B-28  
+ 
+ID Address Detail 
+L04 37 Khartoum Road, 
+Macquarie Park 
+This monitoring location is taken from Macquarie Park Data Centre 
+SSDA (SSD-10467), which was approved in 2021. The location is set 
+further back from major roads and is representative of similarly located 
+residential receivers north of the M2 Motorway. 
+It is noted that this location is not expected to be reasonably most 
+affected by the proposal, however, DPHI requested its inclusion in the 
+previous warehouse and distribution centre SSDA application for the 
+proposal site. It has therefore been included in the assessment of the 
+current data centre proposal for consistency. 
+L05 35 Waterloo Road, 
+Macquarie Park 
+The proposed development at 35 Waterloo Road represents a future 
+residential receiver to the south of the proposal. Noise monitoring at 
+this location was completed at the northern facade of the building 
+nearest to the proposal based on the currently available plans for the 
+development. 
+The monitoring location was selected based on the location which is 
+predicted to be potentially most affected by the proposal. The location 
+was also selected with consideration of the set back from Lane Cove 
+Road, such that it may have experience lower road traffic noise levels 
+compared to locations on the eastern side of the site. 
+ 
+[[page 91]]
+ 
+ C-1  
+ 
+Appendix C Construction Noise 
+Sources 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+ 
+ 
+[[page 92]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ C-1  
+ 
+Table C-1  Construction Equipment and Sound Power Levels 
+Equipment 
+Total Sound Power Level (dBA) 
+Chainsaw1 
+Chipper 
+Concrete Pump 
+Concrete Truck 
+Concrete Vibrator 
+Crane - Mobile (100t) 
+Dozer 
+Elevated Working Platform 
+Excavator (20t) 
+Excavator (30t) + Hydraulic Hammer1 
+Front End Loader 
+Hand Tools 
+Roller - Vibratory1 
+Truck - Dump 
+Truck - Flatbed 
+Water Truck 
+Sound Power Level2  119 120 109 109 113 113 116 97 105 127 112 104 114 110 103 107 
+Estimated on-time in any 15 minutes  5 15 10 15 5 15 10 15 10 5 10 15 15 10 10 10 
+ID Activity                  
+W.01 Vegetation clearing 122 X X       X  X   X  X 
+W.02 Demolition 123       X   X X   X  X 
+W.03 Earthworks 119       X  X  X  X X  X 
+W.04 Excavation of hard rock  126       X  X X X   X  X 
+W.05 Construction of pads and hardstands  113   X X X            
+W.06 Construction of structures and equipment installation 114      X  X    X   X  
+Note 1: Equipment classed as ‘annoying’ in the ICNG and requires a 5 dB correction. 
+Note 2: Sound power level data is taken from the TfNSW Construction Noise and Vibration Strategy (CNVG-R and CNVG-PTI), AS2436-2010 and DEFRA Noise Database. 
+[[page 93]]
+ 
+ 
+ 
+ 
+Appendix D Mechanical Plant Data 
+Sheets 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+ 
+ 
+[[page 94]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-1  
+ 
+Cooling Towers 
+ 
+
+[[page 95]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-2  
+ 
+ 
+
+[[page 96]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-3  
+ 
+ 
+  
+
+[[page 97]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-4  
+ 
+Generators 
+  
+ 
+
+[[page 98]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-5  
+ 
+  
+ 
+ 
+[[page 99]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-6  
+ 
+  
+ 
+
+[[page 100]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-7  
+ 
+  
+  
+
+[[page 101]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-8  
+ 
+Generator Enclosure 
+  
+
+[[page 102]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-9  
+ 
+Air Conditioning Units 
+ 
+  
+
+[[page 103]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ D-10  
+ 
+Acoustic Louvre 
+ 
+ 
+
+[[page 104]]
+ 
+ 
+Appendix E Operational Noise 
+Information 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+[[page 105]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-1  
+ 
+E.1 Potential for Tonal and Low Frequency Noise 
+The NSW EPA Noise Policy for Industry (NPfI) requires consideration of annoying 
+characteristics in noise sources that may be experienced at receiver locations (ie tonality, 
+low frequency, and intermittency). NPfI Fact Sheet C details specific tests to determine when 
+annoying noise characteristics are present and appropriate corrections to be added to the 
+overall measured or predicted noise levels. 
+The NPfI Fact Sheet C procedure for determining when to apply corrections for annoying 
+noise characteristics requires at-receiver noise levels including 1/3 octave band frequency 
+data between 10 Hz and 10 kHz (or high resolution audio data for narrow band analysis). 
+Manufacturers’ noise data for mechanical plant rarely include the information required by 
+NPfI Fact Sheet C.  
+In lieu of suitable manufacturers’ data, NSW EPA suggest that measurement data is 
+gathered at an equivalent existing facility and used in the assessment of proposed 
+developments1.  
+Cooling towers and generators are the dominant noise sources from the proposal during 
+normal operations. The cooling towers and generators have been modelled with 1/3 octave 
+band spectra between 10 Hz and 10 kHz, as shown in Table E-1. The spectra are based on 
+the manufacturers’ data, interpolated from octave bands, as needed. The low frequency 
+content has been estimated based on measurements of similar equipment, adjusted to 
+match the lowest frequency data reported by the manufacturer. 
+Table E-1 Modelled 1/3 Octave Spectra 
+Source Unweighted 1/3 Octave Frequency (Hz) 
+Sound Power Level (dBZ) 
+Total A-
+Weighted 
+Sound 
+Power 
+Level 
+(dBA) 
+10 
+12.5 
+16 
+20 
+25 
+31.5 
+40 
+50 
+63 
+80 
+100 
+125 
+160 
+200 
+250 
+315 
+400 
+500 
+630 
+800 
+1,000 
+1,250 
+1,600 
+2,000 
+2,500 
+3,150 
+4,000 
+5,000 
+6,300 
+8,000 
+10,000 
+Cooling Tower 
+Inlet 
+89 
+89 
+87 
+88 
+90 
+90 
+91 
+88 
+87 
+86 
+85 
+84 
+82 
+78 
+76 
+75 
+75 
+74 
+74 
+75 
+74 
+72 
+68 
+65 
+62 
+57 
+54 
+56 
+60 
+62 
+65 
+82 
+Cooling Tower 
+Side 
+88 
+88 
+86 
+87 
+89 
+89 
+90 
+88 
+85 
+83 
+81 
+78 
+74 
+70 
+66 
+65 
+64 
+62 
+62 
+62 
+61 
+62 
+62 
+61 
+59 
+56 
+53 
+51 
+49 
+46 
+43 
+73 
+ 
+1 News Item. Acoust Aust 48, 170–172 (2020). 
+[[page 106]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-2  
+ 
+Source Unweighted 1/3 Octave Frequency (Hz) 
+Sound Power Level (dBZ) 
+Total A-
+Weighted 
+Sound 
+Power 
+Level 
+(dBA) 
+10 
+12.5 
+16 
+20 
+25 
+31.5 
+40 
+50 
+63 
+80 
+100 
+125 
+160 
+200 
+250 
+315 
+400 
+500 
+630 
+800 
+1,000 
+1,250 
+1,600 
+2,000 
+2,500 
+3,150 
+4,000 
+5,000 
+6,300 
+8,000 
+10,000 
+Cooling Tower 
+Top 
+92 
+92 
+90 
+91 
+93 
+93 
+94 
+89 
+89 
+89 
+90 
+90 
+88 
+86 
+84 
+82 
+80 
+78 
+78 
+78 
+78 
+76 
+75 
+74 
+72 
+69 
+67 
+64 
+60 
+57 
+55 
+88 
+Generator Air 
+Intake / 
+Discharge 
+54 
+55 
+48 
+54 
+60 
+54 
+65 
+62 
+73 
+74 
+77 
+81 
+80 
+81 
+81 
+88 
+83 
+84 
+86 
+87 
+86 
+87 
+86 
+87 
+89 
+87 
+85 
+85 
+97 
+83 
+85 
+100 
+Generator 
+Exhaust with 
+30 dB Silencer 
+73 
+74 
+67 
+73 
+75 
+75 
+85 
+82 
+95 
+91 
+99 
+100 
+103 
+105 
+100 
+96 
+93 
+92 
+93 
+93 
+96 
+95 
+92 
+93 
+91 
+87 
+83 
+79 
+73 
+64 
+54 
+104 
+Generator 
+Exhaust with 
+40 dB Silencer 
+63 
+64 
+57 
+63 
+65 
+65 
+75 
+72 
+85 
+81 
+89 
+90 
+93 
+95 
+90 
+86 
+83 
+82 
+83 
+83 
+86 
+85 
+82 
+83 
+81 
+77 
+73 
+69 
+63 
+54 
+44 
+94 
+The predicted noise levels have been reviewed at all sensitive receivers to determine where 
+corrections for annoying characteristics may be required. The review showed that the overall 
+C-weighted minus A-weighted noise levels are predicted to be 15 dB or more at some 
+receivers when the cooling towers are controlling the predicted noise levels. At receivers 
+where the generator testing contributes to the predicted levels, the C-weighted minus 
+A-weighted noise levels are predicted to be less than 15 dB in all cases. This is due to the 
+concentration of mid to high frequency content in the generator noise source spectra. 
+The predicted noise spectra at the potentially most affected residential receiver to the north 
+and south of the proposal (Map ID 1 & 61 in Appendix E.2) are shown in Figure E-1 for the 
+most sensitive night-time period, when cooling tower noise would be dominant and the 
+overall C-weighted minus A-weighted noise levels may be 15 dB or more.  
+[[page 107]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-3  
+ 
+Figure E-1  Residential 1/3 Octave Night-time Operational Noise Levels 
+ 
+The results show that the low frequency noise modifying factor correction of NPfI Fact 
+Sheet C does not apply to the worst-case predicted levels at residential receivers. 
+The potentially most affected other sensitive receivers have also been reviewed for low 
+frequency noise. The findings are summarised as: 
+• Commercial – the overall C-weighted minus A-weighted noise levels are predicted to 
+be less than 15 dB due to the contribution from vehicles and loading dock activity 
+• Child care – the overall C-weighted minus A-weighted noise levels are predicted to 
+be less than 15 dB due to the contribution from vehicles and loading dock activity 
+• Hotel – the overall C-weighted minus A-weighted noise levels are predicted to be 
+equal to or greater than 15 dB. The predicted 1/3 octave spectrum exceeds the NPfI 
+Fact Sheet C thresholds by up to 3 dB. Therefore, a 2 dB correction has been added 
+to the predicted level for the evening and night-time period. 
+The predicted receiver noise levels have also been reviewed in relation to tonality and the 
+results confirm that the tonal noise modifying factor correction of NPfI Fact Sheet C does not 
+apply. 
+The mitigation measures recommended for the proposal include that the final equipment 
+selection would consider minimising the potential for tonal or low frequency noise impacts at 
+sensitive receivers (see Section 6.2). Equipment selection would be reviewed at the detailed 
+design stage. 
+  
+
+[[page 108]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-4  
+ 
+E.2 Additional Operational Noise Results 
+The operational noise assessment in this report is presented based on the potentially most 
+affected receivers adjacent to the proposal in various directions (R01-R09). The 
+representative receivers were determined based on the background noise monitoring 
+locations, receiver use types, and operational noise predictions from the proposal.  
+The predicted operational noise levels at additional surrounding receivers are tabulated in 
+Table E-2 for information purposes and show the highest predicted level for all facades and 
+floors of each buildings. The results demonstrate that the assessment has considered all 
+receivers potentially affected by the proposal. 
+The “Map IDs” in Table E-2 are shown in Figure E-2. 
+  
+[[page 109]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-5  
+ 
+Figure E-2   Additional Operational Noise Results – Receiver IDs 
+ 
+ 
+
+[[page 110]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-6  
+ 
+Table E-2 Operational Noise – Additional Receiver Results 
+Map ID Receiver 
+Group 
+Receiver Type Project Noise Trigger Level (dBA) Predicted Noise Level LAeq(15minute) (dBA) 
+OP.011 OP.022 
+Day Evening Night Day Evening Night Day 
+1 R02/R03 Residential 58 49 45 42 41 42 54 
+2 R02/R03 Residential 58 49 45 38 37 38 55 
+3 R02/R03 Residential 58 49 45 39 38 38 51 
+4 R02/R03 Residential 58 49 45 40 40 40 50 
+5 R02/R03 Residential 58 49 45 38 37 38 56 
+6 R02/R03 Residential 58 49 45 36 36 36 52 
+7 R02/R03 Residential 58 49 45 40 40 40 52 
+8 R02/R03 Residential 58 49 45 38 37 38 50 
+9 R02/R03 Residential 58 49 45 37 37 37 49 
+10 R01 Residential 58 48 43 34 33 34 47 
+11 R01 Residential 58 48 43 34 32 34 49 
+12 R01 Residential 58 48 43 34 33 34 51 
+13 R01 Residential 58 48 43 34 32 34 49 
+14 R01 Residential 58 48 43 32 31 32 50 
+15 R01 Residential 58 48 43 37 35 37 47 
+16 R01 Residential 58 48 43 37 35 37 50 
+17 R01 Residential 58 48 43 36 35 36 46 
+18 R01 Residential 58 48 43 32 31 32 42 
+19 R01 Residential 58 48 43 39 38 39 48 
+[[page 111]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-7  
+ 
+Map ID Receiver 
+Group 
+Receiver Type Project Noise Trigger Level (dBA) Predicted Noise Level LAeq(15minute) (dBA) 
+OP.011 OP.022 
+Day Evening Night Day Evening Night Day 
+20 R01 Residential 58 48 43 35 34 35 46 
+21 R01 Residential 58 48 43 31 31 31 43 
+22 R01 Residential 58 48 43 33 33 33 42 
+23 R01 Residential 58 48 43 36 36 36 45 
+24 R01 Residential 58 48 43 34 34 34 44 
+25 R01 Residential 58 48 43 32 31 32 43 
+26 R01 Residential 58 48 43 31 31 31 40 
+27 R01 Residential 58 48 43 35 35 35 45 
+28 R01 Residential 58 48 43 36 36 36 46 
+29 R01 Residential 58 48 43 34 34 34 42 
+30 R01 Residential 58 48 43 32 32 32 41 
+31 R01 Residential 58 48 43 34 34 34 41 
+32 R09 Commercial 63 (when in use) 43 43 43 49 
+33 R01 Residential 58 48 43 33 33 33 41 
+34 R01 Residential 58 48 43 32 32 32 40 
+35 R04 Residential 50 48 43 32 32 32 39 
+36 R04 Residential 50 48 43 27 27 27 35 
+37 R09 Commercial 63 (when in use) 40 40 40 48 
+38 R09 Commercial 63 (when in use) 48 48 48 49 
+39 R09 Commercial 63 (when in use) 48 48 48 53 
+40 R09 Commercial 63 (when in use) 46 44 44 61 
+[[page 112]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-8  
+ 
+Map ID Receiver 
+Group 
+Receiver Type Project Noise Trigger Level (dBA) Predicted Noise Level LAeq(15minute) (dBA) 
+OP.011 OP.022 
+Day Evening Night Day Evening Night Day 
+41 R09 Commercial 63 (when in use) 43 41 41 54 
+42 R07 Hotel 63 53 48 44 44 44 51 
+43 R09 Commercial 63 (when in use) 44 44 44 53 
+44 R09 Commercial 63 (when in use) 43 43 43 53 
+45 R06 Child Care 58 (when in use) 45 41 45 55 
+45 R06 (external) Child Care (external) 53 (when in use) 35 33 35 47 
+46 R09 Commercial 63 (when in use) 45 43 45 57 
+47 R09 Commercial 63 (when in use) 43 42 43 53 
+48 R09 Commercial 63 (when in use) 47 44 47 54 
+49 R09 Commercial 63 (when in use) 37 37 37 50 
+50 R09 Commercial 63 (when in use) 51 47 51 62 
+51 R09 Commercial 63 (when in use) 56 50 56 63 
+52 R09 Commercial 63 (when in use) 36 36 36 45 
+53 R06 Child Care 58 (when in use) 33 33 33 40 
+53 R06 (external) Child Care (external) 53 (when in use) 28 28 28 38 
+54 R01 Residential 58 48 43 34 34 34 42 
+55 R01 Residential 58 48 43 32 32 32 40 
+56 R01 Residential 58 48 43 34 34 34 43 
+57 R01 Residential 58 48 43 35 35 35 45 
+58 R05 Residential 58 48 43 37 37 37 45 
+59 R05 Residential 58 48 43 36 36 36 40 
+[[page 113]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-9  
+ 
+Map ID Receiver 
+Group 
+Receiver Type Project Noise Trigger Level (dBA) Predicted Noise Level LAeq(15minute) (dBA) 
+OP.011 OP.022 
+Day Evening Night Day Evening Night Day 
+60 R05 Residential 58 48 43 40 40 40 41 
+61 R05 Residential 58 48 43 43 43 43 48 
+62 R08 Educational 58 (when in use) 36 36 36 47 
+63 R09 Commercial 63 (when in use) 36 36 36 45 
+Note 1: OP.01 – Typical Peak Operation. 
+Note 2: OP.02 – Typical Peak Operation and Generator Maintenance/Testing. 
+ 
+[[page 114]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-10  
+ 
+E.3 Operational Noise Contours 
+Figure E-3  Predicted Operational Noise Contours – OP.01 Day – Ground Level 
+ 
+Note: Contours are calculated at 1.5 m above ground level. 
+Figure E-4  Predicted Operational Noise Contours – OP.02 Day – Ground Level 
+ 
+Note: Contours are calculated at 1.5 m above ground level. Testing of the southwestern most generator on 
+Level 1 is included in the contours. 
+
+[[page 115]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-11  
+ 
+Figure E-5  Predicted Operational Noise Contours – OP.01 Evening – Ground Level 
+ 
+Note: Contours are calculated at 1.5 m above ground level. 
+Figure E-6  Predicted Operational Noise Contours – OP.01 Night-time – Ground Level 
+ 
+Note: Contours are calculated at 1.5 m above ground level. 
+
+[[page 116]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-12  
+ 
+Figure E-7  Predicted Operational Noise Contours – OP.01 Day – Roof Level 
+ 
+Note: Contours are calculated at 40 m above ground level. 
+Figure E-8  Predicted Operational Noise Contours – OP.02 Day – Roof Level 
+ 
+Note: Contours are calculated at 40 m above ground level. Testing of the southwestern most generator on Roof 
+Level is included in the contours. 
+
+[[page 117]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-13  
+ 
+Figure E-9  Predicted Operational Noise Contours – OP.01 Evening – Roof Level 
+ 
+Note: Contours are calculated at 40 m above ground level. 
+Figure E-10  Predicted Operational Noise Contours – OP.01 Night-time – Roof Level 
+ 
+Note: Contours are calculated at 40 m above ground level. 
+
+[[page 118]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-14  
+ 
+E.4 Cross-sectional Noise Contour Maps to Macquarie Park 
+Precinct Key Sites 
+The Macquarie Park TOD Rezoning identifies 13 ‘Key Sites’ with increased incentive floor 
+space and building heights. Cross-sectional noise contour maps of between the proposal 
+and the four closest Key Sites have been predicted at the locations shown in Figure E-11. 
+The predicted noise levels are shown in Figure E-12 to Figure E-15 for the night-time period 
+which would be most sensitive for any potential future residential receivers. 
+Figure E-11  Cross-sectional Noise Contour Map Locations 
+ 
+ 
+ 
+
+[[page 119]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-0  
+ 
+Figure E-12  Predicted Operational Cross Section Map – OP.01 Night-time – Area 2 
+ 
+ 
+Figure E-13  Predicted Operational Cross Section Map – OP.01 Night-time – Area 4 
+ 
+
+[[page 120]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ E-1  
+ 
+Figure E-14  Predicted Operational Cross Section Map – OP.01 Night-time – Area 8 
+ 
+ 
+Figure E-15  Predicted Operational Cross Section Map – OP.01 Night-time – Area 9 
+ 
+ 
+ 
+
+[[page 121]]
+ 
+ 
+Appendix F CNVG Mitigation 
+Measures 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+ 
+[[page 122]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ F-1  
+ 
+Table F-1  CNVG Standard Mitigation and Management Measures 
+Action 
+Required  
+Applies To Details 
+Management measures 
+Implementation 
+of any project 
+specific 
+mitigation 
+measures 
+required.  
+Airborne noise  Implementation of any project specific mitigation measures 
+required.  
+Implement 
+community 
+consultation or 
+notification 
+measures.  
+Airborne noise 
+Ground-borne 
+noise & vibration  
+Notification detailing work activities, dates and hours, impacts 
+and mitigation measures, indication of work schedule over the 
+night-time period, any operational noise benefits from the works 
+(where applicable) and contact telephone number.  
+Notification should be a minimum of 7 calendar days prior to the 
+start of works. For projects other than maintenance works more 
+advanced consultation or notification may be required. Please 
+contact Roads and Maritime Communication and Stakeholder 
+Engagement for guidance.  
+Website (If required)  
+Contact telephone number for community  
+Email distribution list (if required)  
+Community drop-in session (if required by approval conditions).  
+Site inductions  Airborne noise 
+Ground-borne 
+noise & vibration  
+All employees, contractors and subcontractors are to receive an 
+environmental induction. The induction must at least include:  
+• all project specific and relevant standard noise and vibration 
+mitigation measures  
+• relevant licence and approval conditions  
+• permissible hours of work  
+• any limitations on high noise generating activities  
+• location of nearest sensitive receivers  
+• construction employee parking areas  
+• designated loading/unloading areas and procedures  
+• site opening/closing times (including deliveries)  
+• environmental incident procedures.  
+Behavioural 
+practices  
+Airborne noise  No swearing or unnecessary shouting or loud stereos/radios on 
+site.  
+No dropping of materials from height, throwing of metal items 
+and slamming of doors.  
+Verification  Airborne noise  
+Ground-borne 
+noise & vibration  
+Where specified under Appendix C of the CNVG a noise 
+verification program is to be carried out for the duration of the 
+works in accordance with the Construction Noise and Vibration 
+Management Plan and any approval and licence conditions.  
+Attended 
+vibration 
+measurements  
+Ground-borne 
+vibration  
+Where required attended vibration measurements should be 
+undertaken at the commencement of vibration generating 
+activities to confirm that vibration levels are within the 
+acceptable range to prevent cosmetic building damage.  
+[[page 123]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ F-2  
+ 
+Action 
+Required  
+Applies To Details 
+Update 
+Construction 
+Environmental 
+Management 
+Plans  
+Airborne noise 
+Ground-borne 
+noise & vibration 
+The CEMP must be regularly updated to account for changes in 
+noise and vibration management issues and strategies.  
+Building 
+condition 
+surveys  
+Vibration  
+Blasting  
+Undertake building dilapidation surveys on all buildings located 
+within the buffer zone prior to commencement of activities with 
+the potential to cause property damage  
+Source controls 
+Construction 
+hours and 
+scheduling 
+Airborne noise 
+Ground-borne 
+noise & vibration 
+Where feasible and reasonable, construction should be carried 
+out during the standard daytime working hours. Work 
+generating high noise and/or vibration levels should be 
+scheduled during less sensitive time periods.  
+Construction 
+respite period 
+during normal 
+hours and out-
+of-hours work  
+Ground-borne 
+noise & vibration 
+Airborne noise 
+See Appendix C of the CNVG for more details on the following 
+respite measures:  
+• Respite Offers (RO)  
+• Respite Period 1 (R1)  
+• Respite Period 2 (R2)  
+• Duration Respite (DR)  
+Equipment 
+selection.  
+Airborne noise 
+Ground-borne 
+noise & vibration  
+Use quieter and less vibration emitting construction methods 
+where feasible and reasonable.  
+For example, when piling is required, bored piles rather than 
+impact-driven piles will minimise noise and vibration impacts. 
+Similarly, diaphragm wall construction techniques, in lieu of 
+sheet piling, will have significant noise and vibration benefits.  
+Ensure plant including the silencer is well maintained.  
+Plant noise 
+levels.  
+Airborne-noise The noise levels of plant and equipment must have operating 
+Sound Power or Sound Pressure Levels compliant with the 
+criteria in Appendix H of the CNVG.  
+Implement a noise monitoring audit program to ensure 
+equipment remains within the more stringent of the 
+manufacturers specifications or Appendix H of the CNVG.  
+Rental plant 
+and equipment.  
+Airborne-noise  The noise levels of plant and equipment items are to be 
+considered in rental decisions and in any case cannot be used 
+on site unless compliant with the criteria in Table 2 of the 
+CNVG.  
+Use and siting 
+of plant.  
+Airborne-noise The offset distance between noisy plant and adjacent sensitive 
+receivers is to be maximised.  
+Plant used intermittently to be throttled down or shut down.  
+Noise-emitting plant to be directed away from sensitive 
+receivers.  
+Only have necessary equipment on site.  
+[[page 124]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ F-3  
+ 
+Action 
+Required  
+Applies To Details 
+Plan worksites 
+and activities to 
+minimise noise 
+and vibration.  
+Airborne noise 
+Ground-borne 
+vibration 
+Locate compounds away from sensitive receivers and 
+discourage access from local roads.  
+Plan traffic flow, parking and loading/unloading areas to 
+minimise reversing movements within the site.  
+Where additional activities or plant may only result in a marginal 
+noise increase and speed up works, consider limiting duration 
+of impact by concentrating noisy activities at one location and 
+move to another as quickly as possible.  
+Very noise activities should be scheduled for normal working 
+hours. If the work can not be undertaken during the day, it 
+should be completed before 11:00pm.  
+Where practicable, work should be scheduled to avoid major 
+student examination periods when students are studying for 
+examinations such as before or during Higher School Certificate 
+and at the end of higher education semesters.  
+If programmed night work is postponed the work should be re-
+programmed and the approaches in this guideline apply again.  
+Reduced 
+equipment 
+power  
+Airborne noise 
+Ground-borne 
+vibration 
+Use only the necessary size and power.  
+Non-tonal and 
+ambient 
+sensitive 
+reversing 
+alarms  
+Airborne noise  Non-tonal reversing beepers (or an equivalent mechanism) 
+must be fitted and used on all construction vehicles and mobile 
+plant regularly used on site and for any out of hours work.  
+Consider the use of ambient sensitive alarms that adjust output 
+relative to the ambient noise level.  
+Minimise 
+disturbance 
+arising from 
+delivery of 
+goods to 
+construction 
+sites.  
+Airborne noise Loading and unloading of materials/deliveries is to occur as far 
+as possible from sensitive receivers.  
+Select site access points and roads as far as possible away 
+from sensitive receivers.  
+Dedicated loading/unloading areas to be shielded if close to 
+sensitive receivers.  
+Delivery vehicles to be fitted with straps rather than chains for 
+unloading, wherever possible.  
+Avoid or minimise these out of hours movements where 
+possible.  
+Engine 
+compression 
+brakes  
+Construction 
+vehicles  
+Limit the use of engine compression brakes at night and in 
+residential areas.  
+Ensure vehicles are fitted with a maintained Original Equipment 
+Manufacturer exhaust silencer or a silencer that complies with 
+the National Transport Commission’s ‘In-service test procedure’ 
+and standard.  
+[[page 125]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ F-4  
+ 
+Action 
+Required  
+Applies To Details 
+Path controls 
+Shield 
+stationary noise 
+sources such 
+as pumps, 
+compressors, 
+fans etc.  
+Airborne noise  Stationary noise sources should be enclosed or shielded where 
+feasible and reasonable whilst ensuring that the occupational 
+health and safety of workers is maintained. Appendix D of AS 
+2436:2010 lists materials suitable for shielding.  
+Shield sensitive 
+receivers from 
+noisy activities.  
+Airborne noise Use structures to shield residential receivers from noise such as 
+site shed placement; earth bunds; fencing; erection of 
+operational stage noise barriers (where practicable) and 
+consideration of site topography when situating plant.  
+Receptor control 
+Structural 
+surveys and  
+vibration 
+monitoring  
+Ground-borne 
+vibration 
+Pre-construction surveys of the structural integrity of vibration 
+sensitive buildings may be warranted.  
+At locations where there are high-risk receptors, vibration 
+monitoring should be conducted during the activities causing 
+vibration.  
+See Appendix 
+C of the CNVG 
+for additional 
+measures  
+Airborne noise 
+Ground-borne 
+vibration 
+In some instances, additional mitigation measures may be 
+required.  
+ 
+ 
+ 
+[[page 126]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ 
+Appendix G NPfI Mitigation 
+Measures 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031910.00002 
+18 July 2025 
+ 
+[[page 127]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ G-1  
+ 
+Best Management Practice (BMP) 
+Best management practice (BMP) is the application of particular operational procedures that 
+minimise noise while retaining productive efficiency. 
+Where applied, these measures and practices are often documented in a noise management 
+plan so that operational practices and undertakings are clearly understood and applied at all 
+levels of an industrial operation. Application of BMP can include the following types of 
+practice: 
+• Using the quietest plant that can do the job 
+• Scheduling the use of noisy equipment at the least-sensitive time of day 
+• Not operating, or reducing operations at night  
+• Siting noisy equipment behind structures that act as barriers, or at the greatest 
+distance from the noise-sensitive area or orienting the equipment so that noise 
+emissions are directed away from any sensitive areas, to achieve the maximum 
+attenuation of noise 
+• Where there are several noisy pieces of equipment, scheduling operations so they 
+are used separately rather than concurrently 
+• Keeping equipment well-maintained and operating it in a proper and efficient manner 
+• Using ‘quiet’ practices when operating equipment, for example, positioning idling 
+trucks in appropriate areas  
+• Running staff-education programs and regular tool box talks on the effects of noise 
+and the use of quiet work practices. 
+For many industries there are a wide range of factors that can restrict the feasibility and 
+reasonableness of applying BMP measures on a particular site. Work health and safety 
+considerations must also be taken into account as well as any other regulatory and process 
+requirements. 
+  
+[[page 128]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera 
+Road, Macquarie Park) 
+18 July 2025 
+SLR Project No.: 610.031910.00002 
+SLR Ref No.: 610.031910.00002-R01-v2.0-20250718.docx 
+ 
+ G-2  
+ 
+Best Available Technology Economically Achievable (BATEA) 
+With ‘Best available technology economically achievable’ (BATEA), equipment, plant and 
+machinery that produce noise incorporate the most advanced and affordable technology to 
+minimise noise output. Affordability is not necessarily determined by the price of the 
+technology alone. Increased productivity may also result from using more advanced 
+equipment, offsetting the initial outlay, for example, using ‘quieter’ equipment that can be 
+operated over extended hours. Old or badly-designed equipment can often be a major 
+source of noise. 
+Where BMP fails to achieve the required noise reduction by itself, the BATEA approach 
+should then be considered. Examples of uses of BATEA include: 
+• Considering alternatives to tonal reversing alarms (where work health and safety is 
+appropriately considered) 
+• Using equipment with efficient muffler design 
+• Using quieter engines, such as electric instead of internal combustion 
+• Fitting and maintaining noise reduction packages on plant and equipment  
+• Using efficient enclosures for noise sources 
+• Damping or lining metal trays or bins 
+• Active noise control. 
+For many industries there are a wide range of factors that can restrict the feasibility and 
+reasonableness of applying BMP or BATEA measures on a particular site. Work health and 
+safety considerations must also be taken into account as well as any other regulatory and 
+process requirements. 
+ 
+[[page 129]]
+ 
+ 
+ 

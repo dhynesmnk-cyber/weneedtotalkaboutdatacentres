@@ -1,0 +1,1696 @@
+[[page 1]]
+SSD 
+43-61 Turner Road Data Centre
+Air Quality Technical Report 
+Reference: 
+Final | 10 October 2024 
+© Enter image copyright here 
+This report takes into account the particular instructions and requirements of our client.  It is not 
+intended for and should not be relied upon by any third party and no responsibility is undertaken to 
+any third party. 
+Job number  299816-13 
+Arup Australia Pty Ltd | ABN 76 625 912 665 
+Arup Australia Pty Ltd 
+Wurundjeri Woiwurrung Country 
+Sky Park, One Melbourne Quarter 
+699 Collins Street 
+Docklands, VIC, 3008 
+Australia 
+arup.com  
+[[page 2]]
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd 
+ 
+Executive summary 
+Arup Pty Ltd (Arup) was engaged by the Client to undertake an air quality impact assessment for a 
+p
+roposed data centre building located at 43-61 Turner Road, Gregory Hills, NSW (‘the Proposal’). 
+The air quality impact assessment accompanies the Environment Impact Statement (EIS) for the 
+Proposal. 
+Existing Environmental Conditions 
+The Proposal is located in predominantly commercial/industrial land. Immediately to the east is 
+comprised of a riparian corridor, and farther east comprises of vacant land and residential 
+properties. Nearby sensitive receivers have been identified, with the closest being commercial 
+receivers located on Rodeo Road, Central Hills Drive and White Cliffs Avenue, directly adjacent to 
+the north and west of the Proposal boundary. Nearest residential receivers are dwellings along 
+Pioneer Street, approximately 140 metres to the east of the Proposal Site boundary.  
+Site-representative meteorological conditions were derived from a prognostic meteorological 
+model. Analysis of meteorological data for the past five years indicated similar meteorological 
+patterns with prevailing south-south-westerly winds, and therefore 2022 (the latest year with 
+complete datasets for both meteorology and background pollutant concentrations) was selected for 
+this assessment, and correlated with background air quality data.  
+Data from the nearest NSW Government air quality monitoring station (AQMS) located at 
+Campbelltown West, approximately 5 km to the south-east of the Proposal Site, has been used to 
+establish background pollutant concentrations for the Proposal Site. The AQMS at Campbelltown 
+West records all relevant pollutants, such as nitrogen dioxides (NO2), sulfur dioxide (SO2), carbon 
+monoxide (CO), ozone (O3) and particulate matter (PM10 and PM2.5). The maximum monitored 
+pollutant concentrations for 2022 at Campbelltown West AQMS show that background 
+concentrations are all below the NSW Approved Methods for the Modelling and Assessment of Air 
+Pollutants in New South Wales (EPA, 2022) (the ‘Approved Methods’) impact assessment criteria.  
+Pollutant Impact Assessment   
+Construction 
+There is the potential for dust generation associated with the construction of the Proposal. The main 
+dus
+t-generating activities, associated with earthworks and construction of buildings, would be close 
+to the Proposal Site boundary. Given the temporary nature of the dust-generating activities that 
+would be required, it is anticipated that the risk of amenity/nuisance issues and human health 
+impacts would be low and typically manageable via management measures to control the generation 
+and spread of dust outlined in a construction environmental management plan (CEMP) for the 
+Proposal, which is then implemented onsite as part of the best practice. 
+Operation 
+A dispersion modelling assessment of the proposed 27 on-duty standby generators within the 
+P
+roposal Site has been undertaken to ascertain the air quality impacts at nearby receivers due to a 
+justified worst case scenario where all generators would be operational (in the event of a power 
+outage), as well as routine maintenance/testing (realistic operations). The assessment was conducted 
+to comply with requirements of the Secretary’s Environmental Assessment Requirements (SEARs). 
+The assessment was undertaken using AERMOD. Emissions to air from the standby generators 
+associated with this Proposal have been estimated using manufacturer’s specification datasheets for 
+indicative pieces of equipment. Predicted ground-level concentrations were assessed at identified 
+nearby discrete sensitive receivers.  
+[[page 3]]
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd 
+ 
+Hourly varying background concentration data were used to assess all relevant pollutants, which are 
+nitrogen dioxide (NO2), sulfur dioxide (SO2), carbon monoxide (CO) and particulate matter. In 
+addition, incremental ground-level concentrations were also assessed for toxic pollutants such as 
+benzene and polycyclic aromatic hydrocarbons (PAH), in the absence of available background data. 
+A photochemical conversion for short-term concentrations (i.e. hourly average) from nitrogen 
+oxides (NOx) to NO2 were determined in accordance with the US EPA’s Ozone Limiting Method1 
+(OLM), which is recognised in the NSW Approved Methods. 
+Justified Worst-Case Scenario 
+As a worst case scenario, the assessment has assumed all on-duty standby generators would be 
+r
+equired to operate at the same time. As these generators are for standby purposes, it is assumed that 
+if required at all due to a power outage, they would be in operation for short periods of time only 
+and therefore impacts have only been assessed for short-term averaging periods. 
+The modelling results indicated that the predicted pollutant ground level concentrations (GLCs) 
+from the generators meet the impact assessment criteria outlined in the Approved Methods at 
+identified sensitive receivers, with the exception of GLCs for 1-hour average NO₂ and 24-hour 
+average PM₁₀ and PM₂.₅ concentrations. 
+Exceedances of the impact assessment criteria for NO₂ and particulate matter are not uncommon for 
+facilities including standby diesel generators, where all generators would be required to operate 
+where a loss of mains power occurs. However, the likelihood of this scenario occurring is expected 
+to be extremely rare at the Proposal Site (refer to discussion below).  
+Likelihood of Justified Worst-Case Scenario 
+Under typical conditions, power for the Proposal is fed directly from the grid. A data centre facility 
+i
+s a mission critical facility often supplied by dual redundant utility feeds. As part of ensuring sound 
+grid reliability, the proposal is designed to operate from the 33kV utility power supply which has a 
+much higher reliability than a conventional utility. This increases the reliability of the facility utility 
+power to target 100% uptime from mains utility, with a maximum modelled outage targeting zero 
+(0) minutes. The purpose of these standby generators is to support the buildings’ power requirement 
+for critical IT systems and other site infrastructure in the rare event that both the primary and 
+secondary utility feeds fail, and back up generation would be required. Lithium-ion batteries are 
+designed for the data halls, which would operate as an initial back-up in the event of a power outage 
+to keep security systems, computers, and other electronic equipment running while the standby 
+generators start-up. Small uninterruptible power systems would also provide battery backup to 
+various other critical systems.  
+A review of the Endeavour Energy Distribution Annual Planning Report (2023) (2023 DAPR)2 
+indicated that the average unplanned actual system average interruption duration index (SAIDI)3 of 
+power outage incident shows that customers, with a conventional utility, experience approximately 
+80 minutes (total cumulative events) of unplanned outages in a typical year. This equates to less 
+than 0.02% of likelihood of occurrence in a year, which is incredibly small. 
+ 
+1 Cole, H. S., & Summerhays, J. E. (1979). A Review of Techniques Available for Estimating Short-Term NO2 concentrations. J. Air Poll. Cont. 
+Assoc., 29:8, 812-817. doi:10:1080/00022470.1979.10470866. 
+2 Endeavour Energy, 2023. Distribution Annual Planning Report, December 2023. 
+3 The SAIDI is a measure in minutes the average duration of an incident weighted by the number of customers affected by each incident. That is, if 10 
+customers suffer a 10-minute interruption and there are 100 customers in the region, then this would equal a SAIDI of 1 minute. Multiple incidents 
+are added together, so if a second incident of 15 minutes affected 10 customers, then that would be added to the first incident and equal a SAIDI of 
+2.5 minutes. 
+[[page 4]]
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd 
+ 
+Given the above utility power supply arrangement, additional layers of temporary back-up power 
+and the likely short duration of typical power outages, generators are very unlikely to operate during 
+this worst case scenario, or if required are likely to run for less than 0.02% per year. Therefore, the 
+air quality impact risk from the justified worst-case scenario (power outage) activity would be very 
+low. 
+R
+ealistic Operations during Routine Maintenance 
+The on-duty standby generators would undergo routine maintenance and testing to make sure they 
+a
+re operational if required during a power outage.  Routine maintenance follows a prescribed testing 
+regime that sets the frequency and duration of testing to minimise emissions to air while 
+undertaking all required maintenance.  For the Proposal, it is anticipated that either up to two 
+generators under ‘no-load’ or one generator under 100% load would be tested at any one time 
+during the prescribed daytime period. 
+Dispersion modelling has been undertaken to determine potential air quality impacts at nearby 
+identified sensitive receivers as a result of routine maintenance. Predicted pollutant concentrations 
+at nearby identified sensitive receivers during all maintenance or testing periods are below the 
+impact assessment criteria for all assessed pollutants, due to less generators being operational for 
+shorter periods of time, compared with the justified worst-case scenario. Therefore, the air quality 
+impact risk from the routine maintenance activity would be negligible. 
+POEO (Clean Air) Regulation – Standard of Concentrations 
+Clause 73 of the POEO (Clean Air) Regulation 2022 applies to scheduled premises and exempts 
+e
+mergency standby plant comprising a stationary reciprocal internal combustion engine from the air 
+impurities Standard of nitrogen dioxide and nitric oxide concentrations specified in Schedule 2, if 
+the plant is used for a total of not more than 200 hours per year. The Proposal would not be a 
+scheduled premises due to the generation of electricity because the plant would not be operating for 
+more than a total of 200 hours per year, however the Proposal would still need to comply with the 
+Schedule 2 Part 3 of the POEO and its solid particles Standard of Concentration limit for non-
+scheduled premises, which is 100 mg/m3.  
+The generator emissions for particles associated with the Main DC01 and admin building are all 
+below the Standard of Concentration for solid particles of 100 mg/m3, at all load conditions. 
+Environment Management Measures  
+General air quality mitigation and management measure s recommended for the Proposal have been 
+provided in Section 8 of this Report. These include recommendations to control emissions to air and 
+dust during construction, which can be incorporated in the Construction Environmental 
+Management Plan (CEMP). These also include measures for the operator to minimise operation of 
+the generators as far as practicable. Residual air quality impacts with these management measures 
+in place are negligible to low.  
+[[page 5]]
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd 
+ 
+Contents 
+ 
+1. Introduction 1 
+1.1 Proposal overview 1 
+1.2 Secretary’s Environmental Assessment Requirements (SEARs) 2 
+1.3 Purpose of this report 3 
+2. Policy and planning context 4 
+2.1 State legislation 4 
+3. Identification of potential emissions sources 7 
+3.1 Construction phase 7 
+3.2 Operational phase (standby generators) 7 
+4. Existing environment 11 
+4.1 Local meteorology 11 
+4.2 Background air quality 14 
+4.3 Sensitive receivers 19 
+5. Methodology 22 
+5.1 Study area 22 
+5.2 Construction phase 22 
+5.3 Operational Phase 22 
+6. Assessment of potential construction impacts 37 
+7. Assessment of potential operational impacts 38 
+7.1 Scenario 1 – Justified worst-case scenario (all generators operating in a loss of mains power 
+s
+ituation) 38 
+7.2 Scenario 2 – Realistic operations (routine maintenance) 43 
+7.3 POEO (Clean Air) Regulation – Standard of Concentrations 50 
+8. Environmental management measures 51 
+9. Summary of residual impacts 53 
+10. References 55 
+  
+Tables  
+Table 1 – SEARs Compliance 2 
+Table 2 – Schedule 2, Part 2 Division 3 – Standards of concentration for (Group 6) scheduled premises 5  
+Table 3 – Schedule 2 Part 3 – Standards of concentration for (Group C) non-scheduled premises 5  
+Table 4 – Applicable Air Quality Impact Assessment Criteria 6 
+Table 5 – 2022 background air quality data capture (Campbelltown West) 14 
+Table 6 – 2022 Maximum monitored air quality concentrations 15 
+Table 7 – Identified nearby residential sensitive receivers 20 
+Table 8 – Identified nearby non-residential sensitive receivers 20 
+Table 9 – General inputs for AERMOD dispersion modelling 23 
+Table 10 – Standby generator stack dimensions 27 
+Table 11 – DC01 Building standby generator flue characteristics and emission inventory (100% Load) 28  
+Table 12 – DC01 Building standby generator flue characteristics and emission inventory (75% Load) 29  
+[[page 6]]
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd 
+ 
+Table 13 – DC01 Building standby generator flue characteristics and emission inventory (50% Load) 30  
+Table 14 – DC01 Building standby generator flue characteristics and emission inventory (25% Load) 31  
+Table 15 – DC01 Building standby generator flue characteristics and emission inventory (10% Load) 32  
+Table 16 – Admin Building standby generator flue characteristics and emission inventory 33 
+Table 17 – Modelled DC01 building generator emission rates 34 
+Table 18 – Modelled admin generator emission rates 35 
+Table 19 – Predicted highest 100th percentile 1-hour NO2 GLCs (Scenario 1) 38 
+Table 20 – Predicted highest 100th percentile 24-hour PM10 and PM2.5 GLCs (Scenario 1) 40 
+Table 21 – Predicted highest 100th percentile GLCs for 8-hour CO and 24-hour SO2 (Scenario 1) 41  
+Table 22 – Predicted highest 100th percentile 1-hour GLCs for all other assessed pollutants (Scenario 
+1)
+ 42 
+Table 23 – Predicted 100th percentile 15-minute GLCs for CO (Scenario 1) 43 
+Table 24 – Predicted highest 100th percentile 1-hour NO2 GLCs (Scenario 2) 45 
+Table 25 – Predicted highest 100th percentile 24-hour PM₁ ₀ GLCs (Scenario 2) 48 
+Table 26 – Predicted highest 100th percentile 24-hour PM₂.₅  GLCs (Scenario 2) 49 
+Table 27 – POEO (Clean Air) Regulation Schedule 2 Part 3 – Standards of concentrations assessment 50  
+Table 28 – Environmental management measures for Air Quality impacts 51 
+Table 29 – Summary of pre-mitigation and residual impacts 53 
+Table 30 – Standby generator stack location coordinates C -3 
+ 
+ 
+Figures 
+Figure 1 – The Proposal Site 2 
+Figure 2 – The Proposal’s standby generators location 8 
+Figure 3 – System reliability - SAIDI 9 
+Figure 4 – Wind Rose for 2022 data 12 
+Figure 5 – Wind Class Frequency Distribution for 2022 data 12 
+Figure 6 – Seasonal Wind Rose for 2022 13 
+Figure 7 – Adopted hourly carbon monoxide (CO) background air quality chart 15 
+Figure 8 – Adopted hourly ozone (O3) background air quality chart 16 
+Figure 9 – Adopted hourly nitrogen dioxide (NO₂)  background air quality chart 16 
+Figure 10 – Adopted hourly sulfur dioxide (SO₂)  background air quality chart 17 
+Figure 11 – Adopted hourly PM10 background air quality chart 17 
+Figure 12 – Adopted hourly PM2.5 background air quality chart 18 
+Figure 13 – Map locations of surrounding NPI listed industries 19 
+Figure 14 - Identified nearby sensitive receiver locations 21 
+Figure 15 – AERMOD model extent 24 
+Figure 16 – Modelled AERMOD topography 25 
+Figure 17 – Modelled AERMOD building 26 
+Figure 18 – Predicted highest 100th percentile NO₂ G LC from single generator tested (Stck 9) 46 
+Figure 19 – Predicted highest 100th percentile NO₂ G LC from two generators tested (Stack 2 and 15) 47  
+Figure 20 – Map of modelled generator stack ID C -2 
+ 
+ 
+[[page 7]]
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd 
+ 
+Photographs  
+No table of figures entries found. 
+ 
+Appendices  
+Appendix A A-1 
+Masterplan Drawing A -1 
+Appendix B B -1 
+Standby generator specification B -1 
+Main DC Generators (MTU 20V4000G94F) B -2 
+Main DC Generators (CAT C3516E EM2120) B -10 
+Main DC Generators (CAT C175-20) B -16 
+Main DC Generators (Cummins C3500 D5e) B -23 
+Admin Building Generator (CAT C32) B -24 
+Appendix C C -1 
+Modelled generator stacks coordinates C -1 
+Appendix D D -1 
+Predicted generator GLCs – Dispersion modelling contours (Scenario 1) D -1 
+D.1 NO2 (1-hour) average – Incremental D -2 
+D.2 NO2 (1-hour) average – Cumulative D -3 
+D.3 PM10 / PM2.5 (24-hour) average – Incremental D -4 
+D.4 PM10 (24-hour) average – Cumulative D -5 
+D.5 PM2.5 (24-hour) average – Cumulative D -6 
+D.6 CO (8-hour) average – Incremental D -7 
+D.7 CO (8-hour) average – Cumulative D -8 
+D.8 CO (1-hour) average – Incremental D -9 
+D.9 CO (1-hour) average – Cumulative D -10 
+D.10 SO2 (24-hour) average – Incremental D -11 
+D.11 SO2 (24-hour) average – Cumulative D -12 
+D.12 SO2 (1-hour) average – Incremental D -13 
+D.13 SO2 (1-hour) average – Cumulative D -14 
+D.14 Benzene (1-hour) average - Incremental D -15 
+D.15 PAH (1-hour) average – Incremental D -16 
+  
+ 
+[[page 8]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 1
+ 
+1. Introduction 
+Arup Pty Ltd (Arup) has been commissioned to undertake an air quality assessment to accompany 
+t
+he proposed Data Centre at 43-61 Turner Road, Gregory Hills, NSW – State Significant 
+Development (SSD) (hereafter referred to as ‘the Proposal’). 
+1.1 Proposal overview 
+The Proposal involves the construction of a data centre comprising of data halls, mechanical and electrical 
+e
+quipment rooms, offices, substation, security gatehouse, other ancillary support spaces, and 
+external/rooftop, mechanical and electrical equipment.   
+Historically, the Site has been used for rural residential development. Based on historic mapping the Site has 
+been progressively developed since the 1940s. However, the Site is currently unoccupied following its 
+acquisition by the applicant in 2023. Currently, the Site is vacant, with farm dams and a former residential 
+building remaining present within the extent of the Site. The area surrounding the Site is predominantly 
+commercial/industrial land. Immediately to the east is comprised of a riparian corridor, and farther east 
+comprises of vacant land and residential properties. The Site is zoned IN1 General Industrial under State 
+Environmental Planning Policy (Precincts – Western Parkland City) 2021 (WPC SEPP).    
+The Site generally slopes downward from the northwest corner to the southeast corner. Ground elevations 
+vary with the Site at its highest in the northwest corner at about 104 metres Australian Height Datum 
+(mAHD). The Site is at its lowest in the southwest corner at about 91 mAHD.     
+A summary of the proposal’s key features includes:  
+• Construction of a two storey data centre comprising:   
+• 12 data halls including fitout of IT Racks and equipment, associated cabling and supporting 
+s
+ervices  
+• 27 backup generators  
+•
+ With an IT capacity of about 53 megawatts (MW).  
+•
+ Construction of a guard house   
+•
+ Infrastructure comprising civil, stormwater and drainage works and utilities servicing and 
+c
+onnections.  
+• Diesel storage capacity of about 650 kilo litres (kL)  
+•
+ High voltage substation incorporating 132/22 kilovolt (kV) transformers and associated 
+s
+witching and control buildings.  
+• 68 standard car parking spaces (of which five would have EV charging), 2 car parking spaces 
+c
+ompliant with the Disability Discrimination Act 1992, 10 shared bicycle parking spaces.  
+• Hours of operation being on a 24 hours per day, 7 days per week basis.   
+A separate development application will be lodged with Camden Council for the site preparation and early 
+w
+orks including construction of a new eastern access road, turning head at White Cliffs Avenue and 
+connection of Central Hills Drive through the northwestern portion of the site (refer to Figure 2).  
+It is expected to take approximately 18 months to build the data centre with construction of the building 
+commencing in Q1 2026 and be completed in Q2 2027 (subject to planning approval and weather 
+conditions). It would take an additional twelve months post-construction to fully fit out the data centre. The 
+Proposal is expected to be fully operational in Q2 2028.   
+ 
+[[page 9]]
+
+[[page 10]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 3
+ 
+ 
+1.3 Purpose of this report  
+The purpose of this report is to examine and identify t he potential impact from the construction and 
+operation of the Proposal, on local air quality at nearby sensitive receivers. The air quality impact 
+assessment in this report has been conducted in accordance with the following legislation, policy 
+and guidelines: 
+• N SW Protection of the Environment Operations (Clean Air) Regulation 2022 (POEO Clean Air) 
+• NSW EPA – Approved Methods for the Modelling and Assessment of Air Pollutants in New South Wales 
+(August 2022) 
+• NSW Protection of the Environment Operations Act 1997 – Section 128 
+This assessment characterises the local meteorological and air quality conditions at the Proposal and 
+i
+ts surroundings, qualitatively assesses impact associated with the construction phase and provides a 
+detailed operational dispersion modelling assessment of the proposed standby generators to be 
+installed at the Proposal, as a worst-case scenario as well as considering a routine maintenance 
+scenario.  
+Recommendations for mitigation measures required to minimise emissions from the Proposal have 
+been provided where necessary. 
+  
+[[page 11]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 4
+ 
+2. Policy and planning context 
+This Chapter presents relevant regulation, legislation and policy governing management of Air 
+Q
+uality as it relates to the Proposal.  
+2.1 State legislation 
+2.1.1 P rotection of the Environment Operations Act 1997 
+The NSW Protection of the Environment Operations (POEO) Act 1997 is the key piece of 
+e
+nvironment protection legislation administered by the Environment Protection Authority (EPA). 
+The Act is formed to protect, restore and enhance the environment in NSW and to promote public 
+access to information and involvement in environment protection. The Act designates the NSW 
+EPA (Environment Protection Authority) as the regulatory authority.  
+The following sections from Part 5.4 of the Act provide general protection conditions for air quality 
+are relevant to the Proposal: 
+• Se ction 124: The occupier of any premises who operated any plant in or on those premises shall operate as 
+well as maintain the plant in a proper and efficient manner, such that it minimises the potential for air 
+pollution. 
+• Section 125: The occupier of any premises who carries out maintenance work on any plant in or on those 
+premises shall conduct the work in a proper and efficient manner, such that it minimises the potential for 
+air pollution. 
+• Section 128: The occupier of any premises must not carry on any activity, or operate any plant, in or on 
+the premises in such a manner as to cause or permit the emission at any point specified in or determined in 
+accordance with the regulations of air impurities in excess of the standard of concentration and/or the rate 
+prescribed by the regulations in respect of any such activity or any such plant. 
+• The occupier of any premises must carry on any activity, or operate any plant, in or on the premises by 
+such practicable means as may be necessary to prevent or minimise air pollution. 
+• Schedule 1, Clause 17 of the Act4 applies scheduled premises status to an activity for the generation of 
+e
+lectricity (more than 30MW of electrical power) by means of any energy source other than wind or solar 
+power or electricity generation by means of internal combustion engine in a metropolitan area with a burn 
+rate of more than 3 MJ of fuel per second. However, Clause 17 (1A) of the Act notes that scheduled 
+premises status does not apply if the electricity generation is utilised for emergency standby plant 
+operating for less than 200 hours per year. 
+ 
+  
+ 
+4 Part 9.7, Section 327, Schedule 1, Part 1 (Premises-based activities), Clause 17 (1A) of the POEO Act 1997. 
+[[page 12]]
+
+[[page 13]]
+
+[[page 14]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 7
+ 
+3. Identification of potential emissions sources 
+3.1 Construction phase 
+C
+onstruction activities have the potential to generat e short-term emissions of particulates, typically 
+associated with uncontrolled or fugitive dust emissions. This is generally experienced by nearby 
+receivers as amenity impacts rather than health-related impacts, however health impacts can be 
+experienced if dust impacts are unmanaged for an extended period of time. Below are construction 
+activities that may be applicable to the Proposal and have the potential for dust generation: 
+• S ite establishment and demolition of existing structures 
+• Bulk excavation and piling 
+• Construction of new access roads, pavements, services and hardstand 
+Typical construction equipment used for the Proposal are likely to be: 
+• S crapers 
+• Backhoe 
+• Loaders 
+• Excavators 
+• Vibratory rollers 
+• Heavy vehicles/trucks 
+The above-mentioned construction equipment will emit combustion emissions (particularly NO2, 
+PM10 and PM2.5) and are likely to generate dust as they move around the site, which may impact the 
+surrounding air quality.  
+3.2 Operational phase (standby generators) 
+3.2.1 A rrangement 
+The data centre is a mission critical facility and therefore requires back up generation. The purpose 
+of
+ these generators is to support the buildings’ power requirement for critical IT systems and other 
+site infrastructure in the event of mains power loss or damage of electrical infrastructure on site. 
+The site power connection is from an onsite substation specifically designed to provide a redundant 
+power supply fully rated to carry the entire site load, in addition to the grid. As part of ensuring 
+sound grid reliability, a typical data centre facility is designed to operate from a utility power supply 
+that has much higher reliability than a conventional utility, and therefore the likelihood for standby 
+generators to run due to power outage scenario is often extremely low or almost negligible. 
+The Proposal’s standby generators will be located outdoor, to the west of the main data centre 
+(DC01) building, with a total of 27 generators (26 Critical Generators and one (1) Admin 
+Generator). At this stage, the locations of the generators are indicative, however the locations 
+assessed are expected to be largely consistent with the final developed design. The generator 
+exhaust stacks are discharging vertically at approximately 25m above ground. 
+The masterplan drawing in Figure 2 shows the proposed data centre buildings and the standby 
+generator locations.  
+[[page 15]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 8
+ 
+ 
+ 
+Figure 2 – The Proposal’s standby generators location 
+3.2.2 G rid reliability and likelihood of emergency event 
+Given the unlikely event of an interruption of mains power, the standby generators would switch on 
+t
+o provide power to the building. It is likely any loss of mains power would be resolved quickly, 
+within a few hours and therefore even when required, the generators would only operate for a short 
+duration.  
+Primary mains power would be supplied from the Endeavour Energy network via a private onsite 
+substation. Although it is not possible to determine exactly the likelihood or duration of power 
+outage/damage over a year which would require the standby generators to be in operation, a review 
+of the Endeavour Energy Distribution Annual Planning Report (2023) (2023 DAPR)5 was 
+performed to estimate the likelihood of power outage at the Proposal Site. A review of the average 
+unplanned actual system average interruption duration index (SAIDI)6 of power outage incident 
+shows that customers, with a conventional utility, experience approximately 80 minutes (total 
+cumulative events) of unplanned outages in general. This equates to less than 0.02% likelihood of 
+occurrence of a power outage in any year, which is incredibly small.  
+ 
+5 Endeavour Energy, 2023. Distribution Annual Planning Report, December 2023. 
+6 The SAIDI is a measure in minutes the average duration of an incident weighted by the number of customers affected by each incident. That is, if 10 
+customers suffer a 10-minute interruption and there are 100 customers in the region, then this would equal a SAIDI of 1 minute. Multiple incidents 
+are added together, so if a second incident of 15 minutes affected 10 customers, then that would be added to the first incident and equal a SAIDI of 
+2.5 minutes. 
+
+[[page 16]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 9
+ 
+ 
+Figure 3 – System reliability - SAIDI 
+Further to the above data, the Proposal is designed to operate from the 33kV utility power supply, 
+a
+s part of ensuring sound grid reliability, which has much higher reliability than a conventional 
+utility. This increases the reliability of the facility utility power to target 100% uptime from mains 
+utility, with a maximum modelled outage targeting zero (0) minutes.  
+In addition, there would be lithium-ion batteries in the data halls which would operate as back-up 
+power in the event of a power outage to keep security systems, computers, and other electronic 
+equipment running while the back-up generators start. Small uninterruptible power systems would 
+also provide battery backup to various other critical systems.  
+Given the above utility power supply arrangement, additional layers of temporary back-up power 
+and the likely short duration of typical power outages, generators are very unlikely to operate 
+during this worst case scenario, or if required are likely to run for less than 0.02% per year. 
+Therefore, the air quality impact risk from the justified worst-case scenario (power outage) activity 
+would be very low. 
+3.2.3 M aintenance routine 
+For standby generators to be ready to operate should an unexpected interruption to mains power 
+oc
+cur, a regular maintenance schedule is required. Maintenance testing of standby generators is 
+anticipated to occur during the daytime period (the period from 7 am to 6 pm (Monday to Saturday) 
+and 8 am to 6 pm (Sundays and public holidays7). The Proposal’s generators are proposed to be 
+tested under the following indicative routine maintenance arrangement: 
+• U p to two (2) generators being tested in parallel under no-load conditions (assumed to be 10% load in the 
+absence of ‘no-load’ emission data); and 
+• Up to one (1) generator being tested at any given time, under full-load (100% load). 
+The preliminary generator testing schedule is understood to have a cumulative total of not more 
+t
+han the 200-hour exemption limit outlined in Schedule 1 Clause 17 of the NSW POEO Act 1997 
+(refer to Section 2.1.1), as well as Part 5, Division 6, Clause 73 of the POEO (Clean Air) 
+Regulation 2022 (refer to Section 2.1.2), and therefore generator emissions are exempt from the 
+Standard of Concentrations in Schedule 2 Part 2 (scheduled premises), but would need to comply 
+ 
+7 NSW EPA, 2017. Noise Policy for Industry. 
+
+[[page 17]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 10
+ 
+with the Standard of Concentrations in Schedule 2 Part 3 (non-scheduled premises) of the POEO 
+(Clean Air) Regulation 2022. 
+3.2.4 P otential impacts 
+While in use, standby generators produce a range of pollutants including total unburned 
+hydr
+ocarbons (HC), nitrogen oxide (NOx), carbon monoxide (CO), particulate matter (PM), sulfur 
+dioxide (SO2) and volatile organic compounds (VOC). The release of these emissions has the 
+potential to impact local air quality in the surrounding area. Due to the fuel type proposed e.g. 
+diesel, the pollutant of greatest concern in relation to the use of generators is typically NOx, as NOx 
+emissions are orders of magnitude greater than for other pollutants. 
+Emission data for this Proposal has been assessed based on indicative equipment selection as 
+below: 
+• D C01 Building: Comparison of emission rates of typical diesel generator types provided by the Client 
+have been undertaken to determine the worst-case air quality impact per pollutant for the Proposal. The 
+different generator types to be compared are: 
+− MTU 20V4000G94F generator 
+− CAT 3516E EM2120 
+− CAT C175-20 
+− Cummins C3500 D5e. 
+Refer to Appendix B for information on generator specifications. 
+• Admin Building: CAT C32 (refer to Appendix B for generator specification) 
+All other emission data for the assessed pollutants not provided in the generator specification has 
+b
+een based on emission information provided in Table 43 of the National Pollutant Inventory (NPI 
+2008)8.  
+ 
+8 National Pollution Inventory (NPI) – Emission estimation technique manual for Combustion engines, Version 3.0, June 2008. 
+[[page 18]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 11
+ 
+4. Existing environment  
+4.1 Local meteorology 
+L
+ocal meteorology conditions which can affect the dis persal of pollutants in the local area were 
+determined. Meteorological conditions are not monitored at the Proposal Site with the nearest 
+Bureau of Meteorology (BoM) meteorological station at Campbelltown, approximately 3.5km 
+south-east of the Proposal Site.  
+To provide site representative meteorological data and all parameters required by the dispersion 
+model, meteorological data was sourced from Lakes Environment based on the WRF prognostic 
+model with 1km grid resolution. The prognostic data was interpolated from nearby forecasted and 
+monitored data. Analysis of meteorological data for the past five years indicated similar 
+meteorological patterns, and therefore 2022 (the latest year with complete datasets for both 
+meteorology and background pollutant concentrations) was selected for this assessment, and 
+correlated with background air quality data discussed in Section 4.2. 
+4.1.1 W indrose 
+Annual Average 
+The annual average wind rose between 1 January 2022 and 31 December 2022 is shown in Figure 4 
+w
+ith wind class frequency distribution in Figure 5. Based on Figure 4 and Figure 5, the following 
+f
+eatures can be observed: 
+• W inds are most prevalent from the south-west-west.  
+• The average wind speed is 3.46 m/s. 
+• Winds are least prevalent from the north-west sector. 
+• Light winds (< 0.5 m/s) are more prevalent from the south-west sectors. 
+• Due to the infrequent occurrence of calm winds (2.21%), meteorological conditions are favourable for 
+dispersion. 
+[[page 19]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 12
+ 
+  
+Figure 4 – Wind Rose for 2022 data 
+ 
+ 
+Figure 5 – Wind Class Frequency Distribution for 2022 data 
+4.1.2 S easonal Variation 
+The seasonal variation wind roses for 2022 are shown in Figure 6. Based on Figure 6, the following 
+f
+eatures can be observed: 
+• P revailing wind direction varies seasonally. Autumn and winter seasons are dominated by south-westerly 
+prevailing winds, whereas summer and spring seasons are dominated by north-easterly prevailing winds. 
+• The incident of light wind is greatest in autumn season with a south-west direction. 
+
+[[page 20]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 13
+ 
+ 
+Summer Season 
+Average wind speed 3.73 m/s 
+ 
+Autumn Season 
+Average wind speed 2.83 m/s 
+ 
+Winter Season 
+Average wind speed 3.56 m/s 
+ 
+Spring Season 
+Average wind speed 3.74m/s 
+Seasonal Wind Roses  
+ 
+Figure 6 – Seasonal Wind Rose for 2022 
+ 
+
+[[page 21]]
+
+[[page 22]]
+
+[[page 23]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 16
+ 
+ 
+Figure 8 – Adopted hourly ozone (O3) background air quality chart 
+ 
+Figure 9 – Adopted hourly nitrogen dioxide (NO₂) background air quality chart 
+ 
+
+[[page 24]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 17
+ 
+ 
+Figure 10 – Adopted hourly sulfur dioxide (SO₂) background air quality chart 
+ 
+Figure 11 – Adopted hourly PM10 background air quality chart 
+ 
+
+[[page 25]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 18
+ 
+ 
+Figure 12 – Adopted hourly PM2.5 background air quality chart 
+Note that in the absence of publicly available 15-minute local background concentration for the 
+a
+ssessed CO pollutant, 1-hour background concentrations have been used. Whilst it is noted that 15-
+minute background concentration may be higher than the 1-hour concentration, given the predicted 
+cumulative assessment for CO is generally well below the impact assessment criteria (refer to 
+Section 7.1.3), it is unlikely that adopting the 15-minute background concentrations would result in 
+a significant increase to cause exceedances for the 15-minute impact assessment criteria for this 
+pollutant. 
+4.2.3 A ir quality contribution from nearby industries 
+A review of the National Pollutant Inventory (NPI) database was undertaken to identify any 
+i
+ndustrial sites with potentially significant emissions to air within the proximity of the Proposal 
+Site. 
+There are several NPI registered industries surrounding the Proposal Site, as well as in the wider 
+Gregory Hills area, located mainly to the east of the Proposal Site (refer to Figure 13). The 
+contribution of these sources to local air quality in the area is expected to be captured in the air 
+quality monitoring data from the AQMS at Campbelltown West, as discussed above. 
+
+[[page 26]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 19
+ 
+ 
+Figure 13 – Map locations of surrounding NPI listed industries 
+ 
+4.3 Sensitive receivers 
+N
+earby sensitive receivers were identified through a r eview of aerial mapping. 
+Air quality sensitive receivers are defined under the Approved Methods as: 
+“A location where people are likely to work or reside; this may include a dwelling, school, hospital, 
+office or public recreational area. An air quality impact assessment should also consider the 
+location of known or likely future sensitive receptors.” 
+The area around the Proposal is mainly industrial zoned. Commercial, childcare, residential, and 
+educational receivers are within the vicinity. Nearby sensitive receivers have been identified, with 
+the closest being commercial receivers located on Rodeo Road, Central Hills Drive and White 
+Cliffs Avenue, directly adjacent to the north and west of the Proposal boundary. Nearest residential 
+receivers are residential properties along Pioneer Street, approximately 140 metres to the east of the 
+Proposal Site boundary.  
+Table 7 presents potentially affected residential receivers identified within the nearby vicinity, 
+while Table 8 presents the nearby non-residential sensitive receivers. These receivers are presented 
+in Figure 14.  
+Discrete sensitive receivers have been selected to represent the nearest receivers in all directions to 
+assist in assessing air quality impacts from the Proposal.  
+In addition, the assessment has considered a 4 km x 4 km grid to assess the location of predicted 
+maximum ground level concentrations (GLCs) that may not coincide with a sensitive receiver (refer 
+to Section 5.3.4). 
+ 
+
+[[page 27]]
+
+[[page 28]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 21
+ 
+ 
+ 
+Figure 14 - Identified nearby sensitive receiver locations 
+  
+
+[[page 29]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 22
+ 
+5. Methodology  
+This Chapter outlines the methodology used to define the existing environment and undertake the 
+a
+ssessment of potential impacts of the Proposal on air quality, including definition of the study area 
+used as the basis of the assessment.  
+The overall approach to the air quality impact assessment comprises: 
+• A  review of the existing air quality conditions at, and in the vicinity of, the Proposal Site; 
+• A review of the potential changes in air quality arising from the construction and operation of the 
+Proposal; and 
+• Formulation of mitigation measures, where appropriate, to ensure any adverse effects from air pollutants 
+are minimised. 
+5.1 Study area  
+T
+he assessment has focussed on those modelled discret e sensitive receivers closest to the Proposal 
+site, however a modelling domain of 4 km x 4 km has been included to ensure that the area of 
+maximum impact is understood and the impact for the surrounding area can be shown. 
+5.2 Construction phase 
+Potential local air quality impacts for the construct ion phase of the Proposal have been identified 
+based on experience from similar construction projects. The Approved Methods (refer to Section 
+2.1.3) were developed to assess emissions from stationary sources. They are therefore not 
+appropriate to assess uncontrolled dust emission impacts such as that from construction activity.  
+Given the scale and duration of construction, the main potential impact would be amenity-related 
+due to the risk of dust generation and emissions to air from equipment and machinery generated by 
+fuel combustion. Therefore, a qualitative risk-based approach has been carried out and is addressed 
+in Section 6. 
+The key factors in determining the risk of impact are the activities taking place, location of these 
+activities onsite and the distance from sensitive receivers. In addition, it is important to consider the 
+types of impact including amenity/nuisance concerns from the release of fugitive dust as well as 
+health impacts associated with the release of NO2, PM10 and PM2.5. 
+5.3 Operational Phase 
+5.3.1 A ssessment scenarios 
+The impact assessment for the operation of standby generators has been carried out using dispersion 
+m
+odelling to predict pollutant GLCs at nearby sensitive receivers, as well as over a larger grid 
+domain.  
+The following assessment scenarios were undertaken to determine the potential impact under the 
+anticipated operational conditions of the standby generators. 
+• S cenario 1 : A justified but highly unlikely worst-case scenario of all generators in operation (100% load) 
+under a loss of mains power situation (emergency scenario). 
+[[page 30]]
+
+[[page 31]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 24
+ 
+5.3.4 Model extent 
+The model was run for a grid (4000 m x 4000 m) with 20 m spacing at ground level. This covers all 
+p
+otentially impacted nearby sensitive land uses. The extent of the model is shown in Figure 15. 
+  
+Figure 15 – AERMOD model extent  
+
+[[page 32]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 25
+ 
+5.3.5 Terrain effects 
+The Site generally slopes downward from the northwest corner to the southeast corner. Ground 
+e
+levations vary with the Site at its highest in the northwest corner at about 104 metres Australian 
+Height Datum (mAHD). The Site is at its lowest in the southwest corner at about 91 mAHD.   
+Terrain data was sourced from NASA’s Shuttle Radar Topography Mission (SRTM) Data (3 arc 
+second (~30m) resolution) and processed within AERMAP to create the necessary input files for 
+the model. The topography of the local area used in the model is shown in Figure 16. 
+ 
+Figure 16 – Modelled AERMOD topography 
+5.3.6 B uilding wake effects 
+Buildings can have a significant effect on dispersion. If buildings are close to a stack, the plume can 
+b
+e entrained in the cavity zone downwind of the building. The ratio of the stack height vs. the 
+building height can affect the magnitude of building downwash, such that if the stack extends well 
+above the roof of the building, the downwash effect is expected to be insignificant. The Approved 
+Methods notes that “A point source is wake-affected if stack height is less than or equal to 2.5 times 
+the height of buildings located within a distance of 5L (where L is the lesser of the height or width 
+of the building) from each release point.” 
+For the operational phase (generator emissions) assessment, Building DC01 has a height of 21 m 
+above ground, including any roof-top screening and parapet.  
+The generators are proposed to be located outdoor, directly to the west of the main DC01 building, 
+with stack discharge height at 25 m above ground, 4 m higher than the building height. 
+
+[[page 33]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 26
+ 
+Based on the above, the standby generator stacks are considered wake-affected sources, and as a 
+result, the building downwash effect can lead to higher GLCs than would be expected in the 
+absence of buildings, therefore buildings that may contribute to a downwash effect have been 
+included in the dispersion model. 
+The surrounding buildings heights were observed via visual desktop inspection (Google©), which 
+indicated predominantly one to two storey high buildings. At this height, surrounding buildings are 
+considered to be unlikely to cause any significant wake effect to the plume dispersion. 
+The 3-D view of the modelled building of the Proposal is shown in Figure 17. 
+Building Profile Input Program – Plume Rise Model Enhancements (BPIP-PRIME) uses heights 
+and corner locations of buildings in the vicinity of the stack release to simulate the effective height 
+and width of the structures. The downwash algorithm calculates effective building dimensions 
+relative to the plume, resolved down to ten-degree intervals. AERMOD then calculates the impact 
+of these buildings on plume dispersion and consequently on GLCs. Although a simplified building 
+geometry is used, it should provide a reasonable indication of how the building may disrupt wind 
+flow in the immediate vicinity. 
+ 
+Figure 17 – Modelled AERMOD building 
+5.3.7 B ackground air quality 
+The assessment of air quality impacts can be undertaken using two options of background air 
+qua
+lity data: 
+• B ackground Option 1: Using the maximum background concentration of the pollutant being assessed for 
+each relevant averaging period, or 
+• Background Option 2: Using the addition of the corresponding measured background concentration to 
+each individual dispersion model prediction (e.g. add the first hourly average dispersion model 
+prediction to the first hourly average background concentration). 
+
+[[page 34]]
+
+[[page 35]]
+
+[[page 36]]
+
+[[page 37]]
+
+[[page 38]]
+
+[[page 39]]
+
+[[page 40]]
+
+[[page 41]]
+
+[[page 42]]
+
+[[page 43]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report 
+ 
+The OLM assumes a default 10% of the NOx was initially NO2 upon release, equating to an in-stack 
+NO2/NOx ratio of 0.1. This ISR is generally appropriate for combustion sources16. On this basis, the 
+simplified OLM equation is: 
+ () = 0.1×   ( )!+#$ %$&’&(0.9× ( )+ ,- (.46 4 82 3× 4 (5 678)+!+   (5 678) 
+The adopted NO2 and ozone background concentrations for the OLM method are detailed in 
+Sections 4.2.2. 
+  
+ 
+16 AGL (2019). Newcastle Power Station – Air Quality Impact Assessment. Project No.: 0468623/AQIA/R4. Version 7.0. Revision R4. 30 October 
+2019. 
+[[page 44]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report 
+ 
+6. A ssessment of potential construction impacts  
+There is the potential for dust generation associated with the construction of the Proposal. In 
+a
+ddition, exhaust emissions from construction plant, machinery and vehicles may also generate 
+impacts on local air quality. Such emissions are associated with the combustion of fossil fuels 
+during vehicle movement and the operation of on-site plant and construction machinery. No diesel 
+fuelled generators are proposed for use onsite during construction. 
+All dust-generating activities associated with construction would occur within the Proposal Site. 
+These include construction of an access road, pavements, culvert and other ancillary works and 
+earthworks and construction of buildings associated with the Proposal. The closest sensitive 
+receivers are commercial/industrial premises located immediately adjacent to the Proposal Site 
+boundary. Commercial/industrial receivers are typically less sensitive when considering amenity 
+impacts compared to residential receivers. The closest sensitive residential receivers are 
+approximately 140m from the Proposal Site boundary. Given this distance and the temporary nature 
+of the dust-generating activities that would be required, it is anticipated that the risk of 
+amenity/nuisance issues and human health impacts would be low and typically manageable via 
+management measures to control the generation and spread of dust outlined in a construction 
+environmental management plan (CEMP) for the Proposal (see Section 8), which is then 
+implemented onsite as part of the best practice.  
+  
+[[page 45]]
+
+[[page 46]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report 
+ 
+ 
+T
+he predicted cumulative GLCs and across the modelled domain are shown as contour plots in 
+Appendix D. 
+7.1.2 P articulate matter 
+The highest 100th percentile 24-hour averaged GLCs for PM10 and PM2.5 have been predicted at 
+each of the assessed sensitive receivers, which are shown in Table 20.  
+The results show that the cumulative PM10 and PM₂.₅ concentrations (i.e. inclusive of background 
+concentrations) are predicted to exceed at several surrounding sensitive receivers. For 24-hour 
+average PM10 concentrations ,exceedances of the impact assessment criteria are predicted at two 
+locations (receiver ID C3 and AR1). For 24-hour average PM2.5 concentrations, exceedances of the 
+impact assessment criteria are predicted at 10 locations (receiver ID R1, R2, R3, C2, C3, I2, I3, I4, 
+AR1, and AR2). The highest PM10 and PM2.5 concentrations are predicted at the adjacent Riparian 
+Area (receiver ID AR1), given its proximity to the site and likely building downwash effects. 
+Based on the grid reliability information presented in Section 3.2.2, it is highly unlikely that standby 
+generators would need to operate for a continuous 24-hour period in an event of loss of mains 
+power scenario, therefore these predicted exceedances are extremely unlikely to occur in reality. 
+ 
+  
+[[page 47]]
+
+[[page 48]]
+
+[[page 49]]
+
+[[page 50]]
+
+[[page 51]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 44
+ 
+During testing and maintenance operations, the combination of generators/stacks may vary to align 
+with the most efficient testing regime. For the purpose of this assessment, assumptions were made 
+for simplification of the assessment with the aim of assessing a worst-case scenario. The following 
+generator test combination and order were assumed: 
+• T est 1: Stack2 and Stack15; 
+• Test 2: Stack3 and Stack16; 
+• Test 3: Stack4 and Stack17; through to  
+• Test13: Stack14 and Stack27. 
+Refer to Appendix C for the generator stack ID. 
+T
+he highest GLCs of the above test arrangement at the discrete sensitive receivers were then 
+assessed against the impact assessment criteria. 
+Note that pollutants such as CO, SO₂, Benzene and PAH, have been predicted to comply with the 
+impact assessment criteria under the worst-case emergency scenario (Scenario 1) in Section 7.1.3, 
+where all 27 generators are in operation simultaneously under full load. Therefore, CO, SO₂, 
+Benzene and PAH impact concentrations will also result in predicted compliance under the routine 
+maintenance scenario where fewer generators are in operation.  
+7.2.1 N itrogen dioxide 
+The highest 100th percentile 1-hour NO2 GLCs under routine maintenance at each of the assessed 
+sensitive receivers have been predicted and are shown in Table 24, taking into consideration the 
+worst impact from both two-tested generators (‘no-load’) and single generator-tested (100% load). 
+The results show the cumulative NO2 concentrations (i.e. inclusive of background concentrations) 
+are all predicted to be below the impact assessment criterion, with the highest predicted GLC of 156 
+µg/m3 at receiver ID AR1 (the adjacent Riparian Area), which is 95% of the NO2 impact assessment 
+criterion. The predicted GLC contours shown in Figure 18 and Figure 19 show a marginal 
+exceedance of the 1-hour NO2 impact assessment criteria however this is located within the 
+Proposal Site boundary, there are no predicted exceedances within the wider Riparian Area 
+boundary or anywhere beyond the Proposal Site boundary under the routine maintenance scenario. 
+This indicates that predicted 1-hour NO2 concentrations at nearby sensitive receivers meet the 
+impact assessment criteria under all routine maintenance conditions. 
+  
+[[page 52]]
+
+[[page 53]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 46
+ 
+ 
+Figure 18 – Predicted highest 100th percentile NO₂ G LC from single generator tested (Stck 9) 
+  
+
+[[page 54]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 47
+ 
+ 
+Figure 19 – Predicted highest 100th percentile NO₂ G LC from two generators tested (Stack 2 and 15) 
+7.2.2 P articulate matter 
+The highest 100th percentile 24-hour particulate matter (PM₁₀ and PM₂.₅) GLCs under routine 
+maintenance at each of the assessed sensitive receivers have been predicted and are shown in Table 
+25 and Table 26. 
+The
+ results show the cumulative PM₁₀ and PM₂.₅ GLCs (i.e. inclusive of background 
+concentrations) are all predicted to be below the impact assessment criteria, with the highest 
+predicted PM₁₀ and PM₂.₅ concentrations of 28 µg/m3 and 13.9 µg/m³ respectively, which is 56% of 
+the relevant impact assessment criteria. This indicates that predicted 24-hour particulate matter 
+concentrations at nearby sensitive receivers meet the impact assessment criteria under all routine 
+maintenance conditions. 
+
+[[page 55]]
+
+[[page 56]]
+
+[[page 57]]
+
+[[page 58]]
+
+[[page 59]]
+
+[[page 60]]
+
+[[page 61]]
+
+[[page 62]]
+  
+Air   
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report Page 55
+ 
+10. References 
+ABC News, 2023. Air quality 'very poor' in Sydney's east as smoke from hazard reduction burning 
+se
+ttles in city. Available at: Air quality 'very poor' in Sydney's east as smoke from hazard reduction 
+burning settles in city - ABC News 
+AGL, 2019. Newcastle Power Station – Air Quality Impact Assessment. Project No.: 
+0468623/AQIA/R4. Version 7.0. Revision R4. 30 October 2019. 
+Australian Government, Department of Agriculture Water and Environment, 2021. The National 
+Environment Protection (Ambient Air Quality) Measure. 
+Cole, H. S., & Summerhays, J. E., 1979. A Review of Techniques Available for Estimating Short-
+Term NO2 concentrations. J. Air Poll. Cont. Assoc., 29:8, 812-817. 
+doi:10:1080/00022470.1979.10470866. 
+Endeavour Energy, 2023. Distribution Annual Planning Report, December 2023. 
+Hendrick, E., Tino, V., Hanna, S., & Egan, B., 2013. Evaluation of NO2 predictions by the plume 
+volume molar ratio method (PVMRM) and ozone limiting method (OLM) in AERMOD using new 
+field observations. J. Air & Waste Mgt. Assoc., 844-854. doi:10.1080/10962247.2013.798599 
+National Pollution Inventory, June 2008. Emission estimation technique manual for combustion 
+engines, Version 3.0. 
+NSW, 1997. Protection of the Environment Operations Act 1997 – Section 128 
+NSW, 2022. Protection of the Environment Operations (Clean Air) Regulation. 
+NSW EPA, 2022. Approved Methods for the Modelling and Assessment of Air Pollutants in New 
+South Wales. 
+Podrez, M., 2015. An update to the ambient ratio method for 1-h NO2 air quality standards 
+dispersion modelling. Atm. Env., 163-170. 
+The Guardian, 2023. Sydney smoke: air quality among worst in world due to hazard-reduction 
+burns. Available at: Sydney smoke: air quality among worst in world due to hazard-reduction burns 
+| Bushfires | The Guardian. 
+[[page 63]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report Page A-1
+ 
+Appendix A 
+Masterplan Drawing 
+[[page 64]]
+  
+Confidential SSD 
+Air Quality Technical Report 
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816 | C | 04 October 2024 | Arup Pty Ltd Air Quality Technical Report Page A-2
+ 
+ 
+
+[[page 65]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43- 61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-1
+ 
+Appendix B 
+Standby generator specification 
+  
+[[page 66]]
+
+[[page 67]]
+
+[[page 68]]
+
+[[page 69]]
+
+[[page 70]]
+
+[[page 71]]
+
+[[page 72]]
+
+[[page 73]]
+
+[[page 74]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-10
+ 
+Main DC Generators (CAT C3516E EM2120) 
+  
+
+[[page 75]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-11
+ 
+ 
+
+[[page 76]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-12
+ 
+ 
+
+[[page 77]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-13
+ 
+ 
+
+[[page 78]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-14
+ 
+ 
+
+[[page 79]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-15
+ 
+ 
+ 
+ 
+
+[[page 80]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-16
+ 
+Main DC Generators (CAT C175-20) 
+  
+
+[[page 81]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-17
+ 
+ 
+
+[[page 82]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-18
+ 
+ 
+
+[[page 83]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-19
+ 
+ 
+
+[[page 84]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-20
+ 
+ 
+
+[[page 85]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-21
+ 
+ 
+
+[[page 86]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-22
+ 
+ 
+ 
+ 
+
+[[page 87]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-23
+ 
+Main DC Generators (Cummins C3500 D5e) 
+ 
+ 
+ 
+
+[[page 88]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-24
+ 
+Admin Building Generator (CAT C32) 
+  
+
+[[page 89]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-25
+ 
+ 
+
+[[page 90]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-26
+ 
+ 
+
+[[page 91]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-27
+ 
+ 
+
+[[page 92]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-28
+ 
+ 
+
+[[page 93]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-29
+ 
+ 
+
+[[page 94]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page B-30
+ 
+ 
+[[page 95]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page C-1
+ 
+Appendix C 
+Modelled generator stacks coordinates 
+ 
+ 
+ 
+[[page 96]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page C-2
+ 
+ 
+Figure 20 – Map of modelled generator stack ID 
+ 
+ 
+ 
+
+[[page 97]]
+
+[[page 98]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-1
+ 
+Appendix D 
+Predicted generator GLCs – Dispersion modelling contours (Scenario 1) 
+ 
+ 
+[[page 99]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-2
+ 
+D.1 N O 2 (1-hour) average – Incremental  
+ 
+
+[[page 100]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-3
+ 
+D.2 N O 2 (1-hour) average – Cumulative 
+ 
+
+[[page 101]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-4
+ 
+D.3 P M 10 / PM2.5 (24-hour) average – Incremental 
+ 
+ 
+ 
+
+[[page 102]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-5
+ 
+D.4 P M 10 (24-hour) average – Cumulative 
+ 
+  
+
+[[page 103]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-6
+ 
+D.5 P M 2.5 (24-hour) average – Cumulative 
+ 
+ 
+ 
+
+[[page 104]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-7
+ 
+D.6 C O (8-hour) average – Incremental 
+ 
+   
+
+[[page 105]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-8
+ 
+D.7 C O (8-hour) average – Cumulative 
+ 
+ 
+ 
+
+[[page 106]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-9
+ 
+D.8 C O (1-hour) average – Incremental 
+ 
+   
+
+[[page 107]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-10
+ 
+D.9 C O (1-hour) average – Cumulative 
+ 
+ 
+ 
+
+[[page 108]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-11
+ 
+D.10 S O 2 (24-hour) average – Incremental 
+ 
+ 
+ 
+
+[[page 109]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-12
+ 
+D.11 S O 2 (24-hour) average – Cumulative 
+ 
+  
+
+[[page 110]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-13
+ 
+D.12 S O2 (1-hour) average – Incremental 
+ 
+  
+
+[[page 111]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-14
+ 
+ 
+D.13 S O 2 (1-hour) average – Cumulative 
+ 
+  
+
+[[page 112]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-15
+ 
+D.14 B enzene (1-hour) average - Incremental 
+ 
+
+[[page 113]]
+  
+Confidential SSD
+Air Quality Technical Report
+ 
+Confidential 43-61 Turner Road Data Centre 
+ 
+299816  | C | 10 October 2024 | Arup Pty Ltd Air Quality Technical Report Page D-16
+ 
+D.15 P AH (1-hour) average – Incremental 
+ 

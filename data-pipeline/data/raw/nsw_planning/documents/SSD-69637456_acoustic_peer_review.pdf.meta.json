@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-83206457%2120250902T073832.685+GMT",
+ "project_slug": "digico-syd1-data-centre-expansion",
+ "attachment_slug": "a14-acoustic-peer-review-15",
+ "kind": "acoustic_peer_review",
+ "label": "A14 - Acoustic Peer Review.pdf",
+ "folder": "Response to Submissions",
+ "fetched_utc": "2026-11-18T06:13:10+00:00",
+ "sha256": "970415f85c98c184b2a2b05a74e87c2b19584abdcf31117928e5c9dc2adc75e6",
+ "bytes": 264163,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 3218,
+ "pages": 2,
+ "text_redactions": 2,
+ "pdf_committed": false
+}

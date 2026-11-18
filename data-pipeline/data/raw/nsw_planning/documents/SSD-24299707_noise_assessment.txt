@@ -1,0 +1,4396 @@
+[[page 1]]
+ 
+ 
+ 
+ 
+   
+ 
+ 
+Acoustics 
+Vibration 
+Structural Dynamics 
+Sydney   Melbourne   Brisbane   Gold Coast   Kuwait   Singapore  
+Renzo Tonin & Associates   ABN 29 117 462 861 
+Level 1/418A Elizabeth St SURRY HILLS NSW 2010  |  PO Box 877 STRAWBERRY HILLS NSW 2012  
+P (02) 8218 0500   F (02) 8218 0501   [email redacted]   www.renzotonin.com.au 
+ 
+ 
+MACQUARIE DATA CENTRES IC3 SUPER 
+WEST 
+Noise and Vibration Report for SSDA 
+4 November 2021 
+Macquarie Data Centres C/- Giddis Project Management 
+TM162-01F02 Acoustic Assessment (r7) 
+
+[[page 2]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) ii 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Document details 
+Detail Reference 
+Doc reference: TM162-01F02 Acoustic Assessment (r7) 
+Prepared for: Macquarie Data Centres C/- Giddis Project Management 
+Address: 64A Irrubel Rd 
+Newport, NSW 2106 
+Attention: James Edwards  
+Document control 
+Date Revision history Non-issued 
+revision 
+Issued 
+revision Prepared Instructed Reviewed / 
+Authorised 
+2.09.2021 Preparation of draft 0 1 B. Carlyle B. Carlyle A. Leslie 
+1.10.2021 Initial issue - 2 B. Carlyle   
+1.10.2021 Minor update - 3 B. Carlyle   
+20.10.2021 Minor updates - 4 B. Carlyle   
+22.10.2021 Updating executive summary - 5 B. Carlyle   
+25.10.2021 Minor updates - 6 B. Carlyle   
+04.11.2021 Update with DPIE adequacy 
+comments 
+- 7 B. Carlyle   
+File Path: R:\AssocSydProjects\TM151-TM200\TM162 bc Macquarie Telecom IC3w\1 Docs\TM162-01F02 Acoustic Assessment (r7).docx 
+Important Disclaimers: 
+The work presented in this document was carried out in accordance with the Renzo Tonin & Associates Quality Assurance System,  which is 
+based on Australian/New Zealand Standard AS/NZS ISO 9001.  
+This document is issued subject to review and auth orisation by the suitably qualified and experienced person named in the last column 
+above. If no name appears, this document shall be considered as preliminary or draft only and no reliance shall be placed upo n it other than 
+for information to be verified later.  
+This document is prepared for the particular requirements of our Client referred to above in the ‘Document details’ which are  based on a 
+specific brief with limitations as agreed to with the Client.  It is not intended for and should not be relied upon by a third party and no 
+responsibility is undertaken to any third party without prior consent provided by Renzo Tonin & Associates.   The information herein should 
+not be reproduced, presented or reviewed except in full. Prior to passing on to a third party, the Client is to fully inform the third party of the 
+specific brief and limitations associated with the commission.  
+In preparing this report, we have relied upon, and presumed accurate, any information (or confirmation of the absence thereof ) provided by 
+the Client and/or from other sources. Except as otherwise stated in the report, we have not attempted to verify the accuracy or completeness 
+of any such information. If the information is subsequently determined to be false, inaccurate or incomplete  then it is possible that our 
+observations and conclusions as expressed in this report may change.  
+We have derived data in this report from information sourced from the Client (if any) and/or available in the public domain a t the time or 
+times outlined in this report. The passage of time, manifestation of latent conditions or impacts of future events may require further 
+examination and re-evaluation of the data, findings, observations and conclusions expressed in this report.    
+We have prepared this report in accordance with the usual care and thoroughness of the consulting profession, for the sole purpose 
+described above and by reference to applicable standards, guidelines, procedures and practices at the date of issue of this r eport. For the 
+reasons outlined above, however, no other warranty or guarantee, whether expressed or implied, is made as to the data, observations and 
+findings expressed in this report, to the extent permitted by law.  
+The information contained herein is for the purpose of acoustics o nly. No claims are made and no liability is accepted in respect of design 
+and construction issues falling outside of the specialist field of acoustics engineering including and not limited to structu ral integrity, fire 
+rating, architectural buildability and fit-for-purpose, waterproofing and the like. Supplementary professional advice should be sought in 
+respect of these issues. 
+External cladding disclaimer: No claims are made and no liability is accepted in respect of any external wall and/or roof sys tems (eg facade / 
+cladding materials, insulation etc) that are: (a) not compliant with or do not conform to any relevant non -acoustic legislation, regulation, 
+standard, instructions or Building Codes; or (b) installed, applied, specified or utilised in such a m anner that is not compliant with or does not 
+conform to any relevant non-acoustic legislation, regulation, standard, instructions or Building Codes.  
+ 
+[[page 3]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) iii 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Executive summary 
+This Noise and Vibration Report has been prepared by Renzo Tonin & Associates (Renzo Tonin) on 
+behalf of Macquarie Data Centres (MDC) C/- GIDDIS Project Management.  
+The following Noise and Vibration Report has been produced to support the Environmental Impact 
+Statement (EIS) prepared by Willowtree Planning PTY Ltd (Willowtree Planning). 
+The EIS has been submitted to the New South Wales (NSW) Department of Planning, Industry and 
+Environment (DPIE), in support of an application for State Significant Development (SSD), for the 
+construction and operation of a data centre, involving earth works, provision of infrastructure and 
+expansion of an existing data centre at 17 – 23 Talavera Road, Macquarie Park (Lot 527 DP 752035).  
+The proposal represents an extension to the approved data centre (LDA/2018/0322) to allow for 
+additional data storage capacity at the subject site, improving the overall operational efficiencies and 
+provision of technology services to customers and the wider locality.  
+The proposal involves the construction and operation of an expansion to an existing data centre located 
+at 17-23 Talavera Road, Macquarie Park (Lot 527 in DP 752035), comprising:  
+• a five-storey building  
+• ancillary office space and staff amenities  
+• a back-up power system 
+• associated infrastructure, car parking, loading docks and landscaping  
+The subject site is located within the City of Ryde Local Government Area (LGA). The proposal seeks to 
+operate 24 hours per day, seven (7) days per week.  
+The particulars of this proposal are summarised below:   
+• Minor earthworks involving cut and fill works  
+• Infrastructure comprising civil works and utilities servicing   
+• Construction of a five (5) storey building extension, comprising up to: 
+- 14 data halls  
+- 18 back up generators   
+- Fitout of the building for use as a data centre (on an as-needs basis)  
+[[page 4]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) iv 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Site description 
+The site is described as Lot 527 DP 752035, commonly known as 17 – 23 Talavera Road, Macquarie Park. 
+The site has a total area of approximately 20,000m2, with access achieved via Talavera Road. 
+The site forms part of the Macquarie Park Corridor, which is the strategic centre of Macquarie Park, 
+being a health and education precinct and an important economic and employment powerhouse in 
+Sydney’s North District. 
+The site is described through its current commercial setting as an existing Data Centre (LDA/2018/0322), 
+adjoining surrounding commercial premises along Talavera Road, and forming part of the wider 
+Macquarie Park Corridor. 
+The site is situated approximately 12.5 km northwest of the Sydney CBD and 11.3 km northeast of 
+Parramatta. It is within close proximity to transport infrastructure routes (predominantly the bus and rail 
+networks), as well as sharing direct links with the wider regional road network, including Talavera Road, 
+Lane Cove Road, Epping Road and the M2 Motorway.  
+These road networks provide enhanced connectivity to the subject site and wider locality. Additionally, 
+the site is located within close proximity to active transport links, such as bicycle routes, providing an 
+additional mode of accessible transport available to the subject site 
+ 
+Site Location 
+The site 17 – 23 Talavera Road, Macquarie Park, being Lot 527 DP 752035.  
+
+[[page 5]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) v 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+ 
+Secretary’s Environmental Assessment Requirements 
+This Noise and Vibration Report is prepared in accordance with the Secretary’s Environmental 
+Assessment Requirements (SEARs).  The SEARs for the proposal outline Key Issues to be addressed as 
+part of this EIS and includes:  
+Renzo Tonin & Associates (Renzo Tonin) have been appointed by Macquarie Data Centres (MDC) to 
+undertake the Noise and Vibration Report for the proposed development of the Macquarie Park Data 
+Centre Campus IC3 Super West site. 
+The following Secretaries Environmental Assessment Requirements (SEARS) are addressed within Table 1 
+of this report.  
+Table 1: Secretary’s environmental assessment requirements – Noise and vibration 
+SEARs Item Secretary’s Environmental Assessment Requirements  Response 
+Noise and 
+vibration 
+A quantitative noise and vibration impact assessment undertaken by a 
+suitably qualified acoustic consultant in accordance with the relevant 
+Environment Protection Authority guidelines and Australian Standards 
+which includes: 
+ 
+- the identification of impacts associated with construction, site 
+emissions and traffic generation at noise affected sensitive 
+receivers (including consideration of cumulative impacts from the 
+existing data centre and surrounding developments), including 
+the provision of operational noise contours and a detailed sleep 
+disturbance assessment 
+Section 4 – Construction 
+Section 5.6 – Operational road 
+traffic 
+Section 5.1 to 5.4  – 
+Operational – Site emissions 
+(including cumulative) and 
+sleep disturbance 
+APPENDIX C - Operational 
+noise contours 
+
+[[page 6]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) vi 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+SEARs Item Secretary’s Environmental Assessment Requirements  Response 
+- details of noise monitoring survey, background noise levels, noise 
+source inventory and ‘worst case’ noise emission scenarios 
+Section 2.1 – Monitoring 
+Section 5.3 – Assessment 
+scenarios  
+Table 27 to Table 31 - Noise 
+source inventory 
+- consideration of annoying characteristics of noise and prevailing 
+meteorological conditions in the study area 
+Section 5.2.2 - Meteorological 
+conditions 
+Section 5.4 - Annoying 
+characteristics 
+- adequate modelling of site operational noise and vibration 
+sources such as cooling system fans and motors in proposed 
+locations, energy back-up systems such as generator engines, 
+and vehicle access, traverse, and manoeuvring paths 
+Table 27 to Table 31 - Noise 
+source inventory 
+Section 5.3 - Predictions 
+ 
+- details and analysis of the effectiveness of proposed 
+management and mitigation measures to adequately manage 
+identified impacts, including a clear identification of residual 
+noise and vibration following application of mitigation these 
+measures and details of any proposed compliance monitoring 
+programs. 
+Section 5.1.1.2.1 and 5.1.1.2.2- 
+Mitigation measures 
+Section 5.3 - Predictions 
+Section 5.7 - Operational noise 
+management 
+ 
+ 
+ 
+ 
+ 
+[[page 7]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) vii 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Contents 
+Executive summary iii 
+Site description iv 
+Site Location iv 
+Secretary’s Environmental Assessment Requirements v 
+1 Introduction 1 
+1.1 Assessment requirements 1 
+1.1.1 Secretary’s environmental assessment requirements 1 
+1.1.2 EPA assessment requirements 1 
+1.2 Project description 2 
+1.3 Assessment objectives 2 
+1.4 Reference material 3 
+1.5 Nearest sensitive receivers 3 
+2 Existing noise environment 6 
+2.1 Noise monitoring 6 
+2.1.1 Noise measurement locations 6 
+2.1.2 Renzo Tonin instrumentation and methodology 7 
+2.1.3 Long-term noise measurement results 8 
+3 Noise and vibration objectives 9 
+3.1 Construction noise objectives 9 
+3.1.1 Noise management levels (NMLs) 9 
+3.1.2 Summary of construction noise management levels 10 
+3.2 Construction vibration objectives 11 
+3.2.1 Disturbance to buildings occupants 12 
+3.2.2 Building damage 13 
+3.2.2.1 British Standard 14 
+3.2.2.2 German Standard 15 
+3.3 Operational noise 16 
+3.3.1 Project intrusive noise levels 16 
+3.3.2 Amenity noise levels 16 
+3.3.2.1 Residential amenity category 18 
+3.3.3 Project noise trigger levels 20 
+3.4 Sleep disturbance noise levels 21 
+3.5 Road traffic noise 22 
+4 Construction noise and vibration assessment 23 
+4.1 Background 23 
+4.2 Construction hours 23 
+4.3 Receiver locations 23 
+[[page 8]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) viii 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+4.4 Construction noise and vibration activities and assumptions 23 
+4.4.1 Construction works and activities 23 
+4.4.2 Construction traffic 24 
+4.4.3 Construction noise sources 24 
+4.5 Construction noise and vibration assessment 25 
+4.5.1 Predicted noise levels 25 
+4.5.1.1 Standard construction hours 29 
+4.5.1.2 Outside standard construction hours - Period 1 29 
+4.5.1.3 Outside standard construction hours - Period 2 29 
+4.5.2 Construction noise mitigation measures 30 
+4.5.2.1 General engineering noise controls 30 
+4.5.2.2 Noise management measures 31 
+4.5.3 Vibration assessment 33 
+4.5.3.1 Minimum working distances 33 
+4.5.3.2 Potential vibration impacts 34 
+4.5.3.3 Vibration mitigation measures 35 
+4.5.4 Complaints management 36 
+5 Operational noise assessment 37 
+5.1 Operations noise sources 37 
+5.1.1 Mechanical equipment 37 
+5.1.1.1 Existing IC2 and IC3e 37 
+5.1.1.2 IC3w equipment 38 
+5.1.1.2.1 Mechanical plant noise assumptions and mitigation measures 41 
+5.1.1.2.2 In principle mechanical plant measures 42 
+5.1.2 Staff vehicle movements and car parking 42 
+5.1.3 Loading dock 43 
+5.2 Noise prediction methodology 44 
+5.2.1 Modelling overview 44 
+5.2.2 Meteorological conditions 45 
+5.3 Noise predictions 45 
+5.4 Annoying noise characteristics adjustments 47 
+5.4.1 Tonality 47 
+5.4.2 Intermittent noise 47 
+5.4.3 Impulsiveness noise 48 
+5.5 Sleep disturbance assessment 48 
+5.6 Traffic assessment 48 
+5.7 Operational noise management 49 
+[[page 9]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) ix 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+6 Conclusion 50 
+6.1 Operational noise assessment 50 
+6.2 Construction noise and vibration assessment 50 
+APPENDIX A Glossary of terminology 52 
+A.1 Glossary of terminology - Noise 52 
+A.2 Glossary of terminology - Vibration 57 
+APPENDIX B Long-term noise monitoring graphs 61 
+APPENDIX C Operational noise contours 62 
+List of tables 
+Table 1: Secretary’s environmental assessment requirements – Noise and vibration v 
+Table 2: EPA assessment requirements – Noise and vibration 2 
+Table 3: Representative receiver locations 3 
+Table 4:  Noise monitoring locations 7 
+Table 5: Unattended noise monitoring equipment 7 
+Table 6:  Long-term noise monitoring results, dB(A) 8 
+Table 7: Noise management levels at residential receivers 9 
+Table 8:  Noise management levels at other noise sensitive land uses 10 
+Table 9:  Construction noise management levels 11 
+Table 10: Vibration management levels for disturbance to building occupants 12 
+Table 11:  BS 7385 structural damage criteria 14 
+Table 12:  DIN 4150-3:2016 structural damage criteria 15 
+Table 13: Intrusiveness noise levels 16 
+Table 14: Project amenity noise levels 17 
+Table 15: Project amenity noise levels 19 
+Table 16 Project noise trigger levels 20 
+Table 17:  Sleep disturbance assessment levels 22 
+Table 18: RNP Road Traffic Noise Criteria, dB(A) 22 
+Table 19: Construction hours and associated proposed activity 23 
+Table 20: Approximate construction phases and duration of works 24 
+Table 21: Typical construction equipment & sound power levels, dB(A) re 1pW 25 
+Table 22: Predicted LAeq(15min) noise levels for typical construction plant, dB(A) 27 
+Table 23: Relative effectiveness of various forms of noise control 30 
+Table 24: Possible noise control measures for likely construction plant 31 
+Table 25: Recommended minimum working distances for vibration intensive equipment 34 
+Table 26: Potential vibration for residential and commercial properties 34 
+Table 27: IC2 and IC3e noise level data 37 
+[[page 10]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) x 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Table 28: IC3w noise level data 38 
+Table 29: Level 1 plant zone acoustic louvre insertion loss 41 
+Table 30: Carpark activity sound power levels 43 
+Table 31: Loading dock area activities sound power levels 43 
+Table 32: Prevailing noise-enhancing assessment meteorological conditions 45 
+Table 33: Predicted noise levels at representative receivers 46 
+List of figures 
+Figure 1: Site location, land uses, NCAs, representative receivers and noise monitoring locations 5 
+Figure 2: Location of main items of mechanical plant 40 
+ 
+ 
+[[page 11]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 1 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+1 Introduction 
+Renzo Tonin & Associates (Renzo Tonin) have been appointed by Macquarie Data Centres (MDC) to 
+undertake the Noise and Vibration Report for the proposed development of the Macquarie Park Data 
+Centre Campus IC3 Super West (IC3w) site at 17-23 Talavera Road, Macquarie Park. 
+This Noise and Vibration Report serves to support the State Significant Development Application (SSDA) 
+relating to the proposed development.  
+The report has been prepared to address the requirements of the Secretary of the Department of 
+Planning, Industry and Environment (DPIE) (‘the Secretary’s environmental assessment requirements’) 
+(SEARs) and EPA requirements. As part of preparing this construction noise and vibration and 
+operational noise assessment, the following policies, guidelines and standards have been considered: 
+• NSW Noise Policy for Industry (NPfI) (EPA 2017) 
+• NSW Road Noise Policy (RNP) (DECCW 2011) 
+• Australian Standard AS 1055:2018 Acoustics—Description and measurement of environmental 
+noise. 
+• NSW Interim Construction Noise Guideline (ICNG) (DECC 2009) 
+• NSW Assessing Vibration – A Technical Guideline (AVTG) (DEC 2006) 
+1.1 Assessment requirements 
+1.1.1 Secretary’s environmental assessment requirements  
+The Secretary’s environmental assessment requirements relating to the project are detailed in the 
+Executive Summary above. 
+1.1.2 EPA assessment requirements  
+The NSW Environmental Protection Authority (EPA) has provided the following feedback in relation to 
+the development, which are outlined in Table 2. 
+[[page 12]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 2 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Table 2: EPA assessment requirements – Noise and vibration 
+EPA assessment requirements  Where addressed 
+Noise and vibration   
+The proponents Scoping Report states that the site is to be 
+“sufficiently separated from any noise sensitive receivers” and that 
+the proposal will consider construction and operational acoustic 
+impacts through the preparation of both a Construction Noise and 
+Vibration Management Plan (CNVMP) and an operational Noise and 
+Vibration Impact Assessment. The EPA notes that the site is close to 
+a number of sensitive receivers including: 
+• 100m to the north of Excelsia College; 
+• 200m to the south-east of WiSE Specialist Emergency Clinic; 
+• 300m to the south of high density residential zoned land; 
+• 300m to the south-east of Meriton Suites North Ryde; and 
+• Between 150m-300m to the south-east, west, and north-west of 
+several childcare centres. 
+Section 4 – Construction noise assessment 
+Section 5 – Operational noise assessment 
+Section 1.5 and Figure 1 – nearest sensitive 
+receivers 
+The EPA recommends that a noise and vibration assessment be 
+prepared in accordance with the Noise Policy for Industry (2017) and 
+include an assessment of all potential noise and vibration generating 
+activities occurring at the premises, including the operation and 
+testing of specific generators that will be used for backup electricity 
+generation. The noise and vibration assessment must consider all 
+sensitive receptors that will potentially be impacted during 
+construction and operational stages of the proposal. 
+Section 3.3 – Operational noise and vibration 
+objectives 
+Section 4 – Construction noise assessment 
+Section 5.1 to 5.4  – Operational – Site emissions 
+(including cumulative) and sleep disturbance 
+ 
+ 
+1.2 Project description  
+The site is located at 17-23 Talavera Road, Macquarie Park. The site is currently occupied by the existing 
+data centre buildings, including IC2 building at the northern half of the site and the existing IC3e 
+building at the south-east corner of the site. The proposed IC3w building will be located at the south-
+west corner of the site.  
+This site is bounded by Talavera Road to the north, commercial premises to the east and west and an 
+education premises to the south. The nearest residential receivers are located north of the M2 
+Motorway, approximately 300m from the site. A location map is presented in Figure 1. 
+The facility is proposed to operate 24 hours a day, 7 days a week.  
+1.3 Assessment objectives 
+The assessment objectives are to determine the potential levels of noise and vibration at sensitive 
+receivers located near the Project and determine the levels of mitigation that would be required to 
+enable compliance with the current NSW requirements. 
+In undertaking the assessment, unattended noise monitoring was referred to conducted to measure 
+noise from the existing acoustic environment and potential noise sources.  
+Three-dimensional noise modelling software was used to create a noise model of the Project to predict 
+noise levels and assess the need for noise mitigation. 
+[[page 13]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 3 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+For operational noise, cumulative impacts from the existing data centres (IC2 and IC3e) were accounted 
+for. 
+1.4 Reference material 
+The acoustic assessment is based on the following packages: 
+• The HDR architectural Drawing package [ref: HDR-IC3W-AR-SSD Application – combined 
+211015.pdf], dated 14 October 2021 
+• The HDR mechanical drawing package [ref: IC3W-Combined Services.pdf], dated 19 October 
+2021 
+APPENDIX A contains a glossary of acoustic terms used in this report. 
+1.5 Nearest sensitive receivers 
+This site is surrounded by commercial premises to the north, east and west and an education premises 
+to the south. The nearest residential receivers are located north of the M2 Motorway, approximately 
+310m from the site.  
+The extent of receiver buildings that have been included in the assessment modelling for the 
+operational and construction noise assessment are presented in Figure 1. For the purpose of reporting a 
+set of representative receiver locations are presented in this assessment. 
+Additionally, as the existing acoustic environment varies at the nearby residential receivers, these 
+residential receivers have been grouped into Noise Catchment Areas (NCAs) based upon areas with 
+similar acoustic environments. This has been done to logically group the receivers to assist with the 
+assessment and allocate the appropriate project noise trigger levels or management levels to each 
+receiver.  
+The locations of the representative receiver points are presented in Table 3 and shown in Figure 1.  
+Table 3: Representative receiver locations 
+Receiver 
+number 
+Address / location Receiver type Residential 
+noise 
+catchment 
+area (NCA) 
+Approximate 
+distance to 
+subject site, 
+metres 
+R1 1-15 Fontenoy Road, Macquarie Park Residential 1 350 
+R2 25 Fontenoy Road, Macquarie Park Residential 1 310 
+R3 7 Tasman Place, Macquarie Park Residential 1 320 
+R4 101 Waterloo Road, Macquarie Park Residential 2 470 
+R5 80 Waterloo Road, Macquarie Park Residential 2 490 
+R6 384-386 Lane Cove Road, Macquarie Park Residential 2 500 
+R7 136 Epping Road, North Ryde Residential 3 635 
+[[page 14]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 4 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Receiver 
+number 
+Address / location Receiver type Residential 
+noise 
+catchment 
+area (NCA) 
+Approximate 
+distance to 
+subject site, 
+metres 
+R8 34-41 Waterloo Road, Macquarie Park (Only About Children 
+Macquarie Park Station) 
+Childcare - 220 
+R9 Building B/11 Talavera Road, Macquarie Park (Macquarie Early 
+Learning Centre) 
+Childcare - 130 
+R10 24 Talavera Road, Macquarie Park (North Ryde Early Learning 
+Centre) 
+Childcare - 110 
+R11 40-52 Talavera Road, Macquarie Park (Guardian Childcare) Childcare - 160 
+R12 97 Waterloo Road, Macquarie Park (Greenwood North Ryde) Childcare - 390 
+R13 63-71 Waterloo Road, Macquarie Park (Excelsia College) Education - Adjacent 
+R14 44 Waterloo Road, Macquarie Park (Macquarie University (School 
+of Engineering) 
+Education - 225 
+R15 17 Khartoum Road, Macquarie Park (WiSE Specialist Emergency 
+Clinic) 
+Medical - 140 
+R16 7/11 Talavera Road, Macquarie Park (Marriot Hotel) Hotel/motel - 270 
+R17 88 Talavera Road, North Ryde (Meriton Suites) Hotel/motel - 680 
+R18 10 Byfield St, Macquarie Park (Holiday Inn Express) Hotel/motel - 550 
+R19 15 Talavera Rd, North Ryde Commercial - Adjacent 
+R20 11 Talavera Rd, Macquarie Park Commercial - Adjacent 
+R21 11-17 & 39 Khartoum Road, Macquarie Park Commercial - 60 
+R22 1-5 Khartoum Road, Macquarie Park Commercial - Adjacent 
+[[page 15]]
+NCA
+Representative Receivers
+Noise Monitoring Location
+Subject Site
+IC3w
+IC3e
+IC2
+Education
+Hotel
+Residential
+Commercial
+Medical
+Childcare
+Legend
+Figure 1: Site location, land uses, NCAs, representative
+receivers and noise monitoring locations
+
+[[page 16]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 6 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+2 Existing noise environment 
+Criteria for the assessment of operational and construction noise are usually derived from the existing 
+noise environment of an area, excluding noise from the subject development.  
+Fact Sheet B of the NSW EPA Noise Policy for Industry (NPfI) outlines two methods for determining the 
+background noise level of an area, being ‘B1 – Determining background noise using long-term noise 
+measurements’ and ‘B2 – Determining background noise using short-term noise measurements’. This 
+assessment has used long-term noise monitoring. 
+As the noise environment of an area almost always varies over time, background and ambient noise 
+levels need to be determined for the operational times of the proposed development. For example, in a 
+suburban or urban area the noise environment is typically at its minimum at 3:00am in the morning and 
+at its maximum during the morning and afternoon traffic peak hours. The NPfI outlines the following 
+standard time periods over which the background and ambient noise levels are to be determined: 
+• Day:  07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays 
+• Evening:  18:00-22:00 Monday to Sunday & Public Holidays 
+• Night:  22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+2.1 Noise monitoring 
+2.1.1 Noise measurement locations 
+Noise measurements are ideally carried out at the nearest or most potentially affected locations 
+surrounding a development. An alternative, representative location should be established in the case of 
+access restrictions or a safe and secure location cannot be identified. Furthermore, representative 
+locations may be established in the case of multiple receivers as it is usually impractical to carry out  
+At the time of preparing this report, the current COVID-19 situation and the current lockdowns within 
+Greater Sydney were both impacting the existing noise environment and were restricting the possibility 
+of undertake noise monitoring for the purposes of establishing background noise levels. As the existing 
+noise environment is often controlled by road traffic noise or urban activities (ie. M2 Motorway), these 
+noise levels would not be representative of a typical situation and so not suitable for the purposes of 
+establishing background noise levels in accordance with the NPfI.  
+As such, this assessment has relied on noise measurement data collected by Renzo Tonin in 2016 and 
+noise data presented within the AECOM prepared Macquarie Park Data Centre - Environmental Impact 
+Statement – Appendix J Noise and Vibration Assessment’ (reference: 60628128-RPNV-02, Revision B, 
+dated 9 November 2020) (EIS 2020). The EIS 2020 was sourced via the DPIE Planning Portal and was 
+prepared for 11-17 Khartoum Road and 33-39 Talavera Road, Macquarie Park, which is located in 
+proximity to the Project. 
+[[page 17]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 7 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+The long-term measurement locations are outlined in Table 4 and shown in Figure 1. 
+Table 4:  Noise monitoring locations 
+ID Source Address Monitoring 
+Period Description 
+Long-term noise monitoring 
+L1 EIS 2020 Unit 6, 37 Khartoum Road, 
+Macquarie Park 
+ 
+10/03/2020 - 
+20/03/2020 
+The monitor was located in the front garden of the 
+property.  
+The noise monitoring location is considered 
+representative of receiver locations within NCA 1.  
+L2 Renzo 
+Tonin 
+82 Waterloo Road, 
+Macquarie Park 
+15/09/2016 - 
+22/09/2016 
+The monitor was located in the free field near the 
+northern boundary facing Waterloo Road 
+The noise monitoring location is considered 
+representative of receiver locations within NCA 2.  
+L3 EIS 2020 7 Booth Street, Marsfield 10/03/2020 - 
+20/03/2020 
+The monitor was located in the front garden of the 
+property.  
+The noise monitoring location is considered 
+representative of receiver locations within NCA 3.  
+2.1.2 Renzo Tonin instrumentation and methodology 
+The Renzo Tonin long-term noise monitoring was conducted using the instrumentation presented in 
+Table 5.  
+Table 5: Unattended noise monitoring equipment 
+Reference 
+location 
+Address Instrument Logger 
+reference 
+Monitoring period 
+L2 82 Waterloo Road, Macquarie Park NTi Audio XL2 RTA05-008 15/09/2016 - 22/09/2016 
+Notes: All meters comply with AS IEC 61672.1 2004 “Electroacoustics - Sound Level Meters” and designated Type 1, and are suitable for 
+field use. 
+Long-term noise monitoring was conducted in general accordance with Fact Sheet B of the NSW EPA 
+NPfI and AS1055:2018. The equipment calibration was field checked prior and subsequent to the 
+measurement period using a Bruel & Kjaer Type 4231 calibrator, with no significant calibration drift 
+observed. 
+APPENDIX A of this report presents a description of noise terms. A summary of the unattended noise 
+monitoring results along with a graphical recorded output from the long-term noise monitoring is 
+included in APPENDIX B. The graphs in APPENDIX B were analysed to determine an assessment 
+background level (ABL) for each day, evening and night period in each 24-hour period of noise 
+monitoring. Based on the median of individual ABLs an overall single Rating Background Level (RBL) for 
+the day, evening and night period is determined over the entire monitoring period in accordance with 
+the NPfI. 
+Noise measurements affected by extraneous noise, wind (greater than 5m/s) or rain were excluded from 
+the recorded data in accordance with the NPfI. This is indicated in the long-term noise monitoring 
+graphs presented in APPENDIX B. Determination of extraneous meteorological conditions was based on 
+[[page 18]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 8 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+data provided by the nearest Bureau of Meteorology (BOM) station, which was the Sydney Olympic Park 
+AWS (Station 066212). 
+2.1.3 Long-term noise measurement results 
+Table 6 presents the overall single Rating Background Levels (RBL) and representative ambient Leq noise 
+levels for each assessment period. 
+Table 6:  Long-term noise monitoring results, dB(A) 
+Monitoring location 
+LA90 Rating Background Level 
+(RBL) LAeq Ambient noise levels 
+Day1 Evening2 Night3 Day1 Evening2 Night3 
+L1 - Unit 6, 37 Khartoum Road, Macquarie Park 45 45 38 57 59 51 
+L2 - 82 Waterloo Road, Macquarie Park4 52 48 40 61 60 54 
+L3 -7 Booth Street, Marsfield 42 42 33 55 56 47 
+Notes: 1. Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+2. Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+3. Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+4. As required by the NPfI, the external ambient noise levels presented are free -field noise levels. [ie. no façade reflection] 
+ 
+ 
+ 
+[[page 19]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 9 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+3 Noise and vibration objectives 
+3.1 Construction noise objectives 
+3.1.1 Noise management levels (NMLs) 
+The NSW Interim Construction Noise Guideline (ICNG, 2009) provides guidelines for assessing noise 
+generated during the construction phase of developments. 
+The key components of the guideline that are incorporated into this assessment include: 
+• Use of LAeq as the descriptor for measuring and assessing construction noise.   
+• Application of reasonable and feasible noise mitigation measures. 
+• As stated in the ICNG, a noise mitigation measure is feasible if it is capable of being put into 
+practice and is practical to build given the project constraints. 
+• Selecting reasonable mitigation measures from those that are feasible involves making a 
+judgement to determine whether the overall noise benefit outweighs the overall social, 
+economic and environmental effects. 
+The ICNG provides two methods described for the assessment of construction noise, being either a 
+quantitative or a qualitative assessment. A quantitative assessment is recommended for major 
+construction projects of significant duration and involves the measurement and prediction of noise 
+levels and assessment against set criteria. A qualitative assessment is recommended for small projects 
+with duration of less than three weeks and focuses on minimising noise disturbance through the 
+implementation of reasonable and feasible work practices, and community notification. Given the scale 
+and duration of the construction works proposed, a quantitative assessment is carried out herein, 
+consistent with the ICNG requirements.  
+Table 7 reproduced from the ICNG, sets out the airborne noise management levels and how they are to 
+be applied for residential receivers.  
+Table 7: Noise management levels at residential receivers 
+Time of day 
+Management level 
+LAeq (15 min) * 
+How to apply 
+Recommended 
+standard hours: 
+Monday to Friday 
+7am to 6pm 
+Saturday 8am to 1pm 
+No work on Sundays or 
+public holidays 
+Noise affected 
+RBL + 10 dB 
+The noise affected level represents the point above which there may be 
+some community reaction to noise. 
+• Where the predicted or measured LAeq (15 min) is greater than 
+the noise affected level, the proponent should apply all feasible 
+and reasonable work practices to meet the noise affected level. 
+• The proponent should also inform all potentially impacted 
+residents of the nature of works to be carried out, the expected 
+noise levels and duration, as well as contact details. 
+[[page 20]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 10 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Time of day 
+Management level 
+LAeq (15 min) * 
+How to apply 
+Highly noise 
+affected 
+75 dB(A) 
+The highly noise affected level represents the point above which there 
+may be strong community reaction to noise. 
+• Where noise is above this level, the relevant authority (consent, 
+determining or regulatory) may require respite periods by 
+restricting the hours that the very noisy activities can occur, taking 
+into account: 
+ times identified by the community when they are less 
+sensitive to noise (such as before/ after school for works 
+near schools, or mid-morning or mid-afternoon for works 
+near residences 
+ if the community is prepared to accept a longer period of 
+construction in exchange for restrictions on construction 
+times. 
+Outside recommended 
+standard hours 
+Noise affected 
+RBL + 5 dB 
+• A strong justification would typically be required for works outside 
+the recommended standard hours. 
+• The proponent should apply all feasible and reasonable work 
+practices to meet the noise affected level. 
+• Where all feasible and reasonable practices have been applied and 
+noise is more than 5dB(A) above the noise affected level, the 
+proponent should negotiate with the community. 
+• For guidance on negotiating agreements see ICNG section 7.2.2. 
+* Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5 m etres above ground 
+level. If the property boundary is more than 30 metres from the residence, the location for measuring or predicting noise levels is at the 
+most noise-affected point within 30 metres of the residence. Noise levels may be higher at upper floors of the noise affected r esidence. 
+Table 8 sets out the ICNG noise management levels for other noise sensitive receiver locations.  
+Table 8:  Noise management levels at other noise sensitive land uses 
+Land use Time of day Where objective applies Management level LAeq (15 min) 
+Classrooms at schools and other 
+educational institutions 
+When in use Indoor noise level 
+Outdoor noise level1 
+45 dB(A) 
+65 dB(A) 
+Hospital wards and operating theatres When in use Indoor noise level 
+Outdoor noise level1 
+45 dB(A) 
+65 dB(A) 
+Places of worship When in use Indoor noise level 
+Outdoor noise level1 
+45 dB(A) 
+65 dB(A) 
+Active recreation areas  When in use Outdoor noise level 65 dB(A) 
+Passive recreation areas When in use Outdoor noise level 60 dB(A) 
+Commercial premises When in use Outdoor noise level 70 dB(A) 
+Industrial premises When in use Outdoor noise level 75 dB(A) 
+Notes: 1. Outdoor noise level based on internal noise level in ICNG and assumes 20 dB loss through a closed window 
+3.1.2 Summary of construction noise management levels 
+Table 9 presents the construction noise management levels established for the nearest noise sensitive 
+residential receivers based upon the noise monitoring outlined in Section 2. The assessment locations 
+and nearby sensitive receivers for the construction assessment are identified in Section 1.5. 
+[[page 21]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 11 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Table 9:  Construction noise management levels 
+ID Location description 
+Noise management level LAeq(15min)1 
+ICNG Standard Hours 
+Monday to Fridays 
+7:00am to 6:00pm 
+Saturdays 
+8:00am to 1:00pm 
+ 
+ 
+ 
+ICNG Outside Standard Hours 
+Monday to Friday 
+6:00am to 7:00am and 6:00pm 
+to 7:00pm 
+Saturday 
+6:00am to 8:00am and 1:00pm 
+to 5:00pm 
+Sunday 
+7:00am to 3:00pm 
+NCA1 Residential premises 55 504 
+NCA2 Residential premises 62 574 
+NCA3 Residential premises 52 474 
+R8 - R12 Childcare centre - classroom (external) 652,3 
+Childcare centre - playground 652 
+R13 – R14 Education - classroom (external)  652,3 
+R15 Medical - operating theatres (external)  652,3 
+R16 – R22 Commercial  702 
+Notes: 1. Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5m 
+above ground level. If the property boundary is more than 30m from the residence, the location for measuring or 
+predicting noise levels is at the most noise-affected point within 30m of the residence. Noise levels may be higher 
+at upper floors of the noise affected residence. 
+2. Noise management levels apply when receiver areas are in use only.  
+3. External noise management level. A conversion from internal to external assumes 20 dB(A) loss from outside to 
+inside through a closed window. 
+4. Noise management levels based on daytime RBL. A visual review of the long-term noise monitoring data reveals L A90 
+levels from 6:00am to 7:00am and 6:00pm to 7:00pm Mondays to Friday; 6:00am to 7:00am Saturday; and 7:00am to 
+8:00am Sunday are typically louder than the quietest part of the day. 
+3.2 Construction vibration objectives 
+Construction vibration is associated with three main types of impact:  
+• disturbance to building occupants  
+• potential damage to buildings, and 
+• potential damage to sensitive equipment in a building.  
+Generally, if disturbance to building occupants is controlled, there is limited potential for structural 
+damage to buildings.  
+Vibration amplitude may be measured as displacement, velocity, or acceleration.  
+• Displacement (x) measurement is the distance or amplitude displaced from a resting position. 
+The International System of Units (SI unit) for distance is the metre (m), although common 
+industrial standards include mm.   
+[[page 22]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 12 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+• Velocity (v=Δx/Δt) is the rate of change of displacement with respect to change in time. The 
+SI unit for velocity is metres per second (m/s), although common industrial standards include 
+mm/s.  The Peak Particle Velocity (PPV) is the greatest instantaneous particle velocity during a 
+given time interval. If measurements are made in 3-axis (x, y, and z) then the resultant PPV is 
+the vector sum (i.e. the square root of the summed squares of the maximum velocities) 
+regardless of when in the time history those occur. 
+• Acceleration (a=Δv/Δt) is the rate of change of velocity with respect to change in time. The SI 
+unit for acceleration is metres per second squared (m/s2).  Construction vibration goals are 
+summarised below. 
+Construction vibration goals are summarised below. 
+3.2.1 Disturbance to buildings occupants 
+The acceptable vibration values to assess the potential for human annoyance from vibration are set out 
+in the NSW 'Environmental Noise Management Assessing Vibration: A Technical Guideline' (AVTG). 
+To assess the potential for vibration impact on human comfort, an initial screening test will be done 
+based on peak velocity units, as this metric is also used for the cosmetic damage vibration assessment.  
+The screening test is based on the continuous vibration velocity (i.e. vibration that continues 
+uninterrupted for a defined period). If the predicted vibration exceeds the initial screening test, the total 
+estimated Vibration Dose Value (i.e. eVDV) will be determined based on the level and duration of the 
+vibration event causing exceedance. 
+The initial screening test values and VDVs recommended in BS 6472-1992 for which various levels of 
+adverse comment from occupants may be expected, are presented in Table 10. The ‘Low probability of 
+adverse comment eVDV’ represent the preferred and maximum value presented in the AVTG. 
+Table 10: Vibration management levels for disturbance to building occupants 
+Place and Time 
+Initial screening 
+test Velocity, PEAK, 
+mm/s (>8Hz) 
+Low probability of 
+adverse comment 
+eVDV m/s1.75 
+Adverse comment 
+possible eVDV 
+m/s1.75 
+Adverse comment 
+probable eVDV 
+m/s1.75 
+Critical areas (day or night)1 0.28 0.1 to 0.2 0.2 to 0.4 0.4 to 0.8 
+Residential buildings 16 hr day2 0.56 0.2 to 0.4 0.4 to 0.8 0.8 to 1.6 
+Residential buildings 8 hr night2 0.40 0.1 to 0.2 0.2 to 0.4 0.4 to 0.8 
+Offices, schools, educational 
+institutions and places of worship 
+(day or night) 
+1.10 0.4 to 0.8 0.8 to 1.6 1.6 to 2.4 
+Workshops (day or night) 2.20 0.8 to 1.6 1.6 to 3.2 3.2 to 6.4 
+Notes 1. Examples include hospital operating theatres and precision laboratories where sensitive operations are occurring. There may 
+be cases where sensitive equipment or delicate tasks require more stringent criteria than the human comfort criteria specify 
+above 
+2. Daytime is 7am to 10pm and night-time is 10pm to 7am 
+[[page 23]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 13 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+3.2.2 Building damage 
+Potential structural damage of buildings as a result of vibration is typically managed by ensuring 
+vibration induced into the structure does not exceed certain limits and standards, such as British 
+Standard 7385 Part 2 and German Standard DIN 4150-3. Currently there is no existing Australian 
+Standard for assessment of structural building damage caused by vibration energy. 
+It is noted that vibration levels required to cause minor cosmetic damage are typically 10 times higher 
+than levels that will cause disturbance to building occupants. Many building occupants assume that 
+building damage is occurring when they feel vibration or observe rattling of loose objects, however the 
+level of vibration at which people perceive vibration or at which loose objects may rattle is far lower 
+than vibration levels that can cause damage to structures. 
+Within British Standard 7385 Part 1, different levels of structural damage are defined: 
+• Cosmetic - The formation of hairline cracks on drywall surfaces, or the growth of existing cracks 
+in plaster or drywall surfaces; in addition the formation of hairline cracks in mortar joints of 
+brick/concrete block construction. 
+• Minor - The formation of large cracks or loosening of plaster or drywall surfaces, or cracks 
+through bricks/concrete blocks. 
+• Major - Damage to structural elements of the building, cracks in supporting columns, loosening 
+of joints, splaying of masonry cracks, etc. 
+The vibration limits in Table 1 of British Standard 7385 Part 2 are for the protection against cosmetic 
+damage, however guidance on limits for minor and major damage is provided in Section 7.4.2 of the 
+Standard:  
+7.4.2 Guide values for transient vibration relating to cosmetic damage  
+Limits for transient vibration, above which cosmetic damage could occur are given numerically in Table 
+1 and graphically in Figure 1. In the lower frequency region where strains associated with a given 
+vibration velocity magnitude are higher, the guide values for the building types corresponding to line 2 
+are reduced. Below a frequency of 4 Hz, where a high displacement is associated with a relatively low 
+peak component particle velocity value a maximum displacement of 0.6 mm (zero to peak) should be 
+used. 
+Minor damage is possible at vibration magnitudes which are greater than twice those given in Table 1, 
+and major damage to a building structure may occur at values greater than four times the tabulated 
+values. 
+Within DIN 4150-3, damage is defined as “any permanent consequence of an action that reduces the 
+serviceability of a structure or one of its components” (p.4). The Standard also outlines: 
+[[page 24]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 14 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+"For buildings as in lines 2 and 3 of Tables 1, 4 or B.1, the serviceability is considered to have been 
+reduced if, for example 
+- cracks form in plastered or rendered surfaces of walls; 
+- existing cracks in a structure are enlarged; 
+- partitions become detached from load-bearing walls or floor slabs. 
+These effects are deemed ‘minor damage. " (DIN 4150.3:2016, p.6) 
+While the DIN Standard defines the above damage as 'minor', based on the definitions provided in 
+BS 7385, the DIN standard is considered to deal with cosmetic issues rather than major structural 
+failures. 
+3.2.2.1 British Standard 
+British Standard 7385: Part 2 'Evaluation and measurement of vibration in buildings', can be used as a 
+guide to assess the likelihood of building damage from ground vibration. BS 7385 suggests levels at 
+which ‘cosmetic’, ‘minor’ and ‘major’ categories of damage might occur.  
+The cosmetic damage levels set by BS 7385 are considered ‘safe limits’ up to which no damage due to 
+vibration effects has been observed for certain particular building types. Damage comprises minor non-
+structural effects such as hairline cracks on drywall surfaces, hairline cracks in mortar joints and cement 
+render, enlargement of existing cracks and separation of partitions or intermediate walls from load 
+bearing walls. ‘Minor’ damage is considered possible at vibration magnitudes which are twice those 
+given and ‘major’ damage to a building structure may occur at levels greater than four times those 
+values. 
+BS 7385 is based on peak particle velocity and specifies damage criteria for frequencies within the range 
+4Hz to 250Hz, being the range usually encountered in buildings. At frequencies below 4Hz, a maximum 
+displacement value is recommended. The values set in the Standard relate to transient vibrations and to 
+low-rise buildings. Continuous vibration can give rise to dynamic magnifications due to resonances and 
+may need to be reduced by up to 50%. Table 11 sets out the BS 7385 criteria for cosmetic, minor and 
+major damage. 
+Regarding heritage buildings, BS 7385 Part 2 (1993) notes that “a building of historical value should not 
+(unless it is structurally unsound) be assumed to be more sensitive” (p.5).  
+Table 11:  BS 7385 structural damage criteria 
+Group Type of structure Damage level 
+Peak component particle velocity, mm/s 
+4Hz to 15Hz 15Hz to 40Hz 40Hz and above 
+1 Reinforced or framed structures 
+Industrial and heavy commercial 
+buildings 
+Cosmetic 50 
+Minor* 100 
+Major* 200 
+2 Cosmetic 15 to 20 20 to 50 50 
+[[page 25]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 15 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Group Type of structure Damage level 
+Peak component particle velocity, mm/s 
+4Hz to 15Hz 15Hz to 40Hz 40Hz and above 
+Un-reinforced or light framed 
+structures Residential or light 
+commercial type buildings 
+Minor* 30 to 40 40 to 100 100 
+Major* 60 to 80 80 to 200 200 
+Notes: Peak Component Particle Velocity is the maximum Peak particle velocity in any one direction (x, y, z) as measured by a tri -axial 
+vibration transducer. 
+* Minor and major damage criteria established based on British Standard 7385 Part 2 (1993) Section 7.4.2 
+3.2.2.2 German Standard 
+German Standard DIN 4150 - Part 3 (2016) 'Vibration in buildings - Effects on Structures' (DIN 4150-
+3:2016), also provides recommended maximum levels of vibration that reduce the likelihood of building 
+damage caused by vibration and are generally recognised to be conservative. 
+DIN 4150-3:2016 presents the recommended maximum limits over a range of frequencies (Hz), 
+measured at the foundations, in the plane of the uppermost floor of a building or structure or vertically 
+on floor slabs. The vibration limits at the foundations increase as the frequency content of the vibration 
+increases. The criteria are presented in Table 12. 
+Table 12:  DIN 4150-3:2016 structural damage criteria 
+Group Type of structure 
+Vibration velocity, mm/s 
+At foundation in all directions at 
+frequency of 
+Plane of floor 
+uppermost storey 
+in horizontal 
+direction 
+Floor slabs, 
+vertical direction 
+1Hz to  
+10Hz 
+10Hz to 
+50Hz 
+50Hz to 
+100Hz All frequencies All frequencies 
+1 Buildings used for 
+commercial purposes, 
+industrial buildings and 
+buildings of similar design 
+20 20 to 40 40 to 50 40 20 
+2 Residential buildings and 
+buildings of similar design 
+and/or occupancy 
+5 5 to 15 15 to 20 15 20 
+3 Structures that because of 
+their particular sensitivity to 
+vibration, cannot be 
+classified under Groups 1 
+and 2 and are of great 
+intrinsic value (eg listed 
+buildings) 
+3 3 to 8 8 to 10 8 20 
+ 
+  
+[[page 26]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 16 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+3.3 Operational noise 
+This assessment aims to quantify the potential operational noise emissions from the Project in 
+accordance with the NSW Noise Policy for Industry (NPfI) (EPA 2017). The assessment procedure has two 
+components: 
+• Controlling intrusive noise impacts in the short-term for residences; and 
+• Maintaining noise level amenity for residences and other land uses. 
+In accordance with the NPfI, noise impact should be assessed against the project noise trigger level 
+which is the lower value of the project intrusiveness noise levels and project amenity noise levels. 
+3.3.1 Project intrusive noise levels 
+According to the NPfI, the intrusiveness of a noise source may generally be considered acceptable if the 
+equivalent continuous (energy-average) A-weighted level of noise from the source (represented by the 
+LAeq,15min descriptor) does not exceed the background noise level measured in the absence of the source 
+by more than 5 dB(A). The project intrusiveness noise level, which is only applicable to residential 
+receivers, is determined as follows: 
+LAeq,15minute Intrusiveness noise level = Rating Background Level (‘RBL’) plus 5 dB(A) 
+For the purposes of assessing operational noise impacts, background noise levels have been 
+determined at nearby receiver locations that may be the potentially most affected, these are presented 
+in Section 2. The intrusiveness noise levels for residential receivers are reproduced in Table 13 below. 
+Table 13: Intrusiveness noise levels 
+Receiver 
+Intrusiveness noise level, LAeq,15min 
+Day Evening Night 
+NCA1 45 + 5 = 50 45 + 5 = 50 38 + 5 = 43 
+NCA2 52 + 5 = 57 48 + 5 = 53 40 + 5 = 45 
+NCA3 42 + 5 = 47 42 + 5 = 47 33 + 5 = 38 
+Notes: 1. Day: 7:00 to 18:00 Monday to Saturday and 8:00 to 18:00 Sundays & Public Holidays  
+2. Evening: 18:00 to 22:00 Monday to Sunday & Public Holidays 
+3. Night: 22:00 to 7:00 Monday to Saturday and 22:00 to 8:00 Sundays & Public Holidays  
+3.3.2 Amenity noise levels 
+The project amenity noise levels for different time periods of day are determined in accordance with 
+Section 2.4 of the NPfI. The NPfI recommends amenity noise levels (LAeq,period) for various receivers 
+including residential, commercial, industrial receivers and sensitive receivers such as schools, hotels, 
+hospitals, churches and parks. These “recommended amenity noise levels” represent the objective for 
+total industrial noise experienced at a receiver location. However, when assessing a single industrial 
+development and its impact on an area then “project amenity noise levels” apply.  
+[[page 27]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 17 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+The recommended project amenity noise levels applicable for the subject receiver areas are reproduced 
+from the NPfI in Table 14 below. 
+Table 14: Project amenity noise levels 
+Type of receiver 
+Noise 
+amenity 
+area 
+Time of day Recommended amenity noise 
+level, LAeq, dB(A) 
+Residential Urban Day 60 
+Evening 50 
+Night 45 
+Suburban Day 55 
+Evening 45 
+Night 40 
+Rural Day 50 
+Evening 45 
+Night 40 
+Hotels / motels See 
+column 4 
+See column 4 5 dB(A) above the recommended 
+amenity noise level for a 
+residence for the relevant noise 
+amenity area and time of day 
+School classroom (internal)6 All Noisiest 1-hour 
+period when in use 
+40 
+Hospital ward 
+- Internal 
+- External 
+All  
+Noisiest 1-hour 
+Noisiest 1-hour 
+ 
+35 
+50 
+Passive recreation (e.g. national park) All When in use 50 
+Active recreation (e.g. school playground, golf course) All When in use 55 
+Commercial premises All When in use 65 
+Notes: 1. Daytime 7.00 am to 6.00 pm; Evening 6.00 pm to 10.00 pm; Night-time 10.00 pm to 7.00 am. 
+2. On Sundays and Public Holidays, Daytime 8.00 am - 6.00 pm; Evening 6.00 pm - 10.00 pm; Night-time 10.00 pm - 8.00 am. 
+3. The LAeq index corresponds to the level of noise equivalent to the energy ave rage of noise levels occurring over a 
+measurement period. 
+4. The recommended amenity noise levels refer only to noise from industrial sources. However, they refer to noise from all 
+such sources at the receiver location, and not only noise due to a specific pr oject under consideration. The levels represent 
+outdoor levels except where otherwise stated 
+5. In the case where existing schools are affected by noise from existing industrial noise sources, the acceptable L Aeq noise 
+level may be increased to 40 dB LAeq(1hr) 
+To ensure that the total industrial noise level (existing plus new) remain within the recommended 
+amenity noise levels for an area, the project amenity noise level that applies for each new industrial 
+noise source is determined as follows: 
+LAeq,period Project amenity noise level = LAeq,period Recommended amenity noise level – 5dB(A) 
+ 
+ 
+[[page 28]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 18 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+For the receivers that share the western, southern and eastern boundaries of the site (R13, R19, R20 and 
+R22), given the proximity to the site and the orientation of the receiver buildings, the nearest affected 
+facade to the Project is unlikely to be impacted by any more than 1 other industrial noise sources. For 
+these receivers, the project amenity noise level that applies to each new industrial noise source is 
+determined as follows: 
+LAeq,period Project amenity noise level = LAeq,period Recommended amenity noise level – 3dB(A) 
+Furthermore, given that the intrusiveness noise level is based on a 15 minute assessment period and the 
+project amenity noise level is based on day, evening and night assessment periods, the NPfI provides 
+the following guidance on adjusting the LAeq,period level to a representative LAeq,15minute level in order to 
+standardise the time periods.   
+ LAeq,15minute = LAeq,period + 3dB(A) 
+3.3.2.1 Residential amenity category 
+Table 2.3 “Determining which of the residential receiver categories applies” of the NPfI provides guidance 
+on assigning residential receiver noise categories. It presents three methods for determining which of 
+the residential receiver noise categories apply. The three methods presented are: 
+• typical planning zoning (column 2 of NPfI Table 2.3); 
+• typical existing background noise levels (column 3 of NPfI Table 2.3); and 
+• description of the acoustical environment (column 4 of NPfI Table 2.3). 
+Given that the NPfI is unclear about which of these three methods is preferred compared to the other 
+methods, the NSW EPA (Noise) has been consulted. It is understood that the use of typical planning 
+zoning (column 2 of NPfI Table 2.3) is the starting point in the process for determining which receiver 
+noise category applies, and a further review of the noise environment can be undertaken looking at 
+background noise levels (column 3 of NPfI Table 2.3) and the acoustical environment (column 4 of NPfI 
+Table 2.3), to support and justify a different receiver noise category. Particular reference was made 
+during the consultation, to the note in the description column of NPfI Table 2.3 under Rural residential, 
+which supports the consideration of a higher noise amenity area where background noise levels are 
+higher than those presented in column 3 of NPfI Table 2.3. The advice given in relation to this is that the 
+principle of considering higher noise amenity based on high background noise levels applies to any 
+category (the whole NPfI Table 2.3).  
+Furthermore, the NSW EPA made reference to the Fact Sheet E: Worked case studies in the NPfI, which 
+make reference to the use of existing background noise levels to justify and support the selected 
+receiver noise category. During the consultation, particular reference was made to Case Study E4 where 
+a change of residential amenity category based on the acoustic environment prevailing at the receiver 
+location is illustrated. In this case study, the receiver locations to the east have a zoning of R5 which 
+would attract a rural residential amenity category, however they have been classified as suburban 
+residential based on higher traffic noise levels prevailing in the area. 
+[[page 29]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 19 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Assigning a noise category based on planning zoning alone provides for a conservative assessment 
+without giving any consideration to the existing acoustic environment. In accordance with Ryde City 
+Council Local Environmental Plan 2014, the potentially impact residential receivers nearby the 
+development are located within the following land zoning: 
+• NCA1 – located within R4 (High Density Residential), which falls into ‘Urban’ category of 
+column 2 of NPfI Table 2.3 
+• NCA2 – located within B3 (Commercial Core) or B4 (Mixed Use), which falls into ‘Urban’ 
+category of column 2 of NPfI Table 2.3 
+• NCA3 – located within R2 (Low Density Residential), which falls into ‘Suburban’ category of 
+column 2 of NPfI Table 2.3.  
+As such, by the appropriate amenity category have been based upon the conservative approach of 
+planning zoning alone. 
+The project amenity noise levels (LAeq, 15min) applied for the Project are reproduced in Table 14 below. 
+Table 15: Project amenity noise levels 
+Type of receiver Noise amenity 
+area Time of day 
+Recommended  
+noise level, dB(A) 
+LAeq, Period LAeq, 15min 
+Residence (NCA1 and NCA2) Urban Day 60 – 5 = 55 55 + 3 = 58 
+Evening 50 – 5 = 45 45 + 3 = 48 
+Night 45 – 5 = 40 40 + 3 = 43 
+Residence (NCA3) Suburban Day 55 – 5 = 50 50 + 3 = 53 
+Evening 45 – 5 = 40 40 + 3 = 43 
+Night 40 – 5 = 35 35 + 3 = 38 
+Hotels / motels4 Urban Day 65 – 5 = 60 60 + 3 = 63 
+Evening 55 – 5 = 50 50 + 3 = 53 
+Night 50 – 5 = 45 45 + 3 = 48 
+School classroom (internal)5 All Noisiest 1-hour 
+period when in use 
+40 – 5 = 35 35 + 3 = 38 
+School classroom (adjacent to site – R13) 
+(internal)5 
+All Noisiest 1-hour 
+period when in use 
+40 – 3 = 37 37 + 3 = 40 
+Hospital ward All Noisiest 1-hour 50 – 5 = 45 45 + 3 = 48 
+Active recreation area (childcare play area) All When in use 55 – 5 = 50 50 + 3 = 53 
+Commercial Premises All When in use 65 – 5 = 60 60 + 3 = 63 
+Commercial Premises (adjacent to site - 
+R19, R20 & R22)  
+All When in use 65 – 3 = 62 62 + 3 = 65 
+[[page 30]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 20 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Type of receiver Noise amenity 
+area Time of day 
+Recommended  
+noise level, dB(A) 
+LAeq, Period LAeq, 15min 
+Notes: 1. Daytime 7.00 am to 6.00 pm; Evening 6.00 pm to 10.00 pm; Night -time 10.00 pm to 7.00 am. 
+2. On Sundays and Public Holidays, Daytime 8.00 am - 6.00 pm; Evening 6.00 pm - 10.00 pm; Night-time 10.00 pm - 8.00 am 
+3. The LAeq index corresponds to the level of noise equivalent to the energy average of noise levels occurring over a 
+measurement period. 
+4. In accordance with the NPfI Table 2.2, 5 dB(A) above the recomm ended amenity noise level for a residence for the 
+relevant noise amenity area and time of day 
+5. In the case where existing schools are affected by noise from existing industrial noise sources, the acceptable L Aeq noise 
+level may be increased to 40 dB LAeq(1hr) 
+3.3.3 Project noise trigger levels 
+In accordance with the NPfI the project noise trigger levels, which are the lower (i.e. more stringent) 
+value of the project intrusiveness noise level and project amenity noise level, have been determined as 
+shown in Table 16 below. 
+Table 16 Project noise trigger levels 
+Receiver location Time of 
+Day1,2 
+Intrusiveness noise 
+level, LAeq,15min dB(A) 
+Project amenity 
+noise levels LAeq, 
+15min dB(A) 
+LAeq, 15min Project 
+noise trigger levels, 
+dB(A) 
+Residential Receiver NCA1 Day 50 58 50 
+Evening 50 48 48 
+Night 43 43 43 
+NCA2 Day 57 58 57 
+Evening 53 48 48 
+Night 45 43 43 
+NCA3 Day 47 53 47 
+Evening 47 43 43 
+Night 38 38 38 
+[[page 31]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 21 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Receiver location Time of 
+Day1,2 
+Intrusiveness noise 
+level, LAeq,15min dB(A) 
+Project amenity 
+noise levels LAeq, 
+15min dB(A) 
+LAeq, 15min Project 
+noise trigger levels, 
+dB(A) 
+Hotels / motels Day - 63 63 
+Evening - 53 53 
+Night - 48 48 
+Childcare (external)3 Noisiest 1-
+hour period 
+when in use 
+- 58 58 
+Childcare play area - 53 53 
+School classroom (external)3 Noisiest 1-
+hour period 
+when in use 
+- 58 58 
+School classroom (adjacent to site – R13) 
+(external)3 
+Noisiest 1-
+hour period 
+when in use 
+- 60 60 
+Hospital ward Noisiest 1-
+hour 
+- 48 48 
+Commercial When in use - 63 63 
+Commercial Premises (adjacent to site - 
+R19, R20 & R22) When in use - 65 65 
+Notes: 1. Daytime 7.00 am to 6.00 pm; Evening 6.00 pm to 10.00 pm; Night -time 10.00 pm to 7.00 am. 
+2. On Sundays and Public Holidays, Daytime 8.00 am - 6.00 pm; Evening 6.00 pm - 10.00 pm; Night-time 10.00 pm - 
+8.00 am 
+3. Conversion of trigger levels from internal to external for childcare and school classroom assumes 20 dB(A) loss from 
+outside to inside through a closed window. 
+4. For a residence, the project noise trigger level and maximum noise levels are to be assessed at the reasonably most-
+affected point on or within the residential property boundary.  
+5. For commercial or industrial premises the noise level is to be assessed at the reasonably most -affected point on or 
+within the property boundary. 
+3.4 Sleep disturbance noise levels 
+The potential for sleep disturbance from maximum noise level events from premises during the night-
+time period needs to be considered. In accordance with NPfI, a detailed maximum noise level event 
+assessment should be undertaken where the subject development night-time noise levels at a 
+residential location exceed: 
+• LAeq,15min 40 dB(A) or the prevailing RBL plus 5 dB, whichever is the greater, and/or 
+• LAFmax 52 dB(A) or the prevailing RBL plus 15 dB, whichever is the greater. 
+Where there are noise events found to exceed the initial screening level, further analysis is undertaken 
+to identify: 
+• The likely number of events that might occur during the night assessment period, 
+• The extent to which the maximum noise level exceeds the rating background noise level. 
+The sleep disturbance noise levels for the project are presented in Table 17.  
+[[page 32]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 22 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Table 17:  Sleep disturbance assessment levels 
+Receiver type Assessment Level LAeq,15min Assessment Level LAFmax 
+NCA1 38 + 5 = 43 38 + 15 = 53 
+NCA2 40 + 5 = 45 40 + 15 = 55 
+NCA3 40 52 
+The night-time noise sources associated with the Project are steady-state, and therefore there is unlikely 
+to be significant variation between LAeq,15min values and LAFmax values, hence compliance with the more 
+stringent project trigger noise level presented in Table 16 will result in compliance with the project’s 
+sleep disturbance criteria set out in Table 17. 
+3.5 Road traffic noise 
+Noise impacts from the potential increases in traffic on the surrounding road network due to 
+construction and operational activities from the Project is assessed in accordance with the NSW Road 
+Noise Policy (DECCW, 2011) (RNP). The RNP sets out criteria to be applied to particular types of road 
+and land uses. These noise criteria are to be applied when assessing noise impact and determining 
+mitigation measures for sensitive receivers that are potentially affected by road traffic noise associated 
+with the construction and operation of the subject site, with the aim of preserving the amenity 
+appropriate to the land use.   
+The Project will be using sub-arterial / arterial roads and not local roads. Therefore, for existing 
+residences affected by additional traffic on existing sub-arterial / arterial roads generated by land use 
+developments, the following RNP road traffic noise criteria would apply.   
+Table 18: RNP Road Traffic Noise Criteria, dB(A) 
+Road Category Type of Project/Land Use 
+Assessment Criteria, dB(A) 
+Day      
+7am – 10pm 
+Night  
+10pm – 7am 
+Freeway/arterial/sub-
+arterial roads 
+3. Existing residences affected by additional traffic on 
+existing freeways/arterial/sub-arterial roads generated by 
+land use developments 
+LAeq,( 15 hour) 60 
+(external) 
+LAeq,(9 hour) 55 
+(external) 
+Further to the above, the RNP states the following for land use developments generating additional 
+traffic: 
+“For existing residences and other sensitive land uses affected by additional traffic on existing roads 
+generated by land use development, any increase in the total traffic noise level should be limited to 2 
+dB above that of the corresponding ‘no build option’.” 
+The RNP states that in assessing feasible and reasonable mitigation measures, an increase of up to 2 dB 
+represents a minor impact that is considered barely perceptible to the average person. 
+ 
+[[page 33]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 23 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+4 Construction noise and vibration assessment 
+4.1 Background 
+Construction activities associated with the proposed development will result in increased noise levels 
+during construction hours. The works undertaken in the various stages consist of a mixture of both high 
+and low noise activities. This assessment identifies potentially noisy activities, their impacts on 
+surrounding receivers and outlines management strategies to control the impacts of noise and vibration 
+during the construction stages of the project. 
+4.2 Construction hours 
+Construction works for the Project are proposed to take place during and outside the ICNG standard 
+construction hours, detailed in Section 3.1.1. These hours are summarised below in Table 19 along with 
+the proposed associated construction activity, which is further detailed in Section 4.4.1. 
+Table 19: Construction hours and associated proposed activity 
+ Defined hours Proposed Construction Activity 
+Standard 
+hours 
+• Monday to Friday 7:00am to 6:00pm 
+• Saturday 8:00am to 1:00pm 
+• No work performed on Sunday and Public Holidays 
+ 
+All activities: 
+• Minor earthworks and civil works 
+• Building construction 
+• Building fit-out 
+ 
+Extended 
+hours 
+Period 1 
+• Monday to Friday 6:00am to 7:00am and 6:00pm to 7:00pm 
+• Saturday 6:00am to 8:00am and 1:00pm to 5:00pm 
+• Sunday 7:00am to 3:00pm  
+• Building construction 
+• Building fit-out 
+ 
+Extended 
+hours 
+Period 2 
+Remaining hours 
+• Monday to Friday 7:00pm to 6:00am 
+• Saturday 5:00pm to 6:00am 
+• Sunday 3:00pm to 7:00am 
+• Internal fit-out works with hand 
+tools only – Only when building 
+fabric has been completed 
+• No external activities, only light 
+vehicles accessing site 
+4.3 Receiver locations 
+The identified receiver locations were outlined in Table 3 and shown on Figure 1. 
+4.4 Construction noise and vibration activities and assumptions 
+4.4.1 Construction works and activities  
+An assessment of the potential level of construction noise and vibration impact has been carried out to 
+determine whether mitigation would be required, and to determine appropriate management controls. 
+Specific construction equipment requirements are not yet known. The type and number of plant and 
+equipment associated with the proposed works was assumed based upon experience with similar noise 
+assessments.  
+[[page 34]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 24 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Prior to the commencement of construction, the final construction details should be reviewed against 
+the assumptions in this report to ensure that the mitigation and management measures that will be 
+implemented remain consistent with these assumptions, and appropriate for the project. 
+The approximate phases and duration of works are presented in Table 20. 
+Table 20: Approximate construction phases and duration of works 
+Stage / Description Details  Time frame 
+Stage 1 - Minor earthworks and civil works Minor earthworks and civil works, including piling 6 months 
+Stage 2 - Building construction Construction of the main building structure 6 months 
+Stage 3 - Building fit-out Deliveries and fitout of the datacentre, deliveries of 
+operational plant and equipment 
+9 months 
+4.4.2 Construction traffic  
+The worksite will generate additional traffic movements in the form of: 
+• Light vehicle movements generated by construction personnel travelling to and from work 
+• Heavy vehicle movements generated by: 
+− Delivery vehicles bringing raw materials, plant, and equipment to the site 
+− Concrete trucks 
+Construction traffic on the site is included as part of the construction noise assessment of the work 
+activities identified in Section 4.4.1. When construction-related traffic moves on the public road network, 
+a different noise assessment methodology is appropriate as vehicle movements would be regarded as 
+additional road traffic on public roads rather than as part of the construction site's activities. 
+Access to the site will be from Talavera Road. The estimated daily number of heavy vehicles accessing 
+the site will be up to 50 trucks per day during peak periods or an average of 5 per hour, over a standard 
+10 hour work day. This volume of truck traffic is not expected to significantly alter existing traffic noise 
+and for the majority of the construction works will be significantly lower. Furthermore, there are no 
+residential receivers located along Talavera Road. 
+Construction traffic from the site on public roads is predicted not to be a significant noise impact and is 
+not further addressed in this report. 
+4.4.3 Construction noise sources 
+The schedule of items of plant and equipment likely to be used during the construction phases of the 
+Proposal is presented in Table 21 below. 
+[[page 35]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 25 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Table 21: Typical construction equipment & sound power levels, dB(A) re 1pW 
+Plant item Plant description Estimated number of items Sound power levels 
+LAeq(15min) 
+Stage 1 - Minor earthworks and civil works 
+1 Vibratory Roller 1 1131 
+2 Grader 1 109 
+3 Pilling Rig – Bored 1-2 108 
+4 Dump Trucks 1-2 108 
+5 Watercart 1 104 
+6 Excavator (35T) 1 103 
+7 Franna Crane 1-2 99 
+Stage 2 - Building construction 
+8 Concrete trucks 2 108 
+9 Delivery trucks 2 108 
+10 Hand tools Various 107 
+11 Mobile crane 1 105 
+12 Concrete pump 2 102 
+13 Concrete vibrator 4 99 
+14 Non-powered hand tools Various 98 
+Stage 3 - Building fit-out 
+15 Delivery trucks 2 108 
+16 Hand tools Various 107 
+17 Bobcat 1 102 
+18 Scissor lift 2 99 
+19 Non-powered hand tools Various 98 
+Notes 1. A 5 dB(A) penalty has been factored into the sound power level to allow for particularly annoying activities  
+The sound power levels for the majority of construction plant and equipment presented in the above 
+table are based on maximum noise levels given in Table A1 of Australian Standard 2436 - 2010 ‘Guide to 
+Noise Control on Construction, Demolition and Maintenance Sites’, the Interim Construction Noise 
+Guideline (ICNG), information from past projects and/or information held in our library files. 
+4.5 Construction noise and vibration assessment 
+4.5.1 Predicted noise levels 
+Noise levels at any receiver location resulting from construction works would depend on the location of 
+the receiver with respect to the area of construction, shielding from intervening topography and 
+structures, and the type and duration of construction being undertaken. Furthermore, noise levels at 
+receivers would vary significantly over the total construction program due to the transient nature and 
+large range of plant and equipment that could be used. 
+[[page 36]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 26 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Noise emissions were determined by modelling the noise sources, receiver locations, and operating 
+activities, based on the information presented in Section 4.4.1.  
+Table 22 presents noise levels likely to be experienced at the nearby affected receivers based on the 
+construction activities and plant and equipment associated with the proposed site. The noise level range 
+presented represents the plant item operating at a location furthest from the receiver and a location 
+closest to the receiver. Noise levels were calculated taking into consideration attenuation due to 
+distance between the construction works and the receiver locations and any intervening structures. The 
+noise predictions are conservative and do not incorporate acoustic shielding provided by hoarding. For 
+the internal Building Fit-out works, the predictions include a modest 20 dB(A) loss from outside to inside 
+through the completed building fabric. 
+The worst affected receivers for are typically in the first row of houses/apartments back from the Project 
+site, with direct line-of-sight to the construction work area. Receivers in the next row of 
+houses/apartments back from the Project, or receivers without direct line-of-sight to the construction 
+area would typically be exposed to construction noise levels 5 to 10 dB(A) lower than the levels 
+predicted for the worst affected receivers. 
+ 
+[[page 37]]
+ 
+ 
+RENZO TONIN & ASSOCIATES 
+4 NOVEMBER 2021 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 
+27 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+Table 22: Predicted LAeq(15min) noise levels for typical construction plant, dB(A) 
+Plant 
+Item Plant description 
+Predicted LAeq(15min) construction noise levels 
+NCA1 NCA2 NCA3 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 
+NML (external) – Standard hours 
+Mon-Fri – 7:00am to 6:00pm 
+Sat – 8:00am to 1:00pm 
+55 62 52 
+65- classroom 
+65- playground 
+65 65 70 
+NML (external) – Outside Standard hours 
+Mon-Fri – 6:00am to 7:00am & 6:00pm to 
+7:00pm  
+Sat – 6:00am to 8:00am & 1:00pm to 
+5:00pm 
+Sun – 7:00am to 3:00pm 
+50 57 47 
+Stage 1 - Minor earthworks and civil works 
+1 Vibratory Roller (6T) 29-50 46-50 32-43 27-47 31-38 31-56 39-58 42-45 55-69 25-45 52-56 27-35 37-41 38-42 38-56 36-53 62-67 59-71 
+2 Grader 25-46 42-46 28-39 23-43 27-34 27-52 35-54 38-41 51-65 21-41 48-52 23-31 33-37 34-38 34-52 32-49 58-63 55-67 
+3 Pilling Rig – Bored 24-45 41-45 27-38 22-42 26-33 26-51 34-53 37-40 50-64 20-40 47-51 22-30 32-36 33-37 33-51 31-48 57-62 54-66 
+4 Dump Trucks 24-45 41-45 27-38 22-42 26-33 26-51 34-53 37-40 50-64 20-40 47-51 22-30 32-36 33-37 33-51 31-48 57-62 54-66 
+5 Watercart 20-41 37-41 23-34 18-38 22-29 22-47 30-49 33-36 46-60 16-36 43-47 18-26 28-32 29-33 29-47 27-44 53-58 50-62 
+6 Excavator (35T) 19-40 36-40 22-33 17-37 21-28 21-46 29-48 32-35 45-59 15-35 42-46 17-25 27-31 28-32 28-46 26-43 52-57 49-61 
+7 Franna Crane 15-36 32-36 18-29 13-33 17-24 17-42 25-44 28-31 41-55 11-31 38-42 13-21 23-27 24-28 24-42 22-39 48-53 45-57 
+Three noisiest plant operating concurrently 31-53 49-53 35-45 29-49 34-40 33-59 41-60 44-48 57-71 27-47 54-59 29-38 40-43 41-45 41-58 38-56 65-70 61-73 
+Stage 2 -Building construction 
+8 Concrete trucks 24-45 41-45 27-38 22-42 26-33 26-51 34-53 37-40 50-64 20-40 47-51 22-30 32-36 33-37 33-51 31-48 57-62 54-66 
+9 Delivery trucks 24-45 41-45 27-38 22-42 26-33 26-51 34-53 37-40 50-64 20-40 47-51 22-30 32-36 33-37 33-51 31-48 57-62 54-66 
+10 Hand tools 23-44 40-44 26-37 21-41 25-32 25-50 33-52 36-39 49-63 19-39 46-50 21-29 31-35 32-36 32-50 30-47 56-61 53-65 
+11 Mobile crane 21-42 38-42 24-35 19-39 23-30 23-48 31-50 34-37 47-61 17-37 44-48 19-27 29-33 30-34 30-48 28-45 54-59 51-63 
+12 Concrete pump 18-39 35-39 21-32 16-36 20-27 20-45 28-47 31-34 44-58 14-34 41-45 16-24 26-30 27-31 27-45 25-42 51-56 48-60 
+13 Concrete vibrator 15-36 32-36 18-29 13-33 17-24 17-42 25-44 28-31 41-55 11-31 38-42 13-21 23-27 24-28 24-42 22-39 48-53 45-57 
+14 Non-powered hand tools 14-35 31-35 17-28 12-32 16-23 16-41 24-43 27-30 40-54 10-30 37-41 12-20 22-26 23-27 23-41 21-38 47-52 44-56 
+Three noisiest plant operating concurrently 28-50 46-50 32-42 26-46 31-37 30-56 38-57 41-45 54-69 24-44 51-56 26-35 37-40 38-42 38-55 35-53 62-67 58-70 
+Stage 3 - Building fit-out – External works or works prior to building fabric completion 
+15 Delivery trucks 24-45 41-45 27-38 22-42 26-33 26-51 34-53 37-40 50-64 20-40 47-51 22-30 32-36 33-37 33-51 31-48 57-62 54-66 
+16 Hand tools 23-44 40-44 26-37 21-41 25-32 25-50 33-52 36-39 49-63 19-39 46-50 21-29 31-35 32-36 32-50 30-47 56-61 53-65 
+[[page 38]]
+ 
+ 
+RENZO TONIN & ASSOCIATES 
+4 NOVEMBER 2021 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 
+28 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+Plant 
+Item Plant description 
+Predicted LAeq(15min) construction noise levels 
+NCA1 NCA2 NCA3 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 
+17 Bobcat 18-39 35-39 21-32 16-36 20-27 20-45 28-47 31-34 44-58 14-34 41-45 16-24 26-30 27-31 27-45 25-42 51-56 48-60 
+18 Scissor lift 15-36 32-36 18-29 13-33 17-24 17-42 25-44 28-31 41-55 11-31 38-42 13-21 23-27 24-28 24-42 22-39 48-53 45-57 
+19 Non-powered hand tools 14-35 31-35 17-28 12-32 16-23 16-41 24-43 27-30 40-54 10-30 37-41 12-20 22-26 23-27 23-41 21-38 47-52 44-56 
+Three noisiest plant operating concurrently 27-48 44-48 31-41 25-45 29-36 29-55 37-56 40-44 53-67 23-43 50-54 25-33 35-39 36-40 37-54 34-52 61-66 57-69 
+Stage 3 - Building fit-out – Internal works once building fabric is complete1 
+16 Hand tools 24 24 17 21 12 30 32 19 43 19 30 9 15 16 30 27 41 45 
+19 Non-powered hand tools 15 15 8 12 3 21 23 10 34 10 21 0 6 7 21 18 32 36 
+Notes 1. Includes a modest 20 dB(A) loss from outside to inside through the completed building fabric . Only the maximum prediction shown. 
+[[page 39]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 29 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+4.5.1.1 Standard construction hours 
+The predicted noise levels presented above indicate that the noise levels during the  three stages of 
+construction are likely to achieve the NML at most of the nearby sensitive receivers and at all residential 
+locations. At two receivers adjacent to the site R13 (Excelsia College - 63-71 Waterloo Road) and R22 (1-
+5 Khartoum Road, Macquarie Park), there may be times when loud equipment or a number of concurrent 
+construction activities may result in construction noise levels being over the NML, particularly when these 
+activities are operating near to the corresponding receiver location.  
+In addition, no residential receivers are predicted to be highly noise affected (i.e., exposed to noise levels 
+greater than 75 dB(A)).  
+In light of the predicted noise levels above, it is recommended that a feasible and reasonable approach 
+towards noise mitigation measures be applied to reduce noise levels as much as possible to mitigate 
+the impact from construction noise. Further details on construction noise mitigation and management 
+measures are provided in Section 4.5.2 below. 
+4.5.1.2 Outside standard construction hours - Period 1 
+Once Stage 1 (Minor Earthworks and Civil Works) is complete, Stage 2 (Building Construction) and Stage 
+3 (Building fit -out) are proposed to  be undertaken during the defined Outside Standard Construction 
+Hours Period 1 (OSH Period 1). 
+The predicted noise levels presented above indicate that the noise levels during the se two stages of 
+construction are likely to achieve the NML at all of the nearby sensitive receivers, including the residential 
+locations. Predictions show that construction noise levels might be slightly above the noise management 
+levels at R13 ( Excelsia College  - 63-71 Waterloo Road ) but this receiver is not operational during th is 
+period. 
+It is recommended that a feasible and reasonable approach towards noise mitigation measures be 
+applied to reduce noise levels as much as possible to mitigate the impact from construction noise. 
+Further details on construction noise mitigation and management measures, including noise monitoring 
+recommendations, are provided in Section 4.5.2 below. 
+4.5.1.3 Outside standard construction hours - Period 2 
+Once Stage 1 (Minor Earthworks and Civil Works) and Stage 2 (Building Construction) is complete, certain 
+Stage 3 (Building fit -out) works are proposed to be undertaken during the defined Outside Standard 
+Construction Hours Period 2 (OSH Period 2). 
+During this period, the internal fit-out works will be restricted to hand tools only and only occur when the 
+building fabric has been completed. In addition, there will be no external activities other than construction 
+workers in light vehicles arriving/departing the site.  
+The predicted noise levels presented above indicate that the noise levels during these works are likely to 
+be inaudible at the nearby sensitive receivers and/or the receivers will not be in use. The highest external 
+[[page 40]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 30 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+prediction at each receiver type is outlined below. In addition, once losses from outside to inside are 
+accounted for through open and closed windows, the predicted noise levels are minimal. 
+• Residential: 24dB(A) 
+• Childcare:  32dB(A)  
+• Education:  43dB(A) 
+• Medical:  30dB(A) 
+• Commercial: 45dB(A) 
+In regard to sleep disturbance from the light vehicles on site, based on a LAmax sound power level of 
+97dB for engine starting/door closing, the maximum noise level prediction at the nearest residential 
+receivers is less than 10dB(A). As such, the potential for sleep disturbance impacts is negligible. 
+It is recommended that a feasible and reasonable approach towards noise mitigation measures be 
+applied to reduce noise levels as much as possible to mitigate the impact from construction noise. 
+Further details on construction noise mitigation and management measures, including noise monitoring 
+recommendations, are provided in Section 4.5.2 below. 
+4.5.2 Construction noise mitigation measures 
+4.5.2.1 General engineering noise controls 
+Implementation of noise control measures, such as those suggested in Australian Standard 2436-2010 
+‘Guide to Noise Control on Construction, Demolition and Maintenance Sites’, are expected to reduce 
+predicted construction noise levels. 
+Reference to Australian Standard 2436-2010, Appendix C, Table C1 suggests possible remedies and 
+alternatives to reduce noise emission levels from typical construction equipment. Table C2 in Appendix 
+C presents typical examples of noise reductions achievable after treatment of various noise sources. 
+Table C3 in Appendix C presents the relative effectiveness of various forms of noise control treatment. 
+Table 23 below presents noise control methods, practical examples and expected noise reductions 
+according to AS 2436 and according to Renzo Tonin & Associates’ opinion based on experience with 
+past projects. 
+Table 23: Relative effectiveness of various forms of noise control 
+Noise control 
+method Practical examples 
+Typical noise reduction 
+possible in practice, dB(A) 
+Maximum noise reduction 
+possible in practice, dB(A) 
+AS 2436 Renzo Tonin 
+& Assoc. AS 2436 Renzo Tonin 
+& Assoc. 
+Distance Doubling of distance between source and 
+receiver 6 6 6 6 
+[[page 41]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 31 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Noise control 
+method Practical examples 
+Typical noise reduction 
+possible in practice, dB(A) 
+Maximum noise reduction 
+possible in practice, dB(A) 
+AS 2436 Renzo Tonin 
+& Assoc. AS 2436 Renzo Tonin 
+& Assoc. 
+Screening 
+Acoustic barriers such as temporary or 
+permanent noise barriers where barrier breaks 
+line-of-sight between the source and receiver 
+5 to 10 5 to 10 15 15 
+Acoustic 
+enclosures 
+Engine casing lagged with acoustic insulation 
+and plywood 15 to 25 10 to 20 50 30 
+Engine 
+Silencing Residential class mufflers 5 to 10 5 to 10 20 20 
+Substitution 
+by alternative 
+process 
+Use electric motors in preference to diesel or 
+petrol - 15 to 25 - 40 
+The Renzo Tonin & Associates’ listed noise reductions are conservatively low and should be referred to 
+in preference to those of AS2436. 
+Table 24 below identifies possible noise control measures, which are applicable on the construction 
+plant likely to be used on site. 
+Table 24: Possible noise control measures for likely construction plant 
+Plant Description Screening Acoustic 
+enclosures Silencing Alternative 
+process 
+Tracked Excavator     
+Piling Rig     
+Grader     
+Concrete truck     
+Delivery trucks     
+Mobile crane     
+Hand tools     
+4.5.2.2 Noise management measures 
+The following recommendations provide feasible and reasonable noise control solutions to reduce noise 
+impacts to sensitive receivers. A strong justification must be provided for not implementing the 
+proposed measures if they are later determined on-site not to be feasible or reasonable. 
+The advice provided here is in respect of acoustics only. Supplementary professional advice may need to 
+be sought in respect of fire ratings, structural design, buildability, fitness for purpose and the like. 
+General noise management measures 
+The following general noise management measures are recommended for all receiver locations: 
+• Use less noisy plant and equipment, where feasible and reasonable. 
+[[page 42]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 32 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+• Plant and equipment must be properly maintained. 
+• Provide special attention to the use and maintenance of ‘noise control’ or ‘silencing’ kits 
+fitted to machines to ensure they perform as intended. 
+• Strategically position plant on site to reduce the emission of noise to the surrounding 
+neighbourhood and to site personnel. 
+• Avoid any unnecessary noise when carrying out manual operations and when operating 
+plant. 
+• Any equipment not in use for extended periods during construction work must be switched 
+off. 
+• Simultaneous operation of noisy plant within discernible range of a sensitive receiver is to be 
+limited/avoided where possible. 
+• The offset distance between noisy plant and adjacent sensitive receivers is to be maximised 
+where practicable. 
+• Plant used intermittently to be throttled down or shut down when not in use where 
+practicable. 
+• Noise-emitting plant to be directed away from sensitive receivers where possible. 
+• Staging of construction works so as to erect solid external walls first and utilising them to 
+provide noise shielding to the noise sensitive receivers. However, the structural integrity of 
+the external walls should be investigated prior to implementing this measure and should be 
+prioritised over the noise benefits. 
+• In addition to the noise mitigation measures outlined above, a management procedure will 
+need to be put in place to deal with noise complaints that may arise from construction 
+activities. Each complaint will need to be investigated and appropriate noise amelioration 
+measures put in place to mitigate future occurrences, where the noise in question is in excess 
+of allowable limits.  
+• Good relations with people living and working in the vicinity of a construction site should be 
+established at the beginning of a project and be maintained throughout the project, as this is 
+of paramount importance. Keeping people informed of progress and taking complaints 
+seriously and dealing with them expeditiously is critical. The person selected to liaise with the 
+community must be adequately trained and experienced in such matters. 
+Additional measures to be considered 
+Other potential mitigation measures include: 
+• Use of broadband “quacker” type of reverse/movement alarms instead of the tonal ‘beeping” 
+type. 
+[[page 43]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 33 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+• All employees, contractors and subcontractors are to receive site induction and toolbox talks 
+and ongoing training so that the above noise management measures are implemented 
+accordingly. Content within toolboxes will include, location of nearest sensitive receivers; 
+relevant project specific and standard noise and vibration mitigation measures; permissible 
+hours of work, truck route and truck loading restrictions and construction employee parking 
+areas. 
+• Consultation with Excelsia College (R13) (63-71 Waterloo Road, Macquarie Park), to inform 
+consideration of appropriate feasible and reasonable noise management measures during 
+noise intensive periods of construction.  
+Noise Monitoring 
+The following approach should be adopted with regard to noise monitoring procedures during the 
+construction works.  
+• Where potential noise impacts are predicted to be 10dB(A) above the noise criteria during 
+standard construction hours, the potential construction noise nuisance is considered to be 
+moderate. Noise monitoring should be carried out to confirm predicted noise impacts within 
+two weeks of commencement of construction. Reasonable and feasible noise reduction 
+measures must be investigated, where necessary. 
+• Where potential noise impacts are predicted to be 5dB(A) above the noise criteria during 
+outside of standard construction hours, noise monitoring should be carried out to confirm 
+predicted noise impacts within two weeks of commencement of construction. Reasonable 
+and feasible noise reduction measures must be investigated, where necessary. 
+• In the event of noise complaints, noise reduction measures (where reasonable and feasible) 
+must be implemented and noise monitoring should undertaken to assist in managing noise 
+levels. 
+4.5.3 Vibration assessment 
+4.5.3.1 Minimum working distances 
+The pattern of vibration radiation is very different to the pattern of airborne noise radiation and is very 
+site specific as final vibration levels are dependent on many factors including the actual plant used, its 
+operation and the intervening geology between the activity and the receiver. Potential vibration 
+generated at receivers for this project will be dependent on separation distances, the intervening soil 
+and rock strata, dominant frequencies of vibration and the receiver building’s construction and 
+structure.  
+The recommended minimum working distances for vibration intensive plant are presented in Table 25.  
+[[page 44]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 34 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Table 25: Recommended minimum working distances for vibration intensive equipment 
+Plant item 
+Minimum working distance, m 
+Cosmetic damage Human disturbance 
+Commercial 
+and 
+industrial 
+buildings1 
+Dwellings 
+and similar 
+structures1 
+Sensitive 
+structures 
+(e.g. 
+heritage)1 
+Residences 
+Day2 
+Offices 
+Truck traffic (over irregular surfaces) 5 5 10 15 10 
+Excavator 35T (travelling / digging) 5 5 10 20 10 
+Piling Rig (bored) 5 5 10 15 10 
+Grader 5 5 10 20 10 
+Vibratory Roller 6T 5 15 20 40 20 
+Notes: 1. Vibration limits referenced from DIN 4150 Structural Damage - Safe Limits for Short-term Building Vibration. 
+2. Daytime is 7 am to 10 pm; 
+Site specific buffer distances for vibration significant plant items must be measured on site where plant 
+and equipment is likely to operate close to or within the minimum working distances for cosmetic 
+damage.  
+As previously identified, unlike noise, vibration cannot be ‘predicted’ due to many variables from site to 
+site, for example soil type and conditions; sub surface rock; building types and foundations; and actual 
+plant on site. The data relied upon in this assessment (tabulated above) is taken from a database of 
+vibration levels measured at various sites or obtained from other sources (eg. BS 5228-2:2009). They are 
+not specific to this project as final vibration levels are dependent on many factors including the actual 
+plant used, its operation and the intervening geology between the activity and the receiver. 
+4.5.3.2 Potential vibration impacts 
+Based on the proposed plant items presented, vibration generated by construction plant was estimated 
+and potential vibration impacts are summarised in Table 26 below.  
+The assessment is relevant to the identified residential buildings and other similar type structures in the 
+project area and has been assessed against the vibration limits DIN 4150-3:2016 (see Section 3.2.2.2). 
+Receivers R1 to R12 and R14 to R18 are located greater than 100m from the works and considered to 
+have a low to negligible risk of vibration impact. 
+Table 26: Potential vibration for residential and commercial properties 
+Receiver 
+location1 
+Approx. distance to 
+nearest buildings 
+from works (m) 
+Group classification 
+in accordance with 
+Table 12 
+Assessment on potential vibration impacts 
+Structural 
+damage risk 
+Human 
+disturbance 
+Vibration 
+monitoring 
+R13 50 m Group 1 (commercial 
+/industrial) 
+Very low risk of 
+structural 
+damage from 
+construction 
+works 
+Low risk of adverse 
+comment as a 
+result of 
+construction works 
+Vibration 
+monitoring not 
+required 
+[[page 45]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 35 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Receiver 
+location1 
+Approx. distance to 
+nearest buildings 
+from works (m) 
+Group classification 
+in accordance with 
+Table 12 
+Assessment on potential vibration impacts 
+Structural 
+damage risk 
+Human 
+disturbance 
+Vibration 
+monitoring 
+R19 65 m Group 1 (commercial 
+/industrial) 
+Very low risk of 
+structural 
+damage from 
+construction 
+works 
+Low risk of adverse 
+comment as a 
+result of 
+construction works 
+Vibration 
+monitoring not 
+required 
+R20 90 m Group 1 (commercial 
+/industrial) 
+Very low risk of 
+structural 
+damage from 
+construction 
+works 
+Low risk of adverse 
+comment as a 
+result of 
+construction works 
+Vibration 
+monitoring not 
+required 
+R21 80 m Group 1 (commercial 
+/industrial) 
+Very low risk of 
+structural 
+damage from 
+construction 
+works 
+Low risk of adverse 
+comment as a 
+result of 
+construction works 
+Vibration 
+monitoring not 
+required 
+R22 35 m Group 1 (commercial 
+/industrial) 
+Very low risk of 
+structural 
+damage from 
+construction 
+works 
+Low risk of adverse 
+comment as a 
+result of 
+construction works 
+Vibration 
+monitoring not 
+required 
+Note: 1. The sources of vibration levels is the vibratory roller 6T. If alternative equipment with higher vibration levels are used, 
+there is an additional risk. 
+Based on the above assessment for the receivers surrounding the site, there is a low risk of vibration 
+impact. Nevertheless, potential vibration impacts should be reviewed during construction considering 
+site specific buffer distances for vibration significant plant items where plant and equipment is likely to 
+operate close to or within the minimum working distances for cosmetic damage at nearby vibration 
+sensitive receivers, and recommendations for reducing or managing potential vibration impacts are 
+provided in the following section. 
+4.5.3.3 Vibration mitigation measures 
+The following vibration management measures are provided to minimise vibration impact from 
+construction activities to the nearest affected receivers and to meet the relevant human comfort and 
+building damage vibration limits: 
+1. A management procedure should be implemented to deal with vibration complaints. Each 
+complaint should be investigated and where vibration levels are established as exceeding the 
+set limits, appropriate amelioration measures should be put in place to mitigate future 
+occurrences. 
+2. Where vibration is found to be excessive, management measures should be implemented to 
+ensure vibration compliance is achieved. Management measures may include modification of 
+construction methods such as using smaller equipment, establishment of safe buffer zones as 
+mentioned above, and if necessary, time restrictions for the most excessive vibration 
+activities. Time restrictions are to be negotiated with affected receivers. 
+[[page 46]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 36 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+3. Where construction activity occurs in close proximity to sensitive receivers (i.e. within the 
+minimum working distances within Table 25), vibration testing of actual equipment on site 
+should be carried out prior to their commencement of site operation to determine site-
+specific acceptable buffer distances to the nearest affected receiver locations. 
+4.5.4 Complaints management 
+Noise and vibration levels generated by construction activities associated with the construction of the 
+development must aim to comply with the noise and vibration goals set by the relevant regulations and 
+guidelines. 
+Owners and occupants of nearby affected properties are to be informed by direct mail of a direct 
+telephone line and contact person, where any noise and/or vibration complaints related to the 
+operation of the construction activities are to be reported. 
+[[page 47]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 37 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+5 Operational noise assessment 
+5.1 Operations noise sources 
+The noise sources associated with the operation of the Project are as follows: 
+• fixed mechanical plant, including emergency equipment (i.e. generators) 
+• staff vehicle movements and car parking 
+• loading dock activities 
+5.1.1 Mechanical equipment 
+5.1.1.1 Existing IC2 and IC3e 
+In order to address cumulative impacts, equipment from the existing IC2 and IC3e datacentres has been 
+considered. Currently, IC2 is operating at full capacity and IC3e is operating partial capacity, which will 
+increase over the next years.  
+Table 27 below summarises the plant and equipment for IC2 and IC3e that will be in place when these 
+datacentres operate at full capacity. The location of the main items of plant is shown in Figure 2. The 
+sound level data for the equipment and operational quantities were provided by the client based upon 
+information for the existing facility or measurements undertaken on site at the existing facility.  
+Table 27: IC2 and IC3e noise level data 
+Plant/equipment 
+and quantity Location  Descriptor 
+Overall 
+dB(A) 
+Octave Band Centre Frequency - Hz dB Notes1 
+63 125 250 500 1k 2k 4k 8k 
+IC2 Datacentre 
+DRUPS x 5 Level 1 Lp Leq @1m 105 82 94 97 96 98 99 99 98 - 
+Chillers x 5 Roof LW 95 93 96 98 93 89 84 77 74 - 
+Chiller x 1 Roof LW 97 93 99 96 95 93 86 82 74 - 
+Transformers x 6 Ground LW 81 68 86 84 83 70 60 54 57 - 
+AHU x 1 Roof LW 86 64 69 69 86 80 78 74 64 - 
+FCU Condenser x 1 Roof LW 94 106 102 100 91 84 73 63 57 - 
+Condenser x 4 Roof LW 75 76 80 76 74 69 63 57 55 - 
+Condenser x 2 Roof LW 80 82 82 80 80 74 68 65 60 - 
+Generators within 
+acoustic enclosure 
+and attenuators x 4 
+Roof – 
+eastern 
+side 
+Lp Leq @1m 73 88 86 74 64 61 57 57 66 Based on 
+measurements 
+conducted on site 
+on 02/05/2019 
+IC3e Datacentre 
+Cooling Towers x 6 Roof LW 95 99 97 98 93 89 81 77 74 - 
+Transformers x 7 Level 1&5 Lp Leq @1m 70 56 74 72 71 58 48 42 45 - 
+[[page 48]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 38 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Plant/equipment 
+and quantity Location  Descriptor 
+Overall 
+dB(A) 
+Octave Band Centre Frequency - Hz dB Notes1 
+63 125 250 500 1k 2k 4k 8k 
+Chillers x 6 Level 5 LW 104 90 95 95 93 92 96 101 90 - 
+Pumps x 6 Level 5 LW 92 87 85 85 84 83 83 89 74 - 
+Pumps x 4 Level 5 LW 90 85 83 83 82 81 81 87 72 - 
+Pumps x 6 Level 5 LW 88 83 81 81 80 79 79 85 70 - 
+Pumps x 2 Level 5 LW 81 76 74 74 73 72 72 78 63 - 
+AHU x 2 Roof LW 82 97 85 83 81 75 73 68 62 - 
+Condenser x 5 Roof LW 82 82 82 80 80 74 68 65 60 - 
+Condenser  Ground LW 82 82 82 80 80 74 68 65 60 - 
+Supply fan x 2 Roof LW 90 83 85 87 90 86 79 72 65 - 
+Exhaust fan x 3 Roof LW 77 64 75 76 74 72 69 63 49 - 
+Exhaust fan x 2 Roof LW 86 71 77 81 85 81 77 70 63 - 
+Generators with 
+attenuators x 82 
+Ground – 
+eastern 
+side 
+Outlet 
+(atmosphere 
+side) Lp Leq 
+@1m 
+60 77 67 65 53 49 46 47 33 Based on 
+measurements 
+conducted on site 
+on 04/03/2021 
+Note: 1. All noise levels, except for generators are based on unmitigated equipment 
+2. Generator engine is located within the data centre building  (inlet located within the semi-enclosed ground level) 
+5.1.1.2 IC3w equipment 
+Table 28 below summarises new mechanical services plant and equipment associated with IC3w. The 
+location of the main items of plant is shown in Figure 2. The sound level data for the equipment and 
+proposed quantities were provided by the client. Further detailed information about the main noise 
+generating equipment items is outlined in the sections following Table 28. 
+Table 28: IC3w noise level data 
+Plant/equipment and 
+quantity Location  Descriptor1 
+Overall 
+dB(A) 
+Octave Band Centre Frequency - Hz dB 
+63 125 250 500 1k 2k 4k 8k 
+Chillers x 8 Level 1 LW 105 91 96 96 94 93 97 102 91 
+Chilled water pump x 8 Level 1 Lp Leq @1m 77 - - - - - - - - 
+AHU x 8 Level 1 LW 83 95 95 87 78 72 67 60 54 
+CRAC x 84 Levels 2-5 LW 82 97 91 87 77 72 68 59 48 
+Cooling Towers x 8 Roof LW 93 99 96 90 88 87 85 84 84 
+Carpark Exhaust fan x 1 Outlet on roof LW 90 90 92 86 86 86 82 78 75 
+Condenser water Pumps x 8 Roof Lp Leq @1m 77 - - - - - - - - 
+Generators within acoustic 
+enclosure x 18 
+Roof Inlet with attenuator 
+Lp Leq @1m2 
+75 - - - - - - - - 
+Outlet with attenuator 
+Lp Leq @1m3 
+77 - - - - - - - - 
+Side of enclosure      
+Lp Leq @1m4 
+74 - - - - - - - - 
+[[page 49]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 39 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Plant/equipment and 
+quantity Location  Descriptor1 
+Overall 
+dB(A) 
+Octave Band Centre Frequency - Hz dB 
+63 125 250 500 1k 2k 4k 8k 
+Note: 1. All noise levels, except for generators are based on unmitigated equipment , that is no mitigation additional to that 
+adopted by the manufacturer.  
+2. Inlet area = 6.8m2 
+3. Outlet area = 12.8m2 
+4. Side of enclosure = 37.7m2 
+[[page 50]]
+ 
+ 
+RENZO TONIN & ASSOCIATES 
+4 NOVEMBER 2021 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT 
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 
+40 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+Figure 2: Location of main items of mechanical plant
+ 
+Generators 
+Cooling Towers 
+Cooling  
+Towers 
+Generators 
+Chillers 
+FCU/Condensers 
+Condensers/Fans 
+DRUP Outlets 
+Level 1 breakout 
+from DRUP inlet 
+Level 1 breakout from 
+generator outlets 
+Ground & Level 1 
+breakout from IC2e 
+generator inlets and 
+IC3w chillers 
+Carpark Access - 
+Ground & Level 1 
+breakout from IC3w 
+chillers and carpark 
+Location of worst located 
+generators that were modelled 
+for Scenario 2 (generator 
+maintenance testing) 
+[[page 51]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 41 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+5.1.1.2.1 Mechanical plant noise assumptions and mitigation measures 
+The following acoustic mitigation was developed with the project team in order to determine a design 
+that would achieve the required NPfI project trigger levels detailed in Section 3.3.3. 
+Generators acoustic treatment 
+The backup generator(s), listed in Table 28, will be located on the roof and housed within an acoustic 
+enclosure. Allowance within the purpose built enclosures has been made for intake and discharge 
+attenuators to each be up to 4.5 metres long. The backup generators would only be used temporary in 
+an emergency situation (i.e. where there is a grid power outage). During an emergency situation 16 of 
+the 18 generators would operate concurrently.  
+The exception is periodic maintenance testing, which would only occur during the daytime and one 
+generator would be operating at any one time. 
+Chillers and pumps 
+The chillers and pumps, listed in Table 28, will be located on the Level 1 plant zone. The plant zone will 
+be primarily enclosed. Any openings for ventilation and temperature control, may require acoustic 
+louvres to minimise noise emission emanating from the Ground Level and First Level of the building. 
+Internal noise levels within the Level 1 plant zone have been calculated, and the insertion loss of in-
+principle acoustic louvres is presented below has been assumed in the modelling based upon 50m2 of 
+façade louvres. The required performance of the acoustic louvres will be reviewed during detailed 
+design, subject to the final plant selection and required louvre areas. 
+Table 29: Level 1 plant zone acoustic louvre insertion loss 
+Item 
+Octave Band Centre Frequency - Hz dB 
+63 125 250 500 1k 2k 4k 8k 
+Acoustic louvres 3 7 9 13 15 16 15 14 
+Cooling towers 
+The cooling towers, listed in Table 28, will be located on the roof. This equipment has been carefully 
+selected to minimise noise emission. The modelled cooling towers have been assumed to include a a 
+manufacturer supplied super low sound fan. 
+Condensers and carpark extract fan 
+The condenser water pumps and outlet for the carpark exhaust fan, listed in Table 28, will be located on 
+the roof. It has been assumed that a minimum of 4 metres of 50mm internally lined ductwork will be 
+installed the discharge side of the carpark exhaust fan prior to the discharge point. In addition, a small 
+[[page 52]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 42 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+screen/parapet will be places on the northern side of the condenser water pumps. The screen is to 
+extend 0.5 metres above the top of the pumps. 
+5.1.1.2.2 In principle mechanical plant measures 
+At this stage of the development, appropriate detail for all of the mechanical plant is not available. 
+However, the biggest noise emitting items have been reviewed and addressed above and the remaining 
+items of plant would be readily treated with the below in-principle noise management measures, so that 
+they would not increase to the overall site noise emissions in order to achieve the criteria presented in 
+Section 3.3.3 during further design development stages. To ensure this, the following is required: 
+• Acoustic assessment of mechanical services equipment should be undertaken during the 
+detailed design phase of the development to ensure that the cumulative noise of all 
+equipment does not exceed the applicable noise criteria.  
+• Mechanical plant noise emission can be controlled by appropriate mechanical system design 
+and implementation of common engineering methods, which may include: 
+­ procurement of 'quiet' plant 
+­ strategic positioning of plant away from sensitive neighbouring premises to maximise 
+intervening acoustic shielding between the plant and sensitive neighbouring premises 
+­ commercially available acoustic attenuators for air discharge and air intakes of plant 
+­ acoustically lined and lagged ductwork 
+­ acoustic barriers between plant and sensitive neighbouring premises 
+­ partial or complete acoustic enclosures over plant 
+• The specification and location of mechanical plant should be confirmed prior to installation 
+on site, and 
+• Fans shall be mounted on vibration isolators and balanced in accordance with Australian 
+Standard 2625 'Rotating and Reciprocating Machinery - Mechanical Vibration'. 
+5.1.2 Staff vehicle movements and car parking 
+A carpark of 71 spaces will be provided on the ground level of the IC3w building. In accordance with 
+The Transport Planning Partnership prepared, 17-23 Talavera Road, Macquarie Park Transport Impact 
+Assessment, dated 25 October 2021 (Traffic Report) the carpark will service the 49 staff associated with 
+the entire site (IC2, IC3e and IC3w) and the number of vehicle trips per hour in the AM and PM peak 
+periods is 38.  
+Noise generated by car park activities includes vehicle doors closing, vehicle engines starting, vehicles 
+accelerating and vehicles moving. To assess this noise, the LAeq 15-minute noise level at the nearest affected 
+receivers was determined for each relevant period based on the number of vehicle movements expected 
+to occur during that period. For this assessment, the proposed staff requirements for the Project has 
+[[page 53]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 43 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+been reviewed to determine the maximum number of car movements within the carpark during each 
+assessment period. This distribution has considered the following: 
+• The data centres operate on a 24-hour, 7-days a week basis, so staff operate in shifts. For 
+each shift change, staff will arrive/depart 30mins either side of this time. 
+• The highest number of vehicle trips per hour during day, evening and night period is 38. 
+• In accordance with the Traffic Report, 77% of staff and visitors will arrive via car which will 
+generate a parking demand of 71 spaces (or 142 vehicle trips) per 24hr period. The potential 
+worst-case number of car movements is 89 during the daytime (7am to 10pm) and 53 during 
+the night-time (10pm to 7am). 
+• Staff are expected to travel either direction on Talavera Road and so the numbers were evenly 
+distributed in both directions. 
+The sound power levels generated by carpark activities on site are presented in the following table 
+sourced from the Renzo Tonin & Associates database. The majority of the noise will remain within the 
+carpark structure, with the main source of breakout being at the carpark entrance/exit located on the 
+western side of the building. 
+Table 30: Carpark activity sound power levels  
+Activity Metric Individual noise source sound power 
+level, LAeq,t dB(A) re. 1pW 
+Vehicle moving (10km/h)  Passby LW 79 
+Door slam LW+10log(t) 86 
+Engine start LW+10log(t) 92 
+5.1.3 Loading dock 
+The loading dock is located on the eastern side of the site. In accordance with the Traffic Report, waste 
+collection (the most common usage) is undertaken by an 9m Medium Rigid Vehicle. On very rare 
+occasions (1-2 times a year) a larger truck (19m length) maybe required to accommodate pant 
+upgrades. 
+Trucks would enter and exit via the Talavera Road eastern and western entries. Modelling of loading 
+dock operations were based upon sound power levels presented in Table 31, which have sourced from 
+the Renzo Tonin & Associates database of previous measured levels.  
+Table 31: Loading dock area activities sound power levels 
+Equipment / Plant Noise source / noise generating operation  
+Individual source/activity sound 
+power level  
+(SWL, re. 1pW), LAeq,t, dB(A) 
+9 metre rigid Moving onsite (20km/h) 106 
+Idling 96 
+[[page 54]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 44 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Equipment / Plant Noise source / noise generating operation  
+Individual source/activity sound 
+power level  
+(SWL, re. 1pW), LAeq,t, dB(A) 
+Prime mover Moving onsite (20km/h) 107 
+Idling 96 
+5.2 Noise prediction methodology 
+5.2.1 Modelling overview 
+Modelling and assessment of airborne noise impacts from the Project were determined by modelling 
+the noise sources, receiver locations and topographical features, and possible noise mitigation measures 
+using a 3D noise modelling package, CadnaA (Version 2021 MR 1). Noise modelling algorithms were 
+used to calculate the contribution of each noise source at each identified sensitive receiver location and 
+to predict the total noise from the site. 
+Internal spaces within the facility such as the semi-enclosed ground floor, were modelled using CadnaR 
+(Version 2021) to determine the noise levels at the openings to these spaces.  
+The noise prediction model considers: 
+• Location of noise sources and sensitive receiver locations (including multi-storey buildings). 
+• Heights of sources and receivers referenced to digital ground contours with a 1 m contour 
+interval, or relative to the Project. 
+• Noise source levels of individual plant and equipment. 
+• Separation distances between sources and receivers. 
+• Ground type and reflections between sources and receivers (ground absorption value of 0 for 
+the site, and 0.5 for remaining areas). 
+• Attenuation from barriers, buildings and structures (natural terrain and purpose built). 
+• Atmospheric losses and meteorological conditions. 
+• The noise mitigation/treatments within Section 0, that have been determined for the Project 
+The CONCAWE noise propagation algorithm was implemented for assessing potential noise impacts 
+because: 
+• CONCAWE allows for the standard and noise-enhancing meteorological conditions presented 
+in NPfI Fact Sheet D to be directly considered. 
+• The CONCAWE algorithm at the receiver distances relevant to this assessment provides for a 
+conservative assessment.  
+[[page 55]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 45 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+5.2.2 Meteorological conditions  
+In accordance with the NPfI, the noise assessment considers the effects of adverse meteorological 
+conditions such as wind and temperature inversions. The following noise-enhancing meteorological 
+conditions have been considered in the noise assessment scenarios. 
+Table 32: Prevailing noise-enhancing assessment meteorological conditions 
+Assessment period 
+Assessment meteorological condition 
+Standard meteorological conditions Noise-enhancing meteorological conditions 
+Day (7am – 6pm) Class D with 0.5 m/s winds1 Class D with 3 m/s1 
+Evening (6pm – 10pm) 
+Night (10pm – 7am) Class F with 2 m/s winds1 
+Notes:  1. All directions considered 
+5.3 Noise predictions 
+Predictions have been undertaken for the following reasonable worst case 15-minute scenarios: 
+• Scenario 1 (normal operations):  
+- All of the IC2, IC3e and IC3w mechanical equipment within Section 5.1.1 operating at full 
+capacity, except for the emergency backup generators. 
+- Operating during daytime, evening and night-time. 
+- Standard and noise-enhancing meteorological conditions applied. 
+• Scenario 2 (generator maintenance testing):  
+- All of the IC2, IC3e and IC3w mechanical equipment within Section 5.1.1 operating at full 
+capacity. 
+- One IC3w emergency backup generator operating at full capacity (worst case generator 
+selected i.e. nearest), see Figure 2 
+- Operating during daytime only 
+- Standard and noise-enhancing meteorological conditions applied 
+Predicted noise levels have been assessed to all the nearby representative receivers, and a summary of 
+these results are presented in Table 33. From Table 33, it can be seen that the Project is predicted to 
+comply for both scenarios at all the identified receiver locations. 
+Noise contour maps at 1.5 metres above the local ground level for each of the scenarios assessed are 
+presented in APPENDIX C.
+[[page 56]]
+ 
+ 
+Table 33: Predicted noise levels at representative receivers 
+Rec 
+No. Assessment location7 Receiver 
+type 
+Scenario 1 (normal operations) Scenario 2 (generator maintenance testing) 
+Std Cond1 
+Enhancing Cond 
+Criteria4 Comply Std Cond1 
+Enhancing Cond 
+Criteria5 Comply 
+Wind 3m/s2 Inver3 Wind 3m/s2 Inver3 
+R1 Level 7 (top floor) Residential 42 43 43 43 Yes 46 47 47 50 Yes 
+R2 Level 2 (top floor) 40 41 41 43 Yes 42 43 43 50 Yes 
+R3 Level 3 (top floor) 39 40 40 43 Yes 41 42 42 50 Yes 
+R4 Level 19 (top floor) 40 41 41 43 Yes 42 43 43 57 Yes 
+R5 Level 18 (top floor) 37 39 39 43 Yes 40 42 42 57 Yes 
+R6 Ground Floor at boundary 30 31 31 43 Yes 36 37 37 57 Yes 
+R7 Level 1 (top floor) 34 35 35 38 Yes 37 38 38 47 Yes 
+R8 Ground floor of tenancy Childcare6 39 40 40 53 Yes 42 43 43 53 Yes 
+R9 Ground floor of tenancy 33 34 34 53 Yes 36 37 37 53 Yes 
+R10 Ground floor of tenancy 44 44 44 53 Yes 47 47 47 53 Yes 
+R11 Ground floor of tenancy 40 41 41 53 Yes 42 43 43 53 Yes 
+R12 Level 1 of tenancy 35 36 36 53 Yes 38 40 40 53 Yes 
+R13 Level 1 of building Education 52 52 52 60 Yes 54 55 55 60 Yes 
+R14 Ground floor of building 39 40 40 58 Yes 40 41 41 58 Yes 
+R15 Ground floor of building Medical 44 44 44 48 Yes 45 46 46 48 Yes 
+R16 Level 7 (top floor) Hotel/motel 46 47 47 48 Yes 48 49 49 63 Yes 
+R17 Level 8 (top floor) 34 35 35 48 Yes 36 37 37 63 Yes 
+R18 Level 7 (top floor) 34 35 35 48 Yes 39 40 40 63 Yes 
+R19 Level 7 (top floor) Commercial 61 61 61 65 Yes 61 61 61 65 Yes 
+R20 Level 9 (top floor) 57 57 57 65 Yes 58 58 58 65 Yes 
+R21 Level 6 (top floor)8 49 49 49 63 Yes 50 50 50 63 Yes 
+R22 Level 3 (top floor) 52 52 52 65 Yes 55 55 55 65 Yes 
+Notes 1. Class D with 0.5 m/s winds (all wind directions considered) 
+2. Class D with 3 m/s (all wind directions considered) 
+3. Class F with 2 m/s winds (all wind directions considered) 
+4. For residential and hotel receivers the night-time criterion is presented to represent worst case assessment situation 
+5. Daytime criterion as emergency generators only tested during the daytime 
+6. The criteria for childcare play area rather than external classroom criteria is presented  
+7. Most affected apartment / hotel room / room / play area  
+8. To represent new building associated with SSD-10467 
+[[page 57]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 47 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+5.4 Annoying noise characteristics adjustments 
+Where the character of the industrial noise is assessed as particularly annoying at a receiver location 
+(ie. if the resulting noise level at a receiver location is tonal, low frequency or is intermittent at night), 
+then an adjustment would be added to penalise the predicted noise for its potential increase in 
+annoyance. The Fact Sheet C of the NPfI provides definitive procedures for determining whether a 
+modifying factor should be applied which will be assessed as part of the Project. The corrections are to 
+be added to the predicted noise levels at the receiver before comparison with the project noise trigger 
+levels. 
+Measurements of the noise source levels from the key noise generating plant/equipment were 
+undertaken at with the existing facility with a sufficient duration to capture typical total activity noise 
+levels along with all relevant statistical measurement parameters (LAmax, LA1,T, LA10,T, LA90,T, LAmin) in 
+accordance with AS1055:2018.  
+5.4.1 Tonality 
+One noise source was identified as having the potential to be tonal at the nearby receivers, this being 
+the tonal reversing alarms on heavy vehicles.  
+Reviewing the contribution from this individual noise source, and that the overall noise levels are 
+generally controlled but the steady-state or quasi-steady-state mechanical and electrical 
+plant/equipment and building services the resulting noise levels at nearby receivers are unlikely to have 
+tonal characteristics.  
+5.4.2 Intermittent noise 
+The NPfI details that the test for intermittent noise that applies during the night period to be “The 
+source noise heard at the receiver varies by more than 5 dB(A) and the intermittent nature of the noise is 
+clearly audible.” and “…where the level suddenly drops/increases several times during the assessment 
+period…”. During the environmental assessment phase it is not possible to listen and subjectively assess 
+the noise at the receiver as required by the guideline. However, only where all of the following tests are 
+met shall a penalty be applicable to the predicted noise level at the relevant receiver: 
+• the noise level fluctuates / cycles by more than 5 dB(A);  
+• this difference relates to a ‘sudden’ drop/increase in the activity noise level; 
+• this activity may occur multiple times during a 15-minute assessment period; and 
+• the predicted noise level from the subject source at a receiver is clearly audible over the 
+ambient noise environment. 
+The only noise source which potentially exhibits intermittent characteristic, such as cycling on and off, 
+would be the reversing alarms fitted to the heavy vehicles that access the loading bay. However, the 
+loading bay would not be utilised at night-time.  
+[[page 58]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 48 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+As such, the noise emissions during the night-time period are unlikely to require an intermittent penalty 
+as identified in the NPfI. 
+5.4.3 Impulsiveness noise 
+The Draft Industrial Noise Guidelines Technical Background Paper (EPA, 2015), proposed to seek the 
+views of acoustical practitioners as part of the review/consultation process, and impulsiveness had not 
+been included in the NSW EPA draft Industrial Noise Guideline (draft ING). Subsequently, impulsiveness 
+was not included in the NPfI released by the EPA in 2017. 
+AS1055-2018 describes how potentially annoying characteristics, such as impulsiveness, should be 
+assessed. Section 6.7.4 Impulse adjustment (K2) of AS1055-2018 states: 
+“If impulsiveness is a significant characteristic of the sound within a measurement time interval, an 
+adjustment shall be made over this time interval.’ 
+Also, Appendix E of AS1055-2018 provides an objective method for application of an impulse 
+adjustment to measured receiver noise at receivers where deemed necessary. Impulsive noise is defined 
+in this standard as a sound with a sudden onset. The definition includes only the onset of a sound, not 
+the sound as a whole. Onset is defined in the standard as a sound having a positive slope time history 
+where the gradient exceeds 10 dB/s. 
+Section E9 ‘Care in the use of methods’ of AS1055-2018 also states that: 
+“It is recommended that the impulse method only be applied where the occurrence of impulsive sounds 
+caused by a subject source are identified audibly to occur at the receiver locations by attended 
+monitoring.” 
+Given that the noise sources associated with the Project are steady-state or quasi-steady-state, no 
+impulsive noises with a sudden onset of significant level at the receiver areas are anticipated from the 
+proposed development. Therefore, the procedure for objective determination of an impulse adjustment 
+to measured noise at receiver locations provided in Appendix E of the Australian Standard, does not 
+apply here and no adjustment for impulsiveness is necessary. 
+5.5 Sleep disturbance assessment 
+The night-time noise sources associated with the Project are steady-state or quasi-steady-state, and 
+therefore there is unlikely to be significant variation between LAeq,15min values and LAFmax values, hence 
+compliance with the more stringent project trigger noise level presented in Table 16 and Table 33 will 
+result in compliance with the project’s sleep disturbance criteria set out in Table 17. 
+5.6 Traffic assessment 
+The site is expected to generate a worst-case 89 movements during the daytime (7am to 10pm) and 53 
+movements during the night-time (10pm to 7am). This amount of traffic is not expected to significantly 
+[[page 59]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 49 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+alter existing traffic noise and any increases are expected to be insignificant, well below the 2 dB 
+increase threshold within the RNP and have minor impact. 
+Furthermore, there are no residential receivers located along Talavera Road and any other sensitive land 
+uses (i.e. childcare centres) are set back from Talavera road and have a significant amount of intervening 
+shielding from neighbouring buildings.  
+5.7 Operational noise management 
+As per Section 5.1.1.2.2, as the majority of noise generator items are mechanical and electrical 
+plant/equipment and building services, final selection of specific plant/equipment and associated 
+acoustic mitigation measures would be undertaken during the detailed design phase. During the 
+detailed design phase of the development, it is important that an acoustic assessment of mechanical 
+services equipment be undertaken to ensure that the cumulative noise emissions of all equipment is 
+consistent with this report, and does not exceed the applicable noise criteria in this report.  
+Following the commencement of operation, and at a point in time that normal full capacity operations 
+are being undertaken, noise measurements should be undertaken to confirm the noise emissions from 
+the facility are consistent with this assessment. The method for measuring the performance of the 
+facility should be undertaken in accordance with Section 7 ‘Monitoring performance’ of the NPfI. 
+As part of the site’s Operational Noise Management Plan, not only should reviewing the site noise 
+emissions against the predicted noise levels in this assessment be incorporated, there should also be 
+regular reviews of on-site noise mitigation and management practices to incorporate and capture 
+opportunities for reductions of site noise emissions with considerations of at minimum the following: 
+• Review of noise reduction opportunities during changes or refinements of site noise 
+generating activities. 
+• Reviewing noise levels of plant, equipment and activities, during both ongoing compliance 
+checks and in response to complaints. 
+• Improvements in Best Management Practice (BMP), as defined in the NPfI. 
+• Improvements in Best Available Technology Economically Achievable (BATEA), as defined in 
+the NPfI. 
+ 
+[[page 60]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 50 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+6 Conclusion 
+Renzo Tonin & Associates was engaged to prepare a noise and vibration impact assessment to 
+accompany the State Significant Development (SSD) 24299707 for the proposed Macquarie Park Data 
+Centre Campus IC3 Super West (IC3w) at 17-23 Talavera Road, Macquarie Park.  
+This report assesses noise and vibration impacts during the construction and operational stages for the 
+Project. It proposes mitigation and management measures to reduce impacts during the construction 
+and operation phases of the Project. The report has been prepared to address the requirements of the 
+Secretary of the Department of Planning, Industry and Environment (DPIE) (‘the Secretary’s 
+environmental assessment requirements’) (SEARs) and EPA requirements.  
+6.1 Operational noise assessment 
+Operational noise impacts from the proposed datacentre has been assessed, and a range of feasible and 
+reasonable mitigation measures incorporated into the design to minimise noise impacts on sensitive 
+receivers nearby and further removed from the site. 
+The assessment has reviewed the existing noise environment and established the noise emission 
+objectives in accordance with the NSW Noise Policy for Industry (NPfI) (EPA 2017).  
+A review of the potential noise generating activities that will likely take place as part of operations of the 
+facility was undertaken, and cumulative impacts from the existing datacentres on site was assessed. 
+The assessment has predicted the potential noise impacts under both standard meteorological 
+conditions and noise-enhancing meteorological conditions, and following the implementation of a 
+range of mitigation and management measures, the predicted noise levels have demonstrated that the 
+facility can comply with the requirements of the NPfI for Industry at all potentially impacted receivers 
+that surround the site. 
+The assessment has found that any potential sleep disturbance and operational road traffic noise 
+increases attributed to the Project, would respectively meet the NPfI and RNP requirements. 
+6.2 Construction noise and vibration assessment 
+An assessment of potential construction noise and vibration impacts from the site establishment & civil 
+works, building construction and building fit-out stages of the Project has been undertaken.  
+The expected construction noise levels have been predicted and presented in Section 4.5.1. Noise 
+mitigation and management measures have been presented in Section 4.5.2 to aid in providing 
+additional noise reduction benefits where exceedance of the objectives occurs. 
+During the building construction and building fit-out phases vibration intensive plant and equipment 
+are not proposed to be typically used as part of the construction works and so the risk of vibration 
+[[page 61]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 51 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+impacts is minimal. Vibration intensive equipment is expected to be required for the civil works and 
+management measures have been presented in Section 4.5.3 to aid in minimising any potential 
+vibration impacts.  
+The noise impact of construction traffic on the existing road network has been reviewed and is 
+considered not to be significant.  
+ 
+ 
+ 
+ 
+[[page 62]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 52 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+APPENDIX A Glossary of terminology 
+A.1 Glossary of terminology - Noise 
+The following is a brief description of the technical terms used to describe noise and to assist in 
+understanding the technical issues presented. 
+Absorption Coefficient 
+α 
+The absorption coefficient of a material, usually measured for each octave or third-octave band 
+and ranging between zero and one.  For example, a value of 0.85 for an octave band means that 
+85% of the sound energy within that octave band is absorbed on coming into contact with the 
+material.  Conversely, a low value below about 0.1 means the material is acoustically reflective. 
+Adverse weather Weather effects that enhance noise (particularly wind and temperature inversions) occurring at a 
+site for a significant period of time.  In the NSW INP this occurs when wind occurs for more than 
+30% of the time in any assessment period in any season and/or temperature inversions occurring 
+more than 30% of nights in winter. 
+Air-borne noise Noise which is fundamentally transmitted by way of the air and can be attenuated by the use of 
+barriers and walls placed physically between the noise source and receiver. 
+Ambient noise The all-encompassing noise associated within a given environment at a given time, usually 
+composed of sound from all sources near and far. 
+Amenity A desirable or useful feature or facility of a building or place. 
+AS Australian Standard 
+Assessment period
+  
+ 
+The time period in which an assessment is made.  e.g.  Day 7am-10pm & Night 10pm-7am. 
+Assessment Point
+  
+A location at which a noise or vibration measurement is taken or estimated.  
+Attenuation The reduction in the level of sound or vibration.  
+Audible Range The limits of frequency which are audible or heard as sound.  The normal hearing in young adults 
+detects ranges from 20 Hz to 20 kHz, although some people can detect sound with frequencies 
+outside these limits. 
+A-weighting A filter applied to the sound recording made by a microphone to approximate the response of the 
+human ear. 
+Background noise
+  
+Background noise is the term used to describe the underlying level of noise present in the ambient 
+noise, measured in the absence of the noise under investigation.  It is described as the average of 
+the minimum noise levels measured on a sound level meter and is measured statistically as the A-
+weighted noise level exceeded for ninety percent of a sample period. This is represented as the 
+LA90 noise level if measured as an overall level or an L90 noise level when measured in octave or 
+third-octave bands. 
+Barrier (Noise) A natural or constructed physical barrier which impedes the propagation of sound and includes 
+fences, walls, earth mounds or berms and buildings.  
+Berm Earth or overburden mound. 
+Buffer An area of land between a source and a noise-sensitive receiver and may be an open space or a 
+noise-tolerant land use. 
+Bund A bund is an embankment or wall of brick, stone, concrete or other impervious material, which 
+may form part or all of the perimeter of a compound. 
+BS British Standard 
+CoRTN United Kingdom Department of Environment entitled “Calculation of Road Traffic Noise (1988)” 
+Decibel [dB] The units that sound is measured in. The following are examples of the decibel readings of 
+common sounds in our environment: 
+[[page 63]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 53 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+threshold of 
+hearing 
+0 dB The faintest sound we can hear, defined as 20 micro Pascal 
+10 dB Human breathing 
+almost silent 
+20 dB  
+30 dB Quiet bedroom or in a quiet national park location 
+generally quiet 
+40 dB Library 
+50 dB Typical office space or ambience in the city at night 
+moderately loud 
+60 dB CBD mall at lunch time 
+70 dB The sound of a car passing on the street 
+loud 
+80 dB Loud music played at home 
+90 dB The sound of a truck passing on the street 
+very loud 
+100 dB Indoor rock band concert 
+110 dB Operating a chainsaw or jackhammer 
+extremely loud 120 dB Jet plane take-off at 100m away 
+threshold of pain 
+130 dB  
+140 dB Military jet take-off at 25m away 
+dB(A) A-weighted decibel.  The A- weighting noise filter simulates the response of the human ear at 
+relatively low levels, where the ear is not as effective in hearing low frequency sounds as it is in 
+hearing high frequency sounds.   That is, low frequency sounds of the same dB level are not heard 
+as loud as high frequency sounds.  The sound level meter replicates the human response of the ear 
+by using an electronic filter which is called the “A” filter.  A sound level measured with this filter is 
+denoted as dB(A).  Practically all noise is measured using the A filter.  
+dB(C) C-weighted decibels.  The C-weighting noise filter simulates the response of the human ear at 
+relatively high levels, where the human ear is nearly equally effective at hearing from mid-low 
+frequency (63Hz) to mid-high frequency (4kHz), but is less effective outside these frequencies.  The 
+dB(C) level is not widely used but has some applications. 
+Deemed-to-Satisfy 
+Provisions 
+The Deemed-to-Satisfy Provisions are an optional means of achieving compliance with the 
+mandatory Performance Requirements of the National Construction Code.  (also see Alternate 
+Solution) 
+Diffraction The distortion of sound waves caused when passing tangentially around solid objects. 
+DIN German Standard 
+Discontinuous 
+Construction 
+A wall system having a minimum 20mm cavity between two separate leaves, where, for other than 
+masonry there is no mechanical linkage between leaves except at the periphery.  
+DnT,w Weighted Standardised Field Level Difference  
+A measure of sound insulation performance of a building element. It is characterised by the 
+difference in noise level on each side of a wall or floor. It is measured in-situ. 
+It is a field measurement that relates to the Rw laboratory measured value but is not equal to it 
+because an in-situ space is not of the same quality as a laboratory space.  
+The value is indicative of the level of speech privacy between spaces. The higher its value the 
+better the insulation performance. 
+ECRTN Environmental Criteria for Road Traffic Noise, NSW, 1999 
+ENMM Environmental Noise Management Manual, Roads and Maritime Services (Transport for NSW) 
+EPA Environment Protection Authority 
+Field Test A test of the sound insulation performance in-situ.   See also 'Laboratory Test' 
+The sound insulation performance between building spaces can be measured by conducting a 
+field test, for example, early during the construction stage or on completion. 
+A field test is conducted in a non-ideal acoustic environment. It is generally not possible to 
+measure the performance of an individual building element accurately as the results can be 
+affected by numerous field conditions. 
+[[page 64]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 54 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+FIIC Field Impact Isolation Class.  
+A measure of the noise impact performance of a floor.  The value indicates the resistance of the 
+floor to the transmission of impact sound and is measured using a standard tapping machine. It is 
+measured in-situ and is therefore subject to the inherent accuracies involved in such a 
+measurement. 
+The term is defined in ASTM E492 and E1007. It is a field measure of the level of impact sound 
+transmitted to a space via a floor. The equivalent measurement in a laboratory is termed the IIC. 
+The higher the value the better the performance. 
+Flanking Flanking is the transfer of sound through paths around a building element rather than through the 
+building element material directly. 
+For example, sound travelling through a gap underneath a door or a gap at the top of a wall. 
+Fluctuating Noise Noise that varies continuously to an appreciable extent over the period of observation. 
+Free-field An environment in which there are no acoustic reflective surfaces.  Free field noise measurements 
+are carried out outdoors at least 3.5m from any acoustic reflecting structures other than the 
+ground. 
+Frequency Frequency is synonymous to pitch. Sounds have a pitch which is peculiar to the nature of the 
+sound generator.  For example, the sound of a tiny bell has a high pitch and the sound of a bass 
+drum has a low pitch.  Frequency or pitch can be measured on a scale in units of Hertz or Hz. 
+FSTC Field Sound Transmission Class  
+A measure of the sound insulation performance of a building element. . It is characterised by the 
+difference in noise level on each side of a wall or floor. It is measured in the field and is therefore 
+subject to the inherent inaccuracies involved in such a measurement. 
+The term was referred to in older superseded versions of the Building Code of Australia and has 
+now been replaced with the term DnT,w. 
+Ground-borne noise Vibration propagated through the ground and then radiated as noise by vibrating building 
+elements such as wall and floor surfaces.  This noise is more noticeable in rooms that are well 
+insulated from other airborne noise.  An example would be vibration transmitted from an 
+underground rail line radiating as sound in a bedroom of a building located above. 
+Habitable Area Includes a bedroom, living room, lounge room, music room, television room, kitchen, dining room, 
+sewing room, study, playroom, family room, home theatre and sunroom. 
+Excludes a bathroom, laundry, water closet, pantry, walk-in wardrobe, corridor, hallway, lobby, 
+photographic darkroom, clothes drying room, and other spaces of a specialised nature occupied 
+neither frequently nor for extended periods. 
+Heavy Vehicle A truck, transporter or other vehicle with a gross weight above a specified level (for example: over 
+8 tonnes). 
+IGANRIP Interim Guideline for the Assessment of Noise from Rail Infrastructure Projects, NSW DEC 2007 
+IIC Impact Isolation Class  
+A measure of the noise impact performance of a floor. It is measured in very controlled conditions 
+in a laboratory and is characterised by how much sound reaches the receiving room from the 
+operation a standard tapping machine placed on the floor. 
+The term is defined in ASTM E492 and E1007. The higher the number the better the performance. 
+Impact Noise The noise in a room, caused by impact or collision of an object onto the walls or the floor. Typical 
+sources of impact noise are footsteps on the floor above a tenancy and the slamming of doors on 
+cupboards mounted on the common wall between tenancies. 
+Impulsive noise Having a high peak of short duration or a sequence of such peaks.  A sequence of impulses in 
+rapid succession is termed repetitive impulsive noise. 
+INP NSW Industrial Noise Policy, EPA 1999 
+Intermittent noise The level suddenly drops to that of the background noise several times during the period of 
+observation.   
+Intertenancy wall Walls that separate buildings or units within a building. They may provide sound resistance or 
+serve as a fire wall. Synonymous with 'party wall'. 
+Intrusive noise  Refers to noise that intrudes above the background level by more than 5 dB(A). 
+[[page 65]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 55 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+ISEPP State Environmental Planning Policy (Infrastructure), NSW, 2007 
+ISEPP Guideline Development Near Rail Corridors and Busy Roads - Interim Guideline, NSW Department of 
+Planning, December 2008 
+L1 The sound pressure level that is exceeded for 1% of the time for which the given sound is 
+measured. 
+L10 The sound pressure level that is exceeded for 10% of the time for which the given sound is 
+measured.   
+L10(1hr) The L10 level measured over a 1 hour period. 
+L10(18hr) The arithmetic average of the L10(1hr) levels for the 18 hour period between 6am and 12 midnight 
+on a normal working day. 
+L90 The level of noise exceeded for 90% of the time.  The bottom 10% of the sample is the L90 noise 
+level expressed in units of dB(A). 
+LAeq or Leq The “equivalent noise level” is the summation of noise events and integrated over a selected 
+period of time, which would produce the same energy as a fluctuating sound level. When A-
+weighted, this is written as the LAeq. 
+LAeq(1hr) The LAeq noise level for a one-hour period. In the context of the NSW EPA’s Road Noise Policy it 
+represents the highest tenth percentile hourly A-weighted Leq during the period 7am to 10pm, or 
+10pm to 7am (whichever is relevant). 
+LAeq(8hr) The LAeq noise level for the period 10pm to 6am. 
+LAeq(9hr) The LAeq noise level for the period 10pm to 7am. 
+LAeq(15hr) The LAeq noise level for the period 7am to 10pm. 
+LAeq (24hr) The LAeq noise level during a 24 hour period, usually from midnight to midnight. 
+Lmax The maximum sound pressure level measured over a given period.  When A-weighted, this is 
+usually written as the LAmax. 
+Lmin The minimum sound pressure level measured over a given period.  When A-weighted, this is 
+usually written as the LAmin. 
+Ln,w Weighted Normalised Impact Sound Pressure Level  
+A measure of the sound level transmitted from impacts on a floor to a tenancy below.  It is 
+measured in very controlled conditions in a laboratory and is characterised by how much sound 
+reaches the receiving room from a standard tapping machine. 
+A lower value indicates a better performing floor. 
+LnT,w Weighted Standardised Field Impact Sound Pressure Level  
+As for Ln,w but measured in-situ and therefore subject to the inherent accuracies involved in such 
+a measurement. 
+The equivalent measurement in a laboratory is the Ln,w.  
+A lower value indicates a better performing floor. 
+Laboratory Test The performance of a building element when measured in a laboratory.  The sound insulation 
+performance of a building element installed in a building however can differ from its laboratory 
+performance for many reasons including the quality of workmanship, the size and shape of the 
+space in which the measurement is conducted, flanking paths and the specific characteristics of the 
+material used which may vary from batch to batch. 
+Loudness A rise of 10 dB in sound level corresponds approximately to a doubling of subjective loudness. 
+That is, a sound of 85 dB is twice as loud as a sound of 75 dB which is twice as loud as a sound of 
+65 dB and so on.  That is, the sound of 85 dB is four times or 400% the loudness of a sound of 65 
+dB. 
+Microphone An electro-acoustic transducer which receives an acoustic signal and delivers a corresponding 
+electric signal.   
+NCA Noise Catchment Area.  An area of study within which the noise environment is substantially 
+similar.  
+NCG Noise Criteria Guideline, Roads and Maritime Services (Transport for NSW)  
+[[page 66]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 56 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+NMG Noise Mitigation Guideline, Roads and Maritime Services (Transport for NSW)  
+Noise Unwanted sound 
+Normalised A method of adjusting the measured noise indices in a laboratory so that they are independent of 
+the measuring space.  
+The noise level in a room is affected by reverberation in the room.  For example, the Ln,w impact 
+sound pressure level measured in a laboratory is dependent upon the amount of absorptive 
+material in the receiving room.   The value is adjusted to what would be measured if the sound 
+absorption in the receiving room is set at 10m2.  This enables all laboratories to report the same 
+value when measured under slightly different conditions.  See also 'Standardised'. 
+NRC Noise Reduction Coefficient. 
+A measure of the ability of a material to absorb sound. The NRC is generally a number between 0 
+and 1 but in some circumstances can be slightly greater than 1 because of absorption at the edges 
+of the material. A material with an NRC rating of 1 absorbs 100% of incoming sound, that is, no 
+sound is reflected back from the material. 
+The NRS is the average of the absorption coefficient measured in the octave bands 250Hz, 500Hz, 
+1kHz & 2kHz which correspond to the predominant frequencies associated with the human voice. 
+Partition wall A wall dividing two rooms. 
+Party wall A wall dividing two tenancies.  Synonymous with 'Intertenancy Wall'. 
+Pre-construction Work in respect of the proposed project that includes design, survey, acquisitions, fencing, 
+investigative drilling or excavation, building/road dilapidation surveys, minor clearing (except 
+where threatened species, populations or ecological communities would be affected), establishing 
+ancillary facilities such as site compounds, or other relevant activities determined to have minimal 
+environmental impact (e.g. minor access roads). 
+RBL Rating Background Level is the representative LA90 background noise level for a period, as defined 
+in the NSW EPA’s noise ploicies. 
+Reflection Sound wave reflected from a solid object obscuring its path. 
+RING Rail Infrastructure Noise Guideline, NSW, May 2013 
+RMS Root Mean Square value representing the average value of a signal. 
+Rw Weighted Sound Reduction Index  
+A measure of the sound insulation performance of a building element. It is measured in very 
+controlled conditions in a laboratory. 
+The term supersedes the value STC which was used in older versions of the Building Code of 
+Australa.  Rw is measured and calculated using the procedure in ISO 717-1.  The related field 
+measurement is the DnT,w.  
+The higher the value the better the acoustic performance of the building element.  
+R'w Weighted Apparent Sound Reduction Index.  
+As for Rw but measured in-situ and therefore subject to the inherent accuracies involved in such a 
+measurement. 
+The higher the value the better the acoustic performance of the building element. 
+RNP Road Noise Policy, NSW, March 2011 
+Sabine A measure of the total acoustic absorption provided by a material.   
+It is the product of the Absorption Coefficient (alpha) and the surface area of the material (m2).  
+For example, a material with alpha = 0.65 and a surface area of 8.2m2 would have 0.65 x 8.2 = 5.33 
+Sabine. 
+Sabine is usually calculated for each individual octave band (or third-octave).   
+SEL Sound Exposure Level (SEL) is the constant sound level which, if maintained for a period of 1 
+second would have the same acoustic energy as the measured noise event.  SEL noise 
+measurements are useful as they can be converted to obtain Leq sound levels over any period of 
+time and can be used for predicting noise at various locations. 
+Sole-occupancy Unit An area within a building for the exclusive use of the owner or occupier. 
+Sound A fluctuation of air pressure which is propagated as a wave through air. 
+[[page 67]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 57 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Sound absorption The ability of a material to absorb sound energy by conversion to thermal energy. 
+Sound Insulation Sound insulation refers to the ability of a construction or building element to limit noise 
+transmission through the building element. The sound insulation of a material can be described by 
+the Rw and the sound insulation between two rooms can be described by the DnT,w. 
+Sound level meter An instrument consisting of a microphone, amplifier and indicating device, having a declared 
+performance and designed to measure sound pressure levels.  
+Sound power level Ten times the logarithm to the base 10 of the ratio of the sound power of the source to the 
+reference sound power of 1 pico watt. 
+Sound pressure level The level of noise, usually expressed in decibels, as measured by a standard sound level meter with 
+a microphone referenced to 20 mico Pascal. 
+Spoil Soil or materials arising from excavation activities. 
+Standardised A method of adjusting the measured noise indices in-situ so that they are independent of the 
+measuring space.  
+The noise level in a room is affected by reverberation in the room.  For example, the L’n,w impact 
+sound pressure level measured in a room is dependent upon the amount of absorptive material in 
+the receiving room.   The value is adjusted to what would be measured if the reverberation time in 
+the receiving room is set at 0.5 seconds.  This enables the same value to be reported independent 
+of  whether the room contains carpet and furnishings and the like.  See also 'Normalised'. 
+STC Sound Transmission Class  
+A measure of the sound insulation performance of a building element.  It is measured in controlled 
+conditions in a laboratory. 
+The term has been superseded by Rw. 
+Structure-borne Noise Audible noise generated by vibration induced in the ground and/or a structure.   Vibration can be 
+generated by impact or by solid contact with a vibrating machine. 
+Structure-borne noise cannot be attenuated by barriers or walls but requires the isolation of the 
+vibration source itself.   This can be achieved using a resilient element placed between the 
+vibration source and its support such as rubber, neoprene or springs or by physical separation 
+(using an air gap for example).  
+Examples of structure-borne noise include the noise of trains in underground tunnels heard to a 
+listener above the ground, the sound of footsteps on the floor above a listener and the sound of a 
+lift car passing in a shaft.  See also 'Impact Noise'. 
+Tonal Noise Sound containing a prominent frequency and characterised by a definite pitch. 
+Transmission Loss The sound level difference between one room or area and another, usually of sound transmitted 
+through an intervening partition or wall.  Also the vibration level difference between one point and 
+another. 
+For example, if the sound level on one side of a wall is 100dB and 65dB on the other side, it is said 
+that the transmission loss of the wall is 35dB.  If the transmission loss is normalised or 
+standardised, it then becomes the Rw or R'w or DnT,w. 
+A.2 Glossary of terminology - Vibration 
+The following is a brief description of the technical terms used specifically to describe vibration and to 
+assist in understanding the technical issues presented. 
+Acceleration The rate of change of velocity, often measured in m/s2 or g’s.  1 g = 9.81 m/s2.  Commonly used to assess human response 
+to vibration and for machine condition monitoring. 
+Accelerometer A vibration transducer sensor that is used to measure acceleration. 
+ANC The Association of Noise Consultants, UK. 
+Ambient vibration The all-encompassing vibration occurring at a given location, at a given time, composed of all 
+vibration sources near and far. 
+[[page 68]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 58 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Amplification Vibration amplification refers to an increase in vibration.  Amplification may occur due to 
+resonance, when an object or structure is excited at its natural frequency. 
+Attenuation Attenuation refers to a reduction in vibration.  This may occur due to damping of a vibration 
+system, the inclusion of attenuating devices or, in the case of ground vibration, during propagation 
+through the ground. 
+Ground attenuation is determined by the dynamic properties of the site’s soil and rock. 
+AVTG Assessing Vibration: A Technical Guideline.  NSW Department of Environment and Conservation’s 
+(DEC) 2006 guideline for assessing human responses to vibration.  Based on BS 6472–1992. 
+Axis A fixed reference line for the measurement for the measurement of vibration in a particular 
+direction.  Vibration is commonly measured in transverse (T), longitudinal (L) and vertical (V) axes 
+(or X, Y and Z). 
+Background vibration The underlying level of vibration present in the ambient environment, measured in the absence of 
+the vibration sources of interest. 
+Blasting Excavation or demolition using explosives. 
+Borehole transducer A geophone transducer rigidly mounted at the bottom of a borehole (either permanently or 
+temporarily) to measure underground vibration. 
+Broadband vibration The overall vibration level which encompasses a wide range of frequencies. As opposed to 
+vibration levels for specific frequency bands (see Octave) or narrowband vibration levels as 
+produced by FFT.  
+BS British Standard. 
+Continuous vibration Vibration that continues uninterrupted over a defined period. 
+Cosmetic damage Damage to a structure due to vibration that only affects the appearance of the structure and can 
+be easily repaired, e.g. hairline cracks in mortar joints of brick or concrete constructions, or cracks 
+in plasterwork. 
+Coupling loss The change in vibration level when vibration is transmitted from the ground to a building’s 
+foundations. 
+Crest factor The ratio of the peak value of a vibration event to the RMS value of a vibration event. 
+Damping Reduction of vibrational energy due to friction or other forces. 
+DEC NSW Department of Environment and Conservation, now the Department of Planning, Industry 
+and Environment. 
+Decibel [dB] The logarithmic unit used to represent sound and vibration levels. A vibration level in dB equals 20 
+times the logarithm to the base 10 of the ratio of the vibration level relative to the reference level.  
+For vibration velocity, the reference level is commonly 1 nm/s.  For vibration acceleration, the 
+reference level is commonly 1 m/s2.  Other reference values are commonly used.  The reference 
+value should always be stated. 
+DIN German Standard. 
+Displacement Change in position of a body from a reference point.  Usually measured in m or mm. 
+EPA Environment Protection Authority. 
+eVDV Estimated Vibration Dose Value.  See also VDV. 
+Filter An electrical circuit that allows signals of certain frequency ranges to pass through, and blocks all 
+other frequencies. Types of filters include low pass filters, high pass filters, and band pass filters. 
+FFT Fast Fourier Transform.  An algorithm that converts a signal from the time domain to the frequency 
+domain. 
+Frequency In the case of vibration, frequency is the number of oscillations that occurs per second.  Frequency 
+is measured in units of Hertz (Hz). 
+Geophone A vibration transducer sensor that is used to measure velocity. 
+[[page 69]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 59 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Ground-borne noise Vibration propagated through the ground and then radiated as noise by vibrating building 
+elements such as wall and floor surfaces.  This noise is more noticeable in rooms that are well 
+insulated from other airborne noise.  An example would be vibration transmitted from an 
+underground rail line radiating as sound in a bedroom of a building located above. 
+Ground spike A metal stake with a flat top that is driven into the ground and used to mount a vibration 
+transducer to measure vibration levels. 
+Habitable Area Includes a bedroom, living room, lounge room, music room, television room, kitchen, dining room, 
+sewing room, study, playroom, family room, home theatre and sunroom. 
+Excludes a bathroom, laundry, water closet, pantry, walk-in wardrobe, corridor, hallway, lobby, 
+photographic darkroom, clothes drying room, and other spaces of a specialised nature occupied 
+neither frequently nor for extended periods. 
+Intermittent vibration Either interrupted periods of continuous vibration or repeated periods of impulsive vibration. 
+Impulsive vibration Vibration that rapidly builds up to a peak followed by a damped decay.  May consist of multiple 
+impulsive events, typically less then 2 seconds in duration. 
+Isolation The process of reducing the vibrational energy transmitted to an object, such as a piece of 
+equipment or building, from the source of vibrations. 
+Minor damage Damage to a structure due to vibration that affects the serviceability of residential style buildings 
+or other sensitive structures but does not affect the structural elements.  E.g. cracks in plastered or 
+rendered surfaces, existing cracks enlarged or partitions detached. 
+Mode A mode of vibration is a characteristic pattern or shape in which a mechanical system will vibrate.  
+The actual vibration of a structure is a combination of all the vibration modes, but to varying 
+degrees, depending on the vibration source. 
+Natural frequency The frequency at which a system tends to oscillate in the absence of any driving or damping force. 
+Noise floor The residual level of unwanted signal measured by an instrumentation system.  The signal of 
+interest must be above the noise floor to be measured accurately. See also Signal to noise ratio. 
+Octave An octave represents a doubling or halving in frequency.  Noise or vibration levels across a 
+frequency spectrum are commonly given in octave or one-third octave frequency bands. 
+Peak-to-peak The difference between the highest positive peak level and the lowest negative peak of a vibration 
+event. 
+Peak vibration  
+velocity 
+The absolute maximum value of the vibration velocity signal measured in the X, Y or Z axis during 
+a given time interval.  Also referred to as the peak component particle velocity. 
+PPV Peak Particle Velocity.  The absolute maximum value of the vibration velocity signal measured in 
+any axis during a given time interval.   
+PVS Peak Vector Sum.  The vector sum of the peak vibration velocities measured in the three 
+orthogonal axes. 
+Resonance The phenomenon of increased amplitude that occurs when the frequency of an applied force is 
+equal or close to the natural frequency of the system. 
+RMS Root Mean Square value representing the average value of a signal. 
+Sampling rate The number of samples per second taken from a continuous signal to make a discrete or digital 
+signal.  Measured in Hertz.  To accurately record the signal and determine the spectrum, the 
+sampling rate must two or more times the maximum frequency of interest. 
+Settlement The movement of soil due to vibration or other forces, often in relation to a building’s foundations.  
+The indirect effect of settlement and ground movement may cause building damage, separately 
+from the direct of effect of building vibration. 
+Signal to noise ratio A ratio of the level of a desired signal to the level of the background, often expressed in decibels. 
+Source vibration A source that generates vibration.  Can be quantified by the amplitude, frequency content and 
+duration of the vibration.  Common sources of vibration include rail and road traffic, construction 
+and demolition activities and blasting. 
+Spectrum The result of transforming a signal from the time domain to the frequency domain.   
+[[page 70]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 60 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+Structural damage Damage to a structure due to vibration that may affect its serviceability due to damage to 
+structural elements.  May result in the reduced stability of the building and/or reduction in load-
+bearing capacities. 
+Structural fatigue The weakening of a material caused by cyclic loading that results in progressive and localised 
+structural damage and the growth of cracks. 
+Structure-borne Noise Audible noise generated by vibration induced in the ground and/or a structure.   Vibration can be 
+generated by impact or by solid contact with a vibrating machine. 
+Structure-borne noise cannot be attenuated by barriers or walls but requires the isolation of the 
+vibration source itself.   This can be achieved using a resilient element placed between the 
+vibration source and its support such as rubber, neoprene or springs or by physical separation 
+(using an air gap for example).  
+Examples of structure-borne noise include the noise of trains in underground tunnels heard to a 
+listener above the ground, the sound of footsteps on the floor above a listener and the sound of a 
+lift car passing in a shaft. 
+Tactile vibration Vibration of a level that can be felt by humans, dependant on the amplitude and frequency of the 
+source.   Note that vibration may also be perceived through indirect effects such as ground-borne 
+noise or the shaking of building elements.   
+Transducer A device that converts energy from one form to another.  Vibration transducers convert either 
+acceleration, velocity or displacement to an electrical signal that is processed by the monitoring 
+system. 
+Triaxial Three axes.  Measurement systems often consist of three vibration transducers arranged triaxially – 
+oriented at 90° from each other. 
+VDV Vibration Dose Value.  A measure of tactile vibration levels used to assess intermittent vibration. 
+Velocity The rate of change of vibration displacement, usually measured in mm/s. 
+Vibration A mechanical phenomenon whereby oscillations occur about an equilibrium point; a periodic 
+back-and-forth motion of an elastic body or medium, commonly resulting when almost any 
+physical system is displaced from its equilibrium condition. 
+Vrms Root mean square (RMS) vibration level for the train passby, typically expressed in mm/s 
+Waveform A graphical representation of a vibration event in the time domain, showing the measured 
+vibration levels for each sample. 
+[[page 71]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 61 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+APPENDIX B Long-term noise monitoring graphs 
+[[page 72]]
+
+[[page 73]]
+
+[[page 74]]
+
+[[page 75]]
+
+[[page 76]]
+
+[[page 77]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acoustics 
+Vibration 
+Structural Dynamics 
+Monitoring ID:  Location L2 
+Address:    82 Waterloo Road, Macquarie Park 
+Description:  The monitor was located in the free field near the northern boundary facing  
+    Waterloo Road. The microphone was located 1.5 metres above ground level 
+Background & Ambient Noise Monitoring Results 
+ LA90 Background Noise Levels LAeq Ambient Noise Levels 
+Date Day1 Evening2 Night3 Day1 Evening2 Night3 
+Representative Week4 52 48 40 61 60 54 
+Notes: 1. Day: 07:00-18:00 Monday to Saturday and 08:00-18:00 Sundays & Public Holidays  
+2. Evening: 18:00-22:00 Monday to Sunday & Public Holidays 
+3. Night: 22:00-07:00 Monday to Saturday and 22:00-08:00 Sundays & Public Holidays 
+4. Rating Background Level (RBL) for LA90 and logarithmic average for LAeq      
+ 
+ 
+Logger location photograph Logger location map 
+ 
+ 
+ 
+
+[[page 78]]
+82 Waterloo Road, Macquarie Park - Northern Boundary
+Periods with insufficient results excluded
+Date Day1 Evening2 Night3 Day1 Evening2 Night3
+Thursday-15-September-2016 - 52 43 - 61 56
+Friday-16-September-2016 53 51 40 63 62 54
+Saturday-17-September-2016 47 47 39 59 58 52
+Sunday-18-September-2016 - - 40 - - 54
+Monday-19-September-2016 52 46 40 60 59 54
+Tuesday-20-September-2016 51 48 39 62 61 54
+Wednesday-21-September-2016 53 47 39 61 58 55
+Thursday-22-September-2016 - - - - - -
+Friday-23-September-2016 - - - - - -
+Saturday-24-September-2016 - - - - - -
+Sunday-25-September-2016 - - - - - -
+Monday-26-September-2016 - - - - - -
+Representative Weekday5 52 48 40 62 60 55
+Representative Weekend5 47 47 39 59 58 53
+Representative Week5 52 48 40 61 60 54
+Notes:
+1. Day is 7:00am to 6:00pm on all days except Sundays and Public Holidays when it is 8:00am to 6:00pm 2. Evening is 6:00pm to 10:00pm
+3. Night is the remaining periods 4. Assessment Background Level (ABL) for individual days 5. Rating Background Level (RBL) for L A90 and logarithmic
+average for LAeq 6. Leq is calculated in the free field. 2.5dB is subtracted from results if logger is placed at façade 7. Number in brackets represents the
+measured (actual) RBL value, which is below the minimum policy value of 30 dB(A) during the evening or night period or 35 dB(A) during the day period.
+QTE-26 Logger Graphs Program (r36) TJ347-01S01 (rev 1) 82 Waterloo Road
+Background & Ambient Noise Monitoring Results - NSW 'Noise Policy for Industry', 2017
+LA90 Background Noise Levels4 LAeq Ambient Noise Levels
+Acoustics
+Vibration
+Structural Dynamics
+[email redacted]
+www.renzotonin.com.au
+
+[[page 79]]
+Unattended Monitoring Results Location: 82 Waterloo Road, Macquarie Park - Northern Boundary
+Thursday, 15 September 2016Friday, 16 September 2016Saturday, 17 September 2016Sunday, 18 September 2016Monday, 19 September 2016Tuesday, 20 September 2016Wednesday, 21 September 2016
+Data File: 2016-09-15_SLM_000_123_Rpt_Report.txt
+Template: QTE-26 Logger Graphs Program (r36)
+310
+310
+290
+290
+300
+300
+290
+290
+290
+290
+300
+300
+300
+300
+300
+300
+290
+290
+300
+300
+300
+300
+290
+290
+300
+300
+300
+300
+300
+300
+300
+300
+320
+320
+310
+310
+310
+310
+320
+320
+310
+310
+320
+320
+290
+290
+260
+260
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+260
+240
+240
+280
+280
+0
+0
+20
+20
+0
+0
+320
+320
+350
+350
+300
+300
+330
+330
+340
+340
+290
+290
+340
+340
+310
+310
+310
+310
+310
+310
+310
+310
+300
+300
+280
+280
+260
+260
+250
+250
+290
+290
+290
+290
+270
+270
+280
+280
+260
+260
+250
+250
+300
+300
+250
+250
+250
+250
+230
+230
+250
+250
+230
+230
+240
+240
+230
+230
+240
+240
+240
+240
+240
+240
+240
+240
+240
+240
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+320
+320
+310
+310
+290
+290
+0
+0
+280
+280
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+320
+320
+310
+310
+50
+50
+140
+140
+150
+150
+90
+90
+10
+10
+300
+300
+270
+270
+280
+280
+260
+260
+30
+30
+220
+220
+20
+20
+30
+30
+50
+50
+50
+50
+50
+50
+40
+40
+40
+40
+40
+40
+40
+40
+50
+50
+50
+50
+30
+30
+30
+30
+30
+30
+30
+30
+30
+30
+50
+50
+70
+70
+260
+260
+0
+0
+0
+0
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+270
+270
+290
+290
+300
+300
+300
+300
+330
+330
+330
+330
+320
+320
+310
+310
+320
+320
+330
+330
+0
+0
+320
+0
+0
+0
+320
+320
+290
+290
+300
+0
+150
+150
+70
+70
+70
+90
+160
+150
+220
+220
+300
+300
+240
+240
+290
+290
+260
+260
+290
+290
+290
+290
+300
+300
+320
+320
+310
+310
+310
+310
+310
+310
+230
+230
+250
+250
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+250
+290
+290
+290
+290
+310
+310
+330
+330
+0
+0
+0
+0
+0
+0
+0
+0
+0
+330
+0
+0
+310
+310
+290
+290
+300
+300
+300
+300
+300
+300
+300
+300
+260
+260
+260
+260
+280
+280
+250
+250
+250
+250
+250
+250
+260
+260
+260
+260
+270
+270
+240
+240
+240
+240
+220
+220
+230
+230
+220
+220
+230
+230
+200
+200
+210
+210
+230
+230
+260
+260
+230
+230
+230
+230
+210
+210
+200
+200
+250
+250
+0
+0
+250
+250
+250
+250
+0
+0
+280
+280
+270
+270
+0
+0
+0
+0
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+0
+0
+0
+0
+340
+340
+300
+300
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+300
+300
+300
+300
+310
+310
+330
+330
+290
+290
+300
+300
+290
+290
+290
+290
+210
+210
+260
+260
+340
+340
+300
+300
+20
+20
+270
+270
+150
+150
+180
+180
+90
+90
+90
+90
+60
+60
+50
+50
+80
+80
+40
+40
+50
+50
+40
+40
+50
+50
+50
+50
+50
+50
+40
+40
+50
+50
+50
+50
+70
+70
+80
+80
+20
+20
+60
+60
+70
+70
+30
+30
+0
+0
+0
+5
+10
+15
+20
+40
+60
+80
+100
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+0
+0
+70
+70
+0
+0
+0
+0
+0
+0
+310
+310
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+290
+290
+300
+300
+300
+300
+350
+350
+320
+320
+300
+300
+310
+310
+330
+330
+310
+310
+300
+300
+350
+350
+350
+350
+360
+360
+350
+350
+350
+360
+360
+360
+20
+20
+360
+360
+10
+10
+40
+40
+50
+50
+10
+10
+60
+60
+50
+50
+0
+0
+0
+0
+350
+350
+0
+0
+310
+310
+300
+300
+320
+320
+0
+0
+320
+320
+310
+310
+290
+290
+290
+290
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+Time of Day
+L90 Leq L10 L1 Lmax Wind Speed and Direction
+0
+24:00
+[[page 80]]
+Unattended Monitoring Results Location: 82 Waterloo Road, Macquarie Park - Northern Boundary
+Thursday, 22 September 2016Friday, 23 September 2016Saturday, 24 September 2016Sunday, 25 September 2016Monday, 26 September 2016Tuesday, 27 September 2016Wednesday, 28 September 2016
+Data File: 2016-09-15_SLM_000_123_Rpt_Report.txt
+Template: QTE-26 Logger Graphs Program (r36)
+290
+290
+290
+320
+320
+320
+320
+320
+320
+310
+310
+290
+290
+280
+280
+310
+310
+310
+310
+310
+310
+300
+300
+0
+0
+0
+0
+0
+0
+320
+320
+300
+300
+270
+270
+290
+290
+270
+270
+280
+280
+280
+280
+290
+290
+280
+280
+240
+240
+250
+250
+270
+270
+250
+250
+210
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level
+dB(A)
+24:00
+0
+5
+10
+15
+20
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+0:00 2:00 4:00 6:00 8:00 10:00 12:00 14:00 16:00 18:00 20:00 22:00 0:00
+WindSpeed(m/s)
+Sound Pressure Level dB(A)
+Time of Day
+L90 Leq L10 L1 Lmax Wind Speed and Direction
+0
+24:00
+[[page 81]]
+
+[[page 82]]
+
+[[page 83]]
+
+[[page 84]]
+
+[[page 85]]
+
+[[page 86]]
+RENZO TONIN & ASSOCIATES 4 NOVEMBER 2021 
+ 
+MACQUARIE DATA CENTRES C/- GIDDIS PROJECT MANAGEMENT  
+TM162-01F02 ACOUSTIC ASSESSMENT (R7) 62 
+MACQUARIE DATA CENTRES IC3 SUPER WEST 
+NOISE AND VIBRATION REPORT FOR SSDA 
+ 
+APPENDIX C Operational noise contours 
+ 
+ 
+ 
+ 
+ 
+[[page 87]]
+Noise Levels
+35.0 <= ... < 40.0
+40.0 <= ... < 45.0
+45.0 <= ... < 50.0
+50.0 <= ... < 55.0
+55.0 <= ... < 60.0
+60.0 <= ... < 65.0
+65.0 <= ... < 70.0
+70.0 <= ... < 75.0
+Client:
+Macquarie Data Centres
+Consultant:
+1/418A Elizabeth Street, SURRY HILLS NSW 2010
+P: 02 8218 0500 F: 02 8218 0501
+Project:
+IC3w
+17-23 Talavera Road,
+Macquarie Park
+Noise levels are approximate due to
+interpolation of contours and should
+be used for reference only.
+For information only and not for
+construction.
+This information is protected by
+copyright.
+Description:
+Normal Operation
+Predicted LAeq 15-minute noise contour @ 1.5m NPfI assessment height
+Noise-enhancing meteorological conditions
+Project No.:
+TM162-01
+Produced by:
+BC
+Figure Ref:
+TM162-01F01 Normal (r0)
+Grid:
+G1_Normal_LAeq_1_5m (r0).cnr
+Date:
+2021.09.02
+Scale:
+1: 6500 A3
+[[page 88]]
+Noise Levels
+35.0
+40.0
+45.0
+50.0
+55.0
+60.0
+65.0
+70.0
+75.0
+Client:
+Macquarie Data Centres
+Consultant:
+1/418A Elizabeth Street, SURRY HILLS NSW 2010
+P: 02 8218 0500 F: 02 8218 0501
+Project:
+IC3w
+17-23 Talavera Road,
+Macquarie Park
+Noise levels are approximate due to
+interpolation of contours and should
+be used for reference only.
+For information only and not for
+construction.
+This information is protected by
+copyright.
+Description:
+Generator Maintenance Testing
+Predicted LAeq 15-minute noise contour @ 1.5m NPfI assessment height
+Noise-enhancing meteorological conditions
+Project No.:
+TM162-01
+Produced by:
+BC
+Figure Ref:
+TM162-01F02 Gen Test (r0)
+Grid:
+G2_Gen_Test_LAeq_1_5m (r0).cnr
+Date:
+2021.09.02
+Scale:
+1: 6500 A3

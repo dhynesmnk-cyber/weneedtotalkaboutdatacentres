@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-41589232-MOD-2%2120260828T070329.740+GMT",
+ "project_slug": "51-huntingwood-drive-data-centre-mod-2-design-updates",
+ "attachment_slug": "ssd-mod-assessment-report-signed-4",
+ "kind": "mod_assessment",
+ "label": "SSD-MOD Assessment Report - Signed.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T14:07:55+00:00",
+ "sha256": "5c8d6f1e25f3582b0943b4eb36858b03295544165be5290dcc666e9b216c4f9d",
+ "bytes": 1857106,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 40970,
+ "pages": 29,
+ "text_redactions": 0,
+ "pdf_committed": false
+}
