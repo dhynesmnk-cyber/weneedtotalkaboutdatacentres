@@ -16,6 +16,34 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded on 2026-11-18 from `main@c1c142b` (the merge of #47: the author's decisions
+on batch 8 and the downloads brought back), then the two duplicate sources were
+removed. Both steps were the author's instruction of 2026-11-18 ("merge and load, 1
+yes 2 yes"). Artefact digest `sha256:30f2c20b…`; it committed in one request.
+- **The load.** Sources rose from 329 to 334: five new, plus the two duplicates still
+  live. The packs now cite the originals, so `SRC_TRANSGRIDCAP` and
+  `SRC_NVIDIA_AU_2GW` took over RG-018's, RG-043's and RG-091's citations. Sites (103)
+  and questions (98) are unchanged.
+- **The removal.** One transaction. Each step would have rolled everything back
+  unless it held:
+  - before it: exactly two rows, three citations, and no data gap naming them;
+  - after it: the two rows gone, 332 sources, 98 questions, no uncited question or
+    site, and the originals carrying the three citations.
+
+  ```sql
+  delete from facts.citations where source_id in ('4ca51c56-…', 'ebf9978b-…');  -- 3
+  delete from facts.sources where id in ('4ca51c56-…', 'ebf9978b-…');           -- 2
+  ```
+  `4ca51c56-…` was `SRC_TRANSGRID_DC_CAPACITY` and `ebf9978b-…` was
+  `SRC_NVIDIA_AU_DSX_20260909`.
+- **Checked as `anon`, in a rolled-back transaction.**
+  - 103 sites, 332 sources and 98 questions.
+  - No duplicate readable, and no site uncited.
+  - 9 essays visible.
+  - RG-076 and RG-090 read `resolved`, RG-013 and RG-102 `wont_fix`, and RG-018
+    `resolved`.
+- **The live site.** `/research`, `/data/sources.csv` and `/essays` answer 200.
+
 Reloaded on 2026-11-18 from `main@baab4a6` (the merge of #46: the zero-spend plan,
 research batch 8 in both passes, and the ES-011, ES-013 and ES-015 drafts), on the
 author's instruction ("merge and load"). Artefact digest `sha256:c61f641d…`.

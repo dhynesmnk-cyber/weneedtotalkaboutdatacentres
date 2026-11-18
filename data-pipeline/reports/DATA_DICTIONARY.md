@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 202 rows)
+## `ingest_log` (table, 205 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -615,7 +615,7 @@ FIRB, SOCI Act, Critical Infrastructure Register, CIRMP, Hosting Certification F
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `sites` (table, 103 rows)
+## `sites` (table, 105 rows)
 
 Physical facilities and proposals. Three capacity fields are stored separately and must never be summed: `it_capacity_mw` (critical load), `total_capacity_mw` (with cooling overhead), `max_capacity_mw` (full campus build-out). `market` records NEM / WEM / NT because the regulatory regime differs.
 
@@ -656,7 +656,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 903 rows)
+## `source_refs` (table, 906 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 
@@ -668,7 +668,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 332 rows)
+## `sources` (table, 333 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 
@@ -960,7 +960,7 @@ ORDER BY l.event_date DESC
 
 </details>
 
-## `v_pipeline_by_state` (view, 23 rows)
+## `v_pipeline_by_state` (view, 24 rows)
 
 Sites, capacity and capex by state / market / status.
 
@@ -1001,7 +1001,7 @@ ORDER BY c.verification_status, c.claim_date DESC
 
 </details>
 
-## `v_site_dossier` (view, 103 rows)
+## `v_site_dossier` (view, 105 rows)
 
 Publication-ready site summary with primary source and counts of applications, community events, regulatory events and applicable instruments.
 
@@ -1027,7 +1027,7 @@ LEFT JOIN sources src ON src.id = s.source_id
 
 </details>
 
-## `v_site_full` (view, 103 rows)
+## `v_site_full` (view, 105 rows)
 
 One row per site with operator, owner, tenant, power profile and water profile joined.
 

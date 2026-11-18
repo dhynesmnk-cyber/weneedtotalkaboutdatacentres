@@ -39,9 +39,12 @@ $$;
 -- SITE_AIRTRUNK_SYD2 is retired into SITE_LANE_COVE_WEST: -1. AirTrunk MEL2 (VIC,
 -- RG-071) and Firmus Wesley Vale (TAS, RG-027) are added from the operators' own
 -- pages: +2. 102 - 1 + 2 = 103.
+-- 2026-11-18: the author's second round on batch 8 adds two Northern Territory proposals
+-- named in the NT Government's release of 22 July 2026 (Beetaloo Digital at Weddell;
+-- Energy North's Project Ares at Murranji station), unmapped and with no capacity: 105.
 select public.assert(
-  (select count(*) from facts.sites where pipeline_id is not null) = 103,
-  '103 sites loaded');
+  (select count(*) from facts.sites where pipeline_id is not null) = 105,
+  '105 sites loaded');
 
 -- Pinned counts track the reviewed contents of the committed pipeline, so a
 -- curated pack that adds rows raises them by an argued amount - the change is
@@ -136,9 +139,11 @@ select public.assert(
 -- batch 7), and now cite the originals; the author's downloads add the 2026-27 Budget Paper
 -- No. 1, AEMO's registration list, the NT Government's Beetaloo release, the NSW Electoral
 -- Commission's stakeholder register and the AEC's annual returns: 329 - 2 + 5 = 332.
+-- 2026-11-18: the author's transcription of Amazon Web Services Australia's NSW major
+-- political donor disclosures (RG-069): 332 + 1 = 333.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 332,
-  '332 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 333,
+  '333 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -277,8 +282,8 @@ select public.assert(
 set role anon;
 
 select public.assert(
-  (select count(*) from facts.sites) = 103,
-  'anon can read all 103 sites');
+  (select count(*) from facts.sites) = 105,
+  'anon can read all 105 sites');
 
 -- The invariant that makes the fact layer publishable at all.
 select public.assert(

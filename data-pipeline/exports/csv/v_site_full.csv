@@ -102,3 +102,5 @@ SITE_DIGICO_ADL1,DigiCo ADL1 (Adelaide 1),SA,NEM,operational,DigiCo Infrastructu
 SITE_DIGICO_BNE2,DigiCo BNE2 (Brisbane 2),QLD,NEM,operational,DigiCo Infrastructure REIT,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,low,2026-06-30
 SITE_AIRTRUNK_MEL2,AirTrunk MEL2 (Melbourne North-West),VIC,NEM,pre_lodgement,AirTrunk,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,low,2026-11-18
 SITE_FIRMUS_WESLEY_VALE,Firmus Wesley Vale AI Factory,TAS,NEM,lodged,Firmus Technologies,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-11-18
+SITE_BEETALOO_WEDDELL,Beetaloo Digital at Weddell,NT,NT,pre_lodgement,,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,medium,2026-11-18
+SITE_ENERGY_NORTH_ARES,Energy North Project Ares (Murranji station),NT,NT,pre_lodgement,,,,,,,,,,,,,,,,,,,,,,,,,,,REPORTED,low,2026-11-18

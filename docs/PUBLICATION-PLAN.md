@@ -468,6 +468,18 @@ Sources: 332.
   page, and NVIDIA's release) now cite the earlier rows. The two live
   duplicates are proposed to the author for removal.
 
+**Second round (2026-11-18).** The author agreed:
+- PR #47 was merged and loaded.
+- The two duplicate source rows were removed from the hosted database, in one
+  checked transaction.
+- Two Northern Territory sites were added, each cited to the NT Government's
+  release (`batch8_decisions_2.json`): Beetaloo Digital at Weddell and Energy
+  North's Project Ares. Both are pre-lodgement, unmapped, and carry no capacity.
+
+The author also read Amazon Web Services Australia's NSW disclosures. They show
+$39,350 of political donations over 2023/24 to 2025/26: totals only, with no
+recipients.
+
 Not touched (no new free source reached them): RG-003, 025, 053, 088, 097,
 101, 103, 104 and 106. Each waits on a named download already listed (#20,
 #22, #26) or on the paid-search track, except RG-053, which needs the
