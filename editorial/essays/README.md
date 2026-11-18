@@ -124,3 +124,4 @@ editor's reading, against the checklist in docs/REVIEW.md.
 | [ES-008](ES-008-a-memorandum.md) | S7's OpenAI deal is a memorandum | essay | ST-008, ST-002 | draft |
 | [ES-009](ES-009-twenty-nine-contracts.md) | Twenty-nine contracts, and none says where | essay | ST-012, ST-013, ST-014, ST-015, ST-022 | draft |
 | [ES-010](ES-010-named-to-the-market.md) | The tenant was named to the market, not the council | essay | ST-016, ST-006 | draft |
+| [ES-011](ES-011-approved-then-doubled.md) | Approved, then doubled | essay | none (RG-045) | draft |
