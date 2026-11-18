@@ -1,0 +1,112 @@
+{
+  "pack_id": "batch8-decisions-2-2026-11",
+  "prepared_by": "scripts/curate_batch8_decisions_2.py, on the author's decisions of 2026-11-18",
+  "prepared_on": "2026-11-18",
+  "_comment": [
+    "The author's second round on batch 8: two NT site rows added, cited to the NT Government's release",
+    "of 22 July 2026; the NSW amounts for Amazon Web Services Australia's donations (RG-069).",
+    "The duplicate source rows were removed from the hosted database by a checked transaction, recorded",
+    "in docs/SUPABASE_SETUP.md; the pipeline no longer registers them."
+  ],
+  "sources": [
+    {
+      "id": "SRC_NSWEC_AWS_DISCLOSURES",
+      "title": "Amazon Web Services Australia Pty Ltd: major political donor disclosures, 2023/24 to 2025/26 (NSW Electoral Commission)",
+      "publisher": "NSW Electoral Commission",
+      "url": "https://efadisclosures.elections.nsw.gov.au/",
+      "doc_type": "primary_regulator",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The company's disclosures as major political donor, read on the Electoral Commission's disclosure site by the author and transcribed into the session (download #34; the crawler is barred by robots.txt). Political donations made: 2023/24 $15,200; 2024/25 $13,250 (disclosure 130644, an annual donation disclosure received 1 August 2025, all 'General (not made at a fundraising function or venture)'); 2025/26 $10,900. The transcription gives totals, not recipients. Archived at data/raw/registers/nsw_electoral_disclosures/aws_major_political_donor_disclosures_author_transcription.txt with a manifest (SHA-256 b90418f4eaab2501...). RG-069."
+    }
+  ],
+  "rows": {
+    "sites": [
+      {
+        "id": "SITE_BEETALOO_WEDDELL",
+        "name": "Beetaloo Digital at Weddell",
+        "proponent": "Beetaloo Digital Pty Ltd",
+        "state": "NT",
+        "market": "NT",
+        "status": "pre_lodgement",
+        "suburb": "Weddell",
+        "campus_area_ha": 185.0,
+        "notes": "Added on the author's decision of 2026-11-18 (RG-027), from the NT Government's release of 22 July 2026: an exclusive 'not to deal' commitment over 185 hectares of land at Weddell, about 30 km from Darwin, while the company 'investigates its feasibility', for 'possibly two hyper-scale AI data centre campuses', powered by up to 2 GW of on-site gas-fired generation. STATUS pre_lodgement is a recorded reading: no planning application has been read. The 185 ha is the land committed, stored as the campus area. NO CAPACITY IS STORED: 2 GW is generation, not IT load. The company's claims ($40 billion, 5,000 construction jobs, 350 operational jobs) are quoted in the release, not stored. Not mapped.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_NTGOV_BEETALOO_20260722",
+        "confidence": "medium",
+        "as_of_date": "2026-11-18"
+      },
+      {
+        "match": {
+          "id": "SITE_BEETALOO_WEDDELL"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_NTGOV_BEETALOO_20260722",
+            "quote": "The Finocchiaro CLP Government has granted Beetaloo Digital an exclusive commitment over 185 hectares of land at Weddell, about 30km from Darwin. | the exclusive right to make plans for the 185ha site while the company progresses the project and investigates its feasibility | possibly two hyper-scale AI data centre campuses at Weddell | to be powered by up to 2GW of on-site gas-fired power generation"
+          }
+        ]
+      },
+      {
+        "id": "SITE_ENERGY_NORTH_ARES",
+        "name": "Energy North Project Ares (Murranji station)",
+        "proponent": "Energy North",
+        "state": "NT",
+        "market": "NT",
+        "status": "pre_lodgement",
+        "notes": "Added on the author's decision of 2026-11-18 (RG-027), from the NT Government's release of 22 July 2026, which names 'Energy North's Project Ares, a one-gigawatt project proposed for Murranji station in the Barkly region'. That sentence is the whole record: STATUS pre_lodgement is a recorded reading, NO CAPACITY IS STORED (the one gigawatt is not labelled IT load), no address, area or proponent entity is known, and the row is not mapped. Confidence is low until the proponent's own statement or a planning record is read.",
+        "fact_status": "REPORTED",
+        "source_id": "SRC_NTGOV_BEETALOO_20260722",
+        "confidence": "low",
+        "as_of_date": "2026-11-18"
+      },
+      {
+        "match": {
+          "id": "SITE_ENERGY_NORTH_ARES"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_NTGOV_BEETALOO_20260722",
+            "quote": "Energy North’s Project Ares, a one-gigawatt project proposed for Murranji station in the Barkly region"
+          }
+        ]
+      }
+    ],
+    "research_gaps": [
+      {
+        "match": {
+          "id": 27
+        },
+        "set": {
+          "as_of_date": "2026-11-18",
+          "notes": "UPDATED 2026-11-18 (research batch 7): WESLEY VALE placed from the developer's own page (Firmus, archived today): 'a new AI Factory project at 226 Mill Road, Wesley Vale', in two stages, 'an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM)' (sic), with 40 backup generators and cooling water from on-site rainwater. Leads (not records): trade reports of a Latrobe Council application and a December 2026 deadline for a major project proposal. PROPOSED for the author: a row SITE_FIRMUS_WESLEY_VALE (TAS, status `lodged` on the page's linked development application), with the stated maxima quoted rather than stored until the council record is read. The other proposals this question names are not yet worked. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): SITE_FIRMUS_WESLEY_VALE added (TAS, lodged, unmapped, no capacity stored). The other proposals this question names are not yet worked. UPDATED 2026-11-18 (research batch 8, second pass): BEETALOO: the Territory Coordinator's release on Beetaloo Digital's Weddell site refused the crawler (its robots.txt could not be read; recorded). LEADS (search summaries, not records): a 12-month exclusive land commitment over 185 ha at Weddell, south of Darwin, granted on 22 July 2026, with up to 2 GW of on-site gas generation. Download #32 would put it on the record. UPDATED 2026-11-18 (research batch 8, the author's downloads): BEETALOO, from the NT Government's own release of 22 July 2026 (download #32): 'The Finocchiaro CLP Government has granted Beetaloo Digital an exclusive commitment over 185 hectares of land at Weddell, about 30km from Darwin', a 'not to deal' arrangement giving the company 'the exclusive right to make plans for the 185ha site' while it 'investigates its feasibility'; the project is 'possibly two hyper-scale AI data centre campuses', 'powered by up to 2GW of on-site gas-fired power generation'. The 2 GW is generation, not IT load, and is not stored as a capacity. The release also names 'Energy North's Project Ares, a one-gigawatt project proposed for Murranji station in the Barkly region', and says 'As many as a dozen data centre developers are eyeing the region'. PROPOSED to the author: new site rows for Beetaloo Digital at Weddell (NT, pre-lodgement, no capacity) and Energy North's Project Ares at Murranji station (NT, proposed, no capacity), each cited to this release. Not made by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 8, second round): SITE_BEETALOO_WEDDELL and SITE_ENERGY_NORTH_ARES added (NT, pre_lodgement, unmapped, no capacity stored), each cited to the NT Government's release of 22 July 2026. The other proposals this question names are not yet worked."
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NTGOV_BEETALOO_20260722",
+            "quote": "The Finocchiaro CLP Government has granted Beetaloo Digital an exclusive commitment over 185 hectares of land at Weddell, about 30km from Darwin. | Energy North’s Project Ares, a one-gigawatt project proposed for Murranji station in the Barkly region"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 69
+        },
+        "set": {
+          "as_of_date": "2026-11-18",
+          "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, second pass): The NSW Electoral Commission's disclosure site disallows every crawler in its robots.txt (recorded). BLOCKED on download #34 (and GIPA-003, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW: the Electoral Commission's stakeholder register (the author's export, download #34 in part) lists 276 major political donor entities and gives no amounts; one is a data centre company, 'AMAZON WEB SERVICES AUSTRALIA PTY LTD'. CDC, AirTrunk, NEXTDC, Equinix, Goodman and Stockland are not on it. COMMONWEALTH, with amounts, from the AEC's free bulk returns (fetched by the crawler), 2020-21 to 2024-25, by side of the return (the two sides are not added): Amazon's own returns disclose $523,945 of donations made to Labor and Liberal branches; Macquarie Technology Group's own returns $316,324 to parties; the Labor Party's returns record $27,900 from 'CDC Data centres' as 'Other Receipt', not as donations (2022-23 to 2024-25). Most of what the other companies paid went to the Business Council of Australia, a lobby group, as 'Other Receipt' or 'Subscription' (AirTrunk $104,500 in 2024-25), not to a party. STILL OPEN: the NSW amounts, which sit on each major political donor's own disclosure on the Electoral Commission's site (download #34, rest: Amazon Web Services Australia's disclosures). No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW AMOUNTS, from Amazon Web Services Australia's own major political donor disclosures, read by the author on the Electoral Commission's site (download #34, rest): political donations made of $15,200 in 2023/24, $13,250 in 2024/25 (disclosure 130644, received 1 August 2025, all 'General (not made at a fundraising function or venture)') and $10,900 in 2025/26: $39,350 over the three periods. The disclosures as read give totals, not recipients. These are NSW figures and are not added to the Commonwealth ones. No improper conduct is alleged or implied."
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWEC_AWS_DISCLOSURES",
+            "quote": "Reporting Period 2023/2024 | Political donations made 15,200.00 | Disclosure Number 130644 Disclosure Received Date 1/08/2025 Disclosure Type Annual Donation | Reportable political donations made - General (not made at a fundraisingfunction or venture)Amount $: 13,250Percentage: 100.0% | Political donations made 13,250.00 | Reporting Period 2025/2026 | Political donations made 10,900.00"
+          }
+        ]
+      }
+    ]
+  }
+}
