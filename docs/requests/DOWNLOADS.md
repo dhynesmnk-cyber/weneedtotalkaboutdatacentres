@@ -71,6 +71,7 @@ tender portals and the keynote video) were not asked for again.
 | 24 | The EPBC Act referral for Gingerah Energy's Project Meridien, the reported 1 GW off-grid data centre in the Kimberley | epbcpublicportal.environment.gov.au (search the referral by proponent) | `data/raw/wa_proposals/gingerah/` | RG-010 | The proponent, site and status of the WA proposal, from the referral itself |
 | 25 | Ipswich City Council's development application for the Swanbank data centre (Northern Concept Swanb Pty Ltd), with its information request | Ipswich City Council, PD Online | `data/raw/qld_ipswich/swanbank/` | RG-051 | The applicant, site, height and stage of the ten-storey proposal, from the council's own record |
 | 26 | Cloud Carrier's own DB1 page, and any planning record for a data centre at Moss Vale | cloudcarrier.com (robots.txt answers 403); NSW Planning Portal; Wingecarribee Shire Council (its site answered 403) | `data/raw/operators/cloudcarrier/` | RG-101 | Where Cloud Carrier's certified DB1 is, and its status |
+| 27 | IPART's submission to the NSW Legislative Council inquiry into data centres, and IPART's review page on a water pricing framework for data centres | ipart.nsw.gov.au (it closed the connection on 2026-11-18) | `data/raw/operators/ipart/` | RG-042 | IPART's own statement of Sydney Water's data centre demand estimate, in place of the press's '25 per cent' |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-21342738-MOD-2%2120260812T003248.610+GMT",
+ "project_slug": "eastern-creek-data-centre-mod-2-power-consumption-increase",
+ "attachment_slug": "mod-2-assessment-report-58",
+ "kind": "mod_assessment",
+ "label": "MOD 2 - Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T02:03:13+00:00",
+ "sha256": "dbc3e18eed58a1806637d577fd9b23a9cd876a18b20b11f63a6bf4f85901f18d",
+ "bytes": 2604254,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 54209,
+ "pages": 33,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

@@ -1,0 +1,13 @@
+{
+ "derived_from": "data/raw/registers/open_contracting/austender-full.jsonl.gz",
+ "derived_from_sha256": "27619b1bfacee661c7af36e6257861574fa9562c041f09131e543b1223343538",
+ "derived_from_url": "https://fastly.data.open-contracting.org/downloads/australia/4299/full.jsonl.gz",
+ "filter": "every record whose line holds 'tata consultancy' in any case",
+ "redaction": "each party's contactPoint and address removed: they can name or locate a person",
+ "records": 7,
+ "derived_utc": "2026-11-18T02:01:58+00:00",
+ "sha256": "69fc9833a0ccf084b26231e6ab9a1a38d8a52422e8cfdb6be619d32591940e56",
+ "bytes": 13363,
+ "refetched": "2026-11-18: the same file was fetched again and its SHA-256 matched the 2026-10-22 manifest before filtering",
+ "also_searched": "no record holds 'office 365 environment' or 'onestream' (RG-083): neither award is a Commonwealth notice"
+}

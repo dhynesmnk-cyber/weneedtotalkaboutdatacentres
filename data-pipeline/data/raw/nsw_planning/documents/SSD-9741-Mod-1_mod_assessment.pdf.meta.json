@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-1%2120200426T014009.195+GMT",
+ "project_slug": "lane-cove-west-data-centre-mod-1-fuel-storage",
+ "attachment_slug": "mod-1-assessment-report-4",
+ "kind": "mod_assessment",
+ "label": "20200414 - SSD-9741-Mod-1 - Assessment Report - SIGNED.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T02:03:23+00:00",
+ "sha256": "c43fa6ebcc66442fa5ec9c869fb5a07c1e190c48ed6a243c7d4970d65dafe997",
+ "bytes": 2155201,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 41089,
+ "pages": 27,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

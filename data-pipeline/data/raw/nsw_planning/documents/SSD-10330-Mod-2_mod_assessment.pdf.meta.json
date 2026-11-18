@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-2%2120260306T061841.503+GMT",
+ "project_slug": "roberts-road-dc-mod-2-additional-back-generators-and-diesel-storage",
+ "attachment_slug": "ssd-10330-mod-2-assessment-report",
+ "kind": "mod_assessment",
+ "label": "SSD-10330-Mod-2 Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T02:03:03+00:00",
+ "sha256": "9d475ecb0e70e94e06d17c054d61b7b828a2852ce2b5cfa15b3a2893e64e9885",
+ "bytes": 5549065,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 53479,
+ "pages": 35,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

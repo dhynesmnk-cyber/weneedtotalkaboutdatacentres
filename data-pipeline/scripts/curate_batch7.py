@@ -62,6 +62,14 @@ SRC_CD_WESTPAC = "SRC_CYBERDAILY_WESTPAC_NOV26"
 SRC_CD_PETITION = "SRC_CYBERDAILY_WESTPAC_OCT26"
 SRC_MEL2 = "SRC_OP_AIRTRUNK_MEL2"
 SRC_NVIDIA_AU = "SRC_NVIDIA_AU_DSX_20260909"
+SRC_RR_MOD2 = "SRC_SSD10330_MOD2_ASSESSMENT"
+SRC_EC_MOD2 = "SRC_SSD21342738_MOD2_ASSESSMENT"
+SRC_LCW_MOD1 = "SRC_SSD9741_MOD1_ASSESSMENT"
+SRC_TAL_MOD1 = "SRC_SSD24299707_MOD1_ASSESSMENT"
+SRC_RR_MOD4 = "SRC_SSD10330_MOD4_REPORT"
+SRC_MODS = "SRC_NSWPORTAL_MODS"
+SRC_OCDS = "SRC_AUSTENDER_OCDS_202610"
+SRC_FIRMUS_WV = "SRC_OP_FIRMUS_WESLEY_VALE"
 
 TEXTS = {
     SRC_SYD2: "operators/airtrunk/syd2-sydney-north.txt",
@@ -78,6 +86,14 @@ TEXTS = {
     SRC_MEL2: "operators/airtrunk/mel2-melbourne.txt",
     SRC_NVIDIA_AU: ("operators/nvidia/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-"
                     "australias-data-ce.txt"),
+    SRC_RR_MOD2: "nsw_planning/documents/SSD-10330-Mod-2_mod_assessment.txt",
+    SRC_EC_MOD2: "nsw_planning/documents/SSD-21342738-Mod-2_mod_assessment.txt",
+    SRC_LCW_MOD1: "nsw_planning/documents/SSD-9741-Mod-1_mod_assessment.txt",
+    SRC_TAL_MOD1: "nsw_planning/documents/SSD-24299707-Mod-1_mod_assessment.txt",
+    SRC_RR_MOD4: "nsw_planning/documents/SSD-10330-Mod-4_mod_report.txt",
+    SRC_MODS: "nsw_planning/nodes/eastern-creek-data-centre-mod-2-power-consumption-increase.json",
+    SRC_OCDS: "registers/open_contracting/austender-tcs-extract.json",
+    SRC_FIRMUS_WV: "operators/firmus/wesley-vale-ai-factory-project.txt",
 }
 
 # Every quote is checked verbatim (whitespace normalised) against the archived text before writing.
@@ -171,6 +187,55 @@ QUOTES = {
                    "to 2-Gigawatt Buildout by 2027"),
         "date": "September 9, 2026",
     },
+    SRC_EC_MOD2: {
+        "power": ("The modification seeks to improve operational efficiency through an increase in the "
+                  "power consumption of the development from 32 MW to 63 MW."),
+        "before": ("27 x 2.65 MW generators • Up to 545,000 litres (L) of additional fuel storage"),
+        "after": "52 x 1.8 MW generators • Up to 782,000 L of additional fuel storage",
+    },
+    SRC_MODS: {
+        "ec_desc": ("The modification seeks approval for an increase in the overall power consumption of "
+                    "the development (to 70.2 megawatts)"),
+    },
+    SRC_RR_MOD2: {
+        "gens": "the installation of 24 additional generators and the relocation of four approved units",
+        "diesel": ("Diesel fuel storage capacity 1,914,000 litres ( 1,627 tonnes ) within the footprint "
+                   "of the SSD 2,403,600 litres ( 2, 043 tonnes ) within the footprint of the SSD"),
+    },
+    SRC_RR_MOD4: {
+        "proposal": ("Modify the total number of back -up diesel generators approved under SSD -10330 "
+                     "from 72 generators to 96 generators."),
+        "history": ("Modification of the total number of back -up, diesel generators approved under SSD "
+                    "-10330 from 48 generators to 72 generators."),
+    },
+    SRC_LCW_MOD1: {
+        "tanks": ("relocation of 80 diesel fuel storage tanks from t he external plant platforms to 16 "
+                  "steel tanks located internally on Level 1, with a total storage capacity of 1,952 "
+                  "kilolitres (kL)"),
+        "gens": "replacement of 80 MV generators with 116 LV generators",
+    },
+    SRC_TAL_MOD1: {
+        "capacity": ("an increase in capacity from 38 megawatts (MW) to 47 MW including associated "
+                     "increases in plant and equipment."),
+        "gens": ("The proposed modification application includes an additional four diesel generators "
+                 "on site to the previously approved."),
+    },
+    SRC_FIRMUS_WV: {
+        "site": ("Firmus plans to build a new AI Factory project at 226 Mill Road, Wesley Vale — on part of "
+                 "the former Wesley Vale Pulp Mill landholding"),
+        "stages": ("The Wesley Vale site is being delivered in two stages: an initial stage of approximately "
+                   "26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, "
+                   "growing to maximum of approximately 46 WM)."),
+        "generators": "The facility will have 40 backup generators, but they are not used for everyday power.",
+        "water": "Average annual water used for cooling the facility — sourced from on-site rainwater.",
+    },
+    SRC_OCDS: {
+        "rba1": "Provision of and Implementation of a Core Banking Solution",
+        "rba2": ("RFP for provision of System Integration for IT infrastructure and Continuing Managed "
+                 "Services"),
+        "rba3": "Professional services for cloud build capability",
+        "rba4": "CoreMod System Integrator for Application Migrations",
+    },
 }
 
 NEW_SOURCES = [
@@ -194,11 +259,30 @@ NEW_SOURCES = [
      "The operator's own page: 'Strategically located in Melbourne's North-West'; 'a total capacity of "
      "354+MW' (a lower bound, not stored as a value); 'Set on 8.070 ha with 45,578sqm of gross floor "
      "area and up to 32 technical data halls'. No street address, suburb or status is given."),
+    (SRC_FIRMUS_WV, "Wesley Vale AI Factory Project (Firmus project page)", "Firmus", None, "primary_company", "A",
+     "The developer's own project page: 226 Mill Road, Wesley Vale, on part of the former pulp mill "
+     "landholding; two stages, about 26 MW initially to about 52 MW maximum, with critical IT load of "
+     "23 MW growing to 'approximately 46 WM' (sic); 40 backup generators; 448 kL a year of cooling water "
+     "from on-site rainwater; links its development application. No status beyond the application."),
     (SRC_NVIDIA_AU, "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia's Data Center Ecosystem (NVIDIA Newsroom, 9 September 2026)",
      "NVIDIA", "2026-09-09", "primary_company", "A",
      "Names eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, "
      "AirTrunk) for 'Up to 2-Gigawatt Buildout by 2027' of NVIDIA DSX AI factories. Names no site, "
      "address or capacity per site."),
+]
+
+
+MOD_DOCS = [
+    (SRC_RR_MOD2, "Modification 2 of Roberts Road Data Centre (SSD-10330-Mod-2) - Assessment Report",
+     "NSW Department of Planning, Housing and Infrastructure", "2026-03-06"),
+    (SRC_EC_MOD2, "Eastern Creek Data Centre Expansion (SSD-21342738-Mod-2) - Assessment Report",
+     "NSW Department of Planning, Housing and Infrastructure", "2026-08-05"),
+    (SRC_LCW_MOD1, "Lane Cove West Data Centre (SSD-9741-Mod-1) - Assessment Report",
+     "NSW Department of Planning, Industry and Environment", "2020-04-14"),
+    (SRC_TAL_MOD1, "Talavera Road Data Centre Campus Expansion (SSD-24299707-Mod-1) - Assessment Report",
+     "NSW Department of Planning, Housing and Infrastructure", "2024-12-19"),
+    (SRC_RR_MOD4, "Modification Report - Roberts Road Data Centre (SSD-10330 Mod 4)",
+     "Prepared for the applicant (NSW Planning Portal)", None),
 ]
 
 
@@ -270,6 +354,17 @@ def main() -> int:
                             doc_type=doc_type, published=published, credibility=cred, accessed=TODAY,
                             notes=notes + f" ARCHIVED {TODAY} at data/raw/{os.path.dirname(TEXTS[sid])}/ "
                                           "with a SHA-256 manifest."))
+
+    for sid, title, publisher, published in MOD_DOCS:
+        meta = json.load(open(os.path.join(RAW, TEXTS[sid].replace(".txt", ".pdf.meta.json")),
+                              encoding="utf-8"))
+        sources.append(dict(
+            id=sid, title=title, publisher=publisher, url=meta["url"], doc_type="primary_planning_portal",
+            published=published, credibility="A", accessed=TODAY,
+            notes=(f"Read {TODAY} from the NSW Planning Portal ({meta['label']}), SHA-256 {meta['sha256']}, "
+                   f"{meta['pages']} pages, text by {meta['extractor']}, archived at "
+                   f"data/raw/{TEXTS[sid].replace('.txt', '')}.txt with its manifest; the PDF is not "
+                   "committed (re-fetch it from the manifest's url and check the hash). RG-045.")))
 
     def gap(gap_id: int, text: str, refs: list[tuple[str, str]], status: str | None = None,
             resolved: bool = False, source_id: str | None = None) -> list[dict]:
@@ -421,6 +516,91 @@ def main() -> int:
         "Queensland Regional Data Centre at Garbutt, Townsville; BNE3 at Woolloongabba; BNE1 at "
         "Brisbane Airport's Export Park. The DigiCo pages would settle them (DOWNLOADS.md)."), [])
 
+    gaps += gap(45, (
+        "RESOLVED from the Department's assessment reports (and, for Mod 4, the applicant's "
+        "modification report), all read today. EASTERN CREEK Mod 2 (approved 5 August 2026): power "
+        "consumption 'from 32 MW to 63 MW'; back-up generators from '27 x 2.65 MW' to '52 x 1.8 MW'; "
+        "additional fuel storage from 'Up to 545,000 litres' to 'Up to 782,000 L'. The portal's own "
+        "one-line description says 'to 70.2 megawatts'; the report's 63 MW is the assessed figure and "
+        "the conflict is recorded, not resolved. ROBERTS ROAD Mod 2 (approved 6 March 2026): 'the "
+        "installation of 24 additional generators and the relocation of four approved units' (48 to 72 "
+        "under SSD-10330, per the Mod 4 report); diesel storage from 1,914,000 litres (1,627 t) to "
+        "2,403,600 litres (2,043 t) within the SSD footprint. ROBERTS ROAD Mod 4 (NOT determined; the "
+        "applicant's proposal): generators 'from 72 generators to 96 generators'. LANE COVE WEST Mod 1 "
+        "(approved 14 April 2020): 'replacement of 80 MV generators with 116 LV generators', and 80 "
+        "external diesel tanks relocated to 16 internal tanks 'with a total storage capacity of 1,952 "
+        "kilolitres'. TALAVERA ROAD Mod 1 (approved 19 December 2024): 'an increase in capacity from 38 "
+        "megawatts (MW) to 47 MW', and 'an additional four diesel generators'. No site capacity column "
+        "is changed: the assessed figures are total power consumption, quoted here and on the "
+        "modification rows."),
+        [(SRC_EC_MOD2, "power"), (SRC_EC_MOD2, "before"), (SRC_EC_MOD2, "after"), (SRC_MODS, "ec_desc"),
+         (SRC_RR_MOD2, "gens"), (SRC_RR_MOD2, "diesel"), (SRC_RR_MOD4, "proposal"), (SRC_RR_MOD4, "history"),
+         (SRC_LCW_MOD1, "gens"), (SRC_LCW_MOD1, "tanks"), (SRC_TAL_MOD1, "capacity"), (SRC_TAL_MOD1, "gens")],
+        status="resolved", resolved=True, source_id=SRC_EC_MOD2)
+    gaps += gap(34, (
+        "The quantum RG-034 left open is answered by RG-045 from the five modification reports, read "
+        "today: Eastern Creek 32 MW to 63 MW, Roberts Road 48 to 72 generators (96 proposed), Lane Cove "
+        "West 116 smaller generators and 1,952 kL of internal fuel storage, Talavera Road 38 MW to 47 "
+        "MW. Local council development applications remain out of scope."), [(SRC_TAL_MOD1, "capacity")])
+    gaps += gap(72, (
+        "COMMONWEALTH PART SETTLED from the portal of record's data: the same AusTender feed file read "
+        "in October (re-fetched today; SHA-256 matched) holds 7 notices whose supplier is Tata "
+        "Consultancy Services, $41,416,192.60 at their latest values: the Reserve Bank of Australia "
+        "four (a core banking solution, $13,600,000; IT infrastructure system integration and managed "
+        "services, $10,285,017.60; cloud build capability, $1,976,040; 'CoreMod' application "
+        "migrations, $14,021,150), Defence one (industry benchmarking, $1,087,625), Finance one "
+        "(Digital Marketplace panel, $311,080), Prime Minister and Cabinet one (ICT contractor "
+        "services, $135,280). Extract, redacted of contact points, at data/raw/registers/"
+        "open_contracting/austender-tcs-extract.json. STILL OPEN: the NSW records, whose portal of "
+        "record is buy.nsw, which refused the crawler (download #11)."),
+        [(SRC_OCDS, "rba1"), (SRC_OCDS, "rba2"), (SRC_OCDS, "rba3"), (SRC_OCDS, "rba4")], status="in_progress")
+    gaps += gap(83, (
+        "NARROWED: neither the 'Office 365 Environment Setup for MoG GSS' award nor any OneStream "
+        "award is in the Commonwealth's AusTender feed (searched today across every record), so none is "
+        "a Commonwealth notice. That leaves the NSW portal of record, buy.nsw, as GovMarket's "
+        "attribution says; buy.nsw refused the crawler, so the attribution stays at low confidence "
+        "until a person reads it (download #11)."), [], status="in_progress")
+    gaps += gap(27, (
+        "WESLEY VALE placed from the developer's own page (Firmus, archived today): 'a new AI Factory "
+        "project at 226 Mill Road, Wesley Vale', in two stages, 'an initial stage of approximately 26 MW, "
+        "growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of "
+        "approximately 46 WM)' (sic), with 40 backup generators and cooling water from on-site rainwater. "
+        "Leads (not records): trade reports of a Latrobe Council application and a December 2026 deadline "
+        "for a major project proposal. PROPOSED for the author: a row SITE_FIRMUS_WESLEY_VALE (TAS, "
+        "status `lodged` on the page's linked development application), with the stated maxima quoted "
+        "rather than stored until the council record is read. The other proposals this question names "
+        "are not yet worked."),
+        [(SRC_FIRMUS_WV, "site"), (SRC_FIRMUS_WV, "stages"), (SRC_FIRMUS_WV, "generators")], status="in_progress")
+    gaps += gap(42, (
+        "Tried: IPART's own submission to the NSW inquiry and its review page for a data centre water "
+        "pricing framework; ipart.nsw.gov.au closed the connection without answering (recorded here, "
+        "not worked around). LEADS (not records): search summaries say IPART's submission reports Sydney "
+        "Water's estimate of data centre water needs of up to 250 ML a day by 2035, that IPART made no "
+        "allowance for data centres in its 2025 Sydney Water determination, and that the Government has "
+        "asked IPART to review water pricing for data centres. Needs a person to download the "
+        "submission (DOWNLOADS.md)."), [])
+    gaps += gap(18, (
+        "Searched: no record found of any Australian data centre registered with AEMO to provide "
+        "frequency control ancillary services; demand-response aggregators report registrations without "
+        "naming sites (leads). AEMO's registration lists are the primary record to check next."), [])
+    gaps += gap(1, (
+        "PROPOSED FOR CLOSING (wont_fix, author's decision): computing distances to cable landings is "
+        "analysis the v1 rule against GIS overlays leaves for later (docs/PUBLICATION-PLAN.md, Part 3)."), [])
+    gaps += gap(82, (
+        "PROPOSED FOR CLOSING (wont_fix, author's decision): a schema change, not a research question; "
+        "it moves to the engineering backlog. consultancy_profile.firm_type remains the workaround."), [])
+    mods = [
+        dict(match=dict(mod_case="SSD-21342738-Mod-2"), set={},
+             add_sources=q((SRC_EC_MOD2, "power"), (SRC_EC_MOD2, "before"), (SRC_EC_MOD2, "after"))),
+        dict(match=dict(mod_case="SSD-10330-Mod-2"), set={},
+             add_sources=q((SRC_RR_MOD2, "gens"), (SRC_RR_MOD2, "diesel"))),
+        dict(match=dict(mod_case="SSD-10330-Mod-4"), set={}, add_sources=q((SRC_RR_MOD4, "proposal"))),
+        dict(match=dict(mod_case="SSD-9741-Mod-1"), set={},
+             add_sources=q((SRC_LCW_MOD1, "gens"), (SRC_LCW_MOD1, "tanks"))),
+        dict(match=dict(mod_case="SSD-24299707-Mod-1"), set={},
+             add_sources=q((SRC_TAL_MOD1, "capacity"), (SRC_TAL_MOD1, "gens"))),
+    ]
+
     entities = [
         dict(id="ENT_WESTPAC", name="Westpac", legal_name="Westpac Banking Corporation",
              entity_type="other", domicile="Australia", hq_country="AU", asx_ticker="WBC",
@@ -446,12 +626,13 @@ def main() -> int:
             "around; search summaries are leads, never values.",
         ],
         "sources": sources,
-        "rows": {"entities": entities, "research_gaps": gaps},
+        "rows": {"entities": entities, "research_gaps": gaps, "modifications": mods},
     }
     with open(OUT_PACK, "w") as f:
         json.dump(pack, f, indent=2, ensure_ascii=False)
         f.write("\n")
-    print(f"batch 7: {len(sources)} sources, {len(gaps)} questions updated, ENT_WESTPAC added; "
+    print(f"batch 7: {len(sources)} sources, {len(gaps)} questions updated, {len(mods)} modifications "
+          "quoted, ENT_WESTPAC added; "
           f"wrote {os.path.relpath(OUT_PACK, ROOT)}")
     return 0
 

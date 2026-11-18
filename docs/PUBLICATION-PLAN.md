@@ -283,10 +283,24 @@ has a dated entry.
   - Downloads #22 to #26 are new, for a person.
   - RG-090, RG-091 and RG-076 are updated, with nothing asserted that the
     record does not hold.
+- **Second pass, same day.**
+  - RG-045 resolved: the five modification reports, read from the portal, give
+    the quantities.
+    - Eastern Creek: 32 MW to 63 MW.
+    - Roberts Road: 48 to 72 generators, with 96 proposed.
+    - Lane Cove West: 116 smaller generators and 1,952 kL of fuel.
+    - Talavera Road: 38 MW to 47 MW.
+  - RG-072: the Commonwealth part is settled from the AusTender feed (7 TCS
+    notices, $41,416,192.60).
+  - RG-083: narrowed, since neither award is a Commonwealth notice.
+  - RG-027: Firmus's own Wesley Vale page is archived; a site row is proposed
+    for the author.
+  - RG-042 and RG-018: leads recorded.
+  - RG-001 and RG-082: proposed for closing.
 - **Not yet worked.**
-  - Track A: RG-043, RG-061, RG-063, RG-104.
-  - Track R: RG-001, RG-003, RG-008, RG-013, RG-018, RG-019, RG-027, RG-034,
-    RG-042, RG-045, RG-053, RG-072, RG-073, RG-075, RG-082, RG-083, RG-097.
+  - Track A: RG-043, RG-061, RG-063, RG-104 (RG-104 is a decision for the
+    author).
+  - Track R: RG-003, RG-008, RG-013, RG-019, RG-053, RG-073, RG-075, RG-097.
 
 #### A. Agent work on free sources, for an essay (13)
 
@@ -376,7 +390,7 @@ has a dated entry.
 | RG-034 | in progress | - | Record maintenance, free sources; no essay waits on it | Extend the NSW register harvest to modification applications and to local council development a… |
 | RG-042 | open | - | Record maintenance, free sources; no essay waits on it | Obtain IPART's actual position on Sydney Water's 25 per cent data centre water projection, and … |
 | RG-044 | resolved | - | Record maintenance, free sources; no essay waits on it | Assess Unions NSW's proposal for local content and apprentice quotas at no less than Renewable … |
-| RG-045 | open | - | Record maintenance, free sources; no essay waits on it | Fetch the modification reports and determinations for the five material post-consent modificati… |
+| RG-045 | resolved | - | Record maintenance, free sources; no essay waits on it | Fetch the modification reports and determinations for the five material post-consent modificati… |
 | RG-051 | open | - | Record maintenance, free sources; no essay waits on it | Verify and map the reported ten-storey data centre outside Brisbane (Ipswich, plans reported fi… |
 | RG-053 | open | - | Record maintenance, free sources; no essay waits on it | Extract the remaining appendices of the Western Downs application |
 | RG-054 | open | - | Record maintenance, free sources; no essay waits on it | Track whether the Western Downs Digital Park is declared a Prescribed Project under the State D… |

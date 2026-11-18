@@ -1,0 +1,598 @@
+[
+ {
+  "id": "prod-11c0ccc02fcc4d368d1862e1630b536a-2025-01-24T03:05:17Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2025-01-24T03:05:17Z",
+  "ocid": "prod-11c0ccc02fcc4d368d1862e1630b536a",
+  "awards": [
+   {
+    "id": "CN4123578-897002d0f7e04f91b7b720b7461d6410",
+    "date": "2025-01-24T03:05:17Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "Tata Consultancy Services Limited"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-11c0ccc02fcc4d368d1862e1630b536a",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "Tata Consultancy Services Limited",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "0ecae979df557f5d7645831d7b941b12",
+    "name": "Department of the Prime Minister and Cabinet",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "18108001191",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN4123578",
+    "items": [
+     {
+      "id": "80111600-897002d0f7e04f91b7b720b7461d6410",
+      "classification": {
+       "id": "80111600",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "title": "C00616",
+    "value": {
+     "amount": "135280.00",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2025-06-29T14:00:00Z",
+     "startDate": "2025-02-16T13:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN4123578-897002d0f7e04f91b7b720b7461d6410",
+    "dateSigned": "2025-01-24T03:05:17Z",
+    "description": "ICT Contractor Services"
+   }
+  ],
+  "initiationType": "tender"
+ },
+ {
+  "id": "prod-53682484b4ad859de8d52b8f355a32fe-2017-04-05T00:36:23Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2017-04-05T00:36:23Z",
+  "ocid": "prod-53682484b4ad859de8d52b8f355a32fe",
+  "awards": [
+   {
+    "id": "CN3413905-5368248309c4fe55c4b23021b423efb8",
+    "date": "2017-04-05T00:36:23Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "Tata Consultancy Services Limited"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-53682484b4ad859de8d52b8f355a32fe",
+   "procurementMethod": "selective",
+   "procurementMethodDetails": "Prequalified tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "Tata Consultancy Services Limited",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "0ecb66a5dc65e98b64196b7e2dff654b",
+    "name": "Reserve Bank of Australia",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "50008559486",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN3413905",
+    "items": [
+     {
+      "id": "81111700-5368248309c4fe55c4b23021b423efb8",
+      "classification": {
+       "id": "81111700",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "value": {
+     "amount": "13600000.00",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2019-06-29T14:00:00Z",
+     "startDate": "2017-03-23T13:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN3413905-5368248309c4fe55c4b23021b423efb8",
+    "dateSigned": "2017-04-05T00:36:23Z",
+    "description": "Provision of and Implementation of a Core Banking Solution "
+   }
+  ],
+  "initiationType": "tender"
+ },
+ {
+  "id": "prod-78e54d78d03c4e9e8731959879f9a613-2019-10-03T03:23:50Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2019-10-03T03:23:50Z",
+  "ocid": "prod-78e54d78d03c4e9e8731959879f9a613",
+  "awards": [
+   {
+    "id": "CN3632118-53108f7fc4b6452b83c208e490b4f7b5",
+    "date": "2019-10-03T03:23:50Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "TATA CONSULTANCY SERVICES LIMITED"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-78e54d78d03c4e9e8731959879f9a613",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "TATA CONSULTANCY SERVICES LIMITED",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "cd4b9201e299e0d31b09c3f42790e52e",
+    "name": "Department of Finance",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "61970632495",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN3632118",
+    "items": [
+     {
+      "id": "80161500-53108f7fc4b6452b83c208e490b4f7b5",
+      "classification": {
+       "id": "80161500",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "title": "4400041131",
+    "value": {
+     "amount": "311080.00",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2020-06-29T14:00:00Z",
+     "startDate": "2019-09-15T14:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN3632118-53108f7fc4b6452b83c208e490b4f7b5",
+    "dateSigned": "2019-10-03T03:23:50Z",
+    "description": "DIGITAL MARKETPLACE PANEL (HTTPS://MARKETPLACE.SERVICE.GOV.AU/)"
+   }
+  ],
+  "initiationType": "tender"
+ },
+ {
+  "id": "prod-af967a1f4b9b464a868d6016c6d6bd72-2025-10-02T23:30:16Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2025-10-02T23:30:16Z",
+  "ocid": "prod-af967a1f4b9b464a868d6016c6d6bd72",
+  "awards": [
+   {
+    "id": "CN4192556-87e3e342c23d4dbe8ae744a3df55c61c",
+    "date": "2025-10-02T23:30:16Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "Tata Consultancy Services"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-af967a1f4b9b464a868d6016c6d6bd72",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "Tata Consultancy Services",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "0ec9911c9e99d1b7bb1b77f4abffc583",
+    "name": "Department of Defence",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "62950639680",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN4192556",
+    "items": [
+     {
+      "id": "80111600-87e3e342c23d4dbe8ae744a3df55c61c",
+      "classification": {
+       "id": "80111600",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "title": "4610002247",
+    "value": {
+     "amount": "1087625.00",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2026-05-04T14:00:00Z",
+     "startDate": "2025-05-05T14:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN4192556-87e3e342c23d4dbe8ae744a3df55c61c",
+    "dateSigned": "2025-10-02T23:30:16Z",
+    "description": "Industry Benchmarking"
+   }
+  ],
+  "initiationType": "tender"
+ },
+ {
+  "id": "prod-cf7b9224158e4e00a872f464eebab82c-2025-06-23T07:32:59Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2025-06-23T07:32:59Z",
+  "ocid": "prod-cf7b9224158e4e00a872f464eebab82c",
+  "awards": [
+   {
+    "id": "CN4161996-0940d7d432df47179091ae1b4705118d",
+    "date": "2025-06-23T07:32:59Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "Tata Consultancy Services Limited"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-cf7b9224158e4e00a872f464eebab82c",
+   "procurementMethod": "limited",
+   "limitedTenderExempt": "0",
+   "limitedTenderReason": "10.3.e. Additional deliveries by original supplier intended as replacement parts, extensions, or continuation for existing goods or services for compatibility.",
+   "limitedTenderReasonCode": "AD",
+   "procurementMethodDetails": "Limited tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "Tata Consultancy Services Limited",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "0ecb66a5dc65e98b64196b7e2dff654b",
+    "name": "Reserve Bank of Australia",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "50008559486",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN4161996",
+    "items": [
+     {
+      "id": "80101507-0940d7d432df47179091ae1b4705118d",
+      "classification": {
+       "id": "80101507",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "title": "IT-2025-126",
+    "value": {
+     "amount": "1976040.00",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2026-11-30T13:00:00Z",
+     "startDate": "2025-06-01T14:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN4161996-0940d7d432df47179091ae1b4705118d",
+    "dateSigned": "2025-06-23T07:32:59Z",
+    "description": "Professional services for cloud build capability"
+   }
+  ],
+  "initiationType": "tender"
+ },
+ {
+  "id": "prod-d423954adea14af696f7388a798143de-2023-04-27T08:08:29Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2023-04-27T08:08:29Z",
+  "ocid": "prod-d423954adea14af696f7388a798143de",
+  "awards": [
+   {
+    "id": "CN3872490-5d17530ca5904753b85d9f30548542cd",
+    "date": "2022-05-12T04:03:01Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "Tata Consultancy Services Ltd"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-d423954adea14af696f7388a798143de",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "Tata Consultancy Services Ltd",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "0ecb66a5dc65e98b64196b7e2dff654b",
+    "name": "Reserve Bank of Australia",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "50008559486",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN3872490",
+    "items": [
+     {
+      "id": "81111508-5d17530ca5904753b85d9f30548542cd",
+      "classification": {
+       "id": "81111508",
+       "scheme": "UNSPSC"
+      }
+     },
+     {
+      "id": "81111508-8ce29191e5dc495db9e5352ee92bbeda",
+      "classification": {
+       "id": "81111508",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "value": {
+     "amount": "10285017.60",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2024-06-29T14:00:00Z",
+     "startDate": "2022-05-08T14:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN3872490-5d17530ca5904753b85d9f30548542cd",
+    "amendments": [
+     {
+      "id": "CN3872490-A1",
+      "releaseID": "prod-d423954adea14af696f7388a798143de-942154aac77a39f4a0c6c6a1ead7793e",
+      "amendsReleaseID": "prod-d423954adea14af696f7388a798143de-0c67d5c63919356bb7ca2a01e3cac3b4"
+     }
+    ],
+    "dateSigned": "2022-05-12T04:03:01Z",
+    "description": "RFP for provision of System Integration for IT infrastructure and Continuing Managed Services"
+   }
+  ],
+  "initiationType": "tender"
+ },
+ {
+  "id": "prod-d787ec9c4b1b4346a446c0c3747f91d2-2025-07-25T05:18:27Z",
+  "tag": [
+   "compiled"
+  ],
+  "date": "2025-07-25T05:18:27Z",
+  "ocid": "prod-d787ec9c4b1b4346a446c0c3747f91d2",
+  "awards": [
+   {
+    "id": "CN4173775-054134462d0f492a97d54bb4d1355105",
+    "date": "2025-07-25T05:18:27Z",
+    "status": "active",
+    "suppliers": [
+     {
+      "id": "696756c499408b8de9faebf6a8924eea",
+      "name": "Tata Consultancy Services Limited"
+     }
+    ]
+   }
+  ],
+  "tender": {
+   "id": "prod-d787ec9c4b1b4346a446c0c3747f91d2",
+   "procurementMethod": "open",
+   "procurementMethodDetails": "Open tender"
+  },
+  "parties": [
+   {
+    "id": "696756c499408b8de9faebf6a8924eea",
+    "name": "Tata Consultancy Services Limited",
+    "roles": [
+     "supplier"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "28109981777",
+      "scheme": "AU-ABN"
+     }
+    ]
+   },
+   {
+    "id": "0ecb66a5dc65e98b64196b7e2dff654b",
+    "name": "Reserve Bank of Australia",
+    "roles": [
+     "procuringEntity"
+    ],
+    "additionalIdentifiers": [
+     {
+      "id": "50008559486",
+      "scheme": "AU-ABN"
+     }
+    ]
+   }
+  ],
+  "language": "EN",
+  "contracts": [
+   {
+    "id": "CN4173775",
+    "items": [
+     {
+      "id": "80101507-054134462d0f492a97d54bb4d1355105",
+      "classification": {
+       "id": "80101507",
+       "scheme": "UNSPSC"
+      }
+     }
+    ],
+    "title": "24/713-09-OT",
+    "value": {
+     "amount": "14021150.00",
+     "currency": "AUD"
+    },
+    "period": {
+     "endDate": "2027-01-30T13:00:00Z",
+     "startDate": "2025-07-29T14:00:00Z"
+    },
+    "status": "active",
+    "awardID": "CN4173775-054134462d0f492a97d54bb4d1355105",
+    "dateSigned": "2025-07-25T05:18:27Z",
+    "description": "CoreMod System Integrator for Application Migrations"
+   }
+  ],
+  "initiationType": "tender"
+ }
+]

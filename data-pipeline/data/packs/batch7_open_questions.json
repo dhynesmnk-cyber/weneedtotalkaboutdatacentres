@@ -55,6 +55,17 @@
       "notes": "The operator's own page: 'Strategically located in Melbourne's North-West'; 'a total capacity of 354+MW' (a lower bound, not stored as a value); 'Set on 8.070 ha with 45,578sqm of gross floor area and up to 32 technical data halls'. No street address, suburb or status is given. ARCHIVED 2026-11-18 at data/raw/operators/airtrunk/ with a SHA-256 manifest."
     },
     {
+      "id": "SRC_OP_FIRMUS_WESLEY_VALE",
+      "title": "Wesley Vale AI Factory Project (Firmus project page)",
+      "publisher": "Firmus",
+      "url": "https://firmus.co/wesley-vale-ai-factory-project",
+      "doc_type": "primary_company",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The developer's own project page: 226 Mill Road, Wesley Vale, on part of the former pulp mill landholding; two stages, about 26 MW initially to about 52 MW maximum, with critical IT load of 23 MW growing to 'approximately 46 WM' (sic); 40 backup generators; 448 kL a year of cooling water from on-site rainwater; links its development application. No status beyond the application. ARCHIVED 2026-11-18 at data/raw/operators/firmus/ with a SHA-256 manifest."
+    },
+    {
       "id": "SRC_NVIDIA_AU_DSX_20260909",
       "title": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia's Data Center Ecosystem (NVIDIA Newsroom, 9 September 2026)",
       "publisher": "NVIDIA",
@@ -64,6 +75,61 @@
       "credibility": "A",
       "accessed": "2026-11-18",
       "notes": "Names eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, AirTrunk) for 'Up to 2-Gigawatt Buildout by 2027' of NVIDIA DSX AI factories. Names no site, address or capacity per site. ARCHIVED 2026-11-18 at data/raw/operators/nvidia/ with a SHA-256 manifest."
+    },
+    {
+      "id": "SRC_SSD10330_MOD2_ASSESSMENT",
+      "title": "Modification 2 of Roberts Road Data Centre (SSD-10330-Mod-2) - Assessment Report",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-2%2120260306T061841.503+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2026-03-06",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-10330-Mod-2 Assessment Report.pdf), SHA-256 9d475ecb0e70e94e06d17c054d61b7b828a2852ce2b5cfa15b3a2893e64e9885, 35 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-2_mod_assessment.txt with its manifest; the PDF is not committed (re-fetch it from the manifest's url and check the hash). RG-045."
+    },
+    {
+      "id": "SRC_SSD21342738_MOD2_ASSESSMENT",
+      "title": "Eastern Creek Data Centre Expansion (SSD-21342738-Mod-2) - Assessment Report",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-21342738-MOD-2%2120260812T003248.610+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2026-08-05",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Read 2026-11-18 from the NSW Planning Portal (MOD 2 - Assessment Report.pdf), SHA-256 dbc3e18eed58a1806637d577fd9b23a9cd876a18b20b11f63a6bf4f85901f18d, 33 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-21342738-Mod-2_mod_assessment.txt with its manifest; the PDF is not committed (re-fetch it from the manifest's url and check the hash). RG-045."
+    },
+    {
+      "id": "SRC_SSD9741_MOD1_ASSESSMENT",
+      "title": "Lane Cove West Data Centre (SSD-9741-Mod-1) - Assessment Report",
+      "publisher": "NSW Department of Planning, Industry and Environment",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741-MOD-1%2120200426T014009.195+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2020-04-14",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Read 2026-11-18 from the NSW Planning Portal (20200414 - SSD-9741-Mod-1 - Assessment Report - SIGNED.pdf), SHA-256 c43fa6ebcc66442fa5ec9c869fb5a07c1e190c48ed6a243c7d4970d65dafe997, 27 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-9741-Mod-1_mod_assessment.txt with its manifest; the PDF is not committed (re-fetch it from the manifest's url and check the hash). RG-045."
+    },
+    {
+      "id": "SRC_SSD24299707_MOD1_ASSESSMENT",
+      "title": "Talavera Road Data Centre Campus Expansion (SSD-24299707-Mod-1) - Assessment Report",
+      "publisher": "NSW Department of Planning, Housing and Infrastructure",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707-MOD-1%2120241219T224421.352+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2024-12-19",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Read 2026-11-18 from the NSW Planning Portal (SSD-MOD Assessment Report.pdf), SHA-256 6cf5181abd613e4445b1f817ff064982827e91a04e9a3572a9a3fc9278aa8117, 33 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-24299707-Mod-1_mod_assessment.txt with its manifest; the PDF is not committed (re-fetch it from the manifest's url and check the hash). RG-045."
+    },
+    {
+      "id": "SRC_SSD10330_MOD4_REPORT",
+      "title": "Modification Report - Roberts Road Data Centre (SSD-10330 Mod 4)",
+      "publisher": "Prepared for the applicant (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-4%2120260813T051138.818+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Read 2026-11-18 from the NSW Planning Portal (Modification Report - Roberts Road Data Centre_MOD 4_.pdf), SHA-256 3dd19135d04e963d81103b507d4553d6cc95ae7fcb74ce46ff19c12fa2f537da, 68 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-4_mod_report.txt with its manifest; the PDF is not committed (re-fetch it from the manifest's url and check the hash). RG-045."
     }
   ],
   "rows": {
@@ -359,6 +425,206 @@
           "as_of_date": "2026-11-18"
         },
         "add_sources": []
+      },
+      {
+        "match": {
+          "id": 45
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): RESOLVED from the Department's assessment reports (and, for Mod 4, the applicant's modification report), all read today. EASTERN CREEK Mod 2 (approved 5 August 2026): power consumption 'from 32 MW to 63 MW'; back-up generators from '27 x 2.65 MW' to '52 x 1.8 MW'; additional fuel storage from 'Up to 545,000 litres' to 'Up to 782,000 L'. The portal's own one-line description says 'to 70.2 megawatts'; the report's 63 MW is the assessed figure and the conflict is recorded, not resolved. ROBERTS ROAD Mod 2 (approved 6 March 2026): 'the installation of 24 additional generators and the relocation of four approved units' (48 to 72 under SSD-10330, per the Mod 4 report); diesel storage from 1,914,000 litres (1,627 t) to 2,403,600 litres (2,043 t) within the SSD footprint. ROBERTS ROAD Mod 4 (NOT determined; the applicant's proposal): generators 'from 72 generators to 96 generators'. LANE COVE WEST Mod 1 (approved 14 April 2020): 'replacement of 80 MV generators with 116 LV generators', and 80 external diesel tanks relocated to 16 internal tanks 'with a total storage capacity of 1,952 kilolitres'. TALAVERA ROAD Mod 1 (approved 19 December 2024): 'an increase in capacity from 38 megawatts (MW) to 47 MW', and 'an additional four diesel generators'. No site capacity column is changed: the assessed figures are total power consumption, quoted here and on the modification rows.",
+          "as_of_date": "2026-11-18",
+          "status": "resolved",
+          "resolved_date": "2026-11-18",
+          "source_id": "SRC_SSD21342738_MOD2_ASSESSMENT",
+          "fact_status": "VERIFIED",
+          "confidence": "high"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD21342738_MOD2_ASSESSMENT",
+            "quote": "The modification seeks to improve operational efficiency through an increase in the power consumption of the development from 32 MW to 63 MW. | 27 x 2.65 MW generators • Up to 545,000 litres (L) of additional fuel storage | 52 x 1.8 MW generators • Up to 782,000 L of additional fuel storage"
+          },
+          {
+            "id": "SRC_NSWPORTAL_MODS",
+            "quote": "The modification seeks approval for an increase in the overall power consumption of the development (to 70.2 megawatts)"
+          },
+          {
+            "id": "SRC_SSD10330_MOD2_ASSESSMENT",
+            "quote": "the installation of 24 additional generators and the relocation of four approved units | Diesel fuel storage capacity 1,914,000 litres ( 1,627 tonnes ) within the footprint of the SSD 2,403,600 litres ( 2, 043 tonnes ) within the footprint of the SSD"
+          },
+          {
+            "id": "SRC_SSD10330_MOD4_REPORT",
+            "quote": "Modify the total number of back -up diesel generators approved under SSD -10330 from 72 generators to 96 generators. | Modification of the total number of back -up, diesel generators approved under SSD -10330 from 48 generators to 72 generators."
+          },
+          {
+            "id": "SRC_SSD9741_MOD1_ASSESSMENT",
+            "quote": "replacement of 80 MV generators with 116 LV generators | relocation of 80 diesel fuel storage tanks from t he external plant platforms to 16 steel tanks located internally on Level 1, with a total storage capacity of 1,952 kilolitres (kL)"
+          },
+          {
+            "id": "SRC_SSD24299707_MOD1_ASSESSMENT",
+            "quote": "an increase in capacity from 38 megawatts (MW) to 47 MW including associated increases in plant and equipment. | The proposed modification application includes an additional four diesel generators on site to the previously approved."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 34
+        },
+        "set": {
+          "notes": "Advanced 2026-09-18. All 17 post-consent modification records for NSW data centre SSDs are harvested and loaded: case ids, stages, decisions, determination dates and LGAs. Fifteen approved, one withdrawn, two undetermined. Five are material to the environmental envelope (added generators and diesel at Roberts Road, a power consumption increase at Eastern Creek, added fuel storage at Lane Cove West, an expansion at Talavera Road, and pending operational-infrastructure changes at Roberts Road again). RESIDUAL: modification pages do not publish the development description, so the QUANTUM of each change is unknown - the underlying modification reports must be fetched (RG-045). Local council development applications are also still out of scope. UPDATED 2026-11-18 (research batch 7): The quantum RG-034 left open is answered by RG-045 from the five modification reports, read today: Eastern Creek 32 MW to 63 MW, Roberts Road 48 to 72 generators (96 proposed), Lane Cove West 116 smaller generators and 1,952 kL of internal fuel storage, Talavera Road 38 MW to 47 MW. Local council development applications remain out of scope.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD24299707_MOD1_ASSESSMENT",
+            "quote": "an increase in capacity from 38 megawatts (MW) to 47 MW including associated increases in plant and equipment."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 72
+        },
+        "set": {
+          "notes": "One duplicate CONFIRMED this session (CAN-100812 = GovMarket 'Operation and Maintenance of Transport Equipment Centre of Excellence', identical to the cent, identical 29 Mar 2018 award, identical 30 Jun 2027 expiry). De-duplicated total $234,423,257.18 across 64 records. UPDATED 2026-11-18 (research batch 7): COMMONWEALTH PART SETTLED from the portal of record's data: the same AusTender feed file read in October (re-fetched today; SHA-256 matched) holds 7 notices whose supplier is Tata Consultancy Services, $41,416,192.60 at their latest values: the Reserve Bank of Australia four (a core banking solution, $13,600,000; IT infrastructure system integration and managed services, $10,285,017.60; cloud build capability, $1,976,040; 'CoreMod' application migrations, $14,021,150), Defence one (industry benchmarking, $1,087,625), Finance one (Digital Marketplace panel, $311,080), Prime Minister and Cabinet one (ICT contractor services, $135,280). Extract, redacted of contact points, at data/raw/registers/open_contracting/austender-tcs-extract.json. STILL OPEN: the NSW records, whose portal of record is buy.nsw, which refused the crawler (download #11).",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_AUSTENDER_OCDS_202610",
+            "quote": "Provision of and Implementation of a Core Banking Solution | RFP for provision of System Integration for IT infrastructure and Continuing Managed Services | Professional services for cloud build capability | CoreMod System Integrator for Application Migrations"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 83
+        },
+        "set": {
+          "notes": "Recorded at low confidence in the contracts table. This gap exists to protect the integrity of the layer rather than to add a fact. UPDATED 2026-11-18 (research batch 7): NARROWED: neither the 'Office 365 Environment Setup for MoG GSS' award nor any OneStream award is in the Commonwealth's AusTender feed (searched today across every record), so none is a Commonwealth notice. That leaves the NSW portal of record, buy.nsw, as GovMarket's attribution says; buy.nsw refused the crawler, so the attribution stays at low confidence until a person reads it (download #11).",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 27
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): WESLEY VALE placed from the developer's own page (Firmus, archived today): 'a new AI Factory project at 226 Mill Road, Wesley Vale', in two stages, 'an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM)' (sic), with 40 backup generators and cooling water from on-site rainwater. Leads (not records): trade reports of a Latrobe Council application and a December 2026 deadline for a major project proposal. PROPOSED for the author: a row SITE_FIRMUS_WESLEY_VALE (TAS, status `lodged` on the page's linked development application), with the stated maxima quoted rather than stored until the council record is read. The other proposals this question names are not yet worked.",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_FIRMUS_WESLEY_VALE",
+            "quote": "Firmus plans to build a new AI Factory project at 226 Mill Road, Wesley Vale — on part of the former Wesley Vale Pulp Mill landholding | The Wesley Vale site is being delivered in two stages: an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM). | The facility will have 40 backup generators, but they are not used for everyday power."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 42
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): Tried: IPART's own submission to the NSW inquiry and its review page for a data centre water pricing framework; ipart.nsw.gov.au closed the connection without answering (recorded here, not worked around). LEADS (not records): search summaries say IPART's submission reports Sydney Water's estimate of data centre water needs of up to 250 ML a day by 2035, that IPART made no allowance for data centres in its 2025 Sydney Water determination, and that the Government has asked IPART to review water pricing for data centres. Needs a person to download the submission (DOWNLOADS.md).",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 18
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): Searched: no record found of any Australian data centre registered with AEMO to provide frequency control ancillary services; demand-response aggregators report registrations without naming sites (leads). AEMO's registration lists are the primary record to check next.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 1
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): PROPOSED FOR CLOSING (wont_fix, author's decision): computing distances to cable landings is analysis the v1 rule against GIS overlays leaves for later (docs/PUBLICATION-PLAN.md, Part 3).",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 82
+        },
+        "set": {
+          "notes": "SCHEMA HYGIENE. Not a research question. Logged so it is not forgotten; workaround is consultancy_profile.firm_type, which is populated for all seven firms in this pack. UPDATED 2026-11-18 (research batch 7): PROPOSED FOR CLOSING (wont_fix, author's decision): a schema change, not a research question; it moves to the engineering backlog. consultancy_profile.firm_type remains the workaround.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      }
+    ],
+    "modifications": [
+      {
+        "match": {
+          "mod_case": "SSD-21342738-Mod-2"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_SSD21342738_MOD2_ASSESSMENT",
+            "quote": "The modification seeks to improve operational efficiency through an increase in the power consumption of the development from 32 MW to 63 MW. | 27 x 2.65 MW generators • Up to 545,000 litres (L) of additional fuel storage | 52 x 1.8 MW generators • Up to 782,000 L of additional fuel storage"
+          }
+        ]
+      },
+      {
+        "match": {
+          "mod_case": "SSD-10330-Mod-2"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_SSD10330_MOD2_ASSESSMENT",
+            "quote": "the installation of 24 additional generators and the relocation of four approved units | Diesel fuel storage capacity 1,914,000 litres ( 1,627 tonnes ) within the footprint of the SSD 2,403,600 litres ( 2, 043 tonnes ) within the footprint of the SSD"
+          }
+        ]
+      },
+      {
+        "match": {
+          "mod_case": "SSD-10330-Mod-4"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_SSD10330_MOD4_REPORT",
+            "quote": "Modify the total number of back -up diesel generators approved under SSD -10330 from 72 generators to 96 generators."
+          }
+        ]
+      },
+      {
+        "match": {
+          "mod_case": "SSD-9741-Mod-1"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_SSD9741_MOD1_ASSESSMENT",
+            "quote": "replacement of 80 MV generators with 116 LV generators | relocation of 80 diesel fuel storage tanks from t he external plant platforms to 16 steel tanks located internally on Level 1, with a total storage capacity of 1,952 kilolitres (kL)"
+          }
+        ]
+      },
+      {
+        "match": {
+          "mod_case": "SSD-24299707-Mod-1"
+        },
+        "set": {},
+        "add_sources": [
+          {
+            "id": "SRC_SSD24299707_MOD1_ASSESSMENT",
+            "quote": "an increase in capacity from 38 megawatts (MW) to 47 MW including associated increases in plant and equipment. | The proposed modification application includes an additional four diesel generators on site to the previously approved."
+          }
+        ]
       }
     ]
   }

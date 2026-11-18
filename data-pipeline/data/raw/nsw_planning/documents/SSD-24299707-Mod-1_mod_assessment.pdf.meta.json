@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707-MOD-1%2120241219T224421.352+GMT",
+ "project_slug": "talavera-road-data-centre-mod-1-expansion",
+ "attachment_slug": "ssd-mod-assessment-report-882",
+ "kind": "mod_assessment",
+ "label": "SSD-MOD Assessment Report.pdf",
+ "folder": "Determination",
+ "fetched_utc": "2026-11-18T02:03:33+00:00",
+ "sha256": "6cf5181abd613e4445b1f817ff064982827e91a04e9a3572a9a3fc9278aa8117",
+ "bytes": 3314919,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 43266,
+ "pages": 33,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

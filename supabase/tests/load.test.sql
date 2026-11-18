@@ -116,10 +116,12 @@ select public.assert(
 -- excerpts (the PDFs are not committed): 293 + 3 = 296.
 -- 2026-11-18: research batch 7 registers the Information Age and Cyber Daily reports on
 -- Westpac (5 November 2026), Cyber Daily's earlier report (16 October), AirTrunk's MEL2
--- page and NVIDIA's Australian release (9 September 2026): 296 + 5 = 301.
+-- page and NVIDIA's Australian release (9 September 2026): 296 + 5 = 301. Its second
+-- pass registers the four modification assessment reports and Roberts Road's Mod 4
+-- report (RG-045), and Firmus's Wesley Vale page (RG-027): 301 + 6 = 307.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 301,
-  '301 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 307,
+  '307 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
