@@ -16,6 +16,23 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded on 2026-11-18 from `main@a70ee0c` (the merge of #48: the author's second
+round on batch 8), on the author's instruction ("merge and load"). The UI job on #48
+was still running when the author asked for the merge; every other check had passed.
+Artefact digest `sha256:723a8413…`; it committed in one request.
+- **The load.** It added two sites, both pre-lodgement, unmapped, with no capacity:
+  `SITE_BEETALOO_WEDDELL` and `SITE_ENERGY_NORTH_ARES`. Each is cited to the NT
+  Government's release of 22 July 2026. It also added one source, the author's
+  transcription of Amazon Web Services Australia's NSW disclosures. Totals: 105 sites,
+  333 sources, 147 entities and 98 questions.
+- **Checked as `anon`, in a rolled-back transaction.**
+  - 105 sites, 333 sources and 98 questions.
+  - Each new site is readable and cited.
+  - No site is uncited.
+  - 9 essays visible.
+- **The live site.** `/research`, `/list`, `/map`, `/essays` and the CSVs answer 200.
+  The CSVs serve the new rows once the five-minute cache expires.
+
 Reloaded on 2026-11-18 from `main@c1c142b` (the merge of #47: the author's decisions
 on batch 8 and the downloads brought back), then the two duplicate sources were
 removed. Both steps were the author's instruction of 2026-11-18 ("merge and load, 1

@@ -22,10 +22,10 @@ in an observatory about data centre capacity could be mistaken for findings.
 The hosted database is up. The Supabase project is in Sydney
 (`ap-southeast-2`), all seventeen migrations are applied, including the editor's desk (0014 to 0017, applied 2026-11-11). Thirteen essays are loaded,
 nine of them approved by the editor at `/admin` and four still drafts. The research from
-`data-pipeline/` is loaded: 103 sites, 332 sources, 147 entities and 98 published
+`data-pipeline/` is loaded: 105 sites, 333 sources, 147 entities and 98 published
 research questions, every site cited and no site carrying an invented live
 capacity, and no person named: people appear by public role only. It was last
-loaded on 18 November 2026 from `main@c1c142b`. Public sign-up is off: the one
+loaded on 18 November 2026 from `main@a70ee0c`. Public sign-up is off: the one
 invited editor is the only account. Fill in `.env.local` and the pages show
 real records. See `docs/SUPABASE_SETUP.md` for how it was stood up and what
 remains.
@@ -38,7 +38,7 @@ it is empty.
 Postgres with no Supabase project required, which is the check to run before
 loading a correction.
 
-The map shows 46 of the 103 sites: the NSW State Significant Development
+The map shows 46 of the 105 sites: the NSW State Significant Development
 projects, each at the point the planning portal records for it. It says how many
 sites it could not place. Locating the rest is human curation work with a source
 per point, not something an importer may invent. Linked entities are blank and entity
