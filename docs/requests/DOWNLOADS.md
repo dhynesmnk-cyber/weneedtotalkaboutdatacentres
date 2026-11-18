@@ -12,6 +12,23 @@ folder named, and add a manifest beside it (`<file>.meta.json` with `url`,
 `fetched_utc`, `sha256` and `bytes`, as the archived files have). The question's
 hunt log records what came back.
 
+**Order to work in (2026-11-18).** The ranks below are the order the list was
+written in. Under the plan of 2026-11-18, do them in the order of the essays
+they unlock:
+
+1. #22 and #26 (ES-013: certified facilities).
+2. #23, #24, #25, and Latrobe Council's record for Firmus's Wesley Vale
+   application (ES-014: the regions).
+3. #2 (ES-012: the Future Fund).
+4. #8 to #11 (ES-007, and ES-015's contracts).
+5. #17 to #19 (ES-005's follow-up).
+6. #1, #3, #6 and #7 (ES-002's follow-up).
+7. #4 and #5 (ES-008's follow-up).
+8. #13, #14 and #16 (ES-009's follow-up).
+9. Then #15, #20, #21 and #27.
+
+All of them are free.
+
 **Received from the author, 2026-11-17.** Three DigiCo Infrastructure REIT
 documents for RG-101, not on the ranked list below: the crawler asked ASX for
 two of them on 2026-11-16 and was served a bot-check page

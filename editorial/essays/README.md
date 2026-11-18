@@ -21,6 +21,14 @@ the text that matters. A later change to the file here is the agent's proposal:
 the loader reports it and leaves the piece alone. The file stays as the record
 of what the agent first proposed, and `/admin` keeps every later version.
 
+### Follow-ups
+
+New evidence on an approved piece becomes a new piece, never an edit by an
+agent (decision of 2026-11-18). A follow-up takes the next free number, opens
+its standfirst with "A follow-up to ES-00n", carries the tag `follow-up`, and
+meets every rule below. The editor links it from the original in `/admin`.
+docs/PUBLICATION-PLAN.md lists which records would prompt each one.
+
 ## Format
 
 ```markdown

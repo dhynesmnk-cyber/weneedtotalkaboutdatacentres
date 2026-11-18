@@ -12,22 +12,30 @@ put the documents in `data-pipeline/data/raw/` with a manifest, and the
 question's hunt log records what came back, including any refusal and its
 reasons.
 
+**Zero spend (the author, 2026-11-18).** No request that carries a fee is lodged
+and nothing is bought. The four Commonwealth FOI requests carry no application
+fee: lodge them asking for any processing charge to be waived, and if a charge
+is still levied, narrow the request or withdraw it rather than pay. Every state
+request below stays drafted and **not lodged**; the questions behind them are
+`blocked`, and the agent works the free substitutes listed in
+docs/PUBLICATION-PLAN.md ("Requests to lodge").
+
 ## Index
 
 | Request | To | Law or service | Cost | Questions | Status |
 | --- | --- | --- | --- | --- | --- |
-| [GIPA-001](GIPA-001-ownership-documents.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-021, RG-035, RG-037, RG-057, RG-059, RG-064 | drafted |
-| [GIPA-002](GIPA-002-revenue-nsw.md) | NSW Department of Customer Service (Revenue NSW) | GIPA Act 2009 (NSW) | $30 application fee | RG-007 | drafted |
-| [FOI-001](FOI-001-treasury-firb.md) | The Treasury (Foreign Investment) | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-006 | drafted |
-| [FOI-002](FOI-002-defence-palantir-hosting.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-087 | drafted |
-| [FOI-003](FOI-003-defence-palantir-clearance.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-089 | drafted |
-| [FOI-004](FOI-004-acic-palantir.md) | Australian Criminal Intelligence Commission | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-093 | drafted |
-| [GIPA-003](GIPA-003-dphi-compliance-and-delegation.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-058, RG-069, RG-040 | drafted |
-| [GIPA-004](GIPA-004-sydney-water.md) | Sydney Water Corporation | GIPA Act 2009 (NSW) | $30 application fee | RG-017 (also RG-062, RG-068) | drafted |
-| [FOI-005](FOI-005-melbourne-water.md) | Melbourne Water Corporation | FOI Act 1982 (Vic) | $34.50 from 1 July 2026, waivable | RG-017, RG-080 | drafted |
-| [FOI-006](FOI-006-yarra-valley-south-east-water.md) | Yarra Valley Water; South East Water (two applications) | FOI Act 1982 (Vic) | each agency's own indexed fee, waivable | RG-017 | drafted |
-| [RTI-001](RTI-001-unitywater.md) | Unitywater (or the Queensland agency that serves the sites) | RTI Act 2009 (Qld) | $59.60 from 1 July 2026, **not waivable** | RG-017 | drafted |
-| [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked; **deferred by the author 2026-11-15**, will fund later (8 searches, $157); free substitutes run and documented |
+| [GIPA-001](GIPA-001-ownership-documents.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-021, RG-035, RG-037, RG-057, RG-059, RG-064 | drafted; **not lodged: zero spend** (2026-11-18) |
+| [GIPA-002](GIPA-002-revenue-nsw.md) | NSW Department of Customer Service (Revenue NSW) | GIPA Act 2009 (NSW) | $30 application fee | RG-007 | drafted; **not lodged: zero spend** (2026-11-18) |
+| [FOI-001](FOI-001-treasury-firb.md) | The Treasury (Foreign Investment) | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-006 | drafted; **to lodge** (free; ask for any processing charge to be waived) |
+| [FOI-002](FOI-002-defence-palantir-hosting.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-087 | drafted; **to lodge** (free; ask for any processing charge to be waived) |
+| [FOI-003](FOI-003-defence-palantir-clearance.md) | Department of Defence | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-089 | drafted; **to lodge** (free; ask for any processing charge to be waived) |
+| [FOI-004](FOI-004-acic-palantir.md) | Australian Criminal Intelligence Commission | FOI Act 1982 (Cth) | No application fee; processing may be charged | RG-093 | drafted; **to lodge** (free; ask for any processing charge to be waived) |
+| [GIPA-003](GIPA-003-dphi-compliance-and-delegation.md) | NSW Department of Planning, Housing and Infrastructure | GIPA Act 2009 (NSW) | $30 application fee | RG-058, RG-069, RG-040 | drafted; **not lodged: zero spend** (2026-11-18) |
+| [GIPA-004](GIPA-004-sydney-water.md) | Sydney Water Corporation | GIPA Act 2009 (NSW) | $30 application fee | RG-017 (also RG-062, RG-068) | drafted; **not lodged: zero spend** (2026-11-18) |
+| [FOI-005](FOI-005-melbourne-water.md) | Melbourne Water Corporation | FOI Act 1982 (Vic) | $34.50 from 1 July 2026, waivable | RG-017, RG-080 | drafted; **not lodged: zero spend** (2026-11-18) |
+| [FOI-006](FOI-006-yarra-valley-south-east-water.md) | Yarra Valley Water; South East Water (two applications) | FOI Act 1982 (Vic) | each agency's own indexed fee, waivable | RG-017 | drafted; **not lodged: zero spend** (2026-11-18) |
+| [RTI-001](RTI-001-unitywater.md) | Unitywater (or the Queensland agency that serves the sites) | RTI Act 2009 (Qld) | $59.60 from 1 July 2026, **not waivable** | RG-017 | drafted; **not lodged: zero spend** (2026-11-18) |
+| [Paid searches](PAID-SEARCHES.md) | ASIC; NSW Land Registry Services | Register searches | $10 to $20 each | RG-021, RG-036, RG-037, RG-050, RG-052, RG-057, RG-059, RG-064, RG-081 | ranked; deferred by the author 2026-11-15, and **not bought under zero spend** (2026-11-18); free substitutes run and documented |
 | [Downloads](DOWNLOADS.md) | Super funds, the Future Fund, ASX, OpenAI, NSW Valuer General, ministers' diaries, lobbyist registers, AusTender, buy.nsw, state tender portals, the GTC keynote, Queensland Hansard, cyber.gov.au, both parliamentary inquiries, NSW legislation, Victorian planning | Free public documents the crawler was refused | Free | RG-004, RG-005, RG-011, RG-012, RG-014, RG-015, RG-016, RG-025, RG-040, RG-041, RG-048, RG-056, RG-066, RG-069, RG-070, RG-074, RG-077, RG-086, RG-087, RG-089, RG-092, RG-093, RG-094 | ranked, awaiting a person; **received 2026-11-17:** three DigiCo ASX documents for RG-101, which were not on the ranked list (see DOWNLOADS.md) |
 
 Status runs: drafted, lodged, acknowledged, decided, received (or refused).
