@@ -720,7 +720,7 @@ before writing.
 Topics the research turned up along the way. Each is drafted only once its
 claim rests on records the database holds; until then its gaps are listed here.
 
-#### ES-011 "The approval after the approval" (C2). Brief; deep dive if RG-008 lands. Draft now
+#### ES-011 "The approval after the approval" (C2). Drafted as "Approved, then doubled", waiting for approval
 
 - **Claim.** After consent, modifications decided by delegates doubled Eastern
   Creek's power (32 MW to 63 MW; the portal's own summary says 70.2 MW), took
@@ -747,7 +747,7 @@ claim rests on records the database holds; until then its gaps are listed here.
   on how holdings are screened against the Commonwealth's own contracts. No
   impropriety is implied.
 
-#### ES-013 "The register that stopped registering" (C3). Brief. Draft now
+#### ES-013 "The register that stopped registering" (C3). Drafted, waiting for approval
 
 - **Claim.** The government's top hosting certification "represents the highest
   level of assurance", yet its register gives no location for any facility, has
