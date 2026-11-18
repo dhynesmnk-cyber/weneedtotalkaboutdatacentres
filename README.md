@@ -20,7 +20,7 @@ database connected" state rather than sample data, because placeholder figures
 in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
-(`ap-southeast-2`), all seventeen migrations are applied, including the editor's desk (0014 to 0017, applied 2026-11-11), and the three essay drafts are loaded unapproved, and the research from
+(`ap-southeast-2`), all seventeen migrations are applied, including the editor's desk (0014 to 0017, applied 2026-11-11), and the ten essay drafts are loaded unapproved, and the research from
 `data-pipeline/` is loaded: 102 sites, 296 sources, 146 entities and 95 published
 research questions, every site cited and no site carrying an invented live
 capacity, and no person named: people appear by public role only. It was last

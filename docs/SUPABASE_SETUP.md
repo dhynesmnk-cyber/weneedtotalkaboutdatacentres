@@ -16,6 +16,17 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Seven more essay drafts loaded on 2026-11-18 from `main@d8f5c7c` (the merge of
+#43), on the author's instruction: ES-002, ES-004, ES-005, ES-006, ES-008, ES-009
+and ES-010. The three loaded before were unchanged and unedited, so the upsert
+left them alone. It committed in one request.
+- **In the database.** Ten essays, none approved and none edited in `/admin`;
+  104 essay citations.
+- **Checked as `anon`, in a rolled-back transaction.** No essay and no essay
+  citation is visible; sites still 102.
+- **The live site.** `/essays` lists none of them, and each new slug returns 404
+  until the author approves it.
+
 Essay drafts loaded on 2026-11-17 from `main@82d468e` (the merge of #42), on
 the author's instruction. `npm run load:essays` wrote three drafts; ES-000 and
 ES-001 were unchanged and unedited, so only ES-003 "Nine approvals, no

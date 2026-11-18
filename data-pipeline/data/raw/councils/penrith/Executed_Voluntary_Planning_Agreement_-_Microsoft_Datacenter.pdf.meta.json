@@ -6,5 +6,12 @@
  "bytes": 1639832,
  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
  "extractor": "pypdf-6.17.0",
- "pages": 39
+ "pages": 39,
+ "ocr": {
+  "file": "Executed_Voluntary_Planning_Agreement_-_Microsoft_Datacenter.ocr.txt",
+  "tool": "tesseract 5.3.4 (eng), pages rasterised by pdftoppm at 200 dpi, greyscale",
+  "date": "2026-11-18",
+  "pdf_sha256_checked": "9ffd9e9ac258d5f08533e8f0f8f6bae8e88dc99fdba8011daf91ea68b7134b43",
+  "note": "The executed copy is a scan with no text layer, so pypdf extracts nothing. Re-fetched on 2026-11-18; its SHA-256 matched this manifest before OCR. OCR text can misread characters; every figure quoted from it was read against the page image."
+ }
 }
