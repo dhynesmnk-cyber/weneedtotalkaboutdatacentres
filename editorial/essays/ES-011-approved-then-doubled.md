@@ -53,7 +53,7 @@ Eastern Creek's modification cut generator testing from 198 hours a year to 48 [
 
 The consents sit close to two regulatory lines. Thirteen of the 18 data centre consents we hold cap diesel storage at 2,000 tonnes, the line Roberts Road's modification crossed [SRC_NSWPORTAL_CONSENTS] [RG-061]. At Grand Avenue, the environment regulator "recommended conditions to ensure the development would stay under the triggers for an EPL" [SRC_SSD53338465_ASSESSMENT].
 
-The other line is time. The State's guidelines say "Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen" [SRC_NSWGUIDE26]. Fifteen of the 18 consents cap generator operation at exactly 200 hours a year; the three decided in 2026 set 170, 173 and 187 [SRC_NSWPORTAL_CONSENTS] [RG-061].
+The other line is time. The State's guidelines say "Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen" [SRC_NSWGUIDE26]. Fifteen of the 18 consents cap generator operation at exactly 200 hours a year; the three decided since July 2026 set 170, 173 and 187 [SRC_NSWPORTAL_CONSENTS] [RG-061].
 
 ### The summary that disagrees
 

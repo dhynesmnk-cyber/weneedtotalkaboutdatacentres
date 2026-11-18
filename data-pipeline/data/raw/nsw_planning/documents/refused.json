@@ -9,6 +9,26 @@
   "attachment_slug": "52-turner-road-data-centre-request-sears-16",
   "first_checked_utc": "2026-11-16T01:58:54+00:00"
  },
+ "https://www.planningportal.nsw.gov.au/appendix-b4-acoustic-review-statement-48?_format=json": {
+  "checked_utc": "2026-11-18T06:13:49+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-41589232-Mod-1",
+  "project_slug": "modification-1-51-huntingwood-drive-data-centre-reduced-scale",
+  "kind": "acoustic_review_statement",
+  "attachment_slug": "appendix-b4-acoustic-review-statement-48",
+  "first_checked_utc": "2026-11-18T06:12:39+00:00"
+ },
+ "https://www.planningportal.nsw.gov.au/appendix-enoise-impact-assessment-5?_format=json": {
+  "checked_utc": "2026-11-18T06:13:45+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-10330-Mod-4",
+  "project_slug": "roberts-road-dc-mod-4-changes-operational-infrastructure",
+  "kind": "noise_assessment",
+  "attachment_slug": "appendix-enoise-impact-assessment-5",
+  "first_checked_utc": "2026-11-18T06:13:45+00:00"
+ },
  "https://www.planningportal.nsw.gov.au/eis-augusta-street-blacktown-0?_format=json": {
   "checked_utc": "2026-11-16T01:58:43+00:00",
   "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
