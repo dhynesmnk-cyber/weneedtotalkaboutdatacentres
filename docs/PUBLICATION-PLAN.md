@@ -239,8 +239,10 @@ issuers' annual reports and free foreign registry pages.
 
 ### Approvals
 
-- **Now (decision of 2026-11-18):** ES-000 to ES-010 at `/admin`, after SMTP is
-  set up (docs/DELIVERY-PLAN.md, launch checklist).
+- **Done (2026-11-18):** the editor approved nine at `/admin`: ES-000 to ES-006,
+  ES-009 and ES-010 (ES-010 edited first). ES-008 is not yet approved; ES-007 is
+  not drafted.
+- **Now:** ES-008, ES-011, ES-013 and ES-015, loaded as drafts on 2026-11-18.
 - **Then:** each new draft (ES-011 onward, and each follow-up) as its pull
   request merges and the agent loads it.
 
@@ -432,6 +434,39 @@ It touches 14 questions. Unresolved after it: 67, of which 20 are `blocked`,
 - **RG-027:** the Beetaloo release was refused (download #32).
 - **Proposed to the author as not retrievable at zero spend:** RG-013 (the AWS
   and Google remainder) and RG-102 (Macquarie Park's end user).
+
+#### The author's decisions and downloads (2026-11-18)
+
+Pack `data/packs/batch8_decisions.json` (`scripts/curate_batch8_decisions.py`).
+Unresolved after it: 62, of which 17 are `blocked`, 33 in progress and 12 open.
+Sources: 332.
+
+- **Decided.** RG-076 and RG-090 are resolved-negative. RG-013's remainder and
+  RG-102 are closed as not retrievable at zero spend (`wont_fix`). Three
+  modification rows are reclassified (Lane Cove West Mods 3 and 4, Lanceley
+  Place Mod 2).
+- **RG-018, resolved from download #31.** A Firmus company is registered to
+  provide ancillary services as a load, and another ran a 20 MW ancillary service
+  load at St Leonards, Tasmania, until 2023. CDC is an intending participant.
+  NEXTDC's backup generators at seven sites are exempt, with zero export.
+- **RG-007, from download #30.** The NSW tax expenditure statement never mentions
+  data centres. Sydney Water's servicing rests on "full cost recovery".
+- **RG-027, from download #32.** Beetaloo Digital holds a "not to deal"
+  commitment over 185 ha at Weddell. The release names Energy North's Project
+  Ares too. **Two new site rows are proposed to the author.**
+- **RG-069, from download #34 in part and the AEC's free bulk returns.**
+  - NSW: Amazon Web Services Australia is the one data centre company among the
+    major political donor entities.
+  - Commonwealth, 2020-21 to 2024-25: Amazon's own returns disclose $523,945 of
+    donations to Labor and Liberal branches, and Macquarie Technology Group's
+    $316,324 to parties.
+  - Labor's returns record $27,900 from CDC as "Other Receipt".
+  - AirTrunk's $104,500 in 2024-25 went to the Business Council of Australia,
+    a lobby group.
+  - The NSW amounts still need Amazon's own disclosures.
+- **Duplicates fixed.** Two sources registered twice (Transgrid's data centre
+  page, and NVIDIA's release) now cite the earlier rows. The two live
+  duplicates are proposed to the author for removal.
 
 Not touched (no new free source reached them): RG-003, 025, 053, 088, 097,
 101, 103, 104 and 106. Each waits on a named download already listed (#20,

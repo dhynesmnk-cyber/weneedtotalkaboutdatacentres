@@ -131,9 +131,14 @@ select public.assert(
 -- (RG-034), Transgrid's data centre page and its two system strength documents (RG-018,
 -- RG-019, RG-043), Mandala's October 2024 report (RG-100) and Melbourne Water's annual
 -- report (RG-080): 313 + 16 = 329.
+-- 2026-11-18: two of those were duplicates of earlier rows with the same URL (Transgrid's
+-- data centre page, SRC_TRANSGRIDCAP; NVIDIA's release, SRC_NVIDIA_AU_2GW, duplicated in
+-- batch 7), and now cite the originals; the author's downloads add the 2026-27 Budget Paper
+-- No. 1, AEMO's registration list, the NT Government's Beetaloo release, the NSW Electoral
+-- Commission's stakeholder register and the AEC's annual returns: 329 - 2 + 5 = 332.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 329,
-  '329 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 332,
+  '332 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from

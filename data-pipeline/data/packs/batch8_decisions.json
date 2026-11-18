@@ -1,0 +1,233 @@
+{
+  "pack_id": "batch8-decisions-2026-11",
+  "prepared_by": "scripts/curate_batch8_decisions.py from data/raw/ (the author's downloads of 2026-11-18)",
+  "prepared_on": "2026-11-18",
+  "_comment": [
+    "The author's decisions of 2026-11-18 on batch 8's proposals: RG-076 and RG-090 resolved-negative;",
+    "RG-013's remainder and RG-102 wont_fix; three modification rows reclassified.",
+    "The author's downloads #30, #31, #32 and #34 (part), and the AEC's bulk returns. New site rows for",
+    "the NT proposals are PROPOSED in RG-027's note and not made here."
+  ],
+  "sources": [
+    {
+      "id": "SRC_NSW_BP1_2026_27",
+      "title": "NSW Budget 2026-27, Budget Paper No. 1: Budget Statement",
+      "publisher": "NSW Treasury",
+      "url": "https://www.nsw.gov.au/sites/default/files/noindex/2026-06/bp1-budget-statement-nsw-budget-2026-27.pdf",
+      "doc_type": "primary_government",
+      "published": "2026-06-01",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Appendix C is the State's statement of revenue forgone through tax expenditures and concessions ($16.8 billion in 2026-27), itemising those over $1 million: it never mentions data centres (checked by the curation script). Data centres appear only as a driver of business investment and in Sydney Water's servicing strategy, 'supported by principles of full cost recovery'. Saved by the author as Markdown from the published PDF (download #30); the crawler is barred by robots.txt. RG-007. Archived 2026-11-18 at data/raw/registers/nsw_budget/2026-27_Budget_Paper_No.01_-_Budget_Statement.md with a manifest (SHA-256 dd6b9bf9374b7a54...)."
+    },
+    {
+      "id": "SRC_AEMO_NEM_REG_LIST_202611",
+      "title": "AEMO NEM Registration and Exemption List (as downloaded 2026-11-18): rows naming data centre operators",
+      "publisher": "Australian Energy Market Operator",
+      "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/participate-in-the-market/registration",
+      "doc_type": "primary_regulator",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The extract of the list's rows that name data centre operators, from the spreadsheet the author downloaded (download #31; AEMO's site answered the crawler with HTTP 403). The spreadsheet is not committed; its SHA-256 is in the extract's manifest. RG-018. Archived 2026-11-18 at data/raw/registers/aemo/nem_registration_list_data_centre_rows.csv with a manifest (SHA-256 27925ff95a1848fd...)."
+    },
+    {
+      "id": "SRC_NTGOV_BEETALOO_20260722",
+      "title": "Finocchiaro CLP Government supporting proposed Beetaloo Digital Pty Ltd integrated energy and data centre development (NT Government media release, 22 July 2026)",
+      "publisher": "Northern Territory Government",
+      "url": "https://territorycoordinator.nt.gov.au/news-and-insights/beetaloo-digital-advances-plans-for-weddell-data-centre",
+      "doc_type": "primary_government",
+      "published": "2026-07-22",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The NT Government grants Beetaloo Digital a 'not to deal' exclusive commitment over 185 ha at Weddell, about 30 km from Darwin, for possibly two hyperscale AI campuses powered by up to 2 GW of on-site gas generation; the company's own claims ($40 billion, 5,000 construction jobs) are quoted, not stored. Names a second proposal, Energy North's Project Ares (1 GW, Murranji station, Barkly). Saved by the author (download #32); the media advisers' names and mobile numbers are redacted from the archived copy. RG-027. Archived 2026-11-18 at data/raw/operators/ntgov/beetaloo-digital-weddell-22-july-2026.md with a manifest (SHA-256 c8a2e3ec79aed2b1...)."
+    },
+    {
+      "id": "SRC_NSWEC_STAKEHOLDERS_202611",
+      "title": "NSW Electoral Commission stakeholder register (export, 2026-11-18): data centre entities among major political donors",
+      "publisher": "NSW Electoral Commission",
+      "url": "https://efadisclosures.elections.nsw.gov.au/",
+      "doc_type": "primary_regulator",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The author's export of the register (download #34, part) lists 2,368 stakeholders and gives no amounts. One data centre company is among the 276 major political donor entities: Amazon Web Services Australia. Only matching entity rows are committed; the full register names private individuals. RG-069. Archived 2026-11-18 at data/raw/registers/nsw_electoral_disclosures/stakeholders_data_centre_rows.csv with a manifest (SHA-256 6c25a46459f06dfa...)."
+    },
+    {
+      "id": "SRC_AEC_TRANSPARENCY_2025",
+      "title": "AEC Transparency Register, annual returns (bulk download): rows naming data centre companies, 2020-21 to 2024-25",
+      "publisher": "Australian Electoral Commission",
+      "url": "https://transparency.aec.gov.au/Download/AllAnnualData",
+      "doc_type": "primary_regulator",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "Fetched by the crawler from the AEC's free bulk download (its robots.txt allows it). The extract keeps both sides: the donor's return (Donations Made) and the recipient's (Detailed Receipts), which must not be added together, since one payment can appear in both. A recipient's 'Other Receipt' is not a donation, and receipts by the Business Council of Australia are a lobby group's, not a party's. The zip is not committed (it names private donors); its SHA-256 is in the manifest. RG-069. Archived 2026-11-18 at data/raw/registers/aec_transparency/data_centre_companies_2020-21_to_2024-25.csv with a manifest (SHA-256 07e84bd266069fbd...)."
+    }
+  ],
+  "rows": {
+    "research_gaps": [
+      {
+        "match": {
+          "id": 76
+        },
+        "set": {
+          "notes": "DOCUMENTED NEGATIVE as at 18 September 2026. The 20 November 2025 TCS press release does not mention Australia anywhere; Chairman Chandrasekaran is quoted on building 'GW-scale AI data centers in India'; The Asset reports proceeds support 'firm's GW-scale AI data centre build in India'. No Australian application located. Recheck on any HyperVault announcement. UPDATED 2026-11-18 (research batch 7): Searched: TCS's own releases on HyperVault describe Indian campuses (Telangana) and a TPG investment; no Australian site, application or announcement was found. The absence is the working finding. Proposed to the author for closing as resolved-negative. UPDATED 2026-11-18 (research batch 8): PROPOSED TO THE AUTHOR for closing as resolved-negative: two passes (2026-09-18, 2026-11-18) found no Australian site, application or announcement for TCS or HyperVault; the absence is the finding. Not closed by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 8): Closed as resolved-negative: no Australian site, application or announcement for TCS or HyperVault was found in two passes. Re-open on any HyperVault announcement for Australia.",
+          "as_of_date": "2026-11-18",
+          "status": "resolved",
+          "resolved_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 90
+        },
+        "set": {
+          "notes": "WORKED 2026-10-22 (research batch 4). In the AusTender feed (2007 to October 2026) no notice names NVIDIA as supplier: 8 buy NVIDIA products through resellers, none of them AUKUS work. Only 2 notices mention AUKUS at all, and neither supplier is Palantir or NVIDIA. The 29 Palantir notices are software licences, support, data services and analytics. Search summaries found Pillar II awards to other companies only (leads, in the hunt log). defence.gov.au did not answer the crawler. Still unevidenced, so still not asserted: any Palantir or NVIDIA Pillar II work. Kelly's post-separation conditions: not found; the absence stays the working finding. UPDATED 2026-11-18 (research batch 7): Tried again: defence.gov.au reset the connection on the Pillar II news page (recorded). Search summaries name Pillar II awards to BAE Systems Australia, L3Harris and Mission Systems, not Palantir or NVIDIA (leads). Still unevidenced, still not asserted. UPDATED 2026-11-18 (research batch 8): PROPOSED TO THE AUTHOR for closing as resolved-negative: the Commonwealth's Palantir notices are software, support and data services, none a Pillar II award; defence.gov.au has twice refused the crawler; nothing read places Palantir or NVIDIA in Pillar II work. Closing records the absence, not a denial. Not closed by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 8): Closed as resolved-negative: nothing read places Palantir or NVIDIA in AUKUS Pillar II work. Closing records the absence, not a denial. Re-open on a primary record of an award.",
+          "as_of_date": "2026-11-18",
+          "status": "resolved",
+          "resolved_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 13
+        },
+        "set": {
+          "notes": "Advanced again 2026-09-18. The complete NSW data centre SSD register (46 records) contains NO project titled AWS, Amazon, Google or Meta; Microsoft appears only through its proponent entity Microsoft Datacentre (Australia) Pty Ltd on Kemps Creek SSD-10101987 (approved, operating) and Honeman Close SSD-58601963 (in Assessment, description references 96 MW). Conclusion: hyperscaler footprints CANNOT be mapped from NSW planning titles. The sector's convention is codenames - Project Duke, Atlas, Echidna, Apollo, Pluto, Mars, KC1, Road 1 - and the NSW Government's own IDA release confirms it (Goodman's 'Project Atlas', Stockland's 'Project A'), with one endorsed project withheld entirely for commercial sensitivity. Remaining routes are ASIC resolution of the codename SPVs (RG-035), landlord tenancy disclosure, and Victorian and Queensland registers. AWS and Google remain entirely unresolved. UPDATED 2026-11-18 (research batch 8, second pass): PROPOSED TO THE AUTHOR: close the remainder (AWS's and Google's site-level footprints) as not retrievable at zero spend. The free routes are worked: planning registers name codename companies and consultancies, not hyperscalers (RG-035, RG-055); the landowner documents are restricted (GIPA-001, not lodged). Not closed by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 8): The remainder (AWS's and Google's site-level footprints) is closed as not retrievable at zero spend. Re-open if a planning record, a landowner document or the operator names a site.",
+          "as_of_date": "2026-11-18",
+          "status": "wont_fix"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 102
+        },
+        "set": {
+          "notes": "OPENED 2026-11-15 by the RG-084 merge. The seed row cited SRC_CERTSTRAT for 'A$264m', 'for AWS' and 'a north-zone start in September 2026'. The archived article (data/raw/operators/certifiedstrategic/) does not contain the word 'Stockland' - checked by this script and by curate_certstrat_review.py - so the citation never supported the claim. The consent itself records approval, not construction. Nothing here has been read that names an end user or a start date. Until one is, the surviving row keeps status 'approved' and no anchor tenant. One lead, no more: the NSW IDA release of 27 March 2026 lists 'Stockland Project A City of Ryde' (recorded separately as SITE_STOCKLAND_PROJA) and states '**NB: One IDA endorsed data centre not listed due to commercial sensitivities**'. Whether the withheld project is this one is unknown and is not assumed. UPDATED 2026-11-18 (research batch 7): CONSTRUCTION ANSWERED, END USER NOT. The Department's March 2026 report on the neighbouring SSD-63235720 describes 'an existing data centre adjoining to the west at 11-17 Khartoum Road (SSD-10467)' and lists, among adjoining sites, 'one operational data centre, one under-construction data centre, and one data centre currently under assessment'. So SSD-10467 was built and operating by March 2026. Its own 2021 report says only that 'The Applicant has been approached by a data centre operator (the lessee)' who would operate it: one of the nine unnamed operators (RG-055). PROPOSED for the author: SITE_MACQUARIE_PARK_DC status `approved` -> `operational`, REPORTED on the Department's description. Not made by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): Status set to operational. The end user stays unnamed, so the question stays open for it. UPDATED 2026-11-18 (research batch 8, second pass): One more free search (Stockland's releases and the trade press): no record names the end user. A directory's 'believed to be' a cloud provider is speculation, not a record. PROPOSED TO THE AUTHOR as not retrievable at zero spend; the question would re-open on an operator's or Stockland's own statement. Not closed by this pack. DECIDED BY THE AUTHOR 2026-11-18 (research batch 8): Closed as not retrievable at zero spend: no record names the end user. Re-open on the operator's or Stockland's own statement.",
+          "as_of_date": "2026-11-18",
+          "status": "wont_fix"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 34
+        },
+        "set": {
+          "notes": "Advanced 2026-09-18. All 17 post-consent modification records for NSW data centre SSDs are harvested and loaded: case ids, stages, decisions, determination dates and LGAs. Fifteen approved, one withdrawn, two undetermined. Five are material to the environmental envelope (added generators and diesel at Roberts Road, a power consumption increase at Eastern Creek, added fuel storage at Lane Cove West, an expansion at Talavera Road, and pending operational-infrastructure changes at Roberts Road again). RESIDUAL: modification pages do not publish the development description, so the QUANTUM of each change is unknown - the underlying modification reports must be fetched (RG-045). Local council development applications are also still out of scope. UPDATED 2026-11-18 (research batch 7): The quantum RG-034 left open is answered by RG-045 from the five modification reports, read today: Eastern Creek 32 MW to 63 MW, Roberts Road 48 to 72 generators (96 proposed), Lane Cove West 116 smaller generators and 1,952 kL of internal fuel storage, Talavera Road 38 MW to 47 MW. Local council development applications remain out of scope. UPDATED 2026-11-18 (research batch 8, second pass): MODIFICATION HALF DONE: all 17 modification records on the NSW data centre files are read (five in batch 7; ten assessment reports and one modification report today; the withdrawn 51 Huntingwood Mod 1 report answered 401). Beyond batch 7's five, three more add generators or diesel. LANE COVE WEST MOD 4 (October 2025, section 4.55(1A), decided by an A/Team Leader, posted on 9 July 2025, not exhibited): 'The proposed modification seeks to increase diesel storage capacity from 1,651 t to 1966.9 t, below the storage limit of 2,000 t specified in condition A6(c)', and lithium-ion batteries from 55 t to 308 t; the Department added conditions 'requiring detailed monitoring and reporting of generator use'. LANCELEY PLACE MOD 2 (April 2026, section 4.55(1A), posted 27 January 2026): from '30 x 2.8 MW / 3.5 MVA generators' to '42 x 2.82 MW / 3.6 MVA generators', 'with associated increases in diesel storage' above the approved 895,000 L. LANE COVE WEST MOD 3 (June 2024, section 4.55(2), exhibited 21 February to 6 March 2023): from '116 transformers / generators' to '121'. The rest change no generator or diesel quantity: Lane Cove West Mod 2 (office use; section 4.55(2), exhibited, seven submissions), 51 Huntingwood Mod 2 ('316 back-up diesel generators (No change)'; lodged by a builder, AW Edwards Pty Ltd), Dexus Estate Mod 7 (layout; restates 1,288,600 L of diesel; not exhibited), Kemps Creek Mod 1 (fit-out before operation), Roberts Road Mod 1 (height), Davis Road Mod 1 (trees), Lanceley Place Mod 3 (switch room), 200 Aldington Mod 8 (an intersection). PROPOSED to the author: reclassify SSD-9741-Mod-4 (change_type other -> fuel_storage_increase, materiality 3 -> 5), SSD-66777221-Mod-2 (other -> generator_increase, 2 -> 5) and SSD-9741-Mod-3 (design -> generator_increase, 2 -> 4). Not made by this pack. STILL OPEN: council development applications, for the approved council list only (docs/SPEC.md). DECIDED BY THE AUTHOR 2026-11-18 (research batch 8): The three modification rows are reclassified as proposed: SSD-9741-Mod-4 to fuel_storage_increase (materiality 5), SSD-66777221-Mod-2 to generator_increase (5), SSD-9741-Mod-3 to generator_increase (4). Council development applications remain.",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 7
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22 (research batch 3). The free routes give the sector's and the government's word, not a revenue office's: Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' (1 May 2026); the BCA's Submission No 116 says operators 'pay full taxes with no concessions'; the Secretary of the Premier's Department said 'The one thing that we don't contemplate is government participation financially' (22 May 2026). What the State does give is in kind: the IDA ($17.7m in the 2025-26 Budget) and the Guidelines' concierge. No witness from Revenue NSW appeared. GIPA-002 to the Department of Customer Service (which holds Revenue NSW's records) is drafted from reports/RG007_foi_strategy.md; the Victorian, Queensland and Commonwealth templates stay in that file. UPDATED 2026-11-18 (research batch 8, second pass): The free substitute is refused: the 2026-27 Budget Paper No. 1, which carries the tax expenditure statement (Appendix C), sits under a path nsw.gov.au's robots.txt disallows; the older budget.nsw.gov.au links now redirect. Recorded; BLOCKED on download #30 (and GIPA-002, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW PART, from the State's own statement (download #30). Budget Paper No. 1 for 2026-27 estimates '$16.8 billion' of tax expenditures and concessions and itemises every one over $1 million: its Appendix C never mentions data centres. Data centres appear elsewhere only as a driver of business investment and in Sydney Water's strategy for 'servicing data centres', which 'is supported by principles of full cost recovery'. So no data-centre concession of $1 million or more is in the NSW statement; a firm-level grant below that line, or one made outside the tax system, is not excluded (GIPA-002, not lodged). Other states remain.",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSW_BP1_2026_27",
+            "quote": "In 2026-27, total tax expenditures and concessions provided by the NSW Government are estimated at $16.8 billion | Tax expenditure measures and concessions that have an impact over $1 million are itemised in a table. | Significant drivers of this improvement included investment in data centres | Sydney Water’s strategy for servicing data centres focuses on enabling timely and reliable connections to support economic growth while protecting broader customer outcomes. | This approach is supported by principles of full cost recovery"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 18
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): Searched: no record found of any Australian data centre registered with AEMO to provide frequency control ancillary services; demand-response aggregators report registrations without naming sites (leads). AEMO's registration lists are the primary record to check next. UPDATED 2026-11-18 (research batch 8, second pass): The network owner's position, on its own page: Transgrid is working on frameworks to 'Require large users, such as data centres, to play their role in maintaining system security, strength and reliability during the energy transition' - a requirement it is seeking, not one in force. The primary record of what any site provides is AEMO's NEM Registration and Exemption List; AEMO's registration page answered the crawler with HTTP 403 (recorded). BLOCKED on download #31. UPDATED 2026-11-18 (research batch 8, the author's downloads): RESOLVED, as far as AEMO's registration list answers it (download #31). A data centre company is registered to provide ancillary services: 'Firmus Infrastructure Pty Ltd' holds the category 'Demand Response Service Provider - Ancillary Service Load'. An earlier Firmus company ran the 'St Leonards Facility' in Tasmania as a 20 MW 'Ancillary Service Load' until its registration ceased on 7 February 2023. CDC Data Centres Pty Ltd is registered only as 'Intending'. NEXTDC's backup generators at seven sites (M1, M2, M3, B1, B2, S1 and S3) are exempt from registration as small generating systems whose 'combined export ... is expected to be zero MWh'. No data centre is registered for system strength. Registration is not dispatch: whether the Firmus load is enabled for FCAS would show in AEMO's ancillary services data.",
+          "as_of_date": "2026-11-18",
+          "status": "resolved",
+          "resolved_date": "2026-11-18",
+          "source_id": "SRC_AEMO_NEM_REG_LIST_202611",
+          "fact_status": "VERIFIED",
+          "confidence": "high"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_AEMO_NEM_REG_LIST_202611",
+            "quote": "Registered Participants=Firmus Infrastructure Pty Ltd | ABN / CAN=24 655 510 151 | Demand Response Service Provider - Ancillary Service Load=1 | Registered Participant=Firmus Grid Pty Ltd | ABN=31 638 040 534 | Category of Participant=Market Customer - Scheduled Load | Facility=St Leonards Facility | Units=1 | Region=TAS1 | Type=Ancillary Service Load | Capacity=20 | Time=2023-02-07 00:00:00 | Registered Participants=CDC Data Centres Pty Ltd | ABN / CAN=125 710 394 | Intending=1 | Company=NEXTDC Limited | ABN=35 143 582 521 | System=M1 - Melbourne, Unit 1 | The combined export of the generating units or generating systems at the parent connection point is expected to be zero MWh."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 27
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 7): WESLEY VALE placed from the developer's own page (Firmus, archived today): 'a new AI Factory project at 226 Mill Road, Wesley Vale', in two stages, 'an initial stage of approximately 26 MW, growing to maximum approximately 52 MW of capacity (23 MW critical IT load, growing to maximum of approximately 46 WM)' (sic), with 40 backup generators and cooling water from on-site rainwater. Leads (not records): trade reports of a Latrobe Council application and a December 2026 deadline for a major project proposal. PROPOSED for the author: a row SITE_FIRMUS_WESLEY_VALE (TAS, status `lodged` on the page's linked development application), with the stated maxima quoted rather than stored until the council record is read. The other proposals this question names are not yet worked. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): SITE_FIRMUS_WESLEY_VALE added (TAS, lodged, unmapped, no capacity stored). The other proposals this question names are not yet worked. UPDATED 2026-11-18 (research batch 8, second pass): BEETALOO: the Territory Coordinator's release on Beetaloo Digital's Weddell site refused the crawler (its robots.txt could not be read; recorded). LEADS (search summaries, not records): a 12-month exclusive land commitment over 185 ha at Weddell, south of Darwin, granted on 22 July 2026, with up to 2 GW of on-site gas generation. Download #32 would put it on the record. UPDATED 2026-11-18 (research batch 8, the author's downloads): BEETALOO, from the NT Government's own release of 22 July 2026 (download #32): 'The Finocchiaro CLP Government has granted Beetaloo Digital an exclusive commitment over 185 hectares of land at Weddell, about 30km from Darwin', a 'not to deal' arrangement giving the company 'the exclusive right to make plans for the 185ha site' while it 'investigates its feasibility'; the project is 'possibly two hyper-scale AI data centre campuses', 'powered by up to 2GW of on-site gas-fired power generation'. The 2 GW is generation, not IT load, and is not stored as a capacity. The release also names 'Energy North's Project Ares, a one-gigawatt project proposed for Murranji station in the Barkly region', and says 'As many as a dozen data centre developers are eyeing the region'. PROPOSED to the author: new site rows for Beetaloo Digital at Weddell (NT, pre-lodgement, no capacity) and Energy North's Project Ares at Murranji station (NT, proposed, no capacity), each cited to this release. Not made by this pack.",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NTGOV_BEETALOO_20260722",
+            "quote": "The Finocchiaro CLP Government has granted Beetaloo Digital an exclusive commitment over 185 hectares of land at Weddell, about 30km from Darwin. | Under the \"not to deal\" arrangement, the Government commits to give Beetaloo Digital the exclusive right to make plans for the 185ha site while the company progresses the project and investigates its feasibility. | possibly two hyper-scale AI data centre campuses at Weddell | Beetaloo Digital is proposing a hyperscale computing infrastructure project for AI, cloud computing and large-scale data processing, to be powered by up to 2GW of on-site gas-fired power generation. | Energy North’s Project Ares, a one-gigawatt project proposed for Murranji station in the Barkly region | As many as a dozen data centre developers are eyeing the region"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 69
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, second pass): The NSW Electoral Commission's disclosure site disallows every crawler in its robots.txt (recorded). BLOCKED on download #34 (and GIPA-003, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW: the Electoral Commission's stakeholder register (the author's export, download #34 in part) lists 276 major political donor entities and gives no amounts; one is a data centre company, 'AMAZON WEB SERVICES AUSTRALIA PTY LTD'. CDC, AirTrunk, NEXTDC, Equinix, Goodman and Stockland are not on it. COMMONWEALTH, with amounts, from the AEC's free bulk returns (fetched by the crawler), 2020-21 to 2024-25, by side of the return (the two sides are not added): Amazon's own returns disclose $523,945 of donations made to Labor and Liberal branches; Macquarie Technology Group's own returns $316,324 to parties; the Labor Party's returns record $27,900 from 'CDC Data centres' as 'Other Receipt', not as donations (2022-23 to 2024-25). Most of what the other companies paid went to the Business Council of Australia, a lobby group, as 'Other Receipt' or 'Subscription' (AirTrunk $104,500 in 2024-25), not to a party. STILL OPEN: the NSW amounts, which sit on each major political donor's own disclosure on the Electoral Commission's site (download #34, rest: Amazon Web Services Australia's disclosures). No improper conduct is alleged or implied.",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWEC_STAKEHOLDERS_202611",
+            "quote": "AMAZON WEB SERVICES AUSTRALIA PTY LTD,Major Political Donor - Entity"
+          },
+          {
+            "id": "SRC_AEC_TRANSPARENCY_2025",
+            "quote": "recipient return (Detailed Receipts),2024-25,CDC Data Centres,CDC Data centres,Australian Labor Party (ALP),Other Receipt,,10000 | recipient return (Detailed Receipts),2024-25,AirTrunk,AirTrunk Operating Pty Ltd,Business Council of Australia,Other Receipt,,104500"
+          }
+        ]
+      }
+    ],
+    "modifications": [
+      {
+        "match": {
+          "mod_case": "SSD-9741-Mod-4"
+        },
+        "set": {
+          "change_type": "fuel_storage_increase",
+          "materiality": 5,
+          "as_of_date": "2026-11-18"
+        }
+      },
+      {
+        "match": {
+          "mod_case": "SSD-66777221-Mod-2"
+        },
+        "set": {
+          "change_type": "generator_increase",
+          "materiality": 5,
+          "as_of_date": "2026-11-18"
+        }
+      },
+      {
+        "match": {
+          "mod_case": "SSD-9741-Mod-3"
+        },
+        "set": {
+          "change_type": "generator_increase",
+          "materiality": 4,
+          "as_of_date": "2026-11-18"
+        }
+      }
+    ]
+  }
+}

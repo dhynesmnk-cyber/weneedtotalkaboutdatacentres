@@ -61,7 +61,8 @@ SRC_IA_WESTPAC = "SRC_ACS_WESTPAC_NOV26"
 SRC_CD_WESTPAC = "SRC_CYBERDAILY_WESTPAC_NOV26"
 SRC_CD_PETITION = "SRC_CYBERDAILY_WESTPAC_OCT26"
 SRC_MEL2 = "SRC_OP_AIRTRUNK_MEL2"
-SRC_NVIDIA_AU = "SRC_NVIDIA_AU_DSX_20260909"
+# Registered earlier (2026-09-21); batch 7 first registered a duplicate under its own id (fixed 2026-11-18).
+SRC_NVIDIA_AU = "SRC_NVIDIA_AU_2GW"
 SRC_RR_MOD2 = "SRC_SSD10330_MOD2_ASSESSMENT"
 SRC_EC_MOD2 = "SRC_SSD21342738_MOD2_ASSESSMENT"
 SRC_LCW_MOD1 = "SRC_SSD9741_MOD1_ASSESSMENT"
@@ -264,11 +265,6 @@ NEW_SOURCES = [
      "landholding; two stages, about 26 MW initially to about 52 MW maximum, with critical IT load of "
      "23 MW growing to 'approximately 46 WM' (sic); 40 backup generators; 448 kL a year of cooling water "
      "from on-site rainwater; links its development application. No status beyond the application."),
-    (SRC_NVIDIA_AU, "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia's Data Center Ecosystem (NVIDIA Newsroom, 9 September 2026)",
-     "NVIDIA", "2026-09-09", "primary_company", "A",
-     "Names eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, "
-     "AirTrunk) for 'Up to 2-Gigawatt Buildout by 2027' of NVIDIA DSX AI factories. Names no site, "
-     "address or capacity per site."),
 ]
 
 

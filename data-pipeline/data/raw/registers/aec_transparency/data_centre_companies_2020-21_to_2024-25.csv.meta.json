@@ -1,0 +1,10 @@
+{
+ "derived_from": "/home/user/weneedtotalkaboutdatacentres/data-pipeline/data/raw/registers/aec_transparency/AllAnnualData.zip",
+ "derived_from_sha256": "f9438fb203309b36234e7c2135eb5b96b0a6a186f1a51c754d2cdd6a5764fd81",
+ "url": "https://transparency.aec.gov.au/Download/AllAnnualData",
+ "title": "Extract: AEC annual returns naming data centre companies, 2020-21 to 2024-25",
+ "note": "Both sides are kept and must not be added together: a donation can appear in the donor's return and in the recipient's.",
+ "received_utc": "2026-11-18T15:40:00+00:00",
+ "sha256": "07e84bd266069fbdc62a3796653b3976940f09e00036b0c0d2c11507d2d40009",
+ "bytes": 22519
+}

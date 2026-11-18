@@ -1,0 +1,11 @@
+{
+ "url": "https://transparency.aec.gov.au/Download/AllAnnualData",
+ "fetched_utc": "2026-11-18T15:38:00+00:00",
+ "title": "AEC Transparency Register: all annual returns (bulk download)",
+ "committed": false,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "note": "Not committed (it names private donors); the extract beside it is.",
+ "received_utc": "2026-11-18T15:40:00+00:00",
+ "sha256": "f9438fb203309b36234e7c2135eb5b96b0a6a186f1a51c754d2cdd6a5764fd81",
+ "bytes": 2576402
+}

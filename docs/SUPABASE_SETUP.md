@@ -16,6 +16,37 @@ The project exists, all seventeen migrations are applied, and the research is
 loaded. Region `ap-southeast-2` (Sydney), Postgres 17. Steps 1-6 below are done;
 what remains is listed under "What is still missing after this".
 
+Reloaded on 2026-11-18 from `main@baab4a6` (the merge of #46: the zero-spend plan,
+research batch 8 in both passes, and the ES-011, ES-013 and ES-015 drafts), on the
+author's instruction ("merge and load"). Artefact digest `sha256:c61f641d…`.
+The pipeline load and the essay load each committed in one request.
+- **Counts.**
+  - 103 sites (unchanged).
+  - 329 sources (from 307).
+  - 147 entities.
+  - 98 questions (from 95: RG-008, RG-018 and RG-019 are now cited).
+  - 718 pipeline citations.
+- **Essays.** 13 in the database. The editor had already approved nine at
+  `/admin`: ES-000 to ES-006, ES-009 and ES-010. ES-010 was edited first.
+  - The upsert left all nine untouched: their `updated_at` predates the load.
+  - It wrote only the four unapproved drafts: ES-008, ES-011, ES-013 and ES-015.
+- **Checked as `anon`, in a rolled-back transaction.**
+  - 103 sites, 329 sources and 98 questions.
+  - 9 essays visible, and none of the four drafts.
+  - No site is uncited.
+  - RG-008 and RG-018 read `blocked`; RG-019, RG-062 and RG-075 read `resolved`.
+- **The live site.** `/research`, `/data/sources.csv` and `/essays` answer 200;
+  `/essays/approved-then-doubled` answers 404 until the editor approves it.
+- **Two duplicate sources went live with this load.** Each is a second row for a
+  URL the record already held:
+  - `SRC_TRANSGRID_DC_CAPACITY`, the same page as `SRC_TRANSGRIDCAP`;
+  - `SRC_NVIDIA_AU_DSX_20260909`, which arrived with #44 and is the same release
+    as `SRC_NVIDIA_AU_2GW`.
+
+  The packs now cite the original rows. Because the loader never deletes, the
+  two rows and their citations stay live until the author decides to remove
+  them. Removing them is a human act, proposed in the next pull request.
+
 Reloaded again on 2026-11-18 from `main@73be7cb` (the merge of #45, the author's
 decisions on research batch 7), then the retired SYD2 row removed, on the author's
 decision of 2026-11-18 (RG-098, "1 yes"). Artefact digest `sha256:337c2884…`.

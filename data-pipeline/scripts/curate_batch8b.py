@@ -81,7 +81,8 @@ MODS = {
                                  "200 Aldington Road Industrial Estate (SSD-10479) - Section 4.55(1A) Modification Application Report",
                                  "2026-08-21"),
 }
-SRC_TG_DC = "SRC_TRANSGRID_DC_CAPACITY"
+# Registered earlier (2026-09-18); this pass first registered a duplicate under its own id (fixed 2026-11-18).
+SRC_TG_DC = "SRC_TRANSGRIDCAP"
 SRC_TG_SS = "SRC_TRANSGRID_SYSTEM_STRENGTH"
 SRC_TG_FAQ = "SRC_TRANSGRID_SYSTEM_STRENGTH_FAQ"
 SRC_MANDALA24 = "SRC_MANDALA_EADF_2024"
@@ -183,14 +184,6 @@ QUOTES = {
 }
 
 NEW_SOURCES = [
-    (SRC_TG_DC, "Data centres and electricity capacity in NSW (Transgrid network connections page)", "Transgrid",
-     None, "primary_company", "A",
-     "The transmission network owner's own page on data centre connections. Says capacity in the Sydney basin "
-     "is 'largely exhausted'; that since late 2024 it has received data centre connection enquiries of 'more "
-     "than 10 GW within a 12 km radius of Sydney West'; that capacity is allocated only on signature of a "
-     "Network Connection Agreement, for loads of 30 MW or more; and that large users should 'play their role' "
-     "in system security and strength, with households and businesses not bearing the cost. Undated; read as at "
-     "the access date. RG-018, RG-043."),
     (SRC_TG_SS, "System Strength Project (Transgrid project page)", "Transgrid", None, "primary_company", "A",
      "Transgrid's page for the synchronous condensers it is deploying at five substations, including Kemps "
      "Creek (Western Sydney), directed by the NSW Government as a Priority Network Infrastructure Project. RG-019."),
