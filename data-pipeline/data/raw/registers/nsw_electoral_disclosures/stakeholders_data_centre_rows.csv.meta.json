@@ -1,0 +1,21 @@
+{
+ "title": "Extract: NSW Electoral Commission stakeholder register, data centre entities among major political donors",
+ "supplied_by": "the author (download #34, part): an export of the stakeholder register, which gives no amounts",
+ "upstream_sha256": "fa5b96c8da604893a007b73a7906996e277a51da1fd0557d2cf417d37ba7e7fb",
+ "upstream_rows": 2369,
+ "upstream_types": {
+  "Elected Member": 1438,
+  "Major Political Donor": 502,
+  "Major Political Donor - Entity": 276,
+  "Political Party": 58,
+  "Candidate": 86,
+  "Associated Entity": 4,
+  "Third-Party Campaigner": 5
+ },
+ "url": "https://efadisclosures.elections.nsw.gov.au/",
+ "note": "Only entity rows matching the pattern are kept: the full register names private individuals.",
+ "pattern": "data cent|airtrunk|nextdc|canberra data|cdc data|equinix|amazon|microsoft|google|macquarie (?:tech|data|tele)|digico|global switch|goodman|stockland|firmus",
+ "received_utc": "2026-11-18T15:40:00+00:00",
+ "sha256": "6c25a46459f06dfa6ad184a1dd8f11ddda2539ac76a2af490e703ef12501948f",
+ "bytes": 179
+}

@@ -66,17 +66,6 @@
       "notes": "The developer's own project page: 226 Mill Road, Wesley Vale, on part of the former pulp mill landholding; two stages, about 26 MW initially to about 52 MW maximum, with critical IT load of 23 MW growing to 'approximately 46 WM' (sic); 40 backup generators; 448 kL a year of cooling water from on-site rainwater; links its development application. No status beyond the application. ARCHIVED 2026-11-18 at data/raw/operators/firmus/ with a SHA-256 manifest."
     },
     {
-      "id": "SRC_NVIDIA_AU_DSX_20260909",
-      "title": "NVIDIA Expands AI Infrastructure Capacity in Partnership With Australia's Data Center Ecosystem (NVIDIA Newsroom, 9 September 2026)",
-      "publisher": "NVIDIA",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem",
-      "doc_type": "primary_company",
-      "published": "2026-09-09",
-      "credibility": "A",
-      "accessed": "2026-11-18",
-      "notes": "Names eight Australian partners (Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC, AirTrunk) for 'Up to 2-Gigawatt Buildout by 2027' of NVIDIA DSX AI factories. Names no site, address or capacity per site. ARCHIVED 2026-11-18 at data/raw/operators/nvidia/ with a SHA-256 manifest."
-    },
-    {
       "id": "SRC_SSD10330_MOD2_ASSESSMENT",
       "title": "Modification 2 of Roberts Road Data Centre (SSD-10330-Mod-2) - Assessment Report",
       "publisher": "NSW Department of Planning, Housing and Infrastructure",
@@ -341,7 +330,7 @@
         },
         "add_sources": [
           {
-            "id": "SRC_NVIDIA_AU_DSX_20260909",
+            "id": "SRC_NVIDIA_AU_2GW",
             "quote": "NVIDIA is collaborating with Australian NVIDIA Cloud Partners and AI infrastructure partners including Firmus, Sharon AI, IREN, ResetData, Megaport, CDC, NEXTDC and AirTrunk to expand land, power and shell capacity designed to host multiple generations of NVIDIA DSX compute infrastructure. | Firmus, Sharon AI, IREN, Megaport, ResetData, CDC, NEXTDC and AirTrunk to Deliver Up to 2-Gigawatt Buildout by 2027"
           }
         ]

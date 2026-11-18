@@ -1,0 +1,10 @@
+{
+ "derived_from": "/home/user/weneedtotalkaboutdatacentres/data-pipeline/data/raw/registers/aemo/NEM_Registration_and_Exemption_List.xlsx",
+ "derived_from_sha256": "4018a193427229376d439ad9c8ebc93e2fb3b23502c7197c64630d4856c3794f",
+ "url": "https://aemo.com.au/energy-systems/electricity/national-electricity-market-nem/participate-in-the-market/registration",
+ "title": "Extract: rows of the NEM Registration and Exemption List naming data centre operators",
+ "pattern": "CDC Data|Firmus|NEXTDC|AirTrunk|Equinix|Macquarie (?:Data|Technology)|Global Switch|DigiCo|Microsoft|Amazon|Google|Goodman Property",
+ "received_utc": "2026-11-18T15:40:00+00:00",
+ "sha256": "27925ff95a1848fdb06e87acf0122fd82ed8c9701d4be2c06a2f6fc365b94185",
+ "bytes": 13526
+}
