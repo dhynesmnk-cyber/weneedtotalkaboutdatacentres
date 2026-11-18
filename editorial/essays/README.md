@@ -108,6 +108,7 @@ editor's reading, against the checklist in docs/REVIEW.md.
 | --- | --- | --- | --- | --- |
 | [ES-000](ES-000-where-we-stand.md) | Where we stand | position | ST-007, ST-011, ST-016, ST-021 | draft |
 | [ES-001](ES-001-six-in-seven.md) | Six in seven | essay | ST-011, ST-021 | draft |
+| [ES-002](ES-002-already-in-your-super.md) | Already in your super | essay | ST-007 | draft |
 | [ES-003](ES-003-nine-approvals-no-operator.md) | Nine approvals, no operator | essay | ST-003, ST-004, ST-005, ST-006, ST-020, ST-022 | draft |
 | [ES-004](ES-004-ten-point-three.md) | The $10.3 billion is two numbers added together | essay | ST-009, ST-010 | draft |
 | [ES-006](ES-006-two-warning-letters.md) | A stronger rule, and two warning letters | essay | ST-021, ST-019, ST-018 | draft |
