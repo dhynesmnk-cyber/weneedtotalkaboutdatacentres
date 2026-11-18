@@ -157,8 +157,10 @@ with the request named.
 
 ### R2.4 Essays from the evidence in hand
 
-ES-003, ES-004, ES-006 and ES-009 can be drafted now (Part 4, wave 1). ES-003
-is drafted.
+All four wave-1 essays are drafted: ES-003, ES-004, ES-006 and ES-009 (Part 4).
+The wave-2 briefs ES-002, ES-005, ES-008 and ES-010 are drafted from the
+records in hand, each stating the downloads it still lacks as gaps. ES-007
+stays a gap list.
 
 Releases 3 (influence data) and 4 ("What if…?") stay as docs/DELIVERY-PLAN.md
 sets them out. ES-007 does not wait for Release 3's tables, only for the
@@ -422,8 +424,14 @@ before writing.
   (ST-016).
 - **Named parties.** None; companies only.
 
-#### ES-004 "What the public gives" (M3). Brief, draft now
+#### ES-004 "What the public gives" (M3). Drafted as "The $10.3 billion is two numbers added together", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-004-ten-point-three.md`, a brief of about
+  1,000 words. The claim was confirmed against RG-043 and the transcripts.
+  Transgrid's evidence is quoted as said ("We haven't actually fully
+  connected one yet"), which is narrower than the card's wording. The
+  Penrith agreement stays under RG-025, to keep the brief inside its tier.
+  **Next:** the author approves at `/admin`.
 - **Claim.** The industry's "$10.3 billion" of energy infrastructure spending
   is not a figure its own commissioned report states.
   - The report gives $3.1 billion spent from 2020 to 2025 and $7.2 billion
@@ -445,8 +453,14 @@ before writing.
   - RG-063 and RG-043 are agent work.
 - **Named parties.** None; peak bodies and companies only.
 
-#### ES-006 "Did anyone check?" (C2). Brief, draft now
+#### ES-006 "Did anyone check?" (C2). Drafted as "A stronger rule, and two warning letters", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-006-two-warning-letters.md`, a brief of
+  about 1,000 words. It uses the writing guide's model analogy for "prior to
+  the commencement of operation", with where it breaks. The Roberts Road
+  donation form is set beside the report's words, and nothing improper is
+  alleged. **Next:** the author approves; GIPA-003's replies become a
+  follow-up piece.
 - **Claim.** Since July 2026, NSW approvals have required data centres to match
   all their electricity with firmed renewable supply before operating, a
   stronger rule than the three applicants offered. The public record of whether
@@ -465,8 +479,15 @@ before writing.
     work.
 - **Named parties.** None. Officers appear by role, if at all.
 
-#### ES-009 "Whose data, whose rules" (C3). Deep dive, draft now
+#### ES-009 "Whose data, whose rules" (C3). Drafted as "Twenty-nine contracts, and none says where", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-009-twenty-nine-contracts.md`, a deep
+  dive of about 2,070 words. Totals were recomputed from the contracts table,
+  with the A1 amendment counted once, at its latest value. One finding is new
+  since the cards: the Hosting Certification Framework paused registrations
+  from 3 November 2025, seventeen days before Palantir's announcement, so its
+  absence from the register is weaker evidence than it looks. **Next:** the
+  author approves; FOI replies become a follow-up piece.
 - **Claim.** Commonwealth agencies have published 29 contracts with Palantir
   since 2013, worth $68,258,634.93 at their latest values, and none of them
   records where the software is hosted.
@@ -493,8 +514,14 @@ before writing.
 
 ### Wave 2: after the author's downloads
 
-#### ES-002 "Already in your super" (M2). Brief now, deep dive after downloads 1 to 3 and 6
+#### ES-002 "Already in your super" (M2). Brief drafted as "Already in your super"; deep dive after downloads 1 to 3 and 6
 
+- **Drafted.** `editorial/essays/ES-002-already-in-your-super.md`, a brief of
+  about 800 words, from the three funds' files, NEXTDC's substantial holders
+  and the Future Fund's December 2025 report. Whether the funds' IFM money is
+  in the vehicle that owns the Mamre Road land is stated as unknown (RG-005).
+  **Next:** the author approves the brief; downloads #1 to #3 and #6 make the
+  deep dive.
 - **Claim.** Ordinary Australians' retirement savings already hold data centre
   operators. At 30 June 2026, Cbus's Growth option held A$344.5 million of
   NEXTDC shares, Hostplus's Balanced option A$109.1 million and HESTA's Balanced
@@ -506,8 +533,15 @@ before writing.
   total exposure to data centre owners and operators, by option, at the last
   disclosure date?"
 
-#### ES-008 "The OpenAI deal" (M5). Brief
+#### ES-008 "The OpenAI deal" (M5). Drafted as "S7's OpenAI deal is a memorandum", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-008-a-memorandum.md`, a brief of about
+  840 words. The claim is provable from NEXTDC's own announcement, so it was
+  drafted before downloads #4 and #5; what the exchange asked stays a gap.
+  It carries a conflict disclosure, because Anthropic and OpenAI both develop
+  AI models. It also says that our upstream database lists OpenAI as
+  anchor tenant, unpublished, pending the author's decision (RG-014).
+  **Next:** the author decides whether to approve now or wait for #4.
 - **Claim.** NEXTDC's S7 deal with OpenAI is a memorandum of understanding that
   states no price, term, capacity or ownership stake, for a site whose own
   planning document gives its size two ways.
@@ -521,8 +555,14 @@ before writing.
   capacity, term and price does the OpenAI memorandum commit either party to?"
 - **Gaps.** RG-014, RG-097 and RG-099 (S7's IT load).
 
-#### ES-010 "The tenant" (C3). Brief, conflict disclosure at the top
+#### ES-010 "The tenant" (C3). Drafted as "The tenant was named to the market, not the council", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-010-named-to-the-market.md`, a brief of
+  about 870 words, with the conflict disclosure at the top. It uses only
+  the lodged report, Dexus's release, the company register and two news
+  reports. The leads in the RG-012 hunt log are not used. The Premier's
+  statement (download #15) stays a gap. **Next:** the author reads the Dexus
+  release and the planning report directly, then decides.
 - **Claim.** The application for the Western Downs Digital Park does not
   mention its tenant. About a month later, Dexus told the stock exchange that the
   consortium had entered into lease documentation with Anthropic's Australian
@@ -538,8 +578,14 @@ before writing.
   16 September 2026, and when?"
 - **Gaps.** RG-012, RG-053 and RG-054.
 
-#### ES-005 "Who gets heard" (C1). Brief
+#### ES-005 "Who gets heard" (C1). Drafted as "Eight councils objected. One reached the commission.", waiting for approval
 
+- **Drafted.** `editorial/essays/ES-005-eight-objections.md`, a brief of
+  about 880 words. The claim is narrowed to what the reports show: Apollo was
+  approved under the 18 August 2026 delegation while Ryde's objection stood.
+  How the commission's role was set aside stays a gap until download #19 and
+  GIPA-003. **Next:** the author approves; the inquiry downloads (#17, #18)
+  make a follow-up.
 - **Claim.** Of the eight local council objections to data centres the
   Department has decided, one reached the Independent Planning Commission. A
   delegation of 18 August 2026 now lets an officer decide some data centres
@@ -558,6 +604,20 @@ before writing.
 - **Claim.** Not yet set. It is written from what downloads #8 to #11 show
   about meetings, lobbyists and consultancies (RG-070, RG-077, RG-074). Until
   then the essay is a gap list, not a draft.
+- **Gap list (2026-11-18).** No draft: the records that would carry a claim
+  are not in hand. Each is named with the question it settles:
+  - RG-070: the NSW ministers' diaries, January 2025 to June 2026, for the
+    Premier, the Treasurer and the planning, energy and industry ministers
+    (download #8, 30 files). These would show which data centre companies and
+    peak bodies met them, and when.
+  - RG-070: the NSW and Commonwealth lobbyist registers, for every lobbyist
+    whose clients include the operators and Data Centres Australia
+    (downloads #9 and #10).
+  - RG-077: the same registers and diaries, for the concurrent roles of a
+    former NSW Opposition Leader, referred to by role (downloads #8 to #10).
+  - RG-074: the Commonwealth and NSW contract records for the consultancies
+    that hold data centre consents (download #11). These would show whether
+    the same firms also work for the assessors.
 - **Named parties.** Lobbyists, officials and ministers all appear by role
   until legal review is arranged.
 
@@ -566,8 +626,8 @@ before writing.
 | Wave | When | Essays |
 | --- | --- | --- |
 | 0 | Now | R2.0 and R2.1. The author approves ES-000 and ES-001, lodges the requests, and starts the downloads |
-| 1 | Now, from evidence in hand | ES-003, ES-004, ES-006, ES-009 |
-| 2 | As each group of downloads arrives | ES-002, ES-008, ES-010, ES-005, ES-007 |
+| 1 | Now, from evidence in hand | ES-003, ES-004, ES-006, ES-009 (all drafted) |
+| 2 | As each group of downloads arrives | ES-002, ES-008, ES-010 and ES-005 are drafted as briefs from what is in hand; ES-007 and ES-002's deep dive wait on the downloads |
 | 3 | As replies arrive (20 working days to 30 days after lodgement, longer if extended) | Follow-up pieces for ES-003, ES-006 and ES-009. Never silent edits to an approved essay |
 
 ## How an essay moves
