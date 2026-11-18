@@ -21,7 +21,7 @@ in an observatory about data centre capacity could be mistaken for findings.
 
 The hosted database is up. The Supabase project is in Sydney
 (`ap-southeast-2`), all seventeen migrations are applied, including the editor's desk (0014 to 0017, applied 2026-11-11), and the ten essay drafts are loaded unapproved, and the research from
-`data-pipeline/` is loaded: 102 sites, 307 sources, 147 entities and 95 published
+`data-pipeline/` is loaded: 103 sites, 307 sources, 147 entities and 95 published
 research questions, every site cited and no site carrying an invented live
 capacity, and no person named: people appear by public role only. It was last
 loaded on 18 November 2026 from `main@906ec10`. Public sign-up is off: the one
@@ -37,7 +37,7 @@ it is empty.
 Postgres with no Supabase project required, which is the check to run before
 loading a correction.
 
-The map shows 46 of the 102 sites: the NSW State Significant Development
+The map shows 46 of the 103 sites: the NSW State Significant Development
 projects, each at the point the planning portal records for it. It says how many
 sites it could not place. Locating the rest is human curation work with a source
 per point, not something an importer may invent. Linked entities are blank and entity
@@ -77,7 +77,7 @@ hides it, and no entity is flagged as major until a human decides it is.
 - `lib/ingestion/` — the vocabulary map, the row transforms and the SQL emitter.
   Every reconciliation decision lives here and is argued in
   `docs/PIPELINE_MAPPING.md`.
-- `data-pipeline/` — the upstream curation tool (Python, SQLite): 102 sites, 147
+- `data-pipeline/` — the upstream curation tool (Python, SQLite): 103 sites, 147
   entities and 307 sources, every row graded and sourced. The app never reads
   it; it reaches Postgres through a reviewed SQL artefact.
 - `scripts/backup/` and `lib/backup/` — the weekly export, its manifest, and the

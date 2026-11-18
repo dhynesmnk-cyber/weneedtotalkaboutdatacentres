@@ -297,9 +297,18 @@ has a dated entry.
     for the author.
   - RG-042 and RG-018: leads recorded.
   - RG-001 and RG-082: proposed for closing.
+- **Decided by the author, 2026-11-18.**
+  - RG-098: the SYD2 seed row is merged into the Lane Cove West consent row,
+    and AirTrunk is Apollo Place's operator.
+  - RG-102: the Macquarie Park building is operational.
+  - RG-024: Kemps Creek's unlabelled 190 MW is cleared.
+  - RG-071 and RG-027: MEL2 and Wesley Vale are added, with no capacity
+    stored.
+  - RG-001 and RG-082: closed as wont_fix.
+  - RG-104: stays open; the author cannot say which building the register
+    means.
 - **Not yet worked.**
-  - Track A: RG-043, RG-061, RG-063, RG-104 (RG-104 is a decision for the
-    author).
+  - Track A: RG-043, RG-061, RG-063, RG-104 (needs Macquarie's own statement).
   - Track R: RG-003, RG-008, RG-013, RG-019, RG-053, RG-073, RG-075, RG-097.
 
 #### A. Agent work on free sources, for an essay (13)
@@ -312,9 +321,9 @@ has a dated entry.
 | RG-063 | in progress | ES-004 | Agent, free sources | Quantify the DPHI concierge function and dedicated data centre assessment team |
 | RG-088 | in progress | ES-009 | Agent, free sources | Complete the register of Australian companies partnering with or buying Palantir |
 | RG-090 | in progress | ES-009 | Agent, free sources | Establish Palantir's and NVIDIA's actual position in AUKUS: whether either company holds AUKUS … |
-| RG-098 | in progress, author's decision | ES-003 | Agent, free sources | Is AirTrunk SYD2 the same facility as the Lane Cove West Data Centre (SSD-9741, 1 Sirius Road),… |
+| RG-098 | resolved | ES-003 | Agent, free sources | Is AirTrunk SYD2 the same facility as the Lane Cove West Data Centre (SSD-9741, 1 Sirius Road),… |
 | RG-101 | in progress | ES-009 | Agent, free sources | Where are the five HCF-certified facilities that still have no site record - Cloud Carrier DB1;… |
-| RG-102 | in progress, author's decision | ES-003 | Agent, free sources | Who is the end user of the Macquarie Park Data Centre (SSD-10467, Stockland Trust Management Li… |
+| RG-102 | in progress (end user) | ES-003 | Agent, free sources | Who is the end user of the Macquarie Park Data Centre (SSD-10467, Stockland Trust Management Li… |
 | RG-103 | open | ES-009 | Agent, free sources | Addresses, site areas and capacities for the eight facilities added from the HCF register (ADC … |
 | RG-104 | open | ES-009 | Agent, free sources | Is SITE_MACQ_IC3 - recorded as 'IC3 Super West', operational, from a grade-C directory - the re… |
 | RG-105 | resolved | ES-003 | Agent, free sources | Are Road 1 (SSD-80814238, SITE_ROAD_1) and 1-5 Khartoum Road (SSD-63235720, SITE_KHARTOUM) two … |
@@ -378,14 +387,14 @@ has a dated entry.
 
 | Question | Status | Essay | Next action | What it asks |
 | --- | --- | --- | --- | --- |
-| RG-001 | open | - | Record maintenance, free sources; no essay waits on it | Compute the straight-line distance from every mapped site to its nearest submarine cable landin… |
+| RG-001 | wont_fix | - | Record maintenance, free sources; no essay waits on it | Compute the straight-line distance from every mapped site to its nearest submarine cable landin… |
 | RG-003 | in progress | - | Record maintenance, free sources; no essay waits on it | Ingest the Victorian planning register (Planning Online / Victoria's data centre fast-track lis… |
 | RG-008 | open | - | Record maintenance, free sources; no essay waits on it | Extract environment protection licence conditions for every operating data centre |
 | RG-010 | open | - | Record maintenance, free sources; no essay waits on it | Identify the proponent, site and status of the reported ~1 GW Western Australia data centre, an… |
 | RG-013 | in progress | - | Record maintenance, free sources; no essay waits on it | Map hyperscaler site-level footprints |
 | RG-018 | open | - | Record maintenance, free sources; no essay waits on it | Assess whether any Australian data centre currently provides system services (FCAS, system stre… |
 | RG-019 | open | - | Record maintenance, free sources; no essay waits on it | Establish the existence and location of any synchronous condenser installation serving an Austr… |
-| RG-024 | in progress, author's decision | - | Record maintenance, free sources; no essay waits on it | Confirm Microsoft Kemps Creek's operational IT capacity, GFA and campus area from a primary sou… |
+| RG-024 | resolved | - | Record maintenance, free sources; no essay waits on it | Confirm Microsoft Kemps Creek's operational IT capacity, GFA and campus area from a primary sou… |
 | RG-027 | open | - | Record maintenance, free sources; no essay waits on it | Verify and map the non-NEM and outer-metro proposals surfaced during RG-013: Wesley Vale AI dat… |
 | RG-034 | in progress | - | Record maintenance, free sources; no essay waits on it | Extend the NSW register harvest to modification applications and to local council development a… |
 | RG-042 | open | - | Record maintenance, free sources; no essay waits on it | Obtain IPART's actual position on Sydney Water's 25 per cent data centre water projection, and … |
@@ -394,12 +403,12 @@ has a dated entry.
 | RG-051 | open | - | Record maintenance, free sources; no essay waits on it | Verify and map the reported ten-storey data centre outside Brisbane (Ipswich, plans reported fi… |
 | RG-053 | open | - | Record maintenance, free sources; no essay waits on it | Extract the remaining appendices of the Western Downs application |
 | RG-054 | open | - | Record maintenance, free sources; no essay waits on it | Track whether the Western Downs Digital Park is declared a Prescribed Project under the State D… |
-| RG-071 | in progress, author's decision | - | Record maintenance, free sources; no essay waits on it | Map AirTrunk's MEL2 campus, announced December 2025 as a site acquisition in Melbourne's north-… |
+| RG-071 | resolved | - | Record maintenance, free sources; no essay waits on it | Map AirTrunk's MEL2 campus, announced December 2025 as a site acquisition in Melbourne's north-… |
 | RG-072 | open | - | Record maintenance, free sources; no essay waits on it | Obtain the full 65-record TCS contract list from the portals of record (AusTender and buy.nsw) … |
 | RG-073 | open | - | Record maintenance, free sources; no essay waits on it | Establish which consultancy authored each technical appendix in the NSW data centre consents, b… |
 | RG-075 | open | - | Record maintenance, free sources; no essay waits on it | Do peer reviews of acoustic and CFD evidence ever review work by the same firm, and how often i… |
 | RG-076 | open | - | Record maintenance, free sources; no essay waits on it | Does TCS or HyperVault have any Australian data centre footprint, application, or announced sit… |
-| RG-082 | open | - | Record maintenance, free sources; no essay waits on it | Extend the entity_type enum to include 'consultancy' and retype ARUP, LEHR, CUNDALL and the sys… |
+| RG-082 | wont_fix | - | Record maintenance, free sources; no essay waits on it | Extend the entity_type enum to include 'consultancy' and retype ARUP, LEHR, CUNDALL and the sys… |
 | RG-083 | open | - | Record maintenance, free sources; no essay waits on it | Resolve the agency attribution and portal of record for the 'Office 365 Environment Setup for M… |
 | RG-091 | open | - | Record maintenance, free sources; no essay waits on it | Map the NVIDIA DSX Australian buildout onto the physical site register |
 | RG-097 | in progress | ES-008 | Record maintenance, free sources; no essay waits on it | What does each NSW State Significant Development data centre project's own planning document st… |

@@ -109,7 +109,8 @@ ATTRIBUTION = {
     "The Schedule 1 applicant is Greenbox Architecture Pty Ltd - an ARCHITECTURAL PRACTICE holding a "
     "2019 data centre consent. A fifth consultancy-type applicant in the sample, and the earliest "
     "consent in the Lane Cove cluster. Applicant recovered in the 2026-09-18 pypdf re-extraction "
-    "(RG-065). Note the separate operational site row SITE_AIRTRUNK_SYD2 in the same suburb."),
+    "(RG-065). AirTrunk's own page makes this consent its SYD2 facility (RG-098; the separate SYD2 "
+    "row was merged into this one on 2026-11-18)."),
  "macquarie-park-data-centre": (
     "SITE_MACQUARIE_PARK_DC", None,
     "The Schedule 1 applicant is Stockland Trust Management Limited (2021 consent, SSD-10467) - a "

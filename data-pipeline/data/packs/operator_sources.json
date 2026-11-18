@@ -163,21 +163,6 @@
       },
       {
         "match": {
-          "id": "SITE_AIRTRUNK_SYD2"
-        },
-        "fill": {
-          "campus_area_ha": 4.2,
-          "address": "1 Sirius Road"
-        },
-        "add_sources": [
-          {
-            "id": "SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH",
-            "quote": "(campus_area_ha): Set on 4.2ha | (address): adjacent to AirTrunk’s existing facility at 1 Sirius Road"
-          }
-        ]
-      },
-      {
-        "match": {
           "id": "SITE_AIRTRUNK_SYD3"
         },
         "fill": {
@@ -187,6 +172,21 @@
           {
             "id": "SRC_OP_AIRTRUNK_SYD3_SYDNEY_WEST",
             "quote": "(campus_area_ha): Set on 8.3ha"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": "SITE_LANE_COVE_WEST"
+        },
+        "fill": {
+          "campus_area_ha": 4.2,
+          "address": "1 Sirius Road"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_OP_AIRTRUNK_SYD2_SYDNEY_NORTH",
+            "quote": "(campus_area_ha): Set on 4.2ha | (address): adjacent to AirTrunk’s existing facility at 1 Sirius Road"
           }
         ]
       },
