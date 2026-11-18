@@ -132,35 +132,35 @@ Most gaps first. Archived: documents already in `data/raw/` for this site.
 | Honeman Close Data Centre | NSW | P | VERIFIED | 14 | portal record | RG-013 |
 | 22 O'Riordan Street, Alexandria - Data Centre | NSW | P | VERIFIED | 13 | portal record |  |
 | Julius Avenue Data Centre | NSW | P | VERIFIED | 13 | portal record |  |
-| Macquarie Park Data Centre | NSW | P | VERIFIED | 13 | portal record; consent text | RG-102 |
+| Macquarie Park Data Centre | NSW | P | VERIFIED | 13 | portal record; consent text | RG-073 RG-102 |
 | NEXTDC S4 Data Centre Phase 2, Horsley Park | NSW | P | VERIFIED | 13 | portal record |  |
-| Project Echidna Data Centre Eastern Creek | NSW | P | VERIFIED | 13 | portal record; consent text | RG-040 |
+| Project Echidna Data Centre Eastern Creek | NSW | P | VERIFIED | 13 | portal record; consent text | RG-040 RG-073 |
 | STACK SYD01 Data Centre, Erskine Park | NSW | P | VERIFIED | 13 | portal record |  |
-| 1-5 Khartoum Road Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-061 RG-102 |
+| 1-5 Khartoum Road Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-061 RG-073 RG-102 |
 | 23-25 Waterloo Road Data Centre | NSW | P | VERIFIED | 12 | portal record |  |
-| 51 Huntingwood Drive Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-040 RG-064 |
-| DigiCo SYD1 Data Centre Expansion | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-101 |
+| 51 Huntingwood Drive Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-008 RG-040 RG-064 RG-073 |
+| DigiCo SYD1 Data Centre Expansion | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-073 RG-101 |
 | Eastern Creek Data Centre Expansion Project | NSW | P | VERIFIED | 12 | portal record | RG-040 |
-| Grand Avenue Data Centre Expansion, Rosehill | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 |
+| Grand Avenue Data Centre Expansion, Rosehill | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-073 |
 | Mars Road Data Centre | NSW | P | VERIFIED | 12 | portal record |  |
 | Microsoft Kemps Creek Data Centre Campus | NSW | P | VERIFIED | 12 | portal record | RG-013 |
-| NEXTDC S4 Data Centre Horsley Park | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 |
+| NEXTDC S4 Data Centre Horsley Park | NSW | P | VERIFIED | 12 | portal record; consent text | RG-008 RG-025 RG-073 |
 | NEXTDC S7 Data Centre, Eastern Creek | NSW | P | VERIFIED | 12 | portal record | RG-014 RG-017 |
-| Project Apollo Data Centre Macquarie Park | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-040 RG-061 |
+| Project Apollo Data Centre Macquarie Park | NSW | P | VERIFIED | 12 | portal record; consent text | RG-025 RG-040 RG-061 RG-073 |
 | Project Duke Data Centre | NSW | P | VERIFIED | 12 | portal record |  |
-| Roberts Road Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-057 RG-058 RG-069 |
-| Station Road Data Centre Expansion | NSW | P | VERIFIED | 12 | portal record; consent text | RG-040 RG-058 |
+| Roberts Road Data Centre | NSW | P | VERIFIED | 12 | portal record; consent text | RG-057 RG-058 RG-069 RG-073 |
+| Station Road Data Centre Expansion | NSW | P | VERIFIED | 12 | portal record; consent text | RG-040 RG-058 RG-073 |
 | Western Downs Digital Park | QLD | O | VERIFIED | 12 |  |  |
-| 43-61 Turner Road Data Centre | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 |
-| AirTrunk SYD2 (Lane Cove West Data Centre) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 |
-| Davis Road Data Centre (Cundall) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-057 |
+| 43-61 Turner Road Data Centre | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-073 |
+| AirTrunk SYD2 (Lane Cove West Data Centre) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-073 |
+| Davis Road Data Centre (Cundall) | NSW | P | VERIFIED | 11 | portal record; consent text | RG-025 RG-057 RG-073 |
 | Kurri Kurri Data Centre (Loxford, former aluminium smelter site) | NSW | P | VERIFIED | 11 | portal record |  |
 | Project Atlas Data Centre Eastern Creek | NSW | P | VERIFIED | 11 | portal record |  |
 | Road 1 Data Centre | NSW | P | VERIFIED | 11 | portal record |  |
-| Talavera Road Data Centre Campus Expansion | NSW | P | VERIFIED | 11 | portal record; consent text | RG-040 RG-069 |
-| Apollo Place Data Centre | NSW | P | VERIFIED | 10 | portal record; consent text | RG-025 RG-064 |
-| DCI Poplars Data Centre Project | NSW | P | VERIFIED | 10 | portal record; consent text |  |
-| Glendenning Road Data Centre | NSW | P | VERIFIED | 10 | portal record; consent text | RG-025 RG-037 RG-039 RG-040 RG-061 |
-| Marsden Park Data Centre | NSW | P | VERIFIED | 10 | portal record | RG-040 |
-| Project Pluto Data Centre | NSW | P | VERIFIED | 10 | portal record; consent text | RG-025 RG-061 |
+| Talavera Road Data Centre Campus Expansion | NSW | P | VERIFIED | 11 | portal record; consent text | RG-040 RG-069 RG-073 |
+| Apollo Place Data Centre | NSW | P | VERIFIED | 10 | portal record; consent text | RG-025 RG-064 RG-073 |
+| DCI Poplars Data Centre Project | NSW | P | VERIFIED | 10 | portal record; consent text | RG-073 |
+| Glendenning Road Data Centre | NSW | P | VERIFIED | 10 | portal record; consent text | RG-025 RG-037 RG-039 RG-040 RG-061 RG-073 |
+| Marsden Park Data Centre | NSW | P | VERIFIED | 10 | portal record | RG-008 RG-040 |
+| Project Pluto Data Centre | NSW | P | VERIFIED | 10 | portal record; consent text | RG-025 RG-061 RG-073 |
 | Mamre Road Data Centre Campus | NSW | P | VERIFIED | 9 | portal record | RG-036 RG-069 |

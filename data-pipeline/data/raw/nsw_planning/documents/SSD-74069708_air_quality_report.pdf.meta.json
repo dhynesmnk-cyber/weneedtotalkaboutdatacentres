@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-74069708%2120250310T033112.844+GMT",
+ "project_slug": "project-apollo-data-centre-macquarie-park",
+ "attachment_slug": "appendix-x-air-quality-impact-assessment-174",
+ "kind": "air_quality_report",
+ "label": "Appendix X - Air Quality Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:21:24+00:00",
+ "sha256": "3b03eb7f54ca197d5b96fc6bd0a682bf75e75ed06c0f9d4ce995864106ee3694",
+ "bytes": 8772908,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 179982,
+ "pages": 105,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

@@ -1,4 +1,24 @@
 {
+ "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-47320208%2120221007T051045.544+GMT": {
+  "checked_utc": "2026-11-18T06:22:01+00:00",
+  "how": "the document itself was refused or unusable: larger than 125829120 bytes",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-47320208",
+  "project_slug": "project-echidna-data-centre-eastern-creek",
+  "kind": "air_quality_report",
+  "attachment_slug": "project-echidna-eis-appendix-j-air-quality-report-42",
+  "first_checked_utc": "2026-11-18T06:22:01+00:00"
+ },
+ "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-73761707%2120250320T114424.121+GMT": {
+  "checked_utc": "2026-11-18T06:18:16+00:00",
+  "how": "the document itself was refused or unusable: larger than 125829120 bytes",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-73761707",
+  "project_slug": "glendenning-road-data-centre",
+  "kind": "noise_assessment",
+  "attachment_slug": "appendix-18-noise-and-vibration-impact-assessment-36",
+  "first_checked_utc": "2026-11-18T06:18:16+00:00"
+ },
  "https://www.planningportal.nsw.gov.au/52-turner-road-data-centre-request-sears-16?_format=json": {
   "checked_utc": "2026-11-16T01:58:54+00:00",
   "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
@@ -8,6 +28,26 @@
   "kind": "sears_request",
   "attachment_slug": "52-turner-road-data-centre-request-sears-16",
   "first_checked_utc": "2026-11-16T01:58:54+00:00"
+ },
+ "https://www.planningportal.nsw.gov.au/appendix-12-acoustic-report-135?_format=json": {
+  "checked_utc": "2026-11-18T06:23:02+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-33781208",
+  "project_slug": "station-road-data-centre-expansion",
+  "kind": "noise_assessment",
+  "attachment_slug": "appendix-12-acoustic-report-135",
+  "first_checked_utc": "2026-11-18T06:23:02+00:00"
+ },
+ "https://www.planningportal.nsw.gov.au/appendix-13-air-quality-impact-assessment-122?_format=json": {
+  "checked_utc": "2026-11-18T06:23:17+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-33781208",
+  "project_slug": "station-road-data-centre-expansion",
+  "kind": "air_quality_report",
+  "attachment_slug": "appendix-13-air-quality-impact-assessment-122",
+  "first_checked_utc": "2026-11-18T06:23:17+00:00"
  },
  "https://www.planningportal.nsw.gov.au/appendix-b4-acoustic-review-statement-48?_format=json": {
   "checked_utc": "2026-11-18T06:13:49+00:00",
@@ -28,6 +68,16 @@
   "kind": "noise_assessment",
   "attachment_slug": "appendix-enoise-impact-assessment-5",
   "first_checked_utc": "2026-11-18T06:13:45+00:00"
+ },
+ "https://www.planningportal.nsw.gov.au/appendix-q-noise-and-vibration-impact-assessment-309?_format=json": {
+  "checked_utc": "2026-11-18T06:20:59+00:00",
+  "how": "HTTP 401 Unauthorized: the portal refuses the JSON record for this attachment. Not public; not fetched another way.",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+  "case": "SSD-74069708",
+  "project_slug": "project-apollo-data-centre-macquarie-park",
+  "kind": "noise_assessment",
+  "attachment_slug": "appendix-q-noise-and-vibration-impact-assessment-309",
+  "first_checked_utc": "2026-11-18T06:20:59+00:00"
  },
  "https://www.planningportal.nsw.gov.au/eis-augusta-street-blacktown-0?_format=json": {
   "checked_utc": "2026-11-16T01:58:43+00:00",

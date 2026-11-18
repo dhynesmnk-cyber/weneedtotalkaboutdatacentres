@@ -1,0 +1,5225 @@
+[[page 1]]
+ 
+Project Pluto – 132 McCredie Road, 
+Guildford West NSW 2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+1-11 Hayes Road, Roseberry NSW 2018 
+ 
+Prepared by: 
+SLR Consulting Australia 
+ 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+Revision: v2.0 
+ 
+[[page 2]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ i  
+ 
+Revision Record 
+Revision Date Prepared By Checked By Authorised By 
+v2.0 17 April 2025 Joshua Ridgway Aaron McKenzie Aaron McKenzie 
+v1.1 21 February 2025 Joshua Ridgway Tom Candalepas Tom Candalepas 
+v1.0 6 February 2025 Joshua Ridgway Tom Candalepas Tom Candalepas 
+     
+     
+ 
+Basis of Report 
+This report has been prepared by SLR Consulting Australia (SLR) with all reasonable skill, 
+care and diligence, and taking account of the timescale and resources allocated to it by 
+agreement with Goodman Property Services (Aust) Pty Ltd (the Client). Information reported 
+herein is based on the interpretation of data collected, which has been accepted in good 
+faith as being accurate and valid. 
+This report is for the exclusive use of the Client. No warranties or guarantees are expressed 
+or should be inferred by any third parties. This report may not be relied upon by other parties 
+without written consent from SLR. 
+SLR disclaims any responsibility to the Client and others in respect of any matters outside 
+the agreed scope of the work. 
+ 
+[[page 3]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ ii  
+ 
+Table of Contents 
+Basis of Report ................................ ................................ ................................ .................... i 
+1.0 Introduction ................................ ................................ ................................ ................ 7 
+1.1 The Site ................................ ................................ ................................ ........................ 9 
+1.2 Nearest Sensitive Receivers................................ ................................ ....................... 15 
+2.0 Existing Noise Environment ................................ ................................ .................... 17 
+2.1 Unattended Noise Monitoring ................................ ................................ ..................... 17 
+2.2 Attended Noise Monitoring ................................ ................................ ......................... 17 
+2.3 Justification of Monitoring Locations ................................ ................................ ........... 18 
+3.0 Assessment Criteria ................................ ................................ ................................ . 20 
+3.1 Construction Noise Criteria ................................ ................................ ......................... 20 
+3.1.1 Residential Receivers ................................ ................................ ................................ . 20 
+3.1.2 Other Sensitive’ Land Uses and Commercial Receivers ................................ ............. 21 
+3.1.3 NML Summary ................................ ................................ ................................ ........... 21 
+3.2 Construction Vibration Criteria ................................ ................................ .................... 22 
+3.2.1 Human Comfort Vibration ................................ ................................ ........................... 22 
+3.2.2 Effects on Building Contents................................ ................................ ....................... 22 
+3.2.3 Structural and Cosmetic Damage Vibration ................................ ................................  22 
+3.2.4 Minimum Working Distances for Vibration-intensive Works ................................ ........ 24 
+3.3 Operational Noise Criteria ................................ ................................ .......................... 25 
+3.3.1 Project Noise Trigger Levels................................ ................................ ....................... 27 
+3.3.2 Cumulative Noise Impacts ................................ ................................ .......................... 28 
+3.3.3 Sleep Disturbance ................................ ................................ ................................ ...... 29 
+3.3.4 Corrections for Annoying Noise Characteristics ................................ .......................... 29 
+3.3.5 Residual Impacts ................................ ................................ ................................ ........ 31 
+3.3.6 Traffic on Surrounding Roads ................................ ................................ ..................... 32 
+4.0 Methodology ................................ ................................ ................................ ............. 33 
+4.1 Construction Noise and Vibration Assessment ................................ ........................... 33 
+4.1.1 Construction Activities ................................ ................................ ................................  33 
+4.1.2 Hours of Construction ................................ ................................ ................................ . 34 
+4.2 Operational Noise Assessment ................................ ................................ .................. 35 
+4.2.1 Operational Noise Sources ................................ ................................ ......................... 35 
+4.2.2 Operational Scenarios ................................ ................................ ................................  41 
+4.2.3 Noise Source Inventory ................................ ................................ ..............................  43 
+4.2.4 Corrections for Annoying Noise Characteristics ................................ .......................... 46 
+[[page 4]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ iii  
+ 
+4.2.5 Noise Sources with Potential for Sleep Disturbance ................................ ................... 46 
+4.2.6 Off-site Road Traffic ................................ ................................ ................................ ... 47 
+4.2.7 Weather Conditions ................................ ................................ ................................ .... 47 
+5.0 Assessment of Impacts ................................ ................................ ........................... 48 
+5.1 Construction Noise ................................ ................................ ................................ ..... 48 
+5.1.1 Stage 1 ................................ ................................ ................................ ....................... 48 
+5.1.2 Stage 2 ................................ ................................ ................................ ....................... 50 
+5.2 Construction Vibration ................................ ................................ ................................  52 
+5.2.1 Stage 1 ................................ ................................ ................................ ....................... 52 
+5.2.2 Stage 2 ................................ ................................ ................................ ....................... 54 
+5.3 Operational Noise ................................ ................................ ................................ ....... 56 
+5.3.1 Predicted Noise Levels – Ultimate Development (Stage 1 and Stage 2) ..................... 56 
+5.3.2 Predicted Noise Levels – Stage 1 Development ................................ ......................... 57 
+5.3.3 Sleep Disturbance ................................ ................................ ................................ ...... 58 
+5.3.4 Off-site Traffic Assessment ................................ ................................ ........................ 58 
+6.0 Cumulative Impacts ................................ ................................ ................................ . 59 
+6.1 Construction Noise ................................ ................................ ................................ ..... 59 
+6.2 Operational Noise ................................ ................................ ................................ ....... 59 
+7.0 Mitigation and Management Measures ................................ ................................ ... 60 
+7.1 Construction Impacts ................................ ................................ ................................ .. 60 
+7.2 Operational Noise Impacts ................................ ................................ ......................... 60 
+8.0 Conclusion ................................ ................................ ................................ ................ 63 
+ 
+Tables in Text 
+Table 1 Secretary’s Environmental Assessment Requirements ................................ ........ 8 
+Table 2 Surrounding Sensitive Receivers ................................ ................................ ....... 15 
+Table 3 Summary of Unattended Noise Monitoring Results ................................ ............ 17 
+Table 4 Summary of Attended Noise Monitoring Results ................................ ................ 18 
+Table 5 ICNG NMLs for Residential Receivers ................................ ...............................  20 
+Table 6 Construction NMLs for ICNG ‘Other Sensitive’ Receivers ................................ .. 21 
+Table 7 Project Specific Noise Management Levels ................................ ....................... 21 
+Table 8 Vibration Dose Values for Intermittent Vibration ................................ ................. 22 
+Table 9 BS 7385 Transient Vibration Values for Minimal Risk of Damage ...................... 23 
+Table 10 DIN 4150 Guideline Values for Short-term Vibration on Structures .................... 23 
+[[page 5]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ iv  
+ 
+Table 11 Recommended Minimum Working Distances from Vibration-intensive Equipment
+ ................................ ................................ ................................ .......................... 24 
+Table 12 Residential Receiver Amenity ................................ ................................ ............ 25 
+Table 13 Residential Receiver Amenity Category Assessment ................................ ......... 26 
+Table 14 Project Noise Trigger Levels ................................ ................................ .............. 28 
+Table 15 Sleep Disturbance Screening Levels ................................ ................................ . 29 
+Table 16 NPfI Modifying Factor Corrections ................................ ................................ ..... 30 
+Table 17 NPfI Significance of Residual Noise Impacts ................................ ..................... 31 
+Table 18 NPfI Examples of Receiver-based Treatments to Mitigate Residual Noise Impacts
+ ................................ ................................ ................................ .......................... 31 
+Table 19 RNP/NCG Criteria for Assessing Traffic on Public Roads ................................ .. 32 
+Table 20 Construction Equipment................................ ................................ ..................... 34 
+Table 21 Vehicle Traffic Data – Worst-case 15-Minute Period ................................ .......... 39 
+Table 22 Typical Hardstand and Loading Dock Noise Sources ................................ ........ 39 
+Table 23 Mechanical Plant ................................ ................................ ...............................  40 
+Table 24 Indicative Substation Noise Sources ................................ ................................ .. 41 
+Table 25 Proposed Generator Maintenance Testing Regime ................................ ........... 42 
+Table 26 Operational Assessment Scenarios ................................ ................................ ... 43 
+Table 27 Noise Source Inventory ................................ ................................ ..................... 44 
+Table 28 Sleep Disturbance Noise Events – LAmax Sound Power Levels ....................... 47 
+Table 29 Predicted Construction Noise Levels – Standard Daytime Construction Hours – 
+Stage 1 Works ................................ ................................ ................................ ... 48 
+Table 30 Predicted Exceedance at Nearest Receivers – Standard Daytime Construction 
+Hours – Stage 1 Works ................................ ................................ ...................... 49 
+Table 31 Predicted Construction Noise Levels – Standard Daytime Construction Hours – 
+Stage 2 Works ................................ ................................ ................................ ... 50 
+Table 32 Predicted Exceedance at Nearest Receivers – Standard Daytime Construction 
+Hours – Stage 2 Works ................................ ................................ ...................... 51 
+Table 33 Operational Noise Assessment – Ultimate Development ................................ ... 56 
+Table 34 Operational Noise Assessment – Stage 1 Development ................................ .... 57 
+Table 35 Sleep Disturbance Assessment ................................ ................................ ......... 58 
+Table 36 Operational Noise Mitigation Options ................................ ................................ . 61 
+ 
+Figures in Text 
+Figure 1 Site Aerial ................................ ................................ ................................ .......... 10 
+Figure 2 Local Context ................................ ................................ ................................ ..... 10 
+Figure 3 Proposed Development – Ground Floor Layout ................................ ................. 11 
+[[page 6]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ v  
+ 
+Figure 4 Proposed Development – Floor 1 Layout ................................ ........................... 12 
+Figure 5 Proposed Development – Roof Layout ................................ ..............................  12 
+Figure 6 Proposed Development – Elevations ................................ ................................ . 13 
+Figure 7 Proposed Development Staging ................................ ................................ ........ 14 
+Figure 8 Site Plan ................................ ................................ ................................ ............ 16 
+Figure 9 Modelled Noise Sources – Ground Level Sources ................................ ............. 37 
+Figure 10 Modelled Noise Sources – Elevated Sources ................................ .................... 38 
+Figure 11 Construction Vibration – Large Vibratory Roller – Stage 1 Works ...................... 53 
+Figure 12 Construction Vibration – Large Vibratory Roller – Stage 2 Works ...................... 55 
+ 
+  
+[[page 7]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ vi  
+ 
+Appendices 
+Appendix A Acoustic Terminolgy 
+Appendix B Noise Monitoring Data 
+Appendix C Construction Noise Sources 
+Appendix D Operational Noise Contours 
+Appendix E CNVG Mitigation Measures 
+Appendix F NPfl Mitigation Measures 
+Appendix G Mechanical Plant Data Sheets 
+ 
+[[page 8]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 7  
+ 
+1.0 Introduction 
+A State Significant Development Application (SSDA) has been prepared in support of a 
+proposed data centre at 132 McCredie Road, Guildford West NSW (Project Pluto). The site 
+is zoned E4 General Industrial and has road frontage to McCredie Road. The developable 
+site area is 71,710 m2. 
+The proposed development comprises: 
+• Site preparation works including bulk excavation and removal of existing hard 
+standing and structures on the site, tree and vegetation clearing, and bulk 
+earthworks. 
+• Construction, fit out and operation of a data centre with an approximate building 
+height of 25.77 m and total gross floor area of approximately 29,444 m2 comprising: 
+o At-grade parking for 53 car parking spaces and two accessible car parking 
+spaces. 
+o Two loading dock spaces. 
+o Two levels of technical data hall floor space incorporating a total of nine data 
+halls. 
+o Ancillary office space. 
+• Provision of required utilities, including:  
+o Fuel storage. 
+o Two switch-rooms. 
+o Four industrial water storage tanks. 
+• Vehicle entry and egress driveways located along McCredie Road. 
+• Internal access road. 
+• Associated landscaping and site servicing. 
+• Installation of services and drainage infrastructure. 
+Staging 
+The proposal seeks consent for the development to be constructed and operated in two 
+phases to reflect the staged availability of power supply. The proposed stages involve the 
+following: 
+Stage 1: Construction of the main data centre building as well as the car park, perimeter 
+access road, site access/exit driveways and landscaping. Stage 1 will involve the fit-out and 
+operation of five of the nine proposed data halls at levels 1 and 2 as well as the associated 
+electrical rooms, generators, storage and office rooms. 
+Stage 2: Completion of the ultimate development scheme involving the extension of the 
+building to the south with an additional four data halls, associated electrical rooms and 
+generators, and associated landscaping and external works. The electrical substations will 
+also be constructed in the north of the site during this phase.  
+[[page 9]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 8  
+ 
+The works are to be completed in four construction stages, as per below: 
+Stage 1: 
+• CC1 – Site Preparation works (including but not limited to vegetation removal, 
+earthworks & piling, installation of footings, retaining walls) 
+• CC2 – Inground services installation, structural works 
+• CC3 – Facade construction, installation of services, fit out 
+• CC4 – Landscaping and external works 
+Stage 2: 
+• CC1 – Site Preparation works (earthworks & piling, installation of footings) 
+• CC2 – Inground services installation, structural works 
+• CC3 – Facade construction, installation of services, fit out 
+• CC4 – Landscaping and external works 
+This Noise and Vibration Impact Assessment report has been prepared to address the 
+Secretary’s Environmental Assessment Requirements (SEARs) and accompanying cover 
+letter issued for the Project Pluto Data Centre (SSD-69223466) dated 4 April 2024. 
+Specifically, this report has been prepared to respond to the SEARs requirements shown in 
+Table 1.  
+Table 1 Secretary’s Environmental Assessment Requirements 
+Item Description of Requirement Section 
+Reference (this 
+report) 
+12. Noise 
+and 
+Vibration 
+Provide a noise and vibration assessment prepared in 
+accordance with the relevant EPA guidelines and 
+Australian/International Standards. The assessment must detail 
+construction and operational noise and vibration impacts 
+(including testing of any back-up power system) on nearby 
+sensitive receivers and structures, and outline the proposed 
+mitigation, management and monitoring measures that would be 
+implemented. 
+Construction: 
+Section 3.1, 3.2, 
+4.1, 5.1 and 5.2 
+Operation: 
+Section 3.3, 4.2 
+and 5.3 
+Mitigation: 
+Section 7.0  
+ 
+SLR is suitably qualified and endorsed by the Planning Secretary to produce SSDA noise 
+impact assessments. SLR staff are members of the Australian Acoustical Society (AAS) and 
+SLR is a member firm of the Association of Australasian Acoustical Consultants (AAAC).  
+The following report uses specialist acoustic terminology. An explanation of common terms 
+is provided in Appendix A. 
+[[page 10]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 9  
+ 
+1.1 The Site 
+The site is located on Gandangara Land and is in the Smithfield Industrial Area within the 
+Cumberland Local Government Area (LGA). It is bounded by McCredie Road to the north. 
+The front part of the site adjoins the Guildford Transmission Substation, which is located 
+immediately to the east and fronts onto McCredie Road. Other industrial uses are located 
+further east, with residential properties beyond. 
+The Guildford West Sports Ground, which comprises several playing fields, is located to the 
+south of the Guildford Transmission Substation. The playing fields bound the southern part 
+of the site to the east. The playing fields / public recreation area also abut the southern 
+boundary of the site. 
+Prospect Creek is located to the south of the public recreation area and is zoned C2 
+Environmental Protection. The area to the south of Prospect Creek is predominately 
+characterised by low density single storey residential housing. 
+The site is located in the south eastern corner of the Smithfield Industrial Estate and is 
+around 500 m from Cumberland Highway (A28), 4.2 km from the M4 motorway and 9 km 
+from the M7 motorway, which provide access to Sydney CBD, western Sydney and the 
+south. The Smithfield Industrial Estate extends across the A28 to Gipps Road 
+(approximately 3km west of the site). It forms part of the broader Smithfield Wetherill Park 
+industrial area, which is one of the largest of its kind in the Southern Hemisphere and makes 
+a significant contribution to the New South Wales and Australian economies. 
+The site has a net developable area of 71,710 m2 and is currently vacant. It previously 
+operated as a Castrol Lubricants facility. However, the majority of the site has now been 
+cleared and subject to category 1 remediation works. A single storey office building is 
+located on the northern portion of the site fronting McCredie Road. The building is vacant. 
+Approval was granted for a previous Development Application for 132 McCredie Road 
+(DA2022/0759) by Cumberland City Council on 19 September 2023. DA2022/0759 includes 
+the demolition of existing structures and construction of three warehouse buildings 
+comprising ten warehouse units with ancillary offices for warehouse and distribution use to 
+operate 24 hours a day 7 days a week with at-grade parking and loading areas, site access 
+and associated works. A noise and vibration impact assessment was prepared in support of 
+DA2022/0759 (“Connect@Smithfield 132 McCredie Road, Smithfield, NSW - Noise and 
+Vibration Impact Assessment” prepared by RWDI, Report Reference RWDI#2205605 
+Version B, dated 12 December 2022, referred to as DA2022/0759 NVIA). 
+Site location and local context are shown in Figure 1 and Figure 2. The proposed layout of 
+the data centre is shown in Figure 3 to Figure 6. The proposed development staging is 
+shown in Figure 7. 
+[[page 11]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 10  
+ 
+Figure 1 Site Aerial 
+ 
+Source: Urbis, 2024 
+Figure 2 Local Context 
+ 
+Source: Urbis, 2024 
+
+[[page 12]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 11  
+ 
+Figure 3 Proposed Development – Ground Floor Layout 
+  
+Substation (separate approval) 
+Office 
+Data Halls 
+Electrical  
+and Mech 
+Diesel 
+Storage 
+Water 
+Tanks 
+Loading 
+Area 
+Car parking 
+Backup  
+Generators 
+Entry & 
+Security 
+[[page 13]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 12  
+ 
+Figure 4 Proposed Development – Floor 1 Layout 
+ 
+Figure 5 Proposed Development – Roof Layout 
+ 
+Backup Generators 
+Electrical and Mech 
+Cooling 
+Towers 
+Backup Generators 
+Chiller 
+Enclosures 
+PAHUs 
+Data Halls Offices 
+AC Units 
+Load Banks 
+[[page 14]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 13  
+ 
+Figure 6 Proposed Development – Elevations 
+ 
+ 
+
+[[page 15]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 14  
+ 
+Figure 7 Proposed Development Staging 
+ 
+ 
+
+[[page 16]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 15  
+ 
+1.2 Nearest Sensitive Receivers 
+Residential areas are located to the northeast/east and south/southwest of the site. An 
+active recreation area (the Guildford West Sports Ground) is located adjacent to eastern site 
+boundary. Industrial uses are located to the west, north and east of the site. 
+The nearest receivers are shown in Figure 8 and detailed in Table 2. 
+Table 2 Surrounding Sensitive Receivers  
+ID Receiver Area Type Distance (m) Direction 
+NCA01 Suburban residential area to the north 
+of McCredie Road and to the east of 
+Fairfield Road 
+Residential 200 m North east, 
+East 
+NCA02 Suburban residential area to the south 
+of Prospect Creek 
+Residential 150 m South,  
+South west 
+NCA03 Guildford West Sports Ground Active recreation 20 m East 
+NCA04 Industrial areas around McCredie 
+Road and Fairfield Road 
+Industrial 20 m West, North, 
+East 
+ 
+  
+[[page 17]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 16  
+ 
+Figure 8 Site Plan  
+ 
+  
+
+[[page 18]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 17  
+ 
+2.0 Existing Noise Environment 
+The existing noise environment in the area is typically dominated by industrial noise from the 
+Smithfield Industrial Estate and road traffic noise from the surrounding major road network 
+including McCredie Road, The Horsley Drive, Fairfield Road and Cumberland Highway. 
+2.1 Unattended Noise Monitoring 
+Unattended noise monitoring was undertaken at the adjacent residential receivers (refer to 
+Table 3) in August and September 2022 as part of a previous Development Application for 
+132 McCredie Road (DA2022/0759). The noise monitoring is detailed in “Connect@ 
+Smithfield 132 McCredie Road, Smithfield, NSW - Noise and Vibration Impact Assessment” 
+prepared by RWDI, Report Reference RWDI#2205605 Version B, dated 12 December 2022 
+(DA2022/0759 NVIA). 
+Additional unattended noise monitoring in NCA02 to the south of the development was 
+undertaken in July and August 2018 as part of a Development Application for 149 McCredie 
+Road (DA2018/347/1). The noise monitoring is detailed in “Smithfield Distribution Centre 
+149 McCredie Road, Smithfield – DA Noise Impact Assessment” prepared by SLR, Report 
+Reference 610.18295-R01-v2.1, dated 14 June 2019 (DA2018/347/1 NIA).  
+The noise monitoring locations are shown in Figure 8 and the results are summarised in 
+Table 3. Details of the monitoring location together with graphs of the measured daily noise 
+levels are provided in Appendix B. 
+Table 3 Summary of Unattended Noise Monitoring Results 
+ID Address Measured Noise Levels (dBA)1 
+Background Noise (RBL) 
+Day Evening Night 
+NL01 111-123 McCredie Road, Smithfield2 45 41 38 
+NL02 Behind 55 Hemingway Crescent, Fairfield2 44 444 (46 actual) 444 (47 actual) 
+NL03 38 Hemingway Crescent, Fairfield3 45 454 (46 actual) 454 (48 actual) 
+Note 1: The assessment periods are the daytime which is 7 am to 6 pm Monday to Saturday and 8 am to 
+6 pm on Sundays and public holidays, the evening which is 6 pm to 10 pm, and the night-time which 
+is 10 pm to 7 am on Monday to Saturday and 10 pm to 8 am on Sunday and public holidays. See the 
+NSW EPA Noise Policy for Industry. 
+Note 2: Noise monitoring data at this location sourced from DA2022/0759 NVIA (RWDI, 2022). 
+Note 3: Noise monitoring data at this location sources from DA2018/347/1 NIA (SLR, 2019). 
+Note 4: Where the evening or night RBL is higher than the day RBL, it has been reduced to be equal to the 
+day RBL, as detailed in Section 2.3 of the NPfI.  
+2.2 Attended Noise Monitoring 
+Attended noise monitoring was undertaken on 8 April 2025 at the three monitoring locations. 
+Attended monitoring results are provided in Appendix B and summarised in Table 4. The 
+attended monitoring showed results that were generally consistent with the unattended 
+monitoring.  
+The LA90(15minute) (background noise) and LAeq (average noise) at NL01 in NCA01 was 
+dominated by road traffic noise from McCredie Road during the day and evening 
+measurements. Night measurements were not able to be undertaken at this location due to 
+adverse weather. 
+[[page 19]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 18  
+ 
+The LA90(15minute) at NL02 and NL03 in NCA02 during the day measurements was generally 
+dominated by traffic noise from distant roads, including McCredie Road to the north, Fairfield 
+Road to the east, The Horsley Drive to the south and south west, and Cumberland Highway 
+to the west and north west. Industrial noise such as heavy vehicle movements and unloading 
+activities contributed to the LAeq(15minute). 
+The LA90(15minute) and LAeq(15minute) at NL02 and NL03 during the evening and night 
+measurements was dominated by industrial noise from the north, and was generally 
+measured to be higher than the daytime LA90(15minute), consistent with the RBLs in the 
+unattended monitoring results. The industrial noise was a combination of steady sources 
+indicative of mechanical plant, with some variance in other industrial sources, not clearly 
+identifiable but likely to be manufacturing or process noise. 
+Table 4 Summary of Attended Noise Monitoring Results 
+ID Address Measured Noise Levels (dBA)1 Notes 
+Background Noise 
+(LA90) 
+Average Noise 
+(LAeq) 
+Day Evening Night Day Evening Night 
+NL01 111-123 
+McCredie 
+Road, 
+Smithfield 
+58 56 -2 72 71 -2 LA90 and LAeq dominated by road 
+traffic noise from McCredie Road. 
+NL02 Behind 55 
+Hemingway 
+Crescent, 
+Fairfield 
+42 44 -2 45 46 -2 LA90 dominated by distant traffic 
+noise during the day and industrial 
+noise (mechanical plant / 
+manufacturing) to the north during the 
+evening. LAeq influenced by industrial 
+noise (trucks & unloading) and 
+environmental noise (birds etc). 
+NL03 38 
+Hemingway 
+Crescent, 
+Fairfield 
+44 47 44 50 48 46 LA90 dominated by distant traffic 
+noise during the day and industrial 
+noise (mechanical plant / 
+manufacturing) to the north during the 
+evening and night. LAeq influenced by 
+industrial noise (trucks & unloading) 
+and environmental noise (birds etc). 
+Note 1: The assessment periods are the daytime which is 7 am to 6 pm Monday to Saturday and 8 am to 
+6 pm on Sundays and public holidays, the evening which is 6 pm to 10 pm, and the night-time which 
+is 10 pm to 7 am on Monday to Saturday and 10 pm to 8 am on Sunday and public holidays. See the 
+NSW EPA Noise Policy for Industry. 
+Note 2: Night measurement at this location was not able to be undertaken due to adverse weather. 
+2.3 Justification of Monitoring Locations 
+The monitoring locations for both the 2022 survey and 2018 survey were chosen with 
+respect to the potentially most-affected receivers from development impacts, their proximity 
+to the site, consideration of influences to the ambient noise levels including industrial noise 
+and traffic noise, along with access permission and safety requirements. The unattended 
+monitoring locations are considered to be representative of the potentially most-affected 
+residential receivers and the data is adequate for determining the construction and 
+operational noise criteria that is derived in Sections 3.1 and 3.3 of this report. 
+Noise levels collected in free field at ground level are applicable to two-storey dwellings, as 
+per Section 2.6 of the NPfI. Attended monitoring in NCA02 (to the south), along with the 
+[[page 20]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 19  
+ 
+trends shown in the unattended monitoring, show that the RBL is dominated by distant traffic 
+noise during the day, and industrial noise during the evening and night. Two-storey dwellings 
+would be more exposed to both of these sources, hence monitoring results from the ground 
+level locations would be slightly conservative. Other residential receivers in NCA02 to the 
+west and south east of the monitoring locations have similar exposure to both industrial 
+noise and traffic noise to those at the monitoring locations.  
+Results from the quieter of the two monitoring locations to the south of the site (NL02) have 
+conservatively been used to determine the noise criteria for NCA02. The monitoring results 
+at the two locations and the noise levels trends on the graphs of the daily noise levels are 
+generally consistent. The consistency in the measured levels at these locations, along with 
+the observations during the attended measurements confirm that evening and night-time 
+RBLs in NCA02 are generally higher than during the daytime. Where the evening or night 
+RBL is higher than the day RBL, it has been reduced to be equal to the day RBL, as detailed 
+in Section 2.3 of the NPfI. 
+ 
+  
+[[page 21]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 20  
+ 
+3.0 Assessment Criteria 
+3.1 Construction Noise Criteria 
+The NSW Interim Construction Noise Guideline (ICNG) is used to assess and manage 
+impacts from construction noise on residences and other sensitive land uses in NSW. 
+The ICNG contains procedures for determining project specific Noise Management Levels 
+(NMLs) for sensitive receivers based on the existing background noise in the area. The 
+‘worst-case’ noise levels from construction of a proposal are predicted and then compared to 
+the NMLs in a 15-minute assessment period to determine the likely impact of the proposal. 
+The NMLs are not mandatory limits, however, where construction noise levels are predicted 
+or measured to be above the NMLs, feasible and reasonable work practices to minimise 
+noise emissions are to be investigated. 
+3.1.1 Residential Receivers 
+The ICNG approach for determining NMLs at residential receivers is shown in Table 5. 
+Table 5 ICNG NMLs for Residential Receivers 
+Time of 
+Day 
+NML 
+LAeq(15minute) 
+How to Apply 
+Standard 
+Construction 
+Hours 
+Monday to 
+Friday 
+7:00 am to 
+6:00 pm 
+Saturday 
+8:00 am to 
+1:00 pm 
+No work on 
+Sundays or 
+public 
+holidays 
+Noise 
+affected 
+RBL1 + 10 dB 
+• The noise affected level represents the point above which there 
+may be some community reaction to noise 
+• Where the predicted or measured LAeq(15minute) is greater than the 
+noise affected level, the proponent should apply all feasible and 
+reasonable work practices to meet the noise affected level 
+• The proponent should also inform all potentially impacted residents 
+of the nature of works to be carried out, the expected noise levels 
+and duration, as well as contact details. 
+Highly Noise 
+Affected 
+75 dBA 
+• The Highly Noise Affected (HNA) level represents the point above 
+which there may be strong community reaction to noise 
+• Where noise is above this level, the relevant authority (consent, 
+determining or regulatory) may require respite periods by 
+restructuring the hours that the very noisy activities can occur, 
+taking into account: 
+o Times identified by the community when they are less sensitive 
+to noise (such as before and after school for works near schools 
+or mid-morning or mid-afternoon for works near residences 
+o If the community is prepared to accept a longer period of 
+construction in exchange for restrictions on construction times. 
+Outside 
+Standard 
+Construction 
+Hours 
+ 
+Noise 
+affected RBL 
++ 5 dB 
+• A strong justification would typically be required for works outside 
+the recommended standard hours 
+• The proponent should apply all feasible and reasonable work 
+practices to meet the noise affected level 
+• Where all feasible and reasonable practises have been applied and 
+noise is more than 5 dB above the noise affected level, the 
+proponent should negotiate with the community. 
+Note 1: RBL is the Rating Background Level and the ICNG refers to the calculation procedures in the NSW 
+Industrial Noise Policy (INP). The INP has been superseded by the NSW EPA Noise Policy for 
+Industry (NPfI). 
+[[page 22]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 21  
+ 
+3.1.2 Other Sensitive’ Land Uses and Commercial Receivers 
+Non-residential land uses have been identified in the study area. The NMLs for ‘other 
+sensitive’ receivers are shown in Table 6. 
+Table 6 Construction NMLs for ICNG ‘Other Sensitive’ Receivers 
+Land Use Noise management level 
+LAeq(15minute) (dBA) 
+(applied when the property is in 
+use) 
+Internal External 
+ICNG ‘other sensitive’ receivers  
+Industrial - 75 
+Active recreation areas - 65 
+ 
+3.1.3 NML Summary 
+The construction NMLs for the proposal have been determined using the results from the 
+unattended noise monitoring and are shown in Table 7.  
+Out of hours NMLs would be applicable should works be required to be undertaken outside 
+ICNG standard construction hours. 
+Table 7 Project Specific Noise Management Levels 
+Receiver Area / Type Monitoring 
+Location 
+Noise Management Level (LAeq(15minute) – dBA) 
+Standard 
+Construction  
+(RBL +10 dB)1 
+Out of Hours 
+(RBL +5 dB) 
+Daytime  Daytime2 Evening  Night-time 
+NCA01 Residential NL01 55 50 46 43 
+NCA02 Residential NL02 54 49 49 49 
+NCA03  
+Active recreation 
+n/a 65 65 65 - 
+NCA04 Industrial n/a 75 75 - - 
+Note 1: RBL = Rating Background Level. 
+Note 2: Daytime out of hours is 7 am to 8 am and 1 pm to 6 pm on Saturday, and 8 am to 6 pm on Sunday 
+and public holidays. 
+In addition to the above NMLs, residential receivers are considered to be ‘highly noise 
+affected’ if the predicted level exceeds 75 dBA LAeq(15minute). 
+[[page 23]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 22  
+ 
+3.2 Construction Vibration Criteria 
+The effects of vibration from construction works can be divided into three categories: 
+• Those in which the occupants of buildings are disturbed (human comfort) 
+• Those where building contents may be affected (building contents) 
+• Those where the integrity of the building may be compromised (structural or cosmetic 
+damage). 
+3.2.1 Human Comfort Vibration 
+People can sometimes perceive vibration impacts when vibration generating construction 
+works are located close to occupied buildings.  
+Vibration from construction works tends to be intermittent in nature and the EPA’s Assessing 
+Vibration: a technical guideline (2006) provides criteria for intermittent vibration based on the 
+Vibration Dose Value (VDV). The ‘preferred’ and ‘maximum’ VDVs for human comfort 
+impacts are shown in Table 8. 
+Table 8 Vibration Dose Values for Intermittent Vibration 
+Building Type Assessment 
+Period 
+Vibration Dose Value1 
+(m/s1.75) 
+Preferred  Maximum 
+Critical Working Areas (eg operating theatres or 
+laboratories) 
+Day or night-
+time 
+0.10 0.20 
+Residential  Daytime 0.20 0.40 
+Night-time 0.13 0.26 
+Offices, schools, educational institutions and places 
+of worship 
+Day or night-
+time 
+0.40 0.80 
+Workshops Day or night-
+time 
+0.80 1.60 
+Note 1: The VDV accumulates vibration energy over the daytime and night-time assessment periods, and is 
+dependent on the level of vibration as well as the duration.  
+3.2.2 Effects on Building Contents 
+People perceive vibration at levels well below those likely to cause damage to building 
+contents. For most receivers, the human comfort vibration criteria are the most stringent and 
+it is generally not necessary to set separate criteria for vibration effects on typical building 
+contents. 
+Exceptions to this can occur when vibration sensitive equipment, such as electron 
+microscopes, are located in buildings near to construction works. No such items of 
+equipment have been identified in the proposal area. 
+3.2.3 Structural and Cosmetic Damage Vibration 
+If vibration from construction works is sufficiently high it can cause damage to structural 
+elements of affected buildings. The levels of vibration required to cause cosmetic damage 
+tend to be at least an order of magnitude (10 times) higher than those at which people can 
+perceive vibration. 
+[[page 24]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 23  
+ 
+Examples of damage that can occur includes cracks or loosening of drywall surfaces, cracks 
+in supporting columns and loosening of joints. Structural damage vibration limits are 
+contained in British Standard BS 7385 and German Standard DIN 4150.  
+BS 7385 
+British Standard BS 7385 recommends vibration limits for transient vibration judged to give a 
+minimal risk of vibration induced damage to affected buildings. The limits for residential and 
+industrial buildings are shown in Table 9. 
+Table 9 BS 7385 Transient Vibration Values for Minimal Risk of Damage 
+Group Type of Building Peak Component Particle Velocity in 
+Frequency Range of Predominant 
+Pulse 
+4 Hz to 15 Hz 15 Hz and Above 
+1 Reinforced or framed structures. Industrial and 
+heavy commercial buildings 
+50 mm/s at 4 Hz and above 
+2 Unreinforced or light framed structures. 
+Residential or light commercial type buildings 
+15 mm/s at 4 Hz 
+increasing to 20 
+mm/s at 15 Hz 
+20 mm/s at 15 Hz 
+increasing to 50 
+mm/s at 40 Hz and 
+above 
+Note 1: Where the dynamic loading caused by continuous vibration may give rise to dynamic magnification 
+due to resonance, especially at the lower frequencies where lower guide values apply, then the guide 
+values may need to be reduced by up to 50%. 
+DIN 4150 
+German Standard DIN 4150 also provides guideline vibration limits for different buildings. 
+Damage is not expected to occur where the values are complied with and the values are 
+generally recognised to be conservative. The DIN 4150 values for buildings and structures 
+are shown in Table 10. 
+Table 10 DIN 4150 Guideline Values for Short-term Vibration on Structures 
+Group Type of Structure Guideline Values Vibration Velocity (mm/s) 
+Foundation, All Directions 
+at a Frequency of 
+Topmost 
+Floor, 
+Horizontal 
+Floor 
+Slabs, 
+Vertical 
+1 to 10 Hz 10 to 
+50 Hz 
+50 to 
+100 Hz 
+All 
+frequencies 
+All 
+frequencies 
+1 Buildings used for commercial 
+purposes, industrial buildings and 
+buildings of similar design 
+20 20 to 40  40 to 50  40 20 
+2 Residential buildings and buildings 
+of similar design and/or occupancy 
+5 5 to 15  15 to 20  15 20 
+3 Structures that, because of their 
+particular sensitivity to vibration, 
+cannot be classified as Group 1 or 2 
+and are of great intrinsic value (eg 
+heritage listed buildings)  
+3 3 to 8  8 to 10  8 201 
+Note 1: It may be necessary to lower the relevant guideline value markedly to prevent minor damage. 
+[[page 25]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 24  
+ 
+3.2.4 Minimum Working Distances for Vibration-intensive Works 
+Minimum working distances for typical vibration-intensive construction equipment are 
+provided in the Roads and Maritime (now Transport for NSW) Construction Noise and 
+Vibration Guideline (CNVG) and are shown in Table 11. The minimum working distances are 
+for both cosmetic damage (from BS 7385 and DIN 4150) and human comfort (from the NSW 
+EPA Vibration Guideline). They are based on empirical data which suggests that where 
+works are further from receivers than the quoted minimum distances then impacts are not 
+considered likely.  
+Table 11 Recommended Minimum Working Distances from Vibration-intensive 
+Equipment 
+Plant Item Rating/Description Minimum Distance 
+Cosmetic Damage 
+Human 
+Response 
+(NSW EPA 
+Guideline) 
+Residential 
+and Light 
+Commercial  
+(BS 7385) 
+Heritage 
+Items  
+(DIN 4150, Group 
+3) 
+Vibratory Roller <50 kN (1–2 tonne) 5 m 11 m 15 m to 20 m 
+<100 kN (2–4 tonne) 6 m 13 m 20 m 
+<200 kN (4–6 tonne) 12 m 25 m 40 m 
+<300 kN (7–13 tonne) 15 m 31 m 100 m 
+>300 kN (13–18 tonne) 20 m 40 m 100 m 
+>300 kN (>18 tonne) 25 m 50 m 100 m 
+Small Hydraulic 
+Hammer 
+300 kg (5 to 12 t 
+excavator) 
+2 m 5 m 7 m 
+Medium Hydraulic 
+Hammer 
+900 kg (12 to 18 t 
+excavator) 
+7 m 15 m 23 m 
+Large Hydraulic 
+Hammer 
+1,600 kg (18 to 34 t 
+excavator) 
+22 m 44 m 73 m 
+Vibratory Pile Driver Sheet piles 2 m to 20 m 5 m to 40 m 20 m 
+Piling Rig – Bored ≤ 800 mm 2 m (nominal) 5 m 4 m 
+Jackhammer Hand held 1 m (nominal) 3 m 2 m 
+ 
+The minimum working distances are indicative and will vary depending on the particular item 
+of equipment and local geotechnical conditions. The distances apply to cosmetic damage of 
+typical buildings under typical geotechnical conditions. 
+[[page 26]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 25  
+ 
+3.3 Operational Noise Criteria 
+The NSW Noise Policy for Industry (NPfI) was released in 2017 and sets out the 
+requirements for the assessment and management of operational noise from industry in 
+NSW. 
+The NPfI defines how to determine ‘trigger levels’ for noise emissions from industrial 
+developments. Where a development is likely to exceed the trigger levels at existing noise-
+sensitive receivers, feasible and reasonable noise management measures are required to be 
+considered to reduce the impacts. 
+There are two types of trigger levels – one to account for ‘intrusive’ noise impacts and one to 
+protect the ‘amenity’ of particular land uses: 
+• The intrusiveness of an industrial noise source is generally considered acceptable if 
+the LAeq noise level of the source, measured over a period of 15-minutes, does not 
+exceed the representative background noise level by more than 5 dB. Intrusive noise 
+levels are only applied to residential receivers. For other receiver types, only the 
+amenity levels apply. 
+• To limit continual increases in noise levels from the use of the intrusiveness level 
+alone, the ambient noise level within an area from all industrial sources should 
+remain below the recommended amenity levels specified in the NPfI for that 
+particular land use. 
+Intrusive and amenity noise levels are not used directly as regulatory limits. They are used to 
+assess the potential impact of noise, assess feasible and reasonable mitigation options and 
+subsequently determine achievable noise requirements. 
+The NPfI provides guidance on assigning residential receiver amenity noise categories 
+based on the site-specific features shown in Table 12. 
+Table 12 Residential Receiver Amenity  
+Receiver 
+Category 
+Typical Planning 
+Land Use Zoning 
+Typical Existing 
+Background Noise 
+Levels (RBL) 
+Description 
+Rural  RU1 – primary 
+production  
+RU2 – rural 
+landscape  
+RU4 – primary 
+production small lots  
+R5 – large lot 
+residential  
+E4 – environmental 
+living 
+Daytime <40 dBA 
+Evening <35 dBA  
+Night <30 dBA 
+Rural – an area with an acoustical 
+environment that is dominated by natural 
+sounds, having little or no road traffic 
+noise and generally characterised by low 
+background noise levels. Settlement 
+patterns would be typically sparse. Note: 
+Where background noise levels are higher 
+than those presented due to existing 
+industry or intensive agricultural activities, 
+the selection of a higher noise amenity 
+area should be considered. 
+[[page 27]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 26  
+ 
+Receiver 
+Category 
+Typical Planning 
+Land Use Zoning 
+Typical Existing 
+Background Noise 
+Levels (RBL) 
+Description 
+Suburban 
+residential  
+RU5 – village  
+RU6 – transition 
+R2 – low density 
+residential  
+R3 – medium density 
+residential  
+E2 – environmental 
+conservation  
+E3 – environmental 
+management 
+Daytime <45 dBA 
+Evening <40 dBA 
+Night <35dBA 
+Suburban – an area that has local traffic 
+with characteristically intermittent traffic 
+flows or with some limited commerce or 
+industry. This area often has the following 
+characteristic: evening ambient noise 
+levels defined by the natural environment 
+and human activity. 
+Urban 
+residential 
+R1 – general 
+residential  
+R4 – high density  
+residential  
+B1 – neighbourhood 
+centre (boarding 
+houses and shop-top 
+housing)  
+B2 – local centre  
+(boarding houses)  
+B4 – mixed use 
+Daytime >45 dBA  
+Evening >40 dBA 
+Night >35 dBA 
+Urban – an area with an acoustical 
+environment that:  
+• Is dominated by ‘urban hum’ or industrial 
+source noise, where urban hum means 
+the aggregate sound of many 
+unidentifiable, mostly traffic and/or 
+industrial related sound sources  
+• Has through-traffic with characteristically 
+heavy and continuous traffic flows during 
+peak periods  
+• Is near commercial districts or industrial 
+districts  
+• Has any combination of the above. 
+Amenity noise categories for the surrounding receivers have been determined with reference 
+to the NPfI. The assessment is shown in Table 13. 
+Table 13 Residential Receiver Amenity Category Assessment 
+Area Land Use 
+Zoning 
+Existing 
+Background 
+Noise Levels RBL 
+(dBA) 
+Resulting 
+Amenity 
+Classification 
+Discussion 
+Day Eve Night 
+NCA01 R2 low 
+density 
+residential 
+ 
+R3 medium 
+density 
+residential 
+45 41 38 Suburban The residences in NCA01 are mostly 
+zoned as R2 low density residential, 
+with a small area of R3 medium 
+density residential. Residences are 
+typically one to two-storey single 
+dwellings, townhouses and low-level 
+apartment buildings. Existing noise 
+levels are typical of residential areas 
+near industrial areas and major roads. 
+Residences have, therefore, been 
+classified as suburban. 
+[[page 28]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 27  
+ 
+Area Land Use 
+Zoning 
+Existing 
+Background 
+Noise Levels RBL 
+(dBA) 
+Resulting 
+Amenity 
+Classification 
+Discussion 
+Day Eve Night 
+NCA02 R2 low 
+density 
+residential 
+44 44 44 Suburban The residences in NCA02 are zoned 
+as R2 low density residential. 
+Residences are typically one to two-
+storey single dwellings. Existing noise 
+levels are typical of residential areas 
+near industrial areas and major roads. 
+Residences have, therefore, been 
+classified as suburban. 
+The existing noise sources, noise levels and characteristics at the receivers are indicative of 
+urban/industrial interface classification, however, suburban classification has conservatively 
+been adopted based on the land use zoning.  
+3.3.1 Project Noise Trigger Levels  
+The trigger levels for industrial noise from the proposal are summarised in Table 14. They 
+are based on the previously measured background noise levels, where appropriate. The 
+Project Noise Trigger Levels (PNTL) are the most stringent of the intrusiveness and amenity 
+trigger level for each period and are highlighted below. 
+The NPfI states that when converting the project amenity level from LAeq(period) to 
+LAeq(15minute), the LAeq(15minute) is equal to the LAeq(period) plus 3 dB, unless robust evidence is 
+provided for an alternative approach (refer to Section 2.2 of the NPfI). While the main source 
+of operational noise from data centres is typically mechanical plant which would generally 
+operate continuously, the dominant items of plant at the development (ie the cooling towers) 
+are expected to vary in noise emissions depending on the number of units in use, their load, 
+and the current ambient temperature. It is noted that the noise modelling of mechanical plant 
+at the development assumes all mechanical plant items conservatively operate at 
+representative worst-case loads at all times (see Section 4.2.1 for further information). As 
+such, it is considered appropriate to apply the standard NPfI assumption of LAeq(15minute) 
+equal to the LAeq(period) plus 3 dB for this project. 
+The PNTLs detailed in Table 14 are consistent with those in the DA2022/0759 NVIA for the 
+approved warehouse development on the site. 
+[[page 29]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 28  
+ 
+Table 14 Project Noise Trigger Levels 
+Receiver Area / 
+Type 
+Period Amenity Noise 
+Level LAeq 
+(dBA) 
+Measured 
+Noise Level 
+(dBA)  
+Project Noise Trigger 
+Levels LAeq(15minute) 
+(dBA)  
+RBL1 Intrusiveness  Amenity2,3  
+NCA01 
+Residential 
+Day 55 45 50 53 
+Evening 45 41 46 43 
+Night 40 38 43 38 
+NCA02 
+Residential 
+Day 55 44 49 53 
+Evening 45 44 49 43 
+Night 40 44 49 38 
+NCA03 Active 
+recreation 
+When in use 55 - - 53 
+NCA04 Industrial When in use 70 - - 68 
+Note 1: RBL = Rating Background Level. 
+Note 2: The recommended amenity noise levels have been reduced by 5 dB, where appropriate, to give the 
+project amenity noise levels due to other sources of industrial noise being present in the area, as 
+outlined in the NPfI. 
+Note 3: The project amenity noise levels have been converted to a 15-minute level by adding 3 dB, as outlined 
+in the NPfI. 
+3.3.2 Cumulative Noise Impacts 
+The NSW Government Cumulative Impact Assessment Guidelines for State Significant 
+Projects requires that the potential combined effect of cumulative impacts on all nearby 
+industrial developments to be considered when assessing potential noise impacts from state 
+significant projects. The guideline references the NPfI when determining the approach to 
+assessing the cumulative industrial noise impacts. 
+The NPfI states that it aims to limit continuing increases in cumulative industrial noise 
+through the application of amenity noise levels, which are applicable to all industrial noise 
+sources in an area.  
+The NPfI requires that the amenity noise levels which are applied to an individual project be 
+reduced by 5 dB to allow for the potential cumulative impact from multiple sources of 
+industrial noise in an area (including existing and new).  
+By doing this, the policy accounts for potential cumulative impacts by lowering the criteria for 
+each individual development to ensure that the ambient noise level within an area from all 
+industrial noise sources combined remains below the recommended amenity noise levels, 
+where feasible and reasonable. The NPfI states that “where the project amenity noise level 
+applies and it can be met, no additional consideration of cumulative industrial noise is 
+required”. 
+The potential cumulative impacts from the development and other sources of industrial noise 
+in the area are therefore accounted for in the proposal-specific PNTLs (see Table 14). 
+[[page 30]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 29  
+ 
+3.3.3 Sleep Disturbance 
+The potential for sleep disturbance from maximum noise level events from the proposal 
+during the night-time period is required to be considered. This is applicable only to 
+residential receivers. 
+The NPfI defines the sleep disturbance screening level as 52 dBA LAFmax or the prevailing 
+background level plus 15 dB, whichever is greater.  
+The sleep disturbance screening levels for the proposal are shown in Table 15. 
+Table 15 Sleep Disturbance Screening Levels 
+Location  Noise Level (dBA) 
+Measured Prevailing Night-
+time Background Level  
+Sleep Disturbance Screening 
+Level1 
+NCA01 Residential 38 53 
+NCA02 Residential 44 59 
+Note 1: The sleep disturbance screening level as 52 dBA LAFmax or the prevailing background level plus 
+15 dB, whichever is greater 
+A detailed maximum noise level event assessment should be completed where the sleep 
+disturbance screening level is exceeded. The detailed assessment should cover the 
+maximum noise level, the extent to which the maximum noise level exceeds the RBL, and 
+the number of times this happens during the night-time period.  
+The NPfI refers to the Road Noise Policy (RNP) for additional information regarding sleep 
+disturbance. enHealth Council studies are referenced which indicate that for short-term or 
+transient noise events, for good sleep over eight hours the indoor LAFmax sound pressure 
+level should ideally not exceed around 45 dBA more than 10 or 15 times per night.  
+The RNP goes on to conclude that from the research on sleep disturbance to date: 
+• Maximum internal noise levels below 50 dBA to 55 dBA are unlikely to awaken 
+people from sleep 
+• One or two events per night with maximum internal noise levels of 65-70 dBA are not 
+likely to affect health and wellbeing significantly. 
+3.3.4 Corrections for Annoying Noise Characteristics  
+Sources of industrial noise can cause greater annoyance where they contain certain 
+characteristics, such as tonality, intermittency or dominant low-frequency content. The NPfI 
+specifies the following modifying factor corrections, shown in Table 16, which are to be 
+applied where annoying characteristics are present. The corrections are to be added to the 
+noise level at the receiver before comparison with the Project Noise Trigger Levels. 
+[[page 31]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 30  
+ 
+Table 16 NPfI Modifying Factor Corrections 
+Factor Assessment/ 
+Measurement 
+When to Apply Correction1 
+Tonal 
+noise 
+One-third octave 
+or narrow band 
+analysis 
+Level of one-third octave band exceeds the level of the 
+adjacent bands on both sides by the levels defined in 
+the NPfI. 
+5 dB2 
+Low-
+frequency 
+noise 
+Measurement of 
+source 
+contribution C-
+weighted and A-
+weighted level 
+and one-third 
+octave 
+measurements 
+Measure/assess source contribution C and A weighted 
+Leq,t levels over same time period. Correction to be 
+applied where the C minus A level is 15 dB or more 
+and the level to which the thresholds defined in the 
+NPfI are exceeded. 
+2 or 5 dB2 
+Intermittent 
+noise 
+Subjectively 
+assessed but 
+should be 
+assisted with 
+measurement to 
+gauge the extent 
+of change in 
+noise level 
+The source noise heard at the receiver varies by more 
+than 5 dB and the intermittent nature of the noise is 
+clearly audible.  
+The NPfI further defines intermittent noise as noise 
+where the level suddenly drops/increases several 
+times during the assessment period, with a noticeable 
+change in source noise level of at least 5 dB, for 
+example, equipment cycling on and off.  
+The EPA has confirmed4 that the intermittent 
+correction does not apply to short-term events that 
+emerge above the general industrial noise level and is 
+therefore not applicable to industrial or commercial 
+sites that have vehicle or plant movements at night, 
+including audible reversing alarms.  
+The intermittency correction is not intended to be 
+applied to changes in noise level due to meteorology. 
+5 dB3 
+Maximum 
+adjustment 
+Refer to 
+individual 
+modifying 
+factors 
+Where two or more modifying factors are indicated. Maximum 
+correction 
+of 10 dB2 
+(excluding 
+duration 
+correction)  
+Note 1: Corrections to be added to the measured or predicted levels. 
+Note 2: Where a source emits tonal and low-frequency noise, only one 5 dB correction should be applied if the 
+tone is in the low-frequency range, that is, at or below 160 Hz. 
+Note 3: Adjustment to be applied to night-time only. 
+Note 4: How to Apply the Noise Policy for Industry Intermittent Modifying Factor Corrections, NSW 
+Environment Protection Authority, Acoustics Australia Vol. 50, No. 3, September 2022. 
+Details of the modifying factor corrections applied in the assessment are provided in 
+Section 4.2.4. 
+[[page 32]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 31  
+ 
+3.3.5 Residual Impacts  
+The NPfI defines residual noise impacts as exceedances of the Project Noise Trigger Levels 
+which remain after all feasible and reasonable source and pathway mitigation measures 
+have been considered.  
+The significance of residual noise impacts, as defined in the NPfI, is shown in Table 17. 
+Examples of receiver-based treatments that can be used to mitigate residual impacts are 
+shown in Table 18. 
+Table 17 NPfI Significance of Residual Noise Impacts  
+If the Predicted 
+Noise Level minus 
+the Project Noise 
+Trigger Level is: 
+And the Total Cumulative Industrial Noise Levels is: Then the 
+Significance of 
+the Residual 
+Noise Level is: 
+≤ 2 dBA Not applicable Negligible 
+≥ 3 but ≤ 5 dBA < recommended amenity noise level 
+or 
+> recommended amenity noise level, but the increase in 
+total cumulative industrial noise level resulting from the 
+development is less than or equal to 1dB 
+Marginal 
+≥ 3 but ≤ 5 dBA > recommended amenity noise level and the increase in 
+total cumulative industrial noise level resulting from the 
+development is more than 1 dB 
+Moderate 
+> 5 dBA ≤ recommended amenity noise level Moderate 
+> recommended amenity noise level Significant 
+ 
+Table 18 NPfI Examples of Receiver-based Treatments to Mitigate Residual Noise 
+Impacts  
+Significance of 
+Residual Noise 
+Impact  
+Example of Potential Treatment 
+Negligible The exceedances would not be discernible by the average listener and 
+therefore would not warrant receiver-based treatments or controls. 
+Marginal Provide mechanical ventilation/comfort condition systems to enable windows 
+to be closed without compromising internal air quality/amenity. 
+Moderate As for ‘marginal’, but also upgraded facade elements, such as windows, doors 
+or roof insulation, to further increase the ability of the building facade to 
+reduce noise levels. 
+Significant May include suitable commercial agreements where considered feasible and 
+reasonable. 
+ 
+[[page 33]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 32  
+ 
+3.3.6 Traffic on Surrounding Roads  
+The potential impacts from proposal-related traffic on the surrounding public roads are 
+assessed using the NSW EPA Road Noise Policy (RNP).  
+An initial screening test is first applied to evaluate if existing road traffic noise levels are 
+expected to increase by more than 2.0 dB. Where this is considered likely, further 
+assessment is required using the RNP criteria shown in Table 19. 
+Table 19 RNP/NCG Criteria for Assessing Traffic on Public Roads 
+Road 
+Category 
+Type of Project/Land Use Assessment Criteria (dBA) 
+Daytime  
+(7 am – 
+10 pm) 
+Night-time 
+(10 pm – 
+7 am) 
+Freeway/ 
+arterial/ 
+sub-arterial 
+roads 
+Existing residences affected by additional traffic 
+on existing freeways/arterial/sub-arterial roads 
+generated by land use developments 
+LAeq(15hour) 60 
+(external) 
+LAeq(9hour) 55 
+(external) 
+Local roads Existing residences affected by additional traffic 
+on existing local roads generated by land use 
+developments  
+LAeq(1hour) 55 
+(external) 
+LAeq(1hour) 50 
+(external) 
+ 
+  
+[[page 34]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 33  
+ 
+4.0 Methodology 
+4.1 Construction Noise and Vibration Assessment 
+A noise model of the study area has been used to predict noise levels from the proposed 
+construction work to all surrounding receivers. The model uses ISO 9613-2 algorithms in 
+SoundPLAN software.  
+Local terrain, receiver buildings and structures were digitised in the noise model to develop a 
+three-dimensional representation of the construction site and surrounding areas.  
+4.1.1 Construction Activities 
+The proposal would be constructed in two stages, as shown below (refer to Section 1.0 for 
+further details regarding staging): 
+Stage 1 
+• CC1 – Site preparation works (including but not limited to vegetation removal, 
+earthworks and piling, installation of footings, retaining walls) 
+• CC2 – Inground services installation, structural works 
+• CC3 – Facade construction, installation of services, fit out 
+• CC4 – Landscaping and external works 
+Stage 2 
+• CC1 – Site preparation works (earthworks and piling, installation of footings) 
+• CC2 – Inground services installation, structural works 
+• CC3 – Facade construction, installation of services, fit out 
+• CC4 – Landscaping and external works 
+Representative scenarios have been developed to assess the likely impacts from the various 
+construction phases of the proposal. These scenarios are shown in Table 20. 
+The assessment uses ‘realistic worst-case’ scenarios to determine the impacts from the 
+noisiest 15-minute period that are likely to occur for each work scenario, as required by the 
+ICNG. The impacts represent construction noise levels without mitigation applied. 
+The sound power levels for the construction equipment used in each scenario are presented 
+in Appendix C. 
+[[page 35]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 34  
+ 
+Table 20 Construction Equipment 
+Scenario Works 
+Activity 
+Equipment CC & Likely Duration 
+Stage 1 Stage 2 
+W.01 Vegetation 
+clearing 
+Chainsaw, chipper, excavator, front end 
+loader, dump truck, water truck 
+CC1 –  
+1 month 
+n/a 
+W.02 Earthworks Dozer, excavator, front end loader, vibratory 
+roller, dump truck, water truck 
+CC1, CC2 –  
+5 months 
+CC1, CC2 –  
+5 months 
+W.03 Excavation 
+of hard rock  
+Rockbreaker, dozer, excavator, front end 
+loader, dump truck, water truck 
+CC1, CC2 –  
+1 month 
+CC1, CC2 –  
+1 month 
+W.04 Construction 
+of pads and 
+hardstands  
+Concrete pump, concrete truck/agitator, 
+concrete vibrator 
+CC1, CC2 –  
+3 months 
+CC1, CC2 –  
+3 months 
+W.05 Construction 
+of structures 
+and 
+equipment 
+installation 
+Elevated working platform, flatbed truck, hand 
+tools, mobile crane 
+CC3, CC4 –  
+18 months 
+CC3, CC4 –  
+18 months 
+ 
+4.1.2 Hours of Construction 
+Construction activities for the proposal would only be undertaken during the following hours: 
+• 7:00 am to 6:00 pm, Mondays to Fridays 
+• 8:00 am to 1:00 pm on Saturdays 
+• At no time on Sundays or Public Holidays. 
+  
+[[page 36]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 35  
+ 
+4.2 Operational Noise Assessment 
+The potential operational noise levels from the proposal have been predicted to the 
+surrounding receivers using the ISO 9613-2 algorithm in SoundPLAN V8.2, implemented in 
+accordance with ISO 17534.  
+ISO 9613 -2 is an industry standard algorithm that is considered suitable for use in the 
+prediction of noise from industrial sources where intervening objects provid e acoustic 
+shielding, such as at the subject site and surrounding area.  
+The ISO 9613-2 algorithm predicts continuous A-weighted sound pressure levels under noise-
+enhancing meteorological conditions favourable to downwind propagation, or equivalently, 
+propagation under a well-developed, moderate, ground-based temperature inversion, such as 
+commonly occurs on clear calm nights. 
+Downwind propagation conditions include wind from source to receiver, with wind speeds of 
+around 1 to 5 m/s, measured at a height of 3  to 11 m above the ground . These propagation 
+conditions are considered consistent with the noise-enhancing weather conditions specified in 
+Fact Sheet D: Accounting for noise-enhancing weather conditions of the NPfI.  
+ISO 9613-2 has been used extensively on industrial projects in Australia over several 
+decades and has been accepted previously by NSW DPE (now DPHI) in numerous 
+environmental noise assessments. 
+The noise model includes ground topography, ground type (ground absorption modelled at 
+0.0 (hard ground) in the industrial area (NCA04 and the project site) and 0.5 (mixed ground) 
+in the rest of the noise model outside the industrial area), buildings and representative noise 
+sources from the proposal. 
+The potential impacts have been determined by comparing the predicted noise levels to the 
+NPfI PNTLs in a 15-minute assessment period. 
+Noise levels have been assessed at the identified sensitive receivers with reference to the 
+requirements of ‘Section 2.6 – Assessment Locations’ of the NPfI. This includes assessment 
+of impacts at all floors of the identified multi-storey buildings. 
+4.2.1 Operational Noise Sources 
+The proposal is a speculative development with no tenants committed. The facility has been 
+designed to accommodate typical data centre users. 
+Several assumptions have been made regarding the future tenants and likely sources of 
+noise. These assumptions have been used to develop representative noise modelling 
+scenarios that reflect the expected highest noise emissions that the development would 
+likely emit. 
+The development comprises a multi-storey data centre building with associated data halls, 
+plant rooms, backup generators, ancillary office area, vehicle access, loading dock, 
+carparking, security hut and fencing with secure access. Design plans of the development 
+are shown in Figure 3 to Figure 6. 
+Light vehicle and heavy vehicles access would be from McCredie Road. The site would be in 
+use 24 hours a day. It is anticipated that deliveries and loading dock access would typically 
+be via medium rigid trucks. 
+[[page 37]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 36  
+ 
+The main sources of operational noise at the development are expected to include: 
+• Rooftop cooling towers and other externally located items of mechanical plant 
+• Testing of backup generators (see Section 4.2.2.1 for more details) 
+• Internally located mechanical plant, such as items within electrical plant rooms and 
+other mechanical services areas 
+• On-site light and heavy vehicle movements 
+• Loading dock activities 
+• Off-site vehicle movements. 
+A summary of the expected noise sources and representative assessment scenarios 
+associated with the operation of the development is provided below. The noise model 
+includes the operations of the ultimate development (inclusive of both Stage 1 and Stage 2). 
+The location of the modelled noise sources is shown in Figure 9 and Figure 10. 
+[[page 38]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 37  
+ 
+Figure 9 Modelled Noise Sources – Ground Level Sources 
+ 
+
+[[page 39]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 38  
+ 
+Figure 10 Modelled Noise Sources – Elevated Sources 
+ 
+ 
+
+[[page 40]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 39  
+ 
+4.2.1.1 Roof Layout 
+The proposed roof layout incorporates the following features (shown in Figure 10): 
+• Solid parapet walls to a height of around RL 33.60 m around the north, east and 
+south edges of the data centre roof 
+• Mechanical plant platform on the data centre roof at a height of around RL 36.07 m 
+• Louvre screens to a height of around RL 45.07 m around the edges of the 
+mechanical plant platform (down to roof level). The eastern and southern louvre 
+screens are indicatively proposed to use acoustic louvres. 
+4.2.1.2 On-Site Traffic 
+On-site vehicles have been modelled using the data provided by the project’s traffic 
+consultant in Table 21. The volumes are representative of the expected worst-case  
+15-minute period for the daytime, evening and night-time. The volumes conservatively 
+assume that light and heavy vehicles access the site concurrently during the worst-case  
+15-minute assessment period. In reality, vehicle access would be unlikely to occur 
+concurrently, particularly during the night-time.  
+Heavy vehicle deliveries would typically be via medium rigid trucks.  
+Table 21 Vehicle Traffic Data – Worst-case 15-Minute Period 
+Vehicle Type Location Sound 
+Power 
+Level 
+(dBA) 
+Vehicle 
+Speed 
+(km/h) 
+Number of Vehicles in Worst-case 
+15-Minute Period1 
+Daytime  
+(7am to 6pm) 
+Evening  
+(6pm to 10pm) 
+Night-time  
+(10pm to 7am) 
+Medium trucks Vehicle entry 
+and hardstand 
+952 5 1 0 0 
+Light vehicles Vehicle entry 
+and carpark 
+902 5 8 3 6 
+Note 1: Total vehicles, includes both inbound and outbound vehicles. Volumes are rounded up to whole 
+numbers for display purposes. 
+Note 2: Sound power level based on SLR measurement data. 
+4.2.1.3 Loading Docks 
+Details of the loading dock noise sources are shown in Table 22. The various sources have 
+been modelled in the loading dock area based on the corresponding number of heavy 
+vehicle movements in the worst-case 15-minute periods (see Table 21).  
+Table 22 Typical Hardstand and Loading Dock Noise Sources 
+Noise Source Sound Power Level (dBA)1 Typical Duration of Use in 
+Worst-case 15-minute Period 
+Truck reversing alarm 1072,3 30 seconds 
+Forklift reversing alarm 1022,3 90 seconds 
+Air brakes 118 1 second 
+Roller door 94 15 seconds 
+Electric forklift 84 900 seconds 
+[[page 41]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 40  
+ 
+Note 1: SWLs based on measurement data, where appropriate. 
+Note 2: SWL based on recommendation to use broadband reversing alarms, see Section 7.2.  
+Note 3: SWL includes a -3 dB reduction due to alarms being discrete events. 
+4.2.1.4 Mechanical Plant  
+The main sources of externally located mechanical plant noise at the development would be 
+the rooftop cooling towers, chiller enclosures, pressurisation air handling units (PAHUs), air 
+conditioning units, and maintenance testing of the backup generators.  
+The mechanical plant used in the assessment, together with corresponding sound power 
+levels and number of units and locations, are detailed in Table 23.  
+Table 23 Mechanical Plant 
+Noise 
+Source 
+Example Unit Sound Power Level 
+(dBA) 
+Locations and Operations 
+Cooling 
+towers 
+BAC XES3E-
+1222-07M 
+ENDURA/H 
+84 dBA1 26 cooling towers on gantry on roof of data 
+centre (see Figure 10). Assumed to operate 
+24 hours a day. 
+Chillers York YZ_MA04 
+1AN037P078HA 
+77 dBA ventilation 
+fan (breakout from 
+chiller enclosure 
+assumed to be 
+negligible compared 
+to fan) 
+26 chiller enclosures on gantry on roof of data 
+centre (see Figure 10). Assumed to operate 
+24 hours a day. 
+PAHUs Airchange PCU-
+N-D 40 
+52 dBA 18 PAHUs on gantry on roof of data centre 
+(see Figure 10). Assumed to operate 24 
+hours a day. 
+AC Units Mitsubishi 
+PURY-
+M500YNW-A1 
+64 dBA 20 AC units on roof of data centre (see 
+Figure 10). Assumed to operate 24 hours a 
+day. 
+Backup 
+generators 
+MTU 20V4000 
+DS3100  
+Intake design SWL  
+91 dBA2 
+68 backup generators located in three levels 
+in the west area of the site. The exhaust 
+stacks for all generators terminate around 
+RL 46.07 m. 
+The backup generators would be tested 
+during daytime hours (see Section 4.2.2.1 for 
+more details). 
+Outtake design SWL 
+91 dBA2  
+Exhaust stack design 
+SWL 91 dBA2  
+Load bank Sephco 
+WAR20CL2500 
+99 dBA 2 load banks located on gantry on roof of data 
+centre will be used during testing of backup 
+generators. (see Figure 10). 
+Note 1: Sound power level based on unit operating at typical peak speed based on advice from the 
+manufacturer. 
+Note 2: Generator enclosures are custom built with design sound power levels for the generator enclosure 
+intakes and outtakes, and generator exhaust gas stacks.  
+Various items of mechanical plant would also be located internally within the data centre. 
+This includes items within the various data halls, electrical plant rooms and mechanical 
+services areas. Details regarding these internal items of equipment are not currently 
+available, however, breakout noise from these items is expected to be relatively minor 
+compared to noise from externally located mechanical plant and testing of backup 
+generators) given the internal plant areas are generally separated from the external facades 
+by service corridors (see Figure 3 to Figure 6).  
+[[page 42]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 41  
+ 
+The exact requirements for all items of mechanical plant would be determined as the project 
+progresses when specifics are known about tenant requirements. Further noise modelling of 
+all items of mechanical plant would be completed during the production of later noise 
+assessments when the selected mechanical plant is known. 
+4.2.1.5 Substation 
+A substation is proposed to be built in the northern area of the site (see Figure 3). This 
+substation would be subject to a separate authority approval, and is proposed to be built 
+during construction of Stage 2 of the development. 
+Indicative noise emissions from the substation transformers have been included in the 
+assessment to estimate cumulative impacts of the data centre and the substation operating 
+concurrently. 
+Table 24 Indicative Substation Noise Sources 
+Noise 
+Source 
+Reference Sound Power Level 
+(dBA) 
+Locations and Operations 
+Substation 
+transformers 
+IEC60076-10 
+100 MVA 
+(standard limit) 
+94 dBA 2 substation transformers indicatively 
+modelled in the substation area with 8 m 
+fire walls (see Figure 9). Assumed to 
+operate 24 hours a day. 
+4.2.2 Operational Scenarios 
+4.2.2.1 Maintenance Testing of Backup Generators 
+The backup generators would require scheduled maintenance and would be tested during 
+daytime business hours (ie 7 am to 6 pm Monday to Saturday and 8 am to 6 pm Sundays 
+and public holidays). The maintenance testing schedule would include quarterly and annual 
+testing, with a maximum of two generators being tested at full 100% load at a time, 
+accompanied by two load banks, and up to six generators idling at 0% load.  
+The generators will operate as a standby power supply in the event of mains failure. Major 
+power interruptions requiring the simultaneous operation of all standby generators would 
+only occur infrequently and for a limited time.  
+Details regarding the backup generator testing are shown in Table 25. 
+[[page 43]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 42  
+ 
+Table 25 Proposed Generator Maintenance Testing Regime 
+Parameter Values 
+Test frequency per generator Quarterly maintenance* Annually operational run 
+No of generators 68 68 
+No of tests each year per 
+generator 
+3 1 
+Run time per test 70 minutes (including 5 minute 
+cooldown) 
+95 minutes (including 5 minute 
+cooldown) 
+No of generators at full load 
+(100%) per test 
+2 2 
+No of generators at no load (0%) 
+per test 
+6 6 
+No of load banks per test 2 2 
+Total testing time for all 
+generators 
+192.83 hours 
+Testing schedule 7:00 am to 6:00 pm Monday to Saturday, and 
+8:00 am to 6:00 pm Sundays & public holidays 
+Note: Generator tested under low load is to be undertaken such that the emissions do not exceed the POEO (Clean Air) Standard of 
+Concentration for non-scheduled premises. 
+* Quarterly maintenance occurs in three quarters of the year, annual testing occurs in the 4th quarter. 
+Source: Data provided by ARUP 2025  
+ 
+An additional operational scenario has been modelled which includes generator testing, see 
+Table 26 for more details. 
+4.2.2.2 Emergency Power Failure 
+Operation of backup generators (outside of maintenance/testing) is only expected to occur 
+during an emergency where mains power to the development is lost. It is not considered 
+reasonable for the development to be required to meet the operational noise criteria during 
+this infrequent emergency scenario and it has not been assessed further.   
+4.2.2.3 Representative Operational Scenarios 
+Representative scenarios have been developed to assess the likely impacts from the 
+operation of the proposal. These scenarios are shown in Table 26.  
+[[page 44]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 43  
+ 
+Table 26 Operational Assessment Scenarios 
+Scenario Name Description 
+OP.01 Normal Operations • All equipment operating at typical peak capacity, except for 
+backup generators. 
+• Includes indicative noise emissions from the substation in the 
+northern area of the site (substation subject to separate 
+approval). 
+• Assessed during daytime, evening and night-time periods. 
+OP.02 Maintenance/Testing 
+Operations 
+• All equipment operating at typical peak capacity, including 
+concurrent maintenance / testing of eight backup generators 
+(two at 100% load, up to six at 0% load) with two load banks. 
+• The assessment conservatively uses the same sound power 
+level for generators idling at 0% load and being tested at 
+100% load, based on information from the manufacturers 
+indicating minimal reduction when idling. 
+• All generator locations were modelled, with the worst-case 
+generators for each receiver included in the predicted noise 
+levels for that receiver. 
+• Includes indicative noise emissions from the substation in the 
+northern area of the site (substation subject to separate 
+approval). 
+• Assessed during daytime only. 
+ 
+Operational scenarios for the interim Stage 1 development are generally consistent with the 
+ultimate development noise sources and scenarios detailed above, with the following 
+changes: 
+• 12 cooling towers instead of 24 
+• 12 chiller enclosures instead of 24 
+• 10 PAHUs instead of 18 
+• 39 generators instead of 68 
+• Quantities of AC units and load banks do not change 
+• Vehicles movements and loading activities do not change 
+• Sound power levels of all equipment do not change 
+• Generator testing scenarios do not change 
+• While the substation is indicatively planned to be built during construction of the 
+Stage 2 development, it has conservatively been included in the Stage 1 noise 
+model. 
+• An interim acoustic louvre screen is proposed along the southern edge of the Stage 1 
+equipment platform, along with the permanent screen along the eastern edge. 
+4.2.3 Noise Source Inventory 
+A noise source inventory which includes the details of the various operational noise sources 
+at the development is shown in Table 27. The noise model includes the operations of the 
+ultimate development (inclusive of both Stage 1 and Stage 2) as per the inputs shown in 
+[[page 45]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 44  
+ 
+Table 27. Changes specific to the Stage 1 development operational scenario are detailed 
+above in Section 4.2.2.3. 
+Table 27 Noise Source Inventory  
+Category Noise Source Usage Reference for Noise Data 
+On-site 
+traffic 
+Light vehicles Light vehicles would access the 
+development and park in the car 
+park. Modelled in the location 
+shown in Figure 9 using vehicle 
+volumes in Table 21. 
+Sound power level taken from 
+measurement data of various 
+light vehicle types and models 
+at speeds of up to around 
+40 km/h, including vehicle 
+acceleration. 
+Medium trucks Deliveries to the development 
+would be via heavy vehicles. 
+Heavy vehicle deliveries would 
+be typically be via medium rigid 
+trucks. Heavy vehicles would 
+access the development via 
+McCredie Road and travel to the 
+loading docks. Modelled on the 
+heavy vehicle route shown in 
+Figure 9 using vehicle volumes 
+in Table 21. 
+Sound power level taken from 
+historical measurement data of 
+various medium rigid truck 
+types and models in 
+approximate 5 to 15 tonne 
+range. 
+Loading 
+docks 
+Reversing 
+alarms, air 
+brakes, 
+forklifts, roller 
+doors 
+Heavy vehicle deliveries would 
+be unloaded via the loading 
+docks. Modelled in the loading 
+docks shown in Figure 9 using 
+vehicle volumes in Table 21.  
+Sound power level taken from 
+historical measurement data of 
+typical loading dock activities at 
+various warehousing and 
+distribution facilities. 
+Internal 
+activities 
+Typical data 
+centre activities  
+Internal noise-generating 
+activities would be associated 
+with typical data centre 
+activities, including mechanical 
+plant in the various data halls, 
+electrical plant rooms and 
+mechanical services areas.  
+Details regarding these internal 
+items of equipment are not 
+currently available, however, 
+breakout noise from these items 
+is expected to be relatively 
+minor (compared to noise from 
+externally located mechanical 
+plant and testing of backup 
+generators) given the internal 
+plant areas are generally 
+separated from the external 
+facades by service corridors. 
+Mechanical 
+plant 
+Cooling towers Cooling towers would be used to 
+expel heat from the data centre 
+operations. Indicative cooling 
+tower requirements are 26 units. 
+These units would operate 24 
+hours a day and have been 
+modelled on the data centre roof 
+shown in Figure 10 using the 
+details in Table 23. 
+Sound power level taken from 
+manufacturers specifications for 
+the indicative units, supplied by 
+the project team. 
+[[page 46]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 45  
+ 
+Category Noise Source Usage Reference for Noise Data 
+Chillers Chillers would be used as a heat 
+exchange for various data 
+centre operations. Indicative 
+chiller requirements are 26 units 
+in chiller enclosures on the roof 
+of the data. These units would 
+operate 24 hours a day and 
+have been modelled on the data 
+centre roof shown in Figure 10 
+using the details in Table 23. 
+Sound power level taken from 
+manufacturers specifications for 
+the indicative units, supplied by 
+the project team. 
+Pressurisation 
+air handling 
+units 
+PAHUs would be used to cool 
+and pressurise internal spaces 
+within the data centre. 
+Indicative PAHU requirements 
+are 18 units. These units would 
+operate 24 hours a day and 
+have been modelled on the data 
+centre roof shown in Figure 10 
+using the details in Table 23. 
+Sound power level taken from 
+manufacturers specifications for 
+the indicative units, supplied by 
+the project team. 
+Air conditioning 
+units  
+AC units would be used to cool 
+internal spaces within the data 
+centre office areas. 
+Indicative AC requirements are 
+20 units. These units would 
+operate 24 hours a day and 
+have been modelled on the data 
+centre roof shown in Figure 10 
+using the details in Table 23. 
+Sound power level taken from 
+manufacturers specifications for 
+the indicative units, supplied by 
+the project team. 
+Backup 
+generators 
+Backup generators would be 
+used to provide power to the 
+data centre in the event of loss 
+of mains power. 
+68 backup generators have 
+been modelled in three levels in 
+the west area of the site shown 
+in Figure 9 and Figure 10 using 
+the details in Table 23. 
+Backup generators would be 
+operated as detailed in 
+Section 4.2.2. 
+The generators would be 
+housed in custom built 
+containers with exhaust stacks 
+that terminate above roof level. 
+Design sound power levels 
+were supplied by the project 
+team based on manufacturers 
+specifications and indicative 
+attenuator and silencer designs 
+to meet the design sound power 
+levels. 
+Load bank 2 load banks will be used during 
+testing of backup generators. 
+The load banks are indicatively 
+located on the roof between the 
+generators and the equipment 
+platform, shown in Figure 10 
+using the details in Table 23.  
+The load banks would be 
+operated only during testing of 
+backup generators as detailed in 
+Section 4.2.2. 
+Sound power level taken from 
+manufacturers specifications for 
+the indicative load bank unit, 
+supplied by the project team. 
+[[page 47]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 46  
+ 
+Category Noise Source Usage Reference for Noise Data 
+Substation Substation 
+transformers 
+A substation is proposed to be 
+built in the northern area of the 
+site during construction of 
+Stage 2 of the development 
+(subject to separate authority 
+approval). 
+2 substation transformers have 
+indicatively been modelled in the 
+substation area with 8 m fire 
+walls shown in Figure 9 using 
+the details in Table 24. 
+The substation has been 
+included to estimate cumulative 
+impacts with the data centre. 
+Indicative sound power level 
+supplied by the project team. 
+ 
+4.2.4 Corrections for Annoying Noise Characteristics 
+The potential annoying noise characteristics and modifying factor corrections relevant to the 
+proposal are:  
+• Tonality – the only source identified with potential tonal characteristics is truck and 
+forklift reversing alarms. However, when considering broadband reversing alarms 
+have been recommended as a noise mitigation measure (see Section 7.2), it is 
+unlikely that this noise source would result in tonal noise impacts at the receivers and 
+no corrections have been applied. 
+• Low frequency noise – noise levels at residential receivers from development-
+related mechanical plant were analysed as per the requirements of the NPfI and are 
+not expected to result in low frequency noise impacts. No corrections have been 
+applied. 
+• Intermittent noise – the NPfI defines intermittent noise as noise heard at the 
+receiver where the level suddenly drops or increases several times during the 
+assessment period, with a noticeable change of at least 5 dB. The intermittent 
+correction does not apply to short-term events that emerge above the general 
+industrial noise level and is therefore not applicable to industrial or commercial sites 
+that have vehicle or plant movements at night, including audible reversing alarms. 
+While testing of the backup generators may be intermittent, the testing is only 
+undertaken during the daytime when no correction is applicable. No other sources 
+have been identified with potential intermittent characteristics. 
+4.2.5 Noise Sources with Potential for Sleep Disturbance 
+As the development is proposed to operate 24-hours a day, noise emissions during the 
+night-time require assessment for potential sleep disturbance at the nearest residential 
+receivers. The details of typical activities with the potential to cause sleep disturbance are 
+shown in Table 28.  
+The various sources have been modelled in the car parking area and light vehicle access 
+(see Figure 9). It is noted that truck movements and loading dock operations are not 
+proposed during the night-time period.  
+[[page 48]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 47  
+ 
+Table 28 Sleep Disturbance Noise Events – LAmax Sound Power Levels  
+Noise Source Sound Power Level LAmax (dBA) 
+Light vehicle movement and parking 100 
+4.2.6 Off-site Road Traffic  
+Access to/from the site would be via McCredie Road and Sturt Street to the Cumberland 
+Highway. There are no residential receivers between the site and Cumberland Highway. 
+Daytime and night-time vehicle movements from the proposed development have been 
+provided by the projects traffic consultant. Vehicle movements for the ultimate development 
+(Stage 1 and Stage 2) are proposed to be around 199 vehicles during the daytime (7am to 
+10pm) and 32 vehicles during the night-time, with around 6% heavy vehicles during the day, 
+and no heavy vehicles during the night. 
+At this stage of the project existing 24-hour traffic volumes are not available for the access 
+route to the development. AM and PM peak volumes are available for McCredie Road, Sturt 
+Street and Cumberland Highway. Peak vehicle volumes on McCredie Road and Sturt Street 
+are around 630 to 1,140 vehicles during the AM and PM peak 1-hour periods, with around 
+23% to 36% heavy vehicles. Peak vehicle volumes on Cumberland Highway are around 
+3,700 to 4,700 vehicles during the AM and PM peak 1-hour periods, with around 8% to 11% 
+heavy vehicles. 
+The potential noise impacts from additional traffic have been assessed based on the above 
+traffic data.  
+4.2.7 Weather Conditions 
+Fact Sheet D of the NPfI requires noise assessments to consider the potential effects of 
+noise-enhancing weather conditions, such as wind from the source to the receiver and/or 
+temperature inversions. 
+The nearest sensitive receivers are within 400 m of the proposal site and the effects of 
+weather on noise levels are expected to be minimal due to the minimal source to receiver 
+distance. Notwithstanding, the noise prediction modelling uses ISO 9613-2 algorithms which 
+include noise-enhancing weather conditions including downwind propagation, or 
+equivalently, propagation under a well-developed moderate ground-based temperature 
+inversion.  
+As such, the assessment has conservatively applied noise-enhancing weather conditions for 
+all periods as per Option 1 of Fact Sheet D of the NPfI. 
+  
+[[page 49]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 48  
+ 
+5.0 Assessment of Impacts 
+5.1 Construction Noise 
+5.1.1 Stage 1 
+The predicted noise levels during Stage 1 construction works at the most-affected sensitive 
+receivers surrounding the site are shown in Table 29 and exceedances of the NMLs are 
+shown in Table 30. 
+The predictions represent a realistic worst-case scenario where the equipment in each 
+scenario is working concurrently at the nearest location to each receiver. It is expected that 
+noise levels would frequently be lower than the worst-case levels presented. 
+Construction of the facility will be during the recommended standard hours: Monday to 
+Friday 7 am to 6 pm Saturday 8 am to 1 pm No work on Sundays or public holidays. 
+Construction outside recommended standard hours will be managed in accordance with the 
+out-of-hours works protocol in a Construction Noise and Vibration Management Plan 
+(CNVMP) prepared prior to commencement of construction. 
+Table 29 Predicted Construction Noise Levels – Standard Daytime Construction 
+Hours – Stage 1 Works 
+NCA Receiver Type NML Predicted Noise Level – LAeq(15minute) (dBA) 
+W.01  
+Vegetation clearing 
+W.02  
+Earthworks 
+W.03  
+Excavation of hard rock 
+W.04  
+Construction of pads  
+& hardstands 
+W.05  
+Construction of structures 
+ & equipment installation 
+NCA01 Residential 55 63 60 67 54 55 
+NCA02 Residential 54 67 64 71 58 59 
+NCA03 Active recreation 65 73 70 77 64 65 
+NCA04 Industrial 75 81 78 85 72 73 
+Note 1: Bold red indicates an exceedance of the Highly Noise Affected NML. 
+[[page 50]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 49  
+ 
+Table 30 Predicted Exceedance at Nearest Receivers – Standard Daytime 
+Construction Hours – Stage 1 Works 
+NCA Receiver Type NML Predicted Exceedance – LAeq(15minute) (dBA) 
+W.01  
+Vegetation clearing 
+W.02  
+Earthworks 
+W.03  
+Excavation of hard rock 
+W.04  
+Construction of pads  
+& hardstands 
+W.05  
+Construction of structures 
+ & equipment installation 
+NCA01 Residential 55 8 5 12 - - 
+NCA02 Residential 54 13 10 17 4 5 
+NCA03 Active recreation 65 8 5 12 - - 
+NCA04 Industrial 75 6 3 10 - - 
+Legend (NML 
+exceedances) 
+ = Minor to marginal  
+(1 to 10 dB) 
+ = Moderate 
+(11 to 20 dB) 
+ = High 
+(>20 dB) 
+The above worst-case predictions show the following: 
+• Construction noise levels during W.01 (vegetation clearing) are predicted to result in 
+minor exceedances of the NMLs at the nearest receivers in NCA01, NCA03 and 
+NCA04, and minor to moderate exceedances at the nearest receivers in NCA02. 
+• Construction noise levels during W.02 (earthworks) are predicted to result in minor 
+exceedances of the NMLs at the nearest receivers in NCA01, NCA02, NCA03 and 
+NCA04. 
+• Construction noise levels during W.03 (excavation of hard rock) are predicted to 
+result in minor to moderate exceedances of the NMLs at the nearest receivers in 
+NCA01, NCA02 and NCA03, and minor exceedances at the nearest receivers in 
+NCA04. 
+• Construction noise levels during W.04 (construction of pads and hardstands) and 
+W.05 (construction of structures and equipment installation) are predicted to result in 
+minor exceedances of the NMLs in NCA02, and be below the NMLs at the nearest 
+receivers in NCA01, NCA03 and NCA04.  
+• The highest impacts are predicted during ‘vegetation clearing’ when a 
+chainsaw/chipper is in use close to receivers, and during ‘excavation of hard rock’ 
+when a rockbreaker is in use close to receivers. 
+• Noise levels at residential receivers are not predicted to exceed the Highly Noise 
+Affected NML during the assessed works. 
+• Works would only occur during Standard Daytime Construction Hours. There is no 
+expectation that evening or night-time work would be required. 
+The presented impacts would only be expected to occur when noisy work is being completed 
+close to the site boundaries, relative to each receiver. When work is further from the 
+receiver, or when less noise-intensive equipment is being used, the noise levels and 
+potential impacts would be lower.  
+[[page 51]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 50  
+ 
+Feasible and reasonable construction noise mitigation measures should be applied where 
+exceedances of the NMLs are predicted. Construction noise mitigation and management 
+measures are discussed in Section 7.1. 
+5.1.2 Stage 2 
+Stage 2 construction works would be confined to the southern area of the site after the 
+Stage 1 data centre has been constructed. W.01 (vegetation clearing) is not applicable to the 
+Stage 2 works. The predicted noise levels during Stage 2 construction works at the most-
+affected sensitive receivers surrounding the site are shown in Table 31 and exceedances of 
+the NMLs are shown in Table 32. 
+The predictions represent a realistic worst-case scenario where the equipment in each 
+scenario is working concurrently at the nearest location to each receiver. It is expected that 
+noise levels would frequently be lower than the worst-case levels presented. 
+Construction of the facility will be during the recommended standard hours: Monday to 
+Friday 7 am to 6 pm Saturday 8 am to 1 pm No work on Sundays or public holidays. 
+Construction outside recommended standard hours will be managed in accordance with the 
+out-of-hours works protocol in a Construction Noise and Vibration Management Plan 
+(CNVMP) prepared prior to commencement of construction. 
+Table 31 Predicted Construction Noise Levels – Standard Daytime Construction 
+Hours – Stage 2 Works 
+NCA Receiver Type NML Predicted Noise Level – LAeq(15minute) (dBA) 
+W.02  
+Earthworks 
+W.03  
+Excavation of hard rock 
+W.04  
+Construction of pads  
+& hardstands 
+W.05  
+Construction of structures 
+ & equipment installation 
+NCA01 Residential 55 54 61 48 49 
+NCA02 Residential 54 64 71 58 59 
+NCA03 Active recreation 65 69 76 63 64 
+NCA04 Industrial 75 78 85 72 73 
+Note 1: Bold red indicates an exceedance of the Highly Noise Affected NML. 
+[[page 52]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 51  
+ 
+Table 32 Predicted Exceedance at Nearest Receivers – Standard Daytime 
+Construction Hours – Stage 2 Works 
+NCA Receiver Type NML Predicted Exceedance – LAeq(15minute) (dBA) 
+W.02  
+Earthworks 
+W.03  
+Excavation of hard rock 
+W.04  
+Construction of pads  
+& hardstands 
+W.05  
+Construction of structures 
+ & equipment installation 
+NCA01 Residential 55 - 6 - - 
+NCA02 Residential 54 10 17 4 5 
+NCA03 Active recreation 65 4 11 - - 
+NCA04 Industrial 75 3 10 - - 
+Legend (NML 
+exceedances) 
+ = Minor to marginal  
+(1 to 10 dB) 
+ = Moderate 
+(11 to 20 dB) 
+ = High 
+(>20 dB) 
+The above worst-case predictions show the following: 
+• Construction noise levels during W.02 (earthworks) are predicted to result in minor 
+exceedances of the NMLs at the nearest receivers in NCA02, NCA03 and NCA04. 
+• Construction noise levels during W.03 (excavation of hard rock) are predicted to 
+result in minor to moderate exceedances of the NMLs at the nearest receivers in 
+NCA02 and NCA03, and minor exceedances at the nearest receivers in NCA01 and 
+NCA04. 
+• Construction noise levels during W.04 (construction of pads and hardstands) and 
+W.05 (construction of structures and equipment installation) are predicted to result in 
+minor exceedances of the NMLs in NCA02, and be below the NMLs at the nearest 
+receivers in NCA01, NCA03 and NCA04.  
+• The highest impacts are predicted during during ‘excavation of hard rock’ when a 
+rockbreaker is in use close to receivers. 
+• Noise levels at residential receivers are not predicted to exceed the Highly Noise 
+Affected NML during the assessed works. 
+• Works would only occur during Standard Daytime Construction Hours. There is no 
+expectation that evening or night-time work would be required. 
+The presented impacts would only be expected to occur when noisy work is being completed 
+close to the site boundaries, relative to each receiver. When work is further from the 
+receiver, or when less noise-intensive equipment is being used, the noise levels and 
+potential impacts would be lower.  
+Feasible and reasonable construction noise mitigation measures should be applied where 
+exceedances of the NMLs are predicted. Construction noise mitigation and management 
+measures are discussed in Section 7.1. 
+[[page 53]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 52  
+ 
+5.2 Construction Vibration 
+5.2.1 Stage 1 
+The major potential sources of vibration from the proposed construction activities for Stage 1 
+would likely be during: 
+• ‘Earthworks’ when vibratory rollers are being used  
+• ‘Excavation of hard rock’ when rockbreakers are being used. 
+Vibration offset distances have been determined from the CNVG minimum working 
+distances for cosmetic damage and human comfort (see Table 11) and the assessment is 
+summarised in Figure 11 for the potential worst-case scenario, which is during the use of a 
+large vibratory roller. Buildings within the minimum working distances are highlighted in the 
+figure. 
+Cosmetic Damage Assessment  
+Figure 11 indicates that the nearest industrial buildings to the west, north and east are 
+potentially within the minimum working distance when vibratory rollers are in use at the 
+boundaries of the construction site. Additionally, any structures within the easement in the 
+northern area of the site are likely within the minimum working distance when vibration 
+intensive plant is used nearby.  
+Some ancillary structures at the Guildford West Sports Ground to the east may also be 
+within the minimum working distance when vibratory rollers are in use at the boundaries of 
+the construction site.  
+All residential buildings are sufficiently distant from the site to be outside the minimum 
+working distance and cosmetic damage impacts at these receivers are unlikely. 
+Feasible and reasonable construction vibration mitigation measures should be applied where 
+vibration-intensive works are required within the minimum working distances. Construction 
+mitigation and management measures are discussed further in Section 7.1. 
+Human Comfort Vibration Assessment 
+Figure 11 indicates that the nearest industrial receivers surrounding the site are within the 
+human comfort minimum working distance and occupants of these buildings may be able to 
+perceive vibration impacts at times when vibratory rollers or rockbreakers are in use nearby. 
+Where impacts are perceptible, they would likely only be apparent for relatively short 
+durations when vibration-intensive equipment is in use.  
+Areas of the Guildford West Sports Ground to the east are likely within the minimum working 
+distance when vibratory rollers are in use at the boundaries of the construction site. 
+All residential buildings are sufficiently distant from the site to be outside the minimum 
+working distance and human comfort impacts at these receivers are unlikely. 
+Feasible and reasonable construction vibration mitigation measures should be applied where 
+vibration-intensive works are required within the minimum working distances. Construction 
+mitigation and management measures are discussed further in Section 7.1. 
+ 
+[[page 54]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 53  
+ 
+Figure 11 Construction Vibration – Large Vibratory Roller – Stage 1 Works 
+ 
+  
+
+[[page 55]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 54  
+ 
+5.2.2 Stage 2 
+The major potential sources of vibration from the proposed construction activities for Stage 2 
+would likely be during: 
+• ‘Earthworks’ when vibratory rollers are being used  
+• ‘Excavation of hard rock’ when rockbreakers are being used. 
+Vibration offset distances have been determined from the CNVG minimum working 
+distances for cosmetic damage and human comfort (see Table 11) and the assessment is 
+summarised in Figure 12 for the potential worst-case scenario, which is during the use of a 
+large vibratory roller. Buildings within the minimum working distances are highlighted in the 
+figure. 
+Cosmetic Damage Assessment  
+Figure 12 indicates that the nearest industrial buildings to the west are potentially within the 
+minimum working distance when vibratory rollers are in use at the boundaries of the 
+construction site. Additionally, the Stage 1 development is likely within the minimum working 
+distance when vibration intensive plant is used nearby.  
+Some ancillary structures at the Guildford West Sports Ground to the east may also be 
+within the minimum working distance when vibratory rollers are in use at the boundaries of 
+the construction site.  
+All residential buildings are sufficiently distant from the site to be outside the minimum 
+working distance and cosmetic damage impacts at these receivers are unlikely. 
+Feasible and reasonable construction vibration mitigation measures should be applied where 
+vibration-intensive works are required within the minimum working distances. Construction 
+mitigation and management measures are discussed further in Section 7.1. 
+Human Comfort Vibration Assessment 
+Figure 12 indicates that the nearest industrial receivers to the west, along with the Stage 1 
+development, are within the human comfort minimum working distance and occupants of 
+these buildings may be able to perceive vibration impacts at times when vibratory rollers or 
+rockbreakers are in use nearby. Where impacts are perceptible, they would likely only be 
+apparent for relatively short durations when vibration-intensive equipment is in use.  
+Areas of the Guildford West Sports Ground to the east are likely within the minimum working 
+distance when vibratory rollers are in use at the boundaries of the construction site. 
+All residential buildings are sufficiently distant from the site to be outside the minimum 
+working distance and human comfort impacts at these receivers are unlikely. 
+Feasible and reasonable construction vibration mitigation measures should be applied where 
+vibration-intensive works are required within the minimum working distances. Construction 
+mitigation and management measures are discussed further in Section 7.1. 
+ 
+[[page 56]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 55  
+ 
+Figure 12 Construction Vibration – Large Vibratory Roller – Stage 2 Works 
+ 
+  
+
+[[page 57]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 56  
+ 
+5.3 Operational Noise 
+5.3.1 Predicted Noise Levels – Ultimate Development (Stage 1 and Stage 2) 
+A summary of the operational noise assessment from the ultimate development (Stage 1 
+and Stage 2) at the receivers surrounding the proposal is shown in Table 33. Impacts have 
+been predicted at all floors of the receivers.  
+The predicted levels are compared to the Project Noise Trigger Levels to determine the 
+potential impact from the proposal.  
+Table 33 Operational Noise Assessment – Ultimate Development 
+NCA Receiver Type Period Predicted Noise Level LAeq(15minute) 
+(dBA)3 
+Compliance 
+Noise 
+Criteria 
+OP.011 OP.022 
+NCA01 Residential Day 50 40 46 Yes 
+Evening 43 38 - Yes 
+Night 38 38 - Yes 
+NCA02 Residential Day 49 37 49 Yes 
+Evening 43 37 - Yes 
+Night 38 37 - Yes 
+NCA03 Active recreation When in use 53 46 48 Yes 
+NCA04 Industrial When in use 68 57 67 Yes 
+Note 1: OP.01 – Normal Operations. 
+Note 2: OP.02 – Maintenance/Testing Operations. 
+Note 3: A 3 dB safety factor has been added to the predicted noise levels. This safety factor represents an 
+allowance for potential uncertainty and increased noise emissions from the proposal that may occur 
+due to selection of different mechanical plant units, increases to cooling tower noise due to variable 
+frequency drives, additional minor external mechanical plant that is not known at this stage, or other 
+minor modifications to noise sources utilised on the site.  
+ 
+The above assessment indicates that noise from the proposal is predicted to comply with the 
+PNTLs during both OP.01 (typical operations) and OP.02 (testing of backup generators). 
+The details of the mechanical plant used in this assessment are indicative, including the unit 
+types, sound power levels, number of units and locations of equipment. All mechanical plant 
+items should be reviewed during later acoustic assessments during the detailed design 
+stage of the project to confirm compliance with the PNTLs. It is expected that compliance is 
+achievable through a combination of appropriate mechanical plant selection, orientation, 
+position and screening, where appropriate. 
+A detailed investigation of all potential feasible and reasonable mitigation measures is 
+provided in Section 7.2.  
+Noise contours of the predicted operational noise impacts are in Appendix D. 
+[[page 58]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 57  
+ 
+5.3.2 Predicted Noise Levels – Stage 1 Development 
+A summary of the operational noise assessment for the interim Stage 1 development at the 
+receivers surrounding the proposal is shown in Table 34. Impacts have been predicted at all 
+floors of the receivers.  
+The predicted levels are compared to the Project Noise Trigger Levels to determine the 
+potential impact from the proposal.  
+Table 34 Operational Noise Assessment – Stage 1 Development 
+NCA Receiver Type Period Predicted Noise Level LAeq(15minute) 
+(dBA)3 
+Compliance 
+Noise 
+Criteria 
+OP.011 OP.022 
+NCA01 Residential Day 50 39 45 Yes 
+Evening 43 38 - Yes 
+Night 38 38 - Yes 
+NCA02 Residential Day 49 34 48 Yes 
+Evening 43 34 - Yes 
+Night 38 34 - Yes 
+NCA03 Active recreation When in use 53 46 48 Yes 
+NCA04 Industrial When in use 68 57 67 Yes 
+Note 1: OP.01 – Normal Operations. 
+Note 2: OP.02 – Maintenance/Testing Operations. 
+Note 3: A 3 dB safety factor has been added to the predicted noise levels. This safety factor represents an 
+allowance for potential uncertainty and increased noise emissions from the proposal that may occur 
+due to selection of different mechanical plant units, increases to cooling tower noise due to variable 
+frequency drives, additional minor external mechanical plant that is not know at this stage, or other 
+minor modifications to noise sources utilised on the site.  
+ 
+The above assessment indicates that noise from the proposal is predicted to comply with the 
+PNTLs during both OP.01 (typical operations) and OP.02 (testing of backup generators). 
+The details of the mechanical plant used in this assessment are indicative, including the unit 
+types, sound power levels, number of units and locations of equipment. All mechanical plant 
+items should be reviewed during later acoustic assessments during the detailed design 
+stage of the project to confirm compliance with the PNTLs. It is expected that compliance is 
+achievable through a combination of appropriate mechanical plant selection, orientation, 
+position and screening, where appropriate. 
+A detailed investigation of all potential feasible and reasonable mitigation measures is 
+provided in Section 7.2.  
+Noise contours of the predicted operational noise impacts are in Appendix D. 
+ 
+[[page 59]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 58  
+ 
+5.3.3 Sleep Disturbance 
+The predicted night-time maximum noise levels at the nearest residential receivers are 
+shown in Table 35. These include the mitigation measures specified in Section 7.2.  
+The predictions include noise-enhancing weather conditions as discussed in Section 4.2.7.   
+Table 35 Sleep Disturbance Assessment 
+NCA Receiver Type Source Maximum Noise Level LAmax (dBA)1 Below 
+Screening 
+Level Sleep Dist. 
+Screening Level 
+Predicted Exceedance 
+NCA01 Residential Light vehicle 
+movements 
+and parking 
+53 49 - Yes 
+NCA02 Residential Light vehicle 
+movements 
+and parking 
+59 28 - Yes 
+Note 1: Higher of Stage 1 or Stage 2 development impacts shown. 
+The above shows that maximum noise levels are predicted to comply with the sleep 
+disturbance screening level at the nearest residential receivers. As such, maximum noise 
+levels from the development are unlikely to result in sleep disturbance at these receivers and 
+a detailed maximum noise level assessment is not required. 
+5.3.4 Off-site Traffic Assessment 
+As noted in Section 4.2.6, there are no residential receivers along the access route between 
+the site on McCredie Road and the Cumberland Highway.  
+Comparison of the proposed development traffic to the available existing traffic on the 
+access route shows minimal increase in traffic volumes. As such, the predicted change in 
+road noise levels from development-related vehicles is expected to be below 2.0 dB. 
+Increases of less than 2.0 dB are considered minor and not perceptible to the average 
+person. 
+The potential impacts from development-related traffic on the surrounding roads are 
+expected to be negligible and no consideration of mitigation is required. 
+  
+[[page 60]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 59  
+ 
+6.0 Cumulative Impacts 
+The NSW Government Cumulative Impact Assessment Guidelines for State Significant 
+Projects requires that the potential combined effect of cumulative impacts on all nearby 
+industrial developments to be considered when assessing potential noise impacts from state 
+significant projects.  
+Cumulative impacts can be caused by the compounding effects of multiple projects in an 
+area, and by the accumulation of effects from past, current and future activities as they arise.  
+6.1 Construction Noise 
+Cumulative construction noise impacts can occur where multiple work activities are being 
+completed near to a particular receiver at the same time.  
+The construction work associated with the proposal has the possibility of interacting with the 
+construction activities of other nearby projects.  
+Should other projects be approved in the area there is potential for cumulative construction 
+impacts if they are constructed at the same time as the proposal, however this would be 
+addressed in their respective Construction Noise and Vibration Management Plans.  
+Since construction scenarios and equipment for projects in the area would generally require 
+similar items of equipment to the proposal, concurrent construction work could theoretically 
+increase the worst-case noise levels in this report by around 3 dB (ie a logarithmic adding of 
+two sources of noise at the same level). The likelihood of worst-case noise levels at any 
+individual receiver being generated by works on different projects at the same time is, 
+however, considered low.  
+As such, cumulative construction impacts are not likely to significantly alter the predictions in 
+this report and no specific mitigation is expected to be required.  
+The potential cumulative impacts from the proposal and other projects would continue to be 
+considered as the project progresses when detailed construction planning is developed.  
+6.2 Operational Noise  
+The Noise Policy for Industry states that it aims to limit continuing increases in cumulative 
+industrial noise through the application of amenity noise levels, which are applicable to all 
+industrial noise sources in an area.  
+The policy accounts for potential cumulative impacts by lowering the criteria for each 
+individual development to ensure that the ambient noise level within an area from all 
+industrial noise sources combined remains below the recommended amenity noise levels, 
+where feasible and reasonable. As such (as discussed in Section 3.3.2), the potential 
+cumulative impacts from the proposal and other potential sources of industrial noise in the 
+area are accounted for in the proposal-specific PNTLs and, therefore, do not require further 
+consideration. 
+ 
+  
+[[page 61]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 60  
+ 
+7.0 Mitigation and Management Measures 
+7.1 Construction Impacts 
+The impacts during construction of the proposal are predicted to be consistent with major 
+construction work near sensitive receivers. No works outside of Standard Construction 
+Hours are currently proposed.  
+The use of standard mitigation measures to minimise the impacts is considered sufficient to 
+control the majority of the impacts. Examples of measures that could be applied to the work 
+are provided in the Transport for NSW Construction Noise and Vibration Guideline (see 
+Appendix E). 
+Construction impacts are expected to remain during certain work activities at the nearest 
+sensitive receivers even with the implementation of all feasible and reasonable mitigation 
+measures. 
+A Construction Noise and Vibration Management Plan (CNVMP) would be prepared before 
+any work begins. This would identify all potentially impacted receivers, assess the potential 
+noise and vibration impacts from the proposal and provide details regarding how the impacts 
+would be minimised through the use of all feasible and reasonable mitigation measures. The 
+CNVMP would also contain procedures for handling complaints, should they occur, and 
+detail any compliance monitoring requirements.  
+7.2 Operational Noise Impacts 
+Where operational noise impacts from the development are predicted to exceed the relevant 
+noise criteria, feasible and reasonable operational noise mitigation and management 
+measures should be considered, with the aim of reducing noise emissions to the relevant 
+criteria.  
+The typical hierarchy for mitigation and management of industrial noise sources is as 
+follows: 
+• Reducing noise emissions at the source (ie noise source control) 
+• Reducing noise in transmission to the receiver (ie noise path control) 
+• Reducing noise at the receiver (ie at-receiver control). 
+A detailed assessment of potential feasible and reasonable mitigation measures that can be 
+applied to the development to minimise the operational noise impacts has been completed 
+and is summarised in Table 36. The applicable measures have been included in the noise 
+model and the assessment results in this report. 
+The measures should be regarded as indicative and would be further refined during detailed 
+design and in an Operational Noise Management Plan when the specific tenants operations 
+are known. 
+[[page 62]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 61  
+ 
+Table 36 Operational Noise Mitigation Options 
+Ref. Mitigation Option Noise Impact/Benefit Feasible and Reasonable to Apply 
+Source Control 
+S1 Optimised site layout 
+to minimise noise 
+emissions from the 
+site 
+Where possible, the site layout 
+has been designed so that the 
+buildings screen the noisier 
+areas of the development from 
+the nearest receivers, such as 
+locating the loading dock on 
+the northern side of the 
+building so it doesn’t face 
+receivers to the south, and 
+locating the generators on the 
+western side so they don’t face 
+the playing fields. 
+Yes – applied during design of the 
+concept.  
+S2 Limit vehicle 
+movements 
+A reduction in concurrent 
+vehicle movements across the 
+site by staggering 
+delivery/pickup times and/or 
+employee shift change times 
+could reduce noise emissions. 
+In practice, this would occur 
+naturally due to operational 
+requirements.  
+No – vehicle volumes used in this 
+assessment are likely needed to 
+meet tenant’s requirements.  
+Additionally, vehicle movements are 
+not a dominant contributor to noise 
+emissions from the site. 
+S3 Use broadband 
+and/or ambient 
+sensing alarms on 
+heavy vehicles 
+where they are 
+required to reverse 
+during the night-time. 
+Reduce potential for annoying 
+noise emissions during the 
+night-time. 
+Yes – encourage use of broadband 
+and/or ambient sensing alarms on 
+heavy vehicles and forklifts where 
+they are required to reverse during 
+the night-time. 
+S4 Appropriate 
+specification and 
+location of 
+mechanical plant 
+during detailed 
+design. 
+Reduce potential for noise 
+impacts from mechanical plant, 
+particularly during the night-
+time. 
+Yes – the indicative mechanical 
+plant units have been selected to 
+minimise noise impacts from 
+mechanical plant.  
+The noise impacts from all items of 
+mechanical plant would be reviewed 
+during detailed design stage to 
+confirm unit selections and any 
+mitigation requirements. 
+ 
+S5 Roller doors kept 
+closed when 
+loading/unloading is 
+not occurring. 
+Reduce potential for noise 
+breakout from internal activity. 
+Yes – roller doors should be kept 
+closed when not in use for 
+loading/unloading. 
+[[page 63]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 62  
+ 
+Ref. Mitigation Option Noise Impact/Benefit Feasible and Reasonable to Apply 
+S6 Production of an 
+Operational Noise 
+Management Plan. 
+This would detail the measures 
+that could be used by the 
+various tenants to minimise 
+general noise emissions from 
+the site. Reference can be 
+made to the Best Management 
+Practice (BMP) measures 
+listed in the NPfI (see 
+Appendix F). 
+Yes – the ONMP would detail any 
+operational requirements for the 
+development. 
+Path Control 
+P1 Acoustic Screening Construction of acoustic 
+screening has been 
+incorporated into the design of 
+the roof layout (see Section 
+4.2.1.1) to mitigate noise from 
+the rooftop mechanical plant. 
+Yes – an indicative combination of 
+solid screening and acoustics 
+louvres on the rooftop has been 
+incorporated into the building design. 
+Any acoustic louvred areas would 
+indicatively use IAC Acoustics 
+Noishield Model LP acoustic louvres 
+or similar (manufacturer data sheet 
+supplied by the project team). Note 
+that not all louvres are specified as 
+acoustic louvres. 
+The design, extent, model and 
+requirements for acoustic screening 
+would be confirmed during the 
+detailed design stage of the project. 
+Receiver Control 
+R1 Not considered 
+required 
+n/a n/a 
+ 
+The proposal does not have tenants committed and the exact operational procedures of the 
+site are not known at the time of this assessment. Several assumptions have been made 
+regarding the likely future uses and sources of noise. The noise predictions in this report 
+represent the expected peak operational noise emissions based on currently available 
+information for planning purposes and will be reviewed at a later stage when detailed 
+information is available. 
+  
+[[page 64]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ 63  
+ 
+8.0 Conclusion 
+SLR has been engaged to assess the potential construction and operational noise emissions 
+from the proposed development at 132 McCredie Road, Guildford West. The proposal 
+includes the operation of a multi-storey data centre, which would be in use 24/7.  
+The potential impacts from the proposal have been assessed against the noise and vibration 
+specific Secretary’s Environmental Assessment Requirements. 
+Minor to moderate exceedances of the construction noise management levels are predicted 
+at the nearest sensitive receivers during some of the noisier scenarios, particularly when 
+noise-intensive items of equipment, such as rockbreakers, are in use. No residential 
+receivers are predicted to be highly noise affected during construction works. Construction 
+noise levels are generally expected to comply with the management levels when noisy 
+equipment is not in use and at receivers further back from the first row (ie receivers without 
+direct line of sight to the works). Mitigation measures have been recommended to address 
+the potential construction impacts.  
+The operational noise assessment indicates that with the inclusion of the proposed 
+mitigation outlined in this report, operational noise levels are expected to comply with the 
+trigger levels at the nearest receivers. The potential operational impacts and requirements 
+for mitigation would be confirmed during further acoustic assessments completed during 
+detailed design when tenant requirements are known. 
+Based on the predicted levels and indicative mitigation measures, the proposal is considered 
+appropriate from an acoustic standpoint.  
+ 
+[[page 65]]
+ 
+ 
+Appendix A Acoustic Terminolgy  
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+ 
+[[page 66]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ A-1  
+ 
+1. Sound Level or Noise Level 
+The terms ‘sound’ and ‘noise’ are almost 
+interchangeable, except that ‘noise’ often refers to 
+unwanted sound. 
+Sound (or noise) consists of minute fluctuations in 
+atmospheric pressure . The human ear responds to 
+changes in sound pressure over a very wide range with 
+the loudest sound pressure to which the human ear can 
+respond being ten million times greater than the softest. 
+The decibel (abbreviated as dB) scale reduces this ratio 
+to a more manageable size by the use of logarithms. 
+The symbols SPL, L or LP are commonly used to 
+represent Sound Pressure Level . The symbol LA 
+represents A -weighted Sound Pressure Level . The 
+standard reference unit for Sound Pressure Levels 
+expressed in decibels is 2 x 10-5 Pa. 
+2. ‘A’ Weighted Sound Pressure Level 
+The overall level of a sound is usually expressed in 
+terms of dBA, which is measured using a sound level 
+meter with an ‘A -weighting’ filter. This is an electronic 
+filter having a frequency response corresponding 
+approximately to that of human hearing. 
+People’s hearing is most sensitive to sounds at mid 
+frequencies (500 Hz to 4,000 Hz), and less sensitive at 
+lower and higher frequencies. Different sources having 
+the same dBA level generally sound about equally loud. 
+A change of 1  dB or 2  dB in the level of a sound is 
+difficult for most people to detect, whilst a 3  dB to 5 dB 
+change corresponds to a small but noticeable change in 
+loudness. A 10  dB change corresponds to an 
+approximate doubling or halving in loudness. The table 
+below lists examples of typical noise levels. 
+Sound  
+Pressure 
+Level 
+(dBA) 
+Typical  
+Source 
+Subjective 
+Evaluation 
+130 Threshold of pain Intolerable 
+120 Heavy rock concert Extremely 
+noisy 110 Grinding on steel 
+100 Loud car horn at 3 m Very noisy 
+90 Construction site 
+with pneumatic 
+hammering 
+80 Kerbside of busy 
+street 
+Loud 
+70 Loud radio or 
+television 
+60 Department store Moderate to 
+quiet 50 General Office 
+40 Inside private office Quiet to  
+very quiet 30 Inside bedroom 
+20 Recording studio Almost 
+silent 
+Other weightings (eg B, C and D) are less commonly 
+used than A-weighting. Sound Levels measured without 
+any weighting are referred to as ‘linear’, and the units 
+are expressed as dB(lin) or dB. 
+3. Sound Power Level 
+The Sound Power of a source is the rate at which it 
+emits acoustic energy. As with Sound Pressure Levels, 
+Sound Power Levels are expressed in decibel units (dB  
+ or dBA), but may be identified by the symbols SWL or LW, 
+or by the reference unit 10-12 W. 
+The relationship between Sound Power and Sound 
+Pressure is similar to the effect of an electric radiator, which 
+is characterised by a power rating but has an effect on the 
+surrounding environment that can be measured in terms of 
+a different parameter, temperature. 
+4. Statistical Noise Levels 
+Sounds that vary in level over time, such as road traffic 
+noise and most community noise, are commonly described 
+in terms of the statistical exceedance levels LAN, where 
+LAN is the A -weighted sound pressure level exceeded for 
+N% of a given measurement peri od. For example, the LA1 
+is the noise level exceeded for 1% of the time, LA10 the 
+noise exceeded for 10% of the time, and so on. 
+The following figure presents a hypothetical 15 minute noise 
+survey, illustrating various common statistical indices of 
+interest. 
+ 
+Of particular relevance, are: 
+LA1 The noise level exceeded for 1% of the 15  minute 
+interval. 
+LA10 The noise level exceeded for 10% of the 15  minute 
+interval. This is commonly referred to as the average 
+maximum noise level.  
+LA90 The noise level exceeded for 90% of the sample 
+period. This noise level is described as the average 
+minimum background sound level (in the absence of 
+the source under consideration), or simply the 
+background level. 
+LAeq The A-weighted equivalent noise level (basically, the 
+average noise level). It is defined as the steady sound 
+level that contains the same amount of acoustical 
+energy as the corresponding time-varying sound. 
+5. Frequency Analysis 
+Frequency analysis is the process used to examine the 
+tones (or frequency components) which make up the overall 
+noise or vibration signal.  
+The units for frequency are Hertz (Hz), which represent the 
+number of cycles per second. 
+Frequency analysis can be in: 
+• Octave bands (where the centre frequency and width of 
+each band is double the previous band) 
+• 1/3 octave bands (three bands in each octave band) 
+• Narrow band (where the spectrum is divided into 400 or 
+more bands of equal width) 
+
+[[page 67]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ A-2  
+ 
+The following figure shows a 1/3 octave band frequency 
+analysis where the noise is dominated by the 200  Hz 
+band. Note that the indicated level of each individual 
+band is less than the overall level, which is the 
+logarithmic sum of the bands. 
+ 
+6. Annoying Noise (Special Audible 
+Characteristics) 
+A louder noise will generally be more annoying to 
+nearby receivers than a quieter one. However, noise is 
+often also found to be more annoying and result in larger 
+impacts where the following characteristics are 
+apparent: 
+• Tonality - tonal noise contains one or more 
+prominent tones (ie differences in distinct frequency 
+components between adjoining octave or 1/3 octave 
+bands), and is normally regarded as more annoying 
+than ‘broad band’ noise.  
+• Impulsiveness - an impulsive noise is 
+characterised by one or more short sharp peaks in 
+the time domain, such as occurs during hammering. 
+• Intermittency - intermittent noise varies in level with 
+the change in level being clearly audible . An 
+example would include mechanical plant cycling on 
+and off.  
+• Low Frequency Noise  - low frequency noise 
+contains significant energy in the lower frequency 
+bands, which are typically taken to be in the 10 to 
+160 Hz region.  
+7. Vibration 
+Vibration may be defined as cyclic or transient motion . 
+This motion can be measured in terms of its 
+displacement, velocity or acceleration . Most 
+assessments of human response to vibration or the risk 
+of damage to buildings use measurements of vibration 
+velocity. These may be expressed in terms of ‘peak’ 
+velocity or ‘rms’ velocity. 
+The former is the maximum instantaneous velocity, 
+without any averaging, and is sometimes referred to as 
+‘peak particle velocity’, or PPV . The latter incorporates 
+‘root mean squared’ averaging over some defined time 
+period. 
+Vibration measurements may be carried out in a single 
+axis or alternatively as triaxial measurements (ie 
+vertical, longitudinal and transverse). 
+ 
+ The common units for velocity are millimetres per second 
+(mm/s). As with noise, decibel units can also be used, in 
+which case the reference level should always be stated . A 
+vibration level V, expressed in mm/s can be converted to 
+decibels by the formula 20  log (V/Vo), where Vo is the 
+reference level (10-9 m/s). Care is required in this regard, as 
+other reference levels may be used. 
+8. Human Perception of Vibration 
+People are able to ‘feel’ vibration at levels lower than those 
+required to cause even superficial damage to the most 
+susceptible classes of building (even though they may not be 
+disturbed by the motion). An individual's perception of motion 
+or response to vibration depends very strongly on previous 
+experience and expectations, and on other connotations 
+associated with the perceived source of the vibration . For 
+example, the vibration that a person responds to as ‘normal’ 
+in a car, bus or train is considerably higher than what is 
+perceived as ‘normal’ in a shop, office or dwelling. 
+9. Ground-borne Noise, Structure-borne Noise and 
+Regenerated Noise 
+Noise that propagates through a structure as vibration and is 
+radiated by vibrating wall and floor surfaces is termed 
+‘structure-borne noise’, ‘ground-borne noise’ or ‘regenerated 
+noise’. This noise originates as vibration and propagates 
+between the source and receiver through the ground and/or 
+building structural elements, rather than through the air. 
+Typical sources of ground -borne or structure -borne noise 
+include tunnelling works, underground railways, excavation 
+plant (eg rockbreakers), and building services plant (eg fans, 
+compressors and generators). 
+The following figure presents an example of the various paths 
+by which vibration and ground -borne noise may be 
+transmitted between a source and receiver for construction 
+activities occurring within a tunnel. 
+ 
+The term ‘regenerated noise’ is also used in other instances 
+where energy is converted to noise away from the primary 
+source. One example would be a fan blowing air through a 
+discharge grill . The fan is the energy source and primary 
+noise source . Additional noise may be created by the 
+aerodynamic effect of the discharge grill in the airstream . 
+This secondary noise is referred to as regenerated noise. 
+ 
+30
+40
+50
+60
+70
+80
+90
+125
+160
+200
+250
+315
+400
+500
+630
+800
+1000
+1250
+1600
+2000
+2500
+3150
+Overall
+1/3 Octave Band Centre Frequency (Hz)
+Sound Pressure Level (dBA)
+  
+[[page 68]]
+ 
+ 
+Appendix B Noise Monitoring Data 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+ 
+ 
+[[page 69]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-1  
+ 
+Unattended Noise Monitoring Data – NL01 
+Noise Monitoring Location NL01 
+Noise Monitoring Address 111-123 McCredie Road, Smithfield 
+Source Report “Connect@ Smithfield 132 McCredie Road, Smithfield, NSW - Noise and 
+Vibration Impact Assessment” prepared by RWDI, Report Reference 
+RWDI#2205605 Version B, dated 12 December 2022 (DA2022/0759 NVIA) 
+Logger Device Type: RION NL-52EX, Logger Serial No: n/a1 
+Unattended Noise Monitoring Date: 26/08/2022 - 7/09/2022 
+ 
+Ambient noise logger deployed at residential address 111-123 McCredie Road, Smithfield. Logger located in open space on 
+the western side of the dwelling.  
+ 
+Attended noise measurements were not supplied in the source report.  
+Ambient Noise Logging Results – ICNG Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+RBL LAeq L10 L1 
+Daytime 45 n/a1 n/a1 n/a1 
+Evening 41 n/a1 n/a1 n/a1 
+Night-time 38 n/a1 n/a1 n/a1 
+Attended Noise Measurement Results 
+Date Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+n/a1 n/a1 n/a1 n/a1 n/a1 
+Note 1: This data is not supplied in the source report for this location. 
+[[page 70]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-2  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+
+[[page 71]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-3  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+
+[[page 72]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-4  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+
+[[page 73]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-5  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+
+[[page 74]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-6  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+
+[[page 75]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-7  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+
+[[page 76]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-8  
+ 
+NL01 – 111-123 McCredie Road, Smithfield 
+ 
+ 
+
+[[page 77]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-9  
+ 
+Unattended Noise Monitoring Data – NL02 
+Noise Monitoring Location NL02 
+Noise Monitoring Address 55 Hemingway Crescent, Fairfield 
+Source Report “Connect@ Smithfield 132 McCredie Road, Smithfield, NSW - Noise and Vibration 
+Impact Assessment” prepared by RWDI, Report Reference RWDI#2205605 Version 
+B, dated 12 December 2022 (DA2022/0759 NVIA) 
+Logger Device Type: RION NL-52EX, Logger Serial No: n/a1 
+Unattended Noise Monitoring Date: 26/08/2022 - 7/09/2022 
+ 
+Ambient noise logger deployed at residential address 55 Hemingway Crescent, Smithfield. Logger located in clearing behind 
+the property.  
+ 
+Attended noise measurements were not supplied in the source report.  
+Ambient Noise Logging Results – ICNG Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+RBL LAeq L10 L1 
+Daytime 45 n/a1 n/a1 n/a1 
+Evening 46 n/a1 n/a1 n/a1 
+Night-time 48 n/a1 n/a1 n/a1 
+Attended Noise Measurement Results 
+Date Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+n/a1 n/a1 n/a1 n/a1 n/a1 
+Note 1: This data is not supplied in the source report for this location. 
+ 
+[[page 78]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-10  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+
+[[page 79]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-11  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+
+[[page 80]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-12  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+
+[[page 81]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-13  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+
+[[page 82]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-14  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+
+[[page 83]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-15  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+
+[[page 84]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-16  
+ 
+NL02 – 55 Hemingway Crescent, Fairfield 
+ 
+ 
+
+[[page 85]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-17  
+ 
+Unattended Noise Monitoring Data – NL03 
+Noise Monitoring Location NL03 
+Noise Monitoring Address 38 Hemingway Crescent, Fairfield 
+Source Report “Smithfield Distribution Centre 149 McCredie Road, Smithfield – DA Noise Impact 
+Assessment” prepared by SLR, Report Reference 610.18295-R01-v2.1, dated 14 June 
+2019 (DA2018/347/1 NIA) 
+Logger Device Type: ARL 316, Logger Serial No: 16-306-040 
+Sound Level Meter Device Type: Brüel & Kjær Type 2260, Sound Level Meter Serial No: 2487418 
+Unattended Noise Monitoring Date: 25/07/2018 - 5/08/2018 
+ 
+Ambient noise logger deployed at residential address 38 Hemingway Crescent, Fairfield. Logger located in open space on 
+the north eastern side of the dwelling.  
+ 
+Attended noise measurements indicate the ambient noise environment at this location is dominated industrial noise 
+emanating from the northwest.  
+ 
+Measured Typical LAmax: Industrial noise: 48-50 dBA, Light vehicle traffic on Hemingway Crescent: up to 60 dBA,  
+Dog barking: 79 dBA. 
+Ambient Noise Logging Results – ICNG Defined Time Periods 
+Monitoring Period Noise Level (dBA) 
+RBL LAeq L10 L1 
+Daytime 45 52 53 59 
+Evening 46 51 52 56 
+Night-time 48 52 52 54 
+Attended Noise Measurement Results 
+Date Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+25/08/2018 16:52 48 51 79 
+ 
+[[page 86]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-18  
+ 
+ 
+ 
+NL03 
+NL03 
+[[page 87]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-19  
+ 
+ 
+ 
+NL03 
+NL03 
+[[page 88]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-20  
+ 
+ 
+ 
+NL03 
+NL03 
+[[page 89]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-21  
+ 
+ 
+ 
+NL03 
+NL03 
+[[page 90]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-22  
+ 
+ 
+ 
+NL03 
+NL03 
+[[page 91]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-23  
+ 
+ 
+ 
+ 
+NL03 
+NL03 
+[[page 92]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-24  
+ 
+Attended Noise Monitoring Data – 8 April 2025 
+Noise Monitoring Location NL01 
+Noise Monitoring Address 111-123 McCredie Road, Smithfield 
+Sound Level Meter Device Type: Brüel & Kjær Type 2250, Sound Level Meter Serial No: 3004635 
+ 
+Attended noise measurements undertaken on footpath adjacent to front yard of residence at 111-123 McCredie Road, 
+Smithfield. This location was closer to McCredie Road than the location of the unattended noise monitoring in 2022 due to 
+access restrictions. 
+ 
+Daytime Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by road traffic noise from 
+McCredie Road during the daytime. During the measurement there was generally a steady flow of light vehicles, with 
+intermittent heavy vehicles. 
+ 
+Measured Typical LAmax: Light vehicle traffic on McCredie Road: 51-80 dBA, Heavy vehicle traffic on McCredie Road:  
+60-86 dBA, Birds audible at times, Aircraft audible, Industrial noise was generally inaudible. 
+ 
+Evening Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by road traffic noise from 
+McCredie Road during the evening. During the measurement there was a steady flow of light vehicles, though slightly less 
+than the daytime measurement, with intermittent heavy vehicles. 
+ 
+Measured Typical LAmax: Light vehicle traffic on McCredie Road: 48-78 dBA, Heavy vehicle traffic on McCredie Road:  
+60-88 dBA, Birds audible at times, Aircraft audible, Industrial noise was generally inaudible. 
+ 
+Night-time Attended Measurement 
+Attended noise measurement was not able to be undertaken at this location due to adverse weather during the night-time. 
+Attended Noise Measurement Results 
+Date Period Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+8/04/2025 Daytime 17:38 58 72 86 
+8/04/2025 Evening 18:00 56 71 88 
+8/04/2025 Night-time n/a1 n/a1 n/a1 n/a1 
+Note 1: Night-time measurement at this location was not able to be undertaken due to adverse weather. 
+ 
+[[page 93]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-25  
+ 
+Noise Monitoring Location NL02 
+Noise Monitoring Address 55 Hemingway Crescent, Fairfield 
+Sound Level Meter Device Type: Brüel & Kjær Type 2250, Sound Level Meter Serial No: 3004635 
+ 
+Attended noise measurements undertaken in clearing behind 55 Hemingway Crescent, Fairfield, near the location of the 
+unattended noise monitoring in 2022. 
+ 
+Daytime Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by distant road traffic 
+noise during the daytime, including McCredie Road to the north, Fairfield Road to the east, The Horsley Drive to the south 
+and south west, and Cumberland Highway to the west and north west. Industrial noise such as heavy vehicle movements 
+and unloading activities contributed to the LAeq. 
+ 
+Measured Typical LAmax: Distant traffic noise (multiple directions): 40-44 dBA, Intermittent heavy vehicle and unloading noise 
+from industrial sites to the north and east: up to 50 dBA, Aircraft: 58 dBA, Helicopter: 51 dBA, Birds and insects: up to 
+55 dBA, Residential noise audible at times. 
+ 
+Evening Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by industrial noise during 
+the evening, mostly from the north. The industrial noise was generally a steady, low frequency rumble/hum, indicative of 
+mechanical plant, with some variance in manufacturing noise. 
+ 
+Measured Typical LAmax: Steady industrial noise/mechanical plant to the north: 43-45 dBA, Manufacturing noise to the north: 
+44-50 dBA, Intermittent heavy vehicle and unloading noise from industrial sites to the north and east: up to 50 dBA, Aircraft: 
+55 dBA, Birds and insects audible, Distant traffic was not audible over the industrial noise. 
+ 
+Night-time Attended Measurement 
+Attended noise measurement was not able to be undertaken at this location due to adverse weather during the night-time. 
+Attended Noise Measurement Results 
+Date Period Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+8/04/2025 Daytime 17:12 42 45 58 
+8/04/2025 Evening 21:05 44 46 55 
+8/04/2025 Night-time n/a1 n/a1 n/a1 n/a1 
+Note 1: Night-time measurement at this location was not able to be undertaken due to adverse weather. 
+ 
+[[page 94]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ B-26  
+ 
+Noise Monitoring Location NL03 
+Noise Monitoring Address 38 Hemingway Crescent, Fairfield 
+Sound Level Meter Device Type: Brüel & Kjær Type 2250, Sound Level Meter Serial No: 3004635 
+ 
+Attended noise measurements undertaken on footpath adjacent to front yard of residence at 38 Hemingway Crescent, 
+Fairfield, near the location of the unattended noise monitoring in 2018. 
+ 
+Daytime Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by distant road traffic 
+noise during the daytime, including McCredie Road to the north, Fairfield Road to the east, The Horsley Drive to the south 
+and south west, and Cumberland Highway to the west and north west. Traffic noise was slightly higher at NL03 than at NL02. 
+Industrial noise such as heavy vehicle movements and unloading activities contributed to the LAeq. 
+ 
+Measured Typical LAmax: Distant traffic noise (multiple directions): 41-45 dBA, Intermittent heavy vehicle and unloading noise 
+from industrial sites to the north and east: 50-55 dBA, Occasional light vehicle passby on Hemingway Crescent: up to 
+67 dBA, Aircraft: up to 61 dBA, Birds and insects audible, Residential noise audible at times. 
+ 
+Evening Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by industrial noise during 
+the evening, mostly from the north. The industrial noise was generally a steady, low frequency rumble/hum, indicative of 
+mechanical plant, with some variance in manufacturing noise. The industrial noise was higher at NL03 than at NL02. 
+ 
+Measured Typical LAmax: Steady industrial noise/mechanical plant to the north: 46-48 dBA, Manufacturing noise to the north: 
+47-52 dBA, Intermittent high frequency whirring from industrial plant audible, Intermittent heavy vehicle and unloading noise 
+from industrial sites to the north and east: up to 50 dBA, Aircraft: 54 dBA, Birds and insects audible, No vehicle passbys on 
+Hemingway Crescent during the measurement, Distant traffic was not audible over the industrial noise. 
+ 
+Night-time Attended Measurement 
+Attended noise measurements indicate the ambient noise environment at this location is dominated by industrial noise during 
+the night-time, mostly from the north. The industrial noise was generally a steady, low frequency rumble/hum, indicative of 
+mechanical plant, with some variance in manufacturing noise. Some manufacturing noise ceased part-way through the 
+measurement, and the steady rumble/hum reduced slightly. 
+ 
+Measured Typical LAmax: Steady industrial noise/mechanical plant to the north (reduced slightly part-way through 
+measurement): 43-48 dBA, Manufacturing noise to the north (ceased part-way through measurement): 47-52 dBA, 
+Intermittent high frequency whirring from industrial plant audible, Intermittent heavy vehicle and unloading noise from 
+industrial sites to the north and east: up to 49 dBA, Dog barking: 47 dBA, Birds and insects audible, Light vehicle passby on 
+Hemingway Crescent: 60 dBA, Distant traffic was audible at times after the industrial noise reduced slightly. 
+ 
+Attended Noise Measurement Results 
+Date Period Start Time Measured Noise Level (dBA) 
+LA90 LAeq LAmax 
+8/04/2025 Daytime 16:54 44 50 67 
+8/04/2025 Evening 21:23 47 48 54 
+8/04/2025 Night-time 22:00 44 46 60 
+ 
+ 
+[[page 95]]
+ 
+ 
+Appendix C Construction Noise 
+Sources 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+ 
+ 
+[[page 96]]
+Goodman Property Services (Aust) Pty 
+Ltd 
+Project Pluto – 132 McCredie Road, 
+Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-20250417.docx 
+ 
+ C-1  
+ 
+Equipment 
+Total SWL 
+Chainsaw1 
+Chipper 
+Concrete Pump 
+Concrete Truck 
+Concrete Vibrator 
+Crane - Mobile (100t) 
+Dozer 
+Elevated Working Platform 
+Excavator (20t) 
+Excavator (30t) + Hydraulic Hammer1 
+Front End Loader 
+Hand Tools 
+Roller - Vibratory1 
+Truck - Dump 
+Truck - Flatbed 
+Water Truck 
+Sound Power Level2  
+ 
+119 120 109 109 113 113 116 97 105 127 112 104 114 110 103 107 
+Estimated on-time in any 15 minutes 5 15 10 15 5 15 10 15 10 5 10 15 15 10 10 10 
+Scenario                 
+W.01 Vegetation clearing 122 X X       X  X   X  X 
+W.02 Earthworks 119       X  X  X  X X  X 
+W.03 Excavation of hard rock 126       X  X X X   X  X 
+W.04 Construction of pads, hardstands & ramps 113   X X X            
+W.05 Construction of structures & equip. installation 114      X  X    X   X  
+Note 1: Equipment classed as ‘annoying’ in the ICNG and requires a 5 dB correction. 
+Note 2: Sound power level data is taken from the DEFRA Noise Database, TfNSW Construction and Vibration Guideline and TfNSW Construction Noise and Vibration 
+Strategy. 
+[[page 97]]
+ 
+ 
+Appendix D Operational Noise 
+Contours 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+[[page 98]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-1  
+ 
+Predicted Operational Noise Contours – OP.01: Day – Ultimate Development – 
+1.5 m Height 
+ 
+Note 1: Noise contours calculated at 1.5 m above ground level. 
+
+[[page 99]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-2  
+ 
+Predicted Operational Noise Contours – OP.01: Night – Ultimate Development – 
+1.5 m Height 
+ 
+Note 1: Noise contours calculated at 1.5 m above ground level. 
+
+[[page 100]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-3  
+ 
+Predicted Operational Noise Contours – OP.02: Day + Generator Testing – Ultimate 
+Development – 1.5 m Height 
+ 
+Note 1: Noise contours calculated at 1.5 m above ground level. 
+
+[[page 101]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-4  
+ 
+Predicted Operational Noise Contours – OP.01: Day – Ultimate Development – 
+4.5 m Height 
+ 
+Note 1: Noise contours calculated at 4.5 m above ground level. 
+
+[[page 102]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-5  
+ 
+Predicted Operational Noise Contours – OP.01: Night – Ultimate Development – 
+4.5 m Height 
+ 
+Note 1: Noise contours calculated at 4.5 m above ground level. 
+
+[[page 103]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-6  
+ 
+Predicted Operational Noise Contours – OP.02: Day + Generator Testing – Ultimate 
+Development – 4.5 m Height 
+ 
+Note 1: Noise contours calculated at 4.5 m above ground level. 
+
+[[page 104]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-7  
+ 
+Predicted Operational Noise Contours – OP.01: Day – Stage 1 Development – 
+1.5 m Height 
+ 
+Note 1: Noise contours calculated at 1.5 m above ground level. 
+
+[[page 105]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-8  
+ 
+Predicted Operational Noise Contours – OP.01: Night – Stage 1 Development – 
+1.5 m Height 
+ 
+Note 1: Noise contours calculated at 1.5 m above ground level. 
+
+[[page 106]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-9  
+ 
+Predicted Operational Noise Contours – OP.02: Day + Generator Testing – Stage 1 
+Development – 1.5 m Height 
+ 
+Note 1: Noise contours calculated at 1.5 m above ground level. 
+
+[[page 107]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-10  
+ 
+Predicted Operational Noise Contours – OP.01: Day – Stage 1 Development – 
+4.5 m Height 
+ 
+Note 1: Noise contours calculated at 4.5 m above ground level. 
+
+[[page 108]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-11  
+ 
+Predicted Operational Noise Contours – OP.01: Night – Stage 1 Development – 
+4.5 m Height 
+ 
+Note 1: Noise contours calculated at 4.5 m above ground level. 
+
+[[page 109]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ D-12  
+ 
+Predicted Operational Noise Contours – OP.02: Day + Generator Testing – Stage 1 
+Development – 4.5 m Height 
+ 
+Note 1: Noise contours calculated at 4.5 m above ground level. 
+
+[[page 110]]
+ 
+ 
+Appendix E CNVG Mitigation 
+Measures 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+ 
+[[page 111]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ E-1  
+ 
+CNVG Standard Mitigation and Management Measures 
+Action 
+Required  
+Applies To Details 
+Management measures 
+Implementation 
+of any project 
+specific 
+mitigation 
+measures 
+required.  
+Airborne noise  Implementation of any project specific mitigation measures 
+required.  
+ 
+Implement 
+community 
+consultation or 
+notification 
+measures.  
+Airborne noise 
+Ground-borne 
+noise & vibration  
+Notification detailing work activities, dates and hours, impacts 
+and mitigation measures, indication of work schedule over the 
+night-time period, any operational noise benefits from the works 
+(where applicable) and contact telephone number.  
+Notification should be a minimum of 7 calendar days prior to the 
+start of works. For projects other than maintenance works more 
+advanced consultation or notification may be required. Please 
+contact Roads and Maritime Communication and Stakeholder 
+Engagement for guidance.  
+Website (If required)  
+Contact telephone number for community  
+Email distribution list (if required)  
+Community drop-in session (if required by approval conditions).  
+Site inductions  Airborne noise 
+Ground-borne 
+noise & vibration   
+All employees, contractors and subcontractors are to receive an 
+environmental induction. The induction must at least include:  
+• all project specific and relevant standard noise and vibration 
+mitigation measures  
+• relevant licence and approval conditions  
+• permissible hours of work  
+• any limitations on high noise generating activities  
+• location of nearest sensitive receivers  
+• construction employee parking areas  
+• designated loading/unloading areas and procedures  
+• site opening/closing times (including deliveries)  
+• environmental incident procedures.  
+Behavioural 
+practices  
+Airborne noise   No swearing or unnecessary shouting or loud stereos/radios on 
+site.  
+No dropping of materials from height, throwing of metal items 
+and slamming of doors.  
+Verification  Airborne noise  
+Ground-borne 
+noise & vibration  
+Where specified under Appendix C of the CNVG a noise 
+verification program is to be carried out for the duration of the 
+works in accordance with the Construction Noise and Vibration 
+Management Plan and any approval and licence conditions.  
+Attended 
+vibration 
+measurements  
+Ground-borne 
+vibration   
+Where required attended vibration measurements should be 
+undertaken at the commencement of vibration generating 
+activities to confirm that vibration levels are within the 
+acceptable range to prevent cosmetic building damage.  
+[[page 112]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ E-2  
+ 
+Action 
+Required  
+Applies To Details 
+Update 
+Construction 
+Environmental 
+Management 
+Plans  
+Airborne noise 
+Ground-borne 
+noise & vibration  
+The CEMP must be regularly updated to account for changes in 
+noise and vibration management issues and strategies.  
+Building 
+condition 
+surveys  
+Vibration  
+Blasting  
+Undertake building dilapidation surveys on all buildings located 
+within the buffer zone prior to commencement of activities with 
+the potential to cause property damage  
+Source controls 
+Construction 
+hours and 
+scheduling 
+Airborne noise 
+Ground-borne 
+noise & vibration 
+Where feasible and reasonable, construction should be carried 
+out during the standard daytime working hours. Work 
+generating high noise and/or vibration levels should be 
+scheduled during less sensitive time periods.  
+Construction 
+respite period 
+during normal 
+hours and out-
+of-hours work  
+Ground-borne 
+noise & vibration 
+Airborne noise 
+See Appendix C of the CNVG for more details on the following 
+respite measures:  
+• Respite Offers (RO)  
+• Respite Period 1 (R1)  
+• Respite Period 2 (R2)  
+• Duration Respite (DR)  
+Equipment 
+selection.  
+Airborne noise 
+Ground-borne 
+noise & vibration  
+Use quieter and less vibration emitting construction methods 
+where feasible and reasonable.  
+For example, when piling is required, bored piles rather than 
+impact-driven piles will minimise noise and vibration impacts. 
+Similarly, diaphragm wall construction techniques, in lieu of 
+sheet piling, will have significant noise and vibration benefits.  
+Ensure plant including the silencer is well maintained.  
+Plant noise 
+levels.  
+Airborne-noise The noise levels of plant and equipment must have operating 
+Sound Power or Sound Pressure Levels compliant with the 
+criteria in Appendix H of the CNVG.  
+Implement a noise monitoring audit program to ensure 
+equipment remains within the more stringent of the 
+manufacturers specifications or Appendix H of the CNVG.  
+Rental plant 
+and equipment.  
+Airborne-noise  The noise levels of plant and equipment items are to be 
+considered in rental decisions and in any case cannot be used 
+on site unless compliant with the criteria in Table 2 of the 
+CNVG.  
+Use and siting 
+of plant.  
+Airborne-noise The offset distance between noisy plant and adjacent sensitive 
+receivers is to be maximised.  
+Plant used intermittently to be throttled down or shut down.  
+Noise-emitting plant to be directed away from sensitive 
+receivers.  
+Only have necessary equipment on site.  
+Plan worksites 
+and activities to 
+minimise noise 
+and vibration.  
+Airborne noise 
+Ground-borne 
+vibration 
+Locate compounds away from sensitive receivers and 
+discourage access from local roads.  
+Plan traffic flow, parking and loading/unloading areas to 
+minimise reversing movements within the site.  
+[[page 113]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ E-3  
+ 
+Action 
+Required  
+Applies To Details 
+Where additional activities or plant may only result in a marginal 
+noise increase and speed up works, consider limiting duration 
+of impact by concentrating noisy activities at one location and 
+move to another as quickly as possible.  
+Very noise activities should be scheduled for normal working 
+hours. If the work can not be undertaken during the day, it 
+should be completed before 11:00pm.  
+Where practicable, work should be scheduled to avoid major 
+student examination periods when students are studying for 
+examinations such as before or during Higher School Certificate 
+and at the end of higher education semesters.  
+If programmed night work is postponed the work should be re-
+programmed and the approaches in this guideline apply again.  
+Reduced 
+equipment 
+power  
+Airborne noise 
+Ground-borne 
+vibration 
+Use only the necessary size and power.  
+Non-tonal and 
+ambient 
+sensitive 
+reversing 
+alarms  
+Airborne noise  Non-tonal reversing beepers (or an equivalent mechanism) 
+must be fitted and used on all construction vehicles and mobile 
+plant regularly used on site and for any out of hours work.  
+Consider the use of ambient sensitive alarms that adjust output 
+relative to the ambient noise level.  
+Minimise 
+disturbance 
+arising from 
+delivery of 
+goods to 
+construction 
+sites.  
+Airborne noise Loading and unloading of materials/deliveries is to occur as far 
+as possible from sensitive receivers.  
+Select site access points and roads as far as possible away 
+from sensitive receivers.  
+Dedicated loading/unloading areas to be shielded if close to 
+sensitive receivers.  
+Delivery vehicles to be fitted with straps rather than chains for 
+unloading, wherever possible.  
+Avoid or minimise these out of hours movements where 
+possible.  
+Engine 
+compression 
+brakes  
+Construction 
+vehicles  
+Limit the use of engine compression brakes at night and in 
+residential areas.  
+Ensure vehicles are fitted with a maintained Original Equipment 
+Manufacturer exhaust silencer or a silencer that complies with 
+the National Transport Commission’s ‘In-service test procedure’ 
+and standard.  
+Path controls 
+Shield 
+stationary noise 
+sources such 
+as pumps, 
+compressors, 
+fans etc.  
+Airborne noise  Stationary noise sources should be enclosed or shielded where 
+feasible and reasonable whilst ensuring that the occupational 
+health and safety of workers is maintained. Appendix D of AS 
+2436:2010 lists materials suitable for shielding.  
+Shield sensitive 
+receivers from 
+noisy activities.  
+Airborne noise Use structures to shield residential receivers from noise such as 
+site shed placement; earth bunds; fencing; erection of 
+operational stage noise barriers (where practicable) and 
+consideration of site topography when situating plant.  
+[[page 114]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ E-4  
+ 
+Action 
+Required  
+Applies To Details 
+Receptor control 
+Structural 
+surveys and  
+vibration 
+monitoring  
+Ground-borne 
+vibration 
+Pre-construction surveys of the structural integrity of vibration 
+sensitive buildings may be warranted.  
+At locations where there are high-risk receptors, vibration 
+monitoring should be conducted during the activities causing 
+vibration.  
+See Appendix 
+C of the CNVG 
+for additional 
+measures  
+Airborne noise 
+Ground-borne 
+vibration 
+In some instances, additional mitigation measures may be 
+required.  
+[[page 115]]
+ 
+ 
+Appendix F NPfl Mitigation 
+Measures 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+[[page 116]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Pluto – 132 McCredie Road, Guildford West NSW 2161 
+17 April 2025 
+SLR Project No.: 610.31859.00002 
+SLR Ref No.: 610.031859.00002-R02-v2.0-
+20250417.docx 
+ 
+ F-1  
+ 
+Best Management Practice (BMP) 
+Best management practice (BMP) is the application of particular operational procedures that 
+minimise noise while retaining productive efficiency. 
+Where applied, these measures and practices are often documented in a noise management 
+plan so that operational practices and undertakings are clearly understood and applied at all 
+levels of an industrial operation. Application of BMP can include the following types of 
+practice: 
+• Using the quietest plant that can do the job 
+• Scheduling the use of noisy equipment at the least-sensitive time of day 
+• Not operating, or reducing operations at night  
+• Siting noisy equipment behind structures that act as barriers, or at the greatest 
+distance from the noise-sensitive area or orienting the equipment so that noise 
+emissions are directed away from any sensitive areas, to achieve the maximum 
+attenuation of noise 
+• Where there are several noisy pieces of equipment, scheduling operations so they 
+are used separately rather than concurrently 
+• Keeping equipment well-maintained and operating it in a proper and efficient manner 
+• Using ‘quiet’ practices when operating equipment, for example, positioning idling 
+trucks in appropriate areas  
+• Running staff-education programs and regular tool box talks on the effects of noise 
+and the use of quiet work practices. 
+For many industries there are a wide range of factors that can restrict the feasibility and 
+reasonableness of applying BMP measures on a particular site. Work health and safety 
+considerations must also be taken into account as well as any other regulatory and process 
+requirements.  
+[[page 117]]
+ 
+ 
+Appendix G Mechanical Plant Data 
+Sheets 
+Project Pluto – 132 McCredie Road, Guildford West NSW 
+2161 
+SSD-69223466 Noise and Vibration Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.31859.00002 
+17 April 2025 
+[[page 118]]
+Baltimore Aircoil Company
+Cooling Tower Selection Report
+Version: 8.11.19 ANZ
+Product data correct as of: December 07, 2021
+Project Name: Project Pluto
+Selection Name: 4100kW
+Project State/Province: NSW
+Project Country/Region: Australia
+Date: December 10, 2024
+Model Information
+Product Line: Series 3000 (2021 WQF) Intake Option: None
+Model: XES3E-1222-07M ENDURA/H Internal Option: None
+Number of Units: 2 Discharge Option: None
+This model includes the ENDURADRIVE®
+Fan System.
+Fan Type: Whisper Quiet Fan (2021)
+Fan Motor: (1) 14.92 = 14.92 kW/Unit
+Total Standard Fan Power: 75.97% of Full Speed, 6.54 BkW/Unit
+Octave band and A-weighted sound pressure levels (Lp) are expressed in decibels (dB)
+reference 0.0002 microbar. Sound power levels (Lw) are expressed in decibels (dB)
+reference one picowatt. Octave band 1 has a center frequency of 63 Hertz.
+Top
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 65 57
+2 64 57
+3 59 53
+4 56 48
+5 55 47
+6 52 45
+7 48 42
+8 42 33
+A-wgtd 60 53
+Air Inlet
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 68 59
+2 66 55
+3 59 48
+4 57 46
+5 55 45
+6 42 37
+7 38 26
+8 42 32
+A-wgtd 59 49
+End
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 60 58
+2 59 50
+3 54 44
+4 50 38
+5 46 36
+6 39 32
+7 36 24
+8 30 17
+A-wgtd 52 42
+End
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 60 58
+2 59 50
+3 54 44
+4 50 38
+5 46 36
+6 39 32
+7 36 24
+8 30 17
+A-wgtd 52 42
+Air Inlet
+Sound Pressure (dB)
+Octave Distance
+Band 1.5 m 15 m
+1 68 59
+2 66 55
+3 59 48
+4 57 46
+5 55 45
+6 42 37
+7 38 26
+8 42 32
+A-wgtd 59 49
+Total Sound Power (dB)
+Octave Center Frequency
+Band (Hertz) Lw
+1 63 90
+2 125 89
+3 250 85
+4 500 80
+5 1000 79
+6 2000 77
+7 4000 74
+8 8000 65
+A-wgtd 84
+Note: The use of frequency inverters (variable frequency drives) can increase sound levels.
+Extra Notes: Sound data provided by CTI ATC-128 sound test code revision 2019
+Page 1/1
+[[page 119]]
+
+[[page 120]]
+Model LP Noishield™ Acoustic Louvres
+Acoustic Performance
+Octave Band Centre 
+Frequency (Hz) 63 125 250 500 1k 2k 4k 8k
+Transmission Loss 
+(dB) 4 5 8 9 12 9 7 6
+Acoustic Rating R w11dB / Dnew18dB
+Acoustic Louvred Doors
+•	 Single and double doors are available in the LP louvre range.
+•	 See page 22 for further details
+Module Width
+300 - 1219mm
+Standard Module Height
+305 - 3660mm (in 305mm increments)
+Intermediate heights are available
+Weight
+35kg/m2
+“W” ±1
+Max. Width 1220
+“H” ±2
+150 305100 200
+305
+= =
+305
+Ø12 Holes
+Typ. Both Sides
+Birdscreen
+Optional
+190
+76
+Acoustic Performance
+Octave Band Centre 
+Frequency (Hz) 63 125 250 500 1k 2k 4k 8k
+Transmission Loss 
+(dB) 5 8 12 16 22 18 15 14
+Acoustic Rating R w19dB / Dnew25dB
+“W” ±1
+Max. Width 1220
+“H” ±2
+200
+305
+150 305 100
+190
+305
+610
+76
+Birdscreen
+Optional
+Louvre
+Supplied in
+2 Halves
+Bolted
+Together
+on Site
+Model 2LP Noishield™ Acoustic Louvres
+Module Width
+300 - 1219mm
+Standard Module Height
+305 - 3660mm (in 305mm increments)
+Intermediate heights are available
+Weight
+70kg/m2
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Static Pressure Drop (N/m 2 )
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4
+Face Velocity (m/s)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Noise Reduction (dB)
+Frequency (Hz)
+0
+5
+10
+15
+20
+25
+30
+35
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Static Pressure Drop (N/m 2 )
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4
+Face Velocity (m/s)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Noise Reduction (dB)
+Frequency (Hz)
+0
+5
+10
+15
+20
+25
+30
+35
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )
+“W” ±1
+Max. Width 1220
+“H” ±2
+150 356
+200
+305
+= =
+216
+102
+Ø12 Holes
+TYP Both Sides
+Birdscreen
+Optional
+356
+151
+356
+“W” ±1
+Max. Width 1220
+“H” ±2
+200
+305
+150 356
+216
+356
+610
+102
+Birdscreen
+Optional
+Louvre
+Supplied
+in 2
+Halves
+Bolted
+Together
+on Site
+151
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Static Pressure Drop (N/m 2 )
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4
+Face Velocity (m/s)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Noise Reduction (dB)
+Frequency (Hz)
+0
+5
+10
+15
+20
+25
+30
+35
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Static Pressure Drop (N/m 2 )
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4 5
+Face Velocity (m/s)
+0
+50
+100
+150
+200
+250
+0 1 2 3 4
+Face Velocity (m/s)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Transmission Loss (dB)
+0
+5
+10
+15
+20
+25
+1k 63 125 250 500 2k 8k 4k
+Noise Reduction (dB)
+Frequency (Hz)
+0
+5
+10
+15
+20
+25
+30
+35
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+0
+5
+10
+15
+20
+25
+30
+1k 63 125 250 500 2k 8k 4k
+Frequency (Hz)
+Noise Reduction (dB)
+Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )Static Pressure Drop (N/m 2 )
+17
+Static 
+Pressure 
+Drop (N/m2)
+10 20 30 40 50 60 70 80 90 100
+Face 
+Velocity (m/s) 1.23 1.73 2.11 2.46 2.74 3.00 3.24 3.46 3.65 3.86
+Nominal 
+Free Area 52%* * Average over louvre depth
+Aerodynamic
+Coefficient 11.10k
+Aerodynamic Performance
+Static 
+Pressure 
+Drop (N/m2)
+10 20 30 40 50 60 70 80 90 100
+Face 
+Velocity (m/s) 1.07 1.41 1.73 1.98 2.21 2.46 2.62 2.77 2.99 3.12
+Nominal 
+Free Area 52%* * Average over louvre depth
+Aerodynamic
+Coefficient 17.06k
+Aerodynamic Performance
+www.iac-australia.com.au www.iac-australia.com.au
+[[page 121]]
+ 
+ 
+ 

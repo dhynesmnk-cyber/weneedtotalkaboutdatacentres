@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-46009468%2120220919T104207.526+GMT",
+ "project_slug": "station-road-data-centre-expansion",
+ "attachment_slug": "a8-acoustic-report-40",
+ "kind": "noise_assessment",
+ "label": "A8 - Acoustic Report - 57 Station Road$2c Seven Hills.pdf",
+ "folder": "Response to Submissions",
+ "fetched_utc": "2026-11-18T06:23:13+00:00",
+ "sha256": "e6cdb23be4b43c9c2b5d3cc7bd3fc68a3109bf839093282862875cbd3e88ce07",
+ "bytes": 7451395,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 125036,
+ "pages": 77,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

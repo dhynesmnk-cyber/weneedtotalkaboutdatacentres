@@ -1,0 +1,3013 @@
+[[page 1]]
+ 
+DCI Data Centres – CBR01 
+Noise and Vibration Assessment 
+DCI 
+90 Peter Brock Drive 
+Eastern Creek NSW 2766 
+ 
+Prepared by: 
+SLR Consulting Australia 
+ 
+SLR Project No.: 610.032202.00002 
+11 February 2025 
+Revision: 3.0 
+ 
+[[page 2]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ i  
+ 
+Revision Record 
+Revision Date Prepared By Checked By Authorised By 
+3.0 
+ToA Update 
+11 February 2025 Matthew Bryce Mark Irish Matthew Bryce 
+2.0 
+Final Issue 
+16 December 2024 Matthew Bryce Mark Irish Matthew Bryce 
+1.0 
+For Adequacy review 
+and consultation’ 
+3 December 2024 Matthew Bryce Mark Irish Matthew Bryce 
+     
+     
+     
+ 
+Basis of Report 
+This report has been prepared by SLR Consulting Australia (SLR) with all reasonable skill, 
+care and diligence, and taking account of the timescale and resources allocated to it by 
+agreement with DCI (the Client). Information reported herein is based on the interpretation of 
+data collected, which has been accepted in good faith as being accurate and valid. 
+This report is for the exclusive use of the Client. No warranties or guarantees are expressed 
+or should be inferred by any third parties. This report may not be relied upon by other parties 
+without written consent from SLR. 
+SLR disclaims any responsibility to the Client and others in respect of any matters outside 
+the agreed scope of the work. 
+ 
+[[page 3]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ ii  
+ 
+Table of Contents 
+Basis of Report ................................ ................................ ................................ .................... i 
+1.0 Introduction ................................ ................................ ................................ ................ 5 
+1.1 Project Description ................................ ................................ ................................ ....... 5 
+1.2 Nearest Receptors ................................ ................................ ................................ ....... 6 
+2.0 Existing Noise Environment ................................ ................................ ...................... 8 
+3.0 Assessment Criteria ................................ ................................ ................................ ... 9 
+3.1 Operational Noise Criteria ................................ ................................ ............................ 9 
+3.1.1 Project Noise Trigger Levels................................ ................................ ....................... 10 
+3.1.2 Cumulative Noise Impacts ................................ ................................ .......................... 11 
+3.1.3 Sleep Disturbance ................................ ................................ ................................ ...... 11 
+3.1.4 Corrections for Annoying Noise Characteristics ................................ .......................... 12 
+3.1.5 Traffic on Surrounding Roads ................................ ................................ ..................... 13 
+3.2 Aircraft Noise Intrusion ................................ ................................ ...............................  13 
+3.3 Construction Noise ................................ ................................ ................................ ..... 14 
+3.3.1 Residential Receptors ................................ ................................ ................................  14 
+3.3.2 Other Sensitive’ Land Uses and Commercial Receptors ................................ ............ 15 
+3.3.3 NML Summary ................................ ................................ ................................ ........... 15 
+3.4 Vibration Criteria................................ ................................ ................................ ......... 16 
+4.0 Prediction and Assessment Methodology ................................ ..............................  17 
+4.1 Operational Noise Assessment ................................ ................................ .................. 17 
+4.1.1 Operational Noise Sources ................................ ................................ ......................... 18 
+4.1.2 Noise Sources with Potential for Sleep Disturbance ................................ ................... 21 
+4.1.3 Operational Scenarios ................................ ................................ ................................  21 
+4.1.4 Noise Source Inventory ................................ ................................ ..............................  23 
+4.1.5 Weather Conditions ................................ ................................ ................................ .... 24 
+4.2 Construction Noise and Vibration Assessment ................................ ........................... 25 
+4.2.1 Construction Activities ................................ ................................ ................................  25 
+4.2.2 Hours of Construction ................................ ................................ ................................ . 26 
+5.0 Assessment of Noise and Vibration Emissions ................................ ..................... 26 
+5.1 Operational Noise ................................ ................................ ................................ ....... 26 
+5.1.1 Predicted Noise Levels ................................ ................................ ...............................  26 
+5.1.2 Corrections for “Annoying” Noise Characteristics ................................ ....................... 28 
+5.1.3 Noise Mitigation ................................ ................................ ................................ .......... 31 
+5.1.4 Sleep Disturbance ................................ ................................ ................................ ...... 32 
+5.1.5 Project-Related Road Traffic Noise ................................ ................................ ............ 32 
+[[page 4]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ iii  
+ 
+5.2 Construction Noise and Vibration ................................ ................................ ............... 32 
+5.2.1 Construction Noise Mitigation ................................ ................................ ..................... 34 
+5.2.2 Construction Vibration ................................ ................................ ................................  34 
+5.2.3 Construction Vibration Management and Mitigation ................................ .................... 35 
+5.3 Aircraft Noise Intrusion ................................ ................................ ...............................  35 
+6.0 Cumulative Impacts ................................ ................................ ................................ . 36 
+6.1 Operational Noise ................................ ................................ ................................ ....... 36 
+6.2 Construction Noise ................................ ................................ ................................ ..... 36 
+7.0 Conclusion ................................ ................................ ................................ ................ 37 
+ 
+Tables in Text 
+Table 1 Secretary’s Environmental Assessment Requirements ................................ ........ 5 
+Table 2 Surrounding Sensitive Receptors ................................ ................................ ......... 6 
+Table 3 Acoustic Instrumentation................................ ................................ ...................... 8 
+Table 4 Summary of Unattended Noise Monitoring Results – ML01 ................................ . 9 
+Table 5 Residential Receiver Amenity ................................ ................................ ............ 10 
+Table 6 Project Noise Trigger Levels ................................ ................................ .............. 10 
+Table 7 Sleep Disturbance Screening Levels ................................ ................................ . 12 
+Table 8 NPfI Modifying Factor Corrections ................................ ................................ ..... 12 
+Table 9 RNP/NCG Criteria for Assessing Traffic on Public Roads ................................ .. 13 
+Table 10 ICNG NMLs for Residential Receptors ................................ ...............................  14 
+Table 11 Construction NMLs for ICNG ‘Other Sensitive’ Receptors ................................ .. 15 
+Table 12 Project Specific Noise Management Levels ................................ ....................... 16 
+Table 13 Recommended Minimum Working Distances from Vibration-intensive Equipment
+ ................................ ................................ ................................ .......................... 17 
+Table 14 Onsite Vehicle Movements – “Worst-case” 15 Minute Period ............................ 19 
+Table 15 Loading Dock Noise Sources ................................ ................................ ............. 19 
+Table 16 Mechanical Plant ................................ ................................ ...............................  20 
+Table 17 Generator Maintenance Testing Regime ................................ ........................... 22 
+Table 18 Operational Assessment Scenarios ................................ ................................ ... 23 
+Table 19 Noise Source Inventory ................................ ................................ ..................... 23 
+Table 20 Construction Equipment................................ ................................ ..................... 26 
+Table 21 Operational Noise Assessment – Standard Daytime Operations ....................... 27 
+Table 22 Operational Noise Assessment – Maintenance/Testing Operations ................... 27 
+Table 23 Operational Noise Assessment – Emergency Operations ................................ .. 28 
+Table 24 Modifying Factor Corrections ................................ ................................ ............. 29 
+Table 25 Operational Noise Assessment – Standard Operations ................................ ..... 31 
+[[page 5]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ iv  
+ 
+Table 26 Operational Noise Assessment – Maintenance/Testing ................................ ..... 31 
+Table 27 Sleep Disturbance Assessment – Light Vehicle Movements and Parking .......... 32 
+Table 28 Surrounding Road Network – Traffic Volumes ................................ ................... 32 
+Table 29 Predicted Construction Noise Levels – Standard Construction Hours ................ 33 
+Table 30 Predicted Exceedance at Nearest Receptors – Standard Construction Hours ... 33 
+Table 31 Building Site Acceptability based on ANEF Contour Zones ................................  36 
+Table 32 Nearby Developments – Potential Cumulative Construction Impacts ................. 37 
+ 
+Figures in Text 
+Figure 1 Site Location and Surrounds ................................ ................................ ................ 7 
+Figure 2 Site Layout Plan ................................ ................................ ................................ .. 7 
+Figure 3 Significant Operational Noise Sources ................................ ...............................  18 
+Figure 4 Conceptual Illustration of Work Areas ................................ ................................  25 
+ 
+Appendices 
+Appendix A Noise Monitoring Data 
+Appendix B Mechanical Plant Data Sheets 
+Appendix C Noise Contour Maps 
+Appendix D Construction Noise Sources 
+Appendix E CNVG Mitigation Measures 
+ 
+[[page 6]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 5  
+ 
+1.0 Introduction 
+A State Significant Development Application (SSDA) has been prepared in support of 
+proposed Data Centre development at 2 Wolseley Place, Jerrabomberra.  
+This report has been prepared to address the noise and vibration component of the 
+Secretary’s Environmental Assessment Requirements (SEARs) issued for Project DCI 
+CBR01 Data Centre (SSD-64287712) dated 6 November 2023. 
+Specifically, this noise assessment has been prepared to respond to the SEARs 
+requirements shown in Table 1.   
+Table 1 Secretary’s Environmental Assessment Requirements 
+Item Description of Requirement Section Reference 
+(this report) 
+12. Noise 
+and 
+Vibration 
+Provide a noise and vibration assessment prepared in 
+accordance with the relevant EPA guidelines and 
+Australian/International Standards.   
+The assessment must detail construction and operational noise 
+and vibration impacts (including testing of any back-up power 
+system) on nearby sensitive receptors and structures, and 
+outline the proposed mitigation, management and monitoring 
+measures that would be implemented. 
+Operation: 
+Sections 3.1, 4.1, 
+5.1 and 6.1 
+Construction: 
+Sections 3.1, 3.4, 
+4.2, 5.2 and 6.2 
+Mitigation: 
+Sections 5.1.3, 5.2.1 
+and 5.2.3 
+SLR is suitably qualified and endorsed by the Planning Secretary to produce SSDA noise 
+assessments.  All SLR consultants hold membership of the Australian Acoustical Society 
+(AAS) and SLR is a member firm of the Association of Australasian Acoustical Consultants 
+(AAAC).   
+1.1 Project Description 
+It is proposed to construct and operate a 20 MW Data Centre on land known as 2 Wolseley 
+Place, Jerrabomberra.  The current real property description of the site is Lot 6 in 
+DP 1288362, following the site’s subdivision by Poplars as part of the estate works. 
+The site is zoned B7 Business Park under the Queanbeyan Local Environmental Plan (West 
+Jerrabomberra) 2013.  The location of the site and the surrounding area are shown in 
+Figure 1. 
+The key features of the Proposal are summarised as follows: 
+• Site preparation works including tree and vegetation clearing and bulk earthworks 
+• Staged construction, fit out and operation of single storey, 20MW Data Centre 
+building with a maximum building height of 7.6 m and total gross floor area of 
+5,817m2 comprising:  
+o 60 at-grade parking spaces  
+o 57 m2 loading dock spaces  
+o Five (5) data halls, housed within two main data centre buildings  
+o Offices and amenities. 
+• Provision of required utilities including:  
+o Two (2) 270 kL above-ground combined fire sprinkler & hydrant tanks 
+[[page 7]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 6  
+ 
+o Two (2) 11kV switch-rooms on site 
+• Vehicle and pedestrian access provided via Wolseley Place.  
+• Associated landscaping and site servicing 
+• Installation of site services and drainage infrastructure 
+• A floor space ratio of approximately 0.14:1. 
+The proposed layout of the data centre is shown in Figure 2. 
+1.2 Nearest Receptors 
+The nearest receptors are shown in Figure 1 and detailed in Table 2.   
+Table 2 Surrounding Sensitive Receptors  
+ID Receptor Area Type Distance (m) Direction 
+R01 Firethorn Place, Jerrabomberra Residential 440 Southeast 
+R02 Franklin Court, Jerrabomberra Residential 370 East-northeast 
+CCC Child care centre (future) Education 310 East-northeast 
+I01 – 
+I04 
+Industrial sites in Wolseley Place 
+within the Industrial Precinct (also 
+under construction) 
+Industrial 40 m South 
+I05 Retail premises (Service Station, 
+Fast Food etc) 
+Retail / 
+Commercial 
+175 Northeast 
+ 
+[[page 8]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 7  
+ 
+Figure 1 Site Location and Surrounds 
+ 
+Figure 2 Site Layout Plan 
+ 
+ML01 
+R01 
+R02 
+CCC 
+I05 
+I01 
+I04 
+I02 
+I03 
+
+[[page 9]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 8  
+ 
+2.0 Existing Noise Environment 
+The existing noise environment forms a component of the noise criteria for the project.  To 
+quantify and characterise the existing noise environment of the area, noise monitoring was 
+conducted near to residential receptors in Firethorne Place (R01) in November 2024. 
+The Monitoring Location (ML01) has been shown in Figure 1 and will be representative of 
+the potentially most-affected residential receptors near the project.   
+The selected monitoring location was adjacent to the nearest residential receptors to the 
+project.  At the selected location, the ambient noise levels would likely be the lowest in the 
+area for all potentially affected residences.  In selecting the location, the following was 
+considered: 
+• Exposure to road traffic noise.  The selected monitoring location would be 
+representative of the rear and side of the nearest residences to the project with the 
+same level of exposure to traffic noise from vehicles on Tompsitt Drive and ‘Jerra 
+Circle’. 
+Residential locations to the north of Tompsitt Drive are closer to Tompsitt Drive and 
+‘Jerra Circle’ and therefore would be likely to be exposed to higher traffic noise levels 
+from vehicles on those roads.  Consequently, higher noise limits would be expected 
+to apply at those residences. 
+• Exposure to construction and retail/commercial noise.  Residential locations to the 
+north of Tompsitt Drive potentially may potentially be affected by localised 
+construction noise during the noise monitoring period and/or noise associated with 
+the nearby commercial/premises.  Such noise may result in higher ambient noise 
+levels and subsequent project noise limits.  The residences to the south of Tompsitt 
+Drive and Jerra Circle would be less exposed to such noise. 
+• Access and suitability.  The noise logger was positioned to ensure local boundary 
+fencing did not screen road traffic noise and localised activity from residents would 
+be unlikely to affect noise levels at the microphone.  In addition, the logger was 
+located on accessible land whilst minimising security risks. 
+There are receptor locations nearer to the project than the monitoring location however they 
+will be commercial/retail premises where the noise criteria is prescribed and not based on 
+the pre-development ambient environment.  Therefore, it is not required to establish the 
+ambient environment at those locations. 
+The noise monitoring and subsequent data analysis was conducted in accordance with the 
+NSW EPA Noise Policy for Industry (NPfI) methodology. 
+The acoustic instrumentation used for the monitoring is described in Table 3. 
+Table 3 Acoustic Instrumentation 
+Instrument Serial Number 
+SVAN Type 957 Sound Level Meter1 21884 
+RION Type NC-74 Sound Calibrator 34973239 
+1. Set up as a noise “logger”. 
+The calibration of the noise logger was confirmed before and after the noise measurements.  
+The calibration checks showed that the before and after measured levels were within the 
+acceptable range of ± 1 dBA. 
+[[page 10]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 9  
+ 
+All items of acoustic instrumentation complied with Australian Standard (AS) IEC 61672.1 
+2019 Electroacoustics – Sound Level Meters Specifications and AS IEC 60942 2017 
+Electroacoustics – Sound calibrators and carried current NATA calibration certificates. 
+The noise logger was programmed to measure A-weighted fast response statistical noise 
+levels in 15-minute intervals.  
+SLR obtained weather data from the Bureau of Meteorology (BOM) automated weather 
+station located at Canberra Airport (Station ID: 070351, Lat: -35.31 Lon: 149.20) for the 
+monitoring period.    
+Noise results obtained during periods of unsatisfactory weather for noise monitoring, ie wind 
+speeds exceeding 5 m/s and/or rainfall exceeding 0.5 mm, have been shaded in the noise 
+logger results graphs in Appendix A and were excluded from the data analysis.   
+The valid monitoring data obtained was analysed to determine the Rating Background 
+Levels (RBL) in accordance with the NPfI methodology.   
+The noise monitoring results are summarised in Table 4, with graphs of the measured daily 
+noise levels are provided in Appendix A. 
+Table 4 Summary of Unattended Noise Monitoring Results – ML01 
+Measured Noise Level, dBA 
+Background Noise (RBL) Ambient Noise, LAeq,15minute 
+Day1 Evening2 Night3 Day1 Evening2 Night3 
+40 28 23 51 50 45 
+1. Daytime = 7:00 am to 6:00 pm Monday to Saturday and 8:00 am to 6:00 pm on Sundays and public holidays 
+2. Evening = 6:00 pm to 10:00 pm all days 
+3. Night-time = 10:00 pm to 7:00 am Monday to Saturday and 10:00 pm to 8:00 am Sunday and public holidays 
+3.0 Assessment Criteria 
+3.1 Operational Noise Criteria 
+The NSW EPA Noise Policy for Industry (NPfI) sets out the requirements for the assessment 
+and management of operational noise from industry in NSW. 
+The NPfI defines how to determine the Project Noise Trigger Levels (PNTLs) for noise 
+emissions from industrial developments.  Where a development is likely to exceed the 
+PNTLs at noise-sensitive receptors, feasible and reasonable noise management measures 
+are required to be considered. 
+There are two types of trigger levels – one to account for ‘intrusive’ noise impacts and one to 
+protect the ‘amenity’ of particular land uses: 
+• The intrusiveness of an industrial noise source is generally considered acceptable if 
+the LAeq noise level of the source, measured over a period of 15-minutes, does not 
+exceed the representative background noise level by more than 5 dB.  Intrusive noise 
+levels are only applied to residential receptors.  For other receptor types, only the 
+amenity levels apply. 
+• To limit continual increases in noise levels from the use of the intrusiveness level 
+alone, the ambient noise level within an area from all industrial sources should 
+remain below the recommended amenity levels specified in the NPfI for that 
+particular land use. 
+[[page 11]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 10  
+ 
+Intrusive and amenity noise levels are not used directly as regulatory limits.  They are used 
+to assess the potential impact of noise, assess feasible and reasonable mitigation options 
+and subsequently determine achievable noise requirements. 
+The NPfI provides guidance on assigning residential receptor amenity noise categories 
+based on site-specific features.  As the most sensitive noise receptors to the development 
+would be the residences to the east and in a R2 Low Density Residential land zone, the 
+category applicable to those receptors would be “Suburban residential”, as described in 
+Table 5.   
+Table 5 Residential Receiver Amenity  
+Receiver 
+Category 
+Typical Planning Land Use 
+Zoning 
+Typical Existing 
+Background 
+Noise Levels 
+(RBL) 
+Description 
+Suburban 
+residential  
+RU5 – village  
+RU6 – transition 
+R2 – low density residential  
+R3 – medium density residential  
+E2 – environmental conservation  
+E3 – environmental management 
+Daytime <45 dBA 
+Evening <40 dBA 
+Night <35 dBA 
+Suburban – an area that has 
+local traffic with characteristically 
+intermittent traffic flows or with 
+some limited commerce or 
+industry.  This area often has the 
+following characteristic: evening 
+ambient noise levels defined by 
+the natural environment and 
+human activity. 
+3.1.1 Project Noise Trigger Levels  
+The Project Noise Trigger Levels (PNTLs) are the most stringent of the intrusiveness and 
+amenity trigger level for each period and are summarised in Table 6.   
+Table 6 Project Noise Trigger Levels 
+Receptor 
+Type 
+Period Amenity 
+Noise Level 
+dBA LAeq 
+Ambient Noise Level, dBA PNTL, 
+dBA LAeq(15minute) 
+RBL LAeq(period) Intrusive Amenity1, 2 
+Residential  
+(R01, R02) 
+Day 55 40 51 45 53 
+Evening 45 30 (28 actual) 50 35 43 
+Night 40 30 (23 actual) 45 35 38 
+Child care 
+(CCC)3 
+When in use 40 (internal) 
+60 (external) 
+- - - 48 
+(external) 
+Retail / 
+Industrial 
+(I01 – I05) 
+When in use 65 - - - 63 
+1. The recommended amenity noise levels have been reduced by 5 dB, where appropriate, to give the project 
+amenity noise levels due to other sources of industrial noise being present in the area, as per the NPfI. 
+2. The project amenity noise levels have been converted to a 15-minute level by adding 3 dB, as per the NPfI. 
+3. The NPfI does not specify an amenity noise level for child care centres, however, it is common and 
+appropriate to use the amenity noise level for school classroom (internal) that is specified in the NPfI.  The 
+internal noise level would be approximated by reducing the external noise level (as predicted) by 20 dB to 
+allow for noise reduction from outside a facade with closed windows. 
+[[page 12]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 11  
+ 
+Existing road traffic noise was the dominant noise source in the project area during the 
+daytime, evening and night-time but it was not sufficiently high relative to the recommended 
+amenity noise level to warrant adjustment to the project amenity noise level.   
+The NPfI states that when converting the project amenity level from LAeq(period) to 
+LAeq(15minute), the LAeq(15minute) is equal to the LAeq(period) plus 3 dB, unless robust evidence is 
+provided for an alternative approach (refer to Section 2.2 of the NPfI).   
+The main source of operational noise from data centres is mechanical plant which would 
+operate continuously, although some items may vary in operation in response to heat 
+rejection requirements.   
+It is noted that noise modelling of mechanical plant at the development assumes all 
+mechanical plant items always operate at maximum design loads (see Section 4.1.1 for 
+further information).  Consequently, it is considered appropriate to apply the standard NPfI 
+assumption of LAeq(15minute) equal to the LAeq(period) plus 3 dB for this project. 
+3.1.2 Cumulative Noise Impacts 
+The NSW Government Cumulative Impact Assessment Guidelines for State Significant 
+Projects requires that the potential combined effect of cumulative impacts on all nearby 
+industrial developments to be considered when assessing potential noise impacts from state 
+significant projects.  The guideline references the NPfI when determining the approach to 
+assessing the cumulative industrial noise impacts. 
+The NPfI states that it aims to limit continuing increases in cumulative industrial noise 
+through the application of amenity noise levels, which are applicable to all industrial noise 
+sources in an area.   
+The NPfI requires that the amenity noise levels which are applied to an individual industrial 
+development be reduced by 5 dB to allow for the potential cumulative impact from multiple 
+sources of industrial noise in an area (including existing and new).   
+Thus, the NPfI lowers the criteria for each individual development inherently ensuring that 
+the ambient noise level within an area with multiple industrial noise sources remains below 
+the recommended amenity noise levels, where feasible and reasonable.  The NPfI states 
+that “where the project amenity noise level applies and it can be met, no additional 
+consideration of cumulative industrial noise is required”. 
+The potential cumulative impacts from the development and other sources of industrial noise 
+in the area are therefore accounted for in the proposal-specific PNTLs (see Table 6). 
+3.1.3 Sleep Disturbance 
+In accordance with the NPfI, a detailed maximum noise level assessment should be 
+undertaken where a development results in night-time noise levels which exceed: 
+• LAeq(15minute) 40 dBA or the prevailing RBL plus 5 dB, whichever is the greater, 
+and/or 
+• LAFmax 52 dBA or the prevailing RBL plus 15 dB, whichever is the greater. 
+The sleep disturbance screening levels, which are applicable only at residential receptors, 
+are shown in Table 7. 
+[[page 13]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 12  
+ 
+Table 7 Sleep Disturbance Screening Levels 
+Location  Night-time RBL, dBA Sleep Disturbance Screening Level, dBA 
+LAeq,15minute LAmax 
+R01, R02 35 40 52 
+A detailed maximum noise level event assessment should be completed where the sleep 
+disturbance screening level is exceeded.  The detailed assessment should cover the 
+maximum noise level, the extent to which the maximum noise level exceeds the RBL, and 
+the number of times this happens during the night-time period.   
+The NPfI refers to the NSW Road Noise Policy (RNP) for additional information regarding 
+sleep disturbance.  enHealth Council studies are referenced which indicate that for short-
+term or transient noise events, for good sleep over eight hours the indoor LAFmax sound 
+pressure level should ideally not exceed around 45 dBA more than 10 or 15 times per night.  
+The RNP concludes that from the research on sleep disturbance to date: 
+• Maximum internal noise levels below 50 dBA to 55 dBA are unlikely to awaken 
+people from sleep 
+• One or two events per night with maximum internal noise levels of 65 dBA to 70 dBA 
+are not likely to affect health and wellbeing significantly. 
+3.1.4 Corrections for Annoying Noise Characteristics  
+Sources of industrial noise can cause greater annoyance where they contain certain 
+characteristics, such as tonality, intermittency or dominant low-frequency content.  The NPfI 
+specifies the following modifying factor corrections, shown in Table 8, which are to be 
+applied where annoying characteristics are present.  The corrections are to be added to the 
+noise level at the receptor before comparison with the Project Noise Trigger Levels. 
+Table 8 NPfI Modifying Factor Corrections 
+Factor Assessment/ 
+Measurement 
+When to Apply Correction1 
+Tonal 
+noise 
+One-third octave 
+or narrow band 
+analysis 
+Level of one-third octave band exceeds the level of the 
+adjacent bands on both sides by the levels defined in 
+the NPfI. 
+5 dB2 
+Low-
+frequency 
+noise 
+Measurement of 
+source 
+contribution C-
+weighted and A-
+weighted level 
+and one-third 
+octave 
+measurements 
+Measure/assess source contribution C and A weighted 
+Leq,t levels over same time period.  Correction to be 
+applied where the C minus A level is 15 dB or more 
+and the level to which the thresholds defined in the 
+NPfI are exceeded. 
+2 or 5 dB2 
+Intermittent 
+noise 
+Subjectively 
+assessed but 
+should be 
+assisted with 
+measurement to 
+gauge the extent 
+of change in 
+noise level 
+The source noise heard at the receptor varies by more 
+than 5 dB and the intermittent nature of the noise is 
+clearly audible.  
+The NPfI further defines intermittent noise as noise 
+where the level suddenly drops/increases several 
+times during the assessment period, with a noticeable 
+change in source noise level of at least 5 dB, for 
+example, equipment cycling on and off.   
+5 dB3 
+[[page 14]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 13  
+ 
+Factor Assessment/ 
+Measurement 
+When to Apply Correction1 
+The EPA has confirmed4 that the intermittent 
+correction does not apply to short-term events that 
+emerge above the general industrial noise level and is 
+therefore not applicable to industrial or commercial 
+sites that have vehicle or plant movements at night, 
+including audible reversing alarms.   
+The intermittency correction is not intended to be 
+applied to changes in noise level due to meteorology. 
+Maximum 
+adjustment 
+Refer to 
+individual 
+modifying 
+factors 
+Where two or more modifying factors are indicated. Maximum 
+correction 
+of 10 dB2 
+(excluding 
+duration 
+correction)  
+1. Corrections to be added to the measured or predicted levels. 
+2. Where a source emits tonal and low-frequency noise, only one 5 dB correction should be applied if the 
+tone is in the low-frequency range, that is, at or below 160 Hz. 
+3. Adjustment to be applied to night-time only. 
+4. How to Apply the Noise Policy for Industry Intermittent Modifying Factor Corrections, NSW Environment 
+Protection Authority, Acoustics Australia Vol. 50, No. 3, September 2022. 
+3.1.5 Traffic on Surrounding Roads  
+The potential impacts from proposal-related traffic on the surrounding public roads are 
+assessed using the NSW EPA Road Noise Policy (RNP).   
+An initial screening test is first applied to evaluate if existing road traffic noise levels are 
+expected to increase by more than 2.0 dB.  An increase of that magnitude corresponds to 
+increase in traffic volume of at least 60%. 
+Where this is considered likely, further assessment is required using the RNP criteria shown 
+in Table 9. 
+Table 9 RNP/NCG Criteria for Assessing Traffic on Public Roads 
+Road Category Type of Project/Land Use Assessment Criteria (dBA) 
+Daytime  
+(7 am – 10 pm) 
+Night-time 
+(10 pm – 7 am) 
+Freeway/arterial/ 
+sub-arterial road 
+Existing residences affected by additional 
+traffic on existing freeways/arterial/sub-arterial 
+roads generated by land use developments 
+LAeq(15hour) 60 
+(external) 
+LAeq(9hour) 55 
+(external) 
+Local roads Existing residences affected by additional 
+traffic on existing local roads generated by 
+land use developments  
+LAeq(1hour) 55 
+(external) 
+LAeq(1hour) 50 
+(external) 
+3.2 Aircraft Noise Intrusion 
+The development site would be required to comply with the QPRC Queanbeyan-Palerang 
+Regional Local Environmental Plan 2022 (QPRLEP). 
+Section 7.9 Development in area subject to aircraft noise of the QPRLEP states: 
+(1) The objectives of this clause are as follows— 
+[[page 15]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 14  
+ 
+(a) to prevent certain noise sensitive developments from being located 
+near the Canberra Airport and its flight paths, 
+(b) to assist in minimising the impact of aircraft noise from that airport 
+and its flight paths by requiring appropriate noise attenuation 
+measures in noise sensitive buildings, 
+(c) to ensure that land use and development in the vicinity of that airport 
+do not hinder or have any other adverse impacts on the ongoing, safe 
+and efficient operation of that airport. 
+(3) Development consent must not be granted to the development unless the 
+consent authority— 
+(a) considers whether the development will result in an increase in the 
+number of dwellings or people affected by aircraft noise, and 
+(b) considers the location of the development in relation to the criteria set 
+out in Table 2.1 (Building Site Acceptability Based on ANEF Zones) in 
+AS 2021—2015, and 
+(c) is satisfied the development will meet the indoor design sound levels 
+shown in Table 3.3 (Indoor Design Sound Levels for Determination of 
+Aircraft Noise Reduction) in AS 2021—2015. 
+(3) In this clause— 
+ANEF contour means a noise exposure contour shown as an ANEF 
+contour on the Noise Exposure Forecast Contour Map for Canberra 
+Airport prepared by the Commonwealth Department responsible for 
+airports. 
+AS 2021—2000 means AS 2021—2000, Acoustics—Aircraft noise 
+intrusion—Building siting and construction. 
+3.3 Construction Noise 
+The NSW Interim Construction Noise Guideline (ICNG) is used to assess and manage 
+impacts from construction noise on residences and other sensitive land uses in NSW. 
+The ICNG contains procedures for determining project specific Noise Management Levels 
+(NMLs) for sensitive receptors based on the existing background noise in the area.  The 
+‘worst-case’ noise levels from construction of a proposal are predicted and then compared to 
+the NMLs in a 15-minute assessment period to determine the likely impact of the proposal. 
+The NMLs are not mandatory limits, however, where construction noise levels are predicted 
+or measured to be above the NMLs, feasible and reasonable work practices to minimise 
+noise emissions are to be investigated. 
+3.3.1 Residential Receptors 
+The ICNG approach for determining NMLs at residential receptors is shown in Table 10. 
+Table 10 ICNG NMLs for Residential Receptors 
+Time of Day NML 
+LAeq(15minute) 
+How to Apply 
+Standard 
+Construction Hours: 
+Noise affected: 
+RBL + 10 dB 
+The noise affected level represents the point above which there may be 
+some community reaction to noise 
+[[page 16]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 15  
+ 
+Time of Day NML 
+LAeq(15minute) 
+How to Apply 
+Monday to Friday 
+7:00 am to 6:00 pm 
+Saturday 
+8:00 am to 1:00 pm 
+No work on Sundays 
+or 
+public holidays 
+Where the predicted or measured LAeq(15minute) is greater than the noise 
+affected level, the proponent should apply all feasible and reasonable 
+work practices to meet the noise affected level 
+The proponent should also inform all potentially impacted residents of 
+the nature of works to be carried out, the expected noise levels and 
+duration, as well as contact details. 
+Highly Noise 
+Affected: 
+75 dBA 
+The Highly Noise Affected (HNA) level represents the point above which 
+there may be strong community reaction to noise 
+Where noise is above this level, the relevant authority (consent, 
+determining or regulatory) may require respite periods by restructuring 
+the hours that the very noisy activities can occur, taking into account: 
+Times identified by the community when they are less sensitive to noise 
+(such as before and after school for works near schools or mid-morning 
+or mid-afternoon for works near residences 
+If the community is prepared to accept a longer period of construction in 
+exchange for restrictions on construction times. 
+Outside Standard 
+Construction Hours 
+Noise affected: 
+RBL + 5 dB 
+A strong justification would typically be required for works outside the 
+recommended standard hours. 
+The proponent should apply all feasible and reasonable work practices 
+to meet the noise affected level. 
+Where all feasible and reasonable practises have been applied and 
+noise is more than 5 dB above the noise affected level, the proponent 
+should negotiate with the community. 
+3.3.2 Other Sensitive’ Land Uses and Commercial Receptors 
+Non-residential land uses have been identified in the study area.  The NMLs for ‘other 
+sensitive’ receptors are shown in Table 11. 
+Table 11 Construction NMLs for ICNG ‘Other Sensitive’ Receptors 
+Land Use NML, dBA LAeq(15minute) 
+(applied when the property is in use) 
+Internal External 
+ICNG ‘other sensitive’ receptors  
+Commercial - 70 
+Industrial - 75 
+Non-ICNG ‘other sensitive’ receptors  
+Child care centres – sleeping areas 401 602 
+1. Taken from AAAC Guideline for Child Care Centre Acoustic Assessment. 
+2. It is assumed that these receptors have closed windows which conservatively results in internal noise levels 
+being around 20 dB lower than the external noise level. 
+3.3.3 NML Summary 
+The construction NMLs for the proposal have been determined using the results from the 
+unattended noise monitoring and are shown in Table 12.   
+Out of hours NMLs would be applicable should works be required to be undertaken outside 
+ICNG standard construction hours. 
+[[page 17]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 16  
+ 
+Table 12 Project Specific Noise Management Levels 
+Receptor Type Monitoring 
+Location 
+Noise Management Level, LAeq(15minute) 
+Standard 
+Construction  
+(RBL +10 dB) 
+Out of Hours 
+(RBL +5 dB) 
+Daytime Daytime Evening  Night-time 
+Residential (R01, R02) L01 50 45 351 351 
+Child care (CCC) n/a 60 60 - - 
+Retail / Industrial  
+(I01 – I05) 
+n/a 70 70 - - 
+1. Based on the minimum RBL value of 30 dBA for the evening and night periods in accordance with the 
+NPfI methodology. 
+In addition to the above NMLs, residential receptors are considered to be ‘highly noise 
+affected’ if the predicted level exceeds 75 dBA LAeq(15minute). 
+3.4 Vibration Criteria 
+The equipment and activities associated with the data centre operations will not generate 
+significant levels of vibration.  Some construction activities may be undertaken with vibration-
+intensive plant items. 
+The effects of vibration from construction works can be divided into three categories: 
+• Those in which the occupants of buildings are disturbed (human comfort) 
+• Those where building contents may be affected (building contents) 
+• Those where the integrity of the building may be compromised (structural or cosmetic 
+damage). 
+The NSW Roads and Maritime (now Transport for NSW) Construction Noise and Vibration 
+Guideline (CNVG) provides minimum working distances, outside of which impacts are not 
+considered likely, for a range of common vibration-intensive construction plant items.   
+The minimum working distances are based on vibration criteria provided for cosmetic 
+damage (refer to British Standard (BS) 7385 Part 2 “Evaluation and measurement for 
+vibration in buildings — Part 2: Guide to damage levels from groundborne vibration”) and 
+human comfort (refer to the NSW “Assessing Vibration – a technical guideline”).   
+They have been formulated based on empirical data which suggests that where works are 
+further from receivers than the quoted minimum safe work distances, then impacts are not 
+considered likely.   
+The minimum working distances for the plant most likely to be used during construction of 
+the development are shown in Table 13.  
+[[page 18]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 17  
+ 
+Table 13 Recommended Minimum Working Distances from Vibration-intensive 
+Equipment 
+Plant Item Rating/Description Minimum Distance1 
+Cosmetic Damage Human 
+Response Residential / Light 
+Commercial 
+Vibratory Roller <50 kN (1–2 tonne) 5 m 15 m to 20 m 
+<100 kN (2–4 tonne) 6 m 20 m 
+<200 kN (4–6 tonne) 12 m 40 m 
+<300 kN (7–13 tonne) 15 m 100 m 
+>300 kN (13–18 tonne) 20 m 100 m 
+>300 kN (>18 tonne) 25 m 100 m 
+Small Hydraulic Hammer 300 kg (5 to 12 t excavator) 2 m 7 m 
+Medium Hydraulic Hammer 900 kg (12 to 18 t excavator) 7 m 23 m 
+Large Hydraulic Hammer 1,600 kg (18 to 34 t excavator) 22 m 73 m 
+The minimum working distances are indicative and will vary depending on the particular item 
+of equipment and local geotechnical conditions.  The distances apply to cosmetic damage of 
+typical buildings under typical geotechnical conditions. 
+4.0 Prediction and Assessment Methodology 
+4.1 Operational Noise Assessment 
+A 3D noise model of the study area has been used to predict operational noise levels from 
+the proposed development to the surrounding receptors.   
+The model uses the International Organisation for Standardisation (ISO) 9613:1996 
+Acoustics – Attenuation of sound during propagation outdoors – Part 2: General method of 
+calculation (ISO 9613-2) prediction methodology within the SoundPLAN software package.  
+ISO 9613-2 is an industry standard methodology that is considered suitable for use in the 
+prediction of noise from industrial sources where intervening objects provide acoustic 
+shielding, such as at the subject site and surrounding area.   
+ISO 9613-2 has been used extensively on industrial projects in Australia over several 
+decades and has been accepted previously by NSW DPE (now DPHI) in numerous 
+environmental noise assessments. 
+The noise model includes ground topography, ground absorption/reflection, buildings and 
+noise sources from the development. 
+The following ground absorption factors have been used (note a factor of 0.0 is fully 
+reflective and 1.0 is fully absorptive): 
+• Site pad – 0.0 
+• Site surrounds, including built up areas – 0.25 
+• Grassland beyond and to receptors – 0.75. 
+The ISO 9613-2 algorithm predicts continuous A-weighted sound pressure levels under 
+“noise-enhancing” meteorological conditions (ie downwind propagation from source to 
+[[page 19]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 18  
+ 
+receptor, with wind speeds of around 1 m/s to 5 m/s measured at a height of 3 m to 11 m 
+above the ground), or equivalently, propagation under a well-developed, moderate, ground-
+based temperature inversion, such as commonly occurs on clear calm nights. 
+Those propagation conditions are consistent with the “noise-enhancing” weather conditions 
+specified in Fact Sheet D: Accounting for noise-enhancing weather conditions of the NPfI.   
+The noise emissions from the development during any 15-minute assessment period have 
+been predicted at the identified sensitive receptors in accordance with the requirements of 
+‘Section 2.6 – Assessment Locations’ of the NPfI.  A ground floor receptor height at the 
+nearest residence to the project would be deemed representative of any two-storey 
+dwellings further from the project within the residential areas.  There are no buildings higher 
+than two stories in the vicinity of the receptors. 
+4.1.1 Operational Noise Sources 
+A layout plan of the development is shown in Figure 3. 
+The locations of the main sources of operational noise at the development are identified in 
+Figure 3 and are expected to include: 
+• Internally located mechanical plant, such as items within the data halls, mechanical 
+corridors, electrical plant rooms and other mechanical services areas. 
+• External chiller plant 
+• Backup generators (tested periodically) 
+• On-site light and heavy vehicle movements 
+• Loading dock activities 
+Figure 3 Significant Operational Noise Sources 
+ 
+
+[[page 20]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 19  
+ 
+4.1.1.1 Project-related Vehicle Data 
+The site would be in use 24 hours a day, with the loading dock used during only the daytime.  
+Vehicles would access the site via Wolseley Place off Environa Drive which immediately 
+connects to Tompsitt Drive.  Heavy vehicles larger than medium rigid trucks would not be 
+expected to use the site due to site constraints. 
+It is understood that the approximate number of trucks and vehicles associated with the 
+project would be:   
+• Construction – 4 trucks per day and 20 light vehicles per day; and   
+• Operations – up to 18 light vehicles in a peak hour period.  Truck activity will be 
+infrequent with a maximum of one truck at any time.   
+On-site vehicles have been modelled using the data shown in Table 14.  The volumes would 
+be representative of the expected worst-case 15-minute period for the daytime, evening and 
+night-time periods.   
+The volumes conservatively assume that light and heavy vehicles access the site 
+concurrently during any 15-minute assessment period.  In reality, vehicle access would be 
+unlikely to occur concurrently, particularly during the evening and night-time periods.   
+Table 14 Onsite Vehicle Movements – “Worst-case” 15 Minute Period 
+Vehicle Type Location SWL, 
+dBA 
+Vehicle 
+Speed, 
+km/h 
+Number of Vehicles1 
+Daytime  
+(7 am – 6 pm) 
+Evening  
+6 pm – 10 pm 
+Night-time  
+10 pm – 7 am 
+Medium trucks Vehicle entry 
+and loading dock 
+952 5 1 0 0 
+Light vehicles Vehicle entry 
+and carpark 
+903 10 18 18 18 
+1. Total vehicles, includes both inbound and outbound vehicles expected in any 15-minute period. 
+2. Sound power level taken from SLR measurement data of various medium rigid truck types and models 
+in approximate 5 to 15 tonne range.  
+3. Sound power level taken from SLR measurement data of various light vehicle types and models at 
+speeds of up to around 40 km/h, including vehicle acceleration. 
+It is expected that relatively small only (eg medium rigid trucks, which generally do not use 
+airbrakes) would service the loading area and unloading of goods would be undertaken with 
+hand-operated trolleys during business hours.  One truck would use the loading dock in any 
+15-minute period.  Details of the loading dock noise sources are shown in Table 15.   
+Table 15 Loading Dock Noise Sources 
+Noise Source Sound Power Level, dBA1 Typical Duration of Noise per 
+15 minute period 
+Truck arrive/depart and 
+manoeuvre in loading dock area 
+95 170 seconds 
+Truck reversing alarm 1072,3 20 seconds 
+1. SWLs taken from SLR measurement data of typical loading dock activities at various warehousing and 
+distribution facilities. 
+2. SWL based on recommendation to use broadband reversing alarms, (refer to Appendix E.)   
+3. SWL includes a -3 dB adjustment due to alarms being discrete events.   
+[[page 21]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 20  
+ 
+4.1.1.2 Mechanical Plant 
+The mechanical plant used in the assessment, together with corresponding sound power 
+levels and number of units and locations, are detailed in Table 16.  Data from the 
+manufacturer for the mechanical plant items has been included in Appendix B. 
+Table 16 Mechanical Plant 
+Noise 
+Source 
+Example Unit Sound Power 
+Level1 
+No. Operations 
+Chillers Smardt Evaporative Chiller 
+1850 kWr 
+EB190.4G.F2ARRA.ES20DE.E2D 
+SWL 93 dBA2 
+Side – 88 dBA 
+End – 79 dBA 
+Top – 87 dBA 
+16 24 hours a day 
+Backup 
+generators 
+Rolls Royce MTU 16V4000G84F 
+2185 kW  
+Engine 
+SWL 106 dBA3 
+16 The exhaust stack for the 
+generators may terminate 
+around 1000 mm above the 
+generator enclosure. 
+The backup generators would 
+be tested during daytime 
+hours (see Section 4.1.3.2). 
+Exhaust stack 
+(no muffler) 
+SWL 115 dBA3 
+Load 
+banks 
+Sephco WAR20CL2800C SWL 112 dBA2 
+Side – 108 dBA 
+End – 103 dBA 
+Top – 107 dBA 
+2 One load bank at a time 
+would be used during testing 
+of backup generators. 
+1. Sound power levels taken or derived from the manufacturer specifications for the indicative plant/units, 
+supplemented with spectral data obtained from similar plant items where required. 
+2. Based on the manufacturer sound pressure level at 1 m and adjusted for the area of each radiating 
+surface.  
+3. The design of the generator enclosures, and attenuation for the exhaust, intake/discharge openings will 
+be the responsibility of the contractor.  A design of target of 85 dBA at 1 m (93 dBA Lw) from the 
+enclosure and its components has been nominated, which forms the basis of the modelled SWL. 
+The design of the generator enclosures is yet to be finalised.  The backup generators will be 
+housed in purpose-built enclosures fitted with a specific exhaust muffler and attenuators for 
+the intake and discharge openings.   
+The noise reduction performance of those controls will be confirmed during the detailed 
+design stage of the development, with a design target of 85 dBA at 1 metre from any part of 
+the generator enclosure or the exhaust discharge point to be achieved by the contractor.   
+The intake, discharge and exhaust components of the generators have been modelled as 
+radiating point sources using that design target as the amount of energy radiated from the 
+transmitting surfaces of the generator will not be known until the enclosures, including any 
+mitigation treatments and construction materials, are designed.  This approach is common 
+and acceptable at this stage, and the risk of modelling inaccuracy is reduced due the 
+relatively long separation distances to the most sensitive noise receptors. 
+The chillers and the load banks have been modelled as area-emitting type sources (ie top, 
+sides, and ends) where practical dimensions have been provided and it is acoustically 
+appropriate to do so.  This approach allows the full size of the noise source to be modelled. 
+[[page 22]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 21  
+ 
+4.1.1.3 Data Centre Buildings 
+Mechanical plant items would also be located internally within the data centre buildings.  
+This includes items within the data halls, electrical plant rooms and mechanical corridors.   
+Noise breakout may occur via the data halls building structure, in particular the roof and 
+south-facing facade to the mechanical corridors.  Those elements have also been included 
+in the noise model assuming a basic level construction such that the sound insulation 
+performance of the building design, including any ventilation openings, results in a total 
+radiating sound power level of 93 dBA.  
+This is to provide an indication of the relative contribution to the overall level of breakout 
+noise from the data hall buildings, and to identify any potential issue with this noise source. 
+Breakout noise from the data centre buildings, in particular the data halls ceiling/roof and the 
+south-facing mechanical services corridor facades, would be confirmed in the detailed 
+design stages when mechanical plant design and selection is finalised and the building 
+construction/materials is confirmed.   
+It is expected that a data hall design capable of reducing noise breakout to result in 
+compliant noise levels at receptors would be readily available by way of acoustic upgrades 
+(eg mass layers, insulation, etc) to the ceiling and external walls. 
+4.1.2 Noise Sources with Potential for Sleep Disturbance 
+As the development is proposed to operate 24-hours a day, noise emissions during the 
+night-time require assessment for potential sleep disturbance at the nearest residential 
+receptors. 
+Noise associated with carpark activity including starting a vehicle’s engine and closing the 
+doors is likely to be the only noise source at the development that may potentially cause 
+sleep disturbance reactions in nearby residents.  Noise generated by those short-term 
+‘maxima’ events would be of the order of SWL 100 dBA LAmax. 
+It is noted that mechanical plant noise emissions are relatively constant, and truck 
+movements and loading dock operations are not proposed during the night-time period.   
+4.1.3 Operational Scenarios 
+4.1.3.1 Standard Operation 
+Standard operation of the data centre includes all internal and external mechanical plant 
+together with the vehicle and loading dock activities.   
+An operational scenario of standard operations has been modelled. 
+4.1.3.2 Maintenance Testing of Backup Generators 
+The backup generators require scheduled maintenance and would only be tested during 
+daytime business hours (ie 7:00 am to 5:00 pm Monday to Friday).   
+The maintenance testing would occur four times per year, with a maximum of one generator 
+being tested at a time, accompanied by the load bank.  Standard operations of the data 
+centre are not affected by the maintenance testing. 
+Details regarding the backup generator testing likely to apply to the development have been 
+based on previous similar projects and are shown in Table 17. 
+An operational scenario has been modelled which includes generator testing. 
+[[page 23]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 22  
+ 
+Table 17 Generator Maintenance Testing Regime 
+Parameter Value 
+No of generators 16 
+Test frequency per generator Quarterly 
+Run time per test 60 minutes 
+Number of generators per test 1 
+No of load banks per test 1 or 2 
+Number of tests per day Up to 2 
+Testing schedule 7:00 am – 5:00 pm, Monday – Friday 
+Total testing time for all generators 64 hours per annum 
+(based on one generator per test) 
+Note: Generator tested under low load is to be undertaken such that the emissions do not exceed the POEO 
+(Clean Air) Standard of Concentration for non-scheduled premises. 
+4.1.3.3 Emergency Operations – Use of Backup Generators during Power 
+Outage 
+Operation of backup generators outside of maintenance/testing where one generator at a 
+time is tested, is only expected to occur during an emergency where mains power to the 
+development is lost.  Major power interruptions requiring the simultaneous operation of all 
+standby generators are envisaged to only occur infrequently and for a limited time period. 
+Section 1.4 of the NPfI states that the policy applies to activities listed in Schedule 1 of the 
+Protection of the Environment Operations (POEO) Act.  In Schedule 1 of the POEO Act, 
+Section 17 (1A), it states that:  
+"…this clause does not apply to the generation of electricity by means of 
+electricity plant that is emergency stand-by plant operating for less than 200 
+hours per year"  
+As it is unlikely that emergency generators will be required to operate (not inclusive of 
+testing) for more than 200 hours per annum in a power outage, the use of all generators is 
+outside the application of the NPfI.  
+Notwithstanding, noise level predictions for an emergency scenario with all generators 
+operating concurrently (OP.03) are presented in the assessment for information purposes 
+and are not compared to the NPfI criteria. 
+The assessment has considered simultaneous operation of all 16 generators, however it is 
+likely that all generators would not be required in an emergency scenario as the data centre 
+occupancy would not be at capacity. 
+4.1.3.4 Modelled Operational Scenarios 
+Operational scenarios have been developed to assess the likely noise emissions from the 
+operation of the development.  The scenarios are described in Table 18.   
+[[page 24]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 23  
+ 
+Table 18 Operational Assessment Scenarios 
+Scenario Name Description 
+OP.01 Standard Operations • All equipment operating at peak capacity, except for 
+backup generators (and load banks). 
+• Assessed during daytime, evening and night-time periods. 
+OP.02 Maintenance/Testing 
+Operations 
+• All equipment operating at peak capacity, including 
+concurrent maintenance / testing of one backup generator 
+and one load bank. 
+• Assessed during daytime only. 
+OP.03 Emergency Operations 
+(power outage) 
+• All mechanical plant operating at full capacity and 
+concurrent operation of all backup generators and load 
+banks. 
+4.1.4 Noise Source Inventory 
+A noise source inventory which includes the details of the various operational noise sources 
+at the development is shown in Table 19.   
+Table 19 Noise Source Inventory  
+Category Noise Source Usage Reference for Noise Data 
+Project-
+related 
+traffic 
+Light vehicles Light vehicles would access the 
+development via Wolseley Place 
+and park in the car parks. 
+Up to 20 vehicles would use the 
+carparks in any 15-minute period. 
+Sound power level taken from 
+measurement data of various light 
+vehicle types and models at speeds 
+of up to around 40 km/h, including 
+vehicle acceleration. 
+Medium vehicle Deliveries to the development would 
+be via heavy vehicles.   
+Heavy vehicle deliveries would be 
+limited to medium rigid trucks due to 
+site constraints.  Heavy vehicles 
+would access the development via 
+Wolseley Place and travel to the 
+loading docks.   
+A maximum of one (1) truck would 
+use the loading dock in any 15-
+minute period 
+Sound power level taken from 
+historical measurement data of 
+various medium rigid truck types 
+and models in approximate 5 to 15 
+tonne range. 
+Loading 
+docks 
+Reversing 
+alarms, air 
+brakes, roller 
+doors 
+Heavy vehicle deliveries would be 
+loaded/unloaded via the loading 
+docks.   
+No forklifts would be used. 
+A maximum of one (1) truck would 
+use the loading dock in any 15-
+minute period 
+Sound power level taken from 
+historical measurement data of 
+typical loading dock activities at 
+various warehousing and 
+distribution facilities. 
+[[page 25]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 24  
+ 
+Category Noise Source Usage Reference for Noise Data 
+Data halls Server racks, 
+various 
+mechanical plant 
+(eg heat 
+rejection plant) 
+Internal noise-generating sources 
+would include servers and 
+mechanical plant in the various data 
+halls, electrical plant rooms and 
+heat rejection plant in mechanical 
+services corridors.  
+Details regarding these internal 
+items of equipment are not 
+currently available at this early 
+stage in the development, however, 
+breakout noise from these items is 
+expected to be relatively minor 
+(compared to noise from externally 
+located mechanical plant and 
+testing of backup generators) given 
+the internal plant areas are 
+generally separated from the 
+external facades by service 
+corridors. 
+External 
+mechanical 
+plant 
+Chillers Chillers would be used as a heat 
+exchange for various data centre 
+operations.   
+16 chiller units will be located on a 
+site pad area to the south of the 
+data halls. 
+These units would operate 24 hours 
+a day. 
+Sound power level taken from 
+manufacturer specifications for the 
+indicative units, supplied by the 
+project team. 
+Backup 
+generators 
+Backup generators would be used 
+to provide power to the data centre 
+in the event of loss of mains power. 
+16 backup generators will be 
+located on a site pad area to the 
+south of the data halls. 
+Testing/maintenance is scheduled 
+to occur four times per year. 
+The generators would be housed in 
+custom built containers with 
+exhaust stacks that terminate 
+above roof level.  Design sound 
+power levels were supplied by the 
+project team based in manufacturer 
+specifications and indicative 
+attenuator and silencer designs to 
+meet the project design sound 
+power levels. 
+Load banks The site will have two load banks. 
+The load banks will be located on a 
+site pad area to the south of the 
+data halls.   
+The load banks would be operated 
+only during testing of backup 
+generators and emergency 
+operations. 
+Sound power level taken from 
+manufacturer specifications for the 
+indicative load bank units, supplied 
+by the project team. 
+4.1.5 Weather Conditions 
+Fact Sheet D of the NPfI requires noise assessments to consider the potential effects of 
+noise-enhancing weather conditions, such as wind from the source to the receptor and/or 
+temperature inversions. 
+The nearest sensitive receptors are within 500 m of the proposal site and the effects of 
+weather on noise levels are expected to be minimal.  Notwithstanding, the noise prediction 
+modelling uses ISO 9613-2 algorithms which include noise-enhancing weather conditions 
+including downwind propagation, or equivalently, propagation under a well-developed 
+moderate ground-based temperature inversion.   
+As such, the assessment has conservatively applied noise-enhancing weather conditions for 
+all periods as per Option 1 of Fact Sheet D of the NPfI. 
+[[page 26]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 25  
+ 
+4.2 Construction Noise and Vibration Assessment 
+Noise during construction of the development has also been predicted to the surrounding 
+receptors also using the ISO 9613-2 prediction method within the SoundPLAN software 
+package.   
+Local terrain, receptor buildings and structures were digitised in the noise model to develop 
+a three-dimensional representation of the construction site and surrounding areas.  
+4.2.1 Construction Activities 
+Construction of the site is to be staged.  This assessment has considered construction works 
+and activities that would be required at any time within the construction program. 
+The ICNG requires an assessment of the ‘realistic worst case’ noise emissions for 
+construction scenarios based on proposed works within a 15-minute period.  This is 
+generally associated with works located nearest to a particular receptor and also when the 
+receptors are most exposed to the works. 
+In reality at any particular location, the potential construction noise impacts can vary greatly 
+depending on factors including the following: 
+• The position of the works within the site and distance to the nearest sensitive receptor; 
+• The overall duration of the works; 
+• The intensity of the works; 
+• The time at which the works are undertaken; and 
+• The character of the noise emissions. 
+It is likely that most of the plant would operate continuously for lengthy periods but not often 
+concurrently.   
+Noise levels at sensitive receptors can be substantially lower than the worst-case scenario 
+when the construction works move to a more distant location in a works area.  This concept 
+is shown in Figure 4. 
+Figure 4 Conceptual Illustration of Work Areas 
+ 
+Representative scenarios have been developed to assess the likely impacts from the various 
+construction phases of the proposal.  These scenarios are shown in Table 20. 
+The assessment uses ‘realistic worst-case’ scenarios to determine the impacts from the 
+noisiest 15-minute period that are likely to occur for each work scenario, as required by the 
+ICNG.  The impacts represent construction noise levels without mitigation applied. 
+Total Work 
+Area 
+Worst case Work Area 
+ Distant Work 
+ Area 
+As works move around the site, 
+noise levels typically reduce further 
+from the receptor 
+The “Worst Case” locates all 
+plant and equipment at the 
+closest construction area to the 
+receptor  
+
+[[page 27]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 26  
+ 
+The sound power levels for the construction equipment used in each scenario are presented 
+in Appendix D.   
+Table 20 Construction Equipment 
+Scenario Works Activity Equipment 
+W.01 Earthworks Dozer, excavator, front end loader, vibratory roller, 
+dump truck, water truck 
+W.02 Excavation of hard rock  Rock-breaker, dozer, excavator, front end loader, 
+dump truck, water truck 
+W.03 Construction of internal 
+roads, pads and hardstands  
+Concrete pump, concrete truck/agitator, concrete 
+vibrator, vibratory roller 
+W.04 Construction of structures 
+and equipment installation 
+Elevated working platform, flatbed truck, hand tools, 
+mobile crane 
+4.2.2 Hours of Construction 
+Construction activities for the proposal would only be undertaken during the following hours: 
+• 7:00 am to 6:00 pm, Mondays to Fridays 
+• 8:00 am to 1:00 pm on Saturdays 
+Construction works would not be required on Sundays or Public Holidays. 
+It is understood that the construction program may take up to 18 months to complete. 
+5.0 Assessment of Noise and Vibration Emissions 
+5.1 Operational Noise 
+5.1.1 Predicted Noise Levels 
+Predicted noise levels for the development are shown in Table 21 and Table 22 for standard 
+operations and maintenance/testing respectively.  Table 23 shows the predicted noise levels 
+during an emergency power outage. 
+Noise contours of the predicted noise levels for standard operations, maintenance testing 
+and emergency operations are shown in Appendix C. 
+The predicted noise levels have been compared to the Project Noise Trigger Levels to 
+determine the level of compliance, or otherwise, of the development.   
+In addition, as the proposal includes large mechanical plant items it is appropriate to 
+consider the low frequency component of predicted noise levels at the noise sensitive 
+receptors.  
+This is done, initially, by comparing the predicted noise levels in terms of the C-weighted and 
+A-weighted values.  Further consideration, to determine if any modification to the predicted 
+level is warranted, is required where the dBC value is 15 dB or more than the dBA value.  
+The predicted noise levels where that occurs have been shaded (in red) in Table 21 and 
+Table 22. 
+[[page 28]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 27  
+ 
+Table 21 Operational Noise Assessment – Standard Daytime Operations 
+ID Type Period  PNTL, dBA Predicted Noise Level, 
+LAeq(15minute) 
+Compliance 
+with PNTLs? 
+dBC dBA 
+R01 Residential1 Day 45 44 34 Yes 
+Evening 35 44 34 Yes 
+Night 35 44 34 Yes 
+R02 Residential1 Day 45 43 29 Yes 
+Evening 35 43 29 Yes 
+Night 35 43 29 Yes 
+CCC Education When in use 48 44 33 Yes 
+I01 Industrial When in use 63 58 50 Yes 
+I02 Industrial When in use 63 56 50 Yes 
+I03 Industrial When in use 63 59 54 Yes 
+I04 Industrial When in use 63 59 53 Yes 
+I05 Retail When in use 63 47 35 Yes 
+1. An assessment height of 1.5 metres above ground level for residential buildings up to two-storeys high 
+has been used in accordance with Section 2.6 of the NPfI. 
+It can be seen Table 21 that the PNTL would be achieved at all receptors at all times, 
+including the residential receptors for standard operations.  There are no instances at the 
+receptors expected where low frequency noise would be a strong component of noise from 
+the project. 
+Table 22 Operational Noise Assessment – Maintenance/Testing Operations 
+ID Type Period  PNTL, dBA Predicted Noise Level1, 
+LAeq(15minute) 
+Compliance 
+with PNTLs? 
+dBC dBA3 
+R01 Residential2 Day 45 55 40 (42) Yes 
+R02 Residential2 Day 45 54 38 (40) Yes 
+CCC Education When in use 48 55 39 (41) Yes 
+I01 Industrial When in use 63 70 59 Yes 
+I02 Industrial When in use 63 68 59 Yes 
+I03 Industrial When in use 63 73 63 Yes 
+I04 Industrial When in use 63 72 63 Yes 
+I05 Retail When in use 63 58 41 (43) Yes 
+1. All generator locations were modelled, with the noisiest generator and load bank for each receptor 
+included in the predicted noise level for that receptor. 
+2. An assessment height of 1.5 metres above ground level for residential buildings up to two-storeys high 
+has been used in accordance with Section 2.6 of the NPfI.  
+3. The predicted level in brackets includes a +2B modifying correction factor for low frequency character. 
+[[page 29]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 28  
+ 
+Analysis of the predicted noise levels indicate that, in some instances, noise from the project 
+may have a strong low frequency component resulting in an unbalanced spectrum when 
+observed at the more distant receptors.  Consequently, a modifying correction factor may be 
+applicable to the predicted noise levels. 
+It can be seen in Table 22 that the PNTL would be achieved at all receptors during the 
+daytime maintenance/testing of the generators, including at receptors where low frequency 
+noise may be expected. 
+Notwithstanding that outcome, noise emissions from the project would be considered in 
+further detail at the detailed design stage to confirm the applicability of any modifying 
+correction factors. 
+Table 23 Operational Noise Assessment – Emergency Operations 
+ID Type Period  Predicted Noise Level, 
+dBA LAeq(15minute) 
+R01 Residential1 Day 42 
+R02 Residential Day 40 
+CCC Education When in use 41 
+I01 Industrial When in use 62 
+I02 Industrial When in use 61 
+I03 Industrial When in use 65 
+I04 Industrial When in use 63 
+I05 Retail When in use 43 
+5.1.2 Corrections for “Annoying” Noise Characteristics 
+The NPfI Fact Sheet C procedure for determining when to apply corrections for annoying 
+noise characteristics requires at-receptor noise levels to be considered in terms of the 1/3 
+octave band (“narrowband”) frequency data between 10 Hz and 10 kHz. 
+Manufacturers’ noise data for mechanical plant rarely fully include the information required 
+by NPfI Fact Sheet C, particularly data for frequency bands below 63 Hz.   
+In lieu of suitable manufacturers’ data, NSW EPA suggest that measurement data is 
+gathered at receptors near an equivalent existing facility at distances comparable to the 
+receptor locations potentially affected by the proposed facility and used in the assessment of 
+noise from the proposed facility1.   
+That suggestion, however, requires that an equivalent existing facility exists and is 
+operational, and, in the case of equivalent facilities not operated by the proponent, the facility 
+and it operational details (eg plant type, numbers etc) are reasonably accessible by the 
+proponent of the new proposal. 
+Noise emissions from data centre operations are variable and dependant on many factors, 
+including: 
+• Type, model, load (size) and number of the plant items 
+• The location and orientation of the plant items relative to sensitive receptors 
+ 
+1 Acoustics Australia Vol. 48, No. 2, August 2020 p170–172. 
+[[page 30]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 29  
+ 
+• The operating conditions of the plant items 
+• The design and construction of enclosures and buildings that house the plant items 
+• Noise mitigation integrated into the plant design 
+Some of those factors are known at the DA stage however it is considered unlikely that ‘at-
+receptor’ measurements near an existing data centre would be representative of the noise 
+emissions from the project.  
+Therefore, the only available method to strictly follow the NPfI Fact Sheet C procedure is to 
+conduct ‘at-source’ measurements near to individual equivalent plant items at an existing 
+data centre in order to determine sound power level data.  Similar to ‘at-receptor’ 
+measurements, ‘at-source’ measurements may only be feasible in some circumstances. 
+At this SSDA stage, only relatively basic information is known for the indicative plant items.  
+The specific details of the plant items and any buildings/enclosures will be determined during 
+the detailed design stage.  At that point, noise emission data that is suitable for the 
+application of the NPfI Fact Sheet C methodology is more likely to be available or obtainable. 
+Where source measurement data is not available, it is common and reasonable to use the 
+manufacturer specified noise level data.  Evaluation of the potential for at-receptor annoying 
+characteristics from the project is summarised in Table 24 based on the available 
+manufacturers’ noise data. 
+Specific mitigation measures have not been recommended for the project at this stage.  
+However, during the detailed design, the final plant/equipment selection, building/enclosure 
+constructions and any noise mitigation required to achieve performance specifications, 
+would need to consider their effect on tonal or low frequency noise character at sensitive 
+receptors.   
+Table 24 Modifying Factor Corrections 
+Characteristic Assessment 
+Tonality Several noise sources may potentially include tonal characteristics. 
+Truck reversing safety alarms may emit a prominent tonal noise when reversing into the 
+loading dock.  Analysis of the predicted noise levels indicated that reverse alarm noise 
+would likely be inaudible at the relatively distant residential receptors and largely masked 
+by other more prominent noise sources at other receptors.  Truck activity and the use of 
+reverse alarms is also expected to be infrequent and short in duration. 
+Notwithstanding, broadband reversing alarms have been recommended as a noise 
+mitigation measure (see Appendix E), and therefore it is unlikely that this noise source 
+would result in tonal noise at receptors and no corrections have been applied. 
+For large or multiple mechanical plant items like the backup generators, load banks, 
+chillers and data server racks, it is not practical to conduct an assessment in accordance 
+with NPfI Fact Sheet C in the absence of third-octave data between 10 Hz and 10k Hz.   
+Given the challenges in obtaining such data (as discussed above) together with details of 
+plant items and building/enclosures and any mitigation, it is common and reasonable to 
+use data from manufacturers and other sources. 
+The manufacturer data for the components of the example generator exhaust and engine 
+includes some, but not all, of the 1/3 octave band values required for the NPfI tonality test.   
+However, the manufacturer data is for the engine components which will be housed within 
+purpose-built enclosures and noise control applied to ventilation openings (ie intake and 
+discharge attenuators) and the exhaust (ie muffler).  This information, together with the 
+enclosure structure, will be critical for the calculation of noise propagation from the project 
+site, and thus the determination of tonal character at receptors. 
+To demonstrate the acceptability of the noise at receptors, or otherwise, of the predicted 
+noise levels in terms of the octave band values at the receptors are provided in Table 25 
+and Table 26. 
+[[page 31]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 30  
+ 
+Characteristic Assessment 
+It can be seen that no obvious tonal character was predicted based on the predicted 
+octave band levels.  Consequently, a tonal correction has not been applied to the 
+predicted noise levels at the receptors. 
+However, owing to the lack of suitable data at this stage, and notwithstanding the above 
+outcome, the tonality of the predicted noise levels will require further consideration in 
+accordance with NPfI Fact Sheet C during the detailed design stage to ensure the 
+character of the project noise does not contain a tonal component. 
+It is expected that noise emissions from the mechanical plant would be readily controlled 
+by way of judicious design and construction of the generators enclosures.   
+Similarly, noise breakout, in terms of level and character, from the data halls would be 
+readily controlled by way of judicious design and construction (eg mass layers, insulation, 
+etc) to the ceiling and external walls. 
+Low Frequency Noise levels at receptors from the example mechanical plant were analysed as per the 
+requirements of the NPfI (ie “screening test” – comparison of predicted noise levels in 
+terms of the dBC and dBA values).   
+Noting that the predicted levels do not include source levels for frequencies below 63 Hz, 
+noise levels during standard operations are not expected to result in a low frequency 
+noise component at any receptor. 
+During maintenance testing of the backup generators (including operation of the load 
+banks), noise at some receptors may include a strong low frequency component.  In 
+accordance with the NPfI, further investigation was required. 
+It is not possible at this stage to conduct a detailed assessment of the chiller and load 
+bank noise as the noise data available is in whole octave bands and not third-octave (or 
+‘narrow’) bands, and obtaining suitable data is problematic as discussed above. 
+It is important to note that strong levels of low frequency noise are not associated with 
+several of the plant items likely to be used at the project. 
+For example, high levels of low frequency noise are not associated with chillers that have 
+relatively small fans operating at relatively high speeds.   
+When factoring in noise losses due to propagation (over 400 m to the residences), 
+together with transmission losses due to building/enclosures where applicable, it is not 
+likely that the low frequency noise thresholds would be exceeded, particularly for the 
+frequencies below 31.5 Hz. 
+The exception may be the load banks which were the dominant noise source during 
+generator testing.   
+Consideration of the low frequency noise emissions at the site, in particular the load 
+banks, would be a factor during detailed design to ensure low frequency noise is not a 
+strong component of project noise when observed at receptors. 
+It is expected that mitigation would be readily available, if required, by way of judicious 
+plant selection and location, or noise screening. 
+Notwithstanding, the maximum correction for low frequency noise during the daytime (ie 
+the only time backup generator testing would take place), regardless of its severity or 
+exceedance of the low frequency thresholds, is +2 dB.   
+Adding that correction to the predicted noise levels at the affected receptors would still 
+result in compliance with the PNTLs. 
+Intermittency The NPfI defines intermittent noise as noise heard at the receiver where the level 
+suddenly drops or increases several times during the assessment period, with a 
+noticeable change of at least 5 dB (for eg equipment cycling on and off). 
+Significant noise sources at the project are continuous or steady.  
+The intermittent correction does not apply to daytime or evening periods and nor does it 
+apply to short-term events that emerge above the general industrial noise level.  
+While testing of the backup generators may occur intermittently, the noise generated 
+during the testing is relatively steady.  Additionally, testing is only undertaken during the 
+daytime when no correction is applicable.  No other sources have been identified with 
+potential intermittent characteristics. 
+[[page 32]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 31  
+ 
+Table 25 Operational Noise Assessment – Standard Operations 
+Receptor ID Predicted Noise Level, dB Leq(15minute) 
+Octave Band Centre Frequency, Hz 
+63 125 250 500 1k 2k 4k 8k 
+R01 43 34 31 30 31 25 10 <10 
+R02 42 34 29 25 26 19 <10 <10 
+CCC 44 35 31 29 30 25 10 <10 
+I01 56 51 46 45 47 43 34 22 
+I02 54 48 44 44 47 44 36 20 
+I03 57 51 47 47 50 47 41 30 
+I04 57 51 47 47 50 47 40 30 
+I05 47 39 33 29 31 28 14 <10 
+Table 26 Operational Noise Assessment – Maintenance/Testing  
+Receptor ID Predicted Noise Level, dB Leq(15minute) 
+Octave Band Centre Frequency, Hz 
+63 125 250 500 1k 2k 4k 8k 
+R01 24 26 28 29 33 30 13 <10 
+R02 26 30 30 29 32 29 <10 <10 
+CCC 25 27 27 28 32 29 13 <10 
+I01 39 45 45 47 52 52 40 29 
+I02 37 46 45 46 52 54 43 27 
+I03 44 52 50 51 57 60 50 36 
+I04 43 51 50 52 59 61 50 38 
+I05 28 32 29 29 33 33 19 <10 
+5.1.3 Noise Mitigation 
+The results of the noise modelling have indicated that the proposed site design and 
+nominated plant equipment would be sufficient to achieve the PNTLs.  Therefore, no specific 
+noise mitigation treatment is provided at this time. 
+It is important to note that conclusion is dependent on noise from the emergency backup 
+generator enclosures achieving a design target level of up to 85 dBA at 1 m from any point 
+of the enclosures including the exhaust discharge point.  
+Similarly, the data hall ceiling/roof and south-facing mechanical corridors must also be 
+designed to limit noise breakout.  This would also be addressed in the detailed design 
+stages when mechanical plant design and selection, and building constructions, is finalised.  
+To minimise potential risk of annoying characteristics in operational noise at receptors, 
+including low frequency and/or tonal noise, it is recommended that a review of noise 
+sources, buildings/enclosures and any contractor specified mitigation, is undertake during 
+the detailed design stage of the project.   
+[[page 33]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 32  
+ 
+5.1.4 Sleep Disturbance 
+The predicted night-time maxima noise level at the nearest residences is shown in Table 27.  
+The predictions include noise-enhancing weather conditions described in Section 4.1.5. 
+Table 27 Sleep Disturbance Assessment – Light Vehicle Movements and Parking 
+Receptor 
+Location 
+Maximum Noise Level, dBA LAmax 
+Sleep Disturbance 
+Screening Level 
+Predicted Below Screening Levels 
+R01 52 34 Yes 
+R02 52 25 Yes 
+The above shows that maxima noise levels associated with the carpark activity are predicted 
+to be below the sleep disturbance screening level at the nearest residential receptors.   
+Consequently, maximum noise levels from the development are unlikely to result in sleep 
+disturbance reactions at those receptors and a detailed maximum noise level assessment is 
+therefore not required. 
+5.1.5 Project-Related Road Traffic Noise  
+The number of trucks and other vehicles associated with the construction and operations of 
+the project (refer to Section 4.1.1.1 ) will be low relative to the traffic volumes on Environa 
+Drive and Tompsitt Drive which have been shown in Table 28. 
+Table 28 Surrounding Road Network – Traffic Volumes 
+Road Vehicles per day (approx.)1 
+Environa Drive 13,500 
+Tompsitt Drive 16,000 
+1. From previous assessments undertaken by SLR. 
+It can be seen in Table 28 that the development would not increase the traffic volume on 
+Environa Drive and Tompsitt Drive by at least 60%, so the RNP +2.0 dB criterion would not 
+be exceeded. 
+Therefore, the impact of development-related traffic on the surrounding roads are expected 
+to be negligible and no consideration of mitigation is required. 
+5.2 Construction Noise and Vibration 
+The predicted noise levels at the nearby receptors surrounding the site are shown in 
+Table 29. 
+The predictions represent a realistic “worst-case scenario” where the equipment in each 
+scenario is working concurrently and the nearest location to each receptor.  It is expected 
+that noise levels would frequently be lower than the worst-case levels presented. 
+[[page 34]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 33  
+ 
+Table 29 Predicted Construction Noise Levels – Standard Construction Hours 
+ID Receptor Type NML Predicted Noise Level, dBA LAeq(15minute) 
+W.01  
+Earthworks 
+W.02  
+Excavation of 
+hard rock 
+W.03  
+Construction of 
+internal roads, 
+pads and 
+hardstands 
+W.04  
+Construction of 
+structures and 
+equipment 
+installation 
+R01 Residential  50 55 60 47 49 
+R02 Residential 50 49 55 42 44 
+CCC Education 60 56 62 48 51 
+I01 Industrial 70 69 70 61 57 
+I02 Industrial 70 65 68 58 57 
+I03 Industrial 70 69 73 62 60 
+I04 Industrial 70 70 75 61 59 
+I05 Retail 70 62 67 53 56 
+It can be seen in Table 29 that exceedance of the 75 dBA Highly Noise Affected NML is not 
+predicted. 
+The magnitude of the exceedances of the NMLs are shown in Table 30. 
+Table 30 Predicted Exceedance at Nearest Receptors – Standard Construction Hours 
+ID Receptor Type NML Predicted Exceedance, dB 
+W.01  
+Earthworks 
+W.02  
+Excavation of 
+hard rock 
+W.03  
+Construction of 
+internal roads, 
+pads and 
+hardstands 
+W.04  
+Construction of 
+structures and 
+equipment 
+installation 
+R01 Residential  50 5 10 -- -- 
+R02 Residential 50 -- 5 -- -- 
+CCC Education 60 -- 2 -- -- 
+I01 Industrial 70 -- -- -- -- 
+I02 Industrial 70 -- -- -- -- 
+I03 Industrial 70 -- 3 -- -- 
+I04 Industrial 70 -- 5 -- -- 
+I05 Retail 70 -- -- -- -- 
+Legend (NML 
+exceedances) 
+ = Minor to marginal  
+(1 to 10 dB) 
+ = Moderate 
+(11 to 20 dB) 
+ = High 
+(>20 dB) 
+The predicted exceedances range from 2 dB to 11 dB.  Such exceedances would be 
+considered common in the context of construction projects and is often unavoidable and 
+highlights the need for reasonable and feasible mitigation options to be implemented to 
+minimise potential impacts where possible. 
+[[page 35]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 34  
+ 
+Construction noise levels during earthworks activities including any excavation of hard rock, 
+are predicted to result in minor exceedances of the NMLs at the nearest receptors.  
+The presented impacts would only be expected to occur when noisy work is being completed 
+close to the site boundaries, relative to each receptor.  When work is further from the 
+receptor, or when less noise-intensive equipment is being used, the noise levels and 
+potential impacts would likely be lower.  
+5.2.1 Construction Noise Mitigation 
+Feasible and reasonable construction noise mitigation measures should be applied where 
+exceedances of the NMLs are predicted. 
+In particular, the use of a rock-breaker may result in noise levels in excess of the NMLs.  
+Alternative methods for rock-breaking and bulk earthworks should be investigated if the 
+contractor confirms the need to undertake rock-breaking.   
+If required, noise mitigation by way of a “shroud” for the rock-breaker arm is recommended, 
+together with localised screening positioned as near to the rock-breaker as practicable.   
+Generally, construction noise is not predicted to exceed the NMLs, and therefore specific 
+noise mitigation measures would not be required.   
+Nonetheless, it is recommended that standard and common mitigation measures be used at 
+the site to minimise noise emissions.  Examples of measures that could be applied to the 
+works are provided in the Transport for NSW Construction Noise and Vibration Guideline 
+(see Appendix E). 
+A Construction Noise and Vibration Management Plan (CNVMP) would be prepared before 
+any work begins.   
+This would confirm all potentially impacted receptors, assess the potential noise and 
+vibration impacts from the construction works program and provide details regarding how 
+construction noise would be minimised through the use of all feasible and reasonable 
+mitigation measures.   
+During construction procurement and selection of plant and equipment, guarantees that 
+equipment meets the specified noise emission levels and is free of tonal and low frequency 
+noise emissions should be sought. 
+The CNVMP would also contain procedures for handling complaints, should they occur, and 
+detail any compliance monitoring requirements.  
+5.2.2 Construction Vibration 
+Some of the construction activities may generate significant levels of vibration during: 
+• ‘Earthworks’ when vibratory rollers are being used  
+• ‘Excavation of hard rock’ when rock-breakers are being used 
+• ‘Construction of internal roads, pads and hardstands’ when concrete vibrators and 
+vibratory rollers are used. 
+The residential, retail/commercial and childcare receptors will be sufficiently distant from the 
+site to be outside the minimum working distances for all construction plant/equipment likely 
+to be used during construction.  Therefore, vibration impacts at those receptors are unlikely. 
+Based on the separation distances to the nearby industrial receptors, and the CNVG 
+minimum working distances for vibration-intensive sources likely to be used during 
+construction (refer to Table 13), vibration would not be expected to result in cosmetic 
+[[page 36]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 35  
+ 
+damage to buildings or be perceptible to occupants within buildings where plant items 
+remained within the following ratings: 
+• Vibratory roller – 200 kN (4-6 tonne) 
+• Hydraulic hammer (“Rock-breaker”) – 900 kg (12-18 tonne or “medium” excavator) 
+Where larger/heavier-rated plant is required to be used, there is potential for cosmetic 
+damage to builds and vibration may be perceptible to occupants of nearby buildings.  This 
+would require consideration prior to the commencement of work. 
+5.2.3 Construction Vibration Management and Mitigation 
+In applying the recommended safe working distances, the following is to be noted:  
+• The safe working distances are indicative and will vary depending on the particular 
+plant items in use and the local geotechnical conditions.    
+• The safe working distances for human comfort are conservative and have been 
+based on continuous vibration.  
+Where it is required to use plant items rated higher than those described for a minimum safe 
+working distance of 40 m, or when vibration-intensive plant items are used within 40 m of an 
+occupied building, the following is recommended: 
+• Attended vibration monitoring or “soft-start” vibration trials should be undertaken 
+when works are proposed within the safe working distances to ensure that levels 
+remain below the criterion. 
+• A building condition survey should also be completed both before and after the works 
+to identify existing damage and any proposal related damage.  
+• Minimise consecutive works in the same locality (if applicable).  
+This information would be used to inform the site-specific CNVMP for the development. 
+5.3 Aircraft Noise Intrusion 
+It is expected that an assessment in accordance with AS 2021 would be sufficient to satisfy 
+the requirements of the QPRLEP as the methodology of AS 2021 considers: 
+• Initially, the acceptability, or otherwise, of the site of the proposed noise sensitive 
+development based on the ANEF contours; then if required 
+• The expected aircraft noise level at the site with adequate acoustic mitigation 
+incorporated into the building design to achieve the nominated internal design sound 
+objectives.  
+Table 2.1 of AS 2021 provides the level of acceptability for a building site based on its 
+position relative to ANEF contours.  Table 31 (as reproduced) shows the acceptability of the 
+site for a “Light Industrial” land use. 
+[[page 37]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 36  
+ 
+Table 31 Building Site Acceptability based on ANEF Contour Zones 
+Building Type ANEF Contour Zone 
+Acceptable Conditionally 
+Acceptable 
+Unacceptable 
+Light industrial Less than 30 ANEF 30 to 40 ANEF Greater than 40 ANEF 
+Where a building site is classified as ‘acceptable’, AS 2021 states that “…there is usually no 
+need for the building construction to provide protection specifically against aircraft noise.”   
+Therefore, in accordance with AS2021, the site is acceptable for the proposed use (light 
+industrial) without the need for acoustic upgrades to buildings to protect against aircraft 
+noise. 
+6.0 Cumulative Impacts 
+The NSW Government Cumulative Impact Assessment Guidelines for State Significant 
+Projects requires that the potential combined effect of cumulative impacts on all nearby 
+industrial developments to be considered when assessing potential noise impacts from state 
+significant projects.   
+Cumulative impacts can be caused by the compounding effects of multiple projects in an 
+area, and by the accumulation of effects from past, current and future activities as they arise.   
+6.1 Operational Noise  
+The NSW Noise Policy for Industry states that it aims to limit continuing increases in 
+cumulative industrial noise through the application of amenity noise levels, which are 
+applicable to all industrial noise sources in an area.   
+The policy accounts for potential cumulative impacts by lowering the criteria for each 
+individual development to ensure that the ambient noise level within an area from all 
+industrial noise sources combined remains below the recommended amenity noise levels, 
+where feasible and reasonable.   
+As such (as discussed in Section 3.1.2), the potential cumulative impacts from the 
+development and other potential sources of industrial noise in the area are accounted for in 
+the proposal-specific PNTLs and, therefore, do not require further consideration. 
+6.2 Construction Noise 
+Cumulative construction noise can occur where multiple work activities are being completed 
+near to a particular receptor at the same time.  
+The development is in a new industrial precinct where several lots are currently undergoing 
+construction or would be expected to commence construction at some point in the future. 
+Lots in Wolseley Place with planning approval, according to the Queanbeyan-Palerang 
+Regional Council planning portal, have been described in Table 32. 
+ 
+  
+[[page 38]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 37  
+ 
+Table 32 Nearby Developments – Potential Cumulative Construction Impacts 
+DA Reference Address Development Description Current 
+Status 
+Comments Regarding 
+Cumulative Impacts 
+DA.2024.0083.A 9 Wolseley Place 
+(Lot 11) 
+Construction of a light industrial 
+building , 52 car parking 
+spaces, landscaping and 
+associated site works; 
+Modification: Minor amendment 
+to plans including rooftop 
+mechanical plant 
+Approved 
+18/10/2024 
+Construction commenced 
+DA.2024.0083 9 Wolseley Place 
+(Lots 4, 11) 
+Construction of a light industrial 
+building , 52 car parking 
+spaces, landscaping and 
+associated site works 
+Issued 
+03/07/2024 
+Construction commenced 
+DA.2024.0020 19 Wolseley 
+Place (Lots 7, 8) 
+Construction of two storey light 
+industry development 
+comprising office and 
+warehouse 
+Issued 
+08/10/2024 
+Construction commenced 
+DA.2023.0326.A 19 Wolseley 
+Place (Lot 7) 
+Light industrial and commercial 
+building; Modification: retaining 
+walls and minor alterations 
+Issued 
+23/02/2024 
+Construction commenced 
+DA.2023.0326 19 Wolseley 
+Place (Lot 7) 
+Light industrial and commercial 
+building 
+Issued 
+25/10/2023 
+Construction commenced 
+DA.2023.0168 13 Wolseley 
+Place (Lot 7) 
+Four lot Torrens title subdivision Issued 
+18/09/2023 
+Construction commenced 
+Information pertaining to the planning /development status of other Lots on Wolseley Place 
+was not obtained, however it would be reasonable to conclude that industrial sites would be 
+established on the surround lots to the development in due course. 
+Therefore, it is reasonable to conclude that construction works associated with the 
+development has the possibility of interacting with the current or future construction activities 
+of other nearby sites.  
+Since construction scenarios and equipment for projects in the area may generally require 
+similar items of equipment to the data centre development, concurrent construction work 
+could theoretically increase the worst-case construction noise levels in this report.   
+It is an inherent assumption that construction noise emissions from nearby sites would also 
+be addressed in their respective Construction Noise and Vibration Management Plans, with 
+reasonable and feasible mitigation and controls implemented where impacts are identified.   
+Notwithstanding, the likelihood of worst-case noise levels at any individual receptor being 
+generated by works on different projects at the same time is, however, considered low.   
+The potential cumulative impacts from the proposal and other projects would continue to be 
+considered as the project progresses when detailed construction planning is developed.   
+7.0 Conclusion 
+SLR has assessed the potential construction and operational noise emissions from a 
+proposed data centre development at 300 Lanyon Drive, Jerrabomberra.  The current real 
+property description of the site is Lot 6 in DP 1288362.   
+The development includes the operation of a data centre, which would be in use 24/7.  
+[[page 39]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ 38  
+ 
+The potential noise and vibration emissions from the development have been assessed in 
+accordance with the noise and vibration requirements stipulated in the Secretary’s 
+Environmental Assessment Requirements (SEARs) issued for Project DCI CBR01 Data 
+Centre (SSD-64287712), dated 6 November 2023. 
+The assessment was required to establish Project Noise Trigger Levels (PNTLs) applicable 
+to the development noise emissions at nearby sensitive receptors.  Noise monitoring of the 
+existing ambient environment was undertaken and the results form a component in 
+establishing the PNTLs for the development. 
+A 3D computer model was established to predict noise from the development during 
+standard operations and during regular maintenance/testing of the generators. 
+The operational noise assessment has indicated that, based on the nominated mechanical 
+plant and site design, specific noise controls/mitigation would not be required. 
+The contractor will be responsible for ensuring the design of the generator enclosures 
+(including the exhaust), include adequate mitigation/attenuation to achieve the design target 
+of 85 dBA at 1 m from any part the generator enclosure including the exhaust.   
+Maintenance/testing of emergency backup generators will occur four times per year.  Noise 
+breakout from each generator enclosure and air intake/discharge, together with the engine 
+exhaust and the associated load banks, will require judicious consideration during the 
+detailed design stage.   
+Noise breakout from the data centre buildings, in particular via the roof and south-facing 
+facade to the mechanical corridor, would also require consideration during the detailed 
+design to ensure that the building constructions are adequate to achieve the PNTLs. 
+The potential operational noise emissions and subsequent requirements for mitigation would 
+be confirmed during the detailed design stages when the mechanical services requirements 
+and design are finalised.  This includes a detailed assessment using sound data suitable for 
+the application of NPfI Fact Sheet C. 
+With the inclusion of adequate mitigation, operational noise levels are expected to comply 
+with the NSW NPfI PNTLs at all of the nearest identified receptors.   
+Noise from road traffic related to the development, including construction and operational 
+vehicles, would not be expected to exceed the NSW RMS Road Noise Policy screening 
+threshold as the vehicle numbers would be very low relative to those on Environa Drive and 
+Tompsitt Drive. 
+Noise from construction activities and likely plant/equipment has also been considered. 
+Minor exceedances of the construction Noise Management Levels are predicted at the 
+nearest sensitive receptors during some of the noisier scenarios, particularly when noise-
+intensive items of equipment, such as rockbreakers, are in use.   
+Mitigation, noise control treatments and management practices should be implemented 
+where reasonable and feasible to so.  A range of suitable measures has been provided in 
+this report and would be confirmed as part of a site-specific Construction Noise and Vibration 
+Management Plan (CNVMP). 
+Based on the predicted noise levels and mitigation measures, noise and vibration emissions 
+from the construction and operation of the development would be expected to comply with 
+the project criteria, and thus would be unlikely to be considered offensive or result in adverse 
+impacts at nearby sensitive receptors. 
+ 
+[[page 40]]
+ 
+ 
+Appendix A Noise Monitoring Data 
+DCI Data Centres – CBR01 
+Noise and Vibration Assessment 
+DCI 
+SLR Project No.: 610.032202.00002 
+11 February 2025 
+ 
+[[page 41]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ A-1  
+ 
+ 
+ 
+
+[[page 42]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ A-2  
+ 
+ 
+ 
+
+[[page 43]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ A-3  
+ 
+ 
+ 
+
+[[page 44]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ A-4  
+ 
+ 
+ 
+ 
+
+[[page 45]]
+ 
+ 
+Appendix B Mechanical Plant Data 
+Sheets 
+DCI Data Centres – CBR01 
+Noise and Vibration Assessment 
+DCI 
+SLR Project No.: 610.032202.00002 
+11 February 2025 
+ 
+[[page 46]]
+
+[[page 47]]
+ENGINE TYPE: 16V 4000 G63/G84F ENGINE NO.: V 42.1 
+POWER / SPEED: 2185 kW / 1500 rpm TEST CELL: 128 
+ORDER / PROJECT NO.: DATE MEASURED: 05.12.2005 
+TURBOCHARGER: 4 x GT55 (Garret) 
+INTAKE AIR OPENING: Paper filters (Mann & Hummel) wi thout housing 
+MEASURING DISTANCE: 1 m 
+MEASURING SURFACE DIMENSION: 18.9 dB 
+NO. OF MEASURING POINTS: 12 
+SOUND PROPAGATION: Free-Field 
+MEASUREMENT STANDARD: ISO 6798 
+TOLERANCE: +5 dB for single 1/3-octave band, +2 dB(A ) for total A-weighted level. 
+Energy mean free-field levels of the airborne noise that is emitted by the engine surface. 
+For project purposes only. 
+Energy mean free-field levels, 2185 kW @ 1500 rpm(be-opt) Total: L = 107.4 dB LA = 106.1 dB(A) 
+ f [Hz] 12.5 16 20 25 31.5 40 50 63 80 100 125 160 200 250 315 400 500 
+ LpF [dB] 62.2 62.2 66.1 68.5 78.7 67.7 74.2 77.5 84.7 81.8 87.6 86.3 88. 7 97.5 91.7 92.3 
+     
+ f [Hz] 630 800 1k 1.25k 1.6k 2k 2.5k 3.15k 4k 5k 6.3k 8k 10k 12.5k 16k 20k 
+ LpF [dB] 91.4 92.3 93.4 92.5 93.1 92.9 92.3 91.3 91.7 88.9 88.6 102.1 100.5 
+G:\Twe\Twes\HTBwin83\excel\TVU_Vorlage.xls 
+Engine Surface Noise Analysis - 1/3-Octave 
+16V 4000 G63/G84F 
+AIRBORNE NOISE ANALYSIS 
+2185 kW / 1500 rpm 
+TWE Hopt 
+Date:  15.03.2018 
+Drawing No.:  733 615e 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+110 
+120 
+16 31.5 63 125 250 500 1000 2000 4000 8000 16000 
+Frequency [Hz] , 1/3-Octave 
+RMS Sound-pressure Level [dB] , re: 2xE-5 Pa 
+[[page 48]]
+ENGINE TYPE: 16V 4000 G63/G84F ENGINE NO.: V42.1 
+POWER / SPEED: 2185 kW / 1500 rpm TEST CELL: 128 
+ORDER / PROJECT NO.: DATE MEASURED: 05.12.2005 
+TURBOCHARGER: 4 x GT55 (Garrett)   
+DIAMETER OF EXHAUST GAS PIPE: 400 mm 
+MEASURING DISTANCE: 1 m 
+MEASURING SURFACE DIMENSION: 12.6 dB 
+NO. OF MEASURING POINTS: 2
+PIPE DESIGN AT TEST CELL: Manifold, 2 x 90deg, 12m s traight pipe, horizontal outlet 
+MEASUREMENT STANDARD: ISO 6798 
+TOLERANCE: +5 dB for single 1/3-octave band, +3 dB(A ) for total A-weighted level 
+Energy mean free-field levels of the undampened exhaust gas noise. 
+For project purposes only. 
+Energy mean level, 2185 kW @ 1500 rpm (be-opt) Total : L = 120.5 dB LA = 114.9 dB(A) 
+ f [Hz] 12.5 16 20 25 31.5 40 50 63 80 100 125 160 200 250 315 400 500 
+ LpF [dB] 87.6 89.9 98.4 103.6 103.8 106.4 107.2 108.7 106.5 113.8 110.3 112.4 108.7 110.2 
+     
+ f [Hz] 630 800 1k 1.25k 1.6k 2k 2.5k 3.15k 4k 5k 6.3k 8k 10k 12.5k 16k 20k 
+ LpF [dB] 104.5 103.4 104.3 102.4 102.7 102.9 100.4 96.3 91.6 85.6 78.2 71.2 64.4 
+M:\TVU daten\16V4000 G83\16V4000G63_3D_FO.xls 
+Undampened Exhaust Gas Noise Analysis - 1/3-Octave 
+16V 4000 G63/G84F 
+AIRBORNE NOISE ANALYSIS 
+2185 kW / 1500 rpm 
+TWE Hopt 
+Date:  15.03.2018 
+Drawing No.:  733 628e 
+50 
+60 
+70 
+80 
+90 
+100 
+110 
+120 
+130 
+16 31.5 63 125 250 500 1000 2000 4000 8000 16000 
+Frequency [Hz], 1/3-Octave 
+RMS Sound-pressure Level [dB], re: 2xE-5 Pa 
+[[page 49]]
+SECTION A-A
+CONDENSER REMOVED 
+A A
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+7
+7
+8
+8
+A A
+B B
+C C
+D D
+E E
+F F
+DRAWN BY DATE
+REV SHEET
+SIZE
+UNLESS OTHERWISE SPECIFIED
+IMPERIAL
+TOLERANCES:
+X.XXX = ` 0.003  
+X.XX   = ` 0.01  
+X.X     = ` 0.05
+X        = ` 0.1
+METRIC
+TOLERANCES:
+X.XX = ` 0.25
+X.X   = ` 0.5
+X      = ` 1
+3rd ANGLE PROJECTION
+SCALE
+ANGLES `0~30' 
+TITLE
+DWG. NO.DRAWING UNITS IN METRIC
+UNLESS OTHERWISE SPECIFIED
+DO NOT SCALE THIS DRAWING 1  OF 7 
+A2AJ
+DIMS EB190.4G.F2ARRA.ES20HE.E2D
+(+PUMP KIT+200A AHF+SLIFT V2)
+D55-1220-01
+NTS14/07/2022
+www.smardt.com
+MONTREAL
+PLATTSBURGH
+GUANGZHOU
+SINGAPORE
+MELBOURNE
+STUTTGART
+SMARDT CHILLER GROUP INC.
+THIS DRAWING AND THE INFORMATION CONTAINED
+HEREIN IS PROPRIETARY INFORMATION AND SHALL
+NOT BE REPRODUCED, COPIED, OR DISCLOSED, IN
+WHOLE OR IN PART, OR USED FOR MANUFACTURE OR
+FOR ANY OTHER PURPOSE WITHOUT THE WRITTEN
+PERMISSION OF SMARDT CHILLER GROUP INC.
+COPYRIGHT
+PART. NO.
+SMARDT 
+LIFT REACTOR BOX COM
+PRESSOR
+COMPRESSOR
+POWER DISTRIBUTION
+CNTRL AHF AHF SMARDT 
+LIFT REACTOR BOX AHF PUMP 
+CAB
+REFRIGERANT PIPING THIS SIDE OF CHILLER
+COMPRESSOR
+COMPRESSOR
+NOTES:
+1. DUE TO SMARDT - POWERPAX POLICY OF CONTINUOUS PRODUCT
+IMPROVEMENT, THE INFORMATION PROVIDED BY THIS DOCUMENT 
+IS SUBJECT TO CHANGE WITHOUT NOTICE.
+2. THE FOUNDATION TO SUPPORT THE UNIT SHALL BE FLAT AND 
+MATCH THE BASE FRAME PERIMETER WITH 75mm [3"] FLANGE.
+3. ALL PIPE WORK ATTACHED TO THIS UNIT IS TO BE SELF 
+SUPPORTING.
+4. OPERATING WEIGHT: MODULE A: 10,220 kg
+                                    MODULE B: 9650 kg
+                                    MODULE C: 1850 kg
+                                    TOTAL OPERATING WEIGHT: 21,720 kg
+    SHIPPING WEIGHT: MODULE A: 9960 kg
+                                    MODULE B: 9390 kg
+                                    MODULE C: 1850 kg
+                                    
+11410 MODULE B 11410 MODULE A
+3160
+2330
+2250
+1334
+596
+880
+EVAP
+OUT EVAP
+IN
+2000 FAN
+EXACTION
+SERVICE
+ACCESS
+n20 THRU HOLES
+TOP & BOTTOM FLANGE - 20 PLACES 2000 MIN - UNOBSTRUCTED AIR
+FLOW ALL SIDES & ABOVE FANS
+352600
+5050
+9330
+11375
+11445
+14010
+16460
+20740
+22785
+7512 EVAP IN
+19 EVAP OUT
+1-1/4" FBSP DRAIN
+2 x 1/2" FBSP MAKE-UP
+320
+1916
+2823
+CHW PUMP LOCATION 
+CONTROL WIRING
+1255
+CHW PUMP
+CHW PUMP VSD
+REMOTE SCREEN
+OUTLINE DRAWING FOR:
+PRELIMINARY 
+DIMS EB190.4G.F2ARRA.ES20HE.E2D
+OPERATING WEIGHT: 21,720 kg
+2x DN200 [8"]
+TABLE "E" FLANGE 
+CONNECTION
+2000 SERVICE ACCESS
+- AROUND ALL 4 SIDES OF CHILLER
+1126
+200
+22820
+[[page 50]]
+Smardt Chiller Group
+Smardt Inc.
+1840 Trans Canada Highway
+Dorval, Quebec, H9P 1H7
+Tel: +1 514 426 8989
+EVAPORATIVE CHILLER PERFORMANCE SPECIFICATION 
+*API version: AC23_11_0_BA_01 - Sep 10, 2024
+Project Information
+Project: DCI Data Centres Canberra
+Issued By: John Wisdom
+Date Issued: September 10, 2024
+Chiller Information 
+Chiller Model: EB190.4G.F2ARRA.ES20DE.E2D
+Chiller Type: Evaporative
+Performance Options 
+Smardt Lift: Yes
+High SST Compressor: Yes
+Fan Type:
+With
+High
+Static
+Fans
+Discharge Line Acoustic Wrap: No
+Design Conditions
+Chiller Water Supply Temp 24.00 °C Design Capacity 1850 kWr 
+Chiller Water Return Temp 34.00 °C Average COP 23.89 kW/kW 
+Design Ambient Dry Bulb 41.4 °C Full Load COP 8.402 kW/kW 
+Ambient Wet Bulb 23.8 °C 
+Installation Information
+Chiller Electrical Data Environmental Information
+Electrical Input (V/Ph/Hz) 400/3/50 Type of Refrigerant R1234ze
+Power Input 220.2 kW Refrigerant Charge 710 kg 
+Rated Load Amps (RLA) 360 A Sound Power - Lw db(A) 93.0 dB(A) 
+Minimum Circuit Ampacity (MCA) 428 A Sound Pressure - Lp(A) @ 1 m 68.5 dB(A) 
+Maximum Over Current Protection
+(MOCP) 500 A 
+Design Data
+Evaporator Information Condenser Information
+Evaporator Passes 2 No. of Fans 20 
+Evaporator Connection Size 8 inch Fan Type
+EBM AxiBlade W3G910
+KU2503 980RPM Fan
+(High Static) 
+Evaporator Fluid Water Coil Type 7mm 4-Row Cu/Al Coils
+(Std EB Coils) 
+Evaporator Design Flow Rate 44.52 l/s Elevation above sea level 0 m 
+Evaporator Design Pressure Drop 69.5 kPa External Static Pressure 0 Pa
+Evaporator Minimum Flow 16.21 l/s External Static Volume 0 m³/hr
+Evaporator Pressure Drop at Min Flow 11.5 kPa 
+Evaporator Fouling Factor 0.0180 m²·K/kW 
+Smardt Chiller Group | DCI Data Centres Canberra Page 1 / 3
+[[page 51]]
+Smardt Chiller Group
+Smardt Inc.
+1840 Trans Canada Highway
+Dorval, Quebec, H9P 1H7
+Tel: +1 514 426 8989
+PRIMARY DESIGN CONDITION
+1850 kWr Evap: 34.00/24.00 - Cond: 41.4/23.8 ( 10 load pts )
+Load
+(%) 
+Capacity
+(kWr) 
+COPR
+(kW/kW) 
+Power
+(kW) 
+Evap PD
+(kPa) 
+CHW Flow
+(l/s) 
+CHWR
+(°C) 
+CHWS
+(°C) 
+Amb DB
+(°C) 
+Amb WB
+(°C) 
+Air 
+Volume 
+Water 
+Consumption
+Sound 
+Power 
+dB(A)
+Sound 
+Pressure 
+dB(A)
+100 1850 8.402 220.2 69.5 44.52 34.00 24.00 41.4 23.8 493852 57.95 93.00 68.50
+90 1665 10.53 158.1 69.7 44.52 33.00 24.00 35.9 20.2 451228 47.58 91.50 67.10
+80 1480 13.97 105.9 69.9 44.52 31.99 24.00 30.4 16.7 415444 38.59 90.60 66.20
+70 1295 20.41 63.45 70.1 44.52 30.99 24.00 25.0 13.1 380725 31.04 89.60 65.10
+60 1110 27.27 40.71 70.2 44.52 29.99 24.00 19.5 9.5 263822 18.08 86.60 62.10
+50 925.0 30.64 30.19 70.4 44.52 28.99 24.00 14.0 6.0 187463 10.29 85.30 60.90
+40 740.0 35.99 20.56 70.6 44.52 27.99 24.00 8.5 2.4 151254 0.00 84.60 60.20
+30 555.0 25.12 22.10 70.8 44.52 26.99 24.00 3.1 -1.2 112442 0.00 82.60 58.10
+20 370.0 33.45 11.06 71.0 44.52 25.99 24.00 -2.4 -4.7 53536 0.00 81.50 57.10
+10 185.0 33.07 5.594 71.1 44.52 25.00 24.00 -7.9 -8.3 24437 0.00 79.70 55.20
+Sound Data @ 1 m 
+Description Global 63 Hz 125 Hz 250 Hz 500 Hz 1000 Hz 2000 Hz 4000 Hz 8000 Hz
+Lp(A) @ 100%
+Load 68.5 42.8 47.1 55.0 60.8 64.9 61.7 58.4 54.4
+EB190.4G.F2ARRA.ES20HE.E2D | ID: 81001e2c-b7fd-42e4-8c79-05a6a99911e9 *API version: AC23_11_0_BA_01 - Sep 10, 2024
+Smardt Chiller Group | DCI Data Centres Canberra Page 2 / 3
+[[page 52]]
+OTHER PERFORMANCE REPORTS
+[ EB190.4G.F2ARRA.E 20-Fan ] 1850 kWr Evap: 34.00/24.00 - Cond: 40.0/21.0 ( 20 load pts )
+Load
+(%) 
+Capacity
+(kWr) 
+COPR
+(kW/kW) 
+Power
+(kW) 
+Evap PD
+(kPa) 
+CHW Flow
+(l/s) 
+CHWR
+(°C) 
+CHWS
+(°C) 
+Amb DB
+(°C) 
+Amb WB
+(°C) SDT °C Water 
+Consumption
+Sound 
+Pressure 
+dB(A)
+100 1850 30.00 61.67 11.5 44.52 34.00 24.00 -5 -5 26.75 0.00 64.00
+100 1850 29.11 63.55 11.5 44.52 34.00 24.00 -3 -3 26.60 0.00 64.20
+100 1850 28.57 64.76 11.5 44.52 34.00 24.00 -1 -1 26.60 0.00 64.40
+100 1850 27.08 68.31 11.5 44.52 34.00 24.00 2 2 26.60 0.00 65.00
+100 1850 25.42 72.77 11.5 44.52 34.00 24.00 4 3 26.60 0.00 65.80
+100 1850 22.99 80.47 11.5 44.52 34.00 24.00 6 5 27.30 0.00 66.30
+100 1850 18.60 99.47 11.5 44.52 34.00 24.00 9 7 27.72 0.00 69.20
+100 1850 16.97 109.0 11.5 44.52 34.00 24.00 11 10 29.06 3.38 68.80
+100 1850 18.77 98.55 11.5 44.52 34.00 24.00 14 8 27.59 20.73 69.30
+100 1850 13.37 138.4 11.5 44.52 34.00 24.00 16 14 34.10 6.13 67.30
+100 1850 12.13 152.5 11.5 44.52 34.00 24.00 19 16 36.07 9.33 67.40
+100 1850 13.44 137.7 11.5 44.52 34.00 24.00 21 13 34.00 24.37 67.30
+100 1850 12.19 151.8 11.5 44.52 34.00 24.00 24 15 35.97 27.79 67.40
+100 1850 11.61 159.4 11.5 44.52 34.00 24.00 26 16 37.04 31.04 67.50
+100 1850 10.64 173.9 11.5 44.52 34.00 24.00 29 18 38.98 34.78 67.80
+100 1850 11.26 164.3 11.5 44.52 34.00 24.00 31 16 37.74 46.49 67.50
+100 1850 10.34 178.9 11.5 44.52 34.00 24.00 34 18 39.50 51.36 68.10
+100 1850 10.22 180.9 11.5 44.52 34.00 24.00 36 18 39.72 58.09 68.20
+100 1850 9.067 204.0 11.5 44.52 34.00 24.00 40.0 21.0 42.47 63.83 69.00
+Sound Data @ 1 m 
+Description Global 63 Hz 125 Hz 250 Hz 500 Hz 1000 Hz 2000 Hz 4000 Hz 8000 Hz
+Lp(A) @ 100%
+Load 64 30.2 36.9 45.8 52.9 61.3 58.2 51.6 51.6
+EB190.4G.F2ARRA.ES20HE.E2D | ID: 8a291073-0332-411c-aa37-e1a0865924e5 *API version: AC23_11_0_BA_01 - Sep 09, 2024
+Smardt Chiller Group | DCI Data Centres Canberra Page 3 / 3
+[[page 53]]
+ 
+ 
+Appendix C Noise Contour Maps 
+DCI Data Centres – CBR01 
+Noise and Vibration Assessment 
+DCI 
+SLR Project No.: 610.032202.00002 
+11 February 2025 
+ 
+ 
+[[page 54]]
+DCI Data Centre
+Jerrabomberra
+Standard Operations =
+Daytime
+Appendix C
+FIGURE C1
+Predicted Noise Level
+dBA LAeq(15min)
+ <= 35
+35< <= 40
+40< <= 45
+45< <= 50
+50< <= 55
+55< <= 60
+60< <= 65
+65< <= 70
+70<  
+Legend
+Site Boundary
+Data Hall Building
+Data Hall Roof (Source)
+Chiller
+Truck/Light Vehicle
+Loading Dock
+1.5m Grid Map Height
+0 50 100 200 300
+m
+[[page 55]]
+DCI Data Centre
+Jerrabomberra
+Standard Operations -
+Evening
+Appendix C
+FIGURE C2
+Predicted Noise Level
+dBA LAeq(15min)
+ <= 35
+35< <= 40
+40< <= 45
+45< <= 50
+50< <= 55
+55< <= 60
+60< <= 65
+65< <= 70
+70<  
+Legend
+Site Boundary
+Data Hall Building
+Data Hall Roof (Source)
+Chiller
+Truck/Light Vehicle
+Loading Dock
+1.5m Grid Map Height
+0 50 100 200 300
+m
+[[page 56]]
+DCI Data Centre
+Jerrabomberra
+Maintenance/Testing
+Appendix C
+FIGURE C3
+Predicted Noise Level
+dBA LAeq(15min)
+ <= 35
+35< <= 40
+40< <= 45
+45< <= 50
+50< <= 55
+55< <= 60
+60< <= 65
+65< <= 70
+70<  
+Legend
+Site Boundary
+Data Hall Building
+Data Hall Roof (Source)
+Chiller
+Truck/Light Vehicle
+Loading Dock
+Load Bank
+Generator
+1.5m Grid Map Height
+0 50 100 200 300
+m
+[[page 57]]
+DCI Data Centre
+Jerrabomberra
+Emergency Operations
+Appendix C
+FIGURE C4
+Predicted Noise Level
+dBA LAeq(15min)
+ <= 35
+35< <= 40
+40< <= 45
+45< <= 50
+50< <= 55
+55< <= 60
+60< <= 65
+65< <= 70
+70<  
+Legend
+Site Boundary
+Data Hall Building
+Data Hall Roof (Source)
+Generator
+Chiller
+Truck/Light Vehicle
+Loading Dock
+Load Bank
+1.5m Grid Map Height
+0 50 100 200 300
+m
+[[page 58]]
+ 
+ 
+ 
+Appendix D Construction Noise 
+Sources 
+DCI Data Centres – CBR01 
+Noise and Vibration Assessment 
+DCI 
+SLR Project No.: 610.032202.00002 
+11 February 2025 
+ 
+ 
+[[page 59]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ D-1  
+ 
+Equipment 
+Total SWL 
+Chainsaw1 
+Chipper 
+Concrete Pump 
+Concrete Truck 
+Concrete Vibrator 
+Crane - Mobile (100t) 
+Dozer 
+Elevated Working Platform 
+Excavator (20t) 
+Excavator (30t) + Hydraulic Hammer1 
+Front End Loader 
+Hand Tools 
+Roller - Vibratory1 
+Truck - Dump 
+Truck - Flatbed 
+Water Truck 
+Sound Power Level2  
+ 
+119 120 109 109 113 113 116 97 105 127 112 104 114 110 103 107 
+Estimated on-time in any 
+15 minutes 
+5 15 10 15 5 15 10 15 10 5 10 15 15 10 10 10 
+Scenario                 
+W.01 Vegetation clearing 122 X X       X  X   X  X 
+W.02 Demolition 123       X   X X   X  X 
+W.03 Earthworks 119       X  X  X  X X  X 
+W.04 Excavation of hard rock 126       X  X X X   X  X 
+W.05 Construction of pads, 
+hardstands & ramps 
+113   X X X            
+W.06 Construction of structures 
+& equip. installation 
+114      X  X    X   X  
+Note 1: Equipment classed as ‘annoying’ in the ICNG and requires a 5 dB correction. 
+Note 2: Sound power level data is taken from the DEFRA Noise Database, TfNSW Construction and Vibration Guideline and TfNSW Construction Noise and Vibration 
+Strategy. 
+[[page 60]]
+ 
+ 
+Appendix E CNVG Mitigation 
+Measures 
+DCI Data Centres – CBR01 
+Noise and Vibration Assessment 
+DCI 
+SLR Project No.: 610.032202.00002 
+11 February 2025 
+[[page 61]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ E-1  
+ 
+CNVG Standard Mitigation and Management Measures 
+Action Required  Applies To Details 
+Management Measures 
+Implementation of any 
+project specific 
+mitigation measures 
+required.  
+Airborne noise  Implementation of any project specific mitigation measures 
+required.  
+Implement community 
+consultation or 
+notification measures.  
+Airborne noise 
+Ground-borne 
+noise & vibration  
+Notification detailing work activities, dates and hours, impacts and 
+mitigation measures, indication of work schedule over the night-
+time period, any operational noise benefits from the works (where 
+applicable) and contact telephone number.  
+Notification should be a minimum of seven (7) calendar days prior 
+to the start of works. For projects other than maintenance works 
+more advanced consultation or notification may be required. Please 
+contact Roads and Maritime Communication and Stakeholder 
+Engagement for guidance.  
+Website (If required)  
+Contact telephone number for community  
+Email distribution list (if required)  
+Community drop-in session (if required by approval conditions).  
+Site inductions  Airborne noise 
+Ground-borne 
+noise & vibration  
+All employees, contractors and subcontractors are to receive an 
+environmental induction. The induction must at least include:  
+• all project specific and relevant standard noise and vibration 
+mitigation measures  
+• relevant licence and approval conditions  
+• permissible hours of work  
+• any limitations on high noise generating activities  
+• location of nearest sensitive receptors  
+• construction employee parking areas  
+• designated loading/unloading areas and procedures  
+• site opening/closing times (including deliveries)  
+• environmental incident procedures.  
+Behavioural practices  Airborne noise  No swearing or unnecessary shouting or loud stereos/radios on 
+site.  
+No dropping of materials from height, throwing of metal items and 
+slamming of doors.  
+Verification  Airborne noise  
+Ground-borne 
+noise & vibration  
+Where specified under Appendix C of the CNVG a noise 
+verification program is to be carried out for the duration of the 
+works in accordance with the Construction Noise and Vibration 
+Management Plan and any approval and licence conditions.  
+Attended vibration 
+measurements  
+Ground-borne 
+vibration  
+Where required attended vibration measurements should be 
+undertaken at the commencement of vibration generating activities 
+to confirm that vibration levels are within the acceptable range to 
+prevent cosmetic building damage.  
+Update Construction 
+Environmental 
+Management Plans  
+Airborne noise 
+Ground-borne 
+noise & vibration 
+The CEMP must be regularly updated to account for changes in 
+noise and vibration management issues and strategies.  
+Source controls 
+Construction hours 
+and scheduling 
+Airborne noise 
+Ground-borne 
+noise & vibration 
+Where feasible and reasonable, construction should be carried out 
+during the standard daytime working hours. Work generating high 
+[[page 62]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ E-2  
+ 
+Action Required  Applies To Details 
+noise and/or vibration levels should be scheduled during less 
+sensitive time periods.  
+Construction respite 
+period during normal 
+hours and out-of-hours 
+work  
+Ground-borne 
+noise & vibration 
+Airborne noise 
+See Appendix C of the CNVG for more details on the following 
+respite measures:  
+• Respite Offers (RO)  
+• Respite Period 1 (R1)  
+• Respite Period 2 (R2)  
+• Duration Respite (DR)  
+Equipment selection.  Airborne noise 
+Ground-borne 
+noise & vibration  
+Use quieter and less vibration emitting construction methods where 
+feasible and reasonable.  
+For example, when piling is required, bored piles rather than 
+impact-driven piles will minimise noise and vibration impacts. 
+Similarly, diaphragm wall construction techniques, in lieu of sheet 
+piling, will have significant noise and vibration benefits.  
+Ensure plant including the silencer is well maintained.  
+Plant noise levels.  Airborne-noise The noise levels of plant and equipment must have operating 
+Sound Power or Sound Pressure Levels compliant with the criteria 
+in Appendix H of the CNVG.  
+Implement a noise monitoring audit program to ensure equipment 
+remains within the more stringent of the manufacturer 
+specifications or Appendix H of the CNVG.  
+Rental plant and 
+equipment.  
+Airborne-noise  The noise levels of plant and equipment items are to be considered 
+in rental decisions and in any case cannot be used on site unless 
+compliant with the criteria in Table 2 of the CNVG.  
+Use and siting of plant.  Airborne-noise The offset distance between noisy plant and adjacent sensitive 
+receptors is to be maximised.  
+Plant used intermittently to be throttled down or shut down.  
+Noise-emitting plant to be directed away from sensitive receptors.  
+Only have necessary equipment on site.  
+Plan worksites and 
+activities to minimise 
+noise and vibration.  
+Airborne noise 
+Ground-borne 
+vibration 
+Locate compounds away from sensitive receptors and discourage 
+access from local roads.  
+Plan traffic flow, parking and loading/unloading areas to minimise 
+reversing movements within the site.  
+Where additional activities or plant may only result in a marginal 
+noise increase and speed up works, consider limiting duration of 
+impact by concentrating noisy activities at one location and move to 
+another as quickly as possible.  
+Reduced equipment 
+power  
+Airborne noise 
+Ground-borne 
+vibration 
+Use only the necessary size and power.  
+Non-tonal and ambient 
+sensitive reversing 
+alarms  
+Airborne noise  Non-tonal reversing beepers (or an equivalent mechanism) must be 
+fitted and used on all construction vehicles and mobile plant 
+regularly used on site and for any out of hours work.  
+Consider the use of ambient sensitive alarms that adjust output 
+relative to the ambient noise level.  
+Minimise disturbance 
+arising from delivery of 
+goods to construction 
+sites.  
+Airborne noise Loading and unloading of materials/deliveries is to occur as far as 
+possible from sensitive receptors.  
+Select site access points and roads as far as possible away from 
+sensitive receptors.  
+Dedicated loading/unloading areas to be shielded if close to 
+sensitive receptors.  
+[[page 63]]
+DCI 
+DCI Data Centres – CBR01 
+11 February 2025 
+SLR Project No.: 610.032202.00002 
+SLR Ref No.: 610.032202.00002-R01-v3.0-20250211.docx 
+ 
+ E-3  
+ 
+Action Required  Applies To Details 
+Delivery vehicles to be fitted with straps rather than chains for 
+unloading, wherever possible.  
+Avoid or minimise these out of hours movements where possible.  
+Engine compression 
+brakes  
+Construction 
+vehicles  
+Limit the use of engine compression brakes at night and in 
+residential areas.  
+Ensure vehicles are fitted with a maintained Original Equipment 
+Manufacturer exhaust silencer or a silencer that complies with the 
+National Transport Commission’s ‘In-service test procedure’ and 
+standard.  
+Path controls 
+Screen noise during 
+rock-breaking 
+Airborne noise Use a shroud for rock-breaker attachment to arm of excavator, 
+together with localised screening placed close to the works (as 
+practicable). 
+Shield stationary noise 
+sources such as 
+pumps, compressors, 
+fans etc.  
+Airborne noise  Stationary noise sources should be enclosed or shielded where 
+feasible and reasonable whilst ensuring that the occupational 
+health and safety of workers is maintained. Appendix D of AS 
+2436:2010 lists materials suitable for shielding.  
+Shield sensitive 
+receptors from noisy 
+activities.  
+Airborne noise Use structures to shield residential receptors from noise such as 
+site shed placement; earth bunds; fencing; erection of operational 
+stage noise barriers (where practicable) and consideration of site 
+topography when situating plant.  
+Receptor control 
+Structural surveys and 
+vibration monitoring  
+Ground-borne 
+vibration 
+Pre-construction surveys of the structural integrity of vibration 
+sensitive buildings may be warranted.  
+At locations where there are high-risk receptors, vibration 
+monitoring should be conducted during the activities causing 
+vibration.  
+Building condition 
+surveys  
+Vibration  Undertake building dilapidation surveys on all relevant buildings 
+prior to commencement of activities with the potential to cause 
+property damage  
+See Appendix C of the 
+CNVG for additional 
+measures  
+Airborne noise 
+Ground-borne 
+vibration 
+In some instances, additional mitigation measures may be required.  
+ 
+ 
+[[page 64]]
+ 
+ 
+ 

@@ -26,6 +26,7 @@ they unlock:
 7. #4 and #5 (ES-008's follow-up).
 8. #13, #14 and #16 (ES-009's follow-up).
 9. Then #15, #20, #21 and #27.
+10. #28 (RG-008: the four licences) and #29 (RG-073: the last air quality report), added 2026-11-18 by research batch 8.
 
 All of them are free.
 
@@ -89,6 +90,8 @@ tender portals and the keynote video) were not asked for again.
 | 25 | Ipswich City Council's development application for the Swanbank data centre (Northern Concept Swanb Pty Ltd), with its information request | Ipswich City Council, PD Online | `data/raw/qld_ipswich/swanbank/` | RG-051 | The applicant, site, height and stage of the ten-storey proposal, from the council's own record |
 | 26 | Cloud Carrier's own DB1 page, and any planning record for a data centre at Moss Vale | cloudcarrier.com (robots.txt answers 403); NSW Planning Portal; Wingecarribee Shire Council (its site answered 403) | `data/raw/operators/cloudcarrier/` | RG-101 | Where Cloud Carrier's certified DB1 is, and its status |
 | 27 | IPART's submission to the NSW Legislative Council inquiry into data centres, and IPART's review page on a water pricing framework for data centres | ipart.nsw.gov.au (it closed the connection on 2026-11-18) | `data/raw/operators/ipart/` | RG-042 | IPART's own statement of Sydney Water's data centre demand estimate, in place of the press's '25 per cent' |
+| 28 | The NSW EPA's public register of environment protection licences: the licence, if one was issued, for 51 Huntingwood Drive (SSD-41589232), NEXTDC S4 Horsley Park (SSD-63741210), Marsden Park (SSD-70889211) and Roberts Road as modified (SSD-10330-Mod-2), with its conditions on generator hours, NOx limits and monitoring | epa.nsw.gov.au, POEO public register, search by premises or licence holder (an interactive application that redirected the crawler more than 50 times on 2026-11-18) | `data/raw/registers/nsw_epa/` | RG-008 | The four data centres the EPA said need a licence: whether they hold one, and what it allows |
+| 29 | Project Echidna's air quality report (`project-echidna-eis-appendix-j-air-quality-report-42`, SSD-47320208): larger than the crawler's 120 MB limit | NSW Planning Portal, Project Echidna Data Centre, EIS documents | `data/raw/nsw_planning/documents/` | RG-073 | Which firm wrote the one consent air quality report not yet read |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

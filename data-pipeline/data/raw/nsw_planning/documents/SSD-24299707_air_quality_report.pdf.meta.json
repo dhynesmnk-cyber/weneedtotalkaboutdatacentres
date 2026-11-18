@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-24299707%2120211108T064917.347+GMT",
+ "project_slug": "talavera-road-data-centre-campus-expansion",
+ "attachment_slug": "appendix-15-air-quality-impact-assessment-123",
+ "kind": "air_quality_report",
+ "label": "Appendix 15 - Air Quality Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:23:51+00:00",
+ "sha256": "f9480fc30eca615ad393adc8487e457a8ddbcf09d740dfcedb0eab0f4989d504",
+ "bytes": 8787084,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 166043,
+ "pages": 102,
+ "text_redactions": 3,
+ "pdf_committed": false
+}

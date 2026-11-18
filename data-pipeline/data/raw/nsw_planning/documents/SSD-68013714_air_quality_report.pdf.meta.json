@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-68013714%2120250207T055135.476+GMT",
+ "project_slug": "43-61-turner-road-data-centre",
+ "attachment_slug": "appendix-l-air-quality-technical-report-39",
+ "kind": "air_quality_report",
+ "label": "Appendix L - Air Quality Technical Report.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:15:58+00:00",
+ "sha256": "8857ff828a8444a6068611ba6146889a18e06895bc00712750a07ca5c9586091",
+ "bytes": 23528092,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 68620,
+ "pages": 113,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

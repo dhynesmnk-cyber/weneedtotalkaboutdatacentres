@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-64287712%2120250222T000256.050+GMT",
+ "project_slug": "dci-poplars-data-centre-project-0",
+ "attachment_slug": "appendix-pair-quality-assessment-33",
+ "kind": "air_quality_report",
+ "label": "Appendix P_Air Quality Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:17:38+00:00",
+ "sha256": "fb2ca176dfae6e0b2c2b7096f8044ca5698737d83b1b976fad6184dd8aeb3312",
+ "bytes": 11253471,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 176645,
+ "pages": 103,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

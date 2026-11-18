@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au:443/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10467%2120201113T033237.166+GMT",
+ "project_slug": "macquarie-park-data-centre",
+ "attachment_slug": "appendix-j-noise-and-vibration-impact-assessment-1",
+ "kind": "noise_assessment",
+ "label": "Appendix J - Noise and vibration impact assessment.pdf",
+ "folder": null,
+ "fetched_utc": "2026-11-18T06:20:01+00:00",
+ "sha256": "43c918dede080e3f63c25064e6baad579efe4a8a9aef468170f30b39638ad0da",
+ "bytes": 20706118,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 113982,
+ "pages": 62,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

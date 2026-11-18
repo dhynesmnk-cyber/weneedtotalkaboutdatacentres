@@ -300,7 +300,7 @@ The subsidy register. Covers cash concessions AND in-kind support (fast-tracking
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `ingest_log` (table, 193 rows)
+## `ingest_log` (table, 195 rows)
 
 Audit trail of every curated pack load: what was inserted, updated and rejected.
 
@@ -656,7 +656,7 @@ Physical facilities and proposals. Three capacity fields are stored separately a
 | `confidence` | TEXT |  |
 | `as_of_date` | TEXT |  |
 
-## `source_refs` (table, 840 rows)
+## `source_refs` (table, 875 rows)
 
 Normalised many-to-many link from any table row to a source, with an optional verbatim quote. `entity_table` + `entity_rowid` identify the row; for text-PK tables `entity_rowid` holds the text id (e.g. `SITE_MAMRE_ROAD`), otherwise the integer rowid.
 
@@ -668,7 +668,7 @@ Normalised many-to-many link from any table row to a source, with an optional ve
 | `source_id` | TEXT | NOT NULL → `sources.id` |
 | `quote` | TEXT |  |
 
-## `sources` (table, 307 rows)
+## `sources` (table, 313 rows)
 
 Provenance root. Every factual row points here. Graded A–D by document class, not reputation.
 

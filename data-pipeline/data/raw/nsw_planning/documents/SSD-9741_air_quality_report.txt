@@ -1,0 +1,603 @@
+[[page 1]]
+ 
+ 
+ 
+ 
+ 
+Greenbox Architecture 
+Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+  
+Issue 1  |  17 December 2018 
+ 
+ 
+This report takes into account the particular  
+instructions and requirements of our client.   
+It is not intended for and should not be relied  
+upon by any third party and no responsibility  
+is undertaken to any third party. 
+ 
+Job number    259234 
+  
+ 
+Arup Pty Ltd  ABN 18 000 966 165 
+ 
+Arup 
+Level 5  
+151 Clarence Street 
+Sydney NSW 2000 
+Australia 
+www.arup.com 
+
+[[page 2]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+ 
+ 
+Contents 
+ 
+ Page 
+1 Introduction 1 
+2 Standby Generator Use 2 
+3 Air Quality Assessment 3 
+3.1 Generator Emissions 3 
+3.2 Sensitive Receptors 3 
+3.3 Potential impacts 4 
+4 Conclusion 4 
+ 
+ 
+ 
+Appendices 
+Appendix A 
+Reference Drawings 
+Appendix B 
+Generator Specification 
+ 
+ 
+ 
+[[page 3]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+Page 1 
+ 
+1 Introduction 
+The proposed Sirius Road datacentre at 1 Sirius Road, Lane Cove West (Lot 1/DP 
+1151370) is anticipated to incorporate 51 standby generators within the site 
+boundary to support the buildings’ power requirement for critical IT systems and 
+other site infrastructure in the event of mains power loss or damage of electrical 
+infrastructure on site.  
+The majority of the generators are located along the roof of the building, with the 
+remaining located at grade along the north-western area of the site. Appendix A 
+identifies the design drawings that present the distinct locations of the standby 
+generators. At this stage, the locations of the generators are indicative only, 
+however their current locations are expected to be largely consistent with the final 
+developed design.  
+A qualitative based desktop assessment of the potential air quality impacts from 
+the on-site standby generators has been completed to accompany the State 
+Significant Development Application (SSDA) Submission. 
+  
+[[page 4]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+Page 2 
+ 
+2 Standby Generator Use 
+Data centre components do not easily tolerate power spikes due to switching from 
+a normal to emergency power supply. When these components lose power (if only 
+for a fraction of a second), various IT systems critical to the facility and the 
+service it provides will be interrupted. The proposed site infrastructure includes 
+uninterruptible power supplies (UPS) with battery back-up for power conditioning 
+and short-term interruptions. However, standby generators are needed to ensure 
+ongoing operation if power is interrupted for more than a few minutes. As a result, 
+supplying uninterrupted power to data centres 100% of the time is a critical aspect 
+for their operation. Fundamentally, the function of the standby generators at the 
+site would be to provide power when there is an unexpected interruption of main 
+power.  
+Given the unlikely event of an interruption of main power, the standby generators 
+would switch on to provide power to each of the buildings. It is likely any loss of 
+main power would be resolved quickly, within a few hours and therefore even 
+when required the generators would only operate for a short time. It is not 
+possible to estimate the likelihood of power outage/damage over a year which 
+would require the standby generators to be in operation, however it is anticipated 
+that the generators would only be required for around 50 hours per year 
+(approximately 0.6% of the time).  
+The standby generators would be tested on a monthly basis (approximately one 
+hour of operation per month) to ensure they can continue to provide an 
+uninterrupted power supply when required. Each generator would be tested 
+independent of each other (i.e. not be operating concurrently) and be completed 
+during the daytime period when wind conditions are favourable for dispersion.  
+A photograph of a standby diesel generator similar to the proposed is shown in 
+Figure 1. 
+ 
+Figure 1: Proposed standby diesel generator  
+
+[[page 5]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+Page 3 
+ 
+3 Air Quality Assessment 
+3.1 Generator Emissions 
+While in use, the standby generators would produce total unburned hydrocarbons 
+(HC), nitrogen oxide (NOx), carbon monoxide (CO), particulate matter (PM), 
+sulfur dioxide (SO2) and smoke.  
+At present however, there are no regulations in place in Australia that limit 
+emissions from non-road diesel engines and equipment. Therefore, to determine 
+the likelihood for air quality impacts, a review of the US EPA emission standards 
+(where the generator was developed) and the NSW Protection of the Environment 
+(POEO) Regulation 2010 emission limits against the Cummins QSK95-G4 
+generator specification sheet (see Appendix B) has been completed. The outcomes 
+of the assessment are summarised in Table 1.  
+The comparison indicates that for all pollutants (with the exception of NOx) 
+emission rates will be below the respective US EPA and POEO emission limits. It 
+should be noted that Clause 57A of the POEO (Clean Air) Regulation 2010 states 
+that standby generators are exempt from the air impurity standards for nitrogen 
+dioxide and nitric oxide listed in Schedule 4 of the POEO (Clean Air) regulation 
+2010 if they are used no more than 200 hours per year, which as detailed 
+previously in section 2 is the case for this proposal. 
+Table 1: Emission rate assessment 
+Pollutant Cummins QSK95-
+G41 US EPA3 POEO Regulation 2010 
+ g/kWh2 mg/m3 g/kWh mg/m3 
+HC 0.14 81 0.19 no limit detailed 
+NOx 6.79 3990 0.67 500 
+CO 0.22 150 3.5 no limit detailed 
+PM 0.04 18 0.03 50 
+SO2 0.004 1.8 no limit detailed no limit detailed 
+1 The worst case ¼ Standby performance data has been applied for the Cummins QSK95-G4. 
+2 A conversion from g/BHP-hr to kWh has been applied. 
+3 Nonroad Compression-Ignition Engines: Exhaust Emission Standards (2016), 
+https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100OA05.pdf  
+3.2 Sensitive Receptors 
+The closest sensitive receptors are south-west of the site within the existing 
+commercial precinct at Lane Cove, located approximately 50 metres from the 
+proposed generators. The more sensitive receptors (residential and schools) are 
+located over 400 metres from the site. 
+Potential air quality impacts from the generators upon staff at the data centre are 
+based on occupational criteria for air quality metrics. These are typically several 
+orders of magnitude greater than those provided for the evaluation of 
+environmental impact, this is since environmental criteria are designed to protect 
+the full spectrum of society, including the frail, very young and very old. 
+[[page 6]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+Page 4 
+ 
+Conversely, those who are exposed occupationally are assumed to be fit and 
+healthy individuals. For these reasons, no further assessment of potential 
+occupational air quality impacts has been assessed in this memorandum.  
+3.3 Potential impacts 
+Given the distance of sensitive receivers (residential properties or schools), it is 
+unlikely that local air quality at these locations would be significantly affected 
+even when the standby generators are in operation.  
+However, operation of the generators has the potential to impact local air quality 
+immediately adjacent to the site, particularly concentrations of NOx/NO2, if in 
+operation over a long period of time. While emissions of NOx are exempt from 
+regulatory standards, these emissions can convert to NO2 in the atmosphere and 
+impact on human and ecological health. Therefore, operation of the generators 
+during a power outage or damage event should be minimised as far as possible. 
+This is included in the maintenance strategy for the site and therefore it is 
+expected that this would be achieved under typical circumstances. 
+ 
+4 Conclusion 
+Given that the standby generators will operate within relevant emissions limits, 
+are a considerable distance from sensitive receptors (residential/schools) and are 
+only expected to be used for short, intermittent periods, the air quality impact 
+from them is anticipated to be minor and transient.  
+Therefore, no further air quality assessment (e.g. dispersion modelling) for the 
+proposal has been recommended. 
+ 
+ 
+ 
+[[page 7]]
+  
+ 
+ 
+Appendix A 
+Reference Drawings 
+ 
+[[page 8]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+Page A1 
+ 
+This air quality assessment, and in particular the standby generator locations are 
+presented in the following drawings: 
+ 
+Drawing Title Drawing Number 
+BASEMENT FLOOR PLAN _ RL 6.5 ATSYD2_SSD_DRG_ARC_010 
+GROUND FLOOR PLAN _ RL11.0 ATSYD2_SSD_DRG_ARC_0101 
+FIRST FLOOR PLAN _ RL17.5 ATSYD2_SSD_DRG_ARC_0102 
+SECOND FLOOR PLAN _ RL24.0 ATSYD2_SSD_DRG_ARC_0103 
+ROOF PLAN _RL 30.5 ATSYD2_SSD_DRG_ARC_0104 
+SECTIONS 1 ATSYD2_SSD_DRG_ARC_0200 
+SECTIONS 2 ATSYD2_SSD_DRG_ARC_0201 
+LONG SECTIONS ATSYD2_SSD_DRG_ARC_0202 
+MASTER PLAN - EGRESS DIAGRAM ATSYD2_SSD_DRG_ARC_0900 
+MASTER PLAN - HYDRANT POINT ATSYD2_SSD_DRG_ARC_090 
+ 
+ 
+ 
+ 
+[[page 9]]
+  
+ 
+ 
+Appendix B 
+Generator Specification 
+ 
+[[page 10]]
+  
+Greenbox Architecture Lane Cove West Data Centre 
+SSDA Air Quality Assessment 
+ 
+  | Issue 1 | 17 December 2018 | Arup 
+ 
+Page B1 
+ 
+This air quality study has been undertaken using the attached manufacturer 
+information.  This equipment is still to be competitively tendered – an equivalent 
+unit from another manufacturer may be used.  We expect the equipment to be 
+similar in performance and to meet all relevant Australian Standards. 
+[[page 11]]
+ 
+  power.cummins.com 
+©2017 Cummins Inc.  |  NAD-5916-EN (10/17) 
+Generator set data sheet 
+ 
+ 
+ 
+Model: C3750 D5 
+Frequency: 50 Hz 
+Fuel type: Diesel 
+kVA rating: 3750 Standby 
+ 3350 Prime 
+ 3000 Continuous 
+Emissions level: Unregulated 
+ 
+ 
+ 
+ 
+Fuel consumption 
+Standby Prime Continuous  
+kVA (kW) kVA (kW) kVA (kW) 
+Ratings 3750 (3000) 3350 (2680) 3000 (2400) 
+Ratings without fan1 3844 (3075) 3445 (2756) 3095 (2476) 
+Load 1/4 1/2 3/4 Full 1/4 1/2 3/4 Full 1/4 1/2 3/4 Full 
+US gph 57 100 143 186 52 90 128 166 48 82 116 150 
+L/hr 216 379 541 704 197 341 484 628 182 310 439 568 
+1Ratings for reference with the optional remote radiator cooling configuration. See note 1 under “Alternator data” section. 
+ 
+Engine Standby rating Prime rating Continuous rating 
+Engine model QSK95-G4   
+Configuration Cast iron, vee, 16 cylinder   
+Aspiration Turbocharged and after-cooled  
+Gross engine power output, kWm (bhp) 3213 (4307) 2851 (3822) 2562 (3434) 
+BMEP at set rated load, kPa (psi) 2696 (391) 2392 (347) 2151 (312) 
+Bore, mm (in) 190.0 (7.48)   
+Stroke, mm (in) 210.1 (8.27)   
+Rated speed, rpm 1500   
+Piston speed, m/s (ft/min) 10.5 (2067)   
+Compression ratio 15.5:1   
+Lube oil capacity, L (qt) 647 (684)   
+Overspeed limit, rpm 2070   
+Regenerative power, kW 230   
+ 
+Fuel flow  
+Maximum fuel flow, L/hr (US gph) 1392.9 (368)  
+Maximum fuel inlet restriction with clean filter,  
+kPa (in Hg) 
+13.5 (4)  
+Maximum fuel return line restriction kPa (in Hg) 34 (10)  
+Maximum fuel inlet temperature, °C (°F) 71.1 (160)  
+Maximum fuel outlet temperature, °C (°F) 92.2 (198)  
+ 
+Air    
+Combustion air, m3/min (scfm) 245 (8640) 228 (8050) 215 (7590) 
+Maximum air cleaner restriction with clean filter,  
+mm H2O (in H2O) 
+457 (18)   
+Alternator cooling air, m3/min (cfm) 240 (8476)   
+ 
+ 
+
+[[page 12]]
+ 
+  power.cummins.com 
+©2017 Cummins Inc.  |  NAD-5916-EN (10/17)  
+Exhaust Standby rating Prime rating Continuous rating 
+Exhaust flow at set rated load, m3/min (cfm) 546 (19290) 505 (17840) 473 (16690) 
+Exhaust temperature at set rated load, °C (°F) 404 (760) 392 (737) 381 (718) 
+Maximum back pressure, kPa (in H2O) 7 (28)   
+ 
+Standard set-mounted radiator cooling 
+Ambient design, °C ( °F) 43 (109)   
+Fan load, kWm (HP) 78 (105)   
+Coolant capacity (with radiator), L (US gal) 1120 (296)   
+Cooling system air flow, m3/min (scfm) 3135 (110700)   
+Maximum cooling air flow static restriction, kPa  
+(in H2O) 
+0.12 (0.5)   
+ 
+Optional set-mounted radiator cooling 
+Ambient design, °C ( °F) 52 (126) 
+Fan load, kWm (HP) 78 (105) 
+Coolant capacity (with radiator), L (US gal) 1120 (296) 
+Cooling system air flow, m3/min (scfm) 3135 (110700) 
+Maximum cooling air flow static restriction, kPa  
+(in H2O) 
+0.12 (0.5) 
+ 
+Optional remote radiator cooling 
+Engine coolant capacity, L (US gal) 379 (100)   
+Max flow rate at max friction head, jacket water 
+circuit, L/min (US gal/min) 
+2559 (676)   
+Max flow rate at max friction head, aftercooler circuit, 
+L/min (US gal/min) 
+538 (142)   
+Heat rejected, jacket water circuit, MJ/min (Btu/min) 78.80 (74730) 70.70 (67050) 64.20 (60900) 
+Heat rejected, aftercooler circuit, MJ/min (Btu/min) 19.60 (18560) 16.90 (15990) 14.70 (13940) 
+Heat rejected, fuel circuit, MJ/min (Btu/min) 0.24 (231) 0.21 (203) 0.19 (180) 
+Total heat radiated to room, MJ/min (Btu/min) 23.30 (22070) 20.70 (19660) 18.70 (17690) 
+Maximum friction head, jacket water circuit, kPa (psi) 59 (8.5)   
+Maximum friction head, aftercooler circuit, kPa (psi) 59 (8.5)   
+Maximum static head above engine crank centerline, 
+jacket water circuit, m (ft) 
+18 (60)   
+Maximum static head above engine crank centerline, 
+aftercooler circuit, m (ft) 
+18 (60)   
+Maximum jacket water outlet temp, °C (°F) 104.4 (220) 100 (212) 100 (212) 
+Maximum aftercooler inlet temp, °C (°F) 71.1 (160) 68 (155) 68 (155) 
+Maximum aftercooler inlet temp at 25 °C (77 °F) 
+ambient, °C (°F) 
+46.1 (115)   
+Note: For non-standard remote installations contact your local Cummins representative. 
+ 
+Weights   
+Unit dry weight kgs (lbs) 29500 (65100)  
+Unit wet weight kgs (lbs) 31200 (68771)  
+Note: Weights represent a set with standard features and alternator frame P80X. See outline drawing for weights of other configurations. 
+ 
+Derating factors 
+Standby 
+Full genset power available up to 809 m (2654 ft) at ambient temperatures up to 40 °C (104 °F) and 
+702 m (2303 ft) at ambient temperatures up to 50 °C (122 °F). Above these conditions, derate at 
+3.3% per 305 m (1000 ft) and 2% per 10 °C (18 °F). 
+Prime 
+Full genset power available up to 1451 m (4760 ft) at ambient temperatures up to 40 °C (104 °F) and 
+1023 m (3356 ft) at ambient temperatures up to 50 °C (122 °F). Above these conditions, derate at 
+3.4% per 305 m (1000 ft) and 8% per 10 °C (18 °F). 
+Continuous 
+Full genset power available up to 2333 m (7654 ft) at ambient temperatures up to 40 °C (104 °F) and 
+1680 m (5512 ft) at ambient temperatures up to 50 °C (122 °F). Above these conditions, derate at 
+3.7% per 305 m (1000 ft) and 8% per 10 °C (18 °F). 
+ 
+ 
+[[page 13]]
+ 
+  power.cummins.com 
+©2017 Cummins Inc.  |  NAD-5916-EN (10/17)  
+Ratings definitions 
+Emergency Standby Power 
+(ESP): 
+Limited-Time Running Power 
+(LTP): 
+Prime Power (PRP): Base Load (Continuous) 
+Power (COP): 
+Applicable for supplying power 
+to varying electrical load for the 
+duration of power interruption of 
+a reliable utility source. 
+Emergency Standby Power 
+(ESP) is in accordance with  
+ISO 8528. Fuel Stop power in 
+accordance with ISO 3046,  
+AS 2789, DIN 6271 and  
+BS 5514. 
+Applicable for supplying power 
+to a constant electrical load for 
+limited hours. Limited-Time 
+Running Power (LTP) is in 
+accordance with ISO 8528. 
+Applicable for supplying power 
+to varying electrical load for 
+unlimited hours. Prime Power 
+(PRP) is in accordance with  
+ISO 8528. Ten percent overload 
+capability is available in 
+accordance with ISO 3046,  
+AS 2789, DIN 6271 and  
+BS 5514. 
+Applicable for supplying power 
+continuously to a constant 
+electrical load for unlimited 
+hours. Continuous Power 
+(COP) is in accordance with 
+ISO 8528, ISO 3046, AS 2789,  
+DIN 6271 and BS 5514. 
+ 
+Alternator data1 
+Voltage Connection Temp rise ºC Duty2 
+Max surge  
+kVA Winding No. Alternator Feature code 
+380 Wye, 3-phase 150/125/105 S/P/C 11145 12 ADS-532 B595-2 
+380-440 Wye, 3-phase 150/125 S/P 11146 12 ADS-532 B667-2 
+380 Wye, 3-phase 105 P 11145 12 ADS-532 B630-2 
+400 Wye, 3-phase 125 S 11146 12 ADS-532 BA63-2 
+400 Wye, 3-phase 105 P 11146 12 ADS-532 BA62-2 
+400-415 Wye, 3-phase 125 P 10132 12 ADS-531 B635-2 
+400 Wye, 3-phase 105 C 11146 12 ADS-532 BA61-2 
+415 Wye, 3-phase 125 S 11146 12 ADS-532 BA68-2 
+415 Wye, 3-phase 105 P 11146 12 ADS-532 BA66-2 
+415 Wye, 3-phase 105 C 11146 12 ADS-532 BA65-2 
+440 Wye, 3-phase 105 C 11025 12 ADS-532 BA71-2 
+440 Wye, 3-phase 105 P 11025 12 ADS-532 B658-2 
+690 Wye, 3-phase 125 S 11970 65 ADS-586 BA77-2 
+690 Wye, 3-phase 150 S 11970 65 ADS-586 BA78-2 
+690 Wye, 3-phase 105 P 11970 65 ADS-586 BA74-2 
+690 Wye, 3-phase 125 P 9960 65 ADS-531 BA76-2 
+690 Wye, 3-phase 80 C 11970 65 ADS-586 BA72-2 
+690 Wye, 3-phase 105 C 11970 65 ADS-586 BA73-2 
+3300 Wye, 3-phase 80 S 14880 8003 ADS-592 B620-2 
+3300 Wye, 3-phase 105 S 10845 51 ADS-587 BA80-2 
+3300 Wye, 3-phase 125/105/80 S/P/C 10845 51 ADS-587 B470-2 
+3300 Wye, 3-phase 150 S 9481 51 ADS-545 BB78-2 
+3300 Wye, 3-phase 80 P 10845 51 ADS-587 BA79-2 
+3300 Wye, 3-phase 105 P 9481 51 ADS-545 B372-2 
+3300 Wye, 3-phase 125 P 9481 51 ADS-545 BB79-2 
+3300 Wye, 3-phase 105 C 10845 51 ADS-587 B471-2 
+6000 Wye, 3-phase 80 S 14170 8010 ADS-591 BA83-2 
+6000 Wye, 3-phase 105 S 12728 8008 ADS-589 BA86-2 
+6000 Wye, 3-phase 125 S 10463 71 ADS-534 BB80-2 
+6000 Wye, 3-phase 80 P 10463 71 ADS-534 BA82-2 
+6000 Wye, 3-phase 105 P 8866 71 ADS-533 BA85-2 
+6000 Wye, 3-phase 80 C 10463 71 ADS-534 BA81-2 
+6000 Wye, 3-phase 105 C 8866 71 ADS-533 BA84-2 
+6300/6600 Wye, 3-phase 80 S 14685 8009 ADS-590 B642-2 
+6300 Wye, 3-phase 105 S 13160 8007 ADS-588 B497-2 
+6300 Wye, 3-phase 125 S 10727 61 ADS-534 BA88-2 
+6300 Wye, 3-phase 80 P 13770 8008 ADS-589 B645-2 
+6300 Wye, 3-phase 105 P 10727 61 ADS-534 B498-2 
+6300 Wye, 3-phase 80 C 10727 61 ADS-534 BA87-2 
+6300 Wye, 3-phase 105 C 10727 61 ADS-534 B482-2 
+ 
+[[page 14]]
+ 
+For more information contact your local Cummins distributor 
+or visit power.cummins.com 
+ 
+   
+ 
+©2017 Cummins Inc. All rights reserved. Cummins is a registered trademark of Cummins Inc. PowerCommand, AmpSentry, InPower  and “Our energy working for you.” are trademarks of 
+Cummins Inc. Other company, product, or service names may be trademarks or service marks of others. Specifications are subject to change without notice. 
+NAD-5916-EN (10/17) 
+Alternator data1 (continued) 
+Voltage Connection Temp rise ºC Duty2 
+Max surge  
+kVA Winding No. Alternator Feature code 
+6600 Wye, 3-phase 105 S 10656 61 ADS-534 B679-2 
+6600 Wye, 3-phase 125 S 10656 61 ADS-534 BA91-2 
+6600 Wye, 3-phase 80 P 14175 8008 ADS-589 BA89-2 
+6600 Wye, 3-phase 105 P 9378 61 ADS-533 BA90-2 
+6600 Wye, 3-phase 80 C 10656 61 ADS-534 B828-2 
+6600 Wye, 3-phase 105 C 9378 61 ADS-533 B793-2 
+10k Wye, 3-phase 80 S 14399 8024 ADS-591 BA93-2 
+10k Wye, 3-phase 105 S 13500 8022 ADS-589 BA94-2 
+10k Wye, 3-phase 125 S 10427 81 ADS-534 BA95-2 
+10k Wye, 3-phase 80 P 13500 8022 ADS-589 BA92-2 
+10k Wye, 3-phase 105 P 10427 81 ADS-534 B494-2 
+10k Wye, 3-phase 80 C 10427 81 ADS-534 B794-2 
+10k Wye, 3-phase 105 C 9125 81 ADS-533 B474-2 
+10.5k Wye, 3-phase 80 S 14240 8023 ADS-590 BA98-2 
+10.5k Wye, 3-phase 105 S 12784 8021 ADS-588 BB01-2 
+10.5k Wye, 3-phase 125 S 12784 8021 ADS-588 BB02-2 
+10.5k Wye, 3-phase 80 P 13770 8022 ADS-589 BA97-2 
+10.5k Wye, 3-phase 105 P 10665 83 ADS-534 BA99-2 
+10.5k Wye, 3-phase 80 C 12784 8021 ADS-588 BA96-2 
+10.5k Wye, 3-phase 105 C 9333 83 ADS-533 B475-2 
+11k Wye, 3-phase 80 S 14685 8023 ADS-590 B624-2 
+11k Wye, 3-phase 105 S 11656 8021 ADS-588 B477-2 
+11k Wye, 3-phase 125/105/80 S/P/C 10613 83 ADS-534 B648-2 
+11k Wye, 3-phase 80 P 13770 8022 ADS-589 B985-2 
+11k Wye, 3-phase 105 C 9288 83 ADS-533 B478-2 
+ 
+Notes: 
+1 Alternator data is configured for a set with ratings including engine cooling fan losses and standard features at 40 °C 
+ambient temperature. For non-standard configurations, including remote radiator applications, check appropriate alternator 
+data sheets or contact your local Cummins representative. 
+2 Standby (S), Prime (P) and Continuous ratings (C). 
+3 Maximum rated starting kVA that results in a minimum of 90% of rated sustained voltage during starting. 
+ 
+ 
+Warning: Back feed to a utility system can cause electrocution and/or property damage. Do not connect to any building’s 
+electrical system except through an approved device or after building main switch is open. 
+ 
+ 
+ 
+ 
+ 
+[[page 15]]
+Exhaust emission data sheet 
+C3750 D5 
+50 Hz Diesel generator set 
+Cummins Inc. Data and specification subject to change without notice EDS-1209b 
+  (1/18) 
+   
+ 
+Engine Information: 
+Model: Cummins Inc. QSK95-G4 Bore: 7.48 in. (190 mm) 
+Type: 4 Cycle, VEE, 16 cylinder diesel Stroke: 8.27 in. (210 mm) 
+Aspiration: Turbocharged and Aftercooled  Displacement: 5816 cu. in. (95.3 liters) 
+Compression Ratio: 15.5:1   
+Emission Control Device: Turbocharged and Aftercooled   
+Emission Level: Stationary emergency   
+ 
+ 1/4 1/2 3/4 Full Full Full 
+Performance Data Standby Standby Standby Standby Prime Continuous 
+Engine BHP @ 1500 RPM (50 Hz) 1145 2185 3225 4308 3822 3433 
+Fuel Consumption L/Hr (US Gal/Hr) 216 (57) 371 (98) 537 (142) 723 (191) 636 (168) 575 (152) 
+Exhaust Gas Flow m³/min (CFM) 205 (7251) 317 (11195) 443 (15664) 560 (19765) 510 (18022) 473 (16705) 
+Exhaust Gas Temperature °C (°F) 331 (627) 378 (713) 383 (722) 413 (776) 391 (763) 384 (723) 
+       
+Exhaust Emission Data       
+HC (Total Unburned Hydrocarbons) 0.19 (81) 0.09 (46) 0.08 (40) 0.06 (31) 0.06 (33) 0.08 (41) 
+NOx (Oxides of Nitrogen as NO2) 9.1 (3990) 9.3 (4540) 7.6 (3800) 7.4 (3700) 7.3 (3670) 7 (3500) 
+CO (Carbon Monoxide) 0.3 (150) 0.2 (110) 0.1 (30) 0.1 (40) 0.1 (30) 0.1 (30) 
+PM (Particulate Matter) 0.05 (18) 0.01 (6) 0.01 (3) 0.01 (4) 0.01 (3) 0.01 (3) 
+SO2 (Sulfur Dioxide) 0.005 (1.8) 0.004 (1.8) 0.004 (1.8) 0.004 (1.7) 0.004 (1.7) 0.004 (1.8) 
+Smoke (FSN) 0.35 0.16 0.08 0.11 0.08 0.08 
+All values (except smoke) are cited: g/BHP-hr (mg/Nm³ @ 5% O2) 
+ 
+Test Conditions 
+ 
+Steady-state emissions recorded per ISO8178-1 during operation at rated engine speed (+/-2%) and stated constant load  
+(+/-2%) with engine temperatures, pressures and emission rates stabilized. 
+ 
+Fuel Specification:  40-48 Cetane Number, 0.0015 Wt.% Sulfur; Reference ISO8178-5, 40 CFR 86, 1313—98 Type 
+2-D and ASTM D975 No. 2-D. Fuel Density at 0.85 Kg/L (7.1 lbs/US Gal) 
+Air Inlet Temperature 25 °C (77 °F) 
+Fuel Inlet Temperature: 40 °C (104 °F) 
+Barometric Pressure:  100 kPa (29.53 in Hg) 
+Humidity: NOx measurement corrected to 10.7 g/kg (75 grains H2O/lb) of dry air 
+Intake Restriction: Set to 18 in of H2O as measured from compressor inlet 
+Exhaust Back Pressure: 
+ 
+Note: 
+ 
+Set to 1.5 in Hg 
+ 
+mg/m³ values are measured dry, corrected to 5% O2 and normalized to standard temperature 
+and pressure (0°C, 101.325 kPa) 
+  
+The NOx, HC, CO and PM emission data tabulated here are representative of test data taken from a single engine under the test conditions 
+shown above. Data for the other components are estimated. These data are subjected to instrumentation and engine-to-engine variability. Field 
+emission test data are not guaranteed to these levels. Actual field test results may vary due to test site conditions, installation, fuel specification, 
+test procedures and instrumentation. Engine operation with excessive air intake or exhaust restriction beyond published maximum limits, or with 
+improper maintenance, may results in elevated emission levels. 
+ 

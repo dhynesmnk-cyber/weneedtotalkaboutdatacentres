@@ -350,6 +350,56 @@ Download priority now follows the essays they unlock: #22 and #26 (ES-013);
 (ES-002's); #4 and #5 (ES-008's); #13, #14 and #16 (ES-009's); then #15, #20,
 #21 and #27.
 
+#### Batch 8, first pass (2026-11-18)
+
+Pack `data/packs/batch8_open_questions.json` (`scripts/curate_batch8.py`). It
+touches 23 questions. Unresolved after it: 68, of which 14 are `blocked`,
+37 in progress and 17 open. The tables below are the snapshot taken after
+batch 7, and this list is what changed.
+
+- **Resolved: RG-062.** No consent or modification relies on the Guidelines'
+  definition of recycled water. The closest usage, rainwater tanks under
+  "Recycled water and reuse" at DigiCo SYD1, predates the Guidelines.
+- **Resolved: RG-075.** The pass opened all five public review letters. In
+  each, the reviewer is a different firm from the author.
+  - Every review was engaged by the applicant, its planner or the report's own
+    author. None was engaged by the Department.
+  - The two acoustic reviews did no remodelling.
+  - One firm wrote all three greenhouse reviews. At Project Atlas, the author
+    of the greenhouse report engaged that reviewer.
+- **Advanced: RG-073.** The firm behind 35 acoustic and air quality reports
+  (18 consents), read from each report's own pages. In three of the six consents
+  held by a consultancy, that consultancy wrote its own evidence.
+- **Advanced: RG-061.** These counts are computed from the 20 instruments:
+  - 15 consents cap generators at 200 hours a year, the line in the
+    Guidelines;
+  - the three decided since July 2026 set 170, 173 and 187 hours, and the 187
+    is the applicant's own figure;
+  - 13 cap diesel at 2,000 tonnes.
+
+  At Macquarie Park, the environment regulator itself recommended the 200-hour
+  cap "To ensure an EPL is not required".
+- **Blocked: RG-008, on download #28.** Four sites need a licence, according to
+  the reports: 51 Huntingwood Drive, NEXTDC S4, Marsden Park, and Roberts Road
+  as modified. At Khartoum Road, the regulator does not consider itself the
+  authority for air emissions, because no licence is required. RG-008 is now
+  cited, so it publishes: 96 questions load.
+- **Zero spend.** These questions are set to `blocked`, naming the request:
+  - RG-021, 035, 037, 057, 059 and 064: GIPA-001's items;
+  - RG-058: GIPA-003;
+  - RG-017: the four water requests;
+  - RG-006, 087, 089 and 093: the four free Commonwealth FOIs, until the author
+    lodges them and a reply comes.
+
+  RG-036, 050, 052 and 081 say they wait on paid extracts.
+- **Proposed to the author for closing as resolved-negative:** RG-076 and
+  RG-090. The pack closes neither.
+- **New downloads:** #28 (the EPA register) and #29 (Project Echidna's air
+  quality report, over the crawler's size limit).
+
+Still for batch 8's second pass: RG-003, 007, 013, 018, 019, 025, 027, 034,
+043, 053, 063, 068, 069, 080, 088, 091, 097, 100, 101, 102, 103, 104 and 106.
+
 #### A. Agent work on free sources, for an essay (13)
 
 | Question | Status | Essay | Next action | What it asks |
@@ -777,14 +827,24 @@ claim rests on records the database holds; until then its gaps are listed here.
 - **Reader action.** A question for each state's planning minister (by role) on
   how a gigawatt load in a regional area is assessed.
 
-#### ES-015 "Who checks the consultants" (C2). Deep dive if batch 8's authorship work lands
+#### ES-015 "Who checks the consultants" (C2). Drafted as "The applicant hires the checker" (brief), waiting for approval
 
-- **Claim, to be tested.** The firms that hold data centre consents in their own
-  name (Arup, Cundall, Lehr, Greenbox) also author technical evidence, and peer
-  review is commissioned on about one project in twenty.
-- **Evidence in hand.** RG-073, RG-074, RG-075 notes; the consultancy profiles.
-- **Waits on.** Batch 8's appendix-by-appendix authorship record; download #11
-  (contracts between the firms and the assessors).
+- **Claim, as tested by batch 8.** The applicant engages the firm that writes
+  the noise, air and greenhouse evidence, and the applicant, its planner or the
+  report's own author engages the firm that checks it. The Department engages
+  neither.
+  - Three of the six consents held by a consultancy or design practice carry
+    evidence written by that same firm: Turner Road and Project Echidna (Arup)
+    and Davis Road (Cundall).
+  - Review documents appear on 6 of 63 projects, about one in ten (the earlier
+    estimate was one in twenty). The two acoustic reviews did no remodelling.
+  - One firm wrote all three greenhouse reviews. At Project Atlas, the
+    report's author engaged the reviewer.
+- **Evidence in hand.** RG-073 and RG-075 (resolved), the five review letters,
+  35 reports read for their authors, and RG-074's applicants.
+- **Why a brief.** The contract half of the claim, whether these firms also work
+  for the assessors, waits on download #11 (RG-074). It becomes a follow-up when
+  that lands.
 - **Reader action.** A question for the Planning Secretary: will the Department
   name every technical appendix's author and require independent peer review of
   acoustic and air quality evidence?
@@ -816,7 +876,7 @@ The editor links it from the original in `/admin`.
 | 0 | Now | R2.0 and R2.1. The author approves ES-000 and ES-001, lodges the requests, and starts the downloads |
 | 1 | Now, from evidence in hand | ES-003, ES-004, ES-006, ES-009 (all drafted) |
 | 2 | As each group of downloads arrives | ES-002, ES-008, ES-010 and ES-005 are drafted as briefs from what is in hand; ES-007 and ES-002's deep dive wait on the downloads |
-| 3 | Now and as downloads arrive (2026-11-18) | ES-011 and ES-013 from evidence in hand; ES-015 after batch 8; ES-012 after download #2; ES-014 after downloads #23 to #25 |
+| 3 | Now and as downloads arrive (2026-11-18) | ES-011, ES-013 and ES-015 drafted; ES-012 after download #2; ES-014 after downloads #23 to #25 |
 | 4 | As downloads and the free Commonwealth replies arrive | Follow-up pieces (ES-016 onward). Never silent edits to an approved essay |
 
 ## How an essay moves

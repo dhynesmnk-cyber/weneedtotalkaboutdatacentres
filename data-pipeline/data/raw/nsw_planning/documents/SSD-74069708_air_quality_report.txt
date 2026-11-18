@@ -1,0 +1,4823 @@
+[[page 1]]
+ 
+Project Apollo Data Centre (4-10 
+Talavera Road, Macquarie Park) 
+SSD-74069708 Air Quality Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+The Hayesbery  
+1-11 Hayes Road  
+Rosebery NSW 2018 
+ 
+Prepared by: 
+SLR Consulting Australia 
+Tenancy 202 Submarine School, Sub Base 
+Platypus, 120 High Street, North Sydney NSW 
+2060, Australia 
+ 
+SLR Project No.: 610.031918 
+13 February 2025 
+Revision: v1.1 
+ 
+[[page 2]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-
+20250213.docx 
+ 
+ i  
+ 
+Revision Record 
+Revision Date Prepared By Checked By Authorised By 
+V1.1 13 February 2025 K.Barker 
+F Jafarigol 
+V.Marwaha V.Marwaha 
+V1.0 6 December 2024 K.Barker 
+V Marwaha 
+V.Marwaha V.Marwaha 
+     
+     
+     
+Basis of Report 
+This report has been prepared by SLR Consulting Australia (SLR) with all reasonable skill, 
+care and diligence, and taking account of the timescale and resources allocated to it by 
+agreement with Goodman Property Services (Aust) Pty Ltd (the Client). Information reported 
+herein is based on the interpretation of data collected, which has been accepted in good 
+faith as being accurate and valid.   
+This report is for the exclusive use of the Client. No warranties or guarantees are expressed 
+or should be inferred by any third parties. This report may not be relied upon by other parties 
+without written consent from SLR.   
+SLR disclaims any responsibility to the Client and others in respect of any matters outside 
+the agreed scope of the work.   
+ 
+[[page 3]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ ii  
+ 
+Table of Contents 
+Basis of Report ................................ ................................ ................................ .................... i 
+1.0 Introduction ................................ ................................ ................................ ................ 1 
+2.0 The Site ................................ ................................ ................................ ....................... 3 
+3.0 Potential Sources of Emissions to Air ................................ ................................ ...... 5 
+4.0 Regulatory Framework ................................ ................................ ...............................  6 
+4.1 Protection of the Environment Operations (POEO) Act 1997 & Amendment Act 2011 . 6 
+4.2 Protection of the Environment Operations (Clean Air) Regulation 2022 ........................ 6 
+4.3 Local Air Quality Toolkit ................................ ................................ ................................  8 
+4.4 Approved Methods for the Modelling and Assessment of Air Pollutants in NSW .......... 8 
+5.0 Existing Environment ................................ ................................ ...............................  10 
+5.1 Topography ................................ ................................ ................................ ................ 10 
+5.2 Land Use and Sensitive Receptors ................................ ................................ ............ 10 
+5.3 Local Meteorology ................................ ................................ ................................ ...... 14 
+5.4 Background Air Quality ................................ ................................ ...............................  17 
+5.5 Local Air Pollutant Sources ................................ ................................ ........................ 21 
+6.0 Construction Air Quality Assessment ................................ ................................ .... 23 
+6.1.1 Step 1 – Screening Based on Separation Distance ................................ .................... 23 
+6.1.2 Step 2a – Assessment of Scale and Nature of the Works ................................ ........... 23 
+6.1.3 Step 2b – Risk Assessment ................................ ................................ ........................ 24 
+6.1.4 Step 3 - Mitigation Measures ................................ ................................ ...................... 25 
+6.1.5 Step 4 - Residual Impacts ................................ ................................ .......................... 29 
+7.0 Assessment Methodology ................................ ................................ ....................... 30 
+7.1 Plume Dispersion Model ................................ ................................ ............................. 30 
+7.2 Meteorological Modelling ................................ ................................ ............................ 30 
+7.3 Source Characteristics and Emission Rates ................................ ...............................  32 
+7.4 Additional Model Parameters and Options................................ ................................ .. 36 
+7.4.1 Background Pollutant Concentrations ................................ ................................ ......... 36 
+7.4.2 Building Downwash ................................ ................................ ................................ .... 37 
+7.4.3 NOx to NO2 conversion ................................ ................................ ...............................  37 
+7.4.4 Conversion of Averaging Times ................................ ................................ .................. 40 
+7.4.5 Accuracy of Modelling ................................ ................................ ................................  40 
+7.5 Cumulative Impact Assessment ................................ ................................ ................. 41 
+8.0 Assessment of Impacts ................................ ................................ ........................... 42 
+8.1 Maintenance Phase ................................ ................................ ................................ .... 42 
+8.1.1 Particulates ................................ ................................ ................................ ................ 42 
+[[page 4]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ iii  
+ 
+8.1.2 NO2 ................................ ................................ ................................ ............................ 45 
+8.1.3 CO ................................ ................................ ................................ ............................. 47 
+8.1.4 SO2 ................................ ................................ ................................ ............................ 48 
+8.1.5 PAHs ................................ ................................ ................................ .......................... 50 
+8.1.6 Summary of Findings ................................ ................................ ................................ . 51 
+8.2 Emergency Conditions ................................ ................................ ...............................  52 
+8.2.1 Particulates ................................ ................................ ................................ ................ 52 
+8.2.2 NO2 ................................ ................................ ................................ ............................ 53 
+8.2.3 CO ................................ ................................ ................................ ............................. 55 
+8.2.4 SO2 ................................ ................................ ................................ ............................ 57 
+8.2.5 PAHs ................................ ................................ ................................ .......................... 58 
+8.2.6 Summary of Findings ................................ ................................ ................................ . 60 
+8.3 Air Quality Monitoring and Mitigation Measures ................................ .......................... 62 
+8.3.1 Air Quality Monitoring ................................ ................................ ................................ . 62 
+8.3.2 Mitigation Measures ................................ ................................ ................................ ... 62 
+8.4 Cumulative Impact Assessment – Local Projects ................................ ....................... 62 
+9.0 Conclusions ................................ ................................ ................................ .............. 66 
+10.0 References ................................ ................................ ................................ ................ 67 
+ 
+Tables in Text 
+Table 1 Secretary’s Environmental Assessment Requirements ................................ ........ 1 
+Table 2 Proposed Generator Maintenance Testing Regime ................................ ............. 5 
+Table 3 Relevant Schedule 2 Standards of Concentration for (Group 6) Scheduled 
+Premises ................................ ................................ ................................ ............. 7 
+Table 4 Relevant Schedule 3 Standards of Concentration for (Group C) Non-Scheduled 
+Premises ................................ ................................ ................................ ............. 7 
+Table 5 Project Air Quality Assessment Criteria ................................ ...............................  8 
+Table 6 Location of Nearest Identified Sensitive Receptors ................................ ............ 12 
+Table 7 Summary of Macquarie Park AQMS Data (2019-2023) ................................ ..... 17 
+Table 8 Local Air Pollutant Sources with Potential for Cumulative Impacts ..................... 21 
+Table 9 Categorisation of Dust Emission Magnitude................................ ....................... 24 
+Table 10 Preliminary Risk of Air Quality Impacts from Construction Activities (Uncontrolled)
+ ................................ ................................ ................................ .......................... 25 
+Table 11 Site-Specific Management Measures Recommended by the IAQM ................... 26 
+Table 12 Mitigation Measures Specific to Demolition ................................ ........................ 28 
+Table 13 Mitigation Measures Specific to Earthworks ................................ ....................... 28 
+Table 14 Mitigation Measures Specific to Construction ................................ ..................... 28 
+[[page 5]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ iv  
+ 
+Table 15 Mitigation Measures Specific to Trackout ................................ ........................... 29 
+Table 16 Residual Risk of Air Quality Impacts from Construction ................................ ..... 29 
+Table 17 Meteorological Modelling Parameters - TAPM v 4.0.4 ................................ ....... 31 
+Table 18 Meteorological Modelling Parameters - CALMET ................................ .............. 32 
+Table 19 Diesel Generator Specifications – Data Centre ................................ .................. 32 
+Table 20 Approved Methods Potency Equivalency Factors for PAHs ...............................  34 
+Table 21 PAH (as Benzo(a)pyrene) Emission Factor................................ ........................ 35 
+Table 22 Stack Parameters and Emission Rates ................................ ..............................  36 
+Table 23 Classification of Values for A and α by Season ................................ .................. 38 
+Table 24 O3 Concentration Summary: Macquarie Park AQMS (2021) ..............................  40 
+Table 25 Maximum Predicted 24-hour average PM Concentrations at Modelled Receptors
+ ................................ ................................ ................................ .......................... 42 
+Table 26 Maximum Predicted Annual Average PM Concentrations at Modelled Receptors
+ ................................ ................................ ................................ .......................... 43 
+Table 27 Maximum Predicted NO2 Concentrations at Modelled Receptors....................... 45 
+Table 28 Maximum Predicted CO Concentrations at Modelled Receptors ........................ 47 
+Table 29 Maximum Predicted SO2 Concentrations at Modelled Receptors ....................... 48 
+Table 30 Maximum Predicted PAH Concentrations at Modelled Receptors ...................... 50 
+Table 31 Maximum Predicted 24-Hour PM Concentrations at Modelled Receptors .......... 52 
+Table 32 Maximum Predicted NO2 Concentrations at Sensitive Receptors....................... 54 
+Table 33 Predicted CO Concentrations at Sensitive Receptors ................................ ........ 55 
+Table 34 Predicted SO2 Concentrations at Residential Receptors ................................ .... 57 
+Table 35 Predicted PAH Concentrations at Residential Receptors ................................ ... 59 
+Table 36 Local Air Pollutant Sources with Potential for Cumulative Impacts ..................... 63 
+ 
+Figures in Text 
+Figure 1 Site Aerial ................................ ................................ ................................ ............ 3 
+Figure 2 Local Context ................................ ................................ ................................ .......... 4 
+Figure 3 Proposed Development – 3D Views ................................ ................................ .... 4 
+Figure 4 Topography Surrounding Site Location ................................ ..............................  10 
+Figure 5 Land Zoning Surrounding the Project ................................ ................................  11 
+Figure 6 Surrounding Sensitive Receptors ................................ ................................ ....... 14 
+Figure 7 Average Annual and Seasonal Wind Roses for Sydney Olympic Park AWS – 
+2018-2022 ................................ ................................ ................................ ......... 16 
+Figure 8 Wind Speed Frequency Chart for Sydney Olympic Park AWS – 2018-2023 ...... 17 
+Figure 9 Measured 24-Hour Average PM10 Concentrations at Macquarie Park AQMS 
+(2019-2023) ................................ ................................ ................................ ....... 18 
+[[page 6]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ v  
+ 
+Figure 10 Measured 24-Hour Average PM2.5 Concentrations at Macquarie Park AQMS 
+(2019-2023) ................................ ................................ ................................ ....... 18 
+Figure 11 Measured 24-Hour Average SO2 Concentrations at Macquarie Park AQMS 
+(2019-2023) ................................ ................................ ................................ ....... 19 
+Figure 12 Measured 1-Hour Average NO2 Concentrations at Macquarie Park AQMS (2019-
+2023) ................................ ................................ ................................ ................. 19 
+Figure 13 Measured 1-Hour Average CO Concentrations at Macquarie Park AQMS (2019-
+2023) ................................ ................................ ................................ ................. 20 
+Figure 14 Measured 1-Hour Average SO2 Concentrations at Macquarie Park AQMS (2019-
+2023) ................................ ................................ ................................ ................. 20 
+Figure 15 Generator Layout ................................ ................................ ...............................  35 
+Figure 16 Modelled Buildings and Point Sources (Worst-case Emergency Scenario) ........ 37 
+Figure 17 Macquarie Park AQMS O3 1-Hour Average Concentrations (2021) ................... 39 
+Figure 18 Predicted 1-Hour NO2 Cumulative Concentrations at Sensitive Receptors With 
+Exceedances of the Criterion: 1-Hour Runtime, Every Hour of the Year ............ 61 
+ 
+Appendices 
+Appendix A Diesel Generator Specification Sheets 
+Appendix B Site Representative Meteorological Data 
+B.1 Wind Speed and Direction 
+B.2 Atmospheric Stability 
+B.3 Mixing Heights 
+Appendix C Incremental Isopleth Plots 
+C.1 Operational Isopleth plots 
+C.2 Emergency Isopleth plots 
+Appendix D IAQM Construction Assessment Methodology 
+ 
+[[page 7]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 1  
+ 
+1.0 Introduction 
+A State Significant Development Application (SSDA) has been prepared in support of a data 
+centre at 4-10 Talavera Road, Macquarie Park. The site comprises four individual allotments 
+totalling 25,211m2 in area, is zoned E3 Productivity Support.  
+The proposal will include:  
+• Site preparation works including demolition, bulk excavation and removal of existing 
+structures on the site, tree and vegetation clearing and bulk earthworks 
+• Construction, fit out and operation of five-storey, 135 MVA data centre tower with a 
+maximum building height of 45m and total gross floor area of approximately 
+29,668 m2 comprising:  
+o 60 at-grade parking spaces.  
+o Two (2) loading dock spaces.  
+o Four (4) levels of technical data hall floor space with two (2) data halls per floor. 
+o Ancillary office space and amenities on Lower Ground Level.  
+o Offices and amenities located from Mezzanine Level to Level 5. 
+• Provision of required utilities including:  
+o Eleven (11) in-ground diesel storage tanks 
+o Five (5) above-ground water tanks 
+o Three (3) 33 kV switch-rooms on site 
+• Vehicle and pedestrian access provided via Talavera Road  
+• Associated landscaping and site servicing 
+• Installation of site services and drainage infrastructure 
+• A floor space ratio of approximately 1.18:1.  
+This report has been prepared to address the Secretary’s Environmental Assessment 
+Requirements (SEARs) and accompanying cover letter issued for the Project Apollo Data 
+Centre project (SSD-74069708) dated 2 August 2024. 
+Specifically, this report has been prepared to respond to the SEARs requirement issued 
+below (in Table 1).   
+Table 1 Secretary’s Environmental Assessment Requirements 
+Item Description of Requirement Section Reference 
+(this report) 
+Key 
+Issue 
+Provide an assessment of air quality impacts, prepared in 
+accordance with the relevant NSW Environment Protection 
+Authority (EPA) guidelines.  
+The assessment must address construction works and include 
+modelling of emissions and air pollutants from predicted operations 
+(including testing of the back-up power system) and a peak 
+emission and air pollutant scenario, and outline the proposed 
+mitigation, management and monitoring measures that would be 
+implemented. 
+Section 8.1 
+(Testing of backup 
+generators) 
+Section 8.2 
+(Emergency - peak 
+emissions) 
+Section 8.3 
+(Mitigation 
+measures) 
+No consultation with the EPA or other agencies is considered warranted at this stage. 
+[[page 8]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 2  
+ 
+This assessment has been prepared with consideration of the following policies and 
+guidelines:   
+• Approved Methods for the Modelling and Assessment of Air Pollutants in NSW (NSW 
+EPA 2022) (the Approved Methods) 
+• Approved Methods for the Sampling and Analysis of Air Pollutants in (NSW EPA 
+2022a) 
+• Protection of the Environment Operations Act 1997 (NSW Parliament, 1997) 
+• Protection of the Environment Operations (Clean Air) Regulation 2022 (NSW 
+Parliament 2022) 
+• National Environment Protection (Ambient Air Quality) Measure (NEPC 2021) 
+The Approved Methods outlines the requirements for conducting an air quality impact 
+assessment as follows (also indicated are the relevant sections of this report where the 
+requirements are met): 
+• Description of local topographic features and sensitive receptor locations 
+(Section 5.1 and Section 5.2 respectively) 
+• Establishment of air quality assessment criteria (Section 4.4) 
+• Analysis of climate and dispersion meteorology for the region (Appendix C) 
+• Description of existing air quality environment (Section 5.4) 
+• Compilation of a comprehensive emissions inventory for the proposed activities 
+(Section 7.3) 
+• Completion of atmospheric dispersion modelling and analysis of results (Section 8.0) 
+• Preparation of an air quality impact assessment report comprising the above. 
+  
+[[page 9]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 3  
+ 
+2.0 The Site 
+The site is located in Darug Land and is in Macquarie Park within the City of Ryde Local 
+Government Area (LGA). It is bound by Talavera Road to the south, Lane Cove Road to the 
+east, the Macquarie Technology Park to the west and the M2 Motorway to the north.  
+The site is located within the Macquarie Park Corridor which is a significant economic and 
+employment precinct in Sydney’s North District. The Macquarie Park Corridor contains a 
+range of land uses including Abbot Laboratories medical device company, Ryde Resource 
+Recovery Centre, Excelsia College, Macquarie Shopping Centre, North Ryde Meriton Suits 
+and Macquarie University.  
+The site comprises four individual allotments totalling 25,111 m2. It is currently occupied by 
+two warehouse buildings with ancillary offices space that is utilised for storage and 
+distribution purposes.  
+The closest residential uses to the site are approx. 100 m north of the site across the M2 
+Motorway and 115 m to the north-east of the site at Fontenoy Road, Macquarie Park.  
+The site is well serviced by transport and is within close proximity to Lane Cove Road and 
+M2 Motorway. The site is approximately 430m north of the Macquarie Park Metro station 
+which is on the Sydney Metro City and Southwest line. This provides access to Chatswood, 
+Sydney CBD and south-west beyond to Bankstown.  
+The site aerial is shown in Figure 1 and the site context is shown in Figure 2. 
+Figure 1 Site Aerial 
+ 
+Source: Urbis, 2024 
+
+[[page 10]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 4  
+ 
+Figure 2 Local Context 
+ 
+Source: Urbis, 2024 
+The proposed layout of the data centre is shown in Figure 3.   
+Figure 3 Proposed Development – 3D Views 
+ 
+Source: HDR 
+ 
+  
+
+[[page 11]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 5  
+ 
+3.0 Potential Sources of Emissions to Air 
+Standby generators are required to provide power in the event of an unexpected interruption 
+of mains grid electricity for more than a few minutes.  
+During the operational phase, the generators would be a source of products of combustion 
+while undergoing scheduled testing or in the event of a power failure. In general, power 
+interruptions may last from a few seconds to a few hours and therefore even when required, 
+the generators would only operate for a relatively short time.  
+Testing of generators is proposed to be conducted for up to 45 minutes between 07:00 am 
+and 5:00 pm, Monday to Friday. No more than one generator will be tested in any given hour 
+and no more than two generators will be tested per day . The total test time for all generators 
+is estimated to be 198 hours per year.  
+Table 2 summarises the worst-case testing scenario on which this AQIA is based.   
+Table 2 Proposed Generator Maintenance Testing Regime  
+Parameter Value 
+No of generators 66 
+Test frequency per generator Quarterly 
+Run time per test 45 minutes 
+No of generators per test One (1) 
+Number of tests per day Up to 2 
+Testing schedule Monday to Friday (7:00 am to 5:00 pm) 
+Total testing time for all generators 198 hours / annum  
+ 
+Major power interruptions requiring the simultaneous operation of all standby generators are 
+envisaged to only occur infrequently and for a limited time period.  
+In order to assess the worst-case emergency conditions, the modelling undertaken for the 
+emergency operation scenario conservatively assumes that all 66 generators run 
+concurrently within the same hour.   
+ 
+  
+[[page 12]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 6  
+ 
+4.0 Regulatory Framework 
+The following Air Quality Policy and Guidance documents have been referenced within this 
+assessment and have been used to identify the relevant air quality criteria (see Section 4.4). 
+4.1 Protection of the Environment Operations (POEO) Act 1997 
+& Amendment Act 2011  
+The POEO Act (and Amendment Act 2011) is a key piece of environment protection 
+legislation administered by the NSW Department of Planning and Environment which 
+enables the Government to establish instruments for setting environmental standards, goals, 
+protocols and guidelines.  
+The following sections of the POEO Act are of general relevance to the Project: 
+• Section 124 of the POEO Act states that any plant located at a premise (e.g. 
+generators) should be maintained in an efficient condition and operated in a proper 
+and efficient manner to reduce the potential for air pollution.  
+• Section 125 of the POEO Act states that maintenance to any plant located at a 
+premise (e.g. generators) should be carried out in a proper and efficient manner such 
+that it does not cause air pollution. 
+• Section 128 of the POEO Act states:  
+1 The occupier of a premises must not carry out any activity or operate any plant in 
+or on the premises in such a manner to cause or permit the emission at any point 
+specified in or determined in accordance with the regulation of air impurities in 
+excess of [the standard of concentration and/or the rate] prescribed by the 
+regulations in respect of any such activity or any such plant. 
+2 Where neither such a standard nor rate has been so prescribed, the occupier of 
+any premises must carry on activity, or operate any plant, in or on the premises 
+by such practicable means as may be necessary to prevent or minimise air 
+pollution. 
+Schedule 1 of the POEO, Scheduled Activities, defines those activities that require a licence 
+for the premises for which the activity is carried out. Clause 17 Electricity Generation applies 
+to electricity works (wind farms), general electricity works, metropolitan electricity works (gas 
+turbines) and metropolitan electricity works (internal combustion engines).  
+Clause 17 does not apply to the generation of electricity by means of electricity plant that is 
+emergency stand-by plant operating for less than 200 hours per year. Given the total testing 
+time of the standby generators is below 200 hours per year and the duration of emergency 
+operations is expected to be insignificant, the proposal is not classified as a scheduled 
+activity.   
+4.2 Protection of the Environment Operations (Clean Air) 
+Regulation 2022 
+The POEO (Clean Air) Regulation 2022 (the Regulation) is the core regulatory instrument for 
+air quality issues in NSW. In relation to industry, the Regulation:  
+• sets maximum limits on emissions from activities and plant for a number of 
+substances 
+• deals with the transport and storage of volatile organic liquids 
+• restricts the use of high sulphur liquid fuel 
+[[page 13]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 7  
+ 
+• imposes operational requirements for certain afterburners, flares, vapour recovery 
+units and other treatment plant.  
+Part 5 of the POEO (Clean Air) Regulation 2022 (the Regulation) also deals with emissions 
+of air impurities from activities and plant and sets maximum limits on emissions for a number 
+of substances (including solid particles and visible smoke) under Schedule 2 and Schedule 3 
+as noted below in Table 3 and Table 4. 
+The standards of concentrations prescribed by Part 5, Division 3 do not apply to plant during 
+start-up and shutdown periods, however such emissions are still subject to the requirements 
+of Section 128 (2) of the POEO Act in relation to the prevention and minimisation of air 
+pollution. 
+Table 3 Relevant Schedule 2 Standards of Concentration for (Group 6) Scheduled 
+Premises 
+Air 
+impurity Activity 2 Concentration 3 
+Solid 
+Particles  
+Any activity/ plant 50 mg/m3 
+NO2 or 
+NO or 
+both, as 
+NO2 
+equivalent 
+Stationary reciprocating internal combustion engines 450 mg/m3 
+VOCs as 
+n-propane 
+Any stationary reciprocating internal combustion engine 
+using a liquid fuel 
+1,140 mg/m3 VOCs or  
+5,880 mg/m3 CO 
+Any stationary reciprocating internal combustion engine 
+using a solid or gaseous fuel 
+40 mg/m3 VOCs or  
+125 mg/m3 CO 
+Smoke An activity or plant in connection with which solid, liquid or 
+gaseous fuel is burnt 
+20% opacity 
+Note 1 Group 6: Activity granted DA consent and commenced to operate after 1 September 2005.  
+Note 2 only concentration standards relevant to the operations at the Site have been listed.  
+Note 3 Reference conditions are: Dry, 273 K, 101.3 kPa for any activity. 
+ 
+Table 4 Relevant Schedule 3 Standards of Concentration for (Group C) Non-
+Scheduled Premises 
+Air impurity Activity Concentration 2 
+Solid Particles Any activity/ plant 100 mg/m3 
+Smoke 
+Solid fuel is burnt 20% opacity 
+Liquid fuel is burnt 20% opacity 
+Note 1 Group C: Activity granted DA consent and commenced to operate after 1 September 2005.  
+Note 2 Reference conditions are: Dry, 273 K, 101.3 kPa for any activity. 
+ 
+Under Clause 37 the Regulation exempts emergency standby plant (comprising a stationary 
+reciprocating internal combustion engine) for generating electricity from the air impurities 
+[[page 14]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 8  
+ 
+standard for NO2 and NO specified in Schedule 2 relevant to that plant if the plant comprises 
+a stationary reciprocating internal combustion engine and is used for a total of not more than 
+200 hours per year. 
+As outlined in Section 3.0, each generator (plant) is proposed to be operated for 4 hours per 
+year (ie quarterly) for the purposes of testing. While generators will be required to operate for 
+the purpose of electricity generation during major power interruptions, such events would 
+only occur very infrequently and for a limited time period. Therefore, it is anticipated that the 
+plant would be required to operate for a total of less than 200 hours per year. As such, the 
+Project is exempt from the concentration limits outlined in Table 4.   
+4.3 Local Air Quality Toolkit 
+The Local Government Air Quality Toolkit (AQ Toolkit) has been developed by the EPA to 
+assist local government in their management of air quality issues and provides guidelines for 
+air quality management and for the use of air pollution control techniques. Relevant AQ 
+Toolkit air quality guidance notes include: 
+• Dust from urban construction sites (NSW EPA 2007) 
+• Construction sites (NSW EPA 2007-2). 
+4.4 Approved Methods for the Modelling and Assessment of Air 
+Pollutants in NSW 
+The Approved Methods lists the statutory methods for modelling and assessing air pollutants 
+from stationary sources and specifies criteria which reflect the environmental outcomes 
+adopted by the EPA. The Approved Methods are referred to in the POEO (Clean Air) 
+Regulation 2021 for assessment of impacts of air pollutants. 
+Air Quality Criteria 
+NSW EPA has established ground level air quality impact assessment criteria for air 
+pollutants to achieve appropriate environmental outcomes and to minimise associated risks 
+to human health as published in the Approved Methods. The criteria are the defining ambient 
+air quality criteria for NSW, derived from a range of sources (including National Health and 
+Medical Research Council (NHMRC), National Environment Protection Council (NEPC), 
+World Health Organisation (WHO) and Australian and New Zealand Environment 
+Conservation Council (ANZEEC) and are considered appropriate for this AQIA.  
+Table 5 Project Air Quality Assessment Criteria 
+Pollutant Averaging time Criteria 
+PM10 
+24 hours 50 µg/m3 
+Annual 25 µg/m3 
+PM2.5 
+24 hours 25 µg/m3 
+Annual 8 µg/m3 
+Deposited dust Annual 
+2 g/m2/month (maximum 
+increase)  
+4 g/m2/month (maximum 
+cumulative) 
+NO2  
+1 hour 164 µg/m3 
+Annual 31 µg/m3 
+[[page 15]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 9  
+ 
+Pollutant Averaging time Criteria 
+CO 
+15 minutes 100 mg/m3 
+1 hour 30 mg/m3 
+8 hours 10 mg/m3 
+SO2 
+1 hour 286 mg/m3 
+24 hours 57 mg/m3 
+Toxic Pollutant Averaging Time Criteria (99.9th percentile) 
+Benzene 1 hour 0.029 mg/m3 
+Toluene 1 hour 0.36 mg/m3 
+Ethylbenzene 1 hour 8 mg/m3 
+Xylene 1 hour 0.19 mg/m3 
+PAHs (as benzo(a)pyrene 1 hour 0.0004 mg/m3 
+ 
+In accordance with the Approved Methods, the impact assessment criteria are to be applied 
+as follows: 
+• At the nearest existing or likely future off-site sensitive receptor. 
+• The incremental impact (predicted impacts due to the pollutant source alone) for 
+each pollutant must be reported in units and averaging periods consistent with the 
+impact assessment criteria. 
+• For individual toxic air pollutants, the incremental impact at and beyond the site 
+boundary for each pollutant must be reported in concentration units consistent with 
+the criteria, for an averaging period of 1 hour and as the 99.9th percentile of 
+dispersion model predictions for Level 2 impact assessments. 
+• Background concentrations must be included using the procedures specified in 
+Section 5 of the Approved Methods. 
+• Total cumulative impact (incremental impact plus background) must be reported as 
+the 100th percentile (P=100) (or 99th percentile (P=99) for odour) in concentration or 
+deposition units consistent with the impact assessment criteria and compared with 
+the relevant impact assessment criteria.  
+ 
+ 
+  
+[[page 16]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 10  
+ 
+5.0 Existing Environment 
+5.1 Topography 
+Atmospheric dispersion can be influenced by terrain effects such as night-time katabatic 
+(downhill) drainage flows from elevated terrain, channelling effects in valleys or gullies or 
+plume interception at higher ground. 
+A three-dimensional representation of the area surrounding the Project is presented in 
+Figure 4. The elevation of the region generally ranges from between -30 and 210 m 
+Australian Height Datum (AHD) with the area immediately surrounding the Project 
+comprising of undulating terrain. The topography of the Site itself is relatively flat, gently 
+sloping from the west to east. 
+Figure 4 Topography Surrounding Site Location 
+ 
+ 
+5.2 Land Use and Sensitive Receptors 
+As shown in Figure 5, the Site and the adjacent lands are zoned Commercial Centre, 
+Productivity Support, General Industrial and High Density Residential (E2, E3, E4 and R4 
+respectively) and there are areas zoned Infrastructure (SP2) to its north.  
+Based on available aerial images, the nearest sensitive receptors that have the potential to 
+be impacted by air emissions during operation of the Project have been identified for 
+investigation in this assessment.  
+
+[[page 17]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 11  
+ 
+The closest residential receptors are located approximately 90 m northwest and southeast of 
+the Project. A number of existing commercial facilities and residential buildings are in close 
+proximity of the Site in all directions as identified in Figure 6 and Table 6.   
+Figure 5 Land Zoning Surrounding the Project 
+  
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Macquarie Park, NSW   4 & 6-10 Talavera Road 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ 
+Project Location 
+ 
+  Date: 03/05/2024    
+          
+ 
+ 
+
+[[page 18]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 12  
+ 
+Table 6 Location of Nearest Identified Sensitive Receptors 
+ID Easting 
+(m) 
+Northing 
+(m) 
+Elevation 
+(AHD; m) 
+Receptor 
+height 
+(m) 
+Description 
+R1 325,563  6,260,445  63 0 Residence 
+R2 325,727  6,260,396  51 0 Residence 
+R3 325,853  6,261,119  59 0 Residence 
+R4-0 326,018  6,260,650  55 0 Residence Ground Floor 
+R4-1 326,018  6,260,650  55 20 Residential building wall air 
+vent intake a 
+R4-2 326,018  6,260,650  55 58 Residential building wall air 
+vent intake a 
+R5 326,097  6,259,945  66 0 Residence 
+R6-0 326,132  6,260,815  58 0 Residence Ground Floor 
+R6-1 326,132  6,260,815  58 35 Residential building wall air 
+vent intake a 
+R6-2 326,132  6,260,815  58 70 Residential building wall air 
+vent intake a 
+R7 326,147  6,260,720  60 0 Childcare centre (outdoor 
+area) 
+R8 326,263  6,259,911  70 0 Residence 
+R9 326,301  6,260,233  66 0 Office building ground floor 
+R10 326,397  6,259,827  70 0 Residence 
+R11 326,462  6,259,918  69 0 Childcare centre (outdoor 
+area) 
+R12 326,507  6,260,485  61 0 Excelsia College 
+R13-0 326,525  6,260,675  58 0 Office building ground floor 
+R13-1 326,525  6,260,675  58 17 Office building wall air vent 
+intake a 
+R14 326,606  6,260,868  51 0 Childcare centre (outdoor 
+area) 
+R15 326,742  6,260,266  60 0 Build to Rent (BTR) 
+R15-1 326,742  6,260,266  60 5 BTR 
+R15-2 326,742  6,260,266  60 10 BTR 
+R15-3 326,742  6,260,266  60 15 BTR 
+R15-4 326,742  6,260,266  60 20 BTR 
+R15-5 326,742  6,260,266  60 25 BTR 
+R15-6 326,742  6,260,266  60 30 BTR 
+R15-7 326,742  6,260,266  60 35 BTR 
+R15-8 326,742  6,260,266  60 40 BTR 
+R15-9 326,742  6,260,266  60 45 BTR 
+[[page 19]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 13  
+ 
+ID Easting 
+(m) 
+Northing 
+(m) 
+Elevation 
+(AHD; m) 
+Receptor 
+height 
+(m) 
+Description 
+R15-10 326,742  6,260,266  60 50 BTR 
+R16-0 326,747  6,260,533  59 0 Office building ground floor 
+R16-1 326,747  6,260,533  59 15 Office building wall air intake a 
+R16-2 326,747  6,260,533  59 25 Office building roof air intake a 
+R17 326,781  6,260,691  58 0 Childcare centre (outdoor 
+area) 
+R18 326,797  6,260,906  53 0 Residence 
+R19-0 326,877  6,260,224  57 0 Office Building Ground Floor 
+R19-1 326,877  6,260,224  57 6 Office Building roof air intake a 
+R20 326,990  6,260,719  59 0 Residence 
+R21-0 327,031  6,260,419  52 0 Office Building Ground Floor 
+R21-1 327,031  6,260,419  52 6 Office Building wall air intake a 
+R21-2 327,031  6,260,419  52 12 Office Building roof air intake a 
+R22-0 327,035  6,260,675  60 0 Residence Ground Floor 
+R22-1 327,035  6,260,675  60 12 Residence 4th Floor 
+R22-2 327,035  6,260,675  60 21 Residence 7th Floor 
+R23-0 327,058  6,260,153  57 0 Office Building Ground Floor 
+R23-1 327,058  6,260,153  57 3 Office Building roof air intake a 
+R24 327,197  6,260,589  58 0 Eden Gardens 
+a In the absence of detailed plans and/or observations, it is conservatively assumed that make-up ventilation air may be taken from the 
+roof and/or louvres in the façade of the wall. 
+[[page 20]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 14  
+ 
+Figure 6 Surrounding Sensitive Receptors 
+ 
+ 
+5.3 Local Meteorology 
+The Bureau of Meteorology (BoM) maintains and publishes data from weather stations 
+across Australia. The closest such station recording long term wind speed and wind direction 
+data is the Sydney Olympic Park (Archery Centre) Automatic Weather Station (SOP AWS) 
+(Station ID 66212), located approximately 11 kilometres (km) southwest of the Project. It is 
+noted that considering the terrain between the Site and SOP AWS, wind conditions at the 
+Project may differ from those recorded at the AWS.  
+Local wind speed and direction influence the dispersion of air pollutants. Wind speed 
+determines both the distance of downwind transport and the rate of dilution as a result of 
+‘plume’ stretching. Wind direction, and the variability in wind direction, determines the 
+general path pollutants will follow and the extent of crosswind spreading. Surface roughness 
+(characterised by features such as the topography of the land and the presence of buildings, 
+structures and trees) will also influence dispersion. 
+Annual and seasonal wind roses for the five year period from 2018 to 2022, compiled from 
+data recorded by the SOP AWS are presented in Figure 7. Wind roses show the frequency 
+of occurrence of winds by direction and strength. The bars correspond to the 16 compass 
+points (degrees from North). The bar at the top of each wind rose diagram represents winds 
+blowing from the north (i.e. northerly winds), and so on. The length of the bar represents the 
+
+[[page 21]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 15  
+ 
+frequency of occurrence of winds from that direction, and the widths of the bar sections 
+correspond to wind speed categories, the narrowest representing the lightest winds. Thus, it 
+is possible to visualise how often winds of a certain direction and strength occur over a long 
+period, either for all hours of the day, or for particular periods during the day.  
+The annual wind rose indicates the predominant wind directions in the area are from the 
+west-northwest and northwest. Calm wind conditions (wind speed less than 0.5 m/s) were 
+recorded to occur 24.9% of the time throughout the investigated period. The average 
+seasonal wind roses for the year 2018-2022 indicate that:  
+• In summer, winds are mostly between 3.0 m/s and 5.5 m/s and blow predominantly 
+from the east-northeast to south-southeast, with very few winds from other directions. 
+Calms were recorded approximately 18% of the time during the summer months.  
+• In autumn, winds mostly ranged between 0.5 m/s to 8 m/s and were blowing 
+predominantly from the northwest and north-northwest with a lower frequency of 
+winds from the southeast quadrant, and very little winds from any other direction. 
+Calms were recorded approximately 31% of the time during autumn. 
+• In spring, winds mostly ranged between 0.5 m/s to 8 m/s blowing predominantly from 
+the east, the northwest and southeast directions, with very winds from the north and 
+southwest. Calms were recorded approximately 22% of the time during spring. 
+• In winter, most winds ranged betwee1.5 m/s to 5.5 m/s and blow predominantly from 
+the west-northwest and northwest directions, with very few winds blowing from any 
+other direction. Calms were recorded approximately 27% of the time during the 
+winter months.  
+Wind erosion of dust from exposed surfaces is usually initiated when wind speeds exceed 
+the threshold friction velocity for a given surface or material, however a general rule of thumb 
+is that wind erosion can be expected to occur above approximately 5.5 m/s. The frequency 
+of wind speeds for the period of–2018 - 2022 is presented in Figure 8. The plot shows that 
+the frequency of wind speeds exceeding 5.5 m/s for the period 2018 - 2022 at SOP AWS 
+was approximately 4%.  
+[[page 22]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 16  
+ 
+Figure 7 Average Annual and Seasonal Wind Roses for Sydney Olympic Park AWS – 
+2018-2022 
+ 
+ 
+
+[[page 23]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 17  
+ 
+Figure 8 Wind Speed Frequency Chart for Sydney Olympic Park AWS – 2018-2023 
+ 
+ 
+5.4 Background Air Quality 
+Air quality monitoring is performed by the NSW Department of Environment and Heritage 
+(DEH) at a number of monitoring stations across NSW.  The nearest such station is located 
+at Macquarie Park, approximately 2.0 km northwest of the Site.  The Macquarie Park AQMS 
+was commissioned in September 2017 and is located in Macquarie University Sport Fields - 
+Culloden Rd at an elevation of 49 m.  The Macquarie Park AQMS monitors the concentration 
+levels of following air pollutants:  
+• Oxides of nitrogen (NO, NO2 and NOX);  
+• Carbon Monoxide (CO); 
+• Sulfur Dioxide (SO2; and) 
+• Fine particles (PM2.5 and PM10).  
+A summary of the monitored pollutant concentrations for the last four years (2019-2023) is 
+presented in Table 7 and the data are presented graphically in Figure 9 to Figure 14.   
+Table 7 Summary of Macquarie Park AQMS Data (2019-2023) 
+Pollutant PM10 PM2.5 NO2 CO SO2 
+Averaging 
+Period 
+Maximum 
+24-hour Annual Maximum 
+24-hour Annual Maximum 
+1-hour Annual Maximum 
+1-hour 
+Maximum 
+1-hour 
+Maximum 
+24-hour 
+Units µg/m3 µg/m3 µg/m3 µg/m3 pphm pphm ppm pphm pphm 
+2019 187.3 19.9 152.0 9.2 2.6 0.5 5.9 2.9 0.4 
+2020 146.7 15.7 77.8 7.1 3.0 0.4 3.0 3.5 0.4 
+2021 125.2 13.2 213.1 7.3 7.3 0.4 10.0 3.4 0.6 
+2022 25.9 11.4 17.6 4.4 2.3 0.3 2.3 3.1 0.3 
+2023 44.7 14.5 33.3 6.0 2.6 0.4 0.9 2.3 0.4 
+Criterion 50 25 25 8 8 1.5 25 10 2 
+ 
+
+[[page 24]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 18  
+ 
+Figure 9 Measured 24-Hour Average PM 10 Concentrations at Macquarie Park AQMS 
+(2019-2023) 
+ 
+ 
+Figure 10 Measured 24-Hour Average PM 2.5 Concentrations at Macquarie Park AQMS 
+(2019-2023) 
+ 
+
+[[page 25]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 19  
+ 
+Figure 11 Measured 24-Hour Average SO2 Concentrations at Macquarie Park AQMS 
+(2019-2023) 
+ 
+ 
+Figure 12 Measured 1 -Hour Average NO 2 Concentrations at Macquarie Park  AQMS 
+(2019-2023) 
+ 
+
+[[page 26]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 20  
+ 
+Figure 13 Measured 1-Hour Average CO Concentrations at Macquarie Park AQMS 
+(2019-2023) 
+ 
+ 
+Figure 14 Measured 1-Hour Average SO2 Concentrations at Macquarie Park AQMS 
+(2019-2023) 
+ 
+
+[[page 27]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 21  
+ 
+The monitoring data for NO2, CO and SO2 indicate that the respective air quality criteria 
+(short term and long term) for these pollutants are easily achieved at the Macquarie Park 
+AQMS.  Other points to note are: 
+• Exceedances of the 24-hour average PM10 criterion were recorded by the Macquarie 
+Park AQMS in all years between 2019 and 2023, except in 2021 and 2022.  
+• Exceedances of the 24-hour average PM2.5 criterion were recorded in all years 
+between 2019 and 2023 except 2022; and  
+In summary, the Macquarie Park AQMS data show that background particulate levels can be 
+elevated at times.   
+Effective mitigation measures therefore need to be implemented during the construction and 
+operation so that the activities do not contribute to any additional exceedances of air quality 
+criteria in the surrounding area.   
+5.5 Local Air Pollutant Sources 
+A few local sources of emissions to air have been identified in the area with a potential to 
+result in cumulative impacts with emissions from either construction or operations of the 
+Project. These include the future projects that are not currently built but they’re approved 
+and are presented in Table 8.   
+Table 8 Local Air Pollutant Sources with Potential for Cumulative Impacts 
+DA Reference Development Description Current Status 
+1-5 Khartoum Road, 
+Macquarie Park SSD-
+63235720 
+Construction and operation of a 5-storey 
+data centre with a building height of 45 m 
+and a capacity of 35 MW, diesel storage, 
+part road construction, landscaping, car 
+parking and associated infrastructure. 
+Prepare EIS 
+11-17 Khartoum Road 
+SSD-10467 
+Construction and operation of a data 
+centre comprising: five-storey data 
+storage building with ancillary office 
+space, supporting infrastructure, services 
+and landscaping. 
+Approved 
+11-17 Khartoum Road 
+LDA2020/0229 
+Amending Concept DA to LDA2017/0547 
+for M_Park masterplan for three 
+commercial building envelopes and one 
+data centre building envelope. Total GFA 
+of 55,129 m2 approved across the site 
+with a maximum height of 45 m.  There 
+are multiple detailed DAs and 
+modifications associated with this 
+Amending DA. These have not been 
+referenced in this table.   
+Approved 
+[[page 28]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 22  
+ 
+DA Reference Development Description Current Status 
+17-23 Talavera Road 
+SSD-24299707 
+Modification 1 
+Modification to approved data centre. The 
+modification proposes internal and 
+external alterations.   
+Under assessment 
+100-108 Talavera 
+Road LDA2022/0021 
+Site preparation and tree removal, 5 
+storey mixed used podium, a 4.5 storey 
+carpark and three residential towers. The 
+above proposal is integrated development 
+under the Environmental Planning and 
+Assessment Act 1979, as the subject site 
+is within 40 m of a waterway and within 
+40m of bushfire prone land. The relevant 
+approval body is Rural Fire Service and 
+Water NSW. 
+Approved 
+45-61 Waterloo Road 
+LDA2018/0172 
+Concept Development Application 
+comprising site layout for commercial 
+buildings (with retail), roads and 
+Catherine Hamlin Park; maximum building 
+envelopes; gross floor area distribution 
+across the site; onsite parking provision 
+and distribution; staging of indicative 
+development; construction of signalised 
+intersection at the southern end of Road 
+14 and Waterloo Road; partial 
+construction of Road 1. 
+Approved 
+269 Lane Cove Road 
+SSD-63168959 
+Staged construction and operation of two 
+seven-storey data centre buildings with an 
+office, retail and innovation hub. Total of 
+93,870 m2 GFA and a maximum height of 
+65m. 
+Response to 
+submissions 
+85-97 Waterloo Road 
+and 2 Banfield Road 
+SSD-52604208 
+Construction of a build-to-rent 
+development comprising 66,638 m2 GFA 
+including 736 units and community uses 
+across seven buildings with a maximum 
+height of 20 storeys. Retail, recreation a 
+public park and basement parking will 
+also be provided.   
+Under assessment   
+ 
+An assessment of the cumulative impacts of the Project with these local identified sources is 
+presented in Section 8.4.   
+ 
+  
+[[page 29]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 23  
+ 
+6.0 Construction Air Quality Assessment 
+For this assessment, the IAQM Guidance on the Assessment of Dust from Demolition and 
+Construction developed in the United Kingdom by the Institute of Air Quality Management 
+(IAQM 2024) has been used to provide a qualitative assessment method (refer to Appendix 
+A for full methodology). The IAQM method uses a four-step process for assessing dust 
+impacts from construction activities: 
+• Step 1: Screening based on distance to the nearest sensitive receptor; whereby the 
+sensitivity to dust deposition and human health impacts of the identified sensitive 
+receptors is determined. 
+• Step 2: Assess risk of dust effects from activities based on: 
+o the scale and nature of the works, which determines the potential dust emission 
+magnitude; and 
+o the sensitivity of the area surrounding dust-generating activities. 
+• Step 3: Determine site-specific mitigation for remaining activities with greater than 
+negligible effects. 
+• Step 4: Assess significance of remaining activities after management measures have 
+been considered. 
+As outlined above, the adopted quantitative assessment approach identifies the appropriate 
+mitigation measures based on the level of risk during each phase of the construction works 
+and is considered to be a more appropriate methodology than quantitative modelling given 
+the temporary and highly variable nature of construction activities.  
+6.1.1 Step 1 – Screening Based on Separation Distance 
+The IAQM screening criteria for further assessment is the presence of a ‘human receptor’ 
+within: 
+• 250 m of the boundary of the site; or 
+• 50 m of the route(s) used by construction vehicles on the public highway, up to 
+250 m from the site entrance(s). 
+As a conservative approach and to ensure that sufficient mitigation measures are put in 
+place, the assessment will be conducted in lieu of the use of the screening criteria.  
+6.1.2 Step 2a – Assessment of Scale and Nature of the Works 
+Based upon the above assumptions and the IAQM definitions presented in Appendix D, the 
+dust emission magnitudes for each phase of the construction works have been categorised 
+as presented in Table 9.   
+[[page 30]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 24  
+ 
+Table 9 Categorisation of Dust Emission Magnitude 
+Activity Dust 
+Emission 
+Magnitude 
+Basis 
+Demolition Medium IAQM Definition: 
+Total building volume 12,000 m3 – 75,000 m3, potentially dusty 
+construction material, demolition activities 6-12 m above ground level. 
+Relevance to this Project:  
+There is a single existing residential building and associated sheds 
+located in the southeastern corner of the Site that will be removed 
+prior to construction. On this basis, the scale of demolition works is 
+conservatively considered to be Medium. 
+Earthworks Large IAQM Definition: 
+Total site area greater than 110,000 m2, potentially dusty soil type 
+(e.g. clay, which will be prone to suspension when dry due to small 
+particle size), more than 10 heavy earth moving vehicles active at any 
+one time, formation of bunds greater than 6 m in height.  
+Relevance to this Project:  
+Total area of the Site is estimated to be approximately >110,000 m2 
+and more than 10 heavy earth moving vehicles are expected to be 
+operating on site at the peak construction period.  
+Construction Large IAQM Definition: 
+Total building volume greater than 100,000 m3, piling, on site concrete 
+batching; sandblasting.  
+Relevance to this Project:  
+It is anticipated the building volume will exceed 100,000 m3.  
+Trackout Large IAQM Definition: 
+More than 50 heavy vehicle movements per day, surface materials 
+with a high potential for dust generation, greater than 100 m of 
+unpaved road length.  
+Relevance to this Project:  
+It is anticipated that more than 50 heavy vehicles movements per day 
+will occur during the peak construction period.  
+ 
+6.1.3 Step 2b – Risk Assessment 
+Receptor Sensitivity 
+Based on the criteria listed in Table A1 in Appendix A, the sensitivity of the identified 
+residential receptors in this study is conservatively concluded to be high for health impacts 
+and high for dust soiling, as they are located where people may be reasonably expected to 
+be present continuously as part of the normal pattern of land use.  
+Sensitivity of an Area 
+Based on the classifications shown in Table A2 and Table A3 in Appendix A, the sensitivity 
+of the area to both dust soiling and health effects may be classified as low. This 
+categorisation has been made taking into account the individual receptor sensitivities derived 
+above, the 5-year average PM10 concentration of 16.8 µg/m3 recorded by the Bringelly 
+AQMS (see Section 5.4) being between < 17 µg/m3, and the number of sensitive receptors 
+[[page 31]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 25  
+ 
+present in the vicinity of the Site (there are less than 10 sensitive receptors within 100 m of 
+the site and no medium sensitive receptors within 20 m of the Site). 
+Risk Assessment 
+Given the sensitivity of the general area is classified as ‘low’ for dust soiling and for health 
+effects, and the dust emission magnitudes for the various construction phase activities as 
+shown in Table 9, the resulting risk of air quality impacts (with no mitigation) is as presented 
+in Table 10. 
+The results indicate that there is a low risk of adverse dust soiling and human health impacts 
+during earthworks, construction, and trackout phases occurring at the off-site sensitive 
+receptor locations if no mitigation measures were to be applied to control emissions during 
+the construction works.  
+Table 10 Preliminary Risk of Air Quality Impacts from Construction Activities 
+(Uncontrolled) 
+Impact Sensitivity 
+of Area 
+Dust Emission 
+Magnitude 
+Preliminary Risk 
+Demolition 
+Earthworks 
+Construction 
+Trackout 
+Demolition 
+Earthworks 
+Construction 
+Trackout 
+Dust Soiling Low 
+Small 
+Large 
+Large 
+Large Low 
+Risk 
+Low 
+Risk 
+Low 
+Risk 
+Low 
+Risk 
+Human 
+Health 
+Low Low 
+Risk 
+Low 
+Risk 
+Low 
+Risk 
+Low 
+Risk 
+ 
+6.1.4 Step 3 - Mitigation Measures 
+Due to the potential for cumulative impacts due to the surrounding development, it is 
+recommended that the Site adopts dust control mitigation measures relevant to high risk to 
+ensure potential cumulative impacts are reduced. 
+Table 11 lists the mitigation measures designated as highly recommended (H) or desirable 
+(D) by the IAQM methodology for a development shown to have a high risk of adverse 
+impacts. Not all these measures would be practical or relevant to the Project therefore a 
+detailed review of these mitigation measures should be performed, and the most appropriate 
+measures be adopted as part of the Construction Environmental Management Plan (CEMP).   
+Mitigation measures targeting potential impacts from demolition, earthworks, construction 
+and trackout activities are provided in  
+Table 12 to Table 15 for a development shown to have a high risk of adverse impacts.  
+For almost all construction activity, the IAQM method notes that the aim should be to prevent 
+significant effects on receptors through the use of effective mitigation and experience shows 
+that this is normally possible.  
+[[page 32]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 26  
+ 
+Table 11 Site-Specific Management Measures Recommended by the IAQM 
+Mitigation Measure High Risk Site 
+Recommendation 
+Communications 
+Develop and implement a stakeholder communications plan that includes 
+community engagement before work commences on site. H 
+Display the name and contact details of person(s) accountable for air quality and 
+dust issues on the site boundary. This may be the environment 
+manager/engineer or the site manager. 
+H 
+Display the head or regional office contact information. H 
+Develop and implement a Dust Management Plan (DMP), which may include 
+measures to control other emissions, approved by the relevant regulatory 
+authority. The level of detail will depend on the risk and should include as a 
+minimum the highly recommended measures in the IAQM Guidance. The 
+desirable measures should be included as appropriate for the site. The DMP may 
+include monitoring of dust deposition, real-time PM10 continuous monitoring 
+and/or visual inspections. 
+H 
+Site Management 
+Record all dust and air quality complaints, identify cause(s), take appropriate 
+measures to reduce emissions in a timely manner, and record the measures 
+taken 
+H 
+Make the complaints log available to the relevant regulatory authority when 
+asked. H 
+Record any exceptional incidents that cause dust and/or air emissions, either on- 
+or off-site, and the action taken to resolve the situation in the log book. H 
+Hold regular liaison meetings with other high risk construction sites within 250 m 
+of the site boundary, to ensure plans are co-ordinated and dust and particulate 
+matter emissions are minimised. It is important to understand the interactions of 
+the off-site transport/deliveries which might be using the same strategic road 
+network routes. 
+H 
+Monitoring 
+Undertake daily on-site and off-site inspections, where receptors (including roads) 
+are nearby, to monitor dust, record inspection results, and make the log available 
+to the relevant regulatory authority when asked. This should include regular dust 
+soiling checks of surfaces such as street furniture, cars and windowsills within 
+100 m of the site boundary, with cleaning to be provided if necessary. 
+H 
+Carry out regular site inspections to monitor compliance with the DMP, record 
+inspection results, and make an inspection log available to the relevant regulatory 
+authority when asked. 
+H 
+Increase the frequency of site inspections by the person accountable for air 
+quality and dust issues on site when activities with a high potential to produce 
+dust are being carried out and during prolonged dry or windy conditions. 
+H 
+Agree dust deposition or real-time PM10 continuous monitoring locations with the 
+relevant regulatory authority. Where possible, commence baseline monitoring at 
+least three months before work commences on site or, if it is a large site, before 
+work on a phase commences. 
+H 
+Preparing and Maintaining the Site 
+Plan site layout so that machinery and dust causing activities are located away 
+from receptors, as far as is possible. 
+H 
+[[page 33]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 27  
+ 
+Mitigation Measure High Risk Site 
+Recommendation 
+Erect solid screens or barriers around dusty activities or the site boundary that 
+are at least as high as any stockpiles on site. 
+H 
+Fully enclose site or specific operations where there is a high potential for dust 
+production and the site is actives for an extensive period. 
+H 
+Avoid site runoff of water or mud. H 
+Keep site fencing, barriers and scaffolding clean using wet methods. H 
+Remove materials that have a potential to produce dust from site as soon as 
+possible, unless being re-used on site. If they are being re-used on-site cover as 
+described below. 
+H 
+Cover, seed or fence stockpiles to prevent wind whipping. H 
+Operating vehicle/machinery and sustainable travel 
+Ensure all vehicles switch off engines when stationary - no idling vehicles.  H 
+Avoid the use of diesel or petrol powered generators and use mains electricity or 
+battery powered equipment where practicable. 
+H 
+Impose and signpost a maximum-speed-limit of 24 km/h on surfaced and 16 km/h 
+on unsurfaced haul roads and work areas (if long haul routes are required these 
+speeds may be increased with suitable additional control measures provided, 
+subject to the approval of the nominated undertaker and with the agreement of 
+the relevant regulatory authority, where appropriate). 
+H 
+Produce a Construction Logistics Plan to manage the sustainable delivery of 
+goods and materials. 
+H 
+Implement a Travel Plan that supports and encourages sustainable travel (public 
+transport, cycling, walking, and car-sharing) 
+H 
+Operations 
+Only use cutting, grinding or sawing equipment fitted or in conjunction with 
+suitable dust suppression techniques such as water sprays or local extraction, 
+e.g. suitable local exhaust ventilation systems.  
+H 
+Ensure an adequate water supply on the site for effective dust/particulate matter 
+suppression/ mitigation, using non-potable water where possible and appropriate  
+H 
+Use enclosed chutes and conveyors and covered skips.  H 
+Minimise drop heights from conveyors, loading shovels, hoppers and other 
+loading or handling equipment and use fine water sprays on such equipment 
+wherever appropriate.  
+H 
+Ensure equipment is readily available on site to clean any dry spillages, and 
+clean up spillages as soon as reasonably practicable after the event using wet 
+cleaning methods. 
+H 
+Waste Management 
+Avoid bonfires and burning of waste materials. H 
+H = Highly recommended; D = Desirable 
+ 
+[[page 34]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 28  
+ 
+Table 12 Mitigation Measures Specific to Demolition 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Soft strip inside buildings before demolition (retaining walls and windows in the  
+rest of the building where possible, to provide a screen against dust). HD 
+Ensure effective water suppression is used during demolition operations. Hand  
+held sprays are more effective than hoses attached to equipment as the water can 
+be directed to where it is needed. In addition high volume water suppression 
+systems, manually controlled, can produce fine water droplets that effectively bring 
+the dust particles to the ground. 
+H 
+Avoid explosive blasting, using appropriate manual or mechanical alternatives.  H 
+Bag and remove any biological debris or damp down such material before 
+demolition. H 
+H = Highly recommended; D = Desirable 
+ 
+Table 13 Mitigation Measures Specific to Earthworks 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Re-vegetate earthworks and exposed areas/soil stockpiles to stabilise surfaces as 
+soon as practicable. H 
+Use Hessian, mulches or trackifiers where it is not possible to re-vegetate or cover 
+with topsoil, as soon as practicable. H 
+Only remove the cover in small areas during work and not all at once. H 
+H = Highly recommended; D = Desirable 
+ 
+Table 14 Mitigation Measures Specific to Construction 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Avoid scabbling (roughening of concrete surfaces) if possible. H 
+Ensure sand and other aggregates are stored in bunded areas and are not allowed 
+to dry out, unless this is required for a particular process, in which case ensure that 
+appropriate additional control measures are in place. 
+H 
+Ensure bulk cement and other fine powder materials are delivered in enclosed 
+tankers and stored in silos with suitable emission control systems to prevent 
+escape of material and overfilling during delivery. 
+H 
+For smaller supplies of fine power materials ensure bags are sealed after use and  
+stored appropriately to prevent dust. D 
+H = Highly recommended; D = Desirable 
+[[page 35]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 29  
+ 
+Table 15 Mitigation Measures Specific to Trackout 
+Mitigation Measure Highly 
+recommended 
+or Desirable 
+Use water-assisted dust sweeper(s) on the access and local roads, to remove, as 
+necessary, any material tracked out of the site. This may require the sweeper 
+being continuously in use. 
+H 
+Avoid dry sweeping of large areas. H 
+Ensure vehicles entering and leaving sites are covered to prevent escape of 
+materials during transport. H 
+Inspect on-site haul routes for integrity and instigate necessary repairs to the 
+surface as soon as reasonably practicable. H 
+Record all inspections of haul routes and any subsequent action in a site log book.  H 
+Install hard surfaced haul routes, which are regularly damped down with fixed or 
+mobile sprinkler systems, or mobile water bowsers and regularly cleaned.  H 
+Implement a wheel washing system (with rumble grids to dislodge accumulated 
+dust and mud prior to leaving the site where reasonably practicable). H 
+Ensure there is an adequate area of hard surfaced road between the wheel wash 
+facility and the site exit, wherever site size and layout permits. H 
+Access gates to be located at least 10 m from receptors where possible. H 
+H = Highly recommended; D = Desirable 
+ 
+6.1.5 Step 4 - Residual Impacts 
+A reappraisal of the predicted unmitigated air quality impacts on receptors has been 
+performed to demonstrate the minimisation of risks associated with the use of mitigation 
+strategies and is presented below in Table 16. These are termed ‘residual impacts’.   
+Table 16 Residual Risk of Air Quality Impacts from Construction 
+Impact Sensitivity 
+of Area 
+Residual Risk 
+Demolition Earthworks Construction Trackout 
+Dust Soiling Low Negligible Risk Negligible Risk Negligible Risk Negligible Risk 
+Human Health Low Negligible Risk Negligible Risk Negligible Risk Negligible Risk 
+ 
+The mitigated dust deposition and human health impacts for demolition, earthworks, 
+construction, and trackout phases are anticipated to be negligible provided appropriate 
+mitigation measures are implemented. Based on SLR’s experience, for almost all 
+construction activities, provided effective mitigation is adopted, the residual air quality impact 
+can be managed to acceptable levels. 
+ 
+[[page 36]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 30  
+ 
+7.0 Assessment Methodology 
+7.1 Plume Dispersion Model 
+Emissions from the Project were modelled using the CALPUFF model.  CALPUFF is a 
+transport and dispersion model that ejects “puffs” of material emitted from modelled sources, 
+simulating dispersion and transformation processes along the way.  In doing so, it typically 
+uses the fields generated by a meteorological pre-processor CALMET, discussed further 
+below.  Temporal and spatial variations in the meteorological fields selected are explicitly 
+incorporated in the resulting distribution of puffs throughout a simulation period.  The primary 
+output files from CALPUFF contain hourly concentration evaluated at selected receptor 
+locations.  The CALPOST post-processor is then used to process these files, producing 
+tabulations that summarise results of the simulation for user-selected averaging periods. 
+7.2 Meteorological Modelling 
+Meteorological mechanisms govern the dispersion, transformation and eventual removal of 
+pollutants from the atmosphere. The extent to which pollution will accumulate or disperse in 
+the atmosphere is dependent on the degree of thermal and mechanical turbulence within the 
+earth’s boundary layer. Dispersion comprises vertical and horizontal components of motion. 
+The stability of the atmosphere and the depth of the surface-mixing layer define the vertical 
+component. The horizontal dispersion of pollution in the boundary layer is primarily a 
+function of the wind field. The wind speed determines both the distance of downwind 
+transport and the rate of dilution as a result of plume ‘stretching’. The generation of 
+mechanical turbulence is similarly a function of the wind speed, in combination with the 
+surface roughness. The wind direction, and the variability in wind direction, determines the 
+general path pollutants will follow, and the extent of crosswind spreading. Pollution 
+concentration levels therefore fluctuate in response to changes in atmospheric stability, to 
+concurrent variations in the mixing depth, and to shifts in the wind field (Oke 2002).  
+For this study, a site-representative three-dimensional meteorological dataset was compiled 
+using a combination of TAPM and CALMET, as discussed in the following sections. 
+Selection of Meteorological Year 
+Meteorological data recorded over the five-year period 2018-2022 by the SOP AWS was 
+analysed to select a worst-case meteorological year in order to provide a conservative air 
+quality impact assessment. An analysis of the wind speed, wind direction, temperature and 
+relative humidity recorded in each of the calendar years aligned well with the five-year 
+average data with no particular years of note, however the year 2021 reported the worst-
+case combination of low average wind speed and greater number of calms, which generally 
+results in reduced plume dispersion and consequently greater ground level impacts. For this 
+reason, 2021 was chosen for the AQIA. 
+TAPM 
+In order to calculate all required meteorological parameters required by the dispersion 
+modelling process, meteorological modelling using The Air Pollution Model (TAPM, v 4.0.4) 
+has been performed.  TAPM, developed by the Commonwealth Scientific and Industrial 
+Research Organisation (CSIRO) is a prognostic model that can be used to predict three-
+dimensional meteorological data and air pollution concentrations.   
+TAPM predicts wind speed and direction, temperature, pressure, water vapour, cloud, rain 
+water and turbulence.  The program allows the user to generate synthetic observations by 
+referencing databases (covering terrain, vegetation and soil type, sea surface temperature 
+and synoptic scale meteorological analyses) which are subsequently used in the model input 
+[[page 37]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 31  
+ 
+to generate site-specific hourly meteorological observations at user-defined levels within the 
+atmosphere.   
+TAPM can assimilate actual local wind observations so that they can optionally be included 
+in a model solution.  TAPM parameters used for this study, including the observational data 
+assimilated into the model run are presented in Table 17. The three-dimensional upper air 
+data from the TAPM output was used as input for the diagnostic meteorological model 
+(CALMET).   
+Table 17 Meteorological Modelling Parameters - TAPM v 4.0.4 
+Parameter Data 
+Modelling Period 1 January 2021 to 31 December 2021 
+Centre of analysis 326,397mE    6,260,287 mS (UTM Coordinates) 
+Number of grid points 25 × 25 × 35 
+Number of grids (spacing) 4 (30 km, 10 km, 3 km, 1 km) 
+Data assimilation Terry Hills AWS, Sydney Olympic Park AWS, Penrith Lakes AWS, 
+Richmond RAAF AWS, Canterbury Racecourse AWS, Horsley Park 
+Equestrian Centre AWS 
+Terrain AUSLIG 9 second DEM 
+ 
+CALMET 
+In the simplest terms, CALMET is a meteorological model that develops hourly wind and 
+other meteorological fields on a three-dimensional gridded modelling domain that are 
+required as inputs to the CALPUFF dispersion model. Associated two-dimensional fields 
+such as mixing height, surface characteristics and dispersion properties are also included in 
+the file produced by CALMET. The interpolated wind field is then modified within the model 
+to account for the influences of topography, sea breeze, as well as differential heating and 
+surface roughness associated with different land uses across the modelling domain. These 
+modifications are applied to the winds at each grid point to develop a final wind field. The 
+final hourly-varying wind field thus reflects the influences of local topography and land uses.  
+CALMET modelling was conducted using the ‘No Obs’ CALMET approach for two domains, 
+an outer domain with a coarse meteorological grid (20 km by 20 km domain with a 100 m 
+grid resolution) and a more refined grid (4.4 km by 4.4 km domain with a 25 m grid 
+resolution). TAPM-generated three-dimensional meteorological data were used as the 
+‘initial-guess’ wind field for both CALMET domains.  Local topography and land use 
+information were used to refine the wind field predetermined by the TAPM output.   
+Table 18 details the parameters used in the meteorological modelling to drive the CALMET 
+model. 
+[[page 38]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 32  
+ 
+Table 18 Meteorological Modelling Parameters - CALMET 
+Parameter Data 
+Coarse Grid 
+Modelling period 1st January 2021 to 31st December 2021 - checked 
+Meteorological grid resolution  100 m 
+Grid southwest corner 
+coordinates 
+316,397 mE   6,250,287 mS (UTM Coordinates) 
+Initial guess filed  TAPM output 
+Vertical resolution (cell heights) 10 (0 m, 20 m, 40 m, 80 m, 160 m, 320 m, 640 m, 1200 m, 
+2000 m, 3000 m, 4000 m) 
+Data assimilation None 
+Refined Grid 
+Modelling period 1st January 2021 to 31st December 2021 - checked 
+Meteorological grid resolution  25 m 
+Grid southwest corner 
+coordinates 
+324,228 mE   6,258,112 mS (UTM Coordinates) 
+Initial guess filed  TAPM output 
+Vertical resolution (cell heights) 10 (0 m, 20 m, 40 m, 80 m, 160 m, 320 m, 640 m, 1200 m, 
+2000 m, 3000 m, 4000 m) 
+Data assimilation None 
+A summary of the key meteorological conditions predicted by CALMET at the Site is 
+presented in Appendix C. 
+7.3 Source Characteristics and Emission Rates 
+CALPUFF requires a range of inputs to describe the emissions to air resulting from the 
+proposed activities. Potential emissions to air from the generator stacks were estimated 
+based on the diesel engine technical specifications. 
+Specifications for the proposed data centre generators are provided in Table 19. Based on 
+information provided by Goodman, this assessment assumes 66 MTU 20V4000G94F 
+generators will be installed. Full specifications are provided in Appendix A.   
+Table 19 Diesel Generator Specifications – Data Centre 
+Parameter Specifications Units 
+Model MTU 20V4000 G94F - 
+Number 66 - 
+Electrical generation capacity: individual 3,088 kW 
+Electrical generation capacity: generators combined 203.8 MW 
+Fuel consumption 756 L/hr 
+NOXa 7.11 g/kWh 
+COa 0.40 g/kWh 
+[[page 39]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 33  
+ 
+Parameter Specifications Units 
+PMa 0.028 g/kWh 
+VOCsa 0.12 g/kWh 
+NOX in-stack concentration b 1,656.4 mg/Nm3 
+CO in-stack concentration b 93.2 mg/Nm3 
+PM in-stack concentration b 6.5 mg/Nm3 
+VOC in-stack concentration b 28.0 mg/Nm3 
+NOX in-stack concentration @5% O2 2,532.3 mg/Nm3  
+CO in-stack concentration @5% O2 142.5 mg/Nm3  
+PM in-stack concentration @5% O2 10.0 mg/Nm3  
+VOC in-stack concentration @5% O2 42.7 mg/Nm3  
+a At 100% of power rating  
+b Based on residual oxygen value (as measured) 
+c It is noted that the anticipated maximum in-stack NOX concentration exceeds the 450 mg/m3 Protection of the 
+Environment Operations (Clean Air) Regulation 2022 Group 6 limit (Refer Section 4.2). However, as the emergency 
+standby plant is anticipated to operate less than 200 hours per year, it is exempt from these limits under the 
+Regulation. 
+d All HC emissions assumed to be the same as VOCs.  
+ 
+The generator set specifications sheet includes emission rates of the pollutants of concern 
+with the exception of SO2 and PAHs. It is noted that there is no speciation profile available 
+for VOC emissions from the combustion of diesel.  In SLR’s experience, if no exceedances 
+of other combustion gas criteria are predicted, it is considered appropriate to assume that 
+VOC emissions from the operation of the Project would also result in no exceedances of the 
+relevant criteria. VOC emissions from the project have therefore not been considered further 
+in this assessment.   
+In the absence of SO2 emission rates provided in the generator datasheets (see Table 19 
+and Appendix A), emission rates are adopted from the specification sheet for the Cummins 
+QSK95-G4, (also provided in Appendix A). The Cummins QSK95-G4 SO2 emission factor 
+of 0.004 grams per break horsepower-hour (g/bhp-hr) is equal to 0.0054 grams per kilowatt-
+hour (g/kW-hr).   
+Emission rates of PAH's were estimated from emission factors adopted from USEPA “AP42: 
+Compilation of Air Emission Factors, 3.3 Gasoline and Diesel Industrial Engines” (USEPA 
+2006 and Updates). From this document, Table 3.3-2 “Speciated Organic Compound 
+Emission Factors for Diesel Engines” provides emission factors as a function of diesel fuel 
+input for 16 PAHs. 
+The Approved Methods requires that all PAHs be assessed as benzo(a)pyrene toxic 
+equivalency quotient (B(a)PTEQ) using the potency equivalency factors (PEFs) provided in 
+Table 20. The emission of PAHs as B(a)PTEQ is equal to the sum of the individual PAH 
+emission factors multiplied by their PEFs: 
+𝐸𝐹𝐵(𝑎)𝑃𝑇𝐸𝑄 = ∑ 𝐸𝐹𝑖 × 𝑃𝐸𝐹𝑖
+𝑛
+𝑖=1
+ 
+The USEPA PAH emission factors are presented in Table 21 along with their PEFs, where 
+provided, and the resultant PAH as B(a)PTEQ emission factor. 
+[[page 40]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 34  
+ 
+Table 20 Approved Methods Potency Equivalency Factors for PAHs 
+Pah or derivative Cas number PEF 
+Benzo[a]pyrene 50-32-8 1 
+Benzo[a]anthracene 56-55-3 0.1 
+Benzo[b]fluoranthene 205-99-2 0.1 
+Benzo[j]fluoranthene 205-82-3 0.1 
+Benzo[k]fluoranthene 207-08-9 0.1 
+Bibenz[a,j]acridine 224-42-0 0.1 
+Bibenz[a,h]acridine 226-36-8 0.1 
+7h-dibenzo[c,g]carbazole 194-59-2 1 
+Dibenzo[a,e]pyrene 192-65-4 1 
+Dibenzo[a,h]pyrene 189-64-0 10 
+Dibenzo[a,i]pyrene 189-55-9 10 
+Dibenzo[a,l]pyrene 191-30-0 10 
+5-nitroacenaphthene 602-87-9 0.01 
+Indeno[1,2,3-cd]pyrene 193-39-5 0.1 
+5-methylchrysene 3697-24-3 1 
+1-nitropyrene 5522-43-0 0.1 
+4-nitropyrene 57835-92-4 0.1 
+1,6-dinitropyrene 42397-64-8 10 
+1,8-dinitropyrene 42397-65-9 1 
+6-nitrocrysene 08-02-7496 10 
+2-nitrofluorene 607-57-8 0.01 
+Chrysene 218-01-9 0.01 
+Dibenz[a,h]anthracene 53-70-3 0.4 
+7,12-dimethylbenzanthracene 57-97-6 21.8 
+3-methylcholanthrene 56-49-5 1.9 
+ 
+[[page 41]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 35  
+ 
+Table 21 PAH (as Benzo(a)pyrene) Emission Factor  
+PAH AP42 Emission Factor 
+(mg/MJ) 
+PEF ^ 
+Benzo(a)anthracene 72.2 0.1 
+Chrysene 1.5 0.01 
+Benzo(b)fluoranthene 4.3 0.1 
+Benzo(k)fluoranthene 6.7 0.1 
+Benzo(a)pyrene 80.8 1 
+Indeno(1,2,3-cd)pyrene 16.1 0.1 
+Dibenz(a,h)anthracene 100.3 0.4 
+PAH as B(a)PTEQ 130.9 
+^ Approved Methods Table 14 
+ 
+Table 22 provides a summary of stack parameters and emission rates for the proposed 
+generators. SLR understands that the generators will be operating in ‘Standby’ mode and 
+served by stacks oriented vertically. Also, it is noted that the 36 generator stacks towards the 
+north will have an exit point at 45 m, and 30 generator stacks towards the south will have an 
+exit point at 38.5 m, as illustrated in Figure 15.  
+Figure 15 Generator Layout 
+ 
+Source: HDR 
+
+[[page 42]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 36  
+ 
+Table 22 Stack Parameters and Emission Rates 
+Parameter North 
+(36 
+stacks) 
+South 
+(30 
+stacks) 
+Unit Reference/Base 
+Temperature 823 K Calculated from engine specifications (Refer 
+Appendix A) 
+Release 
+height 45 38.5 m Client drawings 
+Exhaust gas 
+velocity 33.5 m/s Calculated from engine specifications (Refer 
+Appendix A) 
+Stack 
+diameter 0.65 m Client  
+Stack 
+orientation Vertical - Client  
+NOx 
+emission 
+rate 
+6.099 
+g/s 
+Engine specifications (Refer Appendix A) CO emission 
+rate 
+0.343 g/s 
+PM emission 
+rate 
+0.024 g/s 
+SO2 
+emission 
+rate 
+0.0046 
+g/s In absence of data, based on Cummins QSK95-G4 
+engine specifications (Refer Appendix A), scaled 
+for power output. 
+PAH (as 
+B(a)P) 
+emission 
+rate 
+2.1 x 10-6 
+g/s Calculated using engine specifications (Full 
+Continuous fuel consumption rate; Refer Appendix 
+A) and AP42 3.3 PAH emission factors for 
+uncontrolled diesel engines. 
+ 
+To represent the testing regime (Section 3.0), for modelling purposes it is assumed that one 
+generators run continuously at each hour between 7:00 am and 5:00 pm, every day of the 
+year. Also, one generator was run from north and south each, and the maximum incremental 
+impact (contemporaneous) was adopted for cumulative assessment.  
+This approach is likely to significantly overestimate the 24-hour average and annual average 
+downwind air pollutant concentrations as it is most likely that only 1 generator will be tested 
+at a time, and only 4 tests are to be conducted per generator, per year (ie quarterly). All 
+exhaust stacks were represented in the model as point sources.   
+7.4 Additional Model Parameters and Options 
+7.4.1 Background Pollutant Concentrations 
+Hourly varying air quality data recorded by the Macquarie Park AQMS during the modelling 
+period were used for the contemporaneous analysis of cumulative ground level 
+concentrations.  
+It is noted that in circumstances where the existing ambient air pollutant concentrations 
+exceed the impact assessment criteria, the Approved Methods requires the AQIA to 
+demonstrate that no additional exceedances of the impact assessment criteria will occur 
+because of the proposed activity.   
+[[page 43]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 37  
+ 
+7.4.2 Building Downwash 
+Building downwash is a phenomenon caused by structures near to pollutant emission 
+sources influencing atmospheric turbulence. Airflow is rapidly mixed to the ground as 
+frictional forces and pressure gradients cause stagnations and eddies to develop in the wake 
+of buildings downwind of elevated sources.  
+The USEPA has established a Good Engineering Practice (GEP) stack height which is 
+defined as the ‘height necessary to ensure that emissions from the stack do not result in 
+excessive concentrations of any air pollutants in the immediate vicinity of the source as a 
+result of atmospheric downwash, eddies or wakes which may be created by the source itself, 
+nearby structures or nearby terrain obstacles’ (USEPA 1985). The definition of GEP stack 
+height is the building height plus 1.5 times the lesser of the building height or projected 
+building width.  
+A stack is considered to be wake affected when the stack and building are located less than 
+five times the lesser of the building height or project building width apart.  
+CALPUFF contains the Prime algorithm which was used to predict building downwash 
+effects. Influencing building dimensions were calculated using the USEPA’s Building Profile 
+Input Program (BPIP).  
+For modelling purposes, proposed Project buildings as well as existing buildings in the 
+surrounding area were included in the modelling. Figure 16 illustrates the buildings input into 
+the model, and the relative locations of point sources representing the generator exhausts.   
+Figure 16 Modelled Buildings and Point Sources (Worst-case Emergency Scenario) 
+ 
+ 
+7.4.3 NOx to NO2 conversion 
+NOx emitted from combustion processes mainly consist of NO with a small portion 
+(approximately 10%) of NO2. In the atmosphere however, NO emitted from the source 
+
+[[page 44]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 38  
+ 
+oxidises to NO2 in the presence of ozone (O3) and sunlight as it travels further from the 
+source. The rate of oxidation depends on a number of parameters including the ambient O3 
+concentration. The Approved Methods lists the following methods that can be applied to take 
+account the oxidation of NO to NO2 in estimating downwind NO2 concentrations at receptor 
+locations. 
+Method 1 – 100% Conversion 
+This method is usually used as a screening level assessment and assumes 100% 
+conversion of NO to NO2 before the plume arrives at the receptor location. Use of this 
+method can significantly over-predict NO2 concentrations at nearfield receptors. Given the 
+close proximity of sensitive receptors to the Site the use of Method 1 (100% conversion) is 
+not appropriate. 
+Method 2 – Ambient Ozone Limiting Method (OLM) 
+This method assumes that all the available ozone in the atmosphere will react with NO in the 
+plume until either all the O3 or all the NO is used up. NO2 concentrations can be estimated 
+by this method using the following equation: 
+[NO2]total = {0.1 × [NOx]pred} + MIN{(0.9) × [NOx]pred or (46/48) × [O3]bkgd} + [NO2]bkgd 
+Again, given the close proximity of sensitive receptors with short transport and duration 
+periods from the Project, Method 2 could be deemed overly conservative as it assumes that 
+the atmospheric reaction is instantaneous when in reality, the reaction takes place over a 
+number of hours (NSW EPA 2017).  
+Method 3 – NO to NO2 conversion using empirical relationship 
+An empirical equation for estimating the oxidation rate of NO in power plant plumes 
+dependent on distance downwind from the source and the parameters A and α and has the 
+following form:  
+𝑁𝑂2 = 𝑁𝑂𝑥 × 𝐴(1 − 𝑒−𝛼𝑥) 
+where x is the distance from the source and A and α are classified according to the O3 
+concentration, wind speed and season (Janssen, et al. 1988) as provided in Table 23. 
+Table 23 Classification of Values for A and α by Season  
+Season Ozone (ppb) Wind speed (m/s)  
+5 15 >15 
+Winter 40 A = 0.87 
+α = 0.07 
+A = 0.87 
+α = 0.07 
+A = 0.87 
+α = 0.15 
+30 A = 0.82 
+α = 0.07 
+A = 0.83 
+α = 0.07 
+A = 0.83 
+α = 0.07 
+20 A = 0.74 
+α = 0.07 
+A = 0.74 
+α = 0.07 
+A = 0.74 
+α = 0.07 
+10 A = 0.49 
+α = 0.05 
+A = 0.49 
+α = 0.05 
+A = 0.49 
+α = 0.05 
+Spring/Autumn 60 A = 0.85 
+α = 0.10 
+A = 0.85 
+α = 0.15 
+A = 0.85 
+α = 0.30 
+40 A = 0.80 A = 0.80 A = 0.80 
+[[page 45]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 39  
+ 
+Season Ozone (ppb) Wind speed (m/s)  
+5 15 >15 
+α = 0.10 α = 0.10 α = 0.25 
+30 A = 0.74 
+α = 0.10 
+A = 0.74 
+α = 0.10 
+A = 0.74 
+α = 0.15 
+20 A = 0.635 
+α = 0.10 
+A = 0.635 
+α = 0.10 
+A = 0.635 
+α = 0.10 
+Summer 200 A = 0.93 
+α = 0.40 
+A = 0.93 
+α = 0.65 
+A = 0.93 
+α = 0.80 
+120 A = 0.88 
+α = 0.20 
+A = 0.88 
+α = 0.35 
+A = 0.88 
+α = 0.45 
+60 A = 0.81 
+α = 0.15 
+A = 0.81 
+α = 0.25 
+A = 0.81 
+α = 0.35 
+40 A = 0.74 
+α = 0.10 
+A = 0.74 
+α = 0.15 
+A = 0.74 
+α = 0.25 
+30 A = 0.67 
+α = 0.10 
+A = 0.67 
+α = 0.10 
+A = 0.67 
+α = 0.10 
+ 
+This assessment employs Method 3, adopting O3 data from the Macquarie Park AQMS, 
+presented in Figure 17 and summarised  
+Table 24, to estimate the incremental and cumulative NO2 impacts at nearby sensitive 
+receptors as a result of the Project emissions. 
+Figure 17 Macquarie Park AQMS O3 1-Hour Average Concentrations (2021) 
+ 
+ 
+
+[[page 46]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 40  
+ 
+Table 24 O3 Concentration Summary: Macquarie Park AQMS (2021) 
+Pollutant Averaging 
+Period 
+Units Maximum 
+Concentration 
+O3 1-hour pphm 8.4 
+µg/m3 180 
+ 
+7.4.4 Conversion of Averaging Times 
+For pollutants with short-term (sub-hourly) air quality impact assessment criteria, in the 
+absence of specific guidance in the Approved methods, the short-term impacts have been 
+estimated using the formula cited in the Guidance notes for using the regulatory air pollution 
+model AERMOD in Victoria (EPAV 2013) as follows: 
+𝐶𝑡  =  𝐶(𝑡0) × (𝑡0
+𝑡⁄ )0.2 
+Where 
+Ct = concentration for the longer time-averaging period 
+C0 = concentration for the shorter time-averaging period 
+t0 = longer averaging time 
+t = shorter averaging time 
+7.4.5 Accuracy of Modelling 
+All atmospheric dispersion models, including CALPUFF, represent a simplification of the 
+many complex processes involved in the dispersion of pollutants in the atmosphere. To 
+obtain good quality results it is important that the most appropriate model is used and the 
+quality of the input data (meteorological, terrain, source characteristics) is adequate. 
+The main sources of uncertainty in dispersion models, and their effects, are discussed 
+below: 
+• Oversimplification of physics: This can lead to both under-prediction and over-
+prediction of ground level pollutant concentrations. Uncertainties are greater in 
+Gaussian plume models as they do not include the effects of non-steady-state 
+meteorology (i.e., spatially- and temporally-varying meteorology). 
+• Uncertainties in emission rates: Ground level concentrations are proportional to 
+the pollutant emission rate. In addition, most modelling studies assume constant 
+worst-case emission levels or are based on the results of a small number of stack 
+tests, however operations (and thus emissions) are often quite variable. Accurate 
+measurement of emission rates and source parameters requires continuous 
+monitoring. 
+• Uncertainties in wind direction and wind speed: Wind direction affects the 
+direction of plume travel, while wind speed affects plume rise and dilution of plume. 
+Uncertainties in these parameters can result in errors in the predicted distance from 
+the source of the plume impact, and magnitude of that impact. In addition, aloft wind 
+directions commonly differ from surface wind directions. The preference to use 
+rugged meteorological instruments to reduce maintenance requirements also means 
+that light winds are often not well characterised. 
+• Uncertainties in mixing height: If the plume elevation reaches 80% or more of the 
+mixing height, more interaction will occur, and it becomes increasingly important to 
+[[page 47]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 41  
+ 
+properly characterise the depth of the mixed layer as well as the strength of the 
+upper air inversion. 
+• Uncertainties in temperature: Ambient temperature affects plume buoyancy, so 
+inaccuracies in the temperature data can result in potential errors in the predicted 
+distance from the source of the plume impact, and magnitude of that impact. 
+• Uncertainties in stability estimates: Gaussian plume models use estimates of 
+stability class, and 3D models use explicit vertical profiles of temperature and wind 
+(which are used directly or indirectly to estimate stability class for Gaussian models). 
+In either case, uncertainties in these parameters can cause either under-prediction or 
+over-prediction of ground level concentrations. For example, if an error is made of 
+one stability class, then the computed concentrations can be off by 50% or more. 
+The USEPA makes the following statement in its Modelling Guideline (US EPA, 2005) on the 
+relative accuracy of models: 
+“Models are more reliable for estimating longer time-averaged concentrations than for 
+estimating short-term concentrations at specific locations; and the models are reasonably 
+reliable in estimating the magnitude of highest concentrations occurring sometime, 
+somewhere within an area. For example, errors in highest estimated concentrations of  10 
+to 40% are found to be typical, i.e., certainly well within the often quoted factor-of-two 
+accuracy that has long been recognised for these models. However, estimates of 
+concentrations that occur at a specific time and site are poorly correlated with actually 
+observed concentrations and are much less reliable.”  
+7.5 Cumulative Impact Assessment 
+The cumulative assessment methodology adopted is in line with the NSW Department of 
+Planning, Industry and Environment guidelines - 'Cumulative Impact Assessment Guidelines 
+for State Significant Projects (DPIE 2022), and Approved Methods (NSW EPA 2022).   
+The cumulative impact assessment of the Project with local sources identified in Section 5.5 
+is presented in Section 8.4.   
+ 
+ 
+ 
+  
+[[page 48]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 42  
+ 
+8.0 Assessment of Impacts 
+8.1 Maintenance Phase 
+8.1.1 Particulates 
+Table 25 and Table 26 present the maximum 24-hour and annual average incremental 
+particulate matter concentrations at surrounding sensitive receptor locations respectively. 
+The insignificant incremental increase of particulate matter predicted at the identified 
+receptors is not predicted to result in additional exceedances of the criteria.  Contour plots of 
+the predicted incremental PM10 and PM2.5 concentrations are presented in Appendix C. 
+Table 25 Maximum Predicted 24-hour average PM Concentrations at Modelled 
+Receptors 
+Receptor 
+ID 
+Maximum 24-hour 
+average incremental 
+concentration 
+ (µg/m³) 
+Maximum cumulative 24-hour 
+average concentration (µg/m³) 
+Additional exceedances as 
+result of project a 
+PM10 PM2.5 PM10 PM2.5 
+R1 0.02 125 213 0 0 
+R2 0.02 125 213 0 0 
+R3 0.02 125 213 0 0 
+R4-0 0.04 125 213 0 0 
+R4-1 0.04 125 213 0 0 
+R4-2 0.04 125 213 0 0 
+R5 0.03 125 213 0 0 
+R6-0 0.03 125 213 0 0 
+R6-1 0.03 125 213 0 0 
+R6-2 0.03 125 213 0 0 
+R7 0.04 125 213 0 0 
+R8 0.04 125 213 0 0 
+R9 0.05 125 213 0 0 
+R10 0.03 125 213 0 0 
+R11 0.04 125 213 0 0 
+R12 0.07 125 213 0 0 
+R13-0 0.04 125 213 0 0 
+R13-1 0.05 125 213 0 0 
+R14 0.04 125 213 0 0 
+R15 0.09 125 213 0 0 
+R15-1 0.14 125 213 0 0 
+R15-2 0.14 125 213 0 0 
+R15-3 0.15 125 213 0 0 
+R15-4 0.15 125 213 0 0 
+R15-5 0.15 125 213 0 0 
+R15-6 0.15 125 213 0 0 
+[[page 49]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 43  
+ 
+Receptor 
+ID 
+Maximum 24-hour 
+average incremental 
+concentration 
+ (µg/m³) 
+Maximum cumulative 24-hour 
+average concentration (µg/m³) 
+Additional exceedances as 
+result of project a 
+PM10 PM2.5 PM10 PM2.5 
+R15-7 0.15 125 213 0 0 
+R15-8 0.15 125 213 0 0 
+R15-9 0.16 125 213 0 0 
+R15-10 0.17 125 213 0 0 
+R16-0 0.14 125 213 0 0 
+R16-1 0.15 125 213 0 0 
+R16-2 0.13 125 213 0 0 
+R17 0.03 125 213 0 0 
+R18 0.04 125 213 0 0 
+R19-0 0.10 125 213 0 0 
+R19-1 0.10 125 213 0 0 
+R20 0.12 125 213 0 0 
+R21-0 0.29 125 213 0 0 
+R21-1 0.29 125 213 0 0 
+R21-2 0.29 125 213 0 0 
+R22-0 0.18 125 213 0 0 
+R22-1 0.18 125 213 0 0 
+R22-2 0.16 125 213 0 0 
+R23-0 0.06 125 213 0 0 
+R23-1 0.06 125 213 0 0 
+R24 0.10 125 213 0 0 
+Criteria 50 25   
+a  Over and above background 
+ 
+Table 26 Maximum Predicted Annual Average PM Concentrations at Modelled 
+Receptors 
+Receptor 
+ID 
+Annual average 
+incremental 
+concentration (µg/m³) 
+Cumulative annual 
+average concentration 
+(µg/m³) 
+Exceedance as result of 
+project a 
+PM10 PM2.5 PM10 PM2.5 
+R1 0.001 13 7.3 0 0 
+R2 0.001 13 7.3 0 0 
+R3 0.002 13 7.3 0 0 
+R4-0 0.002 13 7.3 0 0 
+R4-1 0.002 13 7.3 0 0 
+R4-2 0.002 13 7.3 0 0 
+R5 0.002 13 7.3 0 0 
+[[page 50]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 44  
+ 
+Receptor 
+ID 
+Annual average 
+incremental 
+concentration (µg/m³) 
+Cumulative annual 
+average concentration 
+(µg/m³) 
+Exceedance as result of 
+project a 
+PM10 PM2.5 PM10 PM2.5 
+R6-0 0.002 13 7.3 0 0 
+R6-1 0.002 13 7.3 0 0 
+R6-2 0.002 13 7.3 0 0 
+R7 0.002 13 7.3 0 0 
+R8 0.003 13 7.3 0 0 
+R9 0.003 13 7.3 0 0 
+R10 0.003 13 7.3 0 0 
+R11 0.003 13 7.3 0 0 
+R12 0.003 13 7.3 0 0 
+R13-0 0.002 13 7.3 0 0 
+R13-1 0.002 13 7.3 0 0 
+R14 0.003 13 7.3 0 0 
+R15 0.011 13 7.3 0 0 
+R15-1 0.010 13 7.3 0 0 
+R15-2 0.010 13 7.3 0 0 
+R15-3 0.0099 13 7.3 0 0 
+R15-4 0.0100 13 7.3 0 0 
+R15-5 0.0102 13 7.3 0 0 
+R15-6 0.0104 13 7.3 0 0 
+R15-7 0.0107 13 7.3 0 0 
+R15-8 0.011 13 7.3 0 0 
+R15-9 0.011 13 7.3 0 0 
+R15-10 0.012 13 7.3 0 0 
+R16-0 0.006 13 7.3 0 0 
+R16-1 0.007 13 7.3 0 0 
+R16-2 0.009 13 7.3 0 0 
+R17 0.002 13 7.3 0 0 
+R18 0.003 13 7.3 0 0 
+R19-0 0.010 13 7.3 0 0 
+R19-1 0.010 13 7.3 0 0 
+R20 0.008 13 7.3 0 0 
+R21-0 0.025 13 7.4 0 0 
+R21-1 0.025 13 7.4 0 0 
+R21-2 0.025 13 7.4 0 0 
+R22-0 0.016 13 7.3 0 0 
+R22-1 0.016 13 7.3 0 0 
+R22-2 0.016 13 7.3 0 0 
+[[page 51]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 45  
+ 
+Receptor 
+ID 
+Annual average 
+incremental 
+concentration (µg/m³) 
+Cumulative annual 
+average concentration 
+(µg/m³) 
+Exceedance as result of 
+project a 
+PM10 PM2.5 PM10 PM2.5 
+R23-0 0.005 13 7.3 0 0 
+R23-1 0.005 13 7.3 0 0 
+R24 0.012 13 7.3 0 0 
+Criteria 25 8   
+a  Over and above background. 
+ 
+8.1.2 NO2  
+Table 27 presents the maximum incremental and cumulative 1-hour and annual average 
+NO2 concentrations predicted at identified sensitive receptor locations. Contour plots of the 
+predicted incremental NOx concentrations are presented in Appendix C. 
+The modelling results show that the predicted cumulative maximum 1-hour NO2 
+concentrations are below the relevant ambient air quality criterion at all receptor locations, 
+however the annual average NO2 concentrations are above the relevant criterion at all 
+receptor locations.  It is noted that this is due to the already high background NO2 
+concentrations recorded at the Macquarie Park AQ monitoring station (see Section 5.4).   
+Table 27 Maximum Predicted NO2 Concentrations at Modelled Receptors  
+Receptor 
+ID 
+Incremental (µg/m³) Cumulative (µg/m³) 
+Maximum 
+1-Hour 
+Corresponding 1-Hour a Annual 1-Hour Annual 
+NOX 
+(µg/m³) 
+O3 
+(ppb) 
+Wind 
+Speed 
+(m/s) 
+Transport 
+Time (s) b 
+NO2 
+(µg/m³) 
+R1 1.8 27 29 0.8 1,557 2 0.02 150 7.3 
+R2 1.7 29 29 0.8 1,372 2 0.02 150 7.3 
+R3 2.7 34 44 1.3 871 2 0.02 150 7.3 
+R4-0 1.4 26 20 1.7 510 0.0 0.02 150 7.3 
+R4-1 1.4 29.8 32 0.8 1,086 2.1 0.02 150 7.3 
+R4-2 1.7 35.5 32 0.8 1,086 2.1 0.02 150 7.3 
+R5 1.8 29 39 1.7 592 0.0 0.03 150 7.3 
+R6-0 2.0 37 44 1.3 584 2 0.02 150 7.3 
+R6-1 2.1 39 44 1.3 584 2.1 0.02 150 7.3 
+R6-2 2.4 44 44 1.3 584 2 0.02 150 7.3 
+R7 1.5 28 44 1.3 556 2.1 0.02 150 7.3 
+R8 1.6 28 39 1.7 536 0.0 0.03 150 7.3 
+R9 1.4 33 25 1.6 413 4.1 0.03 150 7.3 
+R10 1.6 32 36 1.2 763 2.1 0.03 150 7.3 
+R11 1.6 28.6 53 0.9 832 8.2 0.03 150 7.3 
+R12 1.0 35 54 1.8 209 6.2 0.02 150 7.3 
+R13-0 0.8 30.7 43 2.4 144 0.0 0.01 150 7.3 
+[[page 52]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 46  
+ 
+Receptor 
+ID 
+Incremental (µg/m³) Cumulative (µg/m³) 
+Maximum 
+1-Hour 
+Corresponding 1-Hour a Annual 1-Hour Annual 
+NOX 
+(µg/m³) 
+O3 
+(ppb) 
+Wind 
+Speed 
+(m/s) 
+Transport 
+Time (s) b 
+NO2 
+(µg/m³) 
+R13-1 0.8 31 43 2.4 144 0 0.01 150 7.3 
+R14 0.8 32 23 2.1 181 2.1 0.02 150 7.3 
+R15 1.7 41 61 3.2 110 0.0 0.05 150 7.3 
+R15-1 4.9 34 60 1.6 807 12 0.10 150 7.3 
+R15-2 4.4 34 60 1.6 711 12 0.09 150 7.3 
+R15-3 4.3 34 60 1.6 704 12 0.09 150 7.3 
+R15-4 3.3 34 60 1.6 523 12.3 0.07 150 7.3 
+R15-5 3.3 34.7 60 1.6 523 12.3 0.07 150 7.3 
+R15-6 3.4 35.0 60 1.6 523 12.3 0.07 150 7.3 
+R15-7 4.0 35 60 1.6 618 12.3 0.09 150 7.3 
+R15-8 3.2 36 60 1.6 472 12 0.07 150 7.3 
+R15-9 3.2 36 60 1.6 472 12.3 0.07 150 7.3 
+R15-10 3.3 37 60 1.6 472 12 0.07 150 7.3 
+R16-0 0.7 83 13 2.6 50 0 0.01 150 7.3 
+R16-1 0.8 89 13 2.6 50 0.0 0.01 150 7.3 
+R16-2 0.8 91.7 13 2.6 50 0.0 0.02 150 7.3 
+R17 0.2 32.7 35 3.1 43 8.2 0.00 150 7.2 
+R18 0.7 33.0 0.0 2.4 137 2.1 0.01 150 7.3 
+R19-0 2.5 58.8 62.0 2.8 133 4.1 0.05 150 7.3 
+R19-1 2.5 58.7 62.0 2.8 133 4.1 0.05 150 7.3 
+R20 0.9 77.4 15.0 2.5 72 4.1 0.02 150 7.3 
+R21-0 2.8 174.3 14.0 2.7 90 8.2 0.08 150 7.3 
+R21-1 2.8 174.2 14.0 2.7 90 8.2 0.08 150 7.3 
+R21-2 3.1 251.7 26.0 1.8 132 0.0 0.08 150 7.3 
+R22-0 2.1 164.3 13.0 2.0 97 6.2 0.04 150 7.3 
+R22-1 2.1 165.1 13.0 2.0 97 6.2 0.04 150 7.3 
+R22-2 2.1 160.9 17.0 1.9 104 6.2 0.04 150 7.3 
+R23-0 1.6 52.6 16.0 3.4 141 6.2 0.03 150 7.3 
+R23-1 1.6 52.6 16.0 3.4 141 6.2 0.03 150 7.3 
+R24 1.4 65.3 24.0 1.3 253 14.4 0.05 150 7.3 
+Criteria 164 31 
+a Used to calculate 1-hour incremental NO2 concentration using the Method 3 (Section 7.4.3). 
+b Approximate plume transport time from source to receptor based on windspeed and separation distance. 
+ 
+[[page 53]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 47  
+ 
+8.1.3 CO 
+Table 28 presents the maximum incremental 15-minute, 1-hour and 8-hour average CO 
+concentrations predicted at surrounding sensitive receptor locations along with the 
+corresponding 15-minute, 1-hour and 8-hour average maximum background concentrations 
+for 2021. Given the insignificant incremental increase of CO predicted at the identified 
+receptors and the existing low concentrations of CO (both relative to the criteria), 
+exceedances of the relevant criteria due to the operation of the Project are not predicted.   
+Table 28 Maximum Predicted CO Concentrations at Modelled Receptors  
+Receptor 
+ID 
+Increment (mg/m³) 
+15-Minute* 1-Hour 8-Hour 
+R1 0.002 0.002 0.001 
+R2 0.002 0.002 0.001 
+R3 0.003 0.002 0.001 
+R4-0 0.002 0.002 0.001 
+R4-1 0.002 0.002 0.001 
+R4-2 0.003 0.002 0.001 
+R5 0.002 0.002 0.001 
+R6-0 0.003 0.002 0.001 
+R6-1 0.003 0.002 0.001 
+R6-2 0.003 0.002 0.001 
+R7 0.003 0.002 0.001 
+R8 0.002 0.002 0.001 
+R9 0.003 0.003 0.002 
+R10 0.004 0.003 0.001 
+R11 0.004 0.003 0.001 
+R12 0.003 0.002 0.002 
+R13-0 0.002 0.002 0.002 
+R13-1 0.002 0.002 0.002 
+R14 0.002 0.002 0.001 
+R15 0.007 0.006 0.003 
+R15-1 0.003 0.003 0.002 
+R15-2 0.003 0.003 0.002 
+R15-3 0.003 0.003 0.002 
+R15-4 0.003 0.003 0.002 
+R15-5 0.004 0.003 0.002 
+R15-6 0.004 0.003 0.002 
+R15-7 0.004 0.003 0.002 
+R15-8 0.004 0.003 0.002 
+R15-9 0.004 0.003 0.002 
+R15-10 0.005 0.003 0.003 
+[[page 54]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 48  
+ 
+Receptor 
+ID 
+Increment (mg/m³) 
+15-Minute* 1-Hour 8-Hour 
+R16-0 0.007 0.006 0.005 
+R16-1 0.008 0.006 0.006 
+R16-2 0.007 0.005 0.005 
+R17 0.003 0.002 0.001 
+R18 0.002 0.002 0.002 
+R19-0 0.005 0.004 0.004 
+R19-1 0.005 0.004 0.004 
+R20 0.006 0.005 0.004 
+R21-0 0.017 0.013 0.010 
+R21-1 0.017 0.013 0.010 
+R21-2 0.019 0.014 0.010 
+R22-0 0.014 0.011 0.008 
+R22-1 0.014 0.010 0.008 
+R22-2 0.012 0.009 0.007 
+R23-0 0.008 0.006 0.003 
+R23-1 0.008 0.006 0.003 
+R24 0.006 0.004 0.004 
+Criteria 100 30 10 
+ 
+8.1.4 SO2 
+Table 29 presents the maximum incremental 1-hour and 24-hour average SO2 
+concentrations predicted at surrounding sensitive receptor locations along with the maximum 
+1-hour and 24-hour average background concentrations for 2021. Given the insignificant 
+incremental increase of SO2 predicted at the identified receptors and the existing low 
+concentrations of SO2 (both relative to the criteria), exceedances of the relevant criteria due 
+to the operation of the Project are not predicted.   
+Table 29 Maximum Predicted SO2 Concentrations at Modelled Receptors  
+Receptor 
+ID 
+Increment (µg /m³) 
+1-Hour 24-Hour 
+R1 0.02 0.00 
+R2 0.02 0.00 
+R3 0.03 0.00 
+R4-0 0.02 0.01 
+R4-1 0.02 0.01 
+R4-2 0.03 0.01 
+R5 0.02 0.01 
+R6-0 0.03 0.01 
+R6-1 0.03 0.01 
+[[page 55]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 49  
+ 
+Receptor 
+ID 
+Increment (µg /m³) 
+1-Hour 24-Hour 
+R6-2 0.03 0.01 
+R7 0.03 0.01 
+R8 0.02 0.01 
+R9 0.04 0.01 
+R10 0.04 0.01 
+R11 0.04 0.01 
+R12 0.03 0.01 
+R13-0 0.02 0.01 
+R13-1 0.02 0.01 
+R14 0.02 0.01 
+R15 0.07 0.02 
+R15-1 0.03 0.01 
+R15-2 0.03 0.01 
+R15-3 0.04 0.01 
+R15-4 0.04 0.01 
+R15-5 0.04 0.01 
+R15-6 0.04 0.01 
+R15-7 0.04 0.01 
+R15-8 0.04 0.01 
+R15-9 0.04 0.01 
+R15-10 0.05 0.01 
+R16-0 0.08 0.03 
+R16-1 0.08 0.03 
+R16-2 0.07 0.03 
+R17 0.03 0.00 
+R18 0.03 0.01 
+R19-0 0.06 0.02 
+R19-1 0.06 0.02 
+R20 0.07 0.02 
+R21-0 0.18 0.06 
+R21-1 0.18 0.06 
+R21-2 0.19 0.06 
+R22-0 0.14 0.03 
+R22-1 0.14 0.03 
+R22-2 0.13 0.03 
+R23-0 0.08 0.01 
+R23-1 0.08 0.01 
+R24 0.06 0.02 
+[[page 56]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 50  
+ 
+Receptor 
+ID 
+Increment (µg /m³) 
+1-Hour 24-Hour 
+Criteria 286  57 
+* Conservatively calculated from the maximum incremental and maximum background, noting that these do not 
+necessarily occur at the same time. 
+ 
+8.1.5 PAHs 
+The maximum (99.9th percentile) incremental 1-hour average PAH concentrations predicted 
+beyond the Project boundary was 0.0000003 mg/m3 significantly less (<0.1%) than the 
+criterion of 0.0004 mg/m3. For the purposes of modelling, background PAH concentrations 
+were assumed to be negligible. Regardless, the addition of the incremental impacts to a 
+background concentration are not predicted to cause an exceedance. Table 30 presents the 
+incremental maximum 1-hour average PAH concentrations predicted at surrounding 
+sensitive receptor locations.   
+Table 30 Maximum Predicted PAH Concentrations at Modelled Receptors 
+Receptor ID Increment 1-hour (mg/m³) ^ 
+R1 6.3 x 10-9 
+R2 6.7 x 10-9 
+R3 7.2 x 10-9 
+R4-0 8.4 x 10-9 
+R4-1 8.5 x 10-9 
+R4-2 8.9 x 10-9 
+R5 8.4 x 10-9 
+R6-0 8.2 x 10-9 
+R6-1 8.5 x 10-9 
+R6-2 9.7 x 10-9 
+R7 8.9 x 10-9 
+R8 9.4 x 10-9 
+R9 1.1 x 10-8 
+R10 8.9 x 10-9 
+R11 1.0 x 10-8 
+R12 1.4 x 10-8 
+R13-0 9.8 x 10-9 
+R13-1 1.0 x 10-8 
+R14 9.1 x 10-9 
+R15 2.2 x 10-8 
+R15-1 1.3 x 10-8 
+R15-2 1.3 x 10-8 
+R15-3 1.3 x 10-8 
+R15-4 1.3 x 10-8 
+R15-5 1.3 x 10-8 
+[[page 57]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 51  
+ 
+Receptor ID Increment 1-hour (mg/m³) ^ 
+R15-6 1.4 x 10-8 
+R15-7 1.4 x 10-8 
+R15-8 1.5 x 10-8 
+R15-9 1.6 x 10-8 
+R15-10 1.7 x 10-8 
+R16-0 2.9 x 10-8 
+R16-1 3.1 x 10-8 
+R16-2 3.0 x 10-8 
+R17 7.8 x 10-9 
+R18 1.0 x 10-8 
+R19-0 2.3 x 10-8 
+R19-1 2.3 x 10-8 
+R20 2.8 x 10-8 
+R21-0 7.4 x 10-8 
+R21-1 7.4 x 10-8 
+R21-2 7.5 x 10-8 
+R22-0 6.0 x 10-8 
+R22-1 6.0 x 10-8 
+R22-2 5.0 x 10-8 
+R23-0 1.8 x 10-8 
+R23-1 1.8 x 10-8 
+R24 2.5 x 10-8 
+Criteria 0.0004 
+^ 99.9th percentile. 
+ 
+8.1.6 Summary of Findings 
+The dispersion modelling study, which accounted for worst-case testing conditions 
+(Section 3.0) predicted no exceedances of the relevant ambient air quality criteria as a 
+result of the operation of the Project under maintenance scenario (ie testing scenario). No 
+adverse impacts are predicted at surrounding sensitive receptors due to the testing 
+operations at the proposed development. 
+  
+[[page 58]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 52  
+ 
+8.2 Emergency Conditions 
+8.2.1 Particulates 
+In order to realistically assess PM10 and PM2.5 emergency operation impacts against 24-hour 
+average criterion, it is conservatively assumed that the emergency operation occurs for 24 
+hours of each day of the year. The daily predicted 24-hour average incremental 
+concentrations, is added to the 24-hour average background concentration to give the 
+equivalent cumulative 24-hour average concentration as provided in the Table 31.  
+The incremental increase of particulate matter predicted at the modelled receptors is not 
+predicted to result in additional exceedances of the PM10 criteria, however up to 26 
+additional exceedances of the 24-hour average PM2.5 criterion are predicted.  These 
+exceedances were due to the high background PM2.5 concentration recorded at the 
+Macquarie Park AQMS (see Section 5.4).   
+It is noted that the additional exceedance of the PM2.5 24-hour criterion is only in the case of 
+emergency scenario in operation for 24 hours (ie all generators in operation concurrently for 
+24 hours), which is a worst case scenario.   
+Table 31 Maximum Predicted 24-Hour PM Concentrations at Modelled Receptors  
+Receptor 
+ID 
+Daily 24-hour emergency operation 
+Maximum 24-Hour 
+Incremental 
+Concentration 
+(µg/m³) 
+Maximum Cumulative 24-
+Hour Average 
+Concentration (µg/m³) 
+Additional Exceedances as 
+Result of Project a 
+PM10 PM2.5 PM10 PM2.5 
+R1 2.3 125 213 0 0 
+R2 2.2 125 213 0 0 
+R3 3.6 125 213 0 0 
+R4-0 3.4 125 213 0 0 
+R4-1 3.4 125 213 0 0 
+R4-2 4.3 125 213 0 0 
+R5 5.6 125 213 0 0 
+R6-0 4.0 125 213 0 0 
+R6-1 4.0 125 213 0 0 
+R6-2 4.5 125 213 0 0 
+R7 3.9 125 213 0 0 
+R8 5.6 126 214 0 0 
+R9 6.5 125 213 0 0 
+R10 6.0 127 215 0 0 
+R11 6.8 127 215 0 0 
+R12 8.2 125 213 0 0 
+R13-0 5.7 125 213 0 0 
+R13-1 5.9 125 213 0 0 
+R14 5.3 125 213 0 0 
+R15 10.6 133 221 0 1 
+R15-1 9.9 132 220 0 1 
+[[page 59]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 53  
+ 
+Receptor 
+ID 
+Daily 24-hour emergency operation 
+Maximum 24-Hour 
+Incremental 
+Concentration 
+(µg/m³) 
+Maximum Cumulative 24-
+Hour Average 
+Concentration (µg/m³) 
+Additional Exceedances as 
+Result of Project a 
+PM10 PM2.5 PM10 PM2.5 
+R15-2 9.9 132 220 0 1 
+R15-3 10.0 132 220 0 1 
+R15-4 10.0 132 220 0 1 
+R15-5 10.2 132 220 0 1 
+R15-6 10.3 132 220 0 1 
+R15-7 10.4 132 220 0 1 
+R15-8 10.5 132 220 0 1 
+R15-9 10.6 132 220 0 1 
+R15-10 10.7 132 220 0 1 
+R16-0 15.9 125 213 0 0 
+R16-1 17.8 126 213 0 0 
+R16-2 16.1 126 213 0 0 
+R17 2.4 125 213 0 0 
+R18 5.3 125 213 0 0 
+R19-0 12.0 133 220 0 0 
+R19-1 12.0 133 220 0 0 
+R20 7.5 125 213 0 0 
+R21-0 38.3 126 214 1 26 
+R21-1 38.0 126 214 1 26 
+R21-2 37.0 126 214 1 25 
+R22-0 12.9 125 213 0 0 
+R22-1 13.1 125 213 0 0 
+R22-2 13.3 125 213 0 0 
+R23-0 11.9 126 214 0 1 
+R23-1 11.9 126 214 0 1 
+R24 10.0 125 213 0 0 
+Criteria 50 25  
+a  Over and above background, for which four exceedances are recorded. 
+ 
+8.2.2 NO2  
+Table 32 presents the maximum incremental and cumulative 1-hour average NO2 and 
+annual average concentrations predicted at modelled receptor locations. Isopleth plots of the 
+predicted incremental NOx concentrations are presented in Appendix C.  
+The modelling results show that the predicted cumulative maximum 1-hour NO2 
+concentrations could potentially exceed the relevant criteria at 10 of the 37 receptors 
+modelled.  
+[[page 60]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 54  
+ 
+Table 32 Maximum Predicted NO2 Concentrations at Sensitive Receptors 
+Receptor 
+ID 
+Incremental (µg/m³) Cumulative 
+(µg/m³) 
+Maximum 
+1-Hour 
+Corresponding 1-Hour a Annual 1-Hour Annual 
+NOX 
+(µg/m³) 
+O3 
+(ppb) 
+Wind 
+Speed 
+(m/s) 
+Transport 
+Time (s) b 
+Background 
+NO2 (µg/m³) 
+NO2 
+(µg/m³) 
+NO2 
+(µg/m³) 
+NO2 
+(µg/m³) 
+R1 177.9  2,166  0 0.4 3,633 7 2.0 185 9.3 
+R2 131.0  1,796  11 1.5 773 2 2.0 150 9.2 
+R3 158.2  1,984  44 1.3 871 2 2.4 160 9.7 
+R4-0 114.9  2,112  15 0.9 920 2.1 1.8 150 9.1 
+R4-1 117.5  2,160  19 0.8 1,045 4.1 1.8 150 9.1 
+R4-2 131.4  2,415  19 0.8 1,045 4.1 2.5 150 9.7 
+R5 254.2  3,983  37 0.5 1,853 4.1 5.3 258 12.5 
+R6-0 129.1  2,370  44 1.3 584 2 1.9 150 9.2 
+R6-1 135.9  2,494  44 1.3 584 2.1 2.0 150 9.2 
+R6-2 154.4  2,833  44 1.3 584 2 2.8 156 10.1 
+R7 102.4  2,177  11 0.7 1,070 6.2 1.8 150 9.0 
+R8 242.1  4,174  25 0.9 974 6.2 6.4 248 13.7 
+R9 159.7  3,703  4 1.0 665 6.2 4.1 166 11.3 
+R10 287.2  5,016  30 0.6 1,567 8.2 6.9 295 14.1 
+R11 276.9  5,495  30 0.6 1,372 8.2 7.1 285 14.4 
+R12 67.1  2,750  14 1.4 273 0.0 1.6 150 8.9 
+R13-0 51.5  2,242  1 1.4 247 8.2 1.0 150 8.3 
+R13-1 55.4  2,413  1 1.4 247 8 1.1 150 8.4 
+R14 47.8  1,738  40 2.6 148 4.1 1.3 150 8.5 
+R15 121.2  5,334  11 1.0 345 4.1 7.4 219 14.6 
+R15-1 448.8  5,464  11 1.0 1,308 4 24.5 453 31.7 
+R15-2 400.5  5,492  11 1.0 1,152 4 21.8 405 29.0 
+R15-3 399.9  5,538  11 1.0 1,140 4 21.6 404 28.9 
+R15-4 304.5  5,599  11 1.0 847 4.1 16.3 309 23.6 
+R15-5 308.3  5,669  11 1.0 847 4.1 16.4 312 23.6 
+R15-6 312.4  5,743  11 1.0 847 4.1 16.5 316 23.7 
+R15-7 371.1  5,815  11 1.0 1,001 4.1 19.4 375 26.7 
+R15-8 290.1  5,880  11 1.0 765 4 15.0 294 22.3 
+R15-9 292.6  5,931  11 1.0 765 4.1 15.1 297 22.3 
+R15-10 294.2  5,963  11 1.0 765 4 15.1 298 22.4 
+R16-0 37.0  4,321  14 1.4 95 0 1.2 151 8.5 
+R16-1 41.9  4,891  14 1.4 95 0.0 1.4 151 8.7 
+R16-2 44.6  5,203  14 1.4 95 0.0 1.7 151 8.9 
+R17 9.2  1,359  28 3.3 40 2.1 0.3 150 7.5 
+[[page 61]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 55  
+ 
+Receptor 
+ID 
+Incremental (µg/m³) Cumulative 
+(µg/m³) 
+Maximum 
+1-Hour 
+Corresponding 1-Hour a Annual 1-Hour Annual 
+NOX 
+(µg/m³) 
+O3 
+(ppb) 
+Wind 
+Speed 
+(m/s) 
+Transport 
+Time (s) b 
+Background 
+NO2 (µg/m³) 
+NO2 
+(µg/m³) 
+NO2 
+(µg/m³) 
+NO2 
+(µg/m³) 
+R18 44.1  2,065  18.0 0.8 405 10.3 0.8 150 8.1 
+R19-0 128.6  5,347  25.0 1.2 312 4.1 6.8 154 14.1 
+R19-1 129.1  5,371  25.0 1.2 312 4.1 6.8 154 14.1 
+R20 53.0  4,390  9.0 1.5 120 22.6 1.1 150 8.4 
+R21-0 191.1  12,062  15.0 1.7 144 0.0 11.0 194 18.2 
+R21-1 191.0  12,060  15.0 1.7 144 0.0 10.9 194 18.2 
+R21-2 190.9  12,055  15.0 1.7 144 0.0 10.9 196 18.2 
+R22-0 85.6  6,705  29.0 2.3 85 0.0 2.7 150 10.0 
+R22-1 85.7  6,712  29.0 2.3 85 0.0 2.8 150 10.1 
+R22-2 76.9  6,028  15.0 4.0 49 4.1 2.9 150 10.2 
+R23-0 137.7  4,399  5.0 1.7 285 8.2 5.3 161 12.6 
+R23-1 137.6  4,396  5.0 1.7 285 8.2 5.3 160 12.6 
+R24 109.7  4,983  11.0 0.4 857 22.6 4.8 150 12.1 
+Criteria 164 31 
+a Used to calculate 1-hour incremental NO2 concentration using the Method 3 (Section 7.4.3). 
+b Approximate plume transport time from source to receptor based on windspeed and separation distance. 
+ 
+There were a total of 30 hours of exceedances predicted for the highest impacted receptor 
+(R21-2), in case of generators running in emergency scenario for 24 hours, 365 days of the 
+year.  This equates to approximately 0.35% of the time during the year.  
+8.2.3 CO 
+Table 33 presents the maximum incremental 15-minute, 1-hour and 8-hour average CO 
+concentrations predicted at surrounding sensitive receptor locations along with the maximum 
+15-minute, 1-hour and 8-hour average maximum background concentrations for 2021. Given 
+the insignificant incremental increase of CO predicted at the identified receptors and the 
+existing low concentrations of CO (both relative to the criteria), exceedances of the relevant 
+criteria due to the operation of the Project are not predicted.   
+Table 33 Predicted CO Concentrations at Sensitive Receptors  
+Receptor ID Increment (mg/m³) 
+15-Minute* 1-Hour 8-Hour 
+R1 0.17 0.13 0.07 
+R2 0.18 0.14 0.06 
+R3 0.15 0.11 0.08 
+R4-0 0.17 0.13 0.07 
+R4-1 0.17 0.13 0.08 
+R4-2 0.19 0.14 0.10 
+[[page 62]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 56  
+ 
+Receptor ID Increment (mg/m³) 
+15-Minute* 1-Hour 8-Hour 
+R5 0.30 0.22 0.13 
+R6-0 0.19 0.14 0.08 
+R6-1 0.19 0.15 0.08 
+R6-2 0.21 0.16 0.11 
+R7 0.17 0.13 0.08 
+R8 0.31 0.23 0.14 
+R9 0.30 0.23 0.12 
+R10 0.37 0.28 0.17 
+R11 0.41 0.31 0.19 
+R12 0.20 0.15 0.12 
+R13-0 0.17 0.13 0.10 
+R13-1 0.18 0.14 0.10 
+R14 0.16 0.12 0.09 
+R15 0.40 0.30 0.21 
+R15-1 0.41 0.31 0.21 
+R15-2 0.41 0.31 0.21 
+R15-3 0.41 0.31 0.21 
+R15-4 0.42 0.31 0.22 
+R15-5 0.45 0.34 0.22 
+R15-6 0.51 0.39 0.23 
+R15-7 0.58 0.44 0.24 
+R15-8 0.66 0.50 0.24 
+R15-9 0.74 0.56 0.25 
+R15-10 0.83 0.63 0.26 
+R16-0 0.37 0.28 0.27 
+R16-1 0.40 0.30 0.29 
+R16-2 0.39 0.29 0.26 
+R17 0.19 0.14 0.05 
+R18 0.15 0.12 0.10 
+R19-0 0.40 0.30 0.23 
+R19-1 0.40 0.30 0.23 
+R20 0.39 0.30 0.18 
+R21-0 1.08 0.82 0.71 
+R21-1 1.08 0.82 0.71 
+R21-2 1.08 0.82 0.71 
+R22-0 0.53 0.40 0.30 
+R22-1 0.54 0.41 0.31 
+R22-2 0.53 0.41 0.29 
+[[page 63]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 57  
+ 
+Receptor ID Increment (mg/m³) 
+15-Minute* 1-Hour 8-Hour 
+R23-0 0.54 0.41 0.29 
+R23-1 0.54 0.41 0.29 
+R24 0.38 0.29 0.21 
+Criteria 100 30 10 
+* The 1-hour average CO concentrations predicted by the modelling were converted to 15-minute averages 
+using the power law formula. 
+ 
+8.2.4 SO2 
+Table 34 presents the maximum incremental 1-hour average SO2 concentrations predicted 
+at surrounding sensitive receptor locations along with the maximum 1-hour average 
+background concentrations for 2021. Given the insignificant incremental increase of SO2 
+predicted at the identified receptors and the existing low concentrations of SO2 (both relative 
+to the criteria), exceedances of the relevant criteria due to the operation of the Project are 
+not predicted.   
+Table 34 Predicted SO2 Concentrations at Residential Receptors  
+Receptor 
+ID 
+Increment (µg /m³) 
+1-Hour 24-Hour 
+R1 1.7 0.5 
+R2 1.8 0.4 
+R3 1.5 0.7 
+R4-0 1.7 0.7 
+R4-1 1.7 0.7 
+R4-2 1.9 0.8 
+R5 3.0 1.1 
+R6-0 1.9 0.8 
+R6-1 2.0 0.8 
+R6-2 2.2 0.9 
+R7 1.8 0.8 
+R8 3.2 1.1 
+R9 3.1 1.3 
+R10 3.8 1.2 
+R11 4.2 1.3 
+R12 2.1 1.6 
+R13-0 1.7 1.1 
+R13-1 1.8 1.1 
+R14 1.7 1.0 
+R15 4.0 2.0 
+[[page 64]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 58  
+ 
+Receptor 
+ID 
+Increment (µg /m³) 
+1-Hour 24-Hour 
+R15-1 4.1 1.9 
+R15-2 4.2 1.9 
+R15-3 4.2 1.9 
+R15-4 4.2 1.9 
+R15-5 4.6 2.0 
+R15-6 5.2 2.0 
+R15-7 5.9 2.0 
+R15-8 6.7 2.0 
+R15-9 7.6 2.1 
+R15-10 8.5 2.1 
+R16-0 3.8 3.1 
+R16-1 4.1 3.4 
+R16-2 3.9 3.1 
+R17 1.9 0.5 
+R18 1.6 1.0 
+R19-0 4.1 2.3 
+R19-1 4.1 2.3 
+R20 4.0 1.5 
+R21-0 11.0 7.4 
+R21-1 11.0 7.3 
+R21-2 11.0 7.1 
+R22-0 5.4 2.5 
+R22-1 5.6 2.5 
+R22-2 5.5 2.6 
+R23-0 5.5 2.3 
+R23-1 5.5 2.3 
+R24 3.9 1.9 
+Criteria 286  57 
+* Conservatively calculated from the maximum incremental and maximum background, noting that these do not 
+necessarily occur at the same time. 
+ 
+8.2.5 PAHs 
+The maximum (99.9th percentile) incremental 1-hour average PAH ground level 
+concentrations predicted beyond the Site boundary was 0.0000018 mg/m3 significantly less 
+(<0.5%) than the criterion of 0.0004 mg/m3. For the purposes of modelling, background PAH 
+concentrations were assumed to be negligible. Regardless, the addition of the incremental 
+impacts to a background concentration are not predicted to cause an exceedance. 
+[[page 65]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 59  
+ 
+Table 35 presents the incremental maximum 1-hour average PAH concentrations predicted 
+at surrounding sensitive receptor locations.  
+Table 35 Predicted PAH Concentrations at Residential Receptors  
+Receptor id Increment 1-Hour (mg/m³) ^ 
+R1 6.1 x 10 -7 
+R2 5.6 x 10 -7 
+R3 6.0 x 10 -7 
+R4-0 6.6 x 10 -7 
+R4-1 6.8 x 10 -7 
+R4-2 7.8 x 10 -7 
+R5 1.1 x 10 -6 
+R6-0 6.7 x 10 -7 
+R6-1 7.3 x 10 -7 
+R6-2 9.1 x 10 -7 
+R7 6.6 x 10 -7 
+R8 1.2 x 10 -6 
+R9 1.2 x 10 -6 
+R10 1.3 x 10 -6 
+R11 1.4 x 10 -6 
+R12 8.0 x 10 -7 
+R13-0 6.2 x 10 -7 
+R13-1 6.3 x 10 -7 
+R14 5.9 x 10 -7 
+R15 1.6 x 10 -6 
+R15-1 1.6 x 10 -6 
+R15-2 1.6 x 10 -6 
+R15-3 1.6 x 10 -6 
+R15-4 1.7 x 10 -6 
+R15-5 1.7 x 10 -6 
+R15-6 1.7 x 10 -6 
+R15-7 1.8 x 10 -6 
+R15-8 1.9 x 10 -6 
+R15-9 1.9 x 10 -6 
+R15-10 1.9 x 10 -6 
+R16-0 1.6 x 10 -6 
+R16-1 1.7 x 10 -6 
+R16-2 1.6 x 10 -6 
+R17 3.4 x 10 -7 
+R18 5.9 x 10 -7 
+R19-0 1.8 x 10 -6 
+[[page 66]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 60  
+ 
+Receptor id Increment 1-Hour (mg/m³) ^ 
+R19-1 1.8 x 10 -6 
+R20 1.2 x 10 -6 
+R21-0 4.8 x 10 -6 
+R21-1 4.8 x 10 -6 
+R21-2 4.8 x 10 -6 
+R22-0 2.3 x 10 -6 
+R22-1 2.3 x 10 -6 
+R22-2 2.1 x 10 -6 
+R23-0 1.9 x 10 -6 
+R23-1 1.9 x 10 -6 
+R24 1.4 x 10 -6 
+Criteria 0.0004 
+^ 99.9th percentile. 
+ 
+8.2.6 Summary of Findings 
+The dispersion modelling study, which accounted for the emergency conditions (all 66 
+generators running) every hour of the year predicted no additional exceedances of the CO, 
+SO2 or PAH ambient air quality criteria. 
+Likelihood of exceedance - PM10 and PM2.5 
+To provide comprehensive worst-case assessment as requested, the emergency conditions 
+with operation of all backup generators were modelled for every hour of the year to account 
+for all meteorological and background air quality conditions. Exceedances are only predicted 
+for a number of meteorological and background air quality conditions that occur throughout 
+the year. 
+When assessed conservatively assuming that emergency operation occurs every hour of the 
+day, up to 1 exceedance of the 24-hour average PM10 was predicted at one of the 37 
+receptors modelled and up to 26 exceedances of the 24-hour average PM2.5 were predicted 
+at three of the 37 receptors modelled.  
+This scenario is a conservative over estimate as it is extremely unlikely that all diesel 
+generators would be operational for any period of 24-hours.  
+Likelihood of exceedance - NO2 
+When assessed conservatively assuming that emergency operation occurs every hour of the 
+day, up to 30 exceedances of the 1-hour average NO2 criterion were predicted at 10 of the 
+37 receptors modelled. 
+However, assuming the more realistic situation of one emergency operation event lasting 1 
+hour, occurring once per year (rather than every day), the likelihood of NO2 exceedances at 
+this receptor is equivalent to 1 exceedance every 8,760 hours (1 year). 
+At the time of writing, information on the historical power interruptions at the Site is 
+unavailable. Assuming that the performance of the future network supplying the power is 
+similar to the existing network performance, it can be concluded that the actual likelihood of 
+[[page 67]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 61  
+ 
+an exceedance of the air quality criteria at nearby sensitive receptors due to the emergency 
+operation of the Project is negligible. 
+Figure 18 presents a plot of the predicted cumulative impacts (for sensitive receptors with 
+exceedances of the criterion) during one year in descending order of hours of exceedance. 
+The receptor with the most predicted hours exceedance of the criterion is R21-2 with 0.35% 
+of the hours in the year.  
+Figure 18 Predicted 1-Hour NO2 Cumulative Concentrations at Sensitive Receptors 
+With Exceedances of the Criterion: 1-Hour Runtime, Every Hour of the Year 
+ 
+ 
+The model predictions of the emergency conditions presented above include a number of 
+conservative assumptions. Each assumption has an associated likelihood of occurring, 
+which when factored together with the likelihood of the necessary meteorological and air 
+quality conditions, indicates a much-reduced likelihood of an exceedance of the NO2 
+criterion at one or more of the nearest sensitive receptors. 
+The conservative assumptions for the emergency conditions include: 
+1 Loss of primary power supply to the Site. 
+2 Loss of primary and secondary power supply to the Site concurrently. 
+3 Loss of feeder supply to the Site for at least one hour. 
+At the time of writing, information on the historical power interruptions at the Site was 
+unavailable. A study conducted by SLR for a similar facility in Eastern Creek observed the 
+following for that site: 
+• The site had had two power interruptions in the past ten years.  
+• Each interruption consisted of the loss of one of four feeder supplies. 
+• The two interruptions lasted for 13 minutes and 21 minutes, respectively. 
+
+[[page 68]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 62  
+ 
+• Loss of one feeder to that site did not require all generators to be used to provide 
+emergency power. 
+If an emergency condition event lasting less than 1 hour is conservatively assumed to occur 
+once per year, every year, the likelihood of that emergency condition resulting in a predicted 
+exceedance of the criteria (for the most impacted receptor) would be (132h / 8,760h) x (1h / 
+8,760h) = 0.00017% (1 in 588,235 chances of exceedance, or once in 67 years). 
+Assuming similar network performance supplying the Project, it can be concluded that the 
+actual likelihood of an exceedance of the air quality criteria at nearby sensitive receptors due 
+to the emergency operation of the Project is negligible.  
+8.3 Air Quality Monitoring and Mitigation Measures 
+Air quality monitoring and mitigation measures can be used to reduce the magnitude of 
+effects when adverse impacts are precited at sensitive receptors.  
+8.3.1 Air Quality Monitoring 
+As discussed in Section 8.1.6, there are no predicted adverse impacts at surrounding 
+sensitive receptors due to the testing operations at the proposed development.  
+Given the nature and scale of the proposed standard operation test activities, with predicted 
+ground level concentrations within the assessment criteria limits it is not anticipated that any 
+impacts upon human health or amenity values would be experienced during the operational 
+phase(ie testing scenario). Therefore, air quality monitoring is not considered to be required 
+during the operational phase. 
+As discussed in Section 8.2.6, the emergency conditions scenario, based on a number of 
+conservative assumptions, does predict minor exceedances of NO2, PM10 and PM2.5.  
+However, considering the conservative nature of this modelling and the low likelihood of 
+such an emergency event occurring, it is not considered practicable to conduct monitoring, 
+effectively waiting for such an event to occur.  
+8.3.2 Mitigation Measures 
+Given the worst-case operating scenario modelled predicted concentrations below all 
+relevant air quality impact assessment criteria, and the low probability of exceedances due 
+to emergency conditions, installation of pollution control devices on generators is not 
+deemed necessary to comply with assessment criteria. 
+It is recommended that a process is put in place to notify neighbouring properties in the 
+event of emergency operation requiring all generators to operate, and notifying of the testing 
+of the generators being undertaken.   
+ 
+8.4 Cumulative Impact Assessment – Local Projects 
+This section presents a cumulative impact assessment to assess the cumulative impacts of 
+the Project with other local projects identified in Section 5.5.   
+ 
+ 
+[[page 69]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 63  
+ 
+Table 36 Local Air Pollutant Sources with Potential for Cumulative Impacts 
+Local 
+Project 
+Approximate 
+Distance to 
+the Project 
+(m)/Status 
+Project Status/Indicative 
+timing/overlap 
+Potential overlap between impact of project 
+on assessment matter and impact of other 
+project on the same assessment matter 
+Potential Cumulative 
+Risk 
+1-5 Khartoum Road, 
+Macquarie Park SSD-
+63235720 
+450 m 
+(Prepare EIS) 
+Construction and operation of a 5-
+storey data centre with a building 
+height of 45 m and a capacity of 
+35 MW, diesel storage, part road 
+construction, landscaping, car parking 
+and associated infrastructure. 
+There is a potential for cumulative impacts 
+between this Data Centre (35 MW) and the 
+Project (137 MW), especially in the emergency 
+scenario. This scenario will eventuate in case 
+there is a grid outage in the area, which is 
+highly likely to impact this Data Centre and the 
+Project at the same time.   
+The project may result in 
+significant cumulative air 
+quality impacts. 
+11-17 Khartoum Road 
+SSD-10467 
+450 m 
+(Approved) 
+Construction and operation of a data 
+centre comprising: five-storey data 
+storage building with ancillary office 
+space, supporting infrastructure, 
+services and landscaping. 
+There is a potential for cumulative impacts 
+between this Data Centre and the Project 
+(137 MW), especially in the emergency 
+scenario. This scenario will eventuate in case 
+there is a grid outage in the area, which is 
+highly likely to impact this Data Centre and the 
+Project at the same time.   
+The project may result in 
+significant cumulative air 
+quality impacts. 
+11-17 Khartoum Road 
+LDA2020/0229 
+450 m 
+(Approved) 
+Amending Concept DA to 
+LDA2017/0547 for M Park masterplan 
+for three commercial building 
+envelopes and one data centre building 
+envelope. Total GFA of 55,129 m2 
+approved across the site with a 
+maximum height of 45 m.  There are 
+multiple detailed DAs and modifications 
+Based on the differences in the type of 
+services delivered (the data centre operations 
+are already considered above), the potential 
+for any cumualtive impacts between the 
+projects is low.   
+No potential overlap in 
+impacts that would 
+warrant any 
+consideration in the 
+cumulative impact 
+assessment.   
+[[page 70]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 64  
+ 
+Local 
+Project 
+Approximate 
+Distance to 
+the Project 
+(m)/Status 
+Project Status/Indicative 
+timing/overlap 
+Potential overlap between impact of project 
+on assessment matter and impact of other 
+project on the same assessment matter 
+Potential Cumulative 
+Risk 
+associated with this Amending DA. 
+These have not been referenced in this 
+table.   
+17-23 Talavera Road 
+SSD-24299707 
+Modification 1 
+250 m 
+(Under 
+Assessment) 
+Modification to approved data centre. 
+The modification proposes internal and 
+external alterations.   
+There is a potential for cumulative impacts 
+between this Data Centre and the Project 
+(137 MW), especially in the emergency 
+scenario. This scenario will eventuate in case 
+there is a grid outage in the area, which is 
+highly likely to impact this Data Centre and the 
+Project at the same time.   
+The project may result in 
+significant cumulative air 
+quality impacts. 
+100-108 Talavera Road 
+LDA2022/0021 
+1,200 m 
+(Approved) 
+Site preparation and tree removal, 5 
+storey mixed used podium, a 4.5 storey 
+carpark and three residential towers. 
+The above proposal is integrated 
+development under the Environmental 
+Planning and Assessment Act 1979, as 
+the subject site is within 40 m of a 
+waterway and within 40m of bushfire 
+prone land. The relevant approval body 
+is Rural Fire Service and Water NSW. 
+Due to the distance, timing and nature of this 
+project, the potential for any cumualtive 
+impacts between the projects is low.   
+No potential overlap in 
+impacts that would 
+warrant any 
+consideration in the 
+cumulative impact 
+assessment 
+45-61 Waterloo Road 
+LDA2018/0172 
+300 m 
+(Approved) 
+Concept Development Application 
+comprising site layout for commercial 
+buildings (with retail), roads and 
+Catherine Hamlin Park; maximum 
+Due to the distance, timing and nature of this 
+project, the potential for any cumualtive 
+impacts between the projects is low.   
+No potential overlap in 
+impacts that would 
+warrant any 
+consideration in the 
+[[page 71]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 65  
+ 
+Local 
+Project 
+Approximate 
+Distance to 
+the Project 
+(m)/Status 
+Project Status/Indicative 
+timing/overlap 
+Potential overlap between impact of project 
+on assessment matter and impact of other 
+project on the same assessment matter 
+Potential Cumulative 
+Risk 
+building envelopes; gross floor area 
+distribution across the site; onsite 
+parking provision and distribution; 
+staging of indicative development; 
+construction of signalised intersection 
+at the southern end of Road 14 and 
+Waterloo Road; partial construction of 
+Road 1. 
+cumulative impact 
+assessment 
+269 Lane Cove Road 
+SSD-63168959 
+600 m 
+(Response to 
+Submissions) 
+Staged construction and operation of 
+two seven-storey data centre buildings 
+with an office, retail and innovation 
+hub. Total of 93,870 m2 GFA and a 
+maximum height of 65m. 
+There is a potential for cumulative impacts 
+between this Data Centre and the Project 
+(137 MW), especially in the emergency 
+scenario. This scenario will eventuate in case 
+there is a grid outage in the area, which is 
+highly likely to impact this Data Centre and the 
+Project at the same time.   
+The project may result in 
+significant cumulative air 
+quality impacts. 
+85-97 Waterloo Road 
+and 2 Banfield Road 
+SSD-52604208 
+700 m 
+(Under 
+Assessment) 
+Construction of a build-to-rent 
+development comprising 66,638 m2 
+GFA including 736 units and 
+community uses across seven 
+buildings with a maximum height of 20 
+storeys. Retail, recreation a public park 
+and basement parking will also be 
+provided.   
+Due to the distance, timing and nature of this 
+project, the potential for any cumualtive 
+impacts between the projects is low.   
+No potential overlap in 
+impacts that would 
+warrant any 
+consideration in the 
+cumulative impact 
+assessment 
+[[page 72]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 66  
+ 
+9.0 Conclusions 
+The main potential sources of air emissions were identified as suspended particulate matter 
+and deposited dust during the construction stage and combustion gases and particulate matter 
+during the operational stage of the Project.   
+The potential for off-site air quality impacts during the construction stage of the Project were 
+assessed using a qualitative risk -based approach, concluding that given the nature of the 
+operations proposed, the location of the Site and the local meteorolo gical conditions, 
+exceedances of the relevant air quality criteria are unlikely. 
+The potential for off -site air quality impacts during the operational stage of the Project were 
+conservatively assessed quantitatively through the use of dispersion modelling techniques in 
+general accordance with the Approved Methods. The dispersion modell ing study, which 
+accounted for worst-case testing conditions predicted no exceedance of the relevant ambient 
+air quality as a result of the operation of the Project.  
+The dispersion of emissions due to emergency conditions, where loss of all grid power to the 
+Site requiring all generators to operate simultaneously, was conservatively modelled and 
+predicted compliance with relevant PM10, CO, SO2 and PAHs criteria. For NO 2, exceedance 
+of the 1-hour average criterion were predicted for 10 of the 37 receptors modelled. However, 
+the predicted low likelihood of an exceedance coupled with the low likelihood of an emergency 
+condition event happening was demonstrated to result in  a very low risk of an exceedance 
+occurring.   
+In regard to cumulative impact assessment with other local projects in the area, there is a 
+potential for cumulative impacts with four data centres located within 600 m of the Project, in 
+an emergency scenario, in case the grid outage impact s all the other data centres and the 
+Project at the same time.   
+ 
+ 
+  
+[[page 73]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ 67  
+ 
+10.0 References 
+DPIE. 2022. Cumulative Impact Assessment Guidelines for State Significant Projects. 
+Department of Planning, Industry and Environment. 
+EPAV. 2013. “EPA Publication 1551 Guidance notes for using the regulatory air pollution 
+model AERMOD in Victoria.” Environmental Protection Authority Victoria. October. 
+Accessed 04 03, 2017. http://www.epa.vic.gov.au/~/media/Publications/1551.pdf. 
+IAQM. 2014. Guidance on the Assessment of Dust from Demolition and Construction. 
+London: Institute of Air Quality Management. 
+IAQM. 2024. Guidance on the assessment of dust from demolition and construction, Version 
+2.2. London: Institutre of Air Quality Management. 
+Janssen, L. H. J. M, J. H. A van Wakeren, H van Duuran, and A. J. Elshout. 1988. “A 
+classification of NO oxidation rates in power plant plumes based on atmospheric 
+conditions.” Atmospheric Environment 22(1): 43-53. 
+NEPC. 2021. National Environment Protection (Ambient Air Quality) Measure. National 
+Environment Protection Council. 
+NOAA. 2018. National Oceanic and Atmospheric Administration. Accessed November 22, 
+2019. https://www.ready.noaa.gov/READYpgclass.php. 
+NSW EPA. 2022. “Approved Methods for the Modelling and Assessment of Air Pollutants in 
+New South Wales.” August. 
+NSW EPA. 2017. Approved Methods for the Modelling and Assessment of Air Pollutants in 
+New South Wales. Prepared by NSW Environment Protection Authority, which is part 
+of the NSW Office of Environment and Heritage (OEH). 
+http://www.environment.nsw.gov.au/resources/air/ammodelling05361.pdf . 
+NSW EPA. 2022a. Approved Methods for the Sampling and Analysis of Air Pollutants in New 
+South Wales. NSW Environment Protection Authority. 
+NSW EPA. 2007-2. “Local Government Air Quality Toolkit - Air quality guidance notes, 
+Construction sites.” 
+NSW EPA. 2007. “Local Government Air Quality Toolkit - Visual guide: Dust from urban 
+construction sites.” 
+NSW Government. 2014. “Ryde Local Environmental Plan (LEP) 2014.” 
+NSW Parliament. 2022. Protection of the Environment Operations (Clean Air) Regulation 
+2022. December. 
+Oke, T. R. 2002. Boundary Layer Climates. Routledge. 
+USEPA. 2006 and Updates. Emission Factors & AP42, Compilation of Air Pollutant Emission 
+Factors. US Environmental Protection Agency. 
+—. 1985. “Guideline for Determination of Good Engineering Practice Stack Height (Technical 
+Support Document for the Stack Height Regulations) .” EPA-450/4-80-023R. USEPA, 
+June. 
+ 
+ 
+ 
+[[page 74]]
+ 
+ 
+Appendix A Diesel Generator 
+Specification Sheets 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Air Quality Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031918 
+13 February 2025 
+ 
+[[page 75]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ A-1  
+ 
+ 
+ 
+ 
+
+[[page 76]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ A-2  
+ 
+ 
+ 
+ 
+
+[[page 77]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ A-3  
+ 
+ 
+ 
+
+[[page 78]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ B-1  
+ 
+Appendix B Site Representative 
+Meteorological Data  
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Air Quality Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031918 
+13 February 2025 
+[[page 79]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ B-1  
+ 
+B.1 Wind Speed and Direction 
+A summary of the annual wind behaviour predicted by TAPM/CALMET for the Project site is 
+presented in Figure B-1. Based on the model predictions, the Project site experienced calm 
+to fresh winds (between less than 0.5 m/s and 6.9 m/s), from all directions but with fewer 
+winds from the southwest quadrant. There are few calm wind conditions (wind speeds less 
+than 0.5 m/s), predicted to occur approximately 2.2% of the time.  
+The seasonal wind roses indicate that in summer, winds from the northeastern and 
+southeastern quadrants are predominant. In autumn, winds blow from all directions with the 
+highest frequency from the western quadrant. Winter sees a strong predominance from the 
+northwestern quadrant while in spring winds blow from all directions with more winds from 
+the northeastern and northwestern quadrants.  
+[[page 80]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ B-2  
+ 
+Figure B-1 Wind Roses for the Project Site, as Predicted by CALMET 
+ 
+B.2 Atmospheric Stability  
+Atmospheric stability refers to the tendency of the atmosphere to resist or enhance vertical 
+motion. The Pasquill-Gifford-Turner (PGT) assignment scheme identifies six Stability 
+Classes, A to F, to categorise the degree of atmospheric stability as follows: 
+• A = Extremely unstable conditions 
+• B = Moderately unstable conditions 
+
+[[page 81]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ B-3  
+ 
+• C = Slightly unstable conditions 
+• D = Neutral conditions 
+• E = Slightly stable conditions 
+• F = Moderately stable conditions 
+The meteorological conditions defining each PGT stability class are shown in Table B-1. 
+Table B-1 Meteorological Conditions Defining PGT Stability Classes 
+Surface wind 
+speed (m/s) 
+Daytime insolation Night-time conditions 
+Strong Moderate Slight Thin overcast 
+or > 4/8 low 
+cloud 
+<= 4/8 
+cloudiness 
+< 2 A A - B B E F 
+2 - 3 A - B B C E F 
+3 - 5 B B - C C D E 
+5 - 6 C C - D D D D 
+> 6 C D D D D 
+Notes: 
+Strong insolation corresponds to sunny midday in midsummer in England; slight insolation to similar conditions 
+in midwinter. 
+Night refers to the period from 1 hour before sunset to 1 hour after sunrise. 
+The neutral category D should also be used, regardless of wind speed, for overcast conditions during day or 
+night and for any sky conditions during the hour preceding or following night as defined above.  
+Source: (NOAA 2018) 
+The predicted frequency of each stability class at the Project site during 2021 is presented in 
+Figure B-2. The results indicate a high frequency of conditions typical to Stability Class D 
+(Neutral), with a low frequency of very unstable conditions (Stability Class A) and Slightly 
+stable conditions (Stability Class E). Moderately stable conditions (Stability Class F) also 
+occur relatively frequently. Stable conditions occur during the night-time, under low wind 
+speed conditions, which inhibit pollutant dispersion. 
+[[page 82]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ B-4  
+ 
+Figure B-2 Stability Class Distribution for the Project Site, as Predicted by 
+CALMET 
+ 
+B.3 Mixing Heights 
+Diurnal variations in maximum and average mixing heights predicted by CALMET at the 
+Project site are illustrated in Figure B-3. As would be expected, an increase in the mixing 
+height during the morning is apparent, arising due to the onset of vertical mixing following 
+sunrise. Maximum mixing heights occur in the mid to late afternoon, due to the dissipation of 
+ground-based temperature inversions and the growth of the convective mixing layer. 
+Figure B-3 Mixing Heights for the Project Site, as Predicted by CALMET 
+ 
+
+[[page 83]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-1  
+ 
+Appendix C Incremental Isopleth 
+Plots 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Air Quality Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031918 
+13 February 2025 
+ 
+  
+[[page 84]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-2  
+ 
+C.1 Operational Isopleth plots 
+Figure C 1  Predicted 24-hour Average Incremental Particulates Isopleth Plot – 
+Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: Particulate
+s 
+Averaging 
+Period: 24-hour Unit: µg/m3  
+          
+
+[[page 85]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-3  
+ 
+Figure C 2  Predicted Annual Average Incremental Particulates Isopleth Plot – 
+Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: Particulate
+s 
+Averaging 
+Period: Annual Unit: µg/m3  
+          
+
+[[page 86]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-4  
+ 
+Figure C 3  Predicted 1-hour Average Incremental NOX Isopleth Plot – Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source:     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: NOx Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+
+[[page 87]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-5  
+ 
+Figure C 4  Predicted Annual Average Incremental NOX Isopleth Plot – 
+Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: NOx Averaging 
+Period: Annual Unit: µg/m3  
+          
+ 
+
+[[page 88]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-6  
+ 
+Figure C 5  Predicted 1-hour Average Incremental CO Isopleth Plot – Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: CO Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+
+[[page 89]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-7  
+ 
+Figure C 6  Predicted 1-hour Average Incremental SO2 Isopleth Plot – Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: SO2 Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+
+[[page 90]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-8  
+ 
+Figure C 7  Predicted 24-hour Average Incremental SO2 Isopleth Plot – 
+Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: SO2 Averaging 
+Period: 24-hour Unit: µg/m3  
+          
+ 
+ 
+
+[[page 91]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-9  
+ 
+Figure C 8  Predicted 1-hour Average 99.9th percentile Incremental PAHs Isopleth 
+Plot – Operations 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Proposed Operations  
+  Date:    Pollutant: PAHs Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+  
+
+[[page 92]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-10  
+ 
+C.2 Emergency Isopleth plots 
+Figure C 9  Predicted 24-hour Average Incremental Particulates Isopleth Plot – 
+Emergency Conditions 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Emergency Conditions  
+  Date:    Pollutant: Particulate
+s 
+Averaging 
+Period: 24-hour Unit: µg/m3  
+          
+
+[[page 93]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-11  
+ 
+Figure C 10 Predicted 1-hour Average Incremental NOX Isopleth Plot – Emergency 
+Conditions 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Emergency Conditions  
+  Date:    Pollutant: NOx Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+
+[[page 94]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-12  
+ 
+Figure C 11 Predicted 1-hour Average Incremental CO Isopleth Plot – Emergency 
+Conditions 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source:     
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Emergency Conditions  
+  Date:    Pollutant: CO Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+ 
+
+[[page 95]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-13  
+ 
+Figure C 12 Predicted 1-hour Average Incremental SO2 Isopleth Plot – Emergency 
+Conditions 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Emergency Conditions  
+  Date:    Pollutant: SO2 Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+ 
+
+[[page 96]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ C-14  
+ 
+Figure C 13 Predicted 1-hour Average 99.9th Percentile Incremental PAHs Isopleth 
+Plot – Emergency Conditions 
+ 
+ 
+ 
+202 Submarine School 
+Sub Base Platypus 
+North Sydney NSW 2060 
+T: +61 2 9427 8100 
+www.slrconsulting.com 
+ 
+Project Number: 610.031918  
+ 
+ Goodman Property Services (Aust) 
+Pty Ltd 
+ 
+  Location: Maquarie Park, NSW   4-10 Talavera Road, Maquarie Park 
+Air Quality Impact Assessment 
+ 
+  Source: Nearmap    
+ The content within this document may be based on third 
+party data. SLR Consulting Australia Pty Ltd does not 
+guarantee the accuracy of such information. 
+ Projection: WGS 84 \ UTM Zone 56  
+ 
+ Emergency Conditions  
+  Date:    Pollutant: PAHs Averaging 
+Period: 1-hour Unit: µg/m3  
+          
+ 
+ 
+ 
+
+[[page 97]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-1  
+ 
+ 
+ 
+Appendix D IAQM Construction 
+Assessment 
+Methodology 
+Project Apollo Data Centre (4-10 Talavera Road, Macquarie 
+Park) 
+SSD-74069708 Air Quality Impact Assessment 
+Goodman Property Services (Aust) Pty Ltd 
+SLR Project No.: 610.031918 
+13 February 2025 
+ 
+ 
+[[page 98]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-1  
+ 
+Step 1 – Screening Based on Separation Distance 
+The Step 1 screening criteria provided by the IAQM guidance suggests screening out any 
+assessment of impacts from construction activities where sensitive receptors are located more 
+than 350 m from the boundary of the Site, more than 50 m from the route used by construction 
+vehicles on public roads and more than 500 m from the Site entrance.  This step is noted as 
+having deliberately been chosen to be conservative, and will require assessments for most 
+projects.  
+Step 2a – Assessment of Scale and Nature of the Works 
+Step 2a of the assessment provides “dust emissions magnitudes” for each of four dust 
+generating activities; demolition, earthworks, construction, and track -out (the movement of 
+soils and dusty materials onto public roads by vehicles).  The magnitudes are: Large; Medium; 
+or Small, with suggested definitions for each category.  The definitions given in the IAQM 
+guidance for earthworks, construction activities and track-out, which are most relevant to this 
+Project, are as follows:  
+Demolition (Any activity involved with the removal of an existing structure [or structures].  This 
+may also be referred to as de -construction, specifically when a building is to be removed a 
+small part at a time): 
+• Large: Total building volume >50,000 m3, potentially dusty construction material (e.g. 
+concrete), on-site crushing and screening, demolition activities >20 m above ground 
+level; 
+• Medium: Total building volume 20,000 m3 – 50,000 m3, potentially dusty construction 
+material, demolition activities 10-20 m above ground level; and 
+• Small: Total building volume <20,000 m3, construction material with low potential for 
+dust release (e.g. metal cladding or timber), demolition activities <10m above ground, 
+demolition during wetter months.  
+Earthworks (Covers the processes of soil -stripping, ground -levelling, excavation and 
+landscaping):  
+• Large: Total site area greater than 10,000  m2, potentially dusty soil type (e.g. clay, 
+which will be prone to suspension when dry due to small particle size), more than 10 
+heavy earth moving vehicles active at any one time, formation of bunds greater than 
+8 m in height, total material moved more than 100,000 t. 
+• Medium: Total site area 2,500 m2 to 10,000 m2, moderately dusty soil type (e.g. silt), 
+5 to 10 heavy earth moving vehicles active at any one time, formation of bunds 4  m 
+to 8 m in height, total material moved 20,000 t to 100,000 t. 
+• Small: Total site area less than 2,500 m 2, soil type with large grain size (e.g. sand), 
+less than five heavy earth moving vehicles active at any one time, formation of bunds 
+less than 4  m in height, total material moved less than 20,000  t, earthworks during 
+wetter months. 
+Construction (Any activity involved with the provision of a new structure (or structures), its 
+modification or refurbishment.  A structure will include a residential dwelling, office building, 
+retail outlet, road, etc): 
+• Large: Total building volume greater than 100,000  m3, piling, on site concrete 
+batching; sandblasting.  
+[[page 99]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-2  
+ 
+• Medium: Total building volume 25,000  m3 to 100,000  m3, potentially dusty 
+construction material (e.g. concrete), piling, on site concrete batching.  
+• Small: Total building volume less than 25,000  m3, construction material with low 
+potential for dust release (e.g. metal cladding or timber).  
+Track-out (The transport of dust and dirt from the construction / demolition site onto the public 
+road network, where it may be deposited and then re -suspended by vehicles using the 
+network):  
+• Large: More than 50 heavy vehicle movements per day, surface materials with a high 
+potential for dust generation, greater than 100 m of unpaved road length.  
+• Medium: Between 10 and 50 heavy vehicle movements per day, surface materials 
+with a moderate potential for dust generation, between 50 m and 100 m of unpaved 
+road length.  
+• Small: Less than 10 heavy vehicle movements per day, surface materials with a low 
+potential for dust generation, less than 50 m of unpaved road length. 
+In order to provide a conservative assessment of potential impacts, it has been assumed that 
+if at least one of the parameters specified in the ‘large’ definition is satisfied, the works are 
+classified as large, and so on. 
+Step 2b – Risk Assessment 
+Assessment of the Sensitivity of the Area 
+• Step 2b of the assessment process requires the sensitivity of the area to be defined.  
+The sensitivity of the area takes into account: 
+• The specific sensitivities that identified sensitive receptors have to dust deposition 
+and human health impacts 
+• The proximity and number of those receptors 
+• In the case of PM10, the local background concentration 
+• Other site-specific factors, such as whether there are natural shelters such as trees 
+to reduce the risk of wind-blown dust. 
+Individual receptors are classified as having high, medium or low sensitivity to dust deposition 
+and human health impacts (ecological receptors are not addressed using this approach).  The 
+IAQM method provides guidance on the sensitivity of different receptor types to dust soiling 
+and health effects as summarised in Table D1.  It is noted that user expectations of amenity 
+levels (dust soiling) is dependent on existing deposition levels. 
+[[page 100]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-3  
+ 
+Table D1 IAQM Guidance for Categorising Receptor Sensitivity 
+Value High Sensitivity  
+Receptor 
+Medium Sensitivity 
+Receptor 
+Low Sensitivity  
+Receptor 
+Dust soiling Users can 
+reasonably expect a 
+high level of amenity; 
+or 
+The appearance, 
+aesthetics or value of 
+their property would 
+be diminished by 
+soiling, and the 
+people or property 
+would reasonably be 
+expected to be 
+present continuously, 
+or at least regularly 
+for extended periods 
+as part of the normal 
+pattern of use of the 
+land. 
+Users would expect 
+to enjoy a 
+reasonable level of 
+amenity, but would 
+not reasonably 
+expect to enjoy the 
+same level of 
+amenity as in their 
+home; or 
+The appearance, 
+aesthetics or value of 
+their property could 
+be diminished by 
+soiling; or 
+The people or 
+property wouldn’t 
+reasonably be 
+expected to be 
+present here 
+continuously or 
+regularly for 
+extended periods as 
+part of the normal 
+pattern of use of the 
+land. 
+The enjoyment of 
+amenity would not 
+reasonably be 
+expected; or 
+Property would not 
+reasonably be 
+expected to be 
+diminished in 
+appearance, 
+aesthetics or value 
+by soiling; or 
+There is transient 
+exposure, where the 
+people or property 
+would reasonably be 
+expected to be 
+present only for 
+limited periods of 
+time as part of the 
+normal pattern of use 
+of the land. 
+Examples: 
+Dwellings, museums, 
+medium and long 
+term car parks and 
+car showrooms. 
+Examples: Parks and 
+places of work. 
+Examples: Playing 
+fields, farmland 
+(unless 
+commercially-
+sensitive 
+horticultural), 
+footpaths, short term 
+car parks and roads. 
+Health effects Locations where the 
+public are exposed 
+over a time period 
+relevant to the air 
+quality objective for 
+PM10 (in the case of 
+the 24-hour 
+objectives, a relevant 
+location would be 
+one where 
+individuals may be 
+exposed for eight 
+hours or more in a 
+day). 
+Locations where the 
+people exposed are 
+workers, and 
+exposure is over a 
+time period relevant 
+to the air quality 
+objective for PM10 (in 
+the case of the 24-
+hour objectives, a 
+relevant location 
+would be one where 
+individuals may be 
+exposed for eight 
+hours or more in a 
+day). 
+Locations where 
+human exposure is 
+transient. 
+[[page 101]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-4  
+ 
+Value High Sensitivity  
+Receptor 
+Medium Sensitivity 
+Receptor 
+Low Sensitivity  
+Receptor 
+Examples: 
+Residential 
+properties, hospitals, 
+schools and 
+residential care 
+homes. 
+Examples: Office 
+and shop workers, 
+but will generally not 
+include workers 
+occupationally 
+exposed to PM10. 
+Examples: Public 
+footpaths, playing 
+fields, parks and 
+shopping street. 
+ 
+According to the IAQM methods, the sensitivity of the identified individual receptors (as 
+described above) is then used to assess the sensitivity of the area  surrounding the active 
+construction area, taking into account the proximity and number of those receptors, and the 
+local background PM10 concentration (in the case of potential health impacts) and other site -
+specific factors.  Additional factors to consider when determining the sensitivity of the area 
+include: 
+• Any history of dust generating activities in the area 
+• The likelihood of concurrent dust generating activity on nearby sites 
+• Any pre-existing screening between the source and the receptors 
+• Any conclusions drawn from analysing local meteorological data which accurately 
+represent the area and if relevant, the season during which the works will take place 
+• Any conclusions drawn from local topography 
+• The duration of the potential impact (as a receptor may be willing to accept elevated 
+dust levels for a known short duration, or may become more sensitive or less sensitive 
+(acclimatised) over time for long-term impacts) 
+• Any known specific receptor sensitivities which go beyond the classifications given in 
+the IAQM document. 
+The IAQM guidance for assessing the sensitivity of an area to dust soiling is shown in Table 
+D2.  The sensitivity of the area should be derived for each of activity relevant to the project 
+(i.e. construction and earthworks).   
+Table D2 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Soiling 
+Effects 
+Receptor 
+sensitivity 
+Number of receptors Distance from the source (m) 
+<20 <50 <100 <350 
+High >100 High High Medium Low 
+10-100 High Medium Low Low 
+1-10 Medium Low Low Low 
+Medium >1 Medium Low Low Low 
+Low >1 Low Low Low Low 
+Note: Estimate the total number of receptors within the stated distance. Only the highest level of area sensitivity from the table 
+needs to be considered.  For example, if there are 7 high sensitivity receptors < 20m of the source and 95 high sensitivity receptors 
+between 20 and 50 m, then the total of number of receptors < 50 m is 102. The sensitivity of the area in this case would be high. 
+[[page 102]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-5  
+ 
+A modified version of the IAQM guidance for assessing the sensitivity of an area  to health 
+impacts is shown in Table D3.  For high sensitivity receptors, the IAQM methods takes the 
+existing background concentrations of PM 10 (as an annual average) experienced in the area 
+of interest into account and is based on the air quality objectives for PM10 in the UK.  As these 
+objectives differ from the ambient air quality criteria adopted for use in this assessment (i.e. 
+an annual average of 25 µg/m3 for PM10) the IAQM method has been modified slightly.   
+• This approach is consistent with the IAQM guidance, which notes that in using the 
+tables to define the sensitivity of an area , professional judgement may be used to 
+determine alternative sensitivity categories, taking into account the following factors:   
+• Any history of dust generating activities in the area 
+• The likelihood of concurrent dust generating activity on nearby sites 
+• Any pre-existing screening between the source and the receptors 
+• Any conclusions drawn from analysing local meteorological data which accurately 
+represent the area, and if relevant the season during which the works will take place 
+• Any conclusions drawn from local topography 
+• Duration of the potential impact 
+• Any known specific receptor sensitivities which go beyond the classifications given in 
+this document. 
+[[page 103]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-6  
+ 
+Table D3 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Health 
+Effects 
+Receptor 
+sensitivity 
+Annual 
+mean 
+PM10 
+conc. 
+Number of 
+receptors 
+a,b 
+Distance from the source (m) 
+<20 <50 <100 <200 <350 
+High >25 µg/m3 >100 High High High Medium Low 
+10-100 High High Medium Low Low 
+1-10 High Medium Low Low Low 
+21-25 
+µg/m3 
+>100 High High Medium Low Low 
+10-100 High Medium Low Low Low 
+1-10 High Medium Low Low Low 
+17-21 
+µg/m3 
+>100 High Medium Low Low Low 
+10-100 High Medium Low Low Low 
+1-10 Medium Low Low Low Low 
+<17 µg/m3 >100 Medium Low Low Low Low 
+10-100 Low Low Low Low Low 
+1-10 Low Low Low Low Low 
+Medium >25 µg/m3 >10 High Medium Low Low Low 
+1-10 Medium Low Low Low Low 
+ 
+21-25 
+µg/m3 
+>10 Medium Low Low Low Low 
+1-10 Low Low Low Low Low 
+17-21 
+µg/m3 
+>10 Low Low Low Low Low 
+1-10 Low Low Low Low Low 
+<17 µg/m3 >10 Low Low Low Low Low 
+1-10 Low Low Low Low Low 
+Low - >1 Low Low Low Low Low 
+Notes: (a) Estimate the total within the stated distance (e.g. the total within 350 m and not the number between 200 and 350 m); 
+noting that only the highest level of area sensitivity from the table needs to be considered.  
+(b) In the case of high sensitivity receptors with high occupancy (such as schools or hospitals) approximate the number of people likely 
+to be present. In the case of residential dwellings, just include the number of properties. 
+Risk Assessment 
+The dust emission magnitude from Step 2a and the receptor sensitivity from Step 2b are then 
+used in the matrices shown in Table D4 (demolition), Table D5 (earthworks and construction) 
+and Table D6 (track-out) to determine the risk category with no mitigation applied. 
+[[page 104]]
+Goodman Property Services (Aust) Pty Ltd 
+Project Apollo Data Centre (4-10 Talavera Road, 
+Macquarie Park) 
+13 February 2025 
+SLR Project No.: 610.031918 
+SLR Ref No.: 610.031918-R01-v1.1-20250213.docx 
+ 
+ D-7  
+ 
+Table D4 Risk Category from Demolition Activities 
+Sensitivity of Area Dust Emission Magnitude 
+Large Medium Small 
+High High Risk Medium Risk Medium Risk 
+Medium High Risk Medium Risk Low Risk 
+Low Medium Risk Low Risk Negligible 
+ 
+Table D5 Risk Category from Earthworks and Construction Activities 
+Sensitivity of Area Dust Emission Magnitude 
+Large Medium Small 
+High High Risk Medium Risk Low Risk 
+Medium Medium Risk Medium Risk Low Risk 
+Low Low Risk Low Risk Negligible 
+ 
+Table D6 Risk Category from Track-out Activities 
+Sensitivity of Area Dust Emission Magnitude 
+Large Medium Small 
+High High Risk Medium Risk Low Risk 
+Medium Medium Risk Low Risk Negligible 
+Low Low Risk Low Risk Negligible 
+ 
+Step 3 - Site-Specific Mitigation 
+Once the risk categories are determined for each of the relevant activities, site -specific 
+management measures can be identified based on whether the Site is a low, medium or high 
+risk site.   
+Step 4 – Residual Impacts 
+Following Step 3, the residual impact is then determined after management measures have 
+been considered. 
+ 
+[[page 105]]
+ 
+ 
+ 

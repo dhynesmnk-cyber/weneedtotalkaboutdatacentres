@@ -1,0 +1,494 @@
+{
+  "pack_id": "batch8-open-questions-2026-11",
+  "prepared_by": "scripts/curate_batch8.py from data/raw/ (archived and read 2026-11-18)",
+  "prepared_on": "2026-11-18",
+  "_comment": [
+    "Research batch 8, first pass, under the author's zero-spend decision of 2026-11-18.",
+    "Resolves RG-062 and RG-075; advances RG-061 and RG-073; RG-008 is blocked on download #28.",
+    "Fee-blocked and FOI-waiting questions are set to blocked, naming the request; paid-search",
+    "questions stay open, saying so. RG-076 and RG-090 are PROPOSED for closing; this pack closes",
+    "neither. Counts in the notes are computed from the consent instruments, and a drift refuses",
+    "the pack."
+  ],
+  "sources": [
+    {
+      "id": "SRC_SSD69637456_ACOUSTIC_PEER_REVIEW",
+      "title": "DigiCo SYD1 Data Centre Expansion - Peer review of Noise and Vibration Impact Assessment (SSD-69637456)",
+      "publisher": "Renzo Tonin & Associates, for the applicant (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-83206457%2120250902T073832.685+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2025-09-01",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "A two-page letter. The applicant's planner, on behalf of HDI SYD1 Property Holdings (DigiCo), engaged Renzo Tonin & Associates to peer review Pulse White Noise Acoustics' noise and vibration assessment, over eight revisions; the letter says the review 'did not involve any detailed modelling checks or remodelling'. RG-075. Read 2026-11-18 from the NSW Planning Portal (A14 - Acoustic Peer Review.pdf), SHA-256 970415f85c98c184b2a2b05a74e87c2b19584abdcf31117928e5c9dc2adc75e6, 2 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-69637456_acoustic_peer_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+    },
+    {
+      "id": "SRC_SSD9741_MOD3_ACOUSTIC_PEER_REVIEW",
+      "title": "Acoustic Assessment AirTrunk SYD2 Datacentre, 1 Sirius Rd, Lane Cove West - Peer Review (SSD-9741-Mod-3)",
+      "publisher": "Renzo Tonin & Associates, for the applicant (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-55030963%2120230907T070724.442+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2023-07-18",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "A two-page letter. EMKC Cubed Management engaged Renzo Tonin & Associates to review Pulse White Noise Acoustics' noise impact assessment for the Mod 3 application 'for the AirTrunk SYD2 Datacentre', over seven reviews; no remodelling. A primary record tying the applicant of record to AirTrunk's SYD2 (RG-064, a lead on the relationship, not on ownership). RG-075. Read 2026-11-18 from the NSW Planning Portal (TN357-01F03 Acoustic Assessment - Peer Review $28r0$29.pdf), SHA-256 a499e2da1e1063c26b81acd7779d851a484d50d3ca9786f1015b083ec137932f, 2 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-9741-Mod-3_acoustic_peer_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+    },
+    {
+      "id": "SRC_SSD10330_MOD4_GHG_REVIEW",
+      "title": "Independent review for a data centre in accordance with the NSW EPA's Guide for Large Emitters (Roberts Road Data Centre Mod 4, SSD-10330-Mod-4)",
+      "publisher": "Zephyr Environmental, for the applicant (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-10330-MOD-4%2120260813T051137.062+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2026-07-30",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The independent expert review of SLR Consulting's greenhouse gas assessment for Roberts Road Mod 4, engaged by CDC, as section 4.7 of the EPA's Guide for Large Emitters requires. The modification adds 24 diesel generators and 32 chillers and is expected to exceed 25,000 tonnes CO2-e a year of Scope 1 and 2 emissions. The letter is headed 'RESTRICTED' but the portal publishes it as public. RG-075. Read 2026-11-18 from the NSW Planning Portal (Appendix N_GHG Peer Review.pdf), SHA-256 cd24aef8179af02b56e0e570c55946cc6e5ed2957636c04625e388c45fbffe63, 6 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-4_ghg_peer_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+    },
+    {
+      "id": "SRC_SSD101067971_GHG_REVIEW",
+      "title": "Project Atlas - Independent Reviewer Report for a data centre in accordance with the NSW EPA's Guide for Large Emitters (SSD-101067971)",
+      "publisher": "Zephyr Environmental, for the applicant (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-101067971%2120260514T043605.266+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2026-03-23",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The independent expert review of the Project Atlas greenhouse gas assessment. The assessment 'has been prepared by LCI on behalf of Goodman Property Services', and the reviewer was 'engaged by LCI Consultants (LCI), on behalf of Goodman Property Services': the author of the report engaged its reviewer. The reviewer states no actual or perceived conflict of interest and finds the mitigation strategy 'adequate'. RG-075. Read 2026-11-18 from the NSW Planning Portal (Appendix PP Independent Expert Review of Greenhouse Gas Assessment.pdf), SHA-256 1e55d4c76d1c838f027c971ea5b682133a757c617289cc51c8a5deb913410b9c, 11 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-101067971_ghg_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+    },
+    {
+      "id": "SRC_SSD10330_MOD2_GHG_REVIEW",
+      "title": "Eastern Creek Data Centre - Independent Reviewer Report for a data centre in accordance with the NSW EPA's Guide for Large Emitters (Roberts Road Mod 2, SSD-10330-Mod-2)",
+      "publisher": "Zephyr Environmental, for the applicant (NSW Planning Portal)",
+      "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=RFI-100093456%2120251210T234934.223+GMT",
+      "doc_type": "primary_planning_portal",
+      "published": "2025-11-25",
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "The independent expert review of SLR Consulting's greenhouse gas assessment for Roberts Road Mod 2, engaged by the planning consultant Urbis on behalf of CDC. It states no actual or perceived conflict of interest and finds CDC's offset strategy 'satisfactory'. RG-075. Read 2026-11-18 from the NSW Planning Portal (Attachment H_GHG Independent Reviewer Report.pdf), SHA-256 6b2c4edbbe2cb48f7cb5dcc8c275a1284fa3eccbc1fce36e81635307e0a6eeb2, 10 pages, text by pypdf-6.17.0, archived at data/raw/nsw_planning/documents/SSD-10330-Mod-2_ghg_review.txt with its manifest; personal contact details are redacted from the text and the PDF is not committed."
+    },
+    {
+      "id": "SRC_NSWPORTAL_TECH_REPORTS",
+      "title": "Acoustic and air quality assessments for determined NSW data centre consents (bulk read of 35 reports)",
+      "publisher": "Prepared for the applicants (NSW Planning Portal)",
+      "url": "https://www.planningportal.nsw.gov.au/major-projects",
+      "doc_type": "primary_planning_portal",
+      "published": null,
+      "credibility": "A",
+      "accessed": "2026-11-18",
+      "notes": "One noise or acoustic report and one air quality report per determined data centre consent, read from the planning portal on 2026-11-18 for the firm that prepared each, taken from the report's own cover or document-control page, not from its filename. Each is archived at data/raw/nsw_planning/documents/<case>_<kind>.txt with a manifest holding its URL and full SHA-256; personal names in document-control tables are not recorded here. SSD-63235720 noise assessment: Arup Australia (appendix-k-noise-and-vibration-impact-assessment-475, SHA-256 61aad7b2a2cbd29f...); SSD-63235720 air quality report: Arup Australia (appendix-j-air-quality-impact-assessment-382, SHA-256 6f310bdc64f09b09...); SSD-68013714 noise assessment: Arup (appendix-m-noise-and-vibration-assessment-report-39, SHA-256 c166551d47e2a258...); SSD-68013714 air quality report: Arup (appendix-l-air-quality-technical-report-39, SHA-256 8857ff828a8444a6...); SSD-41589232 noise assessment: Pulse White Noise Acoustics (appendix-25-acoustic-assessment-report-73, SHA-256 45c3d13a024a9733...); SSD-41589232 air quality report: Northstar Air Quality (appendix-24-air-quality-impact-assessment-207, SHA-256 cf8bad2e589b8b23...); SSD-67407231 noise assessment: Renzo Tonin & Associates (appendix-19-noise-and-vibration-impact-assessment-171, SHA-256 8db9867bf445f747...); SSD-67407231 air quality report: Northstar Air Quality (appendix-18-air-quality-impact-assessment-68, SHA-256 701260098e25dfc3...); SSD-59416728 noise assessment: Cundall (appendix-15-noise-and-vibration-impact-assessment-61, SHA-256 ebd6d7ca06e8689f...); SSD-59416728 air quality report: Cundall (appendix-14-air-quality-impact-assessment-62, SHA-256 788e18f55ba279ab...); SSD-64287712 noise assessment: SLR Consulting (appendix-onoise-assessment-33, SHA-256 025f9ca739a03720...); SSD-64287712 air quality report: SLR Consulting (appendix-pair-quality-assessment-33, SHA-256 fb2ca176dfae6e0b...); SSD-69637456 noise assessment: Pulse White Noise Acoustics (a7-updated-noise-and-vibration-impact-assessment-15, SHA-256 becb148445f54007...); SSD-69637456 air quality report: Northstar Air Quality (appendix-11-air-quality-impact-assessment-46, SHA-256 c385817de97d403a...); SSD-73761707 noise assessment: Pulse White Noise Acoustics (appendix-d10-noise-and-vibration-impact-assessment-0, SHA-256 4733042eb5946dac...); SSD-73761707 air quality report: Northstar Air Quality (appendix-17-air-quality-impact-assessment-36, SHA-256 5e6b9fc7f3a6b056...); SSD-53338465 noise assessment: Arup Australia (a4-noise-impact-assessment-7, SHA-256 7c6251fbd3873017...); SSD-53338465 air quality report: Arup Australia (a12-air-quality-impact-assessment-51, SHA-256 2380b34acc5f3a97...); SSD-9741 noise assessment: Arup (appendix-19-noise-impact-assessment-226, SHA-256 a298ae5fc5741f8a...); SSD-9741 air quality report: Arup (appendix-21-air-quality-impact-assessment-9, SHA-256 0905e131bb01dea7...); SSD-10467 noise assessment: AECOM (appendix-j-noise-and-vibration-impact-assessment-1, SHA-256 43c918dede080e3f...); SSD-10467 air quality report: AECOM (appendix-i-air-quality-impact-assessment-3, SHA-256 ea389600e79af6e5...); SSD-63741210 noise assessment: Aurecon (appendix-p-noise-and-vibration-assessment-107, SHA-256 6212e635084b039f...); SSD-63741210 air quality report: Northstar Air Quality (appendix-o-air-quality-impact-assessment-700, SHA-256 6827e31d7095f653...); SSD-74069708 noise assessment: SLR Consulting (appendixq-noiseandvibrationimpactassessment-3, SHA-256 8d7a927967d95b79...); SSD-74069708 air quality report: SLR Consulting (appendix-x-air-quality-impact-assessment-174, SHA-256 3b03eb7f54ca197d...); SSD-47320208 noise assessment: Arup Australia (project-echidna-eis-appendix-h-noise-and-vibration-assessment-42, SHA-256 d0b14d3f3760662b...); SSD-69223466 noise assessment: SLR Consulting (appendix-u-noise-vibration-impact-assessment-71, SHA-256 2331c42d1a36565b...); SSD-69223466 air quality report: Northstar Air Quality (appendix-t-air-quality-33, SHA-256 b84b81c50cb5e57c...); SSD-10330 noise assessment: SLR Consulting (appendix-n-noise-and-vibration-assessment-report-0, SHA-256 e6b1d3681db4f7b3...); SSD-10330 air quality report: SLR Consulting (appendix-o-air-quality-assessment-report-0, SHA-256 2a9b0a48f9b456fd...); SSD-33781208 noise assessment: Pulse White Noise Acoustics (a8-acoustic-report-40, SHA-256 e6cdb23be4b43c9c...); SSD-33781208 air quality report: Benbow Environmental (appendix-13-aqia-62, SHA-256 f0d1f92cb7e32c84...); SSD-24299707 noise assessment: Renzo Tonin & Associates (appendix-14-noise-and-vibration-report-70, SHA-256 a2cc5493c26c2b11...); SSD-24299707 air quality report: SLR Consulting (appendix-15-air-quality-impact-assessment-123, SHA-256 f9480fc30eca615a...). RG-073."
+    }
+  ],
+  "rows": {
+    "research_gaps": [
+      {
+        "match": {
+          "id": 62
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 8): RESOLVED (negative). The NSW Data Centre Guidelines define the term: 'Recycled water includes that provided by recycled water networks or on-site water treatment, such as from captured stormwater.' Read against all 20 archived consent instruments and the modification reports read in batch 7, no consent or modification cites that definition or relies on it to meet a recycled-water expectation. Only two assessment reports mention the Guidelines (Glendenning Road and Project Apollo, both after their release on 17 August 2026); each says 'The Department has considered the Guidelines as a relevant consideration under section 4.15 of the EP&A Act' and lists the related conditions as renewable power purchase, retrofit capability, PUE and WUE monitoring through a Sustainability Management Plan, and amenity; recycled water is not among them. The closest usage predates the Guidelines: the DigiCo SYD1 consent (December 2025) lists, under 'Recycled water and reuse, through:', the 'Use of 2x5000L existing rainwater tanks', rainwater counted as recycled water, which is the reading the later definition allows. The three consents decided since July 2026 (Project Pluto, Project Apollo, Glendenning Road) instead require a 'review of available water servicing arrangements, in consultation with the relevant water service provider, to identify any alternative non-potable or recycled water supply options'. Re-open if a Sustainability Management Plan approved under one of them relies on the definition.",
+          "as_of_date": "2026-11-18",
+          "status": "resolved",
+          "resolved_date": "2026-11-18",
+          "source_id": "SRC_NSWGUIDE26",
+          "fact_status": "VERIFIED",
+          "confidence": "high"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWGUIDE26",
+            "quote": "Recycled water includes that provided by recycled water networks or on-site water treatment, such as from captured stormwater."
+          },
+          {
+            "id": "SRC_NSWPORTAL_CONSENTS",
+            "quote": "Recycled water and reuse, through: o Use of 2x5000L existing rainwater tanks | review of available water servicing arrangements, in consultation with the relevant water service provider, to identify any alternative"
+          },
+          {
+            "id": "SRC_SSD73761707_ASSESSMENT",
+            "quote": "The Department has considered the Guidelines as a relevant consideration under section 4.15 of the EP&A Act."
+          },
+          {
+            "id": "SRC_SSD74069708_ASSESSMENT",
+            "quote": "The Department has considered the Guidelines as a relevant consideration under section 4.15 of the EP&A Act."
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 61
+        },
+        "set": {
+          "notes": "ANSWERED 2026-11-15 for the renewable-energy obligation; the hypothesis is FALSIFIED. The 'no ratchet' finding does not hold. Three of the 20 archived consent instruments (19 distinct projects - Davis Road appears twice, original and MOD 1) obligate the Applicant, before operation may commence and to the Planning Secretary's satisfaction, to offset all GHG from electricity 'including both non-IT and IT loads' by matching all operational demand to 'a portfolio of additional, firmed renewable energy supply at all times', with a Power Purchase Agreement and firming agreement for NSW-based supply within the NEM and a shortfall framework: Project Pluto SSD-69223466 B19/B20 (determined 23 July 2026), Project Apollo SSD-74069708 B22/B23 (2 September 2026), Glendenning Road SSD-73761707 B20/B21/B22/B23 (instrument dated 14 September 2026; the portal's determination field reads 16 September). None of the 16 earlier determinations in the archive carries it. In each case the Department's assessment report records a materially weaker offer first and then recommends the condition anyway: Glendenning p55 offered '100% renewable energy by 2040' against p56's pre-operation obligation; Apollo p59 said it 'has been purchasing 100% renewable electricity for electricity under their operational control' and the Department held outcomes 'materially dependent on the successful securing and performance of renewable energy procurement'; Pluto's EPA advice (p27) went no further than 'purchasing of renewable energy certificates', while its ESD Report (p50) offered 500 kW of rooftop solar offsetting 658 MWh/yr and 540 t CO2-e against 467,924 t CO2-e/yr stated - about 0.12% by arithmetic on the report's own two figures, a derivation and not a quoted fact. WHAT IS NOT RATCHETED: the numeric targets stay proponent-set (PUE 1.17 Glendenning, 1.4 Pluto); the conditions require reporting against them, not achieving a Department number. The ratchet is on timing, additionality, firming, geography and auditing - Glendenning B22 adds continuous IT-vs-total metering, annual PUE/WUE/CO2-e reporting, alignment with the NSW Guide for Large Emitters (EPA, 2025), prioritising recycled or non-potable water where available, and three-yearly revision, and B23 bars operation until the plan is approved. TIMING IS NARROWER THAN '2026': 1-5 Khartoum Road SSD-63235720, determined 11 March 2026, has renewable and PUE language and no at-all-times obligation, so the change falls between 11 March and 23 July 2026. CORRECTIONS to this gap's earlier note, which was written against 18 instruments: 20 instruments for 19 projects; EIGHT consents mention renewable supply (not four) and SEVEN mention PUE (not five). STILL OPEN, so this gap stays in_progress: no EIS is archived for any determined project, so the other 16 comparisons run through the assessment report's summary of the ESD Report; air quality, noise, water and traffic conditions are untested for a ratchet; the three firmed consents are also the three largest recent approvals, so 'the Department ratchets' and 'it ratchets on the biggest projects' cannot be separated; and Lanceley Place Artarmon SSD-66777221, approved 11 April 2025, has no instrument in the archive and no assessment-report attachment on its portal record, so the scan cannot speak to it. The policy text the conditions refer to ('in accordance with applicable NSW government policy') has not been located, so the cause of the mid-2026 change is not established. Full chain with page cites and SHA-256 prefixes: reports/hunts/RG-061.md. UPDATED 2026-11-18 (research batch 8): GENERATOR HOURS AND DIESEL, counted by this pack's script across the 20 archived consent instruments (18 data centre consents; the Davis Road Mod 1 instrument and the Dicker Data warehouse carry no generator cap). 15 cap generator operation at 200 hours a year; the three decided since July 2026 set lower caps: Project Pluto 'exceed 173 hours per year', Project Apollo 187 and Glendenning Road 170. Project Apollo's cap is the applicant's own figure, not a tightening: its report says 'Routine generator testing of up to 187 hours per year is required', and that 'In response to EPA advice' the applicant said 'the generator operating regime has been revised to remain below 200 hours per year'. 200 hours is the line in the Guidelines: 'Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen'. The EPA's own reason for the cap is on the record at Macquarie Park: 'To ensure an EPL is not required, the EPA recommended a condition be imposed restricting the use and/or testing of any back-up generators installed at the site to a maximum of 200 hours per year.' At 1-5 Khartoum Road the consent condition is 200 hours while its own mitigation table says 'Total generator testing time is limited to 72 hours per year': the condition does not lock in the offer. 13 of the instruments say diesel storage 'does not exceed 2,000 tonnes', the licensing line for petroleum storage (RG-008). So on generator hours there is no ratchet below the 200-hour line except in the three newest consents, and in one of those the cap is exactly the applicant's offer.",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_NSWGUIDE26",
+            "quote": "Current regulations allow data centres to use generators for up to 200 hours a year without being subject to any point source emission limits for oxides of nitrogen"
+          },
+          {
+            "id": "SRC_SSD10467_ASSESSMENT",
+            "quote": "To ensure an EPL is not required, the EPA recommended a condition be imposed restricting the use and/or testing of any back-up generators installed at the site to a maximum of 200 hours per year."
+          },
+          {
+            "id": "SRC_NSWPORTAL_CONSENTS",
+            "quote": "exceed 173 hours per year | exceed 187 hours per year | does not exceed 170 hours per year | Total generator testing time is limited to 72 hours per year | does not exceed 200 hours per year | does not exceed 2,000 tonnes"
+          },
+          {
+            "id": "SRC_SSD74069708_ASSESSMENT",
+            "quote": "Routine generator testing of up to 187 hours per year is required | the generator operating regime has been revised to remain below 200 hours per year"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 8
+        },
+        "set": {
+          "notes": "UPDATED 2026-11-18 (research batch 8): FIRST PASS, from the Department's reports, which record the EPA's advice on each application. The licences themselves are not yet read. LICENCE REQUIRED, per the reports: 51 Huntingwood Drive (SSD-41589232: an EPL 'will need to be applied for and issued'); NEXTDC S4 Horsley Park (SSD-63741210) and Marsden Park (SSD-70889211), each: 'The EPA advised the development would require an EPL for the quantity of diesel storage on the site above the thresholds of the POEO Act'; and Roberts Road as modified by Mod 2 ('will require an environment protection licence ... under section 42', 'for Chemical Storage (diesel fuel)'). NOT REQUIRED, per the reports: Roberts Road as first approved, Kemps Creek, Macquarie Park, Eastern Creek, Talavera Road, Station Road, Grand Avenue, Davis Road, Project Echidna, 1-5 Khartoum Road, Apollo Place, Project Pluto, DigiCo SYD1, Project Apollo ('does not appear to require'), Lane Cove West, the Dicker Data warehouse, and Glendenning Road, where the EPA first 'Noted ... the development would require' a licence and then accepted the applicant's confirmation that diesel 'would be below 2,000 tonnes'. HOW THE LINE IS HELD: at Grand Avenue the EPA 'recommended conditions to ensure the development would stay under the triggers for an EPL'; at Project Pluto, conditions 'to ensure diesel storage and generator testing remain below POEO Act thresholds'; the NEXTDC S5 EIS states the diesel line as 'the 2,000-tonne trigger for petroleum products storage for which an EPL would be required'. WHAT FOLLOWS: at 1-5 Khartoum Road the report records that 'the EPA does not consider itself to be the appropriate regulatory authority for air emissions associated with the development' because no licence is required. For most sites there is no licence whose conditions this question could extract; their generator and air terms are consent conditions (RG-061). BLOCKED on download #28: the EPA's public register is now an interactive application the crawler cannot read; a person can search it for the four sites above and save each licence.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD41589232_ASSESSMENT",
+            "quote": "an Environment Protection Licence (EPL) will need to be applied for and issued by the Environment Protection Authority (EPA) under the Protection of the Environment Operations Act 1997"
+          },
+          {
+            "id": "SRC_SSD63741210_ASSESSMENT",
+            "quote": "The EPA advised the development would require an EPL for the quantity of diesel storage on the site above the thresholds of the POEO Act."
+          },
+          {
+            "id": "SRC_SSD70889211_ASSESSMENT",
+            "quote": "The EPA advised the development would require an EPL for the quantity of diesel storage on the site above the thresholds of the POEO Act."
+          },
+          {
+            "id": "SRC_SSD10330_MOD2_ASSESSMENT",
+            "quote": "will require an environment protection licence issued by the NSW Environment Protection Authority (EPA) under section 42 | The EPA advised t he development would require an environment protection licence under Schedule 1 of the Protection of the Environment Operations Act 1997 (POEO Act) for Chemical Storage (diesel fuel)."
+          },
+          {
+            "id": "SRC_SSD10330_ASSESSMENT",
+            "quote": "The EPA also confirmed the testing regime proposed by the Applicant would not constitute a scheduled activity under the POEO Act and therefore the development would not require an EPL."
+          },
+          {
+            "id": "SRC_SSD73761707_ASSESSMENT",
+            "quote": "Noted based on the information provided, the development would require an Environment Protection Licence (EPL) | The EPA noted the Applicant had confirmed the total diesel storage capacity of the site would be below 2,000 tonnes and, consequently, the development would not require an EPL under the POEO Act."
+          },
+          {
+            "id": "SRC_SSD53338465_ASSESSMENT",
+            "quote": "recommended conditions to ensure the development would stay under the triggers for an EPL"
+          },
+          {
+            "id": "SRC_SSD69223466_ASSESSMENT",
+            "quote": "recommended consent conditions to ensure diesel storage and generator testing remain below POEO Act thresholds and noted the Applicant must apply for an EPL if limits are exceeded"
+          },
+          {
+            "id": "SRC_SSD74069708_ASSESSMENT",
+            "quote": "The EPA advised that the proposal does not appear to require an Environment Protection Licence under the POEO Act."
+          },
+          {
+            "id": "SRC_SSD59416728_ASSESSMENT",
+            "quote": "The EPA did not provide any comments, noting the development would not require an Environment Protection Licence (EPL) under the Protection of the Environment Operations Act 1997 (POEO Act)."
+          },
+          {
+            "id": "SRC_SSD67407231_ASSESSMENT",
+            "quote": "Advised the proposal does not trigger Schedule 1 of the POEO Act and does not require an EPL."
+          },
+          {
+            "id": "SRC_SSD47320208_ASSESSMENT",
+            "quote": "The EPA advised it had no comments on the development as the development does not constitute a scheduled activity under Schedule 1 of the Protection of the Environment Operations Act 1997 (POEO Act)."
+          },
+          {
+            "id": "SRC_SSD63168959_EIS",
+            "quote": "below the 2,000-tonne trigger for petroleum products storage for which an EPL would be required"
+          },
+          {
+            "id": "SRC_SSD63235720_ASSESSMENT",
+            "quote": "the EPA provided no further comments on the development as an EPL is not required for the site and therefore the EPA does not consider itself to be the appropriate regulatory authority for air emissions associated with the development"
+          },
+          {
+            "id": "SRC_SSD10467_ASSESSMENT",
+            "quote": "To ensure an EPL is not required, the EPA recommended a condition be imposed restricting the use and/or testing of any back-up generators installed at the site to a maximum of 200 hours per year."
+          },
+          {
+            "id": "SRC_SSD21342738_ASSESSMENT",
+            "quote": "subject to conditions, an Environment Protection Licence (EPL) is not required"
+          },
+          {
+            "id": "SRC_SSD24299707_ASSESSMENT",
+            "quote": "subject to conditions, an Environment Protection Licence (EPL) is not required"
+          },
+          {
+            "id": "SRC_SSD33781208_ASSESSMENT",
+            "quote": "subject to conditions, an Environment Protection Licence (EPL) is not required"
+          },
+          {
+            "id": "SRC_SSD10101987_ASSESSMENT",
+            "quote": "subject to conditions, an Environmental Protection Licence (EPL) is not required"
+          },
+          {
+            "id": "SRC_SSD69637456_ASSESSMENT",
+            "quote": "The EPA noted the development does not require an environment protection licence"
+          },
+          {
+            "id": "SRC_SSD9741_ASSESSMENT",
+            "quote": "Therefore, an Environment Protection Licence (EPL) is not required."
+          },
+          {
+            "id": "SRC_SSD8662_ASSESSMENT",
+            "quote": "therefore an Environment Protection Licence (EPL) is not required"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 75
+        },
+        "set": {
+          "notes": "Peer review confirmed to EXIST and to be rare (~5% of projects). Reviewing firms are not named in the filenames. Three documents to open. UPDATED 2026-11-18 (research batch 8): RESOLVED for the documents on the public record. Six of the 63 projects in the attachment index carry a review document by title: two acoustic peer reviews (DigiCo SYD1; Lane Cove West Mod 3); an acoustic and an air quality 'review statement' on 51 Huntingwood Drive Mod 1, a withdrawn modification (the acoustic one answered 401, not public; refusal recorded); and three greenhouse gas reviews (Project Atlas; Roberts Road Mods 2 and 4). OPENED: at DigiCo SYD1, 'Renzo Tonin & Associates (RTA) was engaged by Patch Planning, on behalf of HDI SYD1 Property Holdings Pty Limited (DigiCo) to peer review the noise and vibration impact assessment (NVIA) report undertaken by Pulse White Noise Acoustics (PWNA)', across 'reviews or partial reviews of eight revisions'. At Lane Cove West Mod 3 the same reviewer 'was engaged by EMKC Cubed Management (EMKC) to undertake an independent review of the Noise Impact Assessment (NIA) prepared by Pulse White Noise Acoustics (PWNA)', in 'seven reviews of the NIA'. Both letters say 'The peer review process did not involve any detailed modelling checks or remodelling by RTA.' At Roberts Road Mod 4, 'Zephyr Environmental Pty Ltd (Zephyr) has been engaged by Canberra Data Centres (CDC) to perform an independent review' of SLR Consulting's greenhouse gas report ('Revision 05, SLR Consulting, 16 July 2026'); under the EPA's Guide for Large Emitters, above 100,000 tonnes a year 'mitigation assessments must be verified by an independent expert review'. All three greenhouse reviews are by the same firm, Zephyr Environmental: Roberts Road Mod 2 ('engaged by Urbis, on behalf of Canberra Data Centres (CDC)', reviewing SLR's report) and Project Atlas, where 'The Assessment Report has been prepared by LCI on behalf of Goodman Property Services' and the reviewer 'has been engaged by LCI Consultants (LCI ), on behalf of Goodman Property Services': there the author of the report engaged its reviewer. The Mod 2 and Atlas letters each say 'No actual or perceived conflicts of interest have come to my attention, and I have not been employed by the proponent within the last five years'; the Mod 4 letter, written after the Mod 2 engagement for the same proponent, carries no such statement. Each review found the work 'adequate' or 'satisfactory'. ANSWER: in every review opened the reviewer is a different firm from the author, so no firm was found reviewing its own work; every review was engaged by the applicant, its planner or the report's author, none by the Department; the acoustic reviews checked by comment and meeting, not by re-running the model. The greenhouse reviews follow the EPA's rule; nothing read requires the acoustic ones.",
+          "as_of_date": "2026-11-18",
+          "status": "resolved",
+          "resolved_date": "2026-11-18",
+          "source_id": "SRC_SSD69637456_ACOUSTIC_PEER_REVIEW",
+          "fact_status": "VERIFIED",
+          "confidence": "high"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD69637456_ACOUSTIC_PEER_REVIEW",
+            "quote": "Renzo Tonin & Associates (RTA) was engaged by Patch Planning, on behalf of HDI SYD1 Property Holdings Pty Limited (DigiCo) to peer review the noise and vibration impact assessment (NVIA) report undertaken by Pulse White Noise Acoustics (PWNA) | The peer review process did not involve any detailed modelling checks or remodelling by RTA. | conducting reviews or partial reviews of eight revisions of the NVIA"
+          },
+          {
+            "id": "SRC_SSD9741_MOD3_ACOUSTIC_PEER_REVIEW",
+            "quote": "Renzo Tonin & Associates (RTA) was engaged by EMKC Cubed Management (EMKC) to undertake an independent review of the Noise Impact Assessment (NIA) prepared by Pulse White Noise Acoustics (PWNA) for the Proposed S4.55 Modification Application for the AirTrunk SYD2 Datacentre | The peer review process did not involve any detailed modelling checks or remodelling by RTA. | conducting seven reviews of the NIA"
+          },
+          {
+            "id": "SRC_SSD10330_MOD4_GHG_REVIEW",
+            "quote": "Zephyr Environmental Pty Ltd (Zephyr) has been engaged by Canberra Data Centres (CDC) to perform an independent review of the Greenhouse Gas (GHG) Assessment Report | Revision 05, SLR Consulting, 16 July 2026 | For projects with Scope 1 and 2 emissions exceeding 100,000 tCO 2-e per year at any time over the operational life of the project, mitigation assessments must be verified by an independent expert review. | CDC’s offset strategy for the Eastern Creek modification is considered satisfactory"
+          },
+          {
+            "id": "SRC_SSD101067971_GHG_REVIEW",
+            "quote": "Zephyr Environmental Pty Ltd (Zephyr) has been engaged by LCI Consultants (LCI ), on behalf of Goodman Property Services (Aust) Pty Ltd (Goodman Property Services) to perform an independent review of the Greenhouse Gas (GHG) Assessment Report | The Assessment Report has been prepared by LCI on behalf of Goodman Property Services | No actual or perceived conflicts of interest have come to my attention, and I have not been employed by the proponent within the last five years. | the mitigation strategy laid out for the proposed development is considered adequate"
+          },
+          {
+            "id": "SRC_SSD10330_MOD2_GHG_REVIEW",
+            "quote": "Zephyr Environmental Pty Ltd (Zephyr) has been engaged by Urbis, on behalf of Canberra Data Centres (CDC) to perform an independent review of the Greenhouse Gas (GHG) Assessment Report | The GHG Assessment Report has been prepared by SLR Consulting Australia on behalf of CDC | No actual or perceived conflicts of interest have come to my attention, and I have not been employed by the proponent within the last five years. | CDC’s offset strategy for the Eastern Creek modification is considered satisfactory"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 73
+        },
+        "set": {
+          "notes": "ADVANCED 2026-09-18. The consultancy applicants of record are now established for all 20 consents (see RG-074 note): firms holding consents in their own name are Arup (two distinct legal entities), Cundall, Lehr and Greenbox. Appendix-level authorship still requires opening the 6,866 archived attachments; filenames alone remain insufficient evidence of authorship. UPDATED 2026-11-18 (research batch 8): ACOUSTIC AND AIR QUALITY DONE: 35 reports opened, one noise and one air quality report per determined consent where the portal publishes them, each firm read from the report's own cover or document-control page (source SRC_NSWPORTAL_TECH_REPORTS). By firm: SLR Consulting: 8 (SSD-64287712 noise, SSD-64287712 air, SSD-74069708 noise, SSD-74069708 air, SSD-69223466 noise, SSD-10330 noise, SSD-10330 air, SSD-24299707 air); Northstar Air Quality: 6 (SSD-41589232 air, SSD-67407231 air, SSD-69637456 air, SSD-73761707 air, SSD-63741210 air, SSD-69223466 air); Arup Australia: 5 (SSD-63235720 noise, SSD-63235720 air, SSD-53338465 noise, SSD-53338465 air, SSD-47320208 noise); Arup: 4 (SSD-68013714 noise, SSD-68013714 air, SSD-9741 noise, SSD-9741 air); Pulse White Noise Acoustics: 4 (SSD-41589232 noise, SSD-69637456 noise, SSD-73761707 noise, SSD-33781208 noise); AECOM: 2 (SSD-10467 noise, SSD-10467 air); Cundall: 2 (SSD-59416728 noise, SSD-59416728 air); Renzo Tonin & Associates: 2 (SSD-67407231 noise, SSD-24299707 noise); Aurecon: 1 (SSD-63741210 noise); Benbow Environmental: 1 (SSD-33781208 air). WHERE A CONSULTANCY HOLDS THE CONSENT (applicants per RG-074), it wrote its own evidence in three of the six: Turner Road (applicant ARUP Pty Ltd; both reports by Arup Pty Limited), Project Echidna (applicant ARUP Australia; the noise report by Arup Australia; its air quality report is over the crawler's 120 MB limit) and Davis Road (applicant Cundall; both reports by Cundall). Lehr's two consents used other firms, each report written for its own practice, LCI Consultants; Lane Cove West's are by Arup. THE DEPARTMENT'S OWN RECORD can name the client as the author: its Station Road report lists the 'SSDA Acoustic Assessment Report prepared by LCI Consultants' (Issue 9), while the issue read here (Issue 8) names Pulse White Noise Acoustics as author and LCI Consultants as client. Not read: Project Echidna's air quality report, larger than the crawler's 120 MB limit (recorded; a person can save it). Where an earlier version of a report answered 401, a later published version was read instead. Still open: the other disciplines (traffic, flooding, heritage, hazards, greenhouse gas).",
+          "as_of_date": "2026-11-18",
+          "status": "in_progress"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD33781208_ASSESSMENT",
+            "quote": "SSDA Acoustic Assessment Report prepared by LCI Consultants"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 64
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. EMKC Cubed Management Pty Ltd has been named CKTSME Management Pty Ltd on ASIC's register since 3 June 2025. In both its consents the assessment report says it was approached by a data centre operator it does not name; for Apollo Place, AirTrunk's own SYD2 page calls the project 'Phase 5 of AirTrunk's investment within the precinct' (RG-098), and for 51 Huntingwood Drive the operator's assets include 'the Huntingwood Data Centre ... at 24 Healey Circuit, Huntingwood'. HDI SYD1 Property Holdings was named Global Switch Property (Australia) until 12 May 2025, and the Department calls it DigiCo. The landowner's consent letters on Apollo Place and 51 Huntingwood Drive answer 401 and are in the drafted GIPA request. Still open: shareholders and directors (paid extracts), and which operator holds the 51 Huntingwood consent. UPDATED 2026-11-18 (research batch 8): A primary record now ties the applicant of record to AirTrunk's site: the Lane Cove West Mod 3 peer review says its reviewer 'was engaged by EMKC Cubed Management (EMKC)' to review the noise assessment 'for the AirTrunk SYD2 Datacentre'. That is the relationship, not the ownership. BLOCKED at zero spend: the landowner's consent letters on Apollo Place and 51 Huntingwood Drive are items 7 and 8 of GIPA-001, which carries the $30 GIPA fee and is not lodged (author's decision, 2026-11-18); directors and shareholders need paid extracts, which are not bought (RG-081).",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": [
+          {
+            "id": "SRC_SSD9741_MOD3_ACOUSTIC_PEER_REVIEW",
+            "quote": "Renzo Tonin & Associates (RTA) was engaged by EMKC Cubed Management (EMKC) to undertake an independent review of the Noise Impact Assessment (NIA) prepared by Pulse White Noise Acoustics (PWNA) for the Proposed S4.55 Modification Application for the AirTrunk SYD2 Datacentre"
+          }
+        ]
+      },
+      {
+        "match": {
+          "id": 21
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. ASIC's register shows KNBDC SYD4 Pty Ltd (ACN 687 904 963, registered 10 June 2025) has been named AirTrunk SYD4 Pty Ltd since 16 June 2026, as have its Hold, Intermediate Hold, FinCo and Financing Holdco companies, so the AirTrunk link this question asked about is now on a primary record. The title search filed with the EIS shows Lot 10 DP 1280592 registered to ISPT Pty Limited (named IFM Real Estate Fiduciary Pty Ltd since 24 November 2025) with a caveat by KNBDC SYD4 Pty Ltd. The landowner's consent letters from IFM, GPT and Gibb Group are restricted on the portal. Still open: shareholders, directors and ultimate parent, which need a paid ASIC extract (docs/requests/PAID-SEARCHES.md), and what interest the caveat protects. Earlier: the ABR resolves the trust stack (Hold, Land and Intermediate Hold trusts, trustee NBDC Pty Ltd). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the landowners' consent letters on the Mamre Road application (items 2 to 4) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18; directors and shareholders also need a paid ASIC extract, not bought. The free routes already tried are in the notes above and the hunt log.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 35
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. Applicants now on the record: Project Apollo, Project Pluto and Project Duke = Goodman Property Services (Aust) Pty Limited (the Duke assessment report and the portal); KC1 = CDC Data Centres Pty Ltd (its scoping report); Road 1 = Stockland Development Pty Limited (the portal and its EIS); Grand Avenue = Equinix Hyperscale 2 (SY10); Talavera Road = Macquarie Data Centres; NEXTDC S4 = NEXTDC; Roberts Road = Canberra Data Centres; DigiCo SYD1 = HDI SYD1 Property Holdings (formerly Global Switch Property (Australia)); DCI Poplars = the NineZero trust trading as DCI Data Centers; 43-61 Turner Road = ARUP; 51 Huntingwood Drive and Apollo Place = EMKC Cubed Management (now CKTSME Management). STILL UNRESOLVED: Project Echidna, whose applicant ARUP Australia 'acts on behalf of a multinational data centre operation' the assessment report does not name; and Project Mars, whose portal record names no applicant and whose owner's consent letter is restricted. The landowner's consent letters on Project Duke and Project Mars are restricted too; they are in the drafted GIPA request (docs/requests/). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the landowner's consent letters on Project Duke and Project Mars (items 11 to 13) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18, not bought. The free routes already tried are in the notes above and the hunt log.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 37
+        },
+        "set": {
+          "notes": "WORKED 2026-10-21. The owner's consent letter (owners-consent-6713) answers 401: restricted. The Appendix 03 title documents are a ZIP of 20 scanned plans and land dealings with no machine-readable text and no current title search, so the registered proprietor of Lot 2 DP 1137162 is not established. The assessment report calls the applicant, Lehr, 'an engineering and design consultancy' and does not mention an operator at all. Next: a paid NSW title search for Lot 2 DP 1137162, and the GIPA request for the consent letter (docs/requests/). Earlier: the portal attachment list is reachable via the node JSON; draft conditions and EPA comments also answered 401. UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs Glendenning Road's owner's consent letter (item 1) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18; a paid title search is the other route, not bought. The free routes already tried are in the notes above and the hunt log.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 57
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. The title search the applicant filed (searched 12 October 2023) shows the land, Lot 1 DP 864615, registered to Amazon Australia Company Pty Ltd, which ASIC registered on 14 November 2022; the title's current edition is dated 9 December 2022. The Department's assessment report says Cundall 'acts on behalf of a global data centre operator' it does not name. The ASIC certificate for Amazon Corporate Services Pty Ltd and the landowner's consent letter both answer 401, and are in the drafted GIPA request (docs/requests/GIPA-001-ownership-documents.md). Amazon's role as landowner is now on a primary record; its role as operator is not. Also restricted on Roberts Road (SSD-10330): the CDC response to a warning letter (RG-058). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the Davis Road landowner's consent letter and the ASIC certificate for Amazon Corporate Services (items 5 and 6) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18, not bought. The free routes already tried are in the notes above and the hunt log.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 59
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. The DCI Poplars assessment report calls the applicant 'The Trustee for NineZero DC Sub Trust I, trading as DCI Data Centers'. ASIC's register holds NineZero DC Sub TC I Pty Ltd (registered 13 August 2015) and Sub TC II (11 April 2017), and the portal names Sub TC I as proponent of the Eastern Creek Data Centre Expansion; no public document read says Sub TC I is the trustee of Sub Trust I. The landowner's consent letters on both applications answer 401 and are in the drafted GIPA request. UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: what is left needs the landowners' consent letters on DCI Poplars and the Eastern Creek expansion (items 9 and 10) of GIPA-001, which carries the $30 GIPA application fee and is not lodged, by the author's decision of 2026-11-18, not bought. The free routes already tried are in the notes above and the hunt log.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 58
+        },
+        "set": {
+          "notes": "WORKED 2026-10-30 (research batch 5). Two warning letters are in the NSW data centre record: 'CDC Data Centres response warning letter' on Roberts Road (SSD-10330) and a warning letter of 29 May 2024, with a Department email about it, on Station Road (SSD-33781208). All three are restricted on the portal (data/raw/nsw_planning/attachments/restricted.json), as is a 'scanned signed letter' on Roberts Road. GIPA-003 to the Department asks for the letters, the responses and the compliance record for data centre consents (docs/requests/). UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: the warning letters and the operator's response are restricted on the portal and are asked for in GIPA-003, which carries the $30 GIPA fee and is not lodged (author's decision, 2026-11-18).",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 17
+        },
+        "set": {
+          "notes": "CITED 2026-11-15, so the question is now publishable. What is public: NEXTDC S7's scoping report (SSD-113934740, p36) states average daily water demand at about 70% load of 5.44 ML/day and peak demand at full site maturity up to 7.79 ML/day, that NEXTDC 'has commenced engagement with Sydney Water regarding interim potable water supply for Stage 1, as well as potential recycled water opportunities, including supply from the St Marys Advanced Water Treatment Plant', and that investigations are underway with coNEXA to connect to the recycled water main associated with the S4 development. What is NOT public: any agreement, allocation, trade waste consent or capacity statement from the utilities themselves. Seventeen of the observatory's NSW sites sit in the one Eastern Creek - Kemps Creek - Horsley Park - Glendenning - Marsden Park corridor. RG-062 established that none of the 20 archived consents requires recycled water; they impose a duty to prioritise non-potable supply 'where available', and whether it is available is a utility fact. Four requests are DRAFTED and NOT LODGED (author deferred lodging on 2026-11-15): docs/requests/GIPA-004-sydney-water.md ($30), FOI-005-melbourne-water.md ($34.50, also answers RG-080), FOI-006-yarra-valley-south-east-water.md (two applications) and RTI-001-unitywater.md ($59.60, not waivable). Nothing here is inferred from a draft request; the question stays open until documents are released. UPDATED 2026-11-18 (research batch 8): BLOCKED at zero spend: the water agreements are asked for in GIPA-004 ($30), FOI-005 ($34.50), FOI-006 (two applications) and RTI-001 ($59.60), none lodged by the author's decision of 2026-11-18. Free substitutes read: the consents' own water conditions (RG-062, resolved today) and Melbourne Water's public reports (RG-080).",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 6
+        },
+        "set": {
+          "notes": "WORKED 2026-10-22 (research batch 3). The free route is closed by design: the FIRB quarterly report for January to March 2026 reports 311 approved commercial proposals, 97 with conditions, by sector and source country only, and suppresses 'Any data that may enable the identification of a particular person or organisation'; it does not mention data centres. FOI-001 to the Treasury is drafted (docs/requests/FOI-001-treasury-firb.md): no application fee, a 30-day decision period, and it asks for decisions and conditions on data centre acquisitions since 2020, expecting exemptions it can then challenge. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-001 to the Treasury: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 87
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22 (research batch 4). What the public record holds: Palantir says its Australian platform is 'hosted in Australian Amazon Web Services (AWS) regions'; the Hosting Certification Framework register lists AWS's Australian regions and not Palantir; 11 of the Commonwealth's notices name the US parent. No notice says where a deployment runs. ASD is exempt from the FOI Act (Schedule 2), so the residency question can be put only to Defence: FOI-002 (docs/requests/) asks for the hosting and data-location terms of Defence's three current Palantir contracts, framed around location and jurisdiction, not capability, with the operational-intelligence exemption in mind. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-002 to Defence: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 89
+        },
+        "set": {
+          "notes": "WORKED 2026-10-22 (research batch 4). The question cannot be put to ASD: Schedule 2 of the FOI Act lists it as an exempt agency, and documents that originated with it are exempt in any agency's hands. Not on the public record: no ASD list names Palantir, and the Hosting Certification Framework register (which certifies hosting, not software) lists AWS's Australian regions but not Palantir. Route now: FOI-003 to Defence for its OWN records of any Defence Industry Security Program membership or facility clearance held by Palantir Technologies Australia, and of any review of Palantir's IRAP assessment, 2024-2025; and a right-of-reply question to Crikey about its source. Both claims stay sourced, neither fact. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-003 to Defence: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 93
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22 (research batch 4). WA: the live facial recognition trial runs on NEC, named in WA Police's own privacy impact assessment (NeoFace Watch, M40 algorithm; 'Data stored in Australia'); it does not mention Palantir. COMMONWEALTH: the ledger shows the ACIC has bought Palantir software since 2014 (5 notices, $6,068,875.14) and AUSTRAC since 2016 (6 notices, $28,117,548.41); no AFP or Home Affairs notice. What either agency runs on it is not stated. State police: the state portals refused (RG-086). FOI-004 to the ACIC asks what the software supports. The separation rule stands: no Palantir row links to an Australian policing capability without a primary source. UPDATED 2026-11-18 (research batch 8): BLOCKED on FOI-004 to the ACIC: drafted, free to lodge (no application fee under the Commonwealth FOI Act; it asks for any processing charge to be waived, and is narrowed or withdrawn rather than paid if one is levied). The author lodges it; the reply comes in through a pack.",
+          "as_of_date": "2026-11-18",
+          "status": "blocked"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 36
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. ASIC's register names, dates and former names for the whole stack: the KNBDC SYD4, MEL1 and MEL3 companies and three of five Melbourne expansion companies now carry AirTrunk names; KNBDC AU Development Pty Ltd, KNBDC AU Financing Holdco Pty Ltd and two Melbourne expansion finance companies keep theirs; NBDC Pty Ltd was registered on 1 July 2015. Directors, shareholders and registered charges still need paid extracts; the first to buy is AirTrunk SYD4 Pty Ltd (docs/requests/PAID-SEARCHES.md). Supersedes the ownership half of RG-021. UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 50
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. ASIC's register gives the AGP link a primary record: a former name of Zerra WDDP Manager Australia Pty Ltd (registered 5 February 2025) is AGP DC Manager Australia Pty Ltd, and a former name of Zerra Investments Australia Pty Ltd (registered 17 April 2025) is AGPDC Investments Australia Pty Ltd. Where AGP is based, and who owns the Australian companies, still need paid extracts. Earlier: the ABR resolves six Zerra entities, all NSW 2000; the lodged application names WDDP Pty Ltd and never mentions Zerra or AGP. UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 52
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22. ASIC's register: WDDP Pty Ltd (ACN 700 788 058) registered 28 July 2026, 17 days before the Town Planning Report's date; Zerra WDDP Manager Australia renamed to its current name on 13 August 2026, the day before; Zerra WDDP Asset Manager, Zerra WDDP Investments AU and Zerra WDDP Holdco all registered 10 August 2026. Directors, shareholders and ultimate parent still need paid extracts, first WDDP Pty Ltd (docs/requests/PAID-SEARCHES.md). UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 81
+        },
+        "set": {
+          "notes": "ADVANCED 2026-10-22 (with RG-064 and RG-059). ASIC's register gives names, dates and former names: EMKC Cubed Management is now CKTSME Management (3 June 2025); HDI SYD1 Property Holdings was Global Switch Property (Australia) (renamed 12 May 2025); NineZero DC Sub TC I Pty Ltd exists (13 August 2015). Beneficial ownership still needs paid extracts. Note EMKC holds TWO consents and 'HDI SYD1' is a per-site holding company, so the structures are site-specific. UPDATED 2026-11-18 (research batch 8): DEFERRED under zero spend (author's decision, 2026-11-18): the remaining facts need paid ASIC extracts, which are not bought. Free substitutes used: ASIC's free register of names, dates and former names (above). The question stays open, saying why.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 76
+        },
+        "set": {
+          "notes": "DOCUMENTED NEGATIVE as at 18 September 2026. The 20 November 2025 TCS press release does not mention Australia anywhere; Chairman Chandrasekaran is quoted on building 'GW-scale AI data centers in India'; The Asset reports proceeds support 'firm's GW-scale AI data centre build in India'. No Australian application located. Recheck on any HyperVault announcement. UPDATED 2026-11-18 (research batch 7): Searched: TCS's own releases on HyperVault describe Indian campuses (Telangana) and a TPG investment; no Australian site, application or announcement was found. The absence is the working finding. Proposed to the author for closing as resolved-negative. UPDATED 2026-11-18 (research batch 8): PROPOSED TO THE AUTHOR for closing as resolved-negative: two passes (2026-09-18, 2026-11-18) found no Australian site, application or announcement for TCS or HyperVault; the absence is the finding. Not closed by this pack.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      },
+      {
+        "match": {
+          "id": 90
+        },
+        "set": {
+          "notes": "WORKED 2026-10-22 (research batch 4). In the AusTender feed (2007 to October 2026) no notice names NVIDIA as supplier: 8 buy NVIDIA products through resellers, none of them AUKUS work. Only 2 notices mention AUKUS at all, and neither supplier is Palantir or NVIDIA. The 29 Palantir notices are software licences, support, data services and analytics. Search summaries found Pillar II awards to other companies only (leads, in the hunt log). defence.gov.au did not answer the crawler. Still unevidenced, so still not asserted: any Palantir or NVIDIA Pillar II work. Kelly's post-separation conditions: not found; the absence stays the working finding. UPDATED 2026-11-18 (research batch 7): Tried again: defence.gov.au reset the connection on the Pillar II news page (recorded). Search summaries name Pillar II awards to BAE Systems Australia, L3Harris and Mission Systems, not Palantir or NVIDIA (leads). Still unevidenced, still not asserted. UPDATED 2026-11-18 (research batch 8): PROPOSED TO THE AUTHOR for closing as resolved-negative: the Commonwealth's Palantir notices are software, support and data services, none a Pillar II award; defence.gov.au has twice refused the crawler; nothing read places Palantir or NVIDIA in Pillar II work. Closing records the absence, not a denial. Not closed by this pack.",
+          "as_of_date": "2026-11-18"
+        },
+        "add_sources": []
+      }
+    ]
+  }
+}

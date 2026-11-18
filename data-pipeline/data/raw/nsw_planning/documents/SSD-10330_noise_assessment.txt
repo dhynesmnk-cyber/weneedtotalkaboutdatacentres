@@ -1,0 +1,1779 @@
+[[page 1]]
+ 
+SLR Ref: 610.18883-R02 
+Version No: -v4.0 
+November 2019 
+NOISE IMPACT ASSESSMENT 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330 
+Prepared for: 
+Canberra Data Centres Pty Ltd 
+PO Box 304 
+JERRABOMBERRA NSW 2619 
+ 
+ 
+[[page 2]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 2  
+ 
+PREPARED BY 
+SLR Consulting Australia Pty Ltd 
+ABN 29 001 584 612 
+Grd Floor, 2 Lincoln Street 
+Lane Cove NSW 2066 Australia 
+(PO Box 176 Lane Cove NSW 1595 Australia) 
+T: +61 2 9427 8100 
+E: [email redacted]   www.slrconsulting.com 
+BASIS OF REPORT 
+This report has been prepared by SLR Consulting Australia Pty Ltd  (SLR) with all 
+reasonable skill, care and diligence, and taking account of the timescale and resources 
+allocated to it by agreement with  Canberra Data Cent res Pty Ltd  (the Client ).  
+Information reported herein is based on the interpretation of data collected, which has 
+been accepted in good faith as being accurate and valid. 
+This report is for the exclusive use of  the Client .  No warranties or guarantees are 
+expressed or should be inferred by any third parties.  This report may not be relied upon 
+by other parties without written consent from SLR. 
+SLR disclaims any responsibility to the Client and others in respect of any matters outside 
+the agreed scope of the work. 
+DOCUMENT CONTROL 
+Reference Date Prepared Checked Authorised 
+610.18883-R02-v4.0 12 November 2019 John Sleeman Mark Russell Jeremy Pepper 
+610.18883-R02-v3.0 12 November 2019 John Sleeman Mark Russell Mark Russell  
+610.18883-R02-v2.0 4 November 2019 John Sleeman Mark Russell Jeremy Pepper 
+610.18883-R02-v1.0 24 October 2019 John Sleeman Mark Russell Jeremy Pepper 
+ 
+[[page 3]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 3  
+ 
+CONTENTS 
+1 INTRODUCTION ................................ ................................ ................................ ....... 1 
+2 PROJECT DESCRIPTION ................................ ................................ ............................  1 
+2.1 Site Description ................................................................................................................. 1 
+2.2 Proposed Construction and Operations ........................................................................... 4 
+3 EXISTING NOISE AND METEOROLOGICAL ENVIRONMENT ................................ ......... 5 
+3.1 Noise Environment ........................................................................................................... 5 
+3.1.1 Unattended Noise Monitoring ....................................................................................................................... 6 
+3.1.2 Unattended Noise Monitoring Results ........................................................................................................... 6 
+3.1.3 Attended Noise Monitoring Results ............................................................................................................... 7 
+3.2 Meteorological Environment ............................................................................................ 7 
+3.2.1 Wind ............................................................................................................................................................... 7 
+3.2.2 Temperature Inversion ................................................................................................................................... 7 
+3.3 Noise Modelling Parameters ............................................................................................ 8 
+4 NOISE ASSESSMENT CRITERIA ................................ ................................ .................. 8 
+4.1 Construction Noise Assessment Criteria........................................................................... 8 
+4.2 Operational Noise Assessment Criteria ............................................................................ 9 
+4.2.1 Eastern Creek Precinct Plan (Stage 3) ............................................................................................................. 9 
+4.2.1.1 Operational Noise........................................................................................................................................... 9 
+4.2.2 Project Amenity and Project Intrusiveness Noise Levels .............................................................................. 10 
+4.2.3 Assessing Intrusiveness ................................................................................................................................ 11 
+4.2.4 Assessing Amenity ........................................................................................................................................ 11 
+4.2.5 Operational Project Noise Trigger Levels ..................................................................................................... 14 
+4.2.6 Sleep Disturbance Noise Levels .................................................................................................................... 14 
+4.2.7 Standby Diesel Generators ........................................................................................................................... 15 
+5 VIBRATION ASSESSMENT CRITERIA ................................ ................................ ........ 15 
+5.1 Categories of Vibration in Structures ............................................................................. 15 
+5.2 Assessment Criteria ........................................................................................................ 15 
+6 ASSESSMENT OF NOISE IMPACTS ................................ ................................ ........... 16 
+6.1 Noise Modelling Procedure and Scenarios ..................................................................... 16 
+6.2 Operational Noise Modelling Scenarios ......................................................................... 16 
+6.2.1 Noise Modelling Results ............................................................................................................................... 18 
+6.2.2 Diesel Generators ......................................................................................................................................... 18 
+6.2.3 Sleep Disturbance ......................................................................................................................................... 19 
+6.2.4 Conceptual Mitigation Measures ................................................................................................................. 19 
+[[page 4]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 4  
+ 
+6.3 Construction Noise Impact Assessment ......................................................................... 20 
+7 CONSTRUCTION VIBRATION IMPACT ASSESSMENT ................................ ................. 20 
+8 CONCLUSION ................................ ................................ ................................ ......... 21 
+9 MITIGATION MEASURES ................................ ................................ ........................  21 
+10 REFERENCES ................................ ................................ ................................ .......... 22 
+ 
+ 
+DOCUMENT REFERENCES 
+TABLES 
+Table 1 Noise Monitoring Location and Equipment ................................................................... 6 
+Table 2 Summary of Unattended Noise Monitoring Results ...................................................... 6 
+Table 3 Summary of Attended Noise Monitoring Results .......................................................... 7 
+Table 4 Meteorological Conditions for Noise Modelling Purposes ............................................ 8 
+Table 5 Recommended EPA General NMLs for Construction Works .......................................... 8 
+Table 6 Noise at Sensitive Land Uses (other than Residences) .................................................. 9 
+Table 7 Intrusive LAeq(15minute) Construction Noise Management Levels (dBA re 20 
+µPa) ................................................................................................................................ 9 
+Table 8 Recommended LAeq Noise Levels from Industrial Noise Sources ............................... 11 
+Table 9 Project Amenity Noise Levels (dBA re 20 µPa) ............................................................. 12 
+Table 10 Project Amenity and Intrusiveness Noise Levels and Resulting PTNLs (dBA re 20 
+µPa) .............................................................................................................................. 13 
+Table 11 Night-time Sleep Disturbance Noise Levels (dBA re 20 µPa) ....................................... 14 
+Table 12 Vibration Velocity Damage Risk and Annoyance Risk Criteria (mm/s) ........................ 16 
+Table 13 Mechanical Equipment Schedule ................................................................................. 17 
+Table 14 Mechanical Equipment Sound Power Levels ............................................................... 17 
+Table 15 Predicted Operational Noise Levels – Residential Receivers and Commercial 
+Receivers ...................................................................................................................... 18 
+Table 16 Predicted Operational Noise Levels – Residential Receivers and Commercial 
+Receivers ...................................................................................................................... 18 
+Table 17 Predicted Daytime Construction Intrusive LAeq(15minute) Noise Levels (dBA re 
+20 µPa) ......................................................................................................................... 20 
+Table 18 Predicted Safe Working Distances to Comply with Damage Risk and Annoyance 
+Risk Criteria .................................................................................................................. 20 
+Table 19 Risk Descriptors ............................................................................................................ 22 
+Table 20 Risk Matrix .................................................................................................................... 22 
+Table 21 Risk Assessment and Mitigation Measures .................................................................. 22 
+ 
+FIGURES 
+Figure 1 Aerial imagery ................................................................................................................ 2 
+Figure 2 Site Location, Nearest Receivers and Ambient Noise Monitoring Location .................. 3 
+Figure 3 Site Plan .......................................................................................................................... 5 
+ 
+[[page 5]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 5  
+ 
+APPENDICES 
+Appendix A Acoustic Terminology 
+Appendix B Ambient Noise Survey Results 
+Appendix C Construction Noise Modelling Scenarios 
+Appendix D Construction Vibration Assessment Criteria 
+ 
+[[page 6]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 1  
+ 
+1 Introduction 
+SLR Consulting Australia Pty Ltd (SLR) has been engaged by Canberra Data Centres Pty Ltd (CDC) to prepare a 
+noise impact assessment (NIA ) to accompany the State Significant D evelopment Application (SSDA)  for a 
+proposed Data Centre at 17 Roberts Road, Eastern Creek (the Project).  The site is formally described as Lot 2 
+DP 1159804, and has an approximate area of 14.52 hectares.   
+An existing Data Centre with associated office buildings and plant is located to the east of the site.  This facility 
+has been acquired and will form part of the combined facility operated by CDC.  Hence this noise assessment 
+considers the cumulative noise impact of the operation of the existing and the proposed data centres. 
+The Secretary's Environmental Assessment Requirements (SEARs) for the Project were received on 7 July 2019.  
+The SEARs states that, as part of the EIS assessment, the following noise and vibration matters must be 
+addressed: 
+A quantitative noise and vibration assessment undertaken by a suitably qualified person in accordance with the 
+relevant Environment Protection Authority guidelines and including an assessment of nearby sensitive 
+receivers. 
+Cumulative impacts of other developments. 
+Details of proposed mitigation, management and monitoring measures. 
+Accordingly this assessment has been undertaken to address the above requirements for construction and 
+operational noise and vibration  with reference to the following NSW Environment Protection Authority (EPA) 
+guidelines: 
+ NSW Noise Policy for Industry (NPfI) (EPA, 2017). 
+ Interim Construction Noise Guideline (ICNG) (EPA, 2009). 
+ Assessing Vibration: a technical guideline (EPA, 2006) 
+Acoustic Terminology is presented in Appendix A.   
+2 Project Description 
+2.1 Site Description 
+The site is located at 17 Roberts Road, Eastern Creek  and comprises land known as Lot 2 in Deposited Plan 
+1159804. The site is identified in Figure 1. 
+[[page 7]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 2  
+ 
+Figure 1 Aerial imagery  
+ 
+Key features of the site are as follows: 
+ The site is approximately 14.52ha and is an irregular shape . The site is bound by Roberts Road to the 
+south and Capicure Drive to the north as shown in Figure 1. 
+ The site i s located within the suburb of Eastern Creek, which falls in the Blacktown Local Government 
+Area (LGA). The site is in the Eastern Creek Precinct of the Western Sydney Employment Area ( WSEA) 
+and is surrounded by general and light industrial land uses. 
+ The majority of the site is cleared, with scattered vegetation around the peripheral of the site.  The site 
+is generally flat, however the north western boundaries are raised up by an embankment 
+ Vehicular access to the site  is from Roberts Road and Capicure Dr ive. A n ew internal road will be 
+established as part of the SSDA for internal connection and vehicular access.  
+Key features of the locality are: 
+North: The adjoining land to the north comprises large -scale warehouses, freight and logistics and light 
+industrial activities with ancillary offices, which all form part of the Eastern Creek Business Park. 
+East: To the east is a parcel of vacant land and landscaped buffer between the light industry use land on the 
+western side of M7 Highway. Western Sydney Park L and and SUEZ Eastern Creek Resource Recovery Park is 
+further to the east of the site, located on the eastern side of M7 Highway. 
+
+[[page 8]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 3  
+ 
+South: Land immediately to the south is part of the TransGrid Eastern Creek site, which contains multiple high 
+voltage transmission lines. Austral Bricks is located further to the south. 
+West: The land to the west of Roberts Road is Australian Personnel Solutions National Service Centre. Further 
+to the west is Old Wallgrove Road and TransGrid Eastern Creek site, containing high vo ltage transmission lines 
+and substations. 
+The nearest residential receivers are located in Horsley Park located around 1 km to the south of the site.  
+Erskine Park is located to the west, approximately 2.8 km from the site.   Figure 2 shows the site location in 
+relation to nearby sensitive receivers and the noise monitoring location. 
+Figure 2 Site Location, Nearest Receivers and Ambient Noise Monitoring Location 
+ 
+ 
+Key development features of the site are as listed below.  
+ An existing Data Centre with associated office building ,  plant and existing 5 m wall are  located to the 
+east of the site. This Data Centre is to be retained and does not form part of th is SSDA.  This site has 
+been considered under the noise assessment to address cumulative impacts. 
+ Building 3 is currently under construction under a series of Complying Development Certificates. These 
+comprise of Early Works, Base Build, Fit Out and installation of 12 generators. These works do not form 
+part of the SSDA scope.  Additional rooftop plant and equipment for Building 3 form s part of the 
+proposed SSDA scope.  This site has been considered under the noise assessment to address cumulative 
+impacts. 
+Noise monitoring 
+location LO1 - 106 
+Burley Road 
+Cetus Place 
+Flavex Lane 
+[[page 9]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 4  
+ 
+2.2 Proposed Construction and Operations 
+The SSDA proposes the construction of a new Data Centre and ancillary office space to expand the operation 
+of the existing Data Centre to the east of the site.  Specifically, the SSDA seeks consent for: 
+Site preparation works comprising: 
+ Site preparation and mobilisation including clearing of land and importation of fill material; 
+ Bulk and detail earthworks and support structures; 
+ Estate stormwater management including construction of detention basins; 
+ Construction of site access and estate internal roads; 
+ Service and infrastructure augmentation; 
+ Perimeter fencing; 
+ Retaining wall; 
+ Removal of trees and 
+ Environmental protection and management measures. 
+Staged construction of buildings for a Data Centre with 24 hour/day, seven day/week operation: 
+ Construction of three 3 storey warehouse facilities (E4, E5, E6) including ancillary office spaces; 
+ Additional rooftop plant and equipment for Building E3 in associated with Data Centre use;   
+ Fit out of buildings; 
+ Construction of plant rooms and a store room; 
+ Security booth; 
+ Generators; 
+ Landscaping works; and 
+ Construction of hardstand, loading area and a new car park. 
+The proposal does not involve the installation of any form of signage to the façade of the building. 
+A site plan of the proposed layout is shown in Figure 3. 
+[[page 10]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 5  
+ 
+Figure 3 Site Plan 
+ 
+Site Plan Adapted from EJE Architecture drawing DA-100 dated 15 October 2019 
+Operational noise sources associated with in the facility include cooling towers and air handling units , which 
+are to be located on the building roofs.   
+In order to maintain uninterrupted power to the Data Centre, during emergency power outage a number of 
+existing and proposed standby diesel generators will be required to operate .  These generators include the 
+existing 15 generators located north -east of building 1, 12 generators located north -west of building 1 
+(approved under CDC), and 36 generators proposed to be housed in 12 enclosures with 3 generators in each 
+enclosure located to the west of buildings 5 and 6. 
+3 Existing Noise and Meteorological Environment 
+3.1 Noise Environment 
+In order to characterise the existing noise environment at the nearest residences, unattended ambient noise 
+monitoring was conducted at a location representative of the nearest residences to the south. 
+
+[[page 11]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 6  
+ 
+3.1.1 Unattended Noise Monitoring 
+Ambient noise monitoring was conducted on Tuesday 27 August 2019 to Tuesday 10 September 2019  at 106 
+Burley Road, Eastern Creek (L01) as shown in Figure 2. 
+The measured noise levels at L01 were used to establish existing background noise levels at the nearest noise -
+sensitive receivers, for the development of the construction and operational criteria. 
+The noise monitoring devices continuously measured noise levels in 15 minute samp ling periods to determine 
+the existing L Aeq, L A90 and other relevant statistical noise levels during the daytime, evening and night -time 
+periods.  The noise monitoring equipment is outlined in Table 1. 
+Table 1 Noise Monitoring Location and Equipment 
+ID Location Model Serial Number 
+L01 106 Burley Road, Eastern Creek Svantek 957 23814 
+The equipment was set up with microphones at 1.5 m above the local ground level.   All microphones were 
+fitted with wind shields. 
+All noise monitoring instrumentation used were compliant with the requirements of AS IEC 61672.1 -2004: 
+Electroacoustics - Sound level meters - Specifications and carried appropriate and current National Association 
+of Testing Authorities (NATA) (or manufacturer) calibration certificates.  The calibration of the equipment was 
+checked both before and after the survey and no significant drift in calibration (±0.5  dBA) was noted at any 
+location.  
+The noise monitoring results were processed to exclud e weather -affected data following consultation of 
+weather reports recorded at the Bureau of Meteorology (BOM) Horsley Park weather station to establish 
+representative noise levels at each measurement location.   
+3.1.2 Unattended Noise Monitoring Results 
+The 24-hour daily noise levels at each monitoring location are presented graphically in Appendix B. 
+The data obtained from the ambient noise monitoring was processed in accordance with the procedures 
+outlined in the NSW EPAs Noise Policy for Ind ustry (NPfI) (October 2017) to establish the Rating Background 
+Level (RBL) at the nearest noise-sensitive receivers.  The results of this analysis are presented in Table 2. 
+Table 2 Summary of Unattended Noise Monitoring Results 
+Noise Monitoring 
+Location 
+Rating Background Level (RBL)1,2 All Noise 
+Sources 
+LAeq(period)1 All Noise Sources 
+Daytime Evening Night-time Daytime Evening Night-time 
+L01 – 106 Burley Road 38 36 36 50 45 45 
+Note 1: NPfI assessment periods – Daytime:  7:00 am to 6:00 pm Monday to Saturday, 8:00 am to 6:00 pm Sundays and Public 
+Holidays;  Evening:  6:00 pm to 10:00 pm;  Night:  10:00 pm to 8:00 am Monday to Saturday, 10:00 pm to 8:00 am Sundays and Public 
+Holidays. 
+Note 2: The RBL noise level is representative of the “average minimum background sound level”, or simply the background level. 
+[[page 12]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 7  
+ 
+3.1.3 Attended Noise Monitoring Results 
+Attended monitoring was conducted at the northern boundary of 106 Burley Road on Flavex Lane to observe 
+the existing ambient noise environment in the area, as presented in Table 3. 
+Table 3 Summary of Attended Noise Monitoring Results 
+Noise Monitoring 
+Location 
+Date/time 
+ 
+Sound pressure level (dB re 20 µPa), 
+15 minute measurement period 
+Typical ambient noise levels 
+(noise level in dBA) 
+LAmax LA1 LA10 LA90 LAeq 
+L01 - 106 Burley 
+Road – northern 
+boundary 
+26/8/2019 
+16:07 
+72 63 53 42 51 Goats 45 - 49 
+Birds 46 – 50 
+Aircraft 53-55 
+Helicopter 51 – 72 
+Distant traffic 40 
+ 
+The unattended and attended ambient noise monitoring results are consistent with those of a suburban area 
+as defined in the NPfI. 
+3.2 Meteorological Environment 
+3.2.1 Wind 
+Wind has the potential to increase noise at a receiver when it is light and stable and blows from the di rection 
+of the source of the noise.  As the strength of the wind increases , the noise produced by the wind will obscure 
+noise from most industrial and transport sources. 
+Wind effects need to be considered when wind is a feature of the area under considera tion (in accordance 
+with the NPfI).  Where wind blows from the source to the receiver at speeds up to 3 m/s for more than 30% of 
+the time in any season, then wind is considered to be a feature of the area and noise level predictions must be 
+made under these conditions. 
+Wind speed and direction data, among other parameters, ha s been obtained from the BOM automated 
+weather station (AWS) at BOM station (Horsley Park Equestrian Centre [station number 67119]), 
+approximately 4 km south -east of the Development site.  Consistent with the results of the SLR Air Quality 
+Impact Assessment (Report 610.18883-R03) prevailing winds are a feature of the area.  To represent enhanced 
+noise propagation, a 3 m/s wind prevailing from the south west has been assessed. 
+3.2.2 Temperature Inversion 
+Temperature inversions, when they occur, have the ability to increase noise levels by focusing sound waves.  
+Temperature inversions occur predominantly at night during the winter months.  For a temperature inversion 
+to be a significant characteri stic of the area it needs to occur for approximately 30% of the total night -time 
+during winter, or about two nights per week.   
+Temperature inversions occur during E, F and G stability categories. These three categories are considered to 
+represent weak, moderate and strong inversions respectively.  For noise-assessment purposes, only moderate 
+and strong inversions are considered significant enough to require assessment  
+[[page 13]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 8  
+ 
+Consistent with the conserv ative option of the N PfI, modelling will assume that temperat ure inversions are a 
+feature of the area, and noise modelling has considered a Class F inversion  during the night period,  which 
+relates to stable conditions, such as those that occur when the sky is clear, the winds are light and an inversion 
+is present. 
+3.3 Noise Modelling Parameters 
+Prediction of operational noise under calm and enhanced meteorological condition (temperature inversion 
+and prevailing wind) was conducted.  Atmospheric parameters under which noise predictions were made are 
+given in Table 4. 
+Table 4 Meteorological Conditions for Noise Modelling Purposes  
+Period Air Temperature Relative 
+Humidity 
+Wind 
+Velocity 
+Wind 
+Direction 
+Temperature 
+Gradient 
+Calm 
+(all Periods) 200C 70% N/A N/A N/A 
+Temperature 
+inversion  100C 90% N/A N/A 3oC/100 m 
+Prevailing wind 200C 70% 3 m/s SW N/A 
+Note 1: For the temperature inversion the Concawe calculation algorithm uses Stability Class F  
+4 Noise Assessment Criteria 
+4.1 Construction Noise Assessment Criteria 
+The EPA’s Interim Construction Noise Guideline  (ICNG) recommends that the L Aeq(15minute) noise levels arising 
+from a construction project, at residences  should not exceed the levels indicated in Table 5.  These Noise 
+Management Levels (NMLs) are generally consistent with community reaction to construction noise.  The ICNG 
+also contains “highly noise affected” daytime NMLs which are set at 75 dBA LAeq(15minute). 
+The EPA’s Guideline also recognises other kinds of noise sensitive receive rs and provides recommended 
+construction NMLs for them.  Those specific receiver types adjacent to the Facility and their recommended 
+noise levels are presented in Table 6. 
+Table 5 Recommended EPA General NMLs for Construction Works 
+Period of Noise Exposure LAeq(15minute) Construction NML 
+Recommended Standard Hours Noise affected RBL + 10 dBA 
+Highly noise affected 75 dBA 1 
+Outside Recommended Standard Hours Noise affected RBL + 5 dBA 
+Note 1: The noise affected level represents the point above which there may be some community reaction to noise. 
+[[page 14]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 9  
+ 
+Table 6 Noise at Sensitive Land Uses (other than Residences) 
+Land use LAeq(15minute) Construction NML 
+Active recreation areas (characterised by sporting activities and activities 
+which generate their own noise or focus for participants, making them 
+less sensitive to external noise intrusion) 
+External noise level 65 dBA 
+Offices, retail outlets  External noise level 70 dBA 
+Industrial premises External noise level 75 dBA 
+ 
+As the Facility construction works would be limite d to daytime only, the ICNG CNMLs  are as presented in  
+Table 7. 
+Table 7 Intrusive LAeq(15minute) Construction Noise Management Levels (dBA re 20 µPa) 
+Location Daytime NML (noise affected)  
+RBL plus 10 dBA 1 
+Daytime NML (highly noise affected) 
+Flavex Lane, Eastern Creek 48 75 
+Celius Place, Erskine Park2 48 
+Adjoining commercial – North 70 - 
+Adjoining commercial – West 70 
+Adjoining industrial – North 75 
+Notes: 1: ICNG - Recommended standard working hours: Monday to Friday:  7:00 am to 6:00 pm, Saturday 8:00 am to 1:00, no work on Sundays 
+and Public Holidays. 
+2.  The 106 Burley Road monitoring results have been used to set the NMLs for the Flavex Lane and Erskine Park Receivers. 
+3.  Commercial NMLs have been adopted for the gatehouses for the warehouses to the north and west. 
+4.  Industrial NMLs have been adopted for the loading bays associated with the nearest facility to the north of the site. 
+ 
+4.2 Operational Noise Assessment Criteria 
+4.2.1 Eastern Creek Precinct Plan (Stage 3) 
+The Eastern Creek Precinct Plan – Stage 3 prepared by Blacktown City Council  outlines the provisions relating 
+to development of the Stage 3 Release Area within the Eastern Creek Precinct of State Environmental Planning 
+Policy No. 59 – Central Western Sydney Economic and Employment Area. The draft Precinct Plan was adopted 
+by Council on 7 December 2005 and came into force on 14 December 2005. 
+This Precinct Plan supplements the provisions of SEPP 59 by providing written information, maps and diagrams 
+that outline the provisions relating to the development of land within Release Area 3 of the Eastern Creek 
+Precinct. Applicants are required to have regard to the provisions of SEPP 59 and the provisions this Precinct 
+Plan in preparing a Development Application. 
+4.2.1.1 Operational Noise  
+The relevant section of the precinct plan which relate to operational noise are reproduced below: 
+Section 7.8 – Noise and Vibration  
+[[page 15]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 10  
+ 
+Given the nature of development within the Precinct, noise generation from the site is to be restricted 
+to a reasonable level. Noise is to be contained where possible and not unreasonably impact on the 
+operations or amenity of adjoining or surrounding sites. 
+Objectives  
+Ensure that development does not cause adverse environmental impacts from noise and vibration 
+Controls  
+(a) Development Applications should provide an assessment, and identify necessary mitigation 
+measures, to minimise the potentia l environmental impacts from noise and vibration generated by 
+the proposed development. 
+(b) Development Applications must comply with relevant Council, and government authority 
+guidelines, to ensure no adverse environmental impacts occur both during and af ter development of 
+the Precinct.  
+(c) Where appropriate, development may need to be treated to minimise the impact from noise 
+generated both on and off site.  
+(d) Consideration shall be given to:  
+ (i) the appropriate spatial arrangement of sensitive land uses;  
+  (ii) the sensitive location of buildings on lots; and  
+  (iii) the design of buildings to attenuate noise inside the building.  
+(e) The optimised noise level goals for the Precinct are outlined in Table 1. These goals will provide 
+adequate protection  to the noise amenity of residential areas surrounding the Precinct without 
+unduly restricting the operation of development. 
+Table 1 Optimum Noise Level Goals  
+ 
+The proposed data centre is located within zone 6 of the precinct plan. Consideration of the o ptimum noise 
+level goals for zone 6 in  conjunction with the Project Noise Trigger Levels  (PTNLs) derived in accordance with 
+the SEAR’s using the Environmental Protection Authority (EPA) Noise Policy for Industry (NPfI) (EPA, October 
+2017) is provided in Section 4.2.5. 
+4.2.2 Project Amenity and Project Intrusiveness Noise Levels 
+Noise objectives for the assessment of residential and industrial/commercial facility  receivers are detailed in 
+the NPfI , as administered by the EPA.  In implementing the NPfI, the EPA has two broad objectives: 
+ Controlling intrusive noise levels in the short term; and  
+
+[[page 16]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 11  
+ 
+ Maintaining noise amenity levels for particular land uses over the medium to long-term. 
+In general terms, the NPfI sets out procedures fo r establishing the project intrusiveness L Aeq(15minute) and 
+project amenity LAeq(period) noise levels, with a view of determining the lower (that is, the more stringent) being 
+the Project Trigger Noise Level (PTNL), NPfI Section 2.1 states: 
+The project int rusiveness noise level aims to protect against significant changes in noise levels, whilst 
+the project amenity noise level seeks to protect against cumulative noise impacts from industry and 
+maintain amenity for particular land uses.  Applying the most str ingent requirement as the project 
+noise trigger level ensures that both intrusive noise is limited and amenity is protected and that no 
+single industry can unacceptably change the noise level of an area. 
+Implementation is achieved by ensuring that: 
+ Noise from any single source does not intrude greatly above the prevailing background noise level.  
+This is known as the intrusive noise criterion; and 
+ The background noise level does not exceed the level appropriate for the particular locality and land 
+use.  This is known as the amenity criterion. 
+In order to satisfy the above requirements, an intrusive and amenity noise criterion is determined, of which 
+the lower is usually adopted as the Project Noise Trigger Levels (PTNLs). 
+4.2.3 Assessing Intrusiveness 
+For assessing intrusiveness, the existing background noise levels need to be determined.  The intrusiveness 
+trigger level essentially means that the equivalent continuous noise level ( LAeq) of the source should not be 
+more than 5 dBA above the measured (or default) RBL.  
+4.2.4 Assessing Amenity 
+The amenity assessment is based on amenity noise levels specific to the land use and associated activities.  The 
+recommended amenity noise levels are shown in Table 8 and relate only to industrial -type noise and do not 
+include road, rail or community noise.   
+Table 8 Recommended LAeq Noise Levels from Industrial Noise Sources 
+Receiver Noise Amenity Area Time of Day1 Recommended Amenity Noise 
+Level LAeq(period) 
+Residence Rural Day 50 dBA 
+Evening 45 dBA 
+Night 40 dBA 
+Suburban Day 55 dBA 
+Evening 45 dBA 
+Night 40 dBA 
+Urban Day 60 dBA 
+Evening 50 dBA 
+Night 45 dBA 
+[[page 17]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 12  
+ 
+Receiver Noise Amenity Area Time of Day1 Recommended Amenity Noise 
+Level LAeq(period) 
+Hotels, motels, caretakers’ 
+quarters, holiday accommodation, 
+permanent resident caravan parks 
+See column 4 See column 4 5 dB(A) above the recommended 
+amenity noise level for a residence 
+for the relevant noise amenity 
+area and time of day 
+School classrooms  - 
+internal 
+All Noisiest 1-hour period 
+when in use 
+35 dBA 
+Hospital ward 
+internal 
+external 
+All Noisiest 1-hour 35 
+50 
+Area specifically for passive 
+recreation  All When in use 50 dBA 
+Active recreation area (e.g. School 
+playground, golf course) All When in use 55 dBA 
+Commercial premises All When in use 65 dBA 
+Industrial premises All When in use 70 dBA 
+Industrial (applicable only to 
+residential noise amenity areas) All All Add 5 dB(A) to recommended 
+noise amenity area 
+Notes 1: NPfI assessment periods – Daytime:  7:00 am to 6:00 pm Monday to Saturday, 8:00 am to 6:00 pm Sundays and Public Holidays;  Evening:  
+6:00 pm to 10:00 pm;  Night:  10:00 pm to 8:00 am Monday to Saturday, 10:00 pm to 8:00 am Sundays and Public Holidays. 
+For the nearest residences to the south on Flavex Lane and to the west at Erskine Park, the Suburban category 
+has been applied to these areas.  Note whilst Flavex Lane falls within the ‘Primary Production Small Lots’ zone 
+of the Fairfield City Council LEP 2013, with consideration of guidance provided in Table 2.3 of the NPfI and the 
+measured existing background noise levels presented in Table 2, the Suburban receiver category has been 
+applied. 
+The default Project amenity noise level for industrial developments equals the recommended amenity noise 
+level presented in Table 8 minus 5 dB.   
+The applicable L Aeq(period) project amenity noise levels are presented in  Table 9, for assessing the operational 
+noise from the project to the nearest residential, commercial and recreational areas. 
+Table 9 Project Amenity Noise Levels (dBA re 20 µPa) 
+Location NPfI Noise Amenity 
+Area 
+Project Amenity Noise Levels LAeq(period)1,3 
+Daytime Evening Night 
+Flavex Lane Suburban 50 2 40 2 35 2 
+Erskine Park Suburban 50 2 40 2 35 2 
+Adjoining commercial Commercial 60 2 60 2 60 2 
+Adjoining industrial Industrial 65 2 65 2 65 2 
+Notes: 1  Daytime 0700 hours to 1800 hours, Evening 1800 hours to 2200 hours, Night-time 2200 hours to 0700 hours. 
+2.  Project amenity noise level equivalent to the amenity noise level less 5 dBA. 
+3.  The 106 Burley Road monitoring results have been used to set the NMLs for the Flavex Lane and Erskine Park Receivers. 
+[[page 18]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 13  
+ 
+In addition, as outlined in Section 4.2.3 the LAeq(15minute) project intrusive noise level should not exceed the 
+background level by more than 5  dBA.  The PTNLs are then determined in accordance with NPfI Section 2.1 
+Project Noise Trigger Level  by identifying the lower of the project amenity or project intrusive noise levels 
+(following conversion of the L Aeq(period) project amenity noise level to an equivalent LAeq(15minute) value for 
+comparison with the LAeq(15minute) project intrusive noise level).  NPfI Section 2.2 Noise Descriptors assumes a 
+default conversion factor of plus 3 dB, which has been adopted for this assessment. 
+The LAeq(15minute) project amenity and  project LAeq(15minute) intrusiveness noise levels are  presented in Table 10 
+. The resulting PTNLs (lower of the amenity and intrusive level) are also provided and are used for assessing 
+the operational noise from the project to the nearest residential receptors.. 
+Table 10 Project Amenity and Intrusiveness Noise Levels and Resulting PTNLs (dBA re 20 µPa) 
+Location NPfI Noise 
+Amenity 
+Area 
+Project Amenity 
+LAeq(15minute)1 
+Project Intrusive 
+LAeq(15minute)1,3 
+Resulting PTNL 
+LAeq(15minute)1,4 
+Daytime2 Evening2 Night2 Daytime Evening Night Daytime Evening Night 
+Flavex Lane Suburban  53 43 38 43 41 41 43 41 38 
+Erskine Park Suburban 53 43 38 43 41 41 43 41 38 
+Adjoining 
+commercial 
+Commercial 63 63 6 63 6 n/a n/a n/a 63 63 63 
+Adjoining 
+industrial 
+Industrial 68 68 6 68 6 n/a n/a n/a 68 68 68 
+Note 1: Daytime 0700 hours to 1800 hours, Evening 1800 hours to 2200 hours, Night-time 2200 hours to 0700 hours. 
+Note 2: LAeq(15minute) project amenity noise level equivalent LAeq(period) project amenity noise level (Table 8) plus 3 dBA 
+Note 3: LAeq(15minute) project intrusive noise level equivalent to the RBL (Table 2) plus 5 dBA 
+Note 4: Resulting PTNL is the lower of the LAeq(15minute) project amenity or LAeq(15minute) project intrusive noise levels 
+Note 5: Note 5: For the commercial and active recreation receivers to maintain consistency with the daytime project amenity the LAeq(15minute) 
+evening and night-time project amenity noise level is set at the LAeq(period) project amenity noise level (Table 8) plus 3 dBA.  
+The NPfI Section 2.4 states:  
+The recommended amenity noise levels have been selected on the basis of studies that relate industrial 
+noise to annoyance in communities (Miedema and Voss, 2004). They have been subjectively scaled to  
+reflect the perceived differential expectations and ambient noise environments of rural, suburban and 
+urban communities for residential receivers. They are based on protecting the majority of the 
+community (90%) from being highly annoyed by industrial noise. 
+In those cases where the NPfI noise assessment criteria are not achieved, it does not automatically follow that 
+all people exposed to the noise would find the noise “unacceptable”.  In subjective terms, NPfI Table 4.1 
+Significance Residual Noise Impact s characterises noise impacts resulting from residual noise exceedances 
+generally as follows: 
+ If the residual noise exceedance is 0 -2 dBA above the PTNL, then noise impacts are considered to be 
+negligible (i.e. not noticeable by all people); 
+ If the residua l noise exceedance is 3 -5 dBA above the PTNL, and the project would contribute less 
+than 1 dB to the total industrial noise level, then noise impacts are considered to be marginal (i.e. not 
+noticeable by most people); 
+[[page 19]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 14  
+ 
+ If the residual noise exceedance is 3 -5 dBA above the PTNL, and the project would contribute more 
+than 1  dB to the total industrial noise level, then noise impacts are considered to be moderate 
+(i.e. not noticeable by some people but may be noticeable by others);  
+ If the residual noise exceeda nce is >5  dBA above the PTNL, and the total industrial noise level less 
+than or equal to the relevant amenity level, then noise impacts are considered to be moderate 
+(i.e. not noticeable by some people but may be noticeable by others); or 
+ If the residual n oise exceedance is >5  dBA above the PTNL, and the total industrial noise level is 
+greater than the relevant amenity level, then noise impacts are considered to be significant (i.e. 
+noticeable by most people). 
+4.2.5 Operational Project Noise Trigger Levels  
+It is proposed that the PTNLs derived under the NPfI and detailed in Table 10 be adopted for the project based 
+on the following considerations: 
+ The day, evening and night PTNLs derived under the EPA NPfI are lar gely consistent with the 
+precinct plan noise goals and are in fact lower for the day and evening periods.  
+ The noise assessment parameter and compliance period in which the precinct plan noise goals 
+apply is unclear and not stated in the plan. 
+ The precinct  plan was developed in 2005, more than 12 years ago  and predates the NPfI  (EPA 
+2017).  
+ The EPA NPfI provides a detailed assessment, compliance and mitigation framework for controlling 
+noise from large industrial precincts.  
+4.2.6 Sleep Disturbance Noise Levels 
+A sleep disturbance assessment procedure is described in the NPfI Section 2.5 Maximum noise level event 
+assessment, which states: 
+Where the subject development/premises night-time noise levels at a residential location exceed:  
+• LAeq,15min 40 dB(A) or the prevailing RBL plus 5 dB, whichever is the greater, and/or  
+• LAFmax 52 dB(A) or the prevailing RBL plus 15 dB, whichever is the greater,  
+a detailed maximum noise level event assessment should be undertaken 
+Based on the foregoing, the applicable night -time L AF(maximum) sleep disturbance noise levels (SDNLs) are 
+presented in Table 11, for assessing the operational noise from the Facility to the nearest residences. 
+Table 11 Night-time Sleep Disturbance Noise Levels (dBA re 20 µPa) 
+Location LAeq,15min SDNL LAF(max)  
+Flavex Lane 41 52 
+Erskine Park 41 52 
+Note 1: Night-time 2200 hours to 0700 hours. 
+[[page 20]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 15  
+ 
+4.2.7 Standby Diesel Generators 
+As outlined in Section 2.2 to maintain uninterrupted power to the Data Centre during an emergency power 
+outage, a number of existing and proposed standby diesel generators have been incorporated in the current 
+design of the project.   
+Section 1.4 of the NPfI states that the policy applies to activities listed in Schedule 1 of the Protection of the 
+Environment Operations (POEO) Act.  In Schedule 1 of the POEO Act, Section 17 (1A), it states that : 
+"this clause does not apply to the generation of electricity by means of electricity pla nt that is emergency 
+stand-by plant operating for less than 200 hours per year" 
+Periodic testing of the individual generators will occur during the daytime or evening periods and would occur 
+one by one with the total testing duration expected to exceed 200 hours per year. Periodic testing of individual  
+generators will therefore be assessed against the NPfI.  
+It is unlikely that emergency generators will be required to operate (not inclusive of testing) for more than 200 
+hours per annum in a power outage and as such, the operation of all generators (separate to individual 
+testing) has not been included in the operational noise assessment as it would be outside the requirements of 
+NPfI.  
+5 Vibration Assessment Criteria 
+5.1 Categories of Vibration in Structures 
+The effects of vibration in buildings can be divided into three main categories; those in which the occupants or 
+users of the building are inconvenienced or possibly disturbed, those where the building contents may be 
+affected and those in which the integrity of the building or the structure itself may be compromised. 
+For the Facility construction works, the nearest structures are the commercial buildings adjacent to the north, 
+and adjacent to the south.  The nearest residential dwellings are located on Denison  Street and approximately 
+150 m to the east. 
+5.2 Assessment Criteria 
+Most commonly specified ‘safe’ structural vibration limits are designed to minimise the risk of cosmetic 
+damage such as surface cracks, and are set well below the levels that have potential t o cause structural 
+damage.  The British Standard BS 7385 Part 2 -1993 Evaluation and measurement for vibration in buildings 
+Part 2, provides frequency-dependent vibration limits related to the cosmetic damage risk.   
+The German Standard DIN 4150-3:1999 “Structural Vibration Part 3: Effects of vibration in structures” provides 
+guideline values for evaluating the effect of vibration on sensitive structures, such as buried pipework.  In 
+addition, SLR has identified appropriate vibration criteria for the operati ng of a mechanical plant where 
+applicable. 
+The EPA’s “ Assessing Vibration: A Technical Guideline”  (DEC 2006) provides guideline building vibration levels 
+associated with a low probability of annoyance from occupants.  The applicable damage risk and annoyan ce 
+risk vibration velocity criteria are further discussed in Appendix D and summarised in Table 12. 
+[[page 21]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 16  
+ 
+Table 12 Vibration Velocity Damage Risk and Annoyance Risk Criteria (mm/s) 
+Receiver 
+Area 
+Damage Risk (mm/s) Annoyance Risk (mm/s) 
+Horizontal Vertical Horizontal Vertical 
+Residential/Dwellings 7.5 7.5 1.2 0.45 
+Commercial/Offices 25 25 1.6 0.6 
+Industrial/Workshops 3.2 1.2 
+Reinforced structures (ie concrete 
+buildings) 
+- - 
+Mechanical (On/Off)1 20/5 20/5 - - 
+Subsurface structures 50-100 50-100 - - 
+Note 1: ‘On’ refers to when machinery is turned on, and ‘Off’ is when machinery is off. Criteria are stricter for ‘Off’ as machinery is more likely to be 
+damaged by vibration when it is not operating due to potential for brinelling. 
+6 Assessment of Noise Impacts 
+6.1 Noise Modelling Procedure and Scenarios  
+In order to facilitate the computation of environmental noise emissions from the operation of the project, a 
+three dimensional computer noi se model has been developed based on available ground topography and 
+aerial photography of the study area.   
+Noise emission modelling was undertaken using SoundPLAN noise prediction software  utilising the CONCAWE 
+algorithm, a commercial software system dev eloped by Braunstein & Berndt International.  The acoustical 
+algorithms utilised by this software are endorsed by the NSW EPA as suitable for use.  The noise modelling 
+algorithms account for the octave band sound power levels of the sources, their heights,  the distances to 
+receivers, the natural topography, buildings, air absorption and ground effects. 
+6.2 Operational Noise Modelling Scenarios 
+The operational assessment includes mechanical plant associated with the existing Data Centre in the east 
+(Existing Building 1), approved Data Hall Building 3 and proposed Data Hall Buildings 4, 5 and 6  (SSDA scope).  
+Operational noise sources associated within the facility include mechanical plant (cooling towers and air 
+handling units) located on the building roofs. 
+SLR have been provided a mechanical schedule which details the equipment numbers, hours of operation and 
+operating sound power levels (provided by Wood & Grieve Engineers) for all significant items of plant.  This 
+information is presented in Table 13 and Table 14.  
+ 
+[[page 22]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 17  
+ 
+Table 13 Mechanical Equipment Schedule 
+Facility Reference Equipment Type Total number of 
+Equipment 
+Max number running 
+during daytime 
+(7am-10pm) 
+Max number running 
+during night time 
+(10pm-7am) 
+Cell 01 Building 1 Evaporative Coolers 20 8 6 
+Cell 02 Building 1 Chillers 12 5 4 
+CHW Pumps 20 4 4 
+ERV 2 2 2 
+Exhaust Fans 2 2 2 
+AHU 2 1 1 
+PAC 2 2 - 
+Smoke Fans Emergency use only    
+Annex Building 1 Chillers 6 2 2 
+PAC 3 2 2 
+CHW Pumps 8 2 2 
+Buildings 3,4,5,6 
+(plant for each 
+building) 
+Chillers 16 8 6 
+PAC 12 12 12 
+Condensers 5 5 1 
+ 
+Table 14 Mechanical Equipment Sound Power Levels 
+Equipment  Sound Power Levels (re dB -12 W) 
+Octave Band Overall 
+dBA 63 Hz 125 Hz 250 Hz 500 Hz 1 kHz 2 kHz 4 kHz 8 kHz 
+Cell 01 Evaporative Cooler 87 89 84 81 77 71 66 63 83 
+Cell 02 Chiller 101 101 99 97 96 91 85 78 100 
+Cell 02 ERV 1 60 68 70 82 79 80 78 68 84 
+Cell 02 Exhaust Fan 1 87 84 87 89 87 82 76 69 90 
+Cell 02 Exhaust Fan 2 80 81 84 84 80 77 75 68 85 
+Cell 02 AHU 1,2 74 84 84 81 76 74 73 71 83 
+Cell 02 PAC 1 74 84 84 81 76 74 73 71 83 
+Annex Chiller 94 101 102 101 99 93 86 76 103 
+Annex PAC 1  74 84 84 81 76 74 73 71 83 
+Buildings 3,4,5,6 Chiller 94 101 102 101 99 93 86 76 103 
+Buildings 3,4,5,6 PAC 77 88 88 87 84 78 77 74 89 
+Buildings 3,4,5,6 Condenser 1,3 77 88 88 87 84 78 77 74 89 
+Notes : 1.  For the Cell 02 AHU, Cell 02 PAC, Annex PAC and Buildings 3-6 PAC Units the exhaust fan sound power is shown. 
+2.  Cell 02 AHU SWL is based on the Cell 02 PAC 
+3.  Buildings 3-6 Condenser SWL is based on the PAC. 
+[[page 23]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 18  
+ 
+6.2.1 Noise Modelling Results 
+Predicted noise emission levels from the proposed development at the nearest most potentially affected 
+receivers are provided in Table 15. 
+Table 15 Predicted Operational Noise Levels – Residential Receivers and Commercial Receivers 
+Location Period Predicted Noise Level LAeq(15minute) (dBA 1 PTNL 
+LAeq(15min) Calm Prevailing 
+Wind 
+Temperature 
+Inversion 
+Flavex Lane Day 41 39 n/a 43 
+Evening 41 n/a n/a 41 
+Night 40 n/a 43 38 
+Cetus Place Day 24 21 n/a 43 
+Evening 24 n/a n/a 41 
+Night 24 n/a 29 38 
+Commercial – North When in use 62 65 n/a 63 
+Commercial – West When in use 59 60 n/a 63 
+Industrial – North When in use 64 67 n/a 68 
+Notes 1.  Non compliances with the PTNL are shown in bold 
+Discussion 
+A review of the results presented in Table 15 indicates the predicted LAeq(15minute) noise levels comply with 
+the PTNL at all residential locations during the day and evening period.  During the night-time period, there is a 
+5 dB exceedance of the PTNL at Fl avex Lane  under temperature inversions (enhanced noise propagating 
+conditions) . 
+At commercial receivers, the PTNLs are met with the exception of a minor 2  dB exceedance at the  adjacent 
+commercial receiver to the north during a prevailing south-westerly wind.   This residual commercial 
+exceedance is considered to be negligible. 
+6.2.2 Diesel Generators 
+Based on the information provided for the existing diesel generators, the sound power of each unit is 103 dBA.  
+The predicted noise levels of the operation of a single generator (representative of periodic testing conditions) 
+are presented in Table 16.  Generator testing is assumed to be conducted during the daytime or evening 
+periods only. 
+Table 16 Predicted Operational Noise Levels – Residential Receivers and Commercial Receivers 
+Location Period 
+ 
+ 
+Predicted Noise Level 
+LAeq(15minute) (dBA) 
+PTNL 
+LAeq(15min) 
+Calm 
+Flavex Lane Day 27 43 
+ Evening 27 41 
+[[page 24]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 19  
+ 
+Location Period 
+ 
+ 
+Predicted Noise Level 
+LAeq(15minute) (dBA) 
+PTNL 
+LAeq(15min) 
+Cetus Place Day 10 43 
+ Evening 10 41 
+Commercial – North When in use 52 63 
+Commercial – West When in use 54 63 
+Industrial – North When in use 52 68 
+Notes : 1.  The highest noise level from any generator operation is shown 
+Discussion 
+A review of the results presented in Table 15 indicates the predicted  noise levels comply with the PTNL  at 
+residential and commercial receivers. 
+6.2.3 Sleep Disturbance 
+The potential for sleep disturbance at nearby residence locations has been assessed as the proposed 
+development is proposed to operate 24 hours a day 7 days per week.  When in operation, all potential noise 
+sources during the night time is likely to be constant/continuous noise sources (i.e. mechanical plant), which 
+are not likely to fluctuate significantly over time.  Therefore, the proposed development is not likely to 
+generate any significant LAmax events that have potential in causing sleep disturbance. 
+6.2.4 Conceptual Mitigation Measures 
+Conceptual mitigation measures were explored during design development to enable compliance with the 
+operational PNTLs. Mitigation measures included the use of acoustic screens or barriers to shield the chillers 
+and other plant items located on the plant decks of Building 3, Building 4 and Building 6. 
+During the detailed design phase precise details on the mitigation required will be determined.  T he screen or 
+barrier details such as locatio n, height, width and material transmission loss , or alternative mitigation such as 
+judicious plant selection and operating conditions would be determined . The design of mitigation would be 
+required to comply with the PNTLs and to ensure modifying factors det ailed in table C1 of the NPfI are not a 
+characteristic of the site.  
+   
+[[page 25]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 20  
+ 
+6.3 Construction Noise Impact Assessment 
+Construction scenarios have been provided by Hindmarsh and these are presented in Appendix C .  The 
+predicted daytime construction noise levels at the nearest residential localities are presented Table 17 
+together with recommended NMLs (Table 7) during ICNG standard construction hours. 
+Table 17 Predicted Daytime Construction Intrusive LAeq(15minute) Noise Levels (dBA re 20 µPa) 
+Locality Location Early Works Piling and In-
+ground 
+services 
+Structure and 
+Fitout 
+NML 
+(noise affected) 
+NML 
+(highly noise 
+affected) 
+Flavex Lane, Eastern Creek 25 19 22 48 75 
+Celius Place, Erskine Park 40 34 37 48 
+Adjoining commercial – North 67 60 63 70 - 
+Adjoining commercial – West 71 62 65 70 - 
+Adjoining industrial – North 75 61 64 75 - 
+ 
+The predicted daytime construction noise levels comply with the relevant NML (no ise affected) at the nearest 
+residences and adjoining commercial receivers.  
+7 Construction Vibration Impact Assessment  
+The predicted safe working distances to comply with both the vibration damage risk and annoyance risk 
+criteria (Table 12) are presented in Table 18 due to the use of an auger (ie excavator 20t with auger <800 mm) 
+on the construction site.  
+Table 18 Predicted Safe Working Distances to Comply with Damage Risk and Annoyance Risk Criteria 
+Receiver 
+Area 
+Damage Risk 
+Safe Distance (m)  
+Annoyance Risk  
+Safe Distance (m) 
+Residential/Dwellings 2 m (nominal) 4 m 
+Commercial/Offices 0.5 m - 
+Industrial/Workshops - 
+Reinforced structures (ie concrete buildings) - 
+ 
+Based on the predicted safe working distances presented in Table 18, it is concluded that residential dwelling 
+vibration damage and occupant annoyance risks are minimal,  as the nearest residential dwellings are beyond  
+800 m from the Facility construction site. 
+Similarly, commercial and industrial property vibration damage risks are minimal, as whilst there are adjacent 
+commercial properties they are further than 3 m from the expected location of excavation equipment.   
+[[page 26]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 21  
+ 
+8 CONCLUSION 
+SLR Consulting Australia Pty Ltd (SLR) has been engaged by Canberra Data Centres Pty Ltd (CDC) to prep are an 
+Noise Impact Assessment to accompany the SSD application for the proposed datacentre at  17 Roberts Road, 
+Eastern Creek.   
+An existing Data Centre with associated office building and plant is located to the east of the site.  This facility 
+has been acquired and will form part of the combined facility operated by CDC.  Hence this noise assessm ent 
+considers the combined or cumulative noise impact of the operation of the existing and proposed Data 
+Centres.  The results of the study are summarised in the following points: 
+ An ambient noise surveys was  conducted and project specific operational nois e criteria were 
+developed in accordance with the NSW EPA’s Noise Policy for Industry.  Goals were set for nearby 
+residents and also set for the nearby commercial receivers.   
+ Noise emissions from the operational activities from the combined f acility are predicted to be below 
+or to meet the project trigger noise levels at all of the residential noise assessment locations during 
+the daytime and evening.  During the night-time under enhanced noise propagating conditions, there 
+is a 5 dB exceedance of the PTNL at Flavex Lane receivers.. 
+ Conceptual mitigation measures enabling compliance with the night-time project trigger noise levels 
+will be further investigated during detailed design phase of the project. The mitigation measures 
+would include acoustic screens around the plant decks and would also be required to mitigate noise 
+levels to ensure modifying factors detailed in table C1 of the NPfI are not a characteristic of the site.  
+ At commercial receivers compliance with the project trigger noise levels is predicted at all locations  
+during calm conditions.  During a south westerly wind a minor 2  dB exceedance is predicted at the 
+adjoining commercial receiver to the north.  This residual commercial exceedance is considered to be 
+negligible.  
+ Noise emissions from construction activities are predicted to be below the noise management levels 
+of the EPA’s Interim Construction Noise Guideline. 
+ Diesel generator operation during testing complies with the EPA’s Noise Policy for Industry .  It is 
+recommended the proposed additional diesel generators are specified to have sound power levels no 
+higher than the existing diesel generators on site. 
+ 
+9 Mitigation measures 
+The SEARs require an environmental risk analysis to identify potential environmental impacts associated with 
+the Project. The following represents the way in which risks, impacts and mitigation measures are identified 
+and quantified in relation to noise and vibration management at the Project. 
+This analysis comprises a qualitative assessment consistent with AS/NZS IS O 31000:2009 Risk Management–
+Principles and Guidelines (Standards Australia 2009).  The level of risk was assessed by considering the 
+potential impacts of the Project prior to application of any mitigation or management measures.  
+Risk comprises the likeli hood of an event occurring and the consequences of that event. For the Project, the 
+descriptors shown in Table 19 were adopted for ‘likelihood’ and ‘consequence’.  
+[[page 27]]
+Canberra Data Centres Pty Ltd 
+Noise Impact Assessment 
+Eastern Creek Data Centre 
+17 Roberts Road, Eastern Creek 
+SSD-10330SSD-10330 
+SLR Ref No: 610.18883-R02-v4.0.docx 
+November 2019 
+ 
+ 
+ Page 22  
+ 
+Table 19 Risk Descriptors 
+Likelihood Consequence 
+A Almost certain 1 Widespread and/or irreversible impact 
+B Likely 2 Extensive but reversible (within 2 years) impact or irreversible local impact 
+C Possible 3 Local, acceptable or reversible impact 
+D Unlikely 4 Local, reversible, short term (<3 months) impact 
+E Rare 5 Local, reversible, short term (<1 month) impact 
+The risk levels for likely and potential impacts were derived using the risk matrix shown in Table 20. 
+Table 20 Risk Matrix 
+Consequence 
+Likelihood 
+ A B C D E 
+1 High High Medium Low Very Low 
+2 High High Medium Low Very Low 
+3 Medium Medium Medium Low Very Low 
+4 Low Low Low Low Very Low 
+5 Very Low Very Low Very Low Very Low Very Low 
+The risk assessment and mitigations measures are shown in Table 21. 
+Table 21 Risk Assessment and Mitigation Measures 
+Matter Potential Impact Likelihood Consequence Risk Level Proposed Mitigation Measures 
+Construction 
+Noise and 
+Vibration 
+ 
+NMLs exceeded D 4 Low No mitigation measures proposed 
+Safe working 
+distances exceeded 
+D 4 Low No mitigation measures proposed 
+Operational 
+Noise  
+PTNLs  exceeded by 
+5 dB or more at 
+residential receivers 
+A 2 High Install acoustic screens to plant decks 
+ 
+ 
+10 References 
+NSW Noise Policy for Industry (NPfI) (EPA, 2017). 
+Interim Construction Noise Guideline (ICNG) (EPA, 2009). 
+Assessing Vibration: a technical guideline (EPA, 2006) 
+Eastern Creek Precinct Plan – Stage 3 (Blacktown City Council, 2005 
+ 
+ 
+[[page 28]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 1 of 1  
+ 
+APPENDIX A 
+ACOUSTIC TERMINOLOGY 
+ 
+ 
+[[page 29]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 1 of 1  
+ 
+Typical Noise Indices 
+This Report makes repeated reference to certain 
+noise level descriptors, in particular the L A10, L A90 
+and LAeq and LAmax noise levels. 
+The L A10 is the A -weighted sound pressu re level 
+exceeded 10% of a given measurement period 
+and is utilised normally to characterise typical 
+maximum noise levels. 
+The LAeq is essentially the average sound level.  It 
+is defined as the steady sound level that 
+contains the same amount of acoustical  energy 
+as a given time -varying sound over the same 
+measurement period.  The L Aeq(15hour) is the 
+measurement parameter used to describe the 
+road traffic noise level over the entire daytime 
+(7.00 am to 10.00  pm) period.  The L Aeq(9hour) is 
+the measurement p arameter used to describe 
+the road traffic noise level over the entire night -
+time (10.00  pm to 7.00  am) period.  Similarly, 
+the L Aeq(1hour) is the measurement parameter 
+used to describe the road traffic noise level 
+during the loudest 1 -hour period during t he 
+daytime or night-time periods.   
+The LA90 noise level is the A -weighted sound 
+pressure level exceeded 90% of a given 
+measurement period and is representative of 
+the average minimum background  sound level 
+(in the absence of the source under 
+consideration), or simply the “background” level. 
+The LAmax noise level is the maximum A -
+weighted noise level associated with road traffic 
+movements. 
+Graphical Display of Typical Noise Indices 
+ 
+ 
+ 
+Typical Noise Levels 
+The following table presents examples of typical 
+noise levels. 
+Sound 
+Pressure 
+Level (dBA) 
+Typical Source Subjective 
+Evaluation 
+130 
+120 
+110 
+Threshold of pain  
+Heavy rock concert  
+Grinding on steel 
+Intolerable 
+Extremely 
+noisy 
+100 
+90 
+Loud car horn at 3 m  
+Construction site with  
+pneumatic hammering 
+Very noisy 
+80 
+ 
+70 
+Kerb side of busy street  
+Loud radio or television 
+Loud 
+60 
+50 
+Department store  
+General Office 
+Moderate to  
+Quiet 
+40 
+30 
+Inside private office  
+Inside bedroom 
+Quiet to  
+Very quiet 
+20 Unoccupied recording 
+studio 
+Almost silent 
+A-Weighting or dBA Noise Levels 
+The overall level of a sound is usually expressed in 
+terms of dBA, which is measured using the “A -
+weighting” filter incorporated in sound level meters.  
+These filters have a frequency response 
+corresponding approximately to that of human 
+hearing.  People’s hearing is most sensitive to 
+sounds at mid frequencies (500  Hz to 4000  Hz), and 
+less sensitive at lower and higher frequencies.  Thus, 
+the level of a sound in dBA is a good measure of the 
+“loudness” of that sound.  Different sources having 
+the same dBA level generally sound about equally as 
+loud, although the perceived loudness can also be 
+affected by the character of the sound (eg  the 
+loudness of human speech and a distant motorbike 
+may be perceived differently, although they are of 
+the same dBA level). 
+Sensitivity of People to Noise Level Changes 
+A change of up to 3  dBA in the level of a sound is 
+difficult for most people to detect, whilst a 3  dBA to 
+5 dBA change corresponds to a small but noticeable 
+change in loudness.  A 10  dBA change correspond s 
+to an approximate doubling or halving in loudness. 
+ 
+ 
+ 
+ 
+LA1
+LA10
+LA90
+LAeq
+LAmax
+25
+30
+35
+40
+45
+50
+55
+00:00 05:00 10:00 15:00
+Monitoring or Survey Period   (minutes)
+Sound Pressure Level  (dBA)
+[[page 30]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 1 of 12  
+ 
+APPENDIX B 
+Ambient Noise Survey Results 
+ 
+  
+[[page 31]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 2 of 12  
+ 
+ 
+ 
+
+[[page 32]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 3 of 12  
+ 
+ 
+ 
+
+[[page 33]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 4 of 12  
+ 
+ 
+ 
+
+[[page 34]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 5 of 12  
+ 
+ 
+ 
+
+[[page 35]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 6 of 12  
+ 
+ 
+ 
+
+[[page 36]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 7 of 12  
+ 
+ 
+ 
+
+[[page 37]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 8 of 12  
+ 
+ 
+ 
+
+[[page 38]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 9 of 12  
+ 
+ 
+ 
+ 
+  
+
+[[page 39]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 10 of 12  
+ 
+ 
+ 
+APPENDIX C 
+Construction Noise Modelling Scenarios and Equipment 
+ 
+ 
+1. EARLY WORKS  
+Activity  Day/Night  Equipment  Number  
+Site establishment  D 30T excavator  2  
+ D 15T excavator  2  
+ D 10T roller  1 
+ D Water cart  1 
+ D 15T Hi-ab (Site accommodation)  2 
+Tree Removal (40No.)  D Mulcher 2 
+ D Chainsaws 4 
+ D 10T Excavator with claw  2 
+ D 12T Truck  2 
+Car Park establishment  D 20T excavator  1 
+ D 5T roller  1 
+ D Water cart  1 
+ D 1 x asphalt grader  1 
+ D 12T truck  2 
+ D 5T Bobcat  2 
+2. Piling & In-ground services  
+Activity  Day/Night  Equipment  Number  
+Piling pad  D 20T roller  1 
+ D 30T excavator  2 
+Piling  D Mobile crane 60T  1 
+ D 65T piling rig  3 
+ D Bobcat 3 
+ D 20T excavator 2 
+ D Concrete trucks 428 
+ D Concrete pump 1 
+In-Ground Services  D 20T excavator 3 
+ D Bobcat  2 
+ D Trucks  2 
+ D 10T roller  1 
+ D Concrete trucks  50 
+[[page 40]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 11 of 12  
+ 
+3. Structure and Fit-out  
+Activity  Day/Night  Equipment  Number  
+Structure  D Hi-ab  2 
+ D Manitu  1 
+ D Materials hoist (Electrical)  2 
+ D Mobile cranes (Diesel)  2 
+ D Formwork deliveries  98 
+ D Steel deliveries (150T)  150 
+ D Concrete trucks (7m3 each)  2142 
+ D Concrete pump  3  
+Fit-out  D Mobile cranes (170T)  2 
+ D Manitu  2  
+ D Materials hoist (Electrical)  2  
+ D Forklift (Gas)  4 
+ Notes: Construction Scenarios have been provided by Hindmarsh Construction 
+ 
+Facility Construction Equipment Overall SWL LAeq(15minute) (dBA re 1W) 
+Auger Piling Rig 111 
+Bobcat 104 
+Concrete Pump 106 
+Concrete saw 1151 
+Concrete Truck / Agitator 108 
+Concrete Vibrator 110 
+Excavator (15 tonne) 96 
+Excavator (30 tonne) 104 
+Mobile Crane (100 tonne) 101 
+Mobile Crane (50 tonne) 100 
+Mobile Crane (25 tonne) 99 
+Truck (12 -15 tonne) 108 
+Truck (25 tonne) 110 
+Hand Tools 94 
+  
+Note 1  The SWL includes a 5 dB impulsive penalty. 
+ 
+ 
+  
+[[page 41]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 12 of 12  
+ 
+ 
+ 
+ 
+[[page 42]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 1 of 5  
+ 
+APPENDIX D 
+Construction Vibration Assessment Criteria 
+  
+[[page 43]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 2 of 5  
+ 
+Vibration - Building Structures Cosmetic Damage Risk 
+Most commonly  specified ‘safe’ structural vibration limits are designed to minimise the risk of cosmetic 
+damage such as surface cracks, and are set well below the levels that have potential to cause structural 
+damage.  British Standard BS 7385 Part 2 -1993 Evaluation and measurement for vibration in buildings Part 2,  
+provides frequency-dependent vibration limits related to the cosmetic damage risk.  Noting, cosmetic damage 
+is very minor in nature, is readily repairable and does not affect the structural integrity of the building.  
+The BS 7385 Part 2 -1993 sets guide values for building vibration based on the lowest vibration levels above 
+which damage has been credibly demonstrated.  These levels are judged to give a minimum risk of 
+vibration-induced damage, where minimal r isk for a named effect is usually taken as a 95% probability of no 
+effect.  Sources of vibration that are considered in the standard include demolition, blasting (carried out 
+during mineral extraction or construction excavation), piling, ground treatments (eg compaction), construction 
+equipment, tunnelling, road and rail traffic and industrial machinery. 
+The recommended limits (guide values) for transient vibration to ensure minimal risk of cosmetic damage to 
+residential and industrial buildings are presented numerically in Table E1 and graphically in Figure E1. 
+Table E1 Transient Vibration Guide Values - Minimal Risk of Cosmetic Damage 
+Line Type of Building Peak Component Particle Velocity in Frequency Range of 
+Predominant Pulse 
+4 Hz to 15 Hz 15 Hz and Above 
+1 Reinforced or framed structures  
+Industrial and heavy commercial 
+buildings 
+50 mm/s at 4 Hz and above 
+2 Unreinforced or light framed 
+structures 
+Residential or light commercial 
+type buildings 
+15 mm/s at 4 Hz increasing to 
+20 mm/s at 15 Hz  
+20 mm/s at 15 Hz increasing to 
+50 mm/s at 40 Hz and above 
+ 
+[[page 44]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 3 of 5  
+ 
+Figure E1  Graph of Transient Vibration Guide Values for Cosmetic Damage 
+ 
+ 
+BS 7385 Part 2 -1993 goes on to state that cosmetic damage is possible at vibration magnitudes which are 
+greater than twice those given in Table E1, and damage to a building structure may occur at values greater 
+than four times the tabulated values.  It is also noteworthy that extra to the guide values nominated in 
+Table E1, the BS 7385 Part 2-1993 states that: 
+“Some data suggests th at the probability of damage tends towards zero at 12.5  mm/s peak 
+component particle velocity.  This is not inconsistent with an extensive review of the case history 
+information available in the UK.” 
+Also that: 
+“A building of historical value should not (u nless it is structurally unsound) be assumed to be more 
+sensitive.” 
+BS 7385 Part 2-1993 states that the guide values in Table E1 relate predominantly to transient vibration which 
+does not give rise to resonant responses in structures and low -rise buildings.  Where the dynamic loading 
+caused by continuous vibration (ie rock breaking or sheet piling) may give rise to dynamic magnification due to 
+resonance, especially at the lower frequencies where lower guide values apply, then the guide values in 
+Table E1 may need to be reduced by up to 50%. 
+For construction activities involving intermittent vibration sources such as rock  breakers, piling rigs, vibratory 
+rollers, excavators and the like, the predominant vibration energy occurs at frequencies greater than 4 Hz (and 
+usually in the 10  Hz to 100  Hz range).  On this basis, a conservative vibration damage screening level per 
+receiver type is given below: 
+ Unreinforced or light framed structures:  7.5 mm/s.   
+ Reinforced or framed structures:  25.0 mm/s 
+Line 1 
+Line 2 
+1
+10
+100
+1 10 100
+Vibration Velocity (mm/s)    
+Frequency (Hz) 
+Line 1 : Cosmetic Damage (5% Risk) - BS 7385 Industrial
+Line 2 : Cosmetic Damage (5% Risk) - BS 7385 Residential
+Line 3 : Continuous Vibration Cosmetic Damage (5% Risk) - BS 7385 Residential
+Line 3 
+[[page 45]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 4 of 5  
+ 
+Vibration - Computer Rooms 
+Based on previous experience, SLR has  found a peak particle velocity (ppv) criterion of 5  mm/s to be 
+appropriate for computer room floors (based on vibration requirements for hard drives).  If it is determined that 
+more sensitive equipment is stored in these rooms, this criterion may need to be revised. 
+Vibration - Mechanical Plant 
+The criteria in Table E2 are based on previous experience at port facilities. 
+Table E2 Guideline Values for Vibration - Effect of Short Term Vibration on Mechanical Plant 
+Situation Vibration Measured on Support Structure 
+(ppv mm/s) 
+Mechanical Plant (ie conveyors, drive assemblies) 
+In Operation 
+20 
+Mechanical Plant (ie conveyors, drive assemblies) 
+Not In Operation 
+5 
+ 
+Vibration - Buried Pipework 
+The German Standard  DIN 4150-3:1999 “Structural Vibration Part 3: Effects of vibration in structures ” provides 
+guideline values for evaluating the effect of vibration on buried pipework.  The values are based on the 
+assumption that pipes have been manufactured and laid using cur rent technology.  Additional considerations 
+may be required at junctions.  The recommended limits for short term vibration to ensure minimal risk of 
+damage are presented numerically in Table E3. 
+Table E3 Guideline Values for Vibration - Effects of Short Term Vibration on Buried Pipework 
+Pipe Material Vibration Measured on the Pipe1  
+(ppv mm/s) 
+Steel (including welded pipes) 100 
+Clay, concrete, reinforced concrete, pre-stressed concrete, metal 
+(with or without flange) 
+80 
+Masonry, plastic 50 
+Note 1: Mounting equipment directly onto pipes may not be possible.  If the vibration source is not immediately next to the pipework, 
+measurements can be made on the ground surface to obtain an estimate.  Generally, this vibration level will be greater than the level 
+measured directly on the pipework. 
+Vibration - Human Comfort 
+EPA’s “Assessing Vibration: A Technical Guideline”  (DEC 2006) is based on the information set out in British 
+Standard 6472-1992 “Evaluation of Human Exposure to Vibration in Buildings (1  Hz to 80  Hz)”.  This standard 
+defines levels of building vibration associated with a “low probability of adverse comment” from occupants.  
+The applicable levels for continuous daytime activities are shown in Table E4. 
+ 
+ 
+[[page 46]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 5 of 5  
+ 
+Table E4 Vibration Levels with “Low Probability of Adverse Comment” (1 Hz to 80 Hz) 
+Building Type Peak Floor Vibration Peak Floor Vibration 
+(Z Vertical) 
+Residential 0.8 mm/s to 1.6 mm/s 0.3 mm/s to 0.6 mm/s 
+Commercial/Offices 1.6 mm/s 0.6 mm/s 
+Industrial/Workshops 3.2 mm/s 1.2 mm/s 
+ 
+ 
+ 
+[[page 47]]
+ 
+ 
+610.18883-R02-v4.0.docx Page 1 of 1  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[[page 48]]
+ 
+ 
+ASIA PACIFIC OFFICES 
+BRISBANE 
+Level 2, 15 Astor Terrace 
+Spring Hill  QLD  4000 
+Australia 
+T: +61 7 3858 4800 
+F: +61 7 3858 4801 
+CANBERRA 
+GPO 410 
+Canberra  ACT  2600 
+Australia 
+T: +61 2 6287 0800 
+F: +61 2 9427 8200 
+DARWIN 
+Unit 5, 21 Parap Road 
+Parap  NT  0820 
+Australia 
+T: +61 8 8998 0100 
+F: +61 8 9370 0101 
+GOLD COAST 
+Level 2, 194 Varsity Parade 
+Varsity Lakes  QLD  4227 
+Australia 
+M: [mobile redacted] 
+ 
+MACKAY 
+21 River Street 
+Mackay  QLD  4740 
+Australia 
+T: +61 7 3181 3300 
+ 
+MELBOURNE 
+Suite 2, 2 Domville Avenue 
+Hawthorn VIC 3122  
+Australia 
+T: +61 3 9249 9400 
+F: +61 3 9249 9499 
+NEWCASTLE 
+10 Kings Road 
+New Lambton  NSW  2305 
+Australia 
+T: +61 2 4037 3200 
+F: +61 2 4037 3201 
+PERTH 
+Ground Floor, 503 Murray Street 
+Perth  WA  6000 
+Australia 
+T: +61 8 9422 5900 
+F: +61 8 9422 5901 
+SYDNEY 
+2 Lincoln Street 
+Lane Cove  NSW  2066 
+Australia 
+T: +61 2 9427 8100 
+F: +61 2 9427 8200 
+TOWNSVILLE 
+Level 1, 514 Sturt Street 
+Townsville  QLD  4810 
+Australia 
+T: +61 7 4722 8000 
+F: +61 7 4722 8001 
+TOWNSVILLE SOUTH 
+12 Cannan Street 
+Townsville South  QLD  4810 
+Australia 
+T: +61 7 4772 6500 
+ 
+WOLLONGONG 
+Level 1, The Central Building 
+UoW Innovation Campus 
+North Wollongong NSW 2500 
+Australia 
+T: [mobile redacted] 
+AUCKLAND 
+68 Beach Road 
+Auckland 1010 
+New Zealand 
+T: +64 27 441 7849 
+NELSON 
+6/A Cambridge Street 
+Richmond, Nelson 7020 
+New Zealand 
+T: +64 274 898 628 
+  
+ 

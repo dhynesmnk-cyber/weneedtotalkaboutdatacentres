@@ -1,0 +1,1290 @@
+[[page 1]]
+SLR Ref: 610.18883-R03
+Version No: -v3.0
+October 2019
+AIR QUALITY IMPACT ASSESSMENT
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330
+Prepared for:
+Canberra Data Centres Pty Ltd
+PO Box 304
+JERABOMBERRA NSW 2619
+[[page 2]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+EXECUTIVE SUMMARY
+Page 2
+PREPARED BY
+SLR Consulting Australia Pty Ltd
+ABN 29 001 584 612
+Suite 2, 2 Domville Avenue
+Hawthorn VIC 3122 Australia
+T: +61 3 9249 9400
+E: [email redacted]   www.slrconsulting.com
+BASIS OF REPORT
+This report has been prepared by SLR Consulting Australia Pty Ltd (SLR) with all reasonable
+skill, care and diligence, and taking account of the timescale and resources allocated to it
+by agreement with Canberra Data Centres Pty Ltd (the Client).  Information reported
+herein is based on the interpretation of data collected, which has been accepted in good
+faith as being accurate and valid.
+This report is for the exclusive use of the Client.  No warranties or guarantees are
+expressed or should be inferred by any third parties.  This report may not be relied upon
+by other parties without written consent from SLR.
+SLR disclaims any responsibility to the Client and others in respect of any matters outside
+the agreed scope of the work.
+DOCUMENT CONTROL
+Reference Date Prepared Checked Authorised
+610.18883-R03-v3.0 25 October 2019 Jason Shepherd Kirsten Lawrence Jeremy Pepper
+610.18883-R03-v2.0 22 October 2019 Jason Shepherd Kirsten Lawrence Jeremy Pepper
+610.18883-R03-v1.0 23 August 2019 Jason Shepherd Graeme Starke Jeremy Pepper
+[[page 3]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+CONTENTS
+Page 3
+1 INTRODUCTION ........................................................................................................... 5
+1.1 Background .................................................................................................................. 5
+1.2 Project Location ........................................................................................................... 5
+2 GLOSSARY AND ABBREVIATIONS................................................................................. 7
+3 PROJECT DESCRIPTION ................................................................................................ 8
+4 POTENTIAL SOURCES OF AIR EMISSIONS ................................................................... 11
+5 RELEVANT POLLUTANTS AND AIR QUALITY CRITERIA ................................................ 12
+5.1 Pollutants of Concern ................................................................................................. 12
+5.2 Ambient Air Quality Criteria ....................................................................................... 12
+6 EXISTING ENVIRONMENT .......................................................................................... 14
+6.1 Local Meteorology ..................................................................................................... 14
+6.2 Background Air Quality .............................................................................................. 18
+7 ASSESSMENT OF DUST EMISSIONS DURING CONSTRUCTION .................................... 20
+7.1 Construction Impact Assessment Methodology .......................................................... 20
+7.2 Step 1 – Screening Based on Separation Distance ....................................................... 20
+7.3 Step 2a – Assessment of Scale and Nature of the Works ............................................ 21
+7.4 Step 2b – Risk Assessment ......................................................................................... 22
+7.4.1 Receptor Sensitivity ............................................................................................................................... 22
+7.4.2 Sensitivity of an Area ............................................................................................................................. 22
+7.4.3 Risk Assessment .................................................................................................................................... 22
+7.5 Step 3 - Mitigation Measures ..................................................................................... 23
+7.6 Step 4 - Residual Impacts ........................................................................................... 25
+8 AIR QUALITY MONITORING PROGRAM ..................................................................... 26
+9 MITIGATION MEASURES ............................................................................................ 27
+10 REFERENCES .............................................................................................................. 29
+[[page 4]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+CONTENTS
+Page 4
+Document References
+TABLES
+Table 1 Glossary ..................................................................................................................... 7
+Table 2 Abbreviations ............................................................................................................ 7
+Table 3 NSW EPA Criteria ..................................................................................................... 13
+Table 4 Summary of PM10 Monitoring Data at St Marys AQMS (2014 – 2018) ....................... 18
+Table 5 Categorisation of Dust Emission Magnitude ............................................................. 22
+Table 6 Preliminary Risk of Air Quality Impacts from Construction Activities
+(Uncontrolled) ......................................................................................................... 23
+Table 7 Proactive Dust Mitigation Measures ........................................................................ 23
+Table 8 Residual Risk of Air Quality Impacts from Construction ............................................ 25
+Table 9 Nuisance Dust Monitoring Program ......................................................................... 26
+Table 10 Nuisance Dust Contingency Management Plan for Project ....................................... 26
+Table 11 Risk Descriptors ....................................................................................................... 27
+Table 12 Risk Matrix............................................................................................................... 27
+Table 13 Risk Assessment and Mitigation Measures ............................................................... 28
+FIGURES
+Figure 1 Project Location ......................................................................................................... 6
+Figure 2 Planning Zones .......................................................................................................... 8
+Figure 3 Aerial Image of the Site .............................................................................................. 9
+Figure 4 Proposed Site Plan ................................................................................................... 10
+Figure 5 Annual Wind Roses for Horsley Park (2014 to 2018) ................................................ 15
+Figure 6 Annual and Seasonal Wind Roses for Horsley Park (2018) ........................................ 16
+Figure 7 Wind Speed Frequency Chart for Horsley Park AWS – 2014-2018 ............................ 17
+Figure 8 Long term Mean Rainfall for Horsley Park AWS – 1997 to 2018 ................................ 17
+Figure 9 Measured 24-Hour Average PM 10 Concentrations at St Marys AQMS (2014 –
+2018) ....................................................................................................................... 19
+APPENDICES
+Appendix A IAQM Construction Assessment Methodology
+[[page 5]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 5
+1 Introduction
+1.1 Background
+SLR Consulting Australia Pty Ltd (SLR) has been engaged by Canberra Data Centres Pty Ltd (CDC) to prepare an
+Air Quality Impact Assessment (AQIA) to accompany the State Significant Development (SSD) application for a
+proposed Data Centre (the Project) at 17 Roberts Road, Eastern Creek.
+It is understood that the operation of the Data Centre, including ventilation and cooling, will be powered by
+electricity from the grid, such that there will be no significant emissions to air during operation.  An operational
+assessment is therefore not required.  The AQIA is therefore limited to emissions to air associated with the
+construction of the Data Centre.
+1.2 Project Location
+The Project is located at 17 Roberts Road, Eastern Creek, within the Eastern Creek Business Park (the Site,
+Figure 1).  The Site is formally described as Lot 2 DP 1159804, and has an approximate area of 14.5 hectares.
+The Site is bordered by Roberts Road in the west, Capicure Drive in the north, transmission line easement in the
+south and a vacant lot in the east.  The portion of the Site relevant to this project is the Project footprint located
+in the central and western portions of the Site.
+SLR has identified the nearest sensitive receptors as residences in a rural setting on Flavex Lane, approximately
+900 m to the southeast.  The nearest human receptor (a location where a person or property may experience
+adverse effects of airborne dust or dust soiling) is the distribution centre 50 m beyond the northwest boundary
+of the Project.
+[[page 6]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 6
+Figure 1 Project Location
+
+[[page 7]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 7
+2 Glossary and Abbreviations
+Table 1 below shows the glossary of terms and their definitions used in this AQIA.
+Table 1 Glossary
+Term Definition
+The Site Canberra Data Centres Pty Ltd owns the site at 17 Roberts Road, Eastern Creek and is legally
+known as Lot 2 in Deposited Plan 1159804.
+The Project The construction of a new Data Centre and ancillary office space to expand the operation of the
+existing Data Centre to the east of the site.
+Table 2 below shows the abbreviations and their definitions used in this AQIA.
+Table 2 Abbreviations
+Term Definition
+AQIA Air Quality Impact Assessment
+AQMS Air Quality Monitoring Station
+AWS Automatic weather station
+BoM Bureau of Meteorology
+CEMP Construction Environmental Management Plan
+g/m2/month Grams per meter squared per month
+IAQM Institute of Air Quality Management
+IN1 General industrial land (planning zone)
+m/s Metres per second
+OEH Office of Environment and Heritage
+PM2.5 Particulate matter with an aerodynamic diameter of 2.5 microns or less
+PM10 Particulate matter with an aerodynamic diameter of 10 microns or less
+SP2 Infrastructure (planning zone)
+[[page 8]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 8
+3 Project Description
+The Site is formally identified as Lot 2 in DP 1159804 and is zoned as IN1 General Industrial land (NSW
+Department of Planning, 2019), as is the land immediately to the west, north and east ( Figure 2).  The land to
+the south is zoned SP2 Infrastructure.
+From aerial imagery provided inFigure 3, currently on the eastern side of the Site are nine operational data halls
+with a rear annexe building, an administrative building, internal roads, car parks and other evidence of Site
+development activities.
+Figure 2 Planning Zones
+Source: NSW ePlanning Spatial Viewer 2019.  Image dated 23 July 2019.
+
+[[page 9]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 9
+Figure 3 Aerial Image of the Site
+The SSDA proposes the construction of a new Data Centre and ancillary office space to expand the operation of
+the existing Data Centre to the east of the site ( Figure 4).  The proposed Data Centre including three large
+warehouse buildings and ancillary office space, which will deliver economic benefits and employment
+generation for Western Sydney and the Greater Sydney Region.
+Specifically, the SSDA seeks consent for:
+· Site preparation works comprising:
+· Site preparation and mobilisation including clearing of land and importation of fill material
+· Bulk and detail earthworks and support structures
+· Estate stormwater management including construction of detention basins
+· Construction of site access and estate internal roads
+· Service and infrastructure augmentation
+· Perimeter fencing
+· Retaining wall
+· Removal of trees
+· Environmental protection and management measures
+
+[[page 10]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 10
+· Staged construction of buildings for a Data Centre with 24 hour per day, seven day per week operation:
+· Construction of three 3 storey warehouse facilities (E4, E5, E6) including ancillary office spaces
+· Additional rooftop plant and equipment for Building E3 in associated with Data Centre use
+· Fit out of buildings
+· Construction of a store room
+· Security booth
+· Generator within generator enclosures
+· Landscaping works
+· Construction of hardstand, loading area and a new car park
+The proposal does not involve the installation of any form of signage to the façade of the building.
+Figure 4 Proposed Site Plan 1
+1 Adapted from EJE Architecture’s drawing DA-100 dated 15 October 2019
+
+[[page 11]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 11
+4 Potential Sources of Air Emissions
+During the construction works, fugitive dust emissions are considered to be the primary emission type, which
+could give rise to nuisance and/or health impacts for the surrounding sensitive areas.
+The main emissions to air during the construction phase are likely to be emissions of suspended particulate
+matter and nuisance dust from the movement of vehicles and construction equipment, excavation and
+rehabilitation, demolition, clearing and grading, truck loading and unloading and wind erosion.
+The risk of construction dust emissions causing nuisance impacts at the off-site sensitive receptor locations is
+subject to management and mitigation measures, along with contingency plans, response procedures and
+monitoring and reporting protocols.
+During the operational phase, the emergency generators would be a source of products of combustion in the
+event they are required to operate (ie during a power failure).  As this would occur very infrequently and for a
+limited time period, further detailed assessment of these emissions has not been performed as part of this study.
+[[page 12]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 12
+5 Relevant Pollutants and Air Quality Criteria
+5.1 Pollutants of Concern
+Potential air pollutants of interest for the construction of the Project are considered to be both:
+· Suspended particulate matter
+· Deposited dust.
+In common usage, the terms “dust” and “particulates” are often used interchangeably.  The health effects of
+particulate matter are strongly influenced by the size of the airborne particles.  Smaller particles can penetrate
+further into the respiratory tract, with the smallest particles having a greater impact on human health as they
+penetrate to the gas exchange areas of the lungs.  Larger particles primarily cause nuisance associated with
+coarse particles settling on surfaces and possessions, affecting visibility and contaminating tank water supplies.
+High rates of dust deposition can also adversely affect vegetation by blanketing leaf surfaces..
+Particulate matter with an aerodynamic diameter of 10 microns or less is referred to as PM 10.  The PM 10 size
+fraction is sufficiently small to penetrate the large airways of the lungs, while PM 2.5 (2.5 microns or less)
+particulates are generally small enough to be drawn in and deposited into the deepest portions of the lungs.
+Potential adverse health impacts associated with exposure to PM 10 and PM2.5 include increased mortality from
+cardiovascular and respiratory diseases, chronic obstructive pulmonary disease and heart disease, and reduced
+lung capacity in asthmatic children.  In an urban setting, the emission of PM 2.5 is primarily associated with
+vehicles exhausts resulting from the incomplete combustion of diesel.  It is anticipated that the primary particle
+fraction associated with construction will be PM10.
+The key potential health and amenity issues associated with construction of Project are, respectively:
+· Elevated PM10 concentrations
+· Nuisance due to dust deposition and visible dust plumes.
+5.2 Ambient Air Quality Criteria
+State air quality guidelines specified by the NSW Environmental Protection Agency (EPA) for the pollutants
+identified in Section 5.1 are published in the Approved Methods for the Modelling and Assessment of Air
+Pollutants in New South Wales  (NSW EPA, 2017) (the Approved Methods).  The Approved Methods lists the
+statutory methods for modelling and assessing emissions of air pollutants from stationary sources in the state.
+It is referred to in Part 5: Air Impurities Emitted from Activities and Plant  in the Protection of the Environment
+Operations (Clean Air) Regulation 2010 (NSW Parliament, 2010) (the Regulation).  Industry has an obligation to
+ensure compliance with the requirements specified in the Regulation.
+The ground level air quality impact assessment criteria listed in Section 7 of the Approved Methods have been
+established by NSW EPA to achieve appropriate environmental outcomes and to minimise associated risks to
+human health as published in the Approved Methods.  They have been derived from a range of sources and are
+the defining ambient air quality criteria for NSW and are appropriate for use in this assessment.
+A summary of the relevant impact assessment criteria for particulate matter is provided inTable 3.
+[[page 13]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 13
+Table 3 NSW EPA Criteria
+Pollutant Averaging Period Criterion
+PM10 24 Hours 50 µg/m3
+Annual 25 µg/m3
+Dust Deposition
+Month
+2 g/m2/month (maximum increase in deposited dust level)
+4 g/m2/month (maximum total deposited dust level)
+[[page 14]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 14
+6 Existing Environment
+6.1 Local Meteorology
+The Bureau of Meteorology (BoM) maintains and publishes data from weather stations across Australia.  The
+closest such station recording wind speed and wind direction data is the Horsley Park Automatic Weather Station
+(AWS) (Station ID 67119), located approximately 4 kilometres (km) southeast of the Project.  Considering the
+relatively flat terrain between the Project and Horsley Park AWS, wind conditions recorded at the Horsley Park
+AWS can be considered representative of the wind conditions experienced at the Project.
+Wind
+Local wind speed and direction influence the dispersion of air pollutants.  Wind speed determines both the
+distance of downwind transport and the rate of dilution as a result of ‘plume’ stretching.  Wind direction, and
+the variability in wind direction, determines the general path pollutants will follow and the extent of crosswind
+spreading.  Surface roughness (characterised by features such as the topography of the land and the presence
+of buildings, structures and trees) will also influence dispersion.
+Annual wind roses for the years 2014 to 2018 compiled from data recorded by the Horsley Park AWS are
+presented in Figure 5, with seasonal wind roses for 2018 presented inFigure 6.  Wind roses show the frequency
+of occurrence of winds by direction and strength.  The bars correspond to the 16 compass points (degrees from
+North).  The bar at the top of each wind rose diagram represents winds blowing from the north (i.e. northerly
+winds), and so on.  The length of the bar represents the frequency of occurrence of winds from that direction,
+and the widths of the bar sections correspond to wind speed categories, the narrowest representing the lightest
+winds.  Thus, it is possible to visualise how often winds of a certain direction and strength occur over a long
+period, either for all hours of the day, or for particular periods during the day.
+The annual wind roses for the years 2014 to 2018 indicate that predominant wind directions in the area are
+consistently from the southwest quadrant.  Very low frequencies of winds from the northeastern quadrant were
+recorded across all years.  The annual frequency of calm wind conditions was recorded to be approximately 12%-
+14.5% for all the years between 2014 and 2018.
+The seasonal wind roses for the year 2018 indicate that:
+· In summer, the majority of winds originated from eastern and southeastern quadrants, with very few
+winds from west and northwest.
+· In autumn, the majority of winds originated from southwest quadrant, with very few winds from
+northeastern quadrant.
+· In winter, the majority of winds originated from the western sector, with very few winds from the
+eastern directions.
+· In spring, the majority of winds originated from the southern sector.
+Wind erosion of dust from exposed surfaces is usually initiated when wind speeds exceed the threshold friction
+velocity for a given surface or material, however a general rule of thumb is that wind erosion can be expected
+to occur above 5 m/s.  The frequency of wind speeds for the period of 2014-2018 is presented in Figure 7.  The
+plot showed that the frequency of wind speeds exceeding 5 m/s for the period 2014-2018 at Horsley Park AWS
+was approximately 6%.
+[[page 15]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 15
+Figure 5 Annual Wind Roses for Horsley Park (2014 to 2018)
+
+[[page 16]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 16
+Figure 6 Annual and Seasonal Wind Roses for Horsley Park (2018)
+
+[[page 17]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 17
+Figure 7 Wind Speed Frequency Chart for Horsley Park AWS – 2014-2018
+Rainfall
+Dry periods (no rainfall) have a greater risk of generating fugitive dust emissions during construction as moisture
+binds dust particles together.  The long-term monthly rainfall averages recorded by the Horsley Park AWS rain
+gauge are shown in Figure 8.  Generally, rainfall is lowest in the mid-winter to mid spring period.
+Figure 8 Long term Mean Rainfall for Horsley Park AWS – 1997 to 2018
+0%
+5%
+10%
+15%
+20%
+25%
+30%
+35%
+40%
+45%
+50%
+55%
+60%
+65%
+0 - 0.4 0.5 - 1.4 1.5 - 5.2 5.3 - 7.9 8.0 - 10.7 >10.8
+Frequency of Occurrence
+Wind Speed (m/s)
+0
+20
+40
+60
+80
+100
+120
+Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+Mean Rainfall for (mm)
+Month
+Mean Rainfall for Years (1997 - 2018)
+Long term Monthly Average Rainfall (1997 - 2018)
+[[page 18]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 18
+6.2 Background Air Quality
+The NSW Office of Environment and Heritage (OEH) maintains a network of Air Quality Monitoring Stations
+(AQMS) across NSW.  The nearest such station is located at St Marys, approximately 7 km west northwest of the
+Project.  The St Marys AQMS was commissioned in 1992 and is located on a residential property in close
+proximity to horticulture, agriculture and the vehicle activity along Mamre Road, St Marys.  It is situated in the
+centre of the Hawkesbury Basin and is at an elevation of 29 m.  PM10 is monitored by the St Marys AQMS.
+A summary of the PM10 concentrations for the last five years (2014-2018) is tabulated in Table 4 and presented
+graphically in Figure 9.  There were no exceedances of the 24-hour average criterion recorded in 2014 and 2017,
+one exceedance in 2015, three exceedances in 2016 and two exceedances in 2018.
+Table 4 Summary of PM 10 Monitoring Data at St Marys AQMS (2014 – 2018)
+Period Maximum 24-hour Average Annual Average
+µg/m3 µg/m3
+2014 45.0 16.7
+2015 53.0a 15.0
+2016 100.2b 16.1
+2017 49.8 16.2
+2018 100.5c 19.4
+Criterion 50 25
+a Recorded on 6 May 2015
+b Recorded on 8 May 2016
+c Recorded on 22 November 2018
+[[page 19]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 19
+Figure 9 Measured 24-Hour Average PM 10 Concentrations at St Marys AQMS (2014 – 2018)
+A review of the exceedances recorded during 2015 (NSW OEH, 2017), 2016 (NSW OEH, 2017), 2017 (NSW OEH,
+2018) and 2018 (NSW OEH, 2019) indicates that they were associated with natural events such as bushfires or
+dust storms, or hazard reduction burns.  For 2018, the air quality was generally ‘good’, and air quality standards
+were met for 98% of the days in Sydney.
+PM10 concentrations vary across years with higher levels and more exceedances occurring in bushfire and dust
+storm affected years.  Dry El Niño years (2002–2007) have been associated with a greater frequency of bushfires
+and dust storms and therefore higher particle pollution levels.  Lower particle pollution levels have occurred
+during wetter La Niña years (2010–2012).
+0
+20
+40
+60
+80
+100
+12024-Hour Average PM10 Concentration (µg/m 3)
+PM10 24-hour Average Criterion
+No data
+[[page 20]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 20
+7 Assessment of Dust Emissions During Construction
+The key potential health and amenity issues associated with construction of Project are, respectively:
+· Elevated suspended particulate concentrations (PM10).
+· Nuisance due to dust deposition (soiling of surfaces) and visible dust plumes.
+7.1 Construction Impact Assessment Methodology
+Quantitatively assessing impacts of fugitive dust emissions from construction projects using predictive modelling
+is seldom considered appropriate, primarily due to the uncertainty in the details of the construction activities,
+including equipment type, number, location and scheduling, which are unlikely to be available at the time of the
+assessment.  Furthermore, they are also likely to change as construction progresses.  In comparison, the
+equipment and operations of a mine or quarry are determined during the planning stages and more likely to
+remain consistent for long periods (several months or years).
+Instead, it is considered appropriate to conduct a qualitative assessment.  Potential impacts of dust emissions
+associated with proposed demolition and construction activities at the Site has been performed based on the
+methodology outlined in the Institute of Air Quality Management (UK) (IAQM) document, “Assessment of dust
+from demolition and construction” (Holman et al 2014).  This guidance document provides a structured approach
+for classifying construction sites according to the risk of air quality impacts, to identify relevant mitigation
+measures appropriate to the risk (see Appendix A for full methodology).
+The IAQM approach has been used widely in Australia for the assessment of air quality impacts from
+construction projects and the identification of appropriate mitigation measures and has been accepted by
+regulators across all states and territories for a variety of construction projects.
+The IAQM method uses a four-step process for assessing dust impacts from construction activities:
+· Step 1: Screening based on distance to the nearest sensitive receptor; whereby the sensitivity to dust
+deposition and human health impacts of the identified sensitive receptors is determined.
+· Step 2: Assess risk of dust effects from activities based on:
+· the scale and nature of the works, which determines the potential dust emission magnitude; and
+· the sensitivity of the area surrounding dust-generating activities.
+· Step 3: Determine site-specific mitigation for remaining activities with greater than negligible effects.
+· Step 4: Assess significance of remaining activities after management measures have been considered.
+7.2 Step 1 – Screening Based on Separation Distance
+As noted in Section 1.2, the nearest sensitive receptor is located approximately 900 m from the nearest Site
+boundary.
+[[page 21]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 21
+The screening criteria for detailed assessment are:
+· a ‘human receptor2’ within:
+· 350 m of the boundary of the site; or
+· 50 m of the route(s) used by construction vehicles on the public highway, up to 500 m from the site
+entrance(s).
+· an ‘ecological receptor3’ within:
+· 50 m of the boundary of the site; or
+· 50 m of the route(s) used by construction vehicles on the public highway, up to 500 m from the site
+entrance(s).
+The Project does not meet any of these criteria and therefore a detailed assessment is not deemed necessary.
+However, it is noted that immediately beyond the northwest boundary of the Site there is a large car park for
+the distribution centre workers.  A common impact of nuisance dust is the soiling of vehicles stored on
+neighbouring properties.  It is therefore considered appropriate to progress the assessment, but only in relation
+to impacts on amenity, or dust soiling.
+In relation to the wind roses presented in Section 6.1, it is apparent that winds that would blow fugitive dust
+emissions from the demolition/construction works towards the receptor are most likely to occur during the
+summer months and least likely to occur during the winter months.
+7.3 Step 2a – Assessment of Scale and Nature of the Works
+Based on the IAQM definitions presented in Appendix A, dust emission magnitudes for the anticipated works
+have been categorised as presented in Table 5.
+2  A ‘human receptor’, refers to any location where a person or property may experience the adverse effects of airborne dust or dust soiling, or
+exposure to PM10 over a time period. In terms of annoyance effects, this will most commonly relate to dwellings, but may also refer to other premises
+such as buildings housing cultural heritage collections (e.g. museums and galleries), vehicle showrooms, food manufacturers, electronics
+manufacturers, amenity areas and horticultural operations (e.g. salad or soft-fruit production).
+3  An ‘ecological receptor’ refers to any sensitive habitat affected by dust soiling. This includes the direct impacts on vegetation or aquatic
+ecosystems of dust deposition, and the indirect impacts on fauna (e.g. on foraging habitats).
+[[page 22]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 22
+Table 5 Categorisation of Dust Emission Magnitude
+Activity Dust Emission
+Magnitude
+Basis
+Demolition Small
+Total building volume <20,000 m3, construction material with low potential for
+dust release (e.g. metal cladding or timber), demolition activities <10m above
+ground, demolition during wetter months.
+There are no buildings to be demolished as part of the Project.
+Earthworks Large
+Total site area greater than 10,000 m2, potentially dusty soil type (e.g. clay,
+which will be prone to suspension when dry due to small particle size), more
+than 10 heavy earth moving vehicles active at any one time, formation of
+bunds greater than 8 m in height, total material moved more than 100,000 t.
+Total area where the earthworks will be undertaken for the Project, including
+removal of carparks and internal roads is estimated to be greater than
+30,000 m2.
+Construction Large
+Total building volume greater than 100,000 m3, potentially dusty construction
+material (e.g. concrete), piling, on site concrete batching.
+The total building area is estimated to be greater than 25,000 m2. Therefore,
+the total volume is likely to be greater than 100,000 m3.
+Trackout Large
+More than 50 heavy vehicle movements per day, surface materials with a high
+potential for dust generation, greater than 100 m of unpaved road length.
+The unpaved road length is estimated to be greater than 100 m.
+7.4 Step 2b – Risk Assessment
+7.4.1 Receptor Sensitivity
+Based on the criteria listed in Table A1 in Appendix A, the sensitivity of the identified receptor in this study is
+conservatively classified medium for dust soiling, as it is a place of work where users would expect to enjoy a
+reasonable level of amenity. Table A1 also describes short-term carparks as a low sensitivity.
+7.4.2 Sensitivity of an Area
+Based on the classifications shown in Table A2 and Table A3 in Appendix A, the sensitivity of the area to dust
+soiling may be classified as low.
+7.4.3 Risk Assessment
+Table 6 presents the preliminary risk of air quality impacts from uncontrolled construction activities determined
+using the risk matrix provided in Table A4 in Appendix A , based on the identified receptor sensitivity and
+sensitivity of the area.
+[[page 23]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 23
+Table 6 Preliminary Risk of Air Quality Impacts from Construction Activities (Uncontrolled)
+Impact Sensitivity
+of Area
+Dust Emission Magnitude Preliminary Risk
+Demolition
+Earthworks
+Construction
+Trackout
+Demolition
+Earthworks
+Construction
+Trackout
+Dust
+Soiling
+Low
+Small
+Large
+Large
+Large
+Negligible
+Low
+Low
+Low
+The results indicate that there is a low risk of adverse dust soiling occurring at the off-site sensitive receptor
+locations if no mitigation measures were to be applied to control emissions during the works.
+7.5 Step 3 - Mitigation Measures
+For almost all construction activity, the IAQM Methods notes that the aim should be to prevent significant effects
+on receptors through the use of effective mitigation and experience shows that this is normally possible.
+The IAQM document provides guidance on appropriate mitigation measures for construction activities
+determined to have low, medium and high preliminary risk of adverse air quality impacts. Table 7 lists the
+relevant mitigation measures by the IAQM methodology for a project shown to have a low risk of adverse
+impacts.  Not all these measures would be practical or relevant for the Project, hence a detailed review of the
+recommendations should be performed as part of the development of the Construction Environmental
+Management Plan (CEMP) and the most appropriate measures adopted.
+Table 7 Proactive Dust Mitigation Measures
+# Mitigation Measure
+1 Communications
+1.1 Develop and implement a stakeholder communications plan that includes community engagement before
+work commences on site.
+1.2 Display the name and contact details of person(s) accountable for air quality and dust issues on the site
+boundary.  This may be the environment manager/engineer or the Site Manager.
+1.3  Display the head or regional office contact information.
+2 Site Management
+2.1 Record all dust and air quality complaints, identify cause(s), take appropriate measures to reduce emissions in
+a timely manner, and record the measures taken.
+2.2 Make the complaints log available to the Local Authority when requested.
+2.3 Record any exceptional incidents that cause dust and/or air emissions, either on- or offsite, and the action
+taken to resolve the situation in the log book.
+3 Preparing and Maintaining the Site
+3.1 Plan site layout so that machinery and dust causing activities are located away from receptors, as far as is
+possible.
+[[page 24]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 24
+# Mitigation Measure
+3.2 Erect solid screens or barriers around dusty activities or the site boundary that they are at least as high as any
+stockpiles on site.
+3.3 Fully enclose site or specific operations where there is a high potential for dust production and the site is active
+for an extensive period.
+3.4 Avoid site runoff of water or mud.
+3.5 Keep site fencing, barriers and scaffolding clean using wet methods.
+3.6 Remove materials that have a potential to produce dust from site as soon as possible, unless being re-used on
+site.  If they are being re-used on-site cover as described below.
+3.7 Cover, seed or fence stockpiles to prevent wind erosion.
+4 Operating Vehicle/Machinery and Sustainable Travel
+4.1 Ensure all on-road vehicles comply with relevant vehicle emission standards, where applicable.
+4.2 Stationary trucks will switch off engines if idling time on-site is likely to exceed 2 minutes.
+4.3 Avoid using the local road network during peak traffic periods, where possible.
+4.4 Avoid the use of diesel or petrol powered generators and use mains electricity or battery powered equipment
+where practicable.
+4.5 Minimise truck queuing and unnecessary trips through logistical planning.
+5 Operations
+5.1 Only use cutting, grinding or sawing equipment fitted or in conjunction with suitable dust suppression
+techniques such as water sprays or local extraction, e.g. suitable local exhaust ventilation systems.
+5.2 Ensure an adequate water supply on the site for effective dust/particulate matter suppression/ mitigation,
+using non-potable water where possible and appropriate.
+5.3 Use enclosed chutes and conveyors and covered skips.
+5.4 Ensure equipment is readily available on site to clean any dry spillages, and clean up spillages as soon as
+reasonably practicable after the event using wet cleaning methods.
+6 Waste Management
+6.1 No on-site burning of waste materials.
+7 Excavation
+7.1 Only the minimum area necessary is disturbed at any one time.
+7.2 Where applicable, rehabilitation of disturbed areas will be undertaken as soon as practicable.
+7.2 If unanticipated strong odours are encountered or significant dust emissions are noted on site, stop related
+work and seek advice from the Environmental Coordinator or equivalent role.
+7.3 Carry out excavation works and vehicle loading/unloading when weather conditions are favourable (i.e.
+receptors are upwind from the works).
+8 Construction
+8.1 Avoid scabbling (roughening of concrete surfaces) if possible.
+8.2 Ensure sand and other aggregates are stored in bunded areas and are not allowed to dry out, unless this is
+required for a particular process, in which case ensure that appropriate additional control measures are in
+place.
+9 Trackout
+9.1 Use water-assisted dust sweeper(s) on the access and local roads to remove, as necessary, any material
+tracked out of the site.
+[[page 25]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 25
+# Mitigation Measure
+9.2 Avoid dry sweeping of large areas.
+9.3 Ensure vehicles entering and leaving sites are covered to prevent escape of materials during transport.
+9.4 Record all inspections of haul routes and any subsequent action in a site log book.
+9.5 Implement a wheel washing system (with rumble grids to dislodge accumulated dust and mud prior to leaving
+the site).
+10 Contingency Plan for Prolonged Dust Events
+10.1 Deployment of additional water sprays where practicable
+10.2 Relocation or modification of dust-generating sources, where possible
+10.3 Temporary halting of activities and resuming when conditions have improved
+In addition to the mitigation measures proposed in Table 7, daily site inspections will be carried out during
+construction works (see Section 7).  Daily environmental inspections will include, but not be limited to:
+· Visual inspection of any airborne dust being generated on-site or being observed blowing off-site
+· Ensuring roads leaving the Site are free of soil, and that there is no observable soil tracking onto the
+road network
+· Inspection of the erosion and sediment control systems for silt build-up
+· Inspection of stockpiles and waste storage areas to ensure no significant wind erosion is observable.
+Any environmental inspection reports will include the above observations, with remedial or corrective actions
+noted (as appropriate).  Any remedial or corrective actions must be reported to the Site Manager as soon as is
+practicable.
+7.6 Step 4 - Residual Impacts
+A reappraisal of the predicted unmitigated air quality impacts on sensitive receptors has been performed to
+demonstrate the opportunity for minimising risks associated with the use of mitigation strategies.  These are
+termed ‘residual impacts’.  The results of the reappraisal are presented below inTable 8.
+Table 8 Residual Risk of Air Quality Impacts from Construction
+Impact Sensitivity of Area Residual Risk
+Demolition Earthworks Construction Trackout
+Dust Soiling Low Negligible Negligible Negligible Negligible
+The dust deposition for mitigated activities are anticipated to benegligible.
+[[page 26]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 26
+8 Air Quality Monitoring Program
+The AQIA concluded that the risk of construction dust emissions causing nuisance impacts at off-site sensitive
+receptor locations is low.  It is also noted that any impacts will be temporary and managed through the
+implementation of appropriate mitigation measures.
+Considering the low risk from the construction dust emissions to cause nuisance at off-site sensitive receptor
+locations, dust monitoring at the nearest sensitive receptors is not considered necessary.
+However utilising static dust gauge(s) for the duration of Project construction, started at least one month before
+commencement of construction work, would be an inexpensive monitoring method that could be used to
+demonstrate that dust emissions are being managed effectively.
+A summary of the proposed nuisance dust monitoring program is shown in Table 9.
+Table 9 Nuisance Dust Monitoring Program
+Parameter Methodology Duration Location Frequency
+Deposited
+dust
+AS/NZS 3580.1.1:2016 - Methods for
+sampling and analysis of ambient air -
+Guide to siting air monitoring equipment
+During Site preparation,
+earthworks, construction
+Inside Project Site
+boundary along
+Roberts Road
+Monthly
+An air quality contingency management plan for the Project construction, based on the monitoring approach
+outlined above, is provided in Table 10.
+Table 10 Nuisance Dust Contingency Management Plan for Project
+Trigger Dust Deposition Rate <4 g/m2/month Dust Deposition Rate >4 g/m2/month
+Response No response required. Continue
+monitoring program
+Review and investigate construction activities and
+respective control measures, where appropriate.
+Implement additional remedial measures, such as:
+· Deployment of additional water sprays.
+· Relocation or modification of dust-generating sources.
+· Temporary halting of activities and resuming when
+conditions have improved.
+[[page 27]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 27
+9 Mitigation measures
+The SEARs require an environmental risk analysis to identify potential environmental impacts associated with
+the Project.  The following represents the way in which risks, impacts and mitigation measures are identified
+and quantified in relation to dust management at the Project.
+This analysis comprises a qualitative assessment consistent with AS/NZS ISO 31000:2009 Risk Management–
+Principles and Guidelines (Standards Australia 2009).  The level of risk was assessed by considering the potential
+impacts of the Project prior to application of any mitigation or management measures.
+Risk comprises the likelihood of an event occurring and the consequences of that event.  For the Project, the
+descriptors shown in Table 11 were adopted for ‘likelihood’ and ‘consequence’.
+Table 11 Risk Descriptors
+Likelihood Consequence
+A Almost certain 1 Widespread and/or irreversible impact
+B Likely 2 Extensive but reversible (within 2 years) impact or irreversible local impact
+C Possible 3 Local, acceptable or reversible impact
+D Unlikely 4 Local, reversible, short term (<3 months) impact
+E Rare 5 Local, reversible, short term (<1 month) impact
+The risk levels for likely and potential impacts were derived using the risk matrix shown inTable 12.
+Table 12 Risk Matrix
+Consequence
+Likelihood
+A B C D E
+1 High High Medium Low Very Low
+2 High High Medium Low Very Low
+3 Medium Medium Medium Low Very Low
+4 Low Low Low Low Very Low
+5 Very Low Very Low Very Low Very Low Very Low
+The risk assessment and mitigations measures are shown in Table 13.
+[[page 28]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 28
+Table 13 Risk Assessment and Mitigation Measures
+Matter Potential Impact Likelihood Consequence Risk Level Proposed Mitigation Measures
+Air Quality PM10 health impacts
+on nearby sensitive
+receptors from
+construction phase
+E 4 Very Low No mitigation required for PM10
+specifically. Note that measures for
+dust soiling (below) will likely also
+reduce the potential impact of PM10.
+Dust soiling
+(nuisance) impacts
+on nearby receptors
+from construction
+phase
+D 4 Low Develop a Construction
+Environmental Management Plan
+(CEMP) adopting appropriate and
+relevant measures from Section 7.5
+of the AQIA, including monitoring as
+proposed in Section 8 of the AQIA.
+[[page 29]]
+Canberra Data Centres Pty Ltd
+Air Quality Impact Assessment
+Eastern Creek Data Centre
+17 Roberts Road, Eastern Creek
+SSD-10330SSD-10330
+SLR Ref No: 610.18883-R03-v3.0.docx
+October 2019
+Page 29
+10 References
+NSW Department of Planning. (2019, July 23). ePlanning Spatial Viewer.  Retrieved from
+https://www.planningportal.nsw.gov.au/spatialviewer/#/find-a-property/address
+NSW EPA. (2017, January). Approved Methods for the Modelling and Assessment of Air Pollutants in New South
+Wales.
+NSW OEH. (2017). New South Wales Annual Compliance Report 2015.
+NSW OEH. (2017). Towards Cleaner Air: NSW Air Quality Statement 2016.
+NSW OEH. (2018). Clearing the Air: New South Wales Air Quality Statement 2017.
+NSW OEH. (2019). NSW Annual Air Quality Statement 2018.
+NSW Parliament. (2010). Protection of the Environment Operations (Clean Air) Regulation 2010.
+[[page 30]]
+610.18883-R03-v3.0.docx Page 1 of 7
+APPENDIX A
+IAQM Construction Assessment Methodology
+[[page 31]]
+Page 2 of 7
+Step 1 – Screening Based on Separation Distance
+The Step 1 screening criteria provided by the IAQM guidance suggests screening out any assessment of impacts
+from construction activities where sensitive receptors are located more than 350 m from the boundary of the
+Site, more than 50 m from the route used by construction vehicles on public roads and more than 500 m from
+the Site entrance.  This step is noted as having deliberately been chosen to be conservative, and will require
+assessments for most projects.
+Step 2a – Assessment of Scale and Nature of the Works
+Step 2a of the assessment provides “dust emissions magnitudes” for each of four dust generating activities;
+demolition, earthworks, construction, and track-out (the movement of soils and dusty materials onto public
+roads by vehicles).  The magnitudes are: Large; Medium; or Small, with suggested definitions for each category.
+The definitions given in the IAQM guidance for earthworks, construction activities and track-out, which are most
+relevant to this Project, are as follows:
+Demolition (Any activity involved with the removal of an existing structure [or structures].  This may also be
+referred to as de-construction, specifically when a building is to be removed a small part at a time):
+· Large: Total building volume >50,000 m 3, potentially dusty construction material (e.g. concrete), on-
+site crushing and screening, demolition activities >20 m above ground level;
+· Medium: Total building volume 20,000 m 3 – 50,000 m 3, potentially dusty construction material,
+demolition activities 10-20 m above ground level; and
+· Small: Total building volume <20,000 m3, construction material with low potential for dust release (e.g.
+metal cladding or timber), demolition activities <10m above ground, demolition during wetter months.
+Earthworks (Covers the processes of soil-stripping, ground-levelling, excavation and landscaping):
+· Large: Total site area greater than 10,000 m2, potentially dusty soil type (eg clay, which will be prone
+to suspension when dry due to small particle size), more than 10 heavy earth moving vehicles active
+at any one time, formation of bunds greater than 8 m in height, total material moved more than
+100,000 t.
+· Medium: Total site area 2,500 m2 to 10,000 m2, moderately dusty soil type (eg silt), 5 to 10 heavy earth
+moving vehicles active at any one time, formation of bunds 4 m to 8 m in height, total material moved
+20,000 t to 100,000 t.
+· Small: Total site area less than 2,500 m 2, soil type with large grain size (eg sand), less than five heavy
+earth moving vehicles active at any one time, formation of bunds less than 4 m in height, total material
+moved less than 20,000 t, earthworks during wetter months.
+Construction (Any activity involved with the provision of a new structure (or structures), its modification or
+refurbishment.  A structure will include a residential dwelling, office building, retail outlet, road, etc):
+· Large: Total building volume greater than 100,000 m3, piling, on site concrete batching; sandblasting.
+· Medium: Total building volume 25,000 m 3 to 100,000 m3, potentially dusty construction material (eg
+concrete), piling, on site concrete batching.
+· Small: Total building volume less than 25,000 m 3, construction material with low potential for dust
+release (eg metal cladding or timber).
+[[page 32]]
+Page 3 of 7
+Track-out (The transport of dust and dirt from the construction / demolition site onto the public road network,
+where it may be deposited and then re-suspended by vehicles using the network):
+· Large: More than 50 heavy vehicle movements per day, surface materials with a high potential for
+dust generation, greater than 100 m of unpaved road length.
+· Medium: Between 10 and 50 heavy vehicle movements per day, surface materials with a moderate
+potential for dust generation, between 50 m and 100 m of unpaved road length.
+· Small: Less than 10 heavy vehicle movements per day, surface materials with a low potential for dust
+generation, less than 50 m of unpaved road length.
+In order to provide a conservative assessment of potential impacts, it has been assumed that if at least one of
+the parameters specified in the ‘large’ definition is satisfied, the works are classified as large, and so on.
+Step 2b – Risk Assessment
+Assessment of the Sensitivity of the Area
+· Step 2b of the assessment process requires the sensitivity of the area to be defined.  The sensitivity of
+the area takes into account:
+· The specific sensitivities that identified sensitive receptors have to dust deposition and human health
+impacts
+· The proximity and number of those receptors
+· In the case of PM10, the local background concentration
+· Other site-specific factors, such as whether there are natural shelters such as trees to reduce the risk
+of wind-blown dust.
+Individual receptors are classified as havinghigh, medium or low sensitivity to dust deposition and human health
+impacts (ecological receptors are not addressed using this approach).  The IAQM method provides guidance on
+the sensitivity of different receptor types to dust soiling and health effects as summarised in Table A-1.  It is
+noted that user expectations of amenity levels (dust soiling) is dependent on existing deposition levels.
+[[page 33]]
+Page 4 of 7
+Table A-1 IAQM Guidance for Categorising Receptor Sensitivity
+Value High Sensitivity
+Receptor
+Medium Sensitivity
+Receptor
+Low Sensitivity
+Receptor
+Dust soiling Users can reasonably
+expect a high level of
+amenity; or
+The appearance, aesthetics
+or value of their property
+would be diminished by
+soiling, and the people or
+property would reasonably
+be expected to be present
+continuously, or at least
+regularly for extended
+periods as part of the
+normal pattern of use of
+the land.
+Users would expect to
+enjoy a reasonable level of
+amenity, but would not
+reasonably expect to enjoy
+the same level of amenity
+as in their home; or
+The appearance, aesthetics
+or value of their property
+could be diminished by
+soiling; or
+The people or property
+wouldn’t reasonably be
+expected to be present
+here continuously or
+regularly for extended
+periods as part of the
+normal pattern of use of
+the land.
+The enjoyment of amenity
+would not reasonably be
+expected; or
+Property would not
+reasonably be expected to
+be diminished in
+appearance, aesthetics or
+value by soiling; or
+There is transient exposure,
+where the people or
+property would reasonably
+be expected to be present
+only for limited periods of
+time as part of the normal
+pattern of use of the land.
+Examples: Dwellings,
+museums, medium and long
+term car parks and car
+showrooms.
+Examples: Parks and places
+of work.
+Examples: Playing fields,
+farmland (unless
+commercially-sensitive
+horticultural), footpaths,
+short term car parks and
+roads.
+Health effects Locations where the public
+are exposed over a time
+period relevant to the air
+quality objective for PM10
+(in the case of the 24-hour
+objectives, a relevant
+location would be one
+where individuals may be
+exposed for eight hours or
+more in a day).
+Locations where the people
+exposed are workers, and
+exposure is over a time
+period relevant to the air
+quality objective for PM10
+(in the case of the 24-hour
+objectives, a relevant
+location would be one
+where individuals may be
+exposed for eight hours or
+more in a day).
+Locations where human
+exposure is transient.
+Examples: Residential
+properties, hospitals,
+schools and residential care
+homes.
+Examples: Office and shop
+workers, but will generally
+not include workers
+occupationally exposed to
+PM10.
+Examples: Public footpaths,
+playing fields, parks and
+shopping street.
+According to the IAQM methods, the sensitivity of the identified individual receptors (as described above) is
+then used to assess the sensitivity of the area surrounding the active construction area, taking into account the
+proximity and number of those receptors, and the local background PM10 concentration (in the case of potential
+health impacts) and other site-specific factors.  Additional factors to consider when determining the sensitivity
+of the area include:
+· Any history of dust generating activities in the area
+· The likelihood of concurrent dust generating activity on nearby sites
+[[page 34]]
+Page 5 of 7
+· Any pre-existing screening between the source and the receptors
+· Any conclusions drawn from analysing local meteorological data which accurately represent the area
+and if relevant, the season during which the works will take place
+· Any conclusions drawn from local topography
+· The duration of the potential impact (as a receptor may be willing to accept elevated dust levels for a
+known short duration, or may become more sensitive or less sensitive (acclimatised) over time for
+long-term impacts)
+· Any known specific receptor sensitivities which go beyond the classifications given in the IAQM
+document.
+The IAQM guidance for assessing the sensitivity of an area to dust soiling is shown in Table A-2.  The sensitivity
+of the area should be derived for each of activity relevant to the project (i.e. construction and earthworks).
+Table A-2 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Soiling Effects
+Receptor
+sensitivity Number of receptors
+Distance from the source (m)
+<20 <50 <100 <350
+High
+>100 High High Medium Low
+10-100 High Medium Low Low
+1-10 Medium Low Low Low
+Medium >1 Medium Low Low Low
+Low >1 Low Low Low Low
+Note: Estimate the total number of receptors within the stated distance. Only the highest level of area sensitivity from the table needs to be
+considered.  For example, if there are 7 high sensitivity receptors < 20m of the source and 95 high sensitivity receptors between 20 and 50 m,
+then the total of number of receptors < 50 m is 102. The sensitivity of the area in this case would be high.
+A modified version of the IAQM guidance for assessing the sensitivity of an area to health impacts is shown in
+Table A-3.  For high sensitivity receptors, the IAQM methods takes the existing background concentrations of
+PM10 (as an annual average) experienced in the area of interest into account and is based on the air quality
+objectives for PM10 in the UK.  As these objectives differ from the ambient air quality criteria adopted for use in
+this assessment (i.e. an annual average of 25 µg/m3 for PM10) the IAQM method has been modified slightly.
+· This approach is consistent with the IAQM guidance, which notes that in using the tables to define the
+sensitivity of an area , professional judgement may be used to determine alternative sensitivity
+categories, taking into account the following factors:
+· Any history of dust generating activities in the area
+· The likelihood of concurrent dust generating activity on nearby sites
+· Any pre-existing screening between the source and the receptors
+· Any conclusions drawn from analysing local meteorological data which accurately represent the area,
+and if relevant the season during which the works will take place
+· Any conclusions drawn from local topography
+· Duration of the potential impact
+· Any known specific receptor sensitivities which go beyond the classifications given in this document.
+[[page 35]]
+Page 6 of 7
+Table A-3 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Health Effects
+Receptor
+sensitivity
+Annual mean
+PM10 conc.
+Number of
+receptors a,b
+Distance from the source (m)
+<20 <50 <100 <200 <350
+High
+>25 µg/m3
+>100 High High High Medium Low
+10-100 High High Medium Low Low
+1-10 High Medium Low Low Low
+21-25 µg/m3
+>100 High High Medium Low Low
+10-100 High Medium Low Low Low
+1-10 High Medium Low Low Low
+17-21 µg/m3
+>100 High Medium Low Low Low
+10-100 High Medium Low Low Low
+1-10 Medium Low Low Low Low
+<17 µg/m3
+>100 Medium Low Low Low Low
+10-100 Low Low Low Low Low
+1-10 Low Low Low Low Low
+Medium
+>25 µg/m3
+>10 High Medium Low Low Low
+1-10 Medium Low Low Low Low
+21-25 µg/m3
+>10 Medium Low Low Low Low
+1-10 Low Low Low Low Low
+17-21 µg/m3
+>10 Low Low Low Low Low
+1-10 Low Low Low Low Low
+<17 µg/m3
+>10 Low Low Low Low Low
+1-10 Low Low Low Low Low
+Low - >1 Low Low Low Low Low
+Notes: (a) Estimate the total within the stated distance (e.g. the total within 350 m and not the number between 200 and 350 m); noting that only
+the highest level of area sensitivity from the table needs to be considered.
+(b) In the case of high sensitivity receptors with high occupancy (such as schools or hospitals) approximate the number of people likely to be
+present. In the case of residential dwellings, just include the number of properties.
+Risk Assessment
+The dust emission magnitude from Step 2a and the receptor sensitivity from Step 2b are then used in the
+matrices shown in Table A-4 (demolition), Table A-5 (earthworks and construction) andTable A-6 (track-out) to
+determine the risk category with no mitigation applied.
+[[page 36]]
+Page 7 of 7
+Table A-4 Risk Category from Demolition Activities
+Sensitivity of Area Dust Emission Magnitude
+Large Medium Small
+High High Risk Medium Risk Medium Risk
+Medium High Risk Medium Risk Low Risk
+Low Medium Risk Low Risk Negligible
+Table A-5 Risk Category from Earthworks and Construction Activities
+Sensitivity of Area Dust Emission Magnitude
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Medium Risk Low Risk
+Low Low Risk Low Risk Negligible
+Table A-6 Risk Category from Track-out Activities
+Sensitivity of Area Dust Emission Magnitude
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Low Risk Negligible
+Low Low Risk Low Risk Negligible
+Step 3 - Site-Specific Mitigation
+Once the risk categories are determined for each of the relevant activities, site-specific management measures
+can be identified based on whether the Site is a low, medium or high risk site.
+Step 4 – Residual Impacts
+Following Step 3, the residual impact is then determined after management measures have been considered.
+[[page 37]]
+ASIA PACIFIC OFFICES
+BRISBANE
+Level 2, 15 Astor Terrace
+Spring Hill  QLD  4000
+Australia
+T: +61 7 3858 4800
+F: +61 7 3858 4801
+CANBERRA
+GPO 410
+Canberra  ACT  2600
+Australia
+T: +61 2 6287 0800
+F: +61 2 9427 8200
+DARWIN
+Unit 5, 21 Parap Road
+Parap  NT  0820
+Australia
+T: +61 8 8998 0100
+F: +61 8 9370 0101
+GOLD COAST
+Level 2, 194 Varsity Parade
+Varsity Lakes  QLD  4227
+Australia
+M: [mobile redacted]
+MACKAY
+21 River Street
+Mackay  QLD  4740
+Australia
+T: +61 7 3181 3300
+MELBOURNE
+Suite 2, 2 Domville Avenue
+Hawthorn VIC 3122
+Australia
+T: +61 3 9249 9400
+F: +61 3 9249 9499
+NEWCASTLE
+10 Kings Road
+New Lambton  NSW  2305
+Australia
+T: +61 2 4037 3200
+F: +61 2 4037 3201
+PERTH
+Ground Floor, 503 Murray Street
+Perth  WA  6000
+Australia
+T: +61 8 9422 5900
+F: +61 8 9422 5901
+SYDNEY
+2 Lincoln Street
+Lane Cove  NSW  2066
+Australia
+T: +61 2 9427 8100
+F: +61 2 9427 8200
+TOWNSVILLE
+Level 1, 514 Sturt Street
+Townsville  QLD  4810
+Australia
+T: +61 7 4722 8000
+F: +61 7 4722 8001
+TOWNSVILLE SOUTH
+12 Cannan Street
+Townsville South  QLD  4810
+Australia
+T: +61 7 4772 6500
+WOLLONGONG
+Level 1, The Central Building
+UoW Innovation Campus
+North Wollongong NSW 2500
+Australia
+T: [mobile redacted]
+AUCKLAND
+68 Beach Road
+Auckland 1010
+New Zealand
+T: +64 27 441 7849
+NELSON
+6/A Cambridge Street
+Richmond, Nelson 7020
+New Zealand
+T: +64 274 898 628

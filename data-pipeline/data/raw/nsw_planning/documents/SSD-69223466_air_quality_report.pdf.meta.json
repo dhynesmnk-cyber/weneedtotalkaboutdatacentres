@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69223466%2120250428T064037.593+GMT",
+ "project_slug": "project-pluto-data-centre",
+ "attachment_slug": "appendix-t-air-quality-33",
+ "kind": "air_quality_report",
+ "label": "Appendix T - Air Quality.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:22:39+00:00",
+ "sha256": "b84b81c50cb5e57cb6764b956e26d2b5af9c1c37ae030d7c3b68e55c2acf13cd",
+ "bytes": 10466681,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 277788,
+ "pages": 166,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

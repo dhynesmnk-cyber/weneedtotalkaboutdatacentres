@@ -50,6 +50,7 @@ PACKS_ALLOW_MISSING = data/packs/rg013_hyperscaler_sites.json \
                       data/packs/rg061_rg099_decisions.json \
                       data/packs/batch7_open_questions.json \
                       data/packs/batch7_decisions.json \
+                      data/packs/batch8_open_questions.json \
                       data/packs/people_register.json
 CER_YEARS = 2019-20,2020-21,2021-22,2022-23,2023-24,2024-25
 # AusTender keyword to archive. Palantir is the entry point the scraper was written for; the
@@ -142,6 +143,7 @@ verify:
 	$(PY) scripts/curate_rg101_digico.py
 	$(PY) scripts/curate_batch7.py
 	$(PY) scripts/curate_batch7_decisions.py
+	$(PY) scripts/curate_batch8.py
 	$(PY) scripts/curate_people.py
 
 load: build verify

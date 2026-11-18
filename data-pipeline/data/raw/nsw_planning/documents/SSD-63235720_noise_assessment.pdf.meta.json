@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-63235720%2120250217T051243.203+GMT",
+ "project_slug": "1-5-khartoum-road-data-centre",
+ "attachment_slug": "appendix-k-noise-and-vibration-impact-assessment-475",
+ "kind": "noise_assessment",
+ "label": "Appendix K - Noise and Vibration Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:15:17+00:00",
+ "sha256": "61aad7b2a2cbd29fd46118ee5fe331ed5392dcc6e6db187cc0313403a21f8ebf",
+ "bytes": 26083821,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 163764,
+ "pages": 97,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

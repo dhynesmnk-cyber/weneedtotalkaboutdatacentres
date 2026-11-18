@@ -1,0 +1,2524 @@
+[[page 1]]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sydney Datacentre SYD08 – SSDA 
+Acoustic Assessment Report 
+LCI Consultants 
+ 
+Report number: 210628 - SYD08 - SSDA Acoustic Assessment Report – R9 
+Date: 2 September 2022 
+Version: Issue 8 
+ 
+ 
+[[page 2]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 2 of 77 
+ 
+DOCUMENT CONTROL 
+Project Name Sydney Datacentre SYD08 – SSDA Acoustic Assessment Report 
+Project Number 210628 
+Report Reference 210628 - SYD08 - SSDA Acoustic Assessment Report – R9 
+Client: LCI Consultants 
+ 
+Revision Description Reference Date Prepared Checked Authorised 
+1 DRAFT 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report - R1 
+23 February 
+2022 
+Alex Danon Matthew Furlong Matthew Harrison 
+2 Issue 1 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R2 
+28 February 
+2022 
+Alex Danon Matthew Furlong Matthew Harrison 
+3 Issue 2 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R3 
+3 March 2022 Alex Danon Matthew Furlong Matthew Harrison 
+4 Issue 3 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R4 
+24 March 
+2022 
+Alex Danon Matthew Furlong Matthew Harrison 
+5 Issue 4 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R5 
+20 May 2022 Alex Danon Matthew Furlong Matthew Harrison 
+6 Issue 5 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R6 
+30 May 2022 Alex Danon Matthew Furlong Matthew Harrison 
+7 Issue 6 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R7 
+3 June 2022 Alex Danon Matthew Furlong Matthew Harrison 
+8 Issue 7 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R8 
+29 August 
+2022 
+Alex Danon Matthew Furlong Matthew Harrison 
+9 Issue 8 210628 - SYD08 - SSDA 
+Acoustic Assessment 
+Report – R9 
+2 September 
+2022 
+Alex Danon Matthew Furlong Matthew Harrison 
+PREPARED BY: 
+Pulse White Noise Acoustics Pty Ltd 
+ABN 95 642 886 306 
+Level 5, 73 Walker Street, North Sydney, 2060 
+1800 4 PULSE 
+[[page 3]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 3 of 77 
+ 
+This report has been prepared by Pulse White Noise Acoustics Pty Ltd 
+with all reasonable skill, care and diligence, and taking account of the 
+timescale and resources allocated to it by agreement with the Client. 
+Information reported herein is based on the interpretation of data collected, 
+which has been accepted in good faith as being accurate and valid. 
+This report is for the exclusive use of LCI Consultants 
+No warranties or guarantees are expressed or should be inferred by any third parties. 
+This report may not be relied upon by other parties without written consent from Pulse White Noise Acoustics.  
+This report remains the property of Pulse White Noise Acoustics Pty Ltd until paid for in full by the client, LCI 
+Consultants. 
+Pulse White Noise Acoustics disclaims any responsibility to the Client and others 
+in respect of any matters outside the agreed scope of the work. 
+  
+[[page 4]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 4 of 77 
+ 
+TABLE OF CONTENTS 
+1 INTRODUCTION ............................................................................................................................ 8 
+1.1 Purpose .................................................................................................................................. 8 
+1.2 Site Location ........................................................................................................................... 8 
+1.3 Site Description ....................................................................................................................... 9 
+1.3.1 Overview of Approved Development ............................................................................. 9 
+1.4 Overview of proposed development ........................................................................................ 10 
+1.5 Nearest Sensitive Receptors ................................................................................................... 13 
+2 EXISTING ACOUSTIC ENVIRONMENT ........................................................................................ 15 
+2.1 Noise Descriptors and Terminology ......................................................................................... 15 
+2.2 Unattended Noise Measurements ............................................................................................ 15 
+2.2.1 Monitoring Details .................................................................................................... 15 
+2.2.2 Monitoring Instrumentation ....................................................................................... 15 
+3 OPERATIONAL NOISE EMISSION CRITERIA.............................................................................. 17 
+3.1 Blacktown Development Control Plan 2015 .............................................................................. 17 
+3.2 NSW Noise Policy for Industry ................................................................................................ 17 
+3.2.1 Intrusive Noise Impacts (Residential Receivers) ........................................................... 17 
+3.2.2 Protecting Noise Amenity (All Receivers) ..................................................................... 17 
+3.2.3 Area Classification .................................................................................................... 18 
+3.2.4 Project Trigger Noise Levels ...................................................................................... 18 
+3.2.5 Sleep Disturbance ..................................................................................................... 19 
+3.3 Road Traffic Noise Criteria ...................................................................................................... 20 
+3.3.1 Road classification .................................................................................................... 20 
+3.3.2 Noise assessment criteria .......................................................................................... 20 
+3.4 Criteria for Emergency Generators .......................................................................................... 21 
+3.5 Development Near Rail Corridors and Busy Roads – Interim Guideline ........................................ 22 
+3.6 Interim Construction Noise Guideline ....................................................................................... 23 
+3.7 Vibration Criteria ................................................................................................................... 25 
+3.7.1 Vibration Criteria – Human Comfort ............................................................................ 25 
+3.7.2 Vibration Criteria – Building Contents and Structure ..................................................... 26 
+3.7.3 Standard BS 7385 Part 2 - 1993 ................................................................................. 27 
+3.7.4 Standard DIN 4150 Part 3 - 1999 ............................................................................... 28 
+4 POTENTIAL NOISE IMPACTS ...................................................................................................... 29 
+4.1 Predictive Noise Modelling Equipment ..................................................................................... 29 
+4.2 Nominal Equipment Sound Power Levels ................................................................................. 29 
+4.3 Noise from Trucks and Cars Travelling to or from the Site ......................................................... 31 
+4.3.1 Assumed Vehicle Noise Levels and Time Durations ...................................................... 31 
+4.4 Modelling Assumptions........................................................................................................... 32 
+4.5 Modelled Scenarios ................................................................................................................ 32 
+4.6 Predicted Noise Levels ........................................................................................................... 37 
+4.6.1 Standard Mode Operational Scenarios ........................................................................ 37 
+[[page 5]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 5 of 77 
+ 
+4.6.2 Standard Mode Emergency Scenario .......................................................................... 40 
+4.6.3 Bushfire Mode Operational Scenarios .......................................................................... 41 
+4.6.4 Bushfire Mode Emergency Scenario ............................................................................ 44 
+4.7 Feasibility And Noise Control Measures .................................................................................... 45 
+5 ROAD TRAFFIC NOISE ASSESSMENT ......................................................................................... 50 
+6 CONSTRUCTION NOISE AND VIBRATION .................................................................................. 51 
+6.1 Noise Generating Scenarios .................................................................................................... 51 
+6.2 Modelling Assumptions........................................................................................................... 55 
+6.3 Predicted LAeq, 15 min Noise Levels ............................................................................................. 55 
+6.4 Construction Vibration Assessment .......................................................................................... 59 
+7 CONSTRUCTION NOISE CONTROL MEASURES .......................................................................... 60 
+7.1 Acoustic Management Procedures ........................................................................................... 60 
+7.1.1 Summary of Management Procedures ........................................................................ 60 
+7.1.2 Allocation of Noise Management Procedures ............................................................... 62 
+7.2 Site Specific Noise Mitigation Measures.................................................................................... 62 
+7.2.1 General Comments ................................................................................................... 62 
+7.2.2 Noise Monitoring ...................................................................................................... 63 
+7.2.3 Alternate Equipment or Process ................................................................................. 63 
+7.2.4 Acoustic Enclosures/Screening ................................................................................... 63 
+7.2.5 Site Cranes (Permanent) ........................................................................................... 63 
+7.2.6 Required Piling ......................................................................................................... 64 
+7.3 Community Consultation ........................................................................................................ 64 
+7.4 Complaints Management System ............................................................................................ 64 
+7.5 Contingency Plans ................................................................................................................. 65 
+7.6 General Mitigation Measures (Australia Standard 2436-2010) .................................................... 65 
+7.6.1 Adoption of Universal Work Practices ......................................................................... 65 
+7.6.2 Plant and Equipment................................................................................................. 65 
+7.6.3 On Site Noise Mitigation ............................................................................................ 66 
+7.6.4 Work Scheduling ...................................................................................................... 66 
+7.6.5 Source Noise Control Strategies ................................................................................. 66 
+7.6.6 Miscellaneous Comments .......................................................................................... 66 
+8 CONCLUSION .............................................................................................................................. 67 
+APPENDIX A: ACOUSTIC TERMINOLOGY ............................................................................................. 68 
+APPENDIX B: NOISE MONITORING RESULTS ...................................................................................... 70 
+  
+[[page 6]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 6 of 77 
+ 
+TABLES 
+Table 1 SEARs relevant to the Acoustic Assessment ............................................................................. 8 
+Table 2 Nearest Potentially Affected Receivers .................................................................................. 13 
+Table 3 Measured Ambient Noise Levels corresponding to the NPI’s Assessment Time Periods .............. 16 
+Table 4 NSW NPI – Recommended LAeq Noise Levels from Industrial Noise Sources ............................ 18 
+Table 5 External noise level criteria in accordance with the NSW NPI .................................................. 19 
+Table 6 Road Traffic Noise Assessment Criteria for Residential Land Uses ............................................ 20 
+Table 7 Proposed generator testing plan ........................................................................................... 22 
+Table 8 NMLs for quantitative assessment at residences .................................................................... 24 
+Table 9 NMLs for quantitative assessment at non-residential receivers ................................................ 24 
+Table 10 NMLs as basis for the acoustic assessment ............................................................................ 25 
+Table 11 Intermittent vibration impacts criteria (m/s1.75) 1 Hz-80 Hz ..................................................... 25 
+Table 12 Impulsive vibration in terms of weighted RMS acceleration criteria (m/s2) 1-80Hz ..................... 26 
+Table 13 Criteria for exposure to impulsive vibration, presented in different units (Z axis only) 1 ............. 26 
+Table 14 Transient vibration criteria as per standard BS 7385 Part 2 - 1993........................................... 27 
+Table 15 Structural damage criteria as per standard DIN 4150 Part 3 - 1999 ......................................... 28 
+Table 16 Sound power level (SWL) for Air Handling Units .................................................................... 30 
+Table 17 Sound Power Level (SWL) for the generators in acoustic enclosures ........................................ 30 
+Table 18 Insertion Losses Assumed for Combination of Evaporative Cooler and Filters within Air Handling Units 
+(Standard Mode) ................................................................................................................ 30 
+Table 19 Insertion Losses Assumed for Combination of Evaporative Cooler and Filters within Air Handling Units 
+(Bushfire Mode) .................................................................................................................. 30 
+Table 20 Minimum Insertion Losses – 200mm Deep Intake Louvres for Air Handling Units (for Standard Mode)
+ ......................................................................................................................................... 31 
+Table 21 Minimum Insertion Losses – 300mm Deep Intake Louvres for Air Handling Units (for Bushfire Mode)
+ ......................................................................................................................................... 31 
+Table 22 Predicted Noise Levels, Standard Mode Operational Scenarios, LAeq (15 minute) ..................... 37 
+Table 23 Predicted Noise Levels, Standard Mode Emergency Scenario, LAeq (15 minute) ....................... 40 
+Table 24 Predicted Noise Levels, Bushfire Mode Operational Scenarios, LAeq (15 minute) ....................... 41 
+Table 25 Predicted Noise Levels, Bushfire Mode Emergency Scenario, LAeq (15 minute) ......................... 44 
+Table 26 Minimum Insertion Losses – 200mm Deep Intake Louvres for Air Handling Units (for Standard Mode)
+ ......................................................................................................................................... 45 
+Table 27 Minimum Insertion Losses – 300mm Deep Intake Louvres for Air Handling Units (for Bushfire Mode)
+ ......................................................................................................................................... 45 
+Table 28 Summary of utilised construction sound power levels ............................................................. 51 
+Table 29 Predicted Noise Levels, Construction Scenarios, LAeq (15 minute) ........................................... 55 
+Table 30 Recommended indicative safe working distances for vibration intensive plant ........................... 59 
+Table 31 Summary of mitigation procedures ....................................................................................... 61 
+Table 32 Allocation of noise management procedures – residential receivers ......................................... 62 
+ 
+FIGURES 
+Figure 1 Site location – sourced from SIX Maps NSW ............................................................................ 9 
+Figure 2 Site Plan for approved data centre on Site, under DA-21-01058 (Source: DEM architects) ......... 10 
+Figure 3 Render of the proposed development ................................................................................... 11 
+Figure 4 Proposed SYD08 Site Plan ................................................................................................... 12 
+Figure 5 Section View of Proposed SYD08 Development ...................................................................... 12 
+Figure 6 Proposed SYD08 datacentre location with respect to nearest residential receivers ..................... 13 
+Figure 7 Location of Considered Receivers surrounding the project site ................................................ 14 
+Figure 8 Photograph of noise monitor on site ..................................................................................... 16 
+Figure 9 Rail Vibration Assessment Zones .......................................................................................... 23 
+Figure 10 BS 7385 Part 2 – 1993, graph of transient vibration values for cosmetic damage ...................... 27 
+Figure 11 Modelled Noise Emission Sources visualized for the Day Period ............................................... 34 
+Figure 12 Modelled Noise Emission Sources visualized for the Evening/Night Period ................................ 35 
+Figure 13 Modelled Noise Emission Sources visualized for the Emergency Scenario ................................. 36 
+Figure 14 Standard Mode Operational Scenario 1 – Operational Day Scenario with 60 Direct Evaporative Cooling 
+Air Handling Units (with 200mm Deep Acoustic Louvres) and 1 x 3.0 MW Generator ................. 38 
+[[page 7]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 7 of 77 
+ 
+Figure 15 Standard Mode Operational Scen ario 2 – Operational Evening/Night Scenario with 60 Direct 
+Evaporative Cooling Air Handling Units (with 200mm Deep Acoustic Louvres) .......................... 39 
+Figure 16 Bushfire Mode Operational Scenario 1 – Operational Day Scenario with 67 Direct Evaporative Cooling 
+Air Handling Units (with 300mm Deep Acoustic Louvres) and 1 x 3.0 MW Generator ................. 42 
+Figure 17 Bushfire Mode Operational Scenario 2 – Operational Evening/Night Scenario with 67 Direct 
+Evaporative Cooling Air Handling Units (with 300mm Deep Acoustic Louvres) .......................... 43 
+Figure 18 Markup showing locations of proposed acoustic louvres should “Standard mode” AHUs be 
+implemented – Level 1 ........................................................................................................ 46 
+Figure 19 Markup showing locations of pro posed acoustic louvres should “Standard mode” AHUs be 
+implemented – Level 2 ........................................................................................................ 47 
+Figure 20 Markup showing locations of proposed acoustic louvres should “Bushfire mode” AHUs be 
+implemented – Level 1 ........................................................................................................ 48 
+Figure 21 Markup showing locations of proposed acoustic louvres should “Bushfire mode” AHUs be 
+implemented – Level 2 ........................................................................................................ 49 
+Figure 22 Construction Scenario 1 – General Excavation Works ............................................................. 52 
+Figure 23 Construction Scenario 2 – Concreting Works ......................................................................... 53 
+Figure 24 Construction Scenario 3 – Façade Construction ...................................................................... 54 
+Figure 25 Predicted Noise Contours – Construction Scenario 1, LAeq (15 minute) ........................................... 56 
+Figure 26 Predicted Noise Contours – Construction Scenario 2, LAeq (15 minute) ........................................... 57 
+Figure 27 Predicted Noise Contours – Construction Scenario 3, LAeq (15 minute) ........................................... 58 
+[[page 8]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 8 of 77 
+ 
+1 INTRODUCTION 
+1.1 Purpose 
+This acoustic assessment report has been prepared by Pulse White Noise Acoustics (PWNA) on behalf of Lehr 
+Consultants International (Australia) Pty Ltd (LCI) in support of a State Significant Development Application (SSDA) 
+submitted to the Department of Planning and Environment (DPE) under Part 4 of the Environmental Planning and 
+Assessment Act 1979 (EP&A Act 1979). 
+LCI is seeking to secure approval for the construction of a new data storage centre development on the site known 
+as 57 St ation Road, Seven Hills, located within the Blacktown City Council local government area (LGA). The 
+proposed development will comprise the erection of a new two-storey data centre at the rear of the site, associated 
+plant and equipment, car parking areas, landscaping, and civil works. 
+This report provides a noise and vibration  impact assessment and responds to the Industry Specific Secretary’s 
+Environmental Assessment Requirements (SEARs) issued by DPE on 23 December 2021. An outline of the SEARs 
+relevant to this acoustic assessment, and how they have been responded to, is summarised in the table below. 
+Table 1 SEARs relevant to the Acoustic Assessment 
+Issue and Assessment Requirements Documentation Response 
+12. Noise and Vibration 
+• Provide a noise and vibration 
+assessment prepared in accordance 
+with the relevant EPA guidelines and 
+Australian/International Standards. 
+The assessment must detail 
+construction and operational noise 
+and vibration impacts (including 
+testing of any back-up power system) 
+on nearby sensitive receivers and 
+structures, and outline the proposed 
+mitigation, management and 
+monitoring measures that would be 
+implemented. 
+• Noise and Vibration 
+Impact Assessment 
+Feasibility and 
+Mitigation and 
+management measures 
+are detailed in Section 
+4.6.4. 
+This document provides high level acoustic advice for the proposed datacentre, including an assessment of noise 
+emissions to external receivers. 
+Regarding noise emissions to external receivers, this document includes receptor identification, unattended noise 
+measurements, criteria derivation, and conceptual noise control measures recommended for the facility to address 
+potential noise and vibration impacts. 
+1.2 Site Location 
+The site is within the Blacktown local government area (LGA), however is on the boundary of the Parramatta LGA 
+also. The site is in the Seven Hills Industrial Area, approximately 3.8km east of the Blacktown CBD and 6.8km west 
+of the Parramatta CBD, and approximately halfway between Toongabbie and Seven Hills railway stations.  The 
+subject site and surrounding areas are shown in Figure 1 below. 
+  
+[[page 9]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 9 of 77 
+ 
+Figure 1 Site location – sourced from SIX Maps NSW 
+ 
+1.3 Site Description 
+The site is located on land known as 57 Station Road, Seven Hills, described legally as Lot B / DP 404669. The site 
+is rectangular in shape with an area of 2.57ha and a northeast -southwest orientation. It is a corner lot with a 
+frontage of arou nd 111m to Station Road to the southwest, and 242m to McCoy Street road reserve to the 
+southeast. The majority of the McCoy Street road reserve is unformed, with a formed 80m long driveway providing 
+access to the adjoining McCoy Park. 
+The site is currently occupied by a range of buildings and structures associated with the previous industrial uses. 
+An HV transmission tower is also located on the Site in the south, at the corner of Station Road and McCoy Street. 
+Vehicular access is provided via three separate crossings along Station Road. 
+1.3.1 Overview of Approved Development 
+The Site is subject to an existing development approval, issued by Blacktown City Council under DA -21-01058 on 
+10 January 2022. The development consent permits: 
+Removal of trees, bulk earthwo rks, stormwater drainage works and construction of a single storey data 
+centre to operate 24 hours a day 7 days a week with ancillary offices, on -site parking and associated 
+landscaping. 
+The existing approval permits tree removal, bulk earthworks, and drai nage works across the entirety of the site, 
+with the construction of a data centre on approximately the front third as depicted in the figure below. The balance 
+of the site is the location of the proposed SSDA, excluding bulk earthworks. 
+Surrounding Residential Receivers 
+SYD08 Project Site 
+Station Road 
+Edna Avenue 
+[[page 10]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 10 of 77 
+ 
+Figure 2 Site Plan for approved data centre on Site, under DA-21-01058 (Source: DEM architects) 
+ 
+1.4 Overview of proposed development 
+The SSDA seeks approval for the construction and use of a new data storage premises at the rear of the site. The 
+particulars of the Proposal are as follows: 
+• Construction of a new two -storey 19.2MW data centre at the rear of the Site including ancillary office 
+space 
+• A total floor area of 8,076sqm 
+• Provision of external plant in plant yards to the west, north and south of the proposed data hall, as well 
+as rooftop plant, which will be screened 
+• Provision of 9 new generators, for a site total of 12 generators 
+• Capacity for up to 289,000L of diesel fuel storage 
+• Operation to take place 24 hours a day, 7 days a week 
+• New vehicular circulation to provide access to Station Road, connecting into new driveways already 
+approved under DA-21-01058 
+
+[[page 11]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 11 of 77 
+ 
+• Parking for 31 vehicles 
+• Landscaping works. 
+Select images of the Proposal are provided below. 
+ 
+Figure 3 Render of the proposed development 
+ 
+
+[[page 12]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 12 of 77 
+ 
+Figure 4 Proposed SYD08 Site Plan 
+ 
+ 
+Figure 5 Section View of Proposed SYD08 Development 
+ 
+ 
+The orientation of the proposed datacentre with respect to the closest residential receiver is shown in Figure 6 
+below. 
+
+[[page 13]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 13 of 77 
+ 
+Figure 6 Proposed SYD08 datacentre location with respect to nearest residential receivers 
+ 
+ 
+ 
+1.5 Nearest Sensitive Receptors 
+Several potentially impacted noise receivers are located in the vicinity of the subject site. The receptors in this 
+report are considered representative of the closest off -site receivers for the proposed datacentre. The considered 
+receivers are listed in Table 2 and presented in Figure 7 below. 
+Table 2 Nearest Potentially Affected Receivers 
+Receptor ID Address Lot and DP Type of Receiver 
+R1 13 Edna Avenue, Toongabbie Lot 53 in DP 29128 Residential 
+R2 20A Edna Avenue, Toongabbie Lot 1 in DP 1265160 Residential 
+R3 43 Station Road, Toongabbie Lot 12 in DP 28399 Residential 
+R4 51 Station Road, Toongabbie Lot 2 in DP 215656 Residential 
+R5 1 McCoy Street, Toongabbie SP 90150 Residential 
+R6 15 Carter Street, Seven Hills SP 90359 Residential 
+R7 13 Carter Street, Seven Hills Lot 6 in DP 657231 Residential 
+R8 11 Carter Street, Seven Hills Lot 5 in DP 1004516 Residential 
+R9 9 Carter Street, Seven Hills Lot 4 in DP 1049979 Residential 
+R10 43 Station Road, Toongabbie Lot 1 in DP 215656 Commercial 
+75 m 
+[[page 14]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 14 of 77 
+ 
+Receptor ID Address Lot and DP Type of Receiver 
+R11 2 Tollis Place, Seven Hills Lot 11 in DP 1071476 Industrial 
+R12 4-6 Tollis Place, Seven Hills Lots 9 and 10 in DP 
+1071476 
+Industrial 
+R13 8 Tollis Place, Seven Hills SP 76250 Industrial 
+R14 10 Tollis Place, Seven Hills SP 76275 Industrial 
+R15 12 Tollis Place, Seven Hills SP 78424 Industrial 
+R16 16 Distribution Place, Seven Hills Lot 9 in DP 1098735 Industrial 
+R17 18 Distribution Place, Seven Hills Lot 8 in DP 1098735 Industrial 
+R18 20 Distribution Place, Seven Hills Lot 7 in DP 1098735 Industrial 
+R19 26 Mimosa Avenue, Toongabbie Lot A in DP 29128 Active Recreation 
+Figure 7 Location of Considered Receivers surrounding the project site 
+ 
+  
++ R1 + R2 
++ R3 
++ R6 
++ R5 
+Noise Logger location 
++ R7 
++ R8 
+R12 + 
+R11 + 
+R10 + 
++ R9 
+R13 + 
+R14 + 
+R15 + 
+R16 + 
+R17 + 
++ R18 
++ R19 
++ R4 
+[[page 15]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 15 of 77 
+ 
+2 EXISTING ACOUSTIC ENVIRONMENT 
+2.1 Noise Descriptors and Terminology 
+Environmental noise constantly varies in level with time. Therefore, it is necessary to measure noise in terms of 
+quantifiable time periods with statistical descriptors. Typically , environmental noise is measured over 15 minute 
+periods and relevant statistical descriptors of the fluctuating noise are determined to quantify the measured level.  
+Noise (or sound) consists of minute fluctuations in atm ospheric pressure capable of detection by human hearing. 
+Noise levels are expressed in terms of decibels, abbreviated as dB or dBA, the “A” indicating that the noise levels 
+have been frequency weighted to approximate the characteristics of normal human hea ring. Because noise is 
+measured using a logarithmic scale, ‘normal’ linear arithmetic does not apply, e.g. , adding two sound sources of 
+equal values result in an increase of 3dB (i.e., 60 dBA plus 60 dBA results in 63 dBA). A change of 1 dB or 2 dB in 
+the sound level is difficult for most people to detect, whilst a 3 dB – 5 dB change corresponds to a small but 
+noticeable change in loudness. A 10 dB change roughly corresponds to a doubling or halving in loudness. 
+The most relevant environmental noise descriptors are the LAeq, LA1, LA10 and LA90 noise levels. The LAeq noise level 
+represents the “equivalent energy average noise level”. This parameter is derived by integrating the noise level 
+measured over the measurement period. It represents the level that the  fluctuating noise with the same acoustic 
+energy would be if it were constant over the measured time period. 
+The LA1, LA10 and LA90 levels are the levels exceeded for 1%, 10% and 90% of the sample period. These levels can 
+be considered as the maximum noise  level, the average repeatable maximum and average repeatable minimum 
+noise levels, respectively. 
+Specific acoustic terminology is used in this assessment report. An explanation of common acoustic terms is included 
+in Appendix A. 
+2.2 Unattended Noise Measurements 
+2.2.1 Monitoring Details 
+To determine the background noise levels at nearby receivers , long term unattended noise monitoring was 
+conducted at 18 Edna Avenue, Toongabbie. 
+The unattended noise logger at 18 Edna Avenue was chosen as it is one of the closest residential receivers to the 
+subject site. The noise logger was positioned to the side of the house, in line with the residential façade. The 
+location of the unattended noise logger is shown in Figure 7. 
+2.2.2 Monitoring Instrumentation 
+Instrumentation used for the noise survey comprised a Rion NL 42 sound level meter / analyse r (serial number 
+00409024) fitted with a microphone windshield. Calibration of the logger was checked prior to and following the 
+measurements. Drift in calibration did not exceed ±0.5 dBA. All equipment carried appropriate and current NATA 
+(or manufacturer) calibration certificates. A photograph of the noise logger on site is shown in Figure 8. 
+Charts presenting summaries of the measured daily noise data  are attached in Appendix B. These charts, 
+representing each 24 hour period, show the L A1, LA10, LAeq and LA90 noise levels measured over 15 minute time 
+periods. 
+Logging was conducted from Wednesday 21 October 2020 to Tuesday 27 October 2020. The measurement results 
+have been filtered to remove data affected by adverse weather conditions, such as excessively windy or rainy time 
+periods, as recorded by the nearest Bureau of Meteorology weather station at Horsley Park (AWS 067119). Detailed 
+noise logging results are shown in Appendix B. 
+The measured background noise data of the logger was processed in accordance with the recommendations 
+contained in the NSW Environment Protection Authority’s (EPA) Noise Policy for Industry (NPI).   
+[[page 16]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 16 of 77 
+ 
+The Rating Background Noise Level (RBL) is the background noise level used for assessment purposes at the 
+nearest potentially affected receiver. It is the 90 th percentile of the daily background noise levels during each 
+assessment period, being day, evening and night . The RBL L A90 (15minute) and LAeq noise levels are presented in  
+Table 3. 
+The results of the measurement survey provide ambient noise levels that are considered to be representative of 
+the levels to be expected at the nearest and most affected residences to the proposed development. 
+Table 3 Measured Ambient Noise Levels corresponding to the NPI’s Assessment Time Periods 
+Measurement 
+Location 
+Daytime1 
+7:00 am to 6:00 pm 
+Evening1 
+6:00 pm to 10:00 pm 
+Night-time1 
+10:00 pm to 7:00 am 
+RBL2 LAeq3 RBL2 LAeq3 RBL2 LAeq3 
+18 Edna Avenue, 
+Toongabbie 
+41 dBA  55 dBA 39 dBA 50 dBA 31 dBA 46 dBA 
+Note 1: For Monday to Saturday, Daytime 7:00 am – 6:00 pm; Evening 6:00 pm – 10:00 pm; Night-time 10:00 pm – 
+7:00 am. On Sundays and Public Holidays, Daytime 8:00 am – 6:00 pm; Evening 6:00 pm – 10:00 pm;  
+Night-time 10:00 pm – 8:00 am 
+Note 2: The RBL noise level is representative of the “average minimum background sound level” (in the absence of the 
+source under consideration), or simply the background level. 
+Note 3: The LAeq is the energy average sound level. It is defined as the steady sound level that contains the same amount 
+of acoustical energy as a given time-varying sound. 
+Figure 8 Photograph of noise monitor on site 
+ 
+  
+
+[[page 17]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 17 of 77 
+ 
+3 OPERATIONAL NOISE EMISSION CRITERIA 
+3.1 Blacktown Development Control Plan 2015 
+Section 4.3 Consideration of adjoining land from the Blacktown Development Control Plan (DCP) 2015 states the 
+following in relation to industrial developments: 
+Where development is proposed on major traffic routes or on land near to or adjoining a residential zone, a 
+RE1 Public Recreation zone, or sensitive uses such as schools, Council will have particular regard to the 
+following: 
+(d) The likely level of noise to be emitted by the development, particularly its effect on the use 
+of adjoining residential land. In general, noise generated by a development should not 
+exceed the existing background sound pressure level by more than 5dB(A). A statement of 
+compliance with this standard from an acoustic consultant may be required to be submitted 
+with the DA. 
+3.2 NSW Noise Policy for Industry 
+In NSW, the control of noise emissions is the responsibility of Local Governments and the NSW Environment 
+Protection Authority (NSW EPA). 
+The NSW EPA has recently released a document titled Noise Policy for Industry  (NSW NPI) which provides a 
+framework and process for determining external noise criteria for the assessment of noise emission from industrial 
+developments.  The NSW NPI criteria for industrial noise sources have two components: 
+• Controlling the intrusive noise impacts for residents and other sensitive receivers in the short term; and 
+• Maintaining noise level amenity of particular land uses for residents and sensitive receivers in other land 
+uses. 
+3.2.1 Intrusive Noise Impacts (Residential Receivers) 
+The NSW NPI states that the noise from any single source should not intrude greatly above the prevailing 
+background noise level.  Industrial noises are generally considered acceptable if the equivalent continuous (energy-
+average) A-weighted level of noise from the source (L Aeq), measured over a 15 minute period, does not exceed 
+the background noise level measured in the absence of the source by more than 5 dB(A).  This is often termed the 
+Intrusiveness Criterion. 
+The ‘Rating Background Level’ (RBL) is the background noise level to be used for assessment pu rposes and is 
+determined by the methods given in the NSW NPI. Using the rating background noise level approach results in the 
+intrusiveness criterion being met for 90% of the time.  Adjustments are to be applied to the level of noise produced 
+by the source that is received at the assessment point where the noise source contains annoying characteristics 
+such as tonality or impulsiveness. 
+3.2.2 Protecting Noise Amenity (All Receivers) 
+To limit continuing increases in noise levels, the maximum ambient noise level within an area from industrial noise 
+sources should not normally exceed the acceptable noise levels specified in Table 2.2 of the NSW NPI.  That is, the 
+ambient LAeq noise level should not exceed the level appropriate for the particular locality and land use .  This is 
+often termed the ‘Background Creep’ or Amenity Criterion.  
+The amenity assessment is based on noise criteria specified for a particular land use and corresponding sensitivity 
+to noise.  The cumulative effect of noise from industrial sources need s to be considered in assessing the impact.  
+These criteria relate only to other continuous industrial-type noise and do not include road, rail or community noise.  
+If the existing (measured) industrial -type noise level approaches the criterion value, then  the NSW NPI sets 
+maximum noise emission levels from new sources with the objective of ensuring that the cumulative levels do not 
+significantly exceed the criterion. 
+[[page 18]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 18 of 77 
+ 
+3.2.3 Area Classification 
+The NSW NPI characterises the “Suburban Residential” noise environment  as an area that has local traffic with 
+characteristically intermittent traffic flows or with some limited commerce or industry. This area often has the 
+following characteristic: evening ambient noise levels defined by the natural environment and human activity.  
+In addition, the RBLs at 18 Edna Avenue are < 45 during the day, < 40 during the evening and < 35 during the 
+night period, corresponding to the suburban receiver category.  
+Therefore, for residential receivers in the “suburban” areas as well as non-residential receivers, the recommended 
+amenity criteria are shown in Table 4 below. 
+Table 4 NSW NPI – Recommended LAeq Noise Levels from Industrial Noise Sources 
+Type of Receiver Indicative Noise 
+Amenity Area 
+Time of Day1 Recommended Amenity 
+Noise Level (LAeq, period)2 
+Residential (R1-R9) Suburban Day 55 
+Evening 45 
+Night 40 
+Commercial Premises (R10) All When in use 65 
+Industrial Premises (R11-R18) All When in use 70 
+Active Recreation (R19) All When in use 55 
+Note 1: For Monday to Saturday, Daytime 7:00 am – 6:00 pm; Evening 6:00 pm – 10:00 pm; Night-time 10:00 pm – 
+7:00 am.  On Sundays and Public Holidays, Daytime 8:0 0 am – 6:00 pm; Evening 6:00 pm – 10:00 pm;  
+Night-time 10:00 pm – 8:00 am 
+Note 2: The LAeq is the energy average sound level.  It is defined as the steady sound level that contains the same 
+amount of acoustical energy as a given time-varying sound. 
+When the existing noise level from industrial noise sources is close to the recommended “Amenity  Noise Level” 
+(ANL) given above, noise from the new source must be controlled to preserve the amenity of the area in line with 
+the requirements of the NSW NPI. 
+3.2.4 Project Trigger Noise Levels 
+Generally speaking, the noise criteria is determined by both the in trusiveness and amenity criteria.  The intrusive 
+and amenity criteria for industrial noise emissions, derived from the measured data, are presented in Table 5. The 
+criteria are nominated for the purpose of determining the operational noise limits for mechanical plant associated 
+with the development which can potentially affect noise sensitive receivers. 
+For each assessment period, the lower (i.e. , the more stringent) of the amenity or intrusive criteria are adopted. 
+These are shown in bold text in Table 5. 
+  
+[[page 19]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 19 of 77 
+ 
+Table 5 External noise level criteria in accordance with the NSW NPI 
+Location Time of 
+Day 
+Project 
+Amenity 
+Noise Level, 
+LAeq, period 1 
+(dBA) 
+Measured 
+LA90, 15 min 
+(RBL) 2 
+(dBA) 
+Measured 
+LAeq, period 
+Noise 
+Level 
+(dBA) 
+Intrusive 
+LAeq, 15 min 
+Criterion 3 
+for New 
+Sources  
+(dBA) 
+Amenity 
+LAeq, 15 
+min 
+Criterion   
+for New 
+Sources 
+(dBA) 4 
+Noise 
+Criterion  
+(lower of the 
+intrusivenes
+s and 
+amenity 
+criteria5) 
+Residences 
+(R1-R9) 
+Day 50 41 55 46 53 46 
+Evening 40 39 50 44 43 43 
+Night 35 31 46 36 38 36 
+Commercial 
+(R10) 
+When in 
+use 
+60 N/A N/A N/A 63 63 
+Industrial 
+Premises 
+(R11-R18) 
+When in 
+use 
+65 N/A N/A N/A 68 68 
+Active 
+Recreation 
+(R19) 
+When in 
+use 
+50 N/A N/A N/A 53 53 
+Note 1:    Project Amenity Noise Levels corresponding to “Suburban” areas, equivalent to the Recommended Amenity Noise Levels 
+(from the NPI) minus 5 dBA 
+Note 2:    LA90 Background Noise or Rating Background Level (RBL) 
+Note 3:    Intrusive criterion is equal to the RBL + 5 dB 
+Note 4:    According to Section 2.2 of the NSW NPI, the LAeq, 15 minutes is equal to the LAeq, period + 3 dB  
+Note 5:    The lower of the amenity and the intrusiveness level is typically used as the applicable overall noise criterion for the day,  
+evening and nighttime periods. 
+ 
+3.2.5 Sleep Disturbance 
+An accurate representation of sleep disturbance impacts on a community from a noise source is particularly difficult 
+to quantify mainly due to differing responses of individuals to sleep disturbance – this is found even within a single 
+subject monitored at different stages of a single night’s sleep or during different periods of sleep. 
+In addition, the differing grades of sleep state make a definitive definition difficult, and even where sleep 
+disturbance is not noted by the subject, factors suc h as heart rate, mood and performance can still be negatively 
+affected. 
+An assessment of sleep disturbance should consider the maximum noise level or L A1(1 minute), and the extent to 
+which the maximum noise level exceeds the background level and the number of times this may happen during the 
+night-time period. Factors that may be important in assessing the extent of impacts on sleep include: 
+• How often high noise events will occur; 
+• Time of day (normally between 10.00pm and 7.00am); and 
+• Whether there are times of day when there is a clear change in the existing noise environment (such as 
+during night periods). 
+Section 2.5 of the EPA NPI provides the following criteria: 
+• LAeq,15min 40 dB(A) or the prevailing RBL plus 5 dB, whichever is the greater, and/or  
+[[page 20]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 20 of 77 
+ 
+• LAFmax 52 dB(A) or the prevailing RBL plus 15 dB, whichever is the greater. 
+As outlined in  Table 5 above, the measured rating background noise level during the night hours (10:00pm to 
+7:00am) is 31 dBA LA90. Therefore, the resultant RBL + 15dB is 46dBA, which is below the minimum 52 dBA LAFmax. 
+As such, the 52dBA minimum recomme nded by the NSW EPA NPI will be adopted for this assessment at all 
+surrounding receivers. 
+3.3 Road Traffic Noise Criteria 
+In March 2011, the Department of Environment Climate Change and Water NSW (now the EPA) released the NSW 
+‘Road Noise Policy’ (RNP) (DECCW, 2011). The NSW RNP aims to identify the strategies that address the issue of 
+road traffic noise from: 
+ existing roads 
+ new road projects 
+ road redevelopment projects 
+ new traffic generating developments 
+The NSW RNP defines the criteria to be used in assessing  the impact of such noise. Although it is not mandatory 
+to achieve the noise assessment criteria in this NSW RNP, proponents will need to provide justification if it is not 
+considered feasible or reasonable to achieve them.  
+3.3.1 Road classification 
+Station Road can be classified as a sub-arterial road while the proposed internal roads for the development can be 
+classified as local roads. The proposed datacentre development is best described as a new traffic generating 
+development. 
+3.3.2 Noise assessment criteria 
+Table 3 of the NSW RNP outlines the road traffic noise assessment criteria for residential land uses. The applicable 
+section is reproduced in the below table. 
+Table 6 Road Traffic Noise Assessment Criteria for Residential Land Uses 
+Road category Type of project/land use 
+Assessment Criteria – dB(A) 
+Day (7am to 10pm) Night (10pm to 7am) 
+Sub-arterial roads – 
+residential receivers 
+3. Existing residences 
+affected by additional 
+traffic on existing 
+freeways/arterial/sub-
+arterial roads generated by 
+land use developments 
+LAeq,(15 hour) 60 (external) LAeq,(9 hour) 55 (external) 
+  
+[[page 21]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 21 of 77 
+ 
+3.4 Criteria for Emergency Generators 
+Section 1.4 of the Noise Policy for Industry is shown below: 
+ 
+ 
+As can be seen above, the Noise Policy for Industry clearly states that “The policy applies to industrial noise sources 
+from activities listed in Schedule 1 of the Protection of the Environment Operations (POEO) Act and regulated by 
+the EPA”. Schedule 1 of the POEO Act is highlighted in bold for emphasis. Schedule 1 of the POEO Act, Section 17 
+(1A) is shown below  
+ 
+ 
+As seen above, Schedule 1, Section 17 (1A) of the POEO Act, states that 
+"this clause does not apply to the generation of electricity by means  of electricity plant that is emergency 
+stand-by plant operating for less than 200 hours per year". 
+Therefore, under the POEO Act, the Noise Policy for Industry is only applicable to generator events that occur more 
+than 200 hours a year. Note that the Noise Policy for Industry is applicable to the assessment of all other noise 
+sources. 
+
+[[page 22]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 22 of 77 
+ 
+It is understood that, as part of this proposal, generators are proposed to be used in the event of a power blackout. 
+Additionally, the generators are also proposed to be tested periodically, one at a time during the day period only. 
+Testing of generators one by one is expected to tally 38 hours per year as per the table below. 
+Table 7 Proposed generator testing plan 
+Month % load Test Run 
+duration 
+(min) 
+Colo 
+generator  
+Admin 
+Generator  
+Mechanical 
+Generator  
+Total min 
+1 no-load Monthly 10 8 1 0 90 
+2 no-load Monthly 10 8 1 0 90 
+3 70 Quarterly 35 8 1 0 315 
+4 no-load Monthly 10 8 1 0 90 
+5 no-load Monthly 10 8 1 0 90 
+6 70 Quarterly 35 8 1 0 315 
+7 no-load Monthly 10 8 1 0 90 
+8 no-load Monthly 10 8 1 0 90 
+9 70 Quarterly 35 8 1 0 315 
+10 no-load Monthly 10 8 1 0 90 
+11 no-load Monthly 10 8 1 0 90 
+12 100 Annual 65 8 1 0 585 
+The use of all generators in a power outage will also not exceed 200 hours per year. Therefore, use of all generators 
+at once for power generation is outside the framework of the POEO Act and the Noise Policy for Industry. Despite 
+this, an emergency scenario whereby all generators are running simultaneously (in the event of a critical power  
+failure event) has been modelled for completeness – note that, in reality, this would be highly unlikely. 
+Testing of one generator at a time is within the framework of the Noise Policy for Industry and is analysed in this 
+report as an operational scenario. 
+3.5 Development Near Rail Corridors and Busy Roads – Interim Guideline  
+The Development near Rail Corridors and Busy Roads – Interim Guideline sets out noise and vibration guidance for 
+developments near rail corridors. Section 3.5 of the Development near Rail Corridors and Busy Roads – Interim 
+Guideline contains the following acoustic criteria. 
+If the development is for the purpose of a building for residential use, the consent authority must be satisfied that 
+appropriate measures will be taken to ensure that the following LAeq levels are not exceeded: 
+• in any bedroom in the building: 35dB(A) at any time 10pm–7am  
+• anywhere else in the building (other than a garage, kitchen, bathroom or hallway): 40dB(A) at any time 
+The proposed development is not for residential use, therefore the noise requirements within the Development 
+near Rail Corridors and Busy Roads – Interim Guideline are satisfied.  
+In terms of railway vibration, the front façade of the proposed development is approximately 140m from the nearest 
+railway line. As shown in Figure 9 , the development is outside the typical zone where an assessment of rail vibration 
+would be required. Therefore, potential vibration from the corridor has also been satisfied as per section 3.5.1 of 
+the Development near Rail Corridors and Busy Roads – Interim Guideline. 
+  
+[[page 23]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 23 of 77 
+ 
+Figure 9 Rail Vibration Assessment Zones 
+ 
+3.6 Interim Construction Noise Guideline 
+The Interim Construction Noise Guideline (ICNG) sets out ways to deal with the potential impacts of construction 
+noise on residences and other sensitive land uses. The ICNG presents assessment approaches tha t are tailored to 
+the scale of construction projects. 
+A portion of the main objectives from Section 1.3 of the ICNG are presented below:  
+• Promote a clear understanding of ways to identify and minimise noise from construction works 
+• Focus on applying all “feasible” and “reasonable” work practices to minimise construction noise impacts 
+• Encourage construction to be undertaken only during the recommended standard hours unless approval 
+is given for works that cannot be undertaken during these hours 
+• Streamline the assessment and approval stages and reduce time spent dealing with complaints at the 
+project implementation stage 
+• Provide flexibility in selecting site-specific feasible and reasonable work practices in order to minimise noise 
+impacts  
+The ICNG contains a quantitative assessment method which is applicable to this project. Guidance levels are given 
+for airborne noise at residences and other sensitive land uses, including commercial and industrial premises.  
+The quantitative assessment method involves predict ing noise levels at sensitive receivers and comparing them 
+with the Noise Management Levels (NMLs).  The NML affectation categories for residential receivers have been 
+reproduced from the guideline and are listed in Table 8 below.   
+Specific non -residential receivers in the vicinity of the proposed construction site, and their recommended 
+‘management levels’, are presented in Table 9. 
+Based on the measured background noise levels summarised in Section 2.2, the NMLs to be used in this assessment 
+are listed in Table 10. 
+  
+
+[[page 24]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 24 of 77 
+ 
+Table 8 NMLs for quantitative assessment at residences 
+Time of Day Noise 
+Management 
+Level 
+LAeq(15minute)1,2 
+How to Apply 
+Recommended 
+standard hours: 
+Monday to Friday 
+7 am to 6 pm 
+Saturday 8 am to 1 
+pm 
+No work on 
+Sundays or public 
+holidays 
+Noise affected 
+RBL + 10 dB 
+The noise affected level represents the point above which there 
+may be some community reaction to noise. 
+• Where the predicted or measured L Aeq(15minute) is greater 
+than the noise affected level, the proponent should apply all 
+feasible and reasonable work practices to meet the noise 
+affected level. 
+• The proponent should also inform all potentially impacted 
+residents of the nature of works to be carried out,  the 
+expected noise levels and duration, as well as contact 
+details. 
+Highly noise 
+affected 
+75 dBA 
+The highly noise affected level represents the point above which 
+there may be strong community reaction to noise.  
+• Where noise is above this level, the rele vant authority 
+(consent, determining or regulatory) may require respite 
+periods by restricting the hours that the very noisy activities 
+can occur, taking into account: 
+1.  Times identified by the community when they are less 
+sensitive to noise (such as before and after school for 
+works near schools, or mid-morning or mid-afternoon for 
+works near residences. 
+2.  If the community is prepared to accept a longer period 
+of construction in exchange for restrictions on 
+construction times. 
+Outside 
+recommended 
+standard hours 
+Noise affected 
+RBL + 5 dB 
+• A strong justification would typically be required for works 
+outside the recommended standard hours. 
+• The proponent should apply all feasible and reasonable work 
+practices to meet the noise affected level. 
+• Where all f easible and reasonable practices have been 
+applied and noise is more than 5 dB above the noise affected 
+level, the proponent should negotiate with the community. 
+Note 1 Noise levels apply at the property boundary that is most exposed to construction noise, and at a height of 1.5 
+m above ground level.  If the property boundary is more than 30 m from the residence, the location for 
+measuring or predicting noise levels is at the most noise -affected point within 30 m of the residence.  Noise 
+levels may be higher at upper floors of the noise affected residence. 
+Note 2    The RBL is the overall single -figure background noise level measured in each relevant assessment period 
+(during or outside the recommended standard hours).  The term RBL is des cribed in detail in the NSW 
+Industrial Noise Policy (EPA 2000). 
+Table 9 NMLs for quantitative assessment at non-residential receivers 
+Land Use LAeq(15minute) Construction NML 
+Commercial (R10) 70 
+Industrial (R11-R18) 75 
+Active Recreation (R19) 65 
+ 
+  
+[[page 25]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 25 of 77 
+ 
+Table 10 NMLs as basis for the acoustic assessment 
+Receiver Types 
+NML, dB LAeq(15minute) 
+Standard Construction Hours: Monday to Friday: 7 am to 6 
+pm and Saturday: 8 am to 1 pm 
+Residence (R1-R9) 51 
+Commercial (R10) 70 
+Industrial (R11-R18) 75 
+Active Recreation (R19) 65 
+3.7 Vibration Criteria 
+The impacts of ground borne vibration on buildings may be segregated into the following three categories: 
+• Human comfort – vibration in which the occupants or users of the building are inconvenienced or possibly 
+disturbed. Refer to further discussion in Section 3.7.1. 
+• Effects on building contents – where vibration can cause damage to fixtures, fittings and other non-building 
+related objects. Please see Section 3.7.2. 
+• Effects on building structures – where vibration can compromise the structural integrity of the building 
+itself. Refer to further discussion in Section 3.7.2. 
+3.7.1 Vibration Criteria – Human Comfort 
+Vibration effects relating specifically to the human comfort aspects of the project are taken from the guideline titled 
+“Assessing Vibration – A Technical Guideline”. (AVTG) This type of impact can be categorised and assessed using 
+the intermittent vibration criterion. Intermittent vibration refers to activities such as drilling, compacting or tasks 
+that would result in continuous vibration if operated continuously (refer to Table 11). 
+Table 11 Intermittent vibration impacts criteria (m/s1.75) 1 Hz-80 Hz 
+Location Daytime Night-time 
+Preferred 
+Values 
+Maximum 
+Values 
+Preferred 
+Values 
+Maximum 
+Values 
+Residences 0.20 0.40 0.13 0.26 
+Offices, schools, educational 
+institutions and places of worship 
+0.40 0.80 0.40 0.80 
+Workshops 0.80 1.60 0.80 1.60 
+These criteria are “dose” based criteria which are determined by both vibration level and duration. They are 
+therefore dependent on the level and usage of the equipment. The above VDV criteria are more applicable to 
+complaint based compliance assessments and can be assessed by longer term vibration monitoring. The practical 
+considerations of how to exclude vibration in the building caused by doors slamming, building occupant activity in 
+their apartments, etc. would however need to be overcome before a VDV assessment could be carried out.  
+For feasible simplicity, vibration from typical activities will be assessed against criteria for impulsive vibration, which 
+is assessed on the basis of acceleration levels. Such an assessment procedure is inherently conservative, since the 
+criteria for impulsive vibration is more stringent than that for intermittent vibration and assumes essentially 
+continuous exposure to the vibration level. The levels appropriate for this development are given in Table 12. 
+  
+[[page 26]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 26 of 77 
+ 
+Table 12 Impulsive vibration in terms of weighted RMS acceleration criteria (m/s2) 1-80Hz 
+Location Assessment 
+period 
+Preferred Values1 (m/s2) Maximum Values1 (m/s2) 
+z-axis x- and y-axis z-axis x- and y-axis 
+Critical areas 2 Day or night-
+time 0.0050 0.0036 0.010 0.0072 
+Residences Daytime 0.30 0.21 0.60 0.42 
+Night-time 0.10  0.071  0.20  0.14 
+Offices, schools, 
+educational 
+institutions and 
+places of worship 
+Day or night-
+time 
+0.64  0.46  1.28  0.92 
+Note 1: From Assessing Vibration – A Technical Guideline DEC (2006) 
+Note 2: e.g. hospital operating theatres, precision laboratories 
+Note: Perception thresholds for continuous whole -body vibration vary widely among individuals. Approximately 
+half the people in a typical population, when standing or seated, can perceive a vertical weighted peak acceleration 
+of 0.015 m/s 2. The weighting used is Wb. A quarter of the people would perceive a vibration of 0.01 m/s 2 peak, 
+but the least sensitive quarter would only be able to detect a vibration of 0.02 m/s 2 peak or more. Perception 
+thresholds are slightly higher for vibration duration of less than about 1 s. 
+The assessment criteria for impulsive vibration, presented in different units, are shown below in Table 13 below. 
+Table 13 Criteria for exposure to impulsive vibration, presented in different units (Z axis only) 1 
+Location Assessment 
+period 
+2 RMS acceleration 
+(m/s2) & vib. accel. 
+value (dB re 10–6 
+m/s2) 
+3RMS velocity (mm/s) 
+& vib. velocity value 
+(dB re 10–9 mm/s) 
+4 Peak velocity 
+(mm/s) 
+Preferred Maximum Preferred Maximum Preferred Maximum 
+Residences Daytime4 0.30 
+(110 dB) 
+0.60 
+(113 dB) 
+6.0 
+(136 dB) 
+12 
+(142 dB) 
+8.6 17.0 
+Night-time 0.10  
+(100 dB) 
+0.20 
+(106 dB)  
+2.0 
+(126 dB)  
+4.0 
+(132 dB) 
+2.8 5.6 
+Offices, 
+schools, 
+educational 
+institutions 
+and places 
+of worship 
+Day or night-
+time 
+0.64  
+(116 dB) 
+1.28 
+(122 dB)  
+13.0 
+(142 dB) 
+26.0  
+(148 dB) 
+18.0 36.0 
+Note 1: From Assessing Vibration – A Technical Guideline DEC (2006) 
+Note 2: Values derived from z-axis critical frequency range 4–8 Hz. Where required, a more detailed analysis can be conducted 
+as per BS 6472–1992.  
+Note 3: Values given for the most critical frequency range >8 Hz assuming sinusoidal motion. Where required, a more detailed 
+analysis can be conducted as per AS 2670.2–1990.  
+Note 4: Sufficient justification should accompany the use of a peak velocity approach if used in an assessment. Note that the 
+crest factor of the source vibration must be considered – and for impulsive sources can be 10 or higher. 
+Note 5: Specific values depend on social and cultural factors, psychological attitudes and expected degree of intrusion. 
+3.7.2 Vibration Criteria – Building Contents and Structure 
+The vibration effects on the building itself are assessed against international standards as follows: 
+• For transient vibration: British Standard BS 7385: Part 2-1993 “Evaluation and measurement for vibration 
+in buildings Part 2: Guide to damage levels from ground borne vibration” (BSI 1993); and 
+[[page 27]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 27 of 77 
+ 
+• For continuous or repetitive vibration: German DIN 4150: Part 3 – 1999 “Effects of Vibration on Structure” 
+(DIN 1999). 
+3.7.3 Standard BS 7385 Part 2 - 1993 
+For transient vibration, as discussed in standard BS 7385 Part 2-1993, the criteria are based on peak particle velocity 
+(mm/s) which is to be measured at the base of the building. These are summarised in Table 14 and illustrated in 
+Figure 10. 
+Table 14 Transient vibration criteria as per standard BS 7385 Part 2 - 1993 
+Line in 
+below 
+figure 
+Type of Building Peak Component Particle Velocity in Frequency 
+Range of Predominant Pulse 
+4 Hz to 15 Hz 15 Hz and Above 
+1 Reinforced or framed 
+structures Industrial and 
+heavy commercial buildings 
+50 mm/s at 4 Hz and above 
+2 Unreinforced or light framed 
+structures Residential or light 
+commercial type buildings 
+15 mm/s at 4 Hz increasing 
+to 20 mm/s at 15 Hz 
+20 mm/s at 15 Hz increasing 
+to 50 mm/s at 40 Hz and 
+above 
+Standard BS 7385 Part 2 – 1993 states that the values in Table 14 relate to transient vibration which does not 
+cause resonant responses in buildings. 
+Where the dynamic loading caused by continuous vibration events is such as that results in dynamic magnification 
+due to resonance (especially at the lower frequencies where lower guide values apply), then the values in Table 14 
+need to be reduced by up to 50% (refer to Line 3 in Figure 10). 
+Figure 10 BS 7385 Part 2 – 1993, graph of transient vibration values for cosmetic damage 
+ 
+Line 1
+Line 2
+1
+10
+100
+1 10 100
+Frequency (Hz)
+Vibration Velocity (mm/s)
+Line 1 : Cosmetic Damage (5% Risk) - BS 7385 Industrial
+Line 2 : Cosmetic Damage (5% Risk) - BS 7385 Residential
+Line 3 : Continuous Vibration Cosmetic Damage (5% Risk) - BS 7385 Residential
+Line 3
+[[page 28]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 28 of 77 
+ 
+In the lower frequency region where strains associated with a given vibration velocity magnitude are higher, the 
+recommended values corresponding to Line 2 are reduced.  Below a frequency of 4 Hz where a high displacement 
+is associated with the relatively low peak component particle velocity value, a maximum displacement of 0.6 mm 
+(zero to peak) is recommended. This displacement is equivalent to a vibration velocity of 3.7 mm/s at 1 Hz. 
+The standard also states that minor damage is possible at vibration magnitudes which are greater than twice those 
+given in Table 14. Major damage to a building structure may occur at values greater than four times the tabulated 
+values.  
+Fatigue considerations are also addressed in the standard and it is concluded that unless calculation indicates that 
+the magnitude and number of load reversals is significant (in respect of the fatigue life of building materials) then 
+the values in Table 14 should not be reduced for fatigue considerations. 
+3.7.4 Standard DIN 4150 Part 3 - 1999 
+For continuous or repetitive vibration, standard DIN 4150 Part 3 -1999 provides criteria based on values for peak 
+particle velocity (mm/s) measured at the foundation of the building; these are summarised in Table 15. The criteria 
+are frequency dependent and specific to particular categories of structures. 
+Table 15 Structural damage criteria as per standard DIN 4150 Part 3 - 1999 
+Type of Structure Peak Component Particle Velocity, mm/s 
+Vibration at the foundation at a frequency of Vibration of 
+horizontal 
+plane of 
+highest floor 
+at all 
+frequencies 
+1 Hz to 10 Hz 10 Hz to 50 
+Hz 
+50 Hz to 100 
+Hz1 
+Buildings used for commercial 
+purposes, industrial buildings and 
+buildings of similar design  
+20 20 to 40 40 to 50 40 
+Dwellings and buildings of similar 
+design and/or use 
+5 5 to 15 15 to 20 15 
+Structures that, because of their 
+sensitivity to vibration, do not 
+correspond to those listed in lines 
+1 and 2 and are of great intrinsic 
+value (e.g. buildings that are 
+under a preservation order) 
+3 3 to 8 8 to 10 8 
+Note 1: For frequencies above 100Hz, at least the values specified in this column shall be applied. 
+  
+[[page 29]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 29 of 77 
+ 
+4 POTENTIAL NOISE IMPACTS 
+4.1 Predictive Noise Modelling Equipment 
+Predictive noise modelling in this report was carried out using the ISO 9613 algorithm within iNoise V2022.01. The 
+iNoise software package was specifically used, as the 3D computational model of the site and surrounding area 
+allows the terrain undulations, building heights and locations and noise source positions to be specifically modelled. 
+In addition to terrain, buildings and noise sources, the iNoise model also includes ground absorption and receiver 
+locations. 
+All modelling algorithms have their advantages and disadvantages.  Each software package also notably interprets 
+the modelling algorithms differently.  A clear advantage of ISO9613 is that it offers ISO17534 -3 compliance.  This 
+standard ensures conformity between modelling software packages, improving the repeatability of noise 
+predictions.   ISO9613 is often considered the international industry standard noise modelling approach. 
+The approach taken in this assessment has been chosen to optimise the outco me for the most affected sensitive 
+receivers.  Noise modelling was completed using iNoise and incorporating the ISO9613 algorithm.  A modification 
+was included to use the CONCAWE approach for temperature effects at distances greater than 100m.  Class F 
+weather conditions with wind speeds of 2m/s were selected in accordance with the requirements of the NPfI.  This 
+approach has ensured that a consistently verifiable approach to ground absorption, air absorption and barrier 
+attenuation has been chosen with the  added advantage of the consideration of adverse weather conditions for 
+sensitive receivers at distances greater than 100m. 
+A notable disadvantage of the CONCAWE noise model is that it applies from 100m to 2000m.  The nearest sensitive 
+receiver for this project is within 100 m from the site.  Given the very small distance to sensitive receivers, weather 
+effects, air absorption and ground absorption have very little influence on the noise mitigation recommendations. 
+4.2 Nominal Equipment Sound Power Levels 
+To predict potential noise levels at the considered receivers, the noise model s considers major mechanical 
+equipment including air handling units and generators. In this noise model, it is assumed that the generator units 
+are packaged and feature intake and exhaust mufflers. Generators are assumed to be tested one at a time during 
+the day period only for the operational scenarios. The air handling units are all direct evap orative cooling units, 
+located indoors, drawing air in through openings in the façade. 
+SYD08 is proposed to comprise 64 Direct Evaporative Cooling Air Handling Units and 9 generators (including 1 
+admin generator). The Air Handling Units are modelled in two  different ways; namely, with a bushfire filtration 
+module considered, and with a standard filtration module. It is not decided at this stage which of the two filtration 
+modules will be used for the Air Handing Units for the data centre development; as such, both have been modelled. 
+The modelled scenarios are based directly on documentation provided by LCI  regarding realistic worst-case 
+operating scenarios for both filtration module options. 
+Specifically, our modelling assumes the following operational scenario for the Standard Mode Air Handling Units: 
+• 8 x data halls, each with 7 Air Handling Units, running at 100% load. 
+Alternatively, our modelling assumes the following operational scenario for the Bushfire Mode Air Handling Units: 
+• 7 x data halls, each with 8 Air Handling Units, running at partial load. 
+• 1 x data hall with 7 Air Handling Units running at 100% load. 
+The approved datacentre under the existing development approval (DA-21-01058) is to have 4 Direct Evaporative 
+Cooling Air Handling Units and 3 generators (including 1 admin generator). For the purpose of our operational 
+assessment, the noise impacts are assessed cumulatively with those from the existing development approval. That 
+is, all Air Handling Units associated with both sites have been assessed simultaneously in Section 4.5. Note that it 
+is assumed that the Air Handling Units at the approved datacentre are operating at partial load as per Table 16. 
+[[page 30]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 30 of 77 
+ 
+Sound Power Levels of the selected air handling units and g enerators are shown in Table 16 and Table 17 
+respectively. It is noted that each Air Handling Unit is comprised of six (6) centrifugal fans, and that the sound 
+power levels for the Air Handling Units are based on 100% fan speed, as well as a specified partial load. The 
+generator is modelled inside an acoustic enclosure rated at 85 dB(A) at 1m. The Generator enclosure features an 
+exhaust silencer as well as intake and discharge attenuators. 
+Table 16 Sound power level (SWL) for Air Handling Units 
+AHU Type Fans 
+Octave Band Centre Frequencies (Hz) 
+Overall 
+63 125 250 500 1000 2000 4000 8000 
+AHU with 
+Bushfire 
+filtration 
+100% Load 82 88 88 84 86 87 86 80 93 dBA 
+Partial 
+Load 
+79 85 85 81 83 84 83 77 90 dBA 
+Standard 
+AHU 
+100% Load 70 82 90 81 77 76 73 64 85 dBA 
+Table 17 Sound Power Level (SWL) for the generators in acoustic enclosures 
+Equipment 
+Octave Band Centre Frequencies (Hz) 
+Overall 
+63 125 250 500 1000 2000 4000 8000 
+Generator in enclosure 109 103 95 88 85 81 78 74 93 dBA 
+Based on the proposed design of each Air Handling Unit, whereby an evaporative cooler and filters are positioned 
+between the centrifugal fans and the openings in the building façade, we have conservatively assumed insertion 
+losses resulting from this setup. These are tabulated below. 
+Table 18 Insertion Losses Assumed for Combination of Evaporative Cooler and Filters within Air 
+Handling Units (Standard Mode) 
+Insertion Loss  
+Octave Band Centre Frequencies (Hz) 
+63 125 250 500 1000 2000 4000 8000 
+Filters/Evaporative cooler 
+assumed insertion loss, 
+Standard Mode (dB) 
+3 4 5 5 5 5 5 5 
+Table 19 Insertion Losses Assumed for Combination of Evaporative Cooler and Filters within Air 
+Handling Units (Bushfire Mode) 
+Insertion Loss  
+Octave Band Centre Frequencies (Hz) 
+63 125 250 500 1000 2000 4000 8000 
+Filters/Evaporative cooler 
+assumed insertion loss, 
+Bushfire Mode (dB) 
+3 4 6 8 10 8 8 6 
+Standard Mode air handling units have additionally been modelled with 200mm deep acoustic louvres, while Bushfire 
+Mode air handling units have been modelled with 300mm deep acoustic louvres. Details of the required insertion 
+losses provided by the louvres are included in the tables below. 
+[[page 31]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 31 of 77 
+ 
+Table 20 Minimum Insertion Losses – 200mm Deep Intake Louvres for Air Handling Units (for 
+Standard Mode) 
+Insertion Loss  
+Octave Band Centre Frequencies (Hz) 
+63 125 250 500 1000 2000 4000 8000 
+Required insertion loss (dB) 1 3 7 11 12 10 10 9 
+Table 21 Minimum Insertion Losses – 300mm Deep Intake Louvres for Air Handling Units (for 
+Bushfire Mode) 
+Insertion Loss  
+Octave Band Centre Frequencies (Hz) 
+63 125 250 500 1000 2000 4000 8000 
+Required insertion loss (dB) 4 7 9 13 14 12 12 8 
+4.3 Noise from Trucks and Cars Travelling to or from the Site 
+The Traffic Impact Assessment  by The Transport Planning Partnership (reference number 20407, Version V03, 
+dated 01/04/22) specifies that the total peak hourly trip generation of the propo sed development is estimated as 
+follows: 
+• AM and PM peak periods: 
+o 3 heavy vehicles (6 trips). 
+o 10 light vehicles (20 trips). 
+As such, for a 15 minute period, we have assumed the following for car and truck movements to and from the site: 
+• Day/Evening Scenario 
+o 2 Truck movements (1 entering the site and 1 leaving the site), 1 truck door close, and 1 truck 
+engine start. 
+o 6 light vehicle movements (3 entering the site and 3 leaving the site) , 3 car door closes, and 3 
+car engine starts. 
+• Night Scenario 
+o 2 Truck movements (1 entering the site and 1 leaving the site), 1 truck door close, and 1 truck 
+engine start. 
+o 6 light vehicle movements (3 entering the site and 3 leaving the site), 3 car door closes, and 3 
+car engine starts. 
+4.3.1 Assumed Vehicle Noise Levels and Time Durations 
+This noise assessment includes assessment of the potential uses within the development. The following noise levels 
+include the expected source noise events from activities likely to occur on the site: 
+1. 10 Tonne truck start LAeq of 96 dB(A), for a duration of 2 seconds (source height of 3m). 
+2. 10 Tonne truck door close LAeq of 90 dB(A), for a duration of 1 second (source height of 3m). 
+3. 10 Tonne truck manoeuvring at <15 km/h LAeq = 92 dB(A), for a duration of 2 minutes (source height of 
+3m). 
+[[page 32]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 32 of 77 
+ 
+4. Car start LAeq of 89 dB(A), for a duration of 2 seconds (source height of 1m). 
+5. Car door close LAeq of 87 dB(A), for a duration of 1 second (source height of 1m). 
+6. Car manoeuvring at <15 km/h LAeq of 85 dB(A), for a duration of 2 minutes (source height of 1m). 
+7. Semi truck start LAeq of 101 dB(A), for a duration of 2 seconds (source height of 3m). 
+8. Semi truck door close LAeq of 93 dB(A), for a duration of 1 second (source height of 3m). 
+9. Semi truck manoeuvring at <15 km/h LAeq of 97 dB(A), for a duration of 2 minutes (source height of 3m). 
+Assumed noise levels have been based on detailed noise measurements of cars and various sized trucks and vans. 
+4.4 Modelling Assumptions 
+In this assessment, the following assumptions have been incorporated: 
+ Noise generating scenarios are modelled on a worst case 15 minute period; 
+ Terrain has been sourced from the NSW Land and Property Information database Six Maps; 
+ Ground Absorption has been included in the model with the entire model having an absorption factor of 0.25, 
+indicative of the combination of surrounding grass areas and hard surfaces; 
+ Receptors are modelled 1.5m above the ground , except for Receivers 4 and 10 , which are modelled 5.0m 
+above the ground since they include a second storey. 
+ On site and surrounding buildings have been included in the model; 
+ The assessment for the proposed equipment is based on the sound levels listed for the air handling units in 
+Table 16 and the generators in Table 17. 
+ Generators are to be tested during the day period only. 
+ Generator testing is assumed to take place using a single generator at a time. 
+ The evaporative cooler and filters within the Air Handling Units are assumed to give rise to insertion losses as 
+per Table 18 and Table 19. 
+ Air handling units have been modelled with intake acoustic louvres. Details of the required insertion losses 
+provided by the louvres are included in Table 20 and Table 21, for Standard Mode and Bushfire Mode, 
+respectively. 
+ The primary noise sources modelled are continuous in nature. The air handling units will run continuously over 
+the whole day (as is the nature of a datacentre, which runs continuousl y) and will not cycle on/off . Tonality 
+and intermittent modifying corrections outlined under the NPfI are not required for this project. 
+ Noise-enhancing weather conditions have been accounted for  in the modelling. In line with Fact Sheet D of 
+the NPfI, Option 1 has been selected to consider meteorological effects (see below extract); this represents a 
+conservative assessment methodology. 
+Adopt the noise-enhancing meteorological conditions  for all assessment periods for noise impact 
+assessment purposes without an assessment of how often these conditions occur – a conservative 
+approach that considers sour ce-to-receiver wind vectors for all receivers and F class temperature 
+inversions with wind speeds up to 2 m/s at night. 
+4.5 Modelled Scenarios 
+Four operational noise generating scenarios and two emergency scenarios are modelled in this report and assessed 
+against the operational criteria, as follows: 
+• Standard Mode AHUs: 
+[[page 33]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 33 of 77 
+ 
+o Standard Mode Operational Scenario 1: Operational Day Scenario with 60 Direct Evaporative 
+Cooling Air Handling Units (8 x data halls, each with 7 Air Handling Units, running at 100% load; 
+4 x Air Handing Units within approved development to the south, running at 100% load) and 1 x 
+3.0 MW Generator. 
+o Standard Mode Operational Scenario 2: Operational Evening/Night Scenario with 60 Direct 
+Evaporative Cooling Air Handling Units (8 x data halls, each with 7 Air Handling Units, running at 
+100% load; 4 x Air Handing Units within approved development to the south, running at 100% 
+load). 
+o Standard Mode Emergency Scenario 1: Emergency Scenario with 60 Direct Evaporative Cooling 
+Air Handling Units (8 x data halls, each with 7 Air Handling Units, running at 100% load; 4 x Air 
+Handing Units within approved development to the south, running at 100% load) , and all 12 
+Emergency Generators running simultaneously. 
+• Bushfire Mode AHUs: 
+o Bushfire Mode Operational Scenario 1: Operational Day Scenario with 67 Direct Evaporative 
+Cooling Air Handling Units (7 x data halls, each with 8 Air Handling Units, running at partial load; 
+1 x data hall with 7 Air Handling Units running at 100% load; 4 x Air Handing Units within 
+approved development to the south, running at partial load) and 1 x 3.0 MW Generator. 
+o Bushfire Mode Operational Scenario  2: Operational Evening/Night Scenario with 67 Direct 
+Evaporative Cooling Air Handling Units (7 x data halls, each with 8 Air Handling Units, running at 
+partial load; 1 x data hall with 7 Air Handling Units running at 100% load; 4 x Air Handing Units 
+within approved development to the south, running at partial load). 
+o Bushfire Mode Emergency Scenario 1: Emergency Scenario with 67 Direct Evaporative Cooling 
+Air Handling Units (7 x data halls, each with 8 Air Handling Units, running at partial load; 1 x data 
+hall with 7 Air Handling Units running at 100% load; 4 x Air Handing Units within approved 
+development to the  south, running at partial load) and all 12 Emergency Generators running 
+simultaneously. 
+Note that the above emergency scenarios whereby all standby generators are running simultaneously 
+(in the event of a critical power failure event) has been modelled for completeness – in reality, this 
+would be highly unlikely. 
+All modelled noise emission sources are visualised in the below figures. 
+[[page 34]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 34 of 77 
+ 
+Figure 11 Modelled Noise Emission Sources visualized for the Day Period 
+ 
+Key: 
+Generator 
+  Air Handling Units 
+  Door close 
+  Engine start 
+  Truck movement 
+  Car movement 
+
+[[page 35]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 35 of 77 
+ 
+Figure 12 Modelled Noise Emission Sources visualized for the Evening/Night Period 
+ 
+Key: 
+  Air Handling Units 
+  Door close 
+  Engine start 
+  Truck movement 
+  Car movement 
+
+[[page 36]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 36 of 77 
+ 
+Figure 13 Modelled Noise Emission Sources visualized for the Emergency Scenario 
+ 
+Key: 
+Generator 
+  Air Handling Units 
+  Door close 
+  Engine start 
+  Truck movement 
+  Car movement 
+  
+
+[[page 37]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 37 of 77 
+ 
+4.6 Predicted Noise Levels 
+4.6.1 Standard Mode Operational Scenarios 
+The predicted LAeq results of the modelled operational scenarios for Standard Mode AHUs with up to one generator 
+operating are presented below in Table 22. Noise contours of the modelled operational scenarios are shown in the 
+figures below. Note that the contour maps are set to receiver level heights of 1.5m. 
+Compliance with the noise criteria set out in the Blacktown DCP 2015 and NSW NPI is predicted at all receivers 
+during all operational scenarios, provided the modelling assumptions outlined above are implemented into the 
+design of the datacentre. 
+Table 22 Predicted Noise Levels, Standard Mode Operational Scenarios, LAeq (15 minute) 
+Receiver 
+(Height 
+from 
+ground) 
+Criteria (dBA) Predicted Noise Levels (dBA) 
+Day Evening Night 
+Day Scenario 
+with one 
+Generator 
+Evening/Night 
+Scenario with 
+no Generators 
+R1 (1.5m) 46 43 36 32 31 
+R2 (1.5m) 46 43 36 34 33 
+R3 (1.5m) 46 43 36 27 26 
+R4 (5.0m) 46 43 36 37 36 
+R5 (1.5m) 46 43 36 29 27 
+R6 (1.5m) 46 43 36 33 23 
+R7 (1.5m) 46 43 36 35 28 
+R8 (1.5m) 46 43 36 38 36 
+R9 (1.5m) 46 43 36 38 36 
+R10 (5.0m) 63 63 63 33 32 
+R11 (1.5m) 68 68 68 31 27 
+R12 (1.5m) 68 68 68 44 41 
+R13 (1.5m) 68 68 68 38 34 
+R14 (1.5m) 68 68 68 38 35 
+R15 (1.5m) 68 68 68 30 28 
+R16 (1.5m) 68 68 68 41 40 
+R17 (1.5m) 68 68 68 27 24 
+R18 (1.5m) 68 68 68 28 23 
+R19 (1.5m) 53 53 53 36 35 
+ 
+[[page 38]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 38 of 77 
+ 
+Figure 14 Standard Mode Operational Scenario 1 – Operational Day Scenario with 60 Direct 
+Evaporative Cooling Air Handling Units (with 200mm Deep Acoustic Louvres) and 1 x 3.0 
+MW Generator 
+ 
+
+[[page 39]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 39 of 77 
+ 
+Figure 15 Standard Mode Operational Scenario 2 – Operational Evening/Night Scenario with 60 
+Direct Evaporative Cooling Air Handling Units (with 200mm Deep Acoustic Louvres) 
+ 
+  
+
+[[page 40]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 40 of 77 
+ 
+4.6.2 Standard Mode Emergency Scenario 
+The predicted L Aeq results of the modelled emergency scenario  for Standard Mode AHUs with all generators 
+operating are presented below in Table 22. 
+Since the use of all generators in a power outage will not exceed 200 hours per year, the use of all generators at 
+once is outside the framework of the POEO Act and the Noise Policy for Industry. As such, there are no applicable 
+criteria for the assessment of the emergency scenario under the Noise Policy for Industry. 
+Nonetheless, Blacktown Council has recommended that this assessment be completed. With this in mind, 
+exceedances of the operati onal noise criteria set out in the Blacktown DCP 2015 and NSW NPI are predicted at 
+several receivers during the emergency scenario. 
+Council has further recommended that nearby residents are informed of the potential for excessive noise generation 
+during periods of total power failure in the area, despite the rarity of these events occurring. 
+Table 23 Predicted Noise Levels, Standard Mode Emergency Scenario, LAeq (15 minute) 
+Receiver 
+(Height 
+from 
+ground) 
+Criteria (dBA) Predicted Noise Levels (dBA) 
+Day Evening Night 
+Emergency Scenario with all 
+Generators 
+R1 (1.5m) N/A N/A N/A 43 
+R2 (1.5m) N/A N/A N/A 46 
+R3 (1.5m) N/A N/A N/A 37 
+R4 (5.0m) N/A N/A N/A 52 
+R5 (1.5m) N/A N/A N/A 43 
+R6 (1.5m) N/A N/A N/A 43 
+R7 (1.5m) N/A N/A N/A 45 
+R8 (1.5m) N/A N/A N/A 45 
+R9 (1.5m) N/A N/A N/A 45 
+R10 (5.0m) N/A N/A N/A 49 
+R11 (1.5m) N/A N/A N/A 38 
+R12 (1.5m) N/A N/A N/A 50 
+R13 (1.5m) N/A N/A N/A 46 
+R14 (1.5m) N/A N/A N/A 46 
+R15 (1.5m) N/A N/A N/A 39 
+R16 (1.5m) N/A N/A N/A 47 
+R17 (1.5m) N/A N/A N/A 34 
+R18 (1.5m) N/A N/A N/A 37 
+R19 (1.5m) N/A N/A N/A 44 
+ 
+  
+[[page 41]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 41 of 77 
+ 
+4.6.3 Bushfire Mode Operational Scenarios 
+The predicted LAeq results of the modelled operational scenarios for Bushfire Mode AHUs with up to one generator 
+operating are presented below in Table 22. Noise contours of the modelled operational scenarios are shown in the 
+figures below. Note that the contour maps are set to receiver level heights of 1.5m. 
+Compliance with the noise criteria set out in the Blacktown DCP 2015 and NSW NPI is predicted at all receivers 
+during all operational scenarios, provided the modelling assumptions outlined above are implemented into the 
+design of the datacentre. 
+Table 24 Predicted Noise Levels, Bushfire Mode Operational Scenarios, LAeq (15 minute) 
+Receiver 
+(Height 
+from 
+ground) 
+Criteria (dBA) Predicted Noise Levels (dBA) 
+Day Evening Night 
+Day Scenario 
+with one 
+Generator 
+Evening/Night 
+Scenario with 
+no Generators 
+R1 (1.5m) 46 43 36 32 31 
+R2 (1.5m) 46 43 36 34 33 
+R3 (1.5m) 46 43 36 26 24 
+R4 (5.0m) 46 43 36 38 36 
+R5 (1.5m) 46 43 36 28 26 
+R6 (1.5m) 46 43 36 33 23 
+R7 (1.5m) 46 43 36 35 28 
+R8 (1.5m) 46 43 36 37 34 
+R9 (1.5m) 46 43 36 37 34 
+R10 (5.0m) 63 63 63 35 34 
+R11 (1.5m) 68 68 68 29 22 
+R12 (1.5m) 68 68 68 43 40 
+R13 (1.5m) 68 68 68 38 33 
+R14 (1.5m) 68 68 68 37 33 
+R15 (1.5m) 68 68 68 30 27 
+R16 (1.5m) 68 68 68 41 39 
+R17 (1.5m) 68 68 68 26 22 
+R18 (1.5m) 68 68 68 27 22 
+R19 (1.5m) 53 53 53 37 37 
+ 
+[[page 42]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 42 of 77 
+ 
+Figure 16 Bushfire Mode Operational Scenario 1 – Operational Day Scenario with 67 Direct 
+Evaporative Cooling Air Handling Units (with 300mm Deep Acoustic Louvres) and 1 x 3.0 
+MW Generator 
+ 
+
+[[page 43]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 43 of 77 
+ 
+Figure 17 Bushfire Mode Operational Scenario 2 – Operational Evening/Night Scenario with 67 
+Direct Evaporative Cooling Air Handling Units (with 300mm Deep Acoustic Louvres) 
+ 
+  
+
+[[page 44]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 44 of 77 
+ 
+4.6.4 Bushfire Mode Emergency Scenario 
+The predicted LAeq results of the modelled emergency scenario for Bushfire Mode AHUs with all generators operating 
+are presented below in Table 22. 
+Since the use of all generators in a power outage will not exceed 200 hours per year, the use of all generators at 
+once is outside the framework of the POEO Act and the Noise Policy for Industry. As such, there are no applicable 
+criteria for the assessment of the emergency scenario under the Noise Policy for Industry. 
+Nonetheless, Blacktown Council has recommended that this assessment be completed. With this in mind, 
+exceedances of the operational noise criteria set out in the Blacktown DCP 2015 and NSW NPI are pr edicted at 
+several receivers during the emergency scenario. 
+Council has further recommended that nearby residents are informed of the potential for excessive noise generation 
+during periods of total power failure in the area, despite the rarity of these events occurring. 
+Table 25 Predicted Noise Levels, Bushfire Mode Emergency Scenario, LAeq (15 minute) 
+Receiver 
+(Height 
+from 
+ground) 
+Operational Criteria (dBA) Predicted Noise Levels (dBA) 
+Day Evening Night 
+Emergency Scenario with all 
+Generators 
+R1 (1.5m) N/A N/A N/A 45 
+R2 (1.5m) N/A N/A N/A 47 
+R3 (1.5m) N/A N/A N/A 38 
+R4 (5.0m) N/A N/A N/A 53 
+R5 (1.5m) N/A N/A N/A 43 
+R6 (1.5m) N/A N/A N/A 44 
+R7 (1.5m) N/A N/A N/A 45 
+R8 (1.5m) N/A N/A N/A 45 
+R9 (1.5m) N/A N/A N/A 45 
+R10 (5.0m) N/A N/A N/A 50 
+R11 (1.5m) N/A N/A N/A 38 
+R12 (1.5m) N/A N/A N/A 50 
+R13 (1.5m) N/A N/A N/A 46 
+R14 (1.5m) N/A N/A N/A 45 
+R15 (1.5m) N/A N/A N/A 39 
+R16 (1.5m) N/A N/A N/A 47 
+R17 (1.5m) N/A N/A N/A 34 
+R18 (1.5m) N/A N/A N/A 38 
+R19 (1.5m) N/A N/A N/A 46 
+  
+[[page 45]]
+LCI Consultants  
+ 
+Pulse Acoustic Consultancy Pty Ltd Page 45 of 77 
+ 
+4.7 Feasibility And Noise Control Measures 
+The modelling conducted in Section 4.6 finds that, should certain noise control measures be adopted, as discussed 
+further below, compliance with the noise criteria set out in the Blacktown DCP 2015 and NSW NPI is predicted at 
+all sensitive receivers during both operating scenarios. 
+The following conceptual noise controls are recommended for the project: 
+• The generators are to be tested one at a time during the day scenario only. 
+• The generators are to be packaged units which feature attenuators on the air intakes and mufflers or 
+attenuators on the exhaust ducts. The enclosed generators are to comply with a sound pressure level of 
+85 dB(A) at 1m. The recommendations are to be assessed at the detail design stage. 
+• Blacktown Council has recommended that nearby resident ial receivers are informed of the potential for 
+excessive noise generation during periods of total power failure in the area, despite the rarity of these 
+events occurring. 
+• The sound power levels of the air handling units are to be at or below the levels listed in Table 16 of this 
+report for the day, evening and night periods. The suitability of the selected air h andling units is to be 
+assessed at the detailed design stage. 
+• The air handling units are to incorporate intake acoustic louvres: 
+o If Standard Mode AHUs are to be implemented, then louvres with the below insertion losses are 
+proposed (nominally 200mm deep). Details of the required insertion losses provided by the 
+louvres are included in the table below. The locations of the proposed louvres are indicated in 
+Figure 18 and Figure 19. 
+Table 26 Minimum Insertion Losses – 200mm Deep Intake Louvres for Air Handling Units (for 
+Standard Mode) 
+Insertion Loss  
+Octave Band Centre Frequencies (Hz) 
+63 125 250 500 1000 2000 4000 8000 
+Required insertion loss (dB) 1 3 7 11 12 10 10 9 
+o If Bushfire Mode AHUs are to be implemented, then louvres with the below insertion losses are 
+proposed (nominally 300mm deep). Details of the required insertion losses provided by the 
+louvres are included in the table below. The locations of the proposed l ouvres are indicated in 
+Figure 20 and Figure 21. 
+Table 27 Minimum Insertion Losses – 300mm Deep Intake Louvres for Air Handling Units (for 
+Bushfire Mode) 
+Insertion Loss  
+Octave Band Centre Frequencies (Hz) 
+63 125 250 500 1000 2000 4000 8000 
+Required insertion loss (dB) 4 7 9 13 14 12 12 8 
+• Once the final concept, mechanical equipment selection and equipment layout are finalised in later stages 
+of the project, recommended noise control measures can be finalised. That is, the above conceptual noise 
+measures are subject to final equipment selections and layouts. 
+ 
+[[page 46]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 46 of 77 
+ 
+Figure 18 Markup showing locations of proposed acoustic louvres should “Standard mode” AHUs be implemented – Level 1 
+ 
+
+[[page 47]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 47 of 77 
+ 
+Figure 19 Markup showing locations of proposed acoustic louvres should “Standard mode” AHUs be implemented – Level 2 
+ 
+
+[[page 48]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 48 of 77 
+ 
+Figure 20 Markup showing locations of proposed acoustic louvres should “Bushfire mode” AHUs be implemented – Level 1 
+ 
+
+[[page 49]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 49 of 77 
+ 
+Figure 21 Markup showing locations of proposed acoustic louvres should “Bushfire mode” AHUs be implemented – Level 2 
+ 
+
+[[page 50]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 50 of 77 
+ 
+5 ROAD TRAFFIC NOISE ASSESSMENT 
+As part of the total industrial development at 57 Station Road, Seven Hills, additional vehicle movements are 
+expected on Station Road. Station Road has been selected for this road noise assessment as it is the road that will 
+have the highest proportion of site traffic travelling to/from the site. For other surrounding roadways, the proportion 
+of traffic from the development will be lower, and, therefore, road traffic noise is not proposed to be assessed. 
+Under section 3.4.1 of the Road Noise Policy “for existing residences and other sensitive land uses affected by 
+additional traffic on existing roads generated by land use developments, any increase in the total traffic noise level 
+should be limited to 2 dB above that of the corresponding ‘no build option’”. 
+A 2 dB increase equates to approximately a 60% increase in total traffic along the subject road. 
+The Traffic Impact Assessment  by The Transport Planning Partnership (reference number 20407, Version V03, 
+dated 01/04/22) specifies that the existing average daily traffic volume along Station Road is 20,980. In the worst-
+case scenario, the total peak hourly trip generation of the proposed development is estimated as follows: 
+• AM and PM peak periods: 
+o 3 heavy vehicles (6 trips). 
+o 10 light vehicles (20 trips). 
+The proportional traffic increase along Station Road from the development is therefore predicted to be far smaller 
+than a 60% increase. Therefore, it is predicted that road traffic noise levels will not increase by 2 dB or more. The 
+proposed road movements are thus predicted to comply with the Road Noise Policy and no further noise mitigation 
+measures are recommended. 
+  
+[[page 51]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 51 of 77 
+ 
+6 CONSTRUCTION NOISE AND VIBRATION 
+Predictive noise modelling of the construction noise activities was carried out using the ISO 9613 algorithm within 
+iNoise 2022.01. Construction activities are assumed to include the following: 
+ Bulk earthworks; 
+ Concreting works; 
+ Structure works. 
+6.1 Noise Generating Scenarios 
+Major plant equipment to be used in the construction works is likely to include excavators, dozers, trucks, hand 
+tools and a franna. The sound power levels for the construction equipment li kely to be used for each of the listed 
+tasks are provided in the table below. Indicative locations of the noise sources are shown in Figure 22 to Figure 24. 
+Table 28 Summary of utilised construction sound power levels 
+Tasks Equipment Sound Power Levels  
+(dBA re 1pW) 
+Operational Time per 15 
+minute period 
+1. General excavation 
+works 
+Excavator 25T 109 15 minutes 
+Dozer 25T 109 15 minutes 
+Watercart 106 15 minutes 
+Truck 106 5 minutes 
+2. Concreting works Concrete truck 106 15 minutes 
+Concrete pump 106 15 minutes 
+Truck 106 5 minutes 
+3. Façade construction Franna 106 15 minutes 
+Truck 106 5 minutes 
+Power hand tools 100 5 minutes 
+  
+[[page 52]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 52 of 77 
+ 
+Figure 22 Construction Scenario 1 – General Excavation Works 
+ 
+  
++ R1 + R2 
++ R3 
++ R6 
++ R5 
++ R7 
++ R8 
+R12 + 
+R11 + 
+R10 + 
++ R9 
+R13 + 
+R14 + 
+R15 + 
+R16 + 
+R17 + 
++ R18 
++ R19 
++ R4 
++ + 
+Truck 
+Dozer 
++ 
+Excavator 
++ Watercart 
+[[page 53]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 53 of 77 
+ 
+Figure 23 Construction Scenario 2 – Concreting Works 
+ 
+  
++ R1 + R2 
++ R3 
++ R6 
++ R5 
++ R7 
++ R8 
+R12 + 
+R11 + 
+R10 + 
++ R9 
+R13 + 
+R14 + 
+R15 + 
+R16 + 
+R17 + 
++ R18 
++ R19 
++ R4 
++ + 
+Truck 
+Concrete Pump 
++ 
+Concrete Truck 
+[[page 54]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 54 of 77 
+ 
+Figure 24 Construction Scenario 3 – Façade Construction 
+ 
+  
++ R1 + R2 
++ R3 
++ R6 
++ R5 
++ R7 
++ R8 
+R12 + 
+R11 + 
+R10 + 
++ R9 
+R13 + 
+R14 + 
+R15 + 
+R16 + 
+R17 + 
++ R18 
++ R19 
++ R4 
++ + 
+Truck 
+Power Hand Tools 
++ 
+Franna Crane 
+[[page 55]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 55 of 77 
+ 
+6.2 Modelling Assumptions 
+The following modelling assumptions are utilised for the construction noise assessment: 
+ The noise generating scenario is modelled for a worst case 15 minute period; 
+ Terrain has been sourced from the NSW Land and Property Information database Six Maps; 
+ Ground Absorption has been included in the model with the surrounding grass areas having an absorption 
+factor of 1.0 and the site itself and other hard surfaces having a ground absorption factor of 0;  
+ All receptors are modelled 1.5m above the ground;  
+ The noise sources and sound power levels have been modelled with respect to the information presented in  
+Table 28 and 
+ Construction noise is assumed to take place during the following construction hours:  
+▪ Monday to Friday 7 am to 6 pm 
+▪ Saturday 8 am to 5 pm 
+▪ No work on Sundays or public holidays 
+6.3 Predicted LAeq, 15 min Noise Levels 
+The predicted L Aeq, 15 min  results of the modelled construction scenarios are presented below in  Table 29. Noise 
+contours of the modelled LAeq, 15 min construction scenarios are shown in  Figure 25 to Figure 27. It is shown that 
+construction activities during each of the construction stages are predicted to exceed the standard hours criteria of 
+51 dBA at several residential receivers.  Exceedances of the ‘standard construction hours’ criteria are identified by 
+bold text in Table 29. Exceedances of the ‘outside standard construction hours’ criteria are identified by underlined 
+text in Table 29. 
+Based on the expected construction noise levels, suitable management controls and community notifications are 
+required; see Section 7. 
+Table 29 Predicted Noise Levels, Construction Scenarios, LAeq (15 minute) 
+Receiver 
+Criteria Criteria Predicted Noise Levels – 
+Construction Scenario 
+Standard Hours Outside Standard Hours 1 2 3 
+R1 51 46 53 49 48 
+R2 51 46 54 50 49 
+R3 51 46 40 37 35 
+R4 51 46 59 55 54 
+R5 51 46 50 44 43 
+R6 51 46 49 43 42 
+R7 51 46 51 47 45 
+R8 51 46 51 46 44 
+R9 51 46 50 46 44 
+R10 70 70 57 55 53 
+R11 75 75 36 33 30 
+R12 75 75 55 50 48 
+R13 75 75 41 38 35 
+R14 75 75 43 39 38 
+R15 75 75 38 34 31 
+R16 75 75 53 50 47 
+[[page 56]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 56 of 77 
+ 
+Receiver 
+Criteria Criteria Predicted Noise Levels – 
+Construction Scenario 
+Standard Hours Outside Standard Hours 1 2 3 
+R17 75 75 34 30 28 
+R18 75 75 47 39 41 
+R19 65 65 60 55 54 
+ 
+Figure 25 Predicted Noise Contours – Construction Scenario 1, LAeq (15 minute) 
+ 
+
+[[page 57]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 57 of 77 
+ 
+Figure 26 Predicted Noise Contours – Construction Scenario 2, LAeq (15 minute) 
+ 
+
+[[page 58]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 58 of 77 
+ 
+Figure 27 Predicted Noise Contours – Construction Scenario 3, LAeq (15 minute) 
+ 
+  
+
+[[page 59]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 59 of 77 
+ 
+6.4 Construction Vibration Assessment 
+In order to maintain compliance with the human comfort vibration criteria discussed in Section  3.7, it is 
+recommended that the indicative safe distances listed in Table 30 should be main tained. These indicative safe 
+distances should be validated at the start of construction works by undertaking measurements of vibration levels 
+generated by construction and demolition equipment to be used on site. 
+If applicable, the criteria for scientific  or medical equipment (should any of these exist close to the site) can be 
+more stringent than those required for human comfort. Vibration validating measurements should be conducted at 
+each site to determine the vibration level and potential impact to this sensitive equipment. 
+Additionally, any vibration levels should be assessed in accordance with the criteria discussed in Section 3.7. This 
+information should also be included as part of the CNVMP. 
+Table 30 Recommended indicative safe working distances for vibration intensive plant 
+Plant Rating / Description 
+Safe Working Distances (m) 
+Cosmetic Damage 
+(BS 7385: Part 2 
+DIN 4150: Part 3) 
+Human Comfort 
+(AVTG) 
+Vibratory roller 
+< 50 kN (Typically 1 – 2 tonnes) 5 15 – 20 
+< 100 kN (Typically 2 – 4 tonnes) 6 20  
+< 200 kN (Typically 4 – 6 tonnes) 12 40 
+< 300 kN (Typically 7 – 13 tonnes) 15 100 
+> 300 kN (Typically more than 13 
+tonnes) 20 100 
+Small hydraulic 
+hammer 
+300 kg, typically 5 – 12 tonnes 
+excavator 2 7 
+Medium hydraulic 
+hammer 
+900 kg, typically 12 – 18 tonnes 
+excavator 7 23 
+Large hydraulic 
+hammer 
+1600 kg, typically 18 – 34 tonnes 
+excavator 22 73 
+Vibratory pile 
+driver Sheet piles 2 – 20 20 
+Jackhammer Hand held 1 
+Avoid contact with 
+structure and 
+steel 
+reinforcements 
+  
+[[page 60]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 60 of 77 
+ 
+7 CONSTRUCTION NOISE CONTROL MEASURES  
+Given the predicted noise levels in Section 6, the following noise control measures and noise management practices 
+are recommended to be adopted as part of this proposed construction works. 
+7.1 Acoustic Management Procedures 
+7.1.1 Summary of Management Procedures 
+Table 31 below summarises the management proce dures recommended for airborne noise impacts. These 
+procedures are also further discussed in the report. Hence, where applicable, links to further references are provided 
+in Table 31. 
+  
+[[page 61]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 61 of 77 
+ 
+Table 31 Summary of mitigation procedures 
+Procedure Abbreviation Description Further Reference 
+General 
+Management 
+Measures 
+GMM Introduce best -practice general mitigation 
+measures in the workplace which are aimed at 
+reducing the acoustic impact onto the nearest 
+affected receivers. 
+Refer to Section 7.6 
+Project 
+Notification 
+PN Issue project updates to stakeholders, discussing 
+overviews of current and upcoming works. 
+Advanced warning of potential disruptions can be 
+included. 
+Content and length to be determined on a project-
+by-project basis. 
+Refer to Section 7.3 
+Verification 
+Monitoring 
+V Monitoring to comprise attended or unattended 
+acoustic surveys. The purpose of the monitoring is 
+to confirm measured levels are consistent with the 
+predictions in the acoustic assessment, and to 
+verify that the mitigation procedures are 
+appropriate for the affected receivers. 
+If the measured levels are higher than those 
+predicted, then the measures will need to be 
+reviewed and the management plan will need to be 
+amended. 
+For noise impact, refer to 
+Section 7.2.2 
+Complaints 
+Management 
+System 
+CMS Implement a management system which includes 
+procedures for receiving and addressing complaints 
+from affected stakeholders 
+Refer to Section 7.4 
+Specific 
+Notification 
+SN Individual letters or phone calls to notify 
+stakeholders that noise levels are likely to exceed 
+noise objectives. 
+Alternatively, contractor could visit stakeholders 
+individually in order to brief them in regards to the 
+noise impact and the mitigation measures that will 
+be implemented. 
+Refer to Section 7.3 
+Respite Offer RO Offer provided to stakeholders subjected to an 
+ongoing impact. 
+- 
+Alternative 
+Construction 
+Methodology 
+AC Contractor to consider alternative construction 
+options that achieve compliance with relevant 
+criteria. Alternative option to be determined on a 
+case-by-case basis. It is recommended that the 
+selection of the alternative option should also be 
+determined by considering the assessment of 
+on-site measurements (refer to Verification 
+Monitoring above). 
+- 
+The application of these procedures is in relation to the exceedances over the relevant criteria. For airborne noise, 
+the criteria are based on NMLs. The allocation of these procedures is discussed in Section 7.1.2. 
+  
+[[page 62]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 62 of 77 
+ 
+7.1.2 Allocation of Noise Management Procedures 
+For residences, the management procedures have been allocated based on noise level exceedances at the affected 
+properties, which occur over the designated NMLs. The allocation of these procedures is summarised in Table 32 
+below. 
+Table 32 Allocation of noise management procedures – residential receivers 
+Construction Hours Exceedance over NML 
+(dB) 
+Management Procedures 
+(see definition above) 
+Mon – Fri: 7:00 am to 6:00 pm 
+Sat: 8:00 am – 5:00 pm 
+No work on Sunday or Public Holidays. 
+0 - 3 GMM 
+4 - 10 GMM, PN, V 1, CMS, AC 
+> 10 GMM, PN, V, CMS, SN, AC 
+Notes 
+1. Verification monitoring to be undertaken upon complaints received from affected receivers 
+Please note the following regarding the allocation of these procedures: 
+ The exceedances have been estimated as part of the acoustic assessment, and these are summarised in Section 
+6.3. 
+ The allocation of procedures is based  on the assumptions used for noise level predictions (refer to Section  
+6.1). Consequently, these allocations can be further refined once additional details of the construction program 
+become available. 
+7.2 Site Specific Noise Mitigation Measures 
+7.2.1 General Comments 
+The contractor will, where reasonable and feasible, apply best practice noise mitigation measures. These measures 
+shall include the following: 
+ Maximising the offset distance between plant items and nearby noise sensitive receivers. 
+ Preventing noisy plant working simultaneously and adjacent to sensitive receivers. 
+ Minimising consecutive works in the same site area. 
+ Orienting equipment away from noise sensitive areas. 
+ Carrying out loading and unloading away from noise sensitive areas. 
+In order to minimise noise impacts during the works, the contractor will take all reasonable and feasible measures 
+to mitigate noise effects. 
+The contractor w ill also take reasonable steps to control noise from all plant and equipment. Examples of 
+appropriate noise control include efficient silencers and low noise mufflers. 
+The contractor should apply all feasible and reasonable work practices to meet the NMLs and inform all potentially 
+impacted residents of the nature of works to be carried out, the expected noise levels, duration of noise generating 
+construction works, and the contact details for the proposal. 
+  
+[[page 63]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 63 of 77 
+ 
+7.2.2 Noise Monitoring 
+Noise monitoring, if required, will be performed by an acoustical consultant directly engaged by the contractor. 
+Noise monitoring is recommended to be undertaken by attended noise measurements at the start of any new phase 
+of works (i.e., demolition, excavation or remediation works etc.). The statistical parameters to be measured should 
+include the following noise descriptors: LAmin, LA90, LA10, LA1, LAmax and LAeq. Unattended noise measurements should 
+be conducted over consecutive 15 minute periods.  
+This monitoring should also be complemented by undertaking attended noise measurements in order to: 
+ Differentiate between construction noise sources and other extraneous noise events (such as road traffic and 
+aircraft noise)  
+ Note and identify any excessive noise emitting machinery or operation. 
+In addition to the above detailed measurements, should any complaints be received which have not been 
+determined previously, it should be confirmed by conducting additional attended noise measurements. 
+The survey methodology and any equipment should comply with the requirements discussed in Standard AS 1055.1-
+1997. 
+It is our understanding that noise and vibration monitoring will be undertaken on the site for the entirety of the  
+construction period. This is proposed to be conducted via SiteHive monitoring equipment. 
+7.2.3 Alternate Equipment or Process 
+Exceedance of the site’s NMLs should result in an investigation as to whether alternate equipment could be used, 
+or a difference process could be undertaken.  
+In some cases, the investigation may conclude that no possible other equipment can be used, however, a different 
+process could be undertaken.  
+7.2.4 Acoustic Enclosures/Screening 
+Typically, on a construction site there are three different types of plant that will be used: mobile plant (i.e., 
+excavators, skid steers, etc.), semi mobile plant (i.e., hand tools generally) or static plant (i.e., diesel generators). 
+For plant items which are static it is recommended that, in the event exceedances are being measured due to 
+operation of the plant item, an acoustic enclosure/screen is constructed to reduce impacts. These systems can be 
+constructed from Fibre Cement (FC) sheeting or, if airflow is required, acoustic attenuators or louvres. 
+For semi mobile plant, relocation of plant should be investigated to either  be operated in an enclosed space or at 
+locations away from a receiver. 
+With mobile plant it is generally not possible to treat these sources. However, investigations into the machine itself 
+may result in a reduction of noise (i.e., mufflers/attenuators etc). 
+7.2.5 Site Cranes (Permanent) 
+Cranes to be installed are recommended to be electric. Should these cranes require ground-based diesel generators, 
+acoustic enclosures/screens are to be provided. Refer t o 7.2.4 above. Advice from a qualified Acoustic Consultant 
+should be sought. 
+If diesel cranes are proposed, a detailed review of the proposed crane generator should be undertaken by a qualified 
+Acoustic Consultant to determine if the following is required: 
+• Acoustic muffler on the exhaust. 
+[[page 64]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 64 of 77 
+ 
+• Acoustic enclosure around the plant. 
+7.2.6 Required Piling 
+Piling on the site will be limited and will not require vibration or percussion piling. All piling should be undertaken 
+during the approved hours of works for the project and the proposed period when piling is to be undertaken is to 
+be included in the community notifications provided to surrounding receivers. 
+7.3 Community Consultation 
+Active community consultation and the maintenance of positive relations with local residents and businesses would 
+assist in alleviating concerns and thereby minimising complaint. It is common for construction projects to provide 
+community consultation if an exceedance of noise goals has  been predicted. This communication is commonly 
+conducted in the form of a letter box drop or more active engagement with more highly impacted receivers. 
+This form of notification should provide specific notification of the duration and timing of the construction activities 
+so that residents are informed about the proposed works ahead of time. The letter should also provide the 
+community with details  for a community liaison officer available to adequately respond to all project related 
+enquiries. 
+In response to the operational parameters provided by each of the operators above the recommended mitigation 
+measures outlined in this report are formulated with consideration of the information provided.  
+Prior to the works onsite being undertaken, it is recommende d that further community consultation with the 
+neighbouring affected parties be undertaken. 
+The communication, however, should not be limited to the beginning of the onsite works but throughout, providing 
+the community with constant updates on the progress and upcoming works. In our experience these could include: 
+• Site noticeboard; 
+• Email notifications; and 
+• Letterbox drops. 
+7.4 Complaints Management System 
+Should complaints arise they must be dealt with in a responsible and uniform manner, therefore, a managemen t 
+system to deal with complaints is detailed below. 
+Community complaints will be managed by the Main Contract, which will be via email and phone during business 
+hours. It is understood that details of this are currently being arranged. 
+All complaints shoul d be investigated by the Contractor in accordance with the procedures outlined in Australia 
+Standard 2436-2010. Consequently, a complaint response procedure should be implemented. Information to be 
+gathered as part of this process should include: 
+• location of complainant 
+• time/s of occurrence of alleged noise or vibration impacts 
+• nature of impact particularly with respect to vibration 
+• Perceived source 
+• Prevailing weather conditions and similar details that could be utilised to assist in the investigation of the 
+complaint.  
+All resident complaints will be responded to in the required timeframe and action taken recorded. 
+[[page 65]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 65 of 77 
+ 
+Post receiving a noise and or vibra tion complaint, the process outlined in the Contingency Plans below should be 
+undertaken. 
+7.5 Contingency Plans 
+Contingency plans are required to address noise or vibration problems if excessive levels are measured at 
+surrounding sensitive receivers and/or if justified complaints occur. Such plans include: 
+ Stop the onsite works. 
+ Identify the source of the main equipment within specific areas of the site which is producing the most 
+construction noise and vibration at the sensitive receivers; and 
+ Review the identified equipment and determine if an alternate piece of equipment can be used or the process 
+can be altered.  
+ In the event an alternate piece of equipment or process can be used, works can re-commence. 
+ In the event an alternate piece of equipment or process  cannot be determined implement a construction 
+assessment to be performed by a suitably qualified acoustic consultant. 
+The Superintendent shall have access to view the Contractor’s noise measurement records on request. The 
+Superintendent may undertake noise monitoring if and when required. 
+7.6 General Mitigation Measures (Australia Standard 2436-2010) 
+As well as the above project specific noise mitigation controls, AS 2436-2010 “Guide to Noise and Vibration Control 
+on Construction, Demolition and Maintenance Si tes” sets out numerous practical recommendations to assist in 
+mitigating construction noise emissions. Examples of strategies that could be implemented on the subject project 
+are listed below, including the typical noise reduction achieved, where applicable. 
+7.6.1 Adoption of Universal Work Practices 
+ Regular reinforcement (such as at toolbox talks) of the need to minimise noise and vibration. 
+ Regular identification of noisy activities and adoption of improvement techniques. 
+ Avoiding the use of portable radios, public address systems or other methods of site communication that may 
+unnecessarily impact upon nearby sensitive receivers. 
+ Where possible, avoiding the use of equipment that generates impulsive noise. 
+ Minimising the need for vehicle reversing for example ( particularly at night), by arranging for one -way site 
+traffic routes. 
+ Use of broadband audible alarms on vehicles and elevating work platforms used on site. 
+ Minimising the movement of materials and plant and unnecessary metal-on-metal contact. 
+ Minimising truck movements. 
+7.6.2 Plant and Equipment 
+ Choosing quieter plant and equipment based on the optimal power and size to most efficiently perform the 
+required tasks. 
+ Selecting plant and equipment with low vibration generation characteristics. 
+[[page 66]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 66 of 77 
+ 
+ Operating plant and equipment in the quietest and most efficient manner. 
+7.6.3 On Site Noise Mitigation 
+ Maximising the distance between noise activities and noise sensitive land uses. 
+ Installing purpose-built noise barriers, acoustic sheds and enclosures. 
+7.6.4 Work Scheduling 
+ Providing respite periods which could include restricting very noisy activities to time periods that least affect 
+the nearby noise sensitive locations, restricting the number of nights that after -hours work is conducted near 
+residences or by determining any specific requirements.  
+ Scheduling work to coincide with non-sensitive periods. 
+ Planning deliveries and access to the site to occur quietly and efficiently and organising parking only within 
+designated areas located away from the sensitive receivers. 
+ Optimising the number of deliveries to the site by amalgamating loads where possible and scheduling arrivals 
+within designated hours. 
+ Including contract conditions that include penalties for non -compliance with reasonable instructions  by the 
+principal to minimise noise or arrange suitable scheduling. 
+7.6.5 Source Noise Control Strategies 
+Some ways of controlling noise at the source are: 
+ Where reasonably practical, noisy plant or processes should be replaced by less noisy alternatives. 
+ Modify existing equi pment: Engines and exhausts are typically the dominant noise sources on mobile plant 
+such as cranes, graders, excavators, trucks, etc. In order to minimise noise emissions, residential grade 
+mufflers should be fitted on all mobile plant utilised on site. 
+ Siting of equipment: locating noisy equipment behind structures that act as barriers, or at the greatest distance 
+from the noise-sensitive area; or orienting the equipment so that noise emissions are directed away from any 
+sensitive areas, to achieve the maximum attenuation of noise. 
+ Regular and effective maintenance. 
+7.6.6 Miscellaneous Comments 
+Deliveries should be undertaken, where possible, during standard construction hours. 
+Maximise hammer penetration (and reduce blows) by using sharp hammer tips. Keep stock s of sharp profiles at 
+site and monitor the profiles in use. 
+It is advised that mobile plant and trucks operating on site for a significant portion of the project are to have 
+reversing alarm noise emissions minimised. This is to be implemented subject to recognising the need to maintain 
+occupational safety standards. 
+No public address system should be used on site (except for emergency purposes). 
+  
+[[page 67]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 67 of 77 
+ 
+8 CONCLUSION 
+This noise and vibration impact assessment report has been prepared by Pulse White Noise Acoustics (PWNA) on 
+behalf of Lehr Consultants International (Australia) Pty Ltd (LCI) in support of a State Significant Development 
+Application (SSDA) submitted to the Department of Planning and Environment (DPE) under Part 4 of the 
+Environmental Planning and Assessment Act 1979 (EP&A Act 1979). 
+LCI is seeking to secure approval for the construction of a new data storage centre development on the site known 
+as 57 Station Road, Seven Hills, located within the Blacktown City Council local government area (LG A). The 
+proposed development will comprise the erection of a new two-storey data centre at the rear of the site, associated 
+plant and equipment, car parking areas, landscaping, and civil works. 
+This document assesses the potential operational noise impacts of the proposed development on the neighbouring 
+receptors. In particular, operational impacts of  the development and impacts associated with the construction of 
+the development are assessed at the nearest receptors. The noise and vibration impacts are assessed cumulatively 
+with those from the existing development approval, issued by Blacktown City Council under DA-21-01058. 
+Based on the findings from this Noise and Vibration Impact Assessment, should the noise control measures 
+recommended in Section 4.6.4 be implemented, the proposed datacentre development is predicted to comply with 
+the recommended noise criteria set out in the Blacktown DCP 2015 and NSW NPI at the surrounding receivers. 
+  
+[[page 68]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 68 of 77 
+ 
+APPENDIX A: ACOUSTIC TERMINOLOGY 
+The following is a brief description of the acoustic terminology used in this report. 
+Sound power level The total sound emitted by a source 
+Sound pressure level The amount of sound at a specified point 
+Decibel [dB] The measurement unit of sound 
+A Weighted decibels [dB(A]) The A weighting is a frequency filter applied to measured noise levels to 
+represent how humans hear sounds. The A -weighting filter emphasises 
+frequencies in the speech range (between 1kHz and 4 kHz) which the human 
+ear is most sensitive to, and places less emphasis on low frequencies at 
+which the human ear is not so sensitive. When an overall sound level is A -
+weighted it is expressed in units of dB(A). 
+Decibel scale The decibel scale is logarithmic in order to produce a better representation 
+of the response of the human ear. A 3 dB increase in the sound pressure 
+level corresponds to a doubling in the sound energy. A 10 dB increase in the 
+sound p ressure level corresponds to a perceived doubling in volume. 
+Examples of decibel levels of common sounds are as follows: 
+0dB(A) 
+30dB(A) 
+40dB(A) 
+50dB(A) 
+70dB(A) 
+80dB(A) 
+90dB(A) 
+100dB(A) 
+110 dB(A) 
+115dB(A) 
+120dB(A) 
+Threshold of human hearing 
+A quiet country park 
+Whisper in a library 
+Open office space 
+Inside a car on a freeway 
+Outboard motor 
+Heavy truck pass-by 
+Jackhammer/Subway train 
+Rock Concert 
+Limit of sound permitted in industry 
+747 take off at 250 metres 
+Frequency [f] The repetition rate of the cycle measured in Hertz (Hz). The frequency 
+corresponds to the pitch of the sound. A high frequency corresponds to a 
+high pitched sound and a low frequency to a low pitched sound. 
+Ambient sound The all-encompassing sound at a point composed of sound from all sources 
+near and far. 
+Equivalent continuous sound 
+level [Leq] 
+The constant sound level which, when occurring over the same period of 
+time, would result in the receiver experiencing the same amount of sound 
+energy. 
+Reverberation The persistence of sound in a space after the source of that sound has been 
+stopped (the reverberation time is the time taken for a reverberant sound 
+field to decrease by 60 dB) 
+Air-borne sound The sound emitted directly from a source into the surrounding air, such as 
+speech, television or music 
+Impact sound The sound emitted from force of one object hitting another such as footfalls 
+and slamming cupboards. 
+Air-borne sound isolation The reduction of airborne sound between two rooms. 
+Sound Reduction Index [R] 
+(Sound Transmission Loss) 
+The ratio the sound incident on a partition to the sound transmitted by the 
+partition. 
+Weighted sound reduction index 
+[Rw] 
+A single figure representation of the air-borne sound insulation of a partition 
+based upon the R values for each frequency measured in a laboratory 
+environment. 
+Level difference [D] The difference in sound pressure level between two rooms. 
+[[page 69]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 69 of 77 
+ 
+Normalised level difference [Dn] The difference in sound pressure level between two rooms normalised for 
+the absorption area of the receiving room. 
+Standardised level difference 
+[DnT] 
+The difference in sound pressure level between two rooms normalised for 
+the reverberation time of the receiving room. 
+Weighted standardised level 
+difference [DnT,w] 
+A single figure representation of the air-borne sound insulation of a partition 
+based upon the level difference. Generally used to present the performance 
+of a partition when measured in situ on site. 
+Ctr A value added to an R w or D nT,w value to account for variations in  the 
+spectrum. 
+Impact sound isolation The resistance of a floor or wall to transmit impact sound. 
+Impact sound pressure level [Li] The sound pressure level in the receiving room produced by impacts 
+subjected to the adjacent floor or wall by a tapping machine. 
+Normalised impact sound 
+pressure level [Ln] 
+The impact sound pressure level normalised for the absorption area of the 
+receiving room. 
+Weighted normalised impact 
+sound pressure level [Ln,w] 
+A single figure representation of the impact sou nd insulation of a floor or 
+wall based upon the impact sound pressure level measured in a laboratory. 
+Weighted standardised impact 
+sound pressure level [L’nT,w] 
+A single figure representation of the impact sound insulation of a floor or 
+wall based upon the impact sound pressure level measured in situ on site. 
+CI A value added to an L nW or L’ nT,w value to account for variations in the 
+spectrum. 
+Energy Equivalent Sound 
+Pressure Level [LA,eq,T ] 
+‘A’ weighted, energy averaged sound pressure level over the me asurement 
+period T. 
+Percentile Sound Pressure Level 
+[LAx,T ] 
+‘A’ weighted, sound pressure that is exceeded for percentile x of the 
+measurement period T. 
+ 
+*Definitions of a number of terms have been adapted from Australian Standard AS1633:1985 “Acoustics – Glossary 
+of terms and related symbols” 
+  
+[[page 70]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 70 of 77 
+ 
+APPENDIX B: NOISE MONITORING RESULTS 
+ 
+[[page 71]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 71 of 77 
+ 
+ 
+
+[[page 72]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 72 of 77 
+ 
+ 
+
+[[page 73]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 73 of 77 
+ 
+ 
+
+[[page 74]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 74 of 77 
+ 
+ 
+
+[[page 75]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 75 of 77 
+ 
+ 
+
+[[page 76]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 76 of 77 
+ 
+ 
+
+[[page 77]]
+LCI Consultants  
+ 
+Pulse White Noise Acoustics Pty Ltd Page 77 of 77 
+ 
+ 

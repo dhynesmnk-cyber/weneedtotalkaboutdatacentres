@@ -124,9 +124,12 @@ select public.assert(
 -- page and NVIDIA's Australian release (9 September 2026): 296 + 5 = 301. Its second
 -- pass registers the four modification assessment reports and Roberts Road's Mod 4
 -- report (RG-045), and Firmus's Wesley Vale page (RG-027): 301 + 6 = 307.
+-- 2026-11-18: research batch 8 registers the two acoustic peer reviews and the three
+-- greenhouse gas reviews it opened (RG-075), and one bulk record for the 35 acoustic and
+-- air quality reports it read for their authors (RG-073): 307 + 6 = 313.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 307,
-  '307 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 313,
+  '313 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from
@@ -160,9 +163,12 @@ select public.assert(
 -- rejected (RG-001, 008, 016, 018, 019), 94 load.
 -- 2026-11-17: RG-106 opens on DigiCo's four other Australian properties, cited to its
 -- Annual Report. 100 questions, the same five rejected, 95 load.
+-- 2026-11-18: research batch 8 gives RG-008 its first citations (the EPA's advice on
+-- licences, as the Department's assessment reports record it), so four are rejected
+-- (RG-001, 016, 018, 019) and 96 load.
 select public.assert(
-  (select count(*) from facts.research_agenda where pipeline_id is not null) = 95,
-  '95 research questions loaded');
+  (select count(*) from facts.research_agenda where pipeline_id is not null) = 96,
+  '96 research questions loaded');
 
 select public.assert(
   (select count(*) from facts.research_agenda q
@@ -173,9 +179,12 @@ select public.assert(
 
 select public.assert(
   (select count(*) from facts.research_agenda
-    where pipeline_id in ('RG-001', 'RG-008',
+    where pipeline_id in ('RG-001',
                           'RG-016', 'RG-018', 'RG-019')) = 0,
   'no uncited question was published');
+
+-- 2026-11-18: RG-008 leaves this list. Research batch 8 cites it to the EPA's advice on
+-- licences as the Department's assessment reports record it, so it is published.
 
 -- 2026-11-15: RG-017 leaves this list. It is now cited to NEXTDC S7's scoping report,
 -- which states the water demand and the Sydney Water engagement, so the question is
@@ -271,8 +280,8 @@ select public.assert(
 
 -- The research agenda is published, and each question's sources with it.
 select public.assert(
-  (select count(*) from facts.research_agenda) = 95,
-  'anon can read all 95 research questions');
+  (select count(*) from facts.research_agenda) = 96,
+  'anon can read all 96 research questions');
 
 select public.assert(
   (select count(*) from facts.research_agenda q

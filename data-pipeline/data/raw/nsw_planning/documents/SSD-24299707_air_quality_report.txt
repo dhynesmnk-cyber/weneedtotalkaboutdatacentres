@@ -1,0 +1,3211 @@
+[[page 1]]
+SLR Ref: 610.30465-R02
+Version No: -v2.2
+October 2021
+AIR QUALITY IMPACT ASSESSMENT
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+Prepared for:
+GIDDIS Project Management
+[[page 2]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 2
+PREPARED BY
+SLR Consulting Australia Pty Ltd
+ABN 29 001 584 612
+Tenancy 202 Submarine School, Sub Base Platypus, 120 High Street
+North Sydney NSW 2060 Australia
+T: +61 2 9427 8100
+E: [email redacted]   www.slrconsulting.com
+BASIS OF REPORT
+This report has been prepared by SLR Consulting Australia Pty Ltd (SLR) with all reasonable
+skill, care and diligence, and taking account of the timescale and resources allocated to it
+by agreement with GIDDIS Project Management  (the Client).  Information reported herein
+is based on the interpretation of data collected, which has been accepted in good faith as
+being accurate and valid.
+This report is for the exclusive use of the Client.  No warranties or guarantees are
+expressed or should be inferred by any third parties.  This report may not be relied upon
+by other parties without written consent from SLR.
+SLR disclaims any responsibility to the Client and others in respect of any matters outside
+the agreed scope of the work.
+DOCUMENT CONTROL
+Reference Date Prepared Checked Authorised
+610.30465-R02-v2.2 22 October 2021 Jason Shepherd Ali Naghizadeh Ali Naghizadeh
+610.30465-R02-v2.1 20 October 2021 Jason Shepherd Ali Naghizadeh Ali Naghizadeh
+610.30465-R02-v2.0 30 September 2021 Jason Shepherd Ali Naghizadeh Ali Naghizadeh
+610.30465-R02-v1.0 10 September 2021 Jason Shepherd Ali Naghizadeh DRAFT
+[[page 3]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+EXECUTIVE SUMMARY
+Page 3
+Background
+This Air Quality Impact Assessment has been prepared by SLR Consulting Australia Pty Ltd on behalf of Macquarie
+Data Centres (MDC) C/- GIDDIS Project Management.
+The following Air Quality Impact Assessment has been produced to support the Environmental Impact
+Statement (EIS) prepared by Willowtree Planning PTY Ltd (Willowtree Planning).
+The EIS has been submitted to the New South Wales (NSW) Department of Planning, Industry and Environment
+(DPIE), in support of an application for State Significant Development (SSD), for the construction and operation
+of a data centre, involving earth works, provision of infrastructure and expansion of an existing data centre at
+17 – 23 Talavera Road, Macquarie Park (Lot 527 DP 752035).
+The proposal represents an extension to the approved data centre (LDA/2018/0322) to allow for additional data
+storage capacity at the Site, improving the overall operational efficiencies and provision of technology services
+to customers and the wider locality.
+The proposal involves the construction and operation of an expansion to an existing data centre located at 17-
+23 Talavera Road, Macquarie Park (Lot 527 in DP 752035), comprising:
+ a five-storey building
+ ancillary office space and staff amenities
+ a back-up power system
+ associated infrastructure, car parking, loading docks and landscaping
+The Site is located within the City of Ryde Local Government Area (LGA).
+The Project seeks to operate 24 hours per day, seven (7) days per week, with the testing of back-up generators
+(generators) occurring between the hours of 9:00 am to 4:00 pm from Monday to Friday.
+The particulars of this proposal are summarised below:
+ Minor earthworks involving cut and fill works
+ Infrastructure comprising civil works and utilities servicing
+ Construction of a five (5) storey building extension, comprising up to:
+ 14 data halls
+ 18 generators
+ fitout of the building for use as a data centre (on an as-needs basis).
+[[page 4]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+EXECUTIVE SUMMARY
+Page 4
+Construction
+The main potential sources of air emissions during the construction stage of the Project were identified as
+suspended particulate matter and deposited dust. The potential for off-site air quality impacts during the
+construction stage of the Project were assessed using a qualitative risk-based approach, concluding that given
+the nature of the operations proposed, the location of the Site and the local meteorological conditions,
+exceedances of the relevant air quality criteria are unlikely.
+Operation
+The potential for off-site air quality impacts during the operational stage of the Project were conservatively
+assessed quantitatively through the use of dispersion modelling techniques in accordance with the Approved
+Methods. The dispersion modelling study, which accounted for worst-case testing conditions predicted no
+exceedance of the relevant ambient air quality as a result of the operation of the Project.
+The dispersion of emissions due to emergency conditions, where loss of all feeders to the Site requiring all
+generators to operate simultaneously,  was conservatively modelled and predicted compliance with the PM 10
+and PM2.5 24-hour average criterion at all receptors with the exception of the nearest, which represented the
+potential rooftop air intakes of the neighbouring building. However, the predicted low likelihood of an
+exceedance coupled with the low likelihood of an emergency condition event happening was demonstrated to
+result in a vanishingly small chance of an exceedance occurring.
+Conclusion
+It is concluded that air quality issues do not pose a constraint for the Project.
+[[page 5]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+CONTENTS
+Page 5
+1 INTRODUCTION ......................................................................................................... 10
+1.1 Background ................................................................................................................ 10
+1.2 Relevant Policies, Guidelines and Plans ...................................................................... 10
+1.3 Secretary’s Environmental Assessment Requirements ................................................ 10
+2 GLOSSARY AND ABBREVIATIONS............................................................................... 12
+3 PROJECT DESCRIPTION .............................................................................................. 13
+3.1 Project Location ......................................................................................................... 13
+3.2 Project Overview ........................................................................................................ 14
+4 POTENTIAL SOURCES OF AIR EMISSIONS ................................................................... 16
+4.1 Construction Phase .................................................................................................... 16
+4.2 Operational Phase ...................................................................................................... 16
+4.3 Emergency Conditions................................................................................................ 17
+5 REGULATORY FRAMEWORK ...................................................................................... 19
+5.1 Relevant Legislation, Policy and Guidance .................................................................. 19
+5.1.1 Protection of the Environment Operations (POEO) Act 1997 & Amendment Act 2011 ............................. 19
+5.1.2 Protection of the Environment Operations (Clean Air) Regulation 2010 ................................................... 19
+5.1.3 NSW Environment Protection Authority Air Quality Policy and Guidance ................................................. 21
+5.1.4 Local Air Quality Toolkit ......................................................................................................................... 21
+6 RELEVANT POLLUTANTS AND AIR QUALITY CRITERIA ................................................ 22
+6.1 Pollutants of Concern ................................................................................................. 22
+6.1.1 Construction .......................................................................................................................................... 22
+6.1.2 Operation .............................................................................................................................................. 22
+6.2 Ambient Air Quality Criteria ....................................................................................... 23
+7 EXISTING ENVIRONMENT .......................................................................................... 26
+7.1 Topography ................................................................................................................ 26
+7.2 Land Use and Sensitive Receptors .............................................................................. 26
+7.3 Local Meteorology ..................................................................................................... 29
+7.4 Background Air Quality .............................................................................................. 33
+8 ASSESSMENT METHODOLOGY ................................................................................... 35
+8.1 Construction Phase Qualitative Impact Assessment ................................................... 35
+8.2 Operational Phase Dispersion Modelling Study .......................................................... 35
+8.2.1 Selection of Models ............................................................................................................................... 36
+8.2.2 Meteorological Modelling ...................................................................................................................... 36
+[[page 6]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+CONTENTS
+Page 6
+8.2.2.1 Selection of Worst-Case Year ................................................................................................................. 36
+8.2.2.2 WRF ...................................................................................................................................................... 36
+8.2.2.3 CALMET ................................................................................................................................................. 37
+8.2.2.4 Site Representative Meteorological Data ................................................................................................ 38
+8.2.2.4.1 Wind Speed and Direction...................................................................................................................... 38
+8.2.2.5 Atmospheric Stability ............................................................................................................................. 40
+8.2.2.6 Mixing Heights ....................................................................................................................................... 41
+8.3 Additional Model Parameters and Options ................................................................. 42
+8.3.1.1 Background Pollutant Concentrations .................................................................................................... 42
+8.3.1.2 Building Downwash ............................................................................................................................... 43
+8.3.2 NOx to NO2 conversion ........................................................................................................................... 43
+8.3.3 SO2 ........................................................................................................................................................ 46
+8.3.4 PAHs as Benzo(a)Pyrene ........................................................................................................................ 46
+8.3.5 Conversion of Averaging Times .............................................................................................................. 47
+8.3.6 Source Characteristics and Emission Rates.............................................................................................. 48
+8.3.7 Accuracy of Modelling............................................................................................................................ 50
+9 ASSESSMENT OF AIR QUALITY IMPACTS.................................................................... 52
+9.1 Construction Phase .................................................................................................... 52
+9.1.1 Step 1 – Screening Based on Separation Distance ................................................................................... 52
+9.1.2 Step 2a – Assessment of Scale and Nature of the Works ......................................................................... 52
+9.1.3 Step 2b – Risk Assessment ..................................................................................................................... 53
+9.1.4 Step 3 - Mitigation Measures ................................................................................................................. 54
+9.1.5 Step 4 - Residual Impacts ....................................................................................................................... 56
+9.2 Operational Phase ...................................................................................................... 57
+9.2.1 Particulates ........................................................................................................................................... 57
+9.2.2 NO2 ....................................................................................................................................................... 57
+9.2.3 CO ......................................................................................................................................................... 60
+9.2.4 SO2 ........................................................................................................................................................ 61
+9.2.5 PAHs ..................................................................................................................................................... 62
+9.2.6 Summary ............................................................................................................................................... 63
+9.3 Emergency Conditions................................................................................................ 63
+9.3.1 Particulates ........................................................................................................................................... 63
+9.3.2 NO2 ....................................................................................................................................................... 68
+9.3.3 CO ......................................................................................................................................................... 70
+9.3.4 SO2 ........................................................................................................................................................ 70
+9.3.5 PAHs ..................................................................................................................................................... 71
+[[page 7]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+CONTENTS
+Page 7
+9.3.6 Summary ............................................................................................................................................... 72
+10 AIR QUALITY MONITORING PROGRAM ..................................................................... 74
+10.1 Construction Phase .................................................................................................... 74
+10.2 Operational Phase ...................................................................................................... 74
+11 MITIGATION MEASURES ............................................................................................ 75
+11.1 Construction Phase .................................................................................................... 75
+11.2 Operation Phase ........................................................................................................ 76
+12 CONCLUSIONS ........................................................................................................... 77
+13 REFERENCES .............................................................................................................. 78
+[[page 8]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+CONTENTS
+Page 8
+Document References
+TABLES
+Table 1 SEARS Requirements ............................................................................................... 11
+Table 2 Glossary ................................................................................................................... 12
+Table 3 Abbreviations .......................................................................................................... 12
+Table 4 Diesel Generator Specifications ............................................................................... 16
+Table 5 Proposed Generator Testing Regime ........................................................................ 17
+Table 6 Diesel Generator Specifications ............................................................................... 18
+Table 7 Schedule 6 Standards of Concentration for (Group C1) Non-Scheduled Premises...... 20
+Table 8 Schedule 4 Standards of Concentration for (Group 61) Scheduled Premises ............. 20
+Table 9 Project Air Quality Goals .......................................................................................... 24
+Table 10 Location of the Identified Sensitive Receptors ......................................................... 28
+Table 11 Summary of Macquarie Park AQMS Data (2018) ...................................................... 34
+Table 12 Meteorological Parameters – WRF........................................................................... 37
+Table 13 Meteorological Modelling Parameters - CALMET ..................................................... 37
+Table 14 Meteorological Conditions Defining PGT Stability Classes ........................................ 40
+Table 15 Model Parameters ................................................................................................... 42
+Table 16 Buildings Included in Model ..................................................................................... 43
+Table 17 Classification of Values for A and α by Season .......................................................... 44
+Table 18 O 3 Concentration Summary: Macquarie Park AQMS (2018)...................................... 46
+Table 19 Approved Methods Potency Equivalency Factors for PAHs ....................................... 46
+Table 20 PAH (as Benzo(a)pyrene) Emission Factor ................................................................ 47
+Table 21 Stack Parameters and Emission Rates – Proposed Generators ................................. 48
+Table 22 Stack Parameters and Emission Rates – Existing Generators .................................... 49
+Table 23 Categorisation of Dust Emission Magnitude ............................................................. 53
+Table 24 Preliminary Risk of Air Quality Impacts from Construction Activities
+(Uncontrolled) ......................................................................................................... 54
+Table 25 Proactive Dust Mitigation Measures ........................................................................ 54
+Table 26 Residual Risk of Air Quality Impacts from Construction ............................................ 56
+Table 27 Maximum Predicted PM Concentrations at Sensitive Receptors............................... 57
+Table 28 Maximum Predicted NO 2 Concentrations at Sensitive Receptors .............................. 58
+Table 29 Maximum Predicted CO Concentrations at Sensitive Receptors ............................... 61
+Table 30 Maximum Predicted SO 2 Concentrations at Residential Receptors ........................... 61
+Table 31 Maximum Predicted PAH Concentrations at Residential Receptors .......................... 62
+Table 32 Maximum Predicted 24-Hour PM Concentrations at Sensitive Receptors ................. 64
+Table 33 Ten Highest Contemporaneous 24-Hour Average PM 10 and PM2.5 Predictions at
+Receptor R10 ........................................................................................................... 66
+Table 34 Predicted CO Concentrations at Sensitive Receptors ................................................ 70
+Table 35 Predicted SO 2 Concentrations at Residential Receptors............................................ 71
+Table 36 Predicted PAH Concentrations at Residential Receptors .......................................... 71
+Table 37 Nuisance Dust Monitoring Program ......................................................................... 74
+Table 38 Nuisance Dust Contingency Management Plan for Project ....................................... 74
+Table 39 Risk Descriptors ....................................................................................................... 75
+Table 40 Risk Matrix............................................................................................................... 75
+Table 41 Risk Assessment and Mitigation Measures ............................................................... 76
+[[page 9]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+CONTENTS
+Page 9
+FIGURES
+Figure 1 The Site 17 – 23 Talavera Road, Macquarie Park, being Lot 527 DP 752035.............. 13
+Figure 2 Site Layout ............................................................................................................... 15
+Figure 3 Local Topographical Features................................................................................... 26
+Figure 4 Planning Zones ........................................................................................................ 27
+Figure 5 Surrounding Sensitive Receptors.............................................................................. 29
+Figure 6 Average Annual and Seasonal Wind Roses for Sydney Olympic Park AWS –
+2016-2020 ............................................................................................................... 31
+Figure 7 Wind Speed Frequency Chart for Sydney Olympic Park AWS – 2016-2020 ............... 32
+Figure 8 Long term Mean Rainfall for Sydney Olympic Park AWS – 2011-2020....................... 32
+Figure 9 Wind Roses for the Site, as Predicted by WRF/CALMET ............................................ 39
+Figure 10 Stability Class Distribution Predicted by CALMET for the Site ................................... 41
+Figure 11 Mixing Heights Predicted by CALMET for the Site..................................................... 42
+Figure 12 Macquarie Park AQMS O 3 1-Hour Average Concentrations (2018) ........................... 45
+Figure 13 Modelled Buildings and Point Sources (Worst-case Testing Scenario) ...................... 49
+Figure 14 Modelled Buildings and Point Sources (Worst-case Emergency Scenario) ................ 50
+Figure 15 Predicted 1-hour Average Incremental NO X Isopleths – Operations.......................... 59
+Figure 16 Predicted Annual Average Incremental NO X Isopleths – Operations ......................... 60
+Figure 17 Predicted 24-Hour Maximum Incremental PM Concentrations Based on Daily 1-
+Hour Emergency Condition ...................................................................................... 65
+Figure 18 Predicted 24-Hour PM 10 Cumulative Concentrations at Sensitive Receptors by
+Rank ........................................................................................................................ 67
+Figure 19 Predicted 24-Hour PM 2.5 Cumulative Concentrations at Sensitive Receptors by
+Rank ........................................................................................................................ 67
+Figure 20 Maximum Predicted NO 2 Concentrations at Sensitive Receptors .............................. 68
+Figure 21 Predicted 1-hour Average Incremental NO X Isopleth Plot – Emergency
+Conditions ............................................................................................................... 69
+APPENDICES
+Appendix A IAQM Construction Assessment Methodology
+Appendix B Selection of representative meteorological data
+Appendix C Diesel generator specification sheet
+Appendix D Generator Enclosure – General Arrangement
+[[page 10]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 10
+1 Introduction
+1.1 Background
+SLR Consulting Australia Pty Ltd (SLR) have been appointed by Macquarie Data Centres (MDC) to undertake the
+Air Quality Impact Assessment (AQIA) for the proposed development of the Macquarie Park Data Centre Campus
+IC3 Super West site at 17-23 Talavera Road, Macquarie Park (the Site).
+This AQIA report serves to support the State Significant Development Application (SSDA) relating to the
+proposed development.
+1.2 Relevant Policies, Guidelines and Plans
+This assessment has been prepared with consideration of the following policies and guidelines:
+ Approved Methods for the Modelling and Assessment of Air Pollutants in NSW (NSW EPA, 2017) (the
+Approved Methods)
+ Approved Methods for the Sampling and Analysis of Air Pollutants in NSW (NSW DEC, 2005)
+ Protection of the Environment Operations Act 1997 (NSW Parliament, 1997)
+ Protection of the Environment Operations (Clean Air) Regulation 2010 (NSW Parliament, 2010)
+The Approved Methods outlines the requirements for conducting an air quality impact assessment as follows
+(also indicated are the relevant sections of this report where the requirements are met):
+ Description of local topographic features and sensitive receptor locations (Section7.1 and Section 7.2
+respectively)
+ Establishment of air quality assessment criteria (Section 6.2)
+ Analysis of climate and dispersion meteorology for the region (Section 7.3)
+ Description of existing air quality environment (Section 7.4)
+ Compilation of a comprehensive emissions inventory for the proposed activities (Section 8.3.6)
+ Completion of atmospheric dispersion modelling and analysis of results (Section 9.2 and 9.3)
+ Preparation of an air quality impact assessment report comprising the above.
+1.3 Secretary’s Environmental Assessment Requirements
+This AQIA report is prepared in accordance with the Secretary’s Environmental Assessment Requirements
+(SEARs).  The SEARs for the proposal outline Key Issues to be addressed as part of this EIS and includes emissions
+to air associated with construction and operation.
+SLR have been appointed by Macquarie Data Centres (MDC) to undertake the AQIA for the proposed
+development of the Macquarie Park Data Centre Campus IC3 Super West site.
+The following SEARS are addressed within Table 1 of this report.
+[[page 11]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 11
+Table 1 SEARS Requirements
+SEARs Items Secretary’s Environmental Assessment Requirements Response
+Key Issue Air quality – including:
+ a quantitative assessment of the potential air quality, dust
+and odour impacts of the development, during construction
+and operation, in accordance with relevant Environment
+Protection Authority guidelines
+ The assessment must include:
+ scenarios for construction works, operations, and
+testing of the back-up power system or its considered
+alternatives and a justified worst-case scenario
+ assessment of emissions from the back-up power
+system against the standards of concentration outlined
+in the Protection of the Environment Operations (Clean
+Air) Regulation 2010 (including, but not limited to,
+polycyclic aromatic hydrocarbons (PAHs) and oxides of
+nitrogen (NOx) impacts)
+ assessment of criteria pollutants in accordance with the
+Approved Methods for the Modelling and Assessment
+of Air Pollutants in NSW (EPA, 2016)
+ details of proposed mitigation, management and
+monitoring measures (including for the back-up power
+system) required to ensure compliance with section 128 of
+the Protection of the Environment Operations Act 1997.
+This report and specifically for
+construction:
+Sections 4.1, 6.1.1, 8.1, 9.1 and 11.1
+and for operation:
+Sections 4.2, 4.3, 6.1.2, 8.2, 8.3, 9.2
+and 11.2.
+[[page 12]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 12
+2 Glossary and Abbreviations
+Table 2 below shows the glossary of terms and their definitions used in this AQIA.
+Table 2 Glossary
+Term Definition
+The Site Existing and proposed data centre at 17-23 Talavera Rd, North Ryde (Lot 527 DP 752035)
+The Project The construction of a new data centre (IC3W) and ancillary office space to expand the operation of the
+existing data centre (IC2 and IC3E).
+Table 3 below shows the abbreviations and their definitions used in this AQIA.
+Table 3 Abbreviations
+Term Definition
+AQIA Air Quality Impact Assessment
+AQMS Air Quality Monitoring Station
+AWS Automatic weather station
+BoM Bureau of Meteorology
+CEMP Construction Environmental Management Plan
+CO Carbon Monoxide
+DPIE NSW Department of Planning, Industry and Environment
+EES DPIE’s Environment, Energy and Science Group
+EPA NSW Environment Protection Authority
+g/m2/month Grams per meter squared per month
+IAQM Institute of Air Quality Management
+IN1 General industrial land (planning zone)
+km Kilometres
+kW Kilowatt
+MW Megawatt
+MJ Megajoule
+m/s Metres per second
+NOx Oxides of nitrogen
+NO2 Nitrogen dioxide
+O3 Ozone
+OEH Office of Environment and Heritage
+PM Particulate matter
+PM2.5 Particulate matter with an aerodynamic diameter of 2.5 microns or less
+PM10 Particulate matter with an aerodynamic diameter of 10 microns or less
+SO2 Sulfur dioxide
+SP2 Infrastructure (planning zone)
+VOC Volatile Organic Compounds
+[[page 13]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 13
+3 Project Description
+3.1 Project Location
+The Site is described as Lot 527 DP 752035, commonly known as 17 – 23 Talavera Road, Macquarie Park, located
+within the City of Ryde Local Government Area (LGA). The site has a total area of approximately 20,000 m2, with
+access achieved via Talavera Road (Figure 1).
+The Site forms part of the Macquarie Park Corridor, which is the strategic centre of Macquarie Park, being a
+health and education precinct and an important economic and employment powerhouse in Sydney’s North
+District.
+The Site is described through its current commercial setting as an existing Data Centre (LDA/2018/0322),
+adjoining surrounding commercial premises along Talavera Road, and forming part of the wider Macquarie Park
+Corridor.
+The Site is situated approximately 12.5 km northwest of the Sydney CBD and 11.3 km northeast of Parramatta.
+It is within close proximity to transport infrastructure routes (predominantly the bus and rail networks), as well
+as sharing direct links with the wider regional road network, including Talavera Road, Lane Cove Road, Epping
+Road and the M2 Motorway.
+These road networks provide enhanced connectivity to the Site and wider locality. Additionally, the Site is
+located within close proximity to active transport links, such as bicycle routes, providing an additional mode of
+accessible transport available to the Site.
+Figure 1 The Site 17 – 23 Talavera Road, Macquarie Park, being Lot 527 DP 752035
+
+[[page 14]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 14
+3.2 Project Overview
+The Site consists of an existing data centre buildings, IC2 and IC3E (Stage 1), to which the footprint is to be
+expanded by the construction of IC3W. The site includes administrative offices, internal roads and car parks.
+IC2 is serviced by four diesel rotary uninterruptible power supply devices (DRUPS) and four standby diesel
+generators (generators) to provide power to the data centre in the event of an interruption of the mains grid
+electricity supply. The DRUPS are located on the ground floor and the generators are located on the roof, all
+exhausting from the roof level of IC2. IC3E is serviced by eight gensets on the ground floor, exhausting from the
+roof level of IC3E. IC3W is proposed to be serviced by 18 generators located on the roof of IC3W.
+The proposal represents an extension to the approved data centre (LDA/2018/0322) to allow for additional data
+storage capacity, improving the overall operational efficiencies and provision of technology services to
+customers and the wider locality.
+The proposal involves the construction and operation of an expansion to an existing data centre comprising:
+ a five-storey building
+ ancillary office space and staff amenities
+ a back-up power system
+ associated infrastructure, car parking, loading docks and landscaping
+The proposal seeks to operate 24 hours per day, seven (7) days per week.
+The particulars of this proposal are summarised below:
+ Minor earthworks involving cut and fill works
+ Infrastructure comprising civil works and utilities servicing
+ Construction of a five (5) storey building extension, comprising up to:
+ 14 data halls
+ 18 generators
+ Fit out of the building for use as a data centre (on an as-needs basis).
+[[page 15]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 15
+Figure 2 Site Layout
+
+[[page 16]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 16
+4 Potential Sources of Air Emissions
+4.1 Construction Phase
+During the construction works, fugitive dust emissions are considered to be the primary emission type, which
+could give rise to nuisance and/or health impacts for the surrounding sensitive areas.
+The main emissions to air during the construction phase are likely to be emissions of suspended particulate
+matter and nuisance dust from the movement of vehicles and construction equipment, excavation and
+rehabilitation, demolition, clearing and grading, truck loading and unloading and wind erosion.
+4.2 Operational Phase
+Generators are required to ensure ongoing operation if the mains grid electricity supply is interrupted for more
+than a few minutes. The function of the standby generators is to provide power when there is an unexpected
+interruption of mains grid electricity.
+During the operational phase, the generators would be a source of products of combustion while undergoing
+testing and in the event of a power failure. In general, power interruptions last anything from a few seconds to
+a few hours and therefore even when required the generators would only operate for a short time.
+Generator specifications are provided in Table 4. Full specifications are provided in Appendix C.
+Table 4 Diesel Generator Specifications
+Parameter Units IC3W
+Model - 20V4000G94F
+Number - 18
+Electrical generation capacity:
+individual
+kW 3,306
+Electrical generation capacity:
+generators combined a
+MW 59.5
+Fuel rate: individual L/h ND
+NOx g/kW 9.65
+CO g/kW 0.52
+PM g/kW 0.023
+NOx in-stack concentration mg/Nm3 2402 b
+CO in-stack concentration mg/Nm3 127
+PM in-stack concentration mg/Nm3 5.7
+NOx in-stack concentration mg/Nm3 @5% O2 3430
+CO in-stack concentration mg/Nm3 @5% O2 181
+PM in-stack concentration mg/Nm3 @5% O2 8.2
+ND No data
+[[page 17]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 17
+a  Greater than the Protection of the Environment Operations (POEO) Act 1997 & Amendment Act 2011 (Refer Section 5.1.1) criteria used to define a
+scheduled activity under Clause 17 Electricity Generation. However, as the emergency standby plant is anticipated to operate less than
+200 hours per year, this clause does not apply.
+b It is noted that the anticipated maximum in-stack NO X concentration exceeds the 450 mg/m 3 Protection of the Environment Operations (Clean Air)
+Regulation 2010 Group 6 limit (Refer Section 5.1.2). However, as the emergency standby plant is anticipated to operate less than 200
+hours per year, it is exempt from these limits under the Regulation.
+Table 5 provides the proposed testing regime for which this AQIA is based.
+Table 5 Proposed Generator Testing Regime
+Parameter Value
+No of generators 34 (inclusive of 16 existing and 18 proposed)
+Test frequency per generator Quarterly
+Run time per test 60 minutes
+No of generators per test 1 - 5
+Number of tests per day 8
+Testing schedule Monday to Friday (9:00 am to 4:00 pm)
+Total testing time for all generators 132 hours / annum  (based on 1 generator per test)
+As outlined in Table 5, testing of generators is proposed to be conducted for 60 minutes between  9:00 am to
+4:00 pm, Monday to Friday. No more than five generators will be tested per day and the five generators will not
+necessarily be tested concurrently, noting that in previous discussions with the EPA on annual operating hours
+of diesel generators, they have indicated that time spent testing more than one generator concurrently will be
+counted once, i.e. not hours multiplied by number of generators running. The total test time for all generators
+(existing and proposed) is therefore estimated to be 132 hours or less per year.
+In order to assess the worst-case scenario, the modelling undertaken for the operational scenario conservatively
+assumes that:
+ Each generator would be tested for a period of 60 minutes.
+ Five generators will be tested concurrently within the same hour.
+ Testing of generators is conducted every hour of the year between 9:00 am and 5:00 pm, i.e. one
+additional hour to assess the operation of the generators under varying meteorological conditions
+and conservatively allow for potentially elevated evening background concentrations of NO2.
+4.3 Emergency Conditions
+Major power interruptions requiring the simultaneous operation of all standby generators would only occur very
+infrequently and for a limited time period.
+In order to assess the worst-case emergency conditions, the modelling undertaken for the operational scenario
+conservatively assumes that all 34 generators run concurrently within the same hour.
+The emergency conditions are modelled for every hour of the year. This is an unrealistic situation only assumed
+such that the emergency operation of the generators under varying meteorological conditions can be
+conservatively assessed. The likelihood of the maximum predicted air quality impacts due to emergency
+conditions is discussed in Section 9.3.6.
+[[page 18]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 18
+Specifications for the existing 16 generators are provided in Table 4.
+Table 6 Diesel Generator Specifications
+Parameter Units IC2 (DRUPS) IC2 IC3E
+Model - 20V400G63 EO 12V4000G23 20V400G63
+Number - 4 4 8
+Electrical generation capacity:
+individual
+kW 2,420 1,576 2,420
+Electrical generation capacity:
+generators combined a
+MW 9.7 6.3 19.4
+Fuel rate: individual L/h 554 ND 554 b
+NOx g/kW ND ND ND
+CO g/kW ND ND ND
+PM g/kW ND ND ND
+NOx in-stack concentration mg/Nm3 3675 c 4116 c 3675 b ,c
+CO in-stack concentration mg/Nm3 648 284 648 b
+PM in-stack concentration mg/Nm3 108 20 108 b
+NOx in-stack concentration mg/Nm3 @5% O2 N D 5202 ND
+CO in-stack concentration mg/Nm3 @5% O2 N D 359 ND
+PM in-stack concentration mg/Nm3 @5% O2 N D 25 ND
+ND No data
+a  When all generators are combined, greater than the Protection of the Environment Operations (POEO) Act 1997 & Amendment Act 2011 (Refer
+Section 5.1.1) criteria used to define a scheduled activity under Clause 17 Electricity Generation . However, as the emergency standby
+plant is anticipated to operate less than 200 hours per year, this clause does not apply.
+b No data: assume same specs as 20V400G63 EO.
+c It is noted that the anticipated maximum in-stack NO X concentration exceeds the 450 mg/m 3 Protection of the Environment Operations (Clean Air)
+Regulation 2010 Group 6 limit (Refer Section 5.1.2). However, as the emergency standby plant is anticipated to operate less than 200
+hours per year, it is exempt from these limits under the Regulation.
+d Based on emission factor for Cummins QSK95-G4 diesel fired generators (2560 kW).
+[[page 19]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 19
+5 Regulatory Framework
+5.1 Relevant Legislation, Policy and Guidance
+The following Air Quality Policy and Guidance documents have been referenced within this assessment and have
+been used to identify the relevant air quality criteria (see Section 6.2).
+5.1.1 Protection of the Environment Operations (POEO) Act 1997 & Amendment Act 2011
+The POEO Act (and Amendment Act 2011) is a key piece of environment protection legislation administered by
+the NSW Department of Planning, Industry and Environment’s Environment, Energy and Science (EES) group
+which enables the Government to establish instruments for setting environmental standards, goals, protocols
+and guidelines.
+The following sections of the POEO Act are of general relevance to the Project:
+ Section 124 and 125 of the POEO Act states that any plant located at a premise (e.g. standby
+generators) should be maintained in an efficient condition and operated in a proper and efficient
+manner to reduce the potential for air pollution.
+ Section 128 of the POEO Act states:
+1. The occupier of a premises must not carry out any activity or operate any plant in or on the
+premises in such a manner to cause or permit the emission at any point specified in or determined
+in accordance with the regulation of air impurities in excess of [the standard of concentration
+and/or the rate] prescribed by the regulations in respect of any such activity or any such plant.
+2. Where neither such a standard nor rate has been so prescribed, the occupier of any premises
+must carry on activity, or operate any plant, in or on the premises by such practicable means as
+may be necessary to prevent or minimise air pollution.
+Schedule 1 of the POEO, Scheduled Activities, defines those activities that require a licence for the premises for
+which the activity is carried out. Clause 17Electricity Generation applies to electricity works (wind farms), general
+electricity works, metropolitan electricity works (gas turbines) and metropolitan electricity works (internal
+combustion engines). Clause 17 does not apply to the generation of electricity by means of electricity plant that
+is emergency stand-by plant operating for less than 200 hours per year. Given the total testing time of the stand
+by generators is less than 200 hours per year the proposal is not classified as a scheduled activity.
+5.1.2 Protection of the Environment Operations (Clean Air) Regulation 2010
+The POEO (Clean Air) Regulation 2010 (the Regulation) is the core regulatory instrument for air quality issues in
+NSW. In relation to industry, the Regulation:
+ sets maximum limits on emissions from activities and plant for a number of substances
+ deals with the transport and storage of volatile organic liquids
+ restricts the use of high sulphur liquid fuel
+ imposes operational requirements for certain afterburners, flares, vapour recovery units and other
+treatment plant.
+[[page 20]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 20
+Part 5 of the POEO (Clean Air) Regulation 2010 (the Regulation) also deals with emissions of air impurities from
+activities and plant, and sets maximum limits on emissions for a number of substances (including solid particles
+and visible smoke) as noted below in Table 7 and Table 8. The standards of concentrations prescribed by Part
+5, Division 3 do not apply to plant during start-up and shutdown periods, however such emissions are still subject
+to the requirements of Section 128 (2) of the POEO Act in relation to the prevention and minimisation of air
+pollution.
+Table 7 Schedule 6 Standards of Concentration for (Group C 1) Non-Scheduled Premises
+Air Impurity Activity Concentration 2
+Particles Any activity/ plant 100 mg/m3
+Smoke
+Solid fuel is burnt Ringlemann 1 or 20% opacity
+Liquid fuel is burnt Ringlemann 1 or 20% opacity
+Note 1 Group C: Activity granted DA consent and commenced to operate after 1 September 2005.
+Note 2 Reference conditions are: Dry, 273 K, 101.3 kPa for any activity.
+Table 8 Schedule 4 Standards of Concentration for (Group 6 1) Scheduled Premises
+Air Impurity Activity 2 Concentration 3
+Solid Particles Any activity/ plant 50 mg/m3
+NO2 or NO or
+both, as NO2
+equivalent Stationary reciprocating internal combustion engines 450 mg/m3
+VOCs as n-
+propane Any stationary reciprocating internal combustion engine using a
+liquid fuel 1140 mg/m3 VOCs or 5880 mg/m3 CO
+Smoke An activity or plant in connection with which liquid or gaseous fuel is
+burnt Ringlemann 1 or 20% opacity
+Note 1 Group 6: Activity granted DA consent and commenced to operate after 1 September 2005.
+Note 2 only concentration standards relevant to the operations at the Site have been listed.
+Note 3 Reference conditions are: Dry, 273 K, 101.3 kPa for any activity.
+The Regulation exempts emergency standby plant (comprising a stationary reciprocating internal combustion
+engine) for generating electricity from the air impurities standard for NO 2 and NO specified in Schedule 4 (see
+Table 8) relevant to that plant if the plant is used for a total of not more than 200 hours per year.
+As outlined in Section 4.2, each generator (plant) is proposed to be operated for 12 hours per year for the
+purposes of testing. While generators will be required to operate for the purpose of electricity generation during
+major power interruptions. Such events would only occur very infrequently and for a limited time period.
+Therefore, it is anticipated that the plant would be required to operate for a total of less than 200 hours per
+year. As such the Project is exempt from the concentration limits outlined in Table 8.
+[[page 21]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 21
+5.1.3 NSW Environment Protection Authority Air Quality Policy and Guidance
+The EPA is the NSW regulatory authority responsible for air quality regulation and associated activities.
+The Approved Methods lists the statutory methods for modelling and assessing air pollutants from stationary
+sources and specifies criteria which reflect the environmental outcomes adopted by the EPA.  The Approved
+Methods are referred to in the POEO (Clean Air) Regulation 2002 for assessment of impacts of air pollutants.
+The air quality criteria set out in the Approved Methods have been reproduced and discussed inSection 6.2.
+5.1.4 Local Air Quality Toolkit
+The Local Government Air Quality Toolkit (AQ Toolkit)  has been developed by the EPA to assist local government
+in their management of air quality issues and provides guidelines for air quality management and for the use of
+air pollution control techniques. Relevant AQ Toolkit air quality guidance notes include:
+ Dust from urban construction sites (NSW EPA, 2007-1)
+ Construction sites (NSW EPA, 2007-2).
+[[page 22]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 22
+6 Relevant Pollutants and Air Quality Criteria
+6.1 Pollutants of Concern
+6.1.1 Construction
+Potential air pollutants of interest for the construction of the Project are considered to be:
+ Suspended particulate matter.
+ Deposited dust.
+Airborne contaminants that can be inhaled directly into the lungs can be classified on the basis of their physical
+properties as gases, vapours or particulate matter. In common usage, the terms “dust” and “particulates” are
+often used interchangeably.  The health effects of particulate matter are strongly influenced by the size of the
+airborne particles.  Smaller particles can penetrate further into the respiratory tract, with the smallest particles
+having a greater impact on human health as they penetrate to the gas exchange areas of the lungs.  Larger
+particles primarily cause nuisance associated with coarse particles settling on surfaces and possessions (dust
+deposition), affecting visibility and contaminating tank water supplies.  High rates of dust deposition can also
+adversely affect vegetation by blanketing leaf surfaces.
+The term “particulate matter” refers to a category of airborne particles, typically less than 30 microns ( μm) in
+diameter and ranging down to 0.1 μm and is termed total suspended particulate (TSP).  Epidemiological studies
+suggest a relationship between health impacts and exposure to concentrations of finer particulate matter, for
+example particulate matter with an aerodynamic diameter of 10 microns or less, which is referred to as PM 10.
+The PM10 size fraction is sufficiently small to penetrate the large airways of the lungs, while PM 2.5 (2.5 microns
+or less) particulates are generally small enough to be drawn in and deposited into the deepest portions of the
+lungs.  Potential adverse health impacts associated with exposure to PM10 and PM2.5 include increased mortality
+from cardiovascular and respiratory diseases, chronic obstructive pulmonary disease and heart disease, and
+reduced lung capacity in asthmatic children.  In an urban setting, the emission of PM 2.5 is primarily associated
+with vehicles exhausts resulting from the incomplete combustion of diesel.  It is anticipated that the primary
+particle fraction associated with construction will be PM10.
+The key potential health and amenity issues associated with construction of Project are, respectively:
+ Elevated PM10 concentrations
+ Nuisance due to dust deposition and visible dust plumes.
+6.1.2 Operation
+Potential air pollutants of interest for the operation of the Project are considered to be emissions associated
+with the combustion of fuel in standby generators which include:
+ carbon monoxide (CO)
+ oxides of nitrogen (NOx)
+ PM10 and PM2.5
+ sulfur dioxide (SO2)
+ volatile organic compounds (VOCs)
+[[page 23]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 23
+ polycyclic aromatic hydrocarbons (PAHs).
+CO is an odourless, colourless gas formed from the incomplete burning of fuels.  It can be a common pollutant
+at the roadside and highest concentrations are typically found in the kerbside environments with concentrations
+decreasing rapidly with increasing distance from the road.
+In atmospheric chemistry, NO X generally refers to the total concentration of nitric oxide (NO) and nitrogen
+dioxide (NO2).  NO is a colourless and odourless gas that does not significantly affect human health. However, in
+the presence of oxygen, NO can be oxidised to NO 2 which can have significant health effects including damage
+to the respiratory tract and increased susceptibility to respiratory infections and asthma.  NO will be converted
+to NO2 after leaving the combustion source at a rate dependent on ambient and atmospheric conditions.
+Sulfur in fuel converts to sulfur oxides during combustion, hence emissions of SO 2 are directly related to the
+concentration of sulfur in the fuel.  Diesel contains more sulfur than gas, as there is negligible sulfur content in
+Australian natural gas and LPG.
+VOCs have high vapour pressure at normal room-temperature conditions.  Their high vapour pressure leads to
+evaporation from liquid or solid form and emission release to the atmosphere.  VOCs are emitted by a variety of
+sources, including motor vehicles. VOCs that are often typical of these sources include benzene, toluene,
+ethylbenzene and xylenes (often referred to as ‘BTEX’).  Biogenic (natural) sources of VOC emissions are also
+significant (e.g. vegetation).
+PAHs typically result from the incomplete combustion of organic material (such as coal, petrol, diesel, and
+wood). PAHs are toxic and carcinogenic, the degree to which is dependent on the type of PAH. PAHs typically
+occur in mixtures and it is therefore difficult to establish the risk that that the mixture may pose. The toxicity of
+a mixture of PAHs is therefore often expressed as a single number representing the equivalent concentration of
+the most toxic or carcinogenic congener, benzo(a)pyrene (B(a)P).
+The rate and composition of air pollutant emissions from generators is a function of a number of factors,
+including the type and size of the generators, level of operation and fuel type.
+Based on information provided to SLR, it is understood that the proposed backup generators will be Rolls Royce
+MTU 20V4000G94LF diesel fired generators.  Refer to Appendix C for the specification sheet which includes
+details on the pollutant emission rates.
+6.2 Ambient Air Quality Criteria
+NSW EPA has established ground level air quality impact assessment criteria for air pollutants to achieve
+appropriate environmental outcomes and to minimise associated risks to human health as published in the
+Approved Methods. The criteria are the defining ambient air quality criteria for NSW, derived from a range of
+sources (including National Health and Medical Research Council (NHMRC), National Environment Protection
+Council (NEPC), World Health Organisation (WHO) and Australian and New Zealand Environment Conservation
+Council (ANZEEC)) and are considered appropriate for this AQIA.
+It is noted that the criteria for PM10, PM2.5, CO, NO2 and SO2 are based on the ambient air quality standards set
+out in the National Environment Protection (Ambient Air Quality) Measure (the Air NEPM).  On  15 April 2021,
+The National Environmental Protection Council agreed to vary the Air NEPM, and on 18 May 2021 the ambient
+air standards for NO2 and SO2 were amended. These changes to the standards for NO2 and SO2 include:
+[[page 24]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 24
+ NO2:
+ The 1-hour standard for NO 2 in the Air NEPM is retained, however the numerical value of the
+standard has been reduced to 80 ppb (previously 120 ppb).
+ The annual standard for NO 2 in the Air NEPM is retained, however the numerical value of the
+standard has been reduced to 15 ppb (previously 30 ppb).
+ The form of both the 1-hour and annual NO 2 standards are as maximum values with no allowable
+exceedances.
+ SO2:
+ The 1-hour standard for SO 2 in the Air NEPM is retained, however the numerical value of the
+standard has been reduced to 100 ppb (previously 200 ppb).
+ A future 1-hour SO2 standard of 75 ppb will be implemented from 2025.
+ The 24-hour standard for SO2 in the Air NEPM will be retained, however the numerical value of the
+standard has been reduced to 20 ppb (previously 80 ppb).
+ No future target for 24-hour average SO2 concentrations is proposed at this stage.
+ The current annual mean standard for SO2 has been removed from the Air NEPM.
+ The form of both the revised 1-hour and 24-hour SO 2 standards are as maximum values with no
+allowable exceedances.
+It is not yet known if or when the Approved Methods will be amended to reflect the recent changes to the Air
+NEPM and therefore this AQIA is based on the current ambient air quality criteria as published in the Approved
+Methods. The AQIA air quality criteria for the pollutants of concern during the operational phase of the Project,
+adopted from the Approved Methods, are provided in Table 9, referenced as mass concentrations.
+Table 9 Project Air Quality Goals
+Pollutant Averaging Time Criteria
+PM10 24 hours 50 µg/m3
+Annual 25 µg/m3
+PM2.5 24 hours 25 µg/m3
+Annual 8 µg/m3
+Deposited dust Annual 2 g/m2/month (maximum increase)
+4 g/m2/month (maximum cumulative)
+NO2 1 hour 246 µg/m3
+Annual 62 µg/m3
+CO 15 minutes 100 mg/m3
+1 hour 30 mg/m3
+8 hours 10 mg/m3
+SO2 10 minutes 712 µg/m3
+1 hour 570 µg/m3
+24 hours 228 µg/m3
+Annual 60 µg/m3
+[[page 25]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 25
+Pollutant Averaging Time Criteria
+Toxic Pollutant Averaging Time Criteria (99.9th percentile)
+Benzene 1 hour 0.029 mg/m3
+Toluene 1 hour 0.36 mg/m3
+Ethylbenzene 1 hour 8 mg/m3
+Xylene 1 hour 0.19 mg/m3
+PAHs (as benzo(a)pyrene 1 hour 0.0004 mg/m3
+In accordance with the Approved Methods, the impact assessment criteria are to be applied as follows:
+ At the nearest existing or likely future off-site sensitive receptor.
+ The incremental impact (predicted impacts due to the pollutant source alone) for each pollutant must
+be reported in units and averaging periods consistent with the impact assessment criteria.
+ For individual toxic air pollutants, the incremental impact at and beyond the site boundary for each
+pollutant must be reported in concentration units consistent with the criteria (mg/m ³ or ppm), for an
+averaging period of 1 hour and as the 99.9 th percentile of dispersion model predictions for Level 2
+impact assessments.
+ Background concentrations must be included using the procedures specified in Section 5 of the
+Approved Methods.
+ Total cumulative impact (incremental impact plus background) must be reported as the 100 th
+percentile (P=100) (or 99th percentile (P=99) for odour) in concentration or deposition units consistent
+with the impact assessment criteria and compared with the relevant impact assessment criteria.
+[[page 26]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 26
+7 Existing Environment
+7.1 Topography
+Topography is important in air quality studies as local atmospheric dispersion can be influenced by terrain effects
+such as night-time katabatic (downhill) drainage flows from elevated terrain, channelling effects in valleys or
+gullies or plume interception at higher ground.
+A three-dimensional representation of the area surrounding the Site is given inFigure 3.  The topography of the
+local area generally ranges from an approximate elevation of 0 metres (m) to 220 m Australian Height Datum
+(AHD) with the area immediately surrounding the Site comprising of undulating terrain.  The topography of the
+Site itself is relatively flat, gently sloping from the south to north.
+Figure 3 Local Topographical Features
+7.2 Land Use and Sensitive Receptors
+The Site is zoned as B7 Business Park land (Ryde Local Environment Plan, 2014) as is the land immediately to the
+west, north and east (Figure 4).  The land to the south is zoned B4 Commercial Core.
+
+[[page 27]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 27
+Based on available aerial images, SLR has identified nine representative sensitive receptors surrounding the Site.
+The nearest receptors consist of childcare centres located in Business Park areas, approximately 120 m and
+170 m to the northeast and northwest of the Site respectively.  Additionally, residential receptors have also been
+identified in areas zoned as High Density Residential approximately 310 m to the northeast of the Site, including
+8-storey apartments approximately 400 m east of the Site. Locations of all identified receptors are provided in
+Table 10 and illustrated in Figure 5.
+Figure 4 Planning Zones
+
+[[page 28]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 28
+Table 10 Location of the Identified Sensitive Receptors
+ID Easting (m) Northing (m) Elevation
+ABGL (m)
+Description Approx. Distance
+from Source (m)
+R_1 326781.44 6260691.2 0 Child care centre (outdoor area) 200
+R_2 326990.23 6260719.08 0 Residence 400
+R_3 326397.2 6259826.78 0 Residence 800
+R_4 325932.06 6259979.75 0 Residence 900
+R_5 325727.23 6260396.4 0 Residence 900
+R_6 325861.53 6260723.61 0 Residence 750
+R_7 325853.24 6261119 0 Residence 950
+R_8 326606.49 6260867.77 0 Child care centre (outdoor area) 300
+R_9 326695.88 6261038.63 0 Residence 500
+R_10 326696.02 6260547.94 25 15 Talavera Rood Air Intakes 50
+R_11-0 327034.98 6260674.77 0 Residence Ground Floor 450
+R_11-1 327034.98 6260674.77 3 Residence 1st Floor 450
+R_11-2 327034.98 6260674.77 6 Residence 2nd Floor 450
+R_11-3 327034.98 6260674.77 9 Residence 3rd Floor 450
+R_11-4 327034.98 6260674.77 12 Residence 4th Floor 450
+R_11-5 327034.98 6260674.77 15 Residence 5th Floor 450
+R_11-6 327034.98 6260674.77 18 Residence 6th Floor 450
+R_11-7 327034.98 6260674.77 21 Residence 7th Floor 450
+ABGL   Above ground level
+[[page 29]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 29
+Figure 5 Surrounding Sensitive Receptors
+7.3 Local Meteorology
+The Bureau of Meteorology (BoM) maintains and publishes data from weather stations across Australia.  The
+closest such station recording long term wind speed and wind direction data is the Sydney Olympic Park (Archery
+Centre) Automatic Weather Station (SOP AWS) (Station ID 66212), located approximately 8 kilometres (km)
+southwest of the Site.  It is noted that considering the terrain between the Site and SOP AWS, wind conditions
+at the Site may be slightly different from those recorded at the AWS.
+
+[[page 30]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 30
+Wind
+Local wind speed and direction influence the dispersion of air pollutants.  Wind speed determines both the
+distance of downwind transport and the rate of dilution as a result of ‘plume’ stretching.  Wind direction, and
+the variability in wind direction, determines the general path pollutants will follow and the extent of crosswind
+spreading.  Surface roughness (characterised by features such as the topography of the land and the presence
+of buildings, structures and trees) will also influence dispersion.
+Annual and seasonal wind roses for the past five years, 2016 to 2020, compiled from data recorded by the
+SOP AWS are presented in Figure 6.  Wind roses show the frequency of occurrence of winds by direction and
+strength.  The bars correspond to the 16 compass points (degrees from North).  The bar at the top of each wind
+rose diagram represents winds blowing from the north (i.e. northerly winds), and so on.  The length of the bar
+represents the frequency of occurrence of winds from that direction, and the widths of the bar sections
+correspond to wind speed categories, the narrowest representing the lightest winds.  Thus, it is possible to
+visualise how often winds of a certain direction and strength occur over a long period, either for all hours of the
+day, or for particular periods during the day.
+The annual wind rose indicates the predominant wind directions in the area are from the west-northwest and
+northwest.  Calm wind conditions (wind speed less than 0.5 m/s) were predicted to occur 10.4% of the time
+throughout the investigated period.  The average seasonal wind roses for the year 2016-2020 indicate that:
+ In summer, winds are mostly gentle (between 3.0 m/s and 5.5 m/s) and blow predominantly from the
+southeast quadrant, with very few winds from other directions.  Calms were predicted to occur 8.1%
+of the time during the summer months.
+ In autumn and spring, winds are light to moderate (between 0.5 m/s and 8 m/s) blowing
+predominantly from the northwest and southeast quadrants , with lower frequency of winds from the
+southeast quadrant in autumn and a higher frequency of winds from the northwest quadrant in spring.
+Calms were predicted to occur 11.8% of the time during autumn and 9.3% of the time during the spring
+months.
+ In winter, winds are mostly light to gentle (between 0.5 m/s and 5.5 m/s) and blow predominantly
+from the west-northwest and northwest directions, with very few winds blowing from the northeast
+and southeast quadrants.  Calms were predicted to occur 12.5% of the time during the winter months.
+As identified in Section 7.2, the closest existing sensitive receptors are located to the northeast and north of the
+Site.  Winds from between the west-southwest and south-southeast directions, which would blow air emissions
+from the Site towards the closest receptors, occur approximately 22% of the time.
+It is noted that given the topographical features between the Site and SOP AWS (seeFigure 3), the actual winds
+experienced at the Site may be different to those recorded by the AWS.
+Wind erosion of dust from exposed surfaces is usually initiated when wind speeds exceed the threshold friction
+velocity for a given surface or material, however a general rule of thumb is that wind erosion can be expected
+to occur above 5 m/s.  The frequency of wind speeds for the period of 2016-2020 is presented in Figure 7.  The
+plot shows that the frequency of wind speeds exceeding 5 m/s for the period 2016-2020 at SOP AWS was
+approximately 9%.
+[[page 31]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 31
+Figure 6 Average Annual and Seasonal Wind Roses for Sydney Olympic Park AWS – 2016-2020
+
+[[page 32]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 32
+Figure 7 Wind Speed Frequency Chart for Sydney Olympic Park AWS – 2016-2020
+Rainfall
+Dry periods (no rainfall) have a greater risk of generating fugitive dust emissions during construction as moisture
+binds dust particles together.  The long-term monthly rainfall averages recorded by the SOP AWS rain gauge are
+shown in Figure 8.  Generally, rainfall is lowest in the mid-winter to mid spring period.
+Figure 8 Long term Mean Rainfall for Sydney Olympic Park AWS – 2011-2020
+
+[[page 33]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 33
+7.4 Background Air Quality
+Air quality monitoring is performed by the NSW EES at a number of monitoring stations across NSW.  The closest
+such station is the Macquarie Park AQMS, located approximately 1.8 km northwest of the Site.
+The Macquarie Park AQMS was commissioned in 2017 and is located at Macquarie University Sport Fields,
+Culloden Road in close proximity to vehicle activity along the M2 Motorway.  It is situated at an elevation of
+49 m.  SLR considers air quality data from this station to be a reasonable representation of air quality conditions
+experienced at the Site (due to surrounding land use).  The air pollutants currently measured by the Macquarie
+Park AQMS include:
+ NO, NO2 & NOX
+ PM10
+ PM2.5
+ O3
+Air quality monitoring data recorded by the Macquarie Park AQMS were obtained for the modelling year of 2018
+(refer Section 8.2.2.1 for selection of representative year) and are summarised in Table 11.  To be consistent
+with the NSW EES monitoring reports, the data for gaseous pollutants are presented in parts per hundred million
+(pphm) or parts per million (ppm), rather than µg/m3 and mg/m3 as used in Section 6.
+A review of the data shows that exceedances of the 24-hour average PM10 criterion and 24-hour average PM2.5
+criterion were recorded by the Macquarie Park AQMS in 2018.
+A review of the recorded exceedances during the calendar year of 2018 (NSW OEH, 2019) indicates that they
+were due to natural events such as bushfires or dust storms, or hazard reduction burns.
+No exceedances of the annual average PM10 criterion and annual average PM2.5 criterion were recorded by the
+Macquarie Park AQMS in 2018.
+Ambient concentrations of SO2, NO2 and CO were below all relevant criteria for 2018.
+[[page 34]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 34
+Table 11 Summary of Macquarie Park AQMS Data (2018)
+Pollutant Averaging
+Period Criteria
+Macquarie Park AQMS
+UnitsMaximum
+Concentration
+Number of
+Exceedances
+SO2
+1-hour 20 pphm 4.4 0 pphm
+24-hour 8 pphm 0.7 0 pphm
+Annual 2 pphm 0.1 0 pphm
+NO2
+1-hour 12 pphm 3.0 0 pphm
+Annual 3 pphm 0.6 0 pphm
+CO
+1-hour 25 ppm 4.4 0 ppm
+8-hour 9 ppm 2.5 0 ppm
+PM10
+24-hour 50 µg/m3 85.6 4 µg/m3
+Annual 25 µg/m3 17.2 0 µg/m3
+PM2.5
+24-hour 25 µg/m3 58.4 4 µg/m3
+Annual 8 µg/m3 7.0 0 µg/m3
+Red fonts indicate exceedances of relevant criterion
+[[page 35]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 35
+8 Assessment Methodology
+8.1 Construction Phase Qualitative Impact Assessment
+Quantitatively assessing impacts of fugitive dust emissions from construction projects using predictive modelling
+is seldom considered appropriate, primarily due to the uncertainty in the details of the construction activities,
+including equipment type, number, location and scheduling, which are unlikely to be available at the time of the
+assessment.  Furthermore, they are also likely to change as construction progresses.
+Instead, it is considered appropriate to conduct a qualitative assessment of potential construction related air
+quality impacts.  Potential impacts of dust emissions associated with proposed demolition and construction
+activities at the Site has been performed based on the methodology outlined in the Institute of Air Quality
+Management (UK) (IAQM) document, “ Assessment of dust from demolition and construction ” (Holman et
+al 2014).  This guidance document provides a structured approach for classifying construction sites according to
+the risk of air quality impacts, to identify relevant mitigation measures appropriate to the risk (see Appendix A
+for full methodology).
+The IAQM approach has been used widely in Australia for the assessment of air quality impacts from
+construction projects and the identification of appropriate mitigation measures and has been accepted by
+regulators across all states and territories for a variety of construction projects.
+The IAQM method uses a four-step process for assessing dust impacts from construction activities:
+ Step 1: Screening based on distance to the nearest sensitive receptor; whereby the sensitivity to dust
+deposition and human health impacts of the identified sensitive receptors is determined.
+ Step 2: Assess risk of dust effects from activities based on:
+ the scale and nature of the works, which determines the potential dust emission magnitude; and
+ the sensitivity of the area surrounding dust-generating activities.
+ Step 3: Determine site-specific mitigation for remaining activities with greater than negligible effects.
+ Step 4: Assess significance of remaining activities after management measures have been considered.
+It is noted that that accurate information regarding construction activities and equipment are not available at
+this stage, hence SLR has made conservative assumptions where necessary to assess impacts from construction
+activities.  If these parameters were to be significantly modified, re-assessment of construction impacts is
+recommended.
+8.2 Operational Phase Dispersion Modelling Study
+The assessment of air emissions from the operational phase of the Project has been performed quantitatively
+through the use of dispersion modelling techniques.
+[[page 36]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 36
+8.2.1 Selection of Models
+Emissions from the proposed quarry were modelled using a combination of the WRF, CALMET and CALPUFF
+models.  CALPUFF is a transport and dispersion model that ejects “puffs” of material emitted from modelled
+sources, simulating dispersion and transformation processes along the way.  In doing so, it typically uses the
+fields generated by a meteorological pre-processor CALMET, discussed further below.  Temporal and spatial
+variations in the meteorological fields selected are explicitly incorporated in the resulting distribution of puffs
+throughout a simulation period.  The primary output files from CALPUFF contain hourly concentration evaluated
+at selected receptor locations.  The CALPOST post-processor is then used to process these files, producing
+tabulations that summarise results of the simulation for user-selected averaging periods.
+8.2.2 Meteorological Modelling
+Meteorological mechanisms govern the dispersion, transformation and eventual removal of pollutants from the
+atmosphere.  The extent to which pollution will accumulate or disperse in the atmosphere is dependent on the
+degree of thermal and mechanical turbulence within the earth’s boundary layer.  Dispersion comprises vertical
+and horizontal components of motion.  The stability of the atmosphere and the depth of the surface-mixing
+layer define the vertical component.  The horizontal dispersion of pollution in the boundary layer is primarily a
+function of the wind field.  The wind speed determines both the distance of downwind transport and the rate
+of dilution as a result of plume ‘stretching’.  The generation of mechanical turbulence is similarly a function of
+the wind speed, in combination with the surface roughness.  The wind direction, and the variability in wind
+direction, determines the general path pollutants will follow, and the extent of crosswind spreading.  Pollution
+concentration levels therefore fluctuate in response to changes in atmospheric stability, to concurrent variations
+in the mixing depth, and to shifts in the wind field (Oke, 2002).
+For this study, a site-representative three-dimensional meteorological dataset was compiled using a
+combination of the WRF and CALMET models, as discussed in the following sections.
+8.2.2.1 Selection of Worst-Case Year
+Meteorological data recorded over the five-year period 2016-2020 by the Sydney Olympic Dam AWS was
+analysed to select a worst-case meteorological year in order to provide a conservative air quality impact
+assessment.  An analysis of the wind speed, wind direction, temperature and relative humidity recorded in each
+of the calendar years aligned well with the five-year average data with no particular years of note, however the
+year 2018 reported the worst-case combination of low average wind speed and greater number of calms, which
+generally results in reduced plume dispersion and consequently greater ground level impacts. For this reason,
+2018 was chosen for the AQIA.
+8.2.2.2 WRF
+The Weather Research and Forecast (WRF) model is a next-generation mesoscale numerical weather prediction
+system designed for both atmospheric research and operational forecasting needs.  The model serves a wide
+range of meteorological applications across scales from tens of meters to thousands of kilometres.
+For this assessment, the WRF modelling system was used to produce the meteorological field required to
+provide the ‘initial guess’ field for the CALMET meteorological model for a period of one year (1 January 2018
+to 31 December 2018).  Parameters used in the WRF model for this assessment are presented inTable 12.
+[[page 37]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 37
+Table 12 Meteorological Parameters – WRF
+Parameter Domain 1 Domain 2 Domain 3 Domain 4
+Modelling domain (km) 1,890 x 1,890 171 x 171 66 x 66 22 x 22
+Grid resolution (km) 27 9 3 1
+Number of vertical levels 30 30 30 30
+Parent Domain - 1 2 3
+Microphysics WSM6 WSM6 WSM6 WSM6
+Cumulus parametrization Kain-Fritsch Kain-Fritsch Kain-Fritsch Kain-Fritsch
+Shortwave radiation physics Dudhia Dudhia Dudhia Dudhia
+Longwave radiation physics RRTM RRTM RRTM RRTM
+Planetary boundary layer YSU YSU YSU YSU
+8.2.2.3 CALMET
+In the simplest terms, CALMET is a meteorological model that develops hourly wind and other meteorological
+fields on a three-dimensional gridded modelling domain that are required as inputs to the CALPUFF dispersion
+model.  Associated two-dimensional fields such as mixing height, surface characteristics and dispersion
+properties are also included in the file produced by CALMET.  The interpolated wind field is then modified within
+the model to account for the influences of topography, sea breeze, as well as differential heating and surface
+roughness associated with different land uses across the modelling domain.  These modifications are applied to
+the winds at each grid point to develop a final wind field.  The final hourly-varying wind field thus reflects the
+influences of local topography and land uses.
+The CALMET model was run for a 4 km by 4 km domain with a 30 m grid resolution.  WRF-generated three-
+dimensional meteorological data were used as the ‘initial-guess’ wind field.  Local topography and land use
+information were used to refine the wind field predetermined by the WRF output.
+Any observed meteorological data required to refine the meteorological model predictions were not available
+at the Site or surrounding areas. Given this, both WRF and CALMET models were run in no observation mode to
+generate the three-dimensional representative meteorological dataset for the site and surrounding areas.
+Table 13 details the parameters used in the meteorological modelling to drive the CALMET model.
+Table 13 Meteorological Modelling Parameters - CALMET
+Parameter Data
+Modelling period 1st January 2018 to 31st December 2018
+Meteorological grid resolution  30 m
+Initial guess filed WRF output
+Vertical resolution (cell heights) 10 (0 m, 20 m, 40 m, 80 m, 160 m, 320 m, 640 m, 1200 m, 2000 m, 3000 m,
+4000 m)
+Data assimilation None
+[[page 38]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 38
+8.2.2.4 Site Representative Meteorological Data
+This section presents a summary of the key meteorological conditions predicted by CALMET at the Site.
+8.2.2.4.1 Wind Speed and Direction
+A summary of the annual wind behaviour predicted by WRF/CALMET for the Site is presented in Figure 9.  Based
+on the model predictions, the site experienced light to strong winds (between 1.5 m/s and 13.6 m/s), from all
+directions but with fewer winds from the east-southeastern quadrant.  There are few calm wind conditions (wind
+speeds less than 0.5 m/s), predicted to occur approximately 0.8% of the time.
+The seasonal wind roses indicate that in summer and autumn, winds from the eastern quadrant are
+predominant, with summer experiencing more southeasterlies and autumn more northeasterlies. Winter sees
+a strong predominance from the north while spring sees a more even spread from all directions.
+[[page 39]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 39
+Figure 9 Wind Roses for the Site, as Predicted by WRF/CALMET
+
+[[page 40]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 40
+8.2.2.5 Atmospheric Stability
+Atmospheric stability refers to the tendency of the atmosphere to resist or enhance vertical motion.  The
+Pasquill-Gifford-Turner (PGT) assignment scheme identifies six Stability Classes, A to F, to categorise the degree
+of atmospheric stability as follows:
+ A = Extremely unstable conditions
+ B = Moderately unstable conditions
+ C = Slightly unstable conditions
+ D = Neutral conditions
+ E = Slightly stable conditions
+ F = Moderately stable conditions
+The meteorological conditions defining each PGT stability class are shown inTable 14.
+Table 14 Meteorological Conditions Defining PGT Stability Classes
+Surface wind
+speed (m/s)
+Daytime insolation Night-time conditions
+Strong Moderate Slight Thin overcast or
+> 4/8 low cloud
+<= 4/8 cloudiness
+< 2 A A - B B E F
+2 - 3 A - B B C E F
+3 - 5 B B - C C D E
+5 - 6 C C - D D D D
+> 6 C D D D D
+Notes:
+Strong insolation corresponds to sunny midday in midsummer in England; slight insolation to similar conditions in midwinter.
+Night refers to the period from 1 hour before sunset to 1 hour after sunrise.
+The neutral category D should also be used, regardless of wind speed, for overcast conditions during day or night and for any sky conditions during
+the hour preceding or following night as defined above.
+Source: NOAA, 2018.
+The predicted frequency of each stability class at the Site during 2018 is presented in Figure 10. The results
+indicate a high frequency of conditions typical to Stability Class D (Neutral), with a low frequency of very unstable
+conditions (Stability Class A).  Stable conditions (Stability Classes E and F) also occur relatively frequently. Stable
+conditions occur during the night-time, under low wind speed conditions, which inhibit pollutant dispersion.
+[[page 41]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 41
+Figure 10 Stability Class Distribution Predicted by CALMET for the Site
+8.2.2.6 Mixing Heights
+Diurnal variations in maximum and average mixing heights predicted by CALMET at the Site are illustrated in
+Figure 11.  As would be expected, an increase in the mixing height during the morning is apparent, arising due
+to the onset of vertical mixing following sunrise.  Maximum mixing heights occur in the mid to late afternoon,
+due to the dissipation of ground-based temperature inversions and the growth of the convective mixing layer.
+
+[[page 42]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 42
+Figure 11 Mixing Heights Predicted by CALMET for the Site
+8.3 Additional Model Parameters and Options
+A summary of additional CALPUFF modelling options and parameters used for the assessment is provided in
+Table 15.
+Table 15 Model Parameters
+Parameter Option
+Calculation Type Concentration
+Plume Rise Method Briggs
+Building Downwash BPIP-PRIME
+Gridded Receptors Cartesian 2 km x 2 km; 30 m spacing; 0 m AGL centred on Site
+Discrete Receptors Refer Section 7.2
+AGL Above ground level
+8.3.1.1 Background Pollutant Concentrations
+Hourly varying air quality data recorded by the Macquarie Park AQMS during the modelling period were used
+for the contemporaneous analysis of cumulative ground level concentrations.
+It is noted that in circumstances where the existing ambient air pollutant concentrations exceed the impact
+assessment criteria, the Approved Methods requires the AQIA to demonstrate that no additional exceedances
+of the impact assessment criteria will occur as a result of the proposed activity.
+
+[[page 43]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 43
+8.3.1.2 Building Downwash
+Building downwash is a phenomenon caused by structures near to pollutant emission sources influencing
+atmospheric turbulence. Airflow is rapidly mixed to the ground as frictional forces and pressure gradients cause
+stagnations and eddies to develop in the wake of buildings downwind of elevated sources.
+The USEPA has established a Good Engineering Practice (GEP) stack height which is defined as the ‘height
+necessary to ensure that emissions from the stack do not result in excessive concentrations of any air pollutants
+in the immediate vicinity of the source as a result of atmospheric downwash, eddies or wakes which may be
+created by the source itself, nearby structures or nearby terrain obstacles’ (USEPA, 1985). The definition of GEP
+stack height is the building height plus 1.5 times the lesser of the building height or projected building width.
+A stack is considered to be wake affected when the stack and building are located less than five times the lesser
+of the building height or project building width apart.
+CALPUFF contains the Prime algorithm which was used to predict building downwash effects. Influencing
+building dimensions were calculated using the USEPA’s Building Profile Input Program (BPIP).
+For modelling purposes, proposed site buildings as well as enclosures for the proposed generators were included
+in the modelling to account for the potential the building wakes.Table 16 provides the buildings heights as input
+into the model, the relative locations of which are illustrated inFigure 13.
+Table 16 Buildings Included in Model
+ID Height (m)
+BLD_1 (IC2) 12.9
+BLD_2 (IC3E and IC3W) 43.8
+BLD_3 26
+BLD_4 29
+BLD_5 25
+BLD_6 33
+BLD_7 33
+BLD_8 9.6
+BLD_9 17.8
+BLD_10 19.2
+BLD_11 16
+BLD_12 17.7
+8.3.2 NOx to NO2 conversion
+NOx emitted from combustion processes mainly consist of NO with a small portion (approximately 10%) of NO2.
+In the atmosphere however, NO emitted from the source oxidises to NO 2 in the presence of ozone (O 3) and
+sunlight as it travels further from the source.  The rate of oxidation depends on a number of parameters including
+the ambient O3 concentration.  The Approved Methods lists the following methods that can be applied to take
+account the oxidation of NO to NO2 in estimating downwind NO2 concentrations at receptor locations.
+[[page 44]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 44
+Method 1 – 100% Conversion
+This method is usually used as a screening level assessment and assumes 100% conversion of NO to NO2 before
+the plume arrives at the receptor location. Use of this method can significantly over-predict NO2 concentrations
+at nearfield receptors. Given the close proximity of sensitive receptors to the Site the use of Method 1 (100%
+conversion) is not appropriate.
+Method 2 – Ambient Ozone Limiting Method (OLM)
+This method assumes that all the available ozone in the atmosphere will react with NO in the plume until either
+all the O 3 or all the NO is used up. NO 2 concentrations can be estimated by this method using the following
+equation:
+[NO2]total = {0.1 × [NOx]pred} + MIN{(0.9) × [NOx]pred or (46/48) × [O3]bkgd} + [NO2]bkgd
+Again, given the close proximity of sensitive receptors with short transport and duration periods from the Site,
+Method 2 could be deemed overly conservative as it assumes that the atmospheric reaction is instantaneous
+when in reality, the reaction takes place over a number of hours (NSW EPA, 2017).
+Method 3 – NO to NO2 conversion using empirical relationship
+An empirical equation for estimating the oxidation rate of NO in power plant plumes dependent on distance
+downwind from the source and the parameters A and α and has the following form:
+𝑁𝑂2 = 𝑁𝑂𝑥 × 𝐴(1 − 𝑒−𝛼𝑥)
+where x is the distance from the source and A and α are classified according to the O3 concentration, wind speed
+and season (Janssen, van Wakeren, van Duuran, & Elshout, 1988) as provided inTable 17.
+Table 17 Classification of Values for A and α by Season
+Season Ozone (ppb) Wind Speed (m/s)
+5 15 >15
+Winter 40 A = 0.87
+α = 0.07
+A = 0.87
+α = 0.07
+A = 0.87
+α = 0.15
+30 A = 0.82
+α = 0.07
+A = 0.83
+α = 0.07
+A = 0.83
+α = 0.07
+20 A = 0.74
+α = 0.07
+A = 0.74
+α = 0.07
+A = 0.74
+α = 0.07
+10 A = 0.49
+α = 0.05
+A = 0.49
+α = 0.05
+A = 0.49
+α = 0.05
+Spring/Autumn 60 A = 0.85
+α = 0.10
+A = 0.85
+α = 0.15
+A = 0.85
+α = 0.30
+40 A = 0.80
+α = 0.10
+A = 0.80
+α = 0.10
+A = 0.80
+α = 0.25
+30 A = 0.74
+α = 0.10
+A = 0.74
+α = 0.10
+A = 0.74
+α = 0.15
+[[page 45]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 45
+Season Ozone (ppb) Wind Speed (m/s)
+5 15 >15
+20 A = 0.635
+α = 0.10
+A = 0.635
+α = 0.10
+A = 0.635
+α = 0.10
+Summer 200 A = 0.93
+α = 0.40
+A = 0.93
+α = 0.65
+A = 0.93
+α = 0.80
+120 A = 0.88
+α = 0.20
+A = 0.88
+α = 0.35
+A = 0.88
+α = 0.45
+60 A = 0.81
+α = 0.15
+A = 0.81
+α = 0.25
+A = 0.81
+α = 0.35
+40 A = 0.74
+α = 0.10
+A = 0.74
+α = 0.15
+A = 0.74
+α = 0.25
+30 A = 0.67
+α = 0.10
+A = 0.67
+α = 0.10
+A = 0.67
+α = 0.10
+This assessment employs Method 3, adopting O 3 data from the Macquarie Park AQMS, presented in Figure 12
+and summarised Table 18, to estimate the incremental and cumulative NO 2 impacts at nearby sensitive
+receptors as a result of the Project emissions. Additional conservatism is realised by using predicted hourly
+ground-level windspeeds ( Section 8.2.2.4.1), rather than those predicted at the emission height (between 18
+and 45 m above ground level) where windspeeds would be generally be greater.
+Figure 12 Macquarie Park AQMS O 3 1-Hour Average Concentrations (2018)
+
+[[page 46]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 46
+Table 18 O 3 Concentration Summary: Macquarie Park AQMS (2018)
+Pollutant Averaging
+Period
+Units Maximum
+Concentration
+Criteria
+O3 1-hour
+pphm 8.7 10
+µg/m3 171 196
+8.3.3 SO2
+In the absence of SO 2 emission rates provided in the Rolls Royce MTU engine specifications (Appendix C),
+emission rates are adopted from the specification sheet for the Cummins QSK95-G4, a similar sized generator
+used for standby power generation (also provided in Appendix C). The Cummins QSK95-G4 SO2 emission factor
+of 0.004 grams per break horsepower-hour (g/bhp-hr) is equal to 0.0054 grams per kilowatt-hour (g/kW-hr).
+8.3.4 PAHs as Benzo(a)Pyrene
+The Approved Methods requires that all PAHs be assessed as benzo(a)pyrene toxic equivalency quotient
+(B(a)PTEQ) using the potency equivalency factors (PEFs) provided inTable 19. The emission of PAHs as B(a)PTEQ
+is equal to the sum of the individual PAH emission factors multiplied by their PEFs:
+𝐸𝐹𝐵(𝑎)𝑃𝑇𝐸𝑄 = ෍ 𝐸𝐹𝑖 × 𝑃𝐸𝐹𝑖
+𝑛
+𝑖=1
+Table 19 Approved Methods Potency Equivalency Factors for PAHs
+PAH or Derivative CAS Number PEF
+Benzo[a]pyrene 50-32-8 1
+Benzo[a]anthracene 56-55-3 0.1
+Benzo[b]fluoranthene 205-99-2 0.1
+Benzo[j]fluoranthene 205-82-3 0.1
+Benzo[k]fluoranthene 207-08-9 0.1
+Bibenz[a,j]acridine 224-42-0 0.1
+Bibenz[a,h]acridine 226-36-8 0.1
+7h-dibenzo[c,g]carbazole 194-59-2 1
+Dibenzo[a,e]pyrene 192-65-4 1
+Dibenzo[a,h]pyrene 189-64-0 10
+Dibenzo[a,i]pyrene 189-55-9 10
+Dibenzo[a,l]pyrene 191-30-0 10
+5-nitroacenaphthene 602-87-9 0.01
+Indeno[1,2,3-cd]pyrene 193-39-5 0.1
+5-methylchrysene 3697-24-3 1
+1-nitropyrene 5522-43-0 0.1
+4-nitropyrene 57835-92-4 0.1
+1,6-dinitropyrene 42397-64-8 10
+1,8-dinitropyrene 42397-65-9 1
+[[page 47]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 47
+PAH or Derivative CAS Number PEF
+6-nitrocrysene 08-02-7496 10
+2-nitrofluorene 607-57-8 0.01
+Chrysene 218-01-9 0.01
+Dibenz[a,h]anthracene 53-70-3 0.4
+7,12-dimethylbenzanthracene 57-97-6 21.8
+3-methylcholanthrene 56-49-5 1.9
+In the absence of PAH emission rates provided in the engine specifications (Appendix C), emission rates are
+calculated from emission factors adopted from USEPA “AP42: Compilation of Air Emission Factors, 3.3 Gasoline
+and Diesel Industrial Engines” (USEPA, 2006 and Updates). Table 3.3-2 “Speciated Organic Compound Emission
+Factors for Diesel Engines” provides emission factors as a function of diesel fuel input for 16 PAHs. These are
+presented inTable 20 along with their PEFs, where provided, and the resultant PAH as B(a)PTEQ emission factor.
+Table 20 PAH (as Benzo(a)pyrene) Emission Factor
+PAH AP42 Emission Factor (mg/MJ) PEF ^
+Benzo(a)anthracene 72.2 0.1
+Chrysene 1.5 0.01
+Benzo(b)fluoranthene 4.3 0.1
+Benzo(k)fluoranthene 6.7 0.1
+Benzo(a)pyrene 80.8 1
+Indeno(1,2,3-cd)pyrene 16.1 0.1
+Dibenz(a,h)anthracene 100.3 0.4
+PAH as B(a)PTEQ 281.9
+^ Approved Methods Table 7.2c.
+8.3.5 Conversion of Averaging Times
+For pollutants with short-term (sub-hourly) air quality impact assessment criteria, in the absence of specific
+guidance in the Approved methods, the short term impacts have been estimated using the formula cited in the
+Guidance notes for using the regulatory air pollution model AERMOD in Victoria (EPAV, 2013) as follows:
+𝐶𝑡  = 𝐶(𝑡0) × ( 𝑡0
+𝑡ൗ )0.2
+Where
+Ct = concentration for the longer time-averaging period
+C0 = concentration for the shorter time-averaging period
+t0 = longer averaging time
+t = shorter averaging time
+[[page 48]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 48
+8.3.6 Source Characteristics and Emission Rates
+CALPUFF requires a range of inputs to describe the emissions to air as a result of the proposed activities.
+Potential air emissions and relevant stack parameters for the generator stack were estimated based on the diesel
+engine technical specifications. Table 21 provides a summary of stack parameters and emission rates for each
+of the proposed generators. SLR understands that the generators will be operating in ‘Full Continuous’ mode
+during testing. Refer to Appendix C for the generator set specifications sheet and Appendix D for the general
+arrangement of the generators. The generator exhausts will be oriented vertically.
+Table 21 Stack Parameters and Emission Rates – Proposed Generators
+Parameter Data Unit Reference/Base
+Temperature 754 K Calculated from engine specifications (ReferAppendix C)
+Release height 45.1 m Client drawings
+Exhaust gas velocity 40.7 m/s Calculated from engine specifications (ReferAppendix C)
+Stack diameter 0.60 m Client drawings
+Stack orientation Vertical - Client drawings
+NOx emission rate 8.9 g/s Engine specifications (ReferAppendix C)
+CO emission rate 0.48 g/s
+PM emission rate 0.021 g/s
+SO2 emission rate 0.0049 g/s In absence of data, based on Cummins QSK95-G4 engine
+specifications (Refer Appendix C), scaled for power output.
+PAH (as B(a)P) emission rate 2.1x10-6 g/s Calculated using engine specifications (Full Continuous fuel
+consumption rate; Refer Appendix C) and AP42 3.3 PAH emission
+factors for uncontrolled diesel engines.
+The generator set specifications sheet includes emission rates of the pollutants of concern with the exception
+of VOC. It is noted that VOC emissions from the combustion of diesel are low relative to their assessment criteria
+when compared with other products of combustion. Therefore, if no exceedances of other combustion gas
+criteria are predicted, it is considered appropriate to assume that VOC emissions from the operation of the
+Project are would also result in no exceedances of the relevant criteria. VOC emissions from the project have
+therefore not been considered further in this assessment.
+To conservatively represent the testing regime ( Section 4.2), the modelling assumes that five generators run
+continuously between 9:00 am and 5:00 pm, every day of the year. It is noted that the use of this approach is
+likely to significantly overestimate the 24-hour average and annual average downwind air pollutant
+concentrations as only 4 tests are to be conducted per year per generator.
+The five generators closest to the location of the nearest identified sensitive receptors were modelled.Figure 13
+illustrates the modelled sources and buildings for the worst-case testing scenario.
+[[page 49]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 49
+Figure 13 Modelled Buildings and Point Sources (Worst-case Testing Scenario)
+Table 22 provides a summary of stack parameters and emission rates for each of the existing generators as
+modelled. To conservatively represent emergency conditions ( Section 4.3 ) the modelling assumes that all
+generators run continuously 24 hours per day, every day of the year. The buildings and stacks modelled for the
+emergency scenario are illustrated in Error! Not a valid bookmark self-reference..
+Table 22 Stack Parameters and Emission Rates – Existing Generators
+Parameter Unit IC2 (DRUPS) IC2 IC3E
+Temperature K 763 763 733
+Release height m 17.9 17.9 34.0
+Exhaust gas velocity m/s 42.9 42.9 25.1
+Stack diameter m 0.51 0.51 0.60
+Stack orientation - Vertical Vertical Horizontal
+NOx emission rate g/s 14.8 5.6 14.8
+CO emission rate g/s 2.6 0.44 2.6
+PM emission rate g/s 0.43 0.035 0.43
+SO2 emission rate a g/s 0.0036 0.0023 0.0036
+PAH (as B(a)P) emission rate b g/s 1.6x10-6 1.0x10-6 2.1x10-6
+a  In absence of data, based on Cummins QSK95-G4 engine specifications (Refer Appendix C), scaled for power output.
+b  Calculated using engine specifications and AP42 3.3 PAH emission factors for uncontrolled diesel engines.
+
+[[page 50]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 50
+Figure 14 Modelled Buildings and Point Sources (Worst-case Emergency Scenario)
+8.3.7 Accuracy of Modelling
+All atmospheric dispersion models, including CALPUFF, represent a simplification of the many complex processes
+involved in the dispersion of pollutants in the atmosphere.  To obtain good quality results it is important that
+the most appropriate model is used and the quality of the input data (meteorological, terrain, source
+characteristics) is adequate.
+The main sources of uncertainty in dispersion models, and their effects, are discussed below:
+ Oversimplification of physics: This can lead to both under-prediction and over-prediction of ground level
+pollutant concentrations.  Uncertainties are greater in Gaussian plume models as they do not include the
+effects of non-steady-state meteorology (i.e., spatially- and temporally-varying meteorology).
+ Uncertainties in emission rates:  Ground level concentrations are proportional to the pollutant emission
+rate.  In addition, most modelling studies assume constant worst-case emission levels or are based on the
+results of a small number of stack tests, however operations (and thus emissions) are often quite variable.
+Accurate measurement of emission rates and source parameters requires continuous monitoring.
+
+[[page 51]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 51
+ Uncertainties in wind direction and wind speed: Wind direction affects the direction of plume travel, while
+wind speed affects plume rise and dilution of plume.  Uncertainties in these parameters can result in errors
+in the predicted distance from the source of the plume impact, and magnitude of that impact.  In addition,
+aloft wind directions commonly differ from surface wind directions.  The preference to use rugged
+meteorological instruments to reduce maintenance requirements also means that light winds are often not
+well characterised.
+ Uncertainties in mixing height: If the plume elevation reaches 80% or more of the mixing height, more
+interaction will occur, and it becomes increasingly important to properly characterise the depth of the mixed
+layer as well as the strength of the upper air inversion.
+ Uncertainties in temperature: Ambient temperature affects plume buoyancy, so inaccuracies in the
+temperature data can result in potential errors in the predicted distance from the source of the plume
+impact, and magnitude of that impact.
+ Uncertainties in stability estimates: Gaussian plume models use estimates of stability class, and 3D models
+use explicit vertical profiles of temperature and wind (which are used directly or indirectly to estimate
+stability class for Gaussian models).  In either case, uncertainties in these parameters can cause either under-
+prediction or over-prediction of ground level concentrations.  For example, if an error is made of one stability
+class, then the computed concentrations can be off by 50% or more.
+The USEPA makes the following statement in its Modelling Guideline (US EPA, 2005) on the relative accuracy of
+models:
+“Models are more reliable for estimating longer time-averaged concentrations than for estimating
+short-term concentrations at specific locations; and the models are reasonably reliable in estimating
+the magnitude of highest concentrations occurring sometime, somewhere within an area.  For example,
+errors in highest estimated concentrations of 10 to 40% are found to be typical, i.e., certainly well
+within the often quoted factor-of-two accuracy that has long been recognised for these models.
+However, estimates of concentrations that occur at a specific time and site are poorly correlated with
+actually observed concentrations and are much less reliable.”
+[[page 52]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 52
+9 Assessment of Air Quality Impacts
+9.1 Construction Phase
+9.1.1 Step 1 – Screening Based on Separation Distance
+As noted in Section 7.2, the nearest sensitive receptor is located approximately 120 m from the nearest Site
+boundary.
+The screening criteria for detailed assessment are:
+ a ‘human receptor1’ within:
+ 350 m of the boundary of the site; or
+ 50 m of the route(s) used by construction vehicles on the public highway, up to 500 m from the site
+entrance(s).
+ an ‘ecological receptor2’ within:
+ 50 m of the boundary of the site; or
+ 50 m of the route(s) used by construction vehicles on the public highway, up to 500 m from the site
+entrance(s).
+Since the nearest sensitive receptor has been identified to be 120 m northeast of the Site boundary, a detailed
+assessment is deemed necessary for construction impacts.
+In relation to the wind roses presented in Section 7.1, it is apparent that winds that would blow fugitive dust
+emissions from the construction works towards the identified receptor are most likely to occur during the
+summer, autumn and spring months and least likely to occur during the winter months.
+9.1.2 Step 2a – Assessment of Scale and Nature of the Works
+Based on the IAQM definitions presented in Appendix A, dust emission magnitudes for the anticipated works
+have been categorised as presented in Table 23.
+It is noted that no demolition works are anticipated to occur on site and hence impacts from these activities
+have not been considered further.
+1  A ‘human receptor’, refers to any location where a person or property may experience the adverse effects of airborne dust or dust soiling, or
+exposure to PM10 over a time period. In terms of annoyance effects, this will most commonly relate to dwellings, but may also refer to other premises
+such as buildings housing cultural heritage collections (e.g. museums and galleries), vehicle showrooms, food manufacturers, electronics
+manufacturers, amenity areas and horticultural operations (e.g. salad or soft-fruit production).
+2  An ‘ecological receptor’ refers to any sensitive habitat affected by dust soiling. This includes the direct impacts on vegetation or aquatic ecosystems
+of dust deposition, and the indirect impacts on fauna (e.g. on foraging habitats).
+[[page 53]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 53
+Table 23 Categorisation of Dust Emission Magnitude
+Activity Dust Emission
+Magnitude
+Basis
+Earthworks Medium
+Total site area 2,500 m2 to 10,000 m2, moderately dusty soil type (e.g. silt), 5 to
+10 heavy earth moving vehicles active at any one time, formation of bunds 4 m
+to 8 m in height, total material moved 20,000 t to 100,000 t.
+Total area where the earthworks will be undertaken for the Project, including
+removal of carparks and internal roads is estimated to be greater than
+3,000 m2.
+Construction Medium
+Total building volume 25,000 m3 to 100,000 m3, potentially dusty construction
+material (e.g. concrete), piling, on site concrete batching.
+The total building area is estimated to be greater than 3,000 m2. Therefore, the
+total volume is likely to be greater than 25,000 m3.
+Trackout Medium
+Between 10 and 50 heavy vehicle movements per day, surface materials with a
+moderate potential for dust generation, between 50 m and 100 m of unpaved
+road length.
+The unpaved road length is estimated to be less than 50 m.
+9.1.3 Step 2b – Risk Assessment
+Receptor Sensitivity
+Based on the criteria listed in Table A1 in Appendix A, the sensitivity of the identified receptor in this study is
+conservatively classified high for dust soiling and high for health impacts.
+Sensitivity of an Area
+Based on the classifications shown in Table A2 and Table A3 in Appendix A, the sensitivity of the area to dust
+soiling may be classified as medium while the sensitivity of the area for health effects may able be classified as
+low, based on an annual average PM10 concertation of 17.2 µg/m3.
+Risk Assessment
+Table 24 presents the preliminary risk of air quality impacts from uncontrolled construction activities
+determined using the risk matrix provided in Table A4 and Table A5 in Appendix A , based on the identified
+receptor sensitivity and sensitivity of the area.
+[[page 54]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 54
+Table 24 Preliminary Risk of Air Quality Impacts from Construction Activities (Uncontrolled)
+Impact Sensitivity
+of Area
+Dust Emission Magnitude Preliminary Risk
+Earthworks
+Construction
+Trackout
+Earthworks
+Construction
+Trackout
+Dust Soiling Medium
+Medium
+Medium
+Medium
+Medium
+Medium
+Low
+Health
+Effects
+Low
+Medium
+Medium
+Medium
+Low
+Low
+Low
+The results indicate that there is a low risk of adverse dust soiling and health effects occurring at the off-site
+sensitive receptor locations if no mitigation measures were to be applied to control emissions during the works.
+9.1.4 Step 3 - Mitigation Measures
+For almost all construction activity, the IAQM Methods notes that the aim should be to prevent significant effects
+on receptors through the use of effective mitigation and experience shows that this is normally possible.
+The IAQM document provides guidance on appropriate mitigation measures for construction activities
+determined to have low, medium and high preliminary risk of adverse air quality impacts. Table 25 lists the
+relevant mitigation measures by the IAQM methodology for a project shown to have a low risk of adverse
+impacts.  Not all these measures would be practical or relevant for the Project, hence a detailed review of the
+recommendations should be performed as part of the development of the Construction Environmental
+Management Plan (CEMP) and the most appropriate measures adopted.
+Table 25 Proactive Dust Mitigation Measures
+# Mitigation Measure
+1 Communications
+1.1 Develop and implement a stakeholder communications plan that includes community engagement before
+work commences on site.
+1.2 Display the name and contact details of person(s) accountable for air quality and dust issues on the site
+boundary.  This may be the environment manager/engineer or the Site Manager.
+1.3  Display the head or regional office contact information.
+2 Site Management
+2.1 Record all dust and air quality complaints, identify cause(s), take appropriate measures to reduce emissions in
+a timely manner, and record the measures taken.
+2.2 Make the complaints log available to the Local Authority when requested.
+2.3 Record any exceptional incidents that cause dust and/or air emissions, either on- or offsite, and the action
+taken to resolve the situation in the log book.
+[[page 55]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 55
+# Mitigation Measure
+3 Preparing and Maintaining the Site
+3.1 Plan site layout so that machinery and dust causing activities are located away from receptors, as far as is
+possible.
+3.2 Erect solid screens or barriers around dusty activities or the site boundary that they are at least as high as any
+stockpiles on site.
+3.3 Fully enclose site or specific operations where there is a high potential for dust production and the site is active
+for an extensive period.
+3.4 Avoid site runoff of water or mud.
+3.5 Keep site fencing, barriers and scaffolding clean using wet methods.
+3.6 Remove materials that have a potential to produce dust from site as soon as possible, unless being re-used on
+site.  If they are being re-used on-site cover as described below.
+3.7 Cover, seed or fence stockpiles to prevent wind erosion.
+4 Operating Vehicle/Machinery and Sustainable Travel
+4.1 Ensure all on-road vehicles comply with relevant vehicle emission standards, where applicable.
+4.2 Stationary trucks will switch off engines if idling time on-site is likely to exceed 2 minutes.
+4.3 Avoid using the local road network during peak traffic periods, where possible.
+4.4 Avoid the use of diesel or petrol powered generators and use mains electricity or battery powered equipment
+where practicable.
+4.5 Minimise truck queuing and unnecessary trips through logistical planning.
+5 Operations
+5.1 Only use cutting, grinding or sawing equipment fitted or in conjunction with suitable dust suppression
+techniques such as water sprays or local extraction, e.g.  suitable local exhaust ventilation systems.
+5.2 Ensure an adequate water supply on the site for effective dust/particulate matter suppression/ mitigation,
+using non-potable water where possible and appropriate.
+5.3 Use enclosed chutes and conveyors and covered skips.
+5.4 Ensure equipment is readily available on site to clean any dry spillages, and clean up spillages as soon as
+reasonably practicable after the event using wet cleaning methods.
+6 Waste Management
+6.1 No on-site burning of waste materials.
+7 Excavation
+7.1 Only the minimum area necessary is disturbed at any one time.
+7.2 Where applicable, rehabilitation of disturbed areas will be undertaken as soon as practicable.
+7.2 If unanticipated strong odours are encountered or significant dust emissions are noted on site, stop related
+work and seek advice from the Environmental Coordinator or equivalent role.
+7.3 Carry out excavation works and vehicle loading/unloading when weather conditions are favourable (i.e.
+receptors are upwind from the works).
+8 Construction
+8.1 Avoid scabbling (roughening of concrete surfaces) if possible.
+8.2 Ensure sand and other aggregates are stored in bunded areas and are not allowed to dry out, unless this is
+required for a particular process, in which case ensure that appropriate additional control measures are in
+place.
+[[page 56]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 56
+# Mitigation Measure
+9 Trackout
+9.1 Use water-assisted dust sweeper(s) on the access and local roads to remove, as necessary, any material
+tracked out of the site.
+9.2 Avoid dry sweeping of large areas.
+9.3 Ensure vehicles entering and leaving sites are covered to prevent escape of materials during transport.
+9.4 Record all inspections of haul routes and any subsequent action in a site log book.
+9.5 Implement a wheel washing system (with rumble grids to dislodge accumulated dust and mud prior to leaving
+the site).
+10 Contingency Plan for Prolonged Dust Events
+10.1 Deployment of additional water sprays where practicable
+10.2 Relocation or modification of dust-generating sources, where possible
+10.3 Temporary halting of activities and resuming when conditions have improved
+In addition to the mitigation measures proposed in Table 25, daily site inspections should be carried out during
+construction works.  Daily environmental inspections will include, but not be limited to:
+ Visual inspection of any airborne dust being generated on-site or being observed blowing off-site
+ Ensuring roads leaving the Site are free of soil, and that there is no observable soil tracking onto the
+road network
+ Inspection of the erosion and sediment control systems for silt build-up
+ Inspection of stockpiles and waste storage areas to ensure no significant wind erosion is observable.
+Any environmental inspection reports should include the above observations, with remedial or corrective
+actions noted (as appropriate).  Any remedial or corrective actions must be reported to the Site Manager as
+soon as is practicable.
+9.1.5 Step 4 - Residual Impacts
+A reappraisal of the predicted unmitigated air quality impacts on sensitive receptors has been performed to
+demonstrate the opportunity for minimising risks associated with the use of mitigation strategies.  These are
+termed ‘residual impacts’.  The results of the reappraisal are presented below inTable 26.
+Table 26 Residual Risk of Air Quality Impacts from Construction
+Impact Sensitivity of Area Residual Risk
+Earthworks Construction Trackout
+Dust Soiling Low Low Low Negligible
+Health Impacts Medium Negligible Negligible Negligible
+The dust deposition impacts for mitigated activities are anticipated to be low for earthworks and construction
+activities and negligible for trackout activities, while health impacts for all mitigated activities are anticipated to
+be negligible.
+[[page 57]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 57
+9.2 Operational Phase
+9.2.1 Particulates
+Table 27 presents maximum 24-hour and annual average incremental particulate matter concentrations at
+surrounding sensitive receptor locations. Given the insignificant incremental increase of particulate matter
+predicted at the identified receptors, additional exceedances of PM10 and PM2.5 criteria due to the operation of
+the Project are considered unlikely.
+Table 27 Maximum Predicted PM Concentrations at Sensitive Receptors
+Receptor ID Increment (µg/m³)
+Maximum 24-Hour Annual
+R1 0.37 0.038
+R2 0.18 0.019
+R3 0.073 0.0059
+R4 0.068 0.0104
+R5 0.069 0.0079
+R6 0.082 0.0064
+R7 0.075 0.0051
+R8 0.26 0.035
+R9 0.16 0.017
+R10 0.54 0.076
+R11-0 0.16 0.016
+R11-1 0.16 0.016
+R11-2 0.16 0.016
+R11-3 0.16 0.016
+R11-4 0.15 0.016
+R11-5 0.15 0.016
+R11-6 0.15 0.016
+R11-7 0.15 0.016
+9.2.2 NO2
+Table 28 presents the incremental and cumulative maximum 1-hour and annual average NO 2 concentrations
+predicted at identified sensitive receptor locations.  Contour plots of the predicted incremental NO x
+concentrations are presented in Figure 15 and Figure 16.
+The modelling results show that the predicted cumulative maximum 1-hour and annual average NO 2
+concentrations are below the relevant ambient air quality criteria at all receptor locations modelled.
+[[page 58]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 58
+Table 28 Maximum Predicted NO 2 Concentrations at Sensitive Receptors
+Receptor
+ID
+Incremental (µg/m³) Cumulative (µg/m³)
+Maximum
+1-Hour
+Corresponding 1-Hour a
+Annual 1-Hour AnnualNOX
+(µg/m³) O3 (ppb)
+Wind
+Speed
+(m/s)
+Transport
+Time (s) b
+NO2
+(µg/m³)
+R1 7.6 517 35 5.3 38 1.9 0.18 56 11
+R2 7.4 237 42 3.6 111 9.4 0.18 57 11
+R3 16 112 60 5.9 136 9.4 0.13 56 11
+R4 14 87 69 6.1 148 7.5 0.28 56 11
+R5 9.1 85 60 6.2 145 7.5 0.21 56 11
+R6 8.2 95 78 2.3 326 11 0.14 56 11
+R7 9.0 134 34 5.9 161 7.5 0.13 56 11
+R8 7.2 331 31 4.1 73 3.8 0.26 62 11
+R9 8.4 329 24 4.8 104 13 0.20 61 11
+R10 4.0 716 42 6.6 7.6 1.9 0.10 56 11
+R11-0 7.4 133 60 6.6 68 7.5 0.18 57 11
+R11-1 7.4 133 60 6.6 68 7.5 0.18 57 11
+R11-2 7.4 133 60 6.6 68 7.5 0.18 57 11
+R11-3 7.4 133 60 6.6 68 7.5 0.18 57 11
+R11-4 7.4 133 60 6.6 68 7.5 0.18 57 11
+R11-5 7.4 133 60 6.6 68 7.5 0.17 57 11
+R11-6 7.4 133 60 6.6 68 7.5 0.17 57 11
+R11-7 7.4 133 60 6.6 68 7.5 0.17 57 11
+Criteria 246 62
+a  Used to calculate 1-hour incremental NO 2 concentration using the Method 3 (Section 8.3.2).
+b  Approximate plume transport time from source to receptor based on windspeed and separation distance.
+[[page 59]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 59
+Figure 15 Predicted 1-hour Average Incremental NO X Isopleths – Operations
+
+[[page 60]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 60
+Figure 16 Predicted Annual Average Incremental NO X Isopleths – Operations
+9.2.3 CO
+Table 29 presents the maximum incremental 15-minute, 1-hour and 8-hour average CO concentrations
+predicted at surrounding sensitive receptor locations. Given the insignificant incremental increase of CO
+predicted at the identified receptors, exceedances of the relevant COcriteria due to the operation of the Project
+are considered unlikely.
+
+[[page 61]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 61
+Table 29 Maximum Predicted CO Concentrations at Sensitive Receptors
+Receptor ID
+Increment (mg/m³)
+15-Minute* 1-Hour 8-Hour
+R1 0.039 0.030 0.026
+R2 0.020 0.015 0.012
+R3 0.019 0.015 0.005
+R4 0.019 0.014 0.005
+R5 0.010 0.008 0.005
+R6 0.014 0.011 0.006
+R7 0.010 0.007 0.005
+R8 0.028 0.022 0.018
+R9 0.024 0.018 0.011
+R10 0.052 0.040 0.037
+R11-0 0.020 0.015 0.011
+R11-1 0.020 0.015 0.011
+R11-2 0.020 0.015 0.011
+R11-3 0.020 0.015 0.011
+R11-4 0.020 0.015 0.011
+R11-5 0.020 0.015 0.010
+R11-6 0.020 0.015 0.010
+R11-7 0.020 0.015 0.010
+Criteria 100 30 10
+* The 1-hour average CO concentrations predicted by the modelling were converted to 15-minute averages using the power law formula.
+9.2.4 SO2
+Table 30 presents the incremental maximum 10-minute, 1-hour, 24-hour and annual average SO 2
+concentrations predicted at surrounding sensitive receptor locations Given the insignificant incremental
+increase of SO 2 predicted at the identified receptors, exceedances of the relevant SO 2 criteria due to the
+operation of the Project are considered unlikely.
+Table 30 Maximum Predicted SO 2 Concentrations at Residential Receptors
+Receptor ID
+Increment (µg /m³)
+10-Minute* 1-Hour 24-Hour Annual
+R1 0.43 0.30 0.087 0.0089
+R2 0.23 0.16 0.042 0.0043
+R3 0.22 0.15 0.017 0.0014
+R4 0.21 0.15 0.016 0.0024
+R5 0.11 0.08 0.016 0.0018
+R6 0.15 0.11 0.019 0.0015
+R7 0.11 0.07 0.018 0.0012
+[[page 62]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 62
+Receptor ID
+Increment (µg /m³)
+10-Minute* 1-Hour 24-Hour Annual
+R8 0.31 0.22 0.061 0.0082
+R9 0.26 0.18 0.038 0.0040
+R10 0.58 0.40 0.13 0.018
+R11-0 0.22 0.16 0.036 0.0038
+R11-1 0.22 0.16 0.036 0.0038
+R11-2 0.22 0.16 0.036 0.0038
+R11-3 0.22 0.16 0.036 0.0038
+R11-4 0.22 0.16 0.036 0.0038
+R11-5 0.22 0.16 0.036 0.0038
+R11-6 0.22 0.16 0.036 0.0038
+R11-7 0.22 0.16 0.035 0.0037
+Criteria 712 570 228 60
+* The 1-hour average SO2 concentrations predicted by the modelling were converted to 10-minute averages using the power law formula.
+9.2.5 PAHs
+The maximum (99.9 th percentile) incremental 1-hour average PAH concentrations predicted beyond the Site
+boundary was <0.0000004 mg/m3 significantly less (<0.1%) than the criterion of 0.0004 mg/m3. For the purposes
+of modelling, background PAH concentrations were assumed to be negligible. Regardless, it is unlikely that the
+addition of the incremental impacts to a background concentration would cause an exceedance.
+Table 31 presents the incremental maximum 1-hour average PAH concentrations predicted at surrounding
+sensitive receptor locations.
+Table 31 Maximum Predicted PAH Concentrations at Residential Receptors
+Receptor ID Increment 1-Hour  (mg/m³) ^
+R1 0.00000013
+R2 <0.0000001
+R3 <0.0000001
+R4 <0.0000001
+R5 <0.0000001
+R6 <0.0000001
+R7 <0.0000001
+R8 <0.0000001
+R9 <0.0000001
+R10 0.00000017
+R11-0 <0.0000001
+R11-1 <0.0000001
+R11-2 <0.0000001
+R11-3 <0.0000001
+[[page 63]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 63
+Receptor ID Increment 1-Hour  (mg/m³) ^
+R11-4 <0.0000001
+R11-5 <0.0000001
+R11-6 <0.0000001
+R11-7 <0.0000001
+Criteria 0.0004
+^ 99.9th percentile.
+9.2.6 Summary
+The dispersion modelling study, which accounted for worst-case testing conditions ( Section 4.2) predicted no
+exceedances of the relevant ambient air quality criteria as a result of the operation of the Project. It is noted
+that given the insignificant incremental increase in ground level concentrations of particulate matter, CO and
+SO2 at the modelled sensitive receptor locations, a contemporaneous cumulative assessment was not
+undertaken.
+9.3 Emergency Conditions
+9.3.1 Particulates
+The left-hand columns ofTable 32 present the incremental and cumulative maximum 24-hour average PM10 and
+PM2.5 concentrations predicted at identified sensitive receptor locations. The exceedances of the 24-hour PM10
+and PM2.5 criteria are primarily due to elevated background concentrations, however, the incremental impacts
+of the Project result in several additional exceedances of the 24-hour PM 10 or PM 2.5 criterion at all receptors
+except R5, R6 and R7. These results assume that all generators are running for 24 hours every day of the year
+and are therefore considered very conservative. It is considered more realistic, while retaining a high degree of
+conservatism, to calculate the daily cumulative concentrations based on one 1-hour emergency event occurring
+every day of the year. The daily predicted 1-hour maximum incremental concentration, divided by 24 (24 hours),
+and added to the 24-hour average background concentration gives the equivalent cumulative 24-hour average
+concentration as provided in the right-hand columns ofTable 32.
+Isopleth plots of the predicted maximum 24-hour average incremental PM concentrations based on maximum
+1-hour daily emergency operations are presented in Figure 17.
+[[page 64]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 64
+Table 32 Maximum Predicted 24-Hour PM Concentrations at Sensitive Receptors
+Receptor
+ID
+Daily 24-Hour Emergency Operation Daily 1-Hour Emergency Operation
+Maximum 24-
+Hour Average
+Incremental
+Concentration
+(µg/m³)
+Maximum
+Cumulative 24-
+Hour Average
+Concentration
+(µg/m³)
+Additional
+Exceedances as
+Result of Project a
+Maximum 1-
+Hour
+Incremental
+Concentration
+(µg/m³)
+Maximum
+Cumulative 24-
+Hour Average
+Concentration
+(µg/m³) b
+Additional
+Exceedances as
+Result of Project a
+PM10 PM2.5 PM10 PM2.5 PM10 PM2.5 PM10 PM2.5
+R1 47 86 66 18 74 84 86 60 0 0
+R2 36 87 67 3 40 104 86 60 0 0
+R3 23 86 62 0 2 67 86 60 0 0
+R4 20 86 62 0 0 63 86 61 0 0
+R5 10 86 59 0 0 48 86 59 0 0
+R6 13 86 59 0 0 55 86 59 0 0
+R7 12 86 58 0 0 46 86 58 0 0
+R8 44 86 59 9 45 90 86 59 0 0
+R9 18 86 60 0 2 59 86 59 0 0
+R10 71 137 78 54 136 168 90 60 2 1
+R11-0 34 88 68 2 27 77 87 60 0 0
+R11-1 34 88 68 2 27 77 87 60 0 0
+R11-2 34 88 68 2 27 77 87 60 0 0
+R11-3 35 88 68 2 27 78 87 60 0 0
+R11-4 35 88 68 2 28 79 87 60 0 0
+R11-5 35 88 68 3 28 80 87 60 0 0
+R11-6 35 88 68 4 28 82 87 60 0 0
+R11-7 36 87 68 4 28 83 87 60 0 0
+Criteria 50 25 Criteria 50 25
+a   Over and above background, for which four exceedances are recorded.
+b   Equal to the maximum 1-hour incremental concentration divided by 24, plus corresponding background 24-hour average on that day.
+[[page 65]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 65
+Figure 17 Predicted 24-Hour Maximum Incremental PM Concentrations Based on Daily 1-Hour Emergency
+Condition
+
+[[page 66]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 66
+A contemporaneous analysis of the highest 24-hour average PM 10 and PM 2.5 concentrations predicted at the
+worst impacted receptor, R10 (roof air intakes on nearby commercial building rooftop), based on daily 1-hour
+emergency operation is presented in Table 33.
+Table 33 Ten Highest Contemporaneous 24-Hour Average PM 10 and PM2.5 Predictions at Receptor R10
+Red font indicates exceedance of criterion (background or cumulative).
+a   Equal to the maximum 1-hour incremental concentration divided by 24.
+Figure 18 and Figure 19 present plots of the predicted cumulative PM 10 and PM 2.5 impacts at the sensitive
+receptors during one year in descending order and illustrate the relatively small increase in exceedances at
+Receptor R10 over those caused by elevated background concentrations when an emergency operation of all
+generators is assumed one hour every day of the year.
+Date
+24-Hour Average Concentration (µg/m3)
+Date
+24-Hour Average Concentration (µg/m3)
+Background Predicted
+Increment a
+Cumulative
+Impact Background Predicted
+Increment a
+Cumulative
+Impact
+PM10
+Ten Highest Maximum Background  Hours Ten Highest Maximum Incremental Impact Hours
+22-11-2018 86 4.4 90 28-03-2018 22 6.9 29
+21-11-2018 70 4.0 74 20-01-2018 14 6.7 21
+19-03-2018 60 0.41 60 02-05-2018 14 6.3 21
+15-02-2018 52 0.012 52 02-12-2018 33 6.2 39
+18-07-2018 48 4.1 52 11-02-2018 14 6.2 27
+13-04-2018 46 3.6 50 04-07-2018 16 6.2 22
+08-08-2018 46 4.9 51 28-09-2018 21 6.1 20
+09-08-2018 43 1.7 45 05-07-2018 10 6.1 16
+19-07-2018 41 3.9 44 06-02-2018 14 6.0 14
+20-03-2018 36 0.21 36 30-12-2018 21 6.0 34
+Criterion 50 50
+PM2.5
+Ten Highest Maximum Background  Hours Ten Highest Maximum Incremental Impact Hours
+09-08-2018 58 1.7 60 28-03-2018 6.3 6.9 13
+08-08-2018 42 4.9 47 20-01-2018 3.4 6.7 10
+13-04-2018 29 3.6 32 02-05-2018 5.7 6.3 12
+26-05-2018 28 0.55 28 02-12-2018 7.9 6.2 14
+27-05-2018 22 5.6 28 11-02-2018 5.9 6.2 14
+28-05-2018 19 2.8 21 04-07-2018 9.6 6.2 16
+21-11-2018 17 4.0 21 28-09-2018 7.4 6.1 12
+15-07-2018 17 2.5 20 05-07-2018 5.9 6.1 12
+17-09-2018 17 2.5 19 06-02-2018 6.4 6.0 9.2
+19-03-2018 15 0.41 16 30-12-2018 10 6.0 17
+Criterion 25 25
+[[page 67]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 67
+The actual likelihood of emergency operation events and therefore exceedances of the PM 10 and PM2.5 criteria
+due to emergency conditions are discussed in the summary below (Section 9.3.6).
+Figure 18 Predicted 24-Hour PM 10 Cumulative Concentrations at Sensitive Receptors by Rank
+Figure 19 Predicted 24-Hour PM 2.5 Cumulative Concentrations at Sensitive Receptors by Rank
+
+[[page 68]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 68
+9.3.2 NO2
+Figure 20 presents the incremental and cumulative maximum 1-hour average NO 2 concentrations predicted at
+identified sensitive receptor locations.  Isopleth plots of the predicted incremental NO x concentrations are
+presented in Figure 21.
+The modelling results show that the predicted cumulative maximum 1-hour and annual average NO 2
+concentrations are below the relevant ambient air quality criteria at all receptor locations modelled.
+Figure 20 Maximum Predicted NO 2 Concentrations at Sensitive Receptors
+Receptor
+ID
+Incremental (µg/m³) Cumulative (µg/m³)
+Maximum
+1-Hour
+Corresponding 1-Hour a
+Annual 1-Hour AnnualNOX
+(µg/m³) O3 (ppb)
+Wind
+Speed
+(m/s)
+Transport
+Time (s) b
+NO2
+(µg/m³)
+R1 62 4232 30 4.6 44 1.9 6.0 87 16
+R2 88 3331 18 2.5 160 7.5 6.2 107 17
+R3 183 3556 3.0 2.2 367 1.9 6.1 195 17
+R4 171 2479 44 2.9 310 3.8 5.8 174 16
+R5 150 2606 19 2.1 425 10 2.5 161 13
+R6 128 2654 39 2.1 355 0.0 2.1 150 13
+R7 128 2103 29 2.9 333 1.9 2.6 130 13
+R8 87 3979 36 3.7 81 3.8 6.2 116 17
+R9 90 2480 35 4.5 112 13 5.2 118 16
+R10 35 6364 42 6.2 8.0 1.9 3.0 64 13
+R11-0 128 4332 19 3.2 140 7.5 6.0 135 16
+R11-1 128 4330 19 3.2 140 7.5 6.0 135 16
+R11-2 128 4325 19 3.2 140 7.5 6.0 135 16
+R11-3 127 4316 19 3.2 140 7.5 6.0 135 16
+R11-4 127 4302 19 3.2 140 7.5 6.0 134 16
+R11-5 126 4285 19 3.2 140 7.5 6.1 134 17
+R11-6 126 4264 19 3.2 140 7.5 6.1 133 17
+R11-7 125 4237 19 3.2 140 7.5 6.1 132 17
+Criteria 246 62
+a  Used to calculate 1-hour incremental NO 2 concentration using Method 3 (Section 8.3.2).
+b  Approximate plume transport time from source to receptor based on windspeed and separation distance.
+[[page 69]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 69
+Figure 21 Predicted 1-hour Average Incremental NO X Isopleth Plot – Emergency Conditions
+
+[[page 70]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 70
+9.3.3 CO
+Table 34 presents the maximum incremental 15-minute, 1-hour and 8-hour average CO concentrations
+predicted at surrounding sensitive receptor locations. Given the insignificant incremental increase of CO
+predicted at the identified receptors, exceedances of the relevant COcriteria due to the operation of the Project
+are considered unlikely.
+Table 34 Predicted CO Concentrations at Sensitive Receptors
+Receptor ID
+Increment (mg/m³)
+Maximum 15-Minute* Maximum 1-Hour Maximum 8-Hour
+R1 0.75 0.57 0.53
+R2 0.71 0.53 0.39
+R3 0.59 0.44 0.34
+R4 0.48 0.36 0.20
+R5 0.44 0.33 0.21
+R6 0.46 0.35 0.24
+R7 0.37 0.28 0.19
+R8 0.74 0.56 0.49
+R9 0.53 0.40 0.28
+R10 1.4 1.0 0.72
+R11-0 0.67 0.51 0.39
+R11-1 0.67 0.51 0.39
+R11-2 0.67 0.51 0.39
+R11-3 0.67 0.51 0.39
+R11-4 0.67 0.51 0.39
+R11-5 0.67 0.51 0.40
+R11-6 0.67 0.51 0.40
+R11-7 0.66 0.50 0.41
+Criteria 100 30 10
+* The 1-hour average CO concentrations predicted by the modelling were converted to 15-minute averages using the power law formula.
+9.3.4 SO2
+Table 35 presents the incremental maximum 10-minute, 1-hour, 24-hour and annual average SO 2
+concentrations predicted at surrounding sensitive receptor locations Given the insignificant incremental
+increase of SO 2 predicted at the identified receptors, exceedances of the relevant SO 2 criteria due to the
+operation of the Project are considered unlikely.
+[[page 71]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 71
+Table 35 Predicted SO 2 Concentrations at Residential Receptors
+Receptor ID
+Increment (µg/m³)
+Maximum 10-Minute* Maximum 1-Hour Maximum 24-Hour
+R1 2.7 1.9 1.3
+R2 2.2 1.5 0.92
+R3 1.9 1.3 0.52
+R4 1.5 1.1 0.42
+R5 1.5 1.1 0.21
+R6 1.3 0.9 0.26
+R7 1.2 0.8 0.30
+R8 1.9 1.3 0.83
+R9 1.6 1.1 0.52
+R10 3.7 2.6 2.1
+R11-0 2.4 1.7 0.83
+R11-1 2.4 1.7 0.83
+R11-2 2.4 1.7 0.84
+R11-3 2.4 1.7 0.84
+R11-4 2.4 1.7 0.84
+R11-5 2.4 1.7 0.84
+R11-6 2.4 1.6 0.85
+R11-7 2.3 1.6 0.85
+Criteria 712 570 228
+* The 1-hour average SO2 concentrations predicted by the modelling were converted to 10-minute averages using the power law formula.
+9.3.5 PAHs
+The maximum (99.9 th percentile) incremental 1-hour average PAH concentrations predicted beyond the Site
+boundary was 0.0000011 mg/m3 significantly less (<03%) than the criterion of 0.0004 mg/m3. For the purposes
+of modelling, background PAH concentrations were assumed to be negligible. Regardless, it is unlikely that the
+addition of the incremental impacts to a background concentration would cause an exceedance.
+Table 36 presents the incremental maximum 1-hour average PAH concentrations predicted at surrounding
+sensitive receptor locations.
+Table 36 Predicted PAH Concentrations at Residential Receptors
+Receptor ID Maximum^ Increment 1-Hour  (mg /m³)
+R1 <0.000001
+R2 <0.000001
+R3 <0.000001
+R4 <0.000001
+R5 <0.000001
+[[page 72]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 72
+Receptor ID Maximum^ Increment 1-Hour  (mg /m³)
+R6 <0.000001
+R7 <0.000001
+R8 <0.000001
+R9 <0.000001
+R10 0.0000011
+R11-0 <0.000001
+R11-1 <0.000001
+R11-2 <0.000001
+R11-3 <0.000001
+R11-4 <0.000001
+R11-5 <0.000001
+R11-6 <0.000001
+R11-7 <0.000001
+Criteria 0.0004
+^ 99.9th percentile.
+9.3.6 Summary
+The dispersion modelling study, which accounted for the emergency conditions (all generators running) every
+hour of the year predicted no exceedances of the NO2, CO, SO2 or PAH ambient air quality criteria.
+No additional exceedances (over background) of the PM10 and PM25 24-hour average criteria were predicted due
+to the Project for any of the receptors with the exception of R10 for which two additional exceedances of the
+PM10 criterion and one additional exceedance of the PM2.5 criterion were predicted.
+A comprehensive worst-case assessment was achieved by modelling the emergency conditions (operation of all
+backup generators) for every hour of the year to account for all meteorological and background air quality
+conditions. From these predictions the daily 1-hour maximum incremental concentrations, divided by 24, were
+added to the daily 24-hour average background concentration representing 1-hour emergency operation every
+day of the year. This assessment conservatively assumes that the emergency operation would occur on the hour
+associated with the meteorological conditions that result in the maximum 1-hour average concentration for that
+day. The likelihood of exceedances under these assumptions is the equivalent of:
+ 1 exceedance every 0.5 years for PM10
+ 1 exceedance every year for PM2.5.
+However, if more realistically, an emergency condition event lasting 1 hour was conservatively assumed to occur
+once per year, rather than every day, and conservatively occurred on the hour of day that resulted in the
+maximum 1-hour average concentration for that day, the likelihood of this resulting in an exceedance would be
+equal to 1/365th of the predicted likelihoods above, equivalent to:
+ 1 exceedance every 183 years for PM10
+ 1 exceedance every 365 years for PM2.5.
+[[page 73]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 73
+At the time of writing, information on the historical power interruptions at the site was unavailable. A recent
+study conducted by SLR for a similar facility in Eastern Creek observed the following for that site:
+ The site had had two power interruptions in the past ten years.
+ Each interruption consisted of the loss of one of four feeder supplies.
+ The two interruptions lasted for 13 minutes and 21 minutes, respectively.
+ Loss of one feeder to that site did not require all generators to be used to provide emergency power.
+Assuming similar network performance supplying the Project, it can be concluded that the actual likelihood of
+an exceedance of the air quality criteria at nearby sensitive receptors due to the emergency operation of the
+Project is negligible.
+[[page 74]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 74
+10 Air Quality Monitoring Program
+10.1Construction Phase
+The AQIA concluded that the risk of construction dust emissions causing nuisance impacts at off-site sensitive
+receptor locations is low.  It is also noted that any impacts will be temporary and managed through the
+implementation of appropriate mitigation measures.
+Considering the low risk from the construction dust emissions to cause nuisance at off-site sensitive receptor
+locations, dust monitoring at the nearest sensitive receptors is not considered necessary.
+However utilising static dust gauge(s) for the duration of Project construction, started at least one month before
+commencement of construction work, would be an inexpensive monitoring method that could be used to
+demonstrate that dust emissions are being managed effectively.
+A summary of the proposed nuisance dust monitoring program is shown inTable 37.
+Table 37 Nuisance Dust Monitoring Program
+Parameter Methodology Duration Location Frequency
+Deposited
+dust
+AS/NZS 3580.1.1:2016 -Methods for
+sampling and analysis of ambient air -
+Guide to siting air monitoring equipment
+During Site preparation,
+earthworks, construction
+Site boundary (to be
+confirmed by monitoring
+subconsultant)
+Monthly
+An air quality contingency management plan for the Project construction, based on the monitoring approach
+outlined above, is provided in Table 38.
+Table 38 Nuisance Dust Contingency Management Plan for Project
+Trigger Dust Deposition Rate <4 g/m2/month Dust Deposition Rate >4 g/m2/month
+Response No response required. Continue monitoring
+program
+Review and investigate construction activities and respective
+control measures, where appropriate. Implement additional
+remedial measures, such as:
+ Deployment of additional water sprays.
+ Relocation or modification of dust-generating sources.
+ Temporary halting of activities and resuming when conditions
+have improved.
+10.2Operational Phase
+Given the nature and scale of the proposed standard operation test activities, with predicted ground level
+concentrations within the assessment criteria limits it is not anticipated that any impacts upon human health or
+amenity values would be experienced during the operational phase. Therefore, monitoring of air quality is not
+considered to be required during the operational phase.
+The emergency conditions scenario, based on a number of cumulative assumptions, does show exceedances,
+however, considering the nature of these results and the conclusion regarding the normal operations above the
+results from the worst-case operations scenario does not justify the need for any monitoring.
+[[page 75]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 75
+11 Mitigation measures
+11.1Construction Phase
+The SEARs require an environmental risk analysis to identify potential environmental impacts associated with
+the Project.  The following represents the way in which risks, impacts and mitigation measures are identified
+and quantified in relation to dust management at the Project.
+This analysis comprises a qualitative assessment consistent with AS/NZS ISO 31000:2009 Risk Management–
+Principles and Guidelines (Standards Australia 2009).  The level of risk was assessed by considering the potential
+impacts of the Project prior to application of any mitigation or management measures.
+Risk comprises the likelihood of an event occurring and the consequences of that event.  For the Project, the
+descriptors shown in Table 39 were adopted for ‘likelihood’ and ‘consequence’.
+Table 39 Risk Descriptors
+Likelihood Consequence
+A Almost certain 1 Widespread and/or irreversible impact
+B Likely 2 Extensive but reversible (within 2 years) impact or irreversible local impact
+C Possible 3 Local, acceptable or reversible impact
+D Unlikely 4 Local, reversible, short term (<3 months) impact
+E Rare 5 Local, reversible, short term (<1 month) impact
+The risk levels for likely and potential impacts were derived using the risk matrix shown inTable 40.
+Table 40 Risk Matrix
+Consequence
+Likelihood
+A B C D E
+1 High High Medium Low Very Low
+2 High High Medium Low Very Low
+3 Medium Medium Medium Low Very Low
+4 Low Low Low Low Very Low
+5 Very Low Very Low Very Low Very Low Very Low
+The risk assessment and mitigations measures are shown in Table 41.
+[[page 76]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 76
+Table 41 Risk Assessment and Mitigation Measures
+Matter Potential Impact Likelihood Consequence Risk Level Proposed Mitigation Measures
+Air Quality PM10 health impacts
+on nearby sensitive
+receptors from
+construction phase
+E 4 Very Low No mitigation required for PM10
+specifically. Note that measures for
+dust soiling (below) will likely also
+reduce the potential impact of PM10.
+Dust soiling
+(nuisance) impacts
+on nearby receptors
+from construction
+phase
+D 4 Low Develop a Construction Environmental
+Management Plan (CEMP) adopting
+appropriate and relevant measures
+from Section 9.1.4 of the AQIA,
+including monitoring as proposed in
+Section 10 of the AQIA.
+11.2Operation Phase
+Given the worst-case operating scenario modelled predicted compliance with all relevant air quality impact
+assessment criteria, and the extremely low probability of the exceedances due to emergency conditions,
+installation of pollution control devices on generators at this initial stage is not deemed necessary. However,
+retrofittable pollution control devices capable of significantly reducing pollutant levels from the generators are
+available and should be installed at a later stage if change in circumstances mean generators require to be
+operated on a more frequent basis than has been assumed by this air quality impact assessment.
+[[page 77]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 77
+12 Conclusions
+The main potential sources of air emissions were identified as suspended particulate matter and deposited dust
+during the construction stage and combustion gases and particulate matter during the operational stage of the
+Project.
+The potential for off-site air quality impacts during the construction stage of the Project were assessed using a
+qualitative risk-based approach, concluding that given the nature of the operations proposed, the location of
+the Site and the local meteorological conditions, exceedances of the relevant air quality criteria are unlikely.
+The potential for off-site air quality impacts during the operational stage of the Project were conservatively
+assessed quantitatively through the use of dispersion modelling techniques in general accordance with the
+Approved Methods. The dispersion modelling study, which accounted for worst-case testing conditions
+predicted no exceedance of the relevant ambient air quality as a result of the operation of the Project.
+The dispersion of emissions due to emergency conditions, where loss of all feeders to the Site requiring all
+generators to operate simultaneously,  was conservatively modelled and predicted compliance with the PM 10
+and PM2.5 24-hour average criterion at all receptors with the exception of the nearest, which represented the
+potential rooftop air intakes of the neighbouring building. However, the predicted likelihood of an exceedance
+coupled with the likelihood of an emergency condition event happening was demonstrated to result in a
+vanishingly small chance of an exceedance occurring.
+Nevertheless, it is recommended that retrofittable pollution control devices capable of significantly reducing
+pollutant levels from the generators should be available to be installed at a later stage if a change in operating
+conditions deems this necessary.
+It is concluded that air quality issues do not pose a constraint for the Project.
+[[page 78]]
+GIDDIS Project Management
+Air Quality Impact Assessment
+Macquarie Data Centre
+17-23 Talavera Rd, North Ryde
+SLR Ref No: 610.30465-R02-v2.2-20211022.docx
+October 2021
+Page 78
+13 References
+EPAV. (2013, October). EPA Publication 1550 Construction of input meteorological data files for EPA Victoria's
+regulatory air pollution model (AERMOD).  Retrieved 04 03, 2017, from EPA Victoria:
+http://www.epa.vic.gov.au/~/media/Publications/1550.pdf
+Janssen, L. H., van Wakeren, J. H., van Duuran, H., & Elshout, A. J. (1988). A classification of NO oxidation rates
+in power plant plumes based on atmospheric conditions. Atmospheric Environment, 22(1), 43-53.
+NSW DEC. (2005). Approved Methods for the Sampling and Analsysis of Air Pollutants in NSW.  Sydney: NSW
+Department of Environment and Conservation.
+NSW EPA. (2007-1). Local Government Air Quality Toolkit - Visual guide: Dust from urban construction sites.
+NSW EPA. (2007-2). Local Government Air Quality Toolkit - Air quality guidance notes, Construction sites.
+NSW EPA. (2017, January). Approved Methods for the Modelling and Assessment of Air Pollutants in New South
+Wales. Prepared by NSW Environment Protection Authority, which is part of the NSW Office of
+Environment and Heritage (OEH). Retrieved from
+http://www.environment.nsw.gov.au/resources/air/ammodelling05361.pdf
+NSW OEH. (2019). NSW Annual Air Quality Statement 2018.
+NSW Parliament. (1997). Protection of the Environment Operations Act 1997.
+NSW Parliament. (2010). Protection of the Environment Operations (Clean Air) Regulation 2010.
+Oke, T. R. (2002). Boundary Layer Climates. Routledge.
+USEPA. (1985, June). Guideline for Determination of Good Engineering Practice Stack Height (Technical Support
+Document for the Stack Height Regulations) . EPA-450/4-80-023R. USEPA.
+USEPA. (2006 and Updates). Emission Factors & AP42, Compilation of Air Pollutant Emission Factors.  U S
+Environmental Protection Agency.
+[[page 79]]
+610.30465-R02-v2.2-20211022.docx Page 1 of 7
+APPENDIX A
+IAQM Construction Assessment Methodology
+[[page 80]]
+Page 2 of 7
+Step 1 – Screening Based on Separation Distance
+The Step 1 screening criteria provided by the IAQM guidance suggests screening out any assessment of impacts
+from construction activities where sensitive receptors are located more than 350 m from the boundary of the
+Site, more than 50 m from the route used by construction vehicles on public roads and more than 500 m from
+the Site entrance.  This step is noted as having deliberately been chosen to be conservative, and will require
+assessments for most projects.
+Step 2a – Assessment of Scale and Nature of the Works
+Step 2a of the assessment provides “dust emissions magnitudes” for each of four dust generating activities;
+demolition, earthworks, construction, and track-out (the movement of soils and dusty materials onto public
+roads by vehicles).  The magnitudes are:Large; Medium; or Small, with suggested definitions for each category.
+The definitions given in the IAQM guidance for earthworks, construction activities and track-out, which are most
+relevant to this Project, are as follows:
+Demolition (Any activity involved with the removal of an existing structure [or structures].  This may also be
+referred to as de-construction, specifically when a building is to be removed a small part at a time):
+ Large: Total building volume >50,000 m 3, potentially dusty construction material (e.g. concrete), on-
+site crushing and screening, demolition activities >20 m above ground level;
+ Medium: Total building volume 20,000 m 3 – 50,000 m 3, potentially dusty construction material,
+demolition activities 10-20 m above ground level; and
+ Small: Total building volume <20,000 m3, construction material with low potential for dust release (e.g.
+metal cladding or timber), demolition activities <10m above ground, demolition during wetter months.
+Earthworks (Covers the processes of soil-stripping, ground-levelling, excavation and landscaping):
+ Large: Total site area greater than 10,000 m2, potentially dusty soil type (e.g. clay, which will be prone
+to suspension when dry due to small particle size), more than 10 heavy earth moving vehicles active
+at any one time, formation of bunds greater than 8 m in height, total material moved more than
+100,000 t.
+ Medium: Total site area 2,500 m 2 to 10,000 m 2, moderately dusty soil type (e.g. silt), 5 to 10 heavy
+earth moving vehicles active at any one time, formation of bunds 4 m to 8 m in height, total material
+moved 20,000 t to 100,000 t.
+ Small: Total site area less than 2,500 m2, soil type with large grain size (e.g. sand), less than five heavy
+earth moving vehicles active at any one time, formation of bunds less than 4 m in height, total material
+moved less than 20,000 t, earthworks during wetter months.
+Construction (Any activity involved with the provision of a new structure (or structures), its modification or
+refurbishment.  A structure will include a residential dwelling, office building, retail outlet, road, etc):
+ Large: Total building volume greater than 100,000 m3, piling, on site concrete batching; sandblasting.
+ Medium: Total building volume 25,000 m3 to 100,000 m3, potentially dusty construction material (e.g.
+concrete), piling, on site concrete batching.
+ Small: Total building volume less than 25,000 m 3, construction material with low potential for dust
+release (e.g. metal cladding or timber).
+[[page 81]]
+Page 3 of 7
+Track-out (The transport of dust and dirt from the construction / demolition site onto the public road network,
+where it may be deposited and then re-suspended by vehicles using the network):
+ Large: More than 50 heavy vehicle movements per day, surface materials with a high potential for
+dust generation, greater than 100 m of unpaved road length.
+ Medium: Between 10 and 50 heavy vehicle movements per day, surface materials with a moderate
+potential for dust generation, between 50 m and 100 m of unpaved road length.
+ Small: Less than 10 heavy vehicle movements per day, surface materials with a low potential for dust
+generation, less than 50 m of unpaved road length.
+In order to provide a conservative assessment of potential impacts, it has been assumed that if at least one of
+the parameters specified in the ‘large’ definition is satisfied, the works are classified as large, and so on.
+Step 2b – Risk Assessment
+Assessment of the Sensitivity of the Area
+ Step 2b of the assessment process requires the sensitivity of the area to be defined.  The sensitivity of
+the area takes into account:
+ The specific sensitivities that identified sensitive receptors have to dust deposition and human health
+impacts
+ The proximity and number of those receptors
+ In the case of PM10, the local background concentration
+ Other site-specific factors, such as whether there are natural shelters such as trees to reduce the risk
+of wind-blown dust.
+Individual receptors are classified as havinghigh, medium or low sensitivity to dust deposition and human health
+impacts (ecological receptors are not addressed using this approach).  The IAQM method provides guidance on
+the sensitivity of different receptor types to dust soiling and health effects as summarised in Table A-1.  It is
+noted that user expectations of amenity levels (dust soiling) is dependent on existing deposition levels.
+[[page 82]]
+Page 4 of 7
+Table A-1 IAQM Guidance for Categorising Receptor Sensitivity
+Value High Sensitivity
+Receptor
+Medium Sensitivity
+Receptor
+Low Sensitivity
+Receptor
+Dust soiling Users can reasonably
+expect a high level of
+amenity; or
+The appearance, aesthetics
+or value of their property
+would be diminished by
+soiling, and the people or
+property would reasonably
+be expected to be present
+continuously, or at least
+regularly for extended
+periods as part of the
+normal pattern of use of
+the land.
+Users would expect to
+enjoy a reasonable level of
+amenity, but would not
+reasonably expect to enjoy
+the same level of amenity
+as in their home; or
+The appearance, aesthetics
+or value of their property
+could be diminished by
+soiling; or
+The people or property
+wouldn’t reasonably be
+expected to be present
+here continuously or
+regularly for extended
+periods as part of the
+normal pattern of use of
+the land.
+The enjoyment of amenity
+would not reasonably be
+expected; or
+Property would not
+reasonably be expected to
+be diminished in
+appearance, aesthetics or
+value by soiling; or
+There is transient exposure,
+where the people or
+property would reasonably
+be expected to be present
+only for limited periods of
+time as part of the normal
+pattern of use of the land.
+Examples: Dwellings,
+museums, medium and long
+term car parks and car
+showrooms.
+Examples: Parks and places
+of work.
+Examples: Playing fields,
+farmland (unless
+commercially-sensitive
+horticultural), footpaths,
+short term car parks and
+roads.
+Health effects Locations where the public
+are exposed over a time
+period relevant to the air
+quality objective for PM10
+(in the case of the 24-hour
+objectives, a relevant
+location would be one
+where individuals may be
+exposed for eight hours or
+more in a day).
+Locations where the people
+exposed are workers, and
+exposure is over a time
+period relevant to the air
+quality objective for PM10
+(in the case of the 24-hour
+objectives, a relevant
+location would be one
+where individuals may be
+exposed for eight hours or
+more in a day).
+Locations where human
+exposure is transient.
+Examples: Residential
+properties, hospitals,
+schools and residential care
+homes.
+Examples: Office and shop
+workers, but will generally
+not include workers
+occupationally exposed to
+PM10.
+Examples: Public footpaths,
+playing fields, parks and
+shopping street.
+According to the IAQM methods, the sensitivity of the identified individual receptors (as described above) is
+then used to assess the sensitivity of the area surrounding the active construction area, taking into account the
+proximity and number of those receptors, and the local background PM10 concentration (in the case of potential
+health impacts) and other site-specific factors.  Additional factors to consider when determining the sensitivity
+of the area include:
+ Any history of dust generating activities in the area
+ The likelihood of concurrent dust generating activity on nearby sites
+[[page 83]]
+Page 5 of 7
+ Any pre-existing screening between the source and the receptors
+ Any conclusions drawn from analysing local meteorological data which accurately represent the area
+and if relevant, the season during which the works will take place
+ Any conclusions drawn from local topography
+ The duration of the potential impact (as a receptor may be willing to accept elevated dust levels for a
+known short duration, or may become more sensitive or less sensitive (acclimatised) over time for
+long-term impacts)
+ Any known specific receptor sensitivities which go beyond the classifications given in the IAQM
+document.
+The IAQM guidance for assessing the sensitivity of an area to dust soiling is shown in Table A-2.  The sensitivity
+of the area should be derived for each of activity relevant to the project (i.e. construction and earthworks).
+Table A-2 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Soiling Effects
+Receptor
+sensitivity Number of receptors
+Distance from the source (m)
+<20 <50 <100 <350
+High
+>100 High High Medium Low
+10-100 High Medium Low Low
+1-10 Medium Low Low Low
+Medium >1 Medium Low Low Low
+Low >1 Low Low Low Low
+Note: Estimate the total number of receptors within the stated distance. Only the highest level of area sensitivity from the table needs to be
+considered.  For example, if there are 7 high sensitivity receptors < 20m of the source and 95 high sensitivity receptors between 20 and 50 m,
+then the total of number of receptors < 50 m is 102. The sensitivity of the area in this case would be high.
+A modified version of the IAQM guidance for assessing the sensitivity of an area to health impacts is shown in
+Table A-3.  For high sensitivity receptors, the IAQM methods takes the existing background concentrations of
+PM10 (as an annual average) experienced in the area of interest into account and is based on the air quality
+objectives for PM10 in the UK.  As these objectives differ from the ambient air quality criteria adopted for use in
+this assessment (i.e. an annual average of 25 µg/m3 for PM10) the IAQM method has been modified slightly.
+ This approach is consistent with the IAQM guidance, which notes that in using the tables to define the
+sensitivity of an area , professional judgement may be used to determine alternative sensitivity
+categories, taking into account the following factors:
+ Any history of dust generating activities in the area
+ The likelihood of concurrent dust generating activity on nearby sites
+ Any pre-existing screening between the source and the receptors
+ Any conclusions drawn from analysing local meteorological data which accurately represent the area,
+and if relevant the season during which the works will take place
+ Any conclusions drawn from local topography
+ Duration of the potential impact
+ Any known specific receptor sensitivities which go beyond the classifications given in this document.
+[[page 84]]
+Page 6 of 7
+Table A-3 IAQM Guidance for Categorising the Sensitivity of an Area to Dust Health Effects
+Receptor
+sensitivity
+Annual mean
+PM10 conc.
+Number of
+receptors a,b
+Distance from the source (m)
+<20 <50 <100 <200 <350
+High
+>25 µg/m3
+>100 High High High Medium Low
+10-100 High High Medium Low Low
+1-10 High Medium Low Low Low
+21-25 µg/m3
+>100 High High Medium Low Low
+10-100 High Medium Low Low Low
+1-10 High Medium Low Low Low
+17-21 µg/m3
+>100 High Medium Low Low Low
+10-100 High Medium Low Low Low
+1-10 Medium Low Low Low Low
+<17 µg/m3
+>100 Medium Low Low Low Low
+10-100 Low Low Low Low Low
+1-10 Low Low Low Low Low
+Medium
+>25 µg/m3
+>10 High Medium Low Low Low
+1-10 Medium Low Low Low Low
+21-25 µg/m3
+>10 Medium Low Low Low Low
+1-10 Low Low Low Low Low
+17-21 µg/m3
+>10 Low Low Low Low Low
+1-10 Low Low Low Low Low
+<17 µg/m3
+>10 Low Low Low Low Low
+1-10 Low Low Low Low Low
+Low - >1 Low Low Low Low Low
+Notes: (a) Estimate the total within the stated distance (e.g. the total within 350 m and not the number between 200 and 350 m); noting that only
+the highest level of area sensitivity from the table needs to be considered.
+(b) In the case of high sensitivity receptors with high occupancy (such as schools or hospitals) approximate the number of people likely to be
+present. In the case of residential dwellings, just include the number of properties.
+Risk Assessment
+The dust emission magnitude from Step 2a and the receptor sensitivity from Step 2b are then used in the
+matrices shown in Table A-4 (demolition), Table A-5 (earthworks and construction) andTable A-6 (track-out) to
+determine the risk category with no mitigation applied.
+[[page 85]]
+Page 7 of 7
+Table A-4 Risk Category from Demolition Activities
+Sensitivity of Area Dust Emission Magnitude
+Large Medium Small
+High High Risk Medium Risk Medium Risk
+Medium High Risk Medium Risk Low Risk
+Low Medium Risk Low Risk Negligible
+Table A-5 Risk Category from Earthworks and Construction Activities
+Sensitivity of Area Dust Emission Magnitude
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Medium Risk Low Risk
+Low Low Risk Low Risk Negligible
+Table A-6 Risk Category from Track-out Activities
+Sensitivity of Area Dust Emission Magnitude
+Large Medium Small
+High High Risk Medium Risk Low Risk
+Medium Medium Risk Low Risk Negligible
+Low Low Risk Low Risk Negligible
+Step 3 - Site-Specific Mitigation
+Once the risk categories are determined for each of the relevant activities, site-specific management measures
+can be identified based on whether the Site is a low, medium or high risk site.
+Step 4 – Residual Impacts
+Following Step 3, the residual impact is then determined after management measures have been considered.
+[[page 86]]
+610.30465-R02-v2.2-20211022.docx Page 1 of 2
+APPENDIX B
+SELECTION OF REPRESENTATIVE METEOROLOGICAL DATA
+Once emitted to atmosphere, the emissions will:
+ Rise according to the momentum and buoyancy of the emission at the discharge point relative to the
+prevailing atmospheric conditions;
+ Be advected from the source according to the strength and direction of the wind at the height which
+the plume has risen in the atmosphere;
+ Be diluted due to mixing with the ambient air, according to the intensity of turbulence; and
+ (Potentially) be chemically transformed and/or depleted by deposition processes.
+Dispersion is the combined effect of these processes.  Dispersion modelling is used as a tool to simulate the air
+quality effects of specific emission sources, given the meteorology typical for a local area together with the
+expected emissions.  Selection of a year when the meteorological data is atypical means that the resultant
+predictions may not appropriately represent the most likely air quality impacts.  Therefore, in dispersion
+modelling, one of the key considerations is the representative nature of the meteorological data used.
+The year of meteorological data used for the dispersion modelling was selected by reviewing the most recent
+five years of historical surface observations at Sydney Olympic Park AWS (2016 to 2020 inclusive) to determine
+the year that is most representative of average conditions.  Wind direction, wind speed and ambient
+temperature were compared to 5-year averages for the region to determine the most representative year.
+Data collected from 2016 to 2020 is summarised in Figure A1 to Figure A3.  Examination of the data indicates
+the following:
+ Figure A1 indicates all years are generally similar with a higher frequency of winds from the north,
+northwest and west-northwest.
+ Figure A2 indicates that average monthly wind speeds during 2018 typically representative of the 5-
+year average wind speeds.
+Analysis of the average windspeeds and frequency of calms indicates that the years 2019 and 2020 generally
+have lower windspeeds that the five-year average, however, background PM 10 and PM 2.5 concentrations for
+these years is known to be heavily impacted by summer bushfire events. For this reason,  2018 was selected as
+the representative year of meteorology with which to conduct the plume dispersion modelling.
+[[page 87]]
+Page 2 of 2
+Figure A1 Frequency of Winds at Sydney Olympic Park AWS 2016 – 2020
+Figure A2 Monthly Average Wind Speed at Sydney Olympic Park AWS 2016 – 2020
+
+[[page 88]]
+610.30465-R02-v2.2-20211022.docx Page 1 of 12
+APPENDIX C
+Diesel Generator Specifications Sheets
+[[page 89]]
+Page 2 of 12
+20V4000G94LF – IC3W
+
+[[page 90]]
+Page 3 of 12
+
+[[page 91]]
+Page 4 of 12
+
+[[page 92]]
+Page 5 of 12
+
+[[page 93]]
+Page 6 of 12
+12V4000G23 – IC2
+
+[[page 94]]
+Page 7 of 12
+
+[[page 95]]
+Page 8 of 12
+20V4000G63 EO – IC2 DRUPS
+
+[[page 96]]
+Page 9 of 12
+
+[[page 97]]
+Page 10 of 12
+20V400G63 – IC3E
+
+[[page 98]]
+Page 11 of 12
+
+[[page 99]]
+Page 12 of 12
+CUMMINS – For approximate SO2 Emissions
+
+[[page 100]]
+610.30465-R02-v2.2-20211022.docx Page 1 of 2
+APPENDIX D
+Generator Enclosure – General Arrangement
+[[page 101]]
+Page 2 of 2
+
+[[page 102]]
+ASIA PACIFIC OFFICES
+BRISBANE
+Level 2, 15 Astor Terrace
+Spring Hill QLD 4000
+Australia
+T: +61 7 3858 4800
+F: +61 7 3858 4801
+CANBERRA
+GPO 410
+Canberra ACT 2600
+Australia
+T: +61 2 6287 0800
+F: +61 2 9427 8200
+DARWIN
+Unit 5, 21 Parap Road
+Parap NT 0820
+Australia
+T: +61 8 8998 0100
+F: +61 8 9370 0101
+GOLD COAST
+Level 2, 194 Varsity Parade
+Varsity Lakes QLD 4227
+Australia
+M: [mobile redacted]
+MACKAY
+21 River Street
+Mackay QLD 4740
+Australia
+T: +61 7 3181 3300
+MELBOURNE
+Level 11, 176 Wellington Parade
+East Melbourne VIC 3002
+Australia
+T: +61 3 9249 9400
+F: +61 3 9249 9499
+NEWCASTLE
+10 Kings Road
+New Lambton NSW 2305
+Australia
+T: +61 2 4037 3200
+F: +61 2 4037 3201
+PERTH
+Ground Floor, 503 Murray Street
+Perth WA 6000
+Australia
+T: +61 8 9422 5900
+F: +61 8 9422 5901
+SYDNEY
+Tenancy 202 Submarine School
+Sub Base Platypus
+120 High Street
+North Sydney NSW 2060
+Australia
+T: +61 2 9427 8100
+F: +61 2 9427 8200
+TOWNSVILLE
+12 Cannan Street
+South Townsville QLD 4810
+Australia
+T: +61 7 4722 8000
+F: +61 7 4722 8001
+WOLLONGONG
+Level 1, The Central Building
+UoW Innovation Campus
+North Wollongong NSW 2500
+Australia
+T: [mobile redacted]
+AUCKLAND
+68 Beach Road
+Auckland 1010
+New Zealand
+T: 0800 757 695
+NELSON
+6/A Cambridge Street
+Richmond, Nelson 7020
+New Zealand
+T: +64 274 898 628

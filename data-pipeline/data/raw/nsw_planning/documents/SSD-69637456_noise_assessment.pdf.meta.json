@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=EXH-83206457%2120250902T073835.304+GMT",
+ "project_slug": "digico-syd1-data-centre-expansion",
+ "attachment_slug": "a7-updated-noise-and-vibration-impact-assessment-15",
+ "kind": "noise_assessment",
+ "label": "A7 - Updated Noise and Vibration Impact Assessment.pdf",
+ "folder": "Response to Submissions",
+ "fetched_utc": "2026-11-18T06:13:23+00:00",
+ "sha256": "becb148445f54007beca9d6214dabc9dfa2bedf8fd392c32a25e0a583f79295f",
+ "bytes": 11005393,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 266408,
+ "pages": 186,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

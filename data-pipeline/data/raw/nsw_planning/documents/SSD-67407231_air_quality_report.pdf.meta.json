@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-67407231%2120240919T062915.098+GMT",
+ "project_slug": "apollo-place-data-centre",
+ "attachment_slug": "appendix-18-air-quality-impact-assessment-68",
+ "kind": "air_quality_report",
+ "label": "Appendix 18 - Air Quality Impact Assessment $28Rev$29.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:16:42+00:00",
+ "sha256": "701260098e25dfc397d3d2bf4c318d1b9583ac59bc61769f19dc0bc53af08ef0",
+ "bytes": 8207015,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 189730,
+ "pages": 115,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

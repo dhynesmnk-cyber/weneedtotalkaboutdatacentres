@@ -126,3 +126,4 @@ editor's reading, against the checklist in docs/REVIEW.md.
 | [ES-010](ES-010-named-to-the-market.md) | The tenant was named to the market, not the council | essay | ST-016, ST-006 | draft |
 | [ES-011](ES-011-approved-then-doubled.md) | Approved, then doubled | essay | none (RG-045) | draft |
 | [ES-013](ES-013-register-stopped-registering.md) | The register that stopped registering | essay | ST-022 | draft |
+| [ES-015](ES-015-applicant-hires-the-checker.md) | The applicant hires the checker | essay | none (RG-073, RG-075) | draft |

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-69637456%2120250410T073303.880+GMT",
+ "project_slug": "digico-syd1-data-centre-expansion",
+ "attachment_slug": "appendix-11-air-quality-impact-assessment-46",
+ "kind": "air_quality_report",
+ "label": "Appendix 11  Air Quality Impact Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:17:52+00:00",
+ "sha256": "c385817de97d403afdb7bf70b053fd25eaf13b64b50da9a4505c558e377736df",
+ "bytes": 6483076,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 314063,
+ "pages": 175,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-9741%2120190402T225625.636+GMT",
+ "project_slug": "lane-cove-west-data-centre",
+ "attachment_slug": "appendix-19-noise-impact-assessment-226",
+ "kind": "noise_assessment",
+ "label": "Appendix 19 - Noise Impact Assessment - 1 Sirius Road$2c Lan.PDF",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:19:39+00:00",
+ "sha256": "a298ae5fc5741f8a66a1182ee02eb8efb51e3159b71fe6ded21afa89ab6d95d8",
+ "bytes": 1813788,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 75808,
+ "pages": 45,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

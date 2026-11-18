@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-47320208%2120230317T030427.862+GMT",
+ "project_slug": "project-echidna-data-centre-eastern-creek",
+ "attachment_slug": "project-echidna-eis-appendix-h-noise-and-vibration-assessment-42",
+ "kind": "noise_assessment",
+ "label": "Project Echidna EIS Appendix H Noise and Vibration Assessment_Final.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:21:38+00:00",
+ "sha256": "d0b14d3f3760662bcb165dad609aa067c69e8fc99a79f92b3a77e7294593897d",
+ "bytes": 36904650,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 114336,
+ "pages": 78,
+ "text_redactions": 0,
+ "pdf_committed": false
+}

@@ -1,0 +1,17 @@
+{
+ "url": "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SSD-64287712%2120250222T000256.297+GMT",
+ "project_slug": "dci-poplars-data-centre-project-0",
+ "attachment_slug": "appendix-onoise-assessment-33",
+ "kind": "noise_assessment",
+ "label": "Appendix O_Noise Assessment.pdf",
+ "folder": "EIS",
+ "fetched_utc": "2026-11-18T06:17:23+00:00",
+ "sha256": "025f9ca739a03720c924b0963a0feb94a42ca04af4275c6e57f9798f53a8d005",
+ "bytes": 13057889,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "chars": 125820,
+ "pages": 64,
+ "text_redactions": 0,
+ "pdf_committed": false
+}
