@@ -108,4 +108,11 @@ editor's reading, against the checklist in docs/REVIEW.md.
 | --- | --- | --- | --- | --- |
 | [ES-000](ES-000-where-we-stand.md) | Where we stand | position | ST-007, ST-011, ST-016, ST-021 | draft |
 | [ES-001](ES-001-six-in-seven.md) | Six in seven | essay | ST-011, ST-021 | draft |
+| [ES-002](ES-002-already-in-your-super.md) | Already in your super | essay | ST-007 | draft |
 | [ES-003](ES-003-nine-approvals-no-operator.md) | Nine approvals, no operator | essay | ST-003, ST-004, ST-005, ST-006, ST-020, ST-022 | draft |
+| [ES-004](ES-004-ten-point-three.md) | The $10.3 billion is two numbers added together | essay | ST-009, ST-010 | draft |
+| [ES-005](ES-005-eight-objections.md) | Eight councils objected. One reached the commission. | essay | ST-017 | draft |
+| [ES-006](ES-006-two-warning-letters.md) | A stronger rule, and two warning letters | essay | ST-021, ST-019, ST-018 | draft |
+| [ES-008](ES-008-a-memorandum.md) | S7's OpenAI deal is a memorandum | essay | ST-008, ST-002 | draft |
+| [ES-009](ES-009-twenty-nine-contracts.md) | Twenty-nine contracts, and none says where | essay | ST-012, ST-013, ST-014, ST-015, ST-022 | draft |
+| [ES-010](ES-010-named-to-the-market.md) | The tenant was named to the market, not the council | essay | ST-016, ST-006 | draft |
