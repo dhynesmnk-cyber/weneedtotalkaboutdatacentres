@@ -1,12 +1,12 @@
 # Extraction yield audit
 
-Generated from 46 archived PDFs. Reliability floor: **20 chars/KB**.
+Generated from 51 archived PDFs. Reliability floor: **20 chars/KB**.
 
 Any document below the floor **cannot support a negative finding**. A keyword that does not appear
 in its extracted text may simply not have been extracted. Re-read such documents through a full PDF
 renderer before concluding that a term, condition or commitment is absent.
 
-**11 of 46 documents are below the floor.**
+**13 of 51 documents are below the floor.**
 
 | chars/KB | chars | status | extractor | document | likely cause |
 |---|---|---|---|---|---|
@@ -16,7 +16,9 @@ renderer before concluding that a term, condition or commitment is absent.
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-05-29.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_inquiry/hearing_schedule_2026-07-02.pdf` | image-only scan, or no extractable content stream |
 | 0.0 | 0 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_political_donation.pdf` | image-only scan, or no extractable content stream |
+| 2.7 | 18,966 | **LOW** | pypdf | `data/raw/asx/maq/0738k7f9vrp2mb.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 6.0 | 21,528 | **LOW** | pypdf | `data/raw/operators/airtrunk/AIRTRUNK_SUSTAINABLE_RESOURCE_MANAGEMENT_WHITEPAPER_2025.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
+| 8.0 | 13,520 | **LOW** | pypdf | `data/raw/operators/macquarie/Half-Year-Management-Briefing-to-Analysts.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 8.2 | 10,951 | **LOW** | pdf_text | `data/raw/nsw_planning/nsw_data_centre_guidelines_2026.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 8.6 | 611,295 | **LOW** | pypdf | `data/raw/registers/melbourne_water/downloads.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
 | 9.1 | 24,571 | **LOW** | pdf_text | `data/raw/nsw_planning/attachments/SUB_85927210_20250611T230704_968_GMT.pdf` | structured PDF (xref/object streams, CID fonts) this extractor cannot walk |
@@ -32,8 +34,10 @@ renderer before concluding that a term, condition or commitment is absent.
 | 50.0 | 76,489 | ok | pdf_text | `data/raw/nsw_planning/attachments/DCI_poplars_consent.pdf` |  |
 | 50.2 | 76,914 | ok | pypdf | `data/raw/nsw_planning/consents/dci_poplars_data_centre_project_0.pdf` |  |
 | 54.4 | 59,431 | ok | pdf_text | `data/raw/nsw_inquiry/submissions/BCA_116.pdf` |  |
+| 59.0 | 7,970 | ok | pypdf | `data/raw/operators/transgrid/20260820-sydney-basin-network-capacity-update.pdf` |  |
 | 61.7 | 106,584 | ok | pypdf | `data/raw/nsw_planning/consents/project_apollo_data_centre_macquarie_park.pdf` |  |
 | 62.7 | 94,999 | ok | pypdf | `data/raw/nsw_planning/consents/talavera_road_data_centre_campus_expansion.pdf` |  |
+| 66.0 | 9,107 | ok | pypdf | `data/raw/asx/maq/0738k2n30w6slp.pdf` |  |
 | 66.5 | 89,589 | ok | pypdf | `data/raw/nsw_planning/consents/lane_cove_west_data_centre.pdf` |  |
 | 68.1 | 79,513 | ok | pypdf | `data/raw/nsw_planning/consents/station_road_data_centre_expansion.pdf` |  |
 | 68.8 | 106,765 | ok | pypdf | `data/raw/nsw_planning/consents/43_61_turner_road_data_centre.pdf` |  |
@@ -46,6 +50,7 @@ renderer before concluding that a term, condition or commitment is absent.
 | 81.1 | 134,840 | ok | pypdf | `data/raw/nsw_planning/consents/nextdc_s4_data_centre_horsley_park.pdf` |  |
 | 81.7 | 81,407 | ok | pdf_text | `data/raw/nsw_planning/attachments/SSD-10330_roberts_consent.pdf` |  |
 | 90.6 | 112,203 | ok | pypdf | `data/raw/nsw_planning/consents/macquarie_park_data_centre.pdf` |  |
+| 97.8 | 371,577 | ok | pypdf | `data/raw/registers/qld_budget/2026-27-budget-bp2-budget-strategy-outlook.pdf` |  |
 | 112.0 | 93,096 | ok | pypdf | `data/raw/nsw_planning/consents/apollo_place_data_centre.pdf` |  |
 | 116.7 | 108,211 | ok | pypdf | `data/raw/nsw_planning/consents/project_echidna_data_centre_eastern_creek.pdf` |  |
 | 138.4 | 11,900 | ok | pypdf | `data/raw/operators/transgrid/system_strength_project_faq.pdf` |  |

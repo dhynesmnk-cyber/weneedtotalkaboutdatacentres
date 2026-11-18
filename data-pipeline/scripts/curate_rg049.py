@@ -78,7 +78,7 @@ ENTITIES = [
          fact_status="VERIFIED", confidence="high", as_of_date=TODAY, source_id="SRC_WDDP_TPR"),
     dict(id="ENT_WAMBO", name="Wambo Cattle Company Pty Limited", entity_type="other", domicile="Australia",
          hq_country="AU",
-         notes="A.C.N. 058 718 326. Registered owner of Lot 125 on DY516, the 725.5 hectare freehold site of the "
+         notes="A.C.N. 058 718 326. Registered owner of Lot 125 on DY316, the 725.5 hectare freehold site of the "
                "Western Downs Digital Park, currently partially used for rural purposes and containing the "
                "approved Wambo Feedlot. Written consent to lodge the development application is provided at "
                "Appendix B of the Town Planning Report together with a title search.",
@@ -115,7 +115,7 @@ SITE_UPDATES = [
                   proponent="WDDP Pty Ltd (instructing party named on the lodged application); Zerra WDDP "
                             "entity group per ABR naming",
                   suburb="37 km north-west of Dalby", lga="Western Downs Regional Council",
-                  address="Lot 125 on DY516, Dalby-Kogan Road and Grahams Road, 37 km north-west of Dalby "
+                  address="Lot 125 on DY316, Dalby-Kogan Road and Grahams Road, 37 km north-west of Dalby "
                           "town centre",
                   campus_area_ha=725.5, gfa_sqm=144000.0,
                   it_capacity_mw=2160.0, total_capacity_mw=3240.0, max_capacity_mw=2160.0,
@@ -125,7 +125,7 @@ SITE_UPDATES = [
                   source_id="SRC_WDDP_TPR",
                   notes="READ FROM THE LODGED APPLICATION (Urbis Town Planning Report V4, 14 August 2026; "
                         "lodged 18-19 August 2026). Site: approximately 725.5 ha of freehold land, Lot 125 on "
-                        "DY516, irregular in shape, with frontages to Dalby-Kogan Road (north) and Grahams Road "
+                        "DY316, irregular in shape, with frontages to Dalby-Kogan Road (north) and Grahams Road "
                         "(east), a single consolidated lot with a single land owner, held under private tenure, "
                         "currently partially used for rural purposes and containing the approved Wambo Feedlot; "
                         "subject to two easements including Easement C on SP118043 for electrical transmission "
@@ -396,7 +396,7 @@ GAP_UPDATES = [
                         "Digital Park development application (343,666,719 bytes, ~870 pages) from the Western "
                         "Downs Regional Council development register and decoded the Town Planning Report (Urbis "
                         "V4, 14 August 2026, prepared for WDDP Pty Ltd, lodged 18-19 August 2026). Key primary "
-                        "facts now in the database: 725.5 ha freehold Lot 125 on DY516; landowner Wambo Cattle "
+                        "facts now in the database: 725.5 ha freehold Lot 125 on DY316; landowner Wambo Cattle "
                         "Company Pty Limited (ACN 058 718 326) with written consent at Appendix B; two easements; "
                         "2,160 MW IT load and approximately 3,240 MVA total facility demand across six data "
                         "buildings delivered in four stages of 36,000 sqm each; three 540 MVA transformers per "

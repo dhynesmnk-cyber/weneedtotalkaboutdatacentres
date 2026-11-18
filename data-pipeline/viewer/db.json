@@ -5259,7 +5259,7 @@
    "hq_country": "AU",
    "asx_ticker": null,
    "website": null,
-   "notes": "A.C.N. 058 718 326. Registered owner of Lot 125 on DY516, the 725.5 hectare freehold site of the Western Downs Digital Park, currently partially used for rural purposes and containing the approved Wambo Feedlot. Written consent to lodge the development application is provided at Appendix B of the Town Planning Report together with a title search.",
+   "notes": "A.C.N. 058 718 326. Registered owner of Lot 125 on DY316, the 725.5 hectare freehold site of the Western Downs Digital Park, currently partially used for rural purposes and containing the approved Wambo Feedlot. Written consent to lodge the development application is provided at Appendix B of the Town Planning Report together with a title search.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_WDDP_TPR",
    "confidence": "high",
@@ -7746,7 +7746,7 @@
  "ingest_log": [
   {
    "id": 1,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "cer-verification-rg009",
    "table_name": "metrics",
    "action": "insert",
@@ -7755,7 +7755,7 @@
   },
   {
    "id": 2,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "cer-verification-rg009",
    "table_name": "entities",
    "action": "insert",
@@ -7764,7 +7764,7 @@
   },
   {
    "id": 3,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "cer-verification-rg009",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -7773,7 +7773,7 @@
   },
   {
    "id": 4,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "cer-verification-rg009",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7782,7 +7782,7 @@
   },
   {
    "id": 5,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "cer-verification-rg009",
    "table_name": "_pack",
    "action": "ok",
@@ -7791,7 +7791,7 @@
   },
   {
    "id": 6,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7800,7 +7800,7 @@
   },
   {
    "id": 7,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7809,7 +7809,7 @@
   },
   {
    "id": 8,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7818,7 +7818,7 @@
   },
   {
    "id": 9,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7827,7 +7827,7 @@
   },
   {
    "id": 10,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -7836,7 +7836,7 @@
   },
   {
    "id": 11,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7845,7 +7845,7 @@
   },
   {
    "id": 12,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7854,7 +7854,7 @@
   },
   {
    "id": 13,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7863,7 +7863,7 @@
   },
   {
    "id": 14,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7872,7 +7872,7 @@
   },
   {
    "id": 15,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg013-hyperscaler-sites-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7881,7 +7881,7 @@
   },
   {
    "id": 16,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7890,7 +7890,7 @@
   },
   {
    "id": 17,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "applications",
    "action": "insert",
@@ -7899,7 +7899,7 @@
   },
   {
    "id": 18,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7908,7 +7908,7 @@
   },
   {
    "id": 19,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7917,7 +7917,7 @@
   },
   {
    "id": 20,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg002-nsw-ssd-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -7926,7 +7926,7 @@
   },
   {
    "id": 21,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -7935,7 +7935,7 @@
   },
   {
    "id": 22,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -7944,7 +7944,7 @@
   },
   {
    "id": 23,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -7953,7 +7953,7 @@
   },
   {
    "id": 24,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -7962,7 +7962,7 @@
   },
   {
    "id": 25,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -7971,7 +7971,7 @@
   },
   {
    "id": 26,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -7980,7 +7980,7 @@
   },
   {
    "id": 27,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -7989,7 +7989,7 @@
   },
   {
    "id": 28,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -7998,7 +7998,7 @@
   },
   {
    "id": 29,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8007,7 +8007,7 @@
   },
   {
    "id": 30,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:27Z",
    "pack": "rg026-consent-conditions-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8016,7 +8016,7 @@
   },
   {
    "id": 31,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8025,7 +8025,7 @@
   },
   {
    "id": 32,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8034,7 +8034,7 @@
   },
   {
    "id": 33,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8043,7 +8043,7 @@
   },
   {
    "id": 34,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -8052,7 +8052,7 @@
   },
   {
    "id": 35,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8061,7 +8061,7 @@
   },
   {
    "id": 36,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8070,7 +8070,7 @@
   },
   {
    "id": 37,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg015-inquiry-record-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8079,7 +8079,7 @@
   },
   {
    "id": 38,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "modifications",
    "action": "insert",
@@ -8088,7 +8088,7 @@
   },
   {
    "id": 39,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8097,7 +8097,7 @@
   },
   {
    "id": 40,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8106,7 +8106,7 @@
   },
   {
    "id": 41,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg034-consent-modifications-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8115,7 +8115,7 @@
   },
   {
    "id": 42,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8124,7 +8124,7 @@
   },
   {
    "id": 43,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8133,7 +8133,7 @@
   },
   {
    "id": 44,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8142,7 +8142,7 @@
   },
   {
    "id": 45,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -8151,7 +8151,7 @@
   },
   {
    "id": 46,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8160,7 +8160,7 @@
   },
   {
    "id": 47,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "instrument_application",
    "action": "insert",
@@ -8169,7 +8169,7 @@
   },
   {
    "id": 48,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8178,7 +8178,7 @@
   },
   {
    "id": 49,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_groups",
    "action": "insert",
@@ -8187,7 +8187,7 @@
   },
   {
    "id": 50,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8196,7 +8196,7 @@
   },
   {
    "id": 51,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8205,7 +8205,7 @@
   },
   {
    "id": 52,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8214,7 +8214,7 @@
   },
   {
    "id": 53,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg003-vic-qld-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8223,7 +8223,7 @@
   },
   {
    "id": 54,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8232,7 +8232,7 @@
   },
   {
    "id": 55,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8241,7 +8241,7 @@
   },
   {
    "id": 56,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8250,7 +8250,7 @@
   },
   {
    "id": 57,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "water_profile",
    "action": "insert",
@@ -8259,7 +8259,7 @@
   },
   {
    "id": 58,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8268,7 +8268,7 @@
   },
   {
    "id": 59,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8277,7 +8277,7 @@
   },
   {
    "id": 60,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8286,7 +8286,7 @@
   },
   {
    "id": 61,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8295,7 +8295,7 @@
   },
   {
    "id": 62,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg049-western-downs-application-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8304,7 +8304,7 @@
   },
   {
    "id": 63,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8313,7 +8313,7 @@
   },
   {
    "id": 64,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8322,7 +8322,7 @@
   },
   {
    "id": 65,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8331,7 +8331,7 @@
   },
   {
    "id": 66,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8340,7 +8340,7 @@
   },
   {
    "id": 67,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8349,7 +8349,7 @@
   },
   {
    "id": 68,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg038-consent-comparison-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8358,7 +8358,7 @@
   },
   {
    "id": 69,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8367,7 +8367,7 @@
   },
   {
    "id": 70,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8376,7 +8376,7 @@
   },
   {
    "id": 71,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8385,7 +8385,7 @@
   },
   {
    "id": 72,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8394,7 +8394,7 @@
   },
   {
    "id": 73,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg046-guidelines-scope-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8403,7 +8403,7 @@
   },
   {
    "id": 74,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8412,7 +8412,7 @@
   },
   {
    "id": 75,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8421,7 +8421,7 @@
   },
   {
    "id": 76,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "power_profile",
    "action": "insert",
@@ -8430,7 +8430,7 @@
   },
   {
    "id": 77,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8439,7 +8439,7 @@
   },
   {
    "id": 78,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8448,7 +8448,7 @@
   },
   {
    "id": 79,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg060-consent-matrix-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8457,7 +8457,7 @@
   },
   {
    "id": 80,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8466,7 +8466,7 @@
   },
   {
    "id": 81,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8475,7 +8475,7 @@
   },
   {
    "id": 82,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8484,7 +8484,7 @@
   },
   {
    "id": 83,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8493,7 +8493,7 @@
   },
   {
    "id": 84,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "renewable_claims",
    "action": "insert",
@@ -8502,7 +8502,7 @@
   },
   {
    "id": 85,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -8511,7 +8511,7 @@
   },
   {
    "id": 86,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8520,7 +8520,7 @@
   },
   {
    "id": 87,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8529,7 +8529,7 @@
   },
   {
    "id": 88,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8538,7 +8538,7 @@
   },
   {
    "id": 89,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "airtrunk-bca-influence-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8547,7 +8547,7 @@
   },
   {
    "id": 90,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8556,7 +8556,7 @@
   },
   {
    "id": 91,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "entity_aliases",
    "action": "insert",
@@ -8565,7 +8565,7 @@
   },
   {
    "id": 92,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8574,7 +8574,7 @@
   },
   {
    "id": 93,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultancy_profile",
    "action": "insert",
@@ -8583,7 +8583,7 @@
   },
   {
    "id": 94,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8592,7 +8592,7 @@
   },
   {
    "id": 95,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "consultant_role",
    "action": "insert",
@@ -8601,7 +8601,7 @@
   },
   {
    "id": 96,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -8610,7 +8610,7 @@
   },
   {
    "id": 97,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8619,7 +8619,7 @@
   },
   {
    "id": 98,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8628,7 +8628,7 @@
   },
   {
    "id": 99,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "engineering_claims",
    "action": "insert",
@@ -8637,7 +8637,7 @@
   },
   {
    "id": 100,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8646,7 +8646,7 @@
   },
   {
    "id": 101,
-   "run_at": "2026-11-18T18:05:38Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "consultants-layer-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8655,7 +8655,7 @@
   },
   {
    "id": 102,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "case_handling",
    "action": "insert",
@@ -8664,7 +8664,7 @@
   },
   {
    "id": 103,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8673,7 +8673,7 @@
   },
   {
    "id": 104,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8682,7 +8682,7 @@
   },
   {
    "id": 105,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8691,7 +8691,7 @@
   },
   {
    "id": 106,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg079-determinations-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8700,7 +8700,7 @@
   },
   {
    "id": 107,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "status-updates-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8709,7 +8709,7 @@
   },
   {
    "id": 108,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "status-updates-2026-09",
    "table_name": "incentives",
    "action": "insert",
@@ -8718,7 +8718,7 @@
   },
   {
    "id": 109,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "status-updates-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8727,7 +8727,7 @@
   },
   {
    "id": 110,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "entities",
    "action": "insert",
@@ -8736,7 +8736,7 @@
   },
   {
    "id": 111,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "ownership",
    "action": "insert",
@@ -8745,7 +8745,7 @@
   },
   {
    "id": 112,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -8754,7 +8754,7 @@
   },
   {
    "id": 113,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "security_records",
    "action": "insert",
@@ -8763,7 +8763,7 @@
   },
   {
    "id": 114,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "lobbying",
    "action": "insert",
@@ -8772,7 +8772,7 @@
   },
   {
    "id": 115,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -8781,7 +8781,7 @@
   },
   {
    "id": 116,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "community_events",
    "action": "insert",
@@ -8790,7 +8790,7 @@
   },
   {
    "id": 117,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "metrics",
    "action": "insert",
@@ -8799,7 +8799,7 @@
   },
   {
    "id": 118,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8808,7 +8808,7 @@
   },
   {
    "id": 119,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "palantir-nvidia-thread-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8817,7 +8817,7 @@
   },
   {
    "id": 120,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8826,7 +8826,7 @@
   },
   {
    "id": 121,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "site-coordinates-nsw-portal-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8835,7 +8835,7 @@
   },
   {
    "id": 122,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8844,7 +8844,7 @@
   },
   {
    "id": 123,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "site-portal-fields-nsw-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8853,7 +8853,7 @@
   },
   {
    "id": 124,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "entities",
    "action": "insert",
@@ -8862,7 +8862,7 @@
   },
   {
    "id": 125,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -8871,7 +8871,7 @@
   },
   {
    "id": 126,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8880,7 +8880,7 @@
   },
   {
    "id": 127,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-facilities-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -8889,7 +8889,7 @@
   },
   {
    "id": 128,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "entities",
    "action": "insert",
@@ -8898,7 +8898,7 @@
   },
   {
    "id": 129,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -8907,7 +8907,7 @@
   },
   {
    "id": 130,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "ownership",
    "action": "insert",
@@ -8916,7 +8916,7 @@
   },
   {
    "id": 131,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8925,7 +8925,7 @@
   },
   {
    "id": 132,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "rg101-digico-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -8934,7 +8934,7 @@
   },
   {
    "id": 133,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-register-2026-09",
    "table_name": "sites",
    "action": "insert",
@@ -8943,7 +8943,7 @@
   },
   {
    "id": 134,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-register-2026-09",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8952,7 +8952,7 @@
   },
   {
    "id": 135,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "hcf-register-2026-09",
    "table_name": "_pack",
    "action": "ok",
@@ -8961,7 +8961,7 @@
   },
   {
    "id": 136,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8970,7 +8970,7 @@
   },
   {
    "id": 137,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -8979,7 +8979,7 @@
   },
   {
    "id": 138,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "ssd-documents-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -8988,7 +8988,7 @@
   },
   {
    "id": 139,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "operator-sources-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -8997,7 +8997,7 @@
   },
   {
    "id": 140,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "operator-sources-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9006,7 +9006,7 @@
   },
   {
    "id": 141,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "operator-sources-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9015,7 +9015,7 @@
   },
   {
    "id": 142,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "legal_instruments",
    "action": "insert",
@@ -9024,7 +9024,7 @@
   },
   {
    "id": 143,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9033,7 +9033,7 @@
   },
   {
    "id": 144,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -9042,7 +9042,7 @@
   },
   {
    "id": 145,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9051,7 +9051,7 @@
   },
   {
    "id": 146,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -9060,7 +9060,7 @@
   },
   {
    "id": 147,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "applications",
    "action": "insert",
@@ -9069,7 +9069,7 @@
   },
   {
    "id": 148,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9078,7 +9078,7 @@
   },
   {
    "id": 149,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "certstrat-review-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9087,7 +9087,7 @@
   },
   {
    "id": 150,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "who-applies-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9096,7 +9096,7 @@
   },
   {
    "id": 151,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "who-applies-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -9105,7 +9105,7 @@
   },
   {
    "id": 152,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "who-applies-2026-10",
    "table_name": "land_events",
    "action": "insert",
@@ -9114,7 +9114,7 @@
   },
   {
    "id": 153,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "who-applies-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9123,7 +9123,7 @@
   },
   {
    "id": 154,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "who-applies-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9132,7 +9132,7 @@
   },
   {
    "id": 155,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "who-applies-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9141,7 +9141,7 @@
   },
   {
    "id": 156,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9150,7 +9150,7 @@
   },
   {
    "id": 157,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "ownership",
    "action": "insert",
@@ -9159,7 +9159,7 @@
   },
   {
    "id": 158,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9168,7 +9168,7 @@
   },
   {
    "id": 159,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "financial_flows",
    "action": "insert",
@@ -9177,7 +9177,7 @@
   },
   {
    "id": 160,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9186,7 +9186,7 @@
   },
   {
    "id": 161,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "super-and-openai-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9195,7 +9195,7 @@
   },
   {
    "id": 162,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "public-and-room-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9204,7 +9204,7 @@
   },
   {
    "id": 163,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "public-and-room-2026-10",
    "table_name": "lobbying",
    "action": "insert",
@@ -9213,7 +9213,7 @@
   },
   {
    "id": 164,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "public-and-room-2026-10",
    "table_name": "incentives",
    "action": "insert",
@@ -9222,7 +9222,7 @@
   },
   {
    "id": 165,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "public-and-room-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9231,7 +9231,7 @@
   },
   {
    "id": 166,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "public-and-room-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9240,7 +9240,7 @@
   },
   {
    "id": 167,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "entities",
    "action": "insert",
@@ -9249,7 +9249,7 @@
   },
   {
    "id": 168,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "sites",
    "action": "insert",
@@ -9258,7 +9258,7 @@
   },
   {
    "id": 169,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "gov_contracts",
    "action": "insert",
@@ -9267,7 +9267,7 @@
   },
   {
    "id": 170,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "metrics",
    "action": "insert",
@@ -9276,7 +9276,7 @@
   },
   {
    "id": 171,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "security_records",
    "action": "insert",
@@ -9285,7 +9285,7 @@
   },
   {
    "id": 172,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9294,7 +9294,7 @@
   },
   {
    "id": 173,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:28Z",
    "pack": "whose-data-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9303,7 +9303,7 @@
   },
   {
    "id": 174,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "who-heard-2026-10",
    "table_name": "lobbying",
    "action": "insert",
@@ -9312,7 +9312,7 @@
   },
   {
    "id": 175,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "who-heard-2026-10",
    "table_name": "regulatory_events",
    "action": "insert",
@@ -9321,7 +9321,7 @@
   },
   {
    "id": 176,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "who-heard-2026-10",
    "table_name": "community_events",
    "action": "insert",
@@ -9330,7 +9330,7 @@
   },
   {
    "id": 177,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "who-heard-2026-10",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9339,7 +9339,7 @@
   },
   {
    "id": 178,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "who-heard-2026-10",
    "table_name": "_pack",
    "action": "ok",
@@ -9348,7 +9348,7 @@
   },
   {
    "id": 179,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "rg084-macquarie-park-merge-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9357,7 +9357,7 @@
   },
   {
    "id": 180,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "rg084-macquarie-park-merge-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9366,7 +9366,7 @@
   },
   {
    "id": 181,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "rg084-macquarie-park-merge-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9375,7 +9375,7 @@
   },
   {
    "id": 182,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "rg061-rg099-decisions-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9384,7 +9384,7 @@
   },
   {
    "id": 183,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "rg061-rg099-decisions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9393,7 +9393,7 @@
   },
   {
    "id": 184,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "rg061-rg099-decisions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9402,7 +9402,7 @@
   },
   {
    "id": 185,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "entities",
    "action": "insert",
@@ -9411,7 +9411,7 @@
   },
   {
    "id": 186,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9420,7 +9420,7 @@
   },
   {
    "id": 187,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "modifications",
    "action": "insert",
@@ -9429,7 +9429,7 @@
   },
   {
    "id": 188,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-open-questions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9438,7 +9438,7 @@
   },
   {
    "id": 189,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-decisions-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9447,7 +9447,7 @@
   },
   {
    "id": 190,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-decisions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9456,7 +9456,7 @@
   },
   {
    "id": 191,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch7-decisions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9465,7 +9465,7 @@
   },
   {
    "id": 192,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-open-questions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9474,7 +9474,7 @@
   },
   {
    "id": 193,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-open-questions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9483,7 +9483,7 @@
   },
   {
    "id": 194,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8b-open-questions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9492,7 +9492,7 @@
   },
   {
    "id": 195,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8b-open-questions-2026-11",
    "table_name": "modifications",
    "action": "insert",
@@ -9501,7 +9501,7 @@
   },
   {
    "id": 196,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8b-open-questions-2026-11",
    "table_name": "metrics",
    "action": "insert",
@@ -9510,7 +9510,7 @@
   },
   {
    "id": 197,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8b-open-questions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9519,7 +9519,7 @@
   },
   {
    "id": 198,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-decisions-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9528,7 +9528,7 @@
   },
   {
    "id": 199,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-decisions-2026-11",
    "table_name": "modifications",
    "action": "insert",
@@ -9537,7 +9537,7 @@
   },
   {
    "id": 200,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-decisions-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9546,7 +9546,7 @@
   },
   {
    "id": 201,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-decisions-2-2026-11",
    "table_name": "sites",
    "action": "insert",
@@ -9555,7 +9555,7 @@
   },
   {
    "id": 202,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-decisions-2-2026-11",
    "table_name": "research_gaps",
    "action": "insert",
@@ -9564,7 +9564,7 @@
   },
   {
    "id": 203,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "batch8-decisions-2-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -9573,7 +9573,25 @@
   },
   {
    "id": 204,
-   "run_at": "2026-11-18T18:05:39Z",
+   "run_at": "2026-11-18T19:10:29Z",
+   "pack": "batch9-open-questions-2026-11",
+   "table_name": "research_gaps",
+   "action": "insert",
+   "rows_affected": 0,
+   "detail": "{\"updated\": 6, \"rejected\": 0, \"skipped_identical\": 0}"
+  },
+  {
+   "id": 205,
+   "run_at": "2026-11-18T19:10:29Z",
+   "pack": "batch9-open-questions-2026-11",
+   "table_name": "_pack",
+   "action": "ok",
+   "rows_affected": 0,
+   "detail": "{\"counts\": {\"sources\": 6, \"research_gaps\": 6}, \"prepared_by\": \"scripts/curate_batch9.py from data/raw/ (archived and read 2026-11-18)\", \"prepared_on\": \"2026-11-18\"}"
+  },
+  {
+   "id": 206,
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "people-register-2026-11",
    "table_name": "people",
    "action": "insert",
@@ -9581,8 +9599,8 @@
    "detail": "{\"updated\": 0, \"rejected\": 0, \"skipped_identical\": 0}"
   },
   {
-   "id": 205,
-   "run_at": "2026-11-18T18:05:39Z",
+   "id": 207,
+   "run_at": "2026-11-18T19:10:29Z",
    "pack": "people-register-2026-11",
    "table_name": "_pack",
    "action": "ok",
@@ -18589,7 +18607,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 3). The free routes give the sector's and the government's word, not a revenue office's: Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' (1 May 2026); the BCA's Submission No 116 says operators 'pay full taxes with no concessions'; the Secretary of the Premier's Department said 'The one thing that we don't contemplate is government participation financially' (22 May 2026). What the State does give is in kind: the IDA ($17.7m in the 2025-26 Budget) and the Guidelines' concierge. No witness from Revenue NSW appeared. GIPA-002 to the Department of Customer Service (which holds Revenue NSW's records) is drafted from reports/RG007_foi_strategy.md; the Victorian, Queensland and Commonwealth templates stay in that file. UPDATED 2026-11-18 (research batch 8, second pass): The free substitute is refused: the 2026-27 Budget Paper No. 1, which carries the tax expenditure statement (Appendix C), sits under a path nsw.gov.au's robots.txt disallows; the older budget.nsw.gov.au links now redirect. Recorded; BLOCKED on download #30 (and GIPA-002, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW PART, from the State's own statement (download #30). Budget Paper No. 1 for 2026-27 estimates '$16.8 billion' of tax expenditures and concessions and itemises every one over $1 million: its Appendix C never mentions data centres. Data centres appear elsewhere only as a driver of business investment and in Sydney Water's strategy for 'servicing data centres', which 'is supported by principles of full cost recovery'. So no data-centre concession of $1 million or more is in the NSW statement; a firm-level grant below that line, or one made outside the tax system, is not excluded (GIPA-002, not lodged). Other states remain.",
+   "notes": "ADVANCED 2026-10-22 (research batch 3). The free routes give the sector's and the government's word, not a revenue office's: Data Centres Australia told the inquiry 'Data centre operators do not receive subsidies or tax incentives' (1 May 2026); the BCA's Submission No 116 says operators 'pay full taxes with no concessions'; the Secretary of the Premier's Department said 'The one thing that we don't contemplate is government participation financially' (22 May 2026). What the State does give is in kind: the IDA ($17.7m in the 2025-26 Budget) and the Guidelines' concierge. No witness from Revenue NSW appeared. GIPA-002 to the Department of Customer Service (which holds Revenue NSW's records) is drafted from reports/RG007_foi_strategy.md; the Victorian, Queensland and Commonwealth templates stay in that file. UPDATED 2026-11-18 (research batch 8, second pass): The free substitute is refused: the 2026-27 Budget Paper No. 1, which carries the tax expenditure statement (Appendix C), sits under a path nsw.gov.au's robots.txt disallows; the older budget.nsw.gov.au links now redirect. Recorded; BLOCKED on download #30 (and GIPA-002, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW PART, from the State's own statement (download #30). Budget Paper No. 1 for 2026-27 estimates '$16.8 billion' of tax expenditures and concessions and itemises every one over $1 million: its Appendix C never mentions data centres. Data centres appear elsewhere only as a driver of business investment and in Sydney Water's strategy for 'servicing data centres', which 'is supported by principles of full cost recovery'. So no data-centre concession of $1 million or more is in the NSW statement; a firm-level grant below that line, or one made outside the tax system, is not excluded (GIPA-002, not lodged). Other states remain. UPDATED 2026-11-18 (research batch 9): QUEENSLAND: the 2026-27 Budget Strategy and Outlook carries the State's tax expenditure statement and never mentions data centres (checked by this pack's script). VICTORIA: Budget Paper No. 5 is hosted where the crawler's robots check fails (recorded); download #35. Still unread: WA, SA, Tasmania, the ACT and the NT.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_GIPA_IPC",
    "confidence": "high",
@@ -19129,7 +19147,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-22 (research batch 3). Traced to source: Data Centres Australia told the inquiry operators 'will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity'. The report behind the industry's figures (Mandala, commissioned for Data Centres Australia by AirTrunk, AWS, CDC and NEXTDC) gives $3.1bn invested 2020-2025 and $7.2bn forecast to 2030, built from 'data from select data centre operators'; the two make $10.3bn, and the only '$10.3 billion' the report states is the Australian Government's grid funding. Its $1.1bn excess is within the forecast, with $0.5bn before. The networks told the inquiry the principle holds - Ausgrid: 'the customer who caused network costs pays for them'; Transgrid invests only on 'full commitment' and had no data centre commitment on 22 May 2026 - but none put a total on it. Still to test: the quantum against Transgrid, Ausgrid and Endeavour capital plans and AER determinations (aer.gov.au did not answer). UPDATED 2026-11-18 (research batch 8, second pass): Transgrid's own page states the principle and the constraint, not a total: 'Households and businesses should not bear the cost or risk associated with this growth'; capacity in the Sydney basin is 'largely exhausted'; since late 2024 it has received 'data centre connection enquiries totaling more than 10 GW within a 12 km radius of Sydney West'; capacity is allocated only on a signed connection agreement, for loads of 30 MW or more. It puts no dollar figure on what data centres pay. The AER's register closed the connection again today (recorded). The quantum test against the networks' capital plans stays open.",
+   "notes": "ADVANCED 2026-10-22 (research batch 3). Traced to source: Data Centres Australia told the inquiry operators 'will pay $10.3 billion in energy infrastructure to 2030, and $1.1 billion of that is excess capacity'. The report behind the industry's figures (Mandala, commissioned for Data Centres Australia by AirTrunk, AWS, CDC and NEXTDC) gives $3.1bn invested 2020-2025 and $7.2bn forecast to 2030, built from 'data from select data centre operators'; the two make $10.3bn, and the only '$10.3 billion' the report states is the Australian Government's grid funding. Its $1.1bn excess is within the forecast, with $0.5bn before. The networks told the inquiry the principle holds - Ausgrid: 'the customer who caused network costs pays for them'; Transgrid invests only on 'full commitment' and had no data centre commitment on 22 May 2026 - but none put a total on it. Still to test: the quantum against Transgrid, Ausgrid and Endeavour capital plans and AER determinations (aer.gov.au did not answer). UPDATED 2026-11-18 (research batch 8, second pass): Transgrid's own page states the principle and the constraint, not a total: 'Households and businesses should not bear the cost or risk associated with this growth'; capacity in the Sydney basin is 'largely exhausted'; since late 2024 it has received 'data centre connection enquiries totaling more than 10 GW within a 12 km radius of Sydney West'; capacity is allocated only on a signed connection agreement, for loads of 30 MW or more. It puts no dollar figure on what data centres pay. The AER's register closed the connection again today (recorded). The quantum test against the networks' capital plans stays open. UPDATED 2026-11-18 (research batch 9): Transgrid's letter to all data centre applicants of 20 August 2026 settles who pays for new capacity, not how much: about 1.5 GW of signed agreements in Western Sydney fit the existing network; beyond that 'Transgrid is unable to offer capacity ... unless the appropriate network augmentation is undertaken with the connection'; augmentation 'could unlock up to 2 GW'; and 'the costs of those augmentations will be borne by the data centre proponent creating that need rather than electricity consumers more broadly'. Enquiries exceed 20 GW. No dollar figure is given, so the $10.3bn claim is still untested against the networks' own numbers.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_INQ_T_0501",
    "confidence": "high",
@@ -19237,7 +19255,7 @@
    "owner": null,
    "opened": "2026-09-18",
    "resolved_date": "2026-09-18",
-   "notes": "RESOLVED 2026-09-18 from the primary document. Downloaded the lodged Western Downs Digital Park development application (343,666,719 bytes, ~870 pages) from the Western Downs Regional Council development register and decoded the Town Planning Report (Urbis V4, 14 August 2026, prepared for WDDP Pty Ltd, lodged 18-19 August 2026). Key primary facts now in the database: 725.5 ha freehold Lot 125 on DY516; landowner Wambo Cattle Company Pty Limited (ACN 058 718 326) with written consent at Appendix B; two easements; 2,160 MW IT load and approximately 3,240 MVA total facility demand across six data buildings delivered in four stages of 36,000 sqm each; three 540 MVA transformers per stage with N+1 redundancy; series battery between each 33 kV incomer bus and the load supporting energy arbitrage; up to 1,500 construction workers accommodated on site; primarily air-cooled with no evaporative cooling and only one-time commissioning water demand; NO reticulated town water so primary potable supply is by ROAD TANKER to on-site tanks, with rainwater harvesting and treated wastewater reuse supplementary and the final strategy deferred to detailed design; adjacent to Braemar 1 (~504 MW) and Braemar 2 (~450 MW) gas and CSG stations and the APA Daandine CGPF (~27.4 MW); Impact Assessment under the Planning Act 2016 as Research and Technology Industry, Workforce Accommodation and High Impact Industry; and parallel pursuit of Prescribed Project status under the SDPWO Act. RESIDUAL: the appendices were not decoded (RG-053), the proponent's ownership is unresolved (RG-052), and the four-versus-six building inconsistency inside the lodged document is unresolved.",
+   "notes": "RESOLVED 2026-09-18 from the primary document. Downloaded the lodged Western Downs Digital Park development application (343,666,719 bytes, ~870 pages) from the Western Downs Regional Council development register and decoded the Town Planning Report (Urbis V4, 14 August 2026, prepared for WDDP Pty Ltd, lodged 18-19 August 2026). Key primary facts now in the database: 725.5 ha freehold Lot 125 on DY316; landowner Wambo Cattle Company Pty Limited (ACN 058 718 326) with written consent at Appendix B; two easements; 2,160 MW IT load and approximately 3,240 MVA total facility demand across six data buildings delivered in four stages of 36,000 sqm each; three 540 MVA transformers per stage with N+1 redundancy; series battery between each 33 kV incomer bus and the load supporting energy arbitrage; up to 1,500 construction workers accommodated on site; primarily air-cooled with no evaporative cooling and only one-time commissioning water demand; NO reticulated town water so primary potable supply is by ROAD TANKER to on-site tanks, with rainwater harvesting and treated wastewater reuse supplementary and the final strategy deferred to detailed design; adjacent to Braemar 1 (~504 MW) and Braemar 2 (~450 MW) gas and CSG stations and the APA Daandine CGPF (~27.4 MW); Impact Assessment under the Planning Act 2016 as Research and Technology Industry, Workforce Accommodation and High Impact Industry; and parallel pursuit of Prescribed Project status under the SDPWO Act. RESIDUAL: the appendices were not decoded (RG-053), the proponent's ownership is unresolved (RG-052), and the four-versus-six building inconsistency inside the lodged document is unresolved.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_WDDP_TPR",
    "confidence": "high",
@@ -19305,15 +19323,15 @@
    "target_source": "The archived 344 MB PDF at data/raw/qld_western_downs/wdrc_6393206_1.pdf - use scripts/pdf_text.py in --stream mode with a high --stream-limit, or fetch the individual appendix files from the Western Downs Regional Council development register",
    "retrieval_method": "manual_review",
    "priority": 4,
-   "status": "open",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": "The document is ~870 pages and embeds survey imagery whose streams decompress to gigabytes, so extraction must stay in streaming mode with the oversized-stream skip enabled.",
+   "resolved_date": "2026-11-18",
+   "notes": "The document is ~870 pages and embeds survey imagery whose streams decompress to gigabytes, so extraction must stay in streaming mode with the oversized-stream skip enabled. UPDATED 2026-11-18 (research batch 9): RESOLVED. The lodged application was re-fetched (its SHA-256 matches the September manifest) and its appendices read as text; the pages cited are archived as excerpts. TITLE (Appendix B): registered owner 'WAMBO CATTLE COMPANY PTY LIMITED A.C.N. 058 718 326', 'LOT 125 CROWN PLAN DY316' (the record had DY516, a transcription error, corrected at its source). WATER (Infrastructure Services Report): 'There is no reticulated (town) water network in the vicinity of the site', so supply is on site; 'There is no anticipated continuous water demand for equipment cooling'; construction peaks above 300 kL/day; one building in operation about 16.5 kL/day. BACK-UP POWER: the air quality assessment says 'Five (5) 2.2MW diesel generators will be installed in each data hall, totaling 20 generators with a combined generation capacity of 44 MW', for 'network rooms and lift safety services only', tested 50 hours a year in all; the fire safety strategy says 'Generator Enclosures (8 per building)' and lists 186,336 litres of diesel. THE APPLICATION CONTRADICTS ITSELF. IT capacity: the planning report gives approximately 2,160 MW; the traffic assessment 'an ultimate capacity of 1,440 MW, delivered in 4 x 360 MW stages', and the economic assessment 'Total data centre IT load capacity of ~1.44 GW.' Ongoing jobs: the traffic assessment 'approximately 430 FTE at the ultimate 1,440 MW build'; the economic assessment '~1,400+ ongoing jobs'. Cost: the economic assessment gives '$14.5B excluding GST ($16B including GST)'; the record's A$31.9bn came in with the ABC's report (SRC_ABC_WD), not from the application. The ABC's 1.44 GW of IT capacity and 2.16 GW of total peak, as the seed row summarised it, read like the appendices; the planning report calls 2,160 MW the IT load and 3,240 MVA the total. PROPOSED to the author: SITE_WESTERN_DOWNS capital_cost_aud A$31.9bn (press) -> A$14.5bn excluding GST (the application's own figure); it_capacity_mw either kept at 2,160 (the planning report, which the row cites) with the conflict noted, or cleared until the applicant says which figure stands. Neither change is made by this pack.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_WDDP_TPR",
    "confidence": "high",
-   "as_of_date": "2026-09-18"
+   "as_of_date": "2026-11-18"
   },
   {
    "id": 54,
@@ -19593,11 +19611,11 @@
    "target_source": "The SSD-10330 attachment (public but image-only); the NSW Planning Portal attachment index at exports/nsw_planning/nsw_dc_attachment_index.csv, searchable for 'political-donation'; the NSW Electoral Commission donations register; FOI to DPHI for a machine-readable version",
    "retrieval_method": "foi_request",
    "priority": 4,
-   "status": "in_progress",
+   "status": "resolved",
    "owner": null,
    "opened": "2026-09-18",
-   "resolved_date": null,
-   "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, second pass): The NSW Electoral Commission's disclosure site disallows every crawler in its robots.txt (recorded). BLOCKED on download #34 (and GIPA-003, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW: the Electoral Commission's stakeholder register (the author's export, download #34 in part) lists 276 major political donor entities and gives no amounts; one is a data centre company, 'AMAZON WEB SERVICES AUSTRALIA PTY LTD'. CDC, AirTrunk, NEXTDC, Equinix, Goodman and Stockland are not on it. COMMONWEALTH, with amounts, from the AEC's free bulk returns (fetched by the crawler), 2020-21 to 2024-25, by side of the return (the two sides are not added): Amazon's own returns disclose $523,945 of donations made to Labor and Liberal branches; Macquarie Technology Group's own returns $316,324 to parties; the Labor Party's returns record $27,900 from 'CDC Data centres' as 'Other Receipt', not as donations (2022-23 to 2024-25). Most of what the other companies paid went to the Business Council of Australia, a lobby group, as 'Other Receipt' or 'Subscription' (AirTrunk $104,500 in 2024-25), not to a party. STILL OPEN: the NSW amounts, which sit on each major political donor's own disclosure on the Electoral Commission's site (download #34, rest: Amazon Web Services Australia's disclosures). No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW AMOUNTS, from Amazon Web Services Australia's own major political donor disclosures, read by the author on the Electoral Commission's site (download #34, rest): political donations made of $15,200 in 2023/24, $13,250 in 2024/25 (disclosure 130644, received 1 August 2025, all 'General (not made at a fundraising function or venture)') and $10,900 in 2025/26: $39,350 over the three periods. The disclosures as read give totals, not recipients. These are NSW figures and are not added to the Commonwealth ones. No improper conduct is alleged or implied.",
+   "resolved_date": "2026-11-18",
+   "notes": "ADVANCED 2026-10-30 (research batch 5). SURVEY: the attachment index of 6,866 documents across the NSW data centre records holds three donation disclosures. ROBERTS ROAD (SSD-10330): image-only, read by OCR and by eye - the company's director and chief executive, as applicant, declared $7,500 to the Liberal Party of Australia - NSW Division on 18 June 2018 (signed 2 December 2019, filed with the EIS). The Department's assessment report says the delegation applied where 'a political disclosure statement has not been made' and that no reportable political donations were made by the Applicant in the last two years; a delegate decided it. Why the disclosure did not change who decided is not on the record. TALAVERA ROAD (SSD-24299707): Macquarie Telecom gave $2,000 and $1,500 to the Liberal Party NSW Division and $1,980 to a City of Ryde West Ward campaign group in 2020-21; with Ryde's objection, that made the Commission the consent authority. MAMRE ROAD (SSD-92743706): restricted. Next: the NSW Electoral Commission's disclosure register (not yet tried) and GIPA-003. No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, second pass): The NSW Electoral Commission's disclosure site disallows every crawler in its robots.txt (recorded). BLOCKED on download #34 (and GIPA-003, not lodged). UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW: the Electoral Commission's stakeholder register (the author's export, download #34 in part) lists 276 major political donor entities and gives no amounts; one is a data centre company, 'AMAZON WEB SERVICES AUSTRALIA PTY LTD'. CDC, AirTrunk, NEXTDC, Equinix, Goodman and Stockland are not on it. COMMONWEALTH, with amounts, from the AEC's free bulk returns (fetched by the crawler), 2020-21 to 2024-25, by side of the return (the two sides are not added): Amazon's own returns disclose $523,945 of donations made to Labor and Liberal branches; Macquarie Technology Group's own returns $316,324 to parties; the Labor Party's returns record $27,900 from 'CDC Data centres' as 'Other Receipt', not as donations (2022-23 to 2024-25). Most of what the other companies paid went to the Business Council of Australia, a lobby group, as 'Other Receipt' or 'Subscription' (AirTrunk $104,500 in 2024-25), not to a party. STILL OPEN: the NSW amounts, which sit on each major political donor's own disclosure on the Electoral Commission's site (download #34, rest: Amazon Web Services Australia's disclosures). No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 8, the author's downloads): NSW AMOUNTS, from Amazon Web Services Australia's own major political donor disclosures, read by the author on the Electoral Commission's site (download #34, rest): political donations made of $15,200 in 2023/24, $13,250 in 2024/25 (disclosure 130644, received 1 August 2025, all 'General (not made at a fundraising function or venture)') and $10,900 in 2025/26: $39,350 over the three periods. The disclosures as read give totals, not recipients. These are NSW figures and are not added to the Commonwealth ones. No improper conduct is alleged or implied. UPDATED 2026-11-18 (research batch 9): RESOLVED. The survey of the planning record is complete: the NSW data centre attachment index holds three political donation disclosures (Roberts Road and Talavera Road, both read; Mamre Road, restricted and in GIPA-003, not lodged). The NSW Electoral Commission's register (Amazon Web Services Australia, $39,350 over 2023/24 to 2025/26) and the AEC's Commonwealth returns are recorded above. The recipients of Amazon Web Services Australia's NSW donations are not in what was read; re-open if the author reads them.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_SSD10330_DONATION",
    "confidence": "medium",
@@ -20155,7 +20173,7 @@
    "owner": null,
    "opened": "2026-10-14",
    "resolved_date": null,
-   "notes": "ADVANCED 2026-10-14. Archived and read the article itself (version of 2026-10-02; it was not archived when first read on 2026-09-18, so that version cannot be shown): it does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland, so the two entities' claims are withdrawn and the two sites now take their better sources as primary. Re-sourced to the register: the provider counts in the Equinix, Digital Realty, Macquarie (now six sites, adding IC3e), DCI and Telstra notes, the framework's 'highest level of assurance' wording, and the Macquarie security record, which is derived from the register and now VERIFIED. The four capacity metrics it relays from Mandala and CBRE drop to low confidence. Marsden Park's application row now cites the portal and its assessment report. The Mandala report the article names (Data Centres as Enabling Infrastructure, November 2025, archived) does not state 1,350 MW or 3,100 MW, in megawatts or gigawatts, in its text (pages 46 and 47 of its 48 carry no text and were not read as images); it points to Mandala's October 2024 report, which this environment cannot fetch because the host's robots.txt refuses it, as does CDC's copy. CBRE answers 403. FROM THE ARCHIVED REGISTER (primary, SRC_HCF_REGISTER): its text names only 'the Department' and the page carries the Department of Home Affairs logo (corrected 2026-10-21: earlier notes overlooked the logo); it lists data centre facilities that match no site record here: Cloud Carrier DB1 (facility); Vocus TransACT House Dickson (enclave). RG-096 matched only existing records, so these are candidates for new site rows. LEADS ONLY, from search-engine summaries read on 2026-10-14 (below grade D, not relied on, and kept out of every fact row): the framework appears to have moved from the Digital Transformation Agency to Home Affairs on 1 May 2023 (the move and its date, not the current branding, are the lead); the 1,350 MW and 3,100 MW figures appear to come from Mandala's October 2024 report; and AustralianSuper appears to have announced a EUR 1.5bn minority investment in Vantage Data Centers' EMEA platform on 11 September 2023. UPDATED 2026-11-18 (research batch 8, second pass): The two Mandala figures now rest on Mandala: the October 2024 report says 'data centre deployable capacity in Australia is projected to more than double from 1,350 megawatts (MW) in 2024 to 3,100 MW by 2030', and that it 'was commissioned by AirTrunk, Amazon Web Services, CDC, Microsoft, and NEXTDC'. Read from the copy AirTrunk publishes; Mandala's own host had refused. The two metrics are re-sourced to it (REPORTED, medium: an industry-commissioned projection). STILL ON CertifiedStrategic.com alone: the two CBRE figures (CBRE answered 403) and the national count of certified facilities.",
+   "notes": "ADVANCED 2026-10-14. Archived and read the article itself (version of 2026-10-02; it was not archived when first read on 2026-09-18, so that version cannot be shown): it does not mention Vantage, AustralianSuper, AirTrunk SYD3 or Stockland, so the two entities' claims are withdrawn and the two sites now take their better sources as primary. Re-sourced to the register: the provider counts in the Equinix, Digital Realty, Macquarie (now six sites, adding IC3e), DCI and Telstra notes, the framework's 'highest level of assurance' wording, and the Macquarie security record, which is derived from the register and now VERIFIED. The four capacity metrics it relays from Mandala and CBRE drop to low confidence. Marsden Park's application row now cites the portal and its assessment report. The Mandala report the article names (Data Centres as Enabling Infrastructure, November 2025, archived) does not state 1,350 MW or 3,100 MW, in megawatts or gigawatts, in its text (pages 46 and 47 of its 48 carry no text and were not read as images); it points to Mandala's October 2024 report, which this environment cannot fetch because the host's robots.txt refuses it, as does CDC's copy. CBRE answers 403. FROM THE ARCHIVED REGISTER (primary, SRC_HCF_REGISTER): its text names only 'the Department' and the page carries the Department of Home Affairs logo (corrected 2026-10-21: earlier notes overlooked the logo); it lists data centre facilities that match no site record here: Cloud Carrier DB1 (facility); Vocus TransACT House Dickson (enclave). RG-096 matched only existing records, so these are candidates for new site rows. LEADS ONLY, from search-engine summaries read on 2026-10-14 (below grade D, not relied on, and kept out of every fact row): the framework appears to have moved from the Digital Transformation Agency to Home Affairs on 1 May 2023 (the move and its date, not the current branding, are the lead); the 1,350 MW and 3,100 MW figures appear to come from Mandala's October 2024 report; and AustralianSuper appears to have announced a EUR 1.5bn minority investment in Vantage Data Centers' EMEA platform on 11 September 2023. UPDATED 2026-11-18 (research batch 8, second pass): The two Mandala figures now rest on Mandala: the October 2024 report says 'data centre deployable capacity in Australia is projected to more than double from 1,350 megawatts (MW) in 2024 to 3,100 MW by 2030', and that it 'was commissioned by AirTrunk, Amazon Web Services, CDC, Microsoft, and NEXTDC'. Read from the copy AirTrunk publishes; Mandala's own host had refused. The two metrics are re-sourced to it (REPORTED, medium: an industry-commissioned projection). STILL ON CertifiedStrategic.com alone: the two CBRE figures (CBRE answered 403) and the national count of certified facilities. UPDATED 2026-11-18 (research batch 9): What rests on CertifiedStrategic.com alone is now the two CBRE figures (live capacity 1,400 MW in 2025 and 1,800 MW by 2028), with CBRE's site refusing the crawler. The national count of certified facilities also still cites it, but that metric is already at low confidence and marked superseded by the count taken from the register itself (hcf_certified_strategic_register); the Mandala figures are re-sourced. PROPOSED to the author: keep the two CBRE metrics at low confidence as reported second-hand, or retire them.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_CERTSTRAT",
    "confidence": "high",
@@ -20223,11 +20241,11 @@
    "target_source": "Macquarie Data Centres' IC3 Super West and IC3 East pages (archived); the HCF register; Macquarie Technology Group's ASX announcements",
    "retrieval_method": "manual_review",
    "priority": 3,
-   "status": "open",
+   "status": "in_progress",
    "owner": null,
    "opened": "2026-11-15",
    "resolved_date": null,
-   "notes": "OPENED 2026-11-15. Macquarie's own IC3 Super West page, read for this batch, says 'IC3 Super West is currently under construction with the entire end-state power secured', gives '47MW IT Load' and lists the facility as 'Coming Soon'. SITE_MACQ_IC3 is named 'IC3 Super West (Macquarie Park)' and recorded operational on SRC_CERTSTRAT, a grade-C directory. The register lists 'IC1, IC2, IC3 and IC3e' as Certified Strategic Enclaves; IC3 East is operational at 12 MW IT load and is added by this batch as SITE_MACQ_IC3E. Which building each register name denotes, and whether a facility under construction can hold Strategic certification, is for a human. NO VALUE IS CHANGED HERE: the page is quoted against the existing row so the contradiction is on the record, not resolved by an agent. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): The author cannot say which building the register's 'IC3' is. It stays open. What would settle it: Macquarie Data Centres naming the certified building, or the Hosting Certification Framework's certificate scope. No value changes.",
+   "notes": "OPENED 2026-11-15. Macquarie's own IC3 Super West page, read for this batch, says 'IC3 Super West is currently under construction with the entire end-state power secured', gives '47MW IT Load' and lists the facility as 'Coming Soon'. SITE_MACQ_IC3 is named 'IC3 Super West (Macquarie Park)' and recorded operational on SRC_CERTSTRAT, a grade-C directory. The register lists 'IC1, IC2, IC3 and IC3e' as Certified Strategic Enclaves; IC3 East is operational at 12 MW IT load and is added by this batch as SITE_MACQ_IC3E. Which building each register name denotes, and whether a facility under construction can hold Strategic certification, is for a human. NO VALUE IS CHANGED HERE: the page is quoted against the existing row so the contradiction is on the record, not resolved by an agent. DECIDED BY THE AUTHOR 2026-11-18 (research batch 7): The author cannot say which building the register's 'IC3' is. It stays open. What would settle it: Macquarie Data Centres naming the certified building, or the Hosting Certification Framework's certificate scope. No value changes. UPDATED 2026-11-18 (research batch 9): Macquarie's own reporting settles the status, not the certificate. February 2026: 'Macquarie Park Data Centre Campus: IC2, IC3 East and IC3 SuperWest (expected to be completed by September 2026)'. 26 August 2026: 'Construction of IC3 SuperWest core and shell is complete, with the mechanical and electrical fit out progressing on time and on budget', 'Once completed, IC3 SuperWest ... will add an additional 47MW', and the results assume 'IC3 SuperWest Phase 1 revenue commences in 2H FY27'. So IC3 SuperWest was not operating at the end of August 2026. Its first phase is smaller than the building: at the topping out (3 December 2025) the operator said 'Phase 1 of the build is a ~$350 million investment and will deliver the complete core and shell with 6MW IT load fitted out'. The company's own names for the campus are IC2, IC3 East and IC3 SuperWest. PROPOSED to the author: SITE_MACQ_IC3 status operational -> under_construction, cited to the August 2026 results. Which building the register's 'IC3' certifies remains for Macquarie or the certificate to say.",
    "fact_status": "REPORTED",
    "source_id": "SRC_OP_MACQUARIE_IC3_SUPER_WEST",
    "confidence": "medium",
@@ -21324,7 +21342,7 @@
    "market": "NEM",
    "lat": null,
    "lon": null,
-   "address": "Lot 125 on DY516, Dalby-Kogan Road and Grahams Road, 37 km north-west of Dalby town centre",
+   "address": "Lot 125 on DY316, Dalby-Kogan Road and Grahams Road, 37 km north-west of Dalby town centre",
    "status": "lodged",
    "it_capacity_mw": 2160.0,
    "total_capacity_mw": 3240.0,
@@ -21341,7 +21359,7 @@
    "nearest_cable_ls_name": null,
    "proximity_note": null,
    "hcf_certified": "unknown",
-   "notes": "READ FROM THE LODGED APPLICATION (Urbis Town Planning Report V4, 14 August 2026; lodged 18-19 August 2026). Site: approximately 725.5 ha of freehold land, Lot 125 on DY516, irregular in shape, with frontages to Dalby-Kogan Road (north) and Grahams Road (east), a single consolidated lot with a single land owner, held under private tenure, currently partially used for rural purposes and containing the approved Wambo Feedlot; subject to two easements including Easement C on SP118043 for electrical transmission and Easement A on RP119876. CAPACITY: 'The ultimate campus has been designed to support approximately 2,160MW of IT load (approximately 3,240MVA total facility demand) across six data buildings. Each stage incorporates three 540MVA transformers, providing continuous N+1 redundancy throughout the network.' Delivered across four stages (1A, 1B, 2A, 2B), each stage's data hall comprising 36,000 sqm of data centre floor space - 144,000 sqm across the four. NOTE the internal tension the document itself creates: the description of the development says 'four large Research and Technology Industry buildings delivered across four stages' while the capacity paragraph says 'six data buildings'. Secondary reporting said up to four buildings of 360 MW each totalling 1.44 GW of IT capacity, which does not match either. ELECTRICAL: Stage 1A connects to the existing network; substations step transmission voltage down to 33 kV; a battery storage system is integrated IN SERIES between each 33 kV incomer bus and the data building load through a dual power conversion arrangement, described as multi-purpose and supporting energy arbitrage with the network. The report states the batteries are 'an ancillary component of the development and are proposed only for the operation of the development'. CONTEXT: the site sits beside the Braemar generation hub - Braemar 1 (~504 MW) and Braemar 2 (~450 MW), fuelled by natural gas and coal seam gas - the Daandine CGPF operated by APA Group (~27.4 MW), Darling Downs Solar Farm, and is described as within one of the largest renewable energy hubs with many solar, wind and battery projects exporting to the grid. WORKFORCE: temporary workforce accommodation for up to 1,500 construction workers, a temporary hub, and a concrete batching plant operational for the duration of construction of all stages. PATHWAY: assessed under the Planning Act 2016 (Qld) as Research and Technology Industry, Workforce Accommodation and High Impact Industry, all subject to Impact Assessment; the proponent is IN PARALLEL pursuing declaration as a Prescribed Project under the State Development and Public Works Organisation Act 1971 (Qld), which would let the Coordinator-General work with local government and regulators 'to ensure that there are no unreasonable delays'. Anthropic and Zerra do not appear anywhere in the lodged document.",
+   "notes": "READ FROM THE LODGED APPLICATION (Urbis Town Planning Report V4, 14 August 2026; lodged 18-19 August 2026). Site: approximately 725.5 ha of freehold land, Lot 125 on DY316, irregular in shape, with frontages to Dalby-Kogan Road (north) and Grahams Road (east), a single consolidated lot with a single land owner, held under private tenure, currently partially used for rural purposes and containing the approved Wambo Feedlot; subject to two easements including Easement C on SP118043 for electrical transmission and Easement A on RP119876. CAPACITY: 'The ultimate campus has been designed to support approximately 2,160MW of IT load (approximately 3,240MVA total facility demand) across six data buildings. Each stage incorporates three 540MVA transformers, providing continuous N+1 redundancy throughout the network.' Delivered across four stages (1A, 1B, 2A, 2B), each stage's data hall comprising 36,000 sqm of data centre floor space - 144,000 sqm across the four. NOTE the internal tension the document itself creates: the description of the development says 'four large Research and Technology Industry buildings delivered across four stages' while the capacity paragraph says 'six data buildings'. Secondary reporting said up to four buildings of 360 MW each totalling 1.44 GW of IT capacity, which does not match either. ELECTRICAL: Stage 1A connects to the existing network; substations step transmission voltage down to 33 kV; a battery storage system is integrated IN SERIES between each 33 kV incomer bus and the data building load through a dual power conversion arrangement, described as multi-purpose and supporting energy arbitrage with the network. The report states the batteries are 'an ancillary component of the development and are proposed only for the operation of the development'. CONTEXT: the site sits beside the Braemar generation hub - Braemar 1 (~504 MW) and Braemar 2 (~450 MW), fuelled by natural gas and coal seam gas - the Daandine CGPF operated by APA Group (~27.4 MW), Darling Downs Solar Farm, and is described as within one of the largest renewable energy hubs with many solar, wind and battery projects exporting to the grid. WORKFORCE: temporary workforce accommodation for up to 1,500 construction workers, a temporary hub, and a concrete batching plant operational for the duration of construction of all stages. PATHWAY: assessed under the Planning Act 2016 (Qld) as Research and Technology Industry, Workforce Accommodation and High Impact Industry, all subject to Impact Assessment; the proponent is IN PARALLEL pursuing declaration as a Prescribed Project under the State Development and Public Works Organisation Act 1971 (Qld), which would let the Coordinator-General work with local government and regulators 'to ensure that there are no unreasonable delays'. Anthropic and Zerra do not appear anywhere in the lodged document.",
    "fact_status": "VERIFIED",
    "source_id": "SRC_WDDP_TPR",
    "confidence": "high",
@@ -30498,6 +30516,55 @@
    "entity_rowid": "69",
    "source_id": "SRC_NSWEC_AWS_DISCLOSURES",
    "quote": "Reporting Period 2023/2024 | Political donations made 15,200.00 | Disclosure Number 130644 Disclosure Received Date 1/08/2025 Disclosure Type Annual Donation | Reportable political donations made - General (not made at a fundraisingfunction or venture)Amount $: 13,250Percentage: 100.0% | Political donations made 13,250.00 | Reporting Period 2025/2026 | Political donations made 10,900.00"
+  },
+  {
+   "id": 907,
+   "entity_table": "research_gaps",
+   "entity_rowid": "53",
+   "source_id": "SRC_WD_COUNCIL_DA",
+   "quote": "WAMBO CATTLE COMPANY PTY LIMITED A.C.N. 058 718 326 | LOT 125 CROWN PLAN DY316 | There is no reticulated (town) water network in the vicinity of the site, the nearest reticulated water infrastructure being approximately 15 km away. | There is no anticipated continuous water demand for equipment cooling | peak water demand during construction is expected to exceed 300 kL/day | Operational phase (one building, irrigation included in non-potable): approximately 16.5 kL/day total | Five (5) 2.2MW diesel generators will be installed in each data hall, totaling 20 generators with a combined generation capacity of 44 MW. | The diesel generators are proposed to provide backup power for network rooms and lift safety services only. | a total of 50 operational hours per year for testing across all four data halls | Generator Enclosures (8 per building) | Diesel 186,336 Litre | an ultimate capacity of 1,440 MW, delivered in 4 x 360 MW stages | Nominal data centre staffing rate: 0.3 FTE per MW, resulting in approximately 430 FTE at the ultimate 1,440 MW build | Total data centre IT load capacity of ~1.44 GW. | ~1,400+ ongoing jobs to operate and maintain the campus post construction | A total construction cost of $14.5B excluding GST ($16B including GST)."
+  },
+  {
+   "id": 908,
+   "entity_table": "research_gaps",
+   "entity_rowid": "104",
+   "source_id": "SRC_MAQ_IC3SW_TOPPING_OUT",
+   "quote": "IC3 Super West is on track to open in Sydney\u2019s north zone in September 2026 | Phase 1 of the build is a ~$350 million investment and will deliver the complete core and shell with 6MW IT load fitted out."
+  },
+  {
+   "id": 909,
+   "entity_table": "research_gaps",
+   "entity_rowid": "104",
+   "source_id": "SRC_MAQ_HY26_BRIEFING",
+   "quote": "Macquarie Park Data Centre Campus: IC2, IC3 East and IC3 SuperWest (expected to be completed by September 2026)"
+  },
+  {
+   "id": 910,
+   "entity_table": "research_gaps",
+   "entity_rowid": "104",
+   "source_id": "SRC_MAQ_FY26_RESULTS_PRESENTATION",
+   "quote": "Construction of IC3 SuperWest core and shell is complete, with the mechanical and electrical fit out progressing on time and on budget. | Once completed, IC3 SuperWest, located in Macquarie Park, will add an additional 47MW. | IC3SW has design capacity of 47MW, increasing Macquarie Park Data Centre Campus\u2019 capacity to 65MW (including IC2 and IC3 East)."
+  },
+  {
+   "id": 911,
+   "entity_table": "research_gaps",
+   "entity_rowid": "104",
+   "source_id": "SRC_MAQ_FY26_RESULTS_RELEASE",
+   "quote": "IC3 SuperWest construction remains on track and on budget. | assuming IC3 SuperWest Phase 1 revenue commences in 2H FY27"
+  },
+  {
+   "id": 912,
+   "entity_table": "research_gaps",
+   "entity_rowid": "43",
+   "source_id": "SRC_TRANSGRID_SYDNEY_BASIN_20260820",
+   "quote": "Transgrid has signed connection agreements with data centres representing approximately 1.5 GW of demand in Western Sydney | Transgrid is unable to offer capacity to any prospective connection applicants in this region unless the appropriate network augmentation is undertaken with the connection | augmentation of the transmission network could unlock up to 2 GW of additional capacity for data centre connections across the Sydney basin | the costs of those augmentations will be borne by the data centre proponent creating that need rather than electricity consumers more broadly | Connection enquiries representing more than 20 GW of data centre load, about double NSW\u2019s current peak demand, have been lodged with Transgrid."
+  },
+  {
+   "id": 913,
+   "entity_table": "research_gaps",
+   "entity_rowid": "7",
+   "source_id": "SRC_QLD_BP2_2026_27",
+   "quote": "This Tax Expenditure Statement (TES) details revenue forgone as a result of Queensland Government decisions relating to the provision of tax exemptions or concessions."
   }
  ],
  "sources": [
@@ -34163,6 +34230,72 @@
    "accessed": "2026-11-18",
    "credibility": "A",
    "notes": "The company's disclosures as major political donor, read on the Electoral Commission's disclosure site by the author and transcribed into the session (download #34; the crawler is barred by robots.txt). Political donations made: 2023/24 $15,200; 2024/25 $13,250 (disclosure 130644, an annual donation disclosure received 1 August 2025, all 'General (not made at a fundraising function or venture)'); 2025/26 $10,900. The transcription gives totals, not recipients. Archived at data/raw/registers/nsw_electoral_disclosures/aws_major_political_donor_disclosures_author_transcription.txt with a manifest (SHA-256 b90418f4eaab2501...). RG-069."
+  },
+  {
+   "id": "SRC_QLD_BP2_2026_27",
+   "title": "Queensland Budget 2026-27, Budget Paper No. 2: Budget Strategy and Outlook",
+   "publisher": "Queensland Treasury",
+   "url": "https://budget.qld.gov.au/files/2026-27-budget-bp2-budget-strategy-outlook.pdf",
+   "doc_type": "primary_government",
+   "published": null,
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Appendix B is the State's tax expenditure statement. The paper never mentions data centres (checked by the curation script). RG-007. Archived 2026-11-18 at data/raw/registers/qld_budget/2026-27-budget-bp2-budget-strategy-outlook.txt with a manifest (SHA-256 b9a9b13dc6d7e707...)."
+  },
+  {
+   "id": "SRC_TRANSGRID_SYDNEY_BASIN_20260820",
+   "title": "Update on network capacity and connection pathway for data centres in the Sydney basin (Transgrid letter to data centre applicants, 20 August 2026)",
+   "publisher": "Transgrid",
+   "url": "https://www.transgrid.com.au/media/d2raj504/20260820-sydney-basin-network-capacity-update.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-08-20",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "Sent to all data centre proponents at once: more than 20 GW of data centre enquiries lodged; about 1.5 GW of signed agreements in Western Sydney fit the existing network; no further capacity without augmentation, which could unlock up to 2 GW; augmentation costs 'borne by the data centre proponent creating that need rather than electricity consumers more broadly'. RG-043. Archived 2026-11-18 at data/raw/operators/transgrid/20260820-sydney-basin-network-capacity-update.txt with a manifest (SHA-256 b55ab6d083bf8e35...)."
+  },
+  {
+   "id": "SRC_MAQ_FY26_RESULTS_RELEASE",
+   "title": "Macquarie Technology delivers twelve consecutive years of EBITDA growth (ASX release, 26 August 2026)",
+   "publisher": "Macquarie Technology Group",
+   "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0738k2n30w6slp.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-08-26",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The full-year results release. Archived as a manifest and verbatim excerpts only (ASX's terms); the PDF is not committed. RG-104. Archived 2026-11-18 at data/raw/asx/maq/0738k2n30w6slp.excerpts.txt with a manifest (SHA-256 1fb42d448d7ef934...)."
+  },
+  {
+   "id": "SRC_MAQ_FY26_RESULTS_PRESENTATION",
+   "title": "Macquarie Technology Group Full Year Results 2026 (ASX presentation, 26 August 2026)",
+   "publisher": "Macquarie Technology Group",
+   "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0738k7f9vrp2mb.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-08-26",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The full-year results presentation: IC3 SuperWest's core and shell complete and its fit-out under way; 'Once completed' it adds 47 MW. Manifest and verbatim excerpts only (ASX's terms). RG-104. Archived 2026-11-18 at data/raw/asx/maq/0738k7f9vrp2mb.excerpts.txt with a manifest (SHA-256 44778c89be3644ee...)."
+  },
+  {
+   "id": "SRC_MAQ_HY26_BRIEFING",
+   "title": "Macquarie Technology Group Half Year Results 1H2026: management briefing to analysts (26 February 2026)",
+   "publisher": "Macquarie Technology Group",
+   "url": "https://www.macquarietechnologygroup.com/wp-content/uploads/2026/02/Half-Year-Management-Briefing-to-Analysts.pdf",
+   "doc_type": "primary_company",
+   "published": "2026-02-26",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The company's own list of its Macquarie Park campus: IC2, IC3 East and IC3 SuperWest, the last 'expected to be completed by September 2026'. RG-104. Archived 2026-11-18 at data/raw/operators/macquarie/Half-Year-Management-Briefing-to-Analysts.txt with a manifest (SHA-256 a0fe1f0dbf0d38f0...)."
+  },
+  {
+   "id": "SRC_MAQ_IC3SW_TOPPING_OUT",
+   "title": "Treasurer 'Tops Out' Macquarie Data Centres' newest 47MW AI and cloud data centre",
+   "publisher": "Macquarie Data Centres",
+   "url": "https://www.macquariedatacentres.com/blog/treasurer-tops-out-macquarie-data-centres-newest-47mw-ai-and-cloud-data-centre/",
+   "doc_type": "primary_company",
+   "published": "2025-12-03",
+   "accessed": "2026-11-18",
+   "credibility": "A",
+   "notes": "The operator's post on the topping out of IC3 Super West by the NSW Treasurer (named in the post; recorded here by role): the external structure complete, opening scheduled for September 2026, and Phase 1 a ~$350 million investment delivering the core and shell with 6 MW of IT load fitted out. RG-104. Archived 2026-11-18 at data/raw/operators/macquarie/treasurer-tops-out-macquarie-data-centres-newest-47mw-ai-and-cloud-data-centre.txt with a manifest (SHA-256 f168914673428e6f...)."
   }
  ],
  "water_profile": [

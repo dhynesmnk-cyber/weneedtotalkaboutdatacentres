@@ -1,0 +1,24 @@
+{
+ "url": "https://wdrcdevelopmenti.blob.core.windows.net/devdocs/6393206_1.pdf",
+ "derived_from": "wdrc_6393206_1.pdf",
+ "derived_from_sha256": "47137f5b5ed4953b3831d18c107ca136aaae8830acfb5f0ed55de7d20156b331",
+ "refetched_utc": "2026-11-18T18:16:00+00:00",
+ "extractor": "pdftotext (poppler), plain text mode",
+ "pages": [
+  212,
+  306,
+  316,
+  432,
+  433,
+  443,
+  446,
+  451,
+  732,
+  756,
+  858,
+  859
+ ],
+ "note": "Verbatim page text (whitespace collapsed) of the appendix pages batch 9 cites, from the lodged application re-fetched on 2026-11-18 (SHA-256 matches the September manifest). The PDF is not committed (343,666,719 bytes). The title search footer naming the searching account is redacted.",
+ "sha256": "d4e5900424be6f2b29432138ef90b384f648fdfcfcb6de55f0935fae653e3557",
+ "bytes": 27126
+}

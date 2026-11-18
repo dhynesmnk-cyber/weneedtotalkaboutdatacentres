@@ -28,6 +28,7 @@ they unlock:
 9. Then #15, #20, #21 and #27.
 10. #28 (RG-008: the four licences) and #29 (RG-073: the last air quality report), added 2026-11-18 by research batch 8.
 11. #30 to #34 (RG-007, 018, 027, 063, 069), added 2026-11-18 by batch 8's second pass: each is the free primary record a robots.txt or a block refused.
+12. #35 (RG-007: Victoria's tax expenditure statement), added 2026-11-18 by research batch 9.
 
 All of them are free.
 
@@ -98,6 +99,7 @@ tender portals and the keynote video) were not asked for again.
 | 32 | **Done 2026-11-18 (the author).** The NT Government's release of 22 July 2026 on Beetaloo Digital at Weddell (media advisers' contact details redacted in the archive) | territorycoordinator.nt.gov.au, news and insights (its robots.txt could not be read) | `data/raw/operators/ntgov/` | RG-027 | The land grant, site and scale of the gas-powered campus proposed near Darwin, from the government's own record |
 | 33 | NSW Department of Planning, Housing and Infrastructure Annual Report 2024-25, Volumes 1 and 2 | nsw.gov.au, the Department's information access page, links to the National Library (nla.gov.au served a bot-check page) | `data/raw/registers/dphi/` | RG-063 | Whether the report gives the data centre concierge team's headcount or cost |
 | 34 | **Done 2026-11-18 (the author).** The stakeholder register, then Amazon Web Services Australia's own major political donor disclosures, transcribed into the session: $15,200 (2023/24), $13,250 (2024/25, disclosure 130644) and $10,900 (2025/26), totals without recipients. The Commonwealth amounts came from the AEC's free bulk returns | efadisclosures.elections.nsw.gov.au (its robots.txt disallows every crawler) | `data/raw/registers/nsw_electoral_disclosures/` | RG-069 | What the donors disclosed to the Electoral Commission, beside what they disclosed on the planning portal |
+| 35 | Victorian Budget 2026-27, Budget Paper No. 5: Statement of Finances (the file the crawler was refused). Read it for a statement of tax expenditures or concessions | budget.vic.gov.au links to an S3 bucket (`vicbudgetfiles2026.27vicbudget`) whose robots.txt could not be read, which the crawler treats as disallow-all | `data/raw/registers/vic_budget/` | RG-007 | Whether Victoria gives data centres any tax concession, in the State's own statement of revenue forgone (Queensland's statement, read in batch 9, never mentions them) |
 
 The bulk sales data carries no buyer or seller names; it gives a price and
 dates against a lot. The superannuation files are each fund's own statutory

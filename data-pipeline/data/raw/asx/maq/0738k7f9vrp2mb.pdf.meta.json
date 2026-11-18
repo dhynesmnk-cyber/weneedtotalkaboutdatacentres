@@ -1,0 +1,10 @@
+{
+ "url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0738k7f9vrp2mb.pdf",
+ "requested_url": "https://announcements.asx.com.au/asxpdf/20260826/pdf/0738k7f9vrp2mb.pdf",
+ "fetched_utc": "2026-11-18T18:16:48+00:00",
+ "sha256": "44778c89be3644ee913b244b28b97545fd43d08149c65c35f4056e224dc367f0",
+ "bytes": 7173738,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 25
+}

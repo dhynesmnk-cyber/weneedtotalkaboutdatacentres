@@ -1,0 +1,10 @@
+{
+ "url": "https://budget.qld.gov.au/files/2026-27-budget-bp2-budget-strategy-outlook.pdf",
+ "requested_url": "https://budget.qld.gov.au/files/2026-27-budget-bp2-budget-strategy-outlook.pdf",
+ "fetched_utc": "2026-11-18T18:15:49+00:00",
+ "sha256": "b9a9b13dc6d7e707603a0b4da7182521ed3ac934bec5ac0d4ff02d9d78049426",
+ "bytes": 3889404,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 183
+}

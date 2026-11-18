@@ -1,0 +1,10 @@
+{
+ "url": "https://www.transgrid.com.au/media/d2raj504/20260820-sydney-basin-network-capacity-update.pdf",
+ "requested_url": "https://www.transgrid.com.au/media/d2raj504/20260820-sydney-basin-network-capacity-update.pdf",
+ "fetched_utc": "2026-11-18T18:15:55+00:00",
+ "sha256": "b55ab6d083bf8e35b95f3b429b8789cdb168100817df70905c6ca930d5fb1569",
+ "bytes": 138319,
+ "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)",
+ "extractor": "pypdf-6.17.0",
+ "pages": 3
+}
