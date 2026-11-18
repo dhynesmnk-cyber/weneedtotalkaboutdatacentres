@@ -70,6 +70,8 @@ PACKS = [
     ("data/packs/rg084_macquarie_park_merge.json", ["--allow-missing-source"]),
     # After every fill: RG-099 clears two capacity columns, and a later fill would repopulate them.
     ("data/packs/rg061_rg099_decisions.json", ["--allow-missing-source"]),
+    # After every earlier pack: it extends the research notes they write (batch 7).
+    ("data/packs/batch7_open_questions.json", ["--allow-missing-source"]),
     # Last: the people register (who the site names by role only). It cites sources and
     # entities registered by earlier packs and is read by the loader, not by any other pack.
     ("data/packs/people_register.json", ["--allow-missing-source"]),
@@ -143,6 +145,8 @@ def main(argv: list[str]) -> int:
     run(PY, "scripts/curate_rg061_rg099.py")
     # After curate_rg060.py and curate_hcf_facilities.py: it extends notes their packs write.
     run(PY, "scripts/curate_rg101_digico.py")
+    # After every curation whose pack it extends: it reads their notes (batch 7).
+    run(PY, "scripts/curate_batch7.py")
     # Reads the packs to check each role against the record that states it.
     run(PY, "scripts/curate_people.py")
     for pack, flags in PACKS:

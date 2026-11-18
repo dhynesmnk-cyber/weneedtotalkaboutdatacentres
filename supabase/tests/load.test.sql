@@ -87,9 +87,11 @@ select public.assert(
 -- Pty Ltd) is NOT asserted as an entity: how it relates to the owner is RG-103.
 -- 2026-11-17: RG-101's third pass adds DigiCo Infrastructure REIT, operator of SYD1,
 -- ADL1 and BNE2: 145 + 1 = 146.
+-- 2026-11-18: research batch 7 adds Westpac, a Palantir customer now reported by two
+-- outlets quoting the bank, the threshold RG-088 set: 146 + 1 = 147.
 select public.assert(
-  (select count(*) from facts.entities where pipeline_id is not null) = 146,
-  '146 entities loaded');
+  (select count(*) from facts.entities where pipeline_id is not null) = 147,
+  '147 entities loaded');
 
 -- 2026-11-17: people by role (R2.0, CLAUDE.md). The entities that are individuals
 -- load under their public role, in square brackets; the loader refuses to write a
@@ -112,9 +114,14 @@ select public.assert(
 -- 2026-11-17: RG-101's third pass registers DigiCo's release of 15 October 2026, its
 -- AGM 2026 presentation and its Annual Report 2026, each with a manifest and verbatim
 -- excerpts (the PDFs are not committed): 293 + 3 = 296.
+-- 2026-11-18: research batch 7 registers the Information Age and Cyber Daily reports on
+-- Westpac (5 November 2026), Cyber Daily's earlier report (16 October), AirTrunk's MEL2
+-- page and NVIDIA's Australian release (9 September 2026): 296 + 5 = 301. Its second
+-- pass registers the four modification assessment reports and Roberts Road's Mod 4
+-- report (RG-045), and Firmus's Wesley Vale page (RG-027): 301 + 6 = 307.
 select public.assert(
-  (select count(*) from facts.sources where pipeline_id is not null) = 296,
-  '296 sources loaded');
+  (select count(*) from facts.sources where pipeline_id is not null) = 307,
+  '307 sources loaded');
 
 -- The research agenda. 2026-10-09: the pipeline holds 89 questions; 79 load.
 -- The other ten (RG-001, 004, 005, 006, 008, 014, 016, 017, 018, 019, all from

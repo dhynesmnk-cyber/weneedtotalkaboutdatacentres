@@ -1,0 +1,12 @@
+{
+ "https://datacenterdynamics.com/en/news/gigawatt-scale-off-grid-data-center-campus-proposed-in-western-australia": {
+  "checked_utc": "2026-11-18T01:44:49+00:00",
+  "how": "HTTP 403",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
+ },
+ "https://www.energy-storage.news/1gw-data-centre-with-5000mwh-battery-storage-system-submitted-to-australias-epbc-act-for-approval/": {
+  "checked_utc": "2026-11-18T01:44:46+00:00",
+  "how": "robots.txt could not be read (refused), read as disallow-all",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
+ }
+}

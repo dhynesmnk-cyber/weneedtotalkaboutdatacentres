@@ -1,0 +1,2511 @@
+[[page 1]]
+ 
+Modification Report | SSD-10330 MOD 3    1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Roberts Road 
+Data Centre - 
+Operational 
+Modification 
+SSD-10330 MOD 4  
+August 2026 
+Prepared for: Canberra Data Centre  
+[[page 2]]
+Modification Report | SSD-10330 MOD 3    2 
+ 
+ 
+Urbis staff responsible for this report were: 
+Director Murray Donaldson 
+Associate Director Vijay Prabhu 
+Senior Consultant Andrew Lee 
+Project Code P0048360 
+Report Number V2 -20260803 
+ 
+ 
+  
+Acknowledgment of Country 
+Urbis acknowledges the Traditional Custodians of the lands we operate on. 
+We recognise that First Nations sovereignty was never ceded and respect First Nations peoples continuing 
+connection to these lands, waterways and ecosystems for over 60,000 years. 
+We pay our respects to First Nations Elders, past and present. 
+ 
+Urbis is committed to incorporating our respect for First Nations cultures, peoples and storytelling in our work 
+across the Country. We are proud to have partnered with Darug Nation artist, Hayley Pigram, and to profile her 
+artwork - Sacred River Dreaming. 
+ 
+ 
+The river is the symbol of the Dreaming 
+and the journey of life. The circles and 
+lines represent people meeting and 
+connections across time and space. When 
+we are working in different places, we can 
+still be connected and work towards the 
+same goal. 
+All information supplied to Urbis in order to conduct this research has been treated in the strictest confidence.  
+It shall only be used in this context and shall not be made available to third parties without client authorisation.  
+Confidential information has been stored securely and data provided by respondents, as well as their identity, has been 
+treated in the strictest confidence and all assurance given to respondents have been and shall be fulfilled. 
+ 
+ 
+© Urbis Ltd 
+50 105 256 228 
+ 
+All Rights Reserved. No material may be reproduced without prior permission. 
+You must read the important disclaimer appearing within the body of this report. 
+ 
+urbis.com.au 
+
+[[page 3]]
+Modification Report | SSD-10330 MOD 3    3 
+ 
+ 
+Contents 
+Executive Summary 5 
+Proposed Modification 5 
+Justification of the Modified Project 6 
+1 Introduction 7 
+1.1 Applicant Details 7 
+1.2 Project Background 7 
+1.3 Project Overview 10 
+2 Strategic Context 12 
+2.1 Project Justification - Strategic Context 12 
+2.2 Key Features of Site and Surrounds 12 
+3 Description of Proposed Modification 14 
+3.1 Overview 14 
+3.2 Description of Proposed Modifications 17 
+3.3 Updated Chillers 20 
+3.4 Internal Fitout 21 
+3.5 Formalised Parking & Refined Access 22 
+3.6 Proposed Amendments to Conditions of 
+Consent 24 
+4 Section 4.55(1A) Assessment 26 
+4.1 Substantially the Same Development 26 
+4.2 Minimal Environmental Impact 26 
+5 Statutory Context 27 
+5.1 Statutory Requirements 27 
+5.2 Pre-Conditions 28 
+5.3 Mandatory Considerations 30 
+6 Assessment of Impacts 34 
+6.1 Dangerous Goods Review 34 
+6.2 Preliminary Risk Screening 37 
+6.3 Visual Impact Assessment 37 
+6.4 Air Quality Impacts 38 
+6.5 Noise Impact Assessment 41 
+6.6 Stormwater Impact Assessment 42 
+6.7 Greenhouse Gas Assessment 44 
+6.8 Traffic and Parking 45 
+6.9 Site Suitability 47 
+6.10 Waste Management 47 
+7 Justification of Modified Project 49 
+7.1 Project Design 49 
+7.2 Strategic Context 49 
+7.3 Statutory Context 50 
+7.4 Community Views 50 
+7.5 Likely Impacts of the Modified Proposal 50 
+7.6 Suitability of the Site 51 
+7.7 Public Interest 51 
+Disclaimer 53 
+ 
+[[page 4]]
+ 
+Modification Report | SSD-10330 MOD 4    4 
+ 
+ 
+Appendices 
+Appendix A Updated Mitigation Measures 
+Appendix B Architectural Plans 
+Appendix C Air Quality Impact Assessment 
+Appendix D Site Suitability Assessment 
+Appendix E Noise Impact Assessment 
+Appendix F Combustible Fuel Storage Assessment 
+Appendix G Visual Impact Assessment 
+Appendix H Greenhouse Gas Assessment 
+Appendix I Stormwater Management Plan 
+Appendix J Traffic Impact Assessment 
+Appendix K Landscape Plans 
+Appendix L Preliminary Risk Screening 
+Appendix M Waste Management Plan 
+Appendix N GHG Peer Review 
+ 
+Figures 
+Figure 1 Site Aerial ......................................................................... 13 
+Figure 2 Site Plan – Overview of Proposed 
+Modifications ................................................................................... 15 
+Figure 3 Proposed Generator Locations ....................... 17 
+Figure 4 Proposed Double-Stack Generator Layout
+ .................................................................................................................. 18 
+Figure 5 Proposed Rooftop Chillers ................................ 20 
+Figure 6 Acoustic Mitigation Plan ...................................... 21 
+Figure 7 Proposed Internal Fitout ...................................... 22 
+Figure 8 Proposed Formalised Carpark........................ 23 
+Figure 9 Re-aligned Driveway & Removal of 
+Redundant Waste Room ........................................................ 23 
+Figure 10 Key Views..................................................................... 37 
+Figure 11 Surrounding Sensitive Receptors ................. 39 
+ 
+Tables 
+Table 1 Applicant Details .......................................................... 7 
+Table 2 Approved Site Layouts ............................................. 9 
+Table 3 Comparison of Approved to Proposed 
+Development .................................................................................. 15 
+Table 4 Statutory Requirements ....................................... 27 
+Table 5 Pre-conditions ........................................................... 28 
+Table 6 Mandatory Considerations ............................... 30 
+Table 7 AS1940:2017 Requirements ................................. 34 
+Table 8 Operational Trip Generation ............................. 46 
+ 
+ 
+[[page 5]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 5 
+ 
+ 
+Executive Summary 
+This Modification Report has been prepared by Urbis Ltd (Urbis) in support of a section 4.55(1A) modification 
+application, on behalf of Canberra Data Centre Pty Ltd (CDC) (the Applicant), to modify Development 
+Consent SSD-10330, which relates to an expanded data centre at 17 Roberts Road, Eastern Creek (the site). 
+The data centre expansion is currently under construction in accordance with SSD-10330, which was 
+approved by the Department of Planning, Housing and Infrastructure (DPHI) on 14 July 2020. The SSDA was 
+modified to amend the built form of the approved Building 5 and Building 6 under SSD-10330 Mod 1 (Mod 1), 
+approved on 17 April 2024 and subsequently modified to update generator layout and testing regime under 
+SSD-10330 Mod 2 (Mod 2), approved on 6 March 2026. 
+In collaboration with the operational tenant at the site, the project team has been conducting ongoing 
+investigation and analysis of the requirements to support the operations of the data centre. It has been 
+identified that further updates to the back-up diesel generators (also referred to as generators throughout 
+this Modification Report), as well as modifications to the provision of rooftop chillers, are required to support 
+the intended operations of the data centre. Additionally, the proposed modification seeks to formalise 
+existing carparking to support operations at the site.  
+A separate modification application has been lodged to DPHI for the purposes of updating the electrical 
+infrastructure which supports the operation of the data centre (identified as SSD-10330 Mod 3). As such, this 
+modification application is anticipated to be identified as SSD-10330 Mod 4, or Mod 4. 
+Proposed Modification  
+The proposal seeks to modify SSD-10330 as follows: 
+▪ Power and backup infrastructure  
+– Modify the total number of back -up diesel generators approved under SSD -10330 from 72 
+generators to 96 generators. The proposed generators include:  
+• 18 generators located near existing EC1 generators; and  
+• 6 generators located adjacent to the approved Mod 2 generator area.  
+The increase in generators will ensure that downtime during any power outage event is 
+appropriately minimised. The modification to the number of diesel generators is proposed to be 
+facilitated by an update to the provision of diesel storage tanks.  
+– Modify the back ‑up diesel generator testing regime to reflect the increased number of generators 
+and site configuration. The updated regime adjusts the frequency and grouping of tests to maintain 
+reliable operation.  
+▪ Batteries and Switch rooms  
+– Modification to the Level 3 floor plans for Building 5 and Building 6 to facilitate the fitout of battery 
+storage and switchrooms.  
+▪ Cooling Infrastructure  
+– Installation of 32 additional chillers and associated infrastructure across the roof of Buildings 5 and 
+6. 
+– Modification to the acoustic mitigation measures plan  to facilitate additional acoustic screening  at 
+the rooftop chiller deck . 
+▪ Other Modifications  
+– Modification to site plan to formalise 61 of the existing, temporary construction car parking spaces 
+at the northern end of the site to provide  the use of permanent, operational carparking spaces.  
+[[page 6]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 6 
+ 
+ 
+– Modification to the north- western corner of the internal road to facilitate adequate turning paths.  
+– Modification to remove a redundant waste storage room at the north- western corner of the site.  
+It is noted that while this application seeks to modify SSD-10330 only, various operations and environmental 
+thresholds are inclusive of elements approved under both SSD-10330 as well as other applications across the 
+site. Notably, the proposed modification: 
+▪ Results in a total of 111 generators across the site (inclusive of generators approved under other 
+applications) ; 
+▪ Results in a total of 154.75 hours per year  of testing for generators across the site; and  
+▪ Results in a total of 3,609 tonnes of maximum diesel storage capacity across the site (noting, the 
+proposal will maintain the approved mitigation measures and physical controls to ensure cumulative 
+on-site diesel storage remains below 2,000 tonnes  at any one time. ) 
+Justification of the Modified Project  
+This Modification Report assesses the development as proposed with regard to relevant planning 
+instruments and policies and outlines the mitigation measures to ensure the project does not result in 
+unreasonable or adverse environmental effects.  
+The key issues for all components of the project as proposed to be modified have been assessed in detail, 
+with specialist reports underpinning the key findings and recommendations identified in the Assessment of 
+Impacts in Section 6.  
+Having considered all relevant matters, the development as modified has significant merit and should 
+be approved subject to the implementation of the updated mitigation measures described in this report 
+and supporting documents.  
+[[page 7]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 7 
+ 
+ 
+1 Introduction 
+This Modification Report has been prepared by Urbis Ltd (Urbis) in support of a section 4.55(1A) modification 
+application, on behalf of Canberra Data Centre Pty Ltd (CDC) (the Applicant), to modify Development 
+Consent SSD-10330, which relates to data centre operations at 17 Roberts Road, Eastern Creek (the site). 
+This modification application (SSD-10330 Mod 4, or, Mod 4) seeks approval for the provision of additional 
+generators onsite for emergency power and a revised testing regime to support the continued use of the 
+approved data centre, as well as updates to Buildings 5 and 6 to accommodate battery storage, switch 
+rooms and 32 additional rooftop chillers, together with enhanced acoustic screening. Other changes include 
+formalising 61 permanent parking spaces, improving internal road vehicle access, and removing a redundant 
+waste storage room. 
+1.1 Applicant Details 
+The applicant details for the proposed modification are listed in Table 1. 
+Table 1 Applicant Details  
+Descriptor Proponent Details 
+Full Name(s) Canberra Data Centres Pty Ltd 
+Postal Address PO Box 635 
+Fyshwick ACT 2612 
+ABN 59 125 710 394 
+Nominated Contact Nicholas Blay - Head of Engineering Delivery 
+1.2 Project Background 
+1.2.1 Approved Development– Overall Power and Backup infrastructure 
+1.2.1.1 Original Major Project – MP 10_0142 (Hewlett Packard Data Centre) 
+The original data centre development at the site was approved on 27 September 2011 under Part 3A of the 
+Environmental Planning and Assessment Act 1979 as Major Project MP 10_0142 (Hewlett‑Packard Data Storage 
+Project) (Part 3A approval). The Part 3A approval (approved 27 September 2011) granted consent for the 
+construction, fit‑out and operation of a data storage facility, including associated infrastructure required to 
+support a high‑reliability data centre use. In particular, the approval included: 
+▪ construction of a single ‑storey data centre building comprising two data halls, together with ancillary 
+administration and technical support areas;  
+▪ establishment of backup power infrastructure, including diesel generators housed within acoustic 
+enclosures for emergency and testing purposes;  
+▪ provision of on‑ site diesel fuel storage to support generator operation during power outage and testing 
+events; 
+▪ construction of a high‑ voltage electrical switching station and associated electrical infrastructure to 
+ensure secure and redundant power supply to the data centre; and  
+▪ associated site works, access, hardstand areas, landscaping and security infrastructure.  
+[[page 8]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 8 
+ 
+ 
+The Part 3A approval expressly recognised that the data centre would operate 24 hours per day, seven days 
+per week, and that uninterrupted power supply was fundamental to its operation. Backup diesel generators 
+and fuel storage were therefore assessed and approved as integral operational infrastructure, rather than 
+incidental or temporary works. 
+This Part 3A approval established the baseline data centre use and associated power and backup 
+infrastructure at the site, which was subsequently expanded and built upon through the State Significant 
+Development approval under SSD‑10330 and its subsequent modifications. 
+1.2.1.2 State Significant Development Approval – SSD-10330  
+On 14 July 2020, SSD-10330 was approved by DPHI for an expansion to an existing data centre at the site. The 
+approval granted consent for: 
+An expansion to an existing data centre, including associated office space, supporting infrastructure and 
+services, car parking and landscaping. 
+Specifically, SSD-10330 approved the following: 
+▪ Construction and operation of three (3) additional data centre buildings, including a 3 -storey data 
+centre building (‘ Building 4’ which has been constructed) and two other data centre buildings at the 
+western end of the site (herein, referred to as ‘ Building 5’ and ‘Building 6’) which are currently under 
+construction.  
+▪ 48 diesel back -up generators, including 12 existing generators installed under CDC -19-01926. 
+▪ Diesel fuel storage for up to 1,914,000 litres (L) across the whole site.  
+▪ Provision of combined 101 parking spaces inclusive of:  
+– 92 secure parking spaces, inclusive of 5 accessible parking spaces,  
+– 7 short-term visitor parking spaces at the site entrance,  
+– 2 security staff parking spaces.  
+This approval expanded the development and operations of the data centre that was originally approved 
+under the Part 3A approval, MP10_0142. 
+The approval included batteries and backup diesel generators, which are required onsite to ensure 
+uninterruptable power supply and for the data centre buildings to operate in the event of power failure. 
+Notably, this development was approved based on the actual, usable amount of diesel that would be stored 
+at the site to support development operations. 
+1.2.1.3 SSD-10330 Modification 1 
+SSD-10330 Mod 1 (Mod 1) was approved by DPHI on 17 April 2024 for the modification of the built form and 
+design of Building 5 and Building 6 as approved under SSD-10330. The approved modifications include the 
+following: 
+▪ re-configuration of the internal layout of Buildings 5 and 6, to facilitate a total of thirty -two (32) 
+dedicated battery rooms in each building;  
+▪ increase to the height of Buildings 5 and 6 from three storeys to four storeys with a plant deck on the 
+roof of the buildings (thereby an increase in the overall gross floor area);  
+▪ modification to the rooftop plant configuration, including an increase in the number of 
+chillers/condensers and a reduction in the number of packed air -conditioning ( PAC) units; and 
+▪ removal of rooftop noise barrier structures.  
+1.2.1.4 SSD-10330 Modification 2 
+SSD-10330 Mod 2 (Mod 2) was approved by DPHI on 6 March 2026 for the modification for the provision of 
+additional generators onsite and a revised testing regime which includes the following: 
+[[page 9]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 9 
+ 
+ 
+▪ Modification of the total number of back -up, diesel generators approved under SSD -10330 from 48 
+generators to 72 generators. This results in a  total of 87 generators onsite  (inclusive of generators 
+approved under SSD- 10330 and other applications), a net increase of 24 generators  with a ‘double -
+stack’ arrangement of generators at the northwestern edge of the site.  
+▪ Modification of the maximum potential diesel storage at the site. However,  the overall onsite diesel fuel 
+storage capacity will exceed 2,000 tonnes, with approval conditions requiring physical controls that 
+limit fuel storage levels within each fuel system so that the overall onsite storage remains below 2,000 
+tonnes at any one time . 
+▪ Modification to the back-up, diesel generator testing schedule  to accommodate the increased number 
+of generators while ensuring that  the cumulative operation of back -up generators does not exceed 200 
+hours per year.  
+Mod 2 was assessed to consider the cumulative impacts associated with data centre operations across the 
+site, as opposed to being an assessment of the impacts specific to the scope of Mod 2. The environmental 
+assessment prepared for the subject modification application (Mod 4) has been prepared to be consistent 
+with this approach (refer to Section 6 for details). 
+1.2.1.5 SSD-10330 Modification 3 
+SSD-10330 Mod 3 (Mod 3) is currently under assessment and proposes modification to the existing electrical 
+infrastructure within the approved high-voltage plant for the purposes of: 
+▪ Installation of a new switch room with 11 kV switchgear;  
+▪ Installation of a new (fifth) Transformer; and  
+▪ Replacement of the existing Transformer 1 and 2.  
+The cumulative impacts associated with this in-progress application are considered as part of the 
+environmental assessment provided in this Modification Report at Section 6. 
+1.2.1.6 Approved Site Layout 
+The layout of the data centre expansion approved under SSD-10330 (as modified by Mod 2), in correlation 
+with the other existing buildings across the site, is shown in Table 2 below. 
+Table 2 Approved Site Layouts  
+Approval Approved Site Layout 
+MP 10_0142 
+ 
+
+[[page 10]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 10 
+ 
+ 
+SSD-10330 (Base) 
+ 
+SSD-10330 MOD 2 
+ 
+ 
+1.3 Project Overview 
+The proposal seeks to modify SSD-10330 as follows: 
+▪ Power and backup infrastructure  
+– Modify the total number of back -up diesel generators approved under SSD -10330 from 72 
+generators to 96 generators. The proposed generators include:  
+• 18 generators located near existing EC1 generators; and  
+• 6 generators located adjacent to the approved Mod 2 generator area.  
+The increase in generators will ensure that downtime during any power outage event is 
+appropriately minimised. The modification to the number of diesel generators is proposed to be 
+facilitated by an update to the provision of diesel storage tanks.  
+– Modify the back ‑up diesel generator testing regime to reflect the increased number of generators 
+and site configuration. The updated regime adjusts the frequency and grouping of tests to maintain 
+reliable operation.  
+▪ Batteries and Switch rooms  
+– Modification to the Level 3 floor plans for Building 5 and Building 6 to facilitate the fitout of battery 
+storage and switchrooms.  
+▪ Cooling Infrastructure  
+
+[[page 11]]
+ 
+Modification Report | SSD-10330 MOD 4   Introduction 11 
+ 
+ 
+– Installation of 32 additional chillers and associated infrastructure across the roof of Buildings 5 and 
+6. 
+– Modification to the acoustic mitigation measures plan to facilitate additional acoustic screening at 
+the rooftop chiller deck.  
+▪ Other Modifications  
+– Modification to site plan to formalise 61 of the existing, temporary construction car parking spaces 
+at the northern end of the site to provide  the use of permanent, operational carparking spaces.  
+– Modification to the north- western corner of the internal road to facilitate adequate turning paths.  
+– Modification to remove a redundant waste storage room at the north- western corner of the site.  
+It is noted that while this application seeks to modify SSD-10330 only, various operations and environmental 
+thresholds are inclusive of elements approved under both SSD-10330 as well as other applications across the 
+site. Notably, the proposed modification: 
+▪ Results in a total of 111 generators across the site (inclusive of generators approved  under other 
+applications);  
+▪ Results in a total of 154.75 hours per year  of testing for generators across the site; and  
+▪ Results in a total of 3,609 tonnes of maximum diesel storage capacity across the site (noting, the 
+proposal will maintain the approved mitigation measures and physical controls to ensure cumulative 
+on-site diesel storage remains below 2,000 tonnes  at any one time).  
+[[page 12]]
+ 
+Modification Report | SSD-10330 MOD 4   Strategic Context 12 
+ 
+ 
+2 Strategic Context 
+2.1 Project Justification - Strategic Context 
+The proposal will support the operational needs of the future tenants for the approved data centre building 
+halls and thus, support the delivery of usable data centres within the Blacktown LGA. The development, as 
+proposed to be modified, will continue to deliver a key piece of technical infrastructure consistent with the 
+strategic principles of the relevant strategies as: 
+▪ The proposal will continue to support the provision of employment opportunities accessible to residents 
+of the Central and Western Cities.  
+▪ The proposal will continue to support the appropriate use of the site within the Western Sydney 
+Employment Area and south of the Bungarribee, Huntingwood and Arndell Park industrial areas.  
+As such, the development as proposed to be modified continues to align with the relevant strategic 
+objectives of the Greater Sydney Region Plan: A Metropolis of Three Cities, Our Greater Sydney 2056: Central 
+City District Plan and Future Transport Strategy 2056. The proposal supports the strategic role of the Western 
+Sydney Employment Area by enabling the ongoing operation and adaptation of critical digital infrastructure. 
+2.2 Key Features of Site and Surrounds 
+2.2.1 Site Description 
+The site is located at 17 Roberts Road, Eastern Creek and is within the Eastern Creek Business Park. The legal 
+description of the site is Lot 2 in Deposited Plan 1159804. The site is 14.52ha in area and is bounded by the M4 
+Western Motorway to the north and the West Link M7 Motorway to the east. The site is located in the Blacktown 
+Local Government Area (LGA) and within the Western Sydney Employment Area (WSEA). 
+The site is approximately 13 kilometres west of the Parramatta Central Business District (CBD) and six 
+kilometres south of Blacktown CBD. It is within the southern part of the Blacktown LGA, approximately 1.3 
+kilometres north of the Fairfield LGA boundary. 
+Currently, the site accommodates an existing building (herein, referred to as ‘Building 1’) located at the 
+western portion of the site. This existing building accommodates a data centre hall as well as existing 
+office/admin area. In support of the Building 1, there are existing 15 supporting back-up generators. At the 
+south-eastern corner of the site, there is an existing, high voltage plant. 
+West of Building 1, there are two (2) constructed and operational data centre buildings. One 2-storey data 
+centre building (herein, referred to as ‘Building 3’) features associated 12 back-up generators. The other, 3 
+storey data centre building (‘Building 4’) was approved as part of SSD-10330. Further west are Buildings 5 
+and 6 approved under SSD-10330 (as approved to be modified under Mod 1).   
+[[page 13]]
+ 
+Modification Report | SSD-10330 MOD 4   Strategic Context 13 
+ 
+ 
+Figure 1 Site Aerial  
+ 
+Source: Nearmap 2026 
+2.2.2 Surrounding Context 
+The development site is surrounded by a variety of industrial land use activities and significant transport and 
+utilities infrastructure. 
+▪ North: The adjoining land to the north comprises large -scale warehouses, freight and logistics and light 
+industrial activities with ancillary offices, all forms part of the Eastern Creek Business Park.  
+▪ East: To the east is a parcel of vacant land and landscaped buffer between the light industry use land 
+on the western side of M7 Highway. Western Sydney Park Land and SUEX Eastern Creek Resource 
+Recovery Park is further to the east of the site, located on the eastern side of M7 Highway.  
+▪ South: Land immediately to the south is part of the TransGrid Eastern Creek site, which contains 
+multiple high voltage transmission lines. Austral Bricks is located further south.  
+▪ West: The land to the west of Roberts Road is Australian Personnel Solutions National Service Centre. 
+Further to the west is Old Wallgrove Road and TransGrid Eastern Creek site, containing high voltage 
+transmission lines and substations.  
+The nearest residential accommodation is located approximately 900m to the southeast of the site, along 
+Flavex Lane. Other nearby residential areas include Minchinbury to the north of the site beyond the M4 
+Motorway (approximately 4km from the site), and Erskine Park to the west (approx. 2.5km from the site). 
+ 
+
+[[page 14]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 14 
+ 
+ 
+3 Description of Proposed Modification 
+3.1 Overview 
+The proposal seeks to modify SSD-10330 as follows: 
+▪ Power and backup infrastructure  
+– Modify the total number of back -up diesel generators approved under SSD -10330 from 72 
+generators to 96 generators. The proposed generators include:  
+• 18 generators located near existing EC1 generators ; and 
+• 6 generators located adjacent to the approved Mod 2 generator area.  
+The increase in generators will ensure that downtime during any power outage event is 
+appropriately minimised.  The modification to the number of diesel generators is proposed to be 
+facilitated by an update to the provision of diesel storage tanks.  
+– Modify the back ‑up diesel generator testing regime to reflect the increased number of generators 
+and site configuration. The updated regime adjusts the frequency and grouping of tests to maintain 
+reliable operation . 
+▪ Batteries and Switch rooms  
+– Modification to the Level 3 floor plans for Building 5 and Building 6 to facilitate the fitout of battery 
+storage and switchrooms.  
+▪ Cooling Infrastructure  
+– Installation of 32 additional chillers and associated infrastructure across the roof of Buildings 5 and 
+6. 
+– Modification to the acoustic mitigation measures plan to facilitate additional acoustic screening at 
+the rooftop chiller deck.  
+▪ Other Modifications  
+– Modification to site plan to formalise 61 of the existing, temporary construction car parking spaces 
+at the northern end of the site to provide  the use of permanent, operational carparking spaces.  
+– Modification to the north- western corner of the internal road to facilitate adequate turning paths.  
+– Modification to remove a redundant waste storage room at the north- western corner of the site.  
+It is noted that while this application seeks to modify SSD-10330 only, various operations and environmental 
+thresholds are inclusive of elements approved under both SSD-10330 as well as other applications across the 
+site. Notably, the proposed modification: 
+▪ Results in a total of 111 generators across the site (inclusive of generators approved under other 
+applications) ; 
+▪ Results in a t otal of 154.75 hours per year  of testing for generators across the site; and  
+▪ Results in a total of 3,609 tonnes of maximum diesel storage capacity across the site (noting, the 
+proposal will maintain the approved mitigation measures and physical controls to ensure cumulative 
+on-site diesel storage remains below 2,000 tonnes  at any one time).  
+ 
+ 
+ 
+ 
+[[page 15]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 15 
+ 
+ 
+Further to the site plan extract at Figure 2 below, further details of the proposed modifications are provided in 
+the Architectural Plans prepared by EJE Architecture, provided at Appendix B. 
+Figure 2 Site Plan – Overview of Proposed Modifications  
+ 
+Source: EJE Architecture – Appendix B 
+A comparative analysis has been undertaken of the proposed changes to the approved development in 
+Table 3. 
+Table 3 Comparison of Approved to Proposed Development  
+Approved (SSD-10330 MOD 2) Proposed (SSD-10330 MOD 4) 
+Back-up Diesel Generators 
+Approved (SSD-10330 Mod 2) 
+▪ 60 generators (north- west edge of site)  
+▪ 12 generators (north- east edge of site) 
+ 
+ 
+ 
+ 
+Additional Generators Across Site 
+▪ 15 existing generators (east edge of site, 
+supporting Building 1  under Part 3A ) 
+Total: 87 total generators 
+Proposed (SSD-10330 Mod 4) 
+▪ 66 generators (north- west edge of site, inclusive 
+of additional 6 generators proposed under this 
+application) 
+▪ 12 generators (north- east edge of site)  
+▪ 18 generators (east edge of site)  
+ 
+Cumulative Across Site 
+▪ 15 existing generators (east edge of site, 
+supporting Building 1  under Part 3A ) 
+Total: 111 total generators (+24 generators) 
+
+[[page 16]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 16 
+ 
+ 
+Approved (SSD-10330 MOD 2) Proposed (SSD-10330 MOD 4) 
+Height of Generator Stacks (to top of exhaust) 
+▪ 18m - double stacked generators  
+Height of Modified Generator Stack (to top of exhaust) 
+▪ 18m – double stack generators (consistent with 
+approved double stack generators)  
+Diesel Fuel Storage Capacity 
+Approved (SSD-10330 Mod 2) 
+2,043 tonnes 
+ 
+Total Across Site 
+2,790 tonnes 
+Proposed (SSD-10330 Mod 4) 
+3,258 tonnes 
+ 
+Total Across Site 
+3,609 tonnes 
+Note: subject to approved mitigation measures and physical controls cumulative on-site diesel storage 
+remains below 2,000 tonnes at any one time. 
+Parking 
+Approved (SSD-10330 Mod 2) 
+101 car parking spaces 
+Proposed (SSD-10330 Mod 4) 
+162 car parking spaces (+61 spaces) 
+Generator Testing Regime (Across Whole Site / 111 Total Generators) 
+Monthly Testing (no load) 
+▪ 15-minute test duration  
+▪ 5 generators concurrently tested per test.  
+▪ 18 test per month  
+▪ Testing times: - 9:00am to 4:00pm (Weekdays)  
+Cumulative testing hours per year: 54 hours 
+ 
+ 
+ 
+ 
+Yearly Testing (full load) 
+▪ 1-hour test duration  
+▪ 1 generator tested per test.  
+▪ 87 tests per year  
+▪ Testing times: - 9:00am to 4:00pm  
+Cumulative testing hours per year: 87 hours 
+ 
+Total Testing Hours: 141 hours per year 
+Bi‑Monthly Testing (no load, synchronised) 
+▪ 15‑minute maximum test duration per generator 
+(including cooldown)  
+▪ Up to 5 generators tested concurrently, 
+depending on site  
+▪ 155 synchronised no‑ load tests per year (across 
+all sites) 
+▪ Testing times: - 9:00am to 4:00pm (Weekdays)  
+Cumulative testing hours per year: 43.75 hours 
+ 
+Yearly Testing (full load) 
+▪ 60‑minute maximum test duration per generator 
+(including cooldown)  
+▪ 1 generator per test  
+▪ 111 full‑load tests per year (across all sites)  
+▪ Testing times: - 9:00am to 4:00pm (Weekdays)  
+Cumulative full‑load testing hours per year: 111.0 hours 
+Total Testing Hours: 154.75 hours per year 
+Based on the above, it is considered the proposal is substantially the same development as originally 
+granted consent and is lodged under section 4.55(1A) of the Act. Further assessment against the substantially 
+the same test is provided at Section 4 of this Modification Report. 
+[[page 17]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 17 
+ 
+ 
+3.2 Description of Proposed Modifications 
+3.2.1 Additional Back-Up Diesel Generators 
+The proposed modification includes the installation of an additional 24 back‑up diesel generators, increasing 
+the total number of generators approved under SSD-10330 to 96 generators. The additional generators will be 
+installed within purpose‑built acoustic enclosures and arranged in a double‑stack configuration, consistent 
+with the approved generator compounds elsewhere on the site. The proposed generator locations comprise: 
+▪ 18 generators located adjacent to the existing EC1 generator compound; and  
+▪ 6 generators located adjacent to the generator area approved under SSD ‑10330 Mod 2. 
+The location of the additional generators is demonstrated in Figure 3. 
+Figure 3 Proposed Generator Locations  
+ 
+Source: EJE Architecture – Appendix B 
+The double stack arrangement of the generators is proposed to be consistent with the approved double-
+stack generators elsewhere on the site, as demonstrated in Figure 4 overleaf. The proposed double-stack 
+generators are represented in green, approved generators in orange. 
+ 
+
+[[page 18]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 18 
+ 
+ 
+Figure 4 Proposed Double -Stack Generator Layout  
+ 
+Source: EJE Architecture – Appendix B 
+The double‑stack arrangement will feature an overall exhaust stack height of approximately 18 metres above 
+ground level, which is consistent with the height of approved double‑stack generators already assessed and 
+approved for the site.  
+The additional generators will be consistent with the generator plant already approved and installed at the 
+site. As described in the Air Quality Impact Assessment prepared by SLR Consulting (Appendix C), the 
+proposed generators comprise large, high‑efficiency diesel standby generators of the following general 
+types: 
+▪ MTU 20V4000 DS4000 (Penske) generators, with an individual electrical generation capacity of 
+approximately 3.3  MW per unit; and  
+▪ Where relevant, Cummins QSK ‑series standby generators (including QSK95 ‑G4 and QSK60 ‑G4 units) 
+with individual capacities ranging from approximately 1.9  MW to 3.2  MW per unit, consistent with those 
+already operating on the site.  
+The proposed, additional generators will be supported by diesel fuel storage tanks. These tanks will be 
+designed and constructed in accordance with the requirements of AS 1657:2018, AS 1692:2006 and AS 
+1940:2017.  
+The diesel storage tanks on site are in the form of self-bunded, double-skin belly tanks that are mounted to 
+the base of the diesel generator engine skid and installed above ground. The diesel fuel storage amount 
+varies between different generators on site. The total maximum possible capacity for diesel fuel storage will 
+increase to 2,862 tonnes under SSD-10330 Mod 4.  
+However, the tanks will also be fitted with a physical control that limits the maximum fill level of the tank to a 
+value below its installed maximum capacity, such that the cumulative on‑site diesel storage remains below 
+2,000 tonnes at any one time. This will be designed and installed consistent with the design and 
+management measures conditioned under the approved SSD-10330 MOD 2. 
+3.2.2 Updated Testing Regime 
+The proposal seeks to establish a modified testing schedule, which will align with the updated number of 
+generators. The proposed, updated testing regime seeks to undertake no-load and full-load tests on each of 
+the 111 generators across the whole site. The proposed “no-load” test will function as a basic systems check 
+for the generators without energising anything. The proposed “full-load” test will function as a simulation of a 
+power failure event, as the generators are connected to a power sink and operated at full capacity. 
+
+[[page 19]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 19 
+ 
+ 
+  Generator Start Tests Generator On-Load Test 
+Includes Synchronisation Test 
+Totals 
+Site Generator 
+Count 
+Generators 
+per 
+Synchronized 
+Test 
+Test 
+Frequency 
+Gen 
+Load 
+(%) 
+Tests 
+per 
+Year 
+Test 
+Count 
+Maximum 
+Duration in 
+Minutes 
+(Including 
+Cooldown) 
+Cumulative 
+Runtime 
+(mins) 
+Test 
+Frequency 
+Gen 
+Load 
+(%) 
+Tests 
+per 
+Year 
+Test 
+Count 
+Maximum 
+Duration in 
+Minutes 
+(Including 
+Cooldown) 
+Cumulative 
+Runtime 
+(mins) 
+Max Running 
+Simultaneously 
+Total 
+Test 
+Count 
+Maximum 
+Duration in 
+Minutes 
+(Including 
+Cooldown) 
+Runtime 
+(hours) 
+EC1 5 5 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 5 15 75 Annual 100 1 5 60 300 5 10 375 6.25 
+EC2 10 5 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 10 15 150 Annual 100 1 10 60 600 5 20 750 12.50 
+EC3 12 3 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 20 15 300 Annual 100 1 12 60 720 3 32 1020 17.00 
+EC4 12 3 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 20 15 300 Annual 100 1 12 60 720 3 32 1020 17.00 
+EC5 24 3 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 40 15 600 Annual 100 1 24 60 1440 3 64 2040 34.00 
+EC5 
+Uplift 
+12 3 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 20 15 300 Annual 100 1 12 60 720 3 32 1020 17.00 
+EC6 24 3 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 40 15 600 Annual 100 1 24 60 1440 3 64 2040 34.00 
+EC6 
+Uplift 
+12 3 Bi-Monthly 
+(excluding 
+Annual) 
+0 5 20 15 300 Annual 100 1 12 60 720 3 32 1020 17.00 
+Total 111 155 2625 111 6660 264 9285 154.75 
+ 
+[[page 20]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 20 
+ 
+ 
+3.3 Updated Chillers 
+The proposed modification includes updates to the approved cooling infrastructure to support the ongoing 
+operation and reliability requirements of the Eastern Creek Data Centre. The data centre requires a highly 
+resilient and redundant cooling system to maintain appropriate operating conditions within the data halls 
+and associated technical spaces. 
+As part of the proposed modification, the following changes to the approved cooling infrastructure are 
+sought:  
+▪ Installation of  32 additional chillers  and associated pipework, platforms and support infrastructure on 
+the extended rooftop chiller decks  (see Figure 5 below). 
+▪ Modification to the acoustic mitigation measures plan to show the potential acoustic screening at the 
+rooftop chiller deck, consistent with the mitigation approach established under SSD- 10330 Mod 2 (see 
+Figure 6 below). 
+The proposed chillers will operate as part of the site-wide cooling system, which has been designed to 
+provide redundancy and resilience consistent with contemporary data centre design standards. The acoustic 
+screens are proposed to be included within the mitigation measures framework only and would be 
+implemented if required by ongoing monitoring, consistent with the approach previously approved for the 
+site. 
+Figure 5 Proposed Rooftop Chillers  
+ 
+Source: EJE Architecture – Appendix B 
+
+[[page 21]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 21 
+ 
+ 
+Figure 6 Acoustic Mitigation Plan  
+ 
+Source: EJE Architecture – Appendix B 
+3.4 Internal Fitout 
+The proposed modification includes an update to the approved plans to show the internal fitout within 
+Buildings 5 and 6 to support the operational requirements of the approved data centre. This includes: 
+▪ modification to the approved Level 3 layouts within Buildings 5 and 6 to accommodate additional 
+battery rooms and switch rooms; and  
+▪ associated internal building services and electrical infrastructure required to support the 
+uninterruptible power supply systems for the data centre.  
+These updates are contained wholly within the approved building envelopes and do not alter the approved 
+building height, external built form or land use of the site. 
+ 
+ 
+
+[[page 22]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 22 
+ 
+ 
+Figure 7 Proposed Internal Fitout  
+ 
+Source: EJE Architecture – Appendix B 
+ 
+3.5 Formalised Parking & Refined Access 
+The northern area of the site currently accommodates informal construction parking. It is proposed to 
+formalise 61 car parking spaces for permanent operational use. 
+These spaces are intended to operate as supplementary parking to support periodic contractor and 
+maintenance activity associated with data hall fitout, commissioning and larger maintenance events, rather 
+than a substantial increase in the day-to-day site population. The proposal will also rationalise the existing 
+hardstand footprint, with parking bays reorganised to improve efficiency and the adjoining vegetated batter 
+widened. A detailed extract of the proposed formalised carpark is shown at Figure 8 below. It is noted that 
+trees within the area of the temporary construction parking have been removed under a separate Complying 
+Development Certificate (CDC-5809/10, dated October 2020). Refer to the Landscape Plan at Appendix K. 
+The modification will therefore formalise an existing informal parking area within the site for ongoing 
+operational use as part of the approved data centre. This will assist in managing short-term parking demand 
+during peak operational and maintenance activity periods and reduce reliance on the main staff and visitor 
+car park during such events. 
+
+[[page 23]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 23 
+ 
+ 
+In conjunction with the formalisation of the car parking, an existing redundant waste storage room located 
+adjacent to the car park entrance is proposed to be removed. The removal of this structure improves site 
+legibility and circulation at the entry to the parking area and eliminates infrastructure that is no longer 
+required for site operations. 
+Minor refinements to internal driveway access are also proposed. In particular, the alignment of the internal 
+road at the north‑western corner of the site will be adjusted to accommodate the updated generator 
+configuration and to ensure appropriate vehicle manoeuvring and access is maintained. These changes are 
+limited in extent and do not alter the approved access arrangements to or from the site. See Figure 9 below. 
+Figure 8 Proposed Formalised Carpark   
+ 
+ 
+Figure 9 Re-aligned Driveway  & Removal of Redundant Waste Room  
+ 
+Source: EJE Architecture – Appendix B 
+  
+
+[[page 24]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 24 
+ 
+ 
+3.6 Proposed Amendments to Conditions of Consent 
+This section outlines the proposed modification to the description of the approved development and 
+conditions of consent included in SSD-10330. Conditions to be modified by the Mod 4 application are detailed 
+below, additions are in red, and deletions are shown as strikethrough text. 
+3.6.1 Condition A7 
+A7 - back-up generators installed and operated under this consent do not exceed a total installed 
+generating capacity of more than 238 317 megawatts 
+Reason: to align Condition A7 with the proposed capacity of the modified number of back-up generators. 
+3.6.2 Condition A8 
+A8 - The Applicant must ensure: 
+(a) operation of the back-up generators does not exceed 200 hours per year; and 
+(b) the diesel fuel storage capacity for the development under this consent does not exceed 2,043 3,258 
+tonnes; and   
+(c) diesel fuel must be stored and managed in accordance with: 
+(i) the management and mitigation measures in Appendix 2 of this consent; and 
+(ii) the document titled CDC Data Centres EC5 & EC6 Buildings Combustible Fuel Storage Assessment, 
+prepared by Vector Alliance Pty Ltd and dated 4 March 2026. 
+Note:  For the purposes of Condition A8(a), calculation of how many hours the back-up generators are 
+tested, as a collective, should be based on the hours (in real time) that testing is in fact undertaken at the 
+site per year. For example, five generators being tested concurrently over the course of an hour would 
+count as one hour towards the threshold stipulated by Condition A8(a), rather than five hours. 
+Note: For the purposes of Condition A8(b), diesel fuel tonnage is calculated using a density of 0.85 kg/L 
+Reason: to align Condition A8b with the proposed fuel storage capacity limit under SSD-10330. Additionally, 
+to refine the wording to remove any ambiguity on the methodology of calculating the fuel storage capacity 
+limit in tonnage and to remove any ambiguity that Condition A8b applies to diesel fuel storage installed 
+and operated under SSD-10330. This also ensures that the Building 3 (EC3) generator storage is captured in 
+the SSD as the previous approvals have mistakenly excluded EC3 from the calculations.  
+3.6.3 Appendix 1 Development Layout Plans 
+Architectural Drawings prepared by EJE Architecture 
+Job No. Drawing No. Rev Date Title 
+12706 DA-001 N R 27/08/2025 19/03/2026 Site Plan 
+12706 DA-005 A C 15/01/2026 19/03/2026 Site Plan – Potential Acoustic Mitigations 
+12706 DA-006 A 15/01/2026 SSDA – Potential Acoustic Mitigation Details 
+12706 DA-100 K L 27/08/2025 06/02/2026 SSDA Ground Floor Plan 
+12706 DA-101 K L 27/08/2025 06/02/2026 SSDA Level 1 Plan 
+12706 DA-102 K L 27/08/2025 06/02/2026 SSDA Level 2 Plan 
+12706 DA-103 K L 27/08/2025 06/02/2026 SSDA Level 3 Plan 
+[[page 25]]
+ 
+Modification Report | SSD-10330 MOD 4   Description of Proposed Modification 25 
+ 
+ 
+12706 DA-104 N P 27/08/2025 06/02/2026 SSDA Roof Plan 
+12706 DA-200 N P 27/08/2025 06/02/2026 Elevations 
+12706 DA-300 N P 27/08/2025 06/02/2026 Sections 
+12706 DA-501 C 16/04/2020 Security Booth 
+12706 DA-502 B 10/10/2019 Store 
+12706 DA-800 G 21/11/2024 Phasing Plan 
+ 
+Landscape Plans prepared by Terras Landscape Architects 
+Job No. Drawing No. Rev Date Title 
+12706 L01 F 07/04/2020 Landscape Masterplan – Overall 
+12706 L02 F 07/04/2020 Landscape Masterplan A 
+12706 L03 F 07/04/2020 Landscape Masterplan B 
+12706 L04 F 07/04/2020 Landscape Masterplan C 
+02140 E3DA-100 E3 22/10/2019 Section A 
+12706 L06 F 07/04/2020 Planting Palette 
+12706 L010 D 02/07/2026 Site Plan 
+ 
+[[page 26]]
+ 
+Modification Report | SSD-10330 MOD 4   Section 4.55(1A) Assessment 26 
+ 
+ 
+4 Section 4.55(1A) Assessment 
+4.1 Substantially the Same Development 
+The proposed modification is considered to be substantially the same development as that originally 
+approved under SSD-10330, consistent with section 4.55(1A) of the EP&A Act with consideration of the 
+following: 
+▪ The nature and purpose of the development remains unchanged and continues to comprise the 
+operation of a data centre with supporting power, cooling and ancillary infrastructure approved under 
+SSD‑10330. The proposed modifications are to works that are operational and ancillary in nature and 
+are required to support the ongoing use of the approved data centre development under SSD‑ 10330. 
+▪ The modification does not introduce any new land use. The additional generators, chillers, internal 
+fit‑out works, formalisation of existing car parking and minor internal access refinements are contained 
+within the approved site and development footprint.  
+4.2 Minimal Environmental Impact 
+Section 4.55(1A) of the EP&A Act requires that an application to modify a consent demonstrates that the 
+proposed modification will result in minimal environmental impact. As detailed in Section 6 of this 
+Modification Report, the proposal has been supported by technical assessments that consider the impacts of 
+the modified development relative to the approved SSD-10330 development. 
+The proposed modification is considered to result in minimal environmental impact for the purposes of 
+section 4.55(1A) of the EP&A Act because: 
+▪ Detailed technical assessments demonstrate that the environmental impacts of the development as 
+modified are consistent with, and in some cases reduced from, those previously assessed and 
+approved under SSD ‑10330 and its modifications. While cumulative operational and environmental 
+impacts have been assessed having regard to infrastructure operating across the broader site, the 
+proposed modification itself is limited to amendments to infrastructure approved under SSD- 10330. No 
+new or unacceptable environmental impacts are identified as a result of the proposed modifications.  
+▪ technical assessments confirm that impacts relating to noise, air quality, visual amenity, stormwater 
+and dangerous goods can be appropriately managed and remain generally consistent with the 
+approved development; and  
+▪ the proposal will not result in any additional biodiversity, heritage or contamination impacts beyond 
+those previously assessed and approved under SSD- 10330. 
+Accordingly, the proposed modification is considered to satisfy the minimal environmental impact test under 
+section 4.55(1A) of the EP&A Act. 
+While a number of technical assessments have considered cumulative operational scenarios across the 
+broader Eastern Creek Data Centre campus, this approach has been adopted to ensure a conservative and 
+transparent assessment framework having regard to operational thresholds and environmental 
+considerations relevant to the site as a whole. Notwithstanding this approach, the proposed modifications to 
+SSD-10330 remain limited in scope and are confined to the specific works and operational changes described 
+in this application. 
+ 
+ 
+[[page 27]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 27 
+ 
+ 
+5 Statutory Context 
+This section of the report provides an overview of the key statutory requirements relevant to the site and the 
+project as proposed to be modified. It identifies the key statutory matters including the power to grant 
+consent, permissibility, other approvals, pre-conditions and mandatory considerations. 
+5.1 Statutory Requirements 
+Table 4 categorises and summarises the relevant requirements in accordance with the DPHI State Significant 
+Development Guidelines. 
+Table 4 Statutory Requirements  
+Statutory Relevance Action 
+Power to grant approval State Environmental Planning Policy (Planning Systems) 2021 (Planning 
+Systems SEPP) has the purpose of identifying development that is SSDA, 
+State Significant Infrastructure (SSI) (including critical) and regionally 
+significant development. 
+SSD-10330 was classified as SSDA at the time of lodgement as the 
+development had an estimated capital investment value in excess of $50 
+million and accordingly, was classified as SSDA under clause 25 in 
+Schedule 1 of State Environment Planning Policy (State and Regional 
+Development) 2011 (SRD SEPP). 
+Since the lodgment and approval of SSD-10330, the updated threshold for 
+a Data Centre to be classified as SSDA under the Planning Systems SEPP 
+has been updated as follows: 
+25 Data centres 
+Development for the purpose of data centres that has a total power 
+consumption of more than the relevant amount. 
+relevant amount means— 
+(a) for development in relation to which the relevant 
+environmental assessment requirements are notified under 
+the Act on or before 31 May 2023—10 megawatts, or 
+(b) for any other development—15 megawatts. 
+The data centre, as proposed to be modified will meet the power 
+consumption threshold under the Planning Systems SEPP and thus, the 
+project remains appropriately characterised as SSD. 
+The proposed modification is considered as ‘substantially the same 
+development’ as the development for which consent was originally 
+granted’ and is of ‘minimal environmental impact’ so would meet the 
+requirements of S4.55 (1A) of the Environmental Planning and Assessment 
+Act 1979 
+Permissibility The site is zoned IN1 General Industrial. 
+No change of land use is proposed. The development as proposed to be 
+modified will continue to be classified as a data centre and us permissible 
+within the IN1 zone. 
+ 
+[[page 28]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 28 
+ 
+ 
+5.2 Pre-Conditions 
+Table 5 outlines the relevant pre-conditions to exercising the power to grant approval were outlined in the EIS 
+for the original SSDA.  
+Table 5 Pre-conditions  
+Statutory 
+Reference  
+Pre-Condition  Consistency with Approved 
+Development  
+Section 
+in 
+Report  
+Environmental Planning & Assessment Regulation 2021 
+Section 66 
+Contributions 
+plans for 
+certain areas 
+in Sydney – 
+the Act, s 
+4.16(1) 
+Development must not be 
+determined by the consent 
+authority unless a contributions 
+plan has been approved for the 
+land. A contribution is not required 
+if the applicant has entered into a 
+planning agreement with a 
+planning authority under Part 7 of 
+the Act for the matters that may 
+be the subject of a contributions 
+plan. 
+The Blacktown Council Section 7.11 
+Contribution Plan No.18 Eastern Creek 
+Stage 3 applies to land. 
+However, the development is covered by 
+the M7 Business Hub Developer 
+Agreement (2005/4738), which was 
+executed on 25 June 2005. Through 
+commitments and payments made by 
+the previous owners of the site 
+(Goodman and Austral Bricks), adequate 
+provision for State and local 
+infrastructure has already been 
+completed under this agreement. 
+On 31 May 2020, a Satisfactory 
+Arrangement Certificate was issued by 
+the Deputy Secretary, Greater Sydney, 
+Place and Infrastructure as delegate of 
+the Planning Secretary. As such, 
+adequate provision for State and local 
+infrastructure has been made for the 
+subject site, and no further development 
+contributions are required. 
+N/A 
+State Environmental Planning Policy (Industry and Employment) 2021 (I&E SEPP) 
+2.17 
+Requirement 
+for 
+development 
+control plans 
+The consent authority must not 
+grant consent to development on 
+any land to which this Chapter 
+applies unless a development 
+control plan has been prepared 
+for that land. 
+Blacktown Development Control Plan - 
+Eastern Creek Precinct Plan Stage 3 
+(applies to the land and provides 
+detailed planning controls relevant to the 
+site and the proposal. 
+N/A 
+2.19 
+Ecologically 
+Sustainable 
+Development 
+The consent authority must not 
+grant consent to development on 
+land to which this Chapter applies 
+unless it is satisfied that the 
+development contains measures 
+designed to minimise— 
+(a) the consumption of potable 
+water, and 
+(b) greenhouse gas emissions. 
+The development as approved to be 
+modified will continue to adopt the 
+approved ecologically sustainable design 
+measures to minimise potable water use 
+and greenhouse gas emissions. 
+No changes are proposed to rainwater 
+harvesting and reuse system. 
+A Greenhouse Gas Assessment report 
+has been prepared by SLR (Appendix H). 
+Section 
+6.7 
+[[page 29]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 29 
+ 
+ 
+2.20 Height of 
+buildings 
+The consent authority must not 
+grant consent to development on 
+land to which this Chapter applies 
+unless it is satisfied that— 
+(a) building heights will not 
+adversely impact on the amenity 
+of adjacent residential areas, and 
+(b) site topography has been 
+taken into consideration. 
+A Visual Impact Assessment has been 
+undertaken (Appendix G) to assess the 
+impact from additional generators and 
+roof-top chillers. The assessment 
+concludes the visual impact changes are 
+low to negligible being contextually 
+consistent with the form and size of the 
+existing and surrounding buildings. 
+Section 
+6.3 
+2.21 Rainwater 
+harvesting 
+The consent authority must not 
+grant consent to development on 
+land to which this Chapter applies 
+unless it is satisfied that adequate 
+arrangements will be made to 
+connect the roof areas of buildings 
+to such rainwater harvesting 
+scheme (if any) as may be 
+approved by the Secretary. 
+The proposed modification will not result 
+in any changes to the approved 
+rainwater harvest and reuse strategy or 
+the broader WSUD strategy. 
+N/A 
+2.24 Public 
+utility 
+infrastructure 
+The consent authority must not 
+grant consent to development on 
+land to which this Chapter applies 
+unless it is satisfied that any public 
+utility infrastructure that is 
+essential for the proposed 
+development is available or that 
+adequate arrangements have 
+been made to make that 
+infrastructure available when 
+required. 
+The proposed modifications do not 
+trigger the need to upgrade the site’s 
+electricity connection or the additional 
+provision of other utilities. 
+N/A 
+State Environmental Planning Policy (Resilience and Hazards) 2021 (R&H SEPP)  
+Clause 4.6 
+Contamination 
+and 
+remediation to 
+be considered 
+in determining 
+development 
+application 
+Chapter 4 of the R&H SEPP requires 
+that a site must be suitably 
+remediated for the intended 
+purpose prior to the grant of 
+consent for that purpose. 
+Douglas Partners conducted a review of 
+the Preliminary Site Investigation 
+(Douglas, 2019b), stockpile excavated 
+natural materials (ENM) assessment 
+(Douglas, 2023b) and a site suitability 
+assessment (Douglas, 2024, which 
+included a site walkover on 30 October 
+2024) previously prepared for the site. 
+Subject to this assessment, Douglas 
+Partners conclude that the site is 
+considered suitable for its ongoing use as 
+a Data Centre (including the 
+modifications proposed) and no further 
+assessment is required. 
+Section 
+6.9 
+State Environmental Planning Policy (Sustainable Buildings) 2022 (Sustainable Buildings SEPP) 
+4.2 Savings 
+and 
+transitional 
+provisions 
+This policy does not apply to the 
+following— an application for 
+modification of a development 
+consent under the Act, section 
+Given the original development was 
+lodged and approved before 1 October 
+2023, this SEPP does not apply to this 
+proposal. 
+N/A 
+[[page 30]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 30 
+ 
+ 
+4.55 or 4.56 submitted on the NSW 
+planning portal on or after 1 
+October 2023, if the development 
+application for the development 
+consent was submitted on the 
+NSW planning portal before 1 
+October 2023. 
+ 
+5.3 Mandatory Considerations 
+Table 6 outlines the relevant mandatory considerations to exercising the power to grant approval which were 
+considered in the original SSDA. 
+Table 6 Mandatory Considerations  
+Statutory Reference  Mandatory Consideration Section in 
+Modification 
+Report 
+Consideration under the Act and EP&A Regulation 
+Section 1.3 Relevant objects of the Act Section 7.3 
+Section 4.15 (1)(a)(i) 
+Relevant 
+environmental 
+planning instrument 
+Relevant environmental planning instruments: 
+▪ Planning Systems SEPP  
+▪ R&H SEPP – Hazardous and Offensive Development  
+▪ R&H SEPP – Remediation of Land  
+▪ I&E SEPP 
+▪ Sustainable Buildings SEPP  
+Section 5.2 and 5.3 
+Section 4.15 (1)(a)(ii) 
+Relevant draft 
+environmental 
+planning instrument 
+No draft EPIs are applicable N/A 
+Section 4.15 (1)(a)(iii) 
+Relevant development 
+control plan 
+Assessment of the proposal against the Blacktown 
+Development Control Plan - Eastern Creek Precinct Plan 
+Stage 3 is provided below. 
+Section 5.2 
+Section 4.15 (1)(a)(iiia) 
+any planning 
+agreement or draft 
+planning agreement 
+The development is covered by the M7 Business Hub 
+Developer Agreement (2005/4738), which was executed 
+on 25 June 2005. Through commitments and payments 
+made by the previous owners of the site (Goodman and 
+Austral Bricks), adequate provision for State and local 
+infrastructure has already been completed under this 
+agreement. 
+On 31 May 2020, a Satisfactory Arrangement Certificate 
+was issued by the Deputy Secretary, Greater Sydney, Place 
+and Infrastructure as delegate of the Planning Secretary. 
+As such, adequate provision for State and local 
+infrastructure has been made for the subject site, and no 
+further development contributions are required. 
+N/A 
+[[page 31]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 31 
+ 
+ 
+Section 4.15 (1)(a)(iv) 
+relevant matters 
+prescribed by the 
+EP&A Regulation 
+Clause 66, relates to contributions for certain areas of 
+Sydney, is applicable to this development and is 
+addressed in Section 5.2 of this Modification Report. 
+Section 5.2 
+Section 4.15(1)(b) the 
+likely impacts of that 
+development 
+The likely impacts of the development have been identified 
+in Section 6 of the EIS. 
+Section 6 
+Section 4.15(1)(c) The suitability of the Site for the development. An 
+assessment of the suitability of the Site is undertaken in 
+Section 7.6 of this Modification Report. 
+Section 7.6 
+Section 4.15(1)(d) Any submissions made in accordance with the Act or the 
+EP&A Regulation. 
+N/A 
+Section 4.15(1)(2) The public interest of the project is addressed in Section 
+6.6 of this Modification Report. Given the alignment of the 
+project with Federal, State and local strategic policy it is 
+considered that the project is in the public interest. 
+Section 7.6 
+Section 4.55 The proposed development is substantially the same 
+development as the development for which the consent 
+was originally granted and before that consent as 
+originally granted was modified. 
+Section 4 
+Mandatory relevant considerations under EPIs 
+R&H SEPP Chapter 3 of the R&H SEPP mandates the consent authority 
+to evaluate whether an industrial proposal could 
+potentially be hazardous or offensive.  
+A risk screening assessment report was prepared in 
+accordance with the State Environmental Planning Policy 
+No.33 (SEPP 33) by Lote Consulting in support of the SSD-
+10330 development. The assessment concluded that there 
+are no thresholds for storage of diesel fuel identified within 
+Resilience and Hazards SEPP, the increase in the amount of 
+diesel fuel stored on site does not change the outcome of 
+the assessment.  
+Section 6.2 
+I&E SEPP 2.10 Zone 
+objectives and land 
+use table 
+The consent authority must have regard to the objectives 
+for development in a zone when determining a 
+development application in respect of land within the 
+zone. 
+The proposed modification will maintain consistency with 
+the zone objectives of IN1 as the proposal will continue to 
+support the delivery of a data centre which is an 
+employment generating development and will contribute 
+to the diversification of industrial land uses. The careful 
+siting and design of the proposed development, including 
+built form and landscaping respect the natural features of 
+the site and is able to minimise impact on surrounding 
+land use. The development will be undertaken in an 
+ecologically sustainable manner, and measures will be 
+implemented to protect the sustainability of other 
+enterprises and the environment. 
+Section 7.3 
+[[page 32]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 32 
+ 
+ 
+I&E SEPP 2.18 Existing 
+precinct plans under 
+SEPP 59 
+In determining a development application that relates to 
+any land to which an existing precinct plan applies, the 
+consent authority is to take the existing precinct plan into 
+consideration. 
+The site is located within Release Area 3 of the Eastern 
+Creek Precinct of SEPP 59. Eastern Creek Precinct Plan 
+(Blacktown LGA) approved in December 2005 (stage 3). 
+The Precinct Plan provides detailed requirements for 
+servicing, biodiversity, environmental management, traffic 
+and transport and community services within the release 
+area. Development controls for industrial properties 
+include detailed requirements for site dimensions, 
+setbacks, site coverage, parking, vehicle access and 
+manoeuvring, and streetscape and amenity. 
+The development as proposed to be modified will maintain 
+a high degree of compliance with the relevant provisions 
+of the Precinct Plan as: 
+▪ the proposed generators, rooftop chillers and 
+associated infrastructure have been designed having 
+regard to the established industrial character of the 
+locality and the visual amenity of surrounding 
+receivers. The Visual Impact Assessment concludes 
+that the proposal will result in low to negligible visual 
+impacts and will remain compatible with surrounding 
+industrial development. Further assessment is 
+provided in Section 6.3 of this Modification Report.  
+▪ the Noise Impact Assessment demonstrates that 
+operational noise associated with the proposed 
+additional generators, chillers and updated testing 
+regime can be appropriately managed through the 
+recommended mitigation measures and operational 
+controls. The a ssessment confirms the proposal will 
+not result in any unacceptable acoustic impacts at 
+surrounding sensitive receivers. Further assessment is 
+provided in Section 6.5 of this Modification Report.  
+Section 6 
+I&E SEPP - 2.30 Design 
+principles 
+In determining a development application that relates to 
+land to which this Chapter applies, the consent authority 
+must take into consideration whether or not — 
+(a) the development is of a high quality design, and 
+(b) a variety of materials and external finishes for the 
+external facades are incorporated, and 
+(c) high quality landscaping is provided, and 
+(d) the scale and character of the development is 
+compatible with other employment-generating 
+development in the precinct concerned. 
+The assessment of the visual impacts of the development 
+is provided in Section 6.3 of this report. The assessment 
+concludes the visual impact changes are low to negligible 
+Section 6.3 
+[[page 33]]
+ 
+Modification Report | SSD-10330 MOD 4   Statutory Context 33 
+ 
+ 
+being contextually consistent with the form and size of the 
+existing and surrounding buildings. 
+Considerations under other legislation 
+Environment 
+Protection and 
+Biodiversity 
+Conservation Act 1999 
+(Cth) 
+The proposed modification will not result in any changes to 
+the outcomes and findings of the Biodiversity Development 
+Assessment Report Waiver (waiver) granted as part of the 
+original SSDA.  
+The proposed modification will not result in any changes to 
+matters of national environmental significance listed 
+under the Commonwealth Environment Protection and 
+Biodiversity Conservation Act 1999 (EPBC Act) as per the 
+original approval. 
+N/A 
+Heritage Act 1977 The proposed modification will not result in any changes to 
+the outcomes and findings of the Aboriginal Cultural 
+Heritage Assessment (ACHA) prepared in support of the 
+original SSDA. 
+N/A 
+Development Control Plans 
+Section 2.10 of the Planning Systems SEPP states that development control plans (whether made before or 
+after the commencement of this Policy) do not apply to SSD. As such, there is no requirement for 
+assessment of the proposal against the Blacktown Development Control Plan - Eastern Creek Precinct 
+Plan Stage 3 (DCP)for this SSDA. Notwithstanding this, consideration has been given to the following 
+provisions relevant to the limited extent of the proposed modification: 
+3 - Economic 
+Development and 
+Employment 
+The proposal will support the intended Data Centre 
+operations and will deliver significant social and economic 
+benefits associated with the delivery of serviced industrial 
+land within proximity to the growing residential population, 
+and creation of additional job opportunities. 
+N/A 
+7 - Environmental 
+Management 
+Noise and Vibration: 
+A Noise Impact Assessment has been prepared and is 
+provided at Appendix E. The assessment is summarised in 
+Section 6.5 of this Modification Report. 
+Section 6.5 
+11 - Urban Design A detailed analysis of the proposed built form in the 
+context of existing topography and potential for impact on 
+surrounding development has been undertaken as part of 
+the VIA attached in Appendix G. The VIA concluded that the 
+visual impact changes are low to negligible being 
+contextually consistent with the form and size of the 
+existing and surrounding buildings. 
+Section 6.3 
+ 
+[[page 34]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 34 
+ 
+ 
+6 Assessment of Impacts 
+6.1 Dangerous Goods Review 
+A Combustible Fuel Storage Assessment has been prepared by Vector Alliance (Appendix F), assessing the 
+proposed back‑up generators and associated diesel storage against the requirements of AS 1940:2017 - The 
+storage and handling of flammable and combustible liquids and SEPP 33. 
+The assessment confirms the proposed diesel storage at the generator compounds subject to SSD 10330, 
+including Mod 4, can achieve compliance with AS 1940:2017 provided the report’s requirements are 
+implemented in future design stages. While cumulative installed diesel storage capacity across the broader 
+site has been assessed for completeness, the development will continue to operate subject to physical and 
+operational controls that ensure actual on-site diesel quantities remain below 2,000t at any one time. 
+6.1.1 Compliance Assessment 
+Vector Alliance have assessed the proposed generators and associated diesel fuel storage against the 
+requirements of AS1940:2017, the outcomes of this compliance review are provided in Table 7 below. 
+Overall, the proposed diesel fuel storage arrangement at the generator compounds subject to SSD 10330, 
+including Mod 4, is capable of achieving compliance with AS 1940:2017 given the requirements of this report 
+are implemented in the future stages of design. The assessment confirms that the proposed arrangement 
+achieves the required separation distances to boundaries, protected buildings and adjacent storage tanks in 
+accordance with AS 1940:2017, including minimum tank spacing requirements applicable to tanks with 
+integral secondary containment. 
+Table 7 AS1940:2017 Requirements  
+AS1940:2017 Requirements Assessment Results 
+Location and Separation Requirements (Section 5.7 & Table 5.3 & Table 5.4 of AS1940:2017) 
+Table 5.3 requires the distance to the 
+security fence to be the tank diameter or 7.5 
+m, whichever is less. 
+Minimum 9.4 m. 
+Proposed arrangement meets the requirements of AS 
+1940:2017. 
+Table 5.3 requires the distance to protected 
+buildings to be determined using Table 5.4, 
+resulting in a 6.4 m requirement for tanks 
+serving double‑stacked generators and 5 m 
+for tanks serving single‑stacked generators. 
+Minimum 10.9 m. 
+Proposed arrangement meets the requirements of AS 
+1940:2017. 
+Table 5.4 requires a minimum distance to 
+off‑site protected places of 6.4 m for tanks 
+serving double‑stacked generators and 5 m 
+for tanks serving single‑stacked generators. 
+At least 9.4 m considering that is the distance to boundary. 
+(Measurements considering current off-site development 
+indicate approximate distance of 130 m). 
+Proposed arrangement meets the requirements of AS 
+1940:2017. 
+For horizontal tanks, Clause 5.7.6 requires a 
+minimum separation of 0.6 m between 
+tanks. As the tanks are double-walled with 
+integral secondary containment, Clause 
+5.9.2(h) also requires a 0.6 m spacing 
+between tanks. 
+Minimum 1.7 m. 
+The minimum spacing of 1.7 m between tanks meets the 
+requirements of AS 1940:2017 for the following reasons: 
+▪ The proposed fuel storage tanks most resemble the 
+horizontal tank arrangement which requires 0.6 m 
+distance between the tanks.  
+[[page 35]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 35 
+ 
+ 
+▪ The proposed fuel storage tanks are considered to 
+have integral secondary containment which requires 
+0.6 m distance between the tanks.  
+Construction 
+Diesel fuel storage tanks to be designed and 
+constructed in accordance with the 
+requirements of AS 1657:2018, AS 1692:2006 
+and AS 1940:2017 
+Noted, the diesel fuel storage will be designed and 
+constructed in accordance with the relevant requirements. 
+Refer to Section 6.1.2 of this Modification Report. 
+Storage Take Fill Point 
+Section 5.3 of AS 1940:2017 sets out the 
+requirements for fuel storage tank fill points. 
+Table 6 outlines the assessment of the 
+proposed arrangement against these 
+requirements. 
+Noted, the storage tank fill points will be designed and 
+constructed in accordance with the relevant requirements. 
+Refer to Section 6.1.2 of this Modification Report. 
+Ventilation Requirements 
+The vent outlet locations shall comply with 
+the requirements of section 5.4.4 of AS 
+1940:2017. 
+Noted, the vent outlet locations will be designed and 
+constructed in accordance with the relevant requirements. 
+Refer to Section 6.1.2 of this Modification Report. 
+Bunds and Compounds 
+Section 5.8.1 of AS 1940:2017 requires storage 
+tanks to be provided with adequate bunding 
+compound or have integral secondary 
+containment complying with Clause 5.9 of 
+AS 1940:2017. 
+Noted, the proposed arrangement will be designed meet 
+the requirements of AS1940:2017. Refer to Section 6.1.2 of this 
+Modification Report. 
+Supporting Structure 
+Section 5.11.2 of AS 1940:2017 outlines the 
+requirements for any supporting structure 
+between the foundation and tanks. 
+Noted, the supporting fuel storage will be designed and 
+constructed in accordance with the relevant requirements. 
+Refer to Section 6.1.2 of this Modification Report. 
+Fire Services and Equipment (Fire 
+Protection Requirements) 
+Section 11 of AS 1940:2017 sets out the 
+minimum requirements for fire protection 
+system. 
+Noted, the proposed arrangement will be designed meet 
+the requirements of AS1940:2017. Refer to Section 6.1.2 of this 
+Modification Report. 
+Waste Storage and Disposal 
+The fuel storage shall be provided with 
+facilities for storage of waste and 
+contaminated items as per AS 1940:2017 and 
+applicable regulations. 
+Noted, the diesel fuel storage will be designed and 
+constructed in accordance with the relevant requirements. 
+Refer to Section 6.1.2 of this Modification Report. 
+Referrals and Notifications 
+Significant quantities of Dangerous Goods 
+can trigger the requirement for referrals and 
+notifications when seeking planning 
+approvals for development or in this case, 
+modification to an existing SSDA.  
+▪ Total testing time of generators will not exceed 200 
+hours per year .  
+▪ CDC will ensure total amount of stored diesel  remains 
+below threshold of 2,000t at any one time .  
+Refer to Section 6.1.3 of this Modification Report for specific 
+control measures regarding fuel storage capacity.  
+ 
+[[page 36]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 36 
+ 
+ 
+6.1.2 Design Requirements and Mitigation Measures 
+A summary of the relevant design and construction requirements, to be implemented in the future stages of 
+design to achieve compliance with AS1940:2017, is provided below. Further detail is provided in the 
+Combustible Fuel Storage Assessment (Appendix F). 
+▪ The proposed diesel fuel storage tanks shall be designed and constructed in accordance with the 
+requirements of AS 1657:2018, AS 1692:2006 and AS 1940:2017. Manufacturer confirmation of compliance 
+as well as installation certificate indicating compliance w ith these standards shall be obtained.  
+▪ Fill point shall comply with identification of AS 4977:2008 and be provided with adequate spill 
+containment.  
+▪ Protection bollards to be provided to protect the diesel storage tanks from accidental impact where 
+deemed required.  
+▪ Tank to be provided with normal level monitor, suitable high -level alarm (LAH), and a content level 
+monitor adjacent the fill point and visible to the operator as per AS 1940:2017.  
+▪ Venting shall be provided in accordance with AS 1940:2017, including but not limited to venting pipes 
+and vent locations.  
+▪ Fire hydrant coverage to all storage tanks located at western site boundary adjacent EC5 and EC6 
+Buildings to be achieved in accordance with AS 2419.1:2021 as described in Section 3.7.  
+▪ 9 kg powder-type portable fire extinguishers powder type having rating of 2A 60B(E) to be installed 
+serving all external generator structures in accordance with AS/NZ 1841.5:2007, AS 4265:1995, AS 
+1850:2009, and AS 2444:2001 . 
+▪ A fire alarm system to be provided serving all external generator structures located at the western site 
+boundary adjacent EC5 and EC6 Buildings in accordance with AS 1670.1:2018 and AS 1603.5:1996.  
+▪ The fuel storage shall be provided with facilities for storage of waste and contaminated items as per AS 
+1940:2017 and applicable regulations.  
+▪ The proposed diesel fuel storage tanks are to comprise self -bunded double skin belly tanks mounted to 
+the base of generator engine skids and installed above ground, providing integral secondary 
+containment in accordance with AS 1940:2017.  
+6.1.3 Threshold Fuel Storage Measures 
+Based on the proposed operational controls and storage management measures, CDC will ensure capacity 
+is managed below 2000t per the previously agreed measures: 
+▪ Continuous monitoring of fuel levels in each diesel tank via high‑ level sensors connected to the Building 
+Management System (BMS).  
+▪ Installation of tank high ‑level switches that measure actual fuel levels and, when triggered, activate an 
+alarm and automatically shut off fuel delivery. This is a physical control built into each fuel system and 
+cannot be bypassed by routine operations or during refuelling.  
+▪ Use of standard operating procedures and refuelling protocols to manage delivery volumes and timing, 
+ensuring total diesel storage on site remains below 2,000 tonnes at all times.  
+These measures have been identified and conditioned under SSD-10330 Mod 2 (see Section 1.2.1 of this 
+Modification Report) and as such, no additional mitigation measures are required to manage the fuel storage 
+amount. 
+ 
+ 
+ 
+[[page 37]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 37 
+ 
+ 
+6.2 Preliminary Risk Screening 
+A preliminary risk screening was conducted by Vector Alliance (Appendix L) in accordance with Chapter 3 of 
+State Environmental Planning Policy (Resilience and Hazards) 2021 (SEPP 2021). The assessment’s intent was 
+to determine if the proposal is considered a potentially hazardous development which requires the 
+preparation of a Preliminary Hazard Analysis (PHA) in accordance with Hazardous Industry Planning Advisory 
+Paper No.6 – Guidelines for Hazard Analysis and Multi-Level Risk Assessment.  
+The proposed dangerous goods arrangement associated with the proposed modification was identified and 
+reviewed in accordance with Applying SEPP 33 Guideline. The result found no requirement for risk screening of 
+dangerous goods (diesel fuel and lithium-ion batteries) present. The proposed development, as modified, is 
+not considered a potentially hazardous development under SEPP 2021 and does not require the preparation of 
+a PHA. The outcome of the preliminary risk screening remains consistent with the outcome of the previous risk 
+screening completed for the original SSD‑10330 approval. 
+6.3 Visual Impact Assessment 
+A Visual Impact Assessment (VIA) has been prepared by Terras (Appendix G) to assess the visual impacts of 
+the proposed external modifications, which includes additional two stack generators and a chiller deck 
+extension. The site is relatively isolated and to the southernmost section of this development zone. It is 
+bounded by super lot distribution facilities, transmission line easements and various rural commercial land 
+uses. The nearest residential areas of Erskine Park are approximately 2.5 km away and further separated by 
+the Ropes Creek drainage corridor. 
+The location of the double stack generators is along the south western section of Roberts Road which is 
+isolated within the site perimeter and terminates in a turning head and does not provide through access to 
+other roads or areas.  
+A total of four key vantage points were selected for visual impact assessment. The assessment considers the 
+visual impact associated with the height increase to the generator stack and extended chiller deck as viewed 
+from the surrounding road network. 
+The VIA found that the proposed new generators and chiller deck will be visible from across Viewpoints 1, 2, 3, 
+and 4 (see Figure 10), and, it deemed the visual impacts as low to negligible being contextually consistent 
+with the form and size of the existing and surrounding buildings. The proposed double-stack generators and 
+chiller deck extension will appear consistent with the existing built form and industrial character of the site. 
+The proposed works does not impact the skyline or sit outside of the visual character of the area and existing 
+development. 
+ 
+Figure 10 Key Views  
+ 
+Picture 1 View from end of Roberts Road 
+ 
+ 
+Picture 2 View from Capicure Drive 
+ 
+
+[[page 38]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 38 
+ 
+ 
+ 
+Picture 3 View from end of Capicure Drive, looking west  
+Picture 4 View from Roberts Road, looking south 
+The VIA concluded the proposal has a low visual sensitivity due to the large existing surrounding industrial 
+warehouses and buildings that have established the predominant visual character and the limited public 
+access opportunities for close proximity views. 
+The formalisation of the existing northern parking area will not materially alter the visual presentation of the 
+site as the area already facilitates temporary construction parking and has been subject to tree removal 
+under CDC-5809/10, dated October 2020. As part of the proposal, it is proposed to widen the vegetated batter 
+and the landscape interface to the street will be unchanged.  
+6.4 Air Quality Impacts 
+An Air Quality Impact Assessment (AQIA) has been prepared by SLR Consulting Australia in support of the 
+proposed modification (Appendix C). The AQIA assesses the potential air quality impacts associated with the 
+proposed increase in back‑up diesel generators and the updated generator testing regime, having regard to 
+the cumulative operation of all generators across the Eastern Creek Data Centre site. 
+The assessment has been prepared in accordance with the Approved Methods for the Modelling and 
+Assessment of Air Pollutants in NSW (2022) and relevant provisions of the Protection of the Environment 
+Operations Act 1997 and the Protection of the Environment Operations (Clean Air) Regulation 2022. 
+The AQIA used the AERMOD dispersion model with site‑specific meteorological data generated using the 
+Weather Research and Forecasting (WRF) model and processed through AERMET. 
+6.4.1 Operational Air Pollutant Sources 
+As established under the approved SSD‑10330 and SSD‑10330 MOD 2, the primary potential source of air 
+emissions at the Eastern Creek Data Centre is the operation of standby diesel generators during routine 
+testing and, on rare occasions, during emergency power supply events. The approved development includes 
+uninterruptible power supply systems with battery storage to manage short‑term interruptions to grid supply. 
+Diesel generators are only required to operate where interruptions exceed the capacity of the battery 
+systems or during scheduled testing to ensure operational readiness. This operational model remains 
+unchanged under MOD 4. 
+The proposed modification increases the number of approved generators and revises the generator testing 
+regime. However, generator operation continues to be limited in duration and frequency, with total annual 
+operating hours remaining below the 200‑hour threshold established under MOD 2 and relevant provisions of 
+the Protection of the Environment Operations framework. 
+During operation, diesel generators emit combustion by‑products typical of large stationary diesel engines. 
+Consistent with the MOD 2 assessment, the pollutants of interest for the purposes of MOD 4 include: 
+▪ particulate matter (PM ₁₀ and PM₂.₅); 
+▪ nitrogen oxides, assessed as nitrogen dioxide (NO ₂); 
+▪ carbon monoxide (CO);  
+▪ sulfur dioxide (SO ₂); 
+▪ volatile organic compounds, assessed using benzene as a conservative marker; and  
+▪ polycyclic aromatic hydrocarbons (PAHs), expressed as benzo(a)pyrene equivalents.  
+
+[[page 39]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 39 
+ 
+ 
+Other trace pollutants and odour were not identified as material risk drivers and do not warrant further 
+detailed consideration under MOD 4. 
+6.4.2 Sensitive Receptors 
+The updated AQIA continues to consider the area topography, local meteorology and background air quality 
+as part of its modelling. Based on available aerial images, SLR has identified the nearest sensitive receptors 
+and six receptor locations (in addition to those assessed by the 2020 AQIA) have been selected to represent 
+those nearest sensitive receptors beyond the boundaries of the site. These are demonstrated in Figure 11 
+below. 
+Figure 11 Surrounding Sensitive Receptors  
+ 
+ 
+6.4.3 Assessment Outcomes 
+The operational air quality impacts associated with the proposed modification assessed routine generator 
+testing and maintenance activities, which represent the most frequent source of air emissions during normal 
+site operations. 
+While the proposed modification increases the number of approved generators, it also introduces a revised 
+testing regime that limits the number of generators tested concurrently across parts of the site. As a result, 
+the intensity of emissions during testing events is not increased relative to the previously approved scenario 
+(as assessed and approved under SSD-10330 MOD 2). 
+The AQIA assessed conservative operational testing scenarios that assume generators operating at full load, 
+continuous operation during testing windows, and testing occurring under all meteorological conditions 
+
+[[page 40]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 40 
+ 
+ 
+throughout the year. These assumptions significantly overstate actual operating conditions, noting that 
+routine testing is typically undertaken at no load or reduced load and for short durations. 
+The assessment concludes that: 
+▪ Particulate matter (PM ₁₀ and PM₂.₅): 
+Incremental concentrations associated with operational testing are negligible at all receptors. When 
+combined with background concentrations, cumulative PM levels remain within the applicable 24 ‑hour 
+and annual average criteria. The proposed modification does not introduce any additional 
+exceedances beyond those occasionally recorded regionally and unrelated to site operations.  
+▪ Nitrogen dioxide (NO ₂): 
+Predicted incremental and cumulative 1 ‑hour and annual average NO ₂ concentrations remain below 
+the applicable criteria at all receptors during operational testing. This outcome is consistent with the 
+findings of the MOD  2 assessment and reflects the limited duration and controlled nature of generator 
+testing activities.  
+▪ Carbon monoxide (CO) and sulfur dioxide (SO ₂): 
+Incremental concentrations of CO and SO ₂ resulting from operational testing are very small and remain 
+well below the relevant short ‑term criteria at all receptors. The contribution of generator testing to 
+overall ambient concentrations is minimal and does not materially influence local air quality.  
+▪ Air toxics (benzene and PAHs):  
+Predicted concentrations of benzene and PAHs during operational testing are a small fraction of the 
+applicable assessment criteria. The modelling confirms that routine generator testing does not pose a 
+risk to human health or amenity, and that the proposed  modification does not change the air toxics risk 
+profile previously assessed and accepted under MOD  2. 
+Emergency Operation 
+The AQIA also includes a highly conservative emergency scenario that assumes simultaneous operation of all 
+generators across the site. This scenario was modelled for every hour of the year to capture worst-case 
+meteorological conditions. 
+Under this conservative scenario: 
+▪ no exceedances of the particulate matter, CO, SO ₂, benzene or PAH criteria were predicted; and  
+▪ short-term exceedances of the 1 -hour NO₂ criterion were predicted at some receptors under a limited 
+number of meteorological conditions.  
+The AQIA demonstrates that the likelihood of such exceedances occurring in practice is extremely low, given 
+the rarity and short duration of historic power outages, the redundancy of the site’s electrical supply, and the 
+requirement for coincident worst-case dispersion conditions. 
+6.4.4 Mitigation Measures 
+No additional air quality mitigation measures are required to manage the impacts of the proposed 
+development as modified. Existing operational controls, maintenance procedures and testing limitations 
+remain appropriate to ensure compliance with relevant air quality requirements. 
+The following measures will continue to apply: 
+▪ ongoing maintenance of generators to ensure efficient operation and minimise emissions;  
+▪ procedures to minimise generator run times during emergency events;  
+▪ ongoing review of generator technology and emissions performance; and  
+▪ availability of retrofittable emissions control technology should operating conditions change in the 
+future. 
+[[page 41]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 41 
+ 
+ 
+6.5 Noise Impact Assessment 
+A Noise Impact Assessment has been prepared by Stantec (Appendix E) which provides an assessment of 
+the proposed additional generators, testing regime and chillers with consideration of the existing/approved 
+elements across the site. Noise impacts have been comprehensively assessed through the original SSD‑10330 
+approval and subsequent modification applications. In particular, SSD‑10330 MOD 2 established the 
+contemporary acoustic baseline for the site through a full cumulative noise assessment of all existing and 
+approved development across the campus. 
+The assessment considers the cumulative operational noise contribution from infrastructure operating 
+across the broader site, including existing and approved mechanical plant and generators associated with 
+Buildings EC1 to EC6, together with the additional plant proposed under MOD 4. This cumulative assessment 
+approach has been adopted to maintain consistency with the SSD 10330 MOD 2 acoustic framework and to 
+conservatively assess operational impacts across the broader Eastern Creek Data Centre campus. The 
+proposed modification does not change the existing licensing framework for the site. 
+6.5.1 Operational Noise Sources 
+The primary noise sources associated with the Eastern Creek Data Centre comprise operational noise from 
+externally located mechanical plant servicing the data centre buildings and noise from standby diesel 
+generators during testing, maintenance and emergency operation. 
+The proposed MOD 4 works relate to the addition and relocation of mechanical plant and generators 
+associated with Buildings 5 and 6, including indicative acoustic mitigation measures such as rooftop acoustic 
+screening, acoustic shrouds and generator acoustic enclosures, which have been assessed as part of the 
+operational noise model. The acoustic mitigation measures shown on the architectural drawings and 
+referenced within the Noise Impact Assessment represent example treatments capable of achieving the 
+required operational noise outcomes. Following commissioning and verification of operational noise levels at 
+surrounding receivers under normal operating conditions, CDC may implement alternative acoustic 
+mitigation measures where required, provided equivalent or improved acoustic performance is achieved in 
+accordance with the approved noise criteria. The types of noise sources generated by the development 
+remain consistent with those previously assessed and approved under SSD 10330 and SSD 10330 MOD 2 and 
+include: 
+▪ operational noise from mechanical plant, including chillers, PAC units, condensers and associated 
+equipment; and  
+▪ noise from standby diesel generators operating during routine testing and maintenance or during 
+emergency power outage events.  
+The Noise Impact Assessment confirms that the data centre is proposed to operate continuously over a 
+24-hour period, with generator testing and maintenance restricted to the daytime period between 9:00 am 
+and 4:00 pm, with no more than five generators operating concurrently and total testing hours remaining 
+below 200 hours per year. 
+The assessment considers the cumulative noise contribution from the development as a whole, including 
+existing and approved mechanical plant and generators across Buildings EC1 to EC6, together with the 
+additional plant proposed under MOD 4. No changes are proposed to the approved hours of operation or the 
+fundamental operating characteristics of the site. 
+6.5.2 Potential Impacts 
+Three-dimensional acoustic modelling was undertaken using SoundPLAN to predict operational noise levels 
+at the nearest and most affected noise-sensitive receivers. The modelling incorporates manufacturer sound 
+power data, equipment locations, building geometry, ground absorption, acoustic mitigation measures 
+incorporated into the project design and shielding effects, and has been undertaken in accordance with the 
+NSW Noise Policy for Industry (NPfI). 
+The noise modelling was undertaken for the following operational scenarios: 
+[[page 42]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 42 
+ 
+ 
+▪ Scenario  1 – Standard Operation:  
+Mechanical plant operating under normal conditions, with no generators running.  
+▪ Scenario  2 – Generator Testing and Maintenance:  
+Mechanical plant operating with standby diesel generators operating under the approved testing and 
+maintenance regime, limited to the daytime period between 9:00  am and 4:00  pm and a maximum of 
+five generators operating concurrently.  
+▪ Scenario  3 – Emergency Operation:  
+Mechanical plant operating with generators running during a power outage event. Two emergency 
+scenarios were assessed:  
+– a typical outage scenario with approximately 30  per cent of generators operating; and  
+– a highly conservative worst -case scenario with up to 75  per cent of generators operating 
+concurrently.  
+The assessment adopts conservative assumptions, including full load operation of plant and generators and 
+adverse meteorological conditions, including temperature inversions, to represent worst-case operating 
+conditions. Predicted operational noise levels for each scenario were assessed against the applicable Project 
+Noise Trigger Levels (PNTLs) for the relevant day, evening and night-time periods. 
+The modelling demonstrates that under standard operational conditions and during generator testing and 
+maintenance activities, predicted noise levels comply with the applicable PNTLs at all assessed residential, 
+commercial and industrial receivers. No exceedances are predicted during the daytime or evening periods. 
+The assessment confirms that no exceedances are predicted during the approved daytime generator testing 
+periods. 
+During night-time temperature inversion conditions, the modelling identifies minor exceedances of up to 
+approximately 1 dB at a limited number of the most affected residential receivers along Burley Road under 
+both standard operational and emergency operation scenarios. These exceedances are predicted only under 
+conservative worst-case assumptions, including full load operation and infrequent adverse meteorological 
+conditions. 
+The NIA concludes that the predicted exceedances are negligible in acoustic terms, noting that changes in 
+noise level of 1–2 dB are generally imperceptible to the human ear and are consistent with the guidance 
+provided under the NPfI. The assessment also concludes that the proposed modification does not materially 
+alter the existing operational acoustic environment, with predicted changes generally at or below 1 dB relative 
+to the approved MOD 2 scenario. 
+6.5.3 Mitigation Measures 
+A comprehensive suite of feasible and reasonable mitigation measures, consistent with those approved 
+under SSD-10330 MOD 2, has been incorporated into the design and modelled as part of the assessment. 
+These measures include acoustic barriers to rooftop plant areas, acoustic shrouds to chillers, and acoustic 
+enclosures and attenuators to generators, as detailed in the Noise Impact Assessment prepared by Stantec 
+(Appendix E). The assessment notes that additional acoustic treatments to Buildings 5 and 6 rooftop plant, 
+including barriers and chiller shrouds (see Section 3.3), may be implemented following operational 
+verification if required to achieve the nominated noise criteria. 
+No additional mitigation measures are required to manage operational noise impacts associated with the 
+proposed modification. 
+6.6 Stormwater Impact Assessment 
+A Stormwater Management Report prepared by Stantec Australia Pty Ltd (Appendix I), which assesses the 
+stormwater implications of the proposed modification to the approved Eastern Creek Data Centre. The 
+assessment considers whether the proposed works would alter the approved stormwater management 
+[[page 43]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 43 
+ 
+ 
+framework or result in any additional impacts to stormwater quantity, quality or downstream receiving 
+environments. 
+6.6.1 Existing Stormwater Management Framework 
+Stormwater management for the Eastern Creek Data Centre has been comprehensively assessed and 
+approved under SSD-10330 and subsequent modifications, most recently SSD-10330 MOD 2. A site-wide 
+Stormwater Management Plan accepted as part of MOD 2 establishes the approved stormwater strategy for 
+the fully developed site and remains the governing framework for stormwater management. 
+Under the approved development, stormwater runoff is collected via a formalised pit and pipe drainage 
+network and discharged to Blacktown City Council’s regional detention and bio-retention basin located to the 
+north-east of the site. The site is not required to provide on-site detention, with post-development peak flows 
+and stormwater quality managed externally through the regional basin in accordance with Council 
+requirements. The approved drainage system is designed to convey minor storm events within the piped 
+network and manage major storm events via controlled overland flow paths without adverse off-site 
+impacts. 
+Stormwater quality and pollution risk are managed through a combination of existing gross pollutant traps, a 
+SPEL Puraceptor servicing the substation, rainwater harvesting and reuse systems servicing Building 3 to 
+Building 6, and operational and administrative controls associated with diesel storage and refuelling. The 
+Stormwater Management Report also identifies an existing 30kL inline stormwater tank proposed to support 
+hydrocarbon containment storage capacity within the site drainage network. 
+6.6.2 Potential Impacts 
+The proposed modification does not seek to change the approved stormwater system or the manner in 
+which stormwater is managed across the site. For the purposes of stormwater assessment, the modification 
+is limited to the installation of additional diesel generators, associated minor hardstand adjustments, and an 
+increase in the total potential diesel storage capacity associated with generator infrastructure. 
+The Stormwater Management Report concludes that the additional generators are located within areas 
+already approved as hardstand and do not materially change site imperviousness, drainage catchments or 
+overland flow paths. Overall, the report concludes that: 
+▪ Post-development runoff volumes and peak flows remain consistent with the approved scenario and 
+continue to be appropriately managed by the regional detention basin.  
+▪ There is no increase in flood risk on the site or to downstream properties, and existing stormwater 
+quality treatment measures remain suitable for the modified development.  
+▪ No changes are proposed to the approved pit and pipe network, legal points of discharge, on -site 
+detention requirements, stormwater quality treatment infrastructure or rainwater harvesting and reuse 
+systems.  
+▪ Stormwater will continue to be conveyed to Council’s regional detention and bio- retention basin in the 
+same manner as previously approved.  
+While the proposed modification increases the number of diesel generators on site, the assessment confirms 
+that hydrocarbon spill risk continues to be managed through the multi-layered stormwater and fuel 
+management framework already approved. This includes physical containment, stormwater treatment 
+devices and operational controls, supplemented by the provision of penstock valves to allow emergency 
+isolation of the stormwater system if required. 
+6.6.3 Mitigation Measures 
+The Stormwater Management Report concludes that the existing approved stormwater management 
+framework remains appropriate for the proposed modification. The report also recommends supplementary 
+hydrocarbon isolation measures in the form of penstock valves at downstream discharge locations. 
+[[page 44]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 44 
+ 
+ 
+The approved measures that continue to apply include: 
+▪ discharge of stormwater to Council’s regional detention and bio -retention basin via the existing 
+drainage network;  
+▪ retention of existing stormwater quality treatment devices, including GPTs and the SPEL Puraceptor;  
+▪ use of self-bunded generators, bunded refuelling areas and operational spill controls; and  
+▪ emergency isolation of stormwater outfalls via penstock valves.  
+6.7 Greenhouse Gas Assessment 
+A Greenhouse Gas (GHG) Assessment has been prepared by SLR Consulting Australia in support of the 
+proposed modification (Appendix H). The assessment has been undertaken in accordance with the NSW 
+Environment Protection Authority’s Guide for Large Emitters and addresses the requirements of the Climate 
+Change (Net Zero Future) Act 2023. Additionally, an independent GHG Peer Review has also been prepared by 
+Zephyr Environmental and is provided at Appendix N. The Peer Review confirms that the GHG Assessment has 
+been prepared in accordance with the NSW Environment Protection Authority’s Guide for Large Emitters and 
+is suitable to inform the environmental assessment of the proposed modification. 
+The GHG Assessment considers the cumulative emissions profile of the Eastern Creek Data Centre, including 
+existing operations, development approved under SSD‑10330 and its modifications, and the additional 
+infrastructure proposed under this MOD 4 application. 
+6.7.1 Assessment Methodology 
+The GHG Assessment quantifies Scope 1, Scope 2 and Scope 3 greenhouse gas emissions associated with the 
+project, consistent with the definitions under the National Greenhouse and Energy Reporting (NGER) Act and 
+Australia’s National Greenhouse Accounts. The assessment also aligns with the NSW EPA Guide for Large 
+Emitters and the Climate Change (Net Zero Future) Act 2023. For the purposes of emissions modelling, the 
+assessment conservatively assumes generator testing based on cumulative per‑generator operating hours. 
+While the approved operational testing framework remains below 200 hours per year when calculated on a 
+concurrent real‑time basis consistent with Condition A8, the emissions assessment adopts a more 
+conservative methodology for greenhouse gas accounting purposes. 
+The assessment considers three emissions scenarios, as required by the EPA Guide for Large Emitters: 
+▪ a Business as Usual (BAU) scenario reflecting the approved development to date;  
+▪ a Modified Business scenario reflecting the development as proposed to be modified; and  
+▪ a Project Only scenario capturing emissions attributable solely to the proposed modification.  
+Emissions have been estimated for both planned operational throughput and a conservative 
+maximum‑capacity scenario. The assessment also considers the full lifecycle of the project, including 
+construction, operation and equipment replacement over the life of the asset from 2026 to 2076. 
+6.7.2 Potential Impacts 
+Consistent with the approved development and previous modifications, the key sources of greenhouse gas 
+emissions associated with the modified development are: 
+▪ Scope 1 emissions, primarily from diesel fuel consumption associated with emergency and testing 
+operation of backup generators, and refrigerant leakage from cooling equipment , noting the 
+assessment adopts the NSW EPA definition whereby all indirect emissions associated with electricity 
+consumed within the licensed premises are treated as Scope  2 emissions; 
+▪ Scope 2 emissions, primarily from electricity consumption associated with data centre operations, 
+including facility services, cooling systems and customer IT equipment; and  
+[[page 45]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 45 
+ 
+ 
+▪ Scope 3 emissions, largely associated with the manufacture, delivery and installation of major 
+equipment (notably generators and chillers), with smaller ongoing contributions from fuel supply, 
+waste and supporting services.  
+The GHG Assessment identifies that Scope 2 emissions associated with electricity consumption are the 
+dominant source of unmitigated emissions over the operational life of the project. 
+The cumulative operation of the broader Eastern Creek Data Centre campus, inclusive of existing operations, 
+approved development and the MOD 4 infrastructure, would exceed the NGER facility reporting threshold of 
+25,000 t CO₂-e per annum for combined Scope 1 and Scope 2 emissions and is therefore classified as a large 
+emitter for the purposes of the EPA Guide. 
+However, the GHG Assessment concludes that: 
+▪ emissions associated with diesel generator operation are relatively small compared to 
+electricity ‑related emissions and are limited by strict operational controls on generator testing and use;  
+▪ Scope 3 emissions are concentrated in the construction and installation phase, particularly associated 
+with major plant and equipment, and reduce substantially during ongoing operations; and  
+▪ the project’s contribution to NSW ‑wide greenhouse gas emissions remains very small, representing a 
+fraction of one per cent of projected State emissions, even under conservative unmitigated scenarios  
+(with the assessment estimating a peak contribution of approximately 0.16% of projected NSW 
+emissions in 2040 prior to mitigation measures being applied).  
+Additionally, greenhouse gas emissions associated with the modified development can be effectively 
+managed through established and committed mitigation measures. The GHG Assessment notes that CDC 
+has committed to achieving net zero carbon for Scope 1 and Scope 2 emissions by 2030 through a 
+combination of operational efficiency measures, renewable electricity procurement and carbon offsetting. 
+CDC’s sustainability commitments and emissions reporting framework are publicly reported through its 
+annual Sustainability Report prepared in accordance with the Australian Sustainability Reporting Standards. 
+The Peer Review supports this conclusion, noting that the mitigation hierarchy and proposed offset approach 
+are appropriate for the scale and nature of residual emissions associated with the modified project. 
+6.7.3 Mitigation Measures 
+As per the GHG Assessment recommendations, the mitigation measures approved under SSD‑10330 MOD 2 
+can continue to support the proposed modification and maintain consistency with: 
+▪ the NSW Government’s legislated target of net zero emissions by 2050 under the Climate Change (Net 
+Zero Future) Act 2023; and  
+▪ the principles of ecologically sustainable development  (ESD), including the minimisation of greenhouse 
+gas emissions through design, operational efficiency and offsets.  
+A continuation and scaling of the existing emissions management framework that has been established for 
+the Eastern Creek Data Centre and previously assessed under MOD 2 can account for the increased number 
+of generators and additional cooling infrastructure proposed. This includes continued procurement of 
+renewable electricity certificates to match electricity consumption across the campus and the purchase of 
+Australian Carbon Credit Units (ACCUs) to offset residual Scope 1 emissions associated with generator testing 
+and refrigerant leakage. The Peer Review confirms that the availability of ACCUs is expected to be sufficient to 
+meet the projected residual Scope 1 offset requirement identified for the modified project. As such, no new 
+avoidance, substitution or offset measures are proposed specifically as a result of the additional generators 
+and chillers under MOD 4. 
+6.8 Traffic and Parking 
+A Transport Statement has been prepared by Ason Group (Appendix J) to assess the traffic, access and 
+parking implications of the proposed modification. The assessment considers the operational characteristics 
+of the Eastern Creek Data Centre campus, including the formalisation of 61 existing temporary construction 
+[[page 46]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 46 
+ 
+ 
+parking spaces for permanent operational use, minor refinements to the internal road network and the 
+operational implications associated with the modified development. The proposal does not alter the 
+approved external access arrangements to the site, with vehicular access continuing to be provided via 
+Roberts Road and Capicure Drive. 
+The Transport Statement concludes that the operational characteristics of the data centre remain 
+fundamentally consistent with the approved development. While the proposed modification to SSD‑10330 
+includes additional generators, chillers and internal fitout changes, these elements do not generate material 
+increases in staff numbers, deliveries or visitor activity beyond the operational profile already established for 
+the campus. The traffic assessment recognises that data centres are a low traffic-generating land use due to 
+their highly automated nature and limited staffing requirements, and therefore conventional industrial floor 
+area-based traffic generation assumptions are not representative of actual operational demand. 
+The assessment adopts an operational demand-based methodology having regard to updated staffing, 
+contractor and visitor assumptions for the campus. Based on this assessment, the modified development is 
+expected to generate approximately 178 vehicle movements per day, with up to 25 vehicle movements during 
+the AM and PM road network peak hours respectively. A breakdown of the operational trip generation is 
+provided in Table 8 below. 
+ 
+Table 8 Operational Trip Generation 
+Time Period  No. of People  Total Trips (Arrival and 
+Departures)  
+Off-peak: Operational staff, 
+security staff and client  
+4 operational staff  
+4 security staff  
+4 clients  
+8 operational staff  
+8 security staff  
+8 clients  
+Road network peak hours (Arrival 
+7-9am, Departure 3-6pm):  
+Operational staff, clients, visitors 
+and maintenance  
+11 operational staff  
+21 clients  
+8 maintenance contractors  
+8 Visitors  
+22 operational staff  
+42 clients  
+16 maintenance contractors  
+16 Visitors  
+Daily (between 9am-4pm): 
+Maintenance, visitors and 
+deliveries  
+12 maintenance contractors  
+12 visitors  
+5 deliveries  
+24 maintenance contractors  
+24 visitors  
+10 deliveries  
+These volumes remain low in the context of the surrounding industrial road network and would not result in 
+any material impacts to the operation or performance of nearby intersections. The proposal would continue 
+to operate within the capacity of the surrounding road network and no upgrades to the external road network 
+are required. 
+The proposed formalisation of 61 parking spaces will support the operational requirements of the campus, 
+including maintenance personnel, contractors and visitors associated with the ongoing operation of the data 
+centre. As identified in the Traffic Assessment prepared for the original SSD (SSD-10330) assessment, the 
+application of conventional floor area-based parking rates under the relevant DCP controls would result in a 
+substantial overprovision of parking (the original SSD assessment identifying 587 spaces under the DCP 
+rates). This is well in excess of the parking requirements relative to the actual operational requirements of the 
+data centre campus. As such, the proposed 61 additional spaces are considered appropriate and sufficient to 
+accommodate the updated operational demands of the campus 
+[[page 47]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 47 
+ 
+ 
+The Transport Statement confirms that the proposed parking layout and internal access arrangements are 
+capable of complying with the relevant Australian Standards and will continue to accommodate vehicle 
+manoeuvring and servicing requirements.  
+6.9 Site Suitability 
+A Site Suitability Assessment has been prepared by Douglas Partners (Appendix D) to assess contamination 
+considerations associated with SSD-10330 MOD 4. The assessment included a review of the proposed 
+modification plans, previous contamination and geotechnical investigations undertaken for the site, and 
+previous desktop reviews prepared for SSD-10330 MOD 2. The assessment also reviewed the Preliminary Site 
+Investigation prepared for the original SSD application and the earlier Site Suitability Assessment undertaken 
+for the Eastern Creek campus. The assessment notes that the site forms part of a broader area previously 
+subject to a Site Audit Statement and Site Audit Report prepared by Peter J Ramsay & Associates Pty Ltd in 
+2011, which concluded the site was suitable for the approved industrial land use. The proposed modification 
+works remain within the previously audited boundary. 
+The assessment concludes that the site has a low risk of potential contamination and that site conditions 
+have not significantly changed since preparation of the previous MOD 2 desktop assessment. The proposed 
+modification works, including the installation of additional diesel generators, additional cooling infrastructure, 
+internal fitout works, formalisation of parking and minor road modifications, are not considered to 
+significantly alter previous conclusions regarding suitability of the site for the proposed development. In 
+relation to the proposed generators, the assessment notes that where constructed appropriately with respect 
+to relevant standards and codes of practice, designed, constructed and operated in accordance with the 
+relevant Australian Standards, operational controls and applicable codes of practice, the risk of diesel leaks 
+or spills would be minimised. 
+While limited excavation may be required for elements of the proposed modification, works would occur 
+within previously assessed areas of the site and any imported materials would be required to be legally 
+importable and appropriately classified. An unexpected finds protocol can also be implemented during works 
+to manage any residual risks during excavation. 
+As such, the site is considered to have a low risk of potential contamination, the proposed modification is not 
+considered to pose any additional contamination risk, and no further contamination investigation is 
+warranted at this stage. The Douglas review concludes that the proposed modification works do not 
+significantly alter previous conclusions regarding the suitability of the site for the approved development. 
+6.10 Waste Management 
+An Operational Waste Management Plan (OWMP) has been prepared by SLR Consulting Australia (Appendix 
+M) to assess the waste management implications of the proposed modification. The OWMP considers the 
+proposed removal of the waste storage room located adjacent to the northern car park area and confirms 
+that the structure is redundant to current site operations.  
+The proposed modification does not alter the operational characteristics of the approved data centre or 
+result in any material change to the type or quantity of waste generated on site. Operational waste streams 
+will continue to comprise general waste and commingled recycling, food and organic waste, cardboard and 
+packaging waste, e-waste, bulky waste items and plant maintenance waste. Bins servicing the site are 
+generally located at the Building 2 and Building 3 loading docks, with dedicated waste streams provided for 
+garbage, cardboard, recyclables, secure destruction, organics, pallets and metals. Existing operational waste 
+management arrangements will therefore continue to service the development without reliance on the 
+redundant waste storage room. The OWMP confirms that ongoing waste management practices will continue 
+to align with the waste management hierarchy and relevant NSW EPA guidelines, including measures relating 
+to waste avoidance, recycling, source separation, signage, monitoring and contractor management. 
+Accordingly, the removal of the redundant waste storage room will not result in any adverse waste 
+management impacts for the ongoing operation of the data centre. The proposed modification will continue 
+[[page 48]]
+ 
+Modification Report | SSD-10330 MOD 4   Assessment of Impacts 48 
+ 
+ 
+to maintain appropriate waste storage, handling and collection arrangements across the site, consistent with 
+the approved operational framework and the recommendations of the OWMP. 
+ 
+[[page 49]]
+ 
+Modification Report | SSD-10330 MOD 4   Justification of Modified Project 49 
+ 
+ 
+7 Justification of Modified Project 
+This section of the report provides a comprehensive evaluation of the modified proposal having regard to its 
+economic, environmental and social impacts, including the principles of ESD. 
+It assesses the potential benefits and impacts of the proposed modifications, considering the interaction 
+between the findings in the detailed assessments and the compliance of the proposal within the relevant 
+controls and policies. 
+7.1 Project Design 
+The proposals have been designed to retain the key principles of the overall Data Centre approved in the 
+SSD-10330 consent. These principles include:  
+▪ Supporting the ongoing operation and optimisation of the approved data centre campus through the 
+efficient use of established industrial land and existing infrastructure within the site.  
+▪ Responding to the continued growth in demand for digital infrastructure, data storage and 
+cloud‑based services across the Sydney region, while supporting the operational requirements of future 
+tenants. 
+▪ Incorporating specialist technical and environmental input to inform the siting, design and operation of 
+the proposed infrastructure, including additional generators, cooling infrastructure, diesel storage and 
+the updated generator testing regime.  
+▪ Ensuring the proposed modifications remain responsive to the site context and surrounding land uses, 
+including nearby sensitive receivers, with technical assessments confirming that potential impacts can 
+be appropriately managed through design responses an d mitigation measures.  
+▪ Maintaining consistency with the approved character, function and operational framework of the 
+existing data centre development, with the proposed works remaining ancillary to the approved use of 
+the site. 
+7.2 Strategic Context 
+The proposed modifications will enable the approved data centre to meet the future operational needs of 
+tenants and support functional data centres within the Blacktown LGA. This aligns with the strategic 
+objectives outlined in the Greater Sydney Region Plan: A Metropolis of Three Cities, Our Greater Sydney 2056: 
+Central City District Plan, and the Future Transport Strategy 2056 by: 
+▪ Supporting the provision of employment opportunities that are accessible to residents of the Central 
+and Western Cities.  
+▪ Reinforcing the appropriate and strategic use of land within the Western Sydney Employment Area, 
+south of the Bungarribee, Huntingwood and Arndell Park industrial precincts.  
+The proposed modification also has regard to the NSW Government’s draft reformed strategic planning 
+framework set out in A New Approach to Strategic Planning, the Draft Sydney Plan and the Statewide Policy 
+for Industrial Lands. The modification is consistent with the direction of this emerging framework by: 
+▪ Enabling coordinated delivery of critical power, digital and utility infrastructure required for data centre 
+operations. 
+▪ Facilitating high ‑value digital industries within designated industrial and employment lands.  
+▪ Aligning development with the spatial structure  of major employment precincts  in Western Sydney . 
+▪ Reinforcing the protection and efficient use of industrial land in response to supply constraints.  
+[[page 50]]
+ 
+Modification Report | SSD-10330 MOD 4   Justification of Modified Project 50 
+ 
+ 
+7.3 Statutory Context 
+The relevant State and Local environmental planning instruments are outlined in Section 4. The assessment 
+concludes that the modified proposal complies with the relevant provisions within the relevant instruments 
+as summarised below: 
+▪ The proposals have been assessed in respect to the relevant objects of the Act as defined in Section 1.3 
+of the Act as:  
+– The proposed modification will support the ongoing operation of critical digital infrastructure within 
+the Western Sydney Employment Area, contributing to economic productivity, employment 
+generation and the orderly and efficient use of industrial land.  
+– The modified development will continue to incorporate the ecologically sustainable development 
+measures approved under the original SSD consent, including operational, stormwater, energy 
+efficiency and emissions management measures.  
+– The proposed modification will not alter the approved ecological or Aboriginal cultural heritage 
+outcomes for the site and will maintain consistency with the findings of the original environmental 
+assessments.  
+– The proposed generators, cooling infrastructure and associated works have been designed to 
+remain compatible with the existing and approved industrial character of the site and surrounding 
+locality, with technical assessments confirming acceptable amenity outcomes.  
+– The construction, operation and maintenance of the proposed generators and diesel fuel 
+infrastructure will continue to be undertaken in accordance with the relevant Australian Standards 
+and operational controls to support the health and safety of site occu pants and the surrounding 
+environment.  
+– The proposal has been subject to a detailed environmental assessment proportionate to the nature 
+and scale of the modification, with appropriate mitigation measures identified where required.  
+– The application will be publicly exhibited by DPHI in accordance with the requirements of the Act, 
+providing opportunity for community participation in the assessment process.  
+▪ The proposal is permissible under the IN1 zoning and satisfies the substantially the same test and 
+minimal environmental impact test as required by section 4.55(1A)  
+▪ The proposal complies with  all of the relevant provisions of I&E SEPP and the R&H SEPP as detailed in 
+Section 4. 
+▪ The proposals have been prepared to maintain compliance with the Blacktown Development Control 
+Plan - Eastern Creek Precinct Plan Stage 3  provisions as they relate to the extent of the proposed 
+modifications.  
+▪ The proposal will not result in any impacts to the relevant species and maintains compliance with the 
+EPBC Act. 
+▪ The proposal will not change the extent of impact assessed under the originally approved BDAR waiver.  
+▪ The proposal will not change the extent of impact assessed under the originally approved ACHA.  
+7.4 Community Views 
+The appropriate community notification will be undertaken by DPHI as part of the public exhibition process. 
+Consultation feedback received during assessment of the application will continue to be considered. 
+7.5 Likely Impacts of the Modified Proposal 
+The modified proposal has been assessed considering the potential environmental, economic and social 
+impacts as outlined below: 
+[[page 51]]
+ 
+Modification Report | SSD-10330 MOD 4   Justification of Modified Project 51 
+ 
+ 
+▪ Natural Environment: the proposed modifications address the principles of ESD in accordance with the 
+requirements of the Regulations and as outlined below:  
+– Conservation of biological diversity and ecological integrity: The proposal will not result in any 
+impacts to the relevant species and maintains compliance with the EPBC Act. The proposal will not 
+change the extent of impact assessed under the originally a pproved BDAR waiver.  
+– Environmental management and operational impacts: The Air Quality Impact Assessment 
+concludes that the proposed modification will not result in any unacceptable air quality impacts at 
+nearby sensitive receivers and will maintain consistency with the outcom es of the approved 
+SSD‑10330 MOD 2 assessment. The Noise Impact Assessment confirms that operational noise 
+impacts can be appropriately managed through the incorporation of acoustic screening, chiller 
+shrouds, acoustic enclosures and operational controls, with predicted impacts remaining generally 
+consistent with the approved development . The proposed dangerous goods and diesel storage 
+arrangements will be designed, operated and managed in accordance with the relevant Australian 
+Standards and operational controls to minimise environmental risk. The proposed modification will 
+also not alte r the approved stormwater management framework or result in unacceptable impacts 
+relating to water quality, flooding or downstream drainage.  
+▪ Built Environment:  The scale, form and character of the proposed generators, rooftop chillers and 
+associated infrastructure are consistent with the established industrial character of the locality and the 
+approved data centre campus. The Visual Impact Assessment concludes th at the proposal will result in 
+low to negligible visual impacts and will remain compatible with surrounding industrial development 
+along Roberts Road and within the broader Western Sydney Employment Area.  
+▪ Social / Economic:  The proposal will support the ongoing operation of critical digital infrastructure and 
+deliver ongoing economic benefits associated with employment generation, investment in the Western 
+Sydney Employment Area and the continued operation of a strategically significant data centre 
+campus. 
+7.6 Suitability of the Site 
+The site is considered highly suitable for the modified proposal for the following reasons: 
+▪ The site is zoned IN1 General Industrial under Chapter 2 –  Western Sydney Employment Area of the I&E 
+SEPP. The proposal is permissible with consent and remains consistent with the objectives of the zone.  
+▪ The proposed modifications are consistent with the established industrial character of the locality and 
+the strategic function of the Western Sydney Employment Area.  
+▪ The proposed works are contained within an existing approved data centre campus and will not result 
+in any unacceptable environmental impacts that would make the site unsuitable for the development.  
+▪ Technical assessments confirm the site remains suitable for the modified development, including with 
+regard to contamination, geotechnical conditions and operational environmental impacts, as detailed 
+in Section 6 of this Modification Report.  
+7.7 Public Interest 
+The proposed modification is considered to be in the public interest for the following reasons: 
+▪ The proposal is consistent with the relevant State and local planning controls.  
+▪ Technical assessments confirm the proposal will not result in any unacceptable environmental, social 
+or economic impacts.  
+▪ The approved land use remains unchanged and continues to be consistent with the objectives of the 
+IN1 General Industrial zone.  
+[[page 52]]
+ 
+Modification Report | SSD-10330 MOD 4   Justification of Modified Project 52 
+ 
+ 
+▪ The proposal will support the ongoing operation of critical digital infrastructure within the Western 
+Sydney Employment Area and reinforce the strategic role of the precinct as a major employment hub.  
+Accordingly, the proposed modification is considered suitable for approval. 
+[[page 53]]
+ 
+Modification Report | SSD-10330 MOD 4   Disclaimer 53 
+ 
+ 
+Disclaimer 
+This report is dated August 2026 and incorporates information and events up to that date only and excludes 
+any information arising, or event occurring, after that date which may affect the validity of Urbis Ltd (Urbis) 
+opinion in this report. Urbis prepared this report on the instructions, and for the benefit only, of Canberra Data 
+Centre (Instructing Party) for the purpose of Modification Application (Purpose) and not for any other 
+purpose or use. To the extent permitted by applicable law, Urbis expressly disclaims all liability, whether direct 
+or indirect, to the Instructing Party which relies or purports to rely on this report for any purpose other than the 
+Purpose, and to any other person which relies or purports to rely on this report for any purpose whatsoever 
+(including the Purpose). 
+In preparing this report, Urbis was required to make judgements which may be affected by unforeseen future 
+events, the likelihood and effects of which are not capable of precise assessment. 
+All surveys, forecasts, projections and recommendations contained in or associated with this report are made 
+in good faith and on the basis of information supplied to Urbis at the date of this report, and upon which Urbis 
+relied. Achievement of the projections and budgets set out in this report will depend, among other things, on 
+the actions of others over which Urbis has no control. 
+In preparing this report, Urbis may rely on or refer to documents in a language other than English, which Urbis 
+may arrange to be translated. Urbis is not responsible for the accuracy or completeness of such translations 
+and disclaims any liability for any statement or opinion made in this report being inaccurate or incomplete 
+arising from such translations. 
+Whilst Urbis has made all reasonable inquiries it believes necessary in preparing this report, it is not 
+responsible for determining the completeness or accuracy of information provided to it. Urbis (including its 
+officers and personnel) is not liable for any errors or omissions, including in information provided by the 
+Instructing Party or another person or upon which Urbis relies, provided that such errors or omissions are not 
+made by Urbis recklessly or in bad faith. 
+This report has been prepared with due care and diligence by Urbis and the statements and opinions given 
+by Urbis in this report are given in good faith and in the reasonable belief that they are correct and not 
+misleading, subject to the limitations above. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[[page 54]]
+ 
+Modification Report | SSD-10330 MOD 3    54 
+ 
+ 
+Appendix A Updated Mitigation 
+Measures 
+[[page 55]]
+ 
+Modification Report | SSD-10330 MOD 3    55 
+ 
+ 
+Appendix B Architectural Plans 
+[[page 56]]
+ 
+Modification Report | SSD-10330 MOD 3    56 
+ 
+ 
+Appendix C Air Quality Impact 
+Assessment 
+[[page 57]]
+ 
+Modification Report | SSD-10330 MOD 3    57 
+ 
+ 
+Appendix D Site Suitability Assessment 
+[[page 58]]
+ 
+Modification Report | SSD-10330 MOD 3    58 
+ 
+ 
+Appendix E Noise Impact Assessment 
+[[page 59]]
+ 
+Modification Report | SSD-10330 MOD 3    59 
+ 
+ 
+Appendix F Combustible Fuel Storage 
+Assessment 
+[[page 60]]
+ 
+Modification Report | SSD-10330 MOD 3    60 
+ 
+ 
+Appendix G Visual Impact Assessment 
+[[page 61]]
+ 
+Modification Report | SSD-10330 MOD 3    61 
+ 
+ 
+Appendix H Greenhouse Gas 
+Assessment 
+[[page 62]]
+ 
+Modification Report | SSD-10330 MOD 3    62 
+ 
+ 
+Appendix I Stormwater Management 
+Plan 
+[[page 63]]
+ 
+Modification Report | SSD-10330 MOD 3    63 
+ 
+ 
+Appendix J Traffic Impact Assessment 
+[[page 64]]
+ 
+Modification Report | SSD-10330 MOD 3    64 
+ 
+ 
+Appendix K Landscape Plans 
+[[page 65]]
+ 
+Modification Report | SSD-10330 MOD 3    65 
+ 
+ 
+Appendix L Preliminary Risk Screening 
+[[page 66]]
+ 
+Modification Report | SSD-10330 MOD 3    66 
+ 
+ 
+Appendix M Waste Management Plan 
+[[page 67]]
+ 
+Modification Report | SSD-10330 MOD 3    67 
+ 
+ 
+Appendix N GHG Peer Review 
+[[page 68]]
+ 
+Modification Report | SSD-10330 MOD 3    68 
+ 
+ 
+  urbis.com.au 

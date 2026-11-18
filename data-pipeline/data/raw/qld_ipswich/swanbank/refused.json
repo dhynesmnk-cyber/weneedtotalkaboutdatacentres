@@ -1,0 +1,12 @@
+{
+ "https://www.datacenterdynamics.com/en/news/plans-filed-for-10-story-data-center-outside-brisbane-australia/": {
+  "checked_utc": "2026-11-18T01:44:42+00:00",
+  "how": "HTTP 403",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
+ },
+ "https://www.planningalerts.org.au/applications/3501680": {
+  "checked_utc": "2026-11-18T01:44:46+00:00",
+  "how": "HTTP 403",
+  "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
+ }
+}
