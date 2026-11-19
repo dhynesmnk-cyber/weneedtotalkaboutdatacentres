@@ -1,0 +1,9 @@
+The module 'react' was not found. Next.js requires that you include it in 'dependencies' of your 'package.json'. To add it, run 'npm install react'
+The module 'react-dom' was not found. Next.js requires that you include it in 'dependencies' of your 'package.json'. To add it, run 'npm install react-dom'
+▲ Next.js 16.4.6
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 88ms
+✓ Running next.config took 9ms
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at ignore-listed frames

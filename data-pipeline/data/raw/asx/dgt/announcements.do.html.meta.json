@@ -1,8 +1,0 @@
-{
- "url": "https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=DGT&timeframe=Y&year=2026",
- "requested_url": "https://www.asx.com.au/asx/v2/statistics/announcements.do?by=asxCode&asxCode=DGT&timeframe=Y&year=2026",
- "fetched_utc": "2026-11-16T02:01:06+00:00",
- "sha256": "ad2b8ffac916863094716b410d5cd7feea5d60e9c0bfac9abface1e7ae32af95",
- "bytes": 135071,
- "user_agent": "ADCO-research/1.0 (Australian Data Centre Observatory; open public-interest research database; single-threaded polite crawler; stop on request)"
-}

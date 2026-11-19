@@ -1,0 +1,8 @@
+npm error code ENOENT
+npm error syscall open
+npm error path /state/arena-home/tenants/local/sessions/bd68e787-f3fd-4bc3-a03b-0f6df4c8e2bb/workspace/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/state/arena-home/tenants/local/sessions/***/workspace/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /tmp/.npm/_logs/2026-11-19T01_26_17_513Z-debug-0.log
